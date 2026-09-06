@@ -36082,6 +36082,20 @@ window.APP_EXAMS = [
   "mins": 80
  },
  {
+  "id": "tea-106-1-t2004",
+  "cat": "teacher",
+  "exam": "teacher",
+  "stage": 2,
+  "roc": 106,
+  "nth": 1,
+  "subj": "t2004",
+  "subjName": "教育原理與制度",
+  "label": "106 年　幼兒園師資類科　教育原理與制度",
+  "n": 40,
+  "exp": 0,
+  "mins": 80
+ },
+ {
   "id": "tea-106-1-t2005",
   "cat": "teacher",
   "exam": "teacher",
@@ -36106,6 +36120,20 @@ window.APP_EXAMS = [
   "subjName": "幼稚園課程與教學",
   "label": "106 年　幼兒園師資類科　幼稚園課程與教學",
   "n": 30,
+  "exp": 0,
+  "mins": 80
+ },
+ {
+  "id": "tea-106-1-t3005",
+  "cat": "teacher",
+  "exam": "teacher",
+  "stage": 3,
+  "roc": 106,
+  "nth": 1,
+  "subj": "t3005",
+  "subjName": "教育原理與制度",
+  "label": "106 年　國民小學師資類科　教育原理與制度",
+  "n": 40,
   "exp": 0,
   "mins": 80
  },
@@ -36152,6 +36180,20 @@ window.APP_EXAMS = [
   "mins": 80
  },
  {
+  "id": "tea-106-1-t4004",
+  "cat": "teacher",
+  "exam": "teacher",
+  "stage": 4,
+  "roc": 106,
+  "nth": 1,
+  "subj": "t4004",
+  "subjName": "教育原理與制度",
+  "label": "106 年　中等學校師資類科　教育原理與制度",
+  "n": 40,
+  "exp": 0,
+  "mins": 80
+ },
+ {
   "id": "tea-106-1-t4005",
   "cat": "teacher",
   "exam": "teacher",
@@ -36176,6 +36218,20 @@ window.APP_EXAMS = [
   "subjName": "中等學校課程與教學",
   "label": "106 年　中等學校師資類科　中等學校課程與教學",
   "n": 30,
+  "exp": 0,
+  "mins": 80
+ },
+ {
+  "id": "tea-106-1-t5007",
+  "cat": "teacher",
+  "exam": "teacher",
+  "stage": 5,
+  "roc": 106,
+  "nth": 1,
+  "subj": "t5007",
+  "subjName": "教育原理與制度",
+  "label": "106 年　特殊教育類科　教育原理與制度",
+  "n": 40,
   "exp": 0,
   "mins": 80
  },

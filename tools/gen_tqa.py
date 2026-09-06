@@ -50,6 +50,32 @@ def md5(p):
     return hashlib.md5(open(p, 'rb').read()).hexdigest()
 
 
+def parse_paper(qp, nans):
+    """只解「選擇題」那一段。-layout 與原始閱讀順序都試一次，挑題數對得上的那個
+       —— 舊制（95～102 年）的卷是兩欄排版，-layout 會把左右欄交錯，題號序列整個斷掉。"""
+    best = None      # (分數, 題目)；分數越小越好
+    for mode in ('layout', 'raw', 'cols', 'cols+', 'cols++', 'cols-'):
+        if mode.startswith('cols'):
+            t = P.text_cols(qp, shift={'cols': 0.0, 'cols+': 0.02, 'cols++': 0.05, 'cols-': -0.02}[mode])
+        else:
+            t = P.text(qp, layout=(mode == 'layout'))
+        m = CUT.search(t)
+        if m: t = t[:m.start()]
+        body = '\n'.join(l for l in P.clean_lines(t) if not G.PAGEHDR.match(l))
+        flat = P.half(body)
+        ws = sorted(G._dw(l.rstrip()) for l in body.split('\n') if l.strip())
+        wide = (ws[int(len(ws) * 0.97)] if ws else 999) - 8
+        for loose in (False, True):
+            qs = G._cut(None, body, flat, G._find_pos(flat, loose), wide)
+            G._attach_tail(qs); G._attach_psg(qs, body, flat)
+            for q in qs: q.pop('_st', None); q.pop('_tail', None)
+            if len(qs) == nans and not any(q.get('needfig') for q in qs): return qs
+            # 題數一樣時，挑「缺選項的題數比較少」的那一版（欄位切點差幾點就會切掉選項）
+            sc = (abs(len(qs) - nans), sum(1 for q in qs if q.get('needfig')))
+            if best is None or sc < best[0]: best = (sc, qs)
+    return best[1] if best else []
+
+
 def main():
     inv = json.load(open('inv.json', encoding='utf-8'))
     reg = load_reg()
@@ -109,21 +135,13 @@ def main():
             ans = P.parse_answers(ap)
             if not ans:
                 skipped.append([roc, kind, name, '答案讀不出來']); continue
-            t = P.text(qp)
-            m = CUT.search(t)
-            if m: t = t[:m.start()]
-            body = '\n'.join(l for l in P.clean_lines(t) if not G.PAGEHDR.match(l))
-            flat = P.half(body)
-            ws = sorted(G._dw(l.rstrip()) for l in body.split('\n') if l.strip())
-            wide = (ws[int(len(ws) * 0.97)] if ws else 999) - 8
-            best = None
-            for loose in (False, True):
-                qs = G._cut(None, body, flat, G._find_pos(flat, loose), wide)
-                if len(qs) == len(ans) and not any(q.get('needfig') for q in qs): best = qs; break
-                if best is None or len(qs) > len(best): best = qs
-            G._attach_tail(best); G._attach_psg(best, body, flat)
-            for q in best: q.pop('_st', None); q.pop('_tail', None)
-            if len(best) != len(ans):
+            best = parse_paper(qp, len(ans))
+            nums = {q['n'] for q in best}
+            # 參考答案表偶爾會漏一格（例：106 教育原理與制度第 30 題），
+            # 只要題目本身是連號的 1..N、而且答案表的題號都在裡面，就收，漏的那題當送分。
+            ok_cnt = (best and nums == set(range(1, len(best) + 1))
+                      and set(ans) <= nums and len(best) - len(ans) <= 2)
+            if not ok_cnt:
                 skipped.append([roc, kind, name, '題數 %d≠答案 %d' % (len(best), len(ans))]); continue
             qs = []
             ok = True

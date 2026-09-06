@@ -36,6 +36,51 @@ def text(pdf, layout=True):
     for k, v in PUA.items(): t = t.replace(k, v)
     return t
 
+def _gutter(pdf):
+    """找兩欄之間的空白帶（每一頁一個 x 座標）；找不到就回 None。"""
+    xml = subprocess.run(['pdftotext', '-bbox', pdf, '-'], capture_output=True).stdout.decode('utf-8', 'ignore')
+    outs = []
+    for pm in re.finditer(r'<page width="([\d.]+)" height="([\d.]+)">(.*?)</page>', xml, re.S):
+        w = float(pm.group(1))
+        xs = [(float(a), float(b)) for a, b in
+              re.findall(r'<word xMin="([\d.]+)" yMin="[\d.]+" xMax="([\d.]+)"', pm.group(3))]
+        if not xs: outs.append(None); continue
+        step = max(w / 200.0, 1.0)
+        cov = [0] * (int(w / step) + 2)
+        for a, b in xs:
+            for i in range(int(a / step), min(int(b / step) + 1, len(cov))): cov[i] = 1
+        best, cur = (0, None), None
+        for i in range(int(len(cov) * 0.3), int(len(cov) * 0.72)):
+            if not cov[i]:
+                cur = i if cur is None else cur
+                if i - cur + 1 > best[0]: best = (i - cur + 1, (cur + i) / 2.0 * step)
+            else:
+                cur = None
+        outs.append(best[1] if best[0] >= 4 else None)
+    return outs
+
+
+def text_cols(pdf, cols=2, shift=0.0):
+    """兩欄排版的卷（教檢 95～102 年）：-layout 會把左右欄交錯、原始閱讀順序也是亂的。
+       改成先找出兩欄之間的空白帶，再把每一頁切成左右兩塊分別讀，依「先左後右」接起來。"""
+    info = subprocess.run(['pdfinfo', pdf], capture_output=True).stdout.decode('utf-8', 'ignore')
+    m = re.search(r'Page size:\s*([\d.]+)\s*x\s*([\d.]+)', info)
+    n = re.search(r'Pages:\s*(\d+)', info)
+    if not (m and n): return text(pdf)
+    w, h, pages = float(m.group(1)), float(m.group(2)), int(n.group(1))
+    guts = _gutter(pdf)
+    out = []
+    for p in range(1, pages + 1):
+        g = guts[p - 1] if p - 1 < len(guts) and guts[p - 1] else w / 2.0
+        g = min(max(g + shift * w, w * 0.25), w * 0.75)   # 空白帶抓得不夠準時，左右挪一點再試
+        for x0, x1 in ((0, g), (g, w)):
+            cmd = ['pdftotext', '-layout', '-f', str(p), '-l', str(p),
+                   '-x', str(int(x0)), '-y', '0', '-W', str(max(int(x1 - x0), 10)), '-H', str(int(h)), pdf, '-']
+            t = subprocess.run(cmd, capture_output=True).stdout.decode('utf-8', 'ignore')
+            for k, v in PUA.items(): t = t.replace(k, v)
+            out.append(t)
+    return '\n'.join(out)
+
 HDR = re.compile(r'^\s*(代\s*號|類科名稱|科目名稱|考試時間|座號|※|全一張|全一頁|共\s*\d+\s*頁|第\s*\d+\s*頁|請\s*接|背\s*面|\(請接背面\))')
 
 def clean_lines(t):
