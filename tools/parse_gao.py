@@ -127,15 +127,20 @@ FIVE = False   # 五選一（103~106 律師第一試那種）；預設關閉，�
 
 
 def _chain(segf):
-    """依序找 A. B. C. D.；FIVE 打開時再多找一個 E.。找不到完整四個回 None。"""
+    """依序找 A. B. C. D.；FIVE 打開時再多找一個 E.。找不到完整四個回 None。
+
+    ⚠ 題幹本身常出現「A、B 兩國發生邊界武裝衝突」，那個 A 不是選項代號：
+      選項 A 前面一定要先有一段題幹，所以前面不足四個字的就往後再找一個。"""
     idx, p = [], 0
     for L in (OPT5 if FIVE else OPT):
-        m = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L).search(segf, p)
+        rx = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L)
+        m = rx.search(segf, p)
+        while L == 'A' and m and len(segf[:m.start()].strip()) < 4:
+            m = rx.search(segf, m.end())
         if not m:
             return idx if len(idx) == 4 else None
         idx.append((m.start(), m.end())); p = m.end()
     return idx
-
 
 def _cut(qs, body, flat, pos, wide=999):
     out = []
