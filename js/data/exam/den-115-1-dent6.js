@@ -529,7 +529,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "盧德威氏口峽炎（Ludwig's angina）",
     "妥列氏口峽炎（Toulette's angina）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 同時侵犯舌下、頦下與雙側顎下間隙的蜂窩組織炎，定義上就是盧德威氏口峽炎；舌頭被往上後推，最危險的是呼吸道阻塞。\n❌ (A) 「李維氏口峽炎」不是既有的臨床名詞。\n❌ (B) 透納氏名字出現在 Turner 牙（外傷造成的琺瑯質發育不良），不是這個感染。\n❌ (D) 同樣不是既有名詞。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Ludwig's angina）。"
   },
   {
    "n": 38,
@@ -542,7 +543,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "花生大小的量即可",
     "一公分大小的量即可"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 三歲以下幼兒建議只用「米粒大／薄薄一層」的含氟牙膏（約 0.1 mg 氟），既有防齲效果又能把吞食造成氟斑齒的風險降到最低。\n❌ (B) 豌豆大小是三歲以上兒童的建議量。\n❌ (C) 花生大小過量。\n❌ (D) 一公分長度更是明顯過量。\n📚 出處：AAPD Fluoride Therapy Guideline；McDonald and Avery's, 11th ed.。"
   },
   {
    "n": 39,
@@ -555,7 +557,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "服用含氟維他命（fluoride-vitamin supplement）",
     "使用含氟漱口水（fluoride mouthrinse）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 含氟漱口水是「局部（topical）」用氟，作用在牙齒表面，不經由消化吸收進入體內循環。\n❌ (A) 飲水加氟是最典型的系統性用氟。\n❌ (B) 氟錠等飲食補充屬系統性。\n❌ (C) 含氟維他命同樣是系統性。\n📚 出處：AAPD Fluoride Therapy Guideline；McDonald and Avery's, 11th ed.（Systemic vs. topical fluoride）。"
   },
   {
    "n": 40,
@@ -568,7 +571,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "Hixson and Oldfather analysis",
     "Bolton analysis"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Bolton 分析比較的是「上下顎牙齒大小的比例是否協調」，屬牙量分析，不是混合齒列的空間分析。\n❌ (A) Moyers 分析用下顎四顆門齒預測未萌發犬齒與小臼齒寬度。\n❌ (B) Tanaka-Johnston 是 Moyers 的簡化公式版本。\n❌ (C) Hixson-Oldfather 結合 X 光測量與門齒寬度預測。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Mixed dentition space analysis）。"
   },
   {
    "n": 41,
@@ -581,7 +585,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "乳齒列呈遠心階（distal step）關係時，合併晚期近心位移（late mesial shift）較常轉變為安格氏一級咬合",
     "乳齒列呈遠心階（distal step）關係時，將來恆牙臼齒相對關係較常轉變為安格氏二級咬合關係"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：乳齒列呈「遠心階」時，恆牙第一大臼齒一開始就是第二類關係，晚期近心位移的量不足以把它變成第一類，通常維持第二類。\n❌ (A) 正確：近心階最常轉為第一類（也可能過度成為第三類）。\n❌ (B) 正確：齊平終端平面靠 Leeway space 與晚期近心位移轉成第一類。\n❌ (D) 正確：遠心階最常變成第二類。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Transition of molar relationship）。"
   },
   {
    "n": 42,
@@ -594,7 +599,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "門牙突出",
     "口齒不清"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 舌繫帶過緊會把舌頭「拉住往下往後」，反而限制舌尖上抬，不會造成舌頭前置。\n❌ (B) 舌頭前置常伴前牙開咬。\n❌ (C) 舌壓推擠上顎前牙造成門牙突出。\n❌ (D) 舌位異常會影響 /s/、/t/ 等音而口齒不清。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Tongue thrust and oral habits）。"
   },
   {
    "n": 43,
@@ -607,7 +613,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "若遺傳到 A 型血友病，男性會表現出血友病症狀，女性則為血友病帶原者",
     "影響到凝血機轉的外在途徑（extrinsic pathway）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：第八凝血因子屬於「內在途徑」，因此血友病 A 影響的是 aPTT；外在途徑（PT）由第七因子主導，血友病病人的 PT 正常。\n❌ (A) 正確：A 型約占血友病的八成，是最常見型。\n❌ (B) 正確：缺乏的是第八因子。\n❌ (C) 正確：X 染色體隱性遺傳，男性發病、女性多為帶原。\n📚 出處：Little and Falace's Dental Management of the Medically Compromised Patient, 9th ed.（Hemophilia）。"
   },
   {
    "n": 44,
@@ -620,7 +627,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "風濕熱（rheumatic fever）是造成後天性心臟病最常見的原因",
     "慢性風濕性心臟病會引起心瓣膜結痂及變形"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：心室中膈缺損屬「左向右分流」，血液從高壓的左心室流向右心室，不會有缺氧血進入體循環，因此不發紺（發紺型的代表是法洛氏四重症）。\n❌ (A) 正確：VSD 是最常見的先天性心臟病。\n❌ (C) 正確：風濕熱是兒童後天性心臟病最常見的原因。\n❌ (D) 正確：慢性風濕性心臟病造成瓣膜（尤其二尖瓣）結痂變形。\n📚 出處：Little and Falace's Dental Management of the Medically Compromised Patient, 9th ed.（Congenital and rheumatic heart disease）。"
   },
   {
    "n": 45,
@@ -633,7 +641,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "永久性唾液腺功能失調",
     "黏膜炎"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 永久性唾液腺功能失調是「頭頸部放射治療」的後遺症；骨髓移植的化療雖會造成暫時性口乾，但多可恢復。\n❌ (A) 是常見併發症：血小板低下造成口內出血。\n❌ (B) 是常見併發症：免疫抑制與化療造成潰瘍。\n❌ (D) 是常見併發症：黏膜炎是移植前置化療最典型的口腔問題。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Oral complications of cancer therapy）。"
   },
   {
    "n": 46,
@@ -646,7 +655,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "需檢查顱顏、口腔外觀、口內軟組織與牙齒",
     "若年齡較小，可以省略Ｘ光拍攝"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：年齡小反而更需要 X 光——要確認牙根發育階段、有無牙根斷裂、乳牙是否嵌入影響恆牙胚，不能省略。\n❌ (A) 正確：受傷時間影響再植與治療決策。\n❌ (B) 正確：地點關係到污染程度與破傷風風險。\n❌ (C) 正確：外傷評估必須包含顱顏與軟組織。\n📚 出處：IADT Guidelines for the Management of Traumatic Dental Injuries；Andreasen, 5th ed.。"
   },
   {
    "n": 47,
@@ -659,7 +669,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "恆牙側向脫位（lateral luxation）合併嚴重的齒槽骨骨折，通常是建議固定 1～2 週",
     "需要固定時，通常使用樹脂與金屬線固定（resin and metal wire splint）方式"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：側向脫位合併「齒槽骨骨折」時固定時間要拉長到約 4 週（單純側向脫位為 4 週、骨折同樣需 4 週），1～2 週不足以讓骨癒合。\n❌ (A) 正確：完全脫出再植後彈性固定 2 週。\n❌ (B) 正確：半脫位需要時固定約 2 週。\n❌ (D) 正確：樹脂加金屬線的彈性固定是標準做法。\n📚 出處：IADT Guidelines（2020）：splinting times。"
   },
   {
    "n": 48,
@@ -672,7 +683,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "認知障礙",
     "聽力障礙"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 聽力障礙不是自閉症的診斷特徵；自閉症兒童可能對聲音反應異常（過度或不理會），但聽力本身通常正常。\n❌ (A) 是特徵：社交溝通與互動障礙是核心診斷準則。\n❌ (B) 是常見伴隨問題：學習與適應困難。\n❌ (C) 是常見伴隨問題：部分個案合併認知障礙。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Autism spectrum disorder）。"
   },
   {
    "n": 49,
@@ -685,7 +697,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "可以使用棉捲（cotton roll）作為隔絕唾液方法",
     "若有使用樹脂黏著劑（resin bonding agent），需以空氣將之吹薄以避免過厚"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：清潔窩溝時要用「不含氟、不含油」的浮石粉；含氟浮石粉會在琺瑯質表面形成氟化鈣層，妨礙酸蝕與封劑滲入。\n❌ (B) 正確：唾液污染是封劑失敗的主因。\n❌ (C) 正確：棉捲隔離是常用方式（橡皮障更佳）。\n❌ (D) 正確：黏著劑要吹薄以免影響咬合與聚合。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Pit and fissure sealants）。"
   },
   {
    "n": 50,
@@ -698,7 +711,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "複合體（compomer）",
     "樹脂（resin）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 矽酸鹽黏合劑是早期的修復材料，酸性強、溶解度高且早已被淘汰，不適合作為窩溝封劑。\n❌ (A) 玻璃離子可作為封劑（尤其濕度控制不佳或部分萌發的牙齒）。\n❌ (C) 複合體（compomer）也可用於封填。\n❌ (D) 樹脂是最常用、保存率最高的封劑材料。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Sealant materials）。"
   },
   {
    "n": 51,
@@ -711,7 +725,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "上下牙弓周徑都增加",
     "上下牙弓周徑都減少"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Moorrees 的長期追蹤顯示：6 至 18 歲間下顎牙弓周徑平均「減少」約 4 mm（主要因臼齒近心移動與前牙區擁擠），上顎的減少量較小。\n❌ (B) 上顎周徑並不會增加 4 mm。\n❌ (C) 兩弓都增加與研究結果相反。\n❌ (D) 雖然兩弓都有減少的趨勢，但題目要的是「下顎減少 4 mm」這個具體數據。\n📚 出處：Moorrees CFA, The Dentition of the Growing Child；Proffit's Contemporary Orthodontics, 6th ed.。"
   },
   {
    "n": 52,
@@ -724,7 +739,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "上下臼齒沒有接觸",
     "嘴唇向前翹"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 舌前伸吞嚥時舌頭夾在上下前牙之間，同時後牙不接觸（開咬式吞嚥），咀嚼肌活動減少而由唇周肌肉代償。\n❌ (A) 口輪匝肌反而過度活動（用力抿唇）。\n❌ (B) 舌頭是伸出而不是被咬住。\n❌ (D) 嘴唇通常是往內收緊，不是向前翹。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Tongue thrust swallow）。"
   },
   {
    "n": 53,
@@ -737,7 +753,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "將糖果放在下顎舌側直至其融化",
     "以顏面表情肌練習"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肌功能訓練的標準練習就是「含一口水、牙齒輕咬、舌尖頂在門齒後方腭皺褶處吞下去」，藉此建立成熟型吞嚥。\n❌ (B) 把舌尖放在牙齒之間正是要矯正掉的錯誤動作。\n❌ (C) 把糖果放在舌側融化是訓練舌尖上頂的另一種練習，但位置應在「上顎腭皺褶」而非下顎舌側。\n❌ (D) 表情肌練習與吞嚥模式訓練無關。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Myofunctional therapy）。"
   },
   {
    "n": 54,
@@ -750,7 +767,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "維持牙髓和牙周健康",
     "提供功能性咬合"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 兒童先天缺牙時以樹脂黏著型維持器（如馬里蘭橋）暫時填補，主要目的是在生長完成前維持空間、維持牙齒與牙周健康，等成年後再做植牙等最終修復。\n❌ (A) 它是過渡性裝置，不是要取代植牙。\n❌ (B) 不修磨鄰牙只是它的技術特點，不是使用目的。\n❌ (D) 它能提供的咬合功能有限。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Management of congenitally missing teeth）。"
   },
   {
    "n": 55,
@@ -763,7 +781,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "預防性矯正技術（preventive orthodontics）",
     "咬合誘導技術（guidance of eruption）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 序列拔牙是有計畫地依序拔除乳齒與第一小臼齒，引導恆牙循理想路徑萌出，屬於「咬合誘導」的一種。\n❌ (A) 牙弓擴張是以裝置擴大牙弓寬度，不靠拔牙。\n❌ (B) 介入阻斷式矯正是較廣的概念（阻斷已出現的問題），序列拔牙是其中的具體手段之一，但本題問的是這個技術的名稱。\n❌ (C) 預防性矯正是在問題發生「前」處理（如空間維持器）。\n📚 出處：Proffit's Contemporary Orthodontics, 6th ed.（Serial extraction）。"
   },
   {
    "n": 56,
@@ -776,7 +795,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "暴露出的牙本質可能會對冷熱敏感，建議至少要做覆蓋或是臨時填補",
     "若斷片有找回，可以做牙齒斷片接著（reattachment of tooth fragment）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：即使牙髓沒有露出，牙本質小管暴露仍可能讓細菌進入，加上外傷本身的血管損傷，日後仍可能牙髓壞死，必須長期追蹤（至少一年）。\n❌ (A) 正確：牙髓未露出者稱非複雜性牙冠斷裂。\n❌ (C) 正確：暴露的牙本質應以玻璃離子或樹脂覆蓋。\n❌ (D) 正確：找回的斷片可清潔後重新黏接。\n📚 出處：IADT Guidelines（2020）：crown fractures。"
   },
   {
    "n": 57,
@@ -789,7 +809,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "骨質及結締組織復原",
     "脂肪組織復原"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Andreasen 描述的牙根斷裂癒合有四型：鈣化組織癒合、結締組織癒合、骨與結締組織癒合，以及未癒合（斷端間有肉芽組織）；沒有「脂肪組織癒合」這一型。\n❌ (A) 是其中一型（硬組織連接）。\n❌ (B) 是其中一型（纖維性連接）。\n❌ (C) 是其中一型（骨長入斷端之間）。\n📚 出處：Andreasen, Textbook and Color Atlas of Traumatic Injuries to the Teeth, 5th ed.（Root fracture healing）。"
   },
   {
    "n": 58,
@@ -802,7 +823,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "行為處理的過程為：tell-show-feel-do",
     "使用較大的橡皮障，讓孩童看不到治療過程，比較安全"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：聽障兒童特別依賴「看」來理解治療流程，用大橡皮障擋住視線會加深恐懼，正確做法是讓他們看得到並用示範溝通。\n❌ (A) 正確：先評估其溝通方式（手語、讀唇、助聽器）。\n❌ (B) 正確：加強視覺溝通。\n❌ (C) 正確：把 tell-show-do 調整成強調觸覺與視覺的 tell-show-feel-do。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Hearing impairment）。"
   },
   {
    "n": 59,
@@ -815,7 +837,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "先塗氟漆再做窩隙封劑（sealant）會影響窩隙封劑強度和固持度",
     "氟漆建議每年使用一次"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 氟漆會在琺瑯質表面留下氟化鈣沉積與樹脂載體，若先塗氟漆再做封劑，會干擾酸蝕與樹脂滲入而降低固持。\n❌ (A) 氟漆用的是 5% NaF（22,600 ppm）；1.23% 是酸性磷酸氟膠（APF gel）的濃度。\n❌ (B) 氟漆不需要事先做完整潔牙，這正是它方便用於幼兒與社區的原因。\n❌ (D) 高風險兒童建議每年 2～4 次。\n📚 出處：AAPD Fluoride Therapy Guideline；McDonald and Avery's, 11th ed.。"
   },
   {
    "n": 60,
@@ -828,7 +851,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "因孩童的特殊狀況，藥物性（pharmacologic）的行為處理方式不建議使用",
     "骨質形成不全症（osteogenesis imperfecta）的兒童，不建議使用肢體固定"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：對無法配合又必須治療的特需兒童，鎮靜或全身麻醉是合理且常用的選項，不是「不建議使用」。\n❌ (A) 正確：多數特需兒童在家長協助與適當引導下可在診間完成治療。\n❌ (B) 正確：必要時的保護性固定可避免傷害，但須有適應症與同意。\n❌ (D) 正確：成骨不全症兒童骨脆易折，禁用肢體固定。\n📚 出處：AAPD Behavior Guidance Guideline；McDonald and Avery's, 11th ed.。"
   },
   {
    "n": 61,
@@ -841,7 +865,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "如果此假設符合事實，判定飲用含糖飲料的頻率與得到齲齒的風險無關",
     "如果此假設符合事實，判定飲用含糖飲料的頻率與得到齲齒的風險有關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 第二類誤差＝虛無假設其實是錯的（兩者有關），研究卻沒能推翻它而下了「無關」的結論，也就是「偽陰性」。\n❌ (B) 假設不符事實而判定有關，是正確的判斷（檢定力）。\n❌ (C) 假設符合事實而判定無關，也是正確判斷。\n❌ (D) 假設符合事實卻判定有關，那是第一類誤差（偽陽性）。\n📚 出處：Gordis Epidemiology, 6th ed.（Type I and type II errors）。"
   },
   {
    "n": 62,
@@ -854,7 +879,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "一個隨機雙盲臨床試驗（randomized controlled trial）",
     "一系列的病例報告（case series study）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在單一研究的層級中，隨機分派、雙盲的臨床試驗證據等級最高（僅次於系統性回顧與統合分析）。\n❌ (A) 病例對照研究屬觀察性研究，易受回憶偏差影響。\n❌ (B) 世代研究雖優於病例對照，但仍是觀察性研究。\n❌ (D) 病例系列沒有對照組，等級最低。\n📚 出處：Gordis Epidemiology, 6th ed.；GRADE 證據等級架構。"
   },
   {
    "n": 63,
@@ -867,7 +893,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "①④",
     "②③"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ②④ 正確：生態型研究以「人群（族群）」為分析單位收集暴露與疾病資料，適合快速探索一種疾病與多個暴露因子的關聯。\n❌ (A) ①錯：它收集的是群體資料而非個人資料。\n❌ (C) 同樣含①。\n❌ (D) ③錯：因為有生態謬誤的問題，不適合推論個人層次的因果。\n📚 出處：Gordis Epidemiology, 6th ed.（Ecologic studies and the ecologic fallacy）。"
   },
   {
    "n": 64,
@@ -880,7 +907,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "攝取後被吸收的氟化物，兒童排出率高於成人",
     "尿液為攝取進來的氟化物之主要排泄途徑"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：兒童骨骼正在生長，會把較高比例的氟保留在骨與發育中的牙齒裡，「排出率低於成人」——成人約排出 50～60%，幼兒僅約 20～30%。\n❌ (A) 正確：氟主要在胃與小腸上段被動吸收。\n❌ (B) 正確：體內保留的氟 99% 在鈣化組織中。\n❌ (D) 正確：腎臟是主要排泄途徑。\n📚 出處：Fejerskov and Kidd, Dental Caries, 3rd ed.（Fluoride metabolism）。"
   },
   {
    "n": 65,
@@ -893,7 +921,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "100～500 ppm 的含氟漱口水，每兩週使用一次",
     "5,000 ppm 的氟膠（fluoride gel），每年使用四次，每次一分鐘"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 每天使用兩次、含氟量 1,000 ppm 以上的牙膏，是所有防齲措施中證據最充分的一項（多篇 Cochrane 系統性回顧支持），GRADE 等級為高。\n❌ (B) 食鹽加氟的證據等級較低。\n❌ (C) 兩週一次的低濃度漱口水，使用頻率不足且證據較弱。\n❌ (D) 氟膠雖有效，但證據等級一般為中等。\n📚 出處：Cochrane Oral Health systematic reviews；Fejerskov and Kidd, Dental Caries, 3rd ed.。"
   },
   {
    "n": 66,
@@ -906,7 +935,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "末段預防",
     "終段預防"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 定期口腔檢查屬於「早期發現、早期治療」，是次段預防（三段五級中的第三級）。\n❌ (A) 初段預防是健康促進與特殊保護（如衛教、塗氟、窩溝封填）。\n❌ (C) 末段預防是限制殘障與復健。\n❌ (D) 三段五級並沒有「終段預防」這個分類。\n📚 出處：Leavell and Clark 三段五級預防模式；牙醫公共衛生教科書。"
   },
   {
    "n": 67,
@@ -919,7 +949,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "兩性關係",
     "經濟聯盟"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 社區發展的概念源自二十世紀初的平民（成人）教育運動，主張由教育啟發民眾自助互助，再擴及生活與生產的改善。\n❌ (B) 社會運動是後來的社會動員形式。\n❌ (C) 兩性關係與社區發展的起源無關。\n❌ (D) 經濟聯盟屬經濟合作組織的概念。\n📚 出處：社區衛生護理學／公共衛生學（社區發展的起源）。"
   },
   {
    "n": 68,
@@ -932,7 +963,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "工作的內容範圍",
     "其他突發性問題"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 突發性問題屬於執行過程中的應變事項，無法事先寫進「目標」；計畫目標要具體、可衡量。\n❌ (A) 目標內容本身當然要寫明。\n❌ (B) 實施地點是計畫的基本要素。\n❌ (C) 工作範圍界定了計畫的邊界。\n📚 出處：公共衛生計畫評價（Program planning：objectives）。"
   },
   {
    "n": 69,
@@ -945,7 +977,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "自我效能（self-efficacy）",
     "行動線索（cues to action）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 家人罹病是外在的刺激事件，促使個人採取行動，屬於健康信念模式中的「行動線索」。\n❌ (A) 自覺嚴重性是「我覺得口腔癌很嚴重」這種對後果的評估。\n❌ (B) 自覺罹患性是「我覺得自己可能會得口腔癌」的機率判斷。\n❌ (C) 自我效能是「我有信心戒得掉」的能力信念。\n📚 出處：Health Belief Model（Rosenstock）；健康促進與衛生教育教科書。"
   },
   {
    "n": 70,
@@ -958,7 +991,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "②④",
     "③④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ①②錯：計畫行為理論是由「理性行動理論」演變而來（順序相反）；多出一個「自覺行為控制」的是計畫行為理論，不是理性行動理論。\n❌ (B) ③（行為決定具主觀性）並沒有錯。\n❌ (C) ④（目的在了解、預測與解釋行為）也沒有錯。\n❌ (D) ③④都是正確敘述。\n📚 出處：Ajzen I, Theory of Planned Behavior；健康行為理論教科書。"
   },
   {
    "n": 71,
@@ -971,7 +1005,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "15 歲",
     "35～44 歲"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) WHO 指定 12 歲為國際比較齲齒狀況的「全球監測指標年齡」，因為此時恆牙大致萌出且大多數國家仍能在學校取得樣本。\n❌ (A) 5 歲用於乳齒列的監測指標。\n❌ (C) 15 歲用於評估青少年牙周與齲齒狀況。\n❌ (D) 35～44 歲是成人的監測年齡層。\n📚 出處：WHO Oral Health Surveys: Basic Methods, 5th ed.。"
   },
   {
    "n": 72,
@@ -984,7 +1019,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "0.81",
     "0.91"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 依 Landis 與 Koch 的判讀標準，Kappa ≥0.81 屬「幾近完美（almost perfect）」的一致性。\n❌ (A) 0.61～0.80 為「高度一致（substantial）」。\n❌ (B) 0.71 仍在 substantial 範圍內。\n❌ (D) 0.91 雖然更好，但不是門檻值。\n📚 出處：WHO Oral Health Surveys: Basic Methods, 5th ed.；Landis JR & Koch GG, Biometrics 1977。"
   },
   {
    "n": 73,
@@ -997,7 +1033,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "①④",
     "②③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ①④ 正確：B 肝有疫苗可預防；病毒在乾燥的環境表面可存活七天以上仍具感染力，這也是診間表面消毒的重要理由。\n❌ (A) 含③：帶原者的唾液中確實測得到 HBV。\n❌ (B) 含②：暴露後有明確的預防方式（HBIG 加疫苗）。\n❌ (D) 同樣含②③兩個錯誤敘述。\n📚 出處：CDC Infection Control Guidelines；Little and Falace's, 9th ed.（Hepatitis B）。"
   },
   {
    "n": 74,
@@ -1010,7 +1047,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "數值最高的縣市約為數值最低的縣市之 20 倍",
     "各縣市的數值未顯示城鄉差距"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 這段期間全國每十萬人口執業牙醫師數約在 61～67 位之間，逐年小幅上升。\n❌ (B) 臺北市約為全國平均的 1.7～2 倍，不到 4 倍。\n❌ (C) 最高與最低縣市的差距約 3～4 倍，不是 20 倍。\n❌ (D) 各縣市數值差異明顯，正是城鄉分布不均的證據。\n📚 出處：衛生福利部統計處《醫療機構現況及醫院醫療服務量統計》（106～110 年）。"
   },
   {
    "n": 75,
