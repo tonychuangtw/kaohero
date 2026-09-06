@@ -35,7 +35,8 @@ def crop(pdf, n, out, pad_top=10, pad_bot=4):
     pages = boxes(pdf)
     a = find_q(pages, n)
     b = find_q(pages, n + 1)
-    if a is None: raise SystemExit('找不到第 %d 題' % n)
+    # ⚠ 不要用 SystemExit：批次裁圖時 except Exception 攔不到，整批會從中間斷掉
+    if a is None: raise ValueError('找不到第 %d 題' % n)
     pi, y0 = a
     k = DPI / 72.0
     pg = pages[pi]
