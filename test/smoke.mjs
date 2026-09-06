@@ -102,6 +102,13 @@ await hash('#/subject/cm/cmc4');
 ok((await ev('document.querySelector(".pg-h").textContent')).includes('中醫臨床醫學（四）'), '進入中醫臨床醫學（四）科目頁');
 ok(await ev('document.querySelectorAll("#main .panel .it").length >= 20'), '中醫臨床醫學（四）列出各年份卷別');
 
+// --- 藥師（2026-09-06 新增）---
+await hash('#/exam/pharm');
+ok(await ev('document.querySelectorAll("#main .panel .it").length >= 6'), '藥師頁列出六個科目');
+await hash('#/subject/pharm/ph1');
+ok((await ev('document.querySelector(".pg-h").textContent')).includes('藥學（一）'), '進入藥學（一）科目頁');
+ok(await ev('document.querySelectorAll("#main .panel .it").length >= 20'), '藥學（一）列出各年份卷別');
+
 await hash('#/exam/lawyer');
 ok(await ev('document.querySelectorAll("#main .panel .it").length === 4'), '律師頁列出四個科目');
 const lawPid = await ev(`window.APP_EXAMS.filter(e=>e.exam==='lawyer')[0].id`);

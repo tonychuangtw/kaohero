@@ -23,7 +23,7 @@ def boxes(pdf):
 def find_q(pages, n):
     """回傳 (page_index, y0)；題號要在該行行首、且靠左（避免內文裡的『30.』）"""
     # 題號兩種寫法：「12.」與舊卷的「 12   」（號碼後面直接空好幾格）
-    pat = re.compile(r'^[ \t]*%d(?:[ \t]*[.．、]|[ \t]{2,}|$)' % n)
+    pat = re.compile(r'^[ \t]{0,1}%d(?:[ \t]*[.．、]|[ \t]{2,}|$)' % n)
     best = None
     for pi, pg in enumerate(pages):
         for l in pg['lines']:

@@ -52,7 +52,9 @@ def parse_questions(pdf):
     pos = []
     want = 1
     # 題號有兩種寫法：「1.」（近年）與「 1   」（舊卷，號碼後面直接空好幾格）
-    for m in re.finditer(r'(?m)^[ \t]*(\d{1,3})(?:[ \t]*[.．、][ \t]*|[ \t]{2,})', flat):
+    # 題號一定頂在最左邊（最多一個前導空白）。放寬成 ^\s* 會把換行後的檢驗數值當成題號
+    # ——「…eGFR」斷行接「  54.3 mL/min」就會被當成第 54 題，把第 53 題整個切掉。
+    for m in re.finditer(r'(?m)^[ \t]{0,1}(\d{1,3})(?:[ \t]*[.．、][ \t]*|[ \t]{2,})', flat):
         if int(m.group(1)) == want:
             pos.append((want, m.start(), m.end()))
             want += 1

@@ -37,7 +37,28 @@ SPECS = {
         'stage': lambda m: 1 if m.group(1) == '基礎' else 2,
         'name': lambda m: '中醫%s醫學（%s）' % (m.group(1), m.group(2)),
     },
+    # 藥師：藥學（一）～（六）。⚠ 科目名稱歷年寫法不同——114 年起才叫「藥學(一)(包括藥理學與藥物化學)」，
+    #      之前直接寫科目本名（藥理學與藥物化學／藥劑學（包括生物藥劑學）…），要兩種都認。
+    'pharm': {
+        'prefix': 'pha', 'cat': 'medical', 'exam': 'pharm',
+        'resolve': lambda sn: _pharm(sn),
+    },
 }
+
+_PHARM = [('ph1', '藥理學與藥物化學'), ('ph2', '藥物分析與生藥學'), ('ph3', '藥劑學'),
+          ('ph4', '調劑學與臨床藥學'), ('ph5', '藥物治療學'), ('ph6', '藥事行政與法規')]
+
+def _pharm(sn):
+    s = sn.replace(' ', '')
+    m = re.match(r'藥學[（(]([一二三四五六])[）)]', s)
+    k = None
+    if m: k = 'ph%d' % _num(m.group(1))
+    else:
+        for key, pat in _PHARM:
+            if s.startswith(pat): k = key; break
+    if not k: return None
+    i = int(k[2])
+    return k, (1 if i <= 3 else 2), '藥學（%s）' % CN[i - 1]
 
 def mins_of(pdf):
     t = P.text(pdf)
@@ -58,17 +79,27 @@ def build(spec):
         code = e['code']; roc = int(code[:3])
         nth = e.get('nth') or (1 if '第一次' in e['title'] else 2)
         for c, cn, s, sn in subs_of(e):
-            m = re.search(spec['pat'], sn)
-            if not m: continue
-            key, stage, subj_name = spec['key'](m), spec['stage'](m), spec['name'](m)
+            if 'resolve' in spec:
+                r = spec['resolve'](sn)
+                if not r: continue
+                key, stage, subj_name = r
+            else:
+                m = re.search(spec['pat'], sn)
+                if not m: continue
+                key, stage, subj_name = spec['key'](m), spec['stage'](m), spec['name'](m)
             qp = 'pdf/%s_%s_%s_q.pdf' % (code, c, s)
             ap = 'pdf/%s_%s_%s_a.pdf' % (code, c, s)
             mp = 'pdf/%s_%s_%s_m.pdf' % (code, c, s)
             # 交叉驗證：PDF 表頭的科目名稱要跟平臺一致（表頭常換行，讀不到就略過）
             hdr = P.header_info(qp)[1] or ''
-            hm = re.search(spec['pat'], hdr)
-            if hm and spec['key'](hm) != key:
-                raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, spec['key'](hm)))
+            if 'pat' in spec:
+                hm = re.search(spec['pat'], hdr)
+                if hm and spec['key'](hm) != key:
+                    raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, spec['key'](hm)))
+            else:
+                hr = spec['resolve'](hdr)
+                if hr and hr[0] != key:
+                    raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, hr[0]))
             qs_raw = P.parse_questions(qp)
             ans = P.parse_answers(ap)
             corr = P.parse_corrections(mp) if os.path.exists(mp) else {}
