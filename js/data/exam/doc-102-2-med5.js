@@ -803,15 +803,17 @@ window.APP_EXAM_PAPERS['doc-102-2-med5'] = {
    "n": 57,
    "pt": 1,
    "type": "single",
-   "q": "關於小腿的四個腔室，下列敘述何者錯誤？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "前腔室（anterior compartment）的肌肉包含脛前肌（tibialis anterior）、伸長肌（extensor hallucis longus）、伸趾長肌（extensor digitorum longus）及第三腓骨肌（peroneus tertius）",
-    "淺腓骨神經（superficial peroneal nerve）位於側腔室（lateral compartment）",
-    "淺後腔室（superficial posterior compartment）的肌肉包含屈趾長肌（flexor digitorum longus）、屈 長肌（flexor hallucis longus）及脛後肌（tibialis posterior）",
-    "脛後動脈（posterior tibial artery）及脛後神經（posterior tibial nerve）位於深後腔室（deep posterior compartment）"
+    "",
+    "",
+    "",
+    ""
    ],
    "a": 2,
-   "exp": "✅ (C) 錯誤：屈趾長肌、屈拇長肌與脛後肌屬於「深」後腔室；淺後腔室裡的是腓腸肌、比目魚肌與蹠肌。\n❌ (A) 正確：前腔室含四條伸肌與深腓神經、脛前動脈。\n❌ (B) 正確：外側腔室含腓骨長短肌與淺腓神經（因此腔室症候群會造成足背外側麻木與外翻無力）。\n❌ (D) 正確：脛後動脈與脛神經走在深後腔室（這也是深後腔室症候群會造成足底麻木的原因）。\n📚 出處：Rockwood and Green's Fractures in Adults, 9th ed.（Leg compartments）。"
+   "exp": "✅ (C) 錯誤：屈趾長肌、屈拇長肌與脛後肌屬於「深」後腔室；淺後腔室裡的是腓腸肌、比目魚肌與蹠肌。\n❌ (A) 正確：前腔室含四條伸肌與深腓神經、脛前動脈。\n❌ (B) 正確：外側腔室含腓骨長短肌與淺腓神經（因此腔室症候群會造成足背外側麻木與外翻無力）。\n❌ (D) 正確：脛後動脈與脛神經走在深後腔室（這也是深後腔室症候群會造成足底麻木的原因）。\n📚 出處：Rockwood and Green's Fractures in Adults, 9th ed.（Leg compartments）。",
+   "needfig": true,
+   "fig": "img/q/doc-102-2-med5_57.webp"
   },
   {
    "n": 58,

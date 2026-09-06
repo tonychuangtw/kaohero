@@ -279,14 +279,16 @@ window.APP_EXAM_PAPERS['tcm-106-2-cmc3'] = {
    "n": 21,
    "pt": 1,
    "type": "single",
-   "q": "足部背屈肌（Dorsiflexors）若失去功能，病人會發生垂足（drop foot），下列何者不屬足部背屈肌？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "伸長肌（Extensor hallucis longus）",
-    "伸趾長肌（Extensor digitorum longus）",
-    "脛骨前肌（Tibialis anterior）",
-    "骨間背側肌（Dorsal interossei）頁次：8－3"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/tcm-106-2-cmc3_21.webp"
   },
   {
    "n": 22,

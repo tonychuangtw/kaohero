@@ -370,14 +370,16 @@ window.APP_EXAM_PAPERS['den-104-2-dent2'] = {
    "n": 28,
    "pt": 1,
    "type": "single",
-   "q": "下列那一種疾病與惡性腫瘤無關？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "paraneoplastic pemphigus",
-    "Gardner syndrome",
-    "Gorlin syndrome",
-    "Stevens-Johnson syndrome"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/den-104-2-dent2_28.webp"
   },
   {
    "n": 29,

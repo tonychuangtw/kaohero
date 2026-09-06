@@ -425,15 +425,17 @@ window.APP_EXAM_PAPERS['doc-112-2-med1'] = {
    "n": 30,
    "pt": 1,
    "type": "single",
-   "q": "下列何者的肌腱會從外側橫跨足底，附著於足底內側的第一蹠骨（first metatarsal）與楔狀骨（cuneiform）？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "腓骨短肌（fibularis brevis）",
-    "腓骨長肌（fibularis longus）",
-    "屈長肌（flexor hallucis longus）",
-    "屈趾長肌（flexor digitorum longus）"
+    "",
+    "",
+    "",
+    ""
    ],
    "a": 1,
-   "exp": "✅ (B) 腓骨長肌：其肌腱繞過外踝後方，再從足底外側斜行橫跨至內側，附著於第一蹠骨底與內側楔狀骨；此走向使它同時具有外翻與維持足弓（尤其橫弓）的作用。\n❌ (A) 腓骨短肌：止於第五蹠骨粗隆，不跨過足底。\n❌ (C) 屈拇長肌：止於大拇趾遠端趾骨底。\n❌ (D) 屈趾長肌：分成四條止於第二至五趾的遠端趾骨。\n📚 出處：Moore《Clinically Oriented Anatomy》第 9 版，小腿與足部章。"
+   "exp": "✅ (B) 腓骨長肌：其肌腱繞過外踝後方，再從足底外側斜行橫跨至內側，附著於第一蹠骨底與內側楔狀骨；此走向使它同時具有外翻與維持足弓（尤其橫弓）的作用。\n❌ (A) 腓骨短肌：止於第五蹠骨粗隆，不跨過足底。\n❌ (C) 屈拇長肌：止於大拇趾遠端趾骨底。\n❌ (D) 屈趾長肌：分成四條止於第二至五趾的遠端趾骨。\n📚 出處：Moore《Clinically Oriented Anatomy》第 9 版，小腿與足部章。",
+   "needfig": true,
+   "fig": "img/q/doc-112-2-med1_30.webp"
   },
   {
    "n": 31,

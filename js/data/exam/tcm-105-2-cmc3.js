@@ -308,14 +308,16 @@ window.APP_EXAM_PAPERS['tcm-105-2-cmc3'] = {
    "n": 23,
    "pt": 1,
    "type": "single",
-   "q": "下列何者不屬足部蹠屈肌（plantar flexors）？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "屈長肌（flexor hallucis longus）",
-    "腓腸肌（gastrocnemius）",
-    "腓骨第三肌（peroneus tertius）",
-    "脛骨後肌（tibialis posterior）"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/tcm-105-2-cmc3_23.webp"
   },
   {
    "n": 24,
@@ -503,14 +505,16 @@ window.APP_EXAM_PAPERS['tcm-105-2-cmc3'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "下列何者不屬於小腿後側深層肌群？",
+   "q": "（本題有電腦打不出來的罕用字，請見下圖的原卷作答）",
    "o": [
-    "屈長肌（flexor hallucis longus）",
-    "屈趾長肌（flexor digitorum longus）",
-    "比目魚肌（soleus）",
-    "脛骨後肌（tibialis posterior）"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/tcm-105-2-cmc3_38.webp"
   },
   {
    "n": 39,
