@@ -249,7 +249,7 @@ window.APP_EXAM_PAPERS['gao-103-1-p024'] = {
    "n": 17,
    "pt": 1,
    "type": "single",
-   "q": "有一化合物，C4H10O，其氫核磁共振光譜（ 1H NMR）吸收訊號： （雙重峰， ）， （多重峰， ）， （雙重峰， ）及 （單峰， ），其結構式為：CH3CH2CH2CH2OH (CH3)2CHCH2OH CH3CH(OH)CH2CH3 (CH3)2CHOCH3",
+   "q": "有一化合物，C4H10O，其氫核磁共振光譜（ 1H NMR）吸收訊號： δ = 1.0（雙重峰， 6Η）， 1.5（多重峰， 1Η）， 3.8（雙重峰， 2Η）及 4.4（單峰， 1Η），其結構式為：CH3CH2CH2CH2OH (CH3)2CHCH2OH CH3CH(OH)CH2CH3 (CH3)2CHOCH3",
    "o": [
     "",
     "",

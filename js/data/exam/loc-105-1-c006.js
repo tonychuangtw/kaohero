@@ -1,0 +1,675 @@
+/* 105 年　五等　公民與英文（一般民政組）（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
+ "id": "loc-105-1-c006",
+ "cat": "civil",
+ "exam": "local",
+ "stage": 3,
+ "roc": 105,
+ "nth": 1,
+ "code": "105180",
+ "subj": "c006",
+ "title": "105 年　五等　公民與英文（一般民政組）",
+ "subjName": "公民與英文（一般民政組）",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "知名網路論壇 PTT 常出現特殊網路用語，如：「神人」代表找人、「BJ4」代表不解釋等，這些時下的網路用語有別於一般日常用語，已漸形成一種次文化。針對上述有關網路用語次文化的敘述，下列何者正確？",
+   "o": [
+    "PTT 上的用語與主流文化的關係是相互排斥",
+    "網路特殊用語展現出社會內部的文化差異性",
+    "與主流文化相比，網路用語根本不值得採用",
+    "使用這些網路用語的族群所享文化較為次等"
+   ],
+   "a": 1
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "近年來，世界各國愈來愈重視非政府組織對於公共事務之貢獻，如：國際特赦組織致力於追求全球人權的保障、國內的慈濟基金會常在災難與意外發生時，提供受難民眾有效率的協助與支持。下列關於非政府組織的相關敘述何者正確？",
+   "o": [
+    "經費為自行籌措，不接受政府補助或企業捐款",
+    "採取由上而下的方式，引導公民參與公共事務",
+    "成員的來源主要是來自於企業間採取聯合招考",
+    "基於社會公益立場，監督政府施政與要求改革"
+   ],
+   "a": 3
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "馬克思認為資本主義社會中，可以分成資產階級和無產階級。其對資產階級和無產階級的區分，是以下列何者做為標準？",
+   "o": [
+    "生產工具的有無",
+    "社會聲望的高低",
+    "經濟富裕的程度",
+    "身家財產的多寡"
+   ],
+   "a": 0
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "阿美與同居男友分手後，時常在半夜接到男友的騷擾與恐嚇電話，使阿美不堪其擾。下列針對阿美的案例之敘述，若依照家庭暴力防治法的規定，何者正確？",
+   "o": [
+    "阿美與同居男友由於已經分手，並不適用家庭暴力防治法",
+    "因為男友並未對阿美有肢體上的傷害，故並未構成家庭暴力",
+    "曾經同居過的伴侶是屬於家庭暴力防治法所規範的成員",
+    "阿美可撥打 113 保護專線，並向警察局聲請家庭暴力保護令"
+   ],
+   "a": 2
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "民法第 1018 條之 1：「夫妻於家庭生活費用外，得協議一定數額之金錢，供夫或妻自由處分」。此項「自由處分金」之立法意義在提供從事家務勞動的一方，可以擁有一筆雙方協議出來的金額，自己決定如何花用。下列何者較能用來說明上述立法的意義？",
+   "o": [
+    "突顯家務勞動者對社會的貢獻程度",
+    "考量國民生產毛額計算之實際價值",
+    "解決夫妻財產制度不符性別平權之困擾",
+    "提高家庭經濟活動對經濟成長率之影響"
+   ],
+   "a": 0
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "根據我國立法委員的選舉制度，若某政黨在本次選舉中，其比例代表得票率為 50%，在區域立委的選舉中共有 20 人當選。依據我國相關法令之規定，該政黨在本次選舉總共可取得幾個席次？",
+   "o": [
+    "50",
+    "29",
+    "45",
+    "37"
+   ],
+   "a": 3
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "根據我國公民投票法之規定，下列關於公民投票提案者與提案條件之配對，何者正確？",
+   "o": [
+    "行政院：經院會決議後得將重大政策交付公投複決",
+    "立法院：經院會決議後得將重大政策交付公投複決",
+    "總統：得就攸關國家安全之事項經立法院同意後直接交付公投複決",
+    "公民：根據內政部最新公布公民總數 5%以上連署得將重大政策交付公投複決"
+   ],
+   "a": 1
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "小白想加入某一個團體，這個團體的特性包括：以增進自身利益或解決相關問題為目的；只關心自身相關的議題；通常透過陳情、遊說、示威、遊行、宣傳等方式影響政府政策或公共事務。根據上述，小白想加入的最可能是下列那種團體？",
+   "o": [
+    "工會",
+    "宗親會",
+    "宗教團體",
+    "無黨籍聯盟"
+   ],
+   "a": 0
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "下列有關「警察國家」與「夜警國家」之敘述，何者正確？",
+   "o": [
+    "警察國家代表國家擁有完善的警察制度以維護治安",
+    "夜警國家代表國家干涉人民程度深，連夜晚都有警察監視",
+    "國家提高稅收、干涉市場運作來平衡貧富差距，是「夜警國家」的表現",
+    "過去德國成立國家秘密警察組織來嚴格監控人民，是為「警察國家」的概念"
+   ],
+   "a": 3
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法及增修條文之規定，下列關於行政院與立法院互動的敘述，何者正確？",
+   "o": [
+    "行政院對立法院提出中央政府總預算案",
+    "行政院院長由總統提名立法院同意任命之",
+    "行政院院長對立法院通過之法律案可行使覆議核可權",
+    "立法院院長於不信任案通過後，應呈請總統更換行政院院長"
+   ],
+   "a": 0
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "相較於內閣制的虛位元首，總統制的國家元首握有強大實權，如美國現任總統，下列關於美國總統職權的敘述，何者正確？",
+   "o": [
+    "每年須向國會提出國情咨文報告，並接受內閣大臣質詢",
+    "可運用覆議制度制衡國會議員，在必要時得以解散國會",
+    "公布法令前須先經相關部長副署，公布的法令才有效力",
+    "若想提案修法，須透過同黨籍議員於國會提出法案草案"
+   ],
+   "a": 3
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "依據我國現行的選舉制度，下列以各該身分性質參選的立法委員，何者只能由政黨名單投票選舉產生？",
+   "o": [
+    "婦女",
+    "平地原住民",
+    "山地原住民",
+    "僑居國外國民"
+   ],
+   "a": 3
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "2012 年奧運在英國倫敦舉行，我國身為國際奧林匹克運動組織的會員國，也參與了此次的盛會。我國是以下列何項名義參加奧運？",
+   "o": [
+    "臺灣",
+    "中華民國",
+    "中國臺北",
+    "中華臺北"
+   ],
+   "a": 3
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "為落實實質的性別平等，我國制定了性別工作平等法、性別平等教育法等相關法規，下列針對這些法規的評論，何者正確？",
+   "o": [
+    "法規以「性別平等」為名，主要目的是在維護傳統的生理性別",
+    "保障父或母皆可請育嬰假，打破只有女性需要照顧家庭的迷思",
+    "規定先生可以請有給付工資的陪產假，是為保障男性的經濟自主能力",
+    "規定女性工作者每月可請生理假，是為兼顧女性工作權與身體自主權"
+   ],
+   "a": 1
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "根據義大利學者薩托里（Sartori）對政黨的分類，將政黨分為「競爭型政黨制」與「非競爭型政黨制」兩大類，其分類的依據為何？",
+   "o": [
+    "一國內部政黨的數目多寡",
+    "該國參加政黨的人數多寡",
+    "政黨領導人是否定期改選",
+    "是否開放其他政黨參政與執政"
+   ],
+   "a": 3
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "根據我國法律規定，立法委員若要提出法律案，至少應有多少位以上立法委員的連署才能提出？",
+   "o": [
+    "10 位",
+    "15 位",
+    "20 位",
+    "25 位"
+   ],
+   "a": 1
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "我國為掌握政府各項經費的運用是否確實並且有效率，依規定是由下列那一機關負責監督各政府機關的預算執行情形？",
+   "o": [
+    "總統府",
+    "立法院",
+    "監察院審計部",
+    "行政院主計總處"
+   ],
+   "a": 2
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "公民團體透過「倡議」的方式，有助政府的公共政策更加符合民眾需求。下列何者符合「倡議」的意旨？",
+   "o": [
+    "連鎖咖啡店張貼海報，向社會大眾說明為何「公平貿易咖啡」價格較高",
+    "醫改組織呼籲健保局給付罕見疾病患者昂貴藥品，減輕病患的家庭負擔",
+    "財政部呼籲民眾多使用電子發票，不僅方便對獎，且落實環保友善地球",
+    "政府呼籲人民誠實納稅，充實國庫財源，減緩政府增加社福的財政負擔"
+   ],
+   "a": 1
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "某報導指出：大雄擔任政府官員期間，實際支用政府費用狀況有違法之爭議。報導中指出：該相關支用費用必須送交一定機關審查其是否依法使用。上述的「一定機關」指的是下列何者？",
+   "o": [
+    "總統府",
+    "行政院",
+    "立法院",
+    "監察院審計部"
+   ],
+   "a": 3
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "近年來，三聚氰氨及塑化劑等黑心商品事件，多數受害者因為無法直接證明損害與該產品的因果關係，而難以在救濟的過程中獲得賠償。此結果主要與我國民事訴訟那一基本原則有關？",
+   "o": [
+    "以原就被",
+    "舉證責任",
+    "一事不再理",
+    "無過失責任"
+   ],
+   "a": 1
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "小華為人作惡多端，長期透過恐嚇他人獲取財物，某日因犯案被帶回警察局，並移送檢察官偵辦，經過偵訊發現許多案子皆由他所為，乃進一步採取搜索、扣押可疑財物，最後因情節重大，聲請羈押獲准。下列相關辦案過程，何者不屬於檢察官的職務內容？",
+   "o": [
+    "偵訊嫌疑人",
+    "聲請搜索",
+    "聲請扣押",
+    "裁定羈押"
+   ],
+   "a": 3
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "麗麗為了做「公民與社會」科的報告，查閱我國關於「無過失責任」的相關法律規定。下列選項是她的筆記內容，試判斷何者正確？",
+   "o": [
+    "「無過失責任」旨在加重消費者的責任",
+    "消費者保護法中有「無過失責任」之規定",
+    "在「無過失責任」原則下，被害人要加強舉證責任",
+    "駕駛人誤踩油門撞傷路人，應負起「無過失責任」"
+   ],
+   "a": 1
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "某立法委員因擔任某縣議長時期貪污一案經最高法院處以三年六月徒刑，並褫奪公權三年定讞。依據刑法規定，該立法委員被「褫奪公權」後，不得行使下列那些權利？①投票權 ②罷免權 ③擔任公務員④擔任公職候選人",
+   "o": [
+    "①②",
+    "①④",
+    "②③",
+    "③④"
+   ],
+   "a": 3
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "正男與妻子婚後育有一子小傑，由於夫妻感情不睦，正男外遇小姍多年並生養一女小禎。上述情況若依我國民法之規定，下列敘述何者正確？",
+   "o": [
+    "正男可透過法律的任意認領，將小禎視為婚生子女",
+    "妻子若發現正男外遇，可依法向法院訴請協議離婚",
+    "倘若正男不幸往生，小禎雖經認領仍無權要求繼承遺產",
+    "倘若正男不幸往生留有大筆債務，小傑須代父償還全部債務"
+   ],
+   "a": 0
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "犯罪的構成必須符合「構成要件該當性」、「違法性」及「有責性」始成立犯罪。其中，若具備阻卻違法事由者，則法律效果可能減輕或不罰。下列那一情境可能「不」構成阻卻違法事由？",
+   "o": [
+    "司馬光砸破水缸解救掉進水缸的小孩",
+    "依上級長官命令向投標廠商收取賄賂",
+    "警察依法逮捕現行犯限制其人身自由",
+    "醫生取得本人或家屬同意為病人開刀"
+   ],
+   "a": 1
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者非屬法律？",
+   "o": [
+    "戒嚴法",
+    "地方稅法通則",
+    "國民教育法施行細則",
+    "道路交通管理處罰條例"
+   ],
+   "a": 2
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "奇妙國近來景氣低迷，導致失業人口大量增加，如果奇妙國政府欲刺激景氣，該國政府可採用下列何種策略？",
+   "o": [
+    "協助國內廠商赴外國設廠",
+    "提高金融機構的貸款利率",
+    "政府加稅以減少民間消費",
+    "增加國內的公共建設支出"
+   ],
+   "a": 3
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "針對農產品出現供需失調的情況，有農民要求政府以保證收購價格收購。針對上述情況的敘述，下列何者正確？",
+   "o": [
+    "此政策會使市場上出現供過於求的現象",
+    "此政策會提高整體社會福祉",
+    "保證收購價格通常是為了保障消費者",
+    "農民是希望將價格降到市場均衡價格之下"
+   ],
+   "a": 0
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "國民所得是衡量一個國家經濟發展的指標，但國民所得很高並不代表人民很幸福，要衡量人民幸福與否，還需考量「痛苦指數」的高低。下列何者是痛苦指數？",
+   "o": [
+    "經濟衰退率＋通貨膨脹率",
+    "經濟衰退率＋通貨緊縮率",
+    "失業率＋通貨膨脹率",
+    "失業率－通貨膨脹率"
+   ],
+   "a": 2
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "假設「雨傘市場」是在均衡的狀態時，某間賣傘的商店貼出這樣的告示：「晴天買傘八折，雨天買傘不打折！」。在其他條件不變的情況下，依據「雨傘市場」供需層面來看，下列何種推論是正確的？",
+   "o": [
+    "晴天需求者少，賣家打折是想降價求售",
+    "晴天供給者少，賣家打折是想降低成本",
+    "雨天需求者多，賣家不打折是想減少供給",
+    "雨天供給者多，賣家不打折是想減少競爭"
+   ],
+   "a": 0
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "今年小陳的德國進口車在臺灣遭竊，小陳於是再向臺灣某進口商訂購一輛全新的德產車，進口商以 190萬的價格向德國車廠購買新車，再以 200 萬元轉手賣給小陳。依上所述，該經濟活動對臺灣的 GDP 產生何種變化？",
+   "o": [
+    "GDP 增加 400 萬",
+    "GDP 增加 200 萬",
+    "GDP 增加 10 萬",
+    "GDP 的增加和減少剛好互抵"
+   ],
+   "a": 2
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "我國設置各級法院，協助人民解決糾紛，並且以公權力對犯罪者給予強制性的處罰，其目的意在落實國家的何種功能？",
+   "o": [
+    "安全",
+    "秩序",
+    "自由",
+    "正義"
+   ],
+   "void": true,
+   "a": 0
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "某國政府主張擴大政府公共投資支出、刺激消費、實現充分就業，以解決經濟蕭條的問題，此種經濟政策，較符合那一位經濟學者的觀點？",
+   "o": [
+    "亞當．斯密",
+    "大衛．李嘉圖",
+    "約瑟夫．熊彼特",
+    "約翰．梅納德．凱因斯"
+   ],
+   "a": 3
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "墨西哥與中國大陸在服裝和紡織等產業是國際間的主要競爭對手。日前墨西哥向世界貿易組織（WTO）申訴中國大陸對紡織業的政策違反 WTO 規定，對自家服裝及紡織業者提供稅收及其他優惠措施的方式，諸如免除所得稅、增值稅和地方稅，損及墨西哥經濟利益。中國大陸主要是藉由那一項貿易政策工具，阻礙自由貿易？",
+   "o": [
+    "出口補貼",
+    "限制出口",
+    "進口關稅",
+    "進口配額"
+   ],
+   "a": 0
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "經營早餐店的王媽媽到日本旅遊後，向友人表示：「出國玩得很開心，可是店面休息幾天，少賺了不少錢。」王媽媽少賺的錢屬於下列何種成本？",
+   "o": [
+    "外顯成本",
+    "社會成本",
+    "外部成本",
+    "機會成本"
+   ],
+   "a": 3
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "I would like to have chocolate cake as my after-dinner ＿＿＿ .",
+   "o": [
+    "desert",
+    "design",
+    "dessert",
+    "disaster"
+   ],
+   "a": 2
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "Penny: Will you visit me during Chinese New Year?Paul: ＿＿＿ .Penny: OK. I’ll pick you up at the train station.",
+   "o": [
+    "I am flying from the south",
+    "I plan to arrive on New Year’s Eve",
+    "I prefer cheesecake",
+    "I will find my cousin"
+   ],
+   "a": 1
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "hearing the news of her husband’s sudden death in car crash, Lucy burst into tears.",
+   "o": [
+    "Before",
+    "As soon as",
+    "Upon",
+    "As long as"
+   ],
+   "a": 2
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "The cleaning staff ＿＿＿ to work on the weekend should inform security guard by Friday noon.",
+   "o": [
+    "have",
+    "has",
+    "having",
+    "had"
+   ],
+   "a": 2
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "Jimmy is a very ＿＿＿ boy. He always listens to his teachers and never argues with his parents.",
+   "o": [
+    "handy",
+    "obedient",
+    "effective",
+    "military第 41 題至第 45 題為題組For more than 6 decades, Central has been a trusted name—and the store of choice—for generations of shoppers."
+   ],
+   "a": 1
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, what is Central Chidlom?",
+   "o": [
+    "A food store.",
+    "A flower store.",
+    "A music store.",
+    "A department store."
+   ],
+   "a": 3
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, when was Central Chidlom founded?",
+   "o": [
+    "Around the year 1950.",
+    "Around the year 1970.",
+    "Around the year 1990.",
+    "Around the year 2000."
+   ],
+   "a": 0
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following is true about Daniel Ost?",
+   "o": [
+    "He is a Thai fashion leader.",
+    "He is a renowned Belgian chef.",
+    "He is the owner of Central Chidlom.",
+    "He is a famous flower designer."
+   ],
+   "a": 3
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following is NOT true about Central Chidlom?",
+   "o": [
+    "It is located in downtown Bangkok.",
+    "It celebrates its anniversary in late October.",
+    "Its dining area is located on the 8th floor.",
+    "It hosts a flower exhibition every year."
+   ],
+   "a": 2
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following words in the passage means “a large and impressive event”?",
+   "o": [
+    "Flagship.",
+    "Promotion.",
+    "Hospitality.",
+    "Extravaganza.第 46 題至第 50 題為題組I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a ＿＿＿ 46 wedding held in a church"
+   ],
+   "a": 3
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "proper",
+    "modern",
+    "traditional",
+    "fancy"
+   ],
+   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
+   "a": 2
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "argued",
+    "exchanged",
+    "supported",
+    "invited"
+   ],
+   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
+   "a": 1
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "slow-paced",
+    "low-level",
+    "easy-going",
+    "good-paying"
+   ],
+   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
+   "a": 3
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "variety",
+    "string",
+    "bundle",
+    "piece"
+   ],
+   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
+   "a": 0
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "educationally",
+    "financially",
+    "critically",
+    "unfortunately"
+   ],
+   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
+   "a": 1
+  }
+ ]
+};

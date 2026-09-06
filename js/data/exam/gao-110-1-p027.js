@@ -227,7 +227,7 @@ window.APP_EXAM_PAPERS['gao-110-1-p027'] = {
    "n": 17,
    "pt": 1,
    "type": "single",
-   "q": "布林函數 ABC  ABC  BC 進行化簡後，其最簡式有幾個文字字元（literals）？",
+   "q": "布林函數 ABC + ABC + BC 進行化簡後，其最簡式有幾個文字字元（literals）？",
    "o": [
     "1",
     "2",

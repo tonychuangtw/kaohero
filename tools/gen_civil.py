@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import parse as P
 import parse_gao as G
 
-LAB = 'ABCD'
+LAB = 'ABCDE'      # 少數卷是五選一
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 # 每一種考試：等別怎麼判、科目 key 的前綴、卷 id 的前綴（必須是三個小寫字母，test.js 有守門）
@@ -49,6 +49,7 @@ def lvl_of(cn):
 def track_name(cn, lvl):
     tn = cn.split('_', 1)[1] if '_' in cn else cn
     tn = re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()
+    tn = re.sub(r'類科$', '', tn)     # 地方特考寫「一般行政類科」，高普考寫「一般行政」，統一
     if '離島' in (cn or '').split('_')[0]: tn = '離島・' + tn
     return tn
 
@@ -145,10 +146,12 @@ def primary(trs, lvl):
 
 def main():
     global SPEC, REG
-    name = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') else 'gao'
-    if name not in SPECS: sys.exit(__doc__ + '\n可用的：' + '、'.join(SPECS))
-    SPEC = SPECS[name]
-    REG = os.path.join(HERE, '%s-subjects.json' % name)
+    # ⚠ 這個變數不要叫 name：底下迴圈裡的 name 是「科目名稱」，會把它蓋掉
+    #   （踩過一次：索引檔被寫成「基礎能力測驗-index.json」）
+    spec_name = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') else 'gao'
+    if spec_name not in SPECS: sys.exit(__doc__ + '\n可用的：' + '、'.join(SPECS))
+    SPEC = SPECS[spec_name]
+    REG = os.path.join(HERE, '%s-subjects.json' % spec_name)
     work = os.getcwd()
     want_figs = '--figs' in sys.argv
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else 0
@@ -178,6 +181,12 @@ def main():
         notes[key].add(sn)
         for t in trs:
             if lvl_of(t) == lvl: tracks[lvl][track_name(t, lvl)].add(key)
+        # 複選題卷（地方特考五等國文：35 單選＋10 複選）本站的作答介面還不支援，先不收；
+        # 硬收會因為「BD」這種答案被拆成兩個字母而算錯題數、對錯也判不了
+        atext = P.text(ap)
+        mm = re.search(r'複選題數：\s*(\d+)\s*題', atext)
+        if mm and mm.group(1) != '0':
+            skipped.append([roc, code, s, sn, '含複選題 %s 題，介面尚未支援' % mm.group(1)]); continue
         ans = P.parse_answers(ap)
         if not ans:
             skipped.append([roc, code, s, sn, '答案讀不出來']); continue
@@ -200,11 +209,11 @@ def main():
                 fn = 'img/q/%s_%s_%s_%d.webp' % (code, c, s, n)
                 item['needfig'] = True; item['fig'] = fn
                 item['q'] = q['q'] or '（本題題幹與選項都在圖上，請見下圖作答）'
-                item['o'] = ['', '', '', '']
+                item['o'] = [''] * len(item['o'] or [1, 2, 3, 4])
                 figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
             acc, a0 = corr.get(n), ans.get(n, '#')
             if acc:
-                if len(acc) >= 4: item['void'] = True; item['a'] = 0
+                if len(acc) >= len(item['o']): item['void'] = True; item['a'] = 0
                 else:
                     idx = sorted(LAB.index(x) for x in acc if x in LAB)
                     item['a'] = idx[0]
@@ -229,7 +238,7 @@ def main():
             fn = 'img/q/%s_%s_%s_%d.webp' % (code, c, s, n)
             item['needfig'] = True; item['fig'] = fn
             item['q'] = '（本題題幹與選項都在圖上，請見下圖作答）'
-            item['o'] = ['', '', '', '']
+            item['o'] = [''] * len(item['o'] or [1, 2, 3, 4])
             item.pop('psg', None)
             figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
         lvname = [x[1] for x in SPEC['levels'] if x[0] == lvl][0]
@@ -253,8 +262,8 @@ def main():
            'tracks': {str(l): {t: sorted(ks) for t, ks in sorted(d.items())} for l, d in tracks.items()}}
     idx['exam'] = SPEC['exam']
     idx['levels'] = [{'no': no, 'name': nm, 'note': SPEC['note'][no]} for no, nm, _ in SPEC['levels']]
-    json.dump(idx, open('%s-index.json' % name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    json.dump(skipped, open('%s-skipped.json' % name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(idx, open('%s-index.json' % spec_name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(skipped, open('%s-skipped.json' % spec_name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(figs, open('figs.json', 'w', encoding='utf-8'), ensure_ascii=False)
     print('成卷 %d、題 %d、需裁圖 %d、跳過 %d' % (
         len(done), sum(n for _, n in done), len(figs), len(skipped)))

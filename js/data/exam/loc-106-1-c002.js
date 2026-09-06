@@ -1,0 +1,674 @@
+/* 106 年　五等　公民與英文（一般行政組）（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
+ "id": "loc-106-1-c002",
+ "cat": "civil",
+ "exam": "local",
+ "stage": 3,
+ "roc": 106,
+ "nth": 1,
+ "code": "106190",
+ "subj": "c002",
+ "title": "106 年　五等　公民與英文（一般行政組）",
+ "subjName": "公民與英文（一般行政組）",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "社會上對性騷擾存在著許多迷思，例如是被害者有意無意的引誘。這樣的迷思在父權社會下，不斷的被複製、傳遞，為騷擾者找到合理的藉口。下列選項，何者有助於打破社會對性騷擾的迷思？",
+   "o": [
+    "警政單位公開呼籲女性應避免在夜晚單獨出門",
+    "女性在街上可與男子保持一個手臂的距離以自保",
+    "公共場所女性應著褲裝可以降低被性騷擾機率",
+    "尊重每個人的身體自主權，而非歸咎受害者行為"
+   ],
+   "a": 3
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "在公共利益的推動上，公民團體的倡議對國家往往有監督的作用。下列何者屬於其活動範疇？",
+   "o": [
+    "某本土演員在媒體上買廣告，呼籲政府重視外國戲劇節目播出時段過多問題",
+    "某教授帶領一群大學生，上街頭抗議政府不尊重原住民文化、生存與狩獵權",
+    "學運領袖組成人權團體，積極遊說政府和國會盡速通過「多元成家法案」",
+    "知名部落客在網路上揭發不肖商家販賣過期商品，呼籲網民發起拒買行動"
+   ],
+   "a": 2
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "某學者針對青少年流行漫畫進行研究，發現漫畫中「男主角的個性多具有勇敢、正義、領導的特質，而女主角則多為善良、溫柔、富同情心。」學者的研究顯示出該漫畫具有下列何種性別概念？",
+   "o": [
+    "性別歧視",
+    "性別偏見",
+    "性別主流化",
+    "性別刻板印象"
+   ],
+   "a": 3
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "目前採用核能發電的國家大多面臨核廢料處理及放置的難題，而一般民眾更擔心核廢料威脅個人健康與生命財產安全，因此反對政府在自己住家鄉鎮設置儲存場。這種現象反映出增進公共利益的何種難題？",
+   "o": [
+    "搭便車心態",
+    "共有財悲歌",
+    "鄰避效應",
+    "社會資本不足"
+   ],
+   "a": 2
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "依我國憲法規定，立法院可以針對下列何者行使人事同意權？①行政院院長 ②考試院院長 ③國防部部長 ④審計長 ⑤司法院大法官",
+   "o": [
+    "①②④",
+    "②③⑤",
+    "①③④",
+    "②④⑤"
+   ],
+   "a": 3
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "若以責任政治的角度來看，下列何者屬於「法律責任」的範圍？",
+   "o": [
+    "立法委員因違反選民負託遭選區選民罷免",
+    "消防局長向包商索取回扣而被判貪污定讞",
+    "縣長發言不當引發民怨向民眾發表道歉文",
+    "立法院通過不信任案迫使行政院院長辭職"
+   ],
+   "a": 1
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "下列關於各政治意識形態對於政府是否要介入經濟活動的相關敘述，何者正確？",
+   "o": [
+    "自由主義認為政府不應介入市場，而讓市場以自由競爭的方式達成供需平衡",
+    "社會主義認為政府僅需做到保護國家安全、維護社會秩序及提供公共財即可",
+    "保守主義強調政府應該積極介入市場，並將財產收歸公有，以維護經濟平等",
+    "第三條路強調應由政府全面擴大社會福利支出，達成經濟平等，以保護弱勢"
+   ],
+   "a": 0
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "我國歷屆總統在兩岸關係上均有其政策作為，下列何者正確？",
+   "o": [
+    "蔣經國：制定國家統一綱領",
+    "李登輝：不統、不獨、不武",
+    "陳水扁：終止適用國家統一綱領",
+    "馬英九：積極管理、有效開放"
+   ],
+   "a": 2
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "根據法國學者杜瓦傑（M. Duverger）的看法，選舉制度若是實施比例代表制，其政黨制度的類型較可能出現下列何者？",
+   "o": [
+    "一黨專政制",
+    "一黨優勢制",
+    "兩黨制",
+    "多黨制"
+   ],
+   "a": 3
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "下列關於當前國際關係之敘述，何者正確？",
+   "o": [
+    "屬於美、蘇兩大強權的對抗局面",
+    "由區域衝突轉為全面對抗的局面",
+    "焦點不再侷限於軍事，經濟等議題受到矚目",
+    "國際成員各自獨立，彼此的互賴性逐漸降低"
+   ],
+   "a": 2
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "依據我國相關法律規定，地方自治團體是指實施地方自治，具有公法人地位的團體。下列何者為地方自治團體？①高雄市 ②花蓮縣壽豐鄉 ③新北市板橋區 ④屏東縣東港鎮 ⑤彰化縣二水鄉上豐村",
+   "o": [
+    "①②③",
+    "①②④",
+    "①③⑤",
+    "②④⑤"
+   ],
+   "a": 1
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "依現行規定，下列關於立法委員選舉的敘述，何者正確？",
+   "o": [
+    "立法委員的任期為四年，且連選得連任一次",
+    "在區域立委中，有二分之一的婦女保障名額",
+    "不分區立委是採取並立式的比例代表制產生",
+    "對身心障礙者、原住民等身分者有額外保障"
+   ],
+   "a": 2
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法及增修條文之規定，下列關於覆議權行使之相關敘述，何者正確？",
+   "o": [
+    "總統提出覆議案須經行政院通過，才能送交立法院",
+    "覆議時，經全體立委 1/2 以上決議維持原案，總統應接受",
+    "針對窒礙難行的法律案及命令案，行政院皆可以提出覆議",
+    "覆議權設計係仿照總統制中之行政、立法兩權制衡原理"
+   ],
+   "a": 3
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "依據我國現行法令規定，「政黨的成立」與「違憲政黨的解散」應分別由下列何者負責處理？",
+   "o": [
+    "行政院；大法官",
+    "內政部；憲法法庭",
+    "立法院；監察院",
+    "內政部；立法院"
+   ],
+   "a": 1
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "我國立法委員選舉，自民國 97 年起改成「單一選區兩票制」，關於這樣的選舉制度，下列敘述何者正確？",
+   "o": [
+    "我國是屬於兼具多數決制與比例代表制的混合制選舉制度",
+    "「單一選區制」是指選民只能投一票，並圈選其中一名候選人",
+    "我國採取混合制選舉中的「並立制」，與德國選舉制度相同",
+    "我國區域與原住民立法委員的選舉，均採用「單一選區制」"
+   ],
+   "a": 0
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "小美去賣場採買生活用品時，看到賣場內跑馬燈播放的內容為「貨物既出，概不退換，請仔細檢查後再選購。」上述內容若依據我國現行法律的規定判斷，下列何者正確？",
+   "o": [
+    "有效，消費者本就負有檢查義務，所以商品有瑕疵不能再找賣場退換",
+    "有效，跑馬燈播映內容也是定型化契約的一種，故對消費者有拘束力",
+    "無效，消費者保護法保障消費者可以在購買商品後七天內無條件退貨",
+    "無效，賣家不得以此免除自己對商品的瑕疵擔保責任"
+   ],
+   "a": 3
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "依民法對婚姻的相關規定，下列敘述何者正確？",
+   "o": [
+    "未達法定結婚年齡之人結婚者，當事人或其法定代理人得向法院請求撤銷之",
+    "若因故無法到場，結婚當事人請他人代行結婚登記一樣有效",
+    "未至戶政機關辦理結婚登記者，婚姻關係得撤銷",
+    "訂婚後如悔婚，需依法定程序辦理才能解除婚約"
+   ],
+   "a": 0
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "剛滿 16 歲的小廷，到電子商場買了一台價值 5 萬的筆記型電腦，當場銀貨兩訖，因為未經爸媽同意，而與他們起了爭執。上述若依據民法規定，下列針對小廷買筆記型電腦的法律效力之敘述，何者正確？",
+   "o": [
+    "有效，因為小廷已經付款並把筆記型電腦帶回家，買賣契約已成立",
+    "有效，因為購買筆記型電腦為高中生日常生活所需之行為",
+    "無效，因為小廷是限制行為能力人，須由法定代理人代為法律行為",
+    "效力未定，因為小廷是限制行為能力人，未得法定代理人允許之契約，須經法定代理人承認始生效力"
+   ],
+   "a": 3
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "小莉是一名高中生，因屢次遲到而被記過退學，小莉認為學校處分不當，透過校內申訴管道仍未得到滿意的結果，於是向學校上級機關提出訴願。若訴願結果仍不如小莉預期，小莉可採取下列何者續行權利救濟？",
+   "o": [
+    "向地方法院民事庭提起訴訟",
+    "向地方法院行政庭提起訴訟",
+    "向高等行政法院提起訴訟",
+    "向司法院大法官聲請釋憲"
+   ],
+   "a": 2
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "下列關於警察執行臨檢之敘述，何者合乎法律規定？",
+   "o": [
+    "於夜間巡邏時，強制要求長相像不良分子之人接受查驗身分",
+    "對合理懷疑有犯罪嫌疑之人，要求前往其住宅查驗身分及檢查",
+    "對正著手為自殺行為之人，立即以強制力帶往勤務處所查驗身分",
+    "對客觀合理判斷易生危害之車輛，予以攔停並要求查驗乘客身分"
+   ],
+   "a": 3
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "刑事訴訟法中有「偵查不公開」的規定，下列關於此規定的目的及說明，何者錯誤？",
+   "o": [
+    "避免媒體報導影響法官審理時的心證",
+    "避免偵查內容公開使嫌疑人串供滅證",
+    "遵守偵查不公開，故絕不可請民眾協助調查",
+    "符合無罪推定原則，以避免影響嫌疑人名譽"
+   ],
+   "a": 2
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "契約自由是私法自治的基礎，但當締約雙方地位不平等時，為維護社會正義，國家會介入私法以限制契約自由。下列何者不符合上述觀念？",
+   "o": [
+    "自來水公司非有正當理由，不得拒絕用戶供用的請求",
+    "玩具有瑕疵導致孩童受傷，製造商縱無過失仍須賠償",
+    "勞僱雙方可自行約定工資，但不得低於最低工資",
+    "房東為維持租屋品質及單純性，僅限女房客租屋"
+   ],
+   "a": 3
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "某甲在歷經三年多的審判後，於日前經最高法院判處死刑定讞，甲仍不放棄希望能尋求一線生機，因此委請律師協助他尋求翻案的機會。下列何者最不可能是甲採取的救濟方式？",
+   "o": [
+    "再審",
+    "非常上訴",
+    "更審",
+    "聲請釋憲"
+   ],
+   "a": 2
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法第 130 條規定「中華民國國民年滿二十歲者，有依法選舉之權」。但我國許多人民也呼籲，希望將投票年齡從 20 歲降為 18 歲。我國若要修憲降低投票年齡，下列作法何者正確？",
+   "o": [
+    "人民經由一定人數的連署，提出憲法修正案",
+    "提案之後，應於全國公告 3 個月，進行廣泛討論",
+    "立法院通過憲法修正案，直接送請總統公布",
+    "立法院通過憲法修正案，交付公民複決通過"
+   ],
+   "a": 3
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "二十歲的小美與阿軒因分手鬧得不愉快，阿軒於是將兩人交往時所拍攝的私密照片上傳網站。依我國刑法規定，阿軒的行為恐已觸犯下列何者？",
+   "o": [
+    "公共危險罪",
+    "妨害名譽罪",
+    "妨害性自主罪",
+    "妨害電腦使用罪"
+   ],
+   "a": 1
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "下列那一項敘述充分反映社會中的性別不平等？",
+   "o": [
+    "公共運輸設有女性專用車廂，但沒有男性專用車廂",
+    "公共場所除男女廁外，另有親子專用廁所的設置",
+    "同一運動競賽，男性運動員獎金高於女性運動員",
+    "女性員工可以請生理假"
+   ],
+   "a": 2
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "蘋果（Apple）公司的手機 iPhone，每年總有新產品上市，並吸引果粉們的目光與搶購風潮，而蘋果的新世代手機上市也會針對舊款手機調降售價。在其他條件不變的情形下，若蘋果公司宣布即將在未來兩個月內推出最新研發的次世代手機，則蘋果手機市場會出現下列何種狀況？",
+   "o": [
+    "消費者對當前款式的手機需求會減少",
+    "消費者因預期心理搶購導致當前款式的手機漲價",
+    "消費者因偏好新款手機導致其需求量增加",
+    "因預期當前款式的手機會降價，目前的需求量會減少"
+   ],
+   "a": 0
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "在臺灣的街道常見嚼食檳榔者亂吐檳榔汁破壞市容，此外，嚼食檳榔容易導致口腔癌，種植檳榔樹也會破壞水土保持。從經濟學的角度，政府可採取下列何者來解決或減少檳榔所產生的外部成本問題？",
+   "o": [
+    "要求種植檳榔業者買下山坡地耕種",
+    "立法課檳榔稅並禁止公共場所嚼食",
+    "立法補貼嚼食檳榔者的健保費支出",
+    "禁止便利商店販售檳榔給未成年者"
+   ],
+   "a": 1
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "在韓劇影響下，國人吃炸雞時一定會配啤酒，但是多喝啤酒卻會減少國人對汽水的消費。依上所述，當炸雞的價格上升時，在不考慮其他條件的情況，下列針對市場需求者的敘述，何者正確？",
+   "o": [
+    "對啤酒的需求下降",
+    "對炸雞的需求下降",
+    "對汽水的需求減少",
+    "對炸雞的偏好度下滑"
+   ],
+   "a": 0
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "「第三部門」基本上是在政府與營利機構對於國家社會照顧有不周延之處所發展而來，主要是針對弱勢者的基本需求給予滿足與協助。基於上述，臺灣世界展望會或是財團法人慈濟慈善基金會的日常工作事務，最有可能採取下列何項公民社會的參與形式？",
+   "o": [
+    "志願服務",
+    "利益遊說",
+    "公民不服從",
+    "社會運動"
+   ],
+   "a": 0
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "我國政府經常向社會大眾宣示經濟成長率持續在增長，但多數民眾卻覺得生活仍然過得苦哈哈。若以 GDP指標的缺失來看，上述現象最能反映下列何者？",
+   "o": [
+    "無法反映所得分配",
+    "未將地下經濟納入",
+    "忽略家務勞動價值",
+    "忽略產品品質改進"
+   ],
+   "a": 0
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "據報載，我國勞動大環境持續惡化，失業的年輕人經調適後再度投入僵化且不友善的職場，若再次碰到挫折，會更加否定自己，有些人甚至可能會徹底被擊垮而不願找工作，他們被稱為「沮喪勞工」。下列敘述，何者正確？",
+   "o": [
+    "沮喪勞工的存在，使得失業率被高估",
+    "沮喪勞工不是失業人口，也不是勞動人口",
+    "沮喪勞工是失業人口，但不屬於勞動人口",
+    "沮喪勞工不算是失業人口，但算是勞動人口"
+   ],
+   "a": 1
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "孟子說：「數罟不入洿池，魚鼈不可勝食也；斧斤以時入山林，材木不可勝用也。」若用經濟學觀點來分析自然資源的使用，下列何者較能用來說明孟子這句話的涵義？",
+   "o": [
+    "自然資源是生產要素，技術突破可增加自然資源總量",
+    "不具排他性的共有財產，使用自然資源沒有機會成本",
+    "具有共享性與無法排他的「公共財」，故應由政府提供",
+    "自然資源的再生性有限，利用得當才能維持永續發展"
+   ],
+   "a": 3
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "美國經濟學家阿卡洛夫在《檸檬市場》一文中指出，在二手車市場中，買主因為對舊車的車況較不了解，因此多半只願用低於市場均衡價格來購買舊車；在此情形下，車況較好的車主卻因賣不到好價錢而不願意出售，最後可能造成交易無法進行。上文中主要是針對市場失靈的何項原因？",
+   "o": [
+    "交易行為產生外部性",
+    "交易雙方資訊不對稱",
+    "公共財具無法排他性",
+    "財產權利缺乏獨享性"
+   ],
+   "a": 1
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "假設政府計畫於社區內興建公園，在估算所有效益與成本後，得到總效益為 1 千萬，總成本為 8 百萬。下列針對上述計畫的分析敘述，何者正確？",
+   "o": [
+    "因為淨效益小於零，該計畫可以實施",
+    "滿足社區民眾休閒需求屬於內部效益",
+    "公園內花草樹木的栽植屬於外部成本",
+    "民眾於公園內亂丟垃圾屬於外部效益"
+   ],
+   "a": 1
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "That the student team from Taiwan won second place at the International Mathematical Olympiad is a great _____.",
+   "o": [
+    "scooter",
+    "section",
+    "servant",
+    "success"
+   ],
+   "a": 3
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "Susan is a very _____ person because she loves talking with strangers.",
+   "o": [
+    "social",
+    "ordinary",
+    "healthy",
+    "rigid"
+   ],
+   "a": 0
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "People have enjoyed going to the theater to watch plays for centuries－the first theaters _____ about 2,500 years ago.",
+   "o": [
+    "build",
+    "were built",
+    "have been built",
+    "had been building"
+   ],
+   "a": 1
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "They _____ at the descriptions of the genes of eighty-four girls, and from the list, chose their two favorites.",
+   "o": [
+    "look",
+    "looked",
+    "have looked",
+    "are looking"
+   ],
+   "a": 1
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "Students choose to study a lost ancient city just recently _____ in Europe.",
+   "o": [
+    "discover",
+    "discovery",
+    "discovered",
+    "discovering第 41 題至第 45 題為題組Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black"
+   ],
+   "a": 2
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "Brain",
+    "Nature",
+    "Rapid",
+    "Social"
+   ],
+   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
+   "a": 2
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "belief",
+    "interest",
+    "awareness",
+    "motivation"
+   ],
+   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
+   "a": 2
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "draw",
+    "allow",
+    "admit",
+    "decide"
+   ],
+   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
+   "a": 0
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "cold",
+    "secret",
+    "global",
+    "public"
+   ],
+   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
+   "a": 3
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "planted",
+    "polluted",
+    "published",
+    "protected第 46 題至第 50 題為題組If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what"
+   ],
+   "psg": "assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty.",
+   "a": 2
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "According to this passage, which of the following statements is NOT true？",
+   "o": [
+    "Money can’t buy happiness.",
+    "Money may make people get depression.",
+    "The real truth about money is easy to find.",
+    "Many Americans view expensive purchases as \"shortcuts to well-being.\""
+   ],
+   "a": 2
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "Many of our grandmothers lived through the Depression and the war and they told us that money can’t buyhappiness. What is our response to their advice？",
+   "o": [
+    "We listen attentively.",
+    "We are convinced that money can’t buy happiness.",
+    "We engage in activities that create real fulfillment in life.",
+    "Millions of us spend more time and energy pursuing the things money can buy."
+   ],
+   "a": 3
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "According to this passage, what can be inferred？",
+   "o": [
+    "Being poor causes unhappiness.",
+    "Unhappiness is likely to result from expensive purchases.",
+    "People should engage in meaningful activities that create fulfillment in life.",
+    "People get depressed because they make less money than people of two generations ago."
+   ],
+   "a": 2
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following acts is NOT recommended by the writer？",
+   "o": [
+    "Helping others.",
+    "Trying to be rich.",
+    "Cultivating friendships.",
+    "Developing a spiritual sense."
+   ],
+   "a": 1
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "What does the phrase \"shortcuts to well-being\" mean？",
+   "o": [
+    "A big challenge to get rich.",
+    "A fast method to help people.",
+    "A quick way to live a happy life.",
+    "A difficult route to real fulfillment."
+   ],
+   "a": 2
+  }
+ ]
+};

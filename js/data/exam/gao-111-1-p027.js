@@ -253,12 +253,12 @@ window.APP_EXAM_PAPERS['gao-111-1-p027'] = {
    "n": 19,
    "pt": 1,
    "type": "single",
-   "q": "布林函數 XY  XZ  YZ 可化簡為：",
+   "q": "布林函數 XY + XZ + YZ 可化簡為：",
    "o": [
-    "XY  YZ",
-    "X Z  YZ",
-    "XY  X Z",
-    "X Y  YZ"
+    "XY + YZ",
+    "X Z + YZ",
+    "XY + X Z",
+    "X Y + YZ"
    ],
    "a": 2
   },

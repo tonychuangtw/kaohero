@@ -634,10 +634,10 @@ window.APP_EXAM_PAPERS['gao-103-1-p025'] = {
    "type": "single",
    "q": "腎功能可藉由腎小球濾過率（GFR）來測定，u 為每 mL 尿液含有某物質之濃度；p 為每 mL 血漿中含有某 物質之濃度；v 為每分鐘所排出的尿量，則 GFR=？",
    "o": [
-    "u v p",
-    "u  v/p",
-    "p  v/u",
-    "u  p/v"
+    "u× v× p",
+    "u × v/p",
+    "p × v/u",
+    "u × p/v"
    ],
    "a": 1
   },

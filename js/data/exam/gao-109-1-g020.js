@@ -19,7 +19,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 1,
    "pt": 1,
    "type": "single",
-   "q": "下列何者為以(1,2,2), (0,1, 2) ,(1,4,1),(2,5,5)為頂點之平行四邊形的面積？",
+   "q": "下列何者為以(1,2,2), (0,1, −2) ,(1,4,1),(2,5,5)為頂點之平行四邊形的面積？",
    "o": [
     "144",
     "144",
@@ -32,7 +32,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 2,
    "pt": 1,
    "type": "single",
-   "q": "設平面 S1 : x  2 y  2 z  3 、平面 S2 : 2 x  4 y  4 z  7 ，則平面 S1 與平面 S2 之最短距離為何？",
+   "q": "設平面 S1 : x + 2 y − 2 z = 3 、平面 S2 : 2 x + 4 y − 4 z = 7 ，則平面 S1 與平面 S2 之最短距離為何？",
    "o": [
     "1/6",
     "1",
@@ -45,7 +45,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 3,
    "pt": 1,
    "type": "single",
-   "q": "設A為4×4的矩陣，若A的行列值 det( A)  2 ，則 det(2 A) 之值為何？",
+   "q": "設A為4×4的矩陣，若A的行列值 det( A) = −2 ，則 det(−2 A) 之值為何？",
    "o": [
     "4",
     "−4",
@@ -58,11 +58,11 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 4,
    "pt": 1,
    "type": "single",
-   "q": "設矩陣 A  0 1 1 之反矩陣 A   d  1e f  ，求a + e + i=？   3 2 0   g h i 9 9",
+   "q": "設矩陣 A = 0 −1 1 之反矩陣 A =  d  −1e f  ，求a + e + i=？   3 2 0   g h i 9 9",
    "o": [
     "0",
     "−1",
-    "",
+    "−",
     "4 4"
    ],
    "a": 2
@@ -71,7 +71,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 5,
    "pt": 1,
    "type": "single",
-   "q": "若轉換函式 T : R 2  R 2 可表示為 T ( x, y )  (2 x  y,3 x  4 y ) ，則其逆轉換 T 1 (5, 6) 為何？",
+   "q": "若轉換函式 T : R 2 → R 2 可表示為 T ( x, y ) = (2 x + y,3 x + 4 y ) ，則其逆轉換 T −1 (5, 6) 為何？",
    "o": [
     "(14/5, −3/5)",
     "(16,39)",
@@ -84,12 +84,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 6,
    "pt": 1,
    "type": "single",
-   "q": "令A   1 ，D為對角矩陣且 D  X AX ，求方陣X： 2 0  1 3 1 1 3 1  2  53 ",
+   "q": "令A =  −1 ，D為對角矩陣且 D = X AX ，求方陣X： 2 0  1 3 1 1 3 1  2 − 53 ",
    "o": [
     " ",
     " 52 53",
     " ",
-    " 15 1 1 2 5  5 2 1 5 5 "
+    " 15 1 −1 2 5 − 5 2 −1 5 5 "
    ],
    "a": 0,
    "alt": [
@@ -100,12 +100,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 7,
    "pt": 1,
    "type": "single",
-   "q": "下列何者是1+i的四次方根？1/8       1/8      ",
+   "q": "下列何者是1+i的四次方根？1/8  π   π  1/8  π   π ",
    "o": [
-    "2  cos    i sin   ",
-    "2  cos    i sin     16   16    8  8 1/4       1/4      ",
-    "2  cos    i sin   ",
-    "2  cos    i sin    4  4   2  2  6  2i "
+    "2  cos   + i sin   ",
+    "2  cos   + i sin     16   16    8  8 1/4  π   π  1/4  π   π ",
+    "2  cos   + i sin   ",
+    "2  cos   + i sin    4  4   2  2  6 − 2i "
    ],
    "a": 0
   },
@@ -113,12 +113,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 8,
    "pt": 1,
    "type": "single",
-   "q": "在複數空間 z  x  iy ，化簡  ：（其中 f(z) 為對複數函數 f(z) 取共軛複數（complex conjugate） 1  i 以及 i  1 。）",
+   "q": "在複數空間 z = x + iy ，化簡  ：（其中 f(z) 為對複數函數 f(z) 取共軛複數（complex conjugate） 1 − i 以及 i = −1 。）",
    "o": [
-    "4  2i",
-    "4  2i",
-    "4  2i",
-    "4  2iie z dz"
+    "4 + 2i",
+    "−4 + 2i",
+    "4 − 2i",
+    "−4 − 2iie z dz"
    ],
    "a": 2
   },
@@ -126,12 +126,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 9,
    "pt": 1,
    "type": "single",
-   "q": "求複數積分   ？（其中積分路徑C為 z  1  5 之逆時針方向圓周。） z 1 iC 2",
+   "q": "求複數積分 ∫ = ？（其中積分路徑C為 z − 1 = 5 之逆時針方向圓周。）( z −1+ i)C 2",
    "o": [
-    "2 e(cos1  i sin1)",
-    "2 e(cos1  i sin1)",
-    " e(cos1  i sin1)",
-    " e(cos1  sin1)"
+    "2π e(cos1 + i sin1)",
+    "−2π e(cos1 − i sin1)",
+    "π e(cos1 + i sin1)",
+    "−π e(cos1 − sin1)"
    ],
    "a": 1
   },
@@ -139,12 +139,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 10,
    "pt": 1,
    "type": "single",
-   "q": "下列複數級數何者為發散？（其中 i  1 。）n(1  i ) n(1  i ) n  i 1  1  in( 1) n",
+   "q": "下列複數級數何者為發散？（其中 i = −1 。）n(1 + i ) n∞(1 + i ) n∞ ∞ i +1  ∞1 + in( −1) n",
    "o": [
-    "",
-    "",
-    " ",
-    "n0 2n n0 n! n 0  2 n 0 ( n  1) 2d2y dy"
+    "∑",
+    "∑",
+    "∑ ",
+    "∑n=0 2n n=0 n! n =0  2 n =0 ( n + 1) 2d2y dy"
    ],
    "a": 2
   },
@@ -152,12 +152,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "求解微分方程式 2 1.25  0.875 y  0 ：dx dx",
+   "q": "求解微分方程式 2+ 1.25 − 0.875 y = 0 ：dx dx",
    "o": [
-    "y  c1e 0.5 x  c 2 e1.75 x",
-    "y  c1e 0.5 x  c2 e 1.75 x",
-    "y  c1e 3.5 x  c 2 e 0.25 x",
-    "y  c1e 3.5 x  c2 e 0.25 x38120-38320"
+    "y = c1e 0.5 x + c 2 e1.75 x",
+    "y = c1e 0.5 x + c2 e −1.75 x",
+    "y = c1e 3.5 x + c 2 e 0.25 x",
+    "y = c1e 3.5 x + c2 e −0.25 x38120-38320"
    ],
    "a": 1
   },
@@ -165,7 +165,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "3x 2  xy  x 2 y 1 y  0 為正合（exact），則  =？",
+   "q": "3x 2 + xyα − x 2 yα −1 y′ = 0 為正合（exact），則 α =？",
    "o": [
     "−2",
     "−1",
@@ -178,12 +178,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "求微分方程式 y (4)  4 y (3)  7 y (2)  6 y (1)  2 y  0 的通解：（其中 y ( n )  ＿＿＿ 。）dx n",
+   "q": "求微分方程式 y (4) + 4 y (3) + 7 y (2) + 6 y (1) + 2 y = 0 的通解：（其中 y ( n ) ≡ ＿＿＿ 。）dx n",
    "o": [
-    "c1e  x  c 2 xe  x  c3 x 2 e  x  c4 x 3 e  x",
-    "c1e  x  c 2 xe  x  c3 e x cos x  c4 e x sin x",
-    "c1e  x  c 2 xe  x  c3 e  x cos x  c4 e  x sin x",
-    "c1e  x  c 2 xe  x  c3 cosh x  c4 sinh x"
+    "c1e − x + c 2 xe − x + c3 x 2 e − x + c4 x 3 e − x",
+    "c1e − x + c 2 xe − x + c3 e x cos x + c4 e x sin x",
+    "c1e − x + c 2 xe − x + c3 e − x cos x + c4 e − x sin x",
+    "c1e − x + c 2 xe − x + c3 cosh x + c4 sinh x"
    ],
    "a": 2
   },
@@ -191,12 +191,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "將Bessel equation x 2 y  xy  (k 2 x 2  v 2 ) y  0 （其中v、k為常數）化成Sturm-Liouville之形式為d  dy p ( x )     x   q  x   y  0 ，下列何者正確？dx  dx x2",
+   "q": "將Bessel equation x 2 y′′ + xy′ + (k 2 x 2 − v 2 ) y = 0 （其中v、k為常數）化成Sturm-Liouville之形式為d  dy p ( x ) + ( λω ( x ) + q ( x ) ) y = 0 ，下列何者正確？dx  dx x2",
    "o": [
-    "p  x   x2",
-    "p  x  x",
-    "p  x  x",
-    "p  x  x2"
+    "p ( x ) = x2",
+    "p ( x) = +x",
+    "p ( x) = x",
+    "p ( x) = x2∞"
    ],
    "a": 2
   },
@@ -204,7 +204,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "利用拉氏轉換求  t cos(t )e 2 t dt  ？4 3 3 2A. B. C. D.25 25 23 25e2 s",
+   "q": "利用拉氏轉換求 ∫ t cos(t )e −2 t dt = ？4 3 3 2A. B. C. D.25 25 23 25e−2 s",
    "o": [
     "",
     "",
@@ -219,12 +219,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 16,
    "pt": 1,
    "type": "single",
-   "q": "下列何者為 Y ( s )  之反拉普拉斯轉換（inverse Laplace transform）？（其中u(t)為單位步s  s2  4階函數（unit step function）。）1 1  1 1 ",
+   "q": "下列何者為 Y ( s ) = 之反拉普拉斯轉換（inverse Laplace transform）？（其中u(t)為單位步s ( s2 + 4)階函數（unit step function）。）1 1  1 1 ",
    "o": [
-    "y(t )    sin 2(t  2)  u (t  2)",
-    "y(t )    sin 2(t  2)  u (t  2)4 4  4 4 1 1  1 1 ",
-    "y (t )    cos 2(t  2)  u (t  2)",
-    "y (t )    cos 2(t  2)  u (t  2)4 4  4 4 "
+    "y(t ) =  − sin 2(t − 2)  u (t − 2)",
+    "y(t ) =  + sin 2(t − 2)  u (t − 2)4 4  4 4 1 1  1 1 ",
+    "y (t ) =  − cos 2(t − 2)  u (t − 2)",
+    "y (t ) =  + cos 2(t − 2)  u (t − 2)4 4  4 4 "
    ],
    "a": 2
   },
@@ -232,12 +232,12 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 17,
    "pt": 1,
    "type": "single",
-   "q": "一週期函數 f ( x)  1  sin 2 2 x ，則其傅立葉級數（Fourier series）為：1 3 3 1 3 1 1 3",
+   "q": "一週期函數 f ( x) = 1 + sin 2 2 x ，則其傅立葉級數（Fourier series）為：1 3 3 1 3 1 1 3",
    "o": [
-    "f ( x)    sin 4 x",
-    "f ( x)    sin 2 x",
-    "f ( x)   cos 4 x",
-    "f ( x)   cos 2 x2 2 2 2 2 2 2 2"
+    "f ( x) = − + sin 4 x",
+    "f ( x) = − + sin 2 x",
+    "f ( x) = − cos 4 x",
+    "f ( x) = − cos 2 x2 2 2 2 2 2 2 2"
    ],
    "a": 2
   },
@@ -247,10 +247,10 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "type": "single",
    "q": "若A、B是機率不為零且互為獨立的事件，則下列何者不一定成立？",
    "o": [
-    "P  A  B  =P  A  P  B ",
-    "P  A  B  =P  A  P  B ",
-    "P  A|B =P  A|B",
-    "P  A  B =P  A  +P  BC  4 x  2 x 2  0  x  2"
+    "P [ A ∩ B ] =P [ A ] P [ B ]",
+    "P  A ∩ B  =P [ A ] P  B ",
+    "P [ A|B] =P  A|B",
+    "P [ A ∪ B] =P [ A ] +P [ B]C ( 4 x − 2 x 2 ) 0 < x < 2"
    ],
    "a": 3
   },
@@ -258,7 +258,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 19,
    "pt": 1,
    "type": "single",
-   "q": "設X為一連續隨機變數，其機率密度函數為 f ( x)   ，則其C值為多少？ 0 elsewhere",
+   "q": "設X為一連續隨機變數，其機率密度函數為 f ( x) =  ，則其C值為多少？ 0 elsewhere",
    "o": [
     "1/2",
     "1/4",
@@ -271,7 +271,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g020'] = {
    "n": 20,
    "pt": 1,
    "type": "single",
-   "q": "假設一隨機變數X，其動量產生函數（moment-generating function）為 M X (t )  e ( t  2 t ) ；試問此隨機變數X的期望值（mean）為何？",
+   "q": "假設一隨機變數X，其動量產生函數（moment-generating function）為 M X (t ) = e ( t + 2 t ) ；試問此隨機變數X的期望值（mean）為何？",
    "o": [
     "0",
     "0.5",

@@ -1,0 +1,682 @@
+/* 105 年　三等　法學知識與英文（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
+ "id": "loc-105-1-a002",
+ "cat": "civil",
+ "exam": "local",
+ "stage": 1,
+ "roc": 105,
+ "nth": 1,
+ "code": "105180",
+ "subj": "a002",
+ "title": "105 年　三等　法學知識與英文",
+ "subjName": "法學知識與英文",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋之意旨，下列有關集會自由之敘述，何者錯誤？",
+   "o": [
+    "集會自由是為了要保障人民以集體行動之方式表達意見，參與形成社會輿論",
+    "於室外舉行之集會遊行容易對社會原有運作秩序產生影響，原則上應向主管機關申請許可",
+    "為防止集會遊行對社會秩序產生破壞，許可制非常重要。即使是緊急性集會遊行，或群眾自發聚集之集會遊行，亦然",
+    "以示威遊行方式表達共產主義或臺獨思想，也是憲法所容許的"
+   ],
+   "a": 2
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋之意旨，下列有關法律保留原則之敘述，何者錯誤？",
+   "o": [
+    "刑罰法規關係人民生命、自由及財產權益至鉅，自應依循罪刑法定原則；若法律授權主管機關發布命令為補充規定時，須自授權之法律規定中得預見其行為之可罰，方符刑罰明確性原則",
+    "行政罰之處罰對象，除有法律或法律具體明確授權之法規命令為依據外，不得逕以行政規則定之",
+    "解釋性行政規則如對人民依法律享有之權利增設限制之要件，即牴觸憲法第 23 條之法律保留原則",
+    "違反同一行政法上義務者有多數人時，以按其行為情節之輕重分別處罰為原則，若就其是否應負各平均分擔責任等歸責方式，有為不同於上開原則規定之必要者，僅得以法律規定，不得再為授權"
+   ],
+   "a": 3
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "依照地方制度法之規定，地方自治團體無權裁處下列何種行政罰？",
+   "o": [
+    "罰鍰",
+    "勒令停工",
+    "停止營業",
+    "公布違反義務者之姓名或名稱"
+   ],
+   "a": 3
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院釋字第 689 號解釋，關於新聞自由之敘述，下列何者錯誤？",
+   "o": [
+    "新聞自由應受憲法保障",
+    "凡屬於新聞產生之行為，包括蒐集查證資訊之採訪行為或報導行為均受保障",
+    "受新聞自由保障之新聞以提供健全民主程序者為限，不包括娛樂新聞",
+    "新聞自由保障主體包含個人與企業組織之經營者"
+   ],
+   "a": 2
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法相關規定，為推動電業市場之自由化，下列敘述何者正確？",
+   "o": [
+    "電業僅得由政府經營，為推動自由化，應增加預算補助",
+    "電業由國民或政府經營，立法者得於電業法中自行規定",
+    "電業以政府經營為原則，僅得修正電業法使國民得經營",
+    "電業以國民經營為原則，政府亦得隨時投入資金為經營"
+   ],
+   "a": 2
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "依地方制度法規定，有關直轄市間為成立區域合作組織所締結之行政契約，下列敘述何者錯誤？",
+   "o": [
+    "應載明違約之處理方式",
+    "應載明合作之期間",
+    "遇有爭議時，得報請共同上級業務主管機關協調",
+    "應報請共同上級業務主管機關核定始生效力"
+   ],
+   "a": 3
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "依地方制度法之規定，直轄市政府對於直轄市議會通過之議決案，如認為窒礙難行時，下列敘述何者正確？",
+   "o": [
+    "直轄市市長應提出辭職，並同時呈請行政院院長解散直轄市議會",
+    "直轄市議會得經議員三分之一以上連署，對直轄市市長提出不信任案",
+    "直轄市政府於議決案送達直轄市政府三十日內，就窒礙難行部分敘明理由送請直轄市議會覆議",
+    "直轄市政府於議決案送達後，敘明理由送請行政院核定"
+   ],
+   "a": 2
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "關於國家賠償之敘述，下列何者錯誤？",
+   "o": [
+    "對於土地登記錯誤，向地政機關請求損害賠償",
+    "對於公立學校之禮堂倒塌，向學校請求損害賠償",
+    "對於捷運班車誤點，向臺北市政府請求損害賠償",
+    "對於消防車馳往救火途中肇事，向消防機關請求損害賠償"
+   ],
+   "a": 2
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法相關規定及司法院大法官解釋之意旨，關於立法院對預算案審議之敘述，下列何者錯誤？",
+   "o": [
+    "立法院對於行政院所提中央政府總預算案，不得為增加支出之提議",
+    "行政院因重要政策變更停止執行法定預算而向立法院報告並備詢時，立法院有聽取之義務",
+    "立法院對各機關所編列預算，不可在款項目節之間移動增減數額",
+    "地方行政機關公務員因無法定義務而拒絕到立法院備詢，立法院得刪減中央對地方補助款預算"
+   ],
+   "a": 3
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋之見解，有關公職人員選舉罷免法規定之敘述，下列何者錯誤？",
+   "o": [
+    "憲法增修條文有關立法委員選舉採單一選區兩票制之並立制，無損於民主共和國與國民主權基本原則之實現",
+    "公職人員選舉罷免法規定，選舉訴訟採二審終結不得提起再審之訴，係立法機關自由形成之範圍，與憲法第 16 條、第 23 條並無牴觸",
+    "為促進政黨政治之發展，公職人員選舉罷免法可針對獲政黨推薦之候選人，規定其保證金減半繳納，不違反平等原則",
+    "全國不分區及僑居國外國民立法委員選舉之當選人，不適用罷免之規定，與憲法賦予人民罷免權之規定並無牴觸"
+   ],
+   "a": 2
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法增修條文規定及司法院大法官解釋意旨，有關重要政策變更所應經程序之敘述，下列何者錯誤？",
+   "o": [
+    "重要政策變更涉及法定預算之停止執行者，行政院毋庸提案修正，但應由行政院院長或有關部會首長向立法院院會提出報告並備質詢",
+    "重要政策改變涉及法律修改者，行政院應向立法院提出法律修正案，其應修改或新頒命令者應予發布並須送置於立法院",
+    "立法院於聽取行政院院長有關涉及法定預算停止執行之重要政策變更報告後，若通過執行該重要政策之相關法案，此種法律內容構成所謂個別性法律，與憲法規定不符",
+    "立法院於聽取行政院院長有關涉及法定預算停止執行之重要政策變更報告後，如作成反對決議，此一決議具拘束力"
+   ],
+   "a": 2
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "有關總統機密特權之敘述，下列何者錯誤？",
+   "o": [
+    "總統於職權範圍內，就有關資訊，認為其公開可能影響國家安全與國家利益而應屬國家機密者，有決定不予公開之權力",
+    "總統依其國家機密特權，就國家機密事項得拒絕證言，亦得拒絕提交相關證物",
+    "檢察官為總統之部屬，對於總統行使機密特權，不得有反對之意思表示",
+    "對於總統所行使機密特權，法官仍得審查其是否屬於機密事項"
+   ],
+   "a": 2
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "下列有關監察院行使調查權方式之敘述，何者錯誤？",
+   "o": [
+    "由監察委員持監察證或派員持調查證，赴各機關部隊公私團體調查檔案冊籍及其他有關文件",
+    "調查人員必要時，得臨時封存有關證件，但不得攜去",
+    "調查人員必要時，得知會當地政府法院或其他有關機關協助",
+    "監察院於必要時，得就指定案件或事項，委託其他機關調查"
+   ],
+   "a": 1
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "依立法院組織法之規定，下列敘述何者錯誤？",
+   "o": [
+    "立法院會議，以院長為主席，立法院院長應本公平中立原則，維持立法院秩序，處理議事",
+    "立法院於必要時，得增設特種委員會；並依憲法增修條文第 12 條之規定，得設修憲委員會",
+    "每屆立法委員選舉當選席次達 5 席且席次較多之 3 個政黨得各組成黨團；席次相同時，以抽籤決定組成之。立法委員依其所屬政黨參加黨團。每一政黨以組成 1 黨團為限；每一黨團至少須維持 5 人以上",
+    "立法院院長因事故不能出席時，以副院長為主席；院長、副院長均因事故不能出席時，由出席委員互推一人為主席"
+   ],
+   "a": 2
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "下列有關司法院大法官解釋拘束力之敘述，何者錯誤？",
+   "o": [
+    "司法院所為之憲法解釋，不但有拘束全國各機關及人民之效力，依人民聲請所為之解釋，對聲請人據以聲請之案件，亦有效力",
+    "司法院依人民聲請所為之解釋，認為與憲法意旨不符，其受不利確定終局裁判者，得以該解釋作為再審或非常上訴之理由",
+    "司法院大法官宣告法令於一定期限後失效者，聲請人就聲請釋憲之原因案件雖不得據以請求再審或其他救濟，但檢察總長則得據以提起非常上訴",
+    "司法院所為之憲法解釋，為使聲請釋憲原因案件獲得實質救濟，得諭知原因案件具體之救濟方法，如未諭知，則俟新法令公布、發布生效後依新法令裁判"
+   ],
+   "a": 2
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "甲受丙之詐欺，而以低廉價格讓售自己名下之 A 屋於非因過失不知其事之乙，經過 10 年，甲始發現其受騙，擬撤銷其意思表示，下列何者正確？",
+   "o": [
+    "甲得以乙對於丙所為之詐欺，既非明知、亦無可得而知的情形，而撤銷其被詐欺之意思表示",
+    "甲就其被丙詐欺一事，自意思表示後，經過 1 年，不得撤銷",
+    "甲就其被丙詐欺一事，應於發見詐欺後，10 年內撤銷意思表示",
+    "乙於除斥期間經過後，毋庸依關於不當得利之規定，返還其所受之利益於甲"
+   ],
+   "a": 3
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "有關建築物區分所有，下列敘述何者錯誤？",
+   "o": [
+    "專有部分與其所屬之共有部分及其基地之權利，不得分離而為移轉或設定負擔",
+    "規約內容顯失公平者，不同意之區分所有人得於規約成立後 3 個月內，請求法院撤銷之",
+    "區分所有人間依規約所生之權利義務，繼受人對於特定之內容以明知或可得而知者為限，始受拘束",
+    "區分所有人間依規約以外之其他約定所生之權利義務，特定繼受人對於特定之內容明知或可得而知者，應受拘束"
+   ],
+   "a": 2
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "甲男與乙女再婚，乙女已有與前夫所生之丙女。下列關於甲、丙的敘述，何者錯誤？",
+   "o": [
+    "甲男可收養丙女",
+    "甲男在乙女離婚後可與丙女再婚",
+    "甲男未收養丙女而死亡者，丙女不得繼承甲男之財產",
+    "甲男虐待丙女時，乙女可請求裁判離婚"
+   ],
+   "a": 1
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "有關遺產分割之敘述，下列何者錯誤？",
+   "o": [
+    "遺囑禁止遺產之分割者，其禁止之效力以 15 年為限",
+    "胎兒為繼承人時，應先保留其應繼分，他繼承人始得分割遺產",
+    "胎兒關於遺產之分割，以其母為代理人",
+    "除法律另有規定或契約另有訂定外，繼承人得隨時請求分割遺產"
+   ],
+   "a": 0
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "甲為環境保護局負責採購檢測試劑人員，由於與廠商乙有私怨，乃延遲不撥發應付之貨款，關於抑留剋扣罪，下列敘述何者錯誤？",
+   "o": [
+    "抑留不發乃指應發之款項或物品無故不發",
+    "若係一部分未發亦屬抑留不發",
+    "甲僅因私怨而不發，構成無故抑留不發",
+    "若係因行政程序延宕而不能撥發，則不成立本罪"
+   ],
+   "a": 1,
+   "alt": [
+    2
+   ]
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "刑法第 124 條枉法裁判罪之適格行為主體，下列何者不適用之？",
+   "o": [
+    "各級法院之法官",
+    "行政法院之法官",
+    "仲裁人",
+    "訴願委員會委員"
+   ],
+   "a": 3
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "A 公司為 Y 公司股東，並當選為 Y 公司董事，今 A 公司與 B 公司合併後新設立成為 C 公司，下列敘述何者正確？",
+   "o": [
+    "A 公司消滅將致使其 Y 公司董事一職被解任",
+    "經 Y 公司同意，由 C 公司取代 A 公司董事職務",
+    "C 公司以變更董事名稱方式，接續 A 公司董事職務",
+    "報經主管機關核准，得由 C 公司取代 A 公司董事之職務"
+   ],
+   "a": 2
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "自來水供水事業與用戶間成立以繼續供水及價金給付為內容之私法上雙務契約，自來水供水事業為因應與多數消費者訂立同類契約之用，預先擬定之契約條款。該契約條款之法律性質為何？",
+   "o": [
+    "消費者保護法所稱之定型化契約條款",
+    "民法上之附款",
+    "民法上之要物條款",
+    "民法上之所有權保留條款"
+   ],
+   "a": 0
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "下列有關共同著作之敘述，何者錯誤？",
+   "o": [
+    "就數篇文章加以選擇及編排而集結成的論文集，為共同著作",
+    "共同著作各著作人間之應有部分，得由共同著作人約定",
+    "共同著作之利用，應得全體共同著作人同意",
+    "共同著作之一般著作財產權的存續期間，至最後死亡之著作人死亡後 50 年"
+   ],
+   "a": 0
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "依據勞動基準法第 84 條之 1 之規定，下列何者並非該條所規定之工作者？",
+   "o": [
+    "監督、管理人員",
+    "責任制專業人員",
+    "監視性工作人員",
+    "自己從事勞動之事業主"
+   ],
+   "a": 3
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "目前立法院制定法律的程序大約分為提案、審查、讀會等階段，下列敘述何者錯誤？",
+   "o": [
+    "考試院關於所掌事項，得向立法院提出法律案",
+    "法律案須經立法院院會審查",
+    "任一立法委員依據規定即可提出法律案",
+    "立法院之法律案審查須經三讀會議決"
+   ],
+   "a": 2
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "法律解釋應從下列何種解釋方法開始？",
+   "o": [
+    "論理解釋",
+    "文義解釋",
+    "歷史解釋",
+    "目的解釋"
+   ],
+   "a": 1
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "依地方制度法之規定，下列關於自治法規之公布或發布程序，何者錯誤？",
+   "o": [
+    "自治條例規定有罰則時，於經各該地方立法機關議決後，分別報經行政院、中央各該主管機關核定後發布",
+    "自治條例未規定有罰則時，應於經各該地方立法機關議決後，分別報經行政院、中央各該主管機關備查後發布",
+    "自治規則，通常應於發布後分別函報行政院、中央各該主管機關、縣政府備查，並函送各該地方立法機關查照",
+    "委辦規則，應函報委辦機關核定後發布"
+   ],
+   "a": 1
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋，營業自由係下列何種基本權利導出之權利？",
+   "o": [
+    "工作權及財產權",
+    "工作權及結社自由",
+    "契約自由及財產權",
+    "結社自由及財產權"
+   ],
+   "a": 0
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "下列有關立法委員之報酬與待遇之敘述，何者正確？",
+   "o": [
+    "應以法律定之",
+    "由立法院決議即可任意調整",
+    "單獨增加立法委員報酬之規定，應自該屆起為之",
+    "通案增加全體公職人員待遇之規定，應自次屆適用"
+   ],
+   "a": 0
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "Dear Leader is a fascinating inside account of how the Kims in North Korea used propaganda to ________ theirhold on power.",
+   "o": [
+    "soften",
+    "solve",
+    "cheat",
+    "cement"
+   ],
+   "a": 3
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "In this country's literature, the woman's voice has drawn the spotlight of ＿＿＿ in recent years.",
+   "o": [
+    "negligence",
+    "apathy",
+    "deadlock",
+    "acclaim"
+   ],
+   "a": 3
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "Most people feel _____ in the afternoon after having lunch, especially in the summer time.",
+   "o": [
+    "optional",
+    "feasible",
+    "drowsy",
+    "parasitic"
+   ],
+   "a": 2
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "It is a wonderful give-and-take experience to stop and try to _____ the work of a street artist.",
+   "o": [
+    "accuse",
+    "donate",
+    "appreciate",
+    "delete"
+   ],
+   "a": 2
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "Building new casinos induces the less affluent to gamble more.",
+   "o": [
+    "Casinos generate wealth to the general public.",
+    "The poor feel more enticed to gambling.",
+    "Government should introduce gambling to the rich.",
+    "Casino buildings appeal to the less optimistic.第 36 題至第 40 題為題組Drug patents create short-term monopolies. The deal is simple: the drug inventor makes its formula public and in"
+   ],
+   "a": 1
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "granting",
+    "proven",
+    "granted",
+    "proving"
+   ],
+   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
+   "a": 2
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "reform",
+    "render",
+    "recoup",
+    "release"
+   ],
+   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
+   "a": 2
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "recent",
+    "slim",
+    "decent",
+    "trivial"
+   ],
+   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
+   "a": 2
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "cut-throat",
+    "cutaway",
+    "cut-out",
+    "cutback"
+   ],
+   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
+   "a": 0
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "Incomings",
+    "Outgoings",
+    "Incumbents",
+    "Departments第 41 題至第 45 題為題組Approximately 0.6 percent of Taiwan's total cultivated farmland adopts organic farming. It is 41 ＿＿＿ low. The"
+   ],
+   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
+   "a": 2
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "completely",
+    "continually",
+    "comparatively",
+    "conveniently"
+   ],
+   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
+   "a": 2
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "devoted to",
+    "adopted to",
+    "akin to",
+    "according to"
+   ],
+   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
+   "a": 0
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "acting",
+    "attracting",
+    "amending",
+    "accelerating"
+   ],
+   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
+   "a": 3
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "parity",
+    "popularity",
+    "personality",
+    "purity"
+   ],
+   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
+   "a": 1
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "peeling",
+    "paying",
+    "cleaning",
+    "stocking第 46 題至第 50 題為題組Prince Charles is often portrayed as bad-tempered and spoiled. There are stories that every day seven eggs are boiled"
+   ],
+   "psg": "for his breakfast so that he can find one that is cooked just the way he likes it. His toothpaste is squeezed onto his toothbrush for him. And his bath towel is folded over a chair in a particular way when he gets out of his royal bath. Prince Charles is eccentric, and he admits it. He talks to trees and plants. He wants to save wildlife but enjoys hunting, shooting, and fishing. He dresses for dinner, even if he's eating alone. He's a great socializer. Poets, artists, writers, broadcasters, politicians, actors, and singers all eat at his table. Arriving at Highgrove, his family home, on a Saturday afternoon, guests are entertained in the height of luxury. They are then sent on their way before lunch on Sunday, having been shown around his beautifully-kept gardens. The Prince also entertains extravagantly at Sandringham, one of the Queen's homes, at least twice a year. There are picnic lunches on the beach, expeditions to local churches, and lavish dinners with organic food. Conversation is lively, but the heir to the throne has to be careful about what he says, because he knows only too well that anything he says in private may be repeated in public. The future monarch that we don't see is a man of great humor who cares passionately about the state of the British nation and is devoted to his two children, William and Harry. He is madly in love with \"his darling wife,\" which is how he refers to Camilla in public. Together Charles and Camilla perform royal duties, both at home and abroad. He attends over 500 public engagements a year. He visits hospitals, youth groups, performing artists, charities, and business conferences. He hosts receptions to welcome visiting heads of state and VIPs. He travels abroad extensively, as an ambassador to the United Kingdom, representing trade and industry. He works hard to promote greater understanding between different religions. Camilla shares Charles's passion for hunting and also his interest in conservation of towns and countryside. The one thing she leaves to Charles is skiing. She prefers to stay at home when he makes his annual trip to Klosters in Switzerland.",
+   "a": 3
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "What is the best title for this article?",
+   "o": [
+    "The Life of a Future King",
+    "Charles and Camilla: The Love Story",
+    "Bad-tempered Prince of Wales",
+    "How to Govern Britain"
+   ],
+   "a": 0
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, what does Prince Charles love to do?",
+   "o": [
+    "flying an aircraft",
+    "folding bath towels",
+    "planting trees",
+    "entertaining guests"
+   ],
+   "a": 3
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, which activity Camilla is not interested in?",
+   "o": [
+    "hunting",
+    "skiing",
+    "fundraising",
+    "traveling"
+   ],
+   "a": 1
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, which of the following statements is NOT true?",
+   "o": [
+    "Prince Charles is completely devoted to his country.",
+    "The Prince of Wales has no other duties than representing his country in trade and commerce.",
+    "The Prince of Wales enjoys entertaining visitors and does so with regularity.",
+    "The Prince enjoys hunting with his wife."
+   ],
+   "a": 1
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "According to the passage, why is Prince Charles considered \"eccentric\"?",
+   "o": [
+    "He is frequently quoted.",
+    "He speaks to plants and trees.",
+    "He represents British interests.",
+    "He loves organic foods."
+   ],
+   "a": 1
+  }
+ ]
+};

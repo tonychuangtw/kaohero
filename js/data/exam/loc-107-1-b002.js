@@ -1,0 +1,684 @@
+/* 107 年　四等　法學知識與英文（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
+ "id": "loc-107-1-b002",
+ "cat": "civil",
+ "exam": "local",
+ "stage": 2,
+ "roc": 107,
+ "nth": 1,
+ "code": "107190",
+ "subj": "b002",
+ "title": "107 年　四等　法學知識與英文",
+ "subjName": "法學知識與英文",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "憲法本文基本國策章關於國防與外交之規定，下列何者錯誤？",
+   "o": [
+    "現役軍人不得兼任文官",
+    "全國陸海空軍，須超出個人、地域及黨派關係以外",
+    "外交應本獨立自主之精神，平等互惠之原則",
+    "國防與外交之組織，另以法律定之"
+   ],
+   "a": 3
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院釋字第 744 號解釋意旨，關於化粧品廣告之事前審查，下列敘述何者正確？",
+   "o": [
+    "原則上應為違憲",
+    "原則上應為合憲",
+    "個案決定其合憲與否",
+    "原則上應定期失效"
+   ],
+   "a": 0
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "關於政黨之敘述，下列何者錯誤？",
+   "o": [
+    "政黨不得在大學、法院或軍隊設置黨團組織",
+    "得成立區域性政黨",
+    "政黨依法令有平等使用公共場地及公營大眾傳播媒體之權利",
+    "政治團體不得收受外國團體之捐助"
+   ],
+   "a": 1
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋意旨，有關訴訟權之敘述，下列何者錯誤？",
+   "o": [
+    "有權利必有救濟",
+    "一審終結，而無上訴救濟制度，必然違憲",
+    "人民享有及時救濟之權利",
+    "學生不服退學處分，得提起司法救濟"
+   ],
+   "a": 1
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋，下列關於集會遊行自由之敘述，何者錯誤？",
+   "o": [
+    "集會遊行法對禁制區之規定合憲",
+    "集會遊行法對於不遵從解散命令之首謀者科以刑責之規定合憲",
+    "緊急性、偶發性集會需要事前申請許可之規定違憲",
+    "室外集會遊行需經事前許可之規定違憲"
+   ],
+   "a": 3
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "憲法有關選舉之規定，下列何者錯誤？",
+   "o": [
+    "憲法規定各種選舉之候選人，一律公開競選",
+    "選舉訴訟，由法院審判",
+    "憲法所規定之各種選舉，除憲法別有規定外，以無記名投票之方法行之",
+    "除憲法及法律別有規定者外，中華民國國民年滿二十歲，有依法被選舉之權"
+   ],
+   "a": 3
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "關於憲法所定各種選舉之投票方法，下列敘述何者錯誤？",
+   "o": [
+    "公開",
+    "無記名",
+    "普通",
+    "平等"
+   ],
+   "a": 0
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "有關總統之職權，下列敘述何者錯誤？",
+   "o": [
+    "總統發布經立法院同意任命人員之任免命令，無須行政院院長之副署",
+    "總統為避免國家或人民遭遇緊急危難，得經行政院會議之決議發布緊急命令，無須提交立法院追認",
+    "總統為決定國家安全有關大政方針，得設國家安全會議及所屬國家安全局",
+    "總統於立法院通過對行政院院長之不信任案後十日內，經諮詢立法院院長後，得宣告解散立法院"
+   ],
+   "a": 1
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "有關行政院之組織，下列敘述何者正確？",
+   "o": [
+    "行政院設院長一人、副院長二人，各部會首長若干人",
+    "行政院副院長由行政院院長提請總統任命之",
+    "行政院政務委員不得兼任國家發展委員會之主任委員",
+    "行政院設國立故宮博物院及中央研究院"
+   ],
+   "a": 1
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者不得向立法院提出法律案？",
+   "o": [
+    "立法委員",
+    "行政院",
+    "總統",
+    "監察院"
+   ],
+   "a": 2
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "關於中央政府預算，下列敘述何者錯誤？",
+   "o": [
+    "預算案由行政院提出",
+    "立法院議決預算案，不得為增加支出之提議",
+    "考試院年度考試概算，行政院不得刪減，但得加註意見，編入中央政府總預算案",
+    "立法院對各機關編列之預算，不得在款項目節間移動增減"
+   ],
+   "a": 2
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "關於司法院大法官解釋之效力，下列敘述何者錯誤？",
+   "o": [
+    "大法官所為之統一解釋，除解釋文內另有明定者外，應自公布當日起發生效力",
+    "解釋公布前就同一法令合法提請解釋而未併案之不同聲請人，應同為解釋效力所及",
+    "大法官解釋認為確定終局判決所依據之法律違憲，聲請人若要提起再審之訴，仍需受到民事訴訟法所定 5 年不變期間的限制",
+    "遭大法官解釋宣告定期失效之法令，各該解釋之聲請人須待其失效後，方得依據公布、發布生效後之新法令提請救濟"
+   ],
+   "a": 3
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者非憲法第 80 條所稱之法官？",
+   "o": [
+    "大法官",
+    "智慧財產法院法官",
+    "公務員懲戒委員會委員",
+    "最高法院庭長"
+   ],
+   "a": 3
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "考試院之職掌不包含下列何者？",
+   "o": [
+    "監督各機關執行考銓業務",
+    "關於考試院所掌事項，向立法院提出法律案",
+    "公務人員任免、考績之法制事項",
+    "大學入學考試"
+   ],
+   "a": 3
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院釋字第 738 號解釋意旨，下列有關自治條例之敘述，何者錯誤？",
+   "o": [
+    "得放寬中央法律所設定之最低標準",
+    "於不牴觸中央法規範圍內，得就相關工商輔導及管理之自治事項，為因地制宜之規範",
+    "依法律及上級法規之授權，於合理範圍內，得以自治條例限制居民之基本權",
+    "就其自治事項，於合理範圍內，得以自治條例限制居民之基本權"
+   ],
+   "a": 0
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "關於立法院審議通過並經總統公布之條約，下列敘述何者錯誤？",
+   "o": [
+    "條約之效力低於憲法",
+    "條約生效應經法定程序",
+    "條約之效力等同於法律",
+    "條約之效力等同於命令"
+   ],
+   "a": 3
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "依中央法規標準法第 5 條規定，下列何者並非應以法律規定之事項？",
+   "o": [
+    "憲法明文規定，應以法律定之者",
+    "法律明文規定，應以法律定之者",
+    "國際公約明文規定，應以法律定之者",
+    "關於人民之權利、義務者"
+   ],
+   "a": 2
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "有關委辦規則，下列敘述何者錯誤？",
+   "o": [
+    "直轄市政府為辦理上級機關委辦事項，得依其法定職權或基於法律、中央法規之授權，訂定委辦規則",
+    "委辦規則應函報委辦機關核定後發布之",
+    "委辦規則之名稱準用中央法規標準法之規定",
+    "委辦規則牴觸憲法、法律、中央法令時，由委辦機關予以函告無效"
+   ],
+   "a": 2
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者非屬行政機關適用法律之原則？",
+   "o": [
+    "適用法律不待人民請求",
+    "在法律授權範圍內，得享有裁量權",
+    "適用法律時，受上級機關指揮監督",
+    "適用法律時，得依職權發布法規命令"
+   ],
+   "a": 3
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者非屬比例原則之內涵？",
+   "o": [
+    "採取之方法應有助於目的之達成",
+    "行政行為，非有正當理由，不得為差別待遇",
+    "有多種同樣能達成目的之方法時，應選擇對人民權益損害最少者",
+    "採取之方法所造成之損害不得與欲達成目的之利益顯失均衡"
+   ],
+   "a": 1
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "行政程序法第 96 條規定書面行政處分應記載處分機關，其意旨在於貫徹下列何者？",
+   "o": [
+    "行政效率原則",
+    "明確性原則",
+    "比例原則",
+    "信賴保護原則"
+   ],
+   "a": 1
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "依民法之規定，下列有關懸賞廣告之敘述，何者正確？",
+   "o": [
+    "數人先後分別完成懸賞廣告之行為時，由最先通知者，取得報酬請求權",
+    "數人同時分別完成行為時，由最先為該行為者，取得報酬請求權",
+    "於不知有廣告而完成廣告所定行為之人，因其不知有廣告，無從成立懸賞廣告",
+    "廣告人善意給付報酬於最先通知之人時，其給付報酬之義務，即為消滅"
+   ],
+   "a": 3
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "民法第 208 條前段規定：「於數宗給付中，得選定其一者，其選擇權屬於債務人。」此選擇權之性質為：",
+   "o": [
+    "請求權",
+    "支配權",
+    "抗辯權",
+    "形成權"
+   ],
+   "a": 3
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "甲受僱乙遊覽車公司，負責每天出車 4 次，來往宜蘭與臺北間，月薪 5 萬元。詎料遭逢景氣寒冬，甲雖每日按時上班，卻無車可出，長達半月之久。如乙公司以甲半月未出車為由，欲扣半月薪資，是否有理？",
+   "o": [
+    "有理由，因甲確實未為勞務給付達半月之久",
+    "有理由，因甲之報酬為後付，應補服勞務後始得請求報酬",
+    "無理由，因乙受領遲延，甲無補服勞務之義務，仍得請求報酬",
+    "無理由，因景氣寒冬非可歸責於雙方當事人"
+   ],
+   "a": 2
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "甲重金教唆乙去殺人，乙為執行殺人計畫，準備殺人工具後，即被警方逮捕。下列敘述何者正確？",
+   "o": [
+    "甲成立殺人未遂",
+    "乙成立殺人未遂",
+    "甲不成立犯罪",
+    "乙不成立犯罪"
+   ],
+   "a": 2
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "中華民國公務員小張在中華民國領域外，犯下列何種犯罪，不適用中華民國刑法？",
+   "o": [
+    "刑法第 213 條，在其掌管公文書登載不實內容罪",
+    "刑法第 336 條，其所持有的公務物品予以侵占罪",
+    "刑法第 131 條，其所主管事務違背法令而圖利罪",
+    "刑法第 318 條，因職務知悉工商秘密無故洩漏罪"
+   ],
+   "a": 3
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "以投影機將受著作權保護之攝影作品投影至布幕上觀看之行為，屬於下列何種著作財產權之利用方式？",
+   "o": [
+    "公開上映",
+    "公開展示",
+    "公開播送",
+    "公開演出"
+   ],
+   "a": 1
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "消費者與企業經營者因商品或服務發生消費爭議時，得向下列何機構申訴？",
+   "o": [
+    "消費者保護團體",
+    "職業公會",
+    "法院",
+    "消費爭議調解委員會"
+   ],
+   "a": 0
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "依勞工保險條例規定，被保險人逾六十歲繼續工作者，其逾六十歲以後之保險年資，最多以五年計，合併六十歲以前之一次請領老年給付，最高以幾個月為限？",
+   "o": [
+    "40 個月",
+    "50 個月",
+    "55 個月",
+    "60 個月"
+   ],
+   "a": 1
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "依性別工作平等法第 23 條之規定，僱用受僱者多少人以上之雇主，應提供哺（集）乳室及托兒設施或適當之托兒措施？",
+   "o": [
+    "100 人",
+    "150 人",
+    "200 人",
+    "250 人"
+   ],
+   "a": 0
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "James was arrested at the airport for attempting to ＿＿＿ the artifacts that he illegally took from a foreignmuseum.",
+   "o": [
+    "snuggle",
+    "snuffle",
+    "smuggle",
+    "smother"
+   ],
+   "a": 2
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "We need to establish prices that are high enough to ＿＿＿ demand but low enough to prevent the continuationof a black market.",
+   "o": [
+    "curb",
+    "endorse",
+    "invest",
+    "promote"
+   ],
+   "a": 0
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "It takes patience and courage to ＿＿＿ alcohol and drug problems.",
+   "o": [
+    "call up",
+    "put off",
+    "cope with",
+    "turn over"
+   ],
+   "a": 2
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "Cathy’s ＿＿＿ went well and she is fairly hopeful about getting a role in the musical.",
+   "o": [
+    "reference",
+    "audition",
+    "vision",
+    "interference"
+   ],
+   "a": 1
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "In general, the single house in the countryside is cheap whereas the house in the urban area is ＿＿＿ expensivein Taiwan.",
+   "o": [
+    "confidentially",
+    "comparatively",
+    "compassionately",
+    "comfortably第 36 題至第 40 題為題組：Fidget spinners are driving many adults crazy, but one Texas woman is warning about her daughter’s dangerous"
+   ],
+   "a": 1
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "serve as",
+    "take after",
+    "make up",
+    "look into"
+   ],
+   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "a": 0
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "familiar with",
+    "identified with",
+    "much like",
+    "contrary to"
+   ],
+   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "a": 2
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "pulled in",
+    "pulled over",
+    "pulled up",
+    "pulled out"
+   ],
+   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "a": 1
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "If",
+    "Beyond",
+    "After",
+    "Since"
+   ],
+   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "a": 2
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "stuck",
+    "is stuck",
+    "has gotten stuck",
+    "had gotten stuck第 41 題至第 45 題為題組：There are books, e-books, and then there are audio books. Have you ever heard of books you can interact"
+   ],
+   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "a": 3
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "replaces",
+    "introduces",
+    "places",
+    "offers"
+   ],
+   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "a": 0
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "provide",
+    "loan",
+    "lend",
+    "borrow"
+   ],
+   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "a": 3
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "they",
+    "that",
+    "who",
+    "which"
+   ],
+   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "a": 2
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "Meanwhile",
+    "However",
+    "Therefore",
+    "Otherwise"
+   ],
+   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "a": 0
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "anything",
+    "something",
+    "everything",
+    "nothing第 46 題至第 50 題為題組：Urban legends are popular stories alleged to be true and passed from individual to individual via oral or written"
+   ],
+   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "a": 1
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "Eventually",
+    "Surprisingly",
+    "Typically",
+    "Accidentally"
+   ],
+   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
+   "a": 2
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "wealthy",
+    "trustworthy",
+    "fantastic",
+    "distractive"
+   ],
+   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
+   "a": 1
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "strengthen",
+    "tighten",
+    "explore",
+    "soften"
+   ],
+   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
+   "a": 0
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "disposable",
+    "portable",
+    "reliable",
+    "traceable"
+   ],
+   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
+   "a": 3
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "visions",
+    "editions",
+    "versions",
+    "missions"
+   ],
+   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
+   "a": 2
+  }
+ ]
+};

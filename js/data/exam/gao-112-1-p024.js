@@ -267,10 +267,10 @@ window.APP_EXAM_PAPERS['gao-112-1-p024'] = {
    "type": "single",
    "q": "請為下示轉化反應提供合適的一組試劑：",
    "o": [
-    "①(CH3(C)O)2O, Et3N, ②H3C-CC-MgBr, ③H3O+",
-    "①NaOCl, HOAc, ②H3C-CC-Na, ③H3O+",
-    "①t-BuMe2SiCl, imidazole, ②H3C-CC-Na, ③H3O+",
-    "①t-BuMe2SiCl, imidazole, ②H3C-CC-B(OH)2, ③H3O+"
+    "①(CH3(C)O)2O, Et3N, ②H3C-C≡C-MgBr, ③H3O+",
+    "①NaOCl, HOAc, ②H3C-C≡C-Na, ③H3O+",
+    "①t-BuMe2SiCl, imidazole, ②H3C-C≡C-Na, ③H3O+",
+    "①t-BuMe2SiCl, imidazole, ②H3C-C≡C-B(OH)2, ③H3O+"
    ],
    "a": 2
   },
@@ -319,7 +319,7 @@ window.APP_EXAM_PAPERS['gao-112-1-p024'] = {
    "n": 23,
    "pt": 1,
    "type": "single",
-   "q": "下列何者不能作為自由基的起始劑？A.PhC(O)OOC(O)Ph B.Me3COOCMe3C. D.PhN=NPh",
+   "q": "下列何者不能作為自由基的起始劑？A.PhC(O)O−OC(O)Ph B.Me3CO−OCMe3C. D.Ph−N=N−Ph",
    "o": [
     "",
     "",

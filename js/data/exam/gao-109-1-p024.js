@@ -84,7 +84,7 @@ window.APP_EXAM_PAPERS['gao-109-1-p024'] = {
    "n": 6,
    "pt": 1,
    "type": "single",
-   "q": "根據下列核磁共振的光譜，那個特徵峰的標記可以區分醛（aldehyde）和酮（ketone）？IntensityChemical shift ()",
+   "q": "根據下列核磁共振的光譜，那個特徵峰的標記可以區分醛（aldehyde）和酮（ketone）？IntensityChemical shift (δ)",
    "o": [
     "1",
     "2",

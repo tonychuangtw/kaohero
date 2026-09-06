@@ -8,9 +8,27 @@ def half(s):
 
 # 舊卷（中醫師 102～111、醫師 102～104）把選項代號與圈號存成私用區字元，
 # pdftotext 讀出來是 \ue18c 這種，不還原的話整題會只剩題幹、選項全空。
-PUA = {'\ue18c': 'A.', '\ue18d': 'B.', '\ue18e': 'C.', '\ue18f': 'D.',
+PUA = {'\ue18c': 'A.', '\ue18d': 'B.', '\ue18e': 'C.', '\ue18f': 'D.', '\ue190': 'E.',
        '\ue129': '①', '\ue12a': '②', '\ue12b': '③',
        '\ue12c': '④', '\ue12d': '⑤', '\ue12e': '⑥'}
+
+# Symbol 字型（數學卷、經濟學卷常用）被 pdftotext 讀成 U+F0xx，不還原的話題目裡會是一排豆腐。
+# 對照表＝Symbol 編碼：數字與運算符號原樣、英文字母是希臘字母、上段是各種數學符號。
+_SYM_LOW = {0x2D: '−', 0x2B: '+', 0x3D: '=', 0x3C: '<', 0x3E: '>', 0x2A: '×', 0x2F: '/'}
+_GREEK_L = 'αβχδεφγηιϕκλμνοπθρστυϖωξψζ'
+_GREEK_U = 'ΑΒΧΔΕΦΓΗΙϑΚΛΜΝΟΠΘΡΣΤΥςΩΞΨΖ'
+_SYM_HI = {0xA3: '≤', 0xB3: '≥', 0xB4: '×', 0xB8: '÷', 0xB9: '≠', 0xBB: '≈', 0xB1: '±',
+           0xA5: '∞', 0xAE: '→', 0xAC: '←', 0xAD: '↑', 0xAF: '↓', 0xD7: '·', 0xD6: '√',
+           0xE5: '∑', 0xF2: '∫', 0xB6: '∂', 0xD0: '◊', 0xC7: '∩', 0xC8: '∪', 0xCE: '∈',
+           0xA2: '′', 0xB0: '°', 0xBA: '≡', 0xBC: '…', 0xA9: '↔'}
+for _c in range(0x20, 0x7F):
+    _v = _SYM_LOW.get(_c)
+    if _v is None:
+        if 0x61 <= _c <= 0x7A: _v = _GREEK_L[_c - 0x61]
+        elif 0x41 <= _c <= 0x5A: _v = _GREEK_U[_c - 0x41]
+        else: _v = chr(_c)
+    PUA[chr(0xF000 + _c)] = _v
+for _c, _v in _SYM_HI.items(): PUA[chr(0xF000 + _c)] = _v
 
 def text(pdf, layout=True):
     cmd = ['pdftotext'] + (['-layout'] if layout else []) + [pdf, '-']

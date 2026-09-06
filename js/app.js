@@ -7,9 +7,9 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260906e';
+  var VER = '20260906f';
   var KEY = 'kaoguhero.v1';
-  var LAB = ['A', 'B', 'C', 'D'];
+  var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
   function unitQ() { return T(' 題'); }
   function unitP() { return T(' 卷'); }

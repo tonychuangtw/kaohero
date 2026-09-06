@@ -60,10 +60,10 @@ window.APP_EXAM_PAPERS['gao-109-1-p023'] = {
    "type": "single",
    "q": "若以「+」布林運算（Boolean operations）的運算子OR，且以「*」表示運算子AND，則下列布林運算的敘述何者錯誤？",
    "o": [
-    "( A  B) * ( A  B )  A",
-    "( A * B)  ( A * B )  ( A * B)  A  B",
-    "( A  B) * ( A  C )  ( A * C )  ( A * B)",
-    "( A * B)  ( A * C )  ( B * C )  ( A * C )  ( A * B)"
+    "( A + B) * ( A + B ) = A",
+    "( A * B) + ( A * B ) + ( A * B) = A + B",
+    "( A + B) * ( A + C ) = ( A * C ) + ( A * B)",
+    "( A * B) + ( A * C ) + ( B * C ) = ( A * C ) + ( A * B)"
    ],
    "a": 3
   },

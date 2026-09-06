@@ -16,6 +16,7 @@ import re, unicodedata
 import parse as P
 
 OPT = 'ABCD'
+OPT5 = 'ABCDE'      # 少數卷是五選一（地方特考五等國文）
 # 102～106 的國文卷把題號 1~10 存成私用區字元 \ue0c6~\ue0cf（一份卷剛好連續十個、各出現一次），
 # pdftotext 讀出來不是數字，題號序列就整個斷掉 → 只在「行首」還原成數字，避免誤傷別的用途。
 QNUM = re.compile(r'(?m)^([ \t]*)([\ue0c6-\ue0cf])')
@@ -121,17 +122,28 @@ def _split_tail(seg):
     return seg, None
 
 
+FIVE = False   # 五選一（103~106 律師第一試那種）；預設關閉，開著會把「（Martha  Williams）」
+               # 這種被切斷的第四個選項誤認成第五個
+
+
+def _chain(segf):
+    """依序找 A. B. C. D.；FIVE 打開時再多找一個 E.。找不到完整四個回 None。"""
+    idx, p = [], 0
+    for L in (OPT5 if FIVE else OPT):
+        m = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L).search(segf, p)
+        if not m:
+            return idx if len(idx) == 4 else None
+        idx.append((m.start(), m.end())); p = m.end()
+    return idx
+
+
 def _cut(qs, body, flat, pos, wide=999):
     out = []
     for i, (n, st, en) in enumerate(pos):
         e0 = pos[i + 1][1] if i + 1 < len(pos) else len(body)
         seg, segf = body[en:e0], flat[en:e0]
         tail = None
-        idx, p = [], 0
-        for L in OPT:
-            m = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L).search(segf, p)
-            if not m: idx = None; break
-            idx.append((m.start(), m.end())); p = m.end()
+        idx = _chain(segf)
         if idx is None:
             # 沒有選項代號的卷：短文可能黏在題目後面，先切掉再用縮排還原選項
             seg, tail = _split_tail(seg)
@@ -147,12 +159,13 @@ def _cut(qs, body, flat, pos, wide=999):
             continue
         stem = seg[:idx[0][0]]
         en_q = _is_en(stem) or _is_en(seg)
+        nopt = len(idx)
         # 最後一個選項後面可能黏著下一組的題組短文（沒有「請依下文回答」那行時）
-        dtxt, tail = _split_tail(seg[idx[3][1]:])
+        dtxt, tail = _split_tail(seg[idx[nopt - 1][1]:])
         opts = []
-        for k in range(4):
-            e = idx[k + 1][0] if k + 1 < 4 else len(seg)
-            opts.append(_norm(dtxt if k == 3 else seg[idx[k][1]: e], en_q))
+        for k in range(nopt):
+            e = idx[k + 1][0] if k + 1 < nopt else len(seg)
+            opts.append(_norm(dtxt if k == nopt - 1 else seg[idx[k][1]: e], en_q))
         q = {'n': n, 'q': _norm(stem, en_q), 'o': opts, '_st': st, '_tail': tail}
         if any(not o for o in opts): q['needfig'] = True
         out.append(q)

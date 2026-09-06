@@ -52,7 +52,8 @@ def main():
     print('%s：科目 %d、等別 %d；類科 %d' % (exam_id,
         len(src['subjects']), len(stages),
         sum(len(t['tracks']) for s in stages for t in s['groups'])))
-    miss = sorted({tn for lvl in src['tracks'] for tn in src['tracks'][lvl]} - set(where))
+    miss = sorted({tn.replace('離島・', '') for lvl in src['tracks']
+                   for tn in src['tracks'][lvl]} - set(where))
     if miss: print('⚠ 沒分群（會落到「其他類科」）：', '、'.join(miss))
 
 
