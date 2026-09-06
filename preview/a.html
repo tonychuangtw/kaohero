@@ -81,6 +81,14 @@ h2{font-size:clamp(24px,3.6vw,34px);margin:0 0 12px;font-weight:900;letter-spaci
   border:1px dashed var(--gold-d);border-radius:999px;padding:3px 11px}
 
 /* 詳解示範 */
+.vs{display:grid;gap:16px;grid-template-columns:1fr;align-items:start}
+@media(min-width:900px){.vs{grid-template-columns:.82fr 1.18fr}}
+.vs-h{font-size:13px;letter-spacing:2px;font-weight:800;margin:0 0 10px}
+.other{background:#141a24;border:1px dashed var(--line);border-radius:20px;padding:24px 22px;color:var(--dim)}
+.other .vs-h{color:var(--dim)}
+.other .big-a{font-size:60px;font-weight:900;color:#39435a;line-height:1.1;margin:6px 0 2px}
+.other p{margin:0 0 6px;font-size:15px}
+.ours .vs-h{color:var(--gold)}
 .demo{background:var(--ink2);border:1px solid var(--line);border-radius:20px;overflow:hidden}
 .demo .bar{display:flex;align-items:center;gap:10px;padding:14px 20px;border-bottom:1px solid var(--line);
   font-size:14px;color:var(--dim)}
@@ -171,9 +179,18 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--dim);fon
 
 <section style="background:#111823;border-block:1px solid var(--line)"><div class="wrap">
   <p class="eyebrow">詳解實例</p>
-  <h2 class="serif">這是站上真正的一題</h2>
+  <h2 class="serif">同樣一題，兩種待遇</h2>
   <p class="lead">110 年第一次　專技高考醫師分階段考試　醫學（一）　第 5 題</p>
-  <div class="demo">
+  <div class="vs">
+   <div class="other">
+     <p class="vs-h">一般考古題網站</p>
+     <p>第 5 題　答案</p>
+     <div class="big-a">Ａ</div>
+     <p style="margin-top:16px">…然後呢？<br>為什麼額神經不行？眶上神經又差在哪？<br>下次換一條神經來考，還是會錯。</p>
+   </div>
+   <div class="ours">
+    <p class="vs-h">考古英雄</p>
+    <div class="demo">
     <div class="bar">📄 <b>110 年第一次　醫學（一）</b> ・ 第 5 題 ・ 解剖學</div>
     <div class="body">
       <p class="stem">下列何者傳遞角膜（cornea）的一般感覺？</p>
@@ -187,6 +204,8 @@ footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--dim);fon
 ❌ (D) 動眼神經是運動與副交感神經，不傳遞角膜的一般感覺。<span class="src">📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.7 Head（Orbit：nasociliary nerve 與 long ciliary nerves）；Gray's Anatomy for Students, 4th ed.。</span></div>
       <p class="note">每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處（醫學題引教科書章節，法律題引法條與釋字）。</p>
     </div>
+    </div>
+   </div>
   </div>
 </div></section>
 
