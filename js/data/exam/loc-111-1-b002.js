@@ -542,71 +542,76 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "attending to",
-    "weary of",
-    "insisting on",
-    "fascinated with"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society. Email has replaced the paper letter. Words flow from our fingertips faster than ever before, but not everyone is happy about it. Some people prefer writing slowly. Tom Hanks, American actor, director, filmmaker, and collector of more than 100 typewriters, is one of them. The 58-year-old Oscar winner is 41 the sound his typewriters make. He can choose from a variety of them, each of which 42 its own sound. The volume and rhythm are determined by the force with which the fingers hit the keys. The collecting process itself, hunting and searching for rare pieces, is also a great pleasure. The 43 , however, is often tied to the price tag. Some vintage typewriters cost hundreds of dollars or more. Luckily his acting career is lucrative enough to pay for his hobby. Tom Hanks is not alone. More and more young people are tired of digital technology and looking for a better experience of writing. They enjoy typing because they can focus on thinking; they would not be 44 by email, googling, or Facebook. 45 , typewriters are entirely powered by your fingertips. They do not require electricity, so you can gracefully carry on writing in a sudden power outage.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/111190_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "produces",
-    "reduces",
-    "excludes",
-    "includes"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society. Email has replaced the paper letter. Words flow from our fingertips faster than ever before, but not everyone is happy about it. Some people prefer writing slowly. Tom Hanks, American actor, director, filmmaker, and collector of more than 100 typewriters, is one of them. The 58-year-old Oscar winner is 41 the sound his typewriters make. He can choose from a variety of them, each of which 42 its own sound. The volume and rhythm are determined by the force with which the fingers hit the keys. The collecting process itself, hunting and searching for rare pieces, is also a great pleasure. The 43 , however, is often tied to the price tag. Some vintage typewriters cost hundreds of dollars or more. Luckily his acting career is lucrative enough to pay for his hobby. Tom Hanks is not alone. More and more young people are tired of digital technology and looking for a better experience of writing. They enjoy typing because they can focus on thinking; they would not be 44 by email, googling, or Facebook. 45 , typewriters are entirely powered by your fingertips. They do not require electricity, so you can gracefully carry on writing in a sudden power outage.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_401_0206_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "ignorance",
-    "advantage",
-    "sorrow",
-    "reward"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society. Email has replaced the paper letter. Words flow from our fingertips faster than ever before, but not everyone is happy about it. Some people prefer writing slowly. Tom Hanks, American actor, director, filmmaker, and collector of more than 100 typewriters, is one of them. The 58-year-old Oscar winner is 41 the sound his typewriters make. He can choose from a variety of them, each of which 42 its own sound. The volume and rhythm are determined by the force with which the fingers hit the keys. The collecting process itself, hunting and searching for rare pieces, is also a great pleasure. The 43 , however, is often tied to the price tag. Some vintage typewriters cost hundreds of dollars or more. Luckily his acting career is lucrative enough to pay for his hobby. Tom Hanks is not alone. More and more young people are tired of digital technology and looking for a better experience of writing. They enjoy typing because they can focus on thinking; they would not be 44 by email, googling, or Facebook. 45 , typewriters are entirely powered by your fingertips. They do not require electricity, so you can gracefully carry on writing in a sudden power outage.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111190_401_0206_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "enlightened",
-    "stimulated",
-    "abolished",
-    "distracted"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society. Email has replaced the paper letter. Words flow from our fingertips faster than ever before, but not everyone is happy about it. Some people prefer writing slowly. Tom Hanks, American actor, director, filmmaker, and collector of more than 100 typewriters, is one of them. The 58-year-old Oscar winner is 41 the sound his typewriters make. He can choose from a variety of them, each of which 42 its own sound. The volume and rhythm are determined by the force with which the fingers hit the keys. The collecting process itself, hunting and searching for rare pieces, is also a great pleasure. The 43 , however, is often tied to the price tag. Some vintage typewriters cost hundreds of dollars or more. Luckily his acting career is lucrative enough to pay for his hobby. Tom Hanks is not alone. More and more young people are tired of digital technology and looking for a better experience of writing. They enjoy typing because they can focus on thinking; they would not be 44 by email, googling, or Facebook. 45 , typewriters are entirely powered by your fingertips. They do not require electricity, so you can gracefully carry on writing in a sudden power outage.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/111190_401_0206_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "By accident",
-    "Better yet",
-    "For starters",
-    "In short請依下文回答第 46 題至第 50 題：Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society. Email has replaced the paper letter. Words flow from our fingertips faster than ever before, but not everyone is happy about it. Some people prefer writing slowly. Tom Hanks, American actor, director, filmmaker, and collector of more than 100 typewriters, is one of them. The 58-year-old Oscar winner is 41 the sound his typewriters make. He can choose from a variety of them, each of which 42 its own sound. The volume and rhythm are determined by the force with which the fingers hit the keys. The collecting process itself, hunting and searching for rare pieces, is also a great pleasure. The 43 , however, is often tied to the price tag. Some vintage typewriters cost hundreds of dollars or more. Luckily his acting career is lucrative enough to pay for his hobby. Tom Hanks is not alone. More and more young people are tired of digital technology and looking for a better experience of writing. They enjoy typing because they can focus on thinking; they would not be 44 by email, googling, or Facebook. 45 , typewriters are entirely powered by your fingertips. They do not require electricity, so you can gracefully carry on writing in a sudden power outage.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111190_401_0206_45.webp"
   },
   {
    "n": 46,

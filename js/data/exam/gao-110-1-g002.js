@@ -411,71 +411,76 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Along",
-    "Down",
-    "Toward",
-    "Up"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_31.webp"
   },
   {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "appreciated",
-    "decoded",
-    "forgotten",
-    "studied"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_32.webp"
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "impossibly",
-    "imperfectly",
-    "indefinitely",
-    "intentionally"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_33.webp"
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "bilingual",
-    "monolingual",
-    "literary",
-    "illiterate"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_34.webp"
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "heritage",
-    "source",
-    "sign",
-    "target"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_35.webp"
   },
   {
    "n": 36,
@@ -611,71 +616,76 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "drill",
-    "drizzle",
-    "drift",
-    "draft"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "hollow",
-    "shallow",
-    "mellow",
-    "hallow"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "lodged",
-    "dodged",
-    "nudged",
-    "judged"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "proxy",
-    "prolixity",
-    "probity",
-    "proximity"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "hocky",
-    "hide-and-seek",
-    "tug-of-war",
-    "marathon"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/110090_301_0105_50.webp"
   }
  ]
 };

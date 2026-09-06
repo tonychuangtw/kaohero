@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-112-1-a002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "strike",
-    "churn",
-    "phase",
-    "blurt"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "its own and assert leadership of its pack? That question has long 42 scientists. Now, a new study shows that gray wolves infected with the parasite Toxoplasma gondii are more likely to become top dogs than uninfected wolves. The finding forces us to think more broadly about what influences how animals act, says Kira Cassidy, a 43 biologist. Toxoplasma gondii is a single-celled parasite that infects at least one-third of the world’s human population at any given time with the disease toxoplasmosis. 44 the infection is usually mild, it can be fatal to the young or immune- suppressed. It’s famous for its ability to 45 its hosts, most notably in making rodents reckless around house cats. Toxoplasma can only reproduce in the intestines of domestic or wild cats, yet it is widespread in nature, and can infect any warm-blooded animal.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/112200_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "laminated",
-    "intrigued",
-    "paralleled",
-    "traversed"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "its own and assert leadership of its pack? That question has long 42 scientists. Now, a new study shows that gray wolves infected with the parasite Toxoplasma gondii are more likely to become top dogs than uninfected wolves. The finding forces us to think more broadly about what influences how animals act, says Kira Cassidy, a 43 biologist. Toxoplasma gondii is a single-celled parasite that infects at least one-third of the world’s human population at any given time with the disease toxoplasmosis. 44 the infection is usually mild, it can be fatal to the young or immune- suppressed. It’s famous for its ability to 45 its hosts, most notably in making rodents reckless around house cats. Toxoplasma can only reproduce in the intestines of domestic or wild cats, yet it is widespread in nature, and can infect any warm-blooded animal.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/112200_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "marine",
-    "nutritional",
-    "wildlife",
-    "forensic"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "its own and assert leadership of its pack? That question has long 42 scientists. Now, a new study shows that gray wolves infected with the parasite Toxoplasma gondii are more likely to become top dogs than uninfected wolves. The finding forces us to think more broadly about what influences how animals act, says Kira Cassidy, a 43 biologist. Toxoplasma gondii is a single-celled parasite that infects at least one-third of the world’s human population at any given time with the disease toxoplasmosis. 44 the infection is usually mild, it can be fatal to the young or immune- suppressed. It’s famous for its ability to 45 its hosts, most notably in making rodents reckless around house cats. Toxoplasma can only reproduce in the intestines of domestic or wild cats, yet it is widespread in nature, and can infect any warm-blooded animal.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/112200_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "While",
-    "What",
-    "Which",
-    "How"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "its own and assert leadership of its pack? That question has long 42 scientists. Now, a new study shows that gray wolves infected with the parasite Toxoplasma gondii are more likely to become top dogs than uninfected wolves. The finding forces us to think more broadly about what influences how animals act, says Kira Cassidy, a 43 biologist. Toxoplasma gondii is a single-celled parasite that infects at least one-third of the world’s human population at any given time with the disease toxoplasmosis. 44 the infection is usually mild, it can be fatal to the young or immune- suppressed. It’s famous for its ability to 45 its hosts, most notably in making rodents reckless around house cats. Toxoplasma can only reproduce in the intestines of domestic or wild cats, yet it is widespread in nature, and can infect any warm-blooded animal.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/112200_301_0205_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "transplant",
-    "manipulate",
-    "demobilize",
-    "impoverish請依下文回答第 46 至第 50 題：Soon after ChatGPT debuted in 2022, researchers tested what the artificial intelligence (AI) chatbot would write after"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "it was asked questions peppered with conspiracy theories and false narratives. The results — in writings formatted as news articles, essays and television scripts — were so troubling that the researchers minced no words in their criticism of the new technology. Researchers predict that generative technology like ChatGPT could make disinformation cheaper and easier to produce for an even larger number of conspiracy theorists and spreaders of disinformation. Personalized, real-time chatbots could share conspiracy theories in increasingly credible and persuasive ways, researchers say, smoothing out human errors like poor syntax and mistranslations and advancing beyond easily discoverable copy-paste jobs. And they say that no available mitigation tactics can effectively combat it. Predecessors to ChatGPT, which was created by the company OpenAI, have been used for years to pepper online forums and social media platforms with comments and spam. Microsoft had to halt activity from its Tay chatbot within 24 hours of introducing it on Twitter in 2016 after trolls taught it to spew racist and xenophobic language. ChatGPT is far more powerful and sophisticated. Supplied with questions loaded with disinformation, it can produce convincing, clean variations on the content within seconds, without disclosing its sources. Recently, Microsoft and OpenAI introduced a new Bing search engine and web browser that can use chatbot technology to plan vacations, translate texts or conduct research. OpenAI researchers have long been nervous about chatbots falling into villainous hands. In a 2019 paper, they voiced their concern about their chatbot’s capabilities to lower costs of disinformation campaigns and aid in the malicious pursuit of monetary gains, particular political agendas, and/or desires to create chaos or confusion. OpenAI uses machines and humans to monitor content that is fed into and produced by ChatGPT. The company relies on both its human AI trainers and feedback from users to identify and filter out toxic training data while teaching ChatGPT to produce better-informed responses. OpenAI’s policies prohibit use of its technology to promote dishonesty, deceive or manipulate users or attempt to influence politics; the company offers a free moderation tool to handle content that promotes hate, self-harm, violence or sex.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/112200_301_0205_45.webp"
   },
   {
    "n": 46,

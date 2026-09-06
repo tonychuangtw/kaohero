@@ -539,70 +539,75 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "added",
-    "limited",
-    "required",
-    "available"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105180_501_0207_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "opened",
-    "checked",
-    "managed",
-    "published"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_501_0207_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "basis",
-    "reason",
-    "funding",
-    "direction"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_501_0207_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "trying",
-    "willing",
-    "allowed",
-    "prepared"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_501_0207_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.medals ＿＿＿ B.mistakes ＿＿＿ C.materials ＿＿＿ D.machines第 46 題至第 50 題為題組In 1945, leaders from 51 countries met in San Francisco, California, where the United Nations (UN) was",
    "o": [
-    "medals",
-    "mistakes",
-    "materials",
-    "machines第 46 題至第 50 題為題組In 1945, leaders from 51 countries met in San Francisco, California, where the United Nations (UN) was"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "organized. At that time, World War II had just ended. People hoped they could build a future of world peace through this new organization. Today almost every country in the world is a member of the UN. Each country has signed an agreement that says: 1. All members are equal. 2. All members promise to solve international problems in a peaceful way. 3. No member will use force against another member. 4. All members will help the UN in its actions. 5. The UN will not try to solve problems within countries except to enforce international peace. Obviously, the United Nations has not been completely successful in its actions. There have been several wars since 1945. However, the organization has helped bring peace to some countries that were at war. Besides, it has helped people who left their countries because of wars. It has also helped bring independence to colonies. The main UN organization is in New York City, but the UN has a “family” of other related organizations all over the world. These organizations try to provide a better life for everyone. One example is UNICEF, an organization that provides poor children with food, medical care, and many other services. Another example is the World Health Organization, which develops medical programs all over the world. There are thousands of UN workers in developing countries. They work as planners to increase production in farming and industry. They provide medical services, improve education programs, and spread scientific information. They develop programs that provide jobs and better living conditions. They help countries control their population growth. The UN also holds large international conferences, where people meet to discuss important world issues. One conference was about the uses and ownership of oceans. Another was about women. There are also International Years for people to work together to improve situations and solve problems.",
+   "needfig": true,
+   "fig": "img/q/105180_501_0207_45.webp",
    "a": 2
   },
   {

@@ -149,70 +149,76 @@ window.APP_EXAM_PAPERS['loc-114-1-a021'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "along",
-    "beside",
-    "despite",
-    "opposite"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied, realizing that no number of possession acquisitions can fill the 12 within them. For many, downsizing happens gradually with each move, 13 their lives over time. In other cases, people let go of possessions to escape depression. Additionally, there are those whose perspectives on life dramatically shift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalism grants us the freedom to pursue what truly enriches our lives. By living with less, we gain more time for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helping us focus on our most pressing concerns. It is not about deprivation; rather, it’s about regaining control over our lives and focusing our energy on what truly matters.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_501_0105_11.webp"
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "flap",
-    "volume",
-    "sole",
-    "void"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied, realizing that no number of possession acquisitions can fill the 12 within them. For many, downsizing happens gradually with each move, 13 their lives over time. In other cases, people let go of possessions to escape depression. Additionally, there are those whose perspectives on life dramatically shift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalism grants us the freedom to pursue what truly enriches our lives. By living with less, we gain more time for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helping us focus on our most pressing concerns. It is not about deprivation; rather, it’s about regaining control over our lives and focusing our energy on what truly matters.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/114190_501_0105_12.webp"
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "complicating",
-    "confusing",
-    "simplifying",
-    "seducing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied, realizing that no number of possession acquisitions can fill the 12 within them. For many, downsizing happens gradually with each move, 13 their lives over time. In other cases, people let go of possessions to escape depression. Additionally, there are those whose perspectives on life dramatically shift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalism grants us the freedom to pursue what truly enriches our lives. By living with less, we gain more time for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helping us focus on our most pressing concerns. It is not about deprivation; rather, it’s about regaining control over our lives and focusing our energy on what truly matters.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_501_0105_13.webp"
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "compile",
-    "embrace",
-    "invade",
-    "retreat"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied, realizing that no number of possession acquisitions can fill the 12 within them. For many, downsizing happens gradually with each move, 13 their lives over time. In other cases, people let go of possessions to escape depression. Additionally, there are those whose perspectives on life dramatically shift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalism grants us the freedom to pursue what truly enriches our lives. By living with less, we gain more time for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helping us focus on our most pressing concerns. It is not about deprivation; rather, it’s about regaining control over our lives and focusing our energy on what truly matters.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_501_0105_14.webp"
   },
   {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. fragile trust ＿＿＿ B. mental clarity ＿＿＿ C. ethical dilemma ＿＿＿ D. arrogant attitude51010 - 51110請依下文回答第 16 題至第 20 題：Romantic relationships should be built on mutual respect, emotional reciprocity, and authentic",
    "o": [
-    "fragile trust",
-    "mental clarity",
-    "ethical dilemma",
-    "arrogant attitude51010 - 51110請依下文回答第 16 題至第 20 題：Romantic relationships should be built on mutual respect, emotional reciprocity, and authentic"
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "People adopt minimalism for various reasons. Some find their lives descending into chaos due to the overwhelming burden of their material possessions. Others, 11 accumulating vast wealth, remain dissatisfied, realizing that no number of possession acquisitions can fill the 12 within them. For many, downsizing happens gradually with each move, 13 their lives over time. In other cases, people let go of possessions to escape depression. Additionally, there are those whose perspectives on life dramatically shift after surviving a catastrophic natural disaster, leading them to 14 a simpler way of living. Adopting minimalism grants us the freedom to pursue what truly enriches our lives. By living with less, we gain more time for meaningful activities and greater mobility to explore the world. Minimalism also sharpens our 15 , helping us focus on our most pressing concerns. It is not about deprivation; rather, it’s about regaining control over our lives and focusing our energy on what truly matters.",
+   "needfig": true,
+   "fig": "img/q/114190_501_0105_15.webp",
    "a": 1
   },
   {

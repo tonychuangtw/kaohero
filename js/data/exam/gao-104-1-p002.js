@@ -488,127 +488,136 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "agreements",
-    "differences",
-    "interactions",
-    "relationships"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Just as the roles and responsibilities of men and women are changing in society, so are the shopping habits of the two genders. The electronics industry (computers, cellphones, digital cameras, etc.) is one place where gender 37 in purchasing are rapidly changing. 38 , the electronics market consisted mostly of men. Today, however, women are some of the biggest consumers of cellphones and other electronic products. With more and more women working and in control of their own and their family’s money, women now want to have a say in the type of electronics that they have in their homes. Some experts report that women are actually buying more electronics than men. A recent study also reports another interesting development. It states that almost a third of the new and more 39 electronics are sold to women. So, not only are women becoming more interested in electronics purchases in general, but they are also increasingly willing to try the 40 products.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "At this moment",
-    "From time to time",
-    "In the past few days",
-    "Until very recently"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Just as the roles and responsibilities of men and women are changing in society, so are the shopping habits of the two genders. The electronics industry (computers, cellphones, digital cameras, etc.) is one place where gender 37 in purchasing are rapidly changing. 38 , the electronics market consisted mostly of men. Today, however, women are some of the biggest consumers of cellphones and other electronic products. With more and more women working and in control of their own and their family’s money, women now want to have a say in the type of electronics that they have in their homes. Some experts report that women are actually buying more electronics than men. A recent study also reports another interesting development. It states that almost a third of the new and more 39 electronics are sold to women. So, not only are women becoming more interested in electronics purchases in general, but they are also increasingly willing to try the 40 products.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "decorative",
-    "excessive",
-    "innovative",
-    "productive"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Just as the roles and responsibilities of men and women are changing in society, so are the shopping habits of the two genders. The electronics industry (computers, cellphones, digital cameras, etc.) is one place where gender 37 in purchasing are rapidly changing. 38 , the electronics market consisted mostly of men. Today, however, women are some of the biggest consumers of cellphones and other electronic products. With more and more women working and in control of their own and their family’s money, women now want to have a say in the type of electronics that they have in their homes. Some experts report that women are actually buying more electronics than men. A recent study also reports another interesting development. It states that almost a third of the new and more 39 electronics are sold to women. So, not only are women becoming more interested in electronics purchases in general, but they are also increasingly willing to try the 40 products.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "broadest",
-    "latest",
-    "farthest",
-    "remotest請依下文回答第 41 題至第 45 題：Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Just as the roles and responsibilities of men and women are changing in society, so are the shopping habits of the two genders. The electronics industry (computers, cellphones, digital cameras, etc.) is one place where gender 37 in purchasing are rapidly changing. 38 , the electronics market consisted mostly of men. Today, however, women are some of the biggest consumers of cellphones and other electronic products. With more and more women working and in control of their own and their family’s money, women now want to have a say in the type of electronics that they have in their homes. Some experts report that women are actually buying more electronics than men. A recent study also reports another interesting development. It states that almost a third of the new and more 39 electronics are sold to women. So, not only are women becoming more interested in electronics purchases in general, but they are also increasingly willing to try the 40 products.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "display",
-    "tendency",
-    "exposure",
-    "objection"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of depression occurs more frequently on people who live in those parts of world where there is less or little 41 to sunlight. People who have this kind of depression will experience a change in their mood when the seasons change. This experience of mood change is most apparent when the winter 42 with less daylight. When contracting this disease, people will have such symptoms as sleeping too much, having little energy, and feeling depressed. But these symptoms can be resolved 43 people receive treatment. One such a treatment includes a light therapy which enables people to receive daylight or sunlight 44 modern technology. For instance, people can sit before a light box and get as much light as they need for curing their disease. Nowadays scientists have made great efforts to discover different ways of reducing the discomfort this depression may cause to people. Although this kind of disease may be hard to be avoided to some people, it can be 45 and even cured to allow patients to have a normal life.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "approaches",
-    "liberates",
-    "qualifies",
-    "bounces"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of depression occurs more frequently on people who live in those parts of world where there is less or little 41 to sunlight. People who have this kind of depression will experience a change in their mood when the seasons change. This experience of mood change is most apparent when the winter 42 with less daylight. When contracting this disease, people will have such symptoms as sleeping too much, having little energy, and feeling depressed. But these symptoms can be resolved 43 people receive treatment. One such a treatment includes a light therapy which enables people to receive daylight or sunlight 44 modern technology. For instance, people can sit before a light box and get as much light as they need for curing their disease. Nowadays scientists have made great efforts to discover different ways of reducing the discomfort this depression may cause to people. Although this kind of disease may be hard to be avoided to some people, it can be 45 and even cured to allow patients to have a normal life.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "in order that",
-    "so that",
-    "as long as",
-    "as though"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of depression occurs more frequently on people who live in those parts of world where there is less or little 41 to sunlight. People who have this kind of depression will experience a change in their mood when the seasons change. This experience of mood change is most apparent when the winter 42 with less daylight. When contracting this disease, people will have such symptoms as sleeping too much, having little energy, and feeling depressed. But these symptoms can be resolved 43 people receive treatment. One such a treatment includes a light therapy which enables people to receive daylight or sunlight 44 modern technology. For instance, people can sit before a light box and get as much light as they need for curing their disease. Nowadays scientists have made great efforts to discover different ways of reducing the discomfort this depression may cause to people. Although this kind of disease may be hard to be avoided to some people, it can be 45 and even cured to allow patients to have a normal life.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "with regard to",
-    "in comparison to",
-    "by means of",
-    "in spite of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of depression occurs more frequently on people who live in those parts of world where there is less or little 41 to sunlight. People who have this kind of depression will experience a change in their mood when the seasons change. This experience of mood change is most apparent when the winter 42 with less daylight. When contracting this disease, people will have such symptoms as sleeping too much, having little energy, and feeling depressed. But these symptoms can be resolved 43 people receive treatment. One such a treatment includes a light therapy which enables people to receive daylight or sunlight 44 modern technology. For instance, people can sit before a light box and get as much light as they need for curing their disease. Nowadays scientists have made great efforts to discover different ways of reducing the discomfort this depression may cause to people. Although this kind of disease may be hard to be avoided to some people, it can be 45 and even cured to allow patients to have a normal life.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "raged",
-    "eased",
-    "gazed",
-    "scared請依下文回答第 46 題至第 50 題：In 1962, Shintaro Tsuji, founder of Sanrio Company, began selling rubber sandals with flowers painted on them. He"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Seasonal affective disorder is a depression experienced by people particularly during the winter. This kind of depression occurs more frequently on people who live in those parts of world where there is less or little 41 to sunlight. People who have this kind of depression will experience a change in their mood when the seasons change. This experience of mood change is most apparent when the winter 42 with less daylight. When contracting this disease, people will have such symptoms as sleeping too much, having little energy, and feeling depressed. But these symptoms can be resolved 43 people receive treatment. One such a treatment includes a light therapy which enables people to receive daylight or sunlight 44 modern technology. For instance, people can sit before a light box and get as much light as they need for curing their disease. Nowadays scientists have made great efforts to discover different ways of reducing the discomfort this depression may cause to people. Although this kind of disease may be hard to be avoided to some people, it can be 45 and even cured to allow patients to have a normal life.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104080_401_0112_45.webp"
   },
   {
    "n": 46,

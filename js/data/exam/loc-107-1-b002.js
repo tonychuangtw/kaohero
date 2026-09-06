@@ -474,211 +474,226 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "serve as",
-    "take after",
-    "make up",
-    "look into"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "familiar with",
-    "identified with",
-    "much like",
-    "contrary to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "pulled in",
-    "pulled over",
-    "pulled up",
-    "pulled out"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "If",
-    "Beyond",
-    "After",
-    "Since"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.stuck ＿＿＿ B.is stuck ＿＿＿ C.has gotten stuck ＿＿＿ D.had gotten stuck第 41 題至第 45 題為題組：There are books, e-books, and then there are audio books. Have you ever heard of books you can interact",
    "o": [
-    "stuck",
-    "is stuck",
-    "has gotten stuck",
-    "had gotten stuck第 41 題至第 45 題為題組：There are books, e-books, and then there are audio books. Have you ever heard of books you can interact"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "experience. The mother is sharing her experience in hopes it will 36 a warning to other parents about the choking hazards of the latest toy craze. A fidget spinner has a stable middle and a disc with two or three paddles that can be spun, 37 a ceiling fan, to relax the user. Kelly Rose Joniec of Houston wrote in a Facebook post that she was on her way home Saturday afternoon when she heard Britton, her 10-year-old daughter, choking in the back seat. She 38 and discovered that her daughter had swallowed one of the bearings from her fidget spinner. 39 trying to dislodge the small piece of metal with the Heimlich maneuver, Joniec took Britton to the nearest urgent care center. Doctors were unable to tell where the object 40 . It wasn’t until after an ambulance ride to Texas Children’s Hospital that an X-ray revealed the round metal bearing in the girl’s esophagus.",
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_40.webp",
    "a": 3
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "replaces",
-    "introduces",
-    "places",
-    "offers"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "provide",
-    "loan",
-    "lend",
-    "borrow"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "they",
-    "that",
-    "who",
-    "which"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Meanwhile",
-    "However",
-    "Therefore",
-    "Otherwise"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.anything ＿＿＿ B.something ＿＿＿ C.everything ＿＿＿ D.nothing第 46 題至第 50 題為題組：Urban legends are popular stories alleged to be true and passed from individual to individual via oral or written",
    "o": [
-    "anything",
-    "something",
-    "everything",
-    "nothing第 46 題至第 50 題為題組：Urban legends are popular stories alleged to be true and passed from individual to individual via oral or written"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with? Or a Human Library? Human Library is a library of people. The concept is similar to that of a traditional library, but it 41 paper books with human beings. In this library, you can 42 humans as a living book, listen to their stories, and interact with them. One can borrow each book for 30 minutes and have a one-on-one conversation and learn about their experiences. Human Library is a platform that gives people, 43 are human books, an opportunity to talk about the issues they represent with the readers. 44 , it also gives the reader an opportunity to be more accepting and understanding. Both the books and the readers have 45 new to learn from the experience. While the human books find it as a way to express themselves, the readers get to look at society from a broader perspective.",
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_45.webp",
    "a": 1
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Eventually",
-    "Surprisingly",
-    "Typically",
-    "Accidentally"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "wealthy",
-    "trustworthy",
-    "fantastic",
-    "distractive"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "strengthen",
-    "tighten",
-    "explore",
-    "soften"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "disposable",
-    "portable",
-    "reliable",
-    "traceable"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "visions",
-    "editions",
-    "versions",
-    "missions"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "(e.g., forwarded email) communication. 46 , said stories concern outlandish, humiliating, humorous, terrifying, or supernatural events--events which, in the telling, always seem to happen to someone other than the teller. In lieu of evidence, the conveyor of an urban legend relies on narrative flourishes and/or reference to supposedly 47 sources (e.g., “I heard this from a friend of a friend,” or “This really happened to my sister’s co-worker’s hairdresser”) to 48 its credibility. Urban legends are a type of folklore--defined as the beliefs, stories and traditions of ordinary people (“the folk”)--so one way of differentiating between urban legends and other kinds of narrative (popular fiction, for example) is by examining where they come from and how they are disseminated. Legends arise spontaneously and are rarely 49 to a single point of origin. Because they end up being repeated by many different people in many different places, the stories tend to change over time. Hence, no two 50 of an urban legend are ever exactly alike; there can be as many variants as there are tellers of the tale.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_401_0206_50.webp"
   }
  ]
 };

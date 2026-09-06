@@ -149,71 +149,76 @@ window.APP_EXAM_PAPERS['loc-113-1-b029'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "calling",
-    "lasting",
-    "telling",
-    "handing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "AI technology has become controversial nowadays. Some of the biggest names in tech are 11 for artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/113200_601_0106_11.webp"
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "where",
-    "which",
-    "who",
-    "what"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "AI technology has become controversial nowadays. Some of the biggest names in tech are 11 for artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/113200_601_0106_12.webp"
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "failing",
-    "passing",
-    "working",
-    "hiding"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "AI technology has become controversial nowadays. Some of the biggest names in tech are 11 for artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/113200_601_0106_13.webp"
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "profound",
-    "least",
-    "scarce",
-    "negligent"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "AI technology has become controversial nowadays. Some of the biggest names in tech are 11 for artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/113200_601_0106_14.webp"
   },
   {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "suppose",
-    "unless",
-    "in case",
-    "even though請依下文回答第 16 題至第 20 題：Doctors without Borders, or Medecins Sans Frontieres (MSF), is an international organization that"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "AI technology has become controversial nowadays. Some of the biggest names in tech are 11 for artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/113200_601_0106_15.webp"
   },
   {
    "n": 16,

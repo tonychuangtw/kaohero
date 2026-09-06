@@ -526,56 +526,60 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "leaving",
-    "leave",
-    "left",
-    "had left"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/103180_401_0206_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "in the least",
-    "at last",
-    "at least",
-    "by no means"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/103180_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "therefore",
-    "nevertheless",
-    "furthermore",
-    "moreover"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/103180_401_0206_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.would ＿＿＿ B.will ＿＿＿ C.should ＿＿＿ D.shall第 44 題至第 46 題為題組If Sir Henry Head had not thought of a possible connection between the nerves on the soles of the feet and the rest of",
    "o": [
-    "would",
-    "will",
-    "should",
-    "shall第 44 題至第 46 題為題組If Sir Henry Head had not thought of a possible connection between the nerves on the soles of the feet and the rest of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the body back in the 1890s, then the principle of reflexology would never have seen the light of day. Head worked on the idea that every area of the human body is represented on the soles of the feet. He managed to prove that there is a strong connection between these areas and the internal organs. Using a special kind of thumb or finger pressure, the reflexologist slowly massages the surface nerves of the sole, bringing about a reflex response. In this way, the reflexologist can easily detect dysfunctions in the body. Unfortunately, reflexology is often mistakenly associated with foot massage, but it is in fact far more complex. Reflexology not only helps to relieve patients from stress, but it also combats a variety of ailments. Reflexology is earning its place alongside mainstream complementary medicine as more and more people turn to it.",
+   "needfig": true,
+   "fig": "img/q/103180_401_0206_43.webp",
    "a": 0
   },
   {

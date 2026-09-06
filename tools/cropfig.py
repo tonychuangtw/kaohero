@@ -3,6 +3,8 @@
    用 pdftotext -bbox-layout 取得每個字的座標，抓「第 N 題起點」到「第 N+1 題起點」之間；
    跨頁時本頁裁到頁底、下一頁裁頁首，再用 ffmpeg vstack 接起來。"""
 import re, subprocess, os, sys, tempfile
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import parse as P
 
 DPI = 200
 def boxes(pdf):
@@ -13,9 +15,13 @@ def boxes(pdf):
         lines = []
         for lm in re.finditer(r'<line xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">(.*?)</line>', body, re.S):
             words = re.findall(r'<word[^>]*>(.*?)</word>', lm.group(5), re.S)
+            t = ''.join(words)
+            # 舊卷的題號與選項代號都是私用區字元，不還原就找不到題號
+            for k, v in P.PUA.items(): t = t.replace(k, v)
+            t = re.sub(r'[\ue0c6-\ue0cf]', lambda m: '%d.' % (ord(m.group(0)) - 0xE0C6 + 1), t)
             lines.append({'x0': float(lm.group(1)), 'y0': float(lm.group(2)),
                           'x1': float(lm.group(3)), 'y1': float(lm.group(4)),
-                          't': ''.join(words)})
+                          't': t})
         lines.sort(key=lambda l: (l['y0'], l['x0']))
         pages.append({'w': w, 'h': h, 'lines': lines})
     return pages
@@ -26,9 +32,11 @@ def find_q(pages, n):
     # 以及 -bbox 把一行的字全部黏起來時的「12下列那一個…」（數字後面直接接內文）
     pat = re.compile(r'^[ \t]{0,1}%d(?:[ \t]*[.．、]|[ \t]{2,}|$|[^\d\s])' % n)
     best = None
+    # 題號一定在左半邊，但左邊界每份卷不同（有的 45、有的 90），放寬到 140 點；
+    # 還是要求「行首就是這個題號」，所以不會抓到內文裡的數字
     for pi, pg in enumerate(pages):
         for l in pg['lines']:
-            if l['x0'] < 80 and pat.match(l['t']):
+            if l['x0'] < 140 and pat.match(l['t']):
                 if best is None: best = (pi, l['y0'])
     return best
 
@@ -71,6 +79,9 @@ def crop(pdf, n, out, pad_top=10, pad_bot=4):
                 if bot - top < 8: continue
                 f = td + '/p%d.png' % p
                 render(p, top, bot, f); parts.append(f)
+        if not parts:
+            # 兩題之間量不出高度（例如題號緊接在頁尾）：至少把題號那一頁的下半頁裁出來
+            f = td + '/only.png'; render(pi, ytop, pg['h'] - 12, f); parts = [f]
         if len(parts) == 1:
             png = parts[0]
         else:

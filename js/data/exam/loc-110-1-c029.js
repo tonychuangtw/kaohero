@@ -71,14 +71,16 @@ window.APP_EXAM_PAPERS['loc-110-1-c029'] = {
    "n": 5,
    "pt": 1,
    "type": "single",
-   "q": "有一以矽材料所製的互補式金氧半場效電晶體（Si-CMOSFET）電路及輸入電壓 vI 的波形如下所示，VDD= 5 V，假設兩個電晶體 QP、QN 的特性參數一致，即通道導通臨界電壓（threshold voltage）的絕對值均為 |Vth| = 0.5 V，相同的轉導值（transconductance）與幾何參數，亦即W  W μnCox   = μ p Cox   。試研判電晶體 QP 在時間 t1 最可能的工作模式？ L n  L p",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "飽和模式（Saturation mode）",
-    "線性模式（Linear mode）",
-    "次臨界模式（Subthreshold mode） ~4 V~2 V",
-    "截止模式（Cut-off mode） t1 t2"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110190_512_2414_5.webp"
   },
   {
    "n": 6,

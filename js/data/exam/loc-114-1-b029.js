@@ -149,71 +149,76 @@ window.APP_EXAM_PAPERS['loc-114-1-b029'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "wish",
-    "note",
-    "show",
-    "turn"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/114190_601_0106_11.webp"
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "if",
-    "so",
-    "that",
-    "when"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_601_0106_12.webp"
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "bother",
-    "devise",
-    "permit",
-    "shrink"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114190_601_0106_13.webp"
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "are",
-    "do",
-    "have",
-    "need"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_601_0106_14.webp"
   },
   {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "empathy",
-    "hospitality",
-    "reservation",
-    "suspicion請依下文回答第 16 題至第 20 題：Dear Gingerbread,Thank you for staying with us at Hotel Giovanni on your recent trip and for posting your feedback. We"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114190_601_0106_15.webp"
   },
   {
    "n": 16,

@@ -461,141 +461,151 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "advertised",
-    "alienated",
-    "alleged",
-    "approved"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_35.webp"
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "being linked to",
-    "has been linked to",
-    "had been linked to",
-    "was linked to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Adversaries",
-    "Opponents",
-    "Proponents",
-    "Proprietors"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "dubious",
-    "exaggerative",
-    "remote",
-    "tempting"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.by contrast ＿＿＿ B.for example ＿＿＿ C.however ＿＿＿ D.in addition第 40 題至第 44 題為題組Cave men did not live in caves. But some died in them and their ＿＿＿ 40 thus protected from scavengers and the",
    "o": [
-    "by contrast",
-    "for example",
-    "however",
-    "in addition第 40 題至第 44 題為題組Cave men did not live in caves. But some died in them and their ＿＿＿ 40 thus protected from scavengers and the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns.",
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_39.webp",
    "a": 1
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "remainings",
-    "remains",
-    "reminders",
-    "recollections"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "elements, lasted long enough for palaeontologists to discover and examine them. 41 between 600,000 and 300,000 years ago, quite a few died in La Sima de los Huesos near Burgos, in Spain. The Bone Pit, as the name translates into English, has yielded 6,500 pieces of human skeletons, 42 at least 28 individuals. Who those people were is a matter of 43 --one that shows the difficulty of popping fossils neatly into boxes marked “species.” They are usually 44 as Homo heidelbergensis, the name given to the first humans who lived in Europe, starting about 600,000 years ago. But they also have features of Homo neanderthalensis (Neanderthal man), a younger species believed to have evolved from heidelbergensis.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Some time",
-    "Some timing",
-    "Sometime",
-    "Sometimes"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "elements, lasted long enough for palaeontologists to discover and examine them. 41 between 600,000 and 300,000 years ago, quite a few died in La Sima de los Huesos near Burgos, in Spain. The Bone Pit, as the name translates into English, has yielded 6,500 pieces of human skeletons, 42 at least 28 individuals. Who those people were is a matter of 43 --one that shows the difficulty of popping fossils neatly into boxes marked “species.” They are usually 44 as Homo heidelbergensis, the name given to the first humans who lived in Europe, starting about 600,000 years ago. But they also have features of Homo neanderthalensis (Neanderthal man), a younger species believed to have evolved from heidelbergensis.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reducing",
-    "replacing",
-    "recording",
-    "representing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "elements, lasted long enough for palaeontologists to discover and examine them. 41 between 600,000 and 300,000 years ago, quite a few died in La Sima de los Huesos near Burgos, in Spain. The Bone Pit, as the name translates into English, has yielded 6,500 pieces of human skeletons, 42 at least 28 individuals. Who those people were is a matter of 43 --one that shows the difficulty of popping fossils neatly into boxes marked “species.” They are usually 44 as Homo heidelbergensis, the name given to the first humans who lived in Europe, starting about 600,000 years ago. But they also have features of Homo neanderthalensis (Neanderthal man), a younger species believed to have evolved from heidelbergensis.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "fact",
-    "mistake",
-    "debate",
-    "decree"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "elements, lasted long enough for palaeontologists to discover and examine them. 41 between 600,000 and 300,000 years ago, quite a few died in La Sima de los Huesos near Burgos, in Spain. The Bone Pit, as the name translates into English, has yielded 6,500 pieces of human skeletons, 42 at least 28 individuals. Who those people were is a matter of 43 --one that shows the difficulty of popping fossils neatly into boxes marked “species.” They are usually 44 as Homo heidelbergensis, the name given to the first humans who lived in Europe, starting about 600,000 years ago. But they also have features of Homo neanderthalensis (Neanderthal man), a younger species believed to have evolved from heidelbergensis.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "declassified",
-    "classified",
-    "catered",
-    "cared"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "elements, lasted long enough for palaeontologists to discover and examine them. 41 between 600,000 and 300,000 years ago, quite a few died in La Sima de los Huesos near Burgos, in Spain. The Bone Pit, as the name translates into English, has yielded 6,500 pieces of human skeletons, 42 at least 28 individuals. Who those people were is a matter of 43 --one that shows the difficulty of popping fossils neatly into boxes marked “species.” They are usually 44 as Homo heidelbergensis, the name given to the first humans who lived in Europe, starting about 600,000 years ago. But they also have features of Homo neanderthalensis (Neanderthal man), a younger species believed to have evolved from heidelbergensis.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/103180_301_0205_44.webp"
   },
   {
    "n": 45,

@@ -545,71 +545,76 @@ window.APP_EXAM_PAPERS['gao-111-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "irritation",
-    "evolution",
-    "migration",
-    "realization"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Have you noticed the phenomenon of puppy dog eyes, the inner eyebrow raising movement of dogs? Do you believe it a result of 41 for dogs to appeal to humans? Researchers dissected dog and wolf heads and found that the facial muscle anatomy of both animals was almost identical -- 42 an eyebrow muscle, found only in dogs. The inner eyebrow raising movement makes the dogs’ eyes appear larger and more infant like, 43 prompts a “nurturing” response in humans. When dogs make the movement, it seems to elicit a strong desire in humans to 44 them. This would give the dogs that moved their eyebrows more a selection advantage over others, reinforcing the trait in 45 generations. The findings show how important faces can be in capturing our attention, and how powerful facial expression can be in social interaction.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111090_401_0116_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "as well as",
-    "except for",
-    "in addition to",
-    "such as"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Have you noticed the phenomenon of puppy dog eyes, the inner eyebrow raising movement of dogs? Do you believe it a result of 41 for dogs to appeal to humans? Researchers dissected dog and wolf heads and found that the facial muscle anatomy of both animals was almost identical -- 42 an eyebrow muscle, found only in dogs. The inner eyebrow raising movement makes the dogs’ eyes appear larger and more infant like, 43 prompts a “nurturing” response in humans. When dogs make the movement, it seems to elicit a strong desire in humans to 44 them. This would give the dogs that moved their eyebrows more a selection advantage over others, reinforcing the trait in 45 generations. The findings show how important faces can be in capturing our attention, and how powerful facial expression can be in social interaction.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111090_401_0116_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "when",
-    "who",
-    "what",
-    "which"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Have you noticed the phenomenon of puppy dog eyes, the inner eyebrow raising movement of dogs? Do you believe it a result of 41 for dogs to appeal to humans? Researchers dissected dog and wolf heads and found that the facial muscle anatomy of both animals was almost identical -- 42 an eyebrow muscle, found only in dogs. The inner eyebrow raising movement makes the dogs’ eyes appear larger and more infant like, 43 prompts a “nurturing” response in humans. When dogs make the movement, it seems to elicit a strong desire in humans to 44 them. This would give the dogs that moved their eyebrows more a selection advantage over others, reinforcing the trait in 45 generations. The findings show how important faces can be in capturing our attention, and how powerful facial expression can be in social interaction.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/111090_401_0116_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "carry out",
-    "make up",
-    "look after",
-    "take over"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Have you noticed the phenomenon of puppy dog eyes, the inner eyebrow raising movement of dogs? Do you believe it a result of 41 for dogs to appeal to humans? Researchers dissected dog and wolf heads and found that the facial muscle anatomy of both animals was almost identical -- 42 an eyebrow muscle, found only in dogs. The inner eyebrow raising movement makes the dogs’ eyes appear larger and more infant like, 43 prompts a “nurturing” response in humans. When dogs make the movement, it seems to elicit a strong desire in humans to 44 them. This would give the dogs that moved their eyebrows more a selection advantage over others, reinforcing the trait in 45 generations. The findings show how important faces can be in capturing our attention, and how powerful facial expression can be in social interaction.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111090_401_0116_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "former",
-    "later",
-    "old",
-    "past請依下文回答第 46 題至第 50 題Hikikomori is a psychological condition which makes people shut themselves off from society, often staying in their"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Have you noticed the phenomenon of puppy dog eyes, the inner eyebrow raising movement of dogs? Do you believe it a result of 41 for dogs to appeal to humans? Researchers dissected dog and wolf heads and found that the facial muscle anatomy of both animals was almost identical -- 42 an eyebrow muscle, found only in dogs. The inner eyebrow raising movement makes the dogs’ eyes appear larger and more infant like, 43 prompts a “nurturing” response in humans. When dogs make the movement, it seems to elicit a strong desire in humans to 44 them. This would give the dogs that moved their eyebrows more a selection advantage over others, reinforcing the trait in 45 generations. The findings show how important faces can be in capturing our attention, and how powerful facial expression can be in social interaction.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111090_401_0116_45.webp"
   },
   {
    "n": 46,

@@ -542,71 +542,77 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. an unlikely fact ＿＿＿ B. a rare instance ＿＿＿ C. common knowledge D. mixed feeling",
    "o": [
-    "an unlikely fact",
-    "a rare instance",
-    "common knowledge",
-    "mixed feeling"
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
+   "needfig": true,
+   "fig": "img/q/109190_501_0209_41.webp",
    "a": 2
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Accordingly",
-    "Immediately",
-    "Satisfactorily",
-    "Unfortunately"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_501_0209_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "questioned",
-    "appointed",
-    "tracked",
-    "advised"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/109190_501_0209_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "least",
-    "last",
-    "more",
-    "best"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109190_501_0209_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Maintaining",
-    "Conducting",
-    "Reducing",
-    "Overseeing請依下文回答第46題至第50題：A new Japanese study has found that cats match dogs in some memory tests. The study used 49 cats and different"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/109190_501_0209_45.webp"
   },
   {
    "n": 46,

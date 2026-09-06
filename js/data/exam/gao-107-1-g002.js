@@ -558,71 +558,76 @@ window.APP_EXAM_PAPERS['gao-107-1-g002'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "asset",
-    "access",
-    "essence",
-    "excess"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_301_0210_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "charitable",
-    "additional",
-    "doubtful",
-    "extinct"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_301_0210_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "backpacker’s",
-    "consumer’s",
-    "manager’s",
-    "diplomat’s"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_301_0210_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reentered",
-    "remitted",
-    "revenged",
-    "remunerated"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107090_301_0210_45.webp"
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Lunatics",
-    "Guardians",
-    "Merchants",
-    "Perverts請依下文回答第 47 題至第 50 題：The Warcraft video game franchise from Blizzard Entertainment is now 22 years old. The most successful game"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107090_301_0210_46.webp"
   },
   {
    "n": 47,

@@ -506,112 +506,124 @@ window.APP_EXAM_PAPERS['gao-108-1-g002'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Mr. Gebbia says the cause could be a combination of genetic influences, changes in brain chemistry orenvironmental reasons.",
-    "Steve Iselin said that was the first day his brother understood that perhaps he was not to blame for his son’s death.",
-    "The walkers remember loved ones they lost to suicide.",
-    "It is our hope that we are able to have an open conversation that depression and addictions are real illnessesthat can sometimes be fatal."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "第 38 題至第 41 題為篇章結構，各題請依文意從四個選項中選出最合適者，答案選用不能重複： The suspected suicide of actor and comedian Robin Williams is being linked, in part, to depression. Many Americans suffer from the condition. But, many also are trying to help people with depression. They are finding ways to bring attention to depression and ways to treat it. For example, thousands of people take part in what are called “Out of the Darkness Walks.” 38 They also hope to raise money for suicide prevention efforts and research into depression. Steve Iselin served in the Navy for 20 years. After his retirement, he began to look for another job. That is when he began feeling hopeless. He said,“I had a great sense of dread every day. Agony is another word that comes to mind. I didn’t want to do anything that I would normally like to do. I had no interest in seeing other people.” Steve Iselin did find a job. But he left after one week because he told himself he could not do the work. Everything he did seemed very difficult. Decisions were painful, even having to choose what he would wear that day or what to eat. Mr. Iselin was suffering from depression. Bob Gebbia heads the American Foundation for Suicide Prevention. He says being depressed is very different from being sad or having a bad day. He says that about 20 million people are found to have clinical depression in the United States every year. 39 He notes that some people are more likely than others to get depressed. “Let’s say you lose your job, divorce, or, you know, a loss of someone.” After Robin Williams’ death, the American Foundation for the Prevention of Suicide released a statement. The foundation said Mr. Williams: “brought laughter into every life he touched; Robin also suffered from depression. 40 Every 13 minutes someone dies from suicide, and it is among the top ten causes of death in the U.S.” The group said more needs to be done to prevent suicides. It called for greater attention to mental health issues, warning signs, and effective forms of intervention and treatment. Steve Iselin was lucky. His wife recognized the signs of depression. She helped him get the expert care he needed. But he says that was not true of his brother’s son. Mr. Iselin says his nephew became depressed a few years later and killed himself. A year after his nephew’s death, Mr. Iselin visited his brother in San Francisco and heard about the “Out of the Darkness Walks.” The American Foundation for Suicide Prevention organized the event. Both men took part. 41 Since then, Steve Iselin has volunteered with the American Foundation for Suicide Prevention, taking part in many community walks.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Mr. Gebbia says the cause could be a combination of genetic influences, changes in brain chemistry orenvironmental reasons.",
-    "Steve Iselin said that was the first day his brother understood that perhaps he was not to blame for his son’s death.",
-    "The walkers remember loved ones they lost to suicide.",
-    "It is our hope that we are able to have an open conversation that depression and addictions are real illnessesthat can sometimes be fatal."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "第 38 題至第 41 題為篇章結構，各題請依文意從四個選項中選出最合適者，答案選用不能重複： The suspected suicide of actor and comedian Robin Williams is being linked, in part, to depression. Many Americans suffer from the condition. But, many also are trying to help people with depression. They are finding ways to bring attention to depression and ways to treat it. For example, thousands of people take part in what are called “Out of the Darkness Walks.” 38 They also hope to raise money for suicide prevention efforts and research into depression. Steve Iselin served in the Navy for 20 years. After his retirement, he began to look for another job. That is when he began feeling hopeless. He said,“I had a great sense of dread every day. Agony is another word that comes to mind. I didn’t want to do anything that I would normally like to do. I had no interest in seeing other people.” Steve Iselin did find a job. But he left after one week because he told himself he could not do the work. Everything he did seemed very difficult. Decisions were painful, even having to choose what he would wear that day or what to eat. Mr. Iselin was suffering from depression. Bob Gebbia heads the American Foundation for Suicide Prevention. He says being depressed is very different from being sad or having a bad day. He says that about 20 million people are found to have clinical depression in the United States every year. 39 He notes that some people are more likely than others to get depressed. “Let’s say you lose your job, divorce, or, you know, a loss of someone.” After Robin Williams’ death, the American Foundation for the Prevention of Suicide released a statement. The foundation said Mr. Williams: “brought laughter into every life he touched; Robin also suffered from depression. 40 Every 13 minutes someone dies from suicide, and it is among the top ten causes of death in the U.S.” The group said more needs to be done to prevent suicides. It called for greater attention to mental health issues, warning signs, and effective forms of intervention and treatment. Steve Iselin was lucky. His wife recognized the signs of depression. She helped him get the expert care he needed. But he says that was not true of his brother’s son. Mr. Iselin says his nephew became depressed a few years later and killed himself. A year after his nephew’s death, Mr. Iselin visited his brother in San Francisco and heard about the “Out of the Darkness Walks.” The American Foundation for Suicide Prevention organized the event. Both men took part. 41 Since then, Steve Iselin has volunteered with the American Foundation for Suicide Prevention, taking part in many community walks.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Mr. Gebbia says the cause could be a combination of genetic influences, changes in brain chemistry orenvironmental reasons.",
-    "Steve Iselin said that was the first day his brother understood that perhaps he was not to blame for his son’s death.",
-    "The walkers remember loved ones they lost to suicide.",
-    "It is our hope that we are able to have an open conversation that depression and addictions are real illnessesthat can sometimes be fatal."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "第 38 題至第 41 題為篇章結構，各題請依文意從四個選項中選出最合適者，答案選用不能重複： The suspected suicide of actor and comedian Robin Williams is being linked, in part, to depression. Many Americans suffer from the condition. But, many also are trying to help people with depression. They are finding ways to bring attention to depression and ways to treat it. For example, thousands of people take part in what are called “Out of the Darkness Walks.” 38 They also hope to raise money for suicide prevention efforts and research into depression. Steve Iselin served in the Navy for 20 years. After his retirement, he began to look for another job. That is when he began feeling hopeless. He said,“I had a great sense of dread every day. Agony is another word that comes to mind. I didn’t want to do anything that I would normally like to do. I had no interest in seeing other people.” Steve Iselin did find a job. But he left after one week because he told himself he could not do the work. Everything he did seemed very difficult. Decisions were painful, even having to choose what he would wear that day or what to eat. Mr. Iselin was suffering from depression. Bob Gebbia heads the American Foundation for Suicide Prevention. He says being depressed is very different from being sad or having a bad day. He says that about 20 million people are found to have clinical depression in the United States every year. 39 He notes that some people are more likely than others to get depressed. “Let’s say you lose your job, divorce, or, you know, a loss of someone.” After Robin Williams’ death, the American Foundation for the Prevention of Suicide released a statement. The foundation said Mr. Williams: “brought laughter into every life he touched; Robin also suffered from depression. 40 Every 13 minutes someone dies from suicide, and it is among the top ten causes of death in the U.S.” The group said more needs to be done to prevent suicides. It called for greater attention to mental health issues, warning signs, and effective forms of intervention and treatment. Steve Iselin was lucky. His wife recognized the signs of depression. She helped him get the expert care he needed. But he says that was not true of his brother’s son. Mr. Iselin says his nephew became depressed a few years later and killed himself. A year after his nephew’s death, Mr. Iselin visited his brother in San Francisco and heard about the “Out of the Darkness Walks.” The American Foundation for Suicide Prevention organized the event. Both men took part. 41 Since then, Steve Iselin has volunteered with the American Foundation for Suicide Prevention, taking part in many community walks.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Mr. Gebbia says the cause could be a combination of genetic influences, changes in brain chemistry orenvironmental reasons.",
-    "Steve Iselin said that was the first day his brother understood that perhaps he was not to blame for his son’s death.",
-    "The walkers remember loved ones they lost to suicide.",
-    "It is our hope that we are able to have an open conversation that depression and addictions are real illnessesthat can sometimes be fatal.請依下文回答第 42 題至第 45 題：As people woke up at dawn on the farm, one person was already up. ＿＿＿ 42 ＿＿＿ An old man from Thailand claimed"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "第 38 題至第 41 題為篇章結構，各題請依文意從四個選項中選出最合適者，答案選用不能重複： The suspected suicide of actor and comedian Robin Williams is being linked, in part, to depression. Many Americans suffer from the condition. But, many also are trying to help people with depression. They are finding ways to bring attention to depression and ways to treat it. For example, thousands of people take part in what are called “Out of the Darkness Walks.” 38 They also hope to raise money for suicide prevention efforts and research into depression. Steve Iselin served in the Navy for 20 years. After his retirement, he began to look for another job. That is when he began feeling hopeless. He said,“I had a great sense of dread every day. Agony is another word that comes to mind. I didn’t want to do anything that I would normally like to do. I had no interest in seeing other people.” Steve Iselin did find a job. But he left after one week because he told himself he could not do the work. Everything he did seemed very difficult. Decisions were painful, even having to choose what he would wear that day or what to eat. Mr. Iselin was suffering from depression. Bob Gebbia heads the American Foundation for Suicide Prevention. He says being depressed is very different from being sad or having a bad day. He says that about 20 million people are found to have clinical depression in the United States every year. 39 He notes that some people are more likely than others to get depressed. “Let’s say you lose your job, divorce, or, you know, a loss of someone.” After Robin Williams’ death, the American Foundation for the Prevention of Suicide released a statement. The foundation said Mr. Williams: “brought laughter into every life he touched; Robin also suffered from depression. 40 Every 13 minutes someone dies from suicide, and it is among the top ten causes of death in the U.S.” The group said more needs to be done to prevent suicides. It called for greater attention to mental health issues, warning signs, and effective forms of intervention and treatment. Steve Iselin was lucky. His wife recognized the signs of depression. She helped him get the expert care he needed. But he says that was not true of his brother’s son. Mr. Iselin says his nephew became depressed a few years later and killed himself. A year after his nephew’s death, Mr. Iselin visited his brother in San Francisco and heard about the “Out of the Darkness Walks.” The American Foundation for Suicide Prevention organized the event. Both men took part. 41 Since then, Steve Iselin has volunteered with the American Foundation for Suicide Prevention, taking part in many community walks.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. Anyway, he went to bed in the morning. ＿＿＿ B. Furthermore, he came back from nightshift.C. Indeed, he has always been asleep. ＿＿＿ D. In fact, he hasn’t even been to bed.",
    "o": [
-    "Anyway, he went to bed in the morning.",
-    "Furthermore, he came back from nightshift.",
-    "Indeed, he has always been asleep.",
-    "In fact, he hasn’t even been to bed."
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_42.webp",
    "a": 3
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. All the people blamed me. ＿＿＿ B. I did not have money to see the doctor.C. I have tried everything. ＿＿＿ D. The fever was long gone.",
    "o": [
-    "All the people blamed me.",
-    "I did not have money to see the doctor.",
-    "I have tried everything.",
-    "The fever was long gone."
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_43.webp",
    "a": 2
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. He always disrupted his neighbors’ work during the day.B. He also helped to wake his neighbors up when there was a need.C. He got very grumpy and everybody was annoyed with him.D. He got very ill and could not work at all.",
    "o": [
-    "He always disrupted his neighbors’ work during the day.",
-    "He also helped to wake his neighbors up when there was a need.",
-    "He got very grumpy and everybody was annoyed with him.",
-    "He got very ill and could not work at all."
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_44.webp",
    "a": 1
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. But there were exceptions. ＿＿＿ B. Cases can vary.C. It could be even worse. ＿＿＿ D. No remedy can cure him.請依下文回答第 46 題至第 50 題：Those who doubt the power of human beings to change Earth’s climate should look to the Arctic, and shiver.",
    "o": [
-    "But there were exceptions.",
-    "Cases can vary.",
-    "It could be even worse.",
-    "No remedy can cure him.請依下文回答第 46 題至第 50 題：Those who doubt the power of human beings to change Earth’s climate should look to the Arctic, and shiver."
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
+   "needfig": true,
+   "fig": "img/q/108090_201_0213_45.webp",
    "a": 0
   },
   {

@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "turns down",
-    "looks after",
-    "takes over",
-    "refers to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "ASMR stands for autonomous sensory meridian response. It 41 reactions you have to soft voices or soothing sounds such as whispering, tapping, scratching etc. 42 , if a person starts feeling relaxed at the sound of pages in a book turning, they are experiencing ASMR. The feeling starts in the back of your head, and travels down through your spine into your limbs. 43 there isn’t any relevant scientific data about ASMR to support medical claims, it is currently being used by many people to battle anxiety and sleeping disorders. It is also believed that listening to ASMR videos has a positive 44 on studying. More relaxed and focused, listeners are able to perform much better in various creative tasks. ASMR experience is 45 to each person. Different people may prefer different sounds to trigger the feeling and relax. From the sound of tapping to the sound of cutting hair, there are thousands of possible triggers to choose from.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_401_0208_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "For example",
-    "In addition",
-    "As a result",
-    "On the other hand"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "ASMR stands for autonomous sensory meridian response. It 41 reactions you have to soft voices or soothing sounds such as whispering, tapping, scratching etc. 42 , if a person starts feeling relaxed at the sound of pages in a book turning, they are experiencing ASMR. The feeling starts in the back of your head, and travels down through your spine into your limbs. 43 there isn’t any relevant scientific data about ASMR to support medical claims, it is currently being used by many people to battle anxiety and sleeping disorders. It is also believed that listening to ASMR videos has a positive 44 on studying. More relaxed and focused, listeners are able to perform much better in various creative tasks. ASMR experience is 45 to each person. Different people may prefer different sounds to trigger the feeling and relax. From the sound of tapping to the sound of cutting hair, there are thousands of possible triggers to choose from.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109190_401_0208_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Unless",
-    "While",
-    "If",
-    "Because"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "ASMR stands for autonomous sensory meridian response. It 41 reactions you have to soft voices or soothing sounds such as whispering, tapping, scratching etc. 42 , if a person starts feeling relaxed at the sound of pages in a book turning, they are experiencing ASMR. The feeling starts in the back of your head, and travels down through your spine into your limbs. 43 there isn’t any relevant scientific data about ASMR to support medical claims, it is currently being used by many people to battle anxiety and sleeping disorders. It is also believed that listening to ASMR videos has a positive 44 on studying. More relaxed and focused, listeners are able to perform much better in various creative tasks. ASMR experience is 45 to each person. Different people may prefer different sounds to trigger the feeling and relax. From the sound of tapping to the sound of cutting hair, there are thousands of possible triggers to choose from.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109190_401_0208_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "legend",
-    "attitude",
-    "version",
-    "impact"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "ASMR stands for autonomous sensory meridian response. It 41 reactions you have to soft voices or soothing sounds such as whispering, tapping, scratching etc. 42 , if a person starts feeling relaxed at the sound of pages in a book turning, they are experiencing ASMR. The feeling starts in the back of your head, and travels down through your spine into your limbs. 43 there isn’t any relevant scientific data about ASMR to support medical claims, it is currently being used by many people to battle anxiety and sleeping disorders. It is also believed that listening to ASMR videos has a positive 44 on studying. More relaxed and focused, listeners are able to perform much better in various creative tasks. ASMR experience is 45 to each person. Different people may prefer different sounds to trigger the feeling and relax. From the sound of tapping to the sound of cutting hair, there are thousands of possible triggers to choose from.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_401_0208_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "steady",
-    "unique",
-    "mental",
-    "abstract請依下文回答第46題至第50題：Even if you have not been diagnosed with a mental illness, day-to-day stresses can easily drain your life of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "ASMR stands for autonomous sensory meridian response. It 41 reactions you have to soft voices or soothing sounds such as whispering, tapping, scratching etc. 42 , if a person starts feeling relaxed at the sound of pages in a book turning, they are experiencing ASMR. The feeling starts in the back of your head, and travels down through your spine into your limbs. 43 there isn’t any relevant scientific data about ASMR to support medical claims, it is currently being used by many people to battle anxiety and sleeping disorders. It is also believed that listening to ASMR videos has a positive 44 on studying. More relaxed and focused, listeners are able to perform much better in various creative tasks. ASMR experience is 45 to each person. Different people may prefer different sounds to trigger the feeling and relax. From the sound of tapping to the sound of cutting hair, there are thousands of possible triggers to choose from.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109190_401_0208_45.webp"
   },
   {
    "n": 46,

@@ -554,85 +554,91 @@ window.APP_EXAM_PAPERS['loc-109-1-a002'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "various wounds",
-    "fatal mistakes",
-    "hopeful cases",
-    "various afflictions"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Between 1700 and 1750, the population of Bath tripled from three to nine thousand and was comprised of diverse types. Doctors settled in Bath to administer to the patients who came seeking relief from 42 such as gout, fever, palsy, rashes, and rheumatism. Professional gamblers stopped at Bath on their annual itinerary through London and the continental spas. The 43 for visitors were September/October and March/April, although the entertainments were continuous all year. The aristocracy came from London to take the waters and escape the bustle of the big city. Parsons, country squires, tradesmen, and their wives came to mingle with the nobility. Indeed the seasonal retreat of the middle class to Bath may mark the first time in English history when the concept of 44 for large numbers of working people became a reality.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "rush hours",
-    "career periods",
-    "incubation periods",
-    "peak seasons"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Between 1700 and 1750, the population of Bath tripled from three to nine thousand and was comprised of diverse types. Doctors settled in Bath to administer to the patients who came seeking relief from 42 such as gout, fever, palsy, rashes, and rheumatism. Professional gamblers stopped at Bath on their annual itinerary through London and the continental spas. The 43 for visitors were September/October and March/April, although the entertainments were continuous all year. The aristocracy came from London to take the waters and escape the bustle of the big city. Parsons, country squires, tradesmen, and their wives came to mingle with the nobility. Indeed the seasonal retreat of the middle class to Bath may mark the first time in English history when the concept of 44 for large numbers of working people became a reality.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "summer vacation",
-    "annual vacation",
-    "anniversary",
-    "wedding celebration請依下文回答第45題至第47題："
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Between 1700 and 1750, the population of Bath tripled from three to nine thousand and was comprised of diverse types. Doctors settled in Bath to administer to the patients who came seeking relief from 42 such as gout, fever, palsy, rashes, and rheumatism. Professional gamblers stopped at Bath on their annual itinerary through London and the continental spas. The 43 for visitors were September/October and March/April, although the entertainments were continuous all year. The aristocracy came from London to take the waters and escape the bustle of the big city. Parsons, country squires, tradesmen, and their wives came to mingle with the nobility. Indeed the seasonal retreat of the middle class to Bath may mark the first time in English history when the concept of 44 for large numbers of working people became a reality.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "portable",
-    "predestined",
-    "satiric",
-    "scale"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It’s essential to lie with maps. A map must distort reality in order to portray a complex, three-dimensional world on a flat sheet of paper. In other words, a map is a 45 model, but the symbols it uses for parks and other places are not drawn to the same scale. A map cannot show everything, or it will hide critical information in a fog of 46 . The map, therefore, must offer a selective view of reality. There’s no escape from the cartographic 47 : to present a useful and truthful picture, an accurate map must tell white lies.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_45.webp"
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "article",
-    "detail",
-    "ingredient",
-    "item"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It’s essential to lie with maps. A map must distort reality in order to portray a complex, three-dimensional world on a flat sheet of paper. In other words, a map is a 45 model, but the symbols it uses for parks and other places are not drawn to the same scale. A map cannot show everything, or it will hide critical information in a fog of 46 . The map, therefore, must offer a selective view of reality. There’s no escape from the cartographic 47 : to present a useful and truthful picture, an accurate map must tell white lies.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "crux",
-    "engima",
-    "mystery",
-    "paradox請依下文回答第48題至第50題："
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It’s essential to lie with maps. A map must distort reality in order to portray a complex, three-dimensional world on a flat sheet of paper. In other words, a map is a 45 model, but the symbols it uses for parks and other places are not drawn to the same scale. A map cannot show everything, or it will hide critical information in a fog of 46 . The map, therefore, must offer a selective view of reality. There’s no escape from the cartographic 47 : to present a useful and truthful picture, an accurate map must tell white lies.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109190_301_0207_47.webp"
   },
   {
    "n": 48,

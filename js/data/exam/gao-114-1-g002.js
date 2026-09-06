@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "cease",
-    "ignore",
-    "exhibit",
-    "abandon"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In today’s rapidly evolving society, a growing concern regarding some young adults has been raised. They do not 41 the same level of work ethic as their parents did in previous generations. This shift can be attributed to various factors, including technological improvements, changing cultural values, and differing economic landscapes. Their parents often had to 42 their leisure time and work long hours in physically demanding jobs. In contrast, today’s youth are more likely to seek careers that offer better work-life 43 and personal fulfillment. First, opportunities for remote work and passive income have been created by the 44 of digital technology, which can sometimes lead to a perception of reduced effort. Additionally, the cultural emphasis on self-care and mental health has reshaped priorities, with many young adults valuing basic, 45 well-being over relentless, never-ending hard work. However, it’s necessary to recognize that these changes reflect broader societal transformations and the adaptation to new economic realities rather than a mere lack of diligence or ambition.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114080_201_0401_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "launch",
-    "sacrifice",
-    "increase",
-    "strengthen"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In today’s rapidly evolving society, a growing concern regarding some young adults has been raised. They do not 41 the same level of work ethic as their parents did in previous generations. This shift can be attributed to various factors, including technological improvements, changing cultural values, and differing economic landscapes. Their parents often had to 42 their leisure time and work long hours in physically demanding jobs. In contrast, today’s youth are more likely to seek careers that offer better work-life 43 and personal fulfillment. First, opportunities for remote work and passive income have been created by the 44 of digital technology, which can sometimes lead to a perception of reduced effort. Additionally, the cultural emphasis on self-care and mental health has reshaped priorities, with many young adults valuing basic, 45 well-being over relentless, never-ending hard work. However, it’s necessary to recognize that these changes reflect broader societal transformations and the adaptation to new economic realities rather than a mere lack of diligence or ambition.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114080_201_0401_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "balance",
-    "inequality",
-    "extension",
-    "impression"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In today’s rapidly evolving society, a growing concern regarding some young adults has been raised. They do not 41 the same level of work ethic as their parents did in previous generations. This shift can be attributed to various factors, including technological improvements, changing cultural values, and differing economic landscapes. Their parents often had to 42 their leisure time and work long hours in physically demanding jobs. In contrast, today’s youth are more likely to seek careers that offer better work-life 43 and personal fulfillment. First, opportunities for remote work and passive income have been created by the 44 of digital technology, which can sometimes lead to a perception of reduced effort. Additionally, the cultural emphasis on self-care and mental health has reshaped priorities, with many young adults valuing basic, 45 well-being over relentless, never-ending hard work. However, it’s necessary to recognize that these changes reflect broader societal transformations and the adaptation to new economic realities rather than a mere lack of diligence or ambition.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114080_201_0401_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "objection",
-    "ignorance",
-    "advancements",
-    "postponements"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In today’s rapidly evolving society, a growing concern regarding some young adults has been raised. They do not 41 the same level of work ethic as their parents did in previous generations. This shift can be attributed to various factors, including technological improvements, changing cultural values, and differing economic landscapes. Their parents often had to 42 their leisure time and work long hours in physically demanding jobs. In contrast, today’s youth are more likely to seek careers that offer better work-life 43 and personal fulfillment. First, opportunities for remote work and passive income have been created by the 44 of digital technology, which can sometimes lead to a perception of reduced effort. Additionally, the cultural emphasis on self-care and mental health has reshaped priorities, with many young adults valuing basic, 45 well-being over relentless, never-ending hard work. However, it’s necessary to recognize that these changes reflect broader societal transformations and the adaptation to new economic realities rather than a mere lack of diligence or ambition.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114080_201_0401_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "essential",
-    "luxurious",
-    "dependent",
-    "occasional請依下文回答第 46 題至第 50 題：Geriatric medicine is a growing medical specialty that focuses on the care and treatment of older people. Older age"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In today’s rapidly evolving society, a growing concern regarding some young adults has been raised. They do not 41 the same level of work ethic as their parents did in previous generations. This shift can be attributed to various factors, including technological improvements, changing cultural values, and differing economic landscapes. Their parents often had to 42 their leisure time and work long hours in physically demanding jobs. In contrast, today’s youth are more likely to seek careers that offer better work-life 43 and personal fulfillment. First, opportunities for remote work and passive income have been created by the 44 of digital technology, which can sometimes lead to a perception of reduced effort. Additionally, the cultural emphasis on self-care and mental health has reshaped priorities, with many young adults valuing basic, 45 well-being over relentless, never-ending hard work. However, it’s necessary to recognize that these changes reflect broader societal transformations and the adaptation to new economic realities rather than a mere lack of diligence or ambition.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114080_201_0401_45.webp"
   },
   {
    "n": 46,

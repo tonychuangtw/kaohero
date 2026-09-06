@@ -605,71 +605,76 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "proper",
-    "modern",
-    "traditional",
-    "fancy"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_502_0208_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "argued",
-    "exchanged",
-    "supported",
-    "invited"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105180_502_0208_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "slow-paced",
-    "low-level",
-    "easy-going",
-    "good-paying"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105180_502_0208_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "variety",
-    "string",
-    "bundle",
-    "piece"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105180_502_0208_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "educationally",
-    "financially",
-    "critically",
-    "unfortunately"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105180_502_0208_50.webp"
   }
  ]
 };

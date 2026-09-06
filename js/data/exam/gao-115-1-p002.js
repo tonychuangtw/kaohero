@@ -542,71 +542,76 @@ window.APP_EXAM_PAPERS['gao-115-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "abandoned",
-    "evolved",
-    "inhabited",
-    "denied"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/115080_401_0114_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "closure",
-    "inclusion",
-    "member",
-    "texture"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/115080_401_0114_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "flexible",
-    "intensive",
-    "physical",
-    "terrible"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/115080_401_0114_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "debts",
-    "fields",
-    "signs",
-    "tests"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/115080_401_0114_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "whether",
-    "where",
-    "when",
-    "why請依下文回答第 46 題至第 50 題A mantra is a word, sound, or phrase repeated to focus the mind or express a strong belief. Derived from"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/115080_401_0114_45.webp"
   },
   {
    "n": 46,

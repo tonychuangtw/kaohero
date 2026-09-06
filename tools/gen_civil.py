@@ -54,6 +54,9 @@ def track_name(cn, lvl):
     return tn
 
 
+PUA = re.compile('[\ue000-\uf8ff]')
+
+
 def sane(qs):
     """卷級健康檢查：題數對得上不代表內容是對的。
        實際踩過的三種爛掉的樣子——題幹空掉只剩單一字母選項、選項裡混進別的選項代號
@@ -63,6 +66,9 @@ def sane(qs):
         if q.get('needfig'): continue
         st = (q['q'] or '').strip()
         if len(st) < 8 and not q.get('psg'): bad.append((q['n'], '題幹過短'))
+        # 私用區字元＝Symbol 字型的矩陣括號那類，pdftotext 還原不了（畫面上會是豆腐），改用原卷的圖
+        if PUA.search(st) or any(PUA.search(o or '') for o in q['o']):
+            bad.append((q['n'], '有還原不了的符號'))
         for o in q['o']:
             o = (o or '').strip()
             if not o: bad.append((q['n'], '空選項'))
@@ -208,7 +214,8 @@ def main():
             if q.get('needfig'):
                 fn = 'img/q/%s_%s_%s_%d.webp' % (code, c, s, n)
                 item['needfig'] = True; item['fig'] = fn
-                item['q'] = q['q'] or '（本題題幹與選項都在圖上，請見下圖作答）'
+                # 題幹本身有還原不了的符號時就不要留下豆腐，直接請人看圖
+                item['q'] = ('' if PUA.search(q['q'] or '') else q['q']) or '（本題題幹與選項都在圖上，請見下圖作答）'
                 item['o'] = [''] * len(item['o'] or [1, 2, 3, 4])
                 figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
             acc, a0 = corr.get(n), ans.get(n, '#')
@@ -228,8 +235,11 @@ def main():
         if qs is None: continue
         # 少數幾題解析爛掉（版面拆錯）時不要整卷丟掉：那幾題改成裁原卷的圖來作答；
         # 爛超過四成才判定這一卷不能收。
-        prob = sorted({n for n, _ in sane(qs)})
-        if prob and len(prob) > max(3, len(qs) * 0.4):
+        probs = sane(qs)
+        prob = sorted({n for n, _ in probs})
+        # 「有還原不了的符號」不算爛卷：數學／統計整卷都是公式很正常，整卷改用原卷的圖就好
+        hard = sorted({n for n, why in probs if why != '有還原不了的符號'})
+        if hard and len(hard) > max(3, len(qs) * 0.4):
             skipped.append([roc, code, s, sn, '內容檢查不過（%d/%d 題）：%s' % (
                 len(prob), len(qs), '、'.join('#%d %s' % x for x in sane(qs)[:3]))])
             continue

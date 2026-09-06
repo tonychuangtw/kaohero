@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-104-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Though",
-    "Whether",
-    "Since",
-    "However"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Music is such an important part of most people’s lives, and the advent of the Internet and iTunes has really changed the way we interact with our music. 41 we are in the car, at the gym, or relaxing after a hard day of work, music can work magic. Today, it is not 42 to have thousands of songs on your music playlist. 43 , many people have so much music that it is literally out of control! Today’s digital players offer a wealth of ways to 44 and organize music, but if you are not careful, it can quickly become a nightmare. Ask yourself: How many duplicate songs do you have in your collection? How many songs are listed as “track unknown”? If this describes you, then you may be interested in a great new plug-in service called TuneUp that is coming to the 45 of millions of music lovers.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104180_501_0208_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "usual",
-    "legal",
-    "likely",
-    "uncommon"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Music is such an important part of most people’s lives, and the advent of the Internet and iTunes has really changed the way we interact with our music. 41 we are in the car, at the gym, or relaxing after a hard day of work, music can work magic. Today, it is not 42 to have thousands of songs on your music playlist. 43 , many people have so much music that it is literally out of control! Today’s digital players offer a wealth of ways to 44 and organize music, but if you are not careful, it can quickly become a nightmare. Ask yourself: How many duplicate songs do you have in your collection? How many songs are listed as “track unknown”? If this describes you, then you may be interested in a great new plug-in service called TuneUp that is coming to the 45 of millions of music lovers.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104180_501_0208_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "However",
-    "Although",
-    "In fact",
-    "In conclusion"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Music is such an important part of most people’s lives, and the advent of the Internet and iTunes has really changed the way we interact with our music. 41 we are in the car, at the gym, or relaxing after a hard day of work, music can work magic. Today, it is not 42 to have thousands of songs on your music playlist. 43 , many people have so much music that it is literally out of control! Today’s digital players offer a wealth of ways to 44 and organize music, but if you are not careful, it can quickly become a nightmare. Ask yourself: How many duplicate songs do you have in your collection? How many songs are listed as “track unknown”? If this describes you, then you may be interested in a great new plug-in service called TuneUp that is coming to the 45 of millions of music lovers.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_501_0208_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "store",
-    "earn",
-    "coach",
-    "assume"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Music is such an important part of most people’s lives, and the advent of the Internet and iTunes has really changed the way we interact with our music. 41 we are in the car, at the gym, or relaxing after a hard day of work, music can work magic. Today, it is not 42 to have thousands of songs on your music playlist. 43 , many people have so much music that it is literally out of control! Today’s digital players offer a wealth of ways to 44 and organize music, but if you are not careful, it can quickly become a nightmare. Ask yourself: How many duplicate songs do you have in your collection? How many songs are listed as “track unknown”? If this describes you, then you may be interested in a great new plug-in service called TuneUp that is coming to the 45 of millions of music lovers.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104180_501_0208_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "invention",
-    "celebration",
-    "rescue",
-    "profit第 46 題至第 50 題為題組Problem solver. Creative. Works well under pressure."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "These are key personality traits employers will be seeking no matter what position they’re hiring for—and chances are, you resume probably already showcases them in some way. But these days, hiring managers from some firms aren’t content to take job seekers at their word—they want to see it to believe it. And that’s why some companies have turned the interview process on its head. Instead of the traditional questions you might expect in an interview, they’re giving candidates problems to solve—problems which, at first glance, might seem totally random. Google, for example, has been known to ask, “How many people are using Facebook in San Francisco at 2:30 PM on a Friday?” Hewlett-Packard asks, “If Germans were the tallest people in the world, how would you prove it?” No doubt, these are tough questions but there is no need to panic. Your interviewer isn’t necessarily looking for a right answer. He wants simply to determine how quickly you can think on your feet, how you’ll approach a difficult situation, and, most importantly, whether you can remain positive and proactive and make progress in the face of a challenge.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_501_0208_45.webp"
   },
   {
    "n": 46,

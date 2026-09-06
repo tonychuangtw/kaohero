@@ -253,16 +253,14 @@ window.APP_EXAM_PAPERS['loc-102-1-b014'] = {
    "n": 19,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "就 A、B、C 三個議案表決，若 A 案優於 B 案，B 案優於 C 案，C 案優於 A 案。則稱此現象為：",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "策略性投票（strategic voting）",
+    "選票交易（vote trading）",
+    "投票矛盾（voting paradox）",
+    "選票互助（logrolling）"
    ],
-   "a": 2,
-   "needfig": true,
-   "fig": "img/q/102190_413_1005_19.webp"
+   "a": 2
   },
   {
    "n": 20,

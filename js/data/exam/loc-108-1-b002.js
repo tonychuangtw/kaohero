@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "which",
-    "where",
-    "when",
-    "how"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams. It originated in Britain in the 1860s when students began to cheer in unison for their favorite athletes at sports events. A decade later cheerleading crossed overseas to the United States, 41 it remains the most common. 42 women currently dominate the field, cheerleading was begun by men. In the 1920s women became involved in cheerleading, but it was not until 1940s that they joined in large numbers, since so many college-aged men went off to fight in World War II. In 1948, Lawrence Herkimer, the father of modern cheerleading, founded the National Cheerleaders Association and held the first cheerleading camp. He established the first cheer uniform company and invented the iconic cheer accessory, pom poms. 43 Herkimer, cheerleading would not be the sport that we know and love today. The history of competitive cheerleading dates back to the late 1960s, when the International Cheerleading Foundation began 44 the top ten college cheerleading squads as well as handing out Cheerleader All America awards. As the popularity of cheerleading grew, so 45 the stunts, tumbling and skill level of the cheerleaders participating. Today competitive cheerleading is one of the most popular sports in the United States and it has become a multi-million-dollar industry that shows no signs of slowing down.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/108190_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Once",
-    "Because",
-    "Unless",
-    "Although"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams. It originated in Britain in the 1860s when students began to cheer in unison for their favorite athletes at sports events. A decade later cheerleading crossed overseas to the United States, 41 it remains the most common. 42 women currently dominate the field, cheerleading was begun by men. In the 1920s women became involved in cheerleading, but it was not until 1940s that they joined in large numbers, since so many college-aged men went off to fight in World War II. In 1948, Lawrence Herkimer, the father of modern cheerleading, founded the National Cheerleaders Association and held the first cheerleading camp. He established the first cheer uniform company and invented the iconic cheer accessory, pom poms. 43 Herkimer, cheerleading would not be the sport that we know and love today. The history of competitive cheerleading dates back to the late 1960s, when the International Cheerleading Foundation began 44 the top ten college cheerleading squads as well as handing out Cheerleader All America awards. As the popularity of cheerleading grew, so 45 the stunts, tumbling and skill level of the cheerleaders participating. Today competitive cheerleading is one of the most popular sports in the United States and it has become a multi-million-dollar industry that shows no signs of slowing down.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/108190_401_0206_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Because of",
-    "Apart from",
-    "Like",
-    "Without"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams. It originated in Britain in the 1860s when students began to cheer in unison for their favorite athletes at sports events. A decade later cheerleading crossed overseas to the United States, 41 it remains the most common. 42 women currently dominate the field, cheerleading was begun by men. In the 1920s women became involved in cheerleading, but it was not until 1940s that they joined in large numbers, since so many college-aged men went off to fight in World War II. In 1948, Lawrence Herkimer, the father of modern cheerleading, founded the National Cheerleaders Association and held the first cheerleading camp. He established the first cheer uniform company and invented the iconic cheer accessory, pom poms. 43 Herkimer, cheerleading would not be the sport that we know and love today. The history of competitive cheerleading dates back to the late 1960s, when the International Cheerleading Foundation began 44 the top ten college cheerleading squads as well as handing out Cheerleader All America awards. As the popularity of cheerleading grew, so 45 the stunts, tumbling and skill level of the cheerleaders participating. Today competitive cheerleading is one of the most popular sports in the United States and it has become a multi-million-dollar industry that shows no signs of slowing down.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/108190_401_0206_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "charging",
-    "adapting",
-    "figuring",
-    "ranking"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams. It originated in Britain in the 1860s when students began to cheer in unison for their favorite athletes at sports events. A decade later cheerleading crossed overseas to the United States, 41 it remains the most common. 42 women currently dominate the field, cheerleading was begun by men. In the 1920s women became involved in cheerleading, but it was not until 1940s that they joined in large numbers, since so many college-aged men went off to fight in World War II. In 1948, Lawrence Herkimer, the father of modern cheerleading, founded the National Cheerleaders Association and held the first cheerleading camp. He established the first cheer uniform company and invented the iconic cheer accessory, pom poms. 43 Herkimer, cheerleading would not be the sport that we know and love today. The history of competitive cheerleading dates back to the late 1960s, when the International Cheerleading Foundation began 44 the top ten college cheerleading squads as well as handing out Cheerleader All America awards. As the popularity of cheerleading grew, so 45 the stunts, tumbling and skill level of the cheerleaders participating. Today competitive cheerleading is one of the most popular sports in the United States and it has become a multi-million-dollar industry that shows no signs of slowing down.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/108190_401_0206_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "did",
-    "that",
-    "what",
-    "were請依下文回答第 46 題至第 50 題My wife was one of the many bright and industrious young women of the 1960s who worked their way through"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams. It originated in Britain in the 1860s when students began to cheer in unison for their favorite athletes at sports events. A decade later cheerleading crossed overseas to the United States, 41 it remains the most common. 42 women currently dominate the field, cheerleading was begun by men. In the 1920s women became involved in cheerleading, but it was not until 1940s that they joined in large numbers, since so many college-aged men went off to fight in World War II. In 1948, Lawrence Herkimer, the father of modern cheerleading, founded the National Cheerleaders Association and held the first cheerleading camp. He established the first cheer uniform company and invented the iconic cheer accessory, pom poms. 43 Herkimer, cheerleading would not be the sport that we know and love today. The history of competitive cheerleading dates back to the late 1960s, when the International Cheerleading Foundation began 44 the top ten college cheerleading squads as well as handing out Cheerleader All America awards. As the popularity of cheerleading grew, so 45 the stunts, tumbling and skill level of the cheerleaders participating. Today competitive cheerleading is one of the most popular sports in the United States and it has become a multi-million-dollar industry that shows no signs of slowing down.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/108190_401_0206_45.webp"
   },
   {
    "n": 46,

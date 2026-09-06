@@ -487,127 +487,136 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "to",
-    "by",
-    "for",
-    "from"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "An airplane maker, an airline and a biofuel company are working together to make fuel 37 tobacco plant seed oil. The companies are Boeing, South African Airways and SkyNRG. They are using a new tobacco plant 38 “Solaris.” The Dutch biofuel company SkyNRG developed the plant. It contains less of the drug nicotine than traditional tobacco. Julie Felgar works on environmental issues for Boeing. She said the plant also has many more seeds than traditional tobacco plants 39 . She said only the oil from the seeds will 40 to make biofuel now. But researchers are trying to develop ways to use the entire plant to make fuel. Ian Cruickshank is an environmental issues specialist for South African Airways Group. He said the special tobacco permits growth of a marketable biofuel crop without supporting smoking.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "knew as",
-    "knew for",
-    "known as",
-    "known for"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "An airplane maker, an airline and a biofuel company are working together to make fuel 37 tobacco plant seed oil. The companies are Boeing, South African Airways and SkyNRG. They are using a new tobacco plant 38 “Solaris.” The Dutch biofuel company SkyNRG developed the plant. It contains less of the drug nicotine than traditional tobacco. Julie Felgar works on environmental issues for Boeing. She said the plant also has many more seeds than traditional tobacco plants 39 . She said only the oil from the seeds will 40 to make biofuel now. But researchers are trying to develop ways to use the entire plant to make fuel. Ian Cruickshank is an environmental issues specialist for South African Airways Group. He said the special tobacco permits growth of a marketable biofuel crop without supporting smoking.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "do",
-    "having",
-    "take",
-    "glow"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "An airplane maker, an airline and a biofuel company are working together to make fuel 37 tobacco plant seed oil. The companies are Boeing, South African Airways and SkyNRG. They are using a new tobacco plant 38 “Solaris.” The Dutch biofuel company SkyNRG developed the plant. It contains less of the drug nicotine than traditional tobacco. Julie Felgar works on environmental issues for Boeing. She said the plant also has many more seeds than traditional tobacco plants 39 . She said only the oil from the seeds will 40 to make biofuel now. But researchers are trying to develop ways to use the entire plant to make fuel. Ian Cruickshank is an environmental issues specialist for South African Airways Group. He said the special tobacco permits growth of a marketable biofuel crop without supporting smoking.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "be using",
-    "be used",
-    "use",
-    "have used請依下文回答第 41 題至第 45 題Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "An airplane maker, an airline and a biofuel company are working together to make fuel 37 tobacco plant seed oil. The companies are Boeing, South African Airways and SkyNRG. They are using a new tobacco plant 38 “Solaris.” The Dutch biofuel company SkyNRG developed the plant. It contains less of the drug nicotine than traditional tobacco. Julie Felgar works on environmental issues for Boeing. She said the plant also has many more seeds than traditional tobacco plants 39 . She said only the oil from the seeds will 40 to make biofuel now. But researchers are trying to develop ways to use the entire plant to make fuel. Ian Cruickshank is an environmental issues specialist for South African Airways Group. He said the special tobacco permits growth of a marketable biofuel crop without supporting smoking.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "what",
-    "which",
-    "whose",
-    "that"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who actually do it. Even fewer are those who do it well. Camille Lepage, a young photographer from France who was educated in the U.K. but 41 work took her far from Europe, was among the latter. Last fall, Lepage ventured into the Central Africa Republic, where a coup staged by mainly Muslim rebels had crumpled the state and prompted largely Christian militias to retaliate with fury. She spent her time 42 the fighters and also those most affected by the turmoil, while learning all she could about its roots. William Daniels, a photographer who worked with her here, 43 that locals respected her commitment and professionalism. “She was very active, very patient, very passionate about this work,” he says. “Very brave.” On May 13 the office of French President Francois Hollande issued a statement 44 Lepage’s death, at the age of 26, which it described as murder. French peacekeeping troops had discovered her body after they stopped a car driven by antibalaka militiamen. On a recent trip to New York City, Lepage admitted to fears about the conflict she was covering but said that she did not seek out scenes of violence on purpose. 45 , she wanted, in a way typical of her, to find the humanity in that bleak situation. The pictures she made in her brief life will define how she will be remembered, but the pictures she was going to take will help form her legacy.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "photograph",
-    "photographed",
-    "to photograph",
-    "photographing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who actually do it. Even fewer are those who do it well. Camille Lepage, a young photographer from France who was educated in the U.K. but 41 work took her far from Europe, was among the latter. Last fall, Lepage ventured into the Central Africa Republic, where a coup staged by mainly Muslim rebels had crumpled the state and prompted largely Christian militias to retaliate with fury. She spent her time 42 the fighters and also those most affected by the turmoil, while learning all she could about its roots. William Daniels, a photographer who worked with her here, 43 that locals respected her commitment and professionalism. “She was very active, very patient, very passionate about this work,” he says. “Very brave.” On May 13 the office of French President Francois Hollande issued a statement 44 Lepage’s death, at the age of 26, which it described as murder. French peacekeeping troops had discovered her body after they stopped a car driven by antibalaka militiamen. On a recent trip to New York City, Lepage admitted to fears about the conflict she was covering but said that she did not seek out scenes of violence on purpose. 45 , she wanted, in a way typical of her, to find the humanity in that bleak situation. The pictures she made in her brief life will define how she will be remembered, but the pictures she was going to take will help form her legacy.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "postpones",
-    "refutes",
-    "specializes",
-    "recalls"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who actually do it. Even fewer are those who do it well. Camille Lepage, a young photographer from France who was educated in the U.K. but 41 work took her far from Europe, was among the latter. Last fall, Lepage ventured into the Central Africa Republic, where a coup staged by mainly Muslim rebels had crumpled the state and prompted largely Christian militias to retaliate with fury. She spent her time 42 the fighters and also those most affected by the turmoil, while learning all she could about its roots. William Daniels, a photographer who worked with her here, 43 that locals respected her commitment and professionalism. “She was very active, very patient, very passionate about this work,” he says. “Very brave.” On May 13 the office of French President Francois Hollande issued a statement 44 Lepage’s death, at the age of 26, which it described as murder. French peacekeeping troops had discovered her body after they stopped a car driven by antibalaka militiamen. On a recent trip to New York City, Lepage admitted to fears about the conflict she was covering but said that she did not seek out scenes of violence on purpose. 45 , she wanted, in a way typical of her, to find the humanity in that bleak situation. The pictures she made in her brief life will define how she will be remembered, but the pictures she was going to take will help form her legacy.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "approving",
-    "confirming",
-    "recovering",
-    "supporting"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who actually do it. Even fewer are those who do it well. Camille Lepage, a young photographer from France who was educated in the U.K. but 41 work took her far from Europe, was among the latter. Last fall, Lepage ventured into the Central Africa Republic, where a coup staged by mainly Muslim rebels had crumpled the state and prompted largely Christian militias to retaliate with fury. She spent her time 42 the fighters and also those most affected by the turmoil, while learning all she could about its roots. William Daniels, a photographer who worked with her here, 43 that locals respected her commitment and professionalism. “She was very active, very patient, very passionate about this work,” he says. “Very brave.” On May 13 the office of French President Francois Hollande issued a statement 44 Lepage’s death, at the age of 26, which it described as murder. French peacekeeping troops had discovered her body after they stopped a car driven by antibalaka militiamen. On a recent trip to New York City, Lepage admitted to fears about the conflict she was covering but said that she did not seek out scenes of violence on purpose. 45 , she wanted, in a way typical of her, to find the humanity in that bleak situation. The pictures she made in her brief life will define how she will be remembered, but the pictures she was going to take will help form her legacy.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Instead",
-    "As",
-    "Otherwise",
-    "Accordingly請依下文回答第 46 題至第 50 題Las Vegas is a good restaurant town. It offers respectable culinary and ethnic diversity, served dependably. Hotel"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Many are the journalists who dream about reporting on the world’s deadliest scenes of strife. Few are the ones who actually do it. Even fewer are those who do it well. Camille Lepage, a young photographer from France who was educated in the U.K. but 41 work took her far from Europe, was among the latter. Last fall, Lepage ventured into the Central Africa Republic, where a coup staged by mainly Muslim rebels had crumpled the state and prompted largely Christian militias to retaliate with fury. She spent her time 42 the fighters and also those most affected by the turmoil, while learning all she could about its roots. William Daniels, a photographer who worked with her here, 43 that locals respected her commitment and professionalism. “She was very active, very patient, very passionate about this work,” he says. “Very brave.” On May 13 the office of French President Francois Hollande issued a statement 44 Lepage’s death, at the age of 26, which it described as murder. French peacekeeping troops had discovered her body after they stopped a car driven by antibalaka militiamen. On a recent trip to New York City, Lepage admitted to fears about the conflict she was covering but said that she did not seek out scenes of violence on purpose. 45 , she wanted, in a way typical of her, to find the humanity in that bleak situation. The pictures she made in her brief life will define how she will be remembered, but the pictures she was going to take will help form her legacy.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104080_201_0111_45.webp"
   },
   {
    "n": 46,

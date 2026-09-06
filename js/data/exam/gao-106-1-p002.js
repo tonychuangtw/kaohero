@@ -487,71 +487,76 @@ window.APP_EXAM_PAPERS['gao-106-1-p002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "replied",
-    "recorded",
-    "reflected",
-    "released"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "American technology companies once led the way in developing innovative products and services. But today many big tech firms seem to have lost their innovation mojo. In 1970, IBM 37 the world’s first interchangeable family of computers, the revolutionary System/360 mainframes. It was a 38 bet on innovation that Fortune magazine at the time called “IBM’s $5 billion gamble.” In today’s money, that’s the 39 of a $40 billion wager on innovation—one that incidentally required IBM to cannibalize all its existing revenue-producing product lines. But the bet worked. The System/360 line quickly became the 40 mainframe in the market and the de facto industry standard, ensuring IBM’s supremacy in the industry for a generation to come. Back then, it was an axiom of business leadership that today’s investments in R&D lead to tomorrow’s 41 and profits. But today, this ancient wisdom is in danger of being lost.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106090_401_0211_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "bold",
-    "broad",
-    "bundle",
-    "burning"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "American technology companies once led the way in developing innovative products and services. But today many big tech firms seem to have lost their innovation mojo. In 1970, IBM 37 the world’s first interchangeable family of computers, the revolutionary System/360 mainframes. It was a 38 bet on innovation that Fortune magazine at the time called “IBM’s $5 billion gamble.” In today’s money, that’s the 39 of a $40 billion wager on innovation—one that incidentally required IBM to cannibalize all its existing revenue-producing product lines. But the bet worked. The System/360 line quickly became the 40 mainframe in the market and the de facto industry standard, ensuring IBM’s supremacy in the industry for a generation to come. Back then, it was an axiom of business leadership that today’s investments in R&D lead to tomorrow’s 41 and profits. But today, this ancient wisdom is in danger of being lost.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106090_401_0211_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "economy",
-    "exchange",
-    "equivalent",
-    "exhibition"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "American technology companies once led the way in developing innovative products and services. But today many big tech firms seem to have lost their innovation mojo. In 1970, IBM 37 the world’s first interchangeable family of computers, the revolutionary System/360 mainframes. It was a 38 bet on innovation that Fortune magazine at the time called “IBM’s $5 billion gamble.” In today’s money, that’s the 39 of a $40 billion wager on innovation—one that incidentally required IBM to cannibalize all its existing revenue-producing product lines. But the bet worked. The System/360 line quickly became the 40 mainframe in the market and the de facto industry standard, ensuring IBM’s supremacy in the industry for a generation to come. Back then, it was an axiom of business leadership that today’s investments in R&D lead to tomorrow’s 41 and profits. But today, this ancient wisdom is in danger of being lost.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106090_401_0211_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "destined",
-    "dominant",
-    "disclosed",
-    "destructive"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "American technology companies once led the way in developing innovative products and services. But today many big tech firms seem to have lost their innovation mojo. In 1970, IBM 37 the world’s first interchangeable family of computers, the revolutionary System/360 mainframes. It was a 38 bet on innovation that Fortune magazine at the time called “IBM’s $5 billion gamble.” In today’s money, that’s the 39 of a $40 billion wager on innovation—one that incidentally required IBM to cannibalize all its existing revenue-producing product lines. But the bet worked. The System/360 line quickly became the 40 mainframe in the market and the de facto industry standard, ensuring IBM’s supremacy in the industry for a generation to come. Back then, it was an axiom of business leadership that today’s investments in R&D lead to tomorrow’s 41 and profits. But today, this ancient wisdom is in danger of being lost.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/106090_401_0211_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "audiences",
-    "competition",
-    "discrimination",
-    "breakthroughs請依下文回答第 42 題至第 45 題：“From an evolutionary point of view, we typically don’t think of the nose as very important,” said Dr. Gary"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "American technology companies once led the way in developing innovative products and services. But today many big tech firms seem to have lost their innovation mojo. In 1970, IBM 37 the world’s first interchangeable family of computers, the revolutionary System/360 mainframes. It was a 38 bet on innovation that Fortune magazine at the time called “IBM’s $5 billion gamble.” In today’s money, that’s the 39 of a $40 billion wager on innovation—one that incidentally required IBM to cannibalize all its existing revenue-producing product lines. But the bet worked. The System/360 line quickly became the 40 mainframe in the market and the de facto industry standard, ensuring IBM’s supremacy in the industry for a generation to come. Back then, it was an axiom of business leadership that today’s investments in R&D lead to tomorrow’s 41 and profits. But today, this ancient wisdom is in danger of being lost.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106090_401_0211_41.webp"
   },
   {
    "n": 42,

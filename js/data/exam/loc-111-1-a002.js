@@ -540,71 +540,77 @@ window.APP_EXAM_PAPERS['loc-111-1-a002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "capitalism",
-    "masculinity",
-    "femininity",
-    "consumerism"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The relationship between high heels and power depends on the historical time and place. In fact, they were originally worn to convey 41 . The heel was introduced to Europe from Asia in the late 16th century, and was originally worn by men for horse riding because the heel 42 the foot in the stirrup when riding. 43 in the European mind with the military strength of Persia, the heel was enthusiastically adopted by men, and only later worn by 44 . Louis XIV, who ruled France between 1643 and 1715, was one of the first heel influencers. His ornate shoes were 45 any physical exertion – therefore emphasizing his powerful status.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111190_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "surrounded",
-    "seduced",
-    "secured",
-    "seasoned"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The relationship between high heels and power depends on the historical time and place. In fact, they were originally worn to convey 41 . The heel was introduced to Europe from Asia in the late 16th century, and was originally worn by men for horse riding because the heel 42 the foot in the stirrup when riding. 43 in the European mind with the military strength of Persia, the heel was enthusiastically adopted by men, and only later worn by 44 . Louis XIV, who ruled France between 1643 and 1715, was one of the first heel influencers. His ornate shoes were 45 any physical exertion – therefore emphasizing his powerful status.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111190_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Decorated",
-    "Organized",
-    "Associated",
-    "Consumed"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The relationship between high heels and power depends on the historical time and place. In fact, they were originally worn to convey 41 . The heel was introduced to Europe from Asia in the late 16th century, and was originally worn by men for horse riding because the heel 42 the foot in the stirrup when riding. 43 in the European mind with the military strength of Persia, the heel was enthusiastically adopted by men, and only later worn by 44 . Louis XIV, who ruled France between 1643 and 1715, was one of the first heel influencers. His ornate shoes were 45 any physical exertion – therefore emphasizing his powerful status.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111190_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. men and boys ＿＿＿ B. horses and riders ＿＿＿ C. women and children D. Europeans and Asians",
    "o": [
-    "men and boys",
-    "horses and riders",
-    "women and children",
-    "Europeans and Asians"
+    "",
+    "",
+    "",
+    ""
    ],
    "psg": "The relationship between high heels and power depends on the historical time and place. In fact, they were originally worn to convey 41 . The heel was introduced to Europe from Asia in the late 16th century, and was originally worn by men for horse riding because the heel 42 the foot in the stirrup when riding. 43 in the European mind with the military strength of Persia, the heel was enthusiastically adopted by men, and only later worn by 44 . Louis XIV, who ruled France between 1643 and 1715, was one of the first heel influencers. His ornate shoes were 45 any physical exertion – therefore emphasizing his powerful status.",
+   "needfig": true,
+   "fig": "img/q/111190_301_0205_44.webp",
    "a": 2
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "unsuitable for",
-    "uncontrollable for",
-    "supportive of",
-    "disposed of請依下文回答第 46 題至第 50 題：When you’re feeling low, it’s easy to convince yourself to stay there. After all, how can you fall when you’re already"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The relationship between high heels and power depends on the historical time and place. In fact, they were originally worn to convey 41 . The heel was introduced to Europe from Asia in the late 16th century, and was originally worn by men for horse riding because the heel 42 the foot in the stirrup when riding. 43 in the European mind with the military strength of Persia, the heel was enthusiastically adopted by men, and only later worn by 44 . Louis XIV, who ruled France between 1643 and 1715, was one of the first heel influencers. His ornate shoes were 45 any physical exertion – therefore emphasizing his powerful status.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_301_0205_45.webp"
   },
   {
    "n": 46,

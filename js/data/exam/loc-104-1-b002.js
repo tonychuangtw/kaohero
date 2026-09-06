@@ -500,43 +500,46 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "heating",
-    "making",
-    "running",
-    "nursing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.to pursue her dream ＿＿＿ B.to push herself awayC.to run as fast as she could ＿＿＿ D.to be the number one",
    "o": [
-    "to pursue her dream",
-    "to push herself away",
-    "to run as fast as she could",
-    "to be the number one"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks.",
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_39.webp",
    "a": 0
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "a hunch",
-    "a way",
-    "a prize",
-    "a need"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_40.webp"
   },
   {
    "n": 41,
@@ -568,42 +571,45 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "part-time",
-    "work-time",
-    "spare-time",
-    "extra-time"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Harris Poll showed that reading was the most popular 43 activity in the United States. This was followed by watching TV, then 44 time with family. In a similar survey 45 in Japan, the most popular free-time activity was eating out. The second most popular activity was driving.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "doing",
-    "making",
-    "spending",
-    "taking"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Harris Poll showed that reading was the most popular 43 activity in the United States. This was followed by watching TV, then 44 time with family. In a similar survey 45 in Japan, the most popular free-time activity was eating out. The second most popular activity was driving.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.wasted ＿＿＿ B.abandoned ＿＿＿ C.consumed ＿＿＿ D.conducted第 46 題至第 50 題為題組Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now",
    "o": [
-    "wasted",
-    "abandoned",
-    "consumed",
-    "conducted第 46 題至第 50 題為題組Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said.",
+   "needfig": true,
+   "fig": "img/q/104180_401_0207_45.webp",
    "a": 3
   },
   {

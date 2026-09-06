@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-114-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "sensing",
-    "slowing",
-    "speeding",
-    "stopping"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "A new study published in July 2024 reveals that climate change is causing Earth’s days to lengthen at an unprecedented rate. While Earth’s days have naturally been increasing by a few milliseconds per century due to lunar gravity, the melting of polar ice sheets is 41 this process significantly. 42 Arctic and Antarctic ice melts, the restructuring of mass from poles to equator is further flattening Earth’s shape. Since 2000, the day length has increased 43 about 1.33 milliseconds per century, up from 0.3-1.0 milliseconds in the 20th century. If greenhouse gas emissions continue unchecked, this rate could 44 2.62 milliseconds per century by 2100. Although people are generally 45 , these changes have important meanings for global timekeeping systems. The changes may require adjustments to Coordinated Universal Time (UTC), potentially affecting satellite navigation, telecommunications, trade, and space travel operations.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Although",
-    "As",
-    "Whether",
-    "Where"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "A new study published in July 2024 reveals that climate change is causing Earth’s days to lengthen at an unprecedented rate. While Earth’s days have naturally been increasing by a few milliseconds per century due to lunar gravity, the melting of polar ice sheets is 41 this process significantly. 42 Arctic and Antarctic ice melts, the restructuring of mass from poles to equator is further flattening Earth’s shape. Since 2000, the day length has increased 43 about 1.33 milliseconds per century, up from 0.3-1.0 milliseconds in the 20th century. If greenhouse gas emissions continue unchecked, this rate could 44 2.62 milliseconds per century by 2100. Although people are generally 45 , these changes have important meanings for global timekeeping systems. The changes may require adjustments to Coordinated Universal Time (UTC), potentially affecting satellite navigation, telecommunications, trade, and space travel operations.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_401_0206_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "by",
-    "in",
-    "at",
-    "of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "A new study published in July 2024 reveals that climate change is causing Earth’s days to lengthen at an unprecedented rate. While Earth’s days have naturally been increasing by a few milliseconds per century due to lunar gravity, the melting of polar ice sheets is 41 this process significantly. 42 Arctic and Antarctic ice melts, the restructuring of mass from poles to equator is further flattening Earth’s shape. Since 2000, the day length has increased 43 about 1.33 milliseconds per century, up from 0.3-1.0 milliseconds in the 20th century. If greenhouse gas emissions continue unchecked, this rate could 44 2.62 milliseconds per century by 2100. Although people are generally 45 , these changes have important meanings for global timekeeping systems. The changes may require adjustments to Coordinated Universal Time (UTC), potentially affecting satellite navigation, telecommunications, trade, and space travel operations.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114190_401_0206_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "destroy",
-    "reduce",
-    "reach",
-    "define"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "A new study published in July 2024 reveals that climate change is causing Earth’s days to lengthen at an unprecedented rate. While Earth’s days have naturally been increasing by a few milliseconds per century due to lunar gravity, the melting of polar ice sheets is 41 this process significantly. 42 Arctic and Antarctic ice melts, the restructuring of mass from poles to equator is further flattening Earth’s shape. Since 2000, the day length has increased 43 about 1.33 milliseconds per century, up from 0.3-1.0 milliseconds in the 20th century. If greenhouse gas emissions continue unchecked, this rate could 44 2.62 milliseconds per century by 2100. Although people are generally 45 , these changes have important meanings for global timekeeping systems. The changes may require adjustments to Coordinated Universal Time (UTC), potentially affecting satellite navigation, telecommunications, trade, and space travel operations.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_401_0206_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "satisfied",
-    "unaware",
-    "surprised",
-    "impressive請依下文回答第 46 題至第 50 題：Teenagers are often criticized for staying up late and sleeping in, but science shows there’s a biological reason"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "A new study published in July 2024 reveals that climate change is causing Earth’s days to lengthen at an unprecedented rate. While Earth’s days have naturally been increasing by a few milliseconds per century due to lunar gravity, the melting of polar ice sheets is 41 this process significantly. 42 Arctic and Antarctic ice melts, the restructuring of mass from poles to equator is further flattening Earth’s shape. Since 2000, the day length has increased 43 about 1.33 milliseconds per century, up from 0.3-1.0 milliseconds in the 20th century. If greenhouse gas emissions continue unchecked, this rate could 44 2.62 milliseconds per century by 2100. Although people are generally 45 , these changes have important meanings for global timekeeping systems. The changes may require adjustments to Coordinated Universal Time (UTC), potentially affecting satellite navigation, telecommunications, trade, and space travel operations.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_401_0206_45.webp"
   },
   {
    "n": 46,

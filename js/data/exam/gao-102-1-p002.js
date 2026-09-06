@@ -487,57 +487,61 @@ window.APP_EXAM_PAPERS['gao-102-1-p002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "organic",
-    "optimistic",
-    "symbolic",
-    "traumatic"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Robert Frost (1874-1963) is one of the most well-known 20th century American poets. People like to talk about his nature poems, which seem to show a spontaneous love of nature and simple little pleasures in life. But little do most people know about the 37 side of the great poet’s life. Robert Frost lost his first son and second daughter when they were little. And in his sixties, two years after his beloved wife’s death, his son, long 38 from depression and suspiciousness, committed suicide with a deer hunting rifle. In his last years, 39 still keeping a terribly busy and active public life, he was tortured by pneumonia, cancer, and embolism. Having learned about the 40 of the poet, we can finally fully appreciate the death wish shown in one of his famous poems of his last years, “Stopping by Woods on a Snowy Evening.”",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/102090_401_0110_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "refraining",
-    "issuing",
-    "suffering",
-    "coming"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Robert Frost (1874-1963) is one of the most well-known 20th century American poets. People like to talk about his nature poems, which seem to show a spontaneous love of nature and simple little pleasures in life. But little do most people know about the 37 side of the great poet’s life. Robert Frost lost his first son and second daughter when they were little. And in his sixties, two years after his beloved wife’s death, his son, long 38 from depression and suspiciousness, committed suicide with a deer hunting rifle. In his last years, 39 still keeping a terribly busy and active public life, he was tortured by pneumonia, cancer, and embolism. Having learned about the 40 of the poet, we can finally fully appreciate the death wish shown in one of his famous poems of his last years, “Stopping by Woods on a Snowy Evening.”",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/102090_401_0110_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "as",
-    "while",
-    "yet",
-    "because of"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Robert Frost (1874-1963) is one of the most well-known 20th century American poets. People like to talk about his nature poems, which seem to show a spontaneous love of nature and simple little pleasures in life. But little do most people know about the 37 side of the great poet’s life. Robert Frost lost his first son and second daughter when they were little. And in his sixties, two years after his beloved wife’s death, his son, long 38 from depression and suspiciousness, committed suicide with a deer hunting rifle. In his last years, 39 still keeping a terribly busy and active public life, he was tortured by pneumonia, cancer, and embolism. Having learned about the 40 of the poet, we can finally fully appreciate the death wish shown in one of his famous poems of his last years, “Stopping by Woods on a Snowy Evening.”",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/102090_401_0110_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "myths",
-    "morals",
-    "misfortunes",
-    "mistakes請依下文回答第 41 題至第 45 題：Many people feel jealous from time to time. Jealousy is easy to deal with, once you understand what it’s teaching"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Robert Frost (1874-1963) is one of the most well-known 20th century American poets. People like to talk about his nature poems, which seem to show a spontaneous love of nature and simple little pleasures in life. But little do most people know about the 37 side of the great poet’s life. Robert Frost lost his first son and second daughter when they were little. And in his sixties, two years after his beloved wife’s death, his son, long 38 from depression and suspiciousness, committed suicide with a deer hunting rifle. In his last years, 39 still keeping a terribly busy and active public life, he was tortured by pneumonia, cancer, and embolism. Having learned about the 40 of the poet, we can finally fully appreciate the death wish shown in one of his famous poems of his last years, “Stopping by Woods on a Snowy Evening.”",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/102090_401_0110_40.webp"
   },
   {
    "n": 41,

@@ -477,141 +477,151 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Unlike",
-    "Except",
-    "Despite",
-    "Through"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "permanently",
-    "regularly",
-    "effectively",
-    "originally"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "since",
-    "though",
-    "once",
-    "wherever"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "celebration",
-    "recognition",
-    "observation",
-    "prescription"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "looked after",
-    "passed over",
-    "broken down",
-    "carried out請依下文回答第 41 題至第 45 題：Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "deceitful",
-    "alarming",
-    "prosperous",
-    "thoughtful"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study shows that 99% of immature green turtles born in the northern part of Australia’s Great Barrier Reef are female. Among adult turtles, 87% are female. The result is 41 —rising temperatures have turned sea turtle population female. The sex of a sea turtle is 42 by the temperature of the nesting environment. Warm temperatures produce more female hatchlings, and cooler temperatures produce more males. During the past two decades, temperatures in northern Great Barrier Reef have increased to the point that virtually no male turtles are produced, 43 raises new concerns over the immediate threats of climate change to the population’s future. Sea turtles, protected under the Endangered Species Act, are among the most ancient species roaming the oceans and have adjusted to shifting climates. Increasing numbers of females may 44 be a good thing for its population. The reproductive potential can be boosted. The problem, however, is that the modern climate appears to be changing faster than turtles can adjust to it. Species evolve 45 climate and other environmental changes, but they need time for that. According to researchers of World Wildlife Fund Australia, setting up shade cloth to cool beaches might help, but the only sustainable solution is to stop climate change.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "maintained",
-    "classified",
-    "determined",
-    "straightened"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study shows that 99% of immature green turtles born in the northern part of Australia’s Great Barrier Reef are female. Among adult turtles, 87% are female. The result is 41 —rising temperatures have turned sea turtle population female. The sex of a sea turtle is 42 by the temperature of the nesting environment. Warm temperatures produce more female hatchlings, and cooler temperatures produce more males. During the past two decades, temperatures in northern Great Barrier Reef have increased to the point that virtually no male turtles are produced, 43 raises new concerns over the immediate threats of climate change to the population’s future. Sea turtles, protected under the Endangered Species Act, are among the most ancient species roaming the oceans and have adjusted to shifting climates. Increasing numbers of females may 44 be a good thing for its population. The reproductive potential can be boosted. The problem, however, is that the modern climate appears to be changing faster than turtles can adjust to it. Species evolve 45 climate and other environmental changes, but they need time for that. According to researchers of World Wildlife Fund Australia, setting up shade cloth to cool beaches might help, but the only sustainable solution is to stop climate change.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "while",
-    "whatever",
-    "which",
-    "whether"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study shows that 99% of immature green turtles born in the northern part of Australia’s Great Barrier Reef are female. Among adult turtles, 87% are female. The result is 41 —rising temperatures have turned sea turtle population female. The sex of a sea turtle is 42 by the temperature of the nesting environment. Warm temperatures produce more female hatchlings, and cooler temperatures produce more males. During the past two decades, temperatures in northern Great Barrier Reef have increased to the point that virtually no male turtles are produced, 43 raises new concerns over the immediate threats of climate change to the population’s future. Sea turtles, protected under the Endangered Species Act, are among the most ancient species roaming the oceans and have adjusted to shifting climates. Increasing numbers of females may 44 be a good thing for its population. The reproductive potential can be boosted. The problem, however, is that the modern climate appears to be changing faster than turtles can adjust to it. Species evolve 45 climate and other environmental changes, but they need time for that. According to researchers of World Wildlife Fund Australia, setting up shade cloth to cool beaches might help, but the only sustainable solution is to stop climate change.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "once again",
-    "little by little",
-    "worst of all",
-    "at first"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study shows that 99% of immature green turtles born in the northern part of Australia’s Great Barrier Reef are female. Among adult turtles, 87% are female. The result is 41 —rising temperatures have turned sea turtle population female. The sex of a sea turtle is 42 by the temperature of the nesting environment. Warm temperatures produce more female hatchlings, and cooler temperatures produce more males. During the past two decades, temperatures in northern Great Barrier Reef have increased to the point that virtually no male turtles are produced, 43 raises new concerns over the immediate threats of climate change to the population’s future. Sea turtles, protected under the Endangered Species Act, are among the most ancient species roaming the oceans and have adjusted to shifting climates. Increasing numbers of females may 44 be a good thing for its population. The reproductive potential can be boosted. The problem, however, is that the modern climate appears to be changing faster than turtles can adjust to it. Species evolve 45 climate and other environmental changes, but they need time for that. According to researchers of World Wildlife Fund Australia, setting up shade cloth to cool beaches might help, but the only sustainable solution is to stop climate change.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "at the risk of",
-    "in response to",
-    "in place of",
-    "on the verge of請依下文回答第 46 題至第 50 題：In a recent interview, the venerable Mr. Xu lamented how the Korean Drama obsession is hurting China’s"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Climate change is having a significant effect on one of the biggest green turtle populations in the world. A study shows that 99% of immature green turtles born in the northern part of Australia’s Great Barrier Reef are female. Among adult turtles, 87% are female. The result is 41 —rising temperatures have turned sea turtle population female. The sex of a sea turtle is 42 by the temperature of the nesting environment. Warm temperatures produce more female hatchlings, and cooler temperatures produce more males. During the past two decades, temperatures in northern Great Barrier Reef have increased to the point that virtually no male turtles are produced, 43 raises new concerns over the immediate threats of climate change to the population’s future. Sea turtles, protected under the Endangered Species Act, are among the most ancient species roaming the oceans and have adjusted to shifting climates. Increasing numbers of females may 44 be a good thing for its population. The reproductive potential can be boosted. The problem, however, is that the modern climate appears to be changing faster than turtles can adjust to it. Species evolve 45 climate and other environmental changes, but they need time for that. According to researchers of World Wildlife Fund Australia, setting up shade cloth to cool beaches might help, but the only sustainable solution is to stop climate change.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/107090_401_0211_45.webp"
   },
   {
    "n": 46,

@@ -474,71 +474,76 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "despite",
-    "after",
-    "with",
-    "above"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "March 16, 1802, the United States Military Academy opened. It was located at West Point, New York, 50 miles north of Manhattan. West Point became an important American school in the years before the Civil War, establishing 37 as the country’s finest school of engineering and science. Its graduates held 38 roles in American life. They 39 began to serve as junior officers, many later rising to command armies on both sides of the Civil War. 40 the later years of the 19th century, West Point focused on military courses. When the United States entered World War I, its graduates had charge of almost every major field command. 請依上文回答第 36 題至第 40 題",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/102190_502_0207_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "one",
-    "them",
-    "itself",
-    "theirs"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "March 16, 1802, the United States Military Academy opened. It was located at West Point, New York, 50 miles north of Manhattan. West Point became an important American school in the years before the Civil War, establishing 37 as the country’s finest school of engineering and science. Its graduates held 38 roles in American life. They 39 began to serve as junior officers, many later rising to command armies on both sides of the Civil War. 40 the later years of the 19th century, West Point focused on military courses. When the United States entered World War I, its graduates had charge of almost every major field command. 請依上文回答第 36 題至第 40 題",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/102190_502_0207_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "small",
-    "doubtful",
-    "empty",
-    "key"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "March 16, 1802, the United States Military Academy opened. It was located at West Point, New York, 50 miles north of Manhattan. West Point became an important American school in the years before the Civil War, establishing 37 as the country’s finest school of engineering and science. Its graduates held 38 roles in American life. They 39 began to serve as junior officers, many later rising to command armies on both sides of the Civil War. 40 the later years of the 19th century, West Point focused on military courses. When the United States entered World War I, its graduates had charge of almost every major field command. 請依上文回答第 36 題至第 40 題",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/102190_502_0207_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "also",
-    "never",
-    "barely",
-    "seldom"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "March 16, 1802, the United States Military Academy opened. It was located at West Point, New York, 50 miles north of Manhattan. West Point became an important American school in the years before the Civil War, establishing 37 as the country’s finest school of engineering and science. Its graduates held 38 roles in American life. They 39 began to serve as junior officers, many later rising to command armies on both sides of the Civil War. 40 the later years of the 19th century, West Point focused on military courses. When the United States entered World War I, its graduates had charge of almost every major field command. 請依上文回答第 36 題至第 40 題",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/102190_502_0207_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Although",
-    "Whether",
-    "During",
-    "When"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "March 16, 1802, the United States Military Academy opened. It was located at West Point, New York, 50 miles north of Manhattan. West Point became an important American school in the years before the Civil War, establishing 37 as the country’s finest school of engineering and science. Its graduates held 38 roles in American life. They 39 began to serve as junior officers, many later rising to command armies on both sides of the Civil War. 40 the later years of the 19th century, West Point focused on military courses. When the United States entered World War I, its graduates had charge of almost every major field command. 請依上文回答第 36 題至第 40 題",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/102190_502_0207_40.webp"
   },
   {
    "n": 41,

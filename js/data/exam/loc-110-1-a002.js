@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-110-1-a002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "promotion",
-    "suspension",
-    "sustenance",
-    "persistence"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Since March 2020, routine childhood immunization services have been disrupted on a global scale that may be unprecedented since the inception of expanded programs on immunization in the 1970s. Fifty-three percent of the 129 countries where data were available reported moderate-to-severe disruptions, or a total 41 of vaccination services during March-April 2020. “Immunization is one of the most powerful and fundamental disease prevention tools in the history of public health,” said Dr. Tedros Adhanom Ghebreyesus, WHO Director-General. “Disruption to immunization programmes from the COVID-19 pandemic 42 to unwind decades of progress against vaccine-preventable diseases like measles.” “At the 4 June Global Vaccine Summit in London, donors will 43 their support to the Vaccine Alliance to sustain and accelerate this lifesaving work in some of the most vulnerable countries. From the bottom of my heart, I urge donors to fully fund the Alliance.” The reasons for disrupted services 44 . Some parents are reluctant to leave home because of restrictions on movement, lack of information or because they fear 45 with the COVID-19 virus. And many health workers are unavailable because of restrictions on travel, or redeployment to COVID response duties, as well as a lack of protective equipment.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/110190_301_0107_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "promises",
-    "refers",
-    "threatens",
-    "rejects"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Since March 2020, routine childhood immunization services have been disrupted on a global scale that may be unprecedented since the inception of expanded programs on immunization in the 1970s. Fifty-three percent of the 129 countries where data were available reported moderate-to-severe disruptions, or a total 41 of vaccination services during March-April 2020. “Immunization is one of the most powerful and fundamental disease prevention tools in the history of public health,” said Dr. Tedros Adhanom Ghebreyesus, WHO Director-General. “Disruption to immunization programmes from the COVID-19 pandemic 42 to unwind decades of progress against vaccine-preventable diseases like measles.” “At the 4 June Global Vaccine Summit in London, donors will 43 their support to the Vaccine Alliance to sustain and accelerate this lifesaving work in some of the most vulnerable countries. From the bottom of my heart, I urge donors to fully fund the Alliance.” The reasons for disrupted services 44 . Some parents are reluctant to leave home because of restrictions on movement, lack of information or because they fear 45 with the COVID-19 virus. And many health workers are unavailable because of restrictions on travel, or redeployment to COVID response duties, as well as a lack of protective equipment.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/110190_301_0107_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "denounce",
-    "pledge",
-    "apply",
-    "allow"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Since March 2020, routine childhood immunization services have been disrupted on a global scale that may be unprecedented since the inception of expanded programs on immunization in the 1970s. Fifty-three percent of the 129 countries where data were available reported moderate-to-severe disruptions, or a total 41 of vaccination services during March-April 2020. “Immunization is one of the most powerful and fundamental disease prevention tools in the history of public health,” said Dr. Tedros Adhanom Ghebreyesus, WHO Director-General. “Disruption to immunization programmes from the COVID-19 pandemic 42 to unwind decades of progress against vaccine-preventable diseases like measles.” “At the 4 June Global Vaccine Summit in London, donors will 43 their support to the Vaccine Alliance to sustain and accelerate this lifesaving work in some of the most vulnerable countries. From the bottom of my heart, I urge donors to fully fund the Alliance.” The reasons for disrupted services 44 . Some parents are reluctant to leave home because of restrictions on movement, lack of information or because they fear 45 with the COVID-19 virus. And many health workers are unavailable because of restrictions on travel, or redeployment to COVID response duties, as well as a lack of protective equipment.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/110190_301_0107_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "vary",
-    "defer",
-    "deter",
-    "verify"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Since March 2020, routine childhood immunization services have been disrupted on a global scale that may be unprecedented since the inception of expanded programs on immunization in the 1970s. Fifty-three percent of the 129 countries where data were available reported moderate-to-severe disruptions, or a total 41 of vaccination services during March-April 2020. “Immunization is one of the most powerful and fundamental disease prevention tools in the history of public health,” said Dr. Tedros Adhanom Ghebreyesus, WHO Director-General. “Disruption to immunization programmes from the COVID-19 pandemic 42 to unwind decades of progress against vaccine-preventable diseases like measles.” “At the 4 June Global Vaccine Summit in London, donors will 43 their support to the Vaccine Alliance to sustain and accelerate this lifesaving work in some of the most vulnerable countries. From the bottom of my heart, I urge donors to fully fund the Alliance.” The reasons for disrupted services 44 . Some parents are reluctant to leave home because of restrictions on movement, lack of information or because they fear 45 with the COVID-19 virus. And many health workers are unavailable because of restrictions on travel, or redeployment to COVID response duties, as well as a lack of protective equipment.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110190_301_0107_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "obsession",
-    "acquaintance",
-    "insurance",
-    "infection請依下文回答第 46 題至第 50 題：Turns out that “coupling” doesn’t just mean “pairing” in the traditional sense, but is also a catchphrase when it"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Since March 2020, routine childhood immunization services have been disrupted on a global scale that may be unprecedented since the inception of expanded programs on immunization in the 1970s. Fifty-three percent of the 129 countries where data were available reported moderate-to-severe disruptions, or a total 41 of vaccination services during March-April 2020. “Immunization is one of the most powerful and fundamental disease prevention tools in the history of public health,” said Dr. Tedros Adhanom Ghebreyesus, WHO Director-General. “Disruption to immunization programmes from the COVID-19 pandemic 42 to unwind decades of progress against vaccine-preventable diseases like measles.” “At the 4 June Global Vaccine Summit in London, donors will 43 their support to the Vaccine Alliance to sustain and accelerate this lifesaving work in some of the most vulnerable countries. From the bottom of my heart, I urge donors to fully fund the Alliance.” The reasons for disrupted services 44 . Some parents are reluctant to leave home because of restrictions on movement, lack of information or because they fear 45 with the COVID-19 virus. And many health workers are unavailable because of restrictions on travel, or redeployment to COVID response duties, as well as a lack of protective equipment.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/110190_301_0107_45.webp"
   },
   {
    "n": 46,

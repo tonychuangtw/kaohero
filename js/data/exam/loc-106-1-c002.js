@@ -539,70 +539,75 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Brain",
-    "Nature",
-    "Rapid",
-    "Social"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106190_501_0207_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "belief",
-    "interest",
-    "awareness",
-    "motivation"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106190_501_0207_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "draw",
-    "allow",
-    "admit",
-    "decide"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106190_501_0207_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "cold",
-    "secret",
-    "global",
-    "public"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106190_501_0207_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.planted ＿＿＿ B.polluted ＿＿＿ C.published ＿＿＿ D.protected第 46 題至第 50 題為題組If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what",
    "o": [
-    "planted",
-    "polluted",
-    "published",
-    "protected第 46 題至第 50 題為題組If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty.",
+   "needfig": true,
+   "fig": "img/q/106190_501_0207_45.webp",
    "a": 2
   },
   {

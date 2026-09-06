@@ -474,141 +474,151 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "forsakes",
-    "chooses",
-    "changes",
-    "reports"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It would be quite naive to expect a life without conflict, naive and boring. After all, as we struggle to find solutions, conflict leads to new ways of thinking. Nothing ever 36 in a world without conflicts. We see this in our lives; we see this in science. In fact, in science crises are essential: without them there is no 37 . A life lived in harmony 38 a life without conflict. It must be a life where conflict leads to growth. Harmony is not the absence of conflict. It is the state in which conflict leads to positive change. Harmony is dynamic, not static. Innovation and growth challenge the status quo, shaking the very foundations where most base their values. Change only comes when we are ready to embrace it; change needs 39 . It is much easier to plant our feet in the traditional, the convenient, in what does not force us to reexamine our views. No one likes to be wrong. This is why great innovation comes with 40 , often bloody. The blood that is spilled is not always the one coursing through our veins: it is the blood of conviction, of prejudices, of deep-seated ideas that are abandoned by the inexorable force of reason.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "innovation",
-    "place",
-    "time",
-    "relationship"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It would be quite naive to expect a life without conflict, naive and boring. After all, as we struggle to find solutions, conflict leads to new ways of thinking. Nothing ever 36 in a world without conflicts. We see this in our lives; we see this in science. In fact, in science crises are essential: without them there is no 37 . A life lived in harmony 38 a life without conflict. It must be a life where conflict leads to growth. Harmony is not the absence of conflict. It is the state in which conflict leads to positive change. Harmony is dynamic, not static. Innovation and growth challenge the status quo, shaking the very foundations where most base their values. Change only comes when we are ready to embrace it; change needs 39 . It is much easier to plant our feet in the traditional, the convenient, in what does not force us to reexamine our views. No one likes to be wrong. This is why great innovation comes with 40 , often bloody. The blood that is spilled is not always the one coursing through our veins: it is the blood of conviction, of prejudices, of deep-seated ideas that are abandoned by the inexorable force of reason.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "can't be",
-    "isn't that",
-    "is what",
-    "must do"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It would be quite naive to expect a life without conflict, naive and boring. After all, as we struggle to find solutions, conflict leads to new ways of thinking. Nothing ever 36 in a world without conflicts. We see this in our lives; we see this in science. In fact, in science crises are essential: without them there is no 37 . A life lived in harmony 38 a life without conflict. It must be a life where conflict leads to growth. Harmony is not the absence of conflict. It is the state in which conflict leads to positive change. Harmony is dynamic, not static. Innovation and growth challenge the status quo, shaking the very foundations where most base their values. Change only comes when we are ready to embrace it; change needs 39 . It is much easier to plant our feet in the traditional, the convenient, in what does not force us to reexamine our views. No one likes to be wrong. This is why great innovation comes with 40 , often bloody. The blood that is spilled is not always the one coursing through our veins: it is the blood of conviction, of prejudices, of deep-seated ideas that are abandoned by the inexorable force of reason.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "rhetorical questions",
-    "open minds",
-    "no evaluation",
-    "weak links"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It would be quite naive to expect a life without conflict, naive and boring. After all, as we struggle to find solutions, conflict leads to new ways of thinking. Nothing ever 36 in a world without conflicts. We see this in our lives; we see this in science. In fact, in science crises are essential: without them there is no 37 . A life lived in harmony 38 a life without conflict. It must be a life where conflict leads to growth. Harmony is not the absence of conflict. It is the state in which conflict leads to positive change. Harmony is dynamic, not static. Innovation and growth challenge the status quo, shaking the very foundations where most base their values. Change only comes when we are ready to embrace it; change needs 39 . It is much easier to plant our feet in the traditional, the convenient, in what does not force us to reexamine our views. No one likes to be wrong. This is why great innovation comes with 40 , often bloody. The blood that is spilled is not always the one coursing through our veins: it is the blood of conviction, of prejudices, of deep-seated ideas that are abandoned by the inexorable force of reason.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "revolution",
-    "information",
-    "tradition",
-    "conjunction請依下文回答第 41 題至第 45 題"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "It would be quite naive to expect a life without conflict, naive and boring. After all, as we struggle to find solutions, conflict leads to new ways of thinking. Nothing ever 36 in a world without conflicts. We see this in our lives; we see this in science. In fact, in science crises are essential: without them there is no 37 . A life lived in harmony 38 a life without conflict. It must be a life where conflict leads to growth. Harmony is not the absence of conflict. It is the state in which conflict leads to positive change. Harmony is dynamic, not static. Innovation and growth challenge the status quo, shaking the very foundations where most base their values. Change only comes when we are ready to embrace it; change needs 39 . It is much easier to plant our feet in the traditional, the convenient, in what does not force us to reexamine our views. No one likes to be wrong. This is why great innovation comes with 40 , often bloody. The blood that is spilled is not always the one coursing through our veins: it is the blood of conviction, of prejudices, of deep-seated ideas that are abandoned by the inexorable force of reason.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "beget",
-    "begot",
-    "become",
-    "became"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "E-waste is being produced on a scale never seen before. Computers and other electronic devices 41 obsolete in just a few years, leaving consumers with few alternatives but to catch up by buying newer models. Tens of millions of tons of computers, TVs, VCRs, monitors, cell phones, and other gadgets 42 each year. Unfortunately, in most parts of the world, the bulk of all this e-waste 43 landfills, where it poisons the environment. This is because it contains a variety of toxic 44 such as lead, mercury, and arsenic that leak into the ground. In theory, recycling seems to be a good 45 . However, the problem is that a large percentage of e-waste dropped off for recycling in rich countries is sold to the developing world, where its toxin may threaten the health of people living there.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "is discarded",
-    "are discarded",
-    "is disputed",
-    "are disputed"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "E-waste is being produced on a scale never seen before. Computers and other electronic devices 41 obsolete in just a few years, leaving consumers with few alternatives but to catch up by buying newer models. Tens of millions of tons of computers, TVs, VCRs, monitors, cell phones, and other gadgets 42 each year. Unfortunately, in most parts of the world, the bulk of all this e-waste 43 landfills, where it poisons the environment. This is because it contains a variety of toxic 44 such as lead, mercury, and arsenic that leak into the ground. In theory, recycling seems to be a good 45 . However, the problem is that a large percentage of e-waste dropped off for recycling in rich countries is sold to the developing world, where its toxin may threaten the health of people living there.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "end at",
-    "ends up",
-    "end up to",
-    "ends up in"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "E-waste is being produced on a scale never seen before. Computers and other electronic devices 41 obsolete in just a few years, leaving consumers with few alternatives but to catch up by buying newer models. Tens of millions of tons of computers, TVs, VCRs, monitors, cell phones, and other gadgets 42 each year. Unfortunately, in most parts of the world, the bulk of all this e-waste 43 landfills, where it poisons the environment. This is because it contains a variety of toxic 44 such as lead, mercury, and arsenic that leak into the ground. In theory, recycling seems to be a good 45 . However, the problem is that a large percentage of e-waste dropped off for recycling in rich countries is sold to the developing world, where its toxin may threaten the health of people living there.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "subtitles",
-    "subsidies",
-    "substances",
-    "subordinates"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "E-waste is being produced on a scale never seen before. Computers and other electronic devices 41 obsolete in just a few years, leaving consumers with few alternatives but to catch up by buying newer models. Tens of millions of tons of computers, TVs, VCRs, monitors, cell phones, and other gadgets 42 each year. Unfortunately, in most parts of the world, the bulk of all this e-waste 43 landfills, where it poisons the environment. This is because it contains a variety of toxic 44 such as lead, mercury, and arsenic that leak into the ground. In theory, recycling seems to be a good 45 . However, the problem is that a large percentage of e-waste dropped off for recycling in rich countries is sold to the developing world, where its toxin may threaten the health of people living there.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "solution",
-    "pollution",
-    "salutation",
-    "population請依下文回答第 46 題至第 50 題"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "E-waste is being produced on a scale never seen before. Computers and other electronic devices 41 obsolete in just a few years, leaving consumers with few alternatives but to catch up by buying newer models. Tens of millions of tons of computers, TVs, VCRs, monitors, cell phones, and other gadgets 42 each year. Unfortunately, in most parts of the world, the bulk of all this e-waste 43 landfills, where it poisons the environment. This is because it contains a variety of toxic 44 such as lead, mercury, and arsenic that leak into the ground. In theory, recycling seems to be a good 45 . However, the problem is that a large percentage of e-waste dropped off for recycling in rich countries is sold to the developing world, where its toxin may threaten the health of people living there.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_201_0215_45.webp"
   },
   {
    "n": 46,

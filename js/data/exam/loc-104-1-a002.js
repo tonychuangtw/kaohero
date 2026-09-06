@@ -487,70 +487,75 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "sedentary",
-    "seductive",
-    "accessible",
-    "adaptable"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104180_301_0206_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "with",
-    "without",
-    "where",
-    "why"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104180_301_0206_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "supreme",
-    "heightened",
-    "escalating",
-    "magnifying"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104180_301_0206_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "dollars",
-    "products",
-    "subscribers",
-    "cashes"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_301_0206_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. transitions ＿＿＿ B. transactions ＿＿＿ C. translations ＿＿＿ D. transformations第 42 題至第 46 題為題組In earlier time periods, the absence of dramatic transition to adult life allowed a more intensive interaction among",
    "o": [
-    "transitions",
-    "transactions",
-    "translations",
-    "transformations第 42 題至第 46 題為題組In earlier time periods, the absence of dramatic transition to adult life allowed a more intensive interaction among"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "different age groups within the family and the community, thus providing a greater sense of continuity and interdependence among people at various stages of life. But, as greater differentiation in stages of life began to develop, social and economic functions became more closely related to age, and the ages of family members became more streamlined, a greater segregation between age groups emerged. The major changes that have led to the isolation of older people in society today were rooted not so much in changes in family structure or residential arrangements, as has generally been argued, as in the transformation and redefinition of family functions and values. Under the impact of industrialization, the family surrendered many of the functions previously concentrated within the household to other social institutions. The retreat and growing privatism of the modern middle-class family led to the drawing of sharper boundaries between family and community and intensified the segregation of different age groups within the family, leading to the elimination of older people from visible family roles. The transfer of social-welfare functions, one concentrated in the family, to institutions in the larger society further contributed to the segregation of older people. The care of dependent, sick, delinquent, and elderly members of the community, which had been considered part of the family’s obligation in the pre-industrial period, was gradually transferred to specialized institution such as asylums and reformatories. The family ceased to be the only available source of support for its dependent members, and the community ceased to rely on the family as the major agency of welfare and social control.",
+   "needfig": true,
+   "fig": "img/q/104180_301_0206_41.webp",
    "a": 1
   },
   {

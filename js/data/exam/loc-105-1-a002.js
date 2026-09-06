@@ -477,141 +477,151 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "granting",
-    "proven",
-    "granted",
-    "proving"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reform",
-    "render",
-    "recoup",
-    "release"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "recent",
-    "slim",
-    "decent",
-    "trivial"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "cut-throat",
-    "cutaway",
-    "cut-out",
-    "cutback"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Incomings",
-    "Outgoings",
-    "Incumbents",
-    "Departments第 41 題至第 45 題為題組Approximately 0.6 percent of Taiwan's total cultivated farmland adopts organic farming. It is 41 ＿＿＿ low. The"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "exchange is 36 a competition-free run at the market, lasting up to 20 years. This gives pioneers time to 37 the costs of researching and developing new compounds, vital when creating a new medicine can cost up to $5 billion. The patent guarantees a 38 return, meaning companies have both the means and the incentive to keep innovating. When the patent reaches its expiry date, the comfortable monopoly evaporates, replaced by 39 competition. 40 have three ways of defending themselves. They are marketing, nudging customers towards newer drugs still protected by patent, and paying the competitors not to produce.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "completely",
-    "continually",
-    "comparatively",
-    "conveniently"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "devoted to",
-    "adopted to",
-    "akin to",
-    "according to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "acting",
-    "attracting",
-    "amending",
-    "accelerating"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "parity",
-    "popularity",
-    "personality",
-    "purity"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "figure is alarming if it is contrasted with that of Austria: about 20 percent of all Austrian farmland is 42 organic cultivation. Food safety issues are 43 Taiwan's march toward chemical-free agriculture. Farmers' markets are gaining in 44 . Besides, supermarkets are 45 organic produce. The future seems promising.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "peeling",
-    "paying",
-    "cleaning",
-    "stocking第 46 題至第 50 題為題組Prince Charles is often portrayed as bad-tempered and spoiled. There are stories that every day seven eggs are boiled"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "for his breakfast so that he can find one that is cooked just the way he likes it. His toothpaste is squeezed onto his toothbrush for him. And his bath towel is folded over a chair in a particular way when he gets out of his royal bath. Prince Charles is eccentric, and he admits it. He talks to trees and plants. He wants to save wildlife but enjoys hunting, shooting, and fishing. He dresses for dinner, even if he's eating alone. He's a great socializer. Poets, artists, writers, broadcasters, politicians, actors, and singers all eat at his table. Arriving at Highgrove, his family home, on a Saturday afternoon, guests are entertained in the height of luxury. They are then sent on their way before lunch on Sunday, having been shown around his beautifully-kept gardens. The Prince also entertains extravagantly at Sandringham, one of the Queen's homes, at least twice a year. There are picnic lunches on the beach, expeditions to local churches, and lavish dinners with organic food. Conversation is lively, but the heir to the throne has to be careful about what he says, because he knows only too well that anything he says in private may be repeated in public. The future monarch that we don't see is a man of great humor who cares passionately about the state of the British nation and is devoted to his two children, William and Harry. He is madly in love with \"his darling wife,\" which is how he refers to Camilla in public. Together Charles and Camilla perform royal duties, both at home and abroad. He attends over 500 public engagements a year. He visits hospitals, youth groups, performing artists, charities, and business conferences. He hosts receptions to welcome visiting heads of state and VIPs. He travels abroad extensively, as an ambassador to the United Kingdom, representing trade and industry. He works hard to promote greater understanding between different religions. Camilla shares Charles's passion for hunting and also his interest in conservation of towns and countryside. The one thing she leaves to Charles is skiing. She prefers to stay at home when he makes his annual trip to Klosters in Switzerland.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105180_301_0205_45.webp"
   },
   {
    "n": 46,

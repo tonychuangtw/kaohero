@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['gao-109-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "for",
-    "after",
-    "before",
-    "until"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Touch is the earliest sense to mature. It manifests itself in the final embryonic stage and comes into its own long before eyes, ears, and the higher brain centers begin to work. Soon 41 birth, infants begin to employ their other senses to interpret reality. During the same period, they are highly 42 touch. They are being nuzzled, cuddled, cleaned, patted, kissed, and in many cases breastfed. So important is touch to human communication 43 researchers now know that people who are denied caregivers’ touch can develop serious biological and emotional problems. As you move from infancy into childhood, you learn the rules of touching. You are taught whom to touch and where they may be touched. By the time you reach 44 , your culture has taught you how to communicate with touch. You use touch out of social politeness, 45 sex, consolation, support, and control. In the U.S., people learn to shake hands with nearly everyone, hug certain people, and be intimate with still other people.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109090_401_0217_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "invested in",
-    "informed of",
-    "deprived of",
-    "involved in"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Touch is the earliest sense to mature. It manifests itself in the final embryonic stage and comes into its own long before eyes, ears, and the higher brain centers begin to work. Soon 41 birth, infants begin to employ their other senses to interpret reality. During the same period, they are highly 42 touch. They are being nuzzled, cuddled, cleaned, patted, kissed, and in many cases breastfed. So important is touch to human communication 43 researchers now know that people who are denied caregivers’ touch can develop serious biological and emotional problems. As you move from infancy into childhood, you learn the rules of touching. You are taught whom to touch and where they may be touched. By the time you reach 44 , your culture has taught you how to communicate with touch. You use touch out of social politeness, 45 sex, consolation, support, and control. In the U.S., people learn to shake hands with nearly everyone, hug certain people, and be intimate with still other people.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109090_401_0217_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "that",
-    "which",
-    "what",
-    "who"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Touch is the earliest sense to mature. It manifests itself in the final embryonic stage and comes into its own long before eyes, ears, and the higher brain centers begin to work. Soon 41 birth, infants begin to employ their other senses to interpret reality. During the same period, they are highly 42 touch. They are being nuzzled, cuddled, cleaned, patted, kissed, and in many cases breastfed. So important is touch to human communication 43 researchers now know that people who are denied caregivers’ touch can develop serious biological and emotional problems. As you move from infancy into childhood, you learn the rules of touching. You are taught whom to touch and where they may be touched. By the time you reach 44 , your culture has taught you how to communicate with touch. You use touch out of social politeness, 45 sex, consolation, support, and control. In the U.S., people learn to shake hands with nearly everyone, hug certain people, and be intimate with still other people.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109090_401_0217_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "confidence",
-    "residence",
-    "innocence",
-    "adolescence"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Touch is the earliest sense to mature. It manifests itself in the final embryonic stage and comes into its own long before eyes, ears, and the higher brain centers begin to work. Soon 41 birth, infants begin to employ their other senses to interpret reality. During the same period, they are highly 42 touch. They are being nuzzled, cuddled, cleaned, patted, kissed, and in many cases breastfed. So important is touch to human communication 43 researchers now know that people who are denied caregivers’ touch can develop serious biological and emotional problems. As you move from infancy into childhood, you learn the rules of touching. You are taught whom to touch and where they may be touched. By the time you reach 44 , your culture has taught you how to communicate with touch. You use touch out of social politeness, 45 sex, consolation, support, and control. In the U.S., people learn to shake hands with nearly everyone, hug certain people, and be intimate with still other people.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109090_401_0217_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "to",
-    "in",
-    "on",
-    "for請依下文回答第46題至第50題："
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Touch is the earliest sense to mature. It manifests itself in the final embryonic stage and comes into its own long before eyes, ears, and the higher brain centers begin to work. Soon 41 birth, infants begin to employ their other senses to interpret reality. During the same period, they are highly 42 touch. They are being nuzzled, cuddled, cleaned, patted, kissed, and in many cases breastfed. So important is touch to human communication 43 researchers now know that people who are denied caregivers’ touch can develop serious biological and emotional problems. As you move from infancy into childhood, you learn the rules of touching. You are taught whom to touch and where they may be touched. By the time you reach 44 , your culture has taught you how to communicate with touch. You use touch out of social politeness, 45 sex, consolation, support, and control. In the U.S., people learn to shake hands with nearly everyone, hug certain people, and be intimate with still other people.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109090_401_0217_45.webp"
   },
   {
    "n": 46,

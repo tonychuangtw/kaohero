@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "feeble",
-    "edible",
-    "sturdy",
-    "tardy"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/112090_301_0118_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "attributed",
-    "contributed",
-    "emphasized",
-    "overlooked"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/112090_301_0118_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "differences",
-    "similarities",
-    "obligations",
-    "responsibilities"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/112090_301_0118_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "harm",
-    "weigh",
-    "weaken",
-    "heighten"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/112090_301_0118_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "visibility",
-    "feasibility",
-    "benefits",
-    "injuries請依下文回答第46題至第50題：Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/112090_301_0118_45.webp"
   },
   {
    "n": 46,

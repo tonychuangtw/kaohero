@@ -409,141 +409,149 @@ window.APP_EXAM_PAPERS['loc-107-1-a002'] = {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "for",
-    "with",
-    "without",
-    "within"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_31.webp"
   },
   {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "being",
-    "be",
-    "are",
-    "is"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_32.webp"
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "alignments",
-    "amendments",
-    "ailments",
-    "alternatives"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_33.webp"
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "In case of",
-    "Except for",
-    "In opposition to",
-    "In addition to"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_34.webp"
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A.limited ＿＿＿ B.countless ＿＿＿ C.aggressive ＿＿＿ D.priceless 第 36 題至第 40 題為題組：",
    "o": [
-    "limited",
-    "countless",
-    "aggressive",
-    "priceless第 36 題至第 40 題為題組：The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wifean official “first lady” role.More than 150,000 people have signed a ＿＿＿ 36 against the move that would give Brigitte"
+    "The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife",
+    "More than 150,000 people have signed a",
+    "36",
+    "against the move that would give Brigitte"
    ],
-   "psg": "Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city.",
    "a": 1
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "contract",
-    "document",
-    "petition",
-    "treaty"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "domestic",
-    "foreign",
-    "private",
-    "public"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "as",
-    "like",
-    "to",
-    "in"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "said",
-    "say",
-    "saying",
-    "to say"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "totally",
-    "personally",
-    "individually",
-    "respectively請依下文回答第 41 題至第 45 題：In a city where eating well is an obsession, a statement by a senior official published in a national"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "newspaper caused a public outcry. Vallop Suwandee, who chairs an advisory board to the governor of Bangkok, was quoted as saying that street vendors would be removed from all 50 districts of the city. It seemed that one of the most popular and distinctive aspects of Bangkok life was to be wiped out, days after CNN had voted Bangkok the best place in the world for street food, and just two months before the city government was planning to hold a street-food festival. Mr. Vallop now says he was misquoted: “Let me be clear, on behalf of the city of Bangkok. Street food will continue to be part of Bangkok life, on the condition that there will not be obstructions for pedestrians, and that the vendors observe sanitary rules in the interest of public health. We will allow them to be in certain areas, under strict conditions.” This is not the first time the Bangkok Metropolitan Authority (BMA), which is responsible for running the city, has tried to impose order and standards on the hundreds of thousands of food vendors operating on the streets. Right after the BMA was first established in 1972, it launched a similar campaign to force the vendors to operate in designated markets instead. Variations of that campaign were revived every few years but implementation has always been weak because the BMA recognised the vital role street vending played in providing a source of income in difficult economic times. Most of the time it has quietly chosen not to push too hard. This time may be different. The number of officially approved locations for street food vendors has been cut dramatically, from a peak of 726 four years ago to 243 by the end of last year. Tens of thousands of vendors have been forced to move already, leaving many downtown areas like Siam Square, Asok and Silom with few or no street-food stalls now visible during the day and night. The most recent area to be cleared is the increasingly wealthy neighbourhood of Thonglor. A small side street, or soi, which for many years had been famous for its street food, is no more, although city officials say the vendors were offered alternative locations in smaller sois further away.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/107190_301_0205_40.webp"
   },
   {
    "n": 41,

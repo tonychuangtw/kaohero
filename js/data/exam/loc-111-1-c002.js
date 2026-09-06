@@ -625,57 +625,61 @@ window.APP_EXAM_PAPERS['loc-111-1-c002'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "predicted",
-    "instructed",
-    "described",
-    "emphasized"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_501_0207_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "enacted",
-    "withdrew",
-    "discovered",
-    "abandoned"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_501_0207_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "instead",
-    "namely",
-    "therefore",
-    "moreover"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_501_0207_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "faced",
-    "solved",
-    "happened",
-    "answered"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/111190_501_0207_50.webp"
   }
  ]
 };

@@ -474,71 +474,76 @@ window.APP_EXAM_PAPERS['loc-108-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "acclaim",
-    "accustom",
-    "caution",
-    "conceal"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The Wu family moved to Vancouver, Canada in the early 1990s. As they were living in an English-speaking region of the country and hoped to 36 themselves more quickly to the new environment, they made up their mind by stopping using their native language and speaking only English at home. However, when the Wu children grew up and went back to their home country, China, the children had difficulty communicating with relatives there. At that time, they realized that it was a 37 for them not to make their children become bilingual. Linguistically speaking, the most 38 advantage of being bilingual is that those people will be able to communicate with more people around the world. They are more autonomous and do not need to rely on other people to understand other languages. Apart from this linguistic benefit, bilingual people have got the 39 over other people because they have a higher level of cultural and social awareness of another group of people. Knowing the vocabulary, idiomatic expressions, and even jokes of another language enhances people’s understanding of another culture. One more advantage of being bilingual is that people can gain global awareness. Different regions of the world can be more closely connected if mutual understanding between people of different nations can be achieved. 40 , lack of the ability to speak a second or third language can only result in miscommunication and even hostility among people. Since bilingualism offers people many assets at their disposal, it is always wise to learn to speak a second or third language.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/108190_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "merit",
-    "default",
-    "flaw",
-    "intake"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The Wu family moved to Vancouver, Canada in the early 1990s. As they were living in an English-speaking region of the country and hoped to 36 themselves more quickly to the new environment, they made up their mind by stopping using their native language and speaking only English at home. However, when the Wu children grew up and went back to their home country, China, the children had difficulty communicating with relatives there. At that time, they realized that it was a 37 for them not to make their children become bilingual. Linguistically speaking, the most 38 advantage of being bilingual is that those people will be able to communicate with more people around the world. They are more autonomous and do not need to rely on other people to understand other languages. Apart from this linguistic benefit, bilingual people have got the 39 over other people because they have a higher level of cultural and social awareness of another group of people. Knowing the vocabulary, idiomatic expressions, and even jokes of another language enhances people’s understanding of another culture. One more advantage of being bilingual is that people can gain global awareness. Different regions of the world can be more closely connected if mutual understanding between people of different nations can be achieved. 40 , lack of the ability to speak a second or third language can only result in miscommunication and even hostility among people. Since bilingualism offers people many assets at their disposal, it is always wise to learn to speak a second or third language.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/108190_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "overt",
-    "ruthless",
-    "shrewd",
-    "unbearable"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The Wu family moved to Vancouver, Canada in the early 1990s. As they were living in an English-speaking region of the country and hoped to 36 themselves more quickly to the new environment, they made up their mind by stopping using their native language and speaking only English at home. However, when the Wu children grew up and went back to their home country, China, the children had difficulty communicating with relatives there. At that time, they realized that it was a 37 for them not to make their children become bilingual. Linguistically speaking, the most 38 advantage of being bilingual is that those people will be able to communicate with more people around the world. They are more autonomous and do not need to rely on other people to understand other languages. Apart from this linguistic benefit, bilingual people have got the 39 over other people because they have a higher level of cultural and social awareness of another group of people. Knowing the vocabulary, idiomatic expressions, and even jokes of another language enhances people’s understanding of another culture. One more advantage of being bilingual is that people can gain global awareness. Different regions of the world can be more closely connected if mutual understanding between people of different nations can be achieved. 40 , lack of the ability to speak a second or third language can only result in miscommunication and even hostility among people. Since bilingualism offers people many assets at their disposal, it is always wise to learn to speak a second or third language.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/108190_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "margin",
-    "edge",
-    "corner",
-    "angle"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The Wu family moved to Vancouver, Canada in the early 1990s. As they were living in an English-speaking region of the country and hoped to 36 themselves more quickly to the new environment, they made up their mind by stopping using their native language and speaking only English at home. However, when the Wu children grew up and went back to their home country, China, the children had difficulty communicating with relatives there. At that time, they realized that it was a 37 for them not to make their children become bilingual. Linguistically speaking, the most 38 advantage of being bilingual is that those people will be able to communicate with more people around the world. They are more autonomous and do not need to rely on other people to understand other languages. Apart from this linguistic benefit, bilingual people have got the 39 over other people because they have a higher level of cultural and social awareness of another group of people. Knowing the vocabulary, idiomatic expressions, and even jokes of another language enhances people’s understanding of another culture. One more advantage of being bilingual is that people can gain global awareness. Different regions of the world can be more closely connected if mutual understanding between people of different nations can be achieved. 40 , lack of the ability to speak a second or third language can only result in miscommunication and even hostility among people. Since bilingualism offers people many assets at their disposal, it is always wise to learn to speak a second or third language.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/108190_301_0205_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Eternally",
-    "Adversely",
-    "Bilaterally",
-    "Conversely請依下文回答第 41 題至第 45 題By most standards, Austin Jia holds an enviable position. A rising sophomore at Duke, Mr. Jia attends one of the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The Wu family moved to Vancouver, Canada in the early 1990s. As they were living in an English-speaking region of the country and hoped to 36 themselves more quickly to the new environment, they made up their mind by stopping using their native language and speaking only English at home. However, when the Wu children grew up and went back to their home country, China, the children had difficulty communicating with relatives there. At that time, they realized that it was a 37 for them not to make their children become bilingual. Linguistically speaking, the most 38 advantage of being bilingual is that those people will be able to communicate with more people around the world. They are more autonomous and do not need to rely on other people to understand other languages. Apart from this linguistic benefit, bilingual people have got the 39 over other people because they have a higher level of cultural and social awareness of another group of people. Knowing the vocabulary, idiomatic expressions, and even jokes of another language enhances people’s understanding of another culture. One more advantage of being bilingual is that people can gain global awareness. Different regions of the world can be more closely connected if mutual understanding between people of different nations can be achieved. 40 , lack of the ability to speak a second or third language can only result in miscommunication and even hostility among people. Since bilingualism offers people many assets at their disposal, it is always wise to learn to speak a second or third language.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/108190_301_0205_40.webp"
   },
   {
    "n": 41,

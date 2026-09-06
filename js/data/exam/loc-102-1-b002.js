@@ -617,57 +617,61 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "distributed",
-    "contributed",
-    "covered",
-    "recovered"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "city’s perpetual gray haze. But Taipei and the industrial west coast are only a small part of Taiwan. The rest of the island is 47 with remote, forested mountains, which are laced with hundreds of hiking trails. Trekking in Taiwan is not for the fainthearted. The Central Mountain Range is steep and wild. Summer thunderstorms rise unseen, temperatures can drop below zero, and facilities are few and far between. But for those willing to carry their own gear, the treks are 48 the most beautiful in Asia. The top hikes in Taiwan—on Chilai Ridge and Yushan—require a reasonable level of 49 and the proper equipment, including a tent and a stove, food and water, a sleeping bag, good boots and warm clothes. It sounds ideal—get out of Taipei, see the mountains, and spend a few days in the fresh air. However, there is one thing you have to attend to. The government requires hikers to have mountain 50 , which in turn necessitates a group of three and a guide. 閱讀上文，回答第 47 題至第 50 題",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/102190_401_0205_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "at",
-    "during",
-    "between",
-    "among"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "city’s perpetual gray haze. But Taipei and the industrial west coast are only a small part of Taiwan. The rest of the island is 47 with remote, forested mountains, which are laced with hundreds of hiking trails. Trekking in Taiwan is not for the fainthearted. The Central Mountain Range is steep and wild. Summer thunderstorms rise unseen, temperatures can drop below zero, and facilities are few and far between. But for those willing to carry their own gear, the treks are 48 the most beautiful in Asia. The top hikes in Taiwan—on Chilai Ridge and Yushan—require a reasonable level of 49 and the proper equipment, including a tent and a stove, food and water, a sleeping bag, good boots and warm clothes. It sounds ideal—get out of Taipei, see the mountains, and spend a few days in the fresh air. However, there is one thing you have to attend to. The government requires hikers to have mountain 50 , which in turn necessitates a group of three and a guide. 閱讀上文，回答第 47 題至第 50 題",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/102190_401_0205_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "height",
-    "fitness",
-    "appetite",
-    "hobby"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "city’s perpetual gray haze. But Taipei and the industrial west coast are only a small part of Taiwan. The rest of the island is 47 with remote, forested mountains, which are laced with hundreds of hiking trails. Trekking in Taiwan is not for the fainthearted. The Central Mountain Range is steep and wild. Summer thunderstorms rise unseen, temperatures can drop below zero, and facilities are few and far between. But for those willing to carry their own gear, the treks are 48 the most beautiful in Asia. The top hikes in Taiwan—on Chilai Ridge and Yushan—require a reasonable level of 49 and the proper equipment, including a tent and a stove, food and water, a sleeping bag, good boots and warm clothes. It sounds ideal—get out of Taipei, see the mountains, and spend a few days in the fresh air. However, there is one thing you have to attend to. The government requires hikers to have mountain 50 , which in turn necessitates a group of three and a guide. 閱讀上文，回答第 47 題至第 50 題",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/102190_401_0205_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "permits",
-    "traces",
-    "incentives",
-    "approvals"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "city’s perpetual gray haze. But Taipei and the industrial west coast are only a small part of Taiwan. The rest of the island is 47 with remote, forested mountains, which are laced with hundreds of hiking trails. Trekking in Taiwan is not for the fainthearted. The Central Mountain Range is steep and wild. Summer thunderstorms rise unseen, temperatures can drop below zero, and facilities are few and far between. But for those willing to carry their own gear, the treks are 48 the most beautiful in Asia. The top hikes in Taiwan—on Chilai Ridge and Yushan—require a reasonable level of 49 and the proper equipment, including a tent and a stove, food and water, a sleeping bag, good boots and warm clothes. It sounds ideal—get out of Taipei, see the mountains, and spend a few days in the fresh air. However, there is one thing you have to attend to. The government requires hikers to have mountain 50 , which in turn necessitates a group of three and a guide. 閱讀上文，回答第 47 題至第 50 題",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/102190_401_0205_50.webp"
   }
  ]
 };

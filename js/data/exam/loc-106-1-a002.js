@@ -477,140 +477,150 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "because",
-    "where",
-    "although",
-    "which"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "consequently",
-    "obviously",
-    "besides",
-    "however"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "where and when",
-    "wherever and however",
-    "whenever and why",
-    "however and why"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "For example",
-    "Upon contact",
-    "Above all",
-    "In return"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "play down",
-    "deal with",
-    "serve as",
-    "tie up第 41 題至第 45 題為題組Few scientists have had the influence of Sir Isaac Newton, who largely built the edifice of modern"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. He was the first to formulate the law of motion.B. The architect of modern science was himself not very modern.C. He was obssessed with alchemy.D. He spent hours copying alchemical recipes and trying to replicate them in his laboratory.",
    "o": [
-    "He was the first to formulate the law of motion.",
-    "The architect of modern science was himself not very modern.",
-    "He was obssessed with alchemy.",
-    "He spent hours copying alchemical recipes and trying to replicate them in his laboratory."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "science. 41 He discovered and explained the law of gravity, and proved the theoretical framework through which the observations of Galileo Galilei and the planetary laws of Johannes Kelper could be understood. His experiments with sunlight and glass prisms and mirrors helped him understand the origin of colors and create a new kind of telescope. 42 And he was the first to postulate that the law of physics would be the same all over the universe. Newton’s genius was recognised while he was a young scholar at Cambridge. 43 By the time he died in 1727, at the ripe old age of 84, he had become a national icon: President of the Royal Society, and warden and master of the Royal Mint. 44 As befits a man of such prodigious reputation, Newton left behind a voluminous trove of papers: more than 7 million words filling hundreds of notebooks and loose sheets of paper. 45 There are also letters to scientists and other scholars, pages of derivations of mathematics and physics formulae, and copious writings on alchemy and religion.",
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_41.webp",
    "a": 0
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. But he was reticent about publishing his work, fearing controversy and criticism.B. He invented calculus, independently of Gottfried Leibniz, feuding with him over who was first.C. It was common at the time for Cambridge faculty members (all of the men) to take holy orders in theChurch of England; Newton, true to himself, refused.D. He was a family man.",
    "o": [
-    "But he was reticent about publishing his work, fearing controversy and criticism.",
-    "He invented calculus, independently of Gottfried Leibniz, feuding with him over who was first.",
-    "It was common at the time for Cambridge faculty members (all of the men) to take holy orders in theChurch of England; Newton, true to himself, refused.",
-    "He was a family man."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "science. 41 He discovered and explained the law of gravity, and proved the theoretical framework through which the observations of Galileo Galilei and the planetary laws of Johannes Kelper could be understood. His experiments with sunlight and glass prisms and mirrors helped him understand the origin of colors and create a new kind of telescope. 42 And he was the first to postulate that the law of physics would be the same all over the universe. Newton’s genius was recognised while he was a young scholar at Cambridge. 43 By the time he died in 1727, at the ripe old age of 84, he had become a national icon: President of the Royal Society, and warden and master of the Royal Mint. 44 As befits a man of such prodigious reputation, Newton left behind a voluminous trove of papers: more than 7 million words filling hundreds of notebooks and loose sheets of paper. 45 There are also letters to scientists and other scholars, pages of derivations of mathematics and physics formulae, and copious writings on alchemy and religion.",
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_42.webp",
    "a": 1
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. The solitary and eccentric Newton apparently saved everything he wrote; among his papers are recipesfor ink that he scribbled as a scholar at Cambridge.B. Conduitt had a vested interest in guarding Newton’s reputation as a paragon of science.C. At the age of 26, he was made Lucasian professor of mathematics.D. Keynes wrote after reading Newton’s manuscripts: “he was the last of the magicians.”",
    "o": [
-    "The solitary and eccentric Newton apparently saved everything he wrote; among his papers are recipesfor ink that he scribbled as a scholar at Cambridge.",
-    "Conduitt had a vested interest in guarding Newton’s reputation as a paragon of science.",
-    "At the age of 26, he was made Lucasian professor of mathematics.",
-    "Keynes wrote after reading Newton’s manuscripts: “he was the last of the magicians.”"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "science. 41 He discovered and explained the law of gravity, and proved the theoretical framework through which the observations of Galileo Galilei and the planetary laws of Johannes Kelper could be understood. His experiments with sunlight and glass prisms and mirrors helped him understand the origin of colors and create a new kind of telescope. 42 And he was the first to postulate that the law of physics would be the same all over the universe. Newton’s genius was recognised while he was a young scholar at Cambridge. 43 By the time he died in 1727, at the ripe old age of 84, he had become a national icon: President of the Royal Society, and warden and master of the Royal Mint. 44 As befits a man of such prodigious reputation, Newton left behind a voluminous trove of papers: more than 7 million words filling hundreds of notebooks and loose sheets of paper. 45 There are also letters to scientists and other scholars, pages of derivations of mathematics and physics formulae, and copious writings on alchemy and religion.",
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_43.webp",
    "a": 2
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. He was interred in Westminster Abbey.B. A lifelong bachelor, Newton died without leaving a will.C. At his death, more than half of his writings were unpublished, including all his thoughts on religion andalchemy.D. Sarah Dry’s engaging book The Newton Papers traces what happened to Newton’s unpublished manuscriptafter his death.",
    "o": [
-    "He was interred in Westminster Abbey.",
-    "A lifelong bachelor, Newton died without leaving a will.",
-    "At his death, more than half of his writings were unpublished, including all his thoughts on religion andalchemy.",
-    "Sarah Dry’s engaging book The Newton Papers traces what happened to Newton’s unpublished manuscriptafter his death."
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "science. 41 He discovered and explained the law of gravity, and proved the theoretical framework through which the observations of Galileo Galilei and the planetary laws of Johannes Kelper could be understood. His experiments with sunlight and glass prisms and mirrors helped him understand the origin of colors and create a new kind of telescope. 42 And he was the first to postulate that the law of physics would be the same all over the universe. Newton’s genius was recognised while he was a young scholar at Cambridge. 43 By the time he died in 1727, at the ripe old age of 84, he had become a national icon: President of the Royal Society, and warden and master of the Royal Mint. 44 As befits a man of such prodigious reputation, Newton left behind a voluminous trove of papers: more than 7 million words filling hundreds of notebooks and loose sheets of paper. 45 There are also letters to scientists and other scholars, pages of derivations of mathematics and physics formulae, and copious writings on alchemy and religion.",
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_44.webp",
    "a": 0
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. The Newton that emerges from the manuscripts is far from the popular image of a rational practitioner ofcold and pure reason.B. These included drafts of successive editions of his crowning achievement, Philosophiae Naturalis PrincipiaMathematica, as well as his treatise on light Opticks.C. Conduitt started an effort to publish a biography of Newton, but in the end it was unsuccessful.D. However, the vastness of the archive and its often abstruse nature thwarted easy categorisation.第 46 題至第 50 題為題組For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping",
    "o": [
-    "The Newton that emerges from the manuscripts is far from the popular image of a rational practitioner ofcold and pure reason.",
-    "These included drafts of successive editions of his crowning achievement, Philosophiae Naturalis PrincipiaMathematica, as well as his treatise on light Opticks.",
-    "Conduitt started an effort to publish a biography of Newton, but in the end it was unsuccessful.",
-    "However, the vastness of the archive and its often abstruse nature thwarted easy categorisation.第 46 題至第 50 題為題組For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come.",
+   "needfig": true,
+   "fig": "img/q/106190_301_0205_45.webp",
    "a": 1
   },
   {

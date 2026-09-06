@@ -474,141 +474,151 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "comes across",
-    "looks into",
-    "stands for",
-    "breaks down"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "analytical",
-    "emotional",
-    "physical",
-    "symmetrical"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "corroborating",
-    "deducting",
-    "fabricating",
-    "perpetrating"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "however",
-    "reversely",
-    "instead",
-    "therefore"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "buoyant",
-    "onerous",
-    "infatuated",
-    "haughty請依下文回答第 41 題至第 45 題：2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "confusion",
-    "insight",
-    "ignorance",
-    "naivety"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the atomic bombs in 1945, and their work for a nuclear weapon-free world. The exhibition provides a moving 41 into the destruction caused by the bombs dropped over Hiroshima and Nagasaki in 1945. Through photographs and testimonies from the survivors, the audience 42 an understanding of the Peace Prize winner’s message: Nuclear weapons must never be used again! The renowned French Magnum photographer Antoine d’Agata 43 the survivors from Hiroshima and Nagasaki, who are called hibakusha in Japanese. He has captured the determined gazes of these elderly individuals, and the images stand in 44 contrast to archival photos of the destruction from 1945. For this year’s exhibition, the Nobel Peace Center has also collaborated 45 the world-famous Japanese architect Kengo Kuma, who has created a special installation with 1000 cedarwood objects from Hiroshima. Each object represents a hibakusha. The audience can pick up the figures, listen to their stories, and reflected on the ongoing struggle for a nuclear weapon-free world.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "wastes",
-    "surrenders",
-    "gains",
-    "misses"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the atomic bombs in 1945, and their work for a nuclear weapon-free world. The exhibition provides a moving 41 into the destruction caused by the bombs dropped over Hiroshima and Nagasaki in 1945. Through photographs and testimonies from the survivors, the audience 42 an understanding of the Peace Prize winner’s message: Nuclear weapons must never be used again! The renowned French Magnum photographer Antoine d’Agata 43 the survivors from Hiroshima and Nagasaki, who are called hibakusha in Japanese. He has captured the determined gazes of these elderly individuals, and the images stand in 44 contrast to archival photos of the destruction from 1945. For this year’s exhibition, the Nobel Peace Center has also collaborated 45 the world-famous Japanese architect Kengo Kuma, who has created a special installation with 1000 cedarwood objects from Hiroshima. Each object represents a hibakusha. The audience can pick up the figures, listen to their stories, and reflected on the ongoing struggle for a nuclear weapon-free world.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "portrays",
-    "has portrayed",
-    "portraying",
-    "to portray"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the atomic bombs in 1945, and their work for a nuclear weapon-free world. The exhibition provides a moving 41 into the destruction caused by the bombs dropped over Hiroshima and Nagasaki in 1945. Through photographs and testimonies from the survivors, the audience 42 an understanding of the Peace Prize winner’s message: Nuclear weapons must never be used again! The renowned French Magnum photographer Antoine d’Agata 43 the survivors from Hiroshima and Nagasaki, who are called hibakusha in Japanese. He has captured the determined gazes of these elderly individuals, and the images stand in 44 contrast to archival photos of the destruction from 1945. For this year’s exhibition, the Nobel Peace Center has also collaborated 45 the world-famous Japanese architect Kengo Kuma, who has created a special installation with 1000 cedarwood objects from Hiroshima. Each object represents a hibakusha. The audience can pick up the figures, listen to their stories, and reflected on the ongoing struggle for a nuclear weapon-free world.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reasonable",
-    "positive",
-    "good",
-    "stark"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the atomic bombs in 1945, and their work for a nuclear weapon-free world. The exhibition provides a moving 41 into the destruction caused by the bombs dropped over Hiroshima and Nagasaki in 1945. Through photographs and testimonies from the survivors, the audience 42 an understanding of the Peace Prize winner’s message: Nuclear weapons must never be used again! The renowned French Magnum photographer Antoine d’Agata 43 the survivors from Hiroshima and Nagasaki, who are called hibakusha in Japanese. He has captured the determined gazes of these elderly individuals, and the images stand in 44 contrast to archival photos of the destruction from 1945. For this year’s exhibition, the Nobel Peace Center has also collaborated 45 the world-famous Japanese architect Kengo Kuma, who has created a special installation with 1000 cedarwood objects from Hiroshima. Each object represents a hibakusha. The audience can pick up the figures, listen to their stories, and reflected on the ongoing struggle for a nuclear weapon-free world.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "in",
-    "with",
-    "from",
-    "over請依下文回答第 46 題至第 50 題：When we were kids, dream jobs shimmered with imagination—astronauts soaring through galaxies, rock stars"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "2024 Peace Prize exhibition tells the powerful story of Nihon Hidankyo, the Japanese organization for survivors of the atomic bombs in 1945, and their work for a nuclear weapon-free world. The exhibition provides a moving 41 into the destruction caused by the bombs dropped over Hiroshima and Nagasaki in 1945. Through photographs and testimonies from the survivors, the audience 42 an understanding of the Peace Prize winner’s message: Nuclear weapons must never be used again! The renowned French Magnum photographer Antoine d’Agata 43 the survivors from Hiroshima and Nagasaki, who are called hibakusha in Japanese. He has captured the determined gazes of these elderly individuals, and the images stand in 44 contrast to archival photos of the destruction from 1945. For this year’s exhibition, the Nobel Peace Center has also collaborated 45 the world-famous Japanese architect Kengo Kuma, who has created a special installation with 1000 cedarwood objects from Hiroshima. Each object represents a hibakusha. The audience can pick up the figures, listen to their stories, and reflected on the ongoing struggle for a nuclear weapon-free world.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/114190_301_0205_45.webp"
   },
   {
    "n": 46,

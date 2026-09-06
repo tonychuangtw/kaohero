@@ -539,141 +539,151 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "apply for",
-    "embark on",
-    "iron out",
-    "own up"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "whom",
-    "what",
-    "which",
-    "where"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "controllers",
-    "remainders",
-    "narrators",
-    "facilitators"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "advantageous",
-    "bureaucratic",
-    "charitable",
-    "defensible"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "competence",
-    "diligence",
-    "emergence",
-    "indifference請依下文回答第46題至第50題：The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_45.webp"
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "incidentally",
-    "accidentally",
-    "partially",
-    "literally"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin currere-- 46 “to run.” It distinguishes writing in which the pen lifts from the page between words, 47 between each individual letter. Cursive developed out of typeface and print technologies, but more importantly it came from the need to write well and to write quickly. But, cursive is fading. There is a debate over whether it has value in the classroom, but that debate extends further than simply a matter of cursive--it's about writing itself. Many curricula are even favoring typing lessons 48 teaching handwriting. The battle for cursive reaches deeper than questions of whether your letters “connect.” The pen--even more than the text--might say something about us. Our handwriting might indicate our nationalities and educational background, 49 Adrienne Bernhard's “What Your Handwriting Says About You.” Yet, Bernhard's article also indicates that the proliferation of typing--via emails, text messages, etc--might in fact undermine the distinctness of our handwritings. The battle for cursive has always been a battle for the uniqueness of our handwriting and ourselves, verses and the evolution of technology and push towards efficiency. Not too long ago, cursive--Spencerian script to be specific--“was the de facto standard writing style for business correspondence before the widespread adoption of the typewriter.” With the development of the typewriter, cursive 50 out of business usage into the usage of personal correspondence; technology supplanted cursive's original purpose, but cursive remained an act of self expression.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "apart from",
-    "less than",
-    "rather than",
-    "let alone"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin currere-- 46 “to run.” It distinguishes writing in which the pen lifts from the page between words, 47 between each individual letter. Cursive developed out of typeface and print technologies, but more importantly it came from the need to write well and to write quickly. But, cursive is fading. There is a debate over whether it has value in the classroom, but that debate extends further than simply a matter of cursive--it's about writing itself. Many curricula are even favoring typing lessons 48 teaching handwriting. The battle for cursive reaches deeper than questions of whether your letters “connect.” The pen--even more than the text--might say something about us. Our handwriting might indicate our nationalities and educational background, 49 Adrienne Bernhard's “What Your Handwriting Says About You.” Yet, Bernhard's article also indicates that the proliferation of typing--via emails, text messages, etc--might in fact undermine the distinctness of our handwritings. The battle for cursive has always been a battle for the uniqueness of our handwriting and ourselves, verses and the evolution of technology and push towards efficiency. Not too long ago, cursive--Spencerian script to be specific--“was the de facto standard writing style for business correspondence before the widespread adoption of the typewriter.” With the development of the typewriter, cursive 50 out of business usage into the usage of personal correspondence; technology supplanted cursive's original purpose, but cursive remained an act of self expression.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "over",
-    "than",
-    "for",
-    "instead"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin currere-- 46 “to run.” It distinguishes writing in which the pen lifts from the page between words, 47 between each individual letter. Cursive developed out of typeface and print technologies, but more importantly it came from the need to write well and to write quickly. But, cursive is fading. There is a debate over whether it has value in the classroom, but that debate extends further than simply a matter of cursive--it's about writing itself. Many curricula are even favoring typing lessons 48 teaching handwriting. The battle for cursive reaches deeper than questions of whether your letters “connect.” The pen--even more than the text--might say something about us. Our handwriting might indicate our nationalities and educational background, 49 Adrienne Bernhard's “What Your Handwriting Says About You.” Yet, Bernhard's article also indicates that the proliferation of typing--via emails, text messages, etc--might in fact undermine the distinctness of our handwritings. The battle for cursive has always been a battle for the uniqueness of our handwriting and ourselves, verses and the evolution of technology and push towards efficiency. Not too long ago, cursive--Spencerian script to be specific--“was the de facto standard writing style for business correspondence before the widespread adoption of the typewriter.” With the development of the typewriter, cursive 50 out of business usage into the usage of personal correspondence; technology supplanted cursive's original purpose, but cursive remained an act of self expression.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "claims",
-    "to claim",
-    "claiming",
-    "are claiming"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin currere-- 46 “to run.” It distinguishes writing in which the pen lifts from the page between words, 47 between each individual letter. Cursive developed out of typeface and print technologies, but more importantly it came from the need to write well and to write quickly. But, cursive is fading. There is a debate over whether it has value in the classroom, but that debate extends further than simply a matter of cursive--it's about writing itself. Many curricula are even favoring typing lessons 48 teaching handwriting. The battle for cursive reaches deeper than questions of whether your letters “connect.” The pen--even more than the text--might say something about us. Our handwriting might indicate our nationalities and educational background, 49 Adrienne Bernhard's “What Your Handwriting Says About You.” Yet, Bernhard's article also indicates that the proliferation of typing--via emails, text messages, etc--might in fact undermine the distinctness of our handwritings. The battle for cursive has always been a battle for the uniqueness of our handwriting and ourselves, verses and the evolution of technology and push towards efficiency. Not too long ago, cursive--Spencerian script to be specific--“was the de facto standard writing style for business correspondence before the widespread adoption of the typewriter.” With the development of the typewriter, cursive 50 out of business usage into the usage of personal correspondence; technology supplanted cursive's original purpose, but cursive remained an act of self expression.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "rose",
-    "fell",
-    "decreased",
-    "increased"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The origin of cursive script is one which intertwines technology and efficiency. We get the word “cursive” from the Latin currere-- 46 “to run.” It distinguishes writing in which the pen lifts from the page between words, 47 between each individual letter. Cursive developed out of typeface and print technologies, but more importantly it came from the need to write well and to write quickly. But, cursive is fading. There is a debate over whether it has value in the classroom, but that debate extends further than simply a matter of cursive--it's about writing itself. Many curricula are even favoring typing lessons 48 teaching handwriting. The battle for cursive reaches deeper than questions of whether your letters “connect.” The pen--even more than the text--might say something about us. Our handwriting might indicate our nationalities and educational background, 49 Adrienne Bernhard's “What Your Handwriting Says About You.” Yet, Bernhard's article also indicates that the proliferation of typing--via emails, text messages, etc--might in fact undermine the distinctness of our handwritings. The battle for cursive has always been a battle for the uniqueness of our handwriting and ourselves, verses and the evolution of technology and push towards efficiency. Not too long ago, cursive--Spencerian script to be specific--“was the de facto standard writing style for business correspondence before the widespread adoption of the typewriter.” With the development of the typewriter, cursive 50 out of business usage into the usage of personal correspondence; technology supplanted cursive's original purpose, but cursive remained an act of self expression.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/109090_301_0216_50.webp"
   }
  ]
 };

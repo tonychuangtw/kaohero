@@ -487,127 +487,136 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "unexplainable",
-    "obvious",
-    "reasonable",
-    "persuasive"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "inevitable",
-    "suspicious",
-    "traumatic",
-    "artificial"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "observation",
-    "depression",
-    "compassion",
-    "appreciation"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "alleviate",
-    "accelerate",
-    "elaborate",
-    "substantiate請依下文回答第 41 題至第 45 題"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "engaged in",
-    "used by",
-    "for",
-    "like"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "I like any game of chance, but I most enjoy taking part in a lottery. The lottery is 41 an unchanging religious ceremony, and it is perhaps this ritual quality of the lottery 42 people enjoy. Unlike other games of chance, a lottery does not require a great deal of paraphernalia. The only equipment 43 is a bowl filled with slips of paper. I enjoy the excitement of watching the official pick the winning number. The moment before the drawing is very serious. The judge gravely approaches the bowl and looks at the crowd soberly. The crowd is quiet 44 the low murmur of excitement. Suddenly the winner is selected. After the lottery is over, everyone but the winner throws away his or her piece of paper, and the 45 slips are soon blown away by the wind. People begin to disengage themselves from the crowd and the lottery is over.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "so",
-    "that",
-    "how",
-    "what"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "I like any game of chance, but I most enjoy taking part in a lottery. The lottery is 41 an unchanging religious ceremony, and it is perhaps this ritual quality of the lottery 42 people enjoy. Unlike other games of chance, a lottery does not require a great deal of paraphernalia. The only equipment 43 is a bowl filled with slips of paper. I enjoy the excitement of watching the official pick the winning number. The moment before the drawing is very serious. The judge gravely approaches the bowl and looks at the crowd soberly. The crowd is quiet 44 the low murmur of excitement. Suddenly the winner is selected. After the lottery is over, everyone but the winner throws away his or her piece of paper, and the 45 slips are soon blown away by the wind. People begin to disengage themselves from the crowd and the lottery is over.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "requiring",
-    "intended",
-    "needed",
-    "forming"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "I like any game of chance, but I most enjoy taking part in a lottery. The lottery is 41 an unchanging religious ceremony, and it is perhaps this ritual quality of the lottery 42 people enjoy. Unlike other games of chance, a lottery does not require a great deal of paraphernalia. The only equipment 43 is a bowl filled with slips of paper. I enjoy the excitement of watching the official pick the winning number. The moment before the drawing is very serious. The judge gravely approaches the bowl and looks at the crowd soberly. The crowd is quiet 44 the low murmur of excitement. Suddenly the winner is selected. After the lottery is over, everyone but the winner throws away his or her piece of paper, and the 45 slips are soon blown away by the wind. People begin to disengage themselves from the crowd and the lottery is over.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "dealing with",
-    "anxious about",
-    "in search of",
-    "except for"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "I like any game of chance, but I most enjoy taking part in a lottery. The lottery is 41 an unchanging religious ceremony, and it is perhaps this ritual quality of the lottery 42 people enjoy. Unlike other games of chance, a lottery does not require a great deal of paraphernalia. The only equipment 43 is a bowl filled with slips of paper. I enjoy the excitement of watching the official pick the winning number. The moment before the drawing is very serious. The judge gravely approaches the bowl and looks at the crowd soberly. The crowd is quiet 44 the low murmur of excitement. Suddenly the winner is selected. After the lottery is over, everyone but the winner throws away his or her piece of paper, and the 45 slips are soon blown away by the wind. People begin to disengage themselves from the crowd and the lottery is over.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "discarded",
-    "reflecting",
-    "transparent",
-    "useful請依下文回答第 46 題至第 50 題People feel safer behind some kind of physical barrier. Each social occasion involves us in encounters. If a social"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "I like any game of chance, but I most enjoy taking part in a lottery. The lottery is 41 an unchanging religious ceremony, and it is perhaps this ritual quality of the lottery 42 people enjoy. Unlike other games of chance, a lottery does not require a great deal of paraphernalia. The only equipment 43 is a bowl filled with slips of paper. I enjoy the excitement of watching the official pick the winning number. The moment before the drawing is very serious. The judge gravely approaches the bowl and looks at the crowd soberly. The crowd is quiet 44 the low murmur of excitement. Suddenly the winner is selected. After the lottery is over, everyone but the winner throws away his or her piece of paper, and the 45 slips are soon blown away by the wind. People begin to disengage themselves from the crowd and the lottery is over.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105080_401_0216_45.webp"
   },
   {
    "n": 46,

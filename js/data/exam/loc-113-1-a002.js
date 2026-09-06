@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-113-1-a002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "stress",
-    "comfort",
-    "relief",
-    "upgrade"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Labor issues encompass a broad range of challenges that can have profound influences on many aspects. At the individual level, labor disputes can lead to job insecurity, financial strain, and emotional 41 for workers. Their livelihoods and overall well-being were hence seriously 42 . Unfair labor practices, such as wage theft, discrimination, and unsafe working conditions, can further exacerbate these challenges, 43 workers’ health, dignity, and basic rights. From a business perspective, labor issues can disrupt operations, damage reputation, and incur significant financial costs like legal fees and lost productivity. Moreover, labor 44 can break relationships between employers and employees, eroding trust and cooperation, which are essential for a productive work environment. At a societal level, 45 labor issues can contribute to widening inequalities, social unrest, and economic instability. All the above underscore the importance of fair labor practices between employers and laborers.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/113200_301_0205_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "promoted",
-    "advanced",
-    "impacted",
-    "enhanced"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Labor issues encompass a broad range of challenges that can have profound influences on many aspects. At the individual level, labor disputes can lead to job insecurity, financial strain, and emotional 41 for workers. Their livelihoods and overall well-being were hence seriously 42 . Unfair labor practices, such as wage theft, discrimination, and unsafe working conditions, can further exacerbate these challenges, 43 workers’ health, dignity, and basic rights. From a business perspective, labor issues can disrupt operations, damage reputation, and incur significant financial costs like legal fees and lost productivity. Moreover, labor 44 can break relationships between employers and employees, eroding trust and cooperation, which are essential for a productive work environment. At a societal level, 45 labor issues can contribute to widening inequalities, social unrest, and economic instability. All the above underscore the importance of fair labor practices between employers and laborers.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/113200_301_0205_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "orienting",
-    "weakening",
-    "enforcing",
-    "distinguishing"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Labor issues encompass a broad range of challenges that can have profound influences on many aspects. At the individual level, labor disputes can lead to job insecurity, financial strain, and emotional 41 for workers. Their livelihoods and overall well-being were hence seriously 42 . Unfair labor practices, such as wage theft, discrimination, and unsafe working conditions, can further exacerbate these challenges, 43 workers’ health, dignity, and basic rights. From a business perspective, labor issues can disrupt operations, damage reputation, and incur significant financial costs like legal fees and lost productivity. Moreover, labor 44 can break relationships between employers and employees, eroding trust and cooperation, which are essential for a productive work environment. At a societal level, 45 labor issues can contribute to widening inequalities, social unrest, and economic instability. All the above underscore the importance of fair labor practices between employers and laborers.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/113200_301_0205_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "force",
-    "bureau",
-    "disorder",
-    "pension"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Labor issues encompass a broad range of challenges that can have profound influences on many aspects. At the individual level, labor disputes can lead to job insecurity, financial strain, and emotional 41 for workers. Their livelihoods and overall well-being were hence seriously 42 . Unfair labor practices, such as wage theft, discrimination, and unsafe working conditions, can further exacerbate these challenges, 43 workers’ health, dignity, and basic rights. From a business perspective, labor issues can disrupt operations, damage reputation, and incur significant financial costs like legal fees and lost productivity. Moreover, labor 44 can break relationships between employers and employees, eroding trust and cooperation, which are essential for a productive work environment. At a societal level, 45 labor issues can contribute to widening inequalities, social unrest, and economic instability. All the above underscore the importance of fair labor practices between employers and laborers.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/113200_301_0205_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "solved",
-    "tolerated",
-    "negotiated",
-    "unresolved請依下文回答第 46 題至第 50 題：While “Great Pacific Garbage Patch” is a term often used by the media, it does not paint an accurate picture of the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Labor issues encompass a broad range of challenges that can have profound influences on many aspects. At the individual level, labor disputes can lead to job insecurity, financial strain, and emotional 41 for workers. Their livelihoods and overall well-being were hence seriously 42 . Unfair labor practices, such as wage theft, discrimination, and unsafe working conditions, can further exacerbate these challenges, 43 workers’ health, dignity, and basic rights. From a business perspective, labor issues can disrupt operations, damage reputation, and incur significant financial costs like legal fees and lost productivity. Moreover, labor 44 can break relationships between employers and employees, eroding trust and cooperation, which are essential for a productive work environment. At a societal level, 45 labor issues can contribute to widening inequalities, social unrest, and economic instability. All the above underscore the importance of fair labor practices between employers and laborers.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/113200_301_0205_45.webp"
   },
   {
    "n": 46,

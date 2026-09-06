@@ -480,70 +480,75 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "enduring",
-    "everlasting",
-    "permanent",
-    "temporary"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106190_401_0206_36.webp"
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "displays",
-    "discovers",
-    "disappears",
-    "disconnects"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106190_401_0206_37.webp"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "parallel",
-    "physical",
-    "previous",
-    "punctual"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/106190_401_0206_38.webp"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "severe",
-    "worthy",
-    "effective",
-    "promising"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106190_401_0206_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. formal ＿＿＿ B. habitual ＿＿＿ C. rational ＿＿＿ D. optional第 41 題至第 45 題為題組Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from",
    "o": [
-    "formal",
-    "habitual",
-    "rational",
-    "optional第 41 題至第 45 題為題組Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces.",
+   "needfig": true,
+   "fig": "img/q/106190_401_0206_40.webp",
    "a": 1
   },
   {

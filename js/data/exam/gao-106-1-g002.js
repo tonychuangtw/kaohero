@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['gao-106-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "taste",
-    "hear",
-    "see",
-    "touch"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/106090_201_0210_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "call",
-    "lose",
-    "miss",
-    "nose"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/106090_201_0210_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "discounted",
-    "dedicated",
-    "demanded",
-    "declared"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106090_201_0210_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "more",
-    "much",
-    "less",
-    "equally"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/106090_201_0210_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "vocal",
-    "visual",
-    "receptive",
-    "tactile請依下文回答第 46 題至第 50 題：The student market in the UK is estimated to be worth £13 billion of spending power in a year. It is a market no"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/106090_201_0210_45.webp"
   },
   {
    "n": 46,

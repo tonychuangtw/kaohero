@@ -149,71 +149,76 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "sequences",
-    "revolutions",
-    "resolutions",
-    "consequences"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Drug abuse has been a serious problem in many developed countries. It exacts a heavy toll on individuals, families, and societies, and thus leads to many detrimental 11 . Physically, the misuse of drugs and alcohol can cause a range of health issues, including organ damage and increased vulnerability to infectious diseases. Moreover, substance abuse often precipitates mental health disorders such as 12 and anxiety. It may thus 13 existing psychological concerns and diminish overall well-being. Socially, addiction can strain relationships, erode trust, and 14 individuals from their support networks. Additionally, drug misuse frequently leads to their difficulties in maintaining everyday lives, as individuals may prioritize obtaining drugs or alcohol over meeting 15 needs such as food, water, and clothes. Ultimately, the outcomes of drug abuse extend beyond the individual and affect communities and societies at large; this highlights the urgent need for prevention, intervention, and support services.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/113200_501_0105_11.webp"
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reference",
-    "depression",
-    "joyfulness",
-    "contentment"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Drug abuse has been a serious problem in many developed countries. It exacts a heavy toll on individuals, families, and societies, and thus leads to many detrimental 11 . Physically, the misuse of drugs and alcohol can cause a range of health issues, including organ damage and increased vulnerability to infectious diseases. Moreover, substance abuse often precipitates mental health disorders such as 12 and anxiety. It may thus 13 existing psychological concerns and diminish overall well-being. Socially, addiction can strain relationships, erode trust, and 14 individuals from their support networks. Additionally, drug misuse frequently leads to their difficulties in maintaining everyday lives, as individuals may prioritize obtaining drugs or alcohol over meeting 15 needs such as food, water, and clothes. Ultimately, the outcomes of drug abuse extend beyond the individual and affect communities and societies at large; this highlights the urgent need for prevention, intervention, and support services.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/113200_501_0105_12.webp"
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "worsen",
-    "enclose",
-    "conclude",
-    "accomplish"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Drug abuse has been a serious problem in many developed countries. It exacts a heavy toll on individuals, families, and societies, and thus leads to many detrimental 11 . Physically, the misuse of drugs and alcohol can cause a range of health issues, including organ damage and increased vulnerability to infectious diseases. Moreover, substance abuse often precipitates mental health disorders such as 12 and anxiety. It may thus 13 existing psychological concerns and diminish overall well-being. Socially, addiction can strain relationships, erode trust, and 14 individuals from their support networks. Additionally, drug misuse frequently leads to their difficulties in maintaining everyday lives, as individuals may prioritize obtaining drugs or alcohol over meeting 15 needs such as food, water, and clothes. Ultimately, the outcomes of drug abuse extend beyond the individual and affect communities and societies at large; this highlights the urgent need for prevention, intervention, and support services.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/113200_501_0105_13.webp"
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "endure",
-    "ensure",
-    "isolate",
-    "impose"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Drug abuse has been a serious problem in many developed countries. It exacts a heavy toll on individuals, families, and societies, and thus leads to many detrimental 11 . Physically, the misuse of drugs and alcohol can cause a range of health issues, including organ damage and increased vulnerability to infectious diseases. Moreover, substance abuse often precipitates mental health disorders such as 12 and anxiety. It may thus 13 existing psychological concerns and diminish overall well-being. Socially, addiction can strain relationships, erode trust, and 14 individuals from their support networks. Additionally, drug misuse frequently leads to their difficulties in maintaining everyday lives, as individuals may prioritize obtaining drugs or alcohol over meeting 15 needs such as food, water, and clothes. Ultimately, the outcomes of drug abuse extend beyond the individual and affect communities and societies at large; this highlights the urgent need for prevention, intervention, and support services.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/113200_501_0105_14.webp"
   },
   {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "reluctant",
-    "fundamental",
-    "magnificent",
-    "outstanding請依下文回答第 16 題至第 20 題：Environmental Art is a very broad term. It embraces a variety of practices and movements such as, and"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Drug abuse has been a serious problem in many developed countries. It exacts a heavy toll on individuals, families, and societies, and thus leads to many detrimental 11 . Physically, the misuse of drugs and alcohol can cause a range of health issues, including organ damage and increased vulnerability to infectious diseases. Moreover, substance abuse often precipitates mental health disorders such as 12 and anxiety. It may thus 13 existing psychological concerns and diminish overall well-being. Socially, addiction can strain relationships, erode trust, and 14 individuals from their support networks. Additionally, drug misuse frequently leads to their difficulties in maintaining everyday lives, as individuals may prioritize obtaining drugs or alcohol over meeting 15 needs such as food, water, and clothes. Ultimately, the outcomes of drug abuse extend beyond the individual and affect communities and societies at large; this highlights the urgent need for prevention, intervention, and support services.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/113200_501_0105_15.webp"
   },
   {
    "n": 16,

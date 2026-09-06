@@ -32,16 +32,14 @@ window.APP_EXAM_PAPERS['loc-108-1-b008'] = {
    "n": 2,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "根據 A. Morales 和 B. Sheafor 提出社會工作的三個主要使命，下列何者錯誤？",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "照顧（caring）",
+    "治療（curing）",
+    "慈善（charity）",
+    "改變社會（changing the society）"
    ],
-   "a": 2,
-   "needfig": true,
-   "fig": "img/q/108190_403_1402_2.webp"
+   "a": 2
   },
   {
    "n": 3,

@@ -246,14 +246,16 @@ window.APP_EXAM_PAPERS['loc-109-1-a017'] = {
    "n": 18,
    "pt": 1,
    "type": "single",
-   "q": "曲線 C 為平面上一個正向簡單封閉路徑，則 ∫ x cos(2 y)dx − x sin(2 y)dy =？C",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "4xsin(2y)",
-    "2xsin(2y)",
-    "0",
-    "(1 2x cos(2 y ) + x 2 cos(2 y ) )"
+    "",
+    "",
+    "",
+    ""
    ],
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/109190_343_2612_18.webp"
   },
   {
    "n": 19,

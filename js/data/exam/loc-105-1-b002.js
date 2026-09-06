@@ -513,56 +513,60 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "where",
-    "there",
-    "here",
-    "which"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/105180_401_0206_39.webp"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "covered",
-    "provided",
-    "dealt",
-    "threatened"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/105180_401_0206_40.webp"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Transformed",
-    "Built",
-    "Planted",
-    "Isolated"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/105180_401_0206_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. destroyed ＿＿＿ B. protected ＿＿＿ C. created ＿＿＿ D. invaded第 43 題至第 46 題為題組A potato farmer was sent to prison just at the time when he should have been digging the ground for planting the",
    "o": [
-    "destroyed",
-    "protected",
-    "created",
-    "invaded第 43 題至第 46 題為題組A potato farmer was sent to prison just at the time when he should have been digging the ground for planting the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "new crop of potatoes. He knew that his wife would not be strong enough to do the digging by herself, but that she could manage to do the planting; and he also knew that he did not have any friends or neighbors who would be willing to do the digging for him. So he wrote a letter to his wife which said, “Please do not dig the potato field. I hid the money and the gun there.” Ten days later he got a letter from his wife. It said, “I think somebody is reading your letters before they go out of the prison. Some policemen arrived here two days ago and dug up the whole potato field. What should I do now?” The farmer wrote back at once, “Plant the potatoes, of course.”",
+   "needfig": true,
+   "fig": "img/q/105180_401_0206_42.webp",
    "a": 2
   },
   {

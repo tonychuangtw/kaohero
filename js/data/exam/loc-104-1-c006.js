@@ -543,70 +543,75 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "kind",
-    "race",
-    "meat",
-    "bean"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/104180_502_0209_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "studies",
-    "sleeps",
-    "breathes",
-    "boils"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/104180_502_0209_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "in",
-    "on",
-    "for",
-    "under"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/104180_502_0209_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "double",
-    "different",
-    "direct",
-    "determined"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/104180_502_0209_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "A. get together ＿＿＿ B. turn over ＿＿＿ C. come across ＿＿＿ D. put together第 46 題至第 50 題為題組American families are different today than they were 100 years ago. The biggest difference is that they are",
    "o": [
-    "get together",
-    "turn over",
-    "come across",
-    "put together第 46 題至第 50 題為題組American families are different today than they were 100 years ago. The biggest difference is that they are"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves.",
+   "needfig": true,
+   "fig": "img/q/104180_502_0209_45.webp",
    "a": 0
   },
   {

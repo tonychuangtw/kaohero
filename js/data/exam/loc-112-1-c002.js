@@ -610,71 +610,76 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "beast",
-    "breast",
-    "plate",
-    "pasta"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/112200_501_0207_46.webp"
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "anniversary",
-    "imagination",
-    "information",
-    "temperature"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/112200_501_0207_47.webp"
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "combination",
-    "decision",
-    "prediction",
-    "reservation"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/112200_501_0207_48.webp"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "different",
-    "personal",
-    "available",
-    "important"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/112200_501_0207_49.webp"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "anxious",
-    "colorful",
-    "expensive",
-    "magical"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/112200_501_0207_50.webp"
   }
  ]
 };

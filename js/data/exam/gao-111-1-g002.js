@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['gao-111-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "die out",
-    "make up",
-    "get set",
-    "go awry"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/111090_301_0115_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "discriminative",
-    "formidable",
-    "hypothetical",
-    "proactive"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/111090_301_0115_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Also",
-    "Yet",
-    "In case",
-    "In practice"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them.",
-   "a": 1
+   "a": 1,
+   "needfig": true,
+   "fig": "img/q/111090_301_0115_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "across the board",
-    "in due course",
-    "out of the blue",
-    "up in the air"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111090_301_0115_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "downsize",
-    "embrace",
-    "pinpoint",
-    "offend請依下文回答第 46 題至第 50 題Before there were alarm clocks, how did people wake up at a specific time they wanted to in the morning? Since the"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/111090_301_0115_45.webp"
   },
   {
    "n": 46,

@@ -539,71 +539,76 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "accepted",
-    "combined",
-    "occupied",
-    "supposed"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/110190_401_0108_41.webp"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "double",
-    "lack",
-    "proper",
-    "worthy"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/110190_401_0108_42.webp"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "guidance",
-    "decrease",
-    "marriage",
-    "purchase"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
-   "a": 0
+   "a": 0,
+   "needfig": true,
+   "fig": "img/q/110190_401_0108_43.webp"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "Lest",
-    "That",
-    "Even",
-    "While"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
-   "a": 3
+   "a": 3,
+   "needfig": true,
+   "fig": "img/q/110190_401_0108_44.webp"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（依上面的短文，選出最適當的答案）",
+   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
    "o": [
-    "But for",
-    "Due to",
-    "Instead of",
-    "Absent from請依下文回答第 46 題至第 50 題"
+    "",
+    "",
+    "",
+    ""
    ],
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
-   "a": 2
+   "a": 2,
+   "needfig": true,
+   "fig": "img/q/110190_401_0108_45.webp"
   },
   {
    "n": 46,
