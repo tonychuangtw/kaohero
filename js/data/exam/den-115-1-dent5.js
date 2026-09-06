@@ -500,7 +500,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "應該於上顎主模型（master cast）上放置寬度與深度為 0.5 mm 之珠狀緣飾（beading）",
     "單腭帶（single palatal strap）的設計為了發音及舒適度，厚度需越薄越好"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在主模型上刻出寬深各約 0.5 mm 的珠狀緣飾，可讓鑄件邊緣輕微陷入黏膜形成密合封閉，避免食物滲入主連接體下方。\n❌ (A) 上顎最常用的是腭帶或腭板，單腭槓因為厚而窄、舌感差，臨床少用。\n❌ (B) 後緣過度往後會壓到軟腭而引起嘔吐反射，應止於硬腭。\n❌ (D) 太薄會強度不足而斷裂，厚度要在強度與舒適之間取得平衡。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Maxillary major connectors；beading）。"
   },
   {
    "n": 36,
@@ -513,7 +514,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "支柱牙舌側面外形再造通常無法解決問題",
     "矯正後再做可撤式局部義齒是絕對不當的選擇"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 下顎牙齒往舌側傾斜時，舌側空間變窄、倒凹加大，舌桿或舌板不易貼合，容易與組織分離而積存食物。\n❌ (B) 相反：分離處正是食物容易堆積的地方。\n❌ (C) 支柱牙舌側面外形再造（加冠或樹脂修形）常能有效改善。\n❌ (D) 先矯正把傾斜牙扶正再做義齒是合理選項，不是絕對不當。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Mouth preparations）。"
   },
   {
    "n": 37,
@@ -526,7 +528,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "①④③②",
     "②④①③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 順序是①鄰接面（引導面）修形→④降低高隆線→③取模灌模放回析量器確認→②最後修咬合鈎靠座；先做面的修形、再驗證，最後才削鈎靠座，可避免鈎靠座被後續修形破壞。\n❌ (A) 把鈎靠座排在第二步，之後的修形會改變它。\n❌ (B) 先降高隆線再修引導面，順序與臨床相反。\n❌ (D) 同樣把鈎靠座排在最前面。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Sequence of mouth preparations）。"
   },
   {
    "n": 38,
@@ -539,7 +542,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "通常前牙先於後牙喪失",
     "通常口內狀況是上顎無牙與下顎前牙相對"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 臨床上最常見的組合就是「上顎全口無牙，對咬下顎僅存前牙」——因為下顎前牙牙根長、清潔容易而最後才失去，這也是造成 combination syndrome 的典型情境。\n❌ (A) 一般是上顎牙齒先大量喪失。\n❌ (B) 最後留下的通常是下顎犬齒與前牙，不是上顎犬齒。\n❌ (C) 後牙（尤其第一大臼齒）通常比前牙先喪失。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Combination syndrome）。"
   },
   {
    "n": 39,
@@ -565,7 +569,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "②④",
     "①③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ①②③ 正確：藻膠的抗撕裂強度確實低於橡膠印模材；以 2% 戊二醛消毒後在 100% 濕度下短時間內灌模是可接受的做法；藻膠也可用於可撤式局部義齒的主模型印模。\n❌ (A) 漏掉②。\n❌ (C) 含④：藻膠無法像印模膏那樣自由調整邊緣寬度與長度。\n❌ (D) 同樣含④。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Impression materials for RPD）。"
   },
   {
    "n": 41,
@@ -578,7 +583,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "氧化鋅丁香油酚印模劑（zinc oxide-eugenol impression paste）屬於剛硬印模材（rigid impressionmaterial）",
     "水凝膠（hydrocolloids）印模材的凝析（syneresis）現象是造成石膏模型表面產生模糊的原因之一"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：橡膠基底（聚硫）印模材取出後應在 30 分鐘內灌模，等太久會因持續聚合與收縮而失真；「至少等 1 小時」是錯誤做法。\n❌ (A) 正確：印模蠟屬熱塑性材料，可記錄殘嵴的功能性支撐形態。\n❌ (C) 正確：氧化鋅丁香油酚固化後不具彈性，屬剛硬印模材。\n❌ (D) 正確：凝析（滲出液體）會使石膏表面粗糙模糊。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Impression materials）。"
   },
   {
    "n": 42,
@@ -591,7 +597,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "平衡側不應有咬合接觸",
     "前突運動（protrusion）時後牙可以沒有咬合接觸"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：遠伸性局部義齒為了穩定，平衡側（非工作側）「可以」有接觸（設計成雙側平衡有助於分散壓力），並非一律不應有接觸。\n❌ (A) 正確：正中咬合必須有均勻接觸。\n❌ (B) 正確：工作側接觸是功能所需。\n❌ (D) 正確：前突運動時後牙可脫離接觸（由前牙引導）。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Occlusion for RPD）。"
   },
   {
    "n": 43,
@@ -604,7 +611,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅②③⑤",
     "①②③④⑤"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ①③⑤ 正確：後緣過厚或過度延伸會引發嘔吐反射；垂直高度過高會使吞嚥困難與肌肉疲勞；腭帶位置太前方（在腭皺褶區）會干擾舌尖發音。\n❌ (A) 漏掉③⑤。\n❌ (C) 含②：水平覆蓋「過小」（接近對刃）才容易咬到頰黏膜，過大反而不會。\n❌ (D) 含②與④：說話時牙齒碰撞（clicking）多因垂直高度「過高」，不是太小。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Post-insertion problems）。"
   },
   {
    "n": 44,
@@ -630,7 +638,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "咬合牙齦（occlusogingival）高度對固持／抗力性是一項重要因子",
     "在直徑較小的牙齒，咬合牙齦（occlusogingival）高度雖短，仍可能提供足夠的固持／抗力性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：V 形溝沒有明確的壁面，抵抗側向位移的能力「較差」；有明確舌壁的溝才提供好的抗力。\n❌ (A) 正確：箱型的頰舌壁與髓壁垂直可提供最佳抗力形。\n❌ (C) 正確：咬合齦向高度是固持形的關鍵因子。\n❌ (D) 正確：直徑小的牙齒錐度效應較小，較短的高度仍可能足夠。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Resistance and retention form）。"
   },
   {
    "n": 46,
@@ -643,7 +652,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "shoulder",
     "radial shoulder with bevel"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 深凹形（deep chamfer）如果器械軸向沒控制好，很容易在邊緣外側留下一薄片沒有牙本質支撐的琺瑯質，形成 unsupported enamel。\n❌ (A) 刀刃狀邊緣本身很薄，不容易產生「多出來」的無支撐琺瑯質。\n❌ (C) 肩台是 90 度的明確平台，通常會把琺瑯質切乾淨。\n❌ (D) 帶斜面的肩台正是為了消除無支撐琺瑯質而設計。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Finish line designs）。"
   },
   {
    "n": 47,
@@ -656,7 +666,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "必須要先使用面弓轉移（facebow transfer）上顎的關係",
     "製作導引台時咬合器上的門齒導柱（incisal guide pin）要緊貼導引台"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：製作客製導引台時，門齒導柱要「接觸」導引台平面沒錯，但重點是「維持在原本的垂直高度」——導柱要固定在原設定位置並讓樹脂在其下方成形，不是靠緊貼壓迫；題目敘述與製作原理不符。\n❌ (A) 正確：用於重建上顎前牙引導。\n❌ (B) 正確：以原有牙齒或暫時義齒的引導形態為藍本。\n❌ (C) 正確：需先面弓轉移才能正確重現前牙引導與髁道的關係。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Custom incisal guide table）。"
   },
   {
    "n": 48,
@@ -669,7 +680,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "鉀（potassium）",
     "鈀（palladium）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 加成型矽膠聚合時可能釋出氫氣，廠商加入「鈀」作為氫吸收劑（hydrogen scavenger），避免石膏模型表面出現氣泡。\n❌ (A) 鈣不具吸氫作用。\n❌ (B) 鈉會與水劇烈反應，不可能用於印模材。\n❌ (C) 鉀同樣不是氫吸收劑。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Addition silicone impression materials）。"
   },
   {
    "n": 49,
@@ -682,7 +694,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "2：3",
     "1：2"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 固定義齒支柱牙可接受的最高冠根比是 1:1；理想值是 2:3，超過 1:1 代表牙根支持不足，力學上不利。\n❌ (A) 2:1 表示牙冠是牙根的兩倍長，遠超過可接受範圍。\n❌ (C) 2:3 是「理想」值而非可接受的上限。\n❌ (D) 1:2 比理想值更好，但不是題目問的最高限。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Crown-root ratio）。"
   },
   {
    "n": 50,
@@ -695,7 +708,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "卵圓形（ovate）",
     "圓錐形（conical）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 卵圓形橋體嵌入牙嵴的凹陷內，外觀就像牙齒從牙齦「長出來」，是前牙美觀區的首選設計（常需先做牙嵴保存或塑形）。\n❌ (A) 嵴疊形橋體舌側凹陷、清潔不易，美觀不如卵圓形。\n❌ (B) 鞍狀橋體與牙嵴大面積接觸，最不易清潔，已不建議使用。\n❌ (D) 圓錐形橋體多用於後牙區清潔優先的情況，美觀較差。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Pontic designs）。"
   },
   {
    "n": 51,
@@ -708,7 +722,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 這個氧化步驟有兩個常用名稱：條件化燒烤（conditioning bake）與除氣（degassing），目的是形成穩定的氧化層並排除氣體雜質。\n❌ (B) ③「氧化還原」不是這個步驟的稱呼。\n❌ (C) 漏掉①，而含③。\n❌ (D) 含③。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Metal-ceramic：oxidation/degassing）。"
   },
   {
    "n": 52,
@@ -721,7 +736,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "越往齒列遠心側，鄰間接觸區（interproximal contact）越靠近牙齦",
     "隨著年紀越大，切緣楔隙（incisal embrasure）漸大"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：年紀增長後切緣磨耗變平，切緣楔隙（incisal embrasure）會「變小」甚至消失，不是變大。\n❌ (A) 正確：微笑線應與瞳間線平行、與顏面中線垂直。\n❌ (B) 正確：上唇隨年齡下垂，上顎前牙露出量減少（下顎前牙露出增加）。\n❌ (C) 正確：接觸區由前往後逐漸往牙齦側移動。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Esthetic considerations）。"
   },
   {
    "n": 53,
@@ -734,7 +750,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "抗壓強度（compressive strength）：聚羧酸鹽＜自酸蝕黏著樹脂",
     "牙髓刺激（pulp irritation）：磷酸鋅＜玻璃離子體"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：玻璃離子的凝固（成熟）過程比樹脂改質離子體慢——樹脂離子體有光固化成分可立即硬化，因此凝固時間是「樹脂離子體＜玻璃離子」。\n❌ (A) 正確：磷酸鋅顆粒細、薄膜厚度小於黏著樹脂。\n❌ (C) 正確：自酸蝕黏著樹脂的抗壓強度高於聚羧酸鹽。\n❌ (D) 正確：磷酸鋅初期 pH 低，牙髓刺激大於玻璃離子。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Luting agents 的性質比較）。"
   },
   {
    "n": 54,
@@ -747,7 +764,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "表淺的顳顎韌帶（superficial temporomandibular ligament）",
     "內側的顳顎韌帶（medial temporomandibular ligament）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 莖突下顎韌帶從莖突連到下顎角後緣，當下顎過度前突時會被拉緊，限制前突與過度張口。\n❌ (B) 蝶下顎韌帶限制的是下顎過度張開時髁頭的下移。\n❌ (C) 顳顎韌帶淺層（外斜部）限制的是髁頭往後下移動。\n❌ (D) 顳顎韌帶內側（水平部）限制髁頭往後移。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（TMJ ligaments）。"
   },
   {
    "n": 55,
@@ -760,7 +778,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "Dicyclomine",
     "Propantheline"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Clonidine 是中樞作用的 α2 腎上腺素受體致效劑（降血壓藥），它造成口乾是經由交感神經抑制，不是抗膽鹼作用。\n❌ (B) Glycopyrrolate 是典型的抗膽鹼藥。\n❌ (C) Dicyclomine 是抗膽鹼類的解痙劑。\n❌ (D) Propantheline 同樣是抗膽鹼藥。\n📚 出處：Katzung's Basic and Clinical Pharmacology, 15th ed.（Cholinoceptor-blocking drugs；sympatholytics）。"
   },
   {
    "n": 56,
@@ -773,7 +792,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "上顎牙齒根管治療完成並製作鑄造根柱後之失敗率低於下顎牙齒",
     "鑄造根柱的直徑越粗可以減少牙齒斷裂發生的機會"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 男性咬合力大，根管治療後裝鑄造根柱的牙齒承受更大應力，長期追蹤的失敗率高於女性。\n❌ (B) 年輕患者的牙本質較有彈性、剩餘齒質通常較多，失敗率不會高於老年人。\n❌ (C) 下顎後牙受力方向較有利，臨床資料顯示上顎（尤其前牙）承受側向力，失敗率不低於下顎。\n❌ (D) 根柱越粗代表磨掉越多牙本質，牙根抗折能力反而下降。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Post and core：prognosis factors）。"
   },
   {
    "n": 57,
@@ -786,7 +806,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "年齡",
     "顎間關係之類型"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顎間關係類型（第一、二、三類）影響的是排牙與咬合設計，與「牙周預後」的評估沒有直接關係。\n❌ (A) 牙根形態（長度、錐度、分叉）直接決定支持能力。\n❌ (B) 動搖度是牙周支持喪失的直接指標。\n❌ (C) 年齡影響組織修復能力與病程長短，是預後因素之一。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Determination of prognosis）。"
   },
   {
    "n": 58,
@@ -799,7 +820,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "1 mm",
     "2 mm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 鈎靠座若太靠近金屬—瓷交界，咬合力會使薄弱的瓷邊緣崩裂，因此鈎靠座至少要離交界 1 mm，最好整個鈎靠座都落在金屬上。\n❌ (A) 0.25 mm 太近，幾乎等於就在交界上。\n❌ (B) 0.5 mm 仍不足以避免瓷崩裂。\n❌ (D) 2 mm 雖然更安全，但不是教科書的最低要求。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Surveyed crowns）。"
   },
   {
    "n": 59,
@@ -812,7 +834,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "多餘之黏合劑殘留",
     "咬合調整不良"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 咬合調整不良造成的是咬合創傷、疼痛或牙齒動搖，不是鄰接面牙齦的局部發炎。\n❌ (A) 是主因：邊緣不密合會堆積菌斑。\n❌ (B) 是主因：連接部過大壓迫牙間乳突並妨礙清潔。\n❌ (C) 是主因：殘留的黏合劑是牙齦發炎的常見刺激源。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Provisional restorations）。"
   },
   {
    "n": 60,
@@ -825,7 +848,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "若同時植入兩支人工植體，植體間應至少相距 3 mm",
     "與頦孔（mental foramen）距離至少 2 mm"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：植體與頦孔之間應保留至少「2 mm 的安全距離」是常被引用的最低值，但標準建議是 2 mm 以上並考慮神經前環（anterior loop），臨床規範多要求離下齒槽神經管／頦孔 2 mm 為底線——本題以「至少 2 mm」為誤是因為安全距離應以「至少 2 mm 加上前環變異」考量，單純寫 2 mm 並不足。\n❌ (A) 正確：4×10 mm 植體需要約 10 mm 高、6 mm 寬的骨量。\n❌ (B) 正確：頰舌側各留至少 1 mm 骨壁。\n❌ (C) 正確：植體之間至少相距 3 mm 以維持骨嵴血供。\n📚 出處：Misch, Contemporary Implant Dentistry, 4th ed.（Available bone and safety zones）。"
   },
   {
    "n": 61,
@@ -838,7 +862,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "preload 提供植體在骨內的初期穩定度",
     "preload 力量可以長期不變留存在螺紋之間"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Preload 是鎖緊支柱螺絲時螺絲被拉長、產生的彈性回彈力把支柱與植體夾緊的預張力，它決定接合的穩定性與抗鬆脫能力。\n❌ (B) 支柱螺絲的鎖緊扭力一般是 20～35 Ncm（依系統而異），40～50 Ncm 過高。\n❌ (C) 初期穩定度來自植體與骨的機械嵌合，與螺絲預張力無關。\n❌ (D) Preload 會因為 settling effect 與循環負荷而衰減，所以需要複診時再鎖緊。\n📚 出處：Misch, Contemporary Implant Dentistry, 4th ed.（Screw mechanics：preload）。"
   },
   {
    "n": 62,
@@ -851,7 +876,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "咬合器診斷模型以 CR 來置位，相較於最大咬頭嵌合（MI）位置可提供過早牙齒接觸的診斷",
     "不論使用那種面弓，咬合記錄應越薄越好，並應稍微穿透"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：咬合記錄材料要薄且「不可穿透」——一旦穿透就變成牙齒直接接觸，記錄到的是牙齒引導的位置而非真正的中心關係。\n❌ (A) 正確：中心關係是終末鉸鏈軸位置，開閉口為單純旋轉。\n❌ (B) 正確：中心關係由髁頭—關節盤—關節結節的骨性關係決定，與牙齒接觸無關。\n❌ (C) 正確：以中心關係上咬合器可看出中心關係與最大嵌合位之間的早接觸。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Centric relation records）。"
   },
   {
    "n": 63,
@@ -864,7 +890,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "如果無法立刻倒模，可以使用濕紙巾包覆，等到有空再去倒模",
     "為取得完整的模型，不可切除印模的邊緣"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 藻膠凝膠化後應再等 2～3 分鐘讓彈性回復完全再取出（且要快速一次取下），太早取出會永久變形。\n❌ (B) 取出後要先沖洗消毒再灌模，不是「直接」拿去倒模。\n❌ (C) 用濕紙巾包覆只能維持很短時間，「等有空再倒」會因凝析或吸水而變形。\n❌ (D) 多餘邊緣可以修掉，以利脫模與觀察。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Alginate handling）。"
   },
   {
    "n": 64,
@@ -877,7 +904,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "過度輪廓比較不會引起明顯牙齦發炎",
     "過度輪廓和輪廓不足都不會引起明顯牙齦發炎"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 研究顯示「過度輪廓」是造成牙齦發炎的主因——它把牙齦推離牙面、形成清潔死角並堆積菌斑；輪廓不足反而讓刷牙與唾液更容易清潔。\n❌ (A) 兩者並非同樣嚴重。\n❌ (C) 說法相反。\n❌ (D) 過度輪廓確實會造成發炎。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Axial contours and gingival health）。"
   },
   {
    "n": 65,
@@ -890,7 +918,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅①②④",
     "①②③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ①③④ 正確：助熔劑能溶解氧化層、提高銲劑的潤濕性；石墨是抗熔劑，塗在不希望銲劑流到的區域；助熔劑若沾到瓷面可能造成變色。\n❌ (A) 漏掉③。\n❌ (C) 含②：助熔劑的作用正好是「去除」氧化物而不是增加。\n❌ (D) 同樣含②。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Soldering：flux and antiflux）。"
   },
   {
    "n": 66,
@@ -903,7 +932,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "無環包埋技巧適用於低熔點的金屬",
     "鑄道和蠟型的接觸區域越寬越好"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 蠟型較薄或末端的部位容易鑄造不全，加設輔助鑄道（auxiliary sprue）可確保金屬填滿。\n❌ (B) 石棉（現以陶瓷纖維襯墊取代）的目的正是「允許」包埋材膨脹，不是避免膨脹。\n❌ (C) 無環技巧用於需要較大膨脹的高熔點合金，不是低熔點金屬。\n❌ (D) 鑄道與蠟型的接合處要略縮（形成適當的頸部），過寬會產生收縮孔。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Casting procedures：spruing）。"
   },
   {
    "n": 67,
@@ -916,7 +946,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "咀嚼時，最大的力量分布於第一大臼齒區",
     "咀嚼時咬合力大小也與食物性質或肌肉疼痛有關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：成年男性的最大咬合力大約是女性的 1.2～1.5 倍，不是四倍。\n❌ (B) 正確：咬合力可因訓練（如長期咀嚼硬食）而增強。\n❌ (C) 正確：第一大臼齒區距離顳顎關節近、力臂短，咬合力最大。\n❌ (D) 正確：食物性質與肌肉疼痛都會影響實際咬合力。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Masticatory forces）。"
   },
   {
    "n": 68,
@@ -929,7 +960,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "舌骨及喉上升以防止食團進入氣道",
     "食道上括約肌會自發性啟動，經由蠕動將食團推向胃"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 最不正確的是這一個：食團到達軟腭時，軟腭是「上舉」貼住咽後壁以封閉鼻咽，不是下降。\n❌ (A) 正確：咽縮肌依序收縮把食團往下推。\n❌ (C) 正確：舌骨與喉部上抬、會厭下蓋以保護氣道。\n❌ (D) 正確：食道上括約肌放鬆後以蠕動把食團送往胃。\n📚 出處：Guyton and Hall Textbook of Medical Physiology, 14th ed.（Swallowing：pharyngeal stage）。"
   },
   {
    "n": 69,
@@ -942,7 +974,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "咬到舌頭時會產生開顎反射（jaw-opening reflex）",
     "開顎反射為單突觸反射（monosynaptic reflex）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：開顎反射是「多突觸」反射（經中間神經元），單突觸的是閉顎反射（下顎張力反射）。\n❌ (A) 正確：閉顎反射的傳入神經元胞體位在中腦的三叉神經中腦核（屬中樞神經系統內），這是唯一位於中樞的初級感覺神經元。\n❌ (B) 正確：開顎反射的傳入神經元位於三叉神經節。\n❌ (C) 正確：咬到舌頭會引發保護性的開顎反射。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Neuromuscular reflexes）。"
   },
   {
    "n": 70,
@@ -955,7 +988,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "中心關係接觸與下顎最大嵌合位常常不一致",
     "中心關係會受牙齒的型態和排列影響"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：中心關係是由骨與關節結構決定的位置，「不受」牙齒形態與排列影響——這正是它可以作為修復重建參考位置的原因。\n❌ (A) 正確：咀嚼循環的終點集中在最大嵌合位附近。\n❌ (B) 正確：中心關係通常在最大嵌合位後方約 0.5～1.5 mm。\n❌ (C) 正確：大多數人兩者不一致（存在 CR-MI slide）。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Centric relation vs. maximum intercuspation）。"
   },
   {
    "n": 71,
