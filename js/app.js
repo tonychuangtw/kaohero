@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260906c';
+  var VER = '20260906d';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D'];
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -261,7 +261,8 @@
       var hit = 0;
       (meta.stages || []).forEach(function (st) {
         var sec = el('section', 'sec'), any = false;
-        sec.appendChild(sectionHead(st.name + T('　') + (st.note || '')));
+        sec.appendChild(sectionHead(st.name));
+        if (st.note) sec.appendChild(el('p', 'lead', st.note));
         (st.groups || []).forEach(function (g) {
           var tracks = g.tracks.filter(function (t) {
             if (!kw) return true;

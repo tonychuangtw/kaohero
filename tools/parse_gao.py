@@ -32,7 +32,8 @@ def _is_en(s):
 
 def _norm(s, en=None):
     if en is None: en = _is_en(s)
-    if en: s = re.sub(r'[ \t]{5,}', ' ＿＿＿ ', s)
+    s = s.strip()
+    if en: s = re.sub(r'(?<=\S)[ \t]{5,}(?=\S)', ' ＿＿＿ ', s)
     return P.norm(s)
 
 
@@ -94,8 +95,30 @@ def _split_letterless(seg, stem_col, wide):
         rows[j - 1][1][-1] += rows[j][1][0]
         rows.pop(j)
     cells = [c for r in rows for c in r[1]]
+    if len(cells) == 1 and '\u3000' not in cells[0]:
+        # 105 國文那種：四個短選項只用「一個空白」分隔，前面的規則會併成一欄
+        parts = [x for x in cells[0].split(' ') if x]
+        if len(parts) == 4: cells = parts
     if len(cells) != 4: return None
     return stem, cells
+
+
+QNLINE = re.compile(r'^[ \t]{0,2}\d{1,3}(?:[ \t]*[.．、]|[ \t]+)')
+
+
+def _split_tail(seg):
+    """把「黏在題目後面的題組短文」切出來。
+       有些卷沒有『請依下文回答第 N 題至第 M 題』這行（112、108、102 的法學英文克漏字），
+       短文就直接跟在上一題的最後一個選項後面，接著幾題只剩四個選項沒有題幹。
+       判準：選項之後出現「縮排 ≤2、長度 ≥60 欄、又不是題號開頭」的長行。"""
+    lines = seg.split('\n')
+    for j in range(1, len(lines)):
+        l = lines[j]
+        if not l.strip(): continue
+        ind = len(l) - len(l.lstrip())
+        if ind <= 2 and _dw(l.rstrip()) >= 60 and not QNLINE.match(l):
+            return '\n'.join(lines[:j]), '\n'.join(lines[j:]).strip()
+    return seg, None
 
 
 def _cut(qs, body, flat, pos, wide=999):
@@ -103,6 +126,8 @@ def _cut(qs, body, flat, pos, wide=999):
     for i, (n, st, en) in enumerate(pos):
         e0 = pos[i + 1][1] if i + 1 < len(pos) else len(body)
         seg, segf = body[en:e0], flat[en:e0]
+        seg, tail = _split_tail(seg)
+        segf = segf[:len(seg)] if tail else segf
         idx, p = [], 0
         for L in OPT:
             m = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L).search(segf, p)
@@ -115,9 +140,9 @@ def _cut(qs, body, flat, pos, wide=999):
             if r:
                 en_q = _is_en(seg)
                 out.append({'n': n, 'q': _norm(r[0], en_q),
-                            'o': [_norm(x, en_q) for x in r[1]], '_st': st})
+                            'o': [_norm(x, en_q) for x in r[1]], '_st': st, '_tail': tail})
             else:
-                out.append({'n': n, 'q': _norm(seg), 'o': [], 'needfig': True, '_st': st})
+                out.append({'n': n, 'q': _norm(seg), 'o': [], 'needfig': True, '_st': st, '_tail': tail})
             continue
         stem = seg[:idx[0][0]]
         en_q = _is_en(stem) or _is_en(seg)
@@ -125,7 +150,7 @@ def _cut(qs, body, flat, pos, wide=999):
         for k in range(4):
             e = idx[k + 1][0] if k + 1 < 4 else len(seg)
             opts.append(_norm(seg[idx[k][1]: e], en_q))
-        q = {'n': n, 'q': _norm(stem, en_q), 'o': opts, '_st': st}
+        q = {'n': n, 'q': _norm(stem, en_q), 'o': opts, '_st': st, '_tail': tail}
         if any(not o for o in opts): q['needfig'] = True
         out.append(q)
     return out
@@ -201,9 +226,8 @@ def _cut_plain(body, wide, expect):
     return out
 
 
-def parse_questions(pdf, expect=None):
-    """回傳 [{n,q,o[4],needfig?}]；expect＝標準答案的題數（有給就用來挑 strict/loose）。"""
-    t = P.text(pdf)
+def _one(pdf, expect, layout):
+    t = P.text(pdf, layout=layout)
     t = QNUM.sub(lambda m: '%s%d. ' % (m.group(1), ord(m.group(2)) - 0xE0C6 + 1), t)
     m = TESTPART.search(t)
     if m: t = t[m.end():]
@@ -223,22 +247,55 @@ def parse_questions(pdf, expect=None):
             qs = fn()
             if len(qs) == expect and not any(q.get('needfig') for q in qs):
                 best = qs; break
-    # 題組短文：抓「請依下文回答第 N 題至第 M 題：」到該組第一題之間的文字
-    marks = []
-    for mm in PSG.finditer(flat):
-        marks.append((int(mm.group(1)), int(mm.group(2)), mm.end()))
-    if marks and best:
-        by_n = {q['n']: q for q in best}
-        for a, b, end in marks:
-            q0 = by_n.get(a)
-            if not q0: continue
-            txt = body[end: q0['_st']].strip()
-            if len(txt) < 40: continue
-            en = _is_en(txt)
-            psg = re.sub(r'\s*\n\s*', ' ' if en else '', txt).strip()
-            psg = re.sub(r'[ \t]{2,}', ' ', psg)
-            for n in range(a, b + 1):
-                q = by_n.get(n)
-                if q: q['psg'] = psg
-    for q in best or []: q.pop('_st', None)
+    _attach_tail(best)
+    _attach_psg(best, body, flat)
+    for q in best or []: q.pop('_st', None); q.pop('_tail', None)
     return best or []
+
+
+def _attach_tail(best):
+    if not best: return
+    for i, q in enumerate(best):
+        tail = q.pop('_tail', None)
+        if not tail: continue
+        en = _is_en(tail)
+        psg = re.sub(r'\s*\n\s*', ' ' if en else '', tail).strip()
+        psg = re.sub(r'[ \t]{2,}', ' ', psg)
+        if len(psg) < 60: continue
+        hit = 0
+        for j in range(i + 1, len(best)):
+            if best[j]['q'].strip(): break
+            best[j]['psg'] = psg; hit += 1
+        if not hit and not q['q'].strip(): q['psg'] = psg
+
+
+def _attach_psg(best, body, flat):
+    """題組短文：抓「請依下文回答第 N 題至第 M 題：」到該組第一題之間的文字，接到該組每一題。"""
+    marks = [(int(m.group(1)), int(m.group(2)), m.end()) for m in PSG.finditer(flat)]
+    if not (marks and best): return
+    by_n = {q['n']: q for q in best}
+    for a, b, end in marks:
+        q0 = by_n.get(a)
+        if not q0 or '_st' not in q0: continue
+        txt = body[end: q0['_st']].strip()
+        if len(txt) < 40: continue
+        en = _is_en(txt)
+        psg = re.sub(r'\s*\n\s*', ' ' if en else '', txt).strip()
+        psg = re.sub(r'[ \t]{2,}', ' ', psg)
+        for n in range(a, b + 1):
+            q = by_n.get(n)
+            if q: q['psg'] = psg
+
+
+def parse_questions(pdf, expect=None):
+    """回傳 [{n,q,o[4],needfig?,psg?}]；expect＝標準答案的題數。
+       先用 -layout（版面對齊，縮排還原用得到），失敗再退回原始閱讀順序
+       —— 英文區塊排成兩欄時 -layout 會把題號順序打亂（103 高考法學第 47~50 題）。"""
+    qs = _one(pdf, expect, True)
+    if expect and (len(qs) != expect or any(q.get('needfig') for q in qs)):
+        alt = _one(pdf, expect, False)
+        if len(alt) == expect and not any(q.get('needfig') for q in alt):
+            return alt
+        if expect and len(qs) != expect and len(alt) == expect:
+            return alt
+    return qs

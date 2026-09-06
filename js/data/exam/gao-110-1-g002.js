@@ -1,0 +1,679 @@
+/* 110 年　高考三級　法學知識與英文（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
+ "id": "gao-110-1-g002",
+ "cat": "civil",
+ "exam": "gao",
+ "stage": 1,
+ "roc": 110,
+ "nth": 1,
+ "code": "110090",
+ "subj": "g002",
+ "title": "110 年　高考三級　法學知識與英文",
+ "subjName": "法學知識與英文",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋，下列何者不屬於法治國原則之內涵？",
+   "o": [
+    "實質正當可取代程序合法",
+    "維護人民之權利",
+    "法安定性原則",
+    "信賴保護原則"
+   ],
+   "a": 0
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "甲已滿 20 歲，卻未受基本教育，依憲法本文規定，應一律受下列何種教育？",
+   "o": [
+    "補習教育",
+    "國民教育",
+    "成人教育",
+    "社區教育"
+   ],
+   "a": 0
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋，有關中央立法強制地方自治團體分攤一定比例之健保費，下列敘述何者正確？",
+   "o": [
+    "違憲，因為全民健保是由中央立法並執行之事項，中央應自行負擔經費",
+    "違憲，因為中央立法涉及地方之財政負擔時，須經地方政府代表之同意才行",
+    "合憲，因為地方負協力義務，因此中央可立法強制地方分攤，但立法時，要給予地方政府代表出席陳述意見之機會",
+    "合憲，中央有權立法，但若要使地方分攤經費，在立法時要給予地方政府代表否決之機會"
+   ],
+   "a": 2
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何項雖為室外集會，但不須向主管機關事前申請許可？",
+   "o": [
+    "集體向主管機關表達抗議",
+    "廟會、婚、喪、喜慶活動",
+    "集體向立法院陳情抗議",
+    "集體向法院抗議司法不公"
+   ],
+   "a": 1
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "關於憲法對性別平等之保障，下列何者尚未被司法院大法官援引為國家促進兩性實質平等之依據或參考？",
+   "o": [
+    "憲法第 156 條：國家應保護母性並實施婦女福利政策",
+    "憲法增修條文第 10 條第 6 項：國家應消除性別歧視，促進兩性地位之實質平等",
+    "憲法第 7 條：中華民國人民無分男女在法律上一律平等",
+    "聯合國消除對婦女一切形式歧視公約第 2 條與第 5 條"
+   ],
+   "a": 0
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "藥師法第 11 條規定藥師經登記領照執業者，其執業處所應以一處為限，牴觸下列何種權利？",
+   "o": [
+    "居住自由",
+    "工作權",
+    "財產權",
+    "平等權"
+   ],
+   "a": 1
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "有關租稅，下列何種事項得以命令訂之？",
+   "o": [
+    "租稅主體",
+    "租稅客體",
+    "繳納方式",
+    "稅基"
+   ],
+   "a": 2
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "刑法第 311 條規定，以善意發表言論，對於可受公評之事，為適當之評論者，不罰。此規定係衡平相關利益與受公評者之下列何種權利？",
+   "o": [
+    "隱私權",
+    "言論自由",
+    "一般行為自由",
+    "名譽權"
+   ],
+   "a": 3
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法或憲法增修條文規定，有關總統刑事豁免權，下列敘述何者錯誤？",
+   "o": [
+    "總統除犯內亂或外患罪外，非經罷免或解職，不受刑事上之訴究",
+    "總統之刑事豁免權，為憲法基於總統作為國家元首特殊身分所為之尊崇與保障，乃一種暫時性之程序障礙",
+    "總統之刑事豁免權，亦及於因他人刑事案件而對總統所為之證據調查與證據保全",
+    "發現總統有犯罪嫌疑者，雖得為必要之證據保全，但不得限制總統之人身自由"
+   ],
+   "a": 2
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "總統為國家元首，行政院院長為國家最高行政機關之首長，有關總統與行政院院長之職權，下列敘述何者錯誤？",
+   "o": [
+    "總統依法公布法律，發布命令，須經行政院院長及有關部會首長之副署",
+    "行政院院長依法任免文武官員",
+    "總統依法宣布戒嚴，但須經立法院之通過或追認",
+    "行政院院長為行政院會議主席"
+   ],
+   "a": 1
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "有關立法院，下列敘述何者錯誤？",
+   "o": [
+    "立法院設院長、副院長各 1 人，由立法委員互選之，均以得出席人數過半數之票數者為當選",
+    "立法院會期，每年兩次，自行召集，但須有立法委員總額 3 分之 1 出席，始得開會",
+    "立法委員總額，以每屆當選人數為計算標準，但會期中辭職、去職或亡故者，應減除之",
+    "立法院受總統之咨請，得召開臨時會"
+   ],
+   "a": 2
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "依憲法增修條文規定，下列何者並非監察院彈劾之對象？",
+   "o": [
+    "總統",
+    "法官",
+    "監察院院長",
+    "考試委員"
+   ],
+   "a": 0
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "憲法第 81 條規定，法官非依法律不得減俸。下列敘述何者錯誤？",
+   "o": [
+    "立法院得以法律通案刪減全國法官之俸給",
+    "立法院基於俸給之公平性，得立法或修法刪減退職法官之月退休俸",
+    "立法院得以年度預算案刪減大法官之職務加給",
+    "立法院得以預算案降低司法院院長與副院長之公務座車等級"
+   ],
+   "a": 2
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "有關我國違憲審查制度，下列敘述何者正確？",
+   "o": [
+    "司法院大法官由總統逕行提名及任命",
+    "司法院大法官共計 15 人，任期 8 年，期滿並得連任 1 次",
+    "憲法訴訟法規定人民得聲請解釋確定終局裁判違憲",
+    "對於裁判上所應適用之法律認為有牴觸憲法而欲聲請解釋憲法之法官，僅限於最高法院及最高行政法院法官"
+   ],
+   "a": 2
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "關於新聞自由，下列敘述何者正確？",
+   "o": [
+    "為憲法所未明文之權利，受憲法第 22 條保障",
+    "受保障之主體包括媒體機構及其所屬新聞從業人員",
+    "非任職媒體公民記者的採訪行為，僅受一般行為自由之保障",
+    "新聞採訪行為對於公眾意見形成至關重要，僅在具有明顯而立即危險時，國家方得以法律限制"
+   ],
+   "a": 1
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "關於民法第 1 條規定之習慣成立要件，下列敘述何者錯誤？",
+   "o": [
+    "須有慣行多年之事實",
+    "必須已有法院透過判決予以承認",
+    "須為成文法未規定之事項",
+    "須為社會一般大眾確信其有法之效力"
+   ],
+   "a": 1
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "某縣政府為保障觀光客之安全，擬規定該縣內觀光用漁業舢舨，必須提供救生衣，違反者處 5 萬元以下之罰鍰。依據地方制度法之規定，此一法規應屬下列何者？",
+   "o": [
+    "自治條例",
+    "委辦規則",
+    "自律規則",
+    "自治規則"
+   ],
+   "a": 0
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "立法院會議之決議，除法令另有規定外，至少應經多少立法委員之同意行之？",
+   "o": [
+    "超過出席立法委員三分之二",
+    "超過出席立法委員二分之一",
+    "超過立法委員總額三分之二",
+    "超過立法委員總額二分之一"
+   ],
+   "a": 1
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "某地方自治法規明訂對於拒絕裝設再生能源系統者，主管機關得處新臺幣一萬元以上十萬元以下罰鍰。上述自治法規除須經地方立法機關議決外，尚須經何種程序始能生效？",
+   "o": [
+    "應報經司法院備查後發布",
+    "無須呈送中央，直接由地方行政首長發布",
+    "應報經立法院核定後發布",
+    "應分別報經行政院、中央各該主管機關核定後發布"
+   ],
+   "a": 3
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "依地方制度法規定，應由被代行處理機關支出之費用，被代行處理機關拒絕支付時，應如何解決？",
+   "o": [
+    "上級政府自行吸收該費用",
+    "上級政府拒絕發補助款",
+    "上級政府得自以後年度之補助款中扣減抵充",
+    "上級政府得自以後年度之統籌分配款中扣減抵充"
+   ],
+   "a": 2
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "依地方制度法規定，直轄市長有下列何種事由時，得停止其職務？",
+   "o": [
+    "曾犯刑法過失傷害罪經判刑確定者",
+    "依刑事訴訟程序被檢察機關拘提者",
+    "因積欠稅捐遭限制出境者",
+    "依刑事訴訟程序被通緝者"
+   ],
+   "a": 3
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者的行政行為，不適用行政程序法的程序規定？",
+   "o": [
+    "經濟部智慧財產局否准商標之登記",
+    "考選部審查國家考試報考資格",
+    "公平交易委員會調查事業聯合行為",
+    "審計部審查政府財務決算"
+   ],
+   "a": 3
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "下列關於民法上債權讓與的敘述，何者錯誤？",
+   "o": [
+    "屬於處分行為",
+    "債權讓與，非經債務人同意，對於債務人不生效力",
+    "當事人得為禁止債權讓與的約定",
+    "已起訴的非財產上損害賠償請求權，得為讓與"
+   ],
+   "a": 1
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "依司法院大法官解釋之意旨，下列何者違反憲法所保障之平等權？",
+   "o": [
+    "道路交通管理處罰條例規定，有特定前科者不得辦理營業小客車駕駛人執業登記",
+    "兩岸關係條例規定，大陸地區人民經許可進入臺灣地區者，非在臺灣地區設有戶籍滿十年，不得擔任公務人員",
+    "內政部對於九二一大地震災區住屋全倒、半倒者，發給慰助金之對象，以設籍、實際居住於受災屋與否作為判斷依據",
+    "公職人員選舉罷免法規定，無政黨推薦之候選人須繳納較政黨推薦之候選人為高之保證金"
+   ],
+   "a": 3
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "依民法之規定，關於消滅時效之敘述，下列敘述何者正確？",
+   "o": [
+    "請求權已經時效消滅，債務人以單方行為承認該債務者，即不得以不知時效為由，而拒絕履行該債務",
+    "時效期間得以法律行為加長或減短之",
+    "請求權於時效完成後，請求權歸於消滅",
+    "時效完成後，因時效受利益之人得拋棄時效之利益"
+   ],
+   "a": 3
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "依民法第 1031 條規定，夫妻之財產及所得，除特有財產外，合併為共同財產，屬於夫妻公同共有。下列何者並非特有財產？",
+   "o": [
+    "專供夫或妻個人使用之物",
+    "夫或妻於婚後所賺取之工作薪資",
+    "夫或妻職業上必需之物",
+    "夫或妻所受之贈物，經贈與人以書面聲明為其特有財產者"
+   ],
+   "a": 1
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何種情形，法院應依刑法第 75 條撤銷對受判決人緩刑之宣告？",
+   "o": [
+    "緩刑期內因故意犯他罪，而在緩刑期內受拘役或罰金之宣告確定者",
+    "緩刑前因過失犯他罪，而在緩刑期內受罰金之宣告確定者",
+    "緩刑期內因過失犯他罪，而在緩刑期內受拘役之宣告確定",
+    "緩刑前因故意犯他罪，而在緩刑期內受逾六月有期徒刑之宣告確定者"
+   ],
+   "a": 3
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "市議會議員張三於選舉議長時，故意將選票圈選的內容出示於眾，下列敘述何者正確？",
+   "o": [
+    "張三構成刑法第 132 條第 1 項公務員洩露國防以外祕密罪，因為張三是公務員",
+    "張三構成刑法第 132 條第 1 項公務員洩露國防以外祕密罪，因為選舉應以無記名之方式為之",
+    "張三不構成犯罪，因為張三不是公務員",
+    "張三不構成犯罪，因為其圈選內容非屬公務祕密"
+   ],
+   "a": 3
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "甲完成一本小說創作，為該小說之著作人。乙公司將之改編為電影。關於著作人格權之敘述，下列敘述何者正確？",
+   "o": [
+    "著作人格權不得繼承，故若甲因故驟逝，其著作人格權即不受保護，任何人得自由利用",
+    "乙公司基於甲的小說所改編的電影公開發表時，甲有要求於該電影上表示其本名、別名或不具名之權利",
+    "若乙公司於改編時未完全忠於甲之原著內容，無論是否足致損害甲的名譽，均構成著作人格權之侵害",
+    "為便利乙公司代為追訴盜版業者，甲得將著作人格權專屬授權予乙公司代為行使"
+   ],
+   "a": 1
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "A 股份有限公司共有 7 名董事，分別為甲乙丙丁戊己庚。而 B 股份有限公司則設有 5 名董事，分別為甲丙丁戊壬。A 公司並持有 B 公司已發行有表決權股份總數之 35%；B 公司則持有 A 公司已發行有表決權股份總數之 30%。依此條件，下列關於",
+   "o": [
+    "B 公司之敘述何者正確？A. A 公司與 B 公司相互持股各達對方有表決權股份總數四分之一以上，故為相互投資公司",
+    "A 公司與 B 公司不符合控制與從屬關係之持股成數形式認定要件，因此 A、B 公司不具控制與從屬關係",
+    "A 公司持有 B 公司有表決權股份總數達三分之一以上，故兩者為相互投資公司",
+    "A 公司與 B 公司之董事有半數以上相同，故推定為有控制與從屬關係請依下文回答第 31 題至第 35 題"
+   ],
+   "a": 3
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "Along",
+    "Down",
+    "Toward",
+    "Up"
+   ],
+   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
+   "a": 0
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "appreciated",
+    "decoded",
+    "forgotten",
+    "studied"
+   ],
+   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
+   "a": 2
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "impossibly",
+    "imperfectly",
+    "indefinitely",
+    "intentionally"
+   ],
+   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
+   "a": 1
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "bilingual",
+    "monolingual",
+    "literary",
+    "illiterate"
+   ],
+   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
+   "a": 0
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "heritage",
+    "source",
+    "sign",
+    "target"
+   ],
+   "psg": "For most of its history, America was precisely the “polyglot boardinghouse” Teddy Roosevelt once worried it would become. That history has turned out very well not just for America, but for English—the most successful language in the history of the world. 31 with American power, English has spread around the globe. At home, wave after wave of immigrants to America have not only learned English but 32 the languages their parents brought with them. Today the typical pattern is that the arriving generation speaks little English, or learns it 33 ; the first children born in America are 34 , but English-dominant, and their children hardly speak the 35 language. This is as true of Hispanics as it is of speakers of smaller languages.",
+   "a": 0
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "After discovering that a migrant has provided fake and false documents for extending his stay in the country, animmigrant officer has decided to ＿＿＿ the illegal migrant.",
+   "o": [
+    "dazzle",
+    "deduct",
+    "defect",
+    "deport"
+   ],
+   "a": 3
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "When Pamela moved with her husband from Germany to the United States, she didn't feel like ＿＿＿ there untilthey had their first son a few years later.",
+   "o": [
+    "putting down roots",
+    "bringing to heel",
+    "calling the tune",
+    "cracking the whip"
+   ],
+   "a": 0
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "In a forced migration, a person ＿＿＿ moves to another country for the sake of political, economic orenvironmental reasons.",
+   "o": [
+    "immensely",
+    "implicitly",
+    "involuntarily",
+    "inefficiently"
+   ],
+   "a": 2
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "Jeff first came to Australia as a tourist and became a(n) ＿＿＿ immigrant because he didn't actually leave thecountry before his visa was expired.",
+   "o": [
+    "perpetual",
+    "substantial",
+    "unrestricted",
+    "undocumented"
+   ],
+   "a": 3
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "An executive action signed by the president allowed as many as five million living in the country to illegally stayand also to significantly reduce the ＿＿＿ rates.",
+   "o": [
+    "inflation",
+    "implication",
+    "deportation",
+    "exportation"
+   ],
+   "a": 2
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "The British pound has ＿＿＿ against the US dollar considerably in recent weeks due to the result of the Brexitreferendum. That is, the pound has become cheaper.",
+   "o": [
+    "deflated",
+    "decreased",
+    "despaired",
+    "depreciated"
+   ],
+   "a": 3
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "Migration statistics reports often underestimate the level of migration due to illegal or ＿＿＿ immigration.",
+   "o": [
+    "clandestine",
+    "delusive",
+    "submissive",
+    "legitimate"
+   ],
+   "a": 0
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "When the time comes for your relative to immigrate, you must agree to be his or her financial ＿＿＿ by filingForm I-864, Affidavit of Support.",
+   "o": [
+    "presenter",
+    "inheritor",
+    "beneficiary",
+    "sponsor"
+   ],
+   "a": 3
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "Millions of refugees have ＿＿＿ the Mediterranean Sea in the last few years to apply for asylum in the EuropeanUnion.",
+   "o": [
+    "traversed",
+    "infused",
+    "invaded",
+    "distressed"
+   ],
+   "a": 0
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "At times a visitor visa issued from the Taiwan consulate has to be extended and later ＿＿＿ to a resident visa.",
+   "o": [
+    "condemned",
+    "converged",
+    "converted",
+    "condensed請依下文回答第 46 題至第 50 題"
+   ],
+   "a": 2
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "drill",
+    "drizzle",
+    "drift",
+    "draft"
+   ],
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
+   "a": 2
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "hollow",
+    "shallow",
+    "mellow",
+    "hallow"
+   ],
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
+   "a": 1
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "lodged",
+    "dodged",
+    "nudged",
+    "judged"
+   ],
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
+   "a": 0
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "proxy",
+    "prolixity",
+    "probity",
+    "proximity"
+   ],
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
+   "a": 3
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "（依上面的短文，選出最適當的答案）",
+   "o": [
+    "hocky",
+    "hide-and-seek",
+    "tug-of-war",
+    "marathon"
+   ],
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart.",
+   "a": 2
+  }
+ ]
+};
