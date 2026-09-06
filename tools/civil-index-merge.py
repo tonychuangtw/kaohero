@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""把 gen_gao.py 產出的 gao-index.json（科目表＋類科表）併進 tools/index-spec.json。
+"""把 gen_civil.py 產出的 <spec>-index.json（科目表＋類科表）併進 tools/index-spec.json。
 
-分類樹：等別（高考三級／普通考試）→ 類群（tools/gao-groups.json 人工維護）→ 類科 → 科目 → 年份卷。
-用法：python3 tools/gao-index-merge.py <工作目錄的 gao-index.json>
+分類樹：等別 →類群（tools/gao-groups.json 人工維護，高普考與地方特考共用）→ 類科 → 科目 → 年份卷。
+用法：python3 tools/civil-index-merge.py <工作目錄的 gao-index.json 或 local-index.json>
 """
 import json, os, sys, re
 
@@ -24,16 +24,18 @@ def main():
         spec['subjects'][key] = {'name': v['name'],
                                  'note': note[0] if note else '',
                                  'stage': v['lvl']}
+    exam_id = src.get('exam', 'gao')
     stages = []
-    for lvl, lvname, note in ((1, '高考三級', '大學（含）以上程度，多數類科需專業科目申論'),
-                              (2, '普通考試', '高中職（含）以上程度，專業科目多為測驗題')):
+    for lv in src.get('levels', [{'no': 1, 'name': '高考三級', 'note': ''},
+                                 {'no': 2, 'name': '普通考試', 'note': ''}]):
+        lvl, lvname, note = lv['no'], lv['name'], lv.get('note', '')
         trs = src['tracks'].get(str(lvl), {})
         by = {}
         for tn, keys in trs.items():
             keys = [k for k in keys if k in src['subjects']]
             if not keys: continue
-            by.setdefault(where.get(tn, '其他類科'), []).append(
-                {'id': '%s-%s' % ('g' if lvl == 1 else 'p', re.sub(r'\s+', '', tn)),
+            by.setdefault(where.get(tn.replace('離島・', ''), '其他類科'), []).append(
+                {'id': '%s%d-%s' % (exam_id, lvl, re.sub(r'\s+', '', tn)),
                  'name': tn, 'subjects': sorted(keys)})
         order = list(groups) + ['其他類科']
         gs = [{'name': g, 'tracks': sorted(by[g], key=lambda t: t['name'])}
@@ -44,10 +46,10 @@ def main():
                            'subjects': allk, 'groups': gs})
     for c in spec['cats']:
         for x in c['exams']:
-            if x['id'] == 'gao':
+            if x['id'] == exam_id:
                 x['live'] = bool(stages); x['stages'] = stages
     json.dump(spec, open(SPEC, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    print('高普考：科目 %d、等別 %d；類科 %d' % (
+    print('%s：科目 %d、等別 %d；類科 %d' % (exam_id,
         len(src['subjects']), len(stages),
         sum(len(t['tracks']) for s in stages for t in s['groups'])))
     miss = sorted({tn for lvl in src['tracks'] for tn in src['tracks'][lvl]} - set(where))

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""高普考（公務人員高等考試三級考試暨普通考試）題庫轉檔。
+"""公職考試（高普考、地方特考）題庫轉檔。
 
 跟醫事類（gen_bank.py）分開寫，因為高普考多了三件事：
   ① 一年 800~1,200 個「類科×科目」，但同一份卷掛在幾十個類科底下 → 以科目代碼 s 去重，
@@ -9,8 +9,8 @@
   ③ 只有選擇題卷做得起來：申論卷沒有標準答案（平臺 t=S 回非 PDF），直接跳過。
 
 用法（在工作目錄裡跑，需有 rows-<roc>.json 與 pdf/）：
-  python3 ~/TelegramClaude/kaoguhero/tools/gen_gao.py [--figs] [--limit N]
-產出：out/<pid>.js、outimg/*.webp、gao-index.json、gao-skipped.json
+  python3 ~/TelegramClaude/kaoguhero/tools/gen_civil.py [gao|local] [--limit N]
+產出：out/<pid>.js、outimg/*.webp、<spec>-index.json、<spec>-skipped.json、figs.json
 """
 import os, re, sys, json, glob, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -18,9 +18,39 @@ import parse as P
 import parse_gao as G
 
 LAB = 'ABCD'
-LVL = {'高考三級': 1, '普通考試': 2}
-LVLKEY = {1: 'g', 2: 'p'}
-REG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gao-subjects.json')
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+# 每一種考試：等別怎麼判、科目 key 的前綴、卷 id 的前綴（必須是三個小寫字母，test.js 有守門）
+SPECS = {
+    'gao': {'cat': 'civil', 'exam': 'gao', 'prefix': 'gao',
+            'levels': [(1, '高考三級', ('高考三級',)), (2, '普通考試', ('普通考試',))],
+            'lvlkey': {1: 'g', 2: 'p'},
+            'note': {1: '大學（含）以上程度，多數類科需專業科目申論',
+                     2: '高中職（含）以上程度，專業科目多為測驗題'}},
+    # 地方特考：等別寫法歷年不同（三等考試／三等／地方政府公務人員考試三等…），用「包含三等」判定；
+    # 同一次考試還掛著離島地區公務人員考試，類科名前面加「離島・」區分。
+    'local': {'cat': 'civil', 'exam': 'local', 'prefix': 'loc',
+              'levels': [(1, '三等', ('三等',)), (2, '四等', ('四等',)), (3, '五等', ('五等',))],
+              'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
+              'note': {1: '大學（含）以上程度', 2: '高中職（含）以上程度', 3: '不限學歷，全測驗題'}},
+}
+SPEC = SPECS['gao']
+REG = os.path.join(HERE, 'gao-subjects.json')
+
+
+def lvl_of(cn):
+    """從類科名稱前綴判斷等別；判不出來回 None（那一列就跳過）。"""
+    head = (cn or '').split('_')[0]
+    for no, _name, keys in SPEC['levels']:
+        if any(k in head for k in keys): return no
+    return None
+
+
+def track_name(cn, lvl):
+    tn = cn.split('_', 1)[1] if '_' in cn else cn
+    tn = re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()
+    if '離島' in (cn or '').split('_')[0]: tn = '離島・' + tn
+    return tn
 
 
 def sane(qs):
@@ -73,7 +103,7 @@ def key_of(reg, lvl, name):
     k = '%d|%s' % (lvl, name)
     if k not in reg:
         n = 1 + sum(1 for v in reg.values() if v['lvl'] == lvl)
-        reg[k] = {'key': '%s%03d' % (LVLKEY[lvl], n), 'name': name, 'lvl': lvl}
+        reg[k] = {'key': '%s%03d' % (SPEC['lvlkey'][lvl], n), 'name': name, 'lvl': lvl}
     return reg[k]['key']
 
 
@@ -98,7 +128,7 @@ def collisions(rows):
        而且是整個科目家族都加註（不要有的年份加、有的年份不加，那會變成兩個不相干的科目）。"""
     seen, dup = {}, set()
     for roc, code, c, cn, s_, sn, trs in rows:
-        lvl = LVL.get((cn or '').split('_')[0])
+        lvl = lvl_of(cn)
         if not lvl: continue
         k = (roc, lvl, canon(sn))
         if k in seen and seen[k] != s_: dup.add((lvl, canon(sn)))
@@ -109,13 +139,16 @@ def collisions(rows):
 def primary(trs, lvl):
     """這份卷的「主類科」＝平臺列出來的第一個類科（順序穩定，跨年份不會亂跳）。"""
     for t in trs:
-        if LVL.get(t.split('_')[0]) == lvl:
-            tn = t.split('_', 1)[1] if '_' in t else t
-            return re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()
+        if lvl_of(t) == lvl: return track_name(t, lvl)
     return ''
 
 
 def main():
+    global SPEC, REG
+    name = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') else 'gao'
+    if name not in SPECS: sys.exit(__doc__ + '\n可用的：' + '、'.join(SPECS))
+    SPEC = SPECS[name]
+    REG = os.path.join(HERE, '%s-subjects.json' % name)
     work = os.getcwd()
     want_figs = '--figs' in sys.argv
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else 0
@@ -134,7 +167,7 @@ def main():
         if not os.path.exists(ap): continue          # 申論卷
         if not os.path.exists(qp):
             skipped.append([roc, code, s, sn, '沒有試題 PDF']); continue
-        lvl = LVL.get((cn or '').split('_')[0])
+        lvl = lvl_of(cn)
         if not lvl:
             skipped.append([roc, code, s, sn, '無法判斷等別：' + cn]); continue
         name = canon(sn)
@@ -144,9 +177,7 @@ def main():
         key = key_of(reg, lvl, name)
         notes[key].add(sn)
         for t in trs:
-            tn = t.split('_', 1)[1] if '_' in t else t
-            tn = re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()   # 僑務行政(選試英文/法文…) 併成同一個類科
-            if LVL.get(t.split('_')[0]) == lvl: tracks[lvl][tn].add(key)
+            if lvl_of(t) == lvl: tracks[lvl][track_name(t, lvl)].add(key)
         ans = P.parse_answers(ap)
         if not ans:
             skipped.append([roc, code, s, sn, '答案讀不出來']); continue
@@ -157,7 +188,7 @@ def main():
         if len(qs_raw) != len(ans):
             skipped.append([roc, code, s, sn, '題數 %d≠答案 %d' % (len(qs_raw), len(ans))]); continue
         corr = P.parse_corrections(mp) if os.path.exists(mp) else {}
-        pid = 'gao-%d-1-%s' % (roc, key)   # 第三段固定 1（高普考一年一次），等別在 key 的 g/p 前綴
+        pid = '%s-%d-1-%s' % (SPEC['prefix'], roc, key)   # 第三段固定 1（一年一次），等別在 key 的前綴
         qs = []
         for q in qs_raw:
             n = q['n']
@@ -201,8 +232,8 @@ def main():
             item['o'] = ['', '', '', '']
             item.pop('psg', None)
             figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
-        lvname = '高考三級' if lvl == 1 else '普通考試'
-        paper = {'id': pid, 'cat': 'civil', 'exam': 'gao', 'stage': lvl,
+        lvname = [x[1] for x in SPEC['levels'] if x[0] == lvl][0]
+        paper = {'id': pid, 'cat': SPEC['cat'], 'exam': SPEC['exam'], 'stage': lvl,
                  'roc': roc, 'nth': 1, 'code': code, 'subj': key,
                  'title': '%d 年　%s　%s' % (roc, lvname, name),
                  'subjName': name,
@@ -220,8 +251,10 @@ def main():
                                    'note': sorted(notes[v['key']])} for v in reg.values()
                         if v['key'] in notes},
            'tracks': {str(l): {t: sorted(ks) for t, ks in sorted(d.items())} for l, d in tracks.items()}}
-    json.dump(idx, open('gao-index.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    json.dump(skipped, open('gao-skipped.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    idx['exam'] = SPEC['exam']
+    idx['levels'] = [{'no': no, 'name': nm, 'note': SPEC['note'][no]} for no, nm, _ in SPEC['levels']]
+    json.dump(idx, open('%s-index.json' % name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(skipped, open('%s-skipped.json' % name, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(figs, open('figs.json', 'w', encoding='utf-8'), ensure_ascii=False)
     print('成卷 %d、題 %d、需裁圖 %d、跳過 %d' % (
         len(done), sum(n for _, n in done), len(figs), len(skipped)))
