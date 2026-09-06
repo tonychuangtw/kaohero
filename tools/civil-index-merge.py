@@ -30,6 +30,11 @@ def main():
                                  {'no': 2, 'name': '普通考試', 'note': ''}]):
         lvl, lvname, note = lv['no'], lv['name'], lv.get('note', '')
         trs = src['tracks'].get(str(lvl), {})
+        if not src.get('tracks'):
+            # 沒有「類科」這一層的考試（教檢）：直接把該等別的科目列出來就好
+            keys = sorted(k for k, v in src['subjects'].items() if v['lvl'] == lvl)
+            if keys: stages.append({'no': lvl, 'name': lvname, 'note': note, 'subjects': keys})
+            continue
         by = {}
         for tn, keys in trs.items():
             keys = [k for k in keys if k in src['subjects']]
@@ -51,7 +56,7 @@ def main():
     json.dump(spec, open(SPEC, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('%s：科目 %d、等別 %d；類科 %d' % (exam_id,
         len(src['subjects']), len(stages),
-        sum(len(t['tracks']) for s in stages for t in s['groups'])))
+        sum(len(t['tracks']) for s in stages for t in s.get('groups', []))))
     miss = sorted({tn.replace('離島・', '') for lvl in src['tracks']
                    for tn in src['tracks'][lvl]} - set(where))
     if miss: print('⚠ 沒分群（會落到「其他類科」）：', '、'.join(miss))

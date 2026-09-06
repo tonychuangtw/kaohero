@@ -20,7 +20,10 @@ OPT5 = 'ABCDE'      # 少數卷是五選一（地方特考五等國文）
 # 102～106 的國文卷把題號 1~10 存成私用區字元 \ue0c6~\ue0cf（一份卷剛好連續十個、各出現一次），
 # pdftotext 讀出來不是數字，題號序列就整個斷掉 → 只在「行首」還原成數字，避免誤傷別的用途。
 QNUM = re.compile(r'(?m)^([ \t]*)([\ue0c6-\ue0cf])')
-PSG = re.compile(r'請依下(?:文|列)(?:短文)?回答第\s*(\d+)\s*題至第\s*(\d+)\s*題[：:]?')
+# 題組短文的引導語有兩種寫法：國考卷「請依下文回答第 41 題至第 45 題」、
+# 教檢卷「閱讀下文後，回答 1-5 題」
+PSG = re.compile(r'請依下(?:文|列)(?:短文)?回答第\s*(\d+)\s*題至第\s*(\d+)\s*題[：:]?'
+                 r'|閱讀下(?:文|列短文)後?[，,]?\s*回答\s*(\d+)\s*[-–~－至]\s*(\d+)\s*題')
 TESTPART = re.compile(r'乙[、,]\s*測驗(?:題)?部分')
 # parse.py 的表頭過濾沒收「頁次」，它會混進題目段落把選項拆解弄壞（115 法學第 45 題）
 PAGEHDR = re.compile(r'^\s*(?:(頁\s*次|代\s*號|類\s*科|科\s*目)\s*[：:]|\d+\s*年公務人員|全一張|全一頁|[（(]背面[）)])')
@@ -133,7 +136,8 @@ def _chain(segf):
       選項 A 前面一定要先有一段題幹，所以前面不足四個字的就往後再找一個。"""
     idx, p = [], 0
     for L in (OPT5 if FIVE else OPT):
-        rx = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L)
+        # 選項代號有兩種寫法：「A.」（國考卷）與「(A)」（教檢卷）
+        rx = re.compile(r'(?m)(?:^|\s)(?:%s\s*[.．、]|[（(]\s*%s\s*[）)])\s*' % (L, L))
         m = rx.search(segf, p)
         while L == 'A' and m and len(segf[:m.start()].strip()) < 4:
             m = rx.search(segf, m.end())
@@ -292,7 +296,10 @@ def _attach_tail(best):
 
 def _attach_psg(best, body, flat):
     """題組短文：抓「請依下文回答第 N 題至第 M 題：」到該組第一題之間的文字，接到該組每一題。"""
-    marks = [(int(m.group(1)), int(m.group(2)), m.end()) for m in PSG.finditer(flat)]
+    marks = []
+    for m in PSG.finditer(flat):
+        g = [x for x in m.groups() if x]
+        if len(g) == 2: marks.append((int(g[0]), int(g[1]), m.end()))
     if not (marks and best): return
     by_n = {q['n']: q for q in best}
     for a, b, end in marks:
