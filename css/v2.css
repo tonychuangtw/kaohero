@@ -55,15 +55,92 @@ img{max-width:100%}
 .sec-h .more{margin-left:auto;font-size:calc(14px * var(--fs,1));font-weight:600}
 .lead{color:var(--dim);font-size:calc(15px * var(--fs,1));margin:0 0 14px}
 
-/* ---- Hero ---- */
-.hero{background:linear-gradient(140deg,var(--brand) 0%,#5b3fd6 55%,#7a4de0 100%);
-  color:#fff;border-radius:20px;padding:26px 22px;margin:0 0 24px;box-shadow:var(--shadow)}
-.hero h1{margin:0 0 8px;font-size:calc(26px * var(--fs,1));line-height:1.35;font-weight:900;letter-spacing:.3px}
-.hero p{margin:0 0 16px;font-size:calc(15px * var(--fs,1));opacity:.93;max-width:44em}
-.hero .stats{display:flex;flex-wrap:wrap;gap:8px}
-.pill{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.26);
-  border-radius:999px;padding:5px 13px;font-size:calc(13.5px * var(--fs,1));font-weight:600}
-@media(min-width:720px){ .hero{padding:38px 34px} .hero h1{font-size:calc(32px * var(--fs,1))} }
+/* ---- Hero（2026-09-06 首頁改版：Tony 選的 A 案「金榜學術風」）----
+   深色底＋金色重點，是首頁自己的配色，不受站上淺色／深色主題影響（兩種主題下都好看）。 */
+:root{ --gold:#e3b25c; --gold-d:#c9963f; --ink-a:#0e1218; --ink-a2:#161c26; --line-a:#2a3342; --dim-a:#a3b0c2; }
+.hero{position:relative;overflow:hidden;color:#eef2f8;border-radius:22px;
+  padding:30px 22px 26px;margin:0 0 26px;box-shadow:var(--shadow);
+  background:
+    radial-gradient(900px 380px at 78% -8%, #2c3a52 0%, transparent 62%),
+    repeating-linear-gradient(0deg,#ffffff05 0 1px,transparent 1px 34px),
+    repeating-linear-gradient(90deg,#ffffff05 0 1px,transparent 1px 34px),
+    var(--ink-a)}
+.serif{font-family:"Noto Serif TC","Songti TC","PMingLiU",Georgia,serif}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:calc(13px * var(--fs,1));
+  letter-spacing:1.6px;color:var(--gold);border:1px solid var(--gold-d);
+  border-radius:999px;padding:4px 13px;font-weight:700}
+.hero h1{margin:16px 0 12px;font-size:calc(30px * var(--fs,1));line-height:1.3;font-weight:900;letter-spacing:1px}
+.hero h1 em{font-style:normal;color:var(--gold);white-space:nowrap;
+  background:linear-gradient(transparent 68%, rgba(227,178,92,.22) 68%, rgba(227,178,92,.05) 96%, transparent 96%)}
+.hero .sub{margin:0 0 20px;color:var(--dim-a);font-size:calc(15px * var(--fs,1));max-width:40em}
+.hero .btnrow .btn{border:1px solid var(--line-a);background:#161c2680;color:#eef2f8}
+.hero .btnrow .btn:hover{border-color:var(--gold);text-decoration:none}
+.hero .btnrow .btn.g{background:linear-gradient(150deg,var(--gold),var(--gold-d));border-color:transparent;
+  color:#1b1305;font-weight:800;box-shadow:0 10px 30px -12px var(--gold-d)}
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin:26px 0 0;
+  background:var(--line-a);border:1px solid var(--line-a);border-radius:16px;overflow:hidden}
+.num{background:var(--ink-a2);padding:16px 14px}
+.num b{display:block;font-size:calc(26px * var(--fs,1));font-weight:900;color:var(--gold);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.num span{color:var(--dim-a);font-size:calc(13.5px * var(--fs,1))}
+@media(min-width:720px){ .hero{padding:44px 34px 36px} .hero h1{font-size:calc(42px * var(--fs,1))}
+  .nums{grid-template-columns:repeat(4,1fr)} .num{padding:20px 18px}
+  .num b{font-size:calc(32px * var(--fs,1))} }
+
+/* 首頁區塊標題 */
+.eyebrow{color:var(--brand);font-size:calc(13px * var(--fs,1));letter-spacing:2.2px;font-weight:800;margin:0 0 8px}
+.big-h{margin:0 0 10px;font-size:calc(25px * var(--fs,1));font-weight:900;letter-spacing:.5px}
+@media(min-width:720px){ .big-h{font-size:calc(32px * var(--fs,1))} }
+
+/* 三個優勢 */
+.edge{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:860px){ .edge{grid-template-columns:repeat(3,1fr)} }
+.e{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);
+  border-radius:18px;padding:22px 20px;box-shadow:var(--shadow)}
+.e:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;
+  background:linear-gradient(90deg,var(--gold),transparent)}
+.e i{font-style:normal;font-size:calc(24px * var(--fs,1));display:block;margin-bottom:10px}
+.e h3{margin:0 0 6px;font-size:calc(17.5px * var(--fs,1));font-weight:800}
+.e p{margin:0;color:var(--dim);font-size:calc(14.5px * var(--fs,1))}
+.e .tag{display:inline-block;margin-top:12px;font-size:calc(12.5px * var(--fs,1));color:var(--gold-d);
+  border:1px dashed var(--gold-d);border-radius:999px;padding:2px 11px}
+
+/* 同樣一題，兩種待遇 */
+.vs{display:grid;gap:16px;grid-template-columns:1fr;align-items:start}
+@media(min-width:960px){ .vs{grid-template-columns:.82fr 1.18fr} }
+.vs-h{font-size:calc(13px * var(--fs,1));letter-spacing:2px;font-weight:800;margin:0 0 10px}
+.other{background:var(--line2);border:1px dashed var(--line);border-radius:18px;padding:22px 20px;color:var(--dim)}
+.other p{margin:0 0 4px;font-size:calc(15px * var(--fs,1))}
+.other .big-a{font-size:calc(58px * var(--fs,1));font-weight:900;color:var(--line);line-height:1.15;margin:4px 0 0}
+.other .after{margin-top:14px}
+.ours .vs-h{color:var(--gold-d)}
+.demo{background:var(--ink-a2);color:#eef2f8;border:1px solid var(--line-a);border-radius:18px;overflow:hidden}
+.demo .bar{padding:12px 18px;border-bottom:1px solid var(--line-a);font-size:calc(13.5px * var(--fs,1));color:var(--dim-a)}
+.demo .body{padding:18px}
+.demo .stem{font-size:calc(16.5px * var(--fs,1));font-weight:700;margin:0 0 14px;line-height:1.7}
+.demo .opt{border:1px solid var(--line-a);border-radius:11px;padding:10px 13px;margin:0 0 8px;
+  display:flex;gap:10px;font-size:calc(14.8px * var(--fs,1));background:#141a24;
+  color:#eef2f8}   /* 作答頁的 .opt 會把顏色設成 var(--ink)，在深色卡上會看不見，這裡要蓋掉 */
+.demo .opt b{color:var(--dim-a);font-weight:800;min-width:1.4em}
+.demo .opt.ok{border-color:#4fc79b;background:#12281f}
+.demo .opt.ok b{color:#4fc79b}
+.demo .exp{margin-top:16px;border-left:3px solid var(--gold);background:#1d2431;border-radius:0 12px 12px 0;
+  padding:14px 16px;font-size:calc(14.5px * var(--fs,1));white-space:pre-wrap;line-height:1.85}
+.demo .exp .src{display:block;margin-top:10px;color:var(--gold)}
+.demo .note{margin:14px 0 0;color:var(--dim-a);font-size:calc(13.5px * var(--fs,1))}
+
+/* 三步驟與資料來源 */
+.steps{counter-reset:s;display:grid;gap:16px;grid-template-columns:1fr;margin-top:6px}
+@media(min-width:860px){ .steps{grid-template-columns:repeat(3,1fr)} }
+.st{position:relative;padding-left:56px}
+.st:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:-2px;
+  width:40px;height:40px;border-radius:50%;border:1px solid var(--gold-d);color:var(--gold-d);
+  display:grid;place-items:center;font-size:calc(17px * var(--fs,1));font-weight:900}
+.st h3{margin:0 0 4px;font-size:calc(16.5px * var(--fs,1))}
+.st p{margin:0;color:var(--dim);font-size:calc(14.5px * var(--fs,1))}
+.src-note{margin-top:26px;border:1px solid var(--line);border-radius:16px;padding:18px;
+  background:var(--line2);color:var(--dim);font-size:calc(14px * var(--fs,1))}
+.src-note b{color:var(--ink)}
 
 /* ---- 卡片 ---- */
 .cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}

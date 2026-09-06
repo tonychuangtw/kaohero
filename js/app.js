@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260906i';
+  var VER = '20260906j';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -130,32 +130,108 @@
   });
 
   /* ============ 首頁 ============ */
+  /* 首頁（2026-09-06 改版：Tony 從三個提案選了 A「金榜學術風」）
+     版型重點：深色金字的 hero＋四個大數字、三張優勢卡、
+     「同樣一題，兩種待遇」左右對照（左邊只有一個大大的Ａ＝別站，右邊是本站完整詳解）。
+     對照用的示範題是站上真的一題：110 年第一次 醫學（一）第 5 題。 */
+  var DEMO = {
+    src: '110 年第一次　專技高考醫師分階段考試　醫學（一）　第 5 題',
+    bar: '110 年第一次　醫學（一）　·　第 5 題',
+    q: '下列何者傳遞角膜（cornea）的一般感覺？',
+    o: ['鼻睫神經（nasociliary nerve）', '額神經（frontal nerve）',
+        '眶上神經（supraorbital nerve）', '動眼神經（oculomotor nerve）'],
+    a: 0,
+    exp: ['✅ (A) 角膜的一般感覺由三叉神經第一分支（眼神經）→ 鼻睫神經 → 睫狀長神經傳入，這正是角膜反射的傳入路徑（傳出為顏面神經支配眼輪匝肌）。',
+          '❌ (B) 額神經也是眼神經的分支，但分布在前額與上眼瞼皮膚，不進入眼球。',
+          '❌ (C) 眶上神經是額神經的終末分支，管前額與頭皮的感覺。',
+          '❌ (D) 動眼神經是運動與副交感神經，不傳遞角膜的一般感覺。'],
+    srcline: "📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.7 Head（Orbit）；Gray's Anatomy for Students, 4th ed.。"
+  };
+
   function viewHome(main) {
     var liveN = EXAMS.length, liveQ = EXAMS.reduce(function (a, b) { return a + b.n; }, 0);
+    var expQ = EXAMS.reduce(function (a, b) { return a + (b.exp || 0); }, 0);
     var years = EXAMS.map(function (e) { return e.roc; });
 
+    /* ---- Hero ---- */
     var hero = el('section', 'hero');
-    var h1 = el('h1'); h1.appendChild(document.createTextNode(T('國家考試考古題，')));
-    h1.appendChild(document.createElement('br')); h1.appendChild(document.createTextNode(T('免費刷到會為止')));
+    hero.appendChild(el('span', 'kicker', T('★ 免費・無廣告・不用註冊')));
+    var h1 = el('h1', 'serif');
+    h1.appendChild(document.createTextNode(T('國家考試考古題，')));
+    h1.appendChild(document.createElement('br'));
+    h1.appendChild(document.createTextNode(T('刷到')));
+    h1.appendChild(el('em', null, T('會為止')));
+    h1.appendChild(document.createTextNode('。'));
     hero.appendChild(h1);
-    hero.appendChild(el('p', null,
-      T('歷屆考古題、標準答案與逐題詳解，全部免費。題目與答案取自考選部公開資料，詳解自撰並附出處，讓你查得到依據。')));
-    var st = el('div', 'stats');
-    [['📚', liveQ.toLocaleString() + unitQ()], ['📄', liveN + unitP()],
-     ['🗓', T('民國 ') + Math.min.apply(null, years) + '–' + Math.max.apply(null, years) + T(' 年')],
-     ['✅', T('答案覆蓋率 100%')]].forEach(function (p) {
-      st.appendChild(el('span', 'pill', p[0] + ' ' + p[1]));
-    });
-    hero.appendChild(st);
-    var br = el('div', 'btnrow'); br.style.marginTop = '18px';
-    br.appendChild(btn(T('開始刷題 →'), 'g', null, '#/exam/doctor'));
-    br.appendChild(btn(T('瀏覽全部題庫'), '', null, '#/exams'));
+    hero.appendChild(el('p', 'sub', liveQ.toLocaleString() + T(' 題歷屆試題與標準答案，取自考選部與教育部公開資料；其中 ')
+      + expQ.toLocaleString() + T(' 題附上本站自己寫的逐題詳解——每題告訴你正解為什麼對、其他選項錯在哪，並附教科書章節或法條出處。')));
+    var br = el('div', 'btnrow');
+    br.appendChild(btn(T('開始刷題 →'), 'g', null, '#/exams'));
+    br.appendChild(btn(T('看看詳解長什麼樣'), '', null, '#demo'));
     hero.appendChild(br);
+    var nums = el('div', 'nums');
+    [[liveQ.toLocaleString(), T('題（持續增加）')], [liveN.toLocaleString(), T('卷完整考古卷')],
+     [expQ.toLocaleString(), T('題自撰詳解')],
+     [Math.min.apply(null, years) + '–' + Math.max.apply(null, years), T('民國年份跨度')]].forEach(function (x) {
+      var d = el('div', 'num'); d.appendChild(el('b', null, x[0])); d.appendChild(el('span', null, x[1]));
+      nums.appendChild(d);
+    });
+    hero.appendChild(nums);
     main.appendChild(hero);
 
-    var s1 = el('section', 'sec');
-    s1.appendChild(sectionHead(T('選擇考試類別'), T('全部類別 →'), '#/exams'));
-    s1.appendChild(el('p', 'lead', T('醫事人員四張執照、律師／司法官第一試已完整收錄；高普考共同科目已上線，專業科目陸續加入。')));
+    /* ---- 三個優勢 ---- */
+    var s0 = el('section', 'sec');
+    s0.appendChild(el('p', 'eyebrow', T('為什麼選考古英雄')));
+    s0.appendChild(el('h2', 'big-h serif', T('別人給你答案，我們給你為什麼')));
+    s0.appendChild(el('p', 'lead', T('市面上的考古題網站多半只給一個字母。答錯了還是不知道錯在哪，下次照樣錯——尤其是醫學這種「一條神經、一個症候群」差一點就全錯的科目。')));
+    var eg = el('div', 'edge');
+    [['✍️', T('詳解是自己寫的'), T('不是抄來的懶人包。每題四個選項逐一說明，醫學題引教科書章節、法律題引法條與釋字，錯的選項也講清楚錯在哪一個字。'), T('已完成 ') + expQ.toLocaleString() + unitQ()],
+     ['🆓', T('真的全部免費'), T('不擋題、不限次數、不用註冊，沒有「解鎖完整詳解」的按鈕。進度存在你自己的瀏覽器裡。'), T('無廣告・無付費牆')],
+     ['🎯', T('錯的才值得再做'), T('錯題自動進錯題本，答對就移除；弱點統計依科目與年份排序，讓你把時間花在最弱的那一塊。'), T('整卷測驗＋無限刷題')]
+    ].forEach(function (x) {
+      var d = el('div', 'e');
+      d.appendChild(el('i', null, x[0]));
+      d.appendChild(el('h3', null, x[1]));
+      d.appendChild(el('p', null, x[2]));
+      d.appendChild(el('span', 'tag', x[3]));
+      eg.appendChild(d);
+    });
+    s0.appendChild(eg); main.appendChild(s0);
+
+    /* ---- 同樣一題，兩種待遇 ---- */
+    var s1 = el('section', 'sec'); s1.id = 'demo';
+    s1.appendChild(el('p', 'eyebrow', T('詳解實例')));
+    s1.appendChild(el('h2', 'big-h serif', T('同樣一題，兩種待遇')));
+    s1.appendChild(el('p', 'lead', DEMO.src));
+    var vs = el('div', 'vs');
+    var other = el('div', 'other');
+    other.appendChild(el('p', 'vs-h', T('一般考古題網站')));
+    other.appendChild(el('p', null, T('第 5 題　答案')));
+    other.appendChild(el('div', 'big-a', 'Ａ'));
+    other.appendChild(el('p', 'after', T('…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。')));
+    vs.appendChild(other);
+    var ours = el('div', 'ours');
+    ours.appendChild(el('p', 'vs-h', T('考古英雄')));
+    var demo = el('div', 'demo');
+    demo.appendChild(el('div', 'bar', '📄 ' + DEMO.bar));
+    var body = el('div', 'body');
+    body.appendChild(el('p', 'stem', DEMO.q));
+    DEMO.o.forEach(function (o, i) {
+      var d = el('div', 'opt' + (i === DEMO.a ? ' ok' : ''));
+      d.appendChild(el('b', null, LAB[i])); d.appendChild(el('span', null, o));
+      body.appendChild(d);
+    });
+    var exp = el('div', 'exp');
+    exp.appendChild(document.createTextNode(DEMO.exp.join('\n')));
+    exp.appendChild(el('span', 'src', DEMO.srcline));
+    body.appendChild(exp);
+    body.appendChild(el('p', 'note', T('每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。')));
+    demo.appendChild(body); ours.appendChild(demo); vs.appendChild(ours);
+    s1.appendChild(vs); main.appendChild(s1);
+
+    /* ---- 考試分類 ---- */
+    var s2 = el('section', 'sec');
+    s2.appendChild(sectionHead(T('選擇考試類別'), T('全部類別 →'), '#/exams'));
     var g = el('div', 'cards');
     CATS.forEach(function (c) {
       c.exams.forEach(function (x) {
@@ -166,26 +242,38 @@
           x.live ? '#/exam/' + x.id : null, x.live ? T('已上線') : T('建置中'), !x.live));
       });
     });
-    s1.appendChild(g); main.appendChild(s1);
+    s2.appendChild(g); main.appendChild(s2);
 
+    /* ---- 我的練習狀況 ---- */
     var t = totals();
-    var s2 = el('section', 'sec');
-    s2.appendChild(sectionHead(T('我的練習狀況'), T('看完整統計 →'), '#/stats'));
-    s2.appendChild(kpis([[t.n.toLocaleString(), T('已作答')],
+    var s3 = el('section', 'sec');
+    s3.appendChild(sectionHead(T('我的練習狀況'), T('看完整統計 →'), '#/stats'));
+    s3.appendChild(kpis([[t.n.toLocaleString(), T('已作答')],
       [t.n ? t.rate + '%' : '—', T('正確率')], [String(state.wrong.length), T('錯題待複習')]]));
     var br2 = el('div', 'btnrow'); br2.style.marginTop = '12px';
     if (state.last) br2.appendChild(btn(T('接續上次：') + state.last.label, 'o', null, '#/paper/' + state.last.id));
     br2.appendChild(btn(T('複習錯題本'), 'o', null, '#/wrong'));
-    s2.appendChild(br2); main.appendChild(s2);
+    s3.appendChild(br2); main.appendChild(s3);
 
-    var s3 = el('section', 'sec');
-    s3.appendChild(sectionHead(T('怎麼用這個站')));
-    var p = el('div', 'panel');
-    p.appendChild(item('🎯', T('整卷測驗'), T('一次做完一整卷，模擬真實考試節奏並計分'), null, '#/exam/doctor'));
-    p.appendChild(item('♾️', T('無限刷題'), T('依科目隨機出題，答完立刻看答案與詳解'), null, '#/exam/doctor'));
-    p.appendChild(item('📕', T('錯題本'), T('答錯自動收錄，答對一次自動移除'), null, '#/wrong'));
-    p.appendChild(item('📊', T('弱點統計'), T('依科目與年份看正確率，先補最弱的那一塊'), null, '#/stats'));
-    s3.appendChild(p); main.appendChild(s3);
+    /* ---- 三步驟＋資料來源 ---- */
+    var s4 = el('section', 'sec');
+    s4.appendChild(el('p', 'eyebrow', T('怎麼用')));
+    s4.appendChild(el('h2', 'big-h serif', T('三步就開始')));
+    var steps = el('div', 'steps');
+    [[T('選考試與科目'), T('從考試分類進去，挑一個科目，看看哪一年還沒做過。')],
+     [T('整卷或隨機'), T('整卷測驗模擬真實節奏；沒空就用無限刷題，答完立刻看詳解。')],
+     [T('回頭清錯題'), T('錯題本累積你的弱點，統計頁告訴你哪一科、哪一年最需要補。')]
+    ].forEach(function (x) {
+      var d = el('div', 'st'); d.appendChild(el('h3', null, x[0])); d.appendChild(el('p', null, x[1]));
+      steps.appendChild(d);
+    });
+    s4.appendChild(steps);
+    var note = el('div', 'src-note');
+    note.appendChild(el('b', null, T('資料來源：')));
+    note.appendChild(document.createTextNode(
+      T('試題與標準答案取自考選部「考畢試題查詢平臺」與教育部教師資格考試網站公開之資料（政府資訊公開）。站上的詳解與所有文案皆為本站自撰，未取用任何第三方網站的解析內容。')));
+    s4.appendChild(note);
+    main.appendChild(s4);
   }
 
   /* ============ 考試總覽 ============ */

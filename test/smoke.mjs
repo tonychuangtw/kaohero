@@ -205,7 +205,7 @@ ok(await ev(`getComputedStyle(document.body).backgroundColor !== '${darkBg}'`), 
 await ev(`[...document.querySelectorAll('#prefs .chips')][2].lastChild.click()`); await sleep(300);
 ok(await ev(`document.documentElement.lang === 'en'`), '切英文後 html lang=en');
 ok((await ev(`document.getElementById('nav').textContent`)).includes('Question banks'), '導覽列變成英文');
-ok((await ev(`document.getElementById('main').textContent`)).includes('free until you nail them'), '首頁文案變成英文');
+ok((await ev(`document.getElementById('main').textContent`)).includes('Others give you a letter'), '首頁文案變成英文');
 ok((await ev(`document.querySelector('.ft').textContent`)).includes('About Kaoguhero'), '頁尾也變成英文');
 // 題目內容不翻譯
 await hash('#/paper/doc-115-2-med1');

@@ -60,7 +60,9 @@ EXAMS.forEach(e => {
   ok(!!p, e.id + ' 實檔有註冊題本');
   if (!p) return;
   ok(p.qs.length === e.n, `${e.id} 索引題數與實檔一致（索引 ${e.n}、實檔 ${p.qs.length}）`);
-  ok(typeof p.src === 'string' && p.src.includes('考選部'), e.id + ' 有註明資料來源');
+  // 資料來源：國考卷來自考選部，教檢卷來自教育部教師資格考試網站
+  ok(typeof p.src === 'string' && (p.src.includes('考選部') || p.src.includes('教育部')),
+     e.id + ' 有註明資料來源');
 
   const nums = new Set(); const bad = [];
   p.qs.forEach(q => {
@@ -68,13 +70,15 @@ EXAMS.forEach(e => {
     if (nums.has(q.n)) bad.push('重複題號 ' + q.n);
     nums.add(q.n);
     if (typeof q.q !== 'string' || q.q.length < 4) bad.push('#' + q.n + ' 題幹過短');
-    if (!Array.isArray(q.o) || q.o.length !== 4) bad.push('#' + q.n + ' 選項不是四個');
-    if (!Number.isInteger(q.a) || q.a < 0 || q.a > 3) bad.push('#' + q.n + ' 答案超出範圍');
+    // 多數卷是四選一；少數是五選一（地方特考五等國文、103～106 年律師第一試）
+    const nOpt = Array.isArray(q.o) ? q.o.length : 0;
+    if (nOpt !== 4 && nOpt !== 5) bad.push('#' + q.n + ' 選項不是四個或五個');
+    if (!Number.isInteger(q.a) || q.a < 0 || q.a >= Math.max(nOpt, 1)) bad.push('#' + q.n + ' 答案超出範圍');
     if (q.void != null && q.void !== true) bad.push('#' + q.n + ' void 欄位型別錯誤');
     // alt＝考選部公布「多個答案均給分」時，除了 a 以外還算對的選項
     if (q.alt != null) {
       if (!Array.isArray(q.alt) || !q.alt.length) bad.push('#' + q.n + ' alt 欄位型別錯誤');
-      else if (q.alt.some(i => !Number.isInteger(i) || i < 0 || i > 3 || i === q.a))
+      else if (q.alt.some(i => !Number.isInteger(i) || i < 0 || i >= nOpt || i === q.a))
         bad.push('#' + q.n + ' alt 內容不合法');
       else if (new Set(q.alt).size !== q.alt.length) bad.push('#' + q.n + ' alt 有重複');
       else if (q.void) bad.push('#' + q.n + ' 送分題不該再有 alt');
