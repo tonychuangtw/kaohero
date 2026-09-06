@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260910j';
+  var VER = '20260906a';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D'];
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -358,19 +358,20 @@
       b.appendChild(document.createTextNode(txt && txt.trim() ? txt : T('（見上圖）')));
       if (picked != null) {
         b.disabled = true;
-        if (q.void) b.className = 'opt correct';
-        else if (k === q.a) b.className = 'opt correct';
+        if (isRight(q, k)) b.className = 'opt correct';
         else if (k === picked) b.className = 'opt wrong';
       } else b.onclick = function () { answer(k); };
       c.appendChild(b);
     });
 
     if (picked != null) {
-      var good = q.void || picked === q.a;
+      var good = isRight(q, picked);
       var fb = el('div', 'fb ' + (good ? 'ok' : 'no'));
       fb.appendChild(el('b', null, q.void ? T('⭕ 本題送分') : (good ? T('✅ 答對了') : T('❌ 答錯了'))));
       if (q.void) fb.appendChild(document.createTextNode(
         T('　考選部公布本題送分，四個選項均給分，因此不論你選哪一個都算答對。')));
+      else if (q.alt && q.alt.length) fb.appendChild(document.createTextNode(
+        T('　考選部公布本題有多個答案均給分：') + [q.a].concat(q.alt).map(function (i) { return LAB[i]; }).join('、')));
       if (q.exp) { fb.appendChild(document.createElement('br')); fb.appendChild(document.createTextNode(q.exp)); }
       else if (!q.void) {
         fb.appendChild(document.createTextNode(T('　標準答案：') + LAB[q.a] + '. ' + q.o[q.a]));
@@ -387,10 +388,15 @@
     main.appendChild(row);
   }
 
+  // 判對的唯一入口：送分題（void）全部算對；考選部公布「答Ａ、Ｂ 均給分」的題，alt 裡的也算對
+  function isRight(q, k) {
+    return !!q.void || k === q.a || (q.alt || []).indexOf(k) >= 0;
+  }
+
   function answer(k) {
     var q = quiz.qs[quiz.i], m = curMeta();
     quiz.ans[quiz.i] = k;
-    var good = q.void || k === q.a; if (good) quiz.ok++;
+    var good = isRight(q, k); if (good) quiz.ok++;
     var st = state.stats[m.pid] || (state.stats[m.pid] = { n: 0, ok: 0 });
     st.n++; if (good) st.ok++;
     var wi = -1;
@@ -419,7 +425,8 @@
       var p = el('div', 'panel');
       wrongList.forEach(function (w) {
         p.appendChild(item(null, (quiz.mode === 'paper' ? origQ(w.q.n) : qLabel(w.i + 1)),
-          T('你選 ') + LAB[w.a] + T('　正解 ') + LAB[w.q.a], null));
+          T('你選 ') + LAB[w.a] + T('　正解 ')
+            + [w.q.a].concat(w.q.alt || []).map(function (i) { return LAB[i]; }).join('、'), null));
       });
       wc.appendChild(p);
       wc.appendChild(el('p', 'lead', T('答錯的題目已自動加入錯題本。')));

@@ -69,6 +69,8 @@
     '⭕ 本題送分': '⭕ Free marks',
     '　考選部公布本題送分，四個選項均給分，因此不論你選哪一個都算答對。':
       '　The Ministry of Examination awarded this question to everyone, so all four options count as correct.',
+    '　考選部公布本題有多個答案均給分：':
+      '　The Ministry of Examination accepted more than one answer for this question: ',
     '（本題詳解尚未撰寫，會分批補上。）': '(The explanation for this question is not written yet; they are being added in batches.)',
     '答錯的題目已自動加入錯題本。': 'This question has been added to your wrong-answer book.',
     '下一題 →': 'Next →',

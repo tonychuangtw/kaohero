@@ -58,6 +58,14 @@ EXAMS.forEach(e => {
     if (!Array.isArray(q.o) || q.o.length !== 4) bad.push('#' + q.n + ' 選項不是四個');
     if (!Number.isInteger(q.a) || q.a < 0 || q.a > 3) bad.push('#' + q.n + ' 答案超出範圍');
     if (q.void != null && q.void !== true) bad.push('#' + q.n + ' void 欄位型別錯誤');
+    // alt＝考選部公布「多個答案均給分」時，除了 a 以外還算對的選項
+    if (q.alt != null) {
+      if (!Array.isArray(q.alt) || !q.alt.length) bad.push('#' + q.n + ' alt 欄位型別錯誤');
+      else if (q.alt.some(i => !Number.isInteger(i) || i < 0 || i > 3 || i === q.a))
+        bad.push('#' + q.n + ' alt 內容不合法');
+      else if (new Set(q.alt).size !== q.alt.length) bad.push('#' + q.n + ' alt 有重複');
+      else if (q.void) bad.push('#' + q.n + ' 送分題不該再有 alt');
+    }
     if (q.pt !== 1 || q.type !== 'single') bad.push('#' + q.n + ' 配分或題型不對');
     if (!q.needfig && q.o.some(o => !o || !o.trim())) bad.push('#' + q.n + ' 有空選項卻沒標 needfig');
     if (q.exp != null && typeof q.exp !== 'string') bad.push('#' + q.n + ' exp 型別錯誤');
@@ -94,9 +102,9 @@ EXAMS.forEach(e => {
   p.qs.forEach(q => { if (q.fig) ok(fs.existsSync(path.join(ROOT, q.fig)), q.fig + ' 圖檔存在'); });
 });
 
-let voidN = 0;
-EXAMS.forEach(e => { const p = window.APP_EXAM_PAPERS[e.id]; if (p) p.qs.forEach(q => { if (q.void) voidN++; }); });
+let voidN = 0, altN = 0;
+EXAMS.forEach(e => { const p = window.APP_EXAM_PAPERS[e.id]; if (p) p.qs.forEach(q => { if (q.void) voidN++; if (q.alt) altN++; }); });
 console.log(`  分類 ${CATS.length}、卷數 ${EXAMS.length}、題數 ${EXAMS.reduce((a, b) => a + b.n, 0)}、` +
-  `圖片題 ${needfig}、送分題 ${voidN}、已有詳解 ${expN}`);
+  `圖片題 ${needfig}、送分題 ${voidN}、多答案題 ${altN}、已有詳解 ${expN}`);
 console.log(fail ? `\n✗ ${fail} / ${checks} 項失敗` : `\n全部通過（${checks} 項檢查）`);
 process.exit(fail ? 1 : 0);

@@ -1,12 +1,21 @@
 /* 瀏覽器 smoke test：用 CDP 驅動 chrome-headless-shell 把站點實際走一遍。
    找不到 shell 就跳過（exit 0）。用法：node test/smoke.mjs */
 import { spawn } from 'node:child_process';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { setTimeout as sleep } from 'node:timers/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+
+// 索引的實際卷數／題數（測試不寫死數字，加新考試不必改這支）
+const IDX = (() => {
+  globalThis.window = {};
+  const src = readFileSync(resolve(ROOT, 'js/data/exams.js'), 'utf8');
+  (0, eval)(src);
+  const ex = globalThis.window.APP_EXAMS;
+  return { n: ex.length, q: ex.reduce((a, b) => a + b.n, 0) };
+})();
 const SHELL = process.env.CHROME_SHELL ||
   process.env.HOME + '/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell';
 if (!existsSync(SHELL)) {
@@ -56,14 +65,15 @@ console.log('\n考古英雄 smoke test');
 await go('');
 
 // --- 資料 ---
-ok(await ev('window.APP_EXAMS.length === 205'), '索引載入 205 卷');
-ok(await ev('window.APP_EXAMS.reduce((a,b)=>a+b.n,0) === 16693'), '索引合計 16,693 題');
+// 卷數與題數不寫死：直接跟 js/data/exams.js 的實際內容比對（加新考試就不用改測試）
+ok(await ev(`window.APP_EXAMS.length === ${IDX.n}`), `索引載入 ${IDX.n} 卷`);
+ok(await ev(`window.APP_EXAMS.reduce((a,b)=>a+b.n,0) === ${IDX.q}`), `索引合計 ${IDX.q.toLocaleString('en-US')} 題`);
 ok(await ev('window.APP_CATS.length >= 4'), '至少四個考試分類');
 
 // --- 首頁 ---
 ok(await ev('document.querySelectorAll("#main .hero").length === 1'), '首頁有 hero 區塊');
 ok(await ev('document.querySelectorAll("#main .card").length >= 6'), '首頁列出考試類別卡片');
-ok((await ev('document.querySelector("#main .hero").textContent')).includes('16,693'), 'hero 顯示總題數');
+ok((await ev('document.querySelector("#main .hero").textContent')).includes(IDX.q.toLocaleString('en-US')), 'hero 顯示總題數');
 ok(await ev('document.querySelectorAll("#nav a").length === 6'), '導覽列六個項目');
 ok(await ev('document.querySelectorAll(".ft a").length >= 6'), '頁尾有連結');
 
@@ -76,6 +86,14 @@ ok((await ev('document.getElementById("main").textContent')).includes('第二階
 await hash('#/subject/doctor/med3');
 ok((await ev('document.querySelector(".pg-h").textContent')).includes('醫學（三）'), '進入醫學（三）科目頁');
 ok(await ev('document.querySelectorAll("#main .panel .it").length >= 20'), '科目頁列出各年份卷別');
+
+// --- 牙醫師（2026-09-06 新增）---
+await hash('#/exam/dentist');
+ok(await ev('document.querySelectorAll("#main .panel .it").length >= 6'), '牙醫師頁列出六個科目');
+ok((await ev('document.getElementById("main").textContent')).includes('第二階段'), '牙醫師頁含第二階段');
+await hash('#/subject/dentist/dent5');
+ok((await ev('document.querySelector(".pg-h").textContent')).includes('牙醫學（五）'), '進入牙醫學（五）科目頁');
+ok(await ev('document.querySelectorAll("#main .panel .it").length >= 20'), '牙醫學（五）列出各年份卷別');
 
 await hash('#/exam/lawyer');
 ok(await ev('document.querySelectorAll("#main .panel .it").length === 4'), '律師頁列出四個科目');
