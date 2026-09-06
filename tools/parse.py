@@ -6,9 +6,17 @@ FW = '　！＂＃＄％＆＇（）＊＋，－．／０１２３４５６７�
 def half(s):
     return ''.join(chr(ord(c) - 0xFEE0) if 0xFF01 <= ord(c) <= 0xFF5E else (' ' if c == '　' else c) for c in s)
 
+# 舊卷（中醫師 102～111、醫師 102～104）把選項代號與圈號存成私用區字元，
+# pdftotext 讀出來是 \ue18c 這種，不還原的話整題會只剩題幹、選項全空。
+PUA = {'\ue18c': 'A.', '\ue18d': 'B.', '\ue18e': 'C.', '\ue18f': 'D.',
+       '\ue129': '①', '\ue12a': '②', '\ue12b': '③',
+       '\ue12c': '④', '\ue12d': '⑤', '\ue12e': '⑥'}
+
 def text(pdf, layout=True):
     cmd = ['pdftotext'] + (['-layout'] if layout else []) + [pdf, '-']
-    return subprocess.run(cmd, capture_output=True).stdout.decode('utf-8', 'ignore')
+    t = subprocess.run(cmd, capture_output=True).stdout.decode('utf-8', 'ignore')
+    for k, v in PUA.items(): t = t.replace(k, v)
+    return t
 
 HDR = re.compile(r'^\s*(代\s*號|類科名稱|科目名稱|考試時間|座號|※|全一張|全一頁|共\s*\d+\s*頁|第\s*\d+\s*頁|請\s*接|背\s*面|\(請接背面\))')
 
@@ -43,7 +51,8 @@ def parse_questions(pdf):
     # 找題號位置：行首「N.」或「N．」，且 N 必須是下一個期待的題號
     pos = []
     want = 1
-    for m in re.finditer(r'(?m)^\s*(\d{1,3})\s*[.．、]\s*', flat):
+    # 題號有兩種寫法：「1.」（近年）與「 1   」（舊卷，號碼後面直接空好幾格）
+    for m in re.finditer(r'(?m)^[ \t]*(\d{1,3})(?:[ \t]*[.．、][ \t]*|[ \t]{2,})', flat):
         if int(m.group(1)) == want:
             pos.append((want, m.start(), m.end()))
             want += 1
@@ -86,21 +95,34 @@ def parse_answers(pdf):
         if s.startswith('題號') or s.startswith('題序'):
             nums.append([int(x) for x in re.findall(r'\d{1,3}', s)])
         elif s.startswith('答案'):
-            ans.append([FWA.get(c, c) for c in re.findall(r'[ＡＢＣＤＥ＃]', s)])
+            # 近年用全形ＡＢＣＤ，102～105 的舊卷用半形 A B C D：一律先轉半形再抓
+            ans.append(re.findall(r'[A-E#]', half(s)))
     out = {}
     for ns, as_ in zip(nums, ans):
         for n, a in zip(ns, as_): out[n] = a
     return out
 
 def parse_corrections(pdf):
-    """更正答案 PDF 的備註 → {題號: set('A','D')}；『一律給分』回全 4 個"""
+    """更正答案 PDF 的備註 → {題號: set('A','D')}；『一律給分』回全部四個。
+
+    各年度／各考試的措辭不一樣，實際看過的有：
+      第75題答Ａ、Ｄ給分。
+      第48題答Ｄ給分。
+      第13題答Ｂ或Ｄ或BD者均給分。
+      第27題一律給分。
+    所以不寫死句型：先把備註切成一句一句（以「第N題」為界），再從那一句裡撿 A~D。
+    """
     t = half(text(pdf))
     m = re.search(r'備\s*註[：:]\s*(.*)$', t, re.S)
     if not m: return {}
     s = re.sub(r'\s+', '', m.group(1))
+    hits = list(re.finditer(r'第(\d{1,3})題', s))
     out = {}
-    for mm in re.finditer(r'第(\d{1,3})題(一律給分|答([ＡＢＣＤABCD、]+)給分)', s):
-        n = int(mm.group(1))
-        if mm.group(2) == '一律給分': out[n] = set('ABCD')
-        else: out[n] = set(FWA.get(c, c) for c in mm.group(3) if c not in '、')
+    for i, h in enumerate(hits):
+        seg = s[h.end(): hits[i + 1].start() if i + 1 < len(hits) else len(s)]
+        n = int(h.group(1))
+        if '一律給分' in seg or '均給分' in seg and len(set(re.findall(r'[A-D]', seg))) >= 4:
+            out[n] = set('ABCD'); continue
+        letters = set(re.findall(r'[A-D]', seg))
+        if letters: out[n] = letters
     return out

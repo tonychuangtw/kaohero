@@ -78,7 +78,10 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "不可延伸至鈎狀切迹（hamular notch）處，以防止義齒脫位",
     "可於個人牙托邊緣成形（border molding）時進行設置，以評估義齒的固持性"
    ],
-   "a": 2
+   "a": 1,
+   "alt": [
+    2
+   ]
   },
   {
    "n": 6,

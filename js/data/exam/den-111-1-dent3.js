@@ -741,6 +741,7 @@ window.APP_EXAM_PAPERS['den-111-1-dent3'] = {
     "多形核白血球（polymorphonuclear neutrophils /PMNs）",
     "巨噬細胞（macrophages）"
    ],
+   "void": true,
    "a": 0
   },
   {

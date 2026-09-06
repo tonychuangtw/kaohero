@@ -598,7 +598,10 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "主要經由膜內骨化（intramembranous ossification）而形成，沒有次級軟骨（secondary cartilage）的參與",
     "上顎竇（maxillary sinus）於出生時尚未發育完全，約只有豌豆大小"
    ],
-   "a": 2
+   "a": 0,
+   "alt": [
+    2
+   ]
   },
   {
    "n": 46,
@@ -624,7 +627,10 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "柱間牙釉質（interrod enamel）",
     "最終牙釉質（final enamel）"
    ],
-   "a": 1
+   "a": 0,
+   "alt": [
+    1
+   ]
   },
   {
    "n": 48,

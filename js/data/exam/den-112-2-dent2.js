@@ -104,7 +104,10 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "癒合後常呈現疤痕",
     "其發生率較大型復發性口腔潰瘍（major recurrent aphthous ulcerations）高"
    ],
-   "a": 0
+   "a": 0,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 8,
@@ -587,7 +590,10 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "第二類型（Type II）用來鑄造嵌體（inlay）與牙冠（crown）",
     "調拌時，水粉比率增加，其凝固膨脹與吸濕性膨脹（setting and hygroscopic expansion）也會增加"
    ],
-   "a": 1
+   "a": 1,
+   "alt": [
+    2
+   ]
   },
   {
    "n": 45,

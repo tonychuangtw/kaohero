@@ -494,7 +494,10 @@ window.APP_EXAM_PAPERS['den-115-2-dent6'] = {
     "融合牙也是常發生的巨齒症型態",
     "巨齒症可見於耳齒症候群（otodental syndrome）"
    ],
-   "a": 1
+   "a": 0,
+   "alt": [
+    1
+   ]
   },
   {
    "n": 38,

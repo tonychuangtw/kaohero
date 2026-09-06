@@ -930,7 +930,10 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "游離藥物分子（free drug）可直接作用在細菌或非專一性的分布於口腔內組織及唾液，此現象稱為distribution",
     "游離藥物分子（free drug）在唾液中是藉由免疫球蛋白來代謝（metabolism）"
    ],
-   "a": 3
+   "a": 2,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 70,

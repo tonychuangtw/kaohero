@@ -104,7 +104,10 @@ window.APP_EXAM_PAPERS['den-113-2-dent3'] = {
     "優先從下顎後牙開始麻醉",
     "以牙周膜內注射（intra-ligamentary injection）不會同時麻醉鄰牙"
    ],
-   "a": 1
+   "a": 0,
+   "alt": [
+    1
+   ]
   },
   {
    "n": 8,
@@ -1043,7 +1046,10 @@ window.APP_EXAM_PAPERS['den-113-2-dent3'] = {
     "Limited field-of-view cone-beam computed tomography",
     "Full mouth x-ray series"
    ],
-   "a": 3
+   "a": 1,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 80,

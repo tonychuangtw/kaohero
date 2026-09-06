@@ -78,7 +78,10 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "物質P（substance P, SP）",
     "降鈣素基因相關肽（calcitonin gene-related peptide, CGRP）"
    ],
-   "a": 2
+   "a": 2,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 6,

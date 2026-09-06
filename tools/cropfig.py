@@ -22,11 +22,12 @@ def boxes(pdf):
 
 def find_q(pages, n):
     """回傳 (page_index, y0)；題號要在該行行首、且靠左（避免內文裡的『30.』）"""
-    pat = re.compile(r'^\s*%d\s*[.．、]' % n)
+    # 題號兩種寫法：「12.」與舊卷的「 12   」（號碼後面直接空好幾格）
+    pat = re.compile(r'^[ \t]*%d(?:[ \t]*[.．、]|[ \t]{2,}|$)' % n)
     best = None
     for pi, pg in enumerate(pages):
         for l in pg['lines']:
-            if l['x0'] < 60 and pat.match(l['t']):
+            if l['x0'] < 80 and pat.match(l['t']):
                 if best is None: best = (pi, l['y0'])
     return best
 

@@ -743,7 +743,10 @@ window.APP_EXAM_PAPERS['den-114-2-dent2'] = {
     "可減少宿主的免疫攻擊",
     "毒性比脂多醣（lipopolysaccharides）大"
    ],
-   "a": 3
+   "a": 0,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 57,

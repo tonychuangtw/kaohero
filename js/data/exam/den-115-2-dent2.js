@@ -884,7 +884,10 @@ window.APP_EXAM_PAPERS['den-115-2-dent2'] = {
     "Indomethacin 25～50 mg tid",
     "Piroxicam 20 mg qid"
    ],
-   "a": 3
+   "a": 1,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 68,

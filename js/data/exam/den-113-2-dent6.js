@@ -299,7 +299,10 @@ window.APP_EXAM_PAPERS['den-113-2-dent6'] = {
     "拆除陶瓷矯正器較不會損傷牙釉質，但拆除金屬矯正器較可能會引起牙釉質裂紋（enamel fracture）",
     "拆除金屬矯正器及陶瓷矯正器均可能會引起牙釉質裂紋（enamel fracture）"
    ],
-   "a": 1
+   "a": 1,
+   "alt": [
+    3
+   ]
   },
   {
    "n": 23,

@@ -561,7 +561,10 @@ window.APP_EXAM_PAPERS['den-114-1-dent2'] = {
     "RMGI 含 UDMA 樹脂基質成分提升機械性質",
     "Giomer 內含 fluoro-boro-alumino-silicate 玻璃填料"
    ],
-   "a": 2
+   "a": 1,
+   "alt": [
+    2
+   ]
   },
   {
    "n": 43,
