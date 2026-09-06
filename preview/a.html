@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>考古英雄｜首頁設計 A：金榜學術風</title>
+<meta name="robots" content="noindex">
+<style>
+:root{
+  --ink:#0e1218; --ink2:#161c26; --card:#1a212c; --line:#2a3342;
+  --fg:#eef2f8; --dim:#a3b0c2; --gold:#e3b25c; --gold-d:#c9963f; --gold-l:#3a2f18;
+  --good:#5fd08a; --bad:#ff8d92;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--fg);line-height:1.75;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+.serif{font-family:"Noto Serif TC","Songti TC","PMingLiU",Georgia,serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* 頁首 */
+header{position:sticky;top:0;z-index:9;background:rgba(14,18,24,.86);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:14px;padding:14px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px}
+.logo i{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-style:normal;
+  background:linear-gradient(150deg,var(--gold),#8a6520);color:#1a1206;font-weight:900}
+nav{margin-left:auto;display:none;gap:6px}
+nav a{padding:8px 13px;border-radius:8px;color:var(--dim);font-size:15px;font-weight:600}
+nav a:hover{color:var(--fg);background:#20293650}
+.cta-sm{border:1px solid var(--gold);color:var(--gold);padding:8px 15px;border-radius:999px;
+  font-weight:700;font-size:14.5px;margin-left:auto}
+@media(min-width:860px){nav{display:flex}.cta-sm{margin-left:12px}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;padding:66px 0 54px;
+  background:
+    radial-gradient(900px 380px at 78% -8%, #2c3a52 0%, transparent 62%),
+    repeating-linear-gradient(0deg,#ffffff05 0 1px,transparent 1px 34px),
+    repeating-linear-gradient(90deg,#ffffff05 0 1px,transparent 1px 34px);}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;letter-spacing:2px;
+  color:var(--gold);border:1px solid var(--gold-d);border-radius:999px;padding:5px 14px;font-weight:700}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.28;margin:20px 0 14px;font-weight:900;letter-spacing:1px}
+h1 em{font-style:normal;color:var(--gold);white-space:nowrap;
+  background:linear-gradient(transparent 68%, rgba(227,178,92,.22) 68%, rgba(227,178,92,.05) 96%, transparent 96%)}
+.sub{color:var(--dim);font-size:clamp(15px,2.2vw,18px);max-width:34em;margin:0 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;
+  font-weight:800;font-size:16px;border:1px solid transparent}
+.btn.p{background:linear-gradient(150deg,var(--gold),var(--gold-d));color:#1b1305;
+  box-shadow:0 10px 30px -12px var(--gold-d)}
+.btn.g{border-color:var(--line);color:var(--fg);background:#161c2680}
+.btn.g:hover{border-color:var(--gold)}
+
+/* 數字 */
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin:42px 0 0;
+  background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+@media(min-width:720px){.nums{grid-template-columns:repeat(4,1fr)}}
+.num{background:var(--ink2);padding:20px 18px}
+.num b{display:block;font-size:clamp(26px,4.6vw,34px);font-weight:900;color:var(--gold);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.num span{color:var(--dim);font-size:14px}
+
+/* 區塊 */
+section{padding:58px 0}
+.eyebrow{color:var(--gold);font-size:13.5px;letter-spacing:2.5px;font-weight:800;margin:0 0 10px}
+h2{font-size:clamp(24px,3.6vw,34px);margin:0 0 12px;font-weight:900;letter-spacing:.5px}
+.lead{color:var(--dim);max-width:40em;margin:0 0 30px;font-size:16px}
+
+.edge{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:820px){.edge{grid-template-columns:repeat(3,1fr)}}
+.e{background:linear-gradient(180deg,var(--card),#151b24);border:1px solid var(--line);
+  border-radius:18px;padding:26px 22px;position:relative;overflow:hidden}
+.e:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;
+  background:linear-gradient(90deg,var(--gold),transparent)}
+.e i{font-style:normal;font-size:26px;display:block;margin-bottom:12px}
+.e h3{margin:0 0 8px;font-size:19px;font-weight:800}
+.e p{margin:0;color:var(--dim);font-size:15px}
+.e .tag{display:inline-block;margin-top:14px;font-size:12.5px;color:var(--gold);
+  border:1px dashed var(--gold-d);border-radius:999px;padding:3px 11px}
+
+/* 詳解示範 */
+.demo{background:var(--ink2);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.demo .bar{display:flex;align-items:center;gap:10px;padding:14px 20px;border-bottom:1px solid var(--line);
+  font-size:14px;color:var(--dim)}
+.demo .bar b{color:var(--fg)}
+.demo .body{padding:22px 20px}
+.stem{font-size:18px;font-weight:700;margin:0 0 16px;line-height:1.7}
+.opt{border:1px solid var(--line);border-radius:12px;padding:11px 14px;margin:0 0 9px;
+  display:flex;gap:10px;font-size:15.5px;background:#141a24}
+.opt b{color:var(--dim);font-weight:800;min-width:1.4em}
+.opt.ok{border-color:var(--good);background:#12281f}
+.opt.ok b{color:var(--good)}
+.exp{margin-top:18px;border-left:3px solid var(--gold);background:#1d2431;border-radius:0 12px 12px 0;
+  padding:16px 18px;font-size:15px;white-space:pre-wrap;line-height:1.85}
+.exp .src{display:block;margin-top:10px;color:var(--gold);font-size:14px}
+.note{margin-top:14px;color:var(--dim);font-size:14px}
+
+/* 考試清單 */
+.exams{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:680px){.exams{grid-template-columns:repeat(2,1fr)}}
+.ex{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);
+  border-radius:14px;padding:16px 18px}
+.ex i{font-style:normal;width:42px;height:42px;border-radius:12px;background:#222a38;
+  display:grid;place-items:center;font-size:20px;flex:none}
+.ex b{display:block;font-size:16.5px}
+.ex span{color:var(--dim);font-size:14px}
+.ex .go{margin-left:auto;color:var(--gold);font-weight:800}
+.ex.soon{opacity:.5}
+.ex.soon .go{color:var(--dim);font-weight:600;font-size:13.5px}
+
+/* 步驟 */
+.steps{counter-reset:s;display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:820px){.steps{grid-template-columns:repeat(3,1fr)}}
+.st{position:relative;padding-left:60px}
+.st:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:-4px;
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--gold-d);color:var(--gold);
+  display:grid;place-items:center;font-size:19px;font-weight:900}
+.st h3{margin:0 0 6px;font-size:17.5px}
+.st p{margin:0;color:var(--dim);font-size:15px}
+
+.src-note{border:1px solid var(--line);border-radius:16px;padding:22px;background:#141a24;color:var(--dim);font-size:14.5px}
+.src-note b{color:var(--fg)}
+footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--dim);font-size:14px}
+.big-cta{text-align:center;padding:70px 20px;background:
+  radial-gradient(600px 260px at 50% 0%,#33405a 0%,transparent 70%);border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+
+<header><div class="wrap hd">
+  <a class="logo" href="#"><i>考</i>考古英雄</a>
+  <nav><a href="#">考試題庫</a><a href="#">準備方式</a><a href="#">考取心得</a><a href="#">贊助我們</a></nav>
+  <a class="cta-sm" href="#">開始刷題</a>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <span class="kicker">★ 免費・無廣告・不用註冊</span>
+  <h1 class="serif">國家考試考古題，<br>刷到<em>會為止</em>。</h1>
+  <p class="sub">56,173 題歷屆試題與標準答案，全部取自考選部公開資料；
+     其中 16,693 題附上<b>本站自己寫的逐題詳解</b>——每題告訴你正解為什麼對、其他選項錯在哪，並附法條與釋字出處。</p>
+  <div class="btns">
+    <a class="btn p" href="#">開始刷題 →</a>
+    <a class="btn g" href="#">看看詳解長什麼樣</a>
+  </div>
+  <div class="nums">
+    <div class="num"><b>56,173</b><span>題（持續增加）</span></div>
+    <div class="num"><b>709</b><span>卷完整考古卷</span></div>
+    <div class="num"><b>16,693</b><span>題自撰詳解</span></div>
+    <div class="num"><b>102–115</b><span>民國年份跨度</span></div>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <p class="eyebrow">為什麼選考古英雄</p>
+  <h2 class="serif">別人給你答案，我們給你為什麼</h2>
+  <p class="lead">市面上的考古題網站多半只給一個字母。答錯了還是不知道錯在哪，下次照樣錯。</p>
+  <div class="edge">
+    <div class="e"><i>✍️</i><h3>詳解是自己寫的</h3>
+      <p>不是抄來的懶人包。每題四個選項逐一說明，正解引法條、釋字、條號，錯的選項也講清楚錯在哪一個字。</p>
+      <span class="tag">已完成 16,693 題</span></div>
+    <div class="e"><i>🆓</i><h3>真的全部免費</h3>
+      <p>不擋題、不限次數、不用註冊、沒有「解鎖完整詳解」的按鈕。進度存在你自己的瀏覽器裡。</p>
+      <span class="tag">無廣告・無付費牆</span></div>
+    <div class="e"><i>🎯</i><h3>錯的才值得再做</h3>
+      <p>錯題自動進錯題本，答對就移除；弱點統計依科目與年份排序，讓你把時間花在最弱的那一塊。</p>
+      <span class="tag">整卷測驗＋無限刷題</span></div>
+  </div>
+</div></section>
+
+<section style="background:#111823;border-block:1px solid var(--line)"><div class="wrap">
+  <p class="eyebrow">詳解實例</p>
+  <h2 class="serif">這是站上真正的一題</h2>
+  <p class="lead">114 年律師／司法官第一試　綜合法學（一）憲法組　第 1 題</p>
+  <div class="demo">
+    <div class="bar">📄 <b>114 年　綜合法學（一）憲法組</b> ・ 第 1 題 ・ 憲法</div>
+    <div class="body">
+      <p class="stem">憲法本文及增修條文之下列何種規定，得導出我國有民主國之性質？</p>
+      <div class="opt ok"><b>A</b><span>總統及立法院均由人民直接選舉產生</span></div>
+      <div class="opt"><b>B</b><span>總統公布法律、發布命令，須經行政院院長之副署</span></div>
+      <div class="opt"><b>C</b><span>國家重要事項須經行政院院會議決</span></div>
+      <div class="opt"><b>D</b><span>國家權力劃分為五權，分設五院行使之</span></div>
+      <div class="exp">✅ (A) 民主國原則的核心是「國家權力來自人民、由人民定期直接選舉產生行使權力者」——總統與立法委員都由人民直接選舉，正是國民主權與民主正當性的具體展現。
+❌ (B) 副署制度是責任政治與權力制衡的設計，屬「責任內閣制」的殘留，導不出民主國性質。
+❌ (C) 行政院會議的合議決策屬行政內部的組織原則。
+❌ (D) 五權分立屬「權力分立」原則，與民主國原則是不同的憲法原則。<span class="src">📚 出處：憲法增修條文第 2 條第 1 項（總統直選）、第 4 條（立委選舉）；司法院釋字第 499 號（國民主權原則）。</span></div>
+      <p class="note">每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。</p>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <p class="eyebrow">收錄範圍</p>
+  <h2 class="serif">目前開放的考試</h2>
+  <p class="lead">民國 102～115 年，逐年逐科完整收錄；標準答案如有更正，以更正後為準。</p>
+  <div class="exams">
+    <div class="ex"><i>🩺</i><div><b>醫師</b><span>168 卷・12,760 題・兩階段</span></div><span class="go">開始 →</span></div>
+    <div class="ex"><i>🦷</i><div><b>牙醫師</b><span>168 卷・13,440 題・兩階段</span></div><span class="go">開始 →</span></div>
+    <div class="ex"><i>🌿</i><div><b>中醫師</b><span>168 卷・13,440 題・兩階段</span></div><span class="go">開始 →</span></div>
+    <div class="ex"><i>💊</i><div><b>藥師</b><span>168 卷・12,600 題・兩階段</span></div><span class="go">開始 →</span></div>
+    <div class="ex"><i>⚖️</i><div><b>律師／司法官 第一試</b><span>37 卷・3,933 題・詳解完整</span></div><span class="go">開始 →</span></div>
+    <div class="ex soon"><i>📗</i><div><b>高普考</b><span>高考三級、普通考試各類科</span></div><span class="go">建置中</span></div>
+    <div class="ex soon"><i>📍</i><div><b>地方特考</b><span>三等、四等各類科</span></div><span class="go">建置中</span></div>
+    <div class="ex soon"><i>🍎</i><div><b>教師甄試</b><span>教育專業與各科專門知識</span></div><span class="go">建置中</span></div>
+  </div>
+</div></section>
+
+<section style="background:#111823;border-block:1px solid var(--line)"><div class="wrap">
+  <p class="eyebrow">怎麼用</p>
+  <h2 class="serif">三步就開始</h2>
+  <div class="steps">
+    <div class="st"><h3>選考試與科目</h3><p>從考試分類進去，挑一個科目，看看哪一年還沒做過。</p></div>
+    <div class="st"><h3>整卷或隨機</h3><p>整卷測驗模擬真實節奏；沒空就用無限刷題，答完立刻看詳解。</p></div>
+    <div class="st"><h3>回頭清錯題</h3><p>錯題本累積你的弱點，統計頁告訴你哪一科、哪一年最需要補。</p></div>
+  </div>
+  <div class="src-note" style="margin-top:34px">
+    <b>資料來源：</b>試題與標準答案取自考選部「考畢試題查詢平臺」公開之考畢試題與測驗式試題標準答案（政府資訊公開）。
+    <b>站上的詳解與所有文案皆為本站自撰</b>，未取用任何第三方網站的解析內容。
+  </div>
+</div></section>
+
+<div class="big-cta">
+  <h2 class="serif" style="margin-bottom:10px">今天先做 20 題？</h2>
+  <p style="color:var(--dim);margin:0 0 22px">不用註冊，點進去就能開始。</p>
+  <a class="btn p" href="#">開始刷題 →</a>
+</div>
+
+<footer><div class="wrap">
+  考古英雄 — 國家考試考古題免費線上練習　｜　題目與答案為政府公開資料，詳解為本站自撰
+</div></footer>
+</body>
+</html>

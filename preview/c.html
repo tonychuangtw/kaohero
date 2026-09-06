@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>考古英雄｜首頁設計 C：產品實感</title>
+<meta name="robots" content="noindex">
+<style>
+:root{
+  --bg:#fbfbfe; --ink:#101425; --ink2:#464e66; --dim:#767e96; --line:#e7e8f2; --card:#fff;
+  --brand:#4338ca; --brand2:#7c3aed; --brand-l:#eef0ff; --mint:#0f9d76; --mint-l:#e6f7f1;
+  --amber:#e5900d; --amber-l:#fdf3e0;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.72;
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.3,1) both}
+.d1{animation-delay:.08s}.d2{animation-delay:.16s}.d3{animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+
+header{position:sticky;top:0;z-index:20;background:#fbfbfeef;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:14px;padding:13px 0}
+.logo{display:flex;align-items:center;gap:9px;font-weight:900;font-size:19px}
+.logo i{font-style:normal;width:32px;height:32px;border-radius:11px;color:#fff;font-size:15px;font-weight:900;
+  background:linear-gradient(140deg,var(--brand),var(--brand2));display:grid;place-items:center}
+nav{margin-left:auto;display:none;gap:2px}
+nav a{padding:8px 13px;border-radius:10px;font-weight:600;font-size:15px;color:var(--ink2)}
+nav a:hover{background:var(--brand-l);color:var(--brand)}
+.go{background:linear-gradient(140deg,var(--brand),var(--brand2));color:#fff;padding:10px 19px;
+  border-radius:12px;font-weight:800;font-size:14.5px;box-shadow:0 10px 24px -12px var(--brand)}
+@media(min-width:900px){nav{display:flex}}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;padding:56px 0 40px}
+.hero:before{content:"";position:absolute;inset:-30% -20% auto -20%;height:640px;z-index:-1;
+  background:radial-gradient(420px 300px at 18% 30%, #dcd8ff 0, transparent 65%),
+             radial-gradient(460px 320px at 78% 12%, #d5f2e8 0, transparent 62%),
+             radial-gradient(380px 300px at 60% 70%, #ffeccc 0, transparent 60%);filter:blur(6px)}
+.hg{display:grid;gap:34px;grid-template-columns:1fr}
+@media(min-width:960px){.hg{grid-template-columns:1.05fr .95fr;align-items:center}}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);
+  border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:700;color:var(--ink2);
+  box-shadow:0 6px 18px -12px #2a2f6a55}
+.badge b{color:var(--mint)}
+h1{font-size:clamp(34px,5.6vw,54px);line-height:1.2;font-weight:900;letter-spacing:-1.2px;margin:18px 0 14px}
+.grad{background:linear-gradient(100deg,var(--brand),var(--brand2) 60%,var(--mint));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{font-size:17px;color:var(--ink2);margin:0 0 26px;max-width:30em}
+.hbtns{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.big{background:linear-gradient(140deg,var(--brand),var(--brand2));color:#fff;padding:15px 28px;
+  border-radius:14px;font-weight:800;font-size:16.5px;box-shadow:0 16px 34px -16px var(--brand)}
+.ghost{padding:15px 22px;border-radius:14px;border:1px solid var(--line);background:#fff;font-weight:800;font-size:16px}
+.trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:24px;color:var(--dim);font-size:14px}
+.trust b{color:var(--ink);font-size:19px;font-weight:900;display:block;font-variant-numeric:tabular-nums}
+
+/* 手機 */
+.phone{justify-self:center;width:min(340px,90vw);border-radius:38px;padding:12px;
+  background:linear-gradient(160deg,#22263c,#0e1120);box-shadow:0 40px 80px -40px #232a5a99, 0 4px 14px #0000001a}
+.scr{background:#fff;border-radius:28px;overflow:hidden}
+.scr .bar{display:flex;align-items:center;gap:8px;padding:12px 14px;background:#f6f6fb;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--dim)}
+.scr .bar b{color:var(--ink)}
+.scr .pad{padding:16px 15px 18px}
+.prog{height:6px;border-radius:99px;background:#eceafc;overflow:hidden;margin-bottom:14px}
+.prog i{display:block;height:100%;width:38%;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+.stem{font-weight:800;font-size:15.5px;line-height:1.65;margin:0 0 12px}
+.op{border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;margin-bottom:8px;font-size:14px;display:flex;gap:9px}
+.op b{color:var(--dim);font-weight:800}
+.op.ok{border-color:var(--mint);background:var(--mint-l)}
+.op.ok b{color:var(--mint)}
+.exp{border-radius:12px;background:#f7f8ff;border:1px solid #e3e5fb;padding:12px 13px;font-size:13px;line-height:1.8;
+  white-space:pre-wrap;animation:slide .8s .5s cubic-bezier(.2,.7,.3,1) both}
+@keyframes slide{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.exp .s{display:block;margin-top:8px;color:var(--brand);font-weight:700}
+.float{position:absolute;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px;
+  font-size:13px;font-weight:700;box-shadow:0 18px 40px -22px #2a2f6a66;display:none}
+@media(min-width:1040px){.float{display:block}}
+.f1{right:2%;top:16%}.f2{right:-2%;bottom:16%}
+
+/* 區塊 */
+section{padding:64px 0}
+.mid{text-align:center;max-width:44em;margin:0 auto 38px}
+.eyebrow{color:var(--brand);font-weight:800;font-size:13.5px;letter-spacing:1.6px;margin:0 0 10px}
+h2{font-size:clamp(26px,3.8vw,40px);line-height:1.22;letter-spacing:-1px;font-weight:900;margin:0 0 12px}
+.mid p{color:var(--ink2);margin:0;font-size:16px}
+
+.feat{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:820px){.feat{grid-template-columns:repeat(3,1fr)}}
+.ft{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 22px;
+  transition:transform .16s, box-shadow .16s}
+.ft:hover{transform:translateY(-4px);box-shadow:0 26px 50px -32px #2a2f6a66}
+.ft i{font-style:normal;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+.i1{background:var(--brand-l)}.i2{background:var(--mint-l)}.i3{background:var(--amber-l)}
+.ft h3{margin:0 0 8px;font-size:18.5px;font-weight:800}
+.ft p{margin:0;color:var(--ink2);font-size:15px}
+
+/* 比較列 */
+.cmp{background:var(--ink);border-radius:26px;padding:34px 26px;color:#fff}
+.cmp h2{margin:0 0 22px;color:#fff}
+.cmpg{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:760px){.cmpg{grid-template-columns:1fr 1fr}}
+.cc{border-radius:18px;padding:20px;background:#1a2033;border:1px solid #2b3348}
+.cc.win{background:linear-gradient(160deg,#1e2a44,#182338);border-color:#3a4a6d}
+.cc h3{margin:0 0 12px;font-size:15px;letter-spacing:1px;color:#98a2ba;font-weight:800}
+.cc ul{margin:0;padding-left:18px;color:#c8cede;font-size:15px}
+.cc li{margin-bottom:8px}
+.cc.win li b{color:#7ee0bb}
+
+/* 考試 */
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:11px 20px;font-weight:700;
+  display:flex;align-items:center;gap:9px;font-size:15px;transition:border-color .15s,transform .15s}
+.chip:hover{border-color:var(--brand);transform:translateY(-2px)}
+.chip s{text-decoration:none;color:var(--dim);font-weight:600;font-size:13.5px}
+.chip.soon{opacity:.5}
+.srcnote{margin-top:34px;text-align:center;color:var(--dim);font-size:13.5px;max-width:52em;margin-inline:auto}
+
+.final{background:linear-gradient(140deg,var(--brand),var(--brand2));color:#fff;border-radius:26px;
+  padding:52px 26px;text-align:center;margin-bottom:56px}
+.final h2{color:#fff}
+.final p{color:#e0defc;margin:0 0 24px}
+.final .big{background:#fff;color:var(--brand);box-shadow:none}
+footer{color:var(--dim);font-size:13.5px;padding-bottom:80px;text-align:center}
+.sticky{position:fixed;left:14px;right:14px;bottom:14px;z-index:30;background:linear-gradient(140deg,var(--brand),var(--brand2));
+  color:#fff;border-radius:16px;padding:14px;text-align:center;font-weight:800;
+  box-shadow:0 18px 36px -18px #3730a3aa}
+@media(min-width:760px){.sticky{display:none}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap hd">
+  <a class="logo" href="#"><i>考</i>考古英雄</a>
+  <nav><a href="#">考試題庫</a><a href="#">準備方式</a><a href="#">考取心得</a><a href="#">贊助我們</a></nav>
+  <a class="go" href="#">開始刷題</a>
+</div></header>
+
+<div class="hero"><div class="wrap hg">
+  <div class="rise">
+    <span class="badge">🆓 <b>完全免費</b>・不用註冊・無廣告</span>
+    <h1>把考古題，<br>做到<span class="grad">真的懂</span>為止。</h1>
+    <p class="lede">56,173 題國家考試歷屆試題，題目與標準答案來自考選部公開資料。
+      其中 16,693 題有<b>本站自己寫的逐題詳解</b>——四個選項一個一個講，附上法條與釋字，看得到依據。</p>
+    <div class="hbtns">
+      <a class="big" href="#">開始刷題 →</a>
+      <a class="ghost" href="#cmp">詳解跟別站差在哪</a>
+    </div>
+    <div class="trust">
+      <div><b>56,173</b>題</div><div><b>709</b>卷</div><div><b>16,693</b>題有詳解</div><div><b>102–115</b>民國年</div>
+    </div>
+  </div>
+
+  <div class="phone rise d2" style="position:relative">
+    <div class="float f1 rise d3">✅ 答對了，連錯的選項也看得懂</div>
+    <div class="float f2 rise d3">📕 答錯自動進錯題本</div>
+    <div class="scr">
+      <div class="bar">📄 <b>114 綜合法學（一）憲法組</b>・第 1 題</div>
+      <div class="pad">
+        <div class="prog"><i></i></div>
+        <p class="stem">憲法本文及增修條文之下列何種規定，得導出我國有民主國之性質？</p>
+        <div class="op ok"><b>A</b><span>總統及立法院均由人民直接選舉產生</span></div>
+        <div class="op"><b>B</b><span>總統公布法律、發布命令，須經行政院院長之副署</span></div>
+        <div class="op"><b>C</b><span>國家重要事項須經行政院院會議決</span></div>
+        <div class="op"><b>D</b><span>國家權力劃分為五權，分設五院行使之</span></div>
+        <div class="exp">✅ (A) 民主國原則的核心是「國家權力來自人民、由人民定期直接選舉產生行使權力者」。
+❌ (B) 副署是責任政治與制衡的設計，導不出民主國性質。
+❌ (C) 行政院會議屬行政內部組織原則。
+❌ (D) 五權分立屬「權力分立」，與民主國原則不同。<span class="s">📚 憲法增修條文第 2 條第 1 項、第 4 條；釋字第 499 號</span></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <div class="mid">
+    <p class="eyebrow">我們的三個堅持</p>
+    <h2>免費只是門檻，<br>詳解才是差別。</h2>
+    <p>你不需要再開三個分頁去找「這題為什麼選 A」。</p>
+  </div>
+  <div class="feat">
+    <div class="ft"><i class="i1">✍️</i><h3>逐題詳解，自己寫</h3>
+      <p>✅ 正解為什麼對、❌ 三個錯的選項各錯在哪、📚 出處是哪一條法條或哪一號釋字。目前 16,693 題完成，持續增加。</p></div>
+    <div class="ft"><i class="i2">🆓</i><h3>不擋題、不用註冊</h3>
+      <p>沒有「解鎖完整詳解」的付費牆，也沒有廣告。做題進度存在你自己的瀏覽器，不用交出任何個資。</p></div>
+    <div class="ft"><i class="i3">📊</i><h3>只重做你不會的</h3>
+      <p>錯題自動收錄、答對自動移除；弱點統計依科目與年份排序，時間花在最需要補的地方。</p></div>
+  </div>
+</div></section>
+
+<section id="cmp"><div class="wrap"><div class="cmp">
+  <h2>同樣一題，兩種待遇</h2>
+  <div class="cmpg">
+    <div class="cc"><h3>一般考古題網站</h3>
+      <ul><li>第 1 題　答案：Ａ</li><li>（沒有了）</li><li>不知道 B 為什麼不行</li><li>下次同一個觀念再考，還是錯</li></ul></div>
+    <div class="cc win"><h3>考古英雄</h3>
+      <ul>
+        <li><b>✅ 正解</b>：民主國原則＝權力來自人民、由人民直接選舉產生行使權力者</li>
+        <li><b>❌ B</b>：副署屬責任內閣制殘留，導不出民主國性質</li>
+        <li><b>❌ C／D</b>：分別是行政內部組織原則、權力分立原則</li>
+        <li><b>📚 出處</b>：憲法增修條文第 2 條第 1 項、第 4 條；釋字第 499 號</li>
+      </ul></div>
+  </div>
+</div></div></section>
+
+<section><div class="wrap">
+  <div class="mid">
+    <p class="eyebrow">收錄範圍</p>
+    <h2>民國 102～115 年，逐年逐科</h2>
+    <p>標準答案如有更正，一律以考選部更正後的答案為準。</p>
+  </div>
+  <div class="chips">
+    <a class="chip" href="#">🩺 醫師 <s>12,760 題</s></a>
+    <a class="chip" href="#">🦷 牙醫師 <s>13,440 題</s></a>
+    <a class="chip" href="#">🌿 中醫師 <s>13,440 題</s></a>
+    <a class="chip" href="#">💊 藥師 <s>12,600 題</s></a>
+    <a class="chip" href="#">⚖️ 律師／司法官 第一試 <s>3,933 題</s></a>
+    <span class="chip soon">📗 高普考 <s>建置中</s></span>
+    <span class="chip soon">📍 地方特考 <s>建置中</s></span>
+    <span class="chip soon">🍎 教師甄試 <s>建置中</s></span>
+  </div>
+  <p class="srcnote">試題與標準答案取自考選部「考畢試題查詢平臺」公開資料（政府資訊公開）；
+    站上的詳解與所有頁面文案皆為本站自撰，未取用任何第三方網站的解析內容。</p>
+</div></section>
+
+<div class="wrap"><div class="final">
+  <h2>先做 20 題試試看</h2>
+  <p>不用註冊，點下去就開始。</p>
+  <a class="big" href="#">開始刷題 →</a>
+</div></div>
+
+<footer>考古英雄 — 國家考試考古題免費線上練習</footer>
+<a class="sticky" href="#">開始刷題 →</a>
+</body>
+</html>
