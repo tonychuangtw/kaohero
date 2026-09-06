@@ -219,6 +219,7 @@
       w.appendChild(el('p', null, T('這個考試的題庫還在建置中，敬請期待。')));
       main.appendChild(w); return;
     }
+    if ((meta.stages || []).some(function (st) { return st.groups; })) return viewExamTree(main, meta, examId);
     (meta.stages || []).forEach(function (st) {
       var s = el('section', 'sec');
       s.appendChild(sectionHead(st.name + T('　') + st.note));
@@ -238,6 +239,103 @@
       });
       s.appendChild(p); main.appendChild(s);
     });
+  }
+
+  /* ============ 類科很多的考試（高普考）：等別 → 類群 → 類科 ============ */
+  function papersOf(examId, sids) {
+    return EXAMS.filter(function (e) { return e.exam === examId && sids.indexOf(e.subj) >= 0; });
+  }
+  function sumQ(list) { return list.reduce(function (a, b) { return a + b.n; }, 0); }
+
+  function viewExamTree(main, meta, examId) {
+    var box = el('div', 'panel'); box.style.padding = '12px 14px';
+    var inp = el('input', 'find');
+    inp.type = 'search'; inp.placeholder = T('搜尋類科或科目，例如：一般行政、行政法');
+    inp.setAttribute('aria-label', T('搜尋類科'));
+    box.appendChild(inp); main.appendChild(box);
+
+    var host = el('div'); main.appendChild(host);
+    function draw(kw) {
+      host.innerHTML = '';
+      kw = (kw || '').trim();
+      var hit = 0;
+      (meta.stages || []).forEach(function (st) {
+        var sec = el('section', 'sec'), any = false;
+        sec.appendChild(sectionHead(st.name + T('　') + (st.note || '')));
+        (st.groups || []).forEach(function (g) {
+          var tracks = g.tracks.filter(function (t) {
+            if (!kw) return true;
+            if (t.name.indexOf(kw) >= 0) return true;
+            return t.subjects.some(function (sid) { return SUBJ[sid] && SUBJ[sid].name.indexOf(kw) >= 0; });
+          }).filter(function (t) { return papersOf(examId, t.subjects).length; });
+          if (!tracks.length) return;
+          any = true; hit += tracks.length;
+          var h = el('h3', 'grp', g.name); sec.appendChild(h);
+          var p = el('div', 'panel');
+          tracks.forEach(function (t) {
+            var list = papersOf(examId, t.subjects);
+            var subs = {}; list.forEach(function (e) { subs[e.subj] = 1; });
+            p.appendChild(item('📁', t.name,
+              Object.keys(subs).length + T(' 科　') + list.length + T(' 卷 ') + sumQ(list) + unitQ(),
+              null, '#/track/' + examId + '/' + encodeURIComponent(t.id)));
+          });
+          sec.appendChild(p);
+        });
+        if (any) host.appendChild(sec);
+      });
+      if (!hit) host.appendChild(el('p', 'lead', T('沒有符合的類科，換個關鍵字試試。')));
+    }
+    inp.oninput = function () { draw(inp.value); };
+    draw('');
+  }
+
+  function findTrack(examId, tid) {
+    var out = null;
+    CATS.forEach(function (c) {
+      c.exams.forEach(function (x) {
+        if (x.id !== examId) return;
+        (x.stages || []).forEach(function (st) {
+          (st.groups || []).forEach(function (g) {
+            g.tracks.forEach(function (t) { if (t.id === tid) out = { t: t, g: g, st: st, x: x }; });
+          });
+        });
+      });
+    });
+    return out;
+  }
+
+  function viewTrack(main, examId, tid) {
+    var f = findTrack(examId, decodeURIComponent(tid || ''));
+    if (!f) return viewNotFound(main);
+    var list = papersOf(examId, f.t.subjects);
+    main.appendChild(el('h1', 'pg-h', f.st.name + T('　') + f.t.name));
+    main.appendChild(el('p', 'lead', f.x.name + T('　·　') + f.g.name + T('　·　')
+      + list.length + T(' 卷 ') + sumQ(list) + unitQ()));
+
+    var s0 = el('section', 'sec');
+    var g0 = el('div', 'cards');
+    var c1 = card('♾️', T('這個類科隨機刷題'), T('把這個類科所有科目、所有年份混在一起出題'), null);
+    c1.style.cursor = 'pointer';
+    c1.onclick = function () { startDrillMany(f.t.subjects, f.t.name); };
+    g0.appendChild(c1);
+    s0.appendChild(g0); main.appendChild(s0);
+
+    var s = el('section', 'sec');
+    s.appendChild(sectionHead(T('科目')));
+    var p = el('div', 'panel');
+    f.t.subjects.forEach(function (sid) {
+      var ls = EXAMS.filter(function (e) { return e.exam === examId && e.subj === sid; });
+      if (!ls.length || !SUBJ[sid]) return;
+      var stat = ls.reduce(function (a, e) {
+        var s2 = state.stats[e.id]; if (s2) { a.n += s2.n; a.ok += s2.ok; } return a;
+      }, { n: 0, ok: 0 });
+      p.appendChild(item('📘', SUBJ[sid].name,
+        ls.length + T(' 卷 · ') + sumQ(ls) + unitQ()
+        + (SUBJ[sid].note ? T('　') + SUBJ[sid].note : '')
+        + (stat.n ? T('　｜已作答 ') + stat.n + T(' 題，正確率 ') + pct(stat.ok, stat.n) + '%' : ''),
+        null, '#/subject/' + examId + '/' + sid));
+    });
+    s.appendChild(p); main.appendChild(s);
   }
 
   /* ============ 單一科目：刷題入口＋年份卷別 ============ */
@@ -301,6 +399,21 @@
       location.hash = '#/quiz';
     });
   }
+  function startDrillMany(sids, label) {
+    var ids = EXAMS.filter(function (e) { return sids.indexOf(e.subj) >= 0; }).map(function (e) { return e.id; });
+    if (!ids.length) return toast(T('這個範圍還沒有題目。'));
+    shuffle(ids);
+    loadMany(ids.slice(0, 6), function (ps) {
+      if (!ps.length) return toast(T('題本載入失敗，請重新整理再試一次。'));
+      var pool = [];
+      ps.forEach(function (p) { p.qs.forEach(function (q) { pool.push({ q: q, pid: p.id, title: p.title }); }); });
+      shuffle(pool);
+      var take = pool.slice(0, 40);
+      quiz = { mode: 'drill', sid: null, title: T('無限刷題 · ') + label,
+        meta: take, qs: take.map(function (x) { return x.q; }), i: 0, ans: [], ok: 0 };
+      location.hash = '#/quiz';
+    });
+  }
   function startWrong(sid) {
     var ws = state.wrong.filter(function (w) {
       if (!sid) return true; var e = examOf(w.pid); return e && e.subj === sid;
@@ -338,6 +451,13 @@
     meta.appendChild(el('span', null, (T('第 ') + (quiz.i + 1) + ' / ' + quiz.qs.length + unitQ())));
     meta.appendChild(el('span', null, quiz.mode === 'paper' ? origQ(q.n) : m.title));
     c.appendChild(meta);
+    // 題組短文（閱讀測驗、克漏字）：每一題都自帶一份，單看一題也讀得懂
+    if (q.psg) {
+      var pb = el('div', 'psg');
+      pb.appendChild(el('b', null, T('短文')));
+      pb.appendChild(el('p', null, q.psg));
+      c.appendChild(pb);
+    }
     c.appendChild(el('div', 'stem', q.q));
 
     if (q.fig) {
@@ -658,6 +778,7 @@
     else if (top === 'exams') viewExams(main);
     else if (top === 'exam') viewExam(main, seg[1]);
     else if (top === 'subject') viewSubject(main, seg[1], seg[2]);
+    else if (top === 'track') viewTrack(main, seg[1], seg[2]);
     else if (top === 'paper') {
       // 題本是動態載入的，還沒到就先顯示載入中，startPaper 載完會再 render 一次
       if (!quiz || quiz.mode !== 'paper' || quiz.pid !== seg[1] || quiz.done) {

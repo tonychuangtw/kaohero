@@ -22,6 +22,19 @@ CATS.forEach(c => {
       ok(Array.isArray(x.stages) && x.stages.length > 0, x.id + ' 已上線就要有 stages');
       (x.stages || []).forEach(st => st.subjects.forEach(sid =>
         ok(!!SUBJ[sid], `${x.id} 的科目 ${sid} 在科目表中有定義`)));
+      // 類科很多的考試（高普考）：等別 → 類群 → 類科 → 科目，參照要接得上、id 不重複
+      const tids = new Set();
+      (x.stages || []).forEach(st => (st.groups || []).forEach(g => {
+        ok(!!g.name && Array.isArray(g.tracks) && g.tracks.length > 0, `${x.id} 類群 ${g.name} 欄位完整`);
+        g.tracks.forEach(t => {
+          ok(!!t.id && !tids.has(t.id), `${x.id} 類科 id ${t.id} 不重複`); tids.add(t.id);
+          ok(!!t.name && Array.isArray(t.subjects) && t.subjects.length > 0, `${x.id} 類科 ${t.name} 有科目`);
+          t.subjects.forEach(sid => {
+            ok(!!SUBJ[sid], `${x.id} 類科 ${t.name} 的科目 ${sid} 有定義`);
+            ok(st.subjects.indexOf(sid) >= 0, `${x.id} 類科 ${t.name} 的科目 ${sid} 也在該等別的科目清單裡`);
+          });
+        });
+      }));
       ok(EXAMS.some(e => e.exam === x.id), x.id + ' 標為已上線就要有卷子');
     } else {
       ok(!EXAMS.some(e => e.exam === x.id), x.id + ' 標為建置中就不該有卷子');
@@ -69,6 +82,8 @@ EXAMS.forEach(e => {
     if (q.pt !== 1 || q.type !== 'single') bad.push('#' + q.n + ' 配分或題型不對');
     if (!q.needfig && q.o.some(o => !o || !o.trim())) bad.push('#' + q.n + ' 有空選項卻沒標 needfig');
     if (q.exp != null && typeof q.exp !== 'string') bad.push('#' + q.n + ' exp 型別錯誤');
+    // psg＝題組短文（閱讀測驗、克漏字）：同一組的每一題都自帶一份
+    if (q.psg != null && (typeof q.psg !== 'string' || q.psg.length < 20)) bad.push('#' + q.n + ' psg 型別或長度不對');
   });
   // 題號必須連號 1..n（斷號代表解析漏題）
   const mx = Math.max(...nums);
