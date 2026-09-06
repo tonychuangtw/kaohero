@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "全口自然牙者之咀嚼及吞嚥時，一整天內的咬合接觸總時間約 35 分鐘",
     "全口自然牙者之下顎牙周膜承載區，約為下顎無牙義齒承載區的 4 倍"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：自然牙者一天內牙齒真正接觸（咀嚼與吞嚥）的總時間只有「十幾分鐘」等級，經典數據約 17.5 分鐘，並非 35 分鐘。\n❌ (A) 正確：全口義齒者的最大咬合力只有自然牙的五分之一到六分之一。\n❌ (B) 正確：義齒者咀嚼效率低，但約達自然牙的四分之一即可維持進食需求。\n❌ (D) 正確：牙周膜承載面積遠大於無牙嵴的承載面積。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Biomechanics of the edentulous state）。"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅③④⑤",
     "僅②⑤"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 五項都成立：新義齒改變舌頭可用空間、舌頭需要重新學習擺位、後牙殘嵴第一次承受咀嚼壓力、病人動機影響適應速度，而下顎由自然牙變成義齒後，上顎義齒的受力與穩定也跟著改變。\n❌ (B) 漏掉⑤，上顎義齒的穩定確實會受影響。\n❌ (C) 漏掉①②，舌頭適應是常見主訴。\n❌ (D) 只列兩項，明顯不足。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Patient adaptation）。"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "彈性印模材通常在印模托內須預留印模材之空間（spacer）",
     "使用彈性印模材取模後，如果發現有微小孔洞，可使用蠟進行修補"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：氧化鋅丁香油等金屬氧化物類印模材流動性「好」（黏度低），能記錄細部與周邊，這正是它用於最終印模的理由。\n❌ (B) 正確：它沒有彈性，遇明顯倒凹會斷裂或變形。\n❌ (C) 正確：彈性印模材需要預留厚度空間才能維持精度。\n❌ (D) 正確：微小缺陷可用蠟局部修補後重取或補印。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Impression materials）。"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "製作下顎全口活動義齒時需要覆蓋臼齒後墊",
     "為頰棚（buccal shelf）的遠心緣界線"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：臼齒後墊表面是「非角化」的黏膜（含腺體與疏鬆結締組織），不是全部角化。\n❌ (A) 正確：它與頰棚同屬下顎義齒的主要支持區。\n❌ (C) 正確：義齒後緣應覆蓋臼齒後墊的前 1/2～2/3 以取得封閉與支持。\n❌ (D) 正確：頰棚的遠心界線即由臼齒後墊界定。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Denture-bearing areas）。"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "中門齒",
     "犬齒"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 靜止位置減去 2～4 mm 的「自由空隙（freeway space）」是在第一小臼齒（前磨牙）區量測的，因為此處便於觀察且距離髁突的旋轉中心適中。\n❌ (B) 第一大臼齒區太後方，同樣的下顎旋轉在此的垂直變化較小。\n❌ (C) 門齒區距旋轉中心最遠，同樣的旋轉量會放大成更大的距離。\n❌ (D) 犬齒區同樣偏前，數值不適用。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Vertical dimension）。"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "咬合調整的步驟較平衡式（balanced）咬合簡單",
     "上下顎義齒的咬合接觸較平面式（monoplane）緊密"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 舌側化咬合的設計是「上顎舌側咬頭對下顎中央窩」的單點接觸，接觸點少而精準，並非比平面式更緊密——它的優點在於力量集中在牙嵴中央、調整簡單。\n❌ (A) 是優點：上顎仍用解剖式牙，外觀自然。\n❌ (B) 是優點：有咬頭斜面，咀嚼效率高於平面式。\n❌ (C) 是優點：只需調整上顎舌側咬頭，比全平衡咬合簡單。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Lingualized occlusion）。"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "門齒乳突在上顎的位置大致穩定，可作為全口義齒門齒排列時的參考",
     "若上顎為單顎全口義齒（single denture），且下顎前牙仍為自然齒，上顎前牙區常出現鬆贅齒齦嵴（flabby ridge）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：上顎齒槽骨吸收的方向是「往上、往內（upward and inward）」，因為唇頰側骨板吸收較快，牙弓因此變小；往上往外是下顎的吸收方向。\n❌ (A) 正確：唇頰側骨板薄，吸收快。\n❌ (C) 正確：門齒乳突位置穩定，是排列前牙的可靠參考點。\n❌ (D) 正確：上顎單顎義齒對咬下顎自然前牙時，前牙區受力過大而形成鬆贅嵴（combination syndrome 的一部分）。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Residual ridge resorption）。"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "下顎可選擇零度人工牙",
     "咬合調整相對困難與耗時"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 舌側化咬合的標準組合就是「上顎解剖式（有咬頭）＋下顎零度或低角度牙」，讓上顎舌側咬頭落在下顎平坦的中央窩內。\n❌ (A) 它對下顎後縮（第二類）的病人反而好用，因為接觸位置可自由設定。\n❌ (B) 覆蓋式義齒同樣可採用舌側化咬合。\n❌ (D) 它的咬合調整比全平衡咬合簡單，不是困難。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Lingualized occlusion）。"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "糰狀期（dough stage）",
     "硬化期（stiff stage）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 麵糰期（dough stage）時樹脂不再黏手、又仍具可塑性，是填充包埋盒的最佳時機；太早會流失、太晚則填不密實而產生孔隙。\n❌ (A) 砂狀期粉粒尚未濕潤，無法成形。\n❌ (B) 絲狀期會黏手牽絲，填充時容易夾入空氣。\n❌ (D) 硬化期已失去流動性，會造成義齒垂直高度增加與孔洞。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Denture base resins：packing）。"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "為了符合申請政府全口義齒製作補助的條件",
     "殘存齒會影響義齒之製作"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 為了「符合補助條件」而拔除仍可保留的牙齒，是以行政利益取代醫療需要，違反不傷害原則與病人最佳利益，屬不當醫療。\n❌ (A) 嚴重齲蝕無法修復是合理的拔牙適應症。\n❌ (B) 無法自我清潔造成反覆感染，可作為治療計畫的考量。\n❌ (D) 殘存齒位置妨礙義齒設計與功能，是合理的臨床理由。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.；牙醫師專業倫理準則。"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅③④⑤",
     "②③④⑤"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 選用金屬床的理由是①導熱佳（保留口腔對溫度的感覺）、②強度高不易斷裂、③可做得薄而減少體積。\n❌ (A) 漏掉③，減少體積正是金屬床的主要優點之一。\n❌ (C) ④費用高、⑤換底困難都是金屬床的「缺點」，不是選用理由。\n❌ (D) 同樣把缺點列為理由。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Metal denture bases）。"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "①③",
     "②④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 顎舌骨肌後窩的邊緣成形要讓舌頭做「舔下唇」與「左右舔臉頰」的動作，藉舌肌與顎舌骨肌的活動決定該區的最大延伸範圍。\n❌ (A) ②舔上唇主要影響舌繫帶區。\n❌ (B) ③④中舔硬腭是用來成形舌側後緣中段。\n❌ (D) 同樣把舔上唇與舔硬腭列入，與此區的肌肉動作不符。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Border molding of the mandibular impression）。"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "使用樹脂製作記錄基底，需先將模型上之倒凹作封平，因而可能較鬆",
     "以樹脂製作記錄基底時，宜置入壓力鍋（pressure cooker）內聚合"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：基底板蠟太軟、受口內溫度就變形，不能用來做「記錄基底」；記錄基底應以自凝或熱聚樹脂、光聚合樹脂或成型片製作。\n❌ (B) 正確：咬合堤本身用基底板蠟製作最方便。\n❌ (C) 正確：樹脂基底要先封平倒凹，因此與黏膜間可能略鬆。\n❌ (D) 正確：壓力鍋聚合可減少氣孔、提高密度。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Record bases and occlusion rims）。"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "義齒製作時，以零度牙排牙而不提供平衡咬合，不能使用僅提供樞紐（hinge）開閉運動的簡易型咬合器",
     "即使採用全調節咬合器排牙，完成的義齒仍需咬合調整"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：用零度牙且不追求平衡咬合時，本來就只需要開閉口運動，因此「可以」使用簡易鉸鏈型咬合器。\n❌ (A) 正確：任何咬合器都只是近似模擬。\n❌ (B) 正確：選用哪一型咬合器與牙齒形態、咬合理論相關。\n❌ (D) 正確：即使用全可調咬合器，口內仍需咬合調整。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Articulators）。"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "上、下顎咬合蠟堤（occlusal wax rim）接觸狀態會影響取出顎間關係的正確性",
     "對神經肌肉控制不好的病人，可能無法記錄出可重複的顎間關係"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：可重複性只代表「記錄穩定」，不等於生理上最理想；例如肌肉痙攣的病人也可能重複到同一個錯誤位置。\n❌ (B) 正確：記錄基底不穩，描記出來的哥德式弓形就不可靠。\n❌ (C) 正確：蠟堤接觸不均會使下顎偏移而記錄錯誤。\n❌ (D) 正確：神經肌肉控制不良者難以取得可重複的記錄。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Recording jaw relations）。"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "上顎與下顎都是零度牙",
     "上顎零度牙＋下顎 20 度牙"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 上下顎都用零度（平面）牙時，咬合面沒有咬頭斜面引導，下顎即使位置略有偏差也不會被牙尖「導」到別的位置，最適合難以取得穩定咬合記錄的病人。\n❌ (A) 上下都用 20 度牙時，咬頭斜面會放大位置誤差。\n❌ (B) 上顎有咬頭仍會產生水平分力。\n❌ (D) 下顎有咬頭同樣會造成偏移。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Selection of posterior teeth）。"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "口輪匝肌（orbicularis oris）",
     "咬肌（masseter muscle）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 大張口時喙狀突向前下方移動，會擠壓上顎義齒的遠頰邊緣（頰側翼緣區），把義齒往下推而鬆脫——這也是該區邊緣要修薄的原因。\n❌ (A) 振動線決定的是義齒後緣封閉位置，與張口無關。\n❌ (C) 口輪匝肌影響的是唇側邊緣長度。\n❌ (D) 咬肌影響的是下顎義齒的遠頰區（masseteric notch）。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Denture borders：coronoid process）。"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅①②",
     "僅④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 四項都要做：抗黴菌藥控制感染、加強口腔與義齒清潔、夜間取下義齒讓黏膜休息，並把義齒「乾燥」保存（念珠菌在乾燥表面存活不易；若需浸泡則用消毒液）。\n❌ (B) 漏掉④。\n❌ (C) 少了減少配戴與乾燥保存這兩個關鍵。\n❌ (D) 只做乾燥而不用藥、不清潔，無法治癒。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Denture stomatitis）；Zarb, 13th ed.。"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "用軟毛牙刷及牙膏清潔義齒",
     "每天用軟毛牙刷清潔殘嵴的黏膜表面還有舌頭的背部表面（dorsal surface）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：一般牙膏含研磨劑，會把義齒樹脂表面磨出刮痕而更容易堆積菌斑；應使用義齒專用清潔劑或中性肥皂。\n❌ (A) 正確：義齒菌斑是義齒性口炎、乳頭狀增生與口臭的共同病因。\n❌ (B) 正確：飯後沖洗可減少食物殘渣堆積。\n❌ (D) 正確：黏膜與舌背也要每天清潔按摩。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Denture hygiene）。"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "下顎若雙側大臼齒（molar）缺失，可採短化牙弓（shortened dental arch）咬合設計，以減少裝戴下顎可撤式局部義齒之異物感",
     "上顎單顎全口義齒於後牙區之排牙，必要時要排列成錯咬（crossbite），如此則不需達成平衡咬合（balanced occlusion）之排列"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 上顎單顎義齒最常見的問題就是下顎自然齒列的咬合面不平整（傾斜、伸長），必須先做咬合調整（必要時做修復），上顎義齒才可能達到平衡與穩定。\n❌ (A) 面弓轉移仍有價值，可讓咬合器上的運動更接近病人，不能因為有對咬牙就省略。\n❌ (C) 短化牙弓是自然牙列的處置概念，把它用來當作省略下顎義齒的理由並不恰當。\n❌ (D) 排成錯咬是為了配合牙嵴關係，與是否需要平衡咬合是兩件事。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Single complete denture）。"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "年齡及性別",
     "齒槽骨之吸收狀況"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 年齡與性別會影響牙齒外形選擇等美學細節，但不是決定「能不能做、怎麼做」植體贋復的主要因素。\n❌ (A) 說話空間決定義齒厚度與前牙位置，是關鍵。\n❌ (B) 前牙露出程度決定切緣位置與是否需要牙齦色瓷，是關鍵。\n❌ (D) 骨吸收程度決定植體數目、位置與是否需要補骨，是最核心的條件。\n📚 出處：Misch, Contemporary Implant Dentistry, 4th ed.（Treatment planning for the edentulous maxilla）。"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "氣泡數量少",
     "整個義齒的顏色看起來較淺且不透明"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 樹脂量不足時壓力不足、單體與粉粒無法充分緻密結合，會在整個義齒內形成細小分散的孔隙，外觀變得較淺、較不透明（乳白）。\n❌ (A) 局部厚處出現大氣泡是「聚合過快、單體汽化」造成的。\n❌ (B) 均勻圓孔是單體蒸發型氣泡的特徵。\n❌ (C) 量不足造成的孔隙是「多而細小」，不是數量少。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Denture base processing：porosity）。"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "此咬合面鈎靠座的頰舌寬度為支柱牙咬合面頰舌寬度的 1/3",
     "此設計可以減少支柱牙往前傾斜，並將力量傳達至支柱牙長軸"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：長型咬合面鈎靠座的設計本來就是「延伸超過」咬合面近遠心的一半（甚至到對側邊緣嵴），才能把力量導向牙齒長軸並防止支柱牙繼續前傾。\n❌ (A) 正確：適用於末端支柱牙近心傾斜的情形。\n❌ (C) 正確：頰舌寬度約為咬合面寬度的三分之一。\n❌ (D) 正確：這正是它的設計目的。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Extended occlusal rests）。"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "從矢狀切面來看中間部分可以輕微隆起（slight elevation）",
     "特別適用於後牙缺失 Kennedy class III 的義齒設計"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：單腭帶適用於「短跨距」的雙側牙齒支持缺牙區；跨距長或需要更多支持時要改用腭板或前後腭帶。\n❌ (B) 正確：前後緣要薄以減少舌頭與發音干擾。\n❌ (C) 正確：中央可略隆起以增加強度並貼合腭部形態。\n❌ (D) 正確：Kennedy class III（雙側後牙缺失但有末端支柱牙）最適合。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Maxillary major connectors）。"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "①③④",
     "①②④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ②④ 正確：連續槓要做成薄而窄（約 3 mm 高）的金屬帶，且由中央往上下緣漸薄，才不會刺激舌頭與牙齦。\n❌ (A) ①錯：下顎前牙嚴重舌傾時，舌側空間不足反而不適合連續槓（會用舌板）。\n❌ (C) ③錯：前牙有大牙間隙時，金屬會從縫隙露出影響美觀。\n❌ (D) 同樣含①。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Mandibular major connectors）。"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "C-型牙鈎（C-shape clasp）",
     "反向環狀牙鈎（reverse circlet clasp）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 環鈎（ring clasp）從鈎靠出發環繞牙齒近四分之三圈，正適合近心傾斜的大臼齒——固位臂可以繞到遠頰或遠舌的倒凹區取得固位。\n❌ (B) 楔隙牙鈎用於兩顆相鄰牙齒之間，作為間接固位或無缺牙側的固位。\n❌ (C) C 型牙鈎是簡單的環周鈎變化型，不適合傾斜嚴重的牙齒。\n❌ (D) 反向環狀牙鈎用於缺牙區在牙齒近心側的情形。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Clasp designs）。"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "拮抗鈎臂（reciprocal clasp）不低於牙冠中間三分之一及高隆線之上",
     "降低高隆線可獲得較好的機械優勢及美觀"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：拮抗鈎臂應放在「高隆線之上、牙冠中間三分之一」的非倒凹區，題目寫「不低於中間三分之一及高隆線之上」語意上把它放到了固位區，敘述不正確。\n❌ (A) 正確：環周鈎的起始位於中間與牙齦三分之一交界處。\n❌ (B) 正確：固位臂末端要進入牙齦三分之一的倒凹區。\n❌ (D) 正確：適度降低高隆線可讓鈎臂位置更理想、更美觀。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Mouth preparations：contouring abutments）。"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "下顎遠伸性可撤式局部義齒應雙側平衡性咬合（bilateral balanced occlusion）",
     "將下顎頰側咬頭排列於可將壓力傳導至頰棚（buccal shelf）區之位置"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：雙側平衡咬合是「全口義齒」的概念；遠伸性局部義齒因為還有自然牙引導，追求的是與自然牙協調的咬合（工作側接觸、非工作側不干擾），不是全平衡。\n❌ (A) 正確：不能只看咬合面關係，還要考慮支持組織。\n❌ (B) 正確：牙齒與殘嵴的位置關係決定受力方向。\n❌ (D) 正確：把咬合力導向頰棚這個主要支持區是正確設計。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Occlusal relationships for RPDs）。"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "下壓遠伸性義齒床會繞著支點線旋轉，且間接固位體（indirect retainer）離開其鈎座（rest seat）",
     "義齒之人工牙有相當程度的咬耗"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯的是這一個：人工牙咬耗嚴重時要做的是「重排牙或重做義齒」，不是換底墊；換底墊解決的是基底與黏膜之間的不密合。\n❌ (A) 正確：殘嵴吸收後義齒下沉，剩餘自然牙受力變重，是換底的指標。\n❌ (B) 正確：對咬牙伸長會掩蓋基底下沉的事實。\n❌ (C) 正確：間接固位體離開鈎座是基底下沉的典型徵象。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Relining and rebasing）。"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "戴上可撤式局部義齒後的發音問題，一般可在數天後改善",
     "告知病人，清洗義齒時不要掉到地上，導致斷裂或變形"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯的是這一個：下顎遠心舌側區（顎舌骨肌區）過度延伸或加厚，會壓迫舌側組織造成疼痛與義齒被舌頭頂起，反而更不穩。\n❌ (B) 正確：舌頭對薄而平滑的基底接受度較好。\n❌ (C) 正確：發音問題多可在數天內適應。\n❌ (D) 正確：清洗時應在水槽墊毛巾或裝水，避免掉落斷裂。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Initial placement procedures）。"
   },
   {
    "n": 31,
@@ -429,7 +459,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "第三類槓桿作用力",
     "基底延伸只需殘嵴的 2/3"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 鈎靠放在支柱牙遠心側時，支點（鈎靠）位於施力點（殘嵴受力）與抗力點（間接固位體）之間，形成第一類槓桿——這正是遠伸性義齒最不利的設計，會把支柱牙往遠心翹起。\n❌ (B) 第二類槓桿是抗力在中間。\n❌ (C) 第三類槓桿是施力在中間。\n❌ (D) 基底必須盡量延伸以分散壓力，不是只做三分之二。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Distal extension RPD：rest position）。"
   },
   {
    "n": 33,
@@ -455,7 +486,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅①③④",
     "僅②③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 四項都是穩定構件：引導面提供路徑與水平穩定、接觸垂直牙面的小連接體抵抗水平移動、拮抗鈎臂平衡固位臂的作用力、間接固位體防止義齒繞支點線翹起。\n❌ (B) 漏掉③拮抗鈎臂。\n❌ (C) 漏掉②小連接體。\n❌ (D) 只有兩項，遺漏引導面與間接固位體。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Components of the RPD：stabilizing components）。"
   },
   {
    "n": 35,
