@@ -25,9 +25,19 @@
     '瀏覽全部題庫': 'Browse all banks',
     '接續上次：': 'Resume: ',
     '選擇考試類別': 'Choose an exam category',
-    '目前先開放醫事人員類的醫師考試，其他類別陸續建置中。':
-      'The physician licensing exam is live now; other categories are being added.',
+    '醫事人員四張執照、律師／司法官第一試已完整收錄；高普考共同科目已上線，專業科目陸續加入。':
+      'Four medical licences and the Bar/Judiciary first-stage exam are fully covered; the Civil Service '
+      + 'Senior/Junior exam has its common subjects online, with professional subjects being added.',
     '全部類別 →': 'All categories →',
+    '搜尋類科或科目，例如：一般行政、行政法': 'Search a track or subject, e.g. General Administration',
+    '搜尋類科': 'Search tracks',
+    '沒有符合的類科，換個關鍵字試試。': 'No matching track — try another keyword.',
+    '這個類科隨機刷題': 'Random practice for this track',
+    '把這個類科所有科目、所有年份混在一起出題': 'Mixes every subject and year in this track',
+    '這個範圍還沒有題目。': 'No questions in this range yet.',
+    '科目': 'Subjects',
+    ' 科　': ' subjects · ',
+    '短文': 'PASSAGE',
     '我的練習狀況': 'Your progress',
     '看完整統計 →': 'Full statistics →',
     '怎麼用這個站': 'How this site works',

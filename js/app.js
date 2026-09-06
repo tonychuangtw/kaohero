@@ -155,7 +155,7 @@
 
     var s1 = el('section', 'sec');
     s1.appendChild(sectionHead(T('選擇考試類別'), T('全部類別 →'), '#/exams'));
-    s1.appendChild(el('p', 'lead', T('目前先開放醫事人員類的醫師考試，其他類別陸續建置中。')));
+    s1.appendChild(el('p', 'lead', T('醫事人員四張執照、律師／司法官第一試已完整收錄；高普考共同科目已上線，專業科目陸續加入。')));
     var g = el('div', 'cards');
     CATS.forEach(function (c) {
       c.exams.forEach(function (x) {
