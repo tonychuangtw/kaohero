@@ -13,7 +13,7 @@ window.APP_EXAM_PAPERS['gao-115-1-p001'] = {
  "title": "115 年　普通考試　國文",
  "subjName": "國文",
  "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
- "mins": 60,
+ "mins": 30,
  "qs": [
   {
    "n": 1,

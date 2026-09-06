@@ -23,6 +23,17 @@ LVLKEY = {1: 'g', 2: 'p'}
 REG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gao-subjects.json')
 
 
+def mins_of(pdf, nq):
+    """卷首的「考試時間」。國文（作文與測驗）的 2 小時大半是寫作文，本站只收「乙、測驗部分」，
+       所以那種卷改用 3 分鐘/題（取整到 5 分）估，不要標成 120 分鐘誤導人。"""
+    t = P.text(pdf)
+    if G.TESTPART.search(t):
+        return max(15, int(round(nq * 3 / 5.0)) * 5)
+    m = re.search(r'考試時間[：:]\s*(\d+)\s*小時\s*(\d+)?\s*分?', t)
+    if not m: return 60
+    return int(m.group(1)) * 60 + (int(m.group(2)) if m.group(2) else 0)
+
+
 def canon(sn):
     """科目名稱正規化：去掉括號裡的說明，(一)(二) 這種序號要保留。"""
     s = sn.replace(' ', '').replace('　', '')
@@ -132,7 +143,7 @@ def main():
                  'title': '%d 年　%s　%s' % (roc, lvname, name),
                  'subjName': name,
                  'src': '考選部考畢試題查詢平臺公開之試題與標準答案',
-                 'mins': 60, 'qs': qs}
+                 'mins': mins_of(qp, len(qs)), 'qs': qs}
         js = ('/* %s（%d 題）\n   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */\n'
               'window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};\n'
               "window.APP_EXAM_PAPERS['%s'] = %s;\n") % (

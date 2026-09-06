@@ -11931,7 +11931,7 @@ window.APP_EXAMS = [
   "label": "115 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-115-1-g002",
@@ -11959,7 +11959,7 @@ window.APP_EXAMS = [
   "label": "115 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-115-1-p002",
@@ -11987,7 +11987,7 @@ window.APP_EXAMS = [
   "label": "114 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-114-1-g002",
@@ -12015,7 +12015,7 @@ window.APP_EXAMS = [
   "label": "114 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-114-1-p002",
@@ -12043,7 +12043,7 @@ window.APP_EXAMS = [
   "label": "113 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-113-1-g002",
@@ -12071,7 +12071,7 @@ window.APP_EXAMS = [
   "label": "113 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-113-1-p002",
@@ -12099,7 +12099,7 @@ window.APP_EXAMS = [
   "label": "112 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-112-1-g002",
@@ -12127,7 +12127,7 @@ window.APP_EXAMS = [
   "label": "112 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-112-1-p002",
@@ -12155,7 +12155,7 @@ window.APP_EXAMS = [
   "label": "111 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-111-1-g002",
@@ -12183,7 +12183,7 @@ window.APP_EXAMS = [
   "label": "111 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-111-1-p002",
@@ -12211,7 +12211,7 @@ window.APP_EXAMS = [
   "label": "110 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-110-1-g002",
@@ -12239,7 +12239,7 @@ window.APP_EXAMS = [
   "label": "110 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-110-1-p002",
@@ -12267,7 +12267,7 @@ window.APP_EXAMS = [
   "label": "109 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-109-1-g002",
@@ -12295,7 +12295,7 @@ window.APP_EXAMS = [
   "label": "109 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-109-1-p002",
@@ -12323,7 +12323,7 @@ window.APP_EXAMS = [
   "label": "108 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-108-1-g002",
@@ -12351,7 +12351,7 @@ window.APP_EXAMS = [
   "label": "108 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-108-1-p002",
@@ -12379,7 +12379,7 @@ window.APP_EXAMS = [
   "label": "107 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-107-1-g002",
@@ -12407,7 +12407,7 @@ window.APP_EXAMS = [
   "label": "107 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-107-1-p002",
@@ -12435,7 +12435,7 @@ window.APP_EXAMS = [
   "label": "106 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-106-1-g002",
@@ -12463,7 +12463,7 @@ window.APP_EXAMS = [
   "label": "106 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-106-1-p002",
@@ -12491,7 +12491,7 @@ window.APP_EXAMS = [
   "label": "105 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-105-1-g002",
@@ -12519,7 +12519,7 @@ window.APP_EXAMS = [
   "label": "105 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-105-1-p002",
@@ -12547,7 +12547,7 @@ window.APP_EXAMS = [
   "label": "104 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-104-1-g002",
@@ -12575,7 +12575,7 @@ window.APP_EXAMS = [
   "label": "104 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-104-1-p002",
@@ -12603,7 +12603,7 @@ window.APP_EXAMS = [
   "label": "103 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-103-1-p002",
@@ -12631,7 +12631,7 @@ window.APP_EXAMS = [
   "label": "102 年　高考三級　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-102-1-g002",
@@ -12659,7 +12659,7 @@ window.APP_EXAMS = [
   "label": "102 年　普通考試　國文",
   "n": 10,
   "exp": 0,
-  "mins": 60
+  "mins": 30
  },
  {
   "id": "gao-102-1-p002",

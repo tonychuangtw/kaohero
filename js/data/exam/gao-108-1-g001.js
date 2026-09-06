@@ -13,7 +13,7 @@ window.APP_EXAM_PAPERS['gao-108-1-g001'] = {
  "title": "108 年　高考三級　國文",
  "subjName": "國文",
  "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
- "mins": 60,
+ "mins": 30,
  "qs": [
   {
    "n": 1,
