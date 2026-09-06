@@ -2179,7 +2179,7 @@ window.APP_SUBJECTS = {
  },
  "g001": {
   "name": "國文",
-  "note": "國文（作文、公文與測驗）　／　國文（作文與測驗）",
+  "note": "國文（作文、公文與測驗）",
   "stage": 1
  },
  "g002": {
@@ -2189,7 +2189,7 @@ window.APP_SUBJECTS = {
  },
  "p001": {
   "name": "國文",
-  "note": "國文（作文、公文與測驗）　／　國文（作文與測驗）",
+  "note": "國文（作文、公文與測驗）",
   "stage": 2
  },
  "p002": {
@@ -2204,7 +2204,7 @@ window.APP_SUBJECTS = {
  },
  "g004": {
   "name": "行政法（一般行政組）",
-  "note": "行政法",
+  "note": "",
   "stage": 1
  },
  "g005": {
@@ -2214,17 +2214,17 @@ window.APP_SUBJECTS = {
  },
  "g006": {
   "name": "民法（財稅行政組）",
-  "note": "民法",
+  "note": "",
   "stage": 1
  },
  "g007": {
   "name": "稅務法規（財稅行政組）",
-  "note": "稅務法規",
+  "note": "",
   "stage": 1
  },
  "g008": {
   "name": "財政學（財稅行政組）",
-  "note": "財政學",
+  "note": "",
   "stage": 1
  },
  "g009": {
@@ -2244,7 +2244,7 @@ window.APP_SUBJECTS = {
  },
  "g012": {
   "name": "政府會計（會計組）",
-  "note": "政府會計",
+  "note": "",
   "stage": 1
  },
  "g013": {
@@ -2254,7 +2254,7 @@ window.APP_SUBJECTS = {
  },
  "g014": {
   "name": "審計學（會計組）",
-  "note": "審計學",
+  "note": "",
   "stage": 1
  },
  "g015": {
@@ -2269,7 +2269,7 @@ window.APP_SUBJECTS = {
  },
  "g017": {
   "name": "行政法（法制組）",
-  "note": "行政法",
+  "note": "",
   "stage": 1
  },
  "g018": {
@@ -2279,7 +2279,7 @@ window.APP_SUBJECTS = {
  },
  "g019": {
   "name": "行政法（智慧財產行政組）",
-  "note": "行政法",
+  "note": "",
   "stage": 1
  },
  "g020": {
@@ -2309,17 +2309,17 @@ window.APP_SUBJECTS = {
  },
  "g025": {
   "name": "稅務法規（財稅法務組）",
-  "note": "稅務法規",
+  "note": "",
   "stage": 1
  },
  "g026": {
   "name": "財政學（會計組）",
-  "note": "財政學",
+  "note": "",
   "stage": 1
  },
  "g027": {
   "name": "民法（司法行政組）",
-  "note": "民法",
+  "note": "",
   "stage": 1
  },
  "g028": {
@@ -2329,7 +2329,7 @@ window.APP_SUBJECTS = {
  },
  "g029": {
   "name": "民法（法制組）",
-  "note": "民法",
+  "note": "",
   "stage": 1
  },
  "g030": {
@@ -2354,7 +2354,7 @@ window.APP_SUBJECTS = {
  },
  "g034": {
   "name": "民法（智慧財產行政組）",
-  "note": "民法",
+  "note": "",
   "stage": 1
  },
  "p003": {
@@ -2419,7 +2419,7 @@ window.APP_SUBJECTS = {
  },
  "p015": {
   "name": "會計學概要（財稅行政組）",
-  "note": "會計學概要",
+  "note": "",
   "stage": 2
  },
  "p016": {
@@ -2459,7 +2459,7 @@ window.APP_SUBJECTS = {
  },
  "p023": {
   "name": "計算機概要（電子工程組）",
-  "note": "計算機概要",
+  "note": "",
   "stage": 2
  },
  "p024": {
@@ -2474,17 +2474,17 @@ window.APP_SUBJECTS = {
  },
  "p026": {
   "name": "計算機概要（工業行政組）",
-  "note": "計算機概要",
+  "note": "",
   "stage": 2
  },
  "p027": {
   "name": "計算機概要（資訊處理組）",
-  "note": "計算機概要",
+  "note": "",
   "stage": 2
  },
  "p028": {
   "name": "會計學概要（會計組）",
-  "note": "會計學概要",
+  "note": "",
   "stage": 2
  },
  "p029": {

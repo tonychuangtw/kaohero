@@ -18,9 +18,11 @@ def main():
     where = {t: g for g, ts in groups.items() for t in ts}
 
     for key, v in sorted(src['subjects'].items()):
-        note = [x for x in v['note'] if x != v['name']]
+        # note 只留「最完整的那個官方全名」（含括號說明），跟顯示名一樣就不必再寫一次
+        base = re.sub(r'（[^）]*組）$', '', v['name'])
+        note = sorted((x for x in v['note'] if x != base), key=len, reverse=True)
         spec['subjects'][key] = {'name': v['name'],
-                                 'note': '　／　'.join(note[:2]) if note else '',
+                                 'note': note[0] if note else '',
                                  'stage': v['lvl']}
     stages = []
     for lvl, lvname, note in ((1, '高考三級', '大學（含）以上程度，多數類科需專業科目申論'),
