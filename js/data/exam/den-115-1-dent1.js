@@ -582,7 +582,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "4 個牙根時，近心 2 根較遠心 2 根短",
     "通常只有 1 個牙根"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 下顎第一大臼齒典型是近心根與遠心根兩根，近心根較寬、較彎且通常略長於遠心根（近心根多為兩個根管，遠心根多為一個）。\n❌ (B) 三根型（多出遠心舌側根 radix entomolaris）時，多出來的那一根反而是最短小的。\n❌ (C) 四根的情況極為罕見，也沒有「近心兩根較短」這種通則。\n❌ (D) 單根的下顎第一大臼齒屬異常變異，不是常見特徵。\n📚 出處：Wheeler's Dental Anatomy, Physiology and Occlusion, 11th ed.（Mandibular first molar）；Cohen's Pathways of the Pulp, 12th ed.（root canal morphology）。"
   },
   {
    "n": 42,
@@ -595,7 +596,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "上顎第一大臼齒的遠心頰側牙根是其中較直且最粗的牙根",
     "下顎第一小臼齒的頰側牙髓角通常較舌側明顯"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：上顎第一大臼齒最長、最粗且最直的是「腭側根」；遠心頰側根反而是三根中最短小的。\n❌ (A) 正確：上顎犬齒根尖孔多位於根尖中央或略偏唇（頰）側。\n❌ (B) 正確：下顎正中門齒根尖孔同樣位於根尖中央或略偏唇側。\n❌ (D) 正確：下顎第一小臼齒頰側咬頭大，對應的頰側牙髓角也比舌側明顯。\n📚 出處：Cohen's Pathways of the Pulp, 12th ed.（Tooth morphology and access）；Wheeler's Dental Anatomy, 11th ed.。"
   },
   {
    "n": 43,
@@ -608,7 +610,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "III",
     "IV"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Weine 第二類：兩個根管口離開髓腔後，在根中段或近根尖處合而為一、只開一個根尖孔，形狀就像 Y 字。\n❌ (A) 第一類是從髓腔到根尖自始至終一條根管。\n❌ (C) 第三類是兩個根管各自獨立、各有一個根尖孔（兩條平行的管）。\n❌ (D) 第四類是一條根管在中途分成兩條、各自開口於根尖。\n📚 出處：Weine FS, Endodontic Therapy；Cohen's Pathways of the Pulp, 12th ed.（Weine classification）。"
   },
   {
    "n": 44,
@@ -621,7 +624,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "僅①③④",
     "①②③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 齒頸部（CEJ 附近）琺瑯質與牙本質缺損最常見的成因是②裂耗與③磨耗：咬合應力集中在牙頸造成 abfraction 的楔狀缺損，橫向刷牙等機械摩擦則造成 abrasion。\n❌ (A) 含①侵蝕：酸蝕造成的是廣泛、光滑、碟狀的表面喪失，不會侷限在齒頸線。\n❌ (C) 含④咬耗：attrition 發生在咬合面與切緣，因牙齒互相接觸而磨損。\n❌ (D) 四項全含，理由同上。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry, 7th ed.（Noncarious tooth loss：abrasion, erosion, abfraction, attrition）。"
   },
   {
    "n": 45,
@@ -679,7 +683,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "殺菌作用（bactericide）",
     "降低再礦化（remineralization）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 氟離子取代氫氧基磷灰石中的氫氧基形成氟磷灰石，臨界 pH 由約 5.5 降到約 4.5，也就是更耐酸；同時促進再礦化，這才是塗氟防齲的主要機轉。\n❌ (A) 氟化物並非靠「把牙齒變硬」來防齲，硬度改變有限。\n❌ (C) 高濃度氟雖可抑制細菌酵素（如烯醇化酶），但這不是臨床塗氟的主要作用。\n❌ (D) 氟化物是「促進」再礦化，不是降低。\n📚 出處：Fejerskov and Kidd, Dental Caries: The Disease and its Clinical Management, 3rd ed.（Fluoride mechanisms）。"
   },
   {
    "n": 49,
@@ -692,7 +697,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "上顎第一大臼齒近心頰側牙根",
     "下顎第一大臼齒遠心側牙根"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 下顎第一大臼齒的遠心根通常只有一條粗大、橫斷面呈卵圓形的根管，其根尖孔平均直徑最大，臨床上根管銼可用到較大號數。\n❌ (A) 上顎正中門齒根尖孔雖不小，但仍不及下顎第一大臼齒遠心根。\n❌ (B) 下顎第一小臼齒根管細長，根尖孔較小。\n❌ (C) 上顎第一大臼齒近心頰側根根管細且常有第二根管（MB2），根尖孔更小。\n📚 出處：Cohen's Pathways of the Pulp, 12th ed.（Apical foramen dimensions）。"
   },
   {
    "n": 50,
@@ -705,7 +711,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "繼生牙本質和原生牙本質結構上，礦化物（mineral）與有機物質（organic material）的比率（ratio）相同",
     "造牙本質母細胞（odontoblasts）製造繼生牙本質的沉積速率較原生牙本質的沈積速率來得快"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 繼生牙本質與原生牙本質在成分上相同——礦物質與有機基質的比例一致，差別在形成時間、速率與小管排列。\n❌ (A) 繼生牙本質是「牙根發育完成、牙齒進入咬合之後」才開始沉積的，不是牙冠形成後就算。\n❌ (B) 繼生牙本質的小管排列比原生牙本質更「不規則」，兩者交界處常見小管方向的轉折。\n❌ (D) 它的沉積速率明顯「較慢」，是終生緩慢累積而使髓腔逐漸變小。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.8 Dentin（primary, secondary, tertiary dentin）。"
   },
   {
    "n": 51,
@@ -718,7 +725,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "bands of Hunter and Schreger",
     "von Korff's fibers"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) von Korff 纖維是牙乳頭中粗大的第三型膠原纖維束，出現在最初形成的被覆牙本質（mantle dentin）基質中，這是被覆牙本質與其後髓周牙本質在結構上的主要差異。\n❌ (A) Retzius 線是琺瑯質的生長線（增長紋），與牙本質無關。\n❌ (B) 湯姆氏突是造釉細胞的分泌構造，形成的是琺瑯質。\n❌ (C) Hunter–Schreger 帶是琺瑯柱走向交替造成的光學現象，也在琺瑯質。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.8 Dentin（mantle dentin；von Korff fibers）。"
   },
   {
    "n": 52,
@@ -731,7 +739,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "小且多角型的細胞，細胞核淡染且偏於細胞的一側",
     "大且圓形的細胞，細胞核濃染且偏於細胞的一側"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙髓中的未分化外胚層間葉細胞體積大、外形多角，細胞核大而淡染（染色質分散、代表轉錄活躍）並位於細胞中央，是牙髓的儲備幹細胞。\n❌ (B) 核濃染代表細胞不活躍或凋亡，與未分化細胞的形態不符。\n❌ (C) 體積小且核偏一側較像成熟的纖維細胞或淋巴球。\n❌ (D) 大而圓、核濃染偏心是漿細胞的特徵（車輪狀核偏心）。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.9 Dentin–Pulp Complex（pulp cells）。"
   },
   {
    "n": 53,
@@ -744,7 +753,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "鹼性磷酸酶（alkaline phosphatase）",
     "纖維蛋白原（fibrinogen）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 纖維蛋白原是肝臟製造、隨血漿運送的凝血蛋白，並不是牙骨質基質的組成成分。\n❌ (A) 牙本質基質蛋白 1（DMP1）在牙骨質與牙本質的礦化中都有角色。\n❌ (B) 骨黏連蛋白（osteonectin/SPARC）是礦化組織常見的非膠原蛋白，牙骨質中可測得。\n❌ (C) 鹼性磷酸酶參與礦化過程，牙骨質母細胞會表現。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.10 Cementum（noncollagenous matrix proteins）。"
   },
   {
    "n": 54,
@@ -757,7 +767,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "舌後側",
     "前硬腭"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 舌後 1/3 的舌根黏膜下有成團的舌扁桃腺，是口腔內淋巴組織最集中的地方，與腭扁桃腺、咽扁桃腺共同組成 Waldeyer 環。\n❌ (A) 上下唇黏膜下主要是小唾液腺（唇腺），淋巴組織零星。\n❌ (B) 頰黏膜是襯裡黏膜，下方以疏鬆結締組織與頰腺為主。\n❌ (D) 前硬腭為咀嚼性黏膜，固有層緻密並直接附著骨面，沒有明顯淋巴組織。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.12 Oral Mucosa；Moore's Clinically Oriented Anatomy, 8th ed.（Waldeyer's ring）。"
   },
   {
    "n": 55,
@@ -770,7 +781,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "在出生前，唾液腺生長已完成",
     "主枝的遠端比近端先形成腔室（lumen）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯的是這一個：唾液腺在出生時尚未發育完全，出生後仍持續分支與成熟（腮腺的腺泡分化甚至延續到出生後數年）。\n❌ (A) 正確：三大主唾液腺中腮腺最早開始（約胚胎第 6 週），但最晚被結締組織包膜完全包覆。\n❌ (B) 正確：唾液腺以上皮芽向間葉組織生長、反覆分支的方式發育（branching morphogenesis）。\n❌ (D) 正確：管腔化是由主枝遠端往近端進行。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.11 Salivary Glands（development）。"
   },
   {
    "n": 56,
@@ -783,7 +795,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "分泌管道開口於舌下肉阜（sublingual caruncle）",
     "其血液供應來自於顏面及舌動脈（facial and lingual arteries）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：顎下腺的副交感支配來自「顏面神經」——鼓索神經（chorda tympani）併入舌神經後於顎下神經節換元；舌咽神經管的是腮腺。\n❌ (A) 正確：顎下腺分深淺兩葉，繞過下顎舌骨肌的後緣。\n❌ (C) 正確：顎下腺管（Wharton's duct）開口於舌繫帶兩側的舌下肉阜。\n❌ (D) 正確：血液由顏面動脈與舌動脈供應。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8（Submandibular gland）；Ten Cate's Oral Histology, 9th ed.。"
   },
   {
    "n": 57,
@@ -796,7 +809,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "結締組織",
     "血管"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 出生後唾液腺仍在成熟，腺泡（分泌單位）持續增生分化，所佔體積比例明顯上升，唾液分泌量也隨之增加。\n❌ (A) 導管系統在出生前已大致建立，出生後所佔比例相對下降。\n❌ (C) 結締組織（間質）比例隨腺泡增加而相對減少。\n❌ (D) 血管會隨腺體長大而增加絕對量，但佔腺體體積的比例不是主要變化。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.11 Salivary Glands（postnatal development）。"
   },
   {
    "n": 58,
@@ -809,7 +823,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "牙齒萌發路徑的部分齒槽骨",
     "發育中牙齒的齒濾泡（dental follicle）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 齒濾泡是萌出的關鍵：它招募破骨細胞在牙齒上方開出萌出道、又在下方促進骨沉積，動物實驗中移除齒濾泡，牙齒就完全不會萌出。\n❌ (A) 移除牙齦上皮不影響萌出，牙齒仍會頂出來。\n❌ (B) 固有層被移除同樣不會阻止萌出。\n❌ (C) 移除部分齒槽骨反而讓萌出道更暢通。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.13 Tooth Eruption（role of the dental follicle）。"
   },
   {
    "n": 59,
@@ -822,7 +837,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "在懷孕十週後，是器官發育成熟的關鍵，對於環境有害因子最為敏感，如果孕婦在此時感染病毒，會導致胎兒嚴重的先天性缺陷",
     "在懷孕的不同時期胚胎發育都極為重要，所以每一時期對於有害的環境因子都極為敏感"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 懷孕第 4～8 週是器官形成期，也是致畸最敏感的窗口；此時飲酒可造成胎兒酒精症候群，典型表現就是人中平坦、上唇薄、眼裂短等顏面缺陷。\n❌ (A) 受精後兩週內多為「全有或全無」——受損嚴重就流產，存活下來多半不留結構缺陷。\n❌ (C) 第 10 週以後進入胎兒期，主要是生長與功能成熟，對致畸劑的敏感度反而下降。\n❌ (D) 各期敏感度並不相同，說「每一時期都極為敏感」與致畸學的敏感期概念不符。\n📚 出處：Langman's Medical Embryology, 14th ed.（Critical periods of development）。"
   },
   {
    "n": 60,
@@ -835,7 +851,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "牙釉器官（enamel organ）",
     "牙周韌帶（periodontal ligament）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙周韌帶是牙根形成後、由齒濾泡分化而來的構造，帽蓋期還沒有牙根，自然不會有牙周韌帶。\n❌ (A) 齒濾泡在帽蓋期已包圍在牙胚外圍。\n❌ (B) 牙乳頭此時位於牙釉器官的凹面內，日後形成牙本質與牙髓。\n❌ (C) 牙釉器官正是帽蓋期最明顯的構造（外釉上皮、星狀網、內釉上皮）。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.5 Tooth Development（cap stage）。"
   },
   {
    "n": 61,
@@ -848,7 +865,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "與小動脈（arteriole）相比，小靜脈（venule）的管壁（wall）較厚",
     "小靜脈（venule）管壁的肌肉層（muscular layer）為連續性（continuous）的分布"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙髓的輸出端以小靜脈為主，管徑大、管壁薄，血液由此匯集後經根尖孔離開牙髓。\n❌ (B) 小靜脈的內徑明顯大於小動脈，這也是牙髓在發炎時容易鬱血的原因之一。\n❌ (C) 小靜脈管壁比小動脈「薄」，肌層很少。\n❌ (D) 小靜脈的肌層是不連續、零星分布的，連續而發達的平滑肌層是小動脈的特徵。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.9 Dentin–Pulp Complex（pulpal vasculature）。"
   },
   {
    "n": 62,
@@ -861,7 +879,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "其化學組成中之鈣磷比例（calcium-phosphorus ratio）跟牙本質（dentin）相當",
     "有可能與牙本質壁（dentin wall）黏合在一起"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：牙髓石最常見的位置是「髓腔內」（尤其近髓角處）或根管中，並非集中在髓腔頂部；X 光片上常在冠髓腔內看到。\n❌ (A) 正確：牙髓石在年輕恆牙也看得到，並不限於老年人。\n❌ (C) 正確：其鈣磷比與牙本質相近。\n❌ (D) 正確：牙髓石可分游離、附著與埋藏三型，附著型就是與牙本質壁黏合。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.9（pulp stones／denticles）；Cohen's Pathways of the Pulp, 12th ed.。"
   },
   {
    "n": 63,
@@ -874,7 +893,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "在無細胞外生性纖維牙骨質（acellular extrinsic fiber cementum）的形成過程中，造牙骨質細胞只分泌非膠原蛋白基質",
     "在光學顯微鏡下，看到無細胞外生性牙骨質上面有與牙根表面垂直的紋路（striation），這是牙骨質的增生線（incremental lines）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙骨質與骨、牙本質一樣，有機基質中以第一型膠原蛋白佔絕大多數（約 90%）。\n❌ (B) 人類牙骨質是沉積在「尚未完全礦化」的牙本質表面（hyaline layer／Hopewell-Smith 層），兩者礦化界面互相交織。\n❌ (C) 無細胞外生性纖維牙骨質的膠原纖維來自牙周韌帶纖維母細胞，但牙骨質母細胞仍分泌基質成分，不是只分泌非膠原蛋白。\n❌ (D) 增生線是與牙根表面「平行」的層狀線，垂直於根面的紋路是穿通的 Sharpey 纖維。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.10 Cementum。"
   },
   {
    "n": 64,
@@ -887,7 +907,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "顆粒細胞層（granular cell layer）",
     "角化細胞層（keratinized cell layer）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 化療藥物打擊快速分裂的細胞，口腔黏膜的增殖細胞集中在基底層（與基底旁層），因此基底層受損最重，之後上皮變薄、潰瘍，形成口腔黏膜炎。\n❌ (B) 棘細胞層已離開分裂週期，屬於分化中的細胞。\n❌ (C) 顆粒層是角化過程的後段，細胞已不再分裂。\n❌ (D) 角化層是已死亡的角質細胞。\n📚 出處：Ten Cate's Oral Histology, 9th ed., Ch.12 Oral Mucosa；Neville, Oral and Maxillofacial Pathology, 4th ed.（chemotherapy-induced mucositis）。"
   },
   {
    "n": 65,
@@ -915,7 +936,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "高爾基腱器（Golgi tendon organs）",
     "游離神經末稍（free nerve endings）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顳顎關節囊與關節盤周邊分布的游離神經末梢屬於傷害受器（nociceptor），是關節疼痛的來源。\n❌ (A) 盧費尼氏小體是靜態的機械受器，偵測關節位置。\n❌ (B) 巴齊尼氏小體感受快速震動與加速度。\n❌ (C) 高爾基腱器監測肌腱張力，屬保護性反射的一部分。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（TMJ innervation）。"
   },
   {
    "n": 67,
@@ -928,7 +950,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "9.04",
     "10.76"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 精胺酸屬鹼性胺基酸，等電點取「兩個帶正電基團解離常數」的平均：(9.04＋12.48)/2 ≈ 10.76。\n❌ (A) 5.61 是把 pK1 與 pK2 平均的結果，那是中性胺基酸的算法。\n❌ (B) 7.90 不對應任何一組 pK 的平均值。\n❌ (C) 9.04 只是 pK2 本身，不是等電點。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.3（Amino acids：isoelectric point of basic amino acids）。"
   },
   {
    "n": 68,
@@ -941,7 +964,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "蛋白質可以藉由離子交換管柱（ion-exchange column），根據蛋白質淨電荷進行分離",
     "組胺酸標記蛋白質（His-tagged protein）可以藉由 Ni2+金屬親和性管柱（metal affinity column）進行分離"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯的是這一個：凝膠過濾（分子篩）中「大」蛋白質無法進入膠珠孔隙、路徑短而先出來；小蛋白質鑽進孔隙、路徑長而後出來。\n❌ (A) 正確：透析利用半透膜讓小分子鹽類擴散出去，達到脫鹽目的。\n❌ (C) 正確：離子交換管柱依蛋白質淨電荷與樹脂的靜電作用分離。\n❌ (D) 正確：His-tag 與固定化 Ni2+ 螯合，是最常用的親和純化法。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.3（Working with proteins）。"
   },
   {
    "n": 69,
@@ -954,7 +978,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "反應過渡狀態（transition state）的活化能",
     "酶的濃度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 酶的本質就是「降低過渡狀態的活化能」，使更多分子越過能障，反應速率因此加快。\n❌ (A) 受質結合太弱反而不利催化；酶真正需要的是與「過渡狀態」結合得更緊。\n❌ (B) 降低輔酶結合強度會削弱催化，不會促進反應。\n❌ (D) 降低酶濃度只會使反應變慢。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.6（Enzymes：transition state and activation energy）。"
   },
   {
    "n": 70,
@@ -967,7 +992,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "結合 ATP synthase",
     "降低進出粒線體內膜的 proton gradient"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) DNP 是脂溶性弱酸，可帶著質子自由穿過粒線體內膜，把膜間腔的質子直接送回基質，質子梯度被消耗殆盡——電子仍在傳遞、氧仍被消耗，但 ATP 合成停止，能量以熱散失。\n❌ (A) 阻斷電子傳遞的是 rotenone、antimycin A、氰化物等抑制劑，不是去偶合劑。\n❌ (B) 去偶合劑是破壞能量儲存，不是增加高能鍵。\n❌ (C) 直接結合 ATP synthase 的是寡黴素（oligomycin）。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.19（Oxidative phosphorylation：uncouplers）。"
   },
   {
    "n": 71,
@@ -980,7 +1006,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "1 分子 CO2 及 2 分子 GTP",
     "1 分子 CO2 及 1 分子 ATP"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 檸檬酸循環每氧化一分子乙醯輔酶 A，會放出 2 分子 CO2，並在琥珀醯輔酶 A 合成酶步驟以受質層次磷酸化產生 1 分子 GTP（等同 1 ATP），同時生成 3 NADH 與 1 FADH2。\n❌ (B) 循環本身只產生一個高能磷酸鍵（GTP），不是 2 ATP。\n❌ (C) CO2 是 2 分子而不是 1 分子。\n❌ (D) CO2 與高能磷酸鍵數目都不對。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.16（The citric acid cycle）。"
   },
   {
    "n": 72,
@@ -993,7 +1020,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "硫酯鍵（thioester）",
     "磷酯鍵（phosphodiester）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 膽固醇 C-3 上的羥基與脂肪酸的羧基脫水縮合成「酯鍵」，形成膽固醇酯，這是膽固醇在血漿脂蛋白與細胞內的儲存形式。\n❌ (A) 醯胺鍵是羧基與胺基形成的，出現在神經醯胺（鞘脂）而不是膽固醇酯。\n❌ (C) 硫酯鍵是脂肪酸與輔酶 A 的鍵結（acyl-CoA）。\n❌ (D) 磷酸二酯鍵見於核酸與甘油磷脂的磷酸連接。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.10（Lipids：cholesteryl esters）。"
   },
   {
    "n": 73,
@@ -1006,7 +1034,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "epinephrine",
     "acetylcholine"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 胰島素受體本身就是一個受體酪胺酸激酶：胰島素結合後受體自體磷酸化，再磷酸化 IRS-1，啟動 PI3K/Akt 等下游路徑。\n❌ (B) 血清素多數受體屬 G 蛋白偶合受體（5-HT3 例外，為離子通道），不是酪胺酸激酶。\n❌ (C) 腎上腺素作用於 α、β 腎上腺素受體，同樣是 G 蛋白偶合受體。\n❌ (D) 乙醯膽鹼的菸鹼型受體是離子通道、蕈毒型受體是 G 蛋白偶合受體。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.12（Biosignaling：receptor tyrosine kinases）。"
   },
   {
    "n": 74,
@@ -1019,7 +1048,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "粒線體外膜（mitochondrial outer membrane）",
     "粒線體基質（mitochondrial matrix）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) β 氧化在粒線體基質進行；長鏈脂肪酸需先活化為 acyl-CoA，再靠肉鹼穿梭系統（carnitine shuttle）送進基質。\n❌ (A) 細胞質是脂肪酸「合成」的場所，方向相反。\n❌ (B) 細胞核不進行脂肪酸代謝。\n❌ (C) 粒線體外膜上有活化脂肪酸的 acyl-CoA 合成酶與 CPT-1，但氧化反應本身在基質。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.17（Fatty acid catabolism）。"
   },
   {
    "n": 75,
@@ -1032,7 +1062,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "2-phosphoglycerate",
     "7,8-dihydrofolate"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 五碳醣磷酸鹽路徑的氧化段產生 NADPH，非氧化段產生核糖 5-磷酸，後者是合成核苷酸（進而合成 DNA、RNA）的原料，快速分裂的細胞需求特別大。\n❌ (A) 甘油醛 3-磷酸是糖解與此路徑非氧化段共用的中間物，不是核酸合成的直接原料。\n❌ (C) 2-磷酸甘油酸是糖解路徑的中間物。\n❌ (D) 二氫葉酸與一碳單位轉移有關，不是五碳醣磷酸鹽路徑的產物。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.14（Pentose phosphate pathway）。"
   },
   {
    "n": 76,
@@ -1045,7 +1076,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "DNA polymerase III",
     "primase"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) DNA 聚合酶不能從零起始，必須先由引子酶（primase）合成一小段 RNA 引子，落後股每一個岡崎片段都要重來一次，所以 primase 最先作用。\n❌ (A) DNA 連接酶是最後一步，把切口接起來。\n❌ (B) DNA 聚合酶 I 負責切除 RNA 引子並以 DNA 填補。\n❌ (C) DNA 聚合酶 III 是主要的延長酶，但必須等引子做好才能上工。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.25（DNA replication：Okazaki fragments）。"
   },
   {
    "n": 77,
@@ -1058,7 +1090,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "DNA polymerase beta",
     "DNA polymerase delta"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 真核細胞的 DNA 聚合酶 β 是鹼基切除修復（BER）的主力，負責填補被切除的短缺口。\n❌ (A) DNA 聚合酶 II 是原核（大腸桿菌）的酵素，人類細胞沒有這個編號。\n❌ (B) 聚合酶 α 帶引子酶活性，負責起始複製。\n❌ (D) 聚合酶 δ 負責複製時的延長（尤其落後股）。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.25（DNA repair：base excision repair）。"
   },
   {
    "n": 78,
@@ -1071,7 +1104,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "放線菌素 D（Actinomycin D）",
     "胺苄青黴素（Ampicillin）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 氯黴素結合細菌 50S 核糖體次單元、抑制肽基轉移酶，阻斷蛋白質轉譯。\n❌ (A) Rifampin 抑制細菌 RNA 聚合酶，阻斷的是轉錄。\n❌ (C) 放線菌素 D 嵌入 DNA 阻礙 RNA 聚合酶前進，也是抑制轉錄。\n❌ (D) 胺苄青黴素抑制細胞壁肽聚醣的交聯，與轉譯無關。\n📚 出處：Katzung's Basic and Clinical Pharmacology, 15th ed.（Protein synthesis inhibitors）。"
   },
   {
    "n": 79,
@@ -1084,7 +1118,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "β′",
     "σ"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) σ 因子讓核心酵素變成全酶，負責辨識 −10 與 −35 啟動子序列並正確起始轉錄；轉錄開始後 σ 就會脫離。\n❌ (A) α 次單元負責酵素組裝與和調節蛋白的交互作用。\n❌ (B) β 次單元含催化中心（形成磷酸二酯鍵）。\n❌ (C) β′ 次單元負責與 DNA 模板結合。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.26（Transcription in bacteria：sigma factor）。"
   },
   {
    "n": 80,
@@ -1097,7 +1132,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "5’-AAAUAA-3’",
     "5’-AAAAUA-3’"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 真核 mRNA 的多腺苷酸化訊號是高度保守的 5'-AAUAAA-3'，切割與加尾發生在此序列下游約 10～30 個核苷酸處。\n❌ (A) AUAAAA 不是保守訊號序列。\n❌ (C) AAAUAA 順序不對。\n❌ (D) AAAAUA 同樣不是公認的加尾訊號。\n📚 出處：Lehninger Principles of Biochemistry, 8th ed., Ch.26（RNA processing：polyadenylation signal）。"
   }
  ]
 };
