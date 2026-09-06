@@ -20,7 +20,7 @@ OPT = 'ABCD'
 # pdftotext 讀出來不是數字，題號序列就整個斷掉 → 只在「行首」還原成數字，避免誤傷別的用途。
 QNUM = re.compile(r'(?m)^([ \t]*)([\ue0c6-\ue0cf])')
 PSG = re.compile(r'請依下(?:文|列)(?:短文)?回答第\s*(\d+)\s*題至第\s*(\d+)\s*題[：:]?')
-TESTPART = re.compile(r'乙[、,]\s*測驗部分')
+TESTPART = re.compile(r'乙[、,]\s*測驗(?:題)?部分')
 # parse.py 的表頭過濾沒收「頁次」，它會混進題目段落把選項拆解弄壞（115 法學第 45 題）
 PAGEHDR = re.compile(r'^\s*(?:(頁\s*次|代\s*號|類\s*科|科\s*目)\s*[：:]|\d+\s*年公務人員|全一張|全一頁|[（(]背面[）)])')
 
@@ -126,14 +126,15 @@ def _cut(qs, body, flat, pos, wide=999):
     for i, (n, st, en) in enumerate(pos):
         e0 = pos[i + 1][1] if i + 1 < len(pos) else len(body)
         seg, segf = body[en:e0], flat[en:e0]
-        seg, tail = _split_tail(seg)
-        segf = segf[:len(seg)] if tail else segf
+        tail = None
         idx, p = [], 0
         for L in OPT:
             m = re.compile(r'(?m)(?:^|\s)%s\s*[.．、]\s*' % L).search(segf, p)
             if not m: idx = None; break
             idx.append((m.start(), m.end())); p = m.end()
         if idx is None:
+            # 沒有選項代號的卷：短文可能黏在題目後面，先切掉再用縮排還原選項
+            seg, tail = _split_tail(seg)
             ls = body.rfind('\n', 0, en)
             pm = PSG.search(segf)          # 題組短文屬於後面那幾題，先切掉再拆選項
             r = _split_letterless(seg[:pm.start()] if pm else seg, en - ls - 1, wide)
@@ -146,10 +147,12 @@ def _cut(qs, body, flat, pos, wide=999):
             continue
         stem = seg[:idx[0][0]]
         en_q = _is_en(stem) or _is_en(seg)
+        # 最後一個選項後面可能黏著下一組的題組短文（沒有「請依下文回答」那行時）
+        dtxt, tail = _split_tail(seg[idx[3][1]:])
         opts = []
         for k in range(4):
             e = idx[k + 1][0] if k + 1 < 4 else len(seg)
-            opts.append(_norm(seg[idx[k][1]: e], en_q))
+            opts.append(_norm(dtxt if k == 3 else seg[idx[k][1]: e], en_q))
         q = {'n': n, 'q': _norm(stem, en_q), 'o': opts, '_st': st, '_tail': tail}
         if any(not o for o in opts): q['needfig'] = True
         out.append(q)
@@ -287,15 +290,36 @@ def _attach_psg(best, body, flat):
             if q: q['psg'] = psg
 
 
+def _bleed(qs):
+    """回傳「明顯黏到隔壁題」的題數。
+       兩欄排版的卷用 -layout 讀出來，左右欄會被拼在同一行，題數剛好對得上、內容卻是爛的
+       （題幹開頭黏著上一題的尾巴、最後一個選項後面接著下一題的題幹）。
+       判準：選項尾巴出現「下一題題號＋六個以上中文字」，或題幹中間出現「本題題號＋六個以上中文字」。"""
+    n_bad = 0
+    for q in qs:
+        n = q['n']
+        o = (q.get('o') or ['', '', '', ''])[-1]
+        # 只看最後一個選項的尾巴，而且後面那段要長得像題幹（十個字以上、以？或：收尾），
+        # 否則「15 歲以上未滿 17 歲之受僱者」這種正常選項會被誤判
+        # 「第 N 項」「民國 N 年」這種寫法很常見，所以數字前面不能是「第」，
+        # 而且要距離選項開頭夠遠（選項本身有內容），才算是黏到下一題
+        if re.search(r'\S{4,}(?<![第\d])%d\s*[\u4e00-\u9fff][^？：]{9,}[？：]\s*$' % (n + 1), o):
+            n_bad += 1
+    return n_bad
+
+
+def _score(qs, expect):
+    """越小越好：題數差 → 黏題數 → 需要裁圖的題數"""
+    return (abs(len(qs) - expect) if expect else 0, _bleed(qs),
+            sum(1 for q in qs if q.get('needfig')))
+
+
 def parse_questions(pdf, expect=None):
     """回傳 [{n,q,o[4],needfig?,psg?}]；expect＝標準答案的題數。
-       先用 -layout（版面對齊，縮排還原用得到），失敗再退回原始閱讀順序
-       —— 英文區塊排成兩欄時 -layout 會把題號順序打亂（103 高考法學第 47~50 題）。"""
-    qs = _one(pdf, expect, True)
-    if expect and (len(qs) != expect or any(q.get('needfig') for q in qs)):
-        alt = _one(pdf, expect, False)
-        if len(alt) == expect and not any(q.get('needfig') for q in alt):
-            return alt
-        if expect and len(qs) != expect and len(alt) == expect:
-            return alt
-    return qs
+       -layout（版面對齊，縮排還原用得到）與原始閱讀順序兩種都跑一次，挑比較乾淨的那個
+       —— 兩欄排版的卷 -layout 會把左右欄拼在一起，題數還是對的但內容爛掉。"""
+    a = _one(pdf, expect, True)
+    if expect and _score(a, expect) == (0, 0, 0):
+        return a
+    b = _one(pdf, expect, False)
+    return a if _score(a, expect) <= _score(b, expect) else b

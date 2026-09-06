@@ -23,6 +23,26 @@ LVLKEY = {1: 'g', 2: 'p'}
 REG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gao-subjects.json')
 
 
+def sane(qs):
+    """卷級健康檢查：題數對得上不代表內容是對的。
+       實際踩過的三種爛掉的樣子——題幹空掉只剩單一字母選項、選項裡混進別的選項代號
+       （「在 A、B 兩人…」被當成 A. 選項）、選項空白（黏到下一題）。有一題爛就整卷不收。"""
+    bad = []
+    for q in qs:
+        if q.get('needfig'): continue
+        st = (q['q'] or '').strip()
+        if len(st) < 8 and not q.get('psg'): bad.append((q['n'], '題幹過短'))
+        for o in q['o']:
+            o = (o or '').strip()
+            if not o: bad.append((q['n'], '空選項'))
+            elif re.search(r'(?:^|\s)[A-D]\s*[.．、]\s*\S', o): bad.append((q['n'], '選項裡混到別的選項代號'))
+        # 單字母選項（K／N／M 這種）＝版面被拆爛了；真的很短的選項（「縣」「0」「50/3」）是正常的，不能一起擋
+        if sum(1 for o in q['o'] if len((o or '').strip()) == 1 and (o or '').strip().isascii()
+               and (o or '').strip().isalpha()) >= 3:
+            bad.append((q['n'], '選項只剩單一字母'))
+    return bad
+
+
 def mins_of(pdf, nq):
     """卷首的「考試時間」。國文（作文與測驗）的 2 小時大半是寫作文，本站只收「乙、測驗部分」，
        所以那種卷改用 3 分鐘/題（取整到 5 分）估，不要標成 120 分鐘誤導人。"""
@@ -72,12 +92,38 @@ def papers_of(work):
     return out
 
 
+def collisions(rows):
+    """同一年、同一等別、同名卻是兩份不同的卷（例：行政法有「一般行政組」與「法制組」兩份）。
+       回傳會撞號的 (等別, 正規化科目名) 集合——這些科目一律用「主類科」加註區分，
+       而且是整個科目家族都加註（不要有的年份加、有的年份不加，那會變成兩個不相干的科目）。"""
+    seen, dup = {}, set()
+    for roc, code, c, cn, s_, sn, trs in rows:
+        lvl = LVL.get((cn or '').split('_')[0])
+        if not lvl: continue
+        k = (roc, lvl, canon(sn))
+        if k in seen and seen[k] != s_: dup.add((lvl, canon(sn)))
+        seen[k] = s_
+    return dup
+
+
+def primary(trs, lvl):
+    """這份卷的「主類科」＝平臺列出來的第一個類科（順序穩定，跨年份不會亂跳）。"""
+    for t in trs:
+        if LVL.get(t.split('_')[0]) == lvl:
+            tn = t.split('_', 1)[1] if '_' in t else t
+            return re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()
+    return ''
+
+
 def main():
     work = os.getcwd()
     want_figs = '--figs' in sys.argv
     limit = int(sys.argv[sys.argv.index('--limit') + 1]) if '--limit' in sys.argv else 0
     reg = load_reg()
     os.makedirs('out', exist_ok=True); os.makedirs('outimg', exist_ok=True)
+    rows = [r for r in papers_of(work)
+            if os.path.exists('pdf/%s_%s_%s_a.pdf' % (r[1], r[2], r[4]))]
+    dup = collisions(rows)
     done, skipped, figs = [], [], []
     tracks = collections.defaultdict(lambda: collections.defaultdict(set))   # lvl → 類科 → {key}
     notes = collections.defaultdict(set)
@@ -92,6 +138,9 @@ def main():
         if not lvl:
             skipped.append([roc, code, s, sn, '無法判斷等別：' + cn]); continue
         name = canon(sn)
+        if (lvl, name) in dup:
+            pr = primary(trs, lvl)
+            if pr: name = '%s（%s組）' % (name, pr)
         key = key_of(reg, lvl, name)
         notes[key].add(sn)
         for t in trs:
@@ -137,6 +186,21 @@ def main():
                 item['a'] = LAB.index(a0)
             qs.append(item)
         if qs is None: continue
+        # 少數幾題解析爛掉（版面拆錯）時不要整卷丟掉：那幾題改成裁原卷的圖來作答；
+        # 爛超過四成才判定這一卷不能收。
+        prob = sorted({n for n, _ in sane(qs)})
+        if prob and len(prob) > max(3, len(qs) * 0.4):
+            skipped.append([roc, code, s, sn, '內容檢查不過（%d/%d 題）：%s' % (
+                len(prob), len(qs), '、'.join('#%d %s' % x for x in sane(qs)[:3]))])
+            continue
+        for n in prob:
+            item = [q for q in qs if q['n'] == n][0]
+            fn = 'img/q/%s_%s_%s_%d.webp' % (code, c, s, n)
+            item['needfig'] = True; item['fig'] = fn
+            item['q'] = '（本題題幹與選項都在圖上，請見下圖作答）'
+            item['o'] = ['', '', '', '']
+            item.pop('psg', None)
+            figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
         lvname = '高考三級' if lvl == 1 else '普通考試'
         paper = {'id': pid, 'cat': 'civil', 'exam': 'gao', 'stage': lvl,
                  'roc': roc, 'nth': 1, 'code': code, 'subj': key,

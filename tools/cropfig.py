@@ -22,8 +22,9 @@ def boxes(pdf):
 
 def find_q(pages, n):
     """回傳 (page_index, y0)；題號要在該行行首、且靠左（避免內文裡的『30.』）"""
-    # 題號兩種寫法：「12.」與舊卷的「 12   」（號碼後面直接空好幾格）
-    pat = re.compile(r'^[ \t]{0,1}%d(?:[ \t]*[.．、]|[ \t]{2,}|$)' % n)
+    # 題號三種寫法：「12.」、舊卷的「 12   」（號碼後直接空好幾格），
+    # 以及 -bbox 把一行的字全部黏起來時的「12下列那一個…」（數字後面直接接內文）
+    pat = re.compile(r'^[ \t]{0,1}%d(?:[ \t]*[.．、]|[ \t]{2,}|$|[^\d\s])' % n)
     best = None
     for pi, pg in enumerate(pages):
         for l in pg['lines']:
