@@ -32984,7 +32984,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "103 年　四等　法學知識與英文",
   "n": 50,
-  "exp": 0,
+  "exp": 39,
   "mins": 60
  },
  {
