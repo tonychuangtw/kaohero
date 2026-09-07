@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Type III",
     "Type IV"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Vertucci 第四型是「兩個根管從髓腔底一路分開到根尖，各自有一個根尖孔」，因此有兩個根尖開口。\n❌ (A) 第一型是單一根管單一根尖孔。\n❌ (B) 第二型是兩管在根尖處合併成一個孔。\n❌ (C) 第三型是一管中途分成兩管後又合併，仍只有一個孔。\n📚 出處：Vertucci, 1984；Cohen's Pathways of the Pulp"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "後牙適合使用較大的橡皮障",
     "一次隔離很多顆牙齒時適合使用厚的橡皮障"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。一次隔離多顆牙齒時應使用「較薄」的橡皮障，才容易撐開並套過多顆牙冠；厚的橡皮障適合單顆牙且需要強力排開牙齦時。\n❌ (A) 正確。橡皮障有不同顏色、大小與厚度。\n❌ (B) 正確。使用前應詢問乳膠過敏史。\n❌ (C) 正確。後牙適合使用較大尺寸的橡皮障。\n📚 出處：Cohen's Pathways of the Pulp，隔離術章節"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "神經纖維（nerve fiber）",
     "微血管"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙本質小管內沒有微血管；牙髓的血管止於造牙本質細胞層下方，不進入小管。\n❌ (A) 有。小管內充滿牙本質液（組織液）。\n❌ (B) 有。造牙本質細胞突伸入小管內。\n❌ (C) 有。部分小管（尤其近髓端）內含無髓鞘的神經末梢。\n📚 出處：Ten Cate's Oral Histology，牙本質章節"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "可使用牙周敷料（periodontal packing）來阻斷滲漏",
     "正確的選擇及放置橡皮障夾（clamp）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。阿托品雖能減少唾液，卻有心搏過速、視力模糊、尿滯留與誘發青光眼等副作用，不能說「不會有副作用」。\n❌ (B) 正確。打孔位置與大小正確才能密貼。\n❌ (C) 正確。必要時可用牙周敷料封住縫隙。\n❌ (D) 正確。選對並正確放置橡皮障夾是防漏的關鍵。\n📚 出處：Cohen's Pathways of the Pulp，隔離術章節"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "mantle dentin是最先形成的牙本質，有極高的鈣化程度",
     "interglobular dentin為牙本質礦化不全的區域"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。被覆牙本質雖然是最先形成的，其礦化程度反而比後續的環狀牙本質「低」。\n❌ (A) 正確。造牙本質細胞在鐘狀期分化。\n❌ (B) 正確。它分泌的主要是第一型膠原。\n❌ (D) 正確。球間牙本質是鈣球未融合而遺留的低礦化區。\n📚 出處：Ten Cate's Oral Histology，牙本質章節"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "#45",
     "#55"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 25 號牙膠針軟硬適中：夠軟能順著彎曲的瘻管前進，又夠硬能被推入不折斷，是追蹤瘻管來源的標準選擇。\n❌ (A) 15 號太細軟，容易在中途彎折。\n❌ (C) 45 號過粗，無法進入細窄的瘻管。\n❌ (D) 55 號更粗，完全不適用。\n📚 出處：Cohen's Pathways of the Pulp，診斷章節"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "嚴重影響牙髓病學之發展達40年",
     "到目前為止牙髓病治療仍依據此學說執行治療"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。病灶感染學說早已被推翻，現代牙髓病學是以微生物學與實證研究為基礎，不再依據此學說。\n❌ (A) 正確。William Hunter 是主要倡議者。\n❌ (B) 正確。該學說導致大量不必要的拔牙。\n❌ (C) 正確。它使牙髓病學的發展停滯了約四十年。\n📚 出處：Cohen's Pathways of the Pulp，牙髓病學史章節"
   },
   {
    "n": 8,
@@ -130,7 +137,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "急性根尖牙周炎（acute apical periodontitis）",
     "牙骨質瘤（cementoma）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙齒沒有齲齒且電髓測試有反應（牙髓有活性），卻在根尖出現透射區，最典型的就是牙骨質瘤（根尖牙骨質骨質發育不良）早期的透射期。\n❌ (A) 慢性牙髓炎不會在根尖形成透射區。\n❌ (B) 根尖囊腫的前提是牙髓壞死，活性測試應無反應。\n❌ (C) 急性根尖牙周炎同樣源自壞死的牙髓且會有明顯症狀。\n📚 出處：Neville, Oral and Maxillofacial Pathology；Cohen 牙髓病學"
   },
   {
    "n": 10,
@@ -143,7 +151,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "若能將根管系統徹底清創，囊袋性囊腫（pocket cysts）可因此獲得解決",
     "若能將根管系統徹底清創，真性囊腫（true cysts）可因此獲得解決"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 囊袋型囊腫的囊腔與根管相通，只要根管系統徹底清創消毒，感染源移除後即可癒合。\n❌ (A) 真性囊腫因囊壁完全封閉、與根管不相通，多需手術。\n❌ (B) 囊袋型囊腫不必然需要手術。\n❌ (D) 真性囊腫無法單靠根管清創解決。\n📚 出處：Nair 的研究；Cohen's Pathways of the Pulp"
   },
   {
    "n": 11,
@@ -156,7 +165,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "半剛性固定（semirigid fixation）一至二週",
     "半剛性固定（semirigid fixation）一個月"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 再植後應以半剛性（彈性）固定 1 至 2 週，保留生理性動度以促進牙周韌帶癒合並降低黏連與吸收的風險。\n❌ (A) 剛性固定會增加骨黏連的機會。\n❌ (B) 剛性固定加長時間更不利。\n❌ (D) 固定一個月過長，只有齒槽骨折時才需要。\n📚 出處：IADT 牙外傷處置指引"
   },
   {
    "n": 12,
@@ -169,7 +179,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "完全冠髓切除術（total pulpotomy）是指移除整個牙冠部分感染的牙髓組織至牙根髓腔開口（orifice）的位置",
     "完全冠髓切除術（total pulpotomy）的適應情況與牙髓覆髓術（pulp capping）的適應情況相似"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。完全冠髓切除的適應症是「發炎範圍已達冠髓深部」；覆髓術適用於露髓範圍小、牙髓大致健康者，兩者並不相似。\n❌ (A) 正確。部分冠髓切除移除表淺的發炎牙髓至健康組織。\n❌ (B) 正確。它又稱 Cvek 冠髓切除術。\n❌ (C) 正確。完全冠髓切除移除全部冠髓至管口。\n📚 出處：Cohen's Pathways of the Pulp，活髓治療章節"
   },
   {
    "n": 13,
@@ -182,7 +193,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "典型的VRF可在X光片發現J字型的病灶（J-type lesion）",
     "牙齒一旦發生 VRF 則應儘早拔除，以免造成醫療糾紛"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。垂直牙根斷裂若發生在多根牙，仍可考慮牙根切除或半切斷術保留部分牙齒，不是一律「儘早拔除」；且以避免糾紛為由決定治療不符醫療原則。\n❌ (A) 正確。創傷、磨牙、過早接觸與內吸收都是成因。\n❌ (B) 正確。典型表現是單一而狹窄深邃的囊袋。\n❌ (C) 正確。X 光上可見沿牙根兩側延伸的 J 型或光暈狀透射。\n📚 出處：Cohen's Pathways of the Pulp，牙根縱裂章節"
   },
   {
    "n": 14,
@@ -195,7 +207,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "將牙齒種回，以0.036 inch的矯正線固定",
     "直接在口外做完根管充填，再種回原位"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 口外時間短且保存在生理食鹽水中，應立即植回並以「彈性（半剛性）」固定；釣魚線這類細軟材料正是彈性固定的常用選擇。\n❌ (A) 30 分鐘內且保存得當，牙周韌帶細胞多能存活，預後其實不差。\n❌ (C) 0.036 吋矯正線太粗會形成剛性固定，增加骨黏連風險。\n❌ (D) 牙根未發育完全者應保留機會讓牙髓再血管化，不做口外根管充填。\n📚 出處：IADT 牙外傷處置指引"
   },
   {
    "n": 15,
@@ -208,7 +221,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "helix angle",
     "radial land"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 徑向支撐面（radial land）緊貼管壁提供支撐，避免器械過度切入而被「旋進」根管，是抑制螺絲鎖入效應的主要設計。\n❌ (A) 非切削尖端是為了避免形成平台與偏移。\n❌ (B) 排屑槽負責把碎屑往冠方輸送。\n❌ (C) 螺旋角影響切削效率與碎屑輸送方向。\n📚 出處：Cohen's Pathways of the Pulp，鎳鈦器械章節"
   },
   {
    "n": 16,
@@ -221,7 +235,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "17％EDTA的去鈣化作用是沒有自我受限性（self-limiting）的",
     "17％EDTA可以開啟非常窄小的根管，其深度可達50µm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。EDTA 的螯合作用是「自我受限」的：可用的螯合劑被消耗完後反應即停止，不會無止盡地脫鈣。\n❌ (A) 正確。它負責溶解塗抹層中的無機成分。\n❌ (B) 正確。它是鈣離子的螯合劑。\n❌ (D) 正確。它可打開細窄的根管口，作用深度可達約 50 µm。\n📚 出處：Cohen's Pathways of the Pulp，根管沖洗章節"
   },
   {
    "n": 17,
@@ -234,7 +249,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "在齒內治療時使用次氯酸鈉（NaOCl）的濃度為0.5％～5.25％",
     "次氯酸鈉（NaOCl）沖洗液很容易將根管壁上的塗抹層（smear layer）移除"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 臨床上使用的次氯酸鈉濃度範圍是 0.5% 至 5.25%，濃度愈高溶解組織與殺菌力愈強但刺激性也愈大。\n❌ (A) 氫氧化鈣是敷藥而非沖洗液，需要長時間才有效。\n❌ (B) EDTA 的抗菌力其實很弱，遠不如次氯酸鈉。\n❌ (D) 次氯酸鈉只能溶解有機成分，無法去除塗抹層的無機部分，必須搭配 EDTA。\n📚 出處：Cohen's Pathways of the Pulp，根管沖洗章節"
   },
   {
    "n": 18,
@@ -247,7 +263,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "MTAD",
     "IPI（iodine potassium iodide）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) MTAD 主要針對糞腸球菌等細菌設計，對白色念珠菌的殺菌效果最差。\n❌ (A) 2% chlorhexidine 對念珠菌有良好的殺菌力。\n❌ (B) 6% 次氯酸鈉可迅速殺死念珠菌。\n❌ (D) 碘化鉀碘溶液對黴菌具強效。\n📚 出處：Cohen's Pathways of the Pulp，根管消毒章節"
   },
   {
    "n": 19,
@@ -273,7 +290,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "以微濕的小棉球加壓止血",
     "以2.5%的次氯酸鈉溶液沖洗也有止血的效果"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。部分冠髓切除應以「高速鑽石磨針加大量噴水」切除發炎組織；用牙挖器會撕扯牙髓、造成更深的傷害與出血。\n❌ (A) 正確。鑽石磨針配合噴水是標準做法。\n❌ (C) 正確。以微濕棉球輕壓止血。\n❌ (D) 正確。2.5% 次氯酸鈉沖洗兼具止血與消毒效果。\n📚 出處：Cohen's Pathways of the Pulp，活髓治療章節"
   },
   {
    "n": 21,
@@ -286,7 +304,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "血液循環較上顎大臼齒佳，有利於傷口癒合",
     "與下顎神經管接近，手術中可能受損"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。下顎後牙區的皮質骨厚、血液循環比上顎「差」，這正是下顎根尖手術癒合較慢的原因。\n❌ (A) 正確。皮質骨厚使去骨困難。\n❌ (B) 正確。下顎大臼齒的牙根常往舌側傾斜，增加手術難度。\n❌ (D) 正確。根尖鄰近下顎管，有傷及下齒槽神經的風險。\n📚 出處：Cohen's Pathways of the Pulp，根尖手術章節"
   },
   {
    "n": 22,
@@ -299,7 +318,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Cavit",
     "MTA（mineral trioxide aggregate）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) MTA 具良好的封閉性、生物相容性，且在潮濕與有血的環境仍能硬化並誘導硬組織形成，是根尖逆充填的首選。\n❌ (A) 玻璃離子體對水分敏感，在潮濕術野中表現不佳。\n❌ (B) 複合樹脂需要完全乾燥與隔離，術野難以達成。\n❌ (C) Cavit 是暫時性充填材，封閉性與強度不足。\n📚 出處：Cohen's Pathways of the Pulp，根尖手術章節"
   },
   {
    "n": 23,
@@ -312,7 +332,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "相同",
     "沒有相關的研究"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 研究顯示年齡本身不影響根管治療的成功率；只要感染控制得當，年長者的成功率與年輕人相當。\n❌ (A) 沒有證據顯示年長者成功率較高。\n❌ (B) 雖然年長者的髓腔鈣化使操作較困難，但成功率並未較低。\n❌ (D) 這方面已有明確的臨床研究。\n📚 出處：Cohen's Pathways of the Pulp，治療結果章節"
   },
   {
    "n": 24,
@@ -325,7 +346,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "3％ Mepivacaine",
     "3％ Lidocaine with 1：25000 noradrenaline"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 甲狀腺機能亢進未完全控制時，兒茶酚胺的心血管反應會被放大，應選擇「不含血管收縮劑」的 3% mepivacaine。\n❌ (A) 含 1:100,000 腎上腺素。\n❌ (B) 同樣含腎上腺素且濃度更高。\n❌ (D) 正腎上腺素的升壓作用更強，風險最高。\n📚 出處：Malamed, Handbook of Local Anesthesia，全身病史考量章節"
   },
   {
    "n": 25,
@@ -338,7 +360,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "5.5 mm",
     "7.5 mm"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 暫時充填材料的厚度至少要 3.5 mm 以上，才能提供足夠的冠部封閉、防止細菌沿冠部滲漏污染已清創的根管。\n❌ (A) 1.5 mm 太薄，封閉不足且容易脫落。\n❌ (C) 5.5 mm 超過必要，多數牙齒也沒有這麼多空間。\n❌ (D) 7.5 mm 更不實際。\n📚 出處：Cohen's Pathways of the Pulp，暫時封填章節"
   },
   {
    "n": 26,
@@ -351,7 +374,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "依循法律的規定",
     "增加患者的滿意度與配合度"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 守密原則講的是保護病人的隱私資訊，與「向病人說明治療選項」的告知義務無關。\n❌ (B) 是理由。充分說明才能讓病人行使自主決定權。\n❌ (C) 是理由。醫療法明定告知說明義務。\n❌ (D) 是理由。了解選項的病人滿意度與配合度較高。\n📚 出處：醫學倫理；醫療法告知說明義務"
   },
   {
    "n": 27,
@@ -364,7 +388,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "以10% EDTA處理，清洗之後再塗上矽烷偶合劑（silane coupling agent）",
     "以10%次氯酸鈉處理，清洗之後再塗上矽烷偶合劑（silane coupling agent）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 瓷嵌體的黏著面應先以氫氟酸蝕刻形成微孔，沖洗乾燥後再塗矽烷偶合劑，讓樹脂與陶瓷同時獲得機械與化學鍵結。\n❌ (B) 磷酸只能清潔，無法蝕刻玻璃相。\n❌ (C) EDTA 用於處理齒質的塗抹層。\n❌ (D) 次氯酸鈉是根管沖洗液，對陶瓷無作用。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，間接修復體黏著章節"
   },
   {
    "n": 28,
@@ -377,7 +402,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "在牙本質牙釉質交界處（dentinoenamel）之大小直徑約為0.5 µm到0.9 µm",
     "在近牙髓處之大小直徑約為2 µm到3 µm"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。靠近牙髓處的小管密度高達每平方毫米 45,000 至 65,000 條，遠多於 25,000 至 30,000。\n❌ (A) 正確。牙本質牙釉質交界處約 15,000 至 20,000/mm²。\n❌ (C) 正確。交界處的小管直徑約 0.5 至 0.9 µm。\n❌ (D) 正確。近髓處的小管直徑約 2 至 3 µm。\n📚 出處：Ten Cate's Oral Histology，牙本質章節"
   },
   {
    "n": 29,
@@ -390,7 +416,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "酸蝕後不影響混合層（hybrid layer）形成",
     "酸蝕後造成樹脂突（resin tag）形成受限"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。硬化牙本質高度礦化且小管被封閉，酸蝕後可脫礦的膠原網有限，混成層的形成「明顯受影響」而使黏著強度下降。\n❌ (A) 正確。它是高度礦化的牙本質。\n❌ (B) 正確。小管內被礦物結晶填滿。\n❌ (D) 正確。小管封閉使樹脂突難以形成。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，黏著章節"
   },
   {
    "n": 30,
@@ -403,7 +430,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "2年",
     "3年"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙齒剛萌發時的牙釉質尚未完全成熟礦化，加上溝窩尚未磨平，齲齒發生率在萌發後約 3 年達到高峰。\n❌ (A) 6 個月時尚未累積足夠的菌斑暴露。\n❌ (B) 1 年仍在上升期。\n❌ (C) 2 年也還未到高峰。\n📚 出處：Fejerskov, Dental Caries，齲齒流行病學章節"
   },
   {
    "n": 31,
@@ -416,7 +444,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "頰側面",
     "舌側面"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 溝裂區狹窄深邃、牙刷刷不到又是轉醣鏈球菌最早定殖的地方，是齲齒最好發的牙面。\n❌ (A) 鄰接面次之。\n❌ (C) 頰側面屬自潔區。\n❌ (D) 舌側面有唾液沖刷與舌頭清潔。\n📚 出處：Fejerskov, Dental Caries"
   },
   {
    "n": 32,
@@ -429,7 +458,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "牙本質表面在窩洞修磨後形成塗抹層（smear layer），具有良好黏著強度",
     "牙本質具有牙本質液，不須再以親水性黏著劑提高黏著強度"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙本質同時含礦物與膠原、又充滿水分，表面自由能低而潤濕性差，這正是它比牙釉質難黏著的根本原因。\n❌ (B) 黏著強度的主要來源是混成層（樹脂滲入脫礦的膠原網），不是小管內的樹脂突。\n❌ (C) 塗抹層黏附鬆散，是黏著的障礙而非優點。\n❌ (D) 正因為有牙本質液，才必須使用親水性底漆。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，黏著章節"
   },
   {
    "n": 33,
@@ -442,7 +472,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "濃度30%到40%的磷酸處理牙釉質表面效果最好",
     "濃度30%到40%的磷酸處理牙釉質表面60秒後，其表面粗糙度明顯大於只處理15秒者"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 30% 至 40% 的磷酸酸蝕牙釉質效果最好，能形成清晰的蝕紋且產物易被沖洗掉。\n❌ (A) 濃度超過 50% 時形成的是「單」鈣磷酸鹽一水合物且不易沖洗。\n❌ (B) 低於 27% 時形成的是二水合二鈣磷酸鹽。\n❌ (D) 酸蝕 60 秒與 15 秒的表面型態差異不大，過度酸蝕反而破壞蝕紋。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，酸蝕章節"
   },
   {
    "n": 34,
@@ -481,7 +512,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "六個",
     "七個"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 典型第五類窩洞位於齒頸部唇（頰）面，具有近心壁、遠心壁、咬合（切端）壁、齦壁與軸壁共五個壁。\n❌ (A) 四個漏掉了軸壁。\n❌ (C) 六個超過實際數目。\n❌ (D) 七個更不符合窩洞幾何。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，窩洞命名章節"
   },
   {
    "n": 37,
@@ -494,7 +526,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "刀峰切緣（cutting edge）與刀峰刃部（blade）垂直",
     "修整器有左右之分"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 不具此特點。齒齦邊緣修整器的切緣與刀刃「呈一定角度（不垂直）」，這正是它需要四位數命名的原因。\n❌ (A) 具此特點。可用於修整髓軸線角與齦壁的斜面。\n❌ (B) 具此特點。刀刃呈弧形以配合齦壁。\n❌ (D) 具此特點。分左右成對使用（近心與遠心）。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，手器械章節"
   },
   {
    "n": 38,
@@ -507,7 +540,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "區別近遠心使用",
     "刀刃有弧度"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 當器械的切緣與刀刃長軸「不垂直」（呈一角度）時，就必須用四位數命名法多加一個角度數字來完整描述。\n❌ (A) 雙重彎角與命名的位數無關。\n❌ (C) 左右成對是使用上的區分，不是命名法的依據。\n❌ (D) 刀刃的弧度不需以額外數字表示。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，器械命名章節"
   },
   {
    "n": 39,
@@ -520,7 +554,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "三點",
     "四點"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 橡皮障夾的四個夾點（頰側兩點、舌側兩點）都必須確實接觸牙面，才能穩定不搖晃、不彈跳脫落。\n❌ (A) 一點接觸完全無法固定。\n❌ (B) 兩點會使夾子旋轉。\n❌ (C) 三點仍不穩定，容易翹起。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，隔離術章節"
   },
   {
    "n": 40,
@@ -533,7 +568,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "近心側",
     "遠心側"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 第五類窩洞位於唇（頰）面，打孔位置要比預設點更偏「唇側」，橡皮障才能被推向牙齦而暴露齒頸部的術野。\n❌ (B) 偏舌側會把橡皮障拉往舌側而蓋住術區。\n❌ (C) 近心偏移無助於暴露唇側術野。\n❌ (D) 遠心偏移同理。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，隔離術章節"
   },
   {
    "n": 41,
@@ -546,7 +582,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "軟化或溶解",
     "變色"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 酒精是樹脂單體的溶劑，殘留在器械上會使尚未聚合的複合樹脂軟化甚至溶解，破壞充填體的物理性質。\n❌ (A) 酒精不會加速聚合。\n❌ (B) 易碎是填料不足或聚合不全的表現。\n❌ (D) 變色多來自胺類氧化或外染。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，複合樹脂操作章節"
   },
   {
    "n": 42,
@@ -559,7 +596,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "混合型複合樹脂（hybrid composites）",
     "填壓型複合樹脂（packable composites）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 微粒型複合樹脂的填料含量最低、樹脂基質比例最高，因此彈性係數最低（較柔軟有彈性）。\n❌ (A) 傳統型填料大而多，彈性係數高。\n❌ (C) 混合型的填料含量高。\n❌ (D) 填壓型的填料含量最高，彈性係數最大。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，複合樹脂章節"
   },
   {
    "n": 43,
@@ -572,7 +610,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "確保成型環帶（matrix）與牙齒的接觸",
     "使充填物表面更光滑"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 木楔的功能與成形、封閉有關，充填物表面的光滑度是靠拋光步驟達成，不是木楔的目的。\n❌ (A) 是目的。楔入時暫時分開鄰牙以補償成形片厚度。\n❌ (B) 是目的。楔子壓住牙齦可避免器械傷及牙齦與出血。\n❌ (C) 是目的。把成形片緊壓在齦側窩緣防止外懸。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，成形系統章節"
   },
   {
    "n": 44,
@@ -585,7 +624,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "混雜型（hybrid composites）",
     "流動型（flowable composites）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 混雜（hybrid）型兼具高填料含量帶來的強度耐磨性與良好的拋光性，是後牙窩洞最合適的選擇。\n❌ (A) 微粒型強度不足以承受後牙咬合力。\n❌ (B) 巨粒子型表面粗糙、易染色且磨耗對咬牙。\n❌ (D) 流動型強度低，只適合小窩洞或作為襯底。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，複合樹脂章節"
   },
   {
    "n": 45,
@@ -598,7 +638,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "使用高速的圓型磨針",
     "使用慢速的磨針"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 保留下來的薄層牙釉質應以手用鑿子或鏟形器械輕輕敲除，如此可完全避免旋轉器械誤傷鄰牙。\n❌ (A) 裂溝式磨針在此處極易滑向鄰牙。\n❌ (C) 高速圓形磨針的風險更大。\n❌ (D) 即使降低轉速，旋轉器械仍可能刮傷鄰接面。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，窩洞修形章節"
   },
   {
    "n": 46,
@@ -611,7 +652,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "為了防止汞齊斷折通常需要有1～2 mm以上的厚度",
     "高銅汞齊在臨床上較無潛變（creep）的問題"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。汞齊的抗壓強度（約 400 MPa）遠「高於」抗張強度（約 50 MPa）；正因為抗張與抗剪強度低，才容易在薄邊處斷裂。\n❌ (A) 正確。汞齊的熱膨脹係數比複合樹脂更接近齒質。\n❌ (C) 正確。厚度需 1.5 至 2 mm 以上以避免斷折。\n❌ (D) 正確。高銅汞齊消除了 γ2 相，潛變問題大幅改善。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，汞齊章節"
   },
   {
    "n": 47,
@@ -624,7 +666,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "需將牙釉質層完全去除",
     "整平後，不需進行填補"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。牙釉質整平術只把淺的溝隙缺陷磨圓成可自潔的形態，「不可」把牙釉質層完全去除。\n❌ (A) 正確。用於消除淺層的發育性缺陷。\n❌ (B) 正確。常以火焰形鑽石磨針修圓。\n❌ (D) 正確。整平後只需拋光，不需填補。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，牙釉質整平章節"
   },
   {
    "n": 48,
@@ -637,7 +680,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "藍色",
     "黑色"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 藍色是黃橘色的補色，注視藍色可讓視錐細胞迅速恢復，這也是牙科比色時常備藍灰色背景布的原因。\n❌ (A) 綠色是紅色的補色。\n❌ (B) 紅色本身就在疲勞的色域附近。\n❌ (D) 黑色只是降低亮度，不能恢復色覺疲勞。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，顏色與比色章節"
   },
   {
    "n": 49,
@@ -650,7 +694,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "齦緣完成線需在牙齦下（subgingival）",
     "為了減少鄰接面黑暗三角區（black triangle），鄰接面的齦緣需位於牙齦上（supragingival）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。要關閉黑暗三角，鄰接面的齦緣必須往「牙齦下」延伸，讓瓷材能延伸到接近骨嵴的位置去填滿空隙。\n❌ (A) 正確。完成線到齒槽嵴至少要保留生物寬度，距離不得少於約 2.5 mm。\n❌ (B) 正確。鄰接面往舌側延伸可改善外形與過渡。\n❌ (C) 正確。美觀考量下齦緣完成線多置於牙齦下。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，瓷鑲面章節"
   },
   {
    "n": 50,
@@ -676,7 +721,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "修復體之固位（retention）來自和牙齒結構的鍵結",
     "內線角（internal line angle）為90°"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。陶瓷與樹脂嵌體的內線角必須「圓鈍」，尖銳的 90 度內角會造成應力集中而使脆性材料破裂。\n❌ (A) 正確。咬合面至少修磨 2 mm 以確保材料厚度。\n❌ (B) 正確。窩緣角不磨斜面，以免形成薄弱的瓷刃。\n❌ (C) 正確。其固位主要來自樹脂黏著而非機械倒凹。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，間接修復體章節"
   },
   {
    "n": 52,
@@ -689,7 +735,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "肩台型斜面（beveled shoulder）",
     "刀緣式（knife-edged）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 金合金冠蓋體在中心（功能）咬頭處需要足夠的金屬厚度承受咬合力，因此採肩台加斜面的設計。\n❌ (A) 弧形緣用於非功能咬頭側。\n❌ (B) 單純肩台會留下無支撐的牙釉質邊緣。\n❌ (D) 刀緣式邊緣太薄，金屬易變形。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry；Shillingburg 固定補綴學"
   },
   {
    "n": 53,
@@ -702,7 +749,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Splitting of enamel epithelial cells",
     "Recession of enamel epithelial cells"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 主動萌發的動力主要來自牙周韌帶纖維母細胞的收縮與韌帶的重塑，把牙齒往咬合面方向拉。\n❌ (B) 口腔上皮退縮屬「被動」萌發的機轉。\n❌ (C) 牙釉上皮的分裂不是萌發的動力。\n❌ (D) 縮性牙釉上皮的退縮同樣屬被動萌發。\n📚 出處：Ten Cate's Oral Histology，牙齒萌發章節"
   },
   {
    "n": 54,
@@ -728,7 +776,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "上皮角化的咀嚼性黏膜（masticatory mucosa）和未角化的口腔黏膜（oral mucosa）是以mucogingival junction為界",
     "牙齒完整萌發後初期，游離牙齦的邊緣（free gingival margin）約在牙骨質牙釉質交界（cemento-enamel junction）上1.5～2 mm"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。游離牙齦溝的位置對應的是「牙骨質牙釉質交界」，不是齒槽嵴尖。\n❌ (A) 正確。游離與附連牙齦都是角化的咀嚼黏膜。\n❌ (C) 正確。角化的牙齦與非角化的齒槽黏膜以黏膜齒齦交界分界。\n❌ (D) 正確。牙齒剛完全萌發時，游離牙齦邊緣約在交界上方 1.5 至 2 mm。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周解剖章節"
   },
   {
    "n": 56,
@@ -741,7 +790,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Fimbria",
     "Gingipain"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙齦蛋白酶（gingipain）是 P. gingivalis 分泌的半胱胺酸蛋白酶，把宿主蛋白分解成胜肽與胺基酸供菌體利用，同時破壞組織與免疫分子。\n❌ (A) 莢膜的功能是抵抗吞噬。\n❌ (B) 纖維黏連蛋白是宿主的基質蛋白。\n❌ (C) 線毛負責附著與定殖。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周微生物學章節"
   },
   {
    "n": 57,
@@ -754,7 +804,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "PGE2",
     "TNF-α"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 長期追蹤研究顯示牙齦溝液中的前列腺素 E2 濃度與未治療牙周炎的附連喪失進展最具關聯，可作為疾病活動的預測指標。\n❌ (A) IL-1β 與疾病嚴重度相關，但預測進展的證據不如 PGE2。\n❌ (B) IL-6 主要反映全身性發炎。\n❌ (D) TNF-α 參與骨吸收，但不是該研究的指標。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周病致病機轉章節"
   },
   {
    "n": 58,
@@ -767,7 +818,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "發炎細胞浸潤的擴展使得膠原蛋白喪失",
     "齒齦上皮（dentogingival epithelium）的增生主要是維持上皮的完整性和做為阻擋微生物進入的屏障"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。人類（尤其年輕個體）的建立期病灶中，浸潤的仍以「淋巴球（T 細胞）」為主，漿細胞為主的型態多見於動物實驗與長期病灶。\n❌ (A) 正確。動物實驗的建立期以漿細胞為主。\n❌ (C) 正確。發炎浸潤範圍擴大伴隨膠原持續喪失。\n❌ (D) 正確。齒齦上皮增生是為了維持屏障的完整性。\n📚 出處：Page and Schröeder, 1976；Carranza 牙周病學"
   },
   {
    "n": 59,
@@ -780,7 +832,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Questionable prognosis",
     "Hopeless prognosis"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 依 McGuire 分類，出現第一至二度根分叉侵犯併動搖度且該區不易清潔者，屬於「預後不良（poor）」。\n❌ (A) 尚可（fair）指的是附連喪失輕微、無或僅第一度根分叉且可維持者。\n❌ (C) 可疑（questionable）用於附連喪失嚴重、動搖度高且根分叉侵犯達第二、三度者。\n❌ (D) 絕望（hopeless）指已無法保留、必須拔除者。\n📚 出處：McGuire, 1991；Carranza 牙周病學"
   },
   {
    "n": 60,
@@ -793,7 +846,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "再次進行牙根面整平術",
     "由於牙周第二期治療無效，直接進行牙周手術"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 維持期發現殘存 5 mm 囊袋且有探測出血，代表該處仍有活動性發炎，第一步應重新進行該部位的牙根整平清創。\n❌ (A) 漱口水無法清除齦下的牙結石與生物膜。\n❌ (B) 磨光塗氟只處理牙面，對深部囊袋無效。\n❌ (D) 尚未重新非手術治療就直接開刀是跳過了應有的步驟。\n📚 出處：Newman and Carranza's Clinical Periodontology，支持性牙周治療章節"
   },
   {
    "n": 61,
@@ -806,7 +860,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "白血球毒素（leukotoxin）",
     "類固醇荷爾蒙（steroid hormone）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 白血球毒素是 A. actinomycetemcomitans 等「細菌」分泌的毒力因子，不是宿主提供給細菌的養分。\n❌ (A) 是宿主來源。血紅素提供血基質鐵給 P. gingivalis 利用。\n❌ (B) 是宿主來源。細胞外基質蛋白被蛋白酶分解後成為養分。\n❌ (D) 是宿主來源。類固醇荷爾蒙可促進普氏菌屬的生長。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周微生物學章節"
   },
   {
    "n": 62,
@@ -819,7 +874,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "身心障礙者較需要化學性牙菌斑控制",
     "專業之治療主要為移除牙菌斑堆積因子（plaque-retaining factors）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。機械性清潔（刷牙、牙間清潔）永遠是菌斑控制的主體，化學性方法只是「輔助」。\n❌ (A) 正確。病人自我的每日菌斑控制最關鍵。\n❌ (C) 正確。身心障礙者機械清潔困難，較需要化學輔助。\n❌ (D) 正確。專業治療的重點在移除牙結石、外懸等菌斑滯留因子。\n📚 出處：Newman and Carranza's Clinical Periodontology，菌斑控制章節"
   },
   {
    "n": 63,
@@ -832,7 +888,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "2",
     "3"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Löe 與 Silness 牙齦指數中，2 分代表中度發炎且「探測會出血」。\n❌ (A) 0 分是正常牙齦。\n❌ (B) 1 分是輕微發炎但探測不出血。\n❌ (D) 3 分是嚴重發炎、潰瘍並有自發性出血傾向。\n📚 出處：Löe and Silness, 1965；Carranza 牙周病學"
   },
   {
    "n": 64,
@@ -845,7 +902,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Charters method",
     "Stillman method"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 查特斯法的刷毛朝向「咬合面（遠離牙齦）」且與牙面成 45 度，能按摩牙齦而不會戳入傷口，適合牙周手術後的癒合期使用。\n❌ (A) 改良史迪爾曼法的刷毛朝向牙根方向。\n❌ (B) 貝氏法的刷毛指向牙齦溝內。\n❌ (D) 史迪爾曼法同樣是刷毛朝向牙齦。\n📚 出處：Newman and Carranza's Clinical Periodontology，刷牙方法章節"
   },
   {
    "n": 65,
@@ -858,7 +916,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "牙齦退縮是牙周手術必然會發生的結果，所以在手術前要先告知病患",
     "牙齦退縮除了造成美觀的問題外，也會造成牙齒敏感"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。原本「較深」的囊袋在手術後的退縮量較多，因為要移除的發炎組織與骨修整量都更大。\n❌ (A) 正確。腫脹的發炎組織消退後即呈現退縮。\n❌ (C) 正確。術後退縮幾乎無法避免，術前必須告知。\n❌ (D) 正確。牙根暴露會造成美觀問題與牙齒敏感。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周手術章節"
   },
   {
    "n": 66,
@@ -871,7 +930,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "RSR適用於大臼齒嚴重的二級與三級根叉侵犯",
     "長牙根幹（long root trunk）比短牙根幹（short root trunk）的RSR術後效果較好"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 牙根分開與切除術適用於大臼齒嚴重（第二、三度）的根分叉侵犯，藉由分根或切除病變牙根使剩餘部分可以清潔。\n❌ (A) 移除牙根是「切除」；分開是把多根牙分成兩顆單根牙而不移除。\n❌ (B) 上顎第一小臼齒牙根細小，不適合做此術式。\n❌ (D) 牙根幹「短」者根分叉位置高、分根後仍有足夠牙根，術後效果較佳。\n📚 出處：Newman and Carranza's Clinical Periodontology，根分叉處置章節"
   },
   {
    "n": 67,
@@ -884,7 +944,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "4.2",
     "5.0"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Lindhe 等人提出的臨界探測深度約為 2.9 mm：探測深度低於此值時做牙根整平反而會造成附連喪失。\n❌ (B) 3.5 mm 已高於該研究的臨界值。\n❌ (C) 4.2 mm 是修正後翻瓣手術的臨界值層級。\n❌ (D) 5.0 mm 遠高於此研究所得的數值。\n📚 出處：Lindhe et al., 1982；Carranza 牙周病學"
   },
   {
    "n": 68,
@@ -897,7 +958,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "供給部位（donor site）須有健康且足夠寬度的附連牙齦",
     "供給部位的齒槽骨有開窗（fenestration）仍可使用"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。供給部位若有骨開窗或骨裂開，移植後該處骨面會暴露而導致嚴重退縮，屬禁忌。\n❌ (A) 正確。鬆弛切開可減少翻瓣移動時的張力。\n❌ (B) 正確。懸吊縫合可固定翻瓣避免往根尖滑脫。\n❌ (C) 正確。供給部位必須有健康且足夠寬度的附連牙齦。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙根覆蓋術式章節"
   },
   {
    "n": 69,
@@ -910,7 +972,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "比FDBA多一道乾燥步驟",
     "顆粒大小通常介於50～150 mm之間"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 異體移植骨雖經處理，仍保留部分蛋白抗原，理論上有引起免疫反應與疾病傳播的疑慮。\n❌ (A) 取材有嚴格的時間與篩檢規範，並非「死亡三天內」這種描述。\n❌ (C) DFDBA 比 FDBA 多的是「脫鈣」步驟，不是乾燥。\n❌ (D) 常用顆粒大小是 250 至 500 µm（單位也不是 mm）。\n📚 出處：Newman and Carranza's Clinical Periodontology，骨移植材料章節"
   },
   {
    "n": 70,
@@ -923,7 +986,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "乳突保存翻瓣手術（papilla preservation flap）",
     "根向位移翻瓣手術（apically displaced flap）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 乳突保存翻瓣把整個牙間乳頭完整保留在單一側，術後可完全覆蓋移植材與薄膜，是再生手術的最佳翻瓣設計。\n❌ (A) 一般溝內翻瓣的乳頭常被切成兩半而難以密合。\n❌ (B) 改良式魏德曼翻瓣以清創為目的，乳頭會退縮。\n❌ (D) 根向位移翻瓣是切除性手術，與再生的目標相反。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周再生手術章節"
   },
   {
    "n": 71,
@@ -936,7 +1000,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "明顯之牙齦退縮（marked gingival recession）",
     "深的牙周囊袋（deep pocket）達黏膜牙齦交界（mucogingival junction）處"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 牙齒的鄰接點屬於咬合與清潔的考量，與附連牙齦的寬度是否足夠無關。\n❌ (A) 有影響。高位繫帶附連會拉扯牙齦邊緣並減少可用寬度。\n❌ (C) 有影響。明顯退縮直接減少角化牙齦的量。\n❌ (D) 有影響。深囊袋底部達到黏膜齒齦交界時，等於沒有剩餘的附連牙齦。\n📚 出處：Newman and Carranza's Clinical Periodontology，囊袋手術章節"
   },
   {
    "n": 72,
@@ -949,7 +1014,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "使用冷凍乾燥異體腸骨嵴移植骨（freeze-dried iliac crest bone allograft）須作交叉比對，以降低排斥作用",
     "動物實驗顯示，脫鈣冷凍乾燥異體移植骨（DFDBA）能使骨成形蛋白質（BMPs）暴露而具有骨誘導能力"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。β-磷酸三鈣的吸收「相當快」，它主要作為空間維持的填充物，新骨形成能力有限。\n❌ (A) 正確。腸骨嵴骨髓的造骨潛力最強，但易造成牙根吸收與黏連。\n❌ (C) 正確。異體移植需嚴格篩檢與配對以降低排斥與感染風險。\n❌ (D) 正確。脫鈣步驟使骨形態發生蛋白暴露而具骨誘導性。\n📚 出處：Newman and Carranza's Clinical Periodontology，骨移植材料章節"
   },
   {
    "n": 73,
@@ -962,7 +1028,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "病患的全身狀況",
     "環境因素，如吸菸"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 評估回診頻率看的是「殘存囊袋 5 mm 以上」的部位數；小於 4 mm 的囊袋屬於維持良好的部位，不列入風險評估。\n❌ (A) 是評估項目。探測出血部位的百分比是核心指標。\n❌ (C) 是評估項目。糖尿病等全身狀況影響復發風險。\n❌ (D) 是評估項目。抽菸是重要的環境危險因子。\n📚 出處：Lang and Tonetti 牙周風險評估；Carranza 牙周病學"
   },
   {
    "n": 74,
@@ -975,7 +1042,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "若植體上贋復體已經有動搖的情況，此時可以考慮將植體摘除",
     "因目前植體系統過多，使用塑膠牙周探測具檢查植體囊袋深度並不是一種常規性且可以依賴的檢查工具"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 依成功標準，植體在第一年之後每年的邊緣骨喪失應在 0.2 mm 以內。\n❌ (B) 化膿應先做清創、抗菌與去污處理，不是立即摘除植體。\n❌ (C) 贋復體動搖多半是螺絲鬆脫或黏著失敗，鎖緊或重做即可，不需摘除植體。\n❌ (D) 使用塑膠探針測量植體囊袋深度是常規且可靠的追蹤方式。\n📚 出處：Misch, Contemporary Implant Dentistry，植體維護章節"
   },
   {
    "n": 75,
@@ -988,7 +1056,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Diabetes mellitus",
     "Hepatitis B"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) B 型肝炎是病毒經血液或體液傳染，牙周病不是它的危險因子。\n❌ (A) 是。牙周致病菌被吸入可加重慢性阻塞性肺病。\n❌ (B) 是。牙周發炎與動脈粥狀硬化、心血管疾病相關。\n❌ (C) 是。牙周病與糖尿病互為雙向的危險因子。\n📚 出處：Newman and Carranza's Clinical Periodontology，牙周與全身健康章節"
   },
   {
    "n": 76,
@@ -1001,7 +1070,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "Metronidazole",
     "Clarithromycin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 青黴素類在孕期屬 B 級，是安全性最高的首選抗生素。\n❌ (B) 四環素會沉積在胎兒骨骼與牙齒，孕期禁用。\n❌ (C) Metronidazole 在孕期前三個月應避免使用。\n❌ (D) Clarithromycin 屬孕期 C 級，非首選。\n📚 出處：Katzung, Basic and Clinical Pharmacology；孕期用藥指引"
   },
   {
    "n": 77,
@@ -1014,7 +1084,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "在無牙菌斑存在時，服用這類藥物所誘導的肥大一定不會發生，但在很多牙菌斑存在時，服用此類藥物時一定會肥大",
     "建議替換其他藥物並改善口腔衛生後，肥大情形於一段時間後仍無法改善時必須以手術切除"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。藥物性牙齦增生的發生與嚴重度受個體易感性影響：菌斑少者未必不發生，菌斑多者也未必一定增生，不能用「一定」來描述。\n❌ (A) 正確。同時服用兩種以上致增生藥物會使情況更明顯。\n❌ (B) 正確。改善發炎後纖維成分不會立即消退。\n❌ (D) 正確。換藥與口腔衛生改善後仍未消退者需手術切除。\n📚 出處：Newman and Carranza's Clinical Periodontology，藥物性牙齦增生章節"
   },
   {
    "n": 78,
@@ -1027,7 +1098,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "7",
     "9"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鼻竇增高術若要同期植入植體，殘餘齒槽骨高度必須大於 5 mm 才能取得足夠的初期穩定度；不足者應採分期手術。\n❌ (A) 3 mm 無法提供足夠的初期穩定度。\n❌ (C) 7 mm 已超過同期植入的最低要求。\n❌ (D) 9 mm 幾乎不需要做鼻竇增高。\n📚 出處：Misch, Contemporary Implant Dentistry，上顎竇增高章節"
   },
   {
    "n": 79,
@@ -1040,7 +1112,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "雜亂無章",
     "完全無接觸"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 植體周圍的結締組織纖維主要「平行」於植體表面環繞排列，無法像牙周韌帶那樣垂直嵌入，這也是植體周圍組織封閉較脆弱的原因。\n❌ (A) 垂直嵌入是天然牙牙骨質上夏庇氏纖維的排列。\n❌ (C) 纖維排列有明確方向，不是雜亂無章。\n❌ (D) 結締組織確實與植體表面接觸形成封閉。\n📚 出處：Lindhe, Clinical Periodontology and Implant Dentistry，植體周圍組織章節"
   },
   {
    "n": 80,
@@ -1053,7 +1126,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "鈦膜噴漿（Ti plasma-sprayed）",
     "酸蝕（acid etching）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 酸蝕是把表面材料「移除」而形成粗糙，屬減成（subtractive）處理。\n❌ (A) 陽極處理在表面長出增厚的氧化層，屬加成。\n❌ (B) 氫氧磷灰石覆膜是在表面加上一層塗層。\n❌ (C) 鈦膜噴漿是把熔融鈦顆粒噴附在表面。\n📚 出處：Misch, Contemporary Implant Dentistry，植體表面處理章節"
   }
  ]
 };
