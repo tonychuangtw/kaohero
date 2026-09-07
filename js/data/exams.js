@@ -34202,7 +34202,7 @@ window.APP_EXAMS = [
   "subjName": "國文（一般行政組）",
   "label": "102 年　五等　國文（一般行政組）",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
