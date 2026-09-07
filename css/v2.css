@@ -1,22 +1,26 @@
 /* 考古英雄 v2 版型
    設計方向：淺色、乾淨、卡片式，手機優先；一個主色（靛藍）＋一個強調色（琥珀）。 */
+/* 預設＝Tony 選的 A 案「金榜學術風」，2026-09-07 起套用到全站（首頁與內頁一致，
+   Tony：「內頁也要改，才一致。以後要改都是全部一起改」）。
+   使用者仍可在顯示設定切成淺色／棕褐／高對比，那三種在下方各自覆寫。 */
 :root{
+  --ink:#eef2f8; --ink2:#c8d2e0; --dim:#a3b0c2; --line:#2a3342; --line2:#141a24;
+  --bg:#0e1218; --card:#1a212c;
+  --brand:#e3b25c; --brand-d:#c9963f; --brand-l:#3a2f18;
+  --gold:#e3b25c; --gold-l:#3a2f18;
+  --good:#5fd08a; --good-l:#12281f; --bad:#ff8d92; --bad-l:#2b1618;
+  --on-brand:#1b1305;   /* 金色底上用深字才看得清楚 */
+  --r:14px; --shadow:0 1px 2px rgba(0,0,0,.35), 0 14px 34px rgba(0,0,0,.35);
+}
+/* 顯示設定選「淺色」時用的原始配色（2026-09-07 之前是全站預設） */
+:root[data-theme="light"]{
   --ink:#151a24; --ink2:#3d475a; --dim:#6b7789; --line:#e3e8f0; --line2:#f0f3f8;
   --bg:#f7f9fc; --card:#ffffff;
   --brand:#2f5bd7; --brand-d:#2447ad; --brand-l:#eaf0ff;
   --gold:#f0a01e; --gold-l:#fff6e6;
   --good:#12855f; --good-l:#e7f6f0; --bad:#c8383f; --bad-l:#fdedee;
-  --r:14px; --shadow:0 1px 2px rgba(21,26,36,.05), 0 8px 24px rgba(21,26,36,.06);
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]){
-    --ink:#e8ecf5; --ink2:#c2cadb; --dim:#8e9aae; --line:#28304060; --line2:#1c2432;
-    --bg:#0e131c; --card:#161d29;
-    --brand:#6f95ff; --brand-d:#87a7ff; --brand-l:#1a2338;
-    --gold:#f5b44b; --gold-l:#2b2416;
-    --good:#4fc79b; --good-l:#12281f; --bad:#ff8d92; --bad-l:#2b1618;
-    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.28);
-  }
+  --shadow:0 1px 2px rgba(21,26,36,.05), 0 8px 24px rgba(21,26,36,.06);
+  --on-brand:#fff;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -55,29 +59,19 @@ img{max-width:100%}
 .sec-h .more{margin-left:auto;font-size:calc(14px * var(--fs,1));font-weight:600}
 .lead{color:var(--dim);font-size:calc(15px * var(--fs,1));margin:0 0 14px}
 
-/* ---- 首頁整頁配色（2026-09-07：Tony 回報「看起來不是 A 案」——原本只有 hero 是深色，
-   頁首、卡片與下半部還留著淺色，所以整頁看起來不像 preview/a.html）----
-   作法：router 在 body 掛 data-page，首頁時把整組色票換成 A 案的深底金字；
-   其他頁面完全不受影響，仍走使用者選的淺色／深色主題。 */
-body[data-page="home"]{
-  --ink:#eef2f8; --ink2:#c8d2e0; --dim:#a3b0c2; --line:#2a3342; --line2:#141a24;
-  --bg:#0e1218; --card:#1a212c;
-  --brand:#e3b25c; --brand-d:#c9963f; --brand-l:#3a2f18;
-  --gold:#e3b25c; --gold-l:#3a2f18;
-  --good:#5fd08a; --good-l:#12281f; --bad:#ff8d92; --bad-l:#2b1618;
-  --shadow:0 1px 2px rgba(0,0,0,.35), 0 14px 34px rgba(0,0,0,.35);
-  background:
-    radial-gradient(900px 420px at 50% -140px, #1b2432 0%, transparent 70%),
-    var(--bg);
-}
-/* 頁首在首頁跟著轉深色，並讓 logo 方塊與導覽的 hover 用金色系 */
-body[data-page="home"] .hd{background:rgba(14,18,24,.88);border-bottom-color:var(--line)}
-body[data-page="home"] .logo .mk{background:linear-gradient(150deg,#e3b25c,#8a6520);color:#1a1206}
-body[data-page="home"] .hd nav a.on{color:#1b1305;background:var(--gold)}
-/* 頁尾同樣轉深色，與 hero 的深底連成一整片 */
-body[data-page="home"] .ft{background:#111823;border-top-color:var(--line)}
-/* 卡片區塊在深底上補一層微微的漸層，避免整片死黑 */
-body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)}
+/* 頁首、頁尾與卡片的金榜風微調；淺色／棕褐／高對比主題下自動讓位給各自的色票 */
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .hd{
+  background:rgba(14,18,24,.88);border-bottom-color:var(--line)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .logo .mk{
+  background:linear-gradient(150deg,#e3b25c,#8a6520);color:#1a1206}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .hd nav a.on{
+  color:#1b1305;background:var(--gold)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .ft{
+  background:#111823;border-top-color:var(--line)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .e{
+  background:linear-gradient(180deg,var(--card),#151b24)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) body{
+  background:radial-gradient(900px 420px at 50% -140px,#1b2432 0%,transparent 70%),var(--bg)}
 
 /* ---- Hero（2026-09-06 首頁改版：Tony 選的 A 案「金榜學術風」）----
    深色底＋金色重點，是首頁自己的配色，不受站上淺色／深色主題影響（兩種主題下都好看）。 */
@@ -206,11 +200,12 @@ body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)
 /* ---- 按鈕 ---- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;
   border-radius:11px;padding:11px 18px;font-size:calc(15.5px * var(--fs,1));font-weight:700;
-  border:1px solid var(--brand);background:var(--brand);color:#fff;cursor:pointer;font-family:inherit}
+  border:1px solid var(--brand);background:var(--brand);color:var(--on-brand,#fff);
+  cursor:pointer;font-family:inherit}
 .btn:hover{background:var(--brand-d);text-decoration:none}
 .btn.o{background:var(--card);color:var(--brand)}
 .btn.o:hover{background:var(--brand-l)}
-.btn.g{background:#fff;color:var(--brand);border-color:#fff}
+.btn.g{background:var(--card);color:var(--brand);border-color:var(--line)}
 .btn.w{width:100%}
 .btnrow{display:flex;flex-wrap:wrap;gap:10px}
 
@@ -278,6 +273,7 @@ body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)
   --gold:#f5b44b; --gold-l:#2b2416;
   --good:#4fc79b; --good-l:#12281f; --bad:#ff8d92; --bad-l:#2b1618;
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.28);
+  --on-brand:#0e131c;
 }
 :root[data-theme="sepia"]{
   --ink:#3b2f21; --ink2:#5b4a35; --dim:#8a7659; --line:#e3d7c2; --line2:#f0e7d7;
@@ -286,6 +282,7 @@ body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)
   --gold:#c2851a; --gold-l:#f7ecd6;
   --good:#4b7a3f; --good-l:#e9f2e3; --bad:#a4452f; --bad-l:#f8e6e0;
   --shadow:0 1px 2px rgba(80,60,30,.06), 0 8px 24px rgba(80,60,30,.08);
+  --on-brand:#fff;
 }
 :root[data-theme="hc"]{
   --ink:#000; --ink2:#111; --dim:#333; --line:#000; --line2:#e8e8e8;
@@ -294,6 +291,7 @@ body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)
   --gold:#8a5a00; --gold-l:#fff2d6;
   --good:#005c3c; --good-l:#e0f3ec; --bad:#a10009; --bad-l:#ffe6e7;
   --shadow:none;
+  --on-brand:#fff;
 }
 :root[data-theme="hc"] .card,
 :root[data-theme="hc"] .it,
