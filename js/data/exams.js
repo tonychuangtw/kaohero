@@ -21924,7 +21924,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "104 年　高考三級　國文",
   "n": 10,
-  "exp": 0,
+  "exp": 10,
   "mins": 30
  },
  {
@@ -21952,7 +21952,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "104 年　普通考試　國文",
   "n": 10,
-  "exp": 0,
+  "exp": 10,
   "mins": 30
  },
  {
