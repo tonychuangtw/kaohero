@@ -9646,7 +9646,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "114 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
