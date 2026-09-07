@@ -869,7 +869,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "在非牙周病患者的根管－牙周病灶，Grade 2為單一牙面存在窄而深的牙周囊袋",
     "包含牙根損傷的根管－牙周病灶通常為無望的預後（hopeless prognosis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在「非牙周炎」病人身上，Grade 1 才是單一牙面窄而深的牙周囊袋；Grade 2 是單一牙面「寬」而深的囊袋，Grade 3 則是多個牙面都有深囊袋，所以這句把級別配錯了。\n❌ (A) 敘述正確：第一步就是先排除牙根斷裂、穿孔與外吸收這類牙根損傷。\n❌ (B) 敘述正確：排除牙根損傷後，依牙周破壞程度分為三級。\n❌ (D) 敘述正確：合併牙根損傷者多屬無望的預後，通常只能拔除。\n📚 出處：2017 World Workshop Classification（Endo-periodontal lesions）。"
   },
   {
    "n": 62,
@@ -882,7 +883,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "T細胞被活化（activation）",
     "破骨細胞分化（differentiation）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) RANKL 與破骨前驅細胞上的 RANK 結合後，啟動 NF-κB 訊號使前驅細胞融合並分化成成熟的破骨細胞——這是所有骨吸收（含牙周骨破壞與矯正牙齒移動）的共同開關。\n❌ (A) 造骨細胞是分泌 RANKL 的那一方，不是被誘導凋亡的對象。\n❌ (B) 造骨細胞的增生由 BMP 與 Wnt 路徑調控。\n❌ (C) T 細胞是 RANKL 的來源之一，不是它的作用標的。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（RANK/RANKL/OPG axis）。"
   },
   {
    "n": 63,
@@ -895,7 +897,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "牙刷的使用方式以及牙膏的研磨性質對於牙齒的磨耗影響大於刷毛的軟硬度",
     "刷牙的力道對於牙菌斑移除的效力影響不大，但用力的刷牙可能導致牙齦萎縮以及齒頸部牙根表面的楔形缺損"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 貝氏刷牙法要把刷毛壓進牙齦溝內震動，對「薄」牙齦表現型的人反而是傷害——薄而脆弱的牙齦禁不起這種持續的機械刺激，容易造成退縮；這類病人應改用較溫和的刷法，所以這句錯誤。\n❌ (A) 敘述正確：刷牙時間與菌斑清除量正相關，建議至少兩分鐘。\n❌ (C) 敘述正確：刷法與牙膏的研磨性對磨耗的影響大於刷毛軟硬。\n❌ (D) 敘述正確：加大力道無助於清除菌斑，卻會造成牙齦退縮與楔狀缺損。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Toothbrushing methods）。"
   },
   {
    "n": 64,
@@ -908,7 +911,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "非手術性牙周治療的終點為牙周囊袋≦4mm且沒有探測出血（BoP）",
     "於非手術性牙周治療後再次進行非手術性治療，在大臼齒、根叉處、角性骨缺損處，改善效果有限"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 多篇隨機試驗與系統性回顧都顯示，分四次分區完成與一次全口完成的牙根整平，在探測深度與附連獲得上沒有臨床上有意義的差異；說分次顯著較佳並無證據支持，所以這句錯誤。\n❌ (A) 敘述正確：Er:YAG 雷射輔助的加成效益至今仍未獲一致證實。\n❌ (C) 敘述正確：治療終點是囊袋 ≤4 mm 且沒有探測出血。\n❌ (D) 敘述正確：大臼齒、根分叉與角狀骨缺損處再次非手術治療的改善空間有限。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Nonsurgical therapy：outcomes）。"
   },
   {
    "n": 65,
@@ -921,7 +925,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "遠心側二級牙根叉侵犯（Class II furcation involvement）",
     "頰側二級牙根叉侵犯（Class II furcation involvement）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 頰側的第二級根分叉侵犯是引導組織再生最理想的適應症——分叉入口在頰側容易翻瓣進入、剩餘的骨壁與根分叉頂形成可容納再生材料的空間，屏障膜也放得穩。\n❌ (A) 近心分叉的入口藏在腭根與近心頰根之間，器械與膜都難以就位。\n❌ (B) 第三級（貫通）分叉沒有可封閉的空間，再生手術幾乎無效。\n❌ (C) 遠心分叉同樣受鄰牙與腭根阻擋，操作困難。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（GTR in furcation defects）。"
   },
   {
    "n": 66,
@@ -934,7 +939,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "需考慮角質化牙齦的切除量",
     "以外斜面（external bevel）約60度角切除牙齦"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙齦切除的外斜面切線應與牙面成約 45 度角——這個角度切下去才能修出自然的牙齦邊緣輪廓；60 度過陡會留下厚鈍的邊緣，所以這句錯誤。\n❌ (A) 敘述正確：切除藥物性或發炎性的牙齦增生正是它的主要適應症。\n❌ (B) 敘述正確：需要放置再生材料的骨內缺損必須翻瓣處理，不能單純切牙齦。\n❌ (C) 敘述正確：術前必須確認切除後仍留有足夠的角化牙齦。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Gingivectomy technique）。"
   },
   {
    "n": 67,
@@ -947,7 +953,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "①②③",
     "①③②"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 改良式魏德曼翻瓣的三刀順序是：④先在牙齦邊緣下方 0.5～1 mm 做扇形的內斜面切開 → ③再沿牙齦溝切到骨嵴 → ②最後以齒間切開把中間那圈牙齦領組織取下。\n❌ (B) 把內斜面與牙齦溝切開的順序顛倒了。\n❌ (C) ①外斜面切開是牙齦切除術的做法，不屬於這個術式。\n❌ (D) 同樣誤用了外斜面切開。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Modified Widman flap）。"
   },
   {
    "n": 68,
@@ -960,7 +967,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "改善因為解剖構造、或發育、或疾病所造成的牙齦、黏膜及骨頭的缺損",
     "調整牙齒周圍而非植體周圍之牙齦的高度、質地及厚度"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙周整形手術的範圍同樣涵蓋「植體周圍」的軟組織處理——補角化組織、增厚黏膜、重建乳頭都是常規項目；把植體排除在外與現行的定義不符，所以這句錯誤。\n❌ (A) 敘述正確：牙齦增生的修整與牙根覆蓋都是適應症。\n❌ (B) 敘述正確：改善齒槽嵴畸形與軟組織美觀是主要目的之一。\n❌ (C) 敘述正確：不論成因是解剖、發育或疾病，缺損的重建都屬其範圍。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Periodontal plastic surgery）。"
   },
   {
    "n": 69,
@@ -973,7 +981,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "垂直切線可在頰側及舌（腭）側進行，以達到兩側翻瓣往根尖方向置放",
     "頰側垂直切線，不可以直接切在齒間乳頭"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腭側不做垂直切線——大腭動脈就走在腭側黏骨膜下，切下去可能造成難以控制的出血；而且腭側組織緊貼骨面、沒有可動的黏膜可以往根尖移位，做了也沒有意義，所以這句錯誤。\n❌ (A) 敘述正確：要把瓣往根尖方向移位，兩側都必須有垂直切線鬆開。\n❌ (B) 敘述正確：垂直切線須越過黏膜牙齦交界進入可動的齒槽黏膜，瓣才鬆得動。\n❌ (D) 敘述正確：切線應落在齒間乳頭的旁邊而非正中央，以免乳頭壞死。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Vertical releasing incisions）。"
   },
   {
    "n": 70,
@@ -986,7 +995,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "皮下結締組織移植術（subepithelial connective tissue graft）",
     "冠向移位翻瓣術（coronally displaced flap）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 雙側乳突翻瓣是把缺損兩側的齒間乳頭各轉一半、在中間縫合起來蓋住暴露的牙根——它必須借用「兩側鄰牙的乳頭」，因此只能處理單一顆牙的退縮。\n❌ (A) 游離牙齦移植可依需要取一整片，能同時覆蓋多顆牙。\n❌ (C) 皮下結締組織移植是多顆牙根覆蓋的首選術式。\n❌ (D) 冠向移位翻瓣同樣可設計成涵蓋多顆牙的範圍。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Root coverage procedures）。"
   },
   {
    "n": 71,
@@ -999,7 +1009,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "下顎第二小臼齒近心側4 mm深之三壁（three-wall），且無根叉侵犯（furcation involvement）的骨內缺損",
     "上顎第二大臼齒遠心側1 mm深之三壁（three-wall）骨內缺損結合遠心第二級根叉侵犯（furcationinvolvement）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 深而窄的「三壁」骨內缺損是再生手術的最佳適應症——三面骨壁圍出一個天然的容器，血塊與骨移植材放得住、膜也撐得穩，加上沒有根分叉侵犯的干擾，再生的成功率最高。\n❌ (A) 第三級（貫通）根分叉沒有可封閉的空間，再生手術效果最差。\n❌ (B) 上顎小臼齒的根分叉位置極深又被鄰牙擋住，器械與膜都無法就位。\n❌ (D) 只有 1 mm 深的缺損本來就沒有再生空間，加上第二級根分叉更不利。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Regenerative therapy：case selection）。"
   },
   {
    "n": 72,
@@ -1012,7 +1023,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "若發現病人刷牙因素造成楔形缺損（wedge-shaped dental defect）時，應避免以震動（vibratory movement）的方式刷牙",
     "應對有探測出血（BoP）的位置及探測深度（PPD）超過4 mm的囊袋，進行洗牙（scaling）及牙根整平（root planing）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 楔狀缺損來自過大的力道與橫向拉鋸式的刷法，該避免的是「用力橫刷」；貝氏法那種原地小幅震動本身是正確且被推薦的技巧，把它列為要避免的動作並不正確。\n❌ (A) 敘述正確：抽菸者的回診順從度顯著低於不抽菸者。\n❌ (B) 敘述正確：回診間隔拉長，兩次之間累積的殘餘囊袋數目就增加。\n❌ (D) 敘述正確：有出血且深度超過 4 mm 的位點應再次清創。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Supportive periodontal therapy）。"
   },
   {
    "n": 73,
@@ -1025,7 +1037,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "良好的牙菌斑控制，就能有效的改善CKD的腎臟功能特殊標記血清胱蛋白（cystatin C）數值",
     "第二型糖尿病的牙周病處置，牙齦上清創與拋光對腎絲球過濾率（eGFR）的改善效果，與手術性療法相同"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 尿毒素會抑制單核球與巨噬細胞的趨化、吞噬與殺菌功能，使重症慢性腎病患者處於免疫功能不全的狀態——這也是他們感染風險偏高、牙科處置需特別謹慎的原因。\n❌ (A) 慢性腎病的定義是腎絲球過濾率低於 60 mL/min/1.73m²，110 是正常值。\n❌ (C) 菌斑控制能改善牙周發炎，但無法據此「有效改善」胱蛋白 C 這個腎功能指標。\n❌ (D) 單純的齦上清創與拋光對腎絲球過濾率的效果，並不等同於完整的牙周治療。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Periodontal medicine：chronic kidney disease）。"
   },
   {
    "n": 74,
@@ -1038,7 +1051,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "病人突然有低血糖症候群病徵時，緊急狀況下應先給與insulin注射",
     "病人血糖數據HbA1c為5.5%時，代表糖尿病的血糖值控制過低"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 血糖降到 60 mg/dL 以下時中樞神經缺乏葡萄糖，會出現意識混亂、抽搐甚至昏迷——這正是牙科診間最危險也最常見的糖尿病急症。\n❌ (A) 治療時間長時應「維持正常進食」並與內科討論是否減量胰島素，不是減食又不調藥。\n❌ (C) 低血糖時給胰島素等於雪上加霜，應立即補充葡萄糖。\n❌ (D) 糖化血色素 5.5% 屬正常範圍，代表控制良好而非過低。\n📚 出處：Malamed, Medical Emergencies in the Dental Office, 7th ed.（Hypoglycemia）。"
   },
   {
    "n": 75,
@@ -1051,7 +1065,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "研究顯示大於65歲牙周炎患者罹患中風（stroke）的風險比小於65歲牙周炎患者會增加約3倍",
     "美國心臟協會已確認牙周炎是冠心症（coronary heart disease）發生之相關連結因子"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 美國心臟協會的立場聲明是：牙周病與冠心症之間存在流行病學上的「關聯」，但現有證據不足以確立因果關係，也不建議以治療牙周病作為預防心臟病的手段；說已「確認」為相關連結因子並不符合該聲明，所以這句錯誤。\n❌ (A) 敘述正確：停經後雌激素下降仍會引起黏膜乾燥、灼熱與牙周變化。\n❌ (B) 敘述正確：慢性壓力使皮質醇上升而抑制免疫，不利牙周健康。\n❌ (C) 敘述正確：研究顯示高齡牙周炎患者的中風風險明顯較高。\n📚 出處：AHA Scientific Statement on Periodontal Disease and Atherosclerotic Vascular Disease（2012）。"
   },
   {
    "n": 76,
@@ -1064,7 +1079,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "3.4 mm",
     "2 mm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Tarnow 的量測顯示相鄰兩支植體之間的軟組織乳頭平均高度只有 3.4 mm——明顯低於天然牙之間的約 5 mm，這也是植體與植體之間最容易出現黑三角的原因。\n❌ (A) 5 mm 以上是天然牙之間的乳頭高度。\n❌ (B) 4.2 mm 大約是植體與天然牙之間的數值。\n❌ (D) 2 mm 低估了實際的平均值。\n📚 出處：Tarnow et al.（2003）；Misch, Contemporary Implant Dentistry, 4th ed.。"
   },
   {
    "n": 77,
@@ -1077,7 +1093,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "L-PRF製備須要抗凝劑",
     "L-PRF有較佳的骨傳導潛力（osteoconductive potential）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) L-PRF 的特點恰恰是「不加抗凝劑」——全血直接離心，靠自然凝固形成緻密的纖維蛋白網；需要抗凝劑的是 PRP。把它寫成需要抗凝劑，反而不是兩者真正的差別。\n❌ (A) 這確實是差別：L-PRF 只需一次離心，製備遠比 PRP 簡單。\n❌ (B) 這也是差別：L-PRF 的纖維蛋白網緻密得多。\n❌ (D) 這同樣是差別：較緻密的纖維支架提供較佳的骨傳導潛力。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Platelet concentrates）。"
   },
   {
    "n": 78,
@@ -1090,7 +1107,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "開裂或開窗型骨缺陷",
     "術後腫脹的增加"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 無翻瓣植牙不掀開骨膜、軟組織創傷小，術後腫脹與疼痛都明顯「減少」——這正是它最主要的優點之一，不是缺點。\n❌ (A) 環切取下的那圈組織就是角化牙齦，確實會損失。\n❌ (B) 看不到骨面只能憑感覺與導板定位，位置偏差的風險上升。\n❌ (C) 無法直視骨壁厚度，容易在唇側造成開裂或開窗型缺損。\n📚 出處：Misch, Contemporary Implant Dentistry, 4th ed.（Flapless implant surgery）。"
   },
   {
    "n": 79,
@@ -1103,7 +1121,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "可吸收的再生膜維持空間的時間可長達數年",
     "擴展的聚四氟乙烯膜（expanded polytetrafluoroethylene membrane）是不可吸收膜"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 可吸收膜的屏障功能只維持數週到四、五個月就被水解或酵素分解掉，不可能長達「數年」；需要長時間維持空間時反而要選不可吸收膜，所以這句錯誤。\n❌ (A) 敘述正確：可吸收膜免去了取出的第二次手術。\n❌ (B) 敘述正確：膠原膜是最常用的可吸收膜。\n❌ (D) 敘述正確：ePTFE 膜不可吸收，必須手術取出。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Barrier membranes）。"
   },
   {
    "n": 80,
@@ -1116,7 +1135,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent3'] = {
     "植體周圍炎手術後拍攝X光所見之骨缺損的填充（bone fill）並不能代表重新骨整合（re-osseointegration）確實發生",
     "當植體周圍炎發生時，非手術性治療多半無效，應直接進行手術性治療"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 植體周圍炎的處置一律「先非手術、後手術」——先以機械清創、抗菌輔助與衛教控制發炎，再評估是否需要翻瓣或再生手術；直接開刀既違反階段性原則，術後也常因菌斑控制不良而復發，所以這句錯誤。\n❌ (A) 敘述正確：口腔衛生沒有先控制好，任何手術都注定失敗。\n❌ (B) 敘述正確：光滑表面的植體清創後參數改善幅度明顯優於粗糙表面。\n❌ (C) 敘述正確：影像上的骨填充只代表有骨組織長回缺損內，不等於骨與植體重新整合。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Treatment of peri-implantitis）。"
   }
  ]
 };
