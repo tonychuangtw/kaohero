@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "喙狀突（coronoid process）",
     "頦部（mandibular chin）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 頦部在出生後幾乎維持原有的形狀與相對大小，只隨整體骨骼等比例放大——這也是為什麼頦部常被當成下顎重疊描圖時的穩定參考結構。\n❌ (A) 下顎枝要往後上方大幅改建加高，變化極大。\n❌ (B) 髁頭是下顎的生長中心，形態與體積改變最劇烈。\n❌ (C) 喙狀突隨顳肌的發育而明顯增大變形。\n📚 出處：Enlow, Facial Growth；Proffit, Contemporary Orthodontics, 6th ed.（Mandibular growth）。"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "抽菸（缺氧）",
     "茲卡病毒"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 母親在懷孕早期抽菸造成的胎兒缺氧，是目前證據最明確的唇腭裂環境致畸因子之一，風險隨吸菸量呈劑量效應上升。\n❌ (A) 德國麻疹造成的是先天性心臟病、白內障與聽力損傷。\n❌ (B) 維生素 D 過多造成的是高血鈣與骨骼異常，而非唇腭裂。\n❌ (D) 茲卡病毒造成的是小頭症與神經發育缺陷。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Cleft lip and palate：etiology）。"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "10歲時，腦部及頭顱的大小約可達成人的95%左右",
     "頭顱骨縫至成年期仍有骨膜重塑（remodeling）現象"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 囟門並不是一年內全部關閉——後囟門在 2～3 個月時關閉，前囟門要到 18～24 個月才閉合，這也是嬰兒期能以前囟門評估顱內壓的原因，所以這句錯誤。\n❌ (B) 敘述正確：四歲時腦與顱的大小已達成人的八成左右。\n❌ (C) 敘述正確：十歲時可達成人的九成五。\n❌ (D) 敘述正確：顱骨縫在成年後仍持續進行骨膜的沉積與吸收改建。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Craniofacial growth）。"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "排列不整齊的牙齒是導致齲齒的主要因素，因此需接受齒顎矯正治療來預防蛀牙",
     "異常咬合造成的咬合創傷（occlusal trauma）之牙齒是導致牙周病的主要因素，因此需接受齒顎矯正治療來預防牙周病"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 目前證據最充分的矯正治療效益，是改善因外觀與咬合而來的自尊、人際與社會心理困擾——這也是多數成人與青少年真正的求診動機。\n❌ (B) 咬合與顳顎障礙症的因果並未確立，不能以矯正作為顳顎障礙的常規治療。\n❌ (C) 齲齒的主因是菌斑與飲食，牙齒排列不整只是清潔困難的次要因素。\n❌ (D) 牙周破壞的主因同樣是菌斑；咬合創傷只會加速已存在的牙周炎，不是起因。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（The need and demand for orthodontic treatment）。"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "評估吞嚥功能的方式，主要以請病人多用力吐舌（push with the tongue）來測量",
     "即便有嚴重的異常咬合，還是可能有正常的發音"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 舌頭與唇的代償能力很強，即使有嚴重的異常咬合，許多病人仍能發出完全正常的語音——這正是「咬合不正與構音障礙關聯有限」的臨床觀察。\n❌ (A) 咀嚼效率牽涉主觀感受與食物種類，臨床上很難客觀量化。\n❌ (B) 診斷異常咬合靠的是模型、影像與咬合關係，唇力測量並非必要項目。\n❌ (C) 用力吐舌測的是舌肌力量，並不能反映真正的吞嚥功能。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Evaluation of oral function）。"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "顏面（facial）的中線",
     "腭（palate）的中線"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 矯正模型的基底以「腭中縫」為對稱基準來修整——腭中縫是骨骼的中線，不會因牙齒偏移或擁擠而改變，據此修出的對稱基底才能真正看出牙弓左右是否對稱。\n❌ (A) 上顎牙齒中線本身可能已偏移，拿它當基準就看不出不對稱。\n❌ (B) 下顎牙齒中線同樣可能偏移。\n❌ (C) 顏面中線在模型上根本沒有對應的標記可循。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Orthodontic study models）。"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "較凸的（convex）側面輪廓表示病患呈現骨性二級顎骨關係（skeletal Class Ⅱ jaw relationship）",
     "較凹的（concave）側面輪廓表示病患上顎骨前突"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 側臉輪廓愈凸，代表上顎相對於下顎愈往前（或下顎後縮），這正是骨性第二類顎骨關係在軟組織上的表現。\n❌ (A) 必須讓病人「直立坐或站」並保持自然頭位，仰躺會使軟組織下墜而失真。\n❌ (B) 判斷凹凸看的是眉間到鼻底、以及鼻底到頦前點這兩條線的夾角。\n❌ (D) 凹的輪廓代表下顎前突或上顎後縮，與上顎前突正好相反。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Profile analysis）。"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "幾乎所有的病患都應該拍攝全景放射線攝影（panoramic radiograph）",
     "小朋友如果只是輕微的問題，不需要拍攝側面測顱X光片（lateral cephalometric radiograph）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 頰側迴廊指的是微笑時後牙頰面與嘴角之間的暗色空隙——它只有在自然微笑的臉部照片上才看得到；口內照片用牽開器把頰部撐開，迴廊早就被撐沒了，所以這句錯誤。\n❌ (B) 敘述正確：錄影能記錄動態，但取代不了仔細的臨床檢查。\n❌ (C) 敘述正確：環口攝影是矯正診斷的基本影像，幾乎人人都該拍。\n❌ (D) 敘述正確：問題單純的孩童不必例行拍攝側面測顱片。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Diagnostic records）。"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "Frankel appliance強調須整天配戴（full-time wear）",
     "Twin block可配合jackscrew擴張牙弓"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Activator 是典型的功能性矯正裝置——它把下顎導引到新的位置、利用肌肉的力量改變顎骨的生長方向；主要作用在「骨骼」層面，而不是像固定矯正器那樣去移動個別牙齒，所以這句錯誤。\n❌ (B) 敘述正確：Bionator 的頰側弓線把頰肌撐開，讓牙弓得以自然擴張。\n❌ (C) 敘述正確：Frankel 裝置強調盡可能全天配戴以改變肌肉環境。\n❌ (D) 敘述正確：Twin block 可加裝擴張螺絲同時處理橫向不足。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Functional appliances）。"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "以功能性矯正裝置（functional appliance）控制因生長造成的復發（relapse）",
     "以固定式維持器（fixed retainer）黏著臨時性牙橋（temporary bonded bridge）保持缺牙空間"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 固定式維持器黏著臨時牙橋只是「守住」既有的缺牙空間、不讓鄰牙倒過來，屬於被動維持；主動性維持器的定義是本身還會對牙齒施力使其移動。\n❌ (A) 環繞式維持器可調整以主動關閉殘餘的小間隙。\n❌ (B) 加了彈線的維持器會持續施力重新排列前牙，是典型的主動維持器。\n❌ (C) 功能性裝置在維持期仍持續改變顎骨關係以對抗生長造成的復發。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Active retainers）。"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "牙齒定位器（positioner）適合用於重度三級咬合矯正治療後的維持",
     "尚在生長期之骨性三級患者，其下顎持續生長（continuing mandibular growth），是造成治療結果不穩定的主因"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 骨性第三類的下顎會一路長到生長期結束（男性甚至到二十歲以後），治療再成功也擋不住持續的生長——這才是結果不穩定、容易復發的根本原因。\n❌ (A) 混合齒列早期改正的只是牙齒的代償，骨骼的生長趨勢並未改變。\n❌ (B) 頦托只能暫時抑制或改變下顎的生長方向，停用後生長仍會表現出來。\n❌ (C) 牙齒定位器只適合治療末期的細部調整，撐不住重度骨性病例的復發力量。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Retention after Class III treatment）。"
   },
   {
    "n": 12,
@@ -195,7 +206,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "先定期觀察至恆犬齒萌出，再評估治療的必要性",
     "用橡皮圈套住兩顆正中門牙來關閉該齒隙"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 七歲、水平覆蓋正常、只有 2 mm 的正中齒隙，正是「醜小鴨期」的正常發育現象——側門齒與犬齒陸續萌出時會把中門齒往中線推，多數會自行關閉，因此觀察到犬齒萌出後再評估即可。\n❌ (A) 此時介入是不必要的治療，且可能干擾正常的萌發過程。\n❌ (B) 同樣屬於過早介入。\n❌ (D) 用橡皮圈套住牙齒極度危險——橡皮圈會滑向根方切斷牙周組織，造成牙齒脫落。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Maxillary midline diastema：ugly duckling stage）。"
   },
   {
    "n": 15,
@@ -208,7 +220,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "用矯正牽引第二乳大臼齒",
     "將第二乳大臼齒做去冠術（decoronation）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 既然恆牙先天缺失、治療計畫又是要「關閉」這個空間，那就該把沾黏而下沉的第二乳臼齒拔掉，讓第一大臼齒自然往近心漂移填補——此時放空間維持器反而與治療目標背道而馳。\n❌ (A) 保留它當空間維持器等於刻意守住不需要的空間。\n❌ (C) 沾黏的牙齒與骨頭已融合，矯正力量拉不動它。\n❌ (D) 去冠術用於希望保留骨嵴高度、日後植牙的情況，與關閉空間的計畫不符。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.；Casamassimo, Pediatric Dentistry, 6th ed.（Congenitally missing premolars）。"
   },
   {
    "n": 16,
@@ -221,7 +234,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "彈力線直徑為22 mil ，產生整體位移（bodily movement）力",
     "彈力線直徑為40 mil ，產生整體位移（bodily movement）力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 單顆前牙錯咬只需要把牙冠往唇側「傾斜」出來即可解除，用細的 22 mil 彈力線提供輕柔而持續的單點推力，正是這種簡單傾斜移動的標準做法。\n❌ (B) 40 mil 的線過粗過硬，力量太大且無法在活動裝置上有效作用。\n❌ (C) 整體位移需要力偶（兩個施力點），單一彈力線做不到，也不是這個病例所需。\n❌ (D) 線徑與移動型態兩處都不正確。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Removable appliances for tipping movement）。"
   },
   {
    "n": 17,
@@ -234,7 +248,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "主要看頸椎的形狀及下方是否有突起",
     "顱顏面快速生長期大約在CS4到CS5階段"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 頸椎成熟度判讀觀察的是第二（樞椎）、第三與第四節頸椎——看它們下緣的凹陷是否出現，以及椎體由梯形逐漸變成方形、再變成長方形的過程。\n❌ (A) 現行方法分成 CS1 到 CS6 共六個階段，不是五個。\n❌ (C) 看的是椎體「下緣的凹陷」與整體形狀，而非有無突起。\n❌ (D) 生長高峰落在 CS3 與 CS4 之間，不是 CS4 到 CS5。\n📚 出處：Baccetti et al., Cervical Vertebral Maturation；Proffit, Contemporary Orthodontics, 6th ed.。"
   },
   {
    "n": 18,
@@ -247,7 +262,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "活動式唇擋建議睡覺時配戴",
     "會同時造成下顎第一大臼齒向近心移動"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 唇擋把下唇的壓力擋在牙齒之外，原本被唇肌壓住的下顎前牙與後牙失去這股向內的力量，就在舌肌的推動下自然往前與往外舒展開來——這是不施加主動力量的被動式擴張。\n❌ (A) 它擋的是「下唇」的力量，裝在下顎牙弓。\n❌ (C) 唇擋需長時間配戴才有效，不是只在睡覺時戴。\n❌ (D) 唇擋把力量傳到大臼齒使其往「遠心」直立與移動，正好用來爭取空間。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Lip bumper）。"
   },
   {
    "n": 19,
@@ -260,7 +276,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "Pendex鐘擺撐寬裝置是將鐘擺式矯正裝置（pendulum appliance）加上腭弓擴張器（palatal expansionscrew）的裝置",
     "鐘擺式矯正裝置（pendulum appliance）使用32 mil的不鏽鋼線製作最適當"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Pendex 就是在鐘擺裝置的 Nance 鈕上再加一個腭弓擴張螺絲，讓臼齒遠心移動與上顎橫向擴張兩件事一次完成。\n❌ (A) 鐘擺裝置以腭部為支抗，只能用於「上顎」臼齒的遠心移動。\n❌ (B) 唇擋是下顎的裝置，與上顎大臼齒無關。\n❌ (D) 鐘擺彈簧使用的是 0.032 吋的鈦鉬合金線，取其柔和而持久的力量，不是不鏽鋼。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Molar distalization appliances）。"
   },
   {
    "n": 20,
@@ -273,7 +290,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "和矯正器之間至少要有1 mil的間隙",
     "提供大約50 g的力量"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 初始排列線刻意選用遠細於溝槽的圓線，讓它能在溝槽中自由彎曲滑動，游隙以毫米級的自由度計算；規定一個「至少 1 mil」的最小間隙既無實務意義，也不是排列線的設計條件，所以這句錯誤。\n❌ (A) 敘述正確：初始線必須在大範圍的變形中持續提供輕而連續的力量。\n❌ (B) 敘述正確：力—變形曲線上有長而平坦的區段，正是超彈性鎳鈦線的特徵。\n❌ (D) 敘述正確：排列牙齒所需的力量約 50 g 上下。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Initial aligning archwires）。"
   },
   {
    "n": 21,

@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260907a';
+  var VER = '20260907b';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -858,6 +858,9 @@
     var h = (location.hash || '#/').replace(/^#\/?/, '');
     var seg = h.split('/').filter(Boolean);
     var top = seg[0] || '';
+    // 首頁整頁走 A 案的深色金字配色（css 裡以 body[data-page="home"] 換掉一整組色票），
+    // 其餘頁面維持原本的淺色／深色主題。
+    document.body.setAttribute('data-page', top || 'home');
     // 結束後顯示成績；但如果網址指向的是另一份卷子，就要開新的那一份，不能停在舊成績
     if (quiz && quiz.done && (top === 'quiz' ||
         (top === 'paper' && quiz.mode === 'paper' && quiz.pid === seg[1]))) {

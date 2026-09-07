@@ -55,6 +55,30 @@ img{max-width:100%}
 .sec-h .more{margin-left:auto;font-size:calc(14px * var(--fs,1));font-weight:600}
 .lead{color:var(--dim);font-size:calc(15px * var(--fs,1));margin:0 0 14px}
 
+/* ---- 首頁整頁配色（2026-09-07：Tony 回報「看起來不是 A 案」——原本只有 hero 是深色，
+   頁首、卡片與下半部還留著淺色，所以整頁看起來不像 preview/a.html）----
+   作法：router 在 body 掛 data-page，首頁時把整組色票換成 A 案的深底金字；
+   其他頁面完全不受影響，仍走使用者選的淺色／深色主題。 */
+body[data-page="home"]{
+  --ink:#eef2f8; --ink2:#c8d2e0; --dim:#a3b0c2; --line:#2a3342; --line2:#141a24;
+  --bg:#0e1218; --card:#1a212c;
+  --brand:#e3b25c; --brand-d:#c9963f; --brand-l:#3a2f18;
+  --gold:#e3b25c; --gold-l:#3a2f18;
+  --good:#5fd08a; --good-l:#12281f; --bad:#ff8d92; --bad-l:#2b1618;
+  --shadow:0 1px 2px rgba(0,0,0,.35), 0 14px 34px rgba(0,0,0,.35);
+  background:
+    radial-gradient(900px 420px at 50% -140px, #1b2432 0%, transparent 70%),
+    var(--bg);
+}
+/* 頁首在首頁跟著轉深色，並讓 logo 方塊與導覽的 hover 用金色系 */
+body[data-page="home"] .hd{background:rgba(14,18,24,.88);border-bottom-color:var(--line)}
+body[data-page="home"] .logo .mk{background:linear-gradient(150deg,#e3b25c,#8a6520);color:#1a1206}
+body[data-page="home"] .hd nav a.on{color:#1b1305;background:var(--gold)}
+/* 頁尾同樣轉深色，與 hero 的深底連成一整片 */
+body[data-page="home"] .ft{background:#111823;border-top-color:var(--line)}
+/* 卡片區塊在深底上補一層微微的漸層，避免整片死黑 */
+body[data-page="home"] .e{background:linear-gradient(180deg,var(--card),#151b24)}
+
 /* ---- Hero（2026-09-06 首頁改版：Tony 選的 A 案「金榜學術風」）----
    深色底＋金色重點，是首頁自己的配色，不受站上淺色／深色主題影響（兩種主題下都好看）。 */
 :root{ --gold:#e3b25c; --gold-d:#c9963f; --ink-a:#0e1218; --ink-a2:#161c26; --line-a:#2a3342; --dim-a:#a3b0c2; }
