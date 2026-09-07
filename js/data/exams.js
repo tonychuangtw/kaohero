@@ -21350,7 +21350,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "105 年　普通考試　法學知識與英文",
   "n": 50,
-  "exp": 0,
+  "exp": 41,
   "mins": 60
  },
  {
