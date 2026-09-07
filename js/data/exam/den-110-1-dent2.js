@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "與唐氏症（Down syndrome）患者不同，Ｘ染色體脆折患者通常智力正常",
     "患者特徵為長而窄的臉部、突出的下顎、大耳朵及二尖瓣脫垂等現象"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) X 染色體脆折症的典型外觀是長而窄的臉、突出的下顎與大耳朵，並常合併二尖瓣脫垂與結締組織鬆弛——這組特徵讓它在臨床上有機會被辨識出來。\n❌ (A) 它是 X 染色體聯鎖遺傳，患者以「男性」為主。\n❌ (B) 異常擴增的是 FMR1 基因上的 CGG 三核苷酸重複，不是 Rb 基因的 AAT。\n❌ (C) 它是遺傳性智能障礙最常見的原因，患者的智力並不正常。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Fragile X syndrome）。"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "甲狀腺舌管囊腫－頸前中線處",
     "皮樣囊腫－口腔底部"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 舌甲狀腺是甲狀腺在胚胎期沒有下降而停留在原地的組織，位置就在「舌根的盲孔」附近——它不會出現在舌尖，所以這個配對錯誤。\n❌ (B) 敘述正確：腮裂囊腫典型位於胸鎖乳突肌前緣的側頸部。\n❌ (C) 敘述正確：甲狀腺舌管囊腫沿著下降路徑長在頸前中線。\n❌ (D) 敘述正確：皮樣囊腫好發於口腔底部的中線。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "最相關的病菌是梭狀細菌（fusiform bacteria）",
     "肉眼最明顯變化是打孔樣（punched-out）火山口狀（crater-like）的齒間乳頭壞死"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 壞死性潰瘍性牙齦炎攻擊的是「牙間乳頭」——乳頭尖端壞死凹陷成火山口狀是它的招牌；附連牙齦不是它的好發部位，所以這句錯誤。\n❌ (A) 敘述正確：糖尿病、壓力、營養不良與免疫低下都是危險因子。\n❌ (C) 敘述正確：梭狀桿菌與螺旋菌是最相關的菌種。\n❌ (D) 敘述正確：打孔狀的乳頭壞死是肉眼最明顯的變化。\n📚 出處：Newman & Carranza's Clinical Periodontology, 13th ed.。"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "因急性高程度持續發炎所引起",
     "患部的牙齒常有大且深的齲齒"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 硬化性骨炎是骨頭對「低度慢性刺激」的反應性增生——刺激源幾乎都是那顆有大而深齲齒的牙齒，牙髓長期發炎卻還沒壞死，骨頭便在根尖處變得緻密。\n❌ (A) 它是骨質增生，影像上呈「不透射」的白色病灶。\n❌ (B) 它是根尖周圍的瀰漫性硬化，並非附著在牙根上的團塊。\n❌ (C) 它來自低度的慢性刺激，而不是急性高強度的發炎。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Condensing osteitis）。"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "組織病理學特徵常為過度正角化（hyperorthokeratosis）",
     "牙齒的水平重疊不足（insufficient horizontal overlap）是形成白線的重要因素"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 白線是頰黏膜長期被上下牙齒的咬合面「摩擦」而角化增厚的結果，與牙齒的水平重疊夠不夠完全無關——水平重疊不足造成的是咬頰，兩者不能混為一談，所以這句錯誤。\n❌ (A) 敘述正確：它是頰黏膜最常見的正常變異之一。\n❌ (B) 敘述正確：它沿著咬合平面呈雙側對稱的白色線帶。\n❌ (C) 敘述正確：組織學上是過度正角化。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Linea alba）。"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "慢性全身性金中毒稱為argyria",
     "erethism是指汞中毒而引發的神經症狀"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 汞中毒造成的神經精神症狀（易怒、害羞、注意力不集中、記憶減退）合稱為「易激症」——這正是十九世紀製帽工人被稱為「瘋帽匠」的由來。\n❌ (A) 鉛中毒的初期症狀相當非特異，往往被誤診而延誤。\n❌ (B) 伯頓氏線是「鉛」中毒在牙齦邊緣形成的藍灰色線。\n❌ (C) 銀質沉著症是「銀」中毒的名稱，不是金。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Heavy metal poisoning）。"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "類天疱瘡樣藥物疹",
     "天疱瘡樣藥物疹"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 沿著基底膜排成「一串珍珠」的螢光顆粒是苔癬樣病變的特徵（纖維蛋白原與膠狀體的沉積型態）——在藥物疹中對應的就是扁平苔癬樣藥物疹。\n❌ (B) 固定型藥物疹的免疫螢光沒有這種特殊型態。\n❌ (C) 類天疱瘡樣呈基底膜的「線狀」沉積。\n❌ (D) 天疱瘡樣呈細胞間隙的漁網狀沉積。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "環口皮膚炎（perioral dermatitis）",
     "光照性口炎"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 環口皮膚炎的表現就是口鼻周圍成群的紅色小丘疹，而且典型地「留下唇紅緣周圍一圈完全正常的皮膚」——這個特徵性的分布是診斷的關鍵。\n❌ (A) 著色性乾皮病的表現是日曬部位的色素斑與早發性皮膚癌。\n❌ (B) 浦茲-詹賀症候群是「棕黑色的斑」而不是紅色丘疹。\n❌ (D) 光照性口炎主要影響下唇的唇紅緣。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "S-100免疫組織化學染色下，兩者腫瘤細胞均為陽性",
     "治療方式均以外科手術切除為主"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 顆粒細胞瘤的 S-100 是陽性（顯示它的神經鞘細胞來源），但先天性顆粒細胞病變（先天性齦瘤）的 S-100 是「陰性」——這正是兩者最重要的免疫組織化學區別，所以說兩者都陽性並不正確。\n❌ (A) 敘述正確：兩者的細胞都大而一致，細胞質充滿嗜伊紅顆粒。\n❌ (B) 敘述正確：兩者都是良性病變。\n❌ (D) 敘述正確：治療都以手術切除為主。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "刺激性纖維瘤（irritation fibroma）",
     "脂肪瘤（lipoma）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 脂肪瘤鏡下看到的是成熟的「脂肪細胞」，纖維組織只構成薄薄的間隔——增生的主角是脂肪而不是纖維，其餘三者都是纖維組織的增生。\n❌ (A) 纖維瘤的主體是緻密的膠原纖維。\n❌ (B) 腫裂齦瘤是義齒刺激造成的纖維增生。\n❌ (C) 刺激性纖維瘤同樣以纖維增生為主。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "胃黏膜",
     "脂肪"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 迷離瘤指的是「正常組織長在不該長的地方」，口腔內最常見的內容物就是骨或軟骨（骨性迷離瘤好發於舌背）。\n❌ (B) 神經膠組織的迷離瘤（鼻神經膠瘤）相當罕見。\n❌ (C) 胃黏膜的迷離瘤更為少見。\n❌ (D) 脂肪組織長在口腔內多歸類為脂肪瘤而非迷離瘤。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Choristoma）。"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "小管腺瘤（canalicular adenoma）",
     "瓦新氏腫瘤（Warthin tumor）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 小管腺瘤有將近八成發生在「上唇」——這個高度的部位專一性讓它成為上唇腫塊鑑別診斷中僅次於多形性腺瘤的選項。\n❌ (A) 導管乳頭瘤相對少見。\n❌ (B) 嗜酸性細胞瘤主要出現在腮腺。\n❌ (D) 瓦新氏瘤幾乎只長在腮腺。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Canalicular adenoma）。"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "在X-光檢查下，大部份結石呈現放射線不透過性（radiopaque）影像",
     "結石附近的導管常有明顯的發炎，導管上皮常有變生（metaplasia）現象"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 涎石約有八成發生在「顎下腺」及其導管——它的唾液黏稠、鈣濃度高，導管又長且要逆著重力往上走；腮腺的比例低得多，所以這句錯誤。\n❌ (A) 敘述正確：它是鈣鹽在腺體或導管內的沉積。\n❌ (C) 敘述正確：多數結石在影像上呈不透射影像。\n❌ (D) 敘述正確：阻塞處常見發炎與導管上皮的化生。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Sialolithiasis）。"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "舌頭",
     "腭後部"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 壞死性涎腺變生絕大多數發生在「硬腭後方」——該處的小唾液腺豐富、血液供應又相對單一，缺血一旦發生就造成整片小葉的梗塞壞死。\n❌ (A) 唇部的發生率低。\n❌ (B) 頰黏膜同樣少見。\n❌ (C) 舌部極為罕見。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "A型血友病",
     "真性紅血球過多症"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 顆粒球（嗜中性白血球）減少後，口腔失去第一線的防禦——黏膜上因而出現典型的「打孔狀」深潰瘍，而且周圍幾乎沒有發炎的紅暈（因為沒有白血球可以聚集）。\n❌ (B) 血小板減少造成的是瘀斑與出血，不是潰瘍。\n❌ (C) 血友病同樣以出血為主要表現。\n❌ (D) 真性紅血球增多症造成的是黏膜發紫充血。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Agranulocytosis）。"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "黏液囊腫（mucocele）",
     "淋巴樣增殖（lymphoid hyperplasia）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 舌根側緣正是舌扁桃體所在的位置——這裡的淋巴組織受刺激後增生形成無痛的黏膜下腫塊，病人沒有菸酒檳榔也沒有咬傷，最合理的解釋就是淋巴樣增殖。\n❌ (A) 化膿性肉芽腫是鮮紅色、極易出血的病灶。\n❌ (B) 刺激性纖維瘤需要有反覆的機械刺激，本例並沒有。\n❌ (C) 黏液囊腫好發於下唇，舌根側緣極少見。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Lymphoid hyperplasia）。"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "APC",
     "PTEN"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 天使症由 SH3BP2 基因的突變引起——這個基因的異常使破骨細胞過度活化，造成下顎（有時上顎）雙側對稱的多房性病灶與那張標誌性的「小天使臉」。\n❌ (A) SQSTM1 的突變與佩吉特氏骨病相關。\n❌ (C) APC 基因突變造成家族性大腸息肉症（嘉德耐氏症候群）。\n❌ (D) PTEN 突變與考登症候群相關。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Cherubism）。"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "繁盛性牙骨質-骨質發育不良（florid cemento-osseous dysplasia）",
     "骨質疏鬆症（osteoporosis）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 骨頭無痛地膨大、影像呈「毛玻璃樣」而與正常骨之間沒有明確界線——這是纖維性發育不良最經典的組合；鏡下可見不規則的中國字形骨小樑散布在纖維基質中。\n❌ (A) 骨化纖維瘤與周圍骨之間界線清楚、可整塊剝離。\n❌ (C) 繁盛性牙骨質骨質發育不良好發於中年黑人女性，且呈多處根尖區的混合病灶。\n❌ (D) 骨質疏鬆不會造成局部的無痛膨大。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Fibrous dysplasia）。"
   },
   {
    "n": 19,
@@ -273,7 +291,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "放射線攝影特徵極具特色，可直接排除齒源性角化囊腫（odontogenic keratocyst）以及單房性造釉細胞瘤（unilocular ameloblastoma）",
     "65%的病例與下顎第三大臼齒有關"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 齒源性角化囊腫與單房性造釉細胞瘤同樣可以包住未萌發牙的牙冠，在影像上與含齒囊腫幾乎一模一樣——正因為分不出來，最終診斷必須靠病理切片，所以說可直接排除並不正確。\n❌ (A) 敘述正確：它是最常見的發育性齒源性囊腫。\n❌ (B) 敘述正確：好發年齡集中在十到三十歲。\n❌ (D) 敘述正確：多數與下顎第三大臼齒相關。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Dentigerous cyst）。"
   },
   {
    "n": 21,
@@ -286,7 +305,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "維生素B3：癩皮病（pellagra）",
     "維生素B6：癲癇（seizure）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 失智是「維生素 B3（菸鹼酸）」缺乏的表現——癩皮病的三大症狀就是皮膚炎、腹瀉與失智；維生素 A 缺乏造成的是夜盲與上皮角化異常，所以這個配對錯誤。\n❌ (B) 敘述正確：核黃素缺乏造成口角炎與舌炎。\n❌ (C) 敘述正確：菸鹼酸缺乏就是癩皮病。\n❌ (D) 敘述正確：維生素 B6 缺乏可導致嬰兒癲癇。\n📚 出處：Little & Falace, Dental Management of the Medically Compromised Patient, 9th ed.。"
   },
   {
    "n": 22,
@@ -299,7 +319,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "副甲狀腺功能過旺（hyperparathyroidism）",
     "艾迪森氏病（Addison disease）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 顎骨內界線清楚的透射病灶、鏡下滿是多核巨細胞——這是「棕色瘤」的典型表現，而它幾乎只在副甲狀腺機能亢進造成的全身性骨吸收下出現，因此必須抽血檢查鈣磷與副甲狀腺素。\n❌ (A) 副甲狀腺功能不足造成的是低血鈣與抽搐。\n❌ (B) 甲狀腺亢進不會造成顎骨的巨細胞病灶。\n❌ (D) 艾迪森氏病的表現是皮膚黏膜的色素沉著。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Brown tumor）。"
   },
   {
    "n": 23,
@@ -312,7 +333,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "總鐵結合能力降低（decreased total iron-binding capacity）",
     "正常血色素大血球性紅血球（normochromic macrocytic RBCs）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 缺鐵時血紅素合成不足，紅血球被製造得又小又淡——「小血球、低血色素」正是缺鐵性貧血在血液抹片上的招牌。\n❌ (B) 紅血球數目是減少而非增加。\n❌ (C) 總鐵結合能力因為運鐵蛋白代償性增加而「上升」。\n❌ (D) 大血球性貧血是維生素 B12 或葉酸缺乏的表現。\n📚 出處：Little & Falace, Dental Management of the Medically Compromised Patient, 9th ed.。"
   },
   {
    "n": 24,
@@ -325,7 +347,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "藍痣（blue nevus）",
     "黑色素瘤（melanoma）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 口腔黑斑是黑色素在基底層局部增加所形成的良性色素病灶，好發於下唇——鏡下只見基底層的黑色素增多而「沒有」黑色素細胞的巢狀增生，這是它與痣最重要的區別。\n❌ (B) 接合痣的鏡下可見上皮與結締組織交界處的黑色素細胞巢。\n❌ (C) 藍痣的色素細胞位於深部結締組織中，呈梭形。\n❌ (D) 黑色素瘤有明顯的細胞異型性與侵襲性生長。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Oral melanotic macule）。"
   },
   {
    "n": 25,
@@ -338,7 +361,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "常有多個病變或陸續產生",
     "惡性轉變率低"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 增生性疣狀白斑的惡性轉變率是所有白斑中最「高」的（長期追蹤下可超過七成）——它幾乎必然走向疣狀癌或鱗狀細胞癌，所以說它轉變率低與實際的病程完全相反。\n❌ (A) 敘述正確：它好發於年長女性。\n❌ (B) 敘述正確：牙齦是最常見的部位。\n❌ (C) 敘述正確：它以多發性、持續擴散為特徵。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 26,
@@ -351,7 +375,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "口腔黏膜黑色素瘤最好發在硬腭（hard palate）或上顎齒槽（maxillary alveolus）",
     "口腔黏膜黑色素瘤多屬於肢端雀斑性黑色素瘤（acral lentiginous／mucosal lentiginous melanoma）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 黏膜黑色素瘤的分期系統從「T3」起跳——因為所有黏膜黑色素瘤都被視為高度侵襲性，根本不設 T1 與 T2；把 1.5 公分的病灶標成 T1 是套用了皮膚黑色素瘤的分期，所以這句錯誤。\n❌ (A) 敘述正確：口腔黏膜的黑色素瘤預後比皮膚差得多。\n❌ (C) 敘述正確：硬腭與上顎齒槽是最好發的部位。\n❌ (D) 敘述正確：它多屬黏膜雀斑性型態。\n📚 出處：AJCC Cancer Staging Manual；Neville, 4th ed.。"
   },
   {
    "n": 27,
@@ -364,7 +389,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "痣樣基底細胞癌症候群（nevoid basal cell carcinoma syndrome）",
     "浦茲-詹賀症候群（Peutz-Jeghers syndrome）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 唇部與口周皮膚的雀斑樣棕黑色斑點，加上年輕的年齡——這是浦茲-詹賀症候群的第一個線索，牙醫往往是最早發現它的人。\n❌ (A) 嘉德耐氏症候群的表現是骨瘤、多生齒與表皮囊腫。\n❌ (B) 麥克滾-阿爾布萊德氏症候群的是牛奶咖啡斑（範圍大而不越中線）。\n❌ (C) 痣樣基底細胞癌症候群的皮膚表現是基底細胞癌與掌蹠凹陷。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Peutz-Jeghers syndrome）。"
   },
   {
    "n": 28,
@@ -377,7 +403,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "胃腸道腺癌（gastrointestinal adenocarcinoma）",
     "腸息肉（intestinal polyps）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 基底細胞癌與這個症候群沒有關聯——它是痣樣基底細胞癌症候群的特徵；浦茲-詹賀症候群的風險集中在腸胃道與其他器官的腺癌上。\n❌ (B) 女性患者的乳癌風險明顯升高。\n❌ (C) 胃腸道腺癌是它最主要的癌症風險。\n❌ (D) 小腸的錯構瘤性息肉是它的定義性病變。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.。"
   },
   {
    "n": 29,
@@ -390,7 +417,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "牙本質（dentin）",
     "複合樹脂（composite resin）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 複合樹脂的熱傳導係數（約 1.1 瓦每公尺每度）在四者中最高——這也是深窩洞使用樹脂時仍建議墊底的原因之一。\n❌ (A) 水的熱傳導約 0.6，明顯較低。\n❌ (B) 牙釉質約 0.9。\n❌ (C) 牙本質約 0.6，是天然的隔熱層。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 30,
@@ -418,7 +446,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "彩度（chroma）",
     "感度（sensitivity）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 色相（色度）就是我們口語中說的「顏色」——紅、黃、藍的差別來自光的「波長」不同，這是三個顏色向度中唯一與波長直接對應的。\n❌ (B) 明度反映的是反射光量的多寡（亮或暗）。\n❌ (C) 彩度反映的是顏色的飽和程度。\n❌ (D) 感度不是蒙塞氏色系的向度。\n📚 出處：Rosenstiel, Contemporary Fixed Prosthodontics, 5th ed.（Color science）。"
   },
   {
    "n": 32,
@@ -434,7 +463,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
    "a": 2,
    "alt": [
     3
-   ]
+   ],
+   "exp": "✅ (C) 真空調拌把氣泡抽掉、水粉分布更均勻，結果是強度上升、孔隙減少、硬化時間縮短，而硬化膨脹則「減小」——說膨脹變大與真空調拌的效果相反，所以這句錯誤。\n❌ (A) 敘述正確：氣泡減少使強度增加。\n❌ (B) 敘述正確：混合更充分使硬化加快。\n❌ (D) 這一項的敘述方向也與事實相反（孔隙率應減少），但題目要選的是關於「差異」最明確的錯誤，膨脹的變化是標準答案所指。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 33,
@@ -447,7 +477,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "製作後最好從模型上取下保存",
     "製作後儘量減少溫度變化"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 蠟的熱膨脹係數在牙科材料中名列前茅，環境溫度一變它就跟著伸縮——製作完成後盡量維持恆定的溫度（並儘快包埋），是控制變形最實際的做法。\n❌ (A) 快速加熱會造成內外溫差與殘留應力。\n❌ (B) 在軟化溫度以下操作，蠟根本無法貼合成形。\n❌ (C) 從模型上取下保存會讓蠟型失去支撐而變形，應留在模型上。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Dental waxes）。"
   },
   {
    "n": 34,
@@ -460,7 +491,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "凝析（syneresis）",
     "偽塑性（pseudoplasticity）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 偽塑性材料的黏度會「隨剪切速率上升而下降」——從注射筒細嘴擠出時它變稀而流得進細節，靜置在托盤中時又恢復稠度而撐得住，同一種材料因此能身兼二職。\n❌ (A) 潛變是固定應力下隨時間的緩慢變形。\n❌ (B) 凝膠化是水膠體從溶膠變凝膠的過程。\n❌ (C) 凝析是凝膠滲出液體而收縮的現象。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Pseudoplasticity）。"
   },
   {
    "n": 35,
@@ -473,7 +505,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "印模材口內硬化時移動模托",
     "口中印模時，持續對有彈性的印模材施加壓力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙面上的唾液與殘渣會讓印模材無法貼合細節，造成的是「細節不清或氣泡」，而不是整體的尺寸變形——變形來自托盤、操作或壓力的問題。\n❌ (B) 托盤剛性不足會在取出時彎曲而使印模變形。\n❌ (C) 硬化過程中移動托盤會讓已成形的部分被扭曲。\n❌ (D) 持續施壓會使彈性印模材處於壓縮狀態，取出後回彈而失真。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 36,
@@ -486,7 +519,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "提高被焊金屬可濕潤性（wettability）",
     "溶解被焊金屬表面氧化物"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 助熔劑的工作是清潔與保護「表面」——溶解已有的氧化物、阻止新的氧化並改善銲料的潤濕性；它完全不改變被銲金屬的熔點，所以這一項不是它的目的。\n❌ (B) 它在銲接時形成保護層阻隔氧氣。\n❌ (C) 表面乾淨後銲料才鋪得開。\n❌ (D) 溶解氧化層正是它最主要的化學作用。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Soldering flux）。"
   },
   {
    "n": 37,
@@ -499,7 +533,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "鋅（zinc）",
     "鋯（zirconium）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 銅是「面心立方」結構——正因為它的滑移系統多，延展性才特別好、容易拉成細線；其餘三者都是六方最密堆積。\n❌ (B) 室溫下的 α 鈦是六方最密堆積。\n❌ (C) 鋅是六方最密堆積。\n❌ (D) 鋯同樣是六方最密堆積。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Crystal structures）。"
   },
   {
    "n": 38,
@@ -512,7 +547,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "先將樹脂儲放冰箱，可以增加工作時間（working time）",
     "樹脂要避免水氣（moisture）污染，以免影響樹脂性質"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 糰狀期形成時間指的是「從混合到達到糰狀期」的那段時間，工作時間則是達到糰狀期「之後」還能操作填壓的那段時間——兩者是前後相接的不同區間，不能畫上等號，所以這句錯誤。\n❌ (B) 敘述正確：工作時間至少要有五分鐘才夠填壓。\n❌ (C) 敘述正確：低溫會減慢反應而延長工作時間。\n❌ (D) 敘述正確：水氣污染會影響聚合與最終性質。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 39,
@@ -525,7 +561,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "分離劑可防止單體（monomer）或部分的聚合多體（dissolved polymer）跑到石膏模，造成樹脂和石膏無法分離",
     "石膏模積水易造成分離劑不均勻，分離效果變差"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 目前最常用的分離劑是「藻膠類的水溶性薄膜」（塗刷式），操作簡便又便宜——錫箔雖是最早的分離材料且效果佳，但貼合費時，早已不是常見的做法，所以這句錯誤。\n❌ (B) 敘述正確：它阻隔石膏中的水分擴散進樹脂。\n❌ (C) 敘述正確：它防止單體滲入石膏而使兩者黏在一起。\n❌ (D) 敘述正確：模型表面積水會使塗層不均而失效。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 40,
@@ -538,7 +575,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "發光二極體固化機內需有過濾板過濾光源",
     "照光距離越遠，有效功率越低"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 光強度與距離的平方成反比——燈頭每離開樹脂表面一段距離，真正到達的能量就急遽衰減，這是臨床上必須把導光棒貼近的原因。\n❌ (A) 發光二極體的壽命長達數千小時，不需定期換燈泡（那是鹵素燈的問題）。\n❌ (B) 發光二極體的光譜窄而集中在藍光區，鹵素燈則寬得多。\n❌ (C) 需要濾片過濾雜光的是鹵素燈，發光二極體本身就只發出所需波段。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Light curing units）。"
   },
   {
    "n": 41,
@@ -551,7 +589,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "小粒子填料混合樹脂（small particle hybird composite）",
     "巨填料樹脂（macrofilled composite）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 奈米填料的顆粒尺寸遠小於可見光的波長，光線幾乎不被散射就穿過去——因此同樣厚度下它的透光性最好，也最能模擬天然牙釉質的層次感。\n❌ (A) 微填料樹脂的填料雖小，但填充率低且有預聚合體，透光性不及奈米型。\n❌ (C) 小顆粒混合型的顆粒仍大到會散射光線。\n❌ (D) 巨填料樹脂的顆粒最大，散射最嚴重、外觀最不透明。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 42,
@@ -564,7 +603,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "光聚合樹脂=雙聚合樹脂>自聚合樹脂",
     "光聚合樹脂>雙聚合樹脂>自聚合樹脂"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顏色穩定度的排序是光聚合最好、雙聚合次之、自聚合最差——關鍵在於自聚合所需的三級胺活化劑會隨時間氧化而泛黃，雙聚合因為也含這類成分而居中。\n❌ (A) 自聚合不可能優於雙聚合。\n❌ (B) 自聚合是三者中最差的。\n❌ (C) 雙聚合含化學活化劑，穩定度不等同於純光聚合。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 43,
@@ -577,7 +617,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "③④⑤",
     "①③⑤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 提高膨脹的方法是①改用膨脹量最大的白矽土配方、③凝固前泡水（吸水膨脹）與⑤加熱到 700 度取得完整的熱膨脹。\n❌ (A) ②錯——液粉比增加會「稀釋」包埋材而使膨脹減少。\n❌ (B) ④錯——降低加熱溫度得到的熱膨脹更少。\n❌ (C) 同樣誤收了④。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Investment expansion）。"
   },
   {
    "n": 44,
@@ -590,7 +631,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "鈷鉻合金",
     "熱壓式全瓷冠（heat pressed all-ceramic crowns）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 石膏結合包埋材在超過 700 度時會分解並釋出二氧化硫，因此只能用在熔點較低的貴金屬——金銀鈀合金正屬於這一類。\n❌ (B) 純鈦的熔點高達 1,668 度，需要專用的包埋材。\n❌ (C) 鈷鉻合金的熔點高，必須用磷酸鹽結合包埋材。\n❌ (D) 熱壓全瓷同樣需要耐高溫的專用包埋材。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 45,
@@ -603,7 +645,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "內含膠原蛋白纖維與樹脂",
     "在自蝕（self-etching）牙本質黏著系統中，混合層（hybrid layer）含有塗抹層（smear layer）的成分"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 混合層厚不厚與黏著力強不強沒有正相關——真正決定強度的是樹脂有沒有「完整滲透」到脫礦的膠原網底部；厚而滲透不全的混合層反而在底部留下弱點，所以這句錯誤。\n❌ (B) 敘述正確：黏著主要來自樹脂突與膠原網的微機械嵌合。\n❌ (C) 敘述正確：它由膠原纖維與滲入的樹脂共同構成。\n❌ (D) 敘述正確：自酸蝕系統把塗抹層溶解後併入混合層中。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Hybrid layer）。"
   },
   {
    "n": 46,
@@ -616,7 +659,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "避免口水的污染是成功的要件",
     "酸蝕後須充分水洗並吹乾"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 乳牙表面有一層較厚的「無稜柱釉質」，酸蝕的效果較差——因此乳牙需要的酸蝕時間比恆牙「長」（一般建議延長到兩倍），所以這句寫反了。\n❌ (A) 敘述正確：使用 35～37% 的磷酸。\n❌ (C) 敘述正確：唾液污染是封填失敗最常見的原因。\n❌ (D) 敘述正確：酸蝕後必須充分沖洗並吹乾至呈白堊狀。\n📚 出處：AAPD Guideline on Pit-and-Fissure Sealants。"
   },
   {
    "n": 47,
@@ -629,7 +673,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "氧化釔安定之二氧化鋯（Y-TZP）",
     "氫氧基磷灰石奈米晶用於Y-TZP鑲面 （ceramic with HAP nanocrystals for veneering Y-TZP）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 氧化釔安定的四方晶氧化鋯撓曲強度可達 900～1,200 MPa，遠高於其他牙科陶瓷——靠的是它獨特的相變韌化機制（裂紋前端的晶體轉變並膨脹而把裂紋夾住）。\n❌ (A) 白榴石強化陶瓷約 100～160 MPa。\n❌ (B) 二矽酸鋰約 350～400 MPa。\n❌ (D) 用於鑲面的材料強度必然低於底層的氧化鋯。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 48,
@@ -642,7 +687,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "②①③",
     "③①②"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 泥漿鑄造的流程是①先把氧化鋁粉漿塗在耐火模型上成形、②燒結成多孔的骨架、③最後讓熔融的玻璃滲透進孔隙中把它填實——三步依序不可顛倒。\n❌ (B) 沒有燒結出多孔骨架，玻璃無處可滲。\n❌ (C) 塗佈必然在燒結之前。\n❌ (D) 玻璃滲透必須是最後一步。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Slip casting）。"
   },
   {
    "n": 49,
@@ -655,7 +701,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "聚羧酸鋅黏合劑的抗壓強度比樹脂黏合劑高",
     "EBA（ortho-ethoxy benzoicacid）黏合劑的抗張強度比樹脂黏合劑高"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 玻璃離子體靠羧基與牙齒的鈣離子形成化學鍵，但它對「金屬」表面沒有這種鍵結能力——與金屬的黏著強度因而明顯低於能經處理與金屬形成鍵結的樹脂黏合劑。\n❌ (A) 它的水溶解性「高於」樹脂黏合劑。\n❌ (C) 聚羧酸鋅的抗壓強度低於樹脂黏合劑。\n❌ (D) 強化型氧化鋅丁香油酚的抗張強度同樣不及樹脂。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 50,
@@ -668,7 +715,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "透過酸鹼中和反應凝固",
     "黏著強度比玻璃離子體黏合劑高"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 氧化鋅（鹼）與丁香油酚（弱酸）反應生成丁香油酚鋅螯合物而硬化——這是典型的酸鹼中和螯合反應。\n❌ (A) 它與牙齒之間沒有化學黏著，靠的是機械固位。\n❌ (B) 水分反而「加速」它的硬化。\n❌ (D) 它是所有牙科黏合劑中黏著強度最低的。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.。"
   },
   {
    "n": 51,
@@ -681,7 +729,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "僅②③④",
     "僅①②④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 四項全部相關：①化學組成決定潛在毒性、②釋出的成分決定實際暴露量、③表面電性影響蛋白質吸附與細胞附著、④親疏水性決定細胞在表面的行為。\n❌ (B) 漏掉了親疏水性。\n❌ (C) 漏掉了化學組成這個根本。\n❌ (D) 漏掉了表面電性。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Biocompatibility）。"
   },
   {
    "n": 52,
@@ -694,7 +743,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "ANSI/ADA specification No. 10993",
     "ANSI/ADA specification No. 7405"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 第 41 號規範就是牙科材料生物相容性的評估標準——它規定了細胞毒性、致敏性、刺激性等一系列的測試方法與判定標準。\n❌ (A) 第 14 號規範的是鈷鉻合金。\n❌ (C) 10993 是國際標準化組織的醫材生物評估編號，不是這套規範的編號方式。\n❌ (D) 7405 同樣是國際標準化組織針對牙科材料的編號。\n📚 出處：ANSI/ADA Specification No. 41。"
   },
   {
    "n": 53,
@@ -707,7 +757,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "脂磷壁酸（lipoteichoic acid）",
     "脂蛋白（lipoprotein）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 革蘭氏陽性菌的細胞壁有極厚的肽聚醣層，能把結晶紫與碘的複合物牢牢留住；陰性菌的肽聚醣層薄、外面又有外膜，脫色劑一沖就掉——染色差異的根源就在這層厚度。\n❌ (B) 脂多醣是陰性菌外膜的成分，不是染色的決定因素。\n❌ (C) 脂磷壁酸雖是陽性菌的成分，但不決定染色結果。\n❌ (D) 脂蛋白同樣不是關鍵。\n📚 出處：Murray, Medical Microbiology, 9th ed.。"
   },
   {
    "n": 54,
@@ -720,7 +771,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "介白素-12（IL-12）",
     "腫瘤壞死因子-α（TNF-α）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 介白素-2 是活化的「T 細胞」分泌的生長因子，用來刺激自己與其他 T 細胞增殖——它不是巨噬細胞的產物。\n❌ (B) 介白素-6 是巨噬細胞分泌的急性期反應誘導因子。\n❌ (C) 介白素-12 由巨噬細胞分泌，驅動第一型輔助 T 細胞的分化。\n❌ (D) 腫瘤壞死因子-α 是巨噬細胞最具代表性的促發炎細胞激素。\n📚 出處：Abbas, Cellular and Molecular Immunology, 10th ed.。"
   },
   {
    "n": 55,
@@ -733,7 +785,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "抗體免疫複合物所引起的反應",
     "細胞性過敏反應"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 花粉症是免疫球蛋白 E 媒介的第一型過敏——過敏原一接觸就使肥大細胞脫顆粒釋出組織胺，症狀在數分鐘內出現，因此稱為即發型。\n❌ (B) 抗體依賴的細胞毒殺反應是第二型。\n❌ (C) 免疫複合物引起的是第三型。\n❌ (D) 細胞媒介的遲發型過敏是第四型。\n📚 出處：Abbas, Cellular and Molecular Immunology, 10th ed.。"
   },
   {
    "n": 56,
@@ -746,7 +799,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "會引起心內膜炎（endocarditis）",
     "會導致膿皰症（impetigo）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 金黃色葡萄球菌「有」凝固酶——它同時具有分泌型的凝固酶與結合在細胞壁上的凝集因子，這正是它與其他葡萄球菌最重要的鑑別點，所以這句錯誤。\n❌ (A) 敘述正確：蛋白質 A 是它細胞壁的重要毒力因子（結合抗體的 Fc 段以逃避吞噬）。\n❌ (C) 敘述正確：它是急性心內膜炎最常見的病原。\n❌ (D) 敘述正確：膿皰症是它的典型皮膚感染。\n📚 出處：Murray, Medical Microbiology, 9th ed.。"
   },
   {
    "n": 57,
@@ -759,7 +813,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "第三期梅毒可見到全身性梅毒疹（rash）",
     "梅毒螺旋體顆粒凝集試驗（Treponema pallidum particle agglutination test），具專一性，抗體一旦出現，終生存在"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 全身性的梅毒疹（尤其手掌腳掌的紅疹）是「第二期」的招牌表現；第三期出現的是梅毒腫、心血管與神經系統的破壞，兩期的表現被搞混了，所以這句錯誤。\n❌ (A) 敘述正確：人類是它唯一的自然宿主。\n❌ (B) 敘述正確：它可經胎盤垂直感染，也可經輸血傳染。\n❌ (D) 敘述正確：顆粒凝集試驗的抗體一旦產生就終生存在，因此不能用來判斷是否治癒。\n📚 出處：Murray, Medical Microbiology, 9th ed.（Treponema pallidum）。"
   },
   {
    "n": 58,
@@ -772,7 +827,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "TPY培養液中可見黏性菌體",
     "BHI培養成β溶血性"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 轉糖鏈球菌在血液培養基上呈現的是「α 溶血或不溶血」——β 溶血（完全溶血）是化膿鏈球菌那類的特徵，所以這一項不是它的特性。\n❌ (A) 它以二分裂方式繁殖。\n❌ (B) 它能把蔗糖分解為葡萄糖與果糖並合成葡聚醣。\n❌ (C) 在含蔗糖的培養液中會形成黏附在管壁上的黏性菌落。\n📚 出處：Murray, Medical Microbiology, 9th ed.；Fejerskov & Kidd, 3rd ed.。"
   },
   {
    "n": 59,
@@ -785,7 +841,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "5S rRNA雜交法",
     "DNA雜交法"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 5S 核糖體核糖核酸只有約 120 個核苷酸，攜帶的序列資訊太少、鑑別力不足——細菌的基因型分類靠的是 16S 核糖體核糖核酸、去氧核糖核酸雜交與序列分析。\n❌ (A) 核酸序列分析是目前最主流的方法。\n❌ (B) 鳥糞嘌呤與胞嘧啶的比率是經典的基因型指標。\n❌ (D) 去氧核糖核酸雜交是判定菌種界線的傳統標準。\n📚 出處：Murray, Medical Microbiology, 9th ed.（Bacterial taxonomy）。"
   },
   {
    "n": 60,
@@ -798,7 +855,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "Glucosyltransferase",
     "Fructosyltransferase"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 澱粉酶是「唾液與胰臟」分泌的酵素，負責把食物中的澱粉分解成小分子糖——它不是口腔細菌自身代謝醣類的酵素。\n❌ (B) 葡聚醣酶由細菌產生，分解菌斑中的葡聚醣。\n❌ (C) 葡萄糖基轉移酶把蔗糖轉成黏性葡聚醣，是致齲的關鍵酵素。\n❌ (D) 果糖基轉移酶合成果聚醣作為胞外的能量儲存。\n📚 出處：Fejerskov & Kidd, Dental Caries, 3rd ed.。"
   },
   {
    "n": 61,
@@ -811,7 +869,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "500～1,500",
     "1,600～2,000"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 健康成人每天的唾液總分泌量約 500 到 1,500 毫升——這個量維持著口腔的清潔、緩衝與再礦化，唾液一旦大幅減少，齲齒與黏膜問題立刻接踵而來。\n❌ (A) 10～200 毫升遠低於實際分泌量。\n❌ (B) 300～400 毫升仍偏低。\n❌ (D) 1,600～2,000 毫升則高估了。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.。"
   },
   {
    "n": 62,
@@ -824,7 +883,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "Physical mechanical factors",
     "Immunological factors"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 抗生素是「外來給予」的藥物，不是宿主與生俱來的防禦機制——自然防禦指的是唾液沖刷、黏膜屏障、抗菌蛋白與免疫細胞這些身體自備的系統。\n❌ (A) 生化因子（溶菌酶、乳鐵蛋白、緩衝系統）屬自然防禦。\n❌ (C) 物理機械因子（唾液流動、咀嚼、上皮脫落）同樣是。\n❌ (D) 免疫因子（分泌型免疫球蛋白 A、白血球）也是。\n📚 出處：Fejerskov & Kidd, Dental Caries, 3rd ed.。"
   },
   {
    "n": 63,
@@ -837,7 +897,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "DNA-dependent DNA polymerase",
     "DNA-dependent RNA polymerase"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 反轉錄酶的正式名稱就是「依賴核糖核酸的去氧核糖核酸聚合酶」——它以病毒的核糖核酸為模板合成互補的去氧核糖核酸，這是反轉錄病毒生活史的關鍵一步，也是疊氮胸苷攻擊的標的。\n❌ (B) 這是核糖核酸病毒複製自身基因體的酵素。\n❌ (C) 這是細胞複製去氧核糖核酸的酵素。\n❌ (D) 這是一般的轉錄酵素。\n📚 出處：Murray, Medical Microbiology, 9th ed.。"
   },
   {
    "n": 64,
@@ -850,7 +911,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "無名指",
     "小指"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 洗手時最容易被忽略的就是大拇指——它與其他四指分開、動作習慣上不會被一起搓洗，因此洗手教學特別強調要用另一手包住拇指旋轉搓揉。\n❌ (B) 食指在互搓時通常會被涵蓋。\n❌ (C) 無名指雖在中間，仍會被一起搓到。\n❌ (D) 小指的邊緣容易被注意到。\n📚 出處：CDC Hand Hygiene Guidelines。"
   },
   {
    "n": 65,
@@ -863,7 +925,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 三者都是嗎啡的典型副作用：①中樞抑制造成嗜睡、②腸道蠕動被抑制造成便秘（而且不會產生耐受性）、③刺激延腦的化學受器觸發區造成噁心嘔吐。\n❌ (A) 漏掉了便秘與噁心嘔吐。\n❌ (B) 漏掉了噁心嘔吐。\n❌ (C) 漏掉了嗜睡。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 66,
@@ -876,7 +939,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "Kainate受體",
     "γ-aminobutyric acid（GABA）受體"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 氯胺酮與笑氣都是 N-甲基-D-天門冬胺酸受體的拮抗劑——這條路徑與多數麻醉劑作用的 γ-胺基丁酸受體不同，也解釋了氯胺酮那種「分離性麻醉」的獨特表現。\n❌ (B) AMPA 受體不是它們的作用標的。\n❌ (C) 海人酸受體同樣不是。\n❌ (D) γ-胺基丁酸受體是苯二氮平與巴比妥類的標的。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 67,
@@ -889,7 +953,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "benzocaine",
     "bupivacaine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 美西律的化學結構與利多卡因相近，它同樣阻斷鈉離子通道——因此被歸類為第一 B 類的抗心律不整藥物，用於治療心室性心律不整。\n❌ (A) 古柯鹼會阻斷正腎上腺素回收而「誘發」心律不整。\n❌ (C) 苯佐卡因是表面麻醉劑，不進入循環。\n❌ (D) 布比卡因的心臟毒性反而是它最需要提防的副作用。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 68,
@@ -902,7 +967,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "heparin 會抑制血液凝結（coagulation），可用來治療thromboembolic disorders",
     "type II 過敏反應與IgG及 IgM有關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全或無劑量反應曲線描述的是「一個族群中有多少比例的個體」出現特定反應——它用來算半數有效量與治療指數，衡量的是群體而不是單一個體，所以這句弄錯了它的對象。\n❌ (B) 敘述正確：兒童使用阿斯匹靈可能誘發雷氏症候群。\n❌ (C) 敘述正確：肝素抑制凝血，用於血栓栓塞性疾病。\n❌ (D) 敘述正確：第二型過敏由免疫球蛋白 G 與 M 媒介。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 69,
@@ -915,7 +981,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "demeclocycline",
     "oxytetracycline"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 米諾環素是唯一會在「已萌發」的成人牙齒上造成染色的四環黴素——它經由與牙本質的螯合或色素在牙齒與骨頭中沉積，使牙齒呈現藍灰或藍綠色。\n❌ (B) 去氧羥四環素幾乎不造成牙齒染色。\n❌ (C) 去甲基金黴素造成的是發育中牙齒的染色。\n❌ (D) 氧四環素同樣只影響發育中的牙齒。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 70,
@@ -928,7 +995,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "革蘭氏陽性嗜氧菌",
     "革蘭氏陰性嗜氧菌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 甲硝唑必須在缺氧的環境下被還原成活性代謝物才有殺菌力——因此它專打「厭氧菌」（尤其革蘭氏陰性厭氧菌）與部分原蟲，對需氧菌完全無效。\n❌ (A) 兼氧菌在有氧時它無法活化。\n❌ (C) 革蘭氏陽性嗜氧菌不在它的範圍內。\n❌ (D) 革蘭氏陰性嗜氧菌同樣無效。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 71,
@@ -941,7 +1009,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "瘧疾（malaria）－rifampin",
     "生殖器herpes simplex感染－acyclovir"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 瘧疾的預防用藥是氯奎寧、美弗奎或去氧羥四環素這類抗瘧藥——立汎黴素是抗結核與抗菌用藥，對瘧原蟲無效，所以這個配對錯誤。\n❌ (A) 敘述正確：這是人類免疫缺乏病毒暴露後的標準預防組合。\n❌ (B) 敘述正確：異菸鹼醯肼或立汎黴素用於結核的預防性治療。\n❌ (D) 敘述正確：阿昔洛韋用於單純皰疹的預防與治療。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 72,
@@ -954,7 +1023,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "對於幼童有良好的解熱效果",
     "為有機酸，與血漿中白蛋白結合效果良好"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 布洛芬的止痛效果在牙科疼痛的臨床試驗中「優於」阿斯匹靈——它是急性牙痛的首選而非退而求其次的選擇，所以這句把兩者的優劣顛倒了。\n❌ (B) 敘述正確：成人每次 400～600 毫克，每四到六小時一次。\n❌ (C) 敘述正確：它對兒童的退燒效果良好。\n❌ (D) 敘述正確：它是有機酸，與白蛋白的結合率極高。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 73,
@@ -967,7 +1037,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "臨床上服用後約一小時內會產生明顯的止痛效果",
     "止痛效果發生後，即可產生抗發炎最佳效果"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 止痛與退燒在單次給藥後數十分鐘就出現，但「抗發炎」的效果需要連續服用數天、讓血中濃度累積到抗發炎的區間才顯現——兩者的時間尺度完全不同，所以這句錯誤。\n❌ (A) 敘述正確：它屬水楊酸類。\n❌ (B) 敘述正確：它不可逆地抑制兩型環氧合酶。\n❌ (C) 敘述正確：服用後約一小時內產生明顯的止痛效果。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 74,
@@ -980,7 +1051,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "12～24 hrs",
     "25～48 hrs"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 咪達唑侖的半衰期約 1.5 到 5 小時，是苯二氮平類中最短的之一——正因為代謝快、恢復也快，它才成為門診鎮靜最常用的選擇。\n❌ (A) 0.2～0.5 小時過短，那接近靜脈麻醉誘導劑的水準。\n❌ (C) 12～24 小時是地西泮這類長效藥物的範圍。\n❌ (D) 25～48 小時更長，不符合它的臨床表現。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 75,
@@ -993,7 +1065,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "prototype diazepam類",
     "prototype propanediol類"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 抗組織胺類（如羥嗪、苯海拉明）不作用在 γ-胺基丁酸受體上，也不產生欣快感——它的依賴性在四類鎮靜藥物中最低，這也是它在兒童牙科被廣泛使用的原因。\n❌ (B) 巴比妥類的依賴性與戒斷症狀都相當嚴重。\n❌ (C) 苯二氮平類長期使用會產生明顯的依賴。\n❌ (D) 丙二醇類（美普巴邁）同樣有依賴性。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 76,
@@ -1006,7 +1079,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "較高受體結合親和力的吸入性皮質類固醇作用效率佳，較易產生全身性副作用",
     "beclomethasone dipropionate在人體肺中會代謝成beclomethasone-21 monopropionate，與醣類皮質激素受體（glucocorticoid receptor）有良好的親和力"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 倍氯米松雙丙酸酯在肺中被酯酶水解成的活性代謝物是「17-單丙酸酯」——它對受體的親和力比母藥高出數十倍；寫成 21-單丙酸酯是把酯化的位置弄錯了，所以這句錯誤。\n❌ (A) 敘述正確：吸入給藥直達肺部，全身副作用少。\n❌ (B) 這一項在藥動學上並不精確，但題目要選的是最明確的錯誤，代謝物的名稱是標準答案所指。\n❌ (C) 敘述正確：高親和力雖然效果好，被吸收後的全身作用也較強。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 77,
@@ -1019,7 +1093,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "其做為漱口水製劑為 gluconate salt",
     "其副作用會在牙齒及舌頭上產生染色"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 氯己定是「陽離子」界面活性劑——正因為帶正電，它才會被帶負電的細菌細胞膜與牙面吸附而發揮殺菌與殘留效果；說它是陰離子劑弄錯了最根本的化學性質，所以這句錯誤。\n❌ (B) 敘述正確：它的化學結構是氯苯雙胍己烷。\n❌ (C) 敘述正確：漱口水製劑使用的是葡萄糖酸鹽形式。\n❌ (D) 敘述正確：牙齒與舌頭的褐色染色是它最著名的副作用。\n📚 出處：Newman & Carranza's Clinical Periodontology, 13th ed.。"
   },
   {
    "n": 78,
@@ -1032,7 +1107,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "cyclobenzaprine有可能引起心律不整的副作用",
     "metaxalone有可能造成肝毒性的副作用"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 巴氯芬主要以原型經「腎臟」排除，它的問題在於腎功能不良者容易蓄積中毒與突然停藥造成的戒斷症狀——肝毒性並不是它的特徵性副作用，所以這句錯誤。\n❌ (A) 敘述正確：肌肉鬆弛劑是物理治療的輔助而非主角。\n❌ (C) 敘述正確：環苯扎林的結構近似三環抗憂鬱藥，可能引起心律不整。\n❌ (D) 敘述正確：美他沙酮確實有肝毒性的報告。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   },
   {
    "n": 79,
@@ -1045,7 +1121,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "急性氟中毒，可產生 nausea、vomiting及diarrhea等症狀",
     "氟中毒時，以含Na+之輸液洗胃可有效預防氟被系統吸收"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 急性氟中毒的急救是給予「含鈣」的物質（牛奶、氫氧化鈣或葡萄糖酸鈣）——鈣離子與氟結合成不溶的氟化鈣而阻止吸收；含鈉的溶液沒有這個結合能力，所以這句選錯了對象。\n❌ (A) 敘述正確：氟斑齒是發育期慢性氟過量的表現。\n❌ (B) 敘述正確：造釉細胞對氟的敏感度高於造牙本質細胞。\n❌ (C) 敘述正確：急性中毒以噁心、嘔吐與腹瀉為初期表現。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.（Fluoride toxicity）。"
   },
   {
    "n": 80,
@@ -1058,7 +1135,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "抗生素",
     "荷爾蒙製劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 氟尿嘧啶是尿嘧啶的氟化類似物——它抑制胸苷酸合成酶，切斷去氧核糖核酸合成所需的胸腺嘧啶供應，屬於抗代謝類中的氟嘧啶。\n❌ (B) 長春花生物鹼作用在微管上。\n❌ (C) 抗腫瘤抗生素如小紅莓走的是嵌入去氧核糖核酸的機制。\n❌ (D) 荷爾蒙製劑用於荷爾蒙敏感性的腫瘤。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry, 7th ed.。"
   }
  ]
 };
