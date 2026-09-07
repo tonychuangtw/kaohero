@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "憲法所稱之法律，謂經立法院通過，總統公布之法律",
     "命令與憲法或法律牴觸者無效"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。憲法第 171 條第 2 項規定，法律與憲法有無牴觸發生疑義時，由「司法院」解釋之，不是行政法院。\n❌ (B) 正確。憲法第 173 條規定憲法之解釋由司法院為之。\n❌ (C) 正確。憲法第 170 條的法律定義。\n❌ (D) 正確。憲法第 172 條規定命令牴觸憲法或法律者無效。\n📚 出處：憲法第 170 至 173 條"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "土壤性質",
     "人民生活習慣"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 憲法第 169 條要求國家對邊疆地區各民族的土地使用應依其氣候、土壤性質及人民生活習慣之所宜予以保障與發展，並未提及土地價格。\n❌ (B) 是應考量的要素。氣候。\n❌ (C) 是應考量的要素。土壤性質。\n❌ (D) 是應考量的要素。人民生活習慣。\n📚 出處：憲法第 169 條"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "有與辯護律師自由溝通權",
     "接見律師時有不受監視權"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。釋字第 654 號雖宣告全面監聽錄音違憲，但仍容許在有事實足認有湮滅證據或勾串之虞時，以法律明定於必要範圍內「監看而不與聞」，並非絕對不受監視。\n❌ (A) 正確。受羈押被告有接見律師的權利。\n❌ (B) 正確。受辯護權是憲法保障的訴訟權內涵。\n❌ (C) 正確。與辯護人自由溝通是有效辯護的前提。\n📚 出處：司法院釋字第 654 號解釋"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "司法機關",
     "監察機關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 釋字第 442、512 號指出，訴訟程序與相關要件屬「立法機關」得衡量案件種類、性質與制度功能而為合理規定的事項。\n❌ (B) 行政機關無權自行決定訴訟程序。\n❌ (C) 司法機關是適用而非制定訴訟程序。\n❌ (D) 監察機關與訴訟程序的形成無關。\n📚 出處：司法院釋字第 442、512、574 號解釋"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "租稅法律原則",
     "比例原則"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 釋字第 798 號認為財政部函釋以行政命令縮減法律所定的免稅範圍，增加法律所無的限制，違反憲法第 19 條的租稅法律主義。\n❌ (A) 社會國原則與本案無關。\n❌ (B) 該案的審查基準不是平等原則。\n❌ (D) 也不是以比例原則宣告違憲。\n📚 出處：司法院釋字第 798 號解釋"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "行政懲處權應不包括公務人員考績法中具有實質懲戒性質之免職處分",
     "依憲法第77條規定，必須由法院擔任公務員懲戒及懲處之第一次決定機關"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 憲法法庭 111 年憲判字第 9 號指出，免職權的性質屬行政權，是行政機關人事權的固有核心權限，並非必須由法院為第一次決定。\n❌ (A) 該判決認為考績丁等免職的規定並未違憲。\n❌ (C) 具實質懲戒性質的免職仍屬行政懲處權的範圍。\n❌ (D) 憲法第 77 條的懲戒權不要求由法院作第一次決定。\n📚 出處：憲法法庭 111 年憲判字第 9 號判決"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "體育路跑活動",
     "選舉造勢"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 選舉造勢屬集會遊行法所定的室外集會、遊行，除競選活動另有規範外，仍須依法申請許可。\n❌ (A) 依法舉行的宗教遶境屬第 8 條免申請的例外。\n❌ (B) 婚喪喜慶活動同屬免申請的例外。\n❌ (C) 體育競技（路跑）活動也在免申請之列。\n📚 出處：集會遊行法第 8 條"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "立法院",
     "監察院"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 憲法增修條文第 4 條第 7 項規定，總統、副總統的彈劾案由立法院提出，聲請憲法法庭審理。\n❌ (A) 司法院是審理機關而非提出機關。\n❌ (B) 檢察總長無此職權。\n❌ (D) 監察院的彈劾對象是一般公務人員，總統副總統的彈劾自 2000 年修憲後移由立法院提出。\n📚 出處：憲法增修條文第 4 條"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "社團法人臺灣身心障礙兒童權利促進會",
     "屏東縣議會議員現有總額四分之一以上"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 憲法訴訟法第 49 條規定，立法委員現有總額四分之一以上得聲請；「地方議會議員」並無此種聲請權。\n❌ (A) 總統為憲法機關，得依第 47 條聲請。\n❌ (B) 各法院法官得依第 55 條聲請。\n❌ (C) 人民（含法人團體）用盡審級救濟後得依第 59 條聲請裁判憲法審查。\n📚 出處：憲法訴訟法第 47、49、55、59 條"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "地方首長與一級單位主管，就其主管業務，有受地方議會質詢之義務",
     "地方議會於業務質詢時，相關地方政府之業務主管應列席備詢"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。釋字第 498 號指出地方自治團體的行政首長與人員，除法律明定外並無到立法院受質詢的義務，補助款預算案亦同。\n❌ (B) 正確。除法律明定外無出席立法院委員會備詢的義務。\n❌ (C) 正確。地方首長與一級主管對地方議會負有受質詢義務。\n❌ (D) 正確。業務主管應列席地方議會備詢。\n📚 出處：司法院釋字第 498 號解釋"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "植基於自由、平等以及依據多數意志而作成之人民自我決定上",
     "政黨行為雖危害自由民主憲政秩序，仍應受結社自由之保障"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。憲法增修條文第 5 條第 5 項規定，政黨的目的或行為危害中華民國之存在或自由民主憲政秩序者為違憲，得由憲法法庭宣告解散，並非仍受結社自由保障。\n❌ (A) 正確。它是法治國家的統治秩序。\n❌ (B) 正確。排除任何暴力與獨裁專制。\n❌ (C) 正確。植基於自由、平等與人民自我決定。\n📚 出處：憲法增修條文第 5 條；司法院釋字第 499 號解釋"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "甲構成刑法第140條的侮辱公務員罪",
     "甲不構成犯罪"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 刑法第 139 條的除去封印罪以「損壞、除去或污穢」封印並使其效用喪失為要件；本題封條完好如初、票匭仍屬封緘狀態，欠缺構成要件該當性。\n❌ (A) 封條完好，未達除去封印的程度。\n❌ (B) 妨害公務罪須對公務員施強暴脅迫，本題並無。\n❌ (C) 侮辱公務員罪須當場侮辱，本題也不成立。\n📚 出處：刑法第 135、139、140 條"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "若甲受破產之宣告，其經理職務應解任之",
     "甲之職權，應以章程規定，不得依契約訂定之"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。公司法第 31 條規定經理人的職權除章程規定外，並得依契約之訂定。\n❌ (A) 正確。經理人在執行職務範圍內亦為公司負責人（第 8 條第 2 項）。\n❌ (B) 正確。經理人報酬的決議門檻為董事三分之二以上出席、出席董事過半數同意（第 29 條）。\n❌ (C) 正確。受破產宣告尚未復權者不得充任經理人，已充任者當然解任（第 30 條）。\n📚 出處：公司法第 8、29、30、31 條"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "甲能夠申請加班費，只要甲能透過訊息證明自己確實有受到雇主要求工作，以及工作之時數，應給付加班費",
     "甲能夠申請加班費，因為加班無需經過雇主同意，只要是下班時間做的事情，都應該能夠申請加班費"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 只要能證明是「受雇主要求」而提供勞務並確有工作時數，即屬工作時間，雇主應依勞動基準法第 24 條給付延長工時工資。\n❌ (A) 應雇主要求而提供的勞務就是工作，不是人情。\n❌ (B) 加班費不以事前申請為要件，實際加班即應給付。\n❌ (D) 並非下班後做的任何事都算加班，仍須是受雇主指揮監督的勞務。\n📚 出處：勞動基準法第 24、32 條"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "提供婦女有關懷孕、分娩和產後期間的適當服務",
     "消除婦女在經濟生活上的歧視"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 該公約的內容集中在政治、教育、就業、保健、經濟社會生活與婚姻家庭等領域的性別平等，並未特別規範「資訊隱私」。\n❌ (B) 有規定。第 10 條的教育平等。\n❌ (C) 有規定。第 12 條的懷孕、分娩與產後服務。\n❌ (D) 有規定。第 13 條的經濟與社會生活。\n📚 出處：消除對婦女一切形式歧視公約"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "溢繳稅款匯入義務人帳戶",
     "警察對於犯罪嫌疑人扣上手銬"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 否准政府資訊公開的申請是對人民申請所為的准駁決定，直接發生法律效果，屬「行政處分」而非事實行為。\n❌ (A) 送達罰鍰處分書是執行送達的事實行為。\n❌ (C) 匯還溢繳稅款是給付性的事實行為。\n❌ (D) 上手銬是強制力的事實行為（即時強制）。\n📚 出處：行政程序法第 92 條；行政法上的行為形式"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "甲應論以不違背職務行為行求賄賂罪",
     "甲應論以公務員洩漏國防以外秘密罪之教唆犯"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 洩漏招標底價屬違背職務的行為，乙既已「答應」並收受十萬元，收受賄賂罪即已既遂；事後退回不影響已成立的犯罪。\n❌ (B) 乙終究未洩漏底價，不成立洩密罪。\n❌ (C) 甲要求的是違背職務的行為，應論以違背職務行賄罪。\n❌ (D) 底價未洩漏，教唆洩密亦未既遂。\n📚 出處：刑法第 122 條；貪污治罪條例"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "政黨推薦參加公職人員選舉之候選人，無須為該政黨黨員",
     "廣播電視事業應無償提供時段供登記之候選人從事競選宣傳"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 公職人員選舉罷免法規定，全國不分區及僑居國外國民立法委員選舉的保證金，由登記的政黨繳納。\n❌ (A) 經登記為候選人者不得撤回登記。\n❌ (C) 政黨推薦的候選人應為該政黨黨員。\n❌ (D) 廣播電視事業並無無償提供時段的義務（僅公費、政見發表另有規定）。\n📚 出處：公職人員選舉罷免法第 30、31、32 條"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "聲請書應敘明客觀上形成確信法規範違憲之法律見解",
     "原因案得以聲請憲法審查為由，裁定停止程序，如有急迫情形，並得為必要之處分"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。憲法訴訟法第 55 條的聲請主體是「各法院」，應以受理案件的獨任法官或合議庭「所屬法院」名義為之，並須先裁定停止訴訟程序，選項把主體誤為法官個人。\n❌ (B) 正確。聲請標的限於裁判所應適用的法律位階法規範。\n❌ (C) 正確。應敘明形成違憲確信的法律見解。\n❌ (D) 正確。應裁定停止程序，急迫時得為必要處分。\n📚 出處：憲法訴訟法第 55、56 條"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "事實上處分權",
     "占有權"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 違章建築因無法辦理保存登記而不能移轉「所有權」，實務認為買受人受交付後取得的是「事實上處分權」。\n❌ (A) 買賣建物不會使買受人取得地上權。\n❌ (B) 法律上處分權（如移轉、設定負擔）仍屬原始起造人。\n❌ (D) 占有只是事實狀態，不足以說明買受人所取得的權利地位。\n📚 出處：最高法院關於違章建築事實上處分權的見解"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "imprison",
     "immerse"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) impose a tax on 意為「對…課稅」，政府擬對奢侈品課新稅以增加社福財源。\n❌ (B) impair 是損害。\n❌ (C) imprison 是監禁。\n❌ (D) immerse 是浸泡、使沉浸。\n📚 出處：英文字彙（impose a tax on 的用法）"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "composure",
     "registration"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) composure 意為「鎮定、沉著」，與 dignity（尊嚴）並列，形容守靈時的從容態度。\n❌ (A) hypothesis 是假設。\n❌ (B) wilderness 是荒野。\n❌ (D) registration 是登記。\n📚 出處：英文字彙（composure 的字義）"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "afar",
     "fond"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) rare 意為「稀少的」，在預算縮減的年代，昂貴的社區警政愈來愈少見。\n❌ (A) lush 是茂盛的。\n❌ (C) afar 是遠方（副詞）。\n❌ (D) fond 是喜愛的。\n📚 出處：英文字彙（rare 的字義）"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "permissions",
     "missions"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) carbon emissions 是「碳排放」的固定說法，公司在減碳上有所進展。\n❌ (B) omissions 是遺漏。\n❌ (C) permissions 是許可。\n❌ (D) missions 是任務。\n📚 出處：英文字彙（carbon emissions 的搭配）"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "refine",
     "refresh"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) reflect on 意為「深思、反思」，讀者若願意就故事內容加以反思而非死記概念術語，閱讀會更輕鬆愉快。\n❌ (A) reflate 是（經濟）再膨脹。\n❌ (C) refine 是精煉。\n❌ (D) refresh 是使恢復精神。\n📚 出處：英文字彙（reflect on 的用法）"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "underprivileged",
     "overwhelming"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) underprivileged 意為「弱勢的、資源匱乏的」，慈善機構協助的正是缺乏基本教育與醫療的弱勢兒童。\n❌ (A) overpassing 不是形容人的用字。\n❌ (B) underdeveloped 多形容國家或器官發育不全。\n❌ (D) overwhelming 是壓倒性的。\n📚 出處：英文字彙（underprivileged 的字義）"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "glittered",
     "crippled"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) cripple 意為「重創、使癱瘓」，高利率與通膨使產業受到重創。\n❌ (A) dispense 是分發。\n❌ (B) prevail 是盛行、獲勝。\n❌ (C) glitter 是閃爍。\n📚 出處：英文字彙（cripple 的字義）"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "innovation",
     "modernity"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) legacy 意為「遺產、留下的影響」，創辦人的捐款留下長遠的影響，資助世世代代的獎學金。\n❌ (B) estimate 是估計。\n❌ (C) innovation 是創新。\n❌ (D) modernity 是現代性。\n📚 出處：英文字彙（legacy 的字義）"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "hypocrite",
     "contestant"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) deputy 意為「副手、代理人」，船長指派大副在緊急時代行職務。\n❌ (B) poacher 是盜獵者。\n❌ (C) hypocrite 是偽君子。\n❌ (D) contestant 是參賽者。\n📚 出處：英文字彙（deputy 的字義）"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "horrified",
     "tranquil"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) tranquil 意為「平靜的」，四周混亂但這位智慧老人依舊平靜地繼續冥想。\n❌ (A) intrusive 是打擾的。\n❌ (B) devastated 是被摧毀的、極度悲傷的。\n❌ (C) horrified 是驚恐的。\n📚 出處：英文字彙（tranquil 的字義）"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "resentment",
     "incentive"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) incentive 意為「誘因」，疫情減緩後人們接種疫苗的誘因所剩無幾。\n❌ (A) deterrent 是嚇阻因素，語意相反。\n❌ (B) turn-off 是令人倒胃口的事。\n❌ (C) resentment 是怨恨。\n📚 出處：英文字彙（incentive 的字義）"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "unload",
     "lessen"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) unleash 意為「釋放（潛能）」，使用非慣用手可以提振精神、解放想像力並激發創造力。\n❌ (A) lease 是出租。\n❌ (C) unload 是卸貨。\n❌ (D) lessen 是減少，語意相反。\n📚 出處：英文字彙（unleash 的字義）"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "biodegradable",
     "transferable"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) biodegradable 意為「可生物分解的」，塑膠袋掩埋數十年後仍是塑膠袋，正說明它不可生物分解。\n❌ (A) combustible 是可燃的。\n❌ (B) reusable 是可重複使用的。\n❌ (D) transferable 是可轉讓的。\n📚 出處：英文字彙（biodegradable 的字義）"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "invasive",
     "tactical"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) tactical 意為「策略性的」，兩家公司關閉部門是為避免輿論批評的策略性動作。\n❌ (A) synthetic 是合成的。\n❌ (B) illiterate 是不識字的。\n❌ (C) invasive 是侵入性的。\n📚 出處：英文字彙（tactical 的字義）"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "recommended",
     "stunned"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ban A from B 意為「禁止 A 出現在 B」，歐盟執委會以安全疑慮為由禁止員工手機安裝抖音。\n❌ (B) comprehend 是理解。\n❌ (C) recommend 是推薦，語意相反。\n❌ (D) stun 是使震驚。\n📚 出處：英文字彙（ban...from 的用法）"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "compete",
     "confer"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) coincide with 意為「與…時間重疊」，專案截止日恰與休假計畫撞期。\n❌ (A) cooperate 是合作。\n❌ (C) compete 是競爭。\n❌ (D) confer 是商議、授予。\n📚 出處：英文字彙（coincide with 的用法）"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "strangling",
     "smearing"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) smuggle 意為「走私」，盜獵者殺象後把象牙走私到海外牟利。\n❌ (A) struggle 是掙扎。\n❌ (C) strangle 是勒死。\n❌ (D) smear 是塗抹、抹黑。\n📚 出處：英文字彙（smuggle 的字義）"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "terminals",
     "utensils"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) at regular intervals 意為「每隔固定一段時間」，與後面的 every three months 相互呼應。\n❌ (B) spirals 是螺旋。\n❌ (C) terminals 是終端、航廈。\n❌ (D) utensils 是器皿。\n📚 出處：英文字彙（at regular intervals 的用法）"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "informant",
     "delinquent"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) celebrity couple 意為「名人夫妻檔」，與紅毯、影迷與閃光燈的場景相符。\n❌ (A) acquaintance（題目拼寫有誤）是熟人。\n❌ (C) informant 是線人。\n❌ (D) delinquent 是少年犯。\n📚 出處：英文字彙（celebrity 的字義）"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "eclipse",
     "opus"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) opus 意為「（藝術）作品、鉅作」，藝術家的投入成就了既美麗又發人深省的作品。\n❌ (A) blunder 是大錯。\n❌ (B) debris 是殘骸。\n❌ (C) eclipse 是日月蝕。\n📚 出處：英文字彙（opus 的字義）"
   },
   {
    "n": 41,
@@ -622,7 +662,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "Biological background of jellyfishes reproduction."
    ],
    "psg": "Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全文以「不死水母」能逆轉生物時鐘為引，說明科學家希望藉由研究牠的基因與細胞轉分化機制來理解老化，主旨是一種可能有助於抗老研究的物種。\n❌ (A) 文中沒有談保育。\n❌ (C) 也沒有提出人類老化的解決方案。\n❌ (D) 水母的繁殖不是重點。\n📚 出處：112 年高考三級法學知識與英文，閱讀測驗（不死水母）"
   },
   {
    "n": 47,
@@ -636,7 +677,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "Entertaining."
    ],
    "psg": "Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全文引述學者說法、說明轉分化與基因開關的機制，用語客觀而具知識性，屬科學性的說明語氣。\n❌ (A) 沒有嘲諷。\n❌ (C) 作者對主題明顯投入，不是漠然。\n❌ (D) 也不是以娛樂為目的。\n📚 出處：112 年高考三級法學知識與英文，閱讀測驗（不死水母）"
   },
   {
    "n": 48,
@@ -650,7 +692,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "Turritopsis dohrnii is too large to find the tissues about regeneration."
    ],
    "psg": "Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 這種水母平均直徑僅約三毫米，是「太小」而不是太大；選項的敘述與文意相反，因此不是研究的困難所在。\n❌ (A) 是困難。資料不足且研究不連續。\n❌ (B) 是困難。牠們面臨眾多掠食者的威脅。\n❌ (C) 是困難。個體脆弱、常活不夠久。\n📚 出處：112 年高考三級法學知識與英文，閱讀測驗（不死水母）"
   },
   {
    "n": 49,
@@ -664,7 +707,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "Turritopsis dohrnii’s cells can easily integrate with human’s cells."
    ],
    "psg": "Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中引述學者說「答案很可能在基因裡…某些基因被開啟或關閉決定了細胞的類型」，可見關鍵在基因調控細胞轉分化的機制。\n❌ (A) 文中沒有提到食用水母。\n❌ (C) 適應環境不是抗老的關鍵機制。\n❌ (D) 也沒有說牠的細胞能與人類細胞結合。\n📚 出處：112 年高考三級法學知識與英文，閱讀測驗（不死水母）"
   },
   {
    "n": 50,
@@ -678,7 +722,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
     "Turritopsis dohrnii never die so that they overpopulate in the ocean."
    ],
    "psg": "Is there any immortal creature in the world? Despite only being only three millimeters in diameter on average, adult versions of immortal jellyfish (Turritopsis dohrnii) have a huge party trick: they can roll back their biological clock when injured or on the verge of starvation. This means, in theory, they could live forever. Could humans harness their abilities to eradicate ageing completely? As scientists have known, the reason of human ageing is a process called trans-differentiation. “This is about how a fully formed specialized adult cell can become another type of specialized adult cell. It’s how a cell can adapt,” explains Dr. Maria Pia Miglietta. The exact mechanism behind trans-differentiation is still a mystery to scientists. However, as Miglietta explains, the answer will likely be found in the jellyfish’s genes. “It most certainly has something to do with the DNA,” she says. “It’s the DNA that programs a cell––certain genes being ‘turned on’ or ‘off’ will determine what sort of cell it is. We’re far away from any kind of real-world application,” says Miglietta. “But we hope that studying what happens in these jellyfish can tell us how their genes change cells––and how these changed cells integrate with others. This is the base of understanding cellular regeneration and tissue regeneration.” However, there are many challenges. These jellyfish have only been studied sporadically since the early 1980s, meaning experts have only a few decades’ worth of data. While an immortal jellyfish can age in reverse, it can also be easily killed by predators including various fish, sharks, turtles and even other jellyfish. “They’re incredibly sensitive, from the water temperature to their plankton and fish egg diet,” says Miglietta. “The real paradox is they’re actually really hard to keep alive!”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中說牠們「理論上」可以永遠活著，但實際上個體脆弱、常因掠食或環境而短命，兩者並存正是本文的說明。\n❌ (A) 學者明言距離真正的應用還很遠。\n❌ (C) 牠的生物時鐘是可以被逆轉的，並非固定不變。\n❌ (D) 文中沒有說牠們永不死亡或造成海中過度繁殖。\n📚 出處：112 年高考三級法學知識與英文，閱讀測驗（不死水母）"
   }
  ]
 };
