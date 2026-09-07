@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "立法委員在討論法律案時之發言，有言論免責權",
     "立法者不得立法針對個案之特定人給予利益"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。立法院職權行使法第 13 條採屆期不連續原則，每屆立委任期屆滿時尚未議決的議案（預算案除外）不予繼續審議。\n❌ (A) 正確。第 7 條，法律案、預算案應經三讀，其餘議案二讀議決。\n❌ (C) 正確。憲法第 73 條的言論免責權。\n❌ (D) 正確。禁止個案立法是平等原則與權力分立的要求。\n📚 出處：憲法第 73 條；立法院職權行使法第 7、13 條"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "按憲法慣例或憲政上之習慣法，其成立應有反覆發生之先例，並對一般人產生法之確信，始足當之",
     "司法、考試、監察三院院長，本於五院間相互尊重之立場，得不受立法院邀請備詢"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。釋字第 461 號指出參謀總長應到立法院「委員會」備詢，但基於權力分立與行政一體，並無到院會備詢的義務。\n❌ (B) 正確。成文憲法下憲政慣例僅具補充作用。\n❌ (C) 正確。憲政慣例須有反覆的先例並生法的確信。\n❌ (D) 正確。司法、考試、監察三院院長得不受邀請備詢。\n📚 出處：憲法第 67 條；司法院釋字第 419、461 號解釋"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "總統統率全國陸海空軍，為三軍統帥，行使統帥權",
     "國防部應定期向立法院提出軍事政策、建軍備戰及軍備整備之報告"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。國防法第 13 條規定參謀總長為「部長」之幕僚長，不是總統的幕僚長。\n❌ (A) 正確。國防法勵行軍政軍令一元化，由國防部主管。\n❌ (C) 正確。憲法第 36 條，總統統率全國陸海空軍。\n❌ (D) 正確。國防部應定期向立法院提出相關報告。\n📚 出處：憲法第 36、137 條；國防法第 8、13 條"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "國民體育健康活動之促進",
     "保障軍人退役後之就學"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 增修條文第 10 條並無「促進國民體育健康活動」的明文；體育事項規定於憲法第 160 條、第 161 條之外的第 164 條體例與國民體育法。\n❌ (A) 是明定事項。第 10 條第 3 項扶助中小型經濟事業。\n❌ (B) 是明定事項。第 10 條第 5 項促進現代與傳統醫藥的研究發展。\n❌ (D) 是明定事項。第 10 條第 9 項保障軍人退役後的就學就業。\n📚 出處：憲法增修條文第 10 條"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "由總統提出憲法修正案，經公民投票複決",
     "由總統提出憲法修正案，經立法院議決"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 增修條文第 12 條規定，憲法之修改由立法院提出憲法修正案，公告半年後經自由地區選舉人投票複決。\n❌ (A) 立法院只能提案，不能自行議決通過。\n❌ (C) 總統無修憲提案權。\n❌ (D) 修憲案最終須經公民複決，不是立法院議決。\n📚 出處：憲法增修條文第 12 條"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "健全民主程序",
     "促進自我實現"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 言論自由的功能在追求真理、健全民主程序與促進自我實現（釋字第 509、644 號）；「維持社會秩序」反而是憲法第 23 條得限制言論自由的事由。\n❌ (A) 是目的。追求真理。\n❌ (C) 是目的。健全民主程序。\n❌ (D) 是目的。促進自我實現。\n📚 出處：憲法第 11、23 條；司法院釋字第 509、644 號解釋"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "國家基於公益目的，得由檢察官或法官核發通訊監察書為監聽",
     "核發通訊監察書必須遵守正當法律程序"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。釋字第 631 號後，通訊監察書應由「法官」核發，檢察官不得核發（僅得於緊急情形先執行並陳報法院補發）。\n❌ (A) 正確。國家不得任意侵擾通訊自由。\n❌ (B) 正確。秘密通訊自由保障私密領域不受干擾。\n❌ (D) 正確。核發程序須符合正當法律程序。\n📚 出處：憲法第 12 條；通訊保障及監察法第 5 條；司法院釋字第 631 號解釋"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "不分區立法委員同時代表人民及政黨行使立法權",
     "不分區立法委員會因為失去黨籍而喪失資格"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。憲法第 62 條規定立法委員「代表人民」行使立法權，不分區立委同樣代表全體人民，不是代表政黨。\n❌ (A) 正確。名單由政黨提出。\n❌ (B) 正確。當選名單中婦女不得低於二分之一。\n❌ (D) 正確。喪失黨籍者依選罷法第 73 條喪失資格。\n📚 出處：憲法第 62 條；憲法增修條文第 4 條；公職人員選舉罷免法第 73 條"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "選舉訴訟審判之程序",
     "創制、複決之行使"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 憲法第 132 條僅規定「選舉訴訟，由法院審判之」，並未明文授權以法律定其審判程序。\n❌ (A) 憲法第 134 條明定婦女當選名額「其辦法以法律定之」。\n❌ (B) 憲法第 130 條就選舉權與被選舉權的年齡設有「除本憲法及法律別有規定外」的保留。\n❌ (D) 憲法第 136 條明定創制複決兩權之行使以法律定之。\n📚 出處：憲法第 130、132、134、136 條"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "因歸化取得中華民國國籍者，不得登記為總統、副總統候選人",
     "副總統缺位時，總統應提名候選人，由立法院補選"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。總統副總統選舉罷免法第 22 條允許二個以上政黨共同推薦一組候選人，並就得票數的計算另設規定。\n❌ (A) 正確。憲法第 45 條的四十歲要件。\n❌ (C) 正確。歸化取得國籍者不得登記為總統副總統候選人（選罷法第 20 條）。\n❌ (D) 正確。增修條文第 2 條第 7 項，副總統缺位時由總統提名，立法院補選。\n📚 出處：憲法第 45 條；憲法增修條文第 2 條；總統副總統選舉罷免法第 20、22 條"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "立法院反對行政院停止執行預算之決議，具有確認法定預算之作用",
     "行政院如不願接受立法院之反對決議，行政院院長應即辭職"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。釋字第 520 號要求行政院向立法院報告並備質詢，若立法院作成反對決議，行政院應予尊重，但該號並未要求院長辭職。\n❌ (A) 正確。應向立法院提出報告。\n❌ (B) 正確。院長或部會首長應備質詢。\n❌ (C) 正確。立法院的反對決議具確認法定預算效力的作用。\n📚 出處：司法院釋字第 520 號解釋"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "曾在學術機關從事公法學或比較法學之研究 8 年以上而有權威著作者",
     "研究法學，富有政治經驗，聲譽卓著者"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。司法院組織法所定的資格是「曾任大學法律主要科目教授十年以上」或「研究公法學或比較法學而有權威著作」等，並無「從事研究八年以上」的款目。\n❌ (A) 是法定資格。曾任實任法官或檢察官十五年以上成績卓著。\n❌ (B) 是法定資格。執行律師業務二十五年以上聲譽卓著。\n❌ (D) 是法定資格。研究法學富有政治經驗聲譽卓著。\n📚 出處：司法院組織法第 4 條"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "為避免法官濫用聲請解釋憲法權限，故僅限於終審法院之法官方得聲請之",
     "欲聲請大法官解釋時，須以其為先決問題裁定停止訴訟程序，並提出客觀上形成確信法律為違憲之具體理由"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。釋字第 371、572 號一貫承認「各級法院法官」均得聲請解釋，不以終審法院法官為限。\n❌ (A) 正確。法官不得逕行拒絕適用法律。\n❌ (B) 正確。合理確信違憲者得先行聲請解釋。\n❌ (D) 正確。須裁定停止訴訟並提出客觀確信違憲的具體理由。\n📚 出處：司法院釋字第 371、572、590 號解釋"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "監察院不得向立法院提出預算案",
     "監察院受理特定公職人員之財產申報"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。釋字第 3 號指出監察院關於所掌事項，得向立法院提出法律案。\n❌ (A) 正確。憲法第 95、96 條的調查權。\n❌ (C) 正確。預算案的提出權專屬行政院（憲法第 59 條）。\n❌ (D) 正確。公職人員財產申報由監察院受理。\n📚 出處：憲法第 59、95、96 條；司法院釋字第 3 號解釋；公職人員財產申報法"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "全民健康保險法第 27 條規定由地方自治團體補助之保險費，係指實施全民健康保險法之執行費用",
     "對地方負有協力義務之全民健康保險事項，中央得依據法律使地方分擔保險費之補助"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。釋字第 550 號指出，地方所補助的保險費是社會保險的「保險費」補助，不是實施全民健保法的「執行費用」。\n❌ (A) 正確。應給予地方政府人員列席表示意見的機會。\n❌ (B) 正確。補助比例屬立法裁量。\n❌ (D) 正確。地方對社會保險負協力義務，中央得依法使其分擔。\n📚 出處：司法院釋字第 550 號解釋"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "國際法效力優於國內法",
     "國際條約經國內立法機關同意後直接拘束國內各機關"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。我國實務見解認為經立法院議決通過的條約與法律同位階，並非國際法一律優於國內法。\n❌ (A) 正確。聯合國憲章是多邊條約，屬國際法。\n❌ (B) 正確。涉外民事法律適用法由我國制定，是國內法。\n❌ (D) 正確。條約經立法機關同意並公布後，於國內具法律效力而拘束各機關。\n📚 出處：司法院釋字第 329 號解釋；條約締結法"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "地的效力",
     "時的效力"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 法律不溯及既往處理的是新法能否適用於生效前的事實，屬法律在「時間」上的效力範圍。\n❌ (A) 人的效力指法律適用於哪些人。\n❌ (B) 物（事）的效力指適用於哪些事項。\n❌ (C) 地的效力指施行區域。\n📚 出處：中央法規標準法第 13 至 18 條；法學緒論（法律的效力範圍）"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "沒有僱用員工人數之上限",
     "僱用員工 15 人以上之事業單位"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 性別工作平等法第 16 條的育嬰留職停薪，於 101 年修法後已刪除受僱於三十人以上事業單位的限制，不再設僱用人數門檻。\n❌ (A) 五十人非法定門檻。\n❌ (B) 三十人是修法前的舊規定。\n❌ (D) 十五人亦非。\n📚 出處：性別工作平等法第 16 條"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "法規規定之事項因情勢變遷，無繼續施行之必要者",
     "法規因有關法規之廢止或修正致失其依據，而無單獨施行之必要者"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「同一事項有數法規規定」而無分別存在必要者，是中央法規標準法第 20 條的「修正」原因，不是第 21 條的廢止事由；廢止事由是「同一事項已定有新法規，並公布或發布施行」。\n❌ (A) 是廢止事由。第 21 條第 2 款。\n❌ (C) 是廢止事由。第 21 條第 1 款。\n❌ (D) 是廢止事由。第 21 條第 4 款。\n📚 出處：中央法規標準法第 20、21 條"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "自治法規與法位階較高之法令牴觸時，一律由行政院函告無效",
     "自治法規與法位階較高之法令有無牴觸發生疑義時，得函請行政院解釋之"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 地方制度法第 31 條第 4 項規定，自律規則與憲法、法律、中央法規或上級自治法規牴觸者，無效。\n❌ (A) 自治條例牴觸法律者無效，但須經監督機關函告，並非自始當然確定無效的表述。\n❌ (C) 函告無效的機關依層級而異，並非一律由行政院。\n❌ (D) 有無牴觸發生疑義時，得聲請司法院解釋（第 30 條第 5 項）。\n📚 出處：地方制度法第 30、31 條"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "公布日起算至第 3 日",
     "公布日翌日起算至第 3 日"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 中央法規標準法第 13 條規定，法規明定自公布或發布日施行者，自公布或發布之日起算至第三日起發生效力。\n❌ (A) 不是公布當日即生效。\n❌ (B) 也不是翌日。\n❌ (D) 「翌日起算至第三日」非本條所定。\n📚 出處：中央法規標準法第 13 條"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "比例原則",
     "誠實信用原則"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 釋字第 737 號指出，僅告知羈押事由所據的事實而未使犯罪嫌疑人與辯護人獲知據以聲請羈押的理由及證據，不足以有效行使防禦權，違反正當法律程序。\n❌ (B) 與信賴保護無關。\n❌ (C) 該號的核心是程序保障而非手段的比例。\n❌ (D) 誠信原則非本案基準。\n📚 出處：憲法第 8、16 條；司法院釋字第 737 號解釋"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "社會國原則",
     "共和國原則"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「人民有依法律納稅之義務」是租稅法律主義，要求課稅須有法律依據並符合明確性與可預見性，是法治國原則在稅法上的具體展現。\n❌ (A) 權力分立處理機關間的權限分配。\n❌ (C) 社會國原則指國家的給付與照顧義務。\n❌ (D) 共和國原則指非君主的國家形式。\n📚 出處：憲法第 19、23 條；司法院釋字第 210、620 號解釋"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "受輔助宣告之 60 歲丙男",
     "30 歲之植物人丁男"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 受輔助宣告之人並未喪失行為能力，但為特定重要行為（如訴訟、消費借貸、不動產處分等）時應經輔助人同意，是行為能力受到限制的類型。\n❌ (A) 未成年人已結婚者有行為能力（當時民法第 13 條第 3 項）。\n❌ (B) 受監護宣告之人「無」行為能力（第 15 條）。\n❌ (D) 未受監護宣告的植物人，形式上仍有行為能力（其個別行為得依第 75 條認定無效）。\n📚 出處：民法第 13、15、15 條之 2、75 條"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "借用人未經貸與人同意允許第三人使用借用物者",
     "因借用人怠於善良管理人注意，致借用物毀損或有毀損之虞者"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 民法第 472 條所列貸與人得終止契約的事由不包括「借用人受監護宣告」。\n❌ (B) 是法定事由。第 1 款，因不可預知之情事自己需用借用物。\n❌ (C) 是法定事由。第 2 款，未經同意允許第三人使用。\n❌ (D) 是法定事由。第 3 款，怠於注意致借用物毀損或有毀損之虞。\n📚 出處：民法第 470、472 條"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "甲每月花新臺幣 20 萬元包養外遇對象，對乙之剩餘財產分配請求權有侵害之虞時，乙欲向法院聲請宣告改用分別財產制",
     "甲四處躲債，且時常有黑道上門恐嚇討債，導致甲、乙難於維持共同生活，不同居已達 1 年，乙欲向法院聲請宣告改用分別財產制"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 民法第 1011 條原允許債權人聲請宣告改用分別財產制，該條已於 101 年刪除，債權人不得再為此聲請。\n❌ (A) 夫妻之一方得依第 1010 條第 1 項第 5 款聲請（不能維持共同生活或財產不足清償債務）。\n❌ (C) 得依第 1010 條第 2 項聲請（有害及剩餘財產分配請求權之虞）。\n❌ (D) 得依第 1010 條第 2 項（難於維持共同生活不同居達六個月以上）聲請。\n📚 出處：民法第 1010、1011 條（第 1011 條已刪除）"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "丙須支付費用始得要求通行 L1 或 L2",
     "當事人就通行費用不能合意時，得聲請法院定之"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 民法第 789 條規定，因分割而生不通公路的土地者，僅得通行受讓人或他分割人之所有地，且「無須支付償金」。\n❌ (B) 甲、乙不得拒絕丙的通行。\n❌ (C) 因分割所生的袋地通行不須支付償金。\n❌ (D) 既無償金問題，即無由法院酌定費用的餘地。\n📚 出處：民法第 787、789 條"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "甲之行為係中止未遂",
     "甲之行為係準中止犯"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 甲已著手殺人行為，僅因槍枝遭掉包這一意料之外的外在障礙而未生結果；以一般人立於行為人地位觀之，持槍射擊仍具危險性，故屬普通（障礙）未遂。\n❌ (B) 不能未遂須「不能發生結果又無危險」，本案在客觀第三人觀察下仍具危險。\n❌ (C) 中止未遂須因己意中止或防止結果發生。\n❌ (D) 準中止犯是行為人真摯努力防果而結果因他故未發生。\n📚 出處：刑法第 25、26、27 條"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "就議案二，乙應迴避，且應由丁代表公司為交易",
     "就議案二，乙無須迴避，但應由丁代表公司為交易"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公司法第 223 條規定，董事為自己或他人與公司為買賣、借貸或其他法律行為時，由「監察人」為公司之代表；乙就該議案有自身利害關係，並應依第 206 條準用第 178 條迴避表決。\n❌ (A) 甲雖非交易相對人，但配偶戊為交易對象，甲有自身利害關係仍應迴避。\n❌ (B) 交易相對人不是董事本人，第 223 條的監察人代表規定並不當然適用。\n❌ (D) 乙是交易相對人，必須迴避。\n📚 出處：公司法第 178、206、223 條"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "第三類",
     "第四類"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全民健康保險法第 10 條第 1 項第 2 款規定，無一定雇主或自營作業而參加職業工會者為第二類被保險人；參加屠宰工會的肉販屬之。\n❌ (A) 第一類是受僱者、雇主、自營業主與專技人員自行執業者。\n❌ (C) 第三類是農漁會會員與農民。\n❌ (D) 第四類是義務役軍人、替代役役男與軍校生等。\n📚 出處：全民健康保險法第 10 條"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "in retrospect",
     "in contrast"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) in contrast 表對比，美國人認為盯著人看不禮貌，相對地，英國人卻被教導要專注注視說話者。\n❌ (A) in consequence 表結果。\n❌ (B) in hindsight 是事後看來。\n❌ (C) in retrospect 是回顧起來。\n📚 出處：英文片語（in contrast）"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "leak",
     "tick"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) leak 意為「洩漏」，穿戴裝置可能被駭而洩漏使用者的提款卡密碼等資訊。\n❌ (A) flee 是逃離。\n❌ (B) kick 是踢。\n❌ (D) tick 是滴答作響、打勾。\n📚 出處：英文字彙（leak information）"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "reinforce",
     "strengthen"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) maximize 意為「使最大化」，John 清掉舊家具以讓小公寓的空間發揮到最大，容納五口之家。\n❌ (A) capitalize 是利用、大寫。\n❌ (C) reinforce 是強化（結構）。\n❌ (D) strengthen 是加強（力量），皆不用於空間的擴大利用。\n📚 出處：英文字彙（maximize the space）"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "exposed",
     "flocked"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) be exposed to the world 意為「被揭露於世人面前」，這篇報導使印度工廠的童工濫用問題曝光。\n❌ (A) contribute to 是促成、貢獻。\n❌ (B) be devoted to 是致力於。\n❌ (D) flock to 是蜂擁而至。\n📚 出處：英文字彙（expose 的字義）"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "temptation",
     "repulsion"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) tourist attraction 意為「觀光景點」，阿里山是臺灣壯麗的觀光勝地，假日遊客與登山客眾多。\n❌ (B) attribution 是歸因。\n❌ (C) temptation 是誘惑。\n❌ (D) repulsion 是排斥。\n📚 出處：英文字彙（tourist attraction）"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "appearance",
     "accommodation"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) make an appearance 意為「公開露面」，Woodgate 先生顯然為指控所困擾，幾乎不曾公開露面。\n❌ (A) appointment 是約會、任命。\n❌ (B) abundance 是豐富。\n❌ (D) accommodation 是住宿。\n📚 出處：英文片語（make an appearance）"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "proud",
     "tired"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) be proud of 意為「以……為榮」，Helen 因女兒英文考最高分而深感驕傲。\n❌ (A) be conscious of 是意識到。\n❌ (B) be jealous of 是嫉妒，語意不合。\n❌ (D) be tired of 是厭倦。\n📚 出處：英文片語（be proud of）"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "agreeable",
     "inevitable"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) available 意為「可取得的」，因為買不到火車票，我們只好改搭巴士。\n❌ (B) invisible 是看不見的。\n❌ (C) agreeable 是令人愉快的、同意的。\n❌ (D) inevitable 是不可避免的。\n📚 出處：英文字彙（available 的字義）"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "doses",
     "advantages"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) health risks 意為「健康風險」，所有產品都應清楚標示可能的健康風險。\n❌ (B) benefits 是益處，與 warnings 矛盾。\n❌ (C) doses 是劑量。\n❌ (D) advantages 是優點，同樣與警告的語境不合。\n📚 出處：英文字彙（health risk）"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "participate in",
     "succumb to請依下文回答第 41 題至第 45 題Cheerleading is an organized sports activity combining dance, gymnastics, and stunt elements to cheer on teams."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) participate in 意為「參與」，鼓勵大學生在課餘參與社團活動以培養技能與責任感。\n❌ (A) abstain from 是戒除、避免。\n❌ (B) intercede with 是向……說情。\n❌ (D) succumb to 是屈服於。\n📚 出處：英文片語（participate in）"
   },
   {
    "n": 41,
@@ -622,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "In the 1960s, common sense was enough to raise children."
    ],
    "psg": "My wife was one of the many bright and industrious young women of the 1960s who worked their way through college. Somewhere late in her sophomore year, her funds ran low and she inquired at the university about a small loan for books and supplies. She was told that her chance of getting a loan was slim, because university funds were scarce, too, and what resources remained for loans were being given almost exclusively to male students. The only women getting loans at the moment were seniors who were about to graduate. She wasn’t surprised—disappointed, but not surprised. The priorities were well known: male students first, regardless of academic status, and then if there was enough money left, it would go to advanced female students. The university’s loan policy was not unusual; it was just one more expression of an ancient value in the Western tradition. Education for male is practical, but for females, it is luxurious. It is the males, after all, who are destined to hold jobs that require learning; Females—well, a measure of common sense is sufficient for bringing up children.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 全文以作者妻子申貸受阻為例，說明 1960 年代大學貸款幾乎只給男學生，背後是「男性受教育才實用、女性只是奢侈」的傳統價值，即女性在學業上被視為不如男性重要。\n❌ (A) 文中說大學經費同樣拮据。\n❌ (B) 文章未比較男女學生人數。\n❌ (D) 「常識足以養兒育女」是作者所批判的偏見，不是文章主旨。\n📚 出處：本文整體結構"
   },
   {
    "n": 47,
@@ -636,7 +677,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "There was discrimination against women."
    ],
    "psg": "My wife was one of the many bright and industrious young women of the 1960s who worked their way through college. Somewhere late in her sophomore year, her funds ran low and she inquired at the university about a small loan for books and supplies. She was told that her chance of getting a loan was slim, because university funds were scarce, too, and what resources remained for loans were being given almost exclusively to male students. The only women getting loans at the moment were seniors who were about to graduate. She wasn’t surprised—disappointed, but not surprised. The priorities were well known: male students first, regardless of academic status, and then if there was enough money left, it would go to advanced female students. The university’s loan policy was not unusual; it was just one more expression of an ancient value in the Western tradition. Education for male is practical, but for females, it is luxurious. It is the males, after all, who are destined to hold jobs that require learning; Females—well, a measure of common sense is sufficient for bringing up children.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 校方明說貸款「幾乎全給男學生」，唯一能貸款的女性是即將畢業的四年級生，可見原因是對女性的歧視。\n❌ (A) 文中未提她成績不佳。\n❌ (B) 也未提及丈夫可否供養。\n❌ (C) 貸款用途是書籍與用品，但那不是被拒的理由。\n📚 出處：本文第一段"
   },
   {
    "n": 48,
@@ -650,7 +692,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "All students of lower academic status were not given any university loans."
    ],
    "psg": "My wife was one of the many bright and industrious young women of the 1960s who worked their way through college. Somewhere late in her sophomore year, her funds ran low and she inquired at the university about a small loan for books and supplies. She was told that her chance of getting a loan was slim, because university funds were scarce, too, and what resources remained for loans were being given almost exclusively to male students. The only women getting loans at the moment were seniors who were about to graduate. She wasn’t surprised—disappointed, but not surprised. The priorities were well known: male students first, regardless of academic status, and then if there was enough money left, it would go to advanced female students. The university’s loan policy was not unusual; it was just one more expression of an ancient value in the Western tradition. Education for male is practical, but for females, it is luxurious. It is the males, after all, who are destined to hold jobs that require learning; Females—well, a measure of common sense is sufficient for bringing up children.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中說「male students first, regardless of academic status」，資源幾乎全數給男學生，若有剩餘才輪到高年級女學生。\n❌ (A) 男女機會並不對等。\n❌ (C) 高年級的優先只適用於女學生的排序，男學生不論年級一律優先。\n❌ (D) 學業成績並非決定因素。\n📚 出處：本文第一、二段"
   },
   {
    "n": 49,
@@ -664,7 +707,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "small"
    ],
    "psg": "My wife was one of the many bright and industrious young women of the 1960s who worked their way through college. Somewhere late in her sophomore year, her funds ran low and she inquired at the university about a small loan for books and supplies. She was told that her chance of getting a loan was slim, because university funds were scarce, too, and what resources remained for loans were being given almost exclusively to male students. The only women getting loans at the moment were seniors who were about to graduate. She wasn’t surprised—disappointed, but not surprised. The priorities were well known: male students first, regardless of academic status, and then if there was enough money left, it would go to advanced female students. The university’s loan policy was not unusual; it was just one more expression of an ancient value in the Western tradition. Education for male is practical, but for females, it is luxurious. It is the males, after all, who are destined to hold jobs that require learning; Females—well, a measure of common sense is sufficient for bringing up children.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「her chance of getting a loan was slim」中的 slim 意為「微小的」，最接近 small。\n❌ (A) slender 是苗條的，指身材。\n❌ (B) skinny 是骨瘦如柴的。\n❌ (C) faint 是微弱的，多用於光線、聲音或感覺。\n📚 出處：本文第一段（slim 的字義）"
   },
   {
    "n": 50,
@@ -678,7 +722,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
     "schools"
    ],
    "psg": "My wife was one of the many bright and industrious young women of the 1960s who worked their way through college. Somewhere late in her sophomore year, her funds ran low and she inquired at the university about a small loan for books and supplies. She was told that her chance of getting a loan was slim, because university funds were scarce, too, and what resources remained for loans were being given almost exclusively to male students. The only women getting loans at the moment were seniors who were about to graduate. She wasn’t surprised—disappointed, but not surprised. The priorities were well known: male students first, regardless of academic status, and then if there was enough money left, it would go to advanced female students. The university’s loan policy was not unusual; it was just one more expression of an ancient value in the Western tradition. Education for male is practical, but for females, it is luxurious. It is the males, after all, who are destined to hold jobs that require learning; Females—well, a measure of common sense is sufficient for bringing up children.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「university funds were scarce, too, and what resources remained for loans」中的 resources 承接前句的 funds，指的是可供貸放的「經費」。\n❌ (B) 不是指工作機會。\n❌ (C) 也不是銀行。\n❌ (D) 更不是學校。\n📚 出處：本文第一段"
   }
  ]
 };
