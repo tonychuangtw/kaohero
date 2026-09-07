@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "《民法》規定父母對於未成年子女有「保護照顧」的責任",
     "《建築法》規定所有的公共建築物都須設有「無障礙設施」"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 要求公共建築設置無障礙設施，是對行動不便者這類處境不利者給予額外照顧，最符合「使處境最不利者獲得最大利益」的差異原則。\n❌ (A) 言論等自由權是人人普遍享有的平等自由，非針對弱勢的特別照顧。\n❌ (B) 綜合所得稅的普遍課徵不是對弱勢的照顧。\n❌ (C) 父母的保護教養責任屬親屬法上的義務。\n📚 出處：羅爾斯《正義論》（差異原則）；身心障礙者權益保障法"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "搭便車心態",
     "共有財悲歌"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 居民不反對社會住宅政策本身，卻反對蓋在自家附近，正是「鄰避效應」。\n❌ (B) 誘因不足指缺乏參與的動機。\n❌ (C) 搭便車是不付出成本卻享受公共財。\n❌ (D) 共有財悲歌指共有資源被過度耗用。\n📚 出處：公共政策（鄰避效應）"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "反映人們對世界的看法",
     "人類溝通與認同的工具"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 推行單一標準語能凝聚國家意識、方言消失則削弱地方群體的連結，關鍵在於語言是人們溝通並形成群體認同的工具。\n❌ (A) 反映生活形態差異只是語言的附帶功能。\n❌ (B) 賦予意義是語言的一般功能，未扣國族認同的脈絡。\n❌ (C) 反映世界觀是語言相對論的觀點，非本題的重點。\n📚 出處：社會學（語言與族群認同）"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "文化權利",
     "社會資本"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 財閥與中小企業員工薪資比率下滑、貧富差距擴大、學貸償還困難，反映的都是所得與財富等「經濟資源」分配的不平等。\n❌ (B) 社會地位指聲望與尊敬程度。\n❌ (C) 文化權利指參與文化生活的權利。\n❌ (D) 社會資本指人際網絡與信任。\n📚 出處：社會學（社會階層化的面向：財富、權力、聲望）"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "共產主義重視效率，以專業分工達成目標",
     "資本主義透過市場價格來導引資源的配置"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 資本主義以市場價格機能作為資源配置的訊號與誘因。\n❌ (A) 以自利動機維持生產力的是資本主義。\n❌ (B) 資本主義的經濟活動由市場供需決定，非由資本家統一規劃。\n❌ (C) 共產主義採中央計畫，效率通常低於市場經濟。\n📚 出處：經濟學（經濟制度的比較）"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "外部成本",
     "搭便車"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 普特南以「獨自打保齡球」象徵社團參與衰退、人際連結鬆動，提醒社會資本流失的問題。\n❌ (A) 再生產勞動是女性主義經濟學的概念。\n❌ (C) 外部成本是行為對第三人造成的未內部化成本。\n❌ (D) 搭便車是不付出而享受公共財。\n📚 出處：Putnam, Bowling Alone（社會資本）"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "社會正義論認為全班應與 2 名確診病例一起停課的規定符合均等原則",
     "效益主義主張私益應先於公益，因此停課可保護更多幼童即符合公益"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 社群主義重視共同體的共善與成員的相互責任，為維護全體幼童健康而停課，縱使造成部分家長不便亦屬必要。\n❌ (A) 古典自由主義以個人自由為優先，不會逕以多數福祉合理化少數犧牲。\n❌ (C) 羅爾斯式的正義論關注的是弱勢者的處境，「均等原則」的說法並不準確。\n❌ (D) 效益主義追求最大多數的最大幸福，不會主張私益優先於公益。\n📚 出處：政治哲學（自由主義、社群主義與效益主義）"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "志願結社",
     "柔性政變"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 為抗議惡法而採取公開、非暴力且自願承擔法律後果的違法行動，正是公民不服從。\n❌ (A) 惡法亦法是法實證主義立場，與抗爭相反。\n❌ (C) 志願結社只是組織形式，未涵蓋違法抗爭的本質。\n❌ (D) 柔性政變是體制內奪權，與此無關。\n📚 出處：公民不服從理論（Thoreau、Rawls）"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "監察委員負責對違法失職公務人員提出糾正",
     "監察委員由總統提名，經立法院同意後任命"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 憲法增修條文第 7 條規定，監察委員由總統提名，經立法院同意任命之。\n❌ (A) 公務員懲戒由司法院所屬懲戒法院掌理。\n❌ (B) 審計部審核政府「決算」，不是審查預算並提修正意見。\n❌ (C) 對違法失職公務人員提出的是「彈劾」或「糾舉」；糾正的對象是行政機關的工作與設施。\n📚 出處：憲法第 90、96、97、104 條；憲法增修條文第 7 條"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "考試權獨立，總統不能影響考試院院長人事案",
     "監察院負責審理公務人員及正副總統彈劾案"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 憲法增修條文第 12 條規定，修憲案由立法院提出，公告半年後交由自由地區選舉人投票複決。\n❌ (A) 修憲後行政院院長由總統逕行任命，不須立法院同意。\n❌ (C) 考試院院長由總統提名，總統對人事案有決定性影響。\n❌ (D) 公務人員懲戒由懲戒法院審理，正副總統彈劾案由憲法法庭審理。\n📚 出處：憲法增修條文第 3、4、5、6、12 條"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "立法院可對行政院院長任命案行使同意權",
     "行政院提出的法律案須經立法院三讀通過後方可執行"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。1997 年修憲後立法院對行政院院長已無人事同意權，院長由總統直接任命。\n❌ (A) 正確。增修條文第 3 條的不信任案。\n❌ (B) 正確。行政院有向立法院報告並備質詢之責。\n❌ (D) 正確。法律案須經立法院三讀通過、總統公布後施行。\n📚 出處：憲法增修條文第 3 條；立法院職權行使法"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "美國牛肉存在安全疑慮，公民一起決定是否開放美牛進口",
     "政府應為民謀利，主張政府以公庫款項協助民眾共渡難關"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 是否開放美牛進口屬「重大政策」的創制或複決，是公民投票法所定的適用事項。\n❌ (A) 稅制屬預算、租稅事項，公投法明定不得作為公投提案。\n❌ (B) 人事事項不得作為公投提案。\n❌ (D) 動用公庫款項屬預算事項，同受排除。\n📚 出處：公民投票法第 2、30 條"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "複數選區，相對多數制",
     "複數選區，聯立混合制"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 平地與山地原住民立委各三人，於各該原住民選舉區內以複數選區單記非讓渡投票制、得票較多者當選，屬複數選區相對多數制。\n❌ (A) 比例代表制適用於全國不分區立委。\n❌ (B) 單一選區絕對多數制我國並未採行。\n❌ (D) 聯立混合制是德國的選制。\n📚 出處：憲法增修條文第 4 條；公職人員選舉罷免法"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "45 歲的阿成，自小即設籍在該縣，目前仍受褫奪公權宣告中",
     "22 歲的喬治，是從美國來臺學中文一年的交換學生"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 褫奪公權所剝奪的是「為公務員」與「為公職候選人」的資格，並不剝奪選舉權，故阿成仍得投票。\n❌ (A) 當時選舉權年齡為二十歲，十八歲尚無投票權。\n❌ (B) 選罷法要求在該選舉區繼續居住四個月以上，九月十九日遷入至十二月十九日僅三個月。\n❌ (D) 交換學生非我國國民，無選舉權。\n📚 出處：刑法第 36 條；公職人員選舉罷免法第 14、15 條"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "甲、乙之立委資格均不受影響",
     "甲、乙均失去立委資格"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 區域立委由選民直接選出，退黨不影響其資格；不分區立委依政黨名單產生，喪失黨籍即喪失資格（選罷法第 73 條）。\n❌ (B) 兩者的效果恰好顛倒。\n❌ (C) 乙會喪失資格。\n❌ (D) 甲的資格不受影響。\n📚 出處：公職人員選舉罷免法第 73 條"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "第二次世界大戰後的國際關係屬於多極體系",
     "後冷戰時期的國際關係應屬於一極多元體系"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 冷戰結束後，美國成為唯一超強而其他強權與國際組織並存，形成一超多強（一極多元）的體系。\n❌ (A) 現代國際關係體系一般追溯至 1648 年的西發里亞和約。\n❌ (B) 十八、十九世紀是列強並立的多極體系。\n❌ (C) 二戰後至冷戰結束是美蘇對抗的兩極體系。\n📚 出處：國際關係（國際體系的類型與演變）"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "③④",
     "①④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「一國兩制」指在中國內部同時實行社會主義制度（大陸）與資本主義制度（港澳），即②③。\n❌ (A) 民主主義制度不是「一國兩制」所指的兩制之一。\n❌ (C) 專制政府制度亦非其正式表述。\n❌ (D) 兩項皆非。\n📚 出處：香港基本法、澳門基本法；一國兩制的內容"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "應考試服公職之權利",
     "受國民教育之權利"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 姓名權未見於憲法明文，實務由第 22 條導出（釋字第 399 號）。\n❌ (A) 訴訟權明定於憲法第 16 條。\n❌ (C) 應考試服公職權明定於第 18 條。\n❌ (D) 受國民教育權明定於第 21 條。\n📚 出處：憲法第 16、18、21、22 條；司法院釋字第 399 號解釋"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "大雄：法治國的法律追求實質正義，政府可逕行限制人民的自由",
     "胖虎：法治的優點是具有安定性、效率高，追求於短時間做出決策"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 現代法治的核心是「依法而治」且法律本身須合乎憲法與正義，人民與政府同受法律拘束。\n❌ (B) 法家的「法」是君主統治的工具，屬「以法治國」而非現代法治。\n❌ (C) 法治國正是要求政府限制人民自由須有法律依據並合乎比例，不能逕行限制。\n❌ (D) 追求短時間決策是效率考量，反而可能與正當程序衝突。\n📚 出處：法治國原則（rule of law 與 rule by law 的區別）"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "法律保留原則",
     "信賴保護原則"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 阿三對已核准的建照產生信賴並據以安排，市府事後撤銷該授益處分，涉及行政程序法第 117 至 120 條的信賴保護與補償問題。\n❌ (A) 平等原則處理的是差別待遇。\n❌ (B) 比例原則審查手段與目的的相當性。\n❌ (C) 撤銷違法處分本身有法律依據，不生法律保留問題。\n📚 出處：行政程序法第 8、117、119、120 條"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "高雄地方法院",
     "上述任一法院皆可"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 民事訴訟採「以原就被」原則，除專屬管轄或特別約定外，由被告住所地的法院管轄；被告浩克設籍臺南。\n❌ (A) 臺中是原告索爾的住所地。\n❌ (C) 高雄是雙方工作地，非法定管轄依據。\n❌ (D) 管轄有法定規則，不能任選。\n📚 出處：民事訴訟法第 1 條"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "一般預防理論",
     "特別預防理論"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 出獄後的列管與治療針對的是該行為人本身，目的在矯治其再犯傾向，屬特別預防理論。\n❌ (A) 應報理論著眼於已發生罪行的報應。\n❌ (B) 絕對理論即應報理論的別稱。\n❌ (C) 一般預防著眼於對社會大眾的嚇阻。\n📚 出處：刑法學（刑罰目的論）；性侵害犯罪防治法"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "小華為限制行為能力人，因此不負賠償義務，由父母負全部賠償義務",
     "小華為完全行為能力人，需要負擔全部的賠償金額"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 刑法第 18 條規定滿十八歲者為完全責任能力人，十九歲的小華須負完整的刑事責任。\n❌ (A) 十四歲以上未滿十八歲者才是限制責任能力人。\n❌ (C) 限制行為能力人若有識別能力，與法定代理人連帶負賠償責任（民法第 187 條），不是完全免責。\n❌ (D) 依當時民法，未滿二十歲且未婚者是限制行為能力人。\n📚 出處：刑法第 18 條；民法第 13、187 條"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "法律若為惡法可經訴願程序予以修正",
     "總統公布之法律不須經公民複決"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 法律經立法院三讀通過、總統公布即生效，並不須再經公民複決（公民複決的是修憲案或依公投法提出的法律複決案）。\n❌ (A) 地方議會通過的是自治條例，不是憲法第 170 條的法律。\n❌ (B) 行政命令是為執行法律而訂，位階低於法律，並非法律補充命令。\n❌ (C) 訴願是對行政處分的救濟，不能用來修正法律。\n📚 出處：憲法第 170 條；中央法規標準法第 4 條；公民投票法"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "若對契約條款有疑義時，依法由消基會作最後解釋",
     "是業者和特定消費者雙方合意而設計的個別化契約"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 依消費者保護法及其施行細則，企業經營者以廣告、告示或網頁等方式所為的表示，構成契約內容的一部分。\n❌ (B) 消保法第 11 條之 1 規定應有三十日以內的合理審閱期間，不因商品性質而免除。\n❌ (C) 定型化契約條款有疑義時，應為有利於消費者的解釋，不是由消基會作最後解釋。\n❌ (D) 定型化契約是企業經營者單方預先擬定、供不特定多數人訂約之用，非個別磋商。\n📚 出處：消費者保護法第 2、11、11 條之 1、22 條"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "女兒可提出特留分之請求，以取得遺產",
     "繼承人為配偶和兒子，各得遺產的三分之一"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 養女與婚生子女有同一的繼承地位，遺囑侵害其特留分者，得依民法第 1225 條行使扣減權以取得特留分。\n❌ (A) 遺囑得自由處分應繼分，僅不得侵害特留分。\n❌ (B) 準正是生父母結婚而使非婚生子女視為婚生，與收養不同。\n❌ (D) 配偶與三名子女同為繼承人，應繼分為四人均分，非三分之一。\n📚 出處：民法第 1077、1138、1144、1187、1223、1225 條"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "降價可以達成均衡",
     "漲價可以減少短缺"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 價格 8000 元時供給量 800 台、需求量 1000 台，屬供不應求（短缺 200 台）；價格上漲會使供給量增加、需求量減少，短缺隨之縮小。\n❌ (A) 是供不應求，不是供過於求。\n❌ (B) 均衡出現在 10000 元（供需皆 900 台）。\n❌ (C) 降價會使短缺更嚴重。\n📚 出處：經濟學（供需均衡與短缺）"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "消費者預期該商品價格即將下降",
     "環保政策導致生產該商品廠商的成本提高"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 消費者偏好提高會使需求曲線右移，需求增加。\n❌ (A) 原物料漲價影響的是供給。\n❌ (C) 預期價格下跌會使當期需求「減少」。\n❌ (D) 環保政策提高生產成本，影響的同樣是供給。\n📚 出處：經濟學（需求變動的因素）"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "忽略產品品質的改進",
     "未扣除污染等負產品"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 綠色 GDP 的提出，正是要從傳統 GDP 中扣除自然資源折耗與環境汙染等「負產品」，以反映真實的福祉。\n❌ (A) 休閒價值的忽略是 GDP 的另一項限制，但非綠色 GDP 的針對點。\n❌ (B) 地下經濟未計入亦非綠色 GDP 的處理對象。\n❌ (C) 產品品質的改進屬物價指數的問題。\n📚 出處：經濟學（綠色國民所得帳）"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "採行擴張性貨幣政策，刺激景氣復甦",
     "採行緊縮性貨幣政策，減緩成長力道"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 產業結構改變造成的是結構性失業，勞工的技能與新產業需求不符，最對症的作法是教育訓練與技能再造。\n❌ (B) 就業媒合針對的是摩擦性失業。\n❌ (C) 擴張性貨幣政策針對的是循環性失業。\n❌ (D) 緊縮性政策反而會惡化失業。\n📚 出處：經濟學（失業類型與對應政策）"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "3 萬元屬於公司的銷貨收入",
     "4 萬元是小志的生產者剩餘"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公司出售平板電腦所收取的三萬元，是企業因銷售商品而取得的收入，屬銷貨收入。\n❌ (A) 老張是商品市場的供給者、生產要素市場的需求者。\n❌ (B) 小志是受僱者，商品的供給者是公司。\n❌ (D) 四萬元月薪是勞動的報酬（工資），不是生產者剩餘。\n📚 出處：經濟學（家計與廠商的循環流程圖）"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "營業稅",
     "房屋稅"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 營業稅可透過售價轉嫁給消費者負擔，屬間接稅。\n❌ (A) 遺產稅由納稅義務人自行負擔，屬直接稅。\n❌ (B) 贈與稅同屬直接稅。\n❌ (D) 房屋稅由所有權人負擔，屬直接稅。\n📚 出處：財政學（直接稅與間接稅的區別）"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "需求法則",
     "機會成本"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 小中為了專心準備學測而放棄社長職務，所放棄的最高價值方案即是機會成本，決策正是在權衡機會成本。\n❌ (A) 比較利益法則說明分工與交換的基礎。\n❌ (B) 供給法則講價格與供給量的關係。\n❌ (C) 需求法則講價格與需求量的關係。\n📚 出處：經濟學（機會成本與選擇）"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "人民可購買更多的國外產品",
     "將有大量畢業生前往美國留學"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 一美元由兌 28 元升至 33 元甲國幣，代表甲國貨幣「貶值」；貶值有利出口、不利進口，貿易順差擴大使外匯存底可能成長。\n❌ (A) 貶值使出口品在國外變便宜，出口應增加。\n❌ (C) 進口品變貴，人民能買的國外產品變少。\n❌ (D) 留學成本上升，赴美留學人數應減少。\n📚 出處：經濟學（匯率變動與貿易）"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "切割碎裂的財產權",
     "各逐其利引發的資源耗竭請依下文回答第 36 題至第 39 題：Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 賣方知道魚種真相而買方無從辨識，形成買賣雙方掌握資訊的落差，導致消費者受騙，正是資訊不對稱。\n❌ (A) 交易成本指搜尋、協商與履約的耗費。\n❌ (C) 財產權切割是共有資源的問題。\n❌ (D) 資源耗竭是共有財悲歌的結果，本例的核心是混充詐欺。\n📚 出處：經濟學（資訊不對稱與逆選擇）"
   },
   {
    "n": 36,
@@ -482,7 +517,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "People should help decide about their own programs."
    ],
    "psg": "Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It provides food to hungry people, and believes that it is more important to help people produce their own food. Because of this belief, the organization has programs to help people improve their lives. CARE was organized in 1945 to help people after World War II. At that time, it distributed over 100 million food packages. Meanwhile, it was starting self-help programs. In 2014, it has worked in 90 countries around the world. CARE gives equipment and teaches people how to build water systems, roads, schools, houses, and health centers. It also teaches people how to increase production on their farms, how to reforest areas, and how to start small village industries. Doctors and nurses volunteer to go to villages. They provide health care for the people, teach people how to improve their health, and train people to provide simple medical care. CARE also gives special help when there is a flood, an earthquake, a drought or a war. Where does CARE get its money? Ordinary people in developed countries give money. CARE receives millions of dollars every year. The organization is international. It helps people of any race, color, or religion. It meets with the people to decide on programs together. CARE helps provide the necessities of life to less-developed countries.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) CARE 是致力於解決世界飢餓問題的國際組織，援助對象遍及各發展中國家，不會只限於歐洲的窮人。\n❌ (A) 是其理念。提供食物給飢餓的人。\n❌ (C) 是其理念。教導人們改善自己的生活。\n❌ (D) 是其理念。讓受助者參與決定自己的計畫。\n📚 出處：本文第一段"
   },
   {
    "n": 37,
@@ -496,7 +532,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "How to get money from developed countries"
    ],
    "psg": "Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It provides food to hungry people, and believes that it is more important to help people produce their own food. Because of this belief, the organization has programs to help people improve their lives. CARE was organized in 1945 to help people after World War II. At that time, it distributed over 100 million food packages. Meanwhile, it was starting self-help programs. In 2014, it has worked in 90 countries around the world. CARE gives equipment and teaches people how to build water systems, roads, schools, houses, and health centers. It also teaches people how to increase production on their farms, how to reforest areas, and how to start small village industries. Doctors and nurses volunteer to go to villages. They provide health care for the people, teach people how to improve their health, and train people to provide simple medical care. CARE also gives special help when there is a flood, an earthquake, a drought or a war. Where does CARE get its money? Ordinary people in developed countries give money. CARE receives millions of dollars every year. The organization is international. It helps people of any race, color, or religion. It meets with the people to decide on programs together. CARE helps provide the necessities of life to less-developed countries.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中舉的例子是教導開發程度較低國家的人民在濫伐後重新種樹，屬自助式的技能傳授。\n❌ (B) 不是教人向本國政府申請補助。\n❌ (C) 也不是教人低成本製藥。\n❌ (D) 更不是教人向已開發國家要錢。\n📚 出處：本文第二段"
   },
   {
    "n": 38,
@@ -510,7 +547,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "Because they don’t get jobs elsewhere"
    ],
    "psg": "Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It provides food to hungry people, and believes that it is more important to help people produce their own food. Because of this belief, the organization has programs to help people improve their lives. CARE was organized in 1945 to help people after World War II. At that time, it distributed over 100 million food packages. Meanwhile, it was starting self-help programs. In 2014, it has worked in 90 countries around the world. CARE gives equipment and teaches people how to build water systems, roads, schools, houses, and health centers. It also teaches people how to increase production on their farms, how to reforest areas, and how to start small village industries. Doctors and nurses volunteer to go to villages. They provide health care for the people, teach people how to improve their health, and train people to provide simple medical care. CARE also gives special help when there is a flood, an earthquake, a drought or a war. Where does CARE get its money? Ordinary people in developed countries give money. CARE receives millions of dollars every year. The organization is international. It helps people of any race, color, or religion. It meets with the people to decide on programs together. CARE helps provide the necessities of life to less-developed countries.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 前往村落服務的醫護人員是志願投入（voluntary），並非受迫或為高薪。\n❌ (A) 他們不是被強迫的。\n❌ (C) 也不是因為待遇優渥。\n❌ (D) 更不是因為別處找不到工作。\n📚 出處：本文第二段"
   },
   {
    "n": 39,
@@ -524,7 +562,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "From ordinary people請依下文回答第 40 題至第 44 題：A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our"
    ],
    "psg": "Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It provides food to hungry people, and believes that it is more important to help people produce their own food. Because of this belief, the organization has programs to help people improve their lives. CARE was organized in 1945 to help people after World War II. At that time, it distributed over 100 million food packages. Meanwhile, it was starting self-help programs. In 2014, it has worked in 90 countries around the world. CARE gives equipment and teaches people how to build water systems, roads, schools, houses, and health centers. It also teaches people how to increase production on their farms, how to reforest areas, and how to start small village industries. Doctors and nurses volunteer to go to villages. They provide health care for the people, teach people how to improve their health, and train people to provide simple medical care. CARE also gives special help when there is a flood, an earthquake, a drought or a war. Where does CARE get its money? Ordinary people in developed countries give money. CARE receives millions of dollars every year. The organization is international. It helps people of any race, color, or religion. It meets with the people to decide on programs together. CARE helps provide the necessities of life to less-developed countries.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) CARE 的經費主要來自一般民眾的捐款。\n❌ (A) 政府補助不是其主要來源。\n❌ (B) 也不是來自其他組織。\n❌ (C) 醫護人員是提供服務者，不是資金來源。\n📚 出處：本文末段"
   },
   {
    "n": 40,
@@ -613,7 +652,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "Scientific innovation would definitely lead to a better future."
    ],
    "psg": "Many of us, nowadays, seem to believe that a happy future is something impossible to achieve. While such concerns must be taken very seriously, they are not invincible. They can be overcome when we don’t lock our door to the outside world. Happiness can only be discovered as a gift of harmony between the whole and each single component. Even science--and you know it better than I do--points to an understanding of reality as a place where every element connects and interacts with everything else. And this brings me to my second message. How wonderful would it be if the growth of scientific and technological innovation would come along with more equality and social inclusion. How wonderful would it be, while we discover faraway planets, to rediscover the needs of the brothers and sisters orbiting around us. When one realizes that life, even in the middle of so many contradictions, is a gift, that love is the source and the meaning of life, how can they withhold their urge to do good to another fellow being?",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 與原文不符。講者說的是「如果科技創新能伴隨更多平等與社會包容該有多好」，可見科技創新本身並不必然帶來更好的未來。\n❌ (A) 與原文相符。每個元素都彼此連結與互動。\n❌ (B) 與原文相符。生命在於彼此的互動與給予。\n❌ (C) 與原文相符。不把門鎖上、向外開放才能克服憂慮。\n📚 出處：本文第一、二段"
   },
   {
    "n": 46,
@@ -627,7 +667,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "Social Equality to Be Achieved"
    ],
    "psg": "Many of us, nowadays, seem to believe that a happy future is something impossible to achieve. While such concerns must be taken very seriously, they are not invincible. They can be overcome when we don’t lock our door to the outside world. Happiness can only be discovered as a gift of harmony between the whole and each single component. Even science--and you know it better than I do--points to an understanding of reality as a place where every element connects and interacts with everything else. And this brings me to my second message. How wonderful would it be if the growth of scientific and technological innovation would come along with more equality and social inclusion. How wonderful would it be, while we discover faraway planets, to rediscover the needs of the brothers and sisters orbiting around us. When one realizes that life, even in the middle of so many contradictions, is a gift, that love is the source and the meaning of life, how can they withhold their urge to do good to another fellow being?",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全文以「Happiness can only be discovered as a gift of harmony between the whole and each single component」為核心，主張幸福來自整體與個體的和諧。\n❌ (B) 文中不是在傳授獲得幸福的技巧。\n❌ (C) 科技創新只是其中一段的舉例。\n❌ (D) 社會平等是講者的期望之一，非全文標題。\n📚 出處：本文第一段"
   },
   {
    "n": 47,
@@ -641,7 +682,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "A scientist."
    ],
    "psg": "Many of us, nowadays, seem to believe that a happy future is something impossible to achieve. While such concerns must be taken very seriously, they are not invincible. They can be overcome when we don’t lock our door to the outside world. Happiness can only be discovered as a gift of harmony between the whole and each single component. Even science--and you know it better than I do--points to an understanding of reality as a place where every element connects and interacts with everything else. And this brings me to my second message. How wonderful would it be if the growth of scientific and technological innovation would come along with more equality and social inclusion. How wonderful would it be, while we discover faraway planets, to rediscover the needs of the brothers and sisters orbiting around us. When one realizes that life, even in the middle of so many contradictions, is a gift, that love is the source and the meaning of life, how can they withhold their urge to do good to another fellow being?",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 講詞以「brothers and sisters」稱呼他人、強調愛是生命的源頭與意義，並以「do good to another fellow being」作結，最像宗教性的心靈導師。\n❌ (A) 醫師不會使用這種訓誨語彙。\n❌ (B) 企業經理人的講詞不會以此為主軸。\n❌ (D) 文中反而是引用科學來佐證，說話者本身不像科學家。\n📚 出處：本文語氣與用語"
   },
   {
    "n": 48,
@@ -655,7 +697,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "Global climate change."
    ],
    "psg": "Many of us, nowadays, seem to believe that a happy future is something impossible to achieve. While such concerns must be taken very seriously, they are not invincible. They can be overcome when we don’t lock our door to the outside world. Happiness can only be discovered as a gift of harmony between the whole and each single component. Even science--and you know it better than I do--points to an understanding of reality as a place where every element connects and interacts with everything else. And this brings me to my second message. How wonderful would it be if the growth of scientific and technological innovation would come along with more equality and social inclusion. How wonderful would it be, while we discover faraway planets, to rediscover the needs of the brothers and sisters orbiting around us. When one realizes that life, even in the middle of so many contradictions, is a gift, that love is the source and the meaning of life, how can they withhold their urge to do good to another fellow being?",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 講者說許多人認為幸福的未來遙不可及、呼籲不要把門鎖上並重新看見身邊的人，最可能是在世界各地衝突頻仍的背景下發表。\n❌ (A) 文中未談經濟蕭條。\n❌ (B) 也不是針對兩國競爭。\n❌ (D) 更未提及氣候變遷。\n📚 出處：本文語意脈絡"
   },
   {
    "n": 49,
@@ -669,7 +712,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "To participate in social welfare activities."
    ],
    "psg": "Many of us, nowadays, seem to believe that a happy future is something impossible to achieve. While such concerns must be taken very seriously, they are not invincible. They can be overcome when we don’t lock our door to the outside world. Happiness can only be discovered as a gift of harmony between the whole and each single component. Even science--and you know it better than I do--points to an understanding of reality as a place where every element connects and interacts with everything else. And this brings me to my second message. How wonderful would it be if the growth of scientific and technological innovation would come along with more equality and social inclusion. How wonderful would it be, while we discover faraway planets, to rediscover the needs of the brothers and sisters orbiting around us. When one realizes that life, even in the middle of so many contradictions, is a gift, that love is the source and the meaning of life, how can they withhold their urge to do good to another fellow being?",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 講者說當人明白生命是禮物、愛是生命的源頭與意義時，便無法抑制對他人行善的衝動——最好的解方是真誠地愛身邊的人。\n❌ (B) 捐錢只是形式，非文中所強調的核心。\n❌ (C) 支持科學研究是文中所說須伴隨平等與包容的一環。\n❌ (D) 參與社福活動同樣只是外在行動。\n📚 出處：本文末段"
   },
   {
    "n": 50,
@@ -682,7 +726,8 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "do",
     "do not"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 前句的動詞是一般動詞 enjoys，附和或相反的簡答句須用助動詞 do；表示「我不喜歡」故用 I do not。\n❌ (A) am 只能代替 be 動詞。\n❌ (B) am not 同樣是 be 動詞的形式。\n❌ (C) do 表「我也喜歡」，與 but 的轉折矛盾。\n📚 出處：英文語法（簡答句的助動詞選用）"
   }
  ]
 };
