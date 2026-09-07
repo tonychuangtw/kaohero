@@ -9870,7 +9870,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "113 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
