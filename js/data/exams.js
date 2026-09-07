@@ -32746,7 +32746,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "103 年　三等　法學知識與英文",
   "n": 50,
-  "exp": 0,
+  "exp": 35,
   "mins": 60
  },
  {
@@ -32970,7 +32970,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "103 年　四等　國文",
   "n": 10,
-  "exp": 0,
+  "exp": 8,
   "mins": 30
  },
  {
