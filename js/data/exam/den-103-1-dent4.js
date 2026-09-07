@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "氮（nitrogen）",
     "鈉（sodium）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 骨折癒合時若血液供應不足、局部缺氧，間葉細胞會走向軟骨分化而形成軟骨痂，這也是骨折端不穩定時形成軟骨甚至假關節的原因。\n❌ (B) 鉀離子與骨癒合的分化方向無關。\n❌ (C) 氮不是決定分化方向的因素。\n❌ (D) 鈉離子同樣不影響。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，骨癒合章節"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "針蓋回套時，應以單手回套或以止血鉗夾著針蓋回套避免針扎",
     "優碘可用於口內傷口的消毒"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。洗必泰對革蘭氏「陽性」菌的效果明顯優於陰性菌，兩者並不相同。\n❌ (B) 正確。感染性病人應排在最後看診以減少交叉感染。\n❌ (C) 正確。針蓋回套須用單手法或器械輔助以免針扎。\n❌ (D) 正確。優碘可用於口內傷口的消毒。\n📚 出處：牙科感染管制指引"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Propionibacterium acnes",
     "Staphylococcus aureus"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 金黃色葡萄球菌約有三成的人長期定殖於鼻前庭，再由鼻腔移居到顏面皮膚，是顏面皮膚感染最主要的菌種。\n❌ (A) 表皮葡萄球菌本來就是皮膚的常在菌。\n❌ (B) 白喉桿菌定殖於咽喉，且現已少見。\n❌ (C) 痤瘡丙酸桿菌住在皮脂腺內，不是由鼻腔移居。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，顏面感染章節"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "使用氧化乙烯（ethylene oxide）氣體滅菌法，在溫度50℃時3小時就可以有效殺死微生物，包括孢子",
     "氧化乙烯（ethylene oxide）的優點是能對多孔性材質作有效滅菌，缺點是易使器械鈍化"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 環氧乙烷在約 50℃、數小時的作用下可殺死包括芽孢在內的所有微生物，適合怕熱與怕濕的器械。\n❌ (A) 乾熱的傳導效率差，滅菌效果不如濕熱。\n❌ (B) 所需時間長、易鈍化器械的是「乾熱法」。\n❌ (D) 環氧乙烷不會使器械鈍化，它的缺點是耗時長且有毒性殘留。\n📚 出處：牙科感染管制，滅菌方法比較"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "尼龍（nylon）可為單股或多股纖維製成之縫線，與絲線比較，前者較不易引起發炎反應",
     "聚丙烯縫線（polypropylene）歸屬於可吸收縫線，與聚酯縫線（polyester）比較，後者較不易引起發炎反應"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。聚丙烯縫線是「不可吸收」的單股合成線，而且它引起的組織反應比聚酯線更小。\n❌ (A) 正確。零的數目愈多線愈細，3-0 比 1-0 細且強度低。\n❌ (B) 正確。絲線雖屬不可吸收，長期仍會被分解而消失。\n❌ (C) 正確。尼龍的組織反應比絲線小。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，縫合材料章節"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "X＝1.5Y",
     "X＝2Y"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 皮瓣的基底寬度至少要是垂直切線長度的兩倍，才能保有足夠的血液供應而不致壞死。\n❌ (A) 基底只有長度的一半，血供嚴重不足。\n❌ (B) 寬長相等仍不足以確保灌流。\n❌ (C) 1.5 倍尚未達到安全比例。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，皮瓣設計原則"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "應使用含有 1:50,000 epinephrine 的麻醉劑",
     "應由 nasopalatine papilla（鼻腭乳突）的側邊進針"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。1:50,000 的高濃度腎上腺素只用於需要止血的手術部位；鼻腭神經阻斷用一般 1:100,000 即可，腭部組織緻密，高濃度反而增加壞死風險。\n❌ (A) 正確。腭部注射須極慢，每分鐘不超過 0.5 mL 以減輕疼痛。\n❌ (B) 正確。此處回抽見血的機率低於 1%。\n❌ (D) 正確。應由鼻腭乳突的側邊進針以減少疼痛。\n📚 出處：Malamed, Handbook of Local Anesthesia"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "降低去極化速率（rate of depolarization）",
     "縮短再極化速率（rate of repolarization）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。局部麻醉劑阻斷的是鈉離子內流，作用是「延緩再極化」而不是縮短再極化速率。\n❌ (A) 正確。可改變神經膜的靜止電位。\n❌ (B) 正確。使閾電位提高而不易被激發。\n❌ (C) 正確。降低去極化的速率使動作電位無法形成。\n📚 出處：Malamed, Handbook of Local Anesthesia，作用機轉章節"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "打到血管，局部出血",
     "打到內翼肌，造成傷害"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 麻醉劑中的腎上腺素濃度只影響麻醉深度與止血，與術後張口受限（牙關緊閉）沒有因果關係。\n❌ (B) 有可能。注射區感染會造成肌肉發炎與張口受限。\n❌ (C) 有可能。刺破血管形成血腫，血液刺激肌肉造成痙攣。\n❌ (D) 有可能。針頭傷及內翼肌是下顎阻斷麻醉後牙關緊閉最常見的原因。\n📚 出處：Malamed, Handbook of Local Anesthesia，局部併發症章節"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "當拔錯牙後，如果牙齒在口外時間太長時，應考慮改為矯正、植牙或牙橋方式重建",
     "即使拔錯牙經過適當處理後，就可以隱瞞病人關於拔錯牙之情形"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。拔錯牙必須誠實告知病人並記錄於病歷，隱瞞不但違反醫學倫理，也構成法律責任。\n❌ (A) 正確。術前反覆核對身分與牙位是最重要的預防措施。\n❌ (B) 正確。發現拔錯應立即植回原位並固定。\n❌ (C) 正確。口外時間過長時應改以矯正、植牙或牙橋重建。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，醫療安全與倫理章節"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "10～12",
     "12～14"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 根尖挺是細小的器械，用來取出斷折在根尖區約 2 至 4 mm 的小根尖碎片。\n❌ (B) 6 至 8 mm 的斷根應改用根挺或翻瓣去骨。\n❌ (C) 10 至 12 mm 已是整根牙根。\n❌ (D) 12 至 14 mm 更是完整牙根的長度。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，拔牙器械章節"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "完全低於第二大臼齒的齒頸線",
     "高於第二大臼齒的咬合面"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Pell and Gregory 的深度分類中，B 類指智齒的最高點位於第二大臼齒咬合面與齒頸線之間。\n❌ (A) 與咬合面等高或更高屬 A 類。\n❌ (C) 完全低於齒頸線是 C 類。\n❌ (D) 高於咬合面同樣屬 A 類。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，阻生齒分類章節"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "阻生齒拔除手術後應請病人冰敷3天，可以防止術後腫脹",
     "手術後第3天開始熱敷，可以使術後腫脹較快消除"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。冰敷只在術後最初 24 小時內有效（減少血管滲出），敷三天不但無益，還會妨礙後續的吸收與消腫。\n❌ (A) 正確。冰敷採敷 20 分鐘、休息 20 分鐘的間歇方式。\n❌ (B) 正確。腫脹在術後 24 至 48 小時達到高峰。\n❌ (D) 正確。第三天改熱敷可促進循環、加速腫脹消退。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，術後照護章節"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "低估患者身體的抵抗力",
     "沒有徹底清除傷口的感染"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 糖尿病病人的白血球趨化與吞噬功能低下、微血管循環差，醫師低估了她的抵抗力不足，才會在拔牙後數小時內感染急速擴散。\n❌ (A) 劑量問題不會在數小時內造成如此劇烈的惡化。\n❌ (B) 給藥途徑不是本例的關鍵。\n❌ (D) 已拔除病源牙並清創，主要變數仍在宿主的免疫狀態。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，齒源性感染章節"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Mediastinum",
     "Deep temporal space"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 感染沿著頸部筋膜下行進入縱膈腔會造成縱膈炎，死亡率極高，是齒源性感染最危險的擴散途徑。\n❌ (A) 眶下腔感染雖可能上行至海綿竇，但本身危險性不及縱膈腔。\n❌ (B) 翼下顎腔感染主要造成張口受限。\n❌ (D) 深顳腔感染屬中度風險。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，筋膜腔感染章節"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "當傷口排出的膿性液體消失時，必須等到一週才可抽出",
     "傷口若一直有滲出液流出，不是移除乳膠式引流管（latex Penrose drain）的適當時機"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 下顎周圍筋膜腔（如顎下、咀嚼肌腔）的膿瘍，引流管應由口外的低位（重力可引流處）導入，才能靠重力持續排出。\n❌ (B) 反覆沖洗並不會加速感染消除，重點在充分引流。\n❌ (C) 膿性分泌物停止即可拔除引流管，不必固定等一週。\n❌ (D) 滲出液仍多時本來就要保留引流管，此敘述的因果邏輯不成立。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，切開引流章節"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "麻醉劑不能注射在準備要做切開引流的區域，容易造成感染擴散",
     "被引流的膿瘍液體不再出現時，引流管才能移除"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 引流管留置到膿性液體不再出現為止，是判斷可否移除的標準。\n❌ (A) 輕微的局限性感染只要移除病源牙即可，不一定需要抗生素。\n❌ (B) 接種期（inoculation stage）組織尚未化膿，治療是移除病源與抗生素，不是切開引流。\n❌ (C) 麻醉可以打在切開引流區的周邊（區域阻斷），只是不直接注入膿腔。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，齒源性感染處置章節"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "感染容易擴散",
     "厭氧性細菌感染"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 頦下區與口底同時腫大即路德維希氏咽峽炎的典型表現，舌頭被往上後推而壓迫呼吸道，窒息是最立即的致命危險。\n❌ (A) 年紀大只是影響免疫與癒合的背景因素。\n❌ (C) 感染擴散是後續風險，但當下最急迫的是呼吸道。\n❌ (D) 厭氧菌感染需要處理，但危險性仍源自氣道阻塞。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，路德維希氏咽峽炎章節"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Clindamycin",
     "Augmentin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Augmentin 是 amoxicillin 加上 clavulanic acid，後者可抑制 β 內醯胺酶，正好對付會產生此酵素的菌種。\n❌ (A) Penicillin V 會被 β 內醯胺酶分解。\n❌ (B) 單獨的 amoxicillin 同樣會被分解。\n❌ (C) Clindamycin 雖可用於過敏病人，但本題強調的是對抗 β 內醯胺酶，加酵素抑制劑的組合才是直接解方。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，抗生素選擇章節"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "9～11天",
     "13～15天"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 骨牽引的延遲期（切骨後到開始牽引的等待期）約為 4 至 7 天，讓初期的骨痂形成。\n❌ (A) 少於 2 天骨痂尚未形成，牽引會造成纖維癒合。\n❌ (C) 9 至 11 天骨痂已開始礦化，牽引阻力增加。\n❌ (D) 13 至 15 天更可能造成早期骨性癒合而無法牽引。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，骨牽引成骨章節"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "小量的發炎性纖維組織，可切除後並做初級縫合",
     "大量的發炎性纖維組織，可切除後並做次級縫合，因為初級縫合可能導致前庭消失"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。腫裂齦瘤是義齒邊緣長期壓迫造成的反應性增生，局部無牙區戴活動義齒者都可能發生，不限於全口無牙。\n❌ (B) 正確。任何義齒的不當壓力都可能造成。\n❌ (C) 正確。量少時切除後可做初級縫合。\n❌ (D) 正確。量大時做次級癒合以免前庭深度消失。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，術前準備手術章節"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "必須將黏膜和黏膜下組織分離以建立黏膜下隧道",
     "需要用裂層（split-thickness）皮膚或腭黏膜移植"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。黏膜下前庭成形術的前提就是「黏膜量足夠」，因此不需要任何皮膚或腭黏膜移植；需要移植的是其他型式的前庭成形術。\n❌ (A) 正確。它是把黏膜下的中間層組織切除或移位。\n❌ (B) 正確。適應症是黏膜足夠且術後不影響唇形。\n❌ (C) 正確。先分離黏膜與黏膜下組織建立隧道。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，前庭成形術章節"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "不必要將軟組織再度縫合，因為軟組織會再度裂開",
     "照顧好植體暴露的部分，將來的成功率還是很高"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤在此。植體頂端只暴露 1 mm 而沒有發炎或動搖時，只要維持清潔即可，完全不需要移除植體。\n❌ (A) 正確。加強口腔衛生照顧暴露部位即可。\n❌ (C) 正確。勉強再縫合通常仍會再度裂開。\n❌ (D) 正確。清潔維持良好時長期成功率仍高。\n📚 出處：Misch, Contemporary Implant Dentistry，術後併發症章節"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "初期成功率可能很好，但長期成功率很快就下降",
     "有骨整合的病人，其牙科植體長期成功率比較高"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。植體與骨之間「全部由新生骨直接接觸」是骨整合的定義；纖維骨整合指的是中間夾著一層纖維結締組織。\n❌ (B) 正確。纖維組織的走向不規則，無法像牙周韌帶那樣有序。\n❌ (C) 正確。初期看似成功，但長期失敗率高。\n❌ (D) 正確。真正骨整合的植體長期成功率較高。\n📚 出處：Misch, Contemporary Implant Dentistry，骨整合章節"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "0.7 mm",
     "1 mm"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 植體四周至少需保留 1 mm 的骨壁厚度（唇頰側建議 1.5 至 2 mm），才能承受骨改建而不至於裂開。\n❌ (A) 0.3 mm 的骨壁在癒合期就會吸收殆盡。\n❌ (B) 0.5 mm 同樣過薄。\n❌ (C) 0.7 mm 仍不足以維持長期穩定。\n📚 出處：Misch, Contemporary Implant Dentistry，植體位置規劃章節"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "第一、二、三、四階層（Level I,II,III,IV）",
     "第一、二、三、四、五階層（Level I,II,III,IV,V）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 廣泛性（根除性）頸部廓清術要清除第一到第五全部五個階層的淋巴結，並一併切除胸鎖乳突肌、內頸靜脈與副神經。\n❌ (A) 只清一、二階層屬選擇性廓清。\n❌ (B) 一至三階層是舌骨上型的選擇性廓清。\n❌ (C) 一至四階層仍屬選擇性範圍。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，頸部廓清術章節"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "T2N1M0",
     "T3N2M0"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) T2N0M0 的舌癌雖然頸部臨床陰性，但潛在轉移率超過兩成，是預防性（選擇性）頸部廓清術的典型適應症。\n❌ (B) T3 已屬進階期，多需合併治療而非單純的預防性廓清。\n❌ (C) N1 代表已有臨床轉移，屬治療性而非預防性廓清。\n❌ (D) N2 同樣已是治療性廓清的範圍。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，口腔癌治療章節"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "造袋術合併下顎骨局部切除術",
     "造袋術後另行剜出術"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 8 公分的巨大含齒囊腫若直接剜出，會有病理性骨折與傷及神經的風險；先做造袋術減壓、待囊腔縮小後再行剜出最為理想。\n❌ (A) 直接剜出風險過高。\n❌ (B) 含齒囊腫是良性病灶，不需切除下顎骨。\n❌ (C) 同樣不需要做骨切除。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，顎骨囊腫處置章節"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "病患回家後需作沖洗清潔等居家照顧",
     "易造成病理性骨折"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 造袋術正是為了避免大囊腫直接剜出時的病理性骨折，它降低而非增加骨折風險，因此不是缺點。\n❌ (A) 是缺點。囊壁留在原處無法完全取出。\n❌ (B) 是缺點。只取部分組織，病理診斷可能不完整。\n❌ (C) 是缺點。病人需長期自行沖洗照顧開窗處。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，造袋術章節"
   },
   {
    "n": 30,
@@ -406,7 +435,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
    "a": 0,
    "alt": [
     2
-   ]
+   ],
+   "exp": "✅ (A) 帶狀疱疹最常侵犯胸腰段的軀體感覺神經（胸部皮節約占五成以上），頭頸部只占少數。\n❌ (B) 顏面神經受犯即侖謝亨特症候群，相對少見。\n❌ (C) 三叉神經（尤其眼分枝）雖是頭頸部最常見的部位，但整體發生率仍低於軀體神經。\n❌ (D) 舌下神經是運動神經，不會有帶狀疱疹。\n📚 出處：Neville, Oral and Maxillofacial Pathology，病毒感染章節"
   },
   {
    "n": 31,
@@ -419,7 +449,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "感覺神經纖維「Aα」的直徑比「Aδ」小",
     "感覺神經纖維「C」的直徑比「B」大"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 神經纖維的直徑愈大、髓鞘愈厚，傳導速度愈快，這是神經生理學的基本原則。\n❌ (B) 與事實相反。\n❌ (C) Aα 是最粗的纖維，直徑比 Aδ 大。\n❌ (D) C 纖維無髓鞘且最細，直徑比 B 纖維小。\n📚 出處：神經生理學，神經纖維分類"
   },
   {
    "n": 32,
@@ -432,7 +463,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "造袋術對於早期病灶是適當的治療方式",
     "最常發生於顎下腺"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯誤在此。蛤蟆腫是「舌下腺」的黏液滯留或外滲囊腫，不是顎下腺。\n❌ (A) 正確。可分為單純型與潛沒型（穿過下頜舌骨肌到頸部）。\n❌ (B) 正確。最常見於口底。\n❌ (C) 正確。早期病灶可用造袋術處理。\n📚 出處：Neville, Oral and Maxillofacial Pathology，唾液腺病變章節"
   },
   {
    "n": 33,
@@ -445,7 +477,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "切除全腺，保留顏面神經",
     "切除全腺包括顏面神經"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腮腺腫瘤合併同側顏面神經麻痺代表神經已被腫瘤侵犯，屬惡性表現，必須做全腺切除並一併犧牲顏面神經。\n❌ (A) 神經已被侵犯，保留神經等於留下腫瘤。\n❌ (B) 只切表葉無法清除深葉的腫瘤。\n❌ (C) 保留已被侵犯的神經同樣不符腫瘤學原則。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，唾液腺腫瘤章節"
   },
   {
    "n": 34,
@@ -458,7 +491,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "左側的後牙區會有開咬情形",
     "左側的後牙區會有過早接觸"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 髁突下骨折使患側下顎枝高度變短，患側後牙會「提早接觸」，而開咬出現在「對側」，因此左側後牙開咬不是本例的特徵。\n❌ (A) 是特徵。患側高度變短造成顏面往左偏斜。\n❌ (B) 是特徵。開口時下顎往患側（左）偏移。\n❌ (D) 是特徵。患側後牙提早接觸。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，髁突骨折章節"
   },
   {
    "n": 35,
@@ -471,7 +505,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "subcutaneous emphysema",
     "distended jugular veins"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 開放性氣胸以三邊固定敷料封閉並放置胸管，目的是避免空氣只進不出而形成張力性氣胸，造成縱膈移位與心輸出量驟降。\n❌ (A) 血胸需要引流，但不是封閉傷口的主要目的。\n❌ (C) 皮下氣腫多可自行吸收。\n❌ (D) 頸靜脈怒張是張力性氣胸的「結果」而非要預防的問題本身。\n📚 出處：ATLS 高級創傷救命術，胸部創傷章節"
   },
   {
    "n": 36,
@@ -484,7 +519,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Waters' view",
     "PA view of skull"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 華特氏攝影（枕頦位）可清楚顯示上顎竇、眼眶下緣與顴骨弓，是中顏面骨折最常用的篩檢影像。\n❌ (A) 環口片主要看下顎與牙齒。\n❌ (B) 開口 Towne 氏攝影用於觀察髁突。\n❌ (D) 顱骨後前位對中顏面的細節顯示不足。\n📚 出處：White and Pharoah, Oral Radiology，顎顏面外傷影像章節"
   },
   {
    "n": 37,
@@ -497,7 +533,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "水平牙根斷折一般需固定2～3個月",
     "動搖若只是輕微的情況，減少咬合接觸即可"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。下壓內縮是最嚴重的脫位型外傷，牙髓壞死率極高（成熟牙可近百分之百）。\n❌ (B) 正確。挺出的牙齒復位後彈性固定 1 至 3 週。\n❌ (C) 正確。水平牙根斷折需固定較久，可達 2 至 3 個月。\n❌ (D) 正確。輕微動搖只需減少咬合接觸並觀察。\n📚 出處：IADT Guidelines for the Management of Traumatic Dental Injuries"
   },
   {
    "n": 38,
@@ -510,7 +547,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "上顎骨之發育",
     "口輪匝肌的功能"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 唇裂修補無法促進上顎骨的發育，手術造成的疤痕反而可能限制上顎的生長。\n❌ (A) 是目標。修復唇的連續性以恢復吸吮功能。\n❌ (B) 是目標。同時矯正鼻翼塌陷等鼻部畸形。\n❌ (D) 是目標。重建口輪匝肌的連續性與功能。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，唇腭裂章節"
   },
   {
    "n": 39,
@@ -523,7 +561,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "autografts",
     "alloplastic grafts"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 自體移植骨中含有存活的成骨細胞，可直接生成新骨，這就是第一相骨生成，也是自體骨被視為黃金標準的原因。\n❌ (A) 異種移植只能作為支架（骨傳導）。\n❌ (B) 同種異體移植沒有活細胞，靠的是骨誘導與骨傳導。\n❌ (D) 人工合成材料只有骨傳導性。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，骨移植章節"
   },
   {
    "n": 40,
@@ -549,7 +588,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "完全腭裂（complete cleft palate）",
     "不完全唇裂及腭裂（incomplete cleft lip and cleft palate）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 分岐懸壅垂、硬腭後緣骨切迹與軟腭正中透明帶（肌肉分離而黏膜完整），正是黏膜下腭裂的三大典型徵象。\n❌ (B) 不完全腭裂的黏膜已裂開，肉眼可見裂隙。\n❌ (C) 完全腭裂從門齒孔一路裂到懸壅垂。\n❌ (D) 本例並無唇部裂隙。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，唇腭裂章節"
   },
   {
    "n": 42,
@@ -562,7 +602,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "60000",
     "80000"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 血小板低於 20000/mm³ 時有自發性出血風險，侵入性處置前需輸血小板；50000 以上一般可安全拔牙。\n❌ (B) 50000 已足以應付單純拔牙。\n❌ (C) 60000 更無輸注必要。\n❌ (D) 80000 接近正常下限。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，出血傾向病人的處置"
   },
   {
    "n": 43,
@@ -575,7 +616,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "2",
     "3"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 成人正常尿量約為每公斤每小時 1 mL，低於 0.5 mL 即視為少尿，是判斷灌流是否足夠的重要指標。\n❌ (A) 0.5 mL 已是少尿的界線。\n❌ (C) 2 mL 屬多尿。\n❌ (D) 3 mL 更超出正常範圍。\n📚 出處：外科學，體液電解質與監測章節"
   },
   {
    "n": 44,
@@ -588,7 +630,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "84",
     "94"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 血氧飽和度低於 94% 即視為缺氧，臨床上應立即給氧並找出原因；低於 90% 屬明顯低血氧。\n❌ (A) 64% 已是嚴重缺氧、意識可能改變。\n❌ (B) 74% 同樣屬危急狀態。\n❌ (C) 84% 已需積極處置，不是判定的起點。\n📚 出處：Malamed, Medical Emergencies in the Dental Office"
   },
   {
    "n": 45,
@@ -601,7 +644,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "protamine",
     "diphenhydramine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 魚精蛋白帶強正電，可與帶負電的肝素結合成無活性的複合物，是肝素過量的專一解毒劑。\n❌ (A) Warfarin 是另一種抗凝血劑，不但不能中和還會加重出血。\n❌ (B) Carbamazepine 是抗癲癇藥。\n❌ (D) Diphenhydramine 是抗組織胺。\n📚 出處：Yagiela, Pharmacology and Therapeutics for Dentistry，抗凝血劑章節"
   },
   {
    "n": 46,
@@ -614,7 +658,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "類固醇",
     "nitroglycerin"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 中重度氣喘且長期使用類固醇的病人，手術壓力可能誘發支氣管痙攣或腎上腺功能不全，術前應與內科醫師討論是否給予類固醇補充。\n❌ (A) 抗生素與氣喘控制無關。\n❌ (B) 非類固醇消炎藥反而可能誘發阿斯匹靈敏感型氣喘。\n❌ (D) 硝化甘油是用於心絞痛的藥物。\n📚 出處：Malamed, Medical Emergencies in the Dental Office，呼吸道疾病章節"
   },
   {
    "n": 47,
@@ -627,7 +672,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Epinephrine",
     "Methylprednisolone"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 過敏性休克的第一線用藥是腎上腺素（成人 0.3 至 0.5 mg 肌肉注射），可立即擴張支氣管並收縮血管。\n❌ (A) Midazolam 是鎮靜劑，會加重呼吸抑制。\n❌ (B) 抗組織胺只是輔助用藥，作用太慢。\n❌ (D) 類固醇作用需數小時，用於預防延遲相反應。\n📚 出處：Malamed, Medical Emergencies in the Dental Office，過敏反應章節"
   },
   {
    "n": 48,
@@ -640,7 +686,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "患者於張口運動可聽到彈響（clicking）",
     "關節盤的形狀為雙凹型（biconcave）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 不可復位性前移位在關節造影與磁振造影上都可見關節盤停留在髁頭前方，張口時也不回復原位。\n❌ (B) 張口時下顎會明顯偏向患側，正中線偏移是典型表現。\n❌ (C) 正因關節盤不再復位，原本的彈響反而「消失」。\n❌ (D) 長期移位的關節盤會變形增厚，失去雙凹形態。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion，關節盤移位章節"
   },
   {
    "n": 49,
@@ -653,7 +700,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "只有②③",
     "①②③"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 目前認為①機械性過負荷、②缺氧再灌流產生自由基、③神經性發炎釋出的神經胜肽三者共同參與退化性關節疾病的形成。\n❌ (A) 漏掉神經性發炎這一環。\n❌ (B) 漏掉缺氧再灌流傷害。\n❌ (C) 漏掉最基本的機械性傷害。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion，退化性關節疾病章節"
   },
   {
    "n": 50,
@@ -666,7 +714,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "進行關節觸診時，宜請病患將下顎略往前突出（protrusive）",
     "不可復性關節盤前移（anterior disc displacement without reduction）在張口檢查時，通常下顎會偏向患側"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤在此。終端感覺測試是在病人張到最大後由醫師「施力」再撐開，測的是被動運動範圍，不是主動運動範圍。\n❌ (B) 正確。張口度與側向運動約為 4:1 的比例。\n❌ (C) 正確。略為前突可讓髁頭離開關節窩，便於觸診。\n❌ (D) 正確。不可復位性移位張口時下顎偏向患側。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion，臨床檢查章節"
   },
   {
    "n": 51,
@@ -679,7 +728,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "如果是牙齒周圍膿瘍（abscess formation），就先給予切開引流手術治療",
     "如果沒有家屬在場，先給予非侵入性牙齒治療"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 領有精神障礙證明的病人其同意能力可能受限，家屬不在場時應以非侵入性處置（投藥、暫時緩解）為主，待監護人到場再進行需要同意的治療。\n❌ (A) 牙髓腔開擴屬不可逆的侵入性治療。\n❌ (B) 拔牙更是不可逆處置。\n❌ (C) 切開引流同樣是侵入性手術（除非已危及生命的緊急狀況）。\n📚 出處：醫療法知情同意與特殊需求病人處置原則"
   },
   {
    "n": 52,
@@ -692,7 +742,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "只有①③④",
     "①②③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ①全身病史（抽菸、糖尿病影響骨整合）、③經濟負擔（植牙非健保給付且療程長）、④斷層掃描確認下齒槽神經位置，三者都是植牙前必要的確認。\n❌ (A) 漏掉病史與經濟評估，且②根尖片無法可靠判斷骨密度。\n❌ (B) 同樣誤含②。\n❌ (D) 誤把②也算進去。\n📚 出處：Misch, Contemporary Implant Dentistry，術前評估章節"
   },
   {
    "n": 53,
@@ -705,7 +756,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "③④",
     "只有①④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 第二階段手術前後拍根尖片，是為了②確認植體與齒槽骨的骨整合（有無透射線）與③檢查癒合基台與植體之間是否完全密合。\n❌ (A) ①神經距離在第一階段前就已評估完畢；④平行度不是這階段的目的。\n❌ (C) ④植體的平行度在植入時就已決定。\n❌ (D) 兩項都不是第二階段拍片的目的。\n📚 出處：Misch, Contemporary Implant Dentistry，二階段手術章節"
   },
   {
    "n": 54,
@@ -718,7 +770,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "sialodochitis",
     "tumor of gland"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 進食時腫脹加劇、導管口無唾液卻有膿、口底可觸及硬結石，是唾液腺結石阻塞導管的典型三聯表現。\n❌ (B) 單純的唾液腺炎不會摸到石頭般的硬塊。\n❌ (C) 導管炎是結石造成的續發變化，不是主診斷。\n❌ (D) 腺體腫瘤不會隨進食而腫脹，也不會摸到硬石。\n📚 出處：Neville, Oral and Maxillofacial Pathology，唾液腺疾病章節"
   },
   {
    "n": 55,
@@ -731,7 +784,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "顎下腺",
     "艾勃納氏腺（Ebner’s gland）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 顎下腺約占唾液腺結石的八成以上：它的唾液鹼性且含黏液、導管長又需逆重力上行，最易形成結石。\n❌ (A) 腮腺結石約占一成。\n❌ (B) 舌下腺結石少見。\n❌ (D) 艾勃納氏腺是舌部的小唾液腺，不會形成臨床可見的結石。\n📚 出處：Neville, Oral and Maxillofacial Pathology，唾液腺結石章節"
   },
   {
    "n": 56,
@@ -744,7 +798,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "咬合片",
     "測顱X光片"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 下顎前部咬合片（真咬合位）可讓 X 光垂直穿過口底，最適合顯示華頓氏管內的結石。\n❌ (A) 環口片會被下顎骨與頸椎影像重疊掩蓋。\n❌ (B) 根尖片的視野太小且角度不對。\n❌ (D) 測顱片是側面影像，結石會與骨組織重疊。\n📚 出處：White and Pharoah, Oral Radiology，唾液腺影像章節"
   },
   {
    "n": 57,
@@ -757,7 +812,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Compton scattering",
     "Background scattering"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在牙科使用的 60 至 70 kVp 能量範圍內，與軟組織的作用以康普頓散射為主（約占七成以上）。\n❌ (A) 同調散射只占約 8%，且不轉移能量。\n❌ (B) 光電吸收在低能量與高原子序組織（骨、牙齒）較明顯，但整體比例低於康普頓散射。\n❌ (D) 背景散射不是 X 光與物質作用的基本機轉名稱。\n📚 出處：White and Pharoah, Oral Radiology，輻射物理章節"
   },
   {
    "n": 58,
@@ -770,7 +826,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "60~70 kVp",
     "80~90 kVp"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 口內 X 光機的管電壓多設定在 60 至 70 kVp，兼顧影像對比與病人劑量。\n❌ (A) 20 至 30 kVp 穿透力不足，無法穿過齒質。\n❌ (B) 40 至 50 kVp 仍偏低，且法規要求至少 50 kVp 以上。\n❌ (D) 80 至 90 kVp 是口外攝影或醫用機器的範圍。\n📚 出處：White and Pharoah, Oral Radiology，X 光機構造章節"
   },
   {
    "n": 59,
@@ -783,7 +840,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "管壁",
     "聚焦杯（focusing cup）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 陰極的鎢絲通電加熱後以熱游離放出電子，電子再被加速撞擊陽極靶產生 X 光。\n❌ (A) 陽極是電子撞擊產生 X 光的靶。\n❌ (C) 管壁只是真空玻璃外殼。\n❌ (D) 聚焦杯負責把電子束集中，本身不放出電子。\n📚 出處：White and Pharoah, Oral Radiology，X 光的產生章節"
   },
   {
    "n": 60,
@@ -796,7 +854,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "波長",
     "密度"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 電磁波沒有「密度」這個屬性，區分游離與非游離輻射靠的是能量高低（連帶決定頻率與波長）。\n❌ (A) 是差別。能量高於約 12 eV 才能造成游離。\n❌ (B) 是差別。頻率愈高能量愈大。\n❌ (C) 是差別。波長愈短能量愈大。\n📚 出處：White and Pharoah, Oral Radiology，輻射物理章節"
   },
   {
    "n": 61,
@@ -809,7 +868,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "紅",
     "綠"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 暗房安全燈使用紅色（或琥珀紅）濾光，因為感光乳劑對紅光的敏感度極低，不會造成底片霧化。\n❌ (A) 黃光仍含有底片敏感的波長。\n❌ (B) 白光會直接使底片曝光報廢。\n❌ (D) 綠光正是底片敏感的區域。\n📚 出處：White and Pharoah, Oral Radiology，暗房作業章節"
   },
   {
    "n": 62,
@@ -822,7 +882,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "D速片",
     "E速片"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 感光速度愈慢的底片，銀鹽晶體愈小、影像顆粒愈細；A 速片是最慢的一種，晶體最小。\n❌ (B) B 速片的晶體大於 A 速片。\n❌ (C) D 速片更快、晶體更大。\n❌ (D) E 速片速度最快，晶體最大而顆粒最粗。\n📚 出處：White and Pharoah, Oral Radiology，X 光底片章節"
   },
   {
    "n": 63,
@@ -835,7 +896,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "降低病人之放射線曝露量",
     "增加kVp"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 增感屏把 X 光轉換成可見光來使底片感光，只需極少的 X 光即可成像，主要目的就是降低病人的輻射劑量。\n❌ (A) 它是「縮短」曝光時間。\n❌ (B) 影像的清晰度反而因光的擴散而略降。\n❌ (D) 與管電壓的設定無關。\n📚 出處：White and Pharoah, Oral Radiology，口外攝影章節"
   },
   {
    "n": 64,
@@ -848,7 +910,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "常見於青少年",
     "可能引起牙根斷裂之誤判"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。鼻唇皺摺的影像好發於「年長者」（皮膚鬆弛、皺摺加深），不是青少年。\n❌ (A) 正確。它的斜行影像可用來辨別左右側。\n❌ (B) 正確。遠心（皺摺較厚）處呈較阻射的影像。\n❌ (D) 正確。斜線疊在牙根上時可能被誤判為牙根斷裂。\n📚 出處：White and Pharoah, Oral Radiology，正常解剖影像章節"
   },
   {
    "n": 65,
@@ -874,7 +937,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "纖維性發育不良（fibrous dysplasia）",
     "骨硬化症（osteopetrosis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 毛玻璃狀（ground glass）且與周圍骨界線模糊漸變，是纖維性發育不良最具代表性的影像表現。\n❌ (A) 骨肉瘤典型是日光放射狀骨膜反應與牙周韌帶腔均勻增寬。\n❌ (B) 多發性骨髓瘤呈多發性穿鑿狀透射病灶。\n❌ (D) 骨硬化症呈瀰漫性的高度阻射，骨髓腔消失。\n📚 出處：White and Pharoah, Oral Radiology，骨病變影像章節"
   },
   {
    "n": 67,
@@ -887,7 +951,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "正立的A形",
     "倒立的A形"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 上顎第一大臼齒根分叉的骨破壞在影像上會與腭根重疊，若出現「倒 J 形」的透射影像即可確認根分叉病變。\n❌ (A) 正立的 J 形不是此病變的描述。\n❌ (C) 正立的 A 形同樣不是。\n❌ (D) 倒立的 A 形也不是標準的描述。\n📚 出處：White and Pharoah, Oral Radiology，牙周病影像章節"
   },
   {
    "n": 68,
@@ -900,7 +965,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "羊毛棉花狀影像（cotton-wool appearance）",
     "多圓孔狀影像（multiple punched-out appearance）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 柏哲德氏病晚期骨的重塑混亂，形成大小不一的緻密骨團塊，影像上呈典型的棉花團（cotton-wool）外觀。\n❌ (A) 洋蔥皮狀是伊文氏肉瘤與加雷氏骨髓炎的表現。\n❌ (B) 陽光線狀是骨肉瘤的骨膜反應。\n❌ (D) 多發穿鑿狀是多發性骨髓瘤的表現。\n📚 出處：White and Pharoah, Oral Radiology，代謝性骨病變章節"
   },
   {
    "n": 69,
@@ -926,7 +992,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "可降低影像重疊（superimposition）情形",
     "骨小樑清晰可見"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 傳統斷層攝影只讓選定的斷層清楚、其餘結構被模糊化，骨小樑等細微結構反而看不清楚，這不是它的優點。\n❌ (A) 是優點。可評估頰舌向的骨寬度。\n❌ (B) 是優點。配合軟體可模擬植體置入。\n❌ (C) 是優點。可減少解剖構造的重疊。\n📚 出處：White and Pharoah, Oral Radiology，斷層攝影章節"
   },
   {
    "n": 71,
@@ -939,7 +1006,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "根尖囊腫（radicular cyst）",
     "多發性骨髓瘤（multiple myeloma）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 纖維性發育不良從骨內膨脹性生長，典型會把下齒槽神經管往「上」推移，同時保有毛玻璃狀骨質。\n❌ (A) 鱗狀細胞癌是浸潤性破壞，會侵蝕神經管的皮質邊界而非整條上移。\n❌ (C) 根尖囊腫多把神經管往下推。\n❌ (D) 多發性骨髓瘤造成的是穿鑿狀破壞。\n📚 出處：White and Pharoah, Oral Radiology，骨病變影像章節"
   },
   {
    "n": 72,
@@ -952,7 +1020,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "齒槽骨板（lamina dura）厚度，通常不受影響",
     "上顎骨可能變大"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。地中海型貧血因骨髓過度增生，齒槽骨板與骨小樑都會「變薄」，並形成典型的階梯狀骨小樑。\n❌ (A) 正確。骨髓腔擴大是代償性造血的結果。\n❌ (B) 正確。骨髓增生可使上顎竇腔縮小。\n❌ (D) 正確。上顎骨膨大造成典型的「花栗鼠臉」。\n📚 出處：White and Pharoah, Oral Radiology，血液疾病的影像表現"
   },
   {
    "n": 73,
@@ -965,7 +1034,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Low relative biologic effectiveness",
     "High relative biologic effectiveness"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 低線性能量轉移的輻射（如 X 光、伽瑪射線）能量沿路徑稀疏沈積，多造成單股斷裂，較不易一次造成雙股斷裂。\n❌ (B) 高線性能量轉移（如中子、α 粒子）沿路密集游離，最易造成雙股斷裂。\n❌ (C) 相對生物效應低是「結果」，本題問的是輻射本身的物理性質。\n❌ (D) 相對生物效應高代表傷害大，更容易造成雙股斷裂。\n📚 出處：White and Pharoah, Oral Radiology，輻射生物學章節"
   },
   {
    "n": 74,
@@ -978,7 +1048,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "確定效應（deterministic effect）屬於一種直接的傷害，並無閾值（threshold）",
     "急性輻射傷害引起腦受損、昏迷、死亡的劑量須大於10 Sv"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在此。確定效應（如皮膚紅斑、白內障）有明確的劑量「閾值」，超過才會發生；沒有閾值的是機率效應。\n❌ (A) 正確。輻射傷害分為直接作用於 DNA 與經自由基的間接作用。\n❌ (B) 正確。水分子被游離產生自由基是間接傷害的來源。\n❌ (D) 正確。超過 10 Sv 會出現中樞神經症候群而迅速死亡。\n📚 出處：White and Pharoah, Oral Radiology，輻射生物學章節"
   },
   {
    "n": 75,
@@ -991,7 +1062,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "家長協助固定X光片",
     "放棄拍攝X光片"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 需要有人扶持底片時，應由家長（非懷孕、非經常受曝者）穿戴鉛衣協助，不可由醫療人員代勞。\n❌ (A) 牙醫師經常接觸輻射，職業劑量會不斷累積。\n❌ (B) 助理同屬輻射工作人員，同樣不宜。\n❌ (D) 放棄拍攝會延誤診斷，不是適當處置。\n📚 出處：White and Pharoah, Oral Radiology，輻射防護章節"
   },
   {
    "n": 76,
@@ -1004,7 +1076,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "先向病人解釋其牙周病病情",
     "先說明可能會不舒服，需要他的配合和忍耐"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 病情解說屬於診療溝通，與拍攝作業無關；拍片前最必要的是身分確認、流程說明與請求配合。\n❌ (A) 是必要的。核對身分避免拍錯人。\n❌ (B) 是必要的。說明流程與所需時間可降低焦慮。\n❌ (D) 是必要的。事先說明可能的不適以取得配合。\n📚 出處：White and Pharoah, Oral Radiology，影像作業流程章節"
   },
   {
    "n": 77,
