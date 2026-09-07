@@ -9912,7 +9912,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "113 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 77,
   "mins": 90
  },
  {
