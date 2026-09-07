@@ -8820,7 +8820,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "105 年第一次　牙醫學（五）",
   "n": 80,
-  "exp": 0,
+  "exp": 76,
   "mins": 60
  },
  {
