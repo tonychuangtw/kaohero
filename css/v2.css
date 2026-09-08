@@ -333,3 +333,94 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
   padding:12px 14px;margin:0 0 12px}
 .psg b{display:block;font-size:calc(12.5px * var(--fs,1));letter-spacing:1.4px;color:var(--dim);margin-bottom:4px}
 .psg p{margin:0;font-size:calc(14.8px * var(--fs,1));line-height:1.85;white-space:pre-wrap}
+
+/* ---- 登入與跨裝置同步（js/sync.js）----
+   2026-09-08 Tony 定案先做登入同步：換正式網域時 localStorage 會整包歸零，
+   先把紀錄搬上雲端，使用者的錯題本才不會在搬家那天消失。
+   版面以手機優先：觸控目標一律 ≥40px，之後要包成 App 也不用重做。 */
+.sync-ui{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.hd nav + .sync-ui{margin-left:6px}
+@media(max-width:819px){ .sync-ui{margin-left:auto} .gear{margin-left:6px} }
+
+.sync-login-wrap{position:relative;display:inline-flex}
+.sync-login{min-height:40px;padding:0 14px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);border-radius:999px;cursor:pointer;font-family:inherit;font-weight:700;
+  font-size:calc(14px * var(--fs,1));white-space:nowrap}
+.sync-login:hover{border-color:var(--brand)}
+/* Google 官方按鈕蓋在自家 pill 上接走點擊；GSI 沒載入時 slot 是空的，pill 仍可點 */
+.gsi-slot{position:absolute;inset:0;opacity:.001;overflow:hidden}
+.gsi-slot > div{width:100%;height:100%}
+
+.sync-chip{width:40px;height:40px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);border-radius:50%;cursor:pointer;font-family:inherit;font-weight:800;
+  font-size:calc(15px * var(--fs,1));display:grid;place-items:center;flex:0 0 auto}
+.sync-chip:hover{border-color:var(--brand)}
+.sync-status{font-size:calc(12.5px * var(--fs,1));color:var(--dim);white-space:nowrap;
+  max-width:11em;overflow:hidden;text-overflow:ellipsis}
+/* 手機的標題列擠不下狀態文字，改用底部提示（toast 已有樣式）就好 */
+@media(max-width:560px){ .sync-status{display:none} }
+
+/* ---- 題目回報（js/report.js）---- */
+.rp-wrap{margin:10px 0 0}
+.rp-link{border:0;background:none;color:var(--dim);cursor:pointer;font-family:inherit;
+  font-size:calc(13.5px * var(--fs,1));padding:8px 2px;min-height:40px;text-decoration:underline}
+.rp-link:hover{color:var(--brand)}
+.rp-back{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:60;
+  display:flex;align-items:flex-end;justify-content:center;padding:0}
+@media(min-width:641px){ .rp-back{align-items:center;padding:20px} }
+.rp-box{background:var(--card);color:var(--ink);width:100%;max-width:520px;
+  border:1px solid var(--line);border-radius:16px 16px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));
+  max-height:88vh;overflow:auto}
+@media(min-width:641px){ .rp-box{border-radius:16px;padding-bottom:18px} }
+.rp-h{margin:0 0 4px;font-size:calc(18px * var(--fs,1))}
+.rp-sub{margin:0 0 12px;color:var(--dim);font-size:calc(13px * var(--fs,1))}
+.rp-kinds{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.rp-kind{border:1px solid var(--line);background:var(--bg);color:var(--ink2);border-radius:999px;
+  padding:9px 14px;min-height:40px;cursor:pointer;font-family:inherit;font-weight:600;
+  font-size:calc(13.5px * var(--fs,1))}
+.rp-kind.on{border-color:var(--brand);color:var(--brand);font-weight:800}
+.rp-ta{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;
+  background:var(--bg);color:var(--ink);padding:12px;font-family:inherit;
+  font-size:calc(15px * var(--fs,1));line-height:1.6;resize:vertical}
+.rp-msg{margin:8px 0 0;color:#c0392b;font-size:calc(13px * var(--fs,1));min-height:1.2em}
+.rp-row{display:flex;gap:10px;justify-content:flex-end;margin-top:12px}
+.rp-btn{min-height:44px;padding:0 18px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);border-radius:10px;cursor:pointer;font-family:inherit;font-weight:700;
+  font-size:calc(15px * var(--fs,1))}
+.rp-go{background:var(--brand);border-color:var(--brand);color:#fff}
+.rp-btn[disabled]{opacity:.6;cursor:default}
+
+/* ---- 站務後台（js/admin.js，#/admin）---- */
+.ad-sum{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:12px 0 16px}
+@media(min-width:641px){ .ad-sum{grid-template-columns:repeat(4,1fr)} }
+.ad-stat{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:12px;
+  display:flex;flex-direction:column;gap:2px}
+.ad-stat b{font-size:calc(22px * var(--fs,1));line-height:1.2}
+.ad-stat span{color:var(--dim);font-size:calc(12.5px * var(--fs,1))}
+.ad-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.ad-tab{border:1px solid var(--line);background:var(--bg);color:var(--ink2);border-radius:999px;
+  padding:9px 14px;min-height:40px;cursor:pointer;font-family:inherit;font-weight:600;
+  font-size:calc(13.5px * var(--fs,1))}
+.ad-tab.on{border-color:var(--brand);color:var(--brand);font-weight:800}
+.ad-rep{border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px;background:var(--bg)}
+.ad-rephd{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:6px}
+.ad-pid{font-weight:800;font-size:calc(13.5px * var(--fs,1))}
+.ad-kind{color:var(--dim);font-size:calc(12.5px * var(--fs,1))}
+.ad-st{margin-left:auto;border-radius:999px;padding:3px 10px;font-size:calc(12px * var(--fs,1));
+  border:1px solid var(--line)}
+.ad-st-open{color:#b8860b}
+.ad-st-fixed{color:#1e7a46}
+.ad-st-wontfix{color:var(--dim)}
+.ad-body{margin:0 0 6px;white-space:pre-wrap;word-break:break-word;font-size:calc(14.5px * var(--fs,1))}
+.ad-meta{margin:0;color:var(--dim);font-size:calc(12.5px * var(--fs,1))}
+.ad-note{margin:6px 0 0;color:var(--ink2);font-size:calc(13px * var(--fs,1))}
+.ad-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.ad-act{min-height:40px;padding:0 12px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink);border-radius:10px;cursor:pointer;font-family:inherit;
+  font-size:calc(13.5px * var(--fs,1))}
+.ad-table{display:flex;flex-direction:column}
+.ad-row{display:flex;gap:10px;padding:10px 2px;border-bottom:1px solid var(--line);
+  font-size:calc(13.5px * var(--fs,1))}
+.ad-c1{flex:1 1 auto;word-break:break-all}
+.ad-c2,.ad-c3{flex:0 0 auto;color:var(--dim);white-space:nowrap}
+@media(max-width:560px){ .ad-c3{display:none} }

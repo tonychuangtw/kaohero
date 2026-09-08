@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260908d';
+  var VER = '20260908f';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -588,6 +588,13 @@
         fb.appendChild(nt);
       }
       c.appendChild(fb);
+      // 題目回報入口（2026-09-08）：使用者指出錯誤 → 後台收件匣 → 修正後標修訂日期。
+      // 「這裡有問題會修，而且查得到」才是護城河，不是詳解的字數。
+      if (window.KHReport) {
+        var rw = el('div', 'rp-wrap');
+        rw.appendChild(window.KHReport.link(m.pid || quiz.pid || '', q.n));
+        c.appendChild(rw);
+      }
       c.appendChild(btn(quiz.i + 1 < quiz.qs.length ? T('下一題 →') : T('看結果'), 'w',
         function () { quiz.i++; render(); }));
     }
@@ -805,12 +812,14 @@
       c.appendChild(el('div', 'warnbox', T('✉ 客服信箱尚未設定，站長設定完成後這裡就會出現聯絡方式。')));
     }
     c.appendChild(el('h3', 'ph', T('回報題目或詳解的問題')));
-    c.appendChild(el('p', null, T('為了能快點查證，回報時請盡量附上：考試名稱、年份與次別、原卷題號，以及你認為正確的答案或依據。')));
+    c.appendChild(el('p', null, T('每一題答完後都有「⚑ 回報這題」，直接點就能送出，不必登入；'
+      + '系統會自動帶上卷代碼與題號。若知道正確答案或出處，也請一併寫下，我們查證後會修正並標上修訂日期。')));
     c.appendChild(el('h3', 'ph', T('常見問題')));
     c.appendChild(el('h3', 'ph', T('Q：答案是誰訂的？')));
     c.appendChild(el('p', null, T('A：標準答案完全採用考選部公布的版本；若該題有公布更正答案，本站以更正後的為準。')));
     c.appendChild(el('h3', 'ph', T('Q：我的作答紀錄會不見嗎？')));
-    c.appendChild(el('p', null, T('A：紀錄存在你自己的瀏覽器裡（localStorage），不會上傳。清除瀏覽器資料或換裝置就會不見。')));
+    c.appendChild(el('p', null, T('A：不登入時，紀錄只存在你自己的瀏覽器裡（localStorage），不會上傳；'
+      + '清除瀏覽器資料或換裝置就會不見。登入之後會同步到雲端，換手機也看得到，並且隨時可以匯出帶走。')));
     c.appendChild(el('h3', 'ph', T('Q：要收費嗎？')));
     c.appendChild(el('p', null, T('A：不收費。全部題目與詳解都免費，也沒有廣告。')));
     main.appendChild(c);
@@ -886,6 +895,11 @@
     else if (top === 'sponsor') viewSponsor(main);
     else if (top === 'support') viewSupport(main);
     else if (top === 'about') viewAbout(main);
+    else if (top === 'admin') {
+      // 站務後台：權限由後端 OWNER_EMAIL 把關，前端只是介面
+      if (window.KHAdmin) window.KHAdmin.render(main);
+      else main.appendChild(el('p', 'lead', T('後台元件尚未載入。')));
+    }
     else viewNotFound(main);
     markNav();
     window.scrollTo(0, 0);

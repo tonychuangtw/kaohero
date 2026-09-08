@@ -34,11 +34,18 @@ for (let i = 0; i < 100 && !wsUrl; i++) await sleep(100);
 if (!wsUrl) { console.log('無法啟動 chrome-headless-shell'); srv.kill(); chrome.kill(); process.exit(1); }
 const ws = new WebSocket(wsUrl); await new Promise(r => ws.onopen = r);
 let id = 0; const waits = new Map(); const logs = [];
+/* 本機測試伺服器的 origin（127.0.0.1:89xx）不在 Google OAuth 的允許清單裡，
+   GSI 一定會抱怨一句 "The given origin is not allowed for the given client ID"。
+   那是測試環境的必然結果、不是站上的 bug（正式站 tonychuangtw.github.io 已登記），
+   所以只忽略這一句，其他 console 錯誤照樣要抓。 */
+const IGNORE = [/GSI_LOGGER.*origin is not allowed/i];
 ws.onmessage = e => {
   const m = JSON.parse(e.data);
   if (m.id && waits.has(m.id)) { waits.get(m.id)(m); waits.delete(m.id); }
-  if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error')
-    logs.push(m.params.args.map(a => a.value ?? a.description).join(' '));
+  if (m.method === 'Runtime.consoleAPICalled' && m.params.type === 'error') {
+    const line = m.params.args.map(a => a.value ?? a.description).join(' ');
+    if (!IGNORE.some(re => re.test(line))) logs.push(line);
+  }
   if (m.method === 'Runtime.exceptionThrown')
     logs.push('EXCEPTION ' + (m.params.exceptionDetails?.exception?.description || ''));
 };
@@ -222,6 +229,65 @@ await ev(`document.getElementById('gear').click()`); await sleep(150);
 await ev(`[...document.querySelectorAll('#prefs .chips')][2].firstChild.click()`); await sleep(250);
 ok((await ev(`document.getElementById('nav').textContent`)).includes('考試題庫'), '可以切回中文');
 
+
+// ---- 登入／同步／回報／後台（2026-09-08）----
+await go('');
+ok(await ev(`!!document.querySelector('.hd-in .sync-ui')`), '頁首有同步元件掛載點');
+ok(await ev(`!!document.querySelector('.sync-login')`), '未登入時顯示登入鈕');
+ok(await ev(`document.querySelector('.sync-login').getBoundingClientRect().height >= 40`),
+   '登入鈕觸控目標 ≥40px');
+// 同步用的 key 一律不可用 kaoguhero. 開頭，否則會被整包推上雲端
+ok(await ev(`['khsync.token','khsync.sess','khsync.owner','khsync.ts']
+     .every(k => k.indexOf('kaoguhero.') !== 0)`), '同步自身的 key 不在同步範圍內');
+ok(await ev(`window.KH_CONFIG && !!window.KH_CONFIG.API_BASE && window.KH_CONFIG.APP === 'kaoguhero'`),
+   'API 位址集中在 js/config.js');
+
+// 答完一題之後有「回報這題」，點下去會開對話框
+await hash('#/paper/doc-115-2-med1');
+for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+await ev(`document.querySelector('#main .opt').click()`); await sleep(200);
+ok(await ev(`!!document.querySelector('.rp-link')`), '答題後出現回報入口');
+await ev(`document.querySelector('.rp-link').click()`); await sleep(200);
+ok(await ev(`!!document.querySelector('.rp-box')`), '回報對話框可開啟');
+ok((await ev(`document.querySelector('.rp-sub').textContent`)).includes('doc-115-2-med1'),
+   '回報對話框帶著卷代碼');
+ok(await ev(`document.querySelectorAll('.rp-kind').length === 4`), '回報有四種類型可選');
+// 沒寫內容不可送出
+await ev(`document.querySelector('.rp-go').click()`); await sleep(150);
+ok((await ev(`document.querySelector('.rp-msg').textContent`)).length > 0, '空白回報會被擋下');
+await ev(`document.querySelector('.rp-box .rp-btn').click()`); await sleep(150);
+ok(await ev(`!document.querySelector('.rp-box')`), '回報對話框可關閉');
+
+// 後台未登入時只給提示，不會炸掉
+await hash('#/admin'); await sleep(250);
+ok((await ev(`document.getElementById('main').textContent`)).includes('站務後台'), '#/admin 可開啟');
+ok((await ev(`document.getElementById('main').textContent`)).includes('登入'), '未登入的後台顯示登入提示');
+
+// ---- 手機版面：不可橫向溢出（Tony 2026-09-08「手機也都要可以順順看」，之後要上架 App）----
+// 這個瀏覽器全程跑在 430×900 的手機模擬下；這裡再壓到 360px（常見 Android 寬度）掃一遍。
+await send('Emulation.setDeviceMetricsOverride',
+  { width: 360, height: 780, deviceScaleFactor: 2, mobile: true }, sessionId);
+for (const [h, name] of [['#/', '首頁'], ['#/exams', '題庫總覽'], ['#/wrong', '錯題本'],
+                         ['#/stats', '弱點統計'], ['#/about', '使用說明'], ['#/admin', '站務後台']]) {
+  await hash(h); await sleep(120);
+  const over = await ev(`document.documentElement.scrollWidth - window.innerWidth`);
+  ok(over <= 1, `360px 寬時 ${name} 不橫向溢出（多出 ${over}px）`);
+}
+// 作答畫面與回報對話框也要塞得下
+await hash('#/paper/doc-115-2-med1');
+for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+ok(await ev(`document.documentElement.scrollWidth - window.innerWidth <= 1`), '360px 寬時作答畫面不橫向溢出');
+ok(await ev(`document.querySelector('#main .opt').getBoundingClientRect().height >= 44`),
+   '選項按鈕觸控目標 ≥44px');
+await ev(`document.querySelector('#main .opt').click()`); await sleep(200);
+await ev(`document.querySelector('.rp-link').click()`); await sleep(200);
+ok(await ev(`document.querySelector('.rp-box').getBoundingClientRect().width <= window.innerWidth`),
+   '回報對話框不超出畫面寬度');
+ok(await ev(`document.querySelector('.rp-go').getBoundingClientRect().height >= 44`),
+   '回報送出鈕觸控目標 ≥44px');
+await ev(`document.querySelector('.rp-box .rp-btn').click()`); await sleep(120);
+await send('Emulation.setDeviceMetricsOverride',
+  { width: 430, height: 900, deviceScaleFactor: 2, mobile: true }, sessionId);
 
 ok(logs.length === 0, 'console 沒有錯誤' + (logs.length ? '：' + logs.slice(0, 2).join(' | ') : ''));
 ws.close(); chrome.kill(); srv.kill();
