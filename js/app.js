@@ -262,10 +262,15 @@
       var other = el('div', 'other');
       var obody = el('div', 'body');
       obody.appendChild(el('p', 'stem', D.q));
+      /* 選項兩邊都印，差別只在右邊多了詳解 */
+      D.o.forEach(function (o, i) {
+        var d = el('div', 'opt' + (i === D.a ? ' ok' : ''));
+        d.appendChild(el('b', null, LAB[i])); d.appendChild(el('span', null, o));
+        if (i === D.a) d.appendChild(el('em', 'ans-tag', T('答案')));
+        obody.appendChild(d);
+      });
       var ovoid = el('div', 'void');
-      ovoid.appendChild(el('p', 'ans-lab', T('答案')));
-      ovoid.appendChild(el('div', 'big-a', LAB[D.a]));
-      ovoid.appendChild(el('p', 'after', T('…然後呢？為什麼其他三個不行？差在哪一個字？下次換個問法來考，還是會錯。')));
+      ovoid.appendChild(el('p', 'after', T('…就這樣沒了。為什麼其他三個不行？差在哪一個字？下次換個問法來考，還是會錯。')));
       obody.appendChild(ovoid);
       other.appendChild(obody); colA.appendChild(other); vs.appendChild(colA);
 
