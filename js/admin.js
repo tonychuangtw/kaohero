@@ -153,14 +153,22 @@
           var b = el('button', 'ad-act', a[1]);
           b.type = 'button';
           b.onclick = function () {
-            var note = prompt('處理備註（可留空）：', r.note || '');
-            if (note === null) return;
-            b.disabled = true;
-            req('PATCH', '/api/kgh/admin/reports/' + r.id, { status: a[0], note: note },
-              function (err) {
-                if (err) { b.disabled = false; alert('更新失敗：' + err); return; }
-                reload();
-              });
+            var ask = window.KHDialog
+              ? KHDialog.prompt('處理備註（可留空）：', { title: a[1], value: r.note || '' })
+              : Promise.resolve(prompt('處理備註（可留空）：', r.note || ''));
+            ask.then(function (note) {
+              if (note === null) return;
+              b.disabled = true;
+              req('PATCH', '/api/kgh/admin/reports/' + r.id, { status: a[0], note: note },
+                function (err) {
+                  if (err) {
+                    b.disabled = false;
+                    if (window.KHDialog) KHDialog.toast('更新失敗：' + err); else alert('更新失敗：' + err);
+                    return;
+                  }
+                  reload();
+                });
+            });
           };
           row.appendChild(b);
         });

@@ -424,3 +424,31 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
 .ad-c1{flex:1 1 auto;word-break:break-all}
 .ad-c2,.ad-c3{flex:0 0 auto;color:var(--dim);white-space:nowrap}
 @media(max-width:560px){ .ad-c3{display:none} }
+
+/* ---- 站內對話框（js/dialog.js）----
+   2026-09-08 Tony 回報原生 confirm 框「太難看」，改成與站台同一套配色的彈窗。
+   手機從底部升起、桌機置中；按鈕高度 ≥44px。 */
+.dlg-back{position:fixed;inset:0;z-index:80;display:flex;align-items:flex-end;justify-content:center;
+  background:rgba(0,0,0,.5);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+  opacity:0;transition:opacity .18s}
+.dlg-back.show{opacity:1}
+@media(min-width:641px){ .dlg-back{align-items:center;padding:24px} }
+.dlg{width:100%;max-width:420px;background:var(--card);color:var(--ink);
+  border:1px solid var(--line);border-radius:16px 16px 0 0;
+  padding:20px 18px calc(18px + env(safe-area-inset-bottom));
+  box-shadow:0 12px 40px rgba(0,0,0,.28);
+  transform:translateY(14px);transition:transform .18s cubic-bezier(.3,1.3,.6,1)}
+@media(min-width:641px){ .dlg{border-radius:16px;padding-bottom:18px;transform:scale(.95)} }
+.dlg-back.show .dlg{transform:none}
+.dlg-h{margin:0 0 8px;font-size:calc(17px * var(--fs,1))}
+.dlg-msg{font-size:calc(15px * var(--fs,1));line-height:1.65;white-space:pre-line;
+  word-break:break-word;color:var(--ink2)}
+.dlg-input{width:100%;box-sizing:border-box;margin-top:14px;padding:11px 12px;
+  border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);
+  font-family:inherit;font-size:calc(15px * var(--fs,1))}
+.dlg-btns{display:flex;gap:10px;margin-top:18px}
+.dlg-btn{flex:1;min-height:44px;border:1px solid var(--line);background:var(--bg);color:var(--ink);
+  border-radius:10px;cursor:pointer;font-family:inherit;font-weight:700;
+  font-size:calc(15px * var(--fs,1))}
+.dlg-btn:hover{border-color:var(--brand)}
+.dlg-ok{background:var(--brand);border-color:var(--brand);color:#fff}

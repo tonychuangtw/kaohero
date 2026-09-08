@@ -289,6 +289,27 @@ await ev(`document.querySelector('.rp-box .rp-btn').click()`); await sleep(120);
 await send('Emulation.setDeviceMetricsOverride',
   { width: 430, height: 900, deviceScaleFactor: 2, mobile: true }, sessionId);
 
+// ---- 站內對話框（2026-09-08 Tony：原生 confirm 框「太難看」）----
+await go('');
+ok(await ev(`!!window.KHDialog && typeof KHDialog.confirm === 'function'`), 'KHDialog 已載入');
+// window.alert 已換成站內 toast，不會再跳系統框
+ok(await ev(`window.alert.toString().indexOf('toast') > 0`), 'alert 已換成站內浮出提示');
+// void：Runtime.evaluate 帶 awaitPromise，直接丟 Promise 進去會等到有人按鈕才回，測試會卡死
+await ev(`void window.KHDialog.confirm('測試訊息')`); await sleep(220);
+ok(await ev(`!!document.querySelector('.dlg-back .dlg')`), '確認框可開啟');
+ok((await ev(`document.querySelector('.dlg-msg').textContent`)) === '測試訊息', '確認框顯示訊息');
+ok(await ev(`document.querySelectorAll('.dlg-btns .dlg-btn').length === 2`), '確認框有取消與確定');
+ok(await ev(`document.querySelector('.dlg-ok').getBoundingClientRect().height >= 44`),
+   '對話框按鈕觸控目標 ≥44px');
+ok(await ev(`document.querySelector('.dlg').getBoundingClientRect().width <= window.innerWidth`),
+   '對話框不超出畫面寬度');
+await ev(`document.querySelector('.dlg-btns .dlg-btn').click()`); await sleep(300);
+ok(await ev(`!document.querySelector('.dlg-back')`), '確認框可關閉');
+// 單鍵告知框只有一顆按鈕
+await ev(`void window.KHDialog.info('只有一顆鈕')`); await sleep(220);
+ok(await ev(`document.querySelectorAll('.dlg-btns .dlg-btn').length === 1`), '告知框只有一顆按鈕');
+await ev(`document.querySelector('.dlg-ok').click()`); await sleep(300);
+
 ok(logs.length === 0, 'console 沒有錯誤' + (logs.length ? '：' + logs.slice(0, 2).join(' | ') : ''));
 ws.close(); chrome.kill(); srv.kill();
 console.log(fails.length ? `\n✗ ${fails.length} 項失敗` : '\n全部通過');

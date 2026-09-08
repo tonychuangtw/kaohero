@@ -48,6 +48,14 @@
   var PUSH_INTERVAL_MS = 60000;
   var lastPushedHash = null;
 
+  /* 站內彈窗；KHDialog 若因混版快取沒載到，退回原生框保底 */
+  function dlgToast(m) { if (window.KHDialog) KHDialog.toast(m); else alert(m); }
+  function dlgInfo(m) { if (window.KHDialog) KHDialog.info(m); else alert(m); }
+  function dlgConfirm(m, ok) {
+    if (window.KHDialog) KHDialog.confirm(m).then(function (y) { if (y) ok(); });
+    else if (confirm(m)) ok();
+  }
+
   function ls(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }
   function ss(k) { try { return sessionStorage.getItem(k) || ''; } catch (e) { return ''; } }
   function token() { return ls(SESS_KEY) || ss(TOKEN_KEY); }
@@ -271,9 +279,9 @@
       chip.setAttribute('aria-label', '已登入 ' + (p.email || '') + '，點擊登出');
       chip.textContent = (p.given_name || p.name || p.email || '?').charAt(0).toUpperCase();
       chip.onclick = function () {
-        if (confirm('登出雲端同步？\n（本機紀錄會保留在這台裝置）')) {
+        dlgConfirm('登出雲端同步？\n（本機紀錄會保留在這台裝置）', function () {
           clearToken(); lastPushedHash = null; renderUi();
-        }
+        });
       };
       ui.appendChild(statusEl);
       ui.appendChild(chip);
@@ -289,9 +297,10 @@
       pill.onclick = function () {
         if (!IN_WEBVIEW && window.google && google.accounts && google.accounts.id) {
           google.accounts.id.prompt();
-        } else if (IN_WEBVIEW) { alert(WEBVIEW_MSG); }
-        else if (gisFailed) { if (confirm(GIS_RETRY_MSG)) { gisFailed = false; gisAttempts = 0; loadGis(); } }
-        else { alert('Google 登入元件還在載入，請稍候幾秒再點一次。'); }
+        } else if (IN_WEBVIEW) { dlgInfo(WEBVIEW_MSG); }
+        else if (gisFailed) {
+          dlgConfirm(GIS_RETRY_MSG, function () { gisFailed = false; gisAttempts = 0; loadGis(); });
+        } else { dlgToast('Google 登入元件還在載入，請稍候幾秒再點一次。'); }
       };
       var slot = document.createElement('div');
       slot.className = 'gsi-slot';
@@ -316,13 +325,18 @@
     // 換帳號防護：共用裝置上 A 登出、B 登入時，本機還留著 A 的紀錄。
     // 直接推上去會蓋掉 B 的資料，也把 A 的作答紀錄洩漏給 B。
     if (owner && email && owner !== email) {
-      if (!confirm('這台裝置上存的是 ' + owner + ' 的練習紀錄。\n' +
+      dlgConfirm('這台裝置上存的是 ' + owner + ' 的練習紀錄。\n' +
         '要改用 ' + email + ' 登入嗎？這台的資料會換成 ' + email + ' 的雲端紀錄\n' +
-        '（' + owner + ' 的紀錄仍在他自己的帳號裡，重新登入就看得到）。')) return;
-      wipeLocalProgress();
+        '（' + owner + ' 的紀錄仍在他自己的帳號裡，重新登入就看得到）。',
+        function () { wipeLocalProgress(); setDataOwner(email); finishSignIn(resp.credential, p); });
+      return;
     }
     if (email) setDataOwner(email);
-    setToken(resp.credential);
+    finishSignIn(resp.credential, p);
+  }
+
+  function finishSignIn(credential, p) {
+    setToken(credential);
     try {
       localStorage.setItem(PROFILE_KEY, JSON.stringify({
         email: p.email || '', name: p.name || '', given_name: p.given_name || ''
