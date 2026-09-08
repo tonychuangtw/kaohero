@@ -1,5 +1,7 @@
 # 考古英雄 LINE 社群經營計畫
 
+> 本檔只寫「要怎麼做」。過程、決策時間軸與跨檔待辦總表在 [`plan-log.md`](plan-log.md)。
+
 > 2026-09-08 定案。Tony 要開 LINE 社群（OpenChat）替網站導流。
 > 本文是我 + codex + agy（Gemini）三家意見的收斂結果，Tony 指名要三家合起來看。
 
