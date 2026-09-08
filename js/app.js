@@ -238,13 +238,25 @@
     s1.appendChild(el('h2', 'big-h serif', T('同樣一題，兩種待遇')));
     s1.appendChild(el('p', 'lead', DEMO.src));
     var vs = el('div', 'vs');
+
+    /* 左欄：一般考古題網站 */
+    var colA = el('div', 'vs-col');
+    colA.appendChild(el('p', 'vs-h', T('一般考古題網站')));
     var other = el('div', 'other');
-    other.appendChild(el('p', 'vs-h', T('一般考古題網站')));
-    other.appendChild(el('p', null, T('第 5 題　答案')));
-    other.appendChild(el('div', 'big-a', 'Ａ'));
-    other.appendChild(el('p', 'after', T('…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。')));
-    vs.appendChild(other);
-    var ours = el('div', 'ours');
+    other.appendChild(el('div', 'bar', '📄 ' + DEMO.bar));
+    var obody = el('div', 'body');
+    obody.appendChild(el('p', 'stem', DEMO.q));
+    var ovoid = el('div', 'void');
+    ovoid.appendChild(el('p', 'ans-lab', T('答案')));
+    ovoid.appendChild(el('div', 'big-a', 'Ａ'));
+    ovoid.appendChild(el('p', 'after', T('…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。')));
+    obody.appendChild(ovoid);
+    other.appendChild(obody);
+    colA.appendChild(other);
+    vs.appendChild(colA);
+
+    /* 右欄：考古英雄 */
+    var ours = el('div', 'vs-col ours');
     ours.appendChild(el('p', 'vs-h', T('考古英雄')));
     var demo = el('div', 'demo');
     demo.appendChild(el('div', 'bar', '📄 ' + DEMO.bar));

@@ -123,16 +123,27 @@ img{max-width:100%}
 .e .tag{display:inline-block;margin-top:12px;font-size:calc(12.5px * var(--fs,1));color:var(--gold-d);
   border:1px dashed var(--gold-d);border-radius:999px;padding:2px 11px}
 
-/* 同樣一題，兩種待遇 */
-.vs{display:grid;gap:16px;grid-template-columns:1fr;align-items:start}
-@media(min-width:960px){ .vs{grid-template-columns:.82fr 1.18fr} }
-.vs-h{font-size:calc(13px * var(--fs,1));letter-spacing:2px;font-weight:800;margin:0 0 10px}
-.other{background:var(--line2);border:1px dashed var(--line);border-radius:18px;padding:22px 20px;color:var(--dim)}
-.other p{margin:0 0 4px;font-size:calc(15px * var(--fs,1))}
-.other .big-a{font-size:calc(58px * var(--fs,1));font-weight:900;color:var(--line);line-height:1.15;margin:4px 0 0}
-.other .after{margin-top:14px}
+/* 同樣一題，兩種待遇 —— 左右兩張卡用同一套骨架（標籤→卷別列→題幹→內容），才對得起來 */
+.vs{display:grid;gap:16px;grid-template-columns:1fr;align-items:stretch}
+@media(min-width:960px){ .vs{grid-template-columns:1fr 1fr;gap:20px} }
+.vs-col{display:flex;flex-direction:column;min-width:0}
+.vs-h{font-size:calc(13px * var(--fs,1));letter-spacing:2px;font-weight:800;
+  margin:0 0 10px;line-height:1.4;min-height:calc(13px * var(--fs,1) * 1.4);color:var(--dim)}
 .ours .vs-h{color:var(--gold-d)}
-.demo{background:var(--ink-a2);color:#eef2f8;border:1px solid var(--line-a);border-radius:18px;overflow:hidden}
+/* 兩張卡等高、同圓角、同內距 */
+.vs .other,.vs .demo{flex:1;display:flex;flex-direction:column;border-radius:18px;overflow:hidden}
+.other{background:var(--line2);border:1px dashed var(--line);color:var(--dim)}
+.other .bar{padding:12px 18px;border-bottom:1px dashed var(--line);
+  font-size:calc(13.5px * var(--fs,1));color:var(--dim)}
+.other .body{padding:18px;display:flex;flex-direction:column;flex:1}
+.other .stem{font-size:calc(16.5px * var(--fs,1));font-weight:700;margin:0 0 14px;
+  line-height:1.7;color:var(--ink)}
+/* 空洞感是刻意的（人家只給你一個字母），但要置中而不是全堆在底部 */
+.other .void{flex:1;display:flex;flex-direction:column;justify-content:center}
+.other .ans-lab{margin:0;font-size:calc(13.5px * var(--fs,1));letter-spacing:1px;color:var(--dim)}
+.other .big-a{font-size:calc(58px * var(--fs,1));font-weight:900;color:var(--line);line-height:1.15;margin:2px 0 0}
+.other .after{margin:18px 0 0;font-size:calc(14.5px * var(--fs,1));line-height:1.85}
+.demo{background:var(--ink-a2);color:#eef2f8;border:1px solid var(--line-a)}
 .demo .bar{padding:12px 18px;border-bottom:1px solid var(--line-a);font-size:calc(13.5px * var(--fs,1));color:var(--dim-a)}
 .demo .body{padding:18px}
 .demo .stem{font-size:calc(16.5px * var(--fs,1));font-weight:700;margin:0 0 14px;line-height:1.7}
@@ -146,6 +157,12 @@ img{max-width:100%}
   padding:14px 16px;font-size:calc(14.5px * var(--fs,1));white-space:pre-wrap;line-height:1.85}
 .demo .exp .src{display:block;margin-top:10px;color:var(--gold)}
 .demo .note{margin:14px 0 0;color:var(--dim-a);font-size:calc(13.5px * var(--fs,1))}
+@media(max-width:959px){
+  .vs-h{min-height:0}
+  .other .body,.demo .body{padding:16px}
+  .other .big-a{font-size:calc(46px * var(--fs,1))}
+  .other .bar,.demo .bar{padding:10px 16px;font-size:calc(12.5px * var(--fs,1))}
+}
 
 /* 三步驟與資料來源 */
 .steps{counter-reset:s;display:grid;gap:16px;grid-template-columns:1fr;margin-top:6px}

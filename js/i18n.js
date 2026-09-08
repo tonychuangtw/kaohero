@@ -50,7 +50,7 @@
     '詳解實例': 'A REAL EXAMPLE',
     '同樣一題，兩種待遇': 'Same question, two treatments',
     '一般考古題網站': 'Typical past-paper site',
-    '第 5 題　答案': 'Q5　Answer',
+    '答案': 'Answer',
     '…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。':
       '…and then? Why not the frontal nerve? Next time another nerve shows up, you miss it again.',
     '每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。':
