@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260908h';
+  var VER = '20260908i';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -123,17 +123,34 @@
   /* 站務後台入口（2026-09-08 Tony 回報「登入了還是進不去後台」）：
      #/admin 原本沒有任何連結，只能手打網址。登入後在頁尾補一個入口；
      真正的權限仍由後端 OWNER_EMAIL 把關，非站長點進去只會看到一行「沒有後台權限」。 */
-  function syncAdminLink() {
+  function showAdminLink(on) {
     var col = document.querySelectorAll('.ft-in > div');
     col = col && col[col.length - 1];
     if (!col) return;
     var cur = document.getElementById('adminLink');
-    var on = !!(window.KHSync && window.KHSync.signedIn && window.KHSync.signedIn());
     if (!on) { if (cur) cur.remove(); return; }
     if (cur) return;
     var a = el('a', null, T('🛠 站務後台'));
     a.id = 'adminLink'; a.href = '#/admin'; a.setAttribute('data-nav', '');
     col.appendChild(a);
+  }
+  /* 只有站長看得到入口（2026-09-08 Tony：「不要給一般使用者看到」）。
+     站長的 email 不寫進前端程式碼（避免公開、也避免被改），改問後端 /api/kgh/whoami，
+     由後端回答是與否；真正的權限本來就在後端把關，這裡只管顯不顯示。 */
+  function syncAdminLink() {
+    var cfg = window.KH_CONFIG || {};
+    var tk = window.KHSync && window.KHSync.token && window.KHSync.token();
+    if (!tk || !cfg.API_BASE) { showAdminLink(false); return; }
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', cfg.API_BASE + '/api/kgh/whoami');
+    xhr.setRequestHeader('Authorization', 'Bearer ' + tk);
+    xhr.onload = function () {
+      var owner = false;
+      try { owner = !!JSON.parse(xhr.responseText).owner; } catch (e) {}
+      showAdminLink(xhr.status >= 200 && xhr.status < 300 && owner);
+    };
+    xhr.onerror = function () { showAdminLink(false); };
+    xhr.send();
   }
   window.addEventListener('kh-auth', syncAdminLink);
 
