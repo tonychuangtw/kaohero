@@ -286,7 +286,9 @@
         body.appendChild(d);
       });
       var exp = el('div', 'exp');
-      exp.appendChild(document.createTextNode(D.exp.join('\n')));
+      D.exp.forEach(function (line, i) {      // ✅ 那一行放大、加粗，錯選項維持原級
+        exp.appendChild(el('p', i === 0 ? 'exp-l exp-ok' : 'exp-l', line));
+      });
       exp.appendChild(el('span', 'src', D.srcline));
       body.appendChild(exp);
       body.appendChild(el('p', 'note', T('每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。')));
@@ -659,7 +661,19 @@
         T('　考選部公布本題送分，四個選項均給分，因此不論你選哪一個都算答對。')));
       else if (q.alt && q.alt.length) fb.appendChild(document.createTextNode(
         T('　考選部公布本題有多個答案均給分：') + [q.a].concat(q.alt).map(function (i) { return LAB[i]; }).join('、')));
-      if (q.exp) { fb.appendChild(document.createElement('br')); fb.appendChild(document.createTextNode(q.exp)); }
+      if (q.exp) {
+        // 詳解逐行拆開：✅ 正解那行放大加粗（那是答案本身），❌ 三行維持原級當佐證，
+        // 📚 出處另起一段。整段黏成一坨最難讀，這是 Tony 2026-09-08 提的。
+        var xw = el('div', 'fb-exp');
+        q.exp.split('\n').forEach(function (line) {
+          if (!line) return;
+          var cls = 'x-l';
+          if (line.indexOf('✅') === 0) cls += ' x-ok';
+          else if (line.indexOf('📚') === 0) cls += ' x-src';
+          xw.appendChild(el('p', cls, line));
+        });
+        fb.appendChild(xw);
+      }
       else if (!q.void) {
         fb.appendChild(document.createTextNode(T('　標準答案：') + LAB[q.a] + '. ' + q.o[q.a]));
         var nt = el('div', 'lead', T('（本題詳解尚未撰寫，會分批補上。）')); nt.style.margin = '6px 0 0';

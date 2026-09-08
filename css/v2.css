@@ -171,7 +171,12 @@ img{max-width:100%}
 .demo .opt.ok{border-color:#4fc79b;background:#12281f}
 .demo .opt.ok b{color:#4fc79b}
 .demo .exp{margin-top:16px;border-left:3px solid var(--gold);background:#1d2431;border-radius:0 12px 12px 0;
-  padding:14px 16px;font-size:calc(14.5px * var(--fs,1));white-space:pre-wrap;line-height:1.85}
+  padding:14px 16px;font-size:calc(14.5px * var(--fs,1));line-height:1.85}
+.demo .exp .exp-l{margin:0}
+.demo .exp .exp-l+.exp-l{margin-top:6px}
+/* 正解那一行是整段的重點，放大一級並加粗；三個錯選項維持原級當佐證 */
+.demo .exp .exp-ok{font-size:calc(16.5px * var(--fs,1));font-weight:600;color:#eaf3ee;
+  line-height:1.75;margin-bottom:4px}
 .demo .exp .src{display:block;margin-top:10px;color:var(--gold)}
 .demo .note{margin:14px 0 0;color:var(--dim-a);font-size:calc(13.5px * var(--fs,1))}
 @media(max-width:959px){
@@ -282,6 +287,11 @@ img{max-width:100%}
 .opt[disabled]{cursor:default}
 .fb{border-radius:12px;padding:13px 15px;margin:12px 0;font-size:calc(15px * var(--fs,1));line-height:1.85;
   white-space:pre-wrap;border:1px solid var(--line)}
+.fb-exp{white-space:normal;margin-top:10px}
+.fb-exp .x-l{margin:0}
+.fb-exp .x-l+.x-l{margin-top:6px}
+.fb-exp .x-ok{font-size:calc(17px * var(--fs,1));font-weight:600;line-height:1.75;margin-bottom:4px}
+.fb-exp .x-src{margin-top:10px;font-size:calc(13.5px * var(--fs,1));opacity:.85}
 .fb.ok{background:var(--good-l);border-color:var(--good)}
 .fb.no{background:var(--bad-l);border-color:var(--bad)}
 .big{font-size:calc(40px * var(--fs,1));font-weight:900;text-align:center;margin:8px 0 4px;color:var(--brand)}
