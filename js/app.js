@@ -103,8 +103,10 @@
   }
 
   /* ============ 導覽 ============ */
+  // 2026-09-08 Tony：考取心得先暫時從導覽拿掉（內容還沒累積真實案例）。
+  // 路由 #/stories 與 viewStories 都保留，之後有內容把這一項加回 NAV 即可。
   var NAV = [['#/', '首頁'], ['#/exams', '考試題庫'], ['#/guide', '準備方式'],
-             ['#/stories', '考取心得'], ['#/sponsor', '贊助我們'], ['#/support', '客服中心']];
+             ['#/sponsor', '贊助我們'], ['#/support', '客服中心']];
   function buildNav() {
     var nav = document.getElementById('nav'), dw = document.getElementById('drawer');
     nav.innerHTML = ''; dw.innerHTML = '';
