@@ -236,14 +236,13 @@
     var s1 = el('section', 'sec'); s1.id = 'demo';
     s1.appendChild(el('p', 'eyebrow', T('詳解實例')));
     s1.appendChild(el('h2', 'big-h serif', T('同樣一題，兩種待遇')));
-    s1.appendChild(el('p', 'lead', DEMO.src));
+    s1.appendChild(el('p', 'lead demo-src', '📄 ' + DEMO.src));
     var vs = el('div', 'vs');
 
     /* 左欄：一般考古題網站 */
     var colA = el('div', 'vs-col');
     colA.appendChild(el('p', 'vs-h', T('一般考古題網站')));
     var other = el('div', 'other');
-    other.appendChild(el('div', 'bar', '📄 ' + DEMO.bar));
     var obody = el('div', 'body');
     obody.appendChild(el('p', 'stem', DEMO.q));
     var ovoid = el('div', 'void');
@@ -259,7 +258,6 @@
     var ours = el('div', 'vs-col ours');
     ours.appendChild(el('p', 'vs-h', T('考古英雄')));
     var demo = el('div', 'demo');
-    demo.appendChild(el('div', 'bar', '📄 ' + DEMO.bar));
     var body = el('div', 'body');
     body.appendChild(el('p', 'stem', DEMO.q));
     DEMO.o.forEach(function (o, i) {
