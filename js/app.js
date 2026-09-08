@@ -270,6 +270,7 @@
         obody.appendChild(d);
       });
       var ovoid = el('div', 'void');
+      ovoid.appendChild(el('div', 'big-a', LAB[D.a]));
       ovoid.appendChild(el('p', 'after', T('…就這樣沒了。為什麼其他三個不行？差在哪一個字？下次換個問法來考，還是會錯。')));
       obody.appendChild(ovoid);
       other.appendChild(obody); colA.appendChild(other); vs.appendChild(colA);
