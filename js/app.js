@@ -168,9 +168,10 @@
      版型重點：深色金字的 hero＋四個大數字、三張優勢卡、
      「同樣一題，兩種待遇」左右對照（左邊只有一個大大的Ａ＝別站，右邊是本站完整詳解）。
      對照用的示範題是站上真的一題：110 年第一次 醫學（一）第 5 題。 */
-  var DEMO = {
+  /* 首頁對照區的示範題：站上真實題目，可切換考科（醫事／法律各一，證明不是只有醫科） */
+  var DEMOS = [{
+    tab: '醫師國考',
     src: '110 年第一次　專技高考醫師分階段考試　醫學（一）　第 5 題',
-    bar: '110 年第一次　醫學（一）　·　第 5 題',
     q: '下列何者傳遞角膜（cornea）的一般感覺？',
     o: ['鼻睫神經（nasociliary nerve）', '額神經（frontal nerve）',
         '眶上神經（supraorbital nerve）', '動眼神經（oculomotor nerve）'],
@@ -180,7 +181,19 @@
           '❌ (C) 眶上神經是額神經的終末分支，管前額與頭皮的感覺。',
           '❌ (D) 動眼神經是運動與副交感神經，不傳遞角膜的一般感覺。'],
     srcline: "📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.7 Head（Orbit）；Gray's Anatomy for Students, 4th ed.。"
-  };
+  }, {
+    tab: '律師司法官',
+    src: '115 年　律師／司法官第一試　綜合法學（一）憲法組　第 11 題',
+    q: '依司法院解釋意旨，下列何者不屬於憲法服公職權保障之範圍？',
+    o: ['公務人員依法令晉敘陞遷之權利', '公務人員之在職進修',
+        '公務人員依法取得之官等', '公務人員之俸給'],
+    a: 1,
+    exp: ['✅ (B) 公務人員之在職進修：進修屬機關內部人事管理與培訓措施，未涉及身分、官等、俸給等重要權利的變動，大法官認其不在憲法第 18 條服公職權的保障範圍內。',
+          '❌ (A) 依法令晉敘陞遷之權利：屬服公職權保障範圍，涉及身分上的重要權利，受侵害時得循訴訟途徑救濟。',
+          '❌ (C) 依法取得之官等：官等為公務人員身分的核心表徵，非依法定事由與程序不得剝奪。',
+          '❌ (D) 公務人員之俸給：屬服公職權中的財產上重要給付，與退休金同受保障。'],
+    srcline: '📚 出處：中華民國憲法第 18 條；司法院釋字第 575 號（官等與身分保障）、第 605 號（晉敘陞遷）、第 658 號（退休金）、第 785 號（權益救濟範圍）。'
+  }];
 
   function viewHome(main) {
     var liveN = EXAMS.length, liveQ = EXAMS.reduce(function (a, b) { return a + b.n; }, 0);
@@ -236,42 +249,57 @@
     var s1 = el('section', 'sec'); s1.id = 'demo';
     s1.appendChild(el('p', 'eyebrow', T('詳解實例')));
     s1.appendChild(el('h2', 'big-h serif', T('同樣一題，兩種待遇')));
-    s1.appendChild(el('p', 'lead demo-src', '📄 ' + DEMO.src));
-    var vs = el('div', 'vs');
 
-    /* 左欄：一般考古題網站 */
-    var colA = el('div', 'vs-col');
-    colA.appendChild(el('p', 'vs-h', T('一般考古題網站')));
-    var other = el('div', 'other');
-    var obody = el('div', 'body');
-    obody.appendChild(el('p', 'stem', DEMO.q));
-    var ovoid = el('div', 'void');
-    ovoid.appendChild(el('p', 'ans-lab', T('答案')));
-    ovoid.appendChild(el('div', 'big-a', 'Ａ'));
-    ovoid.appendChild(el('p', 'after', T('…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。')));
-    obody.appendChild(ovoid);
-    other.appendChild(obody);
-    colA.appendChild(other);
-    vs.appendChild(colA);
+    /* 考科切換：同一個版位換題，不把頁面拉長一倍 */
+    var tabs = el('div', 'demo-tabs'), srcLine = el('p', 'lead demo-src'), vsWrap = el('div');
+    function renderDemo(D) {
+      srcLine.textContent = '📄 ' + D.src;
+      vsWrap.innerHTML = '';
+      var vs = el('div', 'vs');
 
-    /* 右欄：考古英雄 */
-    var ours = el('div', 'vs-col ours');
-    ours.appendChild(el('p', 'vs-h', T('考古英雄')));
-    var demo = el('div', 'demo');
-    var body = el('div', 'body');
-    body.appendChild(el('p', 'stem', DEMO.q));
-    DEMO.o.forEach(function (o, i) {
-      var d = el('div', 'opt' + (i === DEMO.a ? ' ok' : ''));
-      d.appendChild(el('b', null, LAB[i])); d.appendChild(el('span', null, o));
-      body.appendChild(d);
+      var colA = el('div', 'vs-col');
+      colA.appendChild(el('p', 'vs-h', T('一般考古題網站')));
+      var other = el('div', 'other');
+      var obody = el('div', 'body');
+      obody.appendChild(el('p', 'stem', D.q));
+      var ovoid = el('div', 'void');
+      ovoid.appendChild(el('p', 'ans-lab', T('答案')));
+      ovoid.appendChild(el('div', 'big-a', LAB[D.a]));
+      ovoid.appendChild(el('p', 'after', T('…然後呢？為什麼其他三個不行？差在哪一個字？下次換個問法來考，還是會錯。')));
+      obody.appendChild(ovoid);
+      other.appendChild(obody); colA.appendChild(other); vs.appendChild(colA);
+
+      var ours = el('div', 'vs-col ours');
+      ours.appendChild(el('p', 'vs-h', T('考古英雄')));
+      var demo = el('div', 'demo');
+      var body = el('div', 'body');
+      body.appendChild(el('p', 'stem', D.q));
+      D.o.forEach(function (o, i) {
+        var d = el('div', 'opt' + (i === D.a ? ' ok' : ''));
+        d.appendChild(el('b', null, LAB[i])); d.appendChild(el('span', null, o));
+        body.appendChild(d);
+      });
+      var exp = el('div', 'exp');
+      exp.appendChild(document.createTextNode(D.exp.join('\n')));
+      exp.appendChild(el('span', 'src', D.srcline));
+      body.appendChild(exp);
+      body.appendChild(el('p', 'note', T('每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。')));
+      demo.appendChild(body); ours.appendChild(demo); vs.appendChild(ours);
+      vsWrap.appendChild(vs);
+    }
+    DEMOS.forEach(function (D, i) {
+      var b = el('button', 'demo-tab' + (i ? '' : ' on'), T(D.tab));
+      b.type = 'button';
+      b.onclick = function () {
+        Array.prototype.forEach.call(tabs.children, function (c) { c.className = 'demo-tab'; });
+        b.className = 'demo-tab on';
+        renderDemo(D);
+      };
+      tabs.appendChild(b);
     });
-    var exp = el('div', 'exp');
-    exp.appendChild(document.createTextNode(DEMO.exp.join('\n')));
-    exp.appendChild(el('span', 'src', DEMO.srcline));
-    body.appendChild(exp);
-    body.appendChild(el('p', 'note', T('每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。')));
-    demo.appendChild(body); ours.appendChild(demo); vs.appendChild(ours);
-    s1.appendChild(vs); main.appendChild(s1);
+    s1.appendChild(tabs); s1.appendChild(srcLine);
+    renderDemo(DEMOS[0]);
+    s1.appendChild(vsWrap); main.appendChild(s1);
 
     /* ---- 考試分類 ---- */
     var s2 = el('section', 'sec');

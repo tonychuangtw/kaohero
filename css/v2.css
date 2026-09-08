@@ -126,6 +126,14 @@ img{max-width:100%}
 /* 同樣一題，兩種待遇 —— 左右兩張卡用同一套骨架（標籤→題幹→內容），才對得起來。
    卷別（110 年第一次…）只在標題下出現一次，兩張卡內不再重複。 */
 .demo-src{font-variant-numeric:tabular-nums}
+/* 考科切換：同一版位換題，不把頁面拉長一倍 */
+.demo-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.demo-tab{appearance:none;cursor:pointer;font:inherit;
+  padding:8px 16px;min-height:40px;border-radius:999px;
+  border:1px solid var(--line);background:transparent;color:var(--dim);
+  font-size:calc(14px * var(--fs,1));font-weight:700;letter-spacing:.5px}
+.demo-tab:hover{border-color:var(--gold-d);color:var(--ink)}
+.demo-tab.on{background:var(--gold);border-color:var(--gold);color:#1b1305}
 .vs{display:grid;gap:16px;grid-template-columns:1fr;align-items:stretch}
 @media(min-width:960px){ .vs{grid-template-columns:1fr 1fr;gap:20px} }
 .vs-col{display:flex;flex-direction:column;min-width:0}

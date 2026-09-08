@@ -51,8 +51,10 @@
     '同樣一題，兩種待遇': 'Same question, two treatments',
     '一般考古題網站': 'Typical past-paper site',
     '答案': 'Answer',
-    '…然後呢？為什麼額神經不行？眶上神經又差在哪？下次換一條神經來考，還是會錯。':
-      '…and then? Why not the frontal nerve? Next time another nerve shows up, you miss it again.',
+    '醫師國考': 'Medical licence',
+    '律師司法官': 'Bar exam',
+    '…然後呢？為什麼其他三個不行？差在哪一個字？下次換個問法來考，還是會錯。':
+      '…and then what? Why are the other three wrong? Which word makes the difference? Reworded next year, you miss it again.',
     '每一題的詳解都是這個規格：✅ 正解理由 ／ ❌ 三個錯誤選項各錯在哪 ／ 📚 可查證的出處。':
       'Every explanation follows this shape: ✅ why the answer is right ／ ❌ why each of the other three is wrong ／ 📚 a citable source.',
     '怎麼用': 'HOW IT WORKS',
