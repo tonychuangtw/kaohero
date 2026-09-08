@@ -171,5 +171,14 @@
     load();
   }
 
+  // 登入狀態一改變就重畫後台頁（否則「登入了還是進不去」——畫面停在登入提示）
+  window.addEventListener('kh-auth', function () {
+    if (!/^#\/admin(\/|$)/.test(location.hash || '')) return;
+    var main = document.getElementById('main');
+    if (!main) return;
+    main.innerHTML = '';
+    render(main);
+  });
+
   window.KHAdmin = { render: render };
 })();

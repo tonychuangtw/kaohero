@@ -7,7 +7,7 @@
   var SUBJ = window.APP_SUBJECTS || {};
   var EXAMS = window.APP_EXAMS || [];
   var PAPERS = window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
-  var VER = '20260908g';
+  var VER = '20260908h';
   var KEY = 'kaoguhero.v1';
   var LAB = ['A', 'B', 'C', 'D', 'E'];   // 少數卷是五選一（地方特考五等國文、103~106 年律師第一試）
   var T = (window.KH && window.KH.T) || function (s) { return s; };
@@ -120,6 +120,23 @@
       a.className = (a.getAttribute('href') === base) ? 'on' : '';
     });
   }
+  /* 站務後台入口（2026-09-08 Tony 回報「登入了還是進不去後台」）：
+     #/admin 原本沒有任何連結，只能手打網址。登入後在頁尾補一個入口；
+     真正的權限仍由後端 OWNER_EMAIL 把關，非站長點進去只會看到一行「沒有後台權限」。 */
+  function syncAdminLink() {
+    var col = document.querySelectorAll('.ft-in > div');
+    col = col && col[col.length - 1];
+    if (!col) return;
+    var cur = document.getElementById('adminLink');
+    var on = !!(window.KHSync && window.KHSync.signedIn && window.KHSync.signedIn());
+    if (!on) { if (cur) cur.remove(); return; }
+    if (cur) return;
+    var a = el('a', null, T('🛠 站務後台'));
+    a.id = 'adminLink'; a.href = '#/admin'; a.setAttribute('data-nav', '');
+    col.appendChild(a);
+  }
+  window.addEventListener('kh-auth', syncAdminLink);
+
   document.getElementById('burger').onclick = function () {
     var d = document.getElementById('drawer'), open = d.classList.toggle('open');
     this.setAttribute('aria-expanded', open ? 'true' : 'false');
@@ -907,6 +924,7 @@
   window.addEventListener('hashchange', render);
   buildNav();
   render();
+  syncAdminLink();
   if (window.KH && window.KH.initPanel) {
     window.KH.initPanel(function () { buildNav(); render(); });
   }

@@ -240,6 +240,13 @@
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
 
+  /* 登入狀態改變時通知全站（2026-09-08 Tony 回報「登入了還是進不去後台」）：
+     後台頁是在路由當下畫一次的，登入發生在那之後，畫面不會自己更新。
+     派一個事件出去，讓後台頁與頁尾入口重畫，免得使用者以為沒權限。 */
+  function announce() {
+    try { window.dispatchEvent(new CustomEvent('kh-auth', { detail: signedIn() })); } catch (e) {}
+  }
+
   /* ---------------- UI ---------------- */
   var ui = null, statusEl = null, statusTimer = null;
   function setStatus(msg) {
@@ -250,6 +257,7 @@
   }
 
   function renderUi() {
+    announce();
     if (!ui) return;
     ui.innerHTML = '';
     var p = signedIn();
