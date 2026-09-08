@@ -10640,7 +10640,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "108 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10654,7 +10654,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "108 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10668,7 +10668,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "108 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10682,7 +10682,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "108 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10780,7 +10780,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "107 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10794,7 +10794,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "107 年第一次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10808,7 +10808,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "107 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10822,7 +10822,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "107 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10836,7 +10836,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "107 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10850,7 +10850,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "107 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -10864,7 +10864,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "107 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10878,7 +10878,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "107 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10892,7 +10892,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "107 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10906,7 +10906,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "107 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -10920,7 +10920,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "107 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -10934,7 +10934,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "107 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -10948,7 +10948,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "106 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 77,
   "mins": 90
  },
  {
@@ -10962,7 +10962,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "106 年第一次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 74,
   "mins": 90
  },
  {
@@ -10976,7 +10976,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "106 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -10990,7 +10990,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "106 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11004,7 +11004,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "106 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 90
  },
  {
@@ -11018,7 +11018,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "106 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 62,
   "mins": 90
  },
  {
@@ -11032,7 +11032,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "106 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11046,7 +11046,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "106 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11060,7 +11060,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "106 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11074,7 +11074,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "106 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11088,7 +11088,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "106 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11102,7 +11102,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "106 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11116,7 +11116,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "105 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11130,7 +11130,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "105 年第一次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11144,7 +11144,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "105 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11158,7 +11158,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "105 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11172,7 +11172,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "105 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 76,
   "mins": 90
  },
  {
@@ -11186,7 +11186,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "105 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 65,
   "mins": 90
  },
  {
@@ -11200,7 +11200,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "105 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11214,7 +11214,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "105 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 74,
   "mins": 90
  },
  {
@@ -11228,7 +11228,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "105 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 70,
   "mins": 90
  },
  {
@@ -11242,7 +11242,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "105 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 73,
   "mins": 90
  },
  {
@@ -11256,7 +11256,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "105 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 74,
   "mins": 90
  },
  {
@@ -11270,7 +11270,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "105 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 74,
   "mins": 90
  },
  {
@@ -11284,7 +11284,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "104 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11298,7 +11298,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "104 年第一次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11312,7 +11312,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "104 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11326,7 +11326,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "104 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11340,7 +11340,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "104 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11354,7 +11354,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "104 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 76,
   "mins": 90
  },
  {
@@ -11368,7 +11368,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "104 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11382,7 +11382,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "104 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11396,7 +11396,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "104 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11410,7 +11410,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "104 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11424,7 +11424,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "104 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11438,7 +11438,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "104 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11452,7 +11452,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "103 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11466,7 +11466,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "103 年第一次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 62,
   "mins": 90
  },
  {
@@ -11480,7 +11480,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "103 年第一次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11494,7 +11494,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "103 年第一次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11508,7 +11508,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "103 年第一次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 67,
   "mins": 90
  },
  {
@@ -11522,7 +11522,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "103 年第一次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 73,
   "mins": 90
  },
  {
@@ -11536,7 +11536,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "103 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11550,7 +11550,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "103 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 90
  },
  {
@@ -11564,7 +11564,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "103 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11578,7 +11578,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "103 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11592,7 +11592,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "103 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 90
  },
  {
@@ -11606,7 +11606,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "103 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 90
  },
  {
@@ -11620,7 +11620,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "102 年第一次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 39,
   "mins": 90
  },
  {
@@ -11704,7 +11704,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（一）",
   "label": "102 年第二次　中醫基礎醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11718,7 +11718,7 @@ window.APP_EXAMS = [
   "subjName": "中醫基礎醫學（二）",
   "label": "102 年第二次　中醫基礎醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 63,
   "mins": 90
  },
  {
@@ -11732,7 +11732,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（一）",
   "label": "102 年第二次　中醫臨床醫學（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11746,7 +11746,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（二）",
   "label": "102 年第二次　中醫臨床醫學（二）",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 90
  },
  {
@@ -11760,7 +11760,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（三）",
   "label": "102 年第二次　中醫臨床醫學（三）",
   "n": 80,
-  "exp": 0,
+  "exp": 74,
   "mins": 90
  },
  {
@@ -11774,7 +11774,7 @@ window.APP_EXAMS = [
   "subjName": "中醫臨床醫學（四）",
   "label": "102 年第二次　中醫臨床醫學（四）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 90
  },
  {
