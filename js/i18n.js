@@ -1,4 +1,4 @@
-/* 考古英雄 — 顯示設定（字級／配色／語言）與英文語系字典
+/* 考英雄 — 顯示設定（字級／配色／語言）與英文語系字典
    語言只切「介面文字」；題目、標準答案與詳解是中文考題原文，不翻譯。 */
 (function () {
   'use strict';
@@ -39,7 +39,7 @@
     '卷完整考古卷': 'full past papers',
     '題自撰詳解': 'with our explanations',
     '民國年份跨度': 'ROC years covered',
-    '為什麼選考古英雄': 'WHY KAOGUHERO',
+    '為什麼選考英雄': 'WHY KAOHERO',
     '別人給你答案，我們給你為什麼': 'Others give you a letter. We give you the reason.',
     '詳解是自己寫的': 'Explanations written by us',
     '真的全部免費': 'Genuinely free',
@@ -180,7 +180,7 @@
       'If this site helped you pass, please write in. Long or short, how you budgeted your time and which traps you fell into will help the people coming after you.',
 
     /* --- 贊助 --- */
-    '考古英雄是免費的，沒有廣告，也不會把題目或詳解放到付費牆後面。':
+    '考英雄是免費的，沒有廣告，也不會把題目或詳解放到付費牆後面。':
       'This site is free, carries no advertising, and will never put questions or explanations behind a paywall.',
     '為什麼需要贊助': 'Why donations help',
     '題目與答案雖然是公開資料，但整理、校對與逐題撰寫詳解都需要時間；網站本身則有網域與維護的成本。':
@@ -208,8 +208,8 @@
 
     /* --- 關於 --- */
     '這個站是什麼': 'What this site is',
-    '考古英雄收錄國家考試的歷屆考古題，提供整卷測驗、無限刷題、錯題本與弱點統計，全部免費。':
-      'Kaoguhero collects past papers from national examinations and offers full-paper mode, endless drilling, a wrong-answer book and weak-spot statistics — all free.',
+    '考英雄收錄國家考試的歷屆考古題，提供整卷測驗、無限刷題、錯題本與弱點統計，全部免費。':
+      'Kaohero collects past papers from national examinations and offers full-paper mode, endless drilling, a wrong-answer book and weak-spot statistics — all free.',
     '資料來源': 'Where the data comes from',
     '試題與標準答案取自考選部「考畢試題查詢平臺」公開之考畢試題與測驗式試題標準答案（政府資訊公開資料）。':
       'Questions and official answer keys are taken from the Ministry of Examination’s public past-paper platform (government open data).',
@@ -230,10 +230,12 @@
     '版本紀錄': 'Changelog',
 
     /* --- 頁首頁尾（靜態 HTML） --- */
-    '考古英雄': 'Kaoguhero',
+    '本站原名「考古英雄」，2026-09-09 更名為「考英雄」，網址 kaohero.com；內容與紀錄不受影響。':
+      'This site was formerly named Kaoguhero; it was renamed Kaohero on 2026-09-09 and now lives at kaohero.com. Content and your records are unaffected.',
+    '考英雄': 'Kaohero',
     '開啟選單': 'Open menu',
     '顯示設定': 'Display settings',
-    '關於考古英雄': 'About Kaoguhero',
+    '關於考英雄': 'About Kaohero',
     '收錄國家考試歷屆考古題與標準答案，並提供自撰的逐題詳解。題目與標準答案取自考選部「考畢試題查詢平臺」公開資料（政府資訊公開）；站上的詳解與所有文案皆為本站自行撰寫。':
       'Past questions and official answer keys from national examinations, with an explanation written by us for every question. Questions and answer keys come from the Ministry of Examination’s public past-paper platform (government open data); every explanation and all site copy is our own work.',
     '學習資源': 'Study',

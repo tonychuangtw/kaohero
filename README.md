@@ -1,4 +1,4 @@
-# 考古英雄
+# 考英雄
 
 國家考試歷屆考古題線上練習站。
 
@@ -60,7 +60,7 @@ node tools/export-json.js /tmp/out.json doc-115 doc-114
 # 2a. Anki 牌組（.apkg）—— 需要 genanki
 python3 -m venv /tmp/ankienv && /tmp/ankienv/bin/pip install genanki
 /tmp/ankienv/bin/python tools/build-anki.py /tmp/out.json out.apkg \
-    --deck "考古英雄 醫師一階" --owner "買家 Email"
+    --deck "考英雄 醫師一階" --owner "買家 Email"
 
 # 2b. 列印講義（先產 HTML，再用 headless Chrome 印成 PDF）
 python3 tools/build-pdf.py /tmp/out.json /tmp/out.html \

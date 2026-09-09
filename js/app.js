@@ -1,4 +1,4 @@
-/* 考古英雄 — 前端全部邏輯
+/* 考英雄 — 前端全部邏輯
    純 vanilla JS、無 build；用 hash route，GitHub Pages 不需要伺服器端改寫。 */
 (function () {
   'use strict';
@@ -230,7 +230,7 @@
 
     /* ---- 三個優勢 ---- */
     var s0 = el('section', 'sec');
-    s0.appendChild(el('p', 'eyebrow', T('為什麼選考古英雄')));
+    s0.appendChild(el('p', 'eyebrow', T('為什麼選考英雄')));
     s0.appendChild(el('h2', 'big-h serif', T('別人給你答案，我們給你為什麼')));
     s0.appendChild(el('p', 'lead', T('市面上的考古題網站多半只給一個字母。答錯了還是不知道錯在哪，下次照樣錯——尤其是醫學這種「一條神經、一個症候群」差一點就全錯的科目。')));
     var eg = el('div', 'edge');
@@ -278,7 +278,7 @@
       other.appendChild(obody); colA.appendChild(other); vs.appendChild(colA);
 
       var ours = el('div', 'vs-col ours');
-      ours.appendChild(el('p', 'vs-h', T('考古英雄')));
+      ours.appendChild(el('p', 'vs-h', T('考英雄')));
       var demo = el('div', 'demo');
       var body = el('div', 'body');
       body.appendChild(el('p', 'stem', D.q));
@@ -871,7 +871,7 @@
 
   function viewSponsor(main) {
     main.appendChild(el('h1', 'pg-h', T('贊助我們')));
-    main.appendChild(el('p', 'lead', T('考古英雄是免費的，沒有廣告，也不會把題目或詳解放到付費牆後面。')));
+    main.appendChild(el('p', 'lead', T('考英雄是免費的，沒有廣告，也不會把題目或詳解放到付費牆後面。')));
     var c = el('div', 'panel'); c.style.padding = '20px';
     c.appendChild(el('h3', 'ph', T('為什麼需要贊助')));
     c.appendChild(el('p', null,
@@ -923,7 +923,8 @@
     main.appendChild(el('h1', 'pg-h', T('使用說明與版本紀錄')));
     var c = el('div', 'panel'); c.style.padding = '20px';
     c.appendChild(el('h3', 'ph', T('這個站是什麼')));
-    c.appendChild(el('p', null, T('考古英雄收錄國家考試的歷屆考古題，提供整卷測驗、無限刷題、錯題本與弱點統計，全部免費。')));
+    c.appendChild(el('p', null, T('考英雄收錄國家考試的歷屆考古題，提供整卷測驗、無限刷題、錯題本與弱點統計，全部免費。')));
+    c.appendChild(el('p', 'muted', T('本站原名「考古英雄」，2026-09-09 更名為「考英雄」，網址 kaohero.com；內容與紀錄不受影響。')));
     c.appendChild(el('h3', 'ph', T('資料來源')));
     c.appendChild(el('p', null,
       T('試題與標準答案取自考選部「考畢試題查詢平臺」公開之考畢試題與測驗式試題標準答案（政府資訊公開資料）。')

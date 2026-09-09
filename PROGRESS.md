@@ -1,17 +1,17 @@
 STATUS: in-progress
-OBJECTIVE: 把考古英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題）
+OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題）
 NEXT_ACTION: 打開 `js/data/exam/pha-109-1-ph1.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（108-2、108-1…102-1）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-09 11:10 台北
+UPDATED: 2026-09-09 11:35 台北
 
 ---
 
 ## 這條線是怎麼來的
 
 2026-09-09 Tony：「我想同時做 k12review 和國考這個是不是沒辦法? 我想把國考英雄另開一個頻道分出去可以嗎?」
-→ 分線。chinese 線專心 K12Review／LanExamMock／補習複習，本線專責考古英雄。
+→ 分線。chinese 線專心 K12Review／LanExamMock／補習複習，本線專責考英雄。
 同時指示：**repo 從 kaoguhero 改名為 kaohero，因為網址要用這個。**
 
 ## 待辦
