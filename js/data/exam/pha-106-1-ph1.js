@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106020_305_11_41.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 題目化合物為 MPTP。圖 D 的 MPPP（1-甲基-4-苯基-4-丙醯氧基哌啶，俗稱 designer heroin）在合成或體內脫去丙酸酯並脫水後即生成 MPTP，代謝成 MPP+ 而破壞黑質多巴胺神經元。\n❌ (A) 4-苯基-1-甲基哌啶沒有可脫去的酯基，不會產生 MPTP。\n❌ (B) 為 1,4-二氫吡啶型化合物，並非臨床或濫用藥物。\n❌ (C) 為 pethidine（meperidine），代謝物是去甲哌替啶與哌替啶酸。\n📚 出處：Foye's—MPTP 與巴金森氏症模型"
   },
   {
    "n": 42,
@@ -631,7 +632,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106020_305_11_44.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) alfentanil 的特徵是苯胺基哌啶骨架加上 4 位甲氧甲基，以及末端的 4-乙基-四唑-5-酮，起效快、作用短。\n❌ (A) 為 remifentanil，兩處皆為甲酯，可被血漿酯酶水解。\n❌ (B) 為 methadone，屬二苯庚酮類。\n❌ (C) 為 loperamide，只作用於腸道。\n📚 出處：Foye's—Fentanyl 類鎮痛藥"
   },
   {
    "n": 45,
@@ -660,7 +662,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106020_305_11_46.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ezetimibe 為 β-內醯胺（azetidinone）骨架：N 上接 4-氟苯基、4 位接 4-羥苯基、3 位側鏈為 3-(4-氟苯基)-3-羥丙基，抑制小腸的 NPC1L1 膽固醇轉運蛋白。\n❌ (A) 兩個芳香環都是甲苯基，缺少必要的酚羥基與氟。\n❌ (B) 以 3,5-二甲氧苯基取代 4-羥苯基，不符。\n❌ (D) N 上接 3,5-二甲氧苯基而非 4-氟苯基。\n📚 出處：Foye's—膽固醇吸收抑制劑"
   },
   {
    "n": 47,
@@ -689,7 +692,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106020_305_11_48.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) piroxicam 主要由 CYP2C9 在吡啶環的 5' 位羥化，生成 5'-hydroxypiroxicam，是尿中含量最高的代謝物。\n❌ (A) 羥基在苯環上，非主要代謝位置。\n❌ (B) 為醯胺水解後的羧酸，屬量少的分解產物。\n❌ (C) 為 saccharin，只是苯并異噻唑骨架的片段。\n📚 出處：Foye's—Oxicam 類的代謝"
   },
   {
    "n": 49,
@@ -928,7 +932,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106020_305_11_65.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目化合物為 oxazepam。圖 A 為 lorazepam，其 5 位苯環帶有 2'-氯，代謝過程不會脫去此氯原子，因此不會生成 oxazepam。\n❌ (B) 為 chlordiazepoxide，經去甲基與去 N-氧化生成 demoxepam、nordazepam，最後羥化成 oxazepam。\n❌ (C) 為 clorazepate，在胃酸中脫羧成 nordazepam 後再羥化成 oxazepam。\n❌ (D) 為 diazepam，經 N-去甲基成 nordazepam 後羥化成 oxazepam。\n📚 出處：Foye's—苯二氮平類的共同代謝終點"
   },
   {
    "n": 66,

@@ -713,7 +713,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103090_312_11_50.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) flurazepam 的二乙胺乙基側鏈先被 N-去乙基，生成 N-desethylflurazepam（再進一步成 N-1-desalkylflurazepam），是血中含量最高且半衰期長達數十小時的活性代謝物。\n❌ (A) 為 flurazepam 母藥本身。\n❌ (B) 為 3 位羥化的次要產物。\n❌ (D) 為苯環羥化物，量極少。\n📚 出處：Foye's—苯二氮平類的代謝"
   },
   {
    "n": 51,
@@ -728,7 +729,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103090_312_11_51.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 morphine：3 位酚羥基具酸性、環上三級胺具鹼性，兼具酸鹼官能基而為兩性化合物。\n❌ (B) 為 codeine，酚羥基已甲基化，只剩鹼性胺。\n❌ (C) 為 oxycodone，3 位同為甲氧基，缺少酸性基團。\n❌ (D) 為 loperamide，只有醇羥基（不具酸性）與鹼性胺。\n📚 出處：Foye's—藥物的酸鹼性質"
   },
   {
    "n": 52,
@@ -743,7 +745,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103090_312_11_52.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 methamphetamine，其鹽酸鹽結晶俗稱 crystal 或 ice（冰毒），中樞興奮作用強且高度成癮。\n❌ (B) 為 MDMA，俗稱搖頭丸（ecstasy）。\n❌ (C) 為 LSD，屬麥角類致幻劑。\n❌ (D) 為 cocaine，俗稱古柯鹼。\n📚 出處：Foye's—濫用藥物"
   },
   {
    "n": 53,
@@ -883,7 +886,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103090_312_11_62.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) lumiracoxib 主要由 CYP2C9 在含氯與氟的苯胺環上羥化，生成 4'-hydroxylumiracoxib，圖 B 即此結構。\n❌ (A) 羥基落在苯乙酸環上，非主要羥化位置。\n❌ (C) 側鏈少一個亞甲基而成苯甲酸，代謝不會如此。\n❌ (D) 苯胺氮被酮基取代，骨架已改變。\n📚 出處：Foye's—選擇性 COX-2 抑制劑的代謝"
   },
   {
    "n": 63,
@@ -1125,7 +1129,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103090_312_11_79.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) apomorphine 為 (R)-構型的阿樸嗎啡，10,11 位鄰二酚結構使其成為強效非麥角類多巴胺 D1／D2 促效劑，皮下注射用於巴金森氏症的斷電期。\n❌ (B) 為 10-甲氧基衍生物（apocodeine），缺少完整的兒茶酚。\n❌ (C) 為含橋接醚的類似物，非 apomorphine。\n❌ (D) 立體構型相反，為活性極低的 (S)-對映體。\n📚 出處：Foye's—抗巴金森氏症藥物"
   },
   {
    "n": 80,
