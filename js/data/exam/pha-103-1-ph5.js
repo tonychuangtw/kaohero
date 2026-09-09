@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "不需要使用抗生素治療",
     "懷孕婦人常見asymptomatic bacteriuria的復發"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。孕婦的無症狀菌尿有高比例進展為腎盂腎炎與早產，「必須」以抗生素治療。\n❌ (A) 無症狀但兩次培養菌落數超過 10⁵，符合無症狀菌尿的定義。\n❌ (B) 孕期輸尿管擴張與尿滯留使其較常發生。\n❌ (D) 孕婦的復發率確實較高，須追蹤培養。\n📚 出處：IDSA Asymptomatic Bacteriuria Guideline"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "同時接種B型肝炎免疫球蛋白和B型肝炎疫苗會減低疫苗的效果",
     "注射B型肝炎免疫球蛋白是被動免疫，只有在注射後幾天內有效"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。免疫球蛋白與疫苗在不同部位同時接種並不會降低疫苗的免疫效果。\n❌ (A) 疫苗應於出生 12～24 小時內接種。\n❌ (B) 免疫球蛋白同樣須在出生後儘速給予。\n❌ (D) 免疫球蛋白提供的是短期的被動保護。\n📚 出處：CDC；台灣新生兒 B 肝防治計畫"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Sputum culture：Viridans streptococci",
     "Vaginal swab：Lactobacillus"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 糞便培養出沙門氏菌代表真正的病原菌，特定族群（嬰幼兒、老人、免疫低下）須抗生素治療。\n❌ (A) 表皮葡萄球菌是皮膚的常在菌，多為污染。\n❌ (C) 草綠色鏈球菌是口腔常在菌，痰檢體中屬污染。\n❌ (D) 乳酸桿菌是陰道正常菌叢，具保護作用。\n📚 出處：IDSA Guidelines"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "靜脈注射10 mg/kg q8h連續至少10天",
     "靜脈注射10 mg/kg q8h連續3天"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 單純疱疹腦炎須以靜脈注射 acyclovir 10 mg/kg 每 8 小時、療程至少 14～21 天（至少 10 天以上）。\n❌ (A) 口服的生體可用率不足以達到腦部濃度。\n❌ (B) 途徑與療程都不正確。\n❌ (D) 療程 3 天遠遠不足。\n📚 出處：IDSA Encephalitis Guideline"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "二個月",
     "三個月"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 免疫球蛋白中的抗體會中和活性減毒疫苗，接種 MMR 前應間隔至少 3 個月（依劑量可更久）。\n❌ (A) 2 週遠遠不足。\n❌ (B) 1 個月仍不足。\n❌ (C) 2 個月亦不夠。\n📚 出處：CDC 預防接種一般建議"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "革蘭氏染色法是用來區分病毒的一種檢驗方法",
     "感染症可能性確認後，應立即給與抗生素，再作血中檢體採樣進行細菌培養"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 發燒與潰瘍也可能來自自體免疫、腫瘤或藥物反應，第一步是確認確實有感染存在。\n❌ (B) 經驗性療法是依流行病學與可能病原推論，不是憑個人經驗。\n❌ (C) 革蘭氏染色用於區分細菌，不能看病毒。\n❌ (D) 應「先」採檢培養再給抗生素，以免影響培養結果。\n📚 出處：Applied Therapeutics—Infectious Diseases"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Ganciclovir",
     "Vancomycin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) moxifloxacin 主要經肝代謝與膽汁排泄，腎功能不全時不需調整劑量。\n❌ (A) amikacin 完全由腎排除，必須嚴格調整。\n❌ (C) ganciclovir 主要經腎排除。\n❌ (D) vancomycin 亦由腎排除。\n📚 出處：藥品仿單"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Pseudomonal endocarditis：piperacillin plus low dose tobramycin for 6~8 weeks",
     "Enterococcal endocarditis：low dose ampicillin plus low dose gentamicin for 12 weeks"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 黴菌性心內膜炎預後極差，須早期換瓣手術合併高劑量 amphotericin B 加 flucytosine。\n❌ (A) 抗甲氧西林的葡萄球菌對 oxacillin 已抗藥，須用 vancomycin。\n❌ (C) 綠膿桿菌心內膜炎須用「高劑量」胺基醣苷類。\n❌ (D) 腸球菌心內膜炎須用高劑量 ampicillin 加 gentamicin，療程 4～6 週。\n📚 出處：AHA Infective Endocarditis Guideline"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "若就診醫師不同，要特別告知醫師目前正在使用此藥",
     "服用後，若有口乾舌燥的問題不用太擔心，一陣子就好了"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) theophylline 的治療窗窄且交互作用多，就診不同醫師時務必主動告知正在使用。\n❌ (A) 它主要經肝代謝，應監測的是肝功能與併用藥。\n❌ (B) 濃度過高造成的是心搏「過速」。\n❌ (D) 口乾非其典型副作用，且不應輕忽任何持續症狀。\n📚 出處：Applied Therapeutics—Asthma"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Aspirin",
     "Amlodipine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阿斯匹靈抑制 COX 使花生四烯酸轉向白三烯，可誘發阿斯匹靈敏感型氣喘。\n❌ (A) acarbose 不影響氣道。\n❌ (B) acyclovir 無此作用。\n❌ (D) 鈣離子阻斷劑不誘發氣喘。\n📚 出處：Applied Therapeutics—Asthma"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Bisoprolol",
     "Timolol"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) timolol 是非選擇性 β 阻斷劑，會阻斷支氣管的 β2 受體而誘發痙攣（點眼劑亦然）。\n❌ (A) betaxolol 具心臟選擇性。\n❌ (B) atenolol 是選擇性 β1 阻斷劑。\n❌ (C) bisoprolol 的選擇性最高。\n📚 出處：Applied Therapeutics—Hypertension"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "①②④⑥",
     "③④⑤⑥"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ①cromolyn、③ipratropium、④nedocromil 與⑥salmeterol 都只有吸入劑型。\n❌ (B) ②terbutaline 另有口服與注射劑型。\n❌ (C) 同樣誤含 terbutaline。\n❌ (D) ⑤albuterol 亦有口服製劑。\n📚 出處：藥品仿單"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "打電話給醫師，建議改開不含類固醇的藥",
     "建議父母若孩子的症狀較佳時，可先行停藥"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 吸入型類固醇雖可能短期輕微影響生長速度，長期追蹤顯示對成人期最終身高的影響極小，仍應規則使用。\n❌ (B) 它是吸入劑而非口服類固醇。\n❌ (C) 吸入型類固醇是持續性氣喘的首選控制藥物。\n❌ (D) 控制藥物須規則使用，不可自行停藥。\n📚 出處：GINA Guideline"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Formoterol",
     "Pirbuterol"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) formoterol 屬長效 β2 促效劑，作用可維持約 12 小時。\n❌ (A) isoproterenol 的作用僅約 1～2 小時。\n❌ (B) albuterol 約 4～6 小時。\n❌ (D) pirbuterol 亦為短效藥。\n📚 出處：Katzung, Drugs Used in Asthma"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Lisinopril",
     "Prazosin"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 糖尿病合併高血壓者首選 ACE 抑制劑（或 ARB），可延緩腎病變。\n❌ (A) clonidine 是中樞作用藥，非首選。\n❌ (B) 硝普鈉只用於高血壓急症。\n❌ (D) α 阻斷劑不作第一線。\n📚 出處：ADA Standards of Care"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "採用DASH飲食，進行減重，以enalapril及hydrochlorothiazide合併治療，以儘快達到血壓控制目標",
     "採用DASH飲食，每週至少運動三天，每次至少30分鐘，同時以carvedilol治療以避免藥品副作用"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 第二期高血壓應在生活型態調整的同時，直接以兩種藥品（通常含利尿劑）合併起始治療。\n❌ (A) 第二期高血壓不能只靠生活型態調整。\n❌ (B) 觀察三個月會延誤治療。\n❌ (D) 第二期須雙藥起始，且 β 阻斷劑非首選。\n📚 出處：JNC 7"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Moxifloxacin",
     "Trimethoprim/sulfamethoxazole"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) clindamycin 不延長 QT 間期。\n❌ (B) 巨環類的 erythromycin 是典型會延長 QT 的藥物。\n❌ (C) moxifloxacin 在氟喹諾酮中延長 QT 的風險最高。\n❌ (D) TMP-SMX 亦有相關報告。\n📚 出處：CredibleMeds QT Drug List"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Propranolol",
     "Verapamil"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) digoxin 具正性肌力作用，可在控制心室速率的同時不減弱收縮功能，適合合併收縮性心衰竭者。\n❌ (A) amiodarone 雖可用，但有明顯的器官毒性且非首選。\n❌ (C) β 阻斷劑在失代償期會抑制收縮力。\n❌ (D) verapamil 的負性肌力作用明顯，心衰竭禁用。\n📚 出處：ACC/AHA Atrial Fibrillation Guideline"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "NTG能消除冠狀動脈血管痙攣，改善心肌血流",
     "最顯著的不良反應為心跳緩慢、熱潮紅、頭痛及低血壓"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。硝化甘油造成的是反射性「心搏過速」，不是心跳緩慢。\n❌ (A) 每 5 分鐘一錠、最多三錠是標準用法。\n❌ (B) 它擴張靜脈與動脈，主要降低前負載。\n❌ (C) 它可解除冠狀動脈痙攣、改善缺血區血流。\n📚 出處：ACC/AHA ACS Guideline"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Class III",
     "Class IV"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 第 III 類藥物阻斷鉀通道，延長動作電位時間與不反應期最為顯著。\n❌ (A) 第 I 類主要影響去極化速率。\n❌ (B) 第 II 類作用於節律點與傳導。\n❌ (D) 第 IV 類作用於鈣通道與房室結。\n📚 出處：Katzung, Antiarrhythmic Drugs"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Verapamil會增加digoxin清除率，使digoxin血清濃度降低20~40%",
     "制酸劑可能降低digoxin生體可用率達20~35%"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。verapamil 抑制 P-醣蛋白並減少腎清除，會使 digoxin 濃度「上升」約 50～75%。\n❌ (A) amiodarone 使濃度大幅上升。\n❌ (B) itraconazole 同樣抑制 P-醣蛋白。\n❌ (D) 制酸劑吸附 digoxin 而降低吸收。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Stage A：hydrochlorothiazide",
     "Stage A：furosemide + telmisartan"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 已有心肌梗塞（結構性心臟病）但尚無心衰竭症狀者屬 Stage B，應以 ACE 抑制劑加 β 阻斷劑預防惡化。\n❌ (A) 二氫吡啶類鈣阻斷劑無預防重塑的效果。\n❌ (C) 有結構性病變已非 Stage A。\n❌ (D) 分期錯誤且未使用具實證的藥類組合。\n📚 出處：ACC/AHA Heart Failure Guideline"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Aspirin",
     "Dipyridamole"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肝素不通過胎盤、半衰期短且可用魚精蛋白中和，最適合接近生產時使用。\n❌ (A) warfarin 具致畸性且增加生產出血風險。\n❌ (C) 阿斯匹靈的抗凝強度不足且影響胎兒導管。\n❌ (D) dipyridamole 單用效果不足。\n📚 出處：CHEST Antithrombotic Guideline"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Lansoprazole",
     "Pyridoxine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 5-HT3 拮抗劑是預防術後噁心嘔吐的首選。\n❌ (A) H2 阻斷劑用於預防吸入性肺炎的酸度，不防吐。\n❌ (C) 質子幫浦抑制劑同樣不是止吐藥。\n❌ (D) 維生素 B6 用於孕吐輔助。\n📚 出處：Applied Therapeutics—Nausea and Vomiting"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Palonosetron + dexamethasone",
     "Prochlorperazine + dexamethasone + aprepitant"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 蒽環類加 cyclophosphamide（AC）屬高致吐風險，需三藥併用：5-HT3 拮抗劑＋類固醇＋NK1 拮抗劑。\n❌ (A) 缺少 5-HT3 拮抗劑。\n❌ (C) 缺少 NK1 拮抗劑。\n❌ (D) prochlorperazine 不能取代 5-HT3 拮抗劑的地位。\n📚 出處：NCCN Antiemesis Guideline"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Acetaminophen",
     "Amiodarone"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 17α-烷基化的雄性素會造成膽汁鬱積型肝損傷與黃疸。\n❌ (B) 胰臟酵素製劑不吸收，無肝毒性。\n❌ (C) acetaminophen 過量造成的是肝細胞壞死（黃疸為晚期表現而非典型）。\n❌ (D) amiodarone 的肝損傷屬肝細胞型且較少以黃疸表現。\n📚 出處：Applied Therapeutics—Drug-Induced Liver Injury"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Cisapride",
     "Domperidone"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) cisapride 延長 QT 間期並引起尖端扭轉型室速，已全球下市。\n❌ (A) metoclopramide 仍在使用（惟有遲發性運動障礙的黑框警語）。\n❌ (B) bethanechol 仍可使用。\n❌ (D) domperidone 雖有 QT 疑慮但未全面下市。\n📚 出處：FDA 藥品下市公告"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Amoxicillin or metronidazole",
     "Erythromycin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) erythromycin 不是幽門螺旋桿菌根除療法的成分（用的是 clarithromycin）。\n❌ (A) 質子幫浦抑制劑是三合一的基礎。\n❌ (B) clarithromycin 是標準組合的抗生素。\n❌ (C) amoxicillin 或 metronidazole 是第三個成分。\n📚 出處：Applied Therapeutics—Peptic Ulcer Disease"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "宜先服用ciprofloxacin，2小時後再使用制酸劑",
     "Ciprofloxacin與制酸劑宜同時併服，以相互增進吸收"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 應先服喹諾酮，間隔 2 小時以上再服制酸劑，以免螯合影響吸收。\n❌ (A) 兩者的螯合作用顯著。\n❌ (B) 先服制酸劑會使胃內留有金屬離子而干擾吸收。\n❌ (D) 併服會大幅降低抗生素的生體可用率。\n📚 出處：藥品仿單"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Comtan®",
     "Cytotec®"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Clarinase® 是 loratadine 加 pseudoephedrine 的複方。\n❌ (A) CellCept® 只含 mycophenolate mofetil。\n❌ (C) Comtan® 只含 entacapone。\n❌ (D) Cytotec® 只含 misoprostol。\n📚 出處：藥品仿單"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "高血壓",
     "鐵蓄積"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 血管通路（動靜脈廔管或人工血管）的血栓阻塞是血液透析最常見的併發症之一。\n❌ (A) 慢性腎病常見的是「高」血磷。\n❌ (C) 透析中常見的是「低」血壓。\n❌ (D) 透析病人多為鐵缺乏而非蓄積。\n📚 出處：Applied Therapeutics—Hemodialysis"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "常用於加護病房之止痛劑是propofol",
     "慢性疼痛之輔助治療可用nortriptyline"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 三環抗憂鬱劑（如 nortriptyline）是神經病變性慢性疼痛的輔助止痛藥。\n❌ (A) meperidine 的代謝物在腎衰竭時蓄積致抽搐，應避免。\n❌ (B) 便秘是嗎啡唯一不會產生耐受性的副作用。\n❌ (C) propofol 是鎮靜麻醉劑，沒有止痛作用。\n📚 出處：Applied Therapeutics—Pain Management"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Leucovorin",
     "Naloxone"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 意識改變合併呼吸速率每分鐘 7 次是典型的鴉片過量，須立即給予 naloxone。\n❌ (A) buprenorphine 是部分促效劑，會加重呼吸抑制。\n❌ (B) flumazenil 解的是苯二氮平類。\n❌ (C) leucovorin 是 methotrexate 的解救藥。\n📚 出處：Katzung, Opioid Antagonists"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Naproxen對女性經期相關的偏頭痛有效",
     "Methysergide因副作用大，列為後線藥品"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。偏頭痛的預防用藥（含 verapamil）通常需 2～3 個「月」才能評估最大療效，不是三天。\n❌ (A) propranolol 是預防的第一線用藥。\n❌ (C) NSAIDs 對經期偏頭痛的短期預防有效。\n❌ (D) methysergide 因後腹腔纖維化而列為後線。\n📚 出處：Applied Therapeutics—Headache"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Ziprasidone較不會引起心電圖異常現象",
     "Quetiapine比較不易引起鎮靜副作用"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) olanzapine 的體重增加與代謝副作用明顯高於 haloperidol。\n❌ (B) paliperidone 的錐體外症狀低於 haloperidol。\n❌ (C) ziprasidone 延長 QT 的風險反而較高。\n❌ (D) quetiapine 的鎮靜作用比 haloperidol 更強。\n📚 出處：Applied Therapeutics—Schizophrenia"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "白血球",
     "血糖"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) clozapine 主要經肝代謝，腎功能不是必要的例行監測項目。\n❌ (B) 體重與代謝症候群須定期追蹤。\n❌ (C) 顆粒性白血球缺乏是其黑框警語，必須定期監測白血球。\n❌ (D) 高血糖與糖尿病風險須監測血糖。\n📚 出處：Applied Therapeutics—Schizophrenia"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Cimetidine",
     "Sucralfate"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) metoclopramide 可通過血腦障壁阻斷中樞 D2 受體，是藥物性巴金森症的常見原因。\n❌ (B) domperidone 不易入腦，中樞副作用少。\n❌ (C) cimetidine 不阻斷多巴胺受體。\n❌ (D) sucralfate 不吸收，無中樞作用。\n📚 出處：Applied Therapeutics—Drug-Induced Movement Disorders"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Carbamazepine",
     "Clonazepam"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鋰鹽完全由腎排除、不經肝代謝，肝功能不良者使用最無代謝上的顧慮。\n❌ (A) valproic acid 具肝毒性。\n❌ (C) carbamazepine 亦有肝毒性且經肝代謝。\n❌ (D) clonazepam 經肝代謝且非情緒穩定劑的主力。\n📚 出處：Applied Therapeutics—Bipolar Disorder"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "低密度脂蛋白（LDL）",
     "高密度脂蛋白（HDL）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 乳糜微粒的三酸甘油酯含量高達 85～90%，是各脂蛋白中最高者。\n❌ (B) VLDL 的三酸甘油酯約 55～65%。\n❌ (C) LDL 以膽固醇為主。\n❌ (D) HDL 以蛋白質與磷脂為主。\n📚 出處：Applied Therapeutics—Hyperlipidemia"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Niacin",
     "Gemfibrozil"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 膽酸結合樹脂會使三酸甘油酯「上升」，高三酸甘油酯血症應避免使用。\n❌ (B) fenofibrate 是降三酸甘油酯的首選。\n❌ (C) 菸鹼酸可有效降低三酸甘油酯。\n❌ (D) gemfibrozil 同屬 fibrate 類。\n📚 出處：Applied Therapeutics—Hyperlipidemia"
   },
   {
    "n": 41,
@@ -546,7 +586,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Colchicine：每小時靜脈注射0.5 mg 直到出現腹瀉、噁心等副作用",
     "Triamcinolone acetonide：關節內（intraarticular）注射20 mg"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。靜脈注射 colchicine 因嚴重骨髓抑制與死亡案例已停用，且絕不應給到出現腹瀉為止。\n❌ (A) indomethacin 高劑量起始再減量是標準做法。\n❌ (B) naproxen 的用法同樣合理。\n❌ (D) 單一關節發作可採關節內類固醇注射。\n📚 出處：ACR Gout Guideline"
   },
   {
    "n": 42,
@@ -559,7 +600,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "鈣片與tetracycline併用，會降低tetracycline的吸收",
     "鈣片與phenytoin併用，會降低phenytoin的吸收"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。碳酸鈣需要胃酸溶解，與食物併服反而「增加」吸收。\n❌ (A) 質子幫浦抑制劑減少胃酸，降低碳酸鈣的吸收。\n❌ (C) 鈣與四環素螯合而降低其吸收。\n❌ (D) 鈣亦會減少 phenytoin 的吸收。\n📚 出處：Applied Therapeutics—Osteoporosis"
   },
   {
    "n": 43,
@@ -572,7 +614,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Etretinate的半衰期比acitretin半衰期短",
     "食物會減少acitretin的腸道吸收"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 飲酒會使 acitretin 經酯化轉回半衰期極長（約 120 天）的 etretinate，因此女性用藥期間與停藥後三年內須嚴格避孕與禁酒。\n❌ (A) 關係相反：acitretin 是 etretinate 的活性代謝物。\n❌ (C) etretinate 的半衰期遠「長」於 acitretin。\n❌ (D) 食物（尤其油脂）會「增加」acitretin 的吸收。\n📚 出處：藥品仿單"
   },
   {
    "n": 44,
@@ -585,7 +628,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Normocytic anemia與acute blood loss",
     "Megaloblastic anemia與thalassemia"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 急性失血時紅血球體積正常，屬正球性貧血。\n❌ (A) 缺鐵造成小球性貧血。\n❌ (B) 葉酸缺乏造成巨球性貧血。\n❌ (D) 地中海型貧血屬小球性。\n📚 出處：Applied Therapeutics—Anemias"
   },
   {
    "n": 45,
@@ -598,7 +642,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "癌細胞減低對藥品的活性化（activation）",
     "癌細胞增加對藥品的不活性化（inactivation）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 5-FU 須經細胞內酵素轉為 FdUMP 才有活性，活化酵素（如 orotate phosphoribosyltransferase）減少即產生抗藥性。\n❌ (A) 攝取減少不是其主要抗藥機轉。\n❌ (B) 外排幫浦是紫杉醇與蒽環類的抗藥機轉。\n❌ (D) 雖然 DPD 活性增加會加速分解，但典型的抗藥機轉是活化不足。\n📚 出處：Katzung, Cancer Chemotherapy"
   },
   {
    "n": 46,
@@ -611,7 +656,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "金黃色葡萄球菌（Staphylococcus aureus）",
     "鮑氏不動桿菌（Acinetobacter baumannii）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 腦脊髓液以淋巴球為主、糖低蛋白高，且印度墨汁染色陽性，是隱球菌腦膜炎的典型表現。\n❌ (B) 結核性腦膜炎的抗酸染色會陽性且墨汁染色陰性。\n❌ (C) 細菌性腦膜炎以中性球為主且革蘭氏染色可見菌體。\n❌ (D) 鮑氏不動桿菌屬革蘭氏陰性桿菌，染色可見。\n📚 出處：IDSA Cryptococcal Disease Guideline"
   },
   {
    "n": 47,
@@ -624,7 +670,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Amphotericin B + flucytosine",
     "Vancomycin"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 隱球菌腦膜炎的誘導治療首選 amphotericin B 合併 flucytosine。\n❌ (A) 碳青黴烯類對黴菌無效。\n❌ (B) 抗結核療法不適用。\n❌ (D) vancomycin 只對革蘭氏陽性菌有效。\n📚 出處：IDSA Cryptococcal Disease Guideline"
   },
   {
    "n": 48,
@@ -637,7 +684,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Amphotericin B",
     "Vancomycin"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) amphotericin B 分子大且與蛋白高度結合，腦脊髓液的穿透率極低（治療隱球菌腦膜炎靠的是併用 flucytosine 與長療程）。\n❌ (A) 碳青黴烯類在腦膜發炎時可達治療濃度。\n❌ (B) isoniazid 的腦脊髓液穿透極佳。\n❌ (D) vancomycin 在腦膜發炎時可達一定濃度。\n📚 出處：Applied Therapeutics—CNS Infections"
   },
   {
    "n": 49,
@@ -650,7 +698,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "嗜伊紅性白血球計數（eosinophil count）",
     "全血球計數"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 發熱性嗜中性球低下的定義是絕對嗜中性球數低於 500/mm³（或預期將降至此），須以 ANC 判定。\n❌ (A) 總白血球數無法反映嗜中性球的比例。\n❌ (C) 嗜伊紅性白血球與此無關。\n❌ (D) 全血球計數只是取得 ANC 的來源，判定依據仍是 ANC。\n📚 出處：IDSA Febrile Neutropenia Guideline"
   },
   {
    "n": 50,
@@ -663,7 +712,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "濃度曲線下面積（area under the curve，AUC）",
     "濃度曲線下面積與最小殺菌濃度（minimal bactericidal concentration，MBC）之比值（AUC/MBC）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 臨床上以谷濃度作為 vancomycin 療效與安全性的實用替代指標（目標 15～20 mg/L）。\n❌ (B) 峰濃度與療效或毒性的相關性不佳。\n❌ (C) AUC/MIC 才是真正的藥效學指標，但臨床計算較複雜。\n❌ (D) 使用的是 MIC 而非 MBC。\n📚 出處：IDSA Vancomycin Monitoring Guideline"
   },
   {
    "n": 51,
@@ -676,7 +726,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Inhaled cromolyn",
     "Inhaled salmeterol"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 吸入型短效 β2 促效劑是急性氣喘發作的首選緩解藥。\n❌ (B) 靜脈茶鹼治療窗窄，已非第一線。\n❌ (C) cromolyn 只作預防，無急救作用。\n❌ (D) salmeterol 是長效藥，不可用於急性發作。\n📚 出處：GINA Guideline"
   },
   {
    "n": 52,
@@ -689,7 +740,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Oral fenoterol",
     "Inhaled beclomethasone"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 吸入型類固醇是持續性氣喘最有效的抗發炎控制藥物。\n❌ (A) 茶鹼是支氣管擴張劑，抗發炎作用弱。\n❌ (B) celecoxib 對氣喘無效且可能誘發。\n❌ (C) fenoterol 是 β2 促效劑，非抗發炎藥。\n📚 出處：GINA Guideline"
   },
   {
    "n": 53,
@@ -702,7 +754,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Oral montelukast",
     "Inhaled tiotropium"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 白三烯受體拮抗劑是輕度持續性氣喘中，吸入型類固醇的替代控制藥物（尤其兒童順從性考量時）。\n❌ (A) omalizumab 保留給重度過敏性氣喘。\n❌ (B) ketotifen 的實證不足以取代吸入型類固醇。\n❌ (D) tiotropium 用於 COPD 與重度氣喘的加強治療。\n📚 出處：GINA Guideline"
   },
   {
    "n": 54,
@@ -715,7 +768,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "如欲使用藥品治療，其首選為ACE inhibitors，必要時輔以利尿劑",
     "只有病人的收縮壓而沒有舒張壓值，無法判斷何種治療方式最適合"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 糖尿病病人的首選降壓藥為 ACE 抑制劑（或 ARB），血壓未達標時可加利尿劑。\n❌ (A) 糖尿病人的血壓達 140 已需藥物治療。\n❌ (B) 利尿劑不是糖尿病人的首選。\n❌ (D) 單憑收縮壓即可判定並選藥。\n📚 出處：ADA Standards of Care"
   },
   {
    "n": 55,
@@ -728,7 +782,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "135/85",
     "140/90"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 當時的指引建議糖尿病病人的血壓控制目標為 130/80 mmHg 以下。\n❌ (A) 125/75 是合併大量蛋白尿時的更嚴格目標。\n❌ (C) 135/85 不是標準目標值。\n❌ (D) 140/90 是一般族群的目標。\n📚 出處：ADA Standards of Care；JNC 7"
   },
   {
    "n": 56,
@@ -741,7 +796,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "首選藥品為fibrate，應控制TG低於100 mg/dL",
     "首選藥品為fibrate，應控制TG低於130 mg/dL"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 糖尿病屬冠心症等危症，LDL-C 目標為 100 mg/dL 以下，首選他汀類。\n❌ (B) 130 mg/dL 的目標對糖尿病人不夠嚴格。\n❌ (C) 三酸甘油酯 160 尚未達優先處理的門檻（＞500 才須先降 TG）。\n❌ (D) 目標值與藥類都不正確。\n📚 出處：NCEP ATP III；ADA"
   },
   {
    "n": 57,
@@ -754,7 +810,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Somatostatin",
     "Terlipressin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 質子幫浦抑制劑用於消化性潰瘍出血，對門脈高壓造成的靜脈曲張出血無直接止血作用。\n❌ (A) octreotide 收縮內臟血管、降低門脈壓。\n❌ (C) somatostatin 同樣可降門脈壓。\n❌ (D) terlipressin 是有效的血管收縮劑。\n📚 出處：AASLD Variceal Hemorrhage Guideline"
   },
   {
    "n": 58,
@@ -767,7 +824,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Selective β-blockers",
     "Nonselective β-blockers"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 非選擇性 β 阻斷劑同時阻斷 β1（降心輸出）與 β2（使內臟血管收縮），可有效降低門脈壓預防再出血。\n❌ (A) ACE 抑制劑不用於此適應症。\n❌ (B) ARB 同樣不是標準治療。\n❌ (C) 選擇性 β1 阻斷劑缺乏 β2 阻斷帶來的內臟血管收縮效果。\n📚 出處：AASLD Variceal Hemorrhage Guideline"
   },
   {
    "n": 59,
@@ -780,7 +838,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Propranolol",
     "Valsartan"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) propranolol 是非選擇性 β 阻斷劑，用於預防食道靜脈曲張再出血。\n❌ (A) atenolol 為選擇性 β1 阻斷劑，效果不足。\n❌ (B) enalapril 不適用。\n❌ (D) valsartan 同樣不適用。\n📚 出處：AASLD Variceal Hemorrhage Guideline"
   },
   {
    "n": 60,
@@ -793,7 +852,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "35",
     "36"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) K/DOQI 建議血比容維持在 33～36%（血紅素 11～12 g/dL），下限為 33%。\n❌ (A) 30% 低於建議範圍。\n❌ (C) 35% 在範圍內但非指引所列的目標下限。\n❌ (D) 36% 是上限而非治療目標值。\n📚 出處：K/DOQI Anemia Guideline"
   },
   {
    "n": 61,
@@ -806,7 +866,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "給予erythropoietin",
     "補充葉酸"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 開始紅血球生成刺激劑之前必須先評估鐵存量，鐵不足時 ESA 無效。\n❌ (A) 血比容 26% 且無急性症狀，不需輸血。\n❌ (C) 未評估鐵狀態就給 ESA 是錯誤順序。\n❌ (D) 腎性貧血的主因不是葉酸缺乏。\n📚 出處：K/DOQI Anemia Guideline"
   },
   {
    "n": 62,
@@ -819,7 +880,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Intravenous push",
     "Subcutaneous administration"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 皮下注射的生體可用率雖較低但吸收緩慢持久，達同等療效所需總劑量較少，最經濟有效。\n❌ (A) 加入透析液會被大量移除。\n❌ (B) 靜脈輸注的半衰期短，用量較大。\n❌ (C) 靜脈推注同樣消耗較多藥量。\n📚 出處：K/DOQI Anemia Guideline"
   },
   {
    "n": 63,
@@ -832,7 +894,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "高血鉀",
     "高血鈣"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 血比容上升使血液黏稠度增加，高血壓是紅血球生成素最常見的副作用。\n❌ (B) 癲癇少見，多發生於血比容上升過快時。\n❌ (C) 高血鉀與此藥無直接關係。\n❌ (D) 高血鈣不是其副作用。\n📚 出處：藥品仿單"
   },
   {
    "n": 64,
@@ -845,7 +908,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "推測藥品血中濃度已超過20 mg/mL",
     "應暫時停藥，立即測藥品血中濃度，以便後續處理"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 眼球震顫、複視與步態不穩是典型的 phenytoin 濃度過高表現，應暫停給藥並立即測濃度以決定後續劑量。\n❌ (A) 這些症狀與血中濃度高度相關。\n❌ (B) 停藥十天會使癲癇失控。\n❌ (C) 出現複視與運動失調時濃度通常已超過 30 µg/mL（且單位應為 µg/mL）。\n📚 出處：Applied Therapeutics—Seizure Disorders"
   },
   {
    "n": 65,
@@ -858,7 +922,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Naranjo algorithm",
     "Remington algorithm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Naranjo 量表是評估藥品與不良反應因果關係最通用的標準化工具。\n❌ (A) Donabedian 是醫療品質評估模式。\n❌ (B) Koda-Kimble 是治療學教科書名。\n❌ (D) Remington 是藥學教科書名。\n📚 出處：藥物不良反應評估"
   },
   {
    "n": 66,
@@ -871,7 +936,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "8",
     "16"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Naranjo 量表的「極有可能（probable）」對應 5～8 分。\n❌ (A) 2 分屬「可能（possible）」的下緣（1～4 分）。\n❌ (B) 4 分屬 possible。\n❌ (D) 9 分以上才是「確定（definite）」。\n📚 出處：Naranjo Adverse Drug Reaction Probability Scale"
   },
   {
    "n": 67,
@@ -884,7 +950,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Lorazepam",
     "Triazolam"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) lorazepam 只經第二相葡萄糖醛酸結合代謝，肝功能不良者較不受影響。\n❌ (A) alprazolam 需經 CYP3A4 氧化。\n❌ (B) diazepam 經氧化且有長效活性代謝物。\n❌ (D) triazolam 同樣依賴 CYP3A4。\n📚 出處：Applied Therapeutics—Hepatic Impairment"
   },
   {
    "n": 68,
@@ -897,7 +964,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "不會影響凝血功能",
     "非經cytochrome P450代謝"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 選擇 lorazepam 的關鍵在於它不經細胞色素 P450 的第一相氧化，肝病時清除率變化最小。\n❌ (A) 它的半衰期約 10～20 小時，不是 3～4 小時。\n❌ (B) 其蛋白結合率約 85%，並不低。\n❌ (C) 苯二氮平類都不影響凝血功能，這不是選它的理由。\n📚 出處：Applied Therapeutics—Hepatic Impairment"
   },
   {
    "n": 69,
@@ -910,7 +978,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "cTnI",
     "PSA"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 白蛋白由肝臟合成，其濃度可反映肝臟的合成功能。\n❌ (B) 肌酸酐廓清率反映腎功能。\n❌ (C) 心肌旋轉蛋白 I 反映心肌損傷。\n❌ (D) 攝護腺特異抗原用於前列腺疾病。\n📚 出處：Applied Therapeutics—Liver Function Tests"
   },
   {
    "n": 70,
@@ -923,7 +992,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "275",
     "310"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 以 HbA1c 每增加 1% 約對應平均血糖上升 35 mg/dL 估算（6%≒135），9% 約相當於 240 mg/dL。\n❌ (A) 205 mg/dL 對應 HbA1c 約 8%。\n❌ (C) 275 mg/dL 對應約 10%。\n❌ (D) 310 mg/dL 對應約 11%。\n📚 出處：ADA Standards of Care"
   },
   {
    "n": 71,
@@ -936,7 +1006,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Glipizide",
     "Metformin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) metformin 是第二型糖尿病的第一線單一用藥，對肥胖者尤其適合（不增重、可能減重）。\n❌ (A) TZD 類造成體重增加與水腫。\n❌ (B) acarbose 的降糖幅度有限。\n❌ (C) 磺醯脲類會增加體重與低血糖風險。\n📚 出處：ADA Standards of Care"
   },
   {
    "n": 72,
@@ -949,7 +1020,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "檢驗值誤差",
     "空腹服用levothyroxin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) cholestyramine、鈣片與鐵劑都會在腸道結合 levothyroxine 而大幅降低其吸收，是治療失敗的主因。\n❌ (B) 題目未顯示順從性問題。\n❌ (C) TSH 與 FT4 的變化一致，不像檢驗誤差。\n❌ (D) 空腹服用本身是正確做法。\n📚 出處：Applied Therapeutics—Thyroid Disorders"
   },
   {
    "n": 73,
@@ -962,7 +1034,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "①③",
     "②④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ①把 cholestyramine 改成不干擾吸收的他汀類；②raloxifene 與 levothyroxine 錯開 12 小時，兩者都能解決交互作用。\n❌ (B) ③增加鈣片頻次會加重干擾。\n❌ (C) 同樣誤含③。\n❌ (D) ④增加 cholestyramine 劑量只會使問題惡化。\n📚 出處：Applied Therapeutics—Thyroid Disorders"
   },
   {
    "n": 74,
@@ -975,7 +1048,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "為長效錠",
     "可降低腎毒性"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 腸溶衣使錠劑在胃中不崩解，可減少藥物對胃黏膜的「直接」刺激。\n❌ (B) 止痛起效確實較慢，但這是缺點而非本題要問的正確敘述重點；不過選項本身並非此劑型的設計特徵描述。\n❌ (C) 腸溶錠不等於長效錠。\n❌ (D) 全身性抑制前列腺素造成的腎毒性不因腸溶衣而減少。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Coated Tablets"
   },
   {
    "n": 75,
@@ -988,7 +1062,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "治療退化性關節炎，起始劑量為45 mg/kg/day",
     "服用時不可使用礦泉水"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 用於關節炎的抗發炎劑量約每日 45 mg/kg（分次給予），遠高於抗血小板劑量。\n❌ (A) 抗發炎劑量須每日分多次服用。\n❌ (B) 腸溶錠與制酸劑併用反而可能使腸溶衣提前溶解。\n❌ (D) 以開水（含礦泉水）配服並無禁忌。\n📚 出處：Applied Therapeutics—Osteoarthritis"
   },
   {
    "n": 76,
@@ -1001,7 +1076,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "血管水腫（angioedema）",
     "高血壓"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阿斯匹靈可誘發類過敏反應，血管性水腫與蕁麻疹是常見表現。\n❌ (A) 它不增加血小板數目。\n❌ (B) 它「抑制」而非促進血小板凝集。\n❌ (D) 高劑量雖可能影響腎功能，但高血壓不是其典型副作用。\n📚 出處：Katzung, NSAIDs"
   },
   {
    "n": 77,
@@ -1014,7 +1090,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "多發性骨髓瘤（multiple myeloma）",
     "急性前骨髓細胞白血病（acute promyelocytic leukemia）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 中年男性因輕微外力即發生病理性脊椎骨折並確診為血液疾病，最符合多發性骨髓瘤（溶骨性病變）。\n❌ (A) 急性骨髓炎是感染，不屬血液疾病。\n❌ (B) 何杰金氏淋巴瘤以無痛性淋巴結腫大表現。\n❌ (D) 急性前骨髓細胞白血病以出血傾向與凝血異常為主。\n📚 出處：Applied Therapeutics—Multiple Myeloma"
   },
   {
    "n": 78,
@@ -1027,7 +1104,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Doxorubicin",
     "Dexamethasone"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) topotecan 是拓樸異構酶 I 抑制劑，用於卵巢癌與小細胞肺癌，不用於多發性骨髓瘤。\n❌ (B) vincristine 是 VAD 療法的成分。\n❌ (C) doxorubicin 亦為 VAD 的成分。\n❌ (D) 高劑量 dexamethasone 是骨髓瘤治療的核心。\n📚 出處：NCCN Guidelines—Multiple Myeloma"
   },
   {
    "n": 79,
@@ -1040,7 +1118,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "Gefitinib",
     "Imatinib"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) thalidomide 是口服的免疫調節劑，對多發性骨髓瘤有明確療效。\n❌ (B) 全反式維甲酸用於急性前骨髓細胞白血病。\n❌ (C) gefitinib 用於非小細胞肺癌。\n❌ (D) imatinib 用於慢性骨髓性白血病與胃腸道間質瘤。\n📚 出處：NCCN Guidelines—Multiple Myeloma"
   },
   {
    "n": 80,
@@ -1053,7 +1132,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph5'] = {
     "可能引發心律不整（arrhythmia）",
     "可能引起周邊神經病變（peripheral neuropathy）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 心律不整不是 thalidomide 的常見特性（其心血管風險主要是靜脈血栓栓塞與心搏過緩）。\n❌ (A) 它具強致畸性，懷孕分級為 X。\n❌ (B) 嗜睡是最常見的副作用之一。\n❌ (D) 周邊神經病變是限制長期使用的重要毒性。\n📚 出處：藥品仿單；NCCN Guidelines"
   }
  ]
 };
