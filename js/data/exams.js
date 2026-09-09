@@ -12964,7 +12964,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（一）",
   "label": "108 年第一次　藥學（一）",
   "n": 80,
-  "exp": 71,
+  "exp": 75,
   "mins": 60
  },
  {
@@ -13636,7 +13636,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（一）",
   "label": "104 年第一次　藥學（一）",
   "n": 80,
-  "exp": 73,
+  "exp": 77,
   "mins": 60
  },
  {

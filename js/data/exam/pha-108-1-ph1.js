@@ -619,7 +619,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108030_305_11_43.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 的羥基加在 A 環的 1 位，estradiol 的芳香族羥化只發生在 2 位與 4 位，因此 1-羥基衍生物不是其氧化代謝物。\n❌ (A) 為 2-hydroxyestradiol（兒茶酚型雌激素），是主要氧化代謝物。\n❌ (B) 為 16α-hydroxyestradiol，屬 D 環羥化的代謝物。\n❌ (C) 為 4-hydroxyestradiol，亦為已知的兒茶酚型代謝物。\n📚 出處：Foye's—雌激素的代謝"
   },
   {
    "n": 44,
@@ -661,7 +662,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108030_305_11_46.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) nabumetone 本身是不具酸性的前驅藥，經肝臟氧化切斷丁酮側鏈後生成 6-甲氧基-2-萘乙酸（6-MNA），才是真正抑制環氧合酶的活性型。\n❌ (B) 側鏈多一個碳的丙酸衍生物，不是活性代謝物。\n❌ (C) 甲氧基已去甲基且側鏈仍為醇，屬次要產物。\n❌ (D) 為酮基被還原成二級醇的中間產物，尚無 COX 抑制活性。\n📚 出處：Foye's—NSAID 前驅藥 nabumetone"
   },
   {
    "n": 47,
@@ -870,7 +872,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108030_305_11_61.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) meperidine 經 N-去甲基生成 normeperidine，半衰期長、易在腎功能不良者蓄積，具中樞興奮性而引發顫抖與癲癇。\n❌ (A) 為 alfentanil 鹽酸鹽，與 meperidine 無關。\n❌ (C) 為 butorphanol。\n❌ (D) 為 pentazocine。\n📚 出處：Foye's—Meperidine 的代謝與毒性"
   },
   {
    "n": 62,
@@ -899,7 +902,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108030_305_11_63.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 pentazocine：苯并嗎啡烷骨架加二甲基烯丙基，屬 κ 受體促效兼 μ 受體弱拮抗的混合型鎮痛藥。\n❌ (A) 為 remifentanil，純 μ 促效劑。\n❌ (B) 為 etorphine 類的強效 μ 促效劑。\n❌ (C) 為 dezocine，對 μ 受體為部分促效而非拮抗。\n📚 出處：Foye's—混合型阿片促效／拮抗劑"
   },
   {
    "n": 64,
