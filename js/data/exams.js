@@ -15624,7 +15624,7 @@ window.APP_EXAMS = [
   "subjName": "行政學",
   "label": "114 年　高考三級　行政學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -15652,7 +15652,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "114 年　高考三級　經濟學",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -16016,7 +16016,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要（財稅行政組）",
   "label": "114 年　普通考試　會計學概要（財稅行政組）",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -16128,7 +16128,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要（會計組）",
   "label": "114 年　普通考試　會計學概要（會計組）",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
