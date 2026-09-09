@@ -16254,7 +16254,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "113 年　高考三級　經濟學",
   "n": 25,
-  "exp": 0,
+  "exp": 23,
   "mins": 75
  },
  {
@@ -16478,7 +16478,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學與財政學概論",
   "label": "113 年　高考三級　經濟學與財政學概論",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
