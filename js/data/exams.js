@@ -15134,7 +15134,7 @@ window.APP_EXAMS = [
   "subjName": "海洋事務總論",
   "label": "115 年　高考三級　海洋事務總論",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
