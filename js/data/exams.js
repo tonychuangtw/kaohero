@@ -16268,7 +16268,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "113 年　高考三級　民法（財稅行政組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -16436,7 +16436,7 @@ window.APP_EXAMS = [
   "subjName": "民法（司法行政組）",
   "label": "113 年　高考三級　民法（司法行政組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -16464,7 +16464,7 @@ window.APP_EXAMS = [
   "subjName": "民法（法制組）",
   "label": "113 年　高考三級　民法（法制組）",
   "n": 25,
-  "exp": 0,
+  "exp": 21,
   "mins": 75
  },
  {
