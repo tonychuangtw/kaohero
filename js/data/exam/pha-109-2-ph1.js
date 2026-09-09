@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_41.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 palbociclib：吡啶并嘧啶母核帶環戊基與乙醯基，選擇性抑制 CDK4/6，核准用於 HR 陽性轉移性乳癌。\n❌ (A) 為 PARP 抑制劑的酞嗪酮骨架，屬 DNA 修復抑制劑。\n❌ (B) 同屬 PARP 抑制劑，與細胞週期激酶無關。\n❌ (D) 亦為 PARP 抑制劑結構，作用機轉為合成致死。\n📚 出處：Foye's—Antineoplastic Agents（CDK 抑制劑）"
   },
   {
    "n": 42,
@@ -729,7 +730,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_51.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 phenelzine（苯乙肼），屬單胺氧化酶抑制劑；與富含酪胺的食物或擬交感神經藥併用會引發高血壓危象，高血壓病人應避免。\n❌ (A) 為 benzodiazepine 類的 oxazepam，不會升高血壓。\n❌ (C) 為三環類抗鬱劑結構，雖有心血管副作用但非高血壓危象的典型禁忌。\n❌ (D) 為 paroxetine（SSRI），不影響酪胺代謝。\n📚 出處：Foye's—MAO 抑制劑與起司效應"
   },
   {
    "n": 52,
@@ -758,7 +760,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_53.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 vigabatrin（γ-乙烯基 GABA），其乙烯基被 GABA 轉胺酶活化後與酵素形成共價鍵，屬自殺型（不可逆）抑制劑。\n❌ (A) 為 brivaracetam，作用於突觸囊泡蛋白 SV2A。\n❌ (C) 為 benzodiazepine 類（clobazam），是 GABA-A 受體的正向調節劑。\n❌ (D) 為 fosphenytoin，阻斷電位依賴型鈉離子通道。\n📚 出處：Foye's—Antiepileptic Agents"
   },
   {
    "n": 54,
@@ -773,7 +776,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_54.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 phencyclidine（PCP），由苯基、環己基與哌啶構成，俗稱天使塵，是 NMDA 受體的非競爭性拮抗劑。\n❌ (A) 為 MDMA（搖頭丸），屬安非他命衍生物。\n❌ (C) 為 cocaine，俗稱古柯鹼。\n❌ (D) 為 LSD，屬麥角醯二乙胺。\n📚 出處：Foye's—Drugs of Abuse"
   },
   {
    "n": 55,
@@ -802,7 +806,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_56.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 heroin（雙醋嗎啡），作用標的是 μ 型鴉片受體，與單胺轉運體無關。\n❌ (A) 為 MDMA，經血清素轉運體進入神經末梢並促其逆向釋放。\n❌ (B) 為 methamphetamine，作用於多巴胺與正腎上腺素轉運體。\n❌ (D) 為 cocaine，直接阻斷單胺再回收轉運體。\n📚 出處：Foye's—Drugs of Abuse 的作用機轉"
   },
   {
    "n": 57,
@@ -872,7 +877,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_61.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) clopidogrel 經 CYP2C19 兩步氧化成 2-oxo 中間體後，噻吩環開環生成帶游離硫醇的活性代謝物，且甲酯仍保留；圖 C 正是此結構，其 -SH 與 P2Y12 受體形成雙硫鍵。\n❌ (A) 為 2-oxo 中間體再水解的羧酸，尚未開環也無硫醇。\n❌ (B) 為 2-oxo-clopidogrel，仍是中間體而非活性型。\n❌ (D) 甲酯已被酯酶水解成無活性的羧酸代謝物。\n📚 出處：Foye's—Antiplatelet Agents 的活化途徑"
   },
   {
    "n": 62,
@@ -901,7 +907,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_63.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 cholestyramine：聚苯乙烯骨架接三甲基銨氯鹽的陰離子交換樹脂，在腸道以離子鍵結合膽酸並阻斷其再吸收。\n❌ (B) 為 cilostazol，屬第三型磷酸二酯酶抑制劑。\n❌ (C) 為 dipyridamole，抑制腺苷再回收而抗血小板。\n❌ (D) 為膽固醇本身，不是藥物。\n📚 出處：Foye's—Antihyperlipidemic Agents"
   },
   {
    "n": 64,
@@ -1013,7 +1020,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_11_71.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) lansoprazole 主要由 CYP2C19 在苯并咪唑環 5 位羥化，生成 5-hydroxylansoprazole，圖 B 正是此結構。\n❌ (A) 把三氟乙氧基換成羥基，屬於不會發生的去烷基化產物。\n❌ (C) 亞磺醯基被還原成硫醚，非主要代謝途徑。\n❌ (D) 為 CYP3A4 生成的 sulfone，屬次要代謝物。\n📚 出處：Foye's—質子幫浦抑制劑的代謝"
   },
   {
    "n": 72,
