@@ -16604,7 +16604,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "113 年　普通考試　稅務法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -16646,7 +16646,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計概要",
   "label": "113 年　普通考試　政府會計概要",
   "n": 20,
-  "exp": 0,
+  "exp": 19,
   "mins": 60
  },
  {
