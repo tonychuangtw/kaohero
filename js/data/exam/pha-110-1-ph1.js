@@ -703,7 +703,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110020_305_11_49.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為惡唑啶-2,4-二酮環（如 trimethadione／paramethadione），環上含一個氧與一個氮並帶兩個羰基，曾用於失神性癲癇。\n❌ (A) 為 ethosuximide，屬琥珀醯亞胺（succinimide）環。\n❌ (B) 為 phenytoin，屬乙內醯脲（hydantoin）環。\n❌ (D) 為 rufinamide，含 1,2,3-三唑環。\n📚 出處：Foye's—抗癲癇藥的環系分類"
   },
   {
    "n": 50,
@@ -774,7 +775,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110020_305_11_54.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 carbamazepine：屬鈉離子通道阻斷劑，用於 SCN1A 功能喪失的卓飛症候群反而會加重肌陣攣與抽搐，故禁用。\n❌ (A) 為 valproic acid，是卓飛症候群的第一線用藥。\n❌ (B) 為 levetiracetam，作用於 SV2A，可安全使用。\n❌ (C) 為 pregabalin，作用於鈣通道 α2δ 次單元，非鈉通道阻斷劑。\n📚 出處：卓飛症候群的用藥原則"
   },
   {
    "n": 55,
@@ -803,7 +805,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110020_305_11_56.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 flupentixol decanoate：末端羥基做成癸酸酯，肌肉注射後由油性基質緩慢釋出並經酯酶水解，單次注射可維持 2～4 週。\n❌ (A) 為 fluphenazine 的游離醇型，作用時間短。\n❌ (B) 為 haloperidol，口服或短效針劑。\n❌ (D) 為 trifluoperazine，屬口服製劑。\n📚 出處：Foye's—長效抗精神病針劑的前驅藥設計"
   },
   {
    "n": 57,
@@ -944,7 +947,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110020_305_11_66.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 的異丙基完全未被氧化，卻在苯丙胺酸的苯環上加了羥基；nateglinide 的氧化代謝集中在環己烷側鏈，不會發生此芳香族羥化。\n❌ (A) 為異丙基脫氫成異丙烯基的氧化產物。\n❌ (B) 為異丙基羥化成三級醇，是主要氧化代謝物。\n❌ (D) 為該三級醇再進一步羥化生成的二醇。\n📚 出處：Foye's—Nateglinide 的代謝"
   },
   {
    "n": 67,
@@ -1099,7 +1103,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110020_305_11_77.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ethionamide 由結核菌的 EthA 單加氧酶活化，先氧化成硫代醯胺的 S-氧化物（亞碸型中間體），再轉成親電性物質與 NAD 形成加成物而抑制 InhA（烯醯還原酶）。\n❌ (A) 為硫被氧取代後的醯胺，是失活產物。\n❌ (C) 為吡啶環氧化成吡啶酮的產物。\n❌ (D) 為硫代羧酸，非活化途徑的中間體。\n📚 出處：Foye's—抗結核藥的活化機轉"
   },
   {
    "n": 78,

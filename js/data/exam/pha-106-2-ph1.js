@@ -632,7 +632,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_11_44.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 temazepam，屬典型的 1,4-苯二氮平類，可結合 GABA-A 受體上的 BZ 位置並增強氯離子內流，是促效劑。\n❌ (A) 為 clozapine，雖具苯二氮平骨架但作用於 D4 與 5-HT2A 受體。\n❌ (B) 為 Ro 15-4513（疊氮基衍生物），屬 BZ 受體的反向促效劑。\n❌ (C) 為 flumazenil，是 BZ 受體的競爭性拮抗劑。\n📚 出處：Foye's—BZ 受體的配體類型"
   },
   {
    "n": 45,
@@ -689,7 +690,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_11_48.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 把吲哚 2 位的甲基氧化成羥甲基，indomethacin 並不會發生此反應，故不是其代謝物。\n❌ (A) 為 O-去甲基生成的 5-羥基衍生物，是主要代謝物之一。\n❌ (B) 為羧酸與葡萄糖醛酸接合的產物。\n❌ (C) 為去對氯苯甲醯並 O-去甲基後的產物，亦屬已知代謝物。\n📚 出處：Foye's—Indomethacin 的代謝"
   },
   {
    "n": 49,
@@ -885,7 +887,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_11_62.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 clozapine，二苯并二氮呯骨架，對 D4 與 5-HT2A 親和力高、錐體外症候群少，是第二代（非典型）抗精神病藥的代表。\n❌ (A) 為 chlorpromazine，第一代吩噻嗪類。\n❌ (B) 為 haloperidol，第一代丁醯苯類。\n❌ (D) 為 trifluoperazine，同屬第一代吩噻嗪類。\n📚 出處：Foye's—抗精神病藥的世代分類"
   },
   {
    "n": 63,
@@ -927,7 +930,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_11_65.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 EDDP（2-乙叉-1,5-二甲基-3,3-二苯基吡咯啶）：methadone 經 N-去甲基後自發環化而成，不具鴉片活性，只作為尿液篩檢的指標。\n❌ (A) 為酮基被還原且已去甲基的醇型代謝物，仍具活性。\n❌ (B) 為酮基還原成醇的 methadol 型代謝物，具鎮痛活性。\n❌ (C) 為 normethadone（N-去甲基），仍保有鴉片活性。\n📚 出處：Foye's—Methadone 的代謝"
   },
   {
    "n": 66,
@@ -942,7 +946,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_11_66.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 loperamide 鹽酸鹽：作用於腸道 μ 受體減緩蠕動，因是 P-醣蛋白受質而幾乎不進入中樞，屬鴉片類止瀉劑。\n❌ (A) 為 fentanyl，強效中樞鎮痛藥。\n❌ (B) 為 levorphanol，亦為中樞鎮痛藥。\n❌ (D) 為 tramadol，兼具弱 μ 促效與單胺再回收抑制的鎮痛藥。\n📚 出處：Foye's—鴉片類止瀉劑"
   },
   {
    "n": 67,
