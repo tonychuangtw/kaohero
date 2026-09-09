@@ -37884,7 +37884,7 @@ window.APP_EXAMS = [
   "subjName": "教育原理與制度",
   "label": "97 年　幼兒園師資類科　教育原理與制度",
   "n": 40,
-  "exp": 0,
+  "exp": 40,
   "mins": 80
  },
  {
