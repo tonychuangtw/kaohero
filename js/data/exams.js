@@ -38094,7 +38094,7 @@ window.APP_EXAMS = [
   "subjName": "幼兒發展與輔導",
   "label": "96 年　幼兒園師資類科　幼兒發展與輔導",
   "n": 35,
-  "exp": 0,
+  "exp": 35,
   "mins": 80
  },
  {
