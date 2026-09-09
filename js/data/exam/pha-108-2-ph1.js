@@ -700,7 +700,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_49.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) triazolam 的特徵是苯二氮平環稠合三唑環（1 位帶甲基）、8 位氯與 5 位的 2-氯苯基，屬超短效安眠藥。\n❌ (B) 為 flurazepam，1 位帶二乙胺乙基、苯環為 2-氟。\n❌ (C) 為 temazepam，1-甲基、3-羥基而無三唑環。\n❌ (D) 為 quazepam，2 位為硫酮並帶三氟乙基。\n📚 出處：Foye's—苯二氮平類的構效關係"
   },
   {
    "n": 50,
@@ -770,7 +771,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_54.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) clopidogrel 經 CYP 兩步氧化後噻吩環開環，生成帶游離硫醇且甲酯仍完整的活性代謝物，其 -SH 與血小板 P2Y12 受體形成雙硫鍵。\n❌ (A) 為酯酶水解生成的羧酸，佔血中大部分卻無抗血小板活性。\n❌ (B) 為該羧酸再經芳香環羥化的產物，同樣無活性。\n❌ (C) 為 2-oxo 中間體，尚未開環成硫醇。\n📚 出處：Foye's—Antiplatelet Agents 的活化途徑"
   },
   {
    "n": 55,
@@ -898,7 +900,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_63.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 lorazepam：3 位帶羥基可直接進行葡萄糖醛酸接合（第二相），不需經肝臟 CYP 氧化，故老年人與肝功能不佳者使用較安全。\n❌ (A) 為 diazepam，須經多步 CYP 氧化並產生長效活性代謝物。\n❌ (C) 為 chlordiazepoxide，代謝路徑長且活性代謝物半衰期久。\n❌ (D) 為 clorazepate，在體內轉成長效的 nordiazepam。\n📚 出處：Foye's—苯二氮平類的代謝與臨床選用"
   },
   {
    "n": 64,
@@ -927,7 +930,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_65.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 fluoxetine，主要標的是血清素轉運體（SERT），與多巴胺轉運體關係不大。\n❌ (A) 為 benztropine，除抗膽鹼作用外也阻斷多巴胺轉運體。\n❌ (B) 為 cocaine，是典型的多巴胺轉運體阻斷劑。\n❌ (D) 為 methylphenidate，同樣以阻斷多巴胺（與正腎上腺素）轉運體為主。\n📚 出處：Foye's—單胺轉運體與相關藥物"
   },
   {
    "n": 66,
@@ -970,7 +974,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_68.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) warfarin 的 4-羥基香豆素 3 位接 1-苯基-3-側氧丁基；圖 D 中氫以虛線朝後、側鏈以粗楔形朝前，該手性中心為 S 構型，抗凝血效價較高。\n❌ (A) 側鏈只有乙基，是 phenprocoumon 而非 warfarin。\n❌ (B) 同樣為乙基側鏈的另一個對映體。\n❌ (C) 側鏈正確但楔形與虛線相反，為 (R)-warfarin。\n📚 出處：Foye's—口服抗凝血劑的立體選擇性"
   },
   {
    "n": 69,
@@ -1040,7 +1045,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_73.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 5α-dihydrotestosterone：3-酮、Δ4 被 5α-還原酶還原成 5α-H，17β-OH 保留，與雄性素受體的親和力約為睪固酮的 2～3 倍，活性最強。\n❌ (A) 為 5α-androstane-3α,17β-diol，3 位酮基已被還原成羥基，活性大減。\n❌ (B) 為 androstenedione，17 位為酮基而非羥基，活性弱。\n❌ (D) 為 androsterone，是活性很低的排泄型代謝物。\n📚 出處：Foye's—雄性素的代謝與構效關係"
   },
   {
    "n": 74,
@@ -1068,7 +1074,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/108100_305_11_75.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 PGE2（dinoprostone）：9-酮、11α 與 15α 羥基加上 Δ5 順式雙鍵，臨床以陰道劑型促子宮頸成熟與中期妊娠引產。\n❌ (A) 為 15-甲基化的 PGE2 衍生物，屬延長半衰期的實驗性類似物。\n❌ (B) 為 PGE1（alprostadil），用於維持動脈導管開放與勃起障礙。\n❌ (C) 為 15-甲基 PGE1（misoprostol 的游離酸），主要用途是預防 NSAID 引起的潰瘍。\n📚 出處：Foye's—前列腺素類藥物的臨床用途"
   },
   {
    "n": 76,
