@@ -726,7 +726,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_51.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 allopregnanolone（brexanolone）：3α-羥基-5α-孕烷-20-酮，是孕酮的內生性代謝物，可正向調節 GABA-A 受體，核准用於產後憂鬱。\n❌ (B) 為 zuranolone，屬人工合成的類似物而非內生性代謝物。\n❌ (C) 為 abiraterone acetate，抑制 CYP17 用於攝護腺癌。\n❌ (D) 為 progesterone 本身，作用於核內的黃體素受體。\n📚 出處：神經固醇與 GABA-A 受體調節劑"
   },
   {
    "n": 52,
@@ -755,7 +756,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_53.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 phenobarbital，與 GABA-A 受體上的巴比妥結合位結合，延長氯離子通道的開放時間。\n❌ (A) 為 phenytoin，阻斷電位依賴型鈉離子通道。\n❌ (B) 為 valproic acid，機轉多重但非以 GABA-A 受體為主要標的。\n❌ (C) 為 lamotrigine，同樣以鈉離子通道為主要標的。\n📚 出處：Foye's—抗癲癇藥的作用機轉"
   },
   {
    "n": 54,
@@ -881,7 +883,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_62.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 方框標示的是近曲小管（PCT）。圖 C 為 mannitol，屬滲透性利尿劑，在近曲小管與亨利氏環降支提高管腔滲透壓而帶出水分。\n❌ (A) 為 furosemide，作用於亨利氏環上行支粗段。\n❌ (B) 為 thiazide 類，作用於遠曲小管。\n❌ (D) 為 ethacrynic acid，同樣作用於亨利氏環上行支。\n📚 出處：Foye's—利尿劑的作用部位"
   },
   {
    "n": 63,
@@ -1048,7 +1051,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_74.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 oseltamivir phosphate：環己烯骨架帶乙酯與胺基，水解成活性羧酸後抑制流感病毒的神經胺酸酶。\n❌ (A) 為 cidofovir，屬核苷酸類似物。\n❌ (B) 為 ribavirin，干擾病毒 RNA 合成。\n❌ (C) 為 foscarnet，直接抑制病毒 DNA 聚合酶。\n📚 出處：Foye's—抗流感病毒藥"
   },
   {
    "n": 75,
@@ -1063,7 +1067,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_75.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 ixazomib citrate：硼酸與檸檬酸形成環狀硼酸酯，遇水或血漿即水解釋出 ixazomib 的游離硼酸，屬前驅藥。\n❌ (B) 為 bortezomib，硼酸已是游離型，本身即為活性藥。\n❌ (C) 為 carfilzomib，以環氧酮共價結合，非前驅藥。\n❌ (D) 為 oprozomib，同樣是環氧酮型的活性抑制劑。\n📚 出處：蛋白酶體抑制劑的前驅藥設計"
   },
   {
    "n": 76,
@@ -1078,7 +1083,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_76.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) rifampin 的 3 位腙鍵在胃酸中水解，脫去 N-甲基哌嗪而生成 3-formylrifamycin SV（帶醛基），仍具抗菌活性。\n❌ (A) 為 3 位未取代的 rifamycin SV，不是水解的直接產物。\n❌ (B) 腙鍵仍完整，只是骨架其他位置改變。\n❌ (C) 為萘核被氧化成醌型的產物，屬氧化而非水解。\n📚 出處：Foye's—Rifamycin 類的安定性與代謝"
   },
   {
    "n": 77,
@@ -1093,7 +1099,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_11_77.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) baloxavir marboxil 的碳酸酯前驅基被酯酶完全切除，露出游離的烯醇羥基，即活性態 baloxavir acid，可螯合核酸內切酶活性中心的兩個金屬離子。\n❌ (B) 前驅基只水解到羥甲基階段，尚未完全脫除。\n❌ (C) 仍保有碳酸單酯，屬中間產物。\n❌ (D) 苯環雖被羥化，但前驅基仍完整，無法螯合金屬。\n📚 出處：抗流感藥 baloxavir 的活化"
   },
   {
    "n": 78,
