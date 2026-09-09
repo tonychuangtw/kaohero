@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題）
-NEXT_ACTION: 打開 `js/data/exam/pha-108-2-ph1.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（108-1、107-2…102-1）
+NEXT_ACTION: 打開 `js/data/exam/pha-108-1-ph1.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（107-2、107-1…102-1）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-09 12:45 台北
+UPDATED: 2026-09-09 16:20 台北
 
 ---
 
@@ -31,7 +31,7 @@ UPDATED: 2026-09-09 12:45 台北
 
 ## 藥師詳解進度（`pha-*`，168 卷 12,600 題）
 
-已完成 **14 個梯次，共 6,034 題**：
+已完成 **15 個梯次，共 6,464 題**：
 
 | 梯次 | 藥一 | 藥二 | 藥三 | 藥四 | 藥五 | 藥六 | 小計 |
 |---|---|---|---|---|---|---|---|
@@ -49,6 +49,7 @@ UPDATED: 2026-09-09 12:45 台北
 | 110-1 | 75 | 77 | 77 | 80 | 80 | 50 | 439 |
 | 109-2 | 69 | 73 | 70 | 79 | 80 | 49 | 420 |
 | 109-1 | 74 | 77 | 74 | 78 | 79 | 50 | 432 |
+| 108-2 | 70 | 77 | 73 | 80 | 80 | 50 | 430 |
 
 未寫的題全是：選項在圖上而題庫只存到空字串、題幹或選項轉檔毀損、官方答案與教科書衝突者。這三類刻意跳過，不要硬寫。
 
