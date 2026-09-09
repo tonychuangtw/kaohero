@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: **教師檢定已全部完成**（`tea-*` 261 卷 8,103 題，已寫 8,005／98.8%；未寫的 98 題全是規則上該跳過的：選項在圖上且無 fig、轉檔毀損、官方答案與教科書衝突）。接著做高普考（`gao-*`，17,995 題只寫約 1,406）：先跑 `ls js/data/exam/ | grep ^gao- | head -50` 挑一卷，打開讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度同類科的重複題先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化版，比 tools/reuse-exp.py 好用；檔案在 scratchpad，換 session 要重寫一份）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定已全部完成（8,005／8,103＝98.8%）。**主線＝高普考（`gao-*`，633 卷 17,995 題）**，已從 115 年開始往前做：115 年高考三級除 g026（財政學會計組，15 題選項在圖上）、g027（民法司法行政組）、g031（經濟學與貨幣銀行學）外已完成，接著做這三卷與 115 年普通考試 p003 以下各卷（p002 剩 5 題圖題）。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度不同類科常有整卷重複（例：115 g004 與 g017、g006 與 g034 完全相同），先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化版；檔案在 scratchpad，換 session 要重寫，核心是 `norm=s=>s.normalize("NFKC").replace(/\s+/g,"")` 比對題幹＋選項）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 17:30 台北
+UPDATED: 2026-09-10 19:10 台北
 
 ---
 
