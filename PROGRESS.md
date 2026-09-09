@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: 教師檢定已全部完成（8,005／8,103＝98.8%）。**主線＝高普考（`gao-*`，633 卷 17,995 題，已寫約 2,470）**，從 115 年往前做。115 年已寫 1,070／1,345，**下一步接著做這幾卷**：`gao-115-1-p030`（經濟學與財政學概要 50 題）、`gao-115-1-p031`（經濟學與貨幣銀行學概要 50 題）、`gao-115-1-p023`／`p027`（計算機概要各 40 題，有 2 題選項在圖上）、`gao-115-1-p025`（動物解剖生理學概要 50 題）、`gao-115-1-g026`（財政學會計組 25 題，其中 15 題選項在圖上，要用 Read 工具開 `img/q/*.webp` 判讀）；`g027` 另有 8 題轉檔毀損／選項在圖上待處理。115 年做完接著做 114、113…一路往前到 102。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度不同類科常有整卷重複（例：115 g004 與 g017、g006 與 g034、p015 與 p028），先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");` 答案索引不同就跳過）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**，115 年已完成（1,327／1,345＝98.7%），**現在做 114 年**（43 卷 1,220 題，已寫約 275）。已完成：g004＋g017（行政法）、g006＋g027＋g029（民法）、g008＋g026（財政學）。**下一步接著做這幾卷**：`gao-114-1-g003`（行政學 25）、`g005`（經濟學 25）、`g007`（稅務法規 25）、`g010`（會計學 25）、`g011`（中會 20）、`g012`（政府會計 25）、`g015`（會計審計法規 25）、`g021`（民法公平交易組 25）、`g024`（海洋事務總論 25）、`g025`（稅務法規財稅法務組 25）、`g028`（刑法 25）、`g030`（經濟學與財政學概論 20）、`p003`／`p005`／`p006`／`p007`／`p008`／`p009`／`p010`／`p012`／`p013`／`p016`／`p017`／`p020`／`p021`／`p023`／`p025`／`p027`／`p029`／`p030`，以及 `p015`＋`p028`（會計學概要，兩卷完全相同，做一卷再套用）。114 做完接著 113、112…一路往前到 102。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度不同類科常有整卷重複，先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，會跳過選項全空的圖片題，答案索引不同也跳過；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");`）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 22:05 台北
+UPDATED: 2026-09-11 台北
 
 ---
 
