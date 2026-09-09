@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師已完成；目前主線＝教師檢定 261 卷 8,103 題）
-NEXT_ACTION: 藥師 168 卷已全數做完。接著補**教師檢定**（`tea-*`，261 卷 8,103 題，目前 0 解析）：打開 `js/data/exam/tea-115-1-t1001.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度各卷做完再往前一年。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,103 題）續做：打開 `js/data/exam/tea-114-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 <scratchpad>/reuse.py <目標pid> <來源pid>...` 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 23:30 台北
+UPDATED: 2026-09-11 02:10 台北
 
 ---
 
@@ -66,6 +66,17 @@ UPDATED: 2026-09-10 23:30 台北
 | 102-1 | 71 | 78 | 76 | 80 | 79 | 50 | 434 |
 
 未寫的題全是：選項在圖上而題庫只存到空字串、題幹或選項轉檔毀損、官方答案與教科書衝突者。這三類刻意跳過，不要硬寫。
+
+## 教師檢定進度（`tea-*`，261 卷 8,103 題）
+
+已完成 **115 年 15 卷、362 題**（全 15 卷都有解析）。
+
+| 年度 | 卷數 | 已寫題數 |
+|---|---|---|
+| 115 | 15 | 362 |
+
+跳過的題：選項或題幹在圖上（數學能力測驗較多）、轉檔缺公式、官方答案與教科書明顯衝突者。
+每年 15 卷的結構：國語文 1、數學 1、其餘為幼兒園／國小／中等／特教四類科的「教育理念與實務」「學習者發展與適性輔導」「課程教學與評量」。四類科的「教育理念與實務」重複率極高（115 年四卷幾乎完全相同），用 scratchpad 的 `reuse.py` 套用即可。
 
 ## 之前已完成的其他類別
 
