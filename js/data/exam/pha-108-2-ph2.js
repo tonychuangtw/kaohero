@@ -583,7 +583,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "β-1,4-glucan maltohydrolase",
     "β-1,4-glucan 4-glucanohydrolase"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) α-澱粉酶（α-amylase）的系統名稱為 α-1,4-glucan 4-glucanohydrolase，存在於唾液與胰液中，隨機水解澱粉的 α-1,4 鍵。\n❌ (A) α-1,4-glucan maltohydrolase 是 β-澱粉酶的系統名稱（自非還原端切下麥芽糖）。\n❌ (C) 澱粉的糖苷鍵為 α 型，β-1,4 是纖維素的鍵結。\n❌ (D) 同樣把鍵結構型寫成 β，與澱粉不符。\n📚 出處：生物化學，醣類水解酵素"
   },
   {
    "n": 42,
@@ -596,7 +597,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "Mayer試劑",
     "Wagner試劑"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Wagner 試劑由碘與碘化鉀溶液組成，與生物鹼生成紅棕色沉澱。\n❌ (A) Bertrand 試劑為矽鎢酸，用於生物鹼沉澱。\n❌ (B) Dragendorff 試劑的成分是碘化鉍鉀。\n❌ (C) Mayer 試劑為碘化汞鉀。\n📚 出處：生藥學，生物鹼沉澱試劑"
   },
   {
    "n": 43,
@@ -609,7 +611,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "貝母",
     "附子"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 附子味辛甘、性大熱有毒，神農本草經列為下品，功能回陽救逆、補火助陽、散寒止痛，是「回陽救逆第一品藥」。\n❌ (A) 石斛列為上品，功能益胃生津、滋陰清熱。\n❌ (B) 苦參列為中品，清熱燥濕。\n❌ (C) 貝母列為中品，化痰止咳。\n📚 出處：神農本草經三品分類；中藥學"
   },
   {
    "n": 44,
@@ -622,7 +625,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "可用於診斷內生性的小分子，對外因性的病毒感染則無法檢測",
     "利用二級抗體結合催化酶可達增幅偵測效果"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ELISA 以固定化的抗體（或抗原）捕捉待測物，再用接有催化酶的二級抗體結合，酶催化受質顯色達到訊號放大而提高靈敏度。\n❌ (A) 引發免疫反應產生抗體的是疫苗接種，不是 ELISA 的原理。\n❌ (B) ELISA 是檢驗方法，不具治療作用。\n❌ (C) 它同樣可檢測外來的病毒抗原或抗體（如 HIV、B 肝篩檢）。\n📚 出處：免疫學檢驗，酵素免疫分析法"
   },
   {
    "n": 45,
@@ -635,7 +639,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "表現型（phenotype）及基因型（genotype）都有相當差異",
     "表現型（phenotype）及基因型（genotype）都相近"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 同一物種因產地或族群不同而出現特定的成分組成（化學型 chemotype），外觀（表現型）幾乎相同但控制次級代謝的基因型有差異，這正是化學型形成的原因。\n❌ (B) 若基因型相近而表現型差異大，反映的是環境影響，不是穩定的化學型。\n❌ (C) 兩者皆差異大時通常已可視為不同品種或亞種。\n❌ (D) 兩者皆相近就不會出現成分組成的特異性。\n📚 出處：生藥學，化學型（chemotype）"
   },
   {
    "n": 46,
@@ -648,7 +653,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "梧桐膠為滲出樹膠（exudate gums）中溶解度最低者之一",
     "西黃耆膠為滲出樹膠（exudate gums）中最耐酸者"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。果膠的黏度取決於「半乳糖醛酸」聚合的鏈長與甲酯化程度，與乳糖單元無關（果膠不含乳糖）。\n❌ (B) 阿拉伯膠可溶於水並可在含醇量不高的水醇溶液中分散，敘述可成立。\n❌ (C) 梧桐膠（karaya gum）水中僅膨潤而不真正溶解，是溶解度最低者之一。\n❌ (D) 西黃耆膠耐酸性佳，是滲出樹膠中最耐酸者。\n📚 出處：生藥學，天然膠質"
   },
   {
    "n": 47,
@@ -661,7 +667,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "知母",
     "地黃"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 葛根味甘辛性涼，功能解肌退熱、生津止渴，屬辛涼解表藥；台灣中南部有栽培生產。\n❌ (B) 梔子屬清熱瀉火藥，不以發汗解熱為功能。\n❌ (C) 知母清熱瀉火、滋陰潤燥，非解表藥。\n❌ (D) 地黃清熱涼血或滋陰補血，亦非解表藥。\n📚 出處：中藥學，解表藥"
   },
   {
    "n": 48,
@@ -674,7 +681,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "桔梗根－isoflavonoid",
     "香莢蘭－aldehyde glycoside"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤配對。桔梗根的主成分是三萜皂苷（platycodin 類），不是異黃酮。\n❌ (A) 木通主含三萜皂苷，配對正確。\n❌ (B) 瓜爾膠（guar gum）為半乳甘露聚醣，屬多醣類。\n❌ (D) 香莢蘭（vanilla）的 glucovanillin 為醛類配醣體，配對正確。\n📚 出處：生藥學／中藥化學，各生藥成分分類"
   },
   {
    "n": 49,
@@ -687,7 +695,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "flavonoid",
     "anthraquinone"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) echinacoside 是由咖啡醯基與羥基酪醇（苯乙醇）及糖組成的苯乙醇苷（phenylethanoid glycoside），為肉蓯蓉與紫錐菊的特徵成分。\n❌ (A) 環烯醚萜苷的苷元為單萜骨架。\n❌ (C) 黃酮苷的苷元為 C6-C3-C6 骨架。\n❌ (D) 蒽醌苷的苷元為蒽醌骨架。\n📚 出處：中藥化學，苯乙醇苷類"
   },
   {
    "n": 50,
@@ -700,7 +709,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "alcohol glycosides",
     "aldehyde glycosides"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) salicin 是水楊醇（saligenin，一種醇）與葡萄糖形成的苷，屬醇苷（alcohol glycoside）。\n❌ (A) 氰苷的苷元含氰基（如 amygdalin）。\n❌ (B) 蒽醌苷的苷元為蒽醌。\n❌ (D) 醛苷的苷元含醛基（如香莢蘭苷）。\n📚 出處：生藥學，配醣體分類"
   },
   {
    "n": 51,
@@ -713,7 +723,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "gitaloxin",
     "digoxin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) digoxin 分離自「毛花洋地黃（Digitalis lanata）」，不是紫花洋地黃（D. purpurea）。\n❌ (A) digitoxin 是 D. purpurea 的主要強心苷。\n❌ (B) gitoxin 存在於 D. purpurea。\n❌ (C) gitaloxin 同樣為 D. purpurea 的成分。\n📚 出處：生藥學，強心配醣體來源"
   },
   {
    "n": 52,
@@ -726,7 +737,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "(20S)-protopanaxatriol",
     "(20S)-protopanaxadiol"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ginsenoside Rg1 屬「原人參三醇型（protopanaxatriol）」皂苷，其苷元為 (20S)-protopanaxatriol。\n❌ (A) α-香樹脂醇是烏索烷型三萜的骨架。\n❌ (B) β-香樹脂醇是齊墩果烷型三萜的骨架。\n❌ (D) (20S)-protopanaxadiol 是 Rb1、Rb2、Rc 等二醇型皂苷的苷元。\n📚 出處：中藥化學，人參皂苷分類"
   },
   {
    "n": 53,
@@ -739,7 +751,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "glucofrangulin B",
     "aloin A"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) aloin A（barbaloin）屬蒽酮（anthrone）類的 C-葡萄糖苷；蒽酮的還原態刺激性強，致瀉作用大於蒽醌類苷。\n❌ (A) frangulin A 屬蒽醌苷，作用較緩和。\n❌ (B) frangulin B 同為蒽醌苷。\n❌ (C) glucofrangulin B 亦屬蒽醌類配醣體。\n📚 出處：生藥學，蒽醌類瀉藥"
   },
   {
    "n": 54,
@@ -752,7 +765,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "Polygala tenuifolia－根－袪痰",
     "Brassica nigra－種子－催吐"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。Dioscorea villosa（野山藥）的藥用部位是「根莖（rhizome）」，不是莖。\n❌ (B) 蘆薈取葉的汁液乾燥物作瀉劑，配對正確。\n❌ (C) 遠志（Polygala tenuifolia）用根，功能祛痰安神。\n❌ (D) 黑芥（Brassica nigra）用種子，大量內服可催吐。\n📚 出處：生藥學，各生藥使用部位"
   },
   {
    "n": 55,
@@ -765,7 +779,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "蘆薈",
     "野櫻皮"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 野櫻皮（wild cherry bark）含氰苷 prunasin，作用為鎮咳與矯味，不具瀉下作用。\n❌ (A) 美鼠李皮（cascara sagrada）含蒽醌苷，是典型的刺激性瀉藥。\n❌ (B) 歐鼠李皮（frangula）同屬蒽醌類瀉藥。\n❌ (C) 蘆薈含 aloin，瀉下作用強。\n📚 出處：生藥學，瀉下生藥"
   },
   {
    "n": 56,
@@ -778,7 +793,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "酯價是指皂化檢品1g中所含之酯，所需氫氧化鉀之mg數",
     "酸價是指中和檢品1g之游離脂肪酸，所需氫氧化鉀之mg數"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。碘價的定義是「100 g」檢品所能吸收碘的「公克數」，不是 1 g 檢品吸收碘的毫克數。\n❌ (B) 皂化價的定義正確（皂化並中和 1 g 檢品所需 KOH 的毫克數）。\n❌ (C) 酯價＝皂化價−酸價，定義正確。\n❌ (D) 酸價的定義正確。\n📚 出處：中華藥典油脂類檢查法"
   },
   {
    "n": 57,
@@ -791,7 +807,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "可用作親脂性軟膏基質",
     "對於高敏感使用者，可能會引起過敏"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 羊毛脂含羊毛醇與游離脂肪酸等成分，是接觸性皮膚炎的常見過敏原，對高敏感族群可能引起過敏。\n❌ (A) 含水羊毛脂（hydrous wool fat）含水約 25～30%，不是 35～40%。\n❌ (B) 無水羊毛脂的含水量規定為不超過 0.25%，不是 2.5%。\n❌ (C) 羊毛脂能吸收大量水分，屬「吸收性」基劑而非單純的親脂性基劑。\n📚 出處：中華藥典羊毛脂各論；軟膏基劑分類"
   },
   {
    "n": 58,
@@ -804,7 +821,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "白朮",
     "白芷"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 玉屏風散由黃耆、白朮、防風三味組成，功能益氣固表止汗，用於表虛自汗與易感冒者。\n❌ (A) 甘草不是本方組成。\n❌ (B) 蒼朮長於燥濕，本方用的是健脾益氣的白朮。\n❌ (D) 白芷屬解表止痛藥，非本方成分。\n📚 出處：方劑學，補益劑"
   },
   {
    "n": 59,
@@ -817,7 +835,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "細辛",
     "辛夷"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 細辛（馬兜鈴科）的地上部含馬兜鈴酸，具腎毒性與致癌性，因此我國規定細辛藥材限用根及根莖。\n❌ (A) 半夏屬天南星科，不含馬兜鈴酸。\n❌ (B) 現行藥用木通已改用木通科或毛茛科品種，關木通（馬兜鈴科）已禁用。\n❌ (D) 辛夷屬木蘭科，不含馬兜鈴酸。\n📚 出處：中藥材含馬兜鈴酸管理規定"
   },
   {
    "n": 60,
@@ -830,7 +849,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "降血脂",
     "殺蟲"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選不屬者。薑黃素的主要藥理作用為抗發炎、抗氧化、抗癌與降血脂，殺蟲不是其代表作用。\n❌ (A) 抗癌（誘導細胞凋亡、抑制 NF-κB）是研究最多的作用之一。\n❌ (B) 抗發炎是其最經典的藥理活性。\n❌ (C) 具降血脂與保肝作用。\n📚 出處：中藥藥理學，薑黃素研究"
   },
   {
    "n": 61,
@@ -843,7 +863,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "其生合成前驅物是geranyl pyrophosphate",
     "主含於其基原植物之根部"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Artemisia（艾屬）與 Chamaemelum（洋甘菊屬）皆屬菊科（Asteraceae）。\n❌ (A) 青蒿素是含過氧橋的「倍半萜」內酯，不是二萜。\n❌ (C) 倍半萜的前驅物是法呢基焦磷酸（FPP，C15），不是牻牛兒基焦磷酸（C10）。\n❌ (D) 青蒿素主要存在於地上部（葉與花序），不是根部。\n📚 出處：生藥學，倍半萜內酯"
   },
   {
    "n": 62,
@@ -856,7 +877,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "abietic anhydride",
     "mastichic acid"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 松香（rosin）的主成分是以松香酸（abietic acid）為代表的樹脂酸類，約佔 90%。\n❌ (A) 檜烯（sabinene）是揮發油成分，蒸餾後留在松節油中。\n❌ (B) 蒎烯（pinene）同樣屬松節油的揮發性成分。\n❌ (D) mastichic acid 是乳香（mastic）的成分。\n📚 出處：生藥學，樹脂類"
   },
   {
    "n": 63,
@@ -869,7 +891,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "主要由Taxus brevifolia枝葉取得",
     "10-desacetylbaccatin III為其半合成原料"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 10-deacetylbaccatin III 可自歐洲紫杉的針葉大量取得（可再生），是半合成紫杉醇與 docetaxel 的原料，解決了樹皮來源不足的問題。\n❌ (A) 紫杉醇屬「二萜」類，不是倍半萜。\n❌ (B) 它水溶性極差，必須以 Cremophor EL 助溶。\n❌ (C) 原始來源是太平洋紫杉的「樹皮」，且產量極低。\n📚 出處：生藥學，二萜類抗癌藥"
   },
   {
    "n": 64,
@@ -882,7 +905,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "特有成分為commiphoric acids",
     "為中國之特產"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。沒藥產於非洲東北部與阿拉伯半島（索馬利亞、衣索比亞、葉門一帶），不是中國特產。\n❌ (A) 基原為 Commiphora molmol 等沒藥屬植物，敘述正確。\n❌ (B) 屬橄欖科（Burseraceae），敘述正確。\n❌ (C) 特有成分包含 commiphoric acids 等樹脂酸，敘述正確。\n📚 出處：生藥學，樹脂類生藥"
   },
   {
    "n": 65,
@@ -895,7 +919,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "alkaloids",
     "flavonoids"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 淫羊藿的主要藥效成分是黃酮類（以淫羊藿苷 icariin 為代表）。\n❌ (A) 多醣不是其代表性活性成分。\n❌ (B) 三萜類非其主成分。\n❌ (C) 生物鹼亦非其特徵成分。\n📚 出處：中藥化學，補陽藥成分"
   },
   {
    "n": 66,
@@ -908,7 +933,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "基原之科別為Boraginaceae植物",
     "shikonin與alkannin在構造上屬diastereomer"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。shikonin（紫草素）與 alkannin（阿卡寧）是同一結構的「對映異構物（enantiomers）」，不是非鏡像異構物。\n❌ (A) 基原之一為紫草科的 Lithospermum erythrorhizon，敘述正確。\n❌ (B) 具抗發炎、解熱與促進傷口癒合作用，可外用於燙傷，敘述正確。\n❌ (C) 屬紫草科（Boraginaceae），敘述正確。\n📚 出處：中藥化學，萘醌類成分"
   },
   {
    "n": 67,
@@ -921,7 +947,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "為vitamin P之一員",
     "富含於Sophora屬植物"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。rutin 是槲皮素接上「芸香糖（rhamnose＋glucose）」的鼠李葡萄糖苷，不是半乳葡萄糖苷。\n❌ (B) 其苷元為 quercetin，敘述正確。\n❌ (C) 具維持微血管通透性的作用，屬「維生素 P」類，敘述正確。\n❌ (D) 槐（Sophora japonica）花蕾是 rutin 的主要商業來源，敘述正確。\n📚 出處：中藥化學，黃酮苷"
   },
   {
    "n": 68,
@@ -934,7 +961,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "含維生素C",
     "capsaicin可用來緩解疼痛"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。capsaicin 是香草基「醯胺（amide）」，由香草胺與脂肪酸縮合而成，不是酯類。\n❌ (A) 辣椒屬茄科（Solanaceae），敘述正確。\n❌ (C) 辣椒富含維生素 C，敘述正確。\n❌ (D) 辣椒素耗竭感覺神經末梢的 P 物質，外用可緩解神經痛，敘述正確。\n📚 出處：生藥學，辣椒各論"
   },
   {
    "n": 69,
@@ -947,7 +975,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "酸棗仁",
     "赤芍"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 辛夷味辛性溫，功能散風寒、通鼻竅，是鼻塞、流濁涕（鼻淵）的要藥。\n❌ (A) 荊芥以解表散風、透疹為主。\n❌ (C) 酸棗仁養心安神。\n❌ (D) 赤芍清熱涼血、散瘀止痛。\n📚 出處：中藥學，解表藥"
   },
   {
    "n": 70,
@@ -960,7 +989,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "clove來自拉丁文clavus釘子的字意",
     "主成分為eugenol，可作牙科鎮痛劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。丁香的基原植物屬「桃金孃科（Myrtaceae）」，不是楊梅科（Myricaceae）。\n❌ (B) 藥用部位為乾燥花蕾，敘述正確。\n❌ (C) clove 源自拉丁文 clavus（釘子），因花蕾形似釘子，敘述正確。\n❌ (D) 主成分丁香酚具局部麻醉與抗菌作用，用作牙科鎮痛，敘述正確。\n📚 出處：生藥學，揮發油生藥"
   },
   {
    "n": 71,
@@ -973,7 +1003,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "zingerone為其辛辣成分之一",
     "為芳香刺激劑（aromatic stimulant）與驅風劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。薑的基原植物是 Zingiber officinale；Curcuma longa 是「薑黃」的基原。\n❌ (B) zingiberene 是薑揮發油的主要香氣成分。\n❌ (C) zingerone 為薑的辛辣成分之一（乾燥或加熱後由 gingerol 轉成）。\n❌ (D) 薑作為芳香性刺激劑與驅風劑使用，敘述正確。\n📚 出處：生藥學，薑科生藥"
   },
   {
    "n": 72,
@@ -986,7 +1017,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "steroidal alkaloid",
     "tropane alkaloid"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) peimine（貝母素甲）屬「甾體生物鹼（steroidal alkaloid）」，是浙貝母與川貝母的主要活性成分。\n❌ (A) 吲哚生物鹼的代表是番木鱉鹼、長春花鹼。\n❌ (B) 異喹啉生物鹼的代表是嗎啡、小檗鹼。\n❌ (D) 托品烷生物鹼的代表是阿托品、古柯鹼。\n📚 出處：中藥化學，甾體生物鹼"
   },
   {
    "n": 73,
@@ -999,7 +1031,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "Seydler",
     "Sertürner"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 1806 年德國藥師 Friedrich Sertürner 首度自鴉片中分離出嗎啡，是史上第一個被分離出來的生物鹼。\n❌ (A) Theophrastus 是古希臘的植物學之父。\n❌ (B) Dioscorides 著有《藥物論》，年代遠早於生物鹼分離。\n❌ (C) Seydler 是提出「pharmacognosy（生藥學）」一詞的人。\n📚 出處：生藥學史"
   },
   {
    "n": 74,
@@ -1012,7 +1045,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "quinine",
     "vincristine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) colchicine 由苯丙胺酸與酪胺酸衍生（經 phenethylisoquinoline 途徑）而來，生合成過程沒有單萜單元參與。\n❌ (A) reserpine 屬吲哚單萜生物鹼，需 secologanin。\n❌ (C) 奎寧同屬色胺酸與 secologanin 衍生。\n❌ (D) vincristine 是雙吲哚單萜生物鹼。\n📚 出處：生藥學，生物鹼生合成途徑"
   },
   {
    "n": 75,
@@ -1025,7 +1059,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "imidazole alkaloid－physostigmine",
     "quinoline alkaloid－quinine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤配對。physostigmine 屬「吲哚（indole）」生物鹼；咪唑類生物鹼的代表是 pilocarpine。\n❌ (A) 嗎啡屬異喹啉生物鹼，配對正確。\n❌ (B) 番木鱉鹼屬吲哚生物鹼，配對正確。\n❌ (D) 奎寧屬喹啉生物鹼，配對正確。\n📚 出處：生藥學，生物鹼分類"
   },
   {
    "n": 76,
@@ -1038,7 +1073,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "colchicine",
     "cathinone"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) pilocarpine 的氮位於咪唑「雜環」內，屬雜環生物鹼；alkaloidal amines 指的是氮不在環內的原胺型生物鹼。\n❌ (B) ephedrine 的氮在側鏈上，屬 alkaloidal amine。\n❌ (C) colchicine 的氮以醯胺形式接在側鏈，歸於此類。\n❌ (D) cathinone 為苯乙胺類，氮亦在側鏈。\n📚 出處：生藥學，生物鹼分類（alkaloidal amines）"
   },
   {
    "n": 77,
@@ -1051,7 +1087,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "ipecac",
     "sanguinaria"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 血根草（sanguinaria, Sanguinaria canadensis）原產「北美洲」，不是南美。\n❌ (A) 古柯原產南美安地斯山區。\n❌ (B) 金雞納原產南美安地斯山脈。\n❌ (C) 吐根（ipecac）原產巴西等南美地區。\n📚 出處：生藥學，各生藥產地"
   },
   {
    "n": 78,
@@ -1064,7 +1101,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "Remijia pedunculata",
     "Cinchona ledgeriana"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) cuprea bark（銅色皮）來自茜草科 Remijia 屬植物（如 Remijia pedunculata），亦含奎寧類生物鹼。\n❌ (A) Cinchona succirubra 是一般金雞納皮的基原。\n❌ (B) Cephaelis acuminata 是吐根的基原。\n❌ (D) Cinchona ledgeriana 同樣屬金雞納皮而非 cuprea bark。\n📚 出處：生藥學，金雞納類生藥"
   },
   {
    "n": 79,
@@ -1077,7 +1115,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "benzoic acid",
     "methyl alcohol"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) cocaine 完全水解的產物為 ecgonine、苯甲酸與甲醇；肉桂酸不是其水解產物（肉桂醯古柯鹼是古柯葉中的另一類成分）。\n❌ (A) ecgonine 是其基本骨架，水解後游離出來。\n❌ (C) C-3 位的苯甲醯基水解生成苯甲酸。\n❌ (D) C-2 位的甲酯水解生成甲醇。\n📚 出處：生藥學，托品烷生物鹼"
   },
   {
    "n": 80,
@@ -1090,7 +1129,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "商業來源之一為Rauvolfia serpentina",
     "其構造具5個不對稱中心（chiral center）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。reserpine 的結構具有「6 個」不對稱中心，不是 5 個。\n❌ (A) 其生合成屬 corynane 型吲哚單萜生物鹼，敘述正確。\n❌ (B) 早期用於降血壓與抗精神病，敘述正確。\n❌ (C) 商業來源之一為印度蛇木 Rauvolfia serpentina，敘述正確。\n📚 出處：生藥學，吲哚生物鹼"
   }
  ]
 };
