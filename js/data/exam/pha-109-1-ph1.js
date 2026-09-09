@@ -660,7 +660,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109020_305_11_46.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) sulindac 本身是前驅藥，亞磺醯基被還原成硫醚後生成 sulindac sulfide，才是抑制環氧合酶的活性型。\n❌ (A) 為 2 位甲基羥化的次要產物。\n❌ (B) 為與葡萄糖醛酸接合的排泄型。\n❌ (D) 為進一步氧化成 sulfone 的產物，不具活性。\n📚 出處：Foye's—Sulindac 的活化"
   },
   {
    "n": 47,
@@ -1050,7 +1051,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/109020_305_11_74.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 niacin（菸鹼酸），高劑量可抑制脂肪組織脂解、降低 VLDL 與 LDL、降三酸甘油酯並提高 HDL。\n❌ (B) 為 nicotinamide，雖同為維生素 B3 型式卻無降血脂作用。\n❌ (C) 為 nicotine，屬菸鹼受體促效劑。\n❌ (D) 為吡啶二羧酸，並非降血脂用藥。\n📚 出處：Foye's—Antihyperlipidemic Agents"
   },
   {
    "n": 75,

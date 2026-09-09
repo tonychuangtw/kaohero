@@ -798,7 +798,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_33_56.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腸溶錠在胃中不崩散，須進入小腸才釋藥，因此血中濃度會先有一段延遲期（lag time）才上升；圖 D 約在 2 小時後濃度才開始出現。\n❌ (A) 濃度自時間 0 即為最高並單調下降，是靜脈注射的曲線。\n❌ (B) 濃度逐漸上升至平台，是持續輸注的情形。\n❌ (C) 給藥後立即吸收、無延遲期，屬一般口服速放劑型。\n📚 出處：口服劑型的血中濃度曲線"
   },
   {
    "n": 57,
@@ -1049,7 +1050,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
    ],
    "needfig": true,
    "fig": "img/q/106100_305_33_74.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 由 V＝Vmax·C／(Km＋C) 移項可得 V＝Vmax−Km·(V／C)，即 Eadie-Hofstee 式，以 V 對 V/C 作圖可得直線。\n❌ (B) Km 與 Vmax 的位置互換，量綱不符。\n❌ (C) 倒數式的兩項係數錯誤。\n❌ (D) Lineweaver-Burk 式應為 1/V＝(Km/Vmax)(1/C)＋1/Vmax，此選項的兩項互相對調。\n📚 出處：Michaelis-Menten 動力學的線性化"
   },
   {
    "n": 75,
