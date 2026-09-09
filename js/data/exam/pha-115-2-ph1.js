@@ -603,7 +603,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0401_42.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) eteplirsen 屬磷醯二胺嗎啉寡聚物（PMO）：以嗎啉環取代核糖、以磷醯二胺鍵取代磷酸二酯鍵，整體不帶電荷而能抗核酸酶。\n❌ (A) 為硫代磷酸酯（phosphorothioate）DNA 骨架。\n❌ (C) 為胜肽核酸（PNA）的醯胺骨架。\n❌ (D) 為 2'-O-甲氧乙基修飾的硫代磷酸酯骨架。\n📚 出處：反義寡核苷酸的骨架化學"
   },
   {
    "n": 43,
@@ -772,7 +773,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0401_54.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 timolol：噻二唑環接氧丙醇胺側鏈，對 β1 與 β2 皆有阻斷作用，口服可降血壓，點眼可降眼壓。\n❌ (A) 為 amiodarone，屬第三類抗心律不整藥。\n❌ (B) 為 neostigmine，為膽鹼酯酶抑制劑。\n❌ (D) 為 tolterodine，屬膀胱選擇性抗蕈毒鹼藥。\n📚 出處：Foye's—β 受體阻斷劑"
   },
   {
    "n": 55,
@@ -1011,7 +1013,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0401_71.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 acrivastine：側鏈帶游離羧酸，在生理 pH 下呈離子態、極性高，幾乎不通過血腦障壁，中樞鎮靜作用最小。\n❌ (B) 為 cyproheptadine，脂溶性高且具強鎮靜與促食慾作用。\n❌ (C) 為 hydroxyzine，鎮靜作用明顯，甚至用作術前鎮靜。\n❌ (D) 為 doxylamine，是第一代抗組織胺，常被當安眠成分使用。\n📚 出處：Foye's—抗組織胺的中樞穿透性"
   },
   {
    "n": 72,
@@ -1068,7 +1071,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0401_75.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) saquinavir 的過渡態模擬核心是羥乙胺（hydroxyethylamine）片段：帶苄基與相鄰的二級羥基，模仿受質肽鍵水解時的四面體中間體並與兩個天門冬胺酸催化殘基作用。\n❌ (A) 為 P3 端的喹啉-2-甲醯胺，負責填充 S3 口袋。\n❌ (B) 為天冬醯胺殘基（P2），提供氫鍵而非過渡態模擬。\n❌ (D) 為十氫異喹啉甲醯胺（P1'／P2'），佔據酵素的疏水口袋。\n📚 出處：HIV 蛋白酶抑制劑的設計原理"
   },
   {
    "n": 76,
