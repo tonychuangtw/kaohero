@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "定量黏稠度大的液體時，宜先在量器中倒入過量的體積再倒出所需量的液體",
     "一般10 mL的圓錐形量器最小定量體積為0.1 mL"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 黏稠液體會殘留在量器壁上，先倒入過量再倒出所需量可確保實際給出的體積正確。\n❌ (A) 應先研磨再稱重，以免研磨過程的損耗造成劑量不足。\n❌ (B) 量取 5 mL 應選容量接近的 10 mL 量器，誤差較小。\n❌ (D) 圓錐形量器的最小可量體積約為其最大容量的五分之一，不是 0.1 mL。\n📚 出處：Ansel's Pharmaceutical Compounding"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "適用於晶體性質材料的研磨",
     "適合具染色性材料之混合"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選非特性者。玻璃研缽的內壁「光滑」，粗糙面是 Wedgwood 研缽的特徵。\n❌ (A) 它適合少量藥品的研磨。\n❌ (C) 適用於結晶性材料的簡單研磨。\n❌ (D) 表面不易吸附色素，適合有染色性的材料。\n📚 出處：Ansel's Pharmaceutical Compounding"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "5",
     "10"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 濃度＝100 mg/500 mL＝0.2 mg/mL；60 mg/h÷0.2＝300 mL/h＝5 mL/min。\n❌ (A) 1 mL/min 僅提供 12 mg/h。\n❌ (B) 3 mL/min 為 36 mg/h。\n❌ (D) 10 mL/min 達 120 mg/h，過量一倍。\n📚 出處：Ansel's Pharmaceutical Calculations—IV Flow Rate"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "papillomavirus vaccine",
     "G-CSF injection"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 低分子量肝素（nadroparin）於室溫（25 °C 以下）保存即可，不需冷藏。\n❌ (A) 抑鈣素為胜肽製劑，須冷藏。\n❌ (C) 人類乳突病毒疫苗須冷藏。\n❌ (D) 白血球生成素為蛋白質藥物，須冷藏。\n📚 出處：藥品仿單"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "riboflavin",
     "nifedipine"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) alendronate 是雙磷酸鹽，結構穩定且不含光敏感的發色團，不需避光。\n❌ (B) 硝普鈉遇光迅速分解釋出氰化物，必須嚴格避光。\n❌ (C) 核黃素是典型的光敏感物質。\n❌ (D) nifedipine 遇光會轉為無活性的硝基吡啶衍生物。\n📚 出處：藥品仿單"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "30",
     "14"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) USP <795> 規定含水的口服液體調製品，冷藏保存的最大使用期限為 14 天。\n❌ (A) 90 天適用於不含水的固體或非水性液體製劑。\n❌ (B) 60 天不是規定值。\n❌ (C) 30 天亦非。\n📚 出處：USP <795>"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "7.5",
     "10"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 劑量＝0.25×40＝10 mg；0.1%(w/v)＝1 mg/mL，故需 10 mL。\n❌ (A) 2.5 mL 只含 2.5 mg。\n❌ (B) 5 mL 含 5 mg。\n❌ (C) 7.5 mL 含 7.5 mg。\n📚 出處：Ansel's Pharmaceutical Calculations"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "須添加防腐劑以避免微生物滋生",
     "為大體積包裝但不超過200 mL"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。手術用眼用洗劑是單一劑量、用後即棄的無菌製劑，「不得」添加防腐劑（以免傷害角膜內皮）。\n❌ (A) 須無菌並以單一劑量包裝。\n❌ (B) 應為等張且接近中性 pH。\n❌ (D) 屬較大體積包裝但不超過 200 mL。\n📚 出處：USP—Ophthalmic Irrigating Solutions"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "Vitrell.",
     "Vap."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Pulv.（pulvis）即散劑。\n❌ (A) Past.（pasta）是糊劑。\n❌ (C) Vitrell. 指玻璃安瓿型的吸入用小管。\n❌ (D) Vap.（vapor）是蒸氣吸入劑。\n📚 出處：處方箋拉丁縮寫"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "225",
     "2250"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) C₁V₁＝C₂V₂：3%×75＝1%×V₂，V₂＝225 mL。\n❌ (A) 2.25 mL 少了一百倍。\n❌ (B) 22.5 mL 少了十倍。\n❌ (D) 2,250 mL 多了十倍。\n📚 出處：Ansel's Pharmaceutical Calculations—Dilution"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "50",
     "500"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 1 L 的 0.01% 含 100 mg；2% 溶液為 20 mg/mL，需 100/20＝5 mL。\n❌ (A) 0.5 mL 只含 10 mg。\n❌ (C) 50 mL 含 1,000 mg，過量十倍。\n❌ (D) 500 mL 更是嚴重過量。\n📚 出處：Ansel's Pharmaceutical Calculations—Dilution"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "性別",
     "尿中肌酸酐濃度"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Cockcroft-Gault 公式只需年齡、體重、性別與「血清」肌酸酐，不需收集尿液。\n❌ (A) 體重是公式的分子項。\n❌ (B) 年齡在公式中。\n❌ (C) 女性須乘以 0.85 的校正係數。\n📚 出處：Applied Therapeutics—Renal Function Assessment"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "6.6",
     "8.87"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 十水合物分子量 322，無水物 142；10×(142/322)≒4.4 g。\n❌ (B) 6.17 g 不符換算。\n❌ (C) 6.6 g 亦不符。\n❌ (D) 8.87 g 高估甚多。\n📚 出處：Ansel's Pharmaceutical Calculations"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "Diskhaler®所使用藥品為藥品與澱粉混合物",
     "病患吸入Turbohaler®之藥品會感到濃厚的藥味"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Turbohaler® 是少數不加乳糖載體的乾粉裝置，內容物幾乎全為藥品。\n❌ (A) 乾粉吸入劑須為極細（1～5 µm）的微粉，不是粗晶。\n❌ (C) Diskhaler® 使用的載體是乳糖而非澱粉。\n❌ (D) 正因為不含乳糖，使用 Turbohaler® 時病人幾乎感覺不到藥味。\n📚 出處：Applied Therapeutics—Inhalation Devices"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "meperidine的劑量過高",
     "meperidine的劑量不足"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 嗎啡 10 mg 約相當於 meperidine 75～100 mg（單次），但以每小時持續給 100 mg 的速率遠超過安全劑量，且會使 normeperidine 蓄積。\n❌ (A) 嗜睡問題並非不建議的主因。\n❌ (B) meperidine 的半衰期反而較短。\n❌ (D) 劑量是過高而非不足。\n📚 出處：Applied Therapeutics—Pain Management"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "4~6",
     "6~7"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 落菌（沉降菌）培養皿在無菌操作台的暴露時間一般為 2～4 小時。\n❌ (A) 1～2 小時不足以反映作業期間的污染狀況。\n❌ (C) 4～6 小時過長，培養基易乾涸。\n❌ (D) 6～7 小時更不適當。\n📚 出處：PIC/S GMP 環境監測"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "carmustine",
     "bleomycin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) etoposide 有口服軟膠囊劑型。\n❌ (B) cisplatin 口服不吸收且腸胃毒性大。\n❌ (C) carmustine 為靜脈注射或植入劑。\n❌ (D) bleomycin 是醣肽類，口服無效。\n📚 出處：藥品仿單"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "20% dextrose solution可以由周邊靜脈輸注",
     "12% amino acid solution可以由周邊靜脈輸注"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 脂肪乳劑的滲透壓接近等張（約 300 mOsm/L），可由周邊靜脈輸注。\n❌ (A) 周邊靜脈的耐受上限約 900 mOsm/L，不是 600。\n❌ (C) 20% 葡萄糖的滲透壓超過 1,000 mOsm/L，須經中央靜脈。\n❌ (D) 12% 胺基酸液的滲透壓同樣過高。\n📚 出處：ASPEN 靜脈營養指引"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "血糖變化",
     "維生素過多"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 再餵食症候群的特徵是磷、鉀、鎂等被大量帶入細胞內而急遽下降，並非維生素「過多」（反而是硫胺缺乏）。\n❌ (A) 低血磷是其標誌性表現。\n❌ (B) 低血鉀常見。\n❌ (C) 大量葡萄糖輸注造成血糖波動。\n📚 出處：ASPEN 靜脈營養指引"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "化療病人的排泄物應在化療結束24小時內小心防護處理",
     "門診化療病人應使用特殊洗手間"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。化療後病人的排泄物在「48 小時」內都應視為含細胞毒性藥物而小心處理。\n❌ (A) 化療廢棄物須密封並清楚標示。\n❌ (B) 尖銳物須置於防刺穿容器。\n❌ (D) 門診化療病人使用專用洗手間可降低污染。\n📚 出處：USP <800>；抗癌藥品調配作業指引"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "肌肉注射容易結晶析出",
     "對注射部位的組織會有刺激性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。phenytoin 注射液為強「鹼」性（pH 約 12），不是強酸性。\n❌ (A) 可靜脈注射，但速率不得超過 50 mg/min。\n❌ (C) 肌肉注射時 pH 下降會使藥物析出結晶、吸收不穩。\n❌ (D) 強鹼性與丙二醇溶媒對組織有明顯刺激性。\n📚 出處：藥品仿單；Handbook on Injectable Drugs"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "erythromycin lactate",
     "potassium chloride"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 氯化鉀溶液與肝素相容，可在同一輸液中併用。\n❌ (A) t-PA 與肝素不相容，須分開管路。\n❌ (B) 胺基醣苷類帶正電，與帶強負電的肝素會產生沉澱與失活。\n❌ (C) erythromycin lactate 與肝素不相容。\n📚 出處：Handbook on Injectable Drugs"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 副袋（piggyback）法把藥物稀釋後短時間輸注，既降低對靜脈的刺激，又能在短時間內達到峰濃度。\n❌ (B) ③病人自控給藥是 PCA 的特點，不是 piggyback。\n❌ (C) 漏了①。\n❌ (D) ③並不成立。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Parenterals"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "用於慢性腎臟病人貧血之治療",
     "不可使用於血壓無法控制之高血壓病人"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。紅血球生成素應「冷藏」於 2～8 °C，不可冷凍（結凍會使蛋白變性失效）。\n❌ (B) 常規給藥為每週三次。\n❌ (C) 適應症為慢性腎臟病的貧血。\n❌ (D) 未受控制的高血壓是其禁忌。\n📚 出處：藥品仿單"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "每星期3次",
     "每3星期1次"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 聚乙二醇化干擾素的半衰期長，每週皮下注射一次。\n❌ (A) 每天注射是傳統干擾素的用法。\n❌ (C) 每週三次亦為傳統干擾素的給法。\n❌ (D) 每三週一次過於稀疏，無法維持療效。\n📚 出處：藥品仿單"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "藥事職業場所之處方藥不得以開架式陳列",
     "藥品之包裝或容器不得重複使用"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。第一至三級管制藥品才須專設櫥櫃加鎖，第四級只需存放於管制場所並登記。\n❌ (A) 回收通知與警訊應配合處理。\n❌ (C) 處方藥不得開架陳列。\n❌ (D) 藥品容器與包裝不得重複使用。\n📚 出處：藥品優良調劑作業準則；管制藥品管理條例"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "藥事人員得以與原處方藥品之同成分、同劑型、同單位含量之學名藥替代，並記錄之，必要時應通知原處方醫師",
     "藥事人員得以與原處方藥品之不同成分、不同劑型、不同單位含量之學名藥替代，並記錄之，必要時應通知原處方醫師"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 未註明不得替代時，可用同成分、同劑型、同單位含量的學名藥替代，並記錄與必要時通知處方醫師。\n❌ (A) 劑型不同會改變釋放與吸收，不可逕行替代。\n❌ (B) 含量不同即劑量不同。\n❌ (D) 成分不同屬治療替代，須醫師同意。\n📚 出處：藥品優良調劑作業準則"
   },
   {
    "n": 28,
@@ -393,7 +420,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "near miss",
     "violations"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在到達病人之前被攔截，屬「差點錯失（near miss）」。\n❌ (A) lapses 是記憶失誤導致的疏漏。\n❌ (B) mistakes 是知識或判斷上的錯誤。\n❌ (D) violations 是明知規定而故意不遵守。\n📚 出處：病人安全—用藥疏失分類"
   },
   {
    "n": 30,
@@ -406,7 +434,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "僅②③④⑤",
     "①②③④⑤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 五項都屬醫療機構藥師的職責範圍，涵蓋藥品全生命週期的管理與教育。\n❌ (A) 遺漏了採購管理與政策擬定等核心業務。\n❌ (B) 遺漏了儀器管理與教育訓練。\n❌ (C) 遺漏了①用藥評估與供應管理。\n📚 出處：醫療機構藥事作業規範"
   },
   {
    "n": 31,
@@ -419,7 +448,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "Phyllocontin®",
     "Takepron® OD"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Glidiab®（gliclazide）為一般速放錠，可磨粉經鼻胃管給予。\n❌ (A) Bokey® EM 是腸溶微粒膠囊，磨粉會破壞腸溶衣。\n❌ (C) Phyllocontin® 是持續釋放錠。\n❌ (D) Takepron® OD 為口崩錠且含腸溶顆粒，不可研磨。\n📚 出處：藥品仿單；不可磨粉藥品清單"
   },
   {
    "n": 32,
@@ -432,7 +462,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "架貯期（shelf-life）測定應考量藥品儲存過程之物理、化學、微生物、療效、毒理特性等變化",
     "出廠後當儲存條件改變時，原標示有效期限即不再適用"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。重新分裝改變了包裝的阻隔條件，原標示效期不再適用，須另訂使用期限。\n❌ (A) 逾效期的藥品不應使用。\n❌ (C) 架貯期試驗涵蓋物理、化學、微生物等面向。\n❌ (D) 儲存條件改變時原效期即失效。\n📚 出處：USP <795>；藥品安定性試驗基準"
   },
   {
    "n": 33,
@@ -445,7 +476,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "benazepril",
     "amlodipine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Caduet® 是 amlodipine 加 atorvastatin；Exforge® 是 amlodipine 加 valsartan，共同成分為 amlodipine。\n❌ (A) valsartan 只在 Exforge® 中。\n❌ (B) atorvastatin 只在 Caduet® 中。\n❌ (C) benazepril 是 Lotrel® 的成分。\n📚 出處：藥品仿單"
   },
   {
    "n": 34,
@@ -458,7 +490,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "僅①②",
     "①②③"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全靜脈營養輸液、胰島素與高張食鹽水都列於 ISMP 的高警訊注射藥品清單。\n❌ (A) 漏了①靜脈營養輸液。\n❌ (B) 漏了②胰島素。\n❌ (C) 漏了③高張食鹽水。\n📚 出處：ISMP High-Alert Medications List"
   },
   {
    "n": 35,
@@ -471,7 +504,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "ziprasidone",
     "zaleplon"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ziprasidone 是非典型抗精神病藥，不是安眠藥。\n❌ (A) zopiclone 是非苯二氮平類安眠藥。\n❌ (B) zolpidem 同屬 Z 類安眠藥。\n❌ (D) zaleplon 亦為 Z 類安眠藥。\n📚 出處：藥品仿單"
   },
   {
    "n": 36,
@@ -484,7 +518,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "僅①③",
     "①②③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ①PPA 因出血性中風風險、②sibutramine 因心血管事件風險，許可證均已廢止。\n❌ (B) ③orlistat 仍為合法上市的減重藥。\n❌ (C) 誤含③。\n❌ (D) 同樣誤含③。\n📚 出處：衛生福利部藥品下市公告"
   },
   {
    "n": 37,
@@ -497,7 +532,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "藥物不良事件（adverse drug event）",
     "不良事件（adverse event）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 用藥期間發生的任何不利醫療事件，但與藥品的因果關係尚未確立者，稱為不良事件。\n❌ (A) 藥物反應泛指藥理反應。\n❌ (B) 藥物不良反應須確立與藥品有合理因果關係。\n❌ (C) 藥物不良事件指與用藥過程有關的傷害，本例的關聯仍未確定。\n📚 出處：藥物不良反應通報定義"
   },
   {
    "n": 38,
@@ -510,7 +546,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "cross-sectional studies",
     "randomized controlled studies"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 世代研究依暴露與否分組後往前追蹤結果，故又稱追蹤（follow-up）研究。\n❌ (B) 個案對照研究是由結果回溯暴露。\n❌ (C) 橫斷性研究是同一時點的調查。\n❌ (D) 隨機對照試驗屬介入性研究。\n📚 出處：流行病學研究設計"
   },
   {
    "n": 39,
@@ -523,7 +560,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "須按規律之間隔服用",
     "足量水整粒吞服"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。metronidazole 的腸胃刺激明顯，建議「隨餐或飯後」服用，不需空腹。\n❌ (A) 併用酒精會產生類 disulfiram 反應。\n❌ (C) 抗生素應規律間隔服用以維持血中濃度。\n❌ (D) 膜衣錠應整粒配水吞服。\n📚 出處：藥品仿單"
   },
   {
    "n": 40,
@@ -536,7 +574,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "二者均可降低低密度膽固醇",
     "較不會影響warfarin的吸收"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。colesevelam 的腸胃道副作用（便秘、脹氣）明顯「少於」cholestyramine，這正是換藥的理由。\n❌ (A) 兩者都是膽酸結合樹脂。\n❌ (C) 兩者都能降低低密度脂蛋白膽固醇。\n❌ (D) colesevelam 對 warfarin 等併用藥的吸收干擾較小。\n📚 出處：Applied Therapeutics—Hyperlipidemia"
   },
   {
    "n": 41,
@@ -549,7 +588,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "鈉攝取量不超過3.8 g/day",
     "鉀攝取量為4.7 g/day"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。高血壓病人的鈉攝取上限約 2.4 g/day（相當於食鹽 6 g），3.8 g 明顯過高。\n❌ (A) BMI 控制在 18.5～24.9 是標準建議。\n❌ (B) DASH 飲食建議每日 2～3 份低脂乳品。\n❌ (D) 建議鉀攝取量約 4.7 g/day。\n📚 出處：JNC；DASH Diet"
   },
   {
    "n": 42,
@@ -562,7 +602,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "高尿酸",
     "低血鈉"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 二氫吡啶類擴張小動脈造成微血管靜水壓上升，腳踝周邊水腫是其典型副作用。\n❌ (A) 高血鉀是 ACEI／ARB 與保鉀利尿劑的問題。\n❌ (C) 高尿酸見於利尿劑。\n❌ (D) 低血鈉多與噻嗪類利尿劑有關。\n📚 出處：Katzung, Calcium Channel Blockers"
   },
   {
    "n": 43,
@@ -575,7 +616,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "若發生自然分娩時，可用protamine拮抗heparin之作用",
     "分娩後哺乳期間不可使用warfarin，因其會分泌於乳汁"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 若在肝素作用期間自然分娩，可用魚精蛋白中和肝素以減少出血。\n❌ (A) 靜脈肝素半衰期短，停用 6 小時即可。\n❌ (B) 皮下肝素作用較久，須停用 12～24 小時。\n❌ (D) warfarin 幾乎不進入乳汁，哺乳期可安全使用。\n📚 出處：CHEST Antithrombotic Guideline"
   },
   {
    "n": 44,
@@ -588,7 +630,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "使用時宜自低劑量起始，再逐漸依菸癮程度加重劑量",
     "皮膚貼片應選擇乾淨部位黏貼，一般三天更換一片"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 酸性飲料會使口腔 pH 下降，尼古丁離子化而無法經黏膜吸收，使用前 15 分鐘與使用中都應避免。\n❌ (A) 口嚼錠與口含錠都不可吞服（吞下會被首渡代謝且刺激胃）。\n❌ (C) 應依菸癮程度選定起始劑量後「逐步減量」，不是加重。\n❌ (D) 貼片為每日更換一片，不是三天。\n📚 出處：Applied Therapeutics—Smoking Cessation"
   },
   {
    "n": 45,
@@ -601,7 +644,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "餐後兩小時使用",
     "藥品效用與用餐時間無關聯"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) acarbose 必須與第一口飯同時嚼服，才能在腸道與雙醣同時存在而抑制其分解。\n❌ (A) 餐前 30 分鐘是磺醯脲類的用法。\n❌ (C) 餐後兩小時醣類已吸收，失去作用時機。\n❌ (D) 它的療效高度依賴服藥與進食的時序。\n📚 出處：藥品仿單"
   },
   {
    "n": 46,
@@ -614,7 +658,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "忘記服用warfarin時，應於隔日補服二倍藥量，以免形成血栓",
     "服用warfarin期間，應禁止攝取深綠色蔬菜，以免降低warfarin療效"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 銀杏具抗血小板作用，與 warfarin 併用會顯著增加出血風險，應避免。\n❌ (A) 這是藥效學的加成作用，錯開時間無法避免。\n❌ (C) 漏服不可自行加倍補服，會使 INR 過高。\n❌ (D) 深綠色蔬菜不需禁食，重點在維持攝取量「穩定」。\n📚 出處：Applied Therapeutics—Anticoagulation"
   },
   {
    "n": 47,
@@ -627,7 +672,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "保持正常說話的節奏，但再稍慢一點點",
     "要讓病人能在明亮處清楚看到你的臉"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 大聲吼叫會扭曲嘴型與語調，反而更難讀唇，也不尊重病人。\n❌ (A) 重述或改用書寫是有效的溝通方式。\n❌ (C) 維持正常節奏但稍放慢有助理解。\n❌ (D) 讓病人在明亮處看見說話者的臉可輔助讀唇。\n📚 出處：藥事照護—溝通技巧"
   },
   {
    "n": 48,
@@ -640,7 +686,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "ibuprofen的解熱效果與acetaminophen相當",
     "因呼吸道病毒感染引起發燒時建議用aspirin來退燒"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。兒童病毒感染時使用阿斯匹靈可能引發雷氏症候群，應絕對避免。\n❌ (A) 體溫超過 41 °C 須警覺嚴重感染或中樞病變。\n❌ (B) acetaminophen 是兒童最常用的解熱劑。\n❌ (C) ibuprofen 的退燒效果與 acetaminophen 相當。\n📚 出處：AAP Fever Management"
   },
   {
    "n": 49,
@@ -653,7 +700,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 最強效（第一級）外用類固醇連續使用不宜超過 2 週，以免經皮吸收造成腎上腺抑制與皮膚萎縮。\n❌ (A) 1 週是更保守但非標準上限。\n❌ (C) 3 週已超過建議期間。\n❌ (D) 4 週更長。\n📚 出處：Applied Therapeutics—Dermatotherapy"
   },
   {
    "n": 50,
@@ -666,7 +714,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "sulindac",
     "ibuprofen"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) sulindac 是前驅藥，其活性硫醚代謝物在腎臟被再氧化為非活性型，對腎前列腺素的影響相對較小。\n❌ (A) indomethacin 的腎毒性最強。\n❌ (B) diclofenac 亦明顯抑制腎前列腺素。\n❌ (D) ibuprofen 同樣減少腎血流。\n📚 出處：Applied Therapeutics—NSAIDs and Renal Function"
   },
   {
    "n": 51,
@@ -679,7 +728,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "僅②③④",
     "僅③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ②itraconazole 膠囊需胃酸與食物促進吸收、③nateglinide 須餐前隨餐服用以配合餐後血糖、④orlistat 須隨餐才能抑制脂肪吸收。\n❌ (A) ①alendronate 必須空腹並以開水送服。\n❌ (B) 漏了③。\n❌ (D) 漏了②。\n📚 出處：藥品仿單"
   },
   {
    "n": 52,
@@ -692,7 +742,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "a database for evidence-based health care",
     "a medical dictionary"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Cochrane Library 是實證醫學的系統性回顧資料庫。\n❌ (A) 它彙整而非產生原始研究。\n❌ (B) 它屬二級（檢索彙整）文獻而非三級教科書。\n❌ (D) 它不是醫學辭典。\n📚 出處：藥物資訊來源分類"
   },
   {
    "n": 53,
@@ -705,7 +756,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "norfloxacin",
     "cefuroxime"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 頭孢菌素在孕期安全、不引起 G6PD 溶血，且腎功能不良時只需調整劑量，最適合。\n❌ (A) nitrofurantoin 在 G6PD 缺乏者會溶血，且 CrCl＜60 時無效。\n❌ (B) 磺胺類會誘發溶血並造成新生兒黃疸。\n❌ (C) 氟喹諾酮孕期禁用且對 G6PD 缺乏者有風險。\n📚 出處：Briggs, Drugs in Pregnancy；IDSA UTI Guideline"
   },
   {
    "n": 54,
@@ -718,7 +770,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "meclizine",
     "valproic acid"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) valproic acid 明確增加神經管缺損與其他先天畸形的風險，屬人類確認的致畸胎劑。\n❌ (A) dimenhydrinate 在孕期使用相對安全。\n❌ (B) 青黴素是孕期最安全的抗生素之一。\n❌ (C) meclizine 亦屬孕期可用的止吐藥。\n📚 出處：Briggs, Drugs in Pregnancy and Lactation"
   },
   {
    "n": 55,
@@ -731,7 +784,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "增加mercaptopurine劑量",
     "增加mercaptopurine給藥頻次"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) allopurinol 抑制黃嘌呤氧化酶，使 azathioprine 的活性代謝物蓄積，劑量須減至 1/4～1/3。\n❌ (B) 增加劑量會造成嚴重骨髓抑制。\n❌ (C) 同樣會導致中毒。\n❌ (D) 增加頻次等同增加總劑量。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 56,
@@ -747,7 +801,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
    "a": 2,
    "alt": [
     3
-   ]
+   ],
+   "exp": "✅ (C) 只要抽血時間點是正確的（如穩定狀態的谷濃度），數據即具代表性，不會造成判讀偏差。\n❌ (A) 近日的實際服藥劑量與時間直接決定濃度。\n❌ (B) 併用藥的酵素誘導或抑制會大幅改變濃度。\n❌ (D) 出現不良反應提示濃度可能過高，是判讀的重要背景。\n📚 出處：Applied Therapeutics—HIV Infection"
   },
   {
    "n": 57,
@@ -760,7 +815,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "valproate：50~150 µg/mL",
     "phenytoin：10~20 µg/mL"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。phenobarbital 的治療濃度為 15～40 µg/mL，不是 4～8。\n❌ (A) carbamazepine 為 4～12 µg/mL。\n❌ (C) valproate 為 50～100（部分文獻至 150）µg/mL。\n❌ (D) phenytoin 為 10～20 µg/mL。\n📚 出處：Applied Therapeutics—Seizure Disorders"
   },
   {
    "n": 58,
@@ -773,7 +829,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "2",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 含鋁制酸劑會與四環素類螯合，仿單建議兩者至少間隔 1 小時（實務上多建議 2 小時以上）以減少干擾。\n❌ (A) 0.5 小時不足以避免螯合。\n❌ (C) 2 小時是更保守的建議，但非仿單所訂的最低間隔。\n❌ (D) 4 小時遠超過需求。\n📚 出處：藥品仿單"
   },
   {
    "n": 59,
@@ -786,7 +843,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "競爭藥品受體的結合點",
     "抑制藥品的代謝"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ciprofloxacin 抑制 CYP1A2，使 theophylline 代謝減慢而濃度上升，可能中毒。\n❌ (A) 兩者的交互作用不在吸收層次。\n❌ (B) 是抑制而非增加代謝。\n❌ (C) 兩者不作用於同一受體。\n📚 出處：Applied Therapeutics—Asthma"
   },
   {
    "n": 60,
@@ -799,7 +857,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "競爭藥品受體的結合點",
     "抑制藥品的代謝"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) diltiazem 抑制 CYP3A4，使 carbamazepine 的代謝減慢、濃度上升而中毒。\n❌ (A) 不涉及腸胃道 pH。\n❌ (B) 不是吸收增加。\n❌ (C) 兩者無受體競爭。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 61,
@@ -812,7 +871,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "carbamazepine血中濃度增加，phenytoin血中濃度減少",
     "carbamazepine血中濃度減少，phenytoin血中濃度增加"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) fluconazole 抑制 CYP3A4 與 CYP2C9，使 carbamazepine 與 phenytoin 的濃度都上升。\n❌ (B) 方向相反。\n❌ (C) 兩者都是上升。\n❌ (D) 同樣不符。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 62,
@@ -825,7 +885,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "與ACE inhibitors併用",
     "攝取高鈉含量的飲食"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ACE 抑制劑減少腎臟排鈉排鋰，會使鋰濃度「上升」而非下降。\n❌ (A) theophylline 增加鋰的腎排除，濃度下降。\n❌ (B) 咖啡因具利尿作用，同樣促進鋰排除。\n❌ (D) 高鈉飲食會競爭腎小管的再吸收，加速鋰排出。\n📚 出處：Applied Therapeutics—Bipolar Disorder"
   },
   {
    "n": 63,
@@ -838,7 +899,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "cyclosporine",
     "clarithromycin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) metoclopramide 加速腸道蠕動，縮短 digoxin 的吸收時間而降低血中濃度。\n❌ (B) telmisartan 會提高 digoxin 濃度。\n❌ (C) cyclosporine 抑制 P-醣蛋白，使濃度上升。\n❌ (D) clarithromycin 抑制腸道菌與 P-醣蛋白，使濃度上升。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 64,
@@ -851,7 +913,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "理想體重",
     "擬似分佈體積"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 延長間隔給藥法的給藥間隔依肌酸酐廓清率決定（如 Hartford 列線圖）。\n❌ (B) 單一血清肌酸酐值未考慮年齡與體重。\n❌ (C) 理想體重用於計算「劑量」而非間隔。\n❌ (D) 分布體積影響的是峰濃度。\n📚 出處：Applied Therapeutics—Aminoglycosides"
   },
   {
    "n": 65,
@@ -864,7 +927,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "oxcarbazepine",
     "phenobarbital"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) oxcarbazepine 的治療窗寬、濃度與療效的相關性不明確，一般不需常規監測血中濃度。\n❌ (A) carbamazepine 的治療窗窄且會自我誘導，須監測。\n❌ (B) valproate 須監測濃度。\n❌ (D) phenobarbital 半衰期長且治療窗窄，須監測。\n📚 出處：Applied Therapeutics—Seizure Disorders"
   },
   {
    "n": 66,
@@ -877,7 +941,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "metronidazole",
     "ketoconazole"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) metronidazole 抑制乙醛去氫酶，飲酒會產生類 disulfiram 反應（潮紅、心悸、噁心）。\n❌ (A) albendazole 無此反應。\n❌ (B) mebendazole 亦無。\n❌ (D) ketoconazole 雖有零星報告，但典型且明確的是 metronidazole。\n📚 出處：藥品仿單"
   },
   {
    "n": 67,
@@ -890,7 +955,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "每次約25 mg， 早晚各一次",
     "每次約50 mg， 一天一次"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 日劑量＝75×0.67≒50 mg；早晚各一次，每次約 25 mg。\n❌ (A) 6.25 mg 遠低於計算值。\n❌ (B) 12.5 mg 一天一次僅四分之一劑量。\n❌ (D) 50 mg 一天一次雖總量正確，但與處方的一日兩次不符。\n📚 出處：Ansel's Pharmaceutical Calculations—Pediatric Dosing"
   },
   {
    "n": 68,
@@ -903,7 +969,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "1250",
     "1350"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 9 包共需 25×9＝225 mg，即 5 顆 45 mg 錠，錠重 5×270＝1,350 mg；總重 9×300＝2,700 mg，故加乳糖 2,700−1,350＝1,350 mg。\n❌ (A) 1,050 mg 使總重不足。\n❌ (B) 1,150 mg 同樣不足。\n❌ (C) 1,250 mg 仍差 100 mg。\n📚 出處：Ansel's Pharmaceutical Compounding"
   },
   {
    "n": 69,
@@ -916,7 +983,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "methotrexate",
     "Takepron® OD"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) methotrexate 屬細胞毒性藥品，溢灑後若無適當防護，會對工作人員造成健康危害。\n❌ (A) Bactrim®（磺胺類）不屬危害性藥品。\n❌ (B) Dulcolax® 是瀉劑。\n❌ (D) Takepron® 是質子幫浦抑制劑。\n📚 出處：USP <800>"
   },
   {
    "n": 70,
@@ -929,7 +997,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "irritative",
     "hypoglycemic"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 它的危害來自細胞毒性（致癌、致畸與生殖毒性），這是列為危害性藥品的主因。\n❌ (A) 過敏反應不是其主要職業危害。\n❌ (C) 局部刺激性只是次要考量。\n❌ (D) 它不影響血糖。\n📚 出處：USP <800>；NIOSH 危害性藥品清單"
   },
   {
    "n": 71,
@@ -942,7 +1011,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "協助申請藥害救濟補償",
     "評估並填寫藥物不良反應通報表"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選最不會有幫助者。使用他人剩餘的處方藥屬未依醫囑的非正當使用，不符藥害救濟的要件，申請不會通過。\n❌ (A) 立即停藥是最關鍵的處置。\n❌ (B) cholestyramine 可加速 terbinafine 的清除。\n❌ (D) 通報不良反應有助於藥品安全監視。\n📚 出處：藥害救濟法第 13 條"
   },
   {
    "n": 72,
@@ -955,7 +1025,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "血液eosinophil值必明顯高於參考值",
     "此不良反應最主要表現在皮膚黏膜"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 危及生命的嚴重藥物不良反應應於得知日起 7 日內通報。\n❌ (A) 3 日不是法定期限。\n❌ (C) 嗜酸性球上升見於 DRESS，不是所有藥物性肝炎的必然表現。\n❌ (D) 本案的表現在肝臟而非皮膚黏膜。\n📚 出處：藥物安全監視管理辦法"
   },
   {
    "n": 73,
@@ -968,7 +1039,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "serum transaminases",
     "urine creatinine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) terbinafine 具肝毒性，治療前與治療期間應定期監測血清轉胺酶。\n❌ (A) 它不需監測血中藥物濃度。\n❌ (B) 胸腔細胞學與此無關。\n❌ (D) 尿中肌酸酐不是其監測指標。\n📚 出處：藥品仿單"
   },
   {
    "n": 74,
@@ -981,7 +1053,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "可通過blood brain barrier",
     "對暈車症狀之治療效用優於預防用途"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。暈動症用藥的效果是「預防優於治療」，症狀出現後再服用效果差。\n❌ (A) 它屬第一代抗組織胺。\n❌ (B) 兼具抗組織胺與抗膽鹼作用。\n❌ (C) 它可通過血腦障壁作用於前庭系統。\n📚 出處：Applied Therapeutics—Motion Sickness"
   },
   {
    "n": 75,
@@ -994,7 +1067,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "出發前30分鐘服藥；必要時，可於6小時後再次服用",
     "藥品作用時間長達24小時，每天只可服用一次"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 應於出發前 30 分鐘至 1 小時服用，必要時可每 4～6 小時重複一次。\n❌ (A) 上車才服用來不及發揮預防作用，且不可隨時追加。\n❌ (B) 症狀出現後才服用效果不佳。\n❌ (D) 它的作用時間約 4～6 小時，不是 24 小時。\n📚 出處：藥品仿單"
   },
   {
    "n": 76,
@@ -1007,7 +1081,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "媽媽之感冒藥及暈車藥各應減半服用，避免重複用藥",
     "服藥後可能會想睡覺，爺爺走路時要小心以免跌倒"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 第一代抗組織胺的鎮靜作用明顯，老年人服用後跌倒風險升高，這是最貼切的提醒。\n❌ (A) 出現便秘不必立即用軟便劑，多屬暫時性。\n❌ (B) 兒童可能出現的反常興奮應提醒留意，不是「毋須擔心」。\n❌ (C) 綜合感冒藥若含抗組織胺應避免併用，而非各減半自行調整。\n📚 出處：Beers Criteria；藥事照護"
   },
   {
    "n": 77,
@@ -1020,7 +1095,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "兩藥可倂用，但應即調降digoxin劑量為宜",
     "兩藥可倂用，但應即調降quinidine劑量為宜"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 兩者可併用（quinidine 用於心房顫動的節律控制），但必須立即把 digoxin 劑量減半並監測濃度。\n❌ (A) 並非絕對禁忌。\n❌ (B) 這是重要的交互作用，不能不留意。\n❌ (D) 需調整的是 digoxin 而非 quinidine。\n📚 出處：Applied Therapeutics—Arrhythmias"
   },
   {
    "n": 78,
@@ -1033,7 +1109,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "一般於24小時內易出現digoxin血中濃度上升",
     "quinidine之t1/2達40~60天，易蓄積於體內而致中毒"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) quinidine 置換組織結合位並抑制 P-醣蛋白，通常在 24 小時內即可見 digoxin 血中濃度明顯上升。\n❌ (A) 上升的是 digoxin 的濃度與毒性，不是兩藥的副作用都加重。\n❌ (B) 這是兩藥各自的藥理作用，不能解釋為何要減量。\n❌ (D) quinidine 的半衰期僅約 6～8 小時。\n📚 出處：Applied Therapeutics—Drug Interactions"
   },
   {
    "n": 79,
@@ -1046,7 +1123,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "波谷：< 1 µg/mL",
     "波谷：1~2 µg/mL"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 延長間隔給藥法要求谷濃度低於 1 µg/mL（理想上測不出），以降低腎與耳毒性。\n❌ (A) 4～10 µg/mL 是傳統多次給藥法的峰濃度目標。\n❌ (B) 40～50 µg/mL 已達中毒濃度。\n❌ (D) 1～2 µg/mL 是傳統給藥法的谷濃度上限。\n📚 出處：Applied Therapeutics—Aminoglycosides"
   },
   {
    "n": 80,
@@ -1059,7 +1137,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph4'] = {
     "2~4 mg/kg IV q12h",
     "5~7 mg/kg IV q24h"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腎功能正常者採每日一次高劑量（5～7 mg/kg q24h），可提高峰濃度／MIC 比並利用抗生素後效應。\n❌ (A) 1.5～2 mg/kg q8h 是傳統給藥法，峰濃度不足。\n❌ (B) 固定 80～120 mg 未依體重計算。\n❌ (C) q12h 的間隔不足以讓谷濃度降到安全範圍。\n📚 出處：Applied Therapeutics—Aminoglycosides"
   }
  ]
 };
