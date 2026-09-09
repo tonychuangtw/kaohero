@@ -6,7 +6,12 @@
 ## 站台
 
 - repo：github.com/tonychuangtw/kaohero（2026-09-09 已從 kaoguhero 改名）
-- 網址：https://tonychuangtw.github.io/kaohero/ （舊網址 /kaoguhero/ 由 rootsite 404 MAP 轉址救援）
+- **正式網址：https://kaohero.com** （2026-09-09 上線，Cloudflare Registrar 註冊、DNS 在 Cloudflare、站台仍由 GitHub Pages 供應）
+  - DNS：4 筆 A 記錄指 GitHub Pages（185.199.108-111.153）＋ www 的 CNAME，全部 DNS only（灰雲）；改橘雲前要先確認 GitHub 憑證不受影響
+  - repo 根目錄的 `CNAME` 檔不可刪，刪了自訂網域會失效
+  - 後端已在 `.env` 加 `EXTRA_ORIGINS=https://kaohero.com,https://www.kaohero.com`（server.js 既有機制，不必改程式）
+  - Google OAuth 的 authorized JavaScript origins 已加入兩個新網域
+  - 舊網址 https://tonychuangtw.github.io/kaohero/ 仍可用；更舊的 /kaoguhero/ 由 rootsite 404 MAP 轉址救援
 - 內部識別碼 2026-09-09 一併改為 kaohero（Tony：「現在還沒有使用者，直接改以免以後麻煩」）：`js/config.js` 的 `APP: 'kaohero'`、localStorage 的 `kaohero.v1` / `kaohero.prefs`、後端 `claude-shared/projects/LanExamMock/backend/kaohero.js` 與 `server.js` 的 `APPS.kaohero`、DB `progress.app` 值
 - 本機 clone：`~/TelegramClaude/kaoguhero`（目錄名維持舊名，避免動到 tg session／unit 設定）
 - 純靜態站，vanilla JS、無 build、GitHub Pages 部署（push 到 main 即上線）
