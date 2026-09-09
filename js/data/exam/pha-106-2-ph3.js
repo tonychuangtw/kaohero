@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "微小顆粒（micronization）",
     "pH調整"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 沒有解離常數的藥物在任何 pH 下都不解離，調整 pH 對其溶解度沒有幫助。\n❌ (A) 與環糊精等形成包合物可提高溶解度。\n❌ (B) 加入共溶劑可降低介質極性而增溶。\n❌ (C) 微粉化增加表面積可加快溶離（並提高極細粒子的表觀溶解度）。\n📚 出處：Martin's Physical Pharmacy—Solubility"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "微差熱分析（differential thermal analysis）",
     "動態光散射（dynamic light scattering）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 動態光散射測的是溶液或分散液中粒子的粒徑分布，無法判定固體的晶型。\n❌ (A) 熱台顯微鏡可直接觀察加熱過程的晶型轉變。\n❌ (B) DSC 由熔融吸熱峰與轉晶放熱峰判定晶型。\n❌ (C) DTA 原理相近，同樣可用。\n📚 出處：藥品固態性質分析"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "6",
     "8"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 弱酸在 pH 高於 pKa 時解離；pH 8 比 pKa 4 高 4 個單位，離子態比例最高（約 99.99%）。\n❌ (A) pH 2 時幾乎完全不解離。\n❌ (B) pH 4 時解離與未解離各半。\n❌ (C) pH 6 的解離度低於 pH 8。\n📚 出處：Martin's Physical Pharmacy—Ionization"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "浸漬容器最好選用內徑窄而長度長之圓筒，其抽提將可更有效率",
     "藥材浸漬時，通常不宜加熱也不宜振搖"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 浸漬法讓溶媒長時間浸潤藥材，適合質地堅硬、非軟性細胞組織的生藥。\n❌ (A) 浸漬法達不到完全抽提，且溶媒用量並不省。\n❌ (C) 窄長圓筒是滲漉法的裝置特徵。\n❌ (D) 浸漬期間可適度振搖以加速溶出。\n📚 出處：中華藥典—浸出製劑製法"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "2",
     "3"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 碘在純水中的溶解度僅約 0.03%（1:3,000），須藉碘化鉀形成三碘錯離子才能大幅增溶。\n❌ (B) 0.5% 已超過純水的溶解度。\n❌ (C) 2% 是碘酊等含碘化鉀製劑的濃度級別。\n❌ (D) 3% 遠高於純水溶解度。\n📚 出處：中華藥典—碘製劑"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "溶解碳酸銨後再加入酒精混合均勻即得",
     "本產品具驅風、制酸、醒腦等作用"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。碳酸銨應以氨水（強氨溶液）與水溶解，加入氫氧化鈉會分解碳酸銨並改變產品性質。\n❌ (A) 藥用碳酸銨應為半透明堅硬塊狀。\n❌ (C) 溶解後加入酒精與芳香油混合即得。\n❌ (D) 本品傳統用於驅風、制酸與甦醒（嗅劑）。\n📚 出處：中華藥典—芳香氨醑"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "18",
     "0"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 當液體的表面張力（18 dyne/cm）低於固體的臨界表面張力（30 dyne/cm）時，液體會完全鋪展，接觸角為 0 度。\n❌ (A) 108 度代表更差的潤濕，與加界面活性劑的效果相反。\n❌ (B) 90 度是加入界面活性劑前的狀態。\n❌ (C) 18 是表面張力的數值，不是角度。\n📚 出處：Martin's Physical Pharmacy—Wetting"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "Mg2+＞Ca2+",
     "Mg2+＞Na+"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 依 Schulze-Hardy 規則，反離子價數愈高凝結能力愈強、所需最小凝結濃度愈低，故 Na⁺ 所需濃度遠大於 Al³⁺。\n❌ (B) Al³⁺ 的所需濃度應小於 Ca²⁺。\n❌ (C) 同為二價，兩者所需濃度相近，不會有明顯大小關係。\n❌ (D) 一價的 Na⁺ 所需濃度應大於二價的 Mg²⁺。\n📚 出處：Martin's Physical Pharmacy—Colloids"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "carbowax bases",
     "bentonite gel"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 皂土（bentonite）為矽酸鋁類黏土，屬無機親水膠體。\n❌ (A) 西黃蓍膠是植物性多醣。\n❌ (B) 果膠亦為天然多醣。\n❌ (C) carbowax（聚乙二醇）是合成的有機高分子。\n📚 出處：Martin's Physical Pharmacy—Colloids"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "屬硫酸烷結構",
     "稱為綠肥皂"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 硬脂酸鈉解離後界面活性部分帶負電，屬陰離子界面活性劑（即肥皂）。\n❌ (A) 其對等離子是鈉離子（陽離子）。\n❌ (C) 它是脂肪酸鹽，不是硫酸烷酯。\n❌ (D) 綠肥皂（軟肥皂）是以氫氧化鉀皂化植物油而得的鉀皂。\n📚 出處：Martin's Physical Pharmacy—Surfactants"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "coalescence",
     "creaming"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 帶相反電荷的兩種大分子（或離子）相互作用形成低溶解度的複合相，稱為複合凝聚（complex coacervation）。\n❌ (B) 絮凝是分散粒子形成疏鬆聚集體。\n❌ (C) 合併是乳劑液滴融合。\n❌ (D) 乳析是乳劑液滴上浮分層。\n📚 出處：Martin's Physical Pharmacy—Coacervation"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "2～500 nm",
     "1～5 µm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 膠體粒子的粒徑範圍約為 1 nm 至 500 nm（可放寬至 1 μm）。\n❌ (A) 小於 0.01 nm 已小於原子尺度。\n❌ (B) 0.01～0.5 nm 屬分子層級。\n❌ (D) 1～5 μm 已屬粗分散系。\n📚 出處：Martin's Physical Pharmacy—Colloids"
   },
   {
    "n": 13,
@@ -195,7 +207,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "Cl-",
     "gelatin A在pH=3"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 磺胺類粒子在水中帶負電，需帶正電的反離子才能凝絮；氯離子帶負電，無法作為凝絮劑。\n❌ (A) 鈣離子為二價陽離子，可凝絮。\n❌ (B) 鋁離子為三價陽離子，凝絮能力最強。\n❌ (D) pH 3 時 A 型明膠低於等電點而帶正電，可作為凝絮劑。\n📚 出處：Martin's Physical Pharmacy—Coarse Dispersions"
   },
   {
    "n": 15,
@@ -208,7 +221,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "pseudoplastic flow",
     "dilatant flow"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 需超過降伏值才開始流動、之後黏度隨剪應力下降，是塑性流體（如牙膏、軟膏）的特徵。\n❌ (A) 牛頓流體無降伏值且黏度固定。\n❌ (C) 假塑性流體沒有降伏值。\n❌ (D) 膨脹性流體的黏度隨剪應力上升而增加。\n📚 出處：Martin's Physical Pharmacy—Rheology"
   },
   {
    "n": 16,
@@ -221,7 +235,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "true density > granule density > bulk density",
     "true density > bulk density > granule density"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 真密度不含任何孔隙，顆粒密度含顆粒內孔隙，堆密度另含顆粒間空隙，故 true＞granule＞bulk。\n❌ (A) 順序完全顛倒。\n❌ (B) 堆密度不可能最大。\n❌ (D) 堆密度應為最小。\n📚 出處：Martin's Physical Pharmacy—Micromeritics"
   },
   {
    "n": 17,
@@ -234,7 +249,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "可可脂栓劑，適用於內痔治療製劑",
     "甘油明膠栓劑，適用於製作陰道製劑"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。栓劑除局部作用外，也廣泛用於全身性給藥（止痛、止吐、退燒、鎮靜）。\n❌ (A) 可用於肛門、陰道與尿道等體腔。\n❌ (C) 可可脂質地溫和，適合內痔製劑。\n❌ (D) 甘油明膠常用於陰道栓。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Suppositories"
   },
   {
    "n": 18,
@@ -247,7 +263,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "僅②④⑤",
     "①②④⑤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ①②④⑤。聚乙二醇類水溶性基劑不含水、可吸收水分、可用水洗除，且質地不油膩。\n❌ (A) 遺漏可水洗與不黏膩的特性。\n❌ (B) 誤含「不可吸水」。\n❌ (C) 遺漏「無水」這項特性。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Ointment Bases"
   },
   {
    "n": 19,
@@ -260,7 +277,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "單軟膏屬於吸收性軟膏基劑",
     "親水軟石蠟屬於吸收性軟膏基劑"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。單軟膏（simple ointment）為蜂蠟與植物油／凡士林組成的油脂性（烴基）基劑，不是吸收性基劑。\n❌ (A) 冷霜屬 W/O 型。\n❌ (B) 親水軟膏屬 O/W 型。\n❌ (D) 親水軟石蠟可吸水形成 W/O 乳劑，屬吸收性基劑。\n📚 出處：中華藥典—軟膏基劑分類"
   },
   {
    "n": 20,
@@ -273,7 +291,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "藥物於劑型內之溶解度",
     "皮膚厚度"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Fick 定律中通量與擴散路徑長度（皮膚厚度）成反比。\n❌ (A) 分配係數愈大穿透愈快，屬正比。\n❌ (B) 劑型內濃度愈高驅動力愈大，屬正比。\n❌ (C) 溶解度影響可用的濃度梯度，亦為正相關。\n📚 出處：Martin's Physical Pharmacy—Diffusion"
   },
   {
    "n": 21,
@@ -286,7 +305,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "甘油明膠",
     "聚乙二醇"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 半乳糖是單醣，不具在體溫熔化或吸水成膠的特性，不能作為栓劑基劑。\n❌ (A) 可可脂是最典型的脂肪性基劑。\n❌ (C) 甘油明膠為水溶性基劑。\n❌ (D) 聚乙二醇亦為常用的水溶性基劑。\n📚 出處：中華藥典—栓劑"
   },
   {
    "n": 22,
@@ -299,7 +319,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "paraffin oil",
     "stearic acid"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 單硬脂酸甘油酯是 W/O 型乳化劑，加入凡士林後可使其吸收較多水分（形成吸收性基劑）。\n❌ (A) 蜂蠟主要增加稠度，吸水能力有限。\n❌ (C) 石蠟油只會稀釋基劑。\n❌ (D) 硬脂酸須經皂化才具乳化力。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Ointment Bases"
   },
   {
    "n": 23,
@@ -312,7 +333,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "抗氧化劑",
     "防腐劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) azone（laurocapram）是經典的經皮吸收促進劑，可擾亂角質層脂質排列而增加穿透。\n❌ (B) 硬化劑為白蠟、十八醇等。\n❌ (C) 抗氧化劑如 BHA、BHT。\n❌ (D) 防腐劑如對羥苯甲酸酯類。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Transdermal"
   },
   {
    "n": 24,
@@ -325,7 +347,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "adhesive layer→drug reservoir→control membrane→backing layer",
     "protective peel strip→control membrane→ adhesive layer→drug reservoir"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 貼片自皮膚往外依序為黏著層、控釋膜、藥物貯庫、背襯層（保護膜在使用前撕除）。\n❌ (B) 未把黏著層放在最接近皮膚處。\n❌ (C) 藥物貯庫與控釋膜的順序顛倒。\n❌ (D) 保護膜是使用前撕除的最外層，不接觸皮膚。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Transdermal Systems"
   },
   {
    "n": 25,
@@ -338,7 +361,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "carboxymethyl cellulose",
     "hydroxyethyl cellulose"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 親水性基質錠以 HPMC 為主要控釋高分子，遇水膨潤形成凝膠層控制藥物釋放。\n❌ (A) 乙基纖維素不溶於水，屬疏水性阻滯材料。\n❌ (C) 羧甲基纖維素多作黏合與崩散劑。\n❌ (D) 羥乙基纖維素較少作為主要控釋基質。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Matrix Systems"
   },
   {
    "n": 26,
@@ -351,7 +375,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "崩散劑（disintegrants）",
     "潤滑劑（lubricants）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 咀嚼錠靠咀嚼破碎，本來就不需要在水中崩散，故不含崩散劑。\n❌ (A) 稀釋劑（甘露醇、山梨醇）是主體。\n❌ (B) 黏合劑仍需用以維持錠劑完整。\n❌ (D) 潤滑劑用於壓錠過程。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Chewable Tablets"
   },
   {
    "n": 27,
@@ -364,7 +389,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "hydroxypropyl methylcellulose phthalate",
     "shellac"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 羥丙基纖維素（HPC）在各 pH 下都溶於水，不具 pH 依賴性，無腸溶特性。\n❌ (A) CAP 是典型腸溶材料。\n❌ (C) HPMCP 亦為腸溶材料。\n❌ (D) 蟲膠為天然腸溶材料。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Enteric Coating"
   },
   {
    "n": 28,
@@ -377,7 +403,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "opaquant",
     "plasticizer"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 蓖麻油在膜衣配方中作為塑化劑，降低高分子的玻璃轉移溫度以增加膜的柔韌性。\n❌ (A) 成膜劑為 HPMC、乙基纖維素等高分子。\n❌ (B) 拋光劑為蠟類。\n❌ (C) 遮光劑為二氧化鈦。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Film Coating"
   },
   {
    "n": 29,
@@ -390,7 +417,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "class 3",
     "class 4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) BCS class 2 的定義即低溶解度、高滲透性，其吸收由溶離速率決定。\n❌ (A) class 1 為高溶解度、高滲透性。\n❌ (C) class 3 為高溶解度、低滲透性。\n❌ (D) class 4 為低溶解度、低滲透性。\n📚 出處：FDA BCS Guidance"
   },
   {
    "n": 30,
@@ -403,7 +431,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "排除或吸收速率適中者",
     "臨床使用於急性症狀者"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 急性症狀需要迅速達到有效濃度，緩釋劑型起效慢，並不適用。\n❌ (A) 劑量適中正是可製成緩釋劑型的條件。\n❌ (B) 作用機轉與是否適合緩釋無直接關係。\n❌ (C) 吸收與排除速率適中者最適合製成緩釋劑型。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Modified-Release"
   },
   {
    "n": 31,
@@ -416,7 +445,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "citric acid",
     "tannic acid"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 單寧酸（tannic acid）可與生物鹼類藥物形成難溶的鞣酸鹽複合體，依腸胃道 pH 緩慢解離釋藥。\n❌ (A) 琥珀酸不形成此類緩釋複合體。\n❌ (B) 酒石酸多作為酸味劑與發泡成分。\n❌ (C) 檸檬酸同樣不作此用途。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Modified-Release"
   },
   {
    "n": 32,
@@ -429,7 +459,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "Coulter Counter主要係用以測定volume diameter",
     "顯微鏡主要係用以測定projected area diameter"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選不恰當者。標準篩測得的是粒子能否通過網目，屬「篩徑（sieve diameter）」，不是表面積徑。\n❌ (B) Andreasen 裝置依沉降原理測 Stokes 徑。\n❌ (C) Coulter Counter 依電阻變化測體積徑。\n❌ (D) 顯微鏡測的是投影面積徑。\n📚 出處：Martin's Physical Pharmacy—Micromeritics"
   },
   {
    "n": 33,
@@ -442,7 +473,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "以微波乾燥顆粒",
     "可用於藥物之包衣"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 噴霧乾燥（含流體化床噴霧）可將包衣液霧化噴於藥物粒子表面並同時乾燥，用於微粒包衣。\n❌ (A) 油壓滾輪混合屬滾壓造粒。\n❌ (B) 乾式黏合劑造粒是乾式製粒。\n❌ (C) 微波乾燥是另一種乾燥技術。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Drying & Coating"
   },
   {
    "n": 34,
@@ -455,7 +487,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "體外溶離速率",
     "口服吸收速率"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 安定型（晶型 I）的晶格能最高，故熔點最高；其溶解度、溶離速率與吸收速率反而低於次安定型。\n❌ (A) 安定型的溶解度較低。\n❌ (C) 溶離速率較慢。\n❌ (D) 口服吸收速率亦較慢。\n📚 出處：Martin's Physical Pharmacy—Polymorphism"
   },
   {
    "n": 35,
@@ -468,7 +501,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "溶離試驗之時程，依各品目之規定而異",
     "軟膠囊劑通常只允許填充液體溶液"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 溶離試驗的取樣時間點與判定標準依各品目的專論規定而異。\n❌ (A) 主成分含量必須標示。\n❌ (B) 硬、軟膠囊的崩散試驗使用相同裝置與規範。\n❌ (D) 軟膠囊也可填充懸液、糊狀物與半固體。\n📚 出處：中華藥典—膠囊劑；溶離度試驗法"
   },
   {
    "n": 36,
@@ -481,7 +515,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "易溶解於水",
     "易軟化成膜"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 塑化劑降低高分子的玻璃轉移溫度，使膜衣在乾燥過程中易軟化成連續、柔韌的膜而不龜裂。\n❌ (A) 它不是為了加速乾燥。\n❌ (B) 貼附性主要由成膜劑與界面性質決定。\n❌ (C) 塑化劑不是為了提高水溶性。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Film Coating"
   },
   {
    "n": 37,
@@ -494,7 +529,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "適合各種石油類產品（petroleum），如石蠟（petrolatum）的滅菌",
     "在同樣的溫度下，滅菌的時間較濕熱滅菌為短"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 石油類、油脂、粉末等蒸氣無法穿透的物質，正是乾熱滅菌的適用對象。\n❌ (A) 相同溫度下濕熱的滅菌效率高於乾熱。\n❌ (B) 常用乾熱滅菌溫度為 160～180°C。\n❌ (D) 乾熱所需時間比濕熱長得多。\n📚 出處：中華藥典—滅菌法"
   },
   {
    "n": 38,
@@ -507,7 +543,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "皮內注射",
     "超過1公升之容量注射劑，且一次用量超過20毫升以上者"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 藥典規定供靜脈或脊椎內注射者，除另有規定外應使用單劑量容器，以避免防腐劑與污染風險。\n❌ (B) 皮下注射可用多劑量容器（如胰島素）。\n❌ (C) 皮內注射亦可用多劑量容器。\n❌ (D) 大容量輸液本即單次使用，非本題所指的規範重點。\n📚 出處：中華藥典—注射劑總則"
   },
   {
    "n": 39,
@@ -520,7 +557,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "調節等張性的附加物",
     "溶劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 藥典正文未載明完整配方時，標籤應標示各「藥品」成分的使用量或含量百分比。\n❌ (B) 調 pH 的附加物僅需列名。\n❌ (C) 調張力的附加物同樣只需列名。\n❌ (D) 溶劑僅需標示種類。\n📚 出處：中華藥典—注射劑之標誌"
   },
   {
    "n": 40,
@@ -534,7 +572,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "3,000"
    ],
    "void": true,
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 鏡檢微粒測計法中，容量 100 mL 以下的注射劑每容器 ≥25 μm 的微粒不得超過 30 個（≥10 μm 者不得超過 3,000 個）。\n❌ (B) 60 個不是規定值。\n❌ (C) 600 個為誤記。\n❌ (D) 3,000 個是 ≥10 μm 的限值。\n📚 出處：中華藥典—注射劑微粒物質檢查法"
   },
   {
    "n": 41,
@@ -547,7 +586,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "冷凍貯存",
     "30℃貯存"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 未開封的胰島素製劑應冷藏（2～8°C）保存，可維持至標示的有效期限。\n❌ (A) 室溫僅適用於使用中的胰島素，且期限有限。\n❌ (C) 冷凍會破壞蛋白質結構使其失效。\n❌ (D) 30°C 會加速降解。\n📚 出處：藥品仿單；Applied Therapeutics—Insulin Storage"
   },
   {
    "n": 42,
@@ -560,7 +600,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "反義（antisense）藥物之主要作用機轉為促進細胞合成更多所需之標的蛋白質",
     "對同一抗體而言，其Sfv片段一般都會比Fab'片段大"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 重組 DNA 技術把目標基因送入宿主細胞表現，是胰島素、生長激素等蛋白質藥物的生產基礎。\n❌ (B) 分泌抗體的是 B 淋巴球分化而成的漿細胞。\n❌ (C) 反義藥物是與 mRNA 結合「阻斷」蛋白質合成。\n❌ (D) scFv 只含可變區，分子量小於含恆定區部分的 Fab'。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Biotechnology"
   },
   {
    "n": 43,
@@ -573,7 +614,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "iron",
     "calcium"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 鐵劑會破壞脂肪乳劑的安定性並催化氧化反應，一般不建議加入 TPN。\n❌ (A) 鈉是 TPN 的常規電解質。\n❌ (B) 鎂為常規添加的電解質。\n❌ (D) 鈣為常規添加（惟須注意與磷的相容性）。\n📚 出處：ASPEN 靜脈營養指引"
   },
   {
    "n": 44,
@@ -586,7 +628,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "葡萄糖注射液",
     "氯化鈉注射液"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「無菌純淨水」是製藥用水，非注射用等級（內毒素未受控），不可用於注射。\n❌ (B) 無菌注射用水是標準的回溶溶劑。\n❌ (C) 葡萄糖注射液可作回溶或稀釋用。\n❌ (D) 氯化鈉注射液同樣可用。\n📚 出處：中華藥典—製藥用水"
   },
   {
    "n": 45,
@@ -599,7 +642,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "sodium lauryl sulfate",
     "egg yolk phospholipids"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 蛋黃卵磷脂（egg yolk phospholipids）是靜脈脂肪乳劑唯一常用且安全的乳化劑。\n❌ (A) 阿拉伯膠僅供口服。\n❌ (B) Tween 80 靜脈使用會造成過敏與溶血。\n❌ (C) 十二烷基硫酸鈉具強溶血性，僅供外用。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Parenteral Emulsions"
   },
   {
    "n": 46,
@@ -612,7 +656,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "7.4",
     "8"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) pilocarpine 在中性或鹼性下易水解（內酯環開環）失效，眼用溶液須調至酸性（pH 約 4～5.5）以維持安定。\n❌ (B) pH 6 的安定性已下降。\n❌ (C) pH 7.4 雖最舒適，但藥物迅速降解。\n❌ (D) pH 8 更不安定。\n📚 出處：中華藥典—毛果芸香鹼眼用溶液"
   },
   {
    "n": 47,
@@ -625,7 +670,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "硫醇乙酸鹽培養基（fluid thioglycollate medium）",
     "大豆分解蛋白質─乾酪素培養基（soybean-casein digest medium）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 藥典的無菌試驗以大豆分解蛋白質−乾酪素培養基（SCDM）培養黴菌與需氧菌，硫醇乙酸鹽培養基則用於厭氧菌。\n❌ (A) 馬鈴薯葡萄糖瓊脂用於黴菌鑑定，非藥典無菌試驗指定。\n❌ (B) 甘露糖醇鹽瓊脂用於葡萄球菌的選擇性培養。\n❌ (C) 硫醇乙酸鹽培養基用於厭氧與微好氧菌。\n📚 出處：中華藥典—無菌試驗法"
   },
   {
    "n": 48,
@@ -638,7 +684,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "放射滅菌法",
     "乾熱滅菌法"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 放射滅菌需要鈷 60 射源、厚重屏蔽與嚴格輻射安全管理，設備與營運成本最高。\n❌ (A) 高壓蒸氣滅菌設備普及、成本低。\n❌ (B) 氣體滅菌的成本中等。\n❌ (D) 乾熱滅菌設備簡單、成本低。\n📚 出處：中華藥典—滅菌法"
   },
   {
    "n": 49,
@@ -679,7 +726,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "0.52",
     "0.26"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) k＝(ln40−ln14)／(5−3)＝(3.68−2.64)/2＝0.52 h⁻¹；t½＝0.693／0.52≒1.33 小時。\n❌ (A) 2.66 小時約為正確值的兩倍。\n❌ (C) 0.52 是排除速率常數而非半衰期。\n❌ (D) 0.26 小時明顯過短。\n📚 出處：Shargel, One-Compartment Model"
   },
   {
    "n": 52,
@@ -692,7 +740,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "26",
     "35"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Cl＝R／Css＝4／2＝2 L/h；k＝0.693/3＝0.231 h⁻¹；V＝Cl/k＝8.66 L；速效劑量＝Css×V＝2×8.66≒17.3 mg。\n❌ (A) 8.7 mg 只有一半。\n❌ (C) 26 mg 高於計算值。\n❌ (D) 35 mg 約為正確值的兩倍。\n📚 出處：Shargel, Loading Dose"
   },
   {
    "n": 53,
@@ -705,7 +754,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "40",
     "400"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 7 小時剩 25% 表示經 2 個半衰期，t½＝3.5 h、k＝0.198 h⁻¹；Cl＝k·V＝3.96 L/h；R＝Css×Cl＝10 mg/L×3.96≒40 mg/h。\n❌ (A) 0.4 mg/h 少了兩個數量級。\n❌ (B) 4 mg/h 少了一個數量級。\n❌ (D) 400 mg/h 高出十倍。\n📚 出處：Shargel, Intravenous Infusion"
   },
   {
    "n": 54,
@@ -718,7 +768,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "V 值的大小，可做為藥物是否分布於血管外組織的指標D",
     "藥物之V 是一常數，並不會因疾病狀況而改變D"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 分布體積遠大於體液總量（約 42 L）時，代表藥物大量分布到血管外組織，是判斷分布廣度的指標。\n❌ (A) 它必須由劑量與血中濃度計算求得。\n❌ (B) 一室模式即可計算，不需先確定分室數。\n❌ (D) 它會隨脫水、水腫、低白蛋白血症等病況改變。\n📚 出處：Shargel, Volume of Distribution"
   },
   {
    "n": 55,
@@ -731,7 +782,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "metoclopramide",
     "propantheline"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) metoclopramide 促進胃腸蠕動、加速胃排空，是研究胃排空影響的標準工具藥。\n❌ (A) 三環抗鬱劑具抗膽鹼作用，延緩胃排空。\n❌ (B) cholestyramine 是吸附劑，不影響蠕動。\n❌ (D) propantheline 為抗膽鹼藥，延緩胃排空。\n📚 出處：Shargel, Physiologic Factors in Drug Absorption"
   },
   {
    "n": 56,
@@ -759,7 +811,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "21.16",
     "26.52"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 排除速率＝k×體內藥量＝(0.693/3)×50＝0.231×50≒11.55 mg/h。\n❌ (B) 16.67 mg/h 未正確代入半衰期。\n❌ (C) 21.16 mg/h 不符計算。\n❌ (D) 26.52 mg/h 高估。\n📚 出處：Shargel, First-Order Elimination"
   },
   {
    "n": 58,
@@ -785,7 +838,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "50",
     "75"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) V＝1.5×56＝84 L，k＝0.693/8＝0.0866 h⁻¹，Cl＝7.28 L/h；Css＝R／Cl＝145／7.28≒20 mg/L。\n❌ (A) 10 mg/L 為清除率取錯的結果。\n❌ (C) 50 mg/L 明顯高估。\n❌ (D) 75 mg/L 更不符。\n📚 出處：Shargel, Intravenous Infusion"
   },
   {
    "n": 60,
@@ -811,7 +865,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "①③",
     "②④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ①③。BCS 生體相等性豁免適用於 class 1 藥品，且速放劑型須在 30 分鐘內溶離達 85% 以上。\n❌ (A) Caco-2 的穿透判定標準並非「至少 90%」這個數字條件。\n❌ (B) 誤含 Caco-2 條件。\n❌ (D) rule of five 是藥物設計的經驗法則，與豁免條件無關。\n📚 出處：FDA BCS-Based Biowaiver Guidance"
   },
   {
    "n": 62,
@@ -824,7 +879,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "renal excretion rate constant",
     "time for maximum urinary excretion"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腎排除速率常數反映的是排除過程，不是評估吸收量或速率的生體可用率指標。\n❌ (A) Cmax 是評估吸收速率的核心參數。\n❌ (B) 最大藥效反應可作為藥效學指標。\n❌ (D) 尿中最大排泄的時間點可對應吸收速率。\n📚 出處：Shargel, Bioavailability & Bioequivalence"
   },
   {
    "n": 63,
@@ -837,7 +893,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "飯後服用",
     "不受食物影響"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Theo-24 與高脂餐併服會造成劑量傾倒（dose dumping），仿單建議空腹（餐前 1 小時或餐後 2 小時）服用。\n❌ (B) 餐間服用仍可能接近進食時間。\n❌ (C) 飯後服用正是造成劑量傾倒的情況。\n❌ (D) 它明確受食物影響。\n📚 出處：藥品仿單；Shargel, Food Effects"
   },
   {
    "n": 64,
@@ -850,7 +907,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "propranolol：首渡效應達75%",
     "rifampin：高溶解度的藥物"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。rifampin 的口服生體可用率其實良好，且它並非因「高溶解度」而生體可用率不佳。\n❌ (A) cyclosporine 屬低溶解度藥物，需特殊製劑技術。\n❌ (B) didanosine 在胃酸中降解，需製成緩衝或腸溶劑型。\n❌ (C) propranolol 的首渡效應可達 75%。\n📚 出處：Shargel, Biopharmaceutic Considerations"
   },
   {
    "n": 65,
@@ -863,7 +921,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "藥效學參數",
     "臨床試驗的結果"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 臨床療效終點受疾病嚴重度、安慰劑效應與個體差異影響，靈敏度與準確性最差。\n❌ (A) 血漿濃度是最直接、最靈敏的指標。\n❌ (B) 尿中排泄量次之，仍屬客觀量測。\n❌ (C) 藥效學參數的靈敏度優於臨床終點。\n📚 出處：Shargel, Bioavailability Methods"
   },
   {
    "n": 66,
@@ -876,7 +935,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "三角形",
     "正方形"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 橢圓形（膠囊型）錠劑沒有稜角、長軸方向易順著食道滑下，大劑量錠劑最易吞嚥。\n❌ (A) 同體積下圓形錠的直徑最大，較難吞。\n❌ (C) 三角形有稜角，容易刮傷食道。\n❌ (D) 正方形同樣有稜角且不利吞嚥。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Tablets"
   },
   {
    "n": 67,
@@ -889,7 +949,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "不純物含量",
     "總表面積"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 微量不純物通常不改變藥物本身的溶解與擴散行為，對溶離釋放速率的影響最小。\n❌ (A) 顆粒大小直接決定表面積與溶離速率。\n❌ (B) 不同晶型的溶解度與溶離速率差異可達數倍。\n❌ (D) 總表面積是 Noyes-Whitney 方程式的關鍵項。\n📚 出處：Martin's Physical Pharmacy—Dissolution"
   },
   {
    "n": 68,
@@ -902,7 +963,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "分布",
     "吸收"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 分布發生在藥物「進入」全身循環之後，不屬於進入循環的速率決定步驟。\n❌ (A) 崩散是固體劑型釋藥的第一步。\n❌ (B) 溶離常是速率限制步驟。\n❌ (D) 跨腸黏膜的吸收亦為必經步驟。\n📚 出處：Shargel, Biopharmaceutics"
   },
   {
    "n": 69,
@@ -915,7 +977,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "5～10",
     "1～4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) vancomycin 的目標峰濃度約為 20～40 μg/mL（谷濃度 10～20 μg/mL）。\n❌ (A) 50～100 μg/mL 已屬中毒範圍。\n❌ (C) 5～10 μg/mL 濃度不足。\n❌ (D) 1～4 μg/mL 遠低於治療需求。\n📚 出處：Applied Therapeutics—Vancomycin Monitoring"
   },
   {
    "n": 70,
@@ -928,7 +991,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "33%及67%",
     "18%及82%"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Css＝0.1 時，CYP2D6 速率＝10×0.1／(1＋0.1)＝0.91；CYP3A4＝100×0.1／(50＋0.1)＝0.20；佔比約 82% 與 18%。\n❌ (B) 67%／33% 不符計算。\n❌ (C) 把兩者比例對調。\n❌ (D) 低濃度時親和力高（KM 小）的 2D6 才是主要途徑。\n📚 出處：Shargel, Nonlinear Pharmacokinetics"
   },
   {
    "n": 71,
@@ -941,7 +1005,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "8.4",
     "10.75"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) V＝Vmax·C／(KM＋C)＝12.8×525／(100＋525)＝12.8×0.84≒10.75 mL/h。\n❌ (A) 0.025 的數量級完全錯誤。\n❌ (B) 0.032 同樣不符。\n❌ (C) 8.4 為未乘上 Vmax 的中間值誤用。\n📚 出處：Shargel, Nonlinear Pharmacokinetics"
   },
   {
    "n": 72,
@@ -954,7 +1019,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "300",
     "400"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 透析清除率＝Q×(Cin−Cout)／Cin＝400×(30−12)／30＝400×0.6＝240 mL/min。\n❌ (A) 180 mL/min 為比例計算錯誤。\n❌ (C) 300 mL/min 高估萃取率。\n❌ (D) 400 mL/min 是血流量本身。\n📚 出處：Shargel, Hemodialysis"
   },
   {
    "n": 73,
@@ -967,7 +1033,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "調整後peak濃度增加，trough濃度減少",
     "調整後peak與trough濃度皆增加"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 改為單一日劑量後，單次劑量變大使峰濃度上升；給藥間隔拉長讓藥物有更多時間排除，谷濃度下降。這正是胺基醣苷單日給藥的設計理念。\n❌ (A) 兩者都會改變。\n❌ (B) 變化方向相反。\n❌ (D) 谷濃度會下降而非上升。\n📚 出處：Applied Therapeutics—Aminoglycoside Dosing"
   },
   {
    "n": 74,
@@ -995,7 +1062,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "腎絲球過濾速率（glomerular filtration rate；GFR）與年紀無關",
     "腎絲球過濾速率（glomerular filtration rate；GFR）等於藥物在腎臟的清除率（renal clearance）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肌酸酐除腎絲球過濾外還有部分腎小管分泌，故其清除率略高於只被過濾的菊糖清除率。\n❌ (B) 肌酸酐生成量與肌肉量（體重）相關，公式中必須納入體重。\n❌ (C) 腎絲球過濾率隨年齡增長而下降。\n❌ (D) 藥物的腎清除率還包含分泌與再吸收，不等於 GFR。\n📚 出處：Shargel, Renal Clearance"
   },
   {
    "n": 76,
@@ -1008,7 +1076,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "飽和性代謝（saturable metabolism）",
     "飽和性蛋白質結合（saturable plasma protein binding）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 被動擴散沒有載體或酵素參與，不會飽和，濃度再高仍維持線性關係。\n❌ (A) 腎小管主動分泌有載體，可被飽和。\n❌ (C) 酵素代謝飽和是非線性動力學最常見的原因。\n❌ (D) 血漿蛋白結合位有限，高濃度時會飽和。\n📚 出處：Shargel, Nonlinear Pharmacokinetics"
   },
   {
    "n": 77,
@@ -1024,7 +1093,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
    "a": 0,
    "alt": [
     2
-   ]
+   ],
+   "exp": "✅ (A) 透析 4 小時（t½＝8 h）共排除 1−2^(−0.5)＝29.3%；若不透析，同樣 4 小時（t½＝48 h）僅排除 5.6%；透析所貢獻的比例＝(0.293−0.056)／0.293≒0.83。\n❌ (B) 0.5 低估透析的貢獻。\n❌ (C) 0.25 更低。\n❌ (D) 0.05 只是非透析途徑的排除量。\n📚 出處：Shargel, Hemodialysis & Drug Removal"
   },
   {
    "n": 78,
@@ -1037,7 +1107,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "phenotype polymorphism",
     "wild type gene"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 同一基因座上不同版本的基因序列稱為「對偶基因（allele）」，以 *1、*2、*3 等星號命名法標示。\n❌ (A) SNP 指單一核苷酸的變異位點，一個 allele 可能含多個 SNP。\n❌ (C) 表現型多型性描述的是代謝能力的分群。\n❌ (D) 只有 *1 才是野生型。\n📚 出處：Shargel, Pharmacogenetics"
   },
   {
    "n": 79,
@@ -1050,7 +1121,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "12",
     "16"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) k＝0.693/10＝0.0693 h⁻¹；濃度自 30 降到 10 mg/L 需 ln(3)／0.0693＝1.099／0.0693≒15.9 小時，約 16 小時。\n❌ (A) 6 小時濃度僅降到約 20 mg/L。\n❌ (B) 8 小時約降到 17 mg/L。\n❌ (C) 12 小時約降到 13 mg/L。\n📚 出處：Shargel, Multiple-Dosage Regimens"
   },
   {
    "n": 80,
@@ -1063,7 +1135,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "770",
     "670"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) V＝Cl／k＝(50 mL/min×60/1000)／0.0693＝3／0.0693≒43.3 L；劑量＝(Cmax−Cmin)×V＝(30−10)×43.3≒866 mg，約 870 mg。\n❌ (A) 970 mg 高於計算值。\n❌ (C) 770 mg 低於計算值。\n❌ (D) 670 mg 明顯偏低。\n📚 出處：Shargel, Multiple-Dosage Regimens"
   }
  ]
 };
