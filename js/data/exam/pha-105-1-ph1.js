@@ -732,7 +732,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_51.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 β-funaltrexamine（β-FNA）：naltrexone 骨架 6 位接上反式富馬酸甲酯，該 α,β-不飽和酯是 Michael 受體，可與 μ 受體上的親核基共價結合，屬親和標記劑。\n❌ (A) 為 naltrexone，只是可逆的競爭性拮抗劑。\n❌ (C) 為 naltrindole，選擇性 δ 拮抗劑，仍屬可逆結合。\n❌ (D) 為 norbinaltorphimine，κ 選擇性拮抗劑，亦為可逆結合。\n📚 出處：Foye's—阿片受體的親和標記劑"
   },
   {
    "n": 52,
@@ -747,7 +748,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_52.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) baclofen 為 4-胺基-3-(4-氯苯基)丁酸，苯環對位帶氯、β 碳接 CH2NH2、再連 CH2COOH，是 GABA 的類似物。\n❌ (A) 側鏈少一個亞甲基，成為 β-胺基酸而非 GABA 類似物。\n❌ (B) 氯取代在間位，且碳鏈長度不符。\n❌ (D) α 碳被甲基取代，並非 baclofen。\n📚 出處：Foye's—GABA-B 促效劑"
   },
   {
    "n": 53,
@@ -762,7 +764,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_53.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) desflurane 為 CF3-CHF-O-CHF2，全分子只含氟不含氯，血／氣分配係數極低而甦醒快。\n❌ (A) 為 halothane，含溴與氯的鹵烷。\n❌ (B) 為 enflurane，甲基端帶氯。\n❌ (C) 為 isoflurane，中間碳帶氯，是 desflurane 的氯類似物。\n📚 出處：Foye's—吸入性全身麻醉劑"
   },
   {
    "n": 54,
@@ -804,7 +807,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_56.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) triflusal 為 2-乙醯氧基-4-三氟甲基苯甲酸，即 aspirin 的 4 位三氟甲基衍生物。\n❌ (A) 三氟甲基位在 3 位。\n❌ (C) 三氟甲基位在 5 位。\n❌ (D) 三氟甲基位在 6 位，且乙醯氧基位置亦不符。\n📚 出處：Foye's—水楊酸類抗血小板藥"
   },
   {
    "n": 57,
@@ -945,7 +949,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_66.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 乙醯基仍未水解、苯環上卻多出一個羥基，這種結構並不會由 aspirin 生成，故不是其代謝物。\n❌ (B) 為 salicylic acid，是 aspirin 水解後的主要代謝物。\n❌ (C) 為與甘胺酸接合的 salicyluric acid，是主要排泄形式。\n❌ (D) 為葡萄糖醛酸接合物，同屬第二相代謝產物。\n📚 出處：Foye's—水楊酸的代謝途徑"
   },
   {
    "n": 67,
@@ -960,7 +965,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_67.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) loratadine 的胺甲酸乙酯被水解與去羧後生成 desloratadine（哌啶氮為游離 NH），抗組織胺活性更強且已單獨上市。\n❌ (A) 為 ebastine 類的酮型結構，與 loratadine 無關。\n❌ (B) 為該系列的羧酸代謝物，母藥不同。\n❌ (C) 仍保有乙氧羰基，只是環上多一個羥基，非主要代謝物。\n📚 出處：Foye's—第二代抗組織胺的代謝"
   },
   {
    "n": 68,
@@ -975,7 +981,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_11_68.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 misoprostol：羧酸做成甲酯、C15 羥基移到 C16 並加上甲基，可抵抗 15-羥基前列腺素脫氫酶的代謝，因而能口服。\n❌ (A) 為 PGE1（alprostadil），須靜脈或海綿體注射。\n❌ (B) 為 PGF2α（dinoprost），口服會迅速失活。\n❌ (C) 為 PGE2（dinoprostone），臨床採陰道給藥。\n📚 出處：Foye's—前列腺素類似物的構效設計"
   },
   {
    "n": 69,
