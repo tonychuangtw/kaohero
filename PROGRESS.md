@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115 年已完成（1,327／1,345＝98.7%）。**現在做 114 年**（43 卷 1,220 題，已寫約 800）。高考 g 系列已全部做完；**下一步接著做普考這幾卷**：`gao-114-1-p010`（國籍與戶政法規概要 25）、`p012`（民法概要 25）、`p013`（稅務法規概要 25）、`p016`（經濟學概要 50）、`p017`（政府會計概要 20）、`p020`（衛生行政學概要 25）、`p021`（圖書資訊學概要 25）、`p023`（計算機概要電子工程組 40）、`p025`（動物解剖生理學概要 50）、`p027`（計算機概要資訊處理組 40）、`p029`（會計法規概要 20）、`p030`（經濟學與財政學概要 50）。114 做完接著 113、112…一路往前到 102。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。同年度不同類科常有整卷重複，先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");`）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115 年已完成（1,327／1,345＝98.7%）、114 年已完成（1,184／1,220＝97.0%）。**現在做 113 年**（43 卷 1,220 題，只寫了 110）。每年結構都一樣：高考 g 系列 20 卷、普考 p 系列 23 卷；**同年度有幾組整卷重複，先做來源卷再套用**：`g004`→`g017`（行政法，22 題重複）、`g006`→`g027`／`g029`（民法，25／16 題）、`g008`→`g026`（財政學，25 題）、`p015`→`p028`（會計學概要，20 題）。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。113 做完接著 112、111…一路往前到 102。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 台北（114 年進行中）
+UPDATED: 2026-09-11 台北（115、114 年完成，113 年進行中）
 
 ---
 
