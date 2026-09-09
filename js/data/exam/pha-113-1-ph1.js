@@ -251,7 +251,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_305_11_17.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ①hydralazine、②methyldopa 與③amlodipine（或 nifedipine）都是妊娠期可用的降壓藥，安全性資料充分。\n❌ (B) ⑤propranolol 雖非絕對禁忌但可能造成胎兒生長遲滯，⑥losartan 屬 ARB 為妊娠禁忌。\n❌ (C) ④aliskiren 作用於腎素系統，妊娠禁用。\n❌ (D) 同樣誤含 aliskiren 與 propranolol。\n📚 出處：妊娠高血壓的用藥選擇"
   },
   {
    "n": 18,
@@ -841,7 +842,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_305_11_59.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) digoxin 屬強心苷（cardenolide），C-17 位接的是 α,β-不飽和的五員內酯（丁烯內酯），此不飽和內酯是抑制鈉鉀幫浦的必要基團。\n❌ (A) 為飽和的五員內酯，失去雙鍵會大幅降低活性。\n❌ (C) 為六員的雙不飽和內酯，屬蟾蜍毒配基（bufadienolide）。\n❌ (D) 為六員單不飽和內酯，同樣不是 cardenolide 的取代基。\n📚 出處：Foye's—強心苷的構效關係"
   },
   {
    "n": 60,
@@ -856,7 +858,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_305_11_60.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 粗體標示的是高精胺酸的胍基、甘胺酸與天門冬胺酸羧基所組成的 KGD／RGD 模擬序列，正是與血小板 GPIIb/IIIa 受體結合的藥效基團。\n❌ (B) 粗體落在色胺酸側鏈附近，只影響結合口袋的填充。\n❌ (C) 粗體標的是脯胺酸與色胺酸片段，屬構型支撐。\n❌ (D) 粗體是環化的雙硫鍵與骨架部分，維持構型而非直接結合受體。\n📚 出處：GPIIb/IIIa 拮抗劑的設計"
   },
   {
    "n": 61,

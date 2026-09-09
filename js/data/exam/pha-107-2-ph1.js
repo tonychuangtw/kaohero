@@ -830,7 +830,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107100_305_11_58.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 已失去整條二甲胺乙氧基側鏈而成二酚，這需要醚鍵斷裂，並非 CYP3A4/5 或 CYP2D6 的代謝產物。\n❌ (A) 為 CYP3A4/5 生成的 N-desmethyltamoxifen。\n❌ (B) 為 endoxifen（4-羥基-N-去甲基），由兩種酵素接力生成。\n❌ (C) 為 CYP2D6 生成的 4-hydroxytamoxifen，抗雌激素活性最強。\n📚 出處：Foye's—Tamoxifen 的代謝活化"
   },
   {
    "n": 59,
@@ -928,7 +929,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107100_305_11_65.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 droperidol，屬丁醯苯類的強力鎮靜藥；與 fentanyl 併用即所謂神經安定鎮痛（neuroleptanalgesia），常作麻醉前給藥。\n❌ (B) 為 chlorpromazine，一般不與 fentanyl 搭配作此用途。\n❌ (C) 為 clozapine，用於難治型思覺失調症。\n❌ (D) 為 thiothixene，屬口服抗精神病藥。\n📚 出處：Foye's—丁醯苯類與神經安定鎮痛"
   },
   {
    "n": 66,
@@ -1095,7 +1097,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107100_305_11_77.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 sitagliptin：β-胺基醯胺接三唑并吡嗪並帶三氟甲基，抑制 DPP-IV 而延長 GLP-1 的作用。\n❌ (B) 為 rosiglitazone，屬 PPAR-γ 促效劑。\n❌ (C) 為 phenformin，屬雙胍類（已下市）。\n❌ (D) 為 chlorpropamide，屬磺醯脲類。\n📚 出處：Foye's—口服降血糖藥的分類"
   },
   {
    "n": 78,
