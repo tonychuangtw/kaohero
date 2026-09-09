@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "靜脈輸注給藥之速率等於CL與穩定狀態藥物濃度之乘積",
     "藥物之半衰期（t1/2）等於穩定狀態分布容積與CL之乘積"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。半衰期＝0.693×Vss／CL，是分布容積「除以」清除率，不是相乘。\n❌ (A) 清除速率＝CL×C，敘述正確。\n❌ (B) 全身清除率為各器官清除率之總和，敘述正確。\n❌ (C) 穩定狀態時輸注速率＝CL×Css，敘述正確。\n📚 出處：Shargel, Clearance"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "完全留在血管內的藥物具有極小的Vd",
     "由藥物作用在標的器官之血中濃度與其Vd值的乘積可推算藥物之負載劑量"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。與組織高度結合的藥物（如 digoxin、chloroquine）分布容積可遠大於全身體液量。\n❌ (A) Vd＝體內藥量／血中濃度，定義正確。\n❌ (C) 完全留在血管內者 Vd 約等於血漿容積，很小。\n❌ (D) 負荷劑量＝目標濃度×Vd，敘述正確。\n📚 出處：Shargel, Volume of Distribution"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Gentamicin",
     "Ticarcillin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ciprofloxacin 抑制 DNA 迴旋酶（拓樸異構酶 II），且是喹諾酮中對綠膿桿菌活性最強者。\n❌ (A) aztreonam 抑制細胞壁合成。\n❌ (C) gentamicin 作用於 30S 核糖體。\n❌ (D) ticarcillin 抑制細胞壁合成。\n📚 出處：Katzung, Fluoroquinolones"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Nafcillin",
     "Cefazolin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) neomycin 的腎毒性與耳毒性在胺基醣苷類中最強，只能局部或口服（不吸收）使用。\n❌ (A) gentamicin 雖有腎毒性，仍可監測濃度後注射使用。\n❌ (C) nafcillin 主要經膽汁排除，腎毒性低。\n❌ (D) cefazolin 腎毒性低，常用於注射。\n📚 出處：Katzung, Aminoglycosides"
   },
   {
    "n": 5,
@@ -94,7 +98,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Erythropoietin受體作用劑",
     "促進heme之生合成"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) oprelvekin 是重組介白素十一，活化 IL-11 受體以刺激巨核細胞增生，提升血小板數。\n❌ (A) 刺激 G-CSF 受體的是 filgrastim。\n❌ (C) 作用於紅血球生成素受體的是 epoetin。\n❌ (D) 它不參與血基質的生合成。\n📚 出處：Katzung, Hematopoietic Growth Factors"
   },
   {
    "n": 7,
@@ -107,7 +112,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "與fibrates併服會產生肌病（myopathy）",
     "併用barbiturates會改變代謝"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。statin 是「高膽固醇（LDL）」血症的首選；高三酸甘油脂首選是 fibrate 或菸鹼酸。\n❌ (A) rosuvastatin 半衰期約 19 小時，確實較長。\n❌ (C) 與 fibrate 併用會提高肌病與橫紋肌溶解風險。\n❌ (D) barbiturate 誘導 CYP3A4，會改變 statin 的代謝。\n📚 出處：Katzung, Agents Used in Dyslipidemia"
   },
   {
    "n": 8,
@@ -120,7 +126,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "血小板減少症",
     "骨質疏鬆症"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肝素會活化脂蛋白脂解酶，反而使血中三酸甘油脂「下降」，不會造成血脂過多。\n❌ (A) 長期使用可能出現肝功能指數上升。\n❌ (C) 肝素引起的血小板低下是重要副作用。\n❌ (D) 長期使用會導致骨質疏鬆。\n📚 出處：Katzung, Anticoagulant Drugs"
   },
   {
    "n": 9,
@@ -136,7 +143,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    "a": 0,
    "alt": [
     1
-   ]
+   ],
+   "exp": "✅ (A) fludrocortisone 的礦物性皮質素活性極強，用於愛迪生氏症補充醛固酮的不足。\n❌ (B) 先天性腎上腺增生主要補充的是糖皮質素（雖部分型別也需之，但典型適應症為愛迪生氏症）。\n❌ (C) 血管加壓素缺乏應給 desmopressin。\n❌ (D) 酮酸中毒須給胰島素與輸液。\n📚 出處：Katzung, Adrenocorticosteroids"
   },
   {
    "n": 10,
@@ -149,7 +157,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Fludrocortisone",
     "Betamethasone"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) betamethasone 能通過胎盤且不易被胎盤 11β-HSD2 去活化，是促進胎兒肺部表面張力素成熟的首選。\n❌ (A) hydrocortisone 會被胎盤大量去活化。\n❌ (B) prednisolone 同樣難以有效通過胎盤。\n❌ (C) fludrocortisone 以礦物性作用為主。\n📚 出處：Applied Therapeutics—Preterm Labor"
   },
   {
    "n": 11,
@@ -162,7 +171,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Tolbutamide",
     "Repaglinide"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 酮酸中毒須用短效（regular）胰島素靜脈輸注，起效快且可隨時調整。\n❌ (A) 昇糖素會使血糖更高。\n❌ (C) 磺醯脲類需仰賴殘存β細胞，急症下無效。\n❌ (D) repaglinide 同樣不適用於急性酮酸中毒。\n📚 出處：ADA Hyperglycemic Crises Guidelines"
   },
   {
    "n": 12,
@@ -175,7 +185,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "屬於類固醇結構之製劑",
     "可以促進第八凝血因子的釋放"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) desmopressin 可促進血管內皮釋出第八凝血因子與 von Willebrand 因子，用於輕型血友病 A。\n❌ (A) 它用於「中樞性」尿崩症，腎因性尿崩症對它無反應。\n❌ (B) 抗利尿作用來自 V2 受體。\n❌ (C) 它是胜肽類似物，不是類固醇。\n📚 出處：Katzung, Hypothalamic and Pituitary Hormones"
   },
   {
    "n": 13,
@@ -188,7 +199,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Esmolol",
     "Verapamil"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) esmolol 的半衰期僅約 9 分鐘，為靜脈注射的超短效乙型阻斷劑，用於急性心律不整。\n❌ (A) amiodarone 半衰期長達數十天。\n❌ (B) quinidine 為口服製劑。\n❌ (D) verapamil 雖可靜脈給藥，但作用時間較長。\n📚 出處：Katzung, Antiarrhythmic Agents"
   },
   {
    "n": 14,
@@ -201,7 +213,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Verapamil",
     "Disopyramide"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) amiodarone 高度脂溶並蓄積於組織，半衰期可達 25～100 天，是作用最長效者。\n❌ (A) procainamide 半衰期僅 3～4 小時。\n❌ (C) verapamil 半衰期約 6 小時。\n❌ (D) disopyramide 半衰期約 7 小時。\n📚 出處：Katzung, Antiarrhythmic Agents"
   },
   {
    "n": 15,
@@ -214,7 +227,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Procainamide",
     "Minoxidil"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) procainamide 長期使用約三分之一病人出現抗核抗體陽性的藥物誘發性紅斑性狼瘡。\n❌ (A) digoxin 的毒性以心律不整與視覺異常為主。\n❌ (B) disopyramide 以抗膽鹼副作用為主。\n❌ (D) minoxidil 造成多毛與體液滯留。\n📚 出處：Katzung, Antiarrhythmic Agents"
   },
   {
    "n": 16,
@@ -227,7 +241,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Minoxidil",
     "Nitroprusside"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ACE 抑制劑在懷孕中後期會造成胎兒腎發育不良、羊水過少與腎衰竭，屬絕對禁忌。\n❌ (B) methyldopa 是懷孕期高血壓的傳統首選。\n❌ (C) minoxidil 少用但無此特異性腎毒性。\n❌ (D) nitroprusside 的疑慮是氰化物蓄積。\n📚 出處：Katzung, Antihypertensive Agents"
   },
   {
    "n": 17,
@@ -240,7 +255,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Hydralazine",
     "Sodium nitroprusside"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 硝普鈉分子含五個氰基，長時間或高劑量輸注會使氰化物與硫氰酸鹽蓄積而中毒。\n❌ (A) minoxidil 造成多毛與心搏過速。\n❌ (B) diazoxide 造成高血糖與水鈉滯留。\n❌ (C) hydralazine 可能引起狼瘡樣症候群。\n📚 出處：Katzung, Vasodilators"
   },
   {
    "n": 18,
@@ -253,7 +269,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Ethacrynic acid",
     "Torsemide"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) torsemide 半衰期約 3～4 小時，在亨利氏環利尿劑中最長，可一天一次給藥。\n❌ (A) furosemide 半衰期約 1～1.5 小時。\n❌ (B) bumetanide 半衰期約 1 小時。\n❌ (C) ethacrynic acid 作用時間亦短。\n📚 出處：Katzung, Diuretic Agents"
   },
   {
    "n": 19,
@@ -279,7 +296,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "皮膚乾燥且潮紅",
     "唾液腺分泌增加"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阿托品阻斷蕈毒鹼受體，抑制汗腺分泌使皮膚乾燥，並因體溫上升而代償性血管擴張潮紅。\n❌ (A) 它造成的是「散瞳」，針狀瞳孔見於鴉片類中毒。\n❌ (B) 它會使心跳加快。\n❌ (D) 它會抑制唾液分泌而口乾。\n📚 出處：Katzung, Cholinoceptor-Blocking Drugs"
   },
   {
    "n": 21,
@@ -292,7 +310,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Echothiophate",
     "Neostigmine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) neostigmine 為四級銨結構、極性高，無法穿透角膜進入眼內，不用於青光眼。\n❌ (A) physostigmine 是三級胺，可穿透角膜。\n❌ (B) pilocarpine 是治療青光眼的典型縮瞳劑。\n❌ (C) echothiophate 是長效有機磷抑制劑，可用於青光眼。\n📚 出處：Katzung, Cholinoceptor-Activating Drugs"
   },
   {
    "n": 22,
@@ -305,7 +324,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "抑制腸胃道蠕動",
     "抑制汗腺之分泌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) pilocarpine 是蕈毒鹼受體促效劑，會促進唾液與汗液分泌，可治療口乾症。\n❌ (A) 它使睫狀肌「收縮」以利房水排出。\n❌ (C) 它會促進而非抑制腸胃蠕動。\n❌ (D) 它促進汗腺分泌。\n📚 出處：Katzung, Cholinoceptor-Activating Drugs"
   },
   {
    "n": 23,
@@ -318,7 +338,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "被細胞外之MAO（monoamine oxidase）分解",
     "被組織表面之正腎上腺素運輸體回收"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 神經末梢的正腎上腺素轉運體（NET）再回收，是終止其突觸作用最主要的機轉。\n❌ (B) COMT 分解只處理少部分溢流出的神經傳導物質。\n❌ (C) MAO 位於粒線體外膜，作用於細胞內的兒茶酚胺。\n❌ (D) 神經外組織的攝取（uptake 2）只是次要途徑。\n📚 出處：Katzung, Introduction to Autonomic Pharmacology"
   },
   {
    "n": 24,
@@ -331,7 +352,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Metoprolol",
     "Pindolol"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) pindolol 是非選擇性乙型阻斷劑，且具內生性擬交感活性。\n❌ (A) atenolol 是選擇性 β1 阻斷劑。\n❌ (B) betaxolol 是選擇性 β1 阻斷劑。\n❌ (C) metoprolol 是選擇性 β1 阻斷劑。\n📚 出處：Katzung, Adrenoceptor Antagonists"
   },
   {
    "n": 25,
@@ -344,7 +366,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Famotidine",
     "Cromolyn sodium"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) cimetidine 的咪唑環會與細胞色素 P450 的血基質鐵結合，抑制多種藥物代謝。\n❌ (A) ranitidine 對 P450 的抑制作用極弱。\n❌ (C) famotidine 幾乎不抑制 P450。\n❌ (D) cromolyn 是肥大細胞穩定劑，不影響 P450。\n📚 出處：Katzung, Drugs Used in Acid-Peptic Disease"
   },
   {
    "n": 26,
@@ -357,7 +380,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "因為無法通過血腦障壁，故對腦部無直接的作用",
     "可增加ADH的分泌"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。腦內的環室器官（如穹窿下器）缺乏血腦障壁，血中的血管收縮素 II 可直接作用於此引起渴感與升壓。\n❌ (A) 它收縮小動脈以升高血壓。\n❌ (B) 它刺激腎上腺皮質分泌醛固酮。\n❌ (D) 它會增加抗利尿激素分泌。\n📚 出處：Katzung, Vasoactive Peptides"
   },
   {
    "n": 27,
@@ -370,7 +394,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Flurazepam",
     "Zolpidem"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) flurazepam 的活性代謝物 N-去烷基 flurazepam 半衰期長達 40～100 小時。\n❌ (A) eszopiclone 半衰期約 6 小時。\n❌ (B) estazolam 半衰期約 10～24 小時。\n❌ (D) zolpidem 半衰期僅約 2～3 小時。\n📚 出處：Katzung, Sedative-Hypnotic Drugs"
   },
   {
    "n": 28,
@@ -383,7 +408,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "具有抗痙攣或肌肉鬆弛的特性",
     "可增加睡眠之非快速動眼期（non-rapid eye movement, NREM）之stage 2"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) zaleplon 選擇性作用於含 α1 次單元的 GABA-A 受體，耐藥性與依賴性均低於傳統 benzodiazepine。\n❌ (A) 它作用極短且反彈性失眠少見。\n❌ (C) 它幾無抗痙攣與肌肉鬆弛作用。\n❌ (D) 它對睡眠structure 的影響輕微，不以增加第二期為特徵。\n📚 出處：Katzung, Sedative-Hypnotic Drugs"
   },
   {
    "n": 29,
@@ -396,7 +422,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "增加肺泡換氣的速率",
     "減少心跳頻率"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 心輸出量增加會加速把麻醉劑從肺泡帶走，使肺泡分壓上升變慢，誘導反而變慢。\n❌ (A) 提高吸入濃度會加快誘導。\n❌ (C) 增加肺泡換氣速率會加快誘導。\n❌ (D) 心跳減慢通常伴隨心輸出量下降，誘導反而加快。\n📚 出處：Katzung, General Anesthetics"
   },
   {
    "n": 30,
@@ -409,7 +436,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "從細胞內抑制鈉離子通道",
     "抑制鉀離子通道"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 局部麻醉劑須以非解離態穿過細胞膜，在軸突「內側」解離後阻斷鈉離子通道。\n❌ (A) 它不作用於突觸後鈣通道。\n❌ (B) 活化氯離子通道是 GABA 系統的作用。\n❌ (D) 阻斷鉀通道不是其主要機轉。\n📚 出處：Katzung, Local Anesthetics"
   },
   {
    "n": 31,
@@ -422,7 +450,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Imipramine",
     "Bupropion"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) tranylcypromine 是單胺氧化酶抑制劑，與含酪胺食物併用會引發高血壓危象（起司效應）。\n❌ (B) fluoxetine 屬 SSRI，無此禁忌。\n❌ (C) imipramine 是三環抗鬱劑，無酪胺禁忌。\n❌ (D) bupropion 抑制多巴胺與正腎上腺素回收，無此禁忌。\n📚 出處：Katzung, Antidepressant Agents"
   },
   {
    "n": 32,
@@ -435,7 +464,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "酒精",
     "海洛英"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 古柯鹼與安非他命同屬中樞興奮劑，皆抑制多巴胺再回收，濫用後的臨床問題（精神病、心血管毒性）相似。\n❌ (B) 大麻作用於大麻素受體，表現不同。\n❌ (C) 酒精是中樞抑制劑。\n❌ (D) 海洛因是鴉片類抑制劑。\n📚 出處：Katzung, Drugs of Abuse"
   },
   {
    "n": 33,
@@ -448,7 +478,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "鉀離子管道（Potassium channels）",
     "氯離子管道（Chloride channels）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) GABA-A 受體是氯離子通道，benzodiazepine 增加通道開啟「頻率」而使細胞過極化。\n❌ (A) 鈉通道是局部麻醉劑的標的。\n❌ (B) 鈣通道與 gabapentin 等藥物相關。\n❌ (C) 鉀通道非 GABA-A 的離子選擇性。\n📚 出處：Katzung, Sedative-Hypnotic Drugs"
   },
   {
    "n": 34,
@@ -461,7 +492,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "口服效果差，需以靜脈注射的方式投藥",
     "經常與Bromocriptine併用，以延長其作用的時間"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) levodopa 在周邊被代謝為多巴胺刺激延腦嘔吐中樞，常見厭食、噁心嘔吐。\n❌ (B) selegiline 是 MAO-B 抑制劑，常與 levodopa 併用以延長療效。\n❌ (C) 它是口服有效的前驅藥，不需靜脈注射。\n❌ (D) bromocriptine 併用是為了減少 levodopa 用量與開關現象，不是延長其作用時間的常規敘述。\n📚 出處：Katzung, Drugs Used in Parkinsonism"
   },
   {
    "n": 35,
@@ -474,7 +506,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "遲發性運動困難（Tardive dyskinesia）",
     "顆粒白血球缺乏（Agranulocytosis）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顆粒性白血球缺乏症發生率約 1～2%，可致命，是 clozapine 必須定期監測血球的原因。\n❌ (A) 它的錐體外副作用極少，是其優點。\n❌ (B) 它幾乎不升高泌乳素。\n❌ (C) 遲發性運動困難的風險亦很低。\n📚 出處：Katzung, Antipsychotic Agents"
   },
   {
    "n": 36,
@@ -487,7 +520,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Thiopental",
     "Ketamine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) thiopental 等巴比妥類會明顯抑制延腦呼吸中樞，降低其對二氧化碳的反應。\n❌ (A) 氧化亞氮對呼吸的抑制輕微。\n❌ (B) halothane 雖抑制呼吸，題目所指的典型代表是巴比妥類。\n❌ (D) ketamine 反而維持呼吸驅力。\n📚 出處：Katzung, General Anesthetics"
   },
   {
    "n": 37,
@@ -500,7 +534,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Clorazepate",
     "Oxazepam"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) clorazepate 本身無活性，在胃酸中水解為 nordazepam（去甲西泮）後才發揮作用。\n❌ (A) alprazolam 本身即有活性。\n❌ (B) triazolam 本身即有活性。\n❌ (D) oxazepam 是活性代謝物，直接作用。\n📚 出處：Katzung, Sedative-Hypnotic Drugs"
   },
   {
    "n": 38,
@@ -513,7 +548,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Halothane",
     "Enflurane"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 氧化亞氮的最小肺泡濃度超過 100%，代表其麻醉效價最低，需搭配其他麻醉劑。\n❌ (B) 乙醚的 MAC 約 1.9%。\n❌ (C) halothane 的 MAC 約 0.75%。\n❌ (D) enflurane 的 MAC 約 1.7%。\n📚 出處：Katzung, General Anesthetics"
   },
   {
    "n": 39,
@@ -526,7 +562,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Secobarbital",
     "Scopolamine"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 天使塵中毒的典型表現即為激動譫妄、交感興奮、痛覺遲鈍與特徵性的「垂直與水平眼球震顫」。\n❌ (B) 海洛因中毒表現為針狀瞳孔與呼吸抑制。\n❌ (C) 巴比妥中毒表現為昏迷與呼吸抑制。\n❌ (D) 東莨菪鹼中毒雖有譫妄散瞳，但皮膚乾「熱無汗」且不會眼球震顫。\n📚 出處：Goldfrank's Toxicologic Emergencies"
   },
   {
    "n": 40,
@@ -539,7 +576,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Sirolimus",
     "Thalidomide"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) thalidomide 用於多發性骨髓瘤，其典型致畸作用即為海豹肢症（短肢畸形）。\n❌ (A) cyclophosphamide 致畸表現以顱顏與四肢缺損為主，非典型海豹肢。\n❌ (B) mycophenolate 造成的是耳與顏面畸形。\n❌ (C) sirolimus 無此典型致畸表現。\n📚 出處：Katzung, Immunopharmacology"
   },
   {
    "n": 41,
@@ -552,7 +590,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "減低藥物刺激",
     "改善對光之安定性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 兩分子 mesalamine 以偶氮鍵接成 olsalazine，可避免在上消化道被吸收代謝而失效，到大腸才被腸菌還原釋出。\n❌ (A) 雙體化反而降低水溶性。\n❌ (C) 目的不在減低刺激性。\n❌ (D) 與光安定性無關。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 42,
@@ -565,7 +604,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "氫鍵",
     "疏水性作用力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 共價鍵鍵能約 50～150 kcal/mol，遠強於其他非共價作用力，多造成不可逆結合。\n❌ (B) 離子鍵約 5～10 kcal/mol。\n❌ (C) 氫鍵約 1～7 kcal/mol。\n❌ (D) 疏水性作用力最弱，約 1 kcal/mol。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 43,
@@ -578,7 +618,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "21-29",
     "31-39"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 導入一個離子基團所增加的水溶性，約可抵消 21～29 個碳原子造成的疏水性。\n❌ (A) 6～9 個碳低估甚多。\n❌ (B) 11～19 個碳仍偏低。\n❌ (D) 31～39 個碳高估。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 44,
@@ -591,7 +632,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Ala-Gly-Cys-Lys",
     "Phe-Thr-Ser-Cys"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Phe-Trp-Lys-Thr 是體抑素與 octreotide 共有的活性核心序列。\n❌ (A) 此序列非活性所必需。\n❌ (C) 不含活性核心的四胜肽片段。\n❌ (D) 同樣不是活性核心。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 45,
@@ -604,7 +646,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Mechlorethamine",
     "Pilocarpine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) pilocarpine 是蕈毒鹼受體的可逆性促效劑，靠非共價作用結合。\n❌ (A) ethacrynic acid 的 α,β-不飽和酮會與硫氫基形成共價加成物。\n❌ (B) selegiline 與 MAO-B 形成不可逆的共價鍵。\n❌ (C) mechlorethamine 經氮丙啶離子與 DNA 形成共價鍵。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 46,
@@ -617,7 +660,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "α-Methylnorepinephrine",
     "β-Methylnorepinephrine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) methyldopa 先脫羧成 α-甲基多巴胺，再經多巴胺β-羥化酶轉成 α-甲基正腎上腺素，作用於中樞 α2 受體降壓。\n❌ (A) 需再經 N-甲基化才成腎上腺素衍生物，非此途徑。\n❌ (B) 甲基取代在 α 位，不是 β 位。\n❌ (D) 取代位置錯誤。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 47,
@@ -630,7 +674,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "主要之代謝物為4-hydroxyropivacaine",
     "半衰期比bupivacaine長"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ropivacaine 的哌啶環 C2 為手性中心，臨床用的是純 S-（左旋）異構物，故具光學活性。\n❌ (A) 它屬醯胺（amide）型，不是酯型。\n❌ (C) 主要代謝物為 3-羥基 ropivacaine。\n❌ (D) 其半衰期比 bupivacaine 短。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 48,
@@ -643,7 +688,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Decamethonium之半衰期比succinylcholine短",
     "Succinylcholine屬於diquaternary ammonium ester"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) succinylcholine 由兩分子膽鹼與琥珀酸酯化而成，屬雙四級銨酯類。\n❌ (A) decamethonium 的碳鏈為十個碳。\n❌ (B) succinylcholine 屬「去極化」阻斷劑。\n❌ (C) succinylcholine 被血漿膽鹼酯酶迅速水解，半衰期比 decamethonium 短。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 49,
@@ -697,7 +743,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Sulfonated hexasaccharide",
     "Sulfonated heptasaccharide"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) fondaparinux 是模擬肝素與抗凝血酶結合位的合成硫酸化「五醣」。\n❌ (A) 四醣不足以構成結合位。\n❌ (C) 不是六醣。\n❌ (D) 不是七醣。\n📚 出處：Katzung, Anticoagulant Drugs"
   },
   {
    "n": 53,
@@ -710,7 +757,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Chlorothiazide",
     "Ethacrynic acid"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) chlorothiazide 作用於遠曲小管，抑制鈉氯共同運輸體。\n❌ (A) furosemide 作用於亨利氏環上升粗段。\n❌ (B) bumetanide 作用於亨利氏環上升粗段。\n❌ (D) ethacrynic acid 同屬亨利氏環利尿劑。\n📚 出處：Katzung, Diuretic Agents"
   },
   {
    "n": 54,
@@ -726,7 +774,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    "a": 1,
    "alt": [
     3
-   ]
+   ],
+   "exp": "✅ (B) phenytoin 靜脈注射可抑制毛地黃引起的觸發活動，並改善房室傳導，是毛地黃中毒心律不整的經典用藥。\n❌ (A) quinidine 會置換 digoxin 並升高其濃度，使中毒惡化。\n❌ (C) flecainide 在此情況下無適應症且具致心律不整性。\n❌ (D) lidocaine 雖可用於心室性心律不整，但題目指名的是 phenytoin。\n📚 出處：Katzung, Antiarrhythmic Agents"
   },
   {
    "n": 55,
@@ -739,7 +788,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Labetalol",
     "Propranolol"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) carvedilol 具明確的抗氧化（清除自由基）與抑制血管平滑肌增生作用，是其異於他藥的特色。\n❌ (A) acebutolol 具內生性擬交感活性，無此作用。\n❌ (C) labetalol 兼具甲型阻斷，但無顯著抗氧化作用。\n❌ (D) propranolol 為單純非選擇性乙型阻斷劑。\n📚 出處：Katzung, Adrenoceptor Antagonists"
   },
   {
    "n": 56,
@@ -752,7 +802,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "加速糖質新生",
     "提高肝細胞之葡萄糖感受性"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) acarbose 競爭性抑制小腸刷狀緣的 α-葡萄糖苷酶，延緩多醣分解吸收而降低飯後血糖。\n❌ (B) 促進胰島素釋放的是磺醯脲類。\n❌ (C) 它不促進糖質新生。\n❌ (D) 它不作用於肝細胞。\n📚 出處：Katzung, Antidiabetic Agents"
   },
   {
    "n": 57,
@@ -765,7 +816,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "21",
     "27"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) cholestane 是含 27 個碳的膽固醇基本骨架。\n❌ (A) 18 個碳是雌烷（estrane）。\n❌ (B) 19 個碳是雄烷（androstane）。\n❌ (C) 21 個碳是孕烷（pregnane）。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 58,
@@ -778,7 +830,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Norethindrone",
     "Tamoxifen"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) tamoxifen 是三苯乙烯（triphenylethylene）結構的非類固醇型抗雌激素。\n❌ (A) androsterone 是雄烷類固醇。\n❌ (B) cortisone 是孕烷類固醇。\n❌ (C) norethindrone 是 19-去甲睪固酮衍生的類固醇。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 59,
@@ -791,7 +844,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Hydroxylation",
     "Hydrolysis"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 由雌酮轉成雌三醇葡萄醣醛酸苷需要 17-酮還原、16α-羥化與接合三步，不含水解反應。\n❌ (A) 最後一步的葡萄醣醛酸接合屬 conjugation。\n❌ (B) C-17 酮基還原成羥基屬 reduction。\n❌ (C) 導入 16α-OH 屬 hydroxylation。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 60,
@@ -804,7 +858,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Ranitidine",
     "Cimetidine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ranitidine 側鏈末端具特徵性的硝基甲烯（nitromethylene）基團。\n❌ (A) famotidine 帶的是胍基與胺磺醯基。\n❌ (B) omeprazole 是亞磺醯基苯并咪唑。\n❌ (D) cimetidine 帶的是氰基胍（cyanoguanidine）。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 61,
@@ -847,7 +902,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Misoprostol",
     "Sucralfate"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) esomeprazole 是 omeprazole 的 S-異構物，屬質子幫浦抑制劑。\n❌ (A) cimetidine 是 H2 受體拮抗劑。\n❌ (C) misoprostol 是前列腺素 E1 類似物。\n❌ (D) sucralfate 是黏膜保護劑。\n📚 出處：Katzung, Drugs Used in Acid-Peptic Disease"
   },
   {
    "n": 64,
@@ -860,7 +916,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Naproxen",
     "Celecoxib"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) celecoxib 選擇性抑制 COX-2，對胃黏膜保護性的 COX-1 影響小。\n❌ (A) indomethacin 是強效非選擇性抑制劑，胃毒性高。\n❌ (B) ibuprofen 為非選擇性抑制劑。\n❌ (C) naproxen 為非選擇性抑制劑。\n📚 出處：Katzung, NSAIDs"
   },
   {
    "n": 65,
@@ -873,7 +930,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "屬於C-glycosides",
     "其aglycone為anthracyclinone"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。anthracycline 的醣基以「O-醣苷」鍵接在 C-7 的氧上，不是 C-醣苷。\n❌ (A) 其醌／氫醌結構是產生自由基與心毒性的來源。\n❌ (B) 心臟毒性是其代表性副作用。\n❌ (D) 去糖基後的配基即稱 anthracyclinone。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 66,
@@ -886,7 +944,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Quinupristin與dalfopristin一般以30:70 (w/w)比例混合使用",
     "兩種藥物各別使用時具抑菌（bacteriostatic）效果"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。dalfopristin 結合的是「50S」核糖體次單元，不是 30S。\n❌ (A) quinupristin 屬 streptogramin B 類。\n❌ (C) 兩者以 30：70 的重量比混合。\n❌ (D) 單獨使用各為抑菌，合用才呈殺菌作用。\n📚 出處：Katzung, Streptogramins"
   },
   {
    "n": 67,
@@ -899,7 +958,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Benzethonium chloride",
     "Hexachlorophene"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) benzethonium chloride 是四級銨陽離子界面活性劑，兼具界面活性與殺菌作用。\n❌ (A) halazone 是釋氯消毒劑。\n❌ (B) hexylresorcinol 是酚類消毒劑。\n❌ (D) hexachlorophene 是雙酚類消毒劑。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 68,
@@ -912,7 +972,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Tyrosine kinase",
     "Ribonucleotide reductase"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) imatinib 抑制 BCR-ABL 等酪胺酸激酶的 ATP 結合位，用於慢性骨髓性白血病。\n❌ (A) 抑制反轉錄酶的是抗愛滋病毒藥。\n❌ (B) 抑制神經胺酸酶的是抗流感藥。\n❌ (D) 抑制核糖核苷酸還原酶的是 hydroxyurea。\n📚 出處：Katzung, Targeted Anticancer Agents"
   },
   {
    "n": 69,
@@ -925,7 +986,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "RNA",
     "Microtubules"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 長春花生物鹼與微管蛋白結合，抑制微管聚合而使細胞停在有絲分裂中期。\n❌ (A) 嵌入雙股 DNA 的是 anthracycline。\n❌ (B) 抑制 DNA 聚合酶的是核苷類似物。\n❌ (C) 干擾 RNA 的機轉不符。\n📚 出處：Katzung, Cancer Chemotherapy"
   },
   {
    "n": 70,
@@ -938,7 +1000,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Paclitaxel",
     "Teniposide"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) pentostatin 的母核為咪唑并四氫二氮呯（tetrahydrodiazepine），可強力抑制腺苷脫胺酶。\n❌ (A) cytarabine 是嘧啶核苷類似物。\n❌ (C) paclitaxel 為紫杉烷二萜。\n❌ (D) teniposide 為木脂素糖苷。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 71,
@@ -951,7 +1014,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Cyclophosphamide",
     "Estramustine phosphate"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) mechlorethamine 的氮原子鹼性最強、無吸電子取代，最容易分子內環化生成活性的氮丙啶離子。\n❌ (A) chlorambucil 的芳香環降低氮的親核性，反應較慢。\n❌ (C) cyclophosphamide 是前驅藥，須先經肝臟活化。\n❌ (D) estramustine 的雌激素部分同樣降低氮的鹼性。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 72,
@@ -964,7 +1028,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Bleomycin",
     "Vincristine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) daunorubicin 屬 anthracycline，經自由基與鐵螯合造成累積性劑量相關的心肌病變。\n❌ (A) mitoxantrone 心毒性存在但明顯低於 anthracycline。\n❌ (C) bleomycin 的代表毒性是肺纖維化。\n❌ (D) vincristine 的代表毒性是周邊神經病變。\n📚 出處：Katzung, Cancer Chemotherapy"
   },
   {
    "n": 73,
@@ -977,7 +1042,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Paclitaxel",
     "Teniposide"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) bleomycin 需與 Fe(II) 及氧形成錯合物，產生自由基造成 DNA 單雙股斷裂。\n❌ (A) dacarbazine 是烷化劑前驅藥。\n❌ (C) paclitaxel 作用於微管。\n❌ (D) teniposide 抑制拓樸異構酶 II。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 74,
@@ -990,7 +1056,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "6α-Hydroxypaclitaxel",
     "8α-Hydroxypaclitaxel"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) CYP2C8 催化紫杉醇的紫杉烷環 C-6 羥化，生成 6α-羥基紫杉醇。\n❌ (A) 2α 位不是主要代謝位置。\n❌ (B) 4α 位不是主要代謝位置。\n❌ (D) 8α 位不是主要代謝位置。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 75,
@@ -1016,7 +1083,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Bleomycin",
     "Vincristine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) vincristine 破壞神經軸突的微管運輸，是劑量限制性的周邊神經毒性代表藥。\n❌ (A) mitoxantrone 以骨髓抑制為主。\n❌ (B) daunorubicin 以心毒性為主。\n❌ (C) bleomycin 以肺毒性為主。\n📚 出處：Katzung, Cancer Chemotherapy"
   },
   {
    "n": 77,
@@ -1029,7 +1097,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Quinoxazone",
     "Anthraquinone"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) idarubicin 屬 anthracycline，母核為蒽醌（anthraquinone）。\n❌ (A) phenoxazone 是放線菌素 D 的發色團。\n❌ (B) 藥物中無此母核。\n❌ (C) 亦非其結構。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 78,
@@ -1057,7 +1126,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "受NADPH/CYP450 reductase作用，產生 anthracycline hydroquinone",
     "C-7接有D-daunosamine醣基"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。C-7 上接的是「L」-daunosamine，不是 D 型。\n❌ (A) 二價鐵確可螯合於配基的酚羥基與酮基之間。\n❌ (B) 平面的蒽醌環可嵌入 DNA 鹼基對之間。\n❌ (C) 經還原酶單電子還原可生成半醌與氫醌自由基。\n📚 出處：Foye's Principles of Medicinal Chemistry"
   },
   {
    "n": 80,
@@ -1070,7 +1140,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Doxorubicin",
     "Mitoxantrone"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) topotecan 抑制的是拓樸異構酶「I」，不是 II。\n❌ (B) dactinomycin 嵌入 DNA 並抑制拓樸異構酶 II。\n❌ (C) doxorubicin 抑制拓樸異構酶 II。\n❌ (D) mitoxantrone 抑制拓樸異構酶 II。\n📚 出處：Katzung, Cancer Chemotherapy"
   }
  ]
 };
