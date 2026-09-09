@@ -7392,7 +7392,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "114 年第二次　牙醫學（五）",
   "n": 80,
-  "exp": 74,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -8176,7 +8176,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（一）",
   "label": "109 年第二次　牙醫學（一）",
   "n": 80,
-  "exp": 75,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -8218,7 +8218,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（四）",
   "label": "109 年第二次　牙醫學（四）",
   "n": 80,
-  "exp": 69,
+  "exp": 72,
   "mins": 60
  },
  {
@@ -8820,7 +8820,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "105 年第一次　牙醫學（五）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -9058,7 +9058,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（四）",
   "label": "104 年第二次　牙醫學（四）",
   "n": 80,
-  "exp": 70,
+  "exp": 72,
   "mins": 60
  },
  {
