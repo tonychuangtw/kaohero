@@ -686,7 +686,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103020_310_11_48.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 在 5 位的氟苯環上加了羥基，flurazepam 並不會發生此位置的芳香族羥化，故不是主要代謝物。\n❌ (A) 為側鏈去乙基後再羥化的羥乙基代謝物。\n❌ (C) 為 N-去乙基 flurazepam，是主要代謝物。\n❌ (D) 為去乙基再加 3 位羥化的產物。\n📚 出處：Foye's—苯二氮平類的代謝"
   },
   {
    "n": 49,
@@ -701,7 +702,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103020_310_11_49.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) zaleplon 主要由醛氧化酶把吡唑并嘧啶環氧化成 5-oxo-zaleplon（內醯胺型），佔代謝的大部分且不具活性。\n❌ (A) 為苯環羥化的次要產物。\n❌ (B) 為乙醯基水解後的去乙醯物。\n❌ (C) 為 N-去乙基的產物，量遠少於 5-oxo 代謝物。\n📚 出處：Foye's—非苯二氮平類安眠藥的代謝"
   },
   {
    "n": 50,
@@ -926,7 +928,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103020_310_11_65.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 meclofenamic acid，屬 fenamate 類 NSAID，抑制環氧合酶而非阻斷 H1 受體。\n❌ (A) 為 fexofenadine，第二代 H1 抗組織胺。\n❌ (B) 為 desloratadine，同屬第二代 H1 抗組織胺。\n❌ (C) 為 acrivastine，亦為 H1 抗組織胺。\n📚 出處：Foye's—抗組織胺與 NSAIDs"
   },
   {
    "n": 66,
@@ -955,7 +958,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103020_310_11_67.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 把 α 位的甲基氧化成羥甲基，flurbiprofen 的代謝集中在聯苯環的羥化，不會生成此產物。\n❌ (A) 為 4'-羥基 flurbiprofen，是主要代謝物。\n❌ (B) 為 3',4'-二羥基衍生物。\n❌ (C) 為 3'-羥基-4'-甲氧基衍生物，同屬已知代謝物。\n📚 出處：Foye's—芳基丙酸類的代謝"
   },
   {
    "n": 68,

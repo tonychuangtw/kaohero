@@ -717,7 +717,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102020_310_11_50.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) tramadol 為 2-(二甲胺甲基)-1-(3-甲氧苯基)環己醇：環己醇上帶三級醇與二甲胺甲基，苯環為間甲氧基。\n❌ (A) 為 pethidine 類的 4-苯基哌啶乙酯。\n❌ (B) 為 methadone，屬二苯庚酮類。\n❌ (C) 為 fentanyl，屬苯胺基哌啶類。\n📚 出處：Foye's—非典型鎮痛藥"
   },
   {
    "n": 51,
@@ -874,7 +875,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102020_310_11_61.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) oxicam 類的骨架是苯并噻嗪二氧化物加上 4-羥基與 3-位的芳香醯胺；圖 A 即 meloxicam。\n❌ (B) 為 mefenamic acid，屬 fenamate 類。\n❌ (C) 為 rofecoxib，屬二芳基呋喃酮的 COX-2 抑制劑。\n❌ (D) 為 suprofen，屬芳基丙酸類。\n📚 出處：Foye's—NSAIDs 的化學分類"
   },
   {
    "n": 62,
@@ -889,7 +891,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102020_310_11_62.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) leflunomide 的異惡唑環在體內迅速開環，生成帶 α-氰基烯醇的 teriflunomide，抑制二氫乳清酸脫氫酶而阻斷嘧啶合成。\n❌ (A) 為 leflunomide 母藥本身。\n❌ (B) 為苯環羥化的次要產物。\n❌ (C) 為環上甲基氧化成羧酸的產物，非活性代謝物。\n📚 出處：Foye's—免疫調節劑 leflunomide"
   },
   {
    "n": 63,
@@ -1113,7 +1116,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102020_310_11_78.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 nevirapine：二吡啶并二氮呯骨架加環丙基，直接結合反轉錄酶的異位口袋，屬非核苷類。\n❌ (A) 為 lamivudine，核苷類似物。\n❌ (C) 為 zidovudine，核苷類似物。\n❌ (D) 為 zalcitabine，同屬核苷類似物。\n📚 出處：Foye's—抗 HIV 藥物的分類"
   },
   {
    "n": 79,
