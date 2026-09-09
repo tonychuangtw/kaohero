@@ -34916,7 +34916,7 @@ window.APP_EXAMS = [
   "subjName": "數學能力測驗",
   "label": "114 年　國民小學師資類科　數學能力測驗",
   "n": 26,
-  "exp": 0,
+  "exp": 19,
   "mins": 80
  },
  {
