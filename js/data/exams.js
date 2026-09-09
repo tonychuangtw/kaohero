@@ -15274,7 +15274,7 @@ window.APP_EXAMS = [
   "subjName": "行政學概要",
   "label": "115 年　普通考試　行政學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
