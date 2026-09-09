@@ -271,7 +271,7 @@
   };
 
   /* ============ 偏好設定 ============ */
-  var PKEY = 'kaoguhero.prefs';
+  var PKEY = 'kaohero.prefs';
   var prefs = { fs: 'm', theme: 'auto', lang: 'zh' };
   try {
     var o = JSON.parse(localStorage.getItem(PKEY) || '{}');

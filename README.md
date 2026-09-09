@@ -31,7 +31,7 @@ node test/smoke.mjs   # 瀏覽器 smoke test（用 chrome-headless-shell 真的�
 
 ### 顯示設定（字級／配色／語言）
 
-`js/i18n.js` 管三件事，設定存在 `localStorage` 的 `kaoguhero.prefs`：
+`js/i18n.js` 管三件事，設定存在 `localStorage` 的 `kaohero.prefs`：
 
 - **字級**：`<html data-fs="s|m|l|xl">`，CSS 裡每個 `font-size` 都寫成
   `calc(Npx * var(--fs,1))`，新增樣式時請沿用這個寫法，否則那段字不會跟著縮放。

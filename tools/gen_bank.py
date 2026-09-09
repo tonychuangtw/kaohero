@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""考選部 PDF → kaoguhero 的 js/data/exam/<prefix>-<年>-<次別>-<科目>.js
+"""考選部 PDF → kaohero 的 js/data/exam/<prefix>-<年>-<次別>-<科目>.js
 
 用法（在工作目錄底下跑，該目錄要有 moex-fetch.py 產生的 pdf/ 與 inv.json）：
   python3 ~/TelegramClaude/kaoguhero/tools/gen_bank.py <spec 名稱>

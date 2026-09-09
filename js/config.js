@@ -15,7 +15,7 @@
  */
 window.KH_CONFIG = {
   API_BASE: 'https://claudebot500.tailfcf67f.ts.net',
-  APP: 'kaoguhero',
+  APP: 'kaohero',
   LEVEL: 'main',
   CLIENT_ID: '481860179039-gb37qsdogd4vgnn2g5umh73jen02avj4.apps.googleusercontent.com'
 };

@@ -131,7 +131,7 @@ ok(await ev('document.querySelectorAll("#main .opt").length === 4'), '整卷測�
 ok((await ev('document.querySelector("#main .stem").textContent.trim().length')) > 5, '題幹有內容');
 await ev(`document.querySelectorAll('#main .opt')[0].click()`); await sleep(250);
 ok(await ev('document.querySelectorAll("#main .opt.correct").length === 1'), '作答後標出正解');
-ok(await ev('!!localStorage.getItem("kaoguhero.v1")'), '作答紀錄寫入 localStorage');
+ok(await ev('!!localStorage.getItem("kaohero.v1")'), '作答紀錄寫入 localStorage');
 await ev(`[...document.querySelectorAll('#main .btn')].find(b=>/下一題|看結果/.test(b.textContent)).click()`);
 await sleep(250);
 ok((await ev(`document.querySelector('#main .qmeta span').textContent`)).includes('第 2 /'), '可以進到第 2 題');
@@ -220,7 +220,7 @@ for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")'));
 ok(/[\u4e00-\u9fff]/.test(await ev(`document.querySelector('#main .stem').textContent`)), '英文模式下題幹仍是中文原文');
 ok((await ev(`document.getElementById('main').textContent`)).includes('Q 1 /'), '英文模式的題號是英文格式');
 // 設定會存起來
-ok(await ev(`JSON.parse(localStorage.getItem('kaoguhero.prefs')).lang === 'en'`), '設定寫入 localStorage');
+ok(await ev(`JSON.parse(localStorage.getItem('kaohero.prefs')).lang === 'en'`), '設定寫入 localStorage');
 await go('');
 ok(await ev(`document.documentElement.lang === 'en' && document.documentElement.getAttribute('data-fs') === 'xl'`),
    '重新載入後設定保留');
@@ -236,10 +236,10 @@ ok(await ev(`!!document.querySelector('.hd-in .sync-ui')`), '頁首有同步元�
 ok(await ev(`!!document.querySelector('.sync-login')`), '未登入時顯示登入鈕');
 ok(await ev(`document.querySelector('.sync-login').getBoundingClientRect().height >= 40`),
    '登入鈕觸控目標 ≥40px');
-// 同步用的 key 一律不可用 kaoguhero. 開頭，否則會被整包推上雲端
+// 同步用的 key 一律不可用 kaohero. 開頭，否則會被整包推上雲端
 ok(await ev(`['khsync.token','khsync.sess','khsync.owner','khsync.ts']
-     .every(k => k.indexOf('kaoguhero.') !== 0)`), '同步自身的 key 不在同步範圍內');
-ok(await ev(`window.KH_CONFIG && !!window.KH_CONFIG.API_BASE && window.KH_CONFIG.APP === 'kaoguhero'`),
+     .every(k => k.indexOf('kaohero.') !== 0)`), '同步自身的 key 不在同步範圍內');
+ok(await ev(`window.KH_CONFIG && !!window.KH_CONFIG.API_BASE && window.KH_CONFIG.APP === 'kaohero'`),
    'API 位址集中在 js/config.js');
 
 // 答完一題之後有「回報這題」，點下去會開對話框

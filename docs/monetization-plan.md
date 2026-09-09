@@ -42,7 +42,7 @@ STATUS: 進行中（Tony 2026-09-08 調整順序：登入／同步／後台先�
 
 Tony 當日指示，依序：
 1. **API 位址抽成設定檔** → ✅ 已完成（`js/config.js`）
-2. **登入與跨裝置同步** → ✅ 已完成（`js/sync.js`，後端 `app=kaoguhero`）
+2. **登入與跨裝置同步** → ✅ 已完成（`js/sync.js`，後端 `app=kaohero`）
 3. **後台做出來** → ✅ 已完成（`js/admin.js` + 後端 `/api/kgh/*`，`#/admin`）
 4. **詳解寫完之後再做題解分離** → 待辦（見下方階段 0 的 0-1～0-3）
 5. **題解分離之後**才做每日錯題重練、模考排名、金流
@@ -53,10 +53,10 @@ Tony 當日指示，依序：
 ### 已完成的部分（2026-09-08）
 - `js/config.js` 集中 API_BASE／APP／CLIENT_ID；換 Cloudflare 正式網域只改這一個檔
 - 登入用 Bearer token（不用 cookie），換網域不受 SameSite/Domain 影響
-- 同步 `kaoguhero.*` 的本機紀錄；含換帳號防護、條件更新防互蓋、作答中不重載、可匯出
+- 同步 `kaohero.*` 的本機紀錄；含換帳號防護、條件更新防互蓋、作答中不重載、可匯出
 - 每題答完後「⚑ 回報這題」（不必登入）→ 後台收件匣 → 標記已修正／不修改
 - 後台 `#/admin`：使用者數、7/30 日活躍、回報收件匣；權限由後端 OWNER_EMAIL 把關
-- 後端：`APPS` 加 `kaoguhero`、新增 `kaoguhero.js`（claude-shared commit 04cf8c6）
+- 後端：`APPS` 加 `kaohero`、新增 `kaohero.js`（claude-shared commit 04cf8c6）
 
 ### 換正式網域時要一起做的事（照這三條就不會出事）
 1. `js/config.js` 的 `API_BASE` 改成 `https://api.<新網域>`
@@ -82,7 +82,7 @@ Tony 當日指示，依序：
       資料先讀 JSON 檔即可，不必一開始就建 CMS。
 - [ ] 0-3 **前端改 fetch**：`app.js` 在「看解析」時才打 API（改動預估數十行）。
       免費部分（題目、答案、試讀詳解）維持靜態，載不到 API 時要優雅降級不白畫面。
-- [ ] 0-4 **登入與跨裝置同步**：沿用 chinese 站那套（app=kaoguhero），
+- [ ] 0-4 **登入與跨裝置同步**：沿用 chinese 站那套（app=kaohero），
       第一次登入把 localStorage 的錯題本與統計匯入雲端，之後跨裝置接續。**允許匯出**，不靠扣住資料留人。
 
 ⛔ 不做的事：前端混淆、禁右鍵、把解密金鑰藏在前端。已經公開送出的詳解收不回來，這些都是白工。

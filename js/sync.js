@@ -1,7 +1,7 @@
 /* 考古英雄 — 登入與跨裝置同步
  *
- * 用 Google Identity Services 登入，把本機 localStorage 的練習紀錄（kaoguhero.* 這些 key）
- * 同步到 LanExamMock backend 的 /api/progress（app=kaoguhero）。
+ * 用 Google Identity Services 登入，把本機 localStorage 的練習紀錄（kaohero.* 這些 key）
+ * 同步到 LanExamMock backend 的 /api/progress（app=kaohero）。
  * 這套流程與 chinese／poker／mathwu 各站同源，已在那些站上跑過一年，坑都踩過了。
  *
  * ⚠️ 所有對外位址都來自 js/config.js，換網域只改那個檔（Tony 2026-09-08）。
@@ -10,7 +10,7 @@
  */
 (function () {
   var CFG = window.KH_CONFIG || {};
-  var API_BASE = CFG.API_BASE, APP = CFG.APP || 'kaoguhero';
+  var API_BASE = CFG.API_BASE, APP = CFG.APP || 'kaohero';
   var LEVEL = CFG.LEVEL || 'main', CLIENT_ID = CFG.CLIENT_ID;
   if (!API_BASE || !CLIENT_ID || typeof window === 'undefined') return;
 
@@ -39,7 +39,7 @@
 
   /* ⚠️ 這幾個 key 一律不可用 PREFIX 開頭：gatherKeys() 會把 PREFIX 開頭的東西整包推上雲端，
      token 跟著上去就等於把帳號送到別人的瀏覽器。 */
-  var PREFIX = 'kaoguhero.';        // 要同步的本機資料（kaoguhero.v1 進度、kaoguhero.prefs 偏好）
+  var PREFIX = 'kaohero.';        // 要同步的本機資料（kaohero.v1 進度、kaohero.prefs 偏好）
   var TOKEN_KEY = 'khsync.token';   // 剛登入時的 Google ID token（sessionStorage，1 小時）
   var SESS_KEY = 'khsync.sess';     // 後端簽的 30 天長效 token（localStorage）
   var PROFILE_KEY = 'khsync.profile';
@@ -243,7 +243,7 @@
     }, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'kaoguhero-' + new Date().toISOString().slice(0, 10) + '.json';
+    a.download = 'kaohero-' + new Date().toISOString().slice(0, 10) + '.json';
     document.body.appendChild(a); a.click();
     setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
