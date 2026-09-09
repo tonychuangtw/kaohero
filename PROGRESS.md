@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師已完成；目前主線＝教師檢定 261 卷 8,103 題）
-NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,098 題，已寫 5,507／68.0%；115～109、106～101 年已完成，**沒有 107、108 兩個年度的卷**，接著做 100 年）續做：打開 `js/data/exam/tea-100-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,098 題，已寫 6,031／74.5%；115～109、106～100 年已完成，**沒有 107、108 兩個年度的卷**，接著做 99 年）續做：打開 `js/data/exam/tea-099-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 09:20 台北
+UPDATED: 2026-09-10 11:00 台北
 
 ---
 
@@ -71,7 +71,7 @@ UPDATED: 2026-09-10 09:20 台北
 
 ## 教師檢定進度（`tea-*`，261 卷 8,098 題）
 
-已完成 **115～109 年、106～101 年共 176 卷、5,507 題（68.0%）**。教檢**沒有 107、108 兩個年度的卷**（考選部那兩年未舉辦或題庫未收）。
+已完成 **115～109 年、106～100 年共 191 卷、6,031 題（74.5%）**。教檢**沒有 107、108 兩個年度的卷**（考選部那兩年未舉辦或題庫未收）。
 
 | 年度 | 卷數 | 已寫／總題數 |
 |---|---|---|
@@ -88,6 +88,7 @@ UPDATED: 2026-09-10 09:20 台北
 | 103 | 15 | 479／490 |
 | 102 | 12 | 412／415 |
 | 101 | 14 | 485／485 |
+| 100 | 15 | 524／525 |
 
 跳過的題：選項或題幹在圖上（數學能力測驗較多）、轉檔缺公式、官方答案與教科書明顯衝突者。
 每年 15 卷的結構：國語文 1、數學 1、其餘為幼兒園／國小／中等／特教四類科的「教育理念與實務」「學習者發展與適性輔導」「課程教學與評量」。四類科的「教育理念與實務」重複率極高（115 年四卷幾乎完全相同），用 `tools/reuse-exp.py` 套用即可。
