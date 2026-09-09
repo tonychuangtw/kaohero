@@ -35,10 +35,11 @@ img{max-width:100%}
 .hd{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--card) 92%,transparent);
   backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
 .hd-in{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:10px 16px}
-/* Logo：「考」做成獨立印章式標誌，「英雄」用襯線體（2026-09-09 Tony：更派一點） */
-.logo{display:flex;align-items:center;gap:11px;color:var(--ink);
+/* Logo：「考」做成獨立印章式標誌，「英雄」用襯線體（2026-09-09 Tony：更派一點）
+   2026-09-09 Tony 定版「丙-3」：方章與字標貼齊（gap 0）、字距收到 .06em */
+.logo{display:flex;align-items:center;gap:0;color:var(--ink);
   font-family:"Noto Serif TC","Source Han Serif TC","Songti TC","PMingLiU",serif;
-  font-weight:900;font-size:calc(25px * var(--fs,1));letter-spacing:.16em;text-indent:.16em}
+  font-weight:900;font-size:calc(25px * var(--fs,1));letter-spacing:.06em;text-indent:.06em}
 .logo:hover{text-decoration:none}
 .logo .mk{width:38px;height:38px;flex:0 0 38px;border-radius:11px;
   background:linear-gradient(135deg,var(--brand),#7a4de0);
