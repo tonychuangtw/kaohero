@@ -706,7 +706,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_49.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 norketamine：ketamine 的 N-甲基被 CYP3A4／2B6 去除，仍保有環己酮與 2-氯苯基，是含量最高且具麻醉活性的代謝物。\n❌ (B) 為仍帶 N-甲基的羥化產物，屬次要代謝物。\n❌ (C) 為脫氫的 dehydronorketamine，活性極低。\n❌ (D) 為 norketamine 再羥化生成的 hydroxynorketamine，麻醉活性遠不如 norketamine。\n📚 出處：Foye's—靜脈麻醉劑的代謝"
   },
   {
    "n": 50,
@@ -721,7 +722,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_50.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 thiopental：2 位為硫酮的硫巴比妥，脂溶性極高、起效以秒計而作用僅數分鐘，臨床用於麻醉誘導而非鎮靜安眠。\n❌ (A) 為 temazepam，常用的安眠藥。\n❌ (C) 為 zolpidem，非苯二氮平類安眠藥。\n❌ (D) 為 estazolam，屬三唑苯二氮平類安眠藥。\n📚 出處：Foye's—鎮靜安眠藥與靜脈麻醉劑"
   },
   {
    "n": 51,
@@ -834,7 +836,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_58.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 clevidipine：3 位酯做成丁醯氧甲基，可被血液與組織中的酯酶迅速水解，靜脈輸注 2～4 分鐘即降壓、半衰期僅約 1 分鐘。\n❌ (B) 為 amlodipine，口服長效，起效以小時計。\n❌ (C) 為 nicardipine，靜脈給藥仍需 5～15 分鐘才達效。\n❌ (D) 為 nimodipine，用於蜘蛛膜下腔出血後的血管痙攣。\n📚 出處：Foye's—二氫吡啶類鈣通道阻斷劑"
   },
   {
    "n": 59,
@@ -905,7 +908,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_63.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) statin 的活性態是開環的 3,5-二羥基庚酸側鏈，兩個羥基分別為 3R、5R 構型，可模擬 HMG-CoA 的四面體中間體而與酵素緊密結合。\n❌ (A) 為閉環的 δ-內酯，屬前驅藥型，須先水解。\n❌ (B) 同為內酯型，且羥基立體標示不符。\n❌ (C) 側鏈雖已開環，但 3 位羥基的立體構型相反，無法正確嵌合。\n📚 出處：Foye's—HMG-CoA 還原酶抑制劑的構效關係"
   },
   {
    "n": 64,
@@ -920,7 +924,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_64.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) medroxyprogesterone acetate 為 6α-甲基、17α-乙醯氧基的孕酮衍生物，A 環維持 Δ4-3-酮，6α-甲基可阻擋代謝而延長作用。\n❌ (A) 為 chlormadinone acetate，6 位為氯且帶 Δ6 雙鍵。\n❌ (C) 為 megestrol acetate，6 位甲基但額外有 Δ6 雙鍵。\n❌ (D) 為 17α-羥基孕酮醋酸酯，6 位沒有甲基取代。\n📚 出處：Foye's—黃體素類藥物"
   },
   {
    "n": 65,
@@ -1019,7 +1024,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_71.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 吩噻嗪類的芳香族羥化幾乎只發生在未取代的那一環（7 位）；圖 D 把羥基畫在與氯同一環且相鄰的位置，並非已知的代謝產物。\n❌ (A) 為硫原子氧化生成的 sulfoxide，是常見代謝物。\n❌ (B) 為哌嗪末端 N-去甲基的產物。\n❌ (C) 為 7-羥基代謝物，是吩噻嗪類的典型羥化位置。\n📚 出處：Foye's—吩噻嗪類的代謝"
   },
   {
    "n": 72,
@@ -1034,7 +1040,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/110101_305_33_72.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) acetaminophen 約 50～60% 以酚羥基與葡萄糖醛酸接合後排出，是含量最高的代謝物。\n❌ (A) 苯環帶乙氧基，是 phenacetin 的衍生物而非 acetaminophen 的代謝物。\n❌ (B) 為鄰苯二酚型的次要氧化產物。\n❌ (C) 為乙醯基上羥化的產物，量極少。\n📚 出處：Foye's—Acetaminophen 的代謝"
   },
   {
    "n": 73,
