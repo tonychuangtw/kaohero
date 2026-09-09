@@ -760,7 +760,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_53.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 MPPP（1-甲基-4-苯基-4-丙醯氧基哌啶），是 pethidine 的類似物，被稱為 designer heroin；合成不當時混入的 MPTP 會造成不可逆的巴金森氏症。\n❌ (A) 為 3-甲基取代的立體異構物（alphaprodine 類），不是該俗稱所指者。\n❌ (B) 同為 3-甲基取代的另一異構物（betaprodine 類）。\n❌ (D) 為 pethidine（meperidine），4 位帶乙氧羰基，是合法的鎮痛藥。\n📚 出處：Foye's—Opioid Analgesics 與濫用藥物"
   },
   {
    "n": 54,
@@ -789,7 +790,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_55.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 以實線楔形標示，為 d-(S)-amphetamine（右旋體），中樞興奮作用約為左旋體的 3～4 倍，是四者中最強者。\n❌ (B) 為 l-(R)-異構物，中樞作用較弱而周邊心血管作用相對明顯。\n❌ (C) 波浪線表示消旋體，強度介於兩個對映體之間。\n❌ (D) 為 phenethylamine，缺少 α-甲基而迅速被單胺氧化酶破壞，口服幾無中樞作用。\n📚 出處：Foye's—CNS Stimulants 的立體選擇性"
   },
   {
    "n": 56,
@@ -804,7 +806,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_56.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 dantrolene sodium，硝基苯基接呋喃環再以腙鍵連到乙內醯脲，抑制肌漿網釋放鈣離子。\n❌ (A) 為 baclofen，屬 GABA-B 促效劑，無呋喃環。\n❌ (C) 為 metaxalone，含惡唑啶酮而非呋喃。\n❌ (D) 為 chlorphenesin carbamate，屬甘油醚胺甲酸酯。\n📚 出處：Foye's—Skeletal Muscle Relaxants"
   },
   {
    "n": 57,
@@ -819,7 +822,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_57.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) dezocine 為胺基四氫萘并環辛烯衍生物，特徵是一級胺（-NH2）與酚羥基，屬 μ 部分促效／κ 拮抗的鎮痛藥。\n❌ (A) 為 fentanyl，屬苯胺基哌啶類。\n❌ (C) 為 diphenoxylate，用於止瀉。\n❌ (D) 為 pentazocine，苯并嗎啡烷骨架加二甲基烯丙基。\n📚 出處：Foye's—Opioid Analgesics"
   },
   {
    "n": 58,
@@ -847,7 +851,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_59.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 mescaline（3,4,5-三甲氧基苯乙胺），作用於 5-HT2A 受體產生幻覺，與大麻受體幾乎沒有親和力。\n❌ (A) 為 anandamide，是內源性的大麻受體促效劑。\n❌ (C) 為 anandamide 的類似物，同樣結合大麻受體。\n❌ (D) 為 Δ9-THC，是大麻受體的典型配體。\n📚 出處：Foye's—大麻受體與致幻劑"
   },
   {
    "n": 60,
@@ -862,7 +867,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_60.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 nitroglycerin（三硝酸甘油酯），釋出一氧化氮使血管平滑肌鬆弛、降低心臟前負荷，是狹心症的首選急救藥。\n❌ (B) 為 milrinone，屬第三型磷酸二酯酶抑制劑，用於急性心衰竭。\n❌ (C) 為 dobutamine，β1 促效劑，用於心因性休克。\n❌ (D) 為 amantadine，抗病毒兼抗巴金森氏症用藥。\n📚 出處：Foye's—Antianginal Agents"
   },
   {
    "n": 61,
@@ -975,7 +981,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/102100_310_11_68.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 allopurinol，其吡唑并嘧啶結構與次黃嘌呤相似，可抑制黃嘌呤氧化酶而減少尿酸生成。\n❌ (A) 為 phenylbutazone，屬 NSAID，只抗發炎不減少尿酸生成。\n❌ (C) 為 probenecid，抑制腎小管再吸收以促進尿酸排泄，並非減少生成。\n❌ (D) 為 colchicine，抑制微管與嗜中性球趨化，用於急性痛風發作。\n📚 出處：Foye's—Antigout Agents"
   },
   {
    "n": 69,
