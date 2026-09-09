@@ -745,7 +745,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_52.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 loperamide：分子大且是 P-醣蛋白的受質，幾乎無法進入中樞，只作用於腸道的 μ 受體而用於止瀉，中樞鎮痛活性最低。\n❌ (A) 為 levorphanol，脂溶性高、中樞鎮痛效價強於嗎啡。\n❌ (B) 為 pethidine，是典型的中樞性鎮痛藥。\n❌ (C) 為 fentanyl，中樞鎮痛效價約為嗎啡的 100 倍。\n📚 出處：Foye's—Opioid Analgesics 與中樞穿透性"
   },
   {
    "n": 53,
@@ -788,7 +789,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_55.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 把羥基加在吲哚環的 6 位，almotriptan 並不會發生此位置的芳香族羥化，故不是常見代謝物。\n❌ (A) 為經單胺氧化酶 A 氧化脫胺後生成的吲哚乙酸，是主要代謝途徑。\n❌ (C) 為側鏈 N-去甲基的產物。\n❌ (D) 為吡咯烷環上羥化的產物。\n📚 出處：Foye's—Triptan 類的代謝"
   },
   {
    "n": 56,
@@ -941,7 +943,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_66.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) nateglinide 主要由 CYP2C9 把環己烷上的異丙基氧化成三級醇（M1），是血中含量最高的代謝物。\n❌ (A) 為異丙基脫氫成異丙烯基的次要產物。\n❌ (C) 除異丙烯基外苯環又被羥化，屬更少量的產物。\n❌ (D) 三級醇加上苯環羥化，同樣是量極少的次級代謝物。\n📚 出處：Foye's—口服降血糖藥的代謝"
   },
   {
    "n": 67,
@@ -970,7 +973,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_68.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腎上腺皮質素屬 C21 類固醇，母核為 pregnane：環戊烷多氫菲加上 17 位的乙基側鏈，且 5 位氫為 α 取向。\n❌ (A) 為 C27 的 cholestane 骨架，是膽固醇的母核。\n❌ (B) 同屬 cholestane 系列，碳數與側鏈長度都不符。\n❌ (D) 雖同為 pregnane，但 5 位氫畫成 β 取向，與慣用的母核表示不符。\n📚 出處：Foye's—類固醇的命名與骨架"
   },
   {
    "n": 69,
@@ -1013,7 +1017,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_71.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) diclofenac 主要由 CYP2C9 在 2,6-二氯苯胺環的 4' 位羥化，生成 4'-hydroxydiclofenac，是尿中含量最高的代謝物。\n❌ (A) 羥基落在苯乙酸環且緊鄰羧甲基，屬量很少的旁支產物。\n❌ (C) 為 CYP3A4 生成的 5-hydroxydiclofenac，屬次要代謝物。\n❌ (D) 側鏈少了一個亞甲基而成苯甲酸，代謝上不會生成。\n📚 出處：Foye's—NSAIDs 的代謝"
   },
   {
    "n": 72,
@@ -1056,7 +1061,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_74.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 brigatinib，其二甲基氧化膦的 P=O 與鄰位苯胺 NH 形成穩定的分子內氫鍵，把分子固定成 U 型而貼合 ALK 的 ATP 結合口袋。\n❌ (A) 為 alectinib，四環稠合骨架本身即為剛性平面，不靠分子內氫鍵摺疊。\n❌ (C) 為 ceritinib，以異丙磺醯基與鉸鏈區作用，缺少該氫鍵供受組合。\n❌ (D) 為 crizotinib，其構型主要由苄氧基的旋轉限制決定。\n📚 出處：ALK 抑制劑的構效關係"
   },
   {
    "n": 75,
@@ -1141,7 +1147,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111020_305_11_80.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ifosfamide 是 cyclophosphamide 的異構物：兩個氯乙基一個接在環內氮、一個接在環外氮上。\n❌ (A) 為 chlorambucil，屬苯丁酸氮芥。\n❌ (B) 為 melphalan，苯丙胺酸氮芥。\n❌ (C) 為 cyclophosphamide，兩個氯乙基都接在環外氮上。\n📚 出處：Foye's—烷化劑"
   }
  ]
 };
