@@ -11816,7 +11816,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（三）",
   "label": "115 年第一次　藥學（三）",
   "n": 80,
-  "exp": 77,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -11886,7 +11886,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（二）",
   "label": "115 年第二次　藥學（二）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -11900,7 +11900,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（三）",
   "label": "115 年第二次　藥學（三）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -12054,7 +12054,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（二）",
   "label": "114 年第二次　藥學（二）",
   "n": 80,
-  "exp": 77,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -12068,7 +12068,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（三）",
   "label": "114 年第二次　藥學（三）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 90
  },
  {
@@ -12222,7 +12222,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（二）",
   "label": "113 年第二次　藥學（二）",
   "n": 80,
-  "exp": 77,
+  "exp": 79,
   "mins": 90
  },
  {
@@ -12474,7 +12474,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（二）",
   "label": "111 年第一次　藥學（二）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 60
  },
  {

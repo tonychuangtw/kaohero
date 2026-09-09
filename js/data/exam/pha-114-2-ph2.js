@@ -252,7 +252,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/114090_305_0402_17.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 標示的兩個氫分別在雙鍵兩端且呈反式（trans）排列，³J 約 12～18 Hz，是四者中最大。\n❌ (A) 苯環鄰位氫的耦合常數約 7～9 Hz。\n❌ (C) 兩氫呈順式（cis）排列，³J 約 6～12 Hz，小於反式。\n❌ (D) 苯環間位氫的耦合常數僅約 1～3 Hz。\n📚 出處：¹H-NMR 耦合常數的規則"
   },
   {
    "n": 18,
@@ -798,7 +799,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/114090_305_0402_56.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) cinnamon oil（肉桂油）的主成分為 cinnamaldehyde：苯環接反式丙烯醛側鏈。\n❌ (A) 為 anethole，是茴香油的主成分。\n❌ (C) 為 eugenol，是丁香油的主成分。\n❌ (D) 為 vanillin。\n📚 出處：生藥學—肉桂油"
   },
   {
    "n": 57,

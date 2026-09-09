@@ -700,7 +700,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_22_49.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) isotretinoin 為 13-順式維甲酸：多烯鏈末端接羧酸，且 13 位雙鍵為順式而使鏈彎折。\n❌ (B) 為 tretinoin（全反式維甲酸），鏈完全伸直。\n❌ (C) 為 retinol（維生素 A 醇），末端是羥基而非羧酸。\n❌ (D) 環上雙鍵位置改變且末端為醇，並非 isotretinoin。\n📚 出處：維甲酸類藥物的立體化學"
   },
   {
    "n": 50,
@@ -785,7 +786,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_305_22_55.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) eugenol 為 4-烯丙基-2-甲氧基酚，是丁香油（clove oil）的主成分，具局部麻醉與抗菌作用。\n❌ (A) 為水楊酸甲酯，是冬青油的成分。\n❌ (B) 為 thymol，來自百里香油。\n❌ (C) 為 vanillin，是香草的主成分。\n📚 出處：生藥學—揮發油的主成分"
   },
   {
    "n": 56,

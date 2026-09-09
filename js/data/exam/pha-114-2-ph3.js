@@ -196,7 +196,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph3'] = {
    ],
    "needfig": true,
    "fig": "img/q/114090_305_0403_13.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) propellant 114 為 1,2-二氯四氟乙烷（CClF2-CClF2）：兩個碳各帶兩個氟與一個氯，呈對稱結構。\n❌ (B) 為 CCl2F-CF3，是異構物 114a。\n❌ (C) 為 propellant 112（C2Cl4F2）。\n❌ (D) 為 propellant 113（C2Cl3F3）。\n📚 出處：氣化噴霧劑的推進劑編號規則"
   },
   {
    "n": 14,
@@ -769,7 +770,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph3'] = {
    ],
    "needfig": true,
    "fig": "img/q/114090_305_0403_54.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 一階吸收一室模式下 Cp＝[FD0ka／Vd(ka−k)]·(e^(−kt)−e^(−ka·t))；排除相外插回 Y 軸的截距即該係數 FD0ka／[Vd(ka−k)]。\n❌ (A) 把 Vd 放到分子且分母用 ka(ka−k)，量綱不符。\n❌ (B) 以 k 取代 ka，與吸收速率無關。\n❌ (C) 缺少 ka 且分母的差值順序顛倒，會得到負值。\n📚 出處：口服吸收的一室模式"
   },
   {
    "n": 55,

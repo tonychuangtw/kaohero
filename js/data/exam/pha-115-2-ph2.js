@@ -209,7 +209,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0402_14.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 醛基氫直接接在羰基碳上，受強烈去屏蔽，化學位移約 δ 9～10，是四者中最大。\n❌ (A) 苯環氫約 δ 7.3。\n❌ (B) 烯類氫約 δ 5～6。\n❌ (D) 末端炔氫因三鍵的環電流屏蔽，只有 δ 2～3。\n📚 出處：¹H-NMR 化學位移的規則"
   },
   {
    "n": 15,
@@ -927,7 +928,8 @@ window.APP_EXAM_PAPERS['pha-115-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/115090_305_0402_65.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) (−)-cocaine 為莨菪烷骨架：2 位帶甲酯、3 位接苯甲酸酯，兩個酯基都在同一側。\n❌ (B) 為 scopolamine，含環氧橋與莨菪酸酯。\n❌ (C) 為 benzoylecgonine，甲酯已水解成羧酸，是古柯鹼的代謝物。\n❌ (D) 為 atropine／hyoscyamine，酯基為莨菪酸而無甲酯。\n📚 出處：生藥學—莨菪烷生物鹼"
   },
   {
    "n": 66,
