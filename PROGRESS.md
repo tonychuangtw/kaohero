@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師已完成；目前主線＝教師檢定 261 卷 8,103 題）
-NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,103 題）續做：打開 `js/data/exam/tea-112-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,103 題）續做：打開 `js/data/exam/tea-111-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 08:40 台北
+UPDATED: 2026-09-11 11:30 台北
 
 ---
 
@@ -19,6 +19,7 @@ UPDATED: 2026-09-11 08:40 台北
 - [x] **repo 改名 kaoguhero → kaohero**（2026-09-09 完成）。GitHub repo 已改名、本機 remote 已換 `git@github.com:tonychuangtw/kaohero.git`、新站 https://tonychuangtw.github.io/kaohero/ 回 200、rootsite `404.html` MAP 加 `kaohero` 並把舊鍵 `kaoguhero` 指向新站（GitHub Pages 對舊路徑不會自動轉址，靠這層救援）。內部識別碼 `APP: 'kaoguhero'` 與 localStorage `kaoguhero.*` 刻意不動，避免既有使用者紀錄與雲端同步斷掉
 - [x] **藥師 168 卷 12,600 題全數做完**（2026-09-10，寫了 12,123 題）
 - [ ] 教師檢定 → 高普考 → 地方特考 補解析（見 NEXT_ACTION）
+- [ ] **回頭補藥師的圖片題解析（199 題）**：2026-09-11 查證發現「選項是空字串」的題其實都有 `fig` 圖檔（img/q/*.webp），網頁上看得到圖、考生能作答，之前是用終端機讀題看不到圖才跳過。用 Read 工具開圖檔判讀後即可補寫。已在 Telegram 問 Tony 要先補這批還是先把教檢做完，等他回覆；他原本問的是「這類題目要不要直接刪掉」，我建議不刪（刪了考卷會缺號、與考選部原卷對不起來，而且這些題本來就能作答）
 - [x] **自訂網域正式上線**（2026-09-09 完成，https://kaohero.com）。建議 kaohero.com（RDAP 查過未註冊），Cloudflare Registrar 註冊、DNS 留 Cloudflare、站台續用 GitHub Pages 自訂網域。等 Tony 買完網域後：① DNS 記錄（A/AAAA 或 CNAME 到 tonychuangtw.github.io，先設 DNS only 讓 GitHub 簽憑證）② repo 加 CNAME 檔 ③ GitHub Pages 設 custom domain + Enforce HTTPS ④ 後端加 `EXTRA_ORIGINS=https://kaohero.com`（server.js 已有此環境變數機制，不必改程式）⑤ Google Identity 的 authorized JavaScript origins 加新網域（要 Tony 在 Google Cloud Console 操作）⑥ rootsite 舊網址轉到新網域。已完成：Cloudflare 5 筆 DNS 記錄（DNS only）、repo CNAME 檔、GitHub Pages custom domain、強制 HTTPS（Let's Encrypt 憑證已簽發）、後端 EXTRA_ORIGINS、Google OAuth origins（Tony 操作）。驗證：三個網址皆 200、CORS 放行、站內資源可正常載入
 - [ ] **SEO／AEO 上線清單（依 shared.md §22，2026-09-09 起跑）**。已登記進 seoaeo 監控站（https://tonychuangtw.github.io/seoaeo/ ，站名「考英雄」、線名 kaohero、主關鍵字：國考考古題／高普考考古題／考古題詳解）。首次檢查 SEO 37%／AEO 35% → 三輪修正後 **SEO 77%／AEO 71%（AEO 已無 ❌）**
   - 已做：title 與 description 帶主關鍵字、canonical、og:url／og:image／twitter 大圖卡、JSON-LD（WebSite／Organization 含 logo／WebPage dateModified／FAQPage 七題）、首頁 1,200 字靜態內容（H1、問句式 H2＋直答段落、分類清單、FAQ 可見文字、站內外連結、更新日期）、robots.txt（明示不擋 AI 爬蟲）、sitemap.xml、llms.txt、img/og.png 與 img/logo.png
@@ -69,13 +70,14 @@ UPDATED: 2026-09-11 08:40 台北
 
 ## 教師檢定進度（`tea-*`，261 卷 8,103 題）
 
-已完成 **115、114、113 三個年度共 46 卷、1,126 題**（教檢全部 261 卷 8,103 題）。
+已完成 **115、114、113、112 四個年度共 61 卷、1,495 題**（教檢全部 261 卷 8,103 題）。
 
 | 年度 | 卷數 | 已寫題數 |
 |---|---|---|
 | 115 | 15 | 362 |
 | 114 | 16 | 394 |
 | 113 | 15 | 370 |
+| 112 | 15 | 369 |
 
 跳過的題：選項或題幹在圖上（數學能力測驗較多）、轉檔缺公式、官方答案與教科書明顯衝突者。
 每年 15 卷的結構：國語文 1、數學 1、其餘為幼兒園／國小／中等／特教四類科的「教育理念與實務」「學習者發展與適性輔導」「課程教學與評量」。四類科的「教育理念與實務」重複率極高（115 年四卷幾乎完全相同），用 `tools/reuse-exp.py` 套用即可。
