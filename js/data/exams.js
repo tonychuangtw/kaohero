@@ -15750,7 +15750,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "114 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -15778,7 +15778,7 @@ window.APP_EXAMS = [
   "subjName": "民法（公平交易管理組）",
   "label": "114 年　高考三級　民法（公平交易管理組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
