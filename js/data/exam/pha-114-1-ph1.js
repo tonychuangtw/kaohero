@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_41.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 octreotide：保留 Phe-Trp-Lys-Thr 必要序列並縮短成八肽，N 端改成 D-Phe、Trp 改成 D-Trp、C 端改成 Thr-ol，這些改造使胜肽酶不易水解，半衰期延長至約 100 分鐘。\n❌ (A) 雙硫鍵被打開成硫酯，環肽構型消失而失去活性。\n❌ (B) 雖已縮短並乙醯化，但未把 Trp 改成 D 型，仍容易被酵素分解。\n❌ (D) 只在 C 端加了 D-Ser，關鍵的 D-Trp 與 Thr-ol 都沒有。\n📚 出處：胜肽藥物的構效改造—somatostatin 類似物"
   },
   {
    "n": 42,
@@ -813,7 +814,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_57.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 氮上為甲基、無 14-OH，是 hydromorphone，屬 μ 受體促效劑而非拮抗劑。\n❌ (A) 為 naloxone，N-烯丙基加 14-OH，是典型 μ 拮抗劑。\n❌ (B) 為 naltrexone 鹽酸鹽，N-環丙甲基的 μ 拮抗劑。\n❌ (D) 為 nalbuphine，N-環丁甲基，對 μ 受體具拮抗作用。\n📚 出處：Foye's—阿片受體拮抗劑的構效關係"
   },
   {
    "n": 58,
@@ -856,7 +858,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_60.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 desethylamiodarone：側鏈二乙胺被 CYP3A4 去掉一個乙基，兩個碘與苯并呋喃骨架都保留，抗心律不整活性與母藥相當且會蓄積。\n❌ (B) 只剩一個碘且胺仍為二乙基，非代謝可得。\n❌ (C) 除去乙基外丁基還被羥化，屬量少的次級產物。\n❌ (D) 少了一個碘原子，去碘並非主要代謝途徑。\n📚 出處：Foye's—抗心律不整藥的代謝"
   },
   {
    "n": 61,
@@ -913,7 +916,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_64.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 exemestane：6 位帶亞甲基的雄烯二酮衍生物，被芳香酶轉化後生成反應性中間體並與酵素共價結合，屬自殺型（不可逆）抑制劑。\n❌ (A) 為 danazol，屬弱雄性素／促性腺素抑制劑。\n❌ (C) 為 bicalutamide，屬雄性素受體拮抗劑。\n❌ (D) 為 finasteride，抑制 5α-還原酶。\n📚 出處：Foye's—芳香酶抑制劑"
   },
   {
    "n": 65,
@@ -970,7 +974,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_68.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 nizatidine，幾乎不經首渡代謝，口服生體可用率可達 90～100%，四者中最佳。\n❌ (A) 為 cimetidine，生體可用率約 60%。\n❌ (B) 為 ranitidine，約 50%。\n❌ (D) 為 famotidine，僅約 40～45%。\n📚 出處：Foye's—H2 受體拮抗劑的藥動性質"
   },
   {
    "n": 69,
@@ -999,7 +1004,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_70.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) sulindac 為 5-氟-2-甲基-1-(4-甲基亞磺醯基亞苄基)茚-3-乙酸，苯環上必須是氟取代且硫為亞磺醯基（sulfoxide），Z 式即圖 C。\n❌ (A) 以甲氧基取代氟，骨架不符。\n❌ (B) 硫仍為硫醚，是體內還原後的活性代謝物 sulindac sulfide。\n❌ (D) 既是甲氧基又是硫醚，兩處都不符。\n📚 出處：Foye's—NSAIDs 的構造"
   },
   {
    "n": 71,
@@ -1014,7 +1020,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0401_71.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) naftifine 屬丙烯胺（allylamine）類，抑制 squalene epoxidase，使 squalene 無法環氧化而堆積，麥角固醇的合成因此中斷。\n❌ (B) 抑制 CYP450 14α-去甲基酶的是azole 類抗真菌藥。\n❌ (C) Δ14-還原酶是 morpholine 類（如 amorolfine）的標的。\n❌ (D) Δ8,Δ7-異構酶同樣由 morpholine 類抑制。\n📚 出處：Foye's—抗真菌藥的作用機轉"
   },
   {
    "n": 72,
