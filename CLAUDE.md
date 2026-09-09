@@ -5,8 +5,10 @@
 
 ## 站台
 
-- repo：github.com/tonychuangtw/kaoguhero（**Tony 2026-09-09 指示改名為 kaohero，網址要用這個**，尚未執行）
-- 本機 clone：`~/TelegramClaude/kaoguhero`
+- repo：github.com/tonychuangtw/kaohero（2026-09-09 已從 kaoguhero 改名）
+- 網址：https://tonychuangtw.github.io/kaohero/ （舊網址 /kaoguhero/ 由 rootsite 404 MAP 轉址救援）
+- ⛔ 不要改的識別碼：`js/config.js` 的 `APP: 'kaoguhero'`（後端同步 app key，改了雲端紀錄會對不上）、localStorage 的 `kaoguhero.v1` / `kaoguhero.prefs`（改了既有使用者的作答紀錄會消失）。這些只是內部 key，與網址無關
+- 本機 clone：`~/TelegramClaude/kaoguhero`（目錄名維持舊名，避免動到 tg session／unit 設定）
 - 純靜態站，vanilla JS、無 build、GitHub Pages 部署（push 到 main 即上線）
 - 規模：2,377 卷 / 109,281 題，四大類（醫事、高普考、地方特考、專技）
 

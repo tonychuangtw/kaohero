@@ -61,7 +61,7 @@ def main():
     ap.add_argument('src'); ap.add_argument('dst')
     ap.add_argument('--title', default='考古英雄 歷屆詳解')
     ap.add_argument('--limit', type=int, default=0)
-    ap.add_argument('--owner', default='考古英雄 kaoguhero')
+    ap.add_argument('--owner', default='考古英雄 kaohero')
     a = ap.parse_args()
 
     data = json.load(open(a.src, encoding='utf-8'))

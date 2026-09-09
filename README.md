@@ -2,7 +2,7 @@
 
 國家考試歷屆考古題線上練習站。
 
-- 網址：https://tonychuangtw.github.io/kaoguhero/
+- 網址：https://tonychuangtw.github.io/kaohero/
 - 收錄（民國 102～115 年）：
   - 醫事人員：醫師、牙醫師、中醫師、藥師（各分兩階段）
   - 律師／司法官 第一試：綜合法學（一）（二）

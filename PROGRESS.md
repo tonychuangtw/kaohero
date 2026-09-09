@@ -1,5 +1,5 @@
 STATUS: in-progress
-OBJECTIVE: 把考古英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題），並完成 repo 改名 kaoguhero → kaohero
+OBJECTIVE: 把考古英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題）
 NEXT_ACTION: 打開 `js/data/exam/pha-110-2-ph4.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（110-1、109-2…102-1）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
@@ -16,7 +16,7 @@ UPDATED: 2026-09-09 09:10 台北
 
 ## 待辦
 
-- [ ] **repo 改名 kaoguhero → kaohero**（Tony 2026-09-09 指示）。要動到：GitHub repo 設定改名 → 本機 clone 的 remote URL → Pages 網址（`tonychuangtw.github.io/kaohero/`）→ 站內任何寫死舊網址的地方 → rootsite 的 404 MAP（依 shared.md §16 網址不分大小寫）→ 告訴 Tony 新網址並確認舊書籤的轉址情形。**改名前先跟 Tony 確認什麼時候動**，因為改名當下線上網址會換掉
+- [x] **repo 改名 kaoguhero → kaohero**（2026-09-09 完成）。GitHub repo 已改名、本機 remote 已換 `git@github.com:tonychuangtw/kaohero.git`、新站 https://tonychuangtw.github.io/kaohero/ 回 200、rootsite `404.html` MAP 加 `kaohero` 並把舊鍵 `kaoguhero` 指向新站（GitHub Pages 對舊路徑不會自動轉址，靠這層救援）。內部識別碼 `APP: 'kaoguhero'` 與 localStorage `kaoguhero.*` 刻意不動，避免既有使用者紀錄與雲端同步斷掉
 - [ ] 藥師詳解續做（見 NEXT_ACTION）
 - [ ] 詳解全部寫完後：題解分離、變現四階段（`docs/monetization-plan.md`）
 

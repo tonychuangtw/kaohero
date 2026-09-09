@@ -92,7 +92,7 @@ def main():
         templates=[{'name': '作答', 'qfmt': FRONT, 'afmt': BACK}],
         css=CSS)
 
-    owner = f'本檔案授權給 {a.owner} 使用' if a.owner else '考古英雄 kaoguhero'
+    owner = f'本檔案授權給 {a.owner} 使用' if a.owner else '考古英雄 kaohero'
     footer = f'{owner} · 詳解為本站自撰，禁止轉載散布'
 
     decks, total = {}, 0
