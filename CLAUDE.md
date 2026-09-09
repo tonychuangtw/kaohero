@@ -1,0 +1,44 @@
+# kaohero — 考古英雄（國家考試考古題站）
+
+這是 `claude-telegram@kaohero` 線的 workdir（bot 由 Tony 於 2026-09-09 開設）。
+2026-09-09 從 chinese 線分出：chinese 專心 K12Review／LanExamMock／補習複習，本線專責考古英雄。
+
+## 站台
+
+- repo：github.com/tonychuangtw/kaoguhero（**Tony 2026-09-09 指示改名為 kaohero，網址要用這個**，尚未執行）
+- 本機 clone：`~/TelegramClaude/kaoguhero`
+- 純靜態站，vanilla JS、無 build、GitHub Pages 部署（push 到 main 即上線）
+- 規模：2,377 卷 / 109,281 題，四大類（醫事、高普考、地方特考、專技）
+
+## 逐題詳解（目前主線工作）
+
+Tony 2026-09-06 15:40「依序開始全部寫解析」、「除非有什麼解決不了一定要問的問題，不然都做到完為止」。
+
+**格式硬規則**（`tools/set-exp.js` 會擋）：
+- 第一行 `✅ (正解字母) …`，字母必須等於該題 `a` 索引
+- 中間**剛好三行** `❌ (X) …`
+- 最後一行 `📚 出處：…`
+
+**每卷做法**：
+1. 讀題：
+   ```
+   cd ~/TelegramClaude/kaoguhero && node -e "global.window={};require('./js/data/exam/<pid>.js');const p=window.APP_EXAM_PAPERS['<pid>'];const L=['A','B','C','D'];p.qs.filter(q=>q.n<=40).forEach(q=>{console.log('#'+q.n+' '+q.q);q.o.forEach((o,i)=>console.log('  '+L[i]+') '+o));console.log('  ANS='+L[q.a])})"
+   ```
+   （後半改 `q.n>40`；一次讀 40 題，避免單次輸出過長）
+2. 用 **Write 工具**寫 patch JSON（`[{pid,n,exp}]`）到 scratchpad，heredoc 容易被跳脫字元咬掉
+3. `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js`
+4. commit + push
+
+⚠️ **每寫完一卷一定要跑 `node tools/build-index.js --write`**，否則首頁與各卷卡片上的「自撰詳解」數字不會更新（2026-09-08 Tony 回報「數字怎麼都沒增加」）。
+
+**該跳過不要硬寫的題**：
+- 選項在圖上、題庫只存到空字串的題
+- 題幹或選項在轉檔時毀損、缺公式的題
+- 官方答案與教科書明顯衝突的題（寧可不寫，不要寫出誤導內容）
+
+## 其他
+
+- 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節
+- 題解分離、變現四階段計畫：`docs/monetization-plan.md`（詳解寫完再動工）
+- 決策與實驗紀錄：`docs/plan-log.md`
+- 回報用 `~/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-send.sh kaohero`
