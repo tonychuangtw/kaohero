@@ -592,7 +592,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_41.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 以馬來醯亞胺與抗體半胱胺酸的硫醇形成硫醚鍵，體內沒有專一酵素或條件可將其切斷，屬非可裂解型連接子（如 trastuzumab emtansine 的 SMCC）。\n❌ (A) 雙硫鍵可被細胞內高濃度的麩胱甘肽還原切斷，屬可裂解型。\n❌ (B) 腙鍵在溶酶體的酸性環境下水解，屬酸敏感的可裂解型。\n❌ (D) 纈胺酸─瓜胺酸雙胜肽會被組織蛋白酶 B 切斷，屬酵素可裂解型。\n📚 出處：抗體藥物複合體的連接子設計"
   },
   {
    "n": 42,
@@ -607,7 +608,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_42.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) selegiline 為三級胺（pKa 約 7.5），在胃液的強酸環境中幾乎完全解離成陽離子，脂溶性大降，最不易由胃吸收。\n❌ (A) phenytoin 是弱酸（pKa 8.3），在胃中維持非解離態，易吸收。\n❌ (B) tolcapone 的酚羥基酸性更弱，胃中同樣呈非解離態。\n❌ (D) tropicamide 的吡啶氮鹼性弱（pKa 約 5），解離程度遠低於三級胺。\n📚 出處：pH 分配假說與藥物吸收"
   },
   {
    "n": 43,
@@ -664,7 +666,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_46.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 pilocarpine：具內酯環與 N-甲基咪唑，是典型的蕈毒鹼受體促效劑。\n❌ (B) 為 cimetidine，屬 H2 受體拮抗劑。\n❌ (C) 為 metoclopramide，屬多巴胺 D2 拮抗劑。\n❌ (D) 為金雞納生物鹼（quinidine 類），作用於鈉離子通道。\n📚 出處：Foye's—Cholinergic Agents"
   },
   {
    "n": 47,
@@ -707,7 +710,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_49.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 ethopropazine（profenamine），吩噻嗪骨架加上二乙胺基丙基側鏈，中樞抗膽鹼作用最強，臨床用於巴金森氏症的顫抖。\n❌ (B) 為 diphenhydramine，抗巴金森作用較弱。\n❌ (C) 為苯并二噁烷衍生物，屬甲型腎上腺素相關結構。\n❌ (D) 為乙二胺類抗組織胺，中樞抗膽鹼作用有限。\n📚 出處：Foye's—Antiparkinson Agents"
   },
   {
    "n": 50,
@@ -736,7 +740,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_51.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 omeprazole：吡啶與苯并咪唑經亞磺醯基相連，在壁細胞酸性環境活化後與質子幫浦形成雙硫鍵而抑制胃酸分泌。\n❌ (B) 為 cimetidine，阻斷 H2 受體。\n❌ (C) 為吲哚胍類結構，非質子幫浦抑制劑。\n❌ (D) 為 ondansetron，屬 5-HT3 拮抗劑。\n📚 出處：Foye's—Antiulcer Agents"
   },
   {
    "n": 52,
@@ -751,7 +756,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_52.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 allopurinol：吡唑并嘧啶母核加 4-羥基，抑制黃嘌呤氧化酶而降低尿酸生成。\n❌ (A) 為 guanine，是嘌呤鹼基。\n❌ (B) 為 oxypurinol（allopurinol 的代謝物），本題問的是藥物本身。\n❌ (C) 為 hypoxanthine，是尿酸生成的受質。\n📚 出處：Foye's—Antigout Agents"
   },
   {
    "n": 53,
@@ -878,7 +884,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_61.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) zolpidem 主要由 CYP3A4 將對甲苯基的甲基氧化成羧酸，生成無活性的 4-carboxy 代謝物，圖 A 正是此結構。\n❌ (B) 羧基被畫在咪唑并吡啶環上，位置不符。\n❌ (C) 為環上羥化的次要代謝物。\n❌ (D) 為醯胺 N-甲基羥化的次要產物。\n📚 出處：Foye's—Sedative-Hypnotics 的代謝"
   },
   {
    "n": 62,
@@ -907,7 +914,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_63.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 把 N-甲基換成 3-氰基-3,3-二苯基丙基即得 diphenoxylate，作用侷限於腸道的鴉片受體而成為止瀉劑。\n❌ (A) 換成苯乙基得到的是鎮痛效力更強的 pheneridine 類衍生物。\n❌ (B) 環丙甲基取代多用於製造拮抗劑。\n❌ (C) 烯丙基取代同樣傾向產生拮抗作用。\n📚 出處：Foye's—Opioid Analgesics 的構效關係"
   },
   {
    "n": 64,
@@ -1006,7 +1014,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_70.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 的 C21 是游離的羥基，僅 C17 帶丙酸酯，本身即為具活性的類固醇（如 beclomethasone-17-單丙酸酯），不需水解即有作用。\n❌ (A) C21 琥珀酸單酯鈉鹽須水解釋出母藥，屬前驅藥。\n❌ (B) C21 醋酸酯須水解才具活性。\n❌ (C) C21 丙酸酯同樣須水解才釋出活性型。\n📚 出處：Foye's—Corticosteroid Prodrugs"
   },
   {
    "n": 71,
@@ -1049,7 +1058,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_73.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) diclofenac 是 2-[2-(2,6-二氯苯胺基)苯基]乙酸，苯環上帶一個 CH2COOH 且苯胺環為 2,6-二氯，圖 D 完全符合。\n❌ (A) 側鏈多一個亞甲基，成為丙酸衍生物。\n❌ (B) 為 mefenamic acid（2,3-二甲苯胺基苯甲酸）。\n❌ (C) 側鏈帶α-甲基，屬芳基丙酸類。\n📚 出處：Foye's—NSAIDs"
   },
   {
    "n": 74,
@@ -1064,7 +1074,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0401_74.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) meclofenamic acid 的主要活性代謝物是苯胺環上 3'-甲基被氧化成羥甲基（CH2OH），圖 B 正是此結構。\n❌ (A) 羥基被畫在苯甲酸環上，屬另一種羥化產物。\n❌ (C) 羧基被還原成羥甲基，會失去酸性藥效基團。\n❌ (D) 為苯胺環上的酚羥化物，非主要活性代謝物。\n📚 出處：Foye's—Fenamates 的代謝"
   },
   {
    "n": 75,
