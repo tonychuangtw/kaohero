@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# 不阻擋 AI 爬蟲：本站內容為政府公開試題與自撰詳解，歡迎索引與引用（請標示出處）
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://kaohero.com/sitemap.xml
