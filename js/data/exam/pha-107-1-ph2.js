@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "粉紅色",
     "紅色"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 指示劑的 pKa＝5，pH 8 比 pKa 高 3 個單位，幾乎完全以解離型存在，呈黃色。\n❌ (B) 兩種型式都有顏色，不會無色。\n❌ (C) 粉紅色是兩型並存的過渡色，須在 pKa 附近。\n❌ (D) 紅色是酸性（未解離型）的顏色。\n📚 出處：Watson, Pharmaceutical Analysis—Acid-Base Indicators"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "紅外光光譜",
     "拉曼光譜"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 拉曼光譜測的是樣品受激後散射（放出）的光子與入射光的頻率差，屬發散（emission／scattering）型光譜。\n❌ (A) 可見光光譜為吸收光譜。\n❌ (B) 紫外光光譜屬吸收光譜。\n❌ (C) 紅外光譜同為吸收光譜。\n📚 出處：Skoog, Raman Spectroscopy"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "扇形磁場質譜儀（magnetic sector MS）",
     "傅立葉轉換質譜儀（FT ion cyclotron resonance MS）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 傅立葉轉換離子迴旋共振質譜的解析度可達數十萬至百萬，是所有質量分析器中最高的。\n❌ (A) 四極柱僅單位質量解析。\n❌ (B) 飛行時間式解析度高但不及 FT-ICR。\n❌ (C) 磁扇形可達高解析，仍低於 FT-ICR。\n📚 出處：Skoog, Mass Analyzers"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "n→π*",
     "n→σ*"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) n→π* 躍遷所需能量最低（波長最長），且因對稱性禁阻使莫耳吸光係數很小（通常 10～100）。\n❌ (A) π→π* 的 ε 通常大於 1,000。\n❌ (B) σ→σ* 能量最高，出現在真空紫外區。\n❌ (D) n→σ* 的波長較短且 ε 中等。\n📚 出處：Skoog, UV-Visible Molecular Absorption"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "atomic absorption spectrophotometer",
     "ESI-MS"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 感應耦合電漿的溫度可達 6,000～10,000 K，是所列儀器中最高的。\n❌ (A) 氣相層析管柱溫度一般在 400°C 以下。\n❌ (C) 原子吸收的火焰溫度約 2,000～3,000 K。\n❌ (D) 電灑游離屬軟游離，在接近室溫下進行。\n📚 出處：Skoog, Atomic Spectrometry"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "14N",
     "16O"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ¹H 的自旋量子數 I＝1/2，是核磁共振最常觀測的核種。\n❌ (B) ¹²C 的 I＝0，無核磁訊號。\n❌ (C) ¹⁴N 的 I＝1，為四極核。\n❌ (D) ¹⁶O 的 I＝0。\n📚 出處：Skoog, Nuclear Magnetic Resonance"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "此兩化合物吸光度A（1%, 1 cm）相近",
     "此兩化合物莫耳吸光度（ε）有明顯差異"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。兩者的莫耳吸光係數差異大、分子量也不同，換算後的比吸光值 A(1%,1cm) 不會相近。\n❌ (A) 兩者都有苯環（與羰基）發色團。\n❌ (B) 主要躍遷皆為 π→π*。\n❌ (D) 肉桂酸的共軛系統較長，ε 明顯大於苯甲酸。\n📚 出處：Watson, Pharmaceutical Analysis—UV Spectrophotometry"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "9.5",
     "10.0"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 吸光度 0.7 恰為離子化型（1.2）與非離子化型（0.2）的中點，代表兩型各半，此時 pH＝pKa＝9.5。\n❌ (A) pKa 8.5 時 pH 9.5 應已大量解離，吸光度接近 1.2。\n❌ (B) pKa 9.0 時吸光度會高於 0.7。\n❌ (D) pKa 10.0 時吸光度會低於 0.7。\n📚 出處：Watson, Pharmaceutical Analysis—pKa Determination"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "與輻射（radiation）光子能量關係式為E = hv",
     "與波長及頻率之關係式為h = vλ"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 普朗克關係式 E＝hν，光子能量與頻率成正比。\n❌ (A) 其值為 6.626×10⁻²⁷ erg·s（單位為 erg·s 而非 erg·s⁻¹），且指數符號錯誤。\n❌ (B) 它是常數，不隨波長改變。\n❌ (D) 波長與頻率的關係是 c＝νλ，與 h 無關。\n📚 出處：Skoog, Introduction to Spectrometric Methods"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "III",
     "IV"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ODS 為逆相系統，親脂性最強的蛋白質 I 與非極性固定相作用最強，滯留時間最長。\n❌ (B) II 的親脂性次之。\n❌ (C) III 的滯留更短。\n❌ (D) IV 親脂性最低，最早沖出。\n📚 出處：Skoog, Reversed-Phase HPLC"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "毛細管電泳",
     "薄層層析法"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 需冷凍乾燥的藥品多為蛋白質、胜肽等大分子且熱不安定，不揮發也不耐高溫，無法用氣相層析分析。\n❌ (B) 液相層析是這類藥品的標準分析法。\n❌ (C) 毛細管電泳適合蛋白質與胜肽。\n❌ (D) 薄層層析亦可用於初步分離。\n📚 出處：Skoog, Chromatographic Methods"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "105",
     "110"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 含量＝(1100／1000)×30.00＝33.0 mg，占標示量 30 mg 的 110%。\n❌ (A) 95% 對應面積比小於 1。\n❌ (B) 100% 需面積相等。\n❌ (C) 105% 對應面積比 1.05。\n📚 出處：Ansel's Pharmaceutical Calculations；定量分析"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "不具紫外光或可見光的吸收",
     "能與待測成分發生化學反應"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 良好的內部標準品應與待測物性質相近、滯留時間接近但能完全分離，以同步校正進樣與前處理誤差。\n❌ (A) 分子量大小不是選擇條件。\n❌ (C) 必須能被同一偵測器偵測，故需有吸收。\n❌ (D) 絕不可與待測物反應。\n📚 出處：Skoog, Quantitative Chromatography"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "hydrocortisone sodium phosphate",
     "testosterone propionate"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 矽膠為正相系統，極性最大者滯留最強、Rf 最小；磷酸鈉鹽帶電荷，極性遠高於其他三者。\n❌ (A) hydrocortisone 有多個羥基但極性不及磷酸鹽。\n❌ (B) 乙酸酯化後極性下降。\n❌ (D) 丙酸睪固酮極性最低，Rf 最大。\n📚 出處：中華藥典—薄層層析法"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "acetic acid",
     "hydrochloric acid"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在冰醋酸溶劑中，醋酸接受質子後形成的 CH₃COOH₂⁺ 即為此體系的共軛酸（溶劑合質子）。\n❌ (A) 過氯酸是滴定液（質子供給者）。\n❌ (B) 硫酸不參與此滴定體系。\n❌ (D) 鹽酸同樣不是本反應的溶劑或共軛酸。\n📚 出處：中華藥典—非水滴定法"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "2～4",
     "8～12"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 卡爾費雪反應在 pH 4～7 之間進行最完全且速率適當；pH 過低反應變慢、過高則會有副反應。\n❌ (B) pH 7～10 會產生非計量的副反應。\n❌ (C) pH 2～4 反應速率過慢。\n❌ (D) pH 8～12 完全不適用。\n📚 出處：中華藥典—水分測定法（卡爾費雪法）"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "E = Ek + 0.0591 × pH",
     "E = Ek + 0.0561 × pH"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 25°C 時 2.303RT/F≒0.0591 V；玻璃電極的電位隨 pH 上升而下降，故 E＝Ek−0.0591×pH。\n❌ (A) 0.0561 不是常用的溫度換算係數。\n❌ (C) 符號方向相反。\n❌ (D) 係數與符號皆錯。\n📚 出處：Skoog, Potentiometry"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "核磁共振分析法",
     "毛細管電泳分析法"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 電位滴定可精確追蹤 pH 隨滴定液的變化，半當量點的 pH 即為 pKa，是測定解離常數的標準方法。\n❌ (B) 質譜提供分子量與結構資訊。\n❌ (C) NMR 可間接推估但非首選。\n❌ (D) 毛細管電泳可由遷移率變化推算，準確度不及電位滴定。\n📚 出處：中華藥典—電位滴定法"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "0.1 N",
     "0.2 N"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 草酸鈉當量重＝134/2＝67；0.134 g÷67＝0.002 eq；0.002÷0.020 L＝0.1 N。\n❌ (A) 0.02 N 為未除以體積的誤算。\n❌ (B) 0.05 N 未正確計算當量數。\n❌ (D) 0.2 N 多算了一倍價數。\n📚 出處：中華藥典—容量分析"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "維生素E",
     "維生素B1"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 中華藥典的維生素 A 含量測定中，以鈀為催化劑進行催化性氫化以區別並校正干擾成分。\n❌ (B) 維生素 D 採層析法測定。\n❌ (C) 維生素 E 以氣相層析或滴定法測定。\n❌ (D) 維生素 B1 以螢光法（硫色素法）測定。\n📚 出處：中華藥典第七版—維生素 A 含量測定法"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "鐵鹽",
     "鈣鹽"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 硝酸鹽在嬰兒腸道被還原為亞硝酸鹽，使血紅素氧化成變性血紅素而造成藍嬰症；其鑑別為與硫酸及銅共熱產生棕紅色的二氧化氮氣體。\n❌ (A) 磷酸鹽不產生此反應。\n❌ (C) 鐵鹽的鑑別用硫氰酸鹽呈色。\n❌ (D) 鈣鹽以草酸鹽沉澱鑑別。\n📚 出處：中華藥典—一般鑑別試驗"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "含非揮發性成分",
     "來源植物的熟成度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 揮發油依定義不應含非揮發性成分；若含有即屬摻雜，不是造成比重正常變異的原因。\n❌ (A) 純化與製備方法會影響成分比例與比重。\n❌ (B) 貯存過程中的氧化與揮發會改變比重。\n❌ (D) 植物成熟度影響成分組成。\n📚 出處：Trease and Evans' Pharmacognosy—Volatile Oils"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "120～150",
     "90～120"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 動物脂肪飽和度高、雙鍵少，碘價通常小於 90（屬不乾性油範圍）。\n❌ (A) 150～180 屬高度不飽和的乾性油。\n❌ (C) 120～150 屬乾性油。\n❌ (D) 90～120 屬半乾性植物油。\n📚 出處：中華藥典—碘價"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "樟腦（camphor）",
     "阿卡波糖（acarbose）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 阿斯匹靈分子中沒有手性中心，不具光學活性。\n❌ (B) 維生素 C 有手性碳，具旋光性。\n❌ (C) 樟腦具手性中心，是典型的旋光物質。\n❌ (D) 阿卡波糖為寡醣衍生物，含多個手性中心。\n📚 出處：中華藥典—旋光度測定法"
   },
   {
    "n": 25,
@@ -351,7 +375,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "固態核磁共振光譜",
     "LC-MS-MS"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) LC-MS/MS 分析的是溶解後的分子，晶型資訊在溶解過程即消失，無法用於多形性判定。\n❌ (A) 拉曼光譜可分辨不同晶格的振動特徵。\n❌ (B) 粉末 X 光繞射是判定多形性的黃金標準。\n❌ (C) 固態核磁共振可反映不同晶型的化學環境。\n📚 出處：Skoog；藥品固態性質分析"
   },
   {
    "n": 27,
@@ -364,7 +389,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "兩者皆需要提供高溫的火焰來源",
     "血液透析液中鈣、鎂的含量較適合以AES來分析"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。血液透析液中的鈣、鎂測定以原子吸收光譜（AAS）為標準方法。\n❌ (A) 對多數金屬而言 AAS 的靈敏度較高。\n❌ (B) 傳統火焰 AES 適用元素較少，應用範圍較小。\n❌ (C) 兩者皆需高溫使樣品原子化。\n📚 出處：Skoog, Atomic Spectrometry"
   },
   {
    "n": 28,
@@ -377,7 +403,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "可用於藥物的分子量測定",
     "可用於藥物中的非破壞性定量分析"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 分子量由質譜測定，NMR 只能推論結構而無法直接給出分子量。\n❌ (A) NMR 是原料藥結構鑑定的核心工具。\n❌ (B) 非鏡像異構物在 NMR 中訊號不同，可定量。\n❌ (D) qNMR 屬非破壞性定量方法。\n📚 出處：Skoog, Nuclear Magnetic Resonance"
   },
   {
    "n": 29,
@@ -390,7 +417,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "-CO2H",
     "-OH"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 羥基本身不吸收紫外光，但其未共用電子對可與苯環共振而使吸收紅位移與增強，屬助色團。\n❌ (A) 酯基含 C=O，屬發色團。\n❌ (B) 醛基是典型發色團。\n❌ (C) 羧基同樣是發色團。\n📚 出處：Watson, Pharmaceutical Analysis—UV Spectrophotometry"
   },
   {
    "n": 30,
@@ -403,7 +431,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "溶於0.1M HCl之λmax小於溶於0.1 M NaOH之λmax",
     "εmax主要與π→π*電子遷移有關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。發色團是苯環與酯羰基所構成的共軛系統；胺基本身是「助色團」。\n❌ (B) 酸性下胺基質子化使共振中斷，εmax 較鹼性下小，敘述正確。\n❌ (C) 同理酸性下吸收波長較短，敘述正確。\n❌ (D) 其主要吸收來自 π→π* 躍遷。\n📚 出處：Watson, Pharmaceutical Analysis"
   },
   {
    "n": 31,
@@ -416,7 +445,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "③⑤⑦",
     "②④⑤"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ①②⑥。羥基、胺基與甲胺基都是提供電子的助色團，增加分子的剛性與共振而增強螢光。\n❌ (A) 誤含羧基（吸電子，減弱螢光）。\n❌ (C) 銨離子、硝基與溴皆會淬熄螢光。\n❌ (D) 誤含羧基與硝基。\n📚 出處：Skoog, Molecular Luminescence"
   },
   {
    "n": 32,
@@ -429,7 +459,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "radiochemical detector",
     "Fourier transform infrared detector"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 傅立葉轉換紅外光偵測器可提供官能基的振動指紋，對結構解析最有幫助。\n❌ (A) 火焰離子化偵測器只提供訊號強度。\n❌ (B) 熱導偵測器同樣不提供結構資訊。\n❌ (C) 放射化學偵測器僅偵測放射標定物。\n📚 出處：Skoog, GC Detectors"
   },
   {
    "n": 33,
@@ -442,7 +473,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "C項為resistance of mass transfer與固定相之薄膜厚度有關",
     "一般HETP值愈大，層析效率愈佳"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。HETP（理論板高）越「小」代表每單位長度的分離效率越高。\n❌ (A) A 項為渦流擴散，與填充粒徑及均勻度有關。\n❌ (B) B 項為縱向分子擴散，與分子在動相中的擴散係數有關。\n❌ (C) C 項為質傳阻力，與固定相膜厚及流速有關。\n📚 出處：Skoog, van Deemter Equation"
   },
   {
    "n": 34,
@@ -455,7 +487,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "③①④②",
     "④①②③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 逆相系統中溶劑強度隨非極性增加而增強：THF＞乙腈＞甲醇＞水，即③①④②。\n❌ (A) 把 THF 排在乙腈之後。\n❌ (B) 水的溶劑強度在逆相中最弱，不可能排第一。\n❌ (D) 甲醇的洗脫力弱於乙腈與 THF。\n📚 出處：Skoog, Reversed-Phase HPLC"
   },
   {
    "n": 35,
@@ -468,7 +501,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Rs為resolution解析度，Rs＝1.0表示完全分離",
     "N表示理論板數"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。Rs＝1.0 時兩峰仍有約 2% 重疊，一般以 Rs≥1.5 才視為基線（完全）分離。\n❌ (A) 容量因子 1～10 為適當範圍。\n❌ (B) 選擇因子定義為兩者容量因子的比值。\n❌ (D) N 為理論板數，代表管柱效率。\n📚 出處：Skoog, Chromatographic Separations"
   },
   {
    "n": 36,
@@ -481,7 +515,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "可增加化合物結構資訊",
     "撞擊誘導裂解法（collision induced dissociation）之再現性非常好，其質譜圖可供資料庫之建置"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。CID 的碎片圖譜受碰撞能量、氣體與儀器條件影響大，再現性不如 EI，不適合建立通用資料庫。\n❌ (A) ESI 屬軟游離，碎片少，需靠 MS/MS 補充結構資訊。\n❌ (B) 多重反應監測可大幅提高訊噪比與靈敏度。\n❌ (C) 二次碎裂提供更多結構線索。\n📚 出處：Skoog, Tandem Mass Spectrometry"
   },
   {
    "n": 37,
@@ -494,7 +529,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Silicone OV-1",
     "Silicone OV-17"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Carbowax（聚乙二醇）是極性固定相，可與 menthol 的羥基形成氫鍵而大幅增加其相對滯留，拉開兩者的滯留指數差。\n❌ (B) squalane 為非極性烴類，差異更小。\n❌ (C) OV-1 是非極性甲基矽氧烷，即與原管柱性質相近。\n❌ (D) OV-17 僅中等極性，效果不如 Carbowax。\n📚 出處：Skoog, GC Stationary Phases"
   },
   {
    "n": 38,
@@ -507,7 +543,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "CBA",
     "CAB"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 微胞電動層析中，親水性高（log P 小）者較少進入微胞、隨電滲流最快遷出；疏水性高者被微胞保留最久。故快慢為 C＞B＞A。\n❌ (A) 把最疏水的 A 排最前，與微胞分配原理相反。\n❌ (B) 順序不符 log P 的大小關係。\n❌ (D) 同樣不符分配規律。\n📚 出處：Skoog, Micellar Electrokinetic Chromatography"
   },
   {
    "n": 39,
@@ -520,7 +557,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "丁酸（C3H7COOH）",
     "甲基乙二醛（CH3COCHO）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 丙酸與乳酸同為短鏈羧酸、性質與滯留行為相近，且不存在於檢體中，是理想的內部標準品。\n❌ (A) 丙醛的官能基與化學性質差異大。\n❌ (C) 丁酸雖為羧酸但碳鏈較長，滯留差距較大，本題以丙酸為最適當。\n❌ (D) 甲基乙二醛為二羰基化合物，性質不同且反應性高。\n📚 出處：Skoog, Quantitative Chromatography"
   },
   {
    "n": 40,
@@ -533,7 +571,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "chloroform",
     "diethyl ether"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 四氫呋喃的氧可與水形成氫鍵，與水完全互溶。\n❌ (B) 乙酸乙酯在水中的溶解度僅約 8%。\n❌ (C) 氯仿幾乎不溶於水。\n❌ (D) 乙醚在水中的溶解度約 6%。\n📚 出處：Martin's Physical Pharmacy—Solubility"
   },
   {
    "n": 41,
@@ -546,7 +585,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Sesamum indicum",
     "Zea mays"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 芝麻（Sesamum indicum）種子中的 sesamin、sesamolin 等木脂體，可抑制昆蟲的解毒酵素，作為除蟲菊酯的增效劑。\n❌ (A) 大豆的主要成分為異黃酮與油脂。\n❌ (B) 油橄欖以橄欖苦苷與油酸為主。\n❌ (D) 玉米不含此類增效成分。\n📚 出處：Trease and Evans' Pharmacognosy—Lignans"
   },
   {
    "n": 42,
@@ -559,7 +599,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "止嘔吐",
     "抗暈眩"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 檳榔子所含 arecoline 具擬副交感作用，可使絛蟲麻痺，傳統作為驅絛蟲藥。\n❌ (B) 它本身即成癮物質，不用於戒菸。\n❌ (C) 它反而會刺激腸胃道。\n❌ (D) 抗暈眩用的是 scopolamine。\n📚 出處：Trease and Evans' Pharmacognosy—Areca"
   },
   {
    "n": 43,
@@ -572,7 +613,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "在threonine上進行N-glycosylation",
     "進行disulfide folding"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 真核細胞具備內質網的摺疊機制與蛋白質雙硫鍵異構酶，可正確形成雙硫鍵並完成摺疊。\n❌ (A) N-甲醯甲硫胺酸是原核細胞轉譯起始的特徵。\n❌ (B) 天門冬醯胺上進行的是 N-醣化。\n❌ (C) 蘇胺酸（與絲胺酸）上進行的是 O-醣化。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Biotechnology"
   },
   {
    "n": 44,
@@ -585,7 +627,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Nutrophin",
     "human chorionic gonadotropin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 人類絨毛膜促性腺激素傳統上自孕婦尿液萃取純化，不是重組 DNA 技術的產物。\n❌ (A) Humulin 是重組人類胰島素。\n❌ (B) Roferon-A 是重組干擾素 α-2a。\n❌ (C) Nutropin 是重組人類生長激素。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Biotechnology Products"
   },
   {
    "n": 45,
@@ -598,7 +641,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "keratin",
     "starch"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 生物鹼具明確的藥理活性，屬生藥的活性成分。\n❌ (B) 纖維素是結構性多醣，屬惰性成分。\n❌ (C) 角蛋白是結構蛋白。\n❌ (D) 澱粉為儲存性多醣，多作賦形劑。\n📚 出處：Trease and Evans' Pharmacognosy"
   },
   {
    "n": 46,
@@ -611,7 +655,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "guaran",
     "pectin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 阿拉伯膠（acacia）是阿拉伯膠樹樹皮受傷後滲出並乾燥而得的滲出膠。\n❌ (B) 支鏈澱粉是植物體內的儲存多醣。\n❌ (C) guaran（瓜爾膠）取自種子胚乳。\n❌ (D) 果膠來自果皮細胞壁。\n📚 出處：Trease and Evans' Pharmacognosy—Gums"
   },
   {
    "n": 47,
@@ -624,7 +669,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "α-1,6 D-glucosidic",
     "β-1,6 D-glucosidic"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) hetastarch（羥乙基澱粉）以支鏈澱粉為原料，主鏈為 α-1,4 葡萄糖苷鍵（分支處為 α-1,6）。\n❌ (B) β-1,4 鍵結是纖維素的特徵。\n❌ (C) α-1,6 只出現在分支點，不是主鏈。\n❌ (D) β-1,6 鍵結見於某些真菌多醣。\n📚 出處：Ansel's Pharmaceutical Dosage Forms—Plasma Expanders"
   },
   {
    "n": 48,
@@ -637,7 +683,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "夏枯草",
     "蒲公英"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 板藍根（大青葉）含靛苷，水解後生成靛藍與靛玉紅（indirubin）。\n❌ (A) 金銀花以綠原酸為指標。\n❌ (C) 夏枯草含三萜與熊果酸類。\n❌ (D) 蒲公英含倍半萜內酯與酚酸。\n📚 出處：中華中藥典—板藍根"
   },
   {
    "n": 49,
@@ -650,7 +697,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "③④⑤",
     "①③⑤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ①③⑤。桑白皮瀉肺平喘、桔梗宣肺祛痰、遠志祛痰止咳，皆屬止咳化痰藥。\n❌ (A) 牡丹皮為清熱涼血藥，不止咳。\n❌ (B) 同樣誤含牡丹皮。\n❌ (C) 甘草雖可潤肺止咳，但本題以①③⑤為標準組合。\n📚 出處：中華中藥典"
   },
   {
    "n": 50,
@@ -663,7 +711,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "albiflorin",
     "chrysophanol"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 何首烏含大黃素、大黃酚（chrysophanol）等蒽醌類，以及二苯乙烯苷。\n❌ (A) platycodin 是桔梗的皂苷。\n❌ (B) 綠原酸為金銀花等的指標成分。\n❌ (C) albiflorin 是芍藥的成分。\n📚 出處：中華中藥典—何首烏"
   },
   {
    "n": 51,
@@ -676,7 +725,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Apocynaceae",
     "Liliaceae"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ouabain 取自 Strophanthus gratus 等，屬夾竹桃科（Apocynaceae）。\n❌ (A) 薔薇科不產強心苷。\n❌ (B) 玄參科（毛地黃）產的是 digitoxin、digoxin。\n❌ (D) 百合科產的是海蔥類的 bufadienolide。\n📚 出處：Trease and Evans' Pharmacognosy—Cardioactive Glycosides"
   },
   {
    "n": 52,
@@ -689,7 +739,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Brassica nigra",
     "Arctostaphylos uva-ursi"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 柳（Salix）所含 salicin 的糖基連在醇性羥基（水楊醇）上，屬醇苷（alcohol glycoside）。\n❌ (B) 杏仁的 amygdalin 屬氰苷。\n❌ (C) 黑芥子的 sinigrin 屬硫苷。\n❌ (D) 熊果葉的 arbutin 屬酚苷。\n📚 出處：Trease and Evans' Pharmacognosy—Glycosides"
   },
   {
    "n": 53,
@@ -702,7 +753,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "茶葉",
     "維生素C"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 維生素 C 不影響強心苷的吸收、代謝或電解質平衡，交互作用最小。\n❌ (A) 葡萄柚抑制 P-醣蛋白與 CYP3A4，會提高血中濃度。\n❌ (B) 牛乳中的鈣會增強強心苷的心臟作用。\n❌ (C) 茶葉中的單寧會與生物鹼類成分結合影響吸收。\n📚 出處：Applied Therapeutics—Digoxin Interactions"
   },
   {
    "n": 54,
@@ -715,7 +767,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Fabaceae",
     "Ranunculaceae"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 毛茛科以生物鹼與皂苷為主，不以蒽醌苷著稱。\n❌ (A) 鼠李科（美鼠李皮、番瀉）富含蒽醌苷。\n❌ (B) 百合科（蘆薈）含蒽醌類。\n❌ (C) 豆科（番瀉葉）含番瀉苷。\n📚 出處：Trease and Evans' Pharmacognosy—Anthraquinones"
   },
   {
    "n": 55,
@@ -728,7 +781,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "4－7－12－20",
     "3－6－12－20"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Rg1 的苷元為原人參三醇（protopanaxatriol），羥基位於 C-3、C-6、C-12 與 C-20。\n❌ (A) 位置組合不符該骨架。\n❌ (B) C-18 不是羥基位置。\n❌ (C) 這組數字與人參皂苷骨架不符。\n📚 出處：Trease and Evans' Pharmacognosy—Ginseng"
   },
   {
    "n": 56,
@@ -741,7 +795,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "glucofrangulin A",
     "glucofrangulin B"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) glucofrangulin A 水解後產生鼠李糖（rhamnose）與葡萄糖及苷元 frangula-emodin。\n❌ (A) frangulin A 只含鼠李糖。\n❌ (B) frangulin B 含阿拉伯糖。\n❌ (D) glucofrangulin B 產生的是阿拉伯糖與葡萄糖。\n📚 出處：Trease and Evans' Pharmacognosy—Frangula"
   },
   {
    "n": 57,
@@ -754,7 +809,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "成分為triacylglycerols混合物",
     "在胃被酵素水解成ricinoleic acid，而具峻瀉作用"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 蓖麻油是以蓖麻油酸為主的三酸甘油酯混合物。\n❌ (A) 取自種子而非根部。\n❌ (B) 基原屬大戟科（Euphorbiaceae），不是杜仲科。\n❌ (D) 是在小腸被脂酶水解成蓖麻油酸而瀉下，不在胃中。\n📚 出處：Trease and Evans' Pharmacognosy—Castor Oil"
   },
   {
    "n": 58,
@@ -767,7 +823,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "芍藥",
     "板藍根"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 金銀花含 lonicerin（忍冬苷）與環烯醚萜苷 loganin。\n❌ (A) 蒲公英以酚酸與倍半萜內酯為主。\n❌ (C) 芍藥以芍藥苷為主。\n❌ (D) 板藍根以靛苷為主。\n📚 出處：中華中藥典—金銀花"
   },
   {
    "n": 59,
@@ -780,7 +837,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "betulin",
     "α-turmerone"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 茯苓酸（pachymic acid）屬羊毛脂烷（lanostane）型三萜。\n❌ (A) tanshinone I 是丹參的二萜醌。\n❌ (C) betulin 屬羽扇豆烷（lupane）型三萜。\n❌ (D) α-turmerone 是薑黃的倍半萜。\n📚 出處：Trease and Evans' Pharmacognosy—Triterpenoids"
   },
   {
    "n": 60,
@@ -793,7 +851,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "diterpenes",
     "flavonoids"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 黃耆主含多醣、三萜皂苷（黃耆甲苷）與異黃酮類，不以二萜為主要成分。\n❌ (A) 黃耆多醣是重要的免疫調節成分。\n❌ (B) 黃耆皂苷屬三萜類。\n❌ (D) 毛蕊異黃酮等黃酮類為指標成分。\n📚 出處：中華中藥典—黃耆"
   },
   {
    "n": 61,
@@ -806,7 +865,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "lavender oil",
     "eucalyptus oil"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 尤加利油（eucalyptus oil）的主成分為 1,8-桉油醇（cineole），含量可達 70% 以上。\n❌ (A) 洋茴香油主成分為茴香腦。\n❌ (B) 葛縷子油主成分為 d-carvone。\n❌ (C) 薰衣草油以沉香醇與乙酸沉香酯為主。\n📚 出處：Trease and Evans' Pharmacognosy—Volatile Oils"
   },
   {
    "n": 62,
@@ -819,7 +879,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "屬菊科植物",
     "含guaianolide type sesquiterpene"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題選錯誤者。小白菊的主成分 parthenolide 屬「germacranolide」型倍半萜內酯，不是 guaianolide 型。\n❌ (A) 傳統用於解熱與偏頭痛預防。\n❌ (B) 使用部位為葉。\n❌ (C) 屬菊科（Compositae）。\n📚 出處：Trease and Evans' Pharmacognosy—Feverfew"
   },
   {
    "n": 63,
@@ -832,7 +893,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "cannabis－Eriodictyon califonicum",
     "turpentine－Zingiber officinale"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 卡瓦（kava）的基原為 Piper methysticum（胡椒科）。\n❌ (B) rosin（松香）來自松屬植物，Pistacia lentiscus 是乳香（mastic）。\n❌ (C) 大麻的基原是 Cannabis sativa；Eriodictyon 是 yerba santa。\n❌ (D) 松節油來自松屬；Zingiber officinale 是薑。\n📚 出處：Trease and Evans' Pharmacognosy"
   },
   {
    "n": 64,
@@ -845,7 +907,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "屬繖形科植物",
     "具潤腸通便作用"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。當歸在神農本草經列為「中品」，不是上品。\n❌ (B) 精油以藁本內酯與丁烯基苯酞為主。\n❌ (C) 屬繖形科植物。\n❌ (D) 含油脂成分，具潤腸通便作用。\n📚 出處：中華中藥典—當歸"
   },
   {
    "n": 65,
@@ -858,7 +921,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "shikimic acid → p-coumaric acid → ferulic acid → caffeic acid →→ lignan",
     "shikimic acid → ferulic acid → p-coumaric acid → caffeic acid →→ lignan"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 苯丙烷類的生合成順序為莽草酸→苯丙胺酸→對香豆酸→咖啡酸→阿魏酸，再二聚成木脂體。\n❌ (B) 咖啡酸在對香豆酸之後才生成。\n❌ (C) 阿魏酸由咖啡酸甲基化而來，順序顛倒。\n❌ (D) 完全不符生合成先後。\n📚 出處：Trease and Evans' Pharmacognosy—Phenylpropanoids"
   },
   {
    "n": 66,
@@ -871,7 +935,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "結構中含有氮原子",
     "其副作用為便秘"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 印度鬼臼（Podophyllum emodi）的 podophyllotoxin 含量明顯高於美洲鬼臼（P. peltatum）。\n❌ (B) 其結構中含有反式稠合的內酯環。\n❌ (C) 它是木脂體，分子中不含氮。\n❌ (D) 其副作用為嚴重腹瀉與腸胃道刺激，不是便秘。\n📚 出處：Trease and Evans' Pharmacognosy—Podophyllum"
   },
   {
    "n": 67,
@@ -884,7 +949,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "僅存於木本植物",
     "係由兩個phenylpropene衍生物於C3 side chain之β-carbon聚合而得"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。木脂體廣泛分布於草本與木本植物（如亞麻、芝麻、五味子），不限於木本。\n❌ (A) 由兩個 C6-C3 單位組成，共 18 個碳。\n❌ (B) podophyllotoxin 是典型的木脂體。\n❌ (D) 由兩分子苯丙烯衍生物在側鏈 β 碳處鍵結而成。\n📚 出處：Trease and Evans' Pharmacognosy—Lignans"
   },
   {
    "n": 68,
@@ -897,7 +963,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "莖",
     "根"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 紫蘇的藥用部位為葉（紫蘇葉）、莖（蘇梗）與果實（蘇子），不用根。\n❌ (A) 紫蘇葉為解表藥。\n❌ (B) 蘇子（果實）降氣化痰。\n❌ (C) 蘇梗（莖）理氣寬中。\n📚 出處：中華中藥典—紫蘇"
   },
   {
    "n": 69,
@@ -910,7 +977,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "storax",
     "benzoin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 松節油（turpentine）由揮發油與樹脂組成，屬典型的樹脂油（oleoresin）。\n❌ (B) 沒藥屬油膠樹脂（oleo-gum-resin）。\n❌ (C) 蘇合香屬香膠（balsam）。\n❌ (D) 安息香同屬香膠類。\n📚 出處：Trease and Evans' Pharmacognosy—Resins"
   },
   {
    "n": 70,
@@ -923,7 +991,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Rubiaceae－lysigenous or schizogenous passages",
     "Apiaceae－oil tubes"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。以裂溶生或裂生腔道貯存精油的是芸香科（Rutaceae）與桃金孃科，不是茜草科。\n❌ (A) 唇形科的精油存於葉表的腺毛。\n❌ (B) 胡椒科存於特化的薄壁細胞。\n❌ (D) 繖形科存於果實的油管。\n📚 出處：Trease and Evans' Pharmacognosy—Secretory Structures"
   },
   {
    "n": 71,
@@ -936,7 +1005,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "附子",
     "麻黃"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 三黃瀉心湯由大黃、黃連、黃芩三味組成，故黃連為其組成藥材。\n❌ (B) 黃柏不在三黃瀉心湯的組成中。\n❌ (C) 附子屬溫熱藥，與本方性味相反。\n❌ (D) 麻黃為解表藥，不在方中。\n📚 出處：中醫方劑學—三黃瀉心湯"
   },
   {
    "n": 72,
@@ -949,7 +1019,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "Rutaceae－Evodia rutaecarpa－fruit",
     "Liliaceae－Corydalis yanhusuo－tuber"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 吳茱萸屬芸香科（Rutaceae），基原為 Evodia rutaecarpa，用部為果實。\n❌ (A) 黃連屬毛茛科沒錯，但用部為根莖（rhizome）而非根。\n❌ (B) 黃柏基原為 Phellodendron，屬芸香科而非小檗科。\n❌ (D) 延胡索屬罌粟科，不是百合科。\n📚 出處：中華中藥典"
   },
   {
    "n": 73,
@@ -962,7 +1033,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "morphine－tyrosine",
     "colchicine－phenylalanine及tyrosine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。reserpine 的生合成前驅物是色胺酸與 secologanin（單萜吲哚生物鹼），與苯丙胺酸無關。\n❌ (A) 奎寧同為色胺酸與 secologanin 衍生。\n❌ (C) 嗎啡由酪胺酸經苄基異喹啉路徑生成。\n❌ (D) 秋水仙鹼由苯丙胺酸與酪胺酸共同衍生。\n📚 出處：Trease and Evans' Pharmacognosy—Alkaloid Biosynthesis"
   },
   {
    "n": 74,
@@ -975,7 +1047,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "quinoline",
     "isoquinoline"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 異喹啉類生物鹼的次分類最多，包括苄基異喹啉、原小檗鹼、阿樸嗎啡、嗎啡烷、原托品等多群。\n❌ (A) 嘌呤類僅咖啡因、茶鹼、可可鹼等少數。\n❌ (B) 咪唑類數量很少。\n❌ (C) 喹啉類以金雞納生物鹼為主，分群有限。\n📚 出處：Trease and Evans' Pharmacognosy—Alkaloids"
   },
   {
    "n": 75,
@@ -988,7 +1061,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "reserpine",
     "vinblastine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) vinblastine 由 catharanthine 與 vindoline 兩個吲哚單元組成，共含 4 個氮原子。\n❌ (A) physostigmine 含 3 個氮。\n❌ (B) strychnine 含 2 個氮。\n❌ (C) reserpine 含 2 個氮。\n📚 出處：Trease and Evans' Pharmacognosy—Vinca Alkaloids"
   },
   {
    "n": 76,
@@ -1001,7 +1075,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "ipecac－根莖及根",
     "sanguinaria－根莖"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本題選錯誤者。鴉片是自「未成熟」蒴果割傷後流出的乳汁乾燥而得，不是成熟蒴果。\n❌ (A) 延胡索用塊莖。\n❌ (C) 吐根用根莖及根。\n❌ (D) 血根草用根莖。\n📚 出處：Trease and Evans' Pharmacognosy"
   },
   {
    "n": 77,
@@ -1014,7 +1089,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "sanguinarine nitrate",
     "quinine sulfate"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) sanguinarine（血根鹼）為苯菲啶類季銨生物鹼，其鹽類呈紅色，血根草因此得名。\n❌ (A) papaverine 鹽酸鹽為白色結晶。\n❌ (B) chelerythrine 鹽為黃色。\n❌ (D) 硫酸奎寧為白色結晶。\n📚 出處：Trease and Evans' Pharmacognosy—Sanguinaria"
   },
   {
    "n": 78,
@@ -1027,7 +1103,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "flavonoids",
     "carotenoids"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 金雞納樹皮主含奎寧、奎尼丁、辛可寧等喹啉類生物鹼。\n❌ (B) 蒽醌苷見於大黃、番瀉。\n❌ (C) 類黃酮不是其特徵成分。\n❌ (D) 類胡蘿蔔素屬色素類。\n📚 出處：Trease and Evans' Pharmacognosy—Cinchona"
   },
   {
    "n": 79,
@@ -1040,7 +1117,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "ephedra－ma huang－Ephedra sinica",
     "peyote－mescal buttons－Lophophora williamsii"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題選錯誤者。colchicum（秋水仙）的學名是 Colchicum autumnale；Crocus sativus 是番紅花。\n❌ (B) khat 即阿比西尼亞茶，基原為 Catha edulis。\n❌ (C) 麻黃基原為 Ephedra sinica。\n❌ (D) peyote 俗稱 mescal buttons，基原為 Lophophora williamsii。\n📚 出處：Trease and Evans' Pharmacognosy"
   },
   {
    "n": 80,
@@ -1053,7 +1131,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "bloodroot",
     "goldenseal"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 長春花（Catharanthus roseus）屬夾竹桃科（Apocynaceae），為長春花生物鹼的來源。\n❌ (B) 吐根屬茜草科。\n❌ (C) 血根草屬罌粟科。\n❌ (D) 白毛茛屬毛茛科。\n📚 出處：Trease and Evans' Pharmacognosy—Catharanthus"
   }
  ]
 };
