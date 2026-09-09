@@ -35476,7 +35476,7 @@ window.APP_EXAMS = [
   "subjName": "教育理念與實務",
   "label": "111 年　幼兒園師資類科　教育理念與實務",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 80
  },
  {
@@ -35518,7 +35518,7 @@ window.APP_EXAMS = [
   "subjName": "教育理念與實務",
   "label": "111 年　國民小學師資類科　教育理念與實務",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 80
  },
  {
@@ -35574,7 +35574,7 @@ window.APP_EXAMS = [
   "subjName": "教育理念與實務",
   "label": "111 年　中等學校師資類科　教育理念與實務",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 80
  },
  {
@@ -35616,7 +35616,7 @@ window.APP_EXAMS = [
   "subjName": "教育理念與實務",
   "label": "111 年　特殊教育類科　教育理念與實務",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 80
  },
  {
