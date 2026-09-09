@@ -16506,7 +16506,7 @@ window.APP_EXAMS = [
   "subjName": "政治學概要",
   "label": "113 年　普通考試　政治學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -16534,7 +16534,7 @@ window.APP_EXAMS = [
   "subjName": "地方自治概要",
   "label": "113 年　普通考試　地方自治概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
