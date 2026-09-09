@@ -713,7 +713,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_50.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 phenobarbital（5-乙基-5-苯基巴比妥酸），芳香取代基使其脂溶性低、代謝慢，屬長效巴比妥，作用時限可達 10 小時以上。\n❌ (A) 為 amobarbital，5 位帶乙基與異戊基，屬中效。\n❌ (B) 為 butabarbital，帶乙基與二級丁基，同屬中效。\n❌ (D) 為 secobarbital，帶烯丙基與 1-甲基丁基，脂溶性高、起效快而作用短。\n📚 出處：Foye's—巴比妥類的構效關係與作用時限"
   },
   {
    "n": 51,
@@ -742,7 +743,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_52.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 oxymorphone：6-酮基、7,8 位飽和再加上 14-OH，三項修飾都增強與 μ 受體的親和力，鎮痛效價約為嗎啡的 10 倍。\n❌ (A) 為 hydromorphone，缺少 14-OH，效價約嗎啡的 5～8 倍。\n❌ (C) 為 morphinone，7,8 位仍為雙鍵且無 14-OH。\n❌ (D) 為 morphine 本身，是比較的基準。\n📚 出處：Foye's—嗎啡類的構效關係"
   },
   {
    "n": 53,
@@ -771,7 +773,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_54.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 codeine：3 位酚羥基已甲基化成甲氧基，分子中只剩鹼性的三級胺而無酸性基團，故不是兩性化合物。\n❌ (A) 為 morphine，兼具酸性的酚羥基與鹼性的三級胺。\n❌ (C) 為 nalorphine，同樣保有酚羥基與三級胺。\n❌ (D) 為 baclofen，具羧酸與一級胺，是典型的兩性化合物。\n📚 出處：Foye's—藥物的酸鹼性質"
   },
   {
    "n": 55,
@@ -800,7 +803,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_56.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 paliperidone（9-羥基 risperidone），由 CYP2D6 羥化生成，藥理活性與母藥相當，本身也單獨上市。\n❌ (A) 為 risperidone 母藥。\n❌ (C) 為側鏈斷裂後的哌啶片段，不具完整藥效。\n❌ (D) 羥基被畫在苯并異噁唑環上，非實際的代謝位置。\n📚 出處：Foye's—非典型抗精神病藥的代謝"
   },
   {
    "n": 57,
@@ -857,7 +861,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_60.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 benazepril，其活性代謝物 benazeprilat 帶苯并氮呯酮結構，主要以葡萄糖醛酸接合（glucuronidation）後排出，是四者中最顯著者。\n❌ (A) 為 ramipril，水解後主要以原型與 ramiprilat 經腎排除。\n❌ (B) 為 fosinopril，特徵是膽道與腎臟雙途徑排除。\n❌ (C) 為 quinapril，水解成 quinaprilat 後主要由腎排除。\n📚 出處：Foye's—ACE 抑制劑的代謝"
   },
   {
    "n": 61,
@@ -998,7 +1003,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_70.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) omeprazole 主要由 CYP2C19 把吡啶環 5 位的甲基氧化成羥甲基，生成 5-hydroxyomeprazole，圖 D 正是此結構。\n❌ (A) 亞磺醯基被還原成硫醚，非主要代謝物。\n❌ (B) 為 CYP3A4 生成的 sulfone，屬次要途徑。\n❌ (C) 為苯并咪唑環上的 O-去甲基產物，量遠少於 5-羥甲基物。\n📚 出處：Foye's—質子幫浦抑制劑的代謝"
   },
   {
    "n": 71,
@@ -1069,7 +1075,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_75.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) zidovudine 的 3'-疊氮基（-N3）對光與熱敏感，容易分解，故須於 15–25°C 避光儲存。\n❌ (A) tenofovir disoproxil 主要顧慮的是濕氣造成的酯水解，非光照。\n❌ (B) abacavir 於室溫下相對安定。\n❌ (D) lamivudine 同樣為安定的核苷類似物。\n📚 出處：抗反轉錄病毒藥物的儲存條件"
   },
   {
    "n": 76,
@@ -1084,7 +1091,8 @@ window.APP_EXAM_PAPERS['pha-112-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112020_305_11_76.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) zanamivir 極性高、口服生體可用率不足 5%，故製成乾粉經口鼻吸入給藥，屬神經胺酸酶抑制劑。\n❌ (B) oseltamivir 為乙酯前驅藥，供口服。\n❌ (C) peramivir 供靜脈單次輸注。\n❌ (D) baloxavir 為口服的 cap 依賴型核酸內切酶抑制劑，機轉不同。\n📚 出處：抗流感病毒藥物的給藥途徑"
   },
   {
    "n": 77,
