@@ -741,7 +741,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_52.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 primidone：巴比妥環的 2 位羰基被還原成亞甲基，加上只有一個苯環，脂溶性最低、clogP 約 0.9，是四者中最低者。\n❌ (A) 為 phenytoin，兩個苯環使 clogP 約 2.5。\n❌ (B) 為 phenobarbital，clogP 約 1.5，高於 primidone。\n❌ (D) 同樣帶兩個苯環，脂溶性遠高於 primidone。\n📚 出處：Foye's—抗癲癇藥的理化性質"
   },
   {
    "n": 53,
@@ -770,7 +771,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_54.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 carbamazepine：二苯并氮呯加胺甲醯基，選擇性結合去活化態的電位依賴型鈉離子通道而延長其恢復時間。\n❌ (A) 為 valproic acid，機轉多重（鈉通道、T 型鈣通道、GABA 增強）而非選擇性鈉通道阻斷。\n❌ (C) 為 clobazam，作用於 GABA-A 受體。\n❌ (D) 為 brivaracetam，標的是突觸囊泡蛋白 SV2A。\n📚 出處：Foye's—抗癲癇藥的作用機轉"
   },
   {
    "n": 55,
@@ -855,7 +857,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_60.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 咪唑環的酸性太弱，無法模擬 angiotensin II 的羧酸端，ARB 的聯苯側基上不會使用此基團。\n❌ (A) 羧酸即 telmisartan 所用的酸性基團。\n❌ (C) 為 1,2,4-惡二唑-5-酮，是 azilsartan 採用的四唑生物等排體。\n❌ (D) 四唑是 losartan、valsartan、irbesartan 等大多數 ARB 的共同基團。\n📚 出處：Foye's—ARB 的構效關係與生物等排"
   },
   {
    "n": 61,
@@ -968,7 +971,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_68.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 pioglitazone，末端帶噻唑啶二酮環，透過活化 PPAR-γ 改善胰島素敏感性。\n❌ (A) 為 raloxifene，屬選擇性雌激素受體調節劑。\n❌ (C) 為 glipizide，屬磺醯脲類。\n❌ (D) 為 piroxicam，屬 NSAID。\n📚 出處：Foye's—口服降血糖藥"
   },
   {
    "n": 69,
@@ -1067,7 +1071,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_75.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 箭頭指向哌啶氮上丙烯醯胺的末端 C=C，此 α,β-不飽和羰基是 Michael 受體，可被 Cys481 的硫醇加成而形成共價鍵。\n❌ (A) 箭頭指嘧啶環上的氮，只參與氫鍵而不形成共價鍵。\n❌ (B) 箭頭指吡唑環的骨架碳，不具親電性。\n❌ (D) 箭頭指醯胺羰基，該位置在此並非共價結合點。\n📚 出處：共價型激酶抑制劑的設計"
   },
   {
    "n": 76,
@@ -1138,7 +1143,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/111100_305_11_80.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 lamivudine：胞嘧啶接上含硫的氧硫雜環戊烷（取代核糖），磷酸化後終止 DNA 鏈延長，屬核苷類反轉錄酶抑制劑。\n❌ (A) 為 delavirdine，屬非核苷類。\n❌ (B) 為 nevirapine，同屬非核苷類。\n❌ (C) 為 efavirenz，亦為非核苷類。\n📚 出處：Foye's—抗 HIV 藥物的分類"
   }
  ]
 };
