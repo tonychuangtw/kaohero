@@ -15190,7 +15190,7 @@ window.APP_EXAMS = [
   "subjName": "刑法",
   "label": "115 年　高考三級　刑法",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
