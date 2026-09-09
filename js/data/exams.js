@@ -15064,7 +15064,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "115 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -15218,7 +15218,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學與貨幣銀行學",
   "label": "115 年　高考三級　經濟學與貨幣銀行學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -15274,7 +15274,7 @@ window.APP_EXAMS = [
   "subjName": "行政學概要",
   "label": "115 年　普通考試　行政學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -15414,7 +15414,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "115 年　普通考試　經濟學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -15526,7 +15526,7 @@ window.APP_EXAMS = [
   "subjName": "會計法規概要",
   "label": "115 年　普通考試　會計法規概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
