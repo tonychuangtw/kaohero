@@ -714,7 +714,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_50.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 memantine（3,5-二甲基金剛烷胺），屬 NMDA 受體的非競爭性拮抗劑，不抑制膽鹼酯酶。\n❌ (A) 為 donepezil，可逆抑制乙醯膽鹼酯酶。\n❌ (B) 為 rivastigmine，胺基甲酸酯結構可同時抑制 AChE 與 BuChE。\n❌ (D) 為 galantamine，除抑制 AChE 外還能調節菸鹼受體。\n📚 出處：Foye's—失智症用藥"
   },
   {
    "n": 51,
@@ -757,7 +758,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_53.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 promazine：吩噻嗪環 2 位沒有拉電子取代基，與 D2 受體的親和力最低，抗精神病活性也最弱。\n❌ (A) 為 chlorpromazine，2 位帶氯可顯著提升活性。\n❌ (B) 為 thiothixene，硫雜蒽骨架加 2 位磺醯胺與哌嗪側鏈，效價高。\n❌ (C) 為 clozapine，對 D4 與 5-HT2A 有高親和力，屬強效非典型抗精神病藥。\n📚 出處：Foye's—吩噻嗪類的構效關係"
   },
   {
    "n": 54,
@@ -825,7 +827,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_58.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 canrenone：spironolactone 脫去 7α-硫代乙醯基並形成 6,7 位雙鍵，螺內酯環保留，是體內主要且具活性的醛固酮受體拮抗代謝物。\n❌ (B) 為 canrenoate（內酯開環的羧酸鹽型），須再閉環才成 canrenone。\n❌ (C) 保留 7α-乙醯硫基且內酯已開環，非主要代謝物。\n❌ (D) 即 spironolactone 母藥本身。\n📚 出處：Foye's—醛固酮拮抗劑的代謝"
   },
   {
    "n": 59,
@@ -965,7 +968,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_68.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖 D 為 metformin（雙胍類），可降低肝醣新生並改善胰島素敏感性，且不引起低血糖與體重增加，是第 2 型糖尿病的第一線用藥。\n❌ (A) 為 tolbutamide，第一代磺醯脲類，非第一線。\n❌ (B) 為 glimepiride，第二代磺醯脲類，屬第二線。\n❌ (C) 為 nateglinide，屬速效胰島素分泌促進劑。\n📚 出處：糖尿病治療指引與 Foye's—口服降血糖藥"
   },
   {
    "n": 69,
@@ -1048,7 +1052,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_74.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) pyrazinamide 進入結核菌後由菌體的 pyrazinamidase 水解成 pyrazinoic acid，在酸性環境累積而發揮殺菌作用，圖 C 即此結構。\n❌ (A) 為 nicotinamide，吡啶環而非吡嗪環。\n❌ (B) 為 pyrazinamide 母藥本身。\n❌ (D) 為 nicotinic acid，同樣是吡啶衍生物。\n📚 出處：Foye's—抗結核藥的活化"
   },
   {
    "n": 75,
@@ -1063,7 +1068,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_75.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 AZ5104：吲哚環上的 N-甲基被去除，對 EGFR 突變株的抑制效力比母藥更強，是最有效的活性代謝物。\n❌ (B) 為 AZ7550（側鏈末端 N-去甲基），活性約與母藥相當而非更強。\n❌ (C) 為甲氧基去甲基化的酚型產物，活性下降。\n❌ (D) 為氧化生成的醌亞胺，屬反應性代謝物而非藥效來源。\n📚 出處：osimertinib 的代謝與活性代謝物"
   },
   {
    "n": 76,
@@ -1078,7 +1084,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_76.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 ribavirin，三唑核苷類似物，對 RSV、流感、C 型肝炎、拉薩熱等 RNA 病毒及部分 DNA 病毒皆有效，屬廣效型抗病毒藥。\n❌ (B) 為 adefovir dipivoxil，主要用於 B 型肝炎。\n❌ (C) 為 cidofovir，針對 CMV 等 DNA 病毒。\n❌ (D) 為 valacyclovir，只對疱疹族群的 DNA 病毒有效。\n📚 出處：Foye's—抗病毒藥物"
   },
   {
    "n": 77,
@@ -1093,7 +1100,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_11_77.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 紅色標示的醯胺羰基氧與相鄰的烯醇羥基（連同共軛的環酮）構成共平面的三齒配位基，可同時螯合 integrase 活性中心的兩個鎂離子而阻斷股轉移反應。\n❌ (A) 標示的是甲基-1,3,4-oxadiazole 環，負責填充疏水口袋，不參與金屬螯合。\n❌ (B) 標示範圍是連接用的醯胺與骨架碳，並非螯合區。\n❌ (C) 只標到嘧啶酮環與 N-甲基部分，缺少烯醇羥基與醯胺羰基的完整組合。\n📚 出處：HIV integrase 股轉移抑制劑的作用機轉"
   },
   {
    "n": 78,
