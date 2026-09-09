@@ -671,7 +671,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/114020_305_0402_47.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) sinigrin 為烯丙基硫代葡萄糖苷：葡萄糖以硫醚接到帶烯丙基的肟硫酸酯上，經黑芥子酶水解後生成刺激性的異硫氰酸烯丙酯。\n❌ (B) 側鏈為丁烯基，是 gluconapin。\n❌ (C) 側鏈為 4-羥苄基，是白芥所含的 sinalbin。\n❌ (D) 側鏈為苄基，是 glucotropaeolin。\n📚 出處：生藥學—芥子的硫苷"
   },
   {
    "n": 48,

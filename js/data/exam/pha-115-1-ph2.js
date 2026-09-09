@@ -757,7 +757,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_305_0402_53.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) matricin 屬癒創木烷內酯（guaianolide）：5-7-5 三環骨架加上乙醯氧基、三級羥基與 γ-內酯，加熱或蒸餾時會轉變成藍色的 chamazulene。\n❌ (A) 為 artemisinin，屬含過氧橋的倍半萜內酯。\n❌ (B) 為大環的germacranolide 型倍半萜內酯。\n❌ (C) 為桉葉烷型倍半萜酸，且無內酯環。\n📚 出處：生藥學—洋甘菊的倍半萜內酯"
   },
   {
    "n": 54,

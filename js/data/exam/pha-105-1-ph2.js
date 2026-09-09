@@ -251,7 +251,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_22_17.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 由 Henderson-Hasselbalch 式並以吸光度代表兩型的比例，可得 pKa＝pH＋log[(Ai−A)／(A−Au)]。\n❌ (B) 把 Ai 與 Au 對調，會得到相反的結果。\n❌ (C) 分子與分母都用 A 減去端點值，比例關係錯誤。\n❌ (D) 分子分母的差值方向不一致，量值可能為負。\n📚 出處：紫外光分光法測定 pKa"
   },
   {
    "n": 18,

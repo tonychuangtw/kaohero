@@ -908,7 +908,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/109100_305_22_64.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) arecoline 為檳榔的主要活性生物鹼：四氫吡啶環的氮上帶甲基，3 位為甲酯，具蕈毒鹼受體促效作用。\n❌ (A) 為 guvacine，氮未甲基化且為游離酸。\n❌ (B) 為 arecaidine，酯已水解成羧酸。\n❌ (D) 為 guvacoline，氮上缺少甲基。\n📚 出處：生藥學—檳榔的生物鹼"
   },
   {
    "n": 65,

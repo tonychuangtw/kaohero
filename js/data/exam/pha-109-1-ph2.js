@@ -812,7 +812,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/109020_305_22_57.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) abietic acid 為松脂（rosin）的主成分，屬三環二萜酸：菲烷骨架帶異丙基與共軛雙鍵，並在橋頭碳上接羧基。\n❌ (B) 為 caffeic acid，屬酚酸。\n❌ (C) 為 ferulic acid，同屬酚酸。\n❌ (D) 為 abscisic acid，是植物荷爾蒙。\n📚 出處：生藥學—松脂的二萜酸"
   },
   {
    "n": 58,

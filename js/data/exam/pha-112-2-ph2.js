@@ -812,7 +812,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/112100_305_22_57.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Sumatra benzoin（蘇門答臘安息香）以桂皮酸（cinnamic acid）及其酯類為主成分，這也是它與暹羅安息香（以安息香酸為主）的區別。\n❌ (B) 為 caffeic acid，並非安息香的主成分。\n❌ (C) 為 ferulic acid。\n❌ (D) 為 abscisic acid，屬植物荷爾蒙。\n📚 出處：生藥學—安息香的成分"
   },
   {
    "n": 58,

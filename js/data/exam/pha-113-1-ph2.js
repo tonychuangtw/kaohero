@@ -840,7 +840,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_305_22_59.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) lobeline 的骨架為 N-甲基哌啶，2 位接苯甲醯甲基（酮）、6 位接 2-羥基-2-苯乙基（醇），一酮一醇是其特徵。\n❌ (B) 兩側都是醇，為 lobelanidine。\n❌ (C) 兩側都是酮，為 lobelanine。\n❌ (D) 氮上缺少甲基，是去甲基衍生物。\n📚 出處：生藥學—山梗菜生物鹼"
   },
   {
    "n": 60,

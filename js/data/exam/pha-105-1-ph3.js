@@ -981,7 +981,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph3'] = {
    ],
    "needfig": true,
    "fig": "img/q/105020_305_33_69.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題選錯誤者。此式把 Km 與 Vmax 的位置對調，量綱與意義都不成立；正確的 Eadie-Hofstee 式應為 V＝Vmax−Km(V／C)。\n❌ (A) 為 Michaelis-Menten 的原式。\n❌ (B) 為由原式移項得到的 Eadie-Hofstee 式。\n❌ (D) 為 Lineweaver-Burk 的雙倒數式。\n📚 出處：Michaelis-Menten 動力學"
   },
   {
    "n": 70,
