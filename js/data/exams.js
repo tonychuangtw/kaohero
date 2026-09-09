@@ -38080,7 +38080,7 @@ window.APP_EXAMS = [
   "subjName": "教育原理與制度",
   "label": "96 年　幼兒園師資類科　教育原理與制度",
   "n": 40,
-  "exp": 0,
+  "exp": 40,
   "mins": 80
  },
  {
@@ -38122,7 +38122,7 @@ window.APP_EXAMS = [
   "subjName": "教育原理與制度",
   "label": "96 年　國民小學師資類科　教育原理與制度",
   "n": 40,
-  "exp": 0,
+  "exp": 36,
   "mins": 80
  },
  {
@@ -38164,7 +38164,7 @@ window.APP_EXAMS = [
   "subjName": "教育原理與制度",
   "label": "96 年　中等學校師資類科　教育原理與制度",
   "n": 40,
-  "exp": 0,
+  "exp": 36,
   "mins": 80
  },
  {
@@ -38206,7 +38206,7 @@ window.APP_EXAMS = [
   "subjName": "教育原理與制度",
   "label": "96 年　特殊教育類科　教育原理與制度",
   "n": 40,
-  "exp": 0,
+  "exp": 36,
   "mins": 80
  },
  {
