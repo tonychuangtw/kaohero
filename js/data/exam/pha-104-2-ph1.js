@@ -785,7 +785,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/104090_305_11_55.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) naltrexone 的特徵是氮上帶環丙甲基、14β 位有羥基、6 位為酮基且 7,8 位飽和，屬長效的口服阿片拮抗劑。\n❌ (A) 氮上是環丁甲基而非環丙甲基。\n❌ (B) 缺少 14 位羥基。\n❌ (C) 6 位為羥基且 7,8 位仍是雙鍵，環丙基又直接連在氮上。\n📚 出處：Foye's—阿片受體拮抗劑"
   },
   {
    "n": 56,
@@ -967,7 +968,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/104090_305_11_68.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) tolmetin 主要由對位甲基被氧化成羧酸，生成雙羧酸代謝物後再與葡萄糖醛酸接合排出。\n❌ (A) 為苯環羥化的次要產物。\n❌ (C) 為酮基被還原成二級醇的產物。\n❌ (D) 為 tolmetin 母藥本身。\n📚 出處：Foye's—吡咯乙酸類 NSAID 的代謝"
   },
   {
    "n": 69,
@@ -1065,7 +1067,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/104090_305_11_75.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 nevirapine，屬非核苷類反轉錄酶抑制劑，直接結合酵素的異位口袋，不需被激酶磷酸化即具活性。\n❌ (A) 為 lamivudine，須磷酸化成三磷酸型。\n❌ (B) 為 zidovudine，同樣須經三步磷酸化。\n❌ (D) 為 didanosine，須先轉成 ddATP 才有活性。\n📚 出處：Foye's—抗 HIV 藥物的活化"
   },
   {
    "n": 76,

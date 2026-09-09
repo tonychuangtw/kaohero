@@ -620,7 +620,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107020_305_11_43.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 levocabastine：具氰基環己基與哌啶羧酸，作用強且持久，製成 0.05% 懸浮液點眼治療過敏性結膜炎。\n❌ (B) 為 mizolastine，口服使用。\n❌ (C) 為 acrivastine，口服的第二代抗組織胺。\n❌ (D) 為 astemizole，因心律不整風險已下市，且為口服劑型。\n📚 出處：Foye's—抗組織胺的臨床劑型"
   },
   {
    "n": 44,
@@ -1051,7 +1052,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107020_305_11_74.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) propylthiouracil 為 6-丙基-2-硫尿嘧啶：嘧啶環 2 位是硫酮、4 位是酮、6 位接正丙基，硫酮基是抑制甲狀腺過氧化酶的關鍵。\n❌ (B) 2 位為酮基而非硫酮，是丙基尿嘧啶。\n❌ (C) 硫與氧的位置對調（4-硫酮、2-酮）。\n❌ (D) 2、4 位都是硫酮，並非 PTU。\n📚 出處：Foye's—抗甲狀腺藥"
   },
   {
    "n": 75,
@@ -1080,7 +1082,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/107020_305_11_76.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖 B 為 misoprostol：羧酸做成甲酯、15-羥基移到 16 位並加甲基，可口服且能抵抗脫氫酶，核准用於預防 NSAID 引起的胃潰瘍。\n❌ (A) 為 15-甲基 PGE2 的游離酸型，非該適應症用藥。\n❌ (C) 為 misoprostol 的活性酸（代謝物），本身不是製劑成分。\n❌ (D) 雖是甲酯，但缺少 16-甲基而易被 15-羥基脫氫酶破壞。\n📚 出處：Foye's—前列腺素類似物"
   },
   {
    "n": 77,

@@ -633,7 +633,8 @@ window.APP_EXAM_PAPERS['pha-105-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105100_305_11_44.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖 C 為 probenecid，抑制腎小管的尿酸再吸收（URAT1），可增加尿酸排泄，屬排尿酸劑。\n❌ (A) 為 colchicine，抑制微管以緩解急性發作，不影響尿酸排泄。\n❌ (B) 為 allopurinol，減少尿酸生成而非促進排泄。\n❌ (D) 為 tolmetin，屬 NSAID。\n📚 出處：Foye's—Antigout Agents"
   },
   {
    "n": 45,
@@ -648,7 +649,8 @@ window.APP_EXAM_PAPERS['pha-105-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105100_305_11_45.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 的側鏈少了一個亞甲基而成苯甲酸，diclofenac 的代謝不會縮短碳鏈，故不是其代謝物。\n❌ (B) 為 5-hydroxydiclofenac，是已知代謝物。\n❌ (C) 為 3'-hydroxydiclofenac。\n❌ (D) 為 4',5-二羥基衍生物，同屬代謝產物。\n📚 出處：Foye's—Diclofenac 的代謝"
   },
   {
    "n": 46,
@@ -1109,7 +1111,8 @@ window.APP_EXAM_PAPERS['pha-105-2-ph1'] = {
    ],
    "needfig": true,
    "fig": "img/q/105100_305_11_78.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 A 為 spironolactone：17-螺內酯加 7α-乙醯硫基，競爭性阻斷醛固酮受體，用於原發性高醛固酮症（Conn 氏症候群）。\n❌ (B) 為 mifepristone，屬黃體素／糖皮質素受體拮抗劑。\n❌ (C) 為 hydrocortisone，是糖皮質素。\n❌ (D) 為 fludrocortisone，反而是強效的礦物皮質素促效劑。\n📚 出處：Foye's—醛固酮拮抗劑"
   },
   {
    "n": 79,
