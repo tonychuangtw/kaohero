@@ -16030,7 +16030,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "114 年　普通考試　經濟學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -16072,7 +16072,7 @@ window.APP_EXAMS = [
   "subjName": "圖書資訊學概要",
   "label": "114 年　普通考試　圖書資訊學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
