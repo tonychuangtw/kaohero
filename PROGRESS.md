@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師已完成；目前主線＝教師檢定 261 卷 8,103 題）
-NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,098 題，已寫 2,237／27.6%；115～110 年六個年度已完成，接著做 109 年 460 題）續做：打開 `js/data/exam/tea-109-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定（`tea-*`，261 卷 8,098 題，已寫 2,692／33.2%；115～109 年已完成，**沒有 107、108 兩個年度的卷**，接著做 106 年 485 題共 15 卷）續做：打開 `js/data/exam/tea-106-1-t1001.js` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同年度 15 卷做完再往前一年。同年度的「教育理念與實務」四個類科考卷有大量重複題，先做一卷再跑 `python3 tools/reuse-exp.py <目標pid> <來源pid>...`（輸出目錄用環境變數 REUSE_OUT 指定，預設為當前目錄） 產生可直接套用的 patch。教檢做完再補高普考（gao，17,995 題只寫 1,406）、地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-09 22:00 台北
+UPDATED: 2026-09-09 23:10 台北
 
 ---
 
