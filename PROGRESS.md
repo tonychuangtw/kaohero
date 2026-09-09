@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考古英雄 2,377 卷的逐題詳解寫完（目前主線＝藥師 168 卷 12,600 題）
-NEXT_ACTION: 打開 `js/data/exam/pha-110-2-ph4.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（110-1、109-2…102-1）
+NEXT_ACTION: 打開 `js/data/exam/pha-110-1-ph1.js` 讀題（指令見 CLAUDE.md），寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push；同梯次依 ph1→ph6 做完再往前一個梯次（109-2、109-1…102-1）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-09 09:10 台北
+UPDATED: 2026-09-09 09:40 台北
 
 ---
 
@@ -18,11 +18,12 @@ UPDATED: 2026-09-09 09:10 台北
 
 - [x] **repo 改名 kaoguhero → kaohero**（2026-09-09 完成）。GitHub repo 已改名、本機 remote 已換 `git@github.com:tonychuangtw/kaohero.git`、新站 https://tonychuangtw.github.io/kaohero/ 回 200、rootsite `404.html` MAP 加 `kaohero` 並把舊鍵 `kaoguhero` 指向新站（GitHub Pages 對舊路徑不會自動轉址，靠這層救援）。內部識別碼 `APP: 'kaoguhero'` 與 localStorage `kaoguhero.*` 刻意不動，避免既有使用者紀錄與雲端同步斷掉
 - [ ] 藥師詳解續做（見 NEXT_ACTION）
+- [ ] **自訂網域正式上線**（Tony 2026-09-09 指示「帶我 cloudflare 註冊網址用你建議的方式正式上線」）。建議 kaohero.com（RDAP 查過未註冊），Cloudflare Registrar 註冊、DNS 留 Cloudflare、站台續用 GitHub Pages 自訂網域。等 Tony 買完網域後：① DNS 記錄（A/AAAA 或 CNAME 到 tonychuangtw.github.io，先設 DNS only 讓 GitHub 簽憑證）② repo 加 CNAME 檔 ③ GitHub Pages 設 custom domain + Enforce HTTPS ④ 後端加 `EXTRA_ORIGINS=https://kaohero.com`（server.js 已有此環境變數機制，不必改程式）⑤ Google Identity 的 authorized JavaScript origins 加新網域（要 Tony 在 Google Cloud Console 操作）⑥ rootsite 舊網址轉到新網域。已查證站內無寫死的絕對路徑，從子路徑搬到根網域不會壞
 - [ ] 詳解全部寫完後：題解分離、變現四階段（`docs/monetization-plan.md`）
 
 ## 藥師詳解進度（`pha-*`，168 卷 12,600 題）
 
-已完成 **10 個梯次又 3 卷，共 4,536 題**：
+已完成 **11 個梯次，共 4,743 題**：
 
 | 梯次 | 藥一 | 藥二 | 藥三 | 藥四 | 藥五 | 藥六 | 小計 |
 |---|---|---|---|---|---|---|---|
@@ -36,7 +37,7 @@ UPDATED: 2026-09-09 09:10 台北
 | 112-1 | 70 | 76 | 74 | 79 | 80 | 50 | 429 |
 | 111-2 | 73 | 76 | 77 | 80 | 80 | 50 | 436 |
 | 111-1 | 71 | 76 | 70 | 80 | 80 | 50 | 427 |
-| 110-2 | 72 | 78 | 72 | — | — | — | 222（做到 ph3） |
+| 110-2 | 72 | 78 | 72 | 79 | 79 | 49 | 429 |
 
 未寫的題全是：選項在圖上而題庫只存到空字串、題幹或選項轉檔毀損、官方答案與教科書衝突者。這三類刻意跳過，不要硬寫。
 
