@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: 教師檢定已全部完成（8,005／8,103＝98.8%）。**主線＝高普考（`gao-*`，633 卷 17,995 題）**，已從 115 年開始往前做：115 年高考三級除 g026（財政學會計組，15 題選項在圖上）、g027（民法司法行政組）、g031（經濟學與貨幣銀行學）外已完成，接著做這三卷與 115 年普通考試 p003 以下各卷（p002 剩 5 題圖題）。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度不同類科常有整卷重複（例：115 g004 與 g017、g006 與 g034 完全相同），先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化版；檔案在 scratchpad，換 session 要重寫，核心是 `norm=s=>s.normalize("NFKC").replace(/\s+/g,"")` 比對題幹＋選項）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
+NEXT_ACTION: 教師檢定已全部完成（8,005／8,103＝98.8%）。**主線＝高普考（`gao-*`，633 卷 17,995 題，已寫約 2,470）**，從 115 年往前做。115 年已寫 1,070／1,345，**下一步接著做這幾卷**：`gao-115-1-p030`（經濟學與財政學概要 50 題）、`gao-115-1-p031`（經濟學與貨幣銀行學概要 50 題）、`gao-115-1-p023`／`p027`（計算機概要各 40 題，有 2 題選項在圖上）、`gao-115-1-p025`（動物解剖生理學概要 50 題）、`gao-115-1-g026`（財政學會計組 25 題，其中 15 題選項在圖上，要用 Read 工具開 `img/q/*.webp` 判讀）；`g027` 另有 8 題轉檔毀損／選項在圖上待處理。115 年做完接著做 114、113…一路往前到 102。做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**）→ 用 Write 工具寫 patch JSON → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。同年度不同類科常有整卷重複（例：115 g004 與 g017、g006 與 g034、p015 與 p028），先跑 `REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");` 答案索引不同就跳過）。高普考做完再做地方特考（loc，27,010 題只寫 2,020）
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 19:10 台北
+UPDATED: 2026-09-10 22:05 台北
 
 ---
 
