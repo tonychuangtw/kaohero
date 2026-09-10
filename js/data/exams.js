@@ -23534,7 +23534,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作概要",
   "label": "102 年　普通考試　社會工作概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
