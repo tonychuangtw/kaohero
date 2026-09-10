@@ -19628,7 +19628,7 @@ window.APP_EXAMS = [
   "subjName": "行政法（法制組）",
   "label": "108 年　高考三級　行政法（法制組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
