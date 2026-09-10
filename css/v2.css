@@ -35,27 +35,14 @@ img{max-width:100%}
 .hd{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--card) 92%,transparent);
   backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
 .hd-in{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:10px 16px}
-/* Logo：「考」做成獨立印章式標誌，「英雄」用襯線體（2026-09-09 Tony：更派一點）
-   2026-09-09 Tony 定版「丙-3」：方章與字標貼齊（gap 0）、字距收到 .06em */
-.logo{display:flex;align-items:center;gap:0;color:var(--ink);
-  font-family:"Noto Serif TC","Source Han Serif TC","Songti TC","PMingLiU",serif;
-  /* 2026-09-10 Tony：「英雄」離方章太遠。text-indent 會被 flex 的匿名文字項目繼承，
-     等於在方章與「英雄」之間多墊一段；歸零後再用 .mk 的負右邊距把兩者拉近。 */
-  font-weight:900;font-size:calc(25px * var(--fs,1));letter-spacing:.06em;text-indent:0}
+/* ── 站台識別（2026-09-10 Tony 拍板採 preview/logo.html 的 A 案：方章打勾 ＋ 黑體字標）──
+   方章顏色走 --lg1/--lg2 漸層、勾線走 --lg3，深色主題只換這三個變數即可。 */
+:root{--lg1:#2f5bd7;--lg2:#7a4de0;--lg3:#fff}
+.logo{display:flex;align-items:center;gap:5px;color:var(--ink);
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,sans-serif;
+  font-weight:800;font-size:calc(25px * var(--fs,1));letter-spacing:.08em;line-height:1}
 .logo:hover{text-decoration:none}
-.logo .mk{width:38px;height:38px;flex:0 0 38px;border-radius:11px;
-  background:linear-gradient(135deg,var(--brand),#7a4de0);
-  color:#fff;display:grid;place-items:center;font-size:calc(24px * var(--fs,1));
-  font-family:"Noto Serif TC","Source Han Serif TC","Songti TC","PMingLiU",serif;
-  font-weight:900;letter-spacing:0;text-indent:0;line-height:1;
-  /* 2026-09-10 Tony：「考」在方章裡偏下，和「英雄」對不齊。
-     襯線體 CJK 的字面重心本來就偏下，加上「考」下方那一勾拉得更低，
-     用下內距把置中的字往上頂：padding-bottom 的一半就是上移量。
-     8px（上移 4px）、4px（上移 2px）、2px（上移 1px）Tony 都嫌偏上，
-     2026-09-10 定為 0（完全置中，不做任何上移）；若還嫌高就改用 padding-top 往下推。
-     ※ 改這裡一定要順手把 index.html 的 css/v2.css?v= 換掉，否則瀏覽器/CDN 會吃舊快取。 */
-  padding-bottom:0;margin-right:-2px;
-  box-shadow:0 2px 10px rgba(0,0,0,.28),inset 0 0 0 1.5px rgba(255,255,255,.28)}
+.logo .mk{width:38px;height:38px;flex:0 0 38px;display:block}
 .hd nav{margin-left:auto;display:none;gap:4px}
 .hd nav a{padding:7px 12px;border-radius:9px;color:var(--ink2);font-size:calc(15px * var(--fs,1));font-weight:600}
 .hd nav a:hover{background:var(--line2);text-decoration:none}
@@ -79,8 +66,7 @@ img{max-width:100%}
 /* 頁首、頁尾與卡片的金榜風微調；淺色／棕褐／高對比主題下自動讓位給各自的色票 */
 :root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .hd{
   background:rgba(14,18,24,.88);border-bottom-color:var(--line)}
-:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .logo .mk{
-  background:linear-gradient(150deg,#e3b25c,#8a6520);color:#1a1206}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .logo{--lg1:#e3b25c;--lg2:#8a6520;--lg3:#1a1206}
 :root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .hd nav a.on{
   color:#1b1305;background:var(--gold)}
 :root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .ft{
