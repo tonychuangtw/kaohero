@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115、114、113、112、111、110、109、108、**107 年皆已完成**（各年剩下的都是圖片缺檔、公式毀損、缺文章或官方答案與教科書衝突而刻意跳過的題）。現在做 **106 年**：先高考 `gao-106-1-g001` 起（國文為讀圖題），再普考；之後 105…一路往前到 102。
+NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115～107 年皆已完成（各年剩下的都是圖片缺檔、公式毀損、缺克漏字文章或官方答案與法條／教科書衝突而刻意跳過的題）。**106 年高考（g001～g021）已全部完成**，現在做 **106 年普考**：`gao-106-1-p003` 行政學概要 50 題起，依序到 p027；之後 105…一路往前到 102。
 每年固定有幾組整卷重複，**先做來源卷再套用**：`g004`→`g017`（行政法）、`g006`→`g027`／`g029`（民法）、`g008`→`g026`（財政學）、`p015`→`p028`（會計學概要）。
 做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON（`[{pid,n,exp}]`）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。
 套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。**寫完 patch 後、套用前先掃一次夾字**（2026-09-10 加強：舊的 `/[一-鿿][A-Za-z]{3,}[一-鿿]/` 漏掉「與legitimacy，」這種後面接標點的，改用 `/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 這種正常用法不會誤報，當天連抓到 `主權territory`）。另掃西里爾字母（`node -e "const s=require('fs').readFileSync(檔,'utf8');console.log((s.match(/[\u0400-\u04FF]/g)||[]).join('')||'無')"`）——2026-09-10 抓到兩次俄文詞混進中文句子（另修掉 law-108 一處舊的）。套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
@@ -8,7 +8,7 @@ NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115、11
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 台北（107 年全部完成，高普考 11,795/17,995＝65.5%、全站 76,639/109,281＝70.1%；下一卷 gao-106-1-g001）
+UPDATED: 2026-09-10 台北（106 年高考全部完成；下一卷 gao-106-1-p003）
 
 ---
 
