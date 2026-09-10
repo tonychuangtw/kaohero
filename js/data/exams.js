@@ -19922,7 +19922,7 @@ window.APP_EXAMS = [
   "subjName": "衛生行政學概要",
   "label": "108 年　普通考試　衛生行政學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
