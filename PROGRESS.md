@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115～106 年皆已完成，**105 年高考（g001～g019）也已全部完成**（各卷剩下的都是圖片缺檔、圈碼／上劃線毀損、缺克漏字文章或官方答案與法條／教科書衝突而刻意跳過的題）。現在做 **105 年普考**：下一卷是 `gao-105-1-p004` 公共管理概要 25 題，之後依序 p005→p027（p003 已完成 48/50；p001 #1、p002 #36～45 為缺文章／選項毀損而刻意跳過）；105 做完接 104…一路往前到 102，最後做地方特考（`loc-*`）。每卷流程：node -e 讀題 →（有 fig 就用 Read 工具看 webp）→ 寫 patch JSON 到 scratchpad → 跑夾字／非中英數／JSON.parse 檢查 → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。
+NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115～105 年皆已完成（各卷剩下的都是圖片缺檔、圈碼／上劃線毀損、缺克漏字文章或官方答案與法條／教科書衝突而刻意跳過的題）。現在做 **104 年**：下一卷是 `gao-104-1-g004` 行政法（一般行政組）25 題，之後依序 g005→g019、再 p003→p027；104 做完接 103 → 102，最後做地方特考（`loc-*`）。**先做 g004 再用 reuse2.js 套用到 g017、g019**（105 年這三卷各有 20 題重複）。每卷流程：node -e 讀題 →（有 fig 就用 Read 工具看 webp）→ 寫 patch JSON 到 scratchpad → 跑夾字／非中英數／JSON.parse 檢查 → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。
 每年固定有幾組整卷重複，**先做來源卷再套用**：`g004`→`g017`（行政法）、`g006`→`g027`／`g029`（民法）、`g008`→`g026`（財政學）、`p015`→`p028`（會計學概要）。
 做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON（`[{pid,n,exp}]`）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。
 套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。**寫完 patch 後、套用前先掃一次夾字**（2026-09-10 加強：舊的 `/[一-鿿][A-Za-z]{3,}[一-鿿]/` 漏掉「與legitimacy，」這種後面接標點的，改用 `/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 這種正常用法不會誤報，當天連抓到 `主權territory`）。另掃西里爾字母（`node -e "const s=require('fs').readFileSync(檔,'utf8');console.log((s.match(/[\u0400-\u04FF]/g)||[]).join('')||'無')"`）——2026-09-10 抓到兩次俄文詞混進中文句子（另修掉 law-108 一處舊的）。套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
@@ -8,7 +8,7 @@ NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115～10
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 台北（105 年高考全部完成、普考 p003 完成；下一卷 gao-105-1-p004）
+UPDATED: 2026-09-10 台北（105 年全部完成；下一卷 gao-104-1-g004）
 
 ---
 
