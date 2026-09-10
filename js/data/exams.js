@@ -25522,7 +25522,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "112 年　五等　人事行政大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -25536,7 +25536,7 @@ window.APP_EXAMS = [
   "subjName": "戶籍法規大意",
   "label": "112 年　五等　戶籍法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
