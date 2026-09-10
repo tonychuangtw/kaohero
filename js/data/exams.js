@@ -18830,7 +18830,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "109 年　高考三級　經濟學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
