@@ -25214,7 +25214,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "112 年　四等　移民法規概要",
   "n": 50,
-  "exp": 0,
+  "exp": 48,
   "mins": 60
  },
  {
