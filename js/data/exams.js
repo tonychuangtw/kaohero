@@ -24332,7 +24332,7 @@ window.APP_EXAMS = [
   "subjName": "行政學",
   "label": "113 年　三等　行政學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -24346,7 +24346,7 @@ window.APP_EXAMS = [
   "subjName": "行政法（一般行政組）",
   "label": "113 年　三等　行政法（一般行政組）",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -24360,7 +24360,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "113 年　三等　經濟學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -24374,7 +24374,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "113 年　三等　民法（財稅行政組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -24472,7 +24472,7 @@ window.APP_EXAMS = [
   "subjName": "行政法（法制組）",
   "label": "113 年　三等　行政法（法制組）",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -24486,7 +24486,7 @@ window.APP_EXAMS = [
   "subjName": "民法（法制組）",
   "label": "113 年　三等　民法（法制組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
