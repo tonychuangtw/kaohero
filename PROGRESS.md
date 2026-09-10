@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、教師檢定已完成；目前主線＝高普考 gao-* 17,995 題）
-NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115（98.7%）、114（97.0%）、113（98.0%）、112（95.1%）、111（97.6%）已完成；**110 年高考 g002～g024 全數寫完（2026-09-10）**。**現在做 110 年普考**：p003～p005 已完成，**下一卷 `gao-110-1-p006` 行政法概要 50**，之後依序 p007～p027（含 `p025` 動物解剖生理學概要 50），`p002` 法學知識與英文已有 45 題。110 做完接著 109、108…一路往前到 102。
+NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115（98.7%）、114（97.0%）、113（98.0%）、112（95.1%）、111（97.6%）已完成；**110 年高考 g002～g024 全數寫完（2026-09-10）**。**現在做 110 年普考**：p003～p016 已完成，**下一卷 `gao-110-1-p017` 政府會計概要 20**，之後依序 p018～p027（含 `p025` 動物解剖生理學概要 50），`p002` 法學知識與英文已有 45 題。110 做完接著 109、108…一路往前到 102。
 每年固定有幾組整卷重複，**先做來源卷再套用**：`g004`→`g017`（行政法）、`g006`→`g027`／`g029`（民法）、`g008`→`g026`（財政學）、`p015`→`p028`（會計學概要）。
 做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON（`[{pid,n,exp}]`）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。
 套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。**寫完 patch 後、套用前先掃一次夾字**（2026-09-10 加強：舊的 `/[一-鿿][A-Za-z]{3,}[一-鿿]/` 漏掉「與legitimacy，」這種後面接標點的，改用 `/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 這種正常用法不會誤報，當天連抓到 `主權territory`）。另掃西里爾字母（`node -e "const s=require('fs').readFileSync(檔,'utf8');console.log((s.match(/[\u0400-\u04FF]/g)||[]).join('')||'無')"`）——2026-09-10 抓到兩次俄文詞混進中文句子（另修掉 law-108 一處舊的）。套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
@@ -8,7 +8,7 @@ NEXT_ACTION: **主線＝高普考（`gao-*`，633 卷 17,995 題）**。115（98
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-10 台北（110 高考完成；普考做到 p005，下一卷 gao-110-1-p006 行政法概要 50）
+UPDATED: 2026-09-10 台北（110 高考完成；普考做到 p016，下一卷 gao-110-1-p017 政府會計概要）
 
 ---
 
