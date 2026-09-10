@@ -24248,7 +24248,7 @@ window.APP_EXAMS = [
   "subjName": "動物解剖生理學概要",
   "label": "114 年　四等　動物解剖生理學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
