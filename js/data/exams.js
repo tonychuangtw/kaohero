@@ -19194,7 +19194,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "109 年　普通考試　稅務法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
