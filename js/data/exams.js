@@ -18382,7 +18382,7 @@ window.APP_EXAMS = [
   "subjName": "租稅法",
   "label": "110 年　高考三級　租稅法",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
