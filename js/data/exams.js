@@ -20580,7 +20580,7 @@ window.APP_EXAMS = [
   "subjName": "圖書資訊學概要",
   "label": "107 年　普通考試　圖書資訊學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
