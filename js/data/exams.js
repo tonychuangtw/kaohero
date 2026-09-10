@@ -18452,7 +18452,7 @@ window.APP_EXAMS = [
   "subjName": "政治學概要",
   "label": "110 年　普通考試　政治學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
