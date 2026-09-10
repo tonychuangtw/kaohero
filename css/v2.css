@@ -39,7 +39,9 @@ img{max-width:100%}
    2026-09-09 Tony 定版「丙-3」：方章與字標貼齊（gap 0）、字距收到 .06em */
 .logo{display:flex;align-items:center;gap:0;color:var(--ink);
   font-family:"Noto Serif TC","Source Han Serif TC","Songti TC","PMingLiU",serif;
-  font-weight:900;font-size:calc(25px * var(--fs,1));letter-spacing:.06em;text-indent:.06em}
+  /* 2026-09-10 Tony：「英雄」離方章太遠。text-indent 會被 flex 的匿名文字項目繼承，
+     等於在方章與「英雄」之間多墊一段；歸零後再用 .mk 的負右邊距把兩者拉近。 */
+  font-weight:900;font-size:calc(25px * var(--fs,1));letter-spacing:.06em;text-indent:0}
 .logo:hover{text-decoration:none}
 .logo .mk{width:38px;height:38px;flex:0 0 38px;border-radius:11px;
   background:linear-gradient(135deg,var(--brand),#7a4de0);
@@ -52,7 +54,7 @@ img{max-width:100%}
      8px（上移 4px）、4px（上移 2px）、2px（上移 1px）Tony 都嫌偏上，
      2026-09-10 定為 0（完全置中，不做任何上移）；若還嫌高就改用 padding-top 往下推。
      ※ 改這裡一定要順手把 index.html 的 css/v2.css?v= 換掉，否則瀏覽器/CDN 會吃舊快取。 */
-  padding-bottom:0;
+  padding-bottom:0;margin-right:-2px;
   box-shadow:0 2px 10px rgba(0,0,0,.28),inset 0 0 0 1.5px rgba(255,255,255,.28)}
 .hd nav{margin-left:auto;display:none;gap:4px}
 .hd nav a{padding:7px 12px;border-radius:9px;color:var(--ink2);font-size:calc(15px * var(--fs,1));font-weight:600}
