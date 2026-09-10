@@ -25354,7 +25354,7 @@ window.APP_EXAMS = [
   "subjName": "衛生行政學概要",
   "label": "112 年　四等　衛生行政學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -25368,7 +25368,7 @@ window.APP_EXAMS = [
   "subjName": "圖書資訊學概要",
   "label": "112 年　四等　圖書資訊學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
