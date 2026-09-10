@@ -216,7 +216,13 @@
       + expQ.toLocaleString() + T(' 題附上本站自己寫的逐題詳解——每題告訴你正解為什麼對、其他選項錯在哪，並附教科書章節或法條出處。')));
     var br = el('div', 'btnrow');
     br.appendChild(btn(T('開始刷題 →'), 'g', null, '#/exams'));
-    br.appendChild(btn(T('看看詳解長什麼樣'), '', null, '#demo'));
+    // 2026-09-10 Tony 回報「進去是空的」：這顆鈕原本 href='#demo'，會被 hash 路由當成
+    // 不存在的頁面而落到 viewNotFound。詳解實例本來就在首頁下方，改成捲動到該區塊即可。
+    br.appendChild(btn(T('看看詳解長什麼樣'), '', function (e) {
+      e.preventDefault();
+      var t = document.getElementById('demo');
+      if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }));
     hero.appendChild(br);
     var nums = el('div', 'nums');
     [[liveQ.toLocaleString(), T('題（持續增加）')], [liveN.toLocaleString(), T('卷完整考古卷')],
