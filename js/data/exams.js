@@ -25452,7 +25452,7 @@ window.APP_EXAMS = [
   "subjName": "行政學大意",
   "label": "112 年　五等　行政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -25466,7 +25466,7 @@ window.APP_EXAMS = [
   "subjName": "法學大意（一般行政組）",
   "label": "112 年　五等　法學大意（一般行政組）",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
