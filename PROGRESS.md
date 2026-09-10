@@ -1,14 +1,15 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年只剩最後一卷 `loc-114-1-b025` 動物解剖生理學概要 50 題（0/50）沒寫**，做完 114 年就收尾，接著整年往下：113 → 112 → … → 102。114 其餘各卷已完成，剩下的零星缺題都是刻意跳過並在 commit 訊息寫明理由的（民法禁婚親兩題官方答案與民法第 1073 條之 1 衝突、稅務法規繼承房地成本與相當擔保計值、會計審計法規經費流用、經濟學生產函數指數轉檔掉字、克漏字缺文章、最小生成樹與邏輯閘延遲缺圖檔），另 a002／b002 法學知識與英文的英文題組本來就部分留白。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上）→ 寫 patch JSON 到 scratchpad → 跑夾字／非中英數／JSON.parse 檢查 → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-all.js <目標pid>`（掃全站已寫詳解的題，用 NFKC 正規化的題幹＋選項比對且答案索引須相同）——114 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 24 題，省下大量重寫；但**套用前要看一眼命中清單**，選項全空的圖片題會誤命中（b029 曾誤配到 den-112-1-dent3），那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram reply 回報一次進度。）
-每年固定有幾組整卷重複，**先做來源卷再套用**：`g004`→`g017`（行政法）、`g006`→`g027`／`g029`（民法）、`g008`→`g026`（財政學）、`p015`→`p028`（會計學概要）。
-做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON（`[{pid,n,exp}]`）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。
-`reuse-all.js` 換 session 要重寫（掃全站，不必指定來源卷）：讀 `js/data/exam/*.js` 逐卷 require（要用 `process.cwd()+'/js/data/exam/'+pid` 這種絕對路徑，腳本放 scratchpad 時相對路徑會找不到），把所有 `q.exp && !q.void` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 為 key 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/<pid>.json`。
-套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。**寫完 patch 後、套用前先掃一次夾字**（2026-09-10 加強：舊的 `/[一-鿿][A-Za-z]{3,}[一-鿿]/` 漏掉「與legitimacy，」這種後面接標點的，改用 `/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 這種正常用法不會誤報，當天連抓到 `主權territory`）。另掃西里爾字母（`node -e "const s=require('fs').readFileSync(檔,'utf8');console.log((s.match(/[\u0400-\u04FF]/g)||[]).join('')||'無')"`）——2026-09-10 抓到兩次俄文詞混進中文句子（另修掉 law-108 一處舊的）。套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
+NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年已全部完成**（最後一卷 b025 動物解剖生理學概要 2026-09-11 補完）。**113 年三等 16 卷已全部完成**，目前做 113 年四等（`loc-113-1-b0xx`，22 卷），做完接著 112 → 111 → … → 102。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上；閱讀測驗要用帶 `q.psg` 的指令）→ 用 Write 工具寫 patch JSON 到 scratchpad → 跑 `node <scratchpad>/chk.js <patch>`（格式／夾字／西里爾字母／JSON 一次檢查，換 session 要重寫，見下）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-batch.js <pid或年度前綴>`（掃全站已寫詳解的題，NFKC 正規化題幹＋選項比對且答案索引須相同；一次建索引可批次處理多卷）——113 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 25 題；**套用前看一眼命中清單**，選項全空的圖片題會誤命中，那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram 回報一次進度。）
+每年固定有幾組整卷重複，**先做來源卷再套用**：三等 `a004`→`a018`（行政法）、`a006`→`a019`（民法）；高普考則是 `g004`→`g017`、`g006`→`g027`／`g029`、`g008`→`g026`、`p015`→`p028`。
+兩支腳本換 session 要重寫（都放 scratchpad）：
+- `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
+- `chk.js <patch...>`：JSON.parse、西里爾字母（`/[\u0400-\u04FF]/`）、夾字（`/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 不會誤報）、U+FFFD 替代字元、以及每題五行格式（第一行 `✅ (X)`、中間剛好三行 `❌ (X)`、最後一行 `📚 出處：`）。**這兩類錯誤本 session 各抓到一次**（俄文 `форм式`、中英混寫 `因果relation`），一定要跑。
+套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 台北（地方特考 114 年做到剩 b025 一卷；全站 83,235/109,281、地方特考 2,946/27,010）
+UPDATED: 2026-09-11 台北（地方特考 114 年全部完成、113 年三等 16 卷全部完成；全站 83,621/109,281、地方特考 3,332/27,010）
 
 ---
 
@@ -105,7 +106,7 @@ UPDATED: 2026-09-11 台北（地方特考 114 年做到剩 b025 一卷；全站 
 
 - **中醫師**（`tcm-*`）168 卷 13,440 題 → 已寫 13,104 題（97.5%），全數做完
 - **高普考**（`gao-*`）633 卷 17,995 題 → 已寫 17,455 題（97.0%），115～102 年全數做完（2026-09-11）
-- **地方特考**（`loc-*`）774 卷 27,010 題 → 進行中，已寫 2,946 題（10.9%）；114 年 38 卷只剩 `b025` 動物解剖生理學概要未寫
+- **地方特考**（`loc-*`）774 卷 27,010 題 → 進行中，已寫 3,332 題（12.3%）；114 年 38 卷全部完成，113 年三等 16 卷全部完成、四等 22 卷進行中
 - **地方特考共同科目**（`loc-*`）102～114 年 → 1,975 題，全數做完
 - 牙醫師、醫師等類別的完成度見 chinese 線舊 PROGRESS.md 的紀錄
 
