@@ -434,7 +434,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_30.webp"
+   "fig": "img/q/110090_301_0105_30.webp",
+   "exp": "✅ (D) A 公司董事為甲乙丙丁戊己庚，B 公司董事為甲丙丁戊壬，相同者有甲、丙、丁、戊四人，已達 B 公司董事總數的半數以上，依法推定兩公司間有控制與從屬關係。\n❌ (A) 相互投資公司的門檻為「各達對方有表決權股份總數三分之一以上」，非四分之一。\n❌ (B) 縱使持股成數未達形式認定要件，董事半數以上相同仍推定有控制與從屬關係。\n❌ (C) 相互投資須雙方「各達」三分之一以上，B 公司持有 A 公司僅 30%，尚未達到。\n📚 出處：公司法第 369 條之 3、第 369 條之 9。"
   },
   {
    "n": 31,
@@ -449,7 +450,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_31.webp"
+   "fig": "img/q/110090_301_0105_31.webp",
+   "exp": "✅ (A) 空格後為 with American power，固定用法 along with 表示「隨著、伴隨」，語意為英語隨美國國力而擴散至全球。\n❌ (B) down with 意為「打倒」，語意不合。\n❌ (C) toward 後不接 with。\n❌ (D) up with 多用於 keep up with 等片語，此處不成立。\n📚 出處：英文－介系詞片語 along with 的用法。"
   },
   {
    "n": 32,
@@ -464,7 +466,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_32.webp"
+   "fig": "img/q/110090_301_0105_32.webp",
+   "exp": "✅ (C) 前句 not only learned English 與 but 後形成對比，說明移民世代學會英語卻「遺忘」了父母帶來的母語。\n❌ (A) appreciated（欣賞）與對比語氣不合。\n❌ (B) decoded（解碼）不合語境。\n❌ (D) studied（研讀）與後文母語流失的敘述矛盾。\n📚 出處：英文－克漏字的語意連貫判斷。"
   },
   {
    "n": 33,
@@ -479,7 +482,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_33.webp"
+   "fig": "img/q/110090_301_0105_33.webp",
+   "exp": "✅ (B) 與前半 speaks little English 並列，說明第一代移民即使學了英語也學得「不完全、不道地」，用 imperfectly。\n❌ (A) impossibly 語意不通。\n❌ (C) indefinitely 指「無限期地」，與學習程度無關。\n❌ (D) intentionally 指「刻意地」，與文意不符。\n📚 出處：英文－副詞語意辨析。"
   },
   {
    "n": 34,
@@ -494,7 +498,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_34.webp"
+   "fig": "img/q/110090_301_0105_34.webp",
+   "exp": "✅ (A) 後接 but English-dominant，表示在美國出生的第一代雖「雙語」但以英語為主，故填 bilingual。\n❌ (B) monolingual（單語）與 but 的轉折語氣矛盾。\n❌ (C) literary 指「文學的」，不合語境。\n❌ (D) illiterate 指「不識字的」，語意不合。\n📚 出處：英文－語言學相關字彙。"
   },
   {
    "n": 35,
@@ -509,7 +514,8 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/110090_301_0105_35.webp"
+   "fig": "img/q/110090_301_0105_35.webp",
+   "exp": "✅ (A) heritage language 為固定用語，指移民家庭的「傳承語（祖語）」；文意謂第三代幾乎不再說祖先的母語。\n❌ (B) source language 指翻譯中的來源語。\n❌ (C) sign language 指手語。\n❌ (D) target language 指學習或翻譯的目標語。\n📚 出處：英文－heritage language 等語言學用語。"
   },
   {
    "n": 36,
