@@ -1,13 +1,13 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **高普考（`gao-*`，633 卷 17,995 題）已全部走過一遍，17,455／17,995（97.0%）**，剩下的 540 題全是刻意跳過（英文克漏字缺文章、化學結構式／公式轉檔毀損、選項斷行合併、圖表缺檔、官方廢題、官方答案與教科書衝突）。2026-09-11 另掃出並補回四處「批次中斷漏寫」而非刻意跳過的：105 行政法 g017／g019 各 5 題、104 政府會計 g012 9 題、112 政府會計 g012 10 題、114 政府會計概要 p017 4 題。**現在主線＝地方特考（`loc-*`，774 卷 27,010 題，目前僅 2,020）**，同樣由新到舊：先做 **114 年**，下一卷是 `loc-114-1-a003` 行政學 25 題，之後依序 a004→a021、b003→b029（a001/b001 國文與 a002/b002 法學知識與英文已部分完成），114 做完接 113 → 112 →…→ 102。每卷流程：node -e 讀題 →（有 fig 就用 Read 工具看 webp；很多卷的選項整個在圖上，一定要開圖）→ 寫 patch JSON 到 scratchpad → 跑夾字／非中英數／JSON.parse 檢查 → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram reply 回報一次進度。）註：地方特考與高普考的題目不重複（`reuse-all.js` 掃全站已寫詳解的題，loc-114-1-a003 命中 0 題），別預期能套用。
+NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年只剩最後一卷 `loc-114-1-b025` 動物解剖生理學概要 50 題（0/50）沒寫**，做完 114 年就收尾，接著整年往下：113 → 112 → … → 102。114 其餘各卷已完成，剩下的零星缺題都是刻意跳過並在 commit 訊息寫明理由的（民法禁婚親兩題官方答案與民法第 1073 條之 1 衝突、稅務法規繼承房地成本與相當擔保計值、會計審計法規經費流用、經濟學生產函數指數轉檔掉字、克漏字缺文章、最小生成樹與邏輯閘延遲缺圖檔），另 a002／b002 法學知識與英文的英文題組本來就部分留白。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上）→ 寫 patch JSON 到 scratchpad → 跑夾字／非中英數／JSON.parse 檢查 → `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-all.js <目標pid>`（掃全站已寫詳解的題，用 NFKC 正規化的題幹＋選項比對且答案索引須相同）——114 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 24 題，省下大量重寫；但**套用前要看一眼命中清單**，選項全空的圖片題會誤命中（b029 曾誤配到 den-112-1-dent3），那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram reply 回報一次進度。）
 每年固定有幾組整卷重複，**先做來源卷再套用**：`g004`→`g017`（行政法）、`g006`→`g027`／`g029`（民法）、`g008`→`g026`（財政學）、`p015`→`p028`（會計學概要）。
 做法：`node -e` 讀題（**閱讀測驗要用 CLAUDE.md 裡帶 `q.psg` 的那行指令**；**選項空字串的圖片題要用 Read 工具開 `img/q/*.webp`**）→ 用 Write 工具寫 patch JSON（`[{pid,n,exp}]`）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit push。`set-exp.js` 會比對 ✅ 標的字母與正解，寫錯會擋下來，是很有用的保險。
 套用重複卷：`REUSE_OUT=<目錄> node <scratchpad>/reuse2.js <目標pid> <來源pid>...`（NFKC 正規化比對題幹＋選項，跳過選項全空的圖片題與答案索引不同者；檔案在 scratchpad，換 session 要重寫：`const norm=s=>String(s||"").normalize("NFKC").replace(/\s+/g,"");const key=q=>norm(q.q)+"|"+q.o.map(norm).join("|");const blank=q=>q.o.every(o=>!norm(o));`）。**寫完 patch 後、套用前先掃一次夾字**（2026-09-10 加強：舊的 `/[一-鿿][A-Za-z]{3,}[一-鿿]/` 漏掉「與legitimacy，」這種後面接標點的，改用 `/[一-鿿][a-z]{3,}/`——只抓中文字後緊接小寫拉丁字母，`（NPM）`、`IUU` 這種正常用法不會誤報，當天連抓到 `主權territory`）。另掃西里爾字母（`node -e "const s=require('fs').readFileSync(檔,'utf8');console.log((s.match(/[\u0400-\u04FF]/g)||[]).join('')||'無')"`）——2026-09-10 抓到兩次俄文詞混進中文句子（另修掉 law-108 一處舊的）。套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 台北（高普考 633 卷全部走完，全站 82,299/109,281；主線轉入地方特考，下一卷 loc-114-1-a003）
+UPDATED: 2026-09-11 台北（地方特考 114 年做到剩 b025 一卷；全站 83,235/109,281、地方特考 2,946/27,010）
 
 ---
 
@@ -104,6 +104,7 @@ UPDATED: 2026-09-11 台北（高普考 633 卷全部走完，全站 82,299/109,2
 
 - **中醫師**（`tcm-*`）168 卷 13,440 題 → 已寫 13,104 題（97.5%），全數做完
 - **高普考**（`gao-*`）633 卷 17,995 題 → 已寫 17,455 題（97.0%），115～102 年全數做完（2026-09-11）
+- **地方特考**（`loc-*`）774 卷 27,010 題 → 進行中，已寫 2,946 題（10.9%）；114 年 38 卷只剩 `b025` 動物解剖生理學概要未寫
 - **地方特考共同科目**（`loc-*`）102～114 年 → 1,975 題，全數做完
 - 牙醫師、醫師等類別的完成度見 chinese 線舊 PROGRESS.md 的紀錄
 
