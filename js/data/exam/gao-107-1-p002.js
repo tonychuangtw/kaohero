@@ -596,7 +596,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107090_401_0211_41.webp"
+   "fig": "img/q/107090_401_0211_41.webp",
+   "exp": "✅ (B) 文中指出 99% 的幼龜與 87% 的成龜皆為雌性，這樣的結果令人憂心，故填 alarming（令人擔憂的）。\n❌ (A) deceitful 意為欺騙的，與文意不合。\n❌ (C) prosperous 意為繁榮的，語意相反。\n❌ (D) thoughtful 意為體貼、深思的，不合語境。\n📚 出處：英文－克漏字（氣候變遷與綠蠵龜性別）。"
   },
   {
    "n": 42,
@@ -611,7 +612,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107090_401_0211_42.webp"
+   "fig": "img/q/107090_401_0211_42.webp",
+   "exp": "✅ (C) 海龜的性別「由」築巢環境的溫度所決定，被動語態填 determined。\n❌ (A) maintained 意為維持，語意不通。\n❌ (B) classified 意為分類，與溫度決定性別的機制不符。\n❌ (D) straightened 意為弄直，語意不合。\n📚 出處：英文－克漏字（動詞語意選擇）。"
   },
   {
    "n": 43,
@@ -626,7 +628,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107090_401_0211_43.webp"
+   "fig": "img/q/107090_401_0211_43.webp",
+   "exp": "✅ (C) 空格引導非限定關係子句，以 which 指涉前一整句所述的現象並作為 raises 的主詞。\n❌ (A) while 為連接詞，其後須接完整子句。\n❌ (B) whatever 語意不通。\n❌ (D) whether 用於引導名詞子句，不作主詞的關係代名詞。\n📚 出處：英文－關係代名詞。"
   },
   {
    "n": 44,
@@ -641,7 +644,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/107090_401_0211_44.webp"
+   "fig": "img/q/107090_401_0211_44.webp",
+   "exp": "✅ (D) 前句先說雌龜增加「起初」看似是好事，後句以 The problem, however 轉折，故填 at first。\n❌ (A) once again 意為再一次，與文意不符。\n❌ (B) little by little 意為逐漸地，不合轉折語氣。\n❌ (C) worst of all 意為最糟的是，語氣過強且方向相反。\n📚 出處：英文－克漏字（轉折語氣）。"
   },
   {
    "n": 45,
@@ -656,7 +660,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107090_401_0211_45.webp"
+   "fig": "img/q/107090_401_0211_45.webp",
+   "exp": "✅ (B) 物種係「為因應」氣候與其他環境變遷而演化，故填 in response to。\n❌ (A) at the risk of 意為冒著…的風險。\n❌ (C) in place of 意為取代。\n❌ (D) on the verge of 意為瀕臨。\n📚 出處：英文－介系詞片語。"
   },
   {
    "n": 46,
