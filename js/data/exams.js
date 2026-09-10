@@ -22680,7 +22680,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "103 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 0,
+  "exp": 15,
   "mins": 60
  },
  {
