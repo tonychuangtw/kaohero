@@ -16926,7 +16926,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "112 年　高考三級　會計學",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -16940,7 +16940,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "112 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
