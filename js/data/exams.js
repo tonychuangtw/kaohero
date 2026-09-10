@@ -19698,7 +19698,7 @@ window.APP_EXAMS = [
   "subjName": "公共管理概要",
   "label": "108 年　普通考試　公共管理概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
