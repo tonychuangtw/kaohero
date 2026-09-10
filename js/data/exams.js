@@ -19656,7 +19656,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "108 年　高考三級　工程數學",
   "n": 20,
-  "exp": 0,
+  "exp": 17,
   "mins": 60
  },
  {
