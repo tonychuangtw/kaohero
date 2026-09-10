@@ -24780,7 +24780,7 @@ window.APP_EXAMS = [
   "subjName": "動物解剖生理學概要",
   "label": "113 年　四等　動物解剖生理學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -24794,7 +24794,7 @@ window.APP_EXAMS = [
   "subjName": "會計法規概要",
   "label": "113 年　四等　會計法規概要",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
