@@ -21532,7 +21532,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "105 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 20,
   "mins": 75
  },
  {
