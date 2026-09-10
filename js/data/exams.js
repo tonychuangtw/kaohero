@@ -25410,7 +25410,7 @@ window.APP_EXAMS = [
   "subjName": "動物解剖生理學概要",
   "label": "112 年　四等　動物解剖生理學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -25424,7 +25424,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "112 年　四等　有機化學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 14,
   "mins": 75
  },
  {
