@@ -24668,7 +24668,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "113 年　四等　稅務法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -24682,7 +24682,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要",
   "label": "113 年　四等　會計學概要",
   "n": 20,
-  "exp": 0,
+  "exp": 19,
   "mins": 60
  },
  {
