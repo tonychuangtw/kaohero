@@ -22316,7 +22316,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "104 年　普通考試　移民法規概要",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
