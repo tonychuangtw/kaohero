@@ -19180,7 +19180,7 @@ window.APP_EXAMS = [
   "subjName": "民法概要",
   "label": "109 年　普通考試　民法概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
