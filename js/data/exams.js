@@ -24808,7 +24808,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學與財政學概要",
   "label": "113 年　四等　經濟學與財政學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -24822,7 +24822,7 @@ window.APP_EXAMS = [
   "subjName": "基礎能力測驗",
   "label": "113 年　四等　基礎能力測驗",
   "n": 30,
-  "exp": 0,
+  "exp": 25,
   "mins": 90
  },
  {
