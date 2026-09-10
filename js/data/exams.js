@@ -20230,7 +20230,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（會計組）",
   "label": "107 年　高考三級　審計學（會計組）",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
