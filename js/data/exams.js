@@ -21014,7 +21014,7 @@ window.APP_EXAMS = [
   "subjName": "行政法概要",
   "label": "106 年　普通考試　行政法概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
