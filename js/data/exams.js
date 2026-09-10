@@ -20818,7 +20818,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "106 年　高考三級　會計學",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
