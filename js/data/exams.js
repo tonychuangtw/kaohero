@@ -21658,7 +21658,7 @@ window.APP_EXAMS = [
   "subjName": "地方自治概要",
   "label": "105 年　普通考試　地方自治概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
