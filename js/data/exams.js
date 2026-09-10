@@ -25046,7 +25046,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概論與財政學概論",
   "label": "112 年　三等　經濟學概論與財政學概論",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -25116,7 +25116,7 @@ window.APP_EXAMS = [
   "subjName": "政治學概要",
   "label": "112 年　四等　政治學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
