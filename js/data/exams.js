@@ -24640,7 +24640,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "113 年　四等　國籍與戶政法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -24654,7 +24654,7 @@ window.APP_EXAMS = [
   "subjName": "民法概要",
   "label": "113 年　四等　民法概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
