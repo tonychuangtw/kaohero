@@ -16954,7 +16954,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計（會計組）",
   "label": "112 年　高考三級　政府會計（會計組）",
   "n": 25,
-  "exp": 0,
+  "exp": 15,
   "mins": 75
  },
  {
@@ -16996,7 +16996,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "112 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
