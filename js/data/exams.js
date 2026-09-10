@@ -21126,7 +21126,7 @@ window.APP_EXAMS = [
   "subjName": "財政學概要",
   "label": "106 年　普通考試　財政學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
