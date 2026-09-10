@@ -24136,7 +24136,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "114 年　四等　稅務法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
