@@ -25480,7 +25480,7 @@ window.APP_EXAMS = [
   "subjName": "地方自治大意",
   "label": "112 年　五等　地方自治大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -25494,7 +25494,7 @@ window.APP_EXAMS = [
   "subjName": "社政法規大意",
   "label": "112 年　五等　社政法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
