@@ -17178,7 +17178,7 @@ window.APP_EXAMS = [
   "subjName": "社會政策與社會立法概要",
   "label": "112 年　普通考試　社會政策與社會立法概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -17192,7 +17192,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作概要",
   "label": "112 年　普通考試　社會工作概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
