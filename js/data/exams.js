@@ -25018,7 +25018,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計",
   "label": "112 年　三等　政府會計",
   "n": 25,
-  "exp": 0,
+  "exp": 21,
   "mins": 75
  },
  {
@@ -25032,7 +25032,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "112 年　三等　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
