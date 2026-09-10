@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年已全部完成**（最後一卷 b025 動物解剖生理學概要 2026-09-11 補完）。**113 年三等 16 卷已全部完成**，目前做 113 年四等（`loc-113-1-b0xx`，22 卷），做完接著 112 → 111 → … → 102。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上；閱讀測驗要用帶 `q.psg` 的指令）→ 用 Write 工具寫 patch JSON 到 scratchpad → 跑 `node <scratchpad>/chk.js <patch>`（格式／夾字／西里爾字母／JSON 一次檢查，換 session 要重寫，見下）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-batch.js <pid或年度前綴>`（掃全站已寫詳解的題，NFKC 正規化題幹＋選項比對且答案索引須相同；一次建索引可批次處理多卷）——113 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 25 題；**套用前看一眼命中清單**，選項全空的圖片題會誤命中，那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram 回報一次進度。）
+NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年（38 卷）與 113 年（38 卷）已全部完成**，接著做 **112 年**，再依序 111 → 110 → … → 102。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上；閱讀測驗要用帶 `q.psg` 的指令）→ 用 Write 工具寫 patch JSON 到 scratchpad → 跑 `node <scratchpad>/chk.js <patch>`（格式／夾字／西里爾字母／JSON 一次檢查，換 session 要重寫，見下）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-batch.js <pid或年度前綴>`（掃全站已寫詳解的題，NFKC 正規化題幹＋選項比對且答案索引須相同；一次建索引可批次處理多卷）——113 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 25 題（同年度三等的一般行政組與法制組共用題本；四等各卷之間則幾乎無重複，跨年度也掃不到，別浪費時間全站掃）；**套用前看一眼命中清單**，選項全空的圖片題會誤命中，那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram 回報一次進度。）
 每年固定有幾組整卷重複，**先做來源卷再套用**：三等 `a004`→`a018`（行政法）、`a006`→`a019`（民法）；高普考則是 `g004`→`g017`、`g006`→`g027`／`g029`、`g008`→`g026`、`p015`→`p028`。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -9,7 +9,7 @@ NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由�
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 台北（地方特考 114 年全部完成、113 年三等 16 卷全部完成；全站 83,621/109,281、地方特考 3,332/27,010）
+UPDATED: 2026-09-11 台北（地方特考 114、113 兩個年度全部完成；全站 84,255/109,281、地方特考 3,966/27,010）
 
 ---
 
@@ -106,7 +106,7 @@ UPDATED: 2026-09-11 台北（地方特考 114 年全部完成、113 年三等 16
 
 - **中醫師**（`tcm-*`）168 卷 13,440 題 → 已寫 13,104 題（97.5%），全數做完
 - **高普考**（`gao-*`）633 卷 17,995 題 → 已寫 17,455 題（97.0%），115～102 年全數做完（2026-09-11）
-- **地方特考**（`loc-*`）774 卷 27,010 題 → 進行中，已寫 3,332 題（12.3%）；114 年 38 卷全部完成，113 年三等 16 卷全部完成、四等 22 卷進行中
+- **地方特考**（`loc-*`）774 卷 27,010 題 → 進行中，已寫 3,966 題（14.7%）；114 年 38 卷、113 年 38 卷均全部完成（113 年 1,085/1,110），下一步 112 年
 - **地方特考共同科目**（`loc-*`）102～114 年 → 1,975 題，全數做完
 - 牙醫師、醫師等類別的完成度見 chinese 線舊 PROGRESS.md 的紀錄
 
