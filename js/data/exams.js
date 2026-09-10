@@ -25298,7 +25298,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "112 年　四等　經濟學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -25312,7 +25312,7 @@ window.APP_EXAMS = [
   "subjName": "審計學概要",
   "label": "112 年　四等　審計學概要",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
