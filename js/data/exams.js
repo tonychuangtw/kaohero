@@ -23016,7 +23016,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計概要",
   "label": "103 年　普通考試　政府會計概要",
   "n": 20,
-  "exp": 0,
+  "exp": 18,
   "mins": 60
  },
  {
