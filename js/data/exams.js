@@ -23968,7 +23968,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學與財政學概論",
   "label": "114 年　三等　經濟學與財政學概論",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
