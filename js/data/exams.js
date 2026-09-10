@@ -17304,7 +17304,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計概要",
   "label": "112 年　普通考試　政府會計概要",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -17346,7 +17346,7 @@ window.APP_EXAMS = [
   "subjName": "衛生行政學概要",
   "label": "112 年　普通考試　衛生行政學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
