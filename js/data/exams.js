@@ -18284,7 +18284,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計",
   "label": "110 年　高考三級　成本與管理會計",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
