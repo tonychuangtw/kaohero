@@ -24514,7 +24514,7 @@ window.APP_EXAMS = [
   "subjName": "基礎能力測驗",
   "label": "113 年　三等　基礎能力測驗",
   "n": 30,
-  "exp": 0,
+  "exp": 25,
   "mins": 90
  },
  {
