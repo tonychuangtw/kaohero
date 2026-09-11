@@ -25620,7 +25620,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學大意",
   "label": "112 年　五等　經濟學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -25634,7 +25634,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "112 年　五等　土地法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
