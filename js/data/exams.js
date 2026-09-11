@@ -31556,7 +31556,7 @@ window.APP_EXAMS = [
   "subjName": "行政學大意",
   "label": "105 年　五等　行政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
