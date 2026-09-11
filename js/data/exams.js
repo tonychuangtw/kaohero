@@ -27384,7 +27384,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "110 年　五等　土地法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
