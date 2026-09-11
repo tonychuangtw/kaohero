@@ -31710,7 +31710,7 @@ window.APP_EXAMS = [
   "subjName": "教育學大意",
   "label": "105 年　五等　教育學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 48,
   "mins": 60
  },
  {
