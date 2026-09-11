@@ -13,6 +13,11 @@
  * ⚠️ 登入一律用 Bearer token（存 localStorage），不使用 cookie。
  *    cookie 綁 domain，換網域會全部失效；token 不受影響。
  */
+/* 贊助連結（#/sponsor 頁的按鈕）。留空字串＝不顯示按鈕，改顯示「尚未設定」提示。 */
+window.APP_SPONSOR = {
+  buymeacoffee: 'https://buymeacoffee.com/kaohero'
+};
+
 window.KH_CONFIG = {
   API_BASE: 'https://claudebot500.tailfcf67f.ts.net',
   APP: 'kaohero',
