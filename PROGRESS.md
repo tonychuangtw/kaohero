@@ -1,12 +1,12 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **114～105 年全部完成；104 年三等、四等全部完成，五等做到 c016**（地特 650/774 卷、21,451/27,010 題、79.4%；全站 2,253/2,377 卷、101,635/109,281 題、93.0%）。下一卷：**`loc-104-1-c017` 稅務法規大意**（五等 50 題）、c020 會計學大意、c021 會計審計法規大意、c022 經濟學大意、c023 土地法大意、c024 土地行政大意、c025 中文圖書分類編目大意、c026 圖書館學大意、c028 基本電學大意、c029 電子學大意，104 年即收尾，再接 103 → 102。每卷流程：讀題（node -e 讀 js/data/exam/<pid>.js；圖片題用 Read 工具開 img/q/*.webp）→ Write 工具寫 patch JSON 到 scratchpad → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push，沒有做到一半的卷。
-104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
+NEXT_ACTION: **114～104 年全部完成**（地特 653/774 卷、22,060/27,010 題、81.7%；全站 102,060/109,281 題、93.4%）。下一卷：**`loc-103-1-a002` 法學知識與英文**（三等，已寫 35/50，補完剩下 15 題），接著 103 年三等 a003～a017、四等 b001～b025、五等 c002～c029，再接 102 年（68 卷）。每卷流程：讀題（node -e 讀 js/data/exam/<pid>.js；圖片題用 Read 工具開 img/q/*.webp）→ Write 工具寫 patch JSON 到 scratchpad → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push，沒有做到一半的卷。
+104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
 - `chk.js <patch...>`：JSON.parse、西里爾字母（`/[\u0400-\u04FF]/`）、**韓文諺文（`/[가-힣]/`）**、夾字（`/[一-鿿][a-z]{3,}/`）、U+FFFD 替代字元、以及每題五行格式（第一行 `✅ (X)`、中間剛好三行 `❌ (X)`、最後一行 `📚 出處：`）。**本 session 又被它抓到一次西里爾字母**（打「雙因子」打成 `двух`），一定要跑。
 套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
-**沒有 fig 欄位的電路圖／波形圖題一律跳過**：112 五等 `c028` 基本電學 40 題中有 14 題、`c029` 電子學有 3 題屬此類。反之，元件配置為教科書標準型（惠斯登電橋、RLC 並聯諧振、螺管線圈、中心抽頭全波整流）的題，即使沒有圖也算得出來，照常寫。
+**沒有 fig 欄位的電路圖／波形圖題一律跳過**：112 五等 `c028` 基本電學 40 題中有 14 題、`c029` 電子學有 3 題屬此類。反之，元件配置為教科書標準型（惠斯登電橋、RLC 並聯諧振、螺管線圈、中心抽頭全波整流）的題，即使沒有圖也算得出來，照常寫。 104 五等 `c028` 基本電學 40 題只寫得出 15 題（#8、#13、#18～#40 全是沒有圖檔的電路圖題）、`c029` 電子學 40 題只寫得出 21 題（#8、#24～#40 同上；#10 的 (B)(C) 選項轉檔後變成同一句話也跳過）。
 
 **轉檔瑕疵的三種型態（處理方式不同）**：
 - 「上下黏一起」型——每題的選項 (D) 尾端黏著下一題的題幹（112 `b023`、104 三等 `a003` 第 18 題即是）。內容仍可還原，照常寫解析並在解析裡把各選項的正確內容寫清楚即可，不用整卷跳過。
@@ -29,7 +29,7 @@ NEXT_ACTION: **114～105 年全部完成；104 年三等、四等全部完成，
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 20:10 台北
+UPDATED: 2026-09-12 23:40 台北
 
 ---
 
