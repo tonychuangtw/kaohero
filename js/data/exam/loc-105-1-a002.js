@@ -521,7 +521,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_36.webp"
+   "fig": "img/q/105180_301_0205_36.webp",
+   "exp": "✅ (C) 「in exchange is granted a competition-free run」為被動語態，需用過去分詞 granted（被授予）。\n❌ (A) granting 為主動，與 is 搭配語意不合。\n❌ (B) proven 意為「被證實」，語意不通。\n❌ (D) proving 同樣語意不合。\n📚 出處：被動語態與 grant 的用法。"
   },
   {
    "n": 37,
@@ -536,7 +537,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_37.webp"
+   "fig": "img/q/105180_301_0205_37.webp",
+   "exp": "✅ (C) recoup the costs 指「收回（研發）成本」，最合文意。\n❌ (A) reform 為改革，不與 costs 搭配。\n❌ (B) render 為提供、致使，語意不合。\n❌ (D) release 為釋出，與收回成本相反。\n📚 出處：動詞搭配 recoup the costs。"
   },
   {
    "n": 38,
@@ -551,7 +553,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_38.webp"
+   "fig": "img/q/105180_301_0205_38.webp",
+   "exp": "✅ (C) a decent return 指「可觀的報酬」，才使藥廠有持續創新的誘因。\n❌ (A) recent 為時間上的「近期」，修飾 return 不合邏輯。\n❌ (B) slim 為微薄，與「有誘因創新」矛盾。\n❌ (D) trivial 為微不足道，同樣矛盾。\n📚 出處：形容詞語意辨析。"
   },
   {
    "n": 39,
@@ -566,7 +569,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_39.webp"
+   "fig": "img/q/105180_301_0205_39.webp",
+   "exp": "✅ (A) cut-throat competition 為固定搭配，指專利到期後的「割喉式競爭」。\n❌ (B) cutaway 指剖面圖或剪接。\n❌ (C) cut-out 指切割圖樣或斷路器。\n❌ (D) cutback 指削減。\n📚 出處：固定搭配 cut-throat competition。"
   },
   {
    "n": 40,
@@ -581,7 +585,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_40.webp"
+   "fig": "img/q/105180_301_0205_40.webp",
+   "exp": "✅ (C) Incumbents 指原已在位的既有廠商，正是面臨學名藥競爭而須防禦的一方。\n❌ (A) Incomings 非指企業。\n❌ (B) Outgoings 指支出。\n❌ (D) Departments 指部門，與文意不合。\n📚 出處：incumbent 的名詞用法。"
   },
   {
    "n": 41,
@@ -596,7 +601,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_41.webp"
+   "fig": "img/q/105180_301_0205_41.webp",
+   "exp": "✅ (C) 與奧地利的 20% 相比，0.6% 是「相對地」低，用 comparatively。\n❌ (A) completely 修飾 low 語意過絕對。\n❌ (B) continually 表持續，與比較語境不合。\n❌ (D) conveniently 語意不通。\n📚 出處：副詞語意辨析。"
   },
   {
    "n": 42,
@@ -611,7 +617,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_42.webp"
+   "fig": "img/q/105180_301_0205_42.webp",
+   "exp": "✅ (A) be devoted to 指（土地）「投入於」有機耕作。\n❌ (B) adopt 的主詞應為人或機構，且此處為被動搭配不合。\n❌ (C) akin to 意為「類似於」。\n❌ (D) according to 意為「根據」。\n📚 出處：片語 be devoted to。"
   },
   {
    "n": 43,
@@ -626,7 +633,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_43.webp"
+   "fig": "img/q/105180_301_0205_43.webp",
+   "exp": "✅ (D) 食安問題「加速」了臺灣邁向無化學農業的進程，用 accelerating。\n❌ (A) acting 語意不完整。\n❌ (B) attracting 為吸引，與 march 不搭配。\n❌ (C) amending 為修正，語意不合。\n📚 出處：動詞語意辨析。"
   },
   {
    "n": 44,
@@ -641,7 +649,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_44.webp"
+   "fig": "img/q/105180_301_0205_44.webp",
+   "exp": "✅ (B) gain in popularity 為固定用法，指農夫市集日漸受歡迎。\n❌ (A) parity 指同等、平價。\n❌ (C) personality 指個性。\n❌ (D) purity 指純度。\n📚 出處：片語 gain in popularity。"
   },
   {
    "n": 45,
@@ -656,7 +665,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/105180_301_0205_45.webp"
+   "fig": "img/q/105180_301_0205_45.webp",
+   "exp": "✅ (D) stock 作動詞指「進貨、陳列販售」，超市開始販售有機農產品。\n❌ (A) peeling 為削皮。\n❌ (B) paying 語意不完整。\n❌ (C) cleaning 為清洗。\n📚 出處：動詞 stock 的用法。"
   },
   {
    "n": 46,
@@ -669,7 +679,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
     "Bad-tempered Prince of Wales",
     "How to Govern Britain"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全文綜述查爾斯王儲的性格、生活、公務與婚姻，以「未來國王的一生」為題最切合。\n❌ (B) 與卡蜜拉的感情僅為文中一段。\n❌ (C) 壞脾氣只是文章開頭提及的外界印象。\n❌ (D) 文中未談治理英國的方法。\n📚 出處：閱讀測驗的主旨題。"
   },
   {
    "n": 47,
@@ -682,7 +693,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
     "planting trees",
     "entertaining guests"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文中指出他是 a great socializer，經常在 Highgrove 與 Sandringham 盛大招待賓客。\n❌ (A) 文中未提及駕駛飛機。\n❌ (B) 摺浴巾是僕役為他所做的事。\n❌ (C) 文中說他對樹木說話，未說他喜歡種樹。\n📚 出處：閱讀測驗的細節題。"
   },
   {
    "n": 48,
@@ -695,7 +707,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
     "fundraising",
     "traveling"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文末指出滑雪是卡蜜拉留給查爾斯一人的活動，他赴瑞士滑雪時她寧可留在家中。\n❌ (A) 她與查爾斯同樣熱愛狩獵。\n❌ (C) 文中未指其對募款無興趣。\n❌ (D) 兩人共同在國內外執行公務出訪。\n📚 出處：閱讀測驗的細節題。"
   },
   {
    "n": 49,
@@ -708,7 +721,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
     "The Prince of Wales enjoys entertaining visitors and does so with regularity.",
     "The Prince enjoys hunting with his wife."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 此項不實：文中列舉他出席逾 500 場公開活動、訪視醫院與慈善團體、促進宗教理解，職責遠不止代表國家從事貿易。\n❌ (A) 文中稱他熱切關心國家，敘述為真。\n❌ (C) 文中說他固定招待賓客，敘述為真。\n❌ (D) 文中說卡蜜拉與他共享狩獵之好，敘述為真。\n📚 出處：閱讀測驗的是非題。"
   },
   {
    "n": 50,
@@ -721,7 +735,8 @@ window.APP_EXAM_PAPERS['loc-105-1-a002'] = {
     "He represents British interests.",
     "He loves organic foods."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中緊接「He is eccentric」之後即說 He talks to trees and plants。\n❌ (A) 常被引述並非其被視為古怪的原因。\n❌ (C) 代表英國利益屬正式公務。\n❌ (D) 喜愛有機食物僅為飲食偏好的描述。\n📚 出處：閱讀測驗的因果細節題。"
   }
  ]
 };
