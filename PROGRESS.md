@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **114～106 年全部完成，105 年三等、四等完成，105 五等做到 c012**（地特 583/774 卷、19,140/27,010 題、70.9%）。下一步：**105 五等 `loc-105-1-c013` 勞工行政與勞工法規大意**，之後 c014～c027 收尾 105 年，再接 104 → 103 → 102。每卷流程：讀題 → Write 工具寫 patch JSON 到 scratchpad → tools/set-exp.js --write → tools/build-index.js --write → test/test.js → commit + push。
+NEXT_ACTION: **114～106 年全部完成；105 年三等、四等完成，五等做到 c022**（地特 591/774 卷、19,524/27,010 題、72.3%；全站 2,194/2,377 卷、99,813/109,281 題、91.3%）。下一卷：**`loc-105-1-c023` 土地法大意**，接著 c024 土地行政大意、c025 中文圖書分類編目大意、c026 圖書館學大意、c027 公務員法大意，105 年即收尾，再接 104 → 103 → 102。每卷流程：讀題（node -e 讀 js/data/exam/<pid>.js；圖片題用 Read 工具開 img/q/*.webp）→ Write 工具寫 patch JSON 到 scratchpad → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push，沒有做到一半的卷。
 每年固定有幾組整卷重複，**先做來源卷再套用**：三等 `a004`→`a018`（行政法）、`a006`→`a019`（民法）；高普考則是 `g004`→`g017`、`g006`→`g027`／`g029`、`g008`→`g026`、`p015`→`p028`。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -31,7 +31,7 @@ NEXT_ACTION: **114～106 年全部完成，105 年三等、四等完成，105 �
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 03:40 台北
+UPDATED: 2026-09-12 04:06 台北
 
 ---
 
