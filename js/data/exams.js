@@ -32662,7 +32662,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "104 年　五等　土地法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
