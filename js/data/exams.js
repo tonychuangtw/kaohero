@@ -29330,7 +29330,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "107 年　三等　稅務法規",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
