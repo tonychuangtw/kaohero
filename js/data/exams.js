@@ -25844,7 +25844,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "111 年　三等　中級會計學",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -25858,7 +25858,7 @@ window.APP_EXAMS = [
   "subjName": "審計學",
   "label": "111 年　三等　審計學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
