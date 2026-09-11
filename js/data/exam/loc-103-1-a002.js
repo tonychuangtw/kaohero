@@ -579,7 +579,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103180_301_0205_40.webp"
+   "fig": "img/q/103180_301_0205_40.webp",
+   "exp": "✅ (B) 空格指穴居人死後留下的「遺骸」，英文為 remains（恆用複數），與後文 palaeontologists 挖掘檢視相呼應。\n❌ (A) remainings 並非標準英文名詞。\n❌ (C) reminders 指「提醒物」，與遺骸無關。\n❌ (D) recollections 指「回憶」，無法被 scavengers 啃食。\n📚 出處：103 年地方特考三等 法學知識與英文 第 40 題（克漏字 remains 的用法）"
   },
   {
    "n": 41,
@@ -594,7 +595,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103180_301_0205_41.webp"
+   "fig": "img/q/103180_301_0205_41.webp",
+   "exp": "✅ (C) Sometime 為副詞，意為「在某個時候」，可接 between…and… 表示時間範圍，置於句首修飾整句。\n❌ (A) Some time 兩字分寫指「一段時間」，語意不合。\n❌ (B) Some timing 不是慣用語。\n❌ (D) Sometimes 意為「有時候」，表頻率而非特定時點。\n📚 出處：103 年地方特考三等 法學知識與英文 第 41 題（sometime 與 some time、sometimes 的區別）"
   },
   {
    "n": 42,
@@ -609,7 +611,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/103180_301_0205_42.webp"
+   "fig": "img/q/103180_301_0205_42.webp",
+   "exp": "✅ (D) 6,500 塊人骨「代表」至少 28 個個體，用 representing 表示所代表的數量，語意最通順。\n❌ (A) reducing 意為減少，與骨骸數量的敘述不合。\n❌ (B) replacing 意為取代，語意不通。\n❌ (C) recording 意為記錄，骨骸本身不記錄個體數。\n📚 出處：103 年地方特考三等 法學知識與英文 第 42 題（represent 的用法）"
   },
   {
    "n": 43,
@@ -624,7 +627,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103180_301_0205_43.webp"
+   "fig": "img/q/103180_301_0205_43.webp",
+   "exp": "✅ (C) 破折號後說明「這顯示把化石歸入物種分類箱有多困難」，可見這些人究竟是誰仍有「爭議」，a matter of debate 為固定用法。\n❌ (A) a matter of fact 指既定事實，與後文的困難與不確定矛盾。\n❌ (B) a matter of mistake 並非慣用搭配。\n❌ (D) decree 指法令、判決，與學術爭論無關。\n📚 出處：103 年地方特考三等 法學知識與英文 第 43 題（a matter of debate）"
   },
   {
    "n": 44,
@@ -639,7 +643,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103180_301_0205_44.webp"
+   "fig": "img/q/103180_301_0205_44.webp",
+   "exp": "✅ (B) 「be classified as＋物種名」意為被歸類為某物種，符合把化石歸入 Homo heidelbergensis 的語境。\n❌ (A) declassified 指解除機密，語意不合。\n❌ (C) catered 指供應餐飲或迎合需求。\n❌ (D) cared 需接介系詞 for／about，且語意不符。\n📚 出處：103 年地方特考三等 法學知識與英文 第 44 題（classify as 的用法）"
   },
   {
    "n": 45,
@@ -666,7 +671,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "Silicon Valley",
     "Seattle"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 蘋果電腦公司 1976 年創立於加州的矽谷（Silicon Valley），賈伯斯與沃茲尼克在庫帕提諾一帶起家。\n❌ (A) 紐約是金融與媒體重鎮，非蘋果創立地。\n❌ (B) 芝加哥與蘋果的創業無關。\n❌ (D) 西雅圖是微軟與亞馬遜的所在地。\n📚 出處：103 年地方特考三等 法學知識與英文 第 46 題（閱讀測驗：賈伯斯與蘋果電腦）"
   },
   {
    "n": 47,
@@ -679,7 +685,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "conservative",
     "visionary"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文章描寫賈伯斯不斷提出領先時代的產品構想，最貼切的形容是 visionary（具遠見的）。\n❌ (A) vengeful 指懷恨報復，非文章對其性格的主要刻畫。\n❌ (B) forgetful 指健忘，與文意無關。\n❌ (C) conservative 指保守，與他勇於創新的形象相反。\n📚 出處：103 年地方特考三等 法學知識與英文 第 47 題"
   },
   {
    "n": 48,
@@ -692,7 +699,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "A more manageable filing system",
     "A lower price"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中指出蘋果電腦與一般個人電腦最大的區隔在於對設計的講究（an attention to design）。\n❌ (B) 適用軟體的廣度反而是 PC 陣營的優勢。\n❌ (C) 檔案管理系統並非文章強調的差異。\n❌ (D) 蘋果產品的價格通常較高，不是以低價取勝。\n📚 出處：103 年地方特考三等 法學知識與英文 第 48 題"
   },
   {
    "n": 49,
@@ -705,7 +713,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "Because he could not get along with Sculley.",
     "Because he could not deal with the stress of running a company."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 賈伯斯離開蘋果的原因是與他自百事可樂延攬來的執行長史考利（Sculley）理念衝突、無法共事。\n❌ (A) 文章並未說他厭倦工作。\n❌ (B) 他並非因為得到更好的工作機會而離職。\n❌ (D) 離職導因於經營權之爭，而非承受不了壓力。\n📚 出處：103 年地方特考三等 法學知識與英文 第 49 題"
   },
   {
    "n": 50,
@@ -718,7 +727,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "He came back to found Pixar.",
     "It was irresponsible and damaging to his career."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 賈伯斯是在蘋果經營陷入困境時回鍋，帶領公司轉危為安。\n❌ (A) 百事可樂與他的回任無關。\n❌ (C) 皮克斯是他離開蘋果期間投資經營的公司，不是回任的目的。\n❌ (D) 回任被視為蘋果轉機的關鍵，並非不負責任或有損其事業。\n📚 出處：103 年地方特考三等 法學知識與英文 第 50 題"
   }
  ]
 };
