@@ -388,6 +388,15 @@ await hash('#/friends'); await sleep(300);
 ok((await ev(`document.querySelector('#main').textContent`)).includes('好友碼'), '好友頁可開啟');
 ok((await ev(`document.querySelector('#main').textContent`)).includes('請先登入'),
    '未登入的好友頁提示要登入');
+
+/* 2026-09-11 回歸：sync.js 排在 app.js 之後，第一次 render 時 window.KHSync 還不存在，
+   好友頁一律畫成「請先登入」。修法是收到 kh-auth 再重畫一次，這裡驗那條路走得通。 */
+await ev(`window.KHSync = { signedIn: function () { return { email: 'x@y.z' }; },
+  token: function () { return 'sess.e30.sig'; }, apiBase: 'http://127.0.0.1:1' };
+  window.dispatchEvent(new CustomEvent('kh-auth', { detail: { email: 'x@y.z' } }));`);
+await sleep(300);
+ok(!(await ev(`document.querySelector('#main').textContent`)).includes('請先登入'),
+   'sync.js 晚載入時，收到 kh-auth 會把好友頁重畫成已登入');
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').wrong||[]).length < 5`),
    '未作答的題不會被塞進錯題本');
 

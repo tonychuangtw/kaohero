@@ -198,6 +198,19 @@
   }
   window.addEventListener('kh-auth', syncAdminLink);
 
+  /* 登入狀態晚一步才知道（2026-09-11 Tony 回報「有登入但還是叫我登入」）：
+     sync.js 排在 app.js 後面，app.js 最底下的 render() 跑的時候 window.KHSync 還不存在，
+     所以看登入與否的頁面（好友、模考英雄榜）第一次畫出來一律是「請先登入」。
+     sync.js 備妥後會派 kh-auth，這裡收到就把這些頁重畫一次；答題中的頁面不動，免得作答被洗掉。 */
+  var AUTH_VIEWS = { friends: 1, mock: 1, result: 1 };
+  var authWas = null;
+  window.addEventListener('kh-auth', function (e) {
+    var now = !!(e && e.detail);
+    if (now === authWas) return;
+    authWas = now;
+    if (AUTH_VIEWS[(location.hash.replace(/^#\/?/, '').split('/')[0] || 'home')]) render();
+  });
+
   document.getElementById('burger').onclick = function () {
     var d = document.getElementById('drawer'), open = d.classList.toggle('open');
     this.setAttribute('aria-expanded', open ? 'true' : 'false');
