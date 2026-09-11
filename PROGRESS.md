@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **114／113／112／111 年已全部完成；110 年三等（a001～a018）也已全部完成**。目前做 **110 年四等 b003～b026**（21 卷，b001／b002 已完成），做完接 110 五等 c003～c029（20 卷），再依序 109 → … → 102。每卷流程：讀題 → Write 工具寫 patch JSON 到 scratchpad → chk.js → tools/set-exp.js --write → tools/build-index.js --write → test/test.js → commit + push。
+NEXT_ACTION: **114／113／112／111 年與 110 年三等已全部完成**。目前做 **110 年四等 b015～b026**（b001～b014 已完成），做完接 110 五等 c003～c029（20 卷），再依序 109 → … → 102。每卷流程：讀題 → Write 工具寫 patch JSON 到 scratchpad → chk.js → tools/set-exp.js --write → tools/build-index.js --write → test/test.js → commit + push。
 每年固定有幾組整卷重複，**先做來源卷再套用**：三等 `a004`→`a018`（行政法）、`a006`→`a019`（民法）；高普考則是 `g004`→`g017`、`g006`→`g027`／`g029`、`g008`→`g026`、`p015`→`p028`。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -15,10 +15,23 @@ NEXT_ACTION: **114／113／112／111 年已全部完成；110 年三等（a001�
 **`chk.js` 目前不擋韓文諺文**（本 session 誤打出「複合운동」才發現）。重寫 chk.js 時把 `/[가-힯]/` 一起加進檢查。
 
 **遇到官方答案與計算／條文對不上時，一律跳過那一題並在 commit 訊息寫明理由**（本 session 已跳過約 40 題）。若同一卷連續抽驗兩三題都對不上，就是整卷答案索引不可信，整卷略過並註明——112 年的 `a010` 會計學（轉檔把上下題黏在一起）與 `a017` 工程數學（12 題全在圖上、公式轉檔不全）即屬此類。
+**2026-09-11 插隊做完的站台功能**（Tony 當天要求，詳解主線暫停約 2 小時）：
+- 站台識別改乙案：方章「考」字 ＋ 字標「英雄」（header／favicon／img/logo.png），SVG 用
+  `dominant-baseline="central"` 讓瀏覽器算中線，換字體不會再跑掉
+- Buy Me a Coffee：`js/config.js` 的 `window.APP_SPONSOR.buymeacoffee`（程式本來就會讀，只是沒人定義過）；
+  贊助頁加 QR（`img/bmc-qr.jpg`）；整卷結算頁加一條輕量贊助提示（只在 mode=paper 顯示）
+- 續答：`state.drafts`（以卷代碼為 key，留 5 份、14 天 TTL），首頁直接續、從目錄進同卷先問
+- 同步：`js/sync.js` 的 `applyBlob` 對 `kaohero.v1` 改成逐欄合併，不再整包覆蓋（原本會互洗）
+- 錯題本：導覽列入口帶題數、結算頁加「立即重練這些錯題」、依科目分組、
+  **連續答對兩次才移出**（原本答對一次就刪，四選一猜中就永久漏題）
+- 模擬考 `#/mock`：隨機抽題、全真限時、交卷才批改、答題卡、趨勢圖；成績存 `state.mocks`
+- ⛔ Tony 提過「模考英雄榜放隨機暱稱與分數衝人氣」——已回絕（假的社群證明），
+  改為只跟自己的歷史與及格門檻比。之後要做排行榜只放真人。
+
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 12:35 台北
+UPDATED: 2026-09-11 13:40 台北
 
 ---
 
