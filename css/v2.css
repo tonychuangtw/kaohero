@@ -35,8 +35,8 @@ img{max-width:100%}
 .hd{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--card) 92%,transparent);
   backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
 .hd-in{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:10px 16px}
-/* ── 站台識別（2026-09-10 Tony 拍板採 preview/logo.html 的 A 案：方章打勾 ＋ 黑體字標）──
-   方章顏色走 --lg1/--lg2 漸層、勾線走 --lg3，深色主題只換這三個變數即可。 */
+/* ── 站台識別（2026-09-11 Tony 拍板乙案：方章「考」字 ＋ 黑體「英雄」字標，方章即第一個字不重複）──
+   方章顏色走 --lg1/--lg2 漸層、字色走 --lg3，深色主題只換這三個變數即可。 */
 :root{--lg1:#2f5bd7;--lg2:#7a4de0;--lg3:#fff}
 .logo{display:flex;align-items:center;gap:5px;color:var(--ink);
   font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,sans-serif;
