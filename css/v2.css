@@ -505,7 +505,7 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
 .spon-strip .spon-tx{flex:1 1 240px;min-width:0;color:var(--ink2);
   font-size:calc(14px * var(--fs,1));line-height:1.7}
 .spon-strip .btn{flex:0 0 auto;min-height:44px}
-.spon-qr{margin-top:16px}
+.spon-qr{margin-top:28px;padding-top:22px;border-top:1px solid var(--line)}
 .spon-qr img{display:block;width:200px;height:200px;max-width:100%;
   border-radius:12px;background:#fff;padding:8px;box-sizing:border-box}
 .spon-qr-cap{margin:8px 0 0;color:var(--ink2);font-size:calc(13px * var(--fs,1))}
