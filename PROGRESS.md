@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由新到舊做。**114 年（38 卷）與 113 年（38 卷）已全部完成**，**112 年（62 卷 2,135 題）也已完成**（僅 `a010` 會計學與 `a017` 工程數學兩卷整卷不可用而略過），目前做 **111 年**（65 卷 2,285 題），做完再依序 111 → 110 → … → 102。每卷流程：`node -e` 讀題 →（有 fig 就用 Read 工具開 `img/q/*.webp`，很多卷選項整個在圖上；閱讀測驗要用帶 `q.psg` 的指令）→ 用 Write 工具寫 patch JSON 到 scratchpad → 跑 `node <scratchpad>/chk.js <patch>`（格式／夾字／西里爾字母／JSON 一次檢查，換 session 要重寫，見下）→ `node tools/set-exp.js <patch> --write && node tools/build-index.js --write && node test/test.js` → commit+push。**同題卷務必先跑重用腳本**：`REUSE_OUT=<scratchpad> node <scratchpad>/reuse-batch.js <pid或年度前綴>`（掃全站已寫詳解的題，NFKC 正規化題幹＋選項比對且答案索引須相同；一次建索引可批次處理多卷）——113 年的 `a018`←`a004`（行政法）命中 22 題、`a019`←`a006`（民法）命中 25 題（同年度三等的一般行政組與法制組共用題本；四等各卷之間則幾乎無重複，跨年度也掃不到，別浪費時間全站掃）；**套用前看一眼命中清單**，選項全空的圖片題會誤命中，那種要刪掉不用。（Tony 2026-09-10 22:37 要求：每做完一批（約 8～10 卷或跨年度）用 telegram 回報一次進度。）
+NEXT_ACTION: **114／113／112 年已全部完成**，**111 年四等 26 卷也已全部完成**（111 年三等 18 卷先前完成）。目前開始做 **111 年五等 21 卷**（c002～c029），做完 111 年再依序 110 → 109 → … → 102。每卷流程：讀題 → Write 工具寫 patch JSON 到 scratchpad → chk.js → tools/set-exp.js --write → tools/build-index.js --write → test/test.js → commit + push。
 每年固定有幾組整卷重複，**先做來源卷再套用**：三等 `a004`→`a018`（行政法）、`a006`→`a019`（民法）；高普考則是 `g004`→`g017`、`g006`→`g027`／`g029`、`g008`→`g026`、`p015`→`p028`。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -18,7 +18,7 @@ NEXT_ACTION: **主線＝地方特考（`loc-*`，774 卷 27,010 題）**，由�
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-11 台北（地方特考 114、113、112 三年全部完成，下一步 111 年；全站 86,114/109,281、地方特考 5,825/27,010）
+UPDATED: 2026-09-12 05:40 台北
 
 ---
 
