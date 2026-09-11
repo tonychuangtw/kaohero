@@ -25900,7 +25900,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "111 年　三等　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -25914,7 +25914,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概論與財政學概論",
   "label": "111 年　三等　經濟學概論與財政學概論",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -25928,7 +25928,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "111 年　三等　工程數學",
   "n": 20,
-  "exp": 0,
+  "exp": 18,
   "mins": 60
  },
  {
