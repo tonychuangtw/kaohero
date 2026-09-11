@@ -26390,7 +26390,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作大意",
   "label": "111 年　五等　社會工作大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
