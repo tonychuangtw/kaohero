@@ -29694,7 +29694,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要",
   "label": "107 年　四等　會計學概要",
   "n": 20,
-  "exp": 0,
+  "exp": 20,
   "mins": 60
  },
  {
