@@ -187,6 +187,13 @@
       'The questions and answers are open data, but collating them, proofreading them and writing an explanation for every single one takes time — and the site itself costs money to run.',
     '贊助方式': 'How to donate',
     '☕ 到 Buy Me a Coffee 贊助': '☕ Donate on Buy Me a Coffee',
+    '☕ 請我們喝杯咖啡': '☕ Buy us a coffee',
+    '這一卷的詳解是我們一題一題自己寫的，標了出處，沒有廣告也不收費。':
+      'Every explanation in this paper was written by us, question by question, with sources cited. No ads, no paywall. ',
+    '如果它幫到你，請我們喝杯咖啡就是最直接的支持。':
+      'If it helped, buying us a coffee is the most direct way to support it.',
+    '考英雄 Buy Me a Coffee 贊助頁 QR Code': 'QR code for the Kaohero Buy Me a Coffee page',
+    '用手機掃這個 QR Code 也可以。': 'You can also scan this QR code with your phone.',
     '☕ Buy Me a Coffee 的贊助連結尚未設定，站長設定完成後這裡就會出現按鈕。':
       '☕ The Buy Me a Coffee link is not set up yet; a button will appear here once it is.',
     '如果這個站幫到你，請我們喝杯咖啡，就是最直接的支持。':

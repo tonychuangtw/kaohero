@@ -138,6 +138,11 @@ ok((await ev(`document.querySelector('#main .qmeta span').textContent`)).include
 await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('結束')).click()`);
 await sleep(300);
 ok(await ev('!!document.querySelector("#main .big")'), '結束後顯示成績');
+ok(await ev(`!!document.querySelector('#main .spon-strip')`), '整卷結算頁出現贊助提示');
+ok(await ev(`document.querySelector('#main .spon-strip a.btn')?.href === (window.APP_SPONSOR||{}).buymeacoffee`),
+   '贊助按鈕指向設定檔裡的連結');
+ok(await ev(`document.querySelector('#main .spon-strip a.btn')?.getBoundingClientRect().height >= 44`),
+   '贊助按鈕觸控目標 ≥44px');
 
 // --- 送分題 ---
 const vp = await ev(`(async()=>{ for (const e of window.APP_EXAMS) {

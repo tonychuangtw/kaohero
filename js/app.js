@@ -756,6 +756,21 @@
     }));
     row.appendChild(btn(T('回首頁'), 'o', null, '#/'));
     main.appendChild(row);
+    if (quiz.mode === 'paper') main.appendChild(sponsorStrip());
+  }
+
+  /* 做完一整卷之後的輕量贊助提示。沒設定連結就什麼都不顯示，不擋路、不跳窗。 */
+  function sponsorStrip() {
+    var link = (window.APP_SPONSOR && window.APP_SPONSOR.buymeacoffee) || '';
+    if (!link) return frag();
+    var box = el('div', 'panel spon-strip');
+    var tx = el('div', 'spon-tx',
+      T('這一卷的詳解是我們一題一題自己寫的，標了出處，沒有廣告也不收費。')
+      + T('如果它幫到你，請我們喝杯咖啡就是最直接的支持。'));
+    var a = el('a', 'btn', T('☕ 請我們喝杯咖啡'));
+    a.href = link; a.target = '_blank'; a.rel = 'noopener';
+    box.appendChild(tx); box.appendChild(a);
+    return box;
   }
 
   /* ============ 錯題本 / 統計 ============ */
@@ -889,6 +904,13 @@
       var a = el('a', 'btn', T('☕ 到 Buy Me a Coffee 贊助'));
       a.href = link; a.target = '_blank'; a.rel = 'noopener';
       c.appendChild(a);
+      var qr = el('div', 'spon-qr');
+      var img = document.createElement('img');
+      img.src = 'img/bmc-qr.jpg'; img.width = 200; img.height = 200; img.loading = 'lazy';
+      img.alt = T('考英雄 Buy Me a Coffee 贊助頁 QR Code');
+      qr.appendChild(img);
+      qr.appendChild(el('p', 'spon-qr-cap', T('用手機掃這個 QR Code 也可以。')));
+      c.appendChild(qr);
     } else {
       c.appendChild(el('div', 'warnbox',
         T('☕ Buy Me a Coffee 的贊助連結尚未設定，站長設定完成後這裡就會出現按鈕。')));
