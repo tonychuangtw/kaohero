@@ -50,6 +50,12 @@ img{max-width:100%}
 .burger{margin-left:auto;width:40px;height:40px;border:1px solid var(--line);background:var(--card);
   border-radius:10px;display:grid;place-items:center;cursor:pointer;color:var(--ink);font-size:calc(18px * var(--fs,1))}
 @media(min-width:820px){ .hd nav{display:flex} .burger{display:none} }
+/* 手機把右側控制項推到最右邊（2026-09-11 Tony 回報「最上面標題那邊好像偏左了」）。
+   桌機是靠 .hd nav{margin-left:auto} 撐開空白，但手機的 nav 是 display:none，
+   auto 邊界對隱藏元素不生效，登入／設定／選單就全部跟著 logo 擠在左邊、右半邊空一大片。
+   先前想用 .sync-ui / .gear 的 margin-left:auto 補救，都被 .hd nav + .sync-ui 這類
+   更高權重的規則壓成 6px 而無效——改由 logo 自己把剩餘空間吃掉，與是否登入無關。 */
+@media(max-width:819px){ .hd .logo{margin-right:auto} }
 .drawer{display:none;border-top:1px solid var(--line);background:var(--card)}
 .drawer.open{display:block}
 .drawer a{display:block;padding:12px 18px;border-bottom:1px solid var(--line2);
@@ -352,7 +358,7 @@ img{max-width:100%}
 .hd nav + .gear{margin-left:6px}
 .hd nav{margin-left:auto}
 .burger + .gear,.gear + .burger{margin-left:6px}
-@media(max-width:819px){ .gear{margin-left:auto} .gear + .burger{margin-left:0} }
+@media(max-width:819px){ .gear + .burger{margin-left:0} }
 
 .prefs{display:none;border-top:1px solid var(--line);background:var(--card)}
 .prefs.open{display:block}
@@ -387,7 +393,7 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
    版面以手機優先：觸控目標一律 ≥40px，之後要包成 App 也不用重做。 */
 .sync-ui{display:flex;align-items:center;gap:8px;flex:0 0 auto}
 .hd nav + .sync-ui{margin-left:6px}
-@media(max-width:819px){ .sync-ui{margin-left:auto} .gear{margin-left:6px} }
+@media(max-width:819px){ .gear{margin-left:6px} }
 
 .sync-login-wrap{position:relative;display:inline-flex}
 .sync-login{min-height:40px;padding:0 14px;border:1px solid var(--line);background:var(--card);

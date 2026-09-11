@@ -420,6 +420,38 @@ await ev(`void window.KHDialog.info('只有一顆鈕')`); await sleep(220);
 ok(await ev(`document.querySelectorAll('.dlg-btns .dlg-btn').length === 1`), '告知框只有一顆按鈕');
 await ev(`document.querySelector('.dlg-ok').click()`); await sleep(300);
 
+/* 輸入框的彈窗要看得到輸入的地方（2026-09-11 Tony 回報暱稱框被手機鍵盤蓋住）。
+   headless 叫不出真鍵盤，這裡驗兩件事：輸入框整個落在可視範圍內，
+   以及彈窗會跟著 visualViewport 調整位置（bottom 有被程式接手）。 */
+await ev(`void window.KHDialog.prompt('輸入暱稱', { value: '' })`); await sleep(260);
+ok(await ev(`!!document.querySelector('.dlg-input')`), '輸入框彈窗有輸入欄位');
+ok(await ev(`(function(){var r=document.querySelector('.dlg-input').getBoundingClientRect();
+   return r.top >= 0 && r.bottom <= window.innerHeight && r.height > 0})()`),
+   '暱稱輸入欄完整落在畫面內');
+ok(await ev(`(function(){var vv=window.visualViewport; if(!vv) return true;
+   var kb=Math.max(0,Math.round(window.innerHeight-vv.height-vv.offsetTop));
+   var bk=document.querySelector('.dlg-back');
+   return kb ? bk.style.bottom === kb+'px' : bk.style.bottom === ''})()`),
+   '彈窗位置跟著可視視窗（鍵盤）調整');
+await ev(`document.querySelector('.dlg-btns .dlg-btn').click()`); await sleep(300);
+
+/* 手機標題列：右側控制項要貼齊右邊界（2026-09-11 Tony 回報「最上面標題那邊好像偏左了」）。
+   nav 在手機是 display:none，靠它的 margin-left:auto 撐空白會失效，整排會擠在左邊。 */
+await send('Emulation.setDeviceMetricsOverride',
+  { width: 390, height: 844, deviceScaleFactor: 2, mobile: true }, sessionId);
+await sleep(260);
+ok(await ev(`(function(){
+   var kids=[...document.querySelector('.hd-in').children].filter(function(e){
+     return getComputedStyle(e).display !== 'none' });
+   var last=kids[kids.length-1].getBoundingClientRect().right;
+   var box=document.querySelector('.hd-in').getBoundingClientRect();
+   var pad=parseFloat(getComputedStyle(document.querySelector('.hd-in')).paddingRight);
+   return Math.abs(last - (box.right - pad)) <= 1})()`),
+   '手機標題列右側控制項貼齊右邊界');
+await send('Emulation.setDeviceMetricsOverride',
+  { width: 430, height: 900, deviceScaleFactor: 2, mobile: true }, sessionId);
+await sleep(200);
+
 ok(logs.length === 0, 'console 沒有錯誤' + (logs.length ? '：' + logs.slice(0, 2).join(' | ') : ''));
 ws.close(); chrome.kill(); srv.kill();
 console.log(fails.length ? `\n✗ ${fails.length} 項失敗` : '\n全部通過');

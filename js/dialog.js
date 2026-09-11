@@ -74,11 +74,34 @@
     return { bk: bk, box: box, input: input, ok: btnOk, no: btnNo };
   }
 
+  /* 手機鍵盤會蓋住輸入框（2026-09-11 Tony 回報「按設定我的暱稱會變成這樣子看不到輸入的地方」）：
+     .dlg-back 是 position:fixed + inset:0，參照的是「版面視窗」，而 iOS 叫出鍵盤時只縮小
+     「可視視窗」（visualViewport），版面視窗高度不變，所以靠底對齊的彈窗整個被鍵盤壓在下面。
+     這裡聽 visualViewport 的 resize／scroll，把 bottom 墊高鍵盤的高度，讓彈窗浮在鍵盤上方。
+     沒有 visualViewport 的瀏覽器（桌機舊版）維持原樣，不受影響。 */
+  function followKeyboard(bk) {
+    var vv = window.visualViewport;
+    if (!vv) return function () {};
+    function apply() {
+      var kb = Math.max(0, Math.round(window.innerHeight - vv.height - vv.offsetTop));
+      bk.style.bottom = kb ? kb + 'px' : '';
+    }
+    vv.addEventListener('resize', apply);
+    vv.addEventListener('scroll', apply);
+    apply();
+    return function () {
+      vv.removeEventListener('resize', apply);
+      vv.removeEventListener('scroll', apply);
+    };
+  }
+
   function open(msg, opts, okValue, cancelValue) {
     return new Promise(function (resolve) {
       var d = build(msg, opts);
       var prev = document.activeElement;
+      var offKb = function () {};
       function done(val) {
+        offKb();
         document.removeEventListener('keydown', onKey, true);
         d.bk.classList.remove('show');
         setTimeout(function () { if (d.bk.parentNode) d.bk.parentNode.removeChild(d.bk); }, 180);
@@ -96,6 +119,7 @@
       d.bk.onclick = function (e) { if (e.target === d.bk) done(cancelValue()); };
       document.addEventListener('keydown', onKey, true);
       document.body.appendChild(d.bk);
+      offKb = followKeyboard(d.bk);
       requestAnimationFrame(function () { d.bk.classList.add('show'); });
       (d.input || d.ok).focus();
     });
