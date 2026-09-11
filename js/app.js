@@ -18,7 +18,7 @@
   function origQ(n) { return isEn() ? ('Paper Q ' + n) : ('原卷第 ' + n + ' 題'); }
 
   /* ============ 進度 ============ */
-  var state = { stats: {}, wrong: [], last: null, drafts: {}, mocks: [] };
+  var state = { stats: {}, wrong: [], last: null, drafts: {}, mocks: [], nick: null };
   /* 未完成的整卷測驗（2026-09-11）。以卷代碼為 key，只存「做到第幾題、每題選了什麼」，
      不存題目本身（題本另外動態載入），一份約 300 bytes。
      最多留 DRAFT_MAX 份（考生常同時刷好幾科），超過就丟最舊的；DRAFT_TTL 天沒碰自動清掉。 */
@@ -27,7 +27,7 @@
     try {
       var o = JSON.parse(localStorage.getItem(KEY) || '{}');
       state.stats = o.stats || {}; state.wrong = o.wrong || []; state.last = o.last || null;
-      state.drafts = o.drafts || {}; state.mocks = o.mocks || [];
+      state.drafts = o.drafts || {}; state.mocks = o.mocks || []; state.nick = o.nick || null;
     } catch (e) {}
     pruneDrafts();
   }
@@ -583,7 +583,7 @@
     if (wn) { c2.onclick = function () { startWrong(sid); }; c2.style.cursor = 'pointer'; }
     g.appendChild(c2);
     var c3 = card('⏱️', T('模擬考'), T('照這一科的正式題數與時間限時作答，交卷後才看得到答案'), null);
-    c3.onclick = function () { startMock(sid, false); }; c3.style.cursor = 'pointer';
+    c3.onclick = function () { startMock(sid, 'full'); }; c3.style.cursor = 'pointer';
     g.appendChild(c3);
     s0.appendChild(g); main.appendChild(s0);
 
@@ -890,11 +890,138 @@
     main.appendChild(c);
   }
 
+  /* ============ 模擬考英雄榜（2026-09-11 Tony 拍板）============
+     榜單由三種來源組成，依分數排序後取前 BOARD_N 名：
+       1. 基準線：不是人，是對照用的分數線（及格 60、歷年上榜水準 78），以特別顏色標示
+       2. 真人：目前只有本機使用者自己的最佳成績；接上後端之後會換成跨使用者的真實成績
+       3. 種子暱稱：⚠️ 這一批是程式產生的假資料，用來讓初期的榜單不致空白。
+          Tony 2026-09-11 決定保留（他的站、他的決定；我先前已表達過疑慮，見當天對話）。
+          要關掉只需把 BOARD_SEED 設為 false，其餘程式不用動。
+     種子以「科目＋規格」為亂數種子，所以同一張榜每次打開都一樣，不會每次重整就換一批人。 */
+  var BOARD_N = 50, BOARD_SEED = true;
+  var SPECS = [['full', '全真'], ['half', '半卷'], ['quick', '20 題']];
+  function specName(s) { for (var i = 0; i < SPECS.length; i++) if (SPECS[i][0] === s) return T(SPECS[i][1]); return s; }
+
+  function rng32(seed) {                       // mulberry32：小而穩定的種子亂數
+    var a = seed >>> 0;
+    return function () {
+      a = (a + 0x6D2B79F5) >>> 0;
+      var t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function hashStr(s) { var h = 2166136261; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+
+  var NICK_A = ['考前', '半夜', '通勤', '圖書館', '補習班', '離島', '轉職', '二戰', '三戰', '兼職',
+    '早八', '咖啡因', '零基礎', '在職', '應屆', '重考', '南部', '東部', '陪考', '裸考'];
+  var NICK_B = ['小廢物', '衝刺犬', '刷題狂', '筆記控', '夜貓', '苦主', '戰神', '學霸', '肝王', '鹹魚',
+    '倖存者', '練習生', '老兵', '新手', '狙擊手', '拖延症', '複習機', '錯題王', '救世主', '路人'];
+  var NICK_EN = ['Ken', 'Mia', 'Leo', 'Vicky', 'Ray', 'Jimmy', 'Nina', 'Oscar', 'Zoe', 'Hank',
+    'PassOrDie', 'nightowl', 'coffee_only', 'justonemore', 'QQ', 'lucky7', 'no_sleep_club',
+    'ExamSurvivor', 'Mr.Wrong', 'plzpass'];
+  var NICK_SOLO = ['阿明', '小魚', '陳同學', '想上榜', '拜託給過', '今年一定', '我只想睡覺', '報名費很貴',
+    '第三次了', '媽我在這', '不要問我', '考完就辭職', '正在放棄', '還沒讀完', '明天再說'];
+  function seedNick(r) {
+    var k = r();
+    if (k < 0.30) return NICK_SOLO[Math.floor(r() * NICK_SOLO.length)];
+    if (k < 0.55) return NICK_EN[Math.floor(r() * NICK_EN.length)];
+    var n = NICK_A[Math.floor(r() * NICK_A.length)] + NICK_B[Math.floor(r() * NICK_B.length)];
+    if (r() < 0.25) n += String(Math.floor(r() * 90) + 10);
+    return n;
+  }
+  /* 分數分布：多數落在 45～85，少數高分。用兩個亂數取平均做出中間厚、兩端薄的形狀。 */
+  function seedScore(r) {
+    var v = (r() + r() + r()) / 3;             // 近似常態
+    return Math.max(18, Math.min(98, Math.round(32 + v * 62)));
+  }
+
+  function boardRows(sid, spec) {
+    var rows = [];
+    rows.push({ kind: 'mark', nick: T('及格基準線'), score: 60 });
+    rows.push({ kind: 'mark', nick: T('歷年上榜水準'), score: 78 });
+    if (BOARD_SEED) {
+      var r = rng32(hashStr('kh|' + sid + '|' + spec));
+      var used = {};
+      for (var i = 0; i < BOARD_N; i++) {
+        var nk = seedNick(r), guard = 0;
+        while (used[nk] && guard++ < 8) nk = seedNick(r);
+        used[nk] = 1;
+        rows.push({ kind: 'seed', nick: nk, score: seedScore(r) });
+      }
+    }
+    (state.mocks || []).forEach(function (m) {
+      if (m.sid !== sid || (m.spec || 'full') !== spec) return;
+      rows.push({ kind: 'me', nick: state.nick || T('我'), score: Math.round(m.ok * 100 / m.total), date: m.date });
+    });
+    // 同一個人只留最佳成績
+    var best = null, out = [];
+    rows.forEach(function (x) { if (x.kind !== 'me') return; if (!best || x.score > best.score) best = x; });
+    rows.forEach(function (x) { if (x.kind === 'me' && x !== best) return; out.push(x); });
+    out.sort(function (a, b) {
+      if (b.score !== a.score) return b.score - a.score;
+      return a.kind === 'me' ? -1 : (b.kind === 'me' ? 1 : 0);   // 同分時真人在前
+    });
+    // 名次只算人，基準線不占位
+    var rank = 0;
+    out.forEach(function (x) { if (x.kind !== 'mark') x.rank = ++rank; });
+    var top = out.slice(0, BOARD_N), mine = null;
+    out.forEach(function (x) { if (x.kind === 'me') mine = x; });
+    if (mine && top.indexOf(mine) < 0) top.push(mine);   // 掉出前 50 也要讓自己看得到名次
+    return top;
+  }
+
+  function viewBoard(main, sid, spec) {
+    var s = el('section', 'sec'); s.style.marginTop = '18px';
+    s.appendChild(sectionHead(T('模考英雄榜') + '　' + ((SUBJ[sid] && SUBJ[sid].name) || sid) + '　' + specName(spec)));
+    var tabs = el('div', 'chips');
+    SPECS.forEach(function (sp) {
+      var b = el('button', sp[0] === spec ? 'on' : null, T(sp[1]));
+      b.onclick = function () { boardSpec = sp[0]; render(); };
+      tabs.appendChild(b);
+    });
+    s.appendChild(tabs);
+    var p = el('div', 'panel bd-list');
+    boardRows(sid, spec).forEach(function (x) {
+      var row = el('div', 'bd-row' + (x.kind === 'mark' ? ' mark' : '') + (x.kind === 'me' ? ' me' : ''));
+      row.appendChild(el('span', 'bd-no', x.kind === 'mark' ? '—' : String(x.rank)));
+      row.appendChild(el('span', 'bd-nk', x.nick));
+      row.appendChild(el('span', 'bd-sc', x.score + T(' 分')));
+      p.appendChild(row);
+    });
+    s.appendChild(p);
+    s.appendChild(el('p', 'lead',
+      T('榜上「及格基準線」與「歷年上榜水準」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。')));
+    var br = el('div', 'btnrow');
+    br.appendChild(btn(state.nick ? T('更改暱稱（目前：') + state.nick + T('）') : T('設定我的暱稱'), 'o', askNick));
+    s.appendChild(br);
+    main.appendChild(s);
+  }
+
+  function askNick() {
+    KHDialog.prompt(T('上榜時要顯示的暱稱（20 字以內，不要用真名）'), { value: state.nick || '' })
+      .then(function (v) {
+        if (v == null) return;
+        v = String(v).trim().slice(0, 20);
+        state.nick = v || null; save(); render();
+        if (v) toast(T('暱稱已設定為 ') + v);
+      });
+  }
+
   /* ============ 模擬考（2026-09-11 Tony 要求）============
      與「無限刷題」的差別：全真題數與倒數計時、作答中完全不揭曉答案、交卷後才整卷批改。
      抽題不一次載十幾個題本（手機會卡）：先隨機抽 MOCK_POOL 份考卷載進來，再從池子裡抽題。 */
   var MOCK_POOL = 5;
   var mockTimer = null;
+  /* 模考規格：全真＝該科正式題數與時間；半卷＝各取一半；20 題速刷＝固定 20 題、依比例給時間 */
+  function specOf(std, spec) {
+    if (spec === 'half') return { n: Math.ceil(std.n / 2), mins: Math.ceil(std.mins / 2) };
+    if (spec === 'quick') return { n: Math.min(20, std.n), mins: Math.max(5, Math.round(std.mins * Math.min(20, std.n) / std.n)) };
+    return { n: std.n, mins: std.mins };
+  }
+  var pickSpec = 'full', boardSpec = 'full';
+  var mkCat = null, mkExam = null, mkSubj = null;   // 記住模考設定頁的三層選擇，切規格重繪時不會被重設
   function stopMockTimer() { if (mockTimer) { clearInterval(mockTimer); mockTimer = null; } }
 
   function viewMock(main) {
@@ -909,11 +1036,14 @@
 
     function opt(sel, val, txt) { var o = el('option', null, txt); o.value = val; sel.appendChild(o); }
     CATS.forEach(function (ct) { opt(selC, ct.id, ct.name); });
+    if (mkCat) { selC.value = mkCat; if (selC.value !== mkCat) selC.selectedIndex = 0; }
 
+    function keep(sel, want) { if (want) { sel.value = want; if (sel.value !== want) sel.selectedIndex = 0; } }
     function fillExams() {
       selE.innerHTML = '';
       var ct = catOf(selC.value) || CATS[0];
       (ct.exams || []).forEach(function (e) { if (e.live !== false) opt(selE, e.id, e.name); });
+      keep(selE, mkExam);
       fillSubjects();
     }
     function fillSubjects() {
@@ -924,6 +1054,8 @@
         seen[e.subj] = 1;
         opt(selS, e.subj, (SUBJ[e.subj] && SUBJ[e.subj].name) || e.subjName || e.subj);
       });
+      keep(selS, mkSubj);
+      mkCat = selC.value; mkExam = selE.value; mkSubj = selS.value;
       showSpec();
     }
     var spec = el('p', 'lead');
@@ -933,16 +1065,17 @@
       list.sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); });
       return { n: list[0].n, mins: list[0].mins || Math.round(list[0].n * 1.2), papers: list.length };
     }
-    var half = false;
     function showSpec() {
       var st = stdOf(selS.value);
-      spec.textContent = st
-        ? (T('正式規格：') + st.n + unitQ() + ' / ' + st.mins + T(' 分鐘')
-           + T('　·　題庫共 ') + st.papers + unitP()
-           + (half ? T('　·　目前選半卷：') + Math.ceil(st.n / 2) + unitQ() + ' / ' + Math.ceil(st.mins / 2) + T(' 分鐘') : ''))
-        : T('這個科目還沒有題目。');
+      if (!st) { spec.textContent = T('這個科目還沒有題目。'); return; }
+      var g = specOf(st, pickSpec);
+      spec.textContent = T('這次會考：') + g.n + unitQ() + ' / ' + g.mins + T(' 分鐘')
+        + T('　·　正式規格 ') + st.n + unitQ() + ' / ' + st.mins + T(' 分鐘')
+        + T('　·　題庫共 ') + st.papers + unitP();
     }
-    selC.onchange = fillExams; selE.onchange = fillSubjects; selS.onchange = showSpec;
+    selC.onchange = function () { mkCat = selC.value; mkExam = null; mkSubj = null; fillExams(); render(); };
+    selE.onchange = function () { mkExam = selE.value; mkSubj = null; fillSubjects(); render(); };
+    selS.onchange = function () { mkSubj = selS.value; showSpec(); render(); };
 
     var g = el('div', 'mk-form');
     [[T('考試類別'), selC], [T('考試'), selE], [T('科目'), selS]].forEach(function (r) {
@@ -954,21 +1087,28 @@
     c.appendChild(g);
 
     var chips = el('div', 'chips'); chips.style.marginTop = '10px';
-    var bFull = el('button', 'on', T('全真規格')), bHalf = el('button', null, T('半卷（通勤用）'));
-    bFull.onclick = function () { half = false; bFull.className = 'on'; bHalf.className = ''; showSpec(); };
-    bHalf.onclick = function () { half = true; bHalf.className = 'on'; bFull.className = ''; showSpec(); };
-    chips.appendChild(bFull); chips.appendChild(bHalf);
+    var btns = [];
+    [['full', T('全真規格')], ['half', T('半卷（通勤用）')], ['quick', T('20 題速刷')]].forEach(function (sp) {
+      var b = el('button', sp[0] === pickSpec ? 'on' : null, sp[1]);
+      b.onclick = function () {
+        pickSpec = sp[0];
+        btns.forEach(function (x) { x[1].className = x[0] === pickSpec ? 'on' : ''; });
+        showSpec(); boardSpec = pickSpec; render();
+      };
+      btns.push([sp[0], b]); chips.appendChild(b);
+    });
     c.appendChild(chips);
     c.appendChild(spec);
 
     var go = btn(T('開始模擬考'), '', function () {
       if (!selS.value) return toast(T('這個科目還沒有題目。'));
-      startMock(selS.value, half);
+      startMock(selS.value, pickSpec);
     });
     go.style.marginTop = '14px';
     c.appendChild(go);
     main.appendChild(c);
     fillExams();
+    if (selS.value) viewBoard(main, selS.value, boardSpec);
 
     if ((state.mocks || []).length) {
       var s2 = el('section', 'sec'); s2.style.marginTop = '18px';
@@ -983,12 +1123,13 @@
     }
   }
 
-  function startMock(sid, half) {
+  function startMock(sid, spec) {
+    spec = spec || 'full';
     var list = EXAMS.filter(function (e) { return e.subj === sid; });
     if (!list.length) return toast(T('這個科目還沒有題目。'));
-    var std = list.slice().sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); })[0];
-    var want = half ? Math.ceil(std.n / 2) : std.n;
-    var mins = half ? Math.ceil((std.mins || Math.round(std.n * 1.2)) / 2) : (std.mins || Math.round(std.n * 1.2));
+    var top = list.slice().sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); })[0];
+    var std = { n: top.n, mins: top.mins || Math.round(top.n * 1.2) };
+    var g = specOf(std, spec), want = g.n, mins = g.mins;
     var pool = list.slice(); shuffle(pool);
     var pick = [], have = 0;
     for (var i = 0; i < pool.length && (have < want * 1.5 || pick.length < 2) && pick.length < MOCK_POOL; i++) {
@@ -1007,9 +1148,10 @@
       if (bank.length < 5) return toast(T('題目載入失敗，請重新整理再試一次。'));
       shuffle(bank);
       var use = bank.slice(0, Math.min(want, bank.length));
-      quiz = { mode: 'mock', sid: sid, title: (SUBJ[sid] && SUBJ[sid].name || sid) + T('　模擬考'),
+      quiz = { mode: 'mock', sid: sid, spec: spec,
+        title: (SUBJ[sid] && SUBJ[sid].name || sid) + T('　模擬考') + '（' + specName(spec) + '）',
         qs: use.map(function (x) { return x.q; }), meta: use, i: 0, ans: [], ok: 0,
-        flags: {}, half: !!half, mins: mins, endAt: Date.now() + mins * 60000, secs: 0, graded: false };
+        flags: {}, mins: mins, endAt: Date.now() + mins * 60000, secs: 0, graded: false };
       location.hash = '#/quiz'; render();
     });
   }
@@ -1107,8 +1249,9 @@
     quiz.secs = Math.min(quiz.mins * 60, quiz.mins * 60 - mockLeft());
     quiz.graded = true; quiz.done = true; quiz.timeUp = !!timeUp;
     state.mocks = state.mocks || [];
-    state.mocks.unshift({ sid: quiz.sid, title: quiz.title, ok: quiz.ok, total: quiz.qs.length,
-      secs: quiz.secs, date: new Date().toISOString().slice(0, 10) });
+    state.mocks.unshift({ sid: quiz.sid, spec: quiz.spec || 'full', title: quiz.title,
+      ok: quiz.ok, total: quiz.qs.length, secs: quiz.secs,
+      date: new Date().toISOString().slice(0, 10) });
     state.mocks = state.mocks.slice(0, 30);
     save(); buildNav(); markNav(); render();
   }
@@ -1130,7 +1273,9 @@
     c.appendChild(note);
     main.appendChild(c);
 
-    var hist = (state.mocks || []).filter(function (r) { return r.sid === quiz.sid; }).slice(0, 8);
+    var hist = (state.mocks || []).filter(function (r) {
+      return r.sid === quiz.sid && (r.spec || 'full') === (quiz.spec || 'full');
+    }).slice(0, 8);
     if (hist.length > 1) {
       var sh = el('section', 'sec'); sh.style.marginTop = '16px';
       sh.appendChild(sectionHead(T('這一科的模擬考趨勢')));
@@ -1169,10 +1314,11 @@
     }
 
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
-    var sid0 = quiz.sid, half0 = !!quiz.half;
-    row.appendChild(btn(T('再考一次'), '', function () { startMock(sid0, half0); }));
+    var sid0 = quiz.sid, spec0 = quiz.spec || 'full';
+    row.appendChild(btn(T('再考一次'), '', function () { startMock(sid0, spec0); }));
     row.appendChild(btn(T('回模擬考設定'), 'o', null, '#/mock'));
     main.appendChild(row);
+    viewBoard(main, quiz.sid, quiz.spec || 'full');
     main.appendChild(sponsorStrip());
   }
 

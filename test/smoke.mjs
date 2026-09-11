@@ -343,6 +343,14 @@ await send('Emulation.setDeviceMetricsOverride',
 await go('#/mock');
 ok(await ev(`document.querySelectorAll('#main .mk-sel').length === 3`), '模擬考設定頁有三層範圍選單');
 ok((await ev(`document.querySelector('#main').textContent`)).includes('正式規格'), '顯示該科的正式題數與時間');
+ok(await ev(`document.querySelectorAll('#main .chips')[0].children.length === 3`), '模考有全真／半卷／20 題三種規格');
+ok(await ev(`document.querySelectorAll('#main .bd-row').length === 50`), '模考設定頁就看得到英雄榜');
+const seedTop = await ev(`document.querySelector('#main .bd-row .bd-nk').textContent`);
+await ev(`location.reload()`);
+for (let i = 0; i < 120; i++) { await sleep(100); if (await ev('document.readyState === "complete"')) break; }
+await sleep(500);
+ok((await ev(`document.querySelector('#main .bd-row .bd-nk').textContent`)) === seedTop,
+   '榜單內容穩定，重新載入不會換一批人');
 await ev(`${BTN('開始模擬考')}.click()`);
 for (let i = 0; i < 120 && !(await ev('!!document.querySelector("#main .mk-clock")')); i++) await sleep(100);
 ok(await ev(`!!document.querySelector('#main .mk-clock')`), '模擬考開始後出現倒數計時');
@@ -367,6 +375,11 @@ ok((await ev(`document.querySelector('#main').textContent`)).includes('及格標
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').mocks||[]).length === 1`),
    '模擬考成績寫入紀錄');
 ok(await ev(`!document.querySelector('#main .mk-clock')`), '交卷後倒數停止');
+ok(await ev(`document.querySelectorAll('#main .bd-row').length >= 50`), '結算頁的英雄榜有 50 列');
+ok(await ev(`document.querySelectorAll('#main .bd-row.mark').length === 2`), '榜上有兩條基準線且另外標色');
+ok(await ev(`!!document.querySelector('#main .bd-row.me')`), '自己的成績有出現在榜上');
+ok(await ev(`[...document.querySelectorAll('#main .bd-row:not(.me) .bd-sc')].map(x=>parseInt(x.textContent)).every((v,i,a)=>i===0||a[i-1]>=v)`),
+   '榜單依分數由高到低排序');
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').wrong||[]).length < 5`),
    '未作答的題不會被塞進錯題本');
 

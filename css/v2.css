@@ -536,3 +536,16 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
   height:100%;gap:4px}
 .mk-tb i{display:block;width:100%;max-width:46px;background:var(--brand);border-radius:5px 5px 0 0}
 .mk-tb span{font-size:calc(12px * var(--fs,1));color:var(--ink2);font-variant-numeric:tabular-nums}
+
+/* ── 模考英雄榜（2026-09-11）── */
+.bd-list{padding:6px 0;max-height:520px;overflow:auto}
+.bd-row{display:flex;align-items:center;gap:10px;padding:9px 14px;
+  border-bottom:1px solid var(--line);font-size:calc(15px * var(--fs,1))}
+.bd-row:last-child{border-bottom:0}
+.bd-no{flex:0 0 34px;text-align:right;color:var(--ink2);font-variant-numeric:tabular-nums;font-weight:700}
+.bd-nk{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bd-sc{flex:0 0 auto;font-variant-numeric:tabular-nums;font-weight:800}
+.bd-row.mark{background:var(--brand-l)}
+.bd-row.mark .bd-nk,.bd-row.mark .bd-sc,.bd-row.mark .bd-no{color:var(--brand);font-weight:800}
+.bd-row.me{background:var(--line2);box-shadow:inset 3px 0 0 var(--ink)}
+.bd-row.me .bd-nk{font-weight:800}
