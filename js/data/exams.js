@@ -29596,7 +29596,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作概要",
   "label": "107 年　四等　社會工作概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
