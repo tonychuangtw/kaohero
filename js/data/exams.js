@@ -28560,7 +28560,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "108 年　三等　工程數學",
   "n": 20,
-  "exp": 0,
+  "exp": 18,
   "mins": 60
  },
  {
