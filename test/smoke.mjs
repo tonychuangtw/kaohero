@@ -87,7 +87,9 @@ ok(await ev('window.APP_CATS.length >= 4'), '至少四個考試分類');
 ok(await ev('document.querySelectorAll("#main .hero").length === 1'), '首頁有 hero 區塊');
 ok(await ev('document.querySelectorAll("#main .card").length >= 6'), '首頁列出考試類別卡片');
 ok((await ev('document.querySelector("#main .hero").textContent')).includes(IDX.q.toLocaleString('en-US')), 'hero 顯示總題數');
-ok(await ev('document.querySelectorAll("#nav a").length === 5'), '導覽列五個項目');  // 2026-09-08 起「考取心得」暫時移出導覽
+ok(await ev('document.querySelectorAll("#nav a").length === 6'), '導覽列六個項目');  // 09-08 移出「考取心得」、09-11 加入「錯題本」
+ok(await ev(`[...document.querySelectorAll('#nav a')].some(a=>a.getAttribute('href')==='#/wrong')`),
+   '導覽列有錯題本入口');
 ok(await ev('document.querySelectorAll(".ft a").length >= 5'), '頁尾有連結');
 
 // --- 導覽到考試 → 科目 → 卷 ---

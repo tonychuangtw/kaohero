@@ -145,14 +145,16 @@
   /* ============ 導覽 ============ */
   // 2026-09-08 Tony：考取心得先暫時從導覽拿掉（內容還沒累積真實案例）。
   // 路由 #/stories 與 viewStories 都保留，之後有內容把這一項加回 NAV 即可。
-  var NAV = [['#/', '首頁'], ['#/exams', '考試題庫'], ['#/guide', '準備方式'],
+  var NAV = [['#/', '首頁'], ['#/exams', '考試題庫'], ['#/wrong', '錯題本'], ['#/guide', '準備方式'],
              ['#/sponsor', '贊助我們'], ['#/support', '客服中心']];
   function buildNav() {
     var nav = document.getElementById('nav'), dw = document.getElementById('drawer');
     nav.innerHTML = ''; dw.innerHTML = '';
     NAV.map(function (p) { return [p[0], T(p[1])]; }).forEach(function (p) {
-      var a = el('a', null, p[1]); a.href = p[0]; a.setAttribute('data-nav', ''); nav.appendChild(a);
-      var b = el('a', null, p[1]); b.href = p[0]; b.setAttribute('data-nav', ''); dw.appendChild(b);
+      // 錯題本帶未消題數，否則使用者不知道裡面有東西（2026-09-11）
+      var label = p[1] + (p[0] === '#/wrong' && state.wrong.length ? '（' + state.wrong.length + '）' : '');
+      var a = el('a', null, label); a.href = p[0]; a.setAttribute('data-nav', ''); nav.appendChild(a);
+      var b = el('a', null, label); b.href = p[0]; b.setAttribute('data-nav', ''); dw.appendChild(b);
     });
   }
   function markNav() {
@@ -574,8 +576,10 @@
     var c1 = card('♾️', T('無限刷題'), T('從這一科所有年份隨機出題，答完立刻看答案與詳解'), null);
     c1.onclick = function () { startDrill(sid); }; c1.className = 'card'; c1.style.cursor = 'pointer';
     g.appendChild(c1);
-    var c2 = card('📕', T('只練這科的錯題'), T('複習你在這一科答錯過的題目'), null);
-    c2.onclick = function () { startWrong(sid); }; c2.style.cursor = 'pointer';
+    var wn = state.wrong.filter(function (w) { var e = examOf(w.pid); return e && e.subj === sid; }).length;
+    var c2 = card('📕', T('只練這科的錯題') + (wn ? '（' + wn + unitQ() + '）' : ''),
+      wn ? T('複習你在這一科答錯過的題目') : T('這一科目前沒有錯題'), null, null, !wn);
+    if (wn) { c2.onclick = function () { startWrong(sid); }; c2.style.cursor = 'pointer'; }
     g.appendChild(c2);
     s0.appendChild(g); main.appendChild(s0);
 
@@ -769,9 +773,17 @@
     st.n++; if (good) st.ok++;
     var wi = -1;
     state.wrong.forEach(function (w, idx) { if (w.pid === m.pid && w.n === q.n) wi = idx; });
-    if (good) { if (wi >= 0) state.wrong.splice(wi, 1); }
-    else if (wi < 0) state.wrong.push({ pid: m.pid, n: q.n });
-    save(); render();
+    // Leitner 簡化版（2026-09-11）：四選一猜對的機率有 25%，答對一次就刪掉會讓沒真懂的題永久消失。
+    // 改成連續答對 2 次才移出；答錯就把連勝歸零。w.s = 連續答對次數。
+    if (good) {
+      if (wi >= 0) {
+        var w0 = state.wrong[wi];
+        w0.s = (w0.s || 0) + 1;
+        if (w0.s >= 2) state.wrong.splice(wi, 1);
+      }
+    } else if (wi < 0) state.wrong.push({ pid: m.pid, n: q.n, s: 0 });
+    else state.wrong[wi].s = 0;
+    save(); buildNav(); markNav(); render();
   }
 
   function viewResult(main) {
@@ -798,7 +810,14 @@
             + [w.q.a].concat(w.q.alt || []).map(function (i) { return LAB[i]; }).join('、'), null));
       });
       wc.appendChild(p);
-      wc.appendChild(el('p', 'lead', T('答錯的題目已自動加入錯題本。')));
+      wc.appendChild(el('p', 'lead',
+        T('答錯的題目已自動加入錯題本，連續答對 2 次才會移除（答對一次就移除的話，猜對的題會永久消失）。')));
+      var wr = el('div', 'btnrow'); wr.style.marginTop = '12px';
+      wr.appendChild(btn(T('立即重練這些錯題'), '', function () {
+        startWrongList(wrongList.map(function (w) { return { pid: curPidOf(w), n: w.q.n }; }));
+      }));
+      wr.appendChild(btn(T('前往錯題本 →'), 'o', null, '#/wrong'));
+      wc.appendChild(wr);
       main.appendChild(wc);
     }
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
@@ -824,6 +843,25 @@
     a.href = link; a.target = '_blank'; a.rel = 'noopener';
     box.appendChild(tx); box.appendChild(a);
     return box;
+  }
+
+  /* 結算頁「立即重練這些錯題」：只練剛才答錯的那幾題，不摻其他科目的舊錯題。 */
+  function curPidOf(w) { return quiz.mode === 'paper' ? quiz.pid : (quiz.meta[w.i] || {}).pid; }
+  function startWrongList(list) {
+    if (!list.length) return;
+    var ids = {}; list.forEach(function (w) { ids[w.pid] = 1; });
+    loadMany(Object.keys(ids), function () {
+      var qs = [], meta = [];
+      list.forEach(function (w) {
+        var p = PAPERS[w.pid]; if (!p) return;
+        for (var i = 0; i < p.qs.length; i++) if (p.qs[i].n === w.n) {
+          qs.push(p.qs[i]); meta.push({ pid: w.pid, title: p.title }); break;
+        }
+      });
+      if (!qs.length) return toast(T('這些題目載入失敗，請重新整理再試一次。'));
+      quiz = { mode: 'wrong', sid: null, title: T('重練本卷錯題'), qs: qs, meta: meta, i: 0, ans: [], ok: 0 };
+      location.hash = '#/quiz'; render();
+    });
   }
 
   /* 上次沒做完的卷，再進來時先問一次。resumeAsked[pid] = 'go'（接續）或 'new'（重來）。 */
@@ -860,16 +898,37 @@
     }));
     main.appendChild(row);
 
-    var by = {};
-    state.wrong.forEach(function (w) { by[w.pid] = (by[w.pid] || 0) + 1; });
+    /* 分布改成以「科目」為主（2026-09-11）。只按卷分組時，同一科跨十年的錯題會被切成
+       十幾列，對實際複習沒有幫助；考生想的是「我這一科還有幾題沒搞懂」。 */
+    var bySubj = {}, byPid = {};
+    state.wrong.forEach(function (w) {
+      byPid[w.pid] = (byPid[w.pid] || 0) + 1;
+      var e = examOf(w.pid); if (!e) return;
+      var b = bySubj[e.subj] || (bySubj[e.subj] = { n: 0, hard: 0 });
+      b.n++; if (!(w.s || 0)) b.hard++;
+    });
     var s = el('section', 'sec'); s.style.marginTop = '18px';
-    s.appendChild(sectionHead(T('錯題分布')));
+    s.appendChild(sectionHead(T('依科目')));
+    s.appendChild(el('p', 'lead', T('點一列就只練那一科。「還沒答對過」是連一次都還沒答對的題，考前優先看這些。')));
     var p = el('div', 'panel');
-    Object.keys(by).sort().forEach(function (pid) {
-      var e = examOf(pid);
-      p.appendChild(item('📄', e ? (SUBJ[e.subj].name + T('　') + e.label) : pid, by[pid] + unitQ(), null));
+    Object.keys(bySubj).sort(function (a, b) { return bySubj[b].n - bySubj[a].n; }).forEach(function (sid) {
+      var b = bySubj[sid];
+      var row = item('📕', SUBJ[sid] ? SUBJ[sid].name : sid,
+        b.n + unitQ() + (b.hard ? T('　｜還沒答對過 ') + b.hard + unitQ() : T('　｜都至少答對過一次')),
+        function () { startWrong(sid); });
+      p.appendChild(row);
     });
     s.appendChild(p); main.appendChild(s);
+
+    var s2 = el('section', 'sec'); s2.style.marginTop = '18px';
+    s2.appendChild(sectionHead(T('依考卷')));
+    var p2 = el('div', 'panel');
+    Object.keys(byPid).sort().forEach(function (pid) {
+      var e = examOf(pid);
+      p2.appendChild(item('📄', e ? (SUBJ[e.subj].name + T('　') + e.label) : pid, byPid[pid] + unitQ(),
+        null, '#/paper/' + pid));
+    });
+    s2.appendChild(p2); main.appendChild(s2);
   }
 
   function viewStats(main) {

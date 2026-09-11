@@ -187,6 +187,21 @@
       'The questions and answers are open data, but collating them, proofreading them and writing an explanation for every single one takes time — and the site itself costs money to run.',
     '贊助方式': 'How to donate',
     '☕ 到 Buy Me a Coffee 贊助': '☕ Donate on Buy Me a Coffee',
+    /* --- 錯題本強化（2026-09-11） --- */
+    '錯題本（': 'Wrong answers (',
+    '答錯的題目已自動加入錯題本，連續答對 2 次才會移除（答對一次就移除的話，猜對的題會永久消失）。':
+      'Wrong answers are added to your review list. They are removed only after two correct answers in a row, so questions you merely guessed right do not vanish.',
+    '立即重練這些錯題': 'Redo these now',
+    '前往錯題本 →': 'Go to wrong answers →',
+    '重練本卷錯題': 'Redo this paper\u2019s wrong answers',
+    '這些題目載入失敗，請重新整理再試一次。': 'Could not load these questions. Please refresh and try again.',
+    '依科目': 'By subject',
+    '依考卷': 'By paper',
+    '點一列就只練那一科。「還沒答對過」是連一次都還沒答對的題，考前優先看這些。':
+      'Tap a row to drill that subject only. "Never got it right" means you have not answered it correctly even once — start there.',
+    '　｜還沒答對過 ': ' | never got it right: ',
+    '　｜都至少答對過一次': ' | all answered correctly at least once',
+    '這一科目前沒有錯題': 'No wrong answers in this subject yet',
     /* --- 未完成的測驗續答（2026-09-11） --- */
     '這一卷還沒做完': 'You have not finished this paper',
     '上次做到第 ': 'Last time you reached question ',
