@@ -25648,7 +25648,7 @@ window.APP_EXAMS = [
   "subjName": "土地行政大意",
   "label": "112 年　五等　土地行政大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -25662,7 +25662,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "112 年　五等　公務員法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -25676,7 +25676,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "112 年　五等　基本電學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 26,
   "mins": 60
  },
  {
@@ -25690,7 +25690,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "112 年　五等　電子學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 37,
   "mins": 60
  },
  {
