@@ -187,6 +187,17 @@
       'The questions and answers are open data, but collating them, proofreading them and writing an explanation for every single one takes time — and the site itself costs money to run.',
     '贊助方式': 'How to donate',
     '☕ 到 Buy Me a Coffee 贊助': '☕ Donate on Buy Me a Coffee',
+    /* --- 未完成的測驗續答（2026-09-11） --- */
+    '這一卷還沒做完': 'You have not finished this paper',
+    '上次做到第 ': 'Last time you reached question ',
+    ' 題，已作答 ': '; answered ',
+    '接續作答': 'Resume',
+    '從第 1 題重新開始': 'Start over from question 1',
+    '接續：': 'Resume: ',
+    '（第 ': ' (Q ',
+    ' 題）': ')',
+    '再做一次：': 'Do again: ',
+    '整卷測驗': 'Full paper',
     '☕ 請我們喝杯咖啡': '☕ Buy us a coffee',
     '這一卷的詳解是我們一題一題自己寫的，標了出處，沒有廣告也不收費。':
       'Every explanation in this paper was written by us, question by question, with sources cited. No ads, no paywall. ',

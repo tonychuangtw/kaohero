@@ -103,10 +103,51 @@
     for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
     return h + ':' + s.length;
   }
+  /* 主紀錄（kaohero.v1）不要整包覆蓋（2026-09-11）。
+     舊作法是雲端版本一律蓋掉本機，兩台裝置同時練習時，後同步的一方會把另一台
+     剛做的東西整個洗掉（手機做 12 題、電腦做 20 題，可能只剩 12 題）。
+     改成逐欄合併：統計取作答數較多者、錯題取聯集、未完成的卷同卷比已作答題數，
+     平手才比時間。其餘 key 仍照舊整包覆蓋。 */
+  function answered(d) {
+    var n = 0, a = (d && d.ans) || [];
+    for (var i = 0; i < a.length; i++) if (a[i] != null) n++;
+    return n;
+  }
+  function mergeMain(localStr, remoteStr) {
+    var L, R, k;
+    try { R = JSON.parse(remoteStr || '{}'); } catch (e) { return localStr; }
+    try { L = JSON.parse(localStr || '{}'); } catch (e) { return remoteStr; }
+    var out = { stats: {}, wrong: [], last: L.last || R.last || null, drafts: {} };
+    var ls = L.stats || {}, rs = R.stats || {};
+    for (k in ls) if (Object.prototype.hasOwnProperty.call(ls, k)) out.stats[k] = ls[k];
+    for (k in rs) if (Object.prototype.hasOwnProperty.call(rs, k)) {
+      var a = out.stats[k], b = rs[k];
+      out.stats[k] = (!a || (b.n || 0) > (a.n || 0)) ? b : a;
+    }
+    var seen = {};
+    (L.wrong || []).concat(R.wrong || []).forEach(function (w) {
+      if (!w || !w.pid) return;
+      var id = w.pid + '#' + w.n;
+      if (seen[id]) return;
+      seen[id] = 1; out.wrong.push(w);
+    });
+    var ld = L.drafts || {}, rd = R.drafts || {};
+    for (k in ld) if (Object.prototype.hasOwnProperty.call(ld, k)) out.drafts[k] = ld[k];
+    for (k in rd) if (Object.prototype.hasOwnProperty.call(rd, k)) {
+      var x = out.drafts[k], y = rd[k];
+      if (!x) { out.drafts[k] = y; continue; }
+      var nx = answered(x), ny = answered(y);
+      out.drafts[k] = (ny > nx || (ny === nx && (y.updatedAt || 0) > (x.updatedAt || 0))) ? y : x;
+    }
+    return JSON.stringify(out);
+  }
+  var MAIN_KEY = PREFIX + 'v1';
   function applyBlob(blob) {
     try {
       Object.keys(blob || {}).forEach(function (k) {
-        if (k.indexOf(PREFIX) === 0) localStorage.setItem(k, blob[k]);
+        if (k.indexOf(PREFIX) !== 0) return;
+        if (k === MAIN_KEY) localStorage.setItem(k, mergeMain(localStorage.getItem(k), blob[k]));
+        else localStorage.setItem(k, blob[k]);
       });
     } catch (e) {}
   }

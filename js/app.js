@@ -18,14 +18,54 @@
   function origQ(n) { return isEn() ? ('Paper Q ' + n) : ('原卷第 ' + n + ' 題'); }
 
   /* ============ 進度 ============ */
-  var state = { stats: {}, wrong: [], last: null };
+  var state = { stats: {}, wrong: [], last: null, drafts: {} };
+  /* 未完成的整卷測驗（2026-09-11）。以卷代碼為 key，只存「做到第幾題、每題選了什麼」，
+     不存題目本身（題本另外動態載入），一份約 300 bytes。
+     最多留 DRAFT_MAX 份（考生常同時刷好幾科），超過就丟最舊的；DRAFT_TTL 天沒碰自動清掉。 */
+  var DRAFT_MAX = 5, DRAFT_TTL = 14 * 86400000;
   function load() {
     try {
       var o = JSON.parse(localStorage.getItem(KEY) || '{}');
       state.stats = o.stats || {}; state.wrong = o.wrong || []; state.last = o.last || null;
+      state.drafts = o.drafts || {};
     } catch (e) {}
+    pruneDrafts();
   }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  function draftDone(d) {
+    var n = 0; (d && d.ans || []).forEach(function (x) { if (x != null) n++; }); return n;
+  }
+  function pruneDrafts() {
+    var now = Date.now(), ids = [];
+    for (var k in state.drafts) {
+      if (!Object.prototype.hasOwnProperty.call(state.drafts, k)) continue;
+      var d = state.drafts[k];
+      if (!d || !d.ans || !draftDone(d) || (now - (d.updatedAt || 0)) > DRAFT_TTL) delete state.drafts[k];
+      else ids.push(k);
+    }
+    if (ids.length > DRAFT_MAX) {
+      ids.sort(function (a, b) { return (state.drafts[b].updatedAt || 0) - (state.drafts[a].updatedAt || 0); });
+      ids.slice(DRAFT_MAX).forEach(function (k) { delete state.drafts[k]; });
+    }
+  }
+  function latestDraft() {
+    var best = null;
+    for (var k in state.drafts) {
+      if (!Object.prototype.hasOwnProperty.call(state.drafts, k)) continue;
+      if (!best || (state.drafts[k].updatedAt || 0) > (best.updatedAt || 0)) best = state.drafts[k];
+    }
+    return best;
+  }
+  function saveDraft() {
+    if (!quiz || quiz.mode !== 'paper' || quiz.done) return;
+    if (!draftDone(quiz)) return;                    // 一題都還沒答就不留紀錄
+    state.drafts[quiz.pid] = { pid: quiz.pid, title: quiz.title, i: quiz.i,
+      ans: quiz.ans.slice(), ok: quiz.ok, total: quiz.qs.length, updatedAt: Date.now() };
+    pruneDrafts(); save();
+  }
+  function clearDraft(pid) {
+    if (pid && state.drafts[pid]) { delete state.drafts[pid]; save(); }
+  }
   load();
 
   /* ============ 小工具 ============ */
@@ -339,7 +379,13 @@
     s3.appendChild(kpis([[t.n.toLocaleString(), T('已作答')],
       [t.n ? t.rate + '%' : '—', T('正確率')], [String(state.wrong.length), T('錯題待複習')]]));
     var br2 = el('div', 'btnrow'); br2.style.marginTop = '12px';
-    if (state.last) br2.appendChild(btn(T('接續上次：') + state.last.label, 'o', null, '#/paper/' + state.last.id));
+    var dr = latestDraft();
+    if (dr) {
+      br2.appendChild(btn(T('接續：') + dr.title + T('（第 ') + ((dr.i || 0) + 1) + T(' 題）'), '',
+        function () { resumeAsked[dr.pid] = 'go'; }, '#/paper/' + dr.pid));
+    } else if (state.last) {
+      br2.appendChild(btn(T('再做一次：') + state.last.label, 'o', null, '#/paper/' + state.last.id));
+    }
     br2.appendChild(btn(T('複習錯題本'), 'o', null, '#/wrong'));
     s3.appendChild(br2); main.appendChild(s3);
 
@@ -551,13 +597,18 @@
   var quiz = null;
 
   var loadingPid = null;
-  function startPaper(id) {
+  function startPaper(id, resume) {
     if (loadingPid === id) return;
     loadingPid = id;
     loadPaper(id, function (p) {
       loadingPid = null;
       if (!p) return toast(T('題本載入失敗，請重新整理再試一次。'));
       quiz = { mode: 'paper', pid: id, title: p.title, qs: p.qs.slice(), i: 0, ans: [], ok: 0 };
+      var d = resume && state.drafts[id];
+      if (d && d.total === quiz.qs.length) {          // 題數對不上代表題本改過，寧可重來
+        quiz.ans = d.ans.slice(); quiz.ok = d.ok || 0;
+        quiz.i = Math.min(d.i || 0, quiz.qs.length - 1);
+      } else clearDraft(id);
       state.last = { id: id, label: p.title }; save();
       render();
     });
@@ -618,6 +669,7 @@
     if (!quiz) { location.hash = '#/'; return; }
     var q = quiz.qs[quiz.i];
     if (!q) return viewResult(main);
+    saveDraft();
     var m = curMeta();
 
     var bar = el('div', 'prog'); var i2 = el('i'); i2.style.width = (quiz.i / quiz.qs.length * 100) + '%';
@@ -723,6 +775,7 @@
   }
 
   function viewResult(main) {
+    if (quiz.mode === 'paper') clearDraft(quiz.pid);
     var done = quiz.ans.filter(function (x) { return x != null; }).length;
     var c = el('div', 'panel'); c.style.padding = '20px';
     c.appendChild(el('h2', null, quiz.title));
@@ -771,6 +824,25 @@
     a.href = link; a.target = '_blank'; a.rel = 'noopener';
     box.appendChild(tx); box.appendChild(a);
     return box;
+  }
+
+  /* 上次沒做完的卷，再進來時先問一次。resumeAsked[pid] = 'go'（接續）或 'new'（重來）。 */
+  var resumeAsked = {};
+  function viewResumeAsk(main, pid, d) {
+    main.appendChild(el('h1', 'pg-h', d.title || T('整卷測驗')));
+    var c = el('div', 'panel'); c.style.padding = '20px';
+    c.appendChild(el('h3', 'ph', T('這一卷還沒做完')));
+    c.appendChild(el('p', null,
+      T('上次做到第 ') + ((d.i || 0) + 1) + T(' 題，已作答 ') + draftDone(d) + ' / ' + d.total + unitQ() + '。'));
+    var row = el('div', 'btnrow');
+    row.appendChild(btn(T('接續作答'), '', function () {
+      resumeAsked[pid] = 'go'; render();
+    }));
+    row.appendChild(btn(T('從第 1 題重新開始'), 'o', function () {
+      resumeAsked[pid] = 'new'; clearDraft(pid); render();
+    }));
+    c.appendChild(row);
+    main.appendChild(c);
   }
 
   /* ============ 錯題本 / 統計 ============ */
@@ -1006,8 +1078,12 @@
     else if (top === 'paper') {
       // 題本是動態載入的，還沒到就先顯示載入中，startPaper 載完會再 render 一次
       if (!quiz || quiz.mode !== 'paper' || quiz.pid !== seg[1] || quiz.done) {
-        startPaper(seg[1]);
-        main.appendChild(el('p', 'lead', T('題本載入中…')));
+        var dft = state.drafts[seg[1]];
+        if (dft && !resumeAsked[seg[1]]) { viewResumeAsk(main, seg[1], dft); }
+        else {
+          startPaper(seg[1], resumeAsked[seg[1]] === 'go');
+          main.appendChild(el('p', 'lead', T('題本載入中…')));
+        }
       } else viewQuiz(main);
     }
     else if (top === 'quiz') viewQuiz(main);

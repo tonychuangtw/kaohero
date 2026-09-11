@@ -67,6 +67,12 @@ const go = async (hash) => {
   await sleep(350);
 };
 const hash = async (h) => { await ev(`location.hash='${h}'`); await sleep(320); };
+/* 2026-09-11 起，上次沒做完的卷再進來會先問「接續 or 重來」。測試一律選重來，
+   免得前面留下的半成品影響後面的斷言。 */
+const BTN = (kw) => `[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('${kw}'))`;
+const dismissResume = async () => {
+  if (await ev(`!!${BTN('從第 1 題重新開始')}`)) { await ev(`${BTN('從第 1 題重新開始')}.click()`); await sleep(300); }
+};
 
 console.log('\n考古英雄 smoke test');
 await go('');
@@ -120,12 +126,14 @@ await hash('#/exam/lawyer');
 ok(await ev('document.querySelectorAll("#main .panel .it").length === 4'), '律師頁列出四個科目');
 const lawPid = await ev(`window.APP_EXAMS.filter(e=>e.exam==='lawyer')[0].id`);
 await hash('#/paper/' + lawPid);
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 ok(await ev('document.querySelectorAll("#main .opt").length === 4'), '律師卷可以作答');
 
 // --- 整卷測驗 ---
 const pid = await ev(`window.APP_EXAMS.filter(e=>e.subj==='med3')[0].id`);
 await hash('#/paper/' + pid);
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 ok(await ev('document.querySelectorAll("#main .opt").length === 4'), '整卷測驗載入並顯示四個選項');
 ok((await ev('document.querySelector("#main .stem").textContent.trim().length')) > 5, '題幹有內容');
@@ -143,6 +151,34 @@ ok(await ev(`document.querySelector('#main .spon-strip a.btn')?.href === (window
    '贊助按鈕指向設定檔裡的連結');
 ok(await ev(`document.querySelector('#main .spon-strip a.btn')?.getBoundingClientRect().height >= 44`),
    '贊助按鈕觸控目標 ≥44px');
+
+// --- 做一半離開，再進來要能接續（2026-09-11） ---
+// 結算頁的 hash 就是 #/paper/<pid>，再導一次還是看到成績；用「再來一輪」重新開卷
+await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('再來一輪')).click()`);
+for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+await ev(`document.querySelectorAll('#main .opt')[0].click()`); await sleep(250);
+await ev(`[...document.querySelectorAll('#main .btn')].find(b=>/下一題|看結果/.test(b.textContent)).click()`);
+await sleep(250);
+ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').drafts||{})['${pid}']?.i === 1`),
+   '離開前作答進度寫進 localStorage');
+await hash('#/'); await sleep(200);
+ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('接續：'))`),
+   '首頁出現接續未完成測驗的按鈕');
+// 真的重新載入文件（Page.navigate 只換 hash 不會重載），模擬隔天再打開：quiz 只活在記憶體
+await hash('#/paper/' + pid);
+await ev('location.reload()');
+for (let i = 0; i < 120; i++) { await sleep(100); if (await ev('document.readyState === "complete"')) break; }
+await sleep(400);
+ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('接續作答'))`),
+   '重新開啟後再進同一卷會先問接續或重來');
+await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('接續作答')).click()`);
+for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+ok((await ev(`document.querySelector('#main .qmeta span').textContent`)).includes('第 2 /'),
+   '接續後回到上次停下的題號');
+await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('結束')).click()`);
+await sleep(300);
+ok(await ev(`!(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').drafts||{})['${pid}']`),
+   '看過成績後未完成紀錄被清掉');
 
 // --- 送分題 ---
 const vp = await ev(`(async()=>{ for (const e of window.APP_EXAMS) {
@@ -173,6 +209,7 @@ ok(await ev(`window.APP_EXAMS.every(e=>typeof e.exp==='number' && e.exp<=e.n)`),
 ok(await ev(`window.APP_EXAM_PAPERS['doc-115-2-med1'].qs.filter(q=>q.exp).every(q=>q.exp.indexOf('📚')>=0)`),
    '每則詳解都附出處');
 await hash('#/paper/doc-115-2-med1');
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 await ev(`document.querySelectorAll('#main .opt')[0].click()`); await sleep(250);
 ok((await ev(`document.querySelector('#main .fb')?.textContent || ''`)).includes('📚'), '作答後看得到詳解與出處');
@@ -221,6 +258,7 @@ ok((await ev(`document.getElementById('main').textContent`)).includes('Others gi
 ok((await ev(`document.querySelector('.ft').textContent`)).includes('About Kaohero'), '頁尾也變成英文');
 // 題目內容不翻譯
 await hash('#/paper/doc-115-2-med1');
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 ok(/[\u4e00-\u9fff]/.test(await ev(`document.querySelector('#main .stem').textContent`)), '英文模式下題幹仍是中文原文');
 ok((await ev(`document.getElementById('main').textContent`)).includes('Q 1 /'), '英文模式的題號是英文格式');
@@ -249,6 +287,7 @@ ok(await ev(`window.KH_CONFIG && !!window.KH_CONFIG.API_BASE && window.KH_CONFIG
 
 // 答完一題之後有「回報這題」，點下去會開對話框
 await hash('#/paper/doc-115-2-med1');
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 await ev(`document.querySelector('#main .opt').click()`); await sleep(200);
 ok(await ev(`!!document.querySelector('.rp-link')`), '答題後出現回報入口');
@@ -280,6 +319,7 @@ for (const [h, name] of [['#/', '首頁'], ['#/exams', '題庫總覽'], ['#/wron
 }
 // 作答畫面與回報對話框也要塞得下
 await hash('#/paper/doc-115-2-med1');
+await dismissResume();
 for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
 ok(await ev(`document.documentElement.scrollWidth - window.innerWidth <= 1`), '360px 寬時作答畫面不橫向溢出');
 ok(await ev(`document.querySelector('#main .opt').getBoundingClientRect().height >= 44`),
