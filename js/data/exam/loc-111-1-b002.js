@@ -27,7 +27,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "涉及計程車駕駛人主觀資格要件之限制"
    ],
    "a": 0,
-   "exp": "✅ (A) 錯誤在此。釋字第 749 號審查的是計程車駕駛人的工作權與一般行為自由，駕駛執照並非財產權的客體，該號未認定侵害財產權。\n❌ (B) 正確。吊銷駕照併及於一般行為自由。\n❌ (C) 正確。限制其以駕駛計程車為業，涉及工作權。\n❌ (D) 正確。以有無特定前科為條件，屬主觀資格要件的限制。\n📚 出處：司法院釋字第 749 號解釋"
+   "exp": "✅ (A) 此項錯誤：釋字第 749 號認吊銷計程車駕駛執照限制的是憲法第 15 條的工作權與第 22 條的一般行為自由，並未以財產權為審查標的。\n❌ (B) 敘述正確，吊銷駕照同時限制一般行為自由。\n❌ (C) 敘述正確，計程車駕駛以此為業，涉及工作權。\n❌ (D) 敘述正確，屬對執業主觀資格要件的限制。\n📚 出處：司法院釋字第 749 號解釋。"
   },
   {
    "n": 2,
@@ -41,7 +41,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "基本國策規定之效力，應視規範事務之內容而定"
    ],
    "a": 3,
-   "exp": "✅ (D) 基本國策的條款性質不一，有方針條款、憲法委託、制度性保障與公法上權利等類型，其效力應視所規範事務的內容而定。\n❌ (A) 方針條款並無直接的強制效力。\n❌ (B) 憲法委託與制度性保障條款對立法者具拘束力，非僅建議。\n❌ (C) 效力取決於條款性質，不是全由立法者自由決定。\n📚 出處：憲法第十三章；司法院釋字第 472、485、550 號解釋"
+   "exp": "✅ (D) 基本國策的規定性質不一，有的是方針條款、有的是憲法委託、有的具制度性保障或可直接主張的權利，其效力應依規範事務的內容個別判斷。\n❌ (A) 並非一律具有強制效力。\n❌ (B) 亦非全然只是建議。\n❌ (C) 效力的判斷不完全委諸立法形成。\n📚 出處：憲法基本國策；司法院釋字第 472 號、第 550 號解釋。"
   },
   {
    "n": 3,
@@ -55,7 +55,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "監察院院長"
    ],
    "a": 3,
-   "exp": "✅ (D) 釋字第 461 號指出，憲法第 67 條所稱的政府人員不包括監察院院長等其他憲法機關的成員，監察院院長得不受邀請至立法院委員會備詢。\n❌ (A) 國防大學校長屬行政院所屬機關人員，有備詢義務。\n❌ (B) 各部會次長同樣負有備詢義務。\n❌ (C) 該號明白指出參謀總長有應邀說明的義務。\n📚 出處：憲法第 67 條；司法院釋字第 461 號解釋"
+   "exp": "✅ (D) 釋字第 461 號指出五院院長及院會成員基於憲政體制，並無應邀至立法院委員會備詢的義務。\n❌ (A) 軍事院校校長屬應邀備詢的範圍。\n❌ (B) 部會的政務次長應到會備詢。\n❌ (C) 參謀總長依該解釋應到立法院委員會備詢。\n📚 出處：司法院釋字第 461 號解釋。"
   },
   {
    "n": 4,
@@ -69,7 +69,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "國家主權屬於國民全體"
    ],
    "a": 0,
-   "exp": "✅ (A) 錯誤在此。政黨比例代表制只是選制的一種選擇，民主國原則並未要求必須採行；少數的保障主要靠基本權保障與多元參與，而非特定選制。\n❌ (B) 正確。民主常以多數決作成決定。\n❌ (C) 正確。保障政治言論使今日少數有機會成為明日多數（釋字第 445 號）。\n❌ (D) 正確。國民主權是民主原則的核心（憲法第 2 條）。\n📚 出處：憲法第 2 條；司法院釋字第 445、721 號解釋"
+   "exp": "✅ (A) 此項錯誤：政黨比例代表制只是選舉制度的一種設計選擇，並非民主國原則所必然要求；保障少數的方式尚有言論自由、違憲審查等多種途徑。\n❌ (B) 敘述正確，民主常以多數決作成決定。\n❌ (C) 敘述正確，保障政治自由使少數有轉為多數的可能。\n❌ (D) 敘述正確，國民主權是民主國原則的核心。\n📚 出處：憲法第 2 條；民主國原則。"
   },
   {
    "n": 5,
@@ -83,7 +83,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "宗教信仰之自由保障範圍包含宗教結社之自由，僅能受相對之保障"
    ],
    "a": 2,
-   "exp": "✅ (C) 錯誤在此。釋字第 490 號指出，內在信仰之自由受絕對保障，宗教行為之自由與宗教結社之自由則僅受相對保障，得依法限制。\n❌ (A) 正確。宗教自由受憲法保障，同時亦受憲法規範。\n❌ (B) 正確。內在信仰受絕對保障。\n❌ (D) 正確。宗教結社自由只受相對保障。\n📚 出處：憲法第 13 條；司法院釋字第 490 號解釋"
+   "exp": "✅ (C) 此項錯誤：釋字第 490 號區分內在信仰與外在行為，宗教「行為」自由與宗教結社自由僅受相對保障，得依法限制。\n❌ (A) 敘述正確，宗教自由受憲法保障同時亦受憲法規範。\n❌ (B) 敘述正確，內在信仰自由受絕對保障。\n❌ (D) 敘述正確，宗教結社自由受相對保障。\n📚 出處：司法院釋字第 490 號解釋。"
   },
   {
    "n": 6,
@@ -97,7 +97,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "禁制區內得禁止集會遊行"
    ],
    "a": 0,
-   "exp": "✅ (A) 錯誤在此。釋字第 718 號宣告緊急性、偶發性集會一律須事先申請許可的規定違憲，故室外集會遊行並非一律須事先申請。\n❌ (B) 正確。限制集會自由須符合法律保留與比例原則。\n❌ (C) 正確。時間、地點、方式的限制原則上屬立法形成範圍。\n❌ (D) 正確。為維護重要機關功能，禁制區內得禁止集會遊行。\n📚 出處：司法院釋字第 445、718 號解釋；集會遊行法第 6 條"
+   "exp": "✅ (A) 此項錯誤：釋字第 718 號指出緊急性及偶發性集會遊行一律要求事前申請許可，已違反比例原則，故非「一律」須事先申請。\n❌ (B) 敘述正確，限制集會自由須符合法律保留與比例原則。\n❌ (C) 敘述正確，時間、地點、方式的限制原則上屬立法形成範圍。\n❌ (D) 敘述正確，禁制區內得予禁止。\n📚 出處：司法院釋字第 445 號、第 718 號解釋。"
   },
   {
    "n": 7,
@@ -111,7 +111,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "生存權"
    ],
    "a": 1,
-   "exp": "✅ (B) 釋字第 694 號認為，以受扶養的其他親屬或家屬「未滿二十歲或滿六十歲以上」為免稅額要件，對其他年齡而確受扶養者形成差別待遇，欠缺正當理由，違反憲法第 7 條平等權。\n❌ (A) 該號不涉及職業的選擇或執行。\n❌ (C) 雖影響稅負，但違憲的理由是差別待遇。\n❌ (D) 也不是生存權的問題。\n📚 出處：司法院釋字第 694 號解釋"
+   "exp": "✅ (B) 釋字第 694 號認為以「未滿 20 歲或滿 60 歲以上」的年齡限制排除其他確受扶養親屬的免稅額，形成無正當理由的差別待遇，違反憲法第 7 條平等權。\n❌ (A) 該規定未限制職業選擇。\n❌ (C) 免稅額的給予與否非財產權的核心爭點。\n❌ (D) 亦非生存權的保障問題。\n📚 出處：司法院釋字第 694 號解釋。"
   },
   {
    "n": 8,
@@ -125,7 +125,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "契約自由"
    ],
    "a": 2,
-   "exp": "✅ (C) 維持符合人性尊嚴的基本生活所需費用不得課稅，是為確保納稅者最低限度的生存條件，屬憲法第 15 條生存權的保障。\n❌ (A) 工作權保障職業的選擇與執行。\n❌ (B) 財產權雖受影響，但該條的規範目的在於生存保障。\n❌ (D) 契約自由與課稅無關。\n📚 出處：憲法第 15 條；納稅者權利保護法第 4 條"
+   "exp": "✅ (C) 維持自己及受扶養親屬符合人性尊嚴的基本生活所需費用不得課稅，其憲法依據是生存權的保障。\n❌ (A) 工作權保障的是職業選擇與執行的自由。\n❌ (B) 財產權著重既有財產的保有與使用。\n❌ (D) 契約自由屬私法自治的範疇。\n📚 出處：納稅者權利保護法第 4 條；憲法第 15 條。"
   },
   {
    "n": 9,
@@ -139,7 +139,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "受國民教育以外教育之權利，包括賦予人民請求給予入學許可之權利"
    ],
    "a": 2,
-   "exp": "✅ (C) 釋字第 626 號指出，人民受「國民教育以外教育」的權利，屬憲法第 22 條所保障的基本權利。\n❌ (A) 憲法第 21 條明定受國民教育既是權利也是義務。\n❌ (B) 國民教育義務與父母的教養權並行不悖，不生侵害問題。\n❌ (D) 該權利不包括請求准予入學的給付請求權。\n📚 出處：憲法第 21、22 條；司法院釋字第 626 號解釋"
+   "exp": "✅ (C) 受國民教育「以外」教育的權利，憲法未明文列舉，屬第 22 條所保障的其他自由權利。\n❌ (A) 憲法第 21 條明定人民有受國民教育之「權利」與義務。\n❌ (B) 國民教育義務與父母教養權並不衝突，而是相互配合。\n❌ (D) 該權利不包括請求給予入學許可的給付請求權。\n📚 出處：憲法第 21 條、第 22 條；司法院釋字第 626 號、第 684 號解釋。"
   },
   {
    "n": 10,
@@ -153,7 +153,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "立法者所採取之手段，就目的之達成言，尚非必要"
    ],
    "a": 1,
-   "exp": "✅ (B) 「意義得由適當組成的專業機構認定判斷並可經司法審查確認」是法律明確性原則的三項標準之一，不是比例原則的操作。\n❌ (A) 是比例原則。必要性（侵害最小）的審查。\n❌ (C) 是比例原則。狹義比例（損益相稱）的權衡。\n❌ (D) 是比例原則。手段對目的而言並非必要。\n📚 出處：憲法第 23 條；司法院釋字第 432、799 號解釋"
+   "exp": "✅ (B) 該敘述檢驗的是規範意義能否由專業機構認定並經司法審查確認，屬「法律明確性原則」的判斷標準，不是比例原則的操作。\n❌ (A) 「侵害最小之不得已方法」是必要性原則的操作。\n❌ (C) 「損益相稱、謀求最大均衡」是狹義比例原則的操作。\n❌ (D) 「就目的之達成尚非必要」同屬必要性原則的審查。\n📚 出處：憲法第 23 條；司法院釋字第 432 號、第 799 號解釋。"
   },
   {
    "n": 11,
@@ -167,7 +167,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "總統在位期間之刑事豁免權不及於在他人之案件擔任證人作證之義務"
    ],
    "a": 3,
-   "exp": "✅ (D) 釋字第 627 號指出，總統的刑事豁免權不及於在他人刑事案件中作證的義務，僅就國家機密事項有拒絕證言權。\n❌ (A) 豁免僅限刑事訴究，不及於民事責任。\n❌ (B) 豁免是任職期間的暫時性程序障礙，卸任後即不適用。\n❌ (C) 恰好相反：除內亂、外患罪外，其餘罪名於任職期間均不受訴究。\n📚 出處：憲法第 52 條；司法院釋字第 388、627 號解釋"
+   "exp": "✅ (D) 釋字第 627 號指出總統的刑事豁免權僅及於對其本人的刑事訴究，不及於在他人案件中作證的義務。\n❌ (A) 豁免不及於民事上的損害賠償責任。\n❌ (B) 豁免僅限於在職期間，卸任後即回復一般追訴。\n❌ (C) 內亂、外患罪正是豁免的「例外」，仍得追訴，其餘犯罪才暫緩訴究。\n📚 出處：憲法第 52 條；司法院釋字第 627 號解釋。"
   },
   {
    "n": 12,
@@ -181,7 +181,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "行政院院長生病請假時"
    ],
    "a": 0,
-   "exp": "✅ (A) 憲法第 55 條第 2 項的體例下，行政院院長辭職或出缺時，在總統未任命新院長前，由行政院副院長暫行代理。\n❌ (B) 修憲後院長的任命已不須立法院同意。\n❌ (C) 立法院休會期間的召集程序已隨修憲刪除。\n❌ (D) 院長請假時由副院長代行職務，屬內部代理，不是本條所定的「暫行代理」。\n📚 出處：憲法第 55 條；憲法增修條文第 3 條"
+   "exp": "✅ (A) 增修條文規定行政院院長辭職或出缺時，在總統未任命新院長前，由行政院副院長暫行代理。\n❌ (B) 現行制度下行政院院長的任命無須立法院同意。\n❌ (C) 立法院休會與代理無關。\n❌ (D) 院長請假時由副院長代行職務，屬一般的職務代理，非本條所定的「暫行代理」。\n📚 出處：憲法增修條文第 3 條第 1 項。"
   },
   {
    "n": 13,
@@ -195,7 +195,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "法院"
    ],
    "a": 2,
-   "exp": "✅ (C) 地方自治保障案件的聲請人是「地方自治團體」（由其立法或行政機關為之），區長個人並非憲法訴訟法所定的聲請人。\n❌ (A) 總統為國家最高機關，得為聲請人。\n❌ (B) 政黨在政黨違憲解散案件中為當事人，亦得以人民地位聲請。\n❌ (D) 法院得依第 55 條聲請法規範憲法審查。\n📚 出處：憲法訴訟法第 47、55、59、77、82、83 條"
+   "exp": "✅ (C) 憲法訴訟法所定的聲請人包括國家最高機關、機關、立法委員、法院、人民、政黨及地方自治團體的立法或行政「機關」；區長個人並非得聲請的主體。\n❌ (A) 總統得為聲請人。\n❌ (B) 政黨於違憲政黨解散等程序中為當事人。\n❌ (D) 法院於裁判停止程序時得聲請法規範憲法審查。\n📚 出處：憲法訴訟法第 47 條、第 55 條、第 59 條、第 65 條、第 77 條、第 82 條、第 83 條。"
   },
   {
    "n": 14,
@@ -209,7 +209,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "立法委員於會期開始前或會期中被逮捕，經立法院請求，逮捕、拘禁機關應立即予以釋放"
    ],
    "a": 0,
-   "exp": "✅ (A) 錯誤在此。憲法增修條文第 4 條第 8 項規定，立法委員除現行犯外，「在會期中」非經立法院許可不得逮捕或拘禁，並非不限於會期中。\n❌ (B) 正確。主要指刑事案件的逮捕拘禁。\n❌ (C) 正確。此特權為維護國會功能而設，屬機關利益，不得由委員個人拋棄（釋字第 435 號意旨）。\n❌ (D) 正確。經立法院請求者，逮捕拘禁機關應即釋放。\n📚 出處：憲法增修條文第 4 條；司法院釋字第 435 號解釋"
+   "exp": "✅ (A) 此項錯誤：立法委員的不受逮捕特權限於「會期中」，非會期期間並不享有。\n❌ (B) 敘述正確，主要指刑事案件的逮捕拘禁。\n❌ (C) 敘述正確，該特權屬憲法保障的制度，非個人得拋棄的權利。\n❌ (D) 敘述正確，經立法院請求應立即釋放。\n📚 出處：憲法增修條文第 4 條第 8 項；司法院釋字第 435 號解釋。"
   },
   {
    "n": 15,
@@ -223,7 +223,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "由臺南市政府逕依地方制度法第 30 條第 5 項聲請釋憲"
    ],
    "a": 0,
-   "exp": "✅ (A) 憲法訴訟法第 83 條規定，地方自治團體的自治法規經監督機關函告無效，於用盡審級救濟而受不利確定終局裁判後，得聲請憲法法庭為宣告違憲之判決。\n❌ (B) 現行制度已無逕依地方制度法聲請釋憲的途徑。\n❌ (C) 統一解釋的客體是不同機關就法令見解的歧異。\n❌ (D) 同 B，須循憲法訴訟法的程序。\n📚 出處：憲法訴訟法第 82、83 條；地方制度法第 30 條"
+   "exp": "✅ (A) 自治法規經監督機關函告無效者，依憲法訴訟法第 83 條由該地方自治團體的立法或行政機關聲請憲法法庭判決。\n❌ (B) 地方制度法第 30 條第 5 項的聲請解釋途徑已為憲法訴訟法所取代。\n❌ (C) 統一解釋的要件與本件不符。\n❌ (D) 同樣不得再逕依地方制度法聲請釋憲。\n📚 出處：憲法訴訟法第 83 條；地方制度法第 30 條。"
   },
   {
    "n": 16,
@@ -237,7 +237,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "道路交通管理處罰條例"
    ],
    "a": 3,
-   "exp": "✅ (D) 道路交通管理處罰條例是經立法院通過、總統公布的「法律」，位階高於命令與地方自治法規。\n❌ (A) 自治條例的位階低於法律。\n❌ (B) 「辦法」是法規命令，位階低於法律。\n❌ (C) 「管理辦法」是地方自治規則，位階更低。\n📚 出處：憲法第 170、172 條；中央法規標準法第 11 條；地方制度法第 30 條"
+   "exp": "✅ (D) 道路交通管理處罰條例經立法院三讀、總統公布，屬「法律」，位階高於各種命令與自治法規。\n❌ (A) 自治條例的位階低於法律。\n❌ (B) 辦法屬法規命令。\n❌ (C) 地方政府訂定的管理辦法屬自治規則。\n📚 出處：中央法規標準法第 2 條、第 5 條；地方制度法第 30 條。"
   },
   {
    "n": 17,
@@ -251,7 +251,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "民法之變遷與釋憲實務並無關聯"
    ],
    "a": 3,
-   "exp": "✅ (D) 錯誤在此。釋憲實務對民法的影響甚鉅（如子女姓氏、夫妻住所、通姦除罪、同性婚姻等），民法的變遷與釋憲實務關係密切。\n❌ (A) 正確。我國民法典主要以德國民法為範本。\n❌ (B) 正確。近年民法有回應本土社會需求的在地化趨勢。\n❌ (C) 正確。消費者保護法等特別民法帶有美國法色彩。\n📚 出處：司法院釋字第 365、410、748 號解釋；臺灣法律繼受史"
+   "exp": "✅ (D) 此項錯誤：民法的變遷與釋憲實務關係密切，如夫妻財產制、子女姓氏、同性婚姻等，都是經大法官解釋而推動修法。\n❌ (A) 敘述正確，我國民法典主要繼受德國法。\n❌ (B) 敘述正確，民法在適用中逐步在地化。\n❌ (C) 敘述正確，消費者保護法等特別民法明顯繼受美國法。\n📚 出處：民法學說史；司法院釋字第 365 號、第 748 號解釋。"
   },
   {
    "n": 18,
@@ -265,7 +265,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "基於法律授權之法規"
    ],
    "a": 3,
-   "exp": "✅ (D) 基於法律授權訂定的法規命令，位階高於地方自治法規；地方制度法第 30 條明定自治條例與「基於法律授權之法規」牴觸者無效。\n❌ (A) 自治條例低於法律及法律授權的法規。\n❌ (B) 自治規則又低於自治條例。\n❌ (C) 委辦規則同屬地方法規，位階低於中央法規命令。\n📚 出處：地方制度法第 30 條；中央法規標準法第 11 條"
+   "exp": "✅ (D) 基於法律授權訂定的中央法規（法規命令）位階高於地方的自治條例、自治規則與委辦規則。\n❌ (A) 自治條例不得牴觸基於法律授權之法規。\n❌ (B) 自治規則位階更低。\n❌ (C) 委辦規則同樣不得牴觸中央法規。\n📚 出處：地方制度法第 30 條。"
   },
   {
    "n": 19,
@@ -279,7 +279,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "因公益之必要而廢止行政法規"
    ],
    "a": 2,
-   "exp": "✅ (C) 法規因明顯違反上位規範而停止適用者，人民對該違法法規的信賴本不值得保護，不生信賴保護問題（釋字第 525 號）。\n❌ (A) 涉及。撤銷授益處分應斟酌信賴保護（行政程序法第 117、120 條）。\n❌ (B) 涉及。廢止授益處分亦有信賴補償的問題（第 126 條）。\n❌ (D) 涉及。法規因公益廢止時應有過渡條款或補救措施。\n📚 出處：行政程序法第 117、120、126 條；司法院釋字第 525 號解釋"
+   "exp": "✅ (C) 行政法規因明顯牴觸上位規範而停止適用者，該法規自始即不具正當性，人民對其存續的信賴不值得保護。\n❌ (A) 撤銷授益處分須衡量受益人的信賴利益。\n❌ (B) 因事實變更而廢止授益處分，涉及信賴補償。\n❌ (D) 因公益必要而廢止法規，同樣須顧及信賴保護。\n📚 出處：行政程序法第 117 條至第 126 條；司法院釋字第 525 號解釋。"
   },
   {
    "n": 20,
@@ -293,7 +293,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "目的性擴張"
    ],
    "a": 3,
-   "exp": "✅ (D) 將文義上未必涵蓋的膠原蛋白燕窩飲料納入「清涼飲料」而課稅，是依規範目的（量能課稅）把規定擴及文義射程之外的事項，屬目的性擴張。\n❌ (A) 文義解釋限於文字通常意義的範圍內。\n❌ (B) 體系解釋著眼於條文在法秩序中的地位。\n❌ (C) 目的性限縮是把文義所及者排除在外，方向相反。\n📚 出處：司法院釋字第 697 號解釋；法學方法論"
+   "exp": "✅ (D) 依立法目的與量能課稅原則，把文義上未必涵蓋的高價飲品也納入「清涼飲料」的課稅範圍，是將規範適用範圍擴及文義之外，屬目的性擴張。\n❌ (A) 文義解釋不逾越文字可能的意義範圍。\n❌ (B) 體系解釋著眼於法條在整部法律中的位置與關聯。\n❌ (C) 目的性限縮是把文義涵蓋者排除於適用之外，方向相反。\n📚 出處：法學方法論；司法院釋字第 697 號解釋。"
   },
   {
    "n": 21,
@@ -307,7 +307,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "信賴保護原則"
    ],
    "a": 1,
-   "exp": "✅ (B) 換發行車執照與是否繳清罰鍰欠缺實質上的內在關聯，以繳清罰鍰作為換照條件，違反不當聯結禁止原則。\n❌ (A) 行政自我拘束處理的是行政先例與平等對待。\n❌ (C) 權力分立處理機關間的權限分配。\n❌ (D) 信賴保護處理法秩序變動的既得利益。\n📚 出處：行政程序法第 94 條；行政法院實務見解"
+   "exp": "✅ (B) 換發行車執照與是否繳清交通違規罰鍰之間欠缺實質關聯，以未繳罰鍰為由拒絕換照，違反不當聯結禁止原則。\n❌ (A) 行政自我拘束處理的是行政慣例的平等適用。\n❌ (C) 權力分立規範的是機關之間的權限關係。\n❌ (D) 信賴保護保障人民對行政行為的正當信賴。\n📚 出處：行政程序法第 94 條；司法院釋字第 588 號解釋意旨。"
   },
   {
    "n": 22,
@@ -337,7 +337,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "刑法第 125 條之濫權追訴處罰罪"
    ],
    "a": 2,
-   "exp": "✅ (C) 甲藉執行職務之便毆傷乙，成立刑法第 277 條普通傷害罪，並依第 134 條公務員假借職務上權力機會故意犯罪的規定加重其刑至二分之一。\n❌ (A) 甲並未剝奪乙的行動自由，不成立私行拘禁罪。\n❌ (B) 第 126 條的凌虐人犯罪，客體須是依法逮捕拘禁的人犯。\n❌ (D) 第 125 條的濫權追訴處罰罪，須有追訴或處罰職務的公務員為取供或濫權而為。\n📚 出處：刑法第 125、126、134、277、302 條"
+   "exp": "✅ (C) 毆打成傷成立刑法第 277 條傷害罪；甲係公務員假借職務上之權力、機會或方法而犯罪，依第 134 條加重其刑至二分之一。\n❌ (A) 本件並無剝奪行動自由的私行拘禁行為。\n❌ (B) 凌虐人犯罪的對象限於依法逮捕拘禁的人犯。\n❌ (D) 濫權追訴處罰罪的主體為有追訴或處罰犯罪職務的公務員，且須濫用追訴處罰權。\n📚 出處：刑法第 134 條、第 277 條。"
   },
   {
    "n": 24,
@@ -351,7 +351,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "應以乙為著作人，但著作財產權歸甲享有"
    ],
    "a": 1,
-   "exp": "✅ (B) 著作權法第 11 條規定，受雇人於職務上完成之著作，未約定者以「受雇人」為著作人，其著作財產權則歸「雇用人」享有。\n❌ (A) 著作財產權歸乙，不歸甲。\n❌ (C) 未約定者不以雇用人為著作人。\n❌ (D) 著作人與著作財產權的歸屬恰好顛倒。\n📚 出處：著作權法第 11 條"
+   "exp": "✅ (B) 受雇人於職務上完成的著作，未約定者以「受雇人」為著作人，但著作財產權歸「雇用人」享有。\n❌ (A) 著作財產權歸雇用人而非受雇人。\n❌ (C) 未約定時不以雇用人為著作人。\n❌ (D) 著作人與著作財產權的歸屬恰好相反。\n📚 出處：著作權法第 11 條。"
   },
   {
    "n": 25,
@@ -365,7 +365,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "兩種給付可以一起領取，不得主張抵充"
    ],
    "a": 2,
-   "exp": "✅ (C) 勞動基準法第 59 條但書規定，雇主已依勞工保險條例等由雇主支付費用補償者，得予以抵充。\n❌ (A) 兩者性質不同，並非只能擇一。\n❌ (B) 領取勞保給付不排除勞基法補償，只是得抵充。\n❌ (D) 雇主得主張抵充，不是不得抵充。\n📚 出處：勞動基準法第 59 條；勞工保險條例"
+   "exp": "✅ (C) 勞動基準法第 59 條但書明定，同一事故依勞工保險等法令已由雇主支付費用補償者，雇主得予抵充。\n❌ (A) 兩者並非擇一，而是可先領勞保給付再由雇主補足差額。\n❌ (B) 勞保給付不足時仍應依勞基法補足。\n❌ (D) 雇主得就已支付費用的部分主張抵充。\n📚 出處：勞動基準法第 59 條。"
   },
   {
    "n": 26,
@@ -379,7 +379,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "法律之施行區域，不得授權以命令特定之"
    ],
    "a": 1,
-   "exp": "✅ (B) 中央法規標準法第 13 條規定，法規明定自公布或發布日施行者，自公布或發布之日起算至第三日起發生效力。\n❌ (A) 第 14 條允許以命令特定施行日期。\n❌ (C) 特定有施行日期者，自該特定日起發生效力，不再加算三日。\n❌ (D) 第 15 條允許法規特定施行區域，並得以命令特定之。\n📚 出處：中央法規標準法第 13、14、15 條"
+   "exp": "✅ (B) 法規明定自發布日施行者，自發布之日起算至第 3 日起發生效力。\n❌ (A) 法律的施行日期得授權以命令定之。\n❌ (C) 特定有施行日期者，自該特定日起發生效力，不再另算 3 日。\n❌ (D) 施行區域同樣得授權以命令特定。\n📚 出處：中央法規標準法第 12 條至第 15 條。"
   },
   {
    "n": 27,
@@ -393,7 +393,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "會員非經會首及會員全體之同意，不得退會"
    ],
    "a": 2,
-   "exp": "✅ (C) 錯誤在此。民法第 709 條之 6 規定首期合會金不經投標，由「會首」取得，其餘各期才由得標會員取得。\n❌ (A) 正確。第 709 條之 2，會首及會員以自然人為限。\n❌ (B) 正確。會首不得兼為同一合會的會員。\n❌ (D) 正確。第 709 條之 5，會員非經會首及會員全體同意不得退會。\n📚 出處：民法第 709 條之 1 至 709 條之 6"
+   "exp": "✅ (C) 此項錯誤：首期合會金不經投標，由「會首」取得，其餘各期才由得標會員取得。\n❌ (A) 敘述正確，會首及會員以自然人為限。\n❌ (B) 敘述正確，會首不得兼為同一合會的會員。\n❌ (D) 敘述正確，會員非經會首及會員全體同意不得退會。\n📚 出處：民法第 709 條之 1 至第 709 條之 9。"
   },
   {
    "n": 28,
@@ -407,7 +407,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "涉及人民基本權利保障重大事項的給付行政措施，原則上仍應有法律或法律明確授權為依據"
    ],
    "a": 3,
-   "exp": "✅ (D) 釋字第 443 號的層級化法律保留：涉及人民基本權利保障重大事項的給付行政，原則上仍應有法律或法律明確授權的命令為依據。\n❌ (A) 給付行政並非完全不受法律保留拘束。\n❌ (B) 僅有預算授權不足以取代法律保留。\n❌ (C) 「僅得以法律」過於絕對，法律明確授權的命令亦可。\n📚 出處：司法院釋字第 443 號解釋"
+   "exp": "✅ (D) 依層級化法律保留理論，給付行政措施若涉及人民基本權利保障的重大事項，原則上仍應有法律或法律明確授權的依據。\n❌ (A) 給付行政並非完全免於法律保留。\n❌ (B) 僅有預算授權未必足夠。\n❌ (C) 重大事項未必都須以法律「自行」規定，法律明確授權亦可。\n📚 出處：司法院釋字第 443 號、第 614 號解釋。"
   },
   {
    "n": 29,
@@ -421,7 +421,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "夫妻之一方有重大不治之精神病"
    ],
    "a": 2,
-   "exp": "✅ (C) 民法第 1052 條第 1 項第 4 款所定的是「夫妻之一方對他方之直系親屬為虐待，或夫妻一方之直系親屬對他方為虐待」，並不包括旁系親屬。\n❌ (A) 是法定事由。第 1 項第 2 款與配偶以外之人合意性交。\n❌ (B) 是法定事由。第 3 款不堪同居之虐待。\n❌ (D) 是法定事由。第 8 款重大不治之精神病。\n📚 出處：民法第 1052 條"
+   "exp": "✅ (C) 法定事由為「夫妻之一方對他方之直系親屬為虐待，或夫妻一方之直系親屬對他方為虐待」；旁系親屬的虐待不在列舉之內。\n❌ (A) 與配偶以外之人合意性交為法定事由。\n❌ (B) 對他方為不堪同居之虐待為法定事由。\n❌ (D) 重大不治之精神病為法定事由。\n📚 出處：民法第 1052 條。"
   },
   {
    "n": 30,
@@ -435,7 +435,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "分別財產制"
    ],
    "a": 2,
-   "exp": "✅ (C) 聯合財產制是民國 74 年以前的舊法定財產制，已於 91 年夫妻財產制修法時廢止，現行民法並無此制。\n❌ (A) 是現行制度。未約定者適用法定財產制。\n❌ (B) 是現行制度。約定財產制之一（第 1031 條）。\n❌ (D) 是現行制度。約定財產制之一（第 1044 條）。\n📚 出處：民法第 1004、1005、1031、1044 條"
+   "exp": "✅ (C) 聯合財產制已於 74 年、86 年修法後改為現行的「法定財產制」，不再是現行的夫妻財產制類型。\n❌ (A) 法定財產制為現行制度。\n❌ (B) 共同財產制為現行的約定財產制之一。\n❌ (D) 分別財產制為現行的約定財產制之一。\n📚 出處：民法第 1004 條至第 1048 條。"
   },
   {
    "n": 31,
@@ -449,7 +449,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "in terms of"
    ],
    "a": 2,
-   "exp": "✅ (C) regardless of 意為「不論」，不論是誰寄來的，都不要打開標題為 POSTCARD 的附件。\n❌ (A) instead of 是取代。\n❌ (B) in relation to 是關於。\n❌ (D) in terms of 是就……而言。\n📚 出處：英文片語（regardless of）"
+   "exp": "✅ (C) regardless of 意為「不論、不管」，符合「不論是誰寄給你的都不要開啟」的語意。\n❌ (A) instead of 意為「而非、取代」。\n❌ (B) in relation to 意為「與⋯⋯有關」。\n❌ (D) in terms of 意為「就⋯⋯而言」。\n📚 出處：英文片語。"
   },
   {
    "n": 32,
@@ -463,7 +463,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "recreation"
    ],
    "a": 1,
-   "exp": "✅ (B) recession 意為「後退、消退」，全球暖化使北極冰牆呈現持續消退的趨勢。\n❌ (A) reception 是接待、接收。\n❌ (C) recognition 是辨認、承認。\n❌ (D) recreation 是娛樂。\n📚 出處：英文字彙（recession of ice）"
+   "exp": "✅ (B) recession 除指經濟衰退外，亦指（冰川、海岸線等）的後退、消退，符合全球暖化下北極冰牆退縮的語意。\n❌ (A) reception 意為接待、收訊。\n❌ (C) recognition 意為辨識、認可。\n❌ (D) recreation 意為娛樂、再創造。\n📚 出處：英文字彙。"
   },
   {
    "n": 33,
@@ -477,7 +477,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "verified"
    ],
    "a": 0,
-   "exp": "✅ (A) be fueled by 意為「被……煽動、助長」，愈來愈多叫囂式政論節目使選民在選舉季節被非理性所煽動。\n❌ (B) visualized 是被視覺化。\n❌ (C) fulfilled 是被實現、滿足。\n❌ (D) verified 是被證實。\n📚 出處：英文用法（be fueled by）"
+   "exp": "✅ (A) be fueled by 意為「被⋯⋯所煽動、助長」，符合選民受非理性情緒驅動的語意。\n❌ (B) visualize 意為想像、視覺化。\n❌ (C) fulfill 意為實現、履行。\n❌ (D) verify 意為證實、查核。\n📚 出處：英文片語。"
   },
   {
    "n": 34,
@@ -491,7 +491,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "what if"
    ],
    "a": 1,
-   "exp": "✅ (B) despite that 表讓步，雇主雖已預見這起事件的負面影響，仍被迫就七天罷工與員工協商。\n❌ (A) as if 是彷彿。\n❌ (C) so that 表目的或結果。\n❌ (D) what if 是「要是……會怎樣」。\n📚 出處：英文連接詞（讓步子句的表達）"
+   "exp": "✅ (B) despite that 意為「儘管如此」，表示雇主雖已預見負面衝擊，仍被迫進行協商，前後語意為讓步關係。\n❌ (A) as if 表達假設語氣。\n❌ (C) so that 表示目的或結果。\n❌ (D) what if 用於提出假設性問句。\n📚 出處：英文連接詞用法。"
   },
   {
    "n": 35,
@@ -505,7 +505,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "consist"
    ],
    "a": 3,
-   "exp": "✅ (D) consist of 意為「由……組成」，理想的一餐應由肉、飯、豆類與蔬菜等搭配組成。\n❌ (A) regard 須用 regard A as B。\n❌ (B) locate 是使位於。\n❌ (C) accuse 是控告，用 accuse of 但語意不合。\n📚 出處：英文片語（consist of）"
+   "exp": "✅ (D) consist of 意為「由⋯⋯組成」，符合理想餐點應由肉、飯、豆與蔬菜搭配而成的語意。\n❌ (A) regard 常用於 regard A as B。\n❌ (B) locate 意為找出位置。\n❌ (C) accuse 意為指控。\n📚 出處：英文片語。"
   },
   {
    "n": 36,
@@ -519,7 +519,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "submission"
    ],
    "a": 2,
-   "exp": "✅ (C) privilege 意為「殊榮、特權」，Ivan 有幸獲得與巨星在高級餐廳共進晚餐的殊榮。\n❌ (A) dignity 是尊嚴。\n❌ (B) attendance 是出席率。\n❌ (D) submission 是屈服、提交。\n📚 出處：英文字彙（the privilege of）"
+   "exp": "✅ (C) privilege 意為特權、榮幸，與名人共進晚餐是難得的殊榮。\n❌ (A) dignity 意為尊嚴。\n❌ (B) attendance 意為出席（率）。\n❌ (D) submission 意為服從或呈遞。\n📚 出處：英文字彙。"
   },
   {
    "n": 37,
@@ -533,7 +533,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "exert"
    ],
    "a": 0,
-   "exp": "✅ (A) equip A with B 意為「使 A 具備 B」，第二外語可讓你具備理解海外商務運作的能力。\n❌ (B) evade 是迴避。\n❌ (C) erupt 是爆發。\n❌ (D) exert 是施加（影響力）。\n📚 出處：英文句型（equip someone with）"
+   "exp": "✅ (A) equip someone with something 意為「使某人具備某種能力」，符合第二語言賦予理解海外商務的能力。\n❌ (B) evade 意為逃避。\n❌ (C) erupt 意為爆發。\n❌ (D) exert 意為施加（影響、力量）。\n📚 出處：英文動詞搭配。"
   },
   {
    "n": 38,
@@ -547,7 +547,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "hence"
    ],
    "a": 0,
-   "exp": "✅ (A) whereas 意為「然而、反之」，用於對比：第一部分容易，第二部分卻極具挑戰。\n❌ (B) whether 引導名詞子句或讓步子句。\n❌ (C) meanwhile 是副詞，不能連接兩個子句。\n❌ (D) hence 表結果。\n📚 出處：英文連接詞（whereas 的用法）"
+   "exp": "✅ (A) whereas 用於連接語意相對的兩個子句，符合前段簡單、後段極難的對比。\n❌ (B) whether 引導名詞子句表示「是否」。\n❌ (C) meanwhile 是副詞，不能直接連接兩個子句。\n❌ (D) hence 表示因果結果。\n📚 出處：英文連接詞。"
   },
   {
    "n": 39,
@@ -561,7 +561,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "obvious"
    ],
    "a": 0,
-   "exp": "✅ (A) attractive 意為「吸引人的」，泡麵本身看起來不特別可口，廣告卻把它拍得很誘人。\n❌ (B) equal 是相等的。\n❌ (C) individual 是個別的。\n❌ (D) obvious 是明顯的。\n📚 出處：英文字彙（attractive 的字義）"
+   "exp": "✅ (A) attractive 意為吸引人的，與前半句「看起來不怎麼好」形成對比，指廣告把它拍得很誘人。\n❌ (B) equal 意為相等的。\n❌ (C) individual 意為個別的。\n❌ (D) obvious 意為明顯的。\n📚 出處：英文字彙。"
   },
   {
    "n": 40,
@@ -575,7 +575,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
     "sectors請依下文回答第 41 題至第 45 題：We live a fast-paced life. Everything happens quickly nowadays, and efficiency is the key theme of our society."
    ],
    "a": 3,
-   "exp": "✅ (D) the private sector 是「民間部門」的固定用語，與政府部門相對。\n❌ (A) compartments 是隔間。\n❌ (B) eras 是時代。\n❌ (C) partitions 是分隔物。\n📚 出處：英文字彙（the private sector）"
+   "exp": "✅ (D) sector 意為（經濟或社會的）部門，private sector 即「民間部門」，與 government 相對。\n❌ (A) compartment 意為（車廂等的）隔間。\n❌ (B) era 意為時代。\n❌ (C) partition 意為分隔物、分割。\n📚 出處：英文字彙。"
   },
   {
    "n": 41,
@@ -665,7 +665,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    ],
    "psg": "Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to communicate with or find us. Astronomers from Cornell University in the USA combined two existing theories about the possibility of life existing on other planets to form a new equation. One of these theories is the Fermi Paradox described by physicist Enrico Fermi in 1950. This states that while billions of Earth-like planets exist in our galaxy, not one has made contact with Earth yet. The other is the mediocrity principle, which suggests that because there is life on Earth, it will typically exist on Earth-like planets throughout the universe. Study author Evan Solomonides will soon present a research paper on his theory. He said, “We haven’t heard from aliens yet, as space is a big place, but that doesn’t mean no one is out there.” According to Solomonides, extraterrestrials could have received signals from Earth. However, he proposes that ET would not have been able to decipher them. He said they would need to decode the light waves into sounds and analyze 3,000 human languages to understand any messages. He said that signals from Earth have only reached about 8,500 stars and that the Milky Way galaxy alone contains 200 billion stars. He added, “If we stop listening or looking, we may miss the signals. So we should keep looking.”",
    "a": 0,
-   "exp": "✅ (A) 文中說外星人可能已收到來自地球的訊號，但無法解讀——必須把光波解碼成聲音，還要分析三千種人類語言，可見語言解讀的困難才是阻礙。\n❌ (B) 兩千億顆恆星是銀河系的規模，不是歷史。\n❌ (C) 文中未談人類與外星物種的相似性。\n❌ (D) 行星數量是背景數據，不是阻礙的原因。\n📚 出處：本文第三段"
+   "exp": "✅ (A) 文中指出外星人縱使收到地球訊號也無法解讀，必須把光波解碼為聲音並分析 3,000 種人類語言，語言解讀的困難正是阻礙。\n❌ (B) 2,000 億顆恆星說的是銀河系的規模，非阻礙本身。\n❌ (C) 文中未提及人類與外星物種的相似性。\n❌ (D) 行星數量並非文中所指的直接障礙。\n📚 出處：閱讀測驗；細節題。"
   },
   {
    "n": 47,
@@ -680,7 +680,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    ],
    "psg": "Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to communicate with or find us. Astronomers from Cornell University in the USA combined two existing theories about the possibility of life existing on other planets to form a new equation. One of these theories is the Fermi Paradox described by physicist Enrico Fermi in 1950. This states that while billions of Earth-like planets exist in our galaxy, not one has made contact with Earth yet. The other is the mediocrity principle, which suggests that because there is life on Earth, it will typically exist on Earth-like planets throughout the universe. Study author Evan Solomonides will soon present a research paper on his theory. He said, “We haven’t heard from aliens yet, as space is a big place, but that doesn’t mean no one is out there.” According to Solomonides, extraterrestrials could have received signals from Earth. However, he proposes that ET would not have been able to decipher them. He said they would need to decode the light waves into sounds and analyze 3,000 human languages to understand any messages. He said that signals from Earth have only reached about 8,500 stars and that the Milky Way galaxy alone contains 200 billion stars. He added, “If we stop listening or looking, we may miss the signals. So we should keep looking.”",
    "a": 3,
-   "exp": "✅ (D) 康乃爾大學的 Solomonides 提出，外星人需要把光波解碼成聲音，並分析約三千種人類語言，才能理解來自地球的訊息。\n❌ (A) 平庸原理反而主張其他類地行星上也會有生命。\n❌ (B) 文中說的是外星人須將光波解碼，不是他們以光波溝通。\n❌ (C) 訊號只抵達約八千五百顆恆星，且文中說外星人「無法」解讀，不是已翻譯。\n📚 出處：本文第三段"
+   "exp": "✅ (D) 文中明言外星人須將光波解碼為聲音並分析「3,000 種人類語言」才能理解任何訊息。\n❌ (A) 平庸原則反而主張類地行星上普遍存在生命。\n❌ (B) 文中說的是外星人須把光波解碼，非其以光波與我們溝通。\n❌ (C) 8,500 顆恆星指的是地球訊號所及的範圍，非已完成翻譯者。\n📚 出處：閱讀測驗；細節題。"
   },
   {
    "n": 48,
@@ -695,7 +695,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    ],
    "psg": "Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to communicate with or find us. Astronomers from Cornell University in the USA combined two existing theories about the possibility of life existing on other planets to form a new equation. One of these theories is the Fermi Paradox described by physicist Enrico Fermi in 1950. This states that while billions of Earth-like planets exist in our galaxy, not one has made contact with Earth yet. The other is the mediocrity principle, which suggests that because there is life on Earth, it will typically exist on Earth-like planets throughout the universe. Study author Evan Solomonides will soon present a research paper on his theory. He said, “We haven’t heard from aliens yet, as space is a big place, but that doesn’t mean no one is out there.” According to Solomonides, extraterrestrials could have received signals from Earth. However, he proposes that ET would not have been able to decipher them. He said they would need to decode the light waves into sounds and analyze 3,000 human languages to understand any messages. He said that signals from Earth have only reached about 8,500 stars and that the Milky Way galaxy alone contains 200 billion stars. He added, “If we stop listening or looking, we may miss the signals. So we should keep looking.”",
    "a": 1,
-   "exp": "✅ (B) 費米悖論的「悖論」在於：銀河系有數十億顆類地行星（應有生命），卻沒有任何一個與地球接觸過——兩個陳述彼此矛盾。\n❌ (A) 它不是建立在一致證據上的觀察。\n❌ (C) 更不是根據外星通訊得出的結論。\n❌ (D) 也不是基於平庸計算的假設。\n📚 出處：本文第二段"
+   "exp": "✅ (B) 費米悖論的矛盾在於：銀河系存在數十億顆類地行星（理應有大量文明），卻至今無一與地球接觸，兩個陳述相互衝突。\n❌ (A) 悖論的重點不在證據的一致性。\n❌ (C) 文中並無已建立的星際通聯。\n❌ (D) 與計算是否平庸無關。\n📚 出處：閱讀測驗；字義與概念推論。"
   },
   {
    "n": 49,
@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    ],
    "psg": "Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to communicate with or find us. Astronomers from Cornell University in the USA combined two existing theories about the possibility of life existing on other planets to form a new equation. One of these theories is the Fermi Paradox described by physicist Enrico Fermi in 1950. This states that while billions of Earth-like planets exist in our galaxy, not one has made contact with Earth yet. The other is the mediocrity principle, which suggests that because there is life on Earth, it will typically exist on Earth-like planets throughout the universe. Study author Evan Solomonides will soon present a research paper on his theory. He said, “We haven’t heard from aliens yet, as space is a big place, but that doesn’t mean no one is out there.” According to Solomonides, extraterrestrials could have received signals from Earth. However, he proposes that ET would not have been able to decipher them. He said they would need to decode the light waves into sounds and analyze 3,000 human languages to understand any messages. He said that signals from Earth have only reached about 8,500 stars and that the Milky Way galaxy alone contains 200 billion stars. He added, “If we stop listening or looking, we may miss the signals. So we should keep looking.”",
    "a": 0,
-   "exp": "✅ (A) 文中說訊號目前只傳到約八千五百顆恆星，而銀河系有兩千億顆，且至少還要一千五百年才可能接觸，隱含的訊息是仍須做更多努力去接觸銀河系中的其他行星。\n❌ (B) 文中未說康乃爾天文學家會提出新的通訊形式。\n❌ (C) 文中說的是外星人無法解讀地球語言，不是使用相似語言。\n❌ (D) Solomonides 的理論並非挑戰外星生命存在的可能性。\n📚 出處：本文第一、三段"
+   "exp": "✅ (A) 文末引述作者所言「若停止聆聽或觀察就可能錯過訊號，所以我們應該繼續尋找」，中心訊息即仍須持續嘗試接觸其他星球。\n❌ (B) 文中未提出新的通訊形式。\n❌ (C) 8,500 顆恆星是訊號抵達的範圍，非語言相似性的主張。\n❌ (D) 作者是結合既有理論而非挑戰它們。\n📚 出處：閱讀測驗；主旨題。"
   },
   {
    "n": 50,
@@ -725,7 +725,7 @@ window.APP_EXAM_PAPERS['loc-111-1-b002'] = {
    ],
    "psg": "Scientists say it could take at least 1,500 years before humans make contact with species of aliens, or for them to communicate with or find us. Astronomers from Cornell University in the USA combined two existing theories about the possibility of life existing on other planets to form a new equation. One of these theories is the Fermi Paradox described by physicist Enrico Fermi in 1950. This states that while billions of Earth-like planets exist in our galaxy, not one has made contact with Earth yet. The other is the mediocrity principle, which suggests that because there is life on Earth, it will typically exist on Earth-like planets throughout the universe. Study author Evan Solomonides will soon present a research paper on his theory. He said, “We haven’t heard from aliens yet, as space is a big place, but that doesn’t mean no one is out there.” According to Solomonides, extraterrestrials could have received signals from Earth. However, he proposes that ET would not have been able to decipher them. He said they would need to decode the light waves into sounds and analyze 3,000 human languages to understand any messages. He said that signals from Earth have only reached about 8,500 stars and that the Milky Way galaxy alone contains 200 billion stars. He added, “If we stop listening or looking, we may miss the signals. So we should keep looking.”",
    "a": 2,
-   "exp": "✅ (C) 文章開宗明義說人類與外星生命接觸至少還要一千五百年，換算即公元三千五百年之後，最適合作為標題。\n❌ (A) 文中未介紹通訊的科學方法。\n❌ (B) 文中說外星人「無法」解讀人類語言。\n❌ (D) 阻礙在於語言的解讀，不是銀河系的規模阻礙訊號接收。\n📚 出處：本文第一段"
+   "exp": "✅ (C) 全文核心在「至少還要 1,500 年才可能與外星生命接觸」，以西元 3500 年之後才可能相遇為題最為貼切。\n❌ (A) 文章並未介紹通訊的科學方法。\n❌ (B) 文中說外星人「尚無法」解讀人類語言。\n❌ (D) 銀河系的規模只是原因之一，不足以概括全文。\n📚 出處：閱讀測驗；標題題。"
   }
  ]
 };
