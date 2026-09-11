@@ -31430,7 +31430,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計概要",
   "label": "105 年　四等　成本與管理會計概要",
   "n": 20,
-  "exp": 0,
+  "exp": 18,
   "mins": 60
  },
  {
