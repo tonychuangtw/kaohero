@@ -18,7 +18,7 @@
   function origQ(n) { return isEn() ? ('Paper Q ' + n) : ('原卷第 ' + n + ' 題'); }
 
   /* ============ 進度 ============ */
-  var state = { stats: {}, wrong: [], last: null, drafts: {} };
+  var state = { stats: {}, wrong: [], last: null, drafts: {}, mocks: [] };
   /* 未完成的整卷測驗（2026-09-11）。以卷代碼為 key，只存「做到第幾題、每題選了什麼」，
      不存題目本身（題本另外動態載入），一份約 300 bytes。
      最多留 DRAFT_MAX 份（考生常同時刷好幾科），超過就丟最舊的；DRAFT_TTL 天沒碰自動清掉。 */
@@ -27,7 +27,7 @@
     try {
       var o = JSON.parse(localStorage.getItem(KEY) || '{}');
       state.stats = o.stats || {}; state.wrong = o.wrong || []; state.last = o.last || null;
-      state.drafts = o.drafts || {};
+      state.drafts = o.drafts || {}; state.mocks = o.mocks || [];
     } catch (e) {}
     pruneDrafts();
   }
@@ -389,6 +389,7 @@
       br2.appendChild(btn(T('再做一次：') + state.last.label, 'o', null, '#/paper/' + state.last.id));
     }
     br2.appendChild(btn(T('複習錯題本'), 'o', null, '#/wrong'));
+    br2.appendChild(btn(T('⏱️ 模擬考'), 'o', null, '#/mock'));
     s3.appendChild(br2); main.appendChild(s3);
 
     /* ---- 三步驟＋資料來源 ---- */
@@ -581,6 +582,9 @@
       wn ? T('複習你在這一科答錯過的題目') : T('這一科目前沒有錯題'), null, null, !wn);
     if (wn) { c2.onclick = function () { startWrong(sid); }; c2.style.cursor = 'pointer'; }
     g.appendChild(c2);
+    var c3 = card('⏱️', T('模擬考'), T('照這一科的正式題數與時間限時作答，交卷後才看得到答案'), null);
+    c3.onclick = function () { startMock(sid, false); }; c3.style.cursor = 'pointer';
+    g.appendChild(c3);
     s0.appendChild(g); main.appendChild(s0);
 
     var s = el('section', 'sec');
@@ -765,24 +769,27 @@
     return !!q.void || k === q.a || (q.alt || []).indexOf(k) >= 0;
   }
 
-  function answer(k) {
-    var q = quiz.qs[quiz.i], m = curMeta();
-    quiz.ans[quiz.i] = k;
-    var good = isRight(q, k); if (good) quiz.ok++;
-    var st = state.stats[m.pid] || (state.stats[m.pid] = { n: 0, ok: 0 });
+  /* 記一題的統計與錯題狀態。整卷測驗是答一題記一次，模擬考則在交卷時整卷記一次。 */
+  function recordAnswer(pid, n, good) {
+    var st = state.stats[pid] || (state.stats[pid] = { n: 0, ok: 0 });
     st.n++; if (good) st.ok++;
     var wi = -1;
-    state.wrong.forEach(function (w, idx) { if (w.pid === m.pid && w.n === q.n) wi = idx; });
-    // Leitner 簡化版（2026-09-11）：四選一猜對的機率有 25%，答對一次就刪掉會讓沒真懂的題永久消失。
-    // 改成連續答對 2 次才移出；答錯就把連勝歸零。w.s = 連續答對次數。
+    state.wrong.forEach(function (w, idx) { if (w.pid === pid && w.n === n) wi = idx; });
     if (good) {
       if (wi >= 0) {
         var w0 = state.wrong[wi];
         w0.s = (w0.s || 0) + 1;
         if (w0.s >= 2) state.wrong.splice(wi, 1);
       }
-    } else if (wi < 0) state.wrong.push({ pid: m.pid, n: q.n, s: 0 });
+    } else if (wi < 0) state.wrong.push({ pid: pid, n: n, s: 0 });
     else state.wrong[wi].s = 0;
+  }
+
+  function answer(k) {
+    var q = quiz.qs[quiz.i], m = curMeta();
+    quiz.ans[quiz.i] = k;
+    var good = isRight(q, k); if (good) quiz.ok++;
+    recordAnswer(m.pid, q.n, good);
     save(); buildNav(); markNav(); render();
   }
 
@@ -883,14 +890,300 @@
     main.appendChild(c);
   }
 
+  /* ============ 模擬考（2026-09-11 Tony 要求）============
+     與「無限刷題」的差別：全真題數與倒數計時、作答中完全不揭曉答案、交卷後才整卷批改。
+     抽題不一次載十幾個題本（手機會卡）：先隨機抽 MOCK_POOL 份考卷載進來，再從池子裡抽題。 */
+  var MOCK_POOL = 5;
+  var mockTimer = null;
+  function stopMockTimer() { if (mockTimer) { clearInterval(mockTimer); mockTimer = null; } }
+
+  function viewMock(main) {
+    main.appendChild(el('h1', 'pg-h', T('模擬考')));
+    main.appendChild(el('p', 'lead',
+      T('從一個科目的歷年考古題隨機抽題，照該科的正式題數與時間限時作答。作答中不會顯示答案，交卷後才整卷批改。')));
+
+    var c = el('div', 'panel'); c.style.padding = '20px';
+    c.appendChild(el('h3', 'ph', T('選擇範圍')));
+    var selC = el('select', 'mk-sel'), selE = el('select', 'mk-sel'), selS = el('select', 'mk-sel');
+    [selC, selE, selS].forEach(function (x) { x.style.width = '100%'; });
+
+    function opt(sel, val, txt) { var o = el('option', null, txt); o.value = val; sel.appendChild(o); }
+    CATS.forEach(function (ct) { opt(selC, ct.id, ct.name); });
+
+    function fillExams() {
+      selE.innerHTML = '';
+      var ct = catOf(selC.value) || CATS[0];
+      (ct.exams || []).forEach(function (e) { if (e.live !== false) opt(selE, e.id, e.name); });
+      fillSubjects();
+    }
+    function fillSubjects() {
+      selS.innerHTML = '';
+      var seen = {};
+      EXAMS.forEach(function (e) {
+        if (e.exam !== selE.value || seen[e.subj]) return;
+        seen[e.subj] = 1;
+        opt(selS, e.subj, (SUBJ[e.subj] && SUBJ[e.subj].name) || e.subjName || e.subj);
+      });
+      showSpec();
+    }
+    var spec = el('p', 'lead');
+    function stdOf(sid) {
+      var list = EXAMS.filter(function (e) { return e.subj === sid; });
+      if (!list.length) return null;
+      list.sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); });
+      return { n: list[0].n, mins: list[0].mins || Math.round(list[0].n * 1.2), papers: list.length };
+    }
+    var half = false;
+    function showSpec() {
+      var st = stdOf(selS.value);
+      spec.textContent = st
+        ? (T('正式規格：') + st.n + unitQ() + ' / ' + st.mins + T(' 分鐘')
+           + T('　·　題庫共 ') + st.papers + unitP()
+           + (half ? T('　·　目前選半卷：') + Math.ceil(st.n / 2) + unitQ() + ' / ' + Math.ceil(st.mins / 2) + T(' 分鐘') : ''))
+        : T('這個科目還沒有題目。');
+    }
+    selC.onchange = fillExams; selE.onchange = fillSubjects; selS.onchange = showSpec;
+
+    var g = el('div', 'mk-form');
+    [[T('考試類別'), selC], [T('考試'), selE], [T('科目'), selS]].forEach(function (r) {
+      var w = el('label', 'mk-row');
+      w.appendChild(el('span', 'mk-lb', r[0]));
+      w.appendChild(r[1]);
+      g.appendChild(w);
+    });
+    c.appendChild(g);
+
+    var chips = el('div', 'chips'); chips.style.marginTop = '10px';
+    var bFull = el('button', 'on', T('全真規格')), bHalf = el('button', null, T('半卷（通勤用）'));
+    bFull.onclick = function () { half = false; bFull.className = 'on'; bHalf.className = ''; showSpec(); };
+    bHalf.onclick = function () { half = true; bHalf.className = 'on'; bFull.className = ''; showSpec(); };
+    chips.appendChild(bFull); chips.appendChild(bHalf);
+    c.appendChild(chips);
+    c.appendChild(spec);
+
+    var go = btn(T('開始模擬考'), '', function () {
+      if (!selS.value) return toast(T('這個科目還沒有題目。'));
+      startMock(selS.value, half);
+    });
+    go.style.marginTop = '14px';
+    c.appendChild(go);
+    main.appendChild(c);
+    fillExams();
+
+    if ((state.mocks || []).length) {
+      var s2 = el('section', 'sec'); s2.style.marginTop = '18px';
+      s2.appendChild(sectionHead(T('我的模擬考紀錄')));
+      var p2 = el('div', 'panel');
+      state.mocks.slice(0, 12).forEach(function (r) {
+        p2.appendChild(item(r.ok * 100 / r.total >= 60 ? '🟢' : '🔴', r.title,
+          Math.round(r.ok * 100 / r.total) + T(' 分　·　') + r.ok + '/' + r.total + unitQ()
+          + T('　·　用時 ') + Math.round(r.secs / 60) + T(' 分鐘') + T('　·　') + r.date, null));
+      });
+      s2.appendChild(p2); main.appendChild(s2);
+    }
+  }
+
+  function startMock(sid, half) {
+    var list = EXAMS.filter(function (e) { return e.subj === sid; });
+    if (!list.length) return toast(T('這個科目還沒有題目。'));
+    var std = list.slice().sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); })[0];
+    var want = half ? Math.ceil(std.n / 2) : std.n;
+    var mins = half ? Math.ceil((std.mins || Math.round(std.n * 1.2)) / 2) : (std.mins || Math.round(std.n * 1.2));
+    var pool = list.slice(); shuffle(pool);
+    var pick = [], have = 0;
+    for (var i = 0; i < pool.length && (have < want * 1.5 || pick.length < 2) && pick.length < MOCK_POOL; i++) {
+      pick.push(pool[i].id); have += pool[i].n;
+    }
+    toast(T('正在抽題…'));
+    loadMany(pick, function () {
+      var bank = [], meta = [];
+      pick.forEach(function (pid) {
+        var p = PAPERS[pid]; if (!p) return;
+        p.qs.forEach(function (q) {
+          if (q.needfig && !q.fig) return;           // 選項在圖上又沒有圖檔的題不能考
+          bank.push({ q: q, pid: pid, title: p.title });
+        });
+      });
+      if (bank.length < 5) return toast(T('題目載入失敗，請重新整理再試一次。'));
+      shuffle(bank);
+      var use = bank.slice(0, Math.min(want, bank.length));
+      quiz = { mode: 'mock', sid: sid, title: (SUBJ[sid] && SUBJ[sid].name || sid) + T('　模擬考'),
+        qs: use.map(function (x) { return x.q; }), meta: use, i: 0, ans: [], ok: 0,
+        flags: {}, half: !!half, mins: mins, endAt: Date.now() + mins * 60000, secs: 0, graded: false };
+      location.hash = '#/quiz'; render();
+    });
+  }
+
+  function mockLeft() { return Math.max(0, Math.round((quiz.endAt - Date.now()) / 1000)); }
+  function mmss(s) { var m = Math.floor(s / 60); return (m < 10 ? '0' : '') + m + ':' + (s % 60 < 10 ? '0' : '') + (s % 60); }
+
+  function viewMockQuiz(main) {
+    var q = quiz.qs[quiz.i], m = quiz.meta[quiz.i];
+    var doneN = 0; quiz.ans.forEach(function (x) { if (x != null) doneN++; });
+
+    var top = el('div', 'mk-bar');
+    var clk = el('span', 'mk-clock', mmss(mockLeft()));
+    top.appendChild(clk);
+    top.appendChild(el('span', 'mk-cnt', T('已作答 ') + doneN + ' / ' + quiz.qs.length));
+    main.appendChild(top);
+    stopMockTimer();
+    mockTimer = setInterval(function () {
+      var left = mockLeft();
+      clk.textContent = mmss(left);
+      clk.className = 'mk-clock' + (left <= 300 ? ' hot' : (left <= 600 ? ' warm' : ''));
+      if (left <= 0) { stopMockTimer(); gradeMock(true); }
+    }, 1000);
+
+    var bar = el('div', 'prog'); var i2 = el('i');
+    i2.style.width = (quiz.i / quiz.qs.length * 100) + '%'; bar.appendChild(i2); main.appendChild(bar);
+
+    var c = el('div', 'panel'); c.style.padding = '16px';
+    var meta = el('div', 'qmeta');
+    meta.appendChild(el('span', null, T('第 ') + (quiz.i + 1) + ' / ' + quiz.qs.length + unitQ()));
+    meta.appendChild(el('span', null, m.title));
+    c.appendChild(meta);
+    if (q.psg) {
+      var pb = el('div', 'psg');
+      pb.appendChild(el('b', null, T('短文'))); pb.appendChild(el('p', null, q.psg));
+      c.appendChild(pb);
+    }
+    c.appendChild(el('div', 'stem', q.q));
+    if (q.fig) {
+      var im = el('img', 'qfig'); im.src = q.fig; im.loading = 'lazy';
+      im.alt = qLabel(q.n) + T(' 題的原始題目圖（含選項）');
+      c.appendChild(im);
+    }
+    q.o.forEach(function (txt, k) {
+      var b = el('button', 'opt' + (quiz.ans[quiz.i] === k ? ' picked' : ''));
+      b.appendChild(el('span', 'lab', LAB[k] + '.'));
+      b.appendChild(document.createTextNode(txt && txt.trim() ? txt : T('（見上圖）')));
+      b.onclick = function () { quiz.ans[quiz.i] = k; render(); };   // 模考中可以改答案，不揭曉對錯
+      c.appendChild(b);
+    });
+    main.appendChild(c);
+
+    var row = el('div', 'btnrow'); row.style.marginTop = '12px';
+    if (quiz.i > 0) row.appendChild(btn(T('← 上一題'), 'o', function () { quiz.i--; render(); }));
+    if (quiz.i + 1 < quiz.qs.length) row.appendChild(btn(T('下一題 →'), 'w', function () { quiz.i++; render(); }));
+    row.appendChild(btn(quiz.flags[quiz.i] ? T('取消標記') : T('🚩 標記待檢查'), 'g', function () {
+      if (quiz.flags[quiz.i]) delete quiz.flags[quiz.i]; else quiz.flags[quiz.i] = 1;
+      render();
+    }));
+    main.appendChild(row);
+
+    var s = el('section', 'sec'); s.style.marginTop = '16px';
+    s.appendChild(sectionHead(T('答題卡')));
+    var grid = el('div', 'mk-grid');
+    quiz.qs.forEach(function (_, k) {
+      var g2 = el('button', 'mk-n' + (quiz.ans[k] != null ? ' ok' : '') + (quiz.flags[k] ? ' fl' : '')
+        + (k === quiz.i ? ' cur' : ''), String(k + 1));
+      g2.onclick = function () { quiz.i = k; render(); };
+      grid.appendChild(g2);
+    });
+    s.appendChild(grid);
+    var sb = el('div', 'btnrow'); sb.style.marginTop = '12px';
+    sb.appendChild(btn(T('交卷'), '', function () {
+      var miss = quiz.qs.length - doneN;
+      if (miss) {
+        KHDialog.confirm(T('還有 ') + miss + T(' 題沒作答，確定要交卷嗎？'))
+          .then(function (y) { if (y) gradeMock(false); });
+      } else gradeMock(false);
+    }));
+    s.appendChild(sb);
+    main.appendChild(s);
+  }
+
+  function gradeMock(timeUp) {
+    stopMockTimer();
+    quiz.ok = 0;
+    quiz.qs.forEach(function (q, k) {
+      var pid = quiz.meta[k].pid, a = quiz.ans[k];
+      // 未作答的題不進統計、也不進錯題本：那不是「答錯」，只是沒寫到。
+      // 全部算進去的話，中途放棄一次模考就會把整科的正確率打到谷底、錯題本塞進上百題。
+      if (a == null) return;
+      var good = isRight(q, a); if (good) quiz.ok++;
+      recordAnswer(pid, q.n, good);
+    });
+    quiz.secs = Math.min(quiz.mins * 60, quiz.mins * 60 - mockLeft());
+    quiz.graded = true; quiz.done = true; quiz.timeUp = !!timeUp;
+    state.mocks = state.mocks || [];
+    state.mocks.unshift({ sid: quiz.sid, title: quiz.title, ok: quiz.ok, total: quiz.qs.length,
+      secs: quiz.secs, date: new Date().toISOString().slice(0, 10) });
+    state.mocks = state.mocks.slice(0, 30);
+    save(); buildNav(); markNav(); render();
+  }
+
+  function viewMockResult(main) {
+    var score = Math.round(quiz.ok * 100 / quiz.qs.length);
+    var c = el('div', 'panel'); c.style.padding = '20px';
+    c.appendChild(el('h2', null, quiz.title));
+    c.appendChild(el('div', 'big', score + T(' 分')));
+    c.appendChild(el('p', 'lead',
+      (quiz.timeUp ? T('時間到，自動交卷。') : '')
+      + T('答對 ') + quiz.ok + ' / ' + quiz.qs.length + unitQ()
+      + T('　·　用時 ') + mmss(quiz.secs) + T('　·　限時 ') + quiz.mins + T(' 分鐘')));
+    c.appendChild(el('p', 'lead', score >= 60
+      ? T('高於 60 分的一般及格標準 ') + (score - 60) + T(' 分。')
+      : T('距離 60 分的一般及格標準還差 ') + (60 - score) + T(' 分。')));
+    var note = el('p', 'lead', T('※ 這是從歷年考古題隨機抽出的卷，難度未經校準，分數只作練習參考；各類科的實際及格或錄取標準請以考選部公告為準。'));
+    note.style.opacity = '.8';
+    c.appendChild(note);
+    main.appendChild(c);
+
+    var hist = (state.mocks || []).filter(function (r) { return r.sid === quiz.sid; }).slice(0, 8);
+    if (hist.length > 1) {
+      var sh = el('section', 'sec'); sh.style.marginTop = '16px';
+      sh.appendChild(sectionHead(T('這一科的模擬考趨勢')));
+      var ph = el('div', 'panel'); var bars = el('div', 'mk-trend');
+      hist.slice().reverse().forEach(function (r) {
+        var v = Math.round(r.ok * 100 / r.total);
+        var col = el('div', 'mk-tb');
+        var b2 = el('i'); b2.style.height = Math.max(4, v) + '%'; col.appendChild(b2);
+        col.appendChild(el('span', null, String(v)));
+        col.title = r.date;
+        bars.appendChild(col);
+      });
+      ph.appendChild(bars); sh.appendChild(ph); main.appendChild(sh);
+    }
+
+    var wrong = [];
+    quiz.qs.forEach(function (q, k) { if (quiz.ans[k] == null || !isRight(q, quiz.ans[k])) wrong.push(k); });
+    if (wrong.length) {
+      var s = el('section', 'sec'); s.style.marginTop = '16px';
+      s.appendChild(sectionHead(T('答錯與未作答（') + wrong.length + T('）')));
+      var p = el('div', 'panel');
+      wrong.forEach(function (k) {
+        var q = quiz.qs[k];
+        p.appendChild(item(null, T('第 ') + (k + 1) + unitQ() + '　' + quiz.meta[k].title,
+          (quiz.ans[k] == null ? T('未作答') : T('你選 ') + LAB[quiz.ans[k]])
+          + T('　正解 ') + [q.a].concat(q.alt || []).map(function (x) { return LAB[x]; }).join('、'), null));
+      });
+      s.appendChild(p);
+      var wb = el('div', 'btnrow'); wb.style.marginTop = '12px';
+      wb.appendChild(btn(T('立即重練這些錯題'), '', function () {
+        startWrongList(wrong.map(function (k) { return { pid: quiz.meta[k].pid, n: quiz.qs[k].n }; }));
+      }));
+      wb.appendChild(btn(T('前往錯題本 →'), 'o', null, '#/wrong'));
+      s.appendChild(wb);
+      main.appendChild(s);
+    }
+
+    var row = el('div', 'btnrow'); row.style.marginTop = '16px';
+    var sid0 = quiz.sid, half0 = !!quiz.half;
+    row.appendChild(btn(T('再考一次'), '', function () { startMock(sid0, half0); }));
+    row.appendChild(btn(T('回模擬考設定'), 'o', null, '#/mock'));
+    main.appendChild(row);
+    main.appendChild(sponsorStrip());
+  }
+
   /* ============ 錯題本 / 統計 ============ */
   function viewWrong(main) {
     main.appendChild(el('h1', 'pg-h', T('錯題本')));
     if (!state.wrong.length) {
-      main.appendChild(el('p', 'lead', T('目前沒有錯題。答錯的題目會自動收進這裡，答對一次之後就會移除。')));
+      main.appendChild(el('p', 'lead', T('目前沒有錯題。答錯的題目會自動收進這裡，連續答對兩次之後才會移除。')));
       main.appendChild(btn(T('去刷題'), '', null, '#/exams')); return;
     }
-    main.appendChild(el('p', 'lead', T('共 ') + state.wrong.length + T(' 題。答對一次就會自動移除。')));
+    main.appendChild(el('p', 'lead', T('共 ') + state.wrong.length + T(' 題。連續答對兩次才會自動移除。')));
     var row = el('div', 'btnrow');
     row.appendChild(btn(T('開始複習'), '', function () { startWrong(null); }));
     row.appendChild(btn(T('清空錯題本'), 'o', function () {
@@ -1125,9 +1418,11 @@
     // 其餘頁面維持原本的淺色／深色主題。
     document.body.setAttribute('data-page', top || 'home');
     // 結束後顯示成績；但如果網址指向的是另一份卷子，就要開新的那一份，不能停在舊成績
+    if (top !== 'quiz') stopMockTimer();          // 離開作答畫面就停掉模考的倒數
     if (quiz && quiz.done && (top === 'quiz' ||
         (top === 'paper' && quiz.mode === 'paper' && quiz.pid === seg[1]))) {
-      viewResult(main); markNav(); return;
+      if (quiz.mode === 'mock') viewMockResult(main); else viewResult(main);
+      markNav(); return;
     }
     if (top === '') viewHome(main);
     else if (top === 'exams') viewExams(main);
@@ -1145,7 +1440,8 @@
         }
       } else viewQuiz(main);
     }
-    else if (top === 'quiz') viewQuiz(main);
+    else if (top === 'quiz') { if (quiz && quiz.mode === 'mock') viewMockQuiz(main); else viewQuiz(main); }
+    else if (top === 'mock') viewMock(main);
     else if (top === 'wrong') viewWrong(main);
     else if (top === 'stats') viewStats(main);
     else if (top === 'guide') viewGuide(main);

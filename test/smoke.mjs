@@ -337,6 +337,37 @@ await send('Emulation.setDeviceMetricsOverride',
   { width: 430, height: 900, deviceScaleFactor: 2, mobile: true }, sessionId);
 
 // ---- 站內對話框（2026-09-08 Tony：原生 confirm 框「太難看」）----
+// --- 模擬考（2026-09-11）---
+await go('#/mock');
+ok(await ev(`document.querySelectorAll('#main .mk-sel').length === 3`), '模擬考設定頁有三層範圍選單');
+ok((await ev(`document.querySelector('#main').textContent`)).includes('正式規格'), '顯示該科的正式題數與時間');
+await ev(`${BTN('開始模擬考')}.click()`);
+for (let i = 0; i < 120 && !(await ev('!!document.querySelector("#main .mk-clock")')); i++) await sleep(100);
+ok(await ev(`!!document.querySelector('#main .mk-clock')`), '模擬考開始後出現倒數計時');
+const mkTotal = await ev(`document.querySelectorAll('#main .mk-n').length`);
+ok(mkTotal > 10, '模擬考產生答題卡（' + mkTotal + ' 題）');
+await ev(`document.querySelectorAll('#main .opt')[0].click()`); await sleep(250);
+ok(await ev(`!document.querySelector('#main .fb')`), '作答中不揭曉答案');
+ok(await ev(`document.querySelectorAll('#main .opt.correct, #main .opt.wrong').length === 0`),
+   '作答中不標出對錯');
+ok(await ev(`!!document.querySelector('#main .opt.picked')`), '選過的選項有標記');
+ok(await ev(`!document.querySelector('#main .opt[disabled]')`), '模擬考可以改答案');
+ok(await ev(`document.querySelectorAll('#main .mk-n.ok').length === 1`), '答題卡標出已作答的題');
+await ev(`${BTN('🚩 標記待檢查')}.click()`); await sleep(200);
+ok(await ev(`document.querySelectorAll('#main .mk-n.fl').length === 1`), '可以標記待檢查');
+ok(await ev(`document.querySelector('#main .mk-n').getBoundingClientRect().height >= 44`),
+   '答題卡按鈕觸控目標 ≥44px');
+await ev(`${BTN('交卷')}.click()`); await sleep(300);
+ok(await ev(`!!document.querySelector('.dlg-back .dlg')`), '有未作答時交卷會先確認');
+await ev(`document.querySelector('.dlg-ok').click()`); await sleep(400);
+ok((await ev(`document.querySelector('#main .big')?.textContent || ''`)).includes('分'), '交卷後顯示分數');
+ok((await ev(`document.querySelector('#main').textContent`)).includes('及格標準'), '成績與及格標準對照');
+ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').mocks||[]).length === 1`),
+   '模擬考成績寫入紀錄');
+ok(await ev(`!document.querySelector('#main .mk-clock')`), '交卷後倒數停止');
+ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').wrong||[]).length < 5`),
+   '未作答的題不會被塞進錯題本');
+
 await go('');
 ok(await ev(`!!window.KHDialog && typeof KHDialog.confirm === 'function'`), 'KHDialog 已載入');
 // window.alert 已換成站內 toast，不會再跳系統框

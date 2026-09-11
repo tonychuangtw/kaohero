@@ -509,3 +509,30 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
 .spon-qr img{display:block;width:200px;height:200px;max-width:100%;
   border-radius:12px;background:#fff;padding:8px;box-sizing:border-box}
 .spon-qr-cap{margin:8px 0 0;color:var(--ink2);font-size:calc(13px * var(--fs,1))}
+
+/* ── 模擬考（2026-09-11）── */
+.mk-form{display:grid;gap:10px;margin-top:10px}
+.mk-row{display:flex;flex-direction:column;gap:4px}
+.mk-lb{font-size:calc(13px * var(--fs,1));color:var(--ink2);font-weight:700}
+.mk-sel{min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;
+  background:var(--card);color:var(--ink);font-family:inherit;font-size:calc(15px * var(--fs,1))}
+.mk-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.mk-clock{font-variant-numeric:tabular-nums;font-weight:900;letter-spacing:1px;
+  font-size:calc(26px * var(--fs,1));padding:4px 12px;border-radius:10px;
+  background:var(--line2);color:var(--ink)}
+.mk-clock.warm{background:#f5d48a;color:#3a2c07}
+.mk-clock.hot{background:#e05b5b;color:#fff}
+.mk-cnt{color:var(--ink2);font-size:calc(14px * var(--fs,1))}
+.mk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:6px;
+  padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.mk-n{min-height:44px;border:1px solid var(--line);border-radius:9px;background:var(--bg);
+  color:var(--ink2);font-family:inherit;font-weight:700;cursor:pointer}
+.mk-n.ok{background:var(--brand-l);border-color:var(--brand);color:var(--brand)}
+.mk-n.fl{box-shadow:inset 0 0 0 2px #e0a13a}
+.mk-n.cur{outline:2px solid var(--ink);outline-offset:1px}
+.opt.picked{border-color:var(--brand);background:var(--brand-l)}
+.mk-trend{display:flex;align-items:flex-end;gap:10px;height:140px;padding:12px}
+.mk-tb{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  height:100%;gap:4px}
+.mk-tb i{display:block;width:100%;max-width:46px;background:var(--brand);border-radius:5px 5px 0 0}
+.mk-tb span{font-size:calc(12px * var(--fs,1));color:var(--ink2);font-variant-numeric:tabular-nums}
