@@ -27174,7 +27174,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "110 年　四等　有機化學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 16,
   "mins": 75
  },
  {
