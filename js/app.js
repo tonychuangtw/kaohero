@@ -145,7 +145,7 @@
   /* ============ 導覽 ============ */
   // 2026-09-08 Tony：考取心得先暫時從導覽拿掉（內容還沒累積真實案例）。
   // 路由 #/stories 與 viewStories 都保留，之後有內容把這一項加回 NAV 即可。
-  var NAV = [['#/', '首頁'], ['#/exams', '考試題庫'], ['#/wrong', '錯題本'], ['#/guide', '準備方式'],
+  var NAV = [['#/', '首頁'], ['#/exams', '考試題庫'], ['#/mock', '模擬考'], ['#/wrong', '錯題本'], ['#/guide', '準備方式'],
              ['#/sponsor', '贊助我們'], ['#/support', '客服中心']];
   function buildNav() {
     var nav = document.getElementById('nav'), dw = document.getElementById('drawer');
