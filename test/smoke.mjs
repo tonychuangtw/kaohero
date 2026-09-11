@@ -344,7 +344,13 @@ await go('#/mock');
 ok(await ev(`document.querySelectorAll('#main .mk-sel').length === 3`), '模擬考設定頁有三層範圍選單');
 ok((await ev(`document.querySelector('#main').textContent`)).includes('正式規格'), '顯示該科的正式題數與時間');
 ok(await ev(`document.querySelectorAll('#main .chips')[0].children.length === 3`), '模考有全真／半卷／20 題三種規格');
-ok(await ev(`document.querySelectorAll('#main .bd-row').length === 50`), '模考設定頁就看得到英雄榜');
+ok(await ev(`document.querySelectorAll('#main .bd-row').length === 52`), '模考設定頁就看得到英雄榜');
+/* 基準線不占名額（2026-09-11 Tony：「不含那兩個標準線要 50 人」） */
+ok(await ev(`document.querySelectorAll('#main .bd-row:not(.mark)').length === 50`),
+   '扣掉兩條基準線後榜上剛好 50 人');
+ok((await ev(`[...document.querySelectorAll('#main .sec-h, #main h2, #main h3')]
+   .map(x=>x.textContent).join(' | ')`)).includes('前 50 名英雄榜'),
+   '榜單標題寫明是前 50 名');
 const seedTop = await ev(`document.querySelector('#main .bd-row .bd-nk').textContent`);
 await ev(`location.reload()`);
 for (let i = 0; i < 120; i++) { await sleep(100); if (await ev('document.readyState === "complete"')) break; }
@@ -375,7 +381,7 @@ ok((await ev(`document.querySelector('#main').textContent`)).includes('及格標
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').mocks||[]).length === 1`),
    '模擬考成績寫入紀錄');
 ok(await ev(`!document.querySelector('#main .mk-clock')`), '交卷後倒數停止');
-ok(await ev(`document.querySelectorAll('#main .bd-row').length >= 50`), '結算頁的英雄榜有 50 列');
+ok(await ev(`document.querySelectorAll('#main .bd-row:not(.mark)').length >= 50`), '結算頁的英雄榜有 50 人');
 ok(await ev(`document.querySelectorAll('#main .bd-row.mark').length === 2`), '榜上有兩條基準線且另外標色');
 ok(await ev(`!!document.querySelector('#main .bd-row.me')`), '自己的成績有出現在榜上');
 ok(await ev(`[...document.querySelectorAll('#main .bd-row:not(.me) .bd-sc')].map(x=>parseInt(x.textContent)).every((v,i,a)=>i===0||a[i-1]>=v)`),

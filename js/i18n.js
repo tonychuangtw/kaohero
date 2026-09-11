@@ -210,6 +210,8 @@
     '等對方也加你': 'Waiting for them to add you',
     /* --- 模考英雄榜（2026-09-11） --- */
     '模考英雄榜': 'Mock exam leaderboard',
+    '　前 ': ' \u2014 Top ',
+    ' 名英雄榜': ' leaderboard',
     '全真': 'Full',
     '半卷': 'Half',
     '20 題': '20 Q',

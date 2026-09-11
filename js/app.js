@@ -1011,7 +1011,13 @@
     // 名次只算人，基準線不占位
     var rank = 0;
     out.forEach(function (x) { if (x.kind !== 'mark') x.rank = ++rank; });
-    var top = out.slice(0, BOARD_N), mine = null;
+    // 取前 BOARD_N 名「人」；兩條基準線只是對照線，不占名額
+    // （2026-09-11 Tony：「排名現在是 48 人，不含那兩個標準線要 50 人」）
+    var top = [], people = 0, mine = null;
+    out.forEach(function (x) {
+      if (x.kind === 'mark') { top.push(x); return; }
+      if (people < BOARD_N) { top.push(x); people++; }
+    });
     out.forEach(function (x) { if (x.kind === 'me') mine = x; });
     if (mine && top.indexOf(mine) < 0) top.push(mine);   // 掉出前 50 也要讓自己看得到名次
     return top;
@@ -1029,7 +1035,8 @@
 
   function viewBoard(main, sid, spec) {
     var s = el('section', 'sec'); s.style.marginTop = '18px';
-    s.appendChild(sectionHead(T('模考英雄榜') + '　' + ((SUBJ[sid] && SUBJ[sid].name) || sid) + '　' + specName(spec)));
+    s.appendChild(sectionHead(((SUBJ[sid] && SUBJ[sid].name) || sid) + '　' + specName(spec)
+      + T('　前 ') + BOARD_N + T(' 名英雄榜')));
     var tabs = el('div', 'chips');
     SPECS.forEach(function (sp) {
       var b = el('button', sp[0] === spec ? 'on' : null, T(sp[1]));
