@@ -25550,7 +25550,7 @@ window.APP_EXAMS = [
   "subjName": "勞工行政與勞工法規大意",
   "label": "112 年　五等　勞工行政與勞工法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -25564,7 +25564,7 @@ window.APP_EXAMS = [
   "subjName": "財政學大意",
   "label": "112 年　五等　財政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
