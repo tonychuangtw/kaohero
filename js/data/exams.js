@@ -30086,7 +30086,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "107 年　五等　公務員法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
