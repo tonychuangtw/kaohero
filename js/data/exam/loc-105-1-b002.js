@@ -618,7 +618,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "It was the time for him to dig the ground and plant the new potatoes.",
     "It was the time to harvest potatoes."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文章開頭即說他入獄時正是他該翻土、準備種新一季馬鈴薯的時候。\n❌ (A) 警察挖田是後來才發生的事。\n❌ (B) 錢與槍是他編造的說詞，並非真的遺失。\n❌ (D) 當時是播種而非收成的季節。\n📚 出處：閱讀測驗細節題。"
   },
   {
    "n": 44,
@@ -631,7 +632,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "The farmer’s friends and neighbors had no will to do the digging.",
     "The policemen dug the potato field for the farmer."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 此項不實：文中說妻子力氣不足以翻土，但「could manage to do the planting」，播種是做得到的。\n❌ (A) 符合文意，妻子無力獨自翻土。\n❌ (C) 符合文意，他沒有願意幫忙翻土的朋友或鄰居。\n❌ (D) 符合文意，警察把整片田都挖過了。\n📚 出處：閱讀測驗是非題。"
   },
   {
    "n": 45,
@@ -644,7 +646,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "He wrote a letter to the policemen.",
     "He played a trick on the policemen."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 他寫信謊稱錢與槍埋在田裡，誘使拆信的警察替他把田翻過一遍，是設計捉弄警察。\n❌ (A) 他並未開口請警察幫忙。\n❌ (B) 沒有任何交換條件，錢與槍根本不存在。\n❌ (C) 信是寫給妻子而非警察。\n📚 出處：閱讀測驗推論題。"
   },
   {
    "n": 46,
@@ -657,7 +660,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "The farmer was silly and lazy.",
     "The farmer’s letter was read by the policemen.第 47 題至第 50 題為題組A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 妻子信中說「有人在信件寄出前先看過」，且警察隨即來挖田，可知信被警察看過。\n❌ (A) 文中明說沒有朋友或鄰居願意幫忙。\n❌ (B) 馬鈴薯正是長在地下，故翻土才有意義。\n❌ (C) 他用計讓別人代勞，並不愚笨。\n📚 出處：閱讀測驗是非題。"
   },
   {
    "n": 47,
