@@ -27244,7 +27244,7 @@ window.APP_EXAMS = [
   "subjName": "社政法規大意",
   "label": "110 年　五等　社政法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
