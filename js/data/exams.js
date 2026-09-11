@@ -30282,7 +30282,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計",
   "label": "106 年　三等　政府會計",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
