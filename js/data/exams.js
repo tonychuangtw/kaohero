@@ -31920,7 +31920,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "104 年　三等　經濟學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
