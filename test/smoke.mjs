@@ -380,6 +380,14 @@ ok(await ev(`document.querySelectorAll('#main .bd-row.mark').length === 2`), '�
 ok(await ev(`!!document.querySelector('#main .bd-row.me')`), '自己的成績有出現在榜上');
 ok(await ev(`[...document.querySelectorAll('#main .bd-row:not(.me) .bd-sc')].map(x=>parseInt(x.textContent)).every((v,i,a)=>i===0||a[i-1]>=v)`),
    '榜單依分數由高到低排序');
+ok(await ev(`[...document.querySelectorAll('#main .chips')].some(c=>c.textContent.includes('只看好友'))`),
+   '榜單有全站／只看好友兩種範圍');
+ok((await ev(`document.querySelector('#main').textContent`)).includes('請先登入'),
+   '未登入時榜單提示要登入才能上榜');
+await hash('#/friends'); await sleep(300);
+ok((await ev(`document.querySelector('#main').textContent`)).includes('好友碼'), '好友頁可開啟');
+ok((await ev(`document.querySelector('#main').textContent`)).includes('請先登入'),
+   '未登入的好友頁提示要登入');
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').wrong||[]).length < 5`),
    '未作答的題不會被塞進錯題本');
 

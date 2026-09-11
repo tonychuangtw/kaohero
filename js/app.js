@@ -899,6 +899,30 @@
           要關掉只需把 BOARD_SEED 設為 false，其餘程式不用動。
      種子以「科目＋規格」為亂數種子，所以同一張榜每次打開都一樣，不會每次重整就換一批人。 */
   var BOARD_N = 50, BOARD_SEED = true;
+
+  /* 後端榜（2026-09-11）：登入後成績會交到 /api/kgh，大家看同一張榜。
+     沒登入就只看得到基準線與種子資料，並提示要登入——Tony：「要強制有登入才能進排行榜」。 */
+  function kghApi(method, path, body, cb) {
+    var base = (window.KH_CONFIG || {}).API_BASE;
+    var tk = window.KHSync && window.KHSync.token && window.KHSync.token();
+    if (!base || !tk) return cb('nologin');
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, base + '/api/kgh' + path);
+    xhr.setRequestHeader('Authorization', 'Bearer ' + tk);
+    if (body) xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function () {
+      if (xhr.status === 401) return cb('nologin');
+      if (xhr.status < 200 || xhr.status >= 300) return cb('http ' + xhr.status);
+      var d = null; try { d = JSON.parse(xhr.responseText); } catch (e) {}
+      cb(null, d);
+    };
+    xhr.onerror = function () { cb('network'); };
+    xhr.send(body ? JSON.stringify(body) : null);
+  }
+  function signedIn() { return !!(window.KHSync && window.KHSync.signedIn && window.KHSync.signedIn()); }
+  var boardCache = {};           // 'sid|spec|scope' → {rows, my}；同一次瀏覽不重複打 API
+  var boardScope = 'all';        // 'all' 全站榜 / 'friends' 只看互為好友者
+  var myCode = null;             // 自己的好友碼，/me 或 /friends 回來後填入
   var SPECS = [['full', '全真'], ['half', '半卷'], ['quick', '20 題']];
   function specName(s) { for (var i = 0; i < SPECS.length; i++) if (SPECS[i][0] === s) return T(SPECS[i][1]); return s; }
 
@@ -941,7 +965,7 @@
     var rows = [];
     rows.push({ kind: 'mark', nick: T('及格基準線'), score: 60 });
     rows.push({ kind: 'mark', nick: T('歷年上榜水準'), score: 78 });
-    if (BOARD_SEED) {
+    if (BOARD_SEED && boardScope !== 'friends') {          // 好友榜只放真人，放種子會很奇怪
       var r = rng32(hashStr('kh|' + sid + '|' + spec));
       var used = {};
       for (var i = 0; i < BOARD_N; i++) {
@@ -951,8 +975,16 @@
         rows.push({ kind: 'seed', nick: nk, score: seedScore(r) });
       }
     }
+    var srv = boardCache[sid + '|' + spec + '|' + boardScope];
+    if (srv && srv.rows) {
+      // 有後端資料就用真人榜；種子只是把空位補滿，真人一律排在自己的分數位置
+      srv.rows.forEach(function (r) {
+        rows.push({ kind: r.me ? 'me' : 'real', nick: r.nick, score: r.score });
+      });
+    }
     (state.mocks || []).forEach(function (m) {
       if (m.sid !== sid || (m.spec || 'full') !== spec) return;
+      if (srv && srv.rows && srv.rows.some(function (r) { return r.me; })) return;  // 後端已有自己的成績
       rows.push({ kind: 'me', nick: state.nick || T('我'), score: Math.round(m.ok * 100 / m.total), date: m.date });
     });
     // 同一個人只留最佳成績
@@ -972,6 +1004,16 @@
     return top;
   }
 
+  function loadBoard(sid, spec, cb) {
+    var key = sid + '|' + spec + '|' + boardScope;
+    if (boardCache[key] || !signedIn()) return cb();
+    kghApi('GET', '/board?sid=' + encodeURIComponent(sid) + '&spec=' + spec
+      + '&scope=' + boardScope + '&limit=' + BOARD_N, null, function (err, d) {
+        boardCache[key] = err ? { rows: [] } : (d || { rows: [] });
+        cb();
+      });
+  }
+
   function viewBoard(main, sid, spec) {
     var s = el('section', 'sec'); s.style.marginTop = '18px';
     s.appendChild(sectionHead(T('模考英雄榜') + '　' + ((SUBJ[sid] && SUBJ[sid].name) || sid) + '　' + specName(spec)));
@@ -982,6 +1024,16 @@
       tabs.appendChild(b);
     });
     s.appendChild(tabs);
+    var scopes = el('div', 'chips'); scopes.style.marginTop = '8px';
+    [['all', T('全站')], ['friends', T('只看好友')]].forEach(function (sc) {
+      var b = el('button', sc[0] === boardScope ? 'on' : null, sc[1]);
+      b.onclick = function () { boardScope = sc[0]; render(); };
+      scopes.appendChild(b);
+    });
+    s.appendChild(scopes);
+    // 沒有快取就先抓一次，回來再重繪（render 會再走一遍這裡，屆時快取已在）
+    var key = sid + '|' + spec + '|' + boardScope;
+    if (signedIn() && !boardCache[key]) loadBoard(sid, spec, function () { render(); });
     var p = el('div', 'panel bd-list');
     boardRows(sid, spec).forEach(function (x) {
       var row = el('div', 'bd-row' + (x.kind === 'mark' ? ' mark' : '') + (x.kind === 'me' ? ' me' : ''));
@@ -993,10 +1045,55 @@
     s.appendChild(p);
     s.appendChild(el('p', 'lead',
       T('榜上「及格基準線」與「歷年上榜水準」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。')));
+    if (!signedIn()) {
+      s.appendChild(el('div', 'warnbox',
+        T('要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。沒登入時只看得到基準線與範例名次。')));
+    }
     var br = el('div', 'btnrow');
     br.appendChild(btn(state.nick ? T('更改暱稱（目前：') + state.nick + T('）') : T('設定我的暱稱'), 'o', askNick));
+    if (signedIn()) br.appendChild(btn(T('好友'), 'o', null, '#/friends'));
     s.appendChild(br);
     main.appendChild(s);
+  }
+
+  /* 好友頁：交換 8 碼好友碼，雙方都加了才算朋友，好友榜才看得到對方 */
+  function viewFriends(main) {
+    main.appendChild(el('h1', 'pg-h', T('好友')));
+    main.appendChild(el('p', 'lead',
+      T('把自己的好友碼給對方、再把對方的碼加進來，雙方都加了才算朋友，模考英雄榜的「只看好友」才會看到彼此。')));
+    if (!signedIn()) {
+      main.appendChild(el('div', 'warnbox', T('請先登入（右上角「登入」）。')));
+      return;
+    }
+    var c = el('div', 'panel'); c.style.padding = '20px';
+    var mine = el('p', 'lead', T('讀取中…'));
+    c.appendChild(mine);
+    var list = el('div', 'panel'); list.style.marginTop = '12px';
+    var row = el('div', 'btnrow');
+    row.appendChild(btn(T('加入好友碼'), '', function () {
+      KHDialog.prompt(T('輸入對方的好友碼（8 碼英數字）')).then(function (v) {
+        if (v == null) return;
+        kghApi('POST', '/friends', { code: String(v).toUpperCase().replace(/[^A-Z0-9]/g, '') },
+          function (err) {
+            if (err === 'http 404') return toast(T('找不到這個好友碼。'));
+            if (err) return toast(T('加入失敗，請稍後再試。'));
+            boardCache = {}; toast(T('已加入，對方也加你之後就會互相看得到。')); render();
+          });
+      });
+    }));
+    c.appendChild(row);
+    main.appendChild(c); main.appendChild(list);
+    kghApi('GET', '/friends', null, function (err, d) {
+      if (err || !d) { mine.textContent = T('讀取失敗，請稍後再試。'); return; }
+      myCode = d.me && d.me.code;
+      mine.textContent = T('我的好友碼：') + (myCode || '—') + T('　暱稱：') + ((d.me && d.me.nick) || '—');
+      list.innerHTML = '';
+      if (!d.friends.length) { list.appendChild(el('p', 'lead', T('還沒有加任何人。'))); return; }
+      d.friends.forEach(function (f) {
+        list.appendChild(item(f.mutual ? '🤝' : '⏳', f.nick,
+          f.code + '　' + (f.mutual ? T('互為好友') : T('等對方也加你')), null));
+      });
+    });
   }
 
   function askNick() {
@@ -1004,7 +1101,10 @@
       .then(function (v) {
         if (v == null) return;
         v = String(v).trim().slice(0, 20);
-        state.nick = v || null; save(); render();
+        state.nick = v || null; save();
+        if (v && signedIn()) {
+          kghApi('POST', '/me', { nick: v }, function () { boardCache = {}; render(); });
+        } else render();
         if (v) toast(T('暱稱已設定為 ') + v);
       });
   }
@@ -1253,7 +1353,14 @@
       ok: quiz.ok, total: quiz.qs.length, secs: quiz.secs,
       date: new Date().toISOString().slice(0, 10) });
     state.mocks = state.mocks.slice(0, 30);
-    save(); buildNav(); markNav(); render();
+    save();
+    if (signedIn()) {
+      kghApi('POST', '/score', {
+        sid: quiz.sid, spec: quiz.spec || 'full', nick: state.nick || undefined,
+        score: Math.round(quiz.ok * 100 / quiz.qs.length), total: quiz.qs.length,
+      }, function () { boardCache = {}; render(); });
+    }
+    buildNav(); markNav(); render();
   }
 
   function viewMockResult(main) {
@@ -1588,6 +1695,7 @@
     }
     else if (top === 'quiz') { if (quiz && quiz.mode === 'mock') viewMockQuiz(main); else viewQuiz(main); }
     else if (top === 'mock') viewMock(main);
+    else if (top === 'friends') viewFriends(main);
     else if (top === 'wrong') viewWrong(main);
     else if (top === 'stats') viewStats(main);
     else if (top === 'guide') viewGuide(main);

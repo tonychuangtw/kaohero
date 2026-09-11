@@ -187,6 +187,27 @@
       'The questions and answers are open data, but collating them, proofreading them and writing an explanation for every single one takes time — and the site itself costs money to run.',
     '贊助方式': 'How to donate',
     '☕ 到 Buy Me a Coffee 贊助': '☕ Donate on Buy Me a Coffee',
+    /* --- 好友與後端榜（2026-09-11） --- */
+    '全站': 'Everyone',
+    '只看好友': 'Friends only',
+    '好友': 'Friends',
+    '要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。沒登入時只看得到基準線與範例名次。':
+      'Sign in (top right) to put your score on the board and see other people\u2019s real results. Without signing in you only see the reference lines and sample entries.',
+    '把自己的好友碼給對方、再把對方的碼加進來，雙方都加了才算朋友，模考英雄榜的「只看好友」才會看到彼此。':
+      'Share your friend code and add theirs. You become friends only when both sides have added each other; only then do you appear on each other\u2019s "Friends only" board.',
+    '請先登入（右上角「登入」）。': 'Please sign in first (top right).',
+    '讀取中…': 'Loading…',
+    '讀取失敗，請稍後再試。': 'Could not load. Please try again later.',
+    '加入好友碼': 'Add a friend code',
+    '輸入對方的好友碼（8 碼英數字）': 'Enter their friend code (8 letters/digits)',
+    '找不到這個好友碼。': 'No such friend code.',
+    '加入失敗，請稍後再試。': 'Could not add. Please try again later.',
+    '已加入，對方也加你之後就會互相看得到。': 'Added. Once they add you back, you will see each other.',
+    '我的好友碼：': 'My friend code: ',
+    '　暱稱：': ' · nickname: ',
+    '還沒有加任何人。': 'You have not added anyone yet.',
+    '互為好友': 'Friends',
+    '等對方也加你': 'Waiting for them to add you',
     /* --- 模考英雄榜（2026-09-11） --- */
     '模考英雄榜': 'Mock exam leaderboard',
     '全真': 'Full',
