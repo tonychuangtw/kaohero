@@ -28812,7 +28812,7 @@ window.APP_EXAMS = [
   "subjName": "審計學概要",
   "label": "108 年　四等　審計學概要",
   "n": 20,
-  "exp": 0,
+  "exp": 19,
   "mins": 60
  },
  {
