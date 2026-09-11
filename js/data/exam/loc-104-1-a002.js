@@ -250,7 +250,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "育嬰留職停薪 1 年",
     "每天減少工作時間 1 小時，減少之工作時間工資照給"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 性別工作平等法規定，受僱於僱用三十人以上雇主之受僱者，為撫育未滿三歲子女，得向雇主請求每天減少工作時間一小時或調整工作時間；事務所 35 人、子女 1 歲，A 女得請求調整工作時間，雇主不得拒絕。\n❌ (A) 家庭照顧假全年僅七日且併入事假計算，是臨時性請假，並非本題所問長期可向雇主請求的工作條件調整。\n❌ (C) 育嬰留職停薪期間至子女滿三歲止、最長二年，並非固定一年，且期間停薪，與丈夫失業須維持家庭收入的處境不符。\n❌ (D) 減少的工作時間依法「不得請求報酬」，選項稱工資照給與條文不符。\n📚 出處：性別工作平等法第 16 條、第 19 條、第 20 條、第 21 條"
   },
   {
    "n": 18,
@@ -531,7 +532,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104180_301_0206_37.webp"
+   "fig": "img/q/104180_301_0206_37.webp",
+   "exp": "✅ (A) 句意為「數位生活方式一點也不是久坐不動的」，後文舉行動運算、手持裝置與無線網路為例，正說明其隨身移動的特性，sedentary（久坐的、固定不動的）最切合。\n❌ (B) seductive 指誘人的、有魅力的，與行動裝置的舉例無關。\n❌ (C) accessible 指易於取得的，但「數位生活遠非易於取得」與後文舉例矛盾。\n❌ (D) adaptable 指適應力強的，說數位生活「遠非可適應的」同樣與文意相反。\n📚 出處：104 年地方特考三等法學知識與英文（英文克漏字）"
   },
   {
    "n": 38,
@@ -604,7 +606,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "Because each family member had a clearly-defined role to play.",
     "Because there were greater differentiations among age groups."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文章開頭指出早期社會缺乏明顯的成年過渡儀式，家庭與社區內不同年齡層互動密切，是因為社會與經濟功能尚未依年齡明顯區隔，因而產生延續感與相互依賴。\n❌ (B) 文章未提及早期家庭中老年人口較多，事實上前工業社會老年人口比例更低。\n❌ (C) 角色界線分明反而是後來年齡區隔化的結果，與早期互動密切的原因相反。\n❌ (D) 年齡層差異變大正是造成區隔（segregation）的原因，與題意相反。\n📚 出處：104 年地方特考三等法學知識與英文（閱讀測驗第 42 題至第 46 題）"
   },
   {
    "n": 43,
@@ -617,7 +620,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "It contributed to the independence of older people.",
     "It caused the disappearance of clear roles played by older people within the family."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文章指出現代中產階級家庭的退縮與私密化，使老年人被排除於可見的家庭角色之外，造成的是老人的「孤立」而非「獨立」，故本項敘述不正確。\n❌ (A) 文中明言其導致家庭與社區之間劃出更清楚的界線。\n❌ (B) 文中明言其強化了家庭內不同年齡層的區隔。\n❌ (D) 文中明言其導致老年人從可見的家庭角色中消失。\n📚 出處：同上（閱讀測驗第 43 題）"
   },
   {
    "n": 44,
@@ -630,7 +634,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "The transfer of family obligation to social institution",
     "The segregation of different age groups within the family"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文章明白表示，造成今日老人孤立的根源「並不在」家庭結構或居住安排的改變，而在家庭功能與價值的轉變，故居住安排不是真正的成因。\n❌ (B) 中產階級家庭的興起是文中明指的成因之一。\n❌ (C) 家庭義務移轉給社會機構（收容、感化等專門機構）是文中明指的成因。\n❌ (D) 家庭內不同年齡層的區隔加深，同為文中所指的成因。\n📚 出處：同上（閱讀測驗第 44 題）"
   },
   {
    "n": 45,
@@ -643,7 +648,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "To transfer older people to specialized institutions",
     "To reduce the scope of social-welfare function"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 依文章邏輯，老人的孤立源於年齡層區隔，因此讓老年人重新融入不同年齡混合的家庭群體，最能減輕其孤立感。\n❌ (A) 廢除傳統家庭結構並非文章主張，反而會削弱其所懷念的跨齡互動。\n❌ (C) 把老人送進專門機構正是造成孤立的原因之一。\n❌ (D) 縮減社會福利功能只會使照顧責任落空，無助於減少孤立。\n📚 出處：同上（閱讀測驗第 45 題）"
   },
   {
    "n": 46,
@@ -656,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "separation",
     "seduction第 47 題至第 50 題為題組We crave chills. It’s why we get a rush when we see Jason take his axe to some unsuspecting teen in “Friday the"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) segregation 指將不同群體加以分開、隔離，與 separation（分離、區隔）意義最接近。\n❌ (A) selection 是挑選、選擇，語意不同。\n❌ (B) seclusion 偏指個人的隱居、獨處，不是群體之間的區隔。\n❌ (D) seduction 是誘惑，與本字無關。\n📚 出處：同上（閱讀測驗第 46 題，字義題）"
   },
   {
    "n": 47,
@@ -669,7 +676,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "Fans of horror enjoy being logical on an intellectual level.",
     "Fans of horror enjoy feeling a sense of relief at the end."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 恐怖片的吸引力來自情緒上的刺激與安全感下的宣洩，而非讓觀眾在理智層面「保持邏輯」；理性分析反而會破壞恐懼帶來的快感。\n❌ (A) 觀眾在情緒上獲得高度激發，是恐怖片受歡迎的原因之一。\n❌ (B) 觀眾明知自己身處安全環境、未面臨真實威脅，因而敢於享受恐懼。\n❌ (D) 結局解除威脅所帶來的放鬆與解脫感，也是吸引觀眾的原因。\n📚 出處：104 年地方特考三等法學知識與英文（閱讀測驗第 47 題至第 50 題）"
   },
   {
    "n": 48,
@@ -682,7 +690,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "People need to deal with their fears.",
     "People count on other customers who are willing to pay."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「觀眾指望其他願意付錢的顧客」並非文章論點，文章談的是個人為何願意花錢尋求驚嚇，與他人是否付費無關。\n❌ (A) 人們願意在情緒層面體驗不適，正是文章的核心觀察。\n❌ (B) 人對黑暗面的著迷是文章用以解釋恐怖片魅力的理由。\n❌ (C) 藉由觀影面對並處理自身恐懼，亦為文章所提及。\n📚 出處：同上（閱讀測驗第 48 題）"
   },
   {
    "n": 49,
@@ -695,7 +704,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "The level of uncomfortable feelings that the audience experience is amazingly high.",
     "The theater always gives away free food."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「我們湧向恐怖片，就像戲院在免費送爆米花一樣」是以誇飾比喻人潮之多，意指觀看恐怖片的人數相當龐大。\n❌ (B) 句中的爆米花只是比喻，並非真在描述爆米花的消費量。\n❌ (C) 該句描述的是人數多寡，不是不適感的強度。\n❌ (D) 戲院免費送食物只是假設性的比喻，並非事實陳述。\n📚 出處：同上（閱讀測驗第 49 題，修辭理解）"
   },
   {
    "n": 50,
@@ -708,7 +718,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "How to Enjoy a Horror Movie",
     "Why Horror Movies are Losing Audience"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全文在解釋人們為何願意花錢尋求驚嚇的心理，「Why We Pay to Be Scared」最能涵蓋主旨。\n❌ (A) 文章並未主張恐怖片有害情緒健康，反而說明其宣洩功能。\n❌ (C) 文章解釋原因而非教人如何觀賞恐怖片。\n❌ (D) 文章強調恐怖片廣受歡迎，與「觀眾流失」相反。\n📚 出處：同上（閱讀測驗第 50 題，主旨題）"
   }
  ]
 };
