@@ -28406,7 +28406,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "108 年　三等　民法（財稅行政組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
