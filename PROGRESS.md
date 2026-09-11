@@ -29,7 +29,7 @@ NEXT_ACTION: **114～104 年全部完成**（地特 653/774 卷、22,060/27,010 
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 23:40 台北
+UPDATED: 2026-09-12 07:47 台北
 
 ---
 
