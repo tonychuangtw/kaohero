@@ -27608,7 +27608,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "109 年　三等　中級會計學",
   "n": 20,
-  "exp": 0,
+  "exp": 19,
   "mins": 60
  },
  {
