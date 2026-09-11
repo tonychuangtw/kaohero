@@ -26852,7 +26852,7 @@ window.APP_EXAMS = [
   "subjName": "行政法（法制組）",
   "label": "110 年　三等　行政法（法制組）",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
