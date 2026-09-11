@@ -26740,7 +26740,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "110 年　三等　會計學",
   "n": 25,
-  "exp": 0,
+  "exp": 17,
   "mins": 75
  },
  {
