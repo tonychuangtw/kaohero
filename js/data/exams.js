@@ -27496,7 +27496,7 @@ window.APP_EXAMS = [
   "subjName": "行政學",
   "label": "109 年　三等　行政學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
