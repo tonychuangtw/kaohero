@@ -31234,7 +31234,7 @@ window.APP_EXAMS = [
   "subjName": "公共管理概要",
   "label": "105 年　四等　公共管理概要",
   "n": 25,
-  "exp": 0,
+  "exp": 23,
   "mins": 75
  },
  {
