@@ -26110,7 +26110,7 @@ window.APP_EXAMS = [
   "subjName": "民法概要",
   "label": "111 年　四等　民法概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
