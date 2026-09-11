@@ -27342,7 +27342,7 @@ window.APP_EXAMS = [
   "subjName": "會計學大意",
   "label": "110 年　五等　會計學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 39,
   "mins": 60
  },
  {
