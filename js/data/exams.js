@@ -29708,7 +29708,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "107 年　四等　經濟學概要",
   "n": 50,
-  "exp": 0,
+  "exp": 47,
   "mins": 60
  },
  {
