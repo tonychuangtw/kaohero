@@ -34426,7 +34426,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規大意",
   "label": "102 年　五等　稅務法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
