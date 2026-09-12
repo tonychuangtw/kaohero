@@ -593,7 +593,8 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/114190_301_0205_41.webp"
+   "fig": "img/q/114190_301_0205_41.webp",
+   "exp": "✅ (B) provide (an) insight into 為固定搭配，指「讓人深入了解」原爆造成的破壞。\n❌ (A) confusion 指混亂，與 provide a moving ___ into 的正面語意不合。\n❌ (C) ignorance 指無知，語意相反。\n❌ (D) naivety 指天真，語意不合。\n📚 出處：搭配詞 provide insight into"
   },
   {
    "n": 42,
@@ -608,7 +609,8 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/114190_301_0205_42.webp"
+   "fig": "img/q/114190_301_0205_42.webp",
+   "exp": "✅ (C) 觀眾透過照片與證言「獲得」對得獎者訊息的理解，gain an understanding 為固定搭配。\n❌ (A) waste 指浪費，語意不合。\n❌ (B) surrender 指投降、放棄。\n❌ (D) miss 指錯過，與文意相反。\n📚 出處：搭配詞 gain an understanding"
   },
   {
    "n": 43,
@@ -623,7 +625,8 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/114190_301_0205_43.webp"
+   "fig": "img/q/114190_301_0205_43.webp",
+   "exp": "✅ (B) 該句以攝影師為主詞、需要一個主要動詞，且下一句用 has captured 呼應，故用現在完成式 has portrayed。\n❌ (A) portrays 雖為動詞，但與後文的現在完成式時態不一致。\n❌ (C) portraying 為分詞，句子將缺主要動詞。\n❌ (D) to portray 為不定詞，句子同樣缺主要動詞。\n📚 出處：現在完成式與主要動詞"
   },
   {
    "n": 44,
@@ -638,7 +641,8 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/114190_301_0205_44.webp"
+   "fig": "img/q/114190_301_0205_44.webp",
+   "exp": "✅ (D) stand in stark contrast to 為固定用法，指與一九四五年的破壞影像形成「鮮明對比」。\n❌ (A) reasonable 不與 contrast 搭配。\n❌ (B) positive contrast 非英語慣用搭配。\n❌ (C) good contrast 語意含糊且非此處慣用語。\n📚 出處：搭配詞 stark contrast"
   },
   {
    "n": 45,
@@ -653,7 +657,8 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/114190_301_0205_45.webp"
+   "fig": "img/q/114190_301_0205_45.webp",
+   "exp": "✅ (B) collaborate with somebody 為固定搭配，指與建築師隈研吾合作。\n❌ (A) collaborate in 後接合作的「事項」而非對象。\n❌ (C) from 不與 collaborate 搭配。\n❌ (D) over 不與 collaborate 搭配表對象。\n📚 出處：動詞 collaborate 的介系詞搭配"
   },
   {
    "n": 46,
