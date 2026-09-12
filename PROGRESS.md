@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **114～103 年全部完成；102 年三等、四等全部完成，五等做到 c012**（全站 105,618/109,281 題、96.6%）。下一卷：**`loc-102-1-c013` 勞工行政與勞工法規大意**（五等 50 題），接著 c014～c029，102 年即收尾，再接 101 年。每卷流程：讀題（node -e 讀 js/data/exam/<pid>.js；圖片題用 Read 工具開 img/q/*.webp）→ Write 工具寫 patch JSON 到 scratchpad → node $SP/chk.js → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push，沒有做到一半的卷。
+NEXT_ACTION: **地方特考 loc-* 102～114 年全部收尾完成**（26,105/27,010，其餘為已在各卷 commit 記錄的跳過題）；全站 106,434/109,281 題（97.4%）。**新階段：掃全站「未寫但有 fig 欄位」的 407 題**——這些題的題幹與選項整頁都在 img/q/*.webp 上，用 Read 工具開圖就寫得出來（多半是英文／國文的克漏字與閱讀題組，一張圖常含一整頁 10～15 題）。清單用這段指令重跑：`node -e "const fs=require('fs');fs.readdirSync('js/data/exam').forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const p=window.APP_EXAM_PAPERS[f.replace('.js','')];if(!p)return;p.qs.forEach(q=>{if(!q.exp&&!q.void&&q.fig)console.log(f.replace('.js','')+' #'+q.n+' '+q.fig)})})"`。已完成：`loc-107-1-b002`（15 題）、`loc-112-1-a010`（25 題，全站最後一卷 0 詳解的卷）。下一卷：`gao-112-1-g020`（11 題有圖）。每卷流程：Read 開圖判讀 → Write 工具寫 patch JSON 到 scratchpad → node $SP/chk.js → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push。
 104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -29,7 +29,7 @@ NEXT_ACTION: **114～103 年全部完成；102 年三等、四等全部完成，
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 12:21 台北
+UPDATED: 2026-09-12 14:40 台北
 
 ---
 
