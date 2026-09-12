@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **地方特考 loc-* 102～114 年全部收尾完成**（26,105/27,010，其餘為已在各卷 commit 記錄的跳過題）；全站 106,434/109,281 題（97.4%）。**新階段：掃全站「未寫但有 fig 欄位」的 407 題**——這些題的題幹與選項整頁都在 img/q/*.webp 上，用 Read 工具開圖就寫得出來（多半是英文／國文的克漏字與閱讀題組，一張圖常含一整頁 10～15 題）。清單用這段指令重跑：`node -e "const fs=require('fs');fs.readdirSync('js/data/exam').forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const p=window.APP_EXAM_PAPERS[f.replace('.js','')];if(!p)return;p.qs.forEach(q=>{if(!q.exp&&!q.void&&q.fig)console.log(f.replace('.js','')+' #'+q.n+' '+q.fig)})})"`。已完成：`loc-107-1-b002`（15 題）、`loc-112-1-a010`（25 題，全站最後一卷 0 詳解的卷）。下一卷：`gao-112-1-g020`（11 題有圖）。每卷流程：Read 開圖判讀 → Write 工具寫 patch JSON 到 scratchpad → node $SP/chk.js → node tools/set-exp.js <patch> --write → node tools/build-index.js --write → node test/test.js → git add 該卷與 js/data/exams.js → commit + push。工作區乾淨、已全部 push。
+NEXT_ACTION: **逐題詳解主線已做到可做的盡頭：全站 106,544/109,281 題（97.5%）**。（a）地方特考 loc-* 102～114 年 774 卷全部收尾；（b）全站已無「一題詳解都沒有」的卷（最後一卷 loc-112-1-a010 已補完）；（c）「未寫但有 fig 欄位」的 407 題已掃完一輪，能開圖判讀的都寫了，剩 282 題確認寫不出來（見下方「剩下的 2,737 題是什麼」）。**下一步請 Tony 指示**：可選 ①`docs/monetization-plan.md` 的題解分離／變現四階段（原本就說「詳解寫完再動工」）、②靜態頁 `/exam/<id>/` 路由專案、③新增考試類別、④SEO/AEO 監控站上要 Tony 登入的手動項。無指示時本線維持 done，不再自行開工。
 104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -29,7 +29,23 @@ NEXT_ACTION: **地方特考 loc-* 102～114 年全部收尾完成**（26,105/27,
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 13:18 台北
+UPDATED: 2026-09-12 13:47 台北
+
+## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
+
+| 類別 | 題數 | 說明 |
+|---|---|---|
+| 廢題（`void:true`） | 101 | 官方公告不計分，本來就不寫 |
+| 有 fig 但寫不出來 | 282 | 幾乎都是英文／國文的克漏字與閱讀題組：圖檔只截到「選項那一行」，題組原文那一段在轉檔時只剩前一題選項 (D) 尾端的一兩句，整段遺失。另有少數中醫藥材辨識照片、牙科 X 光片、生藥圖，無法可靠判讀 |
+| 沒有 fig 也寫不出來 | 2,354 | ①電路圖／波形圖題但物件沒有 fig 欄位（基本電學、電子學、數位邏輯）②有機化學結構式、矩陣、公式在轉檔時掉成亂碼 ③題組原文整段遺失 ④官方答案與法條／教科書算式衝突（每一題都寫在該卷的 commit message 裡） |
+
+判斷「有 fig 的題組能不能寫」的方法（下次要再掃時用）：題組 [a..b] 的原文，通常排在第 a-1 題那張圖的下半部。所以
+`fig(a-1)` 或 `fig(a)` 是大檔（>40KB）才有機會；如果第 a-1 題沒有 fig，原文就只剩它選項 (D) 尾端那一兩句，寫不出來。
+一次重跑清單的指令：
+```
+node -e "const fs=require('fs');fs.readdirSync('js/data/exam').forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const p=window.APP_EXAM_PAPERS[f.replace('.js','')];if(!p)return;p.qs.forEach(q=>{if(!q.exp&&!q.void&&q.fig)console.log(f.replace('.js','')+' #'+q.n+' '+q.fig)})})"
+```
+
 
 ---
 
