@@ -532,7 +532,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_37.webp"
+   "fig": "img/q/104080_401_0112_37.webp",
+   "exp": "✅ (B) 全文在談兩性購買行為的轉變，故指「性別差異」正在快速改變。\n❌ (A) agreements 指協議，語意不合。\n❌ (C) interactions 指互動，非本文主旨。\n❌ (D) relationships 指關係，與購買行為的對比不合。\n📚 出處：名詞語意與上下文推斷"
   },
   {
    "n": 38,
@@ -547,7 +548,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_38.webp"
+   "fig": "img/q/104080_401_0112_38.webp",
+   "exp": "✅ (D) 空格後以 Today, however 作對比，故前句須指「直到最近為止」電子產品市場以男性為主。\n❌ (A) At this moment 指此刻，與 Today 重複衝突。\n❌ (B) From time to time 指偶爾，語意不合。\n❌ (C) In the past few days 時間跨度過短。\n📚 出處：時間副詞片語與語意對比"
   },
   {
    "n": 39,
@@ -562,7 +564,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_39.webp"
+   "fig": "img/q/104080_401_0112_39.webp",
+   "exp": "✅ (C) 與 new 並列修飾電子產品，指「更創新的」產品。\n❌ (A) decorative 指裝飾性的，語意不合。\n❌ (B) excessive 指過度的，語意不合。\n❌ (D) productive 多用於形容人或過程的生產力。\n📚 出處：形容詞語意辨析"
   },
   {
    "n": 40,
@@ -577,7 +580,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_40.webp"
+   "fig": "img/q/104080_401_0112_40.webp",
+   "exp": "✅ (B) 呼應前文的「新產品」，指女性願意嘗試「最新的」產品。\n❌ (A) broadest 指最寬廣的，語意不合。\n❌ (C) farthest 指最遠的，語意不合。\n❌ (D) remotest 指最偏遠的，語意不合。\n📚 出處：形容詞最高級的語意選擇"
   },
   {
    "n": 41,
@@ -592,7 +596,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_41.webp"
+   "fig": "img/q/104080_401_0112_41.webp",
+   "exp": "✅ (C) exposure to sunlight 為固定搭配，指日照量少。\n❌ (A) display 指展示，不與 to sunlight 搭配。\n❌ (B) tendency 指傾向，語意不合。\n❌ (D) objection 指反對，語意不合。\n📚 出處：搭配詞 exposure to"
   },
   {
    "n": 42,
@@ -607,7 +612,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_42.webp"
+   "fig": "img/q/104080_401_0112_42.webp",
+   "exp": "✅ (A) 指冬天「來臨」且日照變少，approach 作不及物動詞表接近。\n❌ (B) liberate 指解放，語意不合。\n❌ (C) qualify 指具備資格，語意不合。\n❌ (D) bounce 指彈跳，語意不合。\n📚 出處：動詞 approach 的用法"
   },
   {
    "n": 43,
@@ -622,7 +628,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_43.webp"
+   "fig": "img/q/104080_401_0112_43.webp",
+   "exp": "✅ (C) 「只要接受治療，症狀就能緩解」，as long as 表條件。\n❌ (A) in order that 表目的，須接表意願的助動詞。\n❌ (B) so that 表結果或目的，語意不合。\n❌ (D) as though 表「彷彿」，語意不合。\n📚 出處：條件連接詞 as long as"
   },
   {
    "n": 44,
@@ -637,7 +644,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_44.webp"
+   "fig": "img/q/104080_401_0112_44.webp",
+   "exp": "✅ (C) by means of 表「藉由……的方法」，指藉現代科技取得日照。\n❌ (A) with regard to 表「關於」。\n❌ (B) in comparison to 表「與……相比」。\n❌ (D) in spite of 表「儘管」。\n📚 出處：介系詞片語 by means of"
   },
   {
    "n": 45,
@@ -652,7 +660,8 @@ window.APP_EXAM_PAPERS['gao-104-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104080_401_0112_45.webp"
+   "fig": "img/q/104080_401_0112_45.webp",
+   "exp": "✅ (B) 與 cured 並列，指症狀可被「緩解」，ease 作及物動詞的被動式。\n❌ (A) raged 指暴怒、肆虐，語意相反。\n❌ (C) gazed 指凝視，不能用於被動接此主詞。\n❌ (D) scared 指使害怕，語意不合。\n📚 出處：動詞 ease 的語意與被動語態"
   },
   {
    "n": 46,
