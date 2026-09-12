@@ -16202,7 +16202,7 @@ window.APP_EXAMS = [
   "subjName": "基礎醫學",
   "label": "103 年第二次　基礎醫學",
   "n": 80,
-  "exp": 0,
+  "exp": 71,
   "mins": 60
  },
  {
