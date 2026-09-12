@@ -29,7 +29,7 @@ NEXT_ACTION: **114～103 年全部完成；102 年三等（a001～a016）全部�
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 13:05 台北
+UPDATED: 2026-09-12 11:11 台北
 
 ---
 
