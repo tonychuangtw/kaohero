@@ -84,7 +84,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
    ],
    "needfig": true,
    "fig": "img/q/103180_501_0207_5.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 印度麥當勞因應當地以素食為主的宗教飲食文化推出素食漢堡，是跨國企業依在地條件調整產品的典型「全球在地化」。\n❌ (A) 茉莉花革命是政治抗爭的跨國擴散，屬全球化下的社會運動。\n❌ (B) 反媒體壟斷請願是國內公民運動，未涉及全球與在地的結合。\n❌ (D) 雲門舞集海外巡演是本土文化的對外輸出，屬「在地全球化」。\n📚 出處：全球化與全球在地化（glocalization）"
   },
   {
    "n": 6,
@@ -139,7 +140,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "年滿 20 歲，未受監護宣告之國民亦可提案公民投票，此提案人數應達最近一次總統、副總統選舉選舉人",
     "總數 5‰以上"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 憲法修正案與領土變更案依憲法增修條文，係由立法院提出後交由公民複決，並非由行政院經總統核可交付公民投票，故本項敘述錯誤。\n❌ (B) 立法院對重大政策的創制或複決，得附具主文、理由書經院會通過後交由中選會辦理公投。\n❌ (C) 國家遭受外力威脅致主權有改變之虞時，總統得經行政院院會決議交付防禦性公投。\n❌ (D) 公民提案人數應達最近一次總統副總統選舉選舉人總數的千分之五以上。\n📚 出處：公民投票法；中華民國憲法增修條文第 1 條、第 12 條"
   },
   {
    "n": 10,
@@ -589,7 +591,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "The article is about how the author learned a lesson from his older brother.",
     "The article is about how the author learned a lesson from his younger brother."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全文以作者的弟弟不斷發問為主軸，最後作者從弟弟身上得到啟發，故主旨是作者從弟弟身上學到一課。\n❌ (A) 文中愛發問的是弟弟，不是哥哥。\n❌ (B) 發問的人不是作者本人。\n❌ (C) 啟發來自弟弟而非哥哥。\n📚 出處：103 年地方特考五等 公民與英文 第 41 題"
   },
   {
    "n": 42,
@@ -602,7 +605,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "playful",
     "impolite"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) irritating 意為「惱人的、令人心煩的」，與 annoying 同義。\n❌ (B) curious 意為好奇的。\n❌ (C) playful 意為愛玩鬧的。\n❌ (D) impolite 意為不禮貌的。\n📚 出處：103 年地方特考五等 公民與英文 第 42 題"
   },
   {
    "n": 43,
@@ -615,7 +619,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "The author invented answers to his brother’s questions.",
     "The author tried to answer his brother’s questions but often failed."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 作者起初不耐煩，就隨口編造答案敷衍弟弟的問題。\n❌ (A) 作者並非完全不理會，而是給了（編造的）回答。\n❌ (B) 協助弟弟找出正確答案是後來的轉變，非一開始的反應。\n❌ (D) 文中並非努力作答而失敗，而是刻意編造。\n📚 出處：103 年地方特考五等 公民與英文 第 43 題"
   },
   {
    "n": 44,
@@ -628,7 +633,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "It helps a student review what the teacher has taught.",
     "It shows a student’s performance at school."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) report card（成績單）記載學生在校的學習成績與表現。\n❌ (A) 成績單本身不具教學字母的功能。\n❌ (B) 它呈現的是整體學習表現，不限於字母學習的進度。\n❌ (C) 複習教材是課本或講義的功能。\n📚 出處：103 年地方特考五等 公民與英文 第 44 題"
   },
   {
    "n": 45,
@@ -641,7 +647,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "One should never stop feeling curious about things in life.",
     "One should never stop working hard at school."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 作者從弟弟不停發問中體會到，人不應停止對生活中事物保持好奇心。\n❌ (A) 文中的啟示與是否嘲笑哥哥無關。\n❌ (B) 重點不在於不可嘲笑弟弟，而在於好奇心的可貴。\n❌ (D) 文章談的是好奇心，非在校用功與否。\n📚 出處：103 年地方特考五等 公民與英文 第 45 題"
   },
   {
    "n": 46,
