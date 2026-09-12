@@ -632,7 +632,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "There is a close correlation between the soles of the feet and the internal organs.",
     "The body can heal itself by producing a certain reflex response to fight off a disease."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中說 Head 主張人體每個部位都反映在腳底，並證明腳底這些區域與內臟之間有緊密的關聯，這正是反射療法的理論基礎。\n❌ (A) 刺激腳底帶來的是反射反應，文中並未說是興奮感。\n❌ (B) 按摩紓壓是其功效之一，不是理論本身，且文中未提對精神疾病有奇效。\n❌ (D) 身體自我療癒並非文中所述的理論內容。\n📚 出處：103 年地方特考四等 法學知識與英文 第 44 題（閱讀測驗：反射療法）"
   },
   {
    "n": 45,
@@ -645,7 +646,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "Come into existence",
     "Define the scope"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) see the light of day 意為「問世、誕生」；文中假設若 Head 未提出此想法，反射療法的原理就永遠不會問世。\n❌ (A) 睡醒是 wake up，非此片語的意思。\n❌ (B) 該片語與宗教信仰無關。\n❌ (D) 界定範圍與原文語境不符。\n📚 出處：103 年地方特考四等 法學知識與英文 第 45 題"
   },
   {
    "n": 46,
@@ -658,7 +660,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "It is often confused with foot massage.",
     "It has been a standard practice in Western medicine for over 150 years.第 47 題至第 50 題為題組When we view a scene in which another person exhibits delight, pain, or disgust, the parts of our brain that react"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中明言 reflexology is often mistakenly associated with foot massage，即常被誤認為足部按摩，但其實複雜得多。\n❌ (A) 反射療法使用的是拇指或手指的指壓，並非特殊器械。\n❌ (B) 文中指出它可對抗多種病痛，並非不能用於治療。\n❌ (D) 文中說它正逐漸取得與主流輔助醫學並列的地位，並非已成為西方醫學逾一百五十年的標準療法。\n📚 出處：103 年地方特考四等 法學知識與英文 第 46 題"
   },
   {
    "n": 47,
@@ -671,7 +674,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "Being able to react to another person’s disgust is an evolutionary advantage.",
     "Scientists have proved that the anterior insula is responsible for three emotions."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全文由觀看他人表情會activate大腦相同區域談起，再以閱讀厭惡情節的實驗說明文字同樣能引發情緒，主旨即閱讀與看電影一樣能觸動情緒。\n❌ (B) fMRI 只是實驗工具，非文章主旨。\n❌ (C) 能對他人的厭惡產生反應是文中提及的演化優勢之一，但非全文重點。\n❌ (D) 文章未主張前腦島只負責三種情緒。\n📚 出處：103 年地方特考四等 法學知識與英文 第 47 題（閱讀測驗：情緒與前腦島）"
   },
   {
    "n": 48,
@@ -684,7 +688,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "To see how many emotions the anterior insula governed.",
     "To test how people reacted when reading about someone experiencing disgust."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 該中心的實驗是讓受試者閱讀描寫他人感到厭惡的文字，觀察其大腦反應，以檢驗閱讀是否也能引發相同情緒。\n❌ (A) 記錄對酸敗牛奶的反應只是文中舉的情境，非實驗目的。\n❌ (B) 實驗目的不在測試儀器本身的效能。\n❌ (C) 實驗並非在計算前腦島掌管幾種情緒。\n📚 出處：103 年地方特考四等 法學知識與英文 第 48 題"
   },
   {
    "n": 49,
@@ -697,7 +702,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "You learn from other people’s experiences.",
     "You read a lot and go to the movies a lot."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 能從他人的經驗中學習（不必親身嘗試危險或令人作嘔的事物即知避開），正是文中所稱的演化優勢。\n❌ (A) 觀看他人厭惡的影片只是引發反應的情境，本身不是優勢。\n❌ (B) 喝到美味飲料而感到愉快屬個人感受。\n❌ (D) 大量閱讀與看電影是行為習慣，非演化上的優勢。\n📚 出處：103 年地方特考四等 法學知識與英文 第 49 題"
   },
   {
    "n": 50,
@@ -710,7 +716,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "Reading and viewing a movie about disgust can activate our own feelings of disgust.",
     "If you give a person with damaged anterior insula a glass of sour milk, he or she would not feel disgusted."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中並未斷言醉酒的人「一定」會把牛奶吐出來，此種絕對化的敘述與原文不符。\n❌ (B) fMRI 掃描儀測量的確實是腦部血流的變化。\n❌ (C) 閱讀與觀看描寫厭惡的內容都能激發我們自身的厭惡感，與原文相符。\n❌ (D) 前腦島受損者喝到酸敗牛奶不會感到厭惡，與原文相符。\n📚 出處：103 年地方特考四等 法學知識與英文 第 50 題"
   }
  ]
 };
