@@ -16202,7 +16202,7 @@ window.APP_EXAMS = [
   "subjName": "基礎醫學",
   "label": "103 年第二次　基礎醫學",
   "n": 80,
-  "exp": 71,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -16216,7 +16216,7 @@ window.APP_EXAMS = [
   "subjName": "基本護理學與護理行政",
   "label": "103 年第二次　基本護理學與護理行政",
   "n": 80,
-  "exp": 49,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -16230,7 +16230,7 @@ window.APP_EXAMS = [
   "subjName": "內外科護理學",
   "label": "103 年第二次　內外科護理學",
   "n": 80,
-  "exp": 57,
+  "exp": 79,
   "mins": 60
  },
  {
