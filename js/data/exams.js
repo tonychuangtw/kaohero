@@ -15852,7 +15852,7 @@ window.APP_EXAMS = [
   "subjName": "基礎醫學",
   "label": "105 年第一次　基礎醫學",
   "n": 80,
-  "exp": 66,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -15866,7 +15866,7 @@ window.APP_EXAMS = [
   "subjName": "基本護理學與護理行政",
   "label": "105 年第一次　基本護理學與護理行政",
   "n": 80,
-  "exp": 52,
+  "exp": 80,
   "mins": 60
  },
  {
@@ -15880,7 +15880,7 @@ window.APP_EXAMS = [
   "subjName": "內外科護理學",
   "label": "105 年第一次　內外科護理學",
   "n": 80,
-  "exp": 66,
+  "exp": 80,
   "mins": 60
  },
  {
@@ -15894,7 +15894,7 @@ window.APP_EXAMS = [
   "subjName": "產兒科護理學",
   "label": "105 年第一次　產兒科護理學",
   "n": 80,
-  "exp": 54,
+  "exp": 80,
   "mins": 60
  },
  {
@@ -15908,7 +15908,7 @@ window.APP_EXAMS = [
   "subjName": "精神科與社區衛生護理學",
   "label": "105 年第一次　精神科與社區衛生護理學",
   "n": 80,
-  "exp": 41,
+  "exp": 79,
   "mins": 60
  },
  {
