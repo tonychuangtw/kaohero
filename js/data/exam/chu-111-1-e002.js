@@ -1,0 +1,674 @@
+/* 111 年　初等考試　公民與英文（一般行政組）（50 題）
+   試題與標準答案為考選部考畢試題查詢平臺公開資料；解析為本站自撰。 */
+window.APP_EXAM_PAPERS = window.APP_EXAM_PAPERS || {};
+window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
+ "id": "chu-111-1-e002",
+ "cat": "civil",
+ "exam": "chu",
+ "stage": 1,
+ "roc": 111,
+ "nth": 1,
+ "code": "111010",
+ "subj": "e002",
+ "title": "111 年　初等考試　公民與英文（一般行政組）",
+ "subjName": "公民與英文（一般行政組）",
+ "src": "考選部考畢試題查詢平臺公開之試題與標準答案",
+ "mins": 60,
+ "qs": [
+  {
+   "n": 1,
+   "pt": 1,
+   "type": "single",
+   "q": "以下何種權利屬於智慧財產權？",
+   "o": [
+    "債權",
+    "抵押權",
+    "商標權",
+    "姓名權"
+   ],
+   "a": 2
+  },
+  {
+   "n": 2,
+   "pt": 1,
+   "type": "single",
+   "q": "甲基金會自創辦以來，致力於雛妓救援與家暴受害者庇護，近年尤努力消彌社會中所有性/性別暴力行為與壓迫，以建立性別公義的社會。有關甲基金會的敘述，下列何者正確？",
+   "o": [
+    "和政黨一樣都是屬於非營利組織",
+    "從民法的屬性分類屬於社團法人",
+    "關心社會議題的層面較政黨多元",
+    "常藉由政治參選達成該組織宗旨"
+   ],
+   "a": 0
+  },
+  {
+   "n": 3,
+   "pt": 1,
+   "type": "single",
+   "q": "柔柔生長在一個小康的家庭，父母親從小就栽培她學習各項才藝，塑造了柔柔高雅的氣質和談吐。上述現象最適合用下列那一種概念加以說明？",
+   "o": [
+    "經濟資本",
+    "社會資本",
+    "象徵資本",
+    "文化資本"
+   ],
+   "a": 3
+  },
+  {
+   "n": 4,
+   "pt": 1,
+   "type": "single",
+   "q": "據環保團體估計，每年約有一千多萬噸的塑膠垃圾流入海中，超過 700 種海洋物種受到海洋塑膠污染的影響，海洋垃圾也造成對船舶航行的阻礙、生態系惡化等不良影響，前述現象最適合用下列何種概念說明？",
+   "o": [
+    "外部成本內部化",
+    "共有財的悲歌",
+    "搭便車心態",
+    "鄰避效應"
+   ],
+   "a": 1
+  },
+  {
+   "n": 5,
+   "pt": 1,
+   "type": "single",
+   "q": "某甲認為年輕人自己不夠努力因此才買不起房子，某乙反駁認為，許多財團手握大筆資金投入房地產市場，成為炒房元兇，年輕人靠著微薄的薪水，不論如何努力也永遠追不上高漲的房價。某乙的說法最接近下列何項觀點？",
+   "o": [
+    "功能論",
+    "衝突論",
+    "成就地位論",
+    "人力資本論"
+   ],
+   "a": 1
+  },
+  {
+   "n": 6,
+   "pt": 1,
+   "type": "single",
+   "q": "美國大選常見各族群文化與價值之間的激辯，但似乎都不影響美國民眾對國家的支持。請問美國人民對國家的齊心支持，最可能基於下列何項理由？",
+   "o": [
+    "公民身分的保障形成對國家的認同",
+    "國家透過嚴密監控形成公民意識",
+    "透過種族通婚大幅減少社會分歧",
+    "所得平均形成強大的社會凝聚力"
+   ],
+   "a": 0
+  },
+  {
+   "n": 7,
+   "pt": 1,
+   "type": "single",
+   "q": "隨著永續發展思潮的風起雲湧，消費者願意以合理價格，購買以友善耕作方式所生產的蔬果，此種購買行為符合下列何種概念？",
+   "o": [
+    "綠色廠房",
+    "企業社會責任",
+    "比較利益",
+    "綠色消費"
+   ],
+   "a": 3
+  },
+  {
+   "n": 8,
+   "pt": 1,
+   "type": "single",
+   "q": "阮氏是從東南亞來臺灣從事家庭看護的移工，工作已經一年多，非常細心負責，深受被照顧者李伯伯家人的喜愛，彼此感情非常好。某日她推著坐在輪椅上的李伯伯要去投票，遭到一輛闖紅燈的機車撞上，讓她腿部扭傷，醫生評估必須休養兩週。關於阮氏在臺灣享有的權利，下列何者正確？",
+   "o": [
+    "阮氏在臺灣居住已超過四個月，故具有市長投票權",
+    "因阮氏是外國人，故無法獲得肇事者的醫療賠償費",
+    "阮氏在休養期間享有國民年金保險給付的權利",
+    "在臺灣工作期間，雇主可以為阮氏投保勞工保險"
+   ],
+   "a": 3
+  },
+  {
+   "n": 9,
+   "pt": 1,
+   "type": "single",
+   "q": "一名 15 歲的國中生，下載行政院人事行政總處天然災害停止辦公及上課情形查詢網頁的原始檔案，將其改成今日起停班、停課一年等內容。這名國中生被依偽造公文書罪函送法辦。下列敘述何者正確？",
+   "o": [
+    "其行為已影響社會至鉅具該當性，所以由檢察官調查起訴",
+    "國中生缺乏對刑法的完整了解，所以其行為不具有違法性",
+    "他只是國中生的年齡，所以他的行為不具備完全的有責性",
+    "該國中生出於好玩，並非故意犯罪，因此他不須負有責性"
+   ],
+   "a": 2
+  },
+  {
+   "n": 10,
+   "pt": 1,
+   "type": "single",
+   "q": "近年來，臺灣多起隨機殺人案件引發社會關注，而部分加害者因罹患思覺失調症而獲判無罪，判決或辯護理由常引發媒體與大眾的議論。但法治國家就是要在正當法律程序下仔細分析罪犯的動機和成因，律師的角色是在維護被告基本訴訟權利不被侵犯，而法官則是依法公正審判。若從人權的角度出發，上述內容是在強調何種權利保障的重要性？",
+   "o": [
+    "行動自由",
+    "公民參政",
+    "社會安全",
+    "公正審判"
+   ],
+   "a": 3
+  },
+  {
+   "n": 11,
+   "pt": 1,
+   "type": "single",
+   "q": "我國「彈劾權」的設計，與三權分立的國家略有不同。關於我國彈劾權的行使，下列何者正確？",
+   "o": [
+    "立法院可以對行政院院長提出彈劾案",
+    "立法院可調查且彈劾違法的公務人員",
+    "監察院可對違法失職的總統或副總統進行彈劾",
+    "監察院可彈劾縣、市首長並移送司法懲戒"
+   ],
+   "a": 3
+  },
+  {
+   "n": 12,
+   "pt": 1,
+   "type": "single",
+   "q": "我國自 1991 年至 2005 年共經歷七次憲法增修，下列何者為修憲的成果？",
+   "o": [
+    "憲法修正案及領土變更案須經人民連署提案",
+    "命令或法律有違憲之虞者由大法官進行解釋",
+    "正副總統彈劾案由立法院提案，憲法法庭審理",
+    "各縣市的縣市長及縣市議員，皆改由人民直選"
+   ],
+   "a": 2
+  },
+  {
+   "n": 13,
+   "pt": 1,
+   "type": "single",
+   "q": "關於我國近年來憲法的變遷與成長，下列敘述何者正確？",
+   "o": [
+    "憲法修正案經公民複決，有效同意票過選舉人總額之半數即通過",
+    "憲法修正案經公民複決程序，通過門檻與全國性公民投票案相同",
+    "除立法院外，公民亦可經全國性公民投票程序，提出憲法修正案",
+    "司法院大法官以憲法解釋的方式，來推翻不合時宜的憲法條文"
+   ],
+   "a": 0
+  },
+  {
+   "n": 14,
+   "pt": 1,
+   "type": "single",
+   "q": "公民投票指全體公民透過行使投票的權利，對國家或社會的重大或特定問題進行表決的制度。關於我國公民投票的制度與實施，下列何者最為適切？",
+   "o": [
+    "每一年皆可舉行一次公民投票",
+    "投票資格與正副總統選舉相同",
+    "展現國民主權",
+    "保護社會上少數人的權益"
+   ],
+   "a": 2
+  },
+  {
+   "n": 15,
+   "pt": 1,
+   "type": "single",
+   "q": "基於民主政治的理念，為確保人民意見得以有效影響國家權力，成為政府決策時考量的重要因素，下列敘述何者正確？",
+   "o": [
+    "人民發表任何政治性言論，均得免除刑事責任",
+    "政府機關制定政策時，須舉辦全國性民意調查為參考依據",
+    "外國籍人士一旦獲得永久居留權，依法應賦予選舉權利",
+    "政府應依法保障人民合法的集會遊行活動"
+   ],
+   "a": 3
+  },
+  {
+   "n": 16,
+   "pt": 1,
+   "type": "single",
+   "q": "依據憲法增修條文規定，行政院院長之任命，已無須再經立法院同意，惟立法院得以下述何種法定程序使行政院院長去職？",
+   "o": [
+    "立法委員連署對行政院院長提出不信任案，經全體立法委員二分之一以上贊成後通過",
+    "立法委員號召選民連署通過後，以相對多數投票罷免行政院院長",
+    "立法委員連署聲請司法院大法官召開憲法法庭，宣告行政院院長解職",
+    "立法委員以三分之二多數對行政院院長行使彈劾權，使行政院院長去職"
+   ],
+   "a": 0
+  },
+  {
+   "n": 17,
+   "pt": 1,
+   "type": "single",
+   "q": "A 候選人在某次立法委員選舉中獲取該選區最高票數，並經中央選舉委員會公告當選。惟同選區競爭對手 B 候選人指控，A 候選人委託各里長以現金行賄選民，已掌握確切證據。依照公職人員選舉罷免法之規定，B 候選人應提起何種類型之訴訟？",
+   "o": [
+    "撤銷當選公告訴訟",
+    "選舉無效之訴",
+    "當選無效之訴",
+    "課予中央選舉委員會重新辦理選舉義務之訴"
+   ],
+   "a": 2
+  },
+  {
+   "n": 18,
+   "pt": 1,
+   "type": "single",
+   "q": "刑罰的目的在追求「刑期無刑」，符合以下何種刑罰目的之理論？",
+   "o": [
+    "應報理論",
+    "綜合理論",
+    "一般預防理論",
+    "特別預防理論"
+   ],
+   "a": 2
+  },
+  {
+   "n": 19,
+   "pt": 1,
+   "type": "single",
+   "q": "各國政府體制之間存在差異的程度不一，下列何者足以代表總統制國家與內閣制國家最顯著的差異？",
+   "o": [
+    "對於文官體制與其中立地位的尊重",
+    "行政權與立法權分立與制衡的程度",
+    "其國家元首為總統或是國王",
+    "國會機構是一院制或是兩院制"
+   ],
+   "a": 1
+  },
+  {
+   "n": 20,
+   "pt": 1,
+   "type": "single",
+   "q": "甲積欠乙 20 萬元的房屋租金遲遲不還，歷經 10 年後，乙才向甲請求給付租金，甲是否可拒絕給付？",
+   "o": [
+    "可以，因租金請求權的消滅時效只有 5 年",
+    "可以，因雙方債權債務關係逾 2 年已消滅",
+    "不可以，因租金請求權的消滅時效有 15 年",
+    "不可以，因出租人未向法院聲請強制執行"
+   ],
+   "a": 0
+  },
+  {
+   "n": 21,
+   "pt": 1,
+   "type": "single",
+   "q": "行政機關基於法律授權，對多數不特定人民就一般事項所作抽象之對外發生法律效果之規定，係指下列何種行政行為？",
+   "o": [
+    "行政處分",
+    "行政規則",
+    "法規命令",
+    "行政指導"
+   ],
+   "a": 2
+  },
+  {
+   "n": 22,
+   "pt": 1,
+   "type": "single",
+   "q": "政府近年來陸續提高基本工資，是為了直接保障下列那一市場的那一方權益？",
+   "o": [
+    "商品市場的需求方",
+    "商品市場的供給方",
+    "要素市場的需求方",
+    "要素市場的供給方"
+   ],
+   "a": 3
+  },
+  {
+   "n": 23,
+   "pt": 1,
+   "type": "single",
+   "q": "個人對其財產之所有權有自由使用、收益、處分並排除他人干涉之權利。上述內容主要係民法何種原則的內涵？",
+   "o": [
+    "物權法定原則",
+    "契約自由原則",
+    "所有權絕對原則",
+    "所有權社會化原則"
+   ],
+   "a": 2
+  },
+  {
+   "n": 24,
+   "pt": 1,
+   "type": "single",
+   "q": "下列何者屬於行政法院所審理之案件？",
+   "o": [
+    "馬路施工未設警示標誌，導致人民甲騎車路經該地失速滑倒受傷，因而提出國家賠償訴訟",
+    "乙本為軍校公費生，於軍校畢業後拒絕服役，遭國防部追討就學四年期間之學雜費全額",
+    "市政府公務人員丙，遭檢舉利用工程採購職權收受廠商回扣，被以貪污治罪條例起訴",
+    "人民丁向縣政府承購之國宅，因施工瑕疵導致嚴重漏水，丁請求縣政府賠償"
+   ],
+   "a": 1
+  },
+  {
+   "n": 25,
+   "pt": 1,
+   "type": "single",
+   "q": "下表是大雄上公民與社會課時，所寫下黑板上老師整理關於我國各項選舉所採用的選舉制度表格，但因為漏列了實施該選制的實例，請幫大雄依甲乙丙的順序選出相對應的選舉：實例 單一選區相對多數制 複數選區制 政黨比例代表制甲 ν ν乙 ν丙 ν總統 ν",
+   "o": [
+    "縣市議員、區域立委、縣市長",
+    "立法委員、縣市議員、縣市長",
+    "山地原住民立委、縣市議員、立法委員",
+    "區域立委、山地原住民立委、縣市議員"
+   ],
+   "a": 1
+  },
+  {
+   "n": 26,
+   "pt": 1,
+   "type": "single",
+   "q": "甲某日於道路上駕車，驚見酒後駕車的乙逆向朝自己急速駛來，甲為閃避乙車，僅能選擇往路邊圍牆撞去，最後導致丙宅圍牆傾倒毀損。試問，甲面對丙所提出的毀損罪告訴，得依下列何種規定阻卻違法？",
+   "o": [
+    "緊急避難",
+    "正當防衛",
+    "依法令之行為",
+    "得被害人同意"
+   ],
+   "a": 0
+  },
+  {
+   "n": 27,
+   "pt": 1,
+   "type": "single",
+   "q": "隨著全球化的發展，國際交流愈來愈頻繁，關於國際交流之敘述，下列何者正確？",
+   "o": [
+    "國民外交係指國民受政府囑託進行跨國交流",
+    "各國政府之交流仍以中央政府外交機關為限",
+    "國際組織下建立的國際協定要求所有成員國皆須加入",
+    "聯合國無法直接管轄各成員國之國際關係與國內治理"
+   ],
+   "a": 3
+  },
+  {
+   "n": 28,
+   "pt": 1,
+   "type": "single",
+   "q": "甲民族數千年居住於某地區，目前為乙民族國家的一個自治區，藉由其傳統統治機制行使自治，甲希望依民族自決原則獨立為一國。甲欲成立國家尚缺下列那一項國家成立要件？",
+   "o": [
+    "領土",
+    "政府",
+    "人民",
+    "主權"
+   ],
+   "a": 3
+  },
+  {
+   "n": 29,
+   "pt": 1,
+   "type": "single",
+   "q": "下列關於國家、統治者與人民關係的說法，何者最符合當今對民主政治的想像？",
+   "o": [
+    "元首為國家主權之象徵，行使所有統治權力",
+    "人民為國家構成要件之一，須服從國家之各種規範",
+    "國家主權應為人民所掌有，一國元首須由人民選舉產生",
+    "國家應是實現人民權益保障的機制，而非人民之支配者"
+   ],
+   "a": 3
+  },
+  {
+   "n": 30,
+   "pt": 1,
+   "type": "single",
+   "q": "假設某一封閉的市場經濟體系只生產手機與腳踏車兩種商品且機會成本遞增。考慮兩種商品之生產可能選擇，如果人們變得熱愛騎腳踏車，則與原生產點比較起來，新的生產點其：",
+   "o": [
+    "生產手機與腳踏車的機會成本都會增加",
+    "生產手機與腳踏車的機會成本都會減少",
+    "生產手機的機會成本會增加，且生產腳踏車的機會成本會減少",
+    "生產手機的機會成本會減少，且生產腳踏車的機會成本會增加"
+   ],
+   "a": 3
+  },
+  {
+   "n": 31,
+   "pt": 1,
+   "type": "single",
+   "q": "2019 年政府修法通過道路交通管理處罰條例第 73 條規定「電動自行車駕駛人未依規定戴安全帽者，處駕駛人新臺幣 3 百元罰鍰。｣，倘若此法的修正通過使安全帽市場的交易量增加與均衡價格上漲，下列何者最能說明安全帽市場變動的情況？",
+   "o": [
+    "市場需求線向右移動",
+    "市場需求線向左移動",
+    "市場供給線向右移動",
+    "市場供給線向左移動"
+   ],
+   "a": 0
+  },
+  {
+   "n": 32,
+   "pt": 1,
+   "type": "single",
+   "q": "有關國際貿易的思維，下列那一選項是正確的推論順序？",
+   "o": [
+    "比較利益→生產機會成本的差異→國際貿易",
+    "國際貿易→比較利益→生產機會成本的差異",
+    "生產機會成本的差異→比較利益→國際貿易",
+    "比較利益→國際貿易→生產機會成本的差異"
+   ],
+   "a": 2
+  },
+  {
+   "n": 33,
+   "pt": 1,
+   "type": "single",
+   "q": "由於受到新冠肺炎疫情的影響，美國採取寬鬆貨幣政策來拯救經濟，加上面臨財政赤字，美元大幅貶值。關於美元貶值對臺灣影響之敘述，下列何者正確？",
+   "o": [
+    "出口商品價格變得更便宜，故對臺灣出口業者較有利",
+    "美國出口臺灣的商品變便宜，故對臺灣進口業與消費者有利",
+    "臺灣出口業者因美元貶值，收到的貨款將可換到更多新臺幣",
+    "美國出口臺灣的商品變貴，故對美國出口業不利"
+   ],
+   "a": 1
+  },
+  {
+   "n": 34,
+   "pt": 1,
+   "type": "single",
+   "q": "臺灣進入高齡化社會，近年來自東南亞伊斯蘭信仰的女性看護移工快速增加，但國人對伊斯蘭信仰卻鮮少認識，引發不少誤會甚至歧視的事件。下列何種做法無助於解決上述的情況？",
+   "o": [
+    "學校鼓勵學生選修認識多元文化與宗教的課程",
+    "電視臺製作並播出與東南亞文化與信仰相關的節目",
+    "地方政府定期舉辦東南亞文化慶典活動",
+    "為看護移工辦理免費中文課程並鼓勵參加"
+   ],
+   "a": 3
+  },
+  {
+   "n": 35,
+   "pt": 1,
+   "type": "single",
+   "q": "近年來若干縣市政府為了便民紛紛建置共享單車系統，若某共享單車系統收費標準為租用時間在 4 小時以內，每 30 分鐘收費 10 元。則該系統較屬於那種財貨？",
+   "o": [
+    "具可排他性與獨享性",
+    "具可排他性與共享性",
+    "具不可排他性與獨享性",
+    "具不可排他性與共享性"
+   ],
+   "a": 1
+  },
+  {
+   "n": 36,
+   "pt": 1,
+   "type": "single",
+   "q": "Don’t ＿＿＿ going to see the doctor, or your illness will get worse.",
+   "o": [
+    "put off",
+    "put out",
+    "put up",
+    "put on"
+   ],
+   "a": 0
+  },
+  {
+   "n": 37,
+   "pt": 1,
+   "type": "single",
+   "q": "Police are still looking for ＿＿＿ or information that can help them find the missing girl.",
+   "o": [
+    "beats",
+    "waves",
+    "clues",
+    "plates"
+   ],
+   "a": 2
+  },
+  {
+   "n": 38,
+   "pt": 1,
+   "type": "single",
+   "q": "my mother, washing clothes by hand is better than using a washing machine.",
+   "o": [
+    "According to",
+    "Looking over",
+    "Responding to",
+    "Speaking of"
+   ],
+   "a": 0
+  },
+  {
+   "n": 39,
+   "pt": 1,
+   "type": "single",
+   "q": "The government has posted a surprising list of new kinds of animals which may die off soon if we don’ttake ＿＿＿ .",
+   "o": [
+    "option",
+    "behavior",
+    "deed",
+    "action"
+   ],
+   "a": 3
+  },
+  {
+   "n": 40,
+   "pt": 1,
+   "type": "single",
+   "q": "Jeff got an email about the meeting tomorrow and ＿＿＿ it to his coworkers.",
+   "o": [
+    "forced",
+    "fostered",
+    "forwarded",
+    "followed"
+   ],
+   "a": 2
+  },
+  {
+   "n": 41,
+   "pt": 1,
+   "type": "single",
+   "q": "The seemingly ancient India Pavilion is full of marvelous modern ＿＿＿ .",
+   "o": [
+    "technologies",
+    "antiques",
+    "boutiques",
+    "objections"
+   ],
+   "a": 0
+  },
+  {
+   "n": 42,
+   "pt": 1,
+   "type": "single",
+   "q": "In a society where water is ＿＿＿ , it has to be shared fairly among individuals.",
+   "o": [
+    "explicit",
+    "replete",
+    "precious",
+    "sufficient"
+   ],
+   "a": 2
+  },
+  {
+   "n": 43,
+   "pt": 1,
+   "type": "single",
+   "q": "Joseph is very anxious about applying for this job, because there are many ________ for the same position.",
+   "o": [
+    "competitors",
+    "contributors",
+    "composers",
+    "conductors"
+   ],
+   "a": 0
+  },
+  {
+   "n": 44,
+   "pt": 1,
+   "type": "single",
+   "q": "The serial murderer ＿＿＿ his victim to a deserted apartment where he could easily harm her.",
+   "o": [
+    "lured",
+    "sponsored",
+    "glorified",
+    "favored"
+   ],
+   "a": 0
+  },
+  {
+   "n": 45,
+   "pt": 1,
+   "type": "single",
+   "q": "David was granted a ＿＿＿ on his new invention—a device that can detect the sudden change of the water levelin the river.",
+   "o": [
+    "progression",
+    "patron",
+    "prevention",
+    "patent請依下文回答第 46 題至第 50 題Look at the following information and answer the questions.Reservation Completed!"
+   ],
+   "a": 3
+  },
+  {
+   "n": 46,
+   "pt": 1,
+   "type": "single",
+   "q": "What ticket reservation does George make?",
+   "o": [
+    "A bus ticket.",
+    "A train ticket.",
+    "A flight ticket.",
+    "A concert ticket."
+   ],
+   "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
+   "a": 1
+  },
+  {
+   "n": 47,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following messages is not shown?",
+   "o": [
+    "The seat number.",
+    "The special discount.",
+    "The reservation number.",
+    "The date to use the ticket."
+   ],
+   "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
+   "a": 1
+  },
+  {
+   "n": 48,
+   "pt": 1,
+   "type": "single",
+   "q": "What information does George not have to offer in order to book the ticket?",
+   "o": [
+    "Phone number.",
+    "E-mail address.",
+    "Identification number.",
+    "Driver’s licence number."
+   ],
+   "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
+   "a": 3
+  },
+  {
+   "n": 49,
+   "pt": 1,
+   "type": "single",
+   "q": "When is the deadline to pay for the reserved ticket?",
+   "o": [
+    "December 17.",
+    "December 18.",
+    "December 29.",
+    "December 30."
+   ],
+   "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
+   "a": 1
+  },
+  {
+   "n": 50,
+   "pt": 1,
+   "type": "single",
+   "q": "Which of the following statements is true?",
+   "o": [
+    "The ticket is for an adult and a child.",
+    "The travel time takes more than an hour.",
+    "The reserved seat is a business class seat.",
+    "The arrival time in Taichung is scheduled at 10:46."
+   ],
+   "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
+   "a": 3
+  }
+ ]
+};
