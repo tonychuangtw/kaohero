@@ -32928,7 +32928,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "103 年　三等　會計審計法規",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
