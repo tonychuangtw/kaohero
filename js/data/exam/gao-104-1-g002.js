@@ -532,7 +532,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_37.webp"
+   "fig": "img/q/104080_201_0111_37.webp",
+   "exp": "✅ (D) make A from B 表「以 B 為原料製成 A」，此處指以菸草種子油製造燃料。\n❌ (A) to 無法表示原料來源。\n❌ (B) by 用於表方法或手段，不接原料。\n❌ (C) for 表目的，語意不合。\n📚 出處：介系詞 from 表原料"
   },
   {
    "n": 38,
@@ -547,7 +548,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_38.webp"
+   "fig": "img/q/104080_201_0111_38.webp",
+   "exp": "✅ (C) be known as 意為「以……之名為人所知」，此處指這種新菸草名為「Solaris」。\n❌ (A) knew as 為主動過去式，與被動語意不合。\n❌ (B) knew for 同樣為主動式且搭配錯誤。\n❌ (D) be known for 表「以……著稱（因某特質）」，後接原因而非名稱。\n📚 出處：be known as 與 be known for 的區別"
   },
   {
    "n": 39,
@@ -562,7 +564,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_39.webp"
+   "fig": "img/q/104080_201_0111_39.webp",
+   "exp": "✅ (A) 比較句中以代動詞 do 代替前面的 has many seeds，避免重複。\n❌ (B) having 為分詞，無法充當比較子句的動詞。\n❌ (C) take 語意不合。\n❌ (D) glow 語意不合。\n📚 出處：代動詞 do 的用法"
   },
   {
    "n": 40,
@@ -577,7 +580,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_40.webp"
+   "fig": "img/q/104080_201_0111_40.webp",
+   "exp": "✅ (B) 主詞 the oil 為被使用者，須用被動語態 will be used。\n❌ (A) be using 為主動進行式。\n❌ (C) use 為主動且時態不合。\n❌ (D) have used 為主動完成式。\n📚 出處：被動語態"
   },
   {
    "n": 41,
@@ -592,7 +596,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_41.webp"
+   "fig": "img/q/104080_201_0111_41.webp",
+   "exp": "✅ (C) 空格後為名詞 work，須用所有格關係代名詞 whose，表「她的工作」。\n❌ (A) what 不可作關係代名詞修飾先行詞。\n❌ (B) which 的先行詞為事物且不作所有格。\n❌ (D) that 不可作所有格關係代名詞。\n📚 出處：所有格關係代名詞 whose"
   },
   {
    "n": 42,
@@ -607,7 +612,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_42.webp"
+   "fig": "img/q/104080_201_0111_42.webp",
+   "exp": "✅ (D) spend time (in) V-ing 為固定用法，故用 photographing。\n❌ (A) photograph 為原形動詞，不合句型。\n❌ (B) photographed 為過去式或過去分詞。\n❌ (C) to photograph 不與 spend time 搭配。\n📚 出處：spend time V-ing"
   },
   {
    "n": 43,
@@ -622,7 +628,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_43.webp"
+   "fig": "img/q/104080_201_0111_43.webp",
+   "exp": "✅ (D) 同事「回憶說」當地人敬重她的投入與專業，recall that 語意最合。\n❌ (A) postpone 指延後，不接 that 子句。\n❌ (B) refute 指駁斥，與下文的讚美相矛盾。\n❌ (C) specialize 指專精，需接 in。\n📚 出處：動詞語意與句型搭配"
   },
   {
    "n": 44,
@@ -637,7 +644,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_44.webp"
+   "fig": "img/q/104080_201_0111_44.webp",
+   "exp": "✅ (B) 法國總統府發表聲明「證實」她的死訊，用現在分詞 confirming 修飾 statement。\n❌ (A) approving 指批准，語意不合。\n❌ (C) recovering 指復原、尋回，語意不合。\n❌ (D) supporting 指支持，語意不合。\n📚 出處：分詞片語作後位修飾"
   },
   {
    "n": 45,
@@ -652,7 +660,8 @@ window.APP_EXAM_PAPERS['gao-104-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104080_201_0111_45.webp"
+   "fig": "img/q/104080_201_0111_45.webp",
+   "exp": "✅ (A) 前句說她並非刻意尋找暴力場面，後句轉為「反而」想在困境中尋找人性，用 Instead。\n❌ (B) As 為連接詞或介系詞，不可單獨作轉承語。\n❌ (C) Otherwise 表「否則」，語意不合。\n❌ (D) Accordingly 表「因此」，語意不合。\n📚 出處：轉承語 Instead 的用法"
   },
   {
    "n": 46,
