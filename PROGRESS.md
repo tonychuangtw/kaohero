@@ -1,10 +1,10 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **護理師 159 卷 11,280 題已做完（已寫 11,185 題／99.2%）**，全站已寫詳解 117,732 題。剩下 95 題全是寫不出來的：廢題 22、官方雙答案 12、①②③④組合選項在轉檔時全變成同一個圈圈字而無法辨別哪個組合 31（105-2、106-1 共 10 卷，且無 fig 圖檔可對照）、其餘 30 題為「題目要看圖但物件沒有 fig」或官方答案與教科書衝突（心電圖判讀、家系圖、心動週期圖、胎兒監測圖等）。
-**下一步＝依 Tony 2026-09-09 定的順序開新科目：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類（醫檢師、物理治療師、營養師、職能治療師）。**
-開新科目的完整流程（照護理師那次做過一遍，工具都在）：
-`tools/moex-fetch.py <科目名> ~/exam-pdfs/<代號> <起年> <迄年>` → 必要時補次別 → `tools/gen_bank.py <代號>` → `tools/crop-all.py`（裁圖）→ 搬進 repo `js/data/exam/` 與 `img/q/` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --write`，再開始逐卷寫詳解。
-⚠ 全站同型態的「選項排多欄、文字黏在題幹尾端但有 fig」未寫題還有 gao 107、loc 167、tcm 6、den 1、tea 1（共 282 題），掃法見下；這些是可以寫的，等新科目告一段落再回頭補。
+NEXT_ACTION: **新科目「初等考試」已轉檔完成（2026-09-13）：385 卷、18,710 題、102～115 年**，全站現為 2,921 卷／139,271 題，已寫詳解 117,732 題。**下一步＝開始逐卷寫初等考試的詳解，由新到舊（115 年 27 卷 → 114 年 28 卷 → …→ 102 年 30 卷）。**每卷 50 題（`e001`～`e035` 共 35 個科目，卷 id 形如 `chu-115-1-e004`）。
+初等考試的特性：全部是四選一測驗題、一年一次（第三段固定為 1）、只有一個等別，考科多為「◯◯大意」（法學大意、行政學大意、社會工作大意、會計學大意、基本電學大意…），難度低於高普考，寫解析時要對應的是「大意」層級的基本概念。
+護理師（159 卷 11,280 題）已於 2026-09-13 全部做完，已寫 11,185 題／99.2%；剩 95 題全是寫不出來的（廢題 22、官方雙答案 12、①②③④組合選項在轉檔時全變成同一個圈圈字 31、要看圖但沒有 fig 或官方答案與教科書衝突 30）。
+⚠ 全站「選項排多欄、文字黏在題幹尾端但有 fig」的未寫題還有 gao 107、loc 167、tcm 6、den 1、tea 1（共 282 題），這些是可以寫的（做法見下），等初等考試告一段落再回頭補。
+之後的科目順序（Tony 2026-09-09 定）：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類（醫檢師、物理治療師、營養師、職能治療師）。
 每卷流程：讀題 → Write patch JSON 到 scratchpad → `node $SP/chk.js` → `node tools/set-exp.js <patch> --write` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --only <pid> --write` → `git add js/data/exam/<pid>.js js/data/exams.js exam/<pid> sitemap.xml` → commit+push。SP=`/tmp/claude-1000/-home-tony-TelegramClaude-kaoguhero/<session>/scratchpad`，換 session 要重寫 chk.js（規格見下）。
 ⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 117,732 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
 
@@ -16,7 +16,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-13 15:05 台北
+UPDATED: 2026-09-13 17:30 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
@@ -48,6 +48,24 @@ UPDATED: 2026-09-13 15:05 台北
 - **影響**：這些題目前沒有詳解，所以沒有寫出錯誤的解析；但站上仍會把存的答案標成「正解」，會誤導人。
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
+
+## 新增科目：初等考試（2026-09-13 完成轉檔，詳解待寫）
+
+- 規模：385 卷、18,710 題，102～115 年各一次，35 個科目（`e001`～`e035`）。
+- 工作目錄 `~/exam-pdfs/chu`（pdf/、out/、outimg/ 都留著，要重跑不用重抓）。
+- 流程：`codes.json`（掃 year_codes 找「初等考試」）→ `inv-full.py` 產 `rows-<roc>.json`
+  → `tools/moex-sweep.py ~/exam-pdfs/chu S|Q|M`（以科目代碼去重，402 份卷）
+  → `python3 tools/gen_civil.py chu` → `docrop.py`（裁 188 張圖）
+  → `python3 tools/civil-index-merge.py ~/exam-pdfs/chu/chu-index.json`
+  → 搬 out/*.js 進 `js/data/exam/`、outimg/*.webp 進 `img/q/`
+  → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --write`。
+- 工具改了兩處：`tools/gen_civil.py` 加 `chu` SPEC（單一等別、prefix `chu`、lvlkey `e`）；
+  `tools/index-spec.json` 的 civil 分類要「先手動加一筆 chu 考試項目」，civil-index-merge 才填得進去
+  （它只會更新已存在的 exam id，不會自己新增）。
+- **跳過 17 卷**：15 卷國文含複選題（本站作答介面尚未支援）、2 卷題數與標準答案張數不符。
+  因此 `e001`／`e005` 國文只各有 2 卷。
+- 102～106 年的國文、公民與英文、法學大意各有兩份不同的卷（一般行政組／社會行政組），
+  gen_civil 的 collisions() 會自動加「（◯◯組）」區分，107 年起只剩一份。
 
 ## 新增科目：護理師（2026-09-12 轉檔、2026-09-13 詳解全部寫完）
 
