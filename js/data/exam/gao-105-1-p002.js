@@ -592,7 +592,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/105080_401_0216_41.webp"
+   "fig": "img/q/105080_401_0216_41.webp",
+   "exp": "✅ (D) 作者將樂透比擬為一成不變的宗教儀式，用介系詞 like 表「像」。\n❌ (A) engaged in 語意為「從事」，主詞為樂透不通。\n❌ (B) used by 表被誰使用，語意不合。\n❌ (C) for 表目的，無法表比擬。\n📚 出處：介系詞 like 表比擬"
   },
   {
    "n": 42,
@@ -607,7 +608,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/105080_401_0216_42.webp"
+   "fig": "img/q/105080_401_0216_42.webp",
+   "exp": "✅ (B) 本句為分裂句 it is…that，強調 this ritual quality，關係詞用 that。\n❌ (A) so 為連接詞或副詞，不能引導此結構。\n❌ (C) how 會使語意變成方式，與句構不合。\n❌ (D) what 已含先行詞，與前面的名詞片語重複。\n📚 出處：分裂句（強調句）it is…that"
   },
   {
    "n": 43,
@@ -622,7 +624,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105080_401_0216_43.webp"
+   "fig": "img/q/105080_401_0216_43.webp",
+   "exp": "✅ (C) 「唯一所需的器材」，以過去分詞 needed 後位修飾 equipment，表被動。\n❌ (A) requiring 為主動分詞，語意顛倒。\n❌ (B) intended 語意為「預定的」，與句意不合。\n❌ (D) forming 為主動分詞，語意不合。\n📚 出處：分詞的後位修飾"
   },
   {
    "n": 44,
@@ -637,7 +640,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/105080_401_0216_44.webp"
+   "fig": "img/q/105080_401_0216_44.webp",
+   "exp": "✅ (D) 群眾安靜「只除了」低低的興奮騷動，用 except for 表唯一的例外。\n❌ (A) dealing with 表處理，語意不合。\n❌ (B) anxious about 為形容詞片語，句法不合。\n❌ (C) in search of 表尋找，語意不合。\n📚 出處：介系詞片語 except for"
   },
   {
    "n": 45,
@@ -652,7 +656,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105080_401_0216_45.webp"
+   "fig": "img/q/105080_401_0216_45.webp",
+   "exp": "✅ (A) 除中獎者外眾人都丟掉紙條，故「被丟棄的」紙條隨風飄散，用 discarded。\n❌ (B) reflecting 為主動分詞，語意不合。\n❌ (C) transparent 指透明的，語意不合。\n❌ (D) useful 與被丟棄的語意相反。\n📚 出處：過去分詞作形容詞"
   },
   {
    "n": 46,
