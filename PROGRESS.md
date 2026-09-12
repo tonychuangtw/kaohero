@@ -1,35 +1,20 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **正在寫護理師詳解（159 卷，由新到舊）**。已完成 115～104 全部共 139 卷，以及 `nur-103-2-nur1`；剩 19 卷（103-2 的 nur2/3/4/5 → 103-1 五卷 → 102-2 五卷 → 102-1 五卷）。⚠ **下一步＝把已寫好但尚未套用的 `scratchpad/pTb.json`（`nur-103-2-nur2`，50 題）跑完整流程**：`node $SP/chk.js $SP/pTb.json && node tools/set-exp.js $SP/pTb.json --write && node tools/build-index.js --write && node test/test.js && node tools/build-pages.js --only nur-103-2-nur2 --write && git add js/data/exam/nur-103-2-nur2.js js/data/exams.js exam/nur-103-2-nur2 && commit+push`（commit 訊息要寫明略過 30 題組合式選項毀損題與 #36 官方答案與教科書衝突）。SP=`/tmp/claude-1000/-home-tony-TelegramClaude-kaoguhero/<session>/scratchpad`，換 session 要重寫 chk.js（規格見下）。之後續做 nur-103-2-nur3/4/5。⚠ 102～105 年大量「組合式選項（①②③④）轉檔時全毀」的題（四選項變成無法辨別的重複符號），103-2 尤其嚴重（nur1 8、nur2 30、nur3 23、nur4 43、nur5 40 題），開卷前先用一行 node 掃出重複選項題號後略過，並在 commit 訊息寫明。⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 116,089 題。每卷流程：讀題 → Write patch JSON 到 scratchpad → `node scratchpad/chk.js` → `node tools/set-exp.js <patch> --write` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --only <pid> --write` → `git add js/data/exam/<pid>.js js/data/exams.js exam/<pid>` → commit+push。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但沒有 fig 欄位（選項空字串但有 fig 的要用 Read 開 webp 判讀後照常寫）、官方答案與教科書衝突或雙答案題、組合式選項毀損題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
-104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
-兩支腳本換 session 要重寫（都放 scratchpad）：
-- `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
-- `chk.js <patch...>`：JSON.parse、西里爾字母（`/[\u0400-\u04FF]/`）、**韓文諺文（`/[가-힣]/`）**、夾字（`/[一-鿿][a-z]{3,}/`）、U+FFFD 替代字元、以及每題五行格式（第一行 `✅ (X)`、中間剛好三行 `❌ (X)`、最後一行 `📚 出處：`）。**本 session 又被它抓到一次西里爾字母**（打「雙因子」打成 `двух`），一定要跑。
-套用後記得檢查目標卷是否還有「選項全空但有 fig」的同題，那些要另外用來源卷的解析手動補。
-**沒有 fig 欄位的電路圖／波形圖題一律跳過**：112 五等 `c028` 基本電學 40 題中有 14 題、`c029` 電子學有 3 題屬此類。反之，元件配置為教科書標準型（惠斯登電橋、RLC 並聯諧振、螺管線圈、中心抽頭全波整流）的題，即使沒有圖也算得出來，照常寫。 104 五等 `c028` 基本電學 40 題只寫得出 15 題（#8、#13、#18～#40 全是沒有圖檔的電路圖題）、`c029` 電子學 40 題只寫得出 21 題（#8、#24～#40 同上；#10 的 (B)(C) 選項轉檔後變成同一句話也跳過）。
+NEXT_ACTION: **正在寫護理師詳解（159 卷，由新到舊）**。已完成 115～104 全部共 139 卷，以及 103-2 的 nur1／nur2／nur3／nur4；接著做 `nur-103-2-nur5` → 103-1 五卷 → 102-2 五卷 → 102-1 五卷。
+⚠ **2026-09-13 重要更正（推翻前一個 session 的判斷）**：103-2 與 105-1 這 10 卷裡「選項讀起來全是空字串」的題（共 262 題）**不是轉檔毀損，可以正常寫**。實情是這些題的四個選項在原卷排成多欄、pdftotext 讀不出圈圈字代號，轉檔時選項文字整串黏到題幹尾端、`o` 陣列留空，但每題都有 `needfig:true` 與 `fig:"img/q/*.webp"`，網頁上考生看得到完整題目與選項。做法：直接讀 `q.q` 尾端那串（順序就是 A→B→C→D），必要時用 Read 工具開該題 webp 核對；只有像「四張線圖選哪個」這種真的要判圖的才跳過。
+→ 因此除了 nur5，**還要回補**：`nur-103-2-nur1`（8 題）、`nur-103-2-nur2`（30）、`nur-103-2-nur3`（23），以及 105-1 五卷（nur1 13、nur2 28、nur3 14、nur4 26、nur5 37）。全站同型態未寫的題還有 gao 107、loc 167、tcm 6、den 1、tea 1，等護理師做完再回頭補（一行 node 掃法見下）。
+每卷流程：讀題 → Write patch JSON 到 scratchpad → `node $SP/chk.js` → `node tools/set-exp.js <patch> --write` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --only <pid> --write` → `git add js/data/exam/<pid>.js js/data/exams.js exam/<pid> sitemap.xml` → commit+push。SP=`/tmp/claude-1000/-home-tony-TelegramClaude-kaoguhero/<session>/scratchpad`，換 session 要重寫 chk.js（規格見下）。
+⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 116,273 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
 
-**轉檔瑕疵的三種型態（處理方式不同）**：
-- 「上下黏一起」型——每題的選項 (D) 尾端黏著下一題的題幹（112 `b023`、104 三等 `a003` 第 18 題即是）。內容仍可還原，照常寫解析並在解析裡把各選項的正確內容寫清楚即可，不用整卷跳過。
-- 「結構式掉成亂碼」型——化學結構、公式轉檔變成無意義字串（112 `b026` 有機化學）。沒有圖檔就無從還原，該題直接跳過。
-- 「題組原文整段遺失」型——只剩「閱讀下文，回答第 X 題至第 Y 題」的標記，文章本體沒了（104 三等 `a001` 第 7～10 題國文閱讀、`a002` 第 38～41 題英文克漏字）。**先用 Read 工具開該題組的 fig 確認**：104 `a002` 第 41 題的 webp 裡其實整篇文章都在，第 42～46 題因此寫得出來；真的沒有圖才跳過。
-
-**遇到官方答案與計算／條文對不上時，一律跳過那一題並在 commit 訊息寫明理由**。若同一卷連續抽驗兩三題都對不上，就是整卷答案索引不可信，整卷略過並註明——112 年的 `a010` 會計學與 `a017` 工程數學即屬此類。
-**法規、解釋變更的題照寫，但要在解析裡註明新舊對照**（考生拿現行法作答會撞題）。本 session 已註明三處：105 `c024` 第 20 題（重新規定地價三年→ 105/11/30 修正為二年）、105 `c027` 第 10 題（利衝法交易行為處罰倍數制→ 107 年改金額級距）、105 `c027` 第 47 題（記大過救濟，釋字 243 → 釋字 785 放寬）。
-**2026-09-11 插隊做完的站台功能**（Tony 當天要求，詳解主線暫停約 2 小時）：
-- 站台識別改乙案：方章「考」字 ＋ 字標「英雄」（header／favicon／img/logo.png），SVG 用
-  `dominant-baseline="central"` 讓瀏覽器算中線，換字體不會再跑掉
-- Buy Me a Coffee：`js/config.js` 的 `window.APP_SPONSOR.buymeacoffee`；贊助頁加 QR（`img/bmc-qr.jpg`）；
-  整卷結算頁加一條輕量贊助提示（只在 mode=paper 顯示）
-- 續答：`state.drafts`（以卷代碼為 key，留 5 份、14 天 TTL），首頁直接續、從目錄進同卷先問
-- 同步：`js/sync.js` 的 `applyBlob` 對 `kaohero.v1` 改成逐欄合併，不再整包覆蓋
-- 錯題本：導覽列入口帶題數、結算頁加「立即重練這些錯題」、依科目分組、**連續答對兩次才移出**
-- 模擬考 `#/mock`：隨機抽題、全真限時、交卷才批改、答題卡、趨勢圖；成績存 `state.mocks`
-- ⛔ Tony 提過「模考英雄榜放隨機暱稱與分數衝人氣」——已回絕（假的社群證明），改為只跟自己的歷史與及格門檻比
+掃「選項全空但有 fig、尚未寫詳解」的題：
+```
+node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'');const by={};fs.readdirSync('js/data/exam').forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const pid=f.replace('.js','');const p=window.APP_EXAM_PAPERS[pid];if(!p)return;let c=0;p.qs.forEach(q=>{if(q.exp||q.void)return;const o=q.o.map(norm);if((new Set(o).size<o.length||o.some(x=>!x))&&q.fig)c++});if(c)by[pid]=c});console.log(by)"
+```
 
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-13 04:08 台北
+UPDATED: 2026-09-13 05:20 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
