@@ -1,10 +1,9 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **正在寫護理師詳解（159 卷，由新到舊）**。已完成 115～104 全部共 139 卷，以及 103-2 的 nur1／nur2／nur3／nur4；接著做 `nur-103-2-nur5` → 103-1 五卷 → 102-2 五卷 → 102-1 五卷。
-⚠ **2026-09-13 重要更正（推翻前一個 session 的判斷）**：103-2 與 105-1 這 10 卷裡「選項讀起來全是空字串」的題（共 262 題）**不是轉檔毀損，可以正常寫**。實情是這些題的四個選項在原卷排成多欄、pdftotext 讀不出圈圈字代號，轉檔時選項文字整串黏到題幹尾端、`o` 陣列留空，但每題都有 `needfig:true` 與 `fig:"img/q/*.webp"`，網頁上考生看得到完整題目與選項。做法：直接讀 `q.q` 尾端那串（順序就是 A→B→C→D），必要時用 Read 工具開該題 webp 核對；只有像「四張線圖選哪個」這種真的要判圖的才跳過。
-→ 因此除了 nur5，**還要回補**：`nur-103-2-nur1`（8 題）、`nur-103-2-nur2`（30）、`nur-103-2-nur3`（23），以及 105-1 五卷（nur1 13、nur2 28、nur3 14、nur4 26、nur5 37）。全站同型態未寫的題還有 gao 107、loc 167、tcm 6、den 1、tea 1，等護理師做完再回頭補（一行 node 掃法見下）。
+NEXT_ACTION: **正在寫護理師詳解（159 卷，由新到舊）**。115～103 年全部完成（149 卷）；**剩 10 卷＝102-2 五卷 → 102-1 五卷**，每卷 80 題全新未寫。之後回補 105-1 五卷的 118 題與各卷零星漏題（掃法見下）。
+⚠ **2026-09-13 重要更正（推翻前一個 session 的判斷）**：103-2 與 105-1 這 10 卷裡「選項讀起來全是空字串」的題**不是轉檔毀損，可以正常寫**。實情是這些題的四個選項在原卷排成多欄、pdftotext 讀不出圈圈字代號，轉檔時選項文字整串黏到題幹尾端、`o` 陣列留空，但每題都有 `needfig:true` 與 `fig:"img/q/*.webp"`，網頁上考生看得到完整題目與選項。做法：直接讀 `q.q` 尾端那串（順序就是 A→B→C→D），必要時用 Read 工具開該題 webp 核對；只有像「四張線圖選哪個」這種真的要判圖的才跳過。103-2 的五卷已依此全部補完。全站同型態未寫的題還有 gao 107、loc 167、tcm 6、den 1、tea 1，等護理師做完再回頭補。
 每卷流程：讀題 → Write patch JSON 到 scratchpad → `node $SP/chk.js` → `node tools/set-exp.js <patch> --write` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --only <pid> --write` → `git add js/data/exam/<pid>.js js/data/exams.js exam/<pid> sitemap.xml` → commit+push。SP=`/tmp/claude-1000/-home-tony-TelegramClaude-kaoguhero/<session>/scratchpad`，換 session 要重寫 chk.js（規格見下）。
-⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 116,273 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
+⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 116,811 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
 
 掃「選項全空但有 fig、尚未寫詳解」的題：
 ```
@@ -14,7 +13,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-13 05:20 台北
+UPDATED: 2026-09-13 08:10 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
