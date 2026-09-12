@@ -83,14 +83,17 @@ def text_cols(pdf, cols=2, shift=0.0):
 
 HDR = re.compile(r'^\s*(代\s*號|類科名稱|科目名稱|考試時間|座號|※|全一張|全一頁|共\s*\d+\s*頁|第\s*\d+\s*頁|請\s*接|背\s*面|\(請接背面\))')
 
-def clean_lines(t):
+def clean_lines(t, keep_nums=False):
+    """keep_nums=True 時保留「整行只有數字」的行。
+       預設丟掉是因為那通常是頁碼；但有些卷（護理師 110110 內外科護理學第 26 題）
+       的題號會被 pdftotext 拆到自己一行，丟掉就再也切不出那一題之後的所有題目。"""
     out = []
     for ln in t.split('\n'):
         ln = ln.replace('\x0c', ' ').rstrip()
         s = ln.strip()
         if not s: continue
         if HDR.match(s): continue
-        if re.match(r'^\d+\s*$', s): continue           # 頁碼
+        if not keep_nums and re.match(r'^\d+\s*$', s): continue           # 頁碼
         if re.match(r'^[（(]請接背面[）)]', s): continue
         out.append(ln)
     return out
@@ -104,9 +107,15 @@ def header_info(pdf):
 
 OPT = 'ABCD'
 
-def parse_questions(pdf):
-    """回傳 [{n, q, o[4], needfig}]；題號只認 1,2,3… 遞增序列。"""
-    lines = clean_lines(text(pdf))
+def parse_questions(pdf, relaxed=False):
+    """回傳 [{n, q, o[4], needfig}]；題號只認 1,2,3… 遞增序列。
+
+    relaxed=True 時，題號後面只隔「一個空白」也算（護理師 104～110 的舊卷是這種排版：
+    「 1 下列有關上皮組織的敘述…」）。預設不開，因為單一空白的條件太鬆，
+    斷行後的數值（例：「 54.3 mL/min」）可能剛好等於下一個期待題號而被誤判。
+    呼叫端（gen_bank.py）的用法是：先用嚴格模式，題數對不上答案張數時再用 relaxed 重跑，
+    兩者都不吻合就報錯，不要默默收下被截斷的卷。"""
+    lines = clean_lines(text(pdf), keep_nums=relaxed)
     body = '\n'.join(lines)
     # half() 是 1:1 字元對映，索引與 body 完全對齊：用 flat 找標記、用 body 取內容，
     # 這樣全形標點（，？（））才不會被改掉。
@@ -117,7 +126,15 @@ def parse_questions(pdf):
     # 題號有兩種寫法：「1.」（近年）與「 1   」（舊卷，號碼後面直接空好幾格）
     # 題號一定頂在最左邊（最多一個前導空白）。放寬成 ^\s* 會把換行後的檢驗數值當成題號
     # ——「…eGFR」斷行接「  54.3 mL/min」就會被當成第 54 題，把第 53 題整個切掉。
-    for m in re.finditer(r'(?m)^[ \t]{0,1}(\d{1,3})(?:[ \t]*[.．、][ \t]*|[ \t]{2,})', flat):
+    gap = r'[ \t]{1,}' if relaxed else r'[ \t]{2,}'
+    # relaxed 另外認「整行只有題號」的寫法，但限題號 ≥ 10 才認——
+    # 頁碼也是整行只有數字，通常是個位數，這樣才不會把第 3 頁的「3」當成第 3 題。
+    pat = r'(?m)^[ \t]{0,1}(\d{1,3})(?:[ \t]*[.．、][ \t]*|%s|[ \t]*$)' % gap if relaxed \
+        else r'(?m)^[ \t]{0,1}(\d{1,3})(?:[ \t]*[.．、][ \t]*|%s)' % gap
+    for m in re.finditer(pat, flat):
+        # 「整行只有題號」＝比對完就到行尾。個位數的那種先排除，避免把頁碼當題號。
+        bare = m.end() >= len(flat) or flat[m.end()] == '\n'
+        if relaxed and bare and int(m.group(1)) < 10: continue
         if int(m.group(1)) == want:
             pos.append((want, m.start(), m.end()))
             want += 1
@@ -133,6 +150,9 @@ def parse_questions(pdf):
             if not m: idx = None; break
             idx.append((m.start(), m.end())); p = m.end()
         if idx is None:
+            alt = _opts_by_columns(seg)
+            if alt:
+                qs.append({'n': n, 'q': alt[0], 'o': alt[1]}); continue
             qs.append({'n': n, 'q': norm(seg), 'o': [], 'needfig': True}); continue
         stem = seg[:idx[0][0]]
         opts = []
@@ -143,6 +163,28 @@ def parse_questions(pdf):
         if any(not o for o in opts) or not q['q']: q['needfig'] = True
         qs.append(q)
     return qs
+
+def _opts_by_columns(seg):
+    """找不到 A. B. C. D. 時的備援：靠版面欄位把四個選項切出來。
+
+    起因：護理師 103 年第二次與 105 年第一次的卷（共 10 份、800 題），選項代號是子集字型畫的
+    圈圈字，沒有 ToUnicode 對照，pdftotext 直接吐不出任何字元——選項文字都在，就是沒有代號。
+    這種卷的排版是固定的：題幹一行，接下來每一行放 2 個或 4 個選項，欄與欄之間空很多格。
+    所以把題幹之後的每一行用「連續 3 個以上空白」切開，剛好湊滿 4 段才採用；
+    不滿或超過就回 None，交回原流程當圖片題處理，不要硬猜。
+
+    回傳 (題幹, [四個選項]) 或 None。"""
+    lines = [l for l in seg.split('\n') if l.strip()]
+    if len(lines) < 2: return None
+    stem, rest = lines[0], lines[1:]
+    parts = []
+    for ln in rest:
+        cols = [c.strip() for c in re.split(r'[ \t]{3,}', ln.strip()) if c.strip()]
+        if not cols: return None
+        parts += cols
+    if len(parts) != 4: return None
+    if not norm(stem) or any(not p for p in parts): return None
+    return norm(stem), [norm(p) for p in parts]
 
 def norm(s):
     s = re.sub(r'[ \t]+', ' ', s)

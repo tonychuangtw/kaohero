@@ -43,7 +43,27 @@ SPECS = {
         'prefix': 'pha', 'cat': 'medical', 'exam': 'pharm',
         'resolve': lambda sn: _pharm(sn),
     },
+    # 護理師：單一階段五科，102～115 的科目名稱完全一致（實測 32 次考試、每個名稱各出現 32 次）。
+    # ⚠ 次別不能只靠「第一次／否則第二次」：112～114 有第三次，106 有「花東考區補辦考試」，
+    #   所以 inv.json 要先用 tools/nurse-inv-fix.py 補上 nth 與 ntag（見該檔）。
+    'nurse': {
+        'prefix': 'nur', 'cat': 'medical', 'exam': 'nurse',
+        'resolve': lambda sn: _nurse(sn),
+    },
 }
+
+_NURSE = [('nur1', '基礎醫學', '基礎醫學'),
+          ('nur2', '基本護理學', '基本護理學與護理行政'),
+          ('nur3', '內外科護理學', '內外科護理學'),
+          ('nur4', '產兒科護理學', '產兒科護理學'),
+          ('nur5', '精神科與社區衛生護理學', '精神科與社區衛生護理學')]
+
+
+def _nurse(sn):
+    s = sn.replace(' ', '').replace('　', '')
+    for key, pat, name in _NURSE:
+        if s.startswith(pat): return key, 1, name
+    return None
 
 _PHARM = [('ph1', '藥理學與藥物化學'), ('ph2', '藥物分析與生藥學'), ('ph3', '藥劑學'),
           ('ph4', '調劑學與臨床藥學'), ('ph5', '藥物治療學'), ('ph6', '藥事行政與法規')]
@@ -74,7 +94,7 @@ def subs_of(entry):
 def build(spec):
     inv = json.load(open('inv.json'))
     os.makedirs('out', exist_ok=True); os.makedirs('outimg', exist_ok=True)
-    papers, figs = [], []
+    papers, figs, skipped = [], [], []
     for e in inv:
         code = e['code']; roc = int(code[:3])
         nth = e.get('nth') or (1 if '第一次' in e['title'] else 2)
@@ -100,8 +120,22 @@ def build(spec):
                 hr = spec['resolve'](hdr)
                 if hr and hr[0] != key:
                     raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, hr[0]))
-            qs_raw = P.parse_questions(qp)
             ans = P.parse_answers(ap)
+            # 整份是掃描影像、抽不出文字的卷（例：護理師 108020_106_0505）先跳過並印出來，
+            # 不要硬切成 0 題收進題庫。要收的話得先 OCR，這台目前沒有 tesseract。
+            if len(P.text(qp)) < 2000:
+                skipped.append('%s %s %s（%s）PDF 無可抽取文字，需 OCR' % (code, c, s, sn[:14]))
+                continue
+            # 先嚴格切題；題數與答案張數對不上就用 relaxed（題號後只隔一個空白）重切。
+            # ⚠ 兩種都對不上一律中止：以前沒有這一關，被截斷的卷會默默少收題。
+            qs_raw = P.parse_questions(qp)
+            if len(qs_raw) != len(ans):
+                alt = P.parse_questions(qp, relaxed=True)
+                if len(alt) == len(ans): qs_raw = alt
+                elif len(alt) > len(qs_raw): qs_raw = alt
+            if len(qs_raw) != len(ans):
+                raise SystemExit('%s %s %s（%s）題數 %d ≠ 答案 %d，先修 parse 再跑'
+                                 % (code, c, s, sn[:14], len(qs_raw), len(ans)))
             corr = P.parse_corrections(mp) if os.path.exists(mp) else {}
             pid = '%s-%d-%d-%s' % (spec['prefix'], roc, nth, key)
             qs = []
@@ -131,11 +165,16 @@ def build(spec):
             papers.append({
                 'id': pid, 'cat': spec['cat'], 'exam': spec['exam'], 'stage': stage,
                 'roc': roc, 'nth': nth, 'code': code, 'subj': key,
-                'title': '%d 年第%s次　%s' % (roc, CN[nth - 1], subj_name),
+                # ntag 讓 inv.json 可以覆寫次別的顯示文字（例：106 年的「第二次花東考區補辦」），
+                # 沒給就照 nth 生成「第 N 次」。
+                'title': '%d 年%s　%s' % (roc, e.get('ntag') or ('第%s次' % CN[nth - 1]), subj_name),
                 'subjName': subj_name,
                 'src': '考選部考畢試題查詢平臺公開之試題與標準答案',
                 'mins': mins_of(qp), 'qs': qs,
             })
+    if skipped:
+        print('⚠ 跳過 %d 卷：' % len(skipped))
+        for x in skipped: print('   ' + x)
     return papers, figs
 
 def main():
