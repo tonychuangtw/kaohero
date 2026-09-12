@@ -14746,7 +14746,7 @@ window.APP_EXAMS = [
   "subjName": "基礎醫學",
   "label": "112 年第一次　基礎醫學",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
