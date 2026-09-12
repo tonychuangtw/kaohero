@@ -90,7 +90,8 @@ window.APP_EXAM_PAPERS['loc-110-1-a017'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/110190_340_2412_5.webp"
+   "fig": "img/q/110190_340_2412_5.webp",
+   "exp": "✅ (B) 共軛 z̄＝x－iy，z̄²＝(x²－y²)－2ixy，故 e^{z̄²}＝e^{x²－y²}[cos(2xy)－i sin(2xy)]，虛部為 －e^{x²－y²}sin(2xy)。\n❌ (A) 為 e^{z²}（未取共軛）的虛部，正負號相反。\n❌ (C) cos(2xy) 為實部而非虛部。\n❌ (D) 同樣誤取實部且符號有誤。\n📚 出處：複變函數 e^z 的實部與虛部"
   },
   {
    "n": 6,
