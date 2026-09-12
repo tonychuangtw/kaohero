@@ -518,7 +518,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_36.webp"
+   "fig": "img/q/105080_201_0215_36.webp",
+   "exp": "✅ (C) 全段主張衝突帶來新思維，故「沒有衝突的世界裡什麼都不會改變」。\n❌ (A) forsake 指拋棄，主詞 Nothing 搭配後語意不通。\n❌ (B) choose 需有選擇的對象。\n❌ (D) report 指報導，與語境不合。\n📚 出處：動詞語意與上下文推斷"
   },
   {
    "n": 37,
@@ -533,7 +534,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_37.webp"
+   "fig": "img/q/105080_201_0215_37.webp",
+   "exp": "✅ (A) 前句說科學危機是必要的，故「沒有危機就沒有創新」。\n❌ (B) place 指地方，語意不合。\n❌ (C) time 指時間，語意不合。\n❌ (D) relationship 指關係，語意不合。\n📚 出處：上下文語意推斷"
   },
   {
    "n": 38,
@@ -548,7 +550,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_38.webp"
+   "fig": "img/q/105080_201_0215_38.webp",
+   "exp": "✅ (A) 下一句指出和諧必是衝突促成成長的生活，故「和諧的生活不可能是沒有衝突的生活」。\n❌ (B) isn't that 句法不通。\n❌ (C) is what 會使語意變成肯定，與下文矛盾。\n❌ (D) must do 語意與句法均不合。\n📚 出處：語意邏輯與句型"
   },
   {
    "n": 39,
@@ -563,7 +566,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_39.webp"
+   "fig": "img/q/105080_201_0215_39.webp",
+   "exp": "✅ (B) 後文說人們不願被迫重新檢視觀點，故「改變需要開放的心態」。\n❌ (A) rhetorical questions 指反詰問句，語意不合。\n❌ (C) no evaluation 與重新檢視觀點的語意相反。\n❌ (D) weak links 指薄弱環節，語意不合。\n📚 出處：上下文語意推斷"
   },
   {
    "n": 40,
@@ -578,7 +582,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_40.webp"
+   "fig": "img/q/105080_201_0215_40.webp",
+   "exp": "✅ (A) 空格後以 often bloody 補述，並接「流的是信念與偏見之血」，故指偉大的創新伴隨「革命」。\n❌ (B) information 與 bloody 的補述不合。\n❌ (C) tradition 與創新的語意相反。\n❌ (D) conjunction 指連接，語意不合。\n📚 出處：同位語補述與語意推斷"
   },
   {
    "n": 41,
@@ -593,7 +598,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_41.webp"
+   "fig": "img/q/105080_201_0215_41.webp",
+   "exp": "✅ (C) 主詞為複數且全段為現在式陳述通則，用 become obsolete 表「變得過時」。\n❌ (A) beget 指產生，且與 obsolete 不搭配。\n❌ (B) begot 為 beget 的過去式，時態與語意均不合。\n❌ (D) became 為過去式，與全段現在式不一致。\n📚 出處：連綴動詞 become 與時態一致"
   },
   {
    "n": 42,
@@ -608,7 +614,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_42.webp"
+   "fig": "img/q/105080_201_0215_42.webp",
+   "exp": "✅ (B) 主詞為複數的電子廢棄物，且為被丟棄者，須用複數被動 are discarded。\n❌ (A) is discarded 主詞動詞不一致。\n❌ (C) is disputed 語意不合且單複數錯誤。\n❌ (D) are disputed 語意不合。\n📚 出處：主詞動詞一致與被動語態"
   },
   {
    "n": 43,
@@ -623,7 +630,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_43.webp"
+   "fig": "img/q/105080_201_0215_43.webp",
+   "exp": "✅ (D) end up in＋地點，指這些電子廢棄物「最後進入」掩埋場。\n❌ (A) end at 語意為結束於某時點。\n❌ (B) ends up 後須有介系詞或補語才能接地點。\n❌ (C) end up to 非英語慣用搭配。\n📚 出處：片語 end up in"
   },
   {
    "n": 44,
@@ -638,7 +646,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_44.webp"
+   "fig": "img/q/105080_201_0215_44.webp",
+   "exp": "✅ (C) 鉛、汞、砷皆為有毒「物質」，用 substances。\n❌ (A) subtitles 指字幕。\n❌ (B) subsidies 指補貼。\n❌ (D) subordinates 指部屬。\n📚 出處：名詞語意辨析"
   },
   {
    "n": 45,
@@ -653,7 +662,8 @@ window.APP_EXAM_PAPERS['gao-105-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/105080_201_0215_45.webp"
+   "fig": "img/q/105080_201_0215_45.webp",
+   "exp": "✅ (A) 「理論上回收似乎是個好解方」，後接 However 轉折指出問題，用 solution。\n❌ (B) pollution 指污染，與 good 矛盾。\n❌ (C) salutation 指招呼語。\n❌ (D) population 指人口。\n📚 出處：名詞語意與語境"
   },
   {
    "n": 46,
