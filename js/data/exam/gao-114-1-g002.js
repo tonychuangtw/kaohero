@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/114080_201_0401_41.webp"
+   "fig": "img/q/114080_201_0401_41.webp",
+   "exp": "✅ (C) 「他們並未展現出與父母輩相同的工作倫理」，exhibit 指表現、展露某種特質。\n❌ (A) cease 指停止，與 the same level 搭配不通。\n❌ (B) ignore 指忽視，受詞應為建議或事實而非自身特質。\n❌ (D) abandon 指放棄，暗示原本擁有過，與文意不合。\n📚 出處：動詞 exhibit 的語意與搭配"
   },
   {
    "n": 42,
@@ -603,7 +604,8 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/114080_201_0401_42.webp"
+   "fig": "img/q/114080_201_0401_42.webp",
+   "exp": "✅ (B) 父母輩必須「犧牲」休閒時間長時間勞動，用 sacrifice。\n❌ (A) launch 指發動、推出，語意不合。\n❌ (C) increase 與後文的長工時矛盾。\n❌ (D) strengthen 指強化，語意不合。\n📚 出處：動詞語意辨析"
   },
   {
    "n": 43,
@@ -618,7 +620,8 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/114080_201_0401_43.webp"
+   "fig": "img/q/114080_201_0401_43.webp",
+   "exp": "✅ (A) work-life balance（工作與生活的平衡）為固定搭配，且與 personal fulfillment 並列。\n❌ (B) inequality 指不平等，與追求的目標相反。\n❌ (C) extension 指延伸，不與 work-life 搭配。\n❌ (D) impression 指印象，語意不合。\n📚 出處：搭配詞 work-life balance"
   },
   {
    "n": 44,
@@ -633,7 +636,8 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/114080_201_0401_44.webp"
+   "fig": "img/q/114080_201_0401_44.webp",
+   "exp": "✅ (C) 遠距工作與被動收入的機會來自數位科技的「進步」，用 advancements。\n❌ (A) objection 指反對，語意不合。\n❌ (B) ignorance 指無知，語意不合。\n❌ (D) postponements 指延後，語意不合。\n📚 出處：名詞 advancement 的語意"
   },
   {
    "n": 45,
@@ -648,7 +652,8 @@ window.APP_EXAM_PAPERS['gao-114-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/114080_201_0401_45.webp"
+   "fig": "img/q/114080_201_0401_45.webp",
+   "exp": "✅ (A) 與 basic 並列修飾 well-being，指重視「基本而必要的」身心健康，勝過無止盡的苦幹。\n❌ (B) luxurious 與 basic 語意相斥。\n❌ (C) dependent 指依賴的，語意不合。\n❌ (D) occasional 指偶爾的，與 basic 並列不通。\n📚 出處：形容詞並列與語意一致"
   },
   {
    "n": 46,
