@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/109190_401_0208_41.webp"
+   "fig": "img/q/109190_401_0208_41.webp",
+   "exp": "✅ (D) refer to 意為「指的是」，此處說明 ASMR 指人對輕柔聲音所產生的反應。\n❌ (A) turn down 指調低或拒絕。\n❌ (B) look after 指照顧。\n❌ (C) take over 指接管。\n📚 出處：動詞片語 refer to"
   },
   {
    "n": 42,
@@ -603,7 +604,8 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109190_401_0208_42.webp"
+   "fig": "img/q/109190_401_0208_42.webp",
+   "exp": "✅ (A) 空格後以翻書聲讓人放鬆為例，說明前句的定義，用 For example。\n❌ (B) In addition 表補充另一項資訊，非舉例。\n❌ (C) As a result 表結果，語意不合。\n❌ (D) On the other hand 表對比，語意不合。\n📚 出處：轉承語（舉例）"
   },
   {
    "n": 43,
@@ -618,7 +620,8 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/109190_401_0208_43.webp"
+   "fig": "img/q/109190_401_0208_43.webp",
+   "exp": "✅ (B) 「雖然目前缺乏相關科學數據支持，ASMR 仍被許多人用來對抗焦慮與失眠」，While 引導讓步子句。\n❌ (A) Unless 表除非，語意不合。\n❌ (C) If 表條件，與既成事實不合。\n❌ (D) Because 表原因，與前後的轉折矛盾。\n📚 出處：連接詞 While 的讓步用法"
   },
   {
    "n": 44,
@@ -633,7 +636,8 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/109190_401_0208_44.webp"
+   "fig": "img/q/109190_401_0208_44.webp",
+   "exp": "✅ (D) have a positive impact on 為固定搭配，指對學習有正面影響。\n❌ (A) legend 指傳說。\n❌ (B) attitude 通常搭配 toward 而非 on。\n❌ (C) version 指版本，語意不合。\n📚 出處：搭配詞 have an impact on"
   },
   {
    "n": 45,
@@ -648,7 +652,8 @@ window.APP_EXAM_PAPERS['loc-109-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/109190_401_0208_45.webp"
+   "fig": "img/q/109190_401_0208_45.webp",
+   "exp": "✅ (B) 下文說不同人偏好不同觸發音，故 ASMR 的體驗「因人而異、各不相同」，用 unique to each person。\n❌ (A) steady 指穩定的，語意不合。\n❌ (C) mental 指心理的，無法與 to each person 搭配。\n❌ (D) abstract 指抽象的，語意不合。\n📚 出處：形容詞搭配 unique to"
   },
   {
    "n": 46,
