@@ -592,7 +592,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    "psg": "If you spend most of your days sitting at school, work, at a computer or stretched out on a couch at home, you may be taking up to two years off your life. It is 41 that a sedentary lifestyle increases the risk of heart disease, Type 2 Diabetes, cancer and obesity, and can result in early death. Many people think they can make up for sitting around by walking, playing sports or going to the gym. 42 , this might not be so. A new study just published in the journal \"Annals of Internal Medicine\" suggests the effect on our longevity from sitting for long periods of time cannot be changed through exercise. Even 60 minutes of daily exercise may not be enough. The study is from Dr. David Alter and his colleagues at Toronto University. Dr. Alter and his team analyzed 47 studies that 43 different groups of people, who kept notes on how long they sat down each day and how much they exercised. They found that the most sedentary groups had a 24% increased chance of dying than the 44 sedentary ones. This remained the case even though those who sat a lot also did 60 minutes of daily exercise. Dr. Alter writes： \" 45 your sit-down time by 2-3 hours each day by standing up at your desk, taking frequent breaks to stretch and walk, or watching TV on your feet may be better than an expensive, crowded, smelly gym and be just what the doctor ordered.\"",
    "needfig": true,
    "fig": "img/q/109190_501_0209_41.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 久坐提高心臟病、糖尿病等風險已是眾所周知的事實，用 common knowledge。\n❌ (A) an unlikely fact 與文中的肯定語氣相反。\n❌ (B) a rare instance 指罕見案例，語意不合。\n❌ (D) mixed feeling 指複雜的感受，不能用 It is…that 的句型陳述事實。\n📚 出處：名詞片語 common knowledge"
   },
   {
    "n": 42,
@@ -607,7 +608,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/109190_501_0209_42.webp"
+   "fig": "img/q/109190_501_0209_42.webp",
+   "exp": "✅ (D) 許多人以為運動可彌補久坐，但新研究顯示未必如此，語氣為遺憾的轉折，用 Unfortunately。\n❌ (A) Accordingly 表因此，語意不合。\n❌ (B) Immediately 表立即，語意不合。\n❌ (C) Satisfactorily 表令人滿意地，與後文的否定結論相反。\n📚 出處：轉承副詞的語意"
   },
   {
    "n": 43,
@@ -622,7 +624,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109190_501_0209_43.webp"
+   "fig": "img/q/109190_501_0209_43.webp",
+   "exp": "✅ (C) 研究「追蹤」不同族群並記錄其久坐與運動時間，用 tracked。\n❌ (A) questioned 指質疑或詢問，與記錄時數的敘述不合。\n❌ (B) appointed 指任命，語意不合。\n❌ (D) advised 指建議，語意不合。\n📚 出處：動詞 track 的語意"
   },
   {
    "n": 44,
@@ -637,7 +640,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109190_501_0209_44.webp"
+   "fig": "img/q/109190_501_0209_44.webp",
+   "exp": "✅ (A) 與 the most sedentary groups 相對，比較對象應為「最不久坐的」族群，用 the least sedentary。\n❌ (B) last 指最後的，語意不合。\n❌ (C) more 與 the 連用不合語法。\n❌ (D) best 不與 sedentary 搭配。\n📚 出處：最高級 the least 的用法"
   },
   {
    "n": 45,
@@ -652,7 +656,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109190_501_0209_45.webp"
+   "fig": "img/q/109190_501_0209_45.webp",
+   "exp": "✅ (C) 後文舉站著辦公、起身伸展等作法，皆在「減少」久坐時間，用動名詞 Reducing 作主詞。\n❌ (A) Maintaining 指維持，與改善的建議相反。\n❌ (B) Conducting 指執行，不與 sit-down time 搭配。\n❌ (D) Overseeing 指監督，語意不合。\n📚 出處：動名詞作主詞與語意選擇"
   },
   {
    "n": 46,
