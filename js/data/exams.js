@@ -34468,7 +34468,7 @@ window.APP_EXAMS = [
   "subjName": "會計學大意",
   "label": "102 年　五等　會計學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 40,
   "mins": 60
  },
  {
