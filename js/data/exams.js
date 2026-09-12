@@ -23184,7 +23184,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "102 年　普通考試　國文",
   "n": 10,
-  "exp": 7,
+  "exp": 9,
   "mins": 30
  },
  {
@@ -34706,7 +34706,7 @@ window.APP_EXAMS = [
   "subjName": "數學能力測驗",
   "label": "115 年　國民小學師資類科　數學能力測驗",
   "n": 26,
-  "exp": 17,
+  "exp": 18,
   "mins": 80
  },
  {
@@ -35252,7 +35252,7 @@ window.APP_EXAMS = [
   "subjName": "國語文能力測驗",
   "label": "112 年　共同科目（全類科）　國語文能力測驗",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 80
  },
  {
