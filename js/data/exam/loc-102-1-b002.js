@@ -334,7 +334,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "甲以概括犯意，連續二行為觸犯殺人罪，為連續犯",
     "甲利用同一個機會觸犯兩個殺人罪，為集合犯"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 甲僅有引爆炸彈一個行為，卻侵害 A、B 二人的生命法益而觸犯二個殺人罪，屬一行為觸犯數罪名的想像競合，從一重處斷。\n❌ (A) 僅一個行為，不成立數罪併罰的一罪一罰。\n❌ (C) 連續犯須有數個行為，且該規定已於 95 年刪除。\n❌ (D) 集合犯係指本質上預定反覆實施的構成要件行為，與本件不符。\n📚 出處：刑法第 55 條（想像競合）"
   },
   {
    "n": 24,
@@ -667,7 +668,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/102190_401_0205_47.webp"
+   "fig": "img/q/102190_401_0205_47.webp",
+   "exp": "✅ (C) be covered with 為固定用法，指「布滿、覆蓋著」偏遠的森林山脈，語意與搭配均正確。\n❌ (A) distributed 指分配、分布，不與 with 搭配作此用法。\n❌ (B) contributed 指貢獻，語意不合。\n❌ (D) recovered 指復原、尋回，語意不合。\n📚 出處：動詞片語 be covered with"
   },
   {
    "n": 48,
@@ -682,7 +684,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/102190_401_0205_48.webp"
+   "fig": "img/q/102190_401_0205_48.webp",
+   "exp": "✅ (D) among the most beautiful 表示「屬於最美的之列」，用於三者以上的群體，符合文意。\n❌ (A) at 不與最高級作此搭配。\n❌ (B) during 表期間，語意不合。\n❌ (C) between 用於兩者之間。\n📚 出處：among＋最高級的用法"
   },
   {
    "n": 49,
@@ -697,7 +700,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/102190_401_0205_49.webp"
+   "fig": "img/q/102190_401_0205_49.webp",
+   "exp": "✅ (B) 登山健行需要合理程度的「體能」（fitness），並搭配適當裝備，符合上下文。\n❌ (A) height 指高度，與所需條件不合。\n❌ (C) appetite 指食慾，語意不合。\n❌ (D) hobby 指嗜好，不以「程度」形容。\n📚 出處：語意搭配（a reasonable level of fitness）"
   },
   {
    "n": 50,
@@ -712,7 +716,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102190_401_0205_50.webp"
+   "fig": "img/q/102190_401_0205_50.webp",
+   "exp": "✅ (A) 政府要求登山者持有「入山許可證」（mountain permits），故須三人成行並有嚮導。\n❌ (B) traces 指痕跡，語意不合。\n❌ (C) incentives 指誘因，與規定的性質不符。\n❌ (D) approvals 指核准的行為，不作為登山者「持有」的文件名稱。\n📚 出處：語意判斷（mountain permits）"
   }
  ]
 };
