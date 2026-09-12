@@ -34020,7 +34020,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "102 年　四等　國籍與戶政法規概要",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
