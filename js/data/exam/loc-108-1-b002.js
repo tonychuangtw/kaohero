@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/108190_401_0206_41.webp"
+   "fig": "img/q/108190_401_0206_41.webp",
+   "exp": "✅ (B) 先行詞為地點 the United States，且關係子句結構完整，須用關係副詞 where。\n❌ (A) which 作關係代名詞時，子句中會缺少主詞或受詞，此處並不缺。\n❌ (C) when 的先行詞須為時間。\n❌ (D) how 不可用於有先行詞的關係子句。\n📚 出處：關係副詞 where"
   },
   {
    "n": 42,
@@ -603,7 +604,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/108190_401_0206_42.webp"
+   "fig": "img/q/108190_401_0206_42.webp",
+   "exp": "✅ (D) 「雖然現今由女性主導，啦啦隊最初卻是男性發起的」，前後語意相反，用 Although。\n❌ (A) Once 表「一旦」或「曾經」，無法表達轉折。\n❌ (B) Because 表原因，與前後對比不合。\n❌ (C) Unless 表「除非」，語意不合。\n📚 出處：讓步連接詞 Although"
   },
   {
    "n": 43,
@@ -618,7 +620,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/108190_401_0206_43.webp"
+   "fig": "img/q/108190_401_0206_43.webp",
+   "exp": "✅ (D) 「若沒有 Herkimer，啦啦隊就不會是今日的樣貌」，與 would not be 的假設語氣相合，用 Without。\n❌ (A) Because of 表原因，與假設語氣不合。\n❌ (B) Apart from 表「除……之外」，語意不合。\n❌ (C) Like 表「像」，語意不合。\n📚 出處：Without 引導的隱含假設語氣"
   },
   {
    "n": 44,
@@ -633,7 +636,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/108190_401_0206_44.webp"
+   "fig": "img/q/108190_401_0206_44.webp",
+   "exp": "✅ (D) begin 後接動名詞，且與 as well as handing out 形成對稱，指開始「排名」前十大大學啦啦隊。\n❌ (A) charging 指收費或指控，語意不合。\n❌ (B) adapting 指改編、適應，語意不合。\n❌ (C) figuring 指估算，與受詞搭配不通。\n📚 出處：動名詞的對稱結構"
   },
   {
    "n": 45,
@@ -648,7 +652,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/108190_401_0206_45.webp"
+   "fig": "img/q/108190_401_0206_45.webp",
+   "exp": "✅ (A) so＋助動詞＋主詞的倒裝句表「也是如此」，前句用過去式 grew，故用 did。\n❌ (B) that 無法構成倒裝。\n❌ (C) what 無法構成倒裝。\n❌ (D) were 與前句的動詞型態不一致。\n📚 出處：so 引導的倒裝句"
   },
   {
    "n": 46,
