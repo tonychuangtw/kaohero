@@ -534,7 +534,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/102190_502_0207_37.webp"
+   "fig": "img/q/102190_502_0207_37.webp",
+   "exp": "✅ (C) establish oneself as… 為固定用法，主詞為 West Point，反身代名詞用 itself。\n❌ (A) one 無法作反身受詞。\n❌ (B) them 與單數主詞不一致。\n❌ (D) theirs 為所有格代名詞，句法不合。\n📚 出處：反身代名詞與 establish oneself as"
   },
   {
    "n": 38,
@@ -549,7 +550,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/102190_502_0207_38.webp"
+   "fig": "img/q/102190_502_0207_38.webp",
+   "exp": "✅ (D) 下文說畢業生後來多晉升為統帥，可見他們在美國社會中扮演「關鍵的」角色，用 key。\n❌ (A) small 與後文的重要性相反。\n❌ (B) doubtful 指可疑的，語意不合。\n❌ (C) empty 指空的，不與 roles 搭配。\n📚 出處：形容詞語意與上下文推斷"
   },
   {
    "n": 39,
@@ -564,7 +566,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102190_502_0207_39.webp"
+   "fig": "img/q/102190_502_0207_39.webp",
+   "exp": "✅ (A) 承接前句所述的重要地位，再補述他們「也」從基層軍官做起，用 also。\n❌ (B) never 為否定，與後文的晉升敘述矛盾。\n❌ (C) barely 表幾乎不，語意相反。\n❌ (D) seldom 表很少，語意相反。\n📚 出處：頻率與語氣副詞"
   },
   {
    "n": 40,
@@ -579,7 +582,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/102190_502_0207_40.webp"
+   "fig": "img/q/102190_502_0207_40.webp",
+   "exp": "✅ (C) 空格後為名詞片語 the later years of the 19th century，須用介系詞 During。\n❌ (A) Although 為連接詞，後須接子句。\n❌ (B) Whether 為連接詞，後須接子句。\n❌ (D) When 作連接詞時後亦須接子句。\n📚 出處：介系詞與連接詞的區別"
   },
   {
    "n": 41,
