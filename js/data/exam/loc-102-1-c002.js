@@ -518,7 +518,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102190_501_0206_36.webp"
+   "fig": "img/q/102190_501_0206_36.webp",
+   "exp": "✅ (A) 由上文「when she was a little kid, Mary liked dressing up in a ___」可知萬聖節小孩喜歡「裝扮」，應填 costume（服裝）。\n❌ (B) harvest 指收穫，與 dress up in 的搭配不合。\n❌ (C) clown 指小丑（人），不能作為 dress up in a 的受詞。\n❌ (D) headline 指新聞標題，語意不合。\n📚 出處：語意與搭配（dress up in a costume）"
   },
   {
    "n": 37,

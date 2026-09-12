@@ -518,7 +518,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c006'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/102190_502_0207_36.webp"
+   "fig": "img/q/102190_502_0207_36.webp",
+   "exp": "✅ (B) 由「Two decades ___ Washington's first proposal」可知係指其提議「之後」二十年，應填 after。\n❌ (A) despite 表讓步，不與時間長度搭配。\n❌ (C) with 無「之後」的時間意涵。\n❌ (D) above 表位置在上方，語意不合。\n📚 出處：時間介系詞的用法"
   },
   {
    "n": 37,
