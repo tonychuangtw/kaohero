@@ -15880,7 +15880,7 @@ window.APP_EXAMS = [
   "subjName": "內外科護理學",
   "label": "105 年第一次　內外科護理學",
   "n": 80,
-  "exp": 0,
+  "exp": 66,
   "mins": 60
  },
  {
