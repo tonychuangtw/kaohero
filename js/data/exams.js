@@ -14998,7 +14998,7 @@ window.APP_EXAMS = [
   "subjName": "產兒科護理學",
   "label": "111 年第一次　產兒科護理學",
   "n": 80,
-  "exp": 77,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -15180,7 +15180,7 @@ window.APP_EXAMS = [
   "subjName": "基本護理學與護理行政",
   "label": "110 年第二次　基本護理學與護理行政",
   "n": 80,
-  "exp": 78,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -15208,7 +15208,7 @@ window.APP_EXAMS = [
   "subjName": "產兒科護理學",
   "label": "110 年第二次　產兒科護理學",
   "n": 80,
-  "exp": 78,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -15250,7 +15250,7 @@ window.APP_EXAMS = [
   "subjName": "基本護理學與護理行政",
   "label": "109 年第一次　基本護理學與護理行政",
   "n": 80,
-  "exp": 79,
+  "exp": 80,
   "mins": 60
  },
  {
@@ -15334,7 +15334,7 @@ window.APP_EXAMS = [
   "subjName": "內外科護理學",
   "label": "109 年第二次　內外科護理學",
   "n": 80,
-  "exp": 78,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -15726,7 +15726,7 @@ window.APP_EXAMS = [
   "subjName": "基本護理學與護理行政",
   "label": "106 年第二次　基本護理學與護理行政",
   "n": 80,
-  "exp": 79,
+  "exp": 80,
   "mins": 60
  },
  {
@@ -15978,7 +15978,7 @@ window.APP_EXAMS = [
   "subjName": "精神科與社區衛生護理學",
   "label": "105 年第二次　精神科與社區衛生護理學",
   "n": 80,
-  "exp": 75,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -16244,7 +16244,7 @@ window.APP_EXAMS = [
   "subjName": "產兒科護理學",
   "label": "103 年第二次　產兒科護理學",
   "n": 80,
-  "exp": 78,
+  "exp": 79,
   "mins": 60
  },
  {
