@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **靜態頁 /exam/<pid>/ 已上線**（2,377 卷各一頁＋總覽 /exam/，已列進 sitemap，線上實測 200）。逐題詳解主線做到可做的盡頭：106,544/109,281 題（97.5%），其餘 2,737 題的分類盤點見下方表格。**下一步等 Tony 指示**：①題解分離／變現四階段（docs/monetization-plan.md 階段 0，靜態頁已刻意只放前 3 題詳解試讀，沒有把全部詳解烘進 HTML，就是為了不擋這一步）②擴充新科目（護理師 → 初等考試 → 警察特考 → 導遊領隊 → 其他醫事類）③SEO/AEO 監控站上要 Tony 登入的手動項（Bing 匯入、Analytics、IndexNow、AI 引用測試）。若被喚醒而 Tony 仍未回覆，**不要再問一次**，直接接著做 ②「擴充新科目：護理師」——Tony 2026-09-09 已定案科目順序，前提「現有八類解析全部做完」今天已達成，流程照 `tools/moex-fetch.py`／`moex-sweep.py`／`parse.py`／`gen_bank.py`（歷次加科都走這條），加完一科就把該科解析寫完再動下一科。
+NEXT_ACTION: **護理師已加進站：159 卷、11,280 題（102～115 年、32 次考試），尚未寫詳解**。全站 2,536 卷、120,561 題，已寫詳解 106,547 題。下一步：**開始寫護理師詳解**，順序建議由新到舊（115 → 102），一卷一卷照既有流程做（讀題 → Write patch JSON → chk.js → set-exp.js --write → build-index --write → test/test.js → build-pages.js --only <pid> --write → commit+push）。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
 104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -29,7 +29,7 @@ NEXT_ACTION: **靜態頁 /exam/<pid>/ 已上線**（2,377 卷各一頁＋總覽 
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 14:30 台北
+UPDATED: 2026-09-12 17:55 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
@@ -61,6 +61,22 @@ UPDATED: 2026-09-12 14:30 台北
 - **影響**：這些題目前沒有詳解，所以沒有寫出錯誤的解析；但站上仍會把存的答案標成「正解」，會誤導人。
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
+
+## 新增科目：護理師（2026-09-12 完成轉檔，尚未寫詳解）
+
+- 規模：159 卷、11,280 題，102～115 年共 32 次考試，五科（nur1～nur5）。
+- 流程：`moex-fetch.py 護理師 ~/exam-pdfs/nurse 102 115` → `tools/nurse-inv-fix.py`（補次別）→
+  `gen_bank.py nurse` → `crop-all.py`（裁 265 張圖）→ 搬進 repo → `build-index.js --write` →
+  `test/test.js` → `build-pages.js --write`。工作目錄 `~/exam-pdfs/nurse` 保留著，要重跑不用重抓。
+- **次別有三個例外**：112～114 年各有第三次；106 年另有「第二次花東考區補辦考試」（平臺標題被截斷成一樣，
+  只能讀 PDF 表頭才分得出來），記為第 4 次、標題寫「第二次（花東考區補辦）」。`test/test.js` 的次別斷言已放寬到 1～4。
+- **跳過 1 卷**：`108020` 精神科與社區衛生護理學整份是掃描影像，pdftotext 抽不出文字，需 OCR（這台沒有 tesseract）。
+- 轉檔過程修了三個共用工具的問題，之後加科都會受益，細節見該次 commit：
+  ① `parse.py` 的 relaxed 模式（題號後只隔一個空白、題號被拆成單獨一行）
+  ② `parse.py` 的 `_opts_by_columns()`（選項代號是子集字型的圈圈字、pdftotext 讀不出來時，改用版面欄位切選項；
+     救回 103 年第二次與 105 年第一次共 10 卷、800 題，否則整題會變成圖片題）
+  ③ `gen_bank.py` 的硬性檢查（題數 ≠ 標準答案張數就中止，不再默默收下被截斷的卷）
+- 手修 1 題：`nur-106-1-nur2` #14「醫囑中 A.D. 的含義」的 `A.D.` 被當成選項代號。
 
 ## 靜態頁 /exam/<pid>/（2026-09-12 上線）
 
