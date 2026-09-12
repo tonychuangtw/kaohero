@@ -612,7 +612,8 @@ window.APP_EXAM_PAPERS['gao-108-1-g002'] = {
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
    "needfig": true,
    "fig": "img/q/108090_201_0213_42.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 前句說農場天亮時「已經有一個人起來了」，後句接他自稱三十三年沒睡，故補「事實上他根本沒上過床」。\n❌ (A) 說他早上才去睡，與整段「從不睡覺」的敘述矛盾。\n❌ (B) 從夜班回來與後文的失眠說法無關。\n❌ (C) 說他一直在睡，與失眠的主旨完全相反。\n📚 出處：句子插入題（語意連貫）"
   },
   {
    "n": 43,
@@ -628,7 +629,8 @@ window.APP_EXAM_PAPERS['gao-108-1-g002'] = {
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
    "needfig": true,
    "fig": "img/q/108090_201_0213_43.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 空格後接 But nothing helps，故前面須是「我什麼方法都試過了」。\n❌ (A) 眾人責怪我，與 But nothing helps 銜接不上。\n❌ (B) 沒錢看醫生，與「什麼都沒用」的轉折不合。\n❌ (D) 說發燒早已痊癒，無法承接後句。\n📚 出處：句子插入題（轉折語意）"
   },
   {
    "n": 44,
@@ -644,7 +646,8 @@ window.APP_EXAM_PAPERS['gao-108-1-g002'] = {
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
    "needfig": true,
    "fig": "img/q/108090_201_0213_44.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 前句說他白天務農、夜裡巡守村莊，後句接醫師談缺眠的害處，故補「有需要時他還會叫醒鄰居」以延續其正面作為。\n❌ (A) 說他干擾鄰居工作，與前文的正面描述矛盾。\n❌ (C) 說他脾氣暴躁惹人厭，與前文不符。\n❌ (D) 說他病重無法工作，與「從未生病」矛盾。\n📚 出處：句子插入題（語意連貫）"
   },
   {
    "n": 45,
@@ -660,7 +663,8 @@ window.APP_EXAM_PAPERS['gao-108-1-g002'] = {
    "psg": "As people woke up at dawn on the farm, one person was already up. 42 An old man from Thailand claimed he has not slept for 33 years: “My insomnia started many years ago after I got a fever. 43 But nothing helps.” Amazingly, since then he has never once been ill. He spent the day farming and taking care of his pigs and at night he patrols the village. 44 Doctors said a chronic lack of sleep often causes anorexia, lethargy and irritability. 45 He was certainly one of them.",
    "needfig": true,
    "fig": "img/q/108090_201_0213_45.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 醫師說長期缺眠常導致厭食、倦怠與易怒，但此人並非如此，故補「但也有例外」，再接 He was certainly one of them。\n❌ (B) 「情況因人而異」無法與 one of them 呼應。\n❌ (C) 「可能更糟」與後句的指涉不符。\n❌ (D) 「沒有療法能治好他」與 them 所指的複數對象不合。\n📚 出處：句子插入題（代名詞指涉）"
   },
   {
    "n": 46,
