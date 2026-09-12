@@ -33768,7 +33768,7 @@ window.APP_EXAMS = [
   "subjName": "租稅各論",
   "label": "102 年　三等　租稅各論",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
