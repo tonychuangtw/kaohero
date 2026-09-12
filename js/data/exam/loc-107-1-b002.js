@@ -518,7 +518,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_36.webp"
+   "fig": "img/q/107190_401_0206_36.webp",
+   "exp": "✅ (A) serve as 意為「充當、作為」，「盼這段經歷能作為對其他家長的警告」語意最合。\n❌ (B) take after 指長得像、性格像某長輩。\n❌ (C) make up 指編造或組成、和好。\n❌ (D) look into 指調查。\n📚 出處：動詞片語 serve as"
   },
   {
    "n": 37,
@@ -533,7 +534,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_37.webp"
+   "fig": "img/q/107190_401_0206_37.webp",
+   "exp": "✅ (C) 空格在說明指尖陀螺的葉片「像吊扇一樣」旋轉，用 much like 表比擬。\n❌ (A) familiar with 指對某事熟悉，主詞須為人。\n❌ (B) identified with 指認同、等同於。\n❌ (D) contrary to 指與……相反，語意不合。\n📚 出處：介系詞片語 much like"
   },
   {
    "n": 38,
@@ -548,7 +550,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_38.webp"
+   "fig": "img/q/107190_401_0206_38.webp",
+   "exp": "✅ (B) 母親開車途中聽見女兒噎住，應是「把車停靠路邊」，pull over 即此意。\n❌ (A) pull in 多指車輛駛入車位或火車進站。\n❌ (C) pull up 雖可指停車，但慣用語境為停在某處前方，不如 pull over 貼切。\n❌ (D) pull out 指駛離、退出。\n📚 出處：動詞片語 pull over"
   },
   {
    "n": 39,
@@ -563,7 +566,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_39.webp"
+   "fig": "img/q/107190_401_0206_39.webp",
+   "exp": "✅ (C) 「在嘗試用哈姆立克法未果之後，才將女兒送醫」，用 After 引導表先後的分詞構句。\n❌ (A) If 表假設，與已發生的事實不合。\n❌ (B) Beyond 為介系詞，語意不通。\n❌ (D) Since 表原因或自從，與句意不符。\n📚 出處：分詞構句的連接詞"
   },
   {
    "n": 40,
@@ -578,7 +582,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/107190_401_0206_40.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 主要子句為過去式 were unable to tell，異物「先前已卡住」屬過去完成，用 had gotten stuck。\n❌ (A) stuck 為過去式，無法表達先於過去的時間。\n❌ (B) is stuck 為現在式，與時態不符。\n❌ (C) has gotten stuck 為現在完成式，與過去時態不符。\n📚 出處：過去完成式的用法"
   },
   {
    "n": 41,
@@ -593,7 +598,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_41.webp"
+   "fig": "img/q/107190_401_0206_41.webp",
+   "exp": "✅ (A) 真人圖書館是「以真人取代紙本書」，replace A with B 為固定用法。\n❌ (B) introduce 慣用 introduce A to B。\n❌ (C) place 指放置，與 with 不搭配。\n❌ (D) offer 慣用 offer A to B。\n📚 出處：replace A with B"
   },
   {
    "n": 42,
@@ -608,7 +614,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_42.webp"
+   "fig": "img/q/107190_401_0206_42.webp",
+   "exp": "✅ (D) 讀者在此「借閱」真人書，主詞為 you（借方），用 borrow。\n❌ (A) provide 為提供，主詞應為圖書館。\n❌ (B) loan 為出借，方向相反。\n❌ (C) lend 為借出，方向相反。\n📚 出處：borrow 與 lend 的區別"
   },
   {
    "n": 43,
@@ -623,7 +630,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_43.webp"
+   "fig": "img/q/107190_401_0206_43.webp",
+   "exp": "✅ (C) 先行詞 people 為人，且逗號後為非限定關係子句，須用關係代名詞 who。\n❌ (A) they 為人稱代名詞，不能引導子句。\n❌ (B) that 不可用於非限定關係子句。\n❌ (D) which 的先行詞須為事物。\n📚 出處：非限定關係子句"
   },
   {
    "n": 44,
@@ -638,7 +646,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_44.webp"
+   "fig": "img/q/107190_401_0206_44.webp",
+   "exp": "✅ (A) 前句說平台給真人書表達的機會，本句再補述同時也給讀者機會，用 Meanwhile 表並行。\n❌ (B) However 表轉折，前後語意並不相反。\n❌ (C) Therefore 表因果，語意不合。\n❌ (D) Otherwise 表否則，語意不合。\n📚 出處：轉承語的用法"
   },
   {
    "n": 45,
@@ -653,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/107190_401_0206_45.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肯定句中表「某些新東西」用 something new，符合雙方都有所學的語意。\n❌ (A) anything 多用於否定句或疑問句。\n❌ (C) everything new 語氣過強且不合文意。\n❌ (D) nothing 為否定，與句意相反。\n📚 出處：不定代名詞 something 的用法"
   },
   {
    "n": 46,
@@ -668,7 +678,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_46.webp"
+   "fig": "img/q/107190_401_0206_46.webp",
+   "exp": "✅ (C) 空格後說明都市傳說「通常」涉及離奇、恐怖或超自然事件，用 Typically。\n❌ (A) Eventually 表最終，與敘述通則不合。\n❌ (B) Surprisingly 表出人意料，語氣不符。\n❌ (D) Accidentally 表偶然，語意不合。\n📚 出處：副詞的語意辨析"
   },
   {
    "n": 47,
@@ -683,7 +694,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_47.webp"
+   "fig": "img/q/107190_401_0206_47.webp",
+   "exp": "✅ (B) 傳述者援引「看似可信的」消息來源以增強可信度，用 trustworthy。\n❌ (A) wealthy 指富有，與來源無關。\n❌ (C) fantastic 指極好或荒誕，語意不合。\n❌ (D) distractive 指使人分心，語意不合。\n📚 出處：形容詞的語意辨析"
   },
   {
    "n": 48,
@@ -698,7 +710,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_48.webp"
+   "fig": "img/q/107190_401_0206_48.webp",
+   "exp": "✅ (A) 引述來源的目的在「強化」其可信度，用 strengthen。\n❌ (B) tighten 指收緊，不與 credibility 搭配。\n❌ (C) explore 指探索，語意不合。\n❌ (D) soften 指軟化、削弱，語意相反。\n📚 出處：動詞與名詞的搭配"
   },
   {
    "n": 49,
@@ -713,7 +726,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_49.webp"
+   "fig": "img/q/107190_401_0206_49.webp",
+   "exp": "✅ (D) 傳說自發產生，「鮮少能追溯到單一源頭」，be traceable to 即可追溯至。\n❌ (A) disposable 指可拋棄的。\n❌ (B) portable 指可攜帶的。\n❌ (C) reliable 指可靠的，與 to a single point of origin 不搭配。\n📚 出處：形容詞 traceable 的搭配"
   },
   {
    "n": 50,
@@ -728,7 +742,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107190_401_0206_50.webp"
+   "fig": "img/q/107190_401_0206_50.webp",
+   "exp": "✅ (C) 故事流傳中不斷變化，故「沒有兩個版本完全相同」，version 指版本。\n❌ (A) vision 指視力、願景。\n❌ (B) edition 指出版品的版次，不適用於口傳故事。\n❌ (D) mission 指任務。\n📚 出處：名詞 version 的語意"
   }
  ]
 };
