@@ -17262,7 +17262,7 @@ window.APP_EXAMS = [
   "subjName": "財政學概要",
   "label": "112 年　普通考試　財政學概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -21336,7 +21336,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "105 年　普通考試　國文",
   "n": 10,
-  "exp": 9,
+  "exp": 10,
   "mins": 30
  },
  {
@@ -25004,7 +25004,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計",
   "label": "112 年　三等　成本與管理會計",
   "n": 25,
-  "exp": 20,
+  "exp": 21,
   "mins": 75
  },
  {
@@ -29498,7 +29498,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "107 年　四等　國文",
   "n": 10,
-  "exp": 9,
+  "exp": 10,
   "mins": 30
  },
  {

@@ -84,7 +84,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p014'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/112090_412_1007_5.webp"
+   "fig": "img/q/112090_412_1007_5.webp",
+   "exp": "✅ (A) 巨靈假說由布瑞南與布坎南於《課稅權力》（The Power to Tax, 1980）提出，視政府為追求歲入極大化的巨靈。\n❌ (B) 柯列特與漢格提出的是最適商品稅的柯列特—漢格法則。\n❌ (C) 丁波提出用腳投票模型，寇斯提出寇斯定理。\n❌ (D) 兩人的理論均與巨靈假說無關。\n📚 出處：Brennan & Buchanan 的 Leviathan hypothesis"
   },
   {
    "n": 6,
