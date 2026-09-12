@@ -33642,7 +33642,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "103 年　五等　電子學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 39,
   "mins": 60
  },
  {
