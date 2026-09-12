@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **逐題詳解主線已做到可做的盡頭：全站 106,544/109,281 題（97.5%）**。（a）地方特考 loc-* 102～114 年 774 卷全部收尾；（b）全站已無「一題詳解都沒有」的卷（最後一卷 loc-112-1-a010 已補完）；（c）「未寫但有 fig 欄位」的 407 題已掃完一輪，能開圖判讀的都寫了，剩 282 題確認寫不出來（見下方「剩下的 2,737 題是什麼」）。**下一步請 Tony 指示**：可選 ①`docs/monetization-plan.md` 的題解分離／變現四階段（原本就說「詳解寫完再動工」）、②靜態頁 `/exam/<id>/` 路由專案、③新增考試類別、④SEO/AEO 監控站上要 Tony 登入的手動項。無指示時本線維持 done，不再自行開工。
+NEXT_ACTION: **靜態頁 /exam/<pid>/ 已上線**（2,377 卷各一頁＋總覽 /exam/，已列進 sitemap，線上實測 200）。逐題詳解主線做到可做的盡頭：106,544/109,281 題（97.5%），其餘 2,737 題的分類盤點見下方表格。**下一步等 Tony 指示**：①題解分離／變現四階段（docs/monetization-plan.md 階段 0，靜態頁已刻意只放前 3 題詳解試讀，沒有把全部詳解烘進 HTML，就是為了不擋這一步）②擴充新科目（護理師 → 初等考試 → 警察特考 → 導遊領隊 → 其他醫事類）③SEO/AEO 監控站上要 Tony 登入的手動項（Bing 匯入、Analytics、IndexNow、AI 引用測試）。無指示時本線不再自行開工。
 104 年三等只到 a016，**沒有**往年那種整卷重複的 a017／a018；103 年三等多一卷 a017 工程數學、四等多 b024 b025；跨年度 reuse 實測命中 0 題（各年題目不重複），開卷前跑一次 `reuse-batch.js` 確認即可，不必期待命中。
 兩支腳本換 session 要重寫（都放 scratchpad）：
 - `reuse-batch.js <前綴>`：`require` 全部 `js/data/exam/*.js`（要用 `process.cwd()+'/js/data/exam/'+f` 絕對路徑），把非目標卷中 `q.exp && !q.void && !blank(q)` 的題以 `norm(q.q)+'|'+q.o.map(norm).join('|')` 建 Map（`norm=s=>String(s||'').normalize('NFKC').replace(/[\s　]/g,'').replace(/[（）()「」【】．，,、。；;：:？?！!]/g,'')`，`blank=q=>q.o.every(o=>!norm(o))`），再掃目標卷未寫且非廢題者，key 命中且 `hit.a===q.a` 才收，輸出 `[{pid,n,exp}]` 到 `REUSE_OUT/reuse-<pid>.json` 並印出命中清單。
@@ -29,7 +29,7 @@ NEXT_ACTION: **逐題詳解主線已做到可做的盡頭：全站 106,544/109,2
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-12 13:47 台北
+UPDATED: 2026-09-12 14:30 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
@@ -41,6 +41,14 @@ UPDATED: 2026-09-12 13:47 台北
 
 判斷「有 fig 的題組能不能寫」的方法（下次要再掃時用）：題組 [a..b] 的原文，通常排在第 a-1 題那張圖的下半部。所以
 `fig(a-1)` 或 `fig(a)` 是大檔（>40KB）才有機會；如果第 a-1 題沒有 fig，原文就只剩它選項 (D) 尾端那一兩句，寫不出來。
+## 靜態頁 /exam/<pid>/（2026-09-12 上線）
+
+- 產生器：`node tools/build-pages.js [--write] [--only <pid>] [--limit N]`，產出 `exam/<pid>/index.html`（2,377 頁，平均 35 KB，合計 80 MB）、總覽 `exam/index.html`，並重寫 `sitemap.xml`。樣式在 `css/paper.css`（獨立輕量，不吃 v2.css 的主題變數）。
+- 每頁內容：該卷全部題目、選項與考選部標準答案；**前 3 題詳解免費試讀，其餘詳解不寫進 HTML**。這一條是刻意的——`docs/monetization-plan.md` 階段 0 的目標就是「把付費詳解移出公開靜態檔」，若先把 10.6 萬題詳解烘進靜態頁並被 Google 索引，之後要收回會很麻煩。要改試讀題數改 `tools/build-pages.js` 的 `PREVIEW`。
+- 另有 canonical／og／BreadcrumbList 與 WebPage JSON-LD、同科目其他年度的站內連結、一顆連回 `#/paper/<pid>` 的作答 CTA。
+- **只新增檔案**，沒有動 index.html 的 SPA 與既有 hash 路由；index.html 只多一行連到 `/exam/`。
+- 題本內容有改（補詳解、修題目）之後要重跑 `node tools/build-pages.js --write` 才會同步；不跑不影響現有站台，只是靜態頁的數字會舊。
+
 一次重跑清單的指令：
 ```
 node -e "const fs=require('fs');fs.readdirSync('js/data/exam').forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const p=window.APP_EXAM_PAPERS[f.replace('.js','')];if(!p)return;p.qs.forEach(q=>{if(!q.exp&&!q.void&&q.fig)console.log(f.replace('.js','')+' #'+q.n+' '+q.fig)})})"
