@@ -663,7 +663,8 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/109090_301_0216_46.webp"
+   "fig": "img/q/109090_301_0216_46.webp",
+   "exp": "✅ (D) 說明 cursive 源自拉丁文 currere，「字面上就是」to run 之意，用 literally。\n❌ (A) incidentally 表「順帶一提」，與字源解釋不合。\n❌ (B) accidentally 表「意外地」，語意不合。\n❌ (C) partially 表「部分地」，語意不合。\n📚 出處：副詞 literally 的用法"
   },
   {
    "n": 47,
@@ -678,7 +679,8 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109090_301_0216_47.webp"
+   "fig": "img/q/109090_301_0216_47.webp",
+   "exp": "✅ (C) 區分的是「字與字之間提筆」而「非每個字母之間都提筆」，用 rather than 表對比。\n❌ (A) apart from 表「除……之外」。\n❌ (B) less than 表數量上的少於。\n❌ (D) let alone 用於否定句後表「更不用說」。\n📚 出處：連接詞片語 rather than"
   },
   {
    "n": 48,
@@ -693,7 +695,8 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109090_301_0216_48.webp"
+   "fig": "img/q/109090_301_0216_48.webp",
+   "exp": "✅ (A) favor A over B 為固定搭配，指課程偏好打字課而非手寫教學。\n❌ (B) than 須與比較級連用。\n❌ (C) for 不與 favor 構成此種比較。\n❌ (D) instead 為副詞，後不能直接接名詞。\n📚 出處：搭配詞 favor A over B"
   },
   {
    "n": 49,
@@ -708,7 +711,8 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109090_301_0216_49.webp"
+   "fig": "img/q/109090_301_0216_49.webp",
+   "exp": "✅ (A) 此處為引述來源的倒裝句「…, claims Adrienne Bernhard's article」，須用限定動詞 claims。\n❌ (B) to claim 為不定詞，無法作子句的主要動詞。\n❌ (C) claiming 為分詞，其邏輯主詞會誤指前面的名詞。\n❌ (D) are claiming 與單數主詞不一致。\n📚 出處：引述句的倒裝與主詞動詞一致"
   },
   {
    "n": 50,
@@ -723,7 +727,8 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/109090_301_0216_50.webp"
+   "fig": "img/q/109090_301_0216_50.webp",
+   "exp": "✅ (B) fall out of…into… 指草寫體「退出」商業用途而「轉入」私人書信，與後文 technology supplanted 的語意一致。\n❌ (A) rose 與 out of…into 的方向不合。\n❌ (C) decreased 為不及物且不與 out of…into 搭配。\n❌ (D) increased 與退出商業用途的語意相反。\n📚 出處：動詞片語 fall out of"
   }
  ]
 };
