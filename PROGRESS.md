@@ -1,17 +1,17 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **新科目「初等考試」已轉檔完成（2026-09-13）：385 卷、18,710 題、102～115 年**，全站現為 2,921 卷／139,271 題，已寫詳解 117,732 題。**下一步＝逐卷寫初等考試的詳解，由新到舊（115 年 27 卷 → 114 年 28 卷 → …→ 102 年 30 卷）。**
+NEXT_ACTION: **新科目「初等考試」已轉檔完成（2026-09-13）：385 卷、18,710 題、102～115 年**，全站現為 2,921 卷／139,271 題，已寫詳解 118,032 題。**下一步＝逐卷寫初等考試的詳解，由新到舊（115 年 27 卷 → 114 年 28 卷 → …→ 102 年 30 卷）。**
 　**要知道還有哪些卷沒寫，跑這行**（列出每一卷未寫的題數，由新到舊）：
 ```
 node -e "const fs=require('fs');const r=[];fs.readdirSync('js/data/exam').filter(f=>f.startsWith('chu-')).forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const pid=f.replace('.js','');const p=window.APP_EXAM_PAPERS[pid];if(!p)return;const n=p.qs.filter(q=>!q.exp&&!q.void&&!q.alt).length;if(n)r.push([pid,n,p.title])});r.sort().reverse();r.forEach(x=>console.log(x.join(' ')));console.log('剩',r.length,'卷、',r.reduce((a,b)=>a+b[1],0),'題')"
 ```
-　115 年已完成 4 卷：`e003` 法學大意、`e004` 行政學大意、`e007` 社政法規大意、`e008` 社會工作大意。每卷 50 題（`e001`～`e035` 共 35 個科目，卷 id 形如 `chu-115-1-e004`）。
+　115 年已完成 6 卷：`e003` 法學大意、`e004` 行政學大意、`e007` 社政法規大意、`e008` 社會工作大意、`e010` 人事行政大意、`e011` 教育法規大意（各 50 題）。每卷 50 題（`e001`～`e035` 共 35 個科目，卷 id 形如 `chu-115-1-e004`）。
 初等考試的特性：全部是四選一測驗題、一年一次（第三段固定為 1）、只有一個等別，考科多為「◯◯大意」（法學大意、行政學大意、社會工作大意、會計學大意、基本電學大意…），難度低於高普考，寫解析時要對應的是「大意」層級的基本概念。
 護理師（159 卷 11,280 題）已於 2026-09-13 全部做完，已寫 11,185 題／99.2%；剩 95 題全是寫不出來的（廢題 22、官方雙答案 12、①②③④組合選項在轉檔時全變成同一個圈圈字 31、要看圖但沒有 fig 或官方答案與教科書衝突 30）。
 ⚠ 全站「選項排多欄、文字黏在題幹尾端但有 fig」的未寫題還有 gao 107、loc 167、tcm 6、den 1、tea 1（共 282 題），這些是可以寫的（做法見下），等初等考試告一段落再回頭補。
 之後的科目順序（Tony 2026-09-09 定）：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類（醫檢師、物理治療師、營養師、職能治療師）。
 每卷流程：讀題 → Write patch JSON 到 scratchpad → `node $SP/chk.js` → `node tools/set-exp.js <patch> --write` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --only <pid> --write` → `git add js/data/exam/<pid>.js js/data/exams.js exam/<pid> sitemap.xml` → commit+push。SP=`/tmp/claude-1000/-home-tony-TelegramClaude-kaoguhero/<session>/scratchpad`，換 session 要重寫 chk.js（規格見下）。
-⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 117,732 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
+⚠ 111 年以前每卷多為 80 題，讀題分兩批（q.n<=40 / >40）。全站 2,536 卷、120,561 題，已寫詳解 118,032 題。護理師五科：nur1 基礎醫學、nur2 基本護理學與護理行政、nur3 內外科護理學、nur4 產兒科護理學、nur5 精神科與社區衛生護理學（108 年第一次沒有 nur5）。⚠ 要跳過的題（都要在 commit 訊息寫明）：`void:true` 送分題（set-exp 會擋）、題幹提到圖表但物件沒有 `fig` 欄位、圖檔解析度不足無法可靠判讀、官方答案與教科書／計算衝突或雙答案題。寫完護理師再依 Tony 2026-09-09 定的順序做下一科：初等考試 → 警察特考 → 導遊領隊 → 其他醫事類。
 
 掃「選項全空但有 fig、尚未寫詳解」的題：
 ```
@@ -21,7 +21,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-13 20:15 台北
+UPDATED: 2026-09-13 22:10 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
