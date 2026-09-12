@@ -1,0 +1,66 @@
+/* 每一卷靜態頁（exam/<pid>/index.html）專用樣式。
+   這些頁面不載入 app.js，所以不沿用 v2.css 的一整套主題變數，改用這份獨立、輕量的樣式。 */
+:root {
+  --bg: #f7f8fa; --fg: #1b1d22; --mut: #5b6270; --line: #e2e5ea;
+  --card: #ffffff; --ok: #1f7a45; --okbg: #eaf7f0; --brand: #2f5bd7;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14161a; --fg: #e8eaee; --mut: #a2a9b6; --line: #2a2e36;
+          --card: #1b1e24; --ok: #63d29a; --okbg: #16301f; --brand: #7ea1ff; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.75 "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+a { color: var(--brand); }
+
+.kh { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+      padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--card); }
+.klogo { font-weight: 800; font-size: 18px; text-decoration: none; color: var(--fg); }
+.knav a { margin-right: 14px; font-size: 14px; }
+
+.kwrap { max-width: 860px; margin: 0 auto; padding: 20px 20px 56px; }
+.kbc { font-size: 13px; color: var(--mut); margin: 4px 0 18px; }
+.kbc a { color: var(--mut); }
+h1 { font-size: 24px; line-height: 1.45; margin: 0 0 12px; }
+h2 { font-size: 19px; margin: 32px 0 10px; }
+.klead { color: var(--mut); font-size: 15px; margin: 0 0 18px; }
+.kcta { margin: 18px 0 26px; }
+.kbtn { display: inline-block; padding: 11px 20px; border-radius: 10px;
+        background: var(--brand); color: #fff; font-weight: 700; text-decoration: none; }
+
+.klist { list-style: none; margin: 0; padding: 0; }
+.kq { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 16px 18px; margin: 0 0 14px; }
+.kpsg { border-left: 3px solid var(--line); padding: 8px 0 8px 14px;
+        margin: 0 0 12px; color: var(--mut); font-size: 15px; white-space: pre-wrap; }
+.kqt { margin: 0 0 10px; }
+.kn { display: inline-block; min-width: 2em; font-weight: 700; color: var(--mut); }
+.kfig { margin: 8px 0; }
+.kfig img { max-width: 100%; height: auto; border-radius: 8px; }
+.kopt { list-style: none; margin: 0 0 10px; padding: 0; }
+.kopt li { padding: 3px 0 3px 4px; }
+.kopt li.ok { background: var(--okbg); border-radius: 6px; }
+.kopt b { color: var(--mut); margin-right: 4px; }
+.kans { margin: 0; font-size: 15px; }
+.kans b { color: var(--ok); }
+.kexp { margin: 12px 0 0; padding: 12px 14px; border-radius: 10px;
+        background: var(--okbg); font-size: 15px; }
+.kexp p { margin: 0 0 6px; }
+.kexp p:last-child { margin-bottom: 0; }
+.ktag { font-size: 12px; font-weight: 700; color: var(--ok); letter-spacing: .04em; }
+.kexp-lock { margin: 10px 0 0; font-size: 14px; color: var(--mut); }
+
+.krel ul { margin: 0; padding-left: 1.2em; }
+.krel li { margin: 4px 0; }
+.kfine { margin: 28px 0 0; font-size: 13px; color: var(--mut); }
+.kft { border-top: 1px solid var(--line); padding: 18px 20px 40px;
+       text-align: center; font-size: 13px; color: var(--mut); background: var(--card); }
+
+/* 卷頁總覽 exam/index.html */
+.kidx { list-style: none; margin: 0 0 6px; padding: 0;
+        display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px 18px; }
+.kidx li { padding: 3px 0; font-size: 15px; }
+.kmut { color: var(--mut); font-size: 13px; }
