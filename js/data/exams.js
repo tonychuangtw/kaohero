@@ -34146,7 +34146,7 @@ window.APP_EXAMS = [
   "subjName": "衛生行政學概要",
   "label": "102 年　四等　衛生行政學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
