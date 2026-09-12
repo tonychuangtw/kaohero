@@ -15544,7 +15544,7 @@ window.APP_EXAMS = [
   "subjName": "產兒科護理學",
   "label": "107 年第一次　產兒科護理學",
   "n": 80,
-  "exp": 0,
+  "exp": 80,
   "mins": 60
  },
  {
