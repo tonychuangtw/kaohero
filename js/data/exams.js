@@ -39429,7 +39429,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "110 年　初等考試　公務員法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 48,
   "mins": 60
  },
  {
