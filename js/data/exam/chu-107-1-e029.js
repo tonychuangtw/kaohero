@@ -106,7 +106,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "在 N 端加相對正電壓，在二極體內部中電流從 N 端流向 P 端",
     "在 N 端加相對負電壓，在二極體內部中電流從 N 端流向 P 端"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 二極體順向導通須 P 端接相對正電壓、N 端接相對負電壓；此時 N 區的多數載子電子越過接面流向 P 端。\n❌ (A) N 端加正電壓是逆向偏壓，二極體不導通。\n❌ (C) 電流方向與電子流相反，且 N 端加正電壓時並不導通。\n❌ (D) 順偏時傳統電流在元件內部由 P 端流向 N 端，非由 N 流向 P。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》PN 接面的順偏與逆偏"
   },
   {
    "n": 8,
@@ -145,7 +146,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "8 μA",
     "4 μA"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 二極體逆向飽和電流約每升高 10°C 增為 2 倍；由 25°C 升至 55°C 共 30°C，增為 2³＝8 倍，故 2 μA×8＝16 μA。\n❌ (A) 32 μA 相當於升溫 40°C。\n❌ (C) 8 μA 相當於升溫 20°C。\n❌ (D) 4 μA 相當於升溫 10°C。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》逆向飽和電流的溫度特性"
   },
   {
    "n": 11,
@@ -171,7 +173,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "三角波",
     "鉅齒波"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 史密特觸發器是具遲滯特性的比較器，輸出只在兩個飽和準位間跳變，故輸出為方波。\n❌ (B) 正弦波為線性振盪器（如韋恩電橋）的輸出。\n❌ (C) 三角波由積分器或非穩態電路搭配積分級產生。\n❌ (D) 鋸齒波由充放電時間不對稱的掃描電路產生。\n📚 出處：Sedra & Smith《Microelectronic Circuits》史密特觸發器（bistable multivibrator）"
   },
   {
    "n": 13,
@@ -184,7 +187,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "10 mA",
     "14.14 mA"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 半波整流輸出的有效值 V_rms＝V_m/2，由 14.14 V 得 V_m＝28.28 V；峰值電流 I_p＝V_m/R_L＝28.28/2000≈14.14 mA。\n❌ (A) 5 mA 與峰值電壓的關係不符。\n❌ (B) 7.07 mA 是把有效值電壓直接除以負載的結果。\n❌ (C) 10 mA 與各項計算皆不符。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》半波整流的有效值與峰值"
   },
   {
    "n": 14,
@@ -236,7 +240,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "3.55 V",
     "5.66 V"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 電容濾波的漣波電壓 V_r≈V_m/(f·R_L·C)。V_m＝20√2≈28.28 V，半波整流 f＝60 Hz，故 V_r≈28.28/(60×5000×50×10⁻⁶)＝28.28/15≈1.89 V。\n❌ (A) 0.22 V 對應電容值約 10 倍大的情形。\n❌ (C) 3.55 V 約為以 V_m 直接除以 8 的誤算。\n❌ (D) 5.66 V 與漣波公式的計算結果不符。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》電容濾波漣波電壓"
   },
   {
    "n": 18,
@@ -262,7 +267,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "不變",
     "不一定"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 漣波電壓 V_r≈V_m/(fRC)，與電容量成反比；濾波電容愈大，放電時間常數愈長，漣波電壓愈小。\n❌ (A) 電容加大不會使漣波變大。\n❌ (C) 漣波會隨電容改變，非不變。\n❌ (D) 在負載固定下方向明確，並非不一定。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》電容濾波"
   },
   {
    "n": 20,
@@ -301,7 +307,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "120 Hz",
     "240 Hz"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 半波整流每個輸入週期只輸出一個脈波，漣波（脈動）頻率等於輸入頻率 60 Hz。\n❌ (A) 30 Hz 為輸入頻率的一半，無對應電路。\n❌ (C) 120 Hz 是全波整流的漣波頻率。\n❌ (D) 240 Hz 與整流電路的週期關係不符。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》半波與全波整流"
   },
   {
    "n": 23,
@@ -314,7 +321,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "三極管區（triode region）",
     "飽和區（saturation region）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) V_CE 等於 V_CC＝12 V，代表集極電阻上沒有壓降、集極電流為零，電晶體未導通，工作於截止區。\n❌ (A) 主動區時集極電流不為零，V_CE 會低於 V_CC。\n❌ (C) 三極管區是 MOSFET 的用語。\n❌ (D) 飽和區的 V_CE 很小（約 0.2～0.3 V）。\n📚 出處：Sedra & Smith《Microelectronic Circuits》BJT 工作區判別"
   },
   {
    "n": 24,
@@ -392,7 +400,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "共閘極放大器",
     "共集極放大器"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 共射極放大器的輸出與輸入反相（相位差 180°），是典型的反相放大器。\n❌ (A) 共汲極（源極隨耦器）輸出與輸入同相。\n❌ (C) 共閘極放大器輸出與輸入同相。\n❌ (D) 共集極（射極隨耦器）輸出與輸入同相。\n📚 出處：Sedra & Smith《Microelectronic Circuits》三種基本組態的相位關係"
   },
   {
    "n": 30,
@@ -405,7 +414,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "與共源極放大器相比有較大的頻寬",
     "與共源極放大器相比需較高的偏壓電源"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 疊接（cascode）組態因輸出阻抗提高，電壓增益（gm·R_out）比單級共源極「更大」而非更小，故 (B) 不是其特性。\n❌ (A) 疊接使輸出阻抗顯著提高，屬其特性。\n❌ (C) 抑制米勒效應使頻寬增加，屬其特性。\n❌ (D) 兩顆電晶體串疊需要較高的偏壓電源電壓，屬其特性。\n📚 出處：Sedra & Smith《Microelectronic Circuits》cascode 放大器"
   },
   {
    "n": 31,
@@ -418,7 +428,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "工作在飽和區，VCB = -0.8 V",
     "工作在飽和區，VCB = 0.8 V"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 若工作於主動區應有 I_C＝βI_B＝9.9 mA，但 I_E＝6 mA 表示 I_C＝I_E−I_B＝5.9 mA＜βI_B，顯示已進入飽和區；PNP 飽和時集基接面順偏，V_CB 為正值（約 0.8 V）。\n❌ (A) 電流關係不符主動區條件。\n❌ (B) 同樣誤判為主動區。\n❌ (C) 飽和區判斷正確，但 PNP 飽和時 V_CB 的極性為正而非負。\n📚 出處：Sedra & Smith《Microelectronic Circuits》BJT 飽和條件與接面偏壓極性"
   },
   {
    "n": 32,
@@ -431,7 +442,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "VGD",
     "ID"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 夾止電壓 V_P 定義為使通道完全夾止、汲極電流 I_D 降為零（實務上為極小值）時的 V_GS，故調整可變電阻使 I_D＝0 即可量得。\n❌ (A) V_GS 是待測的量，不是判定歸零的對象。\n❌ (B) JFET 閘極為逆偏，I_G 本就近似為零，無法作為判準。\n❌ (C) V_GD 為零代表閘汲間無壓差，與夾止條件無關。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》JFET 夾止電壓的量測"
   },
   {
    "n": 33,
@@ -470,7 +482,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "鋸齒波",
     "三角波"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 韋恩電橋振盪器屬 RC 正弦振盪器，滿足巴克豪森準則後輸出穩定的弦波。\n❌ (A) 方波為多諧振盪器（史密特觸發式）的輸出。\n❌ (C) 鋸齒波由掃描或充放電不對稱電路產生。\n❌ (D) 三角波由積分器搭配方波產生。\n📚 出處：Sedra & Smith《Microelectronic Circuits》韋恩電橋振盪器"
   },
   {
    "n": 36,
@@ -483,7 +496,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "5.63 MHz",
     "10 MHz"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 哈特萊振盪器的等效電感為 L＝L₁＋L₂＝50 μH，f₀＝1/(2π√(LC))＝1/(2π√(50×10⁻⁶×100×10⁻¹²))≈2.25 MHz。\n❌ (A) 1.59 MHz 對應 L＝100 μH 的情形。\n❌ (C) 5.63 MHz 對應 L 僅 8 μH 左右。\n❌ (D) 10 MHz 與本題元件值不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》LC 振盪器（Hartley）"
   },
   {
    "n": 37,
@@ -509,7 +523,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 韋恩電橋振盪器的起振條件為放大器增益 1＋R₂/R₁≥3，即 R₂/R₁＝2。\n❌ (A) R₂/R₁＝1 時增益僅 2，迴路增益不足無法起振。\n❌ (C) R₂/R₁＝3 時增益為 4，超過臨界值會使振幅飽和失真。\n❌ (D) R₂/R₁＝4 時增益為 5，同樣過大。\n📚 出處：Sedra & Smith《Microelectronic Circuits》韋恩電橋振盪條件（A≥3）"
   },
   {
    "n": 39,
@@ -522,7 +537,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "8.33 ms",
     "16.66 ms"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 回授比 β＝R₁/(R₁＋R₂)＝100k/1.1M≈0.0909；半週期 T/2＝RC·ln[(1＋β)/(1−β)]＝(1 MΩ×0.01 μF)×ln(1.0909/0.9091)≈0.01×0.1823≈1.82 ms。\n❌ (B) 3.65 ms 為完整週期 T，非單次由負臨界升到正臨界的時間。\n❌ (C) 8.33 ms 與本題元件值不符。\n❌ (D) 16.66 ms 同樣不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》非穩態多諧振盪器的週期計算"
   },
   {
    "n": 40,
@@ -535,7 +551,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "548 Hz",
     "1096 Hz"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 週期 T＝2×1.825 ms＝3.65 ms，振盪頻率 f₀＝1/T≈274 Hz。\n❌ (A) 137 Hz 為 1/(2T) 的誤算。\n❌ (C) 548 Hz 為 2/T。\n❌ (D) 1096 Hz 為 4/T。\n📚 出處：Sedra & Smith《Microelectronic Circuits》非穩態電路振盪頻率"
   }
  ]
 };
