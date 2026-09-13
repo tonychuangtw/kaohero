@@ -39205,7 +39205,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作大意",
   "label": "110 年　初等考試　社會工作大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
