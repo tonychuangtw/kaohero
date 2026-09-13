@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "4倍",
     "8倍"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 飽和區 MOSFET 的轉導 gm＝μnCox(W/L)V_OV，在 W/L 固定下 gm 與過驅電壓成正比，故 V_OV 加倍時 gm 也變為 2 倍。\n❌ (A) 1 倍表示 gm 與 V_OV 無關，與 gm＝μnCox(W/L)V_OV 不符。\n❌ (C) 4 倍是把 I_D ∝ V_OV² 的關係誤套到 gm 上。\n❌ (D) 8 倍與任何一種常見關係式都不相符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 小訊號轉導 gm＝μnCox(W/L)V_OV"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "變化源極對本體的電壓也可以影響汲極電流",
     "本體應接到電路的最高電壓"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本體效應是指改變源極對本體電壓 V_SB 會改變臨界電壓 Vt，進而改變 V_OV 與汲極電流，故變化源極對本體電壓確實可以影響汲極電流。\n❌ (A) 源極電壓提高使 V_SB 增大，源極與本體間接面逆偏加深，空乏區變「寬」而非縮小。\n❌ (B) V_SB 增大時 Vt 依 Vt＝Vt0＋γ(√(2φf＋V_SB)−√(2φf)) 上升，不是下降。\n❌ (D) n 通道元件的本體應接到電路最低電位，以確保源／汲極與本體間的接面維持逆偏。\n📚 出處：Sedra & Smith《Microelectronic Circuits》body effect 與臨界電壓公式"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "1V",
     "1.414 V"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 汲閘短路的 MOSFET 必工作於飽和區，I_D＝½μnCox(W/L)V_OV²＝½×20μ×10×V_OV²＝100μ×V_OV²。令其等於 100 μA，得 V_OV²＝1，V_OV＝1 V。\n❌ (A) 0.5 V 是把臨界電壓 Vt 誤當成過驅電壓。\n❌ (B) 0.707 V 為 1/√2，來自漏掉 W/L 或係數 ½ 的計算。\n❌ (D) 1.414 V 為 √2，同樣是係數處理錯誤所致。\n📚 出處：Sedra & Smith《Microelectronic Circuits》飽和區電流 I_D＝½μnCox(W/L)V_OV²"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "飽和電流約為 0.5Io",
     "飽和電流約為 0.1Io"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 每升高 1°C 飽和電流增加約 7%，升高 10°C 後為 I₀×1.07¹⁰ ≈ 1.97 I₀，即約 2 倍，這也是「逆向飽和電流每 10°C 加倍」的常見說法。\n❌ (A) 10 倍需要每度成長約 26%，與題給的 7% 不符。\n❌ (C) 0.5 倍代表電流隨溫度上升而減半，方向相反。\n❌ (D) 0.1 倍同樣方向相反且量值過小。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》二極體逆向飽和電流的溫度特性"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "三極管區（triode region）",
     "主動區（active region）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) V_GS＝3 V、Vt＝2 V，故 V_OV＝1 V。V_DS＝0.5 V＜V_OV，符合三極管區（線性區）條件 V_DS＜V_GS−Vt。\n❌ (A) 崩潰區需 V_DS 大到接面崩潰，本題僅 0.5 V。\n❌ (B) 飽和區條件為 V_DS ≧ V_OV＝1 V，本題不成立。\n❌ (D) 主動區是 BJT 的用語，且對應 MOSFET 的飽和區，本題條件同樣不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 工作區判別（V_DS 與 V_OV 比較）"
   },
   {
    "n": 6,
@@ -104,7 +109,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "30 dB",
     "20 dB"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 電壓增益 A_v＝1 V/1 mV＝1000，分貝增益＝20log₁₀1000＝60 dB。\n❌ (A) 80 dB 對應增益 10000 倍。\n❌ (C) 30 dB 是用 10log 公式（功率增益）誤算電壓增益的結果。\n❌ (D) 20 dB 對應增益僅 10 倍。\n📚 出處：電子學（電壓增益之分貝表示 A_dB＝20log₁₀A_v）"
   },
   {
    "n": 8,
@@ -119,7 +125,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
    ],
    "needfig": true,
    "fig": "img/q/108010_515_0702_8.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖 (A) 為典型的超級二極體（superdiode）：輸入接非反相端，二極體串在運算放大器輸出與負載之間，且回授取自二極體之後的輸出節點，使二極體壓降被開迴路增益除掉，得到理想的精確半波整流。\n❌ (B) 二極體跨接在反相輸入端與輸出端之間，作用是限制運放輸出擺幅，屬箝位／限幅組態而非精確整流。\n❌ (C) 二極體串在輸入端、位於回授迴路之外，其順向壓降無法被補償，仍是一般（非精確）整流。\n❌ (D) 電路含稽納二極體與正回授路徑，屬比較器／限幅電路，不具半波整流的線性轉移特性。\n📚 出處：Sedra & Smith《Microelectronic Circuits》精確整流器（superdiode）；本題圖檔"
   },
   {
    "n": 9,
@@ -132,7 +139,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "兩輸入端的電壓相等",
     "兩輸入端的輸入阻抗為零"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 虛短路（virtual short）是指理想運算放大器開迴路增益無限大且有負回授時，兩輸入端電壓差趨近於零，即兩端電壓相等，但實體上並未相連。\n❌ (A) 虛短路是分析上的等效，並不需要真的把兩輸入端連接起來。\n❌ (B) 兩輸入端各自接地是實際接線，與虛短路概念不同。\n❌ (D) 輸入阻抗為零是「虛短路」常被誤解之處；理想運放的輸入阻抗為無限大，輸入電流為零（虛斷路）。\n📚 出處：Sedra & Smith《Microelectronic Circuits》理想運算放大器之虛短路與虛斷路"
   },
   {
    "n": 10,
@@ -145,7 +153,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "工作在飽和區（Saturation）且電壓 VGS＝0V 之電流",
     "工作在飽和區（Saturation）且電壓 VGS＝Vt 之電流"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 空乏型 MOSFET 在 V_GS＝0 V 時仍有通道存在，其在飽和區所流的汲極電流即定義為 I_DSS。\n❌ (A) I_DSS 定義於飽和區，不是三極管區。\n❌ (B) V_GS＝Vt 時通道被夾止，電流趨近於零，不是 I_DSS。\n❌ (D) 同上，V_GS＝Vt 對應的是截止條件。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》空乏型元件 I_D＝I_DSS(1−V_GS/V_P)²"
   },
   {
    "n": 11,
@@ -197,7 +206,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "增大輸入信號頻率",
     "增大輸入信號振幅"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 電容濾波電路的漣波因數 r ≈ 1/(2√3 f R_L C)，只與頻率、負載電阻與電容有關；增大輸入振幅會使漣波電壓與直流準位同比例放大，比值不變，故無法有效降低漣波。\n❌ (A) 增大負載電阻使放電電流變小，漣波隨之減小。\n❌ (B) 增大濾波電容延長放電時間常數，漣波減小。\n❌ (C) 提高輸入頻率縮短放電時間，漣波減小。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》電容濾波與漣波因數"
   },
   {
    "n": 15,
@@ -262,7 +272,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "同時利用輸入正弦電壓的正負週期",
     "輸出－輸入電壓特性的斜率絕對值接近 1"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 中心抽頭全波整流的兩個二極體分別負責正、負半週，任一時刻只有一個導通、另一個逆偏，不會同時導通或同時反偏，故 (A) 錯誤。\n❌ (B) 全波整流在同樣輸入下直流輸出較高，轉換效率優於半波整流，敘述正確。\n❌ (C) 全波整流同時利用正負半週，敘述正確。\n❌ (D) 導通期間輸出約等於輸入減去二極體壓降，轉移特性斜率絕對值接近 1，敘述正確。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》中心抽頭全波整流器"
   },
   {
    "n": 20,
@@ -275,7 +286,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "2倍",
     "5倍"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 全波整流把負半週翻轉為正，輸出每個輸入週期出現兩個脈波，故漣波（脈動）頻率為輸入頻率的 2 倍（60 Hz 輸入對應 120 Hz）。\n❌ (A) 0.5 倍代表兩個輸入週期才有一個脈波，與整流原理不符。\n❌ (B) 1 倍是半波整流的情形。\n❌ (D) 5 倍與整流電路的週期關係無關。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》半波與全波整流輸出波形"
   },
   {
    "n": 21,
@@ -327,7 +339,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "共閘極放大器",
     "共基極放大器"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 共汲極（源極隨耦器）電壓增益接近 1、輸入阻抗高、輸出阻抗低（約 1/gm），能驅動低阻抗負載而不衰減訊號，最適合作為輸出緩衝級。\n❌ (A) 共源極有高電壓增益但輸出阻抗高，適合作電壓放大級而非緩衝級。\n❌ (C) 共閘極輸入阻抗低（約 1/gm），常用於高頻或電流緩衝，不適合作輸出級。\n❌ (D) 共基極同樣是低輸入阻抗組態，用途與共閘極相似，非輸出緩衝首選。\n📚 出處：Sedra & Smith《Microelectronic Circuits》源極隨耦器（common-drain）特性"
   },
   {
    "n": 25,
@@ -340,7 +353,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "輸出電阻正比於爾利電壓（VA）",
     "輸入電阻正比於電流增益（β）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 主動區 BJT 的基極-射極接面為順偏，其擴散電容使 Cπ 遠「大於」逆偏的基極-集極接面電容 Cμ，故 (A) 敘述錯誤。\n❌ (B) gm＝I_C/V_T，與集極電流成正比，敘述正確。\n❌ (C) 輸出電阻 r_o＝V_A/I_C，與爾利電壓成正比，敘述正確。\n❌ (D) 輸入電阻 rπ＝β/gm，與電流增益 β 成正比，敘述正確。\n📚 出處：Sedra & Smith《Microelectronic Circuits》BJT 混合 π 小訊號模型"
   },
   {
    "n": 26,
@@ -366,7 +380,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "20 mA",
     "24 mA"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 依 I_D＝I_DSS(1−V_GS/V_P)²：V_GS1＝1 V 時 I_D1＝I_DSS(1−1/4)²＝0.5625 I_DSS；V_GS2＝3 V 時 I_D2＝I_DSS(1−3/4)²＝0.0625 I_DSS。兩者相加 0.625 I_DSS＝10 mA，得 I_DSS＝16 mA，而 V_GS＝0 V 時的汲極電流即 I_DSS＝16 mA。\n❌ (A) 10 mA 是兩個電流的總和，不是 V_GS＝0 時的電流。\n❌ (C) 20 mA 來自誤把係數取為 0.5。\n❌ (D) 24 mA 與 0.625 的比例關係不符。\n📚 出處：Boylestad《Electronic Devices and Circuit Theory》夾止區電流方程式 I_D＝I_DSS(1−V_GS/V_P)²"
   },
   {
    "n": 28,
@@ -535,7 +550,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "146 MHz",
     "167 MHz"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 單一增益頻率與 β 截止頻率的關係為 f_T＝β·f_β，故電晶體頻寬 f_β＝f_T/β＝20 GHz/120 ≈ 166.7 MHz，約 167 MHz。\n❌ (A) 107 MHz 對應 β 約 187，與題給 120 不符。\n❌ (B) 125 MHz 對應 β＝160。\n❌ (C) 146 MHz 對應 β 約 137。\n📚 出處：Sedra & Smith《Microelectronic Circuits》BJT 高頻響應 f_T＝β₀f_β"
   }
  ]
 };
