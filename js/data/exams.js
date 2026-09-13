@@ -39709,7 +39709,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "109 年　初等考試　會計審計法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 47,
   "mins": 60
  },
  {
