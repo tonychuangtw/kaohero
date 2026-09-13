@@ -36,7 +36,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-14 08:50 台北
+UPDATED: 2026-09-14 07:44 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
