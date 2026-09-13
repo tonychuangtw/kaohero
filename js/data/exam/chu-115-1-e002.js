@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "該石材產品的市場供給曲線將向右移動",
     "污染行為未被發現前，廠商的私人成本低於社會成本"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 廢水造成的環境損害由社會承擔，未被發現前廠商不必負擔這筆外部成本，故私人成本低於社會成本。\n❌ (A) 罰鍰是要內部化外部成本，與社會資本無關。\n❌ (B) 環保爭議曝光反而可能使需求減少。\n❌ (C) 限期改善使成本上升，供給曲線應向左移動。\n📚 出處：公民．經濟／外部成本與環境管制"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "出口小於進口",
     "對美國進口值小於其他國家"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 貿易順差指一國（對某國）的出口值大於進口值，出超。\n❌ (A) 比較的是同一對象的進出口，不是與其他國家相比。\n❌ (C) 出口小於進口是貿易逆差。\n❌ (D) 與其他國家的進口值比較無法判斷順逆差。\n📚 出處：公民．經濟／國際貿易"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "丙",
     "丁"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 丁生產一件長褲的機會成本為5/12件衣服，四人中最低（甲2、乙6/7、丙2/3），故長褲具比較利益。\n❌ (A) 甲多生產一件長褲須放棄兩件衣服，成本最高。\n❌ (B) 乙的機會成本為6/7件衣服，高於丁。\n❌ (C) 丙為2/3件衣服，仍高於丁。\n📚 出處：公民．經濟／比較利益"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "生產可能線為水平線且往上移動",
     "生產可能線為負斜率且往左下方移動"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 技術進步使兩種產品的產能同時提高，負斜率的生產可能線整條向右上方外移。\n❌ (A) 生產可能線呈負斜率，不會是垂直線。\n❌ (C) 也不會是水平線。\n❌ (D) 向左下方移動代表產能萎縮，與技術進步相反。\n📚 出處：公民．經濟／生產可能線"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "中央集權與地方分權",
     "市場機能與社會安全"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 以健康安全與生活品質換取工業產值，正是永續發展與經濟發展之間的取捨衝突。\n❌ (A) 事件不涉及國防安全或居住權的分配。\n❌ (C) 爭點不在中央與地方的權限劃分。\n❌ (D) 問題出在開發代價的分配，而非市場機能失靈與社會保險。\n📚 出處：公民．社會／永續發展"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "皮亞傑（Jean Piaget）：前運思期認知發展",
     "佛洛依德（Sigmund Freud）：本我支配自我"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 個人透過他人的評價與回饋形成自我概念，即顧里所說的鏡中自我。\n❌ (B) 道德義務論談的是行為的道德法則。\n❌ (C) 前運思期指二至七歲兒童的認知特徵。\n❌ (D) 本我支配自我描述的是人格結構的衝突。\n📚 出處：公民．社會／自我的形成"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "四方安全對話峰會屬於全球治理的一部分",
     "四方安全對話決議對參與國具法律約束效力"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 多國就跨國議題協商合作、共同處理全球性問題，屬全球治理的一環。\n❌ (A) 四國參與屬多邊而非雙邊。\n❌ (B) 它是區域性的對話機制，不是全球性國際組織。\n❌ (D) 峰會共識屬政治承諾，不具法律約束力。\n📚 出處：公民．政治／全球治理"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "乙未施以身體上的傷害，不構成家暴行為",
     "甲若想聲請通常保護令必須經過開庭審理"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 通常保護令須由法院開庭審理後核發，暫時或緊急保護令才得不經審理程序。\n❌ (A) 同性同居伴侶屬家庭暴力防治法所定的家庭成員，適用該法。\n❌ (B) 被害人向法院聲請保護令，警察機關是得聲請的機關之一。\n❌ (C) 言語謾罵與強行求歡屬精神與性方面的不法侵害，仍構成家暴。\n📚 出處：公民．法律／家庭暴力防治法"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "落實程序正義與政府資訊公開，以利擴大民眾參與",
     "強化社會安全網，讓民眾享有安全無虞的生活環境"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 強化社會安全網屬政府由上而下提供的社會保障，不直接增進公民由下而上參與公共事務的能力。\n❌ (A) 友善的結社法制是公民團體形成的基礎。\n❌ (B) 培力新住民擴大了參與的主體。\n❌ (C) 資訊公開與程序正義是民眾有效參與的前提。\n📚 出處：公民．政治／公民參與"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "1940 年代的代內流動機會高於 1980 年代",
     "1980 年代的結構流動機會高於 1940 年代"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 子女所得超越父母的機會由九成降到不到五成，代表世代之間的向上流動機會變低。\n❌ (A) 一九四〇年代的向上流動機會反而較高。\n❌ (C) 代內流動指同一人一生中的地位變動，題目比較的是親子兩代。\n❌ (D) 結構流動指產業結構改變帶動的流動，資料未顯示其較高。\n📚 出處：公民．社會／社會流動"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "289",
     "465"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 總席次四六五席扣除比例代表一七六席，餘二八九席由小選舉區選出，故有二八九個選區。\n❌ (A) 一一三是我國立法院的席次。\n❌ (B) 一七六是比例代表的席次。\n❌ (D) 四六五為眾議院總席次。\n📚 出處：公民．政治／選舉制度"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "甲乙兩大政黨合計囊括立法院過半席次",
     "沒有任何政黨可以取得立法院過半席次"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 戊、己兩黨得票率逾三%卻因未達五%門檻而零席次，顯示門檻對小黨不利。\n❌ (A) 表中為不分區（政黨票）結果，看不出區域選區的勝敗。\n❌ (C) 甲乙合計二十六席，未過全院一一三席的半數。\n❌ (D) 不分區席次無法推論全院是否有政黨過半。\n📚 出處：公民．政治／政黨門檻"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "法律明確性原則",
     "誠實信用原則"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 法律牴觸憲法（第七條性別平等）即失其效力，體現憲法居於最高位階的原則。\n❌ (A) 法律保留指限制人權須有法律依據，本案有法律依據仍違憲。\n❌ (C) 該條文文義明確，爭點不在明確性。\n❌ (D) 誠實信用是私法與行政程序上的原則。\n📚 出處：公民．法律／違憲審查"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "臺北地方法院",
     "懲戒法院"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 法務部調查局隸屬行政院法務部，行使的是行政權下的犯罪調查職權。\n❌ (A) 憲法法庭由大法官組成，屬司法權。\n❌ (C) 地方法院為普通法院，屬司法權。\n❌ (D) 懲戒法院審理公務員懲戒案件，屬司法權。\n📚 出處：公民．政治／中央政府體制"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "由少數黨在內閣中扮演關鍵少數，使政局穩定",
     "減少在野黨數量，有助提升內閣行政效率"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 多黨聯合可使執政聯盟在國會取得過半支持，避免少數政府，也涵蓋較廣的民意。\n❌ (A) 多黨共治使責任歸屬分散，反而不易貫徹責任政治。\n❌ (C) 關鍵少數具有超額影響力，常使政局不穩。\n❌ (D) 聯合內閣並不會減少政黨數目，協商成本反而提高。\n📚 出處：公民．政治／內閣制"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "韓國",
     "美國"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 總統民選且為最高行政首長、國會可彈劾總統但總統不能解散國會，接近韓國的總統制混合型體制。\n❌ (A) 法國的總理對國會負責，總統得解散國會。\n❌ (B) 日本為內閣制，元首為虛位天皇。\n❌ (D) 美國總統直接領導行政部門，無倒閣制度。\n📚 出處：公民．政治／各國政府體制比較"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "當經濟衰退與通貨膨脹嚴重時，人民可提出要求政府降低稅率之公民投票案",
     "總統無法利用公民投票的提案權，徵詢人民對重大經濟政策之意見"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 公民投票法所定的總統提案權限於「國家安全事項」的防衛性公投，不及於重大經濟政策。\n❌ (A) 公務員人事與敘薪屬中央法律事項，不得作為地方性公投提案。\n❌ (B) 創制案通過後仍須由立法機關完成法制程序，非立即生效。\n❌ (C) 租稅事項依法不得作為公投提案。\n📚 出處：公民．政治／公民投票法"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "單一國的缺點是中央推行的政策不一定可以同時滿足各地方的需求",
     "相較於中央集權，實施地方分權的國家，其市場與國家的關係較不穩定"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 單一國由中央統一決策，難以顧及各地差異化的需求，是其常見缺點。\n❌ (A) 實際權責常隨政治情勢與執政者而變動。\n❌ (B) 聯邦制與民主與否無必然關係。\n❌ (D) 地方分權與市場穩定度之間並無這樣的因果證據。\n📚 出處：公民．政治／中央與地方關係"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "臺灣對移工提供經濟參與機會，但移工的政治參與權利較為不足，影響其勞動權益的保障",
     "仲介公司如何處置移工，是其作為私有企業的自由，政府不應該干預"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 該學者主張移工勞動權益屬公民權的政治議題，現況是經濟參與有餘而政治參與不足。\n❌ (A) 學者正是反對把它化約為經濟議題。\n❌ (B) 學者批評的是外包管理的後果，未否定公私協力本身。\n❌ (D) 學者主張政府不應把職責外包卸責。\n📚 出處：公民．社會／移工與公民權"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "國民法官須在地方法院管轄區域連續居住滿 6 個月以上",
     "擔任國民法官屬於義務，原則上符合資格且沒有無法擔任的事由不得拒絕"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 國民法官法明定擔任國民法官為國民義務，符合資格且無拒絕事由者不得拒絕。\n❌ (A) 得以年齡為由聲請免除者為年滿七十歲以上。\n❌ (B) 無正當理由不到庭者處罰鍰，屬行政秩序罰而非刑責。\n❌ (C) 居住要件為在管轄區域內繼續居住四個月以上。\n📚 出處：公民．法律／國民法官法"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "為國家最高司法機關",
     "審理中央及地方公務人員之彈劾"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 憲法第七十七條明定司法院為國家最高司法機關。\n❌ (A) 訴願由原處分機關的上級行政機關受理，屬行政權。\n❌ (B) 公務員懲戒由司法院所屬懲戒法院掌理，與考試院無涉。\n❌ (D) 彈劾權屬監察院。\n📚 出處：公民．政治／司法院職權"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "原居大陸地區，但未持有我國合法居留許可之人民",
     "在大陸地區設有戶籍之人民"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 兩岸人民關係條例所稱大陸地區人民，指在大陸地區設有戶籍之人民。\n❌ (A) 認定標準是戶籍而非護照。\n❌ (B) 現居地不是法定判準。\n❌ (C) 我國居留許可的有無與該定義無關。\n📚 出處：公民．法律／兩岸人民關係條例"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "由聯合國組成特別審議委員會進行審查",
     "聯合國允諾無須審查，定期將國家報告存放聯合國秘書處即可"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 我國非聯合國會員，改由政府邀請國際人權專家來臺，比照聯合國模式進行國家報告的國際審查。\n❌ (A) 我國無法直接向聯合國提交。\n❌ (C) 聯合國並未為我國組成審議委員會。\n❌ (D) 國家報告無從存放於聯合國秘書處。\n📚 出處：公民．法律／兩公約施行法"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "國家恩給",
     "工程受益"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 徵收是合法的公權力行為造成特別犧牲，所給予的對價屬損失補償。\n❌ (A) 損害賠償針對的是違法行為所生的損害。\n❌ (C) 它是憲法上財產權保障的要求，不是國家恩惠。\n❌ (D) 工程受益費是向受益人徵收的費用，方向相反。\n📚 出處：公民．法律／損失補償"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "依據法律條文的文字以判斷條文的意義",
     "遵守行政主管機關對法律條文的詮釋與適用實務"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 法院獨立審判，行政機關的函釋僅供參考，並不受其拘束，不是法律解釋方法。\n❌ (A) 探求立法意旨屬歷史解釋。\n❌ (B) 就法條在體系中的位置推求意義屬體系解釋。\n❌ (C) 依文字通常意義理解屬文義解釋。\n📚 出處：公民．法律／法律解釋方法"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "臺中市政府為承擔執政權力之公法人，故為權利主體",
     "法人雖然是權利主體，但不能享有全部自然人所享有之權利"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 臺中市政府是地方自治團體的行政機關，公法人是「臺中市」本身，說市政府為公法人故錯誤。\n❌ (A) 財團法人以捐助財產達成公益目的而設立。\n❌ (B) 原住民族部落經核定為公法人後，得以自己名義為法律行為。\n❌ (D) 生命權、身分權等專屬自然人的權利，法人無法享有。\n📚 出處：公民．法律／權利主體"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "委員會審查必須召開公聽會，徵詢各方意見",
     "二讀會由全院就法案進行逐條表決"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 議案一讀（宣讀標題）後即交付有關委員會審查。\n❌ (A) 逐條討論是二讀會的程序。\n❌ (C) 公聽會由委員會視需要召開，非必須。\n❌ (D) 三讀會原則上只作文字修正並進行全案表決。\n📚 出處：公民．政治／立法程序"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "本法適用結果以女性請育嬰假為多，並無平等問題",
     "本法適用結果以女性請育嬰假為多，為不合理的差別待遇"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 法條對男女一律開放申請，是給予相同對待的形式平等。\n❌ (A) 兩性適用同一規定，不構成差別待遇。\n❌ (C) 實際上女性請領偏多，正反映實質平等尚未達成，並非沒有問題。\n❌ (D) 法律本身未作性別區分，差異來自社會結構而非法規的不合理差別待遇。\n📚 出處：公民．法律／形式平等與實質平等"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "凡是基於增進公共利益的理由，即可限制人民基本權",
     "對於基本權的限制須有法律依據"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 依憲法第二十三條，限制人民基本權須以法律為之，即法律保留原則。\n❌ (A) 憲法第二十二條概括保障其他未列舉的自由權利。\n❌ (B) 國家對人民的基本權負有積極的保護義務。\n❌ (C) 除公益目的外，還須符合必要性與比例原則。\n📚 出處：公民．法律／基本權的限制"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "罰鍰有助於減少使用行動電話釀成車禍，符合必要性原則",
     "相較於提升道路安全的重大利益，本規定對駕駛的權利限制較輕，符合衡量性原則"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 衡量性（狹義比例）原則要求手段所造成的損害不得與所追求的公益顯失均衡，本題正屬此。\n❌ (A) 這是目的正當性與適當性的混談，重點在手段有助於目的。\n❌ (B) 手段侵害較小屬必要性原則的判斷。\n❌ (C) 有助於達成目的是適當性原則。\n📚 出處：公民．法律／比例原則"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "承辦公務員避免私下與當事人接觸",
     "賠償受影響居民的損失"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 賠償屬事後的損害填補，不是決策時應踐行的正當程序。\n❌ (A) 資訊公開是參與的前提。\n❌ (B) 給予陳述意見機會是聽證權的核心。\n❌ (C) 迴避與禁止片面接觸確保決策公正。\n📚 出處：公民．法律／正當行政程序"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "國民小學穿著制服才能進入校園",
     "推動數位身分證"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 公務員的薪給屬預算與人事事項，公民投票法明定不得作為公投提案。\n❌ (A) 重大公共建設得作為地方性公投事項。\n❌ (C) 校園服儀屬地方自治法規事項，得提公投。\n❌ (D) 數位身分證屬重大政策，得提全國性公投。\n📚 出處：公民．政治／公民投票的適用事項"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "參加公民投票",
     "參加公職人員選舉之投票"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 公職人員選舉的投票權須年滿二十歲，十八歲尚不能參加。\n❌ (A) 十八歲已成年，具完全行為能力，可自行購車。\n❌ (B) 民法修正後結婚年齡與成年年齡同為十八歲。\n❌ (C) 公民投票的投票權為年滿十八歲。\n📚 出處：公民．法律／成年與公民權"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "拒絕申請訴訟",
     "確認處分無效訴訟"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 確認訴訟（確認處分無效、確認法律關係存否）不以經訴願為前提。\n❌ (A) 撤銷訴訟須先經訴願程序。\n❌ (B) 機關怠為處分時，仍須先提起訴願。\n❌ (C) 申請遭駁回的課予義務訴訟同樣須先訴願。\n📚 出處：公民．法律／行政訴訟的類型"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "隱私權、平等權",
     "平等權、職業自由"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 人別查驗蒐集生物特徵涉及資訊隱私；演算法辨識率因族群而異，可能造成差別對待而侵害平等權。\n❌ (A) 查驗未必限制人身自由或執業。\n❌ (B) 工作權不是此情境的主要受侵害權利。\n❌ (D) 職業自由與海關查驗無直接關聯。\n📚 出處：公民．法律／資訊隱私與平等權"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "fear",
     "habit"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 句意為「害怕面對失敗」使他失去許多機會，fear（恐懼）最合文意。\n❌ (A) courage 是勇氣，與失去機會的因果相反。\n❌ (B) energy 指精力，語意不通。\n❌ (D) habit 指習慣，與失敗的情緒無關。\n📚 出處：英文．字彙"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "absent",
     "obvious"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 孩子又跳又要抱，興奮之情「明顯可見」，obvious 最貼切。\n❌ (A) painful 指痛苦的。\n❌ (B) regular 指規律的。\n❌ (C) absent 指缺席、不存在的，與描述矛盾。\n📚 出處：英文．字彙"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "recycle",
     "spread"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 瓶罐與紙類要「回收」以保護環境，用 recycle 。\n❌ (A) broadcast 是廣播。\n❌ (B) compare 是比較。\n❌ (D) spread 是散播。\n📚 出處：英文．字彙"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "existed",
     "praised"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 愛上這座城市因而「決定」長住，decided to 後接原形動詞最合語意與句構。\n❌ (A) arrested 是逮捕。\n❌ (C) existed 是存在，不接不定詞表意願。\n❌ (D) praised 是稱讚。\n📚 出處：英文．字彙"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "gain",
     "wipe"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 每天吃太多容易增加體重，gain weight 是固定用法。\n❌ (A) buy 指購買，不與 weight 搭配。\n❌ (B) cure 是治癒。\n❌ (D) wipe 是擦拭。\n📚 出處：英文．字彙"
   },
   {
    "n": 41,
@@ -546,7 +586,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "homeless",
     "circular"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 與新工作對比的是「先前的」工作，previous 正確。\n❌ (B) abstract 指抽象的。\n❌ (C) homeless 指無家可歸的。\n❌ (D) circular 指圓形的、環狀的。\n📚 出處：英文．字彙"
   },
   {
    "n": 42,
@@ -559,7 +600,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "turn",
     "follow"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 祖母冬天愛「編織」彩色圍巾，knit 指編織。\n❌ (B) climb 是攀爬。\n❌ (C) turn 是轉動。\n❌ (D) follow 是跟隨。\n📚 出處：英文．字彙"
   },
   {
    "n": 43,
@@ -572,7 +614,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "deletes",
     "separates"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 前後以 not…but 對比：普通人總是「遵守」規則，而他跳脫框架，obeys 正確。\n❌ (A) forms rules 指制定規則，非對比重點。\n❌ (C) deletes 指刪除。\n❌ (D) separates 指分開。\n📚 出處：英文．字彙"
   },
   {
    "n": 44,
@@ -585,7 +628,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "underpass",
     "airline"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 建在主要道路「上方」連接兩站的是天橋，overpass 正確。\n❌ (B) subway 是地下鐵或地下道，在地下。\n❌ (C) underpass 是地下通道。\n❌ (D) airline 是航空公司。\n📚 出處：英文．字彙"
   },
   {
    "n": 45,
@@ -598,7 +642,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "funds",
     "heights請依下文回答第 46 題至第 50 題：Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 因缺乏「資金」而必須限制採購，funds 指款項。\n❌ (A) debts 是債務，缺乏債務不會限制消費。\n❌ (B) costs 是成本費用。\n❌ (D) heights 是高度，語意不通。\n📚 出處：英文．字彙"
   },
   {
    "n": 46,
@@ -612,7 +657,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "The goal of medical development is to help humans live forever."
    ],
    "psg": "Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can expect to live to around 80. If there are no major problems in the next twenty years, like world wars, pandemics or big climate disasters, people's lifespans will likely increase even more. With the medical technology we have today, it is possible that by the 2040s, people can live to be 90 years old or even over 100. Elon Musk even believes that in the next twenty years, once we solve some big challenges with technology, like connecting our brains to computers using brain-computer interfaces and memory chips, we certainly can live much longer. At that time, people might not just live longer; they might even find ways to live in a digital form forever. All these changes could initiate a huge shift in how we live and start a new era for humanity.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全文說明醫學與科技的多項進展正使人類壽命延長，為主旨。\n❌ (A) 記憶晶片只是文中舉例之一，非壽命延長的既有原因。\n❌ (C) 文中用 possible 表推測，並非肯定。\n❌ (D) 文章未主張醫學發展的目標是長生不死。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 47,
@@ -626,7 +672,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "Due to unexpected causes, humans can hardly survive."
    ],
    "psg": "Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can expect to live to around 80. If there are no major problems in the next twenty years, like world wars, pandemics or big climate disasters, people's lifespans will likely increase even more. With the medical technology we have today, it is possible that by the 2040s, people can live to be 90 years old or even over 100. Elon Musk even believes that in the next twenty years, once we solve some big challenges with technology, like connecting our brains to computers using brain-computer interfaces and memory chips, we certainly can live much longer. At that time, people might not just live longer; they might even find ways to live in a digital form forever. All these changes could initiate a huge shift in how we live and start a new era for humanity.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中指出兩百年前人約活四十歲，二〇〇〇年後出生者可望活到八十，今人確實比過去長壽。\n❌ (A) 依賴晶片維生是過度推論。\n❌ (B) 文章只是假設未來沒有重大災難，並未斷言不會發生。\n❌ (D) 與全文樂觀的論調相反。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 48,
@@ -640,7 +687,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "Epidemic diseases."
    ],
    "psg": "Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can expect to live to around 80. If there are no major problems in the next twenty years, like world wars, pandemics or big climate disasters, people's lifespans will likely increase even more. With the medical technology we have today, it is possible that by the 2040s, people can live to be 90 years old or even over 100. Elon Musk even believes that in the next twenty years, once we solve some big challenges with technology, like connecting our brains to computers using brain-computer interfaces and memory chips, we certainly can live much longer. At that time, people might not just live longer; they might even find ways to live in a digital form forever. All these changes could initiate a huge shift in how we live and start a new era for humanity.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文中列出 pandemics 為可能影響壽命的重大問題，即流行疾病。\n❌ (A) 文中未提經濟危機。\n❌ (B) 未提婚姻因素。\n❌ (C) 未提交通事故。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 49,
@@ -654,7 +702,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "Communicating processes."
    ],
    "psg": "Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can expect to live to around 80. If there are no major problems in the next twenty years, like world wars, pandemics or big climate disasters, people's lifespans will likely increase even more. With the medical technology we have today, it is possible that by the 2040s, people can live to be 90 years old or even over 100. Elon Musk even believes that in the next twenty years, once we solve some big challenges with technology, like connecting our brains to computers using brain-computer interfaces and memory chips, we certainly can live much longer. At that time, people might not just live longer; they might even find ways to live in a digital form forever. All these changes could initiate a huge shift in how we live and start a new era for humanity.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中提到以腦機介面連結大腦與電腦，人類或可用數位形式永存。\n❌ (A) 文章未直接談人工智慧。\n❌ (C) 電力不是文中所述的關鍵技術。\n❌ (D) 溝通流程並非文章提及的手段。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 50,
@@ -668,7 +717,8 @@ window.APP_EXAM_PAPERS['chu-115-1-e002'] = {
     "Shrink."
    ],
    "psg": "Two hundred years ago, people usually lived to about 40 years old. But now, kids born after the year 2000 can expect to live to around 80. If there are no major problems in the next twenty years, like world wars, pandemics or big climate disasters, people's lifespans will likely increase even more. With the medical technology we have today, it is possible that by the 2040s, people can live to be 90 years old or even over 100. Elon Musk even believes that in the next twenty years, once we solve some big challenges with technology, like connecting our brains to computers using brain-computer interfaces and memory chips, we certainly can live much longer. At that time, people might not just live longer; they might even find ways to live in a digital form forever. All these changes could initiate a huge shift in how we live and start a new era for humanity.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) initiate 意為開啟、發動，與後句 start a new era 呼應，等於 begin 。\n❌ (B) cease 是停止。\n❌ (C) postpone 是延後。\n❌ (D) shrink 是縮小。\n📚 出處：英文．字義推測"
   }
  ]
 };
