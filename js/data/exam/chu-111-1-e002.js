@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "商標權",
     "姓名權"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 商標權是保護商品或服務標識的權利，屬智慧財產權。\n❌ (A) 債權是請求他人為特定給付的權利，屬財產權中的債權。\n❌ (B) 抵押權是擔保物權。\n❌ (D) 姓名權屬人格權。\n📚 出處：公民——智慧財產權的範圍"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "關心社會議題的層面較政黨多元",
     "常藉由政治參選達成該組織宗旨"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 基金會與政黨都不以營利為目的，同屬非營利組織。\n❌ (B) 基金會以捐助財產設立，屬財團法人而非社團法人。\n❌ (C) 政黨須對各項公共政策全面表態，關心議題較單一議題團體更廣。\n❌ (D) 倡議型基金會多以遊說與教育推動宗旨，不以參選為手段。\n📚 出處：公民——非營利組織與人民團體"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "象徵資本",
     "文化資本"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 經由家庭栽培而內化的才藝、品味與談吐，屬文化資本。\n❌ (A) 經濟資本指金錢與財產等物質資源。\n❌ (B) 社會資本指人際網絡與關係所帶來的資源。\n❌ (C) 象徵資本指社會聲望與被認可的地位。\n📚 出處：布迪厄的資本理論"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "搭便車心態",
     "鄰避效應"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 海洋屬無人專屬的共有資源，各方競相使用而無人負責維護，終致過度耗損與污染。\n❌ (A) 外部成本內部化是矯正手段，不是問題本身。\n❌ (C) 搭便車強調不付費而享用公共財的行為。\n❌ (D) 鄰避效應指嫌惡設施引發的地方抗爭。\n📚 出處：公民——共有資源與共有財的悲歌"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "成就地位論",
     "人力資本論"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 強調財團與年輕世代之間的資源與權力不對等造成不平等，屬衝突論觀點。\n❌ (A) 功能論著重制度對社會整體的功能。\n❌ (C) 成就地位論強調地位由個人努力取得，接近甲的說法。\n❌ (D) 人力資本論主張投資教育技能可提升所得，同樣偏向個人歸因。\n📚 出處：社會學——功能論與衝突論"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "透過種族通婚大幅減少社會分歧",
     "所得平均形成強大的社會凝聚力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 公民身分賦予平等的權利義務與受保障的地位，使不同族群仍能凝聚對國家的認同。\n❌ (B) 嚴密監控與民主國家的公民意識形成無關。\n❌ (C) 美國族群分歧並未因通婚而大幅消失。\n❌ (D) 美國所得分配差距大，並非凝聚力來源。\n📚 出處：公民——公民身分與國家認同"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "比較利益",
     "綠色消費"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 消費者選購對環境友善的產品並願付合理價格，即綠色消費。\n❌ (A) 綠色廠房指生產端的環保設施。\n❌ (B) 企業社會責任是生產者的作為。\n❌ (C) 比較利益是貿易理論的概念。\n📚 出處：公民——永續發展與綠色消費"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "阮氏在休養期間享有國民年金保險給付的權利",
     "在臺灣工作期間，雇主可以為阮氏投保勞工保險"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 受聘從事家庭看護工作的移工，雇主得依規定為其投保勞工保險。\n❌ (A) 外籍人士無我國選舉權，居住期間長短不影響。\n❌ (B) 侵權行為的損害賠償不因被害人國籍而排除。\n❌ (C) 國民年金以未參加其他社會保險的國民為對象，移工不適用。\n📚 出處：勞工保險條例與就業服務法相關規定"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "他只是國中生的年齡，所以他的行為不具備完全的有責性",
     "該國中生出於好玩，並非故意犯罪，因此他不須負有責性"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 十四歲以上未滿十八歲人之行為得減輕其刑，屬限制責任能力，責任能力並不完全。\n❌ (A) 該當性是構成要件的判斷，與由誰起訴無關。\n❌ (B) 不知法律不免除刑責，違法性仍然存在。\n❌ (D) 明知內容不實仍加以變造並上傳，具有故意。\n📚 出處：刑法第 18 條與犯罪三階層理論"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "社會安全",
     "公正審判"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 在正當法律程序下由辯護人維護被告權利、法官依法審判，正是公正審判權的保障。\n❌ (A) 行動自由指人身移動不受不法拘束。\n❌ (B) 公民參政指選舉罷免創制複決等權利。\n❌ (C) 社會安全指生存與社會保障的權利。\n📚 出處：公民——正當法律程序與訴訟權保障"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "監察院可對違法失職的總統或副總統進行彈劾",
     "監察院可彈劾縣、市首長並移送司法懲戒"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 監察院得對中央及地方公務人員包括縣市首長提出彈劾，移送懲戒法院審理。\n❌ (A) 立法院對行政院院長行使的是不信任投票，不是彈劾。\n❌ (B) 彈劾一般公務人員的權限屬監察院。\n❌ (C) 總統副總統的彈劾案由立法院提出、憲法法庭審理。\n📚 出處：憲法增修條文第 4 條、第 7 條"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "正副總統彈劾案由立法院提案，憲法法庭審理",
     "各縣市的縣市長及縣市議員，皆改由人民直選"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 修憲後正副總統彈劾案改由立法院提案，交由憲法法庭審理。\n❌ (A) 憲法修正案與領土變更案由立法院提出，非人民連署提案。\n❌ (B) 大法官解釋違憲疑義在行憲之初即有，非修憲成果。\n❌ (D) 縣市長與縣市議員在修憲前即已由人民直選。\n📚 出處：憲法增修條文第 2 條、第 4 條、第 12 條"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "除立法院外，公民亦可經全國性公民投票程序，提出憲法修正案",
     "司法院大法官以憲法解釋的方式，來推翻不合時宜的憲法條文"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 憲法修正案經公告半年後交由公民複決，有效同意票須超過選舉人總額之半數才通過。\n❌ (B) 修憲複決的門檻高於一般全國性公民投票。\n❌ (C) 憲法修正案的提案權專屬立法院。\n❌ (D) 大法官解釋不得推翻憲法條文本身。\n📚 出處：憲法增修條文第 12 條"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "展現國民主權",
     "保護社會上少數人的權益"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公民投票由公民直接就重大事項表決，是國民主權的直接展現。\n❌ (A) 現行制度為每兩年舉行一次公民投票日。\n❌ (B) 公投投票年齡為十八歲，低於總統選舉的二十歲。\n❌ (D) 公投採多數決，反而可能不利於少數權益的保障。\n📚 出處：公民投票法第 1 條、第 7 條、第 23 條"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "外國籍人士一旦獲得永久居留權，依法應賦予選舉權利",
     "政府應依法保障人民合法的集會遊行活動"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 依法保障人民合法的集會遊行，是使民意得以有效表達並影響決策的制度保障。\n❌ (A) 涉及誹謗、煽惑犯罪等言論仍須負刑責。\n❌ (B) 法律並未要求制定政策一律辦理全國性民調。\n❌ (C) 選舉權以國民身分為要件，永久居留權不等於公民權。\n📚 出處：憲法第 14 條與集會遊行法"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "立法委員連署聲請司法院大法官召開憲法法庭，宣告行政院院長解職",
     "立法委員以三分之二多數對行政院院長行使彈劾權，使行政院院長去職"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 立法院得經全體立法委員三分之一以上連署提出不信任案，並經全體立法委員二分之一以上贊成後通過，使行政院院長去職。\n❌ (B) 行政院院長非民選，不適用罷免程序。\n❌ (C) 憲法法庭無宣告行政院院長解職的權限。\n❌ (D) 立法院對行政院院長並無彈劾權。\n📚 出處：憲法增修條文第 3 條"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "當選無效之訴",
     "課予中央選舉委員會重新辦理選舉義務之訴"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 當選人有賄選等行為者，應提起當選無效之訴。\n❌ (A) 選罷法並無撤銷當選公告訴訟的類型。\n❌ (B) 選舉無效之訴針對選舉機關辦理選舉違法的情形。\n❌ (D) 我國選舉訴訟並無此種課予義務訴訟類型。\n📚 出處：公職人員選舉罷免法第 118 條、第 120 條"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "一般預防理論",
     "特別預防理論"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 以刑罰嚇阻社會大眾不敢犯罪、終至不必用刑，屬一般預防理論。\n❌ (A) 應報理論著眼於對已發生罪責的報應。\n❌ (B) 綜合理論兼採應報與預防，非此語的單一對應。\n❌ (D) 特別預防針對犯罪人個人的再犯防止與矯治。\n📚 出處：刑法學——刑罰目的理論"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "其國家元首為總統或是國王",
     "國會機構是一院制或是兩院制"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 總統制嚴守行政與立法分立制衡，內閣制則行政立法融合，這是兩者最顯著的差異。\n❌ (A) 兩種體制都重視文官中立。\n❌ (C) 元首名稱不是體制分類的判準，內閣制國家亦可有總統。\n❌ (D) 國會採一院或兩院與政府體制無必然關聯。\n📚 出處：公民——總統制與內閣制的比較"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "不可以，因租金請求權的消滅時效有 15 年",
     "不可以，因出租人未向法院聲請強制執行"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 租金請求權為一年或不及一年之定期給付債權，消滅時效為五年，已逾十年故甲得拒絕給付。\n❌ (B) 並無兩年即消滅債權關係的規定。\n❌ (C) 十五年是一般請求權的時效，租金另有短期時效。\n❌ (D) 時效完成後債務人得拒絕給付，與是否聲請執行無關。\n📚 出處：民法第 126 條、第 144 條"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "法規命令",
     "行政指導"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 基於法律授權、對多數不特定人就一般事項所為對外發生法律效果的抽象規定，即法規命令。\n❌ (A) 行政處分針對具體事件對外發生法律效果。\n❌ (B) 行政規則規範機關內部事項。\n❌ (D) 行政指導不具法律拘束力。\n📚 出處：行政程序法第 150 條"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "要素市場的需求方",
     "要素市場的供給方"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 勞動屬生產要素，勞工是要素市場的供給方，提高基本工資直接保障其權益。\n❌ (A) 商品市場的需求方是消費者。\n❌ (B) 商品市場的供給方是廠商。\n❌ (C) 要素市場的需求方是雇主。\n📚 出處：經濟學——要素市場的供需關係"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "所有權絕對原則",
     "所有權社會化原則"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 所有人對其所有物得自由使用、收益、處分並排除他人干涉，是所有權絕對原則的內涵。\n❌ (A) 物權法定指物權種類與內容由法律規定。\n❌ (B) 契約自由指締約與內容形成的自由。\n❌ (D) 所有權社會化強調所有權須受公共利益限制。\n📚 出處：民法第 765 條與民法基本原則"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "市政府公務人員丙，遭檢舉利用工程採購職權收受廠商回扣，被以貪污治罪條例起訴",
     "人民丁向縣政府承購之國宅，因施工瑕疵導致嚴重漏水，丁請求縣政府賠償"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 公費生的服務義務與費用返還屬公法上的行政契約關係，爭議由行政法院審理。\n❌ (A) 國家賠償訴訟依國家賠償法循民事訴訟程序。\n❌ (C) 貪污案件屬刑事訴訟，由普通法院審理。\n❌ (D) 承購國宅的瑕疵爭議屬私法買賣關係。\n📚 出處：行政訴訟法第 2 條與行政契約"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "山地原住民立委、縣市議員、立法委員",
     "區域立委、山地原住民立委、縣市議員"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 立法委員兼採單一選區相對多數與政黨比例代表，縣市議員採複數選區制，縣市長採單一選區相對多數制。\n❌ (A) 縣市議員採複數選區制，不符甲欄同時具兩種選制的條件。\n❌ (C) 山地原住民立委採複數選區制，與甲欄不符。\n❌ (D) 區域立委僅採單一選區相對多數制。\n📚 出處：公民——我國各項公職選舉的選舉制度"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "依法令之行為",
     "得被害人同意"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 為避免自己生命身體的緊急危難而損及第三人財產，屬緊急避難。\n❌ (B) 正當防衛須針對不法侵害者本人，丙並非侵害來源。\n❌ (C) 撞毀圍牆並無法令依據。\n❌ (D) 丙未曾同意其圍牆受損。\n📚 出處：刑法第 24 條"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "國際組織下建立的國際協定要求所有成員國皆須加入",
     "聯合國無法直接管轄各成員國之國際關係與國內治理"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 聯合國屬國際組織，尊重會員國主權，無權直接管轄各國的國內治理。\n❌ (A) 國民外交指民間自發的跨國交流，不以受政府囑託為要件。\n❌ (B) 地方政府與民間團體亦可從事對外交流。\n❌ (C) 國際協定通常由成員國自行決定是否簽署批准。\n📚 出處：公民——國際組織與國際交流"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "人民",
     "主權"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 甲民族已有人民、領土與自治的政府組織，所欠缺的是對外獨立、對內最高的主權。\n❌ (A) 其世居地即為領土基礎。\n❌ (B) 其傳統統治機制已具政府功能。\n❌ (C) 其族人即為人民。\n📚 出處：公民——國家構成的四要素"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "國家主權應為人民所掌有，一國元首須由人民選舉產生",
     "國家應是實現人民權益保障的機制，而非人民之支配者"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 民主政治視國家為保障人民權益的手段，而非支配人民的目的。\n❌ (A) 元首行使所有統治權力屬專制國家的樣態。\n❌ (B) 人民僅有服從義務的敘述忽略了權利保障。\n❌ (C) 內閣制國家的元首未必由人民直選，不能作為民主的必要條件。\n📚 出處：公民——民主政治的基本理念"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "生產手機的機會成本會增加，且生產腳踏車的機會成本會減少",
     "生產手機的機會成本會減少，且生產腳踏車的機會成本會增加"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 需求轉向腳踏車使生產點沿生產可能曲線移向多生產腳踏車的方向，在機會成本遞增下，多生產腳踏車的機會成本上升、生產手機的機會成本下降。\n❌ (A) 兩者不會同時上升。\n❌ (B) 兩者不會同時下降。\n❌ (C) 增減方向與移動方向相反。\n📚 出處：經濟學——生產可能曲線與機會成本遞增"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "市場供給線向右移動",
     "市場供給線向左移動"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 強制配戴安全帽使消費者購買意願提高，需求線右移，導致均衡價格與交易量同時上升。\n❌ (B) 需求左移會使價量齊跌。\n❌ (C) 供給右移會使價跌量增。\n❌ (D) 供給左移會使價漲量減。\n📚 出處：經濟學——供需變動與均衡"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "生產機會成本的差異→比較利益→國際貿易",
     "比較利益→國際貿易→生產機會成本的差異"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 各國生產的機會成本不同，因而產生比較利益，進而促成國際貿易。\n❌ (A) 比較利益是機會成本差異的結果，不是起點。\n❌ (B) 推論順序完全顛倒。\n❌ (D) 機會成本差異應在最前而非最後。\n📚 出處：經濟學——比較利益與國際貿易"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "臺灣出口業者因美元貶值，收到的貨款將可換到更多新臺幣",
     "美國出口臺灣的商品變貴，故對美國出口業不利"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 美元貶值使美國商品以新臺幣計價變便宜，有利臺灣進口業者與消費者。\n❌ (A) 新臺幣相對升值使我國出口品變貴，不利出口業者。\n❌ (C) 同額美元貨款換回的新臺幣反而變少。\n❌ (D) 美國商品在臺售價變便宜，有利其出口。\n📚 出處：經濟學——匯率變動的影響"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "地方政府定期舉辦東南亞文化慶典活動",
     "為看護移工辦理免費中文課程並鼓勵參加"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 為移工開設中文課程雖有助其適應，卻無法增進國人對伊斯蘭信仰的理解，對消除誤解與歧視沒有直接幫助。\n❌ (A) 多元文化與宗教課程可增進學生的理解。\n❌ (B) 相關節目可讓大眾認識東南亞文化。\n❌ (C) 文化慶典可促進面對面的交流與認識。\n📚 出處：公民——多元文化的理解與尊重"
   },
   {
    "n": 35,
@@ -481,7 +515,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "put up",
     "put on"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) put off 意為拖延，與後半句病情會惡化的警告相呼應。\n❌ (B) put out 意為熄滅或使外露。\n❌ (C) put up 意為張貼或搭建。\n❌ (D) put on 意為穿上或上演。\n📚 出處：英文——動詞片語辨析"
   },
   {
    "n": 37,
@@ -494,7 +529,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "clues",
     "plates"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) clues 意為線索，與協助尋找失蹤女孩的語境相符。\n❌ (A) beats 意為節拍或拍打。\n❌ (B) waves 意為波浪或揮動。\n❌ (D) plates 意為盤子或板片。\n📚 出處：英文——名詞字義辨析"
   },
   {
    "n": 38,
@@ -507,7 +543,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "Responding to",
     "Speaking of"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) According to 意為根據某人所說，後接消息來源，語意通順。\n❌ (B) Looking over 意為檢視，不用於引述來源。\n❌ (C) Responding to 意為回應。\n❌ (D) Speaking of 意為說到某話題，後面應接話題而非人。\n📚 出處：英文——介系詞片語用法"
   },
   {
    "n": 39,
@@ -520,7 +557,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "deed",
     "action"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) take action 為固定搭配，意為採取行動。\n❌ (A) option 常與 take 搭配時語意不同，且不合此處語境。\n❌ (B) behavior 不與 take 構成此一固定用法。\n❌ (C) deed 指行為或契據，不與 take 搭配。\n📚 出處：英文——動詞與名詞的固定搭配"
   },
   {
    "n": 40,
@@ -533,7 +571,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "forwarded",
     "followed"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) forwarded 意為轉寄，與收到郵件後轉給同事的語境相符。\n❌ (A) forced 意為強迫。\n❌ (B) fostered 意為培養或寄養。\n❌ (D) followed 意為跟隨或遵循。\n📚 出處：英文——動詞字義辨析"
   },
   {
    "n": 41,
@@ -546,7 +585,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "boutiques",
     "objections"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 與看似古老形成對比的是充滿現代科技，technologies 語意最合。\n❌ (B) antiques 意為古董，與現代形成矛盾。\n❌ (C) boutiques 意為精品店。\n❌ (D) objections 意為反對意見。\n📚 出處：英文——名詞字義與語意對比"
   },
   {
    "n": 42,
@@ -559,7 +599,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "precious",
     "sufficient"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) precious 意為珍貴的，唯有水資源珍貴才須公平分配。\n❌ (A) explicit 意為明確的。\n❌ (B) replete 意為充滿的。\n❌ (D) sufficient 意為充足的，與需公平分配的語境矛盾。\n📚 出處：英文——形容詞字義辨析"
   },
   {
    "n": 43,
@@ -572,7 +613,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "composers",
     "conductors"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) competitors 意為競爭者，與求職緊張的語境相符。\n❌ (B) contributors 意為貢獻者或投稿者。\n❌ (C) composers 意為作曲家。\n❌ (D) conductors 意為指揮或列車長。\n📚 出處：英文——名詞字義辨析"
   },
   {
    "n": 44,
@@ -585,7 +627,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "glorified",
     "favored"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) lured 意為引誘，與將被害人騙至廢棄公寓的語境相符。\n❌ (B) sponsored 意為贊助。\n❌ (C) glorified 意為美化、頌揚。\n❌ (D) favored 意為偏愛。\n📚 出處：英文——動詞字義辨析"
   },
   {
    "n": 45,
@@ -598,7 +641,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "prevention",
     "patent請依下文回答第 46 題至第 50 題Look at the following information and answer the questions.Reservation Completed!"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) patent 意為專利，與新發明取得授予的語境相符。\n❌ (A) progression 意為進展。\n❌ (B) patron 意為贊助者或顧客。\n❌ (C) prevention 意為預防。\n📚 出處：英文——名詞字義辨析"
   },
   {
    "n": 46,
@@ -612,7 +656,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "A concert ticket."
    ],
    "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 訂位資訊中列有車次、起訖站與車廂座位，顯示訂的是火車票。\n❌ (A) 資訊中的車次與車廂配置不屬於客運巴士。\n❌ (C) 未出現航班或機場資訊。\n❌ (D) 未出現演出或場館資訊。\n📚 出處：英文閱讀——訂票資訊判讀"
   },
   {
    "n": 47,
@@ -626,7 +671,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "The date to use the ticket."
    ],
    "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 資訊中僅列出票價與總金額，並未顯示任何特別折扣。\n❌ (A) 座位編號有明確列出。\n❌ (C) 訂位代號有明確列出。\n❌ (D) 乘車日期有明確列出。\n📚 出處：英文閱讀——細節查找"
   },
   {
    "n": 48,
@@ -640,7 +686,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "Driver’s licence number."
    ],
    "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 訂位資料包含身分證號、手機與電子郵件，並未要求提供駕照號碼。\n❌ (A) 手機號碼是訂位所需資料。\n❌ (B) 電子郵件是訂位所需資料。\n❌ (C) 身分證號是訂位所需資料。\n📚 出處：英文閱讀——細節查找"
   },
   {
    "n": 49,
@@ -654,7 +701,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "December 30."
    ],
    "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明中載明須於十二月十八日前完成付款，否則訂位自動取消。\n❌ (A) 十二月十七日並非所載期限。\n❌ (C) 十二月二十九日與付款期限無關。\n❌ (D) 十二月三十日是乘車日期而非付款期限。\n📚 出處：英文閱讀——細節查找"
   },
   {
    "n": 50,
@@ -668,7 +716,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e002'] = {
     "The arrival time in Taichung is scheduled at 10:46."
    ],
    "psg": "Look at the following information and answer the questions. Reservation Completed! Your reservation is completed. Please click to pay online. You must complete payment by 12/18, or the reservation will be cancelled automatically. Reservation Details Reservation Number 06213156 Identification A123454321 Mobile 0919123456 E-mail georgebrown@gmail.com Trip Date Train No. From To Departure Arrival Fare Seat Outbound 12/30 621 Taipei Taichung 09:46 10:46 TWD 700 Car 9-16A Class: Standard Car Passenger: Adult 1 Total Amount TWD 700",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 資訊顯示抵達臺中的時間為十時四十六分。\n❌ (A) 乘客欄僅列成人一名。\n❌ (B) 由九時四十六分至十時四十六分，行車時間恰為一小時。\n❌ (C) 車廂等級為標準車廂，非商務車廂。\n📚 出處：英文閱讀——細節查找與推論"
   }
  ]
 };
