@@ -38113,7 +38113,7 @@ window.APP_EXAMS = [
   "subjName": "戶籍法規大意",
   "label": "114 年　初等考試　戶籍法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
