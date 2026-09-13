@@ -39177,7 +39177,7 @@ window.APP_EXAMS = [
   "subjName": "行政學大意",
   "label": "110 年　初等考試　行政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
