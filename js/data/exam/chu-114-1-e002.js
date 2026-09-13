@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "勞倫斯曲線",
     "生產可能曲線"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 勞倫斯（洛侖士）曲線以累積人口與累積所得的關係呈現所得分配的不均程度。\n❌ (A) 恩格爾曲線描述所得與特定財貨消費量的關係。\n❌ (B) 菲利浦曲線描述失業率與通貨膨脹率的抵換。\n❌ (D) 生產可能曲線描述資源充分利用下的產量組合。\n📚 出處：公民．經濟／所得分配"
   },
   {
    "n": 2,
@@ -41,7 +42,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/114010_501_0102_2.webp"
+   "fig": "img/q/114010_501_0102_2.webp",
+   "exp": "✅ (C) 位於生產可能曲線上的各點皆達成生產效率，故三點的生產效率相同。\n❌ (A) 線上各點的效率並無高低之分。\n❌ (B) 沿曲線向右增產 X 時機會成本遞增，應為 C＞B＞A 。\n❌ (D) 增產 Y 的機會成本同樣遞增而非相等。\n📚 出處：公民．經濟／生產可能曲線"
   },
   {
    "n": 3,
@@ -54,7 +56,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "共同發行統一的貨幣",
     "市場上商品種類增加"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 貿易自由化降低關稅與障礙，使各國商品得以互通，市場上的商品種類增加。\n❌ (A) 該協定以貨品與服務貿易為主，未開放勞動要素自由流動。\n❌ (B) 其目的正是降低而非實施關稅保護。\n❌ (C) 它不涉及共同貨幣的發行。\n📚 出處：公民．經濟／區域經濟整合"
   },
   {
    "n": 4,
@@ -67,7 +70,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "準備拿來當作肥料的雞糞",
     "無法提升消費者效用的物品"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 不具相對稀少性的自由財，取用時不必放棄其他選擇，機會成本最低。\n❌ (A) 政府免費提供者仍耗用社會資源。\n❌ (C) 雞糞作為肥料仍有其他用途的價值。\n❌ (D) 是否提升效用與機會成本的高低無關。\n📚 出處：公民．經濟／機會成本"
   },
   {
    "n": 5,
@@ -80,7 +84,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "社會總剩餘等於消費者剩餘",
     "社會福利等於社會總效益加社會總成本"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 完全競爭市場的均衡使社會總剩餘最大，無謂損失為零。\n❌ (B) 均衡時生產者剩餘並非最小值。\n❌ (C) 總剩餘為消費者剩餘與生產者剩餘之和。\n❌ (D) 社會福利為總效益「減」總成本。\n📚 出處：公民．經濟／市場均衡與效率"
   },
   {
    "n": 6,
@@ -93,7 +98,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "追求群體共同利益的社群主義觀點",
     "透過私利實現公益的自由主義觀點"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 針對低收入與中低收入戶加發補助，是以差別待遇照顧弱勢、追求實質平等的作法。\n❌ (A) 效益主義著眼於整體效益的極大化。\n❌ (C) 社群主義強調社群的共同價值與傳統。\n❌ (D) 自由主義的觀點強調市場與個人選擇。\n📚 出處：公民．社會／社會正義"
   },
   {
    "n": 7,
@@ -106,7 +112,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "父母的成就動機對子女社會地位流動的影響得以擴大",
     "父母的教育程度高低對子女社會地位流動的影響變小"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 高社經地位家庭的子女取得更多教育資源，使父母的職業與地位對子女成就的影響力擴大。\n❌ (B) 反向重分配會縮小而非擴大世代流動的距離。\n❌ (C) 題文論述的是資本而非成就動機。\n❌ (D) 父母教育程度的影響力是擴大而非變小。\n📚 出處：公民．社會／教育與社會流動"
   },
   {
    "n": 8,
@@ -119,7 +126,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "「QQ」作為一種符號，在不同文化下呈現不同的認知與使用意義",
     "參賽題目設計者認為「QQ」在不同文化下應有著相同的意義"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 同一個詞彙在不同文化脈絡中被賦予不同的理解與使用方式，正是符號意義的文化相對性。\n❌ (A) 參賽者答錯源於文化脈絡的差異，非處境不利。\n❌ (B) 網友的反應反映的是文化內化，未必是優越態度。\n❌ (D) 題目設計者正是利用不同文化間意義的差異出題。\n📚 出處：公民．社會／文化與符號"
   },
   {
    "n": 9,
@@ -132,7 +140,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "家務勞動分工與育嬰的現象與職場上男女薪資差異有關",
     "依勞動參與率計算公式，家務勞動者被歸類為非勞動力"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 家務與育兒責任集中於女性，使女性的職涯中斷與晉升受阻，與職場薪資差距密切相關。\n❌ (A) 家務勞動雖發生於家庭，仍具社會意義與經濟價值。\n❌ (B) 自由處分金由夫妻約定，非法律強制要求協議。\n❌ (D) 家務勞動者未在勞動市場求職，確被列為非勞動力，但此與題旨的推論方向不同。\n📚 出處：公民．社會／性別分工"
   },
   {
    "n": 10,
@@ -145,7 +154,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "成為該組織成員不以國家為要件，經濟體亦可申請加入",
     "我國與中國皆申請加入該組織，顯見中國放棄一中原則"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 該協定以「關稅領域（經濟體）」為加入單位，不以主權國家為要件。\n❌ (A) 美國已退出該協定，非由其主導。\n❌ (B) 中國申請加入的動機無從由題文斷定。\n❌ (D) 雙方申請加入不代表中國放棄其政治立場。\n📚 出處：公民．政治／國際組織"
   },
   {
    "n": 11,
@@ -158,7 +168,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "重要訊息在產製過程中，新聞守門人未善盡把關職責",
     "報導內容誇大不實誤導大眾，使閱聽者陷入總白癡化"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤訊息未經查核即播出，顯示新聞產製流程中守門人的把關失靈。\n❌ (A) 誤植的錯誤訊息不符設定議題的公共角色。\n❌ (B) 媒體再現指的是對事實的選擇與詮釋，本案屬作業疏失。\n❌ (D) 該事件是作業疏失而非刻意誇大。\n📚 出處：公民．媒體素養／新聞守門"
   },
   {
    "n": 12,
@@ -171,7 +182,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "民事責任",
     "道德責任"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 要求公營機構的高層對業務疏失負責下台，屬行政責任的追究。\n❌ (B) 刑事責任須有犯罪行為與故意過失。\n❌ (C) 民事責任針對的是損害賠償。\n❌ (D) 道德責任不具法律上的強制效果。\n📚 出處：公民．法律／責任的類型"
   },
   {
    "n": 13,
@@ -184,7 +196,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "共同防禦",
     "宣示主權"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 以深化實質關係、國際合作與人道援助爭取國際參與者，即踏實外交。\n❌ (A) 官方交流僅限於邦交國。\n❌ (C) 共同防禦屬軍事同盟的概念。\n❌ (D) 宣示主權與題文所述的參與方式不同。\n📚 出處：公民．政治／我國外交政策"
   },
   {
    "n": 14,
@@ -197,7 +210,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "政府失靈",
     "外顯成本"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 落葉劑造成禽鳥與猛禽死亡的生態損害由社會承擔，屬外部成本。\n❌ (A) 機會成本是放棄的次佳選擇。\n❌ (C) 政府失靈指公部門干預造成的無效率。\n❌ (D) 外顯成本是實際支付的費用。\n📚 出處：公民．經濟／外部性"
   },
   {
    "n": 15,
@@ -210,7 +224,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "促使公共事務之推動更有效率",
     "避免政府權力過度集中而被濫用"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 制衡機制會增加程序與協商成本，其目的不在提升行政效率。\n❌ (A) 保障人民自由權利是制衡的目的。\n❌ (B) 監督權力行使的合法性是制衡的目的。\n❌ (D) 防止權力集中與濫用是制衡的核心理由。\n📚 出處：公民．政治／權力分立"
   },
   {
    "n": 16,
@@ -223,7 +238,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "立法機關行使人事同意權",
     "外交與國防互不隸屬"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 外交與國防同屬行政權下的分工，彼此非制衡關係。\n❌ (A) 違憲審查是司法對立法與行政的制衡。\n❌ (B) 預算提案與審議分屬行政與立法，形成制衡。\n❌ (C) 立法機關行使人事同意權是對行政權的制衡。\n📚 出處：公民．政治／制衡設計"
   },
   {
    "n": 17,
@@ -236,7 +252,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "彈劾權",
     "罷免權"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 罷免是人民對民選公職人員行使的直接民權，不是行政與立法之間的制衡設計。\n❌ (A) 覆議否決權是行政對立法的制衡。\n❌ (B) 人事同意權是立法對行政的制衡。\n❌ (C) 彈劾權是立法對行政官員的制衡。\n📚 出處：公民．政治／總統制"
   },
   {
    "n": 18,
@@ -249,7 +266,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "彰化市",
     "花蓮縣"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 彰化市為縣轄市，其餘三者為直接隸屬省（現隸屬中央監督）的市或縣。\n❌ (A) 嘉義市為市（省轄市層級）。\n❌ (B) 基隆市為市（省轄市層級）。\n❌ (D) 花蓮縣為縣，與市同屬第二級地方自治團體。\n📚 出處：公民．政治／地方制度"
   },
   {
    "n": 19,
@@ -262,7 +280,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "西發利亞條約的簽訂對當代主權國家的生成有關鍵的影響",
     "西發利亞條約簽訂後，帝國就不再有跟主權國家抗衡的實力"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 西發利亞條約確立主權平等與領土完整的原則，對近代主權國家體系的形成具關鍵影響。\n❌ (A) 中央集權國家內部仍可能有多元族群認同。\n❌ (B) 聯邦制國家同樣是主權國家。\n❌ (D) 條約簽訂後帝國仍存續相當長的時間。\n📚 出處：公民．政治／主權國家"
   },
   {
    "n": 20,
@@ -275,7 +294,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "匡正正義",
     "轉型正義"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 爭論的是保障名額這項稀少資源應如何在不同弱勢群體間配置，屬分配正義。\n❌ (B) 程序正義關注決定過程是否公正。\n❌ (C) 匡正正義針對已發生的侵害予以填補。\n❌ (D) 轉型正義處理的是威權時期的不法。\n📚 出處：公民．社會／正義的類型"
   },
   {
    "n": 21,
@@ -288,7 +308,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "按法規內容可知，酒駕之懲處隸屬於「生命刑、自由刑、財產刑」之範疇",
     "就本次修法內容可知，增訂之刑責與「追徵、追繳或抵償」皆屬從刑之範疇"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 二讀會是對法案內容逐條深入討論與表決的階段。\n❌ (A) 併科罰金不排除有期徒刑的執行。\n❌ (C) 酒駕的處罰涉及自由刑與財產刑，未及於生命刑。\n❌ (D) 罰金屬主刑，追徵、追繳或抵償則為從刑以外的沒收相關規定。\n📚 出處：公民．法律／立法程序與刑罰"
   },
   {
    "n": 22,
@@ -301,7 +322,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "民選政府在公共決策過程中審慎考量專家意見有助於民主與治理",
     "民主國家中，不採納專家意見的政府就是民粹政府"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 論述主張民選政府可不採納但不得扭曲專業意見，強調審慎考量專家意見有助於民主與治理。\n❌ (A) 論述明白承認政府得不採納專家意見。\n❌ (B) 藥品採購與殖民剝削不是論述的重點。\n❌ (D) 論述未將不採納意見一概等同民粹。\n📚 出處：公民．政治／專業與民主"
   },
   {
    "n": 23,
@@ -314,7 +336,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "憲法增修條文對立法委員之選舉採單一選區兩票制，是有意兼顧選區代表性與政黨多元性，未牴觸民主共和國與國民主權原則",
     "依政黨得票總數比例方式產生之全國不分區立法委員，縱喪失其所屬政黨之黨員資格，仍不影響其作為民意代表之資格"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 單一選區兩票制兼顧選區代表性與政黨多元性，未牴觸民主共和國與國民主權原則。\n❌ (A) 政黨門檻的設計經解釋認為未違反平等原則。\n❌ (B) 不分區立委不適用罷免的規定，經解釋認為與憲法意旨無違。\n❌ (D) 喪失所屬政黨黨籍者將喪失不分區立委的資格。\n📚 出處：公民．政治／選舉制度"
   },
   {
    "n": 24,
@@ -327,7 +350,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "自然人遭戶政機關除籍，也不影響該自然人的權利能力",
     "發起人於法人成立後脫離法人團體，也不影響該法人的權利能力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 自然人的權利能力始於「出生」，非始於出生登記，故敘述錯誤。\n❌ (B) 法人的權利能力始於登記成立。\n❌ (C) 除籍屬戶政管理，不影響權利能力。\n❌ (D) 發起人脫離不影響法人的權利能力。\n📚 出處：公民．法律／權利能力"
   },
   {
    "n": 25,
@@ -340,7 +364,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "我國依憲法由立法院依條約案審議程序，主動將人權公約國內法化",
     "經過我國國內法化之國際人權公約，在規範效力上具有法律的位階"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 人權公約是先經立法院制定施行法予以國內法化，而非依條約案審議程序完成批准存放，故敘述錯誤。\n❌ (A) 因非聯合國會員，批准書無法存放於聯合國。\n❌ (B) 我國邀請國際專家來臺審查以代替聯合國的國家報告審查。\n❌ (D) 經國內法化的公約具法律位階。\n📚 出處：公民．法律／國際人權公約"
   },
   {
    "n": 26,
@@ -353,7 +378,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "法律的位階高於法規命令",
     "法規命令與憲法牴觸無效"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 特別法與普通法的位階相同，只是適用上優先，故敘述錯誤。\n❌ (B) 經立法院通過的條約具法律位階。\n❌ (C) 法律的位階高於法規命令。\n❌ (D) 法規命令牴觸憲法者無效。\n📚 出處：公民．法律／法律位階"
   },
   {
    "n": 27,
@@ -366,7 +392,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "甲得逕向行政法院提起行政訴訟",
     "甲得逕向憲法法庭聲請判決其基本權是否受侵害"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 學生對學校的措施不服者，應先循校內申訴途徑救濟。\n❌ (A) 對權利有侵害即得救濟，不以退學為限。\n❌ (C) 應先用盡校內申訴程序。\n❌ (D) 憲法訴訟須先窮盡審級救濟。\n📚 出處：公民．法律／學生權利救濟"
   },
   {
    "n": 28,
@@ -379,7 +406,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "請願",
     "陳情"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 憲法明定的救濟權為請願、訴願與訴訟，陳情規定於行政程序法，非憲法明定。\n❌ (A) 訴訟為憲法明定的救濟權。\n❌ (B) 訴願為憲法明定的救濟權。\n❌ (C) 請願為憲法明定的救濟權。\n📚 出處：公民．法律／憲法上的救濟權"
   },
   {
    "n": 29,
@@ -392,7 +420,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "各原住民族",
     "原住民族委員會"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 原住民族委員會是主管機關，不是原住民族權利的行使主體。\n❌ (A) 原住民個人為權利主體。\n❌ (B) 部落經核定後具權利主體地位。\n❌ (C) 各原住民族為集體權的主體。\n📚 出處：公民．法律／原住民族權利"
   },
   {
    "n": 30,
@@ -405,7 +434,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "二次世界大戰後，資本主義與共產主義兩大陣營對峙長達半個世紀",
     "中國崛起成為世界工廠與世界市場，國際體系轉變為中美兩極對抗"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 二戰後資本主義與共產主義兩大陣營對峙，冷戰持續近半個世紀。\n❌ (A) 冷戰時期為美蘇兩極體系，非單極。\n❌ (B) 蘇聯解體後短期內呈現美國獨大的單極格局。\n❌ (D) 當前體系更接近多極或一超多強，非單純的兩極對抗。\n📚 出處：公民．政治／國際體系"
   },
   {
    "n": 31,
@@ -418,7 +448,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "僱用人賠償損害時，對於為侵權行為之受僱人，有求償權",
     "承攬人因執行承攬事項，不法侵害他人權利時，除非定作人於定作或指示有過失，否則定作人不負損害賠償責任"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 無行為能力人或限制行為能力人須「行為時有識別能力」，才與法定代理人連帶負責，故敘述錯誤。\n❌ (B) 法定代理人能證明監督未疏懈者不負賠償責任。\n❌ (C) 僱用人賠償後對受僱人有求償權。\n❌ (D) 定作人原則上不負責，除非定作或指示有過失。\n📚 出處：公民．法律／侵權行為"
   },
   {
    "n": 32,
@@ -431,7 +462,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "高等行政法院高等行政訴訟庭",
     "高等行政法院地方行政訴訟庭"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 交通裁決事件由高等行政法院地方行政訴訟庭審理。\n❌ (A) 交通違規裁決屬行政爭訟，非刑事案件。\n❌ (B) 地方法院簡易庭審理的是民事簡易案件。\n❌ (C) 高等行政訴訟庭審理的是通常訴訟程序事件。\n📚 出處：公民．法律／行政訴訟的管轄"
   },
   {
    "n": 33,
@@ -444,7 +476,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "非婚生子女認領",
     "遺囑要件"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 破產程序規定於破產法，不是民法的內容。\n❌ (A) 行為能力規定於民法總則。\n❌ (C) 非婚生子女的認領規定於民法親屬編。\n❌ (D) 遺囑要件規定於民法繼承編。\n📚 出處：公民．法律／民法的範圍"
   },
   {
    "n": 34,
@@ -473,7 +506,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "司法院院長",
     "數位發展部部長"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 司法院院長基於審判獨立，不受立法委員質詢。\n❌ (A) 行政院院長應到院備詢。\n❌ (B) 獨立機關首長仍屬行政體系，應備詢。\n❌ (D) 部會首長應到院備詢。\n📚 出處：公民．政治／立法院職權"
   },
   {
    "n": 36,
@@ -486,7 +520,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "tears",
     "hears"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) tear apart 意為撕裂、拆散，符合金錢使友誼破裂的語意。\n❌ (A) fear 是害怕。\n❌ (B) bear 是承受。\n❌ (D) hear 是聽見。\n📚 出處：英文．字彙"
   },
   {
    "n": 37,
@@ -499,7 +534,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "spends",
     "costs"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 主詞為車子，表示「花費」金錢時用 cost 。\n❌ (A) buy 的主詞應為買方。\n❌ (B) take 多用於花費時間。\n❌ (C) spend 的主詞須為人。\n📚 出處：英文．字彙"
   },
   {
    "n": 38,
@@ -512,7 +548,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "joyful",
     "competent"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 再次犯同樣的錯誤，是感嘆自己「粗心」，用 careless 。\n❌ (B) diligent 是勤勉的。\n❌ (C) joyful 是快樂的。\n❌ (D) competent 是能幹的。\n📚 出處：英文．字彙"
   },
   {
    "n": 39,
@@ -525,7 +562,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "visitors",
     "vendors"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 在市場販售蔬果糖果者為攤販，用 vendors 。\n❌ (A) consumers 指消費者。\n❌ (B) defenders 指防禦者。\n❌ (C) visitors 指訪客。\n📚 出處：英文．字彙"
   },
   {
    "n": 40,
@@ -538,7 +576,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "separate",
     "instant請依下文回答第 41 題至第 45 題A meetup is a gathering or event where people with similar interests come together to socialize, network, or"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 證人被分別隔開在不同房間偵訊，用 separate 。\n❌ (A) desperate 是絕望的。\n❌ (B) sincere 是真誠的。\n❌ (D) instant 是立即的。\n📚 出處：英文．字彙"
   },
   {
    "n": 41,
@@ -627,7 +666,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "Actions and Outcomes of Board Games."
    ],
    "psg": "Board games are fun games that you play on a flat board with pieces and rules. They come in different types, each offering its own unique experience and challenges. One popular type is strategy games, such as Chess or Risk, where players use their wits and planning skills to outsmart their opponents and achieve victory. Another type of board games is word games, like Scrabble or Bananagrams. These games test players’ vocabulary and spelling skills as they try to create words from the letters available to them. Some board games focus on teamwork, such as Pandemic or Forbidden Island, where players must work together to achieve a common goal, whether it’s curing diseases or escaping from a sinking island. There are also board games based on luck and chance, such as Monopoly or Sorry. In these games, players rely on dice rolls or card draws to determine their actions and outcomes. These games are exciting, offering players the thrill of anticipation as they wait to see what fate has in store for them. People enjoy playing board games for different reasons. For one, board games bring friends and family members together to spend time for fun. Board games also help you learn new things. Some games teach you strategies to solve problems or improve your memory and math skills. Board games are entertaining too, making you happy even if you don’t win. Besides, board games are a way for people to relax and take a break from phones or computers. In short, board games are popular because they are social, educational, and enjoyable. No matter what type of board games people prefer, there’s something for everyone to enjoy.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全文介紹桌遊的多種類型及其受歡迎的原因，主旨為桌遊的多樣性與吸引力。\n❌ (A) 文章未聚焦於規則與策略的說明。\n❌ (C) 機率只是其中一種類型。\n❌ (D) 行動與結果只是機率類桌遊的特徵。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 47,
@@ -641,7 +681,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "It relies on chances and luck to decide the winner of the game."
    ],
    "psg": "Board games are fun games that you play on a flat board with pieces and rules. They come in different types, each offering its own unique experience and challenges. One popular type is strategy games, such as Chess or Risk, where players use their wits and planning skills to outsmart their opponents and achieve victory. Another type of board games is word games, like Scrabble or Bananagrams. These games test players’ vocabulary and spelling skills as they try to create words from the letters available to them. Some board games focus on teamwork, such as Pandemic or Forbidden Island, where players must work together to achieve a common goal, whether it’s curing diseases or escaping from a sinking island. There are also board games based on luck and chance, such as Monopoly or Sorry. In these games, players rely on dice rolls or card draws to determine their actions and outcomes. These games are exciting, offering players the thrill of anticipation as they wait to see what fate has in store for them. People enjoy playing board games for different reasons. For one, board games bring friends and family members together to spend time for fun. Board games also help you learn new things. Some games teach you strategies to solve problems or improve your memory and math skills. Board games are entertaining too, making you happy even if you don’t win. Besides, board games are a way for people to relax and take a break from phones or computers. In short, board games are popular because they are social, educational, and enjoyable. No matter what type of board games people prefer, there’s something for everyone to enjoy.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中將該遊戲列為強調團隊合作、共同達成目標的類型。\n❌ (B) 逃離沉島是另一款遊戲的目標。\n❌ (C) 拼字與字彙是文字類遊戲的特徵。\n❌ (D) 倚賴運氣是機率類遊戲的特徵。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 48,
@@ -655,7 +696,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "Board games can serve as good exams to test students’ vocabulary."
    ],
    "psg": "Board games are fun games that you play on a flat board with pieces and rules. They come in different types, each offering its own unique experience and challenges. One popular type is strategy games, such as Chess or Risk, where players use their wits and planning skills to outsmart their opponents and achieve victory. Another type of board games is word games, like Scrabble or Bananagrams. These games test players’ vocabulary and spelling skills as they try to create words from the letters available to them. Some board games focus on teamwork, such as Pandemic or Forbidden Island, where players must work together to achieve a common goal, whether it’s curing diseases or escaping from a sinking island. There are also board games based on luck and chance, such as Monopoly or Sorry. In these games, players rely on dice rolls or card draws to determine their actions and outcomes. These games are exciting, offering players the thrill of anticipation as they wait to see what fate has in store for them. People enjoy playing board games for different reasons. For one, board games bring friends and family members together to spend time for fun. Board games also help you learn new things. Some games teach you strategies to solve problems or improve your memory and math skills. Board games are entertaining too, making you happy even if you don’t win. Besides, board games are a way for people to relax and take a break from phones or computers. In short, board games are popular because they are social, educational, and enjoyable. No matter what type of board games people prefer, there’s something for everyone to enjoy.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中明言桌遊讓人放鬆並暫時遠離手機與電腦。\n❌ (A) 文章未指機率類最受歡迎。\n❌ (B) 該遊戲的主題是疾病，與現實防疫策略無關。\n❌ (D) 文字遊戲測驗字彙，但文章未主張可作為考試。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 49,
@@ -669,7 +711,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "They help to break the ice among strangers in social interaction."
    ],
    "psg": "Board games are fun games that you play on a flat board with pieces and rules. They come in different types, each offering its own unique experience and challenges. One popular type is strategy games, such as Chess or Risk, where players use their wits and planning skills to outsmart their opponents and achieve victory. Another type of board games is word games, like Scrabble or Bananagrams. These games test players’ vocabulary and spelling skills as they try to create words from the letters available to them. Some board games focus on teamwork, such as Pandemic or Forbidden Island, where players must work together to achieve a common goal, whether it’s curing diseases or escaping from a sinking island. There are also board games based on luck and chance, such as Monopoly or Sorry. In these games, players rely on dice rolls or card draws to determine their actions and outcomes. These games are exciting, offering players the thrill of anticipation as they wait to see what fate has in store for them. People enjoy playing board games for different reasons. For one, board games bring friends and family members together to spend time for fun. Board games also help you learn new things. Some games teach you strategies to solve problems or improve your memory and math skills. Board games are entertaining too, making you happy even if you don’t win. Besides, board games are a way for people to relax and take a break from phones or computers. In short, board games are popular because they are social, educational, and enjoyable. No matter what type of board games people prefer, there’s something for everyone to enjoy.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文中未提及桌遊有助於陌生人之間破冰。\n❌ (A) 文中提到訓練機智與語言能力。\n❌ (B) 文中提到娛樂與放鬆的功能。\n❌ (C) 文中提到讓親友共聚同樂。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 50,
@@ -683,7 +726,8 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "Aggressive."
    ],
    "psg": "Board games are fun games that you play on a flat board with pieces and rules. They come in different types, each offering its own unique experience and challenges. One popular type is strategy games, such as Chess or Risk, where players use their wits and planning skills to outsmart their opponents and achieve victory. Another type of board games is word games, like Scrabble or Bananagrams. These games test players’ vocabulary and spelling skills as they try to create words from the letters available to them. Some board games focus on teamwork, such as Pandemic or Forbidden Island, where players must work together to achieve a common goal, whether it’s curing diseases or escaping from a sinking island. There are also board games based on luck and chance, such as Monopoly or Sorry. In these games, players rely on dice rolls or card draws to determine their actions and outcomes. These games are exciting, offering players the thrill of anticipation as they wait to see what fate has in store for them. People enjoy playing board games for different reasons. For one, board games bring friends and family members together to spend time for fun. Board games also help you learn new things. Some games teach you strategies to solve problems or improve your memory and math skills. Board games are entertaining too, making you happy even if you don’t win. Besides, board games are a way for people to relax and take a break from phones or computers. In short, board games are popular because they are social, educational, and enjoyable. No matter what type of board games people prefer, there’s something for everyone to enjoy.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 全文肯定桌遊的社交、教育與娛樂價值，語氣支持。\n❌ (A) 文章並無苦澀的語氣。\n❌ (B) 文中未表現焦慮。\n❌ (D) 語氣溫和而非強勢。\n📚 出處：英文．閱讀測驗"
   }
  ]
 };
