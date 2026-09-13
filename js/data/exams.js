@@ -39541,7 +39541,7 @@ window.APP_EXAMS = [
   "subjName": "行政學大意",
   "label": "109 年　初等考試　行政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -39555,7 +39555,7 @@ window.APP_EXAMS = [
   "subjName": "社政法規大意",
   "label": "109 年　初等考試　社政法規大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
