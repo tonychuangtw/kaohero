@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄 2,377 卷的逐題詳解寫完（藥師、中醫師、教師檢定、高普考已完成；目前主線＝地方特考 loc-* 27,010 題）
-NEXT_ACTION: **新科目「初等考試」已轉檔完成（2026-09-13）：385 卷、18,710 題、102～115 年**，全站現為 2,921 卷／139,271 題，已寫詳解 120,351 題。**下一步＝逐卷寫初等考試的詳解，由新到舊（115 年 27 卷 → 114 年 28 卷 → …→ 102 年 30 卷）。**
+NEXT_ACTION: **新科目「初等考試」已轉檔完成（2026-09-13）：385 卷、18,710 題、102～115 年**，全站現為 2,921 卷／139,271 題，已寫詳解 121,091 題。**下一步＝逐卷寫初等考試的詳解，由新到舊（115 年 27 卷 → 114 年 28 卷 → …→ 102 年 30 卷）。**
 　**要知道還有哪些卷沒寫，跑這行**（列出每一卷未寫的題數，由新到舊）：
 ```
 node -e "const fs=require('fs');const r=[];fs.readdirSync('js/data/exam').filter(f=>f.startsWith('chu-')).forEach(f=>{global.window={};require(process.cwd()+'/js/data/exam/'+f);const pid=f.replace('.js','');const p=window.APP_EXAM_PAPERS[pid];if(!p)return;const n=p.qs.filter(q=>!q.exp&&!q.void&&!q.alt).length;if(n)r.push([pid,n,p.title])});r.sort().reverse();r.forEach(x=>console.log(x.join(' ')));console.log('剩',r.length,'卷、',r.reduce((a,b)=>a+b[1],0),'題')"
@@ -14,7 +14,7 @@ node -e "const fs=require('fs');const r=[];fs.readdirSync('js/data/exam').filter
 　- `e002` #41～#45（克漏字題組，本文未隨轉檔保留，圖檔只剩選項那一行）
 　- `e028` #38 #46（題幹附表未隨轉檔保留）
 　- `e029` 4 題、`e030` 12 題（題幹指向電路圖／波形圖，但轉檔沒有 fig 圖檔）
-　**113 年進行中**：從 `e031` 由大到小逐卷寫（113 年共 27 卷：e002~e004、e007、e008、e010~e014、e017~e031）。113 做完往 112 推，一路到 102。
+　**113 年進行中**（共 27 卷：e002~e004、e007、e008、e010~e014、e017~e031）。已完成：`e031` `e030`（27 題，13 題電路圖缺）`e029`（37 題）`e028`（48 題）`e027` `e026` `e025` `e024` `e023` `e022` `e021` `e020` `e019` `e018` `e017`（39 題）`e014`。**下一卷＝`e013` 稅務法規大意**，再往 e012、e011、e010、e008、e007、e004、e003、e002，然後 112 年一路到 102 年。
 初等考試的特性：全部是四選一測驗題、一年一次（第三段固定為 1）、只有一個等別，考科多為「◯◯大意」（法學大意、行政學大意、社會工作大意、會計學大意、基本電學大意…），難度低於高普考，寫解析時要對應的是「大意」層級的基本概念。
 護理師（159 卷 11,280 題）已於 2026-09-13 全部做完，已寫 11,185 題／99.2%；剩 95 題全是寫不出來的（廢題 22、官方雙答案 12、①②③④組合選項在轉檔時全變成同一個圈圈字 31、要看圖但沒有 fig 或官方答案與教科書衝突 30）。
 ⚠ 全站「選項排多欄、文字黏在題幹尾端但有 fig」的未寫題還有 gao 107、loc 167、tcm 6、den 1、tea 1（共 282 題），這些是可以寫的（做法見下），等初等考試告一段落再回頭補。
@@ -30,7 +30,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-14 07:10 台北
+UPDATED: 2026-09-14 10:30 台北
 
 ## 剩下的 2,737 題是什麼（2026-09-12 全站盤點，不是漏做）
 
