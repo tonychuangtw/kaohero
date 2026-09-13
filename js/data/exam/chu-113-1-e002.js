@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "失業率上升",
     "生產技術進步"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 生產技術進步使既有資源能生產更多產品，生產可能曲線向右上方外移。\n❌ (A) 貧富差距屬分配問題，不改變生產能量。\n❌ (B) 經濟停滯不會使生產能力擴增。\n❌ (C) 失業率上升代表資源未充分利用，是曲線內部的點。\n📚 出處：公民．經濟／生產可能曲線"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "政府讓個人依自利做決策",
     "政府將生產工具收歸國有"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 生產工具收歸國有是計畫經濟的特徵，與市場經濟相違，故本項敘述錯誤。\n❌ (A) 市場經濟保障消費自由。\n❌ (B) 市場經濟尊重價格機能。\n❌ (C) 市場經濟由個人依自利作決策。\n📚 出處：公民．經濟／經濟制度"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "媒體形塑勞工負面刻板印象，加劇民眾對勞工的歧視",
     "媒體報導檢察官尚在調查的訊息，違反偵查不公開原則"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 媒體未經查證即將乘客誤指為施工者，屬未盡查證責任而報導不實訊息。\n❌ (B) 問題核心在事實錯誤而非煽情渲染。\n❌ (C) 該報導並非針對勞工群體建構刻板印象。\n❌ (D) 事件與偵查不公開原則無涉。\n📚 出處：公民．媒體素養／查證責任"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "降低土地增值稅稅率，助長土地投機不利租稅公平性",
     "擴大公共工程的投資性支出，會增加總體經濟的供給，可刺激經濟景氣的復甦"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 調降土地增值稅使持有與移轉成本下降，易助長土地投機並削弱租稅公平。\n❌ (A) 降低關稅有利消費者但不利本國同類產業的就業。\n❌ (B) 營業稅與貨物稅具累退性，提高稅率會擴大而非縮小分配差距。\n❌ (D) 擴大公共投資增加的是總需求而非總供給。\n📚 出處：公民．經濟／財政政策"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "需求曲線左移，需求量（quantity demanded）減少",
     "需求曲線左移，需求量（quantity demanded）增加"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 疫情升溫使非價格因素改變，住宿需求整體減少，需求曲線左移、均衡價與量同時下降。\n❌ (A) 價格下跌並非本次變動的原因，而是結果。\n❌ (B) 需求量增加與退房率上升不符。\n❌ (D) 需求曲線左移時均衡量應減少。\n📚 出處：公民．經濟／需求變動"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "百善孝為先，孝順是為人基本美德，以回報父母養育之恩",
     "愛過不後悔，接受分手結尾，即便愛得濃烈，分手仍可能是存在的選項"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 承認分手為對等關係中可自主選擇的結果，體現主體性與對話基礎的情感觀。\n❌ (A) 強調體諒父母的管教仍屬威權式的親子關係。\n❌ (B) 門當戶對著眼於外在條件的交換。\n❌ (C) 以報恩為基礎的孝道屬傳統倫理的義務觀。\n📚 出處：公民．社會／親密關係"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "將國內每種族群語言列為國民教育共同必修",
     "為尊重少數族群文化，應立法限制大眾媒體評論"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 積極提供弱勢族群資源以維繫其文化，符合多元文化主義肯認差異的精神。\n❌ (B) 分別成立自治區易造成族群隔離。\n❌ (C) 強制所有語言列為共同必修不符現實且非多元文化的要求。\n❌ (D) 限制媒體評論反而壓縮言論自由。\n📚 出處：公民．社會／多元文化主義"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "不具獨享性但具排他性",
     "具獨享性但無排他性"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 野生保育魚類一旦被捕即減損他人可用數量（具獨享性），又難以排除他人捕捉（無排他性），屬共有資源。\n❌ (A) 不具獨享且無排他者為純公共財。\n❌ (B) 具獨享且可排他者為私有財。\n❌ (C) 不具獨享但可排他者為準公共財。\n📚 出處：公民．經濟／財貨的分類"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "衝突論認為街友社會地位較低乃因能力不足，而非擁有較少社會資源",
     "衝突論認為街友的存在可創造社工人員等工作機會，故有其存在功能"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 功能論主張地位高低反映職位對社會的重要性與人才的稀少性，醫生專業替代性低故受重視。\n❌ (B) 以掌握資源解釋地位是衝突論的觀點。\n❌ (C) 衝突論歸因於資源分配不均，而非能力不足。\n❌ (D) 以存在功能解釋現象是功能論的推論。\n📚 出處：公民．社會／社會階層化"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "珍珠奶茶文化屬於精緻文化",
     "此為強勢文化主導的文化交流"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「珍珠活」「珍珠巡禮」是特定社群共享的用語，反映網路社群的次文化。\n❌ (A) 另類全球化強調在地反抗全球資本，非本例的重點。\n❌ (C) 珍珠奶茶屬大眾流行文化而非精緻文化。\n❌ (D) 此為臺灣飲食受他國歡迎，非強勢文化單向主導。\n📚 出處：公民．社會／次文化"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "外籍人士在我國工作者，可以免費施打肺炎疫苗",
     "原住民族學生，符合規定者升學時享有加分措施"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 對處於不利地位者給予升學加分，使最不利者獲得最大利益，符合差異原則。\n❌ (A) 同婚權利的取得屬均等自由原則的實現。\n❌ (B) 因身分免罰有違法律之前人人平等。\n❌ (C) 免費施打疫苗屬普及的公共衛生措施。\n📚 出處：公民．社會／羅爾斯正義論"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "主權運作係針對國民之各種治理行為",
     "政府須通過選舉產生才具有治理正當性"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本國籍的船舶與航空器被視為浮動領土，屬領土範疇。\n❌ (B) 人民不以享有參政權為要件，未成年人亦為國民。\n❌ (C) 主權兼具對內最高性與對外獨立性，不限於對國民的治理。\n❌ (D) 政府的存在與統治正當性是兩個層次的問題。\n📚 出處：公民．政治／國家的構成要素"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "發起反統或反獨之政黨集會遊行",
     "參與連署政務官發起之公投提案"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公務人員不得發起、主持集會或領導連署活動，發起政黨集會遊行必然違反中立規範。\n❌ (A) 配偶為候選人者，得於非上班時間為其站台助講。\n❌ (B) 單純參與造勢活動於非上班時間並不當然違法。\n❌ (D) 參與連署與發起連署的行為態樣不同。\n📚 出處：公民．公務人員行政中立法第9條"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "因應人口老化，衛生福利部與地方政府、民間單位推動一學區一日照中心",
     "地方政府採購新冠肺炎疫苗後交由中央疫情指揮中心統一調配"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 中央、地方與民間共同協力推動照顧資源，符合多元行動者協力的地方治理精神。\n❌ (A) 僅是中央交付地方執行，屬傳統的層級委辦。\n❌ (B) 民間募資屬跨國公民行動，非地方治理。\n❌ (D) 由中央統一調配仍是中央集權的運作。\n📚 出處：公民．政治／地方治理"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "是否保障公平開放的媒體",
     "總統是否由人民直接選出"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 逮捕抗議者並封鎖獨立媒體，顯示欠缺保障公平開放媒體與言論自由的正當性。\n❌ (A) 報導所指的是媒體與言論管制，非政黨設立。\n❌ (B) 報導未涉及領導人改選的問題。\n❌ (D) 元首產生方式非本題所凸顯的缺陷。\n📚 出處：公民．政治／民主的正當性"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "蕭茲擔任國家元首職務，屬不具政治實權的精神領袖",
     "行政機關不須對立法機關負責，落實分權制衡的原則"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 內閣制下由席次最多且能取得過半支持的政黨籌組聯合內閣。\n❌ (B) 覆議為總統制下行政對立法的制衡工具。\n❌ (C) 內閣制的國家元首為總統，總理為行政首長並握有實權。\n❌ (D) 內閣制的行政部門須對國會負責。\n📚 出處：公民．政治／內閣制"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "罷免案不通過，因罷免案之投票率未達選舉人總數二分之一",
     "罷免案不通過，因同意票未達選舉人總數四分之一以上"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 罷免通過須同意票多於不同意票「且」達選舉人總數四分之一（58,756 票）以上，本案同意票 54,813 票未達門檻。\n❌ (A) 僅同意票較多尚不足以通過。\n❌ (B) 投票率並非法定門檻。\n❌ (C) 法律未要求投票率達二分之一。\n📚 出處：公民．公職人員選舉罷免法第90條"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "利益團體與政黨皆受人民團體法規範",
     "利益團體與政黨可透過倡議方式影響政策"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 利益團體與政黨都會透過倡議、遊說等方式影響公共政策。\n❌ (A) 利益團體關注特定議題，政黨的政策面向較全面。\n❌ (B) 參政權指選舉、罷免、創制、複決等權利，與參加團體不同。\n❌ (C) 政黨另依政黨法規範，不適用人民團體法的政治團體章。\n📚 出處：公民．政治／政黨與利益團體"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "立法院基於責任政治之要求，不得提案舉辦公民投票",
     "經複決廢止之法律，立法機關仍得於 1 年後再制定相同之法律"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 公民投票涉及原住民族權利者，不得違反原住民族基本法的規定。\n❌ (B) 公投法設有地方性公民投票。\n❌ (C) 立法院得就重大政策的創制複決提出公投案。\n❌ (D) 經複決廢止的法律，立法機關於 2 年內不得再制定相同法律。\n📚 出處：公民．公民投票法"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "曾犯貪污罪而受緩刑宣告者",
     "受破產宣告確定而尚未復權者"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 在學學生並無不得登記為候選人的限制。\n❌ (A) 現役軍人與服替代役的役男不得登記為候選人。\n❌ (C) 曾犯貪污罪經判刑確定者不得登記，緩刑仍屬判刑確定。\n❌ (D) 受破產宣告確定尚未復權者不得登記。\n📚 出處：公民．公職人員選舉罷免法第26條、第27條"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "行政院大陸委員會",
     "海洋委員會海巡署"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 大陸地區人民未經許可入境者，由內政部移民署強制出境。\n❌ (B) 警政署負責治安維護。\n❌ (C) 陸委會負責大陸政策的統合規劃，不執行強制出境。\n❌ (D) 海巡署負責海域執法與查緝。\n📚 出處：公民．臺灣地區與大陸地區人民關係條例"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "就讀高等教育免學費",
     "控制物價與通貨膨脹"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 保障人民的生命、自由與財產是有限政府最基本的任務與民主價值。\n❌ (B) 免費疫苗屬社會給付政策，非最基本的民主價值。\n❌ (C) 高等教育免學費屬福利政策的選擇。\n❌ (D) 控制物價屬經濟政策的目標。\n📚 出處：公民．政治／有限政府"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "混合制",
     "委員會制"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 由國會多數聯盟合作組閣、總理由國會多數產生，屬內閣制。\n❌ (B) 總統制的行政首長由人民選舉產生，不由國會組閣。\n❌ (C) 混合制設有直選總統與對國會負責的總理。\n❌ (D) 委員會制由合議制委員會行使行政權。\n📚 出處：公民．政治／政府體制"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "甲乙於法院審理中得成立和解方案",
     "甲必須聘請律師方可提出民事訴訟"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 民事訴訟進行中，兩造得於法院成立訴訟上和解，與確定判決有同一效力。\n❌ (A) 得向被告住所地或居所地法院起訴，不限高雄。\n❌ (B) 借款請求非強制調解事件。\n❌ (D) 民事訴訟不採強制律師代理。\n📚 出處：公民．法律／民事訴訟"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "酒測值誤差獲無罪，公設辯護人為酒駕被害人上訴",
     "正義波麗士，熱血員警為被害人提出公訴"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 得否易科罰金由檢察官指揮執行時決定，檢察官認不宜易科者得發監執行。\n❌ (B) 緩起訴處分由檢察官作成，非法官。\n❌ (C) 公設辯護人為被告辯護，不代被害人上訴。\n❌ (D) 提起公訴是檢察官的職權，警察無此權限。\n📚 出處：公民．法律／刑事程序"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "私行拘禁或以其他非法方法，剝奪人之行動自由者",
     "因違反鐵路法規而處以罰鍰"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 臺鐵依鐵路法對違規飼主處以罰鍰，屬行政罰，與本項性質相同。\n❌ (A) 侵害他人權利而負損害賠償屬民事責任。\n❌ (B) 侵害著作財產權者涉及刑事責任。\n❌ (C) 剝奪他人行動自由為刑法上的妨害自由罪。\n📚 出處：公民．法律／責任的類型"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "集會遊行是人民表達自身訴求的重要手段，因此縱使是國家針對無關集會遊行內容與目的之時間、地點及方式進行限制，也必須受嚴格審查",
     "為使主管機關得以保障人民權利，並降低集會遊行對社會秩序之影響，因此緊急性集會遊行仍須於 24小時前進行事前申請，並無違反憲法意旨"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 偶發性集會遊行無從事先申請，經解釋認為許可制於此不應適用。\n❌ (B) 一般集會遊行的許可制經解釋認為尚未違憲。\n❌ (C) 對時間、地點、方式的中性限制適用較寬鬆的審查。\n❌ (D) 緊急性集會遊行仍要求 24 小時前申請的規定經認定違憲。\n📚 出處：公民．憲法／集會遊行自由"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "特別公課",
     "間接稅"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 對特定關係人課徵並專供特定政策目的使用的公法上金錢負擔，稱為特別公課。\n❌ (A) 怠金是行政執行上的間接強制手段。\n❌ (B) 國債是政府的借貸而非課徵。\n❌ (D) 間接稅指稅負可轉嫁的租稅。\n📚 出處：公民．法律／特別公課"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "大法官曾認為對於因宗教理由而無法服戰鬥兵役之人民，兵役法未設有例外處置而逕以刑罰相繩，已屬對人民信仰自由的過度侵害而宣告違憲",
     "為兼顧軍紀維護與軍事安全，因此我國設有軍事審判法，對於服義務役之現役軍人若涉及刑事案件，縱於非戰時亦歸軍事法院審理"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 經解釋認為現行兵役義務限於男性，係基於生理差異與社會功能角色的不同，未違反平等原則。\n❌ (A) 體位判定屬行政處分，役男不服者得提起行政爭訟。\n❌ (C) 大法官認為以刑罰相繩並未違憲。\n❌ (D) 非戰時現役軍人的刑事案件已改由普通法院審理。\n📚 出處：公民．憲法／服兵役義務"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "體系解釋",
     "目的解釋"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 依「無自救能力之人」的通常字義即可涵蓋植物人，屬文義解釋。\n❌ (B) 歷史解釋須探求立法當時的背景資料。\n❌ (C) 體系解釋須參照條文在法典中的地位與關聯。\n❌ (D) 目的解釋須依規範目的加以闡釋。\n📚 出處：公民．法律／法律解釋方法"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "維持社會秩序",
     "防止妨礙他人自由"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 興建大眾運輸系統是為增進公共利益，屬憲法第23條所定得限制基本權的正當事由。\n❌ (B) 避免緊急危難指天災事變等急迫情形。\n❌ (C) 維持社會秩序著眼於公共安寧。\n❌ (D) 防止妨礙他人自由針對的是私人間的權利衝突。\n📚 出處：公民．憲法第23條"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "每位國民應按年度申報營業事業所得稅",
     "6 歲至 15 歲學齡之國民應接受國民教育"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 憲法明定人民有受國民教育的權利與義務，現行學齡為 6 至 15 歲。\n❌ (A) 憲法本文所定的義務為納稅、服兵役與受國民教育，健保費依健保法徵收。\n❌ (B) 現行兵役義務限於男性。\n❌ (C) 憲法所定為依法律納稅，非人人須申報營利事業所得稅。\n📚 出處：公民．憲法／人民的義務"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "強制工作",
     "保護管束"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 因精神障礙而有再犯危險者，得施以監護並令入相當處所施以強制治療。\n❌ (B) 感化教育適用於少年。\n❌ (C) 強制工作適用於有犯罪習慣或以犯罪為常業者。\n❌ (D) 保護管束多為其他保安處分的替代或後續措施。\n📚 出處：公民．法律／保安處分"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "若乙未成年，其法定代理人同為民事與刑事訴訟之被告",
     "若甲未成年，須由法定代理人代為提起民事訴訟"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 未成年人為當事人時，訴訟行為應由法定代理人代為之。\n❌ (A) 此類侵權事件非強制調解前置。\n❌ (B) 民事與刑事訴訟均不採強制律師代理。\n❌ (C) 加害人的法定代理人僅在民事上可能負連帶賠償，刑責由行為人自負。\n📚 出處：公民．法律／訴訟能力"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "陳情",
     "釋憲"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 勞資爭議得循調解、仲裁程序處理，仲裁判斷具拘束力且較訴訟迅速。\n❌ (A) 訴願針對的是行政處分。\n❌ (C) 陳情不生法律上的拘束效果。\n❌ (D) 釋憲處理的是法規違憲爭議。\n📚 出處：公民．法律／勞資爭議處理"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "insightful",
     "pleasant"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 面具嚇壞了許多小孩，應用 frightening（可怕的）。\n❌ (A) graceful 是優雅的。\n❌ (C) insightful 是有洞見的。\n❌ (D) pleasant 是令人愉快的。\n📚 出處：英文．字彙"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "occurs",
     "trains"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 每三小時發生一起暴力犯罪，用 occurs（發生）。\n❌ (A) agrees 是同意。\n❌ (B) cheats 是欺騙。\n❌ (D) trains 是訓練。\n📚 出處：英文．字彙"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "offered",
     "wounded"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 許多士兵在戰爭中被槍砲「所傷」，用 wounded。\n❌ (A) behaved 指舉止行為。\n❌ (B) counted 是計算。\n❌ (C) offered 是提供。\n📚 出處：英文．字彙"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "tape",
     "write"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 軟體能「計算」文件中的字數與行數，用 count。\n❌ (A) press 是按壓。\n❌ (C) tape 是以膠帶黏貼或錄音。\n❌ (D) write 與計算字數的語意不符。\n📚 出處：英文．字彙"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "lend",
     "take請依下文回答第 41 題至第 45 題"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) give away 意為捐出、送人，符合把舊衣服送給需要的人。\n❌ (B) greet 是問候，無此片語。\n❌ (C) lend 是借出，與 away 不搭配。\n❌ (D) take away 是拿走，語意相反。\n📚 出處：英文．片語"
   },
   {
    "n": 41,
@@ -548,7 +588,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/113010_501_0102_41.webp"
+   "fig": "img/q/113010_501_0102_41.webp",
+   "exp": "✅ (B) has 之後接過去分詞構成現在完成式，且與 recorded 形成被動，應填 been。\n❌ (A) be 為原形，不能接在 has 之後。\n❌ (C) being 會構成 has being，文法不通。\n❌ (D) to be 不能與 has 連用構成完成式。\n📚 出處：英文．文法／現在完成被動式"
   },
   {
    "n": 42,
@@ -563,7 +604,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/113010_501_0102_42.webp"
+   "fig": "img/q/113010_501_0102_42.webp",
+   "exp": "✅ (B) 前句已提及一部分人的經驗，此處指「另一些人」且作主詞，用複數代名詞 Others。\n❌ (A) Other 為形容詞，須接名詞。\n❌ (C) Another 指另一個，為單數。\n❌ (D) The other 指兩者中的另一個。\n📚 出處：英文．文法／不定代名詞"
   },
   {
    "n": 43,
@@ -578,7 +620,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/113010_501_0102_43.webp"
+   "fig": "img/q/113010_501_0102_43.webp",
+   "exp": "✅ (B) come up with 意為想出、提出（新見解），符合文意。\n❌ (A) put up with 是忍受。\n❌ (C) team up with 是與人組隊。\n❌ (D) break up with 是與人分手。\n📚 出處：英文．片語"
   },
   {
    "n": 44,
@@ -593,7 +636,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/113010_501_0102_44.webp"
+   "fig": "img/q/113010_501_0102_44.webp",
+   "exp": "✅ (A) be eager for 表示渴望，符合「渴望做清醒夢卻毫無經驗」的文意。\n❌ (B) humid 是潮濕的。\n❌ (C) royal 是皇家的。\n❌ (D) total 是全部的。\n📚 出處：英文．字彙"
   },
   {
    "n": 45,
@@ -608,7 +652,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/113010_501_0102_45.webp"
+   "fig": "img/q/113010_501_0102_45.webp",
+   "exp": "✅ (D) remind oneself that… 意為提醒自己，符合「提醒自己那些細節並不真實」。\n❌ (A) admire 是欽佩。\n❌ (B) debate 是辯論。\n❌ (C) permit 是允許。\n📚 出處：英文．字彙"
   },
   {
    "n": 46,
@@ -622,7 +667,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "Many people around the globe are communicating with each other in English."
    ],
    "psg": "Professor Dr. Juliane House, in her research journal, clearly differentiates between “languages for communication” and “languages for identification” and does not see any threat posed by ELF (English as Lingua Franca) to other national and regional languages. Her point is valid when a Sri Lankan talks to a Pakistani or a Bangladeshi talks to an Iranian, because all of the speakers use English as a neutral global language solely for communication purposes. However, the socio- cultural prejudice and superiority of the language may arise when an English person is conversing with a non-native speaker. Although the contemporary sway of English language over others is beyond any cavil, based upon the fact that it is also the language of the Americans, the most developed and influential nation on the global map in the fields of education, economics, defense technology and world trade, the fact remains that the seeds of English language’s flourishing crop were sown by the unjustifiable British colonialism and forced occupation over weaker nations. Moreover, if people living in the developing countries have started believing that their educational, economic and social growth and future prospects totally depend upon developing English language proficiency, I am sorry to say, they are psychological slaves and under threat. This dominance of language is utterly illegitimate. In relation to the issue, we are, definitely, exposed to the risk of a socio-cultural decline because in the audio-visual labs and libraries of our educational institutions as well as language learning centers, the students are shown English movies, cartoons and TV serials and provided English storybooks, etc., to develop their listening and reading skills and for building their vocabulary. None can deny the fact that a nation’s literature, folk tales and entertainment media are the most vibrant sources of promoting its cultural norms, moral values and social ethics, and the positive and constructive process of learning a global language.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文章主張英語獨大反而使開發中國家面臨社會文化衰退的風險，並未暗示其有利於推廣該國文化。\n❌ (A) 文中提到英語是學術界常用的教學與研究語言。\n❌ (B) 文中提到英語在世界貿易等領域的影響力。\n❌ (D) 文中舉例不同國籍者以英語作為溝通的中介語。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 47,
@@ -636,7 +682,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "The Risks and Threats of Using English"
    ],
    "psg": "Professor Dr. Juliane House, in her research journal, clearly differentiates between “languages for communication” and “languages for identification” and does not see any threat posed by ELF (English as Lingua Franca) to other national and regional languages. Her point is valid when a Sri Lankan talks to a Pakistani or a Bangladeshi talks to an Iranian, because all of the speakers use English as a neutral global language solely for communication purposes. However, the socio- cultural prejudice and superiority of the language may arise when an English person is conversing with a non-native speaker. Although the contemporary sway of English language over others is beyond any cavil, based upon the fact that it is also the language of the Americans, the most developed and influential nation on the global map in the fields of education, economics, defense technology and world trade, the fact remains that the seeds of English language’s flourishing crop were sown by the unjustifiable British colonialism and forced occupation over weaker nations. Moreover, if people living in the developing countries have started believing that their educational, economic and social growth and future prospects totally depend upon developing English language proficiency, I am sorry to say, they are psychological slaves and under threat. This dominance of language is utterly illegitimate. In relation to the issue, we are, definitely, exposed to the risk of a socio-cultural decline because in the audio-visual labs and libraries of our educational institutions as well as language learning centers, the students are shown English movies, cartoons and TV serials and provided English storybooks, etc., to develop their listening and reading skills and for building their vocabulary. None can deny the fact that a nation’s literature, folk tales and entertainment media are the most vibrant sources of promoting its cultural norms, moral values and social ethics, and the positive and constructive process of learning a global language.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全文聚焦英語獨大所帶來的社會文化風險與威脅，故以此為題最貼切。\n❌ (A) 文章並非在闡述學英語的好處。\n❌ (B) 語言的種類與功能只是開頭的鋪陳。\n❌ (C) 文章並未把英語定位為多元文化的語言。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 48,
@@ -650,7 +697,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "English was promoted by the British during their colonial rule over many countries."
    ],
    "psg": "Professor Dr. Juliane House, in her research journal, clearly differentiates between “languages for communication” and “languages for identification” and does not see any threat posed by ELF (English as Lingua Franca) to other national and regional languages. Her point is valid when a Sri Lankan talks to a Pakistani or a Bangladeshi talks to an Iranian, because all of the speakers use English as a neutral global language solely for communication purposes. However, the socio- cultural prejudice and superiority of the language may arise when an English person is conversing with a non-native speaker. Although the contemporary sway of English language over others is beyond any cavil, based upon the fact that it is also the language of the Americans, the most developed and influential nation on the global map in the fields of education, economics, defense technology and world trade, the fact remains that the seeds of English language’s flourishing crop were sown by the unjustifiable British colonialism and forced occupation over weaker nations. Moreover, if people living in the developing countries have started believing that their educational, economic and social growth and future prospects totally depend upon developing English language proficiency, I am sorry to say, they are psychological slaves and under threat. This dominance of language is utterly illegitimate. In relation to the issue, we are, definitely, exposed to the risk of a socio-cultural decline because in the audio-visual labs and libraries of our educational institutions as well as language learning centers, the students are shown English movies, cartoons and TV serials and provided English storybooks, etc., to develop their listening and reading skills and for building their vocabulary. None can deny the fact that a nation’s literature, folk tales and entertainment media are the most vibrant sources of promoting its cultural norms, moral values and social ethics, and the positive and constructive process of learning a global language.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中並未提及跨國企業將英語選為唯一官方語言。\n❌ (B) 文中提到英語常被選為學術教學的媒介。\n❌ (C) 文中指出英語也是美國這個最具影響力國家的語言。\n❌ (D) 文中指出英語的擴張源於英國殖民統治。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 49,
@@ -664,7 +712,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "The widespread discrimination against those who cannot master English."
    ],
    "psg": "Professor Dr. Juliane House, in her research journal, clearly differentiates between “languages for communication” and “languages for identification” and does not see any threat posed by ELF (English as Lingua Franca) to other national and regional languages. Her point is valid when a Sri Lankan talks to a Pakistani or a Bangladeshi talks to an Iranian, because all of the speakers use English as a neutral global language solely for communication purposes. However, the socio- cultural prejudice and superiority of the language may arise when an English person is conversing with a non-native speaker. Although the contemporary sway of English language over others is beyond any cavil, based upon the fact that it is also the language of the Americans, the most developed and influential nation on the global map in the fields of education, economics, defense technology and world trade, the fact remains that the seeds of English language’s flourishing crop were sown by the unjustifiable British colonialism and forced occupation over weaker nations. Moreover, if people living in the developing countries have started believing that their educational, economic and social growth and future prospects totally depend upon developing English language proficiency, I am sorry to say, they are psychological slaves and under threat. This dominance of language is utterly illegitimate. In relation to the issue, we are, definitely, exposed to the risk of a socio-cultural decline because in the audio-visual labs and libraries of our educational institutions as well as language learning centers, the students are shown English movies, cartoons and TV serials and provided English storybooks, etc., to develop their listening and reading skills and for building their vocabulary. None can deny the fact that a nation’s literature, folk tales and entertainment media are the most vibrant sources of promoting its cultural norms, moral values and social ethics, and the positive and constructive process of learning a global language.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中明言以英語為教育媒介使人暴露於社會文化衰退的風險。\n❌ (B) 文章未論及弱勢家庭兒童被邊緣化。\n❌ (C) 文章未提及語言天分不足者的挫折。\n❌ (D) 文章未討論對英語能力不佳者的歧視。\n📚 出處：英文．閱讀測驗"
   },
   {
    "n": 50,
@@ -678,7 +727,8 @@ window.APP_EXAM_PAPERS['chu-113-1-e002'] = {
     "Media."
    ],
    "psg": "Professor Dr. Juliane House, in her research journal, clearly differentiates between “languages for communication” and “languages for identification” and does not see any threat posed by ELF (English as Lingua Franca) to other national and regional languages. Her point is valid when a Sri Lankan talks to a Pakistani or a Bangladeshi talks to an Iranian, because all of the speakers use English as a neutral global language solely for communication purposes. However, the socio- cultural prejudice and superiority of the language may arise when an English person is conversing with a non-native speaker. Although the contemporary sway of English language over others is beyond any cavil, based upon the fact that it is also the language of the Americans, the most developed and influential nation on the global map in the fields of education, economics, defense technology and world trade, the fact remains that the seeds of English language’s flourishing crop were sown by the unjustifiable British colonialism and forced occupation over weaker nations. Moreover, if people living in the developing countries have started believing that their educational, economic and social growth and future prospects totally depend upon developing English language proficiency, I am sorry to say, they are psychological slaves and under threat. This dominance of language is utterly illegitimate. In relation to the issue, we are, definitely, exposed to the risk of a socio-cultural decline because in the audio-visual labs and libraries of our educational institutions as well as language learning centers, the students are shown English movies, cartoons and TV serials and provided English storybooks, etc., to develop their listening and reading skills and for building their vocabulary. None can deny the fact that a nation’s literature, folk tales and entertainment media are the most vibrant sources of promoting its cultural norms, moral values and social ethics, and the positive and constructive process of learning a global language.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中所列推廣文化的來源為文學、民間故事與娛樂媒體，倫理是被推廣的內容而非推廣的媒介。\n❌ (A) 文學為文中所列的來源之一。\n❌ (B) 民間故事為文中所列的來源之一。\n❌ (D) 娛樂媒體為文中所列的來源之一。\n📚 出處：英文．閱讀測驗"
   }
  ]
 };
