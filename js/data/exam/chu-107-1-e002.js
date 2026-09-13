@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "重組家庭",
     "新三代家庭"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 父母離婚後一方再婚，與繼親及其子女共同生活者，為重組（繼親）家庭。\n❌ (A) 折衷家庭指祖父母、父母與子女三代同住的主幹家庭。\n❌ (B) 寄養家庭是受託照顧他人子女的家庭。\n❌ (D) 新三代家庭指祖孫或隔代同住的型態，與本例不符。\n📚 出處：公民（家庭的類型）"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "從本我到自我",
     "從主我到客我"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 想私自留下小狗是「本我」的慾望衝動，因顧慮法律後果而依現實原則送交警局，屬「自我」的調節。\n❌ (A) 超我代表道德良知的內化，本例主要是權衡現實後果。\n❌ (B) 自我與客我是米德的用語，非佛洛依德的人格結構。\n❌ (D) 主我與客我同屬米德的自我發展理論。\n📚 出處：Freud 人格結構論（本我、自我、超我）"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "在地全球化",
     "全球在地化"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 農民反對貿易自由化與低價傾銷對本國生計的衝擊，屬反全球化的抗議。\n❌ (A) 本土化強調發展在地特色，非針對全球貿易體制抗議。\n❌ (C) 在地全球化是把在地事物推向世界。\n❌ (D) 全球在地化是全球事物因應在地需求而調整。\n📚 出處：公民（全球化與反全球化）"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "在地全球化",
     "全球相對化"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 電音三太子源於臺灣在地廟會文化，經世運會而躍上國際舞臺，屬在地全球化。\n❌ (A) 另類全球化指以社會正義取代市場邏輯的全球連結。\n❌ (B) 全球在地化是外來事物在地化調整（如速食業推出在地口味）。\n❌ (D)「全球相對化」非慣用概念。\n📚 出處：公民（全球在地化與在地全球化）"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "活動須有來自於第二部門的經濟力才得以運作",
     "透過由上而下的公民行動，積極推動地方治理"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 民間團體自發集結志工投入社區彩繪、活絡地方，屬第三部門的自主性公民行動，展現社會力。\n❌ (A) 該行動是直接投入服務，非倡議立法。\n❌ (C) 第二部門為企業；志工行動不以企業資金為必要條件。\n❌ (D) 公民社會的行動特性是由下而上，非由上而下。\n📚 出處：公民（公民社會與第三部門）"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "共產主義在改造資本主義，社會主義以無階級社會為理想",
     "共產主義以階級鬥爭進行改革，社會主義則主張漸進改革"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 共產主義主張以階級鬥爭、革命推翻資本主義；社會主義（民主社會主義）主張透過議會與政策漸進改革。\n❌ (A) 共產主義反對私有財產，不強調個人財富。\n❌ (B) 剩餘價值論是馬克思（共產主義）的論述，福利國家才是社會主義的實踐。\n❌ (C) 兩者的目標敘述對調，無階級社會是共產主義的理想。\n📚 出處：公民（社會主義與共產主義的比較）"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "經驗民主理論",
     "菁英民主理論"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 主張人民理性、應積極參與並藉參與培養公民德行，是古典（參與式）民主理論的觀點。\n❌ (B) 修正民主理論認為一般民眾參與有限。\n❌ (C) 經驗民主理論以實證觀察政治行為，強調競爭與菁英。\n❌ (D) 菁英民主理論主張決策由少數菁英主導。\n📚 出處：公民（民主理論的類型）"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "對下屬施壓的官員，可針對其個人行為進行糾正",
     "針對決算的審核報告於 3 個月內向立法院提出"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 審計長應於行政院提出決算後 3 個月內完成審核，並提出審核報告於立法院。\n❌ (A) 對機關（而非個人）的失職應提「糾正」，彈劾對象為公務人員個人。\n❌ (B) 監察院的人事同意權於增修條文修正後已移由立法院行使。\n❌ (C) 針對個人違法失職應提彈劾或糾舉，糾正的對象是機關。\n📚 出處：憲法增修條文第 7 條；決算法第 26 條"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "屬人主義為主，屬地主義為輔",
     "屬地主義為主，屬人主義為輔"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 前兩款以父或母的國籍為準（屬人主義為主），第三款對出生於我國領域且父母無可考或無國籍者賦予國籍（屬地主義為輔）。\n❌ (A) 尚有出生地的補充規定，非純屬人主義。\n❌ (B) 我國並非以出生地為主要判準。\n❌ (D) 主從關係顛倒。\n📚 出處：國籍法第 2 條"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "世界貿易組織",
     "國際貨幣基金會"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 1997 年亞洲金融風暴期間，韓國向國際貨幣基金（IMF）申請紓困並接受其改革條件。\n❌ (A) 世界銀行主要提供開發中國家長期開發融資。\n❌ (B) 亞太經合會為區域經濟合作論壇，無紓困功能。\n❌ (C) WTO 處理貿易規範與爭端，不提供金融援助。\n📚 出處：公民（國際金融組織與亞洲金融風暴）"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "縣市長：比例代表制",
     "縣市議員：複數選區單記制"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 縣市議員選舉採複數選區單記不可讓渡投票制（SNTV）。\n❌ (A) 直轄市長為單一選區相對多數制。\n❌ (B) 直轄市議員為複數選區單記非讓渡投票制。\n❌ (C) 縣市長同為單一選區相對多數制，非比例代表制。\n📚 出處：公職人員選舉罷免法；公民（選舉制度）"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "大新：再過 5 年後，小新你才可以參選區域立委選舉",
     "大新：我們搬到臺北市 3 個月後，就可投票選舉理想的市長"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 總統、副總統候選人須年滿 40 歲；小新現年 20 歲，待其達大新目前的 45 歲時即符合年齡條件。\n❌ (B) 年滿 20 歲即有選舉權，小新已滿 20 歲，今年即可投票。\n❌ (C) 區域立委候選人須年滿 23 歲，小新再過 3 年即可參選。\n❌ (D) 選舉人須在該選舉區繼續居住 4 個月以上，3 個月尚不足。\n📚 出處：總統副總統選舉罷免法第 20 條；公職人員選舉罷免法第 15 條、第 24 條"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "實質平等權",
     "意見自由權"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 公民投票法落實人民對法律與政策的直接決定，屬憲法保障的創制、複決權（參政權）。\n❌ (A) 形式受益權指請願、訴願與訴訟等程序性權利。\n❌ (C) 平等權保障不受差別待遇。\n❌ (D) 意見自由權屬言論自由的範疇。\n📚 出處：憲法第 17 條、第 136 條；公民投票法第 1 條"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "歐洲聯盟 EU",
     "世界貿易組織 WTO"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 歐盟除經濟整合（單一市場、共同貨幣與資本自由流通）外，並就人權、治理、司法與移民等訂有政治標準。\n❌ (A) 東協以經濟合作為主，不設政治標準門檻。\n❌ (B) 北美自由貿易協定僅處理貿易與投資事項。\n❌ (D) WTO 規範國際貿易，不涉及成員國的政治體制要求。\n📚 出處：公民（區域整合與歐洲聯盟）"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "消費者保護法",
     "食品衛生管理法"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 同業同時調漲價格涉及聯合行為（價格協議），違反公平交易法。\n❌ (A) 商品標示法規範標示內容。\n❌ (C) 消費者保護法規範消費關係與商品責任。\n❌ (D) 食品安全衛生管理法規範食品衛生安全。\n📚 出處：公平交易法第 14 條、第 15 條"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "②③",
     "③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 要求被告就財產來源負說明義務，等同課予自證清白的責任，與無罪推定（①）及不自證己罪（④）原則有所扞格。\n❌ (A) 罪刑法定要求構成要件明確，該條仍以法律明定。\n❌ (C) 偵查不公開與說明義務無涉。\n❌ (D) 遺漏最關鍵的無罪推定原則。\n📚 出處：貪污治罪條例第 6 條之 1；刑事訴訟法第 154 條、第 156 條"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "生父或生母均可透過遺囑，完全排除特定非婚生子女的繼承權利",
     "養子女可同時享有養父母與生父生母的遺產繼承權"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 非婚生子女與生母的關係視為婚生子女，無須認領。\n❌ (B) 養子女與婚生子女的法律地位相同，繼承順位亦同。\n❌ (C) 遺囑不得侵害繼承人的特留分，無法完全排除其繼承權。\n❌ (D) 收養成立後與本生父母的權利義務停止，不得同時繼承雙方遺產（單獨收養配偶之子女等情形除外）。\n📚 出處：民法第 1065 條、第 1077 條、第 1083 條之 1、第 1223 條"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "阿華用來擄人勒贖的土製手槍與子彈，被依法「沒收」",
     "安安因在家裡開設賭場，被處以「新臺幣 3 千元罰金」"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 感化教育屬保安處分，著眼於行為人的危險性與矯治教育。\n❌ (B) 有期徒刑為主刑（刑罰）。\n❌ (C) 沒收現行法定性為獨立的法律效果，非保安處分。\n❌ (D) 罰金為主刑之一。\n📚 出處：刑法第 86 條以下（保安處分）；少年事件處理法"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "大法官若發現法律有違憲疑義，主動以會議方式，進行討論作成決議",
     "統一解釋法律及命令案件，大法官現有總額三分之二之出席，出席人三分之二之同意"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 司法院受理聲請解釋案件，應先推定大法官三人審查並提出報告。\n❌ (B) 解釋憲法須大法官現有總額三分之二出席、出席人三分之二同意。\n❌ (C) 大法官採被動審理，不得主動發動違憲審查。\n❌ (D) 統一解釋法令為過半數出席、出席人過半數同意。\n📚 出處：司法院大法官審理案件法第 10 條、第 13 條、第 14 條"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "誠實信用",
     "公序良俗"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 限制解除權以避免對出賣人顯失公平，係權利行使不得違反誠實信用的具體展現。\n❌ (A) 過失責任是損害賠償的歸責原則。\n❌ (B) 禁止恣意屬平等原則在公法上的要求。\n❌ (D) 公序良俗針對法律行為內容的妥當性。\n📚 出處：民法第 148 條、第 359 條"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "檢察官偵查犯罪，如有必要可以逕行羈押",
     "人民的人身自由權，任何情況都不受他人侵犯"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 憲法第 8 條明定非由法院依法定程序，不得審問處罰。\n❌ (A) 搜索原則上須持法官核發的搜索票。\n❌ (C) 羈押採法官保留，檢察官僅得聲請，不得逕行裁定。\n❌ (D) 人身自由得依法定程序予以限制，非任何情況皆不受干預。\n📚 出處：中華民國憲法第 8 條；刑事訴訟法第 128 條"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "殺人罪屬於重罪，檢察官為避免店長有逃亡串供之虞，可逕行裁定羈押",
     "偵查期間，警察可持法官開立之搜索票進入嫌疑犯住家搜索"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 搜索原則上應由法官核發搜索票，司法警察持票執行，敘述正確。\n❌ (A) 被告有緘默權，但錄影係為保障程序正當而應為之，且夜間訊問設有例外規定。\n❌ (B) 偵查以「不公開」為原則。\n❌ (C) 羈押須由法院裁定，檢察官僅得向法院聲請。\n📚 出處：刑事訴訟法第 93 條、第 95 條、第 128 條、第 245 條"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "地方法院犯罪被害人補償審議委員會",
     "地方法院檢察署犯罪被害人補償審議委員會"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 犯罪被害補償金的申請，應向犯罪地或申請人住所地的地方檢察署犯罪被害人補償審議委員會提出。\n❌ (A) 司法院未設此一補償小組。\n❌ (B) 法律扶助基金會提供訴訟扶助，非補償金核發機關。\n❌ (C) 審議委員會設於檢察署而非法院。\n📚 出處：犯罪被害人保護法第 14 條、第 15 條"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "任何民事案件刑事案件都可申請和解",
     "和解迅速簡便其效力大於調解與仲裁"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 訴訟上的和解成立後，與確定判決有同一效力，得為執行名義。\n❌ (A) 訴訟外和解僅生契約效力，不具執行力。\n❌ (C) 刑事案件中的公訴罪不得以和解終結訴訟。\n❌ (D) 和解的效力不當然大於調解或仲裁；仲裁判斷亦有確定判決同一效力。\n📚 出處：民法第 736 條至第 738 條；民事訴訟法第 380 條"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "民事訴訟、行政訴訟",
     "復查、訴願、行政訴訟"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 對核定稅捐處分不服，應先申請復查，不服復查決定提起訴願，再不服則提起行政訴訟。\n❌ (A) 請願非對行政處分的法定救濟途徑。\n❌ (B) 稅捐爭議屬公法爭議，不循民事訴訟。\n❌ (C) 未經復查、訴願不得逕行提起行政訴訟。\n📚 出處：稅捐稽徵法第 35 條、第 38 條；訴願法第 1 條"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "向司法院大法官會議聲請釋憲",
     "向學校學生申訴評議委員會提出申訴"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 學生對學校的處分不服，應先向學校學生申訴評議委員會提出申訴，用盡校內救濟途徑。\n❌ (A) 未經申訴（與再申訴）不得逕提訴願。\n❌ (B) 行政訴訟為最後手段，須先經前置程序。\n❌ (C) 釋憲須以確定終局裁判為前提。\n📚 出處：高級中等教育法第 54 條；學生申訴相關辦法"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "劣等財",
     "共有財"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 草原可自由進入（無排他性）但放牧會相互排擠（具敵對性），屬共有（共用）財，易生共有地悲劇。\n❌ (A) 公共財兼具非排他與非敵對性。\n❌ (B) 私有財可排他，不會產生過度使用。\n❌ (C) 劣等財是依所得效果分類的概念。\n📚 出處：公民（財貨的分類與共有地悲劇）"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "②③",
     "③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) GDP 採屬地主義，計入「在本國境內」的生產，即②外勞在臺所得與③本國勞工在臺所得。\n❌ (A) ①本國勞工在美國的所得計入 GNI 而非我國 GDP。\n❌ (B) ①④均屬境外生產。\n❌ (D) ④本國廠商在美國的利潤不計入我國 GDP。\n📚 出處：公民（GDP 與 GNP 的差異）"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "供給價格",
     "生產者剩餘"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 實際收到的價款超過願意接受的最低價格之差額，即生產者剩餘。\n❌ (A) 生產成本是投入要素的支出。\n❌ (B) 供給法則描述價格與供給量的正向關係。\n❌ (C) 供給價格是廠商願意供給的最低價格本身。\n📚 出處：經濟學（消費者剩餘與生產者剩餘）"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "社會資本、人力資本",
     "人造資本、自然資本"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 支持開發者重視道路等人造（實體）資本，反對者重視紅樹林等自然資本。\n❌ (A) 人力資本指勞動者的知識技能。\n❌ (B) 社會資本指人際網絡與信任。\n❌ (C) 兩項要素均與本題爭點不符。\n📚 出處：公民（經濟發展的資本類型）"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "3 萬 4 千元",
     "3 萬元"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 跳槽所放棄的是原工作的淨利益：薪資 40,000 減去因跳槽而省下的交通費 5,000 與生活費差額 1,000，機會成本為 34,000 元。\n❌ (A) 42,000 高於原有薪資，不合理。\n❌ (B) 40,000 未扣除因換工作而節省的支出。\n❌ (D) 30,000 低估了所放棄的利益。\n📚 出處：經濟學（機會成本的計算）"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "提供完整資訊",
     "直接進行管制"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 強制標示警語是針對「資訊不對稱」造成的市場失靈，由政府要求提供完整資訊。\n❌ (A) 界定財產權用於處理外部性（寇斯定理）。\n❌ (B) 香菸並非公共財。\n❌ (D) 政府並未禁止販售或抽菸，非直接管制。\n📚 出處：公民（市場失靈與政府對策）"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "要素市場的供給",
     "要素市場的需求"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 家庭購買桶裝瓦斯供自家使用，屬商品（產品）市場中的需求方。\n❌ (A) 供給方為瓦斯業者。\n❌ (C) 要素市場的供給者是提供勞動、土地、資本的家庭。\n❌ (D) 要素市場的需求者是廠商。\n📚 出處：經濟學（經濟循環圖與市場角色）"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "在公開市場賣出債券",
     "調降重貼率"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 紅燈代表景氣過熱，央行應採緊縮性貨幣政策，公開市場賣出債券以收回資金。\n❌ (A) 提高政府支出屬擴張性財政政策，且非央行職權。\n❌ (B) 稅率調整屬財政政策。\n❌ (D) 調降重貼現率屬寬鬆政策，方向相反。\n📚 出處：公民（景氣對策信號與貨幣政策）"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "15",
     "20"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 邊際效用遞減，第 5 杯的邊際效用應低於第 3 杯的 15，故 10 最合理。\n❌ (A) 25 高於第 3 杯，違反遞減法則。\n❌ (C) 15 與第 3 杯相同，不符遞減。\n❌ (D) 20 同樣高於第 3 杯。\n📚 出處：經濟學（邊際效用遞減法則）"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "disease",
     "destruction"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) SARS 是一種致命的「疾病」（disease），符合語意。\n❌ (A) decay 意為腐敗、衰退。\n❌ (B) disaster 指災難事件，與病名的同位語不合。\n❌ (D) destruction 意為破壞。\n📚 出處：英文字彙（disease／disaster 的辨義）"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "depicted",
     "inquired"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) inspire 意為激發、給予靈感，微風與明月「啟發」詩人寫詩。\n❌ (A) despise 意為鄙視。\n❌ (C) depict 意為描繪。\n❌ (D) inquire 意為詢問、查詢。\n📚 出處：英文字彙（inspire 的用法）"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "famous",
     "frank"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 為第一夫人設計禮服後成為「著名的」（famous）設計師，語意通順。\n❌ (A) false 意為虛假的。\n❌ (B) funny 意為有趣、好笑的。\n❌ (D) frank 意為坦率的。\n📚 出處：英文字彙（形容詞辨義）"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "universe",
     "waterfall"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全球暖化使世界不斷刷新高「溫」紀錄，temperature 最合語意。\n❌ (A) environment 意為環境。\n❌ (C) universe 意為宇宙。\n❌ (D) waterfall 意為瀑布。\n📚 出處：英文字彙（搭配語 high temperature marks）"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "approached",
     "appreciated第 41 題至第 45 題，請依文意，從四個選項中選出最合適者Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) appreciate 意為感謝、感激，學生以卡片表達對老師辛勞的感謝。\n❌ (A) assume 意為假定、承擔。\n❌ (B) account 常與 for 連用，意為說明、占比。\n❌ (C) approach 意為接近、著手處理。\n📚 出處：英文字彙（appreciate 的用法）"
   },
   {
    "n": 41,
@@ -622,7 +662,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "At the end of World War II."
    ],
    "psg": "In general, the influence of Anglo patrons has been much less pronounced on Hispanic arts than on American Indian arts. The art forms practiced by the early Hispanics were shaped largely from resources they found in their natural environment. Using native woods such as aspen or pine, paints derived from natural pigments, and other local materials, they created utilitarian goods and religious objects to adorn their homes and churches. The Hispanic crafts revival was confined to a much shorter period of time: beginning in the early 1920’s, reaching its peak in the late 1930’s, and dying down by World War II, less than 20 years. During this period, in spite of the enthusiasm of the wealthy Anglo patrons in northern New Mexico, Hispanic crafts never “caught on” nationally in the way American Indian crafts did. Interest was fairly well limited to the Southwest and Southern California, the areas in which the Adobe hacienda revival was taking place. The major interest in Hispanic crafts was as furnishing for these comfortable Southwestern-style adobe homes. These crafts were not, as were American Indian crafts, viewed as valuable art objects in themselves purchased with an eye for speculation. Hispanic arts to a great degree have been ignored by the speculative Anglo art market. A beneficial consequence of this oversight is that the artisans have been freer to work according to their own standards and within their own traditions. Ranging from carved images of saints, furniture and textiles, to works in tin, iron, silver and straw, the art of the Spanish colonial era remains the art of many families who have practiced the traditional techniques for generations. Meanwhile, other contemporary Hispanic artists have carried the artistic legacy of their ancestors to new levels of excellence by working in more modern media including sculpture, photography, painting, jewelry, literature and more that reflect the ongoing evolution of Hispanic arts and culture. Though modern and contemporary, their work has not been “emptied of previous vital meanings” and become a meaningless revival, as has so much ethnic art of this day. Rather it has remained as an object of cultural pride and identity and not simply the product of the tastes and demands of art market.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文中明言西語裔工藝復興「reaching its peak in the late 1930's」，故最盛期為 1930 年代後期。\n❌ (A) 1920 年代初期僅是復興的開端。\n❌ (C) 文中指其於二戰時已式微（dying down by World War II）。\n❌ (D) 二戰結束時該熱潮早已消退。\n📚 出處：閱讀測驗（文中時間線索的定位）"
   },
   {
    "n": 47,
@@ -636,7 +677,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "It was impossible to understand the crafts."
    ],
    "psg": "In general, the influence of Anglo patrons has been much less pronounced on Hispanic arts than on American Indian arts. The art forms practiced by the early Hispanics were shaped largely from resources they found in their natural environment. Using native woods such as aspen or pine, paints derived from natural pigments, and other local materials, they created utilitarian goods and religious objects to adorn their homes and churches. The Hispanic crafts revival was confined to a much shorter period of time: beginning in the early 1920’s, reaching its peak in the late 1930’s, and dying down by World War II, less than 20 years. During this period, in spite of the enthusiasm of the wealthy Anglo patrons in northern New Mexico, Hispanic crafts never “caught on” nationally in the way American Indian crafts did. Interest was fairly well limited to the Southwest and Southern California, the areas in which the Adobe hacienda revival was taking place. The major interest in Hispanic crafts was as furnishing for these comfortable Southwestern-style adobe homes. These crafts were not, as were American Indian crafts, viewed as valuable art objects in themselves purchased with an eye for speculation. Hispanic arts to a great degree have been ignored by the speculative Anglo art market. A beneficial consequence of this oversight is that the artisans have been freer to work according to their own standards and within their own traditions. Ranging from carved images of saints, furniture and textiles, to works in tin, iron, silver and straw, the art of the Spanish colonial era remains the art of many families who have practiced the traditional techniques for generations. Meanwhile, other contemporary Hispanic artists have carried the artistic legacy of their ancestors to new levels of excellence by working in more modern media including sculpture, photography, painting, jewelry, literature and more that reflect the ongoing evolution of Hispanic arts and culture. Though modern and contemporary, their work has not been “emptied of previous vital meanings” and become a meaningless revival, as has so much ethnic art of this day. Rather it has remained as an object of cultural pride and identity and not simply the product of the tastes and demands of art market.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) catch on 為片語，意指「流行起來、受到歡迎」；never caught on 即未能蔚為風潮。\n❌ (A) 與字面「掛在牆上」無關，屬望文生義。\n❌ (C) 亦非指黏合或拼接。\n❌ (D) 與是否易於理解無關。\n📚 出處：英文片語（catch on＝become popular）"
   },
   {
    "n": 48,
@@ -650,7 +692,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "The revival."
    ],
    "psg": "In general, the influence of Anglo patrons has been much less pronounced on Hispanic arts than on American Indian arts. The art forms practiced by the early Hispanics were shaped largely from resources they found in their natural environment. Using native woods such as aspen or pine, paints derived from natural pigments, and other local materials, they created utilitarian goods and religious objects to adorn their homes and churches. The Hispanic crafts revival was confined to a much shorter period of time: beginning in the early 1920’s, reaching its peak in the late 1930’s, and dying down by World War II, less than 20 years. During this period, in spite of the enthusiasm of the wealthy Anglo patrons in northern New Mexico, Hispanic crafts never “caught on” nationally in the way American Indian crafts did. Interest was fairly well limited to the Southwest and Southern California, the areas in which the Adobe hacienda revival was taking place. The major interest in Hispanic crafts was as furnishing for these comfortable Southwestern-style adobe homes. These crafts were not, as were American Indian crafts, viewed as valuable art objects in themselves purchased with an eye for speculation. Hispanic arts to a great degree have been ignored by the speculative Anglo art market. A beneficial consequence of this oversight is that the artisans have been freer to work according to their own standards and within their own traditions. Ranging from carved images of saints, furniture and textiles, to works in tin, iron, silver and straw, the art of the Spanish colonial era remains the art of many families who have practiced the traditional techniques for generations. Meanwhile, other contemporary Hispanic artists have carried the artistic legacy of their ancestors to new levels of excellence by working in more modern media including sculpture, photography, painting, jewelry, literature and more that reflect the ongoing evolution of Hispanic arts and culture. Though modern and contemporary, their work has not been “emptied of previous vital meanings” and become a meaningless revival, as has so much ethnic art of this day. Rather it has remained as an object of cultural pride and identity and not simply the product of the tastes and demands of art market.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 該句承接前文 their work has not been ... ，Rather it has remained ... 中的 it 即指當代西語裔藝術家的「作品（their work）」。\n❌ (A) 全文並未提及黏土（clay）。\n❌ (B) ethnic art 是被用來對比的對象，非 it 所指。\n❌ (D) revival 出現於 meaningless revival，非該代名詞的先行詞。\n📚 出處：閱讀測驗（代名詞指涉的判斷）"
   },
   {
    "n": 49,
@@ -664,7 +707,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "Northern New Mexico."
    ],
    "psg": "In general, the influence of Anglo patrons has been much less pronounced on Hispanic arts than on American Indian arts. The art forms practiced by the early Hispanics were shaped largely from resources they found in their natural environment. Using native woods such as aspen or pine, paints derived from natural pigments, and other local materials, they created utilitarian goods and religious objects to adorn their homes and churches. The Hispanic crafts revival was confined to a much shorter period of time: beginning in the early 1920’s, reaching its peak in the late 1930’s, and dying down by World War II, less than 20 years. During this period, in spite of the enthusiasm of the wealthy Anglo patrons in northern New Mexico, Hispanic crafts never “caught on” nationally in the way American Indian crafts did. Interest was fairly well limited to the Southwest and Southern California, the areas in which the Adobe hacienda revival was taking place. The major interest in Hispanic crafts was as furnishing for these comfortable Southwestern-style adobe homes. These crafts were not, as were American Indian crafts, viewed as valuable art objects in themselves purchased with an eye for speculation. Hispanic arts to a great degree have been ignored by the speculative Anglo art market. A beneficial consequence of this oversight is that the artisans have been freer to work according to their own standards and within their own traditions. Ranging from carved images of saints, furniture and textiles, to works in tin, iron, silver and straw, the art of the Spanish colonial era remains the art of many families who have practiced the traditional techniques for generations. Meanwhile, other contemporary Hispanic artists have carried the artistic legacy of their ancestors to new levels of excellence by working in more modern media including sculpture, photography, painting, jewelry, literature and more that reflect the ongoing evolution of Hispanic arts and culture. Though modern and contemporary, their work has not been “emptied of previous vital meanings” and become a meaningless revival, as has so much ethnic art of this day. Rather it has remained as an object of cultural pride and identity and not simply the product of the tastes and demands of art market.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文中提及興趣侷限於 the Southwest、Southern California 與 northern New Mexico，未提及 New England。\n❌ (B) 西南部為文中明列的地區。\n❌ (C) 南加州為文中明列的地區。\n❌ (D) 新墨西哥州北部為文中明列的地區。\n📚 出處：閱讀測驗（細節查找與排除）"
   },
   {
    "n": 50,
@@ -678,7 +722,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "American Indian influence on Hispanic crafts."
    ],
    "psg": "In general, the influence of Anglo patrons has been much less pronounced on Hispanic arts than on American Indian arts. The art forms practiced by the early Hispanics were shaped largely from resources they found in their natural environment. Using native woods such as aspen or pine, paints derived from natural pigments, and other local materials, they created utilitarian goods and religious objects to adorn their homes and churches. The Hispanic crafts revival was confined to a much shorter period of time: beginning in the early 1920’s, reaching its peak in the late 1930’s, and dying down by World War II, less than 20 years. During this period, in spite of the enthusiasm of the wealthy Anglo patrons in northern New Mexico, Hispanic crafts never “caught on” nationally in the way American Indian crafts did. Interest was fairly well limited to the Southwest and Southern California, the areas in which the Adobe hacienda revival was taking place. The major interest in Hispanic crafts was as furnishing for these comfortable Southwestern-style adobe homes. These crafts were not, as were American Indian crafts, viewed as valuable art objects in themselves purchased with an eye for speculation. Hispanic arts to a great degree have been ignored by the speculative Anglo art market. A beneficial consequence of this oversight is that the artisans have been freer to work according to their own standards and within their own traditions. Ranging from carved images of saints, furniture and textiles, to works in tin, iron, silver and straw, the art of the Spanish colonial era remains the art of many families who have practiced the traditional techniques for generations. Meanwhile, other contemporary Hispanic artists have carried the artistic legacy of their ancestors to new levels of excellence by working in more modern media including sculpture, photography, painting, jewelry, literature and more that reflect the ongoing evolution of Hispanic arts and culture. Though modern and contemporary, their work has not been “emptied of previous vital meanings” and become a meaningless revival, as has so much ethnic art of this day. Rather it has remained as an object of cultural pride and identity and not simply the product of the tastes and demands of art market.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全文由早期西語裔工藝談到當代藝術家運用現代媒材延續傳統，主旨在西語裔藝術的演變。\n❌ (B) 文章反而指出其未被投機性藝術市場左右，非談行銷策略。\n❌ (C) 文中談的是英裔贊助者對西語裔藝術的影響，方向相反。\n❌ (D) 美洲原住民藝術僅作為對比，非影響來源。\n📚 出處：閱讀測驗（主旨題）"
   }
  ]
 };
