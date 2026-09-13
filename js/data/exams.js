@@ -40591,7 +40591,7 @@ window.APP_EXAMS = [
   "subjName": "運輸學大意",
   "label": "107 年　初等考試　運輸學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
