@@ -38575,7 +38575,7 @@ window.APP_EXAMS = [
   "subjName": "教育學大意",
   "label": "112 年　初等考試　教育學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
