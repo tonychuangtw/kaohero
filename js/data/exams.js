@@ -42509,7 +42509,7 @@ window.APP_EXAMS = [
   "subjName": "財政學大意",
   "label": "102 年　初等考試　財政學大意",
   "n": 50,
-  "exp": 0,
+  "exp": 48,
   "mins": 60
  },
  {
