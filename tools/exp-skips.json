@@ -1000,6 +1000,33 @@
    "at": "2026-09-14"
   }
  ],
+ "pol-115-1-c013": [
+  {
+   "n": 41,
+   "reason": "題幹未隨轉檔保留，圖檔只有 ravaged／ransomed／rummaged／salvaged 四個選項，沒有句子上下文，無法判斷語境。",
+   "at": "2026-09-14"
+  },
+  {
+   "n": 42,
+   "reason": "題幹未隨轉檔保留，圖檔只有 core／own／height／disposal 四個選項，沒有句子上下文，無法判斷搭配用法。",
+   "at": "2026-09-14"
+  },
+  {
+   "n": 43,
+   "reason": "題幹未隨轉檔保留，圖檔只有 felicitous／devastating／gratifying／decrepit 四個選項，沒有句子上下文，無法判斷語意方向。",
+   "at": "2026-09-14"
+  },
+  {
+   "n": 44,
+   "reason": "題幹未隨轉檔保留，圖檔只有 combustibles／hollows／emigrants／habitats 四個選項，沒有句子上下文，無法判斷指涉對象。",
+   "at": "2026-09-14"
+  },
+  {
+   "n": 45,
+   "reason": "題幹未隨轉檔保留，圖檔只有 preys／predators／prayers／preachers 四個選項，沒有句子上下文，無法判斷語境。",
+   "at": "2026-09-14"
+  }
+ ],
  "pol-115-1-c015": [
   {
    "n": 41,
