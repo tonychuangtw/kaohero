@@ -1,0 +1,13 @@
+# 詳解批次 worker（kaohero）。安裝：cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload
+# 啟動：systemctl --user start exp-worker   停：touch ~/.claude/exp-worker.stop（做完手上這卷）或 systemctl --user stop exp-worker
+# 換範圍：systemctl --user set-environment EXP_MATCH='^pol-' 再 restart，或直接改這裡的 Environment
+[Unit]
+Description=kaohero exp worker (one fresh claude -p session per exam paper)
+After=network-online.target
+
+[Service]
+Type=simple
+Environment=EXP_MATCH=^chu-10[2-5]-
+Environment=EXP_MODEL=claude-opus-5
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-worker.sh
+Restart=no
