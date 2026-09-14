@@ -1,11 +1,12 @@
 STATUS: in-progress
-OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試皆已完成）；目前＝把下一科「警察特考」轉檔進站，轉完再交給 exp-worker 寫詳解
-NEXT_ACTION: 警察特考（`pol-*`）轉檔中，工作目錄 `~/exam-pdfs/pol`。流程與初等相同：`codes.json`（已建，102～115 共 14 次，取每年的主考試代碼）→ `inv-full.py`（已跑完，rows-102…115.json）→ **`python3 tools/moex-sweep.py ~/exam-pdfs/pol S`（進行中，2,791 份卷探標準答案）** → 同檔 `Q --has-answer` 抓試題 → `python3 tools/gen_civil.py pol` → `docrop.py` 裁圖 → `python3 tools/civil-index-merge.py ~/exam-pdfs/pol/pol-index.json` → 搬 out/*.js 進 `js/data/exam/`、outimg/*.webp 進 `img/q/` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --write` → commit+push。轉檔完成後改 `tools/exp-worker.service` 的 `EXP_MATCH` 為 `^pol-` 並 `systemctl --user daemon-reload && restart`，詳解交給 worker 逐卷跑。
-　⛔ 本線不自己逐卷寫詳解（Tony 09-14 定案，原因：全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%）。本線只做：（1）回 Tony；（2）查 worker 狀態 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方自動區塊；（3）worker 停下來時查原因、修工具、重啟；（4）轉檔加新科目。
-VALIDATION: `node test/test.js` 全綠；`node tools/build-index.js --write` 後首頁數字會更新
+OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試皆已完成）；目前＝警察特考 596 卷 19,410 題的詳解，由 exp-worker 逐卷跑
+NEXT_ACTION: 本線不做事，等 worker 跑完警察特考（`^pol-`，2026-09-15 05:42 台北開跑）。本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（警察特考 → **導遊領隊** → 其他醫事類：醫檢師、物理治療師、營養師、職能治療師），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
+　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`。
+　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
+VALIDATION: `node test/test.js` 全綠（48,832 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
-PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/set-exp.js、tools/build-index.js、test/test.js、~/exam-pdfs/pol
-UPDATED: 2026-09-15 05:10 台北
+PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol
+UPDATED: 2026-09-15 05:45 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^chu-10[2-5]-）。最後一卷：chu-102-1-e001 102 年　初等考試　國文（一般行政組），寫 50 題、跳過 0 題，09/14 23:35 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
@@ -73,7 +74,7 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
 
-## 新增科目：警察特考（2026-09-15 起轉檔）
+## 新增科目：警察特考（2026-09-15 轉檔完成，詳解由 worker 進行中）
 
 - 考選部把警察人員、一般警察人員、交通事業鐵路人員、退除役軍人轉任、國家安全情報人員、移民行政人員
   **綁在同一個考試代碼底下**（例：115060）。本站只收前兩種（警察人員＝警大警專畢業生的內軌、
@@ -84,11 +85,38 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 - `papers_of()` 多一層保險：同一份卷掛在好幾個類科底下，平臺列出來的第一個若是被 `require` 擋掉的
   （例：國文同時掛在鐵路高員三級與警察三等，鐵路排前面），改挑第一個判得出等別的類科，
   否則整卷會被誤判成「無法判斷等別」丟掉。下載用的 `c` 不變。
-- 等別：二等（a）／三等（b）／四等（c）。102～115 年每年一次，去重後 2,791 份卷要探。
-  三等多為申論卷（沒有標準答案 PDF，會自動被篩掉），四等全測驗題。
+- 等別：二等（a）／三等（b）／四等（c）。102～115 年每年一次，去重後 2,791 份卷探標準答案，
+  其中 1,057 份是選擇題卷；三等多為申論卷（沒有標準答案 PDF，自動被篩掉）。
+- **結果：成卷 596、19,410 題、49 個科目、34 個類科，裁圖 837 張全部成功。**
+  跳過 461 卷：459 卷是被 require 擋掉的鐵路／退除役／國安／移民行政（本來就不收），
+  真正失敗只有 2 卷 —— 107 年英文（50 題中 21 題選項混到別的選項代號）、
+  107 年普通物理學概要與普通化學概要（題數 31≠答案 40）。
 - `tools/index-spec.json` 的 civil 分類已手動加一筆 `pol` 考試項目（civil-index-merge 只更新既有 id，
-  不會自己新增）。分群表 `tools/gao-groups.json` 還沒有警察類科，第一次 merge 會全部落到「其他類科」，
-  看過實際類科名再補。
+  不會自己新增）。`tools/gao-groups.json` 已補 5 個警察類群：警察行政與管理、刑事與犯罪防治、
+  交通與警察資訊、消防與水上警察、外事與國境警察。
+- `track_name()` 改成整串移除「類別」兩字：警察特考把分組類科寫成「交通警察人員類別交通組」，
+  只去尾巴的話同一個類科會裂成兩個節點。
+- 工作目錄 `~/exam-pdfs/pol`（codes.json、rows-*.json、pdf/、out/、outimg/ 都留著，要重跑不用重抓）。
+- **轉檔完整指令（下一科導遊領隊照抄，把 pol 換成新代號）**：
+  ```
+  mkdir -p ~/exam-pdfs/<代號>/{pdf,out,outimg}
+  # codes.json：用 moexlib.year_codes(西元年) 掃 102~115，挑該考試的主代碼
+  cp ~/exam-pdfs/pol/{inv-full.py,docrop.py} ~/exam-pdfs/<代號>/
+  cd ~/exam-pdfs/<代號> && python3 inv-full.py
+  python3 ~/TelegramClaude/kaoguhero/tools/moex-sweep.py ~/exam-pdfs/<代號> S              # 探標準答案，慢，背景跑
+  python3 ~/TelegramClaude/kaoguhero/tools/moex-sweep.py ~/exam-pdfs/<代號> Q --has-answer # 抓試題
+  python3 ~/TelegramClaude/kaoguhero/tools/moex-sweep.py ~/exam-pdfs/<代號> M --has-answer # 抓更正答案
+  # gen_civil.py 先加該考試的 SPEC（等別、lvlkey、prefix、必要時 require／tmark）
+  python3 ~/TelegramClaude/kaoguhero/tools/gen_civil.py <代號> --limit 25   # 先試跑抽驗
+  python3 ~/TelegramClaude/kaoguhero/tools/gen_civil.py <代號>
+  python3 docrop.py
+  # index-spec.json 的分類底下先手動加一筆該考試項目（live:false、stages:[]）
+  cd ~/TelegramClaude/kaoguhero
+  python3 tools/civil-index-merge.py ~/exam-pdfs/<代號>/<代號>-index.json
+  cp ~/exam-pdfs/<代號>/out/*.js js/data/exam/ && cp ~/exam-pdfs/<代號>/outimg/*.webp img/q/
+  node tools/build-index.js --write && node test/test.js && node tools/build-pages.js --write
+  git add -A && git commit && git push
+  ```
 
 ## 新增科目：初等考試（2026-09-13 完成轉檔，詳解待寫）
 
