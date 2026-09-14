@@ -1,11 +1,11 @@
 STATUS: in-progress
-OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等 106～115 已完成；目前＝初等 102～105 年，由 exp-worker 批次跑）
-NEXT_ACTION: **2026-09-14 起逐卷詳解改由批次 worker 執行，本線不再自己讀題寫詳解。** worker＝`tools/exp-worker.sh`（systemd `exp-worker.service`），每一卷開一個全新的 `claude -p` session、只帶那一卷（Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%）。本線現在只做三件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟。⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。範圍換科目（警察特考 → 導遊領隊 → 其他醫事類）＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `systemctl --user daemon-reload && restart`。
-　worker 做完初等 102～105 年會自己在本線頻道回報；之前 106～115 年刻意跳過的題（見下）不在 worker 範圍，不會被重做。
-VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無（09-14 09:25 喚醒檢查：exp-worker 健康、無 failed 卷；新 pipeline 首卷 chu-105-1-e030 09:23 已完整落地並 push —— 寫 5 跳 22、commit 訊息逐題寫明跳過理由、test 全綠，單卷 context in=94k（改制前每步 535k）、$0.60／111 秒。範圍 ^chu-10[2-5]- 剩 118 卷 5,682 題，worker 繼續跑）
-PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-14 09:27 台北
+OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試皆已完成）；目前＝把下一科「警察特考」轉檔進站，轉完再交給 exp-worker 寫詳解
+NEXT_ACTION: 警察特考（`pol-*`）轉檔中，工作目錄 `~/exam-pdfs/pol`。流程與初等相同：`codes.json`（已建，102～115 共 14 次，取每年的主考試代碼）→ `inv-full.py`（已跑完，rows-102…115.json）→ **`python3 tools/moex-sweep.py ~/exam-pdfs/pol S`（進行中，2,791 份卷探標準答案）** → 同檔 `Q --has-answer` 抓試題 → `python3 tools/gen_civil.py pol` → `docrop.py` 裁圖 → `python3 tools/civil-index-merge.py ~/exam-pdfs/pol/pol-index.json` → 搬 out/*.js 進 `js/data/exam/`、outimg/*.webp 進 `img/q/` → `node tools/build-index.js --write` → `node test/test.js` → `node tools/build-pages.js --write` → commit+push。轉檔完成後改 `tools/exp-worker.service` 的 `EXP_MATCH` 為 `^pol-` 並 `systemctl --user daemon-reload && restart`，詳解交給 worker 逐卷跑。
+　⛔ 本線不自己逐卷寫詳解（Tony 09-14 定案，原因：全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%）。本線只做：（1）回 Tony；（2）查 worker 狀態 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方自動區塊；（3）worker 停下來時查原因、修工具、重啟；（4）轉檔加新科目。
+VALIDATION: `node test/test.js` 全綠；`node tools/build-index.js --write` 後首頁數字會更新
+BLOCKERS: 無
+PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/set-exp.js、tools/build-index.js、test/test.js、~/exam-pdfs/pol
+UPDATED: 2026-09-15 05:10 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^chu-10[2-5]-）。最後一卷：chu-102-1-e001 102 年　初等考試　國文（一般行政組），寫 50 題、跳過 0 題，09/14 23:35 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
@@ -72,6 +72,23 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 - **影響**：這些題目前沒有詳解，所以沒有寫出錯誤的解析；但站上仍會把存的答案標成「正解」，會誤導人。
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
+
+## 新增科目：警察特考（2026-09-15 起轉檔）
+
+- 考選部把警察人員、一般警察人員、交通事業鐵路人員、退除役軍人轉任、國家安全情報人員、移民行政人員
+  **綁在同一個考試代碼底下**（例：115060）。本站只收前兩種（警察人員＝警大警專畢業生的內軌、
+  一般警察人員＝一般生的外軌），其餘四種是不同考試，日後要收再另開科目。
+- 擋法：`tools/gen_civil.py` 的 SPEC 新增 `require: ('警察',)`，類科名前綴不含「警察」就不收。
+- 兩軌有同名類科（都有「行政警察人員」），靠 SPEC 的 `tmark` 在類科名前加「一般警察・」／「警察人員・」
+  區分，否則分類樹會把兩者併成同一個節點。`civil-index-merge.py` 查分群時會把「・」前綴切掉。
+- `papers_of()` 多一層保險：同一份卷掛在好幾個類科底下，平臺列出來的第一個若是被 `require` 擋掉的
+  （例：國文同時掛在鐵路高員三級與警察三等，鐵路排前面），改挑第一個判得出等別的類科，
+  否則整卷會被誤判成「無法判斷等別」丟掉。下載用的 `c` 不變。
+- 等別：二等（a）／三等（b）／四等（c）。102～115 年每年一次，去重後 2,791 份卷要探。
+  三等多為申論卷（沒有標準答案 PDF，會自動被篩掉），四等全測驗題。
+- `tools/index-spec.json` 的 civil 分類已手動加一筆 `pol` 考試項目（civil-index-merge 只更新既有 id，
+  不會自己新增）。分群表 `tools/gao-groups.json` 還沒有警察類科，第一次 merge 會全部落到「其他類科」，
+  看過實際類科名再補。
 
 ## 新增科目：初等考試（2026-09-13 完成轉檔，詳解待寫）
 

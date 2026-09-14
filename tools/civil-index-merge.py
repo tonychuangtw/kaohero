@@ -39,7 +39,8 @@ def main():
         for tn, keys in trs.items():
             keys = [k for k in keys if k in src['subjects']]
             if not keys: continue
-            by.setdefault(where.get(tn.replace('離島・', ''), '其他類科'), []).append(
+            # 類科名可能帶「離島・」「一般警察・」這類前綴，分群表裡存的是前綴後面那個名字
+            by.setdefault(where.get(tn.rsplit('・', 1)[-1], '其他類科'), []).append(
                 {'id': '%s%d-%s' % (exam_id, lvl, re.sub(r'\s+', '', tn)),
                  'name': tn, 'subjects': sorted(keys)})
         order = list(groups) + ['其他類科']
@@ -57,7 +58,7 @@ def main():
     print('%s：科目 %d、等別 %d；類科 %d' % (exam_id,
         len(src['subjects']), len(stages),
         sum(len(t['tracks']) for s in stages for t in s.get('groups', []))))
-    miss = sorted({tn.replace('離島・', '') for lvl in src['tracks']
+    miss = sorted({tn.rsplit("・", 1)[-1] for lvl in src["tracks"]
                    for tn in src['tracks'][lvl]} - set(where))
     if miss: print('⚠ 沒分群（會落到「其他類科」）：', '、'.join(miss))
 

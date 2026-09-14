@@ -34,6 +34,17 @@ SPECS = {
             'levels': [(1, '初等考試', ('初等',))],
             'lvlkey': {1: 'e'},
             'note': {1: '不限學歷，各類科皆為四科測驗題'}},
+    # 警察特考：同一個考試代碼底下綁了警察人員、一般警察人員、鐵路人員、退除役、國安情報、移民行政
+    # 六種考試，只收前兩種（警察人員＝警大警專畢業生的內軌，一般警察人員＝一般生的外軌）。
+    # require 就是拿來把其餘四種擋在門外的；兩軌同名類科（行政警察人員）靠 tmark 加前綴分開。
+    'pol': {'cat': 'civil', 'exam': 'pol', 'prefix': 'pol',
+            'levels': [(1, '二等考試', ('二等',)), (2, '三等考試', ('三等',)), (3, '四等考試', ('四等',))],
+            'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
+            'require': ('警察',),
+            'tmark': [('一般警察', '一般警察・'), ('', '警察人員・')],
+            'note': {1: '碩士（含）以上程度，名額極少',
+                     2: '大學（含）以上程度',
+                     3: '高中職（含）以上程度，全測驗題'}},
     'local': {'cat': 'civil', 'exam': 'local', 'prefix': 'loc',
               'levels': [(1, '三等', ('三等',)), (2, '四等', ('四等',)), (3, '五等', ('五等',))],
               'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
@@ -44,18 +55,28 @@ REG = os.path.join(HERE, 'gao-subjects.json')
 
 
 def lvl_of(cn):
-    """從類科名稱前綴判斷等別；判不出來回 None（那一列就跳過）。"""
+    """從類科名稱前綴判斷等別；判不出來回 None（那一列就跳過）。
+       SPEC['require'] 有值時，前綴不含其中任一關鍵字的類科一律不收
+       （警察特考的考試代碼綁了鐵路、退除役、國安、移民行政，用這個擋掉）。"""
     head = (cn or '').split('_')[0]
+    req = SPEC.get('require')
+    if req and not any(k in head for k in req): return None
     for no, _name, keys in SPEC['levels']:
         if any(k in head for k in keys): return no
     return None
 
 
 def track_name(cn, lvl):
+    head = (cn or '').split('_')[0]
     tn = cn.split('_', 1)[1] if '_' in cn else cn
     tn = re.sub(r'[（(]選試[^）)]*[）)]', '', tn).strip()
     tn = re.sub(r'類科$', '', tn)     # 地方特考寫「一般行政類科」，高普考寫「一般行政」，統一
-    if '離島' in (cn or '').split('_')[0]: tn = '離島・' + tn
+    tn = re.sub(r'類別$', '', tn)     # 警察特考寫「行政警察人員類別」
+    if '離島' in head: tn = '離島・' + tn
+    # 同一次考試裡兩種不同考試共用類科名（警察人員／一般警察人員都有「行政警察人員」）時，
+    # 依類科名前綴加註，否則分類樹上會被併成同一個節點
+    for kw, mark in SPEC.get('tmark', ()):
+        if not kw or kw in head: return mark + tn
     return tn
 
 
@@ -130,7 +151,14 @@ def papers_of(work):
             e = seen.setdefault(s, {'c': c, 'cn': cn, 'sn': sn, 'tracks': []})
             if cn and cn not in e['tracks']: e['tracks'].append(cn)
         for s, e in seen.items():
-            out.append((roc, d['code'], e['c'], e['cn'], s, e['sn'], e['tracks']))
+            cn = e['cn']
+            # SPEC['require'] 會把同一次考試裡別種考試的類科擋掉，而平臺列出來的第一個類科
+            # 剛好是被擋掉那種的話（例：國文一卷同時掛在鐵路高員三級與警察三等底下，鐵路排前面），
+            # 整份卷會被誤判成「無法判斷等別」而丟掉。所以改挑第一個判得出等別的類科。
+            # 下載用的 c 不變（moex-sweep 的檔名也是取第一個類科），只換判等別用的名字。
+            if SPEC.get('require') and not lvl_of(cn):
+                cn = next((t for t in e['tracks'] if lvl_of(t)), cn)
+            out.append((roc, d['code'], e['c'], cn, s, e['sn'], e['tracks']))
     return out
 
 
