@@ -42621,7 +42621,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "102 年　初等考試　土地法大意",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
