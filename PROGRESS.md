@@ -3,9 +3,9 @@ OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師
 NEXT_ACTION: **2026-09-14 起逐卷詳解改由批次 worker 執行，本線不再自己讀題寫詳解。** worker＝`tools/exp-worker.sh`（systemd `exp-worker.service`），每一卷開一個全新的 `claude -p` session、只帶那一卷（Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%）。本線現在只做三件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟。⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。範圍換科目（警察特考 → 導遊領隊 → 其他醫事類）＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `systemctl --user daemon-reload && restart`。
 　worker 做完初等 102～105 年會自己在本線頻道回報；之前 106～115 年刻意跳過的題（見下）不在 worker 範圍，不會被重做。
 VALIDATION: `node test/test.js` 全綠（33,162 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無（09-14 09:25 喚醒檢查：exp-worker 09:21 啟動中、無 failed 卷、範圍 ^chu-10[2-5]- 剩 118 卷 5,682 題；本線正在等第一卷落地驗收新 pipeline）
+BLOCKERS: 無（09-14 09:25 喚醒檢查：exp-worker 健康、無 failed 卷；新 pipeline 首卷 chu-105-1-e030 09:23 已完整落地並 push —— 寫 5 跳 22、commit 訊息逐題寫明跳過理由、test 全綠，單卷 context in=94k（改制前每步 535k）、$0.60／111 秒。範圍 ^chu-10[2-5]- 剩 118 卷 5,682 題，worker 繼續跑）
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/set-exp.js、tools/build-index.js、test/test.js
-UPDATED: 2026-09-14 09:25 台北
+UPDATED: 2026-09-14 09:27 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^chu-10[2-5]-）。最後一卷：chu-105-1-e030 105 年　初等考試　基本電學大意，寫 5 題、跳過 22 題，09/14 09:23 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
