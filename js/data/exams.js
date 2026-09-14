@@ -42551,7 +42551,7 @@ window.APP_EXAMS = [
   "subjName": "統計學大意",
   "label": "102 年　初等考試　統計學大意",
   "n": 40,
-  "exp": 0,
+  "exp": 40,
   "mins": 60
  },
  {
