@@ -42453,7 +42453,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "102 年　初等考試　人事行政大意",
   "n": 50,
-  "exp": 0,
+  "exp": 46,
   "mins": 60
  },
  {
