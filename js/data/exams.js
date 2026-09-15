@@ -44798,7 +44798,7 @@ window.APP_EXAMS = [
   "subjName": "英文",
   "label": "113 年　四等考試　英文",
   "n": 50,
-  "exp": 0,
+  "exp": 41,
   "mins": 60
  },
  {
