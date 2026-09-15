@@ -44168,7 +44168,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "114 年　四等考試　國文",
   "n": 10,
-  "exp": 0,
+  "exp": 10,
   "mins": 30
  },
  {
