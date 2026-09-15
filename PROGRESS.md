@@ -9,7 +9,7 @@ PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產�
 UPDATED: 2026-09-15 05:45 台北
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^pol-）。最後一卷：pol-113-1-c025 113 年　四等考試　法學知識與英文，寫 45 題、跳過 5 題，09/15 15:43 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^pol-）。最後一卷：pol-113-1-c023 113 年　四等考試　犯罪學概要，寫 21 題、跳過 0 題，09/15 15:48 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
