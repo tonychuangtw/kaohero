@@ -43916,7 +43916,7 @@ window.APP_EXAMS = [
   "subjName": "社會學與社會工作",
   "label": "114 年　三等考試　社會學與社會工作",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
