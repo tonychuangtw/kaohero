@@ -43328,7 +43328,7 @@ window.APP_EXAMS = [
   "subjName": "警察情境實務",
   "label": "115 年　三等考試　警察情境實務",
   "n": 20,
-  "exp": 0,
+  "exp": 19,
   "mins": 60
  },
  {
