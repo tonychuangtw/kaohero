@@ -44280,7 +44280,7 @@ window.APP_EXAMS = [
   "subjName": "犯罪偵查概要",
   "label": "114 年　四等考試　犯罪偵查概要",
   "n": 50,
-  "exp": 0,
+  "exp": 48,
   "mins": 60
  },
  {
