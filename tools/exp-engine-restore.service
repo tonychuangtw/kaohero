@@ -1,0 +1,9 @@
+# 一次性：台北週五 04:10（Claude 週限重置後 10 分鐘）把詳解 worker 的引擎切回 claude。
+# 2026-09-16 Tony：「星期五週額度回來後要改回來」。跑完會自己停用 timer 並發 TG 通知。
+[Unit]
+Description=kaohero 詳解 worker 引擎切回 claude（週限重置後）
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-engine.sh claude
+ExecStartPost=/usr/bin/systemctl --user disable --now exp-engine-restore.timer

@@ -6,6 +6,9 @@
    模型只看得到這份，看不到題庫檔 —— 這是刻意的：每卷開新 session 只帶這卷，context 才壓得下來。 */
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
+// 圖檔要印哪一台的絕對路徑：模型跑在 runner（EXP_ENGINE=agy）時要印 runner 的 clone 路徑，
+// 不然它 Read 不到圖，會憑選項字母硬掰（2026-09-16 實測過）。
+const FIG_ROOT = process.env.EXP_FIG_ROOT || ROOT;
 const pid = process.argv[2];
 if (!pid) { console.error('用法：node tools/exp-dump.js <pid>'); process.exit(2); }
 const L = ['A', 'B', 'C', 'D'];
@@ -42,7 +45,7 @@ for (const q of todo) {
   out.push('', `#${q.n} ${q.q}`);
   q.o.forEach((o, i) => out.push(`  ${L[i]}) ${o}`));
   out.push(`  ANS=${L[q.a]}`);
-  if (q.fig) out.push(`  圖檔：${path.join(ROOT, q.fig)}`);
+  if (q.fig) out.push(`  圖檔：${path.join(FIG_ROOT, q.fig)}`);
 }
 console.log(out.join('\n'));
 console.error(`${todo.length} 題`);

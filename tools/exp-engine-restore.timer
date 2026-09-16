@@ -1,0 +1,10 @@
+# 絕對時間 = 只會觸發一次（台北 09/18 04:10 = UTC 09/17 20:10；機器時鐘是 UTC，見 shared.md §15）
+[Unit]
+Description=週五台北 04:10 把詳解 worker 引擎切回 claude
+
+[Timer]
+OnCalendar=2026-09-17 20:10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
