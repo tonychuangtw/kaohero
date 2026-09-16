@@ -50804,7 +50804,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識",
   "label": "103 年　四等考試　法學知識",
   "n": 50,
-  "exp": 0,
+  "exp": 47,
   "mins": 60
  },
  {
