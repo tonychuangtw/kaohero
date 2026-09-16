@@ -47444,7 +47444,7 @@ window.APP_EXAMS = [
   "subjName": "犯罪學概要",
   "label": "109 年　四等考試　犯罪學概要",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
