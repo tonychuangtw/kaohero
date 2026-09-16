@@ -49950,7 +49950,7 @@ window.APP_EXAMS = [
   "subjName": "警察學與警察勤務",
   "label": "104 年　三等考試　警察學與警察勤務",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
