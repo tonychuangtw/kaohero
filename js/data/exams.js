@@ -47136,7 +47136,7 @@ window.APP_EXAMS = [
   "subjName": "海巡法規",
   "label": "109 年　三等考試　海巡法規",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
