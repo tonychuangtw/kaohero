@@ -49012,7 +49012,7 @@ window.APP_EXAMS = [
   "subjName": "中華民國憲法概要",
   "label": "106 年　四等考試　中華民國憲法概要",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
