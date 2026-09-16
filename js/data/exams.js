@@ -48172,7 +48172,7 @@ window.APP_EXAMS = [
   "subjName": "警察法規",
   "label": "107 年　三等考試　警察法規",
   "n": 25,
-  "exp": 0,
+  "exp": 23,
   "mins": 75
  },
  {
