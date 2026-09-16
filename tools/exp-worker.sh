@@ -33,7 +33,9 @@ ENGINE="${EXP_ENGINE:-claude}"          # claude | agy
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_ROOT="${EXP_AGY_ROOT:-/home/tonychuangtw/TelegramClaude/kaoguhero}"
 AGY_MODEL="${EXP_AGY_MODEL:-gemini-3.8-flash-high}"
-AGY_T="/tmp/exp-agy"                    # runner 上的暫存目錄（prompt 進、兩個 json 出）
+SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
+AGY_T="/tmp/exp-agy.$$"                 # runner 上的暫存目錄（prompt 進、兩個 json 出）；帶 PID：
+                                        # 前一輪被砍掉的 agy 還在跑時，兩邊共用同一個路徑會互相蓋掉 patch.json
 MATCH="${EXP_MATCH:-^chu-10[2-5]-}"
 LIMIT=0; ONCE=0
 while [ $# -gt 0 ]; do case "$1" in
@@ -46,7 +48,8 @@ TGSEND="$HOME/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-
 PAUSED="$HOME/.claude/channels/telegram-kaohero/paused-until"
 LSTATE="$HOME/.claude/session-limit.state"
 T="${XDG_RUNTIME_DIR:-/tmp}/exp-worker.$$"; mkdir -p "$T"
-trap 'rm -rf "$T"; rm -f "$LOCK"' EXIT
+cleanup() { rm -rf "$T"; rm -f "$LOCK"; [ "${ENGINE:-claude}" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AGY_T" >/dev/null 2>&1; return 0; }
+trap cleanup EXIT
 export PATH="$HOME/bin:$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
 export DISABLE_AUTOUPDATER=1
 unset TELEGRAM_STATE_DIR
@@ -73,7 +76,6 @@ wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到
 # prompt 裡的路徑要填模型看得到的那一台：claude 跑本機，agy 跑 runner
 if [ "$ENGINE" = agy ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="agy/$AGY_MODEL"
 else P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="claude/$MODEL"; fi
-SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
 
 run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；patch/skip 一律回到 $T
   local pf="$1" of="$2" rc=0
