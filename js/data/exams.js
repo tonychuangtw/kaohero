@@ -49572,7 +49572,7 @@ window.APP_EXAMS = [
   "subjName": "英文",
   "label": "105 年　四等考試　英文",
   "n": 50,
-  "exp": 0,
+  "exp": 49,
   "mins": 60
  },
  {
