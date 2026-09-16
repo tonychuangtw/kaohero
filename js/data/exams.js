@@ -48816,7 +48816,7 @@ window.APP_EXAMS = [
   "subjName": "犯罪偵查學",
   "label": "106 年　三等考試　犯罪偵查學",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
