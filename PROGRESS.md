@@ -11,7 +11,7 @@ PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產�
 UPDATED: 2026-09-16 10:06 台北
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^pol-，引擎 agy/gemini-3.8-flash-high）。最後一卷：pol-104-1-c013 104 年　四等考試　中華民國憲法與消防警察專業英文，寫 50 題、跳過 0 題，09/17 01:27 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^pol-，引擎 agy/gemini-3.8-flash-high）。最後一卷：pol-104-1-c012 104 年　四等考試　犯罪偵查概要，寫 49 題、跳過 0 題，09/17 01:33 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
