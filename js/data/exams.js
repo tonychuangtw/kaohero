@@ -46926,7 +46926,7 @@ window.APP_EXAMS = [
   "subjName": "行政法",
   "label": "109 年　三等考試　行政法",
   "n": 25,
-  "exp": 0,
+  "exp": 24,
   "mins": 75
  },
  {
