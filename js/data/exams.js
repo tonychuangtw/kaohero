@@ -56901,7 +56901,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（馬來語）",
   "label": "109 年　導遊人員　外國語（馬來語）",
   "n": 80,
-  "exp": 0,
+  "exp": 72,
   "mins": 80
  },
  {
