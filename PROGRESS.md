@@ -1,14 +1,13 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試、警察特考皆已完成）；目前＝導遊領隊 277 卷 20,840 題的詳解，由 exp-worker 逐卷跑
-NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09-17 14:25 台北起跑；警察特考已於 09/17 08:12 收工，596 卷 18,759 題／96.6%）。**2026-09-16 起引擎改成 agy／gemini-3.8-flash-high**（Claude 週限撞 83%，Tony 指示先切 Gemini）：模型在 runner 上跑、$0 API、不吃 Claude 額度，其餘流程完全不變。
-　⏰ **台北 09/18（週五）04:10 會自動切回 claude**（`exp-engine-restore.timer`，一次性，跑完自己 disable，並發 TG 通知）。手動切換：`tools/exp-engine.sh agy|claude|status`。
+NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09-17 14:25 台北起跑；警察特考已於 09/17 08:12 收工，596 卷 18,759 題／96.6%）。**2026-09-18 04:10 台北已自動切回本機 claude（claude-opus-5）**：`exp-engine-restore.timer` 如期執行、worker 已重啟接著跑 tou-110-1-d003，09/17 20:40 起的 agy Gemini 週限空轉結束。Gemini 週限台北 09/23 10:26 重置，屆時可 `tools/exp-engine.sh agy` 切回 gemini-3.8-flash-high 掃剩餘卷（較省 Claude 額度）。手動切換／查引擎：`tools/exp-engine.sh agy|claude|status`。
 　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（導遊領隊已完成 → 下一科＝**其他醫事類：醫檢師、物理治療師、營養師、職能治療師**），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
 　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: agy 的 Gemini 週限 09/17 20:40 台北用光（09/23 10:26 重置），worker 空轉中。09/17 深夜試過改用 agy 裡的 Claude 模型頂替：opus-4-6 與 sonnet-4-6 各跑一卷都成功（tou-110-1-d005、d004，各 80/80 題），但 Claude 桶按請求計量、每卷吃 17～18% 週限，只夠 5～6 卷，不可行（結論寫進 CLAUDE.md）。現在 agy Claude 5 小時桶也 0%。→ 等台北 09/18 04:10 exp-engine-restore.timer 自動切回本機 claude（Anthropic 週限 04:00 重置）；09/23 Gemini 重置後再切回 gemini-3.8-flash-high 掃剩下的 204 卷。
+BLOCKERS: 無（09/17 20:40–09/18 03:41 的 agy Gemini 週限空轉已由 04:10 的 exp-engine-restore.timer 解除；剩 204 卷 15,456 題由本機 claude 續跑）。留存教訓：agy 的 Claude 桶按請求計量、每卷吃 17～18% 週限，只夠 5～6 卷，不能當批次引擎（已寫進 CLAUDE.md）。
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 00:20 台北
+UPDATED: 2026-09-18 04:15 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/claude-sonnet-4-6）。最後一卷：tou-110-1-d004 110 年　導遊人員　外國語（英語），寫 80 題、跳過 0 題，09/18 00:10 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
