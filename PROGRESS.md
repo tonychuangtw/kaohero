@@ -8,10 +8,10 @@ NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-17 14:30 台北
+UPDATED: 2026-09-17 14:55 台北
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/gemini-3.8-flash-high）。最後一卷：tou-112-1-l006 112 年　領隊人員　外國語（法語），寫 70 題、跳過 10 題，09/17 14:47 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/gemini-3.8-flash-high）。最後一卷：tou-112-1-l005 112 年　領隊人員　外國語（日語），寫 70 題、跳過 10 題，09/17 14:52 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
