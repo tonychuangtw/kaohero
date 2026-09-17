@@ -1,14 +1,14 @@
 STATUS: in-progress
-OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試皆已完成）；目前＝警察特考 596 卷 19,410 題的詳解，由 exp-worker 逐卷跑
-NEXT_ACTION: 本線不做事，等 worker 跑完警察特考（`^pol-`）。**2026-09-16 起引擎改成 agy／gemini-3.8-flash-high**（Claude 週限撞 83%，Tony 指示先切 Gemini）：模型在 runner 上跑、$0 API、不吃 Claude 額度，其餘流程完全不變。
+OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試、警察特考皆已完成）；目前＝導遊領隊 277 卷 20,840 題的詳解，由 exp-worker 逐卷跑
+NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09-17 14:25 台北起跑；警察特考已於 09/17 08:12 收工，596 卷 18,759 題／96.6%）。**2026-09-16 起引擎改成 agy／gemini-3.8-flash-high**（Claude 週限撞 83%，Tony 指示先切 Gemini）：模型在 runner 上跑、$0 API、不吃 Claude 額度，其餘流程完全不變。
 　⏰ **台北 09/18（週五）04:10 會自動切回 claude**（`exp-engine-restore.timer`，一次性，跑完自己 disable，並發 TG 通知）。手動切換：`tools/exp-engine.sh agy|claude|status`。
-　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（警察特考 → **導遊領隊** → 其他醫事類：醫檢師、物理治療師、營養師、職能治療師），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
+　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（導遊領隊已完成 → 下一科＝**其他醫事類：醫檢師、物理治療師、營養師、職能治療師**），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
 　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
-VALIDATION: `node test/test.js` 全綠（48,832 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
+VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無
-PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol
-UPDATED: 2026-09-16 10:06 台北
+PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
+UPDATED: 2026-09-17 14:30 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^pol-，引擎 agy/gemini-3.8-flash-high）。最後一卷：pol-102-1-a001 102 年　二等考試　國文，寫 7 題、跳過 3 題，09/17 08:12 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
@@ -75,6 +75,30 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 - **影響**：這些題目前沒有詳解，所以沒有寫出錯誤的解析；但站上仍會把存的答案標成「正解」，會誤導人。
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
+
+## 新增科目：導遊領隊（2026-09-17 轉檔完成，詳解由 worker 進行中）
+
+- 專技普考導遊人員、領隊人員考試，考試代碼 `<roc>040`，102～112 年每年一次；
+  **113 年起停辦**（改由交通部觀光署辦理訓練發證），所以這 11 次就是全部，日後不會再增加。
+- **結果：成卷 277、20,840 題、29 個科目、21 個類科，裁圖 540 張全部成功。**
+  跳過 12 卷：11 卷外國語（阿拉伯語）的 PDF 是右至左排版、pdftotext 抽不出題目（整卷 0 題），
+  1 卷 105 年外語領隊英語（題數 65≠答案 80）。
+- 站台新增 `tourism`「觀光考試」分類（第五個大類），底下 `tour` 考試分導遊人員（lvlkey `d`）、
+  領隊人員（`l`）兩個等別 —— 這個考試沒有「等別」這層，拿導遊／領隊當等別。
+  類科＝華語導遊／領隊與各語別外語導遊（14 語別）／外語領隊（5 語別）。
+- `tools/gao-groups.json` 加「華語類科」「外語類科」兩個類群（列出全部 21 個類科名）。
+- gen_civil.py 這次加的三個機制（之後加科可能再用到）：
+  ① `keepparen`：「外國語（英語）」括號裡是語別、不是說明，canon 不能拿掉，否則 14 個語別併成一科
+  ② `dupmark`：同一科 102～106 年華語與外語各考一份、107 年起合併成一份。
+     依「這份卷掛的類科集合」決定加註（全外語→外語組、全華語→華語組、兩邊都掛→不加註），
+     不用「主類科」加註，否則合併後那份會掛著（外語組）誤導華語考生。
+     結果：導遊實務（二）有三個 key（d002 外語組／d017 華語組／d018 合併後），領隊實務（二）同理。
+  ③ `track_name` 統一半形／全形括號（平臺跨年份混用，不統一同一類科會裂成兩個節點）；
+     索引只收真的有成卷的科目（阿拉伯語整批失敗，否則站上會多一個點進去沒有卷的科目）
+- 全圖卷只有 1 卷（102 年泰語，PDF 文字抽不出來，整卷 80 題都改裁圖），其餘 60 卷是部分圖。
+- ⚠ 待觀察：外國語（泰語／越南語／印尼語／馬來語／土耳其語／俄語）這些卷的詳解品質，
+  worker 用 gemini 寫，第一批跑完要抽驗；寫不出來的照規則跳過即可。
+- 工作目錄 `~/exam-pdfs/tour`（codes.json、rows-*.json、pdf/、out/、outimg/ 都留著，要重跑不用重抓）。
 
 ## 新增科目：警察特考（2026-09-15 轉檔完成，詳解由 worker 進行中）
 
