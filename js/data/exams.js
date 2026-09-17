@@ -51042,7 +51042,7 @@ window.APP_EXAMS = [
   "subjName": "行政學",
   "label": "102 年　三等考試　行政學",
   "n": 25,
-  "exp": 0,
+  "exp": 25,
   "mins": 75
  },
  {
