@@ -56299,7 +56299,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（法語）",
   "label": "111 年　領隊人員　外國語（法語）",
   "n": 80,
-  "exp": 0,
+  "exp": 70,
   "mins": 80
  },
  {
