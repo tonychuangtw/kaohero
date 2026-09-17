@@ -11,7 +11,7 @@ PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產�
 UPDATED: 2026-09-17 14:55 台北
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/gemini-3.8-flash-high）。最後一卷：tou-112-1-l003 112 年　領隊人員　觀光資源概要（外語組），寫 46 題、跳過 4 題，09/17 14:58 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/gemini-3.8-flash-high）。最後一卷：tou-112-1-l001 112 年　領隊人員　領隊實務（一），寫 47 題、跳過 0 題，09/17 15:01 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
