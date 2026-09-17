@@ -11,7 +11,7 @@ PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產�
 UPDATED: 2026-09-17 23:40 台北
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/claude-opus-4-6-thinking）。最後一卷：tou-110-1-d005 110 年　導遊人員　外國語（日語），寫 80 題、跳過 0 題，09/17 23:56 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/claude-sonnet-4-6）。最後一卷：tou-110-1-d004 110 年　導遊人員　外國語（英語），寫 80 題、跳過 0 題，09/18 00:10 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
