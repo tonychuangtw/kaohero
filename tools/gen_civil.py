@@ -45,6 +45,17 @@ SPECS = {
             'note': {1: '碩士（含）以上程度，名額極少',
                      2: '大學（含）以上程度',
                      3: '高中職（含）以上程度，全測驗題'}},
+    # 導遊領隊（專技普考）：102~112 年每年一次，113 年起停辦（改由觀光署訓練發證）。
+    # 沒有「等別」這一層，改拿「導遊／領隊」當等別；類科＝華語與各語別的外語。
+    # 外國語（英語）、外國語（日語）…括號裡的語別就是科目本身，canon 不能把它當括號說明拿掉，
+    # 所以用 keepparen 指定這個科目家族保留括號。
+    'tour': {'cat': 'tourism', 'exam': 'tour', 'prefix': 'tou',
+             'levels': [(1, '導遊人員', ('導遊',)), (2, '領隊人員', ('領隊',))],
+             'lvlkey': {1: 'd', 2: 'l'},
+             'keepparen': ('外國語',),
+             'dupmark': [('外語', '外語'), ('華語', '華語')],
+             'note': {1: '高中職（含）以上程度，全測驗題；分華語導遊與外語導遊（各語別）',
+                      2: '高中職（含）以上程度，全測驗題；分華語領隊與外語領隊（各語別）'}},
     'local': {'cat': 'civil', 'exam': 'local', 'prefix': 'loc',
               'levels': [(1, '三等', ('三等',)), (2, '四等', ('四等',)), (3, '五等', ('五等',))],
               'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
@@ -74,6 +85,9 @@ def track_name(cn, lvl):
     # 警察特考寫「行政警察人員類別」，分組類科更寫成「交通警察人員類別交通組」（「類別」夾在中間），
     # 所以整串出現的「類別」都拿掉，否則同一個類科會變成兩個節點
     tn = tn.replace('類別', '')
+    # 平臺同一個類科跨年份半形／全形括號混用（外語導遊人員(英語) vs （英語）），
+    # 不統一的話分類樹上同一個類科會裂成兩個節點
+    tn = tn.replace('(', '（').replace(')', '）')
     if '離島' in head: tn = '離島・' + tn
     # 同一次考試裡兩種不同考試共用類科名（警察人員／一般警察人員都有「行政警察人員」）時，
     # 依類科名前綴加註，否則分類樹上會被併成同一個節點
@@ -120,8 +134,12 @@ def mins_of(pdf, nq):
 
 
 def canon(sn):
-    """科目名稱正規化：去掉括號裡的說明，(一)(二) 這種序號要保留。"""
+    """科目名稱正規化：去掉括號裡的說明，(一)(二) 這種序號要保留。
+       SPEC['keepparen'] 列的科目家族（導遊領隊的「外國語（英語）」）括號裡是語別、不是說明，
+       整串保留，只把半形括號統一成全形（平臺同一個科目兩種寫法都有）。"""
     s = sn.replace(' ', '').replace('　', '')
+    if any(s.startswith(k) for k in SPEC.get('keepparen', ())):
+        return s.replace('(', '（').replace(')', '）').strip() or sn.strip()
     s = re.sub(r'[（(](?![一二三四五六七八九十]\s*[）)])[^（()）]*[）)]', '', s)
     return s.strip() or sn.strip()
 
@@ -202,6 +220,8 @@ def main():
             if os.path.exists('pdf/%s_%s_%s_a.pdf' % (r[1], r[2], r[4]))]
     dup = collisions(rows)
     done, skipped, figs = [], [], []
+    made = set()      # 真的成卷的科目 key；只登記過但整個家族都沒收進來的（例：導遊阿拉伯語整批解析失敗）
+                      # 不寫進索引，否則站上會多一個點進去沒有卷的科目
     tracks = collections.defaultdict(lambda: collections.defaultdict(set))   # lvl → 類科 → {key}
     notes = collections.defaultdict(set)
     for roc, code, c, cn, s, sn, trs in papers_of(work):
@@ -216,8 +236,18 @@ def main():
             skipped.append([roc, code, s, sn, '無法判斷等別：' + cn]); continue
         name = canon(sn)
         if (lvl, name) in dup:
-            pr = primary(trs, lvl)
-            if pr: name = '%s（%s組）' % (name, pr)
+            # SPEC['dupmark']（導遊領隊）：同一科在 102~106 年華語與外語各考一份、107 年起合併成一份。
+            # 拿「主類科」加註會變成合併後那份掛著（外語組），華語考生看了會以為不是自己的卷；
+            # 改看這份卷掛的類科集合——全是外語才標外語組、全是華語才標華語組、兩邊都掛就不加註。
+            marks = SPEC.get('dupmark')
+            if marks:
+                ts = [track_name(t, lvl) for t in trs if lvl_of(t) == lvl]
+                lab = next((label for kw, label in marks
+                            if ts and all(t.startswith(kw) for t in ts)), '')
+                if lab: name = '%s（%s組）' % (name, lab)
+            else:
+                pr = primary(trs, lvl)
+                if pr: name = '%s（%s組）' % (name, pr)
         key = key_of(reg, lvl, name)
         notes[key].add(sn)
         for t in trs:
@@ -299,11 +329,12 @@ def main():
               paper['title'], len(qs), pid, json.dumps(paper, ensure_ascii=False, indent=1))
         open(os.path.join('out', pid + '.js'), 'w', encoding='utf-8').write(js)
         done.append([pid, len(qs)])
+        made.add(key)
         if limit and len(done) >= limit: break
     save_reg(reg)
     idx = {'subjects': {v['key']: {'name': v['name'], 'lvl': v['lvl'],
                                    'note': sorted(notes[v['key']])} for v in reg.values()
-                        if v['key'] in notes},
+                        if v['key'] in made},
            'tracks': {str(l): {t: sorted(ks) for t, ks in sorted(d.items())} for l, d in tracks.items()}}
     idx['exam'] = SPEC['exam']
     idx['levels'] = [{'no': no, 'name': nm, 'note': SPEC['note'][no]} for no, nm, _ in SPEC['levels']]
