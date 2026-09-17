@@ -52,6 +52,24 @@ Tony 2026-09-06 15:40「依序開始全部寫解析」、「除非有什麼解�
 - 題幹或選項在轉檔時毀損、缺公式的題
 - 官方答案與教科書明顯衝突的題（寧可不寫，不要寫出誤導內容）
 
+## exp-worker 停下來時怎麼判（踩過的坑，2026-09-17）
+
+worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 active —— 它撞到錯就睡 30 分再重試，
+所以**光看 active 看不出它其實在空轉**。判斷一律看 `tail ~/.claude/exp-worker.log` 的最後幾行有沒有在寫卷。
+
+**症狀 A：`額度或連線問題（rc=1）：error: Individual quota reached ... Resets in NNNh`**
+- 認法：`Resets in` 後面是**幾十～一百多小時**（不是 1h 內）＝ agy 的 **Gemini 週限**被用光，不是暫時塞車。
+  同一行如果是 `Resets in 1h24m` 那種，就真的只是小時級限流，等它自己過。
+- 查證：`bash ~/TelegramClaude/claude-shared/tools/agy-usage.sh`（會直接印「Gemini 週限：已用 100%（台北 MM/DD HH:MM 重置）」）。
+- 處理：**不要提早 `exp-engine.sh claude`**，除非 Claude 週限也剛重置。Claude 週限的窗口是台北每週五 04:00，
+  `exp-engine-restore.timer` 就是排在 04:10 接手；提早切只是把舊窗口最後那點額度燒掉，可能兩邊一起撞牆。
+  用 `systemctl --user list-timers exp-engine-restore` 確認 timer 還在，然後讓它空轉等即可（重試本身幾乎不花錢）。
+- 實例：2026-09-17 20:38 最後一卷 tou-110-1-d006，之後每 30 分重試一次同樣的錯，Gemini 週限 09/23 10:26 才重置。
+
+**症狀 B：`~/.claude/exp-worker.failed` 裡有卷** → 那是真的失敗（工具或題庫問題），要查原因、修完再 `systemctl --user start exp-worker`。
+
+引擎只有 agy／claude 兩種（`tools/exp-engine.sh`），沒有 deepseek／codex 選項，別想用第三家頂替。
+
 ## 其他
 
 - 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節

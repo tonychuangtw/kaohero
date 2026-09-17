@@ -6,9 +6,9 @@ NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09
 　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無
+BLOCKERS: agy 的 Gemini 週限 09/17 20:40 台北用到 100%（09/23 10:26 才重置），worker 每 30 分重試同一個 quota 錯、空轉中。不提早切 claude（舊週限窗口快用完）；台北 09/18 04:10 exp-engine-restore.timer 會自動切回 claude 接續，屆時自解。判法見 CLAUDE.md「exp-worker 停下來時怎麼判」。
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-17 14:55 台北
+UPDATED: 2026-09-17 23:40 台北
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 agy/gemini-3.8-flash-high）。最後一卷：tou-110-1-d006 110 年　導遊人員　外國語（法語），寫 80 題、跳過 0 題，09/17 20:38 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
