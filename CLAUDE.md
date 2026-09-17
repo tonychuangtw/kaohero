@@ -70,6 +70,17 @@ worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 ac
 
 引擎只有 agy／claude 兩種（`tools/exp-engine.sh`），沒有 deepseek／codex 選項，別想用第三家頂替。
 
+**⛔ Gemini 桶用完時不要改用 agy 裡的 Claude 模型頂替（2026-09-17 實測，Tony 問過一次）**
+agy 的配額分兩桶：`Gemini Models` 與 `Claude and GPT models`（`agy models` 可用的有 claude-opus-4-6-thinking、
+claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通常還很滿，看起來可以頂替 —— **但不行**：
+- **Claude/GPT 桶是按「請求／session」計量，不是按 token**。實測一卷 80 題：
+  opus-4-6-thinking 週限 95%→78%（‑17%）、耗時 1006s；sonnet-4-6 週限 78%→60%（‑18%）、耗時 396s。
+  **換便宜模型完全不省**，兩者每卷都吃掉約 17～18% 週限 → 整個桶只夠 **5～6 卷**，5 小時桶只夠 **2 卷**。
+- 品質兩者都好（80/80 全寫、格式合規、錯誤選項有實質理由），所以判斷依據是配額不是品質。
+- 對照：gemini-3.8-flash-high 每卷約 3.5 分、一個 Gemini 週期可跑 200 卷以上 —— **批次的主力永遠是 flash**。
+- 結論：Gemini 桶爆了就等它重置（週限，要等好幾天），中間用本機 claude 撐；agy 的 Claude 桶留給 ask-codex 的第二意見。
+查配額：`ssh tonychuangtw@192.168.1.173 'agy -p "/usage"'`（四行：兩個家族 × 週限／5 小時，欄位是**剩餘** %）。
+
 ## 其他
 
 - 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節
