@@ -55823,7 +55823,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（越南語）",
   "label": "112 年　導遊人員　外國語（越南語）",
   "n": 80,
-  "exp": 0,
+  "exp": 68,
   "mins": 80
  },
  {
