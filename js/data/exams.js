@@ -57643,7 +57643,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（英語）",
   "label": "107 年　領隊人員　外國語（英語）",
   "n": 80,
-  "exp": 0,
+  "exp": 70,
   "mins": 80
  },
  {
