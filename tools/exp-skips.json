@@ -3768,6 +3768,33 @@
    "at": "2026-09-14"
   }
  ],
+ "tou-103-1-l004": [
+  {
+   "n": 71,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 72,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 73,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 74,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 75,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  }
+ ],
  "tou-103-1-l005": [
   {
    "n": 44,
