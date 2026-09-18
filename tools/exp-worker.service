@@ -7,7 +7,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-Environment=EXP_MATCH=^tou-
+Environment=EXP_MATCH=^(mlt-[0-9]+-[0-9]-mlt[1-6]|pt-[0-9]+-[0-9]-pt[13456]|ot-[0-9]+-[0-9]-ot[13456]|nut-[0-9]+-[0-9]-nut[1235])$
 Environment=EXP_MODEL=claude-opus-5
 ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-worker.sh
 Restart=no
