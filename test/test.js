@@ -46,7 +46,7 @@ const ids = new Set();
 EXAMS.forEach(e => {
   ok(!ids.has(e.id), e.id + ' 沒有重複'); ids.add(e.id);
   // 次別不是只有 1、2：護理師 112～114 有第三次，106 年還有「第二次花東考區補辦」（記為 4）
-  ok(/^[a-z]{3}-\d{3}-[1-4]-\w+$/.test(e.id), e.id + ' id 格式正確');
+  ok(/^[a-z]{2,4}-\d{3}-[1-4]-\w+$/.test(e.id), e.id + ' id 格式正確');
   ok(examIds.has(e.exam), e.id + ' 的 exam 對得到考試');
   ok(!!SUBJ[e.subj], e.id + ' 的 subj 對得到科目');
   ok(Number.isInteger(e.roc) && e.roc >= 90 && e.roc <= 130, e.id + ' roc 合理');

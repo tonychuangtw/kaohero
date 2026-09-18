@@ -1,17 +1,15 @@
 STATUS: in-progress
-OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試、警察特考皆已完成）；目前＝導遊領隊 277 卷 20,840 題的詳解，由 exp-worker 逐卷跑
-NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`）的**最後一段：453 題圖片題**（散在 31 卷，2026-09-18 19:21 台北起由本機 claude 補，DeepSeek 讀不了圖所以先前標成 DEFER-FIG 延後、已用 `exp-skip-drop.js` 放回佇列）。估 2～3 小時。
-　跑完＝導遊領隊全科完成 → 依 Tony 2026-09-09 定的順序轉檔下一科（**其他醫事類：醫檢師、物理治療師、營養師、職能治療師**），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
-　**跑完要跟 Tony 報總花費**（他 09/18 指定）：DeepSeek 段已結算 US$0.86（餘額 19.41→18.55，103 卷 7,428 題、59 分鐘）；claude 段把 `~/.claude/exp-worker.log` 的 `cost=$` 加總（導遊領隊自 09/17 14:25 起）。
+OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試、警察特考、導遊領隊皆已完成）；目前＝轉檔最後一科「其他醫事類」（醫事檢驗師、物理治療師、營養師、職能治療師），轉完由 exp-worker 逐卷寫詳解
+NEXT_ACTION: 轉檔其他醫事類。進度：2026-09-19 04:30 台北起在 `~/exam-pdfs/med4` 掃平臺（`scan.py`，只用類科名比對、不看考試標題，因為平臺標題會被截斷）。掃完 → 下載 PDF → `gen_bank.py` 加四個 SPEC（cat=medical）→ 裁圖 → `civil-index-merge`／手加 index-spec 項目 → build-index／test/build-pages → commit → 改 `tools/exp-worker.service` 的 EXP_MATCH 指向新前綴、啟動 worker。
 　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後轉檔下一科。
 　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
 
-VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無。09/18 20:25 台北現況：worker 正常逐卷在寫（引擎 claude、EXP_MATCH=^tou-），導遊領隊剩約 310 題未寫（含圖片題 216），`exp-worker.failed` 空。19:21 起一小時已補約 140 題，照此速度估 22:00 前後收工。
+VALIDATION: `node test/test.js` 全綠；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
+BLOCKERS: 無。09/19 04:30 台北現況：導遊領隊已於 09/18 20:50 收工（277 卷 20,840 題，寫 19,536／93.7%，跳 1,263、廢題 41、失敗 0 卷），總花費已回報 Tony（agy $0／DeepSeek US$0.86／claude $168.42 等值）。worker 目前 inactive，等新科目轉完再啟動。
 
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 20:25 台北
+UPDATED: 2026-09-19 04:35 台北
 
 ## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
 
@@ -191,6 +189,46 @@ node -e "const fs=require('fs');const norm=s=>String(s||'').normalize('NFKC').re
 - **影響**：這些題目前沒有詳解，所以沒有寫出錯誤的解析；但站上仍會把存的答案標成「正解」，會誤導人。
 - **要做的話**：教檢的試題與參考答案是教育部教師資格考試網站公布的（不是考選部），要另外寫一支抓取＋核對。已在 Telegram 問 Tony 要不要做，等他決定。
 - **順帶**：全站 commit message 裡有 153 個 commit 記過「官方答案與法條／算式衝突所以跳過」，那一批也是同一個可疑來源，值得一起查。
+
+## 新增科目：其他醫事類（2026-09-19 轉檔完成）
+
+醫事檢驗師、物理治療師、職能治療師、營養師四個類科，102～115 年每年兩次（職能治療師只在第二次）。
+**結果：成卷 636、44,400 題、24 個科目，裁圖 94 張全部成功，0 卷失敗。**
+（mlt 168 卷 13,440 題／pt 168 卷 13,440 題／ot 132 卷 10,560 題／nut 168 卷 6,960 題）
+
+- 工作目錄 `~/exam-pdfs/med4`（scan.py／scan2.py／fetch.py／crop-all.py／codes.json／inv.json／pdf 都留著，要重跑不用重抓）。
+- 流程（跟護理師同一條線，不是 gen_civil 那條）：
+  `scan.py`（掃代碼→inv.json）→ `fetch.py`（抓 Q/S/M 共 1,578 檔）→
+  `gen_bank.py <mlt|pt|ot|nut> --lenient` → `crop-all.py` → 搬 out/*.js 與 outimg/*.webp 進 repo →
+  `build-index.js --write` → `test/test.js` → `build-pages.js --write`。
+- `tools/index-spec.json` 的 medical 分類手動加了 4 個考試項目與 24 個科目（mlt1-6／pt1-6／ot1-6／nut1-6）。
+
+**這次踩到、以後會再遇到的四個坑**（都已修進工具）：
+
+1. **考試標題會漏字，篩代碼不能靠標題**。第一輪 `scan.py` 只查標題含「專技／專門職業及技術人員」的代碼，
+   105 年的標題寫成「105年第二次醫師牙醫師藥師分階段…」，整個 105 年被漏掉（48 卷）。
+   認法：某一年整年 0 卷、但前後年都有。→ `scan2.py` 改用寬鬆關鍵字（醫師／藥師／治療師／營養師…）重掃補回。
+   **以後加科目一律只用「類科名」比對，不要用考試標題。**
+2. **同一份 inv.json 混多個類科要用 `track` 分開**。`gen_bank.py` 的 SPEC 新增 `track`（比對類科名），
+   不加的話職能治療師的「解剖學與生理學」和營養師的「生理學與生物化學」這種同名／近名科目會混進彼此的卷。
+   ⚠ 平臺的類科名前綴歷年寫法不一（`專技高考_`／`高考_`／`高等_`／`高等考試_`），只能比對後半的類科名。
+3. **申論＋測驗混合卷會讓整卷答案位移（最危險的一個，題數檢查抓不到）**。
+   營養師 113～115 年的膳食療養學（nut3）、團體膳食設計與管理（nut4）是「一、申論題／二、測驗題」混合卷。
+   `parse.py` 把 2～3 題申論題當成圖片題收進來，又把後面兩三題測驗題黏進申論題的「選項」裡，
+   **題數剛好還是 40、跟標準答案張數對得上**，所以 `gen_bank.py` 的題數檢查過關 ——
+   結果是第 4 題拿到第 4 題的答案、但它其實是測驗第 1 題，**整卷答案往後位移 3 題**。
+   認法：某題的選項字串裡出現被黏進來的下一題（例：`"膳食管理2.有關血清中前白蛋白…？A.病人處於飢餓…"`），
+   或題幹長得像申論題（「請試述…（15 分）」）卻四個選項全空。
+   修法：`parse.py` 新增 `_drop_essay()`，看到「二、測驗題」就把它前面的申論段整段丟掉。12 卷已重轉。
+   **以後轉任何可能有申論題的考試（高普考、專技各師）都要先確認這關。**
+4. **題幹裡的「 A、B、C、D」會被當成選項起點**。`mlt-114-1-mlt3` #47 原文是
+   「受質 A、B、C、D 的 Km 值分別為 1、2、3、4…」，parse 從「 A、」開始切選項，
+   題幹只剩「受質」兩個字、選項 A 吃進了後半題幹。只有這一題中，已手修（`js/data/exam/mlt-114-1-mlt3.js`
+   與 `~/exam-pdfs/med4/out/` 兩邊都改了）。認法＝`test/test.js` 的「題幹過短」會叫。
+
+**`gen_bank.py` 新增 `--lenient`**：轉一整批（636 卷）時，個別卷壞掉不要整批 `SystemExit` 中止，
+改成跳過並在最後印出來。⛔ 不是「默默收下」—— 跳掉的一定會列出來（這次 0 卷）。
+`test/test.js` 的 id 格式斷言放寬成 `^[a-z]{2,4}-`（新前綴 `pt`／`ot` 只有兩個字母）。
 
 ## 新增科目：導遊領隊（2026-09-17 轉檔完成，詳解由 worker 進行中）
 

@@ -107,6 +107,24 @@ def header_info(pdf):
 
 OPT = 'ABCD'
 
+_ESSAY = re.compile(r'^\s*[一二三四五六]\s*[、.．]\s*申\s*論\s*題')
+_MC = re.compile(r'^\s*[一二三四五六]\s*[、.．]\s*測\s*驗\s*題')
+
+def _drop_essay(lines):
+    """「一、申論題 …… 二、測驗題」混合卷：只留測驗題那一段。
+
+    ⚠ 2026-09-19 營養師轉檔踩到的坑：113～115 年的膳食療養學、團體膳食設計與管理是
+    申論＋測驗混合卷。申論題沒有選項，parse 會把它當成圖片題收進來，接著把後面兩三題
+    測驗題黏進它的「選項」裡 —— 題數剛好還是 40，跟標準答案張數對得上，
+    所以 gen_bank 的題數檢查抓不到，結果是**整卷的答案往後位移**（第 4 題拿到第 4 題的答案，
+    但它其實是測驗第 1 題）。認法：某題選項裡出現「…2.有關……？A.…」這種被黏進來的下一題。
+    """
+    i_mc = next((i for i, l in enumerate(lines) if _MC.match(l)), None)
+    if i_mc is None: return lines
+    i_es = next((i for i, l in enumerate(lines) if _ESSAY.match(l)), None)
+    if i_es is None or i_es > i_mc: return lines
+    return lines[i_mc + 1:]
+
 def parse_questions(pdf, relaxed=False):
     """回傳 [{n, q, o[4], needfig}]；題號只認 1,2,3… 遞增序列。
 
@@ -116,6 +134,7 @@ def parse_questions(pdf, relaxed=False):
     呼叫端（gen_bank.py）的用法是：先用嚴格模式，題數對不上答案張數時再用 relaxed 重跑，
     兩者都不吻合就報錯，不要默默收下被截斷的卷。"""
     lines = clean_lines(text(pdf), keep_nums=relaxed)
+    lines = _drop_essay(lines)
     body = '\n'.join(lines)
     # half() 是 1:1 字元對映，索引與 body 完全對齊：用 flat 找標記、用 body 取內容，
     # 這樣全形標點（，？（））才不會被改掉。

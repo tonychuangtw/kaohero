@@ -50,7 +50,69 @@ SPECS = {
         'prefix': 'nur', 'cat': 'medical', 'exam': 'nurse',
         'resolve': lambda sn: _nurse(sn),
     },
+    # 其他醫事類（2026-09-19 加）：醫事檢驗師、物理治療師、職能治療師、營養師。
+    # 四種都是單一階段六科，且共用同一份 inv.json（~/exam-pdfs/med4），所以一定要有 track
+    # 把類科分開——不然不同類科的同名科目（例：職能「解剖學與生理學」vs 營養「生理學與生物化學」）
+    # 會撞在一起。⚠ 平臺的類科名前綴歷年寫法不一（專技高考_／高考_／高等_／高等考試_），
+    # 只能比對後半的類科名，不能比對整串。
+    'mlt': {
+        'prefix': 'mlt', 'cat': 'medical', 'exam': 'mlt',
+        'track': lambda cn: '醫事檢驗師' in cn,
+        'resolve': lambda sn: _bysub(_MLT, sn),
+    },
+    'pt': {
+        'prefix': 'pt', 'cat': 'medical', 'exam': 'pt',
+        'track': lambda cn: '物理治療師' in cn,
+        'resolve': lambda sn: _bysub(_PT, sn),
+    },
+    'ot': {
+        'prefix': 'ot', 'cat': 'medical', 'exam': 'ot',
+        'track': lambda cn: '職能治療師' in cn,
+        'resolve': lambda sn: _bysub(_OT, sn),
+    },
+    'nut': {
+        'prefix': 'nut', 'cat': 'medical', 'exam': 'nut',
+        'track': lambda cn: '營養師' in cn,
+        'resolve': lambda sn: _bysub(_NUT, sn),
+    },
 }
+
+# [(科目代碼, (平臺／PDF 表頭可能出現的開頭字樣, ...), 站上顯示名稱)]，單一階段所以 stage 固定 1
+_MLT = [('mlt1', ('臨床生理學',), '臨床生理學與病理學'),
+        ('mlt2', ('臨床血液學',), '臨床血液學與血庫學'),
+        ('mlt3', ('生物化學',), '生物化學與臨床生化學'),
+        ('mlt4', ('臨床血清免疫學',), '臨床血清免疫學與臨床病毒學'),
+        # 102～103 年叫「臨床鏡檢學（包括寄生蟲學）」，之後改叫「醫學分子檢驗學與臨床鏡檢學」
+        ('mlt5', ('醫學分子檢驗學', '臨床鏡檢學'), '醫學分子檢驗學與臨床鏡檢學'),
+        ('mlt6', ('微生物學',), '微生物學與臨床微生物學')]
+
+_PT = [('pt1', ('物理治療基礎學',), '物理治療基礎學'),
+       ('pt2', ('物理治療學概論',), '物理治療學概論'),
+       ('pt3', ('物理治療技術學',), '物理治療技術學'),
+       ('pt4', ('神經疾病物理治療學',), '神經疾病物理治療學'),
+       ('pt5', ('骨科疾病物理治療學',), '骨科疾病物理治療學'),
+       ('pt6', ('心肺疾病與小兒疾病物理治療學', '心肺疾病物理治療學'), '心肺疾病與小兒疾病物理治療學')]
+
+_OT = [('ot1', ('解剖學與生理學',), '解剖學與生理學'),
+       ('ot2', ('職能治療學概論',), '職能治療學概論'),
+       ('ot3', ('生理障礙職能治療學',), '生理障礙職能治療學'),
+       ('ot4', ('心理障礙職能治療學',), '心理障礙職能治療學'),
+       ('ot5', ('小兒職能治療學',), '小兒職能治療學'),
+       ('ot6', ('職能治療技術學',), '職能治療技術學')]
+
+_NUT = [('nut1', ('生理學與生物化學',), '生理學與生物化學'),
+        ('nut2', ('營養學',), '營養學'),
+        ('nut3', ('膳食療養學',), '膳食療養學'),
+        ('nut4', ('團體膳食設計與管理',), '團體膳食設計與管理'),
+        ('nut5', ('公共衛生營養學',), '公共衛生營養學'),
+        ('nut6', ('食品衛生與安全',), '食品衛生與安全')]
+
+
+def _bysub(table, sn):
+    s = sn.replace(' ', '').replace('\u3000', '')
+    for key, pats, name in table:
+        if any(s.startswith(x) for x in pats): return key, 1, name
+    return None
 
 _NURSE = [('nur1', '基礎醫學', '基礎醫學'),
           ('nur2', '基本護理學', '基本護理學與護理行政'),
@@ -91,7 +153,7 @@ def subs_of(entry):
     v = entry['subs']
     return list(v.values()) if isinstance(v, dict) else v
 
-def build(spec):
+def build(spec, lenient=False):
     inv = json.load(open('inv.json'))
     os.makedirs('out', exist_ok=True); os.makedirs('outimg', exist_ok=True)
     papers, figs, skipped = [], [], []
@@ -99,6 +161,9 @@ def build(spec):
         code = e['code']; roc = int(code[:3])
         nth = e.get('nth') or (1 if '第一次' in e['title'] else 2)
         for c, cn, s, sn in subs_of(e):
+            # 同一份 inv.json 裡混了好幾個類科時（例：med4 一次抓四種醫事人員），
+            # 用 track 只收這個 spec 要的類科，否則不同類科的同名科目會撞在一起。
+            if 'track' in spec and not spec['track'](cn): continue
             if 'resolve' in spec:
                 r = spec['resolve'](sn)
                 if not r: continue
@@ -112,14 +177,18 @@ def build(spec):
             mp = 'pdf/%s_%s_%s_m.pdf' % (code, c, s)
             # 交叉驗證：PDF 表頭的科目名稱要跟平臺一致（表頭常換行，讀不到就略過）
             hdr = P.header_info(qp)[1] or ''
+            bad = None
             if 'pat' in spec:
                 hm = re.search(spec['pat'], hdr)
                 if hm and spec['key'](hm) != key:
-                    raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, spec['key'](hm)))
+                    bad = '%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, spec['key'](hm))
             else:
                 hr = spec['resolve'](hdr)
                 if hr and hr[0] != key:
-                    raise SystemExit('%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, hr[0]))
+                    bad = '%s %s %s 科目不一致：平臺 %s / 表頭 %s' % (code, c, s, key, hr[0])
+            if bad:
+                if not lenient: raise SystemExit(bad)
+                skipped.append(bad); continue
             ans = P.parse_answers(ap)
             # 整份是掃描影像、抽不出文字的卷（例：護理師 108020_106_0505）先跳過並印出來，
             # 不要硬切成 0 題收進題庫。要收的話得先 OCR，這台目前沒有 tesseract。
@@ -134,8 +203,10 @@ def build(spec):
                 if len(alt) == len(ans): qs_raw = alt
                 elif len(alt) > len(qs_raw): qs_raw = alt
             if len(qs_raw) != len(ans):
-                raise SystemExit('%s %s %s（%s）題數 %d ≠ 答案 %d，先修 parse 再跑'
-                                 % (code, c, s, sn[:14], len(qs_raw), len(ans)))
+                msg = ('%s %s %s（%s）題數 %d ≠ 答案 %d，先修 parse 再跑'
+                       % (code, c, s, sn[:14], len(qs_raw), len(ans)))
+                if not lenient: raise SystemExit(msg)
+                skipped.append(msg); continue
             corr = P.parse_corrections(mp) if os.path.exists(mp) else {}
             pid = '%s-%d-%d-%s' % (spec['prefix'], roc, nth, key)
             qs = []
@@ -181,7 +252,9 @@ def main():
     if len(sys.argv) < 2 or sys.argv[1] not in SPECS:
         sys.exit(__doc__ + '\n可用的 spec：' + '、'.join(SPECS))
     spec = SPECS[sys.argv[1]]
-    papers, figs = build(spec)
+    # --lenient：轉一整批（例：其他醫事類 636 卷）時，個別卷壞掉不要整批中止，
+    #            改成跳過並在最後列出來；⛔ 不是「默默收下」，跳掉的一定會印出來。
+    papers, figs = build(spec, lenient='--lenient' in sys.argv)
     ids = [p['id'] for p in papers]
     assert len(set(ids)) == len(ids), '有重複的卷 id：' + str([i for i in ids if ids.count(i) > 1][:5])
     for p in papers:
