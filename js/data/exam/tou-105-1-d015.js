@@ -28,7 +28,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_1.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「paspor」是護照，通關查驗身分與簽證一律以護照為憑，全句問「通過移民關（imigrasi）時必須出示什麼」，答案為護照。\n❌ (A) 「KTP」是印尼國民身分證，只在國內證明身分用，出入境不能替代護照。\n❌ (B) 「kartu asuransi」是保險卡，屬理賠用文件，海關移民官不會查驗。\n❌ (D) 「foto」只是照片，不具官方效力，無法用於證照查驗。\n📚 出處：旅遊實務—出入境查驗文件；印尼語觀光詞彙 imigrasi／paspor"
   },
   {
    "n": 2,
@@ -99,7 +100,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_6.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 諺語「Ada rupa ada harga」字面是「有樣子就有價錢」，即一分錢一分貨，故選「商品價格與商品品質相符」。\n❌ (A) 「價格與品質不符」正好與諺語相反。\n❌ (B) 「價格高於品質」是買貴了，諺語並無此貶義。\n❌ (D) 「品質低於價格」同樣指不划算，與一分錢一分貨的原意不合。\n📚 出處：印尼諺語（peribahasa）Ada rupa ada harga"
   },
   {
    "n": 7,
@@ -184,7 +186,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_12.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 題目問「何者『不是』印尼人的飲食習慣」。印尼菜以熟食為主（炒、炸、燉、烤），沒有吃生食（makanan mentah）的傳統，生食是日式飲食特徵，故 (D) 不是印尼人的習慣。\n❌ (A) 印尼人（尤其鄉間與家庭聚餐）確實習慣席地而坐用餐。\n❌ (B) 用右手抓飯（makan dengan tangan）是印尼常見的飲食方式。\n❌ (C) 印尼菜大量使用辣椒與 sambal，嗜辣是典型飲食習慣。\n📚 出處：印尼社會文化—飲食習慣（kebiasaan makan）"
   },
   {
    "n": 13,
@@ -199,7 +202,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_13.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目問出國旅遊「不」需注意的事項。目的地的「人口數量（jumlah penduduk）」屬統計資料，對行程安排、安全與穿著都沒有實質影響，故為不需特別注意者。\n❌ (B) 目的地的季節（musim）決定衣物與行程，必須事先了解。\n❌ (C) 當地假日與節慶會影響交通、店家營業與景點人潮，也可能是旅遊賣點。\n❌ (D) 治安狀況與當地特殊規定（宗教禁忌、入境限制）攸關人身安全與違規風險，最須注意。\n📚 出處：導遊實務—行前準備與旅遊風險管理"
   },
   {
    "n": 14,
@@ -242,7 +246,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_16.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 諺語「Sekali mendayung dua tiga pulau terlampaui」字面是「划一次槳就越過兩三座島」，即一舉兩得、事半功倍，故選「做一個動作卻獲得加倍成果」。\n❌ (A) 「做很多事只得到一點成果」是事倍功半，語意相反。\n❌ (B) 「做一件事只得到一點成果」是普通情況，未表現出諺語強調的加倍收穫。\n❌ (D) 「做很多事而獲得加倍成果」漏掉「sekali（只一次）」的關鍵，不合原意。\n📚 出處：印尼諺語 Sekali mendayung dua tiga pulau terlampaui"
   },
   {
    "n": 17,
@@ -341,7 +346,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_23.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題幹用「kecuali」問哪一項敘述不正確。尖銳物品（barang tajam，如刀、剪刀）依航空保安規定禁止帶入客艙，只能託運，故「可帶入機艙」是錯的。\n❌ (B) 敘述尖銳物品不得帶上飛機客艙，符合安檢規定。\n❌ (C) 貴重物品不放在託運行李箱，改隨身攜帶，是正確的行李準備原則。\n❌ (D) 超過 100 毫升的液體不得帶入客艙，為國際通行的液體限制規定。\n📚 出處：航空保安規定—客艙違禁品與液體 100ml 限制"
   },
   {
    "n": 24,
@@ -356,7 +362,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_24.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 題幹用「kecuali」問導遊「不」該具備的事項。「用隨便的語氣說話、行為隨心所欲（sembarangan／sesuka hati）」違反服務禮儀與職業倫理，是導遊不可有的態度。\n❌ (A) 具備廣博的知識與見識，是導遊解說的基本條件。\n❌ (B) 服務旅客時親切有耐心，是導遊應有的態度。\n❌ (C) 做事俐落、有幽默感，有助於帶團氣氛與臨場應變。\n📚 出處：導遊實務—導遊職業倫理與服務態度"
   },
   {
    "n": 25,
@@ -385,7 +392,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_26.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 台灣飲食文化的特色是小份量、種類多（porsi kecil dan banyak jenis），夜市小吃即為代表，可一次嘗多樣。\n❌ (A) 台灣菜整體口味偏清淡鮮甜，並非非常辣又鹹。\n❌ (B) 台灣菜與大量香料、咖哩為主的印度菜差異極大。\n❌ (D) 生食（makanan mentah）是日本料理特徵，非台灣飲食主流。\n📚 出處：台灣觀光資源—飲食文化與夜市小吃"
   },
   {
    "n": 27,
@@ -400,7 +408,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_27.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全句意為「負責任的導遊不只要會外語，還必須＿＿」，填入「memperhatikan kepentingan wisatawan yang dipandunya（關照所帶旅客的權益與需求）」最符合「負責任」的語境。\n❌ (A) 「擅長唱歌」只是加分才藝，不是責任所在。\n❌ (C) 「pendiam（沉默寡言）」與需要解說溝通的導遊工作相牴觸。\n❌ (D) 「會開車」屬司機職責，非導遊必要條件。\n📚 出處：導遊實務—導遊職責；印尼語 memperhatikan kepentingan 用法"
   },
   {
    "n": 28,
@@ -415,7 +424,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_28.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 諺語「ada udang di balik batu」字面是「石頭後面有蝦」，比喻話中或行為背後另有企圖，即「mempunyai niat terselubung（懷有不可告人的意圖）」，正合句中提醒提防兜售商品的攤販。\n❌ (B) 「支出多於收入」是入不敷出，另有諺語（besar pasak daripada tiang）。\n❌ (C) 「一個小錯造成大影響」是另一層意思，與隱藏動機無關。\n❌ (D) 「期待不可能發生的事」近似 pungguk merindukan bulan，非本諺語之義。\n📚 出處：印尼諺語 Ada udang di balik batu"
   },
   {
    "n": 29,
@@ -430,7 +440,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_29.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 題目問何者「不是」台灣民眾的特徵。台灣搭手扶梯的習慣是靠右側站立、左側留給趕時間的人通行，敘述成「習慣在左邊排隊」與事實不符。\n❌ (A) 支持、愛用國產品是常見的台灣民眾特質。\n❌ (B) 即使只是小忙也習慣說「謝謝」，符合台灣人有禮的印象。\n❌ (D) 對不認識的人也常面帶微笑，正是台灣以人情味著稱的特點。\n📚 出處：台灣社會文化—公共禮儀與民眾特質"
   },
   {
    "n": 30,
@@ -459,7 +470,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_31.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 原句意為「現今印尼影壇由西洋片主導，儘管如此，本土電影在民眾間的人氣並未消失」，因此正確理解是：除了西洋片，印尼民眾也喜歡本土電影。\n❌ (B) 「只喜歡西洋片、不喜歡本土片」忽略了 tidak hilang（人氣未消）這個轉折。\n❌ (C) 「不喜歡西洋片、只喜歡本土片」與「didominasi oleh film barat」矛盾。\n❌ (D) 「兩者都不喜歡」全句並無此意。\n📚 出處：印尼語閱讀理解—轉折連接詞 meskipun demikian"
   },
   {
    "n": 32,
@@ -474,7 +486,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_32.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 全句意為「現代人的生活方式多半喜歡把部分時間分給＿＿，不再一味只工作」，填入「bersantai misalnya berwisata（放鬆，例如旅遊）」與「不只是工作」形成正面對比，語意通順。\n❌ (A) 「tidur-tiduran（成天躺著）」帶貶義，不是值得安排的時間運用。\n❌ (C) 「bermalas-malasan（偷懶耍廢）」同樣為負面評價。\n❌ (D) 「membuang waktu（浪費時間）」語意消極，與句中肯定的生活態度不符。\n📚 出處：印尼語詞彙—bersantai 與重疊式 ber-…-an 的貶義用法"
   },
   {
    "n": 33,
@@ -610,7 +623,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_42.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 印尼語基本語序為主詞＋助動詞＋動詞＋受詞，否定詞 tidak 置於 boleh 之前，故「Saya tidak boleh meminta uang dari tamu yang saya pandu.（我不可以向我帶的客人要錢）」為正確排列。\n❌ (B) 把 Boleh 提前變成疑問句，且 tidak 位置錯誤，語法不通。\n❌ (C) 主客顛倒成「客人可以向我要錢」，且句末補 tidak 不合語法。\n❌ (D) 少了否定詞，語意變成「我可以向客人要錢」，與原意相反。\n📚 出處：印尼語句法—否定詞 tidak 與情態詞 boleh 的語序"
   },
   {
    "n": 43,
@@ -667,7 +681,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_46.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「duty free shop」即免稅商店，印尼語為「toko yang menjual barang-barang bebas bea cukai（販售免關稅商品的商店）」。\n❌ (A) 賣餐飲的店是 toko makanan／restoran，與免稅無關。\n❌ (B) 「toko obat」是藥局。\n❌ (C) 「toko yang dibuka 24 jam」是 24 小時營業的便利商店。\n📚 出處：觀光英語／印尼語對照—duty free（bebas bea cukai）"
   },
   {
    "n": 47,
@@ -682,7 +697,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_47.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 貓空（Maokong）位於台北市文山區近郊，有貓空纜車（gondola）與大片茶園，是台北市郊著名的觀光休閒區。\n❌ (B) 貓空開放觀光，並非禁止進入的地區。\n❌ (C) 「daerah industri（工業區）」與茶園、纜車的描述不符。\n❌ (D) 「pulau terpencil（偏遠離島）」錯誤，貓空在台北市內的山區。\n📚 出處：台灣觀光資源—台北貓空纜車與茶園"
   },
   {
    "n": 48,
@@ -739,7 +755,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_51.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「berselimut」由 ber-＋selimut（被子）構成，表示「蓋被子」，即 memakai selimut；全句為「他早上一直打噴嚏，因為昨晚睡覺忘了蓋被子」。\n❌ (B) 「tidur」是睡覺，句中已有 waktu tidur，語意重複且不合。\n❌ (C) 「收到被子當禮物」與句意無關。\n❌ (D) 「punya selimut（擁有被子）」只是持有，無法解釋著涼打噴嚏的原因。\n📚 出處：印尼語構詞—ber-＋名詞表「使用、穿戴」"
   },
   {
    "n": 52,
@@ -754,7 +771,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_52.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 日月潭位於邵族聚居地，遊客可欣賞台灣原住民（penduduk asli）的歌舞表演，故填 penduduk asli Taiwan。\n❌ (A) 「asing（外國的）」與台灣本地藝術表演不符。\n❌ (B) 「badui」是印尼萬丹省的原住族群，不在台灣。\n❌ (C) 「sunda」是印尼西爪哇的巽他族，同樣與台灣無關。\n📚 出處：台灣觀光資源—日月潭與邵族原住民文化"
   },
   {
    "n": 53,
@@ -769,7 +787,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_53.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全句意為「如果外語有困難，我們就要常查＿＿書」，填「kamus（字典）」最合理。\n❌ (A) 「buku telepon」是電話簿，查不到語言問題。\n❌ (B) 「buku harian」是日記本。\n❌ (C) 「buku komik」是漫畫書，都不具查詢字義的功能。\n📚 出處：印尼語詞彙—kamus 與 memeriksa buku 搭配"
   },
   {
    "n": 54,
@@ -784,7 +803,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_54.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全句意為「這張明信片不用再貼郵票了，因為上面已經＿＿，寄出去就好」，填「bercap perangko di atasnya（上面已印有郵資戳記）」才能解釋為何不必再貼郵票。\n❌ (A) 「rusak（破損）」反而不能寄。\n❌ (B) 「kadaluwarsa（過期）」用於食品效期，明信片無此概念。\n❌ (C) 「terpakai（已被使用）」語意含糊，不等於已付郵資。\n📚 出處：印尼語詞彙—perangko／cap pos；ber-＋名詞表「帶有」"
   },
   {
    "n": 55,
@@ -813,7 +833,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_56.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「wisata kuliner」是美食之旅，指旅遊時不忘品嚐當地特色食物（menikmati makanan khas setempat），近年蔚為風潮。\n❌ (A) 「menjadi kuli」是做苦力，kuli 與 kuliner 只是字形相近，意思完全不同。\n❌ (B) 「邊旅遊邊工作」是打工度假，非美食之旅。\n❌ (C) 「magang」是實習，與品嚐美食無關。\n📚 出處：印尼語觀光詞彙—wisata kuliner"
   },
   {
    "n": 57,
@@ -898,7 +919,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_62.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「delay」指班機誤點，即抵達（或起飛）時間比原訂時刻表晚。\n❌ (B) 「batal」是取消班機，屬 cancelled，程度不同。\n❌ (C) 「rusak」是機械故障，可能造成延誤，但不等於 delay 的定義。\n❌ (D) 「準時抵達」是 on time，與 delay 相反。\n📚 出處：航空服務用語—delay／on time／cancelled"
   },
   {
    "n": 63,
@@ -913,7 +935,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_63.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「tour guide」的印尼語是「pemandu wisata（導遊）」，在台灣須考取執照、持有正式證照才能執業。\n❌ (A) 「perancang」是設計師、企劃者。\n❌ (B) 「orang yang berwisata」是旅客（wisatawan），是被服務的對象。\n❌ (C) 「guru sekolah」是學校老師。\n📚 出處：印尼語觀光職稱—pemandu wisata（tour guide）"
   },
   {
    "n": 64,
@@ -928,7 +951,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_64.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「berdarmawisata」源自 darmawisata（郊遊、旅行），意為到外地甚至國外遊覽，即 berjalan-jalan ke luar kota atau ke luar negeri。\n❌ (A) 「melanjutkan sekolah」是升學。\n❌ (B) 「berderma」是捐獻行善，雖與 darma 同源，但字義不同，屬易混淆選項。\n❌ (D) 「kuliah」是上大學、修課。\n📚 出處：印尼語詞彙—darmawisata 與 berderma 的辨析"
   },
   {
    "n": 65,
@@ -943,7 +967,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_65.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 全句意為「現在允許帶上機艙的手提包尺寸，已比以前更＿＿」，各航空公司近年收緊手提行李規定，尺寸比過去更小（kecil）。\n❌ (A) 「banyak（多）」形容數量，不能用來描述 ukuran（尺寸）。\n❌ (B) 「更大且不受限制」與現行行李規定相反。\n❌ (C) 「dilarang（被禁止）」是被動動詞，接在 lebih 之後語法不通。\n📚 出處：航空手提行李尺寸規定；印尼語比較級 lebih＋形容詞"
   },
   {
    "n": 66,
@@ -986,7 +1011,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_68.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「每到夏天，來台灣的外國觀光客人數大幅增加」直接談 wisatawan（旅客）與觀光人次，與 pariwisata（觀光）相關。\n❌ (A) 講大學生考試及格，屬教育話題。\n❌ (B) 講大學生半工半讀，屬求學與就業。\n❌ (C) 講台灣傳統市場有冷氣，是生活設施描述，未涉及觀光活動。\n📚 出處：印尼語閱讀理解—pariwisata／wisatawan 主題判讀"
   },
   {
    "n": 69,
@@ -1001,7 +1027,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_69.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 旅客護照遺失的正確處理程序是先到警察局報案取得報案證明，再帶往該國駐外代表處（辦事處）申請補發或入國證明書。\n❌ (A) 帶去逛夜市完全未處理問題。\n❌ (B) 只回飯店無法補發證件，也拿不到報案證明。\n❌ (D) 沿路自己找、不向任何單位報案，會使旅客無法出境並可能遭護照盜用。\n📚 出處：導遊實務—旅客證件遺失處理程序"
   },
   {
    "n": 70,
@@ -1016,7 +1043,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_70.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全句意為「當導遊至少要具備當地社會文化的廣博知識，以及＿＿」，填「fasih berbahasa asing（外語流利）」符合導遊接待外賓的基本條件。\n❌ (B) 「不會外語」與導遊工作要求相反。\n❌ (C) 「隨意更改行程」違反契約與職業規範。\n❌ (D) 「藝人八卦」不是導遊應具備的專業知能。\n📚 出處：導遊實務—導遊應具備的專業條件"
   },
   {
    "n": 71,
@@ -1031,7 +1059,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_71.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文章首句「Seperti kebanyakan orang Taiwan, saya juga suka berwisata ke daerah pegunungan yang banyak di Taiwan」意為「和多數台灣人一樣，我也喜歡到台灣眾多的山區旅遊」，可見台灣人多半愛到山區旅遊。\n❌ (B) 「不喜歡到山區旅遊」與 seperti kebanyakan orang Taiwan…suka 的敘述相反。\n❌ (C) 同樣是否定句，與原文肯定語意矛盾。\n❌ (D) 文中未提台灣人喜歡待在家裡。\n📚 出處：本文閱讀測驗—Berwisata ke Gunung Taiping 第 1 句"
   },
   {
    "n": 72,
@@ -1046,7 +1075,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_72.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文中明寫「Bulan Januari yang lalu, saya berwisata ke daerah gunung Taiping」，即去年（上個）一月前往太平山，故選 Januari。\n❌ (A) Maret 是三月，文中未提。\n❌ (B) Desember 是十二月，文中未提。\n❌ (C) April 是四月，文中未提。\n📚 出處：本文閱讀測驗—Berwisata ke Gunung Taiping（Bulan Januari yang lalu）"
   },
   {
    "n": 73,
@@ -1061,7 +1091,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_73.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 文章結尾寫「Sungguh pengalaman yang menyenangkan sekali」，表示作者對太平山之行的印象是非常愉快（menyenangkan sekali）。\n❌ (A) 「pahit sekali（非常苦澀）」與文中讚嘆 indah sekali 的語氣相反。\n❌ (C) 「membosankan（無聊）」文中並未出現此感受。\n❌ (D) 「tidak suka（不喜歡）」與全文正面描述矛盾；文中辛苦的是跟團爬山，不是太平山之行。\n📚 出處：本文閱讀測驗—Berwisata ke Gunung Taiping 末句"
   },
   {
    "n": 74,
@@ -1076,7 +1107,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_74.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 文中說「hampir seharian saya berada dalam awan, bagaikan tinggal di negeri awan」，幾乎整天置身雲霧中，彷彿住在雲的國度，故選「Saya seperti tinggal di negeri awan」。\n❌ (A) 「睡不著」文中未提。\n❌ (B) 「我不知道」不是文章敘述的感受。\n❌ (D) 搭帳篷、自己煮飯是作者描述「跟團爬山」時的辛苦經驗，不是太平山之行的比喻。\n📚 出處：本文閱讀測驗—Berwisata ke Gunung Taiping（bagaikan tinggal di negeri awan）"
   },
   {
    "n": 75,
