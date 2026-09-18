@@ -7,7 +7,7 @@ NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無（09/17 20:40–09/18 03:41 的 agy Gemini 週限空轉已由 04:10 的 exp-engine-restore.timer 解除）。09/18 16:50 台北現況：導遊領隊 277 卷已完成 167 卷、剩 110 卷（20,840 題已寫 11,175），本機 claude 平均約 8 分鐘／卷、每卷約 $1.5，預估 09/19 白天跑完；worker active、`exp-worker.failed` 空。留存教訓：agy 的 Claude 桶按請求計量、每卷吃 17～18% 週限，只夠 5～6 卷，不能當批次引擎（已寫進 CLAUDE.md）。
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 17:20 台北
+UPDATED: 2026-09-18 17:40 台北
 
 ## 外語科目的解析被寫成外語（2026-09-18 Tony 抓到，已修）
 
@@ -31,6 +31,31 @@ prompt 裡原本只有「繁體中文」四個字，擋不住「這科是日語�
 **順手修掉的地雷**：`exp-engine.sh` 沒帶模型參數時會沿用 unit 裡上次的 `EXP_AGY_MODEL`，
 而 09/17 實驗留下的是 `claude-sonnet-4-6`。誰打一句 `exp-engine.sh agy` 就會去燒 agy 的 Claude 桶
 （按請求計量、一卷吃 17～18% 週限、只夠 5～6 卷），而不是 flash。已改成不指定就一律回 gemini-3.8-flash-high。
+
+## DeepSeek 當第三個引擎：實測結果（2026-09-18 Tony 指定比較）
+
+實測卷 tou-102-1-d003（102 年導遊　觀光資源概要，77 題），prompt 用 exp-prompt.md 改成「直接輸出 JSON」
+（DeepSeek 是純文字 chat API，沒有 Write／Read 工具），切 3 段送，`deepseek -f /tmp/dsN.md --max-tokens 8192`。
+
+| | DeepSeek flash | agy／gemini-3.8-flash-high | 本機 claude opus-5 |
+|---|---|---|---|
+| 每卷 | 約 2 分（26 題／40 秒 ×3）| 244 秒 | 467 秒 |
+| 費用 | 34k tokens 後餘額仍 $19.57（動不到 1 分錢）| $0（訂閱）| $1.38／卷 |
+| 格式 | 撈回的 51 題 set-exp 全過 | 一次過 | 偶爾退回重試 |
+| 品質抽查 | 金廣福、賴和、和平溪三題皆正確且出處具體 | 好 | 好 |
+
+**兩個硬限制（要接進 worker 前先解掉）**：
+1. **讀不了圖**。純文字 API，`Read` 那個 webp 的步驟做不到 → 剩 110 卷裡 435 題（5.1%）要看圖的只能跳過，
+   得留給 claude／agy 補。（查法：`exp-next.js` 列出的卷裡數 `q.fig`）
+2. **輸出上限 8192 tokens**，一卷 80 題約要切 4 段；本次切 3 段有 2 段被 max_tokens 截斷，
+   只撈回 51/77 題。截斷時回的是半截 JSON，要能一個一個撈完整物件，不能整包 JSON.parse。
+
+其他：資料會送到中國伺服器，考古題是考選部公開資料，§13 只禁帳密／銀行／私信／個資，這個用途沒問題。
+計價尖峰是北京週一到五 09–12、14–18（兩倍價），本次就是在尖峰測的，仍然便宜到量不出來。
+餘額查法：`https://api.deepseek.com/user/balance` 帶 key，回 total_balance。
+
+結論：整批剩 112 卷用 DeepSeek 估不到 $1／約 4 小時，用 claude 約 $152 等值／14.5 小時。已建議 Tony 改用
+DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成第三個引擎。
 
 ## 兩個引擎的成本與速度（2026-09-18 實算，導遊領隊同一批卷）
 
