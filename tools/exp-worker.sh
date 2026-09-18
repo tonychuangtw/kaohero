@@ -194,7 +194,12 @@ PY
     node tools/build-pages.js --only "$pid" --write > /dev/null 2>&1
   fi
   # 進度區塊寫進 PROGRESS.md（喚醒腳本與接手的人只看這個檔；§17）
-  skipreasons=$(python3 -c "import json,sys;print('；'.join(f\"#{s['n']} {s['reason']}\" for s in json.load(open(sys.argv[1]))[:12]))" "$T/skip.json" 2>/dev/null)
+  # 同一個理由的題號併成一行（deepseek 引擎一卷可能跳 70 幾題圖片題，逐題列會把 commit 訊息洗爆）
+  skipreasons=$(python3 -c "
+import json,sys,collections
+g=collections.OrderedDict()
+for s in json.load(open(sys.argv[1])): g.setdefault(s['reason'],[]).append(str(s['n']))
+print('；'.join('#'+','.join(ns[:20])+('…' if len(ns)>20 else '')+' '+r for r,ns in list(g.items())[:8]))" "$T/skip.json" 2>/dev/null)
   python3 - "$ROOT/PROGRESS.md" "$pid" "$title" "$n_written" "$n_skip" "$(now)" "$MATCH" "$ENGINE_NAME" <<'PY'
 import sys,re
 f,pid,title,w,s,ts,match,engine=sys.argv[1:]
