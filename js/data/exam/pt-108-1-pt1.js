@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "額骨（frontal bone）",
     "顴骨（zygomatic bone）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顴骨（zygomatic bone）不具副鼻竇，僅構成眼眶外側壁與顴弓，屬顏面骨但無竇腔。\n❌ (A) 蝶骨含蝶竇（sphenoid sinus），位於蝶骨體。\n❌ (B) 上頜骨含上頜竇（maxillary sinus），為最大副鼻竇。\n❌ (C) 額骨含額竇（frontal sinus），位於眶上區。\n📚 出處：Gray's Anatomy for Students，副鼻竇（paranasal sinuses）章節"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "楔狀骨（cuneiform）",
     "距骨（talus）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 距骨（talus）位於內側縱弓頂端，承受來自脛骨之體重並向前後傳遞，為內側縱弓的基石（keystone）。\n❌ (A) 跟骨（calcaneus）為內側縱弓後柱，非基石。\n❌ (B) 骰骨（cuboid）屬外側縱弓。\n❌ (C) 楔狀骨（cuneiform）構成內側縱弓前部，非基石。\n📚 出處：Gray's Anatomy for Students，足部骨骼與足弓（arches of the foot）"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "淚腺（lacrimal gland）位於淚窩中",
     "上⽅、前側及後側分別與額骨、上頜骨及篩骨相接"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 淚窩（lacrimal fossa）內含淚囊（lacrimal sac），並非淚腺；淚腺位於眼眶上外側的淚腺窩。\n❌ (A) 淚骨位於眼眶內側壁前部，正確。\n❌ (B) 淚骨具淚窩，容納淚囊，正確。\n❌ (D) 淚骨上方接額骨、前接上頜骨、後接篩骨，正確。\n📚 出處：Gray's Anatomy for Students，眼眶（orbit）與淚器（lacrimal apparatus）"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "具有肋骨關節⾯（costal facet）",
     "具有橫突孔（transverse foramen）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 橫突孔（transverse foramen）見於頸椎，供椎動脈通過，胸椎無此構造。\n❌ (A) 胸椎共十二個，正確。\n❌ (B) 胸椎椎孔相對較小呈圓形，正確。\n❌ (C) 胸椎體與橫突具肋骨關節面（costal facet），正確。\n📚 出處：Gray's Anatomy for Students，脊椎（vertebral column）各段特徵"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "股⽅肌（quadratus femoris）",
     "股直肌（rectus femoris）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 臀大肌（gluteus maximus）由臀下神經支配，是髖關節最強大的伸肌，用於站起、爬樓梯與跑步。\n❌ (B) 臀中肌主要作用為髖外展。\n❌ (C) 股方肌為髖關節外轉肌。\n❌ (D) 股直肌屬股四頭肌，主要作用為伸膝、輔助屈髖。\n📚 出處：Moore's Clinically Oriented Anatomy，臀部與大腿肌肉"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "腓第三肌（fibularis tertius）",
     "脛前肌（tibialis anterior）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 腓腸肌（gastrocnemius）與比目魚肌合為小腿三頭肌，經跟腱附著於跟骨，收縮時產生足蹠屈（plantar flexion）。\n❌ (B) 伸趾長肌作用為伸展第二至第五趾，兼足背屈。\n❌ (C) 腓第三肌作用為足背屈與外翻。\n❌ (D) 脛前肌作用為足背屈與內翻。\n📚 出處：Moore's Clinically Oriented Anatomy，小腿後腔室肌肉"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "旋前圓肌（pronator teres）",
     "旋前⽅肌（pronator quadratus）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肌皮神經（musculocutaneous nerve）來自臂神經叢外側索，支配喙肱肌、肱二頭肌與肱肌（brachialis），續為前臂外側皮神經。\n❌ (B) 橈側屈腕肌由正中神經支配。\n❌ (C) 旋前圓肌由正中神經支配。\n❌ (D) 旋前方肌由正中神經骨間前支支配。\n📚 出處：Moore's Clinically Oriented Anatomy，臂神經叢分支與上肢肌肉神經支配"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "所有腺體都有交感神經（sympathetic nerve）與副交感神經（parasympathetic nerve）的⽀配",
     "分類上屬於周邊神經系統（peripheral nervous system）的⼀個次系統"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 並非所有腺體均受交感與副交感雙重支配，例如腎上腺髓質僅受交感節前纖維支配，汗腺僅受交感膽鹼性纖維支配。\n❌ (A) 自主神經屬臟器運動系統，調控腺體與平滑肌，正確。\n❌ (B) 由節前與節後神經元構成兩神經元路徑，正確。\n❌ (D) 屬周邊神經系統的一部分，正確。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，自主神經系統"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "三叉神經（trigeminal nerve）",
     "舌咽神經（glossopharyngeal nerve）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 顏面神經（facial nerve）的副交感纖維經翼腭神經節（pterygopalatine ganglion）支配鼻腔黏膜腺體分泌黏液。\n❌ (A) 嗅神經僅為感覺神經，負責嗅覺。\n❌ (C) 三叉神經主司顏面感覺與咀嚼肌運動。\n❌ (D) 舌咽神經支配腮腺分泌及咽部感覺。\n📚 出處：Gray's Anatomy for Students，腦神經功能與副交感路徑"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "交叉反射（crossed reflex）",
     "⾃主反射（autonomic reflex）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 縮手反射由痛覺傳入纖維經中間神經元，再活化屈肌運動神經元，涉及多個突觸，屬多突觸反射。\n❌ (A) 單突觸反射如膝跳反射，僅一個突觸。\n❌ (C) 交叉反射指對側肢體的反應，退縮反射不必然具此特徵。\n❌ (D) 自主反射涉及內臟，本反射屬體運動反射。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，脊髓反射"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "胼胝體（corpus callosum）",
     "放射冠（corona radiata）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 胼胝體（corpus callosum）為最大連合纖維束，連接左右大腦半球對稱區域。\n❌ (A) 內囊為投射纖維（projection fibers），非連合纖維。\n❌ (B) 大腦腳屬中腦構造，含下行的皮質脊髓、皮質延髓與皮質橋纖維。\n❌ (D) 放射冠為皮質與腦幹間的投射纖維。\n📚 出處：Gray's Anatomy for Students，大腦白質纖維分類"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "腸繫膜神經節（mesenteric ganglia）",
     "基底神經節（basal ganglia）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 基底神經節（basal ganglia）位於大腦深部，屬中樞神經系統，不屬周邊神經系統。\n❌ (A) 頸上神經節為交感神經節，屬周邊。\n❌ (B) 背根神經節屬周邊感覺神經節。\n❌ (C) 腸繫膜神經節為腸神經系統的交感節，屬周邊。\n📚 出處：Gray's Anatomy for Students，中樞與周邊神經系統分類"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "橈動脈（radial artery）",
     "腎動脈（renal artery）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 主動脈屬彈性動脈（elastic artery），其管壁中層含大量彈性蛋白與平滑肌交替排列，以緩衝心搏壓力。\n❌ (B) 股動脈屬肌性動脈，彈性蛋白含量少。\n❌ (C) 橈動脈屬肌性動脈，中層以平滑肌為主。\n❌ (D) 腎動脈屬肌性動脈，非彈性動脈。\n📚 出處：Junqueira's Basic Histology，血管分類（elastic vs. muscular artery）"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "腸繫膜下動脈（inferior mesenteric artery）",
     "髂總動脈（common iliac artery）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肝臟血液主要來自肝門靜脈（約75%），肝門靜脈由脾靜脈與腸繫膜上靜脈合成；腹腔動脈幹（celiac trunk）分支中的脾動脈即為脾靜脈來源之一，故肝臟血供源自腹腔動脈幹所分出的肝動脈與肝門靜脈。現行標準答案為腹腔動脈幹。\n❌ (B) 腸繫膜上動脈供應中腸，不直接供應肝。\n❌ (C) 腸繫膜下動脈供應後腸。\n❌ (D) 髂總動脈供應下肢與骨盆。\n📚 出處：Moore's Clinically Oriented Anatomy，腹部動脈與門脈循環"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "會厭軟骨（epiglottic cartilage）",
     "楔狀軟骨（cuneiform cartilage）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 聲帶（vocal fold）前後附著於甲狀軟骨與杓狀軟骨（arytenoid cartilage）的聲帶突，杓狀軟骨移動可改變聲帶張力與位置。\n❌ (B) 環狀軟骨（cricoid cartilage）位於聲帶下方，為喉之基礎軟骨。\n❌ (C) 會厭軟骨（epiglottic cartilage）位於喉口，協助吞嚥時關閉喉口。\n❌ (D) 楔狀軟骨（cuneiform cartilage）為杓狀會厭褶內的彈性軟骨。\n📚 出處：Gray's Anatomy for Students，喉部軟骨與聲帶結構"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "左肺比右肺略⼤",
     "肺尖（apex）位於肺臟的上端"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 右肺因肝臟位於其下且心臟偏左，體積及重量均較左肺大，左肺較小。\n❌ (A) 左肺二葉、右肺三葉，正確。\n❌ (B) 肺門位於兩肺內側面，正確。\n❌ (D) 肺尖位於肺上端，突出胸廓上口，正確。\n📚 出處：Gray's Anatomy for Students，肺臟解剖"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "下頜下腺（submandibular gland）",
     "舌下腺（sublingual gland）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 舌下腺（sublingual gland）屬混合腺，其主要排泄管為大舌下腺管，另有多條小舌下腺管（約8至20條）直接開口於舌下褶，開口的數量最多。\n❌ (A) 胰臟主胰管與副胰管共約1至2個開口。\n❌ (B) 耳下腺排泄管（Stensen氏管）開口於第二上臼齒頰黏膜，僅一個。\n❌ (C) 下頜下腺（Wharton氏管）開口於舌下肉阜，僅一個。\n📚 出處：Gray's Anatomy for Students，唾液腺及其排泄管"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "直腸的肌⾁（musculature of rectum）",
     "坐骨海綿體肌（ischiocavernosus）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 排便時直腸肌肉（musculature of rectum，尤其直腸壁縱肌與環肌）之收縮可將糞便推向肛門並排出，為主要驅動力。\n❌ (A) 肛門外括約肌為隨意肌，排便時需放鬆而非收縮。\n❌ (B) 肛門內括約肌須放鬆以開啟肛門。\n❌ (D) 坐骨海綿體肌與排便無關，屬會陰部肌肉。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，排便反射"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "膀胱後外側⾓（posterolateral angle of bladder）",
     "膀胱前⾓（anterior angle of bladder）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 膀胱下角（inferior angle）為膀胱最下方，向尿道延伸並與尿道相接，尿液由此處進入尿道。\n❌ (A) 膀胱上角朝上，與臍尿管相接。\n❌ (C) 後外側角為輸尿管進入膀胱處。\n❌ (D) 膀胱前角朝前，鄰恥骨聯合後方。\n📚 出處：Gray's Anatomy for Students，膀胱解剖與尿道出口"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "腎⼩管間質的結締組織（interstitial connective tissue between the renal tubules）",
     "集尿管（collecting duct）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 紅血球生成素（erythropoietin）主要由腎臟皮質的腎小管間質細胞（interstitial fibroblast-like cells）製造，缺氧時分泌增加刺激骨髓造血。\n❌ (A) 入球小動脈屬腎絲球血管，非分泌 EPO 的來源。\n❌ (B) 腎小管主要負責重吸收與分泌，非製造 EPO 的細胞。\n❌ (D) 集尿管負責尿液濃縮與水分調節，不製造 EPO。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，紅血球生成調控"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "與肌凝蛋⽩結合，⽔解三磷酸腺苷",
     "與肌動蛋⽩結合，促使細肌絲的滑動"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 乙醯膽鹼（ACh）由運動神經末梢釋放，與骨骼肌細胞膜（運動終板）上的尼古丁受體結合，使鈉離子內流、細胞膜去極化，進而誘發骨骼肌的動作電位。\n❌ (A) 乙醯膽鹼不直接打開細胞膜上的鈣離子通道；骨骼肌收縮所需的鈣是由肌漿網（sarcoplasmic reticulum）釋放，而非由細胞外經膜通道進入。\n❌ (C) 與肌凝蛋白（myosin）結合並水解 ATP 的是肌凝蛋白本身的 ATPase 活性，非乙醯膽鹼；這是橫橋循環的一部分。\n❌ (D) 與肌動蛋白（actin）結合、促使細肌絲滑動的是肌凝蛋白的橫橋，非乙醯膽鹼。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》神經肌肉接合與興奮－收縮耦合章節"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "60度",
     "150度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 肱二頭肌的長度－張力關係（length-tension relationship）呈倒 U 形，在約 60 度屈曲時肌纖維處於最佳初長度（optimal length），肌動蛋白與肌凝蛋白重疊適當，可產生最大主動張力。\n❌ (A) 0 度（完全伸直）時肌肉被拉長、橫橋可作用的範圍受限，且力臂不利，力量非最大。\n❌ (B) 20 度時肌肉仍偏長，主動張力未達峰值。\n❌ (D) 150 度（接近完全屈曲）時肌肉過度縮短，肌動蛋白與肌凝蛋白重疊過多，張力下降。\n📚 出處：肌肉力學之長度－張力關係；Neumann《Kinesiology of the Musculoskeletal System》肘關節章節"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "無論訓練初期或後期，神經與肌⾁的適應等量貢獻肌⼒的增加",
     "肌⼒在阻⼒運動訓練6週後，達顛峰平原期，無法再增加"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 阻力訓練初期（約前 2 週）肌力快速增加，此時肌肉橫截面積尚未明顯改變，主要來自神經適應，包括運動單位徵召增加、放電頻率提高、同步化及拮抗肌放鬆。\n❌ (B) 訓練後期肌力增加主要來自肌肉肥大（收縮蛋白增加、橫截面積變大），此敘述本身方向正確但題目問「適應」總論，依 ANS 應視為非最佳答案；且選項表述過於含糊不精確。\n❌ (C) 神經與肌肉適應並非在初、後期等量貢獻，初期以神經為主，後期才以肌肉為主。\n❌ (D) 6 週後並未達顛峰平原期，持續訓練肌力仍可再增加。\n📚 出處：運動生理學之阻力訓練的神經與肌肉適應（neural adaptation vs. hypertrophy）"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "⽪質醇",
     "雌激素"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 皮質醇（cortisol）屬糖皮質固醇，可促進蛋白質分解（肌肉蛋白質分解、釋出游離胺基酸供糖質新生）並促進脂肪分解，故會促進骨骼肌蛋白質分解。\n❌ (A) 生長激素促進蛋白質合成與生長，屬合成性激素，不促進骨骼肌蛋白分解。\n❌ (B) 類胰島素生長因子（IGF-1）促進蛋白質合成、肌肉生長，為合成性。\n❌ (D) 雌激素可促進蛋白質合成、維持骨質與肌肉量，不促進骨骼肌蛋白分解。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》腎上腺皮質激素章節"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "軸突的向⼼及離⼼⽅向皆會有動作電位之訊號傳送",
     "軸突中段不可能受外來刺激⽽產⽣興奮，⼀定要從軸丘（axon hillock）才會產⽣動作電位"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 軸突中段受刺激時，產生的動作電位會自刺激點沿軸突向其兩側（向心即朝細胞本體、離心即朝軸突末端）雙向傳導，因去極化擴散不受方向限制。\n❌ (A) 不限於僅往軸突末端傳遞，向細胞本體方向同樣可傳導。\n❌ (B) 不限於僅往細胞本體傳遞，向軸突末端方向亦會傳導。\n❌ (D) 軸突中段可受外來刺激興奮，並非只能從軸丘產生動作電位；軸丘僅為生理上自然起始點。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》神經動作電位傳導章節"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①②④",
     "僅②③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 跳躍式傳導因髓鞘絕緣、動作電位只在蘭氏結（nodes of Ranvier）產生，故①增加傳導速度、③節省離子幫浦耗能、④動作電位僅發生於蘭氏結皆正確。\n❌ (A) ②不成立，跳躍式傳導不會放大訊號強度，動作電位大小仍受軸突本身特性決定，訊號不因跳躍而增強。\n❌ (C) ②不成立，訊號放大並非跳躍式傳導的特色；傳導為全或無，不因髓鞘而變大。\n❌ (D) ①不成立，跳躍式傳導最主要的優勢正是大幅提升傳導速度，故不可排除。\n📚 出處：Guyton & Hall, Textbook of Medical Physiology，神經纖維傳導與髓鞘化（saltatory conduction）章節"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "軸突膨體（axon varicosities）",
     "樹突（dendrities）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 自律神經的節後神經元（尤其交感神經）末端為膨大的軸突膨體（axon varicosities），內含囊泡儲存並釋放正腎上腺素、乙醯膽鹼等傳遞物質。\n❌ (A) 終鈕（terminal buttons）主要見於體運動神經與骨骼肌的神經肌肉接合，非自律神經節後神經元的主要釋放結構。\n❌ (B) 軸突終末亦為一般性描述，自律神經節後神經元特徵為沿途分布的膨體。\n❌ (D) 樹突主要接受訊號，並非釋放傳遞物質的結構。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》自律神經系統章節"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "慢速適應（slowly adapting）",
     "知覺衝突（perception conflict）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖中兩側中央菱形顏色相同卻感覺深淺不同，是側邊抑制（lateral inhibition）造成的錯覺：相鄰受刺激神經元互相抑制，使對比邊緣被強化，此為視網膜水平細胞與感覺系統強化對比的重要機制。\n❌ (B) 快速適應指受器對持續刺激迅速降低反應，與明暗對比錯覺無關。\n❌ (C) 慢速適應指受器對持續刺激維持反應，同樣非本現象。\n❌ (D) 知覺衝突指不同感覺訊息矛盾，非本題對比強化現象。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》感覺系統之側邊抑制（lateral inhibition）機制"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "450",
     "400"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 正常吸氣開始到結束＝潮氣容積（TV）。IRV＝TLC－（FRC＋TV），FRC＝1,800，TLC＝5,800，故 TV＝5,800－1,800－3,450＝550 mL。\n❌ (B) 500 mL 為一般成人平均值，非依本題數據計算之結果。\n❌ (C) 450 與計算不符。\n❌ (D) 400 與計算不符。\n📚 出處：肺容積與肺容量的定義與計算（TLC＝IRV＋TV＋ERV＋RV；IRV＝TLC－FRC－TV）"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "減少；肺泡壓（alveolar pressure）與肋膜間壓（intrapleural pressure）的壓⼒差變⼤",
     "減少；肺泡壓（alveolar pressure）與肋膜間壓（intrapleural pressure）的壓⼒差變⼩"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 肺纖維化使肺順應性下降、彈性回縮增加，功能肺餘量（FRC＝ERV＋RV）減少；肺泡壓與肋膜間壓之壓力差（即肺回縮力量）變大，屬限制性肺病之特徵。\n❌ (A) FRC 不會增加，且肋膜間壓變小並非肺纖維化之變化方向。\n❌ (B) FRC 減少而非增加；肺纖維化時肺回縮力增大，肋膜間壓更負（更小），非變大。\n❌ (D) 壓力差是變大而非變小。\n📚 出處：呼吸生理學之限制性肺病肺容積變化；West《Respiratory Physiology》肺順應性章節"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "笑氣（N2O）",
     "氮氣（N2）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 一氧化碳（CO）為臨床最常用測量肺氣體擴散率（DLCO）的氣體：CO 與血紅素親和力極高、在血中濃度近乎維持為零，且微量即可測，可反映肺泡－微血管膜之擴散能力。\n❌ (A) 二氧化碳（CO2）擴散極快，血液中濃度變動亦複雜，不適合用於測量擴散率。\n❌ (C) 笑氣（N2O）可用於測量肺血流量等，但臨床上不作為標準 DLCO 測定氣體。\n❌ (D) 氮氣（N2）不與血紅素結合、溶解度低，多用於肺容積測定，非擴散率標準氣體。\n📚 出處：West《Respiratory Physiology》氣體擴散與 DLCO 測定章節"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "氧氣直接溶解於⾎漿及與⾎紅素結合的總量",
     "氣體交換程度"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 氧飽和度（SpO2／SaO2）指血紅素與氧結合的比例，即氧合血紅素占總血紅素的百分比，反映氧氣與血紅素之結合量，非溶解量。\n❌ (A) 氧氣直接溶解於血漿的量極少，以 PaO2 表示，非氧飽和度。\n❌ (C) 溶解氧加結合氧的總量為血氧含量（CaO2），非飽和度。\n❌ (D) 氧飽和度是間接反映氣體交換的結果，本身並非直接代表氣體交換程度。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》氧氣運輸與氧合血紅素解離曲線章節"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "鉀",
     "鐵"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 迷走神經末梢釋放乙醯膽鹼作用於竇房結與房室結的 M2 受器，增加鉀離子通透性（鉀外流），使膜過極化、傳導纖維不易興奮，心跳減慢。\n❌ (A) 增加鈉通透性會造成去極化、易興奮，與迷走作用相反。\n❌ (B) 鈣通透性增加（如交感作用）會使興奮性與收縮力上升，非迷走作用。\n❌ (D) 鐵並非心臟電生理中調控膜電位的離子。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》心臟迷走神經調控與膜電位章節"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "微⾎管（capillaries）＞微靜脈（venules）＞微動脈（arterioles）＞⼩的靜脈（small veins）",
     "微⾎管（capillaries）＞微靜脈（venules）＞⼩的靜脈（small veins）＞微動脈（arterioles）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 血管總截面積以微血管最大（因數目龐大且分支出許多微血管），其次為微靜脈、小靜脈，小的動脈總截面積最小，故排序為微血管＞微靜脈＞小靜脈＞微動脈。\n❌ (A) 微靜脈總截面積小於微血管，且排序起點錯誤。\n❌ (B) 微動脈之總截面積最小，不應排首位。\n❌ (C) 微血管＞微靜脈方向正確，但小靜脈總截面積大於微動脈，選項順序錯誤。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》血管順應性與截面積章節"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "化學感受器機制",
     "腎素－⾎管收縮素－醛固酮系統"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腎素－血管收縮素－醛固酮系統（RAAS）屬較慢、需數小時至數日的長期血壓調控，不屬於快速急性作用。\n❌ (A) 壓力感受器回饋是數秒內作用的快速急性機制。\n❌ (B) 中樞神經系統缺血性機制為急性血壓調控，缺血時交感大量放電使血壓急升。\n❌ (C) 化學感受器機制亦屬快速急性之血壓調控。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》動脈壓調節之急性與長期機制章節"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅②③",
     "僅②④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 冠狀血管主要受交感與副交感自律神經調控：交感節後釋放正腎上腺素／腎上腺素作用於β受體，副交感（迷走）釋放乙醯膽鹼作用於M受體，故①乙醯膽鹼與③腎上腺素可直接作用於冠狀血流。\n❌ (B) ④GABA是中樞神經系統主要的抑制性傳導物質，並非冠狀血管的直接調控物質。\n❌ (C) ②多巴胺主要作用於腎、腦血管與中樞，並非冠狀血流的直接神經傳導物質，且①為正確項。\n❌ (D) ②多巴胺與④GABA皆非冠狀血流直接的神經傳導物質，兩者均應排除。\n📚 出處：Guyton & Hall, Textbook of Medical Physiology，冠狀循環之神經調控章節"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "成年時期⽣⻑激素（growth hormone）分泌過少",
     "成年時期甲狀腺激素（thyroid hormone）分泌過少"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 呆小症（cretinism）為幼年時期甲狀腺激素（thyroid hormone）分泌不足所致，因甲狀腺素是胎兒及幼童腦與骨骼發育所必需，缺乏會造成智能障礙與生長遲滯。\n❌ (A) 幼年時期生長激素過少造成的是侏儒症（pituitary dwarfism），智能正常、身材對稱矮小。\n❌ (C) 成年時期生長激素過少不會造成呆小症，成年後生長板已閉合，主要表現代謝異常。\n❌ (D) 成年時期甲狀腺激素過少造成黏液水腫（myxedema），無智能發育障礙。\n📚 出處：Guyton & Hall, Textbook of Medical Physiology，甲狀腺激素與發育章節；內分泌學（甲狀腺機能低下）"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "⼤部分恆定控制靠負回饋（negative feedback），正回饋（positive feedback）有時會導致惡性循環與死亡",
     "適應控制（adaptive control）是⼀種更複雜的恆定控制，其調節的校正甚⾄可以發⽣在下次的動作"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 內在環境（internal environment）指的是細胞外液（extracellular fluid），而非細胞內液，故本敘述錯誤。\n❌ (A) 恆定觀念由美國生理學家 Walter Cannon 所倡導，敘述正確。\n❌ (C) 大部分恆定控制靠負回饋，正回饋有時導致惡性循環與死亡，敘述正確。\n❌ (D) 適應控制（adaptive control）為較複雜之恆定控制，校正甚至可發生於下次動作，敘述正確。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》恆定與細胞外液章節"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "主動運輸（active transport）",
     "滲透（osmosis）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 促進擴散（facilitated diffusion）不需能量，但需攜帶體蛋白質協助，使葡萄糖、胺基酸等分子順濃度梯度通過細胞膜。\n❌ (A) 擴散（diffusion）為被動運輸，多不需攜帶體蛋白質（簡單擴散）。\n❌ (C) 主動運輸需消耗能量（ATP），與題目「不需能量」不符。\n❌ (D) 滲透（osmosis）為水分子通過膜的被動運輸，通常不需攜帶體蛋白質（僅部分水通道蛋白協助）。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》細胞膜運輸機制章節"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "是藉由醣質新⽣作⽤（glyconeogenesis），將儲存的肝醣分解成葡萄糖，以供腦部及紅⾎球使⽤",
     "禁食時⾝體可由胺基酸及三酸⽢油脂來轉變合成葡萄糖"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯誤在於醣質新生（glyconeogenesis）是指由非醣類前驅物（如胺基酸、甘油、乳酸）合成葡萄糖，而將儲存的肝醣分解成葡萄糖的過程稱為肝醣分解（glycogenolysis），非醣質新生。\n❌ (A) 肝臟是禁食時維持血糖的主要器官（肝醣分解與糖質新生），敘述正確。\n❌ (B) 禁食（尤其長期）會刺激腎上腺皮質分泌糖皮質固醇，促進糖質新生，敘述正確。\n❌ (D) 禁食時可由胺基酸及甘油（來自三酸甘油脂）轉變成葡萄糖，敘述正確。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》禁食代謝與糖質新生章節"
   },
   {
    "n": 41,
@@ -546,7 +586,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①③",
     "①②③④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 完整描述一個向量需同時指明作用點（起點／作用位置）、強度（大小）、方向（箭頭指向）與空間方位（所在平面與姿態），四者缺一不可，故①②③④全選。\n❌ (A) 只有作用點與強度，缺少方向與空間方位，無法完整定位向量。\n❌ (B) 只有強度與方向，缺少作用點與空間方位，向量位置不明。\n❌ (C) 只有作用點與方向，缺少強度即無法量化其大小。\n📚 出處：生物力學向量分析基本概念（vector quantity 需 magnitude、direction、point of application、orientation）"
   },
   {
    "n": 42,
@@ -559,7 +600,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅②③④",
     "①②③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 並聯彈性成分指與收縮元件並行、包在肌肉外的結締組織，包括肌外膜、肌束膜與肌內膜，故②③④正確。\n❌ (A) 肌腱位於肌肉兩端、與收縮元件串聯，屬串聯彈性成分（series elastic component），非並聯。\n❌ (B) 僅列肌束膜與肌內膜，漏掉肌外膜，不完整。\n❌ (D) 含肌腱在內，肌腱屬串聯而非並聯成分。\n📚 出處：肌肉力學之串聯與並聯彈性成分（series vs parallel elastic component）"
   },
   {
    "n": 43,
@@ -572,7 +614,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "彈性應變、屈服點（yield point）、塑性應變、最終破壞點",
     "塑性應變、彈性應變、屈服點（yield point）、最終破壞點"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 韌帶受力時依應力－應變曲線先出現彈性應變（可回復），到達屈服點後進入塑性應變（不可回復），最後於最終破壞點斷裂，故順序為彈性應變→屈服點→塑性應變→最終破壞點。\n❌ (A) 塑性應變在屈服點之後，不可能先於屈服點出現。\n❌ (B) 塑性應變須在屈服點之後才發生，順序顛倒。\n❌ (D) 彈性應變必為最先出現的階段，不可能由塑性應變開始。\n📚 出處：韌帶生物力學 stress-strain curve（elastic region、yield point、plastic region、failure point）"
   },
   {
    "n": 44,
@@ -585,7 +628,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①②",
     "①②③"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ①錯：肌肉由休息長度縮短時被動張力幾乎為零但非「不變」的說法有誤；②錯：由休息長度拉長時被動張力一開始上升緩慢後快速增加，非「先增加再降低」；③的主動／被動張力敘述亦與標準長度－張力曲線不符，故選②③。\n❌ (A) ①確有問題但③亦錯，不能僅選①③。\n❌ (C) ②③均有誤，非僅①②。\n❌ (D) 全部皆列為錯誤並不正確，①為錯誤敘述但題目要求的是②③。\n📚 出處：肌肉長度－張力關係（length-tension relationship，主動張力、被動張力與總張力曲線）"
   },
   {
    "n": 45,
@@ -598,7 +642,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "上舉35度、向上旋轉25度",
     "上舉25度、向上旋轉35度"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 肩部外展180度時肩胛胸廓需上旋約60度，其中胸鎖關節提供約25度上舉（elevation）、肩鎖關節提供約35度向上旋轉，兩者比例約為 2:5 而對應 25:35。\n❌ (A) 上舉10度、向上旋轉50度與實際比例相反。\n❌ (B) 上舉50度過大，胸鎖關節實際貢獻約25度。\n❌ (C) 上舉35度、向上旋轉25度把兩關節貢獻對調。\n📚 出處：肩關節複合體力學（scapulohumeral rhythm，胸鎖與肩鎖關節上旋貢獻比例）"
   },
   {
    "n": 46,
@@ -611,7 +656,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "形成橈腕關節凹⾯部分的延伸",
     "轉移從⼿部到前臂的部分壓⼒"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 三角纖維軟骨複合體位於腕部尺側，主要功能是穩定遠橈尺關節、延伸橈腕關節凹面並分散傳遞至前臂的壓力，並無「增強腕關節橈側力量」的功能，故本項錯誤。\n❌ (A) TFCC 是遠橈尺關節的主要穩定構造，敘述正確。\n❌ (C) TFCC 構成橈腕關節凹面的尺側延伸，敘述正確。\n❌ (D) TFCC 可吸收並轉移手部傳來的部分壓力，敘述正確。\n📚 出處：手部生物力學，三角纖維軟骨複合體（TFCC）之解剖與功能"
   },
   {
    "n": 47,
@@ -624,7 +670,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "同時伸直掌指關節和屈曲指間關節",
     "同時屈曲掌指關節和伸直指間關節"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 手部蚓狀肌（lumbricals）起自屈指深肌腱、止於伸指肌腱膜，收縮時屈曲掌指關節（MCP）並伸直指間關節（IP），此即書寫、抓握的精細動作。\n❌ (A) 蚓狀肌不會屈曲指間關節，屈曲IP主要由屈指淺肌與屈指深肌負責。\n❌ (B) 蚓狀肌不伸直掌指關節，伸直MCP為伸指肌與背側骨間肌的功能。\n❌ (C) 蚓狀肌不伸直掌指關節，此描述與解剖附著及功能相反。\n📚 出處：Moore's Clinically Oriented Anatomy，手部內在肌（intrinsic muscles）章節"
   },
   {
    "n": 48,
@@ -637,7 +684,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "下斜⽅肌",
     "菱形肌"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「push-up plus」是在標準伏地挺身後再把胸廓推離地面（肩胛骨前伸），此動作主要由前鋸肌（serratus anterior）收縮造成肩胛骨前突，是訓練前鋸肌的經典運動。\n❌ (B) 中斜方肌主要負責肩胛骨後縮，與肩胛前伸動作相反。\n❌ (C) 下斜方肌負責肩胛骨下壓與上轉，非肩胛前伸的主要動作肌。\n❌ (D) 菱形肌負責肩胛骨後縮與下轉，與push-up plus的前伸動作相反。\n📚 出處：Kisner & Colby, Therapeutic Exercise，肩胛穩定肌訓練（serratus anterior）章節"
   },
   {
    "n": 49,
@@ -650,7 +698,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①②④",
     "僅①②"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肱橈肌（brachioradialis）受橈神經支配，屬雙關節肌（跨肘關節），表淺可由表面直接觸摸，近端起自肱骨外上髁嵴（lateral supracondylar ridge），①③④正確。\n❌ (B) ②錯誤：肱橈肌僅跨肘關節，屬單關節肌，並非雙關節肌肉。\n❌ (C) ②錯誤：同上述，肱橈肌並非雙關節肌；①③④正確。\n❌ (D) ③④錯誤：肱橈肌表淺可觸摸且近端起自肱骨外上髁嵴，此二項正確不可排除。\n📚 出處：Moore's Clinically Oriented Anatomy，前臂屈肌群（brachioradialis）章節"
   },
   {
    "n": 50,
@@ -663,7 +712,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "伸直30度",
     "伸直60度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 握力受腕關節角度影響，腕關節在輕度伸直約30度時，屈指肌處於最適長度（length-tension關係），可產生最大抓握力，因此以伸直30度最佳。\n❌ (A) 腕屈曲60度時屈指肌過度縮短、處於主動不足狀態，握力明顯下降。\n❌ (B) 屈曲0度（中立位）握力尚可但非最大，較伸直30度略低。\n❌ (D) 伸直60度時腕伸肌收縮使屈指肌被拉長過度，握力減弱。\n📚 出處：Norkin & Levangie, Joint Structure and Function，手腕手部生物力學（握力與腕角度關係）章節"
   },
   {
    "n": 51,
@@ -676,7 +726,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "胸⼩肌",
     "腰⽅肌"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腰方肌（quadratus lumborum）附著於髂骨與腰椎，主要作用為腰椎側屈與骨盆上提，並不直接參與肩胛骨下沉，與肩胛骨下沉無關。\n❌ (A) 下斜方肌是肩胛骨下沉的主要肌肉之一，與下沉直接相關。\n❌ (B) 闊背肌附著於肱骨並經由收縮使肩胛骨下壓、內收，參與肩胛骨下沉。\n❌ (C) 胸小肌收縮會使肩胛骨前傾與下壓，參與肩胛骨下沉機制。\n📚 出處：Kendall, Muscles: Testing and Function，肩胛骨運動與肌肉動作章節"
   },
   {
    "n": 52,
@@ -689,7 +740,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "肱三頭肌",
     "肘後肌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肱二頭肌（biceps brachii）收縮除屈肘外，因其附著於橈骨粗隆，能將橈骨旋後，是前臂最強的旋後肌，尤其屈肘時旋後力量最大。\n❌ (A) 肱肌（brachialis）為單純的肘屈肌，附著於尺骨，不產生旋後動作。\n❌ (C) 肱三頭肌（triceps brachii）為肘伸肌，主要作用於伸肘，與旋後無關。\n❌ (D) 肘後肌（anconeus）協助伸肘及穩定肘關節，並非旋後肌。\n📚 出處：Moore's Clinically Oriented Anatomy，上臂肌肉（biceps brachii）功能章節"
   },
   {
    "n": 53,
@@ -702,7 +754,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅③④",
     "僅①②"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 髖關節被動外轉時，位於關節前內側、限制外轉的構造被拉緊：髂股韌帶（iliofemoral ligament）與恥骨韌帶（pubofemoral ligament）皆屬前側韌帶，外轉時緊繃，②④正確。\n❌ (B) ①下關節囊與③坐股韌帶為後側構造，主要限制髖關節內轉與伸展，外轉時反而鬆弛。\n❌ (C) ③坐股韌帶為後側構造，外轉時鬆弛；且②④才是前側限制外轉的韌帶。\n❌ (D) ①下關節囊為後下方構造，外轉時不緊繃，主要限制內轉與伸展。\n📚 出處：Norkin & Levangie, Joint Structure and Function，髖關節囊與韌帶章節"
   },
   {
    "n": 54,
@@ -715,7 +768,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "過度膝內翻",
     "脛骨向外扭轉"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 脛骨向外扭轉（external tibial torsion）會使髕骨相對於股骨溝產生向外偏移的力線，造成髕骨過度外移及髕股關節壓力增加。\n❌ (A) 股內側肌太緊會將髕骨向內拉，反而不易造成髕骨外移，且實際上股內側肌無力才易外移。\n❌ (B) 髂脛束鬆弛不會加劇髕骨外移；相反地髂脛束過緊才是髕骨外移的因素。\n❌ (C) 膝內翻（genu varum）改變的是脛股關節力線，對髕骨外移的直接影響不如脛骨外旋明顯。\n📚 出處：Kisner & Colby, Therapeutic Exercise，髕股疼痛症候群（patellofemoral pain syndrome）章節"
   },
   {
    "n": 55,
@@ -728,7 +782,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "直到肩膀離開床⾯之後，腰⼤肌變成主要的動作肌",
     "若是腹肌⼒氣夠強，腰⼤肌就會把腰椎過度伸展"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 仰臥起坐中，腹肌力氣不足時腰大肌才會代償使腰椎過度前凸；若腹肌夠強會與腰大肌共同穩定腰椎，不會造成過度伸展，故此敘述錯誤。\n❌ (A) 起始階段頸部屈肌與腹肌確實以向心收縮啟動動作，敘述正確。\n❌ (B) 肩膀離床後腹肌等長收縮穩定軀幹，敘述正確。\n❌ (C) 肩離床後腰大肌逐漸成為主要動作肌以完成軀幹上抬，敘述正確。\n📚 出處：Kendall, Muscles: Testing and Function，腹部肌群與仰臥起坐動作分析章節"
   },
   {
    "n": 56,
@@ -741,7 +796,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "股內側肌",
     "後⼗字韌帶"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 後十字韌帶主要限制脛骨後移，位於膝關節後方，對髕骨在股骨溝內的前後、內外穩定幾乎沒有直接貢獻，與髕骨穩定度最不相關。\n❌ (A) 髕韌帶連接髕骨下緣與脛骨粗隆，是維持髕骨位置的重要構造。\n❌ (B) 外側支持帶提供髕骨外側穩定，防止過度內移或外移。\n❌ (C) 股內側肌（尤其VMO）收縮時向內拉髕骨，是動態穩定髕骨的關鍵肌肉。\n📚 出處：Norkin & Levangie, Joint Structure and Function，膝關節（髕骨穩定構造）章節"
   },
   {
    "n": 57,
@@ -754,7 +810,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "前後⼗字韌帶在膝關節動作過程中，⻑度變化不⼤",
     "內外副韌帶會限制住脛骨相對股骨在冠狀⾯的動作"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 膝關節四連桿（four-bar linkage）模型建立於前後十字韌帶在整個膝屈伸過程中長度變化不大（近似等長），使股骨與脛骨形成一連動系統，帶動關節面滾動與滑動。\n❌ (A) 四連桿不是因為有四條韌帶，而是由股骨、脛骨與前後十字韌帶所構成的連桿幾何。\n❌ (B) 限制前後與內外位移是十字韌帶的功能，但並非建立四連桿模型所依據的關鍵現象。\n❌ (D) 內外副韌帶限制冠狀面動作，與矢狀面四連桿模型的建立無直接關係。\n📚 出處：Norkin & Levangie, Joint Structure and Function，膝關節生物力學（四連桿模型）章節"
   },
   {
    "n": 58,
@@ -767,7 +824,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "縫匠肌",
     "膕肌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 股二頭肌短頭僅附著於股骨，不跨膝關節，無法作用於脛骨旋轉，因此不是控制脛骨相對股骨外轉的肌肉。\n❌ (A) 股薄肌跨膝關節內側，收縮可使脛骨內轉，屬控制外轉的肌肉之一。\n❌ (C) 縫匠肌位於內側、跨膝關節，收縮使脛骨內轉，可抵抗過度外轉。\n❌ (D) 膕肌附著於脛骨後方與股骨外髁，可解鎖並使脛骨內轉，屬控制外轉的肌肉。\n📚 出處：Moore's Clinically Oriented Anatomy，膝關節周圍肌肉與旋轉控制章節"
   },
   {
    "n": 59,
@@ -780,7 +838,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "可產⽣約35%的阻⼒，以限制軀幹過度往後伸展",
     "對於骨突關節囊（apophyseal joint capsules）有保護作⽤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 黃韌帶（ligamentum flavum）連結相鄰椎板，富含彈性纖維，可限制軀幹過度前彎並保護骨突關節囊（apophyseal joint capsules），故(D)正確。\n❌ (A) 黃韌帶主要成分為彈性蛋白而非淡黃色膠原蛋白，其黃色來自彈性纖維。\n❌ (B) 黃韌帶附著於相鄰椎板的後表面與前表面之間，正確描述應為連結上下椎板，而非僅止於後表面。\n❌ (C) 黃韌帶主要限制軀幹過度前彎（屈曲），而非往後伸展，且阻力比例敘述不符。\n📚 出處：Moore's Clinically Oriented Anatomy，脊椎韌帶（ligamentum flavum）章節"
   },
   {
    "n": 60,
@@ -793,7 +852,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①③④",
     "僅①②④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 附著於薦椎、收縮可增加薦髂關節穩定者為梨狀肌、臀大肌與腰多裂肌，②③④正確，因其附著跨越薦髂關節或薦骨並提供穩定力量。\n❌ (A) ①股二頭肌附著於腓骨與坐骨粗隆，未直接附著於薦椎，不屬荐髂穩定肌。\n❌ (C) ①股二頭肌不附著於薦椎，不參與荐髂關節穩定。\n❌ (D) ①股二頭肌不附著於薦椎，故含①之選項皆不正確。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，薦髂關節穩定機制章節"
   },
   {
    "n": 61,
@@ -806,7 +866,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "腰⽅肌",
     "腰⼤肌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 腹直肌位於腹壁前側，收縮時將胸廓與骨盆相互拉近、壓縮腹腔內容物，可直接增加腹內壓（如咳嗽、用力解便時）。\n❌ (A) 多裂肌屬脊椎深層穩定肌，主要負責節段間穩定與伸展，非直接增壓。\n❌ (C) 腰方肌主要在側彎與穩定腰椎，對腹內壓貢獻非直接。\n❌ (D) 腰大肌主要為髖屈曲與腰椎穩定，不直接增加腹內壓。\n📚 出處：Kisner & Colby, Therapeutic Exercise，軀幹穩定與腹內壓機轉章節；Netter's Atlas of Human Anatomy，腹壁肌肉功能"
   },
   {
    "n": 62,
@@ -819,7 +880,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "豎棘肌離⼼收縮，髖伸肌離⼼收縮",
     "豎棘肌離⼼收縮，髖伸肌向⼼收縮"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 鞠躬是軀幹前彎的動作，豎棘肌等背伸肌群需離心收縮以控制身體前傾速度；髖伸肌（臀大肌、腿後肌）亦同時離心收縮，控制骨盆前傾與髖屈曲，故兩者皆為離心。\n❌ (A) 豎棘肌離心而非向心，髖伸肌亦為離心。\n❌ (B) 兩者皆非向心收縮。\n❌ (D) 髖伸肌實際為離心收縮以控制動作，非向心。\n📚 出處：Kisner & Colby, Therapeutic Exercise，離心收縮與功能性動作控制章節"
   },
   {
    "n": 63,
@@ -832,7 +894,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "60度胸椎25度腰椎彎曲",
     "45度胸椎40度腰椎彎曲"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 胸腰段整體彎曲約85度時，胸椎貢獻約35度、腰椎貢獻約50度，腰椎活動度大於胸椎，故為35度胸椎＋50度腰椎。\n❌ (A) 50度胸椎35度腰椎之比例與實測相反。\n❌ (C) 60度胸椎25度腰椎不符胸腰活動度分布。\n❌ (D) 45度胸椎40度腰椎不符脊椎節段活動度比例。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，脊椎活動度章節（胸椎與腰椎彎曲分布）"
   },
   {
    "n": 64,
@@ -845,7 +908,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "後縱韌帶（posterior longitudinal ligament）：⾝體向後伸直時放鬆",
     "椎間韌帶（interspinous ligaments）：限制⾝體向前彎曲"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 黃韌帶位於椎板之間、富含彈性纖維，身體前彎（屈曲）時會被拉長而處於緊繃（張力增加）狀態，並非放鬆，故敘述錯誤。\n❌ (A) 前縱韌帶位於椎體前緣，後伸時被拉緊，可限制後伸，敘述正確。\n❌ (C) 後縱韌帶位於椎體後緣，後伸時相對放鬆，敘述正確。\n❌ (D) 棘間韌帶連接棘突之間，前彎時被拉緊而限制屈曲，敘述正確。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，脊椎韌帶功能章節"
   },
   {
    "n": 65,
@@ -858,7 +922,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 兒童坐前座且面向後時，氣囊爆開瞬間力量作用於頭顱，最易造成頭部傷害，故②正確；氣囊在低速撞擊即可能爆開並造成兒童傷害，故③正確；①所述向前坐之傷害主要在頸椎而非胸椎，故①錯誤。\n❌ (A) ①錯誤，向前坐主要傷及頸椎。\n❌ (B) ①錯誤，且②③皆成立。\n❌ (D) ①與事實不符，非全部正確。\n📚 出處：兒科安全座椅與氣囊傷害相關文獻（American Academy of Pediatrics 建議）；物理治療小兒科學相關教材"
   },
   {
    "n": 66,
@@ -871,7 +936,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①③④",
     "①②③④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 胸鎖乳突肌單側收縮可使頸部側彎並轉向對側，雙側收縮在頸椎下段屈曲、上段（頭部）伸展，且參與頸部旋轉，四項敘述皆為其功能。\n❌ (A) 僅①②不完整，側彎與旋轉亦為其功能。\n❌ (B) 僅③④不完整，屈曲與伸展亦為其功能。\n❌ (C) 僅①③④不完整，雙側收縮亦可使頭部伸展。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，頸部肌肉功能章節；Gray's Anatomy for Students 頭頸部肌肉"
   },
   {
    "n": 67,
@@ -884,7 +950,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "在右側站立末期，左側骨盆與髖關節往下掉",
     "在左側站立末期，右側骨盆與髖關節往下掉"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 右側臀中肌無力，在右腳站立中期時無法穩定骨盆，對側（左側）骨盆與髖關節往下掉，即出現陽性 Trendelenburg 徵象。\n❌ (B) 患側為右側，故應在右側站立中期出現骨盆下掉。\n❌ (C) 骨盆下掉發生於站立中期，非站立末期。\n❌ (D) 下掉的是對側（左側）骨盆，且時期為站立中期。\n📚 出處：Kisner & Colby, Therapeutic Exercise，步態分析章節；Neumann, Kinesiology 髖外展肌功能"
   },
   {
    "n": 68,
@@ -897,7 +964,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①③",
     "僅②④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 大腿內收肌群在初接觸期（①）協助髖關節穩定與承重，在擺盪前期（③）協助大腿向前擺動並控制下肢，故為①③。\n❌ (A) 初擺盪期（④）內收肌群活性已下降，非活躍期。\n❌ (B) 站立中期與擺盪前期中僅③正確，②不屬主要活躍期。\n❌ (D) 初接觸期（①）內收肌群活躍，非②④。\n📚 出處：Perry & Burnfield, Gait Analysis: Normal and Pathological Function，下肢肌肉於步態週期中的活動"
   },
   {
    "n": 69,
@@ -910,7 +978,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "需要有好的協調性來維持",
     "必須要有⾜夠的柔軟度才能達成"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 好的姿勢並非以最少能量維持為唯一標準，因姿勢受個體結構、習慣與環境影響，僅強調耗能最少是以偏概全，故此敘述錯誤。\n❌ (B) 良好姿勢確實使關節面受力均勻、摩擦最小，敘述正確。\n❌ (C) 需良好神經肌肉協調以維持，敘述正確。\n❌ (D) 需足夠柔軟度以達成理想排列，敘述正確。\n📚 出處：Kisner & Colby, Therapeutic Exercise，姿勢與排列評估章節"
   },
   {
    "n": 70,
@@ -923,7 +992,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "膝關節⻑期無活動，會導致膝關節伸直攣縮，進⽽在擺盪期缺乏膝屈曲",
     "股四頭肌肌⼒不⾜，會導致承重期軀幹前傾，將重⼒移近膝關節以減少股四頭肌負擔"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 股四頭肌無力時，承重期無法對抗膝屈曲力矩，但不會直接導致「過度膝屈曲」；反而是為避免膝屈曲而出現膝反屈或軀幹前傾等代償，故此敘述錯誤。\n❌ (B) 前側膝痛會使患者縮短患側承重期以減少疼痛，敘述正確。\n❌ (C) 長期不活動造成膝伸直攣縮，擺盪期缺乏膝屈曲，敘述正確。\n❌ (D) 股四頭肌無力時以軀幹前傾使重力線靠近膝關節、減少股四頭肌力矩需求，敘述正確。\n📚 出處：Perry & Burnfield, Gait Analysis，膝關節相關步態異常章節"
   },
   {
    "n": 71,
@@ -936,7 +1006,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "兩者皆有明顯的雙腳⽀撐期",
     "在⽀撐期時肌⾁活動強度較⼤"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 跑步時並無雙腳支撐期，而是有雙腳騰空期（flight phase），與走路有明顯雙腳支撐期不同，故此敘述錯誤。\n❌ (A) 跑步著地時膝屈曲角度較大以吸收衝擊，敘述正確。\n❌ (B) 支撐面積小、骨盆向支撐腳偏移，產生功能性內翻，敘述正確。\n❌ (D) 跑步支撐期肌肉活動強度大於走路，敘述正確。\n📚 出處：Perry & Burnfield, Gait Analysis: Normal and Pathological Function，跑步步態章節"
   },
   {
    "n": 72,
@@ -949,7 +1020,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖示站立末期時，脛股關節內外側接觸點連線（instant center 軌跡相關）對應圖中④，故選④。\n❌ (A) ①連線方向與站立末期膝關節接觸點不符。\n❌ (B) ②連線方向不符站立末期力學。\n❌ (C) ③連線方向不符膝關節屈曲伸展時的接觸點變化。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，膝關節力學與脛股關節接觸章節"
   },
   {
    "n": 73,
@@ -962,7 +1034,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "②①③④",
     "④③①②"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 站立前期膝屈曲角度由小到大為：慢走＜自然速度行走＜快走＜跑步，故順序為①②③④。\n❌ (B) ④③②①為由大到小，與題目要求相反。\n❌ (C) ②①③④順序錯誤，慢走應小於自然速度行走。\n❌ (D) ④③①②順序錯誤。\n📚 出處：Perry & Burnfield, Gait Analysis，行走與跑步膝關節運動學比較"
   },
   {
    "n": 74,
@@ -975,7 +1048,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "在加速期，肱三頭肌必須等⻑收縮，以保持肘關節伸直的動作",
     "在隨勢期，棘下肌需活化"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 加速期時肱三頭肌為向心收縮以主動伸直肘關節，而非等長收縮，故此敘述錯誤。\n❌ (A) 準備期肌肉活動較加速期低，敘述正確。\n❌ (B) 加速期肩關節水平內收，作用肌含胸大肌與前鋸肌，敘述正確。\n❌ (D) 隨勢期棘下肌活化以減速肩外展與外轉，敘述正確。\n📚 出處：網球正手拍生物力學分析文獻（如 Kibler 等）；運動物理治療相關教材"
   },
   {
    "n": 75,
@@ -988,7 +1062,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "彈⼒蛋⽩（elastin）",
     "第⼀型膠原蛋⽩（Type I collagen）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 骨骼有機成分主要為第一型膠原蛋白（約90%），另有少量蛋白多醣與水，彈力蛋白（elastin）並非骨骼主要成分。\n❌ (A) 水為骨骼重要成分，約占20～25%。\n❌ (B) 蛋白多醣為骨骼有機基質成分之一。\n❌ (D) 第一型膠原蛋白為骨骼最主要的有機成分。\n📚 出處：Nordic Textbook of Orthopaedics 或骨科生物力學教材，骨骼組成章節"
   },
   {
    "n": 76,
@@ -1001,7 +1076,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "僅①②③",
     "僅②③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 肌腱（①）與韌帶（②）膠原纖維排列規則以承受張力；關節軟骨深層（③）膠原纖維呈垂直排列亦具規則性；中間層（④）纖維呈隨機排列，不規則，故為①②③。\n❌ (A) 僅①②不完整，關節軟骨深層亦規則。\n❌ (B) ③正確但④不規則，且①亦正確。\n❌ (D) ④為不規則排列，不應選。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，肌腱、韌帶與關節軟骨結構章節"
   },
   {
    "n": 77,
@@ -1014,7 +1090,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "韌帶中膠原纖維排列較肌腱平⾏，以利承受較⾼的單⼀⽅向張⼒",
     "肌腱與韌帶的黏彈特性，使其在增加受⼒速率時，得以增加強度與剛性"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 韌帶的膠原纖維排列較肌腱不規則（較多交織），以承受多方向張力；肌腱排列較平行以承受單一方向張力，故此敘述錯誤。\n❌ (A) 老化使肌腱與韌帶張力強度下降，敘述正確。\n❌ (B) 類固醇會降低肌腱與韌帶最大負荷，敘述正確。\n❌ (D) 黏彈特性使受力速率增加時強度與剛性增加，敘述正確。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，肌腱與韌帶生物力學章節"
   },
   {
    "n": 78,
@@ -1027,7 +1104,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "股骨頸傾斜⾓（angle of inclination）過⼤稱為髖外翻（coxa valga）",
     "正常股骨前傾⾓（anteversion）約為15度"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 股骨前傾角過大代表股骨頸相對股骨髁過度向前扭轉，會造成腳趾朝內（toe-in），而非朝外，故此敘述錯誤。\n❌ (A) 正常股骨頸傾斜角約125度，敘述正確。\n❌ (C) 傾斜角過大稱髖外翻（coxa valga），敘述正確。\n❌ (D) 正常股骨前傾角約15度，敘述正確。\n📚 出處：Neumann, Kinesiology of the Musculoskeletal System，髖關節結構與股骨角度章節"
   },
   {
    "n": 79,
@@ -1040,7 +1118,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "應⼒鬆弛（stress-relaxation）",
     "塑性（plasticity）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 反覆載重與卸載所形成的鬆弛度曲線迴圈，因能量在組織內耗散而形成遲滯現象（hysteresis），故選遲滯。\n❌ (A) 潛變指固定負荷下隨時間變形增加，非迴圈。\n❌ (C) 應力鬆弛指固定應變下應力隨時間下降，非迴圈。\n❌ (D) 塑性指變形無法回復，非遲滯迴圈。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，黏彈性行為章節"
   },
   {
    "n": 80,
@@ -1053,7 +1132,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt1'] = {
     "黏彈性（viscoelasticity）",
     "黏稠性（viscosity）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 鬆弛度曲線呈現載重與卸載路徑不重合（遲滯迴圈），且隨時間與載重速率改變，具依時性、能量耗散等特徵，屬黏彈性（viscoelasticity）。\n❌ (A) 純彈性材料載重路徑與卸載路徑重合，無遲滯迴圈。\n❌ (B) 塑性指永久變形，非本題鬆弛度曲線表現。\n❌ (D) 黏稠性為黏彈性的一部分，非整體力學特性名稱。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，韌帶黏彈性與遲滯現象"
   }
  ]
 };
