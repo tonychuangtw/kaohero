@@ -57811,7 +57811,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（法語）",
   "label": "106 年　導遊人員　外國語（法語）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 80
  },
  {
