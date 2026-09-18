@@ -3768,6 +3768,53 @@
    "at": "2026-09-14"
   }
  ],
+ "tou-102-1-l004": [
+  {
+   "n": 32,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 33,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 34,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 35,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 36,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 77,
+   "reason": "題組閱讀測驗，但本文（Mount Rushmore 相關文章）未提供",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 78,
+   "reason": "題組閱讀測驗，但本文（Crazy Horse Memorial 相關段落）未提供",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 79,
+   "reason": "題組閱讀測驗，但本文（Gutzon Borglum 相關內容）未提供",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 80,
+   "reason": "題組閱讀測驗，但本文（四位美國總統相關內容）未提供",
+   "at": "2026-09-18"
+  }
+ ],
  "tou-102-1-l005": [
   {
    "n": 17,
