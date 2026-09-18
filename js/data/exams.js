@@ -58105,7 +58105,7 @@ window.APP_EXAMS = [
   "subjName": "導遊實務（一）",
   "label": "105 年　導遊人員　導遊實務（一）",
   "n": 80,
-  "exp": 0,
+  "exp": 75,
   "mins": 60
  },
  {
