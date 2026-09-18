@@ -1,13 +1,37 @@
 STATUS: in-progress
 OBJECTIVE: 把考英雄全站的逐題詳解寫完（藥師、中醫師、教師檢定、高普考、地方特考、護理師、初等考試、警察特考皆已完成）；目前＝導遊領隊 277 卷 20,840 題的詳解，由 exp-worker 逐卷跑
-NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09-17 14:25 台北起跑；警察特考已於 09/17 08:12 收工，596 卷 18,759 題／96.6%）。**2026-09-18 04:10 台北已自動切回本機 claude（claude-opus-5）**：`exp-engine-restore.timer` 如期執行、worker 已重啟接著跑 tou-110-1-d003，09/17 20:40 起的 agy Gemini 週限空轉結束。Gemini 週限台北 09/23 10:26 重置，屆時可 `tools/exp-engine.sh agy` 切回 gemini-3.8-flash-high 掃剩餘卷（較省 Claude 額度）。手動切換／查引擎：`tools/exp-engine.sh agy|claude|status`。
-　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（導遊領隊已完成 → 下一科＝**其他醫事類：醫檢師、物理治療師、營養師、職能治療師**），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
+NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`）。**2026-09-18 18:10 台北起引擎＝deepseek**（Tony 指定：日語卷補完、北京尖峰 18:00 過後開始跑剩下的）。兩段式收尾：
+　（1）**現在**：DeepSeek 跑文字題，剩 104 卷／7,771 題，一卷約 30 秒，估 1 小時內跑完。圖片題（433 題）會自動被標成 `DEFER-FIG` 延後。
+　（2）**文字題跑完後**：`node tools/exp-skip-drop.js --reason-match '^DEFER' --match '^tou-' --write` 把延後的題放回佇列 → `tools/exp-engine.sh claude` 切回本機 claude 補圖片題（433 題，claude 讀得了 webp）。
+　（3）兩段都做完要跟 Tony 報總花費：claude 段看 `~/.claude/exp-worker.log` 的 `cost=` 加總；DeepSeek 段看餘額差（**起跑餘額 US$19.41，2026-09-18 18:10 台北**，查法 `ssh tonychuangtw@192.168.1.173 'K=$(grep -oP "(?<=^DEEPSEEK_API_KEY=).*" ~/.config/deepseek/.env); curl -s https://api.deepseek.com/user/balance -H "Authorization: Bearer $K"'`）。
+　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後，依 Tony 2026-09-09 定的順序轉檔下一科（導遊領隊之後＝**其他醫事類：醫檢師、物理治療師、營養師、職能治療師**），轉檔流程見下方「新增科目：警察特考」那節，照抄即可。
 　換科目＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無（09/17 20:40–09/18 03:41 的 agy Gemini 週限空轉已由 04:10 的 exp-engine-restore.timer 解除）。09/18 16:50 台北現況：導遊領隊 277 卷已完成 167 卷、剩 110 卷（20,840 題已寫 11,175），本機 claude 平均約 8 分鐘／卷、每卷約 $1.5，預估 09/19 白天跑完；worker active、`exp-worker.failed` 空。留存教訓：agy 的 Claude 桶按請求計量、每卷吃 17～18% 週限，只夠 5～6 卷，不能當批次引擎（已寫進 CLAUDE.md）。
-PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 17:40 台北
+BLOCKERS: 無。09/18 18:10 台北現況：導遊領隊剩 104 卷／8,204 題（文字 7,771、圖片 433），引擎切 deepseek 中（`exp-engine.sh` 會等手上那卷做完再換手）。09/18 白天 claude 段每卷約 8 分、$1.2～2.9。
+PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
+UPDATED: 2026-09-18 18:12 台北
+
+## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
+
+`tools/exp-engine.sh deepseek` 即可切。實作 `tools/exp-deepseek.js`：切 20 題一段、平行 3 段送、
+撈回覆裡完整的 JSON 物件（不整包 parse，截斷的自然丟掉）、用 `set-exp.js` 驗格式、被退或沒回來的重試一次。
+實測 tou-105-1-l009 80 題：**29 秒、80 題全寫、格式一次過**，餘額兩位數沒動（對照 claude 每卷 8 分 $1.5）。
+
+**⚠ 一定要帶 `--no-think`（今天卡最久的地方）**：`deepseek-flash` 預設會先思考，思考的字數也算在
+`max_tokens` 裡。一次送 15 題時 8192 全被思考吃光 —— **API 回 200、usage 顯示 out=8192，但 content 是空字串**，
+看起來像「模型什麼都沒回」而且不會報錯（症狀：`harvest` 撈到 0 題、每段都「少了 15 題」）。
+加 `--no-think`（送 `reasoning_effort=none`）後同一份 prompt 從 133 秒／30,373 tokens 變成 10 秒／2,552 tokens，
+品質一樣。這個選項已加進共用的 `claude-shared/tools/deepseek-cli.py`，其他線批次產長內容時照用。
+
+**讀不了圖怎麼辦**：純文字 API，有 `fig` 的題一律不送，記成 skip 理由 `DEFER-FIG：…`。
+不記的話那一卷永遠有未寫題、worker 每輪再挑到它，會無限重做。文字題整批跑完後：
+```
+node tools/exp-skip-drop.js --reason-match '^DEFER' --match '^tou-' --write   # 放回佇列
+tools/exp-engine.sh claude                                                     # 切回 claude 補圖片題
+```
+真正寫不出來的題（轉檔毀損、官方答案有疑義）理由不是 DEFER 開頭，不會被放回去。
+兩輪都沒回來或格式兩次不合的題記成 `DEFER-DS`，同樣由 claude 補。
 
 ## 外語科目的解析被寫成外語（2026-09-18 Tony 抓到，已修）
 
