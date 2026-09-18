@@ -1008,7 +1008,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l004'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103040_601_0401_71.webp"
+   "fig": "img/q/103040_601_0401_71.webp",
+   "exp": "✅ (C) 空格前是不定詞 to，作者是「被」美國家庭養大，需用被動的「to be raised by...」，全句為「我 1974 年八個月大時離開台灣，到底特律由一個美國家庭撫養長大」，語法與語意都成立。\n❌ (A) 「bringing up」是動名詞主動形，接在 to 之後成為「to bringing up」不合語法，且 bring up 主動表示「養育別人」，主詞應是養父母而非嬰兒。\n❌ (B) 「taken to live」缺少 be 動詞，「to taken」不成句；若要用被動須寫成「to be taken to live with」。\n❌ (D) 「being taken care」同樣接在 to 之後語法不合，且 take care 需加介系詞 of（taken care of by），此處直接接 by 亦錯。\n📚 出處：領隊英語文法：不定詞的被動式 to be + 過去分詞"
   },
   {
    "n": 72,
@@ -1023,7 +1024,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l004'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/103040_601_0401_72.webp"
+   "fig": "img/q/103040_601_0401_72.webp",
+   "exp": "✅ (A) 「located」為過去分詞當形容詞的分詞片語，還原為 which is located，表示「位於」。全句「台北位於距中國東南岸約一百英里處，是一片高樓、佛寺與川流車陣交織的擁擠景觀」，是描述地理位置的標準用法。\n❌ (B) 「mapped」意為「被繪製成地圖、被詳細記錄」，不用來表示某地座落於何處。\n❌ (C) 「carried」意為「被搬運、被載運」，城市不會被搬運，語意不通。\n❌ (D) 「placed」指人為擺放某物，帶有刻意安置的語感，不用於描述城市的既有地理位置，英文慣用 located 或 situated。\n📚 出處：領隊英語文法：分詞片語 be located in/at 表地理位置"
   },
   {
    "n": 73,
@@ -1038,7 +1040,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l004'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103040_601_0401_73.webp"
+   "fig": "img/q/103040_601_0401_73.webp",
+   "exp": "✅ (B) 「biological family」指親生家庭。作者八個月大即被美國家庭收養，文中說「我以前從不想造訪台灣或我的親生家人」，與被領養的背景完全呼應。\n❌ (A) 「economical」意為「省錢的、經濟實惠的」，用來修飾家人不合語意。\n❌ (C) 「premiere」指（電影、戲劇的）首演，或作形容詞表「首要的」，與家庭無關。\n❌ (D) 「revolutionary」意為「革命性的」，與收養、血緣的語境毫無關聯。\n📚 出處：領隊英語字彙：biological parents/family（親生父母、原生家庭）"
   },
   {
    "n": 74,
@@ -1053,7 +1056,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l004'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103040_601_0401_74.webp"
+   "fig": "img/q/103040_601_0401_74.webp",
+   "exp": "✅ (B) 「assimilating」意為「融入、同化」，與空格後的 to 搭配成 assimilate to。前句說作者覺得再也不想離開，此處接「奇妙地融入了一個自己從未認識的地方與人」，分詞片語補述主詞 I，語意與結構皆通。\n❌ (A) 「similarly」是副詞，不能接 to 形成此處的分詞結構，也無法表達「融入」。\n❌ (C) 「interesting」表示「令人感興趣的」，主詞應為事物而非作者本人，且不與 to 搭配作此用法。\n❌ (D) 「uninterested」意為「不感興趣的」，與作者不想離開、深受吸引的心情正好相反。\n📚 出處：領隊英語字彙：assimilate to/into（融入當地文化）"
   },
   {
    "n": 75,
@@ -1068,7 +1072,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l004'] = {
    ],
    "needfig": true,
    "fig": "img/q/103040_601_0401_75.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「a sense of belonging」是固定搭配，意為「歸屬感」。作者原為異鄉人，卻在初訪出生地時強烈感到融入，因此日後會回想這份強烈的歸屬感是否只是一場夢。\n❌ (A) 「losing」指失去，與作者剛獲得連結的感受相反。\n❌ (B) 「missing」意為想念或遺失，作者人正在台灣現場，並非在思念某地。\n❌ (C) 「longing」是渴望，雖可說 a sense of longing，但文中描述的是已經產生連結的歸屬感，且同句末已用 an illusion of desire 表達渴望，選 longing 會語意重複。\n📚 出處：領隊英語字彙：a sense of belonging（歸屬感）"
   },
   {
    "n": 76,
