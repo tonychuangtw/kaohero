@@ -3,6 +3,7 @@
 #
 #   tools/exp-engine.sh agy [模型]   → 改走 runner 的 agy（Google AI Pro 訂閱，不吃 Claude 額度）
 #   tools/exp-engine.sh claude       → 改回本機 claude -p
+#   tools/exp-engine.sh deepseek     → 改走 DeepSeek API（預付按量，2026-09-18 起；讀不了圖，圖片題會延後）
 #   tools/exp-engine.sh status       → 只看現在是哪一個
 #
 # 2026-09-16 Tony 定案：Claude 週限撞 83% → 先切 agy／gemini-3.8-flash-high；
@@ -18,8 +19,8 @@ curmodel() { grep -oP '(?<=^Environment=EXP_AGY_MODEL=).*' "$UNIT" 2>/dev/null |
 
 case "$cmd" in
   status) echo "引擎：$(cur)（agy 模型 $(curmodel)）；worker $(systemctl --user is-active exp-worker)"; exit 0 ;;
-  agy|claude) ;;
-  *) echo "用法：exp-engine.sh agy|claude|status [模型]" >&2; exit 2 ;;
+  agy|claude|deepseek) ;;
+  *) echo "用法：exp-engine.sh agy|claude|deepseek|status [模型]" >&2; exit 2 ;;
 esac
 
 # 切到 agy 沒指定模型時一律回到 gemini-3.8-flash-high，不繼承上一次的設定：

@@ -13,6 +13,10 @@
 # 引擎（2026-09-16 Tony 定案，Claude 週限撞 83%）：
 #   EXP_ENGINE=claude（預設）→ 本機 claude -p
 #   EXP_ENGINE=agy           → ssh 到 runner 跑 agy（Antigravity CLI，Google AI Pro 訂閱，$0 API、不吃 Claude 額度）
+#   EXP_ENGINE=deepseek      → tools/exp-deepseek.js（ssh 到 runner 打 DeepSeek API，預付按量、極便宜）
+#     2026-09-18 Tony 定案接成第三個引擎。一卷 80 題 29 秒、費用量不出來（餘額兩位數沒動）；
+#     缺點是讀不了圖 —— 有 fig 的題會被標成 DEFER-FIG 延後，最後用 claude 補：
+#       node tools/exp-skip-drop.js --reason-match '^DEFER' --match '^tou-' --write
 #   實測同一卷 pol-102-1-b002：flash 190s／pro 233s／agy 內的 opus-4-6 282s，三家格式都一次過、
 #   跳過判斷一致；但 opus 一卷就吃掉 agy 內 Claude 週限 5%（一週只夠 20 卷），gemini 兩卷半週限沒動 → 用 gemini。
 #   ⛔ 台北週五 04:00 Claude 週限重置後要改回 claude（Tony 指定），見 tools/exp-engine.sh。
@@ -29,7 +33,7 @@ set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/bin/claude"            # 走 shim：TELEGRAM_STATE_DIR 一定被清成誘餌，不會搶 kaohero 線的 bot
 MODEL="${EXP_MODEL:-claude-opus-5}"
-ENGINE="${EXP_ENGINE:-claude}"          # claude | agy
+ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_ROOT="${EXP_AGY_ROOT:-/home/tonychuangtw/TelegramClaude/kaoguhero}"
 AGY_MODEL="${EXP_AGY_MODEL:-gemini-3.8-flash-high}"
@@ -65,6 +69,7 @@ rm -f "$STOP"
 cd "$ROOT" || exit 1
 
 wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到就等，不要在撞頂時空轉燒重試
+  [ "$ENGINE" = claude ] || return 0            # 這兩個記號是本機 Claude 的額度，agy／deepseek 不受影響
   while :; do
     local until_ts; until_ts=$(cat "$PAUSED" 2>/dev/null || echo 0)
     if [ "${until_ts:-0}" -gt "$(date +%s)" ] 2>/dev/null; then log "wait paused-until $(TZ=Asia/Taipei date -d "@$until_ts" '+%H:%M')"; sleep 300; continue; fi
@@ -75,10 +80,16 @@ wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到
 
 # prompt 裡的路徑要填模型看得到的那一台：claude 跑本機，agy 跑 runner
 if [ "$ENGINE" = agy ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="agy/$AGY_MODEL"
+elif [ "$ENGINE" = deepseek ]; then P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="deepseek/${EXP_DS_MODEL:-deepseek-flash}"
 else P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="claude/$MODEL"; fi
 
 run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；patch/skip 一律回到 $T
   local pf="$1" of="$2" rc=0
+  # deepseek 沒有 agent loop，prompt 檔用不到：切段、撈 JSON、驗格式、寫 patch/skip 都在 exp-deepseek.js 裡
+  if [ "$ENGINE" = deepseek ]; then
+    node tools/exp-deepseek.js "$pid" "$T" > "$of" 2>> "$T/err.txt"
+    return $?
+  fi
   if [ "$ENGINE" = agy ]; then
     ssh "${SSHOPT[@]}" "$AGY_HOST" "mkdir -p $AGY_T && rm -f $AGY_T/patch.json $AGY_T/skip.json $AGY_T/out.json $AGY_T/err.txt" >/dev/null 2>&1
     scp -q "${SSHOPT[@]}" "$pf" "$AGY_HOST:$AGY_T/prompt.md" >/dev/null 2>&1 || { echo "scp prompt 失敗" >> "$T/err.txt"; return 1; }
@@ -142,7 +153,7 @@ print(f"in={i//1000}k out={u.get('output_tokens',0)//1000}k{cost} turns={d.get('
 PY
 )
   # 撞額度／登入問題：不算失敗，等 30 分再試同一卷
-  if grep -qiE 'usage limit|rate limit|overloaded|login|credit balance|authentication|resource_exhausted|quota|permission denied|connection (refused|closed)' "$T/err.txt" "$T/out.json" 2>/dev/null && [ ! -s "$T/patch.json" ]; then
+  if grep -qiE 'usage limit|rate limit|overloaded|login|credit balance|insufficient balance|HTTP 40[12]|authentication|resource_exhausted|quota|permission denied|connection (refused|closed)' "$T/err.txt" "$T/out.json" 2>/dev/null && [ ! -s "$T/patch.json" ]; then
     log "$pid 額度或連線問題（rc=$rc）：$(tr '\n' ' ' < "$T/err.txt" | cut -c1-160)，等 30 分"
     consec_fail=$((consec_fail+1)); [ "$consec_fail" -ge 6 ] && { report "⚠️ $(now) 詳解 worker 連續 6 次撞額度／連線問題，先停。查 ~/.claude/exp-worker.log"; break; }
     sleep 1800; continue
