@@ -23184,7 +23184,7 @@ window.APP_EXAMS = [
   "subjName": "小兒職能治療學",
   "label": "110 年第二次　小兒職能治療學",
   "n": 80,
-  "exp": 0,
+  "exp": 77,
   "mins": 60
  },
  {
