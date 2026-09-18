@@ -11,7 +11,7 @@ VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build
 BLOCKERS: 無。09/18 19:21 台北現況：導遊領隊只剩 453 題圖片題（31 卷），引擎已切回 claude 在跑；`exp-worker.failed` 空。
 
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 19:25 台北
+UPDATED: 2026-09-18 19:45 台北
 
 ## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
 
@@ -99,6 +99,36 @@ Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 claude/claude-opus-5）。最後一卷：tou-105-1-l001 105 年　領隊人員　領隊實務（一），寫 11 題、跳過 0 題，09/18 19:35 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
+
+## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
+
+抽查 98 卷 7,273 題（27 個科目代碼各一題＋全卷自動掃）：**結構與內容判斷都好**，
+外語寫成外語 0 題、過短 0 題、空出處 0 題；語言題（日韓法德西泰越印馬俄義）文法點講得準確，
+史地、禮儀、觀光常識也對。**問題只有一個：引用的法條條號常常是掰的。**
+
+證據（同一個考點在不同卷被寫成不同條號 ＝ 幻覺，不是版本差異）：
+
+| 考點 | DeepSeek 寫的 | 實際（全國法規資料庫查證） | claude 寫的 |
+|---|---|---|---|
+| 責任保險・每一旅客證件遺失 2,000 元 | 第 24／12／5 條（三卷三種） | 旅行業管理規則第 66 條（舊編 53） | 第 53 條 ×2，一致 |
+| 緊急事故 24 小時內報備 | 第 54 條 | 第 52 條（舊編 39） | 第 39 條 ×3，一致 |
+| 自行組團非經旅客書面同意不得轉讓 | 第 26／28 條 | 第 40 條 | 第 24 條 ×1 |
+
+範圍：7,284 題裡只有 **531 題（7.3%）** 引了條號，集中在 26 卷、四個科目代碼
+（導遊實務二 `d002`／`d017`、領隊實務二 `l002`／`l009`），語言與史地題完全不碰條號。
+
+**處理**：用 `tools/exp-clear.js` 把這 531 題清掉，交給 claude 重寫（Tony 09/18 選項 A）：
+```
+node tools/exp-clear.js --grep '第\s*\d+\s*條' --pids tools/exp-ds-papers-2026-09-18.txt --write
+node tools/build-index.js --write && node test/test.js
+git add -A && git commit && git push
+systemctl --user start exp-worker          # 引擎已是 claude
+```
+⚠ 一定要等 worker 閒著（`exp-next` 剩 0 卷或 unit inactive）再清，不然會跟它同時寫同一個題庫檔。
+原文備份在 `tools/exp-clear-backup.json`；DeepSeek 那批卷的清單在 `tools/exp-ds-papers-2026-09-18.txt`。
+
+**以後怎麼用 DeepSeek**：語言、史地、常識、計算題放心用（一卷 30 秒、$0.008）；
+**法規題（會引條號的科目）不要用 DeepSeek**，或用了之後把條號拿掉只留法規名稱。
 
 ## 初等考試 106～115 年人工逐卷時期的紀錄（2026-09-13～14，由 kaohero 線在對話裡做；之後改 worker）
 
