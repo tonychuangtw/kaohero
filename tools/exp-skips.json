@@ -3768,6 +3768,68 @@
    "at": "2026-09-14"
   }
  ],
+ "tou-105-1-l001": [
+  {
+   "n": 5,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 11,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 24,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 26,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 31,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 32,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 34,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 39,
+   "reason": "題幹所述電子機票收據為圖片，題目文字未提供圖中內容，無法判讀各選項。",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 46,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 52,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 54,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 63,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  }
+ ],
  "tou-105-1-l003": [
   {
    "n": 35,
