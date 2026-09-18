@@ -461,7 +461,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d004'] = {
     "collaboration",
     "exploitation"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) exploitation 意為「（過度）開發、剝削、利用」。句意：數十年來的過度開發導致當地植物數量大幅減少，如今已不再是常見的景象；exploitation of natural resources 是常見搭配，符合語意。\n❌ (A) civilization 意為「文明」，指人類社會文化發展，與植物數量銳減的因果關係不合。\n❌ (B) corruption 意為「貪腐、腐敗」，多用於指人為貪汙或道德敗壞，無法說明植物減少。\n❌ (C) collaboration 意為「合作、協作」，語意正面，與造成環境破壞的結果不符。\n📚 出處：環境生態英文詞彙：natural resource exploitation（資源開發）vs. conservation（保育）"
   },
   {
    "n": 31,
@@ -729,7 +730,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d004'] = {
     "detour",
     "distance"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) distance 意為「距離、遠方」，in the distance 是固定片語「在遠處」，全句指千里眼將軍舉手眺望遠方，語意與前文 looking into 相符。\n❌ (A) discord 意為「不和、爭執」，與眺望動作及方位描述無關。\n❌ (B) demand 意為「要求、需求」，無法與 looking into 構成眺望遠方的意思。\n❌ (C) detour 意為「繞道、迂迴路線」，與神將遠望的意象不合。\n📚 出處：觀光英文：媽祖廟神將千里眼（Qianli Yan, Thousand-Mile Eye）與順風耳介紹；片語 in the distance"
   },
   {
    "n": 49,
@@ -832,7 +834,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d004'] = {
     "trilingual",
     "bicultural"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) bilingual 意為「雙語的」，指台北捷運的標示同時有中文與英文兩種語言，與 in Chinese and English 完全對應。\n❌ (A) mutual 意為「相互的、彼此的」（如 mutual respect），不能用來指兩種語言的標示。\n❌ (C) trilingual 意為「三語的」，但句中只提到中文與英文兩種語言，數目不符。\n❌ (D) bicultural 意為「雙文化的」，指文化認同或內涵，不是指語言文字的並列。\n📚 出處：英語字首 bi- 與 tri- 的用法（bilingual／trilingual／bicultural）；捷運導覽英語"
   },
   {
    "n": 56,
@@ -1055,7 +1058,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d004'] = {
     "pension",
     "compensation"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) reduction 意為「減少、降低」。句意：YouBike 新費率政策使周轉率下降，如今在台北租借自行車更加容易；turnover rate 之前用 a reduction in 表示「……的減少」，符合後句「更容易租到」的邏輯。\n❌ (A) tuition 意為「學費」，與自行車租借周轉率無關。\n❌ (C) pension 意為「退休金、年金」，語意完全不合。\n❌ (D) compensation 意為「補償、賠償」，與周轉率的升降無關。\n📚 出處：公共政策英文詞彙：turnover rate（周轉率）與 reduction in……的搭配用法；YouBike 政策相關報導"
   },
   {
    "n": 71,
