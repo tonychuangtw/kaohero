@@ -1082,7 +1082,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102040_404_0409_76.webp"
+   "fig": "img/q/102040_404_0409_76.webp",
+   "exp": "✅ (A) 句子是「Deutschland steckt jedes Jahr ＿＿ in die Bildung」，片語「Geld in etwas stecken」意為「把錢投入某事」。填入「Milliarden」（數十億）作受詞，指德國每年投入數十億（歐元）於教育，正好與後句「Doch das Geld ist falsch angelegt（但這筆錢投錯地方）」的轉折相呼應。\n❌ (B) 「nichts」是「什麼都沒有」，若國家分文未投，後文就無「錢被投錯地方」可談，前後矛盾。\n❌ (C) 「Feuer」是火，與教育經費無關，語意不通。\n❌ (D) 「Dollar」是美元，德國使用歐元；且貨幣單位須有數字在前（如 zehn Milliarden Euro），單獨填入不成句。\n📚 出處：德語慣用搭配 Geld in etwas stecken＋數量名詞 Milliarde 的複數用法"
   },
   {
    "n": 77,
@@ -1097,7 +1098,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/102040_404_0409_77.webp"
+   "fig": "img/q/102040_404_0409_77.webp",
+   "exp": "✅ (D) 空格在「von Freibeträgen und kostenfreien ＿＿ profitieren vor allem die Reichen」中，與「Freibeträge（免稅額）」並列，須是另一項國家給的免費福利。「Studienplätzen」（大學就學名額）正合，指免學費的大學名額最得利的是有錢人；介系詞 von 支配第三格，複數第三格字尾加 -n，形式也正確。後文經濟學家主張改收「Studiengebühren（學費）」，更確認談的是就學名額。\n❌ (A) 「Universitäten」是大學這個機構本身，無法說「免費的大學」為個人帶來利益，與 Freibeträge 這類給人民的補助不對等。\n❌ (B) 「Häuser」房子與全文教育經費分配的主題無關。\n❌ (C) 「Autos」汽車同樣離題，與教育補助無涉。\n📚 出處：德語克漏字：文意連貫（Freibeträge／kostenfreie Studienplätze）與 von＋第三格複數字尾 -n"
   },
   {
    "n": 78,
@@ -1112,7 +1114,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102040_404_0409_78.webp"
+   "fig": "img/q/102040_404_0409_78.webp",
+   "exp": "✅ (A) 慣用語「auf dem Kopf stehen」字面是「頭下腳上站著」，引申為「顛倒、本末倒置」。句子是引言倒裝句：In Deutschland steht die Verteilung ... auf dem Kopf，意為「德國教育經費公私分攤的方式整個顛倒了」，正呼應下文「學前階段太靠私人、大學階段太靠國家」。\n❌ (B) 「ist」搭配 auf dem Kopf 不是固定用法，無「顛倒」之意，語意落空。\n❌ (C) 「steckt」是插著、卡住，與 auf dem Kopf 無搭配關係。\n❌ (D) 「versteht」是理解，需要人當主詞、事物當受詞，主詞 die Verteilung 無法「理解」，語意與句法都不合。\n📚 出處：德語慣用語 auf dem Kopf stehen（顛倒、本末倒置）"
   },
   {
    "n": 79,
@@ -1127,7 +1130,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/102040_404_0409_79.webp"
+   "fig": "img/q/102040_404_0409_79.webp",
+   "exp": "✅ (C) 空格在「durch ＿＿ auf staatliche Transfers ... gelockt werden」，指用什麼手段吸引家庭真的把孩子送進幼稚園。「Zuschläge」是（對國家給付的）加給、額外補助，加碼發錢正是誘因；durch 支配第四格，複數 Zuschläge 形式也正確。\n❌ (A) 「Einkommen」是家庭本身的收入，不是國家提供的誘因手段。\n❌ (B) 「Steuer」是稅，屬於負擔而非獎勵，無法「引誘」家庭配合。\n❌ (D) 「Spende」是民間捐款，與句中「staatliche Transfers（國家給付）」的脈絡不符，且單數可數名詞須帶冠詞。\n📚 出處：德語介系詞 durch＋第四格表手段；Zuschlag（加給）與 staatliche Transfers 的搭配"
   },
   {
    "n": 80,
@@ -1142,7 +1146,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    ],
    "needfig": true,
    "fig": "img/q/102040_404_0409_80.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本題要選最合適的標題。全文說李安把被視為「不可拍」的 Yann Martel 同名小說搬上銀幕，花四年拍成少年 Pi 的冒險求生故事。「Life of Pi: Schiffbruch mit Tiger – eine fantastische Überlebensgeschichte（與虎共難的船難——一個奇幻的求生故事）」同時點出片名與全文核心（Überlebensgeschichte），涵蓋面最完整。\n❌ (B) 「Viele Leben, ein Tiger（許多生命，一隻老虎）」文中從未談多重生命的主題，與內容不符。\n❌ (C) 文中明白寫導演是台灣人（der taiwanesische Filmemacher）、大部分在台灣拍攝，只是 2012 年 12 月 26 日在德語區上映，稱其為「ein deutscher Film」是錯的。\n❌ (D) 「Abenteuergeschichte und religiöse Parabel（冒險故事與宗教寓言）」中的宗教寓言全文未提，且未點出影片名，涵蓋不足。\n📚 出處：德語閱讀測驗：選標題（Überschrift）須涵蓋全文主旨且不得與內容牴觸"
   }
  ]
 };
