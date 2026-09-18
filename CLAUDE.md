@@ -68,7 +68,18 @@ worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 ac
 
 **症狀 B：`~/.claude/exp-worker.failed` 裡有卷** → 那是真的失敗（工具或題庫問題），要查原因、修完再 `systemctl --user start exp-worker`。
 
-引擎只有 agy／claude 兩種（`tools/exp-engine.sh`），沒有 deepseek／codex 選項，別想用第三家頂替。
+引擎有 agy／claude／deepseek 三種（`tools/exp-engine.sh`，deepseek 2026-09-18 接上），沒有 codex。
+
+**⛔ 法規題不要用 DeepSeek（2026-09-18 Tony 抽查後定案：「deepseek 不懂台灣法條，以後不適合做這塊」）**
+內容判斷與外語、史地、常識題都好（103 卷 7,428 題／59 分鐘／US$0.86，格式零退件），
+但**引用的法條條號常常是掰的，同一個考點在不同卷給不同條號**：旅行業責任保險「證件遺失 2,000 元」
+被寫成第 24／12／5 條（實際第 66 條、舊編 53）、緊急事故 24 小時報備寫第 54 條（實際 52／舊編 39）。
+→ 導遊實務（二）`d002`／`d017`、領隊實務（二）`l002`／`l009` 這類會引條號的科目一律用 claude。
+清掉已寫錯的：`node tools/exp-clear.js --grep '第\s*\d+\s*條' --pids <卷清單> --write`（原文會備份）。
+
+**⚠ DeepSeek 一定要帶 `--no-think`**：`deepseek-flash` 預設先思考，思考字數也算 `max_tokens`，
+一次寫 15 題時 8192 全被吃光 —— API 回 200、usage 顯示 out=8192，但 content 是空字串、不報錯
+（症狀：撈不到任何 JSON、每段都「少了 N 題」）。`tools/exp-deepseek.js` 已內建。
 
 **⛔ Gemini 桶用完時不要改用 agy 裡的 Claude 模型頂替（2026-09-17 實測，Tony 問過一次）**
 agy 的配額分兩桶：`Gemini Models` 與 `Claude and GPT models`（`agy models` 可用的有 claude-opus-4-6-thinking、
