@@ -3768,6 +3768,23 @@
    "at": "2026-09-14"
   }
  ],
+ "tou-104-1-d013": [
+  {
+   "n": 75,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 78,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  },
+  {
+   "n": 80,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-18"
+  }
+ ],
  "tou-104-1-d017": [
   {
    "n": 1,
