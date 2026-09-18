@@ -1064,7 +1064,8 @@ window.APP_EXAM_PAPERS['tou-104-1-d004'] = {
    ],
    "needfig": true,
    "fig": "img/q/104040_401_0406_75.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本題考單字同義替換。「inundate」原意為「淹沒、氾濫」，引申為「使應接不暇、被大量事物壓得喘不過氣」；「overwhelm」同樣兼有「淹沒」與「使不堪負荷」兩義，兩字在「被大量湧入的事物淹沒」這個語意上可互換，例如「be inundated with requests＝be overwhelmed with requests」（被如潮水般的要求淹沒）。四個選項中只有 overwhelmed 具備「淹沒／不堪負荷」的核心語意。\n❌ (A) achieved 意為「達成、實現」，指努力後獲得成果（achieve a goal），是正面的完成義，與「被淹沒」的被動承受感完全不同。\n❌ (B) established 意為「建立、設立、確立」（establish a company／an agency），強調從無到有地創設或使某事被確認，與 inundate 的大量湧入義無關。\n❌ (D) satisfied 意為「感到滿意的、被滿足的」，描述心理上的滿足狀態；被大量事物 inundated 通常是負擔而非滿足，語意方向相反。\n📚 出處：英語字彙同義辨析：inundate（flood／overwhelm）與 achieve、establish、satisfy 之語意區別"
   },
   {
    "n": 76,
