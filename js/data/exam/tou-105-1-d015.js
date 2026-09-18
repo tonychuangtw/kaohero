@@ -41,7 +41,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Sesudah",
     "Kemudian"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「Sebelum」意為「在…之前」，全句為「出國之前，你必須準備好護照」，語意通順。\n❌ (A) 「Setelah」意為「在…之後」，出國後才準備護照不合邏輯。\n❌ (C) 「Sesudah」亦為「在…之後」，同 (A) 不符邏輯。\n❌ (D) 「Kemudian」意為「然後、接著」，不表示時間先後條件，語法不通。\n📚 出處：印尼語時間連接詞 sebelum／sesudah 用法"
   },
   {
    "n": 3,
@@ -54,7 +55,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "buah",
     "rute"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 問「從台北到花蓮的旅程要多久」，需用詢問時間長度的疑問詞「Berapa lama」。\n❌ (A) 「Berapa kali」意為「幾次」，問次數而非時距。\n❌ (C) 「Berapa buah」用於計算物品數量，不用於時間。\n❌ (D) 「Berapa rute」語意為「幾條路線」，與問時距不符。\n📚 出處：印尼語疑問詞 berapa lama／berapa kali 之區別"
   },
   {
    "n": 4,
@@ -67,7 +69,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Siapa",
     "Kapan"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 句子問「這個旅遊團什麼時候出發？」，需用詢問時間的疑問詞「Kapan」。\n❌ (A) 「Mana」意為「哪裡」，用於詢問地點。\n❌ (B) 「Kenapa」意為「為什麼」，用於詢問原因。\n❌ (C) 「Siapa」意為「誰」，用於詢問人。\n📚 出處：印尼語五 W 疑問詞 kapan／mana／kenapa／siapa 用法"
   },
   {
    "n": 5,
@@ -80,7 +83,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "bandara",
     "halte"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「loket」意為售票窗口、售票處，是購買車票或門票的地點。\n❌ (A) 「stasiun」指車站，是整體建築而非購票處。\n❌ (C) 「bandara」指機場，與購票處無直接對應。\n❌ (D) 「halte」指公車站牌／候車亭，非售票處。\n📚 出處：印尼語旅遊場所名詞 loket、stasiun、halte 辨異"
   },
   {
    "n": 6,
@@ -108,7 +112,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "intip",
     "belok"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「belok ke kanan」意為「向右轉」，符合問路後指示方向的語境。\n❌ (A) 「lihat」意為「看」，無法表達轉向動作。\n❌ (B) 「cepat」意為「快」，為形容詞，不接 ke kanan。\n❌ (C) 「intip」意為「窺看、偷看」，與指路語境不合。\n📚 出處：印尼語問路與指路常用語 belok kanan／lurus／lampu merah"
   },
   {
    "n": 8,
@@ -121,7 +126,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "kebiasaan",
     "kehebatan"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「kebiasaan」意為「習慣、習俗」，全句指印尼是有討價還價習慣的國家，尤其在傳統市場購物時。\n❌ (A) 「kemauan」意為「意願、慾望」，不能表達社會習俗。\n❌ (B) 「kelihatan」意為「可見的、看起來」，為形容詞，語法不合。\n❌ (D) 「kehebatan」意為「厲害、卓越」，與購物講價習慣無關。\n📚 出處：印尼語抽象名詞 ke-…-an 構詞與 kebiasaan 語意"
   },
   {
    "n": 9,
@@ -134,7 +140,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "SIM lokal",
     "SIM"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 句意為某些國家雖不要求當地駕照，但旅客仍須持有「國際駕照」（SIM internasional）。\n❌ (B) 「SIM nasional」指本國駕照，出國旅遊並非指本國駕照。\n❌ (C) 「SIM lokal」指當地駕照，與「不需要當地駕照」相矛盾。\n❌ (D) 「SIM」僅泛稱駕照，未指明國際駕照，語意不完整。\n📚 出處：印尼語 SIM（Surat Izin Mengemudi）國際駕照相關詞彙"
   },
   {
    "n": 10,
@@ -147,7 +154,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "kantor pos",
     "kantor imigrasi"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「kantor pos」意為郵局，是寄送明信片與信件的地方。\n❌ (A) 「bank」意為銀行，辦理金融業務。\n❌ (B) 「stasiun」意為車站，與寄信無關。\n❌ (D) 「kantor imigrasi」意為移民署，辦理出入境證件。\n📚 出處：印尼語公共場所名稱 kantor pos、bank、imigrasi 辨異"
   },
   {
    "n": 11,
@@ -160,7 +168,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Pesawat dari Taiwan terbang kembali ke Taiwan.",
     "Jawaban A, B, C semuanya benar"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「akan segera mendarat」意為「即將降落」，即班機快要抵達，故選「不久後將抵達」。\n❌ (A) 原文無誤點或延遲之意，純屬推測。\n❌ (C) 原文說將降落於第二航廈，非飛回台灣。\n❌ (D) 因 A、C 皆非正確，故非「全部正確」。\n📚 出處：印尼語機場廣播詞 segera mendarat、nomor penerbangan、terminal"
   },
   {
    "n": 12,
@@ -203,7 +212,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "makanan",
     "buku"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 句意為「有的攤位賣很多好吃的食物」，與後句「賣便宜商品」對比，故填「makanan」（食物）。\n❌ (A) 「mainan」意為玩具，與 enak（好吃）不搭配。\n❌ (B) 「baju」意為衣服，不能用 enak 形容。\n❌ (D) 「buku」意為書，與「好吃」語意不合。\n📚 出處：印尼語夜市相關詞彙 pasar malam、makanan enak"
   },
   {
    "n": 15,
@@ -216,7 +226,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "kuil",
     "pantai"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 台灣並無「istana kerajaan」（王室宮殿）作為觀光景點，故為例外。\n❌ (A) 台灣有故宮等博物館，屬常見景點。\n❌ (C) 台灣寺廟（kuil）眾多，為典型觀光點。\n❌ (D) 台灣四面環海，海灘（pantai）是常見旅遊地。\n📚 出處：台灣觀光景點類型與印尼語場所名詞"
   },
   {
    "n": 16,
@@ -244,7 +255,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "karena, akan",
     "tetapi, karena"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 句意為「導遊的專業很重要，但擁有良好品格也很重要，因此導遊必須同時滿足這兩項條件」，「tetapi」表轉折、「maka」表結果，語意最順。\n❌ (B) 「akan, tetapi」語意不通，「akan」為助動詞，無法連接此句。\n❌ (C) 「karena, akan」用「因為」連接前後句，邏輯錯誤。\n❌ (D) 「tetapi, karena」順序顛倒，末句應為結果而非原因。\n📚 出處：印尼語連接詞 tetapi／maka／karena 之邏輯關係"
   },
   {
    "n": 18,
@@ -257,7 +269,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "karena, kalau",
     "karena, maka"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「karena」表原因（澎湖在台灣本島外），「maka」表結果（須搭船或飛機前往），語意通順。\n❌ (A) 「tetapi, maka」用「但是」連接兩句，因果關係不成立。\n❌ (B) 「kalau, maka」用「如果」表條件，與既定事實不符。\n❌ (C) 「karena, kalau」後句應為結果而非條件。\n📚 出處：印尼語因果連接詞 karena…maka… 用法"
   },
   {
    "n": 19,
@@ -270,7 +283,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "bahkan",
     "maka"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「sedangkan」意為「而、然而」，用以對比前後兩種不同偏好，語意通順。\n❌ (A) 「karena」表因果，前後句並非因果關係。\n❌ (C) 「bahkan」意為「甚至」，用於遞進，不符對比語氣。\n❌ (D) 「maka」表結果，前句非原因，邏輯不通。\n📚 出處：印尼語對比連接詞 sedangkan 用法"
   },
   {
    "n": 20,
@@ -283,7 +297,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "maka, baik, maupun",
     "baik, maka, maupun"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「baik…maupun…」為「無論…還是…」的固定搭配，句意為花蓮和台東都很美，因此我想兩個城市都去，「maka」表結果。\n❌ (B) 「maupun, baik」語序顛倒，非固定搭配。\n❌ (C) 「maka, baik, maupun」位置錯誤，無法構成正確句型。\n❌ (D) 「baik, maka, maupun」中間插入 maka，破壞 baik…maupun 結構。\n📚 出處：印尼語配對連接詞 baik…maupun… 句型"
   },
   {
    "n": 21,
@@ -296,7 +311,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "bukan, melainkan",
     "tetapi, maka"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「bukan…melainkan…」意為「不是…而是…」，句意為阿里山不在台灣南部，而是在中部，語意正確。\n❌ (A) 「tetapi, melainkan」搭配錯誤，melainkan 須與 bukan 連用。\n❌ (B) 「bukan, maka」後句應用 melainkan 而非 maka。\n❌ (D) 「tetapi, maka」無法表達「不是…而是…」的更正語氣。\n📚 出處：印尼語 bukan…melainkan… 更正句型"
   },
   {
    "n": 22,
@@ -309,7 +325,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "tetapi, sehingga",
     "oleh karena itu, sehingga"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「oleh karena itu」意為「因此」，承接颱風導致機場關閉、航班停飛，故旅程被迫延期，「sehingga」表結果，語意通順。\n❌ (A) 「akan」為助動詞，無法連接因果句。\n❌ (B) 「kalau」表假設條件，與既定事實不符。\n❌ (C) 「tetapi」表轉折，前後句實為因果，非轉折。\n📚 出處：印尼語因果與結果連接詞 oleh karena itu、sehingga"
   },
   {
    "n": 23,
@@ -352,7 +369,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Taiwan adalah negara dengan perbedaan musim yang sangat jelas, saat musim dingin wilayah perkotaanakan turun salju.",
     "Tempat wisata Taroko National Park terletak di wilayah selatan Taiwan."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 夜市是台灣極具代表性的觀光特色，符合本文所述台灣觀光特徵。\n❌ (B) 世界最高建築已非台灣所有，此敘述錯誤。\n❌ (C) 台灣冬季平地少見降雪，敘述不實。\n❌ (D) 太魯閣國家公園位於東部（花蓮），非南部，敘述錯誤。\n📚 出處：台灣觀光特色與地理常識"
   },
   {
    "n": 26,
@@ -425,7 +443,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Indonesia dan Taiwan bukan terletak di Asia",
     "Baik Indonesia maupun Taiwan terletak di Asia."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「Selain Indonesia, Taiwan juga terletak di Asia」意為「除了印尼之外，台灣也位於亞洲」，即兩者都在亞洲。\n❌ (A) 原句並未說台灣不在亞洲，理解錯誤。\n❌ (B) 原句並未說印尼不在亞洲，理解錯誤。\n❌ (C) 原句明示兩者皆位於亞洲，此選項完全相反。\n📚 出處：印尼語 selain…juga… 句型之意義"
   },
   {
    "n": 31,
@@ -468,7 +487,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Lima puluh menit",
     "Empat puluh lima menit"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 集合時間 19:10 減去現在時間 18:15，共 55 分鐘，即「lima puluh lima menit」。\n❌ (A) 一小時差十分鐘為 50 分鐘，計算錯誤。\n❌ (C) 50 分鐘並非兩時間之差。\n❌ (D) 45 分鐘亦非正確差值。\n📚 出處：印尼語時間計算與數字表達（menit、jam）"
   },
   {
    "n": 34,
@@ -546,7 +566,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Elu",
     "Kalian"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「Anda」是印尼語中對談話對象的禮貌尊稱（您），適合用於與初識者交談的正式場合。\n❌ (B) 「Kamu」是對熟人、平輩或晚輩的非正式稱呼（你），用於初識者顯得不禮貌。\n❌ (C) 「Elu」是雅加達口語的粗俗用法（你），只能用於極熟的朋友，正式場合不宜。\n❌ (D) 「Kalian」意為「你們」，是複數第二人稱，不能單指一位初識者。\n📚 出處：印尼語人稱代名詞與敬語用法（kata ganti orang dan bentuk sapaan sopan）"
   },
   {
    "n": 40,
@@ -559,7 +580,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Ike",
     "Saya"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「Saya」是印尼語第一人稱的禮貌自稱（我），適用於正式、對長輩或不熟者的場合。\n❌ (A) 「Gua」是雅加達口語的自稱（我），語氣隨便甚至粗俗，正式場合不宜。\n❌ (B) 「Wo」是華語「我」的借詞，屬非正式的口語用法，不用於正式會話。\n❌ (C) 「Ike」並非印尼語通行的第一人稱代名詞，不符語法與語用。\n📚 出處：印尼語人稱代名詞與正式／非正式語域（ragam formal dan nonformal）"
   },
   {
    "n": 41,
@@ -572,7 +594,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Rombongan yang saya pandu akan batal ke Kaohsiung besok.",
     "Rombongan yang saya pandu besok akan naik kapal ke Kaohsiung."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 原句意為「我明天帶的旅行團將搭火車去高雄」；「berkereta api」即「搭火車」，故選「使用火車作為交通工具前往高雄」。\n❌ (A) 說成搭飛機（naik pesawat terbang），與原句的火車不符。\n❌ (C) 說成明天取消（batal）去高雄，原句並無取消之意。\n❌ (D) 說成搭船（naik kapal），與原句的火車不符。\n📚 出處：印尼語交通工具表達（naik／ber- + 交通工具）與句意理解"
   },
   {
    "n": 42,
@@ -600,7 +623,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "bermain bola",
     "bertamasya"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「berwisata」由「wisata」（旅遊）加前綴 ber- 構成，意為「去旅遊、觀光」，與「bertamasya」（遊覽、郊遊）同義。\n❌ (A) 「berwiraswasta」意為「經商、創業」，與旅遊無關。\n❌ (B) 「berolah raga」意為「做運動」，非旅遊之意。\n❌ (C) 「bermain bola」意為「踢球、打球」，非旅遊之意。\n📚 出處：印尼語 ber- 前綴構詞與旅遊詞彙（kata berimbuhan ber-）"
   },
   {
    "n": 44,
@@ -613,7 +637,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Menjemput rombongan luar negeri.",
     "Memulangkan rombongan luar negeri."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「memandu rombongan dari luar negeri」意為「為來自國外的團體導覽」，即擔任外國團的導遊（pramuwisata）。\n❌ (B) 「mengajar」是「教書、教學」，與導覽帶團不同。\n❌ (C) 「menjemput」是「接機、迎接」，只描述接人，非全程帶團導覽。\n❌ (D) 「memulangkan」是「把……送回去、遣返」，與帶團導覽無關。\n📚 出處：印尼語旅遊從業詞彙（pramuwisata／memandu rombongan）"
   },
   {
    "n": 45,
@@ -626,7 +651,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Melakukan persiapan terlebih dahulu sebelum terjadi sesuatu.",
     "Sebelum hujan payung lupa dibawa."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「Sedia payung sebelum hujan」字面為「下雨前先備好傘」，即未雨綢繆、事先做好準備之意。\n❌ (A) 說成「下雨才買傘」，正好違反原諺語強調事先準備的精神。\n❌ (B) 說成「下雨不必帶傘」，與原意無關。\n❌ (D) 說成「下雨前忘了帶傘」，與原意相反。\n📚 出處：印尼語諺語（peribahasa）「Sedia payung sebelum hujan」"
   },
   {
    "n": 46,
@@ -669,7 +695,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "mati",
     "gratis"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 夜市購物即使已經很便宜，價格仍可「ditawar」（殺價、議價），符合夜市可討價還價的語境。\n❌ (A) 「sangat mahal」（非常貴）與句中「walaupun sudah murah sekali」（即使已經很便宜）矛盾。\n❌ (C) 「mati」（死、熄滅）不能用來描述價格可議。\n❌ (D) 「gratis」（免費）與購物、價格便宜的情境不符。\n📚 出處：印尼語市場購物用語（menawar harga／ditawar）"
   },
   {
    "n": 49,
@@ -682,7 +709,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "pedagang kaki lima",
     "restoran-restoran kecil"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「depot」指賣餐食的小店，句中指台北車站附近賣印尼菜的小餐館，故與「restoran-restoran kecil」（小餐館）最接近。\n❌ (A) 「hotel-hotel」是旅館，不賣餐食。\n❌ (B) 「taman」是公園，與餐飲無關。\n❌ (C) 「pedagang kaki lima」是路邊攤販（人），與店鋪（depot）概念不同。\n📚 出處：印尼語餐飲場所詞彙（depot／rumah makan／restoran）"
   },
   {
    "n": 50,
@@ -695,7 +723,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "gula",
     "asam"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 句中說「Kalau suka pedas」（如果喜歡吃辣），要加的就是「sambal」（辣椒醬），語意最通順。\n❌ (A) 「bawang goreng」是油蔥酥，加它不會變辣。\n❌ (C) 「gula」是糖，只會變甜。\n❌ (D) 「asam」是酸味（羅望子），只會變酸。\n📚 出處：印尼語飲食詞彙（sambal、bawang goreng 等調味料）"
   },
   {
    "n": 51,
@@ -768,7 +797,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "berwisata seorang diri",
     "berwisata dengan guide"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 句首已說「Wisata belanja」（購物旅遊），故夜市賣的是「邊旅遊邊買東西」的便宜商品，語意連貫。\n❌ (B) 「berwisata dengan keluarga」（與家人同遊）未點出購物旅遊的重點。\n❌ (C) 「berwisata seorang diri」（獨自旅遊）與購物旅遊主題無關。\n❌ (D) 「berwisata dengan guide」（隨導遊旅遊）亦未扣住購物（belanja）主題。\n📚 出處：印尼語觀光詞彙（wisata belanja／pasar malam）"
   },
   {
    "n": 56,
@@ -796,7 +826,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Lusa tanggal 1 Januari.",
     "Lusa tanggal 3 Januari."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「lusa」意為「後天」，今天1月1日，後天即1月3日。\n❌ (A) 1月10日是十天後，不是 lusa。\n❌ (B) 1月2日是明天（besok），不是 lusa。\n❌ (C) 1月1日是今天（hari ini），不是 lusa。\n📚 出處：印尼語時間詞（hari ini／besok／lusa）"
   },
   {
    "n": 58,
@@ -809,7 +840,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "sakit mendadak",
     "tidur"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 句中說半夜要替客人找醫生，所以客人是「sakit mendadak」（突然生病），前後語意相符。\n❌ (A) 「pulang malam」（晚上回家）與半夜找醫生無關。\n❌ (B) 「belum tiba」（尚未抵達）不會導致半夜找醫生。\n❌ (D) 「tidur」（睡覺）本身不需就醫，與找醫生無關。\n📚 出處：印尼語導遊實務情境詞彙（tamu sakit mendadak）"
   },
   {
    "n": 59,
@@ -822,7 +854,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "mudah mengelabui orang",
     "suka bergaul"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 理想導遊應「suka bergaul」（喜歡與人交往），且不能內向孤僻，與後句「tidak bersifat pendiam」相呼應。\n❌ (A) 「takut keramaian」（怕人多）與導遊需面對人群的特質相反。\n❌ (B) 「tidak disiplin」（不守紀律）是導遊的缺點，不會是理想條件。\n❌ (C) 「mudah mengelabui orang」（容易欺騙人）屬負面行為，不符理想導遊。\n📚 出處：印尼語導遊人員基本素養（sikap dasar pemandu wisata）"
   },
   {
    "n": 60,
@@ -835,7 +868,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "dengan orang tak dikenal",
     "dengan calo"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 換錢應在合法場所，如「di bank」（銀行），才不會被騙。\n❌ (A) 「di pasar gelap」（黑市）是不合法的換匯場所，反而危險。\n❌ (C) 「dengan orang tak dikenal」（與陌生人換）風險高，易受騙。\n❌ (D) 「dengan calo」（與黃牛、掮客換）匯率與鈔票真偽都無保障。\n📚 出處：印尼語換匯用語（menukar uang／valuta asing）"
   },
   {
    "n": 61,
@@ -848,7 +882,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "nilai tukar",
     "orang"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 句中主詞是匯率每日變動，故「沒有固定不變的」應是「nilai tukar」（匯率、兌換率）。\n❌ (A) 「uang」（錢）本身不強調每日變動的概念。\n❌ (B) 「waktu」（時間）與匯率變動無關。\n❌ (D) 「orang」（人）與匯率穩定的語意無關。\n📚 出處：印尼語金融詞彙（nilai tukar／valuta asing）"
   },
   {
    "n": 62,
@@ -921,7 +956,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Boleh saja karena tidak ada peraturan tertulis.",
     "Coba-coba saja asal tidak ketahuan."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目問「台灣是否禁止未經正式許可攜帶外國水果及農產品入境？」，依我國動植物防疫檢疫規定，答案是「Betul.」（是的、正確），故選 A。\n❌ (B) 「Tidak benar.」意為「不正確」，與現行檢疫規定相反。\n❌ (C) 「Boleh saja karena tidak ada peraturan tertulis.」意為「可以，因為沒有書面規定」，事實上相關規定明文存在，錯誤。\n❌ (D) 「Coba-coba saja asal tidak ketahuan.」意為「只要不被發現就試試看」，屬僥倖心態，明顯錯誤。\n📚 出處：動植物防疫檢疫法及入境旅客攜帶農產品檢疫規定"
   },
   {
    "n": 67,
@@ -934,7 +970,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Sebaiknya bersikap galak agar tamu tamu patuh.",
     "Sebaiknya pura-pura ramah agar mendapatkan tips besar."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 題目問「有紀律的導遊應該表現出什麼態度？」，正確答案為「bersikap ramah, sabar, cekatan dan penuh tanggung jawab」，即親切、有耐心、機敏且負責，故選 B。\n❌ (A) 「不須操心，只要照行程走就好」忽略了服務態度與照顧團員的責任。\n❌ (C) 「應該兇一點讓團員聽話」與導遊應有的親切服務精神相違。\n❌ (D) 「假裝親切以賺取高額小費」心態不誠懇，違反職業倫理。\n📚 出處：導遊實務（導遊人員服務態度與職業倫理）"
   },
   {
    "n": 68,
@@ -1052,7 +1089,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Di Taichung.",
     "Di Kabupaten Miaoli.Berwisata ke Kebun Binatang Taipei"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 題目問「我所喜愛的那座像雲之國度的山在哪裡？」，答案為「Di kabupaten Yilan.」，即宜蘭縣，指太平山一帶雲霧繚繞的景致，故選 B。\n❌ (A) 「Di Indonesia.」指印尼，非台灣境內。\n❌ (C) 「Di Taichung.」指台中，與「雲之國度」所指的宜蘭山區不符。\n❌ (D) 「Di Kabupaten Miaoli.」指苗栗縣，亦非正確地點。\n📚 出處：台灣觀光地理（宜蘭太平山國家森林遊樂區）"
   },
   {
    "n": 76,
@@ -1110,7 +1148,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "Di kabupaten Miaoli.",
     "Di gunung Taipei."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 題幹所指擁有許多珍稀動物（satwa langka）的動物園位於台北市（kota Taipei），即台北市立動物園，故選 B。\n❌ (A) 「Di kota Taichung.」指在台中市，台中並無題述之動物園。\n❌ (C) 「Di kabupaten Miaoli.」指在苗栗縣，不符題意。\n❌ (D) 「Di gunung Taipei.」指在台北的山上，動物園並非設於山上。\n📚 出處：台灣觀光景點（台北市立動物園）"
   },
   {
    "n": 80,
