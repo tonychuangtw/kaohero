@@ -770,7 +770,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_54.webp"
+   "fig": "img/q/104040_604_0404_54.webp",
+   "exp": "✅ (A) 前句說「必須上網登記」，本句「＿＿ ist auch sichergestellt, dass ...」要承接這個手段所帶來的結果。dadurch 由「durch das」縮合而來，意為「透過這個方式、因而」，正好指向前面的網路登記，語意與語法（句首後接動詞 ist，第二位）都成立。\n❌ (B) denn 是並列連詞「因為」，後面必須接完整主句（denn es ist ...），不能直接接動詞 ist，語序不合。\n❌ (C) davon 由「von dem」而來，多搭配 profitieren、abhängen 等動詞；sicherstellen 的因果關係不用 von，語意不通。\n❌ (D) damit 由「mit dem」而來，強調「用那個東西」，或作目的連詞（動詞須置句尾）。此處表達的是因果手段，德語慣用 durch，故以 dadurch 為準；第 55 題另考 damit 的目的用法。\n📚 出處：德語介副詞（Pronominaladverbien）dadurch／damit／davon 的區辨"
   },
   {
    "n": 55,
@@ -785,7 +786,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_55.webp"
+   "fig": "img/q/104040_604_0404_55.webp",
+   "exp": "✅ (C) 空格後「man möglichst viele ... besuchen kann」動詞 kann 置於句尾，可知需要從屬連詞；damit 引導目的副句，意為「以便…」：先看活動節目表，以便能參觀盡量多的新書發表與朗讀會。\n❌ (A) dagegen 意為「相反地、反對此事」，是副詞，既不能引導從句，語意上也沒有對比關係。\n❌ (B) dazu 意為「為此、此外」，是副詞，後面要接主句語序，無法帶出動詞在句尾的目的子句。\n❌ (D) dadurch 意為「因而」，同樣是副詞而非連詞，且表結果不表目的。\n📚 出處：目的從句連詞 damit 與介副詞（副詞）在語序上的差別"
   },
   {
    "n": 56,
@@ -800,7 +802,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_56.webp"
+   "fig": "img/q/104040_604_0404_56.webp",
+   "exp": "✅ (A) 前文說明先看節目表的重要性，本句「＿＿ sollte man seinen Messebesuch sehr genau planen」是由此推出的結論。deshalb 意為「因此」，置句首時動詞 sollte 居第二位、主語後移，語序完全相符。\n❌ (B) darüber（über das）意為「關於此、在其上方」，planen 不搭配 über，語意不通。\n❌ (C) davon（von dem）意為「其中、由此」，無法表達因果結論。\n❌ (D) damit 作副詞是「用那個」、作連詞是「以便」（動詞須句尾），兩種用法都與此處「因此應該…」的結果關係不合。\n📚 出處：結果副詞 deshalb／deswegen 的用法與句首倒裝語序"
   },
   {
    "n": 57,
@@ -815,7 +818,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_57.webp"
+   "fig": "img/q/104040_604_0404_57.webp",
+   "exp": "✅ (B) 空格後是「ohne einen solchen Plan ist man ... verloren」，屬主句語序（動詞 ist 在第二位），因此只能用並列連詞。denn 意為「因為」，補充說明為何要仔細規劃：沒有這樣的計畫，人在巨大的展場裡會迷失。\n❌ (A) darauf（auf das）是介副詞，不能連接兩個獨立句子。\n❌ (C) damit 作目的連詞時動詞必須置於句尾，與此處 ist 在第二位的語序不符。\n❌ (D) dadurch 意為「因而」表結果，與此處「之所以要規劃是因為…」的原因方向相反，且它是副詞而非連詞。\n📚 出處：並列連詞 denn（不佔位、後接主句語序）與從屬連詞 weil／damit 的比較"
   },
   {
    "n": 58,
@@ -830,7 +834,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_58.webp"
+   "fig": "img/q/104040_604_0404_58.webp",
+   "exp": "✅ (A) 前句強調展場步行距離長、不可小看，本句是由此得出的建議：「Man sollte daher auf bequeme Schuhe achten.」daher 意為「因此、所以」，承接前述理由，位置在動詞之後的句中也很自然。\n❌ (B) darüber 意為「關於此」，但動詞片語是 auf etwas achten（注意某事），已自帶介系詞 auf，再加 darüber 語法與語意都不合。\n❌ (C) danach 意為「之後、隨後」，表時間先後，無法表達「路很長，所以要穿好走的鞋」這層因果。\n❌ (D) damit 意為「用那個、以此」，此處不是工具或目的關係，語意不通。\n📚 出處：因果副詞 daher／deshalb 與時間副詞 danach 的區辨；片語 auf etwas (Akk.) achten"
   },
   {
    "n": 59,
@@ -845,7 +850,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_59.webp"
+   "fig": "img/q/104040_604_0404_59.webp",
+   "exp": "✅ (A) 本句說「別忘了，人之後還得把沉重的袋子拖回家」，說的是逛完書展買了書「之後」的事。danach 意為「在那之後」，表時間先後，符合語境。\n❌ (B) damit 在句中會被理解為「用那個東西」，此處既無工具也非目的子句（動詞 muss 雖在句尾，但那是 dass 子句本身造成的），語意不通。\n❌ (C) darum 意為「因此」，表原因結果，但拖袋子回家並不是前文的推論結果。\n❌ (D) daher 同樣是「因此」，與此處單純的時間順序不符。\n📚 出處：時間副詞 danach 與因果副詞 darum／daher 的區辨"
   },
   {
    "n": 60,
@@ -860,7 +866,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_60.webp"
+   "fig": "img/q/104040_604_0404_60.webp",
+   "exp": "✅ (C) 前文一直在講書展的辛苦：路途遙遠、袋子沉重；空格後卻說「lohnt sich die Anstrengung」（這番辛苦是值得的），前後是讓步轉折。dennoch 意為「儘管如此」，置句首動詞 lohnt 居第二位，語序與語意都正確。\n❌ (A) Damit 意為「藉此、為此」，無法表達轉折。\n❌ (B) Darum 意為「因此」，會變成「因為累所以值得」，因果矛盾。\n❌ (D) Deshalb 同樣表結果「所以」，與前文抱怨辛苦的內容接不上，且第 56 題已用過此結果關係。\n📚 出處：讓步／轉折副詞 dennoch、trotzdem 與結果副詞 deshalb、darum 的區辨"
   },
   {
    "n": 61,
@@ -875,7 +882,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_61.webp"
+   "fig": "img/q/104040_604_0404_61.webp",
+   "exp": "✅ (A) 「Es gibt + 受格」是德語表示「有…存在」的固定句型，主語一律是形式主語 es。本句「Es gibt sie noch: die Dinge, ...」意為「這樣的東西還是有的」，句中 sie 正是 es gibt 所帶的受格，指後面的 die Dinge。\n❌ (B) man 是泛指人稱主格，「Man gibt sie noch」變成「人們還把它們給出去」，語意不通。\n❌ (C) Einer 意為「某一個人／某一個（陽性）」，當主語後接 gibt sie 語意不通，也失去「存在」的意思。\n❌ (D) Sie 若作主語，句子變成「她／他們給它們」，與冒號後列舉事物的結構不符。\n📚 出處：固定句型 es gibt + Akkusativ（表存在）"
   },
   {
    "n": 62,
@@ -890,7 +898,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_62.webp"
+   "fig": "img/q/104040_604_0404_62.webp",
+   "exp": "✅ (B) 關係子句「die Dinge, in die ＿＿ einmal etwas mehr investiert」缺的是子句的主語。man 是泛指人稱代名詞的主格，表示「（人）在這些東西上多投資一點錢」，與後文第 65 題的 man 一致。\n❌ (A) uns 是 wir 的與格／受格形式，不能當主語。\n❌ (C) einem 是 man 的與格形式（如第 63 題），同樣不能當主語。\n❌ (D) es 雖是主格，但句中沒有任何它能指涉的中性名詞，語意落空。\n📚 出處：泛指人稱代名詞 man 的格變化（man／einen／einem）"
   },
   {
    "n": 63,
@@ -905,7 +914,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_63.webp"
+   "fig": "img/q/104040_604_0404_63.webp",
+   "exp": "✅ (A) 子句「die ＿＿ dann für immer bleiben」的主語已經是關係代名詞 die（指 die Dinge），空格要填的是 bleiben 所支配的與格：「jemandem bleiben」意為「留在某人身邊」。einem 正是 man 的與格形式，與第 62 題的 man 前後呼應。\n❌ (B) man 是主格形式，本句主語已有，不能再放一個主格。\n❌ (C) unserem 是所有格限定詞的與格單數形，後面必須接名詞（unserem Kind），不能單獨使用。\n❌ (D) ihrem 同樣是所有格限定詞，需搭配名詞，單獨出現不合語法。\n📚 出處：man 的與格 einem；動詞 bleiben 支配與格（jemandem bleiben）"
   },
   {
    "n": 64,
@@ -920,7 +930,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_64.webp"
+   "fig": "img/q/104040_604_0404_64.webp",
+   "exp": "✅ (C) 「Es sind Produkte, ＿＿ ihr Geld wirklich wert sind」是關係子句，先行詞 Produkte 為複數，且在子句中當主語，故用複數主格關係代名詞 die。片語「sein Geld wert sein」意為「值這個價錢」。\n❌ (A) wessen 是屬格「誰的」，此處不是所有關係，語意與格位都不合。\n❌ (B) was 當關係代名詞只用在先行詞為 alles、etwas、nichts、das 或指涉整個句子時，不能接一般名詞 Produkte。\n❌ (D) das 是單數中性關係代名詞，與複數先行詞 Produkte 不一致。\n📚 出處：關係代名詞 der／die／das 的性數格一致；片語 sein Geld wert sein"
   },
   {
    "n": 65,
@@ -935,7 +946,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_65.webp"
+   "fig": "img/q/104040_604_0404_65.webp",
+   "exp": "✅ (B) 子句「weil man ＿＿ ein Leben lang benutzt」中主語是 man，空格是 benutzen 的受詞。benutzen 支配第四格（受格），所指的是前面的複數 die Produkte，複數受格為 sie。\n❌ (A) ihnen 是複數第三格（與格），benutzen 不支配與格。\n❌ (C) Sie 大寫是敬稱「您」，此處在談產品而非對人說話，語意不通。\n❌ (D) ihr 是「你們」的主格，或所有格限定詞（需接名詞），兩種用法都不能當受詞。\n📚 出處：動詞 benutzen 支配第四格；人稱代名詞複數 sie／ihnen 的格位"
   },
   {
    "n": 66,
@@ -950,7 +962,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_66.webp"
+   "fig": "img/q/104040_604_0404_66.webp",
+   "exp": "✅ (C) 描述產品的品質等級時，德語慣用「von + 與格」的固定搭配：Produkte von außerordentlicher Qualität（品質非凡的產品）。Qualität 為陰性，與格形容詞字尾 -er，也與 außerordentlicher 相符。\n❌ (A) mit 雖可表「帶有」，但多用於具體的附加物或配件（ein Koffer mit Rollen），描述品質層級的慣用語是 von。\n❌ (B) ohne 意為「沒有」，語意正好相反，且支配受格（ohne außerordentliche Qualität），字尾也不合。\n❌ (D) zu 是與格介系詞，但無「具有某種品質」的用法，語意不通。\n📚 出處：固定搭配 von + Dativ 表屬性（etwas von hoher Qualität）"
   },
   {
    "n": 67,
@@ -965,7 +978,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_67.webp"
+   "fig": "img/q/104040_604_0404_67.webp",
+   "exp": "✅ (A) 「an jemanden etwas vererben」意為「把某物傳給某人」，an 在此表示傳遞的方向，屬雙向介系詞的受格用法。Kinder 是複數，複數受格的所有格限定詞為 unsere，故填 unsere Kinder。\n❌ (B) unserem 是單數（陽性／中性）與格形，與複數名詞 Kinder 不符。\n❌ (C) unseren 是複數與格或陽性單數受格形；此處是方向性的受格複數，應用 unsere。\n❌ (D) unserer 用於陰性單數的與格／屬格或複數屬格，格位不合。\n📚 出處：雙向介系詞 an 表方向用受格；所有格限定詞的複數受格 unsere"
   },
   {
    "n": 68,
@@ -980,7 +994,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_68.webp"
+   "fig": "img/q/104040_604_0404_68.webp",
+   "exp": "✅ (A) 「ein zuverlässiger Begleiter auf allen Wegen」是固定說法，意為「一路上（在所有旅途中）可靠的夥伴」。auf 在此表靜態位置，支配與格，複數與格 allen Wegen 字尾也相符。\n❌ (B) innerhalb 支配屬格（innerhalb aller Wege），字尾不合，而且「在所有路之內」語意不通。\n❌ (C) zum 是 zu dem 的縮合，只能接單數，與複數 allen Wegen 矛盾。\n❌ (D) mit allen Wegen 意為「和所有的路一起」，語意不通。\n📚 出處：片語 auf allen Wegen；雙向介系詞 auf 表靜態位置支配與格"
   },
   {
    "n": 69,
@@ -995,7 +1010,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_69.webp"
+   "fig": "img/q/104040_604_0404_69.webp",
+   "exp": "✅ (A) 本句在比較兩種行李箱：一種是現代堅固、＿＿ 鋁這類輕金屬的，另一種是厚皮革製的經典款。四個選項中只有 mit 能接材質表示「帶有／採用某材質」，mit Leichtmetall 語法（mit + 與格，中性 Leichtmetall 無字尾）與語意都成立；若要完全對應句尾的 aus dickem Leder，標準說法是 aus，但本題未列此選項。\n❌ (B) an 表「在…上、靠近」，不能用來說明材質。\n❌ (C) zum（zu dem）表方向或目的，與材質無關。\n❌ (D) durch 表「穿越、透過」，用於手段或路徑，接材質不通。\n📚 出處：介系詞 mit + Dativ 表「帶有」；材質表達 aus／mit 的用法"
   },
   {
    "n": 70,
@@ -1010,7 +1026,8 @@ window.APP_EXAM_PAPERS['tou-104-1-l007'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104040_604_0404_70.webp"
+   "fig": "img/q/104040_604_0404_70.webp",
+   "exp": "✅ (C) 句中前半已出現 nicht nur（不僅是一件有用的物品），構成「nicht nur ..., sondern auch ...」這組固定相關連詞，意為「不僅…而且…」，因此空格填 sondern。\n❌ (A) aber 表單純轉折，不能與 nicht nur 組成相關連詞，搭配錯誤。\n❌ (B) obwohl 是從屬連詞「雖然」，其後動詞必須置於句尾，與空格後只有名詞片語「auch eine wunderbare Erinnerung」的結構不合。\n❌ (D) entweder 要與 oder 搭配（本段前面的 entweder ... oder 已示範），不能接在 nicht nur 之後。\n📚 出處：相關連詞 nicht nur ..., sondern auch ...（雙部連詞 zweiteilige Konnektoren）"
   },
   {
    "n": 71,
