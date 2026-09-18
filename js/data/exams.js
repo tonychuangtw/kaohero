@@ -56411,7 +56411,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（日語）",
   "label": "110 年　導遊人員　外國語（日語）",
   "n": 80,
-  "exp": 80,
+  "exp": 0,
   "mins": 80
  },
  {
@@ -57797,7 +57797,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（日語）",
   "label": "106 年　導遊人員　外國語（日語）",
   "n": 80,
-  "exp": 73,
+  "exp": 64,
   "mins": 80
  },
  {
@@ -58021,7 +58021,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（日語）",
   "label": "106 年　領隊人員　外國語（日語）",
   "n": 80,
-  "exp": 76,
+  "exp": 0,
   "mins": 80
  },
  {

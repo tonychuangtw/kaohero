@@ -6,6 +6,7 @@
    模型只看得到這份，看不到題庫檔 —— 這是刻意的：每卷開新 session 只帶這卷，context 才壓得下來。 */
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
+const { isForeignProse } = require('./exp-lang.js');
 // 圖檔要印哪一台的絕對路徑：模型跑在 runner（EXP_ENGINE=agy）時要印 runner 的 clone 路徑，
 // 不然它 Read 不到圖，會憑選項字母硬掰（2026-09-16 實測過）。
 const FIG_ROOT = process.env.EXP_FIG_ROOT || ROOT;
@@ -20,14 +21,18 @@ if (!p) { console.error('找不到卷：' + pid); process.exit(2); }
 const sk = new Set((skips[pid] || []).map(s => s.n));
 const todo = p.qs.filter(q => !q.exp && !q.void && !q.alt && !sk.has(q.n));
 
-// 風格範例：同卷已寫的題；沒有就找同科目代碼（pid 最後一段）其他年度已寫的
-let ex = p.qs.find(q => q.exp);
+// 風格範例：同卷已寫的題；沒有就找同科目代碼（pid 最後一段）其他年度已寫的。
+// ⚠ 範例本身若是「整段用日文／韓文寫的解析」就不能拿來當範例：模型會照抄範例的語言，
+// 一卷寫成日文後同科目後面每一卷都跟著寫成日文，一路繁殖（2026-09-18 Tony 抓到，
+// tou-110-1-d005 80 題、tou-106-1-l005 76 題全中）。挑範例時用 exp-lang.js 濾掉。
+const ok = q => q.exp && !isForeignProse(q.exp);
+let ex = p.qs.find(ok);
 if (!ex) {
   const subj = pid.split('-').pop();
   for (const f of fs.readdirSync(path.join(ROOT, 'js/data/exam')).sort().reverse()) {
     if (!f.endsWith('-' + subj + '.js') || f === pid + '.js') continue;
     const o = load(f.replace(/\.js$/, ''));
-    ex = o && o.qs.find(q => q.exp);
+    ex = o && o.qs.find(ok);
     if (ex) break;
   }
 }

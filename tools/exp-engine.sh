@@ -22,7 +22,11 @@ case "$cmd" in
   *) echo "用法：exp-engine.sh agy|claude|status [模型]" >&2; exit 2 ;;
 esac
 
-model="${2:-$(curmodel)}"
+# 切到 agy 沒指定模型時一律回到 gemini-3.8-flash-high，不繼承上一次的設定：
+# 09/17 為了實驗把 EXP_AGY_MODEL 留成 claude-sonnet-4-6，若就這樣切回 agy，批次會去燒
+# agy 裡的 Claude 桶（按請求計量，一卷吃 17～18% 週限、只夠 5～6 卷），跟 CLAUDE.md 定的
+# 「批次主力永遠是 flash」相反（2026-09-18 發現）。要用 Claude 模型得在命令列明講。
+model="${2:-gemini-3.8-flash-high}"
 cp "$SRC" "$UNIT"
 { echo "Environment=EXP_ENGINE=$cmd"; echo "Environment=EXP_AGY_MODEL=$model"; } >> "$UNIT"
 systemctl --user daemon-reload
