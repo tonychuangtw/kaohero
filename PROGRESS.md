@@ -8,10 +8,10 @@ NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`）的**�
 　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
 
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無。09/18 19:21 台北現況：導遊領隊只剩 453 題圖片題（31 卷），引擎已切回 claude 在跑；`exp-worker.failed` 空。
+BLOCKERS: 無。09/18 20:25 台北現況：worker 正常逐卷在寫（引擎 claude、EXP_MATCH=^tou-），導遊領隊剩約 310 題未寫（含圖片題 216），`exp-worker.failed` 空。19:21 起一小時已補約 140 題，照此速度估 22:00 前後收工。
 
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 19:45 台北
+UPDATED: 2026-09-18 20:25 台北
 
 ## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
 
@@ -97,7 +97,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 claude/claude-opus-5）。最後一卷：tou-104-1-d001 104 年　導遊人員　導遊實務（一），寫 46 題、跳過 0 題，09/18 20:22 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 claude/claude-opus-5）。最後一卷：tou-103-1-l006 103 年　領隊人員　外國語（法語），寫 19 題、跳過 0 題，09/18 20:24 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）

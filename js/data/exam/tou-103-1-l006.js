@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "couperait",
     "coupait"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「autrefois（從前）＋ quand（每當）」描述古代反覆發生的慣例，主句要用未完成過去時（imparfait），故用 coupait。\n❌ (A) coupe 是直陳式現在時，與 autrefois、avait volé 的過去語境衝突。\n❌ (B) coupera 是簡單未來式，用於尚未發生的事，不能描述過去的習慣。\n❌ (C) couperait 是條件式現在時，表假設或過去的未來，此句並無假設條件。\n📚 出處：法語時態—未完成過去時表過去習慣性動作（imparfait d'habitude）"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "finisse",
     "a fini"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「Que ＋ 主詞 ＋ 虛擬式」是對第三人稱下命令、表願望的句型（叫他睡前把功課寫完），finir 的虛擬式現在時為 finisse。\n❌ (A) finit 是直陳式現在時（或簡單過去），Que 引導的祈使句不用直陳式。\n❌ (B) finirai 是第一人稱未來式，人稱與語氣都與 il 不合。\n❌ (D) a fini 是複合過去式，屬直陳式，語意變成陳述「他已寫完」。\n📚 出處：法語虛擬式—Que ＋ subjonctif 表第三人稱命令"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "Claude Simon",
     "François Mauriac"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 1957 年諾貝爾文學獎得主為卡繆（Albert Camus），代表作《異鄉人》《鼠疫》，是當時最年輕的法語得主之一。\n❌ (A) 沙特（Jean-Paul Sartre）1964 年獲獎，並公開拒絕領取。\n❌ (C) 克勞德‧西蒙（Claude Simon）屬新小說派，1985 年才獲獎。\n❌ (D) 莫里亞克（François Mauriac）1952 年獲獎，早於卡繆五年。\n📚 出處：法國文學常識—法語作家歷屆諾貝爾文學獎"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "de quoi",
     "sur quoi"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) être utile 要搭配介系詞 en 表示「在哪方面有用」（En quoi puis-je vous être utile ?＝我能在什麼方面幫上忙），關係詞須用 en quoi。\n❌ (A) dont 代替 de ＋ 名詞，但 être utile 不與 de 連用。\n❌ (C) de quoi 同樣是 de 的結構，用於 avoir de quoi… 等句型，無法表達此處語意。\n❌ (D) sur quoi 表「在……之上／關於什麼」，與 être utile 的介系詞搭配不符。\n📚 出處：法語關係代名詞 quoi 與介系詞搭配（être utile à qqn en qqch）"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "téléphonerait",
     "téléphonerai"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 主句 a promis 為過去時，從句要表「過去所看到的未來」，用條件式現在時 téléphonerait。\n❌ (A) téléphone 是現在式，無法與過去的主句做時態配合。\n❌ (B) téléphonait 是未完成過去時，表同時或習慣的動作，不能指答應後才要做的事。\n❌ (D) téléphonerai 是第一人稱簡單未來式，人稱（il）與時態配合皆錯。\n📚 出處：法語時態配合—過去的未來（futur dans le passé）用 conditionnel présent"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "regardent",
     "regarderont"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Si ＋ 未完成過去時（n'étaient pas programmées），主句須用條件式現在時，表與現況相反的假設，故 regarderaient。\n❌ (B) regardaient 是未完成過去時，只能出現在 Si 從句，不能當主句結果。\n❌ (C) regardent 是現在式，只能搭配 Si ＋ 現在式的真實條件句。\n❌ (D) regarderont 是簡單未來式，須搭配 Si ＋ 現在式，與本句 imparfait 不合。\n📚 出處：法語條件句第二型（Si ＋ imparfait → conditionnel présent）"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "dont",
     "sur laquelle"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) être témoin de qqch（目擊某事），關係子句中的「de ＋ 先行詞 l'histoire」由 dont 代替。\n❌ (A) de laquelle 一般只出現在複合介系詞之後（如 au cours de laquelle），單純的 de 應改用 dont。\n❌ (B) de qui 只能指人，先行詞 l'histoire 是事物。\n❌ (D) sur laquelle 須動詞與 sur 搭配，但 être témoin 只接 de。\n📚 出處：法語關係代名詞 dont（代替 de ＋ 名詞）"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "Manuel Valls",
     "Nicolas Sarkozy"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 2013 年 12 月曼德拉國葬，時任總統歐蘭德邀請前總統薩科奇（Nicolas Sarkozy）同機前往南非，兩人共同代表法國出席。\n❌ (A) 席哈克（Jacques Chirac）因健康因素未能出席。\n❌ (B) 艾侯（Jean-Marc Ayrault）當時是總理，不是受邀同行的前總統。\n❌ (C) 瓦爾斯（Manuel Valls）當時任內政部長，2014 年才接任總理。\n📚 出處：時事常識—2013 年 12 月曼德拉喪禮法國代表團"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "a flirté",
     "a plaisanté"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) s'en prendre à qqn 意為「攻擊、找碴、遷怒於某人」，與 s'attaquer à 同義，符合「他喝醉後對遇到的女孩動手動口」的語境。\n❌ (A) s'intéresser à 是「對……感興趣」，語氣中性，無攻擊意味。\n❌ (C) flirter 是「調情」，指追求而非攻擊，語意偏離。\n❌ (D) plaisanter 是「開玩笑」，程度與性質都與 s'en prendre à 不同。\n📚 出處：法語慣用片語 s'en prendre à qqn（＝s'attaquer à）"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "ai eu commis",
     "aurais commis"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) comme si 之後若動作發生在主句之前，須用愈過去時（plus-que-parfait），故為 avais commis。\n❌ (A) ai commis 是複合過去式，comme si 之後不可使用此時態。\n❌ (C) ai eu commis 是複合又複合的先過去時（temps surcomposé），不用於 comme si 句。\n❌ (D) aurais commis 是條件式過去時，comme si 後絕不接條件式。\n📚 出處：法語 comme si 句型—只接 imparfait 或 plus-que-parfait"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "que, qu’il",
     "dont, qui"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「dont tout le monde sait qu'il est…」是固定結構：dont 代替 savoir de qqn 的 de，後面的子句必須保留主詞代名詞 il，故選 dont, qu'il。\n❌ (B) que, qui：que 當直接受詞後又接 qui est，主詞重複，結構不成立。\n❌ (C) que, qu'il：savoir 的受詞已是 qu'il est… 這個子句，不能再用 que 連接先行詞。\n❌ (D) dont, qui：dont 之後的子句已有主詞 tout le monde，再用 qui 會出現兩個主詞。\n📚 出處：法語關係代名詞 dont ＋ 從句（dont on sait qu'il est…）"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "n’avaient pas eu",
     "n’avaient pas"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Si ＋ 愈過去時（ne s'étaient pas rencontrés），主句須用條件式過去時，表與過去事實相反的結果，故 n'auraient pas eu。\n❌ (A) n'ont pas eu 是複合過去式，用來陳述已發生的事實，不能表反事實假設。\n❌ (C) n'avaient pas eu 是愈過去時，只能放在 Si 從句，不能當主句結果。\n❌ (D) n'avaient pas 是未完成過去時，時態與假設句的結果不搭配。\n📚 出處：法語條件句第三型（Si ＋ plus-que-parfait → conditionnel passé）"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "ont passé",
     "auront passé"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) dès que 從句的動作若必須先於主句的未來動作完成，要用先未來時（futur antérieur），auront passé 強調「等孩子考完試」才出發。\n❌ (A) passent 是現在式，無法表達未來且先完成的動作。\n❌ (B) passeront 是簡單未來式，只表未來動作，未突顯與出發之間的先後關係。\n❌ (C) ont passé 是複合過去式，指已完成的過去，與 allons partir 的未來語境衝突。\n📚 出處：法語時態—dès que ＋ futur antérieur 表未來的先行動作"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "prendrait",
     "prenne"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) demander que 表請求、要求，其後子句一律用虛擬式，prendre 的虛擬式現在時為 prenne。\n❌ (A) prend 是直陳式現在時，demander que 之後不可用直陳式。\n❌ (B) prendra 是簡單未來式，同樣屬直陳式語氣。\n❌ (C) prendrait 是條件式現在時，此處沒有假設語境。\n📚 出處：法語虛擬式—表意願／請求的動詞（demander que ＋ subjonctif）"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "à qui",
     "auquel"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) échapper à qqch（逃避某事），先行詞 un phénomène naturel 為陽性單數事物，à ＋ lequel 縮合成 auquel。\n❌ (A) que 只能當直接受詞，但 échapper 必須帶介系詞 à。\n❌ (B) à laquelle 是陰性形式，與陽性的 phénomène 不一致。\n❌ (C) à qui 只能指人，此處先行詞是自然現象。\n📚 出處：法語複合關係代名詞 auquel（à ＋ lequel，指事物）"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "pour",
     "par"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) se décider à faire qqch＝下定決心做某事，反身用法固定搭配介系詞 à。\n❌ (B) de 用於非反身的 décider de faire qqch，主詞為 il s'est décidé 時不可用。\n❌ (C) pour 表目的，不與 se décider 構成固定搭配。\n❌ (D) par 表方式或施動者，語法不通。\n📚 出處：法語動詞介系詞搭配（se décider à ≠ décider de）"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "passable",
     "sans défaut"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) impeccable 意為「無懈可擊、毫無瑕疵」，與 sans défaut 同義，形容論證完美無缺。\n❌ (A) mauvaise 是「差的、糟的」，語意完全相反。\n❌ (B) médiocre 是「平庸、不佳」，同為負面評價。\n❌ (C) passable 是「勉強可以、尚可」，程度遠低於 impeccable。\n📚 出處：法語詞彙—impeccable 的同義表達（sans défaut／parfait）"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "sur",
     "de"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) témoigner du respect envers qqn＝對某人表示敬意，envers 專門用來引出態度或情感所針對的對象。\n❌ (A) avec 表伴隨或方式（avec respect＝恭敬地），不能用來接受敬的對象。\n❌ (C) sur 表位置或主題（關於……），不用於情感對象。\n❌ (D) de 已出現在 du respect 的部分冠詞中，再用 de 既非固定搭配也造成語意混亂。\n📚 出處：法語介系詞 envers（respect／gratitude envers qqn）"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "avec",
     "sur"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) à l'encontre de 是固定片語，意為「針對、違逆、與……相牴觸」，介系詞固定用 à。\n❌ (A) pour l'encontre de 並不存在，pour 表目的或對象，無此搭配。\n❌ (C) avec 表伴隨，無法構成這個片語。\n❌ (D) sur 表位置或主題，同樣不能與 l'encontre de 連用。\n📚 出處：法語固定片語 à l'encontre de（＝contre，針對／違反）"
   },
   {
    "n": 20,
