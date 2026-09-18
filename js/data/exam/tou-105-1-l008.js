@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "un",
     "unos"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 正確。「paraguas」（雨傘）是陽性單數名詞，故用不定冠詞「un」。\n❌ (A) 錯誤。「unas」是陰性複數不定冠詞，不能修飾單數陽性名詞「paraguas」。\n❌ (B) 錯誤。「una」是陰性單數不定冠詞，與陽性名詞「paraguas」性別不符。\n❌ (D) 錯誤。「unos」是陽性複數不定冠詞，但「paraguas」在此為單數，數量不一致。\n📚 出處：西班牙語冠詞與名詞性數一致（un/una/unos/unas 用法）"
   },
   {
    "n": 2,
@@ -219,7 +220,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "algo",
     "a"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 正確。句意為「Natalia 長得不像她母親」，「parecerse a alguien」表示「長得像某人」，須用介系詞「a」連接對象。\n❌ (A) 錯誤。「se」是反身代名詞，缺少動詞與介系詞，無法構成完整表達。\n❌ (B) 錯誤。「parece」雖為「看起來」的動詞，但「parecerse a」才表示「長得像」，且此處缺動詞而直接放「parece」語法不通。\n❌ (C) 錯誤。「algo」意為「某事物」，與句意「長得像母親」完全無關。\n📚 出處：西班牙語動詞 parecerse a 之用法（相似、長得像）"
   },
   {
    "n": 15,
@@ -352,7 +354,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "participen",
     "empiecen"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 正確。句意為「我希望其他人了解西班牙比賽的高水準」，「conozcan」為 conocer（認識、了解）的虛擬式現在式，用於 apetecer que 引導的從句。\n❌ (A) 錯誤。「compitan」意為「競爭」，語意不通，且此處要表達的是「了解」而非「競爭」。\n❌ (C) 錯誤。「participen」意為「參加」，後面應接 en，且與「el alto nivel」語意搭配不佳。\n❌ (D) 錯誤。「empiecen」意為「開始」，與「el alto nivel de la competición」搭配語意不通。\n📚 出處：西班牙語虛擬式用法：apetecer que + 虛擬式（表達願望）"
   },
   {
    "n": 24,
@@ -635,7 +638,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "te levantas",
     "se levantan"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 正確。問句用「usted」（您），回答時主語為說話者本人「我」，故動詞用第一人稱「me levanto」。\n❌ (A) 錯誤。「se levanta」是第三人稱或敬稱形式，與回答者自稱「我」不符。\n❌ (C) 錯誤。「te levantas」是第二人稱單數 tú 的形式，不能用於說話者自稱。\n❌ (D) 錯誤。「se levantan」是第三人稱複數形式，主語與語境不符。\n📚 出處：西班牙語反身動詞 levantarse 的人稱變化與主語一致"
   },
   {
    "n": 43,
@@ -1113,7 +1117,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "de",
     "Venecia"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 正確。句意為「加的斯狂歡節的起源可追溯至該城市」，動詞 datan de 後接起源的時間或地點，「ciudad」在此指「該城市」，語意通順。\n❌ (A) 錯誤。「la」為陰性定冠詞，後面缺少名詞，無法單獨作為 datan de 的補語。\n❌ (C) 錯誤。「de」為介系詞，重複了 datan de 的介系詞，語法不通。\n❌ (D) 錯誤。「Venecia」（威尼斯）與加的斯狂歡節的起源無關，且句中並未提及。\n📚 出處：西班牙文化常識：加的斯狂歡節（Carnaval de Cádiz）起源"
   },
   {
    "n": 75,
@@ -1201,7 +1206,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l008'] = {
     "capacidad",
     "política"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 正確。句意為「當其他九位候選人忙於承諾總理層級的事務時，Marcelo Rebelo de Sousa 採取了屬於他自己的策略」，空格後接人名，須用所有格形容詞「su」（他的）修飾其後的職稱或身分。\n❌ (A) 錯誤。「mostrar」為動詞「展示」，無法直接接人名與後續名詞構成完整結構。\n❌ (C) 錯誤。「capacidad」意為「能力」，與句意「採取策略」不符，且無法修飾人名。\n❌ (D) 錯誤。「política」意為「政治」，若置於人名前語法不通，且句意重點在於「他的」策略。\n📚 出處：西班牙語所有格形容詞 su 與新聞報導人物描述用法"
   }
  ]
 };
