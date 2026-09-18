@@ -7,7 +7,41 @@ NEXT_ACTION: 本線不做事，等 worker 跑完導遊領隊（`^tou-`，2026-09
 VALIDATION: `node test/test.js` 全綠（52,977 項檢查）；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
 BLOCKERS: 無（09/17 20:40–09/18 03:41 的 agy Gemini 週限空轉已由 04:10 的 exp-engine-restore.timer 解除）。09/18 16:50 台北現況：導遊領隊 277 卷已完成 167 卷、剩 110 卷（20,840 題已寫 11,175），本機 claude 平均約 8 分鐘／卷、每卷約 $1.5，預估 09/19 白天跑完；worker active、`exp-worker.failed` 空。留存教訓：agy 的 Claude 桶按請求計量、每卷吃 17～18% 週限，只夠 5～6 卷，不能當批次引擎（已寫進 CLAUDE.md）。
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-18 16:50 台北
+UPDATED: 2026-09-18 17:20 台北
+
+## 外語科目的解析被寫成外語（2026-09-18 Tony 抓到，已修）
+
+**症狀**：導遊領隊日語科目（`tou-*-d005`／`l005`）的詳解，✅／❌ 說明整段用日文寫，
+例如「『心を込めた』は『真心を注いだ』の意味の慣用表現」。台灣考生看不懂。韓語卷也查過，沒中。
+
+**真正的原因**：`tools/exp-dump.js` 的「風格範例」會挑「同科目代碼其他年度已寫好的一題」塞進 prompt。
+日語科目第一卷被寫成日文之後，後面每一卷拿到的範例都是日文，模型照抄語言，一路繁殖 ——
+tou-110-1-d005 80 題、tou-106-1-l005 76 題全中，而且直到 09/18 17:15 都還在產生（d005 又中 9 題）。
+prompt 裡原本只有「繁體中文」四個字，擋不住「這科是日語，所以用日語解釋」的直覺。
+
+**怎麼避開**（都已進 repo）：
+- `tools/exp-lang.js`：認法＝把 ✅／❌ 行裡「」『』引用的原文拿掉後，假名／諺文仍佔 30% 以上。
+  門檻實測過：0.12～0.21 是正常中文解析（引用很多日文但用中文解釋），0.33 以上是整段日文。
+  ⛔ 不要用「整則解析的假名佔比」判斷，會把正常的日語科目解析全部誤判。
+- `exp-dump.js` 挑風格範例時用它濾掉外語解析；`exp-prompt.md` 加了硬規則（外語科目正文一律中文）。
+- `tools/exp-clear-foreign.js --write` 清掉已寫的外語解析，`exp-next.js` 就會把那幾卷重新排進佇列。
+  原文備份在 `tools/exp-foreign-backup.json`（重寫確認沒問題後可刪）。
+- 已清 165 題（tou-110-1-d005 80、tou-106-1-l005 76、tou-106-1-d005 9），17:20 起由 worker 重寫，排在佇列最前面。
+
+**順手修掉的地雷**：`exp-engine.sh` 沒帶模型參數時會沿用 unit 裡上次的 `EXP_AGY_MODEL`，
+而 09/17 實驗留下的是 `claude-sonnet-4-6`。誰打一句 `exp-engine.sh agy` 就會去燒 agy 的 Claude 桶
+（按請求計量、一卷吃 17～18% 週限、只夠 5～6 卷），而不是 flash。已改成不指定就一律回 gemini-3.8-flash-high。
+
+## 兩個引擎的成本與速度（2026-09-18 實算，導遊領隊同一批卷）
+
+| | agy／gemini-3.8-flash-high | 本機 claude opus-5 |
+|---|---|---|
+| 卷數 | 73 | 96 |
+| 每卷 | 244 秒 | 467 秒（1.9 倍）|
+| 費用 | $0（Google AI Pro 訂閱）| 合計 $132.92、每卷 $1.38（Claude Code 記的等值金額，實際吃訂閱週限）|
+
+剩 112 卷：claude 約 14.5 小時／再約 $152 等值；flash 約 7.6 小時／$0。
+Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
 （自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^tou-，引擎 claude/claude-opus-5）。最後一卷：tou-106-1-d005 106 年　導遊人員　外國語（日語），寫 73 題、跳過 7 題，09/18 17:15 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
