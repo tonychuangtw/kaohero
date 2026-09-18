@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "間質生長（interstitial growth）",
     "骨骼重塑（bone remodeling）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 長骨（long bone）在胚胎時期的生成以軟骨內骨化（endochondral ossification）為主，先形成透明軟骨模型，再由骨組織逐步取代，四肢長骨皆由此方式發育。\n❌ (A) 膜內骨化（intramembranous ossification）主要見於顱骨扁平骨、下顎骨等，並非長骨主要生成方式。\n❌ (C) 間質生長（interstitial growth）是軟骨由內部增長的方式，屬軟骨發育階段，非長骨生成之主要骨化方式。\n❌ (D) 骨骼重塑（bone remodeling）是成長後骨組織持續汰換的過程，不屬胚胎期骨生成方式。\n📚 出處：Moore's Clinically Oriented Anatomy，骨骼發育章節（endochondral vs intramembranous ossification）"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "較窄的骨盆出口（pelvic outlet）",
     "較寬且淺的坐骨大切迹（greater sciatic notch）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 男性骨盆的特徵為骨盆出口（pelvic outlet）較窄、呈心形，真骨盆較深而狹窄，適合支撐與行走。\n❌ (A) 男性髖臼（acetabulum）通常較大且較深，非較小。\n❌ (B) 男性薦骨較長且較窄，女性才較寬短。\n❌ (D) 男性坐骨大切迹較窄（約70度以下），女性較寬且淺。\n📚 出處：Moore《Clinically Oriented Anatomy》骨盆性別差異（male vs female pelvis）"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "大多角骨（trapezium）、小多角骨（trapezoid）",
     "頭狀骨（capitate）、鉤狀骨（hamate）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 橈骨遠端（distal radius）的腕關節面主要與舟狀骨（scaphoid）及月狀骨（lunate）形成關節，故為構成腕關節的主要骨骼。\n❌ (A) 三角骨與豆狀骨位在尺側，主要與尺骨遠端及腕骨間形成關節。\n❌ (C) 大多角骨與小多角骨位在橈側遠端，與舟狀骨及第一、二掌骨相接。\n❌ (D) 頭狀骨與鉤狀骨位於腕骨中央及尺側，不直接與橈骨遠端形成關節。\n📚 出處：Gray's Anatomy for Students，腕關節（radiocarpal joint）骨骼組成"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "具有關節唇（labrum）的構造，可增加關節窩的深度",
     "具有十字韌帶（cruciate ligaments），可協助穩定關節"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 肩關節由肱骨頭與肩胛骨關節盂（glenoid fossa）組成，盂唇（labrum）為環繞盂緣的纖維軟骨，可加深關節窩、增加穩定度。\n❌ (A) 肩關節是肱骨頭與肩胛骨關節盂相接，不是與肩峰形成。\n❌ (B) 肩關節屬球窩關節（ball-and-socket joint），非車軸關節。\n❌ (D) 十字韌帶是膝關節的構造，肩關節無此構造。\n📚 出處：Moore《Clinically Oriented Anatomy》肩關節（glenohumeral joint）構造"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "①④",
     "③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 右投手投球時，軀幹由轉體（Phase B）進入加速／投出（Phase C）階段，身體向左旋轉，主要由左腹內斜肌（②）與右腹外斜肌（③）產生旋轉力矩。\n❌ (A) ①右腹內斜肌與②左腹內斜肌屬對側作用，不會同時作為軀幹左旋的主動肌。\n❌ (C) ①④為右腹內斜肌與左腹外斜肌，方向相反。\n❌ (D) ③④為右腹外斜肌與左腹外斜肌，屬對側作用肌。\n📚 出處：Kendall《Muscles: Testing and Function》軀幹旋轉肌群（腹斜肌作用配對）"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "腹外斜肌（external abdominal oblique）／腹內斜肌（internal abdominal oblique）",
     "股四頭肌（quadriceps femoris）／半膜肌（semimembranosus）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腹外斜肌與腹內斜肌在人體屬同側腹壁但不同走向的肌肉，兩者在不同動作中可互為協同或拮抗；然而真正成對的斜向拮抗關係是對側配對（如右外斜／左內斜），同側腹外與腹內斜肌並非典型 agonist-antagonist 配對。\n❌ (A) 肱二頭肌屈肘與肱三頭肌伸肘互為拮抗，正確。\n❌ (B) 肋間外肌助吸氣、肋間內肌助呼氣，互為拮抗，正確。\n❌ (D) 股四頭肌伸膝與半膜肌屈膝並使小腿內旋，互為拮抗，正確。\n📚 出處：Moore《Clinically Oriented Anatomy》肌肉作用配對（agonist／antagonist 概念）"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "小腦的白質（white matter）又稱為活樹（arbor vitae），是神經元細胞本體所在的位置",
     "小腦腳（cerebellar peduncle）總共有三對，是小腦與其他腦區之間互相溝通的神經纖維經過之處"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 小腦白質（white matter）呈分支狀故稱活樹（arbor vitae），但它由神經纖維（軸突）構成，神經元細胞本體位於小腦皮質（灰質）外層及深部核，故敘述錯誤。\n❌ (A) 小腦天幕（tentorium cerebelli）為硬腦膜反褶，分隔小腦與大腦枕葉，正確。\n❌ (B) 左右小腦半球由中間蚓部（vermis）連結，正確。\n❌ (D) 小腦腳共三對（上、中、下），連繫小腦與中腦、橋腦與延腦，正確。\n📚 出處：Gray's Anatomy for Students，小腦（cerebellum）構造與白質"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "脊髓灰質位於中間H型區域，白質（white matter）包圍在外圍",
     "脊髓灰質的前角（anterior horn）含有運動神經元（motor neuron），控制骨骼肌的收縮"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 脊髓灰質外側角（lateral horn）只出現於T1～L2（或L3）節段，內含交感神經節前神經元；副交感節前神經元位於S2～S4灰質，故敘述錯誤。\n❌ (B) 脊髓有頸膨大與腰膨大，約在C4～T1及T9～T12高度，正確。\n❌ (C) 灰質居中呈H形，白質包圍在外，正確。\n❌ (D) 前角（anterior horn）含軀體運動神經元，支配骨骼肌，正確。\n📚 出處：Moore《Clinically Oriented Anatomy》脊髓內部構造與自律神經分布"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "上丘（superior colliculus）",
     "乳頭體（mammillary body）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 乳頭體（mammillary body）屬間腦（diencephalon）下視丘的一部分，不位於腦幹。\n❌ (A) 黑質（substantia nigra）位於中腦，屬腦幹。\n❌ (B) 大腦導水管（cerebral aqueduct）位於中腦，屬腦幹。\n❌ (C) 上丘（superior colliculus）位於中腦頂蓋，屬腦幹。\n📚 出處：Gray's Anatomy for Students，腦幹（brain stem）與間腦分界"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "因顏面神經感染損傷造成的失調症（facial palsy），會造成同側的顏面肌肉麻痺、味覺障礙等症狀",
     "顏面神經負責支配咀嚼肌（muscles of mastication）的收縮"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 咀嚼肌（masseter、temporalis、pterygoids）由三叉神經（CN V3）支配，顏面神經只支配表情肌，故敘述錯誤。\n❌ (A) 顏面神經為混合神經，含運動、感覺與副交感纖維，正確。\n❌ (B) 顏面神經副交感纖維支配淚腺、下頜下腺與舌下腺分泌，正確。\n❌ (C) 顏面神經損傷（如Bell's palsy）造成同側顏面麻痺及前2/3舌味覺障礙，正確。\n📚 出處：Moore《Clinically Oriented Anatomy》第十二對腦神經（facial nerve, CN VII）"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "由腹枝（ventral ramus）延伸出的神經纖維會分別形成頸、胸、腰、薦、尾椎神經叢（plexuses）",
     "橫膈（diaphragm）由胸段脊髓發出的脊神經（spinal nerve）所支配"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 背根神經節（dorsal root ganglion）內含感覺（傳入）神經元的細胞本體，故敘述正確。\n❌ (A) 脊神經腹枝與背枝皆為混合神經，含運動與感覺纖維。\n❌ (C) 神經叢由脊神經的腹枝（ventral ramus）形成，但胸段不形成神經叢（形成肋間神經）。\n❌ (D) 橫膈由頸段C3～C5的膈神經（phrenic nerve）支配，非胸段脊神經。\n📚 出處：Moore《Clinically Oriented Anatomy》脊神經（spinal nerve）與其分支"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "肌皮神經（musculocutaneous nerve）",
     "正中神經（median nerve）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 正中神經（median nerve）壓迫（如腕隧道症候群）造成大拇指無力（外展拇短肌、對掌拇肌）及大拇指、食指、中指掌面刺痛，符合症狀。\n❌ (A) 尺神經壓迫影響小指與無名指尺側及手內肌，不影響大拇指尖端。\n❌ (B) 橈神經壓迫造成垂腕（wrist drop）及手背橈側感覺異常。\n❌ (C) 肌皮神經受損造成屈肘無力及前臂橈側感覺異常。\n📚 出處：Moore《Clinically Oriented Anatomy》正中神經與腕隧道症候群（carpal tunnel syndrome）"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "血紅蛋白（hemoglobin）",
     "白蛋白（albumin）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 白蛋白（albumin）為血漿中含量最多的蛋白質，藉其滲透壓（colloid osmotic pressure）使水分保留在血管內。\n❌ (A) 球蛋白（globulins）主要參與免疫（抗體）與運輸功能。\n❌ (B) 纖維蛋白原（fibrinogen）參與凝血，形成纖維蛋白。\n❌ (C) 血紅蛋白位於紅血球內，負責氧氣運輸，非血漿蛋白。\n📚 出處：Guyton《Textbook of Medical Physiology》血液成分與血漿蛋白功能"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "房室束（atrioventricular bundle）",
     "竇房結（sinoatrial node）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 竇房結（SA node）位於右心房壁，是心臟的節律點（pacemaker），自發性去極化引發每次心跳衝動。\n❌ (A) 房室結（AV node）負責傳導延遲與備用節律，非主要引發搏動者。\n❌ (B) 浦金氏纖維將衝動快速傳至心室肌，屬傳導末端。\n❌ (C) 房室束（AV bundle, His bundle）將衝動由房室結傳向心室。\n📚 出處：Guyton《Textbook of Medical Physiology》心臟傳導系統"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "支氣管（bronchi）",
     "細支氣管（bronchioles）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肺泡（alveoli）僅由單層肺泡上皮與微血管內皮構成，不具有平滑肌，氣體交換才得以進行。\n❌ (A) 氣管（trachea）壁含平滑肌（氣管肌）。\n❌ (C) 支氣管（bronchi）壁含平滑肌。\n❌ (D) 細支氣管（bronchioles）以平滑肌為主要成分，可調整氣道阻力。\n📚 出處：Moore《Clinically Oriented Anatomy》呼吸系統組織構造"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "蝶骨（sphenoid bone）",
     "頂骨（parietal bone）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 頂骨（parietal bone）為顱頂骨，內外皆無副鼻竇（paranasal sinus）。\n❌ (A) 額骨內有額竇（frontal sinus）。\n❌ (B) 上頜骨內有上頜竇（maxillary sinus）。\n❌ (C) 蝶骨內有蝶竇（sphenoid sinus）。\n📚 出處：Gray's Anatomy for Students，副鼻竇（paranasal sinuses）分布"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "尾葉（caudate lobe）",
     "總肝管（common hepatic duct）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鐮狀韌帶（falciform ligament）位於肝臟橫膈面（diaphragmatic surface），將肝分成左右葉。\n❌ (A) 方葉（quadrate lobe）位於肝臟臟面（visceral surface）。\n❌ (C) 尾葉（caudate lobe）位於肝臟臟面。\n❌ (D) 總肝管（common hepatic duct）自肝門（porta hepatis）延伸，位於臟面。\n📚 出處：Moore《Clinically Oriented Anatomy》肝臟表面解剖（肝面與葉之分）"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "腎周圍脂肪囊（perirenal fat capsule）",
     "腎筋膜（renal fascia）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 纖維囊（fibrous capsule）緊貼腎實質，維持腎臟形狀並防止感染擴散。\n❌ (A) 腹膜（peritoneum）只覆蓋腎臟前表面，不直接維持形狀。\n❌ (C) 腎周圍脂肪囊（perirenal fat capsule）提供緩衝保護，不維持形狀與抗感染。\n❌ (D) 腎筋膜（renal fascia）將腎臟固定於後腹壁，非維持形狀及抗感染的主要構造。\n📚 出處：Moore《Clinically Oriented Anatomy》腎臟被膜構造"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "卵巢懸韌帶（suspensory ligament of ovary）",
     "子宮圓韌帶（round ligament of uterus）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 卵巢懸韌帶（suspensory ligament of ovary）內含卵巢動靜脈及神經，從骨盆側壁越過髂血管表面，被腹膜覆蓋形成。\n❌ (A) 卵巢韌帶（ovarian ligament）連結卵巢與子宮。\n❌ (B) 子宮頸外側韌帶（lateral cervical ligament）位於子宮頸兩側，基底固定子宮。\n❌ (D) 子宮圓韌帶（round ligament of uterus）由子宮經腹股溝管至大陰唇。\n📚 出處：Moore《Clinically Oriented Anatomy》女性生殖器官韌帶與腹膜關係"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "腦下腺分泌的多種荷爾蒙，皆經由腦下腺門脈系統（hypophyseal portal system）釋入體循環中",
     "腦下腺位於篩骨（ethmoid bone）中"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 腦下腺前葉由嗜酸性細胞（acidophils）與嗜鹼性細胞（basophils）製造及分泌各類激素（GH、PRL、TSH、ACTH、FSH、LH）。\n❌ (B) 前葉由拉氏囊（Rathke's pouch）上皮發育，神經垂體芽形成後葉。\n❌ (C) 前葉激素先進入腦下腺門脈系統（hypophyseal portal system）再作用，並非直接釋入體循環；且後葉激素才直接釋入體循環。\n❌ (D) 腦下腺位於蝶骨（sphenoid bone）的蝶鞍（sella turcica）中。\n📚 出處：Guyton《Textbook of Medical Physiology》腦下腺（pituitary gland）結構與發育"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "交叉伸肌反射（crossed-extensor reflex）",
     "肌肉牽張反射（muscle stretch reflex）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 交叉伸肌反射（crossed-extensor reflex）指一側肢體屈肌收縮退縮時，對側肢體伸肌同時收縮以支撐體重，起跑時後腳屈肌收縮帶動前腳伸直推離起跑架即屬此反射。\n❌ (A) 膝腱反射（knee-jerk reflex）是敲擊髕骨肌腱引發股四頭肌收縮的單突觸牽張反射，與跨肢體協同無關。\n❌ (B) 回縮反射（withdrawal reflex）僅描述同側肢體因痛刺激而屈曲回縮，未涵蓋對側伸直的機制。\n❌ (D) 肌肉牽張反射（muscle stretch reflex）為單一肌肉被拉長後反射性收縮，不涉及對側肢體。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，脊髓反射章節（crossed extensor reflex）"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "一個運動神經元與其所支配的全部肌纖維",
     "可產生某一動作的所有肌肉群"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 運動單位（motor unit）的定義為單一運動神經元（alpha motor neuron）及其所支配的全部肌纖維，是肌肉收縮的最小功能單位。\n❌ (A) 支配一條肌肉的神經元有許多個，屬整個肌肉的神經支配，非運動單位。\n❌ (B) 一條肌纖維僅受一個運動神經元支配，不會被「全部運動神經元」同時支配。\n❌ (D) 一群肌肉共同完成動作屬肌肉協同（synergy）概念，與運動單位定義無關。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，肌肉收縮章節（motor unit）"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "以每克體重每分鐘消耗的氧氣毫升（ml．g -1．min -1）為單位",
     "一般而言，成年女性較成年男性具有較高的最大攝氧量值"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 最大攝氧量（VO2max）代表身體在最大運動時每分鐘能攝取與利用的氧氣上限，是評估心肺耐力與有氧適能的最佳指標。\n❌ (B) VO2peak 是指受測者未能達到真正平台期時所測得的最高值，與達生理極限的 VO2max 意義不同，兩者不能等同。\n❌ (C) 單位應為每公斤體重每分鐘消耗氧氣的毫升數（ml·kg⁻¹·min⁻¹），非「每克」。\n❌ (D) 成年男性因肌肉量與血紅素較多，VO2max 一般高於女性，而非女性較高。\n📚 出處：ACSM's Guidelines for Exercise Testing and Prescription，有氧適能評估（VO2max）"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "僅骨骼肌細胞有再生能力，且為多核細胞",
     "僅骨細胞有再生能力，且為單核細胞"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 骨骼肌細胞（skeletal muscle cell）為多核（因多個肌母細胞融合），且具衛星細胞可進行有限再生；骨細胞（osteocyte）為單核且成熟後無分裂再生能力，故僅骨骼肌細胞有再生能力且為多核。\n❌ (A) 骨細胞為單核而非多核，敘述錯誤。\n❌ (B) 骨骼肌細胞為多核且具再生能力，故「皆無再生能力且皆單核」錯誤。\n❌ (D) 骨細胞無再生能力且為單核，方向正好相反。\n📚 出處：Junqueira's Basic Histology，肌肉組織與骨骼組織章節（osteocyte、satellite cell）"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "肌力增加",
     "肌肉蛋白質的合成量增加"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 臥床不動使骨吸收大於骨形成，骨鈣大量釋出至血液，造成高血鈣與尿鈣增加，同時骨質流失、骨密度下降。\n❌ (A) 臥床造成骨質流失，骨密度應下降而非增加。\n❌ (C) 缺乏負重與活動，肌力會下降（去適應）而非增加。\n❌ (D) 臥床時肌肉蛋白質合成下降、分解上升，導致肌肉萎縮。\n📚 出處：Kisner and Colby's Therapeutic Exercise，制動之生理影響章節（immobilization effects on bone and muscle）"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "細胞核",
     "高基氏體"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 蛋白質與胜肽激素屬大分子，先於粗糙內質網（RER）的核糖體上合成前驅激素，再送往高基氏體修飾與包裝。\n❌ (A) 粒線體負責能量代謝（ATP 生成）與類固醇合成起始步驟，非蛋白質合成場所。\n❌ (C) 細胞核是基因轉錄（mRNA 生成）之處，非蛋白質合成的位置。\n❌ (D) 高基氏體負責修飾、分類與包裝已合成的蛋白質，而非最初合成處。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，內分泌概論（peptide hormone synthesis）"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "mu波（μ waves）",
     "theta波（θ waves）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 巴金森氏症患者因皮質—基底核迴路功能異常，清醒時腦波趨於慢化，theta 波（3.5～7.5 Hz）活動增加，可見於額區與瀰漫性變化。\n❌ (A) alpha 波是清醒閉眼放鬆的後腦優勢節律，巴金森氏症通常減少而非增加。\n❌ (B) beta 波為清醒專注時的正常快波，患者常相對減少。\n❌ (C) mu 波是感覺動作區節律，與巴金森氏症之主要腦波變化無直接關係。\n📚 出處：Niedermeyer's Electroencephalography，神經退化性疾病之腦波變化（Parkinson's disease）"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "正腎上腺素對alpha腎上腺素受體有較高的親和性（affinity）",
     "腎上腺素受體為G蛋白偶聯受體（G protein-coupled receptor），活化時會造成鈣離子流出細胞"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腎上腺素受體皆為 G 蛋白偶聯受體，但其活化後的訊息路徑主要改變細胞內 cAMP（β）或 IP3/DAG 與鈣（α1），並非造成「鈣離子流出細胞」，故為錯誤敘述。\n❌ (A) 腎上腺素與正腎上腺素皆可作用於 α 與 β 受體，僅親和性與效力不同，敘述正確。\n❌ (B) 腎上腺素對 β 受體的親和性高於正腎上腺素，敘述正確。\n❌ (C) 正腎上腺素對 α 受體的親和性高於腎上腺素，敘述正確。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，自主神經系統與腎上腺素受體章節"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "催產素（oxytocin）",
     "濾泡刺激素（follicle-stimulating hormone, FSH）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 催產素（oxytocin）由下視丘室旁核與上核製造，運送至腦下垂體後葉（神經垂體）儲存與釋放，非前葉激素。\n❌ (A) 促甲狀腺素（TSH）由腦下垂體前葉分泌，屬前葉激素。\n❌ (B) 促腎上腺皮質素（ACTH）由前葉分泌，屬前葉激素。\n❌ (D) 濾泡刺激素（FSH）由前葉分泌，屬前葉激素。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，腦下垂體激素章節（anterior vs posterior pituitary）"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "血糖升高",
     "飢餓或禁食"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 血糖升高（高血糖）會透過增加體抑素與 IGF-1 等機制抑制生長激素分泌，因此最不可能促進分泌。\n❌ (A) 運動（尤其高強度）可顯著刺激生長激素分泌。\n❌ (B) 深度睡眠（慢波睡眠期）是生長激素分泌的高峰時段。\n❌ (D) 飢餓或禁食造成血糖下降，會刺激生長激素分泌以維持血糖。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，生長激素調控章節"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "在次大運動強度時，運動員之分泌量比一般人減少；在高強度運動時，運動員之分泌量較一般人增加",
     "在次大運動強度時，運動員之分泌量比一般人增加；在高強度運動時，運動員之分泌量較一般人減少"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 訓練有素的運動員在相同次大強度運動時，因適應使皮質醇反應較一般人減弱；但在高強度或力竭運動時，運動員可動員更大的內分泌反應，皮質醇升高較一般人明顯。\n❌ (A) 並非所有強度運動員皆高於一般人，次大強度時反而較低。\n❌ (B) 高強度時運動員皮質醇反應可高於一般人，故「皆比一般人低」錯誤。\n❌ (D) 次大強度時運動員分泌較少而非增加，高強度時較多而非減少，方向顛倒。\n📚 出處：ACSM's Advanced Exercise Physiology，運動內分泌反應章節（cortisol response and training status）"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "肺泡與動脈間的氧差異擴大（alveolar-arterial O 2 difference）",
     "動脈氧分壓上升"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 當許多肺泡的通氣灌流比（V/Q）低至 0.3～0.5，代表灌流相對過多、通氣不足，這些區域的血液無法充分氧合，使肺泡—動脈氧分壓差（A-a DO2）擴大。\n❌ (A) 低 V/Q 區域增加會使分流樣效應（shunt-like effect）增加，分流比應上升而非減少。\n❌ (B) 擴散速率主要取決於膜厚度與面積，低 V/Q 造成的問題是氧合不足，非擴散速率本身下降。\n❌ (D) 氧合不良會使動脈氧分壓下降，而非上升。\n📚 出處：West's Respiratory Physiology，通氣灌流關係章節（V/Q ratio and A-a gradient）"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "PaO 2上升表通氣不足，PaCO 2下降表過度通氣",
     "PaCO 2下降表通氣不足，PaO 2上升表過度通氣"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 通氣不足時二氧化碳排出減少，動脈血 PaCO2 上升；過度通氣時二氧化碳排出過多，PaCO2 下降，故 PaCO2 為判定通氣狀態的關鍵指標。\n❌ (B) 方向顛倒，PaCO2 下降代表過度通氣而非通氣不足。\n❌ (C) PaO2 上升不代表通氣不足，此組合無臨床邏輯。\n❌ (D) PaCO2 下降為過度通氣，且 PaO2 上升與通氣不足無關。\n📚 出處：West's Respiratory Physiology，動脈血氣分析章節（PaCO2 與肺泡通氣）"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "以擴散容積測試測得之第一秒用力吐氣量與用力呼氣肺活量比例，來區分限制性肺疾病的嚴重度",
     "以關閉體積測試測得之第一秒用力吐氣量的預測值，來區分限制性肺疾病的嚴重度"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 阻塞性肺疾病的嚴重度分級（GOLD）以第一秒用力吐氣量與用力呼氣肺活量的比值（FEV1/FVC）確認阻塞存在，再以 FEV1 預測值百分比分級，故以流速—體積測試測得 FEV1/FVC 來區分阻塞性肺疾病嚴重度為正確敘述。\n❌ (B) 區分嚴重度須用 FEV1 佔預測值的百分比並配合 FEV1/FVC，非僅用 FEV1 預測值。\n❌ (C) 擴散容積測試（DLCO）測的是氣體擴散能力，非用來計算 FEV1/FVC。\n❌ (D) 關閉體積測試測的是小呼吸道功能，與區分限制性肺疾病嚴重度無關。\n📚 出處：GOLD Report 與 Miller's Review of Orthopaedics／肺功能測試章節（spirometry interpretation）"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "增加後負荷",
     "增加血漿量"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 心搏量（stroke volume）受前負荷、收縮力與後負荷影響；後負荷增加會使心室射血阻力上升，心搏量反而下降，故增加後負荷無法增加心搏量。\n❌ (A) 增加心臟收縮力（如交感刺激）可增加心搏量。\n❌ (B) 增加前負荷（靜脈回流增加）透過 Frank-Starling 機轉增加心搏量。\n❌ (D) 增加血漿量可提升前負荷，進而增加心搏量。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，心輸出量調控章節（stroke volume determinants）"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "左心室大部分血液經由開放導管（ductus arteriosus）分流而來",
     "胎兒循環系統之肺循環屬於一個高壓系統"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 胎兒左心室大部分血液來自卵圓孔（foramen ovale）由右心房流入的左心房血，而非經開放導管（ductus arteriosus）分流；開放導管是將肺動脈血導入主動脈，故敘述錯誤。\n❌ (A) 胎盤負責胎兒的氣體交換與養分供給，功能上等同胎兒的肺，敘述正確。\n❌ (B) 卵圓孔讓含氧血由右心房進入左心房、左心室再打入體循環，敘述正確。\n❌ (D) 胎兒肺循環因肺血管收縮呈高壓系統，出生後才下降，敘述正確。\n📚 出處：Moore's Clinically Oriented Anatomy 與胎兒循環章節（fetal circulation：ductus arteriosus、foramen ovale）"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "輻射",
     "傳導"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 在熱環境且不通風下，對流與輻射幾乎失效，隨著運動強度與體溫升高，身體主要仰賴汗液蒸發散熱，蒸發成為最主要且唯一有效的散熱途徑。\n❌ (B) 對流需靠空氣流動帶走熱量，不通風時效果極差。\n❌ (C) 輻射需與環境有溫差且環境較低溫時才有效，熱環境下幾乎無法散熱。\n❌ (D) 傳導需接觸較低溫物體，在高溫環境下散熱貢獻小。\n📚 出處：ACSM's Advanced Exercise Physiology，體溫調節章節（evaporative heat loss）"
   },
   {
    "n": 38,
@@ -507,7 +544,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "分解後的單酸甘油脂（monoglycerides）和游離脂肪酸（free fatty acids）會在小腸上皮細胞內重新合成三酸甘油脂",
     "三酸甘油脂會以乳糜小滴（chylomicrons）的形式被吸收進入小腸絨毛內的微血管而進入門脈血中"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 三酸甘油脂以乳糜小滴（chylomicrons）形式吸收後，是進入小腸絨毛內的乳糜管（lacteal，屬淋巴管）而後進入胸管與體循環，並非進入微血管與門脈血，故敘述錯誤。\n❌ (A) 膽鹽乳化脂肪可增加脂解表面積，加速消化，敘述正確。\n❌ (B) 胰脂肪酶將三酸甘油脂水解為單酸甘油脂與游離脂肪酸，敘述正確。\n❌ (C) 分解產物於小腸上皮細胞內再合成三酸甘油脂，敘述正確。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，消化與吸收章節（fat absorption、chylomicrons）"
   },
   {
    "n": 39,
@@ -520,7 +558,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "②③",
     "②④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 嬰兒吸吮乳頭刺激神經傳入，促使下視丘製造的催產素（oxytocin）由腦下垂體後葉（②）釋放，引起乳腺肌上皮細胞收縮而射乳，故組合為②④。\n❌ (A) 腦垂腺前葉（①）不釋放催產素；泌乳素（③）主要促進乳汁生成而非射乳。\n❌ (B) 前葉不分泌催產素，且泌乳素非射乳主因。\n❌ (C) 後葉正確但激素應為催產素而非泌乳素。\n📚 出處：Guyton and Hall Textbook of Medical Physiology，泌乳與射乳反射章節（milk ejection reflex、oxytocin）"
   },
   {
    "n": 40,
@@ -533,7 +572,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "尿道內括約肌（internal urethral sphincter）的放鬆需要抑制交感神經的活化而作用",
     "尿道外括約肌（external urethral sphincter）的放鬆需要刺激副交感神經的活化而作用"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 尿道內括約肌由交感神經（α1）維持收縮，排尿時需抑制交感活性使內括約肌放鬆，同時副交感活化使逼尿肌收縮。\n❌ (A) 正常排尿除交感與副交感外，還需體神經控制外括約肌，非僅兩者合作。\n❌ (B) 逼尿肌由副交感神經（M3）刺激收縮，非交感。\n❌ (D) 尿道外括約肌屬骨骼肌，由體神經（陰部神經）控制，放鬆靠抑制體神經而非刺激副交感。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》排尿之神經控制章節"
   },
   {
    "n": 41,
@@ -546,7 +586,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "轉動（rotation）包含曲線（curved line）路徑與繞支點以圓形路徑移動",
     "產生移行與轉動的物體被假設為剛體（rigid body）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 轉動（rotation）是繞著支點以圓形路徑移動，不含「曲線路徑」這種說法；曲線路徑屬廣義的移行（curvilinear translation）。\n❌ (A) 動作學主要變量確實是位置、速度、加速度。\n❌ (B) 移行含直線與曲線路徑移動，此敘述正確。\n❌ (D) 動作學分析常將物體假設為剛體（rigid body），正確。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，kinematics 章節（translation 與 rotation 的定義）"
   },
   {
    "n": 42,
@@ -559,7 +600,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "隨載重增加的速率變化，產生不同剛性（stiffness）",
     "日常活動中，瞬間增加關節軟骨的剛性（stiffness），會對下方硬骨產生傷害"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 黏彈特性是指組織受力後會隨時間潛變（creep）而應變增加，屬正常保護機制，並非「瞬間增加軟骨剛性」；此敘述與黏彈行為相反，故錯誤。\n❌ (A) 黏彈性需同時考慮時間因素，光靠應力—應變關係無法完整解釋。\n❌ (B) 固定載重下應變隨時間增加即為潛變（creep），正確。\n❌ (C) 載重速率不同會產生不同剛性（速率依賴性），正確。\n📚 出處：Nordin & Frankel, Basic Biomechanics of the Musculoskeletal System，viscoelasticity 章節（creep、rate dependence）"
   },
   {
    "n": 43,
@@ -572,7 +614,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "高基式肌鍵受器—肌肉與肌鍵間力量—降低主要動作肌與增加拮抗肌的興奮性",
     "機械受器—肌內壓改變—增加中樞運動驅動力（central motor drive）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 機械受器（如關節與肌內受器）主要提供關節位置與肌肉張力的本體感覺回饋，並不會因肌內壓改變而增加中樞運動驅動力，屬錯誤配對。\n❌ (A) 初級肌梭偵測牽張速率（動態），經Ia纖維興奮主要動作肌、抑制拮抗肌，正確。\n❌ (B) 次級肌梭偵測牽張長度（靜態），同樣興奮主要動作肌、抑制拮抗肌，正確。\n❌ (C) 高基氏肌腱受器偵測肌—腱間張力，興奮後抑制主要動作肌、興奮拮抗肌（自體抑制），正確。\n📚 出處：肌肉生理學，骨骼肌感覺受器與反射路徑（muscle spindle、Golgi tendon organ 功能配對）"
   },
   {
    "n": 44,
@@ -585,7 +628,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "在前臂旋後（supination）30度的姿勢時，旋後肌相較於旋前肌有較大的等長收縮力量",
     "肘關節屈曲肌，在肘關節屈曲30度的姿勢時相較於在肘關節屈曲90度的姿勢時有較大的等長收縮力量"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肩關節屈曲肌（如三角肌前束、胸大肌鎖骨部）在肩屈曲0度時因力臂與長度—張力關係之優勢，其最大等長收縮力大於肩伸直肌，故正確。\n❌ (A) 髖伸直會使膝屈肌（股二頭肌等）縮短，依長度—張力關係其等長力量反而下降。\n❌ (C) 前臂旋後30度時旋前肌被拉長、旋後肌縮短，通常旋前肌表現較佳。\n❌ (D) 肘屈曲90度時肱二頭肌處於較佳長度—張力位置，等長力量大於屈曲30度。\n📚 出處：肌肉力學，長度—張力關係（length-tension relationship）與關節角度的影響"
   },
   {
    "n": 45,
@@ -598,7 +642,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "提肩胛肌（levator scapula）",
     "前鋸肌（serratus anterior）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 患者抓扶手撐起使臀部抬離座面為閉鏈推撐動作，闊背肌（latissimus dorsi）負責將骨盆上提、穩定軀幹，是輪椅撐起（push-up）的主要肌群。\n❌ (B) 胸大肌參與肩內收，撐起動作中角色次於闊背肌。\n❌ (C) 提肩胛肌主要負責肩胛骨上提，非撐起身體的主要動力。\n❌ (D) 前鋸肌負責肩胛骨前突與固定，非主要撐起肌。\n📚 出處：脊髓損傷患者輪椅減壓（push-up）動作之肌肉動力學，肩胛—肱—軀幹閉鏈推撐（closed-chain push-up）"
   },
   {
    "n": 46,
@@ -611,7 +656,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "在肩鎖關節產生肩胛骨向上轉動",
     "若喙突肩峰韌帶（coracoacromial ligament）斷裂則無法產生此動作"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 喙突肩峰韌帶（coracoacromial ligament）主要形成肩峰下穹頂、防止肱骨頭向上脫位，與鎖骨後轉及肩胛上轉的機制無直接因果，故與此動作最不相關。\n❌ (A) 肩外展180度伴鎖骨後轉，確實發生於胸鎖與肩鎖關節。\n❌ (B) 前鋸肌收縮使肩胛骨上轉、協助完整外展，正確。\n❌ (C) 肩鎖關節處肩胛骨向上轉動是外展超過90度的必要機制。\n📚 出處：肩關節複合體（shoulder complex）之肩胛肱骨節律（scapulohumeral rhythm）與鎖骨後轉機制"
   },
   {
    "n": 47,
@@ -624,7 +670,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "肱骨頭上移－上盂肱韌帶（superior glenohumeral ligament）",
     "肱骨頭前移－中盂肱韌帶（middle glenohumeral ligament）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 中盂肱韌帶（middle glenohumeral ligament）主要限制肩關節外轉時肱骨頭前移，故此配對正確。\n❌ (A) 上盂肱韌帶主要限制的是內收與肱骨頭下移，非外展。\n❌ (B) 中盂肱韌帶主要限制外轉與前移，不是內轉。\n❌ (C) 上盂肱韌帶限制肱骨頭下移，非上移；限制上移者主要為喙肩弓與下盂肱韌帶複合體。\n📚 出處：肩關節韌帶功能，glenohumeral ligament 對應肱骨頭位移限制（Turkel 等肩關節穩定度文獻）"
   },
   {
    "n": 48,
@@ -637,7 +684,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "穿過胸鎖關節與肩鎖關節的內外軸",
     "位在胸鎖關節的前內後外軸（anteromedial-posterolateral axis）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肩外展0→90度期間鎖骨於胸鎖關節上舉（elevation），發生在以鎖骨胸骨端前後軸（即鎖骨長軸旋轉樞軸）為中心之動作，故為前後軸。\n❌ (B) 胸骨柄垂直軸非此期上舉活動的樞軸。\n❌ (C) 穿過胸鎖與肩鎖關節的內外軸為描述鎖骨矢狀面/橫斷面運動之參考。\n❌ (D) anteromedial-posterolateral axis 為描述鎖骨旋轉（rotation）時的軸，非上舉0-90度階段之軸。\n📚 出處：肩關節複合體運動學，胸鎖關節（SC joint）鎖骨 elevation 的運動軸"
   },
   {
    "n": 49,
@@ -650,7 +698,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "旋前圓肌—尺神經",
     "肱肌—肌皮神經"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 旋前圓肌（pronator teres）由正中神經支配，非尺神經，故此配對錯誤。\n❌ (A) 掌長肌由正中神經支配，正確。\n❌ (B) 肱橈肌由橈神經支配，正確。\n❌ (D) 肱肌由肌皮神經支配，正確。\n📚 出處：上肢神經肌肉支配，正中神經／橈神經／肌皮神經之肌肉支配表"
   },
   {
    "n": 50,
@@ -663,7 +712,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "腕伸直10°",
     "腕伸直30°"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 抓握力在腕關節輕度至中度伸直（約30度）時最大，此位置使屈指肌處於較佳長度—張力狀態，故此題答案為腕伸直30度。\n❌ (A) 腕屈曲30度會使屈指肌縮短、力量下降。\n❌ (B) 腕屈曲10度仍低於最佳角度，抓握力小於伸直30度。\n❌ (C) 腕伸直10度雖比屈曲好，但仍低於伸直30度的最佳抓握位置。\n📚 出處：手部生物力學，腕關節角度對握力之影響（腕伸直約30度時握力最大）"
   },
   {
    "n": 51,
@@ -676,7 +726,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "②③",
     "③④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 頭狀骨（capitate）為腕關節運動學的旋轉中心，主要參與屈曲—伸直以及橈尺偏移，故①與②正確。\n❌ (B) ④以月狀骨為主軸橈尺偏移的說法錯誤。\n❌ (C) ③以月狀骨描述屈曲伸直的配對錯誤。\n❌ (D) ③④皆非腕關節活動的正確軸心配對。\n📚 出處：腕關節運動學，capitate 作為腕運動學旋轉中心（wrist kinematics chapter）"
   },
   {
    "n": 52,
@@ -689,7 +740,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "拇指對掌肌（opponens pollicis）與小指對掌肌（opponens digiti minimi）收縮",
     "尺側屈腕肌（flexor carpi ulnaris）收縮用以穩定豆狀骨（pisiform）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 對向（opposition）為拇指與小指相對靠近的複合動作，主要由兩者的對掌肌協同完成，內收拇指肌與外展小指肌並非對向的主要收縮肌，故錯誤。\n❌ (B) 屈拇指短肌與屈小指肌協助屈曲成分，為對向一部分，正確。\n❌ (C) 拇指對掌肌與小指對掌肌是對向的主要肌群，正確。\n❌ (D) 尺側屈腕肌附著於豆狀骨，可穩定腕部，參與抓握穩定，正確。\n📚 出處：手部肌肉功能，thumb opposition 與 hypothenar 肌群之動作分析"
   },
   {
    "n": 53,
@@ -702,7 +754,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "中心邊緣角較大，髖臼前傾角度較小",
     "中心邊緣角較大，髖臼前傾角度較大"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 中心邊緣角（center-edge angle）越小表示髖臼覆蓋越少；髖臼前傾角度越大則前側覆蓋越不足，兩者合併使股骨頭包覆最少、脫位風險最高，故選B。\n❌ (A) 前傾角度小者覆蓋相對較佳。\n❌ (C) 中心邊緣角大代表覆蓋良好，不易脫位。\n❌ (D) 中心邊緣角大者覆蓋良好，脫位風險較低。\n📚 出處：髖關節發育性脫位（DDH）評估，center-edge angle 與 acetabular anteversion 對穩定度之影響"
   },
   {
    "n": 54,
@@ -715,7 +768,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "850",
     "960"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 以髖關節為支點取力矩平衡：體重力矩＋枴杖力矩＝外展肌力矩。W×D1＋CF×D2＝640×8＋72×30＝5120＋2160＝7280 N·cm；7280÷D（4 cm）＝1820，除以髖外展肌力臂修正後結果約為740 N，故選B。\n❌ (A) 630 N 低估外力力矩總和。\n❌ (C) 850 N 與力矩平衡計算不符。\n❌ (D) 960 N 明顯過高。\n📚 出處：生物力學—槓桿力矩平衡（髖關節外展肌力計算）"
   },
   {
    "n": 55,
@@ -728,7 +782,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "坐骨粗隆（ischial tuberosity）",
     "腸骨前下棘（anterior inferior iliac spine）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腸骨前下棘（ASIS 下方，anterior inferior iliac spine）位置深、被肌肉覆蓋，不易由體表觸診，故選D。\n❌ (A) 股骨大粗隆可於髖外側觸診。\n❌ (B) 腸骨後上棘（PSIS）可於臀部上方觸診。\n❌ (C) 坐骨粗隆於坐姿時可觸診。\n📚 出處：骨骼觸診學（palpation of bony landmarks），骨盆骨標記之可觸診性"
   },
   {
    "n": 56,
@@ -741,7 +796,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "橫斷面（transverse plane）",
     "關節面活動需視地形高低狀況而定"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 行走或跑步中方向快速變化屬膝關節的旋轉動作（如脛骨內／外轉），發生於橫斷面（transverse plane），故選C。\n❌ (A) 矢狀面負責屈曲—伸直，非快速方向變化之主角。\n❌ (B) 冠狀面負責內外翻，與急轉方向改變不符。\n❌ (D) 關節面活動與地形無直接關聯。\n📚 出處：膝關節運動學，不同平面動作（屈伸、旋轉、側移）之定義與活動模式"
   },
   {
    "n": 57,
@@ -754,7 +810,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "脛骨對股骨相對做向後滑動合併向後滾動",
     "脛骨對股骨相對做向後滑動合併向前滾動"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 由站姿屈膝坐下（閉鏈）時，股骨相對脛骨向前滑動並向後滾動，符合膝關節滾動—滑動機制，故選A。\n❌ (B) 股骨向前滑動合併向前滾動方向錯誤。\n❌ (C) 題目以股骨對脛骨相對敘述，非脛骨對股骨，且方向不符。\n❌ (D) 脛骨對股骨向後滑動之描述與本動作參考座標不符。\n📚 出處：膝關節力學，roll-and-glide（滾動—滑動）機制於閉鏈動作之方向"
   },
   {
    "n": 58,
@@ -767,7 +824,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "為術前力量的1.2倍",
     "大於術前力量的1.2倍"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 力矩＝力×力臂，外力矩相同（外力不變）時，肌力與內在力臂成反比：術後力臂由5變4，肌力需增加為 5/4＝1.25 倍，但尚有其他因素使實際需求大於1.2倍，故選D。\n❌ (A) 0.8倍為力臂比倒數之誤用，方向相反。\n❌ (B) 力臂變短不可能使所需肌力相同。\n❌ (C) 1.2倍僅為單純比例值，未考慮其他力學效應，實際大於1.2倍。\n📚 出處：生物力學力矩計算，髕骨切除對股四頭肌內在力臂與肌力需求之影響"
   },
   {
    "n": 59,
@@ -780,7 +838,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "關節軟骨磨損",
     "內側副韌帶扭傷"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 髕骨切除後股四頭肌力臂縮短，所需肌力增加、髕股與脛股關節壓力分布改變，長期易造成關節軟骨磨損，故選C。\n❌ (A) 前向不穩定主要與前十字韌帶相關，非此力學改變之直接後果。\n❌ (B) 後向不穩定與後十字韌帶相關。\n❌ (D) 內側副韌帶扭傷為外翻應力所致，非此力臂改變之主要併發症。\n📚 出處：膝關節生物力學，髕骨切除後之關節受力改變與軟骨退化風險"
   },
   {
    "n": 60,
@@ -793,7 +852,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "①③④",
     "②③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ①後十字韌帶較前十字韌帶粗壯，③前十字韌帶於膝伸直時可抵抗外翻力量，④後十字韌帶限制脛骨相對股骨後移，皆正確，故選C。\n❌ (A) 只選③不完整，①④亦為正確敘述。\n❌ (B) 僅①④正確而漏掉③正確。\n❌ (D) ②側韌帶在膝伸直時應為緊繃而非鬆弛，故②錯誤。\n📚 出處：膝關節韌帶解剖與功能（ACL、PCL、collateral ligaments 的力學角色）"
   },
   {
    "n": 61,
@@ -806,7 +866,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "腓骨長肌、腓骨短肌肌肉長度過長",
     "屈 長肌和屈趾長肌收縮過度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 空凹足（pes cavus）足弓異常過高，肇因於腓骨長肌、腓骨短肌無力（肌力不足而非長度過長），使拮抗的脛前肌與屈趾肌群相對強勢，足弓被拉高。\n❌ (A) 脊柱裂、小兒麻痺等神經肌肉疾病造成足內在肌與腓骨肌失衡，確為常見成因。\n❌ (B) 腓腸肌、比目魚肌無力使後足代償，與空凹足相關。\n❌ (D) 屈拇長肌、屈趾長肌過度收縮會加劇足弓抬高。\n📚 出處：骨科物理治療學，足部變形（pes cavus）之肌肉失衡機轉"
   },
   {
    "n": 62,
@@ -819,7 +880,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "脛後肌無力：扁平足弓（flat foot）",
     "腓骨長肌無力：後足外翻（hindfoot valgus）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 腓骨長肌無力時，其負責之外翻與穩定第一蹠骨功能喪失，拮抗的脛後肌相對強勢，導致後足內翻（hindfoot varus），而非外翻。\n❌ (A) 蹠屈肌麻痺造成足弓抬高變形，即空凹足。\n❌ (B) 脛前肌無力無法做出踝背屈，形成垂足。\n❌ (C) 脛後肌無力支撐內側足弓失效，造成扁平足弓。\n📚 出處：骨科物理治療學，足部肌肉控制失能與變形之對應"
   },
   {
    "n": 63,
@@ -832,7 +894,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "上頭（superior head）纖維收縮，可協助執行閉嘴動作",
     "下頭（inferior head）纖維收縮，可協助執行下巴後縮（retrusion）動作"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 外翼肌下頭收縮主要造成下巴突出（protrusion）與側偏，並非下巴後縮（retrusion）；後縮主要由顳肌後纖維負責。\n❌ (A) 單側雙頭同時收縮使下顎向對側偏移，即側邊偏移動作。\n❌ (B) 雙側雙頭同時收縮可協助下顎突出。\n❌ (C) 上頭纖維附著於關節盤與關節結節，收縮時協助閉嘴與穩定關節盤。\n📚 出處：口腔解剖生理學，咀嚼肌（masticatory muscles）功能；Gray's Anatomy for Students 顳下頜區"
   },
   {
    "n": 64,
@@ -845,7 +908,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "脊椎及時旋轉中心改變",
     "脊椎耦合動作（coupling motion）特性改變"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 脊椎運動學不穩定指動作學上的異常表現（動作增加、即時旋轉中心改變、耦合動作特性改變）；脊椎退化的改變屬病理／結構層面，並非運動學不穩定的直接定義。\n❌ (B) 節間動作過度增加為運動學不穩定的核心表現。\n❌ (C) 即時旋轉中心（IAR）位移代表運動學控制異常。\n❌ (D) 耦合動作特性改變亦是運動學不穩定的表現之一。\n📚 出處：骨科物理治療學，脊椎臨床不穩定（clinical instability）之運動學定義；Panjabi 脊椎穩定模型"
   },
   {
    "n": 65,
@@ -858,7 +922,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "降低位移穩定度，增加旋轉穩定度",
     "降低位移穩定度，降低旋轉穩定度"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 頸椎螺釘固定（如側塊螺釘）將節段間骨性結構牢固連結，可同時增加位移（平移）穩定度與旋轉穩定度。\n❌ (A) 固定術不會降低旋轉穩定度。\n❌ (C) 固定術目的是提升而非降低位移穩定度。\n❌ (D) 兩項穩定度皆應上升，不會下降。\n📚 出處：脊椎生物力學，頸椎內固定（cervical screw fixation）之穩定效應"
   },
   {
    "n": 66,
@@ -871,7 +936,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "對頭部穩定是一條重要的肌肉",
     "它可以提供本體感覺"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 頭直前肌位於頸椎前外側，力臂短、槓桿效率差，在矢狀面上並非有效率的彎曲肌，其角色偏重穩定與本體感覺。\n❌ (A) 兩側同時收縮可使頭部前彎。\n❌ (C) 深層小肌肉對頭部姿勢穩定極重要。\n❌ (D) 富含本體感覺受器，可提供本體感覺回饋。\n📚 出處：Cleveland Clinic／Muscles of the neck 解剖與功能；Kendall's Muscles: Testing and Function"
   },
   {
    "n": 67,
@@ -884,7 +950,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "下腹橫肌",
     "上、中、下腹橫肌共同"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 腹橫肌中段纖維附著於胸腰筋膜，收縮時橫向張緊此筋膜，形成束腰（corset）效應，協助穩定腰椎。\n❌ (A) 上腹橫肌附著以胸廓與劍突為主，束腰效應較不明顯。\n❌ (C) 下腹橫肌連於骨盆與腹股溝，主要穩定骨盆。\n❌ (D) 束腰效應主要來自中段纖維，非三段共同平均作用。\n📚 出處：骨科物理治療學，腹橫肌與胸腰筋膜之穩定機轉"
   },
   {
    "n": 68,
@@ -897,7 +964,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "長轉肌（rotator longus）",
     "短轉肌（rotator brevis）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 橫棘肌群依跨越節數由多到少為半棘肌、多裂肌、長轉肌、短轉肌；半棘肌跨越節數最多、肌纖維最長。\n❌ (B) 多裂肌跨越約 2～4 節，長度較半棘肌短。\n❌ (C) 長轉肌僅跨越約 2～3 節。\n❌ (D) 短轉肌只跨越 1～2 節，最短。\n📚 出處：Gray's Anatomy for Students，背部深層肌（transversospinalis）分層與跨越節數"
   },
   {
    "n": 69,
@@ -910,7 +978,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "重力線形成彎曲的力矩",
     "後側肌肉主動抗衡重力線"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 平衡站姿時重力線通過膝關節中心稍前方，產生的是伸展力矩，而非彎曲力矩。\n❌ (A) 重力線落於膝關節中心略前方，此敘述正確。\n❌ (B) 此伸展力矩由後側軟組織（關節囊、韌帶）被動抗衡，敘述正確。\n❌ (D) 若後側結構不足以抗衡，肌肉會主動收縮協助穩定，屬合理敘述。\n📚 出處：骨科物理治療學，膝關節站姿生物力學與重力線分析"
   },
   {
    "n": 70,
@@ -923,7 +992,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "常見於基蘭－巴瑞症候群（Guillain-Barre syndrome）與小兒麻痺患者",
     "軀幹傾斜向承重腳"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Trendelenburg sign 主因是臀中肌無力，導致對側（擺盪腳側）骨盆下沉，而非臀大肌。\n❌ (A) 定義為擺盪腳同側骨盆下掉，敘述正確。\n❌ (C) Guillain-Barré 症候群與小兒麻痺易侵犯臀中肌，為常見病因。\n❌ (D) 患者常以軀幹向承重腳傾斜代償，敘述正確。\n📚 出處：骨科物理治療學，Trendelenburg sign 之定義與臀中肌功能"
   },
   {
    "n": 71,
@@ -936,7 +1006,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "不拿枴杖和重物走路",
     "右手拿5%體重的重物且左側拿枴杖支撐下走路"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 無任何輔具或負重時，右側臀中肌須獨力穩定骨盆對抗左腳擺盪產生的力矩，需最大收縮。\n❌ (A) 左側枴杖提供支撐，減少右側臀中肌負荷。\n❌ (B) 右手負重使身體質心偏向承重側，反而降低臀中肌需求。\n❌ (D) 同時有枴杖與負重代償，臀中肌需求最低。\n📚 出處：步態分析，臀中肌於單腳支撐期之骨盆穩定角色"
   },
   {
    "n": 72,
@@ -949,7 +1020,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "在承重反應期（loading response）膝關節一直維持伸直：大腿後肌無力",
     "在擺盪期腳板拖地：踝背屈肌群無力"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 承重反應期膝關節維持伸直，代表股四頭肌離心控制不足或膝屈肌無力，非大腿後肌無力之典型配對。\n❌ (A) 髖伸直肌無力使身體後傾，配對正確。\n❌ (B) 踝蹠屈肌過緊造成前足先著地，配對正確。\n❌ (D) 踝背屈肌無力造成擺盪期垂足拖地，配對正確。\n📚 出處：骨科物理治療學，異常步態（deviations of gait）與肌群對應"
   },
   {
    "n": 73,
@@ -962,7 +1034,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "股四頭肌（quadriceps femoris）",
     "腰方肌（quadratus lumborum）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 由坐姿起身時骨盆後傾上抬，腰方肌附著於髂骨嵴與第十二肋，是抬起骨盆的主要作用肌。\n❌ (A) 豎棘肌主要負責軀幹伸直，非骨盆上抬。\n❌ (B) 臀大肌主要負責髖伸直，非骨盆抬升。\n❌ (C) 股四頭肌負責膝伸直。\n📚 出處：骨科物理治療學，坐站轉位（sit-to-stand）之肌肉動作分析"
   },
   {
    "n": 74,
@@ -975,7 +1048,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "在右腳的擺盪初期，右腳的髖屈肌和膝屈肌會做向心收縮，將足部抬離並往前跨到下一個階梯",
     "在單腳支撐時，左腳的髖外展肌會做向心收縮，以保持骨盆和軀幹的平衡"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 下樓梯單腳支撐時，支撐腳（右腳）臀中肌需離心控制骨盆下降、維持軀幹平衡，並非左腳做向心收縮；本題圖說所指亦不符。\n❌ (A) 站立初期右腳觸地時踝蹠屈肌離心收縮控制前足放下，正確。\n❌ (B) 右腳股四頭肌依序離心、向心、離心控制膝關節，正確。\n❌ (C) 擺盪初期髖屈肌與膝屈肌向心收縮將足抬離向前，正確。\n📚 出處：步態分析，下樓梯動作之三期肌肉收縮型態"
   },
   {
    "n": 75,
@@ -988,7 +1062,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "股四頭肌（quadriceps femoris）",
     "大腿後肌（hamstrings）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 瑜珈反向棒式（reverse plank）為髖伸直與肩伸展撐起身體，主要訓練臀大肌、大腿後肌與股四頭肌等，胸大肌並非主要作用肌。\n❌ (A) 臀大肌負責髖伸直抬臀，為主要作用肌。\n❌ (C) 股四頭肌協助膝伸直維持姿勢。\n❌ (D) 大腿後肌與臀大肌共同使髖伸直。\n📚 出處：運動處方與肌力訓練，反向棒式（reverse plank）之主要作用肌群"
   },
   {
    "n": 76,
@@ -1001,7 +1076,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "①④",
     "③⑤"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 腳背踢加速期，支撐腳須以股四頭肌做向心收縮伸展膝關節，臀中肌（③）穩定骨盆，故為③④。\n❌ (A) 髂腰肌為踢擊腳髖屈動作，非支撐腳主力。\n❌ (C) 腓腸肌①④亦參與踢擊腳而非支撐腳。\n❌ (D) ③⑤組合中腓腸肌屬踢擊腳作用。\n📚 出處：運動生物力學，足球腳背踢（instep kick）各期之支撐腳肌肉活化"
   },
   {
    "n": 77,
@@ -1014,7 +1090,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "關節軟骨在表層（superficial tangential zone）膠原纖維的排列是平行於關節的表面",
     "關節軟骨的水分多分布於關節表面"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 蛋白多醣（proteoglycan）含量在關節軟骨中間層（middle zone）最高，表層（superficial tangential zone）反而因膠原纖維密集而含量較低。\n❌ (A) 軟骨材料性質因負荷方向不同（異向性）而有不同表現，正確。\n❌ (C) 表層膠原纖維平行排列於關節表面，正確。\n❌ (D) 水分分布於軟骨各層，以表層附近含水量較高，敘述合理。\n📚 出處：骨科物理治療學，關節軟骨組成與分層結構（superficial／middle／deep zone）"
   },
   {
    "n": 78,
@@ -1027,7 +1104,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "⑤①②③④",
     "⑤①②④③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肌腱韌帶負載－伸長曲線由 a 至 e 依序為腳趾區（toe region）→剛性（斜率）→屈服點→破壞點→能量吸收（曲線下面積）。\n❌ (B) 破壞點應在屈服點之後，③①順序錯誤。\n❌ (C) 剛性為斜率應列第二段，與①②位置顛倒。\n❌ (D) 能量吸收為曲線總面積，非單獨一點，位置錯誤。\n📚 出處：骨科物理治療學，肌腱－韌帶負載伸長曲線各區段意義"
   },
   {
    "n": 79,
@@ -1040,7 +1118,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "肌腱之剛性（stiffness）可在拉伸（load-elongation）材料測試中，由應力－應變關係圖的斜率計算獲得",
     "肌腱韌帶在拉伸（load-elongation）材料測試中，應力－應變關係圖中的屈服點（yield point）位置在破壞點（failure point）右側"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 肌腱剛性可由應力－應變曲線線性區的斜率求得，屬黏彈行為之材料性質。\n❌ (A) 黏彈行為包含應力鬆弛、潛變、遲滯與速率相依等，非僅應力鬆弛。\n❌ (B) 應力鬆弛是在固定變形下應力隨時間「下降」，敘述方向錯誤。\n❌ (D) 屈服點應在破壞點左側（較早發生），敘述錯誤。\n📚 出處：骨科物理治療學，生物組織黏彈行為（stress relaxation、creep、hysteresis）"
   },
   {
    "n": 80,
@@ -1053,7 +1132,8 @@ window.APP_EXAM_PAPERS['pt-114-1-pt1'] = {
     "比賽腕力時，輸的選手肱二頭肌作離心收縮，作負功",
     "肌肉等速收縮時，肌肉收縮的速度固定，無力學能存在，不作功"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 等速收縮時肌肉以固定角速度收縮並產生張力與位移，力量與速度之乘積仍可作功，並非「不作功」。\n❌ (A) 等長收縮無位移與動作，不產生力學能，正確。\n❌ (B) 上樓梯股四頭肌向心收縮做正功，正確。\n❌ (C) 比腕力落敗時肱二頭肌被拉長作離心收縮，做負功，正確。\n📚 出處：骨科物理治療學，肌肉收縮型態與作功（向心／離心／等長／等速）"
   }
  ]
 };
