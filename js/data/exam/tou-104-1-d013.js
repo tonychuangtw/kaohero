@@ -1107,7 +1107,8 @@ window.APP_EXAM_PAPERS['tou-104-1-d013'] = {
    ],
    "needfig": true,
    "fig": "img/q/104040_410_0415_78.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 本文說「la separa dalla terraferma e dalla gemella Venezia Mestre un ponte di epoca fascista」（一座法西斯時期建造的橋把威尼斯與陸地及其孿生城鎮 Mestre 分隔／連接），故 Mestre 是靠這座法西斯時期的橋與威尼斯古城相連。\n❌ (A) 「街道與汽車消失」（scompaiono le strade e le macchine）發生在過橋之後的威尼斯本島，不是在 Mestre；且 Mestre 是位於陸地上的孿生城鎮，不是威尼斯的一個區。\n❌ (C) 「sembra galleggiare sull'acqua」（彷彿浮在水面上）形容的是威尼斯本島，本文以此與陸地上的 Mestre 對比。\n❌ (D) 本文明寫觀光行程的第一站是 Rialto 橋（Prima tappa del tour turistico è il ponte di Rialto），不是 Mestre。\n📚 出處：義大利語閱讀測驗：威尼斯短文（Venezia Mestre 與本島以法西斯時期橋樑相連）"
   },
   {
    "n": 79,
@@ -1136,7 +1137,8 @@ window.APP_EXAM_PAPERS['tou-104-1-d013'] = {
    ],
    "needfig": true,
    "fig": "img/q/104040_410_0415_80.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 本文說威尼斯的猶太區（il ghetto）建於 1516 年、是歐洲第一個猶太區，至今除建築與藝術古蹟外還可參觀博物館、歷史檔案館與猶太會堂，可見它就是猶太人的歷史街區。\n❌ (B) 猶太區「裡面」有一座博物館可參觀，但猶太區本身是一個街區，不等於一座博物館。\n❌ (C) 與原文相反：文中明說「oltre ai monumenti architettonici e artistici」（除了建築與藝術古蹟之外），代表區內有這些古蹟，而非沒有。\n❌ (D) 時代錯置：本文指出猶太區創立於 1516 年，屬威尼斯共和國時期，並非法西斯時代關押猶太人的地區。\n📚 出處：義大利語閱讀測驗：威尼斯短文（1516 年成立的威尼斯猶太區為歐洲第一個 ghetto）"
   }
  ]
 };
