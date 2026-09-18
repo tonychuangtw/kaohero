@@ -105,7 +105,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^(mlt-[0-9]+-[0-9]-mlt[1-6]|pt-[0-9]+-[0-9]-pt[13456]|ot-[0-9]+-[0-9]-ot[13456]|nut-[0-9]+-[0-9]-nut[1235])$，引擎 deepseek/deepseek-flash）。最後一卷：pt-102-1-pt5 102 年第一次　骨科疾病物理治療學，寫 80 題、跳過 0 題，09/19 06:53 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^(mlt-[0-9]+-[0-9]-mlt[1-6]|pt-[0-9]+-[0-9]-pt[13456]|ot-[0-9]+-[0-9]-ot[13456]|nut-[0-9]+-[0-9]-nut[1235])$，引擎 deepseek/deepseek-flash）。最後一卷：pt-102-1-pt4 102 年第一次　神經疾病物理治療學，寫 78 題、跳過 0 題，09/19 06:54 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
