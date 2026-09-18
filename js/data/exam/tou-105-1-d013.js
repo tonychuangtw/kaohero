@@ -1092,7 +1092,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d013'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/105040_410_0415_77.webp"
+   "fig": "img/q/105040_410_0415_77.webp",
+   "exp": "✅ (C) 題目問「In base al testo ＿＿」（根據本文，下列何者正確）。林默娘（媽祖）出生於中國福建省莆田縣湄洲嶼，因此「Lin Moniang nacque in Cina.」（林默娘生於中國）正確。\n❌ (A) 「nacque a Taiwan」指出生於臺灣。媽祖信仰雖隨移民傳入臺灣、廟宇遍布全臺，但她本人並非在臺灣出生，而是渡海傳來的信仰。\n❌ (B) 「nel IX secolo d. C.」指西元九世紀。媽祖生於北宋建隆元年（西元 960 年），屬十世紀（X secolo），世紀數字不符。\n❌ (D) 「figlia di un potente ministro di corte」指朝中重臣之女。其父林愿只是地方上的巡檢小吏、出身沿海討海人家，並非權傾朝廷的大臣。\n📚 出處：媽祖（林默娘）生平：北宋建隆元年（960）生於福建湄洲；導遊人員外國語（義大利語）臺灣民俗信仰題材"
   },
   {
    "n": 78,
