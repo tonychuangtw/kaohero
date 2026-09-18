@@ -1008,7 +1008,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_71.webp"
+   "fig": "img/q/103040_403_0408_71.webp",
+   "exp": "✅ (C) 法語表示「搭乘某種交通工具」時，若名詞前不加冠詞，介系詞用「en」：「monter en bateau-mouche」即「搭塞納河遊覽船」。整句「Je voudrais monter en bateau-mouche.」＝「我想搭一次塞納河遊覽船」，符合這篇〈死前想做的五十件事〉的語氣。\n❌ (A) 「sur」表示在物體表面，用法須帶冠詞（monter sur le bateau），意思是「爬上那艘船」，與此處無冠詞的固定搭配不合。\n❌ (B) 「au」是 à+le 的縮寫，法語不用「à」搭配交通工具表示搭乘，「monter au bateau-mouche」不成句。\n❌ (D) 「dans」須帶冠詞（dans le bateau），強調進入船艙「內部」的位置，而非搭乘這種交通方式。\n📚 出處：法語交通工具介系詞（en bateau / en voiture / à pied）"
   },
   {
    "n": 72,
@@ -1023,7 +1024,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_72.webp"
+   "fig": "img/q/103040_403_0408_72.webp",
+   "exp": "✅ (B) 反身動詞「se décider」固定搭配介系詞「à」＋原形動詞，表示「下定決心去做」。「Me décider à jeter…」＝「下決心把一些東西丟掉」，此處是原形的反身用法，故選 à。\n❌ (A) 「de」用於非反身的「décider de faire qch」（決定做某事）；題目用的是反身形 Me décider，不能改搭 de。\n❌ (C) 「pour」表目的「為了」，「me décider pour」只用於在選項中「選定某物」（se décider pour qch），後面不接原形動詞。\n❌ (D) 「par」表方式或經由，如「commencer par faire」，與「決心」無關。\n📚 出處：法語動詞結構 se décider à + infinitif／décider de + infinitif"
   },
   {
    "n": 73,
@@ -1038,7 +1040,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_73.webp"
+   "fig": "img/q/103040_403_0408_73.webp",
+   "exp": "✅ (A) 「sans savoir pourquoi je les garde」＝「卻不知道自己為什麼留著它們」。空格後是一個完整子句（je les garde），前面需要疑問副詞引導間接問句，語意上要解釋的是「原因」，故用 pourquoi。\n❌ (B) 「la cause de」是名詞片語，後面只能接名詞，不能直接接子句（要說 la cause pour laquelle…）。\n❌ (C) 「par où」問經過的路徑、地點，語意不合。\n❌ (D) 「comment」問方式「怎麼做」，但東西留著並非方法問題，與上文「丟掉一堆莫名保存的東西」的邏輯不符。\n📚 出處：法語間接問句（savoir pourquoi / comment / où + 子句）"
   },
   {
    "n": 74,
@@ -1053,7 +1056,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_74.webp"
+   "fig": "img/q/103040_403_0408_74.webp",
+   "exp": "✅ (D) 「une bonne fois pour toutes」是固定片語，意思是「一勞永逸、徹底解決」。整句「Ranger ma bibliothèque une bonne fois pour toutes.」＝「把我的書架一次整理個徹底」。toutes 為陰性複數，呼應省略的 fois。\n❌ (A) 「tout」為陽性單數，該片語無此形式。\n❌ (B) 「toute」為陰性單數，同樣不是此固定片語的用法。\n❌ (C) 「tous」為陽性複數，與陰性名詞 fois 不一致，也不構成此慣用語。\n📚 出處：法語慣用語 une (bonne) fois pour toutes"
   },
   {
    "n": 75,
@@ -1068,7 +1072,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_75.webp"
+   "fig": "img/q/103040_403_0408_75.webp",
+   "exp": "✅ (A) 句尾動詞是「dise」（dire 的虛擬式現在），能接虛擬式的只有「avant que」。「M'arrêter de fumer avant qu'un médecin me dise: vous avez…」＝「趁醫生還沒對我說『你得了…』之前戒菸」，語意與句型都相符。\n❌ (B) 「après que」傳統文法接直陳式（me dit），且語意變成「等醫生說了以後才戒」，與作者想及早戒菸的原意相反。\n❌ (C) 「quand」接直陳式（me dira/dit），不能接虛擬式 dise。\n❌ (D) 「au moment où」同樣只接直陳式，且表示「就在醫生開口的那一刻」，時間邏輯不通。\n📚 出處：法語連接詞與語式（avant que + subjonctif / après que、quand + indicatif）"
   },
   {
    "n": 76,
@@ -1083,7 +1088,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_76.webp"
+   "fig": "img/q/103040_403_0408_76.webp",
+   "exp": "✅ (C) 空格後的形容詞是陽性單數「principal」，主詞必須是陽性名詞，四個選項中只有「l'évènement」是陽性。「l'évènement principal du cinéma en France」＝「法國電影界最重要的盛事」，正好帶出下文的坎城影展。\n❌ (A) 「la fête」是陰性，須寫成 la fête principale，性數不合。\n❌ (B) 「l'incident」雖為陽性，但意思是「突發事件、小事故」，用來形容影展語意錯誤。\n❌ (D) 「l'activité」是陰性，須用 principale，且語意僅是泛稱「活動」，份量不足。\n📚 出處：法語名詞陰陽性與形容詞一致（accord de l'adjectif）"
   },
   {
    "n": 77,
@@ -1098,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_77.webp"
+   "fig": "img/q/103040_403_0408_77.webp",
+   "exp": "✅ (B) 每年五月在法國舉行的世界級影展是「le Festival de Cannes」（坎城影展）。下文提到的紅毯、「24 marches de la gloire」與 Palais des Festivals et des Congrès 都是坎城影展宮的標誌，可直接對應。\n❌ (A) Avignon（亞維儂）辦的是每年七月的戲劇節（Festival d'Avignon），不是影展。\n❌ (C) Marseille（馬賽）是法國第二大城與地中海港口，並無此國際影展。\n❌ (D) Paris（巴黎）雖是文化中心，但沒有五月舉行的同級影展。\n📚 出處：法國文化常識—坎城影展（Festival de Cannes）"
   },
   {
    "n": 78,
@@ -1113,7 +1120,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_78.webp"
+   "fig": "img/q/103040_403_0408_78.webp",
+   "exp": "✅ (C) 坎城影展舉行地點在濱海大道「la Croisette」（Boulevard de la Croisette），影展宮就座落於此，因此說「sur la Croisette」（在克羅瓦塞特大道上）。\n❌ (A) 「la croisière」意為「郵輪旅遊、航程」，是活動不是地點，不能用 sur 接。\n❌ (B) 「la croisade」意為「十字軍東征」，語意完全不合。\n❌ (D) 「le croisement」意為「十字路口、交會處」，是普通名詞，不是坎城的地名。\n📚 出處：法國地理與詞義辨析—La Croisette（坎城濱海大道）"
   },
   {
    "n": 79,
@@ -1128,7 +1136,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_79.webp"
+   "fig": "img/q/103040_403_0408_79.webp",
+   "exp": "✅ (A) 坎城位於法國東南部蔚藍海岸（Côte d'Azur），面對的是地中海，故「à quelques pas des flots bleus de la Méditerranée」＝「離地中海的碧藍海水僅數步之遙」。\n❌ (B) 「l'Atlantique」大西洋在法國西岸（如 Biarritz、Bordeaux 一帶），與坎城位置不符。\n❌ (C) 「le Pacifique」太平洋遠在亞洲與美洲之間，法國本土不臨太平洋。\n❌ (D) 「la mer Égée」愛琴海位於希臘與土耳其之間，不在法國。\n📚 出處：法國地理—蔚藍海岸與地中海（la Méditerranée）"
   },
   {
    "n": 80,
@@ -1143,7 +1152,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d006'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103040_403_0408_80.webp"
+   "fig": "img/q/103040_403_0408_80.webp",
+   "exp": "✅ (B) 「les stars de cinéma」是法語慣用說法，指「電影明星」。整句「les amateurs d'apercevoir les stars de cinéma faire leur entrée sur le tapis rouge」＝「影迷有機會一睹影星踏上紅毯」，與紅毯情境完全相符。\n❌ (A) 「les joueurs」指球員或玩家，屬運動、遊戲範疇，不會走影展紅毯。\n❌ (C) 「célèbre」是形容詞，不能直接加冠詞當名詞用，要說「les célébrités」才通。\n❌ (D) 「les personnes」只是泛指「人們」，語意空泛，且法語稱電影圈人士是「les gens de cinéma」，不說 les personnes de cinéma。\n📚 出處：法語詞彙—les stars de cinéma 與形容詞名詞化辨析"
   }
  ]
 };
