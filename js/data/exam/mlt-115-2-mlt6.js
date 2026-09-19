@@ -266,7 +266,8 @@ window.APP_EXAM_PAPERS['mlt-115-2-mlt6'] = {
     "增加細胞壁的厚度",
     "合成將萬古黴素打出胞外的幫浦（efflux pump）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：VISA（MIC 4～8 µg/mL）的主要機轉是細胞壁異常增厚，並累積大量未交聯的 D-Ala-D-Ala 末端。萬古黴素是分子量很大的醣胜肽，只能在細胞外層作用；增厚且交聯度下降的細胞壁提供許多「假標的」把藥物困在外層（affinity trapping），使其無法到達細胞膜附近正在合成的胜肽聚醣前驅物，因而降低感受性。此變化來自 VraSR、graRS 等調控基因突變，非外來抗藥基因。\n❌ (A) 目前未發現金黃色葡萄球菌能產生分解萬古黴素的酵素；酵素水解是 β-lactamase 對 β-lactam 類的機轉，不適用於醣胜肽。\n❌ (B) 改變細胞膜通透性對萬古黴素無意義，因為它本來就不需進入細胞內，作用位置在細胞膜外的細胞壁合成前驅物 D-Ala-D-Ala。\n❌ (D) 幫浦外排多見於小分子藥物（如四環黴素、macrolide）；萬古黴素分子大且作用於胞外，efflux pump 並非其抗藥機轉。另 VRSA（MIC ≥ 16）則是取得腸球菌 vanA 基因、把末端改成 D-Ala-D-Lac 而降低結合力，與 VISA 機轉不同。\n📚 出處：臨床微生物學「Staphylococcus aureus 對 glycopeptide 抗藥機轉（VISA 細胞壁增厚 vs. VRSA vanA）」；Mahon & Lehman, Textbook of Diagnostic Microbiology；CLSI M100 vancomycin 判讀標準。"
   },
   {
    "n": 19,
