@@ -1090,7 +1090,8 @@ window.APP_EXAM_PAPERS['mlt-110-2-mlt5'] = {
    ],
    "needfig": true,
    "fig": "img/q/110100_308_33_77.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Microsatellite instability（MSI）的定義是腫瘤 DNA 在該 microsatellite locus 出現「正常組織所沒有的新片段長度」，即因錯配修復（MMR）缺陷使重複序列在複製時滑脫（slippage），增加或減少重複單位而產生新的 allele peak。D 圖保留原有的波峰，又在原來位置旁多出一個位移的新波峰，正是新生 allele 的表現，符合 MSI。\n❌ (A) 只剩左側一個波峰，右側 allele 完全消失，代表雜合性缺失（LOH），是染色體片段丟失而非新 allele 產生。\n❌ (B) 全部只剩高度極低、無主峰的小訊號，屬 DNA 降解或放大失敗的不良圖譜，無法判定為 MSI。\n❌ (C) 只剩右側一個波峰、左側 allele 消失，同樣是 LOH（allelic loss）的圖型，不是 microsatellite 長度改變。\n📚 出處：醫學分子檢驗學—大腸癌 MSI／MMR 缺陷檢測（毛細管電泳圖譜判讀：新 allele peak 為 MSI，peak 消失為 LOH）"
   },
   {
    "n": 78,
