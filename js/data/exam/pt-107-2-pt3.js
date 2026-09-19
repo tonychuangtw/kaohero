@@ -1050,7 +1050,8 @@ window.APP_EXAM_PAPERS['pt-107-2-pt3'] = {
    ],
    "needfig": true,
    "fig": "img/q/107100_311_33_74.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：正常步態中足底壓力中心（COP）自著地期開始由足跟外側出發，沿足外側前行，過渡到前足後橫向移往內側，在擺盪前期（pre-swing，約步態週期 50～60%，由對側腳觸地到同側腳趾離地）已推進到第一蹠趾關節與拇趾處，以利踝蹠屈做推離（push-off）。D 圖紅點位於拇趾／第一蹠趾區，最前端且偏內側，符合擺盪前期。\n❌ (A) 紅點在足跟，是起始著地（initial contact）到承重反應期（loading response）的 COP 位置，時序太早。\n❌ (B) 紅點在中足偏外側，對應站立中期（mid-stance）COP 沿足外緣前行的階段，尚未進入推離。\n❌ (C) 紅點在前足中段（第二、三蹠骨頭附近），對應站立末期（terminal stance）足跟離地時，COP 還沒完全內移到拇趾。\n📚 出處：物理治療技術學－步態分析，足底壓力中心（center of pressure）行進路徑與步態分期（Rancho Los Amigos 分期：pre-swing）"
   },
   {
    "n": 75,
