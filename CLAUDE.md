@@ -70,6 +70,11 @@ worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 ac
 
 引擎有 agy／claude／deepseek 三種（`tools/exp-engine.sh`，deepseek 2026-09-18 接上），沒有 codex。
 
+**⛔ 除非 Tony 當次指定，不然不要用 DeepSeek（2026-09-19 11:40 Tony 定案：「除非我有指定，不然不要再用 DeepSeek」）**
+起因：09/18 抽查發現它引的法條條號常常是掰的（詳見下段），09/19 又發現該修的 558 題一直沒修。
+預設引擎＝claude（`tools/exp-engine.sh claude`）；agy／gemini flash 在 Claude 週限吃緊時仍可用。
+已經由 DeepSeek 寫好的詳解暫時保留（內容抽查品質良好，問題只在條號），引條號的已全部清掉重寫。
+
 **⛔ 法規題不要用 DeepSeek（2026-09-18 Tony 抽查後定案：「deepseek 不懂台灣法條，以後不適合做這塊」）**
 內容判斷與外語、史地、常識題都好（103 卷 7,428 題／59 分鐘／US$0.86，格式零退件），
 但**引用的法條條號常常是掰的，同一個考點在不同卷給不同條號**：旅行業責任保險「證件遺失 2,000 元」

@@ -1134,96 +1134,6 @@
  ],
  "mlt-103-2-mlt5": [
   {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 9,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 19,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 39,
    "reason": "題幹所述「下圖」之圖像內容未提供，無法判讀尿沉渣結果。",
    "at": "2026-09-19"
@@ -1276,101 +1186,6 @@
  ],
  "mlt-104-2-mlt2": [
   {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 9,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 20,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 38,
    "reason": "題幹說「如下圖所示」但本卷未提供圖片內容，無法判斷血球形態。",
    "at": "2026-09-19"
@@ -1378,11 +1193,6 @@
   {
    "n": 39,
    "reason": "題幹說「下圖所示」但本卷未提供圖片內容，無法判斷血球名稱。",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 51,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 4 段））",
    "at": "2026-09-19"
   }
  ],
@@ -1395,195 +1205,6 @@
   {
    "n": 41,
    "reason": "題幹提及「如下圖」但本卷未提供圖片的快篩試劑結果，無法判讀。",
-   "at": "2026-09-19"
-  }
- ],
- "mlt-104-2-mlt6": [
-  {
-   "n": 21,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 22,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 23,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 24,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 25,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 26,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 30,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 33,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 35,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 39,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "mlt-105-1-mlt1": [
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 22,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 23,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 24,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 25,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 26,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：格式兩次不合（✅ 標的是 (B)，但正解是 (C)）",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 30,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 33,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 35,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -1749,21 +1370,6 @@
    "n": 11,
    "reason": "題幹與選項在轉檔後毀損，A～D 選項皆只剩「V」而無 V1～V6 之編號，無法判斷過渡帶位置",
    "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
   }
  ],
  "mlt-106-2-mlt2": [
@@ -1845,13 +1451,6 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-107-2-mlt4": [
-  {
-   "n": 8,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-108-1-mlt1": [
   {
    "n": 18,
@@ -1866,11 +1465,6 @@
   {
    "n": 36,
    "reason": "題幹所述「如圖」之膽囊超音波影像未提供，無法判讀箭頭 A、B 所指影像內容",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 74,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -1946,23 +1540,6 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-108-2-mlt6": [
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 39,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 40,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-109-1-mlt2": [
   {
    "n": 72,
@@ -1990,11 +1567,6 @@
   }
  ],
  "mlt-109-2-mlt1": [
-  {
-   "n": 21,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
   {
    "n": 37,
    "reason": "題幹所述心電圖影像未提供於文字中，無法判讀心律型態以確認診斷。",
@@ -2030,18 +1602,6 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-110-1-mlt5": [
-  {
-   "n": 51,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 74,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-110-2-mlt1": [
   {
    "n": 10,
@@ -2053,11 +1613,6 @@
   {
    "n": 27,
    "reason": "題幹說「箭頭所指的細胞」，但本卷文字未提供圖像內容，無法判斷細胞型態。",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -2083,11 +1638,6 @@
    "n": 39,
    "reason": "題幹所述圖①、圖②之影像內容未提供，無法判斷箭頭所指結晶。",
    "at": "2026-09-19"
-  },
-  {
-   "n": 77,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
   }
  ],
  "mlt-111-1-mlt2": [
@@ -2107,187 +1657,10 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-111-1-mlt5": [
-  {
-   "n": 21,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 22,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 23,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 24,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 25,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 26,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 30,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 33,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 35,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-111-2-mlt1": [
-  {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
   {
    "n": 3,
    "reason": "題幹所述「下列心電圖」之圖形未在文字中提供，無法判讀心律。",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 19,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -2364,103 +1737,6 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-112-1-mlt5": [
-  {
-   "n": 22,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 23,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 24,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 25,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 26,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 30,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 33,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 35,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 39,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 62,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-112-2-mlt2": [
   {
    "n": 21,
@@ -2470,98 +1746,6 @@
   {
    "n": 40,
    "reason": "題幹所述「如圖」之積水細胞學及流式細胞儀影像未在文字中提供，無法確認診斷。",
-   "at": "2026-09-19"
-  }
- ],
- "mlt-112-2-mlt3": [
-  {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 9,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -2588,11 +1772,6 @@
  ],
  "mlt-113-1-mlt2": [
   {
-   "n": 19,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 48,
    "reason": "題幹提到「箭號所指」與圖示，但本卷未提供圖片內容，無法判斷所指細胞。",
    "at": "2026-09-19"
@@ -2608,16 +1787,6 @@
    "at": "2026-09-19"
   },
   {
-   "n": 51,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 57,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 76,
    "reason": "選項在轉檔時毀損，四個選項均只剩「僅」字，無從判斷。",
    "at": "2026-09-19"
@@ -2630,25 +1799,6 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-113-1-mlt5": [
-  {
-   "n": 59,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "mlt-113-1-mlt6": [
-  {
-   "n": 12,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-113-2-mlt1": [
   {
    "n": 10,
@@ -2658,11 +1808,6 @@
   {
    "n": 29,
    "reason": "題幹說「如下圖」但本卷未提供圖形內容，無法判讀肺量計圖形來診斷。",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 63,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -2697,16 +1842,6 @@
  ],
  "mlt-113-2-mlt6": [
   {
-   "n": 35,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 47,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 49,
    "reason": "題幹所述抗生素結構圖未提供，無法依圖判讀。",
    "at": "2026-09-19"
@@ -2739,19 +1874,7 @@
    "at": "2026-09-19"
   }
  ],
- "mlt-114-1-mlt3": [
-  {
-   "n": 6,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "mlt-114-2-mlt1": [
-  {
-   "n": 26,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
   {
    "n": 31,
    "reason": "題幹所述「下圖」之子宮超音波影像未隨題目提供，無法判讀影像特徵。",
@@ -2799,11 +1922,6 @@
  ],
  "mlt-114-2-mlt5": [
   {
-   "n": 11,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 2 段））",
-   "at": "2026-09-19"
-  },
-  {
    "n": 49,
    "reason": "題幹所述 MethyLight 擴增曲線圖未提供，無法判讀曲線與 CpG 位點數。",
    "at": "2026-09-19"
@@ -2847,11 +1965,6 @@
  ],
  "mlt-115-2-mlt2": [
   {
-   "n": 16,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
    "n": 37,
    "reason": "題幹指涉「圖中的白血球」，但本卷文字未提供圖，無法判斷型態",
    "at": "2026-09-19"
@@ -2861,224 +1974,6 @@
   {
    "n": 9,
    "reason": "題幹提及「圖中顯示」但本卷未提供圖片內容，無法判斷箭頭所指成分",
-   "at": "2026-09-19"
-  }
- ],
- "nut-103-2-nut1": [
-  {
-   "n": 5,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 22,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 23,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 24,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 40,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "nut-103-2-nut2": [
-  {
-   "n": 6,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 20,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 26,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 27,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 30,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 33,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 34,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 35,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "nut-103-2-nut3": [
-  {
-   "n": 5,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 19,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 20,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 29,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "nut-103-2-nut5": [
-  {
-   "n": 2,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 20,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 28,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 36,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -3101,32 +1996,6 @@
    "at": "2026-09-19"
   }
  ],
- "nut-112-2-nut1": [
-  {
-   "n": 23,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 32,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "nut-112-2-nut2": [
-  {
-   "n": 27,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
- "nut-112-2-nut5": [
-  {
-   "n": 24,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "nut-113-1-nut1": [
   {
    "n": 19,
@@ -3134,114 +2003,10 @@
    "at": "2026-09-19"
   }
  ],
- "nut-113-1-nut5": [
-  {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 9,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  },
-  {
-   "n": 19,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-19"
-  }
- ],
  "nut-114-1-nut5": [
   {
    "n": 23,
    "reason": "題幹稱「下表」但本卷未提供表格內容，無法判斷。",
-   "at": "2026-09-19"
-  }
- ],
- "nut-115-1-nut1": [
-  {
-   "n": 50,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-19"
   }
  ],
@@ -3375,35 +2140,6 @@
    "n": 28,
    "reason": "題幹所述示意圖內容未提供，無法判斷光線聚焦路徑（近視或遠視）。",
    "at": "2026-09-18"
-  },
-  {
-   "n": 45,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 2 段））",
-   "at": "2026-09-18"
-  }
- ],
- "ot-106-1-ot3": [
-  {
-   "n": 79,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  }
- ],
- "ot-106-1-ot4": [
-  {
-   "n": 73,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 74,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 75,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
   }
  ],
  "ot-106-2-ot1": [
@@ -3418,13 +2154,6 @@
    "at": "2026-09-18"
   }
  ],
- "ot-106-2-ot3": [
-  {
-   "n": 77,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  }
- ],
  "ot-106-2-ot6": [
   {
    "n": 60,
@@ -3436,103 +2165,6 @@
   {
    "n": 11,
    "reason": "題幹敘述「如附圖，紅色箭頭所指」，但本份題目文字未提供圖片內容，無法判斷所指構造。",
-   "at": "2026-09-18"
-  }
- ],
- "ot-107-1-ot4": [
-  {
-   "n": 1,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 2,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 4,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 5,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 6,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 9,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 10,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 11,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 12,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 13,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 14,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 16,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 17,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 19,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-18"
   }
  ],
@@ -3572,19 +2204,9 @@
    "n": 39,
    "reason": "題幹提及「如圖所示」但鏡像治療圖片未提供，無法確認敘述正誤細節。",
    "at": "2026-09-18"
-  },
-  {
-   "n": 58,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 1 段））",
-   "at": "2026-09-18"
   }
  ],
  "ot-108-2-ot3": [
-  {
-   "n": 6,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 2 段））",
-   "at": "2026-09-18"
-  },
   {
    "n": 58,
    "reason": "題幹提到「如下圖所示之左手截肢個案」，但本卷文字未提供圖片內容，無法判斷截肢高度與情境細節",
@@ -3612,51 +2234,10 @@
    "at": "2026-09-18"
   }
  ],
- "ot-109-2-ot3": [
-  {
-   "n": 3,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 18,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 37,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 38,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 70,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  }
- ],
- "ot-110-2-ot1": [
-  {
-   "n": 24,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  }
- ],
  "ot-110-2-ot3": [
   {
    "n": 67,
    "reason": "題幹提及「下圖所示食指所配戴的副木」，但題目文字未提供圖片內容，無法判斷副木型式。",
-   "at": "2026-09-18"
-  }
- ],
- "ot-110-2-ot5": [
-  {
-   "n": 42,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-18"
   }
  ],
@@ -3693,13 +2274,6 @@
   {
    "n": 52,
    "reason": "題幹提及「如圖所示，量角器置於膝蓋前側」，但題目文字未提供圖片，無法確認量角器擺位與測量之關節動作。",
-   "at": "2026-09-18"
-  }
- ],
- "ot-114-2-ot6": [
-  {
-   "n": 26,
-   "reason": "DEFER-DS：格式兩次不合（第一行要是「✅ (X) …」）",
    "at": "2026-09-18"
   }
  ],
@@ -6545,13 +5119,6 @@
    "at": "2026-09-18"
   }
  ],
- "pt-104-1-pt4": [
-  {
-   "n": 10,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 1 段））",
-   "at": "2026-09-18"
-  }
- ],
  "pt-104-2-pt1": [
   {
    "n": 53,
@@ -6560,11 +5127,6 @@
   }
  ],
  "pt-104-2-pt3": [
-  {
-   "n": 12,
-   "reason": "DEFER-DS：格式兩次不合（✅ 標的是 (D)，但正解是 (B)）",
-   "at": "2026-09-18"
-  },
   {
    "n": 58,
    "reason": "題幹附圖，但文字中看不到圖與施力方向，無法判斷",
@@ -6614,11 +5176,6 @@
  ],
  "pt-105-2-pt3": [
   {
-   "n": 70,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
    "n": 74,
    "reason": "題幹提及「下圖」但未提供圖片內容，無法判斷輔具種類與敘述對錯。",
    "at": "2026-09-18"
@@ -6650,13 +5207,6 @@
   {
    "n": 80,
    "reason": "為第79題的延伸題，同樣依賴未提供的圖片（左右肩活動度比較與關節囊緊縮判斷），無法作答。",
-   "at": "2026-09-18"
-  }
- ],
- "pt-105-2-pt6": [
-  {
-   "n": 32,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 4 段））",
    "at": "2026-09-18"
   }
  ],
@@ -6783,11 +5333,6 @@
    "at": "2026-09-18"
   },
   {
-   "n": 74,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
    "n": 76,
    "reason": "題幹與選項僅以A、B、C、D帶過，圖示內容未提供，無法判斷正確位置",
    "at": "2026-09-18"
@@ -6858,13 +5403,6 @@
   {
    "n": 78,
    "reason": "題幹提及「結果如下表」，但本卷文字未提供該表內容，無法判定跌倒風險。",
-   "at": "2026-09-18"
-  }
- ],
- "pt-108-1-pt6": [
-  {
-   "n": 33,
-   "reason": "DEFER-DS：格式兩次不合（❌ 應涵蓋 ABD，實際 AAB）",
    "at": "2026-09-18"
   }
  ],
@@ -6978,11 +5516,6 @@
  ],
  "pt-110-1-pt3": [
   {
-   "n": 7,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
    "n": 23,
    "reason": "題幹所述「如圖所示之組織溫度升高模式」需依圖判讀，本卷文字未提供圖的內容",
    "at": "2026-09-18"
@@ -6990,11 +5523,6 @@
   {
    "n": 46,
    "reason": "題幹提及「下列何種移位機」但四個選項僅為A、B、C、D，圖片內容未提供，無法判斷。",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 64,
-   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
    "at": "2026-09-18"
   },
   {
@@ -7010,13 +5538,6 @@
   {
    "n": 79,
    "reason": "題幹為「下圖那種扶手設置的尺寸或形狀」，但題目文字未提供圖示與甲、乙、丙、丁之尺寸，無法判斷哪一項與規範不符",
-   "at": "2026-09-18"
-  }
- ],
- "pt-110-1-pt4": [
-  {
-   "n": 19,
-   "reason": "DEFER-DS：格式兩次不合（✅ 標的是 (A)，但正解是 (B)）",
    "at": "2026-09-18"
   }
  ],
@@ -7043,13 +5564,6 @@
   {
    "n": 80,
    "reason": "題幹說「圖示為一款具有動力的個人行動輔具」，但本卷文字未提供圖，無法依外觀判斷屬電動輪椅或電動代步車。",
-   "at": "2026-09-18"
-  }
- ],
- "pt-110-2-pt4": [
-  {
-   "n": 27,
-   "reason": "DEFER-DS：格式兩次不合（❌ 應涵蓋 BCD，實際 BBC）",
    "at": "2026-09-18"
   }
  ],
@@ -7150,32 +5664,12 @@
    "n": 30,
    "reason": "題幹說「下圖」但本文字檔未提供圖片內容，無法判斷牽張部位。",
    "at": "2026-09-18"
-  },
-  {
-   "n": 47,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
   }
  ],
  "pt-111-2-pt4": [
   {
-   "n": 11,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 0 段））",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 15,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 0 段））",
-   "at": "2026-09-18"
-  },
-  {
    "n": 39,
    "reason": "題幹提及「結果如下表」，但試題未提供該表格內容，無法判定損傷節層與ASIA等級。",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 77,
-   "reason": "DEFER-DS：格式兩次不合（❌ 要剛好三段（現在 0 段））",
    "at": "2026-09-18"
   }
  ],
@@ -7264,38 +5758,6 @@
    "at": "2026-09-18"
   }
  ],
- "pt-113-1-pt4": [
-  {
-   "n": 2,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 8,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 31,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 44,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 59,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 71,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
-   "at": "2026-09-18"
-  }
- ],
  "pt-113-1-pt5": [
   {
    "n": 12,
@@ -7334,11 +5796,6 @@
   {
    "n": 48,
    "reason": "題幹依賴「起始位置圖」才能判斷兩位搬運者站位，但本卷文字未提供圖片內容",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 49,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-18"
   },
   {
@@ -7389,11 +5846,6 @@
   {
    "n": 75,
    "reason": "承上題需依賴 #74 圖片中男子握壺姿勢，圖片缺失無法作答。",
-   "at": "2026-09-18"
-  },
-  {
-   "n": 80,
-   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
    "at": "2026-09-18"
   }
  ],

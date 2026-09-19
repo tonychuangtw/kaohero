@@ -431,8 +431,7 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt4'] = {
     "TNF-α",
     "IFN-γ"
    ],
-   "a": 3,
-   "exp": "✅ (D) 說明：IFN-γ 基因位於第 12 條染色體（12q14），並非第 6 條，故選 D。\n❌ (A) LMP7（大型多功能蛋白酶 7）基因位於第 6 條染色體的 MHC class II 區域。\n❌ (B) TAP1 基因位於第 6 條染色體 MHC class II 區，負責胜肽運輸。\n❌ (C) TNF-α 基因位於第 6 條染色體 MHC class III 區。\n📚 出處：Janeway's Immunobiology 第 6 章 MHC 基因群（class I、II、III 區域基因組成）；Robbins Basic Pathology MHC 章節。"
+   "a": 3
   },
   {
    "n": 31,
