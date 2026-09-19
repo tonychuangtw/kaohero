@@ -68138,7 +68138,7 @@ window.APP_EXAMS = [
   "subjName": "領隊實務（一）",
   "label": "103 年　領隊人員　領隊實務（一）",
   "n": 80,
-  "exp": 74,
+  "exp": 77,
   "mins": 60
  },
  {
