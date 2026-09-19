@@ -544,7 +544,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "僅③",
     "①③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：LPS 的內毒素活性集中在最內層、嵌在外膜脂雙層中的脂質A（lipid A）。lipid A 由雙醣骨架接上多條脂肪酸鏈構成，是被宿主 TLR4/MD-2 辨識、引發 IL-1、TNF-α 等細胞激素大量釋放而造成發燒、休克與 DIC 的分子；細菌死亡崩解後釋出 lipid A 即產生內毒素反應，故僅①正確。\n❌ (B) 多醣類核心是連接 lipid A 與 O 抗原的中間醣鏈，屬結構與穩定外膜之用，本身不具內毒素毒性。\n❌ (C) O-多醣類是最外側的重複寡醣單元，為血清分型的 O 抗原（如 E. coli O157），與免疫辨識、抗吞噬有關，但非毒性中心；失去 O 側鏈的粗糙型菌株仍有內毒素活性。\n❌ (D) ③（O 抗原）不具內毒素活性，只有①正確，故①③並列錯誤。\n📚 出處：Murray, Medical Microbiology「革蘭氏陰性菌外膜與內毒素」；臨床微生物學課本 LPS 結構（lipid A–core–O antigen）。"
   },
   {
    "n": 39,
@@ -557,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "鳥氨酸脫羧酶（ornithine decarboxylase）",
     "乳糖發酵（lactose fermentation）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：兩菌同屬腸桿菌科、皆乳糖發酵且 VP 陽性，最常用來鑑別的是鳥氨酸脫羧酶：Klebsiella pneumoniae 為陰性（且不具運動性），Enterobacter aerogenes 為陽性（且有運動性），故以 ornithine decarboxylase 可區分。\n❌ (A) 兩者在 KIA（Kligler iron agar）皆呈斜面／底層都產酸並產氣（A/A，gas +）、H2S 陰性，反應相同無法區別。\n❌ (B) 兩者皆行丁二醇發酵，Voges-Proskauer 試驗都是陽性，無鑑別力。\n❌ (D) 兩者都是強乳糖發酵菌，在 MacConkey agar 上均長出粉紅色菌落，無法區分。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，腸桿菌科生化鑑定表（Klebsiella 與 Enterobacter 之 ornithine／motility 差異）。"
   },
   {
    "n": 40,
@@ -570,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "類鼻疽伯克氏桿菌（Burkholderia pseudomallei）",
     "皮氏羅爾斯頓氏桿菌（Ralstonia pickettii）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Ashdown's medium 是為類鼻疽伯克氏桿菌（Burkholderia pseudomallei）設計的選擇性培養基，以結晶紫與 gentamicin 抑制其他菌叢，並加入甘油與中性紅；B. pseudomallei 在其上長出乾燥皺褶、呈紫紅色的特徵性菌落，是痰液等混雜檢體分離類鼻疽菌的首選。\n❌ (A) Acinetobacter baumannii 分離多用一般血液培養基或 MacConkey agar，並非 Ashdown's 的目標菌。\n❌ (B) Plesiomonas shigelloides 常用 inositol-brilliant green bile agar 等腸道選擇性培養基分離。\n❌ (D) Ralstonia pickettii 為環境／院內伺機性菌，以一般培養基即可培養，無專用 Ashdown's 選擇性培養基。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，非發酵革蘭氏陰性桿菌章節（Burkholderia pseudomallei 與 Ashdown's agar）。"
   },
   {
    "n": 41,
