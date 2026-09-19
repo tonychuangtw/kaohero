@@ -26334,7 +26334,7 @@ window.APP_EXAMS = [
   "subjName": "營養學",
   "label": "105 年第二次　營養學",
   "n": 40,
-  "exp": 0,
+  "exp": 37,
   "mins": 120
  },
  {
