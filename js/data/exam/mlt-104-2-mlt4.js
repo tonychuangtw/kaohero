@@ -431,7 +431,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt4'] = {
     "TNF-α",
     "IFN-γ"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) IFN-γ 基因位於第 12 對染色體（12q15），不在第 6 對染色體上，故為本題答案。IFN-γ 由活化的 Th1 細胞與 NK 細胞分泌，雖然功能上會上調 MHC 與 TAP、LMP 的表現，但其基因本身不屬於 MHC 基因座。\n❌ (A) LMP7（即 PSMB8）是免疫蛋白酶體的次單元，負責把細胞質蛋白切成可與 MHC class I 結合的胜肽，基因位於第 6 對染色體短臂的 MHC class II 區內。\n❌ (B) TAP1 為抗原胜肽轉運蛋白，把胜肽由細胞質送入內質網與 MHC class I 結合，基因與 LMP7 相鄰，同樣位在第 6 對染色體 MHC class II 區。\n❌ (C) TNF-α 基因位於第 6 對染色體 MHC class III 區（與 TNF-β／LTA 相鄰），屬 HLA 基因座範圍內。\n📚 出處：Janeway's Immunobiology 抗原呈現與 MHC 基因座一章；人類 MHC（HLA）位於 6p21，class I（HLA-A/B/C）、class II（DP/DQ/DR 及 TAP1/2、LMP2/7）、class III（TNF、補體 C4/C2/Bf）；IFN-γ 基因位於 12q15。"
   },
   {
    "n": 31,
