@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Absolute anaerobic",
     "Microaerophilic"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Vibrio 屬為兼性厭氧菌（facultative anaerobic），既能行有氧呼吸，也能在無氧下發酵醣類產能，因此在一般空氣培養箱或厭氧環境都長得出來，臨床上以 TCBS 等培養基置於空氣中即可分離。\n❌ (B) 絕對好氧（absolute aerobic）如 Pseudomonas，只能行呼吸代謝、不能發酵；Vibrio 可發酵葡萄糖，不屬此類。\n❌ (C) 絕對厭氧（absolute anaerobic）菌遇氧即受傷或死亡，如 Bacteroides、Clostridium；Vibrio 在有氧下反而生長旺盛。\n❌ (D) 微需氧（microaerophilic）菌需約 5% O2 的低氧環境，如 Campylobacter、Helicobacter；Vibrio 無此特殊氣體需求。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Vibrio, Aeromonas 章節；臨床微生物學「細菌的氧氣需求分類」。"
   },
   {
    "n": 22,
@@ -319,7 +320,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Methylene blue",
     "Bromothymol blue"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) MacConkey agar 使用 neutral red（中性紅）作為 pH 指示劑，乳糖發酵菌產酸使菌落與周圍呈粉紅至紅色，不發酵者呈無色透明；另含膽鹽與結晶紫抑制革蘭氏陽性菌。\n❌ (B) Phenol red 是 TSI、Kligler、醣類發酵管與 MSA 常用的指示劑，不是 MacConkey 所用。\n❌ (C) Methylene blue 與 eosin 併用於 EMB agar，作為指示劑兼抑菌劑，非 MacConkey 成分。\n❌ (D) Bromothymol blue 用於 TCBS 等培養基，MacConkey 不含此指示劑。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, MacConkey agar；臨床微生物學「選擇性與鑑別性培養基」。"
   },
   {
    "n": 23,
@@ -332,7 +334,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "第三類（Class III BSC）",
     "第四類（Class IV BSC）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Legionella 屬 BSL-2 等級病原，培養操作可能產生感染性氣膠，依規範應在 Class II 生物安全操作櫃內進行；Class II 具 HEPA 過濾的垂直層流，同時保護操作者、檢體與環境，是臨床微生物實驗室最常用的等級。\n❌ (A) Class I 只保護操作者與環境，櫃內氣流由室內吸入未經過濾，無法保護檢體避免污染，不適合培養操作。\n❌ (C) Class III 為完全密閉手套箱，用於 BSL-4 或高危險病原（如 Ebola），對 Legionella 屬過度防護。\n❌ (D) 生物安全操作櫃只分三類，並無「第四類」；BSL-4 指的是實驗室等級而非操作櫃分類。\n📚 出處：CDC/NIH, Biosafety in Microbiological and Biomedical Laboratories (BMBL)；臨床微生物學「生物安全等級與安全櫃分類」。"
   },
   {
    "n": 24,
@@ -345,7 +348,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Oxidase (－)",
     "Arginine dihydrolase (＋)"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Burkholderia pseudomallei 的 oxidase 為陽性（＋），題目問「不是」其特性，故 Oxidase (－) 錯誤。Oxidase 陽性也是它與腸內菌科區別的重要依據。\n❌ (A) 它能將硝酸鹽還原並繼續產生氮氣（nitrate reduction to N2），為其典型生化反應。\n❌ (B) 可在 42℃ 生長，是與 B. cepacia 等其他 Burkholderia 鑑別的重點之一。\n❌ (D) Arginine dihydrolase 為陽性（＋），亦屬其特性之一。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, 非發酵性革蘭氏陰性桿菌章節；類鼻疽桿菌鑑定特性。"
   },
   {
    "n": 25,
@@ -358,7 +362,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Beta-hemolysis",
     "Delta-hemolysis"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Campylobacter jejuni 在血液瓊脂上不產生溶血（non-hemolysis），菌落灰白、扁平、濕潤且常沿劃線擴散（swarming），需 42℃、微需氧環境培養。\n❌ (B) Alpha 溶血為綠色不完全溶血，見於 viridans streptococci、肺炎鏈球菌，非 C. jejuni。\n❌ (C) Beta 溶血為完全透明溶血，見於 A 群、B 群鏈球菌與金黃色葡萄球菌等。\n❌ (D) 溶血型別只分 alpha、beta、gamma（不溶血），並無「delta 溶血」這種分類。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Campylobacter 章節；臨床微生物學「血液瓊脂溶血型別」。"
   },
   {
    "n": 26,
@@ -371,7 +376,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "P. canis",
     "P. multocida"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Pasteurella multocida 是 Pasteurella 屬中最常自人類檢體分離到的菌種，主要來自貓抓、貓咬或狗咬傷口，可於數小時內造成局部蜂窩性組織炎，菌體為革蘭氏陰性球桿菌並具兩極濃染。\n❌ (A) P. aerogenes 多見於豬，人類感染罕見。\n❌ (B) P. caballi 主要分離自馬，非人類常見病原。\n❌ (C) P. canis 可來自犬咬傷，但分離率遠低於 P. multocida。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Haemophilus、Pasteurella 等苛養菌章節；動物咬傷感染病原學。"
   },
   {
    "n": 27,
@@ -384,7 +390,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "甘胺酸（glycine）",
     "離胺酸（lysine）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Neisseria gonorrhoeae 為營養需求嚴苛的菌種，必需 cysteine（半胱胺酸）才能生長，故 Thayer-Martin、Martin-Lewis 等培養基以含 cysteine 的 IsoVitaleX／補充劑強化；此特性也用於營養型（auxotype）分型。\n❌ (A) 丙胺酸並非淋病雙球菌的必需胺基酸，缺乏並不影響生長。\n❌ (C) 甘胺酸屬一般營養成分，非其生長的絕對必需因子。\n❌ (D) 離胺酸缺乏不會使淋病雙球菌無法生長，與其營養需求無關。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Neisseria 章節；淋病雙球菌 auxotyping 與選擇性培養基配方。"
   },
   {
    "n": 28,
@@ -397,7 +404,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "只能以tissue biopsy之檢體作培養",
     "培養於aerobic環境"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯在培養環境。Helicobacter pylori 是微需氧菌（約 5% O2、10% CO2），必須置於微需氧環境並於 35～37℃ 培養 5～7 天，放在一般有氧（aerobic）環境無法生長。\n❌ (A) 尿素呼氣試驗利用其強力 urease 分解標記尿素產生 CO2，是臨床常用的非侵入性診斷法，敘述正確。\n❌ (B) 可併用 chocolate agar 與含抗生素的 Skirrow's agar 提高分離率，敘述正確。\n❌ (C) 培養用檢體以胃黏膜組織切片為主，糞便、胃液等不適合培養，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Campylobacter 與 Helicobacter 章節；H. pylori 檢驗診斷。"
   },
   {
    "n": 29,
@@ -410,7 +418,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "對糖類不發酵",
     "在MacConkey agar上生長良好"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 兩者皆為不發酵醣類（asaccharolytic）的革蘭氏陰性菌：Eikenella corrodens 與 Moraxella catarrhalis 在醣類發酵試驗中對 glucose、lactose、sucrose、maltose 均呈陰性，這是兩者共有的生化特性。\n❌ (A) 兩者皆無運動性，不是共通的「具運動性」；E. corrodens 雖會在洋菜表面蝕刻凹陷，但非鞭毛運動。\n❌ (B) 兩者的 oxidase 都是陽性，不是陰性。\n❌ (D) 兩者在 MacConkey agar 上皆不生長或生長不良，屬較苛養的菌。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Neisseria/Moraxella 與 HACEK 菌群章節。"
   },
   {
    "n": 30,
@@ -423,7 +432,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "cephalexin",
     "erythromycin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Erythromycin 是治療百日咳的首選藥物，Bordetella pertussis 對它敏感，加入培養基會把目標菌一併抑制，因此不可添加。\n❌ (A) Charcoal（活性碳）可吸附培養基中的脂肪酸、過氧化物等毒性物質，是 Regan-Lowe 培養基的關鍵成分。\n❌ (B) Horse blood（馬血）提供營養並中和抑制物，常與 charcoal 併用於 Regan-Lowe agar。\n❌ (C) Cephalexin 用來抑制鼻咽部常在菌叢，B. pertussis 對其具抗性，是標準的選擇性抑菌劑。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Bordetella 章節；Regan-Lowe 與 Bordet-Gengou 培養基配方。"
   },
   {
    "n": 31,
@@ -436,7 +446,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Yersinia enterocolitica",
     "Pseudomonas aeruginosa"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Yersinia enterocolitica 具溫度依賴性運動：在 22～25℃ 培養時有周鞭毛而呈運動性，在 35～37℃ 則不表現鞭毛、無運動性。此特性是鑑定 Yersinia 的經典依據，故運動性試驗須同時做兩種溫度。\n❌ (A) Shigella dysenteriae 在任何溫度都無鞭毛、無運動性，是腸內菌中不運動的代表。\n❌ (B) Proteus mirabilis 在 37℃ 即具強烈運動性，會在血液瓊脂上形成 swarming 波紋。\n❌ (D) Pseudomonas aeruginosa 具單極鞭毛，在 35～37℃ 就有運動性。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Enterobacteriaceae 章節；Yersinia 溫度依賴性運動試驗。"
   },
   {
    "n": 32,
@@ -449,7 +460,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Salmonella typhi",
     "Enterobacter cloacae"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Enterobacter cloacae 走 butanediol 發酵途徑，會產生 acetoin，加入 VP 試劑後呈紅色，即 VP 陽性；Klebsiella、Enterobacter、Serratia 等 IMViC 後兩項（VP＋、citrate＋）通常為陽性。\n❌ (A) Escherichia coli 行混合酸發酵，VP 陰性、MR 陽性（IMViC ＋＋－－）。\n❌ (B) Shigella sonnei 之 VP 為陰性，且不運動、不產氣。\n❌ (C) Salmonella typhi 之 VP 亦為陰性，MR 陽性。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, 腸內菌鑑定章節；IMViC 試驗與 Voges-Proskauer 反應。"
   },
   {
    "n": 33,
@@ -462,7 +474,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "P. mirabilis：(－) ；P. vulgaris：(＋)",
     "P. mirabilis：(－) ；P. vulgaris：(－)"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Proteus mirabilis 的 ornithine decarboxylase 為陽性，Proteus vulgaris 為陰性。加上 indole（mirabilis 陰性、vulgaris 陽性），兩者常用這組反應區分。\n❌ (A) 若兩者皆陽性就失去鑑別價值，且 P. vulgaris 實際為陰性。\n❌ (C) 陰陽方向恰好相反，P. mirabilis 才是陽性者。\n❌ (D) 兩者皆陰性與事實不符，P. mirabilis 可脫羧 ornithine。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Proteus、Providencia、Morganella 鑑定表；胺基酸脫羧酶試驗。"
   },
   {
    "n": 34,
@@ -475,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "10% FeCl3",
     "α-naphthol"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 氧化酶（cytochrome oxidase）試驗使用 tetramethyl-p-phenylenediamine dihydrochloride（Kovács 試劑），若細菌具 cytochrome c oxidase，可將試劑氧化成深紫藍色的 indophenol，10～30 秒內變色判為陽性。\n❌ (B) Sulfanilic acid 是硝酸鹽還原試驗試劑 A 的成分，與 α-naphthylamine 併用顯紅色。\n❌ (C) 10% FeCl3 用於 phenylalanine deaminase（PPA）試驗，陽性呈綠色。\n❌ (D) α-naphthol 是 VP 試驗試劑（與 40% KOH 併用），不是氧化酶試劑。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, 生化鑑定試驗章節；oxidase test (Kovács method)。"
   },
   {
    "n": 35,
@@ -488,7 +502,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Tetramethyl-p-phenylenediamine",
     "5% α-naphthol＋40% KOH"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) VP 試驗使用 5% α-naphthol（試劑 A）加 40% KOH（試劑 B），若菌體產生 acetoin，經鹼性條件氧化成 diacetyl，再與蛋白腖中的 guanidine 基作用，15～30 分鐘內呈紅色即陽性。\n❌ (A) Sulfanilic acid＋α-naphthylamine 是硝酸鹽還原試驗的試劑，陽性呈紅色但原理不同。\n❌ (B) p-dimethylaminobenzaldehyde 為 Kovács／Ehrlich 吲哚試劑，用於 indole 試驗。\n❌ (C) Tetramethyl-p-phenylenediamine 為氧化酶試驗試劑。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Voges-Proskauer 試驗（Barritt 法）。"
   },
   {
    "n": 36,
@@ -501,7 +516,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "pH值上升",
     "pH值下降"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 加入試劑不變色時，代表可能是「硝酸鹽未被還原」或「已被還原到氣體等更下游產物」。此時加鋅粉，鋅會把殘留的硝酸鹽化學還原成亞硝酸鹽而顯紅色，表示培養液裡原本硝酸鹽仍在、細菌沒有還原能力，故判為陰性反應。\n❌ (A) 陽性是加入試劑 A、B 後立即變紅；若需靠鋅粉才變紅，反而證明細菌無還原作用。\n❌ (C) 此試驗判讀的是硝酸鹽是否被還原，紅色來自重氮偶合呈色，與 pH 值上升無關。\n❌ (D) 同理，呈色不是 pH 指示劑變化，不代表 pH 下降。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, nitrate reduction test；鋅粉確認試驗判讀原則。"
   },
   {
    "n": 37,
@@ -514,7 +530,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "產生Pyocyanin：P. aeruginosa (＋)，P. fluorescens (－)",
     "產生Pyocyanin：P. aeruginosa (－)，P. fluorescens (＋)"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Pyocyanin（綠膿素）是 Pseudomonas aeruginosa 特有的藍綠色水溶性色素，P. fluorescens 只產生螢光性的 pyoverdin 而不產生 pyocyanin，故可用此色素區分兩者。\n❌ (A) 兩菌的 oxidase 都是陽性，並非 P. fluorescens 陰性。\n❌ (B) 同上，P. aeruginosa 的 oxidase 為陽性，敘述方向相反。\n❌ (D) Pyocyanin 由 P. aeruginosa 產生，P. fluorescens 不產生，此選項恰好顛倒。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, 非發酵性革蘭氏陰性桿菌章節；Pseudomonas 色素與鑑定。"
   },
   {
    "n": 38,
@@ -527,7 +544,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "H. haemolyticus",
     "H. aphrophilus"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Haemophilus aphrophilus（現歸 Aggregatibacter aphrophilus）能利用（發酵）lactose，這是 Haemophilus 屬中少見的特性，也是與其他菌種鑑別的重點；它同時不需 X、V 因子或僅需 X 因子，屬 HACEK 菌群、可致心內膜炎。\n❌ (A) H. influenzae 不發酵 lactose，需同時具 X 與 V 因子才生長。\n❌ (B) H. segnis 醣類發酵反應微弱且緩慢，不利用 lactose。\n❌ (C) H. haemolyticus 具 β 溶血、需 X 與 V 因子，不發酵 lactose。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Haemophilus 章節；Haemophilus 各菌種生長因子與醣類發酵鑑定表。"
   },
   {
    "n": 39,
@@ -540,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt6'] = {
     "Staphylococcus",
     "Proteus"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Neisseria 屬革蘭氏染色呈紅色（陰性），菌體為成雙排列的球菌，相鄰面扁平如咖啡豆狀（diplococci），腦膜炎雙球菌與淋病雙球菌均為此典型形態；同科的 Moraxella 則呈球桿狀成雙排列。\n❌ (A) Bacillus 為革蘭氏陽性（紫色）大桿菌，常呈鏈狀並可形成內孢子。\n❌ (C) Staphylococcus 雖為球菌，但染色呈陽性且排列成葡萄串狀，非成雙的陰性球菌。\n❌ (D) Proteus 雖為革蘭氏陰性，但菌體是多形性桿菌且具運動性，不呈成雙球狀排列。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Neisseria 與 Moraxella 章節；革蘭氏染色形態學分類。"
   },
   {
    "n": 40,
