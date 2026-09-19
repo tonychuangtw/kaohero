@@ -152,7 +152,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt2'] = {
     "再生不良性貧血（aplastic anemia）的病人",
     "惡性貧血（pernicious anemia）的病人"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Iron-sequestrating syndrome 即鐵被「扣留」在網狀內皮系統（巨噬細胞）內無法釋出供紅血球生成，最典型見於慢性發炎、感染或惡性腫瘤病人：發炎時 IL-6 刺激肝臟分泌 hepcidin，抑制 ferroportin，使巨噬細胞與腸道上皮的鐵無法輸出到血中，形成血清鐵低、TIBC 低、ferritin 正常或升高的慢性病貧血（anemia of chronic disease）。\n❌ (B) 大量失血是鐵隨紅血球流失到體外，屬真正的缺鐵，血清鐵低但 TIBC 升高、ferritin 下降，鐵並未被扣留。\n❌ (C) 再生不良性貧血是骨髓造血幹細胞衰竭、全血球低下，鐵利用減少反而使血清鐵與 ferritin 上升，機轉並非發炎性鐵扣留。\n❌ (D) 惡性貧血為缺乏內在因子導致維生素 B12 吸收不良的巨球性貧血，與鐵代謝無關。\n📚 出處：Anemia of chronic disease（發炎性貧血）之 hepcidin–ferroportin 鐵扣留機轉；Hoffbrand's Essential Haematology 鐵代謝與慢性病貧血章節。"
   },
   {
    "n": 11,
@@ -923,7 +924,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt2'] = {
     "可用於鑑定Del",
     "可用於確認孟買血型"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 孟買血型（Bombay, Oh）的確認靠的是「缺乏 H 抗原」——用抗 H 凝集素（Ulex europaeus）不凝集、且血清中含強效抗 H 可凝集 O 型紅血球；吸附沖出測試的用途是把「量很少但存在」的抗原找出來，孟買型根本不帶 A、B、H 抗原，沒有可吸附沖出的對象，故此敘述錯誤。\n❌ (A) ABO 亞型（如 A3、Ax、Am、Bx）抗原數目少、直接凝集常呈陰性或混合視野，需以抗 A／抗 B 吸附後再沖出證明抗原確實存在，是鑑定亞型的標準做法。\n❌ (B) 吸附沖出法的原理即針對紅血球表面抗原過少、直接凝集測不到的情形設計，屬正確應用。\n❌ (C) Del 型 RhD 抗原量極微，常規與間接抗球蛋白試驗皆呈 D 陰性，必須以抗 D 吸附沖出才能檢出，是鑑定 Del 的必要方法。\n📚 出處：AABB Technical Manual 吸附沖出試驗（adsorption-elution）於 ABO 亞型、Del 表現型之應用；孟買血型以抗 H 凝集素及血清抗 H 鑑定。"
   },
   {
    "n": 66,
