@@ -24612,7 +24612,7 @@ window.APP_EXAMS = [
   "subjName": "公共衛生營養學",
   "label": "115 年第一次　公共衛生營養學",
   "n": 50,
-  "exp": 46,
+  "exp": 50,
   "mins": 60
  },
  {
