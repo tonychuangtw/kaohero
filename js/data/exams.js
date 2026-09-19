@@ -24304,7 +24304,7 @@ window.APP_EXAMS = [
   "subjName": "解剖學與生理學",
   "label": "103 年第二次　解剖學與生理學",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 60
  },
  {
