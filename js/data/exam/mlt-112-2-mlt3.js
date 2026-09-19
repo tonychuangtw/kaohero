@@ -260,7 +260,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "carboxyl group (-COOH)",
     "hydrogen (-H)"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 胺基酸α-carbon 的基本結構為胺基（-NH2）、羧基（-COOH）、氫（-H）及側鏈 R 基，不含羥基（-OH）；羥基僅見於 serine、threonine 等側鏈。\n❌ (A) 胺基為胺基酸基本結構之一。\n❌ (C) 羧基為胺基酸基本結構之一。\n❌ (D) 氫為α-carbon 上基本取代基之一。\n📚 出處：生物化學胺基酸結構章節「α-胺基酸共通結構」"
   },
   {
    "n": 20,
@@ -273,7 +274,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "色胺酸（tryptophan）",
     "精胺酸（arginine）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 苯酮尿症為 phenylalanine hydroxylase 缺乏，無法將 phenylalanine 羥化為 tyrosine。\n❌ (B) histidine 由 ATP 與 ribose 衍生合成，非由 phenylalanine 轉換。\n❌ (C) tryptophan 由 chorismate 合成，非 phenylalanine 產物。\n❌ (D) arginine 經尿素循環與 ornithine 代謝合成，與 phenylalanine 無關。\n📚 出處：生物化學胺基酸代謝章節「苯酮尿症致病機轉」"
   },
   {
    "n": 21,
@@ -286,7 +288,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "恆定的核酸代謝速率",
     "恆定的蛋白質代謝速率"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 血清肌酸酐主要由肌肉中磷酸肌酸自發脫水生成，其生成速率相當穩定；由於腎絲球過濾速率（GFR）固定時，肌酸酐的濾過量與生成量達成平衡，故血中濃度可維持在很窄的範圍（約0.7～1.2 mg/dL）。\n❌ (B) 腎小管對肌酸酐幾乎不吸收，且腎小管分泌比例小，並非決定血中濃度的主要因素。\n❌ (C) 核酸代謝主要產生尿酸而非肌酸酐，與肌酸酐濃度無關。\n❌ (D) 蛋白質代謝產生尿素等含氮廢物，不影響肌酸酐濃度。\n📚 出處：臨床生化學「腎功能檢查：肌酸酐與腎絲球過濾率」章節"
   },
   {
    "n": 22,
@@ -299,7 +302,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "酸性醣蛋白（α1-acid glycoprotein）含量增加",
     "白蛋白（albumin）含量減少"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 慢性肝病時肝臟合成白蛋白能力下降，血清白蛋白濃度減少，是評估肝功能的重要指標。\n❌ (A) α-胎兒蛋白在慢性肝炎及肝細胞癌時反而可能上升，並非減少。\n❌ (B) α1-抗胰蛋白酶屬急性期蛋白，肝病發炎時通常上升或正常，但非慢性肝病最典型變化。\n❌ (C) α1-酸性醣蛋白亦為急性期蛋白，發炎時上升而非下降，也非慢性肝病的特徵表現。\n📚 出處：臨床生化學「肝功能檢查：血漿蛋白」章節"
   },
   {
    "n": 23,
@@ -312,7 +316,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "為膽固醇酵素測定法所必需之酵素",
     "LCAT可酯化周邊游離膽固醇以進入高密度脂蛋白（HDL）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) LCAT由肝臟合成後進入血漿，在HDL表面將卵磷脂sn-2位置脂肪酸轉移至游離膽固醇，使膽固醇酯化，形成膽固醇酯並移入HDL核心，此為HDL成熟及膽固醇逆向運輸的關鍵步驟。\n❌ (A) LCAT並非膽固醇生合成酵素，生合成路線為HMG-CoA reductase等酵素。\n❌ (B) LCAT屬醯基轉移酶，EC編碼為2.3.1.43，第一碼為2（轉移酶），非1（氧化還原酶）。\n❌ (C) 膽固醇酵素測定法（CHOD-PAP）使用膽固醇酯酶與膽固醇氧化酶，不需LCAT。\n📚 出處：臨床生化學「脂蛋白代謝與LCAT功能」章節及EC酵素分類"
   },
   {
    "n": 24,
@@ -325,7 +330,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "可以Friedewald equation來計算HDL-C之濃度",
     "可以抗apo B之抗體將HDL分離後再測之"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 聚陰離子沉澱法加入磷鎢酸、硫酸葡聚糖等與apoB的VLDL、LDL、IDL結合沉澱，經離心後上清液含有HDL-C，再測定之。\n❌ (A) 均質法（homogeneous method）可直接測定HDL-C，是目前常用方法。\n❌ (C) Friedewald equation用於計算LDL-C，公式為LDL-C＝TC－HDL-C－TG/5，不計算HDL-C。\n❌ (D) 抗apo B抗體會沉澱含apoB的VLDL、LDL，並非分離HDL，且是沉澱其他脂蛋白而非HDL。\n📚 出處：臨床生化學「脂質與脂蛋白測定：HDL-C測定法」章節"
   },
   {
    "n": 25,
@@ -338,7 +344,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "己糖激酶（hexokinase）",
     "葡萄糖脫氫酶（glucose dehydrogenase）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 己糖激酶（hexokinase）催化葡萄糖與ATP反應，將磷酸基轉移到葡萄糖第6碳，生成葡萄糖-6-磷酸與ADP，需鎂離子作為輔助因子。\n❌ (A) 葡萄糖六磷酸脫氫酶催化G6P進入五碳糖磷酸途徑，基質為G6P與NADP⁺。\n❌ (B) 葡萄糖氧化酶氧化葡萄糖生成葡萄糖酸與H₂O₂，不涉及ATP。\n❌ (D) 葡萄糖脫氫酶以NAD⁺為輔酶氧化葡萄糖，亦可測血糖但反應式非磷酸化。\n📚 出處：臨床生化學「血糖測定：己糖激酶法」章節"
   },
   {
    "n": 26,
@@ -351,7 +358,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "三酸甘油脂",
     "溶血物質"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 尿素為血中正常代謝產物，不參與HK/葡萄糖-6-磷酸脫氫酶偶聯反應，也不具氧化還原或吸光干擾，因此不會造成分析干擾。\n❌ (B) 膽紅素在340 nm有吸光且具還原性，會干擾NADH生成測定。\n❌ (C) 三酸甘油脂造成檢體混濁，散射光影響吸光度測定。\n❌ (D) 溶血釋放血紅素及細胞內物質，在340 nm有吸收，造成正偏差干擾。\n📚 出處：臨床生化學「血糖測定之干擾因素」章節"
   },
   {
    "n": 27,
@@ -364,7 +372,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "葡萄糖六磷酸酶（glucose-6-phosphatase）",
     "肌酸激酶（creatine kinase）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 骨骼肌缺乏葡萄糖六磷酸酶（glucose-6-phosphatase），故肌肉肝醣分解只能到G6P，無法去磷酸化產生游離葡萄糖釋入血液，G6P只能進入醣解作用供肌肉本身使用。\n❌ (A) 細胞色素氧化酶為粒線體電子傳遞鏈酵素，與肝醣分解無關。\n❌ (B) 葡萄糖六磷酸脫氫酶參與五碳糖磷酸途徑，並非肝醣分解的關鍵酵素。\n❌ (D) 肌酸激酶參與肌肉能量代謝（磷酸肌酸緩衝），不影響肝醣分解為葡萄糖。\n📚 出處：生物化學「肝醣代謝：肝與肌肉之差異」章節"
   },
   {
    "n": 28,
@@ -377,7 +386,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "150 mg/dL",
     "170 mg/dL"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 正常腎臟的腎絲球可完全濾過葡萄糖，但近曲小管再吸收能力有限（轉運極量Tm約375 mg/min），當血糖超過腎閾值約170～180 mg/dL時，濾過負荷超過再吸收能力，尿中即出現葡萄糖。\n❌ (A) 126 mg/dL為糖尿病空腹血糖診斷切點，尚未超過腎閾值。\n❌ (B) 140 mg/dL為口服葡萄糖耐受試驗2小時的診斷切點，仍在腎閾值以下。\n❌ (C) 150 mg/dL亦低於腎閾值，通常不會出現尿糖。\n📚 出處：臨床生化學「腎功能與尿液分析：腎閾值與糖尿」章節"
   },
   {
    "n": 29,
@@ -406,7 +416,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "9",
     "10"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 棕櫚酸為16碳飽和脂肪酸，β-氧化每經一輪切下1個乙醯CoA並產生少2碳的醯基CoA，16碳脂肪酸可進行7輪β-氧化，產生8莫耳乙醯CoA、7莫耳FADH₂與7莫耳NADH。\n❌ (A) 7為β-氧化循環次數，並非乙醯CoA產量。\n❌ (C) 9為誤算，碳數16除以2即為8。\n❌ (D) 10為誤算，不符合16碳脂肪酸之β-氧化計算。\n📚 出處：生物化學「脂肪酸β-氧化與能量計算」章節"
   },
   {
    "n": 31,
@@ -419,7 +430,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "低密度脂蛋白（LDL）",
     "高密度脂蛋白（HDL）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) VLDL由肝臟分泌，主要功能為運送內生性三酸甘油脂至周邊組織，其組成中三酸甘油脂佔約50～60%，是各脂蛋白中比例最高者。\n❌ (B) IDL為VLDL代謝中間產物，三酸甘油脂已部分移除，比例低於VLDL。\n❌ (C) LDL主要成分為膽固醇（約50%），三酸甘油脂僅約10%。\n❌ (D) HDL富含蛋白質與磷脂，三酸甘油脂含量最少。\n📚 出處：臨床生化學「脂蛋白組成與分類」章節"
   },
   {
    "n": 32,
@@ -432,7 +444,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "凝血脂素（thromboxane）",
     "白三烯（leukotriene）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 組織胺由組織胺酸（histidine）經組織胺酸脫羧酶脫羧生成，屬胺類，並非花生四烯酸衍生物。\n❌ (B) 前列腺素由花生四烯酸經環氧化酶（COX）途徑生成。\n❌ (C) 凝血脂素同樣經環氧化酶及凝血脂素合成酶由花生四烯酸衍生。\n❌ (D) 白三烯由花生四烯酸經脂氧化酶（LOX）途徑生成。\n📚 出處：生物化學「類花生酸（eicosanoids）之合成」章節"
   },
   {
    "n": 33,
@@ -445,7 +458,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "lecithin cholesterol acyltransferase",
     "HMG-CoA reductase"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 膽固醇合成之速率決定步驟為HMG-CoA還原為mevalonate，由HMG-CoA reductase（EC 1.1.1.34）催化，此酵素受膽固醇回饋抑制及荷爾蒙調控，是降血脂藥物statin的作用標的。\n❌ (A) acetoacetyl-CoA synthetase催化乙醯CoA與乙醯乙醯CoA縮合，非速率決定步驟。\n❌ (B) HMG-CoA synthetase催化HMG-CoA生成，非速率決定步驟。\n❌ (C) LCAT參與血漿膽固醇酯化與HDL代謝，不參與膽固醇生合成。\n📚 出處：生物化學「膽固醇生合成與調控」章節"
   },
   {
    "n": 34,
@@ -458,7 +472,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "prostaglandins",
     "triglycerides"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 三酸甘油脂（triglycerides）為中性脂肪，儲存於脂肪組織的脂滴中，是體內能量儲存最主要形式，1克可提供約9 kcal。\n❌ (A) 膽固醇為細胞膜及類固醇荷爾蒙原料，非主要能量儲存形式。\n❌ (B) 游離脂肪酸在血中與白蛋白結合運輸，濃度低且具脂毒性，非儲存形式。\n❌ (C) 前列腺素為花生四烯酸衍生的短效訊息分子，不具儲能功能。\n📚 出處：生物化學「脂質分類與能量儲存」章節"
   },
   {
    "n": 35,
@@ -471,7 +486,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "直接測 340 nm 的吸光度變化",
     "sodium nitroprusside"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 葡萄糖氧化酶法將葡萄糖氧化產生H₂O₂，再以過氧化酶（peroxidase）催化H₂O₂、o-Dianisidine與色原反應，生成有色產物，於約540 nm測定吸光度。\n❌ (A) Benedict's reagent為銅還原法試劑，用於尿糖定性，非GOD法呈色劑。\n❌ (C) 340 nm測定NAD(P)H為己糖激酶法或G6PDH偶聯法，非GOD法。\n❌ (D) sodium nitroprusside用於酮體（Acetest）檢測，與葡萄糖測定無關。\n📚 出處：臨床生化學「血糖測定：葡萄糖氧化酶法」章節"
   },
   {
    "n": 36,
@@ -484,7 +500,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "β-hydroxybutyrate及oxaloacetate",
     "acetoacetate及acetone"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Acetest（酮體試劑片）含sodium nitroprusside，在鹼性條件下可與acetoacetate及acetone反應呈紫色，對β-hydroxybutyrate不敏感。\n❌ (A) β-hydroxybutyrate不與nitroprusside呈色，無法測出。\n❌ (B) 同(A)，β-hydroxybutyrate不呈色；且未含acetone的完整組合。\n❌ (C) oxaloacetate非酮體，不參與nitroprusside反應。\n📚 出處：臨床生化學「酮體測定：Nitroprusside反應」章節"
   },
   {
    "n": 37,
@@ -497,7 +514,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "鈣",
     "銅"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 鈣為人體含量最多的陽離子，成人體內約1～1.2公斤，其中99%以磷酸鈣形式存於骨骼與牙齒，1%在細胞外液調控凝血、神經傳導及肌肉收縮。\n❌ (A) 鋅為微量元素，總量僅約1.5～2.5克。\n❌ (B) 鎂總量約20～28克，為細胞內含量第二多的陽離子，但總量仍少於鈣。\n❌ (D) 銅總量僅約80～100毫克，屬微量元素。\n📚 出處：臨床生化學「礦物質與微量元素：鈣的代謝」章節"
   },
   {
    "n": 38,
@@ -510,7 +528,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "原子吸光法（atomic absorption spectrophotometry）",
     "離子選擇性電極（ion-selective electrodes）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 離子選擇性電極（ISE）操作簡便、快速、可直接使用全血，為目前臨床實驗室測定鈉、鉀、氯等電解質最常用的方法，分直接法與間接法兩種。\n❌ (A) 化學法如鈉鎂鈾沉澱法特異性差且步驟繁瑣，已少用。\n❌ (B) 火焰發光法為傳統參考方法，因需火焰設備且無法自動化，現已少用。\n❌ (C) 原子吸光法設備昂貴、操作複雜，多用於研究或參考方法。\n📚 出處：臨床生化學「電解質測定：離子選擇性電極」章節"
   },
   {
    "n": 39,
@@ -523,7 +542,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "鎘（Cd）、鎳（Ni）",
     "鉛（Pb）、銅（Cu）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 金屬人工關節（如鈷鉻鉬合金）磨損時會釋放鈷（Co）與鉻（Cr）離子進入血液及組織，長期可造成局部骨溶解、金屬中毒及系統性併發症（如心肌病變、甲狀腺機能低下）。\n❌ (A) 鋅、錳非人工關節主要金屬成分，不屬典型磨損中毒金屬。\n❌ (C) 鎘與鎳雖為重金屬，但非人工關節置換磨損的主要釋出金屬。\n❌ (D) 鉛、銅非人工關節常用合金成分，與置換術後中毒無關。\n📚 出處：臨床生化學「微量元素與重金屬中毒」章節"
   },
   {
    "n": 40,
@@ -536,7 +556,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "家族性高尿鈣、低血鈣症（familial hypercalciuric hypocalcemia）",
     "家族性低尿鈣、低血鈣症（familial hypocalciuric hypocalcemia）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 家族性低尿鈣、高血鈣症（FHH）為鈣離子感應接受器（CaSR）基因失活突變所致，副甲狀腺及腎小管對鈣的感應閾值上升，導致高血鈣、低尿鈣及正常或輕度升高的PTH。\n❌ (A) 家族性高尿鈣、高血鈣症非CaSR突變的典型疾病名稱。\n❌ (C) 家族性高尿鈣、低血鈣症描述與CaSR失活突變的表現相反。\n❌ (D) 低尿鈣、低血鈣症非CaSR突變的表型，低血鈣通常為CaSR活化突變（如家族性低血鈣症）。\n📚 出處：臨床生化學「鈣磷代謝與鈣離子感應接受器疾病」章節"
   },
   {
    "n": 41,
@@ -549,7 +570,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "克山症（Keshan disease）病人是因缺硒而造成的心肌病變",
     "含硒的酵素多參與氧化還原反應"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤。麩胺基硫還原酶（glutathione reductase）為含FAD的黃素蛋白，不含硒；含硒的抗氧化酵素是麩胺基硫過氧化酶（glutathione peroxidase）。\n❌ (A) 正確。硒可取代cysteine中的硫形成selenocysteine，位於酵素活性中心。\n❌ (C) 正確。克山症為中國東北地區因缺硒引起的地方性心肌病變。\n❌ (D) 正確。含硒酵素如GPx、thioredoxin reductase均參與氧化還原反應。\n📚 出處：臨床生化學「硒與抗氧化酵素」章節"
   },
   {
    "n": 42,
@@ -562,7 +584,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "鉛（Pb）",
     "鉬（Mo）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 銅是細胞色素氧化酶（complex IV）的輔基，也是細胞色素c氧化酶活性所必需；缺銅直接使電子傳遞鏈末端酵素活性下降，影響氧化磷酸化。\n❌ (B) 鎳主要與細菌尿素酶等酵素有關，並非粒線體電子傳遞鏈的必需微量元素。\n❌ (C) 鉛為重金屬毒物，會抑制血基質合成與多種酵素，但非電子傳遞鏈的必需成分，並非「缺乏」問題。\n❌ (D) 鉬是黃嘌呤氧化酶、亞硫酸氧化酶等輔因子，與粒線體電子傳遞鏈酵素無直接關聯。\n📚 出處：臨床生化學「微量元素」章節（銅與細胞色素c氧化酶）"
   },
   {
    "n": 43,
@@ -575,7 +598,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "亨利定律（Henry's law）",
     "道爾頓定律（Dalton's law）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 查理定律（Charles' law）描述定壓下理想氣體體積與絕對溫度成正比（V ∝ T），即 V/T 為定值。\n❌ (A) 波以耳定律是定溫下壓力與體積成反比（PV 為定值），與溫度無關。\n❌ (C) 亨利定律描述氣體在液體中的溶解度與其分壓成正比，用於血氧溶解量，非體積-溫度關係。\n❌ (D) 道爾頓定律是混合氣體總壓等於各成分分壓之和，與體積和溫度的關係無關。\n📚 出處：臨床生化學「氣體定律與血液氣體」章節"
   },
   {
    "n": 44,
@@ -588,7 +612,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "代謝性酸中毒（metabolic acidosis）",
     "代謝性鹼中毒（metabolic alkalosis）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 代謝性鹼中毒由過多 cHCO3⁻（碳酸氫根）造成，身體會以呼吸抑制、降低 pCO2（而非提高）來代償；題目原文「以提高pCO2進行代償」為常見命題敘述，答案仍為代謝性鹼中毒。\n❌ (A) 呼吸性酸中毒是通氣不足使 pCO2 上升、HCO3⁻ 代償性增加，原發異常在 CO2 而非 HCO3⁻。\n❌ (B) 呼吸性鹼中毒是通氣過度使 pCO2 下降所致，原發異常亦非 HCO3⁻ 過多。\n❌ (C) 代謝性酸中毒是 HCO3⁻ 過少（或酸過多）造成，會以過度換氣降低 pCO2 代償。\n📚 出處：臨床生化學「酸鹼平衡與血液氣體分析」章節"
   },
   {
    "n": 45,
@@ -601,7 +626,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "Ca2+",
     "Mg2+"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 陰離子間隙公式為 AG = Na⁺ −（Cl⁻ + HCO3⁻），代表未測定陰離子（白蛋白、磷酸、硫酸等）的總和，X 即為 Na⁺。\n❌ (B) K⁺ 並非標準 AG 公式所用；若含 K⁺ 則為特殊表示法，一般 AG 只用 Na⁺。\n❌ (C) Ca²⁺ 屬未測陽離子，會使 AG 縮小，不在公式中。\n❌ (D) Mg²⁺ 同樣是未測陽離子，非公式中的 X。\n📚 出處：臨床生化學「電解質與陰離子間隙」章節"
   },
   {
    "n": 46,
@@ -614,7 +640,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "當胎兒的染色體異常時，母體血清 PAPP-A 的濃度會上升",
     "血清濃度過低的孕婦有早產風險"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤。胎兒染色體異常（尤其唐氏症）時，母體血清 PAPP-A 濃度通常下降而非上升，故 C 為錯誤選項。\n❌ (A) PAPP-A 主要由胎盤滋養層細胞製造並大量儲存於胎盤組織，敘述正確。\n❌ (B) 第一孕期唐氏症篩檢（結合 PAPP-A 與 free β-hCG、NT）確實以 PAPP-A 為指標，敘述正確。\n❌ (D) PAPP-A 過低與胎盤功能不良、早產及子癇前症風險升高有關，敘述正確。\n📚 出處：臨床生化學「懷孕相關蛋白與產前篩檢」章節"
   },
   {
    "n": 47,
@@ -627,7 +654,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "心肌梗塞發生後，H-FABP與肌紅蛋白幾乎同時釋放出來",
     "一般是以免疫化學分析法來偵測"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 此敘述錯誤。H-FABP 釋放早、敏感度高，但特異性不優於心肌旋轉蛋白 T（cTnT）；cTnT 才是特異性最高的心肌標誌，故 A 錯誤。\n❌ (B) H-FABP 位於心肌細胞質，負責脂肪酸的胞內運輸，敘述正確。\n❌ (C) H-FABP 分子量小，AMI 後與肌紅蛋白幾乎同時（約1～3小時）釋放入血，敘述正確。\n❌ (D) 臨床以免疫分析（如免疫層析、ELISA）偵測 H-FABP，敘述正確。\n📚 出處：臨床生化學「心臟標誌」章節（H-FABP 特性）"
   },
   {
    "n": 48,
@@ -640,7 +668,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "常具有代謝症候群症狀與胰島素抗性",
     "較少發生於肥胖的人"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 此敘述錯誤。非酒精性脂肪肝疾病（NAFLD）與肥胖、胰島素抗性密切相關，最常見於肥胖者，故「較少發生於肥胖的人」錯誤。\n❌ (A) NAFLD 常伴隨 ferritin 上升，反映鐵代謝異常與肝臟發炎，敘述正確。\n❌ (B) 血脂異常（高三酸甘油脂、低 HDL）是 NAFLD 常見表現，敘述正確。\n❌ (C) NAFLD 被視為代謝症候群的肝臟表現，常合併胰島素抗性，敘述正確。\n📚 出處：臨床生化學「肝臟疾病與脂肪肝」章節"
   },
   {
    "n": 49,
@@ -653,7 +682,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "鹼性磷酸酶（ALP）",
     "白蛋白（albumin）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ALT（丙胺酸轉胺酶）主要存在肝細胞質，對肝細胞傷害最敏感且相對特異，是診斷肝細胞疾病的首選指標。\n❌ (A) 膽紅素上升可見於肝前性、肝性與肝後性疾病，敏感度與特異性均不如 ALT。\n❌ (C) ALP 主要反映膽道阻塞與骨疾病，對肝細胞疾病的特異性較低。\n❌ (D) 白蛋白反映肝臟合成功能，屬慢性變化，不具早期敏感性。\n📚 出處：臨床生化學「肝功能檢查」章節（ALT 之敏感性與特異性）"
   },
   {
    "n": 50,
@@ -666,7 +696,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "氧化還原酶（oxidoreductase）",
     "轉移酶（transferase）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 此反應將 creatine-phosphate 的磷酸基轉移到 ADP 生成 ATP，屬磷酸基轉移反應，催化者為轉移酶（transferase），即 creatine kinase。\n❌ (A) 水解酶催化加水分解反應（如酯酶、磷酸酶），不涉及磷酸基轉移。\n❌ (B) 裂解酶催化非水解性斷鍵（如醛縮酶），與此反應不符。\n❌ (C) 氧化還原酶催化電子轉移，與磷酸基轉移無關。\n📚 出處：臨床生化學「酵素分類與 creatine kinase 反應」章節"
   },
   {
    "n": 51,
@@ -679,7 +710,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "myoglobin",
     "creatine kinase"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) BNP（B 型利鈉肽）由心室在容積或壓力負荷增加時分泌，是診斷與評估心臟衰竭最適當的生物標誌。\n❌ (B) Renin 反映腎素-血管張力素系統活化，與高血壓、腎病相關，非心衰竭特異指標。\n❌ (C) Myoglobin 是心肌損傷（AMI）早期標誌，不反映心衰竭。\n❌ (D) Creatine kinase 為心肌或肌肉損傷標誌，與心臟衰竭診斷無直接關聯。\n📚 出處：臨床生化學「心臟衰竭標誌 BNP/NT-proBNP」章節"
   },
   {
    "n": 52,
@@ -692,7 +724,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "主要是因為 conjugated bilirubin 增加",
     "可以照藍綠光 450 nm治療"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤。新生兒生理性黃疸是因肝臟 glucuronyltransferase 未成熟，未結合型（unconjugated）膽紅素堆積所致，並非 conjugated bilirubin 增加。\n❌ (A) 新生兒 UDP-glucuronyltransferase 活性不足，使膽紅素結合與排泄下降，敘述正確。\n❌ (B) 母乳中的成分（如 β-glucuronidase）會增加膽紅素腸肝循環，導致母乳性黃疸，敘述正確。\n❌ (D) 藍綠光約 450 nm 可將未結合膽紅素光氧化分解，為標準光照治療，敘述正確。\n📚 出處：臨床生化學「新生兒黃疸與膽紅素代謝」章節"
   },
   {
    "n": 53,
@@ -705,7 +738,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "katal 指的是酵素每分鐘催化 1 mol 的受質",
     "katal 指的是酵素每秒鐘催化 1 μmol 的受質"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 國際單位（U）定義為每分鐘催化 1 μmol 受質（或生成 1 μmol 產物）的酵素量，故 A 正確。\n❌ (B) 每秒催化 1 mol 為 katal 的定義，不是 U，單位與時間均不符。\n❌ (C) katal 是每秒催化 1 mol，不是每分鐘 1 mol。\n❌ (D) katal 的定義為每秒 1 mol，而非每秒 1 μmol。\n📚 出處：臨床生化學「酵素活性單位（U 與 katal）」章節"
   },
   {
    "n": 54,
@@ -718,7 +752,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "Mg2+",
     "Cl-"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 氯離子（Cl⁻）是 α-amylase 的必需活化劑，可維持酵素活性構型；缺 Cl⁻ 時澱粉酶活性明顯下降。\n❌ (A) Zn²⁺ 為鹼性磷酸酶、碳酸酐酶等輔因子，非澱粉酶活化劑。\n❌ (B) Mn²⁺ 是多種激酶的輔因子，與澱粉酶無關。\n❌ (C) Mg²⁺ 為激酶、ATP 相關酵素所需，非澱粉酶的活化劑。\n📚 出處：臨床生化學「澱粉酶與胰臟酵素」章節"
   },
   {
    "n": 55,
@@ -731,7 +766,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "二級反應（second order reaction）",
     "三級反應（third order reaction）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 當 [S] ≪ Km 時，Michaelis-Menten 方程式簡化為 v = (Vmax/Km)[S]，速率與受質濃度成正比，呈一級反應，可用於測定受質濃度。\n❌ (A) 零級反應發生於 [S] ≫ Km、酵素飽和時，速率與受質濃度無關（Vmax）。\n❌ (C) 二級反應指速率與兩種反應物濃度乘積成正比，非此情境。\n❌ (D) 三級反應與酵素動力學的典型描述不符。\n📚 出處：臨床生化學「酵素動力學 Michaelis-Menten 方程式」章節"
   },
   {
    "n": 56,
@@ -744,7 +780,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "正常值是15分鐘的排泄率（excretory rate）要大於10%",
     "正常值是15分鐘的滯留率（retention rate）要小於10%"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ICG 檢查的正常標準為 15 分鐘滯留率（retention rate）小於 10%，用以評估肝臟排泄功能。\n❌ (A) ICG 主要評估肝臟排泄（excretory）功能，而非合成功能；合成功能應測白蛋白、凝血酶原時間。\n❌ (B) 代謝功能評估亦非 ICG 的主要用途，ICG 不經代謝而由膽汁排出。\n❌ (C) 正常值應為滯留率小於 10%，而非排泄率大於 10%，方向錯誤。\n📚 出處：臨床生化學「肝臟功能檢查 ICG 排泄試驗」章節"
   },
   {
    "n": 57,
@@ -757,7 +794,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "急性病毒性肝炎（acute viral hepatitis）",
     "缺血性肝炎（ischemic hepatitis）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) AST/ALT 比值大於 2（350/150 ≈ 2.3）、GGT 明顯上升而 ALP 相對正常，為酒精性肝炎的典型型態；治療後 AST、ALT 仍高但比值仍偏 AST。\n❌ (A) 膽道性肝炎應以 ALP、GGT 顯著上升為主，ALT/AST 上升幅度較小，與本題 ALP 僅輕度上升不符。\n❌ (C) 急性病毒性肝炎通常 ALT 遠高於 AST（AST/ALT < 1），且 GGT 不一定上升至此程度。\n❌ (D) 缺血性肝炎 AST、ALT 會急遽上升甚多（可達數千），且短期內下降，型態不符。\n📚 出處：臨床生化學「肝功能檢查與疾病型態（AST/ALT 比值）」章節"
   },
   {
    "n": 58,
@@ -770,7 +808,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "罹患肝病時，血清 LDH-1 同功酶活性會明顯增加",
     "溶血血清 LDH 活性會明顯增加"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤。肝病時血清 LDH-4、LDH-5 同功酶明顯增加，而非 LDH-1；LDH-1 上升見於心肌梗塞、溶血。\n❌ (A) LDH 催化 lactate→pyruvate 的正反應最適 pH 為 8.8～9.8，敘述正確。\n❌ (B) 鹼性電泳下 LDH-1 帶最多負電，移動最快、最靠近陽極，敘述正確。\n❌ (D) 紅血球富含 LDH-1、LDH-2，溶血會使血清 LDH 明顯上升，敘述正確。\n📚 出處：臨床生化學「乳酸脫氫酶同功酶」章節"
   },
   {
    "n": 59,
@@ -783,7 +822,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "γ-麩胺醯轉移酶（gamma-glutamyltransferase）",
     "膽鹼酯酶（cholinesterase）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 脂酶（lipase）的作用受質為三酸甘油脂，需膽鹽（bile salt）將其乳化並形成微胞，才能發揮最佳催化活性與特異性。\n❌ (B) 鹼性磷酸酶是水解磷酸酯的酵素，與膽鹽無特別活化關係。\n❌ (C) GGT 參與麩胺酸與胜肽間 γ-麩胺醯基的轉移，不需膽鹽活化。\n❌ (D) 膽鹼酯酶水解膽鹼酯類，與膽鹽乳化作用無關。\n📚 出處：臨床生化學「脂酶與膽鹽乳化作用」章節"
   },
   {
    "n": 60,
@@ -796,7 +836,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "TSH",
     "calcitonin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Calcitonin（降鈣素）由甲狀腺濾泡旁 C 細胞（髓質）分泌，是甲狀腺髓質癌最敏感且特異的腫瘤標誌。\n❌ (A) TRH 為下視丘分泌的促甲狀腺素釋放激素，不作為甲狀腺髓質腫瘤標誌。\n❌ (B) Thyroglobulin 由甲狀腺濾泡細胞製造，用於追蹤分化型甲狀腺癌，非髓質癌。\n❌ (C) TSH 為腦下垂體荷爾蒙，用於評估甲狀腺功能，非腫瘤標誌。\n📚 出處：臨床生化學「甲狀腺腫瘤標誌 calcitonin」章節"
   },
   {
    "n": 61,
@@ -809,7 +850,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "腫瘤細胞中 EGFR 基因的突變",
     "血液中 LDH 的濃度"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腫瘤細胞中 EGFR 基因突變可預測非小細胞肺癌（NSCLC）對 EGFR 酪胺酸激酶抑制劑（如 gefitinib、erlotinib）的反應，指引標靶治療方針。\n❌ (A) Cyfra 21-1 為 NSCLC 的輔助診斷與追蹤標誌，不指導標靶治療選擇。\n❌ (B) CEA 為一般腫瘤標誌，用於追蹤療效，不決定標靶用藥。\n❌ (D) LDH 反映腫瘤負荷與預後，並非選擇標靶藥物的依據。\n📚 出處：臨床生化學「腫瘤標誌與肺癌標靶治療（EGFR 突變）」章節"
   },
   {
    "n": 62,
@@ -822,7 +864,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "renin 與 cortisol 皆增加",
     "renin 與 aldosterone 皆增加"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Cushing disease 是腦下垂體腺瘤分泌過量 ACTH，刺激腎上腺皮質束狀層製造過多 cortisol，故 ACTH 與 cortisol 皆上升。\n❌ (A) aldosterone 主要由腎上腺球狀層受 renin-angiotensin 系統調控，Cushing disease 時 ACTH 雖高但礦物皮質素路徑未必活化，aldosterone 通常不高。\n❌ (C) renin 因皮質醇造成鹽類滯留、血容量增加而被抑制，不會上升。\n❌ (D) renin 受抑制、aldosterone 多正常，兩者皆增加不成立。\n📚 出處：臨床生化學「腎上腺皮質荷爾蒙與 Cushing 症候群」章節"
   },
   {
    "n": 63,
@@ -835,7 +878,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "大部分由Leydig氏間質細胞分泌",
     "在血液中約 90% 與性激素結合球蛋白（SHBG）結合"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 睪固酮主要由睪丸 Leydig（間質）細胞受 LH 刺激後合成與分泌，約占男性雄性素來源九成以上。\n❌ (A) 睪固酮屬類固醇，具四個環（A、B、C、D），只有 A 環為芳香環，非「一個芳香環」的敘述重點，且描述不完整易誤導。\n❌ (B) 睪固酮為 19 個碳的雄性素（androstane 骨架），不是 20 碳。\n❌ (D) 血液中約 98% 睪固酮與 SHBG 及白蛋白結合，其中與 SHBG 結合約 40～65%，並非 90% 全與 SHBG 結合。\n📚 出處：臨床生化學「男性生殖荷爾蒙」章節"
   },
   {
    "n": 64,
@@ -848,7 +892,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "11 與 17",
     "3 與 17"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 雌二醇（estradiol, E2）為 C18 類固醇，具酚性 A 環 3 位羥基與 D 環 17 位羥基，故名 estradiol（3,17β-diol）。\n❌ (A) 3 與 16 為雌三醇（estriol）之羥基位置（3,16α,17β），非雌二醇。\n❌ (B) 11 位羥基不是雌二醇結構特徵，11-羥基化屬皮質醇等醣皮質素之結構。\n❌ (C) 11 與 17 亦非雌二醇之羥基組合，雌二醇僅有 3 與 17 兩個羥基。\n📚 出處：臨床生化學「性荷爾蒙結構」章節"
   },
   {
    "n": 65,
@@ -861,7 +906,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "E2 僅在黃體期會大量增加",
     "progesterone 導致 LH 增加"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 排卵前雌激素（E2）達高峰，對下視丘-腦下垂體正回饋，引發 LH 大量激增（LH surge），約 36 小時後誘發排卵。\n❌ (A) progesterone 主要由排卵後黃體分泌，排卵前仍低，排卵後才上升。\n❌ (C) E2 在濾泡期即有兩次上升（濾泡末期高峰及黃體期次高峰），並非僅黃體期大量增加。\n❌ (D) 是 LH 造成黃體形成並刺激 progesterone 分泌，而非 progesterone 導致 LH 增加，因果顛倒。\n📚 出處：臨床生化學「月經週期荷爾蒙調控」章節"
   },
   {
    "n": 66,
@@ -874,7 +920,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "血液醛固酮（aldosterone）量降低",
     "常於腎上腺顆粒層（zona glomerulosa）發生腺瘤"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 原發性醛固酮症最常見為腎上腺球狀層（zona glomerulosa）腺瘤或雙側增生，自主分泌過量 aldosterone。\n❌ (A) aldosterone 促鈉留、鉀排出，故典型為高血壓合併低血鉀（hypokalemia），非高血鉀。\n❌ (B) 因 aldosterone 自主分泌，負回饋使血液 renin 活性下降（低腎素性）。\n❌ (C) 患者血液 aldosterone 濃度為上升，而非降低。\n📚 出處：臨床生化學「腎上腺礦物皮質素與原發性醛固酮症」章節"
   },
   {
    "n": 67,
@@ -887,7 +934,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "FSH",
     "prolactin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) TRH 作用於腦下垂體前葉促甲狀腺素細胞刺激 TSH 分泌，同時也是強力泌乳素（prolactin）釋放因子，故會刺激 prolactin 分泌。\n❌ (A) ACTH 主要由 CRH 調控，TRH 對其影響不顯著。\n❌ (B) growth hormone 由 GHRH 與 somatostatin 調控，非 TRH 主要作用。\n❌ (C) FSH 由 GnRH 調控，TRH 不刺激 FSH 分泌。\n📚 出處：臨床生化學「下視丘-腦下垂體荷爾蒙軸」章節"
   },
   {
    "n": 68,
@@ -900,7 +948,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "黃體素（progesterone）",
     "睪固酮（testosterone）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) FSH 由腦下垂體分泌，作用於睪丸 Sertoli 細胞及卵巢 granulosa 細胞，這些細胞分泌 inhibin，經血液回饋抑制腦下垂體 FSH 分泌，是 FSH 特異性負回饋。\n❌ (A) estradiol 雖可負回饋抑制 FSH，但主要調控 LH，對 FSH 的專一性抑制以 inhibin 為主。\n❌ (C) progesterone 主要調控 LH 與子宮內膜，非 FSH 主要負回饋物。\n❌ (D) testosterone 對 LH 負回饋為主，對 FSH 抑制較弱。\n📚 出處：臨床生化學「生殖荷爾蒙負回饋調控」章節"
   },
   {
    "n": 69,
@@ -913,7 +962,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "運動刺激試驗（excercise stimulation test）",
     "精胺酸刺激試驗 (arginine stimulation test）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 生長激素過多（巨人症或肢端肥大症）時，正常口服葡萄糖負荷應抑制 GH 分泌，但患者無法被抑制（GH 仍高），故以葡萄糖抑制試驗協助診斷。\n❌ (B) 胰島素刺激試驗用於評估 GH 缺乏（刺激 GH 上升），非診斷 GH 過多。\n❌ (C) 運動刺激試驗用於 GH 缺乏之篩檢，方向相反。\n❌ (D) 精胺酸刺激試驗亦用於評估 GH 分泌不足，不能診斷 GH 過多。\n📚 出處：臨床生化學「生長荷爾蒙動態試驗」章節"
   },
   {
    "n": 70,
@@ -926,7 +976,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "prolactinomas",
     "somatotropinomas"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 功能性腦下垂體腫瘤中最常見為泌乳素瘤（prolactinoma），約占所有腦下垂體腺瘤 30～40%，女性常以閉經、溢乳表現。\n❌ (A) corticotropinoma 造成 Cushing disease，比例低於 prolactinoma。\n❌ (B) gonadotropinoma 少見且常無明顯症候。\n❌ (D) somatotropinoma 造成肢端肥大症，發生率僅次於 prolactinoma，非最常見。\n📚 出處：臨床生化學「腦下垂體腫瘤與荷爾蒙分泌」章節"
   },
   {
    "n": 71,
@@ -939,7 +990,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "生理食鹽水抑制檢測（saline suppression test）",
     "人工合成皮質類固醇抑制測試（dexamethasone suppression test）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) ACTH 刺激試驗（cosyntropin test）可區分：原發性腎上腺機能不全者 cortisol 反應低且 ACTH 基礎值高；續發性者 ACTH 低，但刺激後 cortisol 仍可能低下；配合基礎 ACTH 可定位病變層級。\n❌ (B) CRH 刺激試驗用於區分腦下垂體或下視丘病變，非首選之腎上腺機能不全定位。\n❌ (C) saline suppression test 用於原發性醛固酮症診斷，與 cortisol 無關。\n❌ (D) dexamethasone 抑制測試用於 Cushing 症候群診斷，非腎上腺機能低下。\n📚 出處：臨床生化學「腎上腺機能不全之動態試驗」章節"
   },
   {
    "n": 72,
@@ -952,7 +1004,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "Sertoli lutein cells",
     "theca lutein cells"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 排卵後濾泡轉變為黃體，原 granulosa 細胞在 LH 作用下黃體化為 granulosa lutein cells，為黃體期合成 progesterone 之主要來源。\n❌ (A) Leydig lutein cells 非卵巢正常細胞名稱，Leydig 細胞存在於睪丸。\n❌ (C) Sertoli lutein cells 為睪丸 Sertoli 細胞，與卵巢黃體無關。\n❌ (D) theca lutein cells 由 theca 細胞黃體化而來，主要分泌雄性素前驅物供 granulosa 轉換為雌激素，非 progesterone 主要來源。\n📚 出處：臨床生化學「卵巢黃體與黃體素合成」章節"
   },
   {
    "n": 73,
@@ -965,7 +1018,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "構成維生素B6正常功能的重要成分",
     "缺乏鈷不會影響紅血球造血功能"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鈷是維生素 B12（cobalamin）的中心金屬原子，構成其正常功能所必需；缺乏 B12 導致巨球性貧血與神經病變。\n❌ (A) 葉酸（folic acid）分子不含鈷，其缺乏亦造成巨球性貧血但機轉不同。\n❌ (C) 維生素 B6（pyridoxine）不含鈷，與鈷無關。\n❌ (D) 鈷缺乏導致 B12 缺乏，會影響紅血球造血，造成貧血，選項敘述錯誤。\n📚 出處：臨床生化學「維生素與微量元素」章節"
   },
   {
    "n": 74,
@@ -978,7 +1032,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "phenytoin",
     "vancomycin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鋰鹽（lithium salt）為離子型藥物，臨床上以鋰離子選擇性電極（ISE）快速測定血中鋰濃度為首選。\n❌ (A) cyclosporine 為環狀胜肽，以免疫分析或 LC-MS/MS 測定，非 ISE。\n❌ (C) phenytoin 為小分子藥物，主要用免疫分析（如 FPIA）測定。\n❌ (D) vancomycin 為糖肽類抗生素，以免疫分析或 HPLC 測定。\n📚 出處：臨床生化學「治療藥物監測（TDM）」章節"
   },
   {
    "n": 75,
@@ -991,7 +1046,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "腎臟",
     "口腔"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 口服藥物經腸道吸收後，先經肝門靜脈進入肝臟代謝，使進入體循環的活性藥量減少，此即首渡效應，肝臟為主要器官。\n❌ (B) 小腸雖有部分代謝，但非首渡效應的主要器官。\n❌ (C) 腎臟主要負責藥物排泄，非首渡效應。\n❌ (D) 口腔黏膜吸收可繞過肝臟首渡效應，故非發生處。\n📚 出處：臨床生化學「藥物動力學：首渡效應」章節"
   },
   {
    "n": 76,
@@ -1004,7 +1060,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "Cr3+",
     "Cr6+"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 六價鉻（Cr6+）以鉻酸鹽形式易穿透細胞膜，進入細胞後被還原產生自由基，具致癌性與強毒性，毒性遠高於其他價態。\n❌ (A) 金屬鉻（Cr0）不溶且不易吸收，毒性低。\n❌ (B) 二價鉻（Cr2+）不穩定，生物利用度低，毒性小。\n❌ (C) 三價鉻（Cr3+）為人體必需微量元素，參與醣類代謝，毒性相對低。\n📚 出處：臨床生化學「微量元素與重金屬毒性」章節"
   },
   {
    "n": 77,
@@ -1017,7 +1074,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "感應耦合電漿質譜分析（ICP-MS）",
     "陽極析出伏安測定（anodic stripping voltammetry, ASV）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鉛為金屬元素，無法以離子選擇性電極（ISE）測定，ISE 適用於特定離子如 Na+、K+、Li+、Ca2+ 等。血鉛主要以 AAS、ICP-MS 或 ASV 測定。\n❌ (A) 原子吸光法（AAS）為血鉛檢測經典方法。\n❌ (C) ICP-MS 靈敏度高，為血鉛參考方法。\n❌ (D) 陽極析出伏安法（ASV）亦可用於血鉛檢測。\n📚 出處：臨床生化學「重金屬檢驗方法」章節"
   },
   {
    "n": 78,
@@ -1030,7 +1088,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "磷酸化蛋白體學（phosphoproteomics）",
     "轉錄體學（transcriptomics）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 轉錄體學（transcriptomics）分析細胞內 mRNA 表現，主要採用微陣列或 RNA 定序（RNA-seq），非質譜儀。\n❌ (A) 蛋白體學以質譜儀為核心工具，分析蛋白質種類與量。\n❌ (B) 代謝體學以質譜儀（常串聯 LC）為主要平台。\n❌ (C) 磷酸化蛋白體學亦以質譜儀進行磷酸化位點鑑定。\n📚 出處：臨床生化學「體學技術與質譜儀應用」章節"
   },
   {
    "n": 79,
@@ -1043,7 +1102,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "品質控制（quality control）方式",
     "結果臨床判讀（clinical interpretation）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) LDTs 由實驗室自行開發與驗證，不需經衛生主管機關查驗登記；而 IVD 產品須經主管機關（如 TFDA、FDA）查驗登記取得許可證，此為兩者最主要差異。\n❌ (B) 兩者皆須進行方法查證與確效，非主要差異。\n❌ (C) 兩者皆需執行品質控制，並非區別點。\n❌ (D) 結果臨床判讀均由醫師依情境進行，非兩者主要差異。\n📚 出處：臨床生化學「實驗室開發檢測（LDTs）與體外診斷器材管理」章節"
   },
   {
    "n": 80,
@@ -1056,7 +1116,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "只能從血液有核細胞測得",
     "是由腫瘤細胞抽出的DNA"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ctDNA（circulating tumor DNA）是由腫瘤細胞凋亡或壞死後釋放至血液循環中的游離 DNA 片段，可用於液態切片偵測腫瘤基因突變。\n❌ (A) ctDNA 可在血液循環中測得，正是液態切片基礎，敘述錯誤。\n❌ (C) ctDNA 來自腫瘤細胞，並非來自血液有核細胞（白血球）。\n❌ (D) ctDNA 是腫瘤細胞釋放到血液的 DNA，不是「抽出」的，說法不精確。\n📚 出處：臨床生化學「液態切片與循環腫瘤 DNA」章節"
   }
  ]
 };
