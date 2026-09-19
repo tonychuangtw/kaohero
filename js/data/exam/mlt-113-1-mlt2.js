@@ -280,7 +280,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_308_22_19.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 正確組合為①③⑤。①健康成人白血球分類以嗜中性球最多（約 50～70%）；③MCV（平均紅血球體積）＝Hct÷RBC 數，代表每顆紅血球的平均體積，單位 fL；⑤MCHC（平均紅血球血色素濃度）＝Hb÷Hct，代表每單位紅血球體積內血色素的平均「濃度」，單位 g/dL。三項敘述皆正確。\n❌ (A) 含②④。②錯在白血球分類中比例最低的是嗜鹼性球（<1%），嗜酸性球約 1～5% 並非最低；④錯在 MCH 是「含量」不是濃度。\n❌ (B) 含②④，兩項皆錯，理由同上；①雖正確但整組不成立。\n❌ (D) 含②④，錯誤同上；僅⑤正確，無法選此組。\n📚 出處：血液常規檢驗——白血球分類參考值（Neu>Lym>Mono>Eos>Baso）與紅血球指數定義：MCV（fL）、MCH（pg，每顆 RBC 血色素含量）、MCHC（g/dL，單位體積血色素濃度）；Rodak's Hematology 紅血球指數章節。"
   },
   {
    "n": 20,
@@ -726,7 +727,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_308_22_51.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ②的比較錯誤。Lupus anticoagulant（LA）相關抗體與造成後天性 A 型血友病的抗第八因子抑制物，兩者都是病人自己產生、針對自身成分的「自體抗體」；後天性 A 型血友病並非輸血或輸注因子後產生的異體抗體（alloantibody，那是先天血友病病人接受 FVIII 治療後才出現的抑制物）。把它歸為異體抗體是錯的。\n❌ (A) ①正確。LA 因干擾磷脂質依賴的凝血反應而在體內反而呈高凝狀態，臨床以動靜脈栓塞與反覆流產表現；後天性 A 型血友病因 FVIII 活性下降，臨床以出血（皮下大片瘀斑、軟組織出血）表現。\n❌ (C) ③正確。LA 抗體所對應的抗原是磷脂質／磷脂質結合蛋白（如 β2-glycoprotein I、prothrombin 複合物）；後天性 A 型血友病的抗體對應抗原是凝血因子 FVIII。\n❌ (D) ④正確。兩者 APTT 皆延長，但 LA 屬磷脂質依賴性抑制，加入富含磷脂質的 platelet lysate（血小板中和試驗）可中和抗體使 APTT 縮短、得到矯正；FVIII 抑制物是針對蛋白質因子，補充磷脂質無助於恢復 FVIII 活性，故無法矯正。\n📚 出處：凝血抑制物鑑別——Lupus anticoagulant 之血小板中和試驗（PNP）與 FVIII 抑制物（Bethesda 定量、混合血漿延遲矯正）；Rodak's Hematology 止血學抑制物章節。"
   },
   {
    "n": 52,
@@ -811,7 +813,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_308_22_57.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) APTT 所需試劑為①②⑤。APTT 檢測內在路徑，試劑包含：①接觸相活化劑（celite、kaolin、ellagic acid 或 silica），用以活化 FXII；②磷脂質（partial thromboplastin，取代血小板提供反應平台）；⑤再加入氯化鈣以中和檸檬酸鈉抗凝、啟動計時。\n❌ (B) 含③tissue factor 與④thrombin。組織因子是 PT 試驗（外在路徑）的試劑，thrombin 則是 TT（凝血酶時間）的試劑，兩者都不用於 APTT。\n❌ (C) 含③tissue factor。APTT 試劑刻意「不含」組織因子，加了就會繞過內在路徑而失去偵測 FVIII、FIX、FXI、FXII 缺乏的能力。\n❌ (D) 含④thrombin 而缺②磷脂質。直接加入 thrombin 等於跳過整個凝血瀑布；且沒有磷脂質，FIXa-FVIIIa 與 FXa-FVa 複合體無法組裝，APTT 無法進行。\n📚 出處：APTT 原理——活化劑＋部分凝血活酶（磷脂質）＋CaCl₂，評估內在與共同路徑；PT 用組織因子、TT 用 thrombin；Rodak's Hematology 凝血篩檢試驗章節。"
   },
   {
    "n": 58,
