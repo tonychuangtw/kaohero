@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "phosphoglucomutase",
     "phosphorylase"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 肝臟肝醣合成第一步是葡萄糖磷酸化成 glucose-6-phosphate，肝臟主要由 glucokinase（肝醣激酶）催化，其對葡萄糖親和力低（Km 高），適合飯後高血糖時大量攝取葡萄糖。\n❌ (B) hexokinase 普遍存在於各組織（如肌肉），對葡萄糖親和力高，肝臟雖也有但主要角色為 glucokinase。\n❌ (C) phosphoglucomutase 負責將 glucose-6-phosphate 轉為 glucose-1-phosphate，屬後續步驟，非葡萄糖磷酸化。\n❌ (D) phosphorylase 為肝醣分解酶，催化肝醣斷裂成 glucose-1-phosphate，方向相反。\n📚 出處：生化代謝途徑：肝醣合成（glycogenesis）第一步酵素 glucokinase；Lehninger Principles of Biochemistry 糖解與肝醣代謝章節"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "pentose phosphate",
     "uridine diphosphate"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 五碳糖磷酸途徑（pentose phosphate pathway, PPP）主要生成 pentose phosphate（如 ribose-5-phosphate），為合成核苷酸（RNA、DNA）所需五碳糖骨架。\n❌ (A) α-ketoglutarate 為 TCA 循環中間產物，與胺基酸代謝相關，非 PPP 產物。\n❌ (B) oxaloacetate 為 TCA 循環中間產物，可參與糖質新生，與核苷酸合成無直接關聯。\n❌ (D) uridine diphosphate 屬嘧啶核苷酸衍生物，是核苷酸合成之產物而非 PPP 直接生成物。\n📚 出處：生物化學：五碳糖磷酸途徑（pentose phosphate pathway）產物 ribose-5-phosphate 與 NADPH；Lehninger 醣類代謝章節"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "乳糖及果糖",
     "半乳糖及蔗糖頁次：4－2"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 麥芽糖（maltose）為雙醣，由兩個葡萄糖分子以 α-1,4 糖苷鍵結合而成，常來自澱粉水解。\n❌ (A) 葡萄糖加果糖為蔗糖（sucrose），非麥芽糖。\n❌ (C) 乳糖由葡萄糖與半乳糖組成，且果糖並非乳糖成分，此選項組成錯誤。\n❌ (D) 半乳糖加蔗糖既非雙醣組成，蔗糖本身即為雙醣，無法再與半乳糖構成麥芽糖。\n📚 出處：營養學：醣類分類與雙醣結構，麥芽糖＝葡萄糖＋葡萄糖（α-1,4 鍵）"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "纖維素、半纖維素、木質素和果膠都屬於膳食纖維",
     "纖維結構是由單醣以 β 鍵結合，人體的消化酵素無法分解"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 此敘述錯誤：膳食纖維並非全部由碳水化合物構成，木質素（lignin）屬於非醣類的酚類聚合物，不屬碳水化合物。\n❌ (A) 正確：天然存在於食品中者稱膳食纖維。\n❌ (C) 正確：纖維素、半纖維素、木質素與果膠皆歸類為膳食纖維。\n❌ (D) 正確：纖維多由單醣以 β 鍵結合，人體消化酵素無法分解，故不被吸收。\n📚 出處：膳食纖維定義與分類；木質素為非碳水化合物成分（食品營養學膳食纖維章節）"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "16",
     "13"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 昇糖負荷（GL）＝昇糖指數（GI）× 可消化碳水化合物量 ÷ 100。此處碳水 15 公克，GL＝85×15÷100＝12.75，四捨五入為 13。\n❌ (A) 24 為誤用算式（如誤將 65 公克全算或錯誤乘除）之結果。\n❌ (B) 20 非由正確公式計算所得。\n❌ (C) 16 亦不符 GI×碳水/100 之計算結果。\n📚 出處：醣類營養學：昇糖負荷計算公式 GL＝GI×碳水化合物(g)/100"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "三肽酶（tripeptidase）可將蛋白質水解成多胜肽（polypeptides）",
     "腸胜肽酶（enteropeptidase）可將胰蛋白酶原（trypsinogen）轉化成具活性的胰蛋白酶（trypsin）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤：三肽酶（tripeptidase）作用於三肽，將其分解為更小的胜肽或胺基酸，而非將蛋白質水解成多胜肽；將蛋白質分解成多胜肽者是胃蛋白酶、胰蛋白酶等內切酶。\n❌ (A) 正確：口腔無蛋白質水解酵素，蛋白質消化始於胃。\n❌ (B) 正確：胃鹽酸使 pepsinogen 轉為活性 pepsin。\n❌ (D) 正確：腸胜肽酶（enteropeptidase）活化胰蛋白酶原為胰蛋白酶。\n📚 出處：蛋白質消化與吸收：胃、胰、小腸胜肽酶角色（營養學蛋白質章節）"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "接觸酸性溶液會造成蛋白質變性",
     "體蛋白的變性會失去原有的生理功能"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 此敘述錯誤：變性只破壞次級、三級、四級結構（如氫鍵、離子鍵），不改變初級結構（胺基酸序列之肽鍵）。\n❌ (B) 正確：劇烈震盪等物理作用可破壞立體結構造成變性。\n❌ (C) 正確：酸鹼可改變電荷與氫鍵，造成蛋白質變性。\n❌ (D) 正確：體蛋白變性後立體結構改變，會失去原有生理功能。\n📚 出處：蛋白質變性原理：不涉及初級結構肽鍵斷裂（生物化學蛋白質結構章節）"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "瓜胺酸（citrulline）",
     "蘇胺酸（threonine）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 精胺酸（arginine）是一氧化氮（NO）的前驅物，由一氧化氮合成酶（NOS）催化生成 NO 與瓜胺酸。\n❌ (B) 鳥胺酸（ornithine）參與尿素循環，並非 NO 直接前驅物。\n❌ (C) 瓜胺酸（citrulline）是精胺酸生成 NO 之產物，方向相反。\n❌ (D) 蘇胺酸（threonine）為必需胺基酸，與 NO 生成無關。\n📚 出處：胺基酸代謝：Arg→NO＋citrulline（一氧化氮合成酶反應）"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "小腸",
     "結腸"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 蛋白質主要在小腸完成消化分解，胰蛋白酶、胰凝乳蛋白酶、胜肽酶等在此將胜肽分解為胺基酸及小胜肽後吸收。\n❌ (A) 胃僅初步分解蛋白質（pepsin），非主要完成部位。\n❌ (B) 直腸不進行蛋白質消化吸收。\n❌ (D) 結腸主要吸收水分與電解質，蛋白質消化已完成。\n📚 出處：蛋白質消化吸收：小腸為主要消化吸收部位（營養學消化章節）"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "甲基",
     "胺基"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) S-adenosylmethionine（SAM）是體內主要的甲基提供者，參與甲硫胺酸循環及多種甲基化反應。\n❌ (A) 乙醯基提供者為乙醯輔酶 A（acetyl-CoA）。\n❌ (B) 羧基提供者如碳酸氫鹽或生物素相關反應，非 SAM。\n❌ (D) 胺基轉移多由胺基轉移酶與 pyridoxal phosphate 參與，非 SAM 主要功能。\n📚 出處：胺基酸與單碳代謝：SAM 為甲基供體（生物化學甲基化反應章節）"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Δ9 desaturase 與 Δ12 desaturase",
     "Δ12 desaturase 與 Δ15 desaturase"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 人體缺乏 Δ12 及 Δ15 去飽和酶，無法自行合成亞油酸（18:2, n-6）與 α-次亞麻油酸（18:3, n-3），故兩者為必需脂肪酸。\n❌ (A) Δ5、Δ6 去飽和酶人體具有，非缺乏。\n❌ (B) Δ9 去飽和酶人體可合成（如 oleic acid），非必需。\n❌ (C) Δ9 人體有，Δ12 雖缺乏但選項組合不完整。\n📚 出處：脂質營養：必需脂肪酸與去飽和酶 Δ12、Δ15 缺乏（營養學脂質章節）"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Linoleic acid",
     "Eicosanoids"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Eicosanoids（類二十碳烷酸）包括前列腺素、血栓素、白三烯等，在降血壓、抑制血小板凝集及調節免疫中扮演重要角色。\n❌ (A) Cholesterol 為細胞膜與固醇類荷爾蒙前驅物，非此功能主要角色。\n❌ (B) Glycolipid 為膜成分，與血小板凝集調節無直接關聯。\n❌ (C) Linoleic acid 為必需脂肪酸、eicosanoids 之前驅物，但直接功能者為其衍生物。\n📚 出處：脂質營養：Eicosanoids 生理功能（營養學脂質章節）"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "C18:1 stearic acid",
     "C18:1 canola acid"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 油脂氫化會產生反式脂肪酸，主要為 C18:1 elaidic acid（反式油酸），會升高 LDL、降低 HDL，不利心血管健康。\n❌ (A) olive acid（油酸）為順式單元不飽和脂肪酸，非反式。\n❌ (C) stearic acid（硬脂酸）為 C18:0 飽和脂肪酸，非反式 C18:1。\n❌ (D) canola acid 非標準反式脂肪酸名稱，與氫化反式脂酸無關。\n📚 出處：脂質營養：氫化作用產生反式脂肪酸 elaidic acid（食品化學／營養學脂質章節）"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "可能會增加 LDL 的形成",
     "可能會提高血液中三酸甘油酯的含量"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤：脂質攝取過低通常不會增加 LDL 形成；相反，適量不飽和脂肪有助脂質代謝，低脂飲食可能降低 LDL。\n❌ (A) 正確：脂質攝取太低會影響脂溶性維生素 E 吸收，可能導致缺乏。\n❌ (B) 正確：脂質過低可能導致必需脂肪酸 linoleic acid 缺乏。\n❌ (D) 正確：低脂高醣飲食可能提高血液三酸甘油酯。\n📚 出處：脂質營養：脂質攝取不足之影響與 LDL 關係（營養學脂質章節）"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "561 kJ",
     "626 kJ"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 100 克餐點：碳水 5 g×17 kJ＝85；蛋白質 6 g×17 kJ＝102；脂肪 8 g×37 kJ＝296；酒精 2 g×29 kJ＝58，合計 85＋102＋296＋58＝541 kJ，接近 544 kJ。\n❌ (A) 485 kJ 低估，與計算結果不符。\n❌ (C) 561 kJ 高估，非正確加總。\n❌ (D) 626 kJ 明顯過高，不符。\n📚 出處：能量計算：碳水 17、蛋白質 17、脂肪 37、酒精 29 kJ/g（營養學能量章節）"
   },
   {
    "n": 16,
@@ -237,7 +252,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "為了快速增加體重，蛋白質應占每日能量需求的 25%以上",
     "鈣的吸收與維生素 D 有關，所以維持每日 1000 毫克的攝取量即可"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 厭食症營養治療原則為能量攝取循序漸進增加，避免再餵食症候群，直到病患達到適當體重。\n❌ (A) 首要目標非強制增加攝取，需先處理心理與醫療問題並建立信任。\n❌ (C) 蛋白質不需占 25% 以上，且快速增重反而危險。\n❌ (D) 鈣建議量 1000 毫克僅為一般成人參考，厭食症患者需個別評估，非治療重點敘述。\n📚 出處：厭食症營養治療：逐步增加能量、避免再餵食症候群（臨床營養學飲食障礙章節）"
   },
   {
    "n": 18,
@@ -250,7 +266,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "食物產熱效應",
     "維持體溫"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 對多數成人而言，基礎代謝率（BMR）占總能量消耗最大比例，約 60～70%。\n❌ (A) 體能活動變異大，通常占 15～30%，非最大宗。\n❌ (C) 食物產熱效應約占 10%，比例最小。\n❌ (D) 維持體溫多包含於基礎代謝中，非獨立主要能量消耗項目。\n📚 出處：能量代謝：基礎代謝率為主要能量消耗（營養學能量需求章節）"
   },
   {
    "n": 19,
@@ -263,7 +280,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "維生素 B3",
     "維生素 B6"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 維生素 B2（核黃素）呈黃色螢光，高劑量補充後多餘由尿液排出，使尿液呈亮黃色。\n❌ (A) 維生素 B1 無此明顯黃色螢光。\n❌ (C) 維生素 B3（菸鹼酸）過量主要引起潮紅、肝毒性，不使尿呈亮黃。\n❌ (D) 維生素 B6 過量以神經毒性為主，尿液不呈亮黃。\n📚 出處：維生素 B2 性質：黃色螢光色素隨尿排出（維生素與礦物質營養學）"
   },
   {
    "n": 20,
@@ -276,7 +294,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "血管內皮細胞基層結構蛋白變異，導致結締組織崩解，以致血液滲漏至皮膚層",
     "氧化壓力破壞血色素，導致血液滲透壓不平衡，進而擴散滲漏至皮膚層"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 維生素 C 為膠原蛋白脯胺酸、離胺酸羥化之輔因子，缺乏使血管內皮基底膜膠原結構異常、結締組織崩解，血管脆性增加，血液滲漏至皮膚形成點狀出血。\n❌ (A) 角質細胞自由基破壞磷脂質非維生素 C 缺乏點狀出血的主要機制。\n❌ (B) 免疫力降低與紅血球免疫細胞滲漏血管壁無因果關係。\n❌ (D) 血色素被氧化破壞不會造成血液滲透壓失衡而滲漏。\n📚 出處：維生素 C 缺乏症：膠原蛋白合成障礙導致壞血病出血（維生素營養學）"
   },
   {
    "n": 21,
@@ -289,7 +308,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Folate",
     "Biotin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 色胺酸負荷試驗用以評估維生素 B6（pyridoxine）營養狀態，因 B6 為色胺酸代謝為菸鹼酸之輔酶，缺乏時代謝產物排泄異常。\n❌ (A) Niacin 可由色胺酸轉換，但負荷試驗主要評估 B6 而非 Niacin。\n❌ (C) Folate 以血清葉酸或組織胺酸負荷試驗評估。\n❌ (D) Biotin 缺乏以羧化酶活性或尿中代謝物評估，非色胺酸負荷。\n📚 出處：維生素 B6 營養狀態評估：tryptophan loading test（維生素與礦物質營養學）"
   },
   {
    "n": 22,
@@ -302,7 +322,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Folate & sulfur",
     "Lipoic acid & sulfur"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Folate（葉酸）的中心元素並非硫，而是以蝶啶環（pteridine）加對胺基苯甲酸（PABA）與麩胺酸構成，不含硫。\"錯誤配對\"者即此項。\n❌ (A) Cobalamin（維生素B12）名稱即源自其含 cobalt（鈷），配對正確。\n❌ (B) Chlorophyll（葉綠素）以 magnesium（鎂）為中心金屬，配對正確。\n❌ (D) Lipoic acid（硫辛酸）結構含雙硫環，含 sulfur（硫），配對正確。\n📚 出處：生物化學／維生素化學結構單元：cobalamin、chlorophyll、lipoic acid 之輔基組成"
   },
   {
    "n": 23,
@@ -315,7 +336,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Cobalamin",
     "Thiamin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Thiamin（維生素B1）以 TPP 形式參與能量代謝與神經傳導，與造血（hematopoiesis）無關。\n❌ (A) Folate 參與 DNA 合成，缺乏造成巨球性貧血，與造血密切相關。\n❌ (B) Pantothenic acid 為 CoA 與 ACP 成分，參與血基質（heme）合成途徑，與造血有關。\n❌ (C) Cobalamin 為紅血球成熟必需，缺乏造成惡性貧血。\n📚 出處：Garrow《Human Nutrition and Dietetics》造血相關維生素（folate、B12、pantothenic acid）章節"
   },
   {
    "n": 24,
@@ -328,7 +350,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "維生素 B3",
     "維生素 B6"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 腹瀉、對稱性皮膚炎（bilateral dermatitis）與癡呆（dementia）為菸鹼酸（維生素B3）缺乏造成癲皮病（pellagra）的三大「D」症狀。\n❌ (A) 維生素B1缺乏引起腳氣病（beriberi）與 Wernicke-Korsakoff 症候群，無對稱性皮膚炎。\n❌ (B) 維生素B2缺乏造成口角炎、舌炎、脂漏性皮膚炎，但不伴腹瀉與癡呆三合症。\n❌ (D) 維生素B6缺乏引起周邊神經炎、皮膚炎與貧血，無典型腹瀉與癡呆三合症。\n📚 出處：Garrow《Human Nutrition and Dietetics》：Niacin 缺乏與 pellagra 之三大 D"
   },
   {
    "n": 25,
@@ -341,7 +364,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "血鈣濃度下降時，增加骨質鈣釋出",
     "血鈣濃度下降時，增加降鈣素（calcitonin）合成"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 血鈣下降時，應刺激副甲狀腺素（PTH）分泌以回升血鈣，而非增加降鈣素（calcitonin）合成；calcitonin 是在血鈣升高時分泌，功能為降血鈣，方向相反。\n❌ (A) PTH 可刺激腎臟活化維生素D，間接促進腸道鈣吸收，屬升血鈣機制。\n❌ (B) PTH 促進腎小管對鈣再吸收，減少鈣由尿排出，屬升血鈣機制。\n❌ (C) PTH 促進蝕骨細胞作用，增加骨質釋出鈣，屬升血鈣機制。\n📚 出處：Garrow《Human Nutrition and Dietetics》鈣恆定與 PTH、calcitonin 作用章節"
   },
   {
    "n": 26,
@@ -354,7 +378,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "megaloblastic anemia",
     "microcytic anemia"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 維生素E為主要抗氧化劑，可保護紅血球細胞膜不飽和脂肪酸免於氧化破壞；缺乏時紅血球膜脆弱易破裂，造成溶血性貧血（hemolytic anemia）。\n❌ (A) Pernicious anemia 為維生素B12吸收不良（內因子缺乏）所致之巨球性貧血。\n❌ (C) Megaloblastic anemia 為葉酸或維生素B12缺乏造成 DNA 合成障礙。\n❌ (D) Microcytic anemia 為鐵缺乏造成血紅素合成不足的小球性貧血。\n📚 出處：Garrow《Human Nutrition and Dietetics》：Vitamin E 缺乏與溶血性貧血"
   },
   {
    "n": 27,
@@ -367,7 +392,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "維生素 E",
     "維生素 K"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 維生素A維持上皮組織正常分化與完整性，缺乏時皮膚與黏膜上皮細胞角質化（keratinization），出現毛囊角化等症狀。\n❌ (B) 維生素D主要調控鈣磷恆定與骨骼礦化，缺乏造成佝僂症或骨軟化症。\n❌ (C) 維生素E為抗氧化劑，缺乏主要造成溶血性貧血與神經病變。\n❌ (D) 維生素K參與凝血因子γ-羧化，缺乏造成出血傾向。\n📚 出處：Garrow《Human Nutrition and Dietetics》：Vitamin A 缺乏與上皮角質化"
   },
   {
    "n": 28,
@@ -380,7 +406,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "血管內液（intravascular fluid）水分含量多於細胞間液（interstitial fluid）",
     "一般而言，男性體內水分占體重的比例少於女性頁次：4－4"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 體液約三分之二分布於細胞內液，三分之一在細胞外液（含組織間液、血管內液），敘述正確。\n❌ (A) 瘦體組織含水量約70～75%，遠高於脂肪組織（約10～20%），故瘦體組織含水較多。\n❌ (C) 血管內液（血漿）約占體重5%，組織間液約占15%，故細胞間液多於血管內液。\n❌ (D) 男性體脂率較低、肌肉量較高，體內水分占體重比例高於女性。\n📚 出處：Garrow《Human Nutrition and Dietetics》身體水分分布與體組成章節"
   },
   {
    "n": 29,
@@ -393,7 +420,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "長期使用含鋁的制酸劑",
     "副甲狀腺功能低下"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 含鋁制酸劑（如氫氧化鋁）在腸道與磷酸根結合形成不溶性磷酸鋁，阻礙磷吸收，長期使用造成磷缺乏。\n❌ (A) 腎臟衰竭時磷排出減少，反而造成高血磷，不會磷缺乏。\n❌ (B) 酸中毒使細胞內磷移出並增加腎臟排泄，但非典型長期磷缺乏之主因。\n❌ (D) 副甲狀腺功能低下使腎臟排磷增加，但主要表現為低血鈣，磷缺乏非其典型結果。\n📚 出處：Garrow《Human Nutrition and Dietetics》磷代謝與含鋁制酸劑交互作用"
   },
   {
    "n": 30,
@@ -406,7 +434,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "提供牙齒和骨骼建構之材料",
     "協助維生素 D 的生合成"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 人體約99%的鈣存於骨骼與牙齒，以羥磷灰石形式構成硬組織，提供牙齒與骨骼建構材料，為鈣的主要功能。\n❌ (A) 調節胰島素分泌主要與鈣作為細胞內訊息傳遞角色有關，非硬組織功能。\n❌ (B) 鈣不參與產生能量，能量來自醣類、脂肪、蛋白質代謝。\n❌ (D) 維生素D生合成需紫外線與肝、腎酵素，鈣並非其合成原料，僅為調控對象。\n📚 出處：Garrow《Human Nutrition and Dietetics》：鈣的生理功能與骨骼礦化"
   },
   {
    "n": 31,
@@ -419,7 +448,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "雞蛋及牛奶",
     "白米飯"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 白米飯屬穀類，碘含量極低，每份含量最低。\n❌ (A) 海帶為碘含量最豐富之食物，遠高於其他選項。\n❌ (B) 深海魚（如鮭魚）含碘量中等，高於白米飯。\n❌ (C) 雞蛋及牛奶因飼料含碘，含碘量亦高於白米飯。\n📚 出處：衛生福利部食品藥物管理署「食品營養成分資料庫」碘含量；碘缺乏與食物來源章節"
   },
   {
    "n": 32,
@@ -432,7 +462,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "為小腸分泌蛋白質，可以調控鐵及鋅的轉換效率",
     "為肝臟所分泌的荷爾蒙，可以調控鐵質的吸收與運轉"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Hepcidin 由肝臟分泌，為調控鐵恆定的荷爾蒙；當體內鐵充足或發炎時上升，抑制小腸鐵吸收與巨噬細胞釋出鐵。\n❌ (A) 肉類食物因子（MFP factor）指肉類中促進非血基質鐵吸收的成分，非 hepcidin。\n❌ (B) 蔬菜、豆莢類中的因子會抑制鐵吸收，且與 hepcidin 無關。\n❌ (C) Hepcidin 由肝臟而非小腸分泌，且主要調控鐵，非鋅的轉換效率。\n📚 出處：Garrow《Human Nutrition and Dietetics》鐵代謝與 hepcidin 調控章節"
   },
   {
    "n": 33,
@@ -445,7 +476,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "做為 xanthine oxidase 的輔因子",
     "小腸 molybdenum 的吸收率低於 10%"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 鉬在人體小腸的吸收率相當高，約40～100%（一般敘述約40～80%），並非低於10%，故此敘述錯誤。\n❌ (A) 鉬濃度過高會與銅競爭，抑制銅吸收，敘述正確。\n❌ (B) 鉬可與銅形成複合物促進銅排出，臨床上用於治療 Wilson's disease，敘述正確。\n❌ (C) 鉬為 xanthine oxidase、aldehyde oxidase、sulfite oxidase 的輔因子，敘述正確。\n📚 出處：Garrow《Human Nutrition and Dietetics》微量礦物質鉬（molybdenum）章節"
   },
   {
    "n": 34,
@@ -458,7 +490,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Pyridoxine",
     "Pantothenic acid"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 懷孕初期缺乏葉酸會影響神經管閉合，增加胎兒無腦症（anencephaly）與脊柱裂（spina bifida）等神經管缺陷風險。\n❌ (A) Niacin 缺乏造成癲皮病，與神經管發育無關。\n❌ (C) Pyridoxine（B6）缺乏造成神經炎與貧血，非神經管缺陷主因。\n❌ (D) Pantothenic acid 缺乏罕見，亦不造成神經管缺陷。\n📚 出處：Garrow《Human Nutrition and Dietetics》懷孕期葉酸與神經管缺陷章節"
   },
   {
    "n": 35,
@@ -471,7 +504,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "Albumin",
     "Lactobacillus bifidus factor"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 初乳富含雙叉乳桿菌因子（Lactobacillus bifidus factor），可促進嬰兒腸道內有益菌生長，有益腸道健康。\n❌ (A) Lactose 為乳糖，提供能量與促進鈣吸收，非腸道菌相調節主要成分。\n❌ (B) Linoleic acid 為必需脂肪酸，與腸道菌叢健康無直接關係。\n❌ (C) Albumin 為乳清蛋白成分，提供蛋白質營養，非腸道菌相因子。\n📚 出處：Garrow《Human Nutrition and Dietetics》哺乳與初乳成分章節；初乳之 bifidus factor"
   },
   {
    "n": 36,
@@ -484,7 +518,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "腦部之多巴胺神經細胞死亡，且常伴隨有吞嚥困難、記憶力退化、易怒、憂鬱情形發生等",
     "常伴隨有體重不易維持的現象，儘量準備簡單、營養密度高之飲食"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阿茲海默症主要病變為大腦皮質及海馬迴之神經細胞死亡與乙醯膽鹼（acetylcholine）神經傳導下降，並非多巴胺神經細胞死亡；多巴胺細胞死亡為帕金森氏症特徵。\n❌ (A) 抗氧化營養素（維生素C、E）被認為有助減少氧化壓力，敘述正確。\n❌ (B) ω-3、ω-6 脂肪酸與神經保護相關，敘述正確。\n❌ (D) 患者常見體重不易維持，需採簡單、營養密度高之飲食，敘述正確。\n📚 出處：Garrow《Human Nutrition and Dietetics》神經退化疾病與營養章節；阿茲海默症病理"
   },
   {
    "n": 37,
@@ -497,7 +532,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "偏食",
     "過動"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 自閉症兒童常有感覺敏感與刻板行為，導致偏食（對食物質地、顏色、氣味選擇性強），是營養風險的主要來源。\n❌ (A) 厭食（anorexia）雖可能出現，但非自閉症兒童最典型之營養風險來源。\n❌ (B) 貪食（overeating）可能發生但非主要營養風險。\n❌ (D) 過動（hyperactivity）不是營養攝取不足的直接風險來源。\n📚 出處：Garrow《Human Nutrition and Dietetics》兒童特殊需求與自閉症營養照護章節"
   },
   {
    "n": 38,
@@ -510,7 +546,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "是一種 high iron diet",
     "是一種 low zinc diet"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) DASH diet（得舒飲食）為控制高血壓之飲食模式，核心之一即為低鈉（low sodium），並強調蔬果、全穀、低脂乳品。\n❌ (B) DASH 並非高碘飲食，碘含量非其設計重點。\n❌ (C) DASH 並非特別強調高鐵飲食。\n❌ (D) DASH 並非設計為低鋅飲食，鋅含量亦非其特色。\n📚 出處：Garrow《Human Nutrition and Dietetics》高血壓與 DASH 飲食章節"
   },
   {
    "n": 39,
@@ -523,7 +560,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "7.2",
     "9.6"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 依衛生福利部健康食品第二軌（規格明確）規定，紅麴產品中之 Monacolin-K 每日攝取量達4.8 mg 以上（且不得超過15 mg），方可宣稱具調節血脂功效。\n❌ (A) 2.4 mg 未達可宣稱功效之最低量。\n❌ (C) 7.2 mg 雖高於門檻，但非規定之最低門檻值。\n❌ (D) 9.6 mg 亦非規定之最低門檻值。\n📚 出處：衛生福利部「健康食品第二軌規格明確之保健功效評估方法」紅麴產品 Monacolin-K 規範"
   },
   {
    "n": 40,
@@ -536,7 +574,8 @@ window.APP_EXAM_PAPERS['nut-110-2-nut2'] = {
     "果膠質",
     "蒟蒻多醣"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 水解燕麥飲料富含β-聚葡萄糖（β-glucan）此水溶性膳食纖維，可與膽酸結合、增加排出，並在腸道形成黏性膠體減緩吸收，具調節血脂作用。\n❌ (A) 木質素（lignin）為不溶性膳食纖維，無法形成黏性膠體，調節血脂效果有限。\n❌ (C) 果膠質（pectin）雖為水溶性纖維，但非燕麥中主要調節血脂成分。\n❌ (D) 蒟蒻多醣來自蒟蒻，非燕麥所含成分。\n📚 出處：衛生福利部健康食品「調節血脂」功效評估；Mahan & Escott-Stump《Krause's Food & Nutrition Therapy》β-glucan與血脂章節"
   }
  ]
 };
