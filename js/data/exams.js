@@ -25634,7 +25634,7 @@ window.APP_EXAMS = [
   "subjName": "食品衛生與安全",
   "label": "109 年第一次　食品衛生與安全",
   "n": 40,
-  "exp": 0,
+  "exp": 39,
   "mins": 120
  },
  {
