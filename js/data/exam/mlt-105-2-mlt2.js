@@ -795,7 +795,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "Antithrombin",
     "C4b binding protein"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) C4b binding protein（C4BP）是補體系統的調節蛋白，負責抑制補體古典途徑的 C4b，本身不具抗凝血功能；相反地，血漿中約 60% 的 protein S 會與 C4BP 結合而失去輔因子活性，只有游離型 protein S 才能協助抗凝，故 C4BP 反而是間接降低抗凝能力的因子。\n❌ (A) Protein C 為維生素 K 依賴性蛋白，被 thrombin-thrombomodulin 複合體活化成 APC 後，可水解去活化 Factor Va 與 VIIIa，是重要的生理性抗凝物質。\n❌ (B) Protein S 為 APC 的輔因子（cofactor），可加速 APC 對 Va、VIIIa 的去活化，缺乏時易發生靜脈栓塞。\n❌ (C) Antithrombin（AT）是 serpin 類抑制物，可中和 thrombin（IIa）及 Xa、IXa、XIa 等凝血酶，並被 heparin 大幅加速其作用，為最主要的生理抗凝蛋白之一。\n📚 出處：Rodak's Hematology 止血與血栓章節——生理性抗凝系統（protein C／protein S／antithrombin）；C4BP 屬補體調節蛋白，與游離型 protein S 之比例關係。"
   },
   {
    "n": 57,
