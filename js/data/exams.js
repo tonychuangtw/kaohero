@@ -24570,7 +24570,7 @@ window.APP_EXAMS = [
   "subjName": "營養學",
   "label": "115 年第一次　營養學",
   "n": 50,
-  "exp": 0,
+  "exp": 50,
   "mins": 60
  },
  {
