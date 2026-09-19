@@ -84,7 +84,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_5.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 直行血管（vasa recta）呈髮夾型下降再上升，下行枝與上行枝內的血液和髓質間質進行被動的水與溶質交換，使被帶走的溶質量降到最低，因而「保住」髓質的高滲透壓梯度，這種作用稱為對流交換器。\n❌ (A) 近側腎小管以等滲透壓方式重吸收約 65% 的濾液，和髓質梯度的建立或維持無關。\n❌ (B) 亨利氏環（特別是上行粗枝主動運送 NaCl）是建立髓質滲透壓梯度的對流倍增器（countercurrent multiplier），不是交換器。\n❌ (D) 集尿管是接受 ADH 調控、讓水被重吸收而使尿液濃縮的「作用部位」，本身不參與對流交換。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》尿液濃縮與稀釋機轉—對流倍增器與對流交換器。"
   },
   {
    "n": 6,
@@ -127,7 +128,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_8.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 爸爸爬 20 層樓梯屬持續的中高強度運動，交感神經興奮、腎上腺素作用於胰島 β 細胞的 α2 受體抑制胰島素釋放，加上運動肌肉以 GLUT4 移位方式攝取葡萄糖、血糖下降，三者合起來使胰島素分泌下降最明顯。\n❌ (A) 小明搭電梯幾乎沒有能量消耗，血糖與交感神經活性變動極小，胰島素不會明顯下降。\n❌ (B) 媽媽搭電扶梯逛樓層屬極輕度活動，刺激強度遠不及連續爬樓梯，下降幅度有限。\n❌ (D) 三人運動強度差異明顯，胰島素分泌的抑制程度不可能相同。\n📚 出處：Guyton & Hall《Textbook of Medical Physiology》胰島素分泌之調控—運動與交感神經（α2 受體）抑制。"
   },
   {
    "n": 9,
@@ -268,7 +270,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_18.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 直立時重力使肺尖與肺底的通氣／灌流比值不相稱：肺尖 V/Q 偏高（約 3）、肺底 V/Q 偏低（約 0.6），而肺底血流量又佔大多數，這些氧合較不完全的血液混入後拉低了動脈血氧分壓（約 95 mmHg），故略低於肺泡氧分壓（約 100 mmHg）。\n❌ (A) 方向相反：受重力與胸膜腔壓力梯度影響，單位肺體積的通氣量是由肺尖至肺底「遞增」。\n❌ (B) 灌流同樣受重力影響而由肺尖至肺底「遞增」，且灌流的遞增幅度比通氣更大。\n❌ (C) 正好相反：因灌流增加的幅度大於通氣，肺底的 V/Q 比值明顯「低於」肺尖。\n📚 出處：West《Respiratory Physiology》通氣／灌流比值之區域分布與 A-a 氧分壓差。"
   },
   {
    "n": 19,
@@ -325,7 +328,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_22.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 紅血球中約有 20% 的 1,3-bisphosphoglycerate 走 Rapoport-Luebering 旁路生成 2,3-bisphosphoglycerate，它結合於去氧血紅蛋白兩條 β 鏈之間的中央孔洞，穩定 T（低親和力）構型，使氧解離曲線右移、有利在組織釋氧。\n❌ (B) 1,3-bisphosphoglycerate 只是 2,3-BPG 的前驅物與受質層次磷酸化的中間物，濃度極低且不與血紅蛋白結合。\n❌ (C) glyceraldehyde-3-phosphate 為糖解上半段的三碳中間產物，沒有調節血紅蛋白氧親和力的作用。\n❌ (D) fructose-2,6-bisphosphate 是 PFK-1 的變構活化劑（主要在肝臟調節糖解與糖質新生），不是紅血球調節氧親和力的分子。\n📚 出處：Lehninger《Principles of Biochemistry》糖解作用—Rapoport-Luebering 旁路與 2,3-BPG 對血紅蛋白的變構調節。"
   },
   {
    "n": 23,
@@ -340,7 +344,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_23.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 糖解作用中只有兩步以受質層次磷酸化產生 ATP：②phosphoglycerate kinase 把 1,3-bisphosphoglycerate 的高能磷酸基轉給 ADP，④pyruvate kinase 把 phosphoenolpyruvate 的磷酸基轉給 ADP，故選②④。\n❌ (B) ①phosphofructokinase-1 與③hexokinase 都是「消耗」ATP 的投資期反應，兩者皆不產 ATP。\n❌ (C) 含①phosphofructokinase-1，該酵素把 fructose-6-phosphate 磷酸化時要耗掉 1 個 ATP。\n❌ (D) 含③hexokinase，該酵素把葡萄糖磷酸化為 glucose-6-phosphate 時同樣耗掉 1 個 ATP。\n📚 出處：Lehninger《Principles of Biochemistry》糖解作用—投資期與獲利期之 ATP 收支。"
   },
   {
    "n": 24,
@@ -355,7 +360,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_24.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) pyruvate decarboxylase 屬非氧化性去羧酶，需要 thiamine pyrophosphate（TPP，維生素 B1 的活化型）以其硫唑環（thiazolium ring）上的碳負離子攻擊丙酮酸羰基，使之脫去 CO2 生成 acetaldehyde，再由酒精去氫酶還原成乙醇。\n❌ (A) biotin 是羧化酶（如 pyruvate carboxylase、acetyl-CoA carboxylase）攜帶 CO2 的輔酶，作用方向與去羧相反。\n❌ (B) lipoic acid 是丙酮酸去氫酶複合體 E2 次單位的輔因子，參與「氧化性」去羧並轉移醯基，酵母菌的發酵起始反應不需要它。\n❌ (C) pyridoxal phosphate（維生素 B6 活化型）主要用於轉胺、胺基酸去羧等胺基酸代謝反應。\n📚 出處：Lehninger《Principles of Biochemistry》酒精發酵—TPP 依賴之丙酮酸去羧反應。"
   },
   {
    "n": 25,
@@ -400,7 +406,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_27.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 深海冷水魚富含 n-3 系列的 EPA 與 DHA，EPA 與花生四烯酸競爭環氧化酶，使血小板改生成活性很弱的 thromboxane A3、內皮生成 prostacyclin I3，結果血小板凝集受抑制、出血時間延長，加上降低三酸甘油酯與發炎反應，因此心血管疾病發生率低。\n❌ (A) 敘述顛倒：這些魚富含的是長鏈「多元不飽和」脂肪酸（EPA、DHA），不是飽和脂肪酸；魚肉膽固醇含量也不特別低。\n❌ (B) 魚油脂肪酸以偶數碳為主（EPA 20:5、DHA 22:6），奇數碳脂肪酸含量極微，不足以產生保護作用。\n❌ (D) 膠原蛋白是結構性蛋白質，消化後即分解為胺基酸，並無抑制發炎或抑制膽固醇合成的功能。\n📚 出處：Mahan《Krause's Food & the Nutrition Care Process》n-3 脂肪酸與類二十碳酸（eicosanoids）對血小板功能之影響。"
   },
   {
    "n": 28,
@@ -499,7 +506,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_34.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) p53 被磷酸化活化後先誘導 p21 使細胞週期停滯以爭取修復時間；若 DNA 損傷持續無法修復，p53 會轉而活化 BAX、PUMA、NOXA 等促凋亡基因，經粒線體釋出細胞色素 c、活化 caspase，使細胞走向凋亡，以免帶著突變的細胞繼續增殖。\n❌ (A) 細胞週期只能單向前進，已進入有絲分裂的細胞不會倒退回 G1 期。\n❌ (B) DNA 複製受複製許可機制管制，一個細胞週期內不會重複進行 S 期（否則會造成基因體重複）。\n❌ (C) G2 期只是進入分裂前的準備與查核期，不會反覆重跑；查核點未通過只是停滯，不是重複。\n📚 出處：Alberts《Molecular Biology of the Cell》細胞週期查核點—p53 與 DNA 損傷誘發之細胞凋亡。"
   },
   {
    "n": 35,
@@ -556,7 +564,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_38.webp",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 競爭型抑制劑與受質競爭同一活性部位，可用提高受質濃度克服，因此 Vmax 不變、但達到半數最大速度所需的受質濃度上升，表觀 Km 變大；四個選項中只有 1.5 × 10⁻² 大於原本的 7.9 × 10⁻³。\n❌ (B) 6.9 × 10⁻³ 小於原值，代表親和力上升，與競爭型抑制的效果相反。\n❌ (C) 7.9 × 10⁻³ 與原值相同，那是純非競爭型抑制（Km 不變、Vmax 下降）的特徵。\n❌ (D) 8.9 × 10⁻⁴ 比原值小一個數量級，屬 Km 明顯下降，見於反競爭型抑制，不是競爭型。\n📚 出處：Lehninger《Principles of Biochemistry》酵素動力學—競爭型、非競爭型與反競爭型抑制對 Km、Vmax 的影響。"
   },
   {
    "n": 39,
@@ -585,7 +594,8 @@ window.APP_EXAM_PAPERS['nut-103-2-nut1'] = {
    ],
    "needfig": true,
    "fig": "img/q/103100_106_0301_40.webp",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) TATA box（共有序列 TATAAAA）位於 mRNA 轉錄起始點上游約 25～30 bp 處，是 RNA polymerase II 核心啟動子最常見的共同元件，由 TFIID 中的 TBP 辨識結合後招募其他一般轉錄因子，決定轉錄的正確起始位置。\n❌ (A) CAAT box（GGCCAATCT）位於上游約 −75 bp，屬影響轉錄效率的上游調控元件，並非核心啟動子的共同元件。\n❌ (B) GC box（GGGCGG）由 Sp1 結合，常見於不含 TATA box 的管家基因啟動子，屬調節元件而非起始點上游的共同核心元件。\n❌ (C) TRE 是 TPA（佛波酯）反應元件，由 AP-1 結合，屬可誘導的反應／增強子元件，只出現在特定受調控的基因。\n📚 出處：Lehninger《Principles of Biochemistry》真核基因轉錄—RNA polymerase II 核心啟動子與 TATA box。"
   }
  ]
 };
