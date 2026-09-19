@@ -117,7 +117,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^(mlt|pt|ot|nut|tou)-，引擎 claude/claude-opus-5）。最後一卷：nut-103-1-nut5 103 年第一次　公共衛生營養學，寫 2 題、跳過 0 題，09/20 02:14 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 ^(mlt|pt|ot|nut|tou)-，引擎 claude/claude-opus-5）。最後一卷：nut-103-1-nut4 103 年第一次　團體膳食設計與管理，寫 40 題、跳過 0 題，09/20 02:20 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
