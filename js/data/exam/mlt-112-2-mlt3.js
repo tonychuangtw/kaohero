@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "直接電極法之檢體可使用全血，間接電極法檢體則不可使用全血",
     "皆為常規高通量生化檢測方式"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 間接 ISE 需先把檢體以高離子強度稀釋液稀釋再測定，得到的是「每公升血漿總體積」的濃度；直接 ISE 不稀釋，直接測血漿水相中的離子活性，所以高血脂或高蛋白檢體用間接法會出現假性低血鈉／低血鉀。\n❌ (A) 兩法測鉀都使用 valinomycin 離子載體電極膜，電極膜相同，差別只在檢體有沒有先稀釋。\n❌ (C) 恰好相反：直接 ISE（血液氣體分析儀、POCT）可直接測全血；間接 ISE 必須離心取血清或血漿，不能用全血。\n❌ (D) 高通量常規生化分析儀用的是間接 ISE，直接 ISE 多用於血液氣體分析儀與定點照護檢驗，並非「皆為」常規高通量方式。\n📚 出處：臨床化學電解質測定「direct ISE 與 indirect ISE 之比較」"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "β-globulin",
     "γ-globulin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 免疫球蛋白（IgG、IgA、IgM 等抗體）在鹼性緩衝液中帶電量最少、移動最慢，集中在 γ-globulin 區；慢性發炎時此區呈寬帶上升，單株漿細胞病變則出現尖銳的 M 峰。\n❌ (A) α1 區的主要成分是 α1-antitrypsin，另有 α1-acid glycoprotein、α1-fetoprotein。\n❌ (B) α2 區的主要成分是 haptoglobin、α2-macroglobulin 與 ceruloplasmin。\n❌ (C) β 區的主要成分是 transferrin、C3 與 β-lipoprotein；僅部分 IgA 會延伸至此形成 β-γ bridging，非抗體主要位置。\n📚 出處：臨床生化血清蛋白電泳五分區（albumin、α1、α2、β、γ）"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "可用於臨床細菌鑑定",
     "TOF 方法只能接受 MALDI 法產生的離子源"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) MALDI-TOF MS 以菌體蛋白（主要為核糖體蛋白）的質譜指紋與資料庫比對，可在數分鐘內完成細菌與酵母菌鑑定，已是臨床微生物實驗室的常規工具。\n❌ (A) TOF 是 time-of-flight，指離子在真空飛行管中飛抵偵測器所需的時間，由質荷比決定，與離子化所需時間無關。\n❌ (B) 雷射能量先由基質（matrix）吸收，再把能量與質子傳遞給待測物使其脫附並游離，待測物並非直接接受雷射能量。\n❌ (D) TOF 只是質量分析器，也可與 ESI 等其他離子源串接（如 ESI-TOF、Q-TOF），不限於 MALDI。\n📚 出處：質譜分析法 MALDI-TOF 原理與臨床微生物鑑定"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "thin-layer chromatography",
     "planar chromatography"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) HPLC 的固定相填充於管柱內，流動相由高壓幫浦推送通過填充床，待測物依分配係數差異先後沖提而出，屬於管柱層析。\n❌ (B) 紙層析以濾紙纖維為支撐體，固定相呈平面，屬平面層析。\n❌ (C) 薄層層析把矽膠等固定相塗佈於玻璃或鋁板上，也是平面層析。\n❌ (D) 平面層析是紙層析與薄層層析的總稱，與管柱型式的 HPLC 分屬不同類別。\n📚 出處：分析化學層析法分類（column chromatography 與 planar chromatography）"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "羊水",
     "腹水"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 羊水可測 L/S 比值、phosphatidylglycerol 或 lamellar body count 評估胎兒肺部成熟度，同一檢體又能做革蘭氏染色、細菌培養、葡萄糖與白血球計數判斷有無子宮內（羊膜腔）感染，一次採檢兩個目的都能達成。\n❌ (A) 母血無法反映胎兒肺泡表面張力素的量，也不能直接證實羊膜腔內是否有細菌。\n❌ (B) 母尿只反映母體代謝與泌尿道狀況，與胎兒肺成熟度無關。\n❌ (D) 腹水並非孕期常規檢體，與胎兒肺成熟度及羊膜腔感染判斷均無關。\n📚 出處：臨床生化羊水檢查（胎兒肺成熟度指標與羊膜腔感染評估）"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "採檢時間",
     "是否為 HIV 檢體"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 檢體是否為 HIV 相關檢驗屬病人隱私與高度敏感資訊，不會編入條碼或標示於標籤；所有檢體一律以標準防護措施處理，不靠標示區分高危險檢體，以免造成歧視與洩漏病情。\n❌ (A) 條碼可連結至病人基本資料（含性別），分析儀據以套用正確的參考區間。\n❌ (B) 檢測項目是條碼的核心內容，分析儀讀取後才知道這支檢體要跑哪些測試。\n❌ (C) 採檢時間是條碼常見欄位，用於計算檢體週轉時間、判斷檢體是否超過可接受的保存時限。\n📚 出處：檢驗資訊系統（LIS）條碼檢體識別與病人隱私保護原則"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "可在很短的時間內完成檢測",
     "只能使用全血檢體進行分析"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 敘述錯誤。POCT 依項目不同可使用全血、血清、血漿、尿液、唾液、鼻咽拭子等多種檢體，並不限於全血；只是為了省去離心步驟，床邊項目較常設計成全血可測。\n❌ (A) POCT 設計給非檢驗專業人員在床邊操作，步驟簡化、免前處理是其基本特性。\n❌ (B) 現有 POCT 已涵蓋血糖、血氣電解質、心肌標記、凝血功能、傳染病快篩等多種項目。\n❌ (C) 在病人身旁數分鐘內得到結果、縮短治療決策時間，正是 POCT 存在的目的。\n📚 出處：定點照護檢驗（point-of-care testing）之定義與特性"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "以波長 500 nm 附近測其吸光值",
     "膽紅素對此試驗會負干擾"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 敘述錯誤。Jaffe 氏法是鹼性苦味酸鹽與「肌酸酐（creatinine）」反應生成橘紅色的 Janovski 複合物，不是與「肌酸（creatine）」反應；肌酸必須先經 creatinase 等酵素轉換後才能定量。\n❌ (B) 反應需加 NaOH 於鹼性環境中進行，敘述正確。\n❌ (C) 生成的橘紅色複合物在 500～520 nm 有最大吸收，敘述正確。\n❌ (D) 膽紅素在鹼性環境中被氧化為膽綠素而使吸光值下降，造成負干擾（結果偏低），敘述正確。\n📚 出處：臨床生化肌酸酐測定 Jaffe 反應及其干擾因子"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "tyrosine",
     "tryptophan"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 肌酸由 arginine、glycine、methionine 三者合成：腎臟中 arginine 先把 guanidino 基轉給 glycine 生成 guanidinoacetate，再於肝臟由 S-adenosylmethionine（來自 methionine）提供甲基形成 creatine，四個選項中只有 arginine 是直接前驅物。\n❌ (A) Aspartate 主要參與尿素循環（生成 argininosuccinate）與嘌呤、嘧啶合成，非肌酸前驅物。\n❌ (C) Tyrosine 用於合成兒茶酚胺、甲狀腺素與黑色素。\n❌ (D) Tryptophan 用於合成血清素、褪黑激素與菸鹼醯胺（niacin）。\n📚 出處：生物化學胺基酸代謝「creatine 之生合成」"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "在腎小管不會被分泌",
     "理論上 cystatin C 測出eGFR 比肌酸酐廓清率（creatinine clearance rate）高"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 敘述錯誤。肌酸酐除了濾過還會被腎小管分泌，使 creatinine clearance 高估真實 GFR；cystatin C 不被腎小管分泌，理論上據此算出的 eGFR 應比肌酸酐廓清率「低」而較接近真實 GFR。\n❌ (A) Inulin 廓清率為判定 GFR 的 gold standard，cystatin C 則被視為內源性標誌中表現較佳的替代指標（文獻稱 bronze standard），敘述無誤。\n❌ (B) Cystatin C 分子量約 13 kDa，遠小於白蛋白的 66 kDa，故可自由通過腎絲球濾膜，敘述無誤。\n❌ (C) Cystatin C 濾過後在近曲小管被再吸收並分解代謝，腎小管不會再把它分泌回管腔，敘述無誤。\n📚 出處：腎功能檢查 cystatin C 之特性與 eGFR 估算"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "中度慢性腎功能損傷",
     "腎衰竭"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) eGFR 50 mL/min/1.73 m² 落在 45～59 的 G3a，ACR 150 mg/g 落在 30～300 mg/g 的 A2（中度白蛋白尿），依 KDIGO 分期屬中度慢性腎功能損傷，且已有腎損傷證據。\n❌ (A) eGFR 已低於 60 並合併白蛋白尿，不能判為正常。\n❌ (B) 重度損傷指 eGFR 15～29（G4），本例 50 未落入此範圍。\n❌ (D) 腎衰竭（末期腎病）為 eGFR < 15（G5）或已需透析，與本例差距甚大。\n📚 出處：KDIGO 慢性腎臟病分期（GFR G1–G5 與白蛋白尿 A1–A3）"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "檢測波長 340 nm 吸光度的減少",
     "產物有 CO2"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 酵素法以 glutamate dehydrogenase 催化：NH3 + α-ketoglutarate + NADPH → glutamate + NADP+ + H2O。反應中 NADPH 被消耗，故以 340 nm 吸光值的「減少」速率換算血氨濃度。\n❌ (A) 使用的酵素是 glutamate dehydrogenase，不是 peroxidase；此反應不涉及過氧化氫呈色。\n❌ (B) Glutamine synthetase 是把 glutamate 與 NH3 合成 glutamine，產物為 glutamine 而非 glutamate。\n❌ (D) 反應產物只有 glutamate、NADP+ 與水，不產生 CO2。\n📚 出處：臨床生化血氨（ammonia）測定之 GLDH 酵素法"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "尿素濃度（mg/dL）× 2.14 = 尿素氮濃度（mg/dL）",
     "尿素氮濃度（mg/dL）× 2.14 = 尿素濃度（mg/dL）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 尿素分子量 60，其中兩個氮原子共 28，故 urea = urea nitrogen × (60/28) = 尿素氮 × 2.14。台灣習慣報 BUN，歐洲多報 urea，換算時以此係數把氮含量還原成整個尿素分子。\n❌ (A) 測的是同一物質，但 BUN 只計氮的重量、urea 計整個分子，數值必然不同。\n❌ (B) 現行方法（urease-GLDH）測的都是尿素，差別僅在報告換算成氮或整個分子，數值不相同。\n❌ (C) 乘法方向相反，會把尿素算得比尿素氮小；實際上尿素濃度恆大於尿素氮。\n📚 出處：臨床生化 BUN 與 urea 之換算關係（×2.14）"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "可用 uricase-UV 法，測吸光值的增加",
     "可用 uricase-peroxidase 法，vitamin C 會造成偽陽性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 化學法是尿酸在鹼性中還原 phosphotungstate 生成藍色的鎢藍（tungsten blue）比色；維生素 C（抗壞血酸）同樣是強還原劑，會一併把試劑還原而使呈色加深，造成偽陽性（結果偏高）。\n❌ (A) 與 picrate 在 510 nm 反應的是肌酸酐的 Jaffe 法，不是尿酸的測定原理。\n❌ (C) Uricase-UV 法是監測尿酸本身在 293 nm 吸光值的「減少」，尿酸被分解故吸光下降，不是增加。\n❌ (D) Uricase-peroxidase（Trinder）法中，維生素 C 會消耗反應產生的 H2O2 並干擾呈色，造成偽陰性（結果偏低），不是偽陽性。\n📚 出處：臨床生化尿酸測定（phosphotungstate 化學法與 uricase 酵素法）之干擾"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "免疫分析法適合短胜肽鏈的檢測",
     "免疫分析法容易因交叉反應而出現偽陽性結果"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 免疫分析靠抗體辨識抗原決定位，結構相近的前驅物、代謝片段或同家族胜肽都可能與抗體結合，使結果假性升高，交叉反應是免疫分析最典型的偽陽性來源（如 hCG 與 LH、類固醇類似物）。\n❌ (A) 質譜法依質荷比分辨分子，胜肽裂解變短後會被判讀為不同分子而非原物質，結果反而偏低；且質譜測的是量不是生物活性。\n❌ (B) 質譜法同時提供分子量與碎片指紋，特異性高，常被用來確認免疫分析的可疑結果。\n❌ (C) 夾心式免疫分析需要兩個互不重疊的抗原決定位同時結合，短胜肽空間不足，反而不適合以免疫分析測定。\n📚 出處：臨床生化胜肽／蛋白質測定：免疫分析法與質譜法之比較"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "酪胺酸（tyrosine）",
     "絲胺酸（serine）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 磷酸化是把磷酸基接到側鏈的羥基（-OH）上；苯丙胺酸的側鏈是不帶官能基的苯環，沒有羥基可供接受磷酸基，因此四者中最不容易被磷酸化。\n❌ (B) 蘇胺酸側鏈含 -OH，是 Ser/Thr kinase 的受質之一。\n❌ (C) 酪胺酸側鏈為酚性 -OH，是 tyrosine kinase 的磷酸化位置，與生長因子訊息傳遞密切相關。\n❌ (D) 絲胺酸側鏈含 -OH，是真核細胞中最常見的磷酸化位置。\n📚 出處：生物化學蛋白質轉譯後修飾「磷酸化（Ser／Thr／Tyr）」"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "aspartyl proteases",
     "metalloproteases"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) α1-antitrypsin 屬於 serpin（serine protease inhibitor）家族，主要抑制嗜中性球彈性蛋白酶（neutrophil elastase）等絲胺酸蛋白酶；缺乏時肺泡彈性纖維被過度分解而形成肺氣腫。\n❌ (B) 半胱胺酸蛋白酶（cathepsin B、caspase 等）由 cystatin 類抑制劑調控，非 AAT。\n❌ (C) 天門冬胺酸蛋白酶（pepsin、renin、cathepsin D）不受 AAT 抑制。\n❌ (D) 金屬蛋白酶（MMPs）由 TIMPs 抑制，作用機轉與 AAT 無關。\n📚 出處：臨床生化血漿蛋白 α1-antitrypsin（serpin 家族）與肺氣腫"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt3'] = {
     "在酸性環境下進行",
     "與芳香族支鏈結合成複合物"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Coomassie brilliant blue（Bradford 法）試劑含磷酸與甲醇而呈強酸性，染料在酸性下才能由紅棕色轉為與蛋白質結合的藍色型，於 595 nm 比色定量。\n❌ (A) 280 nm 是色胺酸、酪胺酸等芳香族胺基酸的直接紫外吸收法，屬另一種定量方式，與染料結合無關。\n❌ (B) 需要銅離子的是 biuret 法與 Lowry 法，Coomassie 法不需銅離子。\n❌ (D) Coomassie 主要以離子鍵與帶正電的鹼性胺基酸（尤其 arginine）側鏈結合，並非專一與芳香族側鏈形成複合物。\n📚 出處：蛋白質定量 Bradford（Coomassie brilliant blue）法原理"
   },
   {
    "n": 19,
