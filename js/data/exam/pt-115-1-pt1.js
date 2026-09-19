@@ -1134,7 +1134,8 @@ window.APP_EXAM_PAPERS['pt-115-1-pt1'] = {
    ],
    "needfig": true,
    "fig": "img/q/115020_311_0704_80.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Hill's model（三元素肌肉模型）由三個元件組成：可主動產生張力的收縮元件（CE，代表肌動蛋白與肌凝蛋白的橫橋作用）與串聯彈性元件（SE，代表肌腱與橫橋本身的彈性）串接，兩者再與並聯彈性元件（PE，代表肌內膜、肌束膜等結締組織與肌聯蛋白）並聯。圖 B 正是 PE 與「CE＋SE 串聯」並聯的排列，且三個元件齊備，故最能代表 Hill's model。\n❌ (A) 只有 PE、SE 與阻尼元件 η，缺少最關鍵的主動收縮元件 CE，屬於描述被動組織的黏彈性模型（標準線性固體／Zener model），無法表現肌肉主動產生張力。\n❌ (C) 以 CE 與阻尼元件 η 並聯後再串接 SE，沒有並聯彈性元件 PE，故無法解釋肌肉被動伸展時張力上升的行為，排列也與 Hill's model 不符。\n❌ (D) 僅一條彈簧 PE 與一個阻尼元件 η 並聯，是典型的 Kelvin-Voigt 黏彈性模型，既無 CE 也無 SE，只能描述被動黏彈性而非肌肉收縮行為。\n📚 出處：Hill's three-element muscle model；Neumann《Kinesiology of the Musculoskeletal System》肌肉主動與被動張力章節；Nordin & Frankel《Basic Biomechanics of the Musculoskeletal System》骨骼肌力學"
   }
  ]
 };
