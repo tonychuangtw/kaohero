@@ -26656,7 +26656,7 @@ window.APP_EXAMS = [
   "subjName": "生理學與生物化學",
   "label": "103 年第二次　生理學與生物化學",
   "n": 40,
-  "exp": 0,
+  "exp": 29,
   "mins": 120
  },
  {

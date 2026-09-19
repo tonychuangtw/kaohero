@@ -1000,6 +1000,58 @@
    "at": "2026-09-14"
   }
  ],
+ "nut-103-2-nut1": [
+  {
+   "n": 5,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 8,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 18,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 22,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 23,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 24,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 27,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 34,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 38,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 40,
+   "reason": "DEFER-FIG：圖片題，DeepSeek 讀不了圖，留給 claude 補",
+   "at": "2026-09-19"
+  }
+ ],
  "nut-103-2-nut2": [
   {
    "n": 6,
