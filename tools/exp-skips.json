@@ -1000,6 +1000,28 @@
    "at": "2026-09-14"
   }
  ],
+ "mlt-106-2-mlt1": [
+  {
+   "n": 11,
+   "reason": "題幹與選項在轉檔後毀損，A～D 選項皆只剩「V」而無 V1～V6 之編號，無法判斷過渡帶位置",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 29,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 34,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 36,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  }
+ ],
  "mlt-106-2-mlt2": [
   {
    "n": 35,
