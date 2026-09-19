@@ -24318,7 +24318,7 @@ window.APP_EXAMS = [
   "subjName": "職能治療學概論",
   "label": "103 年第二次　職能治療學概論",
   "n": 80,
-  "exp": 0,
+  "exp": 79,
   "mins": 60
  },
  {
