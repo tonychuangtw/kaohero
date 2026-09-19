@@ -1000,6 +1000,98 @@
    "at": "2026-09-14"
   }
  ],
+ "mlt-111-2-mlt1": [
+  {
+   "n": 1,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 2,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 3,
+   "reason": "題幹所述「下列心電圖」之圖形未在文字中提供，無法判讀心律。",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 4,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 5,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 6,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 7,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 8,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 10,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 11,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 12,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 13,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 14,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 15,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 16,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 17,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 18,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 19,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  }
+ ],
  "mlt-111-2-mlt2": [
   {
    "n": 22,
