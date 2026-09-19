@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "添加nalidixic acid為抑制劑",
     "添加colistin為抑制劑"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：5% 綿羊血 Columbia CNA agar 的「血液」僅提供溶血觀察與部分營養，並非 V factor（NAD）來源；嗜血桿菌所需的 V factor 須由金黃色葡萄球菌衛星現象或巧克力培養基補充，故本選項錯誤。\n❌ (B) 含 5% 綿羊血可用來觀察溶血反應，敘述正確。\n❌ (C) CNA 中的 nalidixic acid 可抑制革蘭氏陰性菌，敘述正確。\n❌ (D) colistin 亦為 CNA 的抑制劑，主要抑制革蘭氏陰性菌，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Columbia CNA agar 章節；臨床微生物學課本「血液培養基」。"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "maltose",
     "lactose"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：TCBS 含 sucrose 與 bromothymol blue 指示劑，Vibrio cholerae 能發酵 sucrose 產酸，使培養基變黃，形成黃色菌落。\n❌ (A) glucose 為多數腸道菌共同可發酵，無法區分 V. cholerae 與其他弧菌。\n❌ (C) maltose 不是 TCBS 主要判讀糖類。\n❌ (D) lactose 陰性者呈綠色菌落，非黃色。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, TCBS agar 與 Vibrio cholerae 鑑定章節。"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Serratia marcescens",
     "Shigella sonnei"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Proteus mirabilis 具強 urease，能迅速分解尿素產生大量氨，使培養基明顯鹼化，呈強陽性反應。\n❌ (A) Enterobacter cloacae urease 多為弱陽性或延遲陽性。\n❌ (C) Serratia marcescens 之 urease 多為陰性或弱陽性。\n❌ (D) Shigella sonnei 為 urease 陰性。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Urease test；臨床微生物學課本「尿素酶試驗」。"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Enterohemorrhagic E. coli（EHEC）",
     "Enteroinvasive E. coli（EIEC）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Enterohemorrhagic E. coli（EHEC，O157:H7）產生 Shiga-like toxin，可造成出血性腹瀉，並引發溶血性尿毒症候群（HUS），即出血性腎病症候群。\n❌ (A) ETEC 造成旅行者腹瀉，多為水樣瀉。\n❌ (B) EPEC 造成嬰幼兒水樣腹瀉，不產 Shiga toxin。\n❌ (D) EIEC 造成痢疾樣腹瀉，無 HUS。\n📚 出處：Murray, Medical Microbiology, E. coli 致病型章節；臨床微生物學課本「E. coli 腹瀉型別」。"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "oxidase(＋)及catalase(＋)",
     "oxidase(－)及catalase(－)"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Neisseria gonorrhoeae 為革蘭氏陰性雙球菌，具有 cytochrome c oxidase，故 oxidase 試驗陽性；同時可分解過氧化氫，catalase 試驗亦為陽性，兩者皆為陽性。\n❌ (A) oxidase(＋)、catalase(－) 不符，本菌 catalase 為陽性。\n❌ (B) oxidase(－) 不符，本菌具有 oxidase，呈陽性反應。\n❌ (D) 兩者皆陰性不符，gonococcus 兩項試驗均為陽性。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Neisseria 鑑定章節；臨床微生物學「淋病雙球菌生化特性」。"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Shigella spp.",
     "Salmonella Typhimurium"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Shigella 感染劑量極低，約 10～100 個活菌即可在健康人造成感染，因耐酸且可逃避胃酸殺菌。\n❌ (A) Bacillus cereus 需大量菌（約 10^5～10^8）才致病。\n❌ (B) EPEC 感染劑量較高。\n❌ (D) Salmonella Typhimurium 感染劑量亦較高，約 10^5 以上。\n📚 出處：Murray, Medical Microbiology, Shigella 致病機轉；臨床微生物學課本「感染劑量」。"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "C. jejuni",
     "C. lari"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Campylobacter fetus 生長溫度範圍較低，可在 25～37℃ 生長，於 42℃ 不生長；此為與其他腸道 Campylobacter 區別的重要特徵。\n❌ (B) C. coli 屬嗜熱菌，最適生長溫度約 42℃，42℃ 可生長。\n❌ (C) C. jejuni 亦為嗜熱菌，於 42℃ 生長良好，不生長於 25℃。\n❌ (D) C. lari 同樣為嗜熱菌，42℃ 可生長。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Campylobacter 生長溫度特性章節；臨床微生物學「Campylobacter 種別鑑定」。"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "catalase test",
     "lipase test"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Porphyromonas gingivalis 在 UV 光下會產生紅色螢光（因含 protoporphyrin），P. asaccharolytica 則無，可據以區分。\n❌ (A) spot indole test 兩者多為陽性，無法區分。\n❌ (C) catalase 反應兩者相近，區分力不足。\n❌ (D) lipase test 非此兩菌主要鑑別依據。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Porphyromonas 鑑別章節。"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "抑制DNA合成",
     "抑制蛋白質合成"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Aminoglycosides 與細菌 30S 核糖體次單元結合，干擾蛋白質合成，造成 mRNA 轉譯錯誤或抑制起始，屬抑制蛋白質合成類抗生素。\n❌ (A) 破壞細胞膜者如 polymyxin。\n❌ (B) 抑制細胞壁合成者如 penicillin、cephalosporin、vancomycin。\n❌ (C) 抑制 DNA 合成者如 quinolone。\n📚 出處：Murray, Medical Microbiology, Aminoglycosides 作用機制；臨床微生物學課本「抗生素作用機轉」。"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Serratia marcescens",
     "Candida albicans"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Pseudomonas aeruginosa 為 glucose non-fermenter（氧化酶陽性、不發酵 glucose），是院內感染重要致病原，常見於燒傷、呼吸器相關肺炎等。\n❌ (A) Burkholderia pseudomallei 亦為 non-fermenter，但多引起社區型類鼻疽，並非典型院內感染主因。\n❌ (C) Serratia marcescens 為發酵型腸道菌。\n❌ (D) Candida albicans 為真菌，非細菌。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Non-fermentative Gram-negative bacilli 章節。"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "ethambutol",
     "rifampin"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Ethambutol 主要抑制分枝桿菌細胞壁 arabinogalactan 合成，屬抑菌性（非殺菌性）抗結核藥物，須合併其他藥物使用。\n❌ (A) Isoniazid 具殺菌性，抑制 mycolic acid 合成。\n❌ (B) Pyrazinamide 在酸性環境下具殺菌性。\n❌ (D) Rifampin 抑制 RNA 聚合酶，具殺菌性。\n📚 出處：Murray, Medical Microbiology, Antimycobacterial agents；臨床微生物學課本「抗結核藥物」。"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Proportion法時每一個quadrant的菌量最好是100～300 CFUs",
     "BACTEC MGIT 儀器可作藥敏試驗"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：結核桿菌生長緩慢，agar medium（如 Middlebrook 7H10/7H11）與 broth medium（如 MGIT）相比，broth medium 通常需時較短，agar 較慢，故選項 A 敘述錯誤。\n❌ (B) Egg-based medium（如 LJ）因成分關係，部分藥物易失效，敘述正確。\n❌ (C) Proportion 法每個 quadrant 菌量以 100～300 CFUs 為佳，敘述正確。\n❌ (D) BACTEC MGIT 為液體培養系統，可進行藥敏試驗，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Mycobacteria 藥敏試驗章節。"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Pseudomonas aeruginosa",
     "Escherichia coli"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：SPS（sodium polyanethol sulfonate）為血液培養常用抗凝劑，對部分厭氧菌尤其 Peptostreptococcus anaerobius 具明顯抑制作用，故屬抑制最明顯者。\n❌ (A) Staphylococcus aureus 對 SPS 較不敏感。\n❌ (C) Pseudomonas aeruginosa 不受 SPS 明顯抑制。\n❌ (D) Escherichia coli 對 SPS 具耐受性。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Blood culture 抗凝劑章節。"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Capnocytophaga spp.",
     "Francisella tularensis"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：兔熱病（tularemia）由 Francisella tularensis 引起，可經節肢動物叮咬或接觸感染動物傳播，屬人畜共通傳染病。\n❌ (A) Dysgonomonas spp. 為厭氧革蘭氏陰性菌，與兔熱病無關。\n❌ (B) Brucella melitensis 引起布氏桿菌病（波狀熱）。\n❌ (C) Capnocytophaga spp. 與動物咬傷後感染有關，非兔熱病病原。\n📚 出處：Murray, Medical Microbiology, Francisella tularensis 章節；臨床微生物學課本「兔熱病」。"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "glucose",
     "peptidoglycan"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Mycobacterium 細胞壁富含 mycolic acid 等長鏈脂肪酸（waxy 成分），可抗拒革蘭氏染色脫色，造成染色困難，須以 acid-fast 染色觀察。\n❌ (B) Porins 為革蘭氏陰性菌外膜蛋白，非分枝桿菌細胞壁主要成分。\n❌ (C) Glucose 非細胞壁主要結構成分。\n❌ (D) Peptidoglycan 雖存在，但含量低，並非干擾革蘭氏染色之主因。\n📚 出處：Murray, Medical Microbiology, Mycobacterium 細胞壁結構章節。"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "eukaryotes有細胞核",
     "部分eukaryotes有flagella"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Golgi bodies（高基氏體）為真核細胞胞器，原核細胞（prokaryotes）不具膜性胞器，故選項 A 錯誤。\n❌ (B) 真核細胞半徑一般較原核細胞大，敘述正確。\n❌ (C) 真核細胞具真正細胞核，敘述正確。\n❌ (D) 部分真核細胞（如精子、某些原生生物）具 flagella，敘述正確。\n📚 出處：Murray, Medical Microbiology, Prokaryotes vs. Eukaryotes 比較章節。"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "菌量越多，所需的處理時間越長",
     "漂白水會受血液和膿影響其殺菌力"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：殺菌劑並非任意兩種合併都優於單一使用，可能產生拮抗或加成效果不確定，甚至降低效力，故選項 A 錯誤。\n❌ (B) 一般殺菌劑在室溫下活性比低溫佳，敘述正確。\n❌ (C) 菌量愈多，所需殺菌處理時間愈長，敘述正確。\n❌ (D) 漂白水受血液、膿等有機物干擾會降低殺菌力，敘述正確。\n📚 出處：Murray, Medical Microbiology, Disinfection and Sterilization 章節。"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "革蘭氏陽性細菌的細胞壁通常比陰性菌薄",
     "黴漿菌不具有細胞壁"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：革蘭氏陽性菌細胞壁較厚（peptidoglycan 層厚），革蘭氏陰性菌細胞壁較薄但有外膜，故選項 C 敘述錯誤。\n❌ (A) 細胞壁維持細菌形狀與堅韌性，敘述正確。\n❌ (B) 細胞壁主要成分為 peptidoglycan，敘述正確。\n❌ (D) 黴漿菌（Mycoplasma）不具細胞壁，敘述正確。\n📚 出處：Murray, Medical Microbiology, Bacterial cell wall 章節；臨床微生物學課本「細胞壁結構」。"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "④③②①",
     "④③①②"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：細菌分類階層由高至低為 family（科）→ genus（屬）→ species（種）→ biotype（生物型，種以下之亞型），故順序為 ④③①②。\n❌ (A) ①②③④ 完全相反，是由低至高排列。\n❌ (B) ①②④③ 排列錯誤，species 不應高於 genus。\n❌ (C) ④③②① 將 biotype 置於 species 之上，順序有誤。\n📚 出處：微生物學分類學「Taxonomy 階層：family、genus、species、biotype」；Bergey's Manual of Systematic Bacteriology 分類架構。"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "通常尿液培養24小時只需做1次",
     "病人有臨床症狀才進行糞便的細菌培養"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：敗血症血液培養應在病人發燒或寒顫時立即採血，通常於不同時段（如 24 小時內）採 2～3 套，而非「1 週內不同天採 3 次」，故選項 B 錯誤。\n❌ (A) 肺結核診斷需連續 3 天採清晨深痰，敘述正確。\n❌ (C) 通常尿液培養 24 小時只需做 1 次，敘述正確。\n❌ (D) 糞便細菌培養一般於病人有臨床症狀時進行，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Specimen collection 章節；臨床微生物學課本「檢體收集時機」。"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "①④",
     "①③"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：EMB agar 中以 eosin Y 與 methylene blue 作為染料並抑制革蘭氏陽性菌生長，兩者結合成 eosin-methylene blue complex，為其主要抑制與指示成分。\n❌ (B) ②③ 中 bile salt 主要用於 MacConkey 等培養基，非 EMB 之主要抑制劑。\n❌ (C) ①④ 中 dipotassium phosphate 為緩衝鹽類，無抑菌作用。\n❌ (D) ①③ 中 bile salt 並非 EMB agar 的革蘭氏陽性菌抑制劑。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，EMB agar 成分與原理章節。"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "此菌具有莢膜（capsule）",
     "anthrax toxin合成之基因通常位於染色體上"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Bacillus anthracis 的 anthrax toxin 基因（pag、lef、cya）位於質體 pXO1 上，非染色體，故敘述錯誤。\n❌ (A) anthrax toxin 確實由 protective antigen、edema factor、lethal factor 三種蛋白質組成，敘述正確。\n❌ (B) protective antigen 負責結合細胞受體並運送 edema factor 與 lethal factor 進入細胞，敘述正確。\n❌ (C) 本菌具 poly-D-glutamic acid 莢膜，敘述正確。\n📚 出處：Murray, Medical Microbiology，Bacillus anthracis 毒素與質體章節。"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Tinsdale agar是C. diphtheriae之選擇性培養基",
     "Loeffler’s medium是C. diphtheriae之滋養培養基，能有助於此菌形成metachromatic granules"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：cystine-tellurite blood agar 中 potassium tellurite 的主要功能是抑制其他雜菌並使 C. diphtheriae 還原成黑色菌落（指示作用），而非促進生長。\n❌ (A) Tween 80 可提供脂質，確實有助 lipophilic Corynebacterium 生長，敘述正確。\n❌ (C) Tinsdale agar 含 tellurite 與血清，為 C. diphtheriae 之選擇性培養基，敘述正確。\n❌ (D) Loeffler's medium 為滋養培養基，有助 metachromatic granules 形成，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Corynebacterium 培養基章節。"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "會水解hippurate",
     "氧化酶陰性"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Gardnerella vaginalis 在 TSI agar 不產生 H₂S，呈陰性，故「H₂S 陽性」不符合其生化特性。\n❌ (B) 本菌觸酶陰性，敘述正確。\n❌ (C) 本菌可水解 hippurate，敘述正確。\n❌ (D) 本菌氧化酶陰性，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Gardnerella vaginalis 生化特性章節。"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "產生β-lactamases",
     "帶有mecA基因"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Staphylococcus aureus 為革蘭氏陽性菌，不具 outer membrane proteins，故 OMPs 減少不是其對 methicillin 產生抗藥的機制。\n❌ (B) 經由 mecA 基因產生的 PBP2a 改變 PBP 結構，屬抗藥機制之一。\n❌ (C) 產生 β-lactamases 可水解青黴素類，亦為抗藥機制之一。\n❌ (D) 帶有 mecA 基因導致 PBP2a 表現，為主要抗藥機制。\n📚 出處：Murray, Medical Microbiology，Staphylococcus 抗藥機制章節（mecA、PBP2a）。"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "pyrazinamidase試驗M. tuberculosis為陰性，M. bovis為陽性",
     "M. tuberculosis生長緩慢，M. bovis生長快速"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：M. tuberculosis nitrate reduction 陽性，M. bovis 陰性，此為兩者重要區別試驗，敘述正確。\n❌ (B) niacin accumulation 應為 M. tuberculosis 陽性、M. bovis 陰性，選項相反。\n❌ (C) pyrazinamidase 應為 M. tuberculosis 陽性、M. bovis 陰性，選項相反。\n❌ (D) 兩者皆為生長緩慢的分枝桿菌，M. bovis 並非快速生長。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，M. tuberculosis 與 M. bovis 生化鑑別章節。"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "D-trehalose",
     "ornithine"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：S. saprophyticus 對 novobiocin 具抗性，S. haemolyticus 則敏感，novobiocin 試驗常用以區別兩者。\n❌ (A) polymyxin B 主要用於區別其他革蘭氏陽性球菌，非此兩菌主要鑑別。\n❌ (C) D-trehalose 發酵兩者多為陽性，無法可靠區別。\n❌ (D) ornithine 試驗非此兩菌的標準鑑別項目。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Coagulase-negative Staphylococcus 鑑定章節。"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "可在mannitol salt agar生長，菌落周圍呈紅色",
     "社區型感染與院內感染皆有可能發生"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：S. aureus 在 mannitol salt agar 可發酵 mannitol 產酸，酚紅指示劑使菌落周圍呈黃色，非紅色，故敘述錯誤。\n❌ (A) 多數菌株具多醣莢膜，敘述正確。\n❌ (B) 多數菌株具 clumping factor（結合纖維蛋白原），敘述正確。\n❌ (D) 社區型與院內感染皆可發生，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Staphylococcus aureus 鑑定與 MSA 章節。"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "SXT（resistant）",
     "bile solubility（positive）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Streptococcus pneumoniae 對 SXT 通常敏感（非 resistant），故「SXT resistant」之敘述錯誤。\n❌ (A) 本菌對 optochin 敏感，敘述正確。\n❌ (B) bile-esculin 陰性，敘述正確。\n❌ (D) bile solubility 陽性，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，S. pneumoniae 鑑定章節。"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "不具抗原性（antigenic）",
     "ASO（antistreptolyin O）test 可用於偵測A群鏈球菌感染"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：streptolysin O 具抗原性，可刺激宿主產生抗體，ASO test 即利用此抗原抗體反應，故「不具抗原性」敘述錯誤。\n❌ (A) streptolysin O 對氧不穩定（oxygen-labile），敘述正確。\n❌ (B) 可溶解白血球等多種細胞，敘述正確。\n❌ (D) ASO test 用於偵測 A 群鏈球菌感染，敘述正確。\n📚 出處：Murray, Medical Microbiology，Streptococcus pyogenes 溶血素與 ASO 章節。"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "可能引發菌血症",
     "為 alpha或gamma溶血"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：viridans streptococci 可引起膿瘍（如肝膿瘍、腦膿瘍、牙源性膿瘍），故「不會引起膿瘍」敘述錯誤。\n❌ (B) 為人類口腔及腸道正常菌叢，敘述正確。\n❌ (C) 可引發菌血症，尤其心內膜炎，敘述正確。\n❌ (D) 呈 alpha 或 gamma 溶血，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Viridans streptococci 章節。"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Gardnerella spp.",
     "Haemophilus spp."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Gardnerella spp. 生長不需 S. aureus 提供的 NAD（V factor），不會產生衛星現象；此現象見於需要 V factor 的菌種。\n❌ (A) Abiotrophia spp. 需 pyridoxal 等，可與 S. aureus 產生衛星現象。\n❌ (B) Granulicatella spp. 同屬營養需求菌，可產生衛星現象。\n❌ (D) Haemophilus spp. 需 V factor，可在 S. aureus 周圍呈衛星生長。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Satellitism 試驗章節。"
   },
   {
    "n": 33,
@@ -442,7 +474,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "豚鼠氣單胞菌（Aeromonas caviae）",
     "霍亂弧菌（Vibrio cholerae）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Vibrio cholerae 可被 0.5% sodium deoxycholate 溶解，呈陽性反應，為弧菌屬特徵之一。\n❌ (A) Aeromonas hydrophila 對 sodium deoxycholate 不呈溶解陽性。\n❌ (B) Plesiomonas shigelloides 不呈陽性溶解反應。\n❌ (C) Aeromonas caviae 亦不呈陽性溶解。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Vibrio 鑑定章節（sodium deoxycholate solubility）。"
   },
   {
    "n": 34,
@@ -455,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "urease (＋)",
     "Voges-Proskauer test (＋)"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Klebsiella oxytoca 不具鞭毛，motility 陰性，故「motility(＋)」不符合其特性。\n❌ (A) citrate 陽性，敘述正確。\n❌ (C) urease 陽性，敘述正確。\n❌ (D) Voges-Proskauer 陽性，敘述正確。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Klebsiella 生化特性章節。"
   },
   {
    "n": 35,
@@ -468,7 +502,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "甘露醇（mannitol）發酵試驗",
     "尿素酶（urease）試驗"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Salmonella Typhi 與 Proteus mirabilis 之 indole 試驗皆為陰性，無法用以區別，故選 indole。\n❌ (B) Salmonella Typhi lysine decarboxylase 陽性，P. mirabilis 陰性，可區別。\n❌ (C) Salmonella Typhi 不發酵 mannitol（陰性），P. mirabilis 發酵，可區別。\n❌ (D) Salmonella Typhi urease 陰性，P. mirabilis 陽性，可區別。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Enterobacteriaceae 生化鑑別表。"
   },
   {
    "n": 36,
@@ -481,7 +516,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "thiosulfate citrate bile salts（TCBS）agar",
     "xylose lysine desoxycholate（XLD）agar"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：XLD agar 對 Shigella 具選擇性且可依菌落顏色區別 Shigella（紅色）與 Salmonella（紅底黑心），為腹瀉糞便培養 Shigella 的常用選擇性培養基。\n❌ (A) PEA agar 用於抑制革蘭氏陰性菌，利於分離革蘭氏陽性菌，不適合 Shigella。\n❌ (B) CIN agar 為 Yersinia 的選擇性培養基。\n❌ (C) TCBS agar 用於分離 Vibrio。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Shigella 糞便培養與 XLD agar 章節。"
   },
   {
    "n": 37,
@@ -494,7 +530,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "enterohemorrhagic E. coli可產生Shiga-like toxin",
     "E. coli之P pili與腎盂腎炎（pyelonephritis）有關"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：enteroinvasive E. coli 主要侵入大腸（結腸）上皮細胞致病，而非小腸上皮細胞破壞微絨毛，故敘述錯誤。\n❌ (A) ETEC 引起旅行者腹瀉，敘述正確。\n❌ (C) EHEC 產生 Shiga-like toxin，敘述正確。\n❌ (D) P pili 與腎盂腎炎相關，敘述正確。\n📚 出處：Murray, Medical Microbiology，E. coli 致病型（ETEC、EIEC、EHEC、UPEC）章節。"
   },
   {
    "n": 38,
@@ -546,7 +583,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "含甘油成分有毒害",
     "含酚紅（phenol red）成分有毒害"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：buffered glycerol saline 含甘油，對弧菌具毒害作用，會使弧菌死亡，故採集糞便檢體分離弧菌時改用 Cary-Blair 運送培養基。\n❌ (A) 鹽分並非主因，Cary-Blair 與 buffered glycerol saline 的鹽分差異不是選擇的關鍵。\n❌ (B) Cary-Blair 為低營養運送培養基，營養不足並非弧菌檢體不用 buffered glycerol saline 的理由。\n❌ (D) phenol red 為 pH 指示劑，並非造成弧菌死亡的有毒成分。\n📚 出處：臨床微生物學「糞便檢體運送培養基 Cary-Blair 與 buffered glycerol saline 比較」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Vibrio 章節。"
   },
   {
    "n": 42,
@@ -559,7 +597,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "脂質A（lipid A）",
     "胜肽聚醣（peptidoglycan）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：脂質 A（lipid A）為革蘭氏陰性菌外膜脂多醣（LPS）的內毒素部分，革蘭氏陽性菌缺乏外膜與 LPS，故為兩者主要差異。\n❌ (A) 莢膜並非革蘭氏陰性與陽性菌的分類依據，兩類皆有具莢膜或無莢膜的菌種。\n❌ (B) 鞭毛為運動構造，革蘭氏陰性與陽性菌皆可能有鞭毛，非主要差異。\n❌ (D) 胜肽聚醣雖在革蘭氏陽性菌較厚、陰性菌較薄，但兩類皆有，並非「有無」的主要差異，脂質 A 才是陽性菌所無。\n📚 出處：微生物學「革蘭氏陰性菌外膜脂多醣與脂質 A 內毒素」；Murray et al., Medical Microbiology, Bacterial Cell Structure 章節。"
   },
   {
    "n": 43,
@@ -572,7 +611,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "創傷弧菌（Vibrio vulnificus）",
     "霍亂弧菌（Vibrio cholerae）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：腸炎弧菌（Vibrio parahaemolyticus）之致病株具耐熱性溶血素（TDH），可於高鹽甘露醇 Wagatsuma agar 上產生 β 型溶血，即 Kanagawa 現象。\n❌ (B) 親水性產氣單胞菌雖為弧菌科，但 Kanagawa 現象為腸炎弧菌特有，A. hydrophila 不以此試驗判定。\n❌ (C) 創傷弧菌不產生 Kanagawa 溶血現象，其致病與莢膜及鐵需求有關。\n❌ (D) 霍亂弧菌不產生 Kanagawa 溶血現象，診斷以 O1/O139 血清分型為主。\n📚 出處：臨床微生物學「Vibrio parahaemolyticus Kanagawa phenomenon 與 Wagatsuma agar」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Vibrio 章節。"
   },
   {
    "n": 44,
@@ -585,7 +625,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "氧化酶（oxidase）",
     "綠膿菌素（pyocyanin）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：綠膿桿菌的黏液型菌株可產生海藻酸（alginate），形成莢膜樣黏液層，可抑制宿主吞噬細胞吞噬，並為生物膜形成的重要基質成分。\n❌ (B) 蛋白分解酵素可破壞組織與免疫球蛋白，但與抑制吞噬及生物膜形成的關係不若海藻酸直接。\n❌ (C) 氧化酶為細菌呼吸鏈酵素，為鑑定用指標，並非致病或抗吞噬因子。\n❌ (D) 綠膿菌素（pyocyanin）為藍綠色色素，具氧化毒性可傷害細胞，但與生物膜形成無關。\n📚 出處：臨床微生物學「Pseudomonas aeruginosa 致病因子 alginate 與 biofilm」；Murray et al., Medical Microbiology, Pseudomonas 章節。"
   },
   {
    "n": 45,
@@ -598,7 +639,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Neisseria meningitidis",
     "Moraxella catarrhalis"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Moraxella catarrhalis 具 DNase，DNase 試驗為陽性，可分解 DNA，常用於與其他革蘭氏陰性雙球菌區別。\n❌ (A) Neisseria lactamica 不產生 DNase，其特徵為可分解乳糖。\n❌ (B) Neisseria gonorrhoeae 不產生 DNase，DNase 陰性。\n❌ (C) Neisseria meningitidis 不產生 DNase，DNase 陰性。\n📚 出處：臨床微生物學「Neisseria 與 Moraxella 鑑定生化反應，DNase test」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Neisseria 章節。"
   },
   {
    "n": 46,
@@ -611,7 +653,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Actinomyces israelii",
     "Propionibacterium acnes"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Clostridium difficile 為抗生素相關腹瀉及偽膜性腸炎的主要病原，長期使用抗生素造成腸道菌相改變後，C. difficile 增生並產生毒素致病。\n❌ (A) Clostridium perfringens 多引起食物中毒或氣性壞疽，非抗生素相關腹瀉主要病原。\n❌ (C) Actinomyces israelii 為慢性肉芽腫性感染病原（如放線菌病），與腹瀉無關。\n❌ (D) Propionibacterium acnes 與痤瘡及植入物感染相關，不引起腹瀉。\n📚 出處：臨床微生物學「Clostridium difficile 與抗生素相關腹瀉」；Murray et al., Medical Microbiology, Clostridium 章節。"
   },
   {
    "n": 47,
@@ -624,7 +667,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "CDC-BP",
     "KVLB"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：PEA（phenylethyl alcohol agar）可抑制革蘭氏陰性菌並減少變形菌 swarming，有助於厭氧菌的披離與鑑定。\n❌ (B) CCFA（cycloserine-cefoxitin-fructose agar）為選擇性培養基，用於分離 Clostridium difficile，並非抑制 swarming 之用。\n❌ (C) CDC-BP 為 CDC 厭氧血液培養基，用於厭氧菌增菌培養，非抑制 swarming。\n❌ (D) KVLB（kanamycin-vancomycin-laked blood agar）為選擇性培養基，用於分離 Bacteroides 等，非抑制 swarming 之主要用途。\n📚 出處：臨床微生物學「厭氧菌培養基 PEA 與 swarming 抑制」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Anaerobic Bacteria 章節。"
   },
   {
    "n": 48,
@@ -637,7 +681,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "resazurin：還原－藍色",
     "methylene blue：還原－藍色"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：resazurin 為氧化還原指示劑，氧化態呈粉紅色，還原態變為無色，故氧化時粉紅色正確。\n❌ (B) methylene blue 氧化態為藍色，並非粉紅色，還原態才褪為無色。\n❌ (C) resazurin 還原態為無色，並非藍色。\n❌ (D) methylene blue 還原態為無色，並非藍色，藍色為其氧化態。\n📚 出處：臨床微生物學「厭氧培養氧化還原指示劑 resazurin 與 methylene blue 顏色變化」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Anaerobic Culture 章節。"
   },
   {
    "n": 49,
@@ -650,7 +695,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Actinomyces israelii 呈臼齒狀菌落",
     "Clostridium difficile以紫外光照射不產螢光"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Clostridium difficile 在紫外光照射下菌落可產生黃綠色螢光，故「不產螢光」敘述錯誤。\n❌ (A) Fusobacterium nucleatum 菌落呈麵包屑狀（breadcrumb-like），敘述正確。\n❌ (B) Bacteroides ureolyticus 可形成凹陷（pitting）菌落，敘述正確。\n❌ (C) Actinomyces israelii 菌落呈臼齒狀（molar tooth），敘述正確。\n📚 出處：臨床微生物學「厭氧菌菌落形態特徵與 C. difficile 螢光」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Anaerobic Bacteria 章節。"
   },
   {
    "n": 50,
@@ -663,7 +709,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Bacteroides fragilis group－GNB",
     "Prophyromonas spp.－GNC"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Porphyromonas spp. 為革蘭氏陰性桿菌（GNB），並非革蘭氏陰性球菌（GNC），故配對錯誤。\n❌ (A) Peptostreptococcus anaerobius 為革蘭氏陽性球菌（GPC），正確。\n❌ (B) Clostridium difficile 為革蘭氏陽性桿菌（GPB），正確。\n❌ (C) Bacteroides fragilis group 為革蘭氏陰性桿菌（GNB），正確。\n📚 出處：臨床微生物學「厭氧菌染色形態分類」；Murray et al., Medical Microbiology, Anaerobic Bacteria 章節。"
   },
   {
    "n": 51,
@@ -676,7 +723,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "fluoroquinolone",
     "erythromycin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：黴漿菌（Mycoplasma）無細胞壁，penicillin 作用機轉為抑制細胞壁胜肽聚醣合成，故對黴漿菌無效。\n❌ (B) tetracycline 抑制蛋白質合成，對黴漿菌有效，為常用治療藥物之一。\n❌ (C) fluoroquinolone 抑制 DNA gyrase，對黴漿菌有效，可作為治療選擇。\n❌ (D) erythromycin 屬巨環內酯類，抑制蛋白質合成，為黴漿菌肺炎常用藥物。\n📚 出處：微生物學「黴漿菌無細胞壁與抗生素選擇」；Murray et al., Medical Microbiology, Mycoplasma 章節。"
   },
   {
    "n": 52,
@@ -689,7 +737,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Fusobacterium spp.",
     "Prevotella spp."
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Porphyromonas spp. 對 vancomycin 具感受性，此特性可用於厭氧菌的選擇性培養基（如 KVLB 含 vancomycin 可抑制之）。\n❌ (A) Bacteroides fragilis group 對 vancomycin 具抗性，不被 vancomycin 抑制。\n❌ (C) Fusobacterium spp. 對 vancomycin 具抗性。\n❌ (D) Prevotella spp. 對 vancomycin 具抗性。\n📚 出處：臨床微生物學「厭氧革蘭氏陰性菌對 vancomycin 之感受性」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Anaerobic Bacteria 章節。"
   },
   {
    "n": 53,
@@ -702,7 +751,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "接種菌量為 105 CFU/spot",
     "厭氧培養24小時"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：CLSI 建議厭氧菌 agar dilution 感受性試驗需培養 42～48 小時，並非 24 小時，故敘述錯誤。\n❌ (A) 培養基質使用 Brucella agar，正確。\n❌ (B) 須添加 hemin、vitamin K 及 laked sheep blood，正確。\n❌ (C) 接種菌量為 10^5 CFU/spot，正確。\n📚 出處：CLSI M11 厭氧菌藥物感受性試驗指引；臨床微生物學「厭氧菌 agar dilution 試驗條件」。"
   },
   {
    "n": 54,
@@ -715,7 +765,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "培養是進行感染診斷之常用方法",
     "此微生物較可能在免疫功能低下的宿主引起肺炎"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Pneumocystis jiroveci 為伺機性病原，主要在免疫功能低下宿主（如 AIDS、長期類固醇治療者）引起肺炎（PCP）。\n❌ (A) 依基因體 DNA 序列分析，P. jiroveci 歸屬於真菌，並非原生動物寄生蟲。\n❌ (B) 其細胞膜主要含膽固醇，並非 ergosterol，故對抗黴菌 ergosterol 抑制劑不敏感。\n❌ (C) 目前無法以一般人工培養進行診斷，診斷靠染色鏡檢或分子方法，故敘述錯誤。\n📚 出處：臨床微生物學「Pneumocystis jiroveci 分類與診斷」；Murray et al., Medical Microbiology, Pneumocystis 章節。"
   },
   {
    "n": 55,
@@ -728,7 +779,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "vancomycin",
     "penicillin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Q fever 由 Coxiella burnetii 引起，臨床首選治療為 tetracycline（如 doxycycline），尤其急性期。\n❌ (B) ceftazidime 為頭孢菌素，對細胞內寄生之 Coxiella 無效。\n❌ (C) vancomycin 作用於革蘭氏陽性菌細胞壁，對 Coxiella 無效。\n❌ (D) penicillin 對細胞內寄生菌無效，不適用。\n📚 出處：臨床微生物學「Coxiella burnetii 與 Q fever 治療」；Murray et al., Medical Microbiology, Rickettsia 章節。"
   },
   {
    "n": 56,
@@ -741,7 +793,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "5-fluorocytosine",
     "caspofungin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：ketoconazole 屬 azole 類抗黴菌藥，作用機轉為抑制 14α-demethylase，阻斷 ergosterol 合成，破壞真菌細胞膜完整性。\n❌ (B) griseofulvin 作用於微管（microtubule），干擾細胞分裂，並非抑制 ergosterol 合成。\n❌ (C) 5-fluorocytosine 為核酸類似物，抑制 DNA/RNA 合成，非作用於 ergosterol。\n❌ (D) caspofungin 屬 echinocandin，抑制 β-1,3-glucan 合成，破壞細胞壁而非細胞膜。\n📚 出處：藥理學與臨床微生物學「抗黴菌藥物作用機轉」；Murray et al., Medical Microbiology, Antifungal Agents 章節。"
   },
   {
    "n": 57,
@@ -754,7 +807,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "ciprofloxacin",
     "telithromycin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：telithromycin 屬 ketolide 類，可與細菌 50S 核糖體次單元結合，抑制蛋白質合成。\n❌ (A) daptomycin 作用於細胞膜，造成去極化，非作用於 50S。\n❌ (B) penicillin 抑制細胞壁胜肽聚醣合成，非作用於核糖體。\n❌ (C) ciprofloxacin 抑制 DNA gyrase 與 topoisomerase IV，非作用於 50S。\n📚 出處：藥理學「蛋白質合成抑制劑作用於 50S 核糖體」；Murray et al., Medical Microbiology, Antimicrobial Agents 章節。"
   },
   {
    "n": 58,
@@ -767,7 +821,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Mueller-Hinton agar",
     "Sabouraud dextrose agar"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：CLSI 建議真菌紙錠擴散法（disk diffusion）使用 Mueller-Hinton agar，並添加 glucose 與 methylene blue，以利判讀。\n❌ (A) potato dextrose agar 為黴菌培養基，非藥敏試驗用。\n❌ (B) cornmeal agar 用於黴菌形態觀察（如 chlamydospore 產生），非藥敏試驗用。\n❌ (D) Sabouraud dextrose agar 為黴菌分離培養基，非 CLSI 紙錠擴散法指定培養基。\n📚 出處：CLSI M44 真菌紙錠擴散法指引；臨床微生物學「真菌藥物感受性試驗培養基」。"
   },
   {
    "n": 59,
@@ -780,7 +835,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "chromatin immunoprecipitation",
     "electrophoretic mobility shift assay"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：院內感染群突發時，可用 pulsed-field gel electrophoresis（PFGE）分析菌株 DNA 圖譜，確認是否為同一菌株造成之群聚感染。\n❌ (A) Western blot 為偵測蛋白質的方法，用於免疫學檢測，非菌株分型。\n❌ (C) chromatin immunoprecipitation 為研究 DNA-蛋白質交互作用的方法，非感染群突發調查。\n❌ (D) electrophoretic mobility shift assay 用於偵測蛋白質與核酸結合，非菌株分型工具。\n📚 出處：臨床微生物學「分子流行病學與 PFGE 菌株分型」；Murray et al., Medical Microbiology, Molecular Epidemiology 章節。"
   },
   {
    "n": 60,
@@ -793,7 +849,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "鏡檢型態特徵",
     "醣類同化試驗"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：鑑定絲狀黴菌主要依據生長速度、菌落型態特徵及鏡檢型態特徵，醣類同化試驗用於酵母菌鑑定，與黴菌鑑定無關。\n❌ (A) 生長速度為黴菌鑑定重要依據（快速生長、中等、緩慢）。\n❌ (B) 菌落型態特徵（顏色、質地、表面）為黴菌鑑定重要依據。\n❌ (C) 鏡檢型態特徵（菌絲、孢子型態）為黴菌鑑定核心依據。\n📚 出處：臨床微生物學「絲狀黴菌鑑定與酵母菌醣類同化試驗」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Mycology 章節。"
   },
   {
    "n": 61,
@@ -806,7 +863,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Streptococcus pneumoniae",
     "Vibrio vulnificus"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Campylobacter jejuni 是常見的細菌性腸炎病原，感染後可引發自體免疫併發症，其中以 Guillain-Barré 症候群（急性去髓鞘性多發性神經病變）最為著名，與細菌脂多醣及神經節苷脂的分子模擬有關。\n❌ (A) Streptococcus pyogenes 主要引起化膿性咽喉炎、猩紅熱、風濕熱及急性腎絲球腎炎，不造成 GBS。\n❌ (C) Streptococcus pneumoniae 引起肺炎、腦膜炎、中耳炎等，與 GBS 無關。\n❌ (D) Vibrio vulnificus 引起傷口感染及敗血症，與小腸結腸炎及 GBS 無關。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology，Campylobacter 章節；臨床微生物學「彎曲桿菌與 Guillain-Barré 症候群」。"
   },
   {
    "n": 62,
@@ -819,7 +877,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Vibrio vulnificus",
     "Staphylococcus hominis"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：viridans streptococci（草綠色鏈球菌）是人體口腔及上呼吸道的正常菌叢，為亞急性感染性心內膜炎最常見的病原，尤其在原有瓣膜疾病或拔牙後菌血症時發生。\n❌ (B) Streptococcus suis 主要引起豬隻感染及人類腦膜炎、敗血症，與心內膜炎關聯性低。\n❌ (C) Vibrio vulnificus 引起傷口感染、敗血症，非心內膜炎常見病原。\n❌ (D) Staphylococcus hominis 為凝固酶陰性葡萄球菌，多為血液培養污染菌，僅在人工瓣膜或導管感染時偶爾致病。\n📚 出處：臨床微生物學「感染性心內膜炎病原」；Murray, Medical Microbiology，Streptococcus 章節。"
   },
   {
    "n": 63,
@@ -832,7 +891,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Legionella pneumophila",
     "Listeria monocytogenes"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Legionella pneumophila 為水生環境中的胞內寄生菌，可在水塔、冷卻水塔、水管系統等人工供水系統中繁殖，經由吸入含菌氣霧造成感染，老年人及免疫功能低下者易發生下呼吸道感染（退伍軍人症）。\n❌ (A) Chlamydophila pneumoniae 為人傳人的呼吸道病原，不由水塔供水系統繁殖傳播。\n❌ (B) Mycoplasma pneumoniae 亦為人傳人飛沫傳染，與供水系統無關。\n❌ (D) Listeria monocytogenes 多經由污染食品（如乳製品）感染，非水塔供水系統。\n📚 出處：臨床微生物學「Legionella 流行病學與水源傳播」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Legionella 章節。"
   },
   {
    "n": 64,
@@ -845,7 +905,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "血清學檢驗之特異性及靈敏度高，可完全取代培養法",
     "腦脊髓液中主要細胞為嗜中性白血球（neutrophils）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：結核菌性腦膜炎患者腦脊髓液中結核菌數量少，直接抗酸性染色敏感度低，而分枝桿菌培養可將少量菌株放大，平均陽性率較直接染色高，是診斷的重要依據。\n❌ (A) 腦脊髓液離心可濃縮菌體，提高培養陽性率，並非不可離心。\n❌ (C) 血清學檢驗敏感度及特異性不足，無法完全取代培養與分子檢驗。\n❌ (D) 結核菌性腦膜炎以淋巴球為主，非嗜中性白血球；嗜中性白血球增多較見於化膿性細菌性腦膜炎。\n📚 出處：臨床微生物學「結核菌性腦膜炎 CSF 檢驗」；Murray, Medical Microbiology, Mycobacterium 章節。"
   },
   {
    "n": 65,
@@ -858,7 +919,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "尿道分泌物經染色觀察後，若無發現革蘭氏陰性雙球菌，即可排除 Neisseria gonorrhoeae 感染",
     "欲分離Neisseria gonorrhoeae之檢體以室溫運送"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：革蘭氏染色抹片陰性無法完全排除 Neisseria gonorrhoeae 感染，尤其女性無症狀帶菌者菌量低，抹片敏感度差；確診仍須靠培養或核酸檢驗，故「即無發現 GN 雙球菌即可排除」的敘述錯誤。\n❌ (A) 生殖道檢體抹片鏡檢可觀察菌叢、白血球及病原形態，對感染判斷有幫助，敘述正確。\n❌ (B) Chlamydia trachomatis 為常見生殖道感染病原，敘述正確。\n❌ (D) 淋病雙球菌對環境敏感，運送時以室溫（約 35–37℃）保溫為宜，此敘述本身可接受，故非本題所指錯誤。\n📚 出處：臨床微生物學「淋病雙球菌檢驗與生殖道感染抹片」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Neisseria 章節。"
   },
   {
    "n": 66,
@@ -871,7 +933,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Rhizopus spp.",
     "Absidia spp."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Absidia（現多稱 Lichtheimia）屬接合菌，菌絲缺乏黑色素，孢子囊柄由兩側假根（rhizoids）之間的菌絲上長出，兩側假根之間無孢子囊柄為其特徵。\n❌ (A) Fusarium spp. 為絲孢菌（透明菌絲），具大、小分生孢子，非接合菌。\n❌ (B) Bipolaris spp. 為暗色菌絲真菌，與接合菌特徵無關。\n❌ (C) Rhizopus spp. 亦為接合菌，但孢子囊柄由假根節正上方長出（群集於假根處）。\n📚 出處：臨床微生物學「接合菌分類鑑定」；Larone, Medically Important Fungi, Zygomycetes 章節。"
   },
   {
    "n": 67,
@@ -884,7 +947,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Mucicarmine stain",
     "Fontana-Masson stain"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Mucicarmine 染劑可與 Cryptococcus neoformans 具酸性黏多醣的莢膜結合，將莢膜染成紅色，是組織切片中辨識新型隱球菌的經典染色法。\n❌ (A) Diff-Quik stain 為血液抹片常用染色，不專染莢膜。\n❌ (B) Gram stain 為細菌染色，真菌僅呈革蘭氏陽性樣，不使莢膜變紅。\n❌ (D) Fontana-Masson stain 專染黑色素，用於觀察 C. neoformans 的黑色素，而非莢膜。\n📚 出處：臨床微生物學「Cryptococcus neoformans 染色」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Cryptococcus 章節。"
   },
   {
    "n": 68,
@@ -897,7 +961,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Basidiomycota",
     "Fungi Imperfecti"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：傳統分類將真菌分為 Zygomycota、Ascomycota、Basidiomycota 及 Fungi Imperfecti（不完全菌）四門。引起人類疾病的真菌大部分缺乏有性生殖階段，歸類於 Fungi Imperfecti。\n❌ (A) Zygomycota 中引起人類致病者僅限少數接合菌（如 Rhizopus、Mucor），非大宗。\n❌ (B) Ascomycota 雖有部分致病真菌（如 Histoplasma、Aspergillus），但不是傳統分類中人類病原最主要的歸屬。\n❌ (C) Basidiomycota 中人類病原極少（如 Cryptococcus）。\n📚 出處：臨床微生物學「真菌分類」；Larone, Medically Important Fungi，真菌分類章節。"
   },
   {
    "n": 69,
@@ -910,7 +975,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "不含dextrose",
     "含0.1% creatinine，可以增強新型隱球菌（C. neoformans）之黑化作用（melanization）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Birdseed agar 含 0.1% creatinine 等成分，可促進 Cryptococcus neoformans 因 phenol oxidase 作用而產生黑色素（melanization），形成棕色菌落以利鑑定。\n❌ (A) Birdseed agar 含 caffeic acid，作為黑色素生成受質，與 cytochrome oxidase 無關。\n❌ (B) 含 chloramphenicol 可抑制細菌，但敘述未涉快速生長真菌抑制濃度的正確性；其為廣效抑菌劑，主要抑制細菌而非快速生長真菌。\n❌ (C) Birdseed agar 含 dextrose（葡萄糖），並非不含。\n📚 出處：臨床微生物學「Birdseed（Niger seed）agar 成分與新型隱球菌鑑定」；Mahon & Lehman, Textbook of Diagnostic Microbiology。"
   },
   {
    "n": 70,
@@ -923,7 +989,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Gomori-methenamine silver stain專染malanin，常用於皮下黴菌感染",
     "periodic acid-schiff stain可將組織切片中的黴菌體染成紅色"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Gomori-methenamine silver（GMS）染色主要是將真菌細胞壁的多醣染成黑色，並非專染黑色素（melanin）；用於皮下黴菌感染觀察組織中真菌。故本敘述錯誤。\n❌ (A) calcofluor white 可與 chitin 結合，在螢光顯微鏡下觀察真菌構造，敘述正確。\n❌ (B) Liu's stain 可用於血液抹片觀察細胞內 Histoplasma capsulatum，敘述正確。\n❌ (D) periodic acid-Schiff stain 可將組織切片中真菌染成紅色，敘述正確。\n📚 出處：臨床微生物學「黴菌組織染色法」；Larone, Medically Important Fungi, Staining 章節。"
   },
   {
    "n": 71,
@@ -936,7 +1003,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "terbinafine抑制squalene epoxidase，影響ergosterol之合成",
     "echinocandins抑制14α-demethylase，影響ergosterol之合成"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：terbinafine 抑制 squalene epoxidase，阻斷 ergosterol 合成路徑，造成真菌細胞膜成分缺乏而發揮抗黴菌作用。\n❌ (A) nikkomycin Z 抑制 chitin synthase，影響細胞壁合成，非與 ergosterol 結合。\n❌ (B) fluconazole 屬 azole 類，抑制 14α-demethylase（CYP51），影響 ergosterol 合成，而非抑制 1,3-β-glucan synthase。\n❌ (D) echinocandins 抑制 1,3-β-glucan synthase，影響細胞壁合成，而非抑制 14α-demethylase。\n📚 出處：臨床微生物學「抗黴菌藥物作用機轉」；Murray, Medical Microbiology, Antifungal Agents 章節。"
   },
   {
    "n": 72,
@@ -949,7 +1017,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Trichophyton rubrum",
     "Trichosporon beigelii"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Trichophyton mentagrophytes 引起的頭癬多為髮外感染（ectothrix），孢子附著於髮幹外側，屬於常見的髮外型 dermatophyte。\n❌ (B) Trichophyton violaceum 為髮內感染（endothrix）型。\n❌ (C) Trichophyton rubrum 主要造成體癬、足癬等，較少造成頭癬，且非典型髮外感染。\n❌ (D) Trichosporon beigelii 為酵母樣真菌，引起白黴菌毛結節症，與頭癬無關。\n📚 出處：臨床微生物學「皮膚黴菌頭癬分型」；Larone, Medically Important Fungi, Dermatophytes 章節。"
   },
   {
    "n": 73,
@@ -962,7 +1031,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "TSIA 中所含蛋白腖（peptone）的量高於OF medium",
     "TSIA無法區別葡萄醣發酵與否"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：TSIA 中蛋白腖含量高於 OF medium，可支持細菌代謝產生鹼性胺，常用於觀察醣類發酵及 H2S 產生；OF 培養基則為高醣低蛋白質設計。\n❌ (A) TSIA 含三種糖：glucose 0.1%、lactose 及 sucrose 各 1%，含量最多者是 lactose 與 sucrose，非 glucose。\n❌ (B) OF medium 中醣類（如 glucose 1%）含量與 TSIA 相近或略低，並非明顯高於 TSIA。\n❌ (D) TSIA 可區別葡萄糖發酵與否：發酵葡萄糖使底層變黃，非發酵者呈紅色，敘述錯誤。\n📚 出處：臨床微生物學「TSIA 與 OF 培養基組成及原理」；Mahon & Lehman, Textbook of Diagnostic Microbiology。"
   },
   {
    "n": 74,
@@ -975,7 +1045,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Francisella tularensis",
     "Bacillus anthracis"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Francisella tularensis 對 vancomycin 具內源性抗藥性，此特徵可作為選擇性培養基設計的依據，用於分離此菌。\n❌ (A) Staphylococcus aureus 對 vancomycin 敏感，僅少數 VRSA 才有抗藥，非內源性。\n❌ (B) Enterococcus faecalis 對 vancomycin 通常敏感，VRE 為後天獲得抗藥。\n❌ (D) Bacillus anthracis 對 vancomycin 敏感，非內源性抗藥。\n📚 出處：臨床微生物學「細菌內源性抗藥」；Murray, Medical Microbiology, Francisella 章節。"
   },
   {
    "n": 75,
@@ -988,7 +1059,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Campylobacter jejuni",
     "Streptococcus pyogenes"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：Streptococcus pyogenes 主要感染人類，非人畜共通病原；其傳染來源為人，與動物無關。\n❌ (A) Leptospira spp. 可感染鼠類等動物，經由尿液污染環境傳給人，為典型人畜共通病。\n❌ (B) Salmonella spp. 可經由家禽、家畜及蛋製品傳給人，屬人畜共通。\n❌ (C) Campylobacter jejuni 常存於家禽腸道，經污染食物傳播，為人畜共通病原。\n📚 出處：臨床微生物學「人畜共通傳染病病原」；Murray, Medical Microbiology, Zoonoses 章節。"
   },
   {
    "n": 76,
@@ -1001,7 +1073,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Heamophilus ducreyi",
     "Treponema pallidum"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Chlamydophila pneumoniae 引起呼吸道感染（如肺炎、支氣管炎），並非性傳染病病原。\n❌ (A) Neisseria gonorrhoeae 為淋病病原，屬性傳染病。\n❌ (C) Haemophilus ducreyi 引起軟性下疳，為性傳染病。\n❌ (D) Treponema pallidum 引起梅毒，為典型性傳染病。\n📚 出處：臨床微生物學「性傳染病病原」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Sexually Transmitted Diseases 章節。"
   },
   {
    "n": 77,
@@ -1014,7 +1087,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Enterohaemorrhagic E. coli–verotoxin",
     "Clostridium tetani–neurotoxin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：streptolysin（鏈球菌溶血素 O／S）主要產生菌為 Streptococcus pyogenes，而非 Streptococcus pneumoniae；肺炎鏈球菌的毒素為 pneumolysin，故本配對錯誤。\n❌ (A) Staphylococcus aureus 產生 enterotoxin，引起食物中毒，配對正確。\n❌ (C) Enterohaemorrhagic E. coli（EHEC）產生 verotoxin（Shiga-like toxin），配對正確。\n❌ (D) Clostridium tetani 產生 neurotoxin（tetanospasmin），配對正確。\n📚 出處：臨床微生物學「細菌毒素與疾病」；Murray, Medical Microbiology, Bacterial Toxins 章節。"
   },
   {
    "n": 78,
@@ -1027,7 +1101,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Pontiac fever－Chlamydophila pneumoniae",
     "Rat-bite fever－Orientia tsutsugamushi"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：Q fever（Q 熱）由 Coxiella burnetii 引起，屬人畜共通感染，經吸入受污染氣霧或接觸動物傳播。\n❌ (B) Relapsing fever（回歸熱）由 Borrelia 屬螺旋體引起，並非 Treponema pallidum。\n❌ (C) Pontiac fever（龐提亞克熱）由 Legionella pneumophila 引起，非 Chlamydophila pneumoniae。\n❌ (D) Rat-bite fever（鼠咬熱）由 Streptobacillus moniliformis 或 Spirillum minus 引起，非 Orientia tsutsugamushi（此菌引起恙蟲病）。\n📚 出處：臨床微生物學「疾病與病原菌配對」；Murray, Medical Microbiology, Rickettsia 與 Spirochetes 章節。"
   },
   {
    "n": 79,
@@ -1040,7 +1115,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "Regan-Lowe medium: Bordetella pertussis",
     "Mannitol salt agar: Streptococcus agalactiae"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Regan-Lowe medium 為 Bordetella pertussis 的選擇性培養基，含活性碳及血液等成分，是分離百日咳桿菌的常用培養基。\n❌ (A) New York City medium 用於分離 Neisseria gonorrhoeae，非 Listeria monocytogenes。\n❌ (B) PPLO agar 用於 Mycoplasma 培養，Coxiella burnetii 需細胞培養或動物接種，非 PPLO agar。\n❌ (D) Mannitol salt agar 適用於 Staphylococcus aureus 鑑別，非 Streptococcus agalactiae。\n📚 出處：臨床微生物學「選擇性培養基配對」；Mahon & Lehman, Textbook of Diagnostic Microbiology。"
   },
   {
    "n": 80,
@@ -1053,7 +1129,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt6'] = {
     "變形桿菌屬（Proteus）",
     "假單胞桿菌屬（Pseudomonas）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：病患自東南亞返台，出現兩階段發燒、水樣腹瀉，血液培養分離出不發酵乳糖的腸內桿菌科細菌，最符合 Salmonella（如傷寒、副傷寒）菌血症表現，故選 Salmonella。\n❌ (A) Klebsiella 為腸內桿菌科，發酵乳糖，且不典型表現為兩階段發燒。\n❌ (C) Proteus 發酵乳糖陰性但主要泌尿道感染，並非此臨床表現。\n❌ (D) Pseudomonas 屬非腸內桿菌科，且氧化酶陽性，不會分離為不發酵乳糖腸內桿菌。\n📚 出處：臨床微生物學「沙門氏菌菌血症與旅遊史」；Murray, Medical Microbiology, Salmonella 章節。"
   }
  ]
 };

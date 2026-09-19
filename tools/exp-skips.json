@@ -1000,6 +1000,23 @@
    "at": "2026-09-14"
   }
  ],
+ "mlt-108-2-mlt6": [
+  {
+   "n": 38,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 39,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  },
+  {
+   "n": 40,
+   "reason": "DEFER-DS：DeepSeek 未回傳，留給 claude 補",
+   "at": "2026-09-19"
+  }
+ ],
  "mlt-109-1-mlt2": [
   {
    "n": 72,
