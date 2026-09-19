@@ -26852,7 +26852,7 @@ window.APP_EXAMS = [
   "subjName": "膳食療養學",
   "label": "102 年第二次　膳食療養學",
   "n": 40,
-  "exp": 0,
+  "exp": 39,
   "mins": 120
  },
  {
