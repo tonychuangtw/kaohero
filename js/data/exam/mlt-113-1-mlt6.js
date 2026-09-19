@@ -182,7 +182,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt6'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_308_44_12.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 白喉毒素的結構基因 tox 位於溶原性噬菌體（β-corynephage）的基因體上，並非細菌本身所有。只有被此噬菌體感染而成為溶原菌（lysogen）的 Corynebacterium diphtheriae 才會產生白喉毒素，這種現象稱為溶原性轉換（lysogenic conversion）。\n❌ (A) Chromosome：白喉桿菌染色體上沒有 tox 基因；染色體只提供調控蛋白 DtxR（以鐵為輔因子抑制毒素表現），非毒素基因本身。\n❌ (B) Plasmid：白喉毒素基因不是質體攜帶；質體媒介毒素的典型例子是炭疽桿菌的 pXO1、ETEC 的腸毒素等。\n❌ (D) Insertion sequence：插入序列僅是可移動的短片段，本身只帶轉位酶基因，不編碼外毒素。\n📚 出處：Murray, Medical Microbiology, Corynebacterium 章節；白喉毒素 tox 基因與 β-corynephage 溶原性轉換。"
   },
   {
    "n": 13,
@@ -407,7 +408,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt6'] = {
    ],
    "needfig": true,
    "fig": "img/q/113020_308_44_28.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Haemophilus influenzae 的生物型（biotype I～VIII）是依三項生化試驗的組合來區分：indole 產生、urease 活性、ornithine decarboxylase 活性。例如三項皆陽性為 biotype I，indole 與 urease 陽性、ornithine 陰性為 biotype II。\n❌ (A) Serological test：血清學試驗是以莢膜多醣抗原區分血清型 a～f（如 type b 為侵襲性感染主因），屬血清分型而非生物分型。\n❌ (C) Glucose、lactose、sucrose fermentation：糖發酵主要用於腸內菌科等的鑑別；H. influenzae 培養需 X（hemin）與 V（NAD）因子，不以此三糖發酵分型。\n❌ (D) Antibiotic sensitivity test：藥敏試驗提供治療用藥與 β-lactamase 產生與否的資訊，不是分型依據。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology, Haemophilus 章節；H. influenzae biotyping（indole／urease／ornithine decarboxylase）。"
   },
   {
    "n": 29,
