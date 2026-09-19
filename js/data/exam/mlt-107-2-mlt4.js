@@ -126,7 +126,8 @@ window.APP_EXAM_PAPERS['mlt-107-2-mlt4'] = {
    ],
    "needfig": true,
    "fig": "img/q/107100_308_66_8.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：Ag xy 與 Ag xz 共有抗原決定位 x，但 xy 另有 y。抗體池為 Ab x＋Ab y：Ag xy 同時被兩種抗體沉澱，Ag xz 只被 Ab x 沉澱，屬「部分相同（partial identity）」。兩條沉澱線會在中間會合，但 Ag xy 因多出的 anti-y 未被對側抗原耗盡，會越過會合點向 Ag xz 側延伸出一根骨刺（spur），即 B 圖的形狀，故選 B。\n❌ (A) 平滑連續、毫無骨刺的弧線代表「完全相同（identity）」，意即兩孔抗原的決定位完全一致；本題 xy 帶有 xz 沒有的 y，不會呈現這種完全融合。\n❌ (C) 兩線在中央會合成 V 形而沒有骨刺，同樣屬完全融合的 identity 圖形，無法表現多出的 y 決定位被 anti-y 另外沉澱的現象。\n❌ (D) 兩條沉澱線彼此完全交叉成 X 形代表「非相同（non-identity）」，用於兩抗原毫無共同決定位時；xy 與 xz 共有 x，必定部分融合，不會完全交叉。\n📚 出處：臨床免疫學－Ouchterlony 雙向免疫擴散法，沉澱線三型（identity 融合弧、partial identity 帶 spur、non-identity 交叉）。"
   },
   {
    "n": 9,
