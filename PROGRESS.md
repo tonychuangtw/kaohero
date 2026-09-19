@@ -1,37 +1,20 @@
-STATUS: in-progress
-OBJECTIVE: 把考英雄全站的逐題詳解寫完。**全部科目都已轉檔完畢**（藥師、中醫師、牙醫師、醫師、護理師、教師檢定、高普考、地方特考、初等考試、警察特考、律師、導遊領隊、其他醫事類）；剩下的工作＝把最後一科「其他醫事類」636 卷 44,400 題的詳解寫完，由 exp-worker 逐卷跑。
-NEXT_ACTION: 等 worker 跑完其他醫事類。分兩段（Tony 09/18 定的規矩：法規題不用 DeepSeek）：
-　**第一段（進行中，09/19 05:06 台北起，引擎 deepseek）**：530 卷 37,698 題，範圍＝除了會引條號的四科以外全部。
-　　實測 pt-115-2-pt6 一卷 79 題 38 秒、品質抽查良好；照此速度估 6～8 小時，費用估 US$4～6（餘額 18.51）。
-　**第二段（第一段跑完後手動切，⚠ 一定要等 worker 閒著再清，不然會跟它同時寫同一個題庫檔）**：
-　　(a) 法規四科 106 卷 6,238 題（pt2 物理治療學概論、ot2 職能治療學概論、nut4 團體膳食設計與管理、
-　　　　nut6 食品衛生與安全 —— 都會引物理治療師法／職能治療師法／食品安全衛生管理法條號）；
-　　(b) **DeepSeek 已經寫好但引了條號的題，要清掉重寫**（條號會是掰的，見下面「DeepSeek 的法條條號不可信」）：
-　　　　導遊領隊 531 題（09/18 就該做、漏做了，見下面那節的「⚠ 09/19 補記」）＋醫事類 102 題（09/19 09:40 時的數字，
-　　　　集中在 nut5 公共衛生營養學 37、ot4/5/6 職能治療 38、pt6 心肺物治 21，跑完會再多，清之前重新數一次）；
-　　(c) DeepSeek 讀不了圖而延後的圖片題（skip 理由 `DEFER-`）。
-```
-# (b) 兩批分開清，備份檔會互相覆蓋，清完一批先把 tools/exp-clear-backup.json 改名留存
-node tools/exp-clear.js --grep '第\s*\d+\s*條' --pids tools/exp-ds-papers-2026-09-18.txt --write
-mv tools/exp-clear-backup.json tools/exp-clear-backup-tou.json
-node tools/exp-clear.js --grep '第\s*\d+\s*條' --match '^(mlt|pt|ot|nut)-' --write
-mv tools/exp-clear-backup.json tools/exp-clear-backup-med4.json
-# (c) 圖片題放回佇列
-node tools/exp-skip-drop.js --reason-match '^DEFER' --match '^(mlt|pt|ot|nut)-' --write
-node tools/build-index.js --write && node test/test.js && git add -A && git commit && git push
-# 切 claude，範圍＝醫事類全部＋導遊領隊（被清掉的那些卷會自己重新排進佇列）
-sed -i 's|^Environment=EXP_MATCH=.*|Environment=EXP_MATCH=^(mlt\|pt\|ot\|nut\|tou)-|' tools/exp-worker.service
-tools/exp-engine.sh claude
-```
-　本線只做四件事：（1）回 Tony 的訊息；（2）Tony 問進度時看 `systemctl --user status exp-worker`、`tail ~/.claude/exp-worker.log`、下方「exp-worker」自動區塊；（3）worker 停下來（連續失敗告警、或 `~/.claude/exp-worker.failed` 有卷）時查原因、修工具、`systemctl --user start exp-worker` 重啟；（4）worker 做完一科後轉檔下一科 —— **已經沒有下一科了**，這一科寫完＝全站詳解完工，要跟 Tony 回報總數與總花費，並問下一步做什麼（`docs/monetization-plan.md` 的題解分離與變現四階段在等）。
-　換範圍＝改 `tools/exp-worker.service` 的 `EXP_MATCH` 後 `cp tools/exp-worker.service ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user restart exp-worker`（注意：`exp-engine.sh` 會用 repo 裡那份覆蓋 unit 再補兩行 Environment，改 EXP_MATCH 要改 repo 裡的檔）。
-　⛔ 不要自己再逐卷寫詳解、不要手動跑 set-exp／build-pages 改題庫（會跟 worker 互撞）。Tony 09-14 定案，原因：之前全在本線對話裡做，每步 context 535k、一週吃掉全線額度 84%。
+STATUS: blocked
+OBJECTIVE: 考英雄全站逐題詳解。**2026-09-20 03:28 台北：最後一科（其他醫事類）寫完，全站 4,430 卷 223,921 題、詳解 217,529 題（97.1%）**，worker 範圍內已無待寫卷。
+NEXT_ACTION: 等 Tony 決定下一步（09/20 03:40 台北已在 kaohero 線問他，兩選一）：
+　**(A) 補完舊科目剩下的 828 卷 3,077 題**（地方特考 195 卷、高普考 164、牙醫 159、藥師 92、初等 86、中醫 73、教檢 30、護理 29）。
+　　這些是 worker 之前「在對話裡逐卷做」那個年代留下的：判定寫不出來的理由只寫在 commit message、沒進 `tools/exp-skips.json`，
+　　所以 `exp-next.js` 每次都還會列出來。其中約 282 題當年判定「其實可以寫」（選項排多欄但有 fig 那批）。
+　　做法：`EXP_MATCH=^(loc|gao|den|pha|chu|tcm|tea|nur)-`＋引擎 claude，估 $300 等值／約 10 小時；
+　　跑完務必把跳過理由正式寫進 `exp-skips.json`，以後數字才乾淨。
+　**(B) 直接做 `docs/monetization-plan.md` 的階段 0（題解分離）** —— 那份計畫寫明「詳解寫完之後第一件事」。
+　他回哪一個就做哪一個；沒回之前本線不要自己啟動 worker 燒額度。
+　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案，見 `CLAUDE.md`）。
 
 VALIDATION: `node test/test.js` 全綠；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 無。09/19 05:10 台北現況：其他醫事類 636 卷 44,400 題已轉檔完成並上線（commit 4a1b8c08），worker 正以 deepseek 逐卷寫第一段。導遊領隊已於 09/18 20:50 收工（277 卷 20,840 題，寫 19,536／93.7%，跳 1,263、廢題 41、失敗 0 卷），總花費已回報 Tony（agy $0／DeepSeek US$0.86／claude $168.42 等值）。
+BLOCKERS: 等 Tony 回覆上面的 (A)／(B)。worker 已 inactive、repo 乾淨、`node test/test.js` 60,739 項全綠。09/19 05:10 台北現況：其他醫事類 636 卷 44,400 題已轉檔完成並上線（commit 4a1b8c08），worker 正以 deepseek 逐卷寫第一段。導遊領隊已於 09/18 20:50 收工（277 卷 20,840 題，寫 19,536／93.7%，跳 1,263、廢題 41、失敗 0 卷），總花費已回報 Tony（agy $0／DeepSeek US$0.86／claude $168.42 等值）。
 
 PATHS: js/data/exam/*.js（題庫本體）、~/exam-pdfs/med4（其他醫事類轉檔工作目錄）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-19 12:10 台北
+UPDATED: 2026-09-20 03:45 台北
 
 ## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
 
@@ -246,6 +229,24 @@ Tony 09/19 09:14 問「社會行政應該不只三科」。**原因：那些科�
 **待辦**：站上沒有任何說明，使用者點進社會行政只看到 3 科會以為是我們做壞了。
 已向 Tony 提議在類科頁（`js/app.js` 的 `viewTrack`，科目清單下面）加一行小字：
 「本站只收有標準答案的測驗題卷；本類科其他科目為申論題，考選部未公布答案，故未收錄。」等他決定。
+
+## 最後一科完工紀錄（2026-09-20 03:28 台北）
+
+worker 收工：281 卷 7,181 題、跳過 85、失敗 0 卷。這一段是 claude 引擎，範圍＝法規四科 106 卷
+＋被清掉重寫的（條號 660 題、簡體 49 題）＋DeepSeek 讀不了圖放回的 296 題。
+
+**其他醫事類這一科的總花費**：DeepSeek US$5.06（實付）＋ claude $224.69 等值（吃訂閱週限）。
+claude 段分布：nut 88 卷 $73.64、pt 70 卷 $64.78、ot 64 卷 $48.14、mlt 38 卷 $17.42、tou 條號重寫 26 卷 $20.71。
+（對照：導遊領隊整科 agy $0 ＋ DeepSeek $0.86 ＋ claude $168.42。）
+
+**修正後的驗證**（兩項都要，以後重寫完照抄）：
+```
+# 殘留簡體字與中國法規：兩個都要是 0
+node -e "...q.exp 比對 /[药养检医疗试验标规国际这见来说对时会长发现关点当门问题实组织细产业务员导师签级结构专区处进过还应无与]/ 與 /中國居民膳食|食品安全國家標準|衛健委|中華人民共和國/"
+# 條號抽查：拿一個跨卷重複出現的考點，看不同卷是否一致且正確
+```
+結果：醫事類 43,521 題詳解，簡體 0、中國法規 0；條號抽查 `tou-104-1-l009 #10` 已寫「旅行業管理規則第 66 條」、
+`tou-104-1-d002 #48` 寫「大陸地區人民來臺觀光許可辦法第 14 條（題幹本來就有）＋旅行業管理規則第 53 條」，正確。
 
 ## DeepSeek 停用與那批詳解的體檢（2026-09-19 Tony 定案＋全批掃描）
 
