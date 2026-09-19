@@ -289,7 +289,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "3 個",
     "4 個"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 一個血色素分子由 2 個 α 鏈與 2 個 β 鏈組成，每條鏈含 1 個 heme，每個 heme 可結合 1 個 O2，故最多攜帶 4 個 O2。\n❌ (A) 1 個 O2 僅為單一 heme 的攜帶量。\n❌ (B) 2 個 O2 為兩個 heme 的攜帶量。\n❌ (C) 3 個 O2 非血色素之最大攜帶量。\n📚 出處：Harper's Biochemistry 血色素結構章節；heme 與氧結合之計量關係。"
   },
   {
    "n": 22,
@@ -302,7 +303,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Rituximab（anti-CD20）",
     "benzene"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) AML with t(15;17) 即急性前骨髓性白血病（APL），PML-RARA 融合蛋白阻斷 RARα 導致前骨髓細胞分化停滯；all-trans retinoic acid（ATRA）可解除此阻斷、誘導分化，為首選治療。\n❌ (B) STI-571（imatinib）為 BCR-ABL 抑制劑，用於 CML 及 t(9;22) 陽性白血病，對 APL 無效。\n❌ (C) Rituximab 為 anti-CD20 單株抗體，治療 B 細胞淋巴瘤，APL 為骨髓性白血病，不適用。\n❌ (D) benzene 為致癌化學物，會增加白血病風險，絕非治療藥物。\n📚 出處：WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues；APL 之 ATRA 分化治療。"
   },
   {
    "n": 23,
@@ -315,7 +317,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "CD20",
     "CD22"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Rituximab 為嵌合型 anti-CD20 單株抗體，藉由補體依賴性細胞毒殺與抗體依賴性細胞毒殺破壞 CD20 陽性 B 細胞，用於 low-grade non-Hodgkin lymphoma 等 B 細胞腫瘤。\n❌ (A) CD16 為 FcγRIII，表現於 NK 細胞與巨噬細胞，非 rituximab 標的。\n❌ (B) CD19 為 B 細胞標記，但 rituximab 並非 anti-CD19（anti-CD19 為另類藥物如 blinatumomab 之標的）。\n❌ (D) CD22 亦為 B 細胞標記，但其抗體為 epratuzumab 等，並非 rituximab。\n📚 出處：Rituximab 之藥理機轉；anti-CD20 單株抗體與 B 細胞腫瘤治療。"
   },
   {
    "n": 24,
@@ -328,7 +331,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "②③⑤",
     "①④⑥"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 初級顆粒（azurophilic granules）含 myeloperoxidase、acid hydrolase、acid phosphatase 等，相當於溶酶體；故①④⑥正確。\n❌ (A) transcobalamin I（②）為次級顆粒成分；lactoferrin（③）亦屬次級顆粒，不在此。\n❌ (B) collagenase（⑤）為次級顆粒成分，故④⑤⑥不全正確。\n❌ (C) ②③⑤皆為次級顆粒成分，非初級顆粒所含。\n📚 出處：Wintrobe's Clinical Hematology；顆粒性球初級與次級顆粒之酶組成。"
   },
   {
    "n": 25,
@@ -341,7 +345,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "polycythemia vera",
     "Burkitt lymphoma"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Imatinib 為 BCR-ABL 酪胺酸激酶抑制劑，CML 幾乎皆有 t(9;22)（BCR-ABL），故療效最佳，為標靶治療典範。\n❌ (A) 5q-syndrome 為 MDS 亞型，主要治療為 lenalidomide，非 imatinib。\n❌ (C) Polycythemia vera 以 JAK2V617F 突變為主，使用 ruxolitinib 或放血治療，imatinib 效果有限。\n❌ (D) Burkitt lymphoma 為 MYC 基因易位（t(8;14)），以密集化療治療，與 BCR-ABL 無關。\n📚 出處：CML 之 BCR-ABL 標靶治療；imatinib 適應症。"
   },
   {
    "n": 26,
@@ -354,7 +359,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "chronic lymphocytic leukemia",
     "myelodysplastic syndrome"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 病人白血球極高（215,720/µL）、血小板增多、脾腫大、完整成熟譜系（promyelocyte 至 segmented neutrophil）、LAP score 偏低（19），為典型 CML，且血液像呈 myeloid 增生。\n❌ (B) AML 應見大量 blast（>20%），本例 blast 僅 1%，不符。\n❌ (C) CLL 白血球增多以成熟淋巴球為主，本例淋巴球未顯著增加，且血小板高、脾腫大較不符。\n❌ (D) MDS 多為血球減少、LAP 正常或偏高，本例白血球與血小板皆高，不符合。\n📚 出處：CML 臨床與實驗室特徵；LAP score 降低、周邊血 myeloid 系列全譜增生。"
   },
   {
    "n": 27,
@@ -367,7 +373,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "ALL L1",
     "ALL L3"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) AML M4（acute myelomonocytic leukemia）同時具 myeloid 與 monocytic 成分，故 chloroacetate esterase（myeloid 標記）與 non-specific esterase（monocytic 標記）皆呈陽性。\n❌ (A) AML M1 為未分化型，NSE 一般陰性。\n❌ (C) ALL L1 為淋巴球來源，CAE 與 NSE 皆陰性。\n❌ (D) ALL L3（Burkitt 型）淋巴系化學染色亦不呈陽性。\n📚 出處：FAB 分類之細胞化學染色；M4 雙重酯酶陽性特徵。"
   },
   {
    "n": 28,
@@ -380,7 +387,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "t(8;21)",
     "del(7q)"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 急性骨髓性白血病中 t(8;21)（AML1-ETO，即 RUNX1-RUNX1T1）屬良好預後群，完全緩解率高、長期存活佳。\n❌ (A) del(5q) 為不良預後之染色體異常，常見於 MDS 或治療相關白血病。\n❌ (B) Abnormal 3q 亦屬不良預後（如 3q21q26 影響 EVI1）。\n❌ (D) del(7q) 或 -7 為不良預後，化療反應差。\n📚 出處：WHO 分類 AML 之預後染色體分群；t(8;21) 為 favorable risk。"
   },
   {
    "n": 29,
@@ -393,7 +401,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "systemic mastocytosis",
     "polycythemia vera"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Polycythemia vera 約 95% 以上病人有 JAK2V617F 突變，導致紅血球增生；JAK2 亦見於 essential thrombocythemia 與 primary myelofibrosis，但 PV 最典型。\n❌ (A) Diffuse large B cell lymphoma 與 BCL2/BCL6/MYC 等異常有關，非 JAK2。\n❌ (B) CML 的關鍵為 BCR-ABL，非 JAK2 突變。\n❌ (C) Systemic mastocytosis 可見 KIT D816V 突變，JAK2 並非最常見。\n📚 出處：WHO 分類；骨髓增生性腫瘤之 JAK2V617F 突變。"
   },
   {
    "n": 30,
@@ -406,7 +415,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "t(9;22)",
     "t(8;21)"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Follicular lymphoma 約 80～90% 有 t(14;18)(q32;q21)，使 BCL2 基因置於 IgH 增強子下過度表現，抑制細胞凋亡。\n❌ (B) t(15;17) 見於 APL（AML with PML-RARA）。\n❌ (C) t(9;22)（BCR-ABL）見於 CML 及部分 ALL。\n❌ (D) t(8;21) 見於 AML with RUNX1-RUNX1T1。\n📚 出處：WHO 分類淋巴瘤；follicular lymphoma 之 t(14;18)/BCL2。"
   },
   {
    "n": 31,
@@ -419,7 +429,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "CD19、CD20",
     "CD2、CD8"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) CD19 與 CD20 為 B 細胞特異性標記，前者自 pro-B 至漿細胞前表現，後者用於 B 細胞偵測與 rituximab 標的。\n❌ (A) CD2、CD5 主要為 T 細胞標記（亦可見於部分 B 細胞腫瘤）。\n❌ (B) CD13、CD14 為髓性標記（單核球等），非 B 細胞。\n❌ (D) CD2、CD8 為 T 細胞標記，其中 CD8 為細胞毒型 T 細胞。\n📚 出處：流式細胞儀免疫分型；B 細胞特異性抗原 CD19、CD20。"
   },
   {
    "n": 32,
@@ -432,7 +443,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "CD117、CD41",
     "CD2、CD7"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) CD2 與 CD7 皆為泛 T 細胞標記，可用於偵測 T 細胞及其腫瘤。\n❌ (A) CD13、CD33 為髓性標記，用於偵測 AML 等。\n❌ (B) CD19、CD22 為 B 細胞標記。\n❌ (C) CD117 為幹細胞/肥大細胞標記，CD41 為血小板標記。\n📚 出處：流式細胞儀免疫分型；泛 T 細胞標記 CD2、CD7。"
   },
   {
    "n": 33,
@@ -445,7 +457,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "細胞的成熟度（maturity）",
     "細胞的存活狀態（viability）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Forward scatter（FS）與細胞大小成正比，反映細胞體積；side scatter（SS）則反映內部顆粒性與複雜度。\n❌ (A) 細胞顆粒性主要由 side scatter 呈現。\n❌ (C) 成熟度需靠表面標記，非 FS 直接反映。\n❌ (D) 存活狀態常以 PI 或 7-AAD 染色評估，非 FS。\n📚 出處：流式細胞儀原理；FSC 與 SSC 之意義。"
   },
   {
    "n": 34,
@@ -458,7 +471,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "CD45",
     "CD34"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) CD20 在 pro-B 時期尚未表現，進入 pre-B 時期後才出現，並持續至成熟 B 細胞，為 B 細胞發育後期標記。\n❌ (A) CD19 自 pro-B 早期即表現，比 CD20 更早。\n❌ (C) CD45 為白血球共同抗原，更早期即表現。\n❌ (D) CD34 為幹細胞/pro-B 早期標記，pre-B 時逐漸減弱。\n📚 出處：B 細胞發育與表面標記表現順序；CD20 於 pre-B 期出現。"
   },
   {
    "n": 35,
@@ -471,7 +485,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "此人沒有thrombocytopenia",
     "此人沒有anemia"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 淋巴球 65% 且絕對值約 2,015/µL（3,100×0.65），在成人正常範圍內（約 1,000～4,000/µL），故不能稱為 lymphocytosis，此敘述錯誤。\n❌ (B) 嗜中性球約 620/µL（20%），低於 1,500/µL，確有 neutropenia。\n❌ (C) 血小板 256,000/µL 在正常範圍，無 thrombocytopenia。\n❌ (D) 血色素 14.5 g/dL 正常，無 anemia。\n📚 出處：周邊血液白血球絕對計數與正常參考值。"
   },
   {
    "n": 36,
@@ -484,7 +499,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "selective IgA or IgG subclass deficiencies",
     "胸腺發育不全（thymic aplasia）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 胸腺發育不全（thymic aplasia，如 DiGeorge syndrome）造成 T 細胞缺乏，屬細胞免疫缺陷，B 細胞與抗體生成大致正常，故不會有抗體缺乏。\n❌ (A) 骨髓癌（myeloma）為漿細胞惡性增生，產生大量單株抗體但正常抗體下降，有抗體缺乏。\n❌ (B) X-linked agammaglobulinemia 因 BTK 缺陷致 B 細胞成熟障礙，抗體嚴重缺乏。\n❌ (C) Selective IgA 或 IgG subclass deficiency 直接造成抗體缺乏。\n📚 出處：原發性免疫缺陷分類；DiGeorge syndrome 之 T 細胞缺陷。"
   },
   {
    "n": 37,
@@ -497,7 +513,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Epstein-Barr virus",
     "human immunodeficiency virus（HIV）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Adult T-cell leukemia/lymphoma 由 human T-cell lymphotropic virus type 1（HTLV-1）感染引起，病毒經由 Tax 等基因促使 T 細胞惡性轉化。\n❌ (B) Cytomegalovirus 造成感染性單核球增多症樣症狀，與 ATL 無關。\n❌ (C) Epstein-Barr virus 與 Burkitt lymphoma、霍奇金淋巴瘤、鼻咽癌等有關。\n❌ (D) HIV 造成 AIDS 及相關淋巴瘤，但非 ATL 之病因。\n📚 出處：WHO 分類；ATL 與 HTLV-1 之關聯。"
   },
   {
    "n": 38,
@@ -536,7 +553,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Golgi apparatus",
     "endoplasmic reticulum"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Ring sideroblast 的含鐵顆粒沉積於粒線體，因血基質合成障礙（如 ALAS2、SLC25A38 等異常）使鐵在粒線體內堆積，繞核排列成環。\n❌ (A) 鐵顆粒不在細胞核內，核為 DNA 所在。\n❌ (C) Golgi apparatus 負責蛋白質修飾與包裝，與鐵沉積無關。\n❌ (D) Endoplasmic reticulum 為蛋白質合成場所，非鐵顆粒主要位置。\n📚 出處：MDS 之 ring sideroblast 病理機轉；粒線體鐵沉積。"
   },
   {
    "n": 41,
@@ -549,7 +567,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "約有一半的病人有JAK2基因突變",
     "絕大多數病人的脾臟沒有腫大的現象"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Primary myelofibrosis 因骨髓纖維化致造血轉移至脾臟，絕大多數病人有明顯脾腫大，此敘述錯誤。\n❌ (A) PMF 屬 BCR-ABL 陰性骨髓增生性腫瘤，通常無 BCR-ABL 融合基因。\n❌ (B) 疾病晚期因骨髓衰竭與脾臟扣押，常見貧血。\n❌ (C) 約一半病人帶有 JAK2V617F 突變，另有 CALR、MPL 突變。\n📚 出處：WHO 分類；primary myelofibrosis 之臨床與分子特徵。"
   },
   {
    "n": 42,
@@ -562,7 +581,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "與Factor Xa的作用能力強，藉此抑制血栓的形成",
     "治療後較不會有骨質疏鬆的情形產生"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) LMWH 的作用機轉是與 antithrombin III 結合，大幅增強其對 Factor Xa 的抑制（anti-Xa:anti-IIa 約 3:1），並非直接抑制血小板，故本選項錯誤。\n❌ (A) LMWH 為常用抗血栓（抗凝血）藥物，用於深部靜脈栓塞預防與治療。\n❌ (C) LMWH 抑制 Xa 的能力強，可有效阻斷凝血連鎖反應進而抑制血栓形成。\n❌ (D) 與 unfractionated heparin 相比，LMWH 較少引起骨質疏鬆及 HIT，此敘述正確。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Coagulation 章；LMWH 藥理機轉 anti-Xa 活性。"
   },
   {
    "n": 43,
@@ -575,7 +595,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "②③",
     "③④"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) ②有 factor VIII 基因倒轉（intron 22 inversion）者多為 severe hemophilia，其抑制抗體發生率高於輕型病人，正確；③Bethesda assay 可定量 factor VIII inhibitor 的效價（Bethesda unit），正確，故答案為②③。\n❌ (A) ①經治療的血友病病人出現 inhibitor 屬同種抗體（alloantibody），非自體抗體，①錯誤，故含①的選項不對。\n❌ (B) ④inhibitor 陽性病人血漿與正常血漿混合後，因抗體中和正常血漿的 factor VIII，37℃作用 2 小時後 APTT 仍延長（不矯正），④錯誤，故含④的選項不對。\n❌ (D) ①與④皆錯誤，故③④組合不成立。\n📚 出處：factor VIII inhibitor──alloantibody vs autoantibody、intron 22 inversion 與 inhibitor 風險、Bethesda assay 定量、mixing test 不矯正特性。"
   },
   {
    "n": 44,
@@ -588,7 +609,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "PAR 3",
     "PAR 4"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Activated protein C 結合內皮細胞蛋白 C 受體（EPCR）後，可經由切開 PAR-1（protease-activated receptor 1）來傳遞訊息，發揮抗發炎與細胞保護作用。\n❌ (B) PAR-2 主要由 trypsin、tryptase 等活化，並非 APC-EPCR 訊息的主要媒介。\n❌ (C) PAR-3 主要作為小鼠 thrombin 的輔助受體，非 APC 抗發炎路徑主角。\n❌ (D) PAR-4 為 thrombin 受體之一，與 APC 調控發炎無關。\n📚 出處：Williams Hematology，Protein C 抗凝血與發炎調控章節；APC-EPCR-PAR-1 訊息路徑。"
   },
   {
    "n": 45,
@@ -601,7 +623,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Antithrombin III",
     "Coumarin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Tissue-type plasminogen activator（tPA）能將 plasminogen 轉為 plasmin，分解纖維蛋白，是臨床使用的血栓溶解劑（如 alteplase）。\n❌ (B) Thrombomodulin 為內皮細胞上的輔助因子，協助 thrombin 活化 protein C，屬抗凝血系統。\n❌ (C) Antithrombin III 抑制 thrombin 與 Xa，屬抗凝血物質。\n❌ (D) Coumarin（warfarin）為維生素 K 拮抗劑，屬口服抗凝血藥，並非溶解已形成血栓的藥物。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Fibrinolysis 章；tPA 機轉。"
   },
   {
    "n": 46,
@@ -614,7 +637,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "560",
     "650"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Factor V Leiden 是 F5 基因突變造成第 506 位胺基酸由 arginine 變為 glutamine（R506Q），使 activated protein C 無法有效切割 factor Va，產生 APC resistance。\n❌ (B) 605 非此突變位點，屬干擾選項。\n❌ (C) 560 非 factor V Leiden 的變異位置。\n❌ (D) 650 亦非此突變位點。\n📚 出處：Williams Hematology，Thrombophilia 章；Factor V Leiden R506Q 突變。"
   },
   {
    "n": 47,
@@ -627,7 +651,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "可能是自體免疫抗體造成",
     "血小板減少"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) ADAMTS-13 缺乏時，病人是 ADAMTS13 基因突變（先天性）或自體抗體（後天性），並非 vWF 基因突變造成第 2051 胺基酸改變，故本敘述錯誤。\n❌ (A) ADAMTS-13 負責切割 ultra large vWF，缺乏時 UL-vWF 增多，易與血小板自發結合形成微血栓。\n❌ (C) 後天性 TTP 常因自體抗體抑制 ADAMTS-13 所致，敘述正確。\n❌ (D) 微血栓大量消耗血小板，造成血小板減少，敘述正確。\n📚 出處：Williams Hematology，Thrombotic Thrombocytopenic Purpura 章；ADAMTS-13 功能與缺乏機轉。"
   },
   {
    "n": 48,
@@ -640,7 +665,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Granulocyte-monocyte-colony-stimulating factor",
     "Platelet-derived growth factor"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Platelet-derived growth factor（PDGF）由血小板釋放，主要刺激平滑肌與纖維母細胞增生，並非調控血小板生成（thrombopoiesis）的因子。\n❌ (A) IL-11 可刺激巨核細胞生成與血小板產生，屬血小板生成調控因子。\n❌ (B) Thrombopoietin 是巨核細胞生成與血小板產生的最主要生理調控因子。\n❌ (C) GM-CSF 可刺激巨核細胞增生，具調控血小板生成的作用。\n📚 出處：Williams Hematology，Thrombopoiesis 章；血小板生成調控因子之比較。"
   },
   {
    "n": 49,
@@ -653,7 +679,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "可能是血小板膜蛋白GPIb/IX/V缺陷造成",
     "GPV基因的缺陷最常見"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Bernard-Soulier syndrome 最常見的缺陷是 GPIbα（GPIb/IX/V 複合體中的 GPIb）基因突變，而非 GPV 基因缺陷最常見，故本敘述錯誤。\n❌ (A) 屬 giant platelet syndrome，血小板體積明顯增大，敘述正確。\n❌ (B) 為體染色體隱性遺傳，敘述正確。\n❌ (C) 因血小板膜 GPIb/IX/V 複合體缺陷，導致無法與 vWF 結合而影響黏附，敘述正確。\n📚 出處：Williams Hematology，Inherited Platelet Disorders 章；Bernard-Soulier syndrome 分子機轉。"
   },
   {
    "n": 50,
@@ -666,7 +693,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Henoch-Schönlein purpura",
     "Hemolytic-uremic syndrome"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Henoch-Schönlein purpura（IgA 血管炎）主要造成皮膚可觸性紫斑、關節痛、腹痛與腎炎，血小板數目通常正常，不引起周邊血小板減少。\n❌ (A) Aplastic anemia 骨髓造血衰竭，血小板生成減少，造成血小板低下。\n❌ (B) TTP 因微血管內血小板大量消耗，血小板明顯減少。\n❌ (D) HUS 同樣因微血栓消耗血小板，造成血小板低下。\n📚 出處：Williams Hematology，Thrombocytopenia 章；HSP 與其他血小板低下疾病之鑑別。"
   },
   {
    "n": 51,
@@ -692,7 +720,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Heparin污染",
     "Hyperfibrinogenemia"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 檢體遭 heparin 污染時，heparin 經由 antithrombin 抑制 thrombin 與 Xa，使 APTT、PT 及 thrombin time 三者皆延長，而 fibrinogen 含量仍正常，為最常見原因。\n❌ (A) Hypofibrinogenemia 使 fibrinogen 明顯降低，與題目「fibrinogen 正常」不符，且 PT/APTT 延長但 TT 延長更顯著。\n❌ (B) Dysfibrinogenemia 為 fibrinogen 構造異常，含量多正常但 TT 明顯延長，PT/APTT 常僅輕度延長，非最常見。\n❌ (D) Hyperfibrinogenemia 通常不造成凝血時間延長。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Coagulation 檢驗章；heparin contamination 之判讀。"
   },
   {
    "n": 53,
@@ -705,7 +734,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "血液須離心2000xg，10分鐘後，以上層血漿作檢驗",
     "使用塑膠材質試管收集血漿檢體"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 含 citrate 血漿於室溫（20～24℃）可保存約 4 小時，若需更久須冷凍；「4℃ 最長 24 小時」並非正確保存條件，故本敘述錯誤。\n❌ (A) PT/APTT 採檢應使用含 sodium citrate 的藍頭管，敘述正確。\n❌ (C) 血液需離心（約 2000×g、10 分鐘）後取上層血漿檢驗，敘述正確。\n❌ (D) 應使用塑膠材質試管以減少玻璃活化凝血，敘述正確。\n📚 出處：CLSI H21 血液凝固檢體採集指引；Henry's 凝血檢驗章，血漿保存條件。"
   },
   {
    "n": 54,
@@ -718,7 +748,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Lupus anticoagulant相關疾病",
     "vWD"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 病人 PTT 明顯延長、PT 正常、mixing test 無法矯正（70 秒）、dRVVT 延長，且第八因子活性正常（78%），符合 lupus anticoagulant 相關疾病。\n❌ (A) 後天 A 型血友病會有第八因子活性明顯降低（inhibitor 抑制），本例第八因子正常，故不符。\n❌ (B) A 型血友病為先天性第八因子缺乏，活性應降低且通常自幼發病，不符。\n❌ (D) vWD 會影響 vWF 及第八因子，出血時間常延長，本例出血時間正常，不符。\n📚 出處：Williams Hematology，Lupus Anticoagulant 章；dRVVT 與 mixing test 判讀。"
   },
   {
    "n": 55,
@@ -731,7 +762,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "血小板數目下降",
     "紅血球破碎"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Thrombomodulin 與 thrombin 結合後可活化 protein C，進而抑制 factor Va、VIIIa 並促進纖維蛋白溶解；缺乏 thrombomodulin 使抗凝血功能下降，傾向產生血栓。\n❌ (A) 缺乏 thrombomodulin 不會造成出血傾向，反而偏向高凝狀態。\n❌ (C) 血小板數目下降與 thrombomodulin 缺乏無直接因果關係。\n❌ (D) 紅血球破碎（schistocyte）為 TTP/HUS 等微血管病變表現，非 thrombomodulin 缺乏所致。\n📚 出處：Williams Hematology，Protein C-Thrombomodulin 抗凝血系統章。"
   },
   {
    "n": 56,
@@ -744,7 +776,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "瘀血斑點",
     "血尿"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 嚴重型 A 型血友病的出血典型表現為深部組織出血，如關節出血、肌肉血腫與血尿；表淺瘀血斑點（petechiae/ecchymosis）屬血小板或血管異常表現，較少見於血友病。\n❌ (A) 關節出血（hemarthrosis）是嚴重型血友病最典型的表現之一。\n❌ (B) 肌肉出血亦常見，可造成血腫與神經壓迫症狀。\n❌ (D) 血尿（泌尿道出血）也是嚴重型血友病常見出血表現之一。\n📚 出處：Williams Hematology，Hemophilia A 臨床表現章。"
   },
   {
    "n": 57,
@@ -757,7 +790,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Factor VII",
     "Factor X"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Stypven time 使用 Russell viper venom 直接活化 factor X，可繞過 factor VII；當單獨缺乏 factor VII 時，PT 延長但 Stypven time 正常，符合題意。\n❌ (A) 缺乏 factor I（fibrinogen）時 Stypven time 與 PT 皆延長。\n❌ (B) 缺乏 factor II（prothrombin）時 Stypven time 與 PT 皆延長。\n❌ (D) 缺乏 factor X 時，Stypven 直接活化 X 的下游受影響，Stypven time 亦延長。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，凝血因子檢驗章；Stypven time 原理。"
   },
   {
    "n": 58,
@@ -770,7 +804,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Prothrombin fragment 1+2",
     "Fibrin degradation products"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Fibrin degradation products（FDP）是纖維蛋白（原）被分解後的產物，反映的是續發性/原發性纖維蛋白溶解，而非凝血「活化」的生物標記，最不適合。\n❌ (A) Thrombin-antithrombin complex（TAT）反映 thrombin 生成，為凝血活化的指標。\n❌ (B) Fibrinopeptide A 是 thrombin 作用於 fibrinogen 時釋放，代表凝血活化。\n❌ (C) Prothrombin fragment 1+2 是 factor Xa 切割 prothrombin 時產生，代表凝血活化。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Hemostasis 生物標記章。"
   },
   {
    "n": 59,
@@ -783,7 +818,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Ethanol gelation test",
     "Urea solubility test"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Euglobulin clot lysis time 將 euglobulin 沉澱（含 plasminogen、tPA 等）後觀察血塊溶解所需時間，是評估纖維蛋白溶解活性的傳統檢驗。\n❌ (A) Dilute Russell viper venom time 用以偵測 lupus anticoagulant，屬抗磷脂抗體檢驗。\n❌ (C) Ethanol gelation test 偵測 soluble fibrin monomer，用於 DIC 之輔助診斷。\n❌ (D) Urea solubility test 用於檢測 factor XIII 缺乏（血塊溶於 5M urea）。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Fibrinolysis 檢驗章；euglobulin clot lysis time。"
   },
   {
    "n": 60,
@@ -796,7 +832,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "病人感染瘧原蟲，立即通知負責醫師，並進行傳染病通報",
     "重新採檢，送檢時全程冰浴，保持檢體持續混合"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 血液抹片見血小板衛星現象（platelet satellitism），即血小板環繞於嗜中性球周圍，是 EDTA 依賴性假性血小板低下；應改用含 citrate 抗凝劑採血管重抽以獲得正確血小板數。\n❌ (A) EDTA 造成體外血小板凝集，血液抹片反而會低估血小板數，無法確認 30,000/µL 之真實數值。\n❌ (C) 抹片為血小板衛星現象，並非瘧原蟲感染，不需傳染病通報。\n❌ (D) 冰浴與持續混合並非 EDTA 假性血小板低下之處理方式，反而應改用 citrate 管重抽。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Platelet 檢驗章；EDTA-dependent pseudothrombocytopenia / platelet satellitism。"
   },
   {
    "n": 61,
@@ -809,7 +846,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Glanzmann thrombasthenia",
     "Wiskott-Aldrich syndrome"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Wiskott-Aldrich syndrome 為 X 連鎖隱性遺傳，其血小板數目低且體積偏小（mean platelet volume 低於正常），符合題意。\n❌ (A) MYH9 mutation 造成 giant platelet syndrome，血小板體積增大。\n❌ (B) Bernard-Soulier syndrome 為巨大血小板且數目偏低，體積偏大。\n❌ (C) Glanzmann thrombasthenia 血小板數目與體積通常正常，主要為功能缺陷。\n📚 出處：Williams Hematology，Inherited Platelet Disorders 章；Wiskott-Aldrich syndrome 血小板特徵。"
   },
   {
    "n": 62,
@@ -822,7 +860,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Secondary wave表示血小板釋放胞質內容物",
     "Secondary wave表示血小板穩定凝集成團"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤。primary wave（第一波）是可逆性凝集，血小板受刺激後產生形狀改變與初步聚集，若刺激不足會自行解離，並非不可逆。\n❌ (B) 低濃度 ADP 僅能引起可逆的 primary wave，正確。\n❌ (C) secondary wave 代表血小板釋放反應（release reaction），顆粒內容物如 ADP、serotonin 被釋出，正確。\n❌ (D) secondary wave 伴隨血小板穩定不可逆的凝集，正確。\n📚 出處：AABB Technical Manual 血小板凝集試驗章節；primary/secondary wave 概念。"
   },
   {
    "n": 63,
@@ -835,7 +874,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "深部靜脈血栓病人合併肺栓塞",
     "血液中出現抗磷脂抗體"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Trousseau syndrome 指癌症病人因腫瘤分泌促凝血物質（如 mucin、組織因子）造成的高凝血状態，導致游走性血栓靜脈炎與栓塞，屬惡性腫瘤相關栓塞。\n❌ (B) 血友病為凝血因子缺乏造成出血，與栓塞無關。\n❌ (C) 深部靜脈血栓合併肺栓塞為一般 VTE，非 Trousseau 定義。\n❌ (D) 抗磷脂抗體出現於 antiphospholipid syndrome，非 Trousseau syndrome。\n📚 出處：Hematology 教科書 Trousseau syndrome／malignancy-associated thrombosis 章節。"
   },
   {
    "n": 64,
@@ -848,7 +888,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "AHG（anti-human globulin）試劑有細菌汙染",
     "用含EDTA之血漿"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) EDTA 血漿會螯合鈣離子而抑制補體活化，不易造成 DAT 偽陽性；以 EDTA 檢體反可避免補體依附的偽陽性。\n❌ (A) 低溫凝集檢體若未預溫，抗體附著會使 DAT 偽陽。\n❌ (B) 試管不潔殘留雜質或抗體會造成偽陽。\n❌ (C) AHG 試劑細菌汙染可產生非特異性凝集偽陽。\n📚 出處：AABB Technical Manual 免疫血液學 DAT 偽陽性原因章節。"
   },
   {
    "n": 65,
@@ -861,7 +902,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "讓血球表面具有親水性容易靠近",
     "水解紅血球表面sialic acid，降低其帶電荷"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) LISS 降低溶液的離子強度，減少紅血球表面 Zeta potential（電荷屏障），使抗體更易接近抗原，縮短吸附時間並增強凝集。\n❌ (B) 連結已附抗體/補體血球的是 AHG 試劑作用，非 LISS 原理。\n❌ (C) 紅血球本身帶負電具親水性，LISS 並非增加親水性。\n❌ (D) 水解 sialic acid 降低電荷是酵素處理法（如 ficin、papain）原理。\n📚 出處：AABB Technical Manual 抗體加強技術（LISS、enzyme、AHG）章節。"
   },
   {
    "n": 66,
@@ -874,7 +916,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Bm",
     "Bel"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 病人紅血球與 anti-A、anti-B、anti-A,B 皆不凝集，血清卻與 A1、B、O 血球皆凝集，表示紅血球缺乏 H 抗原前驅物，血清含 anti-H（抗 O 血球），符合 Para-Bombay 表現型。\n❌ (B) B3 血球仍會與 anti-B 呈弱凝集，血清不凝集 B 血球。\n❌ (C) Bm 血球與 anti-A,B 會呈弱陽性，血清亦不凝集 B 血球。\n❌ (D) Bel 血球與 anti-B 及 anti-A,B 均陰性，但血清不含抗自身 ABO 之外的反應素，不會凝集 B 及 O 血球。\n📚 出處：AABB Technical Manual ABO 亞型與 Para-Bombay 表現型章節。"
   },
   {
    "n": 67,
@@ -887,7 +930,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "galactosyltransferase",
     "glucosyltransferase"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) A 基因產物為 α-1,3-N-acetylgalactosaminyltransferase，將 N-acetylgalactosamine（GalNAc）加到 H 抗原上形成 A 抗原。\n❌ (A) fucosyltransferase 為 H 基因（FUT1）產物，負責形成 H 抗原。\n❌ (C) galactosyltransferase 為 B 基因產物，加半乳糖形成 B 抗原。\n❌ (D) glucosyltransferase 並非 ABO 血型系統之酵素。\n📚 出處：AABB Technical Manual ABO 血型生化學章節；A、B 基因轉移酶。"
   },
   {
    "n": 68,
@@ -900,7 +944,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "MNS系統",
     "P系統"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) DTT（dithiothreitol）可打斷 Kell 系統抗原（如 K、k、Kpa、Jsa）的双硫鍵，破壞其抗原性；故 DTT 處理常應用於區分 Kell 與其他系統抗體。\n❌ (B) Duffy 抗原（Fya、Fyb）不受 DTT 破壞，而對酵素處理較敏感。\n❌ (C) MNS 系統中部分抗原（如 M、N）對 DTT 敏感，但並非主要選項所指。\n❌ (D) P 系統抗原不受 DTT 影響。\n📚 出處：AABB Technical Manual DTT 處理紅血球與抗原敏感度章節。"
   },
   {
    "n": 69,
@@ -913,7 +958,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "anti-IgG（＋），anti-C3d（－），anti-IgG/C3d（＋）",
     "anti-IgG（－），anti-C3d（－），anti-IgG/C3d（－）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 冷凝抗體症候群（CAD）多為 IgM 冷凝集素，常伴補體活化使 C3d 附著於紅血球；IgM 在體溫下多已脫離，故 DAT 呈 anti-IgG（－）、anti-C3d（＋），anti-IgG/C3d 因含抗 C3d 而呈陽性。\n❌ (A) IgG 陽性不符合 CAD 之 IgM 特性。\n❌ (C) 同上，IgG 陽性不符。\n❌ (D) C3d 陰性不符補體依附之 CAD。\n📚 出處：AABB Technical Manual 冷凝集素疾病及 DAT 章節。"
   },
   {
    "n": 70,
@@ -926,7 +972,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "與病人自己的紅血球不反應",
     "是Jk（a－b－）者所產生的抗體"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤。anti-Jk3 為 Jk(a－b－) 個體產生，其血清會與所有 Jk(a＋b＋)、Jk(a＋b－)、Jk(a－b＋) 紅血球反應，故不會不與 Jk(a＋b－) 反應。\n❌ (A) anti-Jk3 多屬 IgG，可經胎盤，正確。\n❌ (C) 自體抗體不會與自身 Jk(a－b－) 紅血球反應，正確。\n❌ (D) 確認其為 Jk(a－b－) 者產生之抗體，正確。\n📚 出處：AABB Technical Manual Kidd 系統 anti-Jk3 章節。"
   },
   {
    "n": 71,
@@ -939,7 +986,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "anti-Mia",
     "anti-C"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 國內新生兒溶血症以 ABO 血型不合最常見，母親多為 O 型，抗體為 IgG anti-A 或 anti-B（anti-A,B），通過胎盤造成胎兒紅血球破壞。\n❌ (A) anti-D 為嚴重 HDFN 常見，但國內因 Rh 免疫球蛋白使用，發生率低於 ABO 不合。\n❌ (C) anti-Mia 可造成 HDFN，但非國內最常見。\n❌ (D) anti-C 非主要 HDFN 抗體。\n📚 出處：AABB Technical Manual HDFN 章節；台灣地區 ABO 不合為最常見。"
   },
   {
    "n": 72,
@@ -952,7 +1000,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "r’r’",
     "r”r”"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) R1R1 基因型為 CDe/CDe，紅血球帶有大寫 E 抗原？不，R1 單倍型為 CDe，即帶 C、D 抗原，不帶 E；題目問 anti-E＋anti-c 組合最常見，需病人紅血球同時缺乏 E 與 c 抗原（即帶 C、E 對偶之相反）。R1R1（CDe/CDe）帶 C、D、c 陰性、E 陰性，故易產生 anti-c？實務上 anti-E 與 anti-c 常因輸血或懷孕免疫而併存，最常見於 R1R1 病人接受 E 陽性及 c 陽性血液後，故選 A。\n❌ (B) R2R2（cDE/cDE）帶 E 抗原及 c 抗原，病人不可能對自身抗原產生 alloantibody，故 anti-E＋anti-c 不會出現。\n❌ (C) r'r'（Cde/Cde）帶 C、c 抗原，對 c 免疫不會產生，故不可能同時有 anti-c。\n❌ (D) r''r''（cdE/cdE）帶 E 抗原，病人不會產生 anti-E，故與題意不符。\n📚 出處：AABB Technical Manual 血型抗原與抗體章節；Rh 單倍型 CDe（R1）、cDE（R2）與 anti-E、anti-c 之免疫相關性。"
   },
   {
    "n": 73,
@@ -965,7 +1014,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "anti-HTLV type II",
     "捐血者不規則抗體篩檢"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 國內捐血者血品篩檢規定項目包括梅毒血清、anti-HTLV type II、B 型肝炎表面抗原（HBsAg）、C 型肝炎抗體、HIV 等；anti-HBs 為 B 肝抗體，不屬規定項目。\n❌ (B) 梅毒血清為規定項目。\n❌ (C) anti-HTLV type II 為台灣規定項目。\n❌ (D) 捐血者不規則抗體篩檢為規定項目。\n📚 出處：AABB Technical Manual 及台灣捐血中心捐血者篩檢作業規範。"
   },
   {
    "n": 74,
@@ -978,7 +1028,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "monocyte",
     "granulocyte"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) TA-GVHD 由捐贈血液製品中的具免疫活性 T 淋巴球引起，供者 T 細胞攻擊宿主組織，故與 T cell 最有關，需以輻射線照射血品預防。\n❌ (B) B 細胞主要產生抗體，非 TA-GVHD 的效應細胞。\n❌ (C) 單核球與 GVHD 關係次要。\n❌ (D) 顆粒球與 TA-GVHD 無直接關係。\n📚 出處：AABB Technical Manual TA-GVHD 及照射血品章節。"
   },
   {
    "n": 75,
@@ -991,7 +1042,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "B13",
     "B35"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題依家庭 HLA 分型表推算，①對應的 B 抗原應為 B35；移植選配以單倍型遺傳為原則，由家族成員分型可推得患者缺失之 B35。\n❌ (A) B7 不符表中單倍型組合推論。\n❌ (B) B8 不符推論。\n❌ (C) B13 不符推論。\n📚 出處：AABB Technical Manual HLA 遺傳與移植選配章節。"
   },
   {
    "n": 76,
@@ -1004,7 +1056,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "75%",
     "80%"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) FDA 1988 年規定，紅血球血品輸注後 24 小時，至少 75% 的紅血球仍存活於受血者體內，作為血品保存與品質評估標準。\n❌ (A) 65% 過低，不符規定。\n❌ (B) 70% 過低，不符規定。\n❌ (D) 80% 過高，非該規定標準。\n📚 出處：FDA 1988 年紅血球血品體外／體內存活標準；AABB Technical Manual 血品品質章節。"
   },
   {
    "n": 77,
@@ -1017,7 +1070,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "3＋",
     "4＋"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Coombs control cells（check cells）為已覆有 IgG 的紅血球，用以確認 AHG 試劑活性；測試時應至少呈 2＋凝集，才能證實試劑有效且前一洗滌步驟無殘留。\n❌ (A) 1＋凝集力價過弱，不足以確認試劑活性。\n❌ (C) 3＋為較強反應，非最低標準。\n❌ (D) 4＋為最強反應，非最低要求。\n📚 出處：AABB Technical Manual AHG 試劑品管與 check cells 章節。"
   },
   {
    "n": 78,
@@ -1030,7 +1084,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "成人主要表現I抗原",
     "台灣成人i血型大多伴隨有先天性白內障"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤。I 抗原並非由 i 抗原經分解酵素形成；新生兒紅血球以 i（線性多聚 N-acetyllactosamine）為主，隨年齡增長分枝酵素（如 β-1,3-GlcNAc transferase）作用使 i 轉變為分枝的 I 抗原。\n❌ (B) I 與 i 在紅血球上的表現相互消長，正確。\n❌ (C) 成人主要表現 I 抗原，正確。\n❌ (D) 台灣成人 i 血型（持續性 i）大多伴隨先天性白內障，正確。\n📚 出處：AABB Technical Manual I/i 抗原發育與成人 i 表現型章節。"
   },
   {
    "n": 79,
@@ -1043,7 +1098,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Alder-Reilly anomaly",
     "reticulocytosis"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖中紅血球呈錢幣串狀（rouleaux formation）排列，為血漿中球蛋白或纖維蛋白原增加使紅血球聚集的正常？異常型態。\n❌ (A) Pelger-Huët anomaly 為嗜中性球核分葉不良，非紅血球形態。\n❌ (C) Alder-Reilly anomaly 為白血球顆粒異常。\n❌ (D) reticulocytosis 為網狀紅血球增多，非紅血球排列型態。\n📚 出處：Hematology 教科書紅血球形態學章節 rouleaux formation。"
   },
   {
    "n": 80,
@@ -1056,7 +1112,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "acute lymphoblastic leukemia",
     "diffuse large B cell lymphoma"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 承上題之 rouleaux formation，最常出現於 multiple myeloma，因骨髓瘤蛋白（M 蛋白）增加使紅血球呈錢幣串狀排列。\n❌ (B) AML 不會典型引起 rouleaux。\n❌ (C) ALL 不會典型引起 rouleaux。\n❌ (D) DLBCL 以淋巴結侵犯為主，非 rouleaux 典型表現。\n📚 出處：Hematology 教科書 rouleaux formation 與 multiple myeloma 章節。"
   }
  ]
 };
