@@ -25508,7 +25508,7 @@ window.APP_EXAMS = [
   "subjName": "膳食療養學",
   "label": "110 年第二次　膳食療養學",
   "n": 40,
-  "exp": 0,
+  "exp": 40,
   "mins": 120
  },
  {
