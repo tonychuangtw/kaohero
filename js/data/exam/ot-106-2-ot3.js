@@ -1096,7 +1096,8 @@ window.APP_EXAM_PAPERS['ot-106-2-ot3'] = {
     "②③④",
     "①③④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 說明：美國國家癌症機構採用的是 TNM 分期系統，三個構成要素為 T（tumor，原發腫瘤的範圍大小與侵犯深度）、N（node，腫瘤蔓延至局部區域淋巴結的數目與範圍）、M（metastasis，有無遠處轉移），即①②④。\n❌ (A) 含③原發腫瘤的「位置」，位置只用來標示癌症的部位（原發部位），不是 TNM 分期的判斷要素；缺少④腫瘤範圍大小才是 T 的真正內涵。\n❌ (C) 同時漏掉①遠處轉移（M）又誤收③位置，M 是區分第四期與否的關鍵，不可缺。\n❌ (D) 漏掉②局部淋巴結侵犯數目（N），且誤將③位置當作分期要素。\n📚 出處：American Joint Committee on Cancer (AJCC)／National Cancer Institute TNM Staging System（T = extent of primary tumor, N = regional lymph node involvement, M = distant metastasis）"
   },
   {
    "n": 78,
