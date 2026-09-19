@@ -504,7 +504,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_308_44_35.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：indole 試驗測的是細菌能否以 tryptophanase 把色胺酸分解成 indole。Klebsiella pneumoniae 不具 tryptophanase，結果為陰性（−）；Klebsiella oxytoca 則為陽性（+），這正是臨床上區分這兩種 Klebsiella 最常用的生化試驗，故選 K. pneumoniae (−)、K. oxytoca (+)。\n❌ (A) 兩者皆陽性不成立：K. pneumoniae indole 為陰性，若兩者都 (+) 就無法用此試驗區分兩菌。\n❌ (B) 正好把兩菌的結果對調；K. oxytoca 的菌種特徵即為 indole 陽性。\n❌ (D) 兩者皆陰性亦不成立：K. oxytoca 為 indole 陽性，這是它與 K. pneumoniae 的主要鑑別點。\n📚 出處：臨床微生物學「腸內菌科 IMViC 生化鑑定」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Enterobacteriaceae 章節（Klebsiella 屬鑑別表）。"
   },
   {
    "n": 36,
@@ -673,7 +674,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
    ],
    "needfig": true,
    "fig": "img/q/113090_308_44_47.webp",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 說明：Rickettsia spp. 為絕對細胞內寄生的革蘭氏陰性菌，藉由誘發宿主細胞吞噬進入後，會迅速以磷脂酶分解吞噬泡膜逃出，游離在宿主細胞的細胞質中以二分裂複製，部分菌種還能利用肌動蛋白聚合在細胞質內移動並侵入鄰近細胞，故主要複製部位為細胞質。\n❌ (A) 細胞核不是 Rickettsia 的主要複製處；雖然 Rickettsia rickettsii 偶可進入核內，但典型與主要的增殖部位仍是細胞質。\n❌ (B) 停留在液泡（vacuole／吞噬泡）內增殖的是 Coxiella burnetii、Chlamydia、Ehrlichia、Anaplasma 等，Rickettsia 反而會破膜逃出液泡。\n❌ (D) 粒線體不是任何立克次體的複製部位，細菌無法在粒線體基質中增殖。\n📚 出處：臨床微生物學「Rickettsia 與細胞內寄生菌」；Murray, Medical Microbiology, Rickettsia, Orientia, Ehrlichia 與 Coxiella 章節。"
   },
   {
    "n": 48,
@@ -769,7 +771,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
     "fosfomycin",
     "colistin"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 說明：colistin（polymyxin E）是陽離子多胜肽，作用在革蘭氏陰性菌外膜的脂多醣 lipid A，置換穩定膜結構的 Mg²⁺、Ca²⁺，像清潔劑一樣破壞外膜與細胞膜通透性，使胞內成分外漏而死亡；作用標的是細胞膜而非細胞壁合成，故為正解。\n❌ (A) β-lactam（penicillin、cephalosporin 等）與 PBP（transpeptidase）結合，阻斷 peptidoglycan 的交聯，屬抑制細胞壁合成。\n❌ (B) vancomycin 結合 peptidoglycan 前驅物末端的 D-Ala-D-Ala，阻止轉糖苷與交聯反應，亦是抑制細胞壁合成。\n❌ (C) fosfomycin 抑制 MurA（UDP-GlcNAc enolpyruvyl transferase），阻斷 peptidoglycan 合成的第一步，同樣屬細胞壁合成抑制劑。\n📚 出處：臨床微生物學「抗微生物製劑作用機轉分類」；Murray, Medical Microbiology, Antibacterial Agents 章節（cell wall synthesis inhibitors vs. membrane-active agents）。"
   },
   {
    "n": 55,
