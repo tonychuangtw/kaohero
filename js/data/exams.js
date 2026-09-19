@@ -25060,7 +25060,7 @@ window.APP_EXAMS = [
   "subjName": "生理學與生物化學",
   "label": "112 年第一次　生理學與生物化學",
   "n": 40,
-  "exp": 0,
+  "exp": 39,
   "mins": 120
  },
  {
