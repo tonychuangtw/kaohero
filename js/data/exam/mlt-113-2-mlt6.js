@@ -769,8 +769,7 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
     "fosfomycin",
     "colistin"
    ],
-   "a": 3,
-   "exp": "✅ (D) 說明：colistin（polymyxin E）為多肽類抗生素，其殺菌機轉為與革蘭氏陰性菌細胞膜之脂多醣及磷脂作用，破壞細胞膜通透性，並非抑制細胞壁合成，故選 D。\n❌ (A) β-lactam 抑制細胞壁胜肽聚醣之合成。\n❌ (B) vancomycin 與細胞壁前驅物 D-Ala-D-Ala 結合，抑制細胞壁合成。\n❌ (C) fosfomycin 抑制 MurA 酵素，阻斷细胞壁合成早期步驟。\n📚 出處：臨床微生物學「抗菌藥物作用機轉」；Murray, Medical Microbiology, Antimicrobial Agents 章節。"
+   "a": 3
   },
   {
    "n": 55,

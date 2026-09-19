@@ -266,8 +266,7 @@ window.APP_EXAM_PAPERS['mlt-115-2-mlt6'] = {
     "增加細胞壁的厚度",
     "合成將萬古黴素打出胞外的幫浦（efflux pump）"
    ],
-   "a": 2,
-   "exp": "✅ (C) 說明：VISA（vancomycin-intermediate S. aureus）主要抗藥機轉為細胞壁增厚，使 vancomycin 無法有效到達细胞壁肽聚醣作用標的（D-Ala-D-Ala），屬表型改變而非酵素分解。\n❌ (A) S. aureus 不產生分解 vancomycin 的酵素，非其抗藥機轉。\n❌ (B) 改變細胞膜通透性並非 VISA 的主要機轉；此機轉較見於其他藥物抗藥。\n❌ (D) efflux pump 並非 VISA 對 vancomycin 抗藥的主要機轉，VISA 屬細胞壁增厚之表現型。\n📚 出處：VISA/VRSA 抗藥機轉（cell wall thickening vs. vanA gene）；臨床微生物學「葡萄球菌抗藥機轉」章節。"
+   "a": 2
   },
   {
    "n": 19,

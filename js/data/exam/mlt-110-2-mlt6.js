@@ -810,8 +810,7 @@ window.APP_EXAM_PAPERS['mlt-110-2-mlt6'] = {
     "Pyruvate broth",
     "Tetrathionate broth"
    ],
-   "a": 0,
-   "exp": "✅ (A) 說明：CLSI 公布的結核菌藥敏試驗指南中，Middlebrook 7H9 broth 為液態培養基，常用於結核分枝桿菌的液體藥敏試驗（如 MGIT 或比例法）。\n❌ (B) MRS broth 為乳酸菌用培養基，不適用於結核菌。\n❌ (C) pyruvate broth 並非 CLSI 建議的結核菌藥敏試驗培養液。\n❌ (D) tetrathionate broth 為沙門氏菌增菌用培养基，與結核菌無關。\n📚 出處：CLSI M24 文件「分枝桿菌藥物感受性試驗」；臨床微生物學「分枝桿菌」章節。"
+   "a": 0
   },
   {
    "n": 58,

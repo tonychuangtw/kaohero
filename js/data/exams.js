@@ -18144,7 +18144,7 @@ window.APP_EXAMS = [
   "subjName": "醫學分子檢驗學與臨床鏡檢學",
   "label": "115 年第二次　醫學分子檢驗學與臨床鏡檢學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -18158,7 +18158,7 @@ window.APP_EXAMS = [
   "subjName": "微生物學與臨床微生物學",
   "label": "115 年第二次　微生物學與臨床微生物學",
   "n": 80,
-  "exp": 78,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -18438,7 +18438,7 @@ window.APP_EXAMS = [
   "subjName": "臨床血液學與血庫學",
   "label": "113 年第二次　臨床血液學與血庫學",
   "n": 80,
-  "exp": 78,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -18494,7 +18494,7 @@ window.APP_EXAMS = [
   "subjName": "微生物學與臨床微生物學",
   "label": "113 年第二次　微生物學與臨床微生物學",
   "n": 80,
-  "exp": 77,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -18550,7 +18550,7 @@ window.APP_EXAMS = [
   "subjName": "臨床血清免疫學與臨床病毒學",
   "label": "112 年第一次　臨床血清免疫學與臨床病毒學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -18886,7 +18886,7 @@ window.APP_EXAMS = [
   "subjName": "臨床血清免疫學與臨床病毒學",
   "label": "110 年第一次　臨床血清免疫學與臨床病毒學",
   "n": 80,
-  "exp": 79,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -18998,7 +18998,7 @@ window.APP_EXAMS = [
   "subjName": "微生物學與臨床微生物學",
   "label": "110 年第二次　微生物學與臨床微生物學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -19782,7 +19782,7 @@ window.APP_EXAMS = [
   "subjName": "臨床血液學與血庫學",
   "label": "105 年第二次　臨床血液學與血庫學",
   "n": 80,
-  "exp": 74,
+  "exp": 73,
   "mins": 60
  },
  {
@@ -19852,7 +19852,7 @@ window.APP_EXAMS = [
   "subjName": "臨床生理學與病理學",
   "label": "104 年第一次　臨床生理學與病理學",
   "n": 80,
-  "exp": 79,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -19894,7 +19894,7 @@ window.APP_EXAMS = [
   "subjName": "臨床血清免疫學與臨床病毒學",
   "label": "104 年第一次　臨床血清免疫學與臨床病毒學",
   "n": 80,
-  "exp": 79,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -20468,7 +20468,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療技術學",
   "label": "115 年第二次　物理治療技術學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -21000,7 +21000,7 @@ window.APP_EXAMS = [
   "subjName": "骨科疾病物理治療學",
   "label": "112 年第二次　骨科疾病物理治療學",
   "n": 80,
-  "exp": 77,
+  "exp": 75,
   "mins": 60
  },
  {
@@ -21560,7 +21560,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療技術學",
   "label": "108 年第一次　物理治療技術學",
   "n": 80,
-  "exp": 76,
+  "exp": 75,
   "mins": 60
  },
  {
@@ -21644,7 +21644,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療技術學",
   "label": "108 年第二次　物理治療技術學",
   "n": 80,
-  "exp": 75,
+  "exp": 73,
   "mins": 60
  },
  {
@@ -21994,7 +21994,7 @@ window.APP_EXAMS = [
   "subjName": "神經疾病物理治療學",
   "label": "106 年第二次　神經疾病物理治療學",
   "n": 80,
-  "exp": 78,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -22022,7 +22022,7 @@ window.APP_EXAMS = [
   "subjName": "心肺疾病與小兒疾病物理治療學",
   "label": "106 年第二次　心肺疾病與小兒疾病物理治療學",
   "n": 80,
-  "exp": 76,
+  "exp": 75,
   "mins": 60
  },
  {
@@ -22092,7 +22092,7 @@ window.APP_EXAMS = [
   "subjName": "骨科疾病物理治療學",
   "label": "105 年第一次　骨科疾病物理治療學",
   "n": 80,
-  "exp": 79,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -22120,7 +22120,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療基礎學",
   "label": "105 年第二次　物理治療基礎學",
   "n": 80,
-  "exp": 79,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -22400,7 +22400,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療技術學",
   "label": "103 年第一次　物理治療技術學",
   "n": 80,
-  "exp": 77,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -22582,7 +22582,7 @@ window.APP_EXAMS = [
   "subjName": "神經疾病物理治療學",
   "label": "102 年第一次　神經疾病物理治療學",
   "n": 80,
-  "exp": 78,
+  "exp": 67,
   "mins": 60
  },
  {
@@ -22624,7 +22624,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療基礎學",
   "label": "102 年第二次　物理治療基礎學",
   "n": 80,
-  "exp": 79,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -22666,7 +22666,7 @@ window.APP_EXAMS = [
   "subjName": "神經疾病物理治療學",
   "label": "102 年第二次　神經疾病物理治療學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -22988,7 +22988,7 @@ window.APP_EXAMS = [
   "subjName": "生理障礙職能治療學",
   "label": "112 年第二次　生理障礙職能治療學",
   "n": 80,
-  "exp": 78,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -23156,7 +23156,7 @@ window.APP_EXAMS = [
   "subjName": "生理障礙職能治療學",
   "label": "110 年第二次　生理障礙職能治療學",
   "n": 80,
-  "exp": 78,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -23352,7 +23352,7 @@ window.APP_EXAMS = [
   "subjName": "小兒職能治療學",
   "label": "109 年第二次　小兒職能治療學",
   "n": 80,
-  "exp": 77,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -23954,7 +23954,7 @@ window.APP_EXAMS = [
   "subjName": "職能治療技術學",
   "label": "105 年第一次　職能治療技術學",
   "n": 80,
-  "exp": 77,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -23968,7 +23968,7 @@ window.APP_EXAMS = [
   "subjName": "解剖學與生理學",
   "label": "105 年第二次　解剖學與生理學",
   "n": 80,
-  "exp": 80,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -24024,7 +24024,7 @@ window.APP_EXAMS = [
   "subjName": "小兒職能治療學",
   "label": "105 年第二次　小兒職能治療學",
   "n": 80,
-  "exp": 80,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -24374,7 +24374,7 @@ window.APP_EXAMS = [
   "subjName": "職能治療技術學",
   "label": "103 年第二次　職能治療技術學",
   "n": 80,
-  "exp": 78,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -25032,7 +25032,7 @@ window.APP_EXAMS = [
   "subjName": "公共衛生營養學",
   "label": "113 年第二次　公共衛生營養學",
   "n": 50,
-  "exp": 48,
+  "exp": 47,
   "mins": 60
  },
  {
@@ -25158,7 +25158,7 @@ window.APP_EXAMS = [
   "subjName": "營養學",
   "label": "112 年第二次　營養學",
   "n": 40,
-  "exp": 39,
+  "exp": 38,
   "mins": 120
  },
  {
@@ -26460,7 +26460,7 @@ window.APP_EXAMS = [
   "subjName": "公共衛生營養學",
   "label": "104 年第一次　公共衛生營養學",
   "n": 40,
-  "exp": 38,
+  "exp": 37,
   "mins": 120
  },
  {
@@ -26586,7 +26586,7 @@ window.APP_EXAMS = [
   "subjName": "營養學",
   "label": "103 年第一次　營養學",
   "n": 40,
-  "exp": 40,
+  "exp": 39,
   "mins": 120
  },
  {
@@ -26838,7 +26838,7 @@ window.APP_EXAMS = [
   "subjName": "營養學",
   "label": "102 年第二次　營養學",
   "n": 40,
-  "exp": 40,
+  "exp": 39,
   "mins": 120
  },
  {

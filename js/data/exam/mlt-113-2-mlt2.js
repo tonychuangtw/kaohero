@@ -152,8 +152,7 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt2'] = {
     "再生不良性貧血（aplastic anemia）的病人",
     "惡性貧血（pernicious anemia）的病人"
    ],
-   "a": 0,
-   "exp": "✅ (A) Iron-sequestrating syndrome（鐵隔離症候群）即慢性病貧血，因發炎時 hepcidin 上升使鐵被隔離於巨噬細胞與儲存池，最常见於發炎反應病人。\n❌ (B) 大量血液流失造成的是真正缺鐵性貧血（iron deficiency），非鐵隔離。\n❌ (C) Aplastic anemia 為骨髓造血衰竭，機轉非鐵隔離。\n❌ (D) Pernicious anemia 為 B12 吸收障礙，屬巨球性貧血，與鐵隔離無關。\n📚 出處：Hoffbrand's Essential Haematology 慢性病貧血章節；hepcidin 與 iron sequestration。"
+   "a": 0
   },
   {
    "n": 11,
@@ -924,8 +923,7 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt2'] = {
     "可用於鑑定Del",
     "可用於確認孟買血型"
    ],
-   "a": 3,
-   "exp": "✅ (D) 孟買血型（Oh）紅血球完全不表現 H 抗原，其血清含 anti-H，吸附沖出測試結果會呈陰性且難以判讀，故不以此法確認孟買血型；孟買血型確診須靠抗-H 血清及唾液分泌型（分泌 H 與否）等試驗。\n❌ (A) 吸附沖出法常用於 ABO 亞型（如 A3、B3、Ax）之鑑定，正確。\n❌ (B) 当紅血球表面抗原數目少、直接抗球蛋白呈弱陽性時，可用吸附沖出濃縮抗體，正確。\n❌ (C) Del 為 D 抗原極弱表現型，須以吸附沖出法才能偵測，正確。\n📚 出處：血庫學抗原抗體技術；absorption-elution test 之應用（AABB Technical Manual）。"
+   "a": 3
   },
   {
    "n": 66,

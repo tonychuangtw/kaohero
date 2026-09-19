@@ -795,8 +795,7 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "Antithrombin",
     "C4b binding protein"
    ],
-   "a": 3,
-   "exp": "✅ (D) C4b binding protein 主要與 C4b 結合調節補體系統，臨床上可作為 protein S 的攜帶蛋白，會降低游離 protein S 濃度，不具直接抑制血液凝固之功能。\n❌ (A) Protein C 活化後可分解 Factor Va、VIIIa，具抗凝作用。\n❌ (B) Protein S 為 activated protein C 的輔因子，協助其分解 Va、VIIIa。\n❌ (C) Antithrombin 抑制 thrombin 及 Xa、IXa、XIa、XIIa，為重要抗凝蛋白。\n📚 出處：Wintrobe's Clinical Hematology，Natural Anticoagulants 章節；protein C/S、antithrombin 与 C4bBP 之角色。"
+   "a": 3
   },
   {
    "n": 57,

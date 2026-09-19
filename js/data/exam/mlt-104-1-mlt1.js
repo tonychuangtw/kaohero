@@ -739,8 +739,7 @@ window.APP_EXAM_PAPERS['mlt-104-1-mlt1'] = {
     "上皮癌（carcinoma）不會經由血行轉移至遠端器官",
     "皮膚基底細胞癌（basal cell carcinoma）經常轉移至淋巴結"
    ],
-   "a": 1,
-   "exp": "✅ (B) 前哨淋巴結是乳癌淋巴轉移最先到達的淋巴结，其有無轉移決定是否需清除腋下淋巴結及手術範圍，敘述正確。\n❌ (A) 闌尾黏液性囊狀腺癌破裂後，腫瘤細胞可散播並造成腹膜腔假黏液瘤（黏液沉積），敘述錯誤。\n❌ (C) 上皮癌可經淋巴或血行轉移，晚期常轉至肝、肺、骨等遠端器官，敘述錯誤。\n❌ (D) 基底細胞癌局部侵犯為主，極少淋巴結或遠端轉移，敘述錯誤。\n📚 出處：Robbins and Cotran Pathologic Basis of Disease，Neoplasia 章節「Pathways of Spread」及 Breast 章節 sentinel lymph node 段落"
+   "a": 1
   },
   {
    "n": 53,
