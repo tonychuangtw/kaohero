@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "懷疑檢體為重度乙型海洋性貧血（β-thalassemia major）",
     "加做檸檬酸鹽瓊脂電泳（Citrate agar electrophoresis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 電泳圖上完全看不到 Hb A（α2β2），只剩 Hb F（α2γ2）＞90% 與 Hb A2（α2δ2）6.5%，代表 β 鏈幾乎完全無法合成，正是重度乙型海洋性貧血（β⁰-thalassemia major）的典型型態；病人靠 γ 鏈代償，故 Hb F 極度升高。\n❌ (A) 溶血不完全只會讓所有條帶整體變淡、背景混濁，不會讓 Hb A 這條主帶單獨消失而 Hb F 反而超過 90%。\n❌ (B) 電極反置時血色素會往相反方向泳動、無法離開起點區，呈現的是所有條帶位置錯誤，而不是各條帶比例出現這種具診斷意義的分布。\n❌ (D) 檸檬酸鹽瓊脂電泳（酸性 pH 6.2）是用來分辨在鹼性膠上共移的 Hb S/D/G 或 Hb C/E/A2；本例已無變異血色素待鑑別，加做並無助益。\n📚 出處：Rodak's Hematology 血色素病變章節；β-thalassemia major 之 Hb A 缺如與 Hb F 代償性上升。"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "β-thalassemia intermedia",
     "sideroblastic anemia"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 電泳出現 Hb H（β4，14.8%）是 α 鏈合成不足、過剩 β 鏈自聚的直接證據，屬 Hb H disease，即 α 型海洋性貧血中間型；血像為小球（MCV 62 fL）低色素、靶形細胞與碎片，Hb A2 3.2% 正常，且 ferritin 80 µg/L 不低，可排除缺鐵。\n❌ (A) 缺鐵性貧血的 serum ferritin 會明顯下降（一般＜15～20 µg/L），且血色素電泳正常，不會出現 Hb H。\n❌ (C) β 型海洋性貧血中間型以 Hb F 上升、Hb A2＞3.5% 為特徵，過剩的是 α 鏈（不溶、於骨髓內沉澱），不會形成 Hb H。\n❌ (D) 鐵粒幼細胞性貧血為鐵利用障礙，ferritin 與血清鐵升高、骨髓可見環狀鐵芽細胞，血色素電泳正常。\n📚 出處：Rodak's Hematology 海洋性貧血章節；Hb H disease（--/-α）之實驗室診斷。"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "密集多次輸血",
     "Hb F量增加"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 解離曲線右移代表血色素對氧親和力下降、較易在組織釋氧，促成因素為溫度升高、酸中毒（pH 下降）、2,3-DPG 增加與 PCO2 上升；發燒或運動時肌肉溫度升高即造成右移，有利供氧。\n❌ (B) 鹼毒症使 pH 上升，依 Bohr effect 血色素與氧結合力增強，曲線左移。\n❌ (C) 庫存血中紅血球的 2,3-DPG 會逐漸耗竭，密集大量輸血後對氧親和力增高，曲線左移。\n❌ (D) Hb F 的 γ 鏈與 2,3-DPG 結合力低，對氧親和力高於 Hb A，曲線左移（利於胎兒自母體攝氧）。\n📚 出處：生理學氧解離曲線；Bohr effect 與 2,3-DPG 對血色素氧親和力之影響。"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "溫型AIHA，IgG附著於紅血球最適溫度為25℃，發生於SLE和多發性骨髓瘤的併發症",
     "冷型AIHA，IgM附著於紅血球最適溫度為4℃，發生於黴漿菌的感染"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 本選項錯在溫度：溫型自體免疫溶血性貧血的 IgG 自體抗體最適反應溫度是 37℃（故稱「溫型」），不是 25℃；其續發原因以 SLE、慢性淋巴球性白血病、淋巴瘤及藥物為主。\n❌ (A) 敘述正確：溫型 AIHA 紅血球上覆蓋 IgG 與（或）補體 C3d，直接抗球蛋白試驗（DAT）呈陽性，是診斷依據。\n❌ (B) 敘述正確：冷型 AIHA 的冷凝集素為 IgM，專一對抗紅血球表面的 I 抗原（成人）或 i 抗原（臍帶血、傳染性單核球增多症）。\n❌ (D) 敘述正確：冷凝集素最適作用溫度為 0～4℃，典型見於黴漿菌肺炎（anti-I）之後，於肢端低溫處造成凝集與補體活化。\n📚 出處：Rodak's Hematology 免疫性溶血性貧血；warm/cold AIHA 之抗體種類與最適溫度。"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "IDA",
     "myelofibrosis"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 無效造血指紅血球前驅細胞在骨髓內即遭破壞、無法成熟釋出，骨髓呈增生但周邊血反而貧血。缺鐵性貧血是血基質合成原料不足導致紅血球體積變小、數量略減，前驅細胞本身仍能正常成熟釋出，並非無效造血。\n❌ (A) β 型海洋性貧血重型過剩的 α 鏈沉澱於紅血球前驅細胞，使其在骨髓內凋亡，是無效造血的典型代表。\n❌ (B) 巨母紅血球性貧血因葉酸／B12 缺乏造成 DNA 合成障礙，核質發育不同步、細胞於骨髓內死亡，屬無效造血。\n❌ (D) 骨髓纖維化使造血微環境被纖維組織取代，紅血球生成受阻並出現髓外造血與淚滴狀紅血球，亦歸於無效造血。\n📚 出處：Rodak's Hematology 紅血球生成障礙；ineffective erythropoiesis 之定義與代表疾病。"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "pernicious anemia",
     "hereditary spherocytosis"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 海洋性貧血因血色素鏈合成不足，紅血球呈小球性低色素（MCV、MCH 下降），與缺鐵性貧血的形態極為相似，須靠鐵質檢驗（ferritin）與血色素電泳鑑別。\n❌ (A) 鐮刀型血球貧血為正球性正色素貧血，抹片特徵是鐮刀狀紅血球與靶形細胞。\n❌ (C) 惡性貧血屬巨母紅血球性貧血，MCV 明顯升高（＞100 fL），與小球低色素相反。\n❌ (D) 遺傳性球型血球增多症的紅血球呈小而濃染的球形，無中央蒼白區，MCHC 升高，並非低色素。\n📚 出處：Rodak's Hematology 小球性低色素貧血之鑑別診斷。"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "hematoxylin",
     "brilliant cresyl blue"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 鐵染色（Perls' Prussian blue reaction）以亞鐵氰化鉀與酸使三價鐵形成藍色沉澱，需以 safranin（番紅）作背景染色將細胞核與細胞質染成淡紅色，藍色鐵粒才能清楚對比判讀。\n❌ (B) methylene blue 多用於一般核染或細菌染色，其藍色會與普魯士藍反應的藍色混淆，不適合當背景色。\n❌ (C) hematoxylin 呈藍紫色，同樣會與藍色鐵粒相混，一般用於組織切片核染色而非鐵染色之對比染色。\n❌ (D) brilliant cresyl blue 是網狀紅血球的超活體染色劑，用來顯示殘留 RNA，與鐵染色無關。\n📚 出處：血液學技術 Perls' Prussian blue 鐵染色法；counterstain 使用 safranin。"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Fe2+；Fe3+",
     "Fe3+；Fe3+"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 鐵的儲存形式一律為三價：ferritin 由 apoferritin 外殼包覆氫氧化磷酸鐵（Fe3+）核心；hemosiderin 為 ferritin 部分降解、去蛋白後的聚集物，內含鐵同樣是 Fe3+，故兩者皆為 Fe3+。\n❌ (A) 二價鐵（Fe2+）是腸道吸收與進出細胞時的運送形式，不是儲存形式，兩者皆寫 Fe2+ 錯誤。\n❌ (B) ferritin 內為 Fe3+ 無誤，但 hemosiderin 並非 Fe2+，其鐵仍為三價。\n❌ (C) 兩項均寫反：ferritin 儲存的不是 Fe2+，hemosiderin 也非由 Fe3+ 與 Fe2+ 交替存在。\n📚 出處：鐵代謝；ferritin 與 hemosiderin 之鐵儲存化學形式。"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "Band 3",
     "Glycophorin A"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 食物中的三價無機鐵須先由十二指腸細胞刷狀緣的 duodenal cytochrome b 還原成二價鐵，再經二價金屬離子運輸蛋白 DMT-1（divalent metal transporter-1）送入腸上皮細胞內。\n❌ (A) HCP-1 運送的是血基質鐵（heme iron），走的是另一條與無機鐵不同的吸收途徑。\n❌ (C) Band 3 是紅血球膜上的陰離子（Cl⁻/HCO3⁻）交換蛋白，與腸道鐵吸收無關。\n❌ (D) Glycophorin A 為紅血球膜上的唾液酸醣蛋白，帶負電並攜有 MN 血型抗原，不參與鐵運輸。\n📚 出處：鐵代謝；DMT-1 介導之十二指腸無機鐵吸收。"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "α spectrin",
     "ankyrin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 陣發性夜間血色素尿症是造血幹細胞的 PIG-A（phosphatidylinositol glycan class A）基因發生後天體細胞突變，無法合成 GPI 錨，使 CD55（DAF）與 CD59（MIRL）等補體調節蛋白無法固定於細胞膜，紅血球遭補體攻擊而溶血。\n❌ (A) glycophorin A 基因異常影響的是 MN 血型抗原表現（如 En(a-) 表型），不造成補體性溶血。\n❌ (C) α spectrin 突變見於遺傳性橢圓型血球增多症與部分球型血球增多症，屬膜骨架蛋白缺陷。\n❌ (D) ankyrin 突變是遺傳性球型血球增多症最常見的原因，使 spectrin 與 band 3 連結鬆脫。\n📚 出處：Rodak's Hematology PNH 章節；PIG-A 突變與 GPI-anchored protein（CD55／CD59）缺失。"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "phosphatidylethanolamine",
     "phosphatidylserine"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 紅血球膜磷脂呈不對稱分布：外層以 phosphatidylcholine 與 sphingomyelin 為主，內層則以 phosphatidylethanolamine 含量最高，其次為 phosphatidylserine，故內膜含量最高者為 PE。\n❌ (A) sphingomyelin 幾乎全部位於外層。\n❌ (B) phosphatidylcholine 也是外層的主要成分。\n❌ (D) phosphatidylserine 雖僅存在於內層，但總量少於 PE；其外翻是細胞凋亡與促凝血的訊號。\n📚 出處：紅血球細胞膜構造；膜磷脂之不對稱分布（phospholipid asymmetry）。"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "陣發性夜間血色素尿症（paroxysmal nocturnal hemoglobinuria）",
     "鐮刀型血球貧血（sickle cell anaemia）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 垂直作用指膜骨架（spectrin）經 ankyrin、protein 4.2 與跨膜蛋白 band 3 相連、把骨架「釘」在脂雙層上；此連結缺陷使膜以小囊泡方式流失，表面積／體積比下降而變成球形，即遺傳性球型血球增多症。\n❌ (B) 遺傳性橢圓型血球增多症屬水平作用缺陷：spectrin 二聚體無法形成四聚體，或 spectrin-actin-protein 4.1 接合異常。\n❌ (C) 陣發性夜間血色素尿症是 GPI 錨缺失導致補體調節蛋白脫落，與膜骨架蛋白無關。\n❌ (D) 鐮刀型血球貧血為 β 鏈第 6 位點突變（Glu→Val）使去氧 HbS 聚合變形，不是膜骨架缺陷。\n📚 出處：Rodak's Hematology 紅血球膜缺陷；vertical 與 horizontal interaction 之區分。"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "lysine",
     "methionine"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 葉酸的活性型 5-methyl-THF 在 methionine synthase（需維生素 B12 為輔酶）催化下，把甲基轉給同半胱胺酸（homocysteine）而生成 methionine；缺乏葉酸時此反應受阻，methionine 無法合成而同半胱胺酸堆積。\n❌ (A) isoleucine 為必需胺基酸，人體本來就無法自行合成，與葉酸供應無關。\n❌ (B) leucine 同為必需胺基酸，需由飲食攝取。\n❌ (C) lysine 亦為必需胺基酸，其來源與一碳單位代謝無關。\n📚 出處：一碳單位代謝；5-methyl-THF 與 B12 依賴之 homocysteine→methionine 轉甲基反應。"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "microcytosis",
     "spherocytosis"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 血球分析儀的 RBC histogram 橫軸為細胞體積（fL），曲線整體往左（小體積端）移動即代表紅血球平均體積變小，也就是小球性（microcytosis），常見於缺鐵性貧血與海洋性貧血。\n❌ (A) 大球性（macrocytosis）細胞體積增大，曲線應往右移。\n❌ (B) 大小不等（anisocytosis）的表現是曲線底部變寬、RDW 上升，不是整條曲線平移。\n❌ (D) 球型血球的 MCV 常在正常範圍或僅略低，其特徵是 MCHC 升高，histogram 不以左移為判讀依據。\n📚 出處：血液分析儀原理；RBC histogram 與 MCV、RDW 之判讀。"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "氧化變性的血色素",
     "鐵顆粒"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Howell-Jolly body 是紅血球成熟脫核時未被清除乾淨的 DNA（染色體）殘留物，Wright 染色下為單顆圓形深紫色小體，常見於脾切除、脾功能低下或巨母紅血球性貧血。\n❌ (A) 殘留 RNA 造成的是多染性紅血球（以超活體染色可見網狀構造）或嗜鹼性斑點（basophilic stippling）。\n❌ (C) 氧化變性沉澱的血色素形成 Heinz body，需 crystal violet 等超活體染色才看得到。\n❌ (D) 含鐵顆粒者為 Pappenheimer body（鐵染色呈藍色顆粒），與 Howell-Jolly body 不同。\n📚 出處：紅血球內含物之鑑別；Howell-Jolly body 為 DNA 殘留。"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "orthochromatic normoblast",
     "basophilic normoblast"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 帶核紅血球從骨髓釋出時，以最成熟、最接近脫核階段者最容易通過骨髓－血液屏障，因此周邊血抹片上見到的有核紅血球絕大多數是正染性母紅血球（orthochromatic normoblast）。\n❌ (A) pronormoblast 是最幼稚的紅血球前驅細胞，僅在極嚴重的骨髓刺激或白血病時才可能出現，非最常見。\n❌ (B) 多染性母紅血球雖偶可見，但成熟度不及正染性者，出現頻率較低。\n❌ (D) 嗜鹼性母紅血球更為幼稚，正常情況幾乎只存在骨髓內。\n📚 出處：Rodak's Hematology 紅血球生成階段；周邊血有核紅血球之判讀。"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "early BFUE和 late BFUE",
     "CFUM和CFUGEMM"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 紅血球生成素受器（EPO-R）的表現量在紅血球系分化到晚期爆裂形成單位（late BFU-E）時開始明顯上升，並於 CFU-E 達到最高峰，故 EPO 主要作用於 CFU-E 與 late BFU-E，促其存活、增殖並分化為母紅血球。\n❌ (A) early BFU-E 上 EPO 受器極少，對 EPO 反應差，主要靠 SCF、IL-3、GM-CSF 驅動。\n❌ (C) 此選項漏掉 EPO 受器密度最高的 CFU-E，且納入反應性差的 early BFU-E。\n❌ (D) CFU-Meg 由血小板生成素（TPO）調控，CFU-GEMM 為多能前驅細胞，由 IL-3、SCF 等多重細胞激素作用，均非 EPO 的主要標的。\n📚 出處：造血生理；erythropoietin 對 BFU-E／CFU-E 之作用。"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "idiopathic thrombocytopenia purpura",
     "thalassemia"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 三系同時低下（Hb 6.5 g/dL、WBC 1.5×10⁹/L、血小板 15×10⁹/L）合併骨髓細胞密度＜10% 的低增生骨髓，是再生不良性貧血的診斷組合；血小板過低即造成紫斑。\n❌ (A) 缺鐵性貧血只有紅血球系受影響，白血球與血小板正常（血小板甚至偏高），骨髓紅系呈增生。\n❌ (C) 特發性血小板減少性紫斑症僅血小板下降，Hb 與白血球正常，骨髓巨核細胞數正常甚至增加。\n❌ (D) 海洋性貧血的骨髓因代償而呈明顯增生（hypercellular），且不會有白血球與血小板同時減少。\n📚 出處：Rodak's Hematology 再生不良性貧血；pancytopenia 合併 hypocellular marrow 之診斷。"
   },
   {
    "n": 19,
@@ -276,7 +294,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "thalassemia",
     "folate deficiency"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 多發性骨髓瘤漿細胞大量分泌單株免疫球蛋白（M protein），血漿蛋白濃度升高、紅血球表面負電荷（zeta potential）被中和，紅血球便疊成像疊起的銅板一樣的串錢狀（rouleaux）。\n❌ (B) 冷凝集素疾病造成的是不規則成團的紅血球凝集（agglutination），加溫至 37℃ 可散開，與規則排列的串錢狀不同。\n❌ (C) 海洋性貧血抹片以小球低色素、靶形細胞與嗜鹼性斑點為主，血漿蛋白不高，不形成串錢狀。\n❌ (D) 葉酸缺乏表現為巨球性紅血球與中性球核過度分葉，亦非串錢狀排列。\n📚 出處：血液抹片判讀；rouleaux formation 與高球蛋白血症（multiple myeloma）之關係。"
   },
   {
    "n": 21,
@@ -707,7 +726,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "②③",
     "③④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ③④ 正確：A 型血友病屬內在凝血途徑缺陷，APTT 延長；依嚴重度分級，血漿第八因子活性＜1% 即為嚴重型，常有自發性關節腔與肌肉出血。\n❌ (A) 含①與②皆錯：血友病 A 只缺第八因子，vWF 正常（同時缺 vWF 者為 von Willebrand disease）；INR 反映外在途徑與 PT，血友病 A 的 PT／INR 正常。\n❌ (B) 含①錯誤，理由同上：vWF 是第八因子的攜帶蛋白，在血友病 A 中含量與功能均正常。\n❌ (C) 含②錯誤：INR 用於監測外在途徑（FVII、X、V、II、fibrinogen），第八因子缺乏不會使 INR 大於 3。\n📚 出處：止血學；hemophilia A 之因子活性分級與 PT／APTT 表現。"
   },
   {
    "n": 52,
