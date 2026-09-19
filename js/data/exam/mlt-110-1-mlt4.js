@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['mlt-110-1-mlt4'] = {
     "③④",
     "②④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：具吞噬（phagocytosis）活性的是骨髓來源的吞噬細胞系統。①單核球在血中循環、進入組織後分化為巨噬細胞，可經由補體受體（CR1、CR3）與Fc受體辨識調理後的細菌並吞噬；②嗜中性白血球是急性細菌感染的第一線，數小時內大量趨化至感染部位，吞噬後以氧化爆發（NADPH oxidase）及顆粒內myeloperoxidase、防禦素殺菌。故①②正確，選A。\n❌ (B) ①正確但③錯。NK細胞屬先天免疫的淋巴球，以perforin／granzyme及ADCC毒殺病毒感染細胞與腫瘤細胞，不進行吞噬。\n❌ (C) ③④皆非吞噬細胞。NK細胞為細胞毒殺作用；T細胞以TCR辨識MHC上的抗原胜肽，行細胞毒殺（CD8）或分泌細胞激素協助（CD4），兩者都不吞噬細菌。\n❌ (D) ②嗜中性白血球雖正確，但④T細胞屬適應性免疫的淋巴球，無吞噬能力，組合不成立。\n📚 出處：Abbas, Cellular and Molecular Immunology 第2、4章 先天免疫與吞噬細胞（neutrophil、monocyte／macrophage）；Janeway's Immunobiology 先天免疫的效應細胞。"
   },
   {
    "n": 21,
