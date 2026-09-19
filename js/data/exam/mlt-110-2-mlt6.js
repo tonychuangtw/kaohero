@@ -810,7 +810,8 @@ window.APP_EXAM_PAPERS['mlt-110-2-mlt6'] = {
     "Pyruvate broth",
     "Tetrathionate broth"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 說明：CLSI M24 文件規範結核分枝桿菌（M. tuberculosis complex）的藥敏試驗，液體法即以 Middlebrook 7H9 broth 為基礎培養液（加入 OADC 增菌劑），商品化的 MGIT 960 系統與 broth microdilution 皆使用此配方；它能支持生長緩慢且營養需求特殊的分枝桿菌，並可與固體 7H10／7H11 的比例法對照判讀。\n❌ (B) MRS broth 是專為乳酸桿菌（Lactobacillus）設計的富含葡萄糖與 Tween 80 之培養液，與分枝桿菌的營養需求不符，也非 CLSI 藥敏規範用基質。\n❌ (C) Pyruvate broth 用於鏈球菌／腸球菌的丙酮酸鹽利用鑑別試驗（如 E. faecalis 陽性），丙酮酸鈉在結核菌學上只用於固體培養基中促進 M. bovis 生長，不是藥敏試驗用液體培養基。\n❌ (D) Tetrathionate broth 是腸道檢體分離沙門氏菌用的選擇性增菌肉湯，含硫代硫酸鹽與膽鹽抑制雜菌，與抗酸菌藥敏試驗無關。\n📚 出處：CLSI M24《Susceptibility Testing of Mycobacteria, Nocardia spp., and Other Aerobic Actinomycetes》液體培養基藥敏試驗；Mahon & Lehman, Textbook of Diagnostic Microbiology, Mycobacteria 章節「培養基與藥物感受性試驗」。"
   },
   {
    "n": 58,
