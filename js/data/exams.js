@@ -23954,7 +23954,7 @@ window.APP_EXAMS = [
   "subjName": "職能治療技術學",
   "label": "105 年第一次　職能治療技術學",
   "n": 80,
-  "exp": 76,
+  "exp": 77,
   "mins": 60
  },
  {
