@@ -26796,7 +26796,7 @@ window.APP_EXAMS = [
   "subjName": "公共衛生營養學",
   "label": "102 年第一次　公共衛生營養學",
   "n": 40,
-  "exp": 39,
+  "exp": 40,
   "mins": 120
  },
  {
