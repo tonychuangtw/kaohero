@@ -39368,7 +39368,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "111 年　五等　電子學大意",
   "n": 40,
-  "exp": 24,
+  "exp": 25,
   "mins": 60
  },
  {
@@ -40222,7 +40222,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "110 年　五等　電子學大意",
   "n": 40,
-  "exp": 15,
+  "exp": 19,
   "mins": 60
  },
  {
