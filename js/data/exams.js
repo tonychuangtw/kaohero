@@ -50246,7 +50246,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "108 年　初等考試　電子學大意",
   "n": 40,
-  "exp": 16,
+  "exp": 23,
   "mins": 60
  },
  {
@@ -50260,7 +50260,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "108 年　初等考試　基本電學大意",
   "n": 40,
-  "exp": 18,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -50638,7 +50638,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "107 年　初等考試　基本電學大意",
   "n": 40,
-  "exp": 16,
+  "exp": 17,
   "mins": 60
  },
  {
