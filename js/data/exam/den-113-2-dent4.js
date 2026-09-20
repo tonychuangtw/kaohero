@@ -921,7 +921,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "單純性骨囊腫（simple bone cyst）",
     "骨質疏鬆症（osteoporosis）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 顎下窩是下顎骨舌側、下顎舌骨線下方用以容納顎下腺的正常凹陷，該處皮質骨薄、骨小樑稀疏，在根尖片上呈現下顎臼齒根尖下方界線模糊的放射線透過區，屬正常解剖構造而非病灶。\n❌ (B) 創傷性骨囊腫邊界相對明確，且常在牙根之間形成扇形（scalloping）的透過病灶，與正常解剖凹陷的模糊表現不同。\n❌ (C) 單純性骨囊腫與創傷性骨囊腫是同一病灶的不同名稱，兩者不可能同時成為單一正解，本身即可排除。\n❌ (D) 骨質疏鬆是全身性骨量下降，影像上為骨小樑普遍變細稀疏，不會形成侷限的透過性區域。\n📚 出處：White and Pharoah, Oral Radiology: Principles and Interpretation, 8th ed.（Normal radiographic anatomy — submandibular gland fossa；Simple bone cyst）。"
   },
   {
    "n": 66,

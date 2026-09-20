@@ -109,7 +109,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent2'] = {
     "類似天疱瘡樣反應（pemphigus-like eruptions）",
     "類似非特定性水泡潰瘍反應（nonspecific vesiculoerosive eruptions）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Carbamazepine 是典型會誘發藥物性紅斑性狼瘡（drug-induced lupus erythematosus）的藥物之一，與 hydralazine、procainamide、isoniazid、minocycline 同屬高風險族群；服藥數週至數月後出現顏面紅斑、光敏感與關節症狀，抗組蛋白抗體常呈陽性，停藥後多可緩解。\n❌ (B) 扁平苔癬樣藥物反應主要由 NSAIDs、ACE 抑制劑、噻嗪類利尿劑、抗瘧藥與金製劑引起，病灶好發於頰黏膜，呈白色網紋而非顏面紅斑。\n❌ (C) 天疱瘡樣藥物反應多見於含硫氫基（thiol）的藥物如 penicillamine、captopril，表現為鬆弛性水疱與糜爛。\n❌ (D) 非特定性水泡潰瘍反應缺乏與特定藥物的專一關聯，也無法解釋本例的顏面對稱性紅斑。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Drug-induced lupus erythematosus；Lichenoid drug reaction）。"
   },
   {
    "n": 8,

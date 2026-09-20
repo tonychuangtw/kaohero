@@ -486,7 +486,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "就診日當天應有膿腫（abscess）形成",
     "這幾天不再牙痛的原因是牙髓壞死"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 乳臼齒經牙髓切斷術或牙髓摘除後齒質大量流失、牙冠脆弱易裂，標準修復是全覆蓋的不鏽鋼牙冠或二氧化鋯牙冠，不可僅以樹脂或銀汞充填，否則邊緣滲漏與牙冠崩裂的失敗率偏高。\n❌ (B) 吃甜食才痛、清潔後即緩解、無自發痛與夜間痛，符合可逆性牙髓炎或深齲的表現，不能診斷為不可逆牙髓炎。\n❌ (C) 目前已無疼痛，也無腫脹、叩診痛或瘻管等徵象，沒有膿腫形成的依據。\n❌ (D) 不痛是因為刷牙移除了嵌塞的食物與刺激源，並非牙髓壞死；壞死多伴隨長期自發痛病史或牙冠變色。\n📚 出處：AAPD 臨床指引 Pulp Therapy for Primary and Immature Permanent Teeth；McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.。"
   },
   {
    "n": 35,

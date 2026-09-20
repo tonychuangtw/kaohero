@@ -630,7 +630,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent5'] = {
     "上顎和下顎模型都要進行此步驟",
     "可以提高義齒的穩定度"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖中步驟是主模型的劃溝（beading）：沿上顎主連接體邊界在模型上刻一道淺溝，鑄造完成後主連接體邊緣會略微陷入腭黏膜，與組織形成正接觸（positive contact），達到邊緣封閉、避免食物與唾液滲入連接體下方。\n❌ (A) 溝深約 0.5 mm、寬約 0.5～1 mm 即可；深達 1 mm 以上會過度壓迫黏膜，造成疼痛與潰瘍。\n❌ (C) 劃溝只施行於上顎；下顎舌側黏膜薄且活動度大，劃溝會壓迫並傷害該處組織。\n❌ (D) 義齒穩定度來自齒支撐、支托設計與固位裝置，劃溝的功能是密合與封閉，不是提升穩定度。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Beading the maxillary cast；major connector design）。"
   },
   {
    "n": 45,

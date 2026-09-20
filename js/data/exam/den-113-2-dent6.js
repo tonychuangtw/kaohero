@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent6'] = {
     "使用16 × 22 mil不鏽鋼角線放入其他矯正器，並使用14 mil NiTi 圓線牽引左上正中門齒",
     "使用14 mil NiTi圓線放入其他矯正器，並使用16 × 22 mil不鏽鋼角線牽引左上正中門齒"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阻生或延遲萌出牙的牽引原則是「主弓線負責錨定、輔助線負責移動」：先以 16 × 22 mil 不鏽鋼角線把其餘牙列串成剛性錨定單位，再另掛一條 14 mil NiTi 圓線當作疊加式（piggyback）輔助弓，利用其超彈性提供長行程的輕微持續力，把左上正中門齒緩緩牽下。\n❌ (A) 把該牙一併納入 14 mil NiTi 主弓線，主弓本身太軟無法承擔反作用力，鄰牙會被侵入與傾倒，錨定完全失守。\n❌ (B) 16 × 22 mil 不鏽鋼角線硬度高、彈性範圍小，硬要銜接落差大的阻生牙會產生過大且快速衰減的力量，易導致牙根吸收或矯正器脫落。\n❌ (D) 兩條線的角色正好顛倒：軟線當主弓提供不了錨定，硬線當牽引線力量又失控，是最不利的配置。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Treatment of impacted/unerupted teeth；auxiliary piggyback archwire）。"
   },
   {
    "n": 15,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent6'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 三項敘述都錯，故選①②③。上顎乳前牙因齲齒早失時該區間隙幾乎不會喪失（乳犬齒與乳臼齒的咬合已鎖住齒弓長度），常規不需空間維持器；義齒只在美觀、發音或家長強烈要求時才選擇性製作，並非必要；哈立固定器是矯正後維持齒位的保持裝置，與乳前牙早失的處置無關。\n❌ (A) 只把①列為錯誤，忽略②③同樣是不必要的處置。\n❌ (B) 只列①②，漏掉哈立固定器這個明顯不適應症。\n❌ (C) 未把①列入，等於承認乳前牙早失需要空間維持器，與臨床共識不符。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Space maintenance in the primary dentition）。"
   },
   {
    "n": 43,

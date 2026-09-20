@@ -935,7 +935,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent1'] = {
     "關節面區（articular zone）、關節盤（articular disk）、增殖區（(proliferative zone）、纖維軟骨區（(fibrocartilaginous zone）",
     "關節盤（articular disk）、關節面區（articular zone）、增殖區（proliferative zone）、纖維軟骨區（fibrocartilaginous zone）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 由關節腔往骨質方向，構造依序是覆蓋其上的關節盤、關節隆突最表層的關節面區（緻密纖維結締組織）、其下的增殖區（未分化間葉細胞，為軟骨細胞來源）、再深層的纖維軟骨區，最後才是鈣化軟骨與骨。A～D 的標示正符合此由淺入深的層序。\n❌ (A) 把纖維軟骨區放在最表層、關節面區放在最深層，層序完全顛倒。\n❌ (B) 將關節盤排在增殖區之下，等於把獨立的關節盤夾進關節隆突的組織分層中，解剖上不可能。\n❌ (C) 同樣把關節盤插在關節面區與增殖區之間，違反關節盤位於關節面之上的構造關係。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Temporomandibular joint — articular eminence 的分層構造）。"
   },
   {
    "n": 67,
