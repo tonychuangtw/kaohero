@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent2'] = {
     "壞死性涎腺變生（necrotizing sialometaplasia）",
     "周邊型巨細胞肉芽腫（peripheral giant cell granuloma）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 深部黴菌感染（芽生菌病）在口腔的典型表現就是外生性、顆粒狀且會潰瘍的硬結腫塊；組織學上出現偽性上皮增生（pseudoepitheliomatous hyperplasia）合併急性化膿與肉芽腫性炎症反應，是此病的經典組合，仔細找可見寬基出芽的厚壁酵母。\n❌ (A) 鱗狀細胞癌的切片會看到異型上皮巢穿入結締組織並形成角化珠，而非單純的偽性上皮增生與肉芽腫反應；偽性上皮增生正是最容易被誤判為 SCC、也是據以區分的關鍵。\n❌ (C) 壞死性涎腺變生好發於硬腭小唾液腺，病灶為火山口狀潰瘍，組織學是腺小葉梗塞壞死併鱗狀變生，小葉輪廓保留，不會有肉芽腫性炎症。\n❌ (D) 周邊型巨細胞肉芽腫長在牙齦或無牙齒槽嵴，呈紫紅色結節，鏡下為多核巨細胞散布於血管豐富的間質中，與頰黏膜顆粒狀潰瘍腫塊不符。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.，Fungal and Protozoal Diseases：Blastomycosis。"
   },
   {
    "n": 4,
@@ -81,7 +82,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent2'] = {
     "柯洛斯氏症候群（Cross syndrome）",
     "侖謝亨特症候群（Ramsay Hunt syndrome）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 侖謝亨特症候群是水痘帶狀疱疹病毒侵犯膝狀神經節（geniculate ganglion），表現為單側顏面、耳周與同側口腔黏膜的疼痛性水泡與潰瘍，合併同側顏面神經麻痺；病毒波及前庭耳蝸神經時再加上暈眩與聽力障礙，完全符合本例。\n❌ (A) 耳顳神經症候群（Frey syndrome）是腮腺手術後神經錯接所致，進食時耳前皮膚潮紅出汗，不會有水泡、潰瘍或顏面神經麻痺。\n❌ (B) 貝謝氏症候群為反覆口腔潰瘍併生殖器潰瘍與眼部病變，病灶多處且不依皮節分布，也不造成顏面神經麻痺與聽力障礙。\n❌ (C) 柯洛斯氏症候群是罕見先天疾病（色素減少、小眼球、智能障礙），自出生即存在，與老年急性發作的單側水泡病灶無關。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.，Viral Infections：Varicella-Zoster Virus（Herpes Zoster / Ramsay Hunt syndrome）。"
   },
   {
    "n": 6,

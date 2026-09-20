@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "右上第二大臼齒可逆性牙髓炎（reversible pulpitis）",
     "右上第二大臼齒不可逆性牙髓炎（irreversible pulpitis）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 熱刺激引起劇痛、且出現自發性抽痛並持續一週，是牙髓發炎到不可逆階段的典型症狀；右上第二大臼齒沒有敲痛，代表發炎尚侷限於牙髓、未擴及根尖牙周組織，符合不可逆性牙髓炎（未合併根尖牙周炎）。\n❌ (A) 慢性根尖牙周炎的牙髓多已壞死，不會因熱刺激產生劇痛，臨床以輕微敲痛加根尖透射影為主，無法解釋自發性抽痛。\n❌ (B) 慢性根尖膿腫的指標是竇道（sinus tract）持續排膿、通常不痛，本例並未出現排膿或竇道。\n❌ (C) 可逆性牙髓炎只在刺激當下短暫刺痛、移除刺激即緩解，不會有自發痛，也不會持續一週。\n📚 出處：AAE Consensus Conference Recommended Diagnostic Terminology（2009）牙髓與根尖病變診斷分類；Hargreaves & Berman, Cohen's Pathways of the Pulp, 12th ed.（Diagnosis 章）。"
   },
   {
    "n": 9,

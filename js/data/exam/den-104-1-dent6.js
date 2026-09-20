@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent6'] = {
     "gemination",
     "fusion"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Dilaceration（牙根彎曲）指牙根或牙冠與牙體長軸出現異常銳角彎折，最常見的成因就是乳牙期外傷把正在發育的恆牙胚撞擊移位，使已鈣化部分與其後繼續形成的部分之間產生角度，正與題幹「受撞擊造成牙根變形」相符。\n❌ (A) Ectopic eruption 是牙齒萌發路徑偏離正常位置（例如第一大臼齒卡在第二乳臼齒遠心），描述的是位置異常，牙根形態本身正常。\n❌ (C) Gemination（雙生牙）為單一牙胚部分內陷分裂，牙冠呈雙冠但只有一個牙根與一條根管，牙列總數不減，屬發育異常而非外傷所致。\n❌ (D) Fusion（融合牙）是兩個相鄰牙胚在發育期結合，牙冠明顯變寬且牙列少一顆牙，同樣與撞擊無關。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.，Abnormalities of Teeth：Dilaceration。"
   },
   {
    "n": 6,

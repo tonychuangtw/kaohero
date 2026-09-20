@@ -249,7 +249,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "Pterygomandibular space",
     "Submasseteric space"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 咬肌下腔（submasseteric space）位於咬肌與下顎枝外側骨面之間，下顎後牙（尤其第三大臼齒）的齒源性感染沿下顎枝外側擴散時，就會在下顎枝表面、即後顏面區形成腫脹，並伴隨明顯牙關緊閉，與病程兩天後左側後顏面區腫脹相符。\n❌ (A) 顎下腔感染的腫脹位在下顎下緣內下方的頜下三角，表現是下顎角下緣輪廓消失、下巴下方鼓起，而不是後顏面區。\n❌ (B) 咽側腔感染以咽側壁與扁桃體向中線隆起、吞嚥困難、牙關緊閉為主，外觀腫脹並不明顯，屬深頸危險腔隙。\n❌ (C) 翼下顎腔位於下顎枝內側與翼內肌之間，典型是嚴重牙關緊閉但外觀幾乎看不出腫脹，正好與本例的外部腫脹相反。\n📚 出處：Hupp, Ellis & Tucker, Contemporary Oral and Maxillofacial Surgery, 7th ed.，Odontogenic Infections：fascial space involvement（masticator / submasseteric space）。"
   },
   {
    "n": 18,
@@ -986,7 +987,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "dentin dysplasia",
     "odontogenesis imperfecta"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 牙本質生成不全症為體染色體顯性遺傳，家族內多人罹病（母親、妹妹）；缺陷的牙本質無法支撐表面琺瑯質，琺瑯質整片剝落後牙齒迅速磨耗，年紀輕輕即嚴重磨平。根尖片的典型表現是牙冠球狀膨大、牙頸部緊縮、髓腔與根管阻塞閉鎖。\n❌ (A) 琺瑯質生成不全症的缺陷只在琺瑯質，牙本質與髓腔形態正常，X 光上是琺瑯質變薄或密度與牙本質相近，不會出現髓腔閉鎖。\n❌ (C) 牙本質發育異常（dentin dysplasia）第一型牙冠外形與顏色大致正常，特徵為牙根極短、根管消失並常見自發性根尖病灶，不以嚴重磨耗為主訴。\n❌ (D) Odontogenesis imperfecta 並非公認的診斷名稱，遺傳性牙齒硬組織疾病的教科書分類中沒有這一項。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.，Abnormalities of Teeth：Dentinogenesis Imperfecta（Shields classification）。"
   },
   {
    "n": 71,
@@ -1013,7 +1015,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "Residual cyst",
     "Central mucoepidermoid carcinoma"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 中央性神經纖維瘤源自下齒槽神經，腫瘤沿著下顎神經管生長，使神經管呈梭形（紡錘狀）膨大並在下顎骨體形成透射影，正是題幹描述的影像特徵；臨床常伴隨下唇感覺異常或麻木。\n❌ (A) 周邊型血管瘤位於牙齦、黏膜等軟組織，本身不在骨內，不會造成沿下顎神經管走行的骨內透射影。\n❌ (C) 殘留囊腫是拔牙後留下的根尖囊腫，呈界限分明的圓形或卵圓形透射影且位於原牙根尖處，不會沿神經管延伸成梭形。\n❌ (D) 中央性黏液表皮樣癌為惡性腫瘤，影像多呈多房或界限不清、具侵蝕性骨破壞，不會只是神經管對稱性的梭形擴大。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 7th ed.，Benign Tumors of the Jaws：neurogenic tumors（widening of the inferior alveolar canal）。"
   },
   {
    "n": 73,
@@ -1122,7 +1125,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "Ameloblastoma",
     "Pindborg tumor"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 齒源性黏液瘤的檢體肉眼即呈半透明、黏稠的果凍狀（gelatinous / mucoid），這是切開時最具指標性的所見；組織學為稀疏的星狀與梭形細胞散布在大量黏液樣基質中，與題幹描述完全吻合。\n❌ (A) 齒源性角化囊腫取出的是薄囊壁與乳白色油酪狀角化物，鏡下為 6～8 層厚、基底細胞柵欄狀排列並具波浪狀角化層的上皮襯裡，質地不是果凍狀。\n❌ (C) 成釉細胞瘤（ameloblastoma）為實質或囊實混合的軟組織腫塊，鏡下是柵欄狀基底樣細胞圍繞星狀網（stellate reticulum），沒有大量黏液樣基質。\n❌ (D) Pindborg 瘤（鈣化上皮性齒源性腫瘤）是實質病灶，鏡下可見多形性上皮細胞、澱粉樣物質沉積與 Liesegang 環狀鈣化。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.，Odontogenic Cysts and Tumors：Odontogenic Myxoma。"
   }
  ]
 };
