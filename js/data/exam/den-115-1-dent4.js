@@ -834,7 +834,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "表示能重複使用的次數",
     "表示產品的生產代數（generation number）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 口內感應片（PSP 影像板／數位感應器）上印的 0、1、2、3、4 是國際通用的尺寸規格編號，代表該片屬於哪一種口內攝影用途：2 號是成人根尖片最常用的尺寸，4 號則是咬合片（occlusal film）用的大片。\n❌ (B) 產品序號通常是一長串英數字，印在背面或外包裝上，不會只用一個個位數表示。\n❌ (C) 影像板可重複使用的次數由廠商規範（可達數千次），且會因刮傷與清潔而異，不會刻在片面上。\n❌ (D) 世代編號是描述感應器技術演進的行銷用語，不會逐片標示在感應片上。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 8th ed.（Digital imaging：intraoral receptor sizes 0–4）。"
   },
   {
    "n": 60,
@@ -955,7 +956,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "（c 至 d 距離）÷（c 至 e 距離）× 100%",
     "（c 至 d 距離）÷（b 至 e 距離）× 100%"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 健康的齒槽嵴頂本來就位於牙骨質－牙釉質交界根方約 1～2 mm，判讀骨喪失百分比時要先把這段生理距離扣掉：以 CEJ 往根方 2 mm 的 c 點當起算點，量 c 到實際齒槽嵴尖（d）作為病理性骨喪失量，再除以 c 到根尖（e）這段可提供附著的根面總長。\n❌ (A) 分子從 b 起算沒扣掉生理性的 2 mm，分母又用近心邊緣嵴（a）到根尖，a 位在牙冠上，不屬於根面長度。\n❌ (B) 分母雖是根面長度，但分子自 CEJ（b）起算，會把正常的 2 mm 也算成骨喪失而高估嚴重度。\n❌ (D) 分子從 c、分母從 b 起算，兩者基準點不一致，算出的比例沒有意義。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Radiographic aids in the diagnosis of periodontal disease：骨喪失量測）。"
   },
   {
    "n": 69,
@@ -1088,7 +1090,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "此 X 光影像所顯示疾病最可能是 cleidocranial dysplasia",
     "右側中上，長而粗的箭頭指的是 open fontanel"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯在診斷。影像同時出現枕骨區的縫間骨（wormian bones）與未閉合的囟門，這是鎖骨顱骨發育不良（cleidocranial dysplasia）的典型頭顱表現；Treacher Collins syndrome 的特徵是顴骨與下顎發育不全、眼裂外下斜，不會以縫間骨與開放囟門表現。\n❌ (B) 短而細的箭頭所指的縫間骨（wormian bones）確實好發於枕骨區，敘述正確。\n❌ (C) 由縫間骨加上開放囟門判定為 cleidocranial dysplasia 正確，正好與 A 互斥，可反證 A 為誤。\n❌ (D) 長而粗的箭頭所指的開放囟門是本症患者成年後仍不閉合的特徵，敘述正確。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 8th ed.（Craniofacial anomalies：cleidocranial dysplasia 的 wormian bones 與 open fontanelles）。"
   },
   {
    "n": 79,

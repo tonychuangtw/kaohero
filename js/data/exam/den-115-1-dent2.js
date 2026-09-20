@@ -66,7 +66,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "margination of chromatin",
     "multinucleation"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 異型增生（dysplasia）指上皮出現核質比增加、細胞極性喪失、有絲分裂異常等癌前變化，屬於腫瘤性病變的描述，不是病毒造成的細胞病變效應，因此不能用來描述 HSV 感染的上皮細胞。\n❌ (B) 氣球樣變性（ballooning degeneration）是受感染細胞腫脹、胞質水樣化，為 HSV 典型的細胞病變。\n❌ (C) 染色質邊集（margination of chromatin）是病毒堆積物把核內染色質推擠到核膜周邊，形成中央淡染的核，屬 HSV 特徵。\n❌ (D) 多核化（multinucleation）即受感染細胞融合形成的多核巨細胞（Tzanck 細胞），是細胞抹片診斷 HSV 的重要依據。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Viral infections：herpes simplex virus 的 cytopathic effect）。"
   },
   {
    "n": 5,
@@ -219,7 +220,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "病因為慢性刺激",
     "不需手術切除"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯在病因。犬齒後乳頭（retrocuspid papilla）位於下顎犬齒舌側牙齦緣，是發育性的正常解剖變異（纖維結締組織小丘），並非慢性機械刺激造成的反應性增生。\n❌ (A) 下顎犬齒舌側的粉紅色小丘狀隆起，診斷即為 retrocuspid papilla，敘述正確。\n❌ (B) 此構造在兒童及年輕族群幾乎都找得到，出現率隨年齡增長而下降，敘述正確。\n❌ (D) 既是正常變異、無惡性潛能，只需向病人說明、不必手術切除，敘述正確。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Developmental defects of the oral and maxillofacial region：retrocuspid papilla）。"
   },
   {
    "n": 16,

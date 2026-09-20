@@ -1005,7 +1005,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "矯正治療（orthodontic treatment）",
     "正顎手術（orthognathic surgery）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 在中心關係下，下顎臼齒的中心咬頭已落到上顎咬頭內斜面三等份的最外 1/3，代表中心關係與最大咬合位之間的落差很大，而且是牙齒排列本身不正所造成，必須靠矯正治療把牙齒移到正確位置才能根本解決。\n❌ (A) 選擇性修磨只適用於偏移量很小的早期接觸；此處落差過大，要磨掉的琺瑯質量會超過安全厚度而露出牙本質、破壞咬頭外形。\n❌ (B) 固定贋復必須先把健康牙齒大量削磨再重建咬合面，對單純位置不正的完整牙齒屬於過度破壞性的做法，不是首選。\n❌ (D) 正顎手術處理的是骨性（上下顎大小或位置）不調；本題異常僅在牙齒層級，顎骨關係並未異常。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Occlusal therapy：selective grinding 的適應症與限制）。"
   },
   {
    "n": 72,
