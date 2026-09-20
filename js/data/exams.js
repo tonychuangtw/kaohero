@@ -36596,7 +36596,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "114 年　三等　經濟學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -36610,7 +36610,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "114 年　三等　民法（財稅行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37170,7 +37170,7 @@ window.APP_EXAMS = [
   "subjName": "財政學",
   "label": "113 年　三等　財政學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37212,7 +37212,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計",
   "label": "113 年　三等　政府會計",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37408,7 +37408,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "113 年　四等　國籍與戶政法規概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37478,7 +37478,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計概要",
   "label": "113 年　四等　政府會計概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -38430,7 +38430,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "112 年　五等　公務員法大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
