@@ -283,7 +283,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Furosemide",
     "Mannitol"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Mannitol 為滲透性利尿劑，經腎絲球濾過後幾乎不被再吸收，留在管腔內提高管腔滲透壓，於近曲小管與亨利氏環下降支這類「只通透水、不主動運送溶質」的節段直接把水留在管腔，因此抑制的正是 H2O 的再吸收。\n❌ (A) Thiazide 作用於遠曲小管，抑制 Na+-Cl- 共同運輸子，減少的是鈉與氯的再吸收，水的移動是續發結果。\n❌ (B) Spironolactone 在集尿管拮抗醛固酮受體，減少 Na+ 再吸收並保留 K+，屬保鉀利尿劑。\n❌ (C) Furosemide 作用於亨利氏環上升支粗段，抑制 Na+-K+-2Cl- 共同運輸子；該節段本身對水不通透，並非抑制水的吸收。\n📚 出處：Katzung《Basic & Clinical Pharmacology》利尿劑（Diuretic Agents）章，各類利尿劑之腎小管作用部位與滲透性利尿劑機轉。"
   },
   {
    "n": 20,
@@ -731,7 +732,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "為長效的butyrophenone類藥物",
     "可與fentanyl併用於麻醉"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 由「可與 fentanyl 併用於麻醉」可判定該化合物為 droperidol。它確屬 butyrophenone 類，但作用時間短（臨床作用約 2～4 小時），是短效藥物；同類中的 haloperidol 才是長效製劑，故「長效的 butyrophenone 類藥物」敘述錯誤。\n❌ (A) droperidol 具明顯鎮靜與精神安定作用，麻醉前給藥即取其此一特性，敘述正確。\n❌ (B) 其阻斷延腦化學受體觸發區（CTZ）的 D2 受體，是臨床常用的術後止吐藥，敘述正確。\n❌ (D) 與 fentanyl 合併使用可產生神經安定鎮痛（neuroleptanalgesia），為其典型麻醉用途，敘述正確。\n📚 出處：Katzung《Basic & Clinical Pharmacology》靜脈麻醉藥與抗精神病藥章，butyrophenone 類 droperidol 之藥理與臨床應用。"
   },
   {
    "n": 52,

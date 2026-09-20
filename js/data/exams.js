@@ -15610,7 +15610,7 @@ window.APP_EXAMS = [
   "subjName": "藥學（一）",
   "label": "102 年第一次　藥學（一）",
   "n": 80,
-  "exp": 75,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -37716,7 +37716,7 @@ window.APP_EXAMS = [
   "subjName": "租稅各論",
   "label": "112 年　三等　租稅各論",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -38164,7 +38164,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（資訊處理組）",
   "label": "112 年　四等　計算機概要（資訊處理組）",
   "n": 40,
-  "exp": 39,
+  "exp": 40,
   "mins": 60
  },
  {
@@ -38444,7 +38444,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "112 年　五等　基本電學大意",
   "n": 40,
-  "exp": 26,
+  "exp": 27,
   "mins": 60
  },
  {
