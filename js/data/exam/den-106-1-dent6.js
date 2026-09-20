@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "沒有骨骼不對稱的問題",
     "深咬"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 深咬是序列性拔牙的禁忌而非必備特徵：拔牙後前牙內傾會讓覆咬合更深，適合的病例覆咬合應正常或偏淺，甚至略帶開咬傾向。\n❌ (A) 上下顎前牙嚴重擁擠、換牙後空間仍明顯不足，正是序列性拔牙要處理的核心問題。\n❌ (B) 牙弓周徑不足超過約 10 mm（明顯齒量／骨量不符）才值得走減數路線；不足量輕微者應先觀察或擴弓。\n❌ (C) 序列性拔牙只適用骨骼關係正常且左右對稱的安格氏第一級；有骨骼不對稱或前後向不調時單靠拔牙無法解決。\n📚 出處：Proffit, Contemporary Orthodontics（Serial extraction 的適應症與禁忌）；Graber, Orthodontics: Current Principles and Techniques."
   },
   {
    "n": 15,

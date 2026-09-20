@@ -138,7 +138,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "由粗隆高位（high tuberosity）進針",
     "由口外經喙狀突前緣（in front of coronoid process）進針"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 由乙狀（下顎）切迹進針是口外「下顎神經（V3）」阻斷的路徑：針穿過切迹抵翼外板，再往後調整到卵圓孔附近，麻醉的是下顎神經而非上顎神經，故不屬上顎神經阻斷法。\n❌ (B) 大腭孔（翼腭管）法由大腭孔進針沿翼腭管上行約 30 mm 進入翼腭窩，是最常用的口內上顎神經阻斷法。\n❌ (C) 粗隆高位法由上顎第二大臼齒頰側前庭沿上顎粗隆向後、上、內進針進入翼腭窩，同樣可阻斷上顎神經全支。\n❌ (D) 口外自喙狀突前緣（顴弓下方）水平進針，穿過顳下窩到達翼腭窩，是上顎神經阻斷的標準口外路徑。\n📚 出處：Malamed, Handbook of Local Anesthesia（Maxillary nerve block：greater palatine canal approach 與 high tuberosity approach）。"
   },
   {
    "n": 10,

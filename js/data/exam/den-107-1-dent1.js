@@ -655,7 +655,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent1'] = {
     "結合處本身具備之力量",
     "結合處產生沈積性之生長"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 骨縫（suture）並不是靠自己「沉積性生長」把兩塊顱骨推開；縫緣的骨質增生是在骨縫被拉開之後才被動填補空隙的適應性反應，不能當成骨縫擴大的動力來源，故此敘述錯誤。\n❌ (A) 腦組織（功能基質）快速增大時會先把包覆的顱蓋骨撐開、骨縫被拉張，這正是 Moss 功能基質理論對顱蓋骨縫擴大的解釋。\n❌ (B) 骨縫被分開後在縫緣產生代償（補償）性骨生長，以維持骨縫寬度與顱骨的連續性，是公認的骨縫生長機轉。\n❌ (C) Sicher 的骨縫理論主張骨縫內結締組織本身具有內在增殖力量、可把兩側骨片推開，是教科書所列的骨縫擴大學說之一。\n📚 出處：Proffit, Contemporary Orthodontics, Ch.2 顱顏生長（sutural theory、functional matrix theory）；Enlow, Essentials of Facial Growth."
   },
   {
    "n": 47,

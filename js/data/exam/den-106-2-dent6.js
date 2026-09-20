@@ -152,7 +152,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent6'] = {
     "前牙開咬",
     "上顎牙弓狹窄"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 題目問的是「較不常見」的特徵。長期鼻呼吸道阻塞者以口呼吸代償，下顎向後下旋轉、後牙持續萌出，覆咬合會變淺甚至開咬，深咬反而少見。\n❌ (A) 口呼吸使下顎與舌位下降、後牙過度萌出，前下顏面高度增加，是腺樣體臉（adenoid facies）的典型表現。\n❌ (C) 舌位低、下顎後下旋轉又缺乏前牙唇封，前牙區常形成開咬。\n❌ (D) 舌頭離開腭穹窿後失去由內向外的支撐，頰肌壓力相對佔優勢，上顎牙弓變窄、高腭弓並常伴後牙錯咬。\n📚 出處：Proffit, Contemporary Orthodontics（呼吸型態與齒顎發育、adenoid facies）；Graber, Orthodontics: Current Principles and Techniques."
   },
   {
    "n": 11,

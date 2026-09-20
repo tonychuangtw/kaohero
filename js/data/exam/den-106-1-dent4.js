@@ -864,7 +864,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "Water's projection",
     "Submental vertical projection"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 斜側位（oblique lateral，下顎體斜側投影）能把下顎骨與頸椎錯開，讓顎下腺、Wharton 氏管及其樹枝狀分支完整攤開顯影，是顎下腺造影術的標準投影。\n❌ (B) 鼓頰投影（puff-cheek）是配合腮腺造影用的技巧，靠鼓氣把頰部軟組織與 Stensen 氏管自下顎枝上分開，與顎下腺無關。\n❌ (C) Water's（頂頦位）主要觀察上顎竇等副鼻竇，顎下腺會被顏面骨重疊，看不到導管分支。\n❌ (D) 頦頂位（submental vertex）用於顱底、顴弓與髁頭位置的評估，顎下腺影像與下顎骨互相重疊，不適合顯示導管樹。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（唾液腺影像與 sialography 的投影選擇）。"
   },
   {
    "n": 62,
@@ -877,7 +878,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "顯影 完全",
     "顯影液與定影液溫 過低"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 這就是判定暗房漏光的「硬幣測試（coin test）」：未曝射的底片若被漏入的白光或不合格的安全燈照到，整片起霧變黑，被硬幣遮住的部位沒感光而留下清晰的圓形淺影；輪廓愈清楚代表漏光愈嚴重。\n❌ (A) 定影不完全會讓底片整體泛黃綠、乳劑混濁（殘留未溶解的鹵化銀），是全片均勻的變化，不會出現硬幣形狀的邊界。\n❌ (C) 顯影不完全只會使影像淡薄、對比不足；未曝光的底片顯影不足更是一片透明，不可能顯出硬幣輪廓。\n❌ (D) 藥液溫度過低等同顯影不足，影響也是全片一致，無法形成局部圖形。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（暗室設計、安全燈與 film fog 的 coin test）。"
   },
   {
    "n": 63,

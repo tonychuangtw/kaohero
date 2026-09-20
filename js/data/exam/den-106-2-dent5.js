@@ -795,7 +795,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent5'] = {
     "磨耗對咬牙的機會",
     "牙齒修磨的量"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 各種全瓷冠系統的牙體修磨量其實相差有限（肩台約 0.8～1.2 mm、咬合面約 1.5～2.0 mm），修磨量主要取決於牙位、遮色需求與可用咬合空間，不是挑選系統時的主要區辨因素。\n❌ (A) 核心材料的撓曲強度差距很大（長石質瓷約 60～120 MPa、二矽酸鋰約 360～400 MPa、氧化鋯 900 MPa 以上），直接決定能否用於後牙或牙橋。\n❌ (B) 透光度與遮色能力不同（玻璃陶瓷美觀佳、氧化鋯較不透光），前牙區的美觀表現是選擇系統的核心考量。\n❌ (C) 瓷面硬度與粗糙度會磨耗對咬天然牙，是否上釉、能否確實拋光都必須一併評估。\n📚 出處：Rosenstiel, Contemporary Fixed Prosthodontics（All-ceramic restorations）；Shillingburg, Fundamentals of Fixed Prosthodontics."
   },
   {
    "n": 57,
@@ -1046,7 +1047,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent5'] = {
     "較偏上",
     "較偏下"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 側方運動時以工作側髁頭為旋轉中心，牙齒的水平運動軌跡是以髁間距為半徑畫出的弧。咬合器髁間距設得比實際短，旋轉半徑變小、弧的曲度變大，模擬出的牙尖軌跡相對真實狀況會偏向後方（遠心）。\n❌ (A) 軌跡偏前是髁間距設得比實際寬時的結果，與題意相反。\n❌ (C) 髁間距屬水平向設定，造成的偏差發生在前後／內外方向，不會讓軌跡整體偏上。\n❌ (D) 軌跡的垂直向高低由髁導斜度、切導斜度與咬合平面設定決定，與髁間距無關。\n📚 出處：Rosenstiel, Contemporary Fixed Prosthodontics（Articulators、intercondylar distance 的設定）；Okeson, Management of Temporomandibular Disorders and Occlusion."
   },
   {
    "n": 75,
