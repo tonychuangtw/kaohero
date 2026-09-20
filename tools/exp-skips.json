@@ -4393,6 +4393,23 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-111-1-b002": [
+  {
+   "n": 41,
+   "reason": "圖檔只有四個選項（attending to/weary of/insisting on/fascinated with），克漏字本文與題幹未保留，無法判斷空格語意",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 42,
+   "reason": "圖檔只有四個選項（produces/reduces/excludes/includes），克漏字本文與題幹未保留，無法判斷空格語意",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "圖檔只有四個選項（ignorance/advantage/sorrow/reward），克漏字本文與題幹未保留，無法判斷空格語意",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-111-1-b026": [
   {
    "n": 1,
@@ -4424,6 +4441,21 @@
   {
    "n": 47,
    "reason": "克漏字題組，圖上只有四個選項單字，空格所在的本文未隨圖保留，無法判斷語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 48,
+   "reason": "圖檔只有四個選項（enacted/withdrew/discovered/abandoned），克漏字本文與題幹未保留，無法判斷空格語意",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 49,
+   "reason": "圖檔只有四個選項（instead/namely/therefore/moreover），克漏字本文與題幹未保留，無法判斷上下文邏輯關係",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 50,
+   "reason": "圖檔只有四個選項（faced/solved/happened/answered），克漏字本文與題幹未保留，無法判斷空格語意",
    "at": "2026-09-20"
   }
  ],
