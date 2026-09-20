@@ -38556,7 +38556,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "111 年　三等　稅務法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -38598,7 +38598,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "111 年　三等　會計學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -38850,7 +38850,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "111 年　四等　移民法規概要",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -38892,7 +38892,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "111 年　四等　稅務法規概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -39046,7 +39046,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（資訊處理組）",
   "label": "111 年　四等　計算機概要（資訊處理組）",
   "n": 40,
-  "exp": 38,
+  "exp": 39,
   "mins": 60
  },
  {
@@ -39074,7 +39074,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "111 年　四等　有機化學概要",
   "n": 25,
-  "exp": 19,
+  "exp": 20,
   "mins": 75
  },
  {

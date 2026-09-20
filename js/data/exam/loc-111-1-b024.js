@@ -236,7 +236,8 @@ window.APP_EXAM_PAPERS['loc-111-1-b024'] = {
     "Implication(→), NOT",
     "XOR, biconditional(↔)"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) NAND 與 NOR 在不限使用數量下，各自單獨即可組出 NOT、AND、OR，是所謂的通用閘（functionally complete）。例如 NOT A＝A NAND A；A AND B＝(A NAND B) NAND (A NAND B)，故可組出任意邏輯函數。\n❌ (B) AND 與 OR 都是單調（monotone）運算，輸入由 0 變 1 時輸出不會由 1 變 0，因此無論怎麼組合都產生不出 NOT。\n❌ (C) 蘊含（→）單獨無法產生否定（p→p 恆為真），NOT 單獨也做不出二元運算；題目要求「其中每一種運算單元」各自都能組出全部運算，故不符（兩者合用雖可完備）。\n❌ (D) XOR 與 ↔ 都是線性（affine）運算，其任意組合仍是 GF(2) 上的線性函數，做不出 AND 這類非線性運算。\n📚 出處：數位邏輯／計算機概論—函數完備性（functional completeness）與通用閘 NAND、NOR。"
   },
   {
    "n": 17,
