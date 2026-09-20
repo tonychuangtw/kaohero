@@ -196,7 +196,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph3'] = {
     "sedimentation",
     "sieve analysis"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Fisher sub-sieve sizer 屬空氣透過法（permeability method），測的是粉體床對氣流的阻力，換算出的是比表面積，再假設粒子為球形才推得「平均」粒徑；它拿不到粒徑分布，且結果受填充孔隙率影響很大，故不適合用來測定藥物粒子大小。\n❌ (B) 光學顯微鏡可直接觀察並逐一量測個別粒子（約 0.2～100 μm），是粒徑測定的基準法，還能同時看粒子形狀。\n❌ (C) 沉降法（如 Andreasen pipette）依 Stokes' law 由沉降速率求 Stokes 直徑，適用約 1～50 μm 的粒徑分布測定。\n❌ (D) 篩析法以一系列標準篩分級稱重，是測定 45 μm 以上粗粒子粒徑分布的常規方法。\n📚 出處：Martin's Physical Pharmacy「Micromeritics」章 —— 粒徑測定法（顯微鏡法、篩析法、沉降法、庫爾特計數法）與表面積測定法（氣體吸附法、空氣透過法）之分類。"
   },
   {
    "n": 14,
@@ -545,7 +546,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph3'] = {
     "增稠劑",
     "防腐劑"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 甘油為多元醇，可藉優先水合（preferential hydration）使胰島素維持天然構型，減少變性、聚集與纖維化，因此在 regular insulin 注射劑中作為安定劑（同時兼有調整等張的效果）。\n❌ (A) regular insulin 在製劑所用的微酸至中性緩衝水溶液中本即可溶，不需助溶劑；真要當共溶劑，用量須遠高於此處的少量添加。\n❌ (C) 注射劑必須能順利通過細針頭，不會刻意增稠；少量甘油對溶液黏度的影響也極小。\n❌ (D) 該製劑的防腐靠 m-cresol 或 phenol；甘油要到 50% 以上的高濃度才具抑菌力，此處用量無防腐作用。\n📚 出處：USP Insulin Injection 專論之組成（glycerin 與 m-cresol／phenol）；蛋白質製劑以多元醇作安定劑的原理，見 Remington 生物技術藥品製劑章。"
   },
   {
    "n": 39,
