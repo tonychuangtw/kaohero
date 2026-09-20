@@ -605,7 +605,8 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/102090_301_0109_42.webp"
+   "fig": "img/q/102090_301_0109_42.webp",
+   "exp": "✅ (B) 空格所在句為「…are __42__ distributed, you are not.」，談的是味蕾分布的疏密。「sparsely」意為「稀疏地、零星地」，味蕾分布稀疏的人味覺較不敏銳，正好接上後半句「你就不是（超級味覺者）」，與下文提到的「non-tasters（無味覺者）」相呼應。\n❌ (A) succinctly 意為「簡潔扼要地」，只能形容說話或文字的表達方式，不能形容事物的分布。\n❌ (C) diminutively 意為「小小地、以指小的方式」，描述的是尺寸大小，不是分布的疏密。\n❌ (D) trivially 意為「瑣碎地、微不足道地」，形容事情不重要，與分布狀態無關。\n📚 出處：《Oxford Collocations Dictionary》distribute 條，固定搭配 sparsely／densely distributed（分布稀疏／密集）"
   },
   {
    "n": 43,
