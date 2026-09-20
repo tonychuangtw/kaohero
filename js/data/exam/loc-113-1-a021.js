@@ -168,7 +168,8 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/113200_501_0105_11.webp"
+   "fig": "img/q/113200_501_0105_11.webp",
+   "exp": "✅ (D) consequences 意為「後果」，前面用 detrimental（有害的）修飾，指藥物濫用對個人、家庭與社會造成的種種不良後果，與後文列舉的生理、心理、社會損害完全吻合。\n❌ (A) sequences 指順序或連續的一系列事物，無法被「有害的」修飾。\n❌ (B) revolutions 指革命或旋轉，與濫用藥物所造成的結果無關。\n❌ (C) resolutions 指決心或決議案，語意偏中性正面，接在 detrimental 之後不通。\n📚 出處：113 年地方特考三等基礎能力測驗英文克漏字第 11 題；字彙搭配 detrimental consequences（不良後果）。"
   },
   {
    "n": 12,
@@ -183,7 +184,8 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/113200_501_0105_12.webp"
+   "fig": "img/q/113200_501_0105_12.webp",
+   "exp": "✅ (B) depression 憂鬱症，是空格前 mental health disorders（精神疾病）的典型例子，且與後面並列的 anxiety（焦慮症）同類，符合「藥物濫用常誘發精神疾病」的語意。\n❌ (A) reference 指參考資料或推薦信，不是疾病。\n❌ (C) joyfulness 指喜悅，是正面情緒，不可能被歸入 disorders。\n❌ (D) contentment 指滿足、知足，同樣是正面心理狀態，與前文的負面敘述矛盾。\n📚 出處：113 年地方特考三等基礎能力測驗英文克漏字第 12 題；such as 後需舉 mental health disorders 的實例。"
   },
   {
    "n": 13,
@@ -198,7 +200,8 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/113200_501_0105_13.webp"
+   "fig": "img/q/113200_501_0105_13.webp",
+   "exp": "✅ (A) worsen 意為「使惡化」，與句中並列的 diminish overall well-being（減損整體福祉）方向一致，說明藥物濫用會加重原本既有的心理問題。\n❌ (B) enclose 意為圍起來、隨函附上，不能用於抽象的心理困擾。\n❌ (C) conclude 意為下結論、結束，與 existing concerns 搭配不通。\n❌ (D) accomplish 意為完成、達成，語意正面，與同句後半的負面結果自相矛盾。\n📚 出處：113 年地方特考三等基礎能力測驗英文克漏字第 13 題；動詞與 and 後並列詞 diminish 須語意同向。"
   },
   {
    "n": 14,
@@ -213,7 +216,8 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/113200_501_0105_14.webp"
+   "fig": "img/q/113200_501_0105_14.webp",
+   "exp": "✅ (C) isolate 意為「使孤立」，慣用句型 isolate someone from something，正好接後面的 from their support networks，與前面並列的 strain relationships（使關係緊張）、erode trust（侵蝕信任）同屬成癮的社會層面傷害。\n❌ (A) endure 意為忍受，受詞是苦難而非人，也不接 from。\n❌ (B) ensure 意為確保，語意正面，且不與 from 搭配。\n❌ (D) impose 意為強加，句型為 impose something on someone，介系詞用錯。\n📚 出處：113 年地方特考三等基礎能力測驗英文克漏字第 14 題；動詞句型 isolate A from B。"
   },
   {
    "n": 15,
@@ -228,7 +232,8 @@ window.APP_EXAM_PAPERS['loc-113-1-a021'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/113200_501_0105_15.webp"
+   "fig": "img/q/113200_501_0105_15.webp",
+   "exp": "✅ (B) fundamental 意為「基本的」，修飾 needs，正好呼應後面舉例的食物、飲水與衣物，說明成癮者寧可取得毒品也不先滿足最基本的生活需求。\n❌ (A) reluctant 意為不情願的，用來形容人，不能修飾 needs。\n❌ (C) magnificent 意為壯麗、宏偉的，用於景物或成就。\n❌ (D) outstanding 意為傑出的或（帳款）未償付的，兩義皆不適合形容 needs。\n📚 出處：113 年地方特考三等基礎能力測驗英文克漏字第 15 題；字彙搭配 fundamental needs（基本需求）。"
   },
   {
    "n": 16,
