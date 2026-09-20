@@ -3529,6 +3529,11 @@
  ],
  "loc-104-1-c006": [
   {
+   "n": 41,
+   "reason": "圖上只有選項列（kind/race/meat/bean），克漏字本文與題幹未收錄，無法作答",
+   "at": "2026-09-20"
+  },
+  {
    "n": 46,
    "reason": "閱讀測驗題組，題目問「According to the passage」但本文未提供",
    "at": "2026-09-20"
@@ -3601,6 +3606,26 @@
   }
  ],
  "loc-105-1-b002": [
+  {
+   "n": 39,
+   "reason": "圖上只有選項列（where/there/here/which），克漏字本文與題幹未收錄，無法作答",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 40,
+   "reason": "圖上只有選項列（covered/provided/dealt/threatened），克漏字本文與題幹未收錄，無法作答",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 41,
+   "reason": "圖上只有選項列（Transformed/Built/Planted/Isolated），克漏字本文與題幹未收錄，無法作答",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 42,
+   "reason": "圖上只有選項列（destroyed/protected/created/invaded），該題克漏字本文未收錄，圖中文章是第 43-46 題的題組，無法作答",
+   "at": "2026-09-20"
+  },
   {
    "n": 47,
    "reason": "閱讀測驗題，吊橋主題的本文（passage）未隨轉檔保留，無法依文章作答",
@@ -3689,6 +3714,11 @@
   {
    "n": 44,
    "reason": "英文克漏字題，圖上只有四個選項（trying/willing/allowed/prepared），本文未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 45,
+   "reason": "圖上只有選項列（medals/mistakes/materials/machines），克漏字本文與該題題幹未收錄，圖中文章是第 46-50 題的題組，無法判斷答案理由",
    "at": "2026-09-20"
   }
  ],
