@@ -44590,7 +44590,7 @@ window.APP_EXAMS = [
   "subjName": "中文圖書分類編目大意",
   "label": "105 年　五等　中文圖書分類編目大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -44618,7 +44618,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "105 年　五等　公務員法大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
