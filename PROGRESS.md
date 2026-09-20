@@ -1,32 +1,46 @@
-STATUS: in-progress
-OBJECTIVE: Tony 2026-09-20 11:15 台北回「都做」，兩件並行：
-　**(A) 補完舊科目零星漏題**（原估 828 卷 3,077 題）——改用跨卷批次 worker `exp-batch`，跑在背景。
+STATUS: blocked
+OBJECTIVE: Tony 2026-09-20 11:15 台北回「都做」的兩件**都已完成**：
+　**(A) 補完舊科目零星漏題**（原估 828 卷 3,077 題）——跨卷批次 worker `exp-batch`，**09/20 19:09 台北收工**。
 　**(B) 變現工程的兩件前置**（⚠️ 不是題解分離：那在 09-12 已被 Tony 取消，見 `docs/monetization-plan.md` 第 7 行
-　　「詳解不收費，永久免費開放。原本的『階段 0 題解分離』隨之取消」）。**(B) 已於 09/20 12:0x 台北完成。**
+　　「詳解不收費，永久免費開放。原本的『階段 0 題解分離』隨之取消」）——**09/20 12:0x 台北完成。**
 
-NEXT_ACTION: 讓 (A) 的 exp-batch 跑完，收工後回報總花費；(B) 的下一步等 Tony 指定要先做哪個付費功能。
-　1. **(A) 進行中**：`systemctl --user start exp-batch`（unit `tools/exp-batch.service`，範圍
-　　 `^(loc|gao|den|pha|chu|tcm|tea|nur)-`，引擎 claude-opus-5）。三個 mode 依序跑：
-　　 text（純文字，一批 15）→ fig（有圖檔要 Read webp，一批 6）→ nofig（題幹提圖表但沒有圖檔，一批 40）。
-　　 進度看 `tail ~/.claude/exp-batch.log`；停用 `touch ~/.claude/exp-batch.stop`。
-　　 剩餘題數查 `node tools/exp-batch-dump.js --match '^(loc|gao|den|pha|chu|tcm|tea|nur)-' --count`。
-　　 ⛔ 不要同時啟動 `exp-worker`（兩邊都改題庫、都 push，exp-batch.sh 會擋但別硬跑）。
-　2. **(A) 收工後**：跑 `node tools/build-index.js --write`、`node test/test.js`，回報 Tony 總花費。
-　3. **(B) 之後**：接 `docs/monetization-plan.md` 收斂後的付費方向——個人錯題 PDF／Anki 匯出
-　　（`tools/build-pdf.py`、`tools/build-anki.py` 已存在，可接）、間隔重複複習排程（階段 2）、
-　　模考後弱點診斷。⚠️ 動工前先問 Tony 要先做哪一個。
+NEXT_ACTION: 等 Tony 回「先做哪一個付費功能」（09/21 04:2x 台北已發問到 kaohero 線）。他回覆前不動工。
+　候選（`docs/monetization-plan.md` 收斂後的方向）：
+　1. 個人錯題 PDF／Anki 匯出（`tools/build-pdf.py`、`tools/build-anki.py` 已存在，接起來最快）
+　2. 間隔重複複習排程（階段 2）
+　3. 模考後弱點診斷
 　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案，見 `CLAUDE.md`）。
+　⛔ 不要同時啟動 `exp-worker` 與 `exp-batch`（兩邊都改題庫、都 push）。
 
-VALIDATION: `node test/test.js` 全綠（60,739 項）；`node test/smoke.mjs` 全綠；
-　`node tools/build-index.js --write` 後首頁「自撰詳解」數字會更新
-BLOCKERS: 無。
+VALIDATION: 09/21 04:1x 台北已全部跑過——`node tools/build-index.js --write`（4,430 卷／223,921 題／
+　已有詳解 218,347 題）、`node test/test.js` 全綠（60,739 項）、`node test/smoke.mjs` 全綠；
+　`git status` 乾淨、與 origin/main 同步（0 筆未 push）。
+BLOCKERS: 等 Tony 指定下一個付費功能（不是技術問題，純決策）。
 
 PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
 　tools/exp-batch.sh／exp-batch-dump.js／exp-batch.service／exp-prompt-batch.md／exp-skip-bulk.js（跨卷批次，2026-09-20 新增）、
 　tools/check-answers.py／fix-answers.js（答案表核對，2026-09-20 新增）、
 　tools/exp-worker.sh（逐卷，新科目用）、tools/exp-skips.json、test/test.js、test/smoke.mjs、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-20 12:10 台北
+UPDATED: 2026-09-21 04:20 台北
+
+## 2026-09-21：(A) exp-batch 收工結算
+
+09/20 11:24 起跑、19:09 台北收工，**失敗 0**，待處理題數歸零
+（`node tools/exp-batch-dump.js --match '^(loc|gao|den|pha|chu|tcm|tea|nur)-' --count` → `{"text":0,"fig":0,"nofig":0}`）。
+
+| mode | 批數 | 寫 | 跳過 | 花費 |
+|---|---|---|---|---|
+| text（純文字，一批 15） | 86 | 426 | 849 | $67.17 |
+| fig（有圖檔要 Read webp，一批 6） | 53 | 37 | 281 | $23.71 |
+| nofig（題幹提圖表但沒圖檔，一批 40） | 38 | 361 | 1123 | $35.12 |
+| **合計** | **177** | **824** | **2253** | **US$126.00** |
+
+跳過的 2,253 題照 `CLAUDE.md` 既定規則：題幹或選項轉檔毀損、題幹寫「下圖／下表」但物件沒有 `fig`、
+官方答案與教科書明顯衝突。fig 模式寫得少（37/318）是因為那批多半是圖檔本身判讀不出答案的題。
+
+收工後驗收（09/21 04:1x 台北）：build-index 重建、test.js 60,739 項全綠、smoke 全綠，commit 全部已 push。
+花費已回報 Tony（kaohero 線）。
 
 ## 2026-09-20：(B) 變現前置兩件已完成
 
