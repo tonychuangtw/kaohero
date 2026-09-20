@@ -29918,7 +29918,7 @@ window.APP_EXAMS = [
   "subjName": "行政法概要",
   "label": "112 年　普通考試　行政法概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -29932,7 +29932,7 @@ window.APP_EXAMS = [
   "subjName": "地方自治概要",
   "label": "112 年　普通考試　地方自治概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29974,7 +29974,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "112 年　普通考試　國籍與戶政法規概要",
   "n": 25,
-  "exp": 23,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -30044,7 +30044,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要（財稅行政組）",
   "label": "112 年　普通考試　會計學概要（財稅行政組）",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -30058,7 +30058,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "112 年　普通考試　經濟學概要",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -30170,7 +30170,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "112 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 15,
+  "exp": 16,
   "mins": 75
  },
  {
