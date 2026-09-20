@@ -34076,7 +34076,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "105 年　高考三級　國文",
   "n": 10,
-  "exp": 9,
+  "exp": 10,
   "mins": 30
  },
  {
@@ -34216,7 +34216,7 @@ window.APP_EXAMS = [
   "subjName": "租稅各論",
   "label": "105 年　高考三級　租稅各論",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34258,7 +34258,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計（會計組）",
   "label": "105 年　高考三級　政府會計（會計組）",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -34286,7 +34286,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（會計組）",
   "label": "105 年　高考三級　審計學（會計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34300,7 +34300,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "105 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 20,
+  "exp": 21,
   "mins": 75
  },
  {
@@ -34958,7 +34958,7 @@ window.APP_EXAMS = [
   "subjName": "行政法（智慧財產行政組）",
   "label": "104 年　高考三級　行政法（智慧財產行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
