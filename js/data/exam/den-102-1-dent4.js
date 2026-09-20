@@ -533,7 +533,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "必須先將骨折處的感染情況控制或消除之後，才能固定顎骨",
     "先將斷裂的顎骨復位，再將顎骨固定"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 敘述錯誤。上下顎同時骨折時，不能把上下顎各自獨立「先固定下顎、接著馬上固定上顎」；必須先復位出一段穩定的牙弓作為基準，再以顎間固定把上下顎依原有咬合連成一體，確認咬合正確後才逐段做骨內固定，否則兩段各自固定完成後咬合誤差已無法修正。\n❌ (B) 咬合是顎骨骨折復位是否正確的唯一可靠指標，恢復病人原來的咬合是固定前的首要條件，敘述正確。\n❌ (C) 骨折處若仍有感染，固定物與骨片會成為感染溫床、導致骨髓炎與癒合失敗，應先控制或清除感染，敘述正確。\n❌ (D) 先復位（reduction）再固定（fixation）是所有骨折處理的基本順序，敘述正確。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery, 3rd ed.（Management of Maxillofacial Fractures）；Fonseca, Oral and Maxillofacial Trauma, 4th ed.。"
   },
   {
    "n": 38,
