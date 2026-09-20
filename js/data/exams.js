@@ -8862,7 +8862,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "115 年第二次　牙醫學（五）",
   "n": 80,
-  "exp": 74,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -35938,7 +35938,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "102 年　高考三級　法學知識與英文",
   "n": 50,
-  "exp": 42,
+  "exp": 45,
   "mins": 60
  },
  {
@@ -36498,7 +36498,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（電子工程組）",
   "label": "102 年　普通考試　計算機概要（電子工程組）",
   "n": 40,
-  "exp": 36,
+  "exp": 38,
   "mins": 60
  },
  {
