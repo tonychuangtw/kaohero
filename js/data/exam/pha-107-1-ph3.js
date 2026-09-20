@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph3'] = {
     "methylene blue",
     "Orange II"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) W/O 乳劑的外相（連續相）是油相，要染外相就必須用油溶性染劑。fluorescein isothiocyanate（FITC）為脂溶性螢光染料，可溶入連續的油相並在螢光顯微鏡下呈現連續的螢光背景，內部水滴則呈暗色球狀，故可據此判定外相為油相。\n❌ (A) Congo Red 為水溶性偶氮染料，只會被分散的水滴（內相）吸收，染出的是不連續的斑點，無法顯示外相。\n❌ (C) methylene blue 屬水溶性鹼性染料，同樣只染水相；用它觀察到連續相著色時代表的是 O/W 而非 W/O。\n❌ (D) Orange II 為水溶性磺酸鹽偶氮染料，親水性高，不溶於油相，無法標示 W/O 乳劑的外相。\n📚 出處：Martin's Physical Pharmacy 乳劑（Emulsions）章之乳劑型別鑑別法——染色法：水溶性染料染水相、油溶性染料染油相。"
   },
   {
    "n": 12,

@@ -571,7 +571,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph2'] = {
     "ODS",
     "ion-exchange resin"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) D-alanine 與 L-alanine 為對映異構物，在非手性環境中理化性質完全相同，必須藉手性環境才能區別。Pirkle phase 屬刷狀（brush type）手性鍵合靜相，以 π-酸／π-鹼基團與分析物形成 π-π 作用、氫鍵與立體阻礙的三點作用，使兩對映體生成能量不同的暫時性複合物而被直接分離。\n❌ (B) silica gel 為正相吸附劑，僅依極性強弱分離，本身無手性辨識能力，對映體會共流出。\n❌ (C) ODS（C18）為逆相靜相，依疏水性差異分離，而兩對映體的疏水性相同，無法分開。\n❌ (D) 離子交換樹脂依電荷與解離度分離，對映體的 pKa 與電荷完全相同，同樣無效；除非先衍生化成非對映異構物，否則不能「直接」分析。\n📚 出處：儀器分析／層析學手性分離章節——Pirkle-type chiral stationary phase 與三點作用模型（three-point interaction model）。"
   },
   {
    "n": 41,
