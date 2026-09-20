@@ -41314,7 +41314,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概論與財政學概論",
   "label": "108 年　三等　經濟學概論與財政學概論",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -41328,7 +41328,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "108 年　三等　工程數學",
   "n": 20,
-  "exp": 18,
+  "exp": 19,
   "mins": 60
  },
  {
@@ -41776,7 +41776,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "108 年　五等　人事行政大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -42000,7 +42000,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "108 年　五等　電子學大意",
   "n": 40,
-  "exp": 14,
+  "exp": 20,
   "mins": 60
  },
  {
