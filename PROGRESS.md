@@ -4,7 +4,7 @@ OBJECTIVE: Tony 2026-09-20 11:15 台北回「都做」，兩件並行：
 　**(B) 變現工程的兩件前置**（⚠️ 不是題解分離：那在 09-12 已被 Tony 取消，見 `docs/monetization-plan.md` 第 7 行
 　　「詳解不收費，永久免費開放。原本的『階段 0 題解分離』隨之取消」）。**(B) 已於 09/20 12:0x 台北完成。**
 
-NEXT_ACTION:
+NEXT_ACTION: 讓 (A) 的 exp-batch 跑完，收工後回報總花費；(B) 的下一步等 Tony 指定要先做哪個付費功能。
 　1. **(A) 進行中**：`systemctl --user start exp-batch`（unit `tools/exp-batch.service`，範圍
 　　 `^(loc|gao|den|pha|chu|tcm|tea|nur)-`，引擎 claude-opus-5）。三個 mode 依序跑：
 　　 text（純文字，一批 15）→ fig（有圖檔要 Read webp，一批 6）→ nofig（題幹提圖表但沒有圖檔，一批 40）。
