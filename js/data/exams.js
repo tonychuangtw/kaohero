@@ -48202,7 +48202,7 @@ window.APP_EXAMS = [
   "subjName": "社會工作大意",
   "label": "113 年　初等考試　社會工作大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -48216,7 +48216,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "113 年　初等考試　人事行政大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -48594,7 +48594,7 @@ window.APP_EXAMS = [
   "subjName": "教育學大意",
   "label": "112 年　初等考試　教育學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -48608,7 +48608,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規大意",
   "label": "112 年　初等考試　稅務法規大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -48734,7 +48734,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "112 年　初等考試　公務員法大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
