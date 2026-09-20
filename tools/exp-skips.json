@@ -4581,6 +4581,23 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-114-1-a002": [
+  {
+   "n": 36,
+   "reason": "克漏字題，圖上只有四個選項（comes across/looks into/stands for/breaks down），沒有含空格的本文",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 37,
+   "reason": "克漏字題，圖上只有四個選項（analytical/emotional/physical/symmetrical），沒有含空格的本文",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 38,
+   "reason": "克漏字題，圖上只有四個選項（corroborating/deducting/fabricating/perpetrating），沒有含空格的本文",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-114-1-a019": [
   {
    "n": 21,
@@ -4597,6 +4614,21 @@
   {
    "n": 42,
    "reason": "克漏字題組，圖上只有四個選項，缺空格所在的本文，無法判斷答案",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "克漏字題，圖上只有四個選項（by/in/at/of），沒有含空格的本文，無法判斷正解理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "克漏字題，圖上只有四個選項（destroy/reduce/reach/define），沒有含空格的本文",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 45,
+   "reason": "克漏字題，圖上只有四個選項（satisfied/unaware/surprised/impressive），下方文章是第 46–50 題用的，本題空格所在的本文未提供",
    "at": "2026-09-20"
   }
  ],
