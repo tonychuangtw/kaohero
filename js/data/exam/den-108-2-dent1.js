@@ -234,7 +234,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "外頸動脈約略在同二腹肌後腹（posterior belly of digastric muscle）近似高度稍下方處向前分出顏面動脈（facial artery）",
     "外頸動脈約略在同二腹肌後腹（posterior belly of digastric muscle）近似高度處向後分出耳後動脈（posteriorauricular artery）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 敘述錯誤：耳後動脈是在二腹肌後腹與莖突舌骨肌「上緣之上」才由外頸動脈後方分出；與二腹肌後腹下緣近似高度往後分出的是枕動脈，兩者不可混淆。\n❌ (A) 上甲狀腺動脈是外頸動脈最下方的前側分枝，起點就在總頸動脈分叉處或稍上方，敘述正確。\n❌ (B) 舌動脈在舌骨大角高度由外頸動脈前側分出，舌骨大角是術中辨識舌動脈的標準標誌，敘述正確。\n❌ (C) 顏面動脈起於舌動脈稍上方、走在二腹肌後腹深面，位置約在後腹高度的稍下方，敘述正確。\n📚 出處：Gray's Anatomy（external carotid artery 分枝順序：superior thyroid、ascending pharyngeal、lingual、facial、occipital、posterior auricular 及其與 digastric 後腹的關係）。"
   },
   {
    "n": 17,

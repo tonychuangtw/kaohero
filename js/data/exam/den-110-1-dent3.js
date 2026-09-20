@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent3'] = {
     "牙髓的血流調整，大多藉由神經調控牙髓微血管收縮，而非調控微血管擴張",
     "常見透過腎上腺素（α- adrenergic）、細胞旁激素（paracrine）及內分泌激素（endocrine）來調控微血管管徑大小"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 敘述錯誤：牙髓血管在靜息狀態已呈部分收縮，能調節血流的空間主要來自「血管舒張」而非再收縮；神經與各種介質多半是解除或降低血管緊張度來增加牙髓血流。\n❌ (A) 正常生理條件下牙髓血管確實維持部分緊縮的 vascular tone，這正是還有舒張餘裕的前提，敘述正確。\n❌ (B) 交感神經與循環中的血管活性物質共同調節牙髓血管緊張度，敘述正確。\n❌ (D) α-腎上腺素受體、旁分泌介質（如 CGRP、substance P、NO）與內分泌激素都會改變微血管管徑，敘述正確。\n📚 出處：Hargreaves & Berman, Cohen's Pathways of the Pulp（Pulp Development, Structure, and Function：regulation of pulpal blood flow）。"
   },
   {
    "n": 4,

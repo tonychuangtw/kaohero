@@ -727,7 +727,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent5'] = {
     "鈀－鎵（Pd-Ga）合金較鈀－銅－鎵（Pd-Cu-Ga）合金表面硬度低",
     "鈀－鎵－鈷（Pd-Ga-Co）合金較難以瓷粉遮色"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 敘述錯誤：Pd-Ag 的彈性係數與降伏強度並沒有高於 Au-Pd-Ag，兩者相當甚至略低；鈀系金屬瓷冠合金中以高降伏強度著稱的是 Pd-Cu-Ga，不是 Pd-Ag。\n❌ (B) Pd-Ag 的銀含量約 30～35%，燒瓷時銀蒸氣擴散進長石瓷會造成 silver greening（瓷器泛黃綠），敘述正確。\n❌ (C) Pd-Cu-Ga 因銅、鎵的強化作用，硬度明顯高於 Pd-Ga，故 Pd-Ga 的表面硬度較低，敘述正確。\n❌ (D) Pd-Ga-Co 燒結時形成深色氧化層，遮色瓷不易完全蓋住而影響最終色澤，敘述正確。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Casting alloys for metal-ceramic restorations：Pd-Ag、Pd-Ga、Pd-Cu-Ga 之機械性質與氧化行為）。"
   },
   {
    "n": 52,

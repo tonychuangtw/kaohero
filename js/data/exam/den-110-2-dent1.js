@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "此肌肉沒有連結到腭骨",
     "此肌肉連接於翼下顎縫"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 敘述錯誤：頰肌除了起於上、下顎齒槽突與翼下顎縫外，其後上方纖維還附著到腭骨錐突（pyramidal process）與翼突鉤一帶，並非「沒有連結到腭骨」。\n❌ (A) 頰肌收縮時把頰黏膜壓貼在牙列上，咀嚼時可避免頰肉被牙齒咬到，敘述正確。\n❌ (B) 其纖維水平走向匯入口角，收縮時把嘴角往外側拉開，敘述正確。\n❌ (D) 翼下顎縫是頰肌與上咽縮肌共同的纖維性附著構造，敘述正確。\n📚 出處：Fehrenbach & Herring, Illustrated Anatomy of the Head and Neck（Muscles of facial expression：buccinator 起止）；Gray's Anatomy 相同記載。"
   },
   {
    "n": 3,
