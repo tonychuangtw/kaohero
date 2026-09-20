@@ -36624,7 +36624,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "114 年　三等　稅務法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -36694,7 +36694,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "114 年　三等　會計審計法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -36904,7 +36904,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "114 年　四等　稅務法規概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
