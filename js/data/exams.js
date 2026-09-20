@@ -37674,7 +37674,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "112 年　三等　民法（財稅行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37688,7 +37688,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "112 年　三等　稅務法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37744,7 +37744,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "112 年　三等　中級會計學",
   "n": 20,
-  "exp": 17,
+  "exp": 19,
   "mins": 60
  },
  {
@@ -37772,7 +37772,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計",
   "label": "112 年　三等　成本與管理會計",
   "n": 25,
-  "exp": 21,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37786,7 +37786,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計",
   "label": "112 年　三等　政府會計",
   "n": 25,
-  "exp": 21,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37800,7 +37800,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "112 年　三等　會計審計法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
