@@ -859,7 +859,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph3'] = {
     "F",
     "Vd"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 本題以尿液排泄數據作圖（排泄速率法 log(dDu/dt)–t，或 sigma-minus 法 log(Du∞−Du)–t）。這兩種作圖的縱軸都是「藥量」而非「濃度」，外插排除相所得的 Y 軸截距由 ke、F、劑量與 ka/(ka−K) 這項吸收校正因子組成，不含分布體積。Vd 只有在以血中濃度 Cp 對時間作圖時才會進入截距（截距為 F·D·ka / [Vd·(ka−K)]），故不屬於本題截距的組成參數。\n❌ (A) ka 為吸收速率常數，口服一室模式的截距含 ka/(ka−K) 這項係數，截距中確實包含 ka。\n❌ (B) ke 為腎排泄速率常數，尿中出現的藥量正比於 ke，尿排泄數據的截距必然含 ke。\n❌ (C) F 為生體可用率，實際進入體循環的藥量為 F·D，截距與其成正比，故含 F。\n📚 出處：Shargel《Applied Biopharmaceutics and Pharmacokinetics》尿排泄數據求算藥動參數（排泄速率法與 sigma-minus 法）章節。"
   },
   {
    "n": 61,
@@ -997,7 +998,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph3'] = {
     "5",
     "3"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 恆速靜脈輸注達穩定狀態時，輸入速率等於排除速率，故 Css = R0 / CL。上題已求得此病人的清除率約 4.6 L/h，代入得 Css = 14 (mg/h) ÷ 4.6 (L/h) ≈ 3.0 mg/L。Css 只由輸注速率與清除率決定，與分布體積、負荷劑量無關；Vd 只影響達到穩定狀態的快慢（t1/2）。\n❌ (A) 15 mg/L 需清除率僅約 0.93 L/h，比本題的 4.6 L/h 小約 5 倍，與數據不符。\n❌ (B) 12 mg/L 對應清除率約 1.2 L/h，同樣遠低於本題求得的清除率。\n❌ (C) 5 mg/L 對應清除率約 2.8 L/h，常見於把半衰期或初始濃度直接換算而未用 CL = k·Vd 的錯誤算法。\n📚 出處：Shargel《Applied Biopharmaceutics and Pharmacokinetics》恆速靜脈輸注章節，Css = R0/CL。"
   },
   {
    "n": 71,
