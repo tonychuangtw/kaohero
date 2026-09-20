@@ -34762,7 +34762,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "104 年　高考三級　經濟學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34790,7 +34790,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規（財稅行政組）",
   "label": "104 年　高考三級　稅務法規（財稅行政組）",
   "n": 25,
-  "exp": 23,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34832,7 +34832,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "104 年　高考三級　會計學",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -34902,7 +34902,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "104 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34916,7 +34916,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（財務審計組）",
   "label": "104 年　高考三級　審計學（財務審計組）",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
