@@ -44744,7 +44744,7 @@ window.APP_EXAMS = [
   "subjName": "租稅各論",
   "label": "104 年　三等　租稅各論",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -45486,7 +45486,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "104 年　五等　基本電學大意",
   "n": 40,
-  "exp": 15,
+  "exp": 24,
   "mins": 60
  },
  {
@@ -45500,7 +45500,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "104 年　五等　電子學大意",
   "n": 40,
-  "exp": 23,
+  "exp": 28,
   "mins": 60
  },
  {
