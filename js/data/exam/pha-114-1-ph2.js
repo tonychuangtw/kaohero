@@ -755,7 +755,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph2'] = {
     "誘導 DNA 雙鏈斷裂",
     "抑制 topoisomerase I"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) etoposide 抑制 topoisomerase II，使 DNA 被切開後無法再接合，DNA 損傷累積導致細胞週期停滯在 late S–G2 期、無法進入 M 期，此即其抗癌作用的細胞週期表現。\n❌ (A) etoposide 併用鉑類是「小細胞肺癌（SCLC）」的第一線化療組合；非小細胞肺癌第一線以鉑類搭配 pemetrexed、taxane 或標靶／免疫治療為主。\n❌ (C) 生藥與藥化教材描述 etoposide 對 DNA 造成的主要是單股斷裂，雙股斷裂多用於描述其同系衍生物 teniposide，故此敘述不合題意。\n❌ (D) 抑制 topoisomerase I 的是 camptothecin 類（topotecan、irinotecan）；etoposide 的標的是 topoisomerase II。\n📚 出處：Dewick, Medicinal Natural Products「lignans／podophyllotoxin 衍生物」章節；Katzung 癌症化學治療之 topoisomerase II 抑制劑。"
   },
   {
    "n": 54,
