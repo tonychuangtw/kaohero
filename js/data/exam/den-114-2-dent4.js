@@ -999,7 +999,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "sialoliths",
     "tonsilloliths"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 頸動脈分叉正好位於第 3～4 頸椎高度，粥狀硬化斑的鈣化在環口片上就出現在下顎角後下方、頸椎前外側的軟組織內，呈垂直線狀或結節狀阻射影，是此位置最典型的鈣化物；判讀到時應轉介評估腦血管風險。\n❌ (B) 頸椎骨贅長在椎體邊緣，影像與椎體骨皮質相連、不會孤立在前外側軟組織中。\n❌ (C) 唾石多見於下頜下腺導管，位置在下顎角前方、沿下顎下緣走行的軟組織，高度遠低於 C3-C4。\n❌ (D) 扁桃體結石投影在下顎枝中段與舌骨之間的口咽側壁，常為成簇的小顆粒鈣化，位置較前上方。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Soft tissue calcifications：carotid artery atheroma）。"
   },
   {
    "n": 72,

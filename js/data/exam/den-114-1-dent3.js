@@ -670,7 +670,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent3'] = {
     "可產生較強牙釉質邊緣（enamel margin）",
     "會增加金屬露出部分，影響美觀"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 角度方向寫反了。二度開展的目的之一是讓金屬邊緣角落在約 30～40 度：這個厚度薄到可以研光貼合，又保有足夠強度；刻意做成小於 30 度的金屬邊緣過於銳薄，研光或受力時容易變形、碎裂。\n❌ (A) 二度開展把鄰接面邊緣往頰舌側再延伸到牙刷與牙線可及的自潔區，邊緣確實較易清潔。\n❌ (C) 開展時順著牙釉質柱方向修整、去除無支撐的釉柱，留下約 140 度的牙釉質邊緣角，牙釉質邊緣因此更強壯。\n❌ (D) 邊緣外展後金屬露出面積變大，前牙區或高笑線病人有美觀顧慮，是此設計公認的缺點。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry（Class II cast metal restorations：secondary flare 與 marginal metal angle）。"
   },
   {
    "n": 48,

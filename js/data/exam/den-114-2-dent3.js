@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent3'] = {
     "三度牙本質（tertiary dentin）內沒有牙本質小管，牙本質完全鈣化",
     "被覆牙本質（mantle dentin）屬於繼生牙本質（secondary dentin）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 繼生牙本質是牙齒萌發、進入咬合功能後由齒髓側緩慢加層形成的牙本質，其牙本質小管與原生牙本質的小管直接相接續，只是走向在交界處略有轉折。\n❌ (A) 原生與繼生的分界是牙齒萌發（建立咬合），不是牙根完成；根尖孔通常在萌發後 1～3 年才閉合，這段期間形成的已屬繼生牙本質。\n❌ (C) 三度（修復性）牙本質仍可能有牙本質小管，只是數目少、排列不規則甚至呈骨樣牙本質，鈣化並不完全，常夾雜細胞包埋與間隙。\n❌ (D) 被覆牙本質是最先形成、緊鄰牙釉質牙本質交界的那一層，含粗大的 von Korff 膠原纖維、鈣化度較低，屬於原生牙本質而非繼生牙本質。\n📚 出處：Ten Cate's Oral Histology（Dentin-pulp complex：primary / secondary / tertiary dentin 與 mantle dentin）。"
   },
   {
    "n": 3,

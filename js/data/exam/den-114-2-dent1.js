@@ -681,7 +681,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent1'] = {
     "secretory stage",
     "maturation stage"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 在 presecretory stage 的 differentiation phase，前成釉細胞極性反轉（細胞核移向基底側）、變成高柱狀並發育出分泌性胞器，遠心端隨即形成錐狀的 Tomes' process，為分泌釉基質做好準備。\n❌ (A) morphogenetic phase 的上皮細胞仍是立方或低柱狀，工作是決定牙冠外形並誘導牙本質生成，尚未出現分泌構造。\n❌ (C) secretory stage 是 Tomes' process 已經成形、藉由它分泌釉基質形成釉柱與柱間質的階段，不是它開始出現的時點。\n❌ (D) maturation stage 的成釉細胞已失去 Tomes' process，改以皺褶緣與平滑緣交替進行礦物質輸入與釉基質蛋白的吸收。\n📚 出處：Ten Cate's Oral Histology（Amelogenesis：ameloblast 的生命週期分期）。"
   },
   {
    "n": 49,
