@@ -193,7 +193,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "脫落（avulsion）",
     "咬合干擾（occlusal interference）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 單純的咬合干擾代表牙齒只是位置偏移、牙髓與牙周膜受損有限，復位固定 3～5 週後再觀察 3～4 個月，確認無牙髓壞死或牙根吸收跡象，即可開始矯正移動。\n❌ (A) 脫位的牙周膜與根尖血管受損較重，牙髓壞死與發炎性吸收風險高，須追蹤更久、確定無異狀後才可加力。\n❌ (B) 下壓內縮對牙周膜與根部硬組織的壓砸最嚴重，沾黏（ankylosis）與置換性吸收比例高，矯正介入時機必須更保守。\n❌ (C) 脫落再植的牙幾乎都有牙周膜壞死，置換性吸收常見，不宜在短短數月內就施加矯正力。\n📚 出處：Andreasen《Textbook and Color Atlas of Traumatic Injuries to the Teeth》外傷牙齒的矯正治療時機。"
   },
   {
    "n": 14,

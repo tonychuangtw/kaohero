@@ -97,7 +97,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "壞死性唾液腺化生（necrotizing sialometaplasia）",
     "硬腭穿通（hard palate perforation）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 壞死性唾液腺化生是小唾液腺因局部缺血梗塞造成的良性自限性壞死，典型誘因為外傷、局部麻醉注射、手術或反覆嘔吐，並非古柯鹼毒癮者顏面部的代表性併發症。\n❌ (A) 長期鼻吸古柯鹼使鼻中膈血管劇烈收縮而缺血壞死、軟骨塌陷，形成馬鞍鼻。\n❌ (B) 藥粉直接抹在口腔黏膜或牙齦給藥，會造成化學性燒灼與潰瘍。\n❌ (D) 缺血性破壞由鼻腔持續往下進展可貫穿硬腭，形成口鼻相通的穿通（中線破壞性病變）。\n📚 出處：Neville《Oral and Maxillofacial Pathology》藥物濫用的口腔表現（cocaine-induced midline destructive lesion）。"
   },
   {
    "n": 7,
