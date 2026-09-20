@@ -33026,7 +33026,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（財務審計組）",
   "label": "107 年　高考三級　審計學（財務審計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33068,7 +33068,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "107 年　高考三級　工程數學",
   "n": 20,
-  "exp": 14,
+  "exp": 19,
   "mins": 60
  },
  {
@@ -33138,7 +33138,7 @@ window.APP_EXAMS = [
   "subjName": "行政法概要",
   "label": "107 年　普通考試　行政法概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -33194,7 +33194,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "107 年　普通考試　國籍與戶政法規概要",
   "n": 25,
-  "exp": 23,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33222,7 +33222,7 @@ window.APP_EXAMS = [
   "subjName": "民法概要",
   "label": "107 年　普通考試　民法概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33264,7 +33264,7 @@ window.APP_EXAMS = [
   "subjName": "會計學概要（財稅行政組）",
   "label": "107 年　普通考試　會計學概要（財稅行政組）",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -33362,7 +33362,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要與財政學概要",
   "label": "107 年　普通考試　經濟學概要與財政學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
