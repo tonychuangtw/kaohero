@@ -2823,6 +2823,33 @@
    "at": "2026-09-20"
   }
  ],
+ "gao-107-1-g002": [
+  {
+   "n": 42,
+   "reason": "圖上只有選項列（asset／access／essence／excess），克漏字本文與題幹不在圖內",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "圖上只有選項列（charitable／additional／doubtful／extinct），克漏字本文與題幹不在圖內",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "圖上只有選項列（backpacker's／consumer's／manager's／diplomat's），克漏字本文與題幹不在圖內",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 45,
+   "reason": "圖上只有選項列（reentered／remitted／revenged／remunerated），克漏字本文與題幹不在圖內",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 46,
+   "reason": "圖上只有選項列（Lunatics／Guardians／Merchants／Perverts），題幹不在圖內",
+   "at": "2026-09-20"
+  }
+ ],
  "gao-107-1-g020": [
   {
    "n": 12,
@@ -2849,6 +2876,11 @@
   {
    "n": 39,
    "reason": "克漏字題，圖上只有 celebration/recognition/observation/prescription 四個選項，本文未保留",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 40,
+   "reason": "圖上只有選項列（looked after／passed over／broken down／carried out），題幹不在圖內，無法判斷語境",
    "at": "2026-09-20"
   }
  ],
