@@ -31668,7 +31668,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "109 年　高考三級　會計學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -31682,7 +31682,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "109 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 16,
+  "exp": 18,
   "mins": 60
  },
  {
@@ -31752,7 +31752,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（財務審計組）",
   "label": "109 年　高考三級　審計學（財務審計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -32116,7 +32116,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "109 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 12,
+  "exp": 13,
   "mins": 75
  },
  {
@@ -32732,7 +32732,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "108 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 19,
+  "exp": 21,
   "mins": 75
  },
  {
@@ -32760,7 +32760,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（工業行政組）",
   "label": "108 年　普通考試　計算機概要（工業行政組）",
   "n": 40,
-  "exp": 36,
+  "exp": 37,
   "mins": 60
  },
  {
