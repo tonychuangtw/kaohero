@@ -1061,7 +1061,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "1.58",
     "1.01"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 衛生福利部 2020 年（民國 109 年）全國兒童口腔健康調查結果，我國 12 歲學童恆齒齲齒經驗指數（DMFT）平均為 2.01 顆，已達成 WHO 「12 歲 DMFT 低於 2.1」的目標。\n❌ (A) 2.50 是 2012 年（民國 101 年）調查的數值，當時尚未達到 WHO 目標，是改善前的基準值。\n❌ (C) 1.58 並非我國調查值，此數字接近部分歐美國家或都會區單一縣市的水準。\n❌ (D) 1.01 遠低於我國實際情形，屬於北歐等齲齒防治成熟國家的水準。\n📚 出處：衛生福利部心理及口腔健康司「109 年兒童口腔及第一大臼齒健康狀況調查」；WHO Oral Health Global Goals（12 歲 DMFT < 2.1）。"
   },
   {
    "n": 76,
@@ -1074,7 +1075,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "病人因為肌肉控制障礙容易衍生牙齒過度咬耗",
     "病人可能同時有視覺、聽覺、語言或學習上的多重障礙"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯在「幾乎所有」。腦性麻痺合併癲癇的比例約三到五成，並非全部；治療前仍應詢問發作史與抗癲癇藥物，但不能假設每位病人都有癲癇。\n❌ (A) 腦性麻痺的核心問題是動作與姿勢控制障礙，約半數智力正常，不可一律視為智能障礙。\n❌ (C) 咀嚼肌不自主收縮、磨牙與異常張力確實會造成牙齒過度咬耗，屬常見口腔表徵。\n❌ (D) 腦部損傷範圍廣泛時常合併視覺、聽覺、語言及學習等多重障礙，需調整溝通與行為管理方式。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent（Dental care for the child with cerebral palsy）。"
   },
   {
    "n": 77,
@@ -1087,7 +1089,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "ASA III 包括 BMI ≥30 的肥胖症、血壓超過 130/90 mmHg 的高血壓",
     "ASA II 包括控制良好的心律不整（arrhythmia）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 錯在把輕度狀況歸到 ASA III。BMI 30～40 的肥胖與控制中的輕度高血壓屬 ASA II；要到病態肥胖（BMI ≥ 40）或控制不良的高血壓才列 ASA III。\n❌ (A) ASA III 的定義正是「患有嚴重系統性疾病，但尚未構成持續的生命威脅」，敘述正確。\n❌ (B) 控制不良的糖尿病、COPD 造成明顯功能限制，確實列入 ASA III。\n❌ (D) 已受控制、無症狀的心律不整屬輕度系統性疾病，歸類 ASA II 正確。\n📚 出處：American Society of Anesthesiologists, ASA Physical Status Classification System（現行版本說明與範例）。"
   },
   {
    "n": 78,
@@ -1100,7 +1103,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "孕婦的內分泌或荷爾蒙的改變加重病情",
     "孕婦常會反胃及嘔吐"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 這是常見迷思。牙齒鈣化完成後礦物質不會被母體動員供胎兒使用，胎兒所需鈣磷來自母體骨骼與飲食，孕婦齲齒增加與此無關。\n❌ (B) 孕期口味改變、偏好酸性或甜食並增加進食頻率，確實提高齲齒風險。\n❌ (C) 雌激素與黃體素上升使牙齦血管通透性增加、對牙菌斑反應加劇，形成妊娠性牙齦炎。\n❌ (D) 晨吐與胃酸逆流使口腔長期處於低 pH，造成牙齒酸蝕與齲齒易感。\n📚 出處：Newman and Carranza's Clinical Periodontology（Influence of sex hormones：pregnancy gingivitis）。"
   },
   {
    "n": 79,
@@ -1113,7 +1117,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "齲齒經驗盛行率",
     "接受口腔檢查意願"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「接受口腔檢查意願」測的是民眾的態度與就醫需求（demand），屬於行為與服務利用面的資料，不能用來描述社區的口腔健康狀況與客觀治療需要。\n❌ (A) 口腔外傷的發生率可反映社區傷害防治與安全環境，是健康狀況指標之一。\n❌ (B) 口腔癌盛行率與死亡率是社區口腔健康與檳菸習慣防治成效的重要指標。\n❌ (C) 齲齒經驗盛行率（DMFT／dmft、齲齒率）是評估社區口腔疾病負擔最基本的指標。\n📚 出處：Burt & Eklund, Dentistry, Dental Practice, and the Community（Measuring oral health needs：need vs. demand）。"
   },
   {
    "n": 80,
@@ -1126,7 +1131,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent6'] = {
     "行善原則",
     "正義原則"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 讓病人在充分被告知後自行選擇或拒絕治療方式，正是尊重自主原則（respect for autonomy）的具體實踐，也是告知後同意制度的倫理基礎。\n❌ (B) 不傷害原則要求醫師避免造成可預見的傷害，與誰做決定無關。\n❌ (C) 行善原則強調主動為病人謀取最大利益，若據此代替病人決定反而可能侵犯自主。\n❌ (D) 正義原則處理醫療資源與負擔的公平分配，屬群體層面的考量。\n📚 出處：Beauchamp & Childress, Principles of Biomedical Ethics（四原則：autonomy、nonmaleficence、beneficence、justice）。"
   }
  ]
 };

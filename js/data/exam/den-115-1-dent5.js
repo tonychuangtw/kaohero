@@ -446,7 +446,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "85%鹽酸",
     "85%硝酸"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鈷鉻或鎳鉻支架噴砂後以約 85% 磷酸作電解研磨（electrolytic polishing），磷酸導電性與黏度適中，能均勻溶去表面凸起而不侵蝕卡鉤細部，是標準電解液。\n❌ (A) 硫酸氧化性與放熱過強，會造成表面過度腐蝕與去鈍化，不用於支架電解研磨。\n❌ (C) 鹽酸的氯離子會破壞鉻的鈍化膜、引起點蝕，反而降低支架抗腐蝕性。\n❌ (D) 硝酸主要用於鈍化或酸洗處理，作為電解研磨液會使邊緣與卡鉤尖端過度溶解。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Finishing and electrolytic polishing of cast base-metal alloys）。"
   },
   {
    "n": 32,
@@ -473,7 +474,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "僅②④",
     "僅①③"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ①舌面隆凸有明顯磨耗面時，琺瑯質已變薄且面形平坦，無法磨出具有正確方向的鈎座；③下顎前牙已咬到門齒乳頭表示覆咬過深，上顎前牙舌隆凸處沒有垂直空間容納鈎座，兩者皆不適用。\n❌ (A) 把②④一併列入過度擴大，下顎的缺牙型態並非上顎舌面隆凸鈎座的禁忌。\n❌ (B) 多納入②；下顎為 Kennedy class IV 只代表下顎前牙區缺牙，與上顎舌隆凸是否能放鈎座無直接關係。\n❌ (C) ②④都不是禁忌，且漏掉真正的限制條件①③。\n📚 出處：McCracken's Removable Partial Prosthodontics（Rest and rest seats：lingual（cingulum）rest seat 的適應症與限制）。"
   },
   {
    "n": 34,
@@ -625,7 +627,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "第三層與第四層",
     "第四層與包埋盒"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 分模式四層包埋法中，第一層固定模型、第二層包覆支架與排列好的人工牙、第三層為對合的蓋層、第四層完成封閉。去蠟後於第二層與第三層之間的界面打開，把樹脂填壓在此空間再合模加壓。\n❌ (A) 第一層與第二層之間是模型與支架的固定界面，不是樹脂填充空間，開在此處會使支架移位。\n❌ (C) 第三層與第四層之間已在人工牙咬合面外側，於此填壓無法把樹脂送到義齒基底該在的位置。\n❌ (D) 第四層與包埋盒之間屬外側封閉層，完全在義齒範圍之外。\n📚 出處：可撤式局部義齒技工學／義齒製作學（分模式四層包埋法與樹脂填壓程序）。"
   },
   {
    "n": 45,
@@ -1015,7 +1018,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "固定義齒的製作是一種不可逆的咬合治療",
     "選擇性修磨是一種不可逆的咬合治療"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯在「立即」。發現咬合干擾應先做完整診斷（病史、關節與肌肉檢查、必要時以咬合板等可逆治療觀察反應），確認干擾確為症狀來源後再修磨；選擇性修磨磨掉的琺瑯質無法回復。\n❌ (B) 矯正治療改變牙齒位置與咬合關係，屬不可逆的咬合治療，敘述正確。\n❌ (C) 固定義齒必須修磨牙體並以修復體重建咬合面，同樣是不可逆治療。\n❌ (D) 選擇性修磨直接磨除牙齒結構，定義上就是不可逆的咬合治療。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion（Reversible vs. irreversible occlusal therapy）。"
   },
   {
    "n": 73,
@@ -1028,7 +1032,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "較平緩的前牙舌側面",
     "較不明顯的前牙兩側嵴"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 後牙咬頭角度較陡時，咬頭與對側窩溝嵌合緊密、側方移動受牙齒形態鎖定，下顎側向運動（本奈氏側移）在咬合面上不易表現出明顯的水平位移量。\n❌ (A) 較寬的咬窩提供較大水平自由度，側移可以明顯發生而不產生干擾。\n❌ (C) 前牙舌側面平緩代表前方導引角度小，對側方運動的限制少，側移容易顯現。\n❌ (D) 前牙兩側嵴不明顯時缺少引導與限制作用，同樣容許較大的側向移動。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion（Mandibular lateral translation／Bennett movement 與咬合面形態的關係）。"
   },
   {
    "n": 74,
@@ -1041,7 +1046,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "後退咬合位置在臥位時較立位時為後",
     "關節運動受阻擋時，開口路徑即向被阻擋的一側偏斜"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯在方向。俯位（趴臥）時下顎受重力往前下方牽引，閉合時下顎牙會先接觸上顎牙咬頭的遠心斜面，而不是近心側。\n❌ (A) 最大咬頭嵌合位置由上下牙列的形態決定，不隨姿勢改變，立位與臥位相同。\n❌ (C) 仰臥時下顎與肌肉張力使下顎相對後退，後退咬合位置較立位更後方，敘述正確。\n❌ (D) 關節或肌肉一側受阻時，開口路徑會偏向受阻擋的那一側，是典型的臨床觀察。\n📚 出處：咬合學／補綴學教科書（下顎姿勢與咬合位置的變化；Okeson, Occlusion 相關章節）。"
   },
   {
    "n": 75,
@@ -1054,7 +1060,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "垂直覆蓋（vertical overlap）越大者，前方導引角度較小",
     "水平覆蓋（horizontal overlap）與前方導引角度無關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 前方導引決定下顎前伸與側方運動時後牙的分離量，因此在建立後牙咬合面形態時，前導越陡、後牙分離越多，可容許的咬頭高度與斜度就越大，兩者必須一起設計。\n❌ (B) 水平覆蓋（overjet）越大時，下顎前伸需移動較長距離才被前牙導引，前方導引角度反而較小。\n❌ (C) 垂直覆蓋（overbite）越大時前牙接觸路徑較陡，前方導引角度應是較大而非較小。\n❌ (D) 水平覆蓋直接影響前牙接觸路徑的斜度，與前方導引角度有關，不能說無關。\n📚 出處：Dawson, Functional Occlusion: From TMJ to Smile Design（Anterior guidance 與後牙咬合面形態的關係）。"
   },
   {
    "n": 76,
@@ -1067,7 +1074,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "強迫症（obsessive-compulsive disorder）",
     "裝病（malingering）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 裝病（malingering）是為了外在利益刻意偽裝或誇大症狀，屬當事人主動隱瞞的動機問題，沒有客觀量表或生理指標可驗證，在研究中最難確認。\n❌ (A) 負面情緒可用情緒量表與日誌自評測量，是可操作化的心理社會變項。\n❌ (B) 焦慮有 STAI、DASS 等標準化工具，信效度良好，可量化評估。\n❌ (C) 強迫症有明確的 DSM 診斷準則與結構式晤談工具，可由臨床診斷確認。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion（Psychosocial factors 的評估）；DSM-5（Malingering 屬需臨床注意的其他情況）。"
   },
   {
    "n": 77,
@@ -1080,7 +1088,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "牙科治療時的長時間張口，可能造成顳顎關節的急性傷害",
     "眾多的個體間差異變數，會導致病人對症狀的感受產生極大的差異"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯在「完全不同」。咀嚼肌疾患與關節內疾患的病因大量重疊（外傷、過度負荷、口腔不良習慣、心理社會壓力等），且兩類症狀常併存互相影響，不能視為互不相干。\n❌ (A) 顳顎障礙症公認為多因性疾病，由結構、功能、行為與心理社會因素共同作用。\n❌ (C) 牙科治療長時間大張口會使關節與肌肉過度牽張，確可造成急性創傷性關節痛。\n❌ (D) 疼痛閾值、心理狀態與適應能力的個體差異，確實造成症狀感受與主訴程度差別極大。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion（Etiology of functional disturbances of the masticatory system）；DC/TMD 分類架構。"
   },
   {
    "n": 78,
