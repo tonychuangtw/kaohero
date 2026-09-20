@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent5'] = {
     "固持性佳",
     "抱持（bracing）性質佳"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「彈性差」是錯誤敘述。環周牙鉤的固持臂自基部環繞牙冠超過 180°，臂長足夠且由基部向尖端逐漸變細（tapered），因此尖端具有適當彈性，才能通過最大凸度線進入倒凹區而不致折斷或傷害支台齒。\n❌ (A) 其肩部與對抗臂為剛性、貼合在導線以上的牙面，能有效抵抗側向力，穩定性佳。\n❌ (C) 固持臂尖端確實進入倒凹區，靠彈性形變產生固持力，固持性佳。\n❌ (D) 剛性的對抗臂位於導線上方，可對抗固持臂作用時產生的水平分力，抱持（bracing）性質佳。\n📚 出處：McCracken's Removable Partial Prosthodontics（Direct retainers：circumferential／Akers clasp 的特性與適應症）。"
   },
   {
    "n": 25,

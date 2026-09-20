@@ -485,7 +485,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent3'] = {
     "真實負反應（true negative）",
     "虛負反應（false negative）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 診斷測試的 2×2 機率表依慣例以「診斷測試結果」為列（上列陽性、下列陰性）、「黃金標準」為欄（左欄有病、右欄無病），四格依閱讀順序為 A、B、C、D。C 格位於第二列第一欄，代表測試判為陰性但黃金標準確認有病，即漏診，屬虛負反應（false negative）。\n❌ (A) 真實正反應是 A 格：測試陽性且黃金標準確認有病。\n❌ (B) 虛正反應是 B 格：測試陽性但黃金標準判定無病，屬誤診。\n❌ (C) 真實負反應是 D 格：測試陰性且黃金標準確認無病。\n📚 出處：Fletcher, Clinical Epidemiology: The Essentials（Diagnosis：sensitivity、specificity 與 2×2 contingency table）。"
   },
   {
    "n": 35,

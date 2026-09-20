@@ -751,7 +751,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent3'] = {
     "在牙根apical third可見",
     "不含Sharpey's fibers"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 初級（primary）牙骨質即無細胞牙骨質，其基質除了牙周韌帶纖維母細胞埋入的外來性纖維外，也含有成牙骨質細胞自行分泌、與牙根表面平行走向的內在性纖維（intrinsic fibers），四個選項中只有此項與定義相符。\n❌ (A) 含細胞（cellular）的是次級牙骨質；初級牙骨質形成速度慢，成牙骨質細胞不會被埋在基質中，屬無細胞型。\n❌ (C) 牙根根尖三分之一與根分叉處被覆的是次級（含細胞）牙骨質；初級牙骨質主要覆蓋牙根冠側三分之二。\n❌ (D) 恰好相反，初級牙骨質正是以埋入的 Sharpey's fibers（外來性纖維）把牙周韌帶固定在牙根上，數量比次級牙骨質更多。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Cementum：acellular extrinsic fiber cementum 與 cellular cementum 的區分）。"
   },
   {
    "n": 54,
