@@ -39466,7 +39466,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "110 年　三等　稅務法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -39508,7 +39508,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "110 年　三等　會計學",
   "n": 25,
-  "exp": 22,
+  "exp": 24,
   "mins": 75
  },
  {
