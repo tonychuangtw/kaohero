@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "三極管區（Triode Region） ＿＿＿ RG",
     "主動區（Active Region）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 場效電晶體閘極不流直流電流，RG 上沒有壓降，使 VGS = VDS；此時 VDS − (VGS − Vth) = Vth > 0，恆滿足飽和區條件 VDS ≥ VGS − Vth，故電晶體工作在飽和區。\n❌ (B) 截止區要 VGS < Vth 且汲極電流為零，與電路在 RD 上形成偏壓電流的事實不符。\n❌ (C) 三極管區（線性區）需 VDS < VGS − Vth，但此接法 VDS = VGS，不可能小於 VGS − Vth。\n❌ (D) 主動區是雙極性電晶體（BJT）的用語，場效電晶體對應的放大區域稱為飽和區，本題選項以 FET 用語為準。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 操作區域與二極體接法（diode-connected）偏壓"
   },
   {
    "n": 2,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "2.7VO",
     "+12"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 這是超級二極體（精密整流）接法。運算放大器虛短使回授點電位追隨輸入 VI = 2 V，二極體導通時兩端再降 0.7 V，因此運放本身的輸出 VA = 2 + 0.7 = 2.7 V。\n❌ (A) −2.7 V 是輸入為負、二極體反向的情形，與 VI = +2 V 不符。\n❌ (B) 1.3 V 是把 0.7 V 減去而非加上，壓降方向弄反了。\n❌ (D) +12 V 是運放正飽和值，只有在二極體逆偏、負回授被切斷時才會出現；此時二極體導通，運放仍在線性回授狀態。\n📚 出處：Sedra & Smith《Microelectronic Circuits》精密整流器（Superdiode）"
   },
   {
    "n": 5,
@@ -80,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "Vth 不受影響",
     "Vth 會受影響，但增加或減少由接面的功函數（work function, φf）決定"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) E 層為基板（背閘）電極，VE 由 −2 V 降到 −3 V 會使源極對基板的逆向偏壓 VSB 增大，空乏區變寬、需要更多閘極電荷才能形成反轉層，故臨界電壓的絕對值增加，這就是體效應（body effect）。\n❌ (B) 體效應的方向相反：基板逆偏加大只會讓 |Vth| 上升，不會下降。\n❌ (C) 基板偏壓正是決定 Vth 的因素之一，不可能完全不受影響。\n❌ (D) 功函數差只影響 Vth 的固定項（平帶電壓），本題問的變化量由 VSB 與體效應係數 γ 決定，與功函數無關。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 的體效應（Body Effect）與 Vth 隨 VSB 的變化"
   },
   {
    "n": 6,
@@ -93,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "18 dB V1",
     "24 dB －V3+V2-VEE"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 共模增益是令兩輸入相同時的增益。令 V1 = V2 = Vcm 代入 V3 = 1002·V2 − 998·V1，得 V3 = 4·Vcm，故 Acm = 4，換算為分貝 20·log₁₀4 ≈ 12.04 dB。\n❌ (A) 6 dB 對應增益 2，是把兩係數之差再取一半。\n❌ (C) 18 dB 對應增益約 8，是正確差值的兩倍。\n❌ (D) 24 dB 對應增益 16，與 1002 − 998 = 4 的結果不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》差動放大器的差模／共模增益與 CMRR"
   },
   {
    "n": 7,
@@ -119,7 +123,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "1.5 V",
     "3 V I = 1 mA1 MΩvoC=∞viC=∞"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 飽和區電流式 ID = ½·μnCox·(W/L)·VOV²。代入 ID = 1 mA、μnCox = 200 μA/V²、W/L = 10：1000 μA = ½ × 200 × 10 × VOV² = 1000·VOV²，得 VOV² = 1，故過驅電壓 VOV = 1 V。\n❌ (A) 0.5 V 是臨界電壓 Vth，不是過驅電壓。\n❌ (C) 1.5 V 是閘源電壓 VGS = Vth + VOV = 0.5 + 1，題目問的是 VOV。\n❌ (D) 3 V 為電源電壓 VDD，與偏壓點的過驅電壓無關。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 飽和區電流方程式與過驅電壓 VOV"
   },
   {
    "n": 9,
@@ -160,7 +165,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "4 V A",
     "2 V 6V +5 kΩ5 kΩ"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此為差動（減法）放大器。同相端由 6 V 經 5 kΩ／5 kΩ 分壓得 V₊ = 3 V；增益無限大使虛短成立，V₋ = 3 V。流過輸入 10 kΩ 的電流為 (3 − 2)/10 kΩ = 0.1 mA，同一電流流過回授 10 kΩ，故 Vo = 3 + 0.1 mA × 10 kΩ = 4 V。\n❌ (A) 8 V 相當於把 6 V 直接加在同相端而未經分壓。\n❌ (B) 6 V 只是其中一路輸入源電壓，未計入 2 V 那一路的作用。\n❌ (D) 2 V 是反相端的輸入電壓本身，不是輸出。\n📚 出處：Sedra & Smith《Microelectronic Circuits》差動（減法）放大器與虛短路分析"
   },
   {
    "n": 12,
@@ -187,7 +193,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "12 V C+ D +",
     "26 Vvi(t) + R vo(t)－ VR －－"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 箝位電路的電容串在訊號路徑上，輸出 vo = vi − VC。已知 VC = 8 V，故 vo 的最小值為 −Vm − 8 = −18 V，解得 Vm = 10 V；vo 的最大值 = Vm − 8 = 2 V，即被箝位的參考電位 VR = 2 V。兩者相加 Vm + VR = 10 + 2 = 12 V。\n❌ (A) −10 V 僅為 −Vm，且本題 Vm 與 VR 皆為正值，總和不會是負數。\n❌ (B) 10 V 只算了 Vm，漏掉 VR = 2 V。\n❌ (D) 26 V 是把 18 與 8 相加，等於把電容電壓重複計入一次。\n📚 出處：Sedra & Smith《Microelectronic Circuits》二極體箝位電路（Clamper）"
   },
   {
    "n": 14,
@@ -214,7 +221,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "PIV3 = 36 V －",
     "PIV3 = 2PIV1T +C3 VC3D3－"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 倍壓電路穩態時各級電容輪流充到輸入峰值，每顆二極體在逆偏時兩端分別為 +Vm 與 −Vm，承受的逆向峰值電壓皆為 2Vm。由 VC1 = Vm = 12 V，可得 PIV1 = PIV2 = PIV3 = 2 × 12 = 24 V，故「PIV2 = 24 V」正確。\n❌ (A) PIV1 不是 12 V；D1 逆偏時承受的是 2Vm = 24 V，而非單一峰值。\n❌ (C) PIV3 同樣是 24 V；增加倍壓級數只會提高輸出電壓，不會提高單顆二極體的逆向耐壓需求。\n❌ (D) PIV3 與 PIV1 相等（皆為 24 V），不是 2 倍關係。\n📚 出處：Sedra & Smith《Microelectronic Circuits》倍壓整流電路（Voltage Multiplier）與二極體 PIV"
   },
   {
    "n": 16,
@@ -240,7 +248,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "30.6 V +",
     "110 V AC34Vrmsvout60 Hz－"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 輸入有效值 34 V，峰值 Vm = 34√2 ≈ 48.1 V。理想二極體全波整流的輸出直流平均值為 2Vm/π = 2 × 48.1 ÷ 3.1416 ≈ 30.6 V。\n❌ (A) 11.6 V 比半波整流值（Vm/π ≈ 15.3 V）還低，沒有對應的算式。\n❌ (B) 21.6 V 是誤把有效值直接代入 2V/π（2 × 34 ÷ π），忘了先換算成峰值。\n❌ (D) 110 V 是市電有效值，與本題 34 Vrms 的輸出無關。\n📚 出處：Sedra & Smith《Microelectronic Circuits》全波整流器輸出直流平均值 Vdc = 2Vm/π"
   },
   {
    "n": 18,
@@ -253,7 +262,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "49.52 V +",
     "-49.52 V vo110 2 sin(377t )－"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 由 vi = 110√2·sin(377t) 得峰值 Vm ≈ 155.6 V。本電路為半波整流，且二極體方向使負半週導通，輸出直流平均值 = −Vm/π = −155.6 ÷ 3.1416 ≈ −49.52 V。\n❌ (A) 35.01 V 是誤把有效值 110 代入 V/π，未換算峰值，且正負號也相反。\n❌ (B) −35.01 V 極性正確，但同樣漏掉 √2 的峰值換算。\n❌ (C) 49.52 V 數值正確，但本電路取的是負半週，平均值應為負。\n📚 出處：Sedra & Smith《Microelectronic Circuits》半波整流器輸出直流平均值 Vdc = Vm/π"
   },
   {
    "n": 19,
@@ -279,7 +289,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "10 V",
     "12.4 V1 kΩ"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 三顆串接二極體導通共降 3 × 0.8 = 2.4 V，剩下 10 − 2.4 = 7.6 V 由兩個串聯的 1 kΩ 分擔，電流 I = 7.6 V ÷ 2 kΩ = 3.8 mA。VOUT 取在第一個 1 kΩ 之後，故 VOUT = 10 − 3.8 mA × 1 kΩ = 6.2 V。\n❌ (A) 2.4 V 只是三顆二極體的總壓降，不是該節點對地的電位。\n❌ (C) 10 V 是輸入電壓，忽略了電阻與二極體上的壓降。\n❌ (D) 12.4 V 高於輸入電壓，純被動的二極體電阻網路不可能升壓。\n📚 出處：Sedra & Smith《Microelectronic Circuits》二極體定電壓降模型與串聯電阻分壓分析"
   },
   {
    "n": 21,
@@ -319,7 +330,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "1/3 kΩ",
     "1/4 kΩ 1 MΩvi Jvo250 kΩ2 kΩ 2 kΩ"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此為 JFET 源極隨耦器。以自給偏壓聯立 ID = IDSS(1 − VGS/VP)² 與 VGS = −ID·RS，得 ID = 2 mA、VGS = −2 V。轉導 gm = (2·IDSS/|VP|)(1 − VGS/VP) = 4 mA/V × 0.5 = 2 mA/V，故 1/gm = 500 Ω。輸出阻抗 Rout = (1/gm) ∥ RS = 500 ∥ 1000 ≈ 333 Ω = 1/3 kΩ。\n❌ (A) 1 kΩ 是源極電阻本身，沒有與 1/gm 並聯。\n❌ (B) 1/2 kΩ 只算了 1/gm = 500 Ω，漏掉源極電阻的並聯效應。\n❌ (D) 1/4 kΩ 需 gm = 4 mA/V，對應 VGS = 0，與自給偏壓解出的 −2 V 不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》JFET 自給偏壓與共汲極（源極隨耦器）輸出阻抗 (1/gm)∥RS"
   },
   {
    "n": 24,
@@ -332,7 +344,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "467",
     "567vi Mvo1.2 mA 500 Ω"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 共汲極（源極隨耦器）增益 Av = gm·RS/(1 + gm·RS) = 0.85，解得 gm·RS = 5.67，gm = 5.67 ÷ 500 Ω ≈ 11.3 mA/V。再由 gm = √(2·μnCox·(W/L)·ID) 反解：W/L = gm²/(2·μnCox·ID) = (11.3 mA/V)² ÷ (2 × 200 μA/V² × 1.2 mA) ≈ 267。\n❌ (B) 367 對應 gm ≈ 13.3 mA/V，算出的增益會超過 0.86。\n❌ (C) 467 對應 gm ≈ 15 mA/V，增益約 0.88，與題給 0.85 不符。\n❌ (D) 567 對應 gm ≈ 16.5 mA/V，偏離更遠。\n📚 出處：Sedra & Smith《Microelectronic Circuits》共汲極放大器增益與 gm = √(2μnCox(W/L)ID)"
   },
   {
    "n": 25,
@@ -345,7 +358,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "5",
     "50RDvoutM1vin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 輸入阻抗 50 Ω 顯示這是共閘極組態，其 Rin = 1/gm = 50 Ω，故 gm = 20 mA/V；λ = 0 時輸出阻抗即汲極電阻 RD = 150 Ω。共閘極的小訊號電壓增益 Av = gm·RD = 20 mA/V × 150 Ω = 3。\n❌ (A) 1 是源極隨耦器（共汲極）的近似增益，本電路輸入阻抗只有 50 Ω，並非共汲極。\n❌ (C) 5 需 gm·RD = 5，對應 RD = 250 Ω，與題給輸出阻抗 150 Ω 不合。\n❌ (D) 50 是輸入阻抗的數值，不是電壓增益。\n📚 出處：Sedra & Smith《Microelectronic Circuits》共閘極放大器：Rin = 1/gm、Av = gm·RD"
   },
   {
    "n": 26,
@@ -358,7 +372,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "616 kΩ",
     "716 kΩ 15 kΩ5 MΩvoRiviM"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 先解汲極回授偏壓：閘極無電流使 VGS = VDS。由 ID = ½ × 0.2 mA/V² × (VGS − 2)² 與 VGS = 10 − 15 kΩ·ID 聯立，得 VGS = 4 V、VOV = 2 V、ID = 0.4 mA，gm = μnCox(W/L)·VOV = 0.4 mA/V，增益 Av = −gm·RD = −0.4 mA/V × 15 kΩ = −6。回授電阻經米勒效應折算到輸入端：Ri = RG/(1 − Av) = 5 MΩ ÷ 7 ≈ 714 kΩ，最接近 716 kΩ。\n❌ (A) 416 kΩ 對應 1 − Av ≈ 12，等於把增益算成 −11，偏壓點有誤。\n❌ (B) 516 kΩ 對應 1 − Av ≈ 9.7，與 gm = 0.4 mA/V、RD = 15 kΩ 的結果不符。\n❌ (C) 616 kΩ 對應 1 − Av ≈ 8.1，同樣與計算不合。\n📚 出處：Sedra & Smith《Microelectronic Circuits》汲極回授偏壓與米勒效應輸入電阻 Ri = RG/(1 − Av)"
   },
   {
    "n": 27,
@@ -371,7 +386,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "2.9 V +",
     "3.3 V +VEB500 kΩ －VBB = 1.5 V VEC－5 kΩ"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) PNP 射極接 5 V，VEB(on) = 0.6 V 使基極電位 VB = 5 − 0.6 = 4.4 V。基極電流 IB = (4.4 − 1.5) ÷ 500 kΩ = 5.8 μA，主動區下 IC = β·IB = 100 × 5.8 μA = 0.58 mA。集極電壓 VC = 0.58 mA × 5 kΩ = 2.9 V，故 VEC = 5 − 2.9 = 2.1 V。\n❌ (B) 2.5 V 需 IC = 0.5 mA，相當於漏算了 VEB 的 0.6 V 壓降。\n❌ (C) 2.9 V 是集極對地電壓 VC，不是射極對集極的 VEC。\n❌ (D) 3.3 V 需 IC ≈ 0.34 mA，與 IB = 5.8 μA、β = 100 的結果不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》PNP 電晶體直流偏壓分析（主動區 IC = βIB）"
   },
   {
    "n": 28,
@@ -398,7 +414,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "3/2 R1 2 kΩ",
     "2/5VX+VGS －R2 500 Ω"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 由汲極端：ID = (5 − VX)/2 kΩ = (5 − 3)/2 kΩ = 1 mA。源極電壓 VS = 1 mA × 500 Ω = 0.5 V，故閘極電壓 VG = VS + VGS = 0.5 + 1.5 = 2 V。R1、R2 對 5 V 分壓得 VG = 5 × R2/(R1 + R2) = 2，即 R2/(R1 + R2) = 0.4，故 R1/R2 = 0.6/0.4 = 3/2。\n❌ (A) 1/3 會使 VG = 3.75 V，與 VS + VGS = 2 V 不符。\n❌ (B) 2/3 是把 R1 與 R2 顛倒的結果，對應 VG = 3 V。\n❌ (D) 2/5 會使 VG ≈ 3.57 V，同樣不符偏壓計算。\n📚 出處：Sedra & Smith《Microelectronic Circuits》MOSFET 分壓偏壓（含源極電阻）的直流分析"
   },
   {
    "n": 30,
@@ -452,7 +469,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "6.75 kHz",
     "8.25 kHz －0.2 μF + vOVfR2R1"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 運算放大器方波產生器（弛張振盪器）的回授比 β = Vf/Vsat = 10/15 = 2/3，週期 T = 2RC·ln[(1 + β)/(1 − β)] = 2 × 1 kΩ × 0.2 μF × ln 5 = 4 × 10⁻⁴ × 1.609 ≈ 6.44 × 10⁻⁴ 秒，故 f = 1/T ≈ 1.55 kHz。\n❌ (B) 3.25 kHz 約為正解的兩倍，相當於只計算半個週期（單邊充電時間）。\n❌ (C) 6.75 kHz 約為正解的四倍，RC 時間常數少算了。\n❌ (D) 8.25 kHz 對應 T ≈ 0.12 ms，與 RC = 0.2 ms 的時間尺度明顯不符。\n📚 出處：Sedra & Smith《Microelectronic Circuits》運算放大器方波產生器 T = 2RC·ln[(1+β)/(1−β)]"
   },
   {
    "n": 34,
@@ -465,7 +483,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "3 kΩ + + vovo",
     "4 kΩviR1 R2 R1 R2圖一 圖二"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖一為同相型施密特電路，臨界電壓 = −vo·R1/R2；圖二為反相型，臨界電壓 = vo·R1/(R1 + R2)。設飽和電壓為 V：圖一給 −V × 2/R2 = −10，圖二給 V × 2/(2 + R2) = 6。兩式聯立解得 V = 15 V、R2 = 3 kΩ。\n❌ (A) R2 = 1 kΩ 時圖一推出 V = 5 V，代回圖二臨界只有 3.33 V，不等於 6 V。\n❌ (B) R2 = 2 kΩ 時圖一推出 V = 10 V，圖二臨界為 5 V，仍不符。\n❌ (D) R2 = 4 kΩ 時圖一推出 V = 20 V，圖二臨界為 6.67 V，兩式無法同時成立。\n📚 出處：Sedra & Smith《Microelectronic Circuits》施密特觸發器（雙穩態多諧振盪器）的遲滯臨界電壓"
   },
   {
    "n": 35,
