@@ -4036,6 +4036,33 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-107-1-c002": [
+  {
+   "n": 40,
+   "reason": "圖上只有四個選項（difference/conference/experience/reference），克漏字本文未提供，無法判斷語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 41,
+   "reason": "圖上只有四個選項（luggage/advantage/knowledge/beverage），克漏字本文未提供，無法判斷語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 42,
+   "reason": "圖上只有四個選項（predicting/contributing/risking/profiting），克漏字本文未提供，無法判斷語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "圖上只有四個選項（available/disposable/capable/probable），克漏字本文未提供，無法判斷語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "圖上只有四個選項（immersed/vanished/converged/emerged），克漏字本文未提供，無法判斷語境",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-107-1-c018": [
   {
    "n": 36,
@@ -4062,6 +4089,11 @@
   {
    "n": 39,
    "reason": "圖上只有四個近義選項（margin/edge/corner/angle），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 40,
+   "reason": "圖上只有四個選項（Eternally/Adversely/Bilaterally/Conversely），克漏字本文與題幹未出現在圖中，無法判斷語境",
    "at": "2026-09-20"
   }
  ],
