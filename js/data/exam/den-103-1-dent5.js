@@ -278,7 +278,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent5'] = {
     "拔牙後，前 3 個月殘嵴（residual ridge）萎縮（resorption）程度最快",
     "全口拔牙後配戴即裝義齒（immediate denture）之患者，可在拔牙後 3～6 個月開始製作正式之全口義齒"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯在時間軸：拔牙窩約在術後 6～8 週 X 光上即可見明顯骨小樑鈣化，約 4 個月（第 14～16 週）骨化大致完成、與周圍齒槽骨難以分辨；「3～6 個月」講的是殘嵴外形趨於穩定、可以製作正式義齒的時機，不是齒槽窩鈣化才達穩定的時間。\n❌ (B) 拔牙後第一年是殘嵴吸收最主要的一段，骨量約減少 20～30%（頰側寬度流失比例更高），敘述正確。\n❌ (C) 殘嵴吸收速率在前 3 個月最快，之後逐年遞減成慢性、持續性的吸收，為 residual ridge resorption 的典型曲線。\n❌ (D) 配戴即裝義齒者待軟硬組織癒合、外形穩定後，約在拔牙後 3～6 個月重襯或重做正式全口義齒，是標準處理時程。\n📚 出處：Hupp, Ellis & Tucker, Contemporary Oral and Maxillofacial Surgery（拔牙窩癒合）；Zarb, Boucher's Prosthodontic Treatment for Edentulous Patients（residual ridge resorption 與即裝義齒後續處置）。"
   },
   {
    "n": 20,
