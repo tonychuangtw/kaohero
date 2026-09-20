@@ -447,7 +447,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "咬合平面位置",
     "前牙牙根尖最低點之水平線"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Pell 與 Gregory 的 Class A／B／C 是「深度」分類，以阻生第三大臼齒的咬合面相對於第二大臼齒咬合平面的位置判定：A 與咬合平面同高、B 介於咬合平面與第二大臼齒頸線之間、C 低於頸線。\n❌ (A) 以下顎枝前緣（第二大臼齒遠心面到升枝前緣的可用空間）為基準的是 Class I／II／III 的空間分類，不是 A／B／C。\n❌ (B) 齒槽骨的水平高度不是本分類的基準，骨量只是評估手術難度的其他因素。\n❌ (D) 前牙牙根尖最低點的水平線與第三大臼齒的阻生深度無關，任何阻生分類都不以此為參考線。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery（Pell and Gregory classification：Class A/B/C 依相對於咬合平面的深度）。"
   },
   {
    "n": 32,
@@ -868,7 +869,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "此原理無法判斷何點靠近頰側",
     "此原理無法判斷何點靠近腭側"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 依頰側物體定律（buccal object rule／SLOB）：球管往近心移動時，靠腭（舌）側者影像同向移動、靠頰側者反向移動，而影像的視差位移量與物體離底片的距離成正比。本題兩點影像都往遠心移動，但 A 點位移較短，代表 A 點離底片較近，也就是 A 點較 B 點靠近腭側。\n❌ (A) 若 A 點較靠頰側，離底片較遠，其影像位移應大於 B 點，與題述「A 點移動距離較短」相反。\n❌ (C) 由位移方向加位移量即可判定頰腭關係，這正是臨床用來分辨上顎小臼齒頰、腭側根管的方法。\n❌ (D) 同理，視差原理能判斷哪一點靠腭側，並非無法判斷。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（buccal object rule／SLOB rule 與管球移動造成的影像視差）。"
   },
   {
    "n": 62,
