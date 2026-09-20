@@ -411,7 +411,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "參與小社交圈（participates in small social groups）",
     "樂於擁有（takes pride in possessions）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 2 歲幼兒正處分離焦慮高峰，Gesell 對此年齡的描述就是「very attached to parent」——看診時多半需要家長陪同進診間才願意配合，行為引導也常透過家長進行。\n❌ (B) 自我中心程度降低（less egocentric）約在 3 歲以後才逐漸出現，2 歲仍是高度自我中心、只從自己的角度看事情。\n❌ (C) 能參與小型社交團體（participates in small social groups）是 4 歲左右的行為特徵；2 歲多半是單獨遊戲或平行遊戲，不會真正與同伴互動。\n❌ (D) 對自己的所有物感到自豪（takes pride in possessions）屬 5 歲的描述，2 歲雖已有「我的」概念，但不是此項特徵。\n📚 出處：Gesell A, Ilg FL. Child Development（1949）各年齡行為描述；McDonald & Avery, Dentistry for the Child and Adolescent，兒童行為發展與管理章（Gesell 2～5 歲行為特徵對照表）。"
   },
   {
    "n": 30,

@@ -1032,7 +1032,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent3'] = {
     "PDI不測牙周囊袋深度",
     "PDI指數經常被評論低估牙周病的流行率"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Ramfjord 的 PDI 以六顆指標牙（Ramfjord teeth）為對象，牙周破壞的計分（4～6 分）是量「附著喪失」——以 CEJ 為基準測量附著位置，而不是單純從牙齦緣量牙周囊袋深度，因此說 PDI 不以牙周囊袋深度計分是正確的。\n❌ (A) Russell 的 PI 採 0、1、2、6、8 的不連續計分，最高分是 8 而非 6。\n❌ (B) PDI 的計分範圍為 0～6，最高 6 分；最高 8 分的是 PI。\n❌ (D) 因為採不連續計分、又以全口平均分數表示，常被批評會低估牙周病嚴重度的是 Russell 的 PI；PDI 受到的質疑是只檢查六顆指標牙的代表性問題。\n📚 出處：Russell AL. A system of classification and scoring for prevalence surveys of periodontal disease. J Dent Res 1956;35:350（PI）；Ramfjord SP. Indices for prevalence and incidence of periodontal disease. J Periodontol 1959;30:51（PDI）；Newman & Carranza's Clinical Periodontology，牙周流行病學指數章。"
   },
   {
    "n": 74,

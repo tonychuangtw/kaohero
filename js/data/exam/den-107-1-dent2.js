@@ -529,7 +529,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent2'] = {
     "加熱過快，樹脂床內部溫度高於水溫，會產生氣泡（internal porosity）",
     "加熱聚合過程最後再加熱1小時，其目的是將殘餘單體（residual monomer）更加速鏈結"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 此敘述錯誤。熱聚合末段再升溫（約 100°C）維持 1 小時的目的，是把殘餘單體（residual monomer）降到最低、使轉化率更完全，以減少單體對黏膜的刺激並改善物性；此時樹脂已硬化玻璃化、單體活動受限，靠的是較高溫度讓殘留單體得以繼續反應，屬於「提高轉化率」而不是「加速鏈結反應速率」——反應速率的高峰在前段起始劑分解時就已出現。\n❌ (A) 甲基丙烯酸甲酯（MMA）的自由基加成聚合為放熱反應，樹脂床中心溫度會高於水浴溫度，敘述正確。\n❌ (B) 升溫後過氧化二苯甲醯（benzoyl peroxide）快速分解產生自由基，鏈鎖聚合速率隨之加快，敘述正確。\n❌ (C) 升溫過快時，厚部位中心溫度可超過單體沸點（MMA 約 100.8°C），單體汽化而形成內部氣孔（internal porosity），敘述正確。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，Denture Base Resins 章（curing cycle、porosity、residual monomer）。"
   },
   {
    "n": 38,

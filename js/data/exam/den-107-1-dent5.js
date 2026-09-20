@@ -529,7 +529,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent5'] = {
     "有較高的抗撕裂強度（tear strength），適用於有較大組織倒凹區域的印模",
     "印模完成後應先等 7～15 分鐘才倒模"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤。橡膠（polysulfide, rubber base）的抗撕裂強度在彈性印模材中確實偏高，但它的永久變形量（permanent deformation，約 3～5%）也是各類彈性印模材中最大的；從大倒凹拉出後彈性回復差、印模失真，所以倒凹大的區域應選回復性最好的加成型矽膠（PVS），而不是 rubber base。\n❌ (A) 彈性印模材應維持均勻厚度、約 2～3 mm；過厚會放大聚合收縮與熱收縮造成的尺寸誤差，敘述正確。\n❌ (B) polysulfide 的操作時間與凝固時間是彈性體中最長的，總凝固時間約 8～12 分鐘，敘述正確。\n❌ (D) 取出後先靜置數分鐘讓應力鬆弛、彈性回復再灌模是 polysulfide 的標準做法（但不可久放，以免持續收縮），敘述正確。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，彈性印模材章（tear strength 與 permanent deformation 比較表）；Craig's Restorative Dental Materials, Impression Materials。"
   },
   {
    "n": 38,
