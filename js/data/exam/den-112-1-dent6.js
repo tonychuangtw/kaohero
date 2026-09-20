@@ -416,7 +416,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent6'] = {
     "喜歡聽故事（likes stories）",
     "知道「謝謝」與「請」（knows “thank you” and “please”）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 依 Gesell 的兒童發展量表，兩歲幼兒仍處於自我中心的平行遊戲期，多半各玩各的（plays alone），語言與社交能力有限，看牙時依賴照顧者、合作度低，屬「前合作期」。\n❌ (B) 想像力特別旺盛、會自編故事並可能因而產生害怕幻想，是四歲左右兒童的特徵。\n❌ (C) 喜歡聽故事、能被故事與說給看做（tell-show-do）引導，約在三歲時才明顯出現。\n❌ (D) 會使用「謝謝」「請」等社會性禮貌用語約在三歲，兩歲多半只講得出單字與雙字句。\n📚 出處：McDonald & Avery, Dentistry for the Child and Adolescent, 兒童生長與行為發展（Gesell 發展里程碑）章；Wright, Behavior Management in Dentistry for Children。"
   },
   {
    "n": 30,

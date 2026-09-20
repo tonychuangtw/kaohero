@@ -990,7 +990,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent5'] = {
     "左上第一大臼齒遠心邊緣嵴（distal marginal ridge）與左上第二大臼齒近心邊緣嵴（mesial marginal ridge）",
     "左上第一大臼齒近心窩（mesial fossa）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) Angle 第二型是下顎齒列相對上顎往遠心（後方）位移約一個咬頭寬度，下顎第一大臼齒因而整顆退後，其近心頰側咬頭正好落在上顎第一大臼齒的中央窩內。\n❌ (A) 下顎第一大臼齒近心頰側咬頭落在上顎第二小臼齒遠心邊緣嵴與上顎第一大臼齒近心邊緣嵴之間的鄰間隙，是第一型（正常）臼齒關係。\n❌ (C) 落到上顎第一大臼齒遠心邊緣嵴與第二大臼齒近心邊緣嵴之間，表示下顎又再往遠心一整顆牙的距離，已超過完整第二型的程度。\n❌ (D) 近心（三角）窩位在中央窩的近心側，代表只退了約半個咬頭，屬咬頭對咬頭的半顆第二型（end-to-end），不是典型完整的第二型關係。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed., Ch.1 錯咬合分類；Ash & Nelson, Wheeler's Dental Anatomy, Physiology and Occlusion, 咬合章。"
   },
   {
    "n": 71,

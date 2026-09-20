@@ -960,7 +960,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "sialoliths",
     "tonsilloliths"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 長期痤瘡（青春痘）的發炎病灶癒合後，可在真皮層發生異位性骨化，形成皮膚骨瘤（osteoma cutis），好發於臉頰；影像上是多發、邊緣清楚的小圓形緻密影，位置淺在皮膚軟組織內，與本例的長期青春痘病史完全吻合。\n❌ (B) 靜脈石（phleboliths）是血管瘤或靜脈畸形內的血栓鈣化，典型呈中央較透亮的同心圓「牛眼」狀，病人應有血管病變病史。\n❌ (C) 唾液腺結石（sialoliths）出現在腮腺管或頷下腺及其導管走行的位置，臨床多有進食時腺體腫脹疼痛，不會散布在痘疤處的皮膚層。\n❌ (D) 扁桃體結石（tonsilloliths）位於口咽扁桃體窩，在全景片上重疊於下頜枝後方，既不在頰部皮膚，咬翼片的視野也照不到。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 8th ed., 軟組織鈣化與骨化章（osteoma cutis／phlebolith／sialolith／tonsillolith 之鑑別）。"
   },
   {
    "n": 69,

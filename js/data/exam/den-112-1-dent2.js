@@ -669,7 +669,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent2'] = {
     "②③",
     "②④"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 二矽酸鋰瓷以②熱壓鑄（IPS e.max Press：蠟型包埋後將瓷錠加熱軟化壓鑄成形）與④電腦輔助車削「完全燒結」的瓷塊（IPS e.max CAD 的藍塊已是緻密體，車削後只做結晶化熱處理，尺寸幾乎不收縮）兩種方式製作。\n❌ (A) ①堆粉後燒結是長石瓷、飾面瓷的傳統做法，不用於二矽酸鋰；且③屬氧化鋯製程。\n❌ (B) ④正確，但①的堆粉燒結不是二矽酸鋰的製程，整組不成立。\n❌ (C) ③車削部分燒結（生胚）瓷塊後再燒結是氧化鋯的做法，燒結時約有 20–25% 收縮須先放大補償；二矽酸鋰不採此法。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed., Dental Ceramics 章；Ivoclar Vivadent IPS e.max Press／e.max CAD 製程說明。"
   },
   {
    "n": 48,
