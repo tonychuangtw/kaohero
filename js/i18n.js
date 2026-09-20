@@ -220,8 +220,8 @@
     '我': 'Me',
     '榜上「及格基準線」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。':
       'The highlighted row is a score reference line, not a person. Your own result shows under your nickname, or as "Me" if you have not set one.',
-    '這張榜還沒有人留下成績。本站只顯示真實成績，不放示範用的假名次——你考完就是第 1 名。':
-      'No results on this board yet. We only show real scores, never filler entries — take the mock and you are number 1.',
+    '這張榜還沒有人留下成績——你考完就是第 1 名。':
+      'No results on this board yet — take the mock and you are number 1.',
     '設定我的暱稱': 'Set my nickname',
     '更改暱稱（目前：': 'Change nickname (now: ',
     '）': ')',

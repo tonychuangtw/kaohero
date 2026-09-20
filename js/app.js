@@ -907,16 +907,34 @@
      榜單由兩種來源組成，依分數排序後取前 BOARD_N 名：
        1. 基準線：不是人，是對照用的分數線（及格 60），以特別顏色標示
        2. 真人：登入後的跨使用者真實成績；沒登入時只有本機使用者自己的最佳成績
+       3. 種子名次：程式產生的假名次，用來讓初期的榜單不致空白
 
-     ⚠️ BOARD_SEED = 程式產生的假名次。2026-09-11 Tony 決定先保留（避免初期榜單空白），
-     2026-09-20 依 docs/monetization-plan.md「賣排名之前不能混假資料」關掉 ——
-     變現工程要拿排名當賣點，榜上就不能有假人。要復原只需改回 true，其餘程式不用動。
-     種子以「科目＋規格」為亂數種子，所以同一張榜每次打開都一樣，不會每次重整就換一批人。
+     ⚠️ BOARD_SEED 的歷程（改動前先看完，不要又繞回去）：
+       2026-09-11 Tony 決定保留（避免初期榜單空白）
+       2026-09-20 上午 依 docs/monetization-plan.md「賣排名之前不能混假資料」關掉
+       2026-09-20 中午 Tony 看到後要求「一樣先改成有，但加入規則讓它定時會跳動，
+                       有真人分數上去時都再檢視一次然後盡量做真一點」→ 改成下面這套
+     要整個關掉仍然只要把 BOARD_SEED 設成 false。
 
-     ⚠️ 原本還有一條「歷年上榜水準 78」基準線，2026-09-20 一併移除：
+     ⚠️ 原本還有一條「歷年上榜水準 78」基準線，2026-09-20 移除且不要加回來：
      78 這個數字沒有出處，而且各考試錄取標準差很多（錄取制看排名不看絕對分數），
-     寫成一條線會誤導。要放回來就要先有可查證的來源（考選部各類科錄取分數）。 */
-  var BOARD_N = 50, BOARD_SEED = false;
+     寫成一條線會誤導。要放回來就要先有可查證的來源（考選部各類科錄取分數）。
+
+     ───── 種子名次的三條規則（2026-09-20）─────
+     1. 人是穩定的、分數會慢慢動。每 SEED_EPOCH_H 小時換一個「期」，同一期內不管重整幾次
+        都完全一樣（原本的要求：不要每次重整就換一批人）；跨期時每個人的分數小幅漂移
+        ±0~3 分，偶爾有人「重考進步」跳 4~10 分。
+     2. 名單會慢慢換血。種子池有 SEED_POOL 個人，每個人有自己的出現期與停留長度，
+        所以每隔一段時間會有人上榜、有人不見，而不是某一天整批 50 人全換掉。
+     3. 有真人成績就以真人為準校準。真人越多，(a) 種子數量越少（每 1 個真人擠掉 2 個種子，
+        約 25 人之後種子歸零自動退場）、(b) 種子的分數分布往真人的平均與離散度靠攏、
+        (c) 種子分數不會離真人的最高分太遠。校準在每次拿到後端榜時重跑（Tony：「有真人
+        分數上去時都再檢視一次」）。 */
+  var BOARD_N = 50, BOARD_SEED = true;
+  var SEED_EPOCH_H = 24;      // 幾小時算一期（同一期內榜單完全固定）
+  var SEED_POOL = 110;        // 種子池人數，比 BOARD_N 多才有換血空間
+  var SEED_CYCLE = 180;       // 換血週期（期）；每個人在週期裡只出現 SEED_LIFE 那段
+  var SEED_LIFE = [45, 150];  // 一個種子在榜上停留幾期（隨機落在這個區間）
 
   /* 後端榜（2026-09-11）：登入後成績會交到 /api/kgh，大家看同一張榜。
      沒登入就只看得到基準線與種子資料，並提示要登入——Tony：「要強制有登入才能進排行榜」。 */
@@ -973,23 +991,90 @@
     if (r() < 0.25) n += String(Math.floor(r() * 90) + 10);
     return n;
   }
-  /* 分數分布：多數落在 45～85，少數高分。用兩個亂數取平均做出中間厚、兩端薄的形狀。 */
+  /* 分數分布：多數落在 45～85，少數高分。用三個亂數取平均做出中間厚、兩端薄的形狀。 */
   function seedScore(r) {
     var v = (r() + r() + r()) / 3;             // 近似常態
     return Math.max(18, Math.min(98, Math.round(32 + v * 62)));
   }
 
+  /* 現在是第幾期。localStorage 的 kaohero.boardEpoch 可以指定期數，
+     smoke test 靠它驗「同一期固定、跨期會跳動」（重新載入後仍然有效）。 */
+  function seedEpoch() {
+    try {
+      var o = localStorage.getItem('kaohero.boardEpoch');
+      if (o !== null && o !== '' && isFinite(+o)) return parseInt(o, 10);
+    } catch (e) {}
+    return Math.floor(Date.now() / (SEED_EPOCH_H * 3600 * 1000));
+  }
+
+  /* 種子池：一張榜固定的一群「人」。每個人的暱稱、底分、出現期、停留長度都只由
+     (sid, spec, 池內編號) 決定，所以跨期、跨裝置、跨重整都是同一批人。 */
+  function seedPool(sid, spec) {
+    var r = rng32(hashStr('kh|' + sid + '|' + spec)), used = {}, pool = [];
+    for (var i = 0; i < SEED_POOL; i++) {
+      var nk = seedNick(r), guard = 0;
+      while (used[nk] && guard++ < 12) nk = seedNick(r);
+      if (used[nk]) continue;                  // 撞名撞不開就少一個人，不要重複暱稱
+      used[nk] = 1;
+      pool.push({
+        nick: nk,
+        base: seedScore(r),
+        enter: Math.floor(r() * SEED_CYCLE),   // 在換血週期裡從第幾期開始出現
+        life: SEED_LIFE[0] + Math.floor(r() * (SEED_LIFE[1] - SEED_LIFE[0]))
+      });
+    }
+    return pool;
+  }
+
+  /* 這一期這個人的分數：底分 + 小幅漂移，偶爾一次「重考進步」。 */
+  function seedScoreAt(p, sid, spec, epoch) {
+    var r = rng32(hashStr(p.nick + '|' + sid + '|' + spec + '|' + epoch));
+    var v = Math.round((r() * 2 - 1) * 3);                  // −3 ~ +3 的日常起伏
+    if (r() < 0.06) v += 4 + Math.floor(r() * 7);           // 6% 的人這期進步 4~10 分
+    return Math.max(18, Math.min(98, p.base + v));
+  }
+
+  /* 依真人成績校準種子（Tony 2026-09-20：「有真人分數上去時都再檢視一次，盡量做真一點」）。
+     真人 0 個時原樣輸出；真人越多，種子的平均與離散度越靠近真人，最高分也被真人的最高分壓住。 */
+  function calibrateSeeds(seeds, real) {
+    if (!real.length || !seeds.length) return seeds;
+    var w = Math.min(1, real.length / 30);                  // 真人滿 30 個就完全以真人為準
+    var mr = real.reduce(function (a, b) { return a + b; }, 0) / real.length;
+    var ms = seeds.reduce(function (a, b) { return a + b.score; }, 0) / seeds.length;
+    var sd = function (xs, m) {
+      if (xs.length < 2) return 0;
+      return Math.sqrt(xs.reduce(function (a, x) { return a + (x - m) * (x - m); }, 0) / (xs.length - 1));
+    };
+    var sr = sd(real, mr), ss = sd(seeds.map(function (x) { return x.score; }), ms);
+    var k = (ss > 0.5 && sr > 0.5) ? (1 - w) + w * (sr / ss) : 1;
+    var cap = real.length >= 5 ? Math.max(70, Math.max.apply(null, real) + 6) : 100;
+    seeds.forEach(function (x) {
+      var v = (ms + (x.score - ms) * k) * (1 - w) + (mr + (x.score - ms) * k) * w;
+      x.score = Math.max(18, Math.min(cap, Math.round(v)));
+    });
+    return seeds;
+  }
+
   function boardRows(sid, spec) {
     var rows = [];
     rows.push({ kind: 'mark', nick: T('及格基準線'), score: 60 });
+    var srvEarly = boardCache[sid + '|' + spec + '|' + boardScope];
+    var realScores = (srvEarly && srvEarly.rows ? srvEarly.rows : []).map(function (x) { return x.score; });
     if (BOARD_SEED && boardScope !== 'friends') {          // 好友榜只放真人，放種子會很奇怪
-      var r = rng32(hashStr('kh|' + sid + '|' + spec));
-      var used = {};
-      for (var i = 0; i < BOARD_N; i++) {
-        var nk = seedNick(r), guard = 0;
-        while (used[nk] && guard++ < 8) nk = seedNick(r);
-        used[nk] = 1;
-        rows.push({ kind: 'seed', nick: nk, score: seedScore(r) });
+      // 真人越多、種子越少：每 1 個真人擠掉 2 個種子，約 25 人之後種子自動退場
+      var want = Math.max(0, BOARD_N - realScores.length * 2);
+      if (want > 0) {
+        var ep = seedEpoch();
+        var live = seedPool(sid, spec).filter(function (p) {
+          var d = ((ep - p.enter) % SEED_CYCLE + SEED_CYCLE) % SEED_CYCLE;
+          return d < p.life;                                // 只有在自己那段期間才在榜上
+        });
+        var seeds = live.map(function (p) {
+          return { kind: 'seed', nick: p.nick, score: seedScoreAt(p, sid, spec, ep) };
+        });
+        calibrateSeeds(seeds, realScores);
+        seeds.sort(function (a, b) { return b.score - a.score; });
+        seeds.slice(0, want).forEach(function (x) { rows.push(x); });
       }
     }
     var srv = boardCache[sid + '|' + spec + '|' + boardScope];
@@ -1069,10 +1154,9 @@
       p.appendChild(row);
     });
     s.appendChild(p);
-    // 榜上只放真實成績（2026-09-20 關掉種子假名次）。還沒有人考過就照實說，不要用假人填版面。
+    // 榜上一個人都沒有（只看好友、或 BOARD_SEED 關掉時會發生）就照實說，不要留一張空表。
     if (!people) {
-      s.appendChild(el('div', 'warnbox',
-        T('這張榜還沒有人留下成績。本站只顯示真實成績，不放示範用的假名次——你考完就是第 1 名。')));
+      s.appendChild(el('div', 'warnbox', T('這張榜還沒有人留下成績——你考完就是第 1 名。')));
     }
     s.appendChild(el('p', 'lead',
       T('榜上「及格基準線」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。')));
