@@ -50806,7 +50806,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規大意",
   "label": "106 年　初等考試　稅務法規大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
