@@ -364,7 +364,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
     "abciximab，不可逆抑制 glycoprotein IIb/IIIa",
     "prasugrel，可逆抑制 P2Y12 ADP receptor"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) clopidogrel 屬 thienopyridine 前驅藥，經肝臟 CYP（主要 CYP2C19）活化後，其活性代謝物與血小板 P2Y12 受體形成雙硫鍵共價結合，為不可逆抑制，作用持續至血小板生命週期結束（約 7～10 天）。\n❌ (A) aspirin 係乙醯化 COX 活性中心絲胺酸而「不可逆」抑制，且抗血小板作用來自低劑量對 COX-1 的抑制，非可逆抑制 COX-2。\n❌ (C) abciximab 為抗 GP IIb/IIIa 的單株抗體 Fab 片段，以非共價方式結合受體，屬可逆性抑制。\n❌ (D) prasugrel 同為 thienopyridine 類前驅藥，對 P2Y12 亦是不可逆抑制；可逆抑制 P2Y12 者為 ticagrelor 與 cangrelor。\n📚 出處：Katzung《基礎與臨床藥理學》抗血小板藥物章"
   },
   {
    "n": 26,

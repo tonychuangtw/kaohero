@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph5'] = {
     "isradipine",
     "ipratropium"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) indapamide 為 thiazide 類似利尿劑；PATS、PROGRESS 等試驗顯示其用於腦中風後病人可降低再發與心血管事件，屬降壓第一線藥且有中風次級預防實證，可單獨使用。\n❌ (B) irbesartan 為 ARB，雖屬降壓藥物大類，但 ARB 單用於缺血性中風次級預防的大型試驗（PRoFESS）未能降低再發風險，就本病人情境非首選。\n❌ (C) isradipine 屬短效型 dihydropyridine 鈣離子阻斷劑，血壓波動大且缺乏中風後預後實證，不建議單獨作為長期第一線用藥。\n❌ (D) ipratropium 是吸入型抗膽鹼支氣管擴張劑，用於 COPD 與氣喘，本身無降壓作用。\n📚 出處：台灣高血壓治療指引（中風後降壓建議）；PATS／PROGRESS 臨床試驗"
   },
   {
    "n": 31,
