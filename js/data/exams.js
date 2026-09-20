@@ -41160,7 +41160,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學",
   "label": "108 年　三等　經濟學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -41916,7 +41916,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學大意",
   "label": "108 年　五等　經濟學大意",
   "n": 50,
-  "exp": 47,
+  "exp": 48,
   "mins": 60
  },
  {
@@ -41986,7 +41986,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "108 年　五等　基本電學大意",
   "n": 40,
-  "exp": 22,
+  "exp": 28,
   "mins": 60
  },
  {
@@ -42000,7 +42000,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "108 年　五等　電子學大意",
   "n": 40,
-  "exp": 22,
+  "exp": 32,
   "mins": 60
  },
  {
@@ -42560,7 +42560,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（電子工程組）",
   "label": "107 年　四等　計算機概要（電子工程組）",
   "n": 40,
-  "exp": 35,
+  "exp": 36,
   "mins": 60
  },
  {
