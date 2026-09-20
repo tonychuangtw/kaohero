@@ -191,7 +191,7 @@
     '全站': 'Everyone',
     '只看好友': 'Friends only',
     '好友': 'Friends',
-    '要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。沒登入時只看得到基準線與範例名次。':
+    '要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。':
       'Sign in (top right) to put your score on the board and see other people\u2019s real results. Without signing in you only see the reference lines and sample entries.',
     '把自己的好友碼給對方、再把對方的碼加進來，雙方都加了才算朋友，模考英雄榜的「只看好友」才會看到彼此。':
       'Share your friend code and add theirs. You become friends only when both sides have added each other; only then do you appear on each other\u2019s "Friends only" board.',
@@ -217,10 +217,11 @@
     '20 題': '20 Q',
     '20 題速刷': '20-question sprint',
     '及格基準線': 'Pass mark (60)',
-    '歷年上榜水準': 'Typical passing level',
     '我': 'Me',
-    '榜上「及格基準線」與「歷年上榜水準」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。':
-      'The two highlighted rows are score reference lines, not people. Your own result shows under your nickname, or as "Me" if you have not set one.',
+    '榜上「及格基準線」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。':
+      'The highlighted row is a score reference line, not a person. Your own result shows under your nickname, or as "Me" if you have not set one.',
+    '這張榜還沒有人留下成績。本站只顯示真實成績，不放示範用的假名次——你考完就是第 1 名。':
+      'No results on this board yet. We only show real scores, never filler entries — take the mock and you are number 1.',
     '設定我的暱稱': 'Set my nickname',
     '更改暱稱（目前：': 'Change nickname (now: ',
     '）': ')',

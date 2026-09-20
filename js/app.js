@@ -903,15 +903,20 @@
     main.appendChild(c);
   }
 
-  /* ============ 模擬考英雄榜（2026-09-11 Tony 拍板）============
-     榜單由三種來源組成，依分數排序後取前 BOARD_N 名：
-       1. 基準線：不是人，是對照用的分數線（及格 60、歷年上榜水準 78），以特別顏色標示
-       2. 真人：目前只有本機使用者自己的最佳成績；接上後端之後會換成跨使用者的真實成績
-       3. 種子暱稱：⚠️ 這一批是程式產生的假資料，用來讓初期的榜單不致空白。
-          Tony 2026-09-11 決定保留（他的站、他的決定；我先前已表達過疑慮，見當天對話）。
-          要關掉只需把 BOARD_SEED 設為 false，其餘程式不用動。
-     種子以「科目＋規格」為亂數種子，所以同一張榜每次打開都一樣，不會每次重整就換一批人。 */
-  var BOARD_N = 50, BOARD_SEED = true;
+  /* ============ 模擬考英雄榜 ============
+     榜單由兩種來源組成，依分數排序後取前 BOARD_N 名：
+       1. 基準線：不是人，是對照用的分數線（及格 60），以特別顏色標示
+       2. 真人：登入後的跨使用者真實成績；沒登入時只有本機使用者自己的最佳成績
+
+     ⚠️ BOARD_SEED = 程式產生的假名次。2026-09-11 Tony 決定先保留（避免初期榜單空白），
+     2026-09-20 依 docs/monetization-plan.md「賣排名之前不能混假資料」關掉 ——
+     變現工程要拿排名當賣點，榜上就不能有假人。要復原只需改回 true，其餘程式不用動。
+     種子以「科目＋規格」為亂數種子，所以同一張榜每次打開都一樣，不會每次重整就換一批人。
+
+     ⚠️ 原本還有一條「歷年上榜水準 78」基準線，2026-09-20 一併移除：
+     78 這個數字沒有出處，而且各考試錄取標準差很多（錄取制看排名不看絕對分數），
+     寫成一條線會誤導。要放回來就要先有可查證的來源（考選部各類科錄取分數）。 */
+  var BOARD_N = 50, BOARD_SEED = false;
 
   /* 後端榜（2026-09-11）：登入後成績會交到 /api/kgh，大家看同一張榜。
      沒登入就只看得到基準線與種子資料，並提示要登入——Tony：「要強制有登入才能進排行榜」。 */
@@ -977,7 +982,6 @@
   function boardRows(sid, spec) {
     var rows = [];
     rows.push({ kind: 'mark', nick: T('及格基準線'), score: 60 });
-    rows.push({ kind: 'mark', nick: T('歷年上榜水準'), score: 78 });
     if (BOARD_SEED && boardScope !== 'friends') {          // 好友榜只放真人，放種子會很奇怪
       var r = rng32(hashStr('kh|' + sid + '|' + spec));
       var used = {};
@@ -1055,7 +1059,9 @@
     var key = sid + '|' + spec + '|' + boardScope;
     if (signedIn() && !boardCache[key]) loadBoard(sid, spec, function () { render(); });
     var p = el('div', 'panel bd-list');
-    boardRows(sid, spec).forEach(function (x) {
+    var rows = boardRows(sid, spec), people = 0;
+    rows.forEach(function (x) {
+      if (x.kind !== 'mark') people++;
       var row = el('div', 'bd-row' + (x.kind === 'mark' ? ' mark' : '') + (x.kind === 'me' ? ' me' : ''));
       row.appendChild(el('span', 'bd-no', x.kind === 'mark' ? '—' : String(x.rank)));
       row.appendChild(el('span', 'bd-nk', x.nick));
@@ -1063,11 +1069,16 @@
       p.appendChild(row);
     });
     s.appendChild(p);
+    // 榜上只放真實成績（2026-09-20 關掉種子假名次）。還沒有人考過就照實說，不要用假人填版面。
+    if (!people) {
+      s.appendChild(el('div', 'warnbox',
+        T('這張榜還沒有人留下成績。本站只顯示真實成績，不放示範用的假名次——你考完就是第 1 名。')));
+    }
     s.appendChild(el('p', 'lead',
-      T('榜上「及格基準線」與「歷年上榜水準」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。')));
+      T('榜上「及格基準線」是分數對照線，不是人。你的成績會以暱稱顯示，沒設暱稱時顯示「我」。')));
     if (!signedIn()) {
       s.appendChild(el('div', 'warnbox',
-        T('要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。沒登入時只看得到基準線與範例名次。')));
+        T('要讓自己的成績上榜、看到其他人的真實成績，請先登入（右上角「登入」）。')));
     }
     var br = el('div', 'btnrow');
     br.appendChild(btn(state.nick ? T('更改暱稱（目前：') + state.nick + T('）') : T('設定我的暱稱'), 'o', askNick));
