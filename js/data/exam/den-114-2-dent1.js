@@ -137,7 +137,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent1'] = {
     "耳咽管咽肌",
     "提腭帆肌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 咽門後柱即腭咽弓（palatopharyngeal arch），是腭咽肌（palatopharyngeus）被覆黏膜後形成的隆起。\n❌ (A) 腭舌肌構成咽門前柱（腭舌弓），位於扁桃體窩前方。\n❌ (C) 耳咽管咽肌起自耳咽管軟骨後併入腭咽肌，本身不單獨形成咽門柱。\n❌ (D) 提腭帆肌走行於軟腭內部負責上提軟腭，不在黏膜表面形成柱狀隆起。\n📚 出處：Gray's Anatomy for Students, 4th ed.（Oral cavity and pharynx：palatoglossal and palatopharyngeal arches）。"
   },
   {
    "n": 10,

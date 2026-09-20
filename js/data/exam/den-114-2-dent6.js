@@ -502,7 +502,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "第一乳臼齒牙根吸收非生理性現象",
     "該麻醉藥物的最大劑量是6.0 mg/kg"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 2% lidocaine 含 1:100,000 epinephrine 的兒童最大建議劑量為 4.4 mg/kg（總量不超過 300 mg），不是 6.0 mg/kg，故此敘述錯誤。\n❌ (A) 第一乳臼齒若已出現根分叉或根尖病變，牙髓屬不可逆性發炎或壞死，不符活髓治療的適應症。\n❌ (B) 病灶範圍大、牙根已受破壞時，拔除患牙再以空間維持器處理是可接受的選項。\n❌ (C) 第一乳臼齒約 9～11 歲才替換，5 歲時生理性牙根吸收尚未開始，此時出現的吸收屬病理性。\n📚 出處：Malamed, Handbook of Local Anesthesia, 7th ed.（Maximum recommended dose of lidocaine：4.4 mg/kg）；AAPD Best Practices, Pulp Therapy for Primary Teeth."
   },
   {
    "n": 36,
@@ -612,7 +613,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "此時拔除恆犬齒為最適合的選擇",
     "錐狀束電腦斷層（CBCT）可以輔助診斷及決定治療方式"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) CBCT 能以三維影像確認阻生犬齒的頰舌向位置、萌發角度，以及對鄰牙牙根有無壓迫吸收，是決定「等待導萌、外科暴露牽引或拔除」的重要輔助工具。\n❌ (A) 轉位（transposition）指兩顆牙齒在牙弓上的位置互換，本例只是犬齒異位阻生，未與鄰牙互換位置。\n❌ (B) 拔除乳犬齒的攔截性處置只在特定年齡、且恆犬齒偏移角度不大時才有導正效果，並非任何情況都能改變萌發方向。\n❌ (C) 恆犬齒對咬合導引與齒列美觀極重要，應先嘗試導萌或矯正牽引，拔除是最後手段。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Ectopic eruption of maxillary canines）；Ericson & Kurol, Angle Orthodontist 1988."
   },
   {
    "n": 44,

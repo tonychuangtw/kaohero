@@ -986,7 +986,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "osteoradionecrosis",
     "medication-related osteonecrosis（MRONJ）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 骨質疏鬆是全身性骨量與骨密度下降，顎骨 X 光上只會見到骨小樑變稀疏、皮質骨變薄，不會形成局部溶骨併死骨與骨膜反應的病灶，故最不可能。\n❌ (B) 骨髓炎可見界線不清的溶骨區、死骨（sequestrum）與骨膜新生骨。\n❌ (C) 放射線骨壞死好發於接受過頭頸部放療者，影像同樣呈混合性溶骨與死骨。\n❌ (D) 藥物相關顎骨壞死（雙磷酸鹽、denosumab）影像與骨髓炎、ORN 高度重疊，須靠用藥史區分。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Inflammatory lesions of the jaws；Osteonecrosis of the jaw）。"
   },
   {
    "n": 71,
@@ -1053,7 +1054,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "齒源性角化囊腫（odontogenic keratocyst）",
     "戈林氏囊腫（Gorlin cyst）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 齒源性角化囊腫典型為界線清楚、內部均質的放射線透過性病灶，不含鈣化物，因此沒有「透過區內散布鈣化」的影像特徵。\n❌ (A) 腺瘤樣齒源性瘤常在透過區內見到細小雪花狀（snowflake）鈣化。\n❌ (B) 平伯氏腫瘤（CEOT）以「driven snow」樣鈣化並常包繞阻生齒為特徵。\n❌ (D) 戈林氏囊腫（鈣化性齒源性囊腫）約半數可見囊內鈣化灶或合併齒瘤。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Odontogenic cysts and tumors：radiographic features）。"
   },
   {
    "n": 76,

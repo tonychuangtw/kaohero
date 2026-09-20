@@ -909,7 +909,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "其外觀會受放射線行進方向與牙根之相對角度影響",
     "此一構造之厚度與牙齒承受之咬合力有關"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 箭頭所指為圍繞牙根的緻密白線，其放射線影像學名稱是硬骨板（lamina dura）；篩狀板（cribriform plate）是它在組織學上的名稱，兩者分屬不同命名系統，故此敘述錯誤。\n❌ (B) 硬骨板在影像上是否清晰，取決於 X 光行進方向與該處皮質骨板厚度的相對關係。\n❌ (C) X 光束若未與牙根長軸保持適當角度，硬骨板影像會因投影重疊而變模糊。\n❌ (D) 硬骨板屬功能性齒槽骨，承受較大咬合力的牙齒其硬骨板會增厚。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy：lamina dura）。"
   },
   {
    "n": 65,

@@ -627,7 +627,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent3'] = {
     "polishing the matrix band",
     "bending the matrix band"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Burnishing 是用球狀或蛋形器械由鄰牙方向把圍合片向內壓出弧度，使其貼合鄰牙接觸區，以重建正確的鄰接點位置與外形高度。\n❌ (B) Trimming 指用剪刀修剪圍合片的外形或高度，不是以器械向內加壓塑形。\n❌ (C) Polishing 是修復體完成後的拋光步驟，不會施作在圍合片上。\n❌ (D) 圍合片的鄰接弧度靠 burnishing 產生，bending 並非修復學對此步驟的正式名稱。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry, 7th ed.（Matrix systems：burnishing the matrix band）。"
   },
   {
    "n": 45,

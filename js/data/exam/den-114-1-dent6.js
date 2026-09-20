@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent6'] = {
     "最下方的矯正線適合做初始排列（initial alignment）",
     "決定力量（force）大小的主要因素是矯正線尺寸"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 超彈性矯正線在卸載平台上輸出的力量，主要取決於合金成分與熱處理所決定的相變化特性，在相當大的變形範圍內力量幾乎維持定值，因此「主要由線材尺寸決定」的敘述錯誤。\n❌ (A) 曲線在卸載時出現水平平台（plateau），正是超彈性的典型表現。\n❌ (B) 具超彈性平台的矯正線為鎳鈦合金，此推論合理。\n❌ (C) 最下方的曲線代表同樣變形量下釋放的力量最小，輕而持續的力最適合齒列擁擠時的初始排列。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Mechanical properties of orthodontic wires：superelasticity of nickel-titanium）。"
   },
   {
    "n": 21,
@@ -570,7 +571,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent6'] = {
     "僅②④",
     "僅②③"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 夜間頻繁親餵加上一天多次巧克力點心，符合嚴重早發性齲齒（S-ECC），必須改變點心種類（③）；上顎門齒缺損範圍大時可用樹脂牙冠或預製二氧化鋯牙冠修復（②）；去腐後若僅點狀機械性露髓且牙髓仍健康，可行直接覆髓術（①）。\n❌ (A) 含④。母乳中的乳糖一樣會被細菌代謝產酸，夜間睡眠時唾液分泌減少更易致齲，必須調整哺乳習慣。\n❌ (C) 僅②④不但納入錯誤的④，也漏掉診斷與飲食建議正確的③。\n❌ (D) 僅②③漏掉①；本例門齒並非全數牙髓壞死，仍有符合直接覆髓條件的牙齒。\n📚 出處：AAPD Policy on Early Childhood Caries (ECC)；AAPD Best Practices, Pulp Therapy for Primary and Immature Permanent Teeth."
   },
   {
    "n": 41,
@@ -625,7 +627,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent6'] = {
     "舌側牙弓維持器（lingual holding arch）",
     "冠環裝置（crown and loop space maintainer）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 第二乳臼齒在第一恆臼齒尚未萌出前就必須拔除時，應使用遠心鞋型裝置，其遠心導板伸入齒槽骨內，引導第一恆臼齒沿正確路徑萌出，避免近心移位造成空間喪失。\n❌ (A) 帶環環圈裝置需要遠心側已有萌出的牙齒作為 loop 的止點，恆臼齒未萌時擋不住其近心傾倒。\n❌ (C) 舌側牙弓維持器須在兩側第一恆臼齒上裝帶環固定，恆臼齒尚未萌出時無法使用。\n❌ (D) 冠環裝置只是把帶環換成不鏽鋼牙冠，作用方式與 A 相同，同樣無法導引未萌的恆臼齒。\n📚 出處：AAPD Best Practices, Management of the Developing Dentition and Occlusion（Space maintenance：distal shoe appliance）。"
   },
   {
    "n": 45,
