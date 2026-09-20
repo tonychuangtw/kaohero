@@ -49252,7 +49252,7 @@ window.APP_EXAMS = [
   "subjName": "教育法規大意",
   "label": "110 年　初等考試　教育法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49280,7 +49280,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規大意",
   "label": "110 年　初等考試　稅務法規大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -49308,7 +49308,7 @@ window.APP_EXAMS = [
   "subjName": "貨幣銀行學大意",
   "label": "110 年　初等考試　貨幣銀行學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49378,7 +49378,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學大意",
   "label": "110 年　初等考試　經濟學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49434,7 +49434,7 @@ window.APP_EXAMS = [
   "subjName": "中文圖書分類編目大意",
   "label": "110 年　初等考試　中文圖書分類編目大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49448,7 +49448,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "110 年　初等考試　公務員法大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49462,7 +49462,7 @@ window.APP_EXAMS = [
   "subjName": "交通行政大意",
   "label": "110 年　初等考試　交通行政大意",
   "n": 50,
-  "exp": 47,
+  "exp": 48,
   "mins": 60
  },
  {
