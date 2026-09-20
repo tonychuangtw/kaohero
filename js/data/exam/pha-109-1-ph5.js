@@ -810,7 +810,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph5'] = {
     "pancreatic cancer",
     "multiple myeloma"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) Pioglitazone 為 thiazolidinedione 類 PPAR-γ 促效劑，除最廣為人知的膀胱癌疑慮外，流行病學世代研究亦觀察到使用者胰臟癌（pancreatic cancer）風險上升的安全性訊號；本題四個選項中僅胰臟癌與此藥有相關報告。\n❌ (A) 多形性膠質母細胞瘤的已知風險因子為頭部游離輻射暴露與少數遺傳症候群，與降血糖藥無關。\n❌ (B) 何杰金氏淋巴瘤主要與 EB 病毒感染、免疫功能低下及年齡分布有關，非 TZD 類藥物的已知風險。\n❌ (D) 多發性骨髓瘤與 MGUS 病史、高齡、輻射及特定化學物質暴露相關，未見與 pioglitazone 的關聯。\n📚 出處：Pioglitazone 仿單之惡性腫瘤安全性警語與美國 FDA 藥品安全通報，以及 Kaiser Permanente 糖尿病世代研究結果。"
   },
   {
    "n": 58,

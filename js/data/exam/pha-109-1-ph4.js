@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph4'] = {
     "副作用",
     "藥品數量"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 調劑標籤的標準必載項目（standard labelling requirements）指藥品交付病人時一定要出現的資訊：病人姓名、藥品名稱與含量、調劑數量、用法用量、調劑日期、處方醫師與藥局（醫療機構）名稱等，故「藥品數量」屬之。\n❌ (A) 有效期限是製造廠依安定性試驗對原包裝藥品所作的標示，屬廠商端的包裝標示要求，不是調劑標籤的標準欄位。\n❌ (B) 批號同為製造與追溯用的原廠標示，供品質追查與回收使用，不會列為交付病人標籤的必載項目。\n❌ (C) 副作用與注意事項屬輔助標籤（auxiliary label）或用藥指導單張的內容，用以補充提醒，非標準必載欄位。\n📚 出處：Ansel's Pharmaceutical Dosage Forms／Remington 調劑實務章，prescription label 必載項目與 auxiliary label 之區分。"
   },
   {
    "n": 6,
@@ -109,7 +110,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph4'] = {
     "60",
     "90"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 乳膏屬含水（aqueous）劑型，兩種市售 cream 依比例混合後，原有防腐系統被稀釋、改變而無法確認防腐效能，依 USP <795> 非無菌調劑對使用期限（beyond-use date）的規定，此類含水調製品採最保守的 14 天。\n❌ (B) 30 天常被誤記為所有外用半固體的通用期限，但防腐效能未經確認的含水調製品不得採用這麼寬鬆的天數。\n❌ (C) 60 天並無對應的調劑使用期限規定，含水製劑的微生物增殖風險不容許訂到這麼長。\n❌ (D) 90 天接近非水性（nonaqueous）基質如油膏、凡士林類製劑的期限範疇，與含水乳膏無關。\n📚 出處：USP General Chapter <795> Pharmaceutical Compounding—Nonsterile Preparations，含水與非水性調製品之 Beyond-Use Date 規定。"
   },
   {
    "n": 8,
