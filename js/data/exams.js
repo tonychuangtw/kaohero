@@ -42504,7 +42504,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計概要",
   "label": "107 年　四等　成本與管理會計概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -42644,7 +42644,7 @@ window.APP_EXAMS = [
   "subjName": "地方自治大意",
   "label": "107 年　五等　地方自治大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -42784,7 +42784,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "107 年　五等　會計審計法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -42798,7 +42798,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "107 年　五等　土地法大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
