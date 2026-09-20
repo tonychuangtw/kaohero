@@ -674,7 +674,8 @@ window.APP_EXAM_PAPERS['loc-112-1-a002'] = {
     "Microsoft debuted it in 2016 to compete with ChatGPT.",
     "It was a failure because it was slow in learning new content."
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) Tay 是微軟 2016 年 3 月在 Twitter 推出的聊天機器人，上線不到 24 小時就被網友「教壞」而發出種族歧視與仇恨言論，微軟當天即緊急下架，正是選項所說「推出第一天就被撤下」。\n❌ (B) Tay 由微軟（Microsoft）開發，不是 OpenAI；OpenAI 的產品是 GPT 系列與 ChatGPT。\n❌ (C) Tay 推出於 2016 年，ChatGPT 到 2022 年 11 月才問世，時間上不可能是為了與 ChatGPT 競爭而推出。\n❌ (D) Tay 失敗的原因不是學得慢，而是毫無過濾地快速吸收使用者餵給它的偏激內容。\n📚 出處：Microsoft 官方部落格〈Learning from Tay's introduction〉(2016-03-25)"
   },
   {
    "n": 48,
