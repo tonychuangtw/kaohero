@@ -39942,7 +39942,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "110 年　四等　有機化學概要",
   "n": 25,
-  "exp": 16,
+  "exp": 17,
   "mins": 75
  },
  {
@@ -40040,7 +40040,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "110 年　五等　人事行政大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -40124,7 +40124,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "110 年　五等　會計審計法規大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -40208,7 +40208,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "110 年　五等　基本電學大意",
   "n": 40,
-  "exp": 18,
+  "exp": 19,
   "mins": 60
  },
  {
