@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent2'] = {
     "腮裂囊腫（branchial cleft cyst）",
     "皮樣囊腫（dermoid cyst）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 皮樣囊腫好發於年輕成人的口底正中，生長緩慢、無痛，囊內堆積角質而呈麵團樣觸感；體積變大時把舌頭往上後推，才會依序出現構音、進食甚至呼吸困難。組織學可見角化複層鱗狀上皮襯裡並含皮膚附屬器（皮脂腺、毛囊），是確診依據。\n❌ (A) 蝦蟆腫為舌下腺唾液外滲所致，典型是口底單側、藍紫色半透明、觸之有波動感的腫脹，病灶壁只有肉芽組織而無上皮襯裡。\n❌ (B) 淋巴上皮囊腫多為口底或舌腹數公釐的黃白色小結節，不會長到壓迫呼吸道。\n❌ (C) 腮裂囊腫長在頸部側面胸鎖乳突肌前緣，不是口底中線的病灶。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Developmental defects：dermoid cyst、ranula、branchial cleft cyst）。"
   },
   {
    "n": 2,
@@ -179,7 +180,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent2'] = {
     "神經纖維瘤（neurofibroma）",
     "顆粒細胞瘤（granular cell tumor）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 鱗狀細胞乳頭瘤由許多含纖維血管軸心的指狀突起組成，表面被覆角化的複層鱗狀上皮；角化層使病灶在臨床上呈白色菜花狀外突，與舌部白色突起的描述相符，與 HPV-6／11 感染有關。\n❌ (B) 纖維瘤是纖維結締組織增生形成的平滑圓頂狀結節，顏色與周圍黏膜相同，表面不會呈乳突狀。\n❌ (C) 神經纖維瘤由 Schwann 細胞與纖維母細胞組成，位於黏膜下，表面黏膜外觀正常。\n❌ (D) 顆粒細胞瘤雖好發於舌背，但是黏膜下腫塊，鏡下為胞質充滿嗜酸性顆粒的大細胞並常見偽上皮瘤樣增生，不是乳突狀構造。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Squamous papilloma；Soft tissue tumors）。"
   },
   {
    "n": 13,
@@ -430,7 +432,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent2'] = {
     "Epp",
     "Ecorr"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) Ecorr 是腐蝕電位（混合電位），即陽極溶解與陰極還原速率相等、淨電流為零的平衡點。外加電壓一旦高於 Ecorr，陽極反應大於陰極反應，淨電流轉為陽極電流，金屬就開始溶出而發生腐蝕。\n❌ (A) 0 伏特只是量測所用參考電極的刻度原點，與該合金何時開始溶解無關。\n❌ (B) Eb 是破鈍化電位（breakdown potential），指已生成的鈍化膜被破壞、電流突然暴增的電位，此時腐蝕早就開始，只是轉為劇烈。\n❌ (C) Epp 是鈍化起始電位，代表表面開始形成保護膜、腐蝕電流反而下降的位置，是腐蝕受抑制而非開始。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Corrosion：potentiodynamic polarization curve 與 Ecorr／Epp／Eb 的定義）。"
   },
   {
    "n": 31,

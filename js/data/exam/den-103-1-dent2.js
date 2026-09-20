@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent2'] = {
     "甲狀腺舌管囊腫（thyroglossal duct cyst）",
     "腮裂囊腫（branchial cleft cyst）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 第二腮裂囊腫的典型表現就是年輕成人在頸部側面、胸鎖乳突肌前緣出現柔軟且有波動感的無痛腫塊；鏡下為複層鱗狀上皮襯裡，囊壁內含大量淋巴組織與生發中心，故又稱頸部淋巴上皮囊腫。\n❌ (A) 腺腫（結核性頸淋巴腺炎）是堅實、多發且互相沾黏的淋巴結，可破潰形成竇道，鏡下為含乾酪樣壞死的肉芽腫。\n❌ (B) 貓抓病有貓抓咬病史，表現為壓痛的區域淋巴結腫大合併發燒，鏡下是星狀化膿性肉芽腫。\n❌ (C) 甲狀腺舌管囊腫位於頸部正中線、隨吞嚥或伸舌而上下移動，不會出現在單側頸部。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Branchial cleft cyst／cervical lymphoepithelial cyst 與頸部腫塊的鑑別診斷）。"
   },
   {
    "n": 3,

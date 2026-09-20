@@ -138,7 +138,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent1'] = {
     "3處突出之尖銳骨棘稱為頦棘（mental spine）",
     "3處突出之尖銳骨棘又稱為頦結節（genial tubercle）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 下顎舌骨線是分界線：線的上方、偏前的凹陷是容納舌下腺的舌下窩，線的下方後段才是容納顎下腺的顎下窩。標示1位於舌骨線上方，應稱舌下窩，故此敘述錯誤。\n❌ (B) 下顎舌骨線是下顎骨內面由後上斜向前下的骨脊，供下顎舌骨肌附著，敘述正確。\n❌ (C) 下顎骨內面正中近下緣突出的尖銳骨棘即頦棘，是頦舌肌與頦舌骨肌的附著點，敘述正確。\n❌ (D) 頦棘的另一個通用名稱就是頦結節（genial tubercle），是同一構造的兩種稱呼，敘述正確。\n📚 出處：Fehrenbach & Herring, Illustrated Anatomy of the Head and Neck（Mandible 內面：mylohyoid line、sublingual fossa、submandibular fossa、genial tubercles）。"
   },
   {
    "n": 10,
@@ -151,7 +152,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent1'] = {
     "標示3處為後鼻囟（posterior fontanel），其前上部為鼻腔與上顎竇間之通道",
     "標示4處為上顎骨（maxilla）之水平板（horizontal plate）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 硬腭前三分之二由上顎骨的「腭突（palatine process）」構成，後三分之一才是腭骨的「水平板（horizontal plate）」；「上顎骨的水平板」並不存在，是把兩塊骨頭的名稱混用，故此敘述錯誤。\n❌ (A) 前鼻囟是鼻腔外側壁上鉤突前下方缺乏骨質、僅由黏膜與結締組織封閉的膜性區域，名稱與位置正確。\n❌ (B) 門齒管位於硬腭前端正中，內走鼻腭神經與蝶腭動脈終支，是鼻腔與口腔相通的管道，敘述正確。\n❌ (C) 後鼻囟位於鉤突後下方，其上方常見副開口（accessory ostium）與上顎竇相通，敘述正確。\n📚 出處：Standring, Gray's Anatomy（Lateral wall of nasal cavity：anterior／posterior nasal fontanelle；Hard palate：palatine process of maxilla 與 horizontal plate of palatine bone）。"
   },
   {
    "n": 11,
