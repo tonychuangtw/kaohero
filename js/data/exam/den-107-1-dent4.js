@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "化膿性肉芽腫（pyogenic granuloma）",
     "含牙性囊腫（odontogenic cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 部分萌發的下顎第三大臼齒被覆蓋的牙齦瓣（operculum）下方易堆積食物殘渣與細菌，形成急性局部感染，典型表現正是數天內出現的智齒區紅腫熱痛，常伴隨開口困難與對咬牙壓痛，即牙冠周圍炎。\n❌ (B) 鱗狀細胞癌病程以週、月計，表現為邊緣硬化的潰瘍或外生性腫塊，不會三天內急性腫痛。\n❌ (C) 化膿性肉芽腫為柔軟、鮮紅、極易出血的肉芽組織增生，主訴多為出血而非急性疼痛，且與牙冠萌發狀態無關。\n❌ (D) 含牙性囊腫沿未萌牙冠 CEJ 形成、生長緩慢且無症狀，除非續發感染，否則不會以三天腫痛表現。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Pericoronitis）。"
   },
   {
    "n": 15,
@@ -221,7 +222,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "骨髓炎（osteomyelitis）",
     "骨肉瘤（osteosarcoma）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 拔牙傷口為細菌進入骨髓腔的門戶，高齡者骨質血流差更易演變成骨髓炎；臨床以持續疼痛、膿流、感覺異常為主，環口片可見界線不清的瀰漫性透射區夾雜腐骨（sequestrum）與骨膜反應，與本例拔牙後即開始疼痛的病史相符。\n❌ (A) 骨瘤是無症狀、邊界清楚的緻密不透射腫塊，多偶然發現，不會造成疼痛。\n❌ (B) 牙骨質化纖維瘤為界限清楚、周圍常見透射帶的良性纖維骨病變，生長緩慢且無痛。\n❌ (D) 骨肉瘤在顎骨罕見，好發年齡較輕，影像特徵為日光放射狀骨針、牙周膜腔對稱性增寬與快速膨大腫塊，與拔牙病史無因果關係。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Osteomyelitis）；White & Pharoah, Oral Radiology（Inflammatory lesions of the jaws）。"
   },
   {
    "n": 16,
@@ -872,7 +874,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "X光片先接觸到清水",
     "X光片先接觸到定影液"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 白圈、白點代表該處銀鹽未被顯影。沖洗前濺到清水的部位乳劑會先吸水膨潤，顯影液作用反而更快，形成的是「黑點」而非白點，所以清水污染不是造成顯影不足的原因。\n❌ (A) 顯影液中的氣泡附著在片面，會隔絕顯影液接觸該處，留下圓形白點，是典型原因。\n❌ (B) 灰塵或異物黏在片子上同樣阻擋顯影液，形成白色斑點或白圈。\n❌ (D) 底片先碰到定影液，該處未顯影的鹵化銀會直接被溶掉，之後再顯影也顯不出影像，留下清楚的白點。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Film processing errors and artifacts）。"
   },
   {
    "n": 63,
@@ -1104,7 +1107,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "橋體下方骨增生（subpontic osseous hyperplasia）",
     "下顎隆突（torus mandibularis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 橋體下方骨增生是固定牙橋（尤其下顎後牙區）橋體下方的牙脊，長期受咬合力或慢性刺激後產生的良性緻密骨增生，影像上為與牙脊皮質骨相連、朝橋體方向突起的不透射團塊，無痛且邊界規則，與本例追蹤假牙區的情境完全吻合。\n❌ (A) 牙瘤是含琺瑯質、牙本質的齒源性錯構瘤，呈混合密度並常見小牙樣結構與周圍透射帶，多在未萌牙上方而非橋體下。\n❌ (B) 骨肉瘤會有骨質破壞、日光放射狀骨針與快速膨大，並常伴疼痛與感覺異常，不會在假牙追蹤中無症狀出現。\n❌ (D) 下顎隆突長在前磨牙區的舌側骨板上，位置與外形固定，不會出現在橋體正下方的牙脊頂。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Subpontic osseous hyperplasia）。"
   },
   {
    "n": 80,

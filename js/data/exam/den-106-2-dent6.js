@@ -235,7 +235,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent6'] = {
     "impaction tooth",
     "fusion tooth"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 出現在兩顆上顎中門齒（#11、#21）之間、使牙數超過正常的牙齒，就是正中多生牙（mesiodens），屬多生齒最常見的型態，好發於混合齒列期男童，常造成中門齒間隙、中門齒萌發遲滯或偏位。\n❌ (B) 牙齒異位（transposition）是兩顆恆牙互換位置（如犬齒與第一小臼齒），牙數仍正常，不會在中線多出一顆牙。\n❌ (C) 阻生齒埋在骨內未萌出，口內正面照片上看不到牙冠出現在齒列之間。\n❌ (D) 融合牙是兩個牙胚結合成一顆異常寬大的牙，結果是牙數減少而非增加。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Supernumerary teeth：mesiodens）；McDonald, Dentistry for the Child and Adolescent。"
   },
   {
    "n": 17,

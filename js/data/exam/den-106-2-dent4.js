@@ -911,7 +911,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "Mental foramen",
     "Apical scar"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 頦孔位於下顎體頰側，開口高度多在第二小臼齒根尖附近，根尖片上呈現界線清楚的圓形或橢圓形透射影，投照角度不同會與根尖重疊，常被誤判為根尖病灶；判別要點是該牙牙髓活性正常、牙周膜腔與硬骨板完整連續。\n❌ (A) 根尖囊腫來自壞死牙髓，透射影與牙周膜腔相連且根尖 lamina dura 消失，本例構造與牙根之間硬骨板仍完整。\n❌ (B) 舌側孔位於下顎前牙區正中舌側，影像上是中線的小圓形透射影，常被頦棘的同心圓環繞，位置不在小臼齒區。\n❌ (D) 根尖疤痕僅見於根管治療或根尖手術後、病灶癒合而以纖維組織取代者，須有相應治療病史。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Normal radiographic anatomy：mental foramen）。"
   },
   {
    "n": 65,
@@ -980,7 +981,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "Gorlin syndrome",
     "Dentigerous cyst"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 腺瘤樣齒源性腫瘤有著名的「三分之二法則」：約三分之二發生於二十歲以下、女性、上顎前牙區，且多與阻生犬齒有關。本例 15 歲女孩右上顎牙齦腫大，影像上為界線清楚的囊狀病灶，包繞阻生牙且常延伸超過 CEJ 至根尖以下，內含雪花狀細小鈣化點，正是典型表現，屬包膜完整、摘除後幾乎不復發的良性腫瘤。\n❌ (A) 造釉細胞瘤好發 30～50 歲的下顎後牙與下顎枝，多為多房肥皂泡狀且會膨脹破壞皮質骨、造成牙根吸收。\n❌ (C) Gorlin 症候群為多發性齒源性角化囊腫合併基底細胞癌、掌蹠凹陷、肋骨與大腦鐮鈣化等全身表現，不會只是單一病灶。\n❌ (D) 含牙性囊腫附著在阻生牙冠的 CEJ 處、不會包到根尖以下，內部也不含鈣化點。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Adenomatoid odontogenic tumor）。"
   },
   {
    "n": 70,

@@ -866,7 +866,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent3'] = {
     "僅②③",
     "僅①③"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 三項敘述都正確。①二壁或三壁的角性（垂直）骨缺損剩餘骨壁多、血流與前驅細胞來源充足，是引導組織再生、骨移植或釉基質蛋白的良好適應症；②術前缺損愈深，術後臨床附連獲得與骨填補的絕對量愈大；③以影像上的缺損角度看，角度愈窄（約 ≤25°）再生量愈多，愈寬（約 ≥37°）愈少，故角 A 小於 25° 的 34 會比角 B 大於 37° 的 35 得到較多附連。\n❌ (A) 漏掉③，但缺損角度與再生結果的關係已有臨床研究支持。\n❌ (C) 漏掉①，二壁／三壁缺損正是再生手術最典型的適應症。\n❌ (D) 漏掉②，缺損深度與附連獲得量呈正相關並非例外。\n📚 出處：Tsitoura et al., Baseline radiographic defect angle as a prognostic indicator（J Clin Periodontol 2004）；Cortellini & Tonetti, Periodontal regeneration of intrabony defects（Periodontology 2000）。"
   },
   {
    "n": 62,

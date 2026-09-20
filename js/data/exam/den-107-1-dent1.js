@@ -837,7 +837,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent1'] = {
     "緊密接合（tight junction）",
     "隙狀交界面（gap junction）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 口腔複層鱗狀上皮的棘細胞層在光學顯微鏡下，相鄰細胞之間可見短而細的絲狀連結，稱為細胞間橋；它其實是固定脫水後細胞收縮、僅留下胞橋小體（desmosome）相連處所形成的外觀，是棘細胞層的識別特徵。\n❌ (A) 半胞橋小體位於基底細胞與基底膜之間，用來把上皮固定在結締組織上，不在細胞與細胞之間，且需電子顯微鏡才看得到。\n❌ (C) 緊密接合封閉細胞間隙、阻擋物質通透，屬電子顯微鏡層級構造，光鏡下無法呈現為細絲。\n❌ (D) 隙狀交界面是讓離子與小分子通行的通道蛋白構造，同樣只能在電鏡下辨識。\n📚 出處：Nanci, Ten Cate's Oral Histology（Oral mucosa：stratum spinosum, intercellular bridges）。"
   },
   {
    "n": 60,
@@ -850,7 +851,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent1'] = {
     "方艾勃納氏腺（von Ebner's glands）",
     "瑞非尼腺（Rivinus glands）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 舌後方輪廓乳頭的環溝底下方就是方艾勃納氏腺，屬純漿液腺，導管開口於環溝內，分泌稀薄漿液沖洗溝內殘留物並溶解味質，讓味蕾能持續接受新的刺激，同時含脂酶協助脂肪消化。\n❌ (A) 小黏液腺主要分布於唇、頰、軟腭與舌根黏膜下，不是輪廓乳頭下方的固定構造。\n❌ (B) 布蘭丁與農氏腺位於舌尖腹側，為混合腺（黏液為主），位置與輪廓乳頭相反。\n❌ (D) 瑞非尼腺指舌下腺的小導管群開口於口底，與舌背輪廓乳頭無關。\n📚 出處：Nanci, Ten Cate's Oral Histology（Tongue：circumvallate papillae 與 von Ebner's glands）。"
   },
   {
    "n": 61,

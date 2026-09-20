@@ -893,7 +893,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent5'] = {
     "增加根柱強度",
     "增加根柱彈性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圓柱形或圓錐形的根柱放進同樣圓形的根管內，垂直與側向都能固位，唯獨旋轉方向缺乏機械止擋；因此在牙根面（root face）磨出平坦面、溝槽或抗旋轉凹槽（anti-rotation keyway/notch），讓核心材料卡進去，咀嚼時的扭力才不會使柱核整組轉動而鬆脫。\n❌ (A) 抵抗下沉靠的是根柱長度、與根管壁的密合度、黏著劑，以及根面本身作為垂直止擋，不需要另外修形設計。\n❌ (C) 根柱強度由材質（鑄造金屬、纖維柱）與直徑決定，修磨牙根面不會讓柱體變強，過度磨除反而削弱剩餘齒質。\n❌ (D) 彈性模數是材料固有性質，纖維柱較接近牙本質、金屬柱較硬，同樣與牙根面修形無關。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics（Restoration of the endodontically treated tooth：anti-rotation features）。"
   },
   {
    "n": 64,
@@ -906,7 +907,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent5'] = {
     "Class III",
     "Class IV"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) ACP 的 PDI 以缺牙區位置與範圍、支台齒條件、咬合、殘嵴四項判定。本例下顎前牙變短變小又冷熱敏感，是嚴重磨耗導致齒質喪失、牙本質暴露且垂直咬合高度（OVD）已流失，重建時必須重新建立整個咬合關係「並且改變 OVD」，依 PDI 屬最嚴重的 Class IV。\n❌ (A) Class I 為缺牙侷限單一牙弓、支台齒與咬合正常，不需重建咬合關係。\n❌ (B) Class II 缺牙可跨兩弓但支台齒與咬合僅需局部處理，不必重建整個咬合面。\n❌ (C) Class III 雖須重建整個咬合面，但不改變垂直咬合高度，本例牙冠已明顯變短，需回復 OVD 才能重建。\n📚 出處：McGarry et al., Classification System for Partial Edentulism（J Prosthodont 2002）；ACP Prosthodontic Diagnostic Index。"
   },
   {
    "n": 65,
