@@ -49994,7 +49994,7 @@ window.APP_EXAMS = [
   "subjName": "教育法規大意",
   "label": "108 年　初等考試　教育法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50008,7 +50008,7 @@ window.APP_EXAMS = [
   "subjName": "教育學大意",
   "label": "108 年　初等考試　教育學大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50092,7 +50092,7 @@ window.APP_EXAMS = [
   "subjName": "資料處理大意",
   "label": "108 年　初等考試　資料處理大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50106,7 +50106,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "108 年　初等考試　會計審計法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50148,7 +50148,7 @@ window.APP_EXAMS = [
   "subjName": "土地法大意",
   "label": "108 年　初等考試　土地法大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50260,7 +50260,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "108 年　初等考試　基本電學大意",
   "n": 40,
-  "exp": 13,
+  "exp": 14,
   "mins": 60
  },
  {
