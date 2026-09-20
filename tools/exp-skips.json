@@ -4043,6 +4043,28 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-108-1-a002": [
+  {
+   "n": 36,
+   "reason": "圖上只有四個選項（acclaim/accustom/caution/conceal），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 37,
+   "reason": "圖上只有四個選項（merit/default/flaw/intake），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 38,
+   "reason": "圖上只有四個選項（overt/ruthless/shrewd/unbearable），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 39,
+   "reason": "圖上只有四個近義選項（margin/edge/corner/angle），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-108-1-a007": [
   {
    "n": 20,
@@ -4113,6 +4135,16 @@
   {
    "n": 42,
    "reason": "圖上只有四個選項（various wounds／fatal mistakes／hopeful cases／various afflictions），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "圖上只有四個選項（rush hours/career periods/incubation periods/peak seasons），題幹句子未隨轉檔保留，無法判斷填空理由",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "圖上只有四個選項與第45～47題的另一篇文章，本題題幹句子缺漏，無法作答",
    "at": "2026-09-20"
   }
  ],
