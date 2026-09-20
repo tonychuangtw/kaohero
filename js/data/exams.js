@@ -47180,7 +47180,7 @@ window.APP_EXAMS = [
   "subjName": "財政學大意",
   "label": "102 年　五等　財政學大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -47348,7 +47348,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "102 年　五等　基本電學大意",
   "n": 40,
-  "exp": 25,
+  "exp": 26,
   "mins": 60
  },
  {
@@ -47362,7 +47362,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "102 年　五等　電子學大意",
   "n": 40,
-  "exp": 26,
+  "exp": 29,
   "mins": 60
  },
  {

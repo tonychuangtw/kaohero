@@ -380,7 +380,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "選用寬長比（W/L）較大之電晶體",
     "增加 Vb VoM1Vi+Vb-"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 單一增益頻寬 GBW＝低頻增益×頻寬＝(gm·R)×1/(2πRC)＝gm/(2πC)，R 在相乘後被消掉，與 GBW 無關；降低 R 只會壓低增益、不會提升單一增益頻寬。\n❌ (A) GBW 與負載電容成反比，降低 C 可直接提高 GBW。\n❌ (C) 加大寬長比使 gm＝√(2μnCox(W/L)ID) 變大，GBW 隨 gm 上升。\n❌ (D) 提高 Vb 使 VGS 與 ID 增加，gm 變大，GBW 同樣上升。\n📚 出處：Sedra & Smith《Microelectronic Circuits》單級 MOS 放大器頻率響應；增益頻寬積 GBW＝gm/(2πCL)。"
   },
   {
    "n": 28,
@@ -462,7 +463,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "6.12 GHz Vo",
     "8.12 GHz 200ΩVinG"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) gm＝2ID/(VGS−VTH)＝2×1mA/0.2V＝10 mA/V，|Av|＝gm×1kΩ＝10。米勒趨近下輸出節點電容＝CDB＋CGD(1＋1/|Av|)＝15＋10×1.1＝26 fF，故 f＝1/(2π×1kΩ×26fF)≒6.12 GHz。\n❌ (A) 對應電容 75 fF，等於把 CGS＋CGD＋CDB 全算在輸出端，誤把只屬於輸入端的 CGS 計入。\n❌ (B) 對應電容約 38.6 fF，把不屬於輸出節點的米勒電容一併加上，電容高估。\n❌ (D) 對應電容約 19.6 fF，漏掉 CGD 折算到輸出端的米勒分量，低估總電容。\n📚 出處：Razavi《Fundamentals of Microelectronics》米勒趨近法與共源級高頻極點（輸出極點 fp＝1/2πRD(CDB＋CGD(1＋1/|Av|))）。"
   },
   {
    "n": 34,
@@ -489,7 +491,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "1/ CE/reRsig CC1 VO",
     "1/ CE．(re+(RB||Rsig)/(β+1))CE RLVsig + RB-I-VEE"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 射極旁路電容 CE 看到的等效電阻，是射極本身的 re 加上基極側電阻折算到射極的 (RB||Rsig)/(β+1)，故其極點頻率為 1/[CE·(re＋(RB||Rsig)/(β+1))]。\n❌ (A) rπ 是看進基極的電阻，未除以 (β+1) 折算到射極，也漏掉訊號源與偏壓電阻。\n❌ (B) 同樣誤用 rπ（應為 re＝rπ/(β+1)），電阻高估約 β+1 倍，極點頻率算得過低。\n❌ (C) 只算 re，忽略由基極折算過來的 (RB||Rsig)/(β+1)。\n📚 出處：Sedra & Smith《Microelectronic Circuits》共射級放大器低頻響應；射極旁路電容極點 fP＝1/[2πCE(re＋(RB||Rsig)/(β+1))]。"
   },
   {
    "n": 36,
