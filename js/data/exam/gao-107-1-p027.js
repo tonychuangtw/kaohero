@@ -222,7 +222,8 @@ window.APP_EXAM_PAPERS['gao-107-1-p027'] = {
     "sum = ab + a’b’",
     "sum = ab + a’b’carry = ab carry = a’b’ carry = ab carry = a’b’"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 半加法器的和是兩輸入的互斥或：sum＝a⊕b＝ab′＋a′b（僅其中一個為 1 時和才為 1）；進位只在兩輸入同時為 1 時產生，故 carry＝ab。\n❌ (B) 和的式子正確，但 carry＝a′b′ 代表兩輸入皆為 0 時產生進位，與 0＋0＝0（無進位）矛盾。\n❌ (C) carry＝ab 正確，但 sum＝ab＋a′b′ 是同或（XNOR），在 a＝b＝1 時會得出和為 1，正確應是和 0、進位 1。\n❌ (D) 兩式皆誤：和取 XNOR、進位取 a′b′，真值表與 1＋1＝10、0＋0＝00 完全相反。\n📚 出處：數位邏輯設計——半加法器真值表與布林式（sum＝a⊕b、carry＝a·b）。"
   },
   {
    "n": 16,

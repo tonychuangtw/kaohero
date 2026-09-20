@@ -32298,7 +32298,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "108 年　高考三級　會計學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -32550,7 +32550,7 @@ window.APP_EXAMS = [
   "subjName": "國籍與戶政法規概要",
   "label": "108 年　普通考試　國籍與戶政法規概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33418,7 +33418,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（資訊處理組）",
   "label": "107 年　普通考試　計算機概要（資訊處理組）",
   "n": 40,
-  "exp": 39,
+  "exp": 40,
   "mins": 60
  },
  {
