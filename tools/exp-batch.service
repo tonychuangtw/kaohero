@@ -1,0 +1,15 @@
+# 補舊科目詳解：跨卷湊批 worker（kaohero）。跟 exp-worker.service 不能同時跑（兩邊都改題庫、都 push）。
+# 安裝：cp tools/exp-batch.service ~/.config/systemd/user/ && systemctl --user daemon-reload
+# 啟動：systemctl --user start exp-batch
+# 停：touch ~/.claude/exp-batch.stop（做完手上這批）或 systemctl --user stop exp-batch
+# 紀錄：~/.claude/exp-batch.log
+[Unit]
+Description=kaohero exp batch worker (cross-paper batches for leftover questions)
+After=network-online.target
+
+[Service]
+Type=simple
+Environment=EXP_MATCH=^(loc|gao|den|pha|chu|tcm|tea|nur)-
+Environment=EXP_MODEL=claude-opus-5
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-batch.sh
+Restart=no
