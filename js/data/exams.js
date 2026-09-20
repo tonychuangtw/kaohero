@@ -39508,7 +39508,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "110 年　三等　會計學",
   "n": 25,
-  "exp": 17,
+  "exp": 22,
   "mins": 75
  },
  {
@@ -39746,7 +39746,7 @@ window.APP_EXAMS = [
   "subjName": "社會政策與社會立法概要",
   "label": "110 年　四等　社會政策與社會立法概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
