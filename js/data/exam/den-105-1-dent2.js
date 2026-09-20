@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent2'] = {
     "Cervical constriction",
     "Oblitered pulp canals and chambers"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 齒槽脊吸收是牙周炎的影像表現，與牙本質發育不全無關；本症缺陷只在牙本質，牙周支持組織正常，X 光上不會看到齒槽脊破壞。\n❌ (B) 球根狀牙冠是典型徵象，因牙頸部收縮使牙冠外形相對顯得膨大。\n❌ (C) 牙頸部明顯收縮並伴短而細的牙根，是本症的經典影像特徵。\n❌ (D) 髓腔與根管在萌發前後被異常牙本質持續填塞而閉鎖，是診斷要點之一。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Abnormalities of teeth: dentinogenesis imperfecta）。"
   },
   {
    "n": 2,
@@ -53,7 +54,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent2'] = {
     "Herpetic whitlow",
     "Chronic candidiasis"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 疱疹性指頭炎是單純疱疹病毒經破損皮膚接種手指所致，未戴手套接觸孩童原發性疱疹病灶正是典型途徑；病毒接著潛伏於支配該皮節的感覺神經節，勞累或免疫力下降時沿神經再活化，於同一部位復發成群水疱。\n❌ (A) 膿痂疹由金黃色葡萄球菌或鏈球菌引起，病灶為蜜黃色結痂，不會在固定部位反覆再發。\n❌ (B) 過敏性皮膚炎以搔癢紅疹為主，復發取決於再次接觸過敏原，而非免疫力低落。\n❌ (D) 慢性念珠菌感染在手指表現為甲溝炎與指甲變形，呈持續性病程而非成群水疱。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Viral infections: herpes simplex, herpetic whitlow）。"
   },
   {
    "n": 4,
@@ -66,7 +68,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent2'] = {
     "組織漿菌病（histoplasmosis）",
     "放線菌病（actinomycosis）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 拔牙後數週出現顎骨疼痛與瘻管、排出含硫磺顆粒的黃色膿液，切片見肉芽組織與膿瘍中央有菌體團塊被嗜中性白血球呈放射狀包圍，正是放線菌病的典型表現（Splendore-Hoeppli 現象）。\n❌ (A) 梅毒樹膠腫是第三期梅毒的壞死性肉芽腫，中央為凝固性壞死並伴漿細胞浸潤與閉塞性血管炎，不見菌落團。\n❌ (B) 紅斑性狼瘡為自體免疫疾病，口腔病灶是帶放射狀白紋的潰瘍性斑塊，組織學為界面炎與血管周圍淋巴球浸潤。\n❌ (C) 組織漿菌病屬深部黴菌感染，肉芽腫內為巨噬細胞胞內的小型酵母體，需 GMS／PAS 染色才看得清，不形成大型菌落。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Bacterial infections: actinomycosis, sulfur granules）。"
   },
   {
    "n": 5,
@@ -79,7 +82,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent2'] = {
     "原發性疱疹口齦炎（primary herpetic gingivostomatitis）",
     "多形性紅斑（erythema multiforme）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 兒童初次感染單純疱疹病毒即表現為發燒、寒顫、厭食與頸淋巴結腫大等全身症狀，合併全口牙齦急性紅腫，唇與舌背出現成簇小水疱破裂後融合成較大潰瘍，即原發性疱疹性齦口炎。\n❌ (A) 扁平苔癬多見於中年人，以雙側頰黏膜對稱的 Wickham 白色細紋為主，不伴發燒等全身症狀。\n❌ (B) 黏膜類天疱瘡好發於中老年女性，呈慢性剝脫性牙齦炎與 Nikolsky 徵象陽性的水疱，病程緩慢。\n❌ (D) 多形性紅斑以唇部大片血痂與皮膚靶形病灶為特徵，牙齦通常不受侵犯。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Primary herpetic gingivostomatitis）。"
   },
   {
    "n": 6,

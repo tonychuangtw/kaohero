@@ -779,7 +779,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent3'] = {
     "它是神經叢（nerve bundles）",
     "它是血管叢（blood vessels）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) TRAP（抗酒石酸酸性磷酸酶）是破骨細胞的專一標記酵素，染色陽性的大型多核細胞貼附在骨表面的吸收凹窩（Howship's lacuna）內，即正在進行骨吸收的破骨細胞。\n❌ (A) 造骨細胞是沿骨面排成一列的立方形單核細胞，標記為鹼性磷酸酶與 osteocalcin，不表現 TRAP。\n❌ (C) 神經叢位於牙周韌帶結締組織中，無 TRAP 活性，不會被染出紫紅色多核細胞。\n❌ (D) 血管叢由內皮細胞圍成管腔、腔內常見紅血球，同樣不表現 TRAP。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Bone: osteoclast 與 TRAP 組織化學標記）。"
   },
   {
    "n": 56,

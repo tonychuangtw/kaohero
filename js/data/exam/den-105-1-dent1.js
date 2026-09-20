@@ -207,7 +207,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "標示3 處是舌神經（lingual nerve）分枝",
     "標示4 處是唾液腺管，又稱Stensen's duct"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 此處是舌下區的頷下腺導管（Wharton's duct），開口於舌繫帶兩側的舌下肉阜；Stensen's duct 是腮腺導管，開口在上顎第二大臼齒對側的頰黏膜，兩者位置完全不同，故本敘述錯誤。\n❌ (A) 舌尖腹側確有舌前腺（Blandin-Nuhn gland，又稱 Nuhn's gland），為混合性小唾液腺，敘述正確。\n❌ (B) 深舌動、靜脈行走於舌腹黏膜下，隔著薄黏膜即可透見其分枝，敘述正確。\n❌ (C) 舌神經在舌下區由後向前繞過頷下腺導管下方再進入舌體，其分枝出現於此區，敘述正確。\n📚 出處：Norton, Netter's Head and Neck Anatomy for Dentistry, 3rd ed.（Floor of the mouth: submandibular duct, lingual nerve, Blandin-Nuhn gland）。"
   },
   {
    "n": 15,
@@ -669,7 +670,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "齒濾泡（dental follicle）",
     "牙髓（dental pulp）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 牙釉結是帽狀期內釉上皮中央一團停止分裂的細胞，分泌 BMP、FGF、SHH 等訊號分子以決定牙冠外形與牙尖位置，並於鐘形期早期凋亡消失，是這兩個時期圖中被特別標示的訊號中心。\n❌ (A) 牙乳頭是被釉器凹面包覆的外胚間葉團塊，範圍是一整片組織而非局部的上皮細胞結節。\n❌ (C) 齒濾泡是包在整個牙胚外圍的外胚間葉囊，日後形成牙骨質、牙周韌帶與固有齒槽骨，位置在最外層。\n❌ (D) 牙髓要到牙根形成期才由牙乳頭分化而成，帽狀期尚無此名稱的構造。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Tooth development: enamel knot as a signaling center）。"
   },
   {
    "n": 48,
@@ -766,7 +768,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "①④",
     "②④"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 牙髓周邊由牙本質側往髓腔中心依序為造牙本質細胞層、無細胞區、細胞豐富區。K 緊貼前牙本質、排成柵狀，即造牙本質細胞層（①）；其內側緊鄰的淡染無細胞帶 L 即魏爾氏區（cell-free zone of Weil，③），故①③正確。\n❌ (B) ②把 K 說成細胞豐富區，位置錯誤；細胞豐富區在魏爾氏區更內側。\n❌ (C) ④的「反射區」不是牙髓分層的正式名稱，L 應稱魏爾氏區。\n❌ (D) ②與④兩項敘述皆誤，層次順序與名稱都不對。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Dentin-pulp complex: odontoblast layer, cell-free zone of Weil, cell-rich zone）。"
   },
   {
    "n": 55,
@@ -933,7 +936,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "纖維軟骨（fibrocartilage）、增殖區（proliferative zone）、緻密纖維組織（dense fibroustissue）",
     "緻密纖維組織（dense fibrous tissue）、增殖區（proliferative zone）、纖維軟骨（fibrocartilage）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 顳骨關節隆突的關節面由表層往深層依序為緻密纖維組織（承壓的關節表層）、增殖區（含未分化間葉細胞，負責生長與修復）、纖維軟骨層，再深部才是鈣化軟骨與骨，恰為①②③的順序。\n❌ (A) 最表層不是纖維軟骨；顳顎關節的關節面覆蓋緻密纖維組織，與一般滑液關節的透明軟骨不同。\n❌ (B) 首層判斷正確，但第二層應是增殖區，纖維軟骨位於增殖區深部。\n❌ (C) 最表層錯置為纖維軟骨，且增殖區應緊接在緻密纖維組織之下，順序全錯。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Temporomandibular joint: articular, proliferative, fibrocartilaginous, calcified cartilage zones）。"
   },
   {
    "n": 67,

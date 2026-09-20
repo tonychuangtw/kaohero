@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent6'] = {
     "2000 gm-mm",
     "2500 gm-mm"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 力通過抗力中心才會產生純平移；改在托架施力，相當於把力平移到抗力中心並附帶一個傾斜力矩，必須加上大小相等、方向相反的力偶抵銷。依圖示托架到抗力中心的力臂 10 mm 計算：200 gm × 10 mm＝2000 gm-mm。\n❌ (A) 1000 gm-mm 只相當於 5 mm 力臂，力矩不足，牙齒仍會傾斜（tipping）。\n❌ (B) 1500 gm-mm 同樣小於所需力矩，無法完全抵銷冠部傾斜的趨勢。\n❌ (D) 2500 gm-mm 超過所需力矩，會轉為牙根移動（torque）而非整體平移。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Mechanical principles: moment-to-force ratio 與牙齒移動型態）。"
   },
   {
    "n": 14,

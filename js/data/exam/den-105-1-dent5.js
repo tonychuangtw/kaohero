@@ -630,7 +630,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent5'] = {
     "緩壓（relief）",
     "任意式堵凹（arbitrary blockout）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 支柱牙上放置鑄造環周牙鉤處，牙鉤臂尖要進入倒凹、其餘臂身貼著牙面，因此堵凹必須依牙鉤的外形把倒凹填成與牙鉤下緣一致的斜面，屬成型式堵凹。\n❌ (B) 平行式堵凹是把倒凹填成與就位道平行的垂直面，用於導平面、鄰接面與小連接體通過之處。\n❌ (C) 緩壓是在組織面或骨突處預留空隙以免壓迫黏膜，不是處理支柱牙倒凹的手法。\n❌ (D) 任意式堵凹用於與支架無關、模型上不需精確外形的區域，牙鉤所在部位不能任意填。\n📚 出處：Carr & Brown, McCracken's Removable Partial Prosthodontics, 12th ed.（Surveying and blockout: shaped / parallel / arbitrary blockout and relief）。"
   },
   {
    "n": 45,

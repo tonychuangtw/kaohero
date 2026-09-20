@@ -207,7 +207,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Infratemporal space",
     "Lateral pharyngeal space"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 顳下間隙位於下顎枝內側、上顎結節後方的較上位區域，主要由上顎第三大臼齒感染或上齒槽後神經阻斷污染而來；由下顎後牙造成的頷下區腫脹若要上行至此，須先繞經翼下顎與翼顎區，路徑最遠，因此相對最不易被波及。\n❌ (A) 頷下間隙正是下顎臼齒根尖低於下頷舌骨肌附著時膿液直接穿出的部位，本例腫脹即在此區。\n❌ (B) 翼下顎間隙位於下顎枝內側與內翼肌之間，與頷下間隙直接相通，是常見的延伸途徑。\n❌ (D) 咽側間隙緊鄰翼下顎與頷下間隙，感染極易蔓延，且可再向下危及縱隔腔。\n📚 出處：Hupp, Ellis & Tucker, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Odontogenic infections: fascial spaces of the head and neck）。"
   },
   {
    "n": 15,
@@ -961,7 +962,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Crouzon syndrome",
     "Osteogenesis imperfecta"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 鎖骨顱骨發育不全（cleidocranial dysostosis／dysplasia）源於 RUNX2 基因缺陷，口腔典型表現就是上下顎多顆贅生牙、乳牙滯留與恆牙萌發遲滯或埋伏；全身可見鎖骨缺損（雙肩可於胸前靠攏）、顱縫閉合延遲與額頂隆起。\n❌ (A) Treacher Collins 症候群屬第一、二鰓弓發育異常，表現為顴骨發育不良、下顎後縮、眼瞼外下斜與外耳畸形，不以贅生牙為特徵。\n❌ (C) Crouzon 症候群為顱縫早閉合併上顎發育不足與眼球突出，牙齒問題是擁擠與錯咬，而非多生牙。\n❌ (D) 成骨不全症以骨脆易折、藍色鞏膜為主，牙齒表現是併發的牙本質發育不全。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Developmental defects: cleidocranial dysplasia）。"
   },
   {
    "n": 69,

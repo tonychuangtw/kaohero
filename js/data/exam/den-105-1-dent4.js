@@ -782,7 +782,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "唾液結石堵塞於Wharton’s duct",
     "此問題是由舌下腺引起的"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 下顎咬合片拍攝的範圍正是口底，而 Wharton's duct（頷下腺導管）管徑細、走向逆重力向前上，分泌液黏稠富含黏液素，是唾液腺結石最好發處（約八至九成），影像上呈口底的放射不透射鈣化影。\n❌ (A) 口底腫瘤在咬合片上不會出現界線清楚的結石鈣化影，臨床多為實質腫塊而非導管阻塞症狀。\n❌ (B) Stensen's duct 是腮腺導管，開口於上顎第二大臼齒對側頰黏膜，其結石不可能出現在下顎咬合片的口底位置。\n❌ (D) 舌下腺導管短且開口分散，結石罕見，其典型病變是黏液囊腫（ranula）而非結石阻塞。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 7th ed.（Salivary gland disease: submandibular sialolithiasis）。"
   },
   {
    "n": 56,
@@ -961,7 +962,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "Paget's disease",
     "von Recklinghausen disease of skin"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 咖啡牛奶斑加上顎骨無痛性緩慢膨大（多骨性纖維性發育不良），正是 McCune-Albright 症候群的組合；本症由 GNAS 基因合子後突變造成，女童常再伴性早熟等內分泌異常，年齡與三年病程也相符。\n❌ (A) 旺盛型骨性發育不良好發於中年女性，病灶分布於多象限的牙根尖區，呈混合密度且不伴皮膚色素斑。\n❌ (C) 佩吉特氏骨病是 40 歲以後的疾病，顎骨呈雙側對稱增大與棉絮狀影像，血中鹼性磷酸酶大幅升高。\n❌ (D) 神經纖維瘤病第一型雖也有咖啡牛奶斑，但主要表現為多發性神經纖維瘤與虹膜 Lisch 結節，而非骨的纖維性發育不良膨大。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Fibrous dysplasia 與 McCune-Albright syndrome）。"
   },
   {
    "n": 69,
@@ -988,7 +990,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "Osteoid osteoma",
     "Chondroma"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 軟骨瘤源自軟骨組織，而顎骨幾乎不含殘存軟骨，發生率極低；其影像多為放射透性伴不規則斑點鈣化，不會呈現「附著於臼齒根尖、外圍一圈透亮帶」的典型骨／牙骨質生成性病灶，故最不可能。\n❌ (A) 骨母細胞瘤好發於年輕男性，影像為混合密度病灶外繞一圈透亮帶，可造成骨膨大與疼痛，無法排除。\n❌ (B) 牙骨質母細胞瘤典型即與下顎第一大臼齒牙根融合的放射阻性團塊、外圍透亮帶並伴牙根吸收，最符合描述。\n❌ (C) 類骨骨瘤同屬骨母細胞源性病灶，有疼痛、中央鈣化巢與周圍透亮帶，臨床上也需列入鑑別。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Bone pathology: cementoblastoma, osteoblastoma, osteoid osteoma）。"
   },
   {
    "n": 71,
@@ -1110,7 +1113,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "腫瘤團塊（tumor mass）",
     "軟組織鈣化（soft tissue calcification）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 慢性骨髓炎中血流被切斷的壞死骨片會與周圍活骨分離，X 光上呈邊緣清楚、密度高於鄰骨的骨島，四周被一圈透亮的肉芽或膿性組織包繞，即腐骨；它是感染反覆發作、抗生素難以清除的原因，須手術取出。\n❌ (A) 骨膜反應出現在皮質骨外緣，是與骨面平行的層狀新生骨（onion skin），位置在骨外側而非骨髓腔內的孤立高密度塊。\n❌ (C) 腫瘤團塊在 X 光上多表現為放射透性或蟲蝕狀浸潤破壞，不會是被透亮帶包圍的緻密死骨。\n❌ (D) 軟組織鈣化位於顎骨輪廓之外的軟組織內（如鈣化淋巴結、靜脈石），與骨髓炎病灶所在層次不同。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 7th ed.（Inflammatory lesions of the jaws: chronic osteomyelitis, sequestrum）。"
   },
   {
    "n": 80,

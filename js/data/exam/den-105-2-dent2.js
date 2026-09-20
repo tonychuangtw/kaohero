@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent2'] = {
     "白斑症（leukoplakia）",
     "皮脂腺囊腫（sebaceous cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 口腔淋巴上皮囊腫好發於舌後外側緣與口底，呈黃白色、無痛的小突起；病理為襯以層狀鱗狀上皮的囊腔，囊壁被淋巴濾泡包圍，與本例部位及外觀完全相符。\n❌ (B) 皮樣囊腫幾乎只長在口底中線，呈麵團狀腫塊，囊壁含毛囊、汗腺等皮膚附屬器。\n❌ (C) 白斑症是刮不掉的白色斑塊而非囊性突起，病理為上皮過角化／增生，沒有囊腔與淋巴組織。\n❌ (D) 皮脂腺囊腫（表皮樣囊腫）多見於顏面皮膚，內容物為角質，囊壁不伴淋巴濾泡。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Oral lymphoepithelial cyst）。"
   },
   {
    "n": 2,
@@ -249,7 +250,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent2'] = {
     "Basal cell adenoma",
     "Pleomorphic adenoma"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 耳前區即腮腺淺葉，年輕人「生長多年、無痛、界線清楚」的腫塊以多形性腺瘤最常見；鏡下同時出現上皮／肌上皮細胞巢與軟骨樣、黏液樣基質，正是其「多形」之名的由來。\n❌ (A) 軟骨瘤只由成熟軟骨構成，不含上皮或肌上皮成分，發生於唾液腺極為罕見。\n❌ (B) 多形性低度惡性腺癌幾乎只見於小唾液腺（尤其顎部），具浸潤性單排列與神經周圍侵犯。\n❌ (C) 基底細胞腺瘤雖也在腮腺，但腫瘤細胞形態單一、伴明顯基底膜樣物質，缺少軟骨黏液樣基質。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Salivary gland pathology: pleomorphic adenoma）。"
   },
   {
    "n": 18,
@@ -402,7 +404,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent2'] = {
     "Crohn's disease",
     "submucous fibrosis"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 類澱粉（amyloid）經 Congo red 染色後呈磚紅色，在偏光顯微鏡下產生特徵性的蘋果綠雙折射（apple-green birefringence），這是診斷類澱粉沉積症的標準組織化學依據。\n❌ (B) 蘭格漢細胞組織球增生症靠 CD1a、S-100、Langerin 免疫染色與電顯 Birbeck 顆粒診斷，Congo red 陰性。\n❌ (C) 克隆氏症口腔病灶的特徵是非乾酪性肉芽腫，HE 染色即可辨識，與 Congo red 無關。\n❌ (D) 口腔黏膜下纖維化是膠原纖維大量沉積與血管減少，以 Masson trichrome 呈藍綠色，不具蘋果綠雙折射。\n📚 出處：Neville et al., Oral and Maxillofacial Pathology, 4th ed.（Amyloidosis: Congo red 與 apple-green birefringence）。"
   },
   {
    "n": 29,
@@ -443,7 +446,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent2'] = {
     "1加2",
     "2減1"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 韌性是材料自受力到斷裂所能吸收的總能量，等於整條應力－應變曲線下的面積，因此彈性應變區（1）與塑性應變區（2）兩塊面積相加才是韌性。\n❌ (A) 只取面積 1 代表回彈性（resilience），是彈性變形階段儲存、卸載後可完全回復的能量。\n❌ (B) 只取面積 2 僅為塑性變形所消耗的能量，漏掉彈性階段的貢獻。\n❌ (D) 面積相減沒有物理意義，能量是沿變形過程累加而非互相抵銷。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 12th ed.（Mechanical properties: resilience and toughness）。"
   },
   {
    "n": 32,
