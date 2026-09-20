@@ -8862,7 +8862,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "115 年第二次　牙醫學（五）",
   "n": 80,
-  "exp": 76,
+  "exp": 77,
   "mins": 60
  },
  {
@@ -8876,7 +8876,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（六）",
   "label": "115 年第二次　牙醫學（六）",
   "n": 80,
-  "exp": 78,
+  "exp": 79,
   "mins": 60
  },
  {
@@ -30170,7 +30170,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "112 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 16,
+  "exp": 17,
   "mins": 75
  },
  {
@@ -34916,7 +34916,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（財務審計組）",
   "label": "104 年　高考三級　審計學（財務審計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -36498,7 +36498,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（電子工程組）",
   "label": "102 年　普通考試　計算機概要（電子工程組）",
   "n": 40,
-  "exp": 38,
+  "exp": 39,
   "mins": 60
  },
  {
