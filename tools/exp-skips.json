@@ -4109,6 +4109,13 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-109-1-a002": [
+  {
+   "n": 42,
+   "reason": "圖上只有四個選項（various wounds／fatal mistakes／hopeful cases／various afflictions），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-109-1-a017": [
   {
    "n": 1,
@@ -4226,6 +4233,33 @@
   {
    "n": 34,
    "reason": "CMOS 運算放大器電路圖未保留，各選項的 Q1～Q8 對應位置無從確認，選項亦混入圖說文字",
+   "at": "2026-09-20"
+  }
+ ],
+ "loc-110-1-a002": [
+  {
+   "n": 41,
+   "reason": "圖上只有四個選項（promotion／suspension／sustenance／persistence），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 42,
+   "reason": "圖上只有四個選項（promises／refers／threatens／rejects），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "圖上只有四個選項（denounce／pledge／apply／allow），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "圖上只有四個選項（vary／defer／deter／verify），克漏字本文與題幹空格均未保留，無從判斷",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 45,
+   "reason": "圖上只有四個選項（obsession／acquaintance／insurance／infection）與下一題組的閱讀本文，本題所屬克漏字本文未保留，無從判斷",
    "at": "2026-09-20"
   }
  ],
