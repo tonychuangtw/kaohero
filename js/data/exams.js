@@ -48818,7 +48818,7 @@ window.APP_EXAMS = [
   "subjName": "公民與英文（一般行政組）",
   "label": "111 年　初等考試　公民與英文（一般行政組）",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -48958,7 +48958,7 @@ window.APP_EXAMS = [
   "subjName": "統計學大意",
   "label": "111 年　初等考試　統計學大意",
   "n": 40,
-  "exp": 39,
+  "exp": 40,
   "mins": 60
  },
  {
@@ -49476,7 +49476,7 @@ window.APP_EXAMS = [
   "subjName": "運輸學大意",
   "label": "110 年　初等考試　運輸學大意",
   "n": 50,
-  "exp": 47,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -49490,7 +49490,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "110 年　初等考試　電子學大意",
   "n": 40,
-  "exp": 14,
+  "exp": 15,
   "mins": 60
  },
  {
@@ -49518,7 +49518,7 @@ window.APP_EXAMS = [
   "subjName": "勞工行政與勞工法規大意",
   "label": "110 年　初等考試　勞工行政與勞工法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {

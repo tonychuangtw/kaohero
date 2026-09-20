@@ -484,7 +484,8 @@ window.APP_EXAM_PAPERS['chu-111-1-e017'] = {
     "2c 2",
     "c2"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) X、Y、Z 互相獨立，故 Cov(X+cY, Y+cZ)=Cov(X,Y)+cCov(X,Z)+cVar(Y)+c²Cov(Y,Z)=c·σ²；而 Var(X+cY)=Var(Y+cZ)=(1+c²)σ²。相關係數 = cσ² ÷ [(1+c²)σ²] = c/(1+c²)，即分子為 c 的選項。\n❌ (A) 分子 2c 係把共變數重複計算；獨立變數間共變數為 0，只剩 cVar(Y) 一項，不會出現 2 倍。\n❌ (C) 分子 2c² 同時犯了係數加倍與多乘一個 c 的錯誤。\n❌ (D) 分子 c² 係誤把 cY 與 cZ 相乘視為 c²Cov(Y,Z)，但 Y 與 Z 獨立，該項為 0。\n📚 出處：統計學．共變數與相關係數性質（Cov(aX,bY)=abCov(X,Y)；獨立時 Cov=0）"
   },
   {
    "n": 34,
