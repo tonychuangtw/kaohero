@@ -9912,7 +9912,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（二）",
   "label": "108 年第一次　牙醫學（二）",
   "n": 80,
-  "exp": 77,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -9954,7 +9954,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（五）",
   "label": "108 年第一次　牙醫學（五）",
   "n": 80,
-  "exp": 76,
+  "exp": 78,
   "mins": 60
  },
  {
@@ -10220,7 +10220,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（六）",
   "label": "107 年第二次　牙醫學（六）",
   "n": 80,
-  "exp": 75,
+  "exp": 76,
   "mins": 60
  },
  {

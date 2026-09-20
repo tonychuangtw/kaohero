@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent5'] = {
     "中⼼關係記錄錯誤",
     "咬合平⾯未與⿐翼⽿珠線（ala-tragus line）平⾏"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 全口義齒的垂直高度是靠上下咬合堤在口內互相接觸的高度決定；咬合堤的牙弓形態（寬窄、弧度、與牙脊的相對位置）若做錯，上下堤無法在正確位置均勻接觸，修整後記錄到的高度就會偏高或偏低，直接影響垂直高度的建立。\n❌ (B) 咬合平面太低只是改變平面在口內的上下位置，只要上下咬合堤合起來的總高度不變，垂直高度不受影響；受影響的是舌空間、食物排溢與美觀。\n❌ (C) 中心關係記錄錯誤屬於水平向（髁突前後、左右位置）的偏差，會造成早期接觸與咬合不穩，但垂直高度是另行以息止間隙等方法決定的。\n❌ (D) 咬合平面是否與鼻翼耳珠線平行屬於平面「傾斜方向」的問題，關係到美觀與咬合力分布，並不改變上下顎之間的垂直距離。\n📚 出處：Zarb / Hobkirk, Prosthodontic Treatment for Edentulous Patients (Boucher's), 13th ed.（Occlusion rims、Recording vertical dimension 章節）。"
   },
   {
    "n": 9,
@@ -1031,7 +1032,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent5'] = {
     "在第⼀類咬合型態中，從上下牙齒嵌合處到上下⾨齒切端相對處的平均⾓度，稱之前⽅導引（anteriorguidance）",
     "前突運動時，可藉由前⽅導引（anterior guidance）使後牙分開不接觸"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯在關節盤的動向：前突時髁頭沿關節隆凸向前向下滑移，關節盤是被髁頭帶著一起向前向下移動，只是相對於髁突發生向後的旋轉，並不是自己往後往上跑；且負責拉髁頭向前的是外翼肌的下頭。\n❌ (B) 前突時顳肌、咬肌、內翼肌等閉口肌會同時作用，維持上下牙面接觸與下顎的穩定，敘述正確。\n❌ (C) 第一類咬合型態中，由牙尖交錯位滑行到上下門齒切端相對位置所形成的平均角度即稱前方導引，由上顎前牙舌側斜面與下顎前牙切端共同決定。\n❌ (D) 前方導引讓前牙在前突時先接觸並把下顎撐開，後牙因而分離不接觸（posterior disclusion），正是相互保護咬合的設計。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed., Ch.1 Functional Anatomy of the Masticatory System／Ch.5 Mechanics of Mandibular Movement（Protrusive movement、Anterior guidance）。"
   },
   {
    "n": 74,
