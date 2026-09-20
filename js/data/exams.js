@@ -28434,7 +28434,7 @@ window.APP_EXAMS = [
   "subjName": "民法（財稅行政組）",
   "label": "114 年　高考三級　民法（財稅行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29106,7 +29106,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計（會計組）",
   "label": "113 年　高考三級　政府會計（會計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29176,7 +29176,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規（財稅法務組）",
   "label": "113 年　高考三級　稅務法規（財稅法務組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29232,7 +29232,7 @@ window.APP_EXAMS = [
   "subjName": "民法（法制組）",
   "label": "113 年　高考三級　民法（法制組）",
   "n": 25,
-  "exp": 21,
+  "exp": 22,
   "mins": 75
  },
  {
@@ -29414,7 +29414,7 @@ window.APP_EXAMS = [
   "subjName": "政府會計概要",
   "label": "113 年　普通考試　政府會計概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -29428,7 +29428,7 @@ window.APP_EXAMS = [
   "subjName": "衛生行政學概要",
   "label": "113 年　普通考試　衛生行政學概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29512,7 +29512,7 @@ window.APP_EXAMS = [
   "subjName": "會計法規概要",
   "label": "113 年　普通考試　會計法規概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
