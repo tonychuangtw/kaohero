@@ -48986,7 +48986,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "111 年　初等考試　會計審計法規大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49070,7 +49070,7 @@ window.APP_EXAMS = [
   "subjName": "中文圖書分類編目大意",
   "label": "111 年　初等考試　中文圖書分類編目大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49112,7 +49112,7 @@ window.APP_EXAMS = [
   "subjName": "運輸學大意",
   "label": "111 年　初等考試　運輸學大意",
   "n": 50,
-  "exp": 46,
+  "exp": 47,
   "mins": 60
  },
  {
