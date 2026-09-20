@@ -37926,7 +37926,7 @@ window.APP_EXAMS = [
   "subjName": "行政法概要",
   "label": "112 年　四等　行政法概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -37968,7 +37968,7 @@ window.APP_EXAMS = [
   "subjName": "社會政策與社會立法概要",
   "label": "112 年　四等　社會政策與社會立法概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -37982,7 +37982,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "112 年　四等　移民法規概要",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -38010,7 +38010,7 @@ window.APP_EXAMS = [
   "subjName": "民法概要",
   "label": "112 年　四等　民法概要",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -38192,7 +38192,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "112 年　四等　有機化學概要",
   "n": 25,
-  "exp": 14,
+  "exp": 16,
   "mins": 75
  },
  {
