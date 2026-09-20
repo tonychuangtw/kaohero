@@ -32900,7 +32900,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規（財稅行政組）",
   "label": "107 年　高考三級　稅務法規（財稅行政組）",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -32914,7 +32914,7 @@ window.APP_EXAMS = [
   "subjName": "財政學（財稅行政組）",
   "label": "107 年　高考三級　財政學（財稅行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -32928,7 +32928,7 @@ window.APP_EXAMS = [
   "subjName": "租稅各論",
   "label": "107 年　高考三級　租稅各論",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -32956,7 +32956,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "107 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -32984,7 +32984,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計",
   "label": "107 年　高考三級　成本與管理會計",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33740,7 +33740,7 @@ window.APP_EXAMS = [
   "subjName": "行政學概要",
   "label": "106 年　普通考試　行政學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -33852,7 +33852,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "106 年　普通考試　移民法規概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -33922,7 +33922,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "106 年　普通考試　經濟學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -34020,7 +34020,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "106 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 19,
+  "exp": 20,
   "mins": 75
  },
  {
@@ -34062,7 +34062,7 @@ window.APP_EXAMS = [
   "subjName": "計算機概要（資訊處理組）",
   "label": "106 年　普通考試　計算機概要（資訊處理組）",
   "n": 40,
-  "exp": 37,
+  "exp": 38,
   "mins": 60
  },
  {
