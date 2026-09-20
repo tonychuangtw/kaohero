@@ -989,7 +989,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "中心型巨細胞肉芽腫（central giant cell granuloma）",
     "齒源性角化囊腫（odontogenic keratocyst）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 纖維性發育不良的病灶是正常骨被纖維骨性組織取代，影像上呈毛玻璃狀（ground-glass）或橘皮樣，邊界與周圍正常骨逐漸移行、無明確界線，也不會形成骨性中隔分隔出的多房透過性病灶，因此不會造成題目所示的影像。\n❌ (A) 造釉細胞瘤是典型的多房性透過性病灶，常見肥皂泡狀或蜂窩狀，房間即由骨性中隔分隔。\n❌ (C) 中心型巨細胞肉芽腫常見於下顎前部，可呈多房性透過影像並有細緻的骨性中隔。\n❌ (D) 齒源性角化囊腫體積大時常沿骨髓腔擴展並呈多房外觀，也會出現分隔。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation，多房性透過性病灶與纖維骨性病變章節。"
   },
   {
    "n": 71,
@@ -1070,7 +1071,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "sausage-link appearance",
     "snowstorm appearance"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 正常腮腺造影在充盈期可見主導管與各級分支由粗漸細、排列規則且無擴張或狹窄，實質期造影劑均勻分布，整體像一棵冬天落葉後只剩枝幹的樹，故稱 tree in winter（leafless tree）。\n❌ (B) 櫻花（cherry blossom）或結實纍纍的樹狀影像是點狀涎管擴張的表現，見於謝格連氏症候群的自體免疫性涎腺炎，非正常影像。\n❌ (C) 香腸串狀（sausage-link）指導管交替出現狹窄與擴張，是慢性復發性涎腺炎導管變形的表現。\n❌ (D) 雪暴狀（snowstorm）用來形容腺體實質瀰漫性點狀顯影或超音波上的瀰漫性回音改變，屬病理性描述。\n📚 出處：White & Pharoah, Oral Radiology，唾液腺造影（sialography）章節。"
   },
   {
    "n": 77,

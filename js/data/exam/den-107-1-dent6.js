@@ -260,7 +260,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "當臨床上懷疑有臉部不對稱時，lateral cephalometric radiograph為最好的診斷根據",
     "齒列矯正配合正顎手術可以是本病例治療計畫的選項之一"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 敘述錯誤。側位頭顱 X 光片（lateral cephalometric radiograph）呈現的是矢狀向與垂直向關係，左右結構會互相重疊，無法評估左右差異；懷疑臉部不對稱時應以正面（posteroanterior）頭顱 X 光片為主，必要時輔以電腦斷層。\n❌ (A) 敘述正確。成年男性臉部不對稱最常見的來源即下顎骨（髁突增生、下顎體長度不等）造成的骨性不對稱。\n❌ (B) 敘述正確。正面拍攝、可同時比較左右側骨性標誌的頭顱片即為 PA cephalometric radiograph。\n❌ (D) 敘述正確。骨性不對稱單靠矯正無法代償時，術前術後齒列矯正配合正顎手術是標準治療選項之一。\n📚 出處：Proffit, Contemporary Orthodontics，顏面不對稱之診斷與影像評估（PA cephalometric analysis）。"
   },
   {
    "n": 19,

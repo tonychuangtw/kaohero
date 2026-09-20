@@ -584,7 +584,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent3'] = {
     "amalgam knife",
     "enamel hatchet"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 汞齊刀（amalgam knife，又稱 gold knife／finishing knife）刀刃薄而鈍角，專門沿窩洞邊緣與鄰接面刮除溢出、突出的銀汞合金與懸突（overhang），是修整多餘充填材料的手持器械。\n❌ (A) Hoe（鋤形器）刃口與器械柄近乎垂直，用於刮除窩洞壁與底部的齒質、修平窩洞壁，不是修整充填材料用。\n❌ (B) Gingival margin trimmer 為成對彎曲刃器，用來斜削窩洞齦壁的琺瑯質邊緣、去除無支撐釉柱。\n❌ (D) Enamel hatchet（琺瑯斧）用於劈除無支撐的琺瑯質、擴大窩洞入口，屬備洞器械。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，手用器械（hand instruments）與銀汞修整章節。"
   },
   {
    "n": 42,
@@ -667,7 +668,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent3'] = {
     "活性漂白（vital bleaching）",
     "陶瓷貼面（porcelain veneers）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 牙釉質發育不全是量的缺陷，牙面有凹陷、溝紋或缺損，單靠去除表層或改變顏色都補不回外形；陶瓷貼面能同時重建牙面外形、遮蓋變色並獲得穩定美觀效果，是這類病例最恰當的治療計畫。\n❌ (A) 輕微磨除（microabrasion）只能去除深度約 0.2 mm 以內的表層變色（如氟斑齒的淺層著色），無法填補已缺損的外形。\n❌ (B) 深度磨除雖能磨平較深的不平整，但會犧牲更多齒質且仍不能恢復缺損體積，還需再做贋復。\n❌ (C) 活性漂白只改變色度，對釉質結構缺損無效，凹陷處反而在漂白後更明顯。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，美觀性治療（enamel defects、veneers 適應症）章節。"
   },
   {
    "n": 48,
