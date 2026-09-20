@@ -3670,6 +3670,28 @@
    "at": "2026-09-20"
   }
  ],
+ "loc-105-1-c002": [
+  {
+   "n": 41,
+   "reason": "英文克漏字題，圖上只有四個選項（added/limited/required/available），本文未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 42,
+   "reason": "英文克漏字題，圖上只有四個選項（opened/checked/managed/published），本文未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 43,
+   "reason": "英文克漏字題，圖上只有四個選項（basis/reason/funding/direction），本文未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 44,
+   "reason": "英文克漏字題，圖上只有四個選項（trying/willing/allowed/prepared），本文未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  }
+ ],
  "loc-105-1-c006": [
   {
    "n": 41,
@@ -3694,6 +3716,16 @@
   {
    "n": 48,
    "reason": "克漏字題組，圖上只有四個選項（slow-paced 等），本文未提供，無法判斷空格語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 49,
+   "reason": "英文克漏字題，圖上只有四個選項單字（variety/string/bundle/piece），本文與空格前後文均未提供，無法判斷填空語境",
+   "at": "2026-09-20"
+  },
+  {
+   "n": 50,
+   "reason": "英文克漏字題，圖上只有四個選項副詞（educationally/financially/critically/unfortunately），本文未提供，無法判斷填空語境",
    "at": "2026-09-20"
   }
  ],
