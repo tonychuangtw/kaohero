@@ -49980,7 +49980,7 @@ window.APP_EXAMS = [
   "subjName": "人事行政大意",
   "label": "108 年　初等考試　人事行政大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50428,7 +50428,7 @@ window.APP_EXAMS = [
   "subjName": "貨幣銀行學大意",
   "label": "107 年　初等考試　貨幣銀行學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -50624,7 +50624,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "107 年　初等考試　電子學大意",
   "n": 40,
-  "exp": 17,
+  "exp": 18,
   "mins": 60
  },
  {
@@ -50638,7 +50638,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "107 年　初等考試　基本電學大意",
   "n": 40,
-  "exp": 14,
+  "exp": 15,
   "mins": 60
  },
  {
@@ -50988,7 +50988,7 @@ window.APP_EXAMS = [
   "subjName": "公務員法大意",
   "label": "106 年　初等考試　公務員法大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
