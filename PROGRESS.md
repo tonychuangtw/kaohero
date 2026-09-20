@@ -1,20 +1,72 @@
-STATUS: blocked
-OBJECTIVE: 考英雄全站逐題詳解。**2026-09-20 03:28 台北：最後一科（其他醫事類）寫完，全站 4,430 卷 223,921 題、詳解 217,529 題（97.1%）**，worker 範圍內已無待寫卷。
-NEXT_ACTION: 等 Tony 決定下一步（09/20 03:40 台北已在 kaohero 線問他，兩選一）：
-　**(A) 補完舊科目剩下的 828 卷 3,077 題**（地方特考 195 卷、高普考 164、牙醫 159、藥師 92、初等 86、中醫 73、教檢 30、護理 29）。
-　　這些是 worker 之前「在對話裡逐卷做」那個年代留下的：判定寫不出來的理由只寫在 commit message、沒進 `tools/exp-skips.json`，
-　　所以 `exp-next.js` 每次都還會列出來。其中約 282 題當年判定「其實可以寫」（選項排多欄但有 fig 那批）。
-　　做法：`EXP_MATCH=^(loc|gao|den|pha|chu|tcm|tea|nur)-`＋引擎 claude，估 $300 等值／約 10 小時；
-　　跑完務必把跳過理由正式寫進 `exp-skips.json`，以後數字才乾淨。
-　**(B) 直接做 `docs/monetization-plan.md` 的階段 0（題解分離）** —— 那份計畫寫明「詳解寫完之後第一件事」。
-　他回哪一個就做哪一個；沒回之前本線不要自己啟動 worker 燒額度。
+STATUS: in-progress
+OBJECTIVE: Tony 2026-09-20 11:15 台北回「都做」，兩件並行：
+　**(A) 補完舊科目零星漏題**（原估 828 卷 3,077 題）——改用跨卷批次 worker `exp-batch`，跑在背景。
+　**(B) 變現工程的兩件前置**（⚠️ 不是題解分離：那在 09-12 已被 Tony 取消，見 `docs/monetization-plan.md` 第 7 行
+　　「詳解不收費，永久免費開放。原本的『階段 0 題解分離』隨之取消」）。**(B) 已於 09/20 12:0x 台北完成。**
+
+NEXT_ACTION:
+　1. **(A) 進行中**：`systemctl --user start exp-batch`（unit `tools/exp-batch.service`，範圍
+　　 `^(loc|gao|den|pha|chu|tcm|tea|nur)-`，引擎 claude-opus-5）。三個 mode 依序跑：
+　　 text（純文字，一批 15）→ fig（有圖檔要 Read webp，一批 6）→ nofig（題幹提圖表但沒有圖檔，一批 40）。
+　　 進度看 `tail ~/.claude/exp-batch.log`；停用 `touch ~/.claude/exp-batch.stop`。
+　　 剩餘題數查 `node tools/exp-batch-dump.js --match '^(loc|gao|den|pha|chu|tcm|tea|nur)-' --count`。
+　　 ⛔ 不要同時啟動 `exp-worker`（兩邊都改題庫、都 push，exp-batch.sh 會擋但別硬跑）。
+　2. **(A) 收工後**：跑 `node tools/build-index.js --write`、`node test/test.js`，回報 Tony 總花費。
+　3. **(B) 之後**：接 `docs/monetization-plan.md` 收斂後的付費方向——個人錯題 PDF／Anki 匯出
+　　（`tools/build-pdf.py`、`tools/build-anki.py` 已存在，可接）、間隔重複複習排程（階段 2）、
+　　模考後弱點診斷。⚠️ 動工前先問 Tony 要先做哪一個。
 　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案，見 `CLAUDE.md`）。
 
-VALIDATION: `node test/test.js` 全綠；`node tools/build-index.js --write` 後首頁「自撰詳解」數字會增加
-BLOCKERS: 等 Tony 回覆上面的 (A)／(B)。worker 已 inactive、repo 乾淨、`node test/test.js` 60,739 項全綠。09/19 05:10 台北現況：其他醫事類 636 卷 44,400 題已轉檔完成並上線（commit 4a1b8c08），worker 正以 deepseek 逐卷寫第一段。導遊領隊已於 09/18 20:50 收工（277 卷 20,840 題，寫 19,536／93.7%，跳 1,263、廢題 41、失敗 0 卷），總花費已回報 Tony（agy $0／DeepSeek US$0.86／claude $168.42 等值）。
+VALIDATION: `node test/test.js` 全綠（60,739 項）；`node test/smoke.mjs` 全綠；
+　`node tools/build-index.js --write` 後首頁「自撰詳解」數字會更新
+BLOCKERS: 無。
 
-PATHS: js/data/exam/*.js（題庫本體）、~/exam-pdfs/med4（其他醫事類轉檔工作目錄）、js/data/exams.js（build-index 產生，勿手改）、tools/exp-worker.sh、tools/exp-worker.service、tools/exp-deepseek.js、tools/exp-prompt-ds.md、tools/exp-skip-drop.js、tools/gen_civil.py、tools/civil-index-merge.py、tools/index-spec.json、tools/build-index.js、test/test.js、~/exam-pdfs/pol、~/exam-pdfs/tour
-UPDATED: 2026-09-20 03:45 台北
+PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
+　tools/exp-batch.sh／exp-batch-dump.js／exp-batch.service／exp-prompt-batch.md／exp-skip-bulk.js（跨卷批次，2026-09-20 新增）、
+　tools/check-answers.py／fix-answers.js（答案表核對，2026-09-20 新增）、
+　tools/exp-worker.sh（逐卷，新科目用）、tools/exp-skips.json、test/test.js、test/smoke.mjs、
+　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
+UPDATED: 2026-09-20 12:10 台北
+
+## 2026-09-20：(B) 變現前置兩件已完成
+
+`docs/monetization-plan.md` 第 14 行（Tony 09-12）列的兩件前置，09/20 做完：
+
+**① 存錯的正解**——找到真正的成因並修好。`tools/parse.py` 的 `parse_answers` 是把答案表的
+「題號」列與「答案」列 `zip` 起來配對，遇到 **「A/B」這種兩個答案都給分的格子**會多抓一個字母，
+**該列後面整排往前位移，而且不報錯**。新增 `tools/check-answers.py`：改用 `pdftotext -bbox` 的
+x 座標把每個字母對回題號欄（同一欄兩個字母就回 `A/B`），兩版不一致的就是受害卷。
+
+| 家族 | 掃過 | 有出入 | 實際受影響 |
+|---|---|---|---|
+| 教檢 tqa | 408 | 9 | **6 卷 17 題已修**（`tools/fix-answers.js`），並清掉 6 則照錯答案寫的詳解 |
+| 初等 chu | 402 | 15 | 0（全在複選題第 36~45 題，本站沒收錄那些卷）|
+| 地方特考 local | 792 | 13 | 0（同上）|
+| 警察 pol | 1,057 | 15 | 0（同上）|
+| 高普考 gao／其他醫事 med4／護理 nurse | 1,440 | 0 | 0 |
+
+- 覆蓋了原本記在這裡的 13 個疑點裡的 10 個。
+- 另外 3 個核對後**不是轉檔錯位**（答案表逐題與題庫相符）：`tea-112-1-t2002` #17 的官方答案(A)
+  其實站得住（鈣片是保健食品不在託藥範圍，現有詳解已寫明），保留；`tea-105-1-t5009` #11 與
+  `tea-100-1-t5008` #25 屬「官方答案與教科書定義衝突」，已記進 `exp-skips.json` 不寫詳解。
+- 順帶查過：`parse_corrections` 的「備註」更正在 tqa／gao 都是 0 份，沒有漏套的更正答案。
+
+**② 英雄榜假資料**——`js/app.js` 的 `BOARD_SEED` 改 `false`（程式留著，改回 `true` 就復原）、
+移除無出處的「歷年上榜水準 78」基準線、榜上沒有真人時改成照實說明。`test/smoke.mjs` 四項斷言一併改。
+
+## 2026-09-20：補舊科目改用跨卷批次（exp-batch）
+
+原本估 $300 的做法是逐卷開 session。實掃後剩下的題**散在 675 卷、每卷只剩 1～2 題**，
+逐卷等於為了 1 題把整卷 80 題塞進 context（實測 $0.37/卷）。改成跨卷湊批：
+
+| mode | 內容 | 一批 | 題數 |
+|---|---|---|---|
+| text | 純文字題 | 15 | 1,276 |
+| fig | 有 `fig` 圖檔，模型要 Read webp | 6 | 317 |
+| nofig | 題幹提到圖／表但沒有圖檔（多數會被判跳過） | 40 | 1,484 |
+
+實測一批 15 題約 $0.84（輸出 token 是成本主體）。漏題防呆：同一個批頭連三輪沒動就寫
+`DEFER-批次連續三輪未回覆此題` 讓清單往前，事後 `node tools/exp-skip-drop.js --reason-match '^DEFER' --write` 放回來。
 
 ## DeepSeek 接成第三個引擎（2026-09-18 Tony 指定，已上線）
 
