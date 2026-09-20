@@ -49616,7 +49616,7 @@ window.APP_EXAMS = [
   "subjName": "教育法規大意",
   "label": "109 年　初等考試　教育法規大意",
   "n": 50,
-  "exp": 47,
+  "exp": 49,
   "mins": 60
  },
  {
@@ -49728,7 +49728,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規大意",
   "label": "109 年　初等考試　會計審計法規大意",
   "n": 50,
-  "exp": 47,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -49812,7 +49812,7 @@ window.APP_EXAMS = [
   "subjName": "中文圖書分類編目大意",
   "label": "109 年　初等考試　中文圖書分類編目大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
