@@ -908,7 +908,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "齒槽骨板（lamina dura）",
     "齒板（laminadentalis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 齒槽骨板（lamina dura）是緊貼牙周韌帶、包覆牙根的緻密皮質骨，在根尖片上呈現環繞牙根的細長白色（放射線不透過）線條，正是箭頭所指的構造。\n❌ (A) 固有層是黏膜上皮下方的結締組織層，屬軟組織，X 光片上無法顯影成白線。\n❌ (B) 透明層是上皮基底膜在電子顯微鏡下才看得到的奈米級構造，與放射線影像無關。\n❌ (D) 齒板是胚胎期誘發牙胚發生的上皮帶，牙齒形成後即退化消失，不會出現在 X 光片上。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（正常影像解剖：lamina dura 與牙周韌帶間隙）。"
   },
   {
    "n": 65,

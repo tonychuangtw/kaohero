@@ -1002,7 +1002,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "此一顳顎關節異常，又可稱為\" bifid condyle\"",
     "此X光影像為sagittal tomogram of TMJ"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 骨刺（osteophyte）加上關節腔內游離體，是顳顎關節退化性關節病（osteoarthritis／DJD）的典型組合；bifid condyle 指髁頭先天分裂為雙頭的發育異常，與退化無關，故此敘述錯誤。\n❌ (A) 髁頭因退化性重塑在前緣增生出的尖狀骨贅即為 osteophyte，是 DJD 判讀重點之一。\n❌ (B) 自關節面剝落、游離於關節腔內的鈣化小體，臨床俗稱 joint mouse（關節鼠），敘述正確。\n❌ (D) 顳顎關節的骨性變化常以矢狀斷層攝影評估，可完整呈現髁頭與關節結節的側面輪廓，與該影像相符。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（顳顎關節：degenerative joint disease；髁頭發育異常 bifid condyle）。"
   },
   {
    "n": 72,
