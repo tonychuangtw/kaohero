@@ -542,7 +542,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "Sweet food can stimulate the release of beta-endorphins, which help alleviate physical and emotional pain.",
     "Sweet food can stimulate the release of Naltrexone, which helps alleviate physical and emotional pain."
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 甜食會刺激腦內啡（beta-endorphin）分泌，這是人體自行製造的類鴉片物質，能同時減緩生理疼痛與情緒上的不適，這正是糖產生安撫效果的機制。\n❌ (A) 若阻斷 beta-endorphin 受體，止痛機制反而失效，結果與「安撫」相反。\n❌ (B) 甜食並非讓實驗鼠麻木、完全失去痛覺，而是透過體內天然止痛物質降低痛感。\n❌ (D) Naltrexone（納曲酮）是鴉片受體拮抗劑，作用在阻斷腦內啡，並非甜食所釋放的止痛物質。\n📚 出處：本文關於 beta-endorphin 之敘述；naltrexone 屬 opioid antagonist（藥理學鴉片類藥物章）"
   },
   {
    "n": 39,
@@ -694,7 +695,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "Supplement",
     "Boycott"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「bolster」原指以長枕支撐，引申為「支持、強化、提振」，與 promote（促進、提升）語意最接近。\n❌ (B) control 是控制、管制，重點在約束而非加強。\n❌ (C) supplement 是額外補充、添加另一部分，不等於提升既有事物的力量。\n❌ (D) boycott 是抵制、杯葛，語意與 bolster 相反。\n📚 出處：Merriam-Webster Dictionary, \"bolster\"（v. to support, strengthen）"
   },
   {
    "n": 50,

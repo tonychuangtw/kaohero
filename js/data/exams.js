@@ -27804,7 +27804,7 @@ window.APP_EXAMS = [
   "subjName": "財政學（財稅行政組）",
   "label": "115 年　高考三級　財政學（財稅行政組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -27944,7 +27944,7 @@ window.APP_EXAMS = [
   "subjName": "民法（司法行政組）",
   "label": "115 年　高考三級　民法（司法行政組）",
   "n": 25,
-  "exp": 19,
+  "exp": 22,
   "mins": 75
  },
  {
@@ -27958,7 +27958,7 @@ window.APP_EXAMS = [
   "subjName": "刑法",
   "label": "115 年　高考三級　刑法",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -28252,7 +28252,7 @@ window.APP_EXAMS = [
   "subjName": "動物解剖生理學概要",
   "label": "115 年　普通考試　動物解剖生理學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -28910,7 +28910,7 @@ window.APP_EXAMS = [
   "subjName": "會計法規概要",
   "label": "114 年　普通考試　會計法規概要",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -46438,7 +46438,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "102 年　三等　法學知識與英文",
   "n": 50,
-  "exp": 43,
+  "exp": 45,
   "mins": 60
  },
  {
