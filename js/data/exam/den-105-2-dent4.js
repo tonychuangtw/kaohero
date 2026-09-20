@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "submarginal incision with triangular flap",
     "vestibular incision with fistulectomy"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 前庭切開合併廔管切除（vestibular incision with fistulectomy）把切口開在可動的頰黏膜上，視野與進路都差、不易準確定位根尖，癒合後易留疤痕與攣縮；而且廔管只要根尖病源（壞死牙髓、感染根管）處理乾淨即會自行閉合，不需另行切除，因此最不恰當。\n❌ (A) 溝內切開加單一垂直切口的三角瓣，是根尖手術最常用的設計，血供佳、復位縫合容易。\n❌ (B) 溝內切開加兩側垂直切口的矩形瓣，可取得更大的手術進路，適用於範圍較大的根尖病變。\n❌ (C) 邊緣下切開的三角瓣（Ochsenbein-Luebke 型）可避開牙冠修復體的牙齦緣、保留牙齦外形，是美觀區標準設計之一。\n📚 出處：Torabinejad《Endodontics: Principles and Practice》第 6 版，Surgical Endodontics（flap design）；Cohen's Pathways of the Pulp 第 12 版 Periradicular Surgery 章。"
   },
   {
    "n": 4,
@@ -1006,7 +1007,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Radiation therapy-induced osteoradionecrosis",
     "Bisphosphonate-induced osteonecrosis"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 病人有鼻咽癌頭頸部放射線治療史，照射野涵蓋下顎骨；放療後半年出現齒槽嵴周邊骨硬化與大量骨破壞並存、伴死骨形成，是放射性骨壞死（osteoradionecrosis）的典型病史與影像組合。\n❌ (A) 惡性腫瘤復發多見於原發部位並呈持續擴大的蟲蝕狀破壞、皮質骨穿破與軟組織腫塊，不會以硬化與破壞並存的型態侷限在照射過的齒槽骨。\n❌ (B) 急性骨髓炎病程為數天至數週、以劇痛腫脹發燒為主，此階段 X 光常仍看不出明顯變化，不會呈現半年之久的大範圍骨硬化。\n❌ (D) 雙磷酸鹽相關骨壞死必須有雙磷酸鹽或其他抗骨吸收藥物使用史，本例只有放射線治療史，無用藥依據。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》第 8 版，Inflammatory Lesions of the Jaws（Osteoradionecrosis 與 MRONJ 的鑑別）章。"
   },
   {
    "n": 72,

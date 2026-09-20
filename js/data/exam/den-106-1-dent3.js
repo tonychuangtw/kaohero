@@ -821,7 +821,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent3'] = {
     "反應6：淋巴球回到牙周組織開始進行體液和細胞調控免疫（humoral and cell-mediated immune）的功能",
     "反應7：細胞調控免疫功能主要由type 2 T helper cells（Th-2）細胞調控"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 錯在把細胞調控免疫歸給 Th-2。細胞調控（cell-mediated）免疫由 Th-1 主導，分泌 IFN-γ、IL-2 活化巨噬細胞與細胞毒殺性 T 細胞；Th-2 分泌 IL-4、IL-5、IL-13，負責的是輔助 B 細胞產生抗體的體液免疫。\n❌ (A) 抗原呈現細胞把抗原帶到鄰近淋巴結後，特定 B 淋巴球／前漿細胞確實先在淋巴結內增生再進入血流，敘述正確。\n❌ (B) 特定 T 淋巴球同樣在淋巴結內被致敏、增生後才進入循環，敘述正確。\n❌ (C) 致敏後的淋巴球循環回牙周（牙齦溝結締組織），在該處同時執行體液與細胞調控免疫功能，敘述正確。\n📚 出處：Newman & Carranza《Clinical Periodontology》第 13 版，Host-Microbe Interactions（牙周免疫反應）章；Abbas《Cellular and Molecular Immunology》Th1／Th2 分化一節。"
   },
   {
    "n": 59,

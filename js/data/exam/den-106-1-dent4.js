@@ -851,7 +851,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "雷同傳統口內X光片之突點（dot）",
     "發明者之英文姓氏縮寫"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 數位攝影用的磷光感應片（PSP plate）正面印有小寫字母，作用等同傳統口內 X 光片上的凸點（dot）：標示哪一面朝向射源、影像左右方向該如何判讀，避免影像反置而把左右側弄錯。\n❌ (A) 製造廠商商標通常印在感應片背面或外包裝，不會用單一小寫字母代表。\n❌ (B) 產品序列號是一串數字或條碼，用於追蹤個別感應片，與單一字母的方向標記無關。\n❌ (D) 與發明者姓名無關；該標記存在的唯一目的是影像定位，不是署名。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》第 8 版，Digital Imaging（photostimulable phosphor plate）與 Intraoral Radiographic Examinations（film orientation dot）章節。"
   },
   {
    "n": 61,

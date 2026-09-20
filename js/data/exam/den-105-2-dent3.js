@@ -458,7 +458,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent3'] = {
     "2～3",
     "4～5"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) C-factor＝結合面（bonded）面積 ÷ 未結合自由面（unbonded）面積。第四類窩洞是前牙鄰接面併切端缺損，復形體只剩唇、舌側少數結合面，而暴露在外的自由表面很大，比值最低，約 0.25～0.5；聚合收縮可由自由面的樹脂流動補償，是各類窩洞中應力最小、最有利的。\n❌ (B) 1～1.5 接近第三類或第五類窩洞的數值，結合面與自由面大致相當。\n❌ (C) 2～3 落在第二類（如 MOD）等結合面較多的窩洞範圍。\n❌ (D) 4～5 是第一類窩洞的典型值（五面結合、只有咬合面一個自由面），收縮應力最大，與第四類正好相反。\n📚 出處：Feilzer AJ, De Gee AJ, Davidson CL. Setting stress in composite resin in relation to configuration of the restoration. J Dent Res 1987;66(11):1636-9；Sturdevant《Art and Science of Operative Dentistry》聚合收縮與 C-factor 一節。"
   },
   {
    "n": 33,

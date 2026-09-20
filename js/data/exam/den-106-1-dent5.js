@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent5'] = {
     "2",
     "3"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 珠狀緣飾（bead）刻在工作模型上、位於振動線前方約 2 mm 處，使義齒基底在此形成一條略微壓入可壓縮軟組織的隆起，產生後顎封閉（posterior palatal seal）；義齒後緣（A 處）則再延伸到振動線後方約 1～2 mm。\n❌ (A) 0.5 mm 幾乎貼在振動線上，封閉帶寬度不足，軟腭一上抬就漏氣，形同沒做後顎封閉。\n❌ (B) 1 mm 仍過於靠後，壓入的可壓縮組織量太少，吞嚥、說話時固位力會明顯下降。\n❌ (D) 3 mm 已太靠前，接近硬腭後緣的不可壓縮骨質，bead 壓不進組織反而把義齒撐起，造成翹動與壓痛。\n📚 出處：Zarb, Hickey & Bolender《Prosthodontic Treatment for Edentulous Patients》第 13 版，Posterior Palatal Seal（後顎封閉區）一節。"
   },
   {
    "n": 22,
