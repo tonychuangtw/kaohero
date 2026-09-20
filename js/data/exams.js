@@ -42154,7 +42154,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "107 年　三等　中級會計學",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -42182,7 +42182,7 @@ window.APP_EXAMS = [
   "subjName": "成本與管理會計",
   "label": "107 年　三等　成本與管理會計",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -42434,7 +42434,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規概要",
   "label": "107 年　四等　稅務法規概要",
   "n": 25,
-  "exp": 22,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -42476,7 +42476,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要",
   "label": "107 年　四等　經濟學概要",
   "n": 50,
-  "exp": 47,
+  "exp": 48,
   "mins": 60
  },
  {
@@ -43722,7 +43722,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "106 年　五等　電子學大意",
   "n": 40,
-  "exp": 30,
+  "exp": 31,
   "mins": 60
  },
  {
