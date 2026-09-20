@@ -33586,7 +33586,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "106 年　高考三級　會計學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -33600,7 +33600,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "106 年　高考三級　中級會計學",
   "n": 20,
-  "exp": 17,
+  "exp": 18,
   "mins": 60
  },
  {
@@ -33656,7 +33656,7 @@ window.APP_EXAMS = [
   "subjName": "會計審計法規",
   "label": "106 年　高考三級　會計審計法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -34594,7 +34594,7 @@ window.APP_EXAMS = [
   "subjName": "審計學概要",
   "label": "105 年　普通考試　審計學概要",
   "n": 20,
-  "exp": 17,
+  "exp": 18,
   "mins": 60
  },
  {
@@ -34636,7 +34636,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學概要與財政學概要",
   "label": "105 年　普通考試　經濟學概要與財政學概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
