@@ -332,7 +332,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "最大徑為 3.5 cm，侵犯深度為 12 mm 之頰黏膜癌為 T3",
     "同側兩顆淋巴結發生轉移，且未有淋巴結外侵犯（extranodal extension）為 N2a"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) AJCC 第八版將侵犯深度（depth of invasion, DOI）納入口腔癌 T 分期：只要 DOI 超過 10 mm，不論最大徑多少一律升為 T3。本例 3.5 cm、DOI 12 mm，故為 T3。\n❌ (A) 最大徑 2.5 cm 單看像 T2，但 DOI 12 mm 已超過 10 mm，必須升期為 T3。\n❌ (B) 下顎牙齦癌若僅為皮質骨的表面侵蝕，依第八版規定不足以列為 T4a（須穿透皮質骨進入骨髓腔）；此病灶 2.5 cm、DOI 4 mm，應為 T2。\n❌ (D) 同側兩顆以上淋巴結轉移且無結外侵犯屬 N2b；N2a 指單一同側淋巴結大於 3 cm 且不超過 6 cm。\n📚 出處：AJCC Cancer Staging Manual, 8th ed.（Oral Cavity：T 與 N 分類定義）。"
   },
   {
    "n": 24,
