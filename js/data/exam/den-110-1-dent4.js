@@ -249,7 +249,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "切開引流手術是必須的治療",
     "要找出感染源"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 錯誤。無痛、可摸到波動感、時消時現達數月，代表膿已局限成慢性膿瘍（常伴瘻管反覆排膿）；蜂窩性組織炎是急性期，表現為瀰漫、硬結、疼痛且界線不清的腫脹。\n❌ (B) 頰部（頰間隙）感染絕大多數來自上下顎後牙的根尖病灶或牙周感染，齒源性機會最大。\n❌ (C) 已有波動感表示膿腔成形，單靠抗生素無法吸收，必須切開引流。\n❌ (D) 不處理感染源（根管治療或拔牙），膿腔會反覆積膿，正是「有時消失有時出現」的原因。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Principles of Management of Odontogenic Infections：cellulitis 與 abscess 的鑑別）。"
   },
   {
    "n": 18,
@@ -640,7 +641,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "A、B、C三處是骨質較為厚實處",
     "骨折或正顎手術患者，骨釘及骨板必須置放在A、B等位置以提供支持"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 最不合理。鼻上顎、顴上顎、翼上顎這三支是中面部的「垂直」支柱，負責把咬合力由齒槽往顱底傳遞；水平支柱另有額骨橫樑、眶下緣、顎骨與齒槽等。\n❌ (A) 中面部三大垂直支柱的命名與位置正是鼻上顎、顴骨（顴上顎）與翼上顎支柱。\n❌ (C) 之所以稱為 buttress，就是因為該處皮質骨較厚實、足以承載並傳導咬合力。\n❌ (D) 骨板與骨釘固定在支柱處才有足夠骨厚度與強度，是骨折復位與正顎手術的標準做法。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Management of Midfacial Fractures：vertical and horizontal buttresses）。"
   },
   {
    "n": 46,
@@ -932,7 +934,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "纖維性發育不良（fibrous dysplasia）",
     "骨化纖維瘤（ossifying fibroma）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 年輕患者上顎單一處無痛性膨大、影像呈不透性且與周圍正常骨界線不清而逐漸移行（毛玻璃樣），是纖維性發育不良的典型表現。\n❌ (A) 家族性巨大畸形牙骨質瘤有明顯家族史、多象限發生且膨大顯著，不會只見單一處病灶。\n❌ (B) 繁盛性牙骨質骨發育不良好發於中年女性、兩側多象限對稱出現，病灶界線清楚並常有透射環。\n❌ (D) 骨化纖維瘤界線清楚、可與周圍骨分離，影像上常見清楚的透射性邊緣，與界線不清相反。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bone Pathology：fibrous dysplasia 與其他纖維骨性病變的鑑別）。"
   },
   {
    "n": 67,
@@ -945,7 +948,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "根尖周圍牙骨質骨發育不良（periapical cemento-osseous dysplasia）",
     "骨化纖維瘤（ossifying fibroma）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 中年患者單一病灶、造成顎骨明顯膨大，斷層上界線清楚可與正常骨分離，病理又為纖維骨性病變，最符合骨化纖維瘤。\n❌ (A) 繁盛性牙骨質骨發育不良為多象限、兩側對稱分布，不會只出現在右下顎一處。\n❌ (B) 局部牙骨質骨發育不良多為無症狀的偶然發現，不造成明顯膨大，邊界也較不規則。\n❌ (C) 根尖周圍牙骨質骨發育不良集中於下顎前牙根尖、牙髓仍有活性，且不以腫脹表現。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bone Pathology：ossifying fibroma 與 cemento-osseous dysplasia 的鑑別）。"
   },
   {
    "n": 68,
@@ -1055,7 +1059,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "骨質石化症（osteopetrosis）",
     "骨質疏鬆症（osteoporosis）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 年輕患者上下顎骨瀰漫性密度異常增高，是骨質石化症（大理石骨病）——破骨細胞功能缺陷、骨質無法正常吸收改建所致。\n❌ (A) 變形性骨炎（柏哲德氏病）好發 40 歲以上，影像為棉花團樣混合影並伴顱骨增大。\n❌ (B) 骨發生不全為第一型膠原缺陷，特徵是骨脆易折、藍色鞏膜與牙本質形成不全，骨密度反而下降。\n❌ (D) 骨質疏鬆症是骨量減少、密度降低，與本例密度異常增高完全相反。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bone Pathology：osteopetrosis）。"
   },
   {
    "n": 76,
@@ -1068,7 +1073,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "纖維發育不良（fibrous dysplasia）",
     "增殖性骨膜炎（proliferative periostitis）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 骨質石化症的骨髓腔被緻密骨取代、血流供應極差，一旦感染或拔牙就容易發展成難以癒合的慢性骨髓炎，這也是此類病人顎骨疼痛最常見的原因。\n❌ (A) 牙骨質骨化發育異常多見於中年女性、無症狀且牙髓有活性，不會造成此種疼痛。\n❌ (C) 纖維發育不良為無痛性緩慢膨大、影像呈毛玻璃樣，不以疼痛表現。\n❌ (D) 增殖性骨膜炎好發於兒童，特徵是骨皮質外的洋蔥皮樣層狀新生骨，與本例緻密硬化骨不同。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（osteopetrosis 併發 osteomyelitis）。"
   },
   {
    "n": 77,
@@ -1094,7 +1100,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "戈林氏囊腫（Gorlin's cyst）",
     "齒源性黏液瘤（odontogenic myxoma）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 最不可能。齒源性黏液瘤是實質性腫瘤，內容為膠凍狀的黏液基質，穿刺抽不出一管可流動的黃色液體。\n❌ (A) 造釉細胞瘤（尤其單囊型）囊腔內常含黃褐色液體，可以抽得出來。\n❌ (B) 含齒囊腫典型即為草黃色澄清囊液，與描述相符。\n❌ (C) 戈林氏囊腫（鈣化性齒源性囊腫）具囊腔結構，同樣可抽出囊液。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Odontogenic Cysts and Tumors：odontogenic myxoma 為實質性病變）。"
   },
   {
    "n": 79,

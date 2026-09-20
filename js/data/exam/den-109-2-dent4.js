@@ -910,7 +910,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "稱為mylohyoid ridge",
     "稱為internal oblique ridge"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 錯誤。此嵴是下顎舌骨肌（mylohyoid muscle）的附著處；頦舌骨肌附著於下顎正中聯合內面的下頦棘（inferior genial tubercle），位置在前方而不在此嵴上。\n❌ (A) 該構造確實是下顎骨舌側面由後上斜向前下的骨性突起。\n❌ (C) 因下顎舌骨肌附著於此而稱 mylohyoid ridge（下顎舌骨肌線）。\n❌ (D) 同一構造在內側觀又稱 internal oblique ridge（內斜嵴），兩個名稱指的是同一處。\n📚 出處：Moore, Clinically Oriented Anatomy（Mandible：mylohyoid line；geniohyoid 起於 inferior mental spine）。"
   },
   {
    "n": 65,
@@ -1040,7 +1041,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "骨化纖維瘤（ossifying fibroma）",
     "柏哲德氏病（Paget' s disease）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 蘭格罕氏細胞組織細胞增多症在顎骨造成界線清楚的穿鑿狀骨破壞，齒槽骨自牙根周圍被侵蝕殆盡，牙齒看似漂浮在空中（floating teeth），是最典型的表現。\n❌ (A) 造牙骨質細胞瘤是與牙根融合的放射線不透性團塊，不會造成牙周骨大量喪失。\n❌ (C) 骨化纖維瘤為界線清楚的膨大性混合影像，會推移牙根而非溶蝕周圍骨。\n❌ (D) 柏哲德氏病造成顎骨增大、棉花團樣不透影與牙骨質增生，是密度增加而非骨喪失。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Hematologic Disorders：Langerhans cell histiocytosis，floating teeth）。"
   },
   {
    "n": 74,
@@ -1053,7 +1055,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "平伯氏腫瘤（Pindborg's tumor）",
     "加勒氏骨髓炎（Garre's osteomyelitis）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 加勒氏骨髓炎屬慢性骨髓炎合併增殖性骨膜炎，低毒性感染持續刺激骨膜一層層形成新骨，產生典型的洋蔥皮樣影像，好發於兒童下顎後牙區。\n❌ (A) 牙骨質骨發育不良為根尖區的混合影像，不會產生骨膜反應。\n❌ (B) 柏哲德氏病表現為顎骨增大與棉花團樣（cotton wool）不透影，無層狀骨膜新骨。\n❌ (C) 平伯氏腫瘤（CEOT）為混合透射／不透射病灶，內含驅雪樣鈣化，同樣無洋蔥皮樣骨膜反應。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bacterial Infections：chronic osteomyelitis with proliferative periostitis, Garre's）。"
   },
   {
    "n": 75,

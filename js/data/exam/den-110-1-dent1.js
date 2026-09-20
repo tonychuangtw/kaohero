@@ -220,7 +220,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent1'] = {
     "外喉神經",
     "喉返神經"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 喉返神經支配喉部所有內肌，唯一例外是環甲肌，故題目所指的（甲）為喉返神經。\n❌ (A) 上喉神經是主幹，再分為內、外兩支，本身不直接支配這些喉內肌。\n❌ (B) 內喉神經為純感覺支，供應聲帶以上的喉黏膜感覺，不支配任何肌肉。\n❌ (C) 外喉神經只支配環甲肌，正是題幹要排除的那一條肌肉。\n📚 出處：Moore, Clinically Oriented Anatomy（Larynx：recurrent laryngeal nerve 支配除 cricothyroid 外全部喉內肌）。"
   },
   {
    "n": 16,

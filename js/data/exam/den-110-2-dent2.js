@@ -291,7 +291,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent2'] = {
     "odontogenic keratocyst",
     "globulomaxillary cyst"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 球上顎囊腫並非獨立的疾病實體，WHO 分類早已將其刪除，該區域的透射影實際上多為根尖囊腫或牙源性角化囊腫，因此最不可能被列為鑑別診斷。\n❌ (A) 根尖囊腫是顎骨最常見的透射性病變，只要對應牙齒牙髓壞死就必須列入鑑別。\n❌ (B) 側方牙周囊腫源自牙周韌帶內殘留上皮，位於牙根側面、界線清楚，是合理的鑑別項目。\n❌ (C) 牙源性角化囊腫可發生於顎骨任何部位並模仿各種囊腫影像，是必列的鑑別診斷。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Odontogenic Cysts and Tumors：globulomaxillary cyst 已不被視為獨立病變）。"
   },
   {
    "n": 21,

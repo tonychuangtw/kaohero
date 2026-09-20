@@ -669,7 +669,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent3'] = {
     "近心",
     "遠心"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 此類局部覆蓋修復體的頰面未被包覆，最容易被推往舌側脫位；鄰接面兩側製備的平行溝槽提供抗力壁，正是用來阻擋冠蓋體往舌側位移。\n❌ (B) 頰側有保留的頰面牙體與終接線擋住，本來就不是脫位的方向。\n❌ (C) 近心位移受該側溝槽與鄰接接觸點限制，並非設置雙側溝槽的主要目的。\n❌ (D) 遠心位移同理由另一側溝槽限制；兩側溝槽合起來對抗的是舌側方向。\n📚 出處：Shillingburg, Fundamentals of Fixed Prosthodontics, 4th ed.（Partial Veneer Crowns：proximal grooves 的抗力形設計）。"
   },
   {
    "n": 48,

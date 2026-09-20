@@ -291,7 +291,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent3'] = {
     "方形翻瓣（rectangular flap）",
     "三角形翻瓣（triangular flap）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 方形翻瓣（水溝內切口加兩側垂直鬆弛切口）能提供橫跨數顆門齒、往根尖方向的充足視野與器械操作空間；下顎前牙前庭淺、附著牙齦窄，全層方形翻瓣是最安全的選擇。\n❌ (A) 緣下曲線翻瓣的水平切口落在牙齦上，需要足夠寬度的附著牙齦，下顎前牙區常不足，易造成疤痕與癒合不良。\n❌ (B) Ochsenbein-Luebke 翻瓣同屬緣下設計，適用於附著牙齦寬、牙周健康的上顎前牙美觀區，不適合下顎前牙。\n❌ (D) 三角形翻瓣只有一個垂直鬆弛切口，涵蓋範圍小，對橫跨多顆牙的根尖病灶視野不足且翻瓣張力過大。\n📚 出處：Cohen's Pathways of the Pulp（Periradicular Surgery：flap designs，full mucoperiosteal rectangular flap 的適應症）。"
   },
   {
    "n": 21,
