@@ -46774,7 +46774,7 @@ window.APP_EXAMS = [
   "subjName": "移民法規概要",
   "label": "102 年　四等　移民法規概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -47348,7 +47348,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "102 年　五等　基本電學大意",
   "n": 40,
-  "exp": 24,
+  "exp": 25,
   "mins": 60
  },
  {
