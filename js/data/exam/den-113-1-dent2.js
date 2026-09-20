@@ -296,7 +296,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "鱗狀細胞癌（squamous cell carcinoma）",
     "骨肉瘤（osteosarcoma）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 長期洗腎併發續發性副甲狀腺機能亢進，PTH 持續升高活化蝕骨細胞，在顎骨形成由多核巨細胞、出血與含鐵血黃素組成的褐色腫瘤，影像為界線清楚的透亮病灶，可單發或多發，常伴全身骨小樑粗糙化與硬骨板（lamina dura）消失。本題「洗腎七年、曾因 PTH 過高切除副甲狀腺」即是關鍵病史。\n❌ (A) 造釉細胞瘤是齒源性腫瘤，典型為下顎臼齒—升枝區多房肥皂泡狀膨大，與腎病或 PTH 無關。\n❌ (C) 鱗狀細胞癌呈蟲蝕狀、邊界不清的侵襲性骨破壞，常合併黏膜潰瘍與疼痛。\n❌ (D) 骨肉瘤好發年輕族群，影像可見日光放射狀骨膜反應與牙周膜腔對稱性增寬。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Hyperparathyroidism：brown tumor；renal osteodystrophy）。"
   },
   {
    "n": 21,
@@ -309,7 +310,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "鈣化上皮齒源性腫瘤（calcifying epithelial odontogenic tumor）",
     "鱗狀齒源性腫瘤 （squamous odontogenic tumor）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 鱗狀齒源性腫瘤源自牙周膜的 Malassez 上皮殘餘，影像是貼著牙根側方的三角形或半月形單純透亮影，內部不含任何鈣化，也不以包覆阻生齒牙冠的方式出現，與其餘三者的影像特徵最不相符，故為最不可能的診斷。\n❌ (A) 腺瘤樣齒源性瘤好發於年輕女性上顎犬齒區，常包住阻生齒，透亮區內可見細小雪花狀鈣化。\n❌ (B) 鈣化齒源性囊腫（Gorlin 囊腫）為透亮病灶內散在鈣化物，約三分之一與阻生齒或齒瘤並存。\n❌ (C) 鈣化上皮齒源性腫瘤（Pindborg tumor）多位於下顎後牙區並與阻生齒相關，透亮區內有澱粉樣物鈣化形成的阻射斑點。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Odontogenic tumors：AOT、CEOT、COC、Squamous odontogenic tumor）。"
   },
   {
    "n": 22,
@@ -322,7 +324,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "克新氏症候群（Cushing syndrome）",
     "戈林氏症候群（Gorlin syndrome）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 戈林氏症候群（痣樣基底細胞癌症候群，PTCH1 基因突變、體染色體顯性）在青少年期典型出現多發性齒源性角化囊腫，環口片可見顎骨數處界線清楚的透亮病灶並造成無痛性臉部腫脹，另有多發性基底細胞癌、掌蹠小凹、大腦鐮鈣化與分岐肋骨。\n❌ (A) 唐氏症為 21 三體，口腔表現是巨舌、牙齒發育遲緩、缺牙與嚴重早發性牙周病，不以多發顎骨囊腫為特徵。\n❌ (B) 伊格爾症候群是莖突過長或莖突舌骨韌帶鈣化引起咽痛、轉頭疼痛，影像變化在莖突而非顎骨。\n❌ (C) 庫欣氏症候群為皮質醇過多，表現月亮臉、水牛肩、紫色紋與全身骨質疏鬆，非局部多發性骨破壞。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Nevoid basal cell carcinoma syndrome；Odontogenic keratocyst）。"
   },
   {
    "n": 23,
@@ -335,7 +338,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "摩擦性角化過度（friction keratosis）",
     "扁平苔癬（lichen planus）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 游移性紅斑（地圖舌）是絲狀乳頭脫失形成的紅色區域，周邊常繞一圈白黃色微隆起邊緣；病灶會在一處癒合後於舌頭他處重新出現而呈「游移」，多數無症狀，與本題「他處也會出現、無疼痛感」完全吻合。\n❌ (B) 紅白斑屬癌前病變，病灶位置固定不會游移，且惡性變化風險高，必須切片確認。\n❌ (C) 摩擦性角化過度發生在反覆受機械刺激處（咬合線、無牙脊），為單純白色斑塊且位置固定。\n❌ (D) 扁平苔癬好發雙側頰黏膜且對稱，呈 Wickham 紋白色網狀條紋，糜爛型會有明顯疼痛。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Erythema migrans / geographic tongue）。"
   },
   {
    "n": 24,

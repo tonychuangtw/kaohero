@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent1'] = {
     "耳咽管咽肌",
     "提腭帆肌"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 咽門前柱即腭舌弓，由腭舌肌（palatoglossus）在黏膜下形成的皺襞構成，收縮時上提舌根、下拉軟腭而縮小咽門，是吞嚥初期封閉口咽的重要結構；它雖名為舌肌，卻由迷走神經經咽神經叢支配，是唯一不受舌下神經支配的舌肌。\n❌ (B) 腭咽肌構成咽門後柱（腭咽弓），位於扁桃腺窩後緣，作用為上提咽部。\n❌ (C) 耳咽管咽肌形成側咽壁的耳咽管咽皺襞，自耳咽管軟骨下行併入腭咽肌，不構成咽門柱。\n❌ (D) 提腭帆肌位於軟腭內部，收縮時上提軟腭關閉鼻咽，體表不形成柱狀皺襞。\n📚 出處：Moore, Clinically Oriented Anatomy（Palate and fauces：palatoglossal arch、palatopharyngeal arch）。"
   },
   {
    "n": 15,

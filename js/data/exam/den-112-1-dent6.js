@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent6'] = {
     "前牙絕對挺出（absolute extrusion）",
     "前牙相對壓入（relative intrusion）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 病人仍在生長時，整平過深的下顎史比曲線最常用「前牙相對壓入」：以裝置抑制下前牙萌出，同時讓後牙隨垂直生長繼續萌出，前牙相對於咬合平面被壓低，臼齒區高度增加而曲線變平，對牙根與牙周組織的傷害最小。\n❌ (A) 絕對壓入需把前牙真正壓進齒槽骨，力量控制不易且有牙根吸收風險，多用於已無生長潛能的成人。\n❌ (B) 後牙相對壓入是抑制後牙萌出、任前牙繼續萌出，只會讓覆咬與史比曲線更深。\n❌ (C) 前牙挺出會加深覆咬並使史比曲線更彎，方向完全相反。\n📚 出處：Proffit, Contemporary Orthodontics（Leveling the curve of Spee：absolute vs. relative intrusion）。"
   },
   {
    "n": 12,
@@ -347,7 +348,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent6'] = {
     "壓入且前牙往後傾斜（tip backward）",
     "壓入且前牙往側方傾斜（tip lateral）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 結紮線只綁在兩顆正中門牙之間，代表壓入力為單點施力且作用點在下前牙段阻抗中心的唇側前方；力線不通過阻抗中心就會產生力矩，結果是門牙一邊被壓入、一邊牙冠往唇側（前方）傾斜，臨床上常見前牙唇傾與覆蓋增加。\n❌ (A) 單點施力不可能只有純壓入；要純壓入必須讓力線通過阻抗中心，或另加後傾彎、舌側牽制來抵消力矩。\n❌ (C) 牙冠往後（舌側）傾斜需力線落在阻抗中心的舌側，與本題力量施於唇側的幾何關係相反。\n❌ (D) 力量施於正中線且為垂直—前後向，左右對稱，不會產生側方傾斜。\n📚 出處：Proffit, Contemporary Orthodontics（Intrusion arch / utility arch：center of resistance 與力矩分析）。"
   },
   {
    "n": 25,

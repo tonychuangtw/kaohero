@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "condensing osteitis",
     "reactive osseous metaplasia"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 頭頸部放射線治療後，照射區骨組織出現血管減少、細胞減少、含氧量下降（3H 理論），輕微刺激即可造成骨壞死；典型在放療後數月至數年於下顎後牙區等黏膜薄處出現暴露、粗糙的死骨且長期不癒。本例有扁桃腺癌放療兩年病史，部位與時序皆符合。\n❌ (A) 下顎隆凸為雙側對稱、表面黏膜正常的骨性突起，屬發育性變異，不會暴露壞死。\n❌ (C) 緻密性骨炎是低度慢性發炎刺激引起的根尖下方阻射性骨硬化，表面黏膜完整。\n❌ (D) 反應性骨化生是局部刺激下的骨質增生，同樣不會出現暴露的壞死骨。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Osteoradionecrosis）。"
   },
   {
    "n": 7,
@@ -267,7 +268,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "僅少許疏鬆的結締組織（loose connective tissue）",
     "巨細胞肉芽腫（giant cell granuloma）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 外傷病史加上下顎後牙區界線清楚的透亮病變，最符合單純性（外傷性）骨囊腫。它是沒有上皮襯裡的假性囊腫，手術打開多為空腔，僅能刮到少量疏鬆結締組織或纖維血管性薄膜，探查造成出血本身即具治療效果，病灶多可自行骨化癒合。\n❌ (A) 明顯化膿發炎見於急性骨髓炎或膿瘍，臨床有疼痛、發燒、排膿，影像邊界模糊呈蟲蝕狀。\n❌ (B) 慢性齒源性囊腫必有上皮襯裡與發炎性纖維囊壁，且與失活牙根尖或阻生齒相關。\n❌ (D) 巨細胞肉芽腫鏡下為實質性病灶，可見多核巨細胞、紡錘狀間質細胞、出血與含鐵血黃素沉積，非空腔。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Simple bone cyst / traumatic bone cyst）。"
   },
   {
    "n": 19,
@@ -350,7 +352,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "Civatte body",
     "asteroid body"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 席瓦特小體（Civatte body，又稱 colloid body、hyaline body）是基底細胞凋亡後留下的嗜伊紅圓形小體，散布於上皮底層與其下結締組織淺層，是扁平苔癬的組織學特徵之一，常與基底層液化變性、帶狀淋巴球浸潤同時出現。\n❌ (A) 異物只在異物肉芽腫中出現，周圍會被巨噬細胞與多核異物巨細胞包圍。\n❌ (B) 羅素小體是漿細胞胞內堆積免疫球蛋白形成的球體，見於慢性發炎與漿細胞性病灶。\n❌ (D) 星狀小體位於類肉瘤病等肉芽腫性疾病的多核巨細胞胞質內，非散布於上皮下。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Lichen planus：Civatte bodies）。"
   },
   {
    "n": 25,
@@ -419,7 +422,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent2'] = {
     "應力鬆弛（stress relaxation）",
     "回彈力（resilience）"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 應力鬆弛是指材料被拉伸或壓縮到固定變形量後保持不動，內部分子鏈隨時間重排，使維持該變形所需的應力（荷重）逐漸下降。塑膠鏈與橡皮圈拉開固定距離後力量持續衰減即屬此現象，也是矯正彈性元件必須定期更換的原因。\n❌ (A) 潛變是在「固定應力」下變形量隨時間增加，條件與本題的固定變形量相反。\n❌ (B) 疲勞是反覆循環負載後，在低於降伏強度的應力下發生破裂，本題並未反覆加載。\n❌ (D) 回彈力是材料在彈性限度內吸收能量的能力（應力—應變曲線彈性段下的面積），與時間無關。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Stress relaxation、Creep、Resilience）。"
   },
   {
    "n": 30,

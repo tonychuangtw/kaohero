@@ -1018,7 +1018,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "含齒囊腫（dentigerous cyst）",
     "鈣化齒源囊腫（calcifying odontogenic cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 舌側下顎骨凹陷（Stafne defect）是下顎舌側骨皮質的發育性凹窩，最典型位置就在下顎角至臼齒區、下顎管下方；影像為邊界清楚、周圍有阻射皮質緣的卵圓形透亮影，無症狀、不隨時間變化，只需追蹤不必手術。\n❌ (B) 單純性骨囊腫好發下顎體前磨牙—臼齒區，會沿牙根之間呈扇形（scalloping）向上延伸，不會固定位在下顎管下方。\n❌ (C) 含齒囊腫必定附著於未萌牙的牙釉質牙骨質交界並包覆牙冠，本病灶與牙齒無關。\n❌ (D) 鈣化齒源囊腫多呈混合性透亮—阻射影像，內含鈣化物或齒瘤樣結構，非單純透亮。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Stafne defect / lingual mandibular bone depression）；White & Pharoah, Oral Radiology。"
   },
   {
    "n": 73,

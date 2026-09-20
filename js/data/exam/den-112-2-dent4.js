@@ -974,7 +974,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "odontogenic keratocyst",
     "ameloblastoma"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 殘餘囊腫依定義是牙齒拔除後仍留在骨內的根尖周囊腫，必須位於已無牙的區域，通常體積不大、生長緩慢且無症狀，最不可能造成 45 歲男性右下臉明顯腫脹，是本題最不可能的診斷。\n❌ (A) 含齒囊腫好發於下顎第三大臼齒，包覆阻生齒牙冠並可持續膨大而造成臉部腫脹。\n❌ (C) 齒源性角化囊腫最常見於下顎後牙區與升枝，沿骨髓腔前後生長，發現時往往已相當大。\n❌ (D) 造釉細胞瘤好發下顎臼齒—升枝區，多房性膨脹生長是造成下臉部腫脹的典型原因。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Radicular and residual cyst；Dentigerous cyst；Odontogenic keratocyst；Ameloblastoma）。"
   },
   {
    "n": 70,
