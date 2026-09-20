@@ -29582,7 +29582,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "112 年　普通考試　法學知識與英文",
   "n": 50,
-  "exp": 45,
+  "exp": 50,
   "mins": 60
  },
  {
@@ -29652,7 +29652,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規（財稅行政組）",
   "label": "112 年　高考三級　稅務法規（財稅行政組）",
   "n": 25,
-  "exp": 23,
+  "exp": 24,
   "mins": 75
  },
  {
@@ -29694,7 +29694,7 @@ window.APP_EXAMS = [
   "subjName": "會計學",
   "label": "112 年　高考三級　會計學",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29750,7 +29750,7 @@ window.APP_EXAMS = [
   "subjName": "審計學（會計組）",
   "label": "112 年　高考三級　審計學（會計組）",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -29806,7 +29806,7 @@ window.APP_EXAMS = [
   "subjName": "工程數學",
   "label": "112 年　高考三級　工程數學",
   "n": 20,
-  "exp": 14,
+  "exp": 16,
   "mins": 60
  },
  {

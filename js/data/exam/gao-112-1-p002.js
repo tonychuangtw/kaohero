@@ -586,7 +586,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p002'] = {
     "majority",
     "tendency"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) tendency 意為「趨勢、傾向」，固定用法 show a tendency toward…＝「呈現朝向…的趨勢」，全句指全球經濟呈現通膨加劇與失業率升高的趨勢。\n❌ (A) expediency 指「權宜之計、便宜行事」，指做法的方便性，不能表示經濟走向。\n❌ (B) adequacy 指「足夠、適當性」，是程度夠不夠的問題，與「走向」無關。\n❌ (C) majority 指「多數、過半數」，用於人數或票數比例，不與 toward 連用表趨勢。\n📚 出處：劍橋詞典（Cambridge Dictionary）\"tendency\" 詞條：a tendency toward sth"
   },
   {
    "n": 42,
@@ -599,7 +600,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p002'] = {
     "development",
     "contract"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) command 作名詞指「指揮（權）」，under sb's command＝「在某人的指揮之下」，全句指拿破崙麾下的士兵打贏了對奧地利的戰役。\n❌ (A) demand 指「要求、需求」，under demand 並非固定用法，也無法表示統率關係。\n❌ (C) development 指「發展、開發」，用於事物演進，不能用來帶領部隊。\n❌ (D) contract 指「契約、合約」，under contract 是「簽約受雇中」，與作戰指揮無關。\n📚 出處：劍橋詞典（Cambridge Dictionary）\"command\" 詞條：under sb's command"
   },
   {
    "n": 43,
@@ -612,7 +614,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p002'] = {
     "paradise",
     "survival"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) survival skills 是固定搭配，指「求生技能」；句意為「若學校教授求生技能，學生就會知道如何在荒野中自救」，與後半句 save their own lives in the wilderness 完全呼應。\n❌ (A) fantasy 指「幻想、空想」，fantasy skills 無此說法，也救不了命。\n❌ (B) memorial 指「紀念的、紀念物」，用於追思場合。\n❌ (C) paradise 指「天堂、樂園」，是名詞指地方，不能修飾 skills。\n📚 出處：劍橋詞典（Cambridge Dictionary）\"survival\" 詞條：survival skills"
   },
   {
    "n": 44,
@@ -625,7 +628,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p002'] = {
     "convert",
     "contribute"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) contribute to… 指「為（報刊）撰稿、投稿、提供內容」，全句意為「我受託為當地報紙一篇分析股市的文章供稿」，與 be entrusted to（受託去做某事）語意相合。\n❌ (A) divert 指「使轉向、轉移（資金或注意力）」，divert to 是把東西改導向別處，不是寫文章。\n❌ (B) relate to 表示「與…有關」，主詞是事物之間的關聯，不能用來描述受託執行的寫作行為。\n❌ (C) convert to 指「改信、轉換成另一種形式」，與供稿無關。\n📚 出處：劍橋詞典（Cambridge Dictionary）\"contribute\" 詞條：contribute (sth) to a newspaper"
   },
   {
    "n": 45,
@@ -638,7 +642,8 @@ window.APP_EXAM_PAPERS['gao-112-1-p002'] = {
     "parallel",
     "tolerant請依下文回答第46題至第50題：Honey is usually described as a sweet food substance. Corbezzolo honey, however, is surprisingly bitter, with notes"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) parallel 指「平行的」；同一平面上的兩條平行線彼此等距且永不相交，正好對應句中 at equal distance from each other and will never meet 的敘述。\n❌ (A) generous 指「慷慨的、大方的」，形容人的性格。\n❌ (B) innocent 指「無辜的、天真的」，形容人的處境或性情。\n❌ (D) tolerant 指「寬容的、能容忍的」，同樣是形容人，不能描述直線的位置關係。\n📚 出處：劍橋詞典（Cambridge Dictionary）\"parallel\" 詞條：parallel lines；歐氏幾何平行線定義"
   },
   {
    "n": 46,

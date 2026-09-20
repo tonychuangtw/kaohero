@@ -129,7 +129,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g020'] = {
     "cos tiˆ + sin tjˆ + k3 3 31 1 ˆ 1",
     "sin tiˆ + j+ cos tkˆ3 3 3"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) r(t)=(e^t cos t, e^t sin t, e^t)，微分得 r'(t)=e^t(cos t−sin t, cos t+sin t, 1)，其長度 |r'(t)|=e^t√((cos t−sin t)²+(cos t+sin t)²+1)=e^t√3。單位切線向量 T=r'/|r'|=(1/√3)[(cos t−sin t)î+(cos t+sin t)ĵ+k̂]，即選項 B（選項中的 1/3 為 1/√3 的排版結果）。\n❌ (A) ĵ 分量寫成 (cos t−sin t)、k̂ 分量寫成 sin t，與 y'=e^t(sin t+cos t)、z'=e^t 不符。\n❌ (C) 直接取 (cos t, sin t, 1)，漏掉對 e^t 乘積微分所產生的項。\n❌ (D) 三個分量與 r'(t) 完全不對應，且 k̂ 分量誤放 cos t。\n📚 出處：工程數學／微積分 向量值函數之單位切線向量 T(t)=r'(t)/|r'(t)|"
   },
   {
    "n": 9,
@@ -266,7 +267,8 @@ window.APP_EXAM_PAPERS['gao-112-1-g020'] = {
     "y=",
     "y =(2 x + 4)e − x + 2 (2 x − 4)e − x − 2 (−2 x + 4)e− x + 2 (2 x + 4)e x + 21 s −1"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 分離變數：e^x y'=2(x+1)y² ⇒ dy/y²=2(x+1)e^(−x)dx。右邊分部積分 ∫(x+1)e^(−x)dx=−(x+2)e^(−x)，故 −1/y=−2(x+2)e^(−x)+C。代入 y(0)=1/6 得 −6=−4+C ⇒ C=−2，整理得 1/y=(2x+4)e^(−x)+2，即 y=1/[(2x+4)e^(−x)+2]。\n❌ (B) 化簡後與 (C) 相同，雖滿足 y(0)=1/6，但回代得到的是 e^x y'=(6−2x)y²，不是原方程式。\n❌ (C) x 項係數符號相反，來自分部積分時漏掉負號；驗算不滿足原微分方程。\n❌ (D) 分母為 e^(x) 而非 e^(−x)，回代後 e^x y' 多出一個 e^(2x)，與右式不符。\n📚 出處：工程數學 一階可分離變數微分方程（separable ODE）之初值問題解法"
   },
   {
    "n": 18,
