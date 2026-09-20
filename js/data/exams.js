@@ -45584,7 +45584,7 @@ window.APP_EXAMS = [
   "subjName": "稅務法規",
   "label": "103 年　三等　稅務法規",
   "n": 25,
-  "exp": 24,
+  "exp": 25,
   "mins": 75
  },
  {
@@ -45640,7 +45640,7 @@ window.APP_EXAMS = [
   "subjName": "中級會計學",
   "label": "103 年　三等　中級會計學",
   "n": 20,
-  "exp": 19,
+  "exp": 20,
   "mins": 60
  },
  {
@@ -46074,7 +46074,7 @@ window.APP_EXAMS = [
   "subjName": "公民與英文（一般行政組）",
   "label": "103 年　五等　公民與英文（一般行政組）",
   "n": 50,
-  "exp": 45,
+  "exp": 50,
   "mins": 60
  },
  {

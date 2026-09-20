@@ -662,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "bans"
    ],
    "psg": "impossible to take your pet shopping or dining? Not necessarily. One store chain that specializes in home decor merchandise has never 46 pets from entering in the company of their owners since its founding 15 years ago. Furthermore, four to five years ago, it took 47 step toward welcoming four-legged furry friends with open arms by providing pets-only shopping carts for pet owners to spend 48 time shopping with their pets. When asked whether any 49 customers have opposed the service, Chen said that as of today, there have not been any complaints about the service, which is widely accepted by customers. Occasionally, the store finds that the service encourages 50 interaction among customers since pets are a great reason for starting up a conversation. Use of the pet cart service is high, and there are frequently no vacant carts during weekends and holidays.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 空格前有 has never，屬現在完成式 have/has + 過去分詞，ban 的過去分詞為 banned（單母音單子音結尾重複 n）；句意為該連鎖店創立 15 年來從未禁止寵物隨主人入店。\n❌ (A) ban 是原形動詞，不能直接接在 has never 之後。\n❌ (B) banning 為動名詞／現在分詞，須寫成 has never been banning 才合文法，且語意變成進行中的動作。\n❌ (D) bans 為第三人稱單數現在式，不能與助動詞 has 連用。\n📚 出處：英文文法—現在完成式 have/has + p.p. 結構與頻率副詞 never 的位置。"
   },
   {
    "n": 47,
@@ -676,7 +677,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "others"
    ],
    "psg": "impossible to take your pet shopping or dining? Not necessarily. One store chain that specializes in home decor merchandise has never 46 pets from entering in the company of their owners since its founding 15 years ago. Furthermore, four to five years ago, it took 47 step toward welcoming four-legged furry friends with open arms by providing pets-only shopping carts for pet owners to spend 48 time shopping with their pets. When asked whether any 49 customers have opposed the service, Chen said that as of today, there have not been any complaints about the service, which is widely accepted by customers. Occasionally, the store finds that the service encourages 50 interaction among customers since pets are a great reason for starting up a conversation. Use of the pet cart service is high, and there are frequently no vacant carts during weekends and holidays.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) another 意為「另一個」，後接單數可數名詞，take another step toward...「朝⋯⋯又跨出一步」，與空格後的單數 step 相符。\n❌ (A) other 當形容詞時後面要接複數或不可數名詞（other steps），不能修飾單數的 step。\n❌ (B) one another 是「彼此」的相互代名詞，不能當形容詞放在名詞前。\n❌ (D) others 等於 other ones，本身是代名詞，後面不可再接名詞。\n📚 出處：英文文法—another／other／others／one another 的用法區別。"
   },
   {
    "n": 48,
@@ -690,7 +692,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "quarrel"
    ],
    "psg": "impossible to take your pet shopping or dining? Not necessarily. One store chain that specializes in home decor merchandise has never 46 pets from entering in the company of their owners since its founding 15 years ago. Furthermore, four to five years ago, it took 47 step toward welcoming four-legged furry friends with open arms by providing pets-only shopping carts for pet owners to spend 48 time shopping with their pets. When asked whether any 49 customers have opposed the service, Chen said that as of today, there have not been any complaints about the service, which is widely accepted by customers. Occasionally, the store finds that the service encourages 50 interaction among customers since pets are a great reason for starting up a conversation. Use of the pet cart service is high, and there are frequently no vacant carts during weekends and holidays.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) spend quality time (with...) 是固定搭配，指「共度有品質的時光」；此處說店家提供寵物專用推車，讓飼主能和寵物悠閒地一起逛街。\n❌ (B) quantity 指「數量」，並無 quantity time 這種說法。\n❌ (C) queer 意為「奇怪的」，與購物情境的正面語氣不合。\n❌ (D) quarrel 是「爭吵」，不僅不能這樣搭配，語意也與全文的友善氛圍相反。\n📚 出處：英文字彙—常見搭配 spend quality time with someone。"
   },
   {
    "n": 49,
@@ -704,7 +707,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "conscious"
    ],
    "psg": "impossible to take your pet shopping or dining? Not necessarily. One store chain that specializes in home decor merchandise has never 46 pets from entering in the company of their owners since its founding 15 years ago. Furthermore, four to five years ago, it took 47 step toward welcoming four-legged furry friends with open arms by providing pets-only shopping carts for pet owners to spend 48 time shopping with their pets. When asked whether any 49 customers have opposed the service, Chen said that as of today, there have not been any complaints about the service, which is widely accepted by customers. Occasionally, the store finds that the service encourages 50 interaction among customers since pets are a great reason for starting up a conversation. Use of the pet cart service is high, and there are frequently no vacant carts during weekends and holidays.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) conservative 意為「保守的」；本句問「是否有保守的顧客反對這項服務」，與後面的 opposed、complaints 語意呼應。\n❌ (A) consecutive 是「連續的」，用來修飾天數、次數（three consecutive days），修飾 customers 不通。\n❌ (C) consequent 是「隨之而來的」，多修飾結果或損害（consequent damage），不能形容顧客。\n❌ (D) conscious 是「有意識的、察覺到的」，須用 be conscious of 或複合形容詞（health-conscious），單獨修飾此處語意不明。\n📚 出處：英文字彙—con- 開頭形近字（consecutive／conservative／consequent／conscious）辨析。"
   },
   {
    "n": 50,
@@ -718,7 +722,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c002'] = {
     "positive"
    ],
    "psg": "impossible to take your pet shopping or dining? Not necessarily. One store chain that specializes in home decor merchandise has never 46 pets from entering in the company of their owners since its founding 15 years ago. Furthermore, four to five years ago, it took 47 step toward welcoming four-legged furry friends with open arms by providing pets-only shopping carts for pet owners to spend 48 time shopping with their pets. When asked whether any 49 customers have opposed the service, Chen said that as of today, there have not been any complaints about the service, which is widely accepted by customers. Occasionally, the store finds that the service encourages 50 interaction among customers since pets are a great reason for starting up a conversation. Use of the pet cart service is high, and there are frequently no vacant carts during weekends and holidays.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) positive interaction 指「正向互動」；後一句說寵物是開啟話題的好理由，顯示這項服務讓顧客之間的互動變得更好，故選正面語意的形容詞。\n❌ (A) neutral 是「中立的」，與 encourages（鼓勵）所帶的正面語氣不合。\n❌ (B) negative 是「負面的」，與後文顧客因寵物而開啟對話的結果矛盾。\n❌ (C) detached 是「疏離的、不介入的」，與 interaction among customers 互相牴觸。\n📚 出處：英文字彙與篇章理解—依上下文語氣（encourages、starting up a conversation）判斷形容詞。"
   }
  ]
 };
