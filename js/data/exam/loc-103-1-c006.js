@@ -662,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c006'] = {
     "cure"
    ],
    "psg": "there are many things to 46 . First, what do you want to appear in the 47 of the photo you are taking and what will be in the background? Second, you will have to choose between getting a 48 or a distance shot. Third, how will you need to adjust the camera so that the film is not under- or over-exposed because of the amount of light? If you are indoors, the lighting may be 49 and you can use the indoor setting. However, when you are outdoors, you will need to adjust the camera settings so as not to get too much 50 from the sun. Even though there are so many factors to take into consideration, most people with a lot of practice can succeed in getting excellent photographs.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「consider」意為「考慮、思量」。本句說拍照時有許多事情要考慮，後文緊接著用 First / Second / Third 列出構圖、取景距離、光線三項考量，語意完全呼應。\n❌ (A) 「conclude」是下結論、結束，與後文才要展開的列舉相矛盾。\n❌ (C) 「compete」是競爭，攝影前的思考過程並無競爭對象，語意不通。\n❌ (D) 「cure」是治療、醫治，用於疾病或問題，不能接「many things」作拍照考量。\n📚 出處：本篇短文首句與其後 First / Second / Third 三項列舉的呼應結構；片語 take ... into consideration（文末亦出現）同源於 consider。"
   },
   {
    "n": 47,
@@ -676,7 +677,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c006'] = {
     "foreground"
    ],
    "psg": "there are many things to 46 . First, what do you want to appear in the 47 of the photo you are taking and what will be in the background? Second, you will have to choose between getting a 48 or a distance shot. Third, how will you need to adjust the camera so that the film is not under- or over-exposed because of the amount of light? If you are indoors, the lighting may be 49 and you can use the indoor setting. However, when you are outdoors, you will need to adjust the camera settings so as not to get too much 50 from the sun. Even though there are so many factors to take into consideration, most people with a lot of practice can succeed in getting excellent photographs.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「foreground」是照片的「前景」，與同句句尾的 background（背景）恰成一組對比：你要讓什麼出現在前景、什麼留在背景，這正是構圖的第一個考量。\n❌ (A) 「portrait」指人像照或直式版面，無法與 background 形成前後景的對照。\n❌ (B) 「sideline」意為邊線、副業，不是攝影畫面的區位用語。\n❌ (C) 「timer」是計時器、定時自拍功能，屬相機操作而非畫面中「出現在何處」的位置。\n📚 出處：本句 in the ___ of the photo 與 in the background 的反義對照；foreground / background 為攝影構圖的固定搭配術語。"
   },
   {
    "n": 48,
@@ -690,7 +692,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c006'] = {
     "color"
    ],
    "psg": "there are many things to 46 . First, what do you want to appear in the 47 of the photo you are taking and what will be in the background? Second, you will have to choose between getting a 48 or a distance shot. Third, how will you need to adjust the camera so that the film is not under- or over-exposed because of the amount of light? If you are indoors, the lighting may be 49 and you can use the indoor setting. However, when you are outdoors, you will need to adjust the camera settings so as not to get too much 50 from the sun. Even though there are so many factors to take into consideration, most people with a lot of practice can succeed in getting excellent photographs.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「close-up」是特寫、近距離鏡頭，與句中另一選項 distance shot（遠景鏡頭）構成遠近二選一的對比，符合「choose between A or B」的結構。\n❌ (B) 「moving shot」指運鏡、動態鏡頭，屬動靜之別，與遠近距離不是同一組對比。\n❌ (C) 「dimmed」是（光線）調暗的，屬第三點光線的範疇，且形容詞不能與 shot 構成對比的名詞組。\n❌ (D) 「color shot」是彩色照片，與 distance shot 並非同一分類標準下的兩端。\n📚 出處：本句 choose between getting a ___ or a distance shot 的二擇一對比結構；close-up shot 為攝影特寫的標準說法。"
   },
   {
    "n": 49,
@@ -704,7 +707,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c006'] = {
     "relayed"
    ],
    "psg": "there are many things to 46 . First, what do you want to appear in the 47 of the photo you are taking and what will be in the background? Second, you will have to choose between getting a 48 or a distance shot. Third, how will you need to adjust the camera so that the film is not under- or over-exposed because of the amount of light? If you are indoors, the lighting may be 49 and you can use the indoor setting. However, when you are outdoors, you will need to adjust the camera settings so as not to get too much 50 from the sun. Even though there are so many factors to take into consideration, most people with a lot of practice can succeed in getting excellent photographs.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「artificial」意為人造的。室內照明多半是人造光（artificial lighting），所以可以直接使用相機的室內模式；與下一句 outdoors 的太陽光形成對照。\n❌ (B) 「transparent」是透明的，用來形容玻璃等材質，不用來描述光線的來源。\n❌ (C) 「split」是分裂的、分開的，與室內照明的性質無關。\n❌ (D) 「relayed」是被轉播、被轉送的，多用於訊號或訊息，不能形容燈光。\n📚 出處：本文 If you are indoors ... However, when you are outdoors 的語境對照；artificial light（人造光）相對於 natural light（自然光）為攝影常用語。"
   },
   {
    "n": 50,
@@ -718,7 +722,8 @@ window.APP_EXAM_PAPERS['loc-103-1-c006'] = {
     "glare"
    ],
    "psg": "there are many things to 46 . First, what do you want to appear in the 47 of the photo you are taking and what will be in the background? Second, you will have to choose between getting a 48 or a distance shot. Third, how will you need to adjust the camera so that the film is not under- or over-exposed because of the amount of light? If you are indoors, the lighting may be 49 and you can use the indoor setting. However, when you are outdoors, you will need to adjust the camera settings so as not to get too much 50 from the sun. Even though there are so many factors to take into consideration, most people with a lot of practice can succeed in getting excellent photographs.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「glare」指刺眼的強光、眩光。戶外拍攝要調整相機設定，以免太陽造成過強的眩光，正與前文提到的 over-exposed（曝光過度）相呼應。\n❌ (A) 「radiation」是輻射，屬物理或醫學用語，不是攝影描述陽光過亮的說法。\n❌ (B) 「tanning」是（皮膚）曬黑，講的是人被曬，與相機設定無關。\n❌ (C) 「undertone」指色彩的底色或言外之意，無法表達陽光過強的問題。\n📚 出處：本文第三點 under- or over-exposed 與 outdoors 的語境；glare from the sun 為「陽光眩光」的固定用法。"
   }
  ]
 };
