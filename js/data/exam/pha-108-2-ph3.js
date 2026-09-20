@@ -995,7 +995,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph3'] = {
     "僅②③",
     "①②③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 表中列出 Vmax = 450 mg/day 與 KM = 5 mg/L，代表此藥（典型如 phenytoin）依 Michaelis-Menten 容量限制動力學排除。②正確：治療濃度已接近飽和，加倍日劑量後新的 Css 會高於原來的兩倍；③正確：AUC = 劑量/清除率，劑量加倍使清除率下降，AUC 因而大於兩倍，但 Cp0 = 劑量/Vd，分布體積不隨劑量改變，初始濃度仍恰為兩倍。\n❌ (A) 含①。非線性排除的藥品沒有固定半衰期，濃度愈高表觀半衰期愈長，不能用「約 5 個半衰期」估達穩態時間。\n❌ (B) 同樣誤把①當正確，且漏掉②這個容量限制動力學最典型的特徵。\n❌ (D) 三項全選等於承認①，與表中給出 Vmax、KM 的前提互相矛盾。\n📚 出處：Michaelis-Menten（容量限制）排除動力學與 phenytoin 劑量調整，Shargel《Applied Biopharmaceutics and Pharmacokinetics》非線性藥動學章。"
   },
   {
    "n": 71,

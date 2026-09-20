@@ -714,7 +714,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
     "為P-glycoprotein的受質",
     "對於opioid受體的親和力太弱"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 圖示化合物為 loperamide，屬 μ-opioid 受體作用劑。它之所以只在腸道產生止瀉作用而無中樞效果，是因為它是血腦障壁內皮細胞上 P-glycoprotein 的良好受質，進入腦部後隨即被主動幫浦打回血液，腦內濃度無法累積。\n❌ (A) 其半衰期長達 9～14 小時，並不算短；何況半衰期長短決定的是作用持續時間，不決定能否進入中樞。\n❌ (B) 分子脂溶性很高（log P 約 5），穿透生物膜本身沒有困難，問題出在被主動排出而非進不去。\n❌ (D) 它對 μ 受體的親和力與 morphine 相當甚至更高，腸道的強力止瀉作用即由此而來。\n📚 出處：血腦障壁 P-glycoprotein 外排機制與 loperamide 之藥理，Foye's Principles of Medicinal Chemistry 鴉片類藥物章。"
   },
   {
    "n": 51,
@@ -988,7 +989,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
     "促進膽酸（bile acid）之排泄",
     "促進PPARγ 活性"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖示為 statin 類結構，其 dihydroxyheptanoic acid 側鏈（或對應內酯）模擬 HMG-CoA 的受質構型，競爭性抑制 HMG-CoA reductase，阻斷膽固醇生合成的速率決定步驟；肝細胞內膽固醇減少後上調 LDL 受體，加速清除血中 LDL。\n❌ (A) 促進 lipase 生合成屬 fibrate 類經 PPARα 提高 lipoprotein lipase 活性的機轉，主要降的是三酸甘油酯。\n❌ (C) 促進膽酸排泄是 cholestyramine、colestipol 等膽酸結合樹脂的作用方式，該類為不被吸收的高分子陰離子交換樹脂。\n❌ (D) 促進 PPARγ 活性是 thiazolidinedione 類（pioglitazone）降血糖藥的機轉，不是降血脂主力。\n📚 出處：HMG-CoA reductase 抑制劑之構效與機轉，Foye's Principles of Medicinal Chemistry 降血脂藥章。"
   },
   {
    "n": 70,
@@ -1059,7 +1061,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph1'] = {
     "5α-reductase之競爭性抑制劑",
     "aromatase之競爭性抑制劑"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖示為非固醇類的 azole 型芳香酶抑制劑（anastrozole、letrozole 一類），其三唑環的氮以配位方式可逆結合於 aromatase 的血基質鐵，與受質雄固烯二酮競爭活性部位，屬競爭性（可逆）抑制，停藥後酵素活性可恢復。\n❌ (A) 5α-reductase 的 mechanism-based 抑制劑為 finasteride、dutasteride 這類 4-azasteroid，須具固醇骨架，本結構不符。\n❌ (B) aromatase 的 mechanism-based（自殺型）抑制劑是 exemestane、formestane 等固醇類似物，需先被酵素活化再共價結合，屬不可逆。\n❌ (C) 5α-reductase 的競爭性抑制劑同樣為固醇類受質類似物，且該酵素負責睪固酮轉為 DHT，與雌激素合成無關。\n📚 出處：芳香酶抑制劑分類（固醇型不可逆 vs 非固醇型可逆），Foye's Principles of Medicinal Chemistry 荷爾蒙與抗癌藥物章。"
   },
   {
    "n": 75,

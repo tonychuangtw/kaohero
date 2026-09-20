@@ -690,7 +690,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "topoisomerase II",
     "DNA gyrase"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 圖示為 fluoroquinolone 類抗菌劑（4-quinolone-3-carboxylic acid 母核）。其主要標的為細菌的 DNA gyrase，抑制後 DNA 複製時切開的雙股無法再接合、超螺旋也無法解除，造成菌體死亡；對格蘭氏陽性菌則以 topoisomerase IV 為主要標的。\n❌ (A) transamidase（transpeptidase、PBP）是 β-lactam 類抗生素的標的，抑制細胞壁 peptidoglycan 的交聯。\n❌ (B) dihydropteroate synthase 為 sulfonamide 類的標的，屬葉酸生合成途徑的抑制。\n❌ (C) 此處 topoisomerase II 指真核細胞的酵素，是 etoposide、doxorubicin 等抗癌藥的標的，抑制它並無抗菌選擇性。\n📚 出處：Quinolone 類抗菌劑之作用機轉與構效關係，Foye's Principles of Medicinal Chemistry 抗菌藥章。"
   },
   {
    "n": 49,
@@ -986,7 +987,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "抑制HMG-CoA reductase",
     "促進膽酸（bile acid）之排泄"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 圖示為 ezetimibe，選擇性結合小腸刷狀緣的 NPC1L1（Niemann-Pick C1-like 1）轉運蛋白，阻斷膽固醇與植物固醇自腸腔進入腸細胞；肝臟膽固醇來源減少後上調 LDL 受體，使血中 LDL 下降。\n❌ (B) 使 LDL 不易被氧化是抗氧化型降血脂藥（如 probucol）的特色，降 LDL 的幅度有限且機轉不同。\n❌ (C) 抑制 HMG-CoA reductase 是 statin 類的機轉，結構上需有模擬受質的 dihydroxyheptanoic acid 側鏈。\n❌ (D) 促進膽酸排泄是 cholestyramine、colestipol 等膽酸結合樹脂的作用，該類藥為不被吸收的陰離子交換樹脂。\n📚 出處：Ezetimibe 抑制 NPC1L1 之機轉，Foye's Principles of Medicinal Chemistry 降血脂藥章。"
   },
   {
    "n": 70,

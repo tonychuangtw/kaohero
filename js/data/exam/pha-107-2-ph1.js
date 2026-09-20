@@ -312,7 +312,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "Amiloride",
     "Chlorthalidone"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 圖中位置 7 為集尿管，該處水的再吸收必須靠抗利尿激素（ADH／vasopressin）活化 V2 受體、使 aquaporin-2 水通道插入管腔膜才能進行。ADH 拮抗劑（tolvaptan、conivaptan 等 vaptan 類）阻斷此路徑，直接抑制水的再吸收，產生排水而不排鈉的利尿（aquaresis）。\n❌ (A) Spironolactone 在集尿管拮抗 aldosterone 受體，抑制的是 Na⁺ 再吸收與 K⁺ 排泄，水只是被動跟著鈉走。\n❌ (C) Amiloride 阻斷集尿管管腔膜的上皮鈉通道（ENaC），作用對象同樣是 Na⁺ 而非水通道。\n❌ (D) Chlorthalidone 屬 thiazide 類，作用於遠曲小管的 Na⁺-Cl⁻ 共同轉運體，與集尿管的水再吸收無關。\n📚 出處：腎小管各節段轉運與利尿劑作用部位；vasopressin V2 受體拮抗劑之 aquaresis 機轉，Katzung《Basic & Clinical Pharmacology》利尿劑章。"
   },
   {
    "n": 22,
@@ -970,7 +971,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "1號位置的取代基由甲基改為丙基時，amphetamine-like作用減弱",
     "將2號位置的-CH2-改為-CO-時，amphetamine-like作用減弱"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 將 2 號位置的 -CH2- 改為 -CO-，得到的是 cathinone 型結構（cathinone、methcathinone 等）。這類化合物的中樞興奮與 amphetamine-like 作用並未減弱，反而與 amphetamine 相當甚至更強，故本敘述錯誤。\n❌ (A) 末端氮上加一個甲基即由 amphetamine 變成 methamphetamine，脂溶性提高、更易進入中樞，作用增強，敘述正確。\n❌ (B) amphetamine 的 S-(+)-異構物（dextroamphetamine）中樞作用約為 R-(−)-體的 3～4 倍，敘述正確。\n❌ (C) α 碳（1 號位置）取代基由甲基加大為丙基後，與單胺轉運體的立體適配變差、釋放兒茶酚胺的能力下降，敘述正確。\n📚 出處：Phenylethylamine 類中樞興奮劑之構效關係，Foye's Principles of Medicinal Chemistry 擬交感神經藥物章。"
   },
   {
    "n": 69,
