@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent3'] = {
     "牙周瓣膜手術一直到術後3個月仍然持續進行成熟（maturation）及重塑（remodeling）",
     "從美容的觀點而言，儘可能將做假牙的時間延長，可以獲得較穩定的術後軟組織位置"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此敘述錯誤在把期程限縮於 3 個月：牙周翻瓣術後軟組織與骨的成熟、重塑可持續 6 個月以上，牙齦邊緣位置要到那時才逐漸穩定，說「到術後 3 個月」明顯低估。\n❌ (A) 把瓣膜置於邊緣骨的根方、任骨面裸露，確實就是所謂的 denudation（裸露法）。\n❌ (B) 骨面直接暴露會造成表層骨壞死與吸收，導致骨高度喪失，敘述正確。\n❌ (D) 軟組織位置尚在改變時就做最終假牙，日後容易出現牙齦退縮、假牙邊緣外露，從美觀考量本就應延後製作，敘述正確（也正好對應 C 的期程不只 3 個月）。\n📚 出處：Newman & Carranza, Clinical Periodontology（Periodontal flap surgery：healing after flap surgery、denudation）。"
   },
   {
    "n": 72,

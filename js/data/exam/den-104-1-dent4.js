@@ -262,7 +262,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "由anaerobic gram-negative cocci所主導的感染是屬於opportunistic infection",
     "在顏面較深層組織的感染，由於血液供應不良，容易由anaerobic菌叢主導感染"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 此敘述錯誤：深層顏面間隙感染以厭氧菌為主，原因不是該處血液供應不良，而是初期需氧菌耗掉組織內的氧、使氧化還原電位下降，形成利於厭氧菌繁殖的環境。\n❌ (A) 齒源性感染早期的蜂窩組織炎確實以需氧性鏈球菌為主，臨床呈瀰漫性、硬、壓痛的腫脹。\n❌ (B) 進展到膿瘍形成期後菌相轉為厭氧菌主導，膿液惡臭、病灶界限較清楚。\n❌ (C) 齒源性感染的致病菌來自口腔常在菌叢，在宿主防禦下降或局部環境改變時才造成疾病，屬伺機性感染。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery（Odontogenic infections：microbiology 與 stages of infection）。"
   },
   {
    "n": 19,
