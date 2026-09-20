@@ -180,7 +180,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent1'] = {
     "舌扁桃體",
     "咽扁桃體"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 腭扁桃體位於口咽外側壁的扁桃窩內，其前界為咽門前柱（腭舌弓）、後界為咽門後柱（腭咽弓），正是題目③所指的淋巴組織聚集區；它與舌扁桃體、咽扁桃體共同組成 Waldeyer 淋巴環。\n❌ (A) 腺扁桃體即腺樣體，位於鼻咽頂後壁，不在兩條咽門柱之間。\n❌ (C) 舌扁桃體位於舌根背面界溝後方，形成舌後段表面的結節狀隆起，位置在口咽前下方。\n❌ (D) 咽扁桃體與 (A) 的腺扁桃體是同一構造，同樣位於鼻咽頂部，肥大時造成鼻塞與口呼吸。\n📚 出處：Netter, Atlas of Human Anatomy（Pharynx：Waldeyer's tonsillar ring 與 tonsillar fossa 界線）。"
   },
   {
    "n": 13,
@@ -711,7 +712,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent1'] = {
     "藍痣細胞（blue nevus cell）",
     "噬黑色素細胞（melanophage）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 吸菸者黑色素沉著（smoker's melanosis）的機轉是菸害刺激基底層黑色素細胞增產黑色素，黑色素顆粒掉落至上皮下方（melanin incontinence），再被固有層的巨噬細胞吞噬，這些飽含棕黑色顆粒、位於上皮「下方」固有層的細胞即噬黑色素細胞。\n❌ (A) 黑色素細胞位於上皮基底層之內、胞體透明帶樹突，不會成群落在固有層。\n❌ (B) 痣細胞是痣病灶中失去樹突並成巢排列的變異黑色素細胞，本例為瀰漫性色素沉著而非有細胞巢的痣。\n❌ (C) 藍痣細胞為深層結締組織中細長梭形、帶樹突的色素細胞，臨床呈藍色圓頂狀結節，與吸菸無關。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Smoker's Melanosis；melanin incontinence 與 melanophage）。"
   },
   {
    "n": 51,

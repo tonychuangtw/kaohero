@@ -737,7 +737,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "①④",
     "②④"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 箭頭所指為球間牙本質（interglobular dentin）。牙本質礦化以鈣化球（calcospherite）逐顆長大再融合的方式進行，當鈣化球未能完全融合時，球與球之間會殘留礦化不足的基質，形成形狀不規則、邊緣呈扇貝狀的低度礦化區，故正確組合為②低度礦化＋③球間牙本質。\n❌ (A) ①與③自相矛盾：球間牙本質的定義就是礦化不完全，不可能是高度礦化區。\n❌ (C) ①④兩項皆不符：管間牙本質是礦化正常的牙本質主體，並非圖中不規則的低礦化區。\n❌ (D) ②低度礦化雖對，但④管間牙本質指的是牙本質小管之間的一般基質，不是未融合鈣化球之間的空隙。\n📚 出處：Nanci, Ten Cate's Oral Histology（Dentin：mineralization by calcospherites 與 interglobular dentin）。"
   },
   {
    "n": 53,

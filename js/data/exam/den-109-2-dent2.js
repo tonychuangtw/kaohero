@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent2'] = {
     "原基性囊腫（primordial cyst）",
     "史塔尼骨缺損（Stafne defect）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 史塔尼骨缺損是下顎骨舌側皮質骨的局部凹陷，內含下顎下腺組織或脂肪，典型位置就在下顎角區、下齒槽神經管「下方」，X 光呈周界清晰、常帶硬化緣的卵圓形透過影像，且完全無症狀，與本題敘述完全吻合，屬發育性變異、不需治療。\n❌ (A) 造釉細胞瘤多呈多房「肥皂泡」狀、會膨脹並穿破皮質骨、造成鄰牙牙根吸收，不會固定長在神經管下方且毫無症狀。\n❌ (B) 根尖囊腫源自失去活性的牙髓，病灶必定與該牙根尖相連，本例位於神經管下方、與牙齒無關。\n❌ (C) 原基性囊腫（現多歸為齒源性角化囊腫）發生於牙齒應形成卻未形成之處，位在牙齒承載區而非神經管下方。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Stafne defect / static bone cyst）。"
   },
   {
    "n": 3,
@@ -53,7 +54,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent2'] = {
     "白黴菌病（mucormycosis）",
     "毒漿體病（toxoplasmosis）"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 南美釀母菌病由 Paracoccidioides brasiliensis 引起，其酵母型母細胞周圍會同時長出多個子芽，切片上呈「船舵輪」或「米老鼠耳朵」外觀，常見於肉芽腫性發炎的多核巨細胞內，口腔可出現桑椹樣（moriform）潰瘍。\n❌ (B) 組織漿球菌病的酵母體小（2～4 μm）、以單一窄頸出芽，成群聚在巨噬細胞胞質內呈細點狀，不會有多芽的耳朵樣輪廓。\n❌ (C) 白黴菌病所見為寬大、少隔、呈 90 度分支並侵犯血管的菌絲，根本不是出芽酵母形態。\n❌ (D) 毒漿體病由弓形蟲造成，組織內為速殖子或假囊，屬原蟲而非真菌，無出芽結構。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Deep Fungal Infections：Paracoccidioidomycosis）。"
   },
   {
    "n": 4,
@@ -430,7 +432,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent2'] = {
     "體心立方（body-centered cubic）",
     "面心立方（face-centered cubic）"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 金屬於面心立方（FCC）：立方晶胞的 8 個角各有一顆原子、6 個面心各有一顆，每晶胞淨含 4 個原子，配位數 12、堆積率 74%。FCC 的滑移系統多達 12 組，這正是金延展性極佳、可打成金箔並適合做鑄造合金的原因。\n❌ (A) 六方最密堆積堆積率同為 74%，但晶胞為六方柱、滑移系統少而較脆，代表金屬是鋅、鎂、鈦。\n❌ (B) 簡單立方只有 8 個角落原子、每晶胞 1 個原子、堆積率僅 52%，實際金屬中極為罕見。\n❌ (C) 體心立方為角落原子加一個體心原子、每晶胞 2 個原子、堆積率 68%，代表金屬為 α 鐵、鉻、鉬。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 12th ed.（Structure of Metals and Alloys：crystal lattice types）。"
   },
   {
    "n": 31,
@@ -513,7 +516,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent2'] = {
     "延長率（elongation）",
     "斷裂強度（fracture strength）"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 應力-應變曲線「自原點到斷裂點為止的整塊面積」代表單位體積材料在斷裂前所能吸收的總能量，即韌性（toughness）；面積愈大表示材料兼具強度與變形能力、愈不易脆裂。若只取彈性段（到比例限）以下的面積，則稱為回彈性（resilience）。\n❌ (A) 剛性由曲線彈性段的斜率（彈性模數）表示，看的是斜率而非面積。\n❌ (C) 延長率是斷裂時橫軸上的應變量，即永久變形百分比，只讀 x 軸單一數值。\n❌ (D) 斷裂強度是斷裂那一點所對應的應力值，屬曲線上的單一縱座標，不是面積。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Mechanical Properties：toughness 與 resilience 的定義）。"
   },
   {
    "n": 37,

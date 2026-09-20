@@ -744,7 +744,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent1'] = {
     "上皮過度角化及增生",
     "上皮過度角化但萎縮"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 頰黏膜沿咬合平面出現的白色水平線條為白線（linea alba），成因是牙齒長期摩擦與吸吮造成的慢性機械刺激，組織學表現為表層過度角化（hyperkeratosis）合併棘細胞層增厚（acanthosis），即上皮過度角化「及」增生，屬良性變化不需治療。\n❌ (A) 上皮萎縮合併上皮下結締組織纖維化是口腔黏膜下纖維化的典型變化，臨床會有黏膜僵硬蒼白與張口受限。\n❌ (B) 上皮增生併結締組織纖維化較符合慢性刺激形成的纖維瘤，會呈現突起的團塊而非細線條。\n❌ (D) 過度角化但上皮萎縮多見於萎縮型扁平苔癬等病灶，臨床常合併紅斑、糜爛或放射狀白紋。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Linea Alba：hyperkeratosis with acanthosis）。"
   },
   {
    "n": 53,
