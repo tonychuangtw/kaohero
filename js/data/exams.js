@@ -10920,7 +10920,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（二）",
   "label": "102 年第一次　牙醫學（二）",
   "n": 80,
-  "exp": 75,
+  "exp": 76,
   "mins": 60
  },
  {
@@ -48440,7 +48440,7 @@ window.APP_EXAMS = [
   "subjName": "運輸學大意",
   "label": "113 年　初等考試　運輸學大意",
   "n": 50,
-  "exp": 48,
+  "exp": 49,
   "mins": 60
  },
  {
