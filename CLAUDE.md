@@ -147,6 +147,24 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 2026-09-21 結果：135 科好、156 普通、8 差；差的全是牙醫與解剖／生理——**那些詳解的出處只寫書名版次**，
 沒有章節名就歸不出考點。`tools/exp-prompt*.md` 已加「書名一定要帶到章節名」的規定，之後補寫會改善。
 
+## 付費／金流（2026-09-21 起）
+
+- 前端：`js/pay.js` ＋ `#/plans`、`#/account`；付費牆用 `KHPay.can(科目)` 與 `KHPay.canAny()`，
+  擋在三個入口：`js/export.js` 的 `render()`、`js/app.js` 的 `viewWrong()`（今日複習那張卡）、
+  `js/diagnose.js` 的補弱題單。**牆關著或還沒問到後端時一律放行**（寧可少收錢也不要擋到現有使用者）
+- 後端：`claude-shared/projects/LanExamMock/backend/ecpay.js` ＋ `kaohero.js` 的 `/api/kgh/pay/*`
+- 環境變數（後端 `.env`）：
+  `ECPAY_MERCHANT_ID`／`ECPAY_HASH_KEY`／`ECPAY_HASH_IV`（**三個都設齊才切到正式環境**，少一個就整組
+  退回綠界測試帳號）、`KAOHERO_PAYWALL=on`（預設關）、`KAOHERO_SITE`、`KAOHERO_API`、
+  `KAOHERO_PRICE_SUBJ180`／`KAOHERO_PRICE_ALL180`
+- ⚠️ **只有 `/pay/notify`（綠界 server-to-server）能開通權益**；`/pay/result` 是使用者的瀏覽器被導回來的，
+  可以偽造，只拿來換頁
+- ⚠️ 金額一律以後端方案表為準，不接受前端傳的金額；回呼會比對 `TradeAmt` 與訂單金額
+- ⚠️ CheckMacValue 錯的話綠界只回「CheckMacValue Error」，不會說錯在哪。算法已用官方文件的範例值
+  釘在 `test/kgh-pay-test.js`，改動那段之後一定要跑：`node test/kgh-pay-test.js`
+- 驗整條流程：`node test/kgh-pay-test.js`（32 項）；要真的打綠界測試環境就把 `buildCheckout` 產的
+  表單 POST 到 `https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5`，回「選擇支付方式」頁就是對的
+
 ## 其他
 
 - 間隔重複排程：`js/app.js` 的 `bumpWrongSchedule`／`dueList`（錯題帶 `box` 1~3 與 `due`）；
