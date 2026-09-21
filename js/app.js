@@ -28,6 +28,15 @@
       var o = JSON.parse(localStorage.getItem(KEY) || '{}');
       state.stats = o.stats || {}; state.wrong = o.wrong || []; state.last = o.last || null;
       state.drafts = o.drafts || {}; state.mocks = o.mocks || []; state.nick = o.nick || null;
+      // 2026-09-21 前的錯題沒有排程欄位：用舊的 s（連續答對次數）換算成關數，
+      // due 補成今天＝馬上可以複習，不讓既有使用者的錯題憑空延後。
+      var migrated = false;
+      state.wrong.forEach(function (w) {
+        if (!w.box) { w.box = Math.min((w.s || 0) + 1, 3); migrated = true; }
+        if (!w.due) { w.due = today(); migrated = true; }
+      });
+      // 補完就寫回去：不寫的話每次開頁都要重算，登入同步上去的也還是舊格式
+      if (migrated) save();
     } catch (e) {}
     pruneDrafts();
   }
@@ -391,8 +400,12 @@
     var t = totals();
     var s3 = el('section', 'sec');
     s3.appendChild(sectionHead(T('我的練習狀況'), T('看完整統計 →'), '#/stats'));
+    // 第三格改成「今日該複習」：錯題總數是靜態數字，看久了沒感覺；
+    // 排程到期的題數才是「今天要動手做的事」（2026-09-21 加了間隔重複之後）。
+    var dueN = dueList().length;
     s3.appendChild(kpis([[t.n.toLocaleString(), T('已作答')],
-      [t.n ? t.rate + '%' : '—', T('正確率')], [String(state.wrong.length), T('錯題待複習')]]));
+      [t.n ? t.rate + '%' : '—', T('正確率')],
+      [String(dueN || state.wrong.length), dueN ? T('今日該複習') : T('錯題待複習')]]));
     var br2 = el('div', 'btnrow'); br2.style.marginTop = '12px';
     var dr = latestDraft();
     if (dr) {
@@ -401,7 +414,9 @@
     } else if (state.last) {
       br2.appendChild(btn(T('再做一次：') + state.last.label, 'o', null, '#/paper/' + state.last.id));
     }
-    br2.appendChild(btn(T('複習錯題本'), 'o', null, '#/wrong'));
+    br2.appendChild(dueN
+      ? btn(T('今日複習（') + Math.min(dueN, DUE_BATCH) + T(' 題）'), 'o', null, '#/wrong')
+      : btn(T('複習錯題本'), 'o', null, '#/wrong'));
     br2.appendChild(btn(T('⏱️ 模擬考'), 'o', null, '#/mock'));
     s3.appendChild(br2); main.appendChild(s3);
 
@@ -663,6 +678,14 @@
       location.hash = '#/quiz';
     });
   }
+  /* 今日複習：只練「今天到期」的錯題，一次最多 DUE_BATCH 題。
+     整本錯題本一次刷完對考生沒有幫助（也刷不完），排程的意義就是每天只還一小筆債。 */
+  function startDue() {
+    var ws = dueList().slice(0, DUE_BATCH);
+    if (!ws.length) return toast(T('今天沒有到期的錯題，明天再來。'));
+    startWrongList(ws.map(function (w) { return { pid: w.pid, n: w.n }; }), T('今日複習'));
+  }
+
   function startWrong(sid) {
     var ws = state.wrong.filter(function (w) {
       if (!sid) return true; var e = examOf(w.pid); return e && e.subj === sid;
@@ -783,19 +806,55 @@
   }
 
   /* 記一題的統計與錯題狀態。整卷測驗是答一題記一次，模擬考則在交卷時整卷記一次。 */
+  /* ============ 錯題的間隔重複排程（2026-09-21，移植 chinese 線 K12Review 的 bumpWrongSchedule）
+     一題答錯後分三關畢業：答對一次排 3 天後再考、再答對排 7 天、第三次答對才真的移出錯題本。
+     中途答錯就打回第一關、隔天再考。
+     - `box` 1~3＝目前在第幾關；`due`＝下次該複習的日期（YYYY-MM-DD，本地時區）
+     - `s` 是舊欄位（連續答對次數），仍同步維護：使用者的舊瀏覽器分頁或還沒更新快取的裝置
+       只看得懂 `s`，不同步會讓那邊的「還沒答對過」全部誤判。s = box - 1。
+     ⚠️ 日期一律用本地時區算：toISOString() 是 UTC，台灣早上 8 點前會整個差一天。 ============ */
+  var BOX_DAYS = [3, 7];          // 升到第 2 關排 3 天後、升到第 3 關排 7 天後
+  var DUE_BATCH = 20;             // 「今日複習」一次最多 20 題
+  function fmtDate(d) {
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
+  function today() { return fmtDate(new Date()); }
+  function plusDays(days) {
+    var d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() + days); return fmtDate(d);
+  }
+  /* 答完一題之後更新排程。回傳 'graduate' 代表這題可以移出錯題本了。 */
+  function bumpWrongSchedule(w, good) {
+    if (!good) { w.box = 1; w.due = plusDays(1); w.s = 0; return 'reset'; }
+    var box = (w.box || 1) + 1;
+    if (box > 3) return 'graduate';
+    w.box = box; w.s = box - 1;
+    w.due = plusDays(BOX_DAYS[box - 2]);
+    return 'up';
+  }
+  function isDue(w, t) { return (w.due || t) <= t; }
+  /* 今天該複習的錯題：到期的優先，同樣到期時「關數低（還不熟）」與「到期比較久」的排前面。 */
+  function dueList() {
+    var t = today();
+    return state.wrong.filter(function (w) { return isDue(w, t); }).sort(function (a, b) {
+      var ba = a.box || 1, bb = b.box || 1;
+      if (ba !== bb) return ba - bb;
+      var da = a.due || '', db = b.due || '';
+      return da < db ? -1 : da > db ? 1 : 0;
+    });
+  }
+
   function recordAnswer(pid, n, good) {
     var st = state.stats[pid] || (state.stats[pid] = { n: 0, ok: 0 });
     st.n++; if (good) st.ok++;
     var wi = -1;
     state.wrong.forEach(function (w, idx) { if (w.pid === pid && w.n === n) wi = idx; });
     if (good) {
-      if (wi >= 0) {
-        var w0 = state.wrong[wi];
-        w0.s = (w0.s || 0) + 1;
-        if (w0.s >= 2) state.wrong.splice(wi, 1);
-      }
-    } else if (wi < 0) state.wrong.push({ pid: pid, n: n, s: 0 });
-    else state.wrong[wi].s = 0;
+      if (wi >= 0 && bumpWrongSchedule(state.wrong[wi], true) === 'graduate') state.wrong.splice(wi, 1);
+    } else if (wi < 0) {
+      state.wrong.push({ pid: pid, n: n, s: 0, box: 1, due: plusDays(1) });
+    } else {
+      bumpWrongSchedule(state.wrong[wi], false);
+    }
   }
 
   function answer(k) {
@@ -831,7 +890,8 @@
       });
       wc.appendChild(p);
       wc.appendChild(el('p', 'lead',
-        T('答錯的題目已自動加入錯題本，連續答對 2 次才會移除（答對一次就移除的話，猜對的題會永久消失）。')));
+        T('答錯的題目已自動加入錯題本，並排進複習行程：答對一次隔 3 天再考、再答對隔 7 天，'
+          + '第三次答對才真的移除（答對一次就移除的話，猜對的題會永久消失）。')));
       var wr = el('div', 'btnrow'); wr.style.marginTop = '12px';
       wr.appendChild(btn(T('立即重練這些錯題'), '', function () {
         startWrongList(wrongList.map(function (w) { return { pid: curPidOf(w), n: w.q.n }; }));
@@ -867,7 +927,7 @@
 
   /* 結算頁「立即重練這些錯題」：只練剛才答錯的那幾題，不摻其他科目的舊錯題。 */
   function curPidOf(w) { return quiz.mode === 'paper' ? quiz.pid : (quiz.meta[w.i] || {}).pid; }
-  function startWrongList(list) {
+  function startWrongList(list, title) {
     if (!list.length) return;
     var ids = {}; list.forEach(function (w) { ids[w.pid] = 1; });
     loadMany(Object.keys(ids), function () {
@@ -879,7 +939,7 @@
         }
       });
       if (!qs.length) return toast(T('這些題目載入失敗，請重新整理再試一次。'));
-      quiz = { mode: 'wrong', sid: null, title: T('重練本卷錯題'), qs: qs, meta: meta, i: 0, ans: [], ok: 0 };
+      quiz = { mode: 'wrong', sid: null, title: title || T('重練本卷錯題'), qs: qs, meta: meta, i: 0, ans: [], ok: 0 };
       location.hash = '#/quiz'; render();
     });
   }
@@ -1558,12 +1618,38 @@
   function viewWrong(main) {
     main.appendChild(el('h1', 'pg-h', T('錯題本')));
     if (!state.wrong.length) {
-      main.appendChild(el('p', 'lead', T('目前沒有錯題。答錯的題目會自動收進這裡，連續答對兩次之後才會移除。')));
+      main.appendChild(el('p', 'lead', T('目前沒有錯題。答錯的題目會自動收進這裡，並排進 1→3→7 天的複習行程。')));
       main.appendChild(btn(T('去刷題'), '', null, '#/exams')); return;
     }
-    main.appendChild(el('p', 'lead', T('共 ') + state.wrong.length + T(' 題。連續答對兩次才會自動移除。')));
+    main.appendChild(el('p', 'lead', T('共 ') + state.wrong.length
+      + T(' 題。答對一次隔 3 天再考、再答對隔 7 天，第三次答對才畢業。')));
+    /* 今日複習（2026-09-21）：排程到期的題優先，一次 20 題。
+       「開始複習」是整本亂數刷，留著給想一次多做的人；預設動線是每天清掉到期的那一小批。 */
+    var due = dueList(), t0 = today();
+    var next = null;
+    state.wrong.forEach(function (w) {
+      var d = w.due || t0;
+      if (d > t0 && (!next || d < next)) next = d;
+    });
+    var sec0 = el('section', 'sec');
+    var pan0 = el('div', 'panel'); pan0.style.padding = '16px';
+    if (due.length) {
+      pan0.appendChild(el('h3', 'ph', T('今日複習　') + Math.min(due.length, DUE_BATCH) + unitQ()));
+      pan0.appendChild(el('p', null, due.length > DUE_BATCH
+        ? (T('今天到期 ') + due.length + T(' 題，先做最不熟的 ') + DUE_BATCH + T(' 題；做完還想做就按「複習全部錯題」。'))
+        : T('這些題今天到期。答對就往後排，答錯就打回第一關、明天再考。')));
+      pan0.appendChild(btn(T('開始今日複習'), 'w', function () { startDue(); }));
+    } else {
+      pan0.appendChild(el('h3', 'ph', T('今天沒有到期的錯題')));
+      pan0.appendChild(el('p', null, next
+        ? (T('下一批排在 ') + next + T('。提早想練就按下面的「複習全部錯題」。'))
+        : T('錯題本裡的題都還沒排到今天。')));
+    }
+    sec0.appendChild(pan0);
+    main.appendChild(sec0);
+
     var row = el('div', 'btnrow');
-    row.appendChild(btn(T('開始複習'), '', function () { startWrong(null); }));
+    row.appendChild(btn(T('複習全部錯題'), 'o', function () { startWrong(null); }));
     row.appendChild(btn(T('匯出 PDF／Anki'), 'o', null, '#/export'));
     row.appendChild(btn(T('清空錯題本'), 'o', function () {
       if (confirm(T('確定要清空錯題本嗎？此動作無法復原。'))) { state.wrong = []; save(); render(); }
@@ -1576,8 +1662,8 @@
     state.wrong.forEach(function (w) {
       byPid[w.pid] = (byPid[w.pid] || 0) + 1;
       var e = examOf(w.pid); if (!e) return;
-      var b = bySubj[e.subj] || (bySubj[e.subj] = { n: 0, hard: 0 });
-      b.n++; if (!(w.s || 0)) b.hard++;
+      var b = bySubj[e.subj] || (bySubj[e.subj] = { n: 0, hard: 0, due: 0 });
+      b.n++; if ((w.box || 1) <= 1) b.hard++; if (isDue(w, t0)) b.due++;
     });
     var s = el('section', 'sec'); s.style.marginTop = '18px';
     s.appendChild(sectionHead(T('依科目')));
@@ -1586,7 +1672,8 @@
     Object.keys(bySubj).sort(function (a, b) { return bySubj[b].n - bySubj[a].n; }).forEach(function (sid) {
       var b = bySubj[sid];
       var row = item('📕', SUBJ[sid] ? SUBJ[sid].name : sid,
-        b.n + unitQ() + (b.hard ? T('　｜還沒答對過 ') + b.hard + unitQ() : T('　｜都至少答對過一次')),
+        b.n + unitQ() + (b.hard ? T('　｜還沒答對過 ') + b.hard + unitQ() : T('　｜都至少答對過一次'))
+          + (b.due ? T('　｜今天到期 ') + b.due + unitQ() : ''),
         function () { startWrong(sid); });
       p.appendChild(row);
     });

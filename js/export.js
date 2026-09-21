@@ -40,10 +40,12 @@
   function subjName(sid) {
     return (A.SUBJ[sid] && A.SUBJ[sid].name) || sid;
   }
+  // 錯題的排程關數（1~3）。2026-09-21 前的資料只有 s（連續答對次數），照舊換算。
+  function boxOf(w) { return w.box || Math.min((w.s || 0) + 1, 3); }
   function picked() {
     return A.wrong.filter(function (w) {
       if (opt.sid && subjOf(w.pid) !== opt.sid) return false;
-      if (opt.hardOnly && (w.s || 0) > 0) return false;
+      if (opt.hardOnly && boxOf(w) > 1) return false;   // box 1＝還在第一關，連一次都沒答對
       return true;
     });
   }
@@ -65,7 +67,7 @@
         if (!q) return;
         var e = A.examOf(w.pid);
         out.push({
-          pid: w.pid, n: w.n, q: q, s: w.s || 0, exam: e,
+          pid: w.pid, n: w.n, q: q, box: boxOf(w), due: w.due || '', exam: e,
           subj: e ? e.subj : '', label: (e && e.label) || (p && p.title) || w.pid
         });
       });
@@ -170,7 +172,7 @@
     var head = el('div', 'px-head');
     head.appendChild(el('span', 'px-i', String(i)));
     head.appendChild(el('span', 'px-src', it.label + T('　原卷第 ') + q.n + T(' 題')));
-    if (!it.s) head.appendChild(el('span', 'px-tag', T('還沒答對過')));
+    if (it.box <= 1) head.appendChild(el('span', 'px-tag', T('還沒答對過')));
     box.appendChild(head);
 
     if (q.psg) {
@@ -304,7 +306,7 @@
     var s = subjName(it.subj).replace(/\s+/g, '');
     if (s) t.push(s);
     t.push(it.pid);
-    if (!it.s) t.push('還沒答對過');
+    if (it.box <= 1) t.push('還沒答對過');
     return t.join(' ');
   }
 

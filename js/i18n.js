@@ -276,8 +276,8 @@
       'Official question count and time limit; answers revealed only after you submit',
     /* --- 錯題本強化（2026-09-11） --- */
     '錯題本（': 'Wrong answers (',
-    '答錯的題目已自動加入錯題本，連續答對 2 次才會移除（答對一次就移除的話，猜對的題會永久消失）。':
-      'Wrong answers are added to your review list. They are removed only after two correct answers in a row, so questions you merely guessed right do not vanish.',
+    '答錯的題目已自動加入錯題本，並排進複習行程：答對一次隔 3 天再考、再答對隔 7 天，第三次答對才真的移除（答對一次就移除的話，猜對的題會永久消失）。':
+      'Wrong answers go into your review list on a schedule: get it right once and it comes back in 3 days, again in 7, and only a third correct answer retires it \u2014 so questions you merely guessed right do not vanish.',
     '立即重練這些錯題': 'Redo these now',
     '前往錯題本 →': 'Go to wrong answers →',
     '重練本卷錯題': 'Redo this paper\u2019s wrong answers',
@@ -289,6 +289,27 @@
     '　｜還沒答對過 ': ' | never got it right: ',
     '　｜都至少答對過一次': ' | all answered correctly at least once',
     '這一科目前沒有錯題': 'No wrong answers in this subject yet',
+    /* --- 間隔重複複習排程（2026-09-21） --- */
+    '今日複習　': 'Due today: ',
+    '開始今日複習': 'Start today\u2019s review',
+    '複習全部錯題': 'Review everything',
+    '今日複習（': 'Review today (',
+    '今日該複習': 'Due today',
+    '今天沒有到期的錯題': 'Nothing due today',
+    '今天沒有到期的錯題，明天再來。': 'Nothing is due today \u2014 come back tomorrow.',
+    '這些題今天到期。答對就往後排，答錯就打回第一關、明天再考。':
+      'These are due today. Get one right and it moves further out; get it wrong and it resets to tomorrow.',
+    '今天到期 ': 'Due today: ',
+    ' 題，先做最不熟的 ': ' due today; start with the ',
+    ' 題；做完還想做就按「複習全部錯題」。': ' you know least. Want more? Use "Review everything".',
+    '下一批排在 ': 'Next batch is due ',
+    '。提早想練就按下面的「複習全部錯題」。': '. To practise sooner, use "Review everything" below.',
+    '錯題本裡的題都還沒排到今天。': 'None of your wrong answers are scheduled for today.',
+    '　｜今天到期 ': ' | due today: ',
+    '目前沒有錯題。答錯的題目會自動收進這裡，並排進 1→3→7 天的複習行程。':
+      'No wrong answers yet. Anything you get wrong lands here and is scheduled for review after 1, 3 and 7 days.',
+    ' 題。答對一次隔 3 天再考、再答對隔 7 天，第三次答對才畢業。':
+      ' questions. One correct answer pushes it 3 days out, the next 7 days, and the third retires it.',
     /* --- 錯題匯出（2026-09-21） --- */
     '錯題匯出': 'Export wrong answers',
     '匯出 PDF／Anki': 'Export PDF / Anki',

@@ -234,6 +234,96 @@ ok(!!(await ev('document.querySelector(".pg-h")')), '錯題本頁可開啟');
 await hash('#/stats');
 ok((await ev('document.getElementById("main").textContent')).includes('正確率'), '弱點統計頁可開啟');
 
+// --- 間隔重複複習排程（2026-09-21）---
+// 直接操作 localStorage 造出三種狀態：今天到期、未到期、已在第 3 關
+{
+  const d = (n) => `(function(){var x=new Date();x.setDate(x.getDate()+${n});
+    return x.getFullYear()+'-'+('0'+(x.getMonth()+1)).slice(-2)+'-'+('0'+x.getDate()).slice(-2);})()`;
+  await ev(`(function(){
+    var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+    o.wrong = [
+      {pid:'doc-115-2-med1',n:1,box:1,due:${d(-1)}},
+      {pid:'doc-115-2-med1',n:5,box:2,due:${d(5)}},
+      {pid:'chu-102-1-e001',n:8,box:3,due:${d(0)}}
+    ];
+    localStorage.setItem('kaohero.v1', JSON.stringify(o));
+  })()`);
+  await reload();
+  await hash('#/wrong');
+  const txt = () => ev(`document.getElementById('main').textContent`);
+  ok((await txt()).includes('今日複習'), '錯題本顯示今日複習');
+  ok((await txt()).includes('今日複習　2'), `到期的兩題才算今日複習（實得：${(await txt()).slice(0, 60)}）`);
+  ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('開始今日複習'))`),
+     '有「開始今日複習」按鈕');
+  ok((await txt()).includes('今天到期'), '科目列標出今天到期幾題');
+
+  // 開始今日複習：只出到期的兩題，且先出還沒答對過的（box 小的）
+  await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('開始今日複習')).click()`);
+  for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+  ok((await txt()).includes('/ 2 題'), '今日複習只出到期的題');
+
+  // 作答一題後排程要更新（答對往後排、答錯打回第一關、明天再考）
+  await ev(`document.querySelectorAll('#main .opt')[0].click()`); await sleep(300);
+  const after = await ev(`JSON.parse(localStorage.getItem('kaohero.v1')).wrong.map(w=>w.pid+'#'+w.n+':box'+w.box+':'+w.due).join(' | ')`);
+  ok(/box[123]/.test(after), `作答後排程有更新（${after}）`);
+  ok(await ev(`JSON.parse(localStorage.getItem('kaohero.v1')).wrong.every(w=>w.due && w.box)`),
+     '每一題都帶 box 與 due');
+
+  // 三關畢業：第 3 關的題答對就移出錯題本；答錯則打回第一關、明天再考
+  for (const [box, label] of [[3, '第 3 關答對就畢業'], [2, '第 2 關答對只是往後排']]) {
+    await ev(`(function(){
+      var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+      o.wrong = [{pid:'doc-115-2-med1',n:1,box:${box},due:${d(0)}}];
+      localStorage.setItem('kaohero.v1', JSON.stringify(o));
+    })()`);
+    await reload();
+    await hash('#/wrong');
+    await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('開始今日複習')).click()`);
+    for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+    // 直接點正解（答案索引從題庫拿，不靠猜）
+    await ev(`(function(){
+      var q = window.APP_EXAM_PAPERS['doc-115-2-med1'].qs.filter(function(x){return x.n===1})[0];
+      document.querySelectorAll('#main .opt')[q.a].click();
+    })()`);
+    await sleep(350);
+    const left = await ev(`JSON.parse(localStorage.getItem('kaohero.v1')).wrong.map(w=>w.box).join(',')`);
+    ok(box === 3 ? left === '' : left === '3', `${label}（剩下 box：${JSON.stringify(left)}）`);
+  }
+  {
+    // 答錯：打回第一關，到期日是明天
+    await ev(`(function(){
+      var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+      o.wrong = [{pid:'doc-115-2-med1',n:1,box:3,due:${d(0)}}];
+      localStorage.setItem('kaohero.v1', JSON.stringify(o));
+    })()`);
+    await reload();
+    await hash('#/wrong');
+    await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('開始今日複習')).click()`);
+    for (let i = 0; i < 60 && !(await ev('!!document.querySelector("#main .opt")')); i++) await sleep(100);
+    await ev(`(function(){
+      var q = window.APP_EXAM_PAPERS['doc-115-2-med1'].qs.filter(function(x){return x.n===1})[0];
+      var wrongIdx = q.a === 0 ? 1 : 0;
+      document.querySelectorAll('#main .opt')[wrongIdx].click();
+    })()`);
+    await sleep(350);
+    const w = await ev(`JSON.parse(localStorage.getItem('kaohero.v1')).wrong[0]`);
+    const tomorrow = await ev(d(1));
+    ok(w && w.box === 1 && w.due === tomorrow, `答錯打回第一關、排到明天（${JSON.stringify(w)}）`);
+  }
+
+  // 舊資料（只有 s、沒有 box/due）載入時要自動補上排程
+  await ev(`(function(){
+    var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+    o.wrong = [{pid:'doc-115-2-med1',n:1,s:0},{pid:'doc-115-2-med1',n:5,s:1}];
+    localStorage.setItem('kaohero.v1', JSON.stringify(o));
+  })()`);
+  await reload();
+  await hash('#/wrong');
+  const mig = await ev(`JSON.parse(localStorage.getItem('kaohero.v1')).wrong.map(w=>w.box+'/'+(w.due||'-')).join(',')`);
+  ok(/^1\/\d{4}-\d{2}-\d{2},2\/\d{4}-\d{2}-\d{2}$/.test(mig), `舊資料自動補上 box 與 due（${mig}）`);
+  ok((await txt()).includes('今日複習'), '舊資料遷移後今天就可以複習');
+}
+
 // --- 錯題匯出（2026-09-21）---
 // 塞一份固定的錯題本再進匯出頁：一題純文字（doc-115-2-med1 #1，有詳解）、
 // 一題有圖（chu-102-1-e001 #8），涵蓋兩條排版路徑。
