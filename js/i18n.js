@@ -291,6 +291,9 @@
     '這一科目前沒有錯題': 'No wrong answers in this subject yet',
     /* --- 模考弱點診斷（2026-09-21） --- */
     '弱點診斷': 'Where you lost marks',
+    '※ 這一科只有 ': '\u203b In this subject only ',
+    ' 題的詳解出處歸得出考點，下面的主題只代表那幾題，不是整份卷的全貌。':
+      ' questions have a source specific enough to group by, so the topics below cover only those \u2014 not the whole paper.',
     '前半段': 'First half',
     '後半段': 'Second half',
     '錯最多的主題': 'Topics you missed most',

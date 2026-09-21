@@ -27,8 +27,9 @@
   var DRILL_N = 20;        // 補弱題單題數
   var EXTRA_PAPERS = 5;    // 題目不夠時最多再多載幾份考卷
 
-  /* 從詳解的出處行歸出主題。歸不出來就回 null（那題不進診斷表）。 */
-  function topicOf(q) {
+  /* 從詳解的出處行歸出主題。歸不出來就回 null（那題不進診斷表）。
+     fine=true 時不把法規題聚合到法規名稱（保留條號），給「整份卷都是同一部法」的科目用。 */
+  function topicOf(q, fine) {
     var line = null;
     (q && q.exp || '').split('\n').forEach(function (l) {
       if (!line && l.indexOf('📚') === 0) line = l;
@@ -49,18 +50,21 @@
     if (che || ch || ch2) {
       t = (che || ch || ch2)[1];
     } else {
-      // 國文那種「應用文—題辭」：破折號前面那一段就是主題
-      t = t.split(/[—－–]/)[0].split(/[；;]/)[0];
+      // 剩下的都是「大類＋細目」的寫法，取大類那一段：
+      //   「應用文—題辭」（國文）、「餐旅英語會話：餐廳點餐」（外語）、「日語文法／N3文法…」（日語）
+      // 只認破折號的話，外語科每一題都會自成一個主題（實測 29 個觀光科目有 21 個判定為「差」）。
+      t = t.split(/[—－–：:／/]/)[0].split(/[；;]/)[0];
     }
     t = t.replace(/[。，,、：:；;]+$/, '').replace(/^[。，,、：:；;]+/, '').trim();
     // 法科的出處是條號（「行政訴訟法第 6 條、第 2 條」），一條一個主題等於沒有主題：
     // 同一個考點在不同年份會引不同條號，聚合到「法規名稱」才看得出哪一部法不熟。
-    var law = t.match(/^(.{2,14}?(?:法|條例|規則|細則|通則|辦法|標準|準則|公約))\s*第\s*\d+/);
-    if (law) t = law[1];
-    else {
-      var ref = t.match(/^(.{0,6}釋字)\s*第\s*\d+/);
-      if (ref) t = ref[1];
-    }
+    // ⚠️ 量詞下限是 1 不是 2：寫 {2,14} 的話「民法第 27 條」會整個比不到
+    //    （「民法」把結尾的「法」吃掉之後，前綴只剩 1 個字）。後面的「第 N 條」是錨點，
+    //    所以懶惰比對不會把「憲法訴訟法」切成「憲法」。
+    var law = fine ? null : t.match(/^(.{1,14}?(?:法|條例|規則|細則|通則|辦法|標準|準則|公約))\s*第\s*\d+/);
+    var ref = (fine || law) ? null : t.match(/^(.{0,6}釋字)\s*第\s*\d+/);
+    if (law || ref) t = (law || ref)[1];
+    else if (fine) t = t.replace(/(第\s*\d+\s*條)[^]*$/, '$1');   // 只留第一個條號，條號串不算不同主題
     // 只剩教科書出處（「第 8 版」「Moore《…》」）的話就不當主題：那是「書」不是「考點」，
     // 拿它當主題只會在診斷表上看到一排書名。國文那種《易經·乾卦》九五爻辭則是真的考點，留著。
     if (/第\s*\d+\s*版/.test(t) || /\b\d+\s*(?:st|nd|rd|th)\s*ed\b/i.test(t)
@@ -73,11 +77,27 @@
     return t.replace(/…$/, '').length >= 2 ? t : null;
   }
 
+  /* 一份卷該用多粗的主題。
+     法規題預設聚合到法規名稱（「行政訴訟法」），但「民法概要」那種整份都考同一部法的卷，
+     聚合完只剩一個主題＝等於沒診斷；那就退回條號（「民法第 95 條」）。 */
+  function topicsFor(qs) {
+    var coarse = qs.map(function (q) { return topicOf(q); });
+    var n = distinct(coarse);
+    if (n >= 3) return coarse;
+    var fine = qs.map(function (q) { return topicOf(q, true); });
+    return distinct(fine) > n ? fine : coarse;
+  }
+  function distinct(list) {
+    var seen = {}, n = 0;
+    list.forEach(function (t) { if (t && !seen[t]) { seen[t] = 1; n++; } });
+    return n;
+  }
+
   /* 這次模考的主題統計：每個主題考了幾題、錯幾題。 */
   function byTopic(qs, ans, isRight) {
-    var map = {};
+    var map = {}, list = topicsFor(qs);
     qs.forEach(function (q, k) {
-      var t = topicOf(q);
+      var t = list[k];
       if (!t) return;
       var b = map[t] || (map[t] = { topic: t, n: 0, bad: 0 });
       b.n++;
@@ -211,6 +231,14 @@
         });
         pan.appendChild(tb);
       }
+      // 有些科（例如牙醫）的出處多半只寫書名版次，歸得出考點的題數很少：
+      // 那種情況下，主題表只代表那一小撮題，不講清楚會讓人以為「我就弱在這幾個主題」。
+      var classified = 0;
+      topics.forEach(function (t) { classified += t.n; });
+      if (classified < qs.length * 0.25) {
+        pan.appendChild(el('p', 'dg-fine', T('※ 這一科只有 ') + classified + ' / ' + qs.length
+          + T(' 題的詳解出處歸得出考點，下面的主題只代表那幾題，不是整份卷的全貌。')));
+      }
       pan.appendChild(el('p', 'dg-fine',
         T('※ 主題是依每題詳解的「出處」自動歸類的，不是官方的命題大綱；各科出處寫法不同，歸類可能有誤差。')));
     } else {
@@ -276,5 +304,5 @@
     return T('前後半段的正確率差不多，節奏穩定；接下來把下面那幾個主題補起來就好。');
   }
 
-  window.KHDiag = { render: render, topicOf: topicOf, byTopic: byTopic };
+  window.KHDiag = { render: render, topicOf: topicOf, topicsFor: topicsFor, byTopic: byTopic };
 })();

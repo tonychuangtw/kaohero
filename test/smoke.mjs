@@ -629,6 +629,12 @@ ok((await ev(`document.querySelector('#main .dg-fine')?.textContent || ''`)).inc
   ok(t5 === null, `只有書名就不當主題：${t5}`);
   const t6 = await ev(`KHDiag.topicOf({exp:'✅ 沒有出處行'})`);
   ok(t6 === null, '沒有出處行就不歸類');
+  const t7 = await ev(`KHDiag.topicOf({exp:'📚 出處：餐旅英語會話：餐廳點餐與沙拉醬料'})`);
+  ok(t7 === '餐旅英語會話', `外語科「大類：細目」取大類：${t7}`);
+  const t8 = await ev(`KHDiag.topicOf({exp:'📚 出處：日語文法／N3文法「〜てばかりいる」'})`);
+  ok(t8 === '日語文法', `外語科「大類／細目」取大類：${t8}`);
+  const t9 = await ev(`KHDiag.topicOf({exp:'📚 出處：行政訴訟法第 6 條、第 2 條'})`);
+  ok(t9 === '行政訴訟法', `法規題聚合到法規名稱：${t9}`);
 }
 ok(await ev(`document.querySelectorAll('#main .bd-row:not(.mark)').length >= 50`), '結算頁的英雄榜有 50 人');
 ok(await ev(`document.querySelectorAll('#main .bd-row.mark').length === 1`), '榜上有一條基準線且另外標色');
