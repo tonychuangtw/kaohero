@@ -1,32 +1,59 @@
-STATUS: in-progress
-OBJECTIVE: 變現工程的第一個付費功能：**個人錯題 PDF／Anki 匯出**（Tony 2026-09-21 00:15 台北
-　從三個候選裡回「1」）。(A) 舊科目漏題與 (B) 兩件前置都已完成，見下方 09-21 與 09-20 兩節。
+STATUS: blocked
+OBJECTIVE: 變現工程的付費層功能。Tony 2026-09-21 指定的三件都已完成並上線：
+　**① 個人錯題 PDF／Anki 匯出（含 .apkg）② 間隔重複複習排程 ③ 模考後弱點診斷與補弱題單**。
+　現階段**三個功能都不設付費牆**（金流還沒做，階段 3）。
 
-NEXT_ACTION: 匯出功能 09/21 已做完並 push（commit 75dce9c9c），等 Tony 看過範例檔的回饋再決定要不要補。
-　1. **已完成**：`js/export.js` ＋ 路由 `#/export`，入口在錯題本頁的「匯出 PDF／Anki」。
-　　 純前端：PDF 走瀏覽器列印（`@media print` 的 A4 列印版），Anki 出官方純文字匯入檔。
-　　 可選全部／單科、可只挑「還沒答對過」的題、可取消詳解變成純測驗卷。現階段不設付費牆。
-　2. **可能的後續**（Tony 說了再做，不要自己開工）：
-　　 - 真正的 `.apkg`（手機版 Anki 直接開）：後端裝 python venv ＋ `tools/build-anki.py`（genanki），
-　　   開 `POST /api/kgh/export/anki`；`KHExport.ankiText/printHtml` 的 items 就是同一份資料結構。
-　　 - 付費牆：金流（階段 3）做好之後，關卡在 `js/export.js` 的 `render()` 開頭。
-　3. **下一個付費功能**候選仍是：間隔重複複習排程（階段 2）、模考後弱點診斷。⚠️ 動工前先問 Tony。
-　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案，見 `CLAUDE.md`）。
-　⛔ 不要同時啟動 `exp-worker` 與 `exp-batch`（兩邊都改題庫、都 push）。
+NEXT_ACTION: 等 Tony 回饋（已把範例 PDF／.apkg 與畫面傳過去）。他沒指定新工作之前不動工。
+　可以接的下一步（⚠️ 動工前問 Tony）：
+　1. **金流與付費牆**（階段 3）：綠界或藍新單次付款，先測單科 180 天 990 元。
+　　 要擋的入口只有三個：`js/export.js` 的 `render()`、`js/app.js` 的 `startDue()`、
+　　 `js/diagnose.js` 的補弱題單按鈕。⚠️ 前端擋只是體驗層，題目與詳解本來就是公開靜態檔。
+　2. **模考排名**（Tony 09-08 明講要做）：⚠️ 先確認 `BOARD_SEED` 種子已退場，不能拿編造的分布收錢。
+　3. **弱點診斷的歸類品質**：法科與國文聚得好，醫科主題偏細（每題各自一個主題）；
+　　 要拿它當付費賣點前先抽樣檢查（抽樣指令在 `CLAUDE.md`「主題歸類」那節）。
+　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案）。⛔ 不要同時啟動 `exp-worker` 與 `exp-batch`。
 
-VALIDATION: `node test/test.js`（60,739 項）與 `node test/smoke.mjs` 全綠——smoke 新增 21 項匯出檢查
-　（Anki 檔頭與欄數、圖片絕對網址、列印版封面／正解標示／取消詳解後不含答案、360px 不溢出、觸控 ≥44px）。
-　列印版另外用 CDP `Page.printToPDF` 實印過 A4 六頁目視確認（背景圖形開／關都正確）。
-BLOCKERS: 無。
+VALIDATION: `node test/test.js`（60,739 項）與 `node test/smoke.mjs` 全綠——smoke 這三件共新增 30 項檢查；
+　後端 `node test/kgh-export-test.js` 11 項全綠（在 claude-shared repo）。
+　正式站（kaohero.com）實測：匯出頁可用、.apkg 真的下載得到、今日複習有出現、KHDiag 歸類正確。
+BLOCKERS: 等 Tony 指定下一步（金流／模考排名／其他），非技術問題。
 
-PATHS: js/export.js（匯出本體）、js/app.js 的 `exportApi()` 與 `#/export` 路由、
-　css/v2.css 末段 `.px-*` 與 `@media print`、js/i18n.js「錯題匯出」區塊、js/versions.js v15、
-　test/smoke.mjs 的匯出段與 `reload()` helper、docs/monetization-plan.md 四之二節、
+PATHS: js/export.js（匯出）、js/diagnose.js（弱點診斷）、js/app.js（排程 `bumpWrongSchedule`／`dueList`／
+　`exportApi`／`diagApi`）、css/v2.css 末段（`.px-*`／`@media print`／`.dg-*`）、js/i18n.js、js/versions.js、
+　tools/pick-json.js（依 pid+題號挑題）、tools/build-anki.py（--all／--flat／--imgbase）、
+　test/smoke.mjs、~/.venvs/anki（genanki，**不在 repo 裡，重灌要重建**）、
+　claude-shared/projects/LanExamMock/backend/kaohero.js（`POST /api/kgh/export/anki`）與 test/kgh-export-test.js、
 　js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
-　tools/exp-batch.sh／exp-batch-dump.js／exp-batch.service／exp-prompt-batch.md／exp-skip-bulk.js、
-　tools/check-answers.py／fix-answers.js、tools/exp-worker.sh、tools/exp-skips.json、
+　tools/exp-batch.sh／exp-batch-dump.js／exp-worker.sh／exp-skips.json、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-21 08:45 台北
+UPDATED: 2026-09-21 09:20 台北
+
+## 2026-09-21：間隔重複排程與模考弱點診斷（Tony「兩個都做」）
+
+**間隔重複（v16）**：錯題帶 `box`(1~3) 與 `due`(本地日期)。答錯排隔天、答對排 +3 天、
+再答對排 +7 天、第三次答對才移出錯題本。「今日複習」只出今天到期的題、一次 20 題，
+關數低的（還沒答對過）排最前面；入口在錯題本頁最上方與首頁 KPI／按鈕。
+舊資料（只有 `s`）開頁時換算成 box 並補 due，補完寫回 localStorage。
+
+**模考弱點診斷（v17，`js/diagnose.js`）**：交卷後給三件事——
+① 前半段／後半段正確率與未作答數，並依數據給配速建議
+② 錯最多的 6 個主題（主題從詳解「📚 出處」自動歸類）
+③ 「練同主題的其他題」：就弱主題從同科其他年份抽最多 20 題，這次考過的不重複。
+
+**主題歸類的規則是一條一條踩出來的**（完整說明與抽樣指令寫在 `CLAUDE.md`）：
+括號內容要先剝掉（「斷章取義」會被當成章節）、「章」在名字前後兩種寫法都要認
+（只認一種的話實測 6 卷有 5 卷歸不出主題）、英文 `Ch.8 Head` 也要認、
+只有書名（`第 8 版`／`8th ed.`）的不歸類、法規題聚合到法規名稱（`行政訴訟法第 6 條` → `行政訴訟法`）。
+補弱題單用**寬鬆包含**比對（主題字串出現在出處行即可），嚴格相等在醫科幾乎抽不到題。
+
+## 2026-09-21：Anki 牌組（.apkg）改由後端產（Tony「要」）
+
+`POST /api/kgh/export/anki`（backend `kaohero.js`）：前端只送 `[{pid,n}]`，
+後端 `tools/pick-json.js` 挑題（pid 走 `exams.js` 索引白名單，擋路徑穿越）→
+`tools/build-anki.py`（genanki，`~/.venvs/anki`）產檔回傳。
+每 IP 每小時 10 次、同時最多 2 份、單次最多 2,000 題、子行程逾時 90 秒。
+repo 或 venv 不在時回 503 附 reason，**前端自動退回純文字匯入檔**並告知使用者，頁面也留手動入口。
+⚠️ `~/.venvs/anki` 不在 repo 裡，重灌或換機要重建，否則 .apkg 這條路會一直走退路。
 
 ## 2026-09-21：個人錯題 PDF／Anki 匯出（付費層第一個功能）
 
