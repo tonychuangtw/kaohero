@@ -1,32 +1,64 @@
 STATUS: blocked
-OBJECTIVE: 變現工程的付費層功能。Tony 2026-09-21 指定的三件都已完成並上線：
-　**① 個人錯題 PDF／Anki 匯出（含 .apkg）② 間隔重複複習排程 ③ 模考後弱點診斷與補弱題單**。
-　現階段**三個功能都不設付費牆**（金流還沒做，階段 3）。
+OBJECTIVE: 變現工程。Tony 2026-09-21 指定的四件都完成並上線：
+　**① 錯題匯出 PDF／Anki（含後端產 .apkg） ② 間隔重複複習排程 ③ 模考弱點診斷與補弱題單
+　④ 綠界金流串接與三個入口的付費牆**。另依他要求抽查了 299 科的主題歸類品質並修掉三個瑕疵。
+　⚠️ **付費牆目前是關的**（`KAOHERO_PAYWALL` 沒設）：所有功能照常免費，沒有人會被擋。
 
-NEXT_ACTION: 等 Tony 回饋（已把範例 PDF／.apkg 與畫面傳過去）。他沒指定新工作之前不動工。
-　可以接的下一步（⚠️ 動工前問 Tony）：
-　1. **金流與付費牆**（階段 3）：綠界或藍新單次付款，先測單科 180 天 990 元。
-　　 要擋的入口只有三個：`js/export.js` 的 `render()`、`js/app.js` 的 `startDue()`、
-　　 `js/diagnose.js` 的補弱題單按鈕。⚠️ 前端擋只是體驗層，題目與詳解本來就是公開靜態檔。
-　2. **模考排名**（Tony 09-08 明講要做）：⚠️ 先確認 `BOARD_SEED` 種子已退場，不能拿編造的分布收錢。
-　3. **弱點診斷的歸類品質**：法科與國文聚得好，醫科主題偏細（每題各自一個主題）；
-　　 要拿它當付費賣點前先抽樣檢查（抽樣指令在 `CLAUDE.md`「主題歸類」那節）。
-　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案）。⛔ 不要同時啟動 `exp-worker` 與 `exp-batch`。
+NEXT_ACTION: 等 Tony 這三件事，缺哪一件就做不下去：
+　1. **綠界正式金鑰**（跟公司工程師要，清單見下方「要跟工程師要什麼」）→ 填進後端 `.env` 的
+　　 `ECPAY_MERCHANT_ID`／`ECPAY_HASH_KEY`／`ECPAY_HASH_IV`（三個都設齊才會切到正式環境）
+　2. **後端搬家**：建議東京小 VPS（約 US$5～6／月）。他開好帳號給我 SSH，我搬。
+　　 ⚠️ 綠界的付款完成通知是伺服器直接打我們的網址，**開賣前一定要搬離家裡那台**
+　3. **價格拍板**：目前寫單科 180 天 990、全站 180 天 1980（價格走環境變數，改價不改程式）
+　拿到金鑰後我這邊的順序：填 .env → 用測試卡跑一次真實付款 → 確認回呼開通 → 才 `KAOHERO_PAYWALL=on`。
+　⛔ Tony 沒說開賣之前不要打開付費牆。⛔ 除非他當次指定，不用 DeepSeek。
 
-VALIDATION: `node test/test.js`（60,739 項）與 `node test/smoke.mjs` 全綠——smoke 這三件共新增 30 項檢查；
-　後端 `node test/kgh-export-test.js` 11 項全綠（在 claude-shared repo）。
-　正式站（kaohero.com）實測：匯出頁可用、.apkg 真的下載得到、今日複習有出現、KHDiag 歸類正確。
-BLOCKERS: 等 Tony 指定下一步（金流／模考排名／其他），非技術問題。
+VALIDATION: 前端 `node test/test.js`（60,739 項）＋ `node test/smoke.mjs` 全綠（四件功能共新增 44 項檢查）；
+　後端 `node test/kgh-pay-test.js`（32 項）、`test/kgh-export-test.js`（11 項）、`test/kgh-board-test.js` 全綠。
+　CheckMacValue 另用綠界官方文件的範例值比對一致，並把產出的表單實際 POST 到綠界測試環境，
+　回的是正常的「選擇支付方式」頁。正式站實測：方案頁讀得到後端方案、未登入按付款會要求登入、無 console 錯誤。
+BLOCKERS: 等 Tony 給綠界正式金鑰、決定 VPS、拍板價格（都不是技術問題）。
 
-PATHS: js/export.js（匯出）、js/diagnose.js（弱點診斷）、js/app.js（排程 `bumpWrongSchedule`／`dueList`／
-　`exportApi`／`diagApi`）、css/v2.css 末段（`.px-*`／`@media print`／`.dg-*`）、js/i18n.js、js/versions.js、
-　tools/pick-json.js（依 pid+題號挑題）、tools/build-anki.py（--all／--flat／--imgbase）、
+## 要跟工程師要什麼（綠界「全方位金流 AIO」）
+
+1. 正式環境 MerchantID／HashKey／HashIV　2. 測試環境（Stage）同三項
+3. 已開通哪些付款方式（信用卡一次付清／ATM／超商代碼／LINE Pay／Apple Pay）
+4. 誰能在綠界後台設定 ReturnURL／OrderResultURL（要把我們的網址加進去）
+5. 有沒有用綠界電子發票（B2C）——那是另一組金鑰
+6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
+8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
+
+PATHS: js/pay.js（方案／帳戶／付費牆）、js/export.js、js/diagnose.js、js/app.js（排程與各 xxxApi）、
+　css/v2.css 末段（`.px-*`／`@media print`／`.dg-*`／`.pay-*`）、js/i18n.js、js/versions.js、
+　tools/pick-json.js、tools/build-anki.py、tools/topic-audit.js、docs/topic-audit-2026-09-21.csv、
 　test/smoke.mjs、~/.venvs/anki（genanki，**不在 repo 裡，重灌要重建**）、
-　claude-shared/projects/LanExamMock/backend/kaohero.js（`POST /api/kgh/export/anki`）與 test/kgh-export-test.js、
-　js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
-　tools/exp-batch.sh／exp-batch-dump.js／exp-worker.sh／exp-skips.json、
+　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
+　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-21 09:20 台北
+UPDATED: 2026-09-21 10:30 台北
+
+## 2026-09-21：綠界金流與付費牆（Tony「開始做」）
+
+**後端**（`ecpay.js` ＋ `/api/kgh/pay/*`）：方案表、建單、綠界回呼開通權益、訂單與權益查詢。
+金額一律以後端方案表為準；只有綠界 server-to-server 的 `/pay/notify` 能開通權益
+（`/pay/result` 是使用者瀏覽器導回的，可偽造，只用來換頁）；回呼會驗簽章、比對金額、檢查 RtnCode；
+綠界重送同一筆不會重複加天數；續購是從原到期日往後累加。
+
+**前端**（`js/pay.js` ＋ `#/plans`、`#/account`）：方案頁、我的帳戶（權益與訂單）、
+三個入口的付費牆。牆關著或還沒問到後端一律放行。被擋時只擋那一項，免費的部分照常
+（複習全部錯題、依科目清單、診斷本身都還在）。
+
+**踩到的坑**：綠界的 CheckMacValue 錯了只會回一句「CheckMacValue Error」。
+算法要照 .NET 的 UrlEncode（空白變 `+`、`~` 編成 `%7e`、`'` 編成 `%27`），
+已用官方文件的範例值釘在測試裡，改那段一定要跑 `node test/kgh-pay-test.js`。
+
+## 2026-09-21：主題歸類品質抽查（Tony「好」）
+
+`tools/topic-audit.js` 跑 299 科（每科 6 卷）：135 科好、156 普通、8 差，
+結果存 `docs/topic-audit-2026-09-21.csv`。抽查中修掉三個瑕疵（外語科每題自成一個主題、
+法規名稱的正則下限寫錯導致民法類完全沒聚合、整份同一部法時聚合過頭），修完觀光類 0 科差。
+剩下 8 科差全是牙醫與解剖／生理——**那些詳解的出處只寫書名版次**，沒有章節名就歸不出考點；
+站上遇到會多印一行說明，`tools/exp-prompt*.md` 也加了「書名一定要帶到章節名」的規定。
 
 ## 2026-09-21：間隔重複排程與模考弱點診斷（Tony「兩個都做」）
 
