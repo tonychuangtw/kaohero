@@ -1607,6 +1607,32 @@
     main.appendChild(sponsorStrip());
   }
 
+  /* 交給 js/pay.js 的介面。科目清單依「使用者練過幾題」排序，
+     買單科的人幾乎都是買自己正在練的那一科，不該讓他在 299 個科目裡找。 */
+  function payApi() {
+    var practised = {};
+    Object.keys(state.stats).forEach(function (pid) {
+      var e = examOf(pid); if (!e) return;
+      practised[e.subj] = (practised[e.subj] || 0) + state.stats[pid].n;
+    });
+    state.wrong.forEach(function (w) {
+      var e = examOf(w.pid); if (!e) return;
+      if (!practised[e.subj]) practised[e.subj] = 0;
+    });
+    var all = {};
+    EXAMS.forEach(function (e) { all[e.subj] = 1; });
+    var subjects = Object.keys(all).map(function (sid) {
+      return { sid: sid, name: (SUBJ[sid] && SUBJ[sid].name) || sid, n: practised[sid] || 0 };
+    }).sort(function (a, b) {
+      if (b.n !== a.n) return b.n - a.n;
+      return a.name < b.name ? -1 : 1;
+    });
+    return {
+      T: T, btn: btn, sectionHead: sectionHead, kpis: kpis, item: item, toast: toast,
+      subjects: subjects
+    };
+  }
+
   /* 交給 js/diagnose.js 的介面（模考結算頁的弱點診斷）。 */
   function diagApi() {
     return {
@@ -1645,6 +1671,23 @@
       if (d > t0 && (!next || d < next)) next = d;
     });
     var sec0 = el('section', 'sec');
+    // 付費牆（2026-09-21）：排程本身照常在背景跑（答對答錯都會更新關數），
+    // 擋的只是「今日複習」這個省時間的入口；「複習全部錯題」永遠免費。
+    if (window.KHPay && !window.KHPay.canAny()) {
+      sec0.appendChild(window.KHPay.lockCard(T('今日複習是付費功能'),
+        T('錯題本、整本複習、弱點統計都是免費的。付費的是「每天只給你今天該複習的那 20 題」'
+          + '這個間隔重複排程——你的錯題已經在排程裡累積，買了就直接接上。')));
+      main.appendChild(sec0);
+      var rowF = el('div', 'btnrow');
+      rowF.appendChild(btn(T('複習全部錯題'), '', function () { startWrong(null); }));
+      rowF.appendChild(btn(T('匯出 PDF／Anki'), 'o', null, '#/export'));
+      rowF.appendChild(btn(T('清空錯題本'), 'o', function () {
+        if (confirm(T('確定要清空錯題本嗎？此動作無法復原。'))) { state.wrong = []; save(); render(); }
+      }));
+      main.appendChild(rowF);
+      viewWrongLists(main, t0);
+      return;
+    }
     var pan0 = el('div', 'panel'); pan0.style.padding = '16px';
     if (due.length) {
       pan0.appendChild(el('h3', 'ph', T('今日複習　') + Math.min(due.length, DUE_BATCH) + unitQ()));
@@ -1669,8 +1712,14 @@
     }));
     main.appendChild(row);
 
-    /* 分布改成以「科目」為主（2026-09-11）。只按卷分組時，同一科跨十年的錯題會被切成
-       十幾列，對實際複習沒有幫助；考生想的是「我這一科還有幾題沒搞懂」。 */
+    viewWrongLists(main, t0);
+  }
+
+  /* 錯題本下半部的兩張清單（依科目、依考卷）。
+     付費牆擋掉「今日複習」時也要照畫，那兩張本來就是免費的。
+     分布以「科目」為主（2026-09-11）：只按卷分組時，同一科跨十年的錯題會被切成
+     十幾列，對實際複習沒有幫助；考生想的是「我這一科還有幾題沒搞懂」。 */
+  function viewWrongLists(main, t0) {
     var bySubj = {}, byPid = {};
     state.wrong.forEach(function (w) {
       byPid[w.pid] = (byPid[w.pid] || 0) + 1;
@@ -1891,6 +1940,9 @@
     var main = document.getElementById('main');
     main.innerHTML = '';
     var h = (location.hash || '#/').replace(/^#\/?/, '');
+    // 綠界付款完成會把使用者導回 #/account?paid=1&order=…：路由只看 ? 前面那段，
+    // query 由該頁自己讀（js/pay.js 的 qs()）。
+    h = h.split('?')[0];
     var seg = h.split('/').filter(Boolean);
     var top = seg[0] || '';
     // 首頁整頁走 A 案的深色金字配色（css 裡以 body[data-page="home"] 換掉一整組色票），
@@ -1923,6 +1975,11 @@
     else if (top === 'mock') viewMock(main);
     else if (top === 'friends') viewFriends(main);
     else if (top === 'wrong') viewWrong(main);
+    else if (top === 'plans' || top === 'account') {
+      // 付費方案與我的帳戶（js/pay.js）。付費牆沒開時這兩頁照樣看得到，只是不會擋任何功能。
+      if (window.KHPay) window.KHPay.render(main, top, payApi());
+      else main.appendChild(el('p', 'lead', T('付費元件尚未載入，請重新整理頁面。')));
+    }
     else if (top === 'export') {
       // 錯題匯出（列印版 PDF／Anki 匯入檔）。元件另外一支檔，只有進這一頁才用到。
       if (window.KHExport) window.KHExport.render(main, exportApi());

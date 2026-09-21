@@ -643,3 +643,16 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
   border:1px solid var(--line);overflow:hidden;min-width:70px}
 .dg-bar i{display:block;height:100%;background:var(--bad);border-radius:999px}
 .dg-n{flex:0 0 auto;color:var(--dim);font-size:calc(13px * var(--fs,1));font-variant-numeric:tabular-nums}
+
+/* ── 付費方案／我的帳戶（2026-09-21）── */
+.pay-plan{padding:16px;border-bottom:1px solid var(--line)}
+.pay-plan:last-child{border-bottom:0}
+.pay-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.pay-head b{font-size:calc(17px * var(--fs,1))}
+.pay-price{margin-left:auto;font-weight:900;font-size:calc(20px * var(--fs,1));
+  color:var(--brand);font-variant-numeric:tabular-nums}
+.pay-plan .mk-row{margin:10px 0}
+.pay-plan .btnrow{margin-top:12px}
+.pay-lock{padding:16px;margin:12px 0}
+.pay-ok{border-color:var(--good)}
+.pay-ok .ph{color:var(--good)}

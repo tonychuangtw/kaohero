@@ -249,6 +249,14 @@
 
     // 3) 補弱題單
     var weak = topics.filter(function (t) { return t.bad > 0; }).slice(0, WEAK_TOPICS);
+    // 付費牆（2026-09-21）：診斷本身免費（分數、節奏、錯最多的主題都看得到），
+    // 擋的只是「幫你把同主題的題抓出來變成一份題單」這個省時間的動作。
+    if (weak.length && window.KHPay && !window.KHPay.can(A.quiz.sid)) {
+      sec.appendChild(window.KHPay.lockCard(T('補弱題單是付費功能'),
+        T('上面的診斷是免費的。付費的是「就這幾個弱主題，自動從其他年份抓一份題單給你練」。')));
+      main.appendChild(sec);
+      return;
+    }
     if (weak.length) {
       var used = {};
       qs.forEach(function (q, k) { used[A.quiz.meta[k].pid + '#' + q.n] = 1; });

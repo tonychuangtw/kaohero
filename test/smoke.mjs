@@ -324,6 +324,60 @@ ok((await ev('document.getElementById("main").textContent')).includes('正確率
   ok((await txt()).includes('今日複習'), '舊資料遷移後今天就可以複習');
 }
 
+// --- 付費方案／我的帳戶／付費牆（2026-09-21）---
+// 後端在測試環境裡不一定連得到，所以直接餵假的 KHPay 狀態：
+// 這裡要驗的是「牆開起來會不會擋對地方」，不是後端有沒有活著。
+{
+  await hash('#/plans'); await sleep(400);
+  const txt = () => ev(`document.getElementById('main').textContent`);
+  ok((await txt()).includes('付費方案'), '方案頁可開啟');
+  ok((await txt()).includes('永遠免費'), '方案頁講清楚免費層包含什麼');
+  await hash('#/account'); await sleep(400);
+  ok((await txt()).includes('我的帳戶'), '我的帳戶頁可開啟');
+
+  // 綠界導回來的網址帶 query：路由要照樣認得 #/account
+  await ev(`location.hash='#/account?paid=1&order=KHTEST123'`); await sleep(400);
+  ok((await txt()).includes('付款完成'), '付款完成導回頁顯示成功訊息');
+  ok((await txt()).includes('KHTEST123'), '完成頁帶出訂單編號');
+  await ev(`location.hash='#/account?paid=0'`); await sleep(400);
+  ok((await txt()).includes('沒有付款成功'), '付款失敗導回頁顯示未成功');
+
+  // 付費牆關著（預設）：三個入口都不該被擋
+  await ev(`(function(){
+    var o=JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+    o.wrong=[{pid:'doc-115-2-med1',n:1,box:1,due:'2020-01-01'}];
+    localStorage.setItem('kaohero.v1',JSON.stringify(o));
+  })()`);
+  await reload();
+  await hash('#/wrong'); await sleep(200);
+  ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('開始今日複習'))`),
+     '付費牆關著時今日複習照常');
+  await hash('#/export'); await sleep(300);
+  ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('列印'))`),
+     '付費牆關著時匯出照常');
+
+  // 把牆打開（未購買）：今日複習與匯出要被擋，錯題本其他功能不能受影響
+  await ev(`window.KHPay.can=function(){return false};window.KHPay.canAny=function(){return false};`);
+  await hash('#/wrong'); await sleep(250);
+  ok(await ev(`!!document.querySelector('#main .pay-lock')`), '牆開起來時今日複習被擋');
+  ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('複習全部錯題'))`),
+     '被擋時「複習全部錯題」仍然可用（那是免費的）');
+  ok(await ev(`document.querySelectorAll('#main .panel .it').length > 0`), '被擋時依科目／依考卷清單照畫');
+  await hash('#/export'); await sleep(300);
+  ok(await ev(`!!document.querySelector('#main .pay-lock')`), '牆開起來時匯出被擋');
+  ok(await ev(`![...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('列印'))`),
+     '被擋時不會留下可按的匯出鈕');
+  ok(await ev(`[...document.querySelectorAll('#main .pay-lock .btn')].some(b=>b.getAttribute('href')==='#/plans')`),
+     '擋下來時給得出「看方案」的入口');
+  // 還原
+  await reload();
+  await ev(`(function(){
+    var o=JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+    o.wrong=[]; localStorage.setItem('kaohero.v1',JSON.stringify(o));
+  })()`);
+  await reload();
+}
+
 // --- 錯題匯出（2026-09-21）---
 // 塞一份固定的錯題本再進匯出頁：一題純文字（doc-115-2-med1 #1，有詳解）、
 // 一題有圖（chu-102-1-e001 #8），涵蓋兩條排版路徑。
@@ -510,7 +564,7 @@ ok((await ev(`document.getElementById('main').textContent`)).includes('登入'),
 await send('Emulation.setDeviceMetricsOverride',
   { width: 360, height: 780, deviceScaleFactor: 2, mobile: true }, sessionId);
 for (const [h, name] of [['#/', '首頁'], ['#/exams', '題庫總覽'], ['#/wrong', '錯題本'],
-                         ['#/export', '錯題匯出'],
+                         ['#/export', '錯題匯出'], ['#/plans', '付費方案'], ['#/account', '我的帳戶'],
                          ['#/stats', '弱點統計'], ['#/about', '使用說明'], ['#/admin', '站務後台']]) {
   await hash(h); await sleep(120);
   const over = await ev(`document.documentElement.scrollWidth - window.innerWidth`);

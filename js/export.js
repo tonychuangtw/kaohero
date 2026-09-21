@@ -433,6 +433,19 @@
       [String(A.wrong.length), T('錯題本總題數')]
     ]));
 
+    // 付費牆（2026-09-21）：開關在後端，關著的時候 can() 一律回 true，這一段等於不存在。
+    // 單科方案的人選到自己買的那一科就能匯出；選「全部」要全站方案。
+    if (window.KHPay && !window.KHPay.can(opt.sid)) {
+      main.appendChild(window.KHPay.lockCard(T('錯題匯出是付費功能'),
+        opt.sid
+          ? T('你的方案沒有包含這一科。題目、答案、詳解與錯題本都是免費的，匯出成 PDF／Anki 是加值功能。')
+          : T('選「全部科目」需要全站方案；如果你買的是單科，請先在上面點那一科。')));
+      var back0 = el('div', 'btnrow'); back0.style.marginTop = '16px';
+      back0.appendChild(A.btn(T('← 回錯題本'), 'o', null, '#/wrong'));
+      main.appendChild(back0);
+      return;
+    }
+
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
     var pb = A.btn(T('列印 / 存成 PDF'), '', function () {
       if (!cnt) return A.toast(T('這個範圍目前沒有錯題。'));

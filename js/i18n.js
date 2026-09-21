@@ -289,6 +289,76 @@
     '　｜還沒答對過 ': ' | never got it right: ',
     '　｜都至少答對過一次': ' | all answered correctly at least once',
     '這一科目前沒有錯題': 'No wrong answers in this subject yet',
+    /* --- 付費方案與帳戶（2026-09-21） --- */
+    '付費方案': 'Plans',
+    '我的帳戶': 'My account',
+    '題目、標準答案、逐題詳解、刷題、錯題本與弱點統計永遠免費，不會放進任何方案裡。付費買的是幫你省時間的三件事：錯題匯出（PDF／Anki）、每日的間隔重複複習排程、模考後的弱點診斷與補弱題單。':
+      'Questions, official answers, every explanation, drilling, the wrong-answer book and the weakness stats are free forever and are not part of any plan. What you pay for are three things that save you time: exporting your wrong answers (PDF / Anki), the daily spaced-repetition schedule, and the post-mock diagnosis with its follow-up practice set.',
+    '目前全部免費': 'Everything is free right now',
+    '付費功能還在試營運，現在每個人都能直接用，不必付款。下面的方案與價格先公開讓你知道未來會怎麼收費。':
+      'The paid features are in trial: everyone can use them right now at no cost. The plans below are published so you know what pricing will look like later.',
+    '⚠ 目前是金流測試環境，請不要在這裡輸入真實信用卡卡號。':
+      '\u26a0 This is the payment sandbox \u2014 do not enter a real card number here.',
+    '方案': 'Plans',
+    '選擇科目': 'Choose a subject',
+    '　已練 ': ' \\u00b7 done ',
+    '一次買斷 ': 'One-off purchase, ',
+    ' 天，不自動續約、不綁信用卡。': ' days. No auto-renewal, no card kept on file.',
+    '前往付款': 'Go to payment',
+    '前往付款…': 'Going to payment…',
+    '付款與退款': 'Payment and refunds',
+    '付款方式': 'Payment method',
+    '信用卡一次付清，由綠界科技（ECPay）處理。本站不會經手也不會儲存你的卡號。':
+      'Credit card, single payment, handled by ECPay. This site never sees or stores your card number.',
+    '開通時間': 'When it activates',
+    '付款完成後立刻開通，回到站上重新整理就看得到。':
+      'Immediately after payment \u2014 reload the site and it is there.',
+    '不自動續約': 'No auto-renewal',
+    '買斷制，到期就停止，不會自動扣款，也不需要取消訂閱。':
+      'It simply ends on the expiry date. Nothing is charged again and there is nothing to cancel.',
+    '退款': 'Refunds',
+    '功能與免費試用內容都寫在這一頁；如果開通後發現與說明不符，請從客服中心聯絡我們。':
+      'What you get is spelled out on this page. If it does not match after you buy, contact us through the help page.',
+    '請先登入，付款後權益才綁得到你的帳號。': 'Please sign in first so the purchase can be tied to your account.',
+    '無法連到付款伺服器，請稍後再試。': 'Could not reach the payment server. Please try again later.',
+    '付款完成，已為你開通': 'Payment complete \u2014 you are all set',
+    '訂單編號 ': 'Order ',
+    '。權益已經生效，下面會列出到期日。如果沒有馬上出現，稍等幾秒再重新整理。':
+      '. Your access is active and the expiry date is listed below. If it is not there yet, wait a few seconds and reload.',
+    '這次沒有付款成功': 'The payment did not go through',
+    '沒有扣款。你可以回方案頁再試一次，或換一種付款方式。':
+      'Nothing was charged. You can go back to the plans and try again, or use another payment method.',
+    '登入後才看得到自己的權益與訂單。': 'Sign in to see your access and orders.',
+    '我的權益': 'My access',
+    '目前沒有已開通的付費權益。': 'You have no paid access at the moment.',
+    '目前全部功能免費開放，不需要購買。': 'Everything is free right now \u2014 nothing to buy.',
+    '到期日 ': 'Expires ',
+    '　剩 ': ' \u00b7 ',
+    ' 天': ' days left',
+    '訂單紀錄': 'Orders',
+    '還沒有訂單。': 'No orders yet.',
+    '訂單載入失敗，請稍後再試。': 'Could not load your orders. Please try again later.',
+    '已付款': 'Paid',
+    '未完成': 'Not completed',
+    '等待付款': 'Awaiting payment',
+    '　NT$ ': ' NT$ ',
+    '　訂單 ': ' \u00b7 order ',
+    '看方案': 'See plans',
+    '這是付費功能': 'This is a paid feature',
+    '題目、答案、詳解、刷題、錯題本與弱點統計永遠免費；這一項是幫你省時間的加值功能。':
+      'Questions, answers, explanations, drilling, the wrong-answer book and the stats are free forever; this one is a time-saver on top.',
+    '錯題匯出是付費功能': 'Exporting is a paid feature',
+    '你的方案沒有包含這一科。題目、答案、詳解與錯題本都是免費的，匯出成 PDF／Anki 是加值功能。':
+      'Your plan does not cover this subject. Questions, answers, explanations and the wrong-answer book stay free; exporting to PDF / Anki is the paid extra.',
+    '選「全部科目」需要全站方案；如果你買的是單科，請先在上面點那一科。':
+      '"All subjects" needs the all-access plan. If you bought a single subject, pick that subject above.',
+    '今日複習是付費功能': 'Today\u2019s review is a paid feature',
+    '錯題本、整本複習、弱點統計都是免費的。付費的是「每天只給你今天該複習的那 20 題」這個間隔重複排程——你的錯題已經在排程裡累積，買了就直接接上。':
+      'The wrong-answer book, reviewing all of it and the stats are free. What you pay for is the spaced-repetition schedule that hands you just today\u2019s 20 questions \u2014 your misses are already being scheduled, so buying picks up where you are.',
+    '補弱題單是付費功能': 'The follow-up practice set is a paid feature',
+    '上面的診斷是免費的。付費的是「就這幾個弱主題，自動從其他年份抓一份題單給你練」。':
+      'The diagnosis above is free. What you pay for is pulling a ready practice set on those weak topics from other years.',
+    '付費元件尚未載入，請重新整理頁面。': 'The payment module has not loaded. Please refresh the page.',
     /* --- 模考弱點診斷（2026-09-21） --- */
     '弱點診斷': 'Where you lost marks',
     '※ 這一科只有 ': '\u203b In this subject only ',
@@ -479,6 +549,7 @@
     '版本紀錄': 'Changelog',
 
     /* --- 頁首頁尾（靜態 HTML） --- */
+    '錯題本與今日複習': 'Wrong answers & today\u2019s review',
     '本站原名「考古英雄」，2026-09-09 更名為「考英雄」，網址 kaohero.com；內容與紀錄不受影響。':
       'This site was formerly named Kaoguhero; it was renamed Kaohero on 2026-09-09 and now lives at kaohero.com. Content and your records are unaffected.',
     '考英雄': 'Kaohero',
