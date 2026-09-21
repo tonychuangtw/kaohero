@@ -67,11 +67,21 @@ const go = async (hash) => {
   await sleep(350);
 };
 const hash = async (h) => { await ev(`location.hash='${h}'`); await sleep(320); };
+/* 整頁重載（改完 localStorage 要讓 app.js 重讀一次 state 時用） */
+const reload = async () => {
+  await send('Page.reload', {}, sessionId);
+  for (let i = 0; i < 120; i++) { await sleep(100); if (await ev('document.readyState === "complete"')) break; }
+  await sleep(350);
+};
 /* 2026-09-11 起，上次沒做完的卷再進來會先問「接續 or 重來」。測試一律選重來，
    免得前面留下的半成品影響後面的斷言。 */
 const BTN = (kw) => `[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('${kw}'))`;
+// 中英文都要認：整頁重載後 resumeAsked 會清空，英文模式下也可能跳出這個詢問
+// （2026-09-21 踩過：只比對中文字串，英文模式下按不到，後面所有作答斷言一起失敗）
 const dismissResume = async () => {
-  if (await ev(`!!${BTN('從第 1 題重新開始')}`)) { await ev(`${BTN('從第 1 題重新開始')}.click()`); await sleep(300); }
+  for (const kw of ['從第 1 題重新開始', 'Start over from question 1']) {
+    if (await ev(`!!${BTN(kw)}`)) { await ev(`${BTN(kw)}.click()`); await sleep(300); return; }
+  }
 };
 
 console.log('\n考古英雄 smoke test');
@@ -224,6 +234,67 @@ ok(!!(await ev('document.querySelector(".pg-h")')), '錯題本頁可開啟');
 await hash('#/stats');
 ok((await ev('document.getElementById("main").textContent')).includes('正確率'), '弱點統計頁可開啟');
 
+// --- 錯題匯出（2026-09-21）---
+// 塞一份固定的錯題本再進匯出頁：一題純文字（doc-115-2-med1 #1，有詳解）、
+// 一題有圖（chu-102-1-e001 #8），涵蓋兩條排版路徑。
+// ⚠️ 改 localStorage 之後一定要整頁重載：app.js 的 state 是開頁時讀一次就留在記憶體，
+// 換 hash 只是同頁路由，不會重讀 localStorage（2026-09-21 踩過，症狀是匯出頁說「錯題本是空的」）。
+await ev(`(function(){
+  var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+  o.wrong = [{pid:'doc-115-2-med1',n:1,s:0},{pid:'chu-102-1-e001',n:8,s:1}];
+  localStorage.setItem('kaohero.v1', JSON.stringify(o));
+})()`);
+await reload();
+await hash('#/export');
+ok((await ev('document.getElementById("main").textContent')).includes('錯題匯出'), '錯題匯出頁可開啟');
+ok(await ev(`document.querySelectorAll('#main .px-chip').length >= 2`), '匯出頁列出科目篩選');
+ok(await ev(`document.querySelectorAll('#main .px-ck').length === 3`), '匯出頁有三個選項開關');
+ok(await ev(`document.querySelector('#main .px-chip').getBoundingClientRect().height >= 44`),
+   '科目篩選觸控目標 ≥44px');
+ok(await ev(`document.querySelector('#main .px-ck').getBoundingClientRect().height >= 44`),
+   '選項開關觸控目標 ≥44px');
+
+const anki = await ev(`new Promise(function(r){ KHExport.ankiText(function(t){ r(t); }); })`);
+ok(anki.split('\n')[0] === '#separator:tab', 'Anki 檔第一行是 #separator:tab');
+ok(anki.includes('#tags column:3'), 'Anki 檔標明標籤在第 3 欄');
+ok(anki.includes('#deck:考英雄::錯題本'), 'Anki 檔指定牌組');
+{
+  const rows = anki.split('\n').filter(l => l && l[0] !== '#');
+  ok(rows.length === 2, `Anki 檔兩題兩列（實得 ${rows.length}）`);
+  ok(rows.every(r => r.split('\t').length === 3), 'Anki 每列剛好三欄');
+  ok(rows.some(r => r.includes('疑核')), 'Anki 卡片帶題目原文');
+  ok(rows.some(r => r.includes('✅')), 'Anki 卡片帶詳解');
+  ok(rows.some(r => /<img src="http[^"]+img\/q\//.test(r)), '圖片題用絕對網址');
+  ok(rows.every(r => r.indexOf('民國') > 0), '每張卡都有年度標籤');
+}
+
+const phtml = await ev(`new Promise(function(r){ KHExport.printHtml(function(h){ r(h); }); })`);
+ok(phtml.includes('px-cover') && phtml.includes('我的錯題本'), '列印版有封面');
+ok(phtml.includes('px-key'), '列印版標出正解選項');
+ok((phtml.match(/px-item/g) || []).length === 2, '列印版兩題');
+ok(phtml.includes('img/q/'), '列印版帶題目圖');
+
+// 取消「含正解與詳解」就變成純測驗卷（答案不能印出來）
+await ev(`[...document.querySelectorAll('#main .px-ck input')][1].click()`); await sleep(150);
+const plain = await ev(`new Promise(function(r){ KHExport.printHtml(function(h){ r(h); }); })`);
+ok(!plain.includes('px-key') && !plain.includes('正解：'), '取消詳解後列印版不含答案');
+await ev(`[...document.querySelectorAll('#main .px-ck input')][1].click()`); await sleep(150);
+
+// 只匯出「還沒答對過」的題：兩題裡只剩 s=0 那一題
+await ev(`[...document.querySelectorAll('#main .px-ck input')][0].click()`); await sleep(150);
+const hard = await ev(`new Promise(function(r){ KHExport.ankiText(function(t,items){ r(items.length); }); })`);
+ok(hard === 1, `只含還沒答對過的題時剩 1 題（實得 ${hard}）`);
+await ev(`[...document.querySelectorAll('#main .px-ck input')][0].click()`); await sleep(150);
+
+await hash('#/wrong');
+ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.getAttribute('href')==='#/export')`),
+   '錯題本有匯出入口');
+await ev(`(function(){
+  var o = JSON.parse(localStorage.getItem('kaohero.v1')||'{}');
+  o.wrong = []; localStorage.setItem('kaohero.v1', JSON.stringify(o));
+})()`);
+await reload();
+
 // --- 內容頁 ---
 for (const [h, kw] of [['#/guide', '準備方式'], ['#/stories', '考取心得'],
                        ['#/sponsor', '贊助'], ['#/support', '客服'], ['#/about', '版本紀錄']]) {
@@ -316,6 +387,7 @@ ok((await ev(`document.getElementById('main').textContent`)).includes('登入'),
 await send('Emulation.setDeviceMetricsOverride',
   { width: 360, height: 780, deviceScaleFactor: 2, mobile: true }, sessionId);
 for (const [h, name] of [['#/', '首頁'], ['#/exams', '題庫總覽'], ['#/wrong', '錯題本'],
+                         ['#/export', '錯題匯出'],
                          ['#/stats', '弱點統計'], ['#/about', '使用說明'], ['#/admin', '站務後台']]) {
   await hash(h); await sleep(120);
   const over = await ev(`document.documentElement.scrollWidth - window.innerWidth`);

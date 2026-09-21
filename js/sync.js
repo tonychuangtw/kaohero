@@ -454,7 +454,7 @@
   }
 
   window.KHSync = {
-    signedIn: signedIn, token: token, apiBase: API_BASE,
+    signedIn: signedIn, token: token, apiBase: API_BASE, profile: profile,
     pull: pull, push: push, exportData: exportData,
     promptLogin: function () {
       try { if (window.google && google.accounts && google.accounts.id) google.accounts.id.prompt(); } catch (e) {}

@@ -97,8 +97,25 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
 - 結論：Gemini 桶爆了就等它重置（週限，要等好幾天），中間用本機 claude 撐；agy 的 Claude 桶留給 ask-codex 的第二意見。
 查配額：`ssh tonychuangtw@192.168.1.173 'agy -p "/usage"'`（四行：兩個家族 × 週限／5 小時，欄位是**剩餘** %）。
 
+## 改前端時會踩到的三個坑（2026-09-21 做錯題匯出時踩過）
+
+1. **改完 `localStorage` 一定要整頁重載，換 hash 沒用**。`js/app.js` 的 `state` 是開頁時
+   `load()` 讀一次就留在記憶體，換 hash 只跑同頁路由。smoke test 裡直接寫 `kaohero.v1`
+   再 `location.hash='#/xxx'`，畫面看到的還是舊資料（症狀：明明塞了錯題，匯出頁卻說「錯題本是空的」）。
+   → `test/smoke.mjs` 已有 `reload()` helper，改完 storage 呼叫它。
+2. **`js/i18n.js` 的 EN 字典有重複 key 會靜默覆蓋**（同一個物件字面值，後面那筆贏）。
+   新增翻譯前先掃一次：
+   `node -e "const s=require('fs').readFileSync('js/i18n.js','utf8');const k={},d=[];const re=/^\s*'((?:[^'\\]|\\.)*)':/gm;let m;while((m=re.exec(s))){if(k[m[1]])d.push(m[1]);k[m[1]]=1}console.log(d)"`
+   撞到就把新字串改成獨一無二的說法（例：`選擇範圍` → `選擇要匯出的範圍`），不要硬蓋掉舊的。
+   現存 4 組重複是舊有的，其中只有 `科目`（Subjects／Subject）兩邊值不同。
+3. **列印樣式要用 `!important` 壓 body 底色**。`css/v2.css` 有一條
+   `:root:not([data-theme="light"]):not(...):not(...) body{background:...}`，權重 (0,4,2) 比
+   `body.kh-printing` (0,1,1) 高；不加 `!important`，使用者在列印選項勾了「背景圖形」就會印出整頁深色底。
+
 ## 其他
 
+- 錯題匯出（PDF／Anki）：`js/export.js` ＋ `#/export`，純前端、不經伺服器；
+  細節與「要收費時改哪裡」見 `docs/monetization-plan.md` 四之二節
 - 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節
 - 題解分離、變現四階段計畫：`docs/monetization-plan.md`（詳解寫完再動工）
 - 決策與實驗紀錄：`docs/plan-log.md`

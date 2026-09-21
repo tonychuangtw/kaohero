@@ -555,3 +555,73 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
 .bd-row.mark .bd-nk,.bd-row.mark .bd-sc,.bd-row.mark .bd-no{color:var(--brand);font-weight:800}
 .bd-row.me{background:var(--line2);box-shadow:inset 3px 0 0 var(--ink)}
 .bd-row.me .bd-nk{font-weight:800}
+
+/* ── 錯題匯出（2026-09-21）── */
+.px-pan{padding:14px 16px}
+.px-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
+.px-chip{min-height:44px;border:1px solid var(--line);background:var(--bg);color:var(--ink2);
+  border-radius:999px;padding:0 14px;font:inherit;font-size:calc(13.5px * var(--fs,1));
+  cursor:pointer;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.px-chip.on{border-color:var(--brand);color:var(--brand);font-weight:800}
+.px-ck{display:flex;gap:10px;align-items:flex-start;min-height:44px;padding:10px 0;
+  border-top:1px solid var(--line);cursor:pointer}
+.px-ck input{flex:0 0 auto;width:20px;height:20px;margin:5px 0 0;accent-color:var(--brand)}
+.px-ck-t{display:flex;flex-direction:column;min-width:0}
+.px-ck-t b{font-size:calc(14.5px * var(--fs,1))}
+.px-ck-t span{color:var(--dim);font-size:calc(13px * var(--fs,1))}
+.px-how{padding:10px 0;border-bottom:1px solid var(--line)}
+.px-how:last-child{border-bottom:0}
+.px-how b{display:block;margin-bottom:4px}
+.px-how p{margin:0;color:var(--ink2);font-size:calc(14px * var(--fs,1))}
+
+/* 列印版講義：畫面上完全不顯示，按下「列印 / 存成 PDF」時才由 js/export.js
+   掛進 #khprint 並在 body 加上 .kh-printing。顏色一律寫死（不吃主題變數），
+   否則深色主題會印出一整頁黑底。 */
+#khprint{display:none}
+@media print{
+  @page{size:A4;margin:16mm 14mm 18mm}
+  body.kh-printing>*{display:none !important}
+  body.kh-printing #khprint{display:block !important}
+  /* 深色主題那條 :root:not(...) body 的權重比類別選擇器高（0,4,2 對 0,1,1），
+     不加 !important 的話，使用者若在列印選項勾了「背景圖形」會印出整頁深色底。 */
+  html,body.kh-printing{background:#fff !important}
+  /* 只設文字色，不再畫一塊白底：白底方塊的邊緣在某些 PDF 檢視器會渲染出一條細灰線 */
+  .px-doc{color:#16202b;font-size:10.5pt;line-height:1.7;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .px-doc h1{font-size:24pt;margin:0 0 6pt;line-height:1.3}
+  .px-cover{page-break-after:always;padding-top:46mm}
+  .px-kick{font-size:9pt;letter-spacing:.2em;color:#a8332b;margin-bottom:10pt}
+  .px-dek{font-size:11.5pt;color:#3a4553;margin:8pt 0 22pt;max-width:120mm}
+  .px-meta{display:grid;grid-template-columns:24mm 1fr;gap:4pt 0;font-size:10pt;margin:0 0 22pt}
+  .px-meta dt{color:#6a7079}
+  .px-meta dd{margin:0}
+  .px-note{border-top:1pt solid #dcd9d1;padding-top:9pt;font-size:8.5pt;color:#6a7079;line-height:1.65}
+  .px-sec h2{font-size:14pt;border-bottom:1.4pt solid #16202b;padding-bottom:4pt;
+    margin:0 0 12pt;page-break-before:always;page-break-after:avoid}
+  .px-cover+.px-sec h2{page-break-before:avoid}
+  .px-item{page-break-inside:avoid;break-inside:avoid;margin:0 0 12pt;padding-bottom:10pt;
+    border-bottom:.6pt solid #e9e7e1}
+  .px-head{font-size:8.5pt;color:#6a7079;margin-bottom:3pt}
+  .px-i{display:inline-block;min-width:6mm;font-weight:700;color:#a8332b}
+  .px-tag{margin-left:6pt;color:#a8332b}
+  .px-psg{border-left:2pt solid #dcd9d1;padding:2pt 0 2pt 8pt;margin:0 0 6pt;
+    font-size:9.5pt;color:#3a4553;white-space:pre-wrap}
+  .px-psg b{display:block;font-size:8.5pt;color:#6a7079}
+  .px-psg p{margin:2pt 0 0}
+  .px-q{font-weight:500;margin:0 0 5pt}
+  .px-fig{display:block;max-width:100%;max-height:78mm;margin:4pt 0}
+  .px-warn{margin:3pt 0;font-size:9pt;color:#8a2b24}
+  .px-opts{margin:0 0 6pt;padding:0;list-style:none}
+  .px-opts li{margin:1.5pt 0;padding-left:7mm;text-indent:-7mm}
+  .px-opts li b{color:#6a7079;font-weight:600}
+  .px-opts li.px-key{background:#eef6f1;border-radius:2pt}
+  .px-ans{margin:0 0 5pt;font-size:10pt}
+  .px-ans b{color:#2c6e52}
+  .px-exp{background:#f6f5f1;border-left:2.2pt solid #a8332b;padding:6pt 8pt;font-size:9.6pt;line-height:1.75}
+  .px-exp p{margin:1.5pt 0}
+  .px-ok{color:#2c6e52;font-weight:600}
+  .px-bad{color:#8a2b24}
+  .px-src{color:#6a7079}
+  .px-none{margin:2pt 0 0;font-size:9pt;color:#6a7079}
+  .px-end{margin-top:14pt;text-align:center;font-size:8.5pt;color:#b9b5ac}
+}

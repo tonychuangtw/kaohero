@@ -1544,6 +1544,16 @@
     main.appendChild(sponsorStrip());
   }
 
+  /* 交給 js/export.js 的介面。錯題本、題本載入與版面零件都關在這個閉包裡，
+     所以用一個明確的小介面傳出去，而不是把 state 掛到 window。 */
+  function exportApi() {
+    return {
+      T: T, btn: btn, sectionHead: sectionHead, kpis: kpis, toast: toast,
+      SUBJ: SUBJ, examOf: examOf, loadMany: loadMany, papers: PAPERS,
+      wrong: state.wrong.slice(), nick: state.nick
+    };
+  }
+
   /* ============ 錯題本 / 統計 ============ */
   function viewWrong(main) {
     main.appendChild(el('h1', 'pg-h', T('錯題本')));
@@ -1554,6 +1564,7 @@
     main.appendChild(el('p', 'lead', T('共 ') + state.wrong.length + T(' 題。連續答對兩次才會自動移除。')));
     var row = el('div', 'btnrow');
     row.appendChild(btn(T('開始複習'), '', function () { startWrong(null); }));
+    row.appendChild(btn(T('匯出 PDF／Anki'), 'o', null, '#/export'));
     row.appendChild(btn(T('清空錯題本'), 'o', function () {
       if (confirm(T('確定要清空錯題本嗎？此動作無法復原。'))) { state.wrong = []; save(); render(); }
     }));
@@ -1812,6 +1823,11 @@
     else if (top === 'mock') viewMock(main);
     else if (top === 'friends') viewFriends(main);
     else if (top === 'wrong') viewWrong(main);
+    else if (top === 'export') {
+      // 錯題匯出（列印版 PDF／Anki 匯入檔）。元件另外一支檔，只有進這一頁才用到。
+      if (window.KHExport) window.KHExport.render(main, exportApi());
+      else main.appendChild(el('p', 'lead', T('匯出元件尚未載入，請重新整理頁面。')));
+    }
     else if (top === 'stats') viewStats(main);
     else if (top === 'guide') viewGuide(main);
     else if (top === 'stories') viewStories(main);
