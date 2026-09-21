@@ -1595,6 +1595,9 @@
       main.appendChild(s);
     }
 
+    // 弱點診斷與補弱題單（2026-09-21）：交卷後最重要的不是分數，是「接下來練什麼」
+    if (window.KHDiag) window.KHDiag.render(main, diagApi());
+
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
     var sid0 = quiz.sid, spec0 = quiz.spec || 'full';
     row.appendChild(btn(T('再考一次'), '', function () { startMock(sid0, spec0); }));
@@ -1602,6 +1605,16 @@
     main.appendChild(row);
     viewBoard(main, quiz.sid, quiz.spec || 'full');
     main.appendChild(sponsorStrip());
+  }
+
+  /* 交給 js/diagnose.js 的介面（模考結算頁的弱點診斷）。 */
+  function diagApi() {
+    return {
+      T: T, btn: btn, sectionHead: sectionHead, toast: toast,
+      SUBJ: SUBJ, EXAMS: EXAMS, examOf: examOf, papers: PAPERS, loadMany: loadMany,
+      isRight: isRight, startList: startWrongList,
+      quiz: { sid: quiz.sid, spec: quiz.spec, qs: quiz.qs, ans: quiz.ans, meta: quiz.meta }
+    };
   }
 
   /* 交給 js/export.js 的介面。錯題本、題本載入與版面零件都關在這個閉包裡，

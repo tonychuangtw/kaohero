@@ -112,8 +112,36 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
    `:root:not([data-theme="light"]):not(...):not(...) body{background:...}`，權重 (0,4,2) 比
    `body.kh-printing` (0,1,1) 高；不加 `!important`，使用者在列印選項勾了「背景圖形」就會印出整頁深色底。
 
+## 主題歸類（弱點診斷）怎麼運作，改之前先看這段
+
+`js/diagnose.js` 的 `topicOf()` 是從詳解的「📚 出處：」那一行**猜**主題的，沒有人工標的大綱。
+各科出處寫法差很多，規則是一條一條踩出來的（2026-09-21），動它之前先跑抽樣：
+
+```bash
+node -e "const fs=require('fs');const w={};new Function('window',fs.readFileSync('js/diagnose.js','utf8'))(w);
+global.window={};require('./js/data/exams.js');
+const E=global.window.APP_EXAMS.filter(e=>e.subj==='med1').slice(0,4);
+E.forEach(e=>{require('./js/data/exam/'+e.id+'.js');const p=global.window.APP_EXAM_PAPERS[e.id];
+console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' | '))})"
+```
+
+現有規則與各自的來由：
+- **括號內容先拿掉**：「成語辨正（嘆為觀止、斷章取義）」裡的「斷章」會被誤判成章節標記
+- **「章」兩邊都要看**：`第 11 章 Cranial Nerve Nuclei`（章在名字前）與 `腦神經核章`（章在名字後）都有，
+  只認一種的話實測 6 卷裡有 5 卷整份歸不出主題
+- **英文 `Ch.8 Head`**：牙醫科的出處是全英文書目，靠這個才抓得到章名
+- **只有書名就回 null**：`第 8 版`／`8th ed.`／`Moore《…》` 是「書」不是「考點」，
+  當主題只會在診斷表上看到一排書名
+- **法規題聚合到法規名稱**：`行政訴訟法第 6 條、第 2 條` → `行政訴訟法`。一條一個主題等於沒有主題，
+  同一個考點在不同年份會引不同條號
+- 補弱題單的比對是**寬鬆包含**（主題字串出現在該題出處行裡就算），不是字串相等——
+  嚴格比對在醫科幾乎抽不到題
+
 ## 其他
 
+- 間隔重複排程：`js/app.js` 的 `bumpWrongSchedule`／`dueList`（錯題帶 `box` 1~3 與 `due`）；
+  舊資料只有 `s`，開頁時換算並寫回
+- 模考弱點診斷與補弱題單：`js/diagnose.js`，掛在模考結算頁（`viewMockResult` → `diagApi()`）
 - 錯題匯出（PDF／Anki）：`js/export.js` ＋ `#/export`。PDF 與純文字匯入檔是純前端；
   **`.apkg` 走後端** `POST /api/kgh/export/anki`（`claude-shared/projects/LanExamMock/backend/kaohero.js`），
   由 `tools/pick-json.js` 挑題 → `tools/build-anki.py`（genanki，venv 在 brain 的 `~/.venvs/anki`）產檔。

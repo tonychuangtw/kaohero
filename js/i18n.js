@@ -289,6 +289,40 @@
     '　｜還沒答對過 ': ' | never got it right: ',
     '　｜都至少答對過一次': ' | all answered correctly at least once',
     '這一科目前沒有錯題': 'No wrong answers in this subject yet',
+    /* --- 模考弱點診斷（2026-09-21） --- */
+    '弱點診斷': 'Where you lost marks',
+    '前半段': 'First half',
+    '後半段': 'Second half',
+    '錯最多的主題': 'Topics you missed most',
+    '這次每個主題都全對': 'You got every topic right this time',
+    '錯 ': 'wrong ',
+    '※ 主題是依每題詳解的「出處」自動歸類的，不是官方的命題大綱；各科出處寫法不同，歸類可能有誤差。':
+      '\u203b Topics are derived automatically from each explanation\u2019s cited source, not from an official syllabus; sources are written differently across subjects, so grouping can be imprecise.',
+    '這份卷的題目還沒有詳解出處可以歸類主題，所以這次只看節奏與錯題清單。':
+      'These questions have no cited sources to group by yet, so this time you only get pacing and the list of misses.',
+    '有 ': 'You left ',
+    ' 題沒作答——先練配速：遇到不會的先標記跳過，把會的題全部寫完再回頭。':
+      ' questions blank \u2014 work on pacing: flag and skip what you do not know, finish everything you do know, then come back.',
+    '後半段掉了 ': 'The second half dropped ',
+    ' 個百分點，多半是時間壓力或疲勞，不一定是不會；下次試著把前半段的速度再加快一點。':
+      ' points \u2014 usually time pressure or fatigue rather than not knowing the material. Try moving faster through the first half.',
+    '後半段反而比前半段好 ': 'The second half was actually ',
+    ' 個百分點，通常是一開始還沒進入狀況；正式考前先做 5 題暖身。':
+      ' points better \u2014 usually a slow start. Warm up with five questions before the real exam.',
+    '前後半段的正確率差不多，節奏穩定；接下來把下面那幾個主題補起來就好。':
+      'Both halves scored about the same, so your pacing is steady \u2014 just shore up the topics below.',
+    '練同主題的其他題': 'Practise more on these topics',
+    '抽題中…': 'Picking questions…',
+    '補弱練習 · ': 'Topic practice \u00b7 ',
+    ' 等 ': ' and ',
+    ' 個主題': ' more topics',
+    '補弱題單會從同一科的其他年份，抽出上面這幾個主題的題目（最多 ':
+      'The practice set pulls questions on those topics from other years of the same subject (up to ',
+    ' 題），這次考過的不重複。': '), skipping anything you just sat.',
+    '這一科同主題的題目不夠（只找到 ': 'Not enough questions on those topics in this subject (only ',
+    ' 題），先把這次的錯題重練一次吧。': ' found) \u2014 redo this paper\u2019s misses instead.',
+    '同主題只找到 ': 'Only ',
+    ' 題，先練這些。': ' questions found on those topics \u2014 start with these.',
     /* --- 間隔重複複習排程（2026-09-21） --- */
     '今日複習　': 'Due today: ',
     '開始今日複習': 'Start today\u2019s review',

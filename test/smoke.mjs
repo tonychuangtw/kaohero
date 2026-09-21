@@ -602,6 +602,34 @@ ok((await ev(`document.querySelector('#main').textContent`)).includes('及格標
 ok(await ev(`(JSON.parse(localStorage.getItem('kaohero.v1')||'{}').mocks||[]).length === 1`),
    '模擬考成績寫入紀錄');
 ok(await ev(`!document.querySelector('#main .mk-clock')`), '交卷後倒數停止');
+
+// --- 模考後的弱點診斷與補弱題單（2026-09-21）---
+ok((await ev(`document.querySelector('#main').textContent`)).includes('弱點診斷'), '結算頁有弱點診斷');
+ok(await ev(`document.querySelectorAll('#main .dg-p').length === 3`), '診斷有前半段／後半段／未作答三格');
+ok((await ev(`document.querySelector('#main .dg-fine')?.textContent || ''`)).includes('自動歸類'),
+   '有講清楚主題是自動歸類的');
+{
+  // 這份模考只答了 1 題（其餘未作答＝算錯），所以一定有弱主題可以列
+  const rows = await ev(`document.querySelectorAll('#main .dg-row').length`);
+  ok(rows >= 1 && rows <= 6, `診斷列出 1~6 個弱主題（實得 ${rows}）`);
+  ok(await ev(`[...document.querySelectorAll('#main .dg-row .dg-n')].every(x=>/錯 \\d+ \\/ \\d+/.test(x.textContent))`),
+     '每個主題都標出錯幾題／共幾題');
+  ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('練同主題的其他題'))`),
+     '有補弱題單按鈕');
+  // 主題歸類本身（KHDiag.topicOf）：兩種章節寫法與純書名都要處理對
+  const t1 = await ev(`KHDiag.topicOf({exp:'✅ x\\n📚 出處：Snell《Clinical Neuroanatomy》第 8 版，第 11 章 Cranial Nerve Nuclei；Moore。'})`);
+  ok(t1 === 'Cranial Nerve Nuclei', `章在名字前：${t1}`);
+  const t2 = await ev(`KHDiag.topicOf({exp:'📚 出處：Snell《Clinical Neuroanatomy》第 8 版，視丘章；Kandel 第 6 版。'})`);
+  ok(t2 === '視丘', `章在名字後：${t2}`);
+  const t3 = await ev(`KHDiag.topicOf({exp:"📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8 Head（Nasal cavity）。"})`);
+  ok(t3 === 'Head', `英文 Ch.N：${t3}`);
+  const t4 = await ev(`KHDiag.topicOf({exp:'📚 出處：成語辨正（嘆為觀止、剛愎自用、斷章取義）'})`);
+  ok(t4 === '成語辨正', `括號裡的「斷章取義」不會被當成章節：${t4}`);
+  const t5 = await ev(`KHDiag.topicOf({exp:'📚 出處：Guyton & Hall《Textbook of Medical Physiology》第 14 版。'})`);
+  ok(t5 === null, `只有書名就不當主題：${t5}`);
+  const t6 = await ev(`KHDiag.topicOf({exp:'✅ 沒有出處行'})`);
+  ok(t6 === null, '沒有出處行就不歸類');
+}
 ok(await ev(`document.querySelectorAll('#main .bd-row:not(.mark)').length >= 50`), '結算頁的英雄榜有 50 人');
 ok(await ev(`document.querySelectorAll('#main .bd-row.mark').length === 1`), '榜上有一條基準線且另外標色');
 ok(await ev(`!!document.querySelector('#main .bd-row.me')`), '自己的成績有出現在榜上');
