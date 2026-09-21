@@ -307,7 +307,16 @@
     '涵蓋卷數': 'Papers covered',
     '錯題本總題數': 'Total in wrong-answer book',
     '列印 / 存成 PDF': 'Print / Save as PDF',
-    '下載 Anki 匯入檔': 'Download Anki file',
+    '下載 Anki 牌組': 'Download Anki deck',
+    '改下載純文字匯入檔（電腦版 Anki）': 'Download the plain-text file instead (desktop Anki)',
+    '產生中…': 'Building…',
+    '一次最多 ': 'At most ',
+    ' 題，這次先匯出前 ': ' questions at a time; exporting the first ',
+    '伺服器忙線，已改給你純文字匯入檔（電腦版 Anki 可用）。':
+      'The server is busy, so you got the plain-text file instead (works in desktop Anki).',
+    '牌組產生失敗，已改給你純文字匯入檔（電腦版 Anki 可用）。':
+      'Could not build the deck, so you got the plain-text file instead (works in desktop Anki).',
+    ' 張卡片的牌組。': ' cards in the deck.',
     '整理中…': 'Preparing…',
     '已下載 ': 'Downloaded ',
     ' 張卡片的匯入檔。': ' cards.',
@@ -316,8 +325,8 @@
     '按「列印 / 存成 PDF」後，在列印視窗把印表機選成「另存為 PDF」（手機是分享選單裡的「列印 → 儲存成 PDF」）。版面已設定成 A4，一題不會被切成兩頁。':
       'Press Print / Save as PDF, then choose "Save as PDF" as the printer (on a phone: Share \u2192 Print \u2192 Save as PDF). The layout is A4 and no question is split across pages.',
     '匯入 Anki': 'Import into Anki',
-    '下載的是 Anki 官方的純文字匯入檔。開啟電腦版 Anki → 檔案 → 匯入 → 選這個 .txt 檔；牌組會自動建成「考英雄::錯題本」，欄位第一欄是題目、第二欄是答案與詳解。牌型請選「基本／Basic」，並確認「允許 HTML」有打勾。':
-      'The file is Anki\u2019s own plain-text import format. In desktop Anki: File \u2192 Import \u2192 pick the .txt file. The deck "Kaohero::Wrong answers" is created automatically; column 1 is the question, column 2 the answer and explanation. Pick the Basic note type and keep "Allow HTML" ticked.',
+    '「下載 Anki 牌組」給的是 .apkg，手機版（AnkiDroid／AnkiMobile）與電腦版都能直接開啟匯入，牌組叫「考英雄::錯題本」，卡片帶年度、科目與卷代碼標籤。若後端連不上會自動改給純文字匯入檔（.txt）——那個只能用電腦版：檔案 → 匯入 → 選該檔，牌型選「基本／Basic」並確認「允許 HTML」有打勾。':
+      '"Download Anki deck" gives you an .apkg that both mobile (AnkiDroid / AnkiMobile) and desktop Anki can open directly; the deck is called "Kaohero::Wrong answers" and cards are tagged by year, subject and paper. If the server cannot be reached you get the plain-text file instead \u2014 that one is desktop only: File \u2192 Import \u2192 pick the file, choose the Basic note type and keep "Allow HTML" ticked.',
     '圖片題': 'Image questions',
     'Anki 卡片裡的圖是連到本站的網址，離線時會看不到圖；PDF 則會把圖一起印進去。':
       'Images on Anki cards link back to this site, so they need a connection; the PDF embeds them.',

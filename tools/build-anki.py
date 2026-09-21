@@ -7,7 +7,7 @@
 papers.json 由 tools/export-json.js 產生。
 需要 genanki（本機裝在 /tmp/ankienv，見 docs）。
 """
-import sys, json, html, hashlib, argparse, random
+import sys, re, json, html, hashlib, argparse, random
 
 try:
     import genanki
@@ -30,6 +30,11 @@ CSS = """
 }
 .nightMode .tagline{ color:#E4796D; }
 .q{ font-weight:500; margin-bottom:14px; }
+.q .psg{ border-left:3px solid #DCD9D1; padding:2px 0 2px 12px; margin-bottom:10px;
+  font-size:16px; color:#5A6472; white-space:pre-wrap; }
+.nightMode .q .psg{ border-left-color:#2C353F; color:#9AA3AE; }
+.q .fig{ margin:10px 0 0; }
+.q .fig img{ max-width:100%; height:auto; border-radius:6px; }
 .opts{ list-style:none; margin:0; padding:0; }
 .opts li{ margin:6px 0 6px 0; padding-left:26px; text-indent:-26px; }
 .k{ font-family:ui-monospace,monospace; font-weight:600; color:#6A7079; }
@@ -76,12 +81,37 @@ def paint_exp(exp):
     return '<br>'.join(out)
 
 
+def front_q(q, imgbase):
+    """卡片正面的題幹：題組短文與題目圖都要帶上，單看一張卡也讀得懂。
+       圖是連到站上的絕對網址（Anki 不內嵌遠端圖，離線時看不到圖）。"""
+    h = []
+    if q.get('psg'):
+        h.append('<div class="psg">' + esc(q['psg']) + '</div>')
+    h.append('<div>' + esc(q['q']) + '</div>')
+    if q.get('fig') and imgbase:
+        h.append('<div class="fig"><img src="' + esc(imgbase.rstrip('/') + '/' + q['fig'].lstrip('/')) + '"></div>')
+    return ''.join(h)
+
+
+def ans_of(q):
+    """正解字母。送分題（void）與多答案題（alt）都要照實寫，不能只印 q['a']。"""
+    if q.get('void'):
+        return '送分（四個選項均給分）'
+    ks = [q['a']] + list(q.get('alt') or [])
+    return '、'.join(LAB[k] for k in ks if isinstance(k, int) and 0 <= k < len(LAB))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('src'); ap.add_argument('dst')
     ap.add_argument('--deck', default='考古英雄')
     ap.add_argument('--limit', type=int, default=0, help='每卷最多取幾題（0=全部）')
     ap.add_argument('--owner', default='', help='浮水印上的授權對象')
+    # 錯題本匯出會挑到「還沒寫詳解」的題：那些題考生照樣答錯過、照樣要背，
+    # 卡片背面就只放正解。整卷講義用的預設維持「只收有詳解的題」不變。
+    ap.add_argument('--all', action='store_true', help='連還沒寫詳解的題也收')
+    ap.add_argument('--flat', action='store_true', help='不分年度／科目子牌組，全部放同一個牌組')
+    ap.add_argument('--imgbase', default='https://kaohero.com', help='圖片題要連回哪個站台')
     a = ap.parse_args()
 
     data = json.load(open(a.src, encoding='utf-8'))
@@ -99,23 +129,28 @@ def main():
     for p in data['papers']:
         m = p['meta']
         sub = m.get('subjName') or m.get('subj') or ''
-        name = f"{a.deck}::{m['roc']} 年::{sub}"
+        name = a.deck if a.flat else f"{a.deck}::{m['roc']} 年::{sub}"
         if name not in decks:
-            decks[name] = genanki.Deck(abs(hash(name)) % (10 ** 10), name)
+            # 牌組 id 要「同名同 id」才不會每次匯入都長出一個新牌組；
+            # Python 的 hash() 對 str 每次執行都加鹽，換成 md5 才穩定。
+            did = int(hashlib.md5(name.encode()).hexdigest()[:9], 16)
+            decks[name] = genanki.Deck(did, name)
         deck = decks[name]
-        qs = [q for q in p['qs'] if q.get('exp')]
+        qs = p['qs'] if a.all else [q for q in p['qs'] if q.get('exp')]
         if a.limit:
             qs = qs[:a.limit]
         for q in qs:
             opts = ''.join(
-                f'<li><span class="k">({LAB[i]})</span> {esc(o)}</li>'
+                f'<li><span class="k">({LAB[i]})</span> {esc(o) if (o or "").strip() else "（見上圖）"}</li>'
                 for i, o in enumerate(q.get('o') or []))
-            ans = LAB[q['a']] if isinstance(q.get('a'), int) and 0 <= q['a'] < 4 else '送分'
+            ans = ans_of(q)
             src = f"{m['label']}　第 {q['n']} 題"
+            exp = paint_exp(q['exp']) if q.get('exp') else '（這一題的詳解還沒寫，會分批補上。）'
             deck.add_note(genanki.Note(
                 model=model,
-                fields=[esc(q['q']), opts, ans, paint_exp(q['exp']), esc(src), esc(footer)],
-                tags=[f"民國{m['roc']}年", sub.replace(' ', ''), m['id']],
+                fields=[front_q(q, a.imgbase), opts, ans, exp, esc(src), esc(footer)],
+                # Anki 的標籤以空白分隔，標籤本身不能含任何空白（含全形空白）
+                tags=[t for t in [f"民國{m['roc']}年", re.sub(r'\s+', '', sub), m['id']] if t],
                 guid=genanki.guid_for(m['id'], q['n'])))
             total += 1
 

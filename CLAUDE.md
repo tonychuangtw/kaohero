@@ -114,7 +114,11 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
 
 ## 其他
 
-- 錯題匯出（PDF／Anki）：`js/export.js` ＋ `#/export`，純前端、不經伺服器；
+- 錯題匯出（PDF／Anki）：`js/export.js` ＋ `#/export`。PDF 與純文字匯入檔是純前端；
+  **`.apkg` 走後端** `POST /api/kgh/export/anki`（`claude-shared/projects/LanExamMock/backend/kaohero.js`），
+  由 `tools/pick-json.js` 挑題 → `tools/build-anki.py`（genanki，venv 在 brain 的 `~/.venvs/anki`）產檔。
+  ⚠️ 那個 venv 不在 repo 裡，重灌或換機要重建：`python3 -m venv ~/.venvs/anki && ~/.venvs/anki/bin/pip install genanki`；
+  沒有它後端回 503、前端自動退回純文字匯入檔（不會壞掉，只是手機版 Anki 用不了）。
   細節與「要收費時改哪裡」見 `docs/monetization-plan.md` 四之二節
 - 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節
 - 題解分離、變現四階段計畫：`docs/monetization-plan.md`（詳解寫完再動工）

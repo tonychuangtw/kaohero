@@ -286,6 +286,39 @@ const hard = await ev(`new Promise(function(r){ KHExport.ankiText(function(t,ite
 ok(hard === 1, `只含還沒答對過的題時剩 1 題（實得 ${hard}）`);
 await ev(`[...document.querySelectorAll('#main .px-ck input')][0].click()`); await sleep(150);
 
+// .apkg 走後端；測試環境連不到就要自動退回純文字匯入檔（不能讓使用者按了沒反應）
+ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.textContent.includes('Anki 牌組'))`),
+   '有「下載 Anki 牌組」按鈕');
+ok(await ev(`!!document.querySelector('#main .px-link')`), '有純文字匯入檔的備用入口');
+{
+  // 攔截下載與 fetch：模擬後端 503，檢查退回 .txt
+  await ev(`(function(){
+    window.__dl = [];
+    var real = HTMLAnchorElement.prototype.click;
+    HTMLAnchorElement.prototype.click = function(){ if (this.download) { window.__dl.push(this.download); return; } return real.apply(this, arguments); };
+    window.fetch = function(){ return Promise.resolve({ ok:false, status:503, json:function(){ return Promise.resolve({error:'unavailable',reason:'genanki'}); } }); };
+  })()`);
+  await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('Anki 牌組')).click()`);
+  for (let i = 0; i < 60 && !(await ev(`window.__dl.length`)); i++) await sleep(100);
+  const dl = await ev(`window.__dl`);
+  ok(Array.isArray(dl) && dl.length === 1 && /^kaohero-wrong-\d{8}\.txt$/.test(dl[0]),
+     `後端不可用時退回純文字匯入檔（實得 ${JSON.stringify(dl)}）`);
+  ok((await ev(`document.querySelector('.toast')?.textContent || ''`)).includes('純文字'),
+     '退回時有告知使用者');
+  // 後端正常時要下載 .apkg
+  await ev(`(function(){
+    window.__dl = [];
+    window.fetch = function(){ return Promise.resolve({ ok:true, status:200,
+      headers:{ get:function(){ return '2'; } },
+      blob:function(){ return Promise.resolve(new Blob(['x'],{type:'application/octet-stream'})); } }); };
+  })()`);
+  await ev(`[...document.querySelectorAll('#main .btn')].find(b=>b.textContent.includes('Anki 牌組')).click()`);
+  for (let i = 0; i < 60 && !(await ev(`window.__dl.length`)); i++) await sleep(100);
+  const dl2 = await ev(`window.__dl`);
+  ok(Array.isArray(dl2) && dl2.length === 1 && /^kaohero-wrong-\d{8}\.apkg$/.test(dl2[0]),
+     `後端正常時下載 .apkg（實得 ${JSON.stringify(dl2)}）`);
+}
+await reload();
 await hash('#/wrong');
 ok(await ev(`[...document.querySelectorAll('#main .btn')].some(b=>b.getAttribute('href')==='#/export')`),
    '錯題本有匯出入口');

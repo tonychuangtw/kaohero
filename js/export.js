@@ -20,6 +20,7 @@
   var LAB = ['A', 'B', 'C', 'D', 'E'];
   var A = null;                 // app.js 注入的介面（見 app.js 的 exportApi）
   function T(s) { return A && A.T ? A.T(s) : s; }
+  function unitQ() { return T(' 題'); }
 
   function el(t, c, x) {
     var n = document.createElement(t);
@@ -323,8 +324,41 @@
     return out.join('\n') + '\n';
   }
 
-  function download(name, text) {
-    var blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  /* ---- Anki 牌組（.apkg）：走後端 ----
+     純文字匯入檔只有電腦版 Anki 吃得下；手機版要 .apkg，而 .apkg 是內含 SQLite 的 zip，
+     瀏覽器端要生得載 sql.js（約 1MB wasm）。所以只送 [{pid,n}] 給後端，由後端用
+     tools/build-anki.py（genanki）產檔。後端不在或出錯就退回純文字檔，不讓使用者卡住。 */
+  var APKG_MAX = 2000;   // 與後端 ANKI_MAX_ITEMS 一致
+  function apiBase() {
+    return (window.KH_CONFIG || {}).API_BASE || '';
+  }
+  function apkg(items, cb) {
+    var api = apiBase();
+    if (!api) return cb(new Error('no-api'));
+    var body = {
+      items: items.slice(0, APKG_MAX).map(function (it) { return { pid: it.pid, n: it.n }; }),
+      deck: T('考英雄::錯題本'), owner: owner()
+    };
+    var headers = { 'Content-Type': 'application/json' };
+    try {
+      var tk = window.KHSync && window.KHSync.token && window.KHSync.token();
+      if (tk) headers.Authorization = 'Bearer ' + tk;
+    } catch (e) {}
+    fetch(api + '/api/kgh/export/anki', {
+      method: 'POST', headers: headers, body: JSON.stringify(body)
+    }).then(function (r) {
+      if (!r.ok) return r.json().catch(function () { return {}; }).then(function (j) {
+        var err = new Error(j.reason || j.error || ('http-' + r.status));
+        err.status = r.status;
+        throw err;
+      });
+      return r.blob().then(function (blob) {
+        cb(null, blob, Number(r.headers.get('X-Card-Count')) || body.items.length);
+      });
+    }).catch(function (e) { cb(e); });
+  }
+
+  function saveBlob(name, blob) {
     var url = URL.createObjectURL(blob);
     var a = el('a');
     a.href = url; a.download = name;
@@ -334,6 +368,10 @@
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     }, 400);
+  }
+
+  function download(name, text) {
+    saveBlob(name, new Blob([text], { type: 'text/plain;charset=utf-8' }));
   }
 
   /* ============ 介面 ============ */
@@ -396,34 +434,63 @@
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
     var pb = A.btn(T('列印 / 存成 PDF'), '', function () {
       if (!cnt) return A.toast(T('這個範圍目前沒有錯題。'));
-      pb.disabled = true; pb.textContent = T('整理中…');
+      busy(pb, T('整理中…'));
       collect(function (items) {
-        pb.disabled = false; pb.textContent = T('列印 / 存成 PDF');
+        done(pb, T('列印 / 存成 PDF'));
         if (!items.length) return A.toast(T('題本載入失敗，請重新整理再試一次。'));
         printNow(buildPrintDoc(items));
       });
     });
-    var ab = A.btn(T('下載 Anki 匯入檔'), 'o', function () {
+    // Anki 兩條路：預設 .apkg（手機版 Anki 也能直接開，要連得到後端），
+    // 後端不在或出錯就自動退回純文字匯入檔（電腦版 Anki 用），不讓使用者卡住。
+    var ab = A.btn(T('下載 Anki 牌組'), 'o', function () {
       if (!cnt) return A.toast(T('這個範圍目前沒有錯題。'));
-      ab.disabled = true; ab.textContent = T('整理中…');
+      if (cnt > APKG_MAX) A.toast(T('一次最多 ') + APKG_MAX + T(' 題，這次先匯出前 ') + APKG_MAX + unitQ() + '。');
+      busy(ab, T('產生中…'));
       collect(function (items) {
-        ab.disabled = false; ab.textContent = T('下載 Anki 匯入檔');
-        if (!items.length) return A.toast(T('題本載入失敗，請重新整理再試一次。'));
-        download('kaohero-wrong-' + stamp() + '.txt', ankiText(items));
-        A.toast(T('已下載 ') + items.length + T(' 張卡片的匯入檔。'));
+        if (!items.length) { done(ab, T('下載 Anki 牌組')); return A.toast(T('題本載入失敗，請重新整理再試一次。')); }
+        apkg(items, function (err, blob, n) {
+          done(ab, T('下載 Anki 牌組'));
+          if (err) {
+            // 退回純文字：使用者要的是「把錯題帶進 Anki」，不是我們的後端有沒有起來
+            download('kaohero-wrong-' + stamp() + '.txt', ankiText(items));
+            A.toast(err.status === 429
+              ? T('伺服器忙線，已改給你純文字匯入檔（電腦版 Anki 可用）。')
+              : T('牌組產生失敗，已改給你純文字匯入檔（電腦版 Anki 可用）。'));
+            return;
+          }
+          saveBlob('kaohero-wrong-' + stamp() + '.apkg', blob);
+          A.toast(T('已下載 ') + n + T(' 張卡片的牌組。'));
+        });
       });
     });
     row.appendChild(pb); row.appendChild(ab);
     main.appendChild(row);
+
+    var alt = el('p', 'lead'); alt.style.margin = '10px 0 0';
+    var altLink = el('button', 'px-link', T('改下載純文字匯入檔（電腦版 Anki）'));
+    altLink.onclick = function () {
+      if (!cnt) return A.toast(T('這個範圍目前沒有錯題。'));
+      busy(altLink, T('整理中…'));
+      collect(function (items) {
+        done(altLink, T('改下載純文字匯入檔（電腦版 Anki）'));
+        if (!items.length) return A.toast(T('題本載入失敗，請重新整理再試一次。'));
+        download('kaohero-wrong-' + stamp() + '.txt', ankiText(items));
+        A.toast(T('已下載 ') + items.length + T(' 張卡片的匯入檔。'));
+      });
+    };
+    alt.appendChild(altLink);
+    main.appendChild(alt);
 
     var s2 = el('section', 'sec'); s2.style.marginTop = '22px';
     s2.appendChild(A.sectionHead(T('匯出後怎麼用')));
     var p2 = el('div', 'panel');
     [[T('存成 PDF'), T('按「列印 / 存成 PDF」後，在列印視窗把印表機選成「另存為 PDF」'
         + '（手機是分享選單裡的「列印 → 儲存成 PDF」）。版面已設定成 A4，一題不會被切成兩頁。')],
-     [T('匯入 Anki'), T('下載的是 Anki 官方的純文字匯入檔。開啟電腦版 Anki → 檔案 → 匯入 → '
-        + '選這個 .txt 檔；牌組會自動建成「考英雄::錯題本」，欄位第一欄是題目、第二欄是答案與詳解。'
-        + '牌型請選「基本／Basic」，並確認「允許 HTML」有打勾。')],
+     [T('匯入 Anki'), T('「下載 Anki 牌組」給的是 .apkg，手機版（AnkiDroid／AnkiMobile）與電腦版都能直接開啟匯入，'
+        + '牌組叫「考英雄::錯題本」，卡片帶年度、科目與卷代碼標籤。'
+        + '若後端連不上會自動改給純文字匯入檔（.txt）——那個只能用電腦版：檔案 → 匯入 → 選該檔，'
+        + '牌型選「基本／Basic」並確認「允許 HTML」有打勾。')],
      [T('圖片題'), T('Anki 卡片裡的圖是連到本站的網址，離線時會看不到圖；'
         + 'PDF 則會把圖一起印進去。')]].forEach(function (r) {
       var d = el('div', 'px-how');
@@ -438,6 +505,10 @@
     back.appendChild(A.btn(T('← 回錯題本'), 'o', null, '#/wrong'));
     main.appendChild(back);
   }
+
+  // 產檔要幾秒（尤其 .apkg 要等後端），按鈕要看得出在忙，而且不能連按
+  function busy(btn, label) { btn.disabled = true; btn.textContent = label; }
+  function done(btn, label) { btn.disabled = false; btn.textContent = label; }
 
   function check(key, title, sub) {
     var lb = el('label', 'px-ck');

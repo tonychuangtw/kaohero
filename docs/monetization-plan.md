@@ -189,13 +189,18 @@ Tony 09-21 從三個付費候選（錯題匯出／間隔重複排程／模考弱
 - 可取消「含正解與詳解」→ 變成沒有答案的自我測驗卷
 - 全程在瀏覽器裡完成，錯題資料不送伺服器；沒登入也能用
 
-**為什麼不是後端產檔**
-- PDF：前端 PDF 函式庫要嵌中文字型（好幾 MB）；瀏覽器列印用系統字型，且手機桌機都內建「存成 PDF」
-- Anki：`.apkg` 是內含 SQLite 的 zip，瀏覽器端要載 sql.js（約 1MB wasm）。
-  官方純文字匯入（`#separator`／`#html`／`#deck`／`#tags column` 標頭）零相依、檔案小。
-  ⚠️ 若之後要出 `.apkg`（手機版 Anki 直接開），已有 `tools/build-anki.py`（genanki）可接，
-  需要後端裝 python venv 並開一支 `POST /api/kgh/export/anki`；`KHExport.ankiText/printHtml`
-  回傳的 items 就是同一份資料結構，不必重做取題邏輯。
+**PDF 為什麼不是後端產檔**：前端 PDF 函式庫要嵌中文字型（好幾 MB）；瀏覽器列印用系統字型，
+且手機桌機都內建「存成 PDF」。
+
+**Anki 兩條路（09-21 當天 Tony 說「要」就把 .apkg 補上了）**
+- 預設 **`.apkg`**：手機版（AnkiDroid／AnkiMobile）與電腦版都能直接開。`.apkg` 是內含 SQLite 的 zip，
+  瀏覽器端要生得載 sql.js（約 1MB wasm），所以改由後端產：
+  前端只送 `[{pid,n}]` → `POST /api/kgh/export/anki` → `tools/pick-json.js` 挑題（pid 走索引白名單，
+  擋路徑穿越）→ `tools/build-anki.py`（genanki）產檔回傳。
+  限制：每 IP 每小時 10 次、同時最多 2 份、單次最多 2,000 題、子行程逾時 90 秒。
+  ⚠️ 維運相依：brain 的 `~/.venvs/anki`（不在 repo 裡，重灌要重建）與本機的 kaohero repo。
+- 備援 **純文字匯入檔**：零相依、離線可用，但只有電腦版 Anki 吃得下。
+  後端回 503／500／連不上時，前端自動改下載這個並告知使用者；頁面上也永遠留一個手動入口。
 
 **要收費時改哪裡（現在刻意沒有付費牆）**
 - 金流還沒做（階段 3），所以現階段完全免費、不設限。
