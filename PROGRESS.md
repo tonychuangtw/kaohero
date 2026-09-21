@@ -1,28 +1,49 @@
-STATUS: blocked
-OBJECTIVE: Tony 2026-09-20 11:15 台北回「都做」的兩件**都已完成**：
-　**(A) 補完舊科目零星漏題**（原估 828 卷 3,077 題）——跨卷批次 worker `exp-batch`，**09/20 19:09 台北收工**。
-　**(B) 變現工程的兩件前置**（⚠️ 不是題解分離：那在 09-12 已被 Tony 取消，見 `docs/monetization-plan.md` 第 7 行
-　　「詳解不收費，永久免費開放。原本的『階段 0 題解分離』隨之取消」）——**09/20 12:0x 台北完成。**
+STATUS: in-progress
+OBJECTIVE: 變現工程的第一個付費功能：**個人錯題 PDF／Anki 匯出**（Tony 2026-09-21 00:15 台北
+　從三個候選裡回「1」）。(A) 舊科目漏題與 (B) 兩件前置都已完成，見下方 09-21 與 09-20 兩節。
 
-NEXT_ACTION: 等 Tony 回「先做哪一個付費功能」（09/21 04:2x 台北已發問到 kaohero 線）。他回覆前不動工。
-　候選（`docs/monetization-plan.md` 收斂後的方向）：
-　1. 個人錯題 PDF／Anki 匯出（`tools/build-pdf.py`、`tools/build-anki.py` 已存在，接起來最快）
-　2. 間隔重複複習排程（階段 2）
-　3. 模考後弱點診斷
+NEXT_ACTION: 匯出功能 09/21 已做完並 push（commit 75dce9c9c），等 Tony 看過範例檔的回饋再決定要不要補。
+　1. **已完成**：`js/export.js` ＋ 路由 `#/export`，入口在錯題本頁的「匯出 PDF／Anki」。
+　　 純前端：PDF 走瀏覽器列印（`@media print` 的 A4 列印版），Anki 出官方純文字匯入檔。
+　　 可選全部／單科、可只挑「還沒答對過」的題、可取消詳解變成純測驗卷。現階段不設付費牆。
+　2. **可能的後續**（Tony 說了再做，不要自己開工）：
+　　 - 真正的 `.apkg`（手機版 Anki 直接開）：後端裝 python venv ＋ `tools/build-anki.py`（genanki），
+　　   開 `POST /api/kgh/export/anki`；`KHExport.ankiText/printHtml` 的 items 就是同一份資料結構。
+　　 - 付費牆：金流（階段 3）做好之後，關卡在 `js/export.js` 的 `render()` 開頭。
+　3. **下一個付費功能**候選仍是：間隔重複複習排程（階段 2）、模考後弱點診斷。⚠️ 動工前先問 Tony。
 　⛔ 除非 Tony 當次指定，不用 DeepSeek（09/19 定案，見 `CLAUDE.md`）。
 　⛔ 不要同時啟動 `exp-worker` 與 `exp-batch`（兩邊都改題庫、都 push）。
 
-VALIDATION: 09/21 04:1x 台北已全部跑過——`node tools/build-index.js --write`（4,430 卷／223,921 題／
-　已有詳解 218,347 題）、`node test/test.js` 全綠（60,739 項）、`node test/smoke.mjs` 全綠；
-　`git status` 乾淨、與 origin/main 同步（0 筆未 push）。
-BLOCKERS: 等 Tony 指定下一個付費功能（不是技術問題，純決策）。
+VALIDATION: `node test/test.js`（60,739 項）與 `node test/smoke.mjs` 全綠——smoke 新增 21 項匯出檢查
+　（Anki 檔頭與欄數、圖片絕對網址、列印版封面／正解標示／取消詳解後不含答案、360px 不溢出、觸控 ≥44px）。
+　列印版另外用 CDP `Page.printToPDF` 實印過 A4 六頁目視確認（背景圖形開／關都正確）。
+BLOCKERS: 無。
 
-PATHS: js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
-　tools/exp-batch.sh／exp-batch-dump.js／exp-batch.service／exp-prompt-batch.md／exp-skip-bulk.js（跨卷批次，2026-09-20 新增）、
-　tools/check-answers.py／fix-answers.js（答案表核對，2026-09-20 新增）、
-　tools/exp-worker.sh（逐卷，新科目用）、tools/exp-skips.json、test/test.js、test/smoke.mjs、
+PATHS: js/export.js（匯出本體）、js/app.js 的 `exportApi()` 與 `#/export` 路由、
+　css/v2.css 末段 `.px-*` 與 `@media print`、js/i18n.js「錯題匯出」區塊、js/versions.js v15、
+　test/smoke.mjs 的匯出段與 `reload()` helper、docs/monetization-plan.md 四之二節、
+　js/data/exam/*.js（題庫本體）、js/data/exams.js（build-index 產生，勿手改）、
+　tools/exp-batch.sh／exp-batch-dump.js／exp-batch.service／exp-prompt-batch.md／exp-skip-bulk.js、
+　tools/check-answers.py／fix-answers.js、tools/exp-worker.sh、tools/exp-skips.json、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-21 04:20 台北
+UPDATED: 2026-09-21 08:45 台北
+
+## 2026-09-21：個人錯題 PDF／Anki 匯出（付費層第一個功能）
+
+Tony 00:15 台北回「1」＝三個付費候選裡先做錯題匯出。當天做完上線（commit 75dce9c9c）。
+
+**做了什麼**：錯題本頁多一顆「匯出 PDF／Anki」→ `#/export`。可選全部或單一科目、
+可只挑「連一次都還沒答對」的題、可取消「含正解與詳解」印成沒有答案的自我測驗卷。
+PDF 是 A4 列印版講義（封面寫收錄範圍與授權對象、每科另起一頁、一題不跨頁、圖片題帶原圖、
+正解選項與詳解分區標色）；Anki 是官方純文字匯入檔，牌組自動建成「考英雄::錯題本」，
+每張卡帶年度／科目／卷代碼／還沒答對過標籤。全程在瀏覽器完成，錯題資料不送伺服器，沒登入也能用。
+
+**為什麼不是後端產檔**：前端 PDF 函式庫要嵌中文字型（好幾 MB）；`.apkg` 是內含 SQLite 的 zip，
+瀏覽器端要載 sql.js（約 1MB wasm）。兩邊都改走「瀏覽器本來就有的能力」。
+
+**踩到的坑（已寫進 `CLAUDE.md`）**：① 改完 localStorage 一定要整頁重載，換 hash 不會重讀 state；
+② `js/i18n.js` 的 EN 字典重複 key 會靜默覆蓋（撞到 4 個，已改名避開）；
+③ 列印樣式要 `!important` 才壓得過深色主題那條 (0,4,2) 權重的 body 底色規則。
 
 ## 2026-09-21：(A) exp-batch 收工結算
 
