@@ -153,20 +153,12 @@ if(o.lang==='en')r.setAttribute('lang','en');}catch(e){}})(document.documentElem
   </div>
 </footer>
 
-<script src="js/config.js?v=20260911b" defer></script>
-<script src="js/i18n.js?v=20260921f" defer></script>
-<script src="js/data/exams.js?v=20260912a" defer></script>
-<script src="js/versions.js?v=20260922a" defer></script>
-<!-- report/admin 先於 app.js：app.js 尾端會立刻 render() 一次，
-     直接開 #/admin 或 #/paper 的深連結時，那一次 render 就要看得到這兩個全域 -->
-<script src="js/dialog.js?v=20260911a" defer></script>
-<script src="js/report.js?v=20260908t" defer></script>
-<script src="js/admin.js?v=20260908t" defer></script>
-<script src="js/pay.js?v=20260922c" defer></script>
-<script src="js/diagnose.js?v=20260921f" defer></script>
-<script src="js/export.js?v=20260921f" defer></script>
-<script src="js/motion.js?v=20260922c" defer></script>
-<script src="js/app.js?v=20260922c" defer></script>
-<script src="js/sync.js?v=20260921a" defer></script>
+<!-- 腳本等第一格畫完才載（2026-09-22「做穩定」）：defer 的腳本若在第一次繪製前就下載完，會搶在繪製前執行，
+     Lighthouse 的 LCP 就被算到 app.js 之後（6 次裡會中 1 次）。順序照舊：report/admin 要先於 app.js，
+     app.js 尾端會立刻 render() 一次，直接開 #/admin 或 #/paper 的深連結時那一次就要看得到這兩個全域。
+     async=false 保證依清單順序執行；背景分頁不跑 rAF，所以另有 400ms 保底。 -->
+<script>(function(){var L=['js/config.js?v=20260911b','js/i18n.js?v=20260921f','js/data/exams.js?v=20260912a','js/versions.js?v=20260922a','js/dialog.js?v=20260911a','js/report.js?v=20260908t','js/admin.js?v=20260908t','js/pay.js?v=20260922c','js/diagnose.js?v=20260921f','js/export.js?v=20260921f','js/motion.js?v=20260922c','js/app.js?v=20260922e','js/sync.js?v=20260921a'],done=0;
+function go(){if(done++)return;L.forEach(function(s){var e=document.createElement('script');e.src=s;e.async=false;document.body.appendChild(e);});}
+if(window.requestAnimationFrame)requestAnimationFrame(function(){setTimeout(go,0);});setTimeout(go,400);})();</script>
 </body>
 </html>
