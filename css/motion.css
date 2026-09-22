@@ -1,0 +1,88 @@
+/* motion.css — 共用動效包（2026-09-22 brain，計畫 projects/_meta/animated-web-plan-20260922.md）
+ * 用法：<link rel="stylesheet" href="motion.css"> + <script src="motion.js" defer></script>
+ * 原則：無 JS 內容照常可見（所有隱藏都掛在 html.m-js 底下）、respect prefers-reduced-motion、不加外部套件。
+ *
+ * class 一覽
+ *   .m-in        載入序列進場（配 --i 序號，每項延遲 110ms）。放在首屏元素上。
+ *   .m-reveal    捲進視窗才浮現；已在視窗內的載入時就直接顯示，不會空白。
+ *   .m-count     數字跑動：<b class="m-count" data-count="179521">179,521</b>（內文先寫好最終值給 SEO／無 JS）。
+ *   .m-lift      hover 抬起（手機用 :active 等效）。給卡片、按鈕。
+ *   .m-ok / .m-no  作答回饋：答對脈衝、答錯搖晃。JS 加 class，動完自動移除。
+ *   .m-bar       頁頂閱讀進度條：<div class="m-bar"></div> 放 body 任意處。
+ *   .m-vt        SPA 換頁淡入淡出（View Transitions，舊瀏覽器自動忽略）：加在 <html> 上。
+ *
+ * 可調變數（放 :root 覆寫）：--m-ease、--m-dur、--m-rise、--m-accent
+ */
+:root {
+  --m-ease: cubic-bezier(.2, .8, .2, 1);
+  --m-dur: .7s;
+  --m-rise: 18px;
+  --m-accent: #d9a441;
+}
+
+/* 序列進場 —— 只在 JS 就緒（html.m-js）後才隱藏起點，SEO／無 JS 看到的是完成態 */
+.m-js .m-in {
+  animation: m-rise var(--m-dur) var(--m-ease) both;
+  animation-delay: calc(var(--i, 0) * 110ms);
+}
+@keyframes m-rise {
+  from { opacity: 0; transform: translateY(var(--m-rise)); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* 捲動揭示 */
+.m-js .m-reveal {
+  opacity: 0;
+  transform: translateY(var(--m-rise));
+  transition: opacity .6s ease, transform .6s var(--m-ease);
+}
+.m-js .m-reveal.m-on { opacity: 1; transform: none; }
+/* 同一區塊裡多個子項要錯開：父層 .m-stagger，子項自動 +80ms */
+.m-js .m-stagger > .m-reveal:nth-child(2) { transition-delay: 80ms; }
+.m-js .m-stagger > .m-reveal:nth-child(3) { transition-delay: 160ms; }
+.m-js .m-stagger > .m-reveal:nth-child(4) { transition-delay: 240ms; }
+.m-js .m-stagger > .m-reveal:nth-child(5) { transition-delay: 320ms; }
+.m-js .m-stagger > .m-reveal:nth-child(n+6) { transition-delay: 400ms; }
+
+/* 數字 */
+.m-count { font-variant-numeric: tabular-nums; }
+
+/* hover 抬起（桌機 hover、手機 :active） */
+.m-lift {
+  transition: transform .28s var(--m-ease), box-shadow .28s ease;
+  will-change: transform;
+}
+@media (hover: hover) {
+  .m-lift:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0, 0, 0, .14); }
+}
+.m-lift:active { transform: translateY(0) scale(.98); }
+.m-lift:focus-visible { outline: 2px solid var(--m-accent); outline-offset: 2px; }
+
+/* 作答回饋 */
+.m-ok { animation: m-ok .45s ease; }
+.m-no { animation: m-no .4s ease; }
+@keyframes m-ok { 0% { transform: scale(1); } 40% { transform: scale(1.04); box-shadow: 0 0 0 6px rgba(46, 125, 79, .25); } 100% { transform: scale(1); } }
+@keyframes m-no { 20% { transform: translateX(-5px); } 45% { transform: translateX(5px); } 70% { transform: translateX(-3px); } 100% { transform: none; } }
+
+/* 閱讀進度條 */
+.m-bar {
+  position: fixed; left: 0; top: env(safe-area-inset-top, 0px);
+  height: 3px; width: 0; background: var(--m-accent); z-index: 999;
+  transition: width .1s linear; pointer-events: none;
+}
+
+/* SPA 換頁（View Transitions API；不支援的瀏覽器整段忽略） */
+@view-transition { navigation: auto; }
+html.m-vt::view-transition-old(root) { animation: m-fade-out .18s ease both; }
+html.m-vt::view-transition-new(root) { animation: m-fade-in .28s ease both; }
+@keyframes m-fade-out { to { opacity: 0; } }
+@keyframes m-fade-in { from { opacity: 0; transform: translateY(6px); } }
+
+/* 使用者關動畫：全部瞬間到位 */
+@media (prefers-reduced-motion: reduce) {
+  .m-js .m-in { animation: none; }
+  .m-js .m-reveal { opacity: 1; transform: none; transition: none; }
+  .m-lift, .m-bar { transition: none; }
+  .m-ok, .m-no { animation: none; }
+  html.m-vt::view-transition-old(root), html.m-vt::view-transition-new(root) { animation: none; }
+}

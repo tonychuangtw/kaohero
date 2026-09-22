@@ -656,3 +656,15 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
 .pay-lock{padding:16px;margin:12px 0}
 .pay-ok{border-color:var(--good)}
 .pay-ok .ph{color:var(--good)}
+
+/* ============ 動效試點（2026-09-22，css/motion.css 為共用包本體，這裡只放本站的調整） ============ */
+:root{--m-accent:var(--gold)}
+.hero .m-in{--m-dur:.55s}            /* 首屏五項序列：440ms 延遲＋550ms ≈ 1 秒內到位 */
+.home-faq .faq-list{display:grid;gap:10px}
+.home-faq details.faq{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--line2)}
+.home-faq summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.home-faq summary h3{margin:0;font:inherit}
+.home-faq summary::-webkit-details-marker{display:none}
+.home-faq summary::after{content:'＋';color:var(--gold);flex:none;transition:transform .25s ease}
+.home-faq details[open] summary::after{transform:rotate(45deg)}
+.home-faq details p{margin:10px 0 0;color:var(--dim);line-height:1.75}

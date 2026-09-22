@@ -268,17 +268,20 @@
 
     /* ---- Hero ---- */
     var hero = el('section', 'hero');
-    hero.appendChild(el('span', 'kicker', T('★ 免費・無廣告・不用註冊')));
-    var h1 = el('h1', 'serif');
+    /* 首屏序列進場（2026-09-22 site-motion 試點）：kicker → 標題 → 副標 → 按鈕 → 數字，
+       每項 110ms、總長 < 1 秒。class 由 js/motion.js 的 html.m-js 啟動，沒有 JS 時首頁是 SSR 靜態內容。 */
+    function mi(n, i) { n.className += ' m-in'; n.style.setProperty('--i', i); return n; }
+    hero.appendChild(mi(el('span', 'kicker', T('★ 免費・無廣告・不用註冊')), 0));
+    var h1 = mi(el('h1', 'serif'), 1);
     h1.appendChild(document.createTextNode(T('國家考試考古題，')));
     h1.appendChild(document.createElement('br'));
     h1.appendChild(document.createTextNode(T('刷到')));
     h1.appendChild(el('em', null, T('會為止')));
     h1.appendChild(document.createTextNode('。'));
     hero.appendChild(h1);
-    hero.appendChild(el('p', 'sub', liveQ.toLocaleString() + T(' 題歷屆試題與標準答案，取自考選部與教育部公開資料；其中 ')
-      + expQ.toLocaleString() + T(' 題附上本站自己寫的逐題詳解——每題告訴你正解為什麼對、其他選項錯在哪，並附教科書章節或法條出處。')));
-    var br = el('div', 'btnrow');
+    hero.appendChild(mi(el('p', 'sub', liveQ.toLocaleString() + T(' 題歷屆試題與標準答案，取自考選部與教育部公開資料；其中 ')
+      + expQ.toLocaleString() + T(' 題附上本站自己寫的逐題詳解——每題告訴你正解為什麼對、其他選項錯在哪，並附教科書章節或法條出處。')), 2));
+    var br = mi(el('div', 'btnrow'), 3);
     br.appendChild(btn(T('開始刷題 →'), 'g', null, '#/exams'));
     // 2026-09-10 Tony 回報「進去是空的」：這顆鈕原本 href='#demo'，會被 hash 路由當成
     // 不存在的頁面而落到 viewNotFound。詳解實例本來就在首頁下方，改成捲動到該區塊即可。
@@ -288,27 +291,30 @@
       if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }));
     hero.appendChild(br);
-    var nums = el('div', 'nums');
-    [[liveQ.toLocaleString(), T('題（持續增加）')], [liveN.toLocaleString(), T('卷完整考古卷')],
-     [expQ.toLocaleString(), T('題自撰詳解')],
+    var nums = mi(el('div', 'nums'), 4);
+    [[liveQ, T('題（持續增加）')], [liveN, T('卷完整考古卷')], [expQ, T('題自撰詳解')],
      [Math.min.apply(null, years) + '–' + Math.max.apply(null, years), T('民國年份跨度')]].forEach(function (x) {
-      var d = el('div', 'num'); d.appendChild(el('b', null, x[0])); d.appendChild(el('span', null, x[1]));
+      var d = el('div', 'num');
+      // 數字先寫最終值，motion.js 再從 0 跑上來（reduced-motion 時直接停在最終值）
+      var b = el('b', typeof x[0] === 'number' ? 'm-count' : null, typeof x[0] === 'number' ? x[0].toLocaleString() : x[0]);
+      if (typeof x[0] === 'number') b.setAttribute('data-count', x[0]);
+      d.appendChild(b); d.appendChild(el('span', null, x[1]));
       nums.appendChild(d);
     });
     hero.appendChild(nums);
     main.appendChild(hero);
 
     /* ---- 三個優勢 ---- */
-    var s0 = el('section', 'sec');
+    var s0 = el('section', 'sec m-reveal');
     s0.appendChild(el('p', 'eyebrow', T('為什麼選考英雄')));
     s0.appendChild(el('h2', 'big-h serif', T('別人給你答案，我們給你為什麼')));
     s0.appendChild(el('p', 'lead', T('市面上的考古題網站多半只給一個字母。答錯了還是不知道錯在哪，下次照樣錯——尤其是醫學這種「一條神經、一個症候群」差一點就全錯的科目。')));
-    var eg = el('div', 'edge');
+    var eg = el('div', 'edge m-stagger');
     [['✍️', T('詳解是自己寫的'), T('不是抄來的懶人包。每題四個選項逐一說明，醫學題引教科書章節、法律題引法條與釋字，錯的選項也講清楚錯在哪一個字。'), T('已完成 ') + expQ.toLocaleString() + unitQ()],
      ['🆓', T('真的全部免費'), T('不擋題、不限次數、不用註冊，沒有「解鎖完整詳解」的按鈕。進度存在你自己的瀏覽器裡。'), T('無廣告・無付費牆')],
      ['🎯', T('錯的才值得再做'), T('錯題自動進錯題本，答對就移除；弱點統計依科目與年份排序，讓你把時間花在最弱的那一塊。'), T('整卷測驗＋無限刷題')]
     ].forEach(function (x) {
-      var d = el('div', 'e');
+      var d = el('div', 'e m-reveal');
       d.appendChild(el('i', null, x[0]));
       d.appendChild(el('h3', null, x[1]));
       d.appendChild(el('p', null, x[2]));
@@ -318,7 +324,7 @@
     s0.appendChild(eg); main.appendChild(s0);
 
     /* ---- 同樣一題，兩種待遇 ---- */
-    var s1 = el('section', 'sec'); s1.id = 'demo';
+    var s1 = el('section', 'sec m-reveal'); s1.id = 'demo';
     s1.appendChild(el('p', 'eyebrow', T('詳解實例')));
     s1.appendChild(el('h2', 'big-h serif', T('同樣一題，兩種待遇')));
 
@@ -384,14 +390,14 @@
     /* ---- 考試分類 ---- */
     var s2 = el('section', 'sec');
     s2.appendChild(sectionHead(T('選擇考試類別'), T('全部類別 →'), '#/exams'));
-    var g = el('div', 'cards');
+    var g = el('div', 'cards m-stagger');
     CATS.forEach(function (c) {
       c.exams.forEach(function (x) {
         var n = EXAMS.filter(function (e) { return e.exam === x.id; });
-        g.appendChild(card(x.icon, x.name, x.live && n.length
+        g.appendChild(mreveal(card(x.icon, x.name, x.live && n.length
             ? (n.length + T(' 卷 · ') + n.reduce(function (a, b) { return a + b.n; }, 0).toLocaleString() + unitQ())
             : x.note,
-          x.live ? '#/exam/' + x.id : null, x.live ? T('已上線') : T('建置中'), !x.live));
+          x.live ? '#/exam/' + x.id : null, x.live ? T('已上線') : T('建置中'), !x.live)));
       });
     });
     s2.appendChild(g); main.appendChild(s2);
@@ -421,7 +427,7 @@
     s3.appendChild(br2); main.appendChild(s3);
 
     /* ---- 三步驟＋資料來源 ---- */
-    var s4 = el('section', 'sec');
+    var s4 = el('section', 'sec m-reveal');
     s4.appendChild(el('p', 'eyebrow', T('怎麼用')));
     s4.appendChild(el('h2', 'big-h serif', T('三步就開始')));
     var steps = el('div', 'steps');
@@ -439,6 +445,38 @@
       T('試題與標準答案取自考選部「考畢試題查詢平臺」與教育部教師資格考試網站公開之資料（政府資訊公開）。站上的詳解與所有文案皆為本站自撰，未取用任何第三方網站的解析內容。')));
     s4.appendChild(note);
     main.appendChild(s4);
+
+    /* ---- 常見問題（2026-09-22）：內容直接讀 index.html 的 FAQPage JSON-LD，
+       結構化資料與畫面上看到的是同一份，不會兩邊各改各的 ---- */
+    var faq = homeFaq();
+    if (faq.length) {
+      var s5 = el('section', 'sec home-faq');
+      s5.appendChild(el('p', 'eyebrow', T('常見問題')));
+      s5.appendChild(el('h2', 'big-h serif', T('還想知道的事')));
+      var fl = el('div', 'faq-list m-stagger');
+      faq.forEach(function (f) {
+        var d = el('details', 'faq m-reveal');
+        var sm = el('summary'); sm.appendChild(el('h3', null, T(f.q))); d.appendChild(sm);
+        d.appendChild(el('p', null, T(f.a)));
+        fl.appendChild(d);
+      });
+      s5.appendChild(fl); main.appendChild(s5);
+    }
+  }
+  function mreveal(n) { n.className += ' m-reveal'; return n; }
+  var faqCache = null;
+  function homeFaq() {
+    if (faqCache) return faqCache;
+    faqCache = [];
+    try {
+      document.querySelectorAll('script[type="application/ld+json"]').forEach(function (sc) {
+        (JSON.parse(sc.textContent)['@graph'] || []).forEach(function (g) {
+          if (g['@type'] !== 'FAQPage') return;
+          g.mainEntity.forEach(function (m) { faqCache.push({ q: m.name, a: m.acceptedAnswer.text }); });
+        });
+      });
+    } catch (e) { faqCache = []; }
+    return faqCache;
   }
 
   /* ============ 考試總覽 ============ */
@@ -740,11 +778,11 @@
       c.appendChild(el('p', 'lead', T('這一題的選項含有圖形，上方為原始試卷的圖，請依圖作答。')));
     } else if (q.needfig) {
       c.appendChild(el('div', 'warnbox', T('⚠ 這一題的選項在原始試卷上是圖片，本站尚未補上圖檔，暫時無法作答。')));
-      c.appendChild(btn(T('跳過這一題'), 'w', function () { quiz.i++; render(); }));
+      c.appendChild(btn(T('跳過這一題'), 'w', function () { vt(function () { quiz.i++; render(); }); }));
       main.appendChild(c); return;
     }
 
-    var picked = quiz.ans[quiz.i];
+    var picked = quiz.ans[quiz.i], pickedBtn = null, fb = null;
     q.o.forEach(function (txt, k) {
       var b = el('button', 'opt');
       b.appendChild(el('span', 'lab', LAB[k] + '.'));
@@ -755,11 +793,12 @@
         else if (k === picked) b.className = 'opt wrong';
       } else b.onclick = function () { answer(k); };
       c.appendChild(b);
+      if (k === picked) pickedBtn = b;
     });
 
     if (picked != null) {
       var good = isRight(q, picked);
-      var fb = el('div', 'fb ' + (good ? 'ok' : 'no'));
+      fb = el('div', 'fb ' + (good ? 'ok' : 'no'));
       fb.appendChild(el('b', null, q.void ? T('⭕ 本題送分') : (good ? T('✅ 答對了') : T('❌ 答錯了'))));
       if (q.void) fb.appendChild(document.createTextNode(
         T('　考選部公布本題送分，四個選項均給分，因此不論你選哪一個都算答對。')));
@@ -792,9 +831,15 @@
         c.appendChild(rw);
       }
       c.appendChild(btn(quiz.i + 1 < quiz.qs.length ? T('下一題 →') : T('看結果'), 'w',
-        function () { quiz.i++; render(); }));
+        function () { vt(function () { quiz.i++; render(); }); }));
     }
     main.appendChild(c);
+    // 作答回饋只在「剛按下去」那一次播；重新整理或回上一頁看到的已作答題不再晃
+    if (pickedBtn && justAnswered === quiz.i && window.Motion) {
+      justAnswered = -1;
+      window.Motion.feedback(pickedBtn, isRight(q, picked));
+      if (fb) window.Motion.feedback(fb, isRight(q, picked));
+    }
     var row = el('div', 'btnrow'); row.style.marginTop = '12px';
     row.appendChild(btn(T('結束並看成績'), 'o', function () { quiz.done = true; render(); }));
     main.appendChild(row);
@@ -857,9 +902,16 @@
     }
   }
 
+  /* 換題用 View Transitions 淡入淡出（html.m-vt，css/motion.css）；不支援或使用者關動畫就直接換 */
+  var justAnswered = -1;
+  function vt(fn) {
+    if (document.startViewTransition && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches))
+      document.startViewTransition(fn);
+    else fn();
+  }
   function answer(k) {
     var q = quiz.qs[quiz.i], m = curMeta();
-    quiz.ans[quiz.i] = k;
+    quiz.ans[quiz.i] = k; justAnswered = quiz.i;
     var good = isRight(q, k); if (good) quiz.ok++;
     recordAnswer(m.pid, q.n, good);
     save(); buildNav(); markNav(); render();
@@ -1999,6 +2051,8 @@
     else viewNotFound(main);
     markNav();
     window.scrollTo(0, 0);
+    // 捲動揭示／數字跑動：新畫出來的內容再掃一次（已在視窗內的直接顯示，不留空白）
+    if (window.Motion) window.Motion.scan(main);
   }
   window.addEventListener('hashchange', render);
   buildNav();
