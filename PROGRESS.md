@@ -37,6 +37,28 @@ PATHS: js/pay.js（方案／帳戶／付費牆）、js/export.js、js/diagnose.j
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
 UPDATED: 2026-09-21 10:30 台北
 
+## 2026-09-22：首頁動起來（site-motion 試點，brain 派工）
+
+已上線 https://kaohero.com （commit 1b31251c2、後續 LCP 小修）。做法照技能 `site-motion`：
+- `css/motion.css`、`js/motion.js` 從 `claude-shared/tools/motion/` 複製進 repo；`motion.js` 放在 app.js **前面同步載入**，
+  首次 render 就有 `window.Motion`。`<html class="m-vt">` 開 View Transitions
+- 首屏：kicker → 標題 → 副標 → 按鈕 → 數字依序進場（`.hero .m-in{--m-dur:.55s}`，總長約 1 秒）；
+  題數／卷數／詳解數用 `m-count` 從 0 跑到**即時算出的真值**（目前 223,921 題／4,430 卷，派工寫的 179,521／3,794 是舊數字）
+- 捲動揭示：優勢卡、詳解實例、考試分類卡（`m-stagger`）、三步驟、新增的**常見問題區**（內容直接讀 index.html 的 FAQPage JSON-LD，畫面與結構化資料同一份）
+- 作答：`answer()` 記 `justAnswered`，`viewQuiz` 對選的那顆與回饋框呼叫 `Motion.feedback`；「下一題」「跳過」包 `vt()`（startViewTransition，reduced-motion 時直接換）
+- 靜態 SSR／FAQ／llms.txt 的總數順手更新成 4,430 卷、223,921 題；版本紀錄 v19
+
+驗證：test.js 60,739 項、smoke.mjs 全綠；playwright 實跑首頁（5 個 m-in、29 個 m-reveal 捲到底全部顯示、數字正確、7 題 FAQ、
+答題有 m-ok、下一題換到第 2 題、無 pageerror），reduced-motion 同樣全部可見，關 JS 看到 SSR 靜態內容。
+Lighthouse：無障礙／最佳做法／SEO 皆 100。**效能不穩定**：線上 9 次裡 3 次 94～99、其餘 73～79。
+本機同條件新舊對照（devtools throttling 各 3 次）：舊版 76、新版 74（LCP 4.9→5.1 s）——動效只多花約 2 分，
+**LCP 慢是原本就有的**：首頁整頁由 app.js 同步產生（exams.js gzip 後 77KB 但要 parse＋render），
+SSR 靜態內容先畫出來的那幾次才會拿到 9x。要穩定 ≥ 90 得另外動「首頁不等 app.js 就能畫出 hero」，不在這次範圍，等 Tony 決定。
+
+⚠️ 踩到的坑：`.m-reveal` 在載入時已在視窗內的，共用包原本也會從 opacity 0 淡入 → 在 Lighthouse 被選成 LCP 元素、render delay 多 1.7 s。
+本 repo 的 motion.js 已改成這種情況加 `m-now`（不跑 transition），已在 discussion.md 請 brain 決定要不要併回共用包。
+⚠️ 另一個坑：`pkill -f "<字串>"` 會把正在跑這行指令的 shell 自己殺掉（exit 144），因為命令列裡就有那串字，改用 `pgrep` 後逐一 kill。
+
 ## 2026-09-21：綠界金流與付費牆（Tony「開始做」）
 
 **後端**（`ecpay.js` ＋ `/api/kgh/pay/*`）：方案表、建單、綠界回呼開通權益、訂單與權益查詢。
