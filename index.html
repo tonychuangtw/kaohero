@@ -35,10 +35,15 @@
 ]}
 ]}
 </script>
-<link rel="stylesheet" href="css/motion.css?v=20260922b">
-<link rel="stylesheet" href="css/v2.css?v=20260922a">
+<link rel="stylesheet" href="css/motion.css?v=20260922c">
+<link rel="stylesheet" href="css/v2.css?v=20260922c">
 </head>
 <body>
+<script>/* 先決定頁別與動效開關再第一次繪製：首頁深色配色、hero 只在首頁顯示、m-in 從第一格就開始進場 */
+document.body.setAttribute('data-page',(location.hash||'').replace(/^#\/?/,'').split(/[\/?]/)[0]||'home');
+(function(r){r.classList.add('m-js');try{var o=JSON.parse(localStorage.getItem('kaohero.prefs')||'{}');
+if(o.fs)r.setAttribute('data-fs',o.fs);if(o.theme&&o.theme!=='auto')r.setAttribute('data-theme',o.theme);
+if(o.lang==='en')r.setAttribute('lang','en');}catch(e){}})(document.documentElement);</script>
 
 <header class="hd">
   <div class="hd-in">
@@ -50,6 +55,23 @@
   <div class="drawer" id="drawer"></div>
   <div class="prefs" id="prefs"></div>
 </header>
+
+<!-- 首屏 hero 直接寫在 HTML（2026-09-22）：不等 JS 就能畫出來，LCP 才穩。
+     js/app.js 的 viewHome 會沿用這份節點、只把數字換成即時值；只在首頁顯示（body[data-page]）。 -->
+<div class="wrap hero-wrap" id="herowrap">
+<section class="hero" id="hero" data-built="zh-Hant">
+<span class="kicker m-in" style="--i:0">★ 免費・無廣告・不用註冊</span>
+<p class="hero-t serif m-in" style="--i:1" role="heading" aria-level="1">國家考試考古題，<br>刷到<em>會為止</em>。</p>
+<p class="sub m-in" style="--i:2">223,921 題歷屆試題與標準答案，取自考選部與教育部公開資料；其中 218,347 題附上本站自己寫的逐題詳解——每題告訴你正解為什麼對、其他選項錯在哪，並附教科書章節或法條出處。</p>
+<div class="btnrow m-in" style="--i:3"><a class="btn g" href="#/exams" data-nav>開始刷題 →</a><button class="btn" type="button" id="hero-demo">看看詳解長什麼樣</button></div>
+<div class="nums m-in" style="--i:4">
+<div class="num"><b class="m-count" data-count="223921">223,921</b><span>題（持續增加）</span></div>
+<div class="num"><b class="m-count" data-count="4430">4,430</b><span>卷完整考古卷</span></div>
+<div class="num"><b class="m-count" data-count="218347">218,347</b><span>題自撰詳解</span></div>
+<div class="num"><b>96–115</b><span>民國年份跨度</span></div>
+</div>
+</section>
+</div>
 
 <main class="wrap" id="main">
 <!-- 以下為給搜尋引擎與 AI 爬蟲看的靜態內容，JS 載入後會被實際畫面取代（見 js/app.js） -->
@@ -131,20 +153,20 @@
   </div>
 </footer>
 
-<script src="js/config.js?v=20260911b"></script>
-<script src="js/i18n.js?v=20260921f"></script>
-<script src="js/data/exams.js?v=20260912a"></script>
-<script src="js/versions.js?v=20260922a"></script>
+<script src="js/config.js?v=20260911b" defer></script>
+<script src="js/i18n.js?v=20260921f" defer></script>
+<script src="js/data/exams.js?v=20260912a" defer></script>
+<script src="js/versions.js?v=20260922a" defer></script>
 <!-- report/admin 先於 app.js：app.js 尾端會立刻 render() 一次，
      直接開 #/admin 或 #/paper 的深連結時，那一次 render 就要看得到這兩個全域 -->
-<script src="js/dialog.js?v=20260911a"></script>
-<script src="js/report.js?v=20260908t"></script>
-<script src="js/admin.js?v=20260908t"></script>
-<script src="js/pay.js?v=20260921f"></script>
-<script src="js/diagnose.js?v=20260921f"></script>
-<script src="js/export.js?v=20260921f"></script>
-<script src="js/motion.js?v=20260922b"></script>
-<script src="js/app.js?v=20260922a"></script>
-<script src="js/sync.js?v=20260921a"></script>
+<script src="js/dialog.js?v=20260911a" defer></script>
+<script src="js/report.js?v=20260908t" defer></script>
+<script src="js/admin.js?v=20260908t" defer></script>
+<script src="js/pay.js?v=20260922c" defer></script>
+<script src="js/diagnose.js?v=20260921f" defer></script>
+<script src="js/export.js?v=20260921f" defer></script>
+<script src="js/motion.js?v=20260922c" defer></script>
+<script src="js/app.js?v=20260922c" defer></script>
+<script src="js/sync.js?v=20260921a" defer></script>
 </body>
 </html>

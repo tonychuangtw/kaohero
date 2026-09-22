@@ -94,9 +94,11 @@ ok(await ev(`window.APP_EXAMS.reduce((a,b)=>a+b.n,0) === ${IDX.q}`), `索引合�
 ok(await ev('window.APP_CATS.length >= 4'), '至少四個考試分類');
 
 // --- 首頁 ---
-ok(await ev('document.querySelectorAll("#main .hero").length === 1'), '首頁有 hero 區塊');
+// hero 2026-09-22 起直接寫在 index.html（#hero，main 外面），首頁才顯示
+ok(await ev('!!document.querySelector("#hero") && getComputedStyle(document.querySelector("#herowrap")).display !== "none"'), '首頁有 hero 區塊');
 ok(await ev('document.querySelectorAll("#main .card").length >= 6'), '首頁列出考試類別卡片');
-ok((await ev('document.querySelector("#main .hero").textContent')).includes(IDX.q.toLocaleString('en-US')), 'hero 顯示總題數');
+// 數字會從 0 跑上來，比對 data-count（最終值）與副標，不比跑到一半的畫面
+ok(await ev(`!!document.querySelector('#hero [data-count="${IDX.q}"]') && document.querySelector('#hero .sub').textContent.includes('${IDX.q.toLocaleString('en-US')}')`), 'hero 顯示總題數');
 ok(await ev('document.querySelectorAll("#nav a").length === 7'), '導覽列七個項目');  // 09-08 移出「考取心得」、09-11 加入「錯題本」與「模擬考」
 ok(await ev(`[...document.querySelectorAll('#nav a')].some(a=>a.getAttribute('href')==='#/mock')`),
    '導覽列有模擬考入口');

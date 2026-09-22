@@ -306,6 +306,8 @@
     A = api;
     var draw = function () {
       // 非同步載完才畫，避免先畫一次「免費」再跳成「已購買」
+      // 載完時使用者可能已經換頁了：不是這一頁就不畫，否則會蓋掉別頁（2026-09-22 smoke 抓到）
+      if (((location.hash || '').replace(/^#\/?/, '').split(/[\/?]/)[0]) !== page) return;
       main.innerHTML = '';
       if (page === 'plans') viewPlans(main); else viewAccount(main);
     };

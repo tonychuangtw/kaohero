@@ -272,7 +272,8 @@
        每項 110ms、總長 < 1 秒。class 由 js/motion.js 的 html.m-js 啟動，沒有 JS 時首頁是 SSR 靜態內容。 */
     function mi(n, i) { n.className += ' m-in'; n.style.setProperty('--i', i); return n; }
     hero.appendChild(mi(el('span', 'kicker', T('★ 免費・無廣告・不用註冊')), 0));
-    var h1 = mi(el('h1', 'serif'), 1);
+    // 標題用 p＋role=heading：index.html 的靜態 SSR 已有唯一的 <h1>（seoaeo h1-single／h1-kw 看的是那個）
+    var h1 = mi(el('p', 'hero-t serif'), 1); h1.setAttribute('role', 'heading'); h1.setAttribute('aria-level', '1');
     h1.appendChild(document.createTextNode(T('國家考試考古題，')));
     h1.appendChild(document.createElement('br'));
     h1.appendChild(document.createTextNode(T('刷到')));
@@ -285,11 +286,13 @@
     br.appendChild(btn(T('開始刷題 →'), 'g', null, '#/exams'));
     // 2026-09-10 Tony 回報「進去是空的」：這顆鈕原本 href='#demo'，會被 hash 路由當成
     // 不存在的頁面而落到 viewNotFound。詳解實例本來就在首頁下方，改成捲動到該區塊即可。
-    br.appendChild(btn(T('看看詳解長什麼樣'), '', function (e) {
+    function toDemo(e) {
       e.preventDefault();
       var t = document.getElementById('demo');
       if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }));
+    }
+    var bd = btn(T('看看詳解長什麼樣'), '', toDemo); bd.type = 'button'; bd.id = 'hero-demo';
+    br.appendChild(bd);
     hero.appendChild(br);
     var nums = mi(el('div', 'nums'), 4);
     [[liveQ, T('題（持續增加）')], [liveN, T('卷完整考古卷')], [expQ, T('題自撰詳解')],
@@ -302,7 +305,27 @@
       nums.appendChild(d);
     });
     hero.appendChild(nums);
-    main.appendChild(hero);
+    /* 2026-09-22「做穩定」：hero 直接寫在 index.html（#hero，main 外面），不等 JS 就畫得出來，
+       Lighthouse 的 LCP 才不會算到 app.js 跑完之後。語言相同時只換數字、不重建節點（重建＝新的 LCP 候選）；
+       切成英文等語言不同時才把上面組好的內容整份換進去。 */
+    var hs = document.getElementById('hero'), lang = document.documentElement.lang || 'zh-Hant';
+    if (!hs) main.appendChild(hero);
+    else if (hs.getAttribute('data-built') === lang) {
+      var sb = hs.querySelector('.sub'), nb = hero.querySelector('.sub');
+      if (sb && sb.textContent !== nb.textContent) sb.textContent = nb.textContent;
+      var src = hero.querySelectorAll('.nums b'), dst = hs.querySelectorAll('.nums b');
+      for (var ni = 0; ni < dst.length && ni < src.length; ni++) {
+        dst[ni].removeAttribute('data-m-done');
+        if (src[ni].hasAttribute('data-count')) dst[ni].setAttribute('data-count', src[ni].getAttribute('data-count'));
+        if (dst[ni].textContent !== src[ni].textContent) dst[ni].textContent = src[ni].textContent;
+      }
+      var hd = hs.querySelector('#hero-demo'); if (hd) hd.onclick = toDemo;
+    } else {
+      hs.innerHTML = '';
+      while (hero.firstChild) hs.appendChild(hero.firstChild);
+      hs.setAttribute('data-built', lang);
+    }
+    if (hs && window.Motion) window.Motion.scan(hs);
 
     /* ---- 三個優勢 ---- */
     var s0 = el('section', 'sec m-reveal');
