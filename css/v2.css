@@ -677,8 +677,9 @@ body[data-page]:not([data-page="home"]) .hero-wrap + main{padding-top:20px}
 .hero .hero-t em{font-style:normal;color:var(--gold);white-space:nowrap;
   background:linear-gradient(transparent 68%, rgba(227,178,92,.22) 68%, rgba(227,178,92,.05) 96%, transparent 96%)}
 @media(min-width:720px){ .hero .hero-t{font-size:calc(42px * var(--fs,1))} }
-/* hero 進場從 opacity .01 起跳而不是 0：Chrome 不把 opacity 0 的元素算成繪製，
-   從 0 起跳的話 FCP／LCP 會落到 app.js 畫出下方區塊之後（線上 Lighthouse LCP 4.3 s 的原因）。肉眼看不出差別。 */
-.m-js .hero .m-in{animation-name:kh-rise}
-@keyframes kh-rise{from{opacity:.01;transform:translateY(var(--m-rise))}to{opacity:1;transform:none}}
+/* hero 的標題與副標只滑不淡（2026-09-22）：它們是 LCP 元素，從 opacity 0（連 .01 也一樣）淡入的話，
+   Chrome 不把第一格算成內容繪製，FCP／LCP 會落到 app.js 跑完之後（線上 Lighthouse 8 次有 6 次 LCP 4 s）。
+   kicker、按鈕、數字照常淡入。 */
+.m-js .hero .hero-t.m-in,.m-js .hero .sub.m-in{animation-name:kh-slide}
+@keyframes kh-slide{from{transform:translateY(var(--m-rise))}to{transform:none}}
 @media (prefers-reduced-motion: reduce){ .m-js .hero .m-in{animation:none} }
