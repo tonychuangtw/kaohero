@@ -39,8 +39,8 @@
     scope = scope || document;
     scope.querySelectorAll('.m-reveal:not(.m-on)').forEach(function (el) {
       var r = el.getBoundingClientRect();
-      // 載入時已在視窗內的直接顯示，不留空白給第一眼
-      if (!io || r.top < window.innerHeight) el.classList.add('m-on'); else io.observe(el);
+      // 載入時已在視窗內的直接顯示（m-now 不跑淡入）：不留空白給第一眼，也不拖慢 LCP
+      if (!io || r.top < window.innerHeight) el.classList.add('m-on', 'm-now'); else io.observe(el);
     });
     scope.querySelectorAll('.m-count[data-count]:not([data-m-done])').forEach(function (el) {
       el.setAttribute('data-m-done', '1');

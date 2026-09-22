@@ -37,6 +37,7 @@
   transition: opacity .6s ease, transform .6s var(--m-ease);
 }
 .m-js .m-reveal.m-on { opacity: 1; transform: none; }
+.m-js .m-reveal.m-now { transition: none; }
 /* 同一區塊裡多個子項要錯開：父層 .m-stagger，子項自動 +80ms */
 .m-js .m-stagger > .m-reveal:nth-child(2) { transition-delay: 80ms; }
 .m-js .m-stagger > .m-reveal:nth-child(3) { transition-delay: 160ms; }
