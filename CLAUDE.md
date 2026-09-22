@@ -112,6 +112,12 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
    `:root:not([data-theme="light"]):not(...):not(...) body{background:...}`，權重 (0,4,2) 比
    `body.kh-printing` (0,1,1) 高；不加 `!important`，使用者在列印選項勾了「背景圖形」就會印出整頁深色底。
 
+4. **動效（`js/motion.js`／`css/motion.css`，2026-09-22）**：首屏 `.m-in` 序列、區塊 `.m-reveal` 捲動揭示，
+   `render()` 結尾會 `Motion.scan(main)`。載入時已在視窗內的 reveal 一定要直接顯示（`m-now`，不跑淡入），
+   否則 Lighthouse 會把它選成 LCP、多 1.7 s。量效能別用本機 python http.server（沒 gzip、分數失真），
+   要比新舊就兩個版本同條件跑 `lighthouse --throttling-method=devtools`；線上分數本來就在 75～99 之間跳。
+   另：`pkill -f "<字串>"` 會殺到正在跑這行的 shell 自己（exit 144），改用 `pgrep` 再逐一 kill。
+
 ## 主題歸類（弱點診斷）怎麼運作，改之前先看這段
 
 `js/diagnose.js` 的 `topicOf()` 是從詳解的「📚 出處：」那一行**猜**主題的，沒有人工標的大綱。
