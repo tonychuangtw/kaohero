@@ -115,8 +115,18 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
 4. **動效（`js/motion.js`／`css/motion.css`，2026-09-22）**：首屏 `.m-in` 序列、區塊 `.m-reveal` 捲動揭示，
    `render()` 結尾會 `Motion.scan(main)`。載入時已在視窗內的 reveal 一定要直接顯示（`m-now`，不跑淡入），
    否則 Lighthouse 會把它選成 LCP、多 1.7 s。量效能別用本機 python http.server（沒 gzip、分數失真），
-   要比新舊就兩個版本同條件跑 `lighthouse --throttling-method=devtools`；線上分數本來就在 75～99 之間跳。
-   另：`pkill -f "<字串>"` 會殺到正在跑這行的 shell 自己（exit 144），改用 `pgrep` 再逐一 kill。
+   要比新舊就兩個版本同條件跑 `lighthouse --throttling-method=devtools`。
+   另：`pkill -f "<字串>"`／`pgrep -f "<字串>"` 會比對到正在跑這行的 shell 自己（exit 144），
+   字串裡放一個方括號就不會自己比到自己：`pgrep -f "lh/[g]z.js"`。
+5. **首頁效能的四個機關（2026-09-22 Tony「做穩定」，線上 Lighthouse 手機 10 次 97～100，改之前是 73～99 亂跳）**，動任何一個都要重量：
+   - **hero 寫死在 `index.html` 的 `#herowrap`（main 外面）**，不等 JS 就畫得出來。`viewHome` 同語言時只換數字與副標、
+     **不重建節點**（重建＝新的 LCP 候選，會被算到 JS 跑完之後）；hero 標題是 `p.hero-t[role=heading]`，
+     靜態 HTML 的唯一 `<h1>` 留給 SSR 那段（seoaeo h1-single／h1-kw）。資料變多時 hero 裡寫死的數字不必手改，開頁會被即時值蓋掉
+   - **body 開頭 inline script** 先設 `data-page`、`m-js` 與顯示偏好（字級／主題／語言），第一格就是對的配色
+   - **腳本不用 `<script src>`**，由 body 尾端的 loader 在收到 `first-contentful-paint` 後依序插入（`async=false`）。
+     `defer` 或單層 rAF 都會偶發搶在首次繪製前發出請求，Lighthouse 就把 LCP 算成依賴 app.js（4 s）。
+     **新增 js 檔要加進那個 loader 的清單**，版本號也在那裡改
+   - **hero 標題與副標只滑不淡**（`kh-slide`）：LCP 元素從 opacity 0（連 .01 也一樣）淡入，Chrome 不算第一格繪製
 
 ## 主題歸類（弱點診斷）怎麼運作，改之前先看這段
 

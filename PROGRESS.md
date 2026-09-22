@@ -37,6 +37,17 @@ PATHS: js/pay.js（方案／帳戶／付費牆）、js/export.js、js/diagnose.j
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
 UPDATED: 2026-09-21 10:30 台北
 
+## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
+
+結果：線上 Lighthouse 手機 **10 次 97～100**（改之前 9 次裡 3 次 94～99、其餘 73～79），桌機 100，
+CLS 0；無障礙／最佳做法／SEO 仍 100；seoaeo SEO 83%／AEO 70% 與改前相同。同條件本機對照 76 → 99～100（LCP 4.8 → 1.5 s）。
+做法（細節與「改的時候要注意」寫在 CLAUDE.md 改前端第 5 點）：hero 寫死進 index.html、body 開頭 inline script 先套頁別與偏好、
+腳本改由 loader 在 first-contentful-paint 之後才載、hero 標題與副標只滑不淡。
+順手修掉一個真 bug：`js/pay.js` 非同步載完會把「我的帳戶」畫到使用者已經換去的別頁上（smoke 抓到）。
+⚠ smoke 的「模考弱點診斷」3 項偶發失敗（新版 12 次中 1 次；舊版 commit 重跑 8 次全過，次數太少分不出來）。
+失敗那次模考本身開始、交卷、計分都正常，只是診斷歸出 0 個主題 → 較像模考隨機抽題抽到出處只寫書名的題，
+不像載入時序。**未證實**；再遇到就把那次抽到的科目印出來查。
+
 ## 2026-09-22：首頁動起來（site-motion 試點，brain 派工）
 
 已上線 https://kaohero.com （commit 1b31251c2、後續 LCP 小修）。做法照技能 `site-motion`：
