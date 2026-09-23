@@ -979,7 +979,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "混合放射線透過性和不透過性病變（mixed radiolucent and radiopaque lesion）",
     "放射線不透過性病變（radiopaque lesion）"
    ],
-   "a": 2
+   "a": 2,
+   "note": "⚠ 本題官方公布答案是 (C) 混合放射線透過性與不透過性病變。但口腔病理與影像學教科書一致記載，齒源性黏液瘤最典型的影像表現是多房性放射線透過病變，常以肥皂泡（soap bubble）或網球拍（tennis racket）狀的細緻骨間隔來描述，也就是選項 (B)。官方答案與教科書不符，複習時請以多房透射病變為準。"
   },
   {
    "n": 70,

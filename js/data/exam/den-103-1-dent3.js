@@ -922,7 +922,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent3'] = {
     "骨成形蛋白（BMPs）可以促進骨質的形成",
     "Emdogain®不具骨誘導作用（osteoinductive），而是骨促進作用（osteopromotive）"
    ],
-   "a": 3
+   "a": 3,
+   "note": "⚠ 本題官方公布答案是 (D)，也就是把「Emdogain 不具骨誘導作用，而是骨促進作用」當成錯誤敘述。但牙周病學文獻的通說正是如此描述釉基質衍生物：它被歸類為 osteopromotive（骨促進），而非 osteoinductive（骨誘導）。(D) 應屬正確敘述，官方答案與文獻定義衝突，本題屬有爭議題，請以 Emdogain 為骨促進材料的觀念為準。"
   },
   {
    "n": 66,
