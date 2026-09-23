@@ -195,7 +195,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "pseudoplastic"
    ],
    "a": 3,
-   "fig": "img/q/106100_305_33_13.webp"
+   "fig": "img/q/106100_305_33_13.webp",
+   "exp": "✅ (D) 圖中縱軸為切變速率、橫軸為切應力，曲線由原點出發且向上凹（斜率隨切應力增大而變大），代表切應力愈大、流動愈容易，表觀黏度隨切變速率增加而下降，即剪切稀化（shear thinning），為擬塑性流體（pseudoplastic），如甲基纖維素、樹膠等高分子溶液。\n❌ (A) 膨脹性流體（dilatant）為剪切增稠，曲線向下凹（斜率漸小），表觀黏度隨切變速率增加而上升，多見於高濃度懸液。\n❌ (B) 彈性（elastic）屬固體形變行為，不在切應力—切變速率流變圖上以此種曲線描述。\n❌ (C) 牛頓流體的切變速率與切應力成正比，圖形應為通過原點的直線而非曲線。\n📚 出處：Martin's Physical Pharmacy—Rheology：Non-Newtonian flow（pseudoplastic）"
   },
   {
    "n": 14,
@@ -828,7 +829,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "K 變小，VM max變小，顯示「未競爭性抑制」（uncompetitive inhibition）的特質"
    ],
    "a": 3,
-   "fig": "img/q/106100_305_33_58.webp"
+   "fig": "img/q/106100_305_33_58.webp",
+   "exp": "✅ (D) 圖為 Lineweaver-Burk 作圖（1/v 對 1/[S]），加抑制劑後的直線與對照組平行、僅整體上移。斜率＝Km/Vmax 不變而 y 軸截距（1/Vmax）變大，表示 Vmax 變小；x 軸截距（−1/Km）更往左移，表示 1/Km 變大、Km 變小。Km 與 Vmax 同比例下降正是非競爭性以外的「未競爭性抑制」（uncompetitive），抑制劑只結合酶—受質複合物 ES。\n❌ (A) 競爭性抑制 Vmax 不變，兩線應交於 y 軸同一截距、僅斜率變大，與圖中平行上移不符。\n❌ (B) 混合型抑制斜率與截距皆改變，兩線不平行且交點落在 y 軸左側，圖中兩線明顯平行。\n❌ (C) 非競爭性抑制 Km 不變，兩線應交於 x 軸同一點（−1/Km）而斜率不同，圖中 x 截距已移動。\n📚 出處：酵素動力學—Lineweaver-Burk 作圖與可逆抑制型態判讀（uncompetitive inhibition）"
   },
   {
    "n": 59,
@@ -856,7 +858,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "需時最久達穩定狀態：C藥；穩定狀態濃度最高者：B藥"
    ],
    "a": 3,
-   "fig": "img/q/106100_305_33_60.webp"
+   "fig": "img/q/106100_305_33_60.webp",
+   "exp": "✅ (D) 一室模式靜脈輸注達穩定狀態的時間只取決於半衰期（t½＝0.693/k，約 4～5 個 t½）：A 藥 k＝0.5 h⁻¹（t½≈1.39 h）、B 藥 k＝0.1 h⁻¹（t½≈6.93 h）、C 藥 k＝0.05 h⁻¹（t½≈13.9 h），故 C 藥最久。穩定狀態濃度 Css＝輸注速率/清除率：A＝10/5＝2、B＝15/5＝3、C＝20/20＝1 mg/L，故 B 藥最高。\n❌ (A) A 藥半衰期最短、達穩定狀態最快，不是最久；Css 最高者判為 B 藥雖對，但前半錯誤。\n❌ (B) B 藥 t½ 約 6.93 h，仍比 C 藥短；且 C 藥 Css 僅 1 mg/L 為三者最低。\n❌ (C) 前後兩項皆錯：達穩態最久者為 C 藥，Css 最高者為 B 藥。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Intravenous Infusion：Css＝R/CL 與達穩態時間取決於 t½"
   },
   {
    "n": 61,
