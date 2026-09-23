@@ -27,7 +27,7 @@ while :; do
   # 每一輪都重新挑（寫進去的題會自動從候選消失，所以固定取最前面 SIZE 題）
   node tools/note-targets.js --limit "$SIZE" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || break
   # note-targets.js 印的是「N 題（全部 M）→ 檔案」，括號是全形，別用半形 ) 去抓（會抓不到）
-  left=$(sed -n 's/.*全部 \([0-9]*\)）.*/\1/p' "$T/cnt.txt")
+  left=$(sed -n 's/.*全部 \([0-9]*\)[）)].*/\1/p' "$T/cnt.txt")
   grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的勘誤題" | tee -a "$LOG"; break; }
   b=$((b+1)); t0=$(date +%s)
   rm -f "$T/notes.json"
@@ -49,6 +49,9 @@ while :; do
   git add js/data/exam js/data/exams.js tools/exp-skips.json >/dev/null 2>&1
   git commit -q -m "勘誤提醒 +${got} 題（官方答案與現行法規衝突的題）" >/dev/null 2>&1
   echo "$(now) 第 $b 批：寫 $got 題，剩 ${left:-?} 題候選，$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
+  # 剩下的候選模型判斷不該寫（多半是轉檔毀損、不是法規衝突）→ 同一批會一直被挑到、一直寫 0。
+  # 2026-09-24 就這樣空轉 180 批（約 9 小時 Claude 額度）才被發現，所以寫 0 就收工。
+  [ "$got" -eq 0 ] && { echo "$(now) 本批寫 0 題：剩下 ${left:-?} 題模型都判定不寫，收工" | tee -a "$LOG"; break; }
   [ "$MAXB" -gt 0 ] && [ "$b" -ge "$MAXB" ] && break
 done
 git push -q 2>/dev/null || true
