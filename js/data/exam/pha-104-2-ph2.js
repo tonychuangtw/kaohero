@@ -657,7 +657,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph2'] = {
     "丙",
     "丁"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_305_22_46.webp"
   },
   {
    "n": 47,

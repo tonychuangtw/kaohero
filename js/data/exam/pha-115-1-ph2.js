@@ -505,7 +505,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph2'] = {
     "降低有機相比例",
     "降低流速"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_305_0402_35.webp"
   },
   {
    "n": 36,
@@ -700,7 +701,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph2'] = {
     "aloe-emodin anthrone",
     "chrysophanol"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_305_0402_49.webp"
   },
   {
    "n": 50,

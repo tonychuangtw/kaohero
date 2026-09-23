@@ -138,7 +138,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent3'] = {
     "第二大臼齒的牙髓病變",
     "第二大臼齒的根尖周圍病變"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_33_9.webp"
   },
   {
    "n": 10,
@@ -151,7 +152,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent3'] = {
     "該牙齒接受根管治療，併發齒頸部吸收（cervical resorption）",
     "該牙齒接受根管治療，牙根尖發生取代性吸收（replacement resorption）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_304_33_10.webp"
   },
   {
    "n": 11,
@@ -276,7 +278,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent3'] = {
     "從遠心側往近心側拍攝，箭頭所指為近心頰側根管（MB canal）",
     "從遠心側往近心側拍攝，箭頭所指為第二近心頰側根管（MB2 canal）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_33_19.webp"
   },
   {
    "n": 20,

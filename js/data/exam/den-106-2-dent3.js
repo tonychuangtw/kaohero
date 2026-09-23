@@ -686,7 +686,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "walking bleaching technique；10～15% carbamide peroxide",
     "walking bleaching technique；30～35% hydrogen peroxide"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106100_304_33_48.webp"
   },
   {
    "n": 49,
@@ -810,7 +811,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "僅需洗牙及牙根整平處置",
     "某些部位可能需手術處置，甚至進一步牙周專業處理"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_304_33_57.webp"
   },
   {
    "n": 58,
@@ -851,7 +853,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "Established gingivtis",
     "Periodontitis"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106100_304_33_60.webp"
   },
   {
    "n": 61,
@@ -1018,7 +1021,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "Excisional new attachment procedure",
     "Palatal flap"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106100_304_33_72.webp"
   },
   {
    "n": 73,

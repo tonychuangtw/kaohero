@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent2'] = {
     "透那氏齒（Turner's tooth）",
     "桑椹臼齒（mulberry molar）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_301_22_3.webp"
   },
   {
    "n": 4,
@@ -431,7 +432,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent2'] = {
     "①為張力、②為壓力",
     "①為壓力、②為張力"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104020_301_22_30.webp"
   },
   {
    "n": 31,

@@ -222,7 +222,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "#27：lingual crossbite",
     "#27,#37：scissors bite"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_66_15.webp"
   },
   {
    "n": 16,
@@ -304,7 +305,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "圖C",
     "圖D"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_66_21.webp"
   },
   {
    "n": 22,
@@ -527,7 +529,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "舌苔",
     "扁平舌"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_304_66_37.webp"
   },
   {
    "n": 38,

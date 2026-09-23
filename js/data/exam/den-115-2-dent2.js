@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent2'] = {
     "HHV-5",
     "HHV-6"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_303_0302_3.webp"
   },
   {
    "n": 4,
@@ -487,7 +488,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent2'] = {
     "曲線 C",
     "氣孔產生與加熱速率無關"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_303_0302_34.webp"
   },
   {
    "n": 35,

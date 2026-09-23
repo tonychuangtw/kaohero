@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "標示3處為食道入口（entrance into esophagus）",
     "標示4處為小角狀結節（corniculate tubercle）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110101_303_11_5.webp"
   },
   {
    "n": 6,
@@ -95,7 +96,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "標示3處為唾液阜（salivary caruncula）",
     "標示4處為舌下皺摺（sublingual fold）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110101_303_11_6.webp"
   },
   {
    "n": 7,
@@ -668,7 +670,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "牙骨質結石（cementicle）",
     "牙髓石（pulp stone）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110101_303_11_47.webp"
   },
   {
    "n": 48,
@@ -723,7 +726,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "退化性牙釉上皮（reduced enamel epithelium）",
     "上皮橫膈（epithelial diaphragm）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110101_303_11_51.webp"
   },
   {
    "n": 52,

@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent1'] = {
     "標示③處",
     "標示④處"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_303_0301_3.webp"
   },
   {
    "n": 4,

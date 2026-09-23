@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent2'] = {
     "齒中齒（dens in dente）",
     "齒外齒（dens evaginatus）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_303_0202_1.webp"
   },
   {
    "n": 2,

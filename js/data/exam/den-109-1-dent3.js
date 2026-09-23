@@ -276,7 +276,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent3'] = {
     "Bayonet flap",
     "Ochsenbein-Luebke flap"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109020_304_33_19.webp"
   },
   {
    "n": 20,
@@ -345,7 +346,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent3'] = {
     "全冠髓切除術（full pulpotomy）",
     "部分牙髓摘除術（partial pulpectomy）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109020_304_33_24.webp"
   },
   {
    "n": 25,
@@ -428,7 +430,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent3'] = {
     "繼發性牙本質（secondary dentin）",
     "硬化性牙本質（sclerotic dentin）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_304_33_30.webp"
   },
   {
    "n": 31,
@@ -511,7 +514,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent3'] = {
     "13─95─8─14",
     "13─5─8─14"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_304_33_36.webp"
   },
   {
    "n": 37,
@@ -860,7 +864,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent3'] = {
     "甲牙齒與乙牙齒預後一樣差",
     "旋轉中心位置不影響預後"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_304_33_61.webp"
   },
   {
    "n": 62,

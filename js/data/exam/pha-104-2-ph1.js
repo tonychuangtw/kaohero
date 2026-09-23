@@ -715,7 +715,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
     "ACN環",
     "ANO環"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_305_11_50.webp"
   },
   {
    "n": 51,
@@ -756,7 +757,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
     "Serotonin transporter",
     "Norepinephrine transporter"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_305_11_53.webp"
   },
   {
    "n": 54,

@@ -600,7 +600,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "subcondylar",
     "sigmoid notch"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_304_0304_42.webp"
   },
   {
    "n": 43,
@@ -907,7 +908,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "口咽（oropharynx）",
     "下咽腔（hypopharynx）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_304_0304_64.webp"
   },
   {
    "n": 65,
@@ -920,7 +922,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "鼻腭囊腫（nasopalatine cyst）",
     "根尖囊腫（radicular cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_304_0304_65.webp"
   },
   {
    "n": 66,
@@ -947,7 +950,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "牙根齲齒（root caries）",
     "牙根斷裂（root fracture）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_304_0304_67.webp"
   },
   {
    "n": 68,
@@ -960,7 +964,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "有牙結石",
     "有反應性骨硬化（reactive bone sclerosis）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_304_0304_68.webp"
   },
   {
    "n": 69,
@@ -973,7 +978,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "a 是頦孔（mental foramen）；b 是根尖炎性疾病（periapical inflammatory disease）造成的",
     "a 與 b 都是頦孔（mental foramen）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_304_0304_69.webp"
   },
   {
    "n": 70,
@@ -1028,7 +1034,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "reverse Towne projection",
     "oblique lateral projection"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_304_0304_73.webp"
   },
   {
    "n": 74,
@@ -1082,7 +1089,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "鏟形牙齒（shovel teeth）",
     "牙中牙（dens in dente）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_304_0304_77.webp"
   },
   {
    "n": 78,

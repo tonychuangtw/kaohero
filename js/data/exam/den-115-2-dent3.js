@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent3'] = {
     "外突脫位（extrusive luxation）",
     "內縮脫位（intrusive luxation）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115090_304_0303_14.webp"
   },
   {
    "n": 15,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent3'] = {
     "遠心根管",
     "近心根管"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115090_304_0303_25.webp"
   },
   {
    "n": 26,

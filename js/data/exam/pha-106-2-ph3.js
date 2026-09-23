@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "Newtonian",
     "pseudoplastic"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_305_33_13.webp"
   },
   {
    "n": 14,
@@ -826,7 +827,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "K 不變，VM max變小，顯示「非競爭性抑制」（noncompetitive inhibition）的特質",
     "K 變小，VM max變小，顯示「未競爭性抑制」（uncompetitive inhibition）的特質"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_305_33_58.webp"
   },
   {
    "n": 59,
@@ -853,7 +855,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph3'] = {
     "需時最久達穩定狀態：A藥；穩定狀態濃度最高者：C藥",
     "需時最久達穩定狀態：C藥；穩定狀態濃度最高者：B藥"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_305_33_60.webp"
   },
   {
    "n": 61,

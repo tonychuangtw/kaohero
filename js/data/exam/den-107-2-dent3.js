@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent3'] = {
     "牙根切斷術（root amputation）",
     "蓄意再植術（intentional replantation）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107100_304_33_18.webp"
   },
   {
    "n": 19,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent3'] = {
     "第一小臼齒急性根尖膿腫（acute apical abscess）",
     "第二小臼齒急性根尖膿腫（acute apical abscess）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_304_33_25.webp"
   },
   {
    "n": 26,

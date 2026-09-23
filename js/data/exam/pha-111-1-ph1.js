@@ -803,7 +803,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
     "transporter",
     "first pass effect"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_305_11_56.webp"
   },
   {
    "n": 57,
@@ -886,7 +887,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph1'] = {
     "R3",
     "R4"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111020_305_11_62.webp"
   },
   {
    "n": 63,

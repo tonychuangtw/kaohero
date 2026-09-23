@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "標示③處",
     "標示④處"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115090_303_0301_3.webp"
   },
   {
    "n": 4,
@@ -417,7 +418,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "distolabial line angle",
     "labioincisal angle"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_303_0301_29.webp"
   },
   {
    "n": 30,
@@ -920,7 +922,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "舌下腺",
     "軟腭小唾液腺"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_303_0301_65.webp"
   },
   {
    "n": 66,

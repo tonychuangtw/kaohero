@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent2'] = {
     "淋巴上皮囊腫（lymphoepithelial cyst）",
     "鼻腭管囊腫（nasopalatine duct cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_303_0302_1.webp"
   },
   {
    "n": 2,
@@ -95,7 +96,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent2'] = {
     "副鼻竇（paranasal sinus）",
     "頰黏膜（buccal mucosa）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_303_0302_6.webp"
   },
   {
    "n": 7,

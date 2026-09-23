@@ -487,7 +487,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "牙根處凹陷",
     "牙根未包覆牙釉質"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_304_33_34.webp"
   },
   {
    "n": 35,
@@ -709,7 +710,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104090_304_33_50.webp"
   },
   {
    "n": 51,
@@ -764,7 +766,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "3是dentogingival fibers",
     "4是dentoperiosteal fibers"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104090_304_33_54.webp"
   },
   {
    "n": 55,

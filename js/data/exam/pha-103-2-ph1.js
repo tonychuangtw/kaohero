@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
     "Eplerenone",
     "Trichlormethiazide"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103090_312_11_20.webp"
   },
   {
    "n": 21,
@@ -787,7 +788,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
     "R3",
     "R4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103090_312_11_55.webp"
   },
   {
    "n": 56,

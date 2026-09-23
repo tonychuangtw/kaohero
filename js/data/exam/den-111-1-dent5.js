@@ -183,7 +183,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent5'] = {
     "門齒乳頭（incisive papilla）",
     "中腭縫（median palatine raphe）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_304_55_12.webp"
   },
   {
    "n": 13,
@@ -798,7 +799,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent5'] = {
     "由點6到點7的移動，關節髁頭（condyle head）的運動包括位移及旋轉",
     "由點7到點0的移動，與咀嚼運動有關"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111020_304_55_56.webp"
   },
   {
    "n": 57,

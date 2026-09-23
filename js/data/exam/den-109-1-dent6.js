@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent6'] = {
     "圖C",
     "圖D"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_304_66_4.webp"
   },
   {
    "n": 5,

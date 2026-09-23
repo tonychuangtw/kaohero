@@ -908,7 +908,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "蝶竇（sphenoid sinus）",
     "軟腭（soft palate）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_304_44_64.webp"
   },
   {
    "n": 65,
@@ -921,7 +922,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "粗隆（tuberosity）",
     "顴骨（zygoma）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_304_44_65.webp"
   },
   {
    "n": 66,
@@ -934,7 +936,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "incisive foramen",
     "mental fossa"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_304_44_66.webp"
   },
   {
    "n": 67,
@@ -947,7 +950,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "連合齒（concrescence）",
     "巨齒症（macrodontia）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112100_304_44_67.webp"
   },
   {
    "n": 68,
@@ -988,7 +992,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "bilateral open bite",
     "right side open bite"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112100_304_44_70.webp"
   },
   {
    "n": 71,
@@ -1001,7 +1006,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "left disc displacement with reduction",
     "left disc displacement without reduction"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1028,7 +1034,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "reverse Towne projection",
     "oblique lateral projection"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112100_304_44_73.webp"
   },
   {
    "n": 74,
@@ -1096,7 +1103,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "地中海型貧血（thalassemia）",
     "惡性貧血（pernicious anemia）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112100_304_44_78.webp"
   },
   {
    "n": 79,

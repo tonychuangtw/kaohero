@@ -995,7 +995,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "先天缺牙（congenital missing）",
     "卡拉貝利牙阜（cusp of Carabelli）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106100_304_44_70.webp"
   },
   {
    "n": 71,
@@ -1008,7 +1009,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "Gemination",
     "Concrescence"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106100_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1021,7 +1023,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "纖纖性發育不良（fibrous dysplasia）",
     "骨硬化症（osteopetrosis）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106100_304_44_72.webp"
   },
   {
    "n": 73,
@@ -1090,7 +1093,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent4'] = {
     "鱗狀細胞癌（squamous cell carcinoma）",
     "纖維性發育不良（fibrous dysplasia）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_304_44_77.webp"
   },
   {
    "n": 78,

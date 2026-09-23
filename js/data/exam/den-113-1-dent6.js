@@ -180,7 +180,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "鈦鉬合金（titanium-molybdenum alloy, TMA）",
     "鈷鉻合金（cobalt-chromium alloy, CoCr）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_304_66_12.webp"
   },
   {
    "n": 13,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "圖1及圖2中施力同為100 gm且牙齒所受力矩相同",
     "有牙周病骨破壞病人之矯正治療在給予力量上，應較輕較慢"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_304_66_25.webp"
   },
   {
    "n": 26,

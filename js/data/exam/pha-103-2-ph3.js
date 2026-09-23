@@ -1008,7 +1008,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "根據理論藥品第四次給藥後已達95%藥品穩定狀態",
     "若欲給予速放劑量其劑量為100 mg"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_312_33_71.webp"
   },
   {
    "n": 72,
@@ -1049,7 +1050,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "drug-A的分布體積（volume of distribution）可能很大",
     "drug-B的分布體積（volume of distribution）可能很大"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103090_312_33_74.webp"
   },
   {
    "n": 75,
@@ -1090,7 +1092,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "1.5 L/h",
     "2.0 L/h"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_312_33_77.webp"
   },
   {
    "n": 78,

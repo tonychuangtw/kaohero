@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent1'] = {
     "標示3處為闊頸肌（platysma）",
     "標示4處為顎下腺（submandibular gland）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104020_301_11_11.webp"
   },
   {
    "n": 12,
@@ -221,7 +222,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent1'] = {
     "標示3處應為橫頸動脈（transverse cervical artery）",
     "標示4處應為鎖骨下動脈（subclavian artery）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_301_11_15.webp"
   },
   {
    "n": 16,
@@ -234,7 +236,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent1'] = {
     "標示11處之血管為頦動脈（mental artery）",
     "標示12處之血管為角動脈（angular artery）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_301_11_16.webp"
   },
   {
    "n": 17,
@@ -641,7 +644,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent1'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104020_301_11_45.webp"
   },
   {
    "n": 46,

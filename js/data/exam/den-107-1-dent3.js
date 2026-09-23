@@ -334,7 +334,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent3'] = {
     "遠心頰側根管（DB canal）",
     "腭側根管（P canal）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_304_33_23.webp"
   },
   {
    "n": 24,
@@ -908,7 +909,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent3'] = {
     "Keratinocytes in granular layer",
     "Endothelial cells"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_304_33_64.webp"
   },
   {
    "n": 65,

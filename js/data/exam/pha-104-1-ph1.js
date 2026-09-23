@@ -733,7 +733,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "GABAB receptor",
     "Melatonin receptor"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_312_11_51.webp"
   },
   {
    "n": 52,
@@ -776,7 +777,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "不可逆的MAOA抑制劑",
     "不可逆的MAOB抑制劑"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_312_11_54.webp"
   },
   {
    "n": 55,
@@ -845,7 +847,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "Chlorthalidone",
     "Spironolactone"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_312_11_59.webp"
   },
   {
    "n": 60,

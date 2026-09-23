@@ -404,7 +404,8 @@ window.APP_EXAM_PAPERS['tcm-108-1-cmc3'] = {
     "L5S1 一級後滑脫（Retrolisthesis of L5 on S1 and in grade I）",
     "L5S1 一級滑脫（Spondylolisthesis of L5 on S1 and in grade I）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108020_102_0105_28.webp"
   },
   {
    "n": 29,

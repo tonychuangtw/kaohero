@@ -337,7 +337,8 @@ window.APP_EXAM_PAPERS['tcm-104-2-cmc3'] = {
     "後距腓韌帶（posterior talofibular ligament）",
     "腓骨短肌（peroneus brevis）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104100_102_0105_23.webp"
   },
   {
    "n": 24,
@@ -518,7 +519,8 @@ window.APP_EXAM_PAPERS['tcm-104-2-cmc3'] = {
     "①③",
     "②④"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104100_102_0105_36.webp"
   },
   {
    "n": 37,

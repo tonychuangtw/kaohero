@@ -278,7 +278,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent2'] = {
     "骨內鱗狀細胞癌（intraosseous squamous cell carcinoma）",
     "鱗狀齒源性腫瘤（squamous odontogenic tumor）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_303_22_19.webp"
   },
   {
    "n": 20,

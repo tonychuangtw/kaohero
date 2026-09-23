@@ -418,7 +418,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent5'] = {
     "外終接線（external finish line）",
     "輔助性鉤靠（auxiliary rest）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_304_55_29.webp"
   },
   {
    "n": 30,
@@ -669,7 +670,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent5'] = {
     "固位性不足，為達到更好的固位性，應在頰、舌兩側牆加平行溝（groove）",
     "咬合面的外形沒有順著牙齒的外形修形"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_304_55_47.webp"
   },
   {
    "n": 48,

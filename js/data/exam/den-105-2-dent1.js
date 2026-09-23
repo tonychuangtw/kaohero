@@ -213,7 +213,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent1'] = {
     "標示6處為枕動脈（occipital artery）",
     "標示8處為內頸動脈（internal carotid artery）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_303_11_14.webp"
   },
   {
    "n": 15,
@@ -501,7 +502,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent1'] = {
     "8號牙轉位（torsiversion）",
     "後牙反咬（posterior crossbite）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_303_11_34.webp"
   },
   {
    "n": 35,
@@ -752,7 +754,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent1'] = {
     "牙本質內死道（dead tract in dentin）",
     "硬化牙本質（sclerotic dentin）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_303_11_52.webp"
   },
   {
    "n": 53,
@@ -821,7 +824,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent1'] = {
     "齒槽骨（alveolar bone）",
     "齒槽骨板（lamina dura）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_303_11_57.webp"
   },
   {
    "n": 58,

@@ -564,7 +564,8 @@ window.APP_EXAM_PAPERS['tcm-113-1-cmc4'] = {
     "後頂",
     "陶道"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_318_44_39.webp"
   },
   {
    "n": 40,

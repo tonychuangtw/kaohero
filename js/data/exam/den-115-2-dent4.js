@@ -138,7 +138,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "上顎左側大臼齒",
     "下顎小臼齒"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_304_0304_9.webp"
   },
   {
    "n": 10,
@@ -935,7 +936,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "軟腭",
     "舌頭"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115090_304_0304_66.webp"
   },
   {
    "n": 67,
@@ -961,7 +963,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "外斜嵴（external oblique ridge）",
     "下顎舌骨嵴（mylohyoid ridge）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115090_304_0304_68.webp"
   },
   {
    "n": 69,
@@ -974,7 +977,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "局部牙齒發育不良（regional odontodysplasia）",
     "第二型牙本質發育不良（dentin dysplasia type II）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_304_0304_69.webp"
   },
   {
    "n": 70,
@@ -987,7 +991,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "左下顎第一大臼齒",
     "左下顎第二大臼齒"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_304_0304_70.webp"
   },
   {
    "n": 71,
@@ -1000,7 +1005,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "pyramidal fracture",
     "craniofacial disjunction"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_304_0304_71.webp"
   },
   {
    "n": 72,
@@ -1013,7 +1019,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_304_0304_72.webp"
   },
   {
    "n": 73,
@@ -1039,7 +1046,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "maxillary tuberosity",
     "floor of the orbit"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115090_304_0304_74.webp"
   },
   {
    "n": 75,
@@ -1052,7 +1060,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "崔屈－寇林氏症候群（Treacher Collins syndrome）",
     "史特吉－韋柏氏症候群（Sturge-Weber syndrome）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115090_304_0304_75.webp"
   },
   {
    "n": 76,
@@ -1065,7 +1074,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "副甲狀腺功能過旺",
     "副甲狀腺功能不足"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115090_304_0304_76.webp"
   },
   {
    "n": 77,
@@ -1078,7 +1088,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "浦茲－詹賀症候群（Peutz-Jeghers syndrome）",
     "嘉德耐氏症候群（Gardner's syndrome）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115090_304_0304_77.webp"
   },
   {
    "n": 78,
@@ -1119,7 +1130,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent4'] = {
     "齒源性黏液瘤（odontogenic myxoma）",
     "腺瘤樣齒源性瘤（adenomatoid odontogenic tumor）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115090_304_0304_80.webp"
   }
  ]
 };

@@ -138,7 +138,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "class 3 B",
     "class 3 C"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_304_0204_9.webp"
   },
   {
    "n": 10,
@@ -151,7 +152,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "下顎大臼齒",
     "下顎小臼齒"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_304_0204_10.webp"
   },
   {
    "n": 11,
@@ -598,7 +600,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "會有左下嘴唇麻木（lip numbness）現象",
     "可經下顎後路徑（retromandibular approach）來進行復位及固定"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115020_304_0204_42.webp"
   },
   {
    "n": 43,
@@ -625,7 +628,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "①④",
     "②③"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115020_304_0204_44.webp"
   },
   {
    "n": 45,
@@ -916,7 +920,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "X 光片刮痕",
     "上顎前牙牙齦"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_304_0204_65.webp"
   },
   {
    "n": 66,
@@ -929,7 +934,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "鼻中隔（nasal septum）",
     "鼻腭管側壁（lateral walls of nasopalatine canal）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115020_304_0204_66.webp"
   },
   {
    "n": 67,
@@ -970,7 +976,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "齒間陷口（interdental crater）",
     "水平骨缺損（horizontal bone loss）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_304_0204_69.webp"
   },
   {
    "n": 70,
@@ -1024,7 +1031,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "牙本質發育不全（dentinogenesis imperfecta）",
     "牙釉質發育不全（amelogenesis imperfecta）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_304_0204_73.webp"
   },
   {
    "n": 74,
@@ -1051,7 +1059,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "鈣化上皮齒源性瘤（calcifying epithelial odontogenic tumor）",
     "齒源性角化囊腫（odontogenic keratocyst）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_304_0204_75.webp"
   },
   {
    "n": 76,
@@ -1064,7 +1073,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "變形性骨炎（Paget disease of bone）",
     "家族性巨大畸形牙骨質瘤（familial gigantiform cementoma）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_304_0204_76.webp"
   },
   {
    "n": 77,
@@ -1077,7 +1087,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "3",
     "4"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115020_304_0204_77.webp"
   },
   {
    "n": 78,

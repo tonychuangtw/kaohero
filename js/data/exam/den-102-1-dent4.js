@@ -756,7 +756,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102020_302_44_53.webp"
   },
   {
    "n": 54,
@@ -769,7 +770,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "③④",
     "①④"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_302_44_54.webp"
   },
   {
    "n": 55,
@@ -922,7 +924,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "mental ridge",
     "superior wall of mandibular canal"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_302_44_65.webp"
   },
   {
    "n": 66,
@@ -935,7 +938,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Concrescence",
     "Fracture"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_302_44_66.webp"
   },
   {
    "n": 67,
@@ -962,7 +966,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Dilacerated root",
     "Dens invaginatus"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_302_44_68.webp"
   },
   {
    "n": 69,
@@ -975,7 +980,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Dilacerated root",
     "Dens invaginatus"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102020_302_44_69.webp"
   },
   {
    "n": 70,
@@ -988,7 +994,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Odontoma",
     "Taurodontism"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_302_44_70.webp"
   },
   {
    "n": 71,
@@ -1001,7 +1008,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Dens invaginatus",
     "Dens evaginatus"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_302_44_71.webp"
   },
   {
    "n": 72,
@@ -1014,7 +1022,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "殘根（residual root）",
     "牙瘤（odontoma）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_302_44_72.webp"
   },
   {
    "n": 73,
@@ -1041,7 +1050,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "Buccal bifurcation cyst",
     "Dentigerous cyst"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102020_302_44_74.webp"
   },
   {
    "n": 75,
@@ -1054,7 +1064,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "診斷為ameloblastoma，應儘快安排手術",
     "診斷為radicular cyst，已完成根管治療，應先觀察治療效果再作決定"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_302_44_75.webp"
   },
   {
    "n": 76,
@@ -1081,7 +1092,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent4'] = {
     "對側下顎骨後緣之複影",
     "攝影時患者手指摸頸部所致"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_302_44_77.webp"
   },
   {
    "n": 78,

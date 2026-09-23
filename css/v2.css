@@ -689,3 +689,12 @@ body[data-page]:not([data-page="home"]) .hero-wrap + main{padding-top:20px}
 .m-js .hero .hero-t.m-in,.m-js .hero .sub.m-in{animation-name:kh-slide}
 @keyframes kh-slide{from{transform:translateY(var(--m-rise))}to{transform:none}}
 @media (prefers-reduced-motion: reduce){ .m-js .hero .m-in{animation:none} }
+
+/* 本週排名賽（2026-09-23）：百分位與同科分數分布 */
+.rk-top{margin-bottom:12px}
+.rk-pct{font-size:calc(34px * var(--fs,1));font-weight:900;color:var(--brand);line-height:1.2}
+.rk-hist{display:flex;align-items:flex-end;gap:4px;height:120px;margin:14px 0 4px}
+.rk-bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;height:100%;position:relative}
+.rk-fill{background:var(--line);border-radius:4px 4px 0 0;min-height:2px}
+.rk-bar.me .rk-fill{background:var(--brand)}
+.rk-lb{font-size:calc(11px * var(--fs,1));opacity:.7;text-align:center;margin-top:4px}

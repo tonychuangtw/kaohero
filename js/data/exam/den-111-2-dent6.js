@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent6'] = {
     "殘餘空間（residual space）",
     "調整空間（space adjusted）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111100_304_66_20.webp"
   },
   {
    "n": 21,

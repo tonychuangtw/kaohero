@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent1'] = {
     "3處為下顎頸溝（groove of mandibular neck）",
     "4處為下顎頸骨嵴（ridge of mandibular neck）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_301_11_3.webp"
   },
   {
    "n": 4,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent1'] = {
     "標示2處為二腹肌（digastric muscle）附著之處",
     "標示3處為下顎舌骨肌（mylohyoid muscle）附著之處"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_301_11_4.webp"
   },
   {
    "n": 5,
@@ -136,7 +138,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent1'] = {
     "標示為3處",
     "標示為4處"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_301_11_9.webp"
   },
   {
    "n": 10,
@@ -205,7 +208,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent1'] = {
     "標示為4處為舌動脈（lingual artery）",
     "標示為6處為顏面動脈（facial artery）的分枝"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_301_11_14.webp"
   },
   {
    "n": 15,
@@ -232,7 +236,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent1'] = {
     "標示為5處可能是頸靜脈肩胛舌骨肌淋巴結（jugulo-omohyoid lymph nodes）",
     "標示為9處可能是頸靜脈二腹肌淋巴結（jugulo-digastric lymph nodes）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_301_11_16.webp"
   },
   {
    "n": 17,

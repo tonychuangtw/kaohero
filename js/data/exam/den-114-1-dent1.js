@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent1'] = {
     "僅標示①②處",
     "標示①②④⑤處"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_303_0201_2.webp"
   },
   {
    "n": 3,
@@ -347,7 +348,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent1'] = {
     "Labioincisal angle",
     "Mesiolabial point angle"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114020_303_0201_24.webp"
   },
   {
    "n": 25,

@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent6'] = {
     "Angle ClassⅡ subdivision left",
     "Angle ClassⅢ malocclusion"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_304_66_20.webp"
   },
   {
    "n": 21,

@@ -1464,6 +1464,16 @@
     });
     go.style.marginTop = '14px';
     c.appendChild(go);
+    // 本週排名賽（2026-09-23）：固定題組才能比分數，說明要講清楚跟上面那顆的差別
+    var rk = btn(T('🏆 本週排名賽'), 'o', function () {
+      if (!selS.value) return toast(T('這個科目還沒有題目。'));
+      startMock(selS.value, pickSpec, true);
+    });
+    rk.style.marginTop = '8px';
+    c.appendChild(rk);
+    c.appendChild(el('p', 'lead',
+      T('排名賽是每週固定的一份題組，同一週打開同一科的人拿到同樣的題目，交卷後看得到自己贏過多少人與全站分數分布。'
+        + '一般模擬考則是每次隨機抽題。')));
     main.appendChild(c);
     fillExams();
     if (selS.value) viewBoard(main, selS.value, boardSpec);
@@ -1481,13 +1491,26 @@
     }
   }
 
-  function startMock(sid, spec) {
+  function startMock(sid, spec, ranked) {
     spec = spec || 'full';
     var list = EXAMS.filter(function (e) { return e.subj === sid; });
     if (!list.length) return toast(T('這個科目還沒有題目。'));
     var top = list.slice().sort(function (a, b) { return (b.roc || 0) - (a.roc || 0); })[0];
     var std = { n: top.n, mins: top.mins || Math.round(top.n * 1.2) };
     var g = specOf(std, spec), want = g.n, mins = g.mins;
+    // 本週排名賽：題組由 js/rank.js 用（科目, 規格, 週次）當種子抽，全站同一週拿到同一份卷，
+    // 分數才能互比（2026-09-23）。抽題邏輯不共用下面那段隨機版，避免兩邊各改一半。
+    if (ranked && window.KHRank) {
+      toast(T('正在準備本週題組…'));
+      return window.KHRank.pick(rankApi(), sid, spec, want, function (err, use, sets) {
+        if (err) return toast(T('本週題組準備失敗，請重新整理再試一次。'));
+        quiz = { mode: 'mock', sid: sid, spec: spec, ranked: true, setid: sets,
+          title: (SUBJ[sid] && SUBJ[sid].name || sid) + T('　本週排名賽') + '（' + specName(spec) + '）',
+          qs: use.map(function (x) { return x.q; }), meta: use, i: 0, ans: [], ok: 0,
+          flags: {}, mins: mins, endAt: Date.now() + mins * 60000, secs: 0, graded: false };
+        location.hash = '#/quiz'; render();
+      });
+    }
     var pool = list.slice(); shuffle(pool);
     var pick = [], have = 0;
     for (var i = 0; i < pool.length && (have < want * 1.5 || pick.length < 2) && pick.length < MOCK_POOL; i++) {
@@ -1617,6 +1640,14 @@
         sid: quiz.sid, spec: quiz.spec || 'full', nick: state.nick || undefined,
         score: Math.round(quiz.ok * 100 / quiz.qs.length), total: quiz.qs.length,
       }, function () { boardCache = {}; render(); });
+      // 排名賽另外交一份到固定題組那張表，回來的就是百分位與分數分布（2026-09-23）
+      if (quiz.ranked && quiz.setid && window.KHRank) {
+        window.KHRank.submit(rankApi(), {
+          sid: quiz.sid, spec: quiz.spec || 'full', setid: quiz.setid,
+          nick: state.nick || undefined,
+          score: Math.round(quiz.ok * 100 / quiz.qs.length), total: quiz.qs.length, secs: quiz.secs,
+        }, function (err, d) { rankData = err ? null : d; render(); });
+      }
     }
     buildNav(); markNav(); render();
   }
@@ -1680,6 +1711,10 @@
 
     // 弱點診斷與補弱題單（2026-09-21）：交卷後最重要的不是分數，是「接下來練什麼」
     if (window.KHDiag) window.KHDiag.render(main, diagApi());
+    // 排名賽的百分位與分數分布（2026-09-23）；一般模擬考是隨機抽題，不會有這一段
+    if (quiz.ranked && window.KHRank) {
+      window.KHRank.render(main, rankApi(), { setid: quiz.setid, data: rankData });
+    }
 
     var row = el('div', 'btnrow'); row.style.marginTop = '16px';
     var sid0 = quiz.sid, spec0 = quiz.spec || 'full';
@@ -1717,6 +1752,17 @@
   }
 
   /* 交給 js/diagnose.js 的介面（模考結算頁的弱點診斷）。 */
+  /* 交給 js/rank.js 的介面。它要自己抽固定題組、打 /api/kgh/rank，所以比 diagApi 多給
+     EXAMS／papers／loadMany 與 kghApi；state 一樣不外流。 */
+  var rankData = null;           // 最近一次排名賽交卷後端回來的分布，render 時用
+  function rankApi() {
+    return {
+      T: T, btn: btn, sectionHead: sectionHead, toast: toast,
+      SUBJ: SUBJ, EXAMS: EXAMS, papers: PAPERS, loadMany: loadMany,
+      kghApi: kghApi, signedIn: signedIn
+    };
+  }
+
   function diagApi() {
     return {
       T: T, btn: btn, sectionHead: sectionHead, toast: toast,

@@ -907,7 +907,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph3'] = {
     "圖II c",
     "圖I d"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102020_310_44_64.webp"
   },
   {
    "n": 65,
@@ -1088,7 +1089,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph3'] = {
     "分室1及2",
     "分室1及3"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102020_310_44_77.webp"
   },
   {
    "n": 78,

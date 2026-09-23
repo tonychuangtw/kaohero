@@ -250,7 +250,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "藥物灼傷",
     "梅毒感染"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110100_304_44_17.webp"
   },
   {
    "n": 18,
@@ -909,7 +910,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "上嘴唇",
     "X光片刮痕"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_44_64.webp"
   },
   {
    "n": 65,
@@ -922,7 +924,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "retained root fragment",
     "inferior border of maxillary sinus"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110100_304_44_65.webp"
   },
   {
    "n": 66,
@@ -935,7 +938,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "牙雙生（gemination of teeth）",
     "骨性迷離瘤（osseous choristoma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_44_66.webp"
   },
   {
    "n": 67,
@@ -976,7 +980,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "建議他作cone beam CT檢查",
     "可以建議他作切片檢查"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110100_304_44_69.webp"
   },
   {
    "n": 70,
@@ -989,7 +994,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "造釉細胞纖維齒瘤（ameloblastic fibro-odontoma）",
     "含牙囊腫併有腐骨（dentigerous cyst with sequestrum ）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_44_70.webp"
   },
   {
    "n": 71,
@@ -1030,7 +1036,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "唾腺管囊腫（salivary duct cyst）",
     "謝格連氏症候群（Sjogren's syndrome）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110100_304_44_73.webp"
   },
   {
    "n": 74,
@@ -1043,7 +1050,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "凝聚性骨炎（condensing osteitis）",
     "骨化纖維瘤（ossifying fibroma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1056,7 +1064,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "磨耗（abrasion）",
     "齒頸部照蝕（cervical burnout）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110100_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1097,7 +1106,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "panoramic radiography",
     "cone beam computed tomography"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110100_304_44_78.webp"
   },
   {
    "n": 79,
@@ -1110,7 +1120,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "下顎舌側",
     "下顎頰側"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110100_304_44_79.webp"
   },
   {
    "n": 80,
@@ -1123,7 +1134,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent4'] = {
     "腭隆凸（palatinus torus）",
     "造牙骨質細胞瘤（cementoblastoma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_44_80.webp"
   }
  ]
 };

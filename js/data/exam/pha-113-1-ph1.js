@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "competitive inhibitor",
     "partial agonist"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113020_305_11_1.webp"
   },
   {
    "n": 2,
@@ -786,7 +787,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "3",
     "4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_305_11_55.webp"
   },
   {
    "n": 56,
@@ -873,7 +875,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "C",
     "D"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113020_305_11_61.webp"
   },
   {
    "n": 62,

@@ -662,7 +662,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "R3",
     "R4"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107100_305_11_46.webp"
   },
   {
    "n": 47,
@@ -859,7 +860,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "S,S",
     "R,S"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_305_11_60.webp"
   },
   {
    "n": 61,
@@ -944,7 +946,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "N-acetylated代謝物",
     "N-methylated代謝物"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_305_11_66.webp"
   },
   {
    "n": 67,

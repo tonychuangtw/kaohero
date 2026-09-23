@@ -808,7 +808,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent3'] = {
     "Waerhaug 1/2",
     "interdental knife"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_304_0203_57.webp"
   },
   {
    "n": 58,
@@ -905,7 +906,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent3'] = {
     "Stage III, Grade C, generalized",
     "Stage IV, Grade C, generalized"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115020_304_0203_64.webp"
   },
   {
    "n": 65,

@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent1'] = {
     "犁骨（vomer）",
     "鼻骨（nasal bone）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102100_301_11_11.webp"
   },
   {
    "n": 12,
@@ -291,7 +292,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent1'] = {
     "標示為5處可能是頦下淋巴結（submental lymph nodes）",
     "標示為6處可能是氣管前淋巴結（pretracheal lymph nodes）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102100_301_11_20.webp"
   },
   {
    "n": 21,
@@ -304,7 +306,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent1'] = {
     "6為上顎動脈（maxillary artery），16為上甲狀腺動脈（superior thyroid artery）",
     "6為上顎動脈（maxillary artery），16為上喉動脈（superior laryngeal artery）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102100_301_11_21.webp"
   },
   {
    "n": 22,

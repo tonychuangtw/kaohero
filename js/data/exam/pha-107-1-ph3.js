@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph3'] = {
     "pseudoplastic",
     "Newtonian"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107020_305_33_13.webp"
   },
   {
    "n": 14,
@@ -725,7 +726,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph3'] = {
     "病人之半衰期不變，維持劑量不變",
     "病人清除率為正常人的一半，維持劑量為正常人的一半"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_305_33_51.webp"
   },
   {
    "n": 52,
@@ -766,7 +768,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph3'] = {
     "10 L",
     "50 L"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_305_33_54.webp"
   },
   {
    "n": 55,

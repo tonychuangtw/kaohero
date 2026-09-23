@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent6'] = {
     "Class III",
     "Class IV"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_304_66_11.webp"
   },
   {
    "n": 12,

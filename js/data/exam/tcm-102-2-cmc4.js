@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc4'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102110_103_0206_13.webp"
   },
   {
    "n": 14,
@@ -221,7 +222,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc4'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102110_103_0206_15.webp"
   },
   {
    "n": 16,
@@ -248,7 +250,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc4'] = {
     "丙",
     "丁"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102110_103_0206_17.webp"
   },
   {
    "n": 18,
@@ -583,7 +586,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc4'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102110_103_0206_41.webp"
   },
   {
    "n": 42,
@@ -708,7 +712,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc4'] = {
     "丙",
     "丁"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102110_103_0206_50.webp"
   },
   {
    "n": 51,

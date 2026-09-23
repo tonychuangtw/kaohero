@@ -726,7 +726,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent3'] = {
     "間接陶瓷貼片（indirect porcelain veneer）",
     "全瓷冠（all ceramic crown）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114020_304_0203_51.webp"
   },
   {
    "n": 52,

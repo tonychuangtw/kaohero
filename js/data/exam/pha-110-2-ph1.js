@@ -1152,7 +1152,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
     "nifurtimox",
     "suramin"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110101_305_33_80.webp"
   }
  ]
 };

@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent2'] = {
     "造釉細胞纖維齒瘤（ameloblastic fibro-odontoma）",
     "造釉細胞瘤（ameloblastoma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_303_22_18.webp"
   },
   {
    "n": 19,

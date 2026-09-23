@@ -586,7 +586,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent5'] = {
     "甘迺迪第三類第一變化型（modification）",
     "甘迺迪第三類"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102100_302_55_41.webp"
   },
   {
    "n": 42,
@@ -612,7 +613,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent5'] = {
     "外終接線（external finish lines）",
     "輔助性鉤靠（auxiliary rest）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102100_302_55_43.webp"
   },
   {
    "n": 44,
@@ -1086,7 +1088,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent5'] = {
     "上下門牙切端咬合位（end-to-end position of anterior teeth）",
     "最前突位（most protrusive position）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102100_302_55_77.webp"
   },
   {
    "n": 78,

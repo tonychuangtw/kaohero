@@ -376,7 +376,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent1'] = {
     "1是乳齒牙冠部，3是根鞘（root sheath）",
     "2是牙本質牙齦交界（dentinogingival junction），4是發育中的恆齒"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_303_11_26.webp"
   },
   {
    "n": 27,
@@ -697,7 +698,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent1'] = {
     "牙本前質（predentin）",
     "牙周膜（periodontal ligament）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112100_303_11_49.webp"
   },
   {
    "n": 50,
@@ -710,7 +712,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent1'] = {
     "拉士克神經叢（plexus of Raschkow）",
     "牙骨質結石（cementicle）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_303_11_50.webp"
   },
   {
    "n": 51,

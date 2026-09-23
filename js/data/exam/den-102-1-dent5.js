@@ -589,7 +589,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent5'] = {
     "不必考慮支柱牙附近之前庭（vestibule）深度",
     "甘迺迪分類第一類（Kennedy Class I）牙弓之禁忌症"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_302_55_41.webp"
   },
   {
    "n": 42,
@@ -602,7 +603,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent5'] = {
     "不須修磨導引面（guiding plane）",
     "圖中L的長度至少需要 6 mm"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_302_55_42.webp"
   },
   {
    "n": 43,

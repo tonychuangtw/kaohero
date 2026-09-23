@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent2'] = {
     "ad",
     "bd"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111100_303_22_14.webp"
   },
   {
    "n": 15,

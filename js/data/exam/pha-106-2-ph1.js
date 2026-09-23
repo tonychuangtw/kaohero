@@ -788,7 +788,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
     "oxytocin",
     "vasopressin"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106100_305_11_55.webp"
   },
   {
    "n": 56,
@@ -915,7 +916,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
     "epoxide hydrolase",
     "esterase"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_305_11_64.webp"
   },
   {
    "n": 65,

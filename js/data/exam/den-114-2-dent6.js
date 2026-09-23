@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "此案例牙根吸收的原因可能是外傷",
     "此案例的診斷為根管堵塞（obliteration）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_304_0306_40.webp"
   },
   {
    "n": 41,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "外傷（trauma）",
     "不予記錄（not recorded）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_304_0306_72.webp"
   },
   {
    "n": 73,

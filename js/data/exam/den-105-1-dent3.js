@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent3'] = {
     "切削穿孔（stripping perforation）",
     "牙根垂直斷裂（vertical root fracture）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_304_33_20.webp"
   },
   {
    "n": 21,

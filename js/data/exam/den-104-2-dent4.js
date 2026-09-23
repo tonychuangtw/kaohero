@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Gow-Gates下齒槽神經阻斷術（Gow-Gates mandibular block）",
     "Vazirani-Akinosi 下齒槽神經阻斷術（Vazirani-Akinosi block）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_304_44_8.webp"
   },
   {
    "n": 9,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "L’t condylar neck or L’t mandibular ramus",
     "R’t mandibular body"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_304_44_42.webp"
   },
   {
    "n": 43,
@@ -754,7 +756,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Bein elevator",
     "Dental forcep"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_304_44_53.webp"
   },
   {
    "n": 54,
@@ -1048,7 +1051,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Sausage-link appearance",
     "Tree in winter appearance"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1061,7 +1065,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Moth-eaten radiolucency",
     "Beaten-metal radiolucency"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_304_44_75.webp"
   },
   {
    "n": 76,

@@ -236,7 +236,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent2'] = {
     "根尖囊腫（radicular cyst）",
     "殘餘囊腫（residual cyst）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_303_22_16.webp"
   },
   {
    "n": 17,

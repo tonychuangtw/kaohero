@@ -67,7 +67,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent1'] = {
     "鼻骨（nasal bone）",
     "蝶骨（sphenoid bone）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_301_11_4.webp"
   },
   {
    "n": 5,
@@ -204,7 +205,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent1'] = {
     "標示3處有被切斷的肌肉為莖突舌骨肌（stylohyoid muscle）",
     "標示4處為舌骨舌肌（hyoglossus muscle）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_301_11_14.webp"
   },
   {
    "n": 15,
@@ -259,7 +261,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent1'] = {
     "標示為8處為外頸靜脈（external jugular vein）",
     "標示為10處為枕靜脈（occipital vein）及其分枝"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103020_301_11_18.webp"
   },
   {
    "n": 19,
@@ -468,7 +471,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent1'] = {
     "國際牙醫聯盟命名系統（FDI notation system）：84",
     "通用命名系統（Universal numbering system）: L"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_301_11_33.webp"
   },
   {
    "n": 34,

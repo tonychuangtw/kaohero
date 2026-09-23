@@ -936,7 +936,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "Calculus",
     "Cervical abrasion"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_304_44_66.webp"
   },
   {
    "n": 67,
@@ -949,7 +950,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "Dens evaginatus",
     "Extrusion"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105020_304_44_67.webp"
   },
   {
    "n": 68,
@@ -1018,7 +1020,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent4'] = {
     "Fibrous dysplasia",
     "Squamous cell carcinoma"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105020_304_44_72.webp"
   },
   {
    "n": 73,

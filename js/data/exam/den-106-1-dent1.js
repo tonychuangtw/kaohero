@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent1'] = {
     "標示2處為腦膜中動脈（middle meningeal artery）經過之處",
     "標示3處為角棘（angular spine）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_303_11_4.webp"
   },
   {
    "n": 5,
@@ -123,7 +124,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent1'] = {
     "內側水平韌帶（inner horizontal ligament）",
     "莖突下顎韌帶（stylomandibular ligament）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_303_11_8.webp"
   },
   {
    "n": 9,
@@ -206,7 +208,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent1'] = {
     "標示為11處之血管一般均被胸鎖乳突肌所蓋覆保護",
     "標示為16 處之血管為淺顳靜脈（superficial temporal vein）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_303_11_14.webp"
   },
   {
    "n": 15,
@@ -247,7 +250,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent1'] = {
     "標示為5處可能是內上深頸部淋巴結（medial upper deep cervical lymph nodes）",
     "標示為6處可能是外上深頸部淋巴結（lateral upper deep cervical lymph nodes）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_303_11_17.webp"
   },
   {
    "n": 18,

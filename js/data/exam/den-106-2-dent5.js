@@ -446,7 +446,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent5'] = {
     "Kennedy II 級 2 類（Kennedy Class II modification 2）──組織支持（tissue supported）模式",
     "Kennedy II 級 2 類（Kennedy Class II modification 2）──牙齒－組織支持（tooth-tissue supported）模式"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_304_55_31.webp"
   },
   {
    "n": 32,

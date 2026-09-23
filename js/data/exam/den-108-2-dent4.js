@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "C",
     "三者機會均等"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108100_304_44_13.webp"
   },
   {
    "n": 14,
@@ -896,7 +897,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "耳咽管（Eustachian tube）",
     "鼓索神經（chorda tympani nerve）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_304_44_63.webp"
   },
   {
    "n": 64,
@@ -909,7 +911,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "retained root fragment from a prior extraction",
     "zygomatic process of maxilla"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108100_304_44_64.webp"
   },
   {
    "n": 65,
@@ -936,7 +939,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "多發性骨髓瘤（multiple myeloma）",
     "成骨細胞瘤（osteoblastoma）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108100_304_44_66.webp"
   },
   {
    "n": 67,
@@ -949,7 +953,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "鼻竇結石（antroliths）",
     "扁桃腺結石（tonsilloliths）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108100_304_44_67.webp"
   },
   {
    "n": 68,
@@ -978,7 +983,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "鈣化淋巴結（calcified lymph nodes）",
     "鈣化粉瘤斑（calcified atheromatous plaque）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_304_44_69.webp"
   },
   {
    "n": 70,
@@ -1005,7 +1011,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "顱顏面成骨不全症（Crouzon syndrome）",
     "阿部萊特氏症候群（Albright's syndrome）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1032,7 +1039,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "牙本質發育不良第一型（dentin dysplasia type I）",
     "牙本質發育不良第二型（dentin dysplasia type II）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_304_44_73.webp"
   },
   {
    "n": 74,
@@ -1087,7 +1095,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "12歲",
     "14歲"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_304_44_77.webp"
   },
   {
    "n": 78,
@@ -1113,7 +1122,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "panoramic radiography",
     "cone beam computed tomography"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_304_44_79.webp"
   },
   {
    "n": 80,
@@ -1126,7 +1136,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent4'] = {
     "腭隆突（palatal tori）",
     "涎石（sialoliths）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108100_304_44_80.webp"
   }
  ]
 };

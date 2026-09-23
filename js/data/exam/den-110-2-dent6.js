@@ -894,7 +894,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent6'] = {
     "陽性預測值為0.67，陰性預測值（negative predictive value）為0.75",
     "敏感度為0. 8，特異度為0.4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_66_63.webp"
   },
   {
    "n": 64,

@@ -949,7 +949,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "Loss of the buccal alveolar crest with associated interproximal bone loss",
     "Loss of the buccal alveolar crest without associated interproximal bone loss"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_304_44_67.webp"
   },
   {
    "n": 68,
@@ -1003,7 +1004,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "羊毛棉花狀影像（cotton-wool appearance）",
     "毛玻璃狀影像（ground-glass appearance）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1058,7 +1060,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "鱗狀細胞癌（squamous cell carcinoma）",
     "纖維性發育不良（fibrous dysplasia）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107100_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1085,7 +1088,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent4'] = {
     "囊腫（cyst）",
     "鱗狀細胞癌（squamous cell carcinoma）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_304_44_77.webp"
   },
   {
    "n": 78,

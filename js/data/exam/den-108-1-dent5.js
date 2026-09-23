@@ -852,7 +852,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent5'] = {
     "閉合牙托印模（closed tray impression）",
     "⼀體型印模（one-piece impression）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108030_304_55_60.webp"
   },
   {
    "n": 61,

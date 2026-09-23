@@ -615,7 +615,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "是下顎骨horizontally unfavorable fracture",
     "是下顎骨vertically unfavorable fracture"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_304_44_43.webp"
   },
   {
    "n": 44,
@@ -922,7 +923,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "頦孔（mental foramen）",
     "頦窩（mental fossa）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_304_44_65.webp"
   },
   {
    "n": 66,
@@ -977,7 +979,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "3",
     "4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112020_304_44_69.webp"
   },
   {
    "n": 70,
@@ -1060,7 +1063,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "牙本質形成不良（dentinogenesis imperfecta）",
     "局部牙齒發育不良（regional odontodysplasia）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112020_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1073,7 +1077,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "panoramic radiography",
     "posterior-anterior skull radiography"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_304_44_76.webp"
   },
   {
    "n": 77,
@@ -1086,7 +1091,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "left mandible",
     "right mandible"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112020_304_44_77.webp"
   },
   {
    "n": 78,
@@ -1099,7 +1105,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent4'] = {
     "根尖囊腫（radicular cyst）",
     "含牙囊腫（dentigerous cyst）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_304_44_78.webp"
   },
   {
    "n": 79,

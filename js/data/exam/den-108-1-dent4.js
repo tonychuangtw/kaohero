@@ -923,7 +923,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "⼝腔氣道（oral airway）",
     "咽帆（velopharynx）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_304_44_65.webp"
   },
   {
    "n": 66,
@@ -936,7 +937,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "造釉細胞纖維齒瘤（ameloblastic fibro-odontoma）",
     "齒源性纖維瘤（odontogenic fibroma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_304_44_66.webp"
   },
   {
    "n": 67,
@@ -949,7 +951,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "牙結⽯（dental calculus）",
     "牙釉質（enamel）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108030_304_44_67.webp"
   },
   {
    "n": 68,
@@ -1018,7 +1021,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "慢性涎腺炎（chronic sialadenitis）",
     "蝦蟆腫（ranula）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_304_44_72.webp"
   },
   {
    "n": 73,
@@ -1045,7 +1049,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "中⼼型骨化纖維瘤（central ossifying fibroma）",
     "慢性骨髓炎（chronic osteomyelitis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108030_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1058,7 +1063,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "單純性骨囊腫（simple bone cyst）",
     "甲狀腺舌管囊腫（thyroglossal duct cyst）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108030_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1099,7 +1105,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent4'] = {
     "panoramic radiography",
     "cone beam computed tomography"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108030_304_44_78.webp"
   },
   {
    "n": 79,

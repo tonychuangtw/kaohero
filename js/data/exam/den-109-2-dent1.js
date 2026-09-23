@@ -661,7 +661,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent1'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109100_303_11_46.webp"
   },
   {
    "n": 47,
@@ -828,7 +829,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent1'] = {
     "多核巨細胞（multinucleated giant cells）",
     "馬拉塞氏上皮殘留體（epithelial cell rests of Malassez）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109100_303_11_58.webp"
   },
   {
    "n": 59,

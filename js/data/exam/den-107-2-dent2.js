@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent2'] = {
     "若兩圖中固體皆為蠟，液體表面張力（surface tension）：a大於b",
     "若兩圖中固體皆為蠟，液體內聚力（cohesive force）：b大於a"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107100_303_22_30.webp"
   },
   {
    "n": 31,

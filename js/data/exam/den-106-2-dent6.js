@@ -600,7 +600,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent6'] = {
     "2歲以後3歲以前",
     "3歲以後4歲以前"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106100_304_66_42.webp"
   },
   {
    "n": 43,
@@ -935,7 +936,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent6'] = {
     "未萌發齒（unerupted tooth）",
     "不予記錄（not recorded）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106100_304_66_66.webp"
   },
   {
    "n": 67,

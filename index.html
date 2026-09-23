@@ -160,7 +160,7 @@ if(o.lang==='en')r.setAttribute('lang','en');}catch(e){}})(document.documentElem
      單層的話請求會搶在首次繪製前發出，Lighthouse 就把 LCP 算成依賴這些腳本（實測 8 次中 4 次 LCP 4 s）。
      兩層 rAF 仍會偶發搶先（首格可能沒有「內容繪製」），所以支援 PerformanceObserver 的瀏覽器改成
      「收到 first-contentful-paint 才載」，不支援的才退回兩層 rAF；背景分頁不繪製，另有 1.5 秒保底。 -->
-<script>(function(){var L=['js/config.js?v=20260911b','js/i18n.js?v=20260921f','js/data/exams.js?v=20260912a','js/versions.js?v=20260922a','js/dialog.js?v=20260911a','js/report.js?v=20260908t','js/admin.js?v=20260908t','js/pay.js?v=20260922c','js/diagnose.js?v=20260921f','js/export.js?v=20260921f','js/motion.js?v=20260922c','js/app.js?v=20260922h','js/sync.js?v=20260921a'],done=0;
+<script>(function(){var L=['js/config.js?v=20260911b','js/i18n.js?v=20260921f','js/data/exams.js?v=20260912a','js/versions.js?v=20260922a','js/dialog.js?v=20260911a','js/report.js?v=20260908t','js/admin.js?v=20260908t','js/pay.js?v=20260922c','js/diagnose.js?v=20260923a','js/rank.js?v=20260923a','js/export.js?v=20260921f','js/motion.js?v=20260922c','js/app.js?v=20260923a','js/sync.js?v=20260921a'],done=0;
 function go(){if(done++)return;L.forEach(function(s){var e=document.createElement('script');e.src=s;e.async=false;document.body.appendChild(e);});}
 var po=0;try{new PerformanceObserver(function(l,o){if(l.getEntriesByName('first-contentful-paint').length){o.disconnect();setTimeout(go,0);}}).observe({type:'paint',buffered:true});po=1;}catch(e){}
 if(!po&&window.requestAnimationFrame)requestAnimationFrame(function(){requestAnimationFrame(function(){setTimeout(go,0);});});setTimeout(go,1500);})();</script>

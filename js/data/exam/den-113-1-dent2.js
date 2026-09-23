@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "第一型牙本質發育不良（dentin dysplasia type Ⅰ）",
     "第二型牙本質發育不良（dentin dysplasia type Ⅱ）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_303_22_1.webp"
   },
   {
    "n": 2,
@@ -125,7 +126,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent2'] = {
     "多形性腺瘤（pleomorphic adenoma）",
     "血管性水腫（angioedema）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113020_303_22_8.webp"
   },
   {
    "n": 9,

@@ -906,7 +906,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "C：nasal bone",
     "D：hyoid bone"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_302_44_64.webp"
   },
   {
    "n": 65,
@@ -933,7 +934,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "鼻淚管（nasolacrimal canal）",
     "上顎竇緣（border of maxillary sinus）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104020_302_44_66.webp"
   },
   {
    "n": 67,
@@ -960,7 +962,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "Concrescence of root",
     "Fracture of root"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_302_44_68.webp"
   },
   {
    "n": 69,

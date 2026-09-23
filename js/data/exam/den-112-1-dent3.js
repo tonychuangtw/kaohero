@@ -460,7 +460,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "上圖為 type I，下圖為 type III",
     "上圖為 type III，下圖為 type I"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_304_33_32.webp"
   },
   {
    "n": 33,
@@ -683,7 +684,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "60-65 度",
     "75-80 度"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_304_33_48.webp"
   },
   {
    "n": 49,
@@ -838,7 +840,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "Code 3",
     "Code 4"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112020_304_33_59.webp"
   },
   {
    "n": 60,
@@ -879,7 +882,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "建立期病灶",
     "晚期病灶"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_304_33_62.webp"
   },
   {
    "n": 63,

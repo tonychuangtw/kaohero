@@ -924,7 +924,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "磁共振造影（magnetic resonance imaging）",
     "超音波掃描（ultrasongraphy）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109100_304_44_65.webp"
   },
   {
    "n": 66,
@@ -1069,7 +1070,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "牙本質發育不良第二型（dentin dysplasia type II）",
     "牙中牙（dens in dente）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1124,7 +1126,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "根尖囊腫（radicular cyst）",
     "殘餘囊腫（residual cyst）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_304_44_79.webp"
   },
   {
    "n": 80,
@@ -1137,7 +1140,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent4'] = {
     "單純性骨囊腫（simple bone cyst）",
     "史塔尼凹陷（Stafne defect）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109100_304_44_80.webp"
   }
  ]
 };

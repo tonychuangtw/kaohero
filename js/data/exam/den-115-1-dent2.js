@@ -53,7 +53,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "Neisseria gonorrhoeae",
     "Mycobacterium tuberculosis"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_303_0202_3.webp"
   },
   {
    "n": 4,
@@ -304,7 +305,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "鈣化上皮齒源瘤（calcifying epithelial odontogenic tumor）",
     "齒質性鬼細胞瘤（dentinogenic ghost cell tumor）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_303_0202_21.webp"
   },
   {
    "n": 22,
@@ -317,7 +319,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115020_303_0202_22.webp"
   },
   {
    "n": 23,
@@ -539,7 +542,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "d-e",
     "e-f"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_303_0202_38.webp"
   },
   {
    "n": 39,

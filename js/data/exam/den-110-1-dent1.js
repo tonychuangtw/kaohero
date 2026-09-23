@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent1'] = {
     "標示3為Stensen's duct",
     "標示4為咬肌"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110020_303_11_4.webp"
   },
   {
    "n": 5,
@@ -151,7 +152,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent1'] = {
     "篩骨嵴（ethmoid crest）、鼻甲嵴（conchal crest）、淚溝（lacrimal groove）",
     "鼻甲嵴（conchal crest）、淚溝（lacrimal groove）、篩骨嵴（ethmoid crest）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110020_303_11_10.webp"
   },
   {
    "n": 11,
@@ -429,7 +431,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent1'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_303_11_30.webp"
   },
   {
    "n": 31,

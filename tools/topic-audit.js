@@ -35,6 +35,8 @@ const topicOf = w.KHDiag.topicOf;
 // 站上是「一份卷一份卷」決定主題粗細（法規題會依卷況在法規名稱／條號之間切換），
 // 量測也要照同一條路走，否則把好幾卷混在一起算會失真。
 const topicsFor = w.KHDiag.topicsFor;
+const topicKeys = w.KHDiag.topicKeys;
+const chapterKey = w.KHDiag.chapterKey;
 
 global.window = {};
 require(path.join(ROOT, 'js/data/exams.js'));
@@ -88,12 +90,31 @@ for (const sid of subjects) {
   // 補弱題單模擬：拿第一卷當模考，弱主題取前 5 個，看其餘卷抽得到幾題
   let hit = 0;
   if (papers.length > 1) {
-    const weak = [...new Set(topicsFor(papers[0].p.qs).filter(Boolean))].slice(0, 5).map(norm)
-      .filter((k) => k.length >= 2);
+    // 跟站上的 buildDrill 同一套規則：整串對不到的主題改用「頭幾個字」再找一次
+    // （2026-09-23 出處解析改善後主題變細，不加這一段會低估可抽題數）
+    const list0 = topicsFor(papers[0].p.qs);
+    const srcByTopic = {};
+    papers[0].p.qs.forEach((q, k) => { if (list0[k] && !srcByTopic[list0[k]]) srcByTopic[list0[k]] = srcOf(q); });
+    const raw = [...new Set(list0.filter(Boolean))].slice(0, 5);
+    const weak = raw.map((t) => {
+      const alt = topicKeys(t);
+      const ck = chapterKey(srcByTopic[t]);
+      if (ck && !alt.includes(ck)) alt.push(ck);
+      return { key: norm(t), alt, hit: 0 };
+    })
+      .filter((k) => k.key.length >= 2);
     papers.slice(1).forEach(({ p }) => p.qs.forEach((q) => {
       const src = norm(srcOf(q));
-      if (src && weak.some((k) => src.indexOf(k) >= 0)) hit++;
+      if (!src) return;
+      const w = weak.find((k) => src.indexOf(k.key) >= 0);
+      if (w) { w.hit++; hit++; }
     }));
+    weak.filter((k) => k.hit < 4 && k.alt.length).forEach((k) => {
+      papers.slice(1).forEach(({ p }) => p.qs.forEach((q) => {
+        const src = norm(srcOf(q));
+        if (src && k.alt.some((a) => src.indexOf(a) >= 0)) hit++;
+      }));
+    });
   }
 
   rows.push({

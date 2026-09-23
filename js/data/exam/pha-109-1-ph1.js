@@ -589,7 +589,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "c",
     "d"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_305_11_41.webp"
   },
   {
    "n": 42,
@@ -828,7 +829,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "(3)",
     "(4)"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_305_11_58.webp"
   },
   {
    "n": 59,
@@ -939,7 +941,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "glucuronide代謝物",
     "環化代謝物"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_305_11_66.webp"
   },
   {
    "n": 67,
@@ -952,7 +955,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "acetylation",
     "sulfation"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_305_11_67.webp"
   },
   {
    "n": 68,

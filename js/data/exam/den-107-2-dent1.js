@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent1'] = {
     "標示3為眶下神經及血管（infraorbital nerve and vessel）通過之處",
     "標示4為上顎副鼻竇（maxillary paranasal sinus）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107100_303_11_4.webp"
   },
   {
    "n": 5,
@@ -473,7 +474,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent1'] = {
     "分開閉合（disocclusion）",
     "咬合干擾（occlusal interference）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_303_11_33.webp"
   },
   {
    "n": 34,
@@ -598,7 +600,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent1'] = {
     "左側後牙咬合為頰側錯咬（buccal crossbite）",
     "左側犬齒錯咬（crossbite）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_303_11_42.webp"
   },
   {
    "n": 43,
@@ -639,7 +642,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent1'] = {
     "3",
     "4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_303_11_45.webp"
   },
   {
    "n": 46,

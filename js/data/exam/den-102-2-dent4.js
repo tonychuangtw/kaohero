@@ -754,7 +754,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent4'] = {
     "剜出術（enucleation）",
     "下顎隆凸去除手術（torus removal）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102100_302_44_53.webp"
   },
   {
    "n": 54,
@@ -934,7 +935,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent4'] = {
     "Mental ridge",
     "Mandibular symphysis"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102100_302_44_66.webp"
   },
   {
    "n": 67,
@@ -1115,7 +1117,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent4'] = {
     "Submentovertex projection",
     "Anteroposterior projection"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102100_302_44_79.webp"
   },
   {
    "n": 80,

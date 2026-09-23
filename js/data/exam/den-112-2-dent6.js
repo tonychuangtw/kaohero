@@ -179,7 +179,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent6'] = {
     "側滾角不對稱（roll asymmetry）",
     "俯仰角不對稱（pitch asymmetry）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112100_304_66_12.webp"
   },
   {
    "n": 13,
@@ -892,7 +893,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent6'] = {
     "①③",
     "②③"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_304_66_63.webp"
   },
   {
    "n": 64,

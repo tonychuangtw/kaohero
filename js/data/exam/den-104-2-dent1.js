@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent1'] = {
     "2為腭骨（palatine bone）與上顎骨所形成之骨縫",
     "3管道中含有前腭神經及血管（anterior palatine nerve and vessels）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_303_11_4.webp"
   },
   {
    "n": 5,
@@ -178,7 +179,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent1'] = {
     "標示3處",
     "標示4處"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104090_303_11_12.webp"
   },
   {
    "n": 13,
@@ -484,7 +486,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent1'] = {
     "分開閉合（disocclusion）",
     "犬齒保護咬合（canine protected articulation）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_303_11_34.webp"
   },
   {
    "n": 35,
@@ -497,7 +500,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent1'] = {
     "水平覆蓋（overjet）",
     "前牙錯咬（crossbite）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_303_11_35.webp"
   },
   {
    "n": 36,
@@ -846,7 +850,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent1'] = {
     "黏膜下層（submucosa）",
     "基底膜（basement membrane）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_303_11_60.webp"
   },
   {
    "n": 61,

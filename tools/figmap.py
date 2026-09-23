@@ -62,7 +62,7 @@ def map_civil(work, spec_name):
                 pr = C.primary(trs, lvl)
                 if pr: name = '%s（%s組）' % (name, pr)
         key = C.key_of(reg, lvl, name)
-        out['%s-%d-1-%s' % (C.SPEC['prefix'], roc, key)] = '%s_%s_%s' % (code, c, s)
+        out.setdefault('%s-%d-1-%s' % (C.SPEC['prefix'], roc, key), []).append('%s_%s_%s' % (code, c, s))
     return out
 
 
@@ -85,7 +85,10 @@ def map_bank(work, spec_name):
                 m = re.search(spec['pat'], sn)
                 if not m: continue
                 key = spec['key'](m)
-            out['%s-%d-%d-%s' % (spec['prefix'], roc, nth, key)] = '%s_%s_%s' % (code, c, s)
+            pid = '%s-%d-%d-%s' % (spec['prefix'], roc, nth, key)
+            # 同一科可能掛在兩個類科代碼底下（藥師的 305／307），兩邊都是合法候選，
+            # 真正被收進題庫的是哪一份由 build() 的 pick() 決定（2026-09-23）
+            out.setdefault(pid, []).append('%s_%s_%s' % (code, c, s))
     return out
 
 
@@ -93,8 +96,39 @@ def map_bank(work, spec_name):
 # figfill.py 對這種卷改用「同一卷既有 fig 檔名的前綴」來補，推不出來就跳過。
 
 
+def repo_figs():
+    """題庫裡每一卷「已經有的圖檔前綴」與題數，用來從多個候選裡挑出當初真的收進來的那一份。"""
+    import subprocess
+    js = subprocess.run(['node', '-e', """
+global.window={};const fs=require('fs');const out={};
+for(const f of fs.readdirSync('js/data/exam')){const pid=f.replace('.js','');
+ require('./js/data/exam/'+f);const p=window.APP_EXAM_PAPERS[pid];if(!p)continue;
+ const q=p.qs.find(q=>q.fig&&/^img\\/q\\/\\d/.test(q.fig));
+ out[pid]=[q?q.fig.split('/').pop().split('_').slice(0,3).join('_'):null,p.qs.length];}
+process.stdout.write(JSON.stringify(out));"""], cwd=ROOT, capture_output=True)
+    return json.loads(js.stdout.decode() or '{}')
+
+
+def pick(pid, stems, work, info):
+    """多個候選時：① 跟題庫既有圖檔對得上的優先 ② 答案張數＝本卷題數的優先 ③ 都不行就第一個。"""
+    if len(stems) == 1: return stems[0]
+    have = info.get(pid) or [None, 0]
+    for st in stems:
+        if have[0] and st == have[0]: return st
+    if have[1]:
+        import parse as P
+        for st in stems:
+            ap = os.path.join(work, 'pdf', st + '_a.pdf')
+            try:
+                if os.path.exists(ap) and len(P.parse_answers(ap)) == have[1]: return st
+            except Exception:
+                pass
+    return stems[0]
+
+
 def build():
     m = {}
+    info = repo_figs()
     for prefix, d, kind, spec in SOURCES:
         work = os.path.join(PDFS, d)
         if not os.path.isdir(os.path.join(work, 'pdf')):
@@ -108,9 +142,9 @@ def build():
             print('略過 %-4s：%s' % (prefix, ex)); got = {}
         finally:
             os.chdir(cwd)
-        for pid, stem in got.items():
-            if os.path.exists(os.path.join(work, 'pdf', stem + '_q.pdf')):
-                m[pid] = [work, stem]
+        for pid, stems in got.items():
+            stems = [st for st in stems if os.path.exists(os.path.join(work, 'pdf', st + '_q.pdf'))]
+            if stems: m[pid] = [work, pick(pid, stems, work, info)]
         print('%-4s %5d 卷' % (prefix, len([1 for p in got if p in m])))
     return m
 

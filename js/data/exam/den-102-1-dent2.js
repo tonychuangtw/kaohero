@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "Cementoblastoma and dilaceration",
     "Cementoblastoma and ankylosis"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_301_22_1.webp"
   },
   {
    "n": 2,
@@ -151,7 +152,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "分化不良（poorly-differentiated）",
     "無法判斷"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102020_301_22_10.webp"
   },
   {
    "n": 11,
@@ -346,7 +348,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "骨內巨細胞肉芽腫（central giant cell granuloma）",
     "外傷性骨囊腫（traumatic bone cyst）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102020_301_22_24.webp"
   },
   {
    "n": 25,
@@ -583,7 +586,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "偶合劑（coupling agent）",
     "起始劑－加速劑（initiator-accelerator）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_301_22_41.webp"
   },
   {
    "n": 42,

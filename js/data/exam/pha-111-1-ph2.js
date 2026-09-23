@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph2'] = {
     "丁酮",
     "丙烯"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111020_305_22_13.webp"
   },
   {
    "n": 14,
@@ -207,7 +208,8 @@ window.APP_EXAM_PAPERS['pha-111-1-ph2'] = {
     "質子B2與C的偶合常數為10 Hz",
     "質子B1、B2與C的偶合屬於AMX系統"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111020_305_22_14.webp"
   },
   {
    "n": 15,

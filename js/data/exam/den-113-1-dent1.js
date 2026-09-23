@@ -320,7 +320,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent1'] = {
     "咬肌神經",
     "鼓索神經"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113020_303_11_22.webp"
   },
   {
    "n": 23,
@@ -376,7 +377,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent1'] = {
     "通用命名法（Universal numbering system）K",
     "國際牙科聯盟命名法（FDI numbering system）74"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113020_303_11_26.webp"
   },
   {
    "n": 27,
@@ -823,7 +825,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent1'] = {
     "外牙釉質上皮（outer enamel epithelium）",
     "牙板（dental lamina）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113020_303_11_58.webp"
   },
   {
    "n": 59,
@@ -934,7 +937,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent1'] = {
     "牙板（dental lamina）之殘餘細胞",
     "齒濾泡（dental follicle）之殘餘細胞"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_303_11_66.webp"
   },
   {
    "n": 67,

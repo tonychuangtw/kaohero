@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent6'] = {
     "54",
     "57"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102100_302_66_6.webp"
   },
   {
    "n": 7,

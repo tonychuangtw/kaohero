@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "C",
     "三位病患之風險相同"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_304_44_14.webp"
   },
   {
    "n": 15,
@@ -902,7 +903,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "X光片彎曲",
     "病人移動"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_304_44_63.webp"
   },
   {
    "n": 64,
@@ -915,7 +917,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Posterior-anterior view",
     "Anterior-posterior view"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_304_44_64.webp"
   },
   {
    "n": 65,
@@ -928,7 +931,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "neurovascular canal",
     "suture"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_304_44_65.webp"
   },
   {
    "n": 66,
@@ -941,7 +945,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Anterior floor of the nasal aperture",
     "Incisive foramen"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_304_44_66.webp"
   },
   {
    "n": 67,
@@ -968,7 +973,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Fibrous dysplasia",
     "Ameloblastoma"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_304_44_68.webp"
   },
   {
    "n": 69,
@@ -981,7 +987,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Peg lateral",
     "Talon cusp"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_304_44_69.webp"
   },
   {
    "n": 70,
@@ -994,7 +1001,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Dentin dysplasia",
     "Odontogenesis imperfecta"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_304_44_70.webp"
   },
   {
    "n": 71,
@@ -1021,7 +1029,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "淋巴結鈣化",
     "靜脈結石"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_304_44_72.webp"
   },
   {
    "n": 73,
@@ -1048,7 +1057,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "computed tomography",
     "PET whole body scan"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1117,7 +1127,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Body of mandible",
     "Ramus of the mandible"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_304_44_79.webp"
   },
   {
    "n": 80,

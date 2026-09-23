@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "酒皶鼻",
     "鼻窒"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103030_104_0205_4.webp"
   },
   {
    "n": 5,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "左骶髂關節（left sacroiliac joint）",
     "右骶髂關節（right sacroiliac joint）頁次：8－3"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103030_104_0205_25.webp"
   },
   {
    "n": 26,
@@ -388,7 +390,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103030_104_0205_27.webp"
   },
   {
    "n": 28,
@@ -471,7 +474,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "②③",
     "③④頁次：8－4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103030_104_0205_33.webp"
   },
   {
    "n": 34,
@@ -512,7 +516,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "十字韌帶（cruciate ligament）",
     "側副韌帶（collateral ligament）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103030_104_0205_36.webp"
   },
   {
    "n": 37,
@@ -609,7 +614,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "類風濕性關節炎",
     "創傷性關節炎"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103030_104_0205_43.webp"
   },
   {
    "n": 44,
@@ -678,7 +684,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "②④⑤",
     "③④⑤頁次：8－6"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103030_104_0205_48.webp"
   },
   {
    "n": 49,
@@ -691,7 +698,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "丙",
     "丁"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103030_104_0205_49.webp"
   },
   {
    "n": 50,
@@ -760,7 +768,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "成角畸形",
     "螺旋骨折"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103030_104_0205_54.webp"
   },
   {
    "n": 55,
@@ -843,7 +852,8 @@ window.APP_EXAM_PAPERS['tcm-103-1-cmc3'] = {
     "骰子骨",
     "顴骨"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103030_104_0205_60.webp"
   },
   {
    "n": 61,

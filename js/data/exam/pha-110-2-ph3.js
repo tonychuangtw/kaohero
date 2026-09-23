@@ -745,7 +745,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph3'] = {
     "k，ka，",
     "ke，k，"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110101_305_55_52.webp"
   },
   {
    "n": 53,
@@ -816,7 +817,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph3'] = {
     "26.6",
     "30.0"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110101_305_55_57.webp"
   },
   {
    "n": 58,
@@ -843,7 +845,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph3'] = {
     "僅①③",
     "僅②③"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110101_305_55_59.webp"
   },
   {
    "n": 60,

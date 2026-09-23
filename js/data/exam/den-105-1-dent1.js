@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "標示3處",
     "標示4處"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_303_11_4.webp"
   },
   {
    "n": 5,
@@ -503,7 +504,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent1'] = {
     "安格氏第二級第二分類（Angle Class II , division II）",
     "安格氏第一級（Angle Class I）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105020_303_11_35.webp"
   },
   {
    "n": 36,

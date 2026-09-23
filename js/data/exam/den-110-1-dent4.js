@@ -236,7 +236,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "鱗狀細胞癌（squamous cell carcinoma）",
     "化膿性肉芽腫（pyogenic granuloma）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_304_44_16.webp"
   },
   {
    "n": 17,
@@ -1018,7 +1019,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "牙根外吸收（external root resorption）",
     "牙骨質撕裂（cemental tear）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110020_304_44_72.webp"
   },
   {
    "n": 73,
@@ -1087,7 +1089,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "右下顎第三大臼齒被移位",
     "病灶區的internal oblique ridge及下顎骨板（cortical border）變薄且上下擴張"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_304_44_77.webp"
   },
   {
    "n": 78,
@@ -1114,7 +1117,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent4'] = {
     "panoramic radiography",
     "computed tomography"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_304_44_79.webp"
   },
   {
    "n": 80,

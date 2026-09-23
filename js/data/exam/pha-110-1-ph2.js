@@ -477,7 +477,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph2'] = {
     "betamethasone 17-valerate",
     "betamethasone 17,21-dipropionate"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_305_22_33.webp"
   },
   {
    "n": 34,

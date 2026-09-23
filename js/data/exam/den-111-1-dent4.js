@@ -911,7 +911,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "hamular process",
     "infraorbital canal"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111020_304_44_64.webp"
   },
   {
    "n": 65,
@@ -1067,7 +1068,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "惡性骨肉瘤（osteosarcoma）",
     "蘭格罕氏細胞組織細胞增多症（Langerhans' cell histiocytosis）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1080,7 +1082,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "panoramic radiography",
     "cone beam computed tomography"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111020_304_44_76.webp"
   },
   {
    "n": 77,
@@ -1093,7 +1096,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "right mandible",
     "left mandible"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111020_304_44_77.webp"
   },
   {
    "n": 78,
@@ -1106,7 +1110,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "根尖牙骨質骨質發育不良症（periapical cemento-osseous dysplasia）",
     "外生贅骨（exostoses）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_304_44_78.webp"
   },
   {
    "n": 79,

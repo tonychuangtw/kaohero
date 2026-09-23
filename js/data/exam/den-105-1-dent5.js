@@ -1120,7 +1120,8 @@ window.APP_EXAM_PAPERS['den-105-1-dent5'] = {
     "左側關節盤可復位性移位（disc displacement with reduction）",
     "左側關節盤不可復位性移位（disc displacement without reduction）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105020_304_55_79.webp"
   },
   {
    "n": 80,

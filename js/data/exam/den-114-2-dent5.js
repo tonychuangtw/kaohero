@@ -308,7 +308,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "圖 1 樹脂粉液混和不均勻、圖 2 施加在包埋盒上的壓力不足",
     "圖 1 包埋樹脂量不足、圖 2 施加在包埋盒上的壓力不足"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_304_0305_21.webp"
   },
   {
    "n": 22,
@@ -503,7 +504,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "Skinner class I",
     "Bailyn class I"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_304_0305_35.webp"
   },
   {
    "n": 36,
@@ -1024,7 +1026,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "矯正治療",
     "活動贋復治療"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_304_0305_72.webp"
   },
   {
    "n": 73,

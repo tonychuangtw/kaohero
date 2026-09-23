@@ -236,7 +236,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent5'] = {
     "圖中3的位置與圖中2相比，代表前者義齒基底貼合的很均勻，不需要調整",
     "圖中4的位置代表義齒基底壓迫黏膜較重，需要做調整以緩壓"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112100_304_55_16.webp"
   },
   {
    "n": 17,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent5'] = {
     "多牙牙鈎（multiple clasp）",
     "雙半牙鈎（half-and-half clasp）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_304_55_25.webp"
   },
   {
    "n": 26,

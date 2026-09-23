@@ -362,7 +362,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent3'] = {
     "可逆性牙髓炎（reversible pulpitis）合併無症狀根尖牙周炎（asymptomatic apical periodontitis）",
     "不可逆性牙髓炎（irreversible pulpitis）合併無症狀根尖牙周炎（asymptomatic apical periodontitis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_304_33_25.webp"
   },
   {
    "n": 26,
@@ -682,7 +683,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent3'] = {
     "③",
     "④"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_304_33_48.webp"
   },
   {
    "n": 49,

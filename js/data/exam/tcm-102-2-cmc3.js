@@ -333,7 +333,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc3'] = {
     "髂棘（iliac crest）",
     "坐骨棘（ischial spine）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102110_103_0205_23.webp"
   },
   {
    "n": 24,
@@ -826,7 +827,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc3'] = {
     "外展型骨折",
     "內收型骨折"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102110_103_0205_58.webp"
   },
   {
    "n": 59,
@@ -839,7 +841,8 @@ window.APP_EXAM_PAPERS['tcm-102-2-cmc3'] = {
     "橈偏型",
     "尺偏型"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102110_103_0205_59.webp"
   },
   {
    "n": 60,

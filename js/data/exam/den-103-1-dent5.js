@@ -642,7 +642,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent5'] = {
     "目的為增加牙冠的抵抗力（resistance）",
     "目的為使病人易於清潔牙周"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_302_55_45.webp"
   },
   {
    "n": 46,

@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent1'] = {
     "淚骨",
     "犁骨"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111100_303_11_2.webp"
   },
   {
    "n": 3,
@@ -405,7 +406,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent1'] = {
     "②③",
     "②④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111100_303_11_28.webp"
   },
   {
    "n": 29,

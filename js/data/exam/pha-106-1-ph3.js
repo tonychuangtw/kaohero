@@ -729,7 +729,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph3'] = {
     "36.4",
     "42.0"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_305_33_51.webp"
   },
   {
    "n": 52,
@@ -798,7 +799,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph3'] = {
     "圖I c",
     "圖II d"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_305_33_56.webp"
   },
   {
    "n": 57,

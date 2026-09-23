@@ -576,7 +576,8 @@ window.APP_EXAM_PAPERS['tcm-110-2-cmc3'] = {
     "③",
     "④"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110111_102_0105_40.webp"
   },
   {
    "n": 41,

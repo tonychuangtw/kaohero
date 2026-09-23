@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "標示2稱為關節窩（articular fossae）",
     "標示3稱為關節盂後突（post glenoid process）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108100_303_11_4.webp"
   },
   {
    "n": 5,
@@ -193,7 +194,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "標示13處之血管為顏面動脈（facial artery）",
     "標示19處之血管為上唇動脈（superior labial artery）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108100_303_11_13.webp"
   },
   {
    "n": 14,

@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent5'] = {
     "患者之全口義齒其咬合平面（occlusal plane）過低",
     "患者咀嚼時，上、下義齒間常會出現碰撞的聲音"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_302_55_4.webp"
   },
   {
    "n": 5,
@@ -444,7 +445,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent5'] = {
     "支柱牙需磨出近心或遠心鉤座（rest seat）",
     "固位臂（retentive arm）可用鍛製線（wrought wire）取代"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104020_302_55_31.webp"
   },
   {
    "n": 32,

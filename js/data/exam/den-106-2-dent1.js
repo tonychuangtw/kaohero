@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent1'] = {
     "腭骨（palatine bone）",
     "蝶骨（sphenoid bone）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106100_303_11_3.webp"
   },
   {
    "n": 4,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent1'] = {
     "標示2為篩骨紙板（lamina papyracea of ethmoid bone）",
     "標示3為鉤狀突（uncinate process）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106100_303_11_4.webp"
   },
   {
    "n": 5,
@@ -166,7 +168,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent1'] = {
     "標示3處為buccal fat pad",
     "標示4處為sublingual gland"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_303_11_11.webp"
   },
   {
    "n": 12,
@@ -668,7 +671,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent1'] = {
     "牙髓（dental pulp）",
     "造牙本質細胞（odontoblast）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106100_303_11_47.webp"
   },
   {
    "n": 48,
@@ -681,7 +685,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent1'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106100_303_11_48.webp"
   },
   {
    "n": 49,

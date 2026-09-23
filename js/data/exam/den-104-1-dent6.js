@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent6'] = {
     "位置3",
     "位置4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104020_302_66_11.webp"
   },
   {
    "n": 12,
@@ -179,7 +180,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent6'] = {
     "大臼齒接受了5000 gm-mm力矩（moment）",
     "大臼齒不會移動"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_302_66_12.webp"
   },
   {
    "n": 13,
@@ -262,7 +264,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent6'] = {
     "安格氏ClassⅡ division 2 咬合異常",
     "安格氏ClassⅠ咬合異常"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104020_302_66_18.webp"
   },
   {
    "n": 19,
@@ -835,7 +838,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent6'] = {
     "腦性麻痺（cerebral palsy）",
     "威廉氏症候群（Williams syndrome）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_302_66_59.webp"
   },
   {
    "n": 60,

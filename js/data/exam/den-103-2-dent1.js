@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent1'] = {
     "第一大臼齒",
     "第三大臼齒"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_301_11_11.webp"
   },
   {
    "n": 12,
@@ -817,7 +818,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent1'] = {
     "牙骨質結石（cementicle）",
     "無細胞無纖維牙骨質（acellular afibrillar cementum）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103090_301_11_57.webp"
   },
   {
    "n": 58,

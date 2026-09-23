@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "標示③處",
     "標示④處"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_303_0201_2.webp"
   },
   {
    "n": 3,
@@ -305,7 +306,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "標示③為淺層的頸部淋巴結（superficial cervical node）",
     "標示④為枕小神經（lesser occipital nerve）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_303_0201_21.webp"
   },
   {
    "n": 22,
@@ -655,7 +657,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "牙骨質（cementum）",
     "齒槽骨（alveolar bone）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_303_0201_46.webp"
   },
   {
    "n": 47,

@@ -656,7 +656,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent3'] = {
     "混合型（admixed）",
     "單⼀組成 （unicompositional alloys）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_304_33_46.webp"
   },
   {
    "n": 47,

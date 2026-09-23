@@ -362,7 +362,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "positive ion chemical ionization",
     "negative ion chemical ionization"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_305_22_25.webp"
   },
   {
    "n": 26,

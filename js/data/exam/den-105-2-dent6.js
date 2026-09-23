@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent6'] = {
     "半邊小臉症（hemifacial microsomia）",
     "Treacher Collins症候群"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_304_66_6.webp"
   },
   {
    "n": 7,
@@ -235,7 +236,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent6'] = {
     "平面C",
     "平面D"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_304_66_16.webp"
   },
   {
    "n": 17,
@@ -303,7 +305,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent6'] = {
     "下壓內縮（intrusion）",
     "前突（protraction）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_304_66_21.webp"
   },
   {
    "n": 22,

@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent1'] = {
     "標示4處為舌下靜脈（sublingual vein）",
     "標示5處為頦下動脈（submental artery）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107020_303_11_14.webp"
   },
   {
    "n": 15,
@@ -712,7 +713,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent1'] = {
     "魏克罕氏紋（striae of Wickham）",
     "方艾勃納氏增生線（incremental lines of von Ebner）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_303_11_50.webp"
   },
   {
    "n": 51,

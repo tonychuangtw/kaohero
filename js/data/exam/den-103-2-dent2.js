@@ -530,7 +530,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent2'] = {
     "d-e段",
     "e-f段"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_301_22_37.webp"
   },
   {
    "n": 38,

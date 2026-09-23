@@ -575,7 +575,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "鼻咽部",
     "咽喉部"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_302_44_40.webp"
   },
   {
    "n": 41,
@@ -924,7 +925,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Dens evaginatus",
     "Concussion of teeth"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_302_44_65.webp"
   },
   {
    "n": 66,
@@ -1091,7 +1093,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "Submental vertex view",
     "Modified Town's view"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_302_44_77.webp"
   },
   {
    "n": 78,
@@ -1104,7 +1107,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "淋巴結鈣化",
     "靜脈結石"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_302_44_78.webp"
   },
   {
    "n": 79,
@@ -1117,7 +1121,8 @@ window.APP_EXAM_PAPERS['den-103-1-dent4'] = {
     "同位素骨掃瞄（radioisotope bone scan）",
     "超音波掃瞄（ultrasongraphy）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_302_44_79.webp"
   },
   {
    "n": 80,

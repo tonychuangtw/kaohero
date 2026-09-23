@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['tcm-113-2-cmc4'] = {
     "腎經",
     "肝經"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113070_318_44_4.webp"
   },
   {
    "n": 5,

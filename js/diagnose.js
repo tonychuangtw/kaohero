@@ -26,6 +26,7 @@
   var WEAK_TOPICS = 5;     // 補弱題單依幾個弱主題抽題
   var DRILL_N = 20;        // 補弱題單題數
   var EXTRA_PAPERS = 5;    // 題目不夠時最多再多載幾份考卷
+  var MIN_PER_TOPIC = 4;   // 每個弱主題至少要湊到幾題，不夠就用關鍵詞／章名再找一輪
 
   /* 從詳解的出處行歸出主題。歸不出來就回 null（那題不進診斷表）。
      fine=true 時不把法規題聚合到法規名稱（保留條號），給「整份卷都是同一部法」的科目用。 */
@@ -35,7 +36,14 @@
       if (!line && l.indexOf('📚') === 0) line = l;
     });
     if (!line) return null;
-    var t = line.replace(/^📚\s*/, '').replace(/^出處[：:]\s*/, '');
+    var raw = line.replace(/^📚\s*/, '').replace(/^出處[：:]\s*/, '');
+    var t = raw;
+    // 章節標記後面「直接接括號」時，括號裡就是章名，不是舉例：
+    //   「Guyton…, 14th ed., Ch.64（Swallowing）」「第 11 章（腦神經核）」
+    // 這要在下面那行把括號剝掉之前先攔，否則章名會連同括號一起被丟掉，整句只剩書名版次
+    // → 被當成「只有書名」而歸不出主題（2026-09-23 抽查牙醫與解剖生理，7,344 題有 527 題是這樣）。
+    var chp = raw.match(/(?:\b(?:ch|chap|chapter)\.?\s*[\d–—-]+|第\s*[\d–—-]+\s*章)\s*[（(]([^）)]+)[）)]/i);
+    if (chp) return clip(chp[1].split(/[；;，,]/)[0].trim());
     // 先把括號內容拿掉：那是舉例（「成語辨正（嘆為觀止、斷章取義）」），不是主題本身。
     // 一定要在找「章」之前拿掉，否則「斷章取義）」裡的那個章會被當成章節標記（2026-09-21 踩過）。
     t = t.replace(/（[^）]*）/g, '').replace(/\([^)]*\)/g, '');
@@ -68,7 +76,30 @@
     // 只剩教科書出處（「第 8 版」「Moore《…》」）的話就不當主題：那是「書」不是「考點」，
     // 拿它當主題只會在診斷表上看到一排書名。國文那種《易經·乾卦》九五爻辭則是真的考點，留著。
     if (/第\s*\d+\s*版/.test(t) || /\b\d+\s*(?:st|nd|rd|th)\s*ed\b/i.test(t)
-        || /^[A-Za-z][A-Za-z.&'\s-]*《/.test(t)) return null;
+        || /^[A-Za-z][A-Za-z.&'\s-]*《/.test(t)) return bookTail(raw);
+    return clip(t);
+  }
+
+  /* 出處只剩書名版次時的救援：醫科詳解的寫法其實把考點寫在書名「後面」或「括號裡」，
+     整行丟掉等於把 4,000 多題的考點一起丟掉（2026-09-23 抽查 8 個「差」的科目，
+     7,344 題歸不出主題裡有 6,800 多題其實寫了考點）：
+       「Moore《Clinically Oriented Anatomy》腰神經叢；Netter 圖譜…」        → 》後面那段
+       「Wheeler's …, 11th ed.（The primary dentition：maxillary canine）」→ 句尾括號裡那段
+     只看第一個分號前的那一段：後面的是補充書目，不是這一題的考點。 */
+  function bookTail(raw) {
+    var seg = String(raw).split(/[；;]/)[0];
+    var m = seg.match(/》\s*([^；;。]{2,})/);
+    if (!m) m = seg.match(/[（(]([^）)]{2,})[）)]\s*[。.]?\s*$/);
+    if (!m) return null;
+    var s = m[1].split(/[—－–：:／/]/)[0].replace(/[。，,、：:；;]+$/, '').trim();
+    // 剝完還是書名版次（「8th ed.」「第 8 版」）就真的沒有考點可歸
+    if (/第\s*\d+\s*版/.test(s) || /\b\d+\s*(?:st|nd|rd|th)\s*ed\b/i.test(s)) return null;
+    return clip(s);
+  }
+
+  /* 主題太長就截斷（診斷表一行放不下），截到最後一個空白避免把英文字切一半。 */
+  function clip(t) {
+    t = String(t || '').replace(/[。，,、：:；;]+$/, '').trim();
     if (t.length > 24) {
       var cut = t.slice(0, 24);
       var sp = cut.lastIndexOf(' ');
@@ -99,7 +130,7 @@
     qs.forEach(function (q, k) {
       var t = list[k];
       if (!t) return;
-      var b = map[t] || (map[t] = { topic: t, n: 0, bad: 0 });
+      var b = map[t] || (map[t] = { topic: t, n: 0, bad: 0, src: srcOf(q) });
       b.n++;
       if (ans[k] == null || !isRight(q, ans[k])) b.bad++;
     });
@@ -138,6 +169,47 @@
     return String(s || '').toLowerCase().replace(/[\s·．.,，、;；:：'"“”「」『』（）()《》〈〉—－–…]/g, '');
   }
 
+  /* 主題的「關鍵詞」：整串對不到時的退路。
+     醫科的考點常被寫成一整句（「Dentin–pulp complex：pulp 的神經分布」），
+     同一個考點換一年就換一種寫法，整串比對幾乎抽不到題
+     （2026-09-23 出處解析改善後主題變細，牙醫類可抽題數從 155 掉到 10）。
+     改成拆出關鍵詞：英文取 4 個字母以上的單字、中文取 2 字以上的連續片段，
+     任何一個出現在那題的出處行裡就算同主題。
+     ⚠️ 刻意不收太常見的字（見 STOP）：'anatomy'、'第 8 版' 那種會把整科的題都拉進來。 */
+  var STOP = ['anatomy', 'physiology', 'textbook', 'clinical', 'clinically', 'oriented',
+              'dental', 'medical', 'oral', 'principles', 'handbook', 'contemporary',
+              'edition', 'chapter', '出處', '教科書', '第版'];
+  /* 出處行裡的「章」那一層（Ch.8 Head／第 11 章 Cranial Nerve Nuclei／腦神經核章）。
+     這正是 2026-09-21 舊版 topicOf 歸出來的主題，粒度粗但跨年份對得上，
+     所以拿來當補弱題單的最後一道退路（2026-09-23）。 */
+  function chapterKey(line) {
+    var t = String(line || '').replace(/^📚\s*/, '').replace(/^出處[：:]\s*/, '')
+      .replace(/（[^）]*）/g, '').replace(/\([^)]*\)/g, '');
+    var m = t.match(/\b(?:ch|chap|chapter)\.?\s*\d+\s*[:.]?\s*([A-Za-z][^;；，,。]*)/i)
+      || t.match(/章\s*([^；;，,。]{2,})/)
+      || t.match(/[，,；;]\s*([^，,；;。]{2,14})章/);
+    var k = m ? norm(m[1]) : '';
+    return k.length >= 3 ? k : '';
+  }
+
+  function topicKeys(t) {
+    var s = String(t || '').replace(/…$/, '');
+    var out = [];
+    (s.match(/[A-Za-z][A-Za-z'’-]{3,}/g) || []).forEach(function (w) {
+      var k = norm(w);
+      if (k.length >= 4 && STOP.indexOf(k) < 0) out.push(k);
+    });
+    (s.match(/[\u4e00-\u9fff]{2,}/g) || []).forEach(function (w) {
+      // 中文考點多半是「腰神經叢」「下肢肌肉章節」這種一長串，整串比對只對得到自己；
+      // 先剝掉「章節／分類／概論」這類尾巴，再補一個 3 字前綴當關鍵詞（「腰神經叢」→「腰神經」），
+      // 不同年份的詳解才對得起來（2026-09-23 解剖生理科實測：不補前綴幾乎抽不到題）。
+      var k = norm(w).replace(/(章節|章|節|分類|特徵|概論|概念|原則|機轉|作用|附著點|一節)$/, '');
+      if (k.length >= 2 && STOP.indexOf(k) < 0) out.push(k);
+      if (k.length >= 4) out.push(k.slice(0, 3));
+    });
+    return out.slice(0, 5);
+  }
+
   /* 補弱題單：從已載入的同科考卷裡，抽出「屬於弱主題、這次沒考到」的題。
      比對用寬鬆規則——主題字串出現在那題的出處行裡就算同主題。
      嚴格比對（主題字串完全相等）在醫科幾乎抽不到題：同一個考點在不同年份的詳解裡，
@@ -145,24 +217,38 @@
      各弱主題輪流取一題（round-robin），免得整份都是同一個主題。 */
   function buildDrill(weak, used, sid) {
     var want = {}, keys = [];
-    weak.forEach(function (w) { want[w.topic] = []; keys.push({ topic: w.topic, key: norm(w.topic) }); });
-    var ids = A.EXAMS.filter(function (e) { return e.subj === sid; }).map(function (e) { return e.id; });
-    ids.forEach(function (pid) {
-      var p = A.papers[pid];
-      if (!p) return;
-      p.qs.forEach(function (q) {
-        if (q.needfig && !q.fig) return;               // 選項在圖上又沒圖檔的題不能練
-        if (used[pid + '#' + q.n]) return;             // 這次模考考過的不重複
-        var src = norm(srcOf(q));
-        if (!src) return;
-        for (var i = 0; i < keys.length; i++) {
-          if (keys[i].key.length >= 2 && src.indexOf(keys[i].key) >= 0) {
-            want[keys[i].topic].push({ pid: pid, n: q.n, q: q, title: p.title });
-            break;                                      // 一題只算一個主題，避免同一題被兩個池子搶
-          }
-        }
-      });
+    weak.forEach(function (w) {
+      want[w.topic] = [];
+      var alt = topicKeys(w.topic);
+      var ck = chapterKey(w.src);
+      if (ck && alt.indexOf(ck) < 0) alt.push(ck);
+      keys.push({ topic: w.topic, key: norm(w.topic), alt: alt });
     });
+    var ids = A.EXAMS.filter(function (e) { return e.subj === sid; }).map(function (e) { return e.id; });
+    var scan = function (useAlt) {
+      ids.forEach(function (pid) {
+        var p = A.papers[pid];
+        if (!p) return;
+        p.qs.forEach(function (q) {
+          if (q.needfig && !q.fig) return;               // 選項在圖上又沒圖檔的題不能練
+          if (used[pid + '#' + q.n]) return;             // 這次模考考過的不重複
+          var src = norm(srcOf(q));
+          if (!src) return;
+          for (var i = 0; i < keys.length; i++) {
+            if (useAlt && want[keys[i].topic].length >= MIN_PER_TOPIC) continue;   // 抽夠的主題不用退路
+            var hit = useAlt
+              ? keys[i].alt.some(function (k) { return src.indexOf(k) >= 0; })
+              : (keys[i].key.length >= 2 && src.indexOf(keys[i].key) >= 0);
+            if (hit) {
+              want[keys[i].topic].push({ pid: pid, n: q.n, q: q, title: p.title });
+              break;                                    // 一題只算一個主題，避免同一題被兩個池子搶
+            }
+          }
+        });
+      });
+    };
+    scan(false);
+    if (keys.some(function (k) { return want[k.topic].length < MIN_PER_TOPIC && k.alt.length; })) scan(true);
     var pools = weak.map(function (w) { return want[w.topic] || []; });
     pools.forEach(shuffle);
     var out = [], guard = 0;
@@ -312,5 +398,6 @@
     return T('前後半段的正確率差不多，節奏穩定；接下來把下面那幾個主題補起來就好。');
   }
 
-  window.KHDiag = { render: render, topicOf: topicOf, topicsFor: topicsFor, byTopic: byTopic };
+  window.KHDiag = { render: render, topicOf: topicOf, topicsFor: topicsFor, byTopic: byTopic,
+                    topicKeys: topicKeys, chapterKey: chapterKey, norm: norm };
 })();

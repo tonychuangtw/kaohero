@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰3之結構為與vertebrae交接之處",
     "標⽰4之結構為三叉神經上顎枝經過之處"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108030_303_11_3.webp"
   },
   {
    "n": 4,
@@ -95,7 +96,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰3處為頦肌（mental muscle）之附著處",
     "標⽰4處為降⼝⾓肌（depressor of corner of mouth）之附著處"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_303_11_6.webp"
   },
   {
    "n": 7,
@@ -209,7 +211,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰5處為舌動脈（lingual artery）",
     "標⽰6處為闊頸肌（platysma）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108030_303_11_14.webp"
   },
   {
    "n": 15,
@@ -739,7 +742,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "牙本質⼩管（dentinal tubule）",
     "牙本質橫嵴（dentinal perikymata）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_303_11_52.webp"
   },
   {
    "n": 53,

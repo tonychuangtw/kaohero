@@ -1131,7 +1131,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
     "nitazoxanide",
     "diloxanide furoate"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115020_305_0401_78.webp"
   },
   {
    "n": 79,

@@ -792,7 +792,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
     "R1＝R2＝H，R3＝tetrazole",
     "R1＝H，R2＝R3＝tetrazole"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105020_305_11_55.webp"
   },
   {
    "n": 56,

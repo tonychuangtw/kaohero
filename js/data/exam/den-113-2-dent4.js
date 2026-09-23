@@ -600,7 +600,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "進行骨塊固定前需先確認咬合",
     "在骨體中間及靠牙齒區域不合適使用雙皮質骨釘（bicortical screws）進行固定"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_304_44_42.webp"
   },
   {
    "n": 43,
@@ -641,7 +642,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "①③",
     "②③"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_304_44_45.webp"
   },
   {
    "n": 46,
@@ -908,7 +910,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "8",
     "22"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_304_44_64.webp"
   },
   {
    "n": 65,
@@ -962,7 +965,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "連合齒（concrescence）",
     "巨齒症（macrodontia）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_304_44_68.webp"
   },
   {
    "n": 69,
@@ -989,7 +993,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "1、2皆為齲齒（dental caries）",
     "1、2皆為內吸收（internal resorption）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_304_44_70.webp"
   },
   {
    "n": 71,
@@ -1002,7 +1007,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "齲齒（dental caries）",
     "內吸收（internal resorption）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1057,7 +1063,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "autoimmune sialadenitis",
     "tumor displacement of salivary gland"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_304_44_75.webp"
   },
   {
    "n": 76,
@@ -1098,7 +1105,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "造釉細胞瘤（ameloblastoma）",
     "涎石病（sialolithiasis）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113090_304_44_78.webp"
   },
   {
    "n": 79,

@@ -209,7 +209,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent3'] = {
     "近心偏移角度（mesisl shift）；腭根管（palatal canal），近心頰側2根管（MB2 canal）， 近心頰側1根管（MB1 canal），遠心頰側根管（DB canal）",
     "遠心偏移角度（distal shift）；腭根管（palatal canal），近心頰側2根管（MB2 canal）， 近心頰側1根管（MB1 canal），遠心頰側根管（DB canal）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_304_33_14.webp"
   },
   {
    "n": 15,
@@ -642,7 +643,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent3'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_304_33_45.webp"
   },
   {
    "n": 46,
@@ -683,7 +685,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent3'] = {
     "C",
     "D"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_304_33_48.webp"
   },
   {
    "n": 49,

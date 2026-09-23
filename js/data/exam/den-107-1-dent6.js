@@ -180,7 +180,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "anterior open bite",
     "posterior open bite"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_304_66_12.webp"
   },
   {
    "n": 13,
@@ -206,7 +207,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "如圖Ａ，原因可能是合併上顎太後縮、下顎太前凸所造成",
     "如圖Ｂ，齒列咬合關係一定是標準安格氏第一級咬合（Angle Class I relationship）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_304_66_14.webp"
   },
   {
    "n": 15,
@@ -219,7 +221,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "tip of nasal bone",
     "anterior nasal spine"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_304_66_15.webp"
   },
   {
    "n": 16,
@@ -468,7 +471,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent6'] = {
     "冠髓切除術（pulpotomy）",
     "牙髓切除術（pulpectomy）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_304_66_33.webp"
   },
   {
    "n": 34,

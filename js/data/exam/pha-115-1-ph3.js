@@ -943,7 +943,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph3'] = {
     "ethylcellulose",
     "stearic acid"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_305_0403_66.webp"
   },
   {
    "n": 67,

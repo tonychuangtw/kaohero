@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph2'] = {
     "electrospray ionization",
     "negative ion chemical ionization"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_305_22_21.webp"
   },
   {
    "n": 22,

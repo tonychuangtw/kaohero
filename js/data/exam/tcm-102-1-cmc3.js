@@ -320,7 +320,8 @@ window.APP_EXAM_PAPERS['tcm-102-1-cmc3'] = {
     "側視角（lateral view）",
     "Y 視角（Y view）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102030_103_0205_22.webp"
   },
   {
    "n": 23,
@@ -333,7 +334,8 @@ window.APP_EXAM_PAPERS['tcm-102-1-cmc3'] = {
     "③",
     "④"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102030_103_0205_23.webp"
   },
   {
    "n": 24,
@@ -373,7 +375,8 @@ window.APP_EXAM_PAPERS['tcm-102-1-cmc3'] = {
     "裂縫骨折",
     "青枝骨折頁次：8－4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102030_103_0205_26.webp"
   },
   {
    "n": 27,
@@ -414,7 +417,8 @@ window.APP_EXAM_PAPERS['tcm-102-1-cmc3'] = {
     "小圓肌（teres minor）",
     "大圓肌（teres major）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102030_103_0205_29.webp"
   },
   {
    "n": 30,
@@ -1113,7 +1117,8 @@ window.APP_EXAM_PAPERS['tcm-102-1-cmc3'] = {
     "血瘀",
     "血虛"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102030_103_0205_79.webp"
   },
   {
    "n": 80,

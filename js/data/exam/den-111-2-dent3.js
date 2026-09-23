@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent3'] = {
     "頰側根管；由近心側向遠心側照射（mesial shift）",
     "腭側根管；由近心側向遠心側照射（mesial shift）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111100_304_33_13.webp"
   },
   {
    "n": 14,

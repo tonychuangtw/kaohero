@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "Posterior superior alveolar nerve block",
     "Mental nerve block"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103090_302_44_5.webp"
   },
   {
    "n": 6,
@@ -235,7 +236,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "有腫瘤存在",
     "牙根尖感染"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103090_302_44_16.webp"
   },
   {
    "n": 17,
@@ -863,7 +865,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "Posterior-anterior view",
     "Anterior-posterior view"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103090_302_44_61.webp"
   },
   {
    "n": 62,
@@ -904,7 +907,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "C：nasal septum",
     "D：condyle head"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103090_302_44_64.webp"
   },
   {
    "n": 65,
@@ -917,7 +921,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "Cementum",
     "Lamina dura"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_302_44_65.webp"
   },
   {
    "n": 66,
@@ -930,7 +935,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "Dentoalveolar abscess",
     "Mental foramen"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_302_44_66.webp"
   },
   {
    "n": 67,
@@ -943,7 +949,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "先天缺牙（congenital missing）",
     "卡拉貝利牙阜（cusp of Carabelli）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103090_302_44_67.webp"
   },
   {
    "n": 68,
@@ -956,7 +963,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "牙本質發育不全（dentinogenesis imperfecta）",
     "牙釉質發育不全（amelogenesis imperfecta）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103090_302_44_68.webp"
   },
   {
    "n": 69,
@@ -969,7 +977,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "多生牙（supernumerary tooth）",
     "牙釉質珠（enamel pearl）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103090_302_44_69.webp"
   },
   {
    "n": 70,
@@ -1080,7 +1089,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent4'] = {
     "1和2都是上呼吸道的影像",
     "1和2都是骨折的影像"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103090_302_44_77.webp"
   },
   {
    "n": 78,

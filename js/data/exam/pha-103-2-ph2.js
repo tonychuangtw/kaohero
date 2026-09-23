@@ -152,7 +152,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph2'] = {
     "揮發油含量測定瓶（Cassia flask）",
     "容量瓶（Volumetric flask）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103090_310_22_10.webp"
   },
   {
    "n": 11,

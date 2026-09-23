@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "此針用來施打成人或兒童的局部浸潤（infiltration）應該都可以",
     "若針需彎折，選擇彎折於10的位置，比在0的位置好"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_304_44_6.webp"
   },
   {
    "n": 7,
@@ -179,7 +180,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "class B",
     "class 3"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_304_44_12.webp"
   },
   {
    "n": 13,
@@ -878,7 +880,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "1為zygomatic process，2為sinus septum",
     "1為floor of nasal fossa，2為border of maxillary sinus"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109020_304_44_62.webp"
   },
   {
    "n": 63,
@@ -891,7 +894,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "cortical bone of the hard palate",
     "posterior extension of nasal septum"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_304_44_63.webp"
   },
   {
    "n": 64,
@@ -1002,7 +1006,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "牙本質發育不全（dentinogenesis imperfecta）",
     "牙釉質發育不全（amelogenesis imperfecta）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1113,7 +1118,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "同位素骨掃描（radioisotope bone scan）",
     "超音波掃描（ultrasonography）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_304_44_79.webp"
   },
   {
    "n": 80,
@@ -1126,7 +1132,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent4'] = {
     "鈣化區（calcification）",
     "放射線透過區（radiolucency）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_304_44_80.webp"
   }
  ]
 };

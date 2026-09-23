@@ -520,7 +520,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent3'] = {
     "研光（burnishing）",
     "拋光（polishing）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110100_304_33_36.webp"
   },
   {
    "n": 37,
@@ -1023,7 +1024,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent3'] = {
     "apically repositioned flap",
     "coronally repositioned flap"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110100_304_33_72.webp"
   },
   {
    "n": 73,

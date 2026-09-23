@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent1'] = {
     "cingulum",
     "mamelon"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_303_11_24.webp"
   },
   {
    "n": 25,
@@ -431,7 +432,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent1'] = {
     "③",
     "④"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_303_11_30.webp"
   },
   {
    "n": 31,
@@ -710,7 +712,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent1'] = {
     "齒濾泡（dental follicle）",
     "牙本前質（predentin）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112020_303_11_50.webp"
   },
   {
    "n": 51,
@@ -751,7 +754,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent1'] = {
     "齒槽上皮（alveolar epithelium）",
     "退化性牙釉上皮（reduced enamel epithelium）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112020_303_11_53.webp"
   },
   {
    "n": 54,

@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "上圖與下圖都是牙周韌帶注射器",
     "上圖是牙周韌帶注射器，下圖是骨內局部麻醉注射器"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_44_8.webp"
   },
   {
    "n": 9,
@@ -615,7 +616,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "Arch bar intermaxillary fixation technique",
     "Continuous loop wiring technique"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_304_44_43.webp"
   },
   {
    "n": 44,
@@ -838,7 +840,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "C",
     "D"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_304_44_59.webp"
   },
   {
    "n": 60,
@@ -922,7 +925,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "The mylohyoid ridge",
     "The internal oblique ridge"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_304_44_65.webp"
   },
   {
    "n": 66,
@@ -949,7 +953,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "Gemination",
     "Microdontia"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_304_44_67.webp"
   },
   {
    "n": 68,
@@ -962,7 +967,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "Overhanged resin filling",
     "Coronoid process"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_304_44_68.webp"
   },
   {
    "n": 69,
@@ -1030,7 +1036,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent4'] = {
     "Cervical burnout",
     "Resin filling material"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_304_44_73.webp"
   },
   {
    "n": 74,

@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent2'] = {
     "面心立方（face-centered cubic）",
     "六方最密堆積（hexagonal close-packed）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_303_22_30.webp"
   },
   {
    "n": 31,

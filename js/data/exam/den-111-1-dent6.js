@@ -222,7 +222,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent6'] = {
     "必須空間（space required）",
     "調整空間（space adjusted）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_304_66_15.webp"
   },
   {
    "n": 16,

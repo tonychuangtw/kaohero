@@ -633,7 +633,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "CYP2C9",
     "CYP1A2"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_305_11_44.webp"
   },
   {
    "n": 45,
@@ -858,7 +859,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "3",
     "5"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108030_305_11_60.webp"
   },
   {
    "n": 61,
@@ -1099,7 +1101,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "fexofenadine",
     "mizolastine"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_305_11_77.webp"
   },
   {
    "n": 78,

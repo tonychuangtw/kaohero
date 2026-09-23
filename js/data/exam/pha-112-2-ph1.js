@@ -772,7 +772,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "demethylation",
     "reduction"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112100_305_11_54.webp"
   },
   {
    "n": 55,
@@ -785,7 +786,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_305_11_55.webp"
   },
   {
    "n": 56,
@@ -798,7 +800,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "calcium channel",
     "chloride channel"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112100_305_11_56.webp"
   },
   {
    "n": 57,
@@ -1023,7 +1026,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "pantoprazole",
     "rabeprazole"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_305_11_72.webp"
   },
   {
    "n": 73,

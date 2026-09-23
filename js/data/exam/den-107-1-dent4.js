@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Osteomyelitis",
     "Ludwig’s angina"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_304_44_18.webp"
   },
   {
    "n": 19,
@@ -752,7 +753,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Adenomatoid odontogenic tumor",
     "Odontogenic myxoma"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107020_304_44_53.webp"
   },
   {
    "n": 54,
@@ -778,7 +780,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Intraluminal ameloblastoma",
     "Transmural ameloblastoma"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_304_44_55.webp"
   },
   {
    "n": 56,
@@ -902,7 +905,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "artifact of x-ray image",
     "fracture line of bone"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_304_44_64.webp"
   },
   {
    "n": 65,
@@ -915,7 +919,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "zygomatic process of the maxilla",
     "pterygoid plate"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_304_44_65.webp"
   },
   {
    "n": 66,
@@ -942,7 +947,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "1為artificial defect，2為maxillary sinus floor",
     "1為artificial defect，2為 radicular cyst"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107020_304_44_67.webp"
   },
   {
    "n": 68,
@@ -955,7 +961,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "造牙骨質細胞瘤（cementoblastoma）",
     "根尖肉芽腫（pericapical granuloma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_304_44_68.webp"
   },
   {
    "n": 69,
@@ -982,7 +989,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "tumor mass and cortical invasion",
     "fractured alveolar crest and hyoid bone"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_304_44_70.webp"
   },
   {
    "n": 71,

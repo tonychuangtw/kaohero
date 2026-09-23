@@ -687,7 +687,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent1'] = {
     "3、4",
     "1、4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_303_11_48.webp"
   },
   {
    "n": 49,

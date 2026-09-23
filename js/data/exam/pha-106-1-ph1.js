@@ -1086,7 +1086,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
     "estrogen",
     "progestin"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_305_11_76.webp"
   },
   {
    "n": 77,

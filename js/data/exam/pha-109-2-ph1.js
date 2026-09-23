@@ -935,7 +935,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109100_305_11_65.webp"
   },
   {
    "n": 66,

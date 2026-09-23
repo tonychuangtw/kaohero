@@ -656,7 +656,8 @@ window.APP_EXAM_PAPERS['tcm-108-1-cmc4'] = {
     "丙",
     "丁"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108020_102_0106_46.webp"
   },
   {
    "n": 47,

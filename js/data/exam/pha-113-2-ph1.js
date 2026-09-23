@@ -586,7 +586,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
     "1S，2R",
     "1S，2S"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_305_11_41.webp"
   },
   {
    "n": 42,
@@ -897,7 +898,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
     "③",
     "④"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_305_11_63.webp"
   },
   {
    "n": 64,
@@ -1036,7 +1038,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
     "降低毒性",
     "增加溶解度"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_305_11_73.webp"
   },
   {
    "n": 74,

@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent6'] = {
     "上顎舌側錯咬（maxillary lingual crossbite）",
     "下顎舌側錯咬（mandibular lingual crossbite）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_304_66_3.webp"
   },
   {
    "n": 4,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent6'] = {
     "屬於二級異常咬合第一分類（Class II malocclusion, division 1）",
     "牙縫產生之可能原因與舌頭的形狀和前突力量有關"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_304_66_4.webp"
   },
   {
    "n": 5,

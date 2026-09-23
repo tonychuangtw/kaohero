@@ -390,7 +390,8 @@ window.APP_EXAM_PAPERS['tcm-109-1-cmc3'] = {
     "①Tinel’s sign②Phalen’s test③Cozen’s test④Finkelstein’s test",
     "①Cozen’s test②Finkelstein’s test③Tinel’s sign④Phalen’s test"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109030_102_0105_27.webp"
   },
   {
    "n": 28,
@@ -823,7 +824,8 @@ window.APP_EXAM_PAPERS['tcm-109-1-cmc3'] = {
     "盂下脫位",
     "鎖骨下脫位"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109030_102_0105_58.webp"
   },
   {
    "n": 59,

@@ -952,7 +952,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph3'] = {
     "A＝B＝C",
     "A＝C＞B"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111100_305_33_67.webp"
   },
   {
    "n": 68,

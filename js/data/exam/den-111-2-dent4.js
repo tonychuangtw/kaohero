@@ -180,7 +180,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "Class 3 and A",
     "Class 3 and C"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111100_304_44_12.webp"
   },
   {
    "n": 13,
@@ -936,7 +937,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "側位牙周囊腫（lateral periodontal cyst）",
     "根尖囊腫（radicular cyst）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111100_304_44_66.webp"
   },
   {
    "n": 67,
@@ -1049,7 +1051,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "鼻竇石（antrolith）",
     "鼻竇黏液囊腫（mucocele）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1076,7 +1079,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "panoramic radiography",
     "posterior-anterior skull radiography"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_304_44_76.webp"
   },
   {
    "n": 77,

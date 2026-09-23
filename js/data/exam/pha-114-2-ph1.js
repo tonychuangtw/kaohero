@@ -793,7 +793,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph1'] = {
     "serine",
     "threonine"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_305_0401_55.webp"
   },
   {
    "n": 56,

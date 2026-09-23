@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph3'] = {
     "dilatant",
     "pseudoplastic"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_305_33_13.webp"
   },
   {
    "n": 14,
@@ -951,7 +952,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph3'] = {
     "排除速率可能隨劑量增加而達到定值",
     "清除率為定值不隨劑量改變"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_305_33_67.webp"
   },
   {
    "n": 68,

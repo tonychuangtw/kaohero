@@ -703,7 +703,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "為GABAB receptor agonist",
     "為GABAB receptor antagonist"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_310_11_49.webp"
   },
   {
    "n": 50,
@@ -1075,7 +1076,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Efavirenz",
     "Zalcitabine"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102020_310_11_75.webp"
   },
   {
    "n": 76,

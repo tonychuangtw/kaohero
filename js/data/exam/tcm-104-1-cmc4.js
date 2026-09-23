@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['tcm-104-1-cmc4'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104030_104_0206_5.webp"
   },
   {
    "n": 6,
@@ -585,7 +586,8 @@ window.APP_EXAM_PAPERS['tcm-104-1-cmc4'] = {
     "揚刺",
     "合谷刺"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104030_104_0206_41.webp"
   },
   {
    "n": 42,
@@ -598,7 +600,8 @@ window.APP_EXAM_PAPERS['tcm-104-1-cmc4'] = {
     "5",
     "6頁次：8－5"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104030_104_0206_42.webp"
   },
   {
    "n": 43,
@@ -793,7 +796,8 @@ window.APP_EXAM_PAPERS['tcm-104-1-cmc4'] = {
     "丙",
     "丁"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104030_104_0206_56.webp"
   },
   {
    "n": 57,

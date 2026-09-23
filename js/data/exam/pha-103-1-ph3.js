@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "Pseudoplastic flow",
     "Dilatant flow"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103020_310_44_11.webp"
   },
   {
    "n": 12,
@@ -641,7 +642,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "圖A：靜脈注射水溶液劑；圖B：恆速靜脈輸注；圖C：口服速放劑型",
     "圖A：靜脈注射水溶液劑；圖B：恆速靜脈輸注；圖C：口服緩釋劑型"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_310_44_45.webp"
   },
   {
    "n": 46,
@@ -710,7 +712,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "本藥之中央室體積為10 L",
     "C(0)=4 μg/mL"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_310_44_50.webp"
   },
   {
    "n": 51,

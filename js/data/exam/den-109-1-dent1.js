@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent1'] = {
     "③",
     "④"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109020_303_11_13.webp"
   },
   {
    "n": 14,
@@ -838,7 +839,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent1'] = {
     "牙釉器官（enamel organ）",
     "牙釉結（enamel knot）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_303_11_59.webp"
   },
   {
    "n": 60,

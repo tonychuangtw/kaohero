@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "③",
     "④"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_305_22_8.webp"
   },
   {
    "n": 9,
@@ -318,7 +319,8 @@ window.APP_EXAM_PAPERS['pha-108-2-ph2'] = {
     "negative ion chemical ionization",
     "positive ion chemical ionization"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_305_22_22.webp"
   },
   {
    "n": 23,

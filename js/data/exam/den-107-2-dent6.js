@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent6'] = {
     "中等錨定（moderate anchorage）",
     "皮質骨錨定（cortical anchorage）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_304_66_20.webp"
   },
   {
    "n": 21,
@@ -305,7 +306,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent6'] = {
     "third order bend",
     "fourth order bend"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107100_304_66_21.webp"
   },
   {
    "n": 22,

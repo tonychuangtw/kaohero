@@ -918,7 +918,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "外斜嵴（external oblique ridge）",
     "下顎小舌（lingula mandibulae）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_304_44_64.webp"
   },
   {
    "n": 65,
@@ -931,7 +932,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "甲狀軟骨（thyroid cartilage）",
     "涎石（sialolith）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113020_304_44_65.webp"
   },
   {
    "n": 66,
@@ -958,7 +960,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "a：水平骨缺損（horizontal bone loss），b：垂直骨缺損（vertical bone loss）",
     "a：水平骨缺損（horizontal bone loss），b：齒間陷口（interdental crater）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113020_304_44_67.webp"
   },
   {
    "n": 68,
@@ -985,7 +988,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "早期根尖牙骨質骨發育不良（cemento-osseous dysplasia）； 內生贅骨（enostosis）",
     "與 標示的變化都屬於根尖牙骨質骨發育不良（cemento-osseous dysplasia）病灶的一部分"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_304_44_69.webp"
   },
   {
    "n": 70,
@@ -1012,7 +1016,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "phleboliths",
     "sialoliths"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_304_44_71.webp"
   },
   {
    "n": 72,
@@ -1025,7 +1030,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "reverse Towne projection",
     "oblique lateral projection"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_304_44_72.webp"
   },
   {
    "n": 73,
@@ -1051,7 +1057,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "畸形性骨炎（osteitis deformans）",
     "骨性纖維發育不良（fibrous dysplasia of bone）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113020_304_44_74.webp"
   },
   {
    "n": 75,
@@ -1078,7 +1085,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "顳顎關節脫位（TMJ dislocation）",
     "造釉細胞瘤（ameloblastoma）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_304_44_76.webp"
   },
   {
    "n": 77,

@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent2'] = {
     "第一型牙本質發育不良（dentin dysplasia type Ⅰ）",
     "局部牙齒發育不全（regional odontodysplasia）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_303_22_1.webp"
   },
   {
    "n": 2,
@@ -207,7 +208,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent2'] = {
     "齒瘤（odontoma）",
     "多型性腺瘤（pleomorphic adenoma）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_303_22_14.webp"
   },
   {
    "n": 15,

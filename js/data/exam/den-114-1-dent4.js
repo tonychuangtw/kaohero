@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "局部麻醉藥注射針頭斷裂殘留",
     "下顎骨骨折"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114020_304_0204_8.webp"
   },
   {
    "n": 9,
@@ -923,7 +924,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "上顎間縫（intermaxillary suture）",
     "營養管（nutrient canal）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114020_304_0204_65.webp"
   },
   {
    "n": 66,
@@ -936,7 +938,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "lamina dura",
     "lingual foramen"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_66.webp"
   },
   {
    "n": 67,
@@ -949,7 +952,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "gemination",
     "taurodontism"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114020_304_0204_67.webp"
   },
   {
    "n": 68,
@@ -962,7 +966,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "gemination",
     "taurodontism"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_304_0204_68.webp"
   },
   {
    "n": 69,
@@ -975,7 +980,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "46",
     "47"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_304_0204_69.webp"
   },
   {
    "n": 70,
@@ -988,7 +994,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "interdental craters",
     "buccal or lingual cortical plate loss"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_70.webp"
   },
   {
    "n": 71,
@@ -1001,7 +1008,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "3",
     "4"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_71.webp"
   },
   {
    "n": 72,
@@ -1028,7 +1036,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "骨化纖維瘤（ossifying fibroma）",
     "顱顏面骨發育不全（craniofacial dysostosis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_73.webp"
   },
   {
    "n": 74,
@@ -1041,7 +1050,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "牙骨質－骨質發育不良（cemento-osseous dysplasia）",
     "成纖維性纖維瘤（desmoplastic fibroma）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_74.webp"
   },
   {
    "n": 75,
@@ -1068,7 +1078,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "戈林氏症候群（Gorlin syndrome）",
     "崔屈－寇林氏症候群（Treacher Collins syndrome）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_304_0204_76.webp"
   },
   {
    "n": 77,
