@@ -773,7 +773,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "reduction"
    ],
    "a": 0,
-   "fig": "img/q/112100_305_11_54.webp"
+   "fig": "img/q/112100_305_11_54.webp",
+   "exp": "✅ (A) 圖中為 zolpidem（imidazopyridine 母核，環上 6-methyl、苯環對位 methyl、side chain 為 N,N-dimethylacetamide）。它主要由 CYP3A4 對兩個 methyl 進行 hydroxylation（再進一步氧化成 carboxylic acid）而失活，代謝物均無活性，故最主要的代謝反應為羥基化。\n❌ (B) 分子中的 amide 鍵在體內相當安定，不以水解為主要途徑；水解代謝典型見於 ester 類藥物（如 aspirin、procaine）。\n❌ (C) 去甲基雖可發生於 N,N-dimethylamide，但僅屬次要途徑，量遠少於 methyl 的羥基化產物。\n❌ (D) 結構中沒有易被還原的官能基（無 nitro、azo、ketone 或雙硫鍵），還原不是其代謝方式。\n📚 出處：Zolpidem 的氧化代謝（CYP3A4 甲基羥基化），藥物化學－鎮靜安眠藥 imidazopyridine 類。"
   },
   {
    "n": 55,
@@ -787,7 +788,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "4"
    ],
    "a": 1,
-   "fig": "img/q/112100_305_11_55.webp"
+   "fig": "img/q/112100_305_11_55.webp",
+   "exp": "✅ (B) 圖中母核為 phenothiazine，標示 1～4 即該環的 C1～C4。在 C2 引入拉電子的取代基（如 Cl）可提高抗精神病活性，chlorpromazine 的 2-chloro 即典型例子；2 位取代使分子構形偏向與 D2 受體結合的優勢位向，效價明顯優於無取代的 promazine。\n❌ (A) C1 位取代與 N10 側鏈相鄰，會造成立體障礙、干擾側鏈伸展成活性構形，活性反而下降。\n❌ (C) C3 位取代對活性的助益有限，並非構效關係上的最佳位置。\n❌ (D) C4 位緊鄰環硫原子側，取代同樣造成立體阻礙且不利受體結合，活性不升。\n📚 出處：Phenothiazine 類抗精神病藥的構效關係（2 位拉電子取代基），藥物化學－中樞神經系統藥物。"
   },
   {
    "n": 56,
@@ -801,7 +803,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "chloride channel"
    ],
    "a": 0,
-   "fig": "img/q/112100_305_11_56.webp"
+   "fig": "img/q/112100_305_11_56.webp",
+   "exp": "✅ (A) 圖中為 lacosamide（(R)-2-acetamido-N-benzyl-3-methoxypropionamide），為功能化胺基酸類抗癲癲藥，作用在電壓閘控鈉離子通道：它選擇性增強鈉通道的「慢去活化（slow inactivation）」，降低過度放電神經元的可興奮性。\n❌ (B) 鉀通道開放劑（如 retigabine 作用於 KCNQ）結構與機轉都不同，lacosamide 不作用於此。\n❌ (C) 鈣通道（T 型）抑制為 ethosuximide 的機轉，其結構為 succinimide，與本圖不符。\n❌ (D) 氯離子通道相關的是 GABA-A 受體調節劑（benzodiazepines、barbiturates），並非 lacosamide 的標的。\n📚 出處：Lacosamide 增強鈉通道慢去活化，藥物化學－抗癲癇藥（功能化胺基酸類）。"
   },
   {
    "n": 57,
@@ -1027,7 +1030,8 @@ window.APP_EXAM_PAPERS['pha-112-2-ph1'] = {
     "rabeprazole"
    ],
    "a": 1,
-   "fig": "img/q/112100_305_11_72.webp"
+   "fig": "img/q/112100_305_11_72.webp",
+   "exp": "✅ (B) omeprazole 的 pyridine 環為 4-methoxy-3,5-dimethyl，故 R2＝CH3、R3＝CH3、R4＝CH3；四個選項中只有它在 5 位（R4）帶有甲基。\n❌ (A) lansoprazole 的 pyridine 為 3-methyl-4-(2,2,2-trifluoroethoxy)，R3＝CH2CF3，R4＝H。\n❌ (C) pantoprazole 的 pyridine 為 3,4-dimethoxy，R2＝OCH3、R3＝CH3，R4＝H；其 benzimidazole 側另帶 difluoromethoxy。\n❌ (D) rabeprazole 的 pyridine 為 3-methyl-4-(3-methoxypropoxy)，R3＝CH2CH2CH2OCH3，R4＝H。\n📚 出處：質子泵抑制劑（benzimidazole sulfoxide）取代基構效比較，藥物化學－消化系統用藥。"
   },
   {
    "n": 73,
