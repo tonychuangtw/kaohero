@@ -1132,7 +1132,8 @@ window.APP_EXAM_PAPERS['pha-115-1-ph1'] = {
     "diloxanide furoate"
    ],
    "a": 1,
-   "fig": "img/q/115020_305_0401_78.webp"
+   "fig": "img/q/115020_305_0401_78.webp",
+   "exp": "✅ (B) 圖中母核為 2-methyl-5-nitroimidazole，N1 位接上「-CH₂CH₂-SO₂-CH₂CH₃」（2-（ethylsulfonyl）ethyl 側鏈），正是 tinidazole 的結構。其抗原蟲機轉與 metronidazole 相同：5-位硝基在厭氧菌或原蟲體內被 ferredoxin／pyruvate-ferredoxin oxidoreductase 還原成亞硝基自由基，破壞 DNA 而殺死病原；因半衰期較長（約 12～14 小時），阿米巴、梨形鞭毛蟲、陰道滴蟲常可單次高劑量給藥。\n❌ (A) metronidazole 的母核雖同為 2-methyl-5-nitroimidazole，但 N1 側鏈只是「-CH₂CH₂OH」（2-hydroxyethyl），沒有圖中的乙基磺醯基（ethylsulfonyl），是兩者結構上的唯一差別。\n❌ (C) nitazoxanide 是 nitrothiazole 類，結構為 2-acetoxybenzamide 接上 5-nitrothiazol-2-yl 的醯胺（thiazole 環＋酯基），不含 imidazole 環，也沒有磺醯基。\n❌ (D) diloxanide furoate 屬二氯乙醯胺（dichloroacetamide）類的腸腔內殺阿米巴藥，結構為 4-hydroxyphenyl 的 furoate 酯接 N-methyl-dichloroacetamide，完全不含硝基咪唑環。\n📚 出處：抗原蟲藥物—5-nitroimidazole 類（metronidazole、tinidazole）結構與構效關係，藥物化學。"
   },
   {
    "n": 79,
