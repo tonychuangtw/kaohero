@@ -94,8 +94,10 @@
     var t = q.o[k];
     return (t && t.trim()) ? t : T('（見上圖）');
   }
+  /* 詳解逐行。沒有詳解但有勘誤提醒（q.note，官方答案與現行法衝突的題）時改印提醒，
+     不要只印「詳解還沒寫」——那些題本來就不會有一般詳解（2026-09-23）。 */
   function expLines(q) {
-    return (q.exp || '').split('\n').filter(function (l) { return !!l; });
+    return ((q.exp || q.note || '') + '').split('\n').filter(function (l) { return !!l; });
   }
   function lineCls(line) {
     if (line.indexOf('✅') === 0) return 'ok';
