@@ -1087,7 +1087,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph1'] = {
     "progestin"
    ],
    "a": 3,
-   "fig": "img/q/106020_305_11_76.webp"
+   "fig": "img/q/106020_305_11_76.webp",
+   "exp": "✅ (D) 圖為 19-去甲睪固酮（19-nortestosterone）骨架：Δ4-3-keto、C10 無角甲基、C13 帶乙基（18-甲基同系物）、C17 為 17β-OH 加 17α-乙炔基，即 levonorgestrel（左炔諾孕酮），屬 gonane 類第二代口服避孕用黃體素（progestin）。17α-乙炔基可阻擋 17β-OH 被氧化代謝，使其口服有效。\n❌ (A) 雄性素（如 testosterone、methyltestosterone）須保有 C10 角甲基（C19），且 C17 不帶乙炔基；本化合物為 19-nor 結構，主作用在黃體素受體。\n❌ (B) 同化類固醇（如 nandrolone、stanozolol）雖也多屬 19-nor 系列，但 C17 為甲基或無取代，不會有 17α-乙炔基；乙炔基是黃體素活性的標誌性基團。\n❌ (C) 雌激素須為 A 環芳香化的酚（如 estradiol、ethinyl estradiol 的 3-OH 芳香環），本圖 A 環仍是 Δ4-3-ketone，非芳香環，故不是雌激素。\n📚 出處：Foye's Principles of Medicinal Chemistry—Steroid Hormones and Therapeutically Related Compounds（黃體素構效關係：19-nor 與 17α-乙炔基）"
   },
   {
    "n": 77,
