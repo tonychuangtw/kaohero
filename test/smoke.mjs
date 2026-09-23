@@ -769,6 +769,31 @@ await send('Emulation.setDeviceMetricsOverride',
   { width: 430, height: 900, deviceScaleFactor: 2, mobile: true }, sessionId);
 await sleep(200);
 
+// --- 本週排名賽（2026-09-23）---
+// 沒登入也能考，只是成績不會上傳；這裡驗的是「固定題組抽得出來、而且真的固定」。
+await send('Emulation.clearDeviceMetricsOverride', {}, sessionId);
+{
+  await hash('#/mock'); await sleep(500);
+  const txt = () => ev(`document.getElementById('main').textContent`);
+  ok((await txt()).includes('本週排名賽'), '模擬考頁有排名賽入口');
+  const sid = await ev(`window.KHRank ? 'yes' : 'no'`);
+  ok(sid === 'yes', 'rank.js 有載進來');
+  // 直接用 KHRank.pick 驗題組固定（走 UI 要等抽題與計時器，太慢也太脆）
+  const same = await ev(`(async()=>{
+    const A={EXAMS:window.APP_EXAMS,papers:{},loadMany:(ids,cb)=>{
+      let left=ids.length; if(!left) return cb();
+      ids.forEach(id=>{const s=document.createElement('script');s.src='js/data/exam/'+id+'.js';
+        s.onload=s.onerror=()=>{A.papers[id]=window.APP_EXAM_PAPERS&&window.APP_EXAM_PAPERS[id];
+          if(!--left)cb();};document.head.appendChild(s);});}};
+    const sid=window.APP_EXAMS[0].subj;
+    const sig=l=>l.map(x=>x.pid+'#'+x.q.n).join(',');
+    const a=await new Promise(r=>window.KHRank.pick(A,sid,'quick',20,(e,u)=>r(u)));
+    const b=await new Promise(r=>window.KHRank.pick(A,sid,'quick',20,(e,u)=>r(u)));
+    return a&&b&&sig(a)===sig(b)&&a.length===20;
+  })()`);
+  ok(same === true, '同一週同一科抽兩次，題組完全一樣');
+}
+
 ok(logs.length === 0, 'console 沒有錯誤' + (logs.length ? '：' + logs.slice(0, 2).join(' | ') : ''));
 ws.close(); chrome.kill(); srv.kill();
 console.log(fails.length ? `\n✗ ${fails.length} 項失敗` : '\n全部通過');
