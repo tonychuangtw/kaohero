@@ -363,7 +363,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph2'] = {
     "negative ion chemical ionization"
    ],
    "a": 2,
-   "fig": "img/q/107020_305_22_25.webp"
+   "fig": "img/q/107020_305_22_25.webp",
+   "exp": "✅ (C) 圖譜幾乎無碎片，基峰 m/z 187 為 [M+H]⁺（186+1），並伴隨 m/z 215（M+29，[M+C₂H₅]⁺）與 227（M+41，[M+C₃H₅]⁺）兩個加成峰，這正是甲烷為反應氣的正離子化學游離特徵離子（CH₅⁺、C₂H₅⁺、C₃H₅⁺ 與分析物反應），故為 positive ion chemical ionization。\n❌ (A) 電灑游離屬液相導入之介面，用於 LC-MS；GC-MS 的氣態流出物無法以 ESI 游離，且 ESI 不會產生 M+29、M+41 的甲烷加成峰。\n❌ (B) 電子撞擊游離為硬游離（70 eV），會得到 m/z 186 的分子離子並伴隨大量碎片峰，不會出現高於分子量的 187、215、227 峰。\n❌ (D) 負離子模式偵測 [M−H]⁻（m/z 185）或electron capture 產生的 M⁻•（186），質荷比應低於或等於分子量，與圖中高於 186 的離子不符。\n📚 出處：Skoog, Principles of Instrumental Analysis—Mass Spectrometry: Chemical Ionization Sources（甲烷 CI 之 M+1、M+29、M+41 加成離子）"
   },
   {
    "n": 26,
