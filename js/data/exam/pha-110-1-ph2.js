@@ -478,7 +478,8 @@ window.APP_EXAM_PAPERS['pha-110-1-ph2'] = {
     "betamethasone 17,21-dipropionate"
    ],
    "a": 2,
-   "fig": "img/q/110020_305_22_33.webp"
+   "fig": "img/q/110020_305_22_33.webp",
+   "exp": "✅ (C) 逆相 C18 管柱以脂溶性決定滯留：極性越低、滯留越久。五者由極性大到小（滯留由短到長）為 prednisolone（無 9α-F 與 16-methyl，極性最大）→ betamethasone（17、21 皆游離 OH）→ betamethasone 17-valerate → betamethasone 21-valerate → betamethasone 17,21-dipropionate，故 17-valerate 排第 3 位。兩個 valerate 位置異構物中，17-valerate 留下的是 21 位一級醇，暴露在外、親水性強；21-valerate 留下的 17α 三級醇受立體遮蔽並可與 C-20 酮基形成分子內氫鍵，表現的極性較低，因此 21-valerate 滯留較久。\n❌ (A) betamethasone 兩個羥基全為游離，極性僅次於 prednisolone，滯留時間排第 2 位而非第 3 位。\n❌ (B) betamethasone 21-valerate 的游離羥基是受遮蔽的 17α 三級醇，極性低於 17-valerate，滯留時間排第 4 位。\n❌ (D) 17,21-dipropionate 兩個羥基都被醯化、無游離 OH，脂溶性最大，在逆相管柱滯留最久（第 5 位）。\n📚 出處：藥物分析學—逆相高效液相層析（RP-HPLC）滯留行為與脂溶性關係；皮質類固醇 17／21 位酯化對極性之影響"
   },
   {
    "n": 34,
