@@ -153,7 +153,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph2'] = {
     "D 是盛有檢品與水混合物的燒瓶"
    ],
    "a": 1,
-   "fig": "img/q/109100_305_22_10.webp"
+   "fig": "img/q/109100_305_22_10.webp",
+   "exp": "✅ (B) B 指的是刻度集油管，本圖的刻度段位於下方、管底另附活栓，冷凝下來的水由上部側管溢流回燒瓶，比水重的揮發油則沉積在管底刻度處讀數，屬「重油集油器」；敘述寫成輕油集油器故為錯誤。輕油（比水輕，如薄荷油）用的集油器刻度在上段，油浮在水面上讀取，兩者不可混用。\n❌ (A) A 在裝置頂端，水蒸氣與揮發油蒸氣上行至此冷凝後滴回集油器，確為冷凝器，敘述正確。\n❌ (C) C 是燒瓶頸與集油器相接處，既是蒸氣進入集油器的入口，分離出油後的蒸餾水也由此回流入燒瓶，敘述正確。\n❌ (D) D 為浸在油浴中、盛裝檢品與水混合物的圓底燒瓶，加熱使水與揮發油共沸帶出，敘述正確。\n📚 出處：中華藥典 生藥揮發油測定法（揮發油定量裝置：輕油集油器與重油集油器之區別）"
   },
   {
    "n": 11,
@@ -644,7 +645,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph2'] = {
     "4"
    ],
    "a": 1,
-   "fig": "img/q/109100_305_22_45.webp"
+   "fig": "img/q/109100_305_22_45.webp",
+   "exp": "✅ (B) Sinigrin 屬硫配醣體（glucosinolate），結構為 Glc-S-C(=N-OSO3⁻)-CH2CH=CH2。myrosinase 先水解硫醣苷鍵釋出葡萄糖，生成不安定的 thiohydroximate-O-sulfonate，隨即發生 Lossen 型重排並脫去硫酸根：原接在中心碳（3）上的 allyl 基遷移到氮原子（2），形成 allyl-N=C=S，即 allyl isothiocyanate（芥子油、黑芥子的辛辣成分）。\n❌ (A) 1 是氮上的 O-sulfate，重排時以硫酸根（HSO4⁻）離去，不會接上 allyl 基。\n❌ (C) 3 是 allyl 原本所接的中心碳，重排後它成為 isothiocyanate 的中心碳（N=C=S），allyl 是離開此碳而非留在其上。\n❌ (D) 4 是原本連接葡萄糖的硫，酵素切斷 S–glucose 鍵後此硫留在 N=C=S 上；若 allyl 遷至硫則得 allyl thiocyanate（S-allyl），與題目指定的 isothiocyanate 產物不符。\n📚 出處：生藥學 含硫配醣體（glucosinolates）章：sinigrin 經 myrosinase 水解之 Lossen 重排"
   },
   {
    "n": 46,
