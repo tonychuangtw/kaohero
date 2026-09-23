@@ -684,7 +684,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt2'] = {
     "評量（evaluation）與診斷（diagnosis）",
     "照顧計畫（plan of care）與預後（prognosis）"
    ],
-   "a": 3
+   "a": 3,
+   "note": "⚠ 官方公布答案是 (D)，但與《Guide to Physical Therapist Practice》的定義衝突：該指引把病人／案主管理模式分成檢查、評量、診斷、預後、介入、結果六個要素，其中「預後」這一項的標題本身就寫明包含照顧計畫（Prognosis, including plan of care），兩者屬同一階段，並非不對應。\n反而「評量與診斷」是先後兩個獨立要素，「檢查與問題」也不是模式裡的對應關係，都比 (D) 更符合題目要問的方向。\n本題答案與教科書定義不一致，已不具參考價值；記住六個要素的順序與「預後含照顧計畫」即可，不必背本題的官方答案。"
   },
   {
    "n": 49,
