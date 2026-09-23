@@ -65828,7 +65828,7 @@ window.APP_EXAMS = [
   "subjName": "觀光資源概要",
   "label": "109 年　導遊人員　觀光資源概要",
   "n": 50,
-  "exp": 47,
+  "exp": 48,
   "mins": 60
  },
  {
