@@ -27,7 +27,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "partial agonist"
    ],
    "a": 3,
-   "fig": "img/q/113020_305_11_1.webp"
+   "fig": "img/q/113020_305_11_1.webp",
+   "exp": "✅ (D) 部分致效劑未出現在圖中。若加入 partial agonist 與 full agonist 競爭同一受體，曲線最大反應會被壓低、同時把 EC50 往右推（低劑量時本身還有部分內在活性），圖上三條曲線沒有任何一條呈現這種「右移併降低 Emax」的樣子。\n❌ (A) 圖中 A＋C 的曲線最大反應比 A 單獨還高、EC50 左移，代表藥物 C 結合在別位（allosteric site）而增強 A 的效力，就是變構活化劑。\n❌ (B) 圖中 A＋D 的曲線最大反應被壓低但起始段仍與 A 重疊，屬於加再多 A 也救不回來的非競爭性抑制，即變構抑制劑。\n❌ (C) 圖中 A＋B 的曲線平行右移、最大反應不變（提高 A 濃度仍可達原來的 Emax），是競爭性抑制劑的典型表現。\n📚 出處：受體劑量反應曲線判讀——競爭性拮抗、變構調節與部分致效劑的差異，藥理學總論。"
   },
   {
    "n": 2,
@@ -788,7 +789,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "4"
    ],
    "a": 0,
-   "fig": "img/q/113020_305_11_55.webp"
+   "fig": "img/q/113020_305_11_55.webp",
+   "exp": "✅ (A) 位置 1 是 5 位苯環的鄰位（2′ 位）。benzodiazepine 的構效關係中，2′ 位導入鹵素等吸電子基可使苯環扭轉成與 GABA_A 受體結合所需的角度並增加親和力，活性最佳，lorazepam（2′-Cl）即是實例。\n❌ (B) 位置 2 是苯環的間位（3′ 位），此處取代對受體結合沒有幫助，活性不會提升。\n❌ (C) 位置 3 是苯環的對位（4′ 位），對位取代會干擾分子與受體結合的立體構形，反而使活性明顯下降。\n❌ (D) 位置 4 落在七員環的 C3。該位置有利的取代是羥基（如 oxazepam、lorazepam 的 3-OH，便於接合排除），導入氯並不能增強抗焦慮活性。\n📚 出處：Benzodiazepine 類抗焦慮藥之構效關係（2′ 位鹵素取代），藥物化學中樞神經系統用藥。"
   },
   {
    "n": 56,
@@ -876,7 +878,8 @@ window.APP_EXAM_PAPERS['pha-113-1-ph1'] = {
     "D"
    ],
    "a": 3,
-   "fig": "img/q/113020_305_11_61.webp"
+   "fig": "img/q/113020_305_11_61.webp",
+   "exp": "✅ (D) ACE 是 dipeptidyl carboxypeptidase，從基質的羧基端切下一個雙胜肽。作用在 angiotensin I（Asp-Arg-Val-Tyr-Ile-His-Pro-Phe-His-Leu）時切開 Phe8–His9 之間，移去 C 端的 His-Leu 而生成八肽的 angiotensin II，箭頭 D 正是這個位置。\n❌ (A) 箭頭 A 在 Ile5–His6 之間，切在這裡只會留下五肽，無法產生 angiotensin II。\n❌ (B) 箭頭 B 在 His6–Pro7 之間，且 ACE 不切割脯胺酸前的鍵結，並非其作用點。\n❌ (C) 箭頭 C 在 Pro7–Phe8 之間，若由此切開會多切掉 Phe，所得產物並非 angiotensin II。\n📚 出處：Renin-angiotensin 系統中 ACE 的 dipeptidyl carboxypeptidase 作用（Phe8–His9 切點），藥理學心血管用藥。"
   },
   {
    "n": 62,
