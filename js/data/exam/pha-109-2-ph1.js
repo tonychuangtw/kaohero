@@ -936,7 +936,8 @@ window.APP_EXAM_PAPERS['pha-109-2-ph1'] = {
     "4"
    ],
    "a": 2,
-   "fig": "img/q/109100_305_11_65.webp"
+   "fig": "img/q/109100_305_11_65.webp",
+   "exp": "✅ (C) 標記 3 的 -OH 位在糖環的 C4，兩側同時被 C3-OH 與帶 CH2OH 的 C5 夾住，是四個羥基中立體障礙最大、最不易被 UGT 接近的位置；empagliflozin 在人體的主要代謝物只有 2-O、3-O 與 6-O-glucuronide 三種，並未生成 4-O-glucuronide。\n❌ (A) 標記 1 是糖環 C2 的 -OH，鄰接與芳香環相連的 C1，位置外露，是 2-O-glucuronide 的形成位點。\n❌ (B) 標記 2 是 C3 的 -OH，也是已確認的葡醣醛酸化位點（3-O-glucuronide）。\n❌ (D) 標記 4 是 C6 的一級醇（-CH2OH），立體障礙最小、反應性最高，最容易被 UGT 接上葡醣醛酸（6-O-glucuronide）。\n📚 出處：藥物代謝學－第二相反應 glucuronidation 的位置選擇性（C-glucoside 類 SGLT2 抑制劑 empagliflozin 的 2-O／3-O／6-O-glucuronide 代謝物）"
   },
   {
    "n": 66,
