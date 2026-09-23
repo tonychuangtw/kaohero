@@ -83,7 +83,7 @@ window.APP_EXAM_PAPERS['tea-114-1-t3004'] = {
     "乙、丁"
    ],
    "a": 1,
-   "fig": "img/q/114_30_5_5.webp"
+   "fig": "img/q/tea_114_30_5_5.webp"
   },
   {
    "n": 6,
@@ -152,7 +152,7 @@ window.APP_EXAM_PAPERS['tea-114-1-t3004'] = {
     "甲、乙、丙"
    ],
    "a": 3,
-   "fig": "img/q/114_30_5_10.webp"
+   "fig": "img/q/tea_114_30_5_10.webp"
   },
   {
    "n": 11,
@@ -291,7 +291,7 @@ window.APP_EXAM_PAPERS['tea-114-1-t3004'] = {
     "無法確定"
    ],
    "a": 1,
-   "fig": "img/q/114_30_5_20.webp"
+   "fig": "img/q/tea_114_30_5_20.webp"
   },
   {
    "n": 21,
@@ -374,7 +374,7 @@ window.APP_EXAM_PAPERS['tea-114-1-t3004'] = {
     "乙隊第四棒先落後再領先非選擇題（占 30 分）"
    ],
    "a": 3,
-   "fig": "img/q/114_30_5_26.webp"
+   "fig": "img/q/tea_114_30_5_26.webp"
   }
  ]
 };

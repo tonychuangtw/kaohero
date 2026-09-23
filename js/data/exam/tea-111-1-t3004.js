@@ -293,7 +293,8 @@ window.APP_EXAM_PAPERS['tea-111-1-t3004'] = {
     "丙圖",
     "都一樣難"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/tea_111_30_5_20.webp"
   },
   {
    "n": 21,

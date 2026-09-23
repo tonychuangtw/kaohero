@@ -131,8 +131,8 @@ claude-sonnet-4-6、gpt-oss-120b-medium）。Gemini 桶爆掉時 Claude 桶通�
 ## 補圖：題目要看圖但題庫裡沒圖（2026-09-23 做過一輪）
 
 有一批題題幹寫著「下圖／下表」，但圖在轉檔時沒被保留，站上等於答不了，當初都記進 `exp-skips.json` 跳過。
-原始 PDF 裡圖還在，可以整題裁回來。2026-09-23 補了 1,678 題（chu 334、den 424、loc 241、pt 135、pha 122、
-mlt 115、tcm 110、pol 66、tou 39、ot 37、gao 31、tea 15、nur 6、nut 3），0 失敗。
+原始 PDF 裡圖還在，可以整題裁回來。2026-09-23 補了 1,686 題（chu 334、den 424、loc 241、pt 135、pha 122、
+mlt 115、tcm 110、pol 66、tou 39、ot 37、gao 31、tea 23、nur 6、nut 3），只有 1 題沒補到。
 
 ```bash
 python3 tools/figmap.py --check                      # 建 pid → 原始 PDF 對照表並驗證
@@ -152,10 +152,13 @@ node tools/build-index.js --write && node test/test.js
 - **牙醫／中醫／藥師的原始 PDF 不在 `~/exam-pdfs`**（當初收完就刪了），要先重抓：
   `python3 tools/moex-fetch.py 牙醫師 ~/exam-pdfs/den 102 115`（中醫師／藥師同理，各約 10 分鐘）。
 - **教檢（tea-*）的 pid 推不回檔名**（科目名稱正規化在 gen_tqa 裡），用 `tools/figmap-tqa.py`
-  以「答案張數＋第 1 題題幹」比對，206 卷對得上。
+  以「答案張數＋第 1 題題幹」比對，206 卷對得上（民國 96、97 年那幾卷比不到，還有 1 題沒補）。
+- **教檢的圖檔名有 `tea_` 前綴，PDF 檔名沒有**（`tea_103_30_5_18.webp` ↔ `103_30_5_q.pdf`）。
+  拿圖檔名當 PDF 路徑會讀到空檔，`cropfig` 回的錯是 **「找不到第 N 題」**，看起來像題號認不出來，
+  其實是檔案根本不存在——遇到這個錯先確認 PDF 路徑存不存在。`pid-pdf.json` 因此改成三段
+  `[目錄, PDF 前綴, 圖檔前綴]`，第三段省略時跟 PDF 前綴一樣。
 - **`cropfig.crop()` 每次都會把整份 PDF 重跑一次 `pdftotext -bbox-layout`**，一卷裁 10 題就是 10 倍時間。
   已加 `pages=` 參數讓呼叫端快取（`figfill.py` 就是這樣用的）。
-- 國小數學能力測驗有 8 題 `cropfig` 認不出題號（`找不到第 N 題`），那幾題仍留在 skips，沒硬補。
 - **補圖的題保留題目文字、只多一張圖**（不設 `needfig`、不清空選項）。因此 `test/test.js` 的
   「needfig 數＝有圖數」已改成「needfig 的題一定有圖」，不要改回去。
 - 補完要 `exp-skip-drop --has-fig` **加 `--only`**：不加 `--only` 會把「本來就有圖、但圖看不清楚而跳過」

@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['tea-105-1-t3008'] = {
     "丁圖",
     "都一樣長"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/tea_105_30_5_3.webp"
   },
   {
    "n": 4,

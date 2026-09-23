@@ -9,7 +9,8 @@
 產出：img/q/<code>_<c>_<s>_<題號>.webp（已存在就跳過）與 <輸入檔>-done.json
       {pid: {題號: "img/q/…webp"}}；裁不出來的記在 <輸入檔>-bad.json。
 
-對照表來自 tools/pid-pdf.json（tools/figmap.py 產生）。找不到對照的卷會跳過並列出來——
+對照表來自 tools/pid-pdf.json（tools/figmap.py 產生），每筆是
+[PDF 目錄, PDF 檔名前綴, 圖檔名前綴（可省略，省略就跟 PDF 前綴一樣）]。找不到對照的卷會跳過並列出來——
 牙醫／中醫／藥師的原始 PDF 2026-09-23 當時不在本機，要先用 tools/moex-fetch.py 重抓。
 """
 import os, sys, json, time, collections
@@ -33,11 +34,13 @@ def main():
         if match and match not in pid: continue
         if pid not in pmap:
             nomap[pid.split('-')[0]] += len(targets[pid]); continue
-        work, stem = pmap[pid]
+        row = pmap[pid]
+        work, stem = row[0], row[1]
+        img = row[2] if len(row) > 2 else stem      # 教檢的圖檔名有 tea_ 前綴，PDF 檔名沒有
         pdf = os.path.join(work, 'pdf', stem + '_q.pdf')
         pages = None
         for n in targets[pid]:
-            fn = 'img/q/%s_%d.webp' % (stem, n)
+            fn = 'img/q/%s_%d.webp' % (img, n)
             dst = os.path.join(ROOT, fn)
             if os.path.exists(dst):
                 done[pid][n] = fn; continue

@@ -165,7 +165,7 @@ window.APP_EXAM_PAPERS['tea-115-1-t2002'] = {
     "前圖示期、圖示期"
    ],
    "a": 1,
-   "fig": "img/q/115_10_3_11.webp"
+   "fig": "img/q/tea_115_10_3_11.webp"
   },
   {
    "n": 12,

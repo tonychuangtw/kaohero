@@ -220,7 +220,7 @@ window.APP_EXAM_PAPERS['tea-106-1-t3008'] = {
     "6"
    ],
    "a": 0,
-   "fig": "img/q/106_30_5_15.webp"
+   "fig": "img/q/tea_106_30_5_15.webp"
   },
   {
    "n": 16,
@@ -290,7 +290,7 @@ window.APP_EXAM_PAPERS['tea-106-1-t3008'] = {
     "只有乙、丙正確"
    ],
    "a": 0,
-   "fig": "img/q/106_30_5_20.webp"
+   "fig": "img/q/tea_106_30_5_20.webp"
   },
   {
    "n": 21,
@@ -360,7 +360,7 @@ window.APP_EXAM_PAPERS['tea-106-1-t3008'] = {
     "因為乙車轉彎角度是 135°，所以乙車轉彎的角度最大"
    ],
    "a": 3,
-   "fig": "img/q/106_30_5_25.webp"
+   "fig": "img/q/tea_106_30_5_25.webp"
   },
   {
    "n": 26,

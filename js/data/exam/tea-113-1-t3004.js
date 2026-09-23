@@ -152,7 +152,7 @@ window.APP_EXAM_PAPERS['tea-113-1-t3004'] = {
     "504"
    ],
    "a": 0,
-   "fig": "img/q/113_30_5_10.webp"
+   "fig": "img/q/tea_113_30_5_10.webp"
   },
   {
    "n": 11,

@@ -37,7 +37,9 @@ def main():
     out, miss = {}, []
     for pid, (nq, q1, stem) in sorted(have.items()):
         if stem:                       # 已經有圖的卷直接反推，不必再比對
-            out[pid] = stem
+            # 圖檔名是 gen_tqa 加了 tea_ 前綴的（tea_103_30_5_18.webp），PDF 叫 103_30_5_q.pdf。
+            # 直接拿圖檔名去開 PDF 會讀到空檔，cropfig 會回「找不到第 N 題」（2026-09-23 踩過）。
+            out[pid] = stem[4:] if stem.startswith('tea_') else stem
             continue
         roc = pid.split('-')[1].lstrip('0')
         cands = sorted(f[:-6] for f in os.listdir(os.path.join(WORK, 'pdf'))
@@ -64,7 +66,7 @@ def main():
         f = os.path.join(HERE, 'pid-pdf.json')
         m = json.load(open(f, encoding='utf-8'))
         for pid, st in out.items():
-            m[pid] = [WORK, st]
+            m[pid] = [WORK, st, 'tea_' + st]        # 第三段＝圖檔名前綴（沒有就跟 PDF 前綴一樣）
         json.dump(m, open(f, 'w'), ensure_ascii=False, indent=0)
         print('已併進 tools/pid-pdf.json（共 %d 卷）' % len(m))
 

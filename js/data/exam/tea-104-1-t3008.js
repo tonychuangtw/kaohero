@@ -137,7 +137,7 @@ window.APP_EXAM_PAPERS['tea-104-1-t3008'] = {
     "丁"
    ],
    "a": 3,
-   "fig": "img/q/104_30_5_9.webp"
+   "fig": "img/q/tea_104_30_5_9.webp"
   },
   {
    "n": 10,
@@ -165,7 +165,7 @@ window.APP_EXAM_PAPERS['tea-104-1-t3008'] = {
     "因為正方形的邊長不知道，所以甲、乙的大小無法比較"
    ],
    "a": 1,
-   "fig": "img/q/104_30_5_11.webp"
+   "fig": "img/q/tea_104_30_5_11.webp"
   },
   {
    "n": 12,
@@ -221,7 +221,7 @@ window.APP_EXAM_PAPERS['tea-104-1-t3008'] = {
     "26"
    ],
    "a": 1,
-   "fig": "img/q/104_30_5_15.webp"
+   "fig": "img/q/tea_104_30_5_15.webp"
   },
   {
    "n": 16,
@@ -303,7 +303,7 @@ window.APP_EXAM_PAPERS['tea-104-1-t3008'] = {
     "認識直角、銳角、鈍角三角形1 1"
    ],
    "a": 2,
-   "fig": "img/q/104_30_5_21.webp"
+   "fig": "img/q/tea_104_30_5_21.webp"
   },
   {
    "n": 22,
@@ -317,7 +317,7 @@ window.APP_EXAM_PAPERS['tea-104-1-t3008'] = {
     "整體單位量"
    ],
    "a": 3,
-   "fig": "img/q/104_30_5_22.webp"
+   "fig": "img/q/tea_104_30_5_22.webp"
   },
   {
    "n": 23,
