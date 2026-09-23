@@ -789,7 +789,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
     "vasopressin"
    ],
    "a": 1,
-   "fig": "img/q/106100_305_11_55.webp"
+   "fig": "img/q/106100_305_11_55.webp",
+   "exp": "✅ (B) 圖中第 1 位不是 Cys 而是「CH-CH2S-」且 X＝H，代表 α-胺基被移除（1-desamino，即 mercaptopropionic acid），第 8 位又是 D-Arg，正是 desmopressin（1-desamino-8-D-arginine vasopressin, DDAVP）的結構。去胺基可抵抗胺基胜肽酶、延長作用，D 型 Arg 則降低對 V1 受體的升壓活性，使其選擇性作用於 V2 受體，用於尿崩症與夜間遺尿。\n❌ (A) cosyntropin 為 ACTH 的 1-24 胜肽片段，共 24 個胺基酸且無雙硫鍵環狀結構，與圖中九胜肽不符。\n❌ (C) oxytocin 第 3 位為 Ile、第 8 位為 Leu，且第 1 位保有游離 α-胺基（X 為 NH2），與圖中 Phe、D-Arg 不合。\n❌ (D) vasopressin 第 8 位是 L-Arg 且第 1 位為完整的 Cys（帶 α-胺基）；本題 X＝H 已去胺基、Arg 又為 D 型，故非原型 vasopressin。\n📚 出處：Foye's Medicinal Chemistry，腦下垂體後葉荷爾蒙（Posterior Pituitary Hormones）—vasopressin 類似物之構效關係"
   },
   {
    "n": 56,
@@ -917,7 +918,8 @@ window.APP_EXAM_PAPERS['pha-106-2-ph1'] = {
     "esterase"
    ],
    "a": 3,
-   "fig": "img/q/106100_305_11_64.webp"
+   "fig": "img/q/106100_305_11_64.webp",
+   "exp": "✅ (D) 圖示為 levetiracetam（2-(2-oxopyrrolidin-1-yl)butanamide）。其主要代謝途徑是血液及組織中的 B 型 esterase／amidase 水解側鏈的一級醯胺（-CONH2）成羧酸代謝物 ucb L057，約佔劑量 24%，不依賴肝臟微粒體酵素，因此藥物交互作用少。\n❌ (A) levetiracetam 幾乎不經 CYP450 代謝，這也是它相較於 phenytoin、carbamazepine 交互作用少的主因。\n❌ (B) 分子中沒有酚、醇或羧酸等可供 UGT 接上葡萄糖醛酸的官能基，非主要途徑。\n❌ (C) 結構中無環氧化物（epoxide），epoxide hydrolase 無受質可作用；該酵素主要負責 carbamazepine-10,11-epoxide 的水解。\n📚 出處：Foye's Medicinal Chemistry，抗癲癇藥（Antiepileptic Drugs）—levetiracetam 之醯胺水解代謝"
   },
   {
    "n": 65,
