@@ -730,7 +730,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph3'] = {
     "42.0"
    ],
    "a": 1,
-   "fig": "img/q/106020_305_33_51.webp"
+   "fig": "img/q/106020_305_33_51.webp",
+   "exp": "✅ (B) 殘餘面積用外推法：AUC(4→∞)＝C₄／k。先由表求消除速率常數，濃度約每 2 小時減半（19.8→9.7、29.3→14.6），故 t½≈2 h、k＝0.693／2≈0.347 h⁻¹。代入得 9.7／0.347≈28 ng·h/mL，四個選項中最接近 30.0。\n❌ (A) 21.4 等於把 k 高估為約 0.45 h⁻¹（t½≈1.5 h），與表中每 2 小時減半的實際衰減不符。\n❌ (C) 36.4 相當於 k≈0.27 h⁻¹，是只取 4→5 小時單一區間斜率的結果，未用整段終端資料，低估了消除速率。\n❌ (D) 42.0 需 k≈0.23 h⁻¹（t½≈3 h），與數據明顯不合，殘餘面積被嚴重高估。\n📚 出處：Shargel《Applied Biopharmaceutics and Pharmacokinetics》—Area Under the Curve：梯形法與 Cₗₐₛₜ／k 外推殘餘面積"
   },
   {
    "n": 52,
@@ -800,7 +801,8 @@ window.APP_EXAM_PAPERS['pha-106-1-ph3'] = {
     "圖II d"
    ],
    "a": 1,
-   "fig": "img/q/106020_305_33_56.webp"
+   "fig": "img/q/106020_305_33_56.webp",
+   "exp": "✅ (B) 圖 II 是二室模式。速效劑量 R／k 是按一室（中央室）算出來的，快速輸注後中央室濃度先衝到 Css 附近，但藥物隨即往周邊室分布，使血漿濃度掉到 Css 以下，之後靠恆速輸注慢慢累積再回升到 Css，形成先降、凹陷、再上升的曲線 b。\n❌ (A) 圖 I 是一室模式，曲線 a 從高於 Css 單調下降至 Css，代表速效劑量給得過大，並非 R／k 的情形。\n❌ (C) 圖 I 的 c 由低於 Css 單調上升至 Css，代表速效劑量不足（或只靠輸注累積），沒有分布造成的凹陷。\n❌ (D) 圖 II 的 d 起始濃度遠高於 Css 後一路單調下降，是二室模式中速效劑量過大的曲線，不會出現濃度先低於 Css 再回升的轉折。\n📚 出處：Shargel《Applied Biopharmaceutics and Pharmacokinetics》—Intravenous Infusion：二室模式的 Loading Dose 與分布相造成的濃度凹陷"
   },
   {
    "n": 57,
