@@ -5,7 +5,7 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION:
+NEXT_ACTION: 等勘誤批次收工，再開詳解 worker 補新補圖那批。
 　1. 等 `tools/note-batch.sh` 跑完（勘誤提醒，紀錄 `~/.claude/note-batch.log`，候選歸零就收工）
 　2. note-batch 收工後 `systemctl --user start exp-worker` 補那 1,672 題新補圖題的詳解
 　　 （`EXP_MATCH=.`、引擎必須是 claude —— agy／deepseek 讀不了圖）。
