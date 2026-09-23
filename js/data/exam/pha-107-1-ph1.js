@@ -845,7 +845,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
     "口服吸收佳、可通過BBB"
    ],
    "a": 3,
-   "fig": "img/q/107020_305_11_59.webp"
+   "fig": "img/q/107020_305_11_59.webp",
+   "exp": "✅ (D) 圖為 tiagabine：以 nipecotic acid（哌啶-3-羧酸）為 GABA 再回收（GAT-1）抑制的活性中心，再接上一條由兩個 3-methylthiophene 構成的親脂性丁烯基側鏈。Nipecotic acid 本身是兩性離子，口服吸收與中樞穿透都很差；加上這條大型親脂性錨（lipophilic anchor）後，分子整體親脂性大增，口服生體可用率約 90%，且能通過血腦障壁到達腦部抑制 GAT-1，因此「口服吸收佳、可通過 BBB」。\n❌ (A) 口服吸收與中樞穿透兩項都判錯；會吸收差又不過 BBB 的是未修飾的 nipecotic acid 本身。\n❌ (B) 吸收部分判錯：親脂側鏈已使其口服吸收良好，並非吸收差。\n❌ (C) BBB 部分判錯：藥物若不能進入中樞就無法發揮抗癲癇作用，設計此側鏈的目的正是讓它過 BBB。\n📚 出處：Foye's Principles of Medicinal Chemistry, Antiseizure Agents—GABA Reuptake (GAT-1) Inhibitors：Tiagabine 的親脂錨設計"
   },
   {
    "n": 60,
@@ -859,7 +860,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
     "只有R(−)-異構物有藥理活性，臨床上使用R(−)-異構物"
    ],
    "a": 0,
-   "fig": "img/q/107020_305_11_60.webp"
+   "fig": "img/q/107020_305_11_60.webp",
+   "exp": "✅ (A) 圖為 4-amino-5-hexenoic acid，即 vigabatrin（γ-vinyl-GABA），C4 為唯一掌性中心。其 S(+)-異構物才能被 GABA transaminase（GABA-AT）辨識，以乙烯基形成共價鍵造成不可逆的自殺性抑制；R(−)-異構物幾乎無活性。因分離成本高且 R 型無明顯毒性，臨床製劑為消旋混合物（racemate），故「只有 S(+) 有活性、臨床用消旋混合物」正確。\n❌ (B) 活性異構物寫反：有活性的是 S(+) 而非 R(−)。\n❌ (C) 兩個異構物都有活性的敘述錯誤，R(−) 對 GABA-AT 不具有意義的抑制力。\n❌ (D) 活性構型寫反，且臨床上市的是消旋混合物，不是單一鏡像體。\n📚 出處：Foye's Principles of Medicinal Chemistry, Antiseizure Agents—Vigabatrin（GABA-AT 自殺性受質）之立體專一性"
   },
   {
    "n": 61,
@@ -873,7 +875,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
     "2S,2'R"
    ],
    "a": 0,
-   "fig": "img/q/107020_305_11_61.webp"
+   "fig": "img/q/107020_305_11_61.webp",
+   "exp": "✅ (A) 圖為 methylphenidate（哌啶環 C2' 與酯基 α 碳 C2 各一個掌性中心）。C2' 上的 H 為粗楔線（朝向觀察者）、C2 上的 H 為虛線（朝後），兩取代基呈 threo 排列。依 CIP：C2' 的順序為 N > C2（接酯基碳）> 環上 C3' > H；C2 的順序為 C(=O)OCH3 > 苯環 C > C2' ... 逐一排序後兩個中心皆為 R，即 (2R,2'R)，正是臨床單一鏡像體製劑 dexmethylphenidate（d-threo 型），也是活性最強的構型。\n❌ (B) 2S,2'S 是它的鏡像（l-threo），活性遠低，非本圖楔線／虛線所示的組態。\n❌ (C) 2R,2'S 屬 erythro 對映組，兩個 H 需同側（同為楔線或同為虛線），與圖不符。\n❌ (D) 2S,2'R 同為 erythro 組的另一鏡像，亦與圖中一楔線一虛線的 threo 排列不符。\n📚 出處：Foye's Principles of Medicinal Chemistry, CNS Stimulants—Methylphenidate 的 threo/erythro 立體化學與 dexmethylphenidate"
   },
   {
    "n": 62,
@@ -999,7 +1002,8 @@ window.APP_EXAM_PAPERS['pha-107-1-ph1'] = {
     "3S,5S"
    ],
    "a": 0,
-   "fig": "img/q/107020_305_11_70.webp"
+   "fig": "img/q/107020_305_11_70.webp",
+   "exp": "✅ (A) 圖為 statin 類開環的 3,5-二羥基庚酸（dihydroxy heptanoic acid）藥效基團，C3 與 C5 為兩個掌性中心。此段結構模擬 HMG-CoA 還原反應的中間物／mevalonate，必須與天然受質構型相符才能與酵素緊密結合，活性構型固定為 3R,5R（兩個 OH 呈 syn 關係），如 atorvastatin、rosuvastatin 開環酸及 lovastatin 內酯水解後的形式皆為此構型。\n❌ (B) 3R,5S 為 anti（threo）型二醇，兩個羥基間距與取向無法同時與酵素的極性口袋作用，活性大幅下降。\n❌ (C) 3S,5R 同屬 anti 型組合，非天然 mevalonate 對應構型。\n❌ (D) 3S,5S 是 3R,5R 的鏡像，雖同為 syn 二醇但空間方向相反，無法被 HMG-CoA reductase 辨識。\n📚 出處：Foye's Principles of Medicinal Chemistry, Antihyperlipidemic Agents—HMG-CoA Reductase Inhibitors 之 3,5-二羥基酸藥效基團立體化學"
   },
   {
    "n": 71,
