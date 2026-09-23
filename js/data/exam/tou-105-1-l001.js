@@ -575,7 +575,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l001'] = {
     "此機票最少必須在香港停留兩天，最長可以在香港停留 3 個月"
    ],
    "a": 3,
-   "fig": "img/q/105040_601_0101_39.webp"
+   "fig": "img/q/105040_601_0101_39.webp",
+   "exp": "✅ (D) 票根票價計算欄的「ITI ** MIN/MAX 2D-3MONTHS」即本票的最短／最長停留限制：旅客在中間點香港最少須停留 2 天（2 Days），最長不得超過 3 個月，逾期回程票即失效，故敘述正確。\n❌ (A) 航段狀態欄第 1 段 TPE-HKG 標示「USED」表示去程已使用，第 2 段 HKG-TPE 標示「AVEL」（available）表示回程仍有效可用，並非不可使用。\n❌ (B) 第 2 段航段的航空公司代碼為「KA」，是港龍航空；國泰航空的代碼為「CX」，即第 1 段臺北－香港所搭乘的班機，兩者不可混淆。\n❌ (C) 票根末行「END: NENDO NONRERTG NONRFND」分別代表 NON-ENDORSABLE（不可背書轉讓）、NON-REROUTING（不可更改行程）、NON-REFUNDABLE（不可退票），故本票連行程都不能更改，敘述錯誤。\n📚 出處：領隊實務（一）／航空票務：電子機票收據判讀（航空公司代碼、航段狀態 USED／AVEL、MIN/MAX 停留限制與 ENDO、RERTG、RFND 限制欄）"
   },
   {
    "n": 40,
