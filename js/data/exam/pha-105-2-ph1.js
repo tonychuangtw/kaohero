@@ -734,7 +734,8 @@ window.APP_EXAM_PAPERS['pha-105-2-ph1'] = {
     "tegafur"
    ],
    "a": 2,
-   "fig": "img/q/105100_305_11_51.webp"
+   "fig": "img/q/105100_305_11_51.webp",
+   "exp": "✅ (C) 圖中為 pyrimidine-2,4-dione（uracil）母核，C-5 接一個氟原子，兩個環氮（N-1、N-3）都是游離 NH、沒有接糖或其他取代基，即 5-fluorouracil。它在體內轉成 FdUMP 抑制 thymidylate synthase，阻斷 dTMP 合成而抗癌。\n❌ (A) trifluridine 是核苷類，C-5 帶的是三氟甲基（CF3）且 N-1 接 deoxyribose，圖中只有單一 F、也沒有糖環。\n❌ (B) vidarabine 的母核是 purine（adenine）加 arabinose，結構為雙環含胺基，與圖中單環二酮完全不同。\n❌ (D) tegafur 是 5-FU 的前藥，N-1 接一個四氫呋喃基（tetrahydrofuranyl），圖中 N-1 為游離 NH，故非 tegafur。\n📚 出處：藥物化學－抗代謝型抗癌藥（pyrimidine antimetabolites：5-FU 與其前藥）"
   },
   {
    "n": 52,
