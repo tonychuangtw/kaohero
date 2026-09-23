@@ -56252,7 +56252,7 @@ window.APP_EXAMS = [
   "subjName": "犯罪偵查概要",
   "label": "110 年　四等考試　犯罪偵查概要",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
