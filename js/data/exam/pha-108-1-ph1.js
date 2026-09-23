@@ -634,7 +634,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "CYP1A2"
    ],
    "a": 0,
-   "fig": "img/q/108030_305_11_44.webp"
+   "fig": "img/q/108030_305_11_44.webp",
+   "exp": "✅ (A) 圖中為 imidazopyridine 骨架接 p-tolyl 與 N,N-dimethylacetamide 側鏈，且吡啶環 6 位帶甲基，即非苯二氮平類安眠藥 zolpidem。zolpidem 在肝臟主要由 CYP3A4 將兩個甲基氧化成羧酸而失活（CYP3A4 約佔 60% 以上），因此與 ketoconazole、ritonavir 等 CYP3A4 抑制劑併用會使血中濃度升高、鎮靜作用延長；與 rifampin 併用則療效下降。\n❌ (B) CYP2D6 主要代謝含鹼性胺的 debrisoquine 型受質（如 codeine、metoprolol、fluoxetine），非 zolpidem 的主要途徑。\n❌ (C) CYP2C9 主要代謝酸性受質如 S-warfarin、phenytoin、NSAIDs，僅少量參與 zolpidem 代謝。\n❌ (D) CYP1A2 主要代謝平面多環化合物如 caffeine、theophylline，會受吸菸誘導，與 zolpidem 代謝關係甚小。\n📚 出處：Katzung, Basic & Clinical Pharmacology, Sedative-Hypnotic Drugs（zolpidem 之 CYP3A4 代謝與交互作用）"
   },
   {
    "n": 45,
@@ -860,7 +861,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "5"
    ],
    "a": 1,
-   "fig": "img/q/108030_305_11_60.webp"
+   "fig": "img/q/108030_305_11_60.webp",
+   "exp": "✅ (B) 圖中為 2,3-dichlorophenyl 接 1,2,4-triazine 並帶兩個 NH2 的結構，即抗癲癇藥 lamotrigine。其主要代謝途徑是由 UGT1A4 在三氮環的 N2（圖中標示 2 的氮）進行 N-glucuronidation，生成 2-N-glucuronide，約佔排泄量七成以上。也因走 glucuronidation，valproate 抑制此反應會使 lamotrigine 半衰期延長（需減量以降低嚴重皮疹風險），carbamazepine 等誘導劑則相反。\n❌ (A) 位置 1 的環氮與 C6 的芳香取代基相鄰，位阻大且鹼性弱，非主要接合位置。\n❌ (C) 位置 3 是環外的芳香胺 NH2，其接合量遠少於 N2，僅為次要代謝物。\n❌ (D) 位置 5 同為環外 NH2，只佔極少比例，不是主要 glucuronidation 位置。\n📚 出處：Goodman & Gilman, Pharmacotherapy of the Epilepsies（lamotrigine 之 UGT1A4 N2-glucuronidation）"
   },
   {
    "n": 61,
@@ -1102,7 +1104,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph1'] = {
     "mizolastine"
    ],
    "a": 0,
-   "fig": "img/q/108030_305_11_77.webp"
+   "fig": "img/q/108030_305_11_77.webp",
+   "exp": "✅ (A) 圖中為 triprolidine 骨架（pyridine + p-tolyl + 丙烯基接 pyrrolidine）在吡啶環 6 位再接一條丙烯酸（HOOC-CH=CH-），此羧酸使分子極性增加而不易穿過血腦障壁，正是第二代抗組織胺 acrivastine 的結構特徵。\n❌ (B) cetirizine 為 hydroxyzine 的羧酸代謝物，含二苯甲基 piperazine 與 oxyacetic acid 側鏈，結構中無吡啶環。\n❌ (C) fexofenadine 為 terfenadine 的羧酸代謝物，含 piperidine、二苯基甲醇與二甲基乙酸基，分子遠比圖中結構大。\n❌ (D) mizolastine 含 benzimidazole 與 fluorobenzyl-piperidine、pyrimidinone 結構，並無羧酸側鏈。\n📚 出處：Foye's Principles of Medicinal Chemistry, Histamine and Antihistaminic Agents（第二代 H1 拮抗劑之結構特徵）"
   },
   {
    "n": 78,
