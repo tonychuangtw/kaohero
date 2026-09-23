@@ -1083,7 +1083,8 @@ window.APP_EXAM_PAPERS['pha-108-1-ph3'] = {
     "0.25"
    ],
    "a": 3,
-   "fig": "img/q/108030_305_33_76.webp"
+   "fig": "img/q/108030_305_33_76.webp",
+   "exp": "✅ (D) 圖為 Lineweaver-Burk 型作圖。穩定狀態下給藥速率等於排除速率：R＝Vmax·Css/(KM＋Css)，取倒數得 1/R＝(KM/Vmax)(1/Css)＋1/Vmax，故 y 截距＝1/Vmax、斜率＝KM/Vmax。由圖讀出 y 截距 0.1 h/mg → Vmax＝10 mg/h；斜率＝(0.9－0.1)/(0.2－0)＝4 → KM/Vmax＝4，KM＝40 mg/L。因此 Vmax/KM＝10/40＝0.25 L/h。亦可直接用 x 截距：－1/KM＝－0.025 → KM＝40 mg/L，結果相同。\n❌ (A) 0.10 是 y 截距的數值，代表 1/Vmax（Vmax＝10 mg/h），不是 Vmax/KM。\n❌ (B) 0.15 在圖上無對應量，由截距 0.1 與斜率 4 的任何組合都得不到此值。\n❌ (C) 0.20 只是橫軸 1/Css 的最右端刻度，與 Vmax/KM 無關；Vmax/KM 應為斜率的倒數 1/4＝0.25。\n📚 出處：藥物動力學－非線性（Michaelis-Menten）動力學：穩定狀態給藥速率與 Css 的倒數作圖求 Vmax 與 KM"
   },
   {
    "n": 77,
