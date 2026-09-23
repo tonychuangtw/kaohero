@@ -644,7 +644,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "tidal",
     "seismic"
    ],
-   "a": 2
+   "a": 2,
+   "note": "⚠ 官方公布答案是 (C) tidal。海嘯在英文裡的正式別稱是 seismic sea waves（地震海浪），tidal wave 雖是民間對海嘯的舊稱，但它本身即為完整名詞，不會再接 sea waves，填進空格搭配並不成立；且海嘯由海底地震引起，與潮汐（tide）無關，美國海洋暨大氣總署等機構已不建議再用 tidal wave 稱之。依教科書與現行用法，本題應選 (D) seismic。"
   },
   {
    "n": 46,
