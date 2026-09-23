@@ -1153,7 +1153,8 @@ window.APP_EXAM_PAPERS['pha-110-2-ph1'] = {
     "suramin"
    ],
    "a": 1,
-   "fig": "img/q/110101_305_33_80.webp"
+   "fig": "img/q/110101_305_33_80.webp",
+   "exp": "✅ (B) 圖中左側為 4,6-二胺基-1,3,5-triazine（melamine 型）經 NH 連到苯環，苯環對位再接一個三價砷（As），砷與二硫醇形成含 S–As–S 的五員環並帶 CH2OH 側鏈，這正是 melarsoprol（melarsen oxide 與 dimercaprol 的加成物）的結構，用於非洲錐蟲病侵犯中樞神經期。\n❌ (A) eflornithine 為 α-二氟甲基鳥胺酸，是不含環的脂肪族胺基酸衍生物，結構上只有 CHF2、COOH 與兩個胺基，沒有三嗪環或砷。\n❌ (C) nifurtimox 為 5-硝基呋喃環接 hydrazone 並連到含 S,S-二氧化物的 thiomorpholine，主結構是硝基呋喃而非含砷化合物。\n❌ (D) suramin 為對稱的多環聚磺酸尿素衍生物，分子量大、帶 6 個磺酸基，與圖示小分子含砷結構完全不同。\n📚 出處：抗原蟲藥－抗錐蟲藥（melarsoprol 的含砷 dithiaarsolane 結構），藥物化學。"
   }
  ]
 };
