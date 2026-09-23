@@ -663,7 +663,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "R4"
    ],
    "a": 3,
-   "fig": "img/q/107100_305_11_46.webp"
+   "fig": "img/q/107100_305_11_46.webp",
+   "exp": "✅ (D) R4 位於 C14。Digitoxigenin 為 3β,14β-dihydroxy-card-20(22)-enolide，全分子只有兩個 OH：一個在 C3（圖中已畫出 HO），另一個就是 R4 所在的 C14 β-OH；此 14β-OH 是強心配基與 Na+/K+-ATPase 結合、產生正性肌力作用的必要基團。\n❌ (A) R1 在 C1，為氫。A 環上只有 C3 帶羥基，C1 無取代。\n❌ (B) R2 在 C6，為氫。5β-構型的 B 環在此位置無含氧取代基。\n❌ (C) R3 在 C12，為氫。C12 若帶 β-OH 即成為 digoxigenin（digoxin 的配基），這正是 digitoxin 與 digoxin 極性與半衰期差異的來源。\n📚 出處：Lemke《Foye's Principles of Medicinal Chemistry》Cardiac Glycosides—cardenolide 基本骨架與 3β,14β-OH"
   },
   {
    "n": 47,
@@ -861,7 +862,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "R,S"
    ],
    "a": 1,
-   "fig": "img/q/107100_305_11_60.webp"
+   "fig": "img/q/107100_305_11_60.webp",
+   "exp": "✅ (B) 依 CIP 規則逐一判讀。中心 1（接苯環的 carbinol 碳）優先序為 OH ＞ CH2NH–（首原子為 N）＞ 苯基 ＞ H；圖中 OH 以虛線朝後、隱藏的 H 朝向觀察者，紙面上 OH→CH2N→苯基 呈順時針，因最低優先基朝前必須反轉，故為 S。中心 2 優先序為 N ＞ 異丙基 C(C,C,H) ＞ CH3 ＞ H；CH3 以粗楔朝前、H 朝後可直接判讀，N→異丙基→CH3 呈順時針，故為 R。合為 S,R。\n❌ (A) R,R：中心 1 判成 R，等於漏掉「OH 為虛線、H 朝前」而未將旋向反轉。\n❌ (C) S,S：中心 2 判成 S，忽略 CH3 是粗楔朝前、H 朝後，此時讀到的旋向不必反轉。\n❌ (D) R,S：兩個中心的旋向同時取反，為正確答案的對映異構物。\n📚 出處：Solomons《Organic Chemistry》Stereochemistry—Cahn-Ingold-Prelog 規則與 R,S 絕對組態判定"
   },
   {
    "n": 61,
@@ -947,7 +949,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph1'] = {
     "N-methylated代謝物"
    ],
    "a": 0,
-   "fig": "img/q/107100_305_11_66.webp"
+   "fig": "img/q/107100_305_11_66.webp",
+   "exp": "✅ (A) 圖為 pregabalin（3-(aminomethyl)-5-methylhexanoic acid，GABA 類似物）。它在人體幾乎不進行代謝，約 90% 以原形經腎臟由尿液排出，不經 CYP450 代謝也不誘導或抑制 CYP，因此藥物交互作用少；但腎功能不全者必須依肌酸酐清除率調整劑量。\n❌ (B) 分子雖含羧酸，臨床上並未觀察到顯著的葡萄糖醛酸結合代謝物，此非主要排出型態。\n❌ (C) N-乙醯化（NAT2）是磺胺類、isoniazid、procainamide 等芳香胺與醯肼的路徑；pregabalin 的一級脂肪胺走此路者僅極微量。\n❌ (D) N-甲基化代謝物在人體約僅佔劑量的 0.9%，遠不及原形。\n📚 出處：Lemke《Foye's Principles of Medicinal Chemistry》Antiseizure Agents—pregabalin 之代謝與腎臟排除"
   },
   {
    "n": 67,
