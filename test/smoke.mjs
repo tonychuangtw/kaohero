@@ -792,6 +792,23 @@ await send('Emulation.clearDeviceMetricsOverride', {}, sessionId);
     return a&&b&&sig(a)===sig(b)&&a.length===20;
   })()`);
   ok(same === true, '同一週同一科抽兩次，題組完全一樣');
+
+  // 成績單上的排名區塊：登入後才畫得出來，這裡餵假資料驗版面不會壞
+  const rk = await ev(`(()=>{
+    const main=document.getElementById('main');
+    const stub={T:x=>x,btn:()=>document.createElement('button'),
+      sectionHead:t=>{const d=document.createElement('div');d.className='sec-h';
+        const h=document.createElement('h2');h.textContent=t;d.appendChild(h);return d;},
+      signedIn:()=>true};
+    window.KHRank.render(main,stub,{setid:'2026W39',data:{
+      n:42,mean:63,best:95,hist:[0,1,2,4,8,10,7,5,3,2],
+      my:{score:78,total:80,secs:1200,rank:9,percentile:81},
+      top:[{nick:'甲',score:95,me:false},{nick:'我',score:78,me:true}]}});
+    const t=main.textContent;
+    return [t.includes('贏過 81%'), t.includes('42'), main.querySelectorAll('.rk-bar').length,
+            main.querySelectorAll('.rk-bar.me').length].join('|');
+  })()`);
+  ok(rk === 'true|true|10|1', `排名區塊畫得出來，分布 10 格、自己那格標色（實得 ${rk}）`);
 }
 
 ok(logs.length === 0, 'console 沒有錯誤' + (logs.length ? '：' + logs.slice(0, 2).join(' | ') : ''));
