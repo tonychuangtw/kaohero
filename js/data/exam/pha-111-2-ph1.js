@@ -643,7 +643,8 @@ window.APP_EXAM_PAPERS['pha-111-2-ph1'] = {
     "1S，2S"
    ],
    "a": 1,
-   "fig": "img/q/111100_305_11_45.webp"
+   "fig": "img/q/111100_305_11_45.webp",
+   "exp": "✅ (B) C1 的取代基優先序為 OH > C2（接 N、C、H）> 苯基（C、C、C）> H；圖中 OH 為粗楔形朝向觀察者、H 朝後，可直接讀 OH（上）→C2（右下）→苯基（左下）為順時針，故 C1 為 R。C2 的優先序為 NHCH3 > C1（接 O、C、H）> CH3 > H，H 同樣朝後，讀 N（右上）→C1（左上）→CH3（下）為逆時針，故 C2 為 S，即 (1R,2S)，正是天然的 (−)-ephedrine（erythro 型）。\n❌ (A) 1S,2R 是 (+)-ephedrine，為本圖化合物的鏡像異構物，兩個手性中心的組態都要相反才成立。\n❌ (C) 1R,2R 是 (−)-pseudoephedrine，屬 threo 型；若為此組態，C2 上的 CH3 需畫成虛線（朝後）。\n❌ (D) 1S,2S 是 (+)-pseudoephedrine，與 (1R,2R) 互為鏡像，同樣屬 threo 型而非圖中的 erythro 排列。\n📚 出處：擬交感神經藥物的立體化學－ephedrine 與 pseudoephedrine 的 CIP 組態判定，藥物化學。"
   },
   {
    "n": 46,
