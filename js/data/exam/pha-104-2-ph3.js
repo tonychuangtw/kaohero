@@ -993,7 +993,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph3'] = {
     "12.5"
    ],
    "a": 3,
-   "fig": "img/q/104090_305_33_70.webp"
+   "fig": "img/q/104090_305_33_70.webp",
+   "exp": "✅ (D) 穩定狀態時給藥速率等於排除速率，R＝Vmax·Css/(Km＋Css)。取倒數得 Lineweaver-Burk 形式 1/R＝(Km/Vmax)(1/Css)＋1/Vmax，故縱軸截距即 1/Vmax。圖中直線於 1/Css＝0 處截距約 0.08 h/mg，Vmax＝1/0.08＝12.5 mg/h。（橫軸截距約 −0.12 L/mg＝−1/Km，可推 Km≈8 mg/L；斜率 Km/Vmax≈0.67 亦相符。）\n❌ (A) 4 是把截距誤讀成 0.25（該點是最右側的資料點，非截距）。\n❌ (B) 8 是由橫軸截距 −1/Km 求得的 Km 值，單位為 mg/L，不是 Vmax。\n❌ (C) 10 未由截距換算，係目測直線位置的臆測值，不符 1/Vmax≈0.08。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Nonlinear Pharmacokinetics（Michaelis-Menten 消除與 Lineweaver-Burk 作圖求 Vmax、Km）"
   },
   {
    "n": 71,
