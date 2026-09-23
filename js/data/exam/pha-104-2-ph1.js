@@ -716,7 +716,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
     "ANO環"
    ],
    "a": 1,
-   "fig": "img/q/104090_305_11_50.webp"
+   "fig": "img/q/104090_305_11_50.webp",
+   "exp": "✅ (B) 圖為 morphinan（嗎啡類）五環骨架：A 芳香環、B 環、C 脂環、含氮的 N 環（哌啶環）與 C4–C5 的呋喃氧橋（O 環）。Pentazocine 屬苯并嗎啡烷（benzomorphan，2,6-methano-3-benzazocine），只保留帶酚 OH 的 A 芳香環、B 環與含氮的 N 環三環，故為 ABN 環。\n❌ (A) ABC 環不含氮原子，無法與鴉片受體的陰離子區形成離子鍵；且 pentazocine 已無 C 脂環。\n❌ (C) pentazocine 保有 B 環而缺 C 環，ACN 的組合與其骨架不符。\n❌ (D) O 環是嗎啡 C4–C5 的呋喃氧橋，pentazocine 與 benzomorphan 類均無此氧橋。\n📚 出處：Foye's Medicinal Chemistry, Opioid Analgesics — 嗎啡骨架簡化（benzomorphan 類構效關係）"
   },
   {
    "n": 51,
@@ -758,7 +759,8 @@ window.APP_EXAM_PAPERS['pha-104-2-ph1'] = {
     "Norepinephrine transporter"
    ],
    "a": 1,
-   "fig": "img/q/104090_305_11_53.webp"
+   "fig": "img/q/104090_305_11_53.webp",
+   "exp": "✅ (B) 圖中化合物為 cocaine（tropane 骨架，2 位甲酯、3 位苯甲酸酯）。它是單胺再回收幫浦（DAT、NET、SERT）的抑制劑，對屬於 SLC6 家族但受質不同的 GABA transporter 幾乎無親和力，結合力最小。\n❌ (A) 阻斷 dopamine transporter 使突觸間隙多巴胺上升，正是 cocaine 成癮與欣快感的主要機轉，結合力高。\n❌ (C) cocaine 對 serotonin transporter 亦有高親和力，屬非選擇性單胺再回收抑制劑。\n❌ (D) 阻斷 norepinephrine transporter 產生心跳加快、血壓上升等交感興奮作用，結合力同樣明顯。\n📚 出處：Foye's Medicinal Chemistry, CNS Stimulants — cocaine 與單胺轉運體（DAT/NET/SERT）之作用"
   },
   {
    "n": 54,
