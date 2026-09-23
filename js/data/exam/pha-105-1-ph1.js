@@ -793,7 +793,8 @@ window.APP_EXAM_PAPERS['pha-105-1-ph1'] = {
     "R1＝H，R2＝R3＝tetrazole"
    ],
    "a": 0,
-   "fig": "img/q/105020_305_11_55.webp"
+   "fig": "img/q/105020_305_11_55.webp",
+   "exp": "✅ (A) 圖中 R1 標在遠端苯環與聯苯鍵結碳的鄰位（2′-位），R2 為間位（3′-位）、R3 為對位（4′-位）。losartan 的四唑（tetrazole）就接在 2′-位，其餘位置皆為氫，故 R1＝tetrazole、R2＝R3＝H。四唑環是羧酸的生物電子等排體（bioisostere），pKa 與 COOH 相近但親脂性較高、代謝較穩定，且 2′-位的方向性正好讓它與 AT1 受體結合位的鹼性殘基形成離子作用，是 sartan 類藥物構效關係的關鍵。\n❌ (B) R2 為 3′-位（間位），四唑放此處無法對準 AT1 受體的結合點，活性大幅下降。\n❌ (C) R3 為 4′-位（對位），losartan 此位置是氫，非四唑。\n❌ (D) losartan 分子中只有一個四唑環，不可能同時出現在 R2 與 R3。\n📚 出處：Foye's Principles of Medicinal Chemistry, Angiotensin II Receptor Antagonists（Sartan 類構效關係與 tetrazole bioisostere）"
   },
   {
    "n": 56,
