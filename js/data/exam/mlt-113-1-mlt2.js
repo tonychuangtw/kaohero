@@ -699,7 +699,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
     "Thrombin，FVa，FVIIIa",
     "Thrombin，FIIa，FXa"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_308_22_49.webp"
   },
   {
    "n": 50,
@@ -712,7 +713,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
     "Factor Xa，factor II",
     "Tissue factor，factor VII"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113020_308_22_50.webp"
   },
   {
    "n": 51,

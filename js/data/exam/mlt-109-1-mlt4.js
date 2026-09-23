@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt4'] = {
     "C",
     "D"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_308_66_39.webp"
   },
   {
    "n": 40,

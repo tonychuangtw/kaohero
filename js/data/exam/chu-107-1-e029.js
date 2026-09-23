@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "空乏型 NMOS",
     "空乏型 PMOS"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107010_515_0702_2.webp"
   },
   {
    "n": 3,
@@ -208,7 +209,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "0V",
     "0.25 V"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107010_515_0702_14.webp"
   },
   {
    "n": 15,
@@ -221,7 +223,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "40 V",
     "50 V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107010_515_0702_15.webp"
   },
   {
    "n": 16,
@@ -262,7 +265,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "D1 on, D2 on",
     "D1 off, D2 off"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107010_515_0702_18.webp"
   },
   {
    "n": 19,
@@ -303,7 +307,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "1 mA",
     "3 mA"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/107010_515_0702_21.webp"
   },
   {
    "n": 22,
@@ -372,7 +377,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "57",
     "67"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107010_515_0702_26.webp"
   },
   {
    "n": 27,
@@ -483,7 +489,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "1.5 V",
     "3V"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107010_515_0702_34.webp"
   },
   {
    "n": 35,
@@ -524,7 +531,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e029'] = {
     "13,360",
     "40,000"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107010_515_0702_37.webp"
   },
   {
    "n": 38,

@@ -110,7 +110,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c029'] = {
     "VD =1.9 V，VG =3.2 V，VS =3.5 V",
     "VD =3.7 V，VG =3.2 V，VS =6.4 V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112200_512_2615_7.webp"
   },
   {
    "n": 8,
@@ -235,7 +236,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c029'] = {
     "1.72 mA",
     "2.1 mA"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112200_512_2615_16.webp"
   },
   {
    "n": 17,
@@ -460,7 +462,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c029'] = {
     "共基極（CB）放大器",
     "共閘極（CG）放大器"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112200_512_2615_32.webp"
   },
   {
    "n": 33,

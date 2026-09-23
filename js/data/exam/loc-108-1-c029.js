@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "空乏型 NMOS",
     "空乏型 PMOS"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108190_513_2814_1.webp"
   },
   {
    "n": 2,
@@ -81,7 +82,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "2R",
     "3R"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108190_513_2814_5.webp"
   },
   {
    "n": 6,
@@ -136,7 +138,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "二極體 D1 導通、二極體 D2 不導通",
     "二極體 D1 不導通、二極體 D2 導通"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108190_513_2814_9.webp"
   },
   {
    "n": 10,
@@ -163,7 +166,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "Vin",
     "Vin"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108190_513_2814_11.webp"
   },
   {
    "n": 12,
@@ -190,7 +194,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "PIV2=20 V",
     "VC2+PIV2=40 V"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108190_513_2814_13.webp"
   },
   {
    "n": 14,
@@ -287,7 +292,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "2 mA",
     "1 mA"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108190_513_2814_20.webp"
   },
   {
    "n": 21,
@@ -384,7 +390,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "90/11",
     "5"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108190_513_2814_27.webp"
   },
   {
    "n": 28,
@@ -509,7 +516,8 @@ window.APP_EXAM_PAPERS['loc-108-1-c029'] = {
     "800",
     "400"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108190_513_2814_36.webp"
   },
   {
    "n": 37,

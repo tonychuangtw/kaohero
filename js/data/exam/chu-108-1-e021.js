@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e021'] = {
     "a 點到 b 點",
     "a 點到 c 點"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108010_510_0505_5.webp"
   },
   {
    "n": 6,
@@ -137,7 +138,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e021'] = {
     "四邊形 BCFG",
     "四邊形 KCQ2O0.1M"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108010_510_0505_9.webp"
   },
   {
    "n": 10,

@@ -56,7 +56,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c007'] = {
     "Q",
     "2Qd"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103070_402_1605_3.webp"
   },
   {
    "n": 4,

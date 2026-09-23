@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot6'] = {
     "肘內收45度",
     "肘外展135度"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105020_312_66_1.webp"
   },
   {
    "n": 2,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot6'] = {
     "當要試圖伸直手指時，反而會造成遠端指節（DIP）的過度伸直（hyper-extension）",
     "又稱trigger finger"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105020_312_66_4.webp"
   },
   {
    "n": 5,

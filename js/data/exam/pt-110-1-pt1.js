@@ -756,7 +756,8 @@ window.APP_EXAM_PAPERS['pt-110-1-pt1'] = {
     "肌肉1：縫匠肌（sartorius）；肌肉2：股直肌（rectus femoris）",
     "肌肉1：腓腸肌（gastrocnemius）；肌肉2：股內側肌（vastus medialis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110020_311_44_53.webp"
   },
   {
    "n": 54,

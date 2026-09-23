@@ -420,7 +420,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "lymphocyte",
     "monocyte"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_308_22_29.webp"
   },
   {
    "n": 30,
@@ -433,7 +434,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "mucosa-associated lymphoid tissue（MALT）lymphoma",
     "mantle cell lymphoma"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105100_308_22_30.webp"
   },
   {
    "n": 31,
@@ -558,7 +560,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "Toxic granule",
     "Auer rod"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_308_22_39.webp"
   },
   {
    "n": 40,
@@ -1117,7 +1120,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt2'] = {
     "hairy cell",
     "Reed-Sternberg cell"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_308_22_79.webp"
   },
   {
    "n": 80,

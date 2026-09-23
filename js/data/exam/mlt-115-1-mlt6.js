@@ -726,7 +726,8 @@ window.APP_EXAM_PAPERS['mlt-115-1-mlt6'] = {
     "拮抗作用（antagonism）",
     "容忍作用（tolerance）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115020_308_0503_51.webp"
   },
   {
    "n": 52,

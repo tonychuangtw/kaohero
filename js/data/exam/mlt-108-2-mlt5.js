@@ -546,7 +546,8 @@ window.APP_EXAM_PAPERS['mlt-108-2-mlt5'] = {
     "yeast",
     "squamous epithelial cell"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_308_33_38.webp"
   },
   {
    "n": 39,

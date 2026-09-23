@@ -488,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt1'] = {
     "右肝靜脈（right hepatic vein）",
     "左肝靜脈（left hepatic vein）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_308_11_34.webp"
   },
   {
    "n": 35,

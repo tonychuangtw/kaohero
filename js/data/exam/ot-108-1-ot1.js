@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['ot-108-1-ot1'] = {
     "（甲）處含有與平衡有關的感覺受器",
     "⿊⾊箭頭所指是覆膜（tectorial membrane）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_312_11_30.webp"
   },
   {
    "n": 31,

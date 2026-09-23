@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "VD 之最大值為 2 VRD",
     "VD 之最小值為 2 V V D3V VGS"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110010_515_0702_1.webp"
   },
   {
    "n": 2,
@@ -53,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "15 kΩ",
     "20 kΩvIvo"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110010_515_0702_3.webp"
   },
   {
    "n": 4,
@@ -122,7 +124,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "Rin1=4kΩ、Rin2=2kΩ",
     "Rin1=4kΩ、Rin2=4kΩ"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110010_515_0702_8.webp"
   },
   {
    "n": 9,
@@ -149,7 +152,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "19",
     "21 VoutVin"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110010_515_0702_10.webp"
   },
   {
    "n": 11,
@@ -162,7 +166,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "-2 V",
     "+12 V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110010_515_0702_11.webp"
   },
   {
    "n": 12,
@@ -217,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "-2V 及 -12V",
     "+2V 及 -10V"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110010_515_0702_15.webp"
   },
   {
    "n": 16,
@@ -258,7 +264,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "vout 之最高電壓為 10 V",
     "vC 之穩態電壓為 9.3 Vvin vout"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110010_515_0702_18.webp"
   },
   {
    "n": 19,
@@ -287,7 +294,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "截波電路",
     "箝位電路"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110010_515_0702_20.webp"
   },
   {
    "n": 21,
@@ -300,7 +308,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "vO 的最大值為 +10 V",
     "vO 的最大值為 +20 V"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110010_515_0702_21.webp"
   },
   {
    "n": 22,
@@ -426,7 +435,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "4V 1.2kΩ",
     "2V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110010_515_0702_30.webp"
   },
   {
    "n": 31,
@@ -467,7 +477,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "700k rad/s",
     "500k rad/s"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/110010_515_0702_33.webp"
   },
   {
    "n": 34,
@@ -480,7 +491,8 @@ window.APP_EXAM_PAPERS['chu-110-1-e029'] = {
     "150 Q2Q1",
     "250vi2"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110010_515_0702_34.webp"
   },
   {
    "n": 35,

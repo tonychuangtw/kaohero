@@ -1120,7 +1120,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt5'] = {
     "microsatellite instability",
     "loss of heterozygosity"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112100_308_33_79.webp"
   },
   {
    "n": 80,

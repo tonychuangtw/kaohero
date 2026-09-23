@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['pt-107-2-pt6'] = {
     "RML wheeze",
     "RLL rhonchi"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_311_66_3.webp"
   },
   {
    "n": 4,
@@ -275,7 +276,8 @@ window.APP_EXAM_PAPERS['pt-107-2-pt6'] = {
     "左心房收縮末期壓力有明顯上升",
     "左心室舒張末期壓力（LV end-diastolic pressure）增加"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_311_66_19.webp"
   },
   {
    "n": 20,

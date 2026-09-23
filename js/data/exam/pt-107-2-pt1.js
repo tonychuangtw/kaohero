@@ -714,7 +714,8 @@ window.APP_EXAM_PAPERS['pt-107-2-pt1'] = {
     "蚓狀肌（lumbrical muscles）或背側骨間肌（dorsal interosseus muscle）會變得纖維化且攣縮",
     "此變形為天鵝頸畸形（swan-neck deformity）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107100_311_11_50.webp"
   },
   {
    "n": 51,

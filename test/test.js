@@ -111,12 +111,15 @@ EXAMS.forEach(e => {
 });
 ok(expBad.length === 0, `詳解格式都合規（問題 ${expBad.length} 筆${expBad.length ? '：' + expBad.slice(0, 3).join('、') : ''}）`);
 
-let needfig = 0, withFig = 0;
+// needfig＝題幹與選項都在圖上（沒有圖就不能作答）；另外有一種是題目文字讀得出來、
+// 但內容要配合圖表才答得出來的（2026-09-23 回頭補的那批），那種保留文字、只多一張圖，
+// 所以不能再要求 needfig 與有圖的題數相等，只要求「needfig 的題一定有圖」。
+let needfig = 0, withFig = 0, needNoFig = 0;
 EXAMS.forEach(e => {
   const p = window.APP_EXAM_PAPERS[e.id]; if (!p) return;
-  p.qs.forEach(q => { if (q.needfig) needfig++; if (q.fig) withFig++; });
+  p.qs.forEach(q => { if (q.needfig) { needfig++; if (!q.fig) needNoFig++; } if (q.fig) withFig++; });
 });
-ok(needfig === withFig, `需要圖的題目都有圖（needfig ${needfig}、有圖 ${withFig}）`);
+ok(needNoFig === 0, `需要圖的題目都有圖（needfig ${needfig}、有圖 ${withFig}、缺圖 ${needNoFig}）`);
 EXAMS.forEach(e => {
   const p = window.APP_EXAM_PAPERS[e.id]; if (!p) return;
   p.qs.forEach(q => { if (q.fig) ok(fs.existsSync(path.join(ROOT, q.fig)), q.fig + ' 圖檔存在'); });

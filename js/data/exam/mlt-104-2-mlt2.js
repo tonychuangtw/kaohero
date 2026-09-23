@@ -546,7 +546,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "嗜酸性白血球",
     "嗜鹼性白血球"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_308_22_38.webp"
   },
   {
    "n": 39,
@@ -559,7 +560,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt2'] = {
     "monocyte",
     "megakaryocyte"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_308_22_39.webp"
   },
   {
    "n": 40,

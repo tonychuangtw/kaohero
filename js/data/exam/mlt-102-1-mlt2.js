@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt2'] = {
     "0.5 mm3",
     "0.01 mm3"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102030_109_0501_24.webp"
   },
   {
    "n": 25,
@@ -375,7 +376,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt2'] = {
     "Basophil",
     "Monocyte"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102030_109_0501_26.webp"
   },
   {
    "n": 27,

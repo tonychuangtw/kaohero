@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['mlt-114-1-mlt2'] = {
     "Chronic myeloid leukemia",
     "Chronic lymphocytic leukemia"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114020_308_0501_24.webp"
   },
   {
    "n": 25,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['mlt-114-1-mlt2'] = {
     "巨大血小板",
     "淋巴球"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114020_308_0501_25.webp"
   },
   {
    "n": 26,
@@ -514,7 +516,8 @@ window.APP_EXAM_PAPERS['mlt-114-1-mlt2'] = {
     "Monocyte",
     "Reactive lymphocyte"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_308_0501_36.webp"
   },
   {
    "n": 37,
@@ -541,7 +544,8 @@ window.APP_EXAM_PAPERS['mlt-114-1-mlt2'] = {
     "Chronic myeloid leukemia",
     "Chronic lymphoid leukemia"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114020_308_0501_38.webp"
   },
   {
    "n": 39,
@@ -568,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-114-1-mlt2'] = {
     "①Lymphocyte，②Neutrophil",
     "①Monocyte，②Basophil"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/114020_308_0501_40.webp"
   },
   {
    "n": 41,

@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt4'] = {
     "L3，不完全性損傷（ASIA C）",
     "L2，不完全性損傷（ASIA C）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_311_11_39.webp"
   },
   {
    "n": 40,

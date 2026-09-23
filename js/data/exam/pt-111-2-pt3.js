@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt3'] = {
     "膕旁肌（hamstring）",
     "髖內收肌（hip adductor）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111100_311_66_30.webp"
   },
   {
    "n": 31,

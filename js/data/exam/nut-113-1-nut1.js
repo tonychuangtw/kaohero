@@ -278,7 +278,8 @@ window.APP_EXAM_PAPERS['nut-113-1-nut1'] = {
     "C",
     "D"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113030_102_33_19.webp"
   },
   {
    "n": 20,

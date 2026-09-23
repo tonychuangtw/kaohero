@@ -514,7 +514,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt1'] = {
     "A為膽囊結⽯，B為⾳影（acoustic shadow）",
     "A為膽囊結⽯，B為回⾳增益"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_308_11_36.webp"
   },
   {
    "n": 37,

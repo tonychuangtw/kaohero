@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt2'] = {
     "Neutrophil",
     "Eosinophil"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113090_308_22_39.webp"
   },
   {
    "n": 40,

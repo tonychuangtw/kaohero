@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['pt-107-1-pt2'] = {
     "跨專業團隊模式（trans-disciplinary model）",
     "複合式專業團隊模式（complex-disciplinary model）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107020_311_22_5.webp"
   },
   {
    "n": 6,

@@ -362,7 +362,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "AML M1",
     "AML M4"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_308_22_25.webp"
   },
   {
    "n": 26,
@@ -543,7 +544,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "①lymphocyte ②neutrophil",
     "①normoblast ②neutrophil"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106020_308_22_38.webp"
   },
   {
    "n": 39,
@@ -640,7 +642,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "May Hegglin disease",
     "Gray platelet syndrome"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_308_22_45.webp"
   },
   {
    "n": 46,
@@ -653,7 +656,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "vWD",
     "Platelet-type vWD"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_308_22_46.webp"
   },
   {
    "n": 47,

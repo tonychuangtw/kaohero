@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "IR",
     "2 IR I +R R E−"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104180_513_2114_8.webp"
   },
   {
    "n": 9,
@@ -346,7 +347,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "0 V 10kΩ− 10kΩ",
     "2 V vO11V + −-2V 10kΩ vO+"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104180_513_2114_24.webp"
   },
   {
    "n": 25,
@@ -359,7 +361,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "3",
     "4 R− Vout+ AOVin +− R2R"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104180_513_2114_25.webp"
   },
   {
    "n": 26,
@@ -400,7 +403,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "提高 Vcc VO",
     "減低 VbQ+Vb−CR2 Vi"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104180_513_2114_28.webp"
   },
   {
    "n": 29,
@@ -496,7 +500,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "vO",
     "vO8V0V t-2V 0V t"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104180_513_2114_35.webp"
   },
   {
    "n": 36,
@@ -509,7 +514,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "5 ms −+40kΩ",
     "6 ms + VO10kΩ"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104180_513_2114_36.webp"
   },
   {
    "n": 37,
@@ -522,7 +528,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "-2.3 V VO",
     "0.2 VQ1 Q2-5V"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104180_513_2114_37.webp"
   },
   {
    "n": 38,
@@ -535,7 +542,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "3.5 ＿＿＿ VCM + ＿＿＿ − Vod + ＿＿＿ VCM −2 ＿＿＿ Q2Q1",
     "4RS ＿＿＿ RSI-VSS"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104180_513_2114_38.webp"
   },
   {
    "n": 39,
@@ -548,7 +556,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c029'] = {
     "A⋅B VO",
     "A⋅ BB"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104180_513_2114_39.webp"
   },
   {
    "n": 40,

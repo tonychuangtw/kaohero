@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b023'] = {
     "Module-15 計數器",
     "Module-16 計數器"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106190_432_2513_8.webp"
   },
   {
    "n": 9,
@@ -307,7 +308,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b023'] = {
     "a, g, d, c, e, f, b, h, i, j, k",
     "a, d, e, f, g, c, b, h, j, i, k"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106190_432_2513_21.webp"
   },
   {
    "n": 22,

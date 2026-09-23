@@ -222,7 +222,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b013'] = {
     "c、b、a",
     "b、c、a"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111070_503_1601_15.webp"
   },
   {
    "n": 16,

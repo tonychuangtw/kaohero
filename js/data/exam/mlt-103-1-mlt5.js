@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt5'] = {
     "血小板",
     "腎小管上皮細胞"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103020_311_33_3.webp"
   },
   {
    "n": 4,
@@ -529,7 +530,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt5'] = {
     "leucine crystal",
     "bilirubin crystal"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_311_33_37.webp"
   },
   {
    "n": 38,

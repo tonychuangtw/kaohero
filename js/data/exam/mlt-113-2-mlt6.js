@@ -702,7 +702,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
     "linezolid",
     "kanamycin"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/113090_308_44_49.webp"
   },
   {
    "n": 50,

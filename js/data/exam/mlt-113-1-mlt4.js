@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt4'] = {
     "核仁特異性RNA",
     "組織蛋白（histone）與DNA複合物"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_308_66_40.webp"
   },
   {
    "n": 41,

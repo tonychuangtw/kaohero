@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['gao-106-1-p027'] = {
     "A",
     "AF FB B"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106090_441_1320_11.webp"
   },
   {
    "n": 12,

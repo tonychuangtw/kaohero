@@ -334,7 +334,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt4'] = {
     "周邊型（peripheral）",
     "均勻型（homogeneous）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_308_66_23.webp"
   },
   {
    "n": 24,
@@ -585,7 +586,8 @@ window.APP_EXAM_PAPERS['mlt-104-2-mlt4'] = {
     "陰性",
     "重新檢測"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/104090_308_66_41.webp"
   },
   {
    "n": 42,

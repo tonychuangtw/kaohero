@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['pt-109-2-pt3'] = {
     "肩胛內收＋下沉（scapular adduction, depression）",
     "肩胛內收＋向下旋轉（scapular adduction, downward rotation）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_311_66_39.webp"
   },
   {
    "n": 40,

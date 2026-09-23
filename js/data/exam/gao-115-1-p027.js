@@ -236,7 +236,8 @@ window.APP_EXAM_PAPERS['gao-115-1-p027'] = {
     "22ns",
     "23ns"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/115080_453_2707_16.webp"
   },
   {
    "n": 17,

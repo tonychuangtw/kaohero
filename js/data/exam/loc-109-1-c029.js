@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "3",
     "4 2MΩ RDVD2MΩ1kΩ"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109190_512_2614_3.webp"
   },
   {
    "n": 4,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "VG = 3 V、VD = 2 V",
     "VG = 4 V、VD = 5 VVGVD"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109190_512_2614_4.webp"
   },
   {
    "n": 5,
@@ -205,7 +207,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "5 V 10 C D",
     "15 V t vi(t) R vo(t)-10 5V"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109190_512_2614_14.webp"
   },
   {
    "n": 15,
@@ -218,7 +221,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "VC4=90 V C2 D3",
     "Vp=150 V v i(t) D2 C3 VC3D1 C4 VC4C1 D4VC1"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109190_512_2614_15.webp"
   },
   {
    "n": 16,
@@ -231,7 +235,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "10 V D V",
     "12 V VR D Rvi(t) R vo1(t) vi(t) vo2(t)R"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109190_512_2614_16.webp"
   },
   {
    "n": 17,
@@ -258,7 +263,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "整流+",
     "倍壓Vin C1 RL Vout−"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109190_512_2614_18.webp"
   },
   {
    "n": 19,
@@ -355,7 +361,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "4.95 V vi vout",
     "5.75 V10kΩ 5kΩ 4kΩ−5V +5V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109190_512_2614_25.webp"
   },
   {
    "n": 26,
@@ -480,7 +487,8 @@ window.APP_EXAM_PAPERS['loc-109-1-c029'] = {
     "Q5為共閘極放大器Q6 Q7 Q8",
     "Q6與 Q8提供保護電路vi− vi+ voQ1 Q2C1IREFQ3 Q4 Q5−VSSVo (s) 500"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109190_512_2614_34.webp"
   },
   {
    "n": 35,

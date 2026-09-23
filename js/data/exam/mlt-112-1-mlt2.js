@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Plasma cell",
     "Natural killer cell"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_308_22_21.webp"
   },
   {
    "n": 22,
@@ -417,7 +418,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Lazy leukocyte",
     "Alder-Reilly anomaly"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112020_308_22_29.webp"
   },
   {
    "n": 30,
@@ -877,7 +879,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Myeloma cell；多倍體（polyploidy）",
     "Myeloma cell；非整倍體（aneuploidy）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/112020_308_22_62.webp"
   },
   {
    "n": 63,
@@ -1128,7 +1131,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "表現 CD45-/CD13+（部分）/CD33+（部分）標記，符合髓系（myeloid）白血病診斷",
     "表現 CD34 標記"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/112020_308_22_80.webp"
   }
  ]
 };

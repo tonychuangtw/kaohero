@@ -501,7 +501,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt2'] = {
     "lymphoblast",
     "plasma cell"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105020_308_22_35.webp"
   },
   {
    "n": 36,

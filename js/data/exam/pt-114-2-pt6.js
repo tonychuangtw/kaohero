@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['pt-114-2-pt6'] = {
     "C",
     "D"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_311_0703_21.webp"
   },
   {
    "n": 22,

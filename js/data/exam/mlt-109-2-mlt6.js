@@ -1064,7 +1064,8 @@ window.APP_EXAM_PAPERS['mlt-109-2-mlt6'] = {
     "Trichophyton mentagrophytes",
     "Fonsecaea pedrosoi"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109100_308_44_75.webp"
   },
   {
    "n": 76,
@@ -1119,7 +1120,8 @@ window.APP_EXAM_PAPERS['mlt-109-2-mlt6'] = {
     "gamma-hemolysis",
     "delta-hemolysis"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_308_44_79.webp"
   },
   {
    "n": 80,

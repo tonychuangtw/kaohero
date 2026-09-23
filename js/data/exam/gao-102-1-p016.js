@@ -449,7 +449,8 @@ window.APP_EXAM_PAPERS['gao-102-1-p016'] = {
     "2 兆",
     "3 兆消 15 C+S=Yd費AE=C+I、投 9資A=Ca+Ia3 A AI Ia45°0 3 6 9 12 15所得"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102090_412_1202_31.webp"
   },
   {
    "n": 32,

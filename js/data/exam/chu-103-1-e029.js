@@ -53,7 +53,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "2 mA",
     "1 mA2 kΩ-1VVO5 kΩIL1 kΩ 100 Ω"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103010_515_0702_3.webp"
   },
   {
    "n": 4,
@@ -66,7 +67,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "+3 V",
     "+5 V 10 kVO1V--150 k1V100 k"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103010_515_0702_4.webp"
   },
   {
    "n": 5,
@@ -79,7 +81,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "+10",
     "+5"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103010_515_0702_5.webp"
   },
   {
    "n": 6,
@@ -162,7 +165,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "(2·Vi +5)/3",
     "(3·Vi +5)/4"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103010_515_0702_11.webp"
   },
   {
    "n": 12,
@@ -175,7 +179,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "2.3 V +5V",
     "4.3 V10 kΩ IDVO+ VD -15 kΩ 17 kΩ"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103010_515_0702_12.webp"
   },
   {
    "n": 13,
@@ -202,7 +207,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "1 V",
     "2 V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103010_515_0702_14.webp"
   },
   {
    "n": 15,
@@ -229,7 +235,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "3 mA",
     "4 mA 1 kΩ1 kΩ1 kΩ- Vout+VZ = 3V i"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103010_515_0702_16.webp"
   },
   {
    "n": 17,
@@ -256,7 +263,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "3V",
     "t"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103010_515_0702_18.webp"
   },
   {
    "n": 19,
@@ -423,7 +431,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "2 V൑VA＜4 V E -",
     "VA＜2 V R1 R2 R3 BDC R4-+ A- V1 +U2 R5"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103010_515_0702_30.webp"
   },
   {
    "n": 31,
@@ -561,7 +570,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e029'] = {
     "C 2 R 2 s 2 + 2CRs + 1 ViC 2 R 2s 2",
     "2 2 2C R s + 2CRs + 1 R R"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103010_515_0702_40.webp"
   }
  ]
 };

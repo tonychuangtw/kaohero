@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-112-1-a008'] = {
     "GNP",
     "GNP時間 時間"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112200_313_1712_4.webp"
   },
   {
    "n": 5,

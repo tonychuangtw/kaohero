@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['nur-111-1-nur4'] = {
     "3",
     "4"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111030_104_0304_14.webp"
   },
   {
    "n": 15,

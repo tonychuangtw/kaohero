@@ -1022,7 +1022,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt2'] = {
     "箭頭所指為toxic granule，最可能診斷bacterial infection（septic shock）",
     "箭頭所指為Barr body，最可能診斷MYH9 related disease"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_308_22_72.webp"
   },
   {
    "n": 73,
@@ -1035,7 +1036,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt2'] = {
     "Acquired von Willebrand disease in acute phase",
     "Thrombocytopenia due to severe sepsis"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109020_308_22_73.webp"
   },
   {
    "n": 74,

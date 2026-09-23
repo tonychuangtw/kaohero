@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['gao-111-1-p022'] = {
     "C+D+E+F",
     "B+D+E+F"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111090_419_0911_6.webp"
   },
   {
    "n": 7,

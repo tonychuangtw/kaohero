@@ -362,7 +362,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt5'] = {
     "牽拉右側胸小肌，治療肩胛骨前傾（scapular anterior tilt）動作過多造成之旋轉肌夾擠（rotator cuff impingement）",
     "訓練右側腰方肌（quadratus lumborum）離心肌力，改善腰背神經肌肉控制不良造成之下背痛"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102100_309_55_25.webp"
   },
   {
    "n": 26,
@@ -391,7 +392,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt5'] = {
     "右側肩胛下肌過緊",
     "右側前鋸肌無力"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102100_309_55_27.webp"
   },
   {
    "n": 28,
@@ -404,7 +406,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt5'] = {
     "增加肩關節 inferior glide",
     "肘關節肌力訓練"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102100_309_55_28.webp"
   },
   {
    "n": 29,
@@ -487,7 +490,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt5'] = {
     "肩外展肌",
     "肩內收肌"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102100_309_55_34.webp"
   },
   {
    "n": 35,

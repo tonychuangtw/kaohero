@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['loc-108-1-a008'] = {
     "a或c點",
     "c或d點"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108190_313_1702_1.webp"
   },
   {
    "n": 2,

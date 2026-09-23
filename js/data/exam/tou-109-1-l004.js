@@ -1058,7 +1058,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l004'] = {
     "Yes, there is a hint of confusion.",
     "No, it doesn’t offer figures.Plastic pollution has become one of the most pressing environmental issues, as rapidly increasing"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109040_501_0401_75.webp"
   },
   {
    "n": 76,

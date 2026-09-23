@@ -320,7 +320,8 @@ window.APP_EXAM_PAPERS['pt-110-1-pt2'] = {
     "系統理論",
     "權變理論"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_311_55_22.webp"
   },
   {
    "n": 23,
@@ -459,7 +460,8 @@ window.APP_EXAM_PAPERS['pt-110-1-pt2'] = {
     "甘特圖",
     "累進法"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_311_55_32.webp"
   },
   {
    "n": 33,
@@ -766,7 +768,8 @@ window.APP_EXAM_PAPERS['pt-110-1-pt2'] = {
     "mental health、role limitations-emotional",
     "只有vitality"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/110020_311_55_54.webp"
   },
   {
    "n": 55,

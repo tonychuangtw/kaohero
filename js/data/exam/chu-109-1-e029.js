@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "10 Rb －",
     "12 v2 R2R1"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109010_515_0702_3.webp"
   },
   {
    "n": 4,
@@ -67,7 +68,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "VG = 3 V、VD = 4 V",
     "VG = 2 V、VD = 4 V+ VG－ VD"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109010_515_0702_4.webp"
   },
   {
    "n": 5,
@@ -80,7 +82,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "+1－",
     "+10DvOR"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109010_515_0702_5.webp"
   },
   {
    "n": 6,
@@ -190,7 +193,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "VC2+VC3 = 10 V",
     "VC1+VC2+VC3 = 40 V D1 C2 VC2－T +C3 VC3D3 －"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109010_515_0702_13.webp"
   },
   {
    "n": 14,
@@ -258,7 +262,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "－0.5 Vτ 2τt vi(t) vo(t)",
     "－ 1 V R-8 － －"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/109010_515_0702_18.webp"
   },
   {
    "n": 19,
@@ -341,7 +346,8 @@ window.APP_EXAM_PAPERS['chu-109-1-e029'] = {
     "R1+ R2 理想",
     "R2 // (1/gm) R2voR1vi"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109010_515_0702_24.webp"
   },
   {
    "n": 25,

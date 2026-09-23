@@ -40,8 +40,10 @@ def find_q(pages, n):
                 if best is None: best = (pi, l['y0'])
     return best
 
-def crop(pdf, n, out, pad_top=10, pad_bot=4):
-    pages = boxes(pdf)
+def crop(pdf, n, out, pad_top=10, pad_bot=4, pages=None):
+    # pages 可以由呼叫端先算好重複使用：同一份 PDF 要裁很多題時，boxes() 佔掉幾乎全部時間
+    # （pdftotext -bbox-layout 整份重跑一次），一卷 10 題就是 10 倍（2026-09-23 補圖批次時加）
+    if pages is None: pages = boxes(pdf)
     a = find_q(pages, n)
     b = find_q(pages, n + 1)
     # ⚠ 不要用 SystemExit：批次裁圖時 except Exception 攔不到，整批會從中間斷掉

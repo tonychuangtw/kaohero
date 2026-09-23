@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b023'] = {
     "S = BC",
     "S = ABC + A"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105180_432_2211_1.webp"
   },
   {
    "n": 2,

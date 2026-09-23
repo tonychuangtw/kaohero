@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['mlt-106-2-mlt4'] = {
     "周邊型（peripheral）",
     "均勻型（homogeneous）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106100_308_66_18.webp"
   },
   {
    "n": 19,

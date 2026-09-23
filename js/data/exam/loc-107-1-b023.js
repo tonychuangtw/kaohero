@@ -166,7 +166,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b023'] = {
     "1",
     "2"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107190_433_2812_11.webp"
   },
   {
    "n": 12,
@@ -263,7 +264,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b023'] = {
     "43",
     "44"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107190_433_2812_18.webp"
   },
   {
    "n": 19,
@@ -276,7 +278,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b023'] = {
     "6",
     "0、1、4、5"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107190_433_2812_19.webp"
   },
   {
    "n": 20,
@@ -527,7 +530,8 @@ window.APP_EXAM_PAPERS['loc-107-1-b023'] = {
     "不是 min-heap 也不是 max-heap",
     "是 min-heap 也是 max-heap"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/107190_433_2812_37.webp"
   },
   {
    "n": 38,

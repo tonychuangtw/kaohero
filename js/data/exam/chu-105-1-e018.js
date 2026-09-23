@@ -473,7 +473,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e018'] = {
     "DEBCA；B B",
     "ABDCE；BD CE"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105010_509_0701_33.webp"
   },
   {
    "n": 34,

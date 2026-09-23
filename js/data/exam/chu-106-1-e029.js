@@ -110,7 +110,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "主動模式（Active mode）",
     "截止模式（Cut-off mode）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106010_515_0702_7.webp"
   },
   {
    "n": 8,
@@ -235,7 +236,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "60% 12 + VR D +4 8 R v (t)",
     "75% t vi(t) o-12 －－"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106010_515_0702_16.webp"
   },
   {
    "n": 17,
@@ -276,7 +278,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "-2 V 及 -1 V VIN VOUT－ VIN",
     "-2 V 及 -2 V 2V+D2"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106010_515_0702_19.webp"
   },
   {
    "n": 20,
@@ -303,7 +306,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "－vo",
     "iR+Rvs－iD2+－VD2π2πωt"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106010_515_0702_21.webp"
   },
   {
    "n": 22,
@@ -442,7 +446,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e029'] = {
     "7.5 Ω",
     "10 ΩQ1I = 0.1 mAQ2Zout"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106010_515_0702_31.webp"
   },
   {
    "n": 32,

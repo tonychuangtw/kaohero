@@ -586,7 +586,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c022'] = {
     "bd 線段/ab 線段",
     "bd 線段/cd 線段"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/112200_510_1509_41.webp"
   },
   {
    "n": 42,

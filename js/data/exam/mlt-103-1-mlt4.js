@@ -810,7 +810,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt4'] = {
     "類風濕因子干擾IgM檢測法",
     "捕捉IgM檢測法"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103020_311_66_57.webp"
   },
   {
    "n": 58,

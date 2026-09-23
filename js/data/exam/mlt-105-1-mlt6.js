@@ -924,7 +924,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "Microsporum canis",
     "Trichophyton violaceum"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105020_308_44_65.webp"
   },
   {
    "n": 66,
@@ -979,7 +980,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "莢膜組織漿菌（Histoplasma capsulatum）",
     "皮炎芽生黴菌（Blastomyces dermatitidis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105020_308_44_69.webp"
   },
   {
    "n": 70,
@@ -1006,7 +1008,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "Mucor species",
     "Rhizopus species"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105020_308_44_71.webp"
   },
   {
    "n": 72,

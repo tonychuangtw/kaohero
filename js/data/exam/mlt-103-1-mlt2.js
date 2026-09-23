@@ -404,7 +404,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt2'] = {
     "follicular lymphoma",
     "myeloma"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103020_311_22_28.webp"
   },
   {
    "n": 29,
@@ -487,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt2'] = {
     "Multiple myeloma",
     "Mantle cell lymphoma"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103020_311_22_34.webp"
   },
   {
    "n": 35,

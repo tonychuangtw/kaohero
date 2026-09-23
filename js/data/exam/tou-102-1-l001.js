@@ -684,7 +684,8 @@ window.APP_EXAM_PAPERS['tou-102-1-l001'] = {
     "BOEING 737",
     "BOEING 757"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102040_601_0101_48.webp"
   },
   {
    "n": 49,

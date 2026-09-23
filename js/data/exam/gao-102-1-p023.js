@@ -323,7 +323,8 @@ window.APP_EXAM_PAPERS['gao-102-1-p023'] = {
     "b < c < a",
     "b < a < c"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102090_439_1504_22.webp"
   },
   {
    "n": 23,

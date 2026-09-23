@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['pt-102-2-pt1'] = {
     "腭骨（Palatine bone）",
     "顳骨（Temporal bone）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102100_309_11_4.webp"
   },
   {
    "n": 5,

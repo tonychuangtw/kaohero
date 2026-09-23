@@ -530,7 +530,8 @@ window.APP_EXAM_PAPERS['mlt-102-2-mlt2'] = {
     "normoblast",
     "lymphocyte"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102100_311_22_37.webp"
   },
   {
    "n": 38,

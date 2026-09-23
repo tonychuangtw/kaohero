@@ -548,7 +548,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt5'] = {
     "triple phosphate crystal",
     "ammonium biurate crystal"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106020_308_33_38.webp"
   },
   {
    "n": 39,
@@ -965,7 +966,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt5'] = {
     "Mutation",
     "Translocation"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_308_33_68.webp"
   },
   {
    "n": 69,

@@ -225,7 +225,8 @@ window.APP_EXAM_PAPERS['gao-108-1-p026'] = {
     "c, a, b, d, e, g, f, i, h, k, j",
     "a, e, i, k, b, d, f, h, j, c, g"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108090_421_1416_15.webp"
   },
   {
    "n": 16,
@@ -238,7 +239,8 @@ window.APP_EXAM_PAPERS['gao-108-1-p026'] = {
     "68-8*1+",
     "1868-*+"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108090_421_1416_16.webp"
   },
   {
    "n": 17,
@@ -307,7 +309,8 @@ window.APP_EXAM_PAPERS['gao-108-1-p026'] = {
     "80",
     "88"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108090_421_1416_21.webp"
   },
   {
    "n": 22,

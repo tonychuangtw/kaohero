@@ -1107,7 +1107,8 @@ window.APP_EXAM_PAPERS['pt-110-2-pt3'] = {
     "丙",
     "丁"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110101_311_66_78.webp"
   },
   {
    "n": 79,
@@ -1134,7 +1135,8 @@ window.APP_EXAM_PAPERS['pt-110-2-pt3'] = {
     "動力單元（power unit）",
     "電動汽車（electric vehicle）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110101_311_66_80.webp"
   }
  ]
 };

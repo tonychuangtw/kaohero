@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['pt-113-1-pt2'] = {
     "直線加幕僚式",
     "直線式"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113020_311_55_24.webp"
   },
   {
    "n": 25,
@@ -921,7 +922,8 @@ window.APP_EXAM_PAPERS['pt-113-1-pt2'] = {
     "不完全半身癱瘓（incomplete paraplegia）",
     "完全半身癱瘓（complete paraplegia）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/113020_311_55_65.webp"
   },
   {
    "n": 66,

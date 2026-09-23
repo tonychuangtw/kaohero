@@ -824,7 +824,8 @@ window.APP_EXAM_PAPERS['ot-108-2-ot3'] = {
     "配戴末端是鈎（hook）的肘下義肢，堆高機方向盤握圈加上旋轉把手（spinner knob）",
     "配戴末端是手（hand）的肘下義肢，堆高機方向盤握圈加上旋轉把手（spinner knob）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108100_312_33_58.webp"
   },
   {
    "n": 59,

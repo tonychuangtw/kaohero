@@ -156,7 +156,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p023'] = {
     "Y = AB",
     "Y = A'B"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105080_442_1604_10.webp"
   },
   {
    "n": 11,
@@ -295,7 +296,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p023'] = {
     "abcfde",
     "acdbef"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105080_442_1604_20.webp"
   },
   {
    "n": 21,

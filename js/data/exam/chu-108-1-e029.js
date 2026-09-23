@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "R1 + R2",
     "0 Vi A R1 B C－ VO＋R3"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108010_515_0702_6.webp"
   },
   {
    "n": 7,
@@ -167,7 +168,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "-4 R",
     "-60.5 RVoutAoVin"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108010_515_0702_11.webp"
   },
   {
    "n": 12,
@@ -180,7 +182,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "4.0 V ≦Vo＜ 4.5 V VI＋",
     "Vo＜ 4.0 VR1"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108010_515_0702_12.webp"
   },
   {
    "n": 13,
@@ -193,7 +196,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "4VVR",
     "6V"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108010_515_0702_13.webp"
   },
   {
    "n": 14,
@@ -220,7 +224,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "vR",
     "vRπ 2πωtπ 2π ωt"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108010_515_0702_15.webp"
   },
   {
    "n": 16,
@@ -233,7 +238,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "vo 的最大值為 2 V-3",
     "vo 的平均值> 0 VC1+vi vo1V－"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108010_515_0702_16.webp"
   },
   {
    "n": 17,
@@ -260,7 +266,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "2/R1 IR1D",
     "2.8/R1 Iin IinvoutR1 I12V"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108010_515_0702_18.webp"
   },
   {
    "n": 19,
@@ -301,7 +308,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "3.35 mAZD1",
     "4.3 mAvIZD21 kΩ"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108010_515_0702_21.webp"
   },
   {
    "n": 22,
@@ -314,7 +322,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "-3 V R3R1 Rf",
     "-5 V vOvIU1R4vBD2R5-V"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108010_515_0702_22.webp"
   },
   {
    "n": 23,
@@ -327,7 +336,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "0.83",
     "0.9330 kΩ5 kΩvivo30 kΩ6.7 kΩ 2 kΩ"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108010_515_0702_23.webp"
   },
   {
    "n": 24,
@@ -368,7 +378,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "12 kΩ",
     "16 kΩM1R 0.5 mA"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108010_515_0702_26.webp"
   },
   {
    "n": 27,
@@ -395,7 +406,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "2倍",
     "3倍"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/108010_515_0702_28.webp"
   },
   {
    "n": 29,
@@ -408,7 +420,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "12",
     "6 RGCG"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108010_515_0702_29.webp"
   },
   {
    "n": 30,
@@ -421,7 +434,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "2V VD",
     "1V"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108010_515_0702_30.webp"
   },
   {
    "n": 31,
@@ -476,7 +490,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "1250 Ω",
     "2000 ΩQ1Q2"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108010_515_0702_34.webp"
   },
   {
    "n": 35,
@@ -489,7 +504,8 @@ window.APP_EXAM_PAPERS['chu-108-1-e029'] = {
     "3V R1+",
     "4VvI －+ － vO"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108010_515_0702_35.webp"
   },
   {
    "n": 36,

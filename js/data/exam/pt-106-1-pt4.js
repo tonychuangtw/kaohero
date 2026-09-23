@@ -838,7 +838,8 @@ window.APP_EXAM_PAPERS['pt-106-1-pt4'] = {
     "次發進行（secondary progressive）",
     "進行復發（progressive-relapsing）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106020_311_44_59.webp"
   },
   {
    "n": 60,

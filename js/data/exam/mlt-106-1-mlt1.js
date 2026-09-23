@@ -488,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt1'] = {
     "回音增強（echo enhancement）",
     "多重回音（reverberation）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106020_308_11_34.webp"
   },
   {
    "n": 35,

@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e021'] = {
     "點 c",
     "點 d"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104010_510_0505_2.webp"
   },
   {
    "n": 3,

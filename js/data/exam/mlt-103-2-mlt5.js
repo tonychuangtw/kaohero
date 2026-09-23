@@ -562,7 +562,8 @@ window.APP_EXAM_PAPERS['mlt-103-2-mlt5'] = {
     "mucus",
     "waxy cast"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103090_311_33_39.webp"
   },
   {
    "n": 40,

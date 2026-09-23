@@ -434,7 +434,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt4'] = {
     "C",
     "D"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_311_44_30.webp"
   },
   {
    "n": 31,
@@ -1105,7 +1106,8 @@ window.APP_EXAM_PAPERS['pt-108-1-pt4'] = {
     "僅B、D",
     "僅Ａ、B"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_311_44_78.webp"
   },
   {
    "n": 79,

@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b015'] = {
     "H 值為落差壓力＋3kgf/cm2",
     "H 值為落差壓力＋2kgf/cm2"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/107070_506_1004_4.webp"
   },
   {
    "n": 5,

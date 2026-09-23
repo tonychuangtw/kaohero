@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt2'] = {
     "Natural killer cell",
     "Eosinophil"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_308_22_21.webp"
   },
   {
    "n": 22,
@@ -571,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt2'] = {
     "肺結核併發肋膜積水",
     "肺腺癌併發惡性肋膜積水"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/112100_308_22_40.webp"
   },
   {
    "n": 41,

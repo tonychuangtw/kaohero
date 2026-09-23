@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['pt-105-1-pt4'] = {
     "對稱交替性（symmetric reciprocal）",
     "非對稱交替性（asymmetric reciprocal）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/105020_311_44_30.webp"
   },
   {
    "n": 31,

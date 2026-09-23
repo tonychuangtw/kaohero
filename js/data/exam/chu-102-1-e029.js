@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "102.7 V vc +R ｖo",
     "112.7 V-"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102010_514_0701_1.webp"
   },
   {
    "n": 2,
@@ -80,7 +81,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "8+ vO",
     "10 R1v1R2v2"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102010_514_0701_5.webp"
   },
   {
    "n": 6,
@@ -93,7 +95,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "AND 閘",
     "NAND 閘 BQ2YQ4 Q3"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102010_514_0701_6.webp"
   },
   {
    "n": 7,
@@ -148,7 +151,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "+12 VR2",
     "-12 V -VoVz +-15V"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102010_514_0701_10.webp"
   },
   {
    "n": 11,
@@ -231,7 +235,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "光耦合器",
     "光伏特電池（Photovoltaic Cell）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102010_514_0701_16.webp"
   },
   {
    "n": 17,
@@ -244,7 +249,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "3 V V1",
     "4 V1kΩV2 Vo"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102010_514_0701_17.webp"
   },
   {
    "n": 18,
@@ -287,7 +293,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "5 V Vi -",
     "-5 V Vo+"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102010_514_0701_20.webp"
   },
   {
    "n": 21,
@@ -426,7 +433,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "10 × 10 9 rad/sec",
     "109 rad/sec 1nH2pF 2pF"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102010_514_0701_30.webp"
   },
   {
    "n": 31,
@@ -467,7 +475,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "R2RSVG",
     "ID"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102010_514_0701_33.webp"
   },
   {
    "n": 34,
@@ -522,7 +531,8 @@ window.APP_EXAM_PAPERS['chu-102-1-e029'] = {
     "其高頻增益為 −",
     "C 越大則低頻 − 3 dB 頻率越高R2"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102010_514_0701_37.webp"
   },
   {
    "n": 38,

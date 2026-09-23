@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e029'] = {
     "PMOS 反相器",
     "pseudo-NMOS 反相器"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104010_515_0702_2.webp"
   },
   {
    "n": 3,
@@ -193,7 +194,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e029'] = {
     "F = AB",
     "F = AB"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104010_515_0702_13.webp"
   },
   {
    "n": 14,
@@ -220,7 +222,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e029'] = {
     "2.1 mA",
     "2.4 mA"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104010_515_0702_15.webp"
   },
   {
    "n": 16,
@@ -457,7 +460,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e029'] = {
     "85.5 kHz",
     "95.5 kHz"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104010_515_0702_32.webp"
   },
   {
    "n": 33,

@@ -922,7 +922,8 @@ window.APP_EXAM_PAPERS['mlt-110-1-mlt2'] = {
     "急性骨髓性白血病（acute myeloid leukemia）",
     "急性病毒感染併發吞噬血球症候群（hemophagocytic syndrome）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110020_308_22_65.webp"
   },
   {
    "n": 66,

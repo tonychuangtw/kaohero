@@ -84,7 +84,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b023'] = {
     "XBYCclock",
     "module TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A | B;always @(B or C) Y = B & C; endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A | B;always @(posedge clock) Y = B & C; endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;wire Y;always @(posedge clock) X = A | B;always @(posedge clock) Y = B & C;endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A+B;always @(B or C) Y = B * C;endmodule"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/103180_436_2213_5.webp"
   },
   {
    "n": 6,

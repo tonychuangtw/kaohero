@@ -432,7 +432,8 @@ window.APP_EXAM_PAPERS['nur-106-4-nur3'] = {
     "APC",
     "Af"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/106111_106_0503_30.webp"
   },
   {
    "n": 31,

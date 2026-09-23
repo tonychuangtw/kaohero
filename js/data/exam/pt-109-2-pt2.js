@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['pt-109-2-pt2'] = {
     "C是社會功能（social function）",
     "D是政策因素（political factors）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109100_311_55_6.webp"
   },
   {
    "n": 7,
@@ -781,7 +782,8 @@ window.APP_EXAM_PAPERS['pt-109-2-pt2'] = {
     "1.84",
     "2.05"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/109100_311_55_55.webp"
   },
   {
    "n": 56,

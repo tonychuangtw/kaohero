@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['gao-115-1-p030'] = {
     "C+D+F+G",
     "C+D+E+F+G+H需求"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115080_420_0707_18.webp"
   },
   {
    "n": 19,

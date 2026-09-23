@@ -416,7 +416,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt1'] = {
     "1",
     "0.5"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_308_11_29.webp"
   },
   {
    "n": 30,

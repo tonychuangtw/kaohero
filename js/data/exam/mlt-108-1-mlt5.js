@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt5'] = {
     "triple phosphate crystal",
     "ammonium biurate crystal"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_308_33_39.webp"
   },
   {
    "n": 40,
@@ -850,7 +851,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt5'] = {
     "c",
     "d"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_308_33_60.webp"
   },
   {
    "n": 61,

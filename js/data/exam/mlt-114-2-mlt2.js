@@ -320,7 +320,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt2'] = {
     "此細胞有膽固醇合成異常的情形",
     "此細胞為嗜中性球（neutrophils）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_308_0501_22.webp"
   },
   {
    "n": 23,
@@ -333,7 +334,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt2'] = {
     "此細胞來自男性個體",
     "此細胞與巨紅芽球性貧血（megaloblastic anemia）有關"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/114090_308_0501_23.webp"
   },
   {
    "n": 24,
@@ -500,7 +502,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt2'] = {
     "neutrophil",
     "monocyte"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_308_0501_35.webp"
   },
   {
    "n": 36,
@@ -513,7 +516,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt2'] = {
     "toxic changes",
     "megaloblastic change"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_308_0501_36.webp"
   },
   {
    "n": 37,

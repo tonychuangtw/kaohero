@@ -68,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-111-1-b023'] = {
     "10 MHz",
     "20 MHz"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111190_442_2512_4.webp"
   },
   {
    "n": 5,
@@ -251,7 +252,8 @@ window.APP_EXAM_PAPERS['loc-111-1-b023'] = {
     "52",
     "57"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111190_442_2512_17.webp"
   },
   {
    "n": 18,

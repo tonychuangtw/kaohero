@@ -320,7 +320,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "CD19+/CD5+/CD23+/CD10-",
     "CD19+/CD5+/CD23+/CD10+"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_308_22_22.webp"
   },
   {
    "n": 23,
@@ -417,7 +418,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "不成熟髓細胞（myeloid cell）",
     "淋巴球（lymphocyte）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111100_308_22_29.webp"
   },
   {
    "n": 30,
@@ -486,7 +488,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "Hairy cell leukemia (HCL)",
     "B prolymphocytic leukemia (B-PLL)"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_308_22_34.webp"
   },
   {
    "n": 35,
@@ -541,7 +544,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "Basophil",
     "Smudge cell"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_308_22_38.webp"
   },
   {
    "n": 39,
@@ -554,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "Chronic lymphocytic leukemia",
     "Acute lymphoblastic leukemia"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111100_308_22_39.webp"
   },
   {
    "n": 40,
@@ -567,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-111-2-mlt2'] = {
     "嗜鹼性球",
     "淋巴球"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111100_308_22_40.webp"
   },
   {
    "n": 41,

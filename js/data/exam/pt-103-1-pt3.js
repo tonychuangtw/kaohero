@@ -908,7 +908,8 @@ window.APP_EXAM_PAPERS['pt-103-1-pt3'] = {
     "執行此測試時腰椎需保持過度伸直（hyperextended）姿勢",
     "增加膝屈曲角度時如果產生腰痛，則此測試為陽性（positive）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/103020_309_33_64.webp"
   },
   {
    "n": 65,
@@ -1075,7 +1076,8 @@ window.APP_EXAM_PAPERS['pt-103-1-pt3'] = {
     "5",
     "6"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_309_33_76.webp"
   },
   {
    "n": 77,

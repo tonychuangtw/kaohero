@@ -418,7 +418,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "漿細胞增生（plasmacytosis）",
     "巨核紅細胞（megaloblast）增生"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111020_308_22_29.webp"
   },
   {
    "n": 30,
@@ -445,7 +446,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "Acute myeloid leukemia, M3 type",
     "Acute myeloid leukemia, M6 type"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111020_308_22_31.webp"
   },
   {
    "n": 32,
@@ -472,7 +474,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "Mixed cellularity type",
     "Nodular sclerosis type"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111020_308_22_33.webp"
   },
   {
    "n": 34,

@@ -323,7 +323,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt6'] = {
     "Streptococcus pneumoniae",
     "Streptococcus pyogenes"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108030_308_44_22.webp"
   },
   {
    "n": 23,
@@ -490,7 +491,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt6'] = {
     "宋內志賀⽒桿菌（Shigella sonnei）",
     "奇異變形桿菌（Proteus mirabilis）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/108030_308_44_34.webp"
   },
   {
    "n": 35,

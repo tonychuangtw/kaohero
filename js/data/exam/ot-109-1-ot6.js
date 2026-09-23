@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['ot-109-1-ot6'] = {
     "背側骨間肌（dorsal interossei）",
     "外展拇肌（abductor pollicis）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/109020_312_66_40.webp"
   },
   {
    "n": 41,

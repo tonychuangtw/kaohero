@@ -698,7 +698,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt5'] = {
     "a 曲線是基因啟動子區域沒有甲基化的結果",
     "可選用富含 CpG 位點的 Alu elements 來作為 DNA input control"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_308_0502_49.webp"
   },
   {
    "n": 50,

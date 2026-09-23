@@ -1104,7 +1104,8 @@ window.APP_EXAM_PAPERS['mlt-115-1-mlt3'] = {
     "C 區域可能存在染色體拷貝數的變異（copy number variants, CNVs）",
     "此方法常用來檢測單一核苷酸變異（single nucleotide variants, SNVs）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/115020_308_0504_78.webp"
   },
   {
    "n": 79,

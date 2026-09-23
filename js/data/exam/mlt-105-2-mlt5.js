@@ -534,7 +534,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt5'] = {
     "triple phosphate crystal",
     "hyaline cast"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105100_308_33_37.webp"
   },
   {
    "n": 38,
@@ -574,7 +575,8 @@ window.APP_EXAM_PAPERS['mlt-105-2-mlt5'] = {
     "尿蛋白－中度陽性（++）",
     "尿糖－重度陽性（++++）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_308_33_40.webp"
   },
   {
    "n": 41,

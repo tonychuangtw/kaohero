@@ -1050,7 +1050,8 @@ window.APP_EXAM_PAPERS['pt-115-1-pt1'] = {
     "鑰匙捏夾（power key pinch）",
     "鈎形抓握（hook grip）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/115020_311_0704_74.webp"
   },
   {
    "n": 75,

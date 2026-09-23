@@ -266,7 +266,8 @@ window.APP_EXAM_PAPERS['mlt-107-1-mlt4'] = {
     "Goodpasture's syndrome",
     "Sjögren's syndrome"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107020_308_66_18.webp"
   },
   {
    "n": 19,

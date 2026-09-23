@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot1'] = {
     "頭臂動脈",
     "鎖骨下動脈"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_312_11_14.webp"
   },
   {
    "n": 15,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot1'] = {
     "視徑（optic tract）",
     "視放射（optic radiation）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_312_11_25.webp"
   },
   {
    "n": 26,
@@ -556,7 +558,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot1'] = {
     "甲是腎臟髓質，丙是輸尿管",
     "甲是腎臟髓質，丙是腎靜脈"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/105020_312_11_39.webp"
   },
   {
    "n": 40,
@@ -569,7 +572,8 @@ window.APP_EXAM_PAPERS['ot-105-1-ot1'] = {
     "含有近曲小管（proximal convoluted tubule）",
     "大部分的腎絲球（glomerulus）位於此處"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105020_312_11_40.webp"
   },
   {
    "n": 41,

@@ -82,7 +82,8 @@ window.APP_EXAM_PAPERS['loc-110-1-a009'] = {
     "政府的補貼支出為 nvuq",
     "消費者剩餘增加 nowq"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/110190_312_1404_5.webp"
   },
   {
    "n": 6,

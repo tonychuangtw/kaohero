@@ -306,7 +306,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b023'] = {
     "2880",
     "4200"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108190_434_2912_21.webp"
   },
   {
    "n": 22,
@@ -529,7 +530,8 @@ window.APP_EXAM_PAPERS['loc-108-1-b023'] = {
     "二分圖（bipartite graph）",
     "連結圖（connected graph）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108190_434_2912_37.webp"
   },
   {
    "n": 38,

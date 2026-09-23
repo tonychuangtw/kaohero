@@ -40,7 +40,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "4V 6V1kΩ",
     "-6 V+Vo-Vi -6V"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102190_515_2114_2.webp"
   },
   {
    "n": 3,
@@ -53,7 +54,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "6V1 + 4V2 - Vo",
     "4V1 + 6V2 +V1 3kΩ 2kΩV2 2kΩ"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102190_515_2114_3.webp"
   },
   {
    "n": 4,
@@ -66,7 +68,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "F = AB + A B",
     "F = AB + AB"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102190_515_2114_4.webp"
   },
   {
    "n": 5,
@@ -79,7 +82,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "加強型（enhancement）PMOSFET",
     "空乏型（depletion）PMOSFET"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102190_515_2114_5.webp"
   },
   {
    "n": 6,
@@ -162,7 +166,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "R4",
     "R5"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102190_515_2114_11.webp"
   },
   {
    "n": 12,
@@ -189,7 +194,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "D4 的峰值反向電壓為 2 Vm",
     "此電路為半波四倍壓電路- VOD4C3-C4 D3"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102190_515_2114_13.webp"
   },
   {
    "n": 14,
@@ -202,7 +208,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "2V 10kΩ",
     "10 VD1 D2VO15kΩ-10V"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102190_515_2114_14.webp"
   },
   {
    "n": 15,
@@ -215,7 +222,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "+2 V 1mA",
     "+10 V VO2kΩD1D2VI"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102190_515_2114_15.webp"
   },
   {
    "n": 16,
@@ -228,7 +236,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "-4.5 V > VB ≥ -5 V + BR1",
     "-5.0 V > VB +～ V1-"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102190_515_2114_16.webp"
   },
   {
    "n": 17,
@@ -353,7 +362,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c029'] = {
     "12",
     "24 VDRD"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102190_515_2114_25.webp"
   },
   {
    "n": 26,

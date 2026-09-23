@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['ot-104-2-ot1'] = {
     "椎動脈",
     "頸內靜脈"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/104090_312_11_13.webp"
   },
   {
    "n": 14,
@@ -375,7 +376,8 @@ window.APP_EXAM_PAPERS['ot-104-2-ot1'] = {
     "玻璃體（vitreous humor）",
     "視網膜（retina）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_312_11_26.webp"
   },
   {
    "n": 27,
@@ -444,7 +446,8 @@ window.APP_EXAM_PAPERS['ot-104-2-ot1'] = {
     "（丙）區域的血液經由微血管竇（sinusoid）流向（甲）",
     "（丙）區內管道皆流入（甲）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/104090_312_11_31.webp"
   },
   {
    "n": 32,

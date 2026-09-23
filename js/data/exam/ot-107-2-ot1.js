@@ -362,7 +362,8 @@ window.APP_EXAM_PAPERS['ot-107-2-ot1'] = {
     "舌咽神經（glossopharyngeal nerve）",
     "舌下神經（hypoglossal nerve）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/107100_312_11_25.webp"
   },
   {
    "n": 26,

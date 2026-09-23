@@ -842,8 +842,16 @@
       }
       else if (!q.void) {
         fb.appendChild(document.createTextNode(T('　標準答案：') + LAB[q.a] + '. ' + q.o[q.a]));
-        var nt = el('div', 'lead', T('（本題詳解尚未撰寫，會分批補上。）')); nt.style.margin = '6px 0 0';
-        fb.appendChild(nt);
+        // q.note＝勘誤提醒：官方答案與現行法規／教科書衝突的題不寫一般詳解（會寫出誤導內容），
+        // 改講清楚「官方答案是什麼、現在的規定是什麼」，比留一片空白有用（2026-09-23）
+        if (q.note) {
+          var nw = el('div', 'fb-note');
+          q.note.split('\n').forEach(function (line) { if (line) nw.appendChild(el('p', 'x-l', line)); });
+          fb.appendChild(nw);
+        } else {
+          var nt = el('div', 'lead', T('（本題詳解尚未撰寫，會分批補上。）')); nt.style.margin = '6px 0 0';
+          fb.appendChild(nt);
+        }
       }
       c.appendChild(fb);
       // 題目回報入口（2026-09-08）：使用者指出錯誤 → 後台收件匣 → 修正後標修訂日期。

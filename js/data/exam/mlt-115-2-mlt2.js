@@ -534,7 +534,8 @@ window.APP_EXAM_PAPERS['mlt-115-2-mlt2'] = {
     "Alder-Reilly anomaly",
     "chronic granulomatous disease"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_308_0501_37.webp"
   },
   {
    "n": 38,

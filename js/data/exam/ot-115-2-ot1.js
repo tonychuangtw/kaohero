@@ -124,7 +124,8 @@ window.APP_EXAM_PAPERS['ot-115-2-ot1'] = {
     "松果腺（pineal gland）",
     "穹窿（fornix）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/115090_312_0105_8.webp"
   },
   {
    "n": 9,

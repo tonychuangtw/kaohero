@@ -894,7 +894,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt6'] = {
     "莢膜組織漿菌（Histoplasma capsulatum）",
     "皮炎芽生黴菌（Blastomyces dermatitidis）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_311_44_63.webp"
   },
   {
    "n": 64,
@@ -963,7 +964,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt6'] = {
     "Trichophyton rubrum",
     "Trichophyton mentagrophytes"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/103020_311_44_68.webp"
   },
   {
    "n": 69,

@@ -504,7 +504,8 @@ window.APP_EXAM_PAPERS['chu-103-1-e006'] = {
     "C點 AC",
     "D點EDB0 X"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/103010_502_0104_35.webp"
   },
   {
    "n": 36,

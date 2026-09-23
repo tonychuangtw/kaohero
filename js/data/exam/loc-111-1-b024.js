@@ -264,7 +264,8 @@ window.APP_EXAM_PAPERS['loc-111-1-b024'] = {
     "NAND 閘",
     "NOR 閘"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/111190_444_2513_18.webp"
   },
   {
    "n": 19,

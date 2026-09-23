@@ -826,7 +826,8 @@ window.APP_EXAM_PAPERS['pt-104-2-pt3'] = {
     "髕股（patellofemoral）關節內滑（medial glide）",
     "腓骨（fibula）後滑（posterior glide）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104090_311_33_58.webp"
   },
   {
    "n": 59,

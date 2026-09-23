@@ -448,7 +448,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt1'] = {
     "子宮頸癌（cervical carcinoma）",
     "子宮腺肌症（adenomyosis）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/114090_308_0103_31.webp"
   },
   {
    "n": 32,
@@ -461,7 +462,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt1'] = {
     "此張超音波可診斷中度二尖瓣逆流",
     "此張超音波可看到二尖瓣與三尖瓣"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/114090_308_0103_32.webp"
   },
   {
    "n": 33,

@@ -418,7 +418,8 @@ window.APP_EXAM_PAPERS['pt-108-2-pt1'] = {
     "體積（volume）",
     "跨肺壓（transpulmonary pressure）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/108100_311_11_29.webp"
   },
   {
    "n": 30,
@@ -515,7 +516,8 @@ window.APP_EXAM_PAPERS['pt-108-2-pt1'] = {
     "三尖瓣區",
     "二尖瓣區"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108100_311_11_36.webp"
   },
   {
    "n": 37,
@@ -1046,7 +1048,8 @@ window.APP_EXAM_PAPERS['pt-108-2-pt1'] = {
     "圖C",
     "手部擺位方式與胸大肌肌力訓練效果無關"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/108100_311_11_74.webp"
   },
   {
    "n": 75,

@@ -404,7 +404,8 @@ window.APP_EXAM_PAPERS['ot-106-2-ot1'] = {
     "在視網膜的黃斑（macula lutea）中央，只含有視桿細胞（rod cell）",
     "在視網膜的視神經盤（optic disc）處，缺少這層細胞"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/106100_312_11_28.webp"
   },
   {
    "n": 29,
@@ -473,7 +474,8 @@ window.APP_EXAM_PAPERS['ot-106-2-ot1'] = {
     "環間膜細胞（mesangial cell）",
     "直管（vasa recta）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106100_312_11_33.webp"
   },
   {
    "n": 34,

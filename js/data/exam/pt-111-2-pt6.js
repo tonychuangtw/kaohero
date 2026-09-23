@@ -530,7 +530,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt6'] = {
     "Pacemaker",
     "Swan ganz"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111100_311_33_37.webp"
   },
   {
    "n": 38,

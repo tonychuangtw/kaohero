@@ -208,7 +208,8 @@ window.APP_EXAM_PAPERS['ot-109-1-ot1'] = {
     "雙極神經元（bipolar neuron）",
     "多極神經元（multipolar neuron）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/109020_312_11_14.webp"
   },
   {
    "n": 15,

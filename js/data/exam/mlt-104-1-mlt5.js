@@ -558,7 +558,8 @@ window.APP_EXAM_PAPERS['mlt-104-1-mlt5'] = {
     "尿液試紙條（reagent strip）",
     "尿液分析儀（clinitek-500）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_311_33_39.webp"
   },
   {
    "n": 40,

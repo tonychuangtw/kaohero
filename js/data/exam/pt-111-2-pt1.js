@@ -1036,7 +1036,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt1'] = {
     "兩人足部結構軟硬不同",
     "兩人足部著地部位不同"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/111100_311_44_73.webp"
   },
   {
    "n": 74,
@@ -1062,7 +1063,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt1'] = {
     "胸大肌（pectoralis major）",
     "大腿後肌（hamstrings）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/111100_311_44_75.webp"
   },
   {
    "n": 76,
@@ -1075,7 +1077,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt1'] = {
     "小圓肌（teres minor）",
     "菱形肌（rhomboids）"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_311_44_76.webp"
   },
   {
    "n": 77,
@@ -1102,7 +1105,8 @@ window.APP_EXAM_PAPERS['pt-111-2-pt1'] = {
     "A+B 區域之面積代表遭受牽拉時組織所儲存的能量",
     "A-B 區域之面積代表遭受牽拉時組織所儲存的能量"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/111100_311_44_78.webp"
   },
   {
    "n": 79,

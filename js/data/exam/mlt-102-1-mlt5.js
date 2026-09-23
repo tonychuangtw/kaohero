@@ -1090,7 +1090,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt5'] = {
     "東方毛線蟲（Trichostrongylus orientalis）",
     "廣節裂頭絛蟲（Diphyllobothrium latum）頁次：6－6"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/102030_109_0502_77.webp"
   },
   {
    "n": 78,
@@ -1103,7 +1104,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt5'] = {
     "卵形瘧原蟲（Plasmodium ovale）",
     "三日瘧原蟲（Plasmodium malariae）"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/102030_109_0502_78.webp"
   },
   {
    "n": 79,
@@ -1116,7 +1118,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt5'] = {
     "東方毛線蟲（Trichostrongylus orientalis）",
     "菲律賓毛線蟲（Capillaria philippinensis）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/102030_109_0502_79.webp"
   },
   {
    "n": 80,
@@ -1129,7 +1132,8 @@ window.APP_EXAM_PAPERS['mlt-102-1-mlt5'] = {
     "上皮細胞",
     "圓柱體"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/102030_109_0502_80.webp"
   }
  ]
 };

@@ -740,7 +740,8 @@ window.APP_EXAM_PAPERS['mlt-104-1-mlt4'] = {
     "磷鎢酸染色（phosphotungstic acid staining）",
     "可能是腺病毒顆粒"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/104020_311_66_52.webp"
   },
   {
    "n": 53,

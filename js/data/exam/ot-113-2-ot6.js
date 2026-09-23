@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['ot-113-2-ot6'] = {
     "tripod pinch",
     "span grip"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_312_66_24.webp"
   },
   {
    "n": 25,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['ot-113-2-ot6'] = {
     "避免腕關節過度彎曲的動作發生",
     "避免腕關節過度伸展的動作發生"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_312_66_25.webp"
   },
   {
    "n": 26,
@@ -654,7 +656,8 @@ window.APP_EXAM_PAPERS['ot-113-2-ot6'] = {
     "內側足部縱弓過高所導致",
     "行走時身體重量會壓往內側足部縱弓"
    ],
-   "a": 2
+   "a": 2,
+   "fig": "img/q/113090_312_66_46.webp"
   },
   {
    "n": 47,
@@ -737,7 +740,8 @@ window.APP_EXAM_PAPERS['ot-113-2-ot6'] = {
     "膝內收（adduction）",
     "膝外展（abduction）"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/113090_312_66_52.webp"
   },
   {
    "n": 53,

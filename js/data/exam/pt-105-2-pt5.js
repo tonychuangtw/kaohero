@@ -630,7 +630,8 @@ window.APP_EXAM_PAPERS['pt-105-2-pt5'] = {
     "Dupuytren’s contracture",
     "Bishop’s hand deformity"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_311_55_44.webp"
   },
   {
    "n": 45,
@@ -1121,7 +1122,8 @@ window.APP_EXAM_PAPERS['pt-105-2-pt5'] = {
     "外展",
     "旋前"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/105100_311_55_79.webp"
   },
   {
    "n": 80,
@@ -1134,7 +1136,8 @@ window.APP_EXAM_PAPERS['pt-105-2-pt5'] = {
     "病患右肩可能有後側關節囊緊縮現象（posterior capsular tightness）",
     "病患左肩可能有前上側關節囊緊縮現象（anterosuperior capsular tightness）"
    ],
-   "a": 3
+   "a": 3,
+   "fig": "img/q/105100_311_55_80.webp"
   }
  ]
 };

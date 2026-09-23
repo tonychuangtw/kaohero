@@ -571,7 +571,8 @@ window.APP_EXAM_PAPERS['mlt-110-2-mlt4'] = {
     "(X, XY)",
     "(XY, Y)"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/110100_308_66_40.webp"
   },
   {
    "n": 41,

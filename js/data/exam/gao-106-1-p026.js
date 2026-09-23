@@ -305,7 +305,8 @@ window.APP_EXAM_PAPERS['gao-106-1-p026'] = {
     "a, d, e, f, g, c, b, h, j, i, k",
     "a, e, f, g, d, c, b, h, i, j, k"
    ],
-   "a": 0
+   "a": 0,
+   "fig": "img/q/106090_419_1319_21.webp"
   },
   {
    "n": 22,
@@ -458,7 +459,8 @@ window.APP_EXAM_PAPERS['gao-106-1-p026'] = {
     "1010",
     "1100"
    ],
-   "a": 1
+   "a": 1,
+   "fig": "img/q/106090_419_1319_32.webp"
   },
   {
    "n": 33,
