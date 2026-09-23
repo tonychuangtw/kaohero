@@ -631,7 +631,8 @@ window.APP_EXAM_PAPERS['pt-112-2-pt5'] = {
     "D"
    ],
    "a": 2,
-   "fig": "img/q/112100_311_22_44.webp"
+   "fig": "img/q/112100_311_22_44.webp",
+   "exp": "✅ (C) 圖中 C 指向近端指骨背側、止於中指骨基部的中央索（central slip／central band）。中央索斷裂後，PIP 關節失去主要伸直力量而屈曲，兩側的側索（lateral band）又因三角韌帶鬆弛而向掌側滑移，越過 PIP 旋轉軸掌側，使 PIP 更屈曲、DIP 被拉成過度伸直，形成典型的鈕扣孔變形（PIP 屈曲＋DIP 過伸）。\n❌ (A) A 位於遠端指骨基部，是終端肌腱（terminal tendon）的止點；該處斷裂造成 DIP 無法伸直的槌狀指（mallet finger），而非鈕扣孔變形。\n❌ (B) B 位於中指骨背側兩側索與三角韌帶處；單純三角韌帶或側索斷裂會使側索往背側移位，導致 DIP 過伸的鵝頸樣表現，不是鈕扣孔的成因。\n❌ (D) D 位於掌指關節處的矢狀帶（sagittal band）；該處斷裂使伸指總肌肌腱向側方（多為尺側）滑脫，造成 MCP 伸直遲滯與肌腱半脫位，與鈕扣孔變形無關。\n📚 出處：Magee《Orthopedic Physical Assessment》手部伸肌機制與鈕扣孔／槌狀指變形；Neumann《Kinesiology of the Musculoskeletal System》手部伸肌機制（central slip、lateral band、terminal tendon）。"
   },
   {
    "n": 45,
@@ -799,7 +800,8 @@ window.APP_EXAM_PAPERS['pt-112-2-pt5'] = {
     "髂脛束"
    ],
    "a": 0,
-   "fig": "img/q/112100_311_22_56.webp"
+   "fig": "img/q/112100_311_22_56.webp",
+   "exp": "✅ (A) 圖中病人仰臥、膝約屈曲 20～30 度，治療師一手由上固定股骨遠端（向下箭頭），另一手托住脛骨近端後方向前拉（向前上箭頭），此為 Lachman test，檢查前十字韌帶。前十字韌帶限制脛骨相對股骨前移，過度膝伸直（hyperextension）正是常見的 ACL 受傷機轉，故此測試針對 ACL；前移量增加且終末感鬆軟即為陽性。\n❌ (B) 後十字韌帶用後抽屜測試或 posterior sag sign：膝屈曲 90 度由前向後推脛骨，施力方向與本圖相反。\n❌ (C) 內側半月板用 McMurray test、Apley 擠壓測試或關節線壓痛檢查，需伴隨膝屈伸與脛骨旋轉，非單純前向平移。\n❌ (D) 髂脛束問題用 Ober test（側躺測緊繃）或 Noble compression test，與脛骨前移測試無關。\n📚 出處：Magee《Orthopedic Physical Assessment》膝關節特殊測試—Lachman test 與前十字韌帶穩定度評估。"
   },
   {
    "n": 57,
