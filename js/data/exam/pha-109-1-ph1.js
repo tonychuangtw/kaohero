@@ -590,7 +590,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "d"
    ],
    "a": 2,
-   "fig": "img/q/109020_305_11_41.webp"
+   "fig": "img/q/109020_305_11_41.webp",
+   "exp": "✅ (C) COMT（catechol-O-methyltransferase）以 SAM 為甲基供給者，專一地把兒茶酚環上 meta 位（C-3）的酚性 OH 甲基化成 OCH₃；圖中 c 正是靠近側鏈那一側的 3-OH，甲基化後生成 normetanephrine。\n❌ (A) a 為側鏈末端的一級胺，受 MAO 氧化脫胺（生成醛再變成 DOPGAL／MHPG），不是 COMT 的作用點。\n❌ (B) b 為 β 碳上的醇性 OH，屬脂肪族羥基，不具兒茶酚結構，COMT 不作用；它是與 β-receptor 形成氫鍵、決定立體活性的部位。\n❌ (D) d 為 para 位（C-4）的酚性 OH，雖同屬兒茶酚，但 COMT 具位置選擇性、只甲基化 meta 位，4-OH 保留游離。\n📚 出處：Foye's 藥物化學，腎上腺素性神經傳遞物之代謝（COMT 與 MAO）"
   },
   {
    "n": 42,
@@ -830,7 +831,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "(4)"
    ],
    "a": 2,
-   "fig": "img/q/109020_305_11_58.webp"
+   "fig": "img/q/109020_305_11_58.webp",
+   "exp": "✅ (C) Somatostatin 的活性核心是位於 β-turn 的 Phe⁷-Trp⁸-Lys⁹-Thr¹⁰ 四胜肽（Trp⁸-Lys⁹ 為最關鍵的兩個殘基），圖中 (3) 即涵蓋此段；octreotide、lanreotide 等類似物就是把這段保留下來，再以 D-Phe 與 D-Trp、二硫鍵環化縮短骨架而成。\n❌ (A) (1) 為 N 端的 Gly-Cys-Lys-Asn 段，屬環外與環起始部位，刪除或改造對活性影響不大。\n❌ (B) (2) 只取到 Asn-Phe-Phe-Trp，缺了不可或缺的 Lys⁹ 與 Thr¹⁰，無法單獨表現受體結合活性。\n❌ (D) (4) 為 C 端 Thr-Phe-Thr-Ser-Cys 段，主要提供二硫鍵環化以維持構形，本身不是接受器辨識的必要片段。\n📚 出處：Foye's 藥物化學，胜肽類激素藥物之構效關係（somatostatin 類似物）"
   },
   {
    "n": 59,
@@ -942,7 +944,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "環化代謝物"
    ],
    "a": 0,
-   "fig": "img/q/109020_305_11_66.webp"
+   "fig": "img/q/109020_305_11_66.webp",
+   "exp": "✅ (A) 圖示為 levetiracetam（2-吡咯烷酮乙醯胺衍生物）。此藥幾乎不經 CYP450 代謝，血中約三分之二以原形由腎臟排出，因此排除的最主要型態就是原形藥物；也因為如此，它與其他抗癲癇藥的交互作用少，但腎功能不良者需依 CCr 調量。\n❌ (B) 其次要途徑是血中 amidase 把乙醯胺水解成羧酸代謝物（ucb L057），約佔 24%，屬次要而非最主要。\n❌ (C) 分子中沒有酚、醇或羧酸等易接合的基團，葡萄糖醛酸接合不是其主要代謝路徑。\n❌ (D) 吡咯烷酮環開環或再環化的產物僅佔極少比例，臨床上不具意義。\n📚 出處：抗癲癇藥藥動學，levetiracetam 之排除途徑"
   },
   {
    "n": 67,
@@ -956,7 +959,8 @@ window.APP_EXAM_PAPERS['pha-109-1-ph1'] = {
     "sulfation"
    ],
    "a": 0,
-   "fig": "img/q/109020_305_11_67.webp"
+   "fig": "img/q/109020_305_11_67.webp",
+   "exp": "✅ (A) 圖示為 lamotrigine（3,5-diamino-6-(2,3-dichlorophenyl)-1,2,4-triazine）。其主要代謝是三氮環 N2 位經 UGT1A4 進行葡萄糖醛酸接合，生成 2-N-glucuronide 後由尿排出（約 70%）；正因為走 UGT，valproate 抑制 UGT 會使其濃度上升（須減量以免 Stevens-Johnson 症候群），carbamazepine、phenytoin 等誘導劑則使其濃度下降。\n❌ (B) 三氮環與氯苯環皆對氧化安定，CYP450 氧化只佔極小比例，故與 CYP 抑制劑交互作用不明顯。\n❌ (C) 乙醯化主要作用於芳香胺（如 isoniazid、sulfonamide 的 ArNH₂），lamotrigine 的胺接在缺電子三氮環上，並非 NAT 的受質。\n❌ (D) 硫酸接合主要針對酚性 OH，此分子無酚基，不走此途徑。\n📚 出處：抗癲癇藥藥物代謝，lamotrigine 之 UGT1A4 葡萄糖醛酸接合"
   },
   {
    "n": 68,
