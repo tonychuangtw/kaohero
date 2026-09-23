@@ -1130,7 +1130,8 @@ window.APP_EXAM_PAPERS['pha-113-2-ph1'] = {
     "vidarabine",
     "trifluridine"
    ],
-   "a": 1
+   "a": 1,
+   "note": "⚠ 官方公布答案是 (B) cidofovir，但臨床用法正好相反：probenecid 會阻斷腎小管對 cidofovir 的攝入，是用來「降低」而非增加腎毒性，仿單也明訂 cidofovir 必須搭配 probenecid 與大量輸液給藥。\n若照題目字面問「併用後腎毒性風險上升」，較合理的是 acyclovir——probenecid 抑制其腎小管分泌、使血中濃度升高。\n本題敘述與 cidofovir 的標準用法衝突，參考價值有限；把「cidofovir 必須併用 probenecid 以保護腎臟」記住就夠了。"
   },
   {
    "n": 80,

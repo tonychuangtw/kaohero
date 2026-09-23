@@ -853,7 +853,8 @@ window.APP_EXAM_PAPERS['pha-114-1-ph2'] = {
     "glyceraldehyde-3-phosphate",
     "ornithine"
    ],
-   "a": 0
+   "a": 0,
+   "note": "⚠ 官方公布答案是 (A) putrescine，但主流的 nicotine 生合成途徑正是 ornithine（或 arginine）先脫羧成 putrescine，再經 N-methyltransferase 轉成 N-methylputrescine，最後環化為吡咯啶環，putrescine 本身就是前驅物。\n部分教科書另畫出 ornithine 先甲基化為 N-methylornithine、再脫羧的旁路，官方答案應是依此旁路命題；吡啶環則來自 nicotinic acid，其原料即 aspartic acid 與 glyceraldehyde-3-phosphate。\n四個選項其實都與 nicotine 生合成有關，本題答案有爭議，記住兩個環各自的來源即可。"
   },
   {
    "n": 61,
