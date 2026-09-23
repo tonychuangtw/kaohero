@@ -715,7 +715,8 @@ window.APP_EXAM_PAPERS['pt-107-2-pt1'] = {
     "此變形為天鵝頸畸形（swan-neck deformity）"
    ],
    "a": 0,
-   "fig": "img/q/107100_311_11_50.webp"
+   "fig": "img/q/107100_311_11_50.webp",
+   "exp": "✅ (A) 錯在肌肉名稱。圖中近端指間關節（PIP）過度伸直、遠端指間關節（DIP）屈曲，是典型天鵝頸畸形；DIP 屈曲來自屈指深肌（flexor digitorum profundus）的牽拉，因為只有深肌止於遠節指骨、跨過 DIP。屈指淺肌止於中節指骨，根本不跨越 DIP，無法造成 DIP 屈曲。\n❌ (B) 正確。PIP 過度伸直時，位於 PIP 掌側、限制過度伸直的掌板（palmar plate）長期受拉而鬆弛、被過度牽張，是天鵝頸畸形得以形成並持續的關鍵。\n❌ (C) 正確。蚓狀肌與骨間肌經由伸肌腱膜拉動 PIP 伸直，類風濕性關節炎等長期內在肌緊縮（intrinsic tightness）時會纖維化攣縮，把 PIP 拉成過度伸直而產生此變形。\n❌ (D) 正確。PIP 過度伸直合併 DIP 屈曲即為天鵝頸畸形；若相反（PIP 屈曲、DIP 過度伸直）則為鈕扣狀畸形（boutonnière deformity）。\n📚 出處：Magee《Orthopedic Physical Assessment》手與手指的變形（swan-neck 與 boutonnière deformity）；屈指淺肌／深肌止點與手內在肌功能"
   },
   {
    "n": 51,
