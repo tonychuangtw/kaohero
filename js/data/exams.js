@@ -20888,7 +20888,7 @@ window.APP_EXAMS = [
   "subjName": "物理治療技術學",
   "label": "112 年第一次　物理治療技術學",
   "n": 80,
-  "exp": 74,
+  "exp": 79,
   "mins": 60
  },
  {
