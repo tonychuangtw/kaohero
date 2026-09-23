@@ -194,7 +194,8 @@ window.APP_EXAM_PAPERS['pol-114-1-b010'] = {
     "組織紀律程序是內在的顯性控制機制（Internal-Explicit）",
     "社會化是內在的隱性控制機制（Internal-Implicit）"
    ],
-   "a": 3
+   "a": 3,
+   "note": "⚠ 官方公布答案是 (D)。但依 Bayley（1985）的警察課責架構，內在隱性控制（Internal-Implicit）指的正是社會化、養成訓練與同僚文化，(D) 的敘述與通說相符；外在專責（External-Exclusive）指專為監督警察而設的機制、外在包含（External-Inclusive）涵蓋法院、議會與媒體、內在顯性（Internal-Explicit）指組織紀律程序，其餘三項同樣對得上教科書定義。本題答案與通說分類衝突、爭議頗大，建議只記住「內在／外在 × 顯性／隱性」四格各自代表哪些機制即可。"
   },
   {
    "n": 14,
