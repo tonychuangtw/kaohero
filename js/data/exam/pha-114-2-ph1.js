@@ -794,7 +794,8 @@ window.APP_EXAM_PAPERS['pha-114-2-ph1'] = {
     "threonine"
    ],
    "a": 0,
-   "fig": "img/q/114090_305_0401_55.webp"
+   "fig": "img/q/114090_305_0401_55.webp",
+   "exp": "✅ (A) Lacosamide 屬於 Kohn 等人開發的「功能化胺基酸」（functionalized amino acids, FAA）系列，其先導化合物是丙胺酸（alanine）的衍生物 2-acetamido-N-benzylpropionamide（即 N-乙醯基丙胺酸的苄醯胺），在 MES 動物模式中被發現具抗癲癇活性；後續以此骨架在 C3 位置引入甲氧基（methoxymethyl）並取 R 構型最佳化，才得到圖中的 (R)-2-acetamido-N-benzyl-3-methoxypropionamide，即 lacosamide。\n❌ (B) 半胱胺酸側鏈為 −CH2SH（硫醇），lacosamide 分子中完全沒有硫原子，FAA 系列的先導物也不是含硫胺基酸。\n❌ (C) 若只看最終結構，3-甲氧基確實相當於絲胺酸側鏈 −CH2OH 的甲醚，容易誤選；但題目問的是「設計理念所依據的、被發現具抗癲癇活性的胺基酸衍生物」，那是丙胺酸衍生物先導物，甲氧基是後來為提升活性與代謝穩定度才加上的修飾。\n❌ (D) 蘇胺酸側鏈為 −CH(OH)CH3，β 碳上另帶一個甲基；lacosamide 的 β 碳只接 −CH2OCH3，無此額外甲基，構效關係研究也顯示 β 位增大取代基會使活性下降。\n📚 出處：Foye's Principles of Medicinal Chemistry〈抗癲癇藥〉— 功能化胺基酸（functionalized amino acids）類抗癲癇藥 lacosamide 的先導化合物與構效關係。"
   },
   {
    "n": 56,
