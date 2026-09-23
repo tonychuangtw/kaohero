@@ -1,23 +1,32 @@
-STATUS: blocked
-OBJECTIVE: 變現工程。Tony 2026-09-21 指定的四件都完成並上線：
-　**① 錯題匯出 PDF／Anki（含後端產 .apkg） ② 間隔重複複習排程 ③ 模考弱點診斷與補弱題單
-　④ 綠界金流串接與三個入口的付費牆**。另依他要求抽查了 299 科的主題歸類品質並修掉三個瑕疵。
-　⚠️ **付費牆目前是關的**（`KAOHERO_PAYWALL` 沒設）：所有功能照常免費，沒有人會被擋。
+STATUS: in-progress
+OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4：
+　**① 補圖救回「有題目沒圖」的題 ② 官方答案與現行法衝突的題寫勘誤提醒
+　③ 詳解出處歸不出考點的修掉 ④ 模考排名（固定題組＋分數分布＋百分位）**
+　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
+　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: 等 Tony 這三件事，缺哪一件就做不下去：
-　1. **綠界正式金鑰**（跟公司工程師要，清單見下方「要跟工程師要什麼」）→ 填進後端 `.env` 的
-　　 `ECPAY_MERCHANT_ID`／`ECPAY_HASH_KEY`／`ECPAY_HASH_IV`（三個都設齊才會切到正式環境）
-　2. **後端搬家**：建議東京小 VPS（約 US$5～6／月）。他開好帳號給我 SSH，我搬。
-　　 ⚠️ 綠界的付款完成通知是伺服器直接打我們的網址，**開賣前一定要搬離家裡那台**
-　3. **價格拍板**：目前寫單科 180 天 990、全站 180 天 1980（價格走環境變數，改價不改程式）
-　拿到金鑰後我這邊的順序：填 .env → 用測試卡跑一次真實付款 → 確認回呼開通 → 才 `KAOHERO_PAYWALL=on`。
+NEXT_ACTION:
+　1. 等 `tools/note-batch.sh` 跑完（勘誤提醒，紀錄 `~/.claude/note-batch.log`，候選歸零就收工）
+　2. note-batch 收工後 `systemctl --user start exp-worker` 補那 1,672 題新補圖題的詳解
+　　 （`EXP_MATCH=.`、引擎必須是 claude —— agy／deepseek 讀不了圖）。
+　　 ⛔ 兩者不要併跑：都會改同一批 `js/data/exam/*.js` 並 commit，會互相蓋掉
+　3. 詳解寫完後再跑一次 `node tools/topic-audit.js --papers 6` 看新詳解有沒有拉低歸類率
+
+VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`、`node test/rank-test.js`（9 項）全綠；
+　後端 `node test/kgh-rank-test.js`（15 項）、`kgh-pay-test.js`（32 項）、`kgh-export-test.js`、`kgh-board-test.js` 全綠。
+　補圖抽查：Read 開 webp 確認圖表完整（102 年初等經濟學大意 #15 的表格）。
+　對照表 `figmap.py --check` 拿 1,026 卷既有圖檔驗證，0 不一致。
+　主題歸類 `topic-audit`：135 好／164 普通／0 差（改之前 135／156／8）。
+　後端已 `sudo systemctl restart lanexammock-backend`，`/api/kgh/rank` 回 401（有路由、要登入）而非 404。
+BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另外卡 Tony 三件事，見下方。
+
+## 等 Tony 的三件事（變現，2026-09-21 起）
+
+　1. **綠界正式金鑰** → 後端 `.env` 的 `ECPAY_MERCHANT_ID`／`ECPAY_HASH_KEY`／`ECPAY_HASH_IV`（三個都設齊才切正式）
+　2. **後端搬家**：建議東京小 VPS（約 US$5～6／月）。⚠️ 綠界回呼是伺服器直接打我們的網址，開賣前要搬離家裡那台
+　3. **價格拍板**：目前單科 180 天 990、全站 180 天 1980（走環境變數，改價不改程式）
+　拿到金鑰後順序：填 .env → 測試卡跑一次真實付款 → 確認回呼開通 → 才 `KAOHERO_PAYWALL=on`。
 　⛔ Tony 沒說開賣之前不要打開付費牆。⛔ 除非他當次指定，不用 DeepSeek。
-
-VALIDATION: 前端 `node test/test.js`（60,739 項）＋ `node test/smoke.mjs` 全綠（四件功能共新增 44 項檢查）；
-　後端 `node test/kgh-pay-test.js`（32 項）、`test/kgh-export-test.js`（11 項）、`test/kgh-board-test.js` 全綠。
-　CheckMacValue 另用綠界官方文件的範例值比對一致，並把產出的表單實際 POST 到綠界測試環境，
-　回的是正常的「選擇支付方式」頁。正式站實測：方案頁讀得到後端方案、未登入按付款會要求登入、無 console 錯誤。
-BLOCKERS: 等 Tony 給綠界正式金鑰、決定 VPS、拍板價格（都不是技術問題）。
 
 ## 要跟工程師要什麼（綠界「全方位金流 AIO」）
 
@@ -28,14 +37,19 @@ BLOCKERS: 等 Tony 給綠界正式金鑰、決定 VPS、拍板價格（都不是
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
-PATHS: js/pay.js（方案／帳戶／付費牆）、js/export.js、js/diagnose.js、js/app.js（排程與各 xxxApi）、
+PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-pdf.json}（補圖）、
+　tools/{note-targets.js,note-prompt.md,note-batch.sh,set-note.js}（勘誤提醒）、
+　js/rank.js ＋ test/rank-test.js ＋ 後端 kaohero.js 的 kgh_ranked／test/kgh-rank-test.js（排名賽）、
+　js/diagnose.js（topicOf／bookTail／topicKeys／chapterKey）、docs/topic-audit-2026-09-23.csv、
+　~/exam-pdfs/{den,tcm,pha}（2026-09-23 重抓的牙醫／中醫／藥師原卷）、
+　js/pay.js（方案／帳戶／付費牆）、js/export.js、js/app.js（排程與各 xxxApi）、
 　css/v2.css 末段（`.px-*`／`@media print`／`.dg-*`／`.pay-*`）、js/i18n.js、js/versions.js、
 　tools/pick-json.js、tools/build-anki.py、tools/topic-audit.js、docs/topic-audit-2026-09-21.csv、
 　test/smoke.mjs、~/.venvs/anki（genanki，**不在 repo 裡，重灌要重建**）、
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-21 10:30 台北
+UPDATED: 2026-09-23 17:10 台北
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
