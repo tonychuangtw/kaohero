@@ -391,7 +391,8 @@ window.APP_EXAM_PAPERS['tcm-109-1-cmc3'] = {
     "①Cozen’s test②Finkelstein’s test③Tinel’s sign④Phalen’s test"
    ],
    "a": 3,
-   "fig": "img/q/109030_102_0105_27.webp"
+   "fig": "img/q/109030_102_0105_27.webp",
+   "exp": "✅ (D) 圖①檢查者一手固定肘部、另一手對背屈的腕部施加阻力，測伸腕肌起點（肱骨外上髁）是否疼痛，為 Cozen's test（網球肘）；圖②拇指內收握於拳中再將腕部往尺側偏移，牽拉伸拇短肌與外展拇長肌腱鞘，為 Finkelstein's test（狹窄性腱鞘炎）；圖③以手指叩擊腕掌側腕隧道處，誘發正中神經分布區（拇、食、中指）放射麻痛，為 Tinel's sign；圖④兩手背相對、雙腕最大屈曲維持，增加腕隧道壓力誘發麻木，為 Phalen's test，四者配對完全正確。\n❌ (A) 把①誤認為 Finkelstein、②誤認為 Tinel，①的施力點在腕背屈受阻而非拇指尺偏，②亦非叩擊動作。\n❌ (B) 把①誤認為 Phalen、③誤認為 Finkelstein；Phalen 需雙腕相對屈曲，Finkelstein 需握拳尺偏，與圖示不符。\n❌ (C) 把①誤認為 Tinel、④誤認為 Finkelstein；Tinel 是叩擊而非抗阻，④為雙側對稱屈腕，非拇指牽拉。\n📚 出處：中醫傷科學‧上肢理學檢查（Cozen's test、Finkelstein's test、Tinel's sign、Phalen's test）"
   },
   {
    "n": 28,
@@ -825,7 +826,8 @@ window.APP_EXAM_PAPERS['tcm-109-1-cmc3'] = {
     "鎖骨下脫位"
    ],
    "a": 1,
-   "fig": "img/q/109030_102_0105_58.webp"
+   "fig": "img/q/109030_102_0105_58.webp",
+   "exp": "✅ (B) 片中肱骨頭已離開關節盂，向內、向上移位而重疊於喙突下方，關節盂呈現空虛，為前脫位中最常見的喙突下脫位（subcoracoid dislocation），約佔肩關節前脫位的七成以上，多因外展外旋外力所致。\n❌ (A) 肩鎖關節脫位的變化在鎖骨遠端與肩峰之間（間隙增寬、鎖骨上移），本片肩鎖關節對位尚可，異常在盂肱關節。\n❌ (C) 盂下脫位時肱骨頭位於關節盂正下方、肱骨呈外展上舉姿勢，本片肱骨頭明顯內移至喙突下而非單純下移。\n❌ (D) 鎖骨下脫位肱骨頭會更向內移至鎖骨下方、遠離喙突，移位程度遠大於本片所見。\n📚 出處：中醫傷科學‧肩關節脫位（前脫位分型：喙突下、盂下、鎖骨下）"
   },
   {
    "n": 59,
