@@ -1051,7 +1051,8 @@ window.APP_EXAM_PAPERS['pt-115-1-pt1'] = {
     "鈎形抓握（hook grip）"
    ],
    "a": 3,
-   "fig": "img/q/115020_311_0704_74.webp"
+   "fig": "img/q/115020_311_0704_74.webp",
+   "exp": "✅ (D) 圖中男子四指（第二至第五指）屈曲成鈎狀勾住咖啡壺手把，拇指未參與對掌、未壓在物品上，手掌也沒有包覆握柄，這正是鈎形抓握（hook grip）的定義：僅靠指間關節與掌指關節屈曲形成鈎子承重，適合提袋子、公事包、水壺等長時間承重但不需操控的動作。\n❌ (A) 強力抓握須以手掌、四指連同拇指共同包覆物體並靠拇指反向壓住產生穩定握力，圖中拇指並未壓在手把上、手掌也沒有環繞握柄。\n❌ (B) 指尖到指尖的捏夾是拇指指腹尖端與食指指腹尖端相對捏住小物（如拿針、撿珠子），屬精細抓握，與圖中四指勾提不同。\n❌ (C) 鑰匙捏夾是拇指指腹壓在食指橈側面（如轉鑰匙、拿卡片），只用到拇指與食指兩指且需拇指施壓，圖中並無此對指動作。\n📚 出處：Trombly《Occupational Therapy for Physical Dysfunction》抓握型態（prehension patterns）章節；Magee《Orthopedic Physical Assessment》手部功能性抓握（power grip 與 prehension）分類"
   },
   {
    "n": 75,
