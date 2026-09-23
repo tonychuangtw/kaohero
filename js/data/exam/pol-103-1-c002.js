@@ -96,7 +96,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "patent",
     "random"
    ],
-   "a": 1
+   "a": 1,
+   "note": "⚠ 官方公布答案是 (B) blunt，但 blunt 的字義是「鈍的、不鋒利的」或「直率的」，不能用來修飾 mistake；依句意「這麼明顯的錯誤」應選 (C) patent（明顯的、顯而易見的，如 patent error、patent ambiguity）。nude（裸的）與 random（隨機的）也都不合文意。本題官方答案疑為公布時的勘誤，練習時請以 patent 當正解記憶。"
   },
   {
    "n": 7,
