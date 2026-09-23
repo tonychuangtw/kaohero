@@ -781,7 +781,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph3'] = {
     "圖形顯示本藥品之k及ka有翻筋斗（flip-flop）現象，代表公式為："
    ],
    "a": 2,
-   "fig": "img/q/107100_305_33_55.webp"
+   "fig": "img/q/107100_305_33_55.webp",
+   "exp": "✅ (C) 此為半對數圖，給藥後血中濃度先上升（有明顯吸收相）、約 3～4 小時達 Tmax，且起始有一段延遲才測得藥品，符合口服給藥且吸收延遲的情形；一室模式口服的血中濃度由排除項與吸收項兩個指數相減而得，故寫成 Cp＝Be⁻ᵏᵗ－Ae⁻ᵏᵃᵗ。\n❌ (A) 快速靜脈注射（IV bolus）一室模式無吸收過程，t＝0 即為最高濃度並呈單一指數衰退（Cp＝Cp₀e⁻ᵏᵗ）；本圖有上升段，且該式把兩項相加又出現 ka，形式與機制皆不符。\n❌ (B) 溶液劑不需崩散溶離，吸收極快，Tmax 通常在 1 小時內且幾乎無延遲；本圖 Tmax 約 3～4 小時，不可能是溶液劑。\n❌ (D) flip-flop（ka＜k，終端斜率反映吸收速率常數）必須與同一藥的靜脈注射資料比對終端斜率才能判定，單一張口服曲線看不出來；且該式含 (t－t₀) 是延遲時間（lag time）模型，與「flip-flop」的敘述對不上。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—口服吸收一室模式（Bateman 方程式與 lag time）"
   },
   {
    "n": 56,
@@ -991,7 +992,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph3'] = {
     "300"
    ],
    "a": 1,
-   "fig": "img/q/107100_305_33_70.webp"
+   "fig": "img/q/107100_305_33_70.webp",
+   "exp": "✅ (B) 穩定狀態時給藥速率等於排除速率：R＝Vmax·Css／(KM＋Css)，移項整理得 Css＝Vmax·(Css／R)－KM。因此以 Css 對 Css／R 作圖為直線，斜率即 Vmax、y 截距為 －KM。由圖取線上兩點 (－0.006, －8) 與 (0.024, 7)：斜率＝[7－(－8)]／[0.024－(－0.006)]＝15／0.03＝500 mg/day。（y 截距約 －5，故 KM≒5 mg/L，與 x 截距 KM／Vmax＝0.01 相符）\n❌ (A) 600 mg/day 表示同樣的 Δx 要對應 18 的濃度變化，與圖上 －8 到 7 的實際跨距不合。\n❌ (C) 400 mg/day 會使直線在 x＝0.024 處僅約 4.6，明顯低於圖上的 7。\n❌ (D) 300 mg/day 斜率太小，且推得的 KM 也無法同時滿足 x 截距 0.01 的條件。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—非線性藥物動力學（Michaelis-Menten 穩定狀態線性化作圖求 Vmax、KM）"
   },
   {
    "n": 71,
@@ -1131,7 +1133,8 @@ window.APP_EXAM_PAPERS['pha-107-2-ph3'] = {
     "2"
    ],
    "a": 2,
-   "fig": "img/q/107100_305_33_80.webp"
+   "fig": "img/q/107100_305_33_80.webp",
+   "exp": "✅ (C) 將 R＝Vmax·Css／(KM＋Css) 取倒數得 1／R＝(KM／Vmax)(1／Css)＋1／Vmax，此圖斜率即 KM／Vmax。由線上兩點 (0.0625, 0.125) 與 (0.25, 0.25)：斜率＝(0.25－0.125)／(0.25－0.0625)＝0.125／0.1875≒0.66，故所求 Vmax／KM＝1／0.66≒1.5。（另驗算：x 截距 －1／KM＝－0.125 → KM＝8 mg/L；y 截距 1／Vmax≒0.083 → Vmax≒12 mg/h，12／8＝1.5）\n❌ (A) 0.66 是圖上的斜率，代表 KM／Vmax；題目問的是它的倒數 Vmax／KM，方向相反。\n❌ (B) 1 需要斜率恰為 1（即 KM＝Vmax 的數值），與圖上約 0.66 的斜率不符。\n❌ (D) 2 對應斜率 0.5，該直線在 1／Css＝0.25 處只會到 0.21 左右，與圖上的 0.25 不符。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—非線性藥物動力學（Lineweaver-Burk 倒數作圖求 Vmax／KM）"
   }
  ]
 };
