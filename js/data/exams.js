@@ -50260,7 +50260,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "108 年　初等考試　基本電學大意",
   "n": 40,
-  "exp": 20,
+  "exp": 38,
   "mins": 60
  },
  {
