@@ -54,7 +54,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "Mycobacterium tuberculosis"
    ],
    "a": 0,
-   "fig": "img/q/115020_303_0202_3.webp"
+   "fig": "img/q/115020_303_0202_3.webp",
+   "exp": "✅ (A) 圖中口周與兩頰散在紅斑、水疱破裂後形成厚厚的蜜黃色結痂（honey-colored crust），是典型的傳染性膿痂疹（impetigo contagiosa），主要致病菌為金黃色葡萄球菌，其次為 A 群鏈球菌；好發於兒童顏面、口鼻周圍，接觸傳染性高，治療以外用或口服抗葡萄球菌抗生素為主。\n❌ (B) 梅毒螺旋體造成的口周病灶為無痛性硬性下疳、黏膜斑或樹膠腫，不會形成大片蜜黃色痂皮。\n❌ (C) 淋病雙球菌主要造成泌尿生殖道感染，口咽部感染表現為咽炎，不會有此種顏面結痂性膿疱。\n❌ (D) 結核桿菌的皮膚表現（尋常狼瘡、口腔結核潰瘍）為慢性肉芽腫性結節或邊緣不整的潰瘍，病程數月，與此急性結痂病灶不同。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bacterial infections — Impetigo）。"
   },
   {
    "n": 4,
@@ -306,7 +307,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "齒質性鬼細胞瘤（dentinogenic ghost cell tumor）"
    ],
    "a": 1,
-   "fig": "img/q/115020_303_0202_21.webp"
+   "fig": "img/q/115020_303_0202_21.webp",
+   "exp": "✅ (B) 圖中根尖區為界線清楚的放射線透射病灶，內部可見多處點狀鈣化的不透射斑點，屬「混合型（透射併不透射）」病灶。造釉細胞瘤源自齒源性上皮、不會產生硬組織基質，影像上為單房或多房的純透射性病灶（典型肥皂泡／蜂巢狀），因此最不可能出現內含鈣化物的混合型表現。\n❌ (A) 腺瘤樣齒源性瘤常在透射病灶內見到雪花狀（snowflake）細小鈣化點，可呈混合型。\n❌ (C) 鈣化上皮齒源瘤（Pindborg tumor）內有類澱粉沉積併鈣化，典型為「飄雪（driven snow）」樣不透射點。\n❌ (D) 齒質性鬼細胞瘤含鬼細胞鈣化與類齒質形成，影像上也常呈透射併不透射的混合型病灶。\n📚 出處：White & Pharoah, Oral Radiology, 7th ed.（Cysts and tumors of the jaws — 齒源性腫瘤的透射與混合型影像鑑別）。"
   },
   {
    "n": 22,
@@ -320,7 +322,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "④"
    ],
    "a": 3,
-   "fig": "img/q/115020_303_0202_22.webp"
+   "fig": "img/q/115020_303_0202_22.webp",
+   "exp": "✅ (D) X 光上的不透射（radiopaque）區域必須由礦化的硬組織造成。④ 所標示的是腫瘤基質內大片均質、緻密的嗜伊紅性礦化物沉積（鈣化／類齒質樣物質），質地與周圍細胞成分截然不同，只有這種鈣化物才能明顯衰減 X 光而在影像上呈現白色不透射區。\n❌ (A) ① 為覆蓋在病灶表面的上皮與纖維結締組織，屬軟組織，密度與周圍軟組織相近，呈透射性。\n❌ (B) ② 箭頭指的是血管與間質內的紅血球滲出（出血）區，是液性／細胞性成分，不會造成不透射影像。\n❌ (C) ③ 箭頭指向增生的腫瘤上皮細胞巢，細胞成分本身未礦化，在影像上仍屬透射區。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（齒源性腫瘤的鈣化基質與影像對應——組織礦化才形成 radiopacity）。"
   },
   {
    "n": 23,
@@ -543,7 +546,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent2'] = {
     "e-f"
    ],
    "a": 0,
-   "fig": "img/q/115020_303_0202_38.webp"
+   "fig": "img/q/115020_303_0202_38.webp",
+   "exp": "✅ (A) 圖為鎳鈦線的受力—變形（負荷／卸載）遲滯曲線。a-b 是沃斯田相的彈性變形（應力隨變形線性上升）；到 b 點應力達到臨界值後進入 b-c 這段近乎水平的「負荷平台」，此時應力誘發沃斯田相轉變為麻田散相（stress-induced martensitic transformation），變形大幅增加而力量幾乎不變，這正是鎳鈦線能提供持續輕力的原因。\n❌ (B) c-d 段平台已結束，材料全部轉為麻田散相後再繼續受力，屬麻田散相本身的彈性（及塑性）變形，不是相變化發生段。\n❌ (C) d-e 為開始卸載時麻田散相的彈性回復段，尚未發生逆相變。\n❌ (D) e-f 是卸載平台，代表麻田散相逆轉回沃斯田相（超彈性回彈時釋放的輕柔力量），方向與題目問的相變化相反。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Mechanical principles in orthodontic force control — 鎳鈦線的形狀記憶與超彈性）。"
   },
   {
    "n": 39,
