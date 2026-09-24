@@ -309,7 +309,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "圖 1 包埋樹脂量不足、圖 2 施加在包埋盒上的壓力不足"
    ],
    "a": 1,
-   "fig": "img/q/114090_304_0305_21.webp"
+   "fig": "img/q/114090_304_0305_21.webp",
+   "exp": "✅ (B) 圖 1 是少數幾個大小不一、形狀不規則的空隙，且位置零散，屬於收縮型空隙（contraction void）：包埋盒內麵團量不足，閉合加壓時沒有多餘樹脂溢出，樹脂聚合收縮後就在基底內留下不規則空洞。圖 2 是細小而密集、集中在基底最厚處的球狀氣泡，屬於氣體型孔隙（gaseous porosity）：加熱過快使樹脂內部溫度超過 MMA 單體沸點（約 100.8°C），未反應單體在厚處汽化成泡而被凍結在基底裡。\n❌ (A) 兩者對調了。若圖 1 是加熱過快，氣泡應該像圖 2 一樣細小密集且集中在厚部，不會是零星的大空洞。\n❌ (C) 粉液混和不均勻會造成局部粉粒未被單體浸潤、呈現斑駁粗糙面，不是圖 1 那種界線清楚的空洞；圖 2 的均勻細泡是熱引起的單體汽化，與加壓無關。\n❌ (D) 圖 1 判斷正確，但圖 2 錯：壓力不足產生的是不規則的大空隙並使義齒垂直高度增加（咬合升高），不會形成滿布厚處的均勻細小氣泡。\n📚 出處：Anusavice, Phillips' Science of Dental Materials, 13th ed.（Denture base resins — porosity：gaseous porosity 與 contraction porosity 的成因鑑別）。"
   },
   {
    "n": 22,
@@ -505,7 +506,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "Bailyn class I"
    ],
    "a": 0,
-   "fig": "img/q/114090_304_0305_35.webp"
+   "fig": "img/q/114090_304_0305_35.webp",
+   "exp": "✅ (A) 圖中病人左側後段缺牙區的義齒鞍延伸到最遠心而沒有末端基牙，是單側遠心游離缺牙（distal extension），依 Applegate 規則以最後端的缺牙區定分類，即 Kennedy class II；另一側最後方還留有一顆孤立臼齒，該處缺牙區前後都有牙，是有界缺牙，再加上前牙區的一個缺牙區——本圖另有 1 個額外缺牙區，故為 class II, modification 1。\n❌ (B) class III 的定義是缺牙區兩端都有天然牙的單側有界缺牙；本圖有一側的鞍區遠心沒有基牙，不符合 class III。\n❌ (C) Skinner 分類的 class I 指雙側後牙遠心游離缺牙，本圖只有單側游離、對側末端仍有基牙。\n❌ (D) Bailyn 分類的 class I（restricted）指缺牙區前後均有天然牙可支持，遠心游離者屬於 class II（unrestricted），與本圖不符。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Classification of partially edentulous arches — Kennedy classification 與 Applegate's rules）。"
   },
   {
    "n": 36,
@@ -1027,7 +1029,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent5'] = {
     "活動贋復治療"
    ],
    "a": 2,
-   "fig": "img/q/114090_304_0305_72.webp"
+   "fig": "img/q/114090_304_0305_72.webp",
+   "exp": "✅ (C) 照片顯示病人在中心關係位閉合時後牙已接觸、前牙卻留有明顯垂直間隙，是前牙開咬（anterior open bite）。這是牙齒垂直向位置（前牙萌出不足或後牙過度萌出）造成的問題，必須靠矯正壓低後牙、伸長前牙（嚴重的骨性病例再合併正顎手術）才能真正關閉開咬，故矯正治療最適當。\n❌ (A) 選擇性修磨只能處理少量早期接觸與滑動干擾，修磨量受限於琺瑯質厚度；在開咬病例把後牙磨低不但不足以關閉這麼大的間隙，還會傷害齒質並使咬合更不穩定。\n❌ (B) 用固定贋復把前牙加長到接觸，需大量磨除健康齒質、冠長與牙冠比例失調，且前牙承受不利受力，屬破壞性的過度治療。\n❌ (D) 活動贋復用於缺牙的修復；此病人牙列完整、只是垂直咬合關係異常，沒有活動義齒的適應症。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Occlusal therapy 的適應症與 anterior open bite 的處理原則）。"
   },
   {
    "n": 73,
