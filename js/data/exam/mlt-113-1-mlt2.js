@@ -700,7 +700,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
     "Thrombin，FIIa，FXa"
    ],
    "a": 0,
-   "fig": "img/q/113020_308_22_49.webp"
+   "fig": "img/q/113020_308_22_49.webp",
+   "exp": "✅ (A) 圖中 activated protein C（APC）須以①「蛋白 S」為輔酶（cofactor），兩者在磷脂表面形成複合物後，以蛋白質水解方式切斷②FVa 與③FVIIIa，使凝血酶原酶複合體（FXa-FVa）與 tenase 複合體（FIXa-FVIIIa）失去輔因子而停止放大，這就是 protein C 抗凝血系統的核心。FV Leiden 突變即因 FVa 切點（Arg506）改變而對 APC 產生抗性。\n❌ (B) 蛋白 S 雖為正確的輔酶，但 APC 作用的受質是「輔因子」FVa 與 FVIIIa，不是酵素型的 FIIa（thrombin）與 FXa；FIIa 與 FXa 主要由 antithrombin 加肝素抑制。\n❌ (C) Thrombin 不是 APC 的輔酶，反而是它的上游活化者：thrombin 與內皮細胞的 thrombomodulin 結合後才把 protein C 活化成 APC；受質 FVa、FVIIIa 雖正確，①仍錯。\n❌ (D) 三格全錯：①應為蛋白 S 而非 thrombin，②③應為 FVa、FVIIIa 而非 FIIa、FXa。\n📚 出處：protein C／protein S 抗凝血系統——APC 以 protein S 為輔酶去活化 FVa、FVIIIa；Rodak's Hematology「Hemostasis and Thrombosis（Regulatory Mechanisms of Coagulation）」章節。"
   },
   {
    "n": 50,
@@ -714,7 +715,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt2'] = {
     "Tissue factor，factor VII"
    ],
    "a": 0,
-   "fig": "img/q/113020_308_22_50.webp"
+   "fig": "img/q/113020_308_22_50.webp",
+   "exp": "✅ (A) 圖中①把②活化成「活化凝血因子②」，再由它催化 fibrin 的交聯。①為 thrombin（FIIa），②為 factor XIII（fibrin stabilizing factor）；thrombin 在 Ca²⁺ 存在下切開 FXIII 成為 FXIIIa（transglutaminase），在相鄰 fibrin 單體的 γ 鏈與 α 鏈間形成 ε-(γ-glutamyl)lysine 共價鍵，使可溶的 fibrin polymer 變成不溶於 5 M urea 或單氯醋酸的穩定血塊。\n❌ (B) Plasmin 的作用與圖示相反：它是分解 fibrin 產生 FDP／D-dimer 的纖溶酵素，不會催化交聯，也不是被 thrombin 活化。\n❌ (C) Factor Xa 的功能是把 prothrombin（factor II）轉成 thrombin，停在圖中更上游的一步；factor II 本身也不是催化交聯的酵素。\n❌ (D) Tissue factor 與 factor VII 組成外在途徑的起始複合體（TF-FVIIa），只負責活化 FX 與 FIX，與 fibrin 交聯這一步無關。\n📚 出處：凝血共同途徑最終步驟——thrombin 活化 factor XIII，FXIIIa 交聯 fibrin 形成不溶血塊；Rodak's Hematology「Hemostasis and Thrombosis（Coagulation Cascade: Common Pathway、Fibrin Stabilization）」章節。"
   },
   {
    "n": 51,
