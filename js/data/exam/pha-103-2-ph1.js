@@ -293,7 +293,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
     "Trichlormethiazide"
    ],
    "a": 2,
-   "fig": "img/q/103090_312_11_20.webp"
+   "fig": "img/q/103090_312_11_20.webp",
+   "exp": "✅ (C) 圖中位置 6 標在遠曲小管末段／集尿管（collecting tubule）的 NaCl 再吸收處，該處由 aldosterone 作用於主細胞（principal cell）的礦物皮質素受體，促進 ENaC 鈉通道與 Na+/K+-ATPase 表現。Eplerenone 為選擇性 aldosterone（礦物皮質素）受體拮抗劑，作用位置正是此段，可抑制此處 Na+ 再吸收並保留 K+，屬保鉀利尿劑。\n❌ (A) Indapamide 為類 thiazide 利尿劑，抑制遠曲小管（圖中位置 5）的 Na+-Cl- 共同輸送體。\n❌ (B) Bumetanide 為亨利氏環利尿劑，抑制粗升支（圖中位置 4）的 Na+-K+-2Cl- 共同輸送體。\n❌ (D) Trichlormethiazide 屬 thiazide 類，同樣作用於遠曲小管的 NCC，而非集尿管。\n📚 出處：Katzung, Diuretic Agents — 集尿管保鉀利尿劑（aldosterone 拮抗劑）作用部位"
   },
   {
    "n": 21,
@@ -789,7 +790,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph1'] = {
     "R4"
    ],
    "a": 0,
-   "fig": "img/q/103090_312_11_55.webp"
+   "fig": "img/q/103090_312_11_55.webp",
+   "exp": "✅ (A) 圖為 4-hydroxycoumarin 母核，warfarin 與 dicoumarol 這類口服抗凝血劑的共同特徵是 4 位有 -OH、並在 3 位（圖中 R1）帶取代基：warfarin 的 3 位接 1-phenyl-3-oxobutyl 側鏈，dicoumarol 則由兩分子 4-hydroxycoumarin 於 3 位以亞甲基相連。此 4-OH 與 3 位親脂性大取代基是抑制 vitamin K epoxide reductase（VKOR）所必需的構效要件。\n❌ (B) R2 為苯環 5 位，warfarin 與 dicoumarol 在此皆為氫，無取代基。\n❌ (C) R3 為苯環 6 位，兩者於此位置均未取代。\n❌ (D) R4 為苯環 7 位，同樣未取代；苯環上取代並非此類抗凝血劑的共同結構特徵。\n📚 出處：Lemke, Foye's Principles of Medicinal Chemistry — Anticoagulants：4-hydroxycoumarin 類構效關係"
   },
   {
    "n": 56,
