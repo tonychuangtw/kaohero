@@ -474,7 +474,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e018'] = {
     "ABDCE；BD CE"
    ],
    "a": 2,
-   "fig": "img/q/105010_509_0701_33.webp"
+   "fig": "img/q/105010_509_0701_33.webp",
+   "exp": "✅ (C) 由圖可知：A 的左子為 B（A 無右子），B 的左子為 D、右子為 C，D 的右子為 E。中序為「左—根—右」：先進入 A 的左子樹 B，再進入 B 的左子 D；D 無左子故先印 D，接著印 D 的右子 E，回到 B，再走 B 的右子 C，最後才印根 A，故結果為 DEBCA。中序引線（threaded binary tree）是把空的右鏈結改指向該節點的中序後繼；E 的右鏈結原為空，其中序後繼是 B，故指向 B。\n❌ (A) ABCDE 是把樹當成由上而下、由左而右直接讀出的順序，不是中序；且 E 的後繼也不是 C（C 在 B 之後才被走訪）。\n❌ (B) BDCAE 未遵守「左子樹全部走完才印根」的規則，D、E 應排在 B 之前；E 的後繼也不是 D，D 是 E 的父節點（前驅）。\n❌ (D) 走訪序列 ABDCE 把根 A 排在最前面，那是前序（preorder）的特徵，而且本樹的前序應為 ABDEC；後半段答 B 雖正確，序列錯誤仍不可選。\n📚 出處：資料結構．二元樹走訪與中序引線二元樹（inorder traversal／threaded binary tree 的中序後繼）"
   },
   {
    "n": 34,
