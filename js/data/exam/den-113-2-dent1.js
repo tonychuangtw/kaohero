@@ -167,7 +167,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent1'] = {
     "眼球之上斜肌附著在箭頭標示區域"
    ],
    "a": 3,
-   "fig": "img/q/113090_303_11_11.webp"
+   "fig": "img/q/113090_303_11_11.webp",
+   "exp": "✅ (D) 圖為額骨的下面（眼眶面）觀，箭頭指在眶頂前內側、眶上緣後方約 4 mm 處的小凹陷，即滑車窩（fovea trochlearis / trochlear fovea）。此處以纖維軟骨性滑車（trochlea）附著，上斜肌的肌腱繞過滑車後再轉向後外側止於眼球，故上斜肌的作用點與此區域相連。\n❌ (A) 此圖是從下方看額骨的眼眶部（左右兩片眶板中間夾篩骨切迹），顯示的是下面（眶面）而非後方。\n❌ (B) 淚腺窩位於眶頂的前外側角（顴突側），與箭頭所指的前內側位置相反；鼻淚管上端的淚囊窩則在淚骨與上頜骨額突上，不在額骨。\n❌ (C) 眶上神經（三叉神經第一支的額神經分支）經眶上緣的眶上切迹或眶上孔出眶，位置在眶緣而非眶頂內側的滑車窩。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8（Orbit：trochlear fovea 與 superior oblique 的滑車附著）。"
   },
   {
    "n": 12,
@@ -237,7 +238,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent1'] = {
     "④"
    ],
    "a": 2,
-   "fig": "img/q/113090_303_11_16.webp"
+   "fig": "img/q/113090_303_11_16.webp",
+   "exp": "✅ (C) ③ 指在甲狀軟骨下緣與環狀軟骨上緣之間的環甲膜（cricothyroid membrane），環甲膜切開術即由此正中處橫切進入喉腔。此處位置表淺、體表可摸到甲狀軟骨切迹下方的凹陷，前方無重要血管與甲狀腺峽部，故適合緊急建立呼吸道。\n❌ (A) ① 指在甲狀軟骨上緣與舌骨之間的甲狀舌骨膜，切開會進入會厭上方的喉前庭，且鄰近喉上神經內支與喉上動脈。\n❌ (B) ② 指在甲狀軟骨板本體，為堅硬軟骨，無法直接切開進入氣道。\n❌ (D) ④ 指在氣管軟骨環處，該處為正式氣管切開術的位置，前方有甲狀腺峽部與甲狀腺下靜脈叢，不適合緊急徒手操作。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.9（Larynx：cricothyroid ligament 與 cricothyroidotomy）。"
   },
   {
    "n": 17,
