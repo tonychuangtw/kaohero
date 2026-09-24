@@ -55,7 +55,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent2'] = {
     "HHV-6"
    ],
    "a": 0,
-   "fig": "img/q/115090_303_0302_3.webp"
+   "fig": "img/q/115090_303_0302_3.webp",
+   "exp": "✅ (A) 圖中病灶為單側性、沿三叉神經第二支（上頜支）皮節分布的群集水疱與黃痂，且嚴格止於顏面中線；口內同側腭部與頰黏膜也出現成群的小潰瘍，這是帶狀疱疹（herpes zoster）的典型表現，病原為水痘帶狀疱疹病毒（VZV），即 HHV-3。它在初次感染造成水痘後潛伏於三叉神經節，免疫力下降時再活化，沿單一皮節復發。\n❌ (B) HHV-4 為 EB 病毒，造成傳染性單核球增多症、口腔毛狀白斑與伯基特淋巴瘤，不會出現單側皮節分布的水疱。\n❌ (C) HHV-5 為巨細胞病毒，免疫不全者多表現為唾液腺炎、視網膜炎或單發的大型深部潰瘍，不呈皮節性皮疹。\n❌ (D) HHV-6 引起嬰幼兒玫瑰疹（exanthem subitum），為高燒後軀幹出現的斑丘疹，非水疱且不依皮節分布。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Viral Infections — Varicella-Zoster Virus / Herpes Zoster）。"
   },
   {
    "n": 4,
@@ -489,7 +490,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent2'] = {
     "氣孔產生與加熱速率無關"
    ],
    "a": 2,
-   "fig": "img/q/115090_303_0302_34.webp"
+   "fig": "img/q/115090_303_0302_34.webp",
+   "exp": "✅ (C) 曲線 C 升溫最快，樹脂內部溫度在十餘分鐘內即衝到約 120 °C，遠高於單體 MMA 的沸點（100.8 °C）。聚合為放熱反應，較厚部位熱量不易散出，尚未反應的單體在此溫度下會汽化，形成內部球狀氣孔（porosity）。因此加熱過快正是厚部位產生氣孔的原因。\n❌ (A) 曲線 A 升溫最慢（約 80 分鐘才出現放熱峰，峰值僅約 95 °C），全程未超過單體沸點，是最安全的聚合循環，不會造成汽化型氣孔。\n❌ (B) 曲線 B 放熱峰約 110 °C 雖略高，但升溫速率介於中間、超過沸點的幅度與時間都有限，產生氣孔的風險遠低於 C。\n❌ (D) 圖示明確顯示加熱速率決定放熱峰溫度是否超過單體沸點，氣孔的產生與加熱速率直接相關，此敘述錯誤。\n📚 出處：Anusavice, Phillips' Science of Dental Materials（Denture Base Polymers — Polymerization cycle 與 gaseous porosity）。"
   },
   {
    "n": 35,
