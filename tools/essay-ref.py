@@ -95,8 +95,11 @@ def set_refs(path, write):
         why = check(r)
         if why: bad.append('%s %s #%s：%s' % (k, roc, n, why)); continue
         by.setdefault(k, []).append(r)
+    # 部分退回：格式不合的題不寫、也不記 skip（下一批會再挑到重寫），其餘照寫。
+    # 以前整批退回＋批次停止，一題超長就把整批 12 題丟掉（2026-09-24 21:12）
     if bad:
-        print('退回：', *bad, sep='\n  '); sys.exit(1)
+        print('退回：', *bad, sep='\n  ')
+        if not by: sys.exit(1)
     got = 0
     for k, rs in by.items():
         ps = load_papers(idx[k]['f'], k)

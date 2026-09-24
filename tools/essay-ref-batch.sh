@@ -53,6 +53,8 @@ while :; do
   if ! flock "$LOCK" python3 tools/essay-ref.py set "$T/refs.json" --write > "$T/set.txt" 2>&1; then
     echo "$(now) 第 $b 批格式退回：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"; break
   fi
+  grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
+  got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
   commit "申論參考架構 +${got} 題（${subj}）" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
   echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題，$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
   # 一批寫 0 題＝這批模型全判 skip，已記進 essay-ref-skips.json，下一批會挑別的，不會空轉
