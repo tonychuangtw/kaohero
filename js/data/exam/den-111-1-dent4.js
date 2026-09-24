@@ -912,7 +912,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "infraorbital canal"
    ],
    "a": 1,
-   "fig": "img/q/111020_304_44_64.webp"
+   "fig": "img/q/111020_304_44_64.webp",
+   "exp": "✅ (B) 黃色箭頭框住的是上顎結節（maxillary tuberosity）後方那一道向後上斜走、邊界清楚的細長透射線，正是翼上頜裂（pterygomaxillary fissure）——上頜骨後壁與蝶骨翼突之間的縫隙，環景片上呈倒水滴狀或倒 Y 狀的暗線，是翼顎窩的入口，也是上顎結節阻斷麻醉與 Le Fort I 手術的重要標記。\n❌ (A) 顴突（zygomatic process）在環景片上是重疊於上顎第一、二大臼齒根尖處的 J 形或 U 形「不透射」緻密影，位置比箭頭處更前、更下，且為白影而非暗線。\n❌ (C) 翼鉤（hamular process）是內側翼板下端向下後方彎鉤的小骨突，位在上顎結節後下方，呈短小的不透射突起，不是這條長形裂隙。\n❌ (D) 眶下管（infraorbital canal）是眼眶底下方橫向走行的透射管道，位置遠高於箭頭處，且方向近乎水平，與此處斜向的裂隙不同。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Panoramic Imaging — 上頜後方正常解剖：pterygomaxillary fissure）。"
   },
   {
    "n": 65,
@@ -1069,7 +1070,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "蘭格罕氏細胞組織細胞增多症（Langerhans' cell histiocytosis）"
    ],
    "a": 2,
-   "fig": "img/q/111020_304_44_75.webp"
+   "fig": "img/q/111020_304_44_75.webp",
+   "exp": "✅ (C) 影像為下顎咬合片，病灶區骨質破壞的同時，骨膜被腫瘤快速頂起而生成大量垂直於皮質、向外放射的骨針，形成典型的「日光放射狀（sun-ray／sunburst）」骨膜反應，並伴隨骨小樑結構消失與邊界不清的浸潤性擴展，這是惡性骨肉瘤最具代表性的影像特徵。\n❌ (A) 纖維性發育不良呈均質的毛玻璃樣（ground-glass／橘皮樣）緻密影，與周圍正常骨逐漸融合、外形呈骨體膨大但皮質完整，不會長出放射狀骨針。\n❌ (B) 慢性骨髓炎為透射與阻射混雜、常見死骨（sequestrum）與洋蔥皮樣（層狀）骨膜增生，骨膜線與皮質平行，而非垂直放射。\n❌ (D) 蘭格罕氏細胞組織細胞增多症典型為邊界銳利的「穿鑿狀（punched-out）」透射病灶，齒槽骨溶解使牙齒呈「浮牙（teeth floating in air）」，屬溶骨性而非此種造骨性放射影。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Malignant Diseases of the Jaws — Osteosarcoma 的 sunburst 骨膜反應）。"
   },
   {
    "n": 76,
@@ -1083,7 +1085,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "cone beam computed tomography"
    ],
    "a": 0,
-   "fig": "img/q/111020_304_44_76.webp"
+   "fig": "img/q/111020_304_44_76.webp",
+   "exp": "✅ (A) 影像是兩張小尺寸的口內片，每張只涵蓋約 3～4 顆牙，且牙冠、牙根到根尖周圍的齒槽骨都完整入鏡，四角可見底片圓角與軟組織輪廓，正是根尖攝影（periapical radiography）的標準表現——目的就是看單一區域牙齒全長與根尖周組織。\n❌ (B) 咬合攝影（occlusal radiography）用的是大張咬翼尺寸的片子由咬合面方向投照，會呈現整個牙弓的橫斷面與頰舌向位置，涵蓋範圍遠大於此圖。\n❌ (C) 環景攝影（panoramic radiography）一張影像即涵蓋上下顎全牙列、下顎枝與顳顎關節，呈連續弧形，不會是兩張分開的小片。\n❌ (D) 錐狀射束電腦斷層（CBCT）產生的是可多平面重組的斷層切面影像，無重疊、可看橫斷面，與此處具結構重疊的二維投影片不同。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Intraoral Projections — Periapical Radiography 的適應症與影像範圍）。"
   },
   {
    "n": 77,
@@ -1097,7 +1100,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "left mandible"
    ],
    "a": 3,
-   "fig": "img/q/111020_304_44_77.webp"
+   "fig": "img/q/111020_304_44_77.webp",
+   "exp": "✅ (D) 片中牙冠朝上、牙根朝下，且根尖下方可見緻密的下顎骨小樑與下顎下緣方向的骨質，屬下顎的根尖片（口外標示法排片時，下顎片即牙冠朝上）。影像由左至右由前牙逐漸變成後牙，在唇側排片法（labial mounting，視角如同面對病人）下，觀察者的右側即病人的左側，故黑色箭頭所指為左側下顎。\n❌ (A) 上顎的根尖片牙冠朝下、根尖朝上，且可見上顎竇底、鼻腔底或顴突等結構，本片完全沒有這些上顎標記。\n❌ (B) 同樣可先排除為上顎；本片根尖下方是連續緻密的下顎骨體骨小樑，並無上顎竇的大片透射影。\n❌ (C) 若為右側下顎，在唇側排片法下影像應呈鏡像（前牙在觀察者右側、後牙在左側），與本片由前往後的方向相反。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Film Mounting 排片原則與 Normal Radiographic Anatomy of the Mandible）。"
   },
   {
    "n": 78,
@@ -1111,7 +1115,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent4'] = {
     "外生贅骨（exostoses）"
    ],
    "a": 2,
-   "fig": "img/q/111020_304_44_78.webp"
+   "fig": "img/q/111020_304_44_78.webp",
+   "exp": "✅ (C) 黑色箭頭指向下顎前牙根尖處，病灶位於多顆牙的根尖周圍、邊界不甚銳利，且已由早期的透射影轉為透射與阻射混雜（中央出現鈣化團塊、外圍留有透射帶），牙齒本身完整、牙根無吸收，這正是根尖牙骨質骨質發育不良症的典型影像與好發位置（下顎前牙區，常見於中年女性）。\n❌ (A) 殘餘囊腫是拔牙後遺留於無牙區的根尖囊腫，必須發生在已拔除牙齒的部位，本片病灶處牙齒仍在。\n❌ (B) 根尖囊腫為單一失活牙根尖的純透射性病灶，邊界銳利並有皮質白線，不會出現中央鈣化的混合影；本症的牙齒仍具活性，是與根尖囊腫鑑別的關鍵。\n❌ (D) 外生贅骨是齒槽骨頰舌側表面的緻密骨突起，影像上為均質的不透射團塊、位於骨表面而非根尖周圍，也不會有周邊透射帶。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Cemento-osseous Dysplasia — periapical 型的影像分期與鑑別診斷）。"
   },
   {
    "n": 79,
