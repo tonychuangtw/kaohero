@@ -267,7 +267,8 @@ window.APP_EXAM_PAPERS['mlt-107-1-mlt4'] = {
     "Sjögren's syndrome"
    ],
    "a": 2,
-   "fig": "img/q/107020_308_66_18.webp"
+   "fig": "img/q/107020_308_66_18.webp",
+   "exp": "✅ (C) 圖中 HEp-2 細胞核呈現多顆粒的斑點型（speckled，核內散在螢光亮點）螢光，屬於抗核抗體（ANA）陽性。Goodpasture's syndrome 的致病抗體是抗腎小球基底膜抗體（anti-GBM，針對第四型膠原蛋白 α3 鏈的 NC1 區），抗原在基底膜而不在細胞核，用 HEp-2 間接免疫螢光做 ANA 通常為陰性，因此最不可能對應此圖，為本題答案。\n❌ (A) 硬皮症（全身性硬化症）ANA 陽性率高達九成以上，抗 Scl-70（topoisomerase I）呈斑點型、抗 centromere 呈離散斑點型，與圖示相符。\n❌ (B) 全身性紅斑狼瘡 ANA 幾乎百分之百陽性，抗 Sm、抗 U1-RNP、抗 SSA 均可表現為斑點型螢光。\n❌ (D) Sjögren's syndrome 以抗 SSA(Ro)／SSB(La) 為主，在 HEp-2 上典型即為細緻或粗顆粒的斑點型核染色。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods 第 52 章 自體免疫疾病與抗核抗體螢光型態（speckled pattern 與對應疾病）；Goodpasture's syndrome 屬抗基底膜抗體疾病，非 ANA 相關。"
   },
   {
    "n": 19,
