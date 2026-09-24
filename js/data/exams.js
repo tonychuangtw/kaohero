@@ -50862,7 +50862,7 @@ window.APP_EXAMS = [
   "subjName": "統計學大意",
   "label": "106 年　初等考試　統計學大意",
   "n": 40,
-  "exp": 38,
+  "exp": 39,
   "mins": 60
  },
  {
