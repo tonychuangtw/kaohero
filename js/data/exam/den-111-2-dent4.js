@@ -181,7 +181,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "Class 3 and C"
    ],
    "a": 1,
-   "fig": "img/q/111100_304_44_12.webp"
+   "fig": "img/q/111100_304_44_12.webp",
+   "exp": "✅ (B) Pell and Gregory 分類要同時判「與下顎枝前緣的水平關係（Class 1/2/3）」與「與第二大臼齒的垂直深度（Position A/B/C）」。片中阻生第三大臼齒約有一半的齒冠被下顎枝前緣覆蓋、另一半仍位於第二大臼齒遠心的齒槽骨中，屬 Class 2；其咬合面明顯低於第二大臼齒的牙頸線（cervical line）之下，屬 Position C，故為 Class 2 and C。\n❌ (A) Position A 指阻生齒最高處與第二大臼齒咬合面等高，本片阻生齒埋得遠比這深。\n❌ (C) Class 3 指齒冠幾乎全部埋在下顎枝內，本片仍有約半個齒冠在齒槽骨側；且 Position A 的深度不符。\n❌ (D) 水平向的 Class 3 判定過度，僅垂直向 Position C 正確，兩者要同時成立才算。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Pell and Gregory classification of impacted third molars）。"
   },
   {
    "n": 13,
@@ -938,7 +939,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "根尖囊腫（radicular cyst）"
    ],
    "a": 3,
-   "fig": "img/q/111100_304_44_66.webp"
+   "fig": "img/q/111100_304_44_66.webp",
+   "exp": "✅ (D) 箭頭指向下顎正中門齒根尖處一個界線清楚、環繞根尖的圓形放射線透射病變，且與該牙的根尖直接相連——這是根尖囊腫（radicular cyst）的典型表現，源自牙髓壞死後根尖肉芽腫內 Malassez 上皮殘骸受刺激增生而成，是口腔最常見的齒源性囊腫。\n❌ (A) 葡萄狀齒源性囊腫是側位牙周囊腫的多房變異型，好發於下顎前小臼齒／犬齒區的牙根「側面」，影像呈多房葡萄串狀，與本片單房且位於根尖不符。\n❌ (B) 含齒囊腫必須包住一顆未萌發牙的齒冠並附著於其牙頸部，本片該區牙齒皆已萌發、無埋伏齒。\n❌ (C) 側位牙周囊腫位於活髓牙的牙根「側方」牙周韌帶處，不會以根尖為中心，且患牙牙髓活性正常。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Odontogenic cysts — Periapical〔radicular〕cyst）。"
   },
   {
    "n": 67,
@@ -1052,7 +1054,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "鼻竇黏液囊腫（mucocele）"
    ],
    "a": 2,
-   "fig": "img/q/111100_304_44_74.webp"
+   "fig": "img/q/111100_304_44_74.webp",
+   "exp": "✅ (C) 箭頭所指為左側上顎竇內一個體積小、界線清楚、密度近似骨質的放射線不透過（radiopaque）病灶，周圍鼻竇腔仍清澈——這是鼻竇石（antrolith），由礦物鹽沉積在竇內異物或黏液凝塊上逐層鈣化形成，多為偶然發現且無症狀。\n❌ (A) 慢性鼻竇炎在全景片上表現為整個竇腔瀰漫性混濁、竇壁黏膜增厚，不會是這種局限的小結節狀鈣化影。\n❌ (B) 鼻竇滯留偽囊腫是竇底呈圓頂狀（dome-shaped）隆起的軟組織密度影，密度遠低於骨，不會像本片這麼白。\n❌ (D) 黏液囊腫因竇口阻塞、分泌物蓄積，會使整個竇腔完全混濁並向外膨脹、竇壁變薄，與本片局限性鈣化完全不同。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 8th ed.（Diseases of the maxillary sinus — Antrolith）。"
   },
   {
    "n": 75,
@@ -1080,7 +1083,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent4'] = {
     "posterior-anterior skull radiography"
    ],
    "a": 2,
-   "fig": "img/q/111100_304_44_76.webp"
+   "fig": "img/q/111100_304_44_76.webp",
+   "exp": "✅ (C) 影像可見上顎竇腔、下顎枝與冠狀突同框，呈側向展開的曲線斷層影像，並帶有全景攝影特有的影像重疊與模糊帶，屬於環口全景攝影（panoramic radiography）的局部放大影像。全景攝影以曲線斷層原理一次拍出上下顎與鄰近構造。\n❌ (A) Waters' view 是為觀察上顎竇而設計的枕頦位顱骨片，會左右對稱呈現兩側鼻竇與眼眶，不會像本片只見單側且含下顎枝細節。\n❌ (B) occlusal radiography 是把底片咬在咬合面的口內攝影，視野僅限單顎牙弓，拍不到鼻竇與下顎枝。\n❌ (D) 後前位顱骨攝影同樣是左右對稱的整顆頭顱正面影像，本片為單側側向構造，不符。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation, 8th ed.（Panoramic imaging — principles and normal anatomy）。"
   },
   {
    "n": 77,
