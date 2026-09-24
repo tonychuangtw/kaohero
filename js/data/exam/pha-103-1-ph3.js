@@ -167,7 +167,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "Dilatant flow"
    ],
    "a": 0,
-   "fig": "img/q/103020_310_44_11.webp"
+   "fig": "img/q/103020_310_44_11.webp",
+   "exp": "✅ (A) 圖中 B 曲線是一條通過原點的直線，代表剪切速率與剪應力成正比、黏度為定值，即 Newtonian flow（牛頓流體，如水、甘油、稀醇溶液）。\n❌ (B) Plastic flow 必須先超過降伏值（yield value）才開始流動，曲線在剪應力軸上有截距，對應圖中 C 曲線，不是通過原點的 B。\n❌ (C) Pseudoplastic flow（假塑性、剪切稀化）自原點出發但向剪切速率軸彎曲，黏度隨剪應力增加而下降，對應圖中 A 曲線。\n❌ (D) Dilatant flow（膨脹性、剪切增稠）曲線向剪應力軸彎曲（上凹），黏度隨剪應力增加而上升，對應圖中 D 曲線。\n📚 出處：Martin's Physical Pharmacy—Rheology（Newtonian 與 non-Newtonian 流動曲線判讀）"
   },
   {
    "n": 12,
@@ -643,7 +644,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "圖A：靜脈注射水溶液劑；圖B：恆速靜脈輸注；圖C：口服緩釋劑型"
    ],
    "a": 2,
-   "fig": "img/q/103020_310_44_45.webp"
+   "fig": "img/q/103020_310_44_45.webp",
+   "exp": "✅ (C) 圖A 在 t=0 即達最高濃度（約 5 μg/mL）後單調下降，是靜脈注射水溶液劑（IV bolus，無吸收相）；圖B 由 0 逐漸上升並趨近約 15 μg/mL 的平台，是恆速靜脈輸注達到穩態濃度；圖C 約 1 小時出現尖銳波峰後下降，屬吸收快速的口服速放劑型。\n❌ (A) 恆速靜脈輸注應為上升趨近平台（圖B），不會像圖A 一開始就最高；口服緩釋也不會呈現圖B 的持續平台。\n❌ (B) 肌肉注射須經吸收，曲線應先上升再下降，無法解釋圖B 只升不降並維持平台的形狀。\n❌ (D) 圖C 的 Tmax 只約 1 小時且波峰尖銳，屬速放；緩釋劑型的 Tmax 會延後、峰值較低且曲線平緩。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—血中濃度-時間曲線與給藥途徑（IV bolus、IV infusion、口服吸收相）"
   },
   {
    "n": 46,
@@ -713,7 +715,8 @@ window.APP_EXAM_PAPERS['pha-103-1-ph3'] = {
     "C(0)=4 μg/mL"
    ],
    "a": 1,
-   "fig": "img/q/103020_310_44_50.webp"
+   "fig": "img/q/103020_310_44_50.webp",
+   "exp": "✅ (B) 半對數圖上終末（排除）相即黑色虛線，t=0 外插截距約 1.0 μg/mL，t=8 小時降至約 0.5 μg/mL，濃度減半所需時間為 8 小時，故排除相半衰期為 8 小時。\n❌ (A) 0.5 小時是紅色殘差線所代表的分布相（α 相）半衰期，殘差線自約 4.5 μg/mL 在 2～3 小時內衰減兩個對數單位，不是排除相半衰期。\n❌ (C) 中央室體積 Vc＝Dose／C(0)，本題未給劑量，無法由圖形算出 10 L。\n❌ (D) 實線外插回 t=0 的濃度約 5～6 μg/mL（亦等於殘差線截距 A 加上終末線截距 B），並非 4 μg/mL。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—二室模型與殘差法（Method of Residuals）之半衰期判讀"
   },
   {
    "n": 51,
