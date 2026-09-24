@@ -223,7 +223,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "#27,#37：scissors bite"
    ],
    "a": 2,
-   "fig": "img/q/106020_304_66_15.webp"
+   "fig": "img/q/106020_304_66_15.webp",
+   "exp": "✅ (C) 錯在方向講反了。環口片可見 #36 早已缺失、#37 向近心與舌側傾倒，下顎咬合面相片也顯示 #37 的咬合面朝舌側轉；如此一來上顎 #27 相對於下顎牙齒是落在頰側（buccal crossbite），而非題目所寫的 lingual crossbite。\n❌ (A) 第一大臼齒缺牙後，#37 失去近心鄰接支撐而向近心傾倒，咬合面同時朝舌側轉，確實是 mesial & lingual tipping。\n❌ (B) 下顎 #36 缺失、#37 傾倒使對咬失去支撐，上顎 #26、#27 明顯過度萌出（elongation），左側頰面相片可見其咬合面下降。\n❌ (D) 上顎 #27 的舌側咬頭整個落在下顎 #37 頰側咬頭之外、上下咬頭完全錯開無正常咬合接觸，即典型的剪刀咬（scissors bite）。\n📚 出處：Proffit, Contemporary Orthodontics，咬合異常診斷之橫向關係（buccal/lingual crossbite 與 scissors bite）章節"
   },
   {
    "n": 16,
@@ -306,7 +307,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "圖D"
    ],
    "a": 2,
-   "fig": "img/q/106020_304_66_21.webp"
+   "fig": "img/q/106020_304_66_21.webp",
+   "exp": "✅ (C) 圖C 的空心點標示在「無限遠」，代表牙齒沒有任何旋轉，牙冠與牙根同向同距移動，即單純水平位移（translation，整體移動）。臨床上要在托槽施力的同時加上約 M/F = 10:1 的反向力矩來抵消施力造成的傾倒，旋轉中心才會被推到無限遠。\n❌ (A) 只有單純施力、沒有力矩，旋轉中心落在抗力中心的根尖側，牙冠與牙根往相反方向跑，屬不受控制傾斜（uncontrolled tipping）。\n❌ (B) 力矩較小（M/F 約 7:1），旋轉中心被移到根尖，牙根尖不動、只有牙冠移動，屬受控制傾斜（controlled tipping）。\n❌ (D) 力矩最大（M/F 約 12:1），旋轉中心移到切端（牙冠），變成牙冠不動、牙根移動的轉矩（root movement / torque）。\n📚 出處：Proffit, Contemporary Orthodontics，矯正生物力學之抗力中心、旋轉中心與力矩對力比（moment-to-force ratio）章節"
   },
   {
    "n": 22,
@@ -530,7 +532,8 @@ window.APP_EXAM_PAPERS['den-106-1-dent6'] = {
     "扁平舌"
    ],
    "a": 0,
-   "fig": "img/q/106020_304_66_37.webp"
+   "fig": "img/q/106020_304_66_37.webp",
+   "exp": "✅ (A) 圖中舌背可見數個邊緣不規則、呈地圖狀的紅色脫絲狀乳頭區，周圍環繞稍隆起的白黃色蜿蜒邊界，這是地圖狀舌炎（geographic tongue，又稱良性遊走性舌炎）的典型表現：病灶會隨時間變換位置與形狀，多數無症狀，僅少數吃刺激性食物會有灼熱感，屬良性不需治療。\n❌ (B) 毛狀舌是舌背絲狀乳頭過度增長並角化成毛狀，常因色素堆積而呈黑褐或黃色，圖中乳頭並未增長。\n❌ (C) 舌苔為絲狀乳頭間堆積脫落上皮與細菌形成的均勻白色覆蓋層，可刮除，與圖中紅白相間的地圖狀邊界不同。\n❌ (D) 扁平舌並非正式的口腔病理診斷名詞，且圖中舌體形態正常，異常在黏膜表面而非外形。\n📚 出處：Neville, Oral and Maxillofacial Pathology，舌部病變章節之地圖狀舌炎（benign migratory glossitis）"
   },
   {
    "n": 38,
