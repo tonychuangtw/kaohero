@@ -573,7 +573,8 @@ window.APP_EXAM_PAPERS['mlt-112-2-mlt4'] = {
     "（XY, XY）"
    ],
    "a": 2,
-   "fig": "img/q/112100_308_66_40.webp"
+   "fig": "img/q/112100_308_66_40.webp",
+   "exp": "✅ (C) 說明：圖中 A、B 兩條沉澱線在交會處相連、但 A 側的線越過交會點多出一段「骨刺」（spur）並蓋過 B 的線，這是部分相同（partial identity）的典型圖形。中央井含 anti-X 與 anti-Y 兩種抗體：A 同時帶 X、Y 兩個決定位，其 anti-Y 抗體在 B 端沒有對應抗原可被吸收，於是繼續擴散形成越過 B 線的骨刺；B 只帶 X，僅與 anti-X 形成沉澱線並與 A 的 X 線融合，故 (A, B) = (XY, X)。骨刺永遠由抗原決定位較多的一方伸向較簡單的一方。\n❌ (A) （X, Y）兩者無共同決定位，屬完全不相同（non-identity），兩條沉澱線會互相交叉成 X 形而不融合，與圖中相連並帶骨刺的圖形不合。\n❌ (B) （X, XY）方向相反：骨刺應由 B 越過 A 的線，圖中骨刺明顯出現在 A 側，故不可能。\n❌ (D) （XY, XY）兩井抗原完全相同，屬完全相同（identity），會形成一條平滑連續、無骨刺的弧形沉澱線。\n📚 出處：Turgeon《Immunology & Serology in Laboratory Medicine》沉澱反應章 Ouchterlony 雙向免疫擴散三型圖形（identity／non-identity／partial identity 與 spur 判讀）；Stevens《Clinical Immunology and Serology》抗原抗體沉澱試驗章節。"
   },
   {
    "n": 41,
