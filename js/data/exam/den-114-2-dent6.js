@@ -573,7 +573,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "此案例的診斷為根管堵塞（obliteration）"
    ],
    "a": 2,
-   "fig": "img/q/114090_304_0306_40.webp"
+   "fig": "img/q/114090_304_0306_40.webp",
+   "exp": "✅ (C) 影像顯示上顎乳中門齒冠部缺損、牙根明顯縮短且根尖周圍有透射影，屬於發炎性「外」吸收。此年齡的乳門齒是外傷（跌倒撞擊、嵌入性脫位）最好發的部位，外傷使牙髓壞死、根尖周圍發炎後即會引發牙根外吸收，臨床上又合併牙冠變色，因此外傷是最合理的病因。\n❌ (A) 內吸收的影像特徵是根管腔由內往外呈氣球狀膨大、管壁輪廓消失；本例是牙根由外表面被吸收而縮短，根管腔並未擴大，屬外吸收。\n❌ (B) 粉紅色牙冠（pink tooth of Mummery）是內吸收時充血肉芽組織透出牙本質的表現；外傷後牙髓壞死的乳牙牙冠多呈灰黑、暗褐或黃色變色。\n❌ (D) 根管堵塞（pulp canal obliteration）的影像是根管腔逐漸鈣化變窄甚至消失、牙冠偏黃，牙根長度正常；本例根管仍可見而牙根被吸收，診斷不符。\n📚 出處：McDonald and Avery's Dentistry for the Child and Adolescent, 11th ed.（Traumatic injuries to primary teeth：sequelae — pulp necrosis、discoloration 與 root resorption 的鑑別）。"
   },
   {
    "n": 41,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent6'] = {
     "不予記錄（not recorded）"
    ],
    "a": 0,
-   "fig": "img/q/114090_304_0306_72.webp"
+   "fig": "img/q/114090_304_0306_72.webp",
+   "exp": "✅ (A) 箭頭所指的牙齒咬合面／頰面僅見輕微白堊斑與色素沉著，沒有可見的窩洞、沒有釉質下方的暗影，探針也探不到軟化的窩洞底部或軟化的洞壁，依 WHO 第五版冠部狀況代碼應記為 0「健康（sound）」。WHO 明訂白堊斑、變色或粗糙斑、著色的窩溝、非齲性的磨耗與斑釉等病灶均仍記為健康。\n❌ (B) 記為齲蝕（代碼 1）必須看得到明確的窩洞、釉質下方被破壞的暗影，或探針可探到軟化的洞底或洞壁；本牙不具備這些條件，僅憑變色不可判齲。\n❌ (C) 外傷代碼（T）用於牙冠因外傷而有部分缺損（斷裂）且無齲蝕的情形；本牙牙冠完整，沒有硬組織缺損。\n❌ (D) 不予記錄（代碼 9）保留給無法檢查的牙位，例如被固定矯正裝置或大量牙結石覆蓋、嚴重低咬合而看不到牙面者；本牙可以清楚檢視，必須給定狀況代碼。\n📚 出處：WHO, Oral Health Surveys: Basic Methods, 5th ed. 2013（Oral health assessment form — Dentition status：crown code 0 sound 與 code 1 caries 的判定準則）。"
   },
   {
    "n": 73,
