@@ -734,7 +734,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "Melatonin receptor"
    ],
    "a": 3,
-   "fig": "img/q/104020_312_11_51.webp"
+   "fig": "img/q/104020_312_11_51.webp",
+   "exp": "✅ (D) 圖中為 ramelteon：indano 環與 dihydrobenzofuran 並合，側鏈為 ethyl-propionamide，即以剛性雙環模擬褪黑激素的 5-methoxy 與 N-acetyl 兩個藥效基。它是 MT1／MT2 褪黑激素受體的選擇性致效劑，作用於視交叉上核調節睡眠週期，用於失眠（入睡困難型）。\n❌ (A) 大麻素受體配基（如 dronabinol）需有 dibenzopyran 與長烷基鏈、酚性 OH，本結構皆無。\n❌ (B) 作用於 GABAA 的鎮靜劑為 benzodiazepine 或 Z-drug（zolpidem 等），需 1,4-benzodiazepine 或 imidazopyridine 骨架；ramelteon 不與 GABAA 結合，故無依賴性與肌鬆作用。\n❌ (C) GABAB 致效劑為 baclofen 類 β-氯苯基-GABA 結構，需游離胺與羧酸，本圖為醯胺無羧酸。\n📚 出處：Foye's Medicinal Chemistry, Sedative-Hypnotics — Melatonin Receptor Agonists（ramelteon 構效關係）"
   },
   {
    "n": 52,
@@ -778,7 +779,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "不可逆的MAOB抑制劑"
    ],
    "a": 3,
-   "fig": "img/q/104020_312_11_54.webp"
+   "fig": "img/q/104020_312_11_54.webp",
+   "exp": "✅ (D) 圖為 selegiline（(R)-N-methyl-N-propargylamphetamine）。關鍵在 N 上的炔丙基（propargyl）：被 MAO-B 氧化後生成活性中間物，與輔酶 FAD 共價結合，屬「自殺性受質」，故為不可逆的 MAO-B 抑制劑，低劑量選擇性用於帕金森氏症。\n❌ (A) 可逆性 MAOA 抑制劑代表為 moclobemide（benzamide 結構），無炔丙基，作用可競爭解除。\n❌ (B) 可逆性 MAOB 抑制劑代表為 safinamide、lazabemide，同樣不含炔丙基而不會共價修飾 FAD。\n❌ (C) 不可逆型的確靠炔丙基或 hydrazine，但 selegiline 於治療劑量對 MAO-B 具選擇性；MAO-A 不可逆抑制劑為 clorgyline、phenelzine（hydrazine 類）。\n📚 出處：Foye's Medicinal Chemistry, Drugs Used to Treat Parkinson's Disease — MAO-B Inhibitors（炔丙基自殺性抑制機轉）"
   },
   {
    "n": 55,
@@ -848,7 +850,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph1'] = {
     "Spironolactone"
    ],
    "a": 3,
-   "fig": "img/q/104020_312_11_59.webp"
+   "fig": "img/q/104020_312_11_59.webp",
+   "exp": "✅ (D) 圖為 canrenone：具 17-spiro-γ-butyrolactone 的類固醇骨架，且 A／B 環為 3-oxo-4,6-diene。Spironolactone 在體內經去硫乙醯化（脫去 7α-thioacetyl）並形成 6,7 雙鍵即得 canrenone，是其主要活性代謝物，續作為醛固酮受體拮抗劑而利尿保鉀。\n❌ (A) Amiloride 為 pyrazine 甲醯胍（guanidine）結構，直接阻斷上皮鈉離子通道，非類固醇亦無內酯環。\n❌ (B) Metolazone 屬 quinazolinone-sulfonamide 類噻嗪類似物，作用於遠曲小管，結構與類固醇無關。\n❌ (C) Chlorthalidone 為含氯的 isoindolinone-benzenesulfonamide，亦非類固醇。\n📚 出處：Foye's Medicinal Chemistry, Diuretics — Aldosterone Antagonists（spironolactone 代謝為 canrenone）"
   },
   {
    "n": 60,
