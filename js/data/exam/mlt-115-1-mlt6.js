@@ -727,7 +727,8 @@ window.APP_EXAM_PAPERS['mlt-115-1-mlt6'] = {
     "容忍作用（tolerance）"
    ],
    "a": 0,
-   "fig": "img/q/115020_308_0503_51.webp"
+   "fig": "img/q/115020_308_0503_51.webp",
+   "exp": "✅ (A) 說明：圖中縱軸為存活菌數對數值。單用 C 藥時菌量仍持續上升（僅略低於無藥組），單用 D 藥時曲線呈水平（只抑菌、不殺菌），但兩藥併用時存活菌數在 12 小時內急遽下降數個對數值。併用後的殺菌效果遠大於兩藥單獨作用的總和，符合協同作用（synergy）的定義，一般以併用較各單用多下降 ≥ 2 log10 CFU/mL 為判定標準，故選 A。\n❌ (B) 無效性作用（indifference）指併用後的效果與較強的單一藥物相當，曲線應與 D 藥的水平線重疊，與圖中大幅下降不符。\n❌ (C) 拮抗作用（antagonism）指併用效果比單用更差，曲線應往上（菌數比單用時更多），與圖中菌數下降的方向相反。\n❌ (D) 容忍作用（tolerance）是指細菌對殺菌性藥物只被抑制而不被殺死（MBC/MIC 比值偏高），屬單一菌株對藥物的特性，並非描述兩藥併用的交互作用類型。\n📚 出處：臨床微生物學「抗微生物製劑之藥物交互作用：time-kill curve 與 synergy／indifference／antagonism 判讀」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Antimicrobial Susceptibility Testing 章節之 synergy testing。"
   },
   {
    "n": 52,
