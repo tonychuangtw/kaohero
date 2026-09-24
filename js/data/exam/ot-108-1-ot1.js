@@ -433,7 +433,8 @@ window.APP_EXAM_PAPERS['ot-108-1-ot1'] = {
     "⿊⾊箭頭所指是覆膜（tectorial membrane）"
    ],
    "a": 2,
-   "fig": "img/q/108030_312_11_30.webp"
+   "fig": "img/q/108030_312_11_30.webp",
+   "exp": "✅ (C) 說明：本題選錯誤者。（甲）是夾在前庭階與鼓階之間的耳蝸管，其基底膜上坐著柯蒂氏器（organ of Corti），屬於「聽覺」受器而非平衡受器。與平衡有關的感覺受器位於前庭器官——橢圓囊與球囊的斑（macula，偵測直線加速與頭部傾斜）以及三半規管壺腹的頂嵴（crista ampullaris，偵測旋轉加速），不在耳蝸管內，故 (C) 敘述錯誤。\n❌ (A) 圖中（甲）上方以前庭膜（vestibular membrane）與前庭階分隔、下方以基底膜與鼓階分隔，正是耳蝸管（cochlear duct，又稱中階 scala media），敘述正確。\n❌ (B) 耳蝸管內充滿高鉀低鈉的內淋巴液，是毛細胞頂端去極化所需的離子環境；前庭階與鼓階內才是外淋巴液，敘述正確。\n❌ (D) 圖2 黑色箭頭指向由（甲）外側壁伸出、覆蓋在毛細胞纖毛上方的薄帶狀構造，即覆膜（tectorial membrane），基底膜振動時它與纖毛產生剪力而興奮毛細胞，敘述正確。\n📚 出處：Guyton《Textbook of Medical Physiology》聽覺章（耳蝸構造與柯蒂氏器）；Tortora《Principles of Anatomy and Physiology》特殊感覺章：內耳的聽覺與平衡受器。"
   },
   {
    "n": 31,
