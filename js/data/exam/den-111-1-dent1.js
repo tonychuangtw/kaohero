@@ -688,7 +688,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent1'] = {
     "1、4"
    ],
    "a": 2,
-   "fig": "img/q/111020_303_11_48.webp"
+   "fig": "img/q/111020_303_11_48.webp",
+   "exp": "✅ (C) 圖為牙胚（帽狀期～鐘狀期）切片。3 位於內釉上皮凹陷內側的緻密細胞團＝牙乳頭（dental papilla），4 為包圍整個牙胚外圍的細胞層＝牙囊（dental follicle/sac），兩者都屬於外胚間葉（ectomesenchyme），由神經嵴細胞遷移到第一鰓弓而來；日後牙乳頭分化為牙本質母細胞與牙髓，牙囊分化為牙骨質母細胞、牙周韌帶與固有齒槽骨。\n❌ (A) 1 是口腔上皮／牙板，2 是釉器（釉上皮），兩者都源自表面外胚層，不是神經嵴。\n❌ (B) 2 為釉器上皮（外胚層），只有 3 是神經嵴衍生，配對不成立。\n❌ (D) 1 的口腔上皮屬外胚層，雖然 4 正確，但 1 錯誤。\n📚 出處：Nanci, Ten Cate's Oral Histology, 9th ed.（Tooth development：enamel organ 來自外胚層，dental papilla 與 dental follicle 來自神經嵴外胚間葉）。"
   },
   {
    "n": 49,
