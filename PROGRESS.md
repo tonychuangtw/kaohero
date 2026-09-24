@@ -20,12 +20,17 @@ VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`�
 　後端已 `sudo systemctl restart lanexammock-backend`，`/api/kgh/rank` 回 401（有路由、要登入）而非 404。
 BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另外卡 Tony 三件事，見下方。
 
-## 申論批改（2026-09-24 Tony 要評估，已回覆，等他決定）
+## 申論題庫＋批改（2026-09-24 Tony「開工」）
 
-評估已送 TG（msg 783）：申論卷約 1.38 萬份（gao 7,679／local 4,429／pol 1,734，~/exam-pdfs/*/pdf 的 `_a.none`），
-題目 PDF 當初沒下載。建議分兩段：① 申論題庫＋AI 參考架構（免費、訂閱批次產生，不等金流）② 批改（Anthropic API
-付費金鑰，Opus 5 約 US$0.1／篇，要等付費牆開；法條題接全國法規資料庫原文、分數要拿真實成績校準）。
-問 Tony 要不要先開工 ①。類科頁「本站沒有收錄的科目」已上線（commit 2a6bd8c8b）。
+第一段「申論題庫＋參考架構」已上線（commit 1d09c5293，https://kaohero.com/#/essays），做法寫在 CLAUDE.md「申論題庫」。
+背景在跑（09/24 21:00 台北起）：
+- 題目下載 `moex-sweep.py <dir> Q --essay`（gao→local→pol，約 1.38 萬份、每秒約 1 份），完成後自動 `essay-refresh.sh` 轉檔上線＋TG 通知
+- 參考架構 `essay-ref-batch.sh 12 0`（claude，約 40 秒／題，紀錄 ~/.claude/essay-ref.log），行政類優先；剩 ~2 萬題（還會隨下載增加），
+  一個 Claude 週限寫不完，是長尾。撞額度會自己停，要再開就重跑同一行
+下一步：
+1. 下載完確認 essay-refresh 通知、抽查幾科（切題失敗約 1.5%）
+2. 第二段「批改」：要 Tony 開 Anthropic API 帳號儲值＋付費牆開（綠界）。模型建議 Opus 5（約 US$0.1／篇）；
+   法條題接全國法規資料庫原文；分數要真實成績校準（沒有就只給缺漏要點）。拍照上傳手寫答案要做
 
 ## 等 Tony 的三件事（變現，2026-09-21 起）
 
@@ -56,7 +61,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-24 04:20 台北
+UPDATED: 2026-09-24 21:05 台北
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
