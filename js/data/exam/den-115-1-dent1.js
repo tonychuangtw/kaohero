@@ -41,7 +41,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "標示④處"
    ],
    "a": 1,
-   "fig": "img/q/115020_303_0201_2.webp"
+   "fig": "img/q/115020_303_0201_2.webp",
+   "exp": "✅ (B) ②所指的位置在下頜骨下緣、下頜角（gonial angle）前方的凹陷處，正是 antegonial notch（頜角前切跡）。此處是下頜體與升支交界前方、咬肌與翼內肌附著區前緣的骨緣內凹，臨床上常用來判讀下頜生長型態（切跡愈深者多屬垂直生長型、下頜體發育較差）。\n❌ (A) ①指的是下頜角本身（後下緣的轉角，gonion 區），為咬肌與翼內肌附著處，是角的頂點而不是其前方的凹陷。\n❌ (C) ③指的是下頜體外側、約在前磨牙根尖下方的頦孔（mental foramen），為頦神經與頦血管穿出處，屬骨面上的孔洞，與下緣切跡無關。\n❌ (D) ④位在下頜體前下方靠近頦部的下緣（頦結節、頦隆凸一帶），已遠離下頜角，不可能是 antegonial notch。\n📚 出處：口腔解剖學－下頜骨外側面骨性標誌（angle of mandible、antegonial notch、mental foramen、oblique line）；Moore's Clinically Oriented Anatomy－Head 章（Mandible）。"
   },
   {
    "n": 3,
@@ -307,7 +308,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "標示④為枕小神經（lesser occipital nerve）"
    ],
    "a": 1,
-   "fig": "img/q/115020_303_0201_21.webp"
+   "fig": "img/q/115020_303_0201_21.webp",
+   "exp": "✅ (B) 本題問「錯誤」者。②指的是頸部淺層的肌肉（胸鎖乳突肌），不是頸動脈；總頸動脈與內、外頸動脈包在頸動脈鞘內、位於胸鎖乳突肌的深部，圖中這種只翻開頸淺筋膜與闊頸肌的淺層解剖根本看不到頸動脈，故此敘述錯誤。\n❌ (A) ①所指是斜越胸鎖乳突肌表面下行的藍色靜脈，由下頜後靜脈後枝與耳後靜脈會合而成，即外頸靜脈，走在闊頸肌深面、頸淺筋膜內，敘述正確。\n❌ (C) ③所指為外頸靜脈旁的小結節，即沿外頸靜脈排列的淺層頸部淋巴結，位置與外觀相符，敘述正確。\n❌ (D) ④所指為自胸鎖乳突肌後緣中點（神經點、Erb's point）穿出後沿後緣上行至枕部的黃色神經，即頸叢皮枝的枕小神經（C2），敘述正確。\n📚 出處：Moore's Clinically Oriented Anatomy－Neck 章（頸部淺層構造：external jugular vein、cervical plexus 皮枝與 carotid sheath 的深淺位置）；Netter 頭頸部淺層解剖圖。"
   },
   {
    "n": 22,
@@ -658,7 +660,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent1'] = {
     "齒槽骨（alveolar bone）"
    ],
    "a": 0,
-   "fig": "img/q/115020_303_0201_46.webp"
+   "fig": "img/q/115020_303_0201_46.webp",
+   "exp": "✅ (A) 箭頭指向牙尖最外層、緊鄰成釉細胞層的深染帶狀基質，即正在沉積中的牙釉質（enamel matrix）。它由成釉細胞分泌，位置在最外側、由牙尖向牙頸部逐漸變薄，切片上呈均質深染、不含細胞也沒有小管，與內側的牙本質可清楚分界。\n❌ (B) 牙本質位在箭頭所指構造的「內側」，是較厚、染色較淡的一層，內面排列著成牙本質細胞並可見牙本質小管朝牙髓方向走行，不是最外層那條深染帶。\n❌ (C) 牙骨質要等牙根開始形成、Hertwig 上皮根鞘斷裂後，才由牙骨質母細胞沉積在根部牙本質表面；本圖為冠部（牙尖）發育階段，尚未有牙骨質。\n❌ (D) 齒槽骨位於牙囊外圍，即圖中周邊含骨細胞、骨髓腔的骨小樑，與牙胚之間還隔著牙囊結締組織，不是緊貼牙尖的那層。\n📚 出處：Ten Cate's Oral Histology－Tooth Development（Amelogenesis：成釉細胞分泌牙釉質基質、enamel–dentin junction 與冠部／根部發育順序）。"
   },
   {
    "n": 47,
