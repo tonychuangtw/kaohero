@@ -125,7 +125,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Vazirani-Akinosi 下齒槽神經阻斷術（Vazirani-Akinosi block）"
    ],
    "a": 0,
-   "fig": "img/q/104090_304_44_8.webp"
+   "fig": "img/q/104090_304_44_8.webp",
+   "exp": "✅ (A) 圖中針頭是從臉部「口外」進針，沿下顎枝外側／乙狀切跡方向往顳下窩推進，目標是三叉神經第三分支（下顎神經）剛出卵圓孔後的主幹，屬於下顎神經阻斷的側方口外途徑。此法一次麻醉整條下顎神經（含頰長神經、舌神經、下齒槽神經與耳顳神經），用於牙關緊閉、大範圍手術或口內途徑失敗時。\n❌ (B) 後上齒槽神經阻斷是口內進針，由上顎第二大臼齒頰側前庭溝往上後內側刺入上顎結節後方，麻醉上顎後牙，與圖中下顎區域完全不同。\n❌ (C) Gow-Gates 法是口內進針，針尖指向髁突頸部，病人須張大口，進針點在上顎第二大臼齒近遠心牙尖連線高度，不是從臉頰外側刺入。\n❌ (D) Vazirani-Akinosi 為閉口式口內阻斷，針沿上顎結節與下顎枝內側之間平行咬合平面前進，同樣在口腔內，非口外途徑。\n📚 出處：Malamed《Handbook of Local Anesthesia》下顎神經阻斷技術章節（extraoral mandibular nerve block）"
   },
   {
    "n": 9,
@@ -603,7 +604,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "R’t mandibular body"
    ],
    "a": 0,
-   "fig": "img/q/104090_304_44_42.webp"
+   "fig": "img/q/104090_304_44_42.webp",
+   "exp": "✅ (A) 髁突頸或下顎枝骨折會使患側垂直高度縮短，患側後牙提早接觸、對側出現開咬，張口時下顎偏向患側；圖中病人為右側後牙先接觸、左側開咬且張口歪斜，故骨折在右側。又因下齒槽神經是在下顎孔以後才走入骨管，髁突頸／下顎枝的骨折多半不傷及該神經，正好解釋「沒有下唇感覺異常」。\n❌ (B) 左側髁突頸骨折會造成左側後牙早接觸、右側開咬，張口偏向左側，與照片所見的咬合型態左右相反。\n❌ (C) 同樣是左側病灶，咬合偏移方向與圖示相反；且本題已由臨床表現定位在右側。\n❌ (D) 下顎體部骨折時骨折線橫越下齒槽神經管，典型會出現下唇與頦部麻木，本例下唇感覺正常，可排除。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，下顎骨骨折的診斷與咬合表現章節"
   },
   {
    "n": 43,
@@ -757,7 +759,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Dental forcep"
    ],
    "a": 1,
-   "fig": "img/q/104090_304_44_53.webp"
+   "fig": "img/q/104090_304_44_53.webp",
+   "exp": "✅ (B) 圖中器械尖端呈尖鉤狀，插入預先在牙根頰側鑽出的「支點孔（purchase point）」內，以齒槽骨脊為支點下壓手柄、把牙根往咬合面方向撬出（圖中箭頭一下一上即表示此槓桿作用），這是 Crane pick elevator 的典型用法，常用於斷根取出。\n❌ (A) No. 9 骨膜剝離器是雙端扁平器械，用來翻開黏骨膜瓣與剝離軟組織，不是用來撬牙的槓桿器械。\n❌ (C) Bein（直挺）elevator 的刃部呈凹面匙狀，是插入牙齒與齒槽骨之間的牙周韌帶間隙，靠楔入與旋轉鬆動牙齒，不需在牙根上鑽孔。\n❌ (D) 拔牙鉗是夾住牙冠或牙根後施力，屬夾持器械而非槓桿，圖中器械只有單一尖端並無成對喙部。\n📚 出處：Peterson's Principles of Oral and Maxillofacial Surgery，斷根取出與挺子（elevator）使用原則章節"
   },
   {
    "n": 54,
@@ -1052,7 +1055,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Tree in winter appearance"
    ],
    "a": 1,
-   "fig": "img/q/104090_304_44_74.webp"
+   "fig": "img/q/104090_304_44_74.webp",
+   "exp": "✅ (B) 圖中顯影劑在腺體實質內形成無數細小、散在的點狀聚積，導管樹本身正常而點點分布如下雪，即 snowstorm（punctate sialectasis）影像，是修格蘭氏症候群（Sjögren syndrome）等自體免疫性腺體破壞的典型唾液腺造影表現。\n❌ (A) Ball-in-hand 指腺體外或腺體內腫瘤把導管撐開包繞成手握球狀，影像上可見導管被推移彎曲、中央有無顯影的佔位，本圖無此種移位。\n❌ (C) Sausage-link（香腸串）是慢性唾液腺炎導管狹窄與擴張交替所致，變化發生在主導管與分支導管上，不是點狀顯影。\n❌ (D) Tree in winter（枯樹枝）是末梢分支消失、僅剩主幹的萎縮型表現，與本圖末梢滿布點狀聚積相反。\n📚 出處：White & Pharoah《Oral Radiology》唾液腺造影與唾液腺疾病影像章節"
   },
   {
    "n": 75,
@@ -1066,7 +1070,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent4'] = {
     "Beaten-metal radiolucency"
    ],
    "a": 2,
-   "fig": "img/q/104090_304_44_75.webp"
+   "fig": "img/q/104090_304_44_75.webp",
+   "exp": "✅ (C) 箭頭所指處為多發、大小不一且邊界模糊的小型透射區，彼此融合成蟲蛀樣、正常骨小樑被破壞而無硬化邊界，即 moth-eaten radiolucency，常見於骨髓炎與惡性腫瘤等快速侵襲性病變。\n❌ (A) Well-defined radiolucency 指病灶邊界清楚、常有皮質化（硬化）邊，多屬良性緩慢生長的囊腫；本圖邊界模糊不符。\n❌ (B) Punched-out 是邊界銳利但無硬化邊的圓形穿鑿狀缺損（如多發性骨髓瘤、蘭格漢氏細胞組織球增生症），本圖病灶邊緣並不銳利。\n❌ (D) Beaten-metal（beaten-copper）是顱骨內板受長期顱內壓增高壓迫所形成的凹陷紋理，不用來描述下顎骨的破壞性透射影像。\n📚 出處：White & Pharoah《Oral Radiology》顎骨病灶影像判讀原則（病灶邊界與骨破壞型態）章節"
   },
   {
    "n": 76,
