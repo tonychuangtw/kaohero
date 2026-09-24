@@ -69,7 +69,8 @@ window.APP_EXAM_PAPERS['den-109-1-dent6'] = {
     "圖D"
    ],
    "a": 2,
-   "fig": "img/q/109020_304_66_4.webp"
+   "fig": "img/q/109020_304_66_4.webp",
+   "exp": "✅ (C) 圖C 的 MC/MF = 1，力偶產生的抵消力矩恰好抵銷單力造成的傾斜力矩，淨力矩為零，旋轉中心被推到無限遠（圖中箭頭指向 ∞），牙冠與牙根以相同方向、相同量移動，即整體位移（bodily movement／translation）。\n❌ (A) MC/MF = 0 表示只施單力、沒有加力偶，旋轉中心落在牙根中段偏根尖 1/3，牙冠向舌側、牙根向唇側，是典型的不受控傾斜移動（uncontrolled tipping）。\n❌ (B) 0 < MC/MF < 1 力偶不足以抵消全部傾斜力矩，旋轉中心上移到根尖附近，牙根尖幾乎不動、牙冠傾倒，屬受控傾斜移動（controlled tipping）。\n❌ (D) MC/MF > 1 力偶大於單力力矩，旋轉中心移到切端，牙冠固定而牙根向舌側移動，屬牙根移動（root movement／torque）。\n📚 出處：Proffit, Contemporary Orthodontics，矯正力學與牙齒移動型態（moment-to-force ratio 與旋轉中心）"
   },
   {
    "n": 5,
