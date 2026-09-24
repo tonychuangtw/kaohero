@@ -531,7 +531,8 @@ window.APP_EXAM_PAPERS['ot-109-1-ot3'] = {
     "輪椅靠背高度"
    ],
    "a": 3,
-   "fig": "img/q/109020_312_33_37.webp"
+   "fig": "img/q/109020_312_33_37.webp",
+   "exp": "✅ (D) 說明：圖中 6、7、8 都是從坐面往上量的垂直高度，編號 6 最短、頂端約在腋下、肩胛骨下角的高度，這正是標準輪椅靠背高度的取法（坐面到肩胛骨下角，再依需要減 2～5 公分讓肩胛骨自由活動，以免推輪圈時被靠背卡住）；7、8 則是需要更高軀幹支撐或加頭靠時的靠背高度參考。\n❌ (A) 軀幹側邊支撐寬度屬左右方向的水平測量，圖中對應編號 9（胸廓寬度）一類的橫向尺寸，不是垂直高度。\n❌ (B) 座寬是量臀部最寬處的水平距離，對應圖中編號 3，與 6 的量法方向完全不同。\n❌ (C) 扶手高度要在手肘屈曲 90 度時量坐面到鷹嘴突，位置比編號 6 的頂端低，且圖中手臂自然下垂並未擺出量扶手的姿勢。\n📚 出處：Pedretti《Physical Dysfunction Practice Skills for the Occupational Therapist》輪椅評估與測量章節（wheelchair measurement：seat width／seat depth／back height／armrest height）"
   },
   {
    "n": 38,
