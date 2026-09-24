@@ -809,7 +809,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent3'] = {
     "interdental knife"
    ],
    "a": 0,
-   "fig": "img/q/115020_304_0203_57.webp"
+   "fig": "img/q/115020_304_0203_57.webp",
+   "exp": "✅ (A) 圖中器械的工作端是寬大、彎曲呈腎形（kidney-shaped）的葉片狀刀刃，刀緣沿整個外緣為銳利面，接粗大滾花手柄，這是 Kirkland 15/16 牙齦切除刀的典型外形，用於頰舌側牙齦切除術，以斜向外斜切口（external bevel incision）修整牙齦外形。\n❌ (B) Orban 1/2 是齒間刀，工作端為細長的矛形（spear-shaped）雙刃尖刀，體積遠小於圖中的寬葉片，用來切斷齒間乳頭處的軟組織。\n❌ (C) Waerhaug 1/2 同屬齒間刀，刀刃呈細長三角、尖端銳利，外形與 Orban 相近而非寬大葉片狀。\n❌ (D) interdental knife（齒間刀）是 Orban、Waerhaug 這一類細尖器械的統稱，其工作端狹窄可伸入齒間縫隙，與圖示的寬刃牙齦切除刀不符。\n📚 出處：Newman and Carranza's Clinical Periodontology, 13th ed.（Periodontal surgical instruments：gingivectomy knives — Kirkland knife 與 interdental knives — Orban/Waerhaug）。"
   },
   {
    "n": 58,
@@ -907,7 +908,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent3'] = {
     "Stage IV, Grade C, generalized"
    ],
    "a": 3,
-   "fig": "img/q/115020_304_0203_64.webp"
+   "fig": "img/q/115020_304_0203_64.webp",
+   "exp": "✅ (D) 全口根尖片可見多處齒槽骨喪失已達根長中段至根尖三分之一、根分叉暴露，且齒列有多顆缺牙造成咬合單位喪失，符合 Stage IV（嚴重程度加上咀嚼功能障礙、因牙周病失牙 ≥5 顆）；病人 48 歲即有如此嚴重骨喪失（骨喪失百分比／年齡 >1.0），又每天抽菸 10 根（≥10 支／日為 Grade C 的修飾因子），故 Grade C；全口牙位皆有深囊袋與探測流血，受侵犯牙齒 >30% 屬 generalized。\n❌ (A) Stage III 適用於骨喪失達根中段以上但尚未造成咀嚼功能喪失、失牙 ≤4 顆者；本例失牙與功能喪失已達 Stage IV，且 Grade B 無法涵蓋每日 10 支菸與此年齡的快速進展。\n❌ (B) 分期判斷為 Stage IV 正確，但 Grade B 屬中度進展速率、吸菸 <10 支／日；本例抽菸量與骨喪失／年齡比值均落在 Grade C。\n❌ (C) 分級 Grade C 正確，但僅列 Stage III 低估了病情——影像顯示已有多顆缺牙與咬合崩壞，應升階至 Stage IV。\n📚 出處：2017 World Workshop 牙周病新分類（Periodontitis staging and grading：Stage IV 判準與 Grade C 修飾因子吸菸 ≥10 支／日）；Newman and Carranza's Clinical Periodontology, 13th ed.（Classification of periodontal diseases）。"
   },
   {
    "n": 65,
