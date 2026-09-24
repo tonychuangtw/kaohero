@@ -97,7 +97,8 @@ window.APP_EXAM_PAPERS['den-102-2-dent6'] = {
     "57"
    ],
    "a": 2,
-   "fig": "img/q/102100_302_66_6.webp"
+   "fig": "img/q/102100_302_66_6.webp",
+   "exp": "✅ (C) Menton（Me）定義為下顎聯合（symphysis）影像最下緣的點。圖中沿下顎前緣往下走為 50（pogonion，頦部最前點）→52（gnathion，頦前下方轉角）→54，54 位在頦部輪廓的最低處，再往後即轉為下顎骨下緣（55、57），故 menton 為 54 號點。\n❌ (A) 50 位於頦部最突出的前方，是 pogonion，非最下點。\n❌ (B) 52 在 pogonion 與 menton 之間的前下轉角處，為 gnathion。\n❌ (D) 57 已沿下顎體下緣向後，屬下顎下緣而非聯合最下點。\n📚 出處：Proffit, Contemporary Orthodontics，側顱 X 光片分析（cephalometric landmarks：pogonion、gnathion、menton）"
   },
   {
    "n": 7,
