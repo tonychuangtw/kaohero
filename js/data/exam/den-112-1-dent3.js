@@ -461,7 +461,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "上圖為 type III，下圖為 type I"
    ],
    "a": 2,
-   "fig": "img/q/112020_304_33_32.webp"
+   "fig": "img/q/112020_304_33_32.webp",
+   "exp": "✅ (C) 上圖每個釉柱的中心被優先溶解成深色凹窩、柱周邊緣殘留成白色隆起的網狀圍牆，呈典型蜂巢狀（honeycomb），是 type I 蝕刻型態；下圖表面溶解得均勻而凌亂，看不出完整的釉柱輪廓，既非單純溶心也非單純溶邊，屬於混合且與釉柱形態無關的 type III。\n❌ (A) 下圖若是 type II，應看到釉柱周邊被溶解、柱心突起成鵝卵石狀的清楚柱影，但下圖完全分辨不出釉柱界線。\n❌ (B) 上圖的深色凹陷位在柱心而非柱周，正好是 type I 的特徵，不是 type II。\n❌ (D) 上圖蜂巢狀輪廓清晰，是最典型的 type I，不可能是輪廓不明的 type III。\n📚 出處：Silverstone 釉質酸蝕型態分類（type I 溶柱心、type II 溶柱周、type III 混合無柱狀）；Ten Cate's Oral Histology, Ch.7（Enamel — acid etching patterns）。"
   },
   {
    "n": 33,
@@ -685,7 +686,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "75-80 度"
    ],
    "a": 1,
-   "fig": "img/q/112020_304_33_48.webp"
+   "fig": "img/q/112020_304_33_48.webp",
+   "exp": "✅ (B) 圖中 X 是嵌體洞緣斜面（cavosurface bevel）與牙面／置入道所夾的角，鑄造金合金嵌體的理想斜面約 40-45 度，可形成約 135-140 度的洞緣角與 30-45 度的金屬邊緣角（marginal metal angle）：既能削掉無支撐的釉柱，又讓金屬邊緣薄到可以磨光、輾壓（burnish）密合，同時保有足夠強度。\n❌ (A) 15-20 度斜面過於平坦，金屬邊緣被拉成又長又薄的羽狀邊，強度不足容易變形、崩裂，且斜面延伸過廣而過度切削牙齒。\n❌ (C) 60-65 度斜面過陡，金屬邊緣角變鈍、邊緣厚而無法輾壓密合，封閉性與邊緣適合度都變差。\n❌ (D) 75-80 度幾乎等於不修斜面，無支撐的釉柱被留在洞緣，日後容易崩裂並在金屬與牙齒交界形成微滲漏與二次齲。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry（鑄造金屬嵌體之 cavosurface bevel 與 marginal metal angle）。"
   },
   {
    "n": 49,
@@ -841,7 +843,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "Code 4"
    ],
    "a": 3,
-   "fig": "img/q/112020_304_33_59.webp"
+   "fig": "img/q/112020_304_33_59.webp",
+   "exp": "✅ (D) CPITN 以「該象限最嚴重的一點」計分，而且只看探測深度與牙結石／出血，不看 CAL。圖中頰側 16 的探測深度為 3、5、6 mm，已有 6 mm 的囊袋，達到 code 4（囊袋 ≥ 6 mm，WHO 探針黑帶完全沒入）的標準，因此本象限記為 Code 4。\n❌ (A) Code 1 是探測後出血、但無結石且無囊袋（深度 ≤ 3 mm），本象限多點都在 4 mm 以上。\n❌ (B) Code 2 是有牙結石或不良補綴物邊緣、深度仍 ≤ 3 mm，與本圖的深囊袋不符。\n❌ (C) Code 3 是 4-5 mm 的囊袋（黑帶部分可見），本象限已出現 6 mm，必須升到最高的 code 4。\n📚 出處：Newman & Carranza's Clinical Periodontology（Periodontal Examination — CPITN／CPI 記分標準）。"
   },
   {
    "n": 60,
@@ -883,7 +886,8 @@ window.APP_EXAM_PAPERS['den-112-1-dent3'] = {
     "晚期病灶"
    ],
    "a": 1,
-   "fig": "img/q/112020_304_33_62.webp"
+   "fig": "img/q/112020_304_33_62.webp",
+   "exp": "✅ (B) 圖示為中性球持續移出、浸潤區以淋巴球為主並伴隨單核／巨噬細胞，血管擴張增生、接合上皮基底細胞開始增生（圖中上皮呈波浪狀突起），膠原破壞明顯增加而漿細胞仍很少——這正是 Page 與 Schröeder 早期病灶（early lesion，約暴露菌斑後 4-7 天）的組織學特徵。\n❌ (A) 初期病灶（2-4 天）以血管炎、中性球大量移入齦溝與血管周圍少量膠原流失為主，浸潤區尚未由淋巴球主宰，上皮也還沒增生。\n❌ (C) 建立期病灶（2-3 週）的關鍵是漿細胞成為主要浸潤細胞並出現囊袋上皮，與圖中「漿細胞少」相反。\n❌ (D) 晚期病灶已延伸到齒槽骨，出現附連喪失與骨吸收、纖維化與大量漿細胞，圖中並無骨破壞。\n📚 出處：Newman & Carranza's Clinical Periodontology（Gingival Inflammation — Page & Schröeder 四期病灶之 early lesion）。"
   },
   {
    "n": 63,
