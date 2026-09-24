@@ -41916,7 +41916,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學大意",
   "label": "108 年　五等　經濟學大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
