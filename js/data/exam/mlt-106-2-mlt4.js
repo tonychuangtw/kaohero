@@ -265,7 +265,8 @@ window.APP_EXAM_PAPERS['mlt-106-2-mlt4'] = {
     "均勻型（homogeneous）"
    ],
    "a": 3,
-   "fig": "img/q/106100_308_66_18.webp"
+   "fig": "img/q/106100_308_66_18.webp",
+   "exp": "✅ (D) 說明：圖中 HEp-2 細胞每一個細胞核都呈現整片、亮度一致的綠色螢光，核內看不到顆粒狀斑點，核仁不被挑出，核膜周邊也沒有特別加亮的環，這種整個核質均勻著色即為均勻型（homogeneous）。此型對應的抗原多為 dsDNA、histone、染色質（nucleosome），臨床上與全身性紅斑性狼瘡（SLE）及藥物誘發性狼瘡關係最密切；分裂中期細胞的染色體區帶也會一併著色是其輔助判讀點。\n❌ (A) 斑點型應在核質內見到大小不一的細點或粗顆粒、核仁不染，圖中核內是平整無顆粒的均勻螢光，不符合。\n❌ (B) 核仁型只有核內 1～3 個核仁呈明亮圓形螢光、其餘核質暗，圖中整個核都亮，並非只亮核仁。\n❌ (C) 周邊型（核膜型）的螢光集中在核的邊緣呈亮環、中央核質相對變暗，圖中核心與邊緣亮度相當，沒有環狀加強。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods 自體免疫疾病章節—抗核抗體間接免疫螢光染色型態（homogeneous／speckled／nucleolar／peripheral）判讀與對應抗原。"
   },
   {
    "n": 19,
