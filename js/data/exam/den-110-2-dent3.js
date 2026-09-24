@@ -521,7 +521,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent3'] = {
     "拋光（polishing）"
    ],
    "a": 2,
-   "fig": "img/q/110100_304_33_36.webp"
+   "fig": "img/q/110100_304_33_36.webp",
+   "exp": "✅ (C) 圖中器械的工作端是一顆光滑、無刃的蛋形（egg／pear-shaped）圓頭，左側粗大的菱形交叉紋路是握柄的防滑刻紋。光滑圓鈍的工作面正是研光器（burnisher）的特徵：在汞齊填壓並雕刻外形後，以中等力量順著窩洞邊緣與咬合面滑動摩擦，把表面的汞齊抹平緻密、使修復體與琺瑯質邊緣密合，減少邊緣縫隙與孔隙。\n❌ (A) 填壓器（condenser／plugger）的工作端是平的、面積小且常帶鋸齒紋，用垂直加壓把汞齊擠實並擠出多餘汞，與圖中的圓鈍蛋形端不符。\n❌ (B) 雕刻器（carver，如 discoid-cleoid、Hollenback）工作端有銳利的刀刃緣，用來削除多餘汞齊並刻出溝窩外形；圖中器械完全無刃。\n❌ (D) 拋光（polishing）是填補完成後另次就診才做，使用低速手機搭配橡皮輪、拋光杯與研磨膏，不是用手用器械完成。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry（Instruments for amalgam restorations — condensers, carvers and burnishers）。"
   },
   {
    "n": 37,
@@ -1025,7 +1026,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent3'] = {
     "coronally repositioned flap"
    ],
    "a": 1,
-   "fig": "img/q/110100_304_33_72.webp"
+   "fig": "img/q/110100_304_33_72.webp",
+   "exp": "✅ (B) 附圖依序為：(a) 在頰側做溝內切開、(b) 於牙間乳頭底部做半月形切開、(c) 切開後整塊牙間乳頭仍完整附著於腭側而未被切斷、(d) 用器械把完整的乳頭經由牙間鄰間隙推向腭側並與腭側瓣一起翻起。保留整片牙間乳頭、不將其縱切成頰腭兩半，正是乳頭保存瓣（papilla preservation flap）的定義性步驟，目的在維持前牙美觀區的乳頭高度，並在骨移植或再生手術時提供完整的軟組織覆蓋與縫合空間。\n❌ (A) 改良 Widman 翻瓣是以三道切開（溝外的內斜切開、溝內切開、水平切開）切除袋內壁上皮，牙間乳頭會被切開分為頰腭兩部分，與圖中乳頭保持完整相反。\n❌ (C) 根向復位瓣需做內斜切開加垂直鬆弛切開並翻開全厚瓣，最後把瓣縫合在較根方的位置以降低牙齦邊緣、延長臨床牙冠，圖中並未把瓣往根方移動。\n❌ (D) 冠向復位瓣用於覆蓋牙根暴露，特徵是做垂直切開後將瓣往冠方拉、覆蓋暴露的根面再縫合，圖中的操作方向是把乳頭推向腭側而非往冠方拉。\n📚 出處：Newman and Carranza's Clinical Periodontology（Periodontal flap surgery — papilla preservation flap）。"
   },
   {
    "n": 73,
