@@ -223,7 +223,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent6'] = {
     "調整空間（space adjusted）"
    ],
    "a": 2,
-   "fig": "img/q/111020_304_66_15.webp"
+   "fig": "img/q/111020_304_66_15.webp",
+   "exp": "✅ (C) 圖中用測徑器（caliper／divider）夾住單顆牙齒的近心面與遠心面，量的是該牙的「近遠心寬度」（mesiodistal width）。齒列空間分析把各牙的近遠心寬度逐顆量出來相加，得到的就是排齊這些牙齒所需要的空間，即「必須空間（space required）」。\n❌ (A) 可用空間是沿著現有牙弓弧線量出的牙弓長度（用軟銅線或分段直線量弓形），不是量單顆牙齒的寬度。\n❌ (B) 殘餘空間是可用空間減去必須空間後的差值，屬於計算結果而非直接測量的項目。\n❌ (D) 調整空間指經由鄰面去釉、擴弓或拔牙等處置後改變的空間量，同樣不是用測徑器量牙寬所得。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Space analysis: arch length discrepancy）。"
   },
   {
    "n": 16,
