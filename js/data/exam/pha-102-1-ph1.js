@@ -704,7 +704,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "為GABAB receptor antagonist"
    ],
    "a": 2,
-   "fig": "img/q/102020_310_11_49.webp"
+   "fig": "img/q/102020_310_11_49.webp",
+   "exp": "✅ (C) 圖中結構為 4-amino-3-(4-chlorophenyl)butanoic acid，即 baclofen（克痙寧），是 GABA 在 β 位置接上對氯苯基的類似物。此親脂性取代基使其能通過血腦障壁，並選擇性活化 GABA_B receptor（Gi/Go 偶合的代謝型受體），開啟 K⁺ 通道、抑制 Ca²⁺ 內流而減少神經傳遞物釋放，臨床用於脊髓損傷或多發性硬化症的肌肉痙攣。\n❌ (A) GABA_A 為配體閘控 Cl⁻ 通道，其 agonist 為 muscimol、GABA 本身；baclofen 對 GABA_A 無活性。\n❌ (B) GABA_A 的拮抗劑是 bicuculline（競爭型）與 picrotoxin（通道阻斷），結構與本圖不同。\n❌ (D) GABA_B 的拮抗劑為 saclofen、phaclofen（磺酸或膦酸取代羧酸），本圖末端為羧酸，是致效劑而非拮抗劑。\n📚 出處：Foye's Medicinal Chemistry, CNS depressants — GABA_B agonist baclofen"
   },
   {
    "n": 50,
@@ -1077,7 +1078,8 @@ window.APP_EXAM_PAPERS['pha-102-1-ph1'] = {
     "Zalcitabine"
    ],
    "a": 2,
-   "fig": "img/q/102020_310_11_75.webp"
+   "fig": "img/q/102020_310_11_75.webp",
+   "exp": "✅ (C) 圖為 benzoxazin-2-one（苯并㗁𠯤-2-酮）母核，6 位接 Cl、4 位同時帶三氟甲基與環丙基乙炔基，此即 efavirenz。它屬非核苷反轉錄酶抑制劑（NNRTI），結合於 HIV-1 反轉錄酶催化區旁的疏水性口袋，使酵素構型改變而失去活性，不需經細胞內磷酸化活化。\n❌ (A) Zidovudine（AZT）為胸腺嘧啶核苷類似物，具嘧啶環與 3′-疊氮基（N₃）之五碳醣，本圖無核苷結構。\n❌ (B) Lamivudine（3TC）為含硫之氧硫雜環戊烷（oxathiolane）胞嘧啶核苷類似物，圖中並無硫原子與胞嘧啶環。\n❌ (D) Zalcitabine（ddC）為 2′,3′-dideoxycytidine，同樣是核苷類似物，與本圖之雙環芳香結構不符。\n📚 出處：Foye's Medicinal Chemistry, Antiviral agents — non-nucleoside reverse transcriptase inhibitors (efavirenz)"
   },
   {
    "n": 76,
