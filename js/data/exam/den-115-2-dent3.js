@@ -209,7 +209,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent3'] = {
     "內縮脫位（intrusive luxation）"
    ],
    "a": 3,
-   "fig": "img/q/115090_304_0303_14.webp"
+   "fig": "img/q/115090_304_0303_14.webp",
+   "exp": "✅ (D) 圖中右上正中門齒已做過根管治療並置入釘柱，牙根變短、根面輪廓不規則且根尖區缺乏正常牙周韌帶間隙（骨與牙本質相連），是齒髓壞死合併外部吸收／置入性吸收（replacement resorption、ankylosis）的典型影像。內縮脫位是把牙齒撞進齒槽骨內，同時壓碎牙周韌帶與牙骨質、又切斷根尖血管，四類外傷中齒髓壞死率（成熟恆牙近 100%）與硬組織沾黏、置入性吸收的機率都最高，最容易日後出現這種影像。\n❌ (A) 齒震盪只是牙周韌帶受震、牙齒不鬆動也不移位，齒髓壞死率僅約 3%，絕大多數自行痊癒，不會留下這種吸收與沾黏影像。\n❌ (B) 半脫位牙齒會鬆動、溝內可能出血，但未移位、牙周韌帶只部分撕裂，壞死率約 6%，預後良好。\n❌ (C) 外突脫位是牙齒被拉出齒槽窩，牙周韌帶被撕開但牙骨質未被壓碎，復位固定後以齒髓壞死與發炎性吸收為主，較少造成沾黏性的置入性吸收。\n📚 出處：Andreasen, Textbook and Color Atlas of Traumatic Injuries to the Teeth, 5th ed.（Luxation injuries of permanent teeth：intrusive luxation 之 pulp necrosis 與 replacement resorption／ankylosis）。"
   },
   {
    "n": 15,
@@ -363,7 +364,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent3'] = {
     "近心根管"
    ],
    "a": 1,
-   "fig": "img/q/115090_304_0303_25.webp"
+   "fig": "img/q/115090_304_0303_25.webp",
+   "exp": "✅ (B) 依 SLOB／Clark 法則（Same Lingual, Opposite Buccal）：球管往遠心移，位於舌側的構造在影像上會跟著往遠心移，位於頰側的則往相反方向（近心）移。此張遠心位移片中，該右下第二小臼齒的根管充填物偏向近心，而未充填、呈黑影的另一條管腔落在遠心側；既然它隨球管同向（遠心）移動，代表它在舌側，因此遺漏的是舌側根管。下顎第二小臼齒約有一成多為頰舌兩根管，正是此型變異。\n❌ (A) 頰側根管在球管遠心位移時會往近心方向跑；影像中位於近心的正是已填好的那條管，所以頰側管沒有被遺漏。\n❌ (C) 下顎小臼齒的根管變異是頰－舌向分歧，不會出現近遠心方向的兩條獨立根管，「遠心根管」是臼齒（下顎第一大臼齒遠心根）的名詞，此處不適用。\n❌ (D) 同理，小臼齒沒有所謂近心根管；且偏近心的影像本身就是已充填的那條管，並非遺漏者。\n📚 出處：Hargreaves & Berman, Cohen's Pathways of the Pulp, 12th ed.（Radiographic interpretation：SLOB／Clark's tube-shift rule 與 mandibular premolar root canal anatomy）。"
   },
   {
    "n": 26,
