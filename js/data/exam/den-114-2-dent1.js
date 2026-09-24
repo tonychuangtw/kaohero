@@ -55,7 +55,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent1'] = {
     "標示④處"
    ],
    "a": 2,
-   "fig": "img/q/114090_303_0301_3.webp"
+   "fig": "img/q/114090_303_0301_3.webp",
+   "exp": "✅ (C) 圖為蝶骨前面觀，標示③是大翼上的圓孔（foramen rotundum）。上顎區域（上顎牙齒、上顎竇、上唇與頰部黏膜、顎部）的痛覺由三叉神經上顎分支（V2）接收，V2 自翼顎窩經圓孔向後進入中顱窩的三叉神經節，再上行至腦幹，故上顎區痛覺是經由③傳入顱內。\n❌ (A) 標示①位於蝶骨體與小翼交界的正中旁，為視神經管，通過的是視神經（CN II）與眼動脈，與痛覺傳導無關。\n❌ (B) 標示②為小翼與大翼之間的眶上裂，通過動眼神經、滑車神經、外旋神經與三叉神經眼分支（V1）；V1 只管額部、上眼瞼與鼻背，不負責上顎區。\n❌ (D) 標示④在翼突基部，為翼管（pterygoid canal），內走翼管神經（副交感與交感的自律神經纖維），司淚腺與鼻腔腺體分泌，不傳導痛覺。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8（Sphenoid bone: foramina of the middle cranial fossa and the maxillary nerve, CN V2）。"
   },
   {
    "n": 4,
