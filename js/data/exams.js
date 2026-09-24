@@ -47180,7 +47180,7 @@ window.APP_EXAMS = [
   "subjName": "財政學大意",
   "label": "102 年　五等　財政學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
