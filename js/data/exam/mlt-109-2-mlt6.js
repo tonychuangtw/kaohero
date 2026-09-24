@@ -1065,7 +1065,8 @@ window.APP_EXAM_PAPERS['mlt-109-2-mlt6'] = {
     "Fonsecaea pedrosoi"
    ],
    "a": 2,
-   "fig": "img/q/109100_308_44_75.webp"
+   "fig": "img/q/109100_308_44_75.webp",
+   "exp": "✅ (C) 說明：圖中菌絲側邊可見大量圓球形小分生孢子（microconidia）呈葡萄串狀成簇排列，右下方另有捲曲成彈簧狀的螺旋菌絲（spiral hyphae），並有一枚壁薄光滑、雪茄形的大分生孢子，這三項正是 Trichophyton mentagrophytes 的典型形態；其菌落扁平粉粒狀、正面白至黃褐、背面白至紅褐，與題幹描述相符。\n❌ (A) Trichophyton tonsurans 的小分生孢子大小不一（火柴棒狀至汽球狀），沿菌絲單側呈直角排列而非球形葡萄串，且無螺旋菌絲，菌落背面多為紅褐至暗紅並有溝紋。\n❌ (B) Microsporum canis 的鑑定特徵是厚壁、粗糙有棘、末端尖細呈紡錘形且有 6 個以上分隔的大分生孢子，小分生孢子稀少，與圖中所見不符。\n❌ (D) Fonsecaea pedrosoi 不是皮癬菌，屬引起著色芽生菌病（chromoblastomycosis）的黑色真菌，具分枝狀（cladosporium 型）分生孢子梗與褐色菌絲，菌落為黑褐色絨毛狀。\n📚 出處：醫學真菌學「皮膚絲狀菌（dermatophytes）之巨觀與顯微形態鑑別—Trichophyton 屬小分生孢子與螺旋菌絲」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Mycology 之 Dermatophytes 章節。"
   },
   {
    "n": 76,
@@ -1121,7 +1122,8 @@ window.APP_EXAM_PAPERS['mlt-109-2-mlt6'] = {
     "delta-hemolysis"
    ],
    "a": 1,
-   "fig": "img/q/109100_308_44_79.webp"
+   "fig": "img/q/109100_308_44_79.webp",
+   "exp": "✅ (B) 說明：圖中菌落周圍的血液瓊脂完全變透明、可透視下方，代表紅血球被溶血素完全分解、血紅素亦被破壞，屬於完全溶血（beta-hemolysis），常見於 Streptococcus pyogenes、Streptococcus agalactiae 與 Staphylococcus aureus。\n❌ (A) alpha-hemolysis 為不完全溶血，菌落周圍呈草綠色（血紅素被氧化為膽綠素）且培養基仍混濁不透明，如 Streptococcus pneumoniae、viridans streptococci，與圖中透明帶不同。\n❌ (C) gamma-hemolysis 指不溶血，菌落周圍血液瓊脂顏色與外觀完全不變，如多數 Enterococcus、Staphylococcus epidermidis，圖中明顯有透明溶血帶故不符。\n❌ (D) delta-hemolysis 並非血液瓊脂上的標準溶血分類（delta-toxin 是 S. aureus 的一種毒素名稱），臨床判讀只分 alpha、beta、gamma 三型，此選項為誘答。\n📚 出處：臨床微生物學「血液瓊脂平板溶血型態判讀—alpha／beta／gamma 溶血之區別」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Streptococcus 與培養基判讀章節。"
   },
   {
    "n": 80,
