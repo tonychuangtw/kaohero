@@ -55,7 +55,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰4之結構為三叉神經上顎枝經過之處"
    ],
    "a": 3,
-   "fig": "img/q/108030_303_11_3.webp"
+   "fig": "img/q/108030_303_11_3.webp",
+   "exp": "✅ (D) 標示 4 位於蝶骨大翼後方的卵圓孔（foramen ovale），通過的是三叉神經「下顎枝」（V3）與副腦膜動脈；三叉神經上顎枝（V2）走的是圓孔（foramen rotundum），圓孔開口朝向翼顎窩，在顱底外面觀根本看不到，故本敘述錯誤。\n❌ (A) 標示 1 為頸動脈管（carotid canal）外口，內頸動脈由此進入顱內，敘述正確。\n❌ (B) 標示 2 為頸靜脈孔（jugular foramen），內頸靜脈與第 IX、X、XI 對腦神經由此通過，敘述正確。\n❌ (C) 標示 3 位於枕骨大孔兩側的枕髁（occipital condyle），與第一頸椎（寰椎）上關節面形成寰枕關節，確為與脊椎交接之處。\n📚 出處：Netter's Head and Neck Anatomy for Dentistry，顱底孔道（foramina of the skull base）章節"
   },
   {
    "n": 4,
@@ -97,7 +98,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰4處為降⼝⾓肌（depressor of corner of mouth）之附著處"
    ],
    "a": 0,
-   "fig": "img/q/108030_303_11_6.webp"
+   "fig": "img/q/108030_303_11_6.webp",
+   "exp": "✅ (A) 標示 1 落在上顎骨體外側、顴突下方靠近齒槽突的區域，那裡是提上唇肌群、頰肌一類表情肌的起始面；咬肌起自顴弓（zygomatic arch）下緣與內側面，止於下頜枝外側面及下頜角，起止點都不在標示 1，故此敘述最不恰當。\n❌ (B) 標示 2 在下頜體下緣（下頜骨底），闊頸肌自胸大肌與三角肌筋膜向上走，終止於此處與口角周圍的皮下組織，敘述合理。\n❌ (C) 標示 3 位於下頜正中聯合旁的切牙窩（incisive fossa），正是頦肌的骨性起始處。\n❌ (D) 標示 4 位於下頜骨的斜線（oblique line）、頦孔下外方一帶，為降口角肌的起始處，止於口角。\n📚 出處：Netter's Head and Neck Anatomy for Dentistry，顏面表情肌與咀嚼肌附著（muscles of facial expression and mastication）章節"
   },
   {
    "n": 7,
@@ -212,7 +214,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "標⽰6處為闊頸肌（platysma）"
    ],
    "a": 3,
-   "fig": "img/q/108030_303_11_14.webp"
+   "fig": "img/q/108030_303_11_14.webp",
+   "exp": "✅ (D) 此為下頜下三角的解剖術野，標示 6 指的是術野深部的肌肉層（下頜舌骨肌與二腹肌所在層次）；闊頸肌是位於頸闊筋膜淺層的皮下薄肌，做這種解剖時早已連皮瓣一併翻開，不會出現在深部術野的標示上，故最不恰當。\n❌ (A) 標示 2 為橫越舌骨舌肌外側、走向舌部的舌下神經（CN XII），位置與走向相符。\n❌ (B) 標示 3 之藍色構造為伴行的靜脈（舌下／舌靜脈），靜脈在圖中以藍色表示，敘述合理。\n❌ (C) 標示 5 之紅色構造位於舌骨舌肌深面，正是舌動脈的典型位置（舌動脈走舌骨舌肌內側，舌下神經走其外側）。\n📚 出處：Netter's Head and Neck Anatomy for Dentistry，下頜下三角（submandibular triangle）章節"
   },
   {
    "n": 15,
@@ -743,7 +746,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent1'] = {
     "牙本質橫嵴（dentinal perikymata）"
    ],
    "a": 2,
-   "fig": "img/q/108030_303_11_52.webp"
+   "fig": "img/q/108030_303_11_52.webp",
+   "exp": "✅ (C) 箭頭指的是牙本質內由牙髓向牙釉牙本質界放射的細長條紋，即牙本質小管（dentinal tubule）；在牙尖部位小管幾乎垂直走向，磨片中呈現整齊的垂直線條狀，符合圖中所見。\n❌ (A) 牙釉柱位於牙釉質內（圖上方橘褐色區），箭頭所指在牙釉牙本質界下方的牙本質側，不是牙釉柱。\n❌ (B) 牙釉梭是成牙本質細胞突越過牙釉牙本質界伸入牙釉質的短小棒槌狀構造，長度很短且僅見於界線附近，與圖中貫穿整層的長條紋不同。\n❌ (D) perikymata 是牙釉質「表面」的橫向波狀紋（芮氏線的表面表現），並無「牙本質橫嵴」這種構造，選項名稱本身即不成立。\n📚 出處：Ten Cate's Oral Histology，牙本質（dentin）之牙本質小管與磨片觀察章節"
   },
   {
    "n": 53,
