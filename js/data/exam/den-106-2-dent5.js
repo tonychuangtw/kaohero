@@ -447,7 +447,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent5'] = {
     "Kennedy II 級 2 類（Kennedy Class II modification 2）──牙齒－組織支持（tooth-tissue supported）模式"
    ],
    "a": 3,
-   "fig": "img/q/106100_304_55_31.webp"
+   "fig": "img/q/106100_304_55_31.webp",
+   "exp": "✅ (D) 圖中僅單側後牙區為遠心游離（distal extension）缺牙，依 Kennedy 分類屬 II 級；另有前牙區與對側後牙區兩處由天然牙圍成的有界缺牙間隙（bounded edentulous space），故為 2 類（modification 2）。II 級義齒的遠心游離端後方沒有支台齒，遠心段咬力只能由缺牙脊黏膜承擔，近心段則由支台齒承擔，屬牙齒－組織支持模式。\n❌ (A) 分類與支持模式皆錯。Kennedy I 級指「兩側」皆為遠心游離缺牙，本例只有一側；組織支持是全口義齒的型態。\n❌ (B) 支持模式對，但分類錯。缺牙只有單側游離端，不符合 I 級的兩側游離定義。\n❌ (C) 分類對，但支持模式錯。口內尚有多顆天然牙可作支台齒並放置 rest，咬力不會全由黏膜承擔，不屬組織支持。\n📚 出處：McCracken's Removable Partial Prosthodontics，Kennedy 缺牙分類與義齒支持型式章節"
   },
   {
    "n": 32,
