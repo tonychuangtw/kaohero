@@ -293,7 +293,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent6'] = {
     "調整空間（space adjusted）"
    ],
    "a": 1,
-   "fig": "img/q/111100_304_66_20.webp"
+   "fig": "img/q/111100_304_66_20.webp",
+   "exp": "✅ (B) 圖中雙箭頭沿著牙弓弧線，兩端分別落在前段牙齒的遠心與第一大臼齒的近心，量的是「牙弓上現有可以排牙的弧線長度」，即可用空間（space available，又稱 arch length available）。齒列空間分析就是把這個值與必須空間相減，差為負即代表擁擠量。\n❌ (A) 必須空間是把該象限各牙的近遠心寬度相加（混合齒列期未萌的犬齒與小臼齒需用 Moyers 或 Tanaka-Johnston 預測），量的是牙齒本身的寬度總和，不是牙弓的弧線長度。\n❌ (C) 殘餘空間指乳臼齒與其繼承恆牙寬度差所留下的餘額（leeway space），是相減後剩下的量，不是圖中這一整段弧線。\n❌ (D) 調整空間並非空間分析的標準測量項目，一般指靠鄰面去釉、擴弓或拔牙等處置後額外爭取到的空間，無法直接在模型上像圖示這樣量出來。\n📚 出處：Proffit《Contemporary Orthodontics》混合齒列期齒列空間分析（arch length available 與 required 之比較）；Moyers 混合齒列分析。"
   },
   {
    "n": 21,
