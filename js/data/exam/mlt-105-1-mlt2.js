@@ -502,7 +502,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt2'] = {
     "plasma cell"
    ],
    "a": 1,
-   "fig": "img/q/105020_308_22_35.webp"
+   "fig": "img/q/105020_308_22_35.webp",
+   "exp": "✅ (B) 圖中細胞體積偏大，核染色質濃縮成熟、無明顯核仁，細胞質量多而呈淡藍色，箭頭所指處可見數顆紫紅色的嗜天青顆粒（azurophilic granules），這正是大顆粒淋巴球（LGL）的典型型態。本例白血球 21,000/µL、淋巴球占 65%（絕對值約 13,650/µL）呈持續性淋巴球增多，型態上又以 LGL 為主，符合大顆粒淋巴球增生（如 T-LGL leukemia／NK 細胞增生）的表現。\n❌ (A) small lymphocyte 直徑約 7～10 µm，核幾乎占滿整個細胞，細胞質只在核旁形成一圈很窄的藍色邊緣，且不含嗜天青顆粒，與圖中大量含顆粒的細胞質不符。\n❌ (C) lymphoblast 屬芽球，核染色質細緻疏鬆、可見 1～2 個明顯核仁，細胞質嗜鹼性強且無顆粒；圖中細胞核染色質呈塊狀濃縮、無核仁，不是芽球。\n❌ (D) plasma cell 的核偏於一側呈車輪狀（cartwheel）染色質，細胞質深嗜鹼性並有核旁淡染區（perinuclear halo，即高基氏體區），且不出現嗜天青顆粒，與圖中所見不同。\n📚 出處：Rodak's Hematology 白血球型態學章節——淋巴球分類與大顆粒淋巴球（LGL）辨識；淋巴球增多症的型態鑑別（small lymphocyte／LGL／lymphoblast／plasma cell）。"
   },
   {
    "n": 36,
