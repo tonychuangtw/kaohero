@@ -559,7 +559,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt4'] = {
     "D"
    ],
    "a": 0,
-   "fig": "img/q/109020_308_66_39.webp"
+   "fig": "img/q/109020_308_66_39.webp",
+   "exp": "✅ (A) 說明：單向放射狀免疫擴散（radial immunodiffusion, Mancini 法）是把抗原點入含 anti-IgG 的洋菜膠孔中，抗原向四周擴散，在抗原與抗體達等價點處形成沉澱環；抗原濃度越高、擴散越遠，沉澱環直徑越大（Mancini 法中環面積即直徑平方與濃度成正比）。圖中 A 所指的孔沉澱環最大、明顯外擴，故 IgG 抗原濃度最高。\n❌ (B) B 的沉澱環雖清楚可見，但直徑明顯小於 A，代表抗原量較少、濃度居次。\n❌ (C) C 孔的沉澱環只比孔徑略大一圈，屬低濃度檢體。\n❌ (D) D 孔幾乎緊貼孔緣、環最小，是四者中濃度最低的檢體。\n📚 出處：Turgeon《Immunology & Serology in Laboratory Medicine》沉澱反應章—單向放射狀免疫擴散（Mancini 法：沉澱環直徑與抗原濃度成正比）。"
   },
   {
    "n": 40,
