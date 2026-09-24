@@ -265,7 +265,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Ludwig’s angina"
    ],
    "a": 1,
-   "fig": "img/q/107020_304_44_18.webp"
+   "fig": "img/q/107020_304_44_18.webp",
+   "exp": "✅ (B) 照片顯示左側臉頰下方單一、局限、界線相對清楚的圓頂狀腫脹，表面紅熱、中央有波動感樣的隆起，周邊組織尚未瀰漫性侵犯，是典型齒源性感染形成的膿瘍（abscess），處理原則為切開引流加移除感染源。\n❌ (A) 壞死性筋膜炎進展極快，皮膚會呈暗紫、出現水疱、壞死及捻髮音，病人全身毒性症狀明顯，與圖中局限性紅腫不符。\n❌ (C) 骨髓炎的主要表現在骨內（疼痛、感覺異常、X 光骨破壞與腐骨），外觀不會只是單一顆界線清楚的軟組織腫脹。\n❌ (D) Ludwig's angina 是雙側舌下、下頜下與頦下間隙同時受侵犯的瀰漫性蜂窩組織炎，會抬高舌頭、危及呼吸道，圖中僅單側局限腫脹。\n📚 出處：Contemporary Oral and Maxillofacial Surgery，口腔顎面部感染（odontogenic infection）之膿瘍與蜂窩組織炎鑑別章"
   },
   {
    "n": 19,
@@ -754,7 +755,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Odontogenic myxoma"
    ],
    "a": 3,
-   "fig": "img/q/107020_304_44_53.webp"
+   "fig": "img/q/107020_304_44_53.webp",
+   "exp": "✅ (D) 影像為左側下顎體至升枝的單側膨脹性、多房狀放射線透過病灶，皮質骨向頰側膨出而邊界仍清楚，CT 顯示腫瘤以軟組織密度充填並呈細緻骨隔，符合齒源性黏液瘤（odontogenic myxoma）無痛性緩慢膨脹、蜂窩狀／網球拍狀多房的表現。\n❌ (A) Cherubism 是體染色體顯性遺傳，病灶必為雙側且多侵犯下顎角與升枝，本例僅左側單發，可先排除。\n❌ (B) 纖維性骨失養症（fibrous dysplasia）影像為毛玻璃狀不透過性、與正常骨無明顯界線，不會像本例呈透過性多房病灶。\n❌ (C) 腺瘤樣齒源性瘤好發於年輕女性的上顎前牙區且多包覆未萌發犬齒，病灶小、界線清楚並常含細小鈣化點，與本例位置及大小不符。\n📚 出處：Neville《Oral and Maxillofacial Pathology》齒源性腫瘤章，odontogenic myxoma 之影像與鑑別診斷"
   },
   {
    "n": 54,
@@ -781,7 +783,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "Transmural ameloblastoma"
    ],
    "a": 0,
-   "fig": "img/q/107020_304_44_55.webp"
+   "fig": "img/q/107020_304_44_55.webp",
+   "exp": "✅ (A) 病理切片顯示囊腫腔面上皮下方的纖維性囊壁內出現造釉細胞瘤性上皮島（濾泡狀、周邊為柱狀細胞且細胞核遠離基底膜），腫瘤已侵入囊壁而非僅長在管腔內，屬 Ackermann 分類第三型，即壁內型單囊性造釉細胞瘤（mural unicystic ameloblastoma），因會侵犯囊壁，單純摘除復發率高。\n❌ (B) Intramural ameloblastoma 並非單囊性造釉細胞瘤的標準分類名稱，教科書使用的是 luminal／intraluminal／mural 三型。\n❌ (C) 管腔內型（intraluminal）指腫瘤性上皮呈叢狀增生突入囊腔，囊壁纖維組織內不應見到腫瘤島，與圖中所見相反。\n❌ (D) Transmural 同樣不是此分類使用的名詞，且本例 CT 顯示皮質骨仍完整無破損，無貫穿囊壁向外擴展的證據。\n📚 出處：Neville《Oral and Maxillofacial Pathology》齒源性腫瘤章，unicystic ameloblastoma 的 Ackermann 組織學分類"
   },
   {
    "n": 56,
@@ -906,7 +909,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "fracture line of bone"
    ],
    "a": 0,
-   "fig": "img/q/107020_304_44_64.webp"
+   "fig": "img/q/107020_304_44_64.webp",
+   "exp": "✅ (A) 黑色箭頭指的是下顎前牙區根尖下方數條細長、寬度一致、走向大致垂直並向牙槽突延伸的線狀透過影像，且兩側對稱出現、無膨大或骨破壞，為骨內的神經血管管道（neurovascular／nutrient canal），屬正常解剖構造，於骨小樑稀疏者更明顯。\n❌ (B) 根尖病變會呈以根尖為中心的圓形或不規則透過區並伴硬骨板（lamina dura）消失，本片牙齒根尖周圍硬骨板連續完整。\n❌ (C) 影像假影多為底片處理不當或異物重疊所致，形狀不規則且不會呈現這種固定走向、成對出現的解剖性線條。\n❌ (D) 骨折線走向不規則、常橫跨骨皮質並造成骨緣階梯狀不連續，也不會多條平行等寬地由根尖延伸至骨內。\n📚 出處：White and Pharoah《Oral Radiology: Principles and Interpretation》下顎正常解剖構造章，nutrient canal 與 neurovascular canal 影像判讀"
   },
   {
    "n": 65,
@@ -920,7 +924,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "pterygoid plate"
    ],
    "a": 2,
-   "fig": "img/q/107020_304_44_65.webp"
+   "fig": "img/q/107020_304_44_65.webp",
+   "exp": "✅ (C) 白色箭頭指向上顎第一大臼齒根尖上方一個 U 形（倒 J 形）且邊緣緻密的放射線不透過影像，此為上顎骨的顴突（zygomatic process of the maxilla）與顴骨下緣重疊投影，常出現在上顎大臼齒根尖片，屬正常構造。\n❌ (A) 上顎竇底是一條細而連續的緻密白線，會沿竇腔下緣起伏走行，不會呈現 U 形封閉的厚實團塊。\n❌ (B) 翼鉤（hamulus process）位於上顎結節後方、第三大臼齒遠心側，呈細長向下的鉤狀突起，位置與外形均不符。\n❌ (D) 翼板同樣位於上顎結節後方更遠心處，一般要拍到第三大臼齒以後的區域才會入鏡，不會投影在第一大臼齒根尖上方。\n📚 出處：White and Pharoah《Oral Radiology: Principles and Interpretation》上顎正常解剖構造章，zygomatic process of maxilla 之影像特徵"
   },
   {
    "n": 66,
@@ -948,7 +953,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "1為artificial defect，2為 radicular cyst"
    ],
    "a": 0,
-   "fig": "img/q/107020_304_44_67.webp"
+   "fig": "img/q/107020_304_44_67.webp",
+   "exp": "✅ (A) 箭頭 1 指向上顎後牙區根尖上方 U 形、邊緣緻密的不透過影像，是上顎骨顴突與顴骨的重疊投影；箭頭 2 指向一條細而連續、呈弧形向上走行的緻密白線，為上顎竇底（maxillary sinus floor），兩者皆為正常解剖構造。\n❌ (B) 根尖囊腫應為以根尖為中心、硬骨板消失的圓形透過影像，箭頭 2 所指是連續的白色緻密線而非透過性病灶。\n❌ (C) 人工假影（artificial defect）多為底片折損、藥水痕或異物重疊，形狀不規則且不會固定呈 U 形出現在此解剖位置。\n❌ (D) 此選項兩個判讀皆錯：1 非假影而是顴突，2 也不是根尖囊腫而是竇底線。\n📚 出處：White and Pharoah《Oral Radiology: Principles and Interpretation》上顎正常解剖構造章，顴突與上顎竇底的重疊投影判讀"
   },
   {
    "n": 68,
@@ -962,7 +968,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "根尖肉芽腫（pericapical granuloma）"
    ],
    "a": 2,
-   "fig": "img/q/107020_304_44_68.webp"
+   "fig": "img/q/107020_304_44_68.webp",
+   "exp": "✅ (C) 影像顯示左下第一大臼齒近心根尖處有一個界線清楚、圓形的高度不透過（鈣化）團塊，與牙根融合成一體、牙根輪廓被吸收而消失，外圍並有一圈均勻的透過性環帶（軟組織被膜），是造牙骨質細胞瘤（cementoblastoma）的典型影像，治療須連同該牙一併摘除。\n❌ (A) 根尖囊腫為完全透過性且邊緣有皮質骨線的圓形病灶，不會呈鈣化團塊。\n❌ (B) 齒源性角化囊腫多見於下顎後牙區與升枝，沿骨髓腔前後生長、呈透過性病灶，也不附著在根尖形成鈣化物。\n❌ (D) 根尖肉芽腫是根尖的小型透過性病變並伴硬骨板消失，與本例的不透過性團塊相反。\n📚 出處：Neville《Oral and Maxillofacial Pathology》齒源性腫瘤章，cementoblastoma 之影像與治療"
   },
   {
    "n": 69,
@@ -990,7 +997,8 @@ window.APP_EXAM_PAPERS['den-107-1-dent4'] = {
     "fractured alveolar crest and hyoid bone"
    ],
    "a": 1,
-   "fig": "img/q/107020_304_44_70.webp"
+   "fig": "img/q/107020_304_44_70.webp",
+   "exp": "✅ (B) 黑色箭頭指向病灶內一塊與周圍溶骨區分離、邊緣不規則的高密度骨片，是壞死骨與活骨分離後形成的腐骨（sequestrum）；白色箭頭指向下顎骨下緣外側一層與原皮質骨平行、被透明帶隔開的新生骨線，為骨膜反應（periosteal reaction，洋蔥皮樣新生骨），兩者合併是慢性骨髓炎的典型影像。\n❌ (A) 影像中齒槽脊未見階梯狀不連續或線狀透亮的骨折線，且骨髓腔呈瀰漫性蟲蝕狀破壞，屬感染而非外傷。\n❌ (C) 惡性腫瘤塊本身多為軟組織密度、影像上呈透過性，並會造成皮質骨破壞穿孔，不會形成被透明帶包圍的分離骨片與層狀新生骨。\n❌ (D) 舌骨投影位置在下顎下緣下方更遠處且外形為長條狀，不會緊貼下顎骨下緣呈平行的薄層骨線。\n📚 出處：White and Pharoah《Oral Radiology: Principles and Interpretation》顎骨發炎性病變章，osteomyelitis 之腐骨與骨膜反應"
   },
   {
    "n": 71,
