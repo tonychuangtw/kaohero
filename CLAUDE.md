@@ -164,13 +164,27 @@ node tools/build-index.js --write && node test/test.js
 - 補完要 `exp-skip-drop --has-fig` **加 `--only`**：不加 `--only` 會把「本來就有圖、但圖看不清楚而跳過」
   的題也放回去，worker 只會再跳過一次、白跑一輪。
 
-## 類科頁的「本站沒有收錄的科目」（2026-09-24）
+## 申論題庫（2026-09-24，Tony「付費用戶申論題可批改」的第一段）
 
-考社會行政的考生以為我們漏收社會學、社會工作——其實是申論卷。類科頁（`viewTrack`）現在會列出最近一年該類科
-要考、但本站沒有的科目：申論卷標「申論題，本站不收」，有選擇題但沒收的（初等／五等國文含複選題）另標。
-資料 `js/data/essay.js` 由 `python3 tools/essay-map.py` 產生（讀 `~/exam-pdfs/{gao,local,pol,chu}` 的 rows 與
-`_a.pdf`／`_a.none`），進類科頁才懶載。**新年度考卷收進來後要重跑一次**，並改 `js/app.js` 裡 essay.js 的版本號。
-共用試卷（名字帶「（一般行政組）」但掛在別的類科）會加註「各類科共用同一份試卷」。
+申論卷沒有標準答案，選擇題那套收不進來；改成另一個題庫：`#/essays`（科目列表）、`#/essay/<key>`（歷年題目＋原卷 PDF 連結＋參考架構）。
+類科頁（`viewTrack`）最下面「申論與其他科目」會把申論科目連過來；有選擇題但沒收的（初等／五等國文含複選題）另標。
+
+```bash
+python3 tools/moex-sweep.py ~/exam-pdfs/gao Q --essay     # 下載申論卷題目（local／pol 同理，每秒約 1 份）
+bash tools/essay-refresh.sh                                 # 轉檔 gen_essay.py → essay-map.py → test → commit（拿鎖）
+bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（claude -p，紀錄 ~/.claude/essay-ref.log）
+```
+
+- 資料：`js/data/essays.js`（科目索引）、`js/data/essay/<sha1 前 10 碼>.js`（每科一檔）、`js/data/essay.js`（類科→申論科目）。都是進頁才懶載，版本號在 `js/app.js` 的 `ESSAY_V`
+- 科目 key＝`<exam><等別>-<正規化科目名>`（`gao1-社會學`），同年同名兩份卷才加「（主類科組）」
+- **小題編號是 EUDC 造字**：`\ue129` 起是（一）（二）（三）…（選擇題卷 parse.py 把同一段對成 ①②③，那是選擇題卷的用法）
+- **題目裡引用的法條條列也長「一、二、」**，切題只認比上一題大的號碼、且縮排 ≤1；跳號整卷擋下（約 1.5% 切題失敗）
+- 有圖表／公式的題標 `warn`，頁面提示對照原卷；**參考架構不寫 warn 的題**（看不到圖寫不可靠）
+- ⚠ **重新轉檔會重寫每科的檔**：`gen_essay.py` 會先讀舊檔把 `q.ref` 依（年度, 題號）接回去；而且一定要拿 `~/.claude/essay.lock`
+  （`essay-refresh.sh` 已包好），不然批次剛寫進去的參考架構會被轉檔洗掉
+- 參考架構格式由 `tools/essay-ref.py set` 檢查：150～1500 字、要有【答題架構】、不准 ✅❌📚；模型判 skip 的題記在 `tools/essay-ref-skips.json` 不再挑
+- 挑題順序：`essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
+- 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
 ## 勘誤提醒 q.note（2026-09-23）
 

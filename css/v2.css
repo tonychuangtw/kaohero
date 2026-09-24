@@ -703,3 +703,15 @@ body[data-page]:not([data-page="home"]) .hero-wrap + main{padding-top:20px}
 .panel .it.it-off{cursor:default}
 .panel .it.it-off:hover{background:none}
 .panel .it.it-off .t b{font-weight:600;color:var(--dim)}
+
+/* 申論題庫（2026-09-24） */
+.es-note{padding:12px 16px;margin:12px 0;border-style:dashed}
+.es-note p{margin:0;color:var(--dim);font-size:calc(13.5px * var(--fs,1))}
+.sec-h .es-src{margin-left:auto;font-size:calc(13.5px * var(--fs,1));white-space:nowrap}
+.panel.es-q{padding:14px 16px;margin-bottom:10px}
+.es-h{font-weight:700;margin-bottom:6px}
+.es-t{white-space:pre-wrap;line-height:1.75;overflow-wrap:anywhere}
+.es-w{margin:8px 0 0;color:var(--dim);font-size:calc(13px * var(--fs,1))}
+.es-ref{margin-top:10px;border-top:1px dashed var(--line2);padding-top:8px}
+.es-ref summary{cursor:pointer;font-weight:600;color:var(--brand)}
+.es-ref .es-t{margin-top:8px}

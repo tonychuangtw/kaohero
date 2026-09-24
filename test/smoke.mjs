@@ -121,8 +121,23 @@ await hash('#/track/gao/' + encodeURIComponent('gao1-社會行政'));
 await sleep(600);   // essay.js 是進類科頁才載
 {
   const t = await ev('document.getElementById("main").textContent');
-  ok(t.includes('本站沒有收錄的科目') && t.includes('社會學') && t.includes('申論題，本站不收'), '類科頁列出申論科目（高考社會行政：社會學）');
+  ok(t.includes('申論與其他科目') && t.includes('社會學') && await ev('!!document.querySelector("#main a[href*=\'#/essay/\']")'), '類科頁列出申論科目並連到申論題庫（高考社會行政：社會學）');
   ok(t.includes('各類科共用同一份試卷'), '類科頁標出共用試卷的科目（行政法（一般行政組））');
+}
+
+// --- 申論題庫（2026-09-24）---
+await hash('#/essays');
+await sleep(800);
+{
+  const t = await ev('document.getElementById("main").textContent');
+  ok(t.includes('申論題庫') && t.includes('高考三級') && await ev('document.querySelectorAll("#main .panel .it").length >= 10'), '申論題庫頁列出科目');
+}
+await hash('#/essay/' + encodeURIComponent('gao1-社會學'));
+await sleep(800);
+{
+  const t = await ev('document.getElementById("main").textContent');
+  ok(t.includes('社會學') && t.includes('第 1 題') && await ev('!!document.querySelector("#main .es-src[href^=\'https://wwwq.moex.gov.tw/\']")'), '申論科目頁有題目與原卷連結');
+  ok(await ev('!!document.querySelector("#main details.es-ref")') && t.includes('非官方答案'), '申論題顯示參考架構（標明非官方答案）');
 }
 
 // --- 牙醫師（2026-09-06 新增）---

@@ -7,7 +7,7 @@
   essay：申論卷（考選部平臺查不到測驗式答案，moex-sweep 留下 <code>_<c>_<s>_a.none）
   miss ：有選擇題答案、但題庫裡沒有這一卷（轉檔被擋掉，見 <spec>-skipped.json）
 
-用法：python3 tools/essay-map.py         → 寫 js/data/essay.js
+用法：python3 tools/essay-map.py         → 寫 js/data/essay.js（先跑 gen_essay.py，申論科目才連得到申論題庫）
 類科 id 的算法跟 civil-index-merge.py 一樣（<exam><等別>-<類科名去空白>），改一邊要改另一邊。
 """
 import os, sys, re, json, glob, collections
@@ -17,6 +17,15 @@ ROOT = os.path.dirname(HERE)
 PDFS = os.path.expanduser('~/exam-pdfs')
 sys.path.insert(0, HERE)
 import gen_civil as C
+import gen_essay as GE
+
+# 申論題庫已有的科目（js/data/essays.js，gen_essay.py 產生）；要先跑 gen_essay 再跑這支
+try:
+    _t = open(os.path.join(ROOT, 'js/data/essays.js'), encoding='utf-8').read()
+    ESUBJ = set(json.loads(_t[_t.index('= ') + 2:_t.rindex(';')]))
+except (OSError, ValueError):
+    ESUBJ = set()
+ESK = {}
 
 # (PDF 目錄, gen_civil 的 spec 名稱)
 SOURCES = [('gao', 'gao'), ('local', 'local'), ('pol', 'pol'), ('chu', 'chu')]
@@ -44,6 +53,10 @@ def one(work, spec_name):
     reg = json.load(open(os.path.join(HERE, '%s-subjects.json' % spec_name), encoding='utf-8'))
     exam = C.SPEC['exam']
     rows = C.papers_of(work)
+    global ESK
+    ESK = GE.subject_key(spec_name, [r for r in rows if kind(work, r[1], r[4]) == 'essay' and C.lvl_of(r[3])]) \
+        if spec_name in ('gao', 'local', 'pol') else {}
+    C.SPEC = C.SPECS[spec_name]
     dup = C.collisions([r for r in rows if kind(work, r[1], r[4]) == 'mcq'])
     # 類科 → 最近一年；那一年的科目
     latest = {}
@@ -66,7 +79,10 @@ def one(work, spec_name):
             name = C.canon(sn)
             e = out.setdefault(tid, {'roc': roc, 'essay': [], 'miss': []})
             if kd == 'essay':
-                if name not in e['essay']: e['essay'].append(name)
+                # [名字, 申論題庫的科目 key]；key 用 gen_essay 同一套算法，題庫裡真的有才給（沒有就只列名字）
+                k = ESK.get((roc, code, s))
+                k = k[0] if k and k[0] in ESUBJ else None
+                if name not in [x[0] for x in e['essay']]: e['essay'].append([name, k])
                 continue
             if (lvl, name) in dup:
                 pr = C.primary(trs, lvl)

@@ -5,7 +5,7 @@
 所以先用 s 去重，一份卷只抓一次；申論卷沒有標準答案（t=S 回非 PDF），正好當篩選條件。
 
 用法（工作目錄需有 inv-full.py 產生的 rows-<roc>.json）：
-  python3 tools/moex-sweep.py <工作目錄> [S|Q|M]
+  python3 tools/moex-sweep.py <工作目錄> [S|Q|M] [--has-answer|--essay|清單.json]
 產出：pdf/<code>_<c>_<s>_{a,q,m}.pdf、sweep-<t>.log
 """
 import sys, os, json, glob, time
@@ -32,7 +32,10 @@ def main():
     arg3 = sys.argv[3] if len(sys.argv) > 3 else None
     # --has-answer：只抓「已經有標準答案」的那些卷（申論卷不用抓試題）
     only = None
-    if arg3 == '--has-answer':
+    # --essay：只抓申論卷（S 掃過、留下 _a.none 的那些）的試題，給申論題庫用（2026-09-24）
+    if arg3 == '--essay':
+        only = set(f[:-7] for f in os.listdir(os.path.join(work, 'pdf')) if f.endswith('_a.none'))
+    elif arg3 == '--has-answer':
         only = set(f[:-6] for f in os.listdir(os.path.join(work, 'pdf')) if f.endswith('_a.pdf'))
     elif arg3:
         only = set(json.load(open(arg3)))

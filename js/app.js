@@ -506,6 +506,9 @@
   function viewExams(main) {
     main.appendChild(el('h1', 'pg-h', T('考試題庫')));
     main.appendChild(el('p', 'lead', T('所有已建置與規劃中的考試類別。已上線的可以直接開始練習。')));
+    var es = el('div', 'cards');
+    es.appendChild(card('📝', T('申論題庫'), T('高普考、地方特考、警察特考的申論題原題與參考架構'), '#/essays', T('新')));
+    main.appendChild(es);
     CATS.forEach(function (c) {
       var s = el('section', 'sec');
       s.appendChild(sectionHead(c.icon + T('　') + c.name));
@@ -663,26 +666,30 @@
 
   /* 類科頁列出「最近一年要考、但本站沒有」的科目（js/data/essay.js，tools/essay-map.py 產生）。
      只有類科頁用得到，所以進來才載，不塞進首頁的 loader。 */
-  var essayWait = null;
+  var jsWait = {};
+  function loadJs(src, cb) {
+    var w = jsWait[src];
+    if (w === true) return cb();
+    if (w) return w.push(cb);
+    w = jsWait[src] = [cb];
+    var sc = document.createElement('script');
+    sc.src = src;
+    sc.onload = sc.onerror = function () { jsWait[src] = true; w.forEach(function (f) { f(); }); };
+    document.head.appendChild(sc);
+  }
   function loadEssay(cb) {
     if (window.APP_ESSAY) return cb();
-    if (!essayWait) {
-      essayWait = [];
-      var sc = document.createElement('script');
-      sc.src = 'js/data/essay.js?v=20260924a';
-      sc.onload = sc.onerror = function () { var w = essayWait; essayWait = null; w.forEach(function (f) { f(); }); };
-      document.head.appendChild(sc);
-    }
-    essayWait.push(cb);
+    loadJs('js/data/essay.js?v=' + ESSAY_V, cb);
   }
+  var ESSAY_V = '20260924b';
   function trackMissing(main, tid) {
     var host = el('div'); main.appendChild(host);
     loadEssay(function () {
       var e = (window.APP_ESSAY || {})[tid];
       if (!e || !host.isConnected) return;
       var s = el('section', 'sec');
-      s.appendChild(sectionHead(T('本站沒有收錄的科目')));
-      s.appendChild(el('p', 'lead', T('依 ') + e.roc + T(' 年的考試科目。本站只收選擇題（要有官方標準答案才能對答案），申論題不收。')));
+      s.appendChild(sectionHead(T('申論與其他科目')));
+      s.appendChild(el('p', 'lead', T('依 ') + e.roc + T(' 年的考試科目。申論題沒有官方標準答案，不能線上作答對分數；可以看歷年題目與本站撰寫的參考架構。')));
       var p = el('div', 'panel');
       function row(name, why) {
         var n = el('div', 'it it-off');
@@ -690,9 +697,124 @@
         var t = el('span', 't'); t.appendChild(el('b', null, name)); t.appendChild(el('span', null, why));
         n.appendChild(t); p.appendChild(n);
       }
-      e.essay.forEach(function (x) { row(x, T('申論題，本站不收')); });
+      e.essay.forEach(function (x) {
+        // x＝[科目名, 申論題庫 key]；有 key 就連到申論題庫（題目＋參考架構），沒有就只列名字
+        if (x[1]) p.appendChild(item('📝', x[0], T('申論題：看歷年題目與參考架構'), null, '#/essay/' + encodeURIComponent(x[1])));
+        else row(x[0], T('申論題，本站不收'));
+      });
       e.miss.forEach(function (x) { row(x, T('有選擇題（含複選題），本站介面尚未支援')); });
       s.appendChild(p); host.appendChild(s);
+    });
+  }
+
+  /* ============ 申論題庫（2026-09-24）============
+     題目：tools/gen_essay.py 從考選部申論卷轉出來；參考架構（q.ref）是本站撰寫，一定要標「非官方答案」。
+     資料很大（上千科），索引 js/data/essays.js 與各科 js/data/essay/<f>.js 都是進頁才載。 */
+  var ESSAY_EXAM = { gao: '高普考', local: '地方特考', pol: '警察特考' };
+  function loadEssaySubj(cb) {
+    if (window.APP_ESSAY_SUBJ) return cb();
+    loadJs('js/data/essays.js?v=' + ESSAY_V, cb);
+  }
+  function essayNote() {
+    var n = el('div', 'panel es-note');
+    n.appendChild(el('p', null, T('申論題沒有官方標準答案。「參考架構」是本站依教科書與現行法規整理的作答要點，不是官方擬答；法條條號請以全國法規資料庫為準。')));
+    return n;
+  }
+
+  function viewEssays(main) {
+    main.appendChild(el('h1', 'pg-h', T('申論題庫')));
+    var lead = el('p', 'lead', T('載入中…')); main.appendChild(lead);
+    loadEssaySubj(function () {
+      var S = window.APP_ESSAY_SUBJ;
+      if (!S) { lead.textContent = T('載入失敗，請重新整理。'); return; }
+      var keys = Object.keys(S);
+      lead.textContent = T('高普考、地方特考、警察特考的申論題原題，共 ') + keys.length.toLocaleString() + T(' 科、')
+        + keys.reduce(function (a, k) { return a + S[k].nq; }, 0).toLocaleString() + T(' 題。題目取自考選部公開試題。');
+      main.appendChild(essayNote());
+      var box = el('div', 'panel'); box.style.padding = '12px 14px';
+      var inp = el('input', 'find');
+      inp.type = 'search'; inp.placeholder = T('搜尋科目或類科，例如：社會學、社會行政');
+      inp.setAttribute('aria-label', T('搜尋申論科目'));
+      box.appendChild(inp); main.appendChild(box);
+      var host = el('div'); main.appendChild(host);
+      var open = {};
+      function draw(kw) {
+        host.innerHTML = '';
+        kw = (kw || '').trim();
+        var groups = {};
+        keys.forEach(function (k) {
+          var e = S[k];
+          if (kw && e.name.indexOf(kw) < 0 && !e.tracks.some(function (t) { return t.indexOf(kw) >= 0; })) return;
+          var g = e.exam + e.lvl;
+          (groups[g] = groups[g] || { t: (ESSAY_EXAM[e.exam] || e.exam) + T('　') + e.lv, ks: [] }).ks.push(k);
+        });
+        var gs = Object.keys(groups).sort();
+        if (!gs.length) { host.appendChild(el('p', 'lead', T('沒有符合的科目，換個關鍵字試試。'))); return; }
+        gs.forEach(function (g) {
+          var G = groups[g];
+          // 掛的類科越多＝越多人考（行政法、社會學這種），排前面；同數再看題數
+          G.ks.sort(function (a, b) { return S[b].tracks.length - S[a].tracks.length || S[b].nq - S[a].nq; });
+          var sec = el('section', 'sec');
+          sec.appendChild(sectionHead(G.t + T('（') + G.ks.length + T(' 科）')));
+          var p = el('div', 'panel');
+          var lim = kw || open[g] ? G.ks.length : 12;
+          G.ks.slice(0, lim).forEach(function (k) {
+            var e = S[k];
+            p.appendChild(item('📝', e.name, e.years.length + T(' 個年度 · ') + e.nq + T(' 題')
+              + (e.ref ? T('　｜參考架構 ') + e.ref + T(' 題') : ''), null, '#/essay/' + encodeURIComponent(k)));
+          });
+          sec.appendChild(p);
+          if (G.ks.length > lim) {
+            var more = btn(T('顯示全部 ') + G.ks.length + T(' 科'), 'o', function () { open[g] = 1; draw(inp.value); });
+            sec.appendChild(more);
+          }
+          host.appendChild(sec);
+        });
+      }
+      inp.oninput = function () { draw(inp.value); };
+      draw('');
+    });
+  }
+
+  function viewEssaySubj(main, key) {
+    key = decodeURIComponent(key || '');
+    var lead = el('p', 'lead', T('載入中…'));
+    main.appendChild(lead);
+    loadEssaySubj(function () {
+      var e = (window.APP_ESSAY_SUBJ || {})[key];
+      if (!e) { main.innerHTML = ''; return viewNotFound(main); }
+      main.insertBefore(el('h1', 'pg-h', e.name), lead);
+      lead.textContent = (ESSAY_EXAM[e.exam] || e.exam) + T('　·　') + e.lv + T('　·　申論題　·　')
+        + e.years.length + T(' 個年度 ') + e.nq + T(' 題');
+      loadJs('js/data/essay/' + e.f + '.js?v=' + ESSAY_V, function () {
+        var ps = (window.APP_ESSAY_PAPERS || {})[key];
+        if (!ps) { main.appendChild(el('p', 'lead', T('題目載入失敗，請重新整理。'))); return; }
+        main.appendChild(essayNote());
+        ps.forEach(function (pp) {
+          var sec = el('section', 'sec');
+          var hd = sectionHead(pp.roc + T(' 年') + T('　') + T('考試時間 ') + pp.mins + T(' 分鐘'));
+          var a = el('a', 'es-src', T('原卷 PDF ↗'));
+          a.href = pp.src; a.target = '_blank'; a.rel = 'noopener';
+          hd.appendChild(a);
+          sec.appendChild(hd);
+          pp.qs.forEach(function (q) {
+            var c = el('div', 'panel es-q');
+            c.appendChild(el('div', 'es-h', T('第 ') + q.n + T(' 題') + (q.pt ? T('（') + q.pt + T(' 分）') : '')));
+            c.appendChild(el('div', 'es-t', q.q));
+            if (q.warn) c.appendChild(el('p', 'es-w', T('⚠ 本題含圖表或公式，文字版可能不完整，請對照原卷 PDF。')));
+            if (q.ref) {
+              var d = el('details', 'es-ref');
+              d.appendChild(el('summary', null, T('參考架構（本站撰寫，非官方答案）')));
+              d.appendChild(el('div', 'es-t', q.ref));
+              c.appendChild(d);
+            }
+            sec.appendChild(c);
+          });
+          main.appendChild(sec);
+        });
+        var o = e.tracks.map(function (t) { return t.replace(/^[a-z]+\d-/, ''); });
+        if (o.length) main.appendChild(el('p', 'lead', T('考這一科的類科：') + o.join('、')));
+      });
     });
   }
 
@@ -2132,6 +2254,8 @@
     else if (top === 'exam') viewExam(main, seg[1]);
     else if (top === 'subject') viewSubject(main, seg[1], seg[2]);
     else if (top === 'track') viewTrack(main, seg[1], seg[2]);
+    else if (top === 'essays') viewEssays(main);
+    else if (top === 'essay') viewEssaySubj(main, seg[1]);
     else if (top === 'paper') {
       // 題本是動態載入的，還沒到就先顯示載入中，startPaper 載完會再 render 一次
       if (!quiz || quiz.mode !== 'paper' || quiz.pid !== seg[1] || quiz.done) {
