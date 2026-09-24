@@ -1,0 +1,4 @@
+/* 申論題：local1-土壤力學（土木工程組）（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["local1-土壤力學（土木工程組）"] = [{"roc":113,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113200&c=332&s=1708&q=1","qs":[{"n":1,"q":"請解釋下列名詞（或縮寫、符號）之意涵：（每小題 5 分，共 25 分）\n（一） OMC\n（二） A-line\n（三） OCR\n（四） CU 試驗\n（五） PI","pt":25},{"n":2,"q":"什麼是土壤剪力強度參數（shear strength parameters）？請詳述兩種求取土壤剪力強度參數的試驗方法、步驟及數據處理。（25 分）","pt":25},{"n":3,"q":"請詳述壓密試驗的步驟及如何求得相關參數【預壓密壓力（pre-consolidation pressure）、壓縮指數（compression index）Cc 及壓密係數（coefficient of consolidation）cv】。（25 分）","pt":25},{"n":4,"q":"某土壤比重 GS = 2.7，飽和單位重 = 20.93 kN/m3，求：（每小題 5 分，共 25 分）\n（一）孔隙比\n（二）孔隙率\n（三）乾單位重\n（四）浸水單位重\n（五）當土壤飽和度 S = 81%時，求含水量","pt":25}]}];
