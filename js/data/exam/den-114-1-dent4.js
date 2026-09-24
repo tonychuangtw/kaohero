@@ -125,7 +125,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "下顎骨骨折"
    ],
    "a": 2,
-   "fig": "img/q/114020_304_0204_8.webp"
+   "fig": "img/q/114020_304_0204_8.webp",
+   "exp": "✅ (C) 全景片與側顱片上都可見一條細長、筆直、密度均勻的金屬性不透射線影像，位於下顎枝內側的翼下顎間隙（pterygomandibular space）走向，粗細與長度都與牙科注射針一致——這是下齒槽神經阻斷麻醉時針頭於針座處折斷殘留的典型影像。\n❌ (A) 出血是軟組織與臨床徵象，X 光片上看不出來；拔牙後出血也不會產生這種筆直的金屬異物影。\n❌ (B) 魯特維氏咽峽炎是口底蜂窩組織炎，影像上表現為軟組織腫脹與氣道變窄，不會出現線狀高密度異物。\n❌ (D) 下顎骨骨折應呈現皮質骨連續性中斷的透射性折線，而且斷端常有錯位；本片骨緣連續完整，且該線條密度遠高於骨質。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Foreign bodies／Soft tissue radiopacities）；Malamed, Handbook of Local Anesthesia（Needle breakage）。"
   },
   {
    "n": 9,
@@ -925,7 +926,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "營養管（nutrient canal）"
    ],
    "a": 2,
-   "fig": "img/q/114020_304_0204_65.webp"
+   "fig": "img/q/114020_304_0204_65.webp",
+   "exp": "✅ (C) 箭頭指的是上顎兩中門齒之間、由齒槽脊往鼻棘方向延伸的一條細長、邊緣平行且兩側有薄層皮質骨的垂直透射線，這是左右上顎骨在中線相接的上顎間縫（正中腭縫）。\n❌ (A) 鼻腭管（切齒管）位置在兩中門齒根尖之間偏腭側，影像為卵圓形或心形、寬度明顯較大的透射區，而非一條細線。\n❌ (B) 前鼻棘是鼻中隔下緣的 V 形不透射線構造，位於鼻孔下方，屬高密度影而非透射線。\n❌ (D) 營養管是骨內血管神經的通道，在下顎前牙區最常見，走向不定且不會恰好沿中線由齒槽脊延伸到鼻棘。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Normal Radiographic Anatomy — Maxilla：intermaxillary suture）。"
   },
   {
    "n": 66,
@@ -939,7 +941,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "lingual foramen"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_66.webp"
+   "fig": "img/q/114020_304_0204_66.webp",
+   "exp": "✅ (B) 下顎前牙區牙間骨內出現數條細而直、走向與牙根大致平行或略斜的透射線，這是骨內血管與神經走行的營養管；下顎前牙區骨質較薄，加上骨質流失時更容易顯影，是此處最常見的正常解剖影像。\n❌ (A) 下齒槽神經管位於下顎後牙區，由下顎孔向前延伸至頦孔，是一條有上下皮質骨界線的粗管道，不會出現在前牙牙間骨內。\n❌ (C) 齒槽硬板是圍繞牙根的一層緻密骨，影像為白色不透射線的線條，與本題所問的透射線相反。\n❌ (D) 舌側孔位於下顎正中聯合舌側，影像是被緻密骨脊（genial tubercle）環繞的單一小圓形透射點，不是數條線狀影。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Normal Radiographic Anatomy — Mandible：nutrient canals）。"
   },
   {
    "n": 67,
@@ -953,7 +956,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "taurodontism"
    ],
    "a": 0,
-   "fig": "img/q/114020_304_0204_67.webp"
+   "fig": "img/q/114020_304_0204_67.webp",
+   "exp": "✅ (A) 箭頭所指的下顎前牙可見兩顆牙的牙冠在牙本質層相連、成為一顆特別寬大的牙，且該象限的牙數比正常少一顆，符合融合齒的定義：兩個牙胚在發育中結合，牙本質必定相通。\n❌ (B) 接合齒僅靠牙骨質在牙根相連，牙冠與牙本質各自獨立、牙數不減少，且幾乎只發生在上顎後牙區。\n❌ (C) 雙生齒是單一牙胚部分分裂，牙冠出現凹溝但通常共用一個牙髓腔，且該象限牙數正常不減少。\n❌ (D) 牛齒症的異常在牙根，特徵是牙髓腔垂直拉長、根分叉位置往根尖移位，牙冠外形正常，與本片所見不符。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Dental Anomalies — fusion／gemination／concrescence）。"
   },
   {
    "n": 68,
@@ -967,7 +971,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "taurodontism"
    ],
    "a": 3,
-   "fig": "img/q/114020_304_0204_68.webp"
+   "fig": "img/q/114020_304_0204_68.webp",
+   "exp": "✅ (D) 片中大臼齒的牙冠外形正常，但牙髓腔明顯往根尖方向垂直拉長成長方形、髓室底下移，使根分叉位置非常靠近根尖、牙根相對變短，這就是牛齒症（Hertwig 上皮根鞘內摺失敗所致）。\n❌ (A) 融合齒會看到兩顆牙的牙本質相連成一顆寬大的牙，且牙數減少，本片牙冠大小與數目正常。\n❌ (B) 接合齒是相鄰兩牙的牙根以牙骨質相黏，影像上牙根相接但各自有獨立髓腔，並非髓腔拉長。\n❌ (C) 雙生齒表現為牙冠加寬並有分裂凹溝，異常在牙冠而不在髓腔與根分叉的位置。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Dental Anomalies — taurodontism）。"
   },
   {
    "n": 69,
@@ -981,7 +986,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "47"
    ],
    "a": 3,
-   "fig": "img/q/114020_304_0204_69.webp"
+   "fig": "img/q/114020_304_0204_69.webp",
+   "exp": "✅ (D) 47 的牙頸部與牙根面影像連續完整、沒有凹陷狀的透射缺損，該牙只有咬合面的填補物，因此是四顆牙中唯一沒有齒頸部或根面齲齒的牙位。\n❌ (A) 44 在齒頸部釉牙骨質界附近可見碟狀凹陷的透射影，為典型根面（齒頸部）齲齒。\n❌ (B) 45 的齒頸部同樣出現界線較模糊的凹陷透射區，代表牙骨質與牙本質已脫鈣。\n❌ (C) 46 齒頸部亦有沿牙根表面擴散的淺盤狀透射影，屬根面齲齒而非僅是頸部磨耗投影。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Dental Caries — root surface／cervical caries；cervical burnout 之鑑別）。"
   },
   {
    "n": 70,
@@ -995,7 +1001,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "buccal or lingual cortical plate loss"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_70.webp"
+   "fig": "img/q/114020_304_0204_70.webp",
+   "exp": "✅ (B) 左下第一大臼齒遠心側的齒槽骨脊由鄰牙釉牙骨質界處沿牙根向根尖方向斜行下降，形成與牙根長軸呈角度的斜面（角狀骨缺損），只侷限在該牙一側，符合垂直性（角狀）骨缺損的影像定義。\n❌ (A) 水平性骨吸收是骨脊整體平行於相鄰兩牙釉牙骨質界連線下降，不會只在單一牙面出現斜行缺損。\n❌ (C) 齒間骨火山口狀缺損是頰舌側骨板間的杯狀凹陷，在二維平面片上被兩側骨板重疊掩蓋，無法如此判讀。\n❌ (D) 頰側或舌側皮質骨板破壞在根尖片上會被牙齒與另一側骨板重疊而顯示不清，需靠電腦斷層或臨床探測才能確認。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Periodontal Diseases — patterns of bone loss：vertical/angular defects）。"
   },
   {
    "n": 71,
@@ -1009,7 +1016,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "4"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_71.webp"
+   "fig": "img/q/114020_304_0204_71.webp",
+   "exp": "✅ (B) 區域 2 位於下顎後牙區下方、下顎骨體與下顎角內側（下顎下腺與其導管、口底的 Wharton's duct 走向），正是涎石最好發的部位；約八成以上的涎石發生於下顎下腺系統，因其分泌液黏稠、導管走向往上且較長，鈣鹽易沉積。\n❌ (A) 區域 1 在鼻腔與上顎竇範圍，該處的鈣化多為鼻石（rhinolith）或竇石（antrolith），不是唾液腺結石。\n❌ (C) 區域 3 位於下顎下緣以下的頸部軟組織，且鈣化影呈同心層狀的圓形小點，較符合靜脈石或鈣化淋巴結。\n❌ (D) 區域 4 位於下顎骨體下方成叢分布，典型是鈣化淋巴結的表現（外形不規則、如花椰菜狀），與涎石的好發區不同。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Soft Tissue Calcification and Ossification — sialoliths）。"
   },
   {
    "n": 72,
@@ -1037,7 +1045,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "顱顏面骨發育不全（craniofacial dysostosis）"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_73.webp"
+   "fig": "img/q/114020_304_0204_73.webp",
+   "exp": "✅ (B) 片中骨質呈瀰漫性、邊界模糊的斑塊狀不透射影與透射影交雜，像一團團棉絮（cotton-wool appearance），同時齒槽硬板消失、牙根出現牙骨質增生（hypercementosis），這是柏哲德氏病進入混合期與硬化期的典型顎骨表現。\n❌ (A) 戈林症狀群的顎骨病灶是多發性齒源性角化囊腫，影像為界線清楚、有皮質骨緣的透射病灶，不是瀰漫性棉絮狀硬化。\n❌ (C) 骨化纖維瘤是單發、界線清楚且常有透射環邊的良性腫瘤，會向外膨出推擠牙齒，不會瀰漫侵犯整個齒槽骨。\n❌ (D) 顱顏面骨發育不全（Crouzon 症候群）的異常在顱縫早閉與中臉發育不全，顎骨骨小樑結構正常，不會出現棉絮狀病變。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Systemic Diseases Manifested in the Jaws — Paget disease：cotton-wool appearance、hypercementosis）。"
   },
   {
    "n": 74,
@@ -1051,7 +1060,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "成纖維性纖維瘤（desmoplastic fibroma）"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_74.webp"
+   "fig": "img/q/114020_304_0204_74.webp",
+   "exp": "✅ (B) 病灶骨質密度均勻上升、骨小樑變細變多而呈毛玻璃（ground-glass／橘皮）樣，與周圍正常骨之間沒有明顯界線而是逐漸過渡，牙根周圍的齒槽硬板仍可見但被病灶紋理掩蓋，這是纖維發育不良的典型影像。\n❌ (A) 骨化纖維瘤同樣可呈毛玻璃樣內部，但它是界線清楚、常帶透射性包膜的單發病灶，會膨出並推移牙根，與本片的瀰漫無界線表現不同。\n❌ (C) 牙骨質－骨質發育不良病灶集中在牙根尖周圍，隨時間由透射轉為混合再轉為不透射，周圍有透射線環，牙齒仍具活性且病灶不會均勻瀰漫至整片骨。\n❌ (D) 成纖維性纖維瘤是侵襲性的良性腫瘤，影像多為界線不規則的透射病灶並常見皮質骨膨出或穿破，不會呈毛玻璃狀硬化。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Bone Diseases／Fibro-osseous lesions — fibrous dysplasia：ground-glass pattern）。"
   },
   {
    "n": 75,
@@ -1079,7 +1089,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent4'] = {
     "崔屈－寇林氏症候群（Treacher Collins syndrome）"
    ],
    "a": 1,
-   "fig": "img/q/114020_304_0204_76.webp"
+   "fig": "img/q/114020_304_0204_76.webp",
+   "exp": "✅ (B) 側顱片顯示顱縫早閉造成的尖頭／塔狀顱（前後徑變短、顱頂增高），顱蓋內板出現腦回壓迫形成的「敲銅樣」（beaten-copper）指壓痕，並合併中臉部發育不全與上顎後縮，符合亞伯氏症候群（尖頭併指症，FGFR2 基因突變，合併手足併指趾）。\n❌ (A) 皮耶－羅賓氏症候群的特徵是下顎發育不全（小下顎）、舌後墜與腭裂，顱蓋外形與顱縫皆正常。\n❌ (C) 戈林氏症候群表現為多發性角化囊腫、大腦鐮鈣化、巨頭與肋骨異常，不會有顱縫早閉造成的塔狀顱。\n❌ (D) 崔屈－寇林氏症候群屬第一、二鰓弓發育異常，特徵為顴骨與下顎骨發育不全、眼瞼外側下斜與耳朵畸形，顱蓋形態正常。\n📚 出處：White & Pharoah, Oral Radiology: Principles and Interpretation（Craniofacial Anomalies — Apert syndrome／craniosynostosis）。"
   },
   {
    "n": 77,
