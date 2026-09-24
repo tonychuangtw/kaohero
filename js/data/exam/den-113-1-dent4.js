@@ -919,7 +919,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "下顎小舌（lingula mandibulae）"
    ],
    "a": 2,
-   "fig": "img/q/113020_304_44_64.webp"
+   "fig": "img/q/113020_304_44_64.webp",
+   "exp": "✅ (C) 箭頭位於下顎最後一顆臼齒遠心、牙冠高度附近，呈由後上往前下斜行的放射線不透過帶，止於臼齒後區，這是下顎枝頰側骨板前緣延伸而來的外斜嵴，是根尖片上此區最常見的解剖影像。\n❌ (A) 下顎管是被兩條皮質骨白線夾住的放射線透過性管狀影像，位置在根尖下方接近下顎骨下緣，與圖中位於牙冠高度的不透過帶不同。\n❌ (B) 下顎舌骨嵴位在舌側，影像上較彌漫、位置比外斜嵴低（約在根中至根尖區），且常與外斜嵴同時出現而呈兩條平行線，此處箭頭所指為較上方且界線清楚的那一條。\n❌ (D) 下顎小舌是下顎孔前緣的舌狀骨突，位於下顎枝中央，根尖片的照射範圍根本照不到。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy of the mandible：external oblique ridge）。"
   },
   {
    "n": 65,
@@ -933,7 +934,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "涎石（sialolith）"
    ],
    "a": 1,
-   "fig": "img/q/113020_304_44_65.webp"
+   "fig": "img/q/113020_304_44_65.webp",
+   "exp": "✅ (B) 箭頭指在下顎骨下緣下方、呈左右對稱橫行的細長不透過影，兩端游離而中段較寬，是舌骨的大角與體部在環口片上重疊投影的典型位置與形態。\n❌ (A) 第三頸椎在環口片上位於影像正中的頸椎重疊區（脊柱陰影），呈上下堆疊的方塊狀，不會出現在下顎角下方的側邊位置。\n❌ (C) 甲狀軟骨位置比舌骨更低、常在環口片視野下緣之外，且成人多為部分鈣化而呈不規則片狀，與此細長弧形骨影不同。\n❌ (D) 涎石為單一、不對稱的圓形或卵圓形緻密影，常疊在下顎角或口底處，不會左右對稱且不呈長骨狀。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Panoramic anatomy：soft tissue and superimposed structures — hyoid bone）。"
   },
   {
    "n": 66,
@@ -961,7 +963,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "a：水平骨缺損（horizontal bone loss），b：齒間陷口（interdental crater）"
    ],
    "a": 3,
-   "fig": "img/q/113020_304_44_67.webp"
+   "fig": "img/q/113020_304_44_67.webp",
+   "exp": "✅ (D) a 圖齒槽嵴頂與牙齒鄰接面連線大致平行、整排一致地向根尖方向降低，屬水平骨缺損；b 圖齒間中隔在頰舌側皮質骨仍存而中央凹陷，形成杯狀的放射線透過區，即齒間陷口。\n❌ (A) a 圖的骨嵴頂平整下降、沒有局限於單一牙面的碟狀凹陷，不符合齒間陷口的表現。\n❌ (B) 垂直（角狀）骨缺損的缺損底部應低於相鄰骨嵴頂而與牙根形成斜角，a 圖並未出現這種局部角狀缺口。\n❌ (C) b 圖是齒間中隔中央的杯狀凹陷、頰舌側骨壁仍在，屬齒間陷口，與沿牙根面向下的角狀垂直缺損不同。\n📚 出處：Newman & Carranza, Clinical Periodontology, 13th ed.（Bone loss and patterns of bone destruction：horizontal bone loss、osseous craters）。"
   },
   {
    "n": 68,
@@ -989,7 +992,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "與 標示的變化都屬於根尖牙骨質骨發育不良（cemento-osseous dysplasia）病灶的一部分"
    ],
    "a": 0,
-   "fig": "img/q/113020_304_44_69.webp"
+   "fig": "img/q/113020_304_44_69.webp",
+   "exp": "✅ (A) ① 白色箭頭指在根尖牙周韌帶腔連續擴大而成的界線不清放射線透過區，是牙髓壞死引起的根尖肉芽腫；② 黑色箭頭指其周圍界線模糊、由正常骨小樑逐漸過渡的緻密骨反應，為慢性低度發炎刺激所致的硬化性骨炎（凝集性骨炎）。\n❌ (B) 內生贅骨是與發炎無關、界線清楚的孤立緻密骨島，不會環繞在根尖透過區外圍，也不會與病灶呈連續的移行帶。\n❌ (C) 早期根尖牙骨質骨發育不良雖也呈根尖透過影，但牙髓活性正常、好發於下顎前牙且多發，與此處單顆臼齒且伴發炎性硬化反應的表現不合。\n❌ (D) 牙骨質骨發育不良的成熟期是病灶內部出現不透過鈣化物並被透過性邊緣包圍，與此圖「中央透過、外圍瀰漫硬化」的發炎模式相反。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 5th ed.（Pulpal and periapical disease：periapical granuloma 與 condensing/sclerosing osteitis）。"
   },
   {
    "n": 70,
@@ -1017,7 +1021,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "sialoliths"
    ],
    "a": 2,
-   "fig": "img/q/113020_304_44_71.webp"
+   "fig": "img/q/113020_304_44_71.webp",
+   "exp": "✅ (C) 箭頭所指為下顎枝後方軟組織內多顆、大小相近的圓形鈣化影，部分可見同心層狀且中央較透亮的「靶心」外觀，是靜脈或血管畸形內血栓鈣化形成的靜脈石。\n❌ (A) 動脈粥狀硬化斑塊的鈣化位於頸動脈分叉處，即舌骨大角附近、下顎角後下方較低的位置，呈垂直排列的不規則條片狀，不會是多顆帶同心環的小圓球。\n❌ (B) 鈣化淋巴結多沿下顎下緣或頸鏈分布，呈不規則的花椰菜狀緻密影，內部沒有中央透亮的層狀結構。\n❌ (D) 涎石應位在腺體或導管走向上（下顎下腺多疊於下顎角下方、腮腺石在咬肌區），通常單一且密度均勻，不會成串分布於咀嚼肌間隙軟組織中。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Soft tissue calcifications：phleboliths 與其鑑別診斷）。"
   },
   {
    "n": 72,
@@ -1031,7 +1036,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "oblique lateral projection"
    ],
    "a": 2,
-   "fig": "img/q/113020_304_44_72.webp"
+   "fig": "img/q/113020_304_44_72.webp",
+   "exp": "✅ (C) 影像為正面觀，但額骨與顱底往上退開、下顎枝與髁狀突被拉到眼眶下方而清楚顯現，下顎體呈 U 形完整攤開，這是病人張口、中心射線由前往後上傾斜 25～30 度投射的反向 Towne 攝影，主要用於看髁狀突頸部骨折。\n❌ (A) 後前位頭顱攝影的髁狀突會被顳骨岩部與乳突重疊遮住，且看的是整個顱面對稱性，不會把髁狀突單獨突顯出來。\n❌ (B) Waters 攝影是仰頭 37 度取像，以顯示上頜竇與眼眶為主，岩骨會被壓到上頜竇下方，影像重心在中臉部而非下顎枝。\n❌ (D) 斜側位攝影是側面取像，只呈現單側下顎體或下顎枝，不會像本圖左右兩側對稱同時成像。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Extraoral radiographic examinations：reverse Towne projection）。"
   },
   {
    "n": 73,
@@ -1058,7 +1064,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "骨性纖維發育不良（fibrous dysplasia of bone）"
    ],
    "a": 1,
-   "fig": "img/q/113020_304_44_74.webp"
+   "fig": "img/q/113020_304_44_74.webp",
+   "exp": "✅ (B) 側顱影像可見顱蓋骨與顱底呈均勻且異常緻密的放射線不透過，板障間隙消失、骨髓腔被緻密骨取代，這是蝕骨細胞功能缺陷、骨質無法正常吸收重塑的骨質石化病（大理石骨病）典型表現。\n❌ (A) 鎖骨顱骨發育不全的顱骨相反地是骨化不足：囟門與縫線持續開放、縫間骨多、顱骨偏薄，且伴多顆阻生的贅生齒。\n❌ (C) 畸形性骨炎（Paget's disease）好發於老年人，顱骨呈「棉絮狀」的混合溶骨與造骨病灶且顱板增厚不均，不是本圖這種全面一致的緻密化。\n❌ (D) 骨性纖維發育不良多為單側局限病灶，呈毛玻璃樣且與正常骨界線不清並造成骨膨大，不會整個顱骨對稱地一致緻密。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 5th ed.（Bone pathology：osteopetrosis）。"
   },
   {
    "n": 75,
@@ -1086,7 +1093,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent4'] = {
     "造釉細胞瘤（ameloblastoma）"
    ],
    "a": 2,
-   "fig": "img/q/113020_304_44_76.webp"
+   "fig": "img/q/113020_304_44_76.webp",
+   "exp": "✅ (C) 環口影像中兩側髁狀突都跑到關節結節前上方、離開關節窩而使關節窩呈空虛狀，同時下顎被撐開、咬合無法閉合，是雙側顳顎關節（前方）脫位的典型影像。\n❌ (A) 纖維性發育不良會使患部骨質膨大並呈毛玻璃樣紋理、與正常骨界線不清，本片骨質紋理正常，異常在髁狀突位置而非骨質本身。\n❌ (B) 囊腫應表現為界線清楚並有皮質骨緣包繞的放射線透過區，本片並未見到這種局限性透亮病灶。\n❌ (D) 造釉細胞瘤多為下顎後牙區的多房「肥皂泡」狀透過影併骨膨大與牙根吸收，與本片所見不符。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Temporomandibular joint abnormalities：condylar dislocation）。"
   },
   {
    "n": 77,
