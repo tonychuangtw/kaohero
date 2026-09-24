@@ -27,7 +27,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent2'] = {
     "齒外齒（dens evaginatus）"
    ],
    "a": 3,
-   "fig": "img/q/114020_303_0202_1.webp"
+   "fig": "img/q/114020_303_0202_1.webp",
+   "exp": "✅ (D) 圖中箭頭指向下顎小臼齒咬合面「中央窩／中央溝」處一顆突起的小結節（已被磨耗成環狀），位置在頰舌側咬頭之間的正中央，這是齒外齒（dens evaginatus）典型的中央結節（central tubercle），為牙釉質與牙本質向外增生形成的多餘咬頭，內常含牙髓角，磨耗或折斷後易造成牙髓感染、根尖病變，好發於下顎小臼齒且亞洲人比例高。\n❌ (A) 卡拉貝利咬頭長在「上顎第一大臼齒」的近心舌側咬頭之舌側面，不會出現在下顎小臼齒的咬合面正中央。\n❌ (B) 爪形咬頭是前牙（尤其上顎側門齒）舌側面的爪狀突起，發生位置與牙位都不符。\n❌ (C) 齒中齒是牙釉質向牙冠「內陷」形成的構造，在 X 光上才看得到牙中有牙的影像，臨床上表現為舌側窩深凹，不是像圖中這樣向外隆起的結節。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Abnormalities of Teeth；dens evaginatus／central tubercle of premolar）。"
   },
   {
    "n": 2,
