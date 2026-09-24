@@ -895,7 +895,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt6'] = {
     "皮炎芽生黴菌（Blastomyces dermatitidis）"
    ],
    "a": 1,
-   "fig": "img/q/103020_311_44_63.webp"
+   "fig": "img/q/103020_311_44_63.webp",
+   "exp": "✅ (B) 圖中為一個壁厚的大型酵母母細胞（15～30 μm），周圍同時長出多個以細窄基部相連的子芽，整體像船舵（mariner's wheel／pilot's wheel），這是巴西副球黴菌（Paracoccidioides brasiliensis）在組織內或 37°C 培養時的典型酵母相，為南美芽生黴菌病（paracoccidioidomycosis）的致病菌，屬雙相性黴菌。\n❌ (A) 粗球孢子菌在組織中形成的是厚壁球體（spherule，20～60 μm），內含大量內生孢子（endospores），破裂後釋出，完全不行出芽生殖，無舵輪外觀。\n❌ (C) 莢膜組織漿菌的酵母型很小（2～4 μm），常見於巨噬細胞內成群聚集，出芽單一且基部窄，體積遠小於本題所述。\n❌ (D) 皮炎芽生黴菌酵母型雖也壁厚大型（8～15 μm），但特徵是「單一、寬基部（broad-based）」出芽，與本題「多個、窄基部」正好相反。\n📚 出處：臨床微生物學「雙相性全身性黴菌：Paracoccidioides brasiliensis 之舵輪狀多芽酵母型」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Dimorphic Fungi（Systemic Mycoses）。"
   },
   {
    "n": 64,
@@ -965,7 +966,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt6'] = {
     "Trichophyton mentagrophytes"
    ],
    "a": 1,
-   "fig": "img/q/103020_311_44_68.webp"
+   "fig": "img/q/103020_311_44_68.webp",
+   "exp": "✅ (B) 圖中可見多個大型、壁厚且表面粗糙（echinulate）的紡錘狀多細胞大分生孢子，末端呈略彎的鉤狀突起，內有 6 個以上隔膜，是 Microsporum canis 的典型形態；小分生孢子少見而不明顯。M. canis 主要由貓狗傳染給人，引起頭癬與體癬。\n❌ (A) Epidermophyton floccosum 的大分生孢子壁薄光滑、棍棒狀（club-shaped）且常成簇排列，隔膜僅 2～4 個，且完全不產生小分生孢子，與圖中粗糙紡錘狀者不同。\n❌ (C) Trichophyton rubrum 以大量淚滴狀小分生孢子沿菌絲側生為主，大分生孢子稀少且為壁薄光滑的鉛筆狀，無粗糙厚壁紡錘外觀。\n❌ (D) Trichophyton mentagrophytes 以成串葡萄狀的球形小分生孢子與螺旋菌絲（spiral hyphae）為特徵，大分生孢子亦為壁薄光滑的雪茄狀，數量少。\n📚 出處：臨床微生物學「皮癬菌（Dermatophytes）之大分生孢子鑑別：Microsporum／Trichophyton／Epidermophyton」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Superficial Cutaneous Mycoses。"
   },
   {
    "n": 69,
