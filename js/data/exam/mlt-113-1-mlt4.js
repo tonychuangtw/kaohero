@@ -573,7 +573,8 @@ window.APP_EXAM_PAPERS['mlt-113-1-mlt4'] = {
     "組織蛋白（histone）與DNA複合物"
    ],
    "a": 2,
-   "fig": "img/q/113020_308_66_40.webp"
+   "fig": "img/q/113020_308_66_40.webp",
+   "exp": "✅ (C) 說明：圖中 HEp-2 細胞核內可見數個明亮、邊界清楚的圓形螢光團塊（箭號所指），核質其餘部分僅呈淡染，這是典型的「核仁型（nucleolar pattern）」。核仁型 ANA 的對應抗原是核仁內的成分，多為與核仁特異性 RNA 結合的核糖核蛋白複合物，如 RNA polymerase I、fibrillarin（U3-snoRNP）、PM-Scl、Th/To 等，常見於全身性硬皮症（systemic sclerosis）及其重疊症候群。\n❌ (A) 抗 dsDNA 抗體在 HEp-2 上呈均質型（homogeneous）或周邊／核膜型，整個細胞核均勻染色、分裂期細胞的染色體板塊亦強陽性，不會只亮出幾顆核仁。\n❌ (B) 抗 RNP 抗體呈粗顆粒型（coarse speckled），螢光散佈於整個核質、核仁反而是暗的（negative nucleoli），與圖中核仁明亮、核質暗的情形恰好相反。\n❌ (D) 抗組織蛋白與 DNA 複合物（nucleosome）抗體呈均質型，核質整體均勻著色並使中期染色體強陽性，是藥物誘發性紅斑性狼瘡的典型型態，非核仁型。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods 自體免疫疾病與抗核抗體章節—間接螢光抗體法 HEp-2 染色型態（homogeneous／speckled／nucleolar／centromere）與對應抗原之判讀。"
   },
   {
    "n": 41,
