@@ -27,7 +27,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "Cementoblastoma and ankylosis"
    ],
    "a": 1,
-   "fig": "img/q/102020_301_22_1.webp"
+   "fig": "img/q/102020_301_22_1.webp",
+   "exp": "✅ (B) X 光片中阻生犬齒的咬合側可見一團由多顆小牙齒狀（denticle）構成、各自有琺瑯質與牙本質分層的緻密阻射物，是複合性齒瘤（compound odontoma）的典型影像；它擋住犬齒萌發路徑，同時鄰牙牙根呈明顯彎折，即牙根彎曲（dilaceration）。\n❌ (A) 複雜性齒瘤（complex odontoma）是一整團無牙齒形態的無序硬組織塊，好發於後牙區；片中可清楚數出數顆小牙形結構，不符。另片中牙根末端無牙骨質增厚膨大，無牙骨質增生（hypercementosis）。\n❌ (C) 牙骨質母細胞瘤（cementoblastoma）是與牙根融合成一體、周圍有透射暈的圓形阻射塊，且多見於下顎第一大臼齒；片中病變與牙根分離且呈多顆小牙狀，不符。\n❌ (D) 除了牙骨質母細胞瘤不成立，齒骨黏連（ankylosis）在 X 光上表現為牙周韌帶間隙消失、牙根與齒槽骨相連，片中可見完整的牙周韌帶間隙。\n📚 出處：Neville, Oral and Maxillofacial Pathology，齒源性腫瘤（odontoma）與牙齒發育異常（dilaceration）章節"
   },
   {
    "n": 2,
@@ -153,7 +154,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "無法判斷"
    ],
    "a": 0,
-   "fig": "img/q/102020_301_22_10.webp"
+   "fig": "img/q/102020_301_22_10.webp",
+   "exp": "✅ (A) 圖中腫瘤細胞排列成清楚的上皮巢，巢中央有同心圓層狀的角化珠（keratin pearl）與明顯的細胞間橋，細胞形態仍近似正常鱗狀上皮、異型性與有絲分裂少，屬分化良好（well-differentiated）的鱗狀細胞癌。\n❌ (B) 中度分化者角化珠少而不完整、細胞多形性與有絲分裂增加；本圖角化珠數量多且成熟完整，超過中度分化的程度。\n❌ (C) 分化不良者幾乎不見角化與細胞間橋，細胞核深染、多形性明顯、有絲分裂（含異常分裂）多，常需免疫染色協助判定，與本圖不符。\n❌ (D) 角化珠與細胞間橋是判讀分化程度最直接的形態依據，圖中已足夠清楚，並非無法判斷。\n📚 出處：Neville, Oral and Maxillofacial Pathology，口腔鱗狀細胞癌的組織分級（Broders grading）章節"
   },
   {
    "n": 11,
@@ -349,7 +351,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "外傷性骨囊腫（traumatic bone cyst）"
    ],
    "a": 1,
-   "fig": "img/q/102020_301_22_24.webp"
+   "fig": "img/q/102020_301_22_24.webp",
+   "exp": "✅ (B) 針筒內抽出的是黏稠不流動、乳黃白色如乳酪或凝脂狀的物質，即角化囊腫內堆積的角質碎屑（keratin debris），這是齒源性角化囊腫抽吸的典型表現；此類抽吸液蛋白質含量低（多 < 4 g/dL），可與其他囊腫鑑別。\n❌ (A) 造釉細胞瘤是實質性或多囊性腫瘤，抽吸多抽不到內容物，或僅得少量血樣液體，不會抽出乳酪狀角質。\n❌ (C) 骨內巨細胞肉芽腫是實質性血管豐富的病灶，抽吸只會抽到血液。\n❌ (D) 外傷性（單純性）骨囊腫是空腔，抽吸常為空氣或少量淡黃色漿液，不會有黏稠角質物。\n📚 出處：Neville, Oral and Maxillofacial Pathology，齒源性角化囊腫（odontogenic keratocyst）章節"
   },
   {
    "n": 25,
@@ -587,7 +590,8 @@ window.APP_EXAM_PAPERS['den-102-1-dent2'] = {
     "起始劑－加速劑（initiator-accelerator）"
    ],
    "a": 2,
-   "fig": "img/q/102020_301_22_41.webp"
+   "fig": "img/q/102020_301_22_41.webp",
+   "exp": "✅ (C) 圖示為 3-methacryloxypropyltrimethoxysilane（γ-MPS，矽烷）。分子一端的三個甲氧基矽（Si-OCH₃）水解成矽醇後可與填料表面（矽土）的羥基縮合鍵結，另一端的甲基丙烯酸酯 C=C 雙鍵能與樹脂基質共聚，正是連接無機填料與有機基質的偶合劑（coupling agent），可提高強度並防止水沿界面滲入。\n❌ (A) 複合樹脂的基質是 Bis-GMA、UDMA、TEGDMA 等雙甲基丙烯酸酯單體，分子中不含矽原子。\n❌ (B) 填料是石英、矽土、鋇玻璃等無機顆粒，並非有機矽烷分子。\n❌ (D) 光聚合的起始劑為樟腦醌（camphorquinone），加速劑為三級胺；化學聚合則用過氧化苯甲醯與三級胺，結構與本圖無關。\n📚 出處：Anusavice, Phillips' Science of Dental Materials，複合樹脂的組成（silane coupling agent）章節"
   },
   {
    "n": 42,
