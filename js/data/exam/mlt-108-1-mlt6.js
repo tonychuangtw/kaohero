@@ -324,7 +324,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt6'] = {
     "Streptococcus pyogenes"
    ],
    "a": 2,
-   "fig": "img/q/108030_308_44_22.webp"
+   "fig": "img/q/108030_308_44_22.webp",
+   "exp": "✅ (C) 說明：圖中血液瓊脂上為細小、扁平、濕潤的灰白色菌落，培養約 72 小時後箭頭所指菌落中央明顯凹陷成臍狀（umbilicate，俗稱棋子狀 draughtsman colony），這是肺炎鏈球菌自體溶解酵素（autolysin, LytA）在久置後溶解菌體中央所致，為 Streptococcus pneumoniae 的典型菌落特徵；其周圍另呈 α 溶血（草綠色溶血）。\n❌ (A) Staphylococcus aureus 菌落大而隆起、不透明，常帶金黃色並呈完全（β）溶血，不會出現中央凹陷的臍狀變化。\n❌ (B) Streptococcus agalactiae（B 群鏈球菌）菌落較大、灰白偏乳狀，周圍為狹窄的 β 溶血環（CAMP 試驗陽性），久置也不會自溶凹陷。\n❌ (D) Streptococcus pyogenes（A 群鏈球菌）菌落小而乾、周圍有寬大清晰的 β 溶血環，菌落維持凸起不凹陷。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology「Streptococcus pneumoniae 菌落型態與自體溶解（draughtsman colony）」；臨床微生物學「鏈球菌屬鑑定」章節。"
   },
   {
    "n": 23,
@@ -492,7 +493,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt6'] = {
     "奇異變形桿菌（Proteus mirabilis）"
    ],
    "a": 0,
-   "fig": "img/q/108030_308_44_34.webp"
+   "fig": "img/q/108030_308_44_34.webp",
+   "exp": "✅ (A) 說明：XLD（Xylose-Lysine-Deoxycholate）培養基中含木糖、離胺酸、乳糖、蔗糖與硫代硫酸鈉／檸檬酸鐵銨。Salmonella 先分解木糖產酸，再經離胺酸脫羧酶（LDC）產生胺類使 pH 回鹼，菌落回復紅色，同時由硫代硫酸鈉還原產生 H₂S 與鐵離子結合成黑色 FeS，故在紅色培養基上呈現圖中「中心黑色、甚至整顆呈黑色」的菌落，符合傷寒沙門氏桿菌。\n❌ (B) Serratia marcescens 可分解木糖、乳糖及蔗糖而大量產酸，菌落與周圍培養基轉為黃色，且不產生 H₂S，不會變黑。\n❌ (C) Shigella sonnei 不分解木糖、不具離胺酸脫羧酶亦不產生 H₂S，菌落為無色至透明紅色，中心不帶黑點。\n❌ (D) Proteus mirabilis 雖能產生 H₂S，但會分解木糖產酸使菌落偏黃且黑色較淡、菌落常呈小而分散，與圖中典型沙門氏菌型態不符（鑑別仍需 urease 與 swarming 特性）。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology「XLD agar 選擇性鑑別培養基與腸道菌菌落判讀」；臨床微生物學「Salmonella 與 Shigella 之培養鑑定」章節。"
   },
   {
    "n": 35,
