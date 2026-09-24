@@ -55,7 +55,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "標示④處"
    ],
    "a": 3,
-   "fig": "img/q/115090_303_0301_3.webp"
+   "fig": "img/q/115090_303_0301_3.webp",
+   "exp": "✅ (D) ④位於蝶骨大翼後外側、翼突外側板根部外方，是卵圓孔（foramen ovale）。三叉神經第三支下頜神經（V3）由此進出顱中窩，下顎牙齒、牙齦、下唇、頦部與舌前三分之一的痛覺（經下齒槽神經、頦神經、舌神經匯入）都是循此孔傳入顱內，再到三叉神經節與腦幹。\n❌ (A) ①在蝶骨體上方、近中線兩側，是視神經管（optic canal），通過的是視神經與眼動脈，只管視覺，與痛覺傳導無關。\n❌ (B) ②是小翼與大翼之間的長裂隙——眶上裂（superior orbital fissure），通過動眼、滑車、外旋神經、眼神經（V1）及眼上靜脈，負責的是眼眶與前額區，不含下顎。\n❌ (C) ③是圓孔（foramen rotundum），通往翼腭窩，讓上頜神經（V2）通過；它負責上顎牙齒、上唇與中臉部的感覺，位置雖與④同屬三叉神經路徑，但不是下顎區的通道。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8 Head（蝶骨孔裂與三叉神經三大分支的出顱路徑）；Gray's Anatomy for Students, 4th ed.（Sphenoid bone、Trigeminal nerve）。"
   },
   {
    "n": 4,
@@ -419,7 +420,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "labioincisal angle"
    ],
    "a": 2,
-   "fig": "img/q/115090_303_0301_29.webp"
+   "fig": "img/q/115090_303_0301_29.webp",
+   "exp": "✅ (C) 圖中方位盤標示左前為 labial、右前為 distal，因此圖面正中央那條垂直稜線是唇面與遠心面相交處，兩個面相交成一條線稱為線角（line angle），故 C 為 distolabial line angle（遠唇線角）。\n❌ (A) mesiolabial point angle 名稱本身就不成立：兩個面相交只會形成線角，要三個面相交才叫點角（point angle）；圖中最左側的 A 是近心面與唇面的交線，應稱 mesiolabial line angle。\n❌ (B) distolingual line angle 是遠心面與舌面的交線，位在圖中最右側的 B 處，不是中央的 C。\n❌ (D) labioincisal angle 是唇面與切端相交形成的水平稜線，位於牙冠切緣附近；C 標示的是沿牙冠長軸走向的垂直稜線，方向與位置都不符。\n📚 出處：Wheeler's Dental Anatomy, Physiology and Occlusion, 11th ed., Ch.1 Introduction to Dental Anatomy（牙面命名、線角與點角 line angles and point angles）。"
   },
   {
    "n": 30,
@@ -923,7 +925,8 @@ window.APP_EXAM_PAPERS['den-115-2-dent1'] = {
     "軟腭小唾液腺"
    ],
    "a": 0,
-   "fig": "img/q/115090_303_0301_65.webp"
+   "fig": "img/q/115090_303_0301_65.webp",
+   "exp": "✅ (A) 圖中腺泡緊密排列，細胞呈錐形、胞質充滿嗜鹼性顆粒（酶原顆粒）而呈深紫色，細胞核圓且位於基底部，管腔極小，全部都是漿液細胞（serous cells），看不到胞質空亮的黏液細胞或漿液半月。分泌單位全由漿液細胞組成的大唾液腺只有腮腺（純漿液腺）。\n❌ (B) 顎下腺是以漿液為主的混合腺，切片中除漿液腺泡外必可見黏液腺泡及覆在其上的漿液半月（serous demilune），圖中完全沒有這些構造。\n❌ (C) 舌下腺是以黏液為主的混合腺，多數分泌單位為胞質淡染近乎透明、細胞核被擠向基底而扁平的黏液細胞，與圖中深染的顆粒狀細胞相反。\n❌ (D) 軟腭的小唾液腺屬純黏液腺，分泌單位全由黏液細胞構成，染色淺而呈泡沫狀，也與圖中的嗜鹼性漿液腺泡不符。\n📚 出處：Ten Cate's Oral Histology, 9th ed., 唾液腺章（Salivary glands：serous／mucous end pieces 與 serous demilune 的判讀）；Nanci, Oral Histology（Parotid、Submandibular、Sublingual gland 組織學比較）。"
   },
   {
    "n": 66,
