@@ -1023,7 +1023,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt2'] = {
     "箭頭所指為Barr body，最可能診斷MYH9 related disease"
    ],
    "a": 0,
-   "fig": "img/q/109020_308_22_72.webp"
+   "fig": "img/q/109020_308_22_72.webp",
+   "exp": "✅ (A) 圖中箭頭指向中性球細胞質邊緣一塊淡藍灰色、無顆粒的橢圓形包涵體，即 Döhle body（實為殘留的粗糙內質網／MYH9 蛋白聚集）；配合血小板僅 5,000/μL、MPV 20 fL（巨大血小板，圖左下亦可見一顆比紅血球還大的血小板），三聯徵「巨大血小板＋血小板低下＋顆粒球內 Döhle-like body」正是 MYH9 related disease（May-Hegglin anomaly 等）的典型表現。\n❌ (B) Auer rod 是紅紫色針狀／棒狀的癒合顆粒，位於芽細胞（myeloblast）內，圖中該細胞為分葉成熟的中性球且包涵體呈淡藍色非嗜天青紅色，也不符合 AML。\n❌ (C) Toxic granule 是散布於細胞質、粗大且深紫黑色的嗜天青顆粒，呈多顆粒狀而非單一淡藍色塊狀；且細菌感染不會造成 MPV 20 fL 的巨大血小板。\n❌ (D) Barr body 是女性細胞核上的小鼓槌狀附屬物（drumstick），位在核葉外緣屬於核的一部分，箭頭所指明顯在細胞質內，非核附屬構造。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods 白血球形態與包涵體章節；MYH9 related disease（May-Hegglin anomaly）巨大血小板與 Döhle-like body 三聯徵。"
   },
   {
    "n": 73,
@@ -1037,7 +1038,8 @@ window.APP_EXAM_PAPERS['mlt-109-1-mlt2'] = {
     "Thrombocytopenia due to severe sepsis"
    ],
    "a": 0,
-   "fig": "img/q/109020_308_22_73.webp"
+   "fig": "img/q/109020_308_22_73.webp",
+   "exp": "✅ (A) 圖中可見多量盔形與三角形的破碎紅血球（schistocyte）、多染性紅血球且血小板明顯稀少，屬微血管病性溶血性貧血；配合發燒、腎功能異常、紫斑（血小板低下）與 PT／APTT 正常，加上血中測得 ultra-large VWF multimer（代表 ADAMTS13 活性缺乏、無法切斷內皮釋出的超大型 VWF），符合 TTP 的五聯徵與致病機轉。\n❌ (B) ITP 是自體抗體破壞血小板，只有單純血小板低下，不會出現破碎紅血球、發燒與腎功能異常，也無 ultra-large VWF。\n❌ (C) 後天型 von Willebrand disease 是 VWF 被消耗或降解而缺乏大型 multimer，表現為出血傾向且常見 APTT 延長，與本題「血中存在 ultra-large VWF」方向相反。\n❌ (D) 嚴重敗血症合併 DIC 時凝血因子被消耗，PT 與 APTT 多會延長、D-dimer 上升，與本題兩項皆正常不符，且敗血症不會累積 ultra-large VWF。\n📚 出處：Rodak's Hematology 血栓性微血管病變章節；TTP 之 ADAMTS13 缺乏與 ultra-large VWF multimer 機轉、schistocyte 形態判讀。"
   },
   {
    "n": 74,
