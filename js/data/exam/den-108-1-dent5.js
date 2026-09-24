@@ -853,7 +853,8 @@ window.APP_EXAM_PAPERS['den-108-1-dent5'] = {
     "⼀體型印模（one-piece impression）"
    ],
    "a": 1,
-   "fig": "img/q/108030_304_55_60.webp"
+   "fig": "img/q/108030_304_55_60.webp",
+   "exp": "✅ (B) 圖中印模柱（impression coping）本體呈方形並帶有溝槽、倒凹等固位形態，中央的導引螺絲明顯加長並向咬合面方向突出口內。這種加長螺絲必須穿出印模托盤上開的孔洞，取模前先從托盤外鬆開螺絲，印模柱便留在印模材內一起被「提取」出來，正是開放式托盤的提取印模（pickup／open tray impression）所用的套件。\n❌ (A) 轉移印模的印模柱外形圓錐光滑、螺絲不突出，取模時印模柱留在口內植體上，事後再把它轉移插入印模中，與圖中加長螺絲的設計不符。\n❌ (C) 閉合牙托印模即上述轉移印模所用的方式，托盤不開孔，因此不可能使用會頂到托盤的加長螺絲。\n❌ (D) 一體型印模並非植體印模的標準分類；植體印模依托盤是否開孔分為開放式（提取）與閉合式（轉移）兩類。\n📚 出處：Misch, Contemporary Implant Dentistry，植體印模術式（open tray pickup 與 closed tray transfer impression coping）章節"
   },
   {
    "n": 61,
