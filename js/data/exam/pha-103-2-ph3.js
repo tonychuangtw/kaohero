@@ -1009,7 +1009,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "若欲給予速放劑量其劑量為100 mg"
    ],
    "a": 3,
-   "fig": "img/q/103090_312_33_71.webp"
+   "fig": "img/q/103090_312_33_71.webp",
+   "exp": "✅ (D) 半對數圖上濃度由 5 µg/mL（t=0）降到 0.1 µg/mL 約需 45 小時，跨 1.7 個對數週期，故 t1/2 ≈ 45×0.301/1.699 ≈ 8 小時，與給藥間隔 τ=8 小時相同。速放（負荷）劑量 DL＝D/(1−e^(−kτ))＝50/(1−0.5)＝100 mg，即維持劑量的 2 倍。\n❌ (A) 由圖讀出的排除半衰期約 8 小時而非 6 小時（6 小時時濃度尚未降到 2.5 µg/mL）。\n❌ (B) 一室模式下藥品的累積半衰期（趨近穩定狀態的速率）由同一個排除速率常數 k 決定，兩者相等，不會比較大。\n❌ (C) τ＝t1/2 時第 n 次給藥達穩定狀態的分率為 1−(1/2)^n，第四次為 93.75%，要達 95% 約需 4.3 個半衰期（第五次給藥）。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Multiple-Dosage Regimens（重複給藥之累積與負荷劑量）"
   },
   {
    "n": 72,
@@ -1051,7 +1052,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "drug-B的分布體積（volume of distribution）可能很大"
    ],
    "a": 0,
-   "fig": "img/q/103090_312_33_74.webp"
+   "fig": "img/q/103090_312_33_74.webp",
+   "exp": "✅ (A) drug-A 在 CYP2C9 poor metabolizer（實線，t1/2 約 16 小時）與 extensive metabolizer（虛線，t1/2 約 4 小時）間差異極大，代表其肝清除率幾乎完全由內在清除率（intrinsic clearance）決定，酵素活性一變清除率就跟著變——這正是 low extraction ratio（capacity-limited）藥物的特徵。\n❌ (B) drug-B 兩族群的斜率幾乎重疊、半衰期都約 0.9 小時，清除率不隨酵素活性改變，屬肝血流限制的 high extraction ratio 藥物。\n❌ (C) 圖上只有濃度對時間的斜率，未提供劑量，無法由 Vd＝Dose/C0 推算分布體積；drug-A 半衰期長可以只是清除率低所致。\n❌ (D) 同理，drug-B 半衰期短反而不支持分布體積很大，且本圖一樣無劑量資訊可推算 Vd。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Hepatic Clearance and Extraction Ratio（肝抽取率與基因多型性之影響）"
   },
   {
    "n": 75,
@@ -1093,7 +1095,8 @@ window.APP_EXAM_PAPERS['pha-103-2-ph3'] = {
     "2.0 L/h"
    ],
    "a": 3,
-   "fig": "img/q/103090_312_33_77.webp"
+   "fig": "img/q/103090_312_33_77.webp",
+   "exp": "✅ (D) 穩定狀態時 R＝Vmax·Css/(KM+Css)，取倒數整理得 Css/R＝KM/Vmax＋Css/Vmax，故此直線的 y 截距即 KM/Vmax、斜率即 1/Vmax。圖中 y 截距為 0.5 h/L，因此 Vmax/KM＝1/0.5＝2.0 L/h。（另可驗算：x 截距 −20 → KM＝20 mg/L；斜率 (2.5−0.5)/80＝0.025 → Vmax＝40 mg/h，40/20＝2.0 L/h。）\n❌ (A) 0.5 L/h 是直接把 y 截距 0.5 當成答案，該值是 KM/Vmax 而非其倒數。\n❌ (B) 1.0 L/h 無對應的圖上讀值，與截距、斜率推得的 40 mg/h 與 20 mg/L 不符。\n❌ (C) 1.5 L/h 取自曲線中段某點的 Css/R 值，單點座標不能代表 Vmax/KM。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Nonlinear Pharmacokinetics（Michaelis-Menten 之線性化作圖）"
   },
   {
    "n": 78,
