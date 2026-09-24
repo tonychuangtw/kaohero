@@ -51240,7 +51240,7 @@ window.APP_EXAMS = [
   "subjName": "貨幣銀行學大意",
   "label": "105 年　初等考試　貨幣銀行學大意",
   "n": 50,
-  "exp": 49,
+  "exp": 50,
   "mins": 60
  },
  {
