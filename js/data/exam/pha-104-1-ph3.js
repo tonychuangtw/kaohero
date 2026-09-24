@@ -741,7 +741,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph3'] = {
     "本藥主要由肝臟代謝"
    ],
    "a": 0,
-   "fig": "img/q/104020_312_33_52.webp"
+   "fig": "img/q/104020_312_33_52.webp",
+   "exp": "✅ (A) 圖中濃度在 t＝0 即為最高值，之後單調下降，完全沒有吸收造成的上升相與峰值（Tmax），這是靜脈快速注射（IV bolus）的典型特徵；口服或肌肉注射一定會先有一段濃度上升。\n❌ (B) 這是「線性」座標圖，一室模式的判定要把數據畫成半對數圖（log C 對 t），看是否呈單一直線才能確立，光看線性圖的衰減曲線無法斷定。\n❌ (C) 同理，線性座標下指數衰減本來就長成這種先陡後緩的曲線，不能據此說是多室；多室的證據是半對數圖出現分布相與排除相兩段不同斜率。\n❌ (D) 圖只提供濃度對時間的變化，沒有任何代謝物、膽汁或尿中排泄的資料，無從判斷主要排除途徑是肝代謝還是腎排泄。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Intravenous Bolus Administration（血中濃度-時間曲線的判讀）"
   },
   {
    "n": 53,
@@ -783,7 +784,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph3'] = {
     "給藥後給藥後12小時的濃度為1 µg/mL"
    ],
    "a": 2,
-   "fig": "img/q/104020_312_33_55.webp"
+   "fig": "img/q/104020_312_33_55.webp",
+   "exp": "✅ (C) 半對數圖上讀取：t＝0 時 C0≒5 µg/mL，t≒45 h 時降為 0.1 µg/mL。k＝ln(5/0.1)/45＝3.91/45≒0.087 h⁻¹，t½＝0.693/0.087≒8 小時。也可直接看：5 → 2.5 → 1.25 ≒ 16 小時走兩個半衰期，同樣得 8 小時。\n❌ (A) 半對數圖呈「單一直線」正是一室模式的表現；多室模式會先有一段較陡的分布相、再折向較緩的排除相，出現明顯轉折點。\n❌ (B) 擬似分布體積 Vd＝Dose/C0＝50 mg ÷ 5 µg/mL＝50,000 µg ÷ 5 µg/mL＝10,000 mL＝10 L，不是 5 L。\n❌ (D) t½＝8 h，12 小時為 1.5 個半衰期，C＝5/2^1.5≒1.8 µg/mL；要降到 1 µg/mL 約需 18～19 小時。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—One-Compartment Model IV Bolus（半對數作圖求 k、t½ 與 Vd）"
   },
   {
    "n": 56,
@@ -1053,7 +1055,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph3'] = {
     "2.0 L/h"
    ],
    "a": 3,
-   "fig": "img/q/104020_312_33_74.webp"
+   "fig": "img/q/104020_312_33_74.webp",
+   "exp": "✅ (D) 穩定狀態下 R＝Vmax·Css/(KM＋Css)，兩邊整理可得直線式 Css＝Vmax·(Css/R) − KM。故此圖以 Css 對 Css/R 作圖時，斜率＝Vmax、y 軸截距＝−KM。圖中截距為 −20 → KM＝20 mg/L；由 (0, −20) 到 (2.5, 80) 斜率＝100/2.5＝40 → Vmax＝40 mg/hr。Vmax/KM＝40/20＝2.0 L/h。\n❌ (A) 0.5 L/h 是把比值算反（KM/Vmax＝20/40＝0.5），單位應為 h/L，與題目要的 Vmax/KM 相反。\n❌ (B) 1.0 L/h 是誤把斜率與截距讀成相同數值（例如兩者皆取 20 或皆取 40）所得。\n❌ (C) 1.5 L/h 在圖上找不到對應的斜率與截距組合，屬座標讀取錯誤。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Nonlinear Pharmacokinetics（Michaelis-Menten 參數的直線化作圖求 Vmax 與 KM）"
   },
   {
    "n": 75,
@@ -1095,7 +1098,8 @@ window.APP_EXAM_PAPERS['pha-104-1-ph3'] = {
     "80"
    ],
    "a": 2,
-   "fig": "img/q/104020_312_33_77.webp"
+   "fig": "img/q/104020_312_33_77.webp",
+   "exp": "✅ (C) 由圖先求參數：直線式 Css＝Vmax·(Css/R) − KM，截距 −20 → KM＝20 mg/L，斜率 (80−(−20))/2.5＝40 → Vmax＝40 mg/hr。代入 R＝Vmax·Css/(KM＋Css) 解 Css：Css＝KM·R/(Vmax−R)＝20×30/(40−30)＝600/10＝60 mg/L。驗算：Css/R＝60/30＝2.0，圖上 x＝2 確實對應 y＝60。\n❌ (A) 20 mg/L 是 KM 的值（截距），不是 R＝30 mg/hr 時的穩定狀態濃度；濃度 20 對應的給藥速率為 40×20/40＝20 mg/hr。\n❌ (B) 40 mg/L 只是把 Vmax 的數值誤當成濃度；Css＝40 時 R＝40×40/60≒26.7 mg/hr，不是 30。\n❌ (D) 80 mg/L 是直接讀圖上最高的一點，該點 Css/R＝2.5 代表 R＝80/2.5＝32 mg/hr，與題目的 30 mg/hr 不符。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Nonlinear Pharmacokinetics（Michaelis-Menten 排除下給藥速率與 Css 的關係）"
   },
   {
    "n": 78,
