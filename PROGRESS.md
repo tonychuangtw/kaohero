@@ -20,6 +20,13 @@ VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`�
 　後端已 `sudo systemctl restart lanexammock-backend`，`/api/kgh/rank` 回 401（有路由、要登入）而非 404。
 BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另外卡 Tony 三件事，見下方。
 
+## 申論批改（2026-09-24 Tony 要評估，已回覆，等他決定）
+
+評估已送 TG（msg 783）：申論卷約 1.38 萬份（gao 7,679／local 4,429／pol 1,734，~/exam-pdfs/*/pdf 的 `_a.none`），
+題目 PDF 當初沒下載。建議分兩段：① 申論題庫＋AI 參考架構（免費、訂閱批次產生，不等金流）② 批改（Anthropic API
+付費金鑰，Opus 5 約 US$0.1／篇，要等付費牆開；法條題接全國法規資料庫原文、分數要拿真實成績校準）。
+問 Tony 要不要先開工 ①。類科頁「本站沒有收錄的科目」已上線（commit 2a6bd8c8b）。
+
 ## 等 Tony 的三件事（變現，2026-09-21 起）
 
 　1. **綠界正式金鑰** → 後端 `.env` 的 `ECPAY_MERCHANT_ID`／`ECPAY_HASH_KEY`／`ECPAY_HASH_IV`（三個都設齊才切正式）
