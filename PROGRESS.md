@@ -5,13 +5,12 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: 詳解 worker（claude）補新補圖那批，跑完再看歸類率。
-　1. ✅ 勘誤批次 09/24 04:15 收工：剩 31 題候選模型都判定不該寫（多半是轉檔毀損，不是法規衝突）。
-　　 ⚠ 之前空轉了 180 批寫 0 題（09/23 20:42～09/24 04:15，約 7.5 小時 Claude 額度），腳本已改成寫 0 就停
-　2. exp-worker 09/24 04:16 已啟動（引擎 claude、`EXP_MATCH=.`），補那 1,672 題新補圖題的詳解。
-　　 進度看 `tail ~/.claude/exp-worker.log`；撞 Claude 週限就讓它空轉（台北週五 04:00 重置）
-　3. 詳解寫完後再跑一次 `node tools/topic-audit.js --papers 6` 看新詳解有沒有拉低歸類率
-
+NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批次在背景跑。
+　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
+　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
+　- ✅ 申論題目下載 gao／local／pol 09/24 21:19 全部完成，21:23 已 essay-refresh 上線
+　- 🔄 參考架構 `essay-ref-batch.sh 12 0` 09/25 04:15 重開（剩約 5 萬題）。之前 09/24 21:12 因一題超過 1500 字整批退回而停；
+　　 已改成部分退回（壞的那題不寫、下批重挑），不會再因一題停批次。沒在跑就重跑同一行；撞額度會自己停
 VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`、`node test/rank-test.js`（9 項）全綠；
 　後端 `node test/kgh-rank-test.js`（15 項）、`kgh-pay-test.js`（32 項）、`kgh-export-test.js`、`kgh-board-test.js` 全綠。
 　補圖抽查：Read 開 webp 確認圖表完整（102 年初等經濟學大意 #15 的表格）。
@@ -61,7 +60,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-24 21:05 台北
+UPDATED: 2026-09-25 04:20 台北
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
