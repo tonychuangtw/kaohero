@@ -38444,7 +38444,7 @@ window.APP_EXAMS = [
   "subjName": "基本電學大意",
   "label": "112 年　五等　基本電學大意",
   "n": 40,
-  "exp": 27,
+  "exp": 40,
   "mins": 60
  },
  {
