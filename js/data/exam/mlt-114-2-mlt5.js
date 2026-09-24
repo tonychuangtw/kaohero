@@ -699,7 +699,8 @@ window.APP_EXAM_PAPERS['mlt-114-2-mlt5'] = {
     "可選用富含 CpG 位點的 Alu elements 來作為 DNA input control"
    ],
    "a": 2,
-   "fig": "img/q/114090_308_0502_49.webp"
+   "fig": "img/q/114090_308_0502_49.webp",
+   "exp": "✅ (C) 錯在把 a 判成未甲基化。MethyLight 的探針（圖中 6FAM-ACCCGACCCCGAACCGCG-MGBNFQ）保留 CG 序列，只與「甲基化後未被 bisulfite 轉換」的模板互補；a 曲線有明顯指數增幅與高終點螢光，代表該啟動子區域高度甲基化，而不是沒有甲基化。b 為幾乎不上升的曲線，才是甲基化訊號極低（探針無法結合）的結果。\n❌ (A) 探針序列 ACCCG／ACCCCG／AACCG／CG 共含 4 個 CG 雙核苷酸（圖中畫底線的 G），敘述正確。\n❌ (B) MethyLight 屬甲基化專一性即時定量 PCR，臨床上正是用來偵測腫瘤檢體中抑癌基因（如 MGMT、p16）啟動子的高度甲基化，敘述正確。\n❌ (D) Alu 重複序列在基因組中拷貝數高、可設計成不含 CpG 甲基化差異的參考反應（ALU-C4），常用來校正各檢體投入的 DNA 量，敘述正確。\n📚 出處：醫學分子檢驗學 DNA 甲基化檢測章節（MethyLight 甲基化專一性即時定量 PCR 之原理與 ALU input control）"
   },
   {
    "n": 50,
