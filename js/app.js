@@ -647,10 +647,53 @@
       p.appendChild(item('📘', SUBJ[sid].name,
         ls.length + T(' 卷 · ') + sumQ(ls) + unitQ()
         + (SUBJ[sid].note ? T('　') + SUBJ[sid].note : '')
+        + (sharedWith(SUBJ[sid].name, f.t.name) ? T('　｜各類科共用同一份試卷') : '')
         + (stat.n ? T('　｜已作答 ') + stat.n + T(' 題，正確率 ') + pct(stat.ok, stat.n) + '%' : ''),
         null, '#/subject/' + examId + '/' + sid));
     });
     s.appendChild(p); main.appendChild(s);
+    trackMissing(main, f.t.id);
+  }
+
+  /* 「行政法（一般行政組）」掛在社會行政底下時，考生會以為那不是自己的卷（2026-09-24 回報） */
+  function sharedWith(name, track) {
+    var m = /（(.+)組）$/.exec(name || '');
+    return !!(m && m[1] !== track);
+  }
+
+  /* 類科頁列出「最近一年要考、但本站沒有」的科目（js/data/essay.js，tools/essay-map.py 產生）。
+     只有類科頁用得到，所以進來才載，不塞進首頁的 loader。 */
+  var essayWait = null;
+  function loadEssay(cb) {
+    if (window.APP_ESSAY) return cb();
+    if (!essayWait) {
+      essayWait = [];
+      var sc = document.createElement('script');
+      sc.src = 'js/data/essay.js?v=20260924a';
+      sc.onload = sc.onerror = function () { var w = essayWait; essayWait = null; w.forEach(function (f) { f(); }); };
+      document.head.appendChild(sc);
+    }
+    essayWait.push(cb);
+  }
+  function trackMissing(main, tid) {
+    var host = el('div'); main.appendChild(host);
+    loadEssay(function () {
+      var e = (window.APP_ESSAY || {})[tid];
+      if (!e || !host.isConnected) return;
+      var s = el('section', 'sec');
+      s.appendChild(sectionHead(T('本站沒有收錄的科目')));
+      s.appendChild(el('p', 'lead', T('依 ') + e.roc + T(' 年的考試科目。本站只收選擇題（要有官方標準答案才能對答案），申論題不收。')));
+      var p = el('div', 'panel');
+      function row(name, why) {
+        var n = el('div', 'it it-off');
+        n.appendChild(el('span', 'ico', '📝'));
+        var t = el('span', 't'); t.appendChild(el('b', null, name)); t.appendChild(el('span', null, why));
+        n.appendChild(t); p.appendChild(n);
+      }
+      e.essay.forEach(function (x) { row(x, T('申論題，本站不收')); });
+      e.miss.forEach(function (x) { row(x, T('有選擇題（含複選題），本站介面尚未支援')); });
+      s.appendChild(p); host.appendChild(s);
+    });
   }
 
   /* ============ 單一科目：刷題入口＋年份卷別 ============ */

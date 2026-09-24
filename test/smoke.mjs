@@ -116,6 +116,15 @@ await hash('#/subject/doctor/med3');
 ok((await ev('document.querySelector(".pg-h").textContent')).includes('醫學（三）'), '進入醫學（三）科目頁');
 ok(await ev('document.querySelectorAll("#main .panel .it").length >= 20'), '科目頁列出各年份卷別');
 
+// --- 類科頁列出本站沒收的申論科目（2026-09-24，考社會行政的考生以為漏收）---
+await hash('#/track/gao/' + encodeURIComponent('gao1-社會行政'));
+await sleep(600);   // essay.js 是進類科頁才載
+{
+  const t = await ev('document.getElementById("main").textContent');
+  ok(t.includes('本站沒有收錄的科目') && t.includes('社會學') && t.includes('申論題，本站不收'), '類科頁列出申論科目（高考社會行政：社會學）');
+  ok(t.includes('各類科共用同一份試卷'), '類科頁標出共用試卷的科目（行政法（一般行政組））');
+}
+
 // --- 牙醫師（2026-09-06 新增）---
 await hash('#/exam/dentist');
 ok(await ev('document.querySelectorAll("#main .panel .it").length >= 6'), '牙醫師頁列出六個科目');

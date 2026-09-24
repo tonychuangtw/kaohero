@@ -698,3 +698,8 @@ body[data-page]:not([data-page="home"]) .hero-wrap + main{padding-top:20px}
 .rk-fill{background:var(--line);border-radius:4px 4px 0 0;min-height:2px}
 .rk-bar.me .rk-fill{background:var(--brand)}
 .rk-lb{font-size:calc(11px * var(--fs,1));opacity:.7;text-align:center;margin-top:4px}
+
+/* 類科頁「本站沒有收錄的科目」：不是連結，不要有 hover 與游標 */
+.panel .it.it-off{cursor:default}
+.panel .it.it-off:hover{background:none}
+.panel .it.it-off .t b{font-weight:600;color:var(--dim)}
