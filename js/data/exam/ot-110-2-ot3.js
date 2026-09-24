@@ -953,7 +953,8 @@ window.APP_EXAM_PAPERS['ot-110-2-ot3'] = {
     "槌狀指"
    ],
    "a": 0,
-   "fig": "img/q/110100_312_33_67.webp"
+   "fig": "img/q/110100_312_33_67.webp",
+   "exp": "✅ (A) 說明：圖中食指近端指間關節（PIP）套著環狀（oval-8／silver ring）指副木，靠背側一點、掌側兩點的三點壓力，擋住 PIP 過度伸直而仍允許屈曲。鵝頸指的特徵正是 PIP 過度伸直合併遠端指間關節（DIP）屈曲，此類環狀副木即是矯治與預防鵝頸指的標準做法，故為 A。\n❌ (B) 鈕釦指是 PIP 屈曲攣縮加 DIP 過度伸直，副木要把 PIP 撐在伸直位（如指伸直筒狀副木或動態伸直副木），方向與圖中阻擋過度伸直相反。\n❌ (C) 尺向偏側發生在掌指關節（MCP），需用 MCP 尺偏矯正副木把手指推回橈側，圖中副木只套在指間關節、未跨過 MCP。\n❌ (D) 槌狀指為伸指肌腱終末腱斷裂造成 DIP 無法主動伸直，須以副木把 DIP 固定在伸直位 6～8 週，位置在遠端而非圖中的 PIP。\n📚 出處：Pedretti《Occupational Therapy: Practice Skills for Physical Dysfunction》類風濕性關節炎手部變形與副木處置；鵝頸指之環狀（oval-8／silver ring）副木三點壓力原理"
   },
   {
    "n": 68,
