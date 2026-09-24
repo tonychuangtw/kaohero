@@ -535,7 +535,8 @@ window.APP_EXAM_PAPERS['mlt-115-2-mlt2'] = {
     "chronic granulomatous disease"
    ],
    "a": 0,
-   "fig": "img/q/115090_308_0501_37.webp"
+   "fig": "img/q/115090_308_0501_37.webp",
+   "exp": "✅ (A) 圖中的白血球是分葉核中性球，核分葉數明顯超過 5 葉（可見 6 葉以上、以細絲相連），屬於「過分葉中性球（hypersegmented neutrophil）」。維生素 B12 或葉酸缺乏時 DNA 合成受阻、核成熟落後於細胞質，骨髓造血呈巨球母細胞性變化，周邊血最典型的白血球表現就是過分葉中性球，並常伴隨大球性紅血球與卵圓形大紅血球；此徵象甚至可早於貧血出現，是巨球性貧血的重要線索。\n❌ (B) Pelger-Huët anomaly 的中性球是核「分葉不足」，呈啞鈴狀（pince-nez）雙葉或單一圓形／腎形核，染色質粗糙結塊，與圖中多葉核恰好相反。\n❌ (C) Alder-Reilly anomaly 的特徵在細胞質，可見粗大深染的嗜天青顆粒（類毒性顆粒），核分葉正常；圖中細胞質顆粒細緻，未見此變化。\n❌ (D) chronic granulomatous disease 是 NADPH oxidase 缺陷造成殺菌功能障礙，中性球形態在抹片上正常，需靠 DHR 流式或 NBT 試驗診斷，不會以過分葉表現。\n📚 出處：Rodak's Hematology 巨球性／巨球母細胞性貧血與白血球形態異常章節；hypersegmented neutrophil 之判讀標準（5 葉以上 >3% 或出現 6 葉以上）。"
   },
   {
    "n": 38,
