@@ -363,7 +363,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "AML M4"
    ],
    "a": 0,
-   "fig": "img/q/106020_308_22_25.webp"
+   "fig": "img/q/106020_308_22_25.webp",
+   "exp": "✅ (A) 圖①為大型芽細胞，圖②PAS 染色可見細胞質內呈粗顆粒狀／塊狀（block-like）強陽性反應，這是紅血球前驅細胞（erythroblast）PAS 陽性的典型表現，對應 AML M6（erythroleukemia，紅白血病），骨髓中紅系前驅細胞 >50% 且芽細胞增多。\n❌ (B) AML M3（acute promyelocytic leukemia）以充滿粗大嗜天青顆粒與 Auer rods（可見 faggot cells）的前骨髓球為特徵，診斷靠 MPO 強陽性與 t(15;17)，PAS 不呈塊狀陽性。\n❌ (C) AML M1（minimally differentiated myeloblastic）芽細胞 MPO >3% 陽性、核仁明顯、顆粒稀少，PAS 多為陰性或細緻瀰漫狀，不會出現紅系的塊狀陽性。\n❌ (D) AML M4（acute myelomonocytic leukemia）同時有骨髓系與單核系分化，特徵是 NSE（非特異性酯酶）陽性且可被 NaF 抑制，單核細胞 PAS 多呈細顆粒瀰漫狀而非粗塊狀。\n📚 出處：Rodak's Hematology 急性骨髓性白血病分類與細胞化學染色章節；PAS block positivity 與 AML M6（erythroleukemia）。"
   },
   {
    "n": 26,
@@ -545,7 +546,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "①normoblast ②neutrophil"
    ],
    "a": 2,
-   "fig": "img/q/106020_308_22_38.webp"
+   "fig": "img/q/106020_308_22_38.webp",
+   "exp": "✅ (C) 圖①細胞體積小（約與紅血球相當）、核呈圓形且染色質緻密深染、細胞質極少且僅在核周圍留一圈淡藍色，是典型的小淋巴球（lymphocyte）；圖②細胞核分成數葉並以細絲相連、細胞質淡染並含細小中性顆粒，是分葉核嗜中性球（segmented neutrophil）。\n❌ (A) 兩者順序顛倒：圖①沒有分葉核與顆粒細胞質，不可能是 neutrophil；圖②已明顯分葉，不會是 lymphocyte。\n❌ (B) 單核球體積較大、核呈腎形或摺疊狀、染色質疏鬆呈網狀，細胞質灰藍並常有空泡，與圖①緻密深染的小圓核不符；嗜鹼性球則應有覆蓋在核上的粗大深紫黑色顆粒，圖②沒有。\n❌ (D) normoblast（有核紅血球）核極度緻密濃縮、呈正圓且偏心，細胞質為紅血球的嗜鹼至粉紅色調，圖①細胞質為少量淡藍色且核染色質未達墨點狀濃縮，不符合。\n📚 出處：Rodak's Hematology 周邊血白血球形態辨認章節；lymphocyte 與 segmented neutrophil 的形態鑑別。"
   },
   {
    "n": 39,
@@ -643,7 +645,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "Gray platelet syndrome"
    ],
    "a": 0,
-   "fig": "img/q/106020_308_22_45.webp"
+   "fig": "img/q/106020_308_22_45.webp",
+   "exp": "✅ (A) 圖中病人（紅線）的 GPIb 螢光強度與陰性對照（Neg，黑線）幾乎重疊，代表血小板表面缺乏 GPIb；而 GPIIb/IIIa 則明顯右移至 10³ 為強陽性、表現正常。GPIb/IX/V 複合體缺損即 Bernard-Soulier syndrome，臨床表現為巨大血小板、血小板數偏低與 ristocetin 凝集不良。\n❌ (B) Glanzmann thrombasthenia 缺的是 GPIIb/IIIa（αIIbβ3），流式圖應是 GPIIb/IIIa 與陰性對照重疊、GPIb 正常，與本圖恰好相反。\n❌ (C) May-Hegglin anomaly 是 MYH9 基因缺陷，特徵為巨大血小板加上白血球內的 Döhle-like 包涵體，其血小板醣蛋白表現量正常，流式不會出現 GPIb 缺失。\n❌ (D) Gray platelet syndrome 缺的是 α 顆粒（抹片上血小板呈灰藍色無顆粒），屬顆粒儲存池缺陷，表面醣蛋白 GPIb 與 GPIIb/IIIa 均正常表現。\n📚 出處：Rodak's Hematology 血小板功能異常章節；流式細胞儀 GPIb 缺失與 Bernard-Soulier syndrome。"
   },
   {
    "n": 46,
@@ -657,7 +660,8 @@ window.APP_EXAM_PAPERS['mlt-106-1-mlt2'] = {
     "Platelet-type vWD"
    ],
    "a": 0,
-   "fig": "img/q/106020_308_22_46.webp"
+   "fig": "img/q/106020_308_22_46.webp",
+   "exp": "✅ (A) 圖①加 ristocetin 後光穿透率上升至約 80%，凝集正常；圖②collagen 與圖③ADP 則幾乎沒有上升（僅約 20%），代表所有生理性致效劑誘發的凝集全部缺損。ristocetin 造成的是不需 GPIIb/IIIa 的凝集（agglutination，靠 vWF 與 GPIb），而 ADP、collagen 誘發的真正凝集需要 GPIIb/IIIa 接上 fibrinogen——正常 ristocetin＋其餘全失，即 Glanzmann thrombasthenia。\n❌ (B) Bernard-Soulier syndrome 缺 GPIb，ristocetin 凝集會明顯減弱或消失，而 ADP、collagen 凝集正常，型態與本圖完全相反。\n❌ (C) von Willebrand disease 因 vWF 量或功能不足，ristocetin 凝集下降、其他致效劑正常，本圖 ristocetin 反而是唯一正常的一項。\n❌ (D) Platelet-type（pseudo-）vWD 為 GPIb 對 vWF 親和力過強，特徵是對低濃度 ristocetin 反應增強（RIPA 過度敏感），且 ADP、collagen 凝集正常，與本圖不符。\n📚 出處：Rodak's Hematology 血小板凝集試驗判讀章節；Glanzmann thrombasthenia 的凝集圖型（ristocetin 正常、ADP／collagen 缺損）。"
   },
   {
    "n": 47,
