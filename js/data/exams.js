@@ -9604,7 +9604,7 @@ window.APP_EXAMS = [
   "subjName": "牙醫學（四）",
   "label": "110 年第一次　牙醫學（四）",
   "n": 80,
-  "exp": 74,
+  "exp": 78,
   "mins": 60
  },
  {
