@@ -837,7 +837,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph1'] = {
     "帕金森氏症"
    ],
    "a": 3,
-   "fig": "img/q/102100_310_11_58.webp"
+   "fig": "img/q/102100_310_11_58.webp",
+   "exp": "✅ (D) 圖中結構為苯環－CH2－CH(CH3)－N(CH3)－CH2－C≡CH，即安非他命骨架的氮上接一個甲基與一個炔丙基（propargyl），為 selegiline（L-deprenyl，(R)-構型）。它是選擇性不可逆的 MAO-B 抑制劑，減少腦內多巴胺被代謝分解，用於帕金森氏症，可單用於早期病人或與 levodopa 併用以延長療效、減少 wearing-off。\n❌ (A) 治療憂鬱症的是非選擇性 MAO 抑制劑（如 phenelzine、tranylcypromine）或高劑量 selegiline 貼片；本題問「主要用途」，此結構的口服劑型主要適應症為帕金森氏症。\n❌ (B) 藥物濫用治療用 methadone、buprenorphine、naltrexone 等，與此結構無關；炔丙基取代反而使其不具明顯的安非他命類中樞興奮濫用作用。\n❌ (C) 老年癡呆症（阿茲海默症）用膽鹼酯酶抑制劑 donepezil、rivastigmine、galantamine 或 NMDA 拮抗劑 memantine，作用機轉與 MAO-B 抑制不同。\n📚 出處：Foye's Medicinal Chemistry, Drugs Used to Treat Parkinson's Disease — MAO-B inhibitors（selegiline 構效關係）"
   },
   {
    "n": 59,
