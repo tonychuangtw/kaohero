@@ -307,7 +307,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Natural killer cell"
    ],
    "a": 2,
-   "fig": "img/q/112020_308_22_21.webp"
+   "fig": "img/q/112020_308_22_21.webp",
+   "exp": "✅ (C) 箭號細胞體積大、胞質量多且呈深藍（強嗜鹼性，反映豐富的粗糙內質網），細胞核呈圓形、偏在一側（eccentric），染色質呈車輪狀粗塊；核旁可見一塊明顯的淡染空白區（perinuclear hof，即高基氏體區），這組特徵是 plasma cell（漿細胞）的典型型態。\n❌ (A) Reactive T lymphocyte（異型淋巴球）胞質雖也偏嗜鹼，但核多為居中、染色質較細緻，胞質邊緣常被鄰近紅血球壓出凹陷（裙襬狀），且不會有核旁 hof。\n❌ (B) Small lymphocyte 直徑僅 7～10 μm，胞質極少呈一薄圈淡藍，核佔細胞絕大部分；本圖細胞明顯大於周圍紅血球且胞質量豐富，不符。\n❌ (D) Natural killer cell 型態上屬 large granular lymphocyte，胞質較淡且含粗大的嗜天青顆粒，核居中，無深藍胞質與核旁 hof。\n📚 出處：Rodak's Hematology 白血球型態學章節；漿細胞（偏心核、車輪狀染色質、核旁 hof）與淋巴球型態鑑別。"
   },
   {
    "n": 22,
@@ -419,7 +420,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Alder-Reilly anomaly"
    ],
    "a": 0,
-   "fig": "img/q/112020_308_22_29.webp"
+   "fig": "img/q/112020_308_22_29.webp",
+   "exp": "✅ (A) 兩張圖箭號所指均為成熟嗜中性球，但細胞核只分成兩葉、由一條細絲相連，呈典型的「夾鼻眼鏡（pince-nez）」或啞鈴狀，且染色質已高度濃縮粗塊（成熟的表現），屬核分葉不足而成熟度正常的 Pelger-Huët anomaly。\n❌ (B) May-Hegglin anomaly 的特徵是嗜中性球胞質內出現藍色的 Döhle 小體樣包涵體，並伴巨大血小板與血小板低下；本圖胞質內無此包涵體。\n❌ (C) Lazy leukocyte syndrome（懶惰白血球症候群）是嗜中性球趨化與移動功能缺陷，型態上正常，須靠功能試驗診斷，無法由抹片核分葉型態判定。\n❌ (D) Alder-Reilly anomaly 為黏多醣堆積造成白血球胞質內粗大深紫色（嗜天青）顆粒，核分葉正常；本圖顆粒並無異常粗大。\n📚 出處：Rodak's Hematology 白血球良性型態異常章節；Pelger-Huët anomaly 的 pince-nez 雙葉核與 May-Hegglin、Alder-Reilly 之鑑別。"
   },
   {
    "n": 30,
@@ -880,7 +882,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "Myeloma cell；非整倍體（aneuploidy）"
    ],
    "a": 0,
-   "fig": "img/q/112020_308_22_62.webp"
+   "fig": "img/q/112020_308_22_62.webp",
+   "exp": "✅ (A) 箭號所指為骨髓中體積最大的細胞（直徑可達 50～100 μm），核呈多葉分葉且葉與葉相連成一團，胞質量豐富並帶細顆粒，周邊還可見脫落的血小板，為 megakaryocyte（巨核細胞）。它以核內有絲分裂（endomitosis）方式只複製 DNA 而不分裂細胞，形成 16N～32N 的多倍體（polyploidy）。\n❌ (B) 非整倍體指染色體數目非單套的整數倍（如 +8、-7），是腫瘤細胞的異常核型；巨核細胞的高倍數是生理性整套倍增，不屬 aneuploidy。\n❌ (C) Myeloma cell（骨髓瘤細胞）是異常漿細胞，體積遠小於本圖細胞，核偏心圓形且胞質深藍帶核旁 hof，不會呈多葉相連的大核。\n❌ (D) 細胞判讀已錯（非骨髓瘤細胞），且骨髓瘤細胞的染色體異常屬非整倍體，與本圖無關。\n📚 出處：Rodak's Hematology 血小板生成（thrombopoiesis）章節；巨核細胞核內有絲分裂與多倍體形成。"
   },
   {
    "n": 63,
@@ -1132,7 +1135,8 @@ window.APP_EXAM_PAPERS['mlt-112-1-mlt2'] = {
     "表現 CD34 標記"
    ],
    "a": 2,
-   "fig": "img/q/112020_308_22_80.webp"
+   "fig": "img/q/112020_308_22_80.webp",
+   "exp": "✅ (C) 錯在把此群癌細胞判為髓系。圖中紅色的芽細胞群在 CD45/SS 圖位於 CD45 弱表現（dim）而非陰性，且在 CD33 對 HLA-DR 與 CD13 對 CD22 兩圖中，紅色群均落在 CD33、CD13 的陰性區（表現這兩個髓系標記的是綠色的正常顆粒球群），故既非 CD45⁻，也無 CD13/CD33 部分表現，不能診斷為髓系白血病。\n❌ (A) 在 CD13 對 CD22 圖中，紅色癌細胞群僅略偏離陰性區，CD22 確實只有弱表現，此敘述正確。\n❌ (B) 紅色群在 CD19 對 CD20 圖為 CD19 弱陽性、CD20 陰性，在 CD10 對 CD20 圖為 CD10 強陽性，是 B 淋巴芽細胞白血病（B-ALL，common ALL）的典型表型，敘述正確。\n❌ (D) 在 CD34 對 CD38 圖中，紅色群位於 CD34 陽性區（高於綠色的正常細胞群），顯示確有 CD34 表現，符合未成熟前驅細胞，敘述正確。\n📚 出處：Rodak's Hematology 急性白血病免疫表型分析章節；B-ALL 之 CD19/CD10/CD34 陽性、CD45 dim 與髓系 CD13/CD33 判讀。"
   }
  ]
 };
