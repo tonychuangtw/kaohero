@@ -27,7 +27,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent2'] = {
     "局部牙齒發育不全（regional odontodysplasia）"
    ],
    "a": 1,
-   "fig": "img/q/113090_303_22_1.webp"
+   "fig": "img/q/113090_303_22_1.webp",
+   "exp": "✅ (B) 影像中的臼齒呈現典型的牙本質形成不良：牙冠球狀膨大（bulbous crown）、頸部明顯縮窄、牙根短而細，髓腔與根管被異常牙本質逐漸阻塞至幾乎完全消失（pulp obliteration），釉質厚度仍正常但易自牙本質介面剝落，符合圖中所見。\n❌ (A) 牙釉質發育不全影響的是釉質本身，X 光上釉質層變薄或密度接近牙本質，髓腔與牙根形態正常、不會出現球狀牙冠與髓腔阻塞。\n❌ (C) 第一型牙本質發育不良的牙冠外形與大小正常，特徵是牙根極短或幾乎無根、髓腔呈新月形（crescent-shaped）殘留並常見根尖透亮病變，與圖中形態不符。\n❌ (D) 局部牙齒發育不全只侷限於同一象限的數顆相鄰牙，呈現釉質與牙本質皆極薄、髓腔寬大的「鬼牙（ghost teeth）」影像，與本圖上下顎牙齒普遍受侵犯且髓腔閉塞的表現相反。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Abnormalities of Teeth；dentinogenesis imperfecta 的影像特徵：bulbous crowns、cervical constriction、pulpal obliteration）。"
   },
   {
    "n": 2,
@@ -209,7 +210,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent2'] = {
     "多型性腺瘤（pleomorphic adenoma）"
    ],
    "a": 0,
-   "fig": "img/q/113090_303_22_14.webp"
+   "fig": "img/q/113090_303_22_14.webp",
+   "exp": "✅ (A) 圖 A 為上唇黏膜下界限清楚的硬結節，圖 B 在軟組織內可見一顆圓形、界限分明的阻射性團塊，圖 C 顯示導管內一個呈同心圓層狀（concentric lamination）鈣化的結石，周圍為擴張的導管上皮與腺體組織——這是小唾液腺導管結石的典型三聯表現，故診斷為唾液腺結石。\n❌ (B) 黏液囊腫是黏液外滲堆積形成的軟而具波動感之腫塊，X 光下不顯影，病理為黏液池外圍包繞肉芽組織與泡沫狀巨噬細胞，不會有層狀鈣化物。\n❌ (C) 齒瘤是牙源性硬組織瘤，位於顎骨內而非唇部軟組織，病理可見釉質、牙本質、牙骨質與牙髓等牙齒成分，圖 C 並無這些組織。\n❌ (D) 多型性腺瘤雖是上唇最常見的小唾液腺良性腫瘤，但影像上為軟組織陰影、不會有緻密阻射結石，病理應見上皮／肌上皮細胞混雜黏液軟骨樣基質並有包膜，與層狀鈣化完全不同。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Salivary Gland Pathology；sialolithiasis 的層狀鈣化與小唾液腺表現）。"
   },
   {
    "n": 15,
