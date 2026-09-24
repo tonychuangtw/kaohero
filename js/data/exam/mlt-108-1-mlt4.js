@@ -195,7 +195,8 @@ window.APP_EXAM_PAPERS['mlt-108-1-mlt4'] = {
     "均勻型（homogeneous）"
    ],
    "a": 1,
-   "fig": "img/q/108030_308_66_13.webp"
+   "fig": "img/q/108030_308_66_13.webp",
+   "exp": "✅ (B) 圖中 HEp-2 細胞核內只見數個大而亮的螢光團塊（每個細胞約 1～3 個），核質其餘部分幾乎不染色，這正是核仁型（nucleolar）的特徵——抗體針對核仁內的 fibrillarin、RNA polymerase I、PM-Scl、Th/To 等成分，臨床上常見於全身性硬化症（scleroderma）。\n❌ (A) 斑點型是整個核質布滿細小而數量眾多的點狀螢光（抗 Sm、RNP、SS-A/SS-B），顆粒遍及全核且明顯小於本圖的團塊，與圖中僅數個大團塊不符。\n❌ (C) 周邊型（核膜型）螢光沿核的邊緣形成一圈環狀，中央核質較暗，常見於 SLE 的抗 dsDNA；本圖螢光集中在核內部而非核緣，不符。\n❌ (D) 均勻型為整個細胞核瀰漫且均一的螢光，分裂期細胞的染色體區也一併著色（抗 dsDNA、抗組蛋白）；本圖核質大部分不染色，不符。\n📚 出處：Henry's Clinical Diagnosis and Management by Laboratory Methods，Medical Microbiology 之 Autoimmune Diseases 章（抗核抗體間接免疫螢光染色型態：homogeneous／speckled／nucleolar／peripheral 之判讀）。"
   },
   {
    "n": 14,
