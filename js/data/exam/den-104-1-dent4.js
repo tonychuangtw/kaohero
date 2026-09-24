@@ -907,7 +907,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "D：hyoid bone"
    ],
    "a": 1,
-   "fig": "img/q/104020_302_44_64.webp"
+   "fig": "img/q/104020_302_44_64.webp",
+   "exp": "✅ (B) B 的箭頭落在眼眶後上方的眶頂／蝶骨大翼影像，不是蝶鞍。蝶鞍（sella turcica）位置更後方，在顱底正中呈馬鞍狀凹陷、夾在前床突與後床突之間、斜坡之前，側位片上約在外耳道前上方的中央處，故 B 的標示錯誤。\n❌ (A) A 指向外耳道後方、顳骨乳突部那片蜂窩狀的細小透射影，正是乳突氣房。\n❌ (C) C 指向鼻樑最前上方的小塊緻密骨，即鼻骨，位置與外形皆相符。\n❌ (D) D 指向下顎角前下方、舌根與會厭上方的 U 形細長骨影，即舌骨。\n📚 出處：Oral Radiology: Principles and Interpretation（White & Pharoah），頭顱側位片正常解剖構造判讀"
   },
   {
    "n": 65,
@@ -935,7 +936,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "上顎竇緣（border of maxillary sinus）"
    ],
    "a": 2,
-   "fig": "img/q/104020_302_44_66.webp"
+   "fig": "img/q/104020_302_44_66.webp",
+   "exp": "✅ (C) 本片為上顎咬合片，黃圈處是偏離正中線、位於鼻腔底部的圓形（卵圓形）透射影，為鼻淚管下行段的投影；它左右各一、對稱出現在犬齒至小臼齒上方，是上顎咬合片常見的正常構造，不是病變。\n❌ (A) 門齒孔位於正中線上、兩顆中門齒牙根之間，本圖黃圈明顯偏向一側，位置不合。\n❌ (B) 鼻腭管同樣沿正中線由鼻腔底向下走，呈上下走向的管狀透射影，而非偏側的孤立圓形黑影。\n❌ (D) 上顎竇緣在片上表現為往後外側延伸的細緻密白線（皮質骨界線），不會是圓形透射影。\n📚 出處：Oral Radiology: Principles and Interpretation（White & Pharoah），上顎正常解剖構造（鼻淚管、門齒孔、上顎竇）"
   },
   {
    "n": 67,
@@ -963,7 +965,8 @@ window.APP_EXAM_PAPERS['den-104-1-dent4'] = {
     "Fracture of root"
    ],
    "a": 3,
-   "fig": "img/q/104020_302_44_68.webp"
+   "fig": "img/q/104020_302_44_68.webp",
+   "exp": "✅ (D) 箭頭指的近心牙根上可見一條與牙根長軸近乎平行、貫穿牙本質並把牙根分成兩半的透射線，且牙根側方出現沿牙根延伸的骨吸收（halo／J 形透射影），這是垂直牙根斷裂（vertical root fracture）的典型影像表現，該牙已做過牙冠贗復也符合好發條件。\n❌ (A) Dilaceration 是牙齒發育期牙根形成急遽彎折，牙根外形彎曲但硬組織仍連續，不會出現縱向裂線與沿根骨吸收。\n❌ (B) Fusion 是兩個牙胚於發育期合併，影像上必須看到兩顆牙的牙本質（牙冠或牙根）相連，本片只有單一顆牙。\n❌ (C) Concrescence 是兩顆已形成的牙齒靠牙骨質黏合，同樣需有相鄰兩牙牙根相連的影像，本片並無。\n📚 出處：Oral Radiology: Principles and Interpretation（White & Pharoah），牙齒外傷章節之牙根斷裂（vertical root fracture）"
   },
   {
    "n": 69,
