@@ -909,7 +909,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "軟腭（soft palate）"
    ],
    "a": 1,
-   "fig": "img/q/112100_304_44_64.webp"
+   "fig": "img/q/112100_304_44_64.webp",
+   "exp": "✅ (B) 這是側顱 X 光（lateral cephalogram），箭頭指在顱底中央那個上緣開口、呈馬鞍狀的骨性凹窩，前有前床突、後有後床突，正是蝶骨體上方容納腦下垂體的蝶鞍（sella turcica），也是頭影測量 S 點所在。\n❌ (A) 耳咽管咽皺襞是鼻咽側壁的軟組織皺襞，位置遠低於箭頭，側顱片上不會呈現這種有骨緣的馬鞍輪廓。\n❌ (C) 蝶竇是位於蝶鞍前下方的含氣腔，影像上是一片黑色透射區，在箭頭所指凹窩的下方，不是箭頭所指的骨性輪廓。\n❌ (D) 軟腭是硬腭後方、鼻咽下界的軟組織影，位置在圖中偏右下的口咽區，與箭頭所在的顱底中央無關。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Extraoral projections／顱部正常解剖：sella turcica）。"
   },
   {
    "n": 65,
@@ -923,7 +924,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "顴骨（zygoma）"
    ],
    "a": 3,
-   "fig": "img/q/112100_304_44_65.webp"
+   "fig": "img/q/112100_304_44_65.webp",
+   "exp": "✅ (D) 這是上顎後牙根尖片。箭頭指的是一條 U（J）形、邊緣緻密的阻射帶橫過大臼齒根尖上方，這是顴骨與上顎顴突重疊投影的影像，U 形的底部即顴骨（zygoma）下緣，為上顎後牙根尖片的常見正常解剖影。\n❌ (A) 上顎竇在本片中是根尖上方那片灰黑透射區，邊界是一條細白的竇底皮質線，並非箭頭所指的緻密骨帶。\n❌ (B) 喙狀突只有在張口或投照角度偏斜時，才會以三角形阻射影出現在片子最遠心端，不會橫跨大臼齒根尖上方。\n❌ (C) 上顎結節是齒槽脊最遠心的骨性膨大，位在最後一顆大臼齒的遠心、與牙根同高度，與箭頭所在高度不同。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy：上顎後牙根尖片之 zygomatic process 與 zygoma）。"
   },
   {
    "n": 66,
@@ -937,7 +939,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "mental fossa"
    ],
    "a": 1,
-   "fig": "img/q/112100_304_44_66.webp"
+   "fig": "img/q/112100_304_44_66.webp",
+   "exp": "✅ (B) 這是下顎前牙根尖片，箭頭所指是位於中門齒根尖下方、正中線上的小圓形透射點，外圍被一圈緻密骨（頦棘 genial tubercles）環繞成靶心狀，為舌側孔（lingual foramen），內有舌下動脈分支通過。\n❌ (A) 頦孔開口於下顎骨頰側、約在第二小臼齒根尖附近，只會出現在小臼齒區的根尖片，不在前牙正中線。\n❌ (C) 切齒孔（鼻腭孔）屬上顎構造，位在上顎兩中門齒根尖之間，不可能出現在下顎片上。\n❌ (D) 頦窩是下顎前牙唇側的淺凹陷，影像上是界線模糊的瀰漫透射區，不是這種被緻密骨環包圍的小圓孔。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（下顎正常解剖：lingual foramen 與 genial tubercles）。"
   },
   {
    "n": 67,
@@ -951,7 +954,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "巨齒症（macrodontia）"
    ],
    "a": 0,
-   "fig": "img/q/112100_304_44_67.webp"
+   "fig": "img/q/112100_304_44_67.webp",
+   "exp": "✅ (A) 箭頭所指是一顆冠部異常寬大的下顎前牙，冠部有融合溝、牙本質相連，但可辨識出兩套各自獨立的牙髓腔／根管輪廓，且該區牙齒總數比正常少一顆——這是兩個相鄰牙胚在發育期結合而成的融合齒（fusion）。\n❌ (B) 雙生齒是單一牙胚不完全分裂，冠部呈雙葉狀但共用一個牙髓腔與一支牙根，牙列計數正常，與本例兩套髓腔、牙數短少不符。\n❌ (C) 連合齒是兩顆已發育完成的牙齒僅以白堊質相連，牙冠、牙本質與髓腔仍各自獨立分明，且最常見於上顎大臼齒而非下顎前牙。\n❌ (D) 巨齒症是牙齒整體等比例變大、形態仍正常，不會出現融合溝與兩套獨立髓腔。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Abnormalities of teeth：fusion／gemination／concrescence）。"
   },
   {
    "n": 68,
@@ -1007,7 +1011,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "left disc displacement without reduction"
    ],
    "a": 3,
-   "fig": "img/q/112100_304_44_71.webp"
+   "fig": "img/q/112100_304_44_71.webp",
+   "exp": "✅ (D) 閉口位（左圖）可見關節盤的低訊號帶已位於髁突前上方（箭頭），髁突正上方缺少正常的「領結形」盤影；最大張口位（右圖）髁突雖已前移至關節隆凸下方，關節盤仍被推在髁突前方而未回到髁突上，代表整個開口過程盤都沒有復位，為左側顳顎關節的關節盤前移位不復位（disc displacement without reduction），臨床上表現為開口受限、關節無彈響。\n❌ (A) 兩個條件都不符：本片為左側關節，且張口時盤未回位，不屬有復位型。\n❌ (B) 「不復位」的判讀正確，但影像為左側顳顎關節，側別錯誤。\n❌ (C) 有復位型（with reduction）在張口影像上關節盤會回到髁突與關節隆凸之間、恢復正常盤－髁關係並伴隨開口彈響，本片張口時盤仍留在前方，不符。\n📚 出處：White & Pharoah, Oral Radiology（Temporomandibular joint imaging：MRI 之 disc displacement with／without reduction）。"
   },
   {
    "n": 72,
@@ -1035,7 +1040,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "oblique lateral projection"
    ],
    "a": 0,
-   "fig": "img/q/112100_304_44_73.webp"
+   "fig": "img/q/112100_304_44_73.webp",
+   "exp": "✅ (A) 這是頦下頂位（submentovertex，基底位）：X 光自下頦下方射入、由顱頂射出，因此呈現「由下往上看顱底」的軸位影像——下顎骨呈馬蹄形位於最前方、兩側顴骨弓完整地向外弓出，中線依序為鼻咽腔、蝶竇與枕骨大孔，臨床最常用於評估顴骨弓骨折與顱底。\n❌ (B) 華特氏位是下頦靠片、鼻尖抬高的後前向投照，呈正面顏面觀，用來看兩側眼眶底與上顎竇積液，不會出現顱底軸位的對稱結構。\n❌ (C) 反 Towne 氏位同樣是正面投照，主要顯示髁突頸部與後顱窩，看到的是兩側髁突與枕骨，不會顯示完整的顴骨弓與下顎馬蹄形輪廓。\n❌ (D) 斜側位為側方投照，只顯示單側下顎骨體或升枝的側面影像，與本片左右對稱的軸位影像完全不同。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Extraoral projections：submentovertex projection）。"
   },
   {
    "n": 74,
@@ -1104,7 +1110,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent4'] = {
     "惡性貧血（pernicious anemia）"
    ],
    "a": 2,
-   "fig": "img/q/112100_304_44_78.webp"
+   "fig": "img/q/112100_304_44_78.webp",
+   "exp": "✅ (C) 側顱片可見顱骨板障（diploë）明顯增厚、外板變薄，骨小樑呈垂直排列而形成典型的「髮豎立樣」（hair-on-end）影像。這是地中海型貧血因慢性溶血、骨髓代償性增生撐大骨髓腔所致；口顎部還常見上顎前突、齒槽骨小樑粗大呈階梯狀。\n❌ (A) 血友病是凝血因子缺乏，影像變化以關節內反覆出血造成的關節破壞與假性腫瘤為主，不會造成板障增生的髮豎立樣顱骨。\n❌ (B) 週期性嗜中性白血球減少症表現為週期性發燒、反覆口腔潰瘍與嚴重齒槽骨吸收（類似侵襲性牙周炎），顱骨形態正常。\n❌ (D) 惡性貧血是維生素 B12 吸收不良所致的巨球性貧血，並非溶血性，骨髓不會如此代償增生，臨床以舌炎（光滑舌）與神經症狀為主。\n📚 出處：White & Pharoah, Oral Radiology（全身性疾病在顎骨的表現：thalassemia 之 hair-on-end skull）。"
   },
   {
    "n": 79,
