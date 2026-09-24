@@ -167,7 +167,8 @@ window.APP_EXAM_PAPERS['den-109-2-dent6'] = {
     "Class IV"
    ],
    "a": 1,
-   "fig": "img/q/109100_304_66_11.webp"
+   "fig": "img/q/109100_304_66_11.webp",
+   "exp": "✅ (B) 圖中黑色部分代表顱底與上顎複合體，紅色部分代表下顎骨。下顎骨明顯位於上顎之後下方、體部未能前伸到上顎齒列的位置，呈現下顎後縮（mandibular retrusion）、上顎相對前突的側面型，這正是第二類（Class II）齒顎異常的骨骼特徵，臨床上會表現為凸面型與過大的覆蓋（overjet）。\n❌ (A) Class I 的上下顎前後關係協調，下顎的位置會與上顎複合體相稱、下顎齒列與上顎齒列呈正常近遠心關係，圖中紅色下顎明顯後退，不符合。\n❌ (C) Class III 為下顎前突或上顎發育不足，下顎部分應超前於上顎、形成凹面型與反咬，與圖中下顎後縮的方向正好相反。\n❌ (D) 安格氏分類只有第一、二、三類（第二類再分 Division 1、2），並沒有 Class IV 這個分類。\n📚 出處：Proffit, Contemporary Orthodontics，齒顎異常分類（Angle classification）與骨骼型態（skeletal Class II）章節"
   },
   {
    "n": 12,
