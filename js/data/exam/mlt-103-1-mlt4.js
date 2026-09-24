@@ -811,7 +811,8 @@ window.APP_EXAM_PAPERS['mlt-103-1-mlt4'] = {
     "捕捉IgM檢測法"
    ],
    "a": 3,
-   "fig": "img/q/103020_311_66_57.webp"
+   "fig": "img/q/103020_311_66_57.webp",
+   "exp": "✅ (D) 說明：圖中四種試劑的排列是「固相先鍵結 anti-IgM（捕捉抗體）→ 抓住檢體中的 serum IgM → 再加病毒抗原 Ag → 最後以標幟抗體（labelled antibody）偵測」，這正是捕捉法（IgM capture ELISA，MAC-ELISA）的標準設計。先以固相抗人類 IgM 把檢體內的 IgM 全部抓下來，洗掉 IgG 與類風濕因子後才加抗原，因此能專一偵測急性期病毒特異性 IgM。\n❌ (A) 競爭法是把檢體抗體與已標幟抗體互相競爭同一抗原結合位，訊號與抗體量成反比，固相上鍵結的應是抗原而非 anti-IgM，圖中順序不符。\n❌ (B) 間接法是固相直接吸附病毒抗原，加入檢體血清後再用酵素標幟的 anti-human IgM 呈色，固相上不會先放 anti-IgM，且檢體中的 IgG 與類風濕因子會造成偽陽性／偽陰性。\n❌ (C) 類風濕因子干擾是間接法的已知缺點（RF 與檢體 IgG-抗原複合物結合造成偽陽性），並非一種檢測方法名稱；捕捉法正是為了排除此干擾而設計。\n📚 出處：Mahon《Textbook of Diagnostic Microbiology》免疫血清學方法章節—IgM capture ELISA（MAC-ELISA）原理；Murray《Medical Microbiology》病毒血清學診斷章節（急性期 IgM 檢測與 RF 干擾之排除）。"
   },
   {
    "n": 58,
