@@ -33376,7 +33376,7 @@ window.APP_EXAMS = [
   "subjName": "有機化學概要",
   "label": "107 年　普通考試　有機化學概要",
   "n": 25,
-  "exp": 18,
+  "exp": 19,
   "mins": 75
  },
  {
