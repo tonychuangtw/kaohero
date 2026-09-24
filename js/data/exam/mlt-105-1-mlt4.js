@@ -292,7 +292,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt4'] = {
     "D."
    ],
    "a": 3,
-   "fig": "img/q/105020_308_66_20.webp"
+   "fig": "img/q/105020_308_66_20.webp",
+   "exp": "✅ (D) 圖D的細胞核只有「核膜外緣」呈亮綠色環狀螢光、核內部相對暗淡，即周邊型（peripheral/rim）。此型主要由抗dsDNA與抗核膜（lamin）抗體造成，與全身性紅斑性狼瘡（SLE）關聯性最高。\n❌ (A) 圖A的螢光集中在核內數個大而亮的團塊（核仁），為核仁型（nucleolar），對應抗RNA polymerase I、fibrillarin、PM-Scl等抗體，常見於硬皮症。\n❌ (B) 圖B核內呈滿佈的粗細顆粒而核膜不特別加強，為斑點型（speckled），對應抗Sm、抗RNP、抗SSA/SSB等可萃取核抗原抗體。\n❌ (C) 圖C整個細胞核均勻一致地亮染、無顆粒也無核膜加強，為均質型（homogeneous），對應抗dsDNA、抗histone、抗核小體抗體，可見於SLE與藥物誘發狼瘡。\n📚 出處：臨床血清免疫學 抗核抗體（ANA）間接螢光免疫染色型態判讀章節；周邊型（rim）、均質型、斑點型、核仁型之形態與對應抗原辨識。"
   },
   {
    "n": 21,
