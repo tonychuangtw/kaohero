@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['mlt-110-2-mlt4'] = {
     "(XY, Y)"
    ],
    "a": 1,
-   "fig": "img/q/110100_308_66_40.webp"
+   "fig": "img/q/110100_308_66_40.webp",
+   "exp": "✅ (B) 說明：圖中 A、B 兩孔各自與含 anti-X、anti-Y 的抗體孔之間形成一條沉澱線，兩條線在中央互相「交叉」而過，彼此不融合也不產生 spur，這是 Ouchterlony 雙向免疫擴散的「完全不同（non-identity）」圖形，代表 A 與 B 是兩種完全無共同抗原決定位的抗原，分別只與 anti-X、anti-Y 反應，故最可能為 (X, Y)。\n❌ (A) 若 A、B 皆為 X，兩孔抗原相同，沉澱線會在中間平順相接、融合成一條連續弧線（identity），不會交叉。\n❌ (C) A 為 X、B 為 XY 時兩者共有 X，屬部分相同（partial identity），沉澱線會融合並在 B 側多出一根向外延伸的 spur（刺），圖中並無此形態。\n❌ (D) A 為 XY、B 為 Y 同樣共有 Y，亦為部分相同圖形，會出現融合弧線加 spur，與圖中兩線交叉不符。\n📚 出處：Ouchterlony double immunodiffusion 三種沉澱線判讀（identity 融合、partial identity 帶 spur、non-identity 交叉）；Stevens《Clinical Immunology and Serology》抗原抗體沉澱反應章節。"
   },
   {
    "n": 41,
