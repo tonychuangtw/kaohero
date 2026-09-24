@@ -265,7 +265,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph3'] = {
     "曲線E為溶解度變化"
    ],
    "a": 3,
-   "fig": "img/q/102100_310_44_18.webp"
+   "fig": "img/q/102100_310_44_18.webp",
+   "exp": "✅ (D) 曲線 E 在 CMC 以下幾乎貼著橫軸不動，到達 CMC 之後才呈直線上升，這正是增溶（solubilization）的特徵：必須先形成微胞，難溶物才能被包進微胞核心，故溶解度在 CMC 之後才隨界面活性劑濃度線性增加。\n❌ (A) 曲線 A 在 CMC 前急遽下降、過 CMC 後隨即維持水平，是界面（表面）張力的典型變化；滲透壓屬依數性質，隨濃度上升而不會下降。\n❌ (B) 曲線 C 自低處急升、過 CMC 後斜率明顯變小而續緩升，屬依數性（如滲透壓）型變化——微胞使有效粒子數增加趨緩；當量導電度隨濃度是下降的，不會呈此上升曲線。\n❌ (C) 曲線 D 在 CMC 之後持續下降且無水平段，較符合導電度（當量導電度）的變化；界面張力在 CMC 之後因表面已被吸附飽和而維持定值，即圖中的曲線 A，不是 D。\n📚 出處：Martin's Physical Pharmacy—Colloidal Dispersions（界面活性劑 CMC 與溶液性質的關係曲線）"
   },
   {
    "n": 19,
@@ -869,7 +870,8 @@ window.APP_EXAM_PAPERS['pha-102-2-ph3'] = {
     "d"
    ],
    "a": 1,
-   "fig": "img/q/102100_310_44_61.webp"
+   "fig": "img/q/102100_310_44_61.webp",
+   "exp": "✅ (B) 靜脈輸注的穩定狀態濃度 Css = R/(k·Vd)。若速效劑量 DL = R/k，則注射後起始濃度 DL/Vd = R/(k·Vd) = Css，一開始就落在 Css 上，之後由輸注剛好補足排除量，濃度幾乎維持水平直接與 Css 重疊，對應曲線 b。\n❌ (A) 曲線 a 由零開始緩慢爬升，約需 4～5 個半衰期才逼近 Css，是完全未給速效劑量、僅靠靜脈輸注的結果。\n❌ (C) 曲線 c 起始濃度為零、急升後衝過 Css 再回降，表示負荷劑量不是瞬間 bolus 而是以較快速率短時輸注給予，且給的量偏高。\n❌ (D) 曲線 d 起始濃度明顯高於 Css，之後衰減回 Css，代表速效劑量大於 R/k（即 DL > Css·Vd），劑量過量。\n📚 出處：Applied Biopharmaceutics & Pharmacokinetics—Intravenous Infusion（速效劑量 DL = Css·Vd = R/k 與 Css 的關係）"
   },
   {
    "n": 62,
