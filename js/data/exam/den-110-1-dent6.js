@@ -55,7 +55,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent6'] = {
     "下顎舌側錯咬（mandibular lingual crossbite）"
    ],
    "a": 2,
-   "fig": "img/q/110020_304_66_3.webp"
+   "fig": "img/q/110020_304_66_3.webp",
+   "exp": "✅ (C) 圖中上顎後牙牙冠明顯向顎（舌）側傾倒，咬合時上顎頰側尖落在下顎頰側尖的內（舌）側，也就是上顎後牙相對下顎位於過度偏舌的位置，屬典型的後牙錯咬中「上顎舌側錯咬（maxillary lingual crossbite）」，臨床上即一般所稱的後牙錯咬，常見於上顎牙弓狹窄。\n❌ (A) 上顎頰側錯咬是上顎後牙整個落在下顎後牙的頰側外方（即 Brodie bite／剪刀咬），頰舌向偏移方向與本圖完全相反。\n❌ (B) 「開咬」指的是垂直向缺乏咬合接觸，圖中上下後牙仍有尖窩接觸，問題出在水平（頰舌向）關係，不是垂直向。\n❌ (D) 下顎舌側錯咬是下顎後牙偏向舌側，其相對關係等同上顎頰側錯咬，與本圖上顎後牙內倒的情形正好相反。\n📚 出處：Proffit, Contemporary Orthodontics，後牙錯咬（posterior crossbite）分類與診斷章節"
   },
   {
    "n": 4,
@@ -69,7 +70,8 @@ window.APP_EXAM_PAPERS['den-110-1-dent6'] = {
     "牙縫產生之可能原因與舌頭的形狀和前突力量有關"
    ],
    "a": 2,
-   "fig": "img/q/110020_304_66_4.webp"
+   "fig": "img/q/110020_304_66_4.webp",
+   "exp": "✅ (C) 此題問「何者較不可能」。側顱片顯示上下顎前牙皆明顯唇傾、上下唇前突，口內相則見前牙區為淺覆蓋且上下齒列都有多處牙縫，並無 Class II division 1 所特有的大覆蓋（overjet 增加）與下顎後縮，故診斷為二級第一分類最不可能。\n❌ (A) 上下顎前牙齒槽同時前突、骨性關係接近一級，正是雙顎齒槽前突（bimaxillary dentoalveolar protrusion）的典型表現，是本例最合理的診斷。\n❌ (B) 唇繫帶（尤其上唇繫帶）附著過低、纖維伸入上顎中切牙之間，是造成正中牙縫的常見原因，對本例的牙縫是合理的解釋。\n❌ (D) 舌體肥大或舌頭前突習慣所產生的持續向前壓力，會把前牙推開而形成牙縫，同樣是合理的病因推論。\n📚 出處：Proffit, Contemporary Orthodontics，Angle 異常咬合分類與雙顎齒槽前突（bimaxillary dentoalveolar protrusion）診斷章節"
   },
   {
    "n": 5,
