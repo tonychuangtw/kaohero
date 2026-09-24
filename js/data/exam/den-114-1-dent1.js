@@ -41,7 +41,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent1'] = {
     "標示①②④⑤處"
    ],
    "a": 3,
-   "fig": "img/q/114020_303_0201_2.webp"
+   "fig": "img/q/114020_303_0201_2.webp",
+   "exp": "✅ (D) 顳窩（temporal fossa）的窩底由四塊骨共同構成：額骨、頂骨、顳骨鱗部與蝶骨大翼，四者在翼點（pterion）會合成「H」形縫。圖中①為冠狀縫前方的額骨、②為頂骨、④為眼眶外後方的蝶骨大翼、⑤為顳骨鱗部，正好是這四骨，故①②④⑤都屬顳窩範圍。\n❌ (A) 僅④⑤只涵蓋蝶骨大翼與顳骨鱗部，漏掉同樣構成窩底的額骨與頂骨。\n❌ (B) 僅①②⑤漏掉蝶骨大翼；大翼是翼點最前下的一塊，也是顳肌深部的附著面。\n❌ (C) 僅①②只剩額骨與頂骨，範圍遠小於顳窩；③為枕骨、⑥⑦為鼻骨與上頜骨、⑧為顴骨、⑨為下頜骨枝，均不屬顳窩窩底。\n📚 出處：Moore's Clinically Oriented Anatomy, 8th ed., Ch.8（Temporal fossa；pterion）。"
   },
   {
    "n": 3,
@@ -349,7 +350,8 @@ window.APP_EXAM_PAPERS['den-114-1-dent1'] = {
     "Mesiolabial point angle"
    ],
    "a": 0,
-   "fig": "img/q/114020_303_0201_24.webp"
+   "fig": "img/q/114020_303_0201_24.webp",
+   "exp": "✅ (A) A 指的是牙冠近心面（mesial）與唇側面（labial）兩個面相交所形成的稜線。兩個面相交稱線角（line angle），命名時把前一個面的字尾改為「o」再接後一面，故為 mesiolabial line angle。\n❌ (B) Mesioincisal angle 是近心面與切緣相交處，位置在牙冠切端的近心角，不在 A 所指的冠側邊緣。\n❌ (C) Labioincisal angle 由唇側面與切緣相交而成，位於切緣的唇側稜，也不是 A。\n❌ (D) 點角（point angle）必須由三個面相交而成，如 mesiolabioincisal point angle；近心面與唇側面只有兩面相交，不能稱 point angle。\n📚 出處：Wheeler's Dental Anatomy, Physiology and Occlusion, 11th ed., Ch.1（Line angles and point angles 的命名法則）。"
   },
   {
    "n": 25,
