@@ -184,7 +184,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent5'] = {
     "中腭縫（median palatine raphe）"
    ],
    "a": 2,
-   "fig": "img/q/111020_304_55_12.webp"
+   "fig": "img/q/111020_304_55_12.webp",
+   "exp": "✅ (C) 代號 12 位在上顎中線、緊鄰前牙區齒槽脊頂的腭側，是一個小而突起的軟組織——門齒乳頭，底下即為門齒孔與鼻腭神經血管束。它是全口義齒的重要解剖標記：排上顎前牙時以它為中線定位參考，製作義齒時也必須做適當緩衝（relief），否則壓迫鼻腭神經會造成疼痛與灼熱感。\n❌ (A) 唇繫帶是圖中代號 1 的位置，在上唇正中、由唇側黏膜連向齒槽脊唇面的薄膜狀皺襞，位於義齒的唇側邊緣而非腭側。\n❌ (B) 唇前庭為代號 2 所示，是齒槽脊唇面與唇黏膜之間的溝狀空間，屬於義齒邊緣延伸的範圍，不在腭頂上。\n❌ (D) 中腭縫是硬腭正中由前向後延伸的一條纖維性縫脊，位置在門齒乳頭之後、沿整個腭中線走行，黏膜薄且常需緩衝，但不是圖中 12 所指的單一突起。\n📚 出處：Zarb, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Anatomy of the edentulous maxilla：incisive papilla 與中線標記）。"
   },
   {
    "n": 13,
@@ -800,7 +801,8 @@ window.APP_EXAM_PAPERS['den-111-1-dent5'] = {
     "由點7到點0的移動，與咀嚼運動有關"
    ],
    "a": 3,
-   "fig": "img/q/111020_304_55_56.webp"
+   "fig": "img/q/111020_304_55_56.webp",
+   "exp": "✅ (D) 點 7 到點 0 是後界運動最下段回到顎中心關係的路徑，屬於髁頭位於最後上位、只做單純鉸鏈旋轉的終端鉸鏈運動，是靠韌帶限制出來的「邊界」軌跡。咀嚼時下顎是在這個封閉圖形的內部、靠近最大咬頭嵌合位附近上下往返，正常人不會沿著後界邊緣咀嚼，故此敘述錯誤。\n❌ (A) 點 0 為顎中心關係的初始接觸位、點 1 為最大咬頭嵌合位，兩點之間的滑移距離即 MIC-CR discrepancy（正常約 1 mm 左右），敘述正確。\n❌ (B) 點 1 到點 2 是牙齒維持接觸下由咬頭嵌合位前伸至切端對切端，路徑受上顎前牙腭側面的凹凸形態導引，敘述正確。\n❌ (C) 點 6（最大開口）回到點 7 的這一段，髁頭除了旋轉外還帶有沿關節隆凸的位移（translation），敘述正確。\n📚 出處：Okeson, Management of Temporomandibular Disorders and Occlusion, 8th ed.（Border movements of the mandible：Posselt's envelope of motion 與後界運動）。"
   },
   {
    "n": 57,
