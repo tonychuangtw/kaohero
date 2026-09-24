@@ -1,0 +1,4 @@
+/* 申論題：gao1-土壤微生物（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao1-土壤微生物"] = [{"roc":104,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104080&c=250&s=2718&q=1","qs":[{"n":1,"q":"目前常用之土壤微生物生質量有燻蒸孵育法（fumigation incubation）與燻蒸萃取法（fumigation extraction），請分別詳述之。（20 分）","pt":20},{"n":2,"q":"分別說明同化性（assimilatory）硝酸根還原作用、異化性（dissimilatory）硝酸根還原作用與脫氮作用（denitrification）；並說明脫氮作用對空氣品質之影響。（20 分）","pt":20},{"n":3,"q":"說明土壤殺菌的方法。（20 分）","pt":20},{"n":4,"q":"何謂菌根真菌？菌根真菌對植物有何益處？植物對菌根真菌有何益處？對豆科植物而言更有三方共生（tripartite symbioses）之現象，請詳述之。（20 分）","pt":20},{"n":5,"q":"說明下列微生物之特性及其在無機養分循環中之特殊功能：（每小題 4 分，共 20 分）\n（一） Azotobacter\n（二） Cyanobacteria\n（三） Desulfovibrio\n（四） Rhizobium\n（五） Thiobacillus","pt":20}]}];

@@ -1,0 +1,4 @@
+/* 申論題：gao2-海洋生態學概要（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao2-海洋生態學概要"] = [{"roc":103,"mins":90,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103080&c=459&s=2916&q=1","qs":[{"n":1,"q":"說明海洋浮游生物（plankton）、游泳生物（nekton）、底棲生物（benthos）的區別，並各舉一例說明其在海洋生態系中的角色及主要生態適應特徵。（20 分）","pt":20},{"n":2,"q":"說 明 基 礎 生 產 力 （ primary productivity ） 及 其 與 總 基 礎 生 產 量 （ gross primary production）、淨基礎生產量（net primary production）和補償深度（compensation depth）三者的關係。（20 分）","pt":20},{"n":3,"q":"何謂海洋酸化（ocean acidification）？海洋酸化與碳循環（carbon cycle）有何關係？舉例說明海洋酸化會對何種浮游生物造成影響？（20 分）","pt":20},{"n":4,"q":"何謂優養化（eutrophication）？海域優養化的形成原因為何？說明海域優養化與赤潮（red tide）和海洋死區（dead zone）的關係。（20 分）","pt":20},{"n":5,"q":"說明潮間帶（intertidal zone）的定義、潮間帶生態系的環境條件及生物的適應機制。（20 分）","pt":20}]}];

@@ -1,0 +1,4 @@
+/* 申論題：gao1-消費者行為（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao1-消費者行為"] = [{"roc":103,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103080&c=232&s=1124&q=1","qs":[{"n":1,"q":"階梯理論以方法目的鏈（Means-End Chain Model）來說明消費者購買某項產品的ACV 連結，請說明 ACV 各代表那三種意涵？（10 分）請利用方法目的鏈關係圖，繪製消費者購買某名牌薄荷亮白牙膏的 ACV 關係圖。（15 分）","pt":25},{"n":2,"q":"臺灣因為人口老化情況日趨嚴重，有一家醫療機構想要到非都會型地區的屏東市開設一家結合醫療與飯店式管理模式的安養中心，請以創新擴散理論討論各個階段消費者特性以及他們考慮的因素。（25 分）","pt":25},{"n":3,"q":"請說明何謂古典制約（Classical Conditioning）？（15 分）古典制約理論可應用在消費者行為上有三種方式（重複性、刺激類化、刺激異化），請分別舉例說明如何應用於政府政策的推展。（15 分）","pt":30},{"n":4,"q":"試述下列名詞之意涵：（每小題 5 分，共 20 分）資訊處理模式（Information Processing Model）非補償模式 （Noncompensatory Model）五因素人格特質結構（Five Factor Personality Structure）內在歸因（Internal Attribution）","pt":20}]}];

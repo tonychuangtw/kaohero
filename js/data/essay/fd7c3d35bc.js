@@ -1,0 +1,4 @@
+/* 申論題：gao1-人因工程（工業設計組）（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao1-人因工程（工業設計組）"] = [{"roc":103,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103080&c=290&s=2707&q=1","qs":[{"n":1,"q":"於人因工程（人體工學）研究方法上：效標量度（Criterion Measures）之 Human Criteria 有那幾種？請詳加說明如何量測。（10 分）效標量度中，何謂終端效標？何謂中間效標？並舉例說明二者之不同與應用。（10 分）","pt":20},{"n":2,"q":"於分割型注意（Divided Attention）中：何謂分割型注意之多元資源理論（Multiple-Resource Theories of Divided Attention）？（8 分）請以此理論詳加說明開車時會面臨的問題。（12 分）","pt":20},{"n":3,"q":"於人工物料搬運（Manual Materials Handling）上，評估人工搬物的方法有那些？並詳加說明如何用這些方法來進行評估。（20 分）","pt":20},{"n":4,"q":"在 3D 視覺中，人們如何辨識深度知覺？請詳加說明其方法。（14 分）","pt":14},{"n":5,"q":"何謂 Human-computer Interaction？ （4 分）如果您要設計一個符合部分人「居家習慣」的冷氣機，您將如何設計？請詳加說明這些設計活動之內容。（12 分）以圖示說明最終之設計，及其特點。（10 分）","pt":26}]}];

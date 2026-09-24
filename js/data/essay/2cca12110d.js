@@ -1,0 +1,4 @@
+/* 申論題：gao2-資訊管理概要（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao2-資訊管理概要"] = [{"roc":102,"mins":90,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102090&c=441&s=1512&q=1","qs":[{"n":1,"q":"在資訊安全（Information Security）上提到利用密碼系統保護資訊必須提供下列功能：機密性（Confidentiality）、鑑定性（Authenticity）、完整性（Integrity）與不可否認性（Non-repudiation），請定義此四個功能。（20 分）","pt":20},{"n":2,"q":"順向工程及逆向工程提供了不同的方式來發展系統模型，請解釋何謂順向工程（Forward Engineering）及逆向工程（Reverse Engineering），並說明什麼是功能性需求（Functional Requirement）與非功能性需求（Nonfunctional Requirement）？（20 分）","pt":20},{"n":3,"q":"在 UML 系統分析與設計上，必須了解屬性的定義、類別的定義及類別間的關係。試以紅色汽車、白色貨車及藍色漁船來說明何謂類別及屬性？並以車子、車輪和行動電腦為例來說明類別間關係 Part-of 和 Has-a 之定義為何。（20 分）","pt":20},{"n":4,"q":"知識管理裡，Nonaka & Takuichi 提出知識創造為 SECI 模式，請描述其內容。（20 分）","pt":20},{"n":5,"q":"正規化的目的簡單的說法是要將資料的重覆性降至最低，試說明資料庫正規化概念裡第一正規化（1NF）、第二正規化（2NF）及第三正規化（3NF）的重點。（20 分）","pt":20}]}];

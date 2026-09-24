@@ -1,0 +1,4 @@
+/* 申論題：gao1-博物館管理（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao1-博物館管理"] = [{"roc":103,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103080&c=241&s=1021&q=1","qs":[{"n":1,"q":"參照國際博物館協會（ICOM）所訂定章程，試論博物館之定義及其在當代社會的功能與核心價值。（25 分）","pt":25},{"n":2,"q":"請舉例並說明：博物館如何保存維護、展示有形與無形文化資產。（25 分）","pt":25},{"n":3,"q":"為堅持服務社會、社區、公眾和博物館從業人員的專業性，試申論博物館職業道德倫理的基本規範與標準。（25 分）","pt":25},{"n":4,"q":"試從博物館學觀點（museological perspective），條列說明博物館數位化的目的、主要作業工作項目與內容。（25 分）","pt":25}]},{"roc":102,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102090&c=337&s=1117&q=1","qs":[{"n":1,"q":"試說明何謂 museography？並請闡釋 museography 與 museology 之關係。（25 分）","pt":25},{"n":2,"q":"試述博物館的社會責任。（25 分）","pt":25},{"n":3,"q":"試述博物館在終身學習社會中所扮演的角色。（25 分）","pt":25},{"n":4,"q":"試述一個展示計畫應包含的基本項目。（25 分）","pt":25}]}];

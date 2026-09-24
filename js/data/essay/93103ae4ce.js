@@ -1,0 +1,4 @@
+/* 申論題：gao1-技職教育行政（tools/gen_essay.py 產生，勿手改）
+   題目為考選部考畢試題查詢平臺公開資料；參考架構為本站自撰，非官方答案。 */
+window.APP_ESSAY_PAPERS = window.APP_ESSAY_PAPERS || {};
+window.APP_ESSAY_PAPERS["gao1-技職教育行政"] = [{"roc":104,"mins":120,"src":"https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104080&c=211&s=0907&q=1","qs":[{"n":1,"q":"在 Charles A. Prosser 的「職業教育 16 定理」（Sixteen Theorems on Vocational Education）中，第 15 定理如下列英文所述。請申論其意涵，並說明該定理可適用於我國技職教育中的那個案例。“The administration of vocational education will be efficient in proportion as it is elastic and fluid rather than rigid and standardized.”（25 分）","pt":25},{"n":2,"q":"我國於民國 104 年 1 月公布的技術及職業教育法第 6 條規定「直轄市、縣（市）主管機關應每三年向中央主管機關提出技職教育報告，由中央主管機關據以訂定技職教育發展報告」。試問該「技職教育報告」應包含那些重要內容？為什麼？（25 分）","pt":25},{"n":3,"q":"請闡述我國教育部推動職業學校能力本位教育（competency-based education, CBE）的現況、問題與對策。（25 分）","pt":25},{"n":4,"q":"試論我國技專校院落實學生校外實習課程的行政障礙及排除障礙的可行策略。（25 分）","pt":25}]}];
