@@ -209,7 +209,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "三位病患之風險相同"
    ],
    "a": 1,
-   "fig": "img/q/105100_304_44_14.webp"
+   "fig": "img/q/105100_304_44_14.webp",
+   "exp": "✅ (B) B 片的上顎竇氣化最明顯，竇底向下延伸進入齒槽突、甚至伸入上顎第一大臼齒各牙根之間，根尖與竇底之間幾乎沒有骨質相隔。此時用拔牙挺由根尖方向施力，斷根很容易被推進上顎竇內，風險最高。\n❌ (A) A 片的上顎竇底位置較高，與上顎大臼齒根尖之間仍保有一層明顯的皮質骨與齒槽骨，斷根被推入竇腔的機會相對低。\n❌ (C) C 片的竇底同樣位在根尖上方且骨壁完整，未見竇底下伸包繞牙根，風險低於 B。\n❌ (D) 斷根被推入上顎竇的風險主要取決於竇底與根尖的距離、竇氣化程度與骨壁厚度，三人解剖條件明顯不同，風險不可能相同。\n📚 出處：Contemporary Oral and Maxillofacial Surgery，拔牙併發症與口腔上顎竇交通（oroantral communication）章節"
   },
   {
    "n": 15,
@@ -904,7 +905,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "病人移動"
    ],
    "a": 3,
-   "fig": "img/q/105100_304_44_63.webp"
+   "fig": "img/q/105100_304_44_63.webp",
+   "exp": "✅ (D) 整張影像的牙冠、牙根輪廓、齒槽骨小樑全都均勻模糊、邊緣重影而失去銳利度，密度與對比卻正常，這是曝光中病人（或球管、感光元件）移動造成的動態不銳利（motion unsharpness）。\n❌ (A) mA 過低只會減少 X 光光子量，影像變淡（密度不足），但構造邊緣仍然銳利，不會產生這種整體模糊重影。\n❌ (B) kVp 過低影響的是穿透力與對比，表現為影像偏白、對比過高，同樣不會使邊緣模糊。\n❌ (C) X 光片彎曲造成的是局部影像扭曲、牙根伸長或縮短變形，而且集中在彎折處，不是全片一致的模糊。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，影像品質與拍攝失誤（銳利度與動態不銳利）章節"
   },
   {
    "n": 64,
@@ -918,7 +920,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Anterior-posterior view"
    ],
    "a": 0,
-   "fig": "img/q/105100_304_44_64.webp"
+   "fig": "img/q/105100_304_44_64.webp",
+   "exp": "✅ (A) 影像中兩側眼眶完整呈現、上顎竇位於眼眶下方且未被顳骨岩部陰影遮蓋、鼻中膈居中，這是頭部後仰（頦鼻位、中央射線與底片約成 37 度）所拍的 Water's view，主要用來評估上顎竇與眼眶下緣。\n❌ (B) Submental vertex view 由頦下往顱頂投射，呈現的是顱底、顴骨弓與下顎骨，看不到這種眼眶與上顎竇並列的正面影像。\n❌ (C) Posterior-anterior view 頭部不後仰，顳骨岩部會重疊在上顎竇上，上顎竇顯示不清，與本圖不符。\n❌ (D) Anterior-posterior view 放大失真更明顯、顏面骨影像品質較差，臨床上不用於上顎竇評估，影像特徵也與本圖不同。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，顎面部外投影技術（Waters projection）章節"
   },
   {
    "n": 65,
@@ -932,7 +935,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "suture"
    ],
    "a": 2,
-   "fig": "img/q/105100_304_44_65.webp"
+   "fig": "img/q/105100_304_44_65.webp",
+   "exp": "✅ (C) 箭頭所指是上顎後牙區根尖上方、走向與齒槽骨長軸大致平行的細長帶狀透過影，兩側邊緣平行且連續，並與上顎竇底相鄰，屬於供應後牙的神經血管通道（營養管／後上齒槽神經血管管），是正常解剖構造。\n❌ (A) 骨折線通常伴隨外傷病史，走向不規則、可跨越皮質骨邊界並出現階梯狀錯位，不會呈現兩側平行、粗細一致的管狀影。\n❌ (B) 廔管（fistulae）是軟組織的膿液通道，X 光上一般看不到；若有骨內破壞也是以根尖透亮病灶呈現，不會是長條帶狀管道。\n❌ (D) 縫合線出現在特定的骨縫位置（如上顎間縫、顴上顎縫），走向固定且邊緣較不規則，不會在齒槽骨與竇底之間呈水平走行的管狀影。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，上顎正常解剖構造（營養管與神經血管管）章節"
   },
   {
    "n": 66,
@@ -946,7 +950,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Incisive foramen"
    ],
    "a": 0,
-   "fig": "img/q/105100_304_44_66.webp"
+   "fig": "img/q/105100_304_44_66.webp",
+   "exp": "✅ (A) 箭頭指向中線、位於鼻中膈下端與鼻腔底交會處的一個倒 V 字形（尖端朝上）緻密影，正是前鼻棘（anterior nasal spine）——上顎骨在鼻孔下緣中央向前突出的骨性突起。\n❌ (B) 上顎間縫是中門牙之間向上延伸的一條細長透過線，是黑色的縫隙影像，不是這種 V 形的緻密突起。\n❌ (C) 鼻腔底前緣呈兩側水平走向的緻密線，位在前鼻棘兩旁並向側方延伸，不是中線上的錐狀突起。\n❌ (D) 門齒孔位於兩中門牙根之間、較靠根尖下方，表現為卵圓形透過影（黑色），與本圖中線上的白色骨突完全不同。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，上顎前牙區正常解剖構造章節"
   },
   {
    "n": 67,
@@ -974,7 +979,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Ameloblastoma"
    ],
    "a": 2,
-   "fig": "img/q/105100_304_44_68.webp"
+   "fig": "img/q/105100_304_44_68.webp",
+   "exp": "✅ (C) 病灶位於下顎骨體部與角部，呈瀰漫性骨膨大、密度增高的毛玻璃狀（ground-glass）影像，與周圍正常骨之間沒有清楚界線而是漸進移行，並使下顎管與齒槽骨小樑影像模糊——這是纖維性骨失養症（fibrous dysplasia）的典型表現。\n❌ (A) 軟骨瘤是界線清楚的局限性腫塊，內部常見點狀或環狀鈣化斑，好發於髁突區，不會是整段下顎骨的瀰漫膨大。\n❌ (B) 放射性骨壞死須有頭頸部放射治療病史，影像以骨質破壞、透亮與緻密混雜、腐骨（sequestrum）分離與病理性骨折為主，不是均勻毛玻璃狀。\n❌ (D) 齒堊質瘤（ameloblastoma）為膨脹性的單房或多房肥皂泡狀透過性病變，邊界清楚且常造成牙根吸收，與本圖的緻密膨大完全相反。\n📚 出處：Neville《Oral and Maxillofacial Pathology》，骨病變—纖維性骨失養症（fibrous dysplasia）章節"
   },
   {
    "n": 69,
@@ -988,7 +994,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Talon cusp"
    ],
    "a": 1,
-   "fig": "img/q/105100_304_44_69.webp"
+   "fig": "img/q/105100_304_44_69.webp",
+   "exp": "✅ (B) 該側門牙的牙冠內可見一個由緻密琺瑯質圍成、形似淚滴或燒瓶的內陷影像，自舌側窩向牙髓方向凹入，形成「牙中牙（dens in dente）」外觀，即內陷性齒（dens invaginatus），側門牙是最好發的牙位。\n❌ (A) 外突性齒（dens evaginatus）是咬合面或舌側多出的結節狀牙尖，影像上表現為牙冠外形多一個突起，好發於下顎小臼齒，不是牙冠內的內陷影。\n❌ (C) 錐狀側門牙（peg lateral）是整顆牙冠縮小成錐形，牙冠外形改變但內部構造正常，本圖牙冠大小正常而內部有內陷。\n❌ (D) 爪狀尖（talon cusp）是前牙舌側一個大型 V 形附加牙尖，影像上與牙冠重疊成三角形緻密影，屬於向外增生而非向內凹陷。\n📚 出處：Neville《Oral and Maxillofacial Pathology》，牙齒發育異常—內陷性齒（dens invaginatus）章節"
   },
   {
    "n": 70,
@@ -1002,7 +1009,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Odontogenesis imperfecta"
    ],
    "a": 0,
-   "fig": "img/q/105100_304_44_70.webp"
+   "fig": "img/q/105100_304_44_70.webp",
+   "exp": "✅ (A) 根尖片上牙冠外層的琺瑯質極薄甚至幾乎消失，琺瑯質與牙本質之間失去正常的密度對比，牙冠因而輪廓縮小、鄰接點分開；但髓腔、根管與牙根形態都正常。年輕病人全口牙齒嚴重磨耗合併這種表現，符合琺瑯質生成不全（amelogenesis imperfecta）。\n❌ (B) 牙本質生成不全的特徵是牙冠球狀膨大、牙頸部明顯縮窄、牙根細短，且髓腔與根管早期鈣化閉鎖，本圖髓腔與根管清晰可見。\n❌ (C) 牙本質發育不良（dentin dysplasia）以牙根極短或缺如、髓腔閉鎖成新月形、常伴多發性根尖透亮病灶為主，與本圖正常長度的牙根不符。\n❌ (D) 醫學上並無 odontogenesis imperfecta 這個診斷名稱，是杜撰的干擾選項。\n📚 出處：Neville《Oral and Maxillofacial Pathology》，牙齒發育異常—琺瑯質生成不全（amelogenesis imperfecta）章節"
   },
   {
    "n": 71,
@@ -1030,7 +1038,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "靜脈結石"
    ],
    "a": 3,
-   "fig": "img/q/105100_304_44_72.webp"
+   "fig": "img/q/105100_304_44_72.webp",
+   "exp": "✅ (D) 箭頭指向下顎枝後方軟組織內數個圓形鈣化影，中央透亮、外圍呈同心圓層狀（靶心／洋蔥皮狀），且多發並排分布——這是血管內血栓鈣化形成的靜脈結石（phlebolith），常伴隨血管瘤或血管畸形。\n❌ (A) 多生牙會有可辨認的牙冠、牙本質與牙髓腔構造並位於齒槽骨內，本圖鈣化影位於骨外軟組織且無牙齒形態。\n❌ (B) 唾液腺結石多為單一、密度均勻的卵圓形緻密影，位置沿頜下腺導管（下顎骨體下方、口底）分布，不會呈中央透亮的同心圓。\n❌ (C) 淋巴結鈣化呈不規則、表面凹凸的花椰菜狀緻密團塊，沿頸部淋巴鏈分布，內部密度不均但無層狀同心環。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，軟組織鈣化—靜脈結石（phlebolith）章節"
   },
   {
    "n": 73,
@@ -1058,7 +1067,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "PET whole body scan"
    ],
    "a": 3,
-   "fig": "img/q/105100_304_44_74.webp"
+   "fig": "img/q/105100_304_44_74.webp",
+   "exp": "✅ (D) 影像是全身冠狀面的功能性造影，解剖細節模糊但腦部、心肌、肝、腎與膀胱等生理性攝取部位呈現明顯濃聚黑影，並可見數處散在的局灶性高攝取點，這是 FDG 全身正子造影（PET whole body scan）的典型表現，用於評估腫瘤與遠端轉移。\n❌ (A) MRI 呈現的是高解析度的軟組織斷層影像，肌肉、脂肪與臟器層次分明，不會是這種只顯示代謝熱點的模糊全身像。\n❌ (B) 超音波只能做局部區域的即時掃描，影像呈扇形且帶有聲影與雜訊，無法產生整個軀幹的全身影像。\n❌ (C) 電腦斷層以 X 光衰減成像，骨骼呈明亮白色、軟組織層次清楚，且以橫斷面為主，與本圖的代謝分布影像不同。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，進階影像檢查—核子醫學與正子造影（PET）章節"
   },
   {
    "n": 75,
@@ -1128,7 +1138,8 @@ window.APP_EXAM_PAPERS['den-105-2-dent4'] = {
     "Ramus of the mandible"
    ],
    "a": 1,
-   "fig": "img/q/105100_304_44_79.webp"
+   "fig": "img/q/105100_304_44_79.webp",
+   "exp": "✅ (B) 本圖是頭部後仰拍攝的 Water's view：顳骨岩部陰影被壓到上顎竇下方，兩側上顎竇因此完整顯露成對稱的透亮影，可清楚比較兩側竇腔的透亮度、竇壁完整性與有無積液，主要就是為了觀察上顎竇。\n❌ (A) 顴骨弓要用 submental vertex view（顱底位）或顴骨弓切線投影才能不受重疊地顯示，本投影中顴骨弓與其他顱骨重疊。\n❌ (C) 下顎骨體部在本圖位於影像下緣且與頸椎、顱底重疊，評估下顎骨體應用全景片或側斜位（lateral oblique）投影。\n❌ (D) 下顎枝同樣被其他構造重疊，臨床上以全景片或下顎枝側斜位投影評估，不會選 Water's view。\n📚 出處：White & Pharoah《Oral Radiology: Principles and Interpretation》，顎面部外投影技術（Waters projection 與上顎竇評估）章節"
   },
   {
    "n": 80,
