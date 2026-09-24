@@ -293,7 +293,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent6'] = {
     "Angle ClassⅢ malocclusion"
    ],
    "a": 2,
-   "fig": "img/q/104090_304_66_20.webp"
+   "fig": "img/q/104090_304_66_20.webp",
+   "exp": "✅ (C) 右側照片可見上顎第一大臼齒近心頰尖對到下顎第一大臼齒頰側溝，屬 Angle Class I；左側則為遠心咬合（Class II）。兩側關係不一致、只有單側是 Class II 時，Angle 分類加註「subdivision」，而 subdivision 後面標的是「異常的那一側」，故為 Class II subdivision left。\n❌ (A) Class I 必須兩側臼齒關係都是中性咬合；本例左右不對稱，不能單純稱 Class I。\n❌ (B) subdivision right 代表右側才是 Class II，但圖中右側為中性咬合，左右標反。\n❌ (D) Class III 是下顎第一大臼齒相對上顎呈近心咬合、常伴前牙錯咬或下顎前突，與圖示的咬合關係不符。\n📚 出處：Proffit, Contemporary Orthodontics，Angle 咬合異常分類與 subdivision 命名章節"
   },
   {
    "n": 21,
