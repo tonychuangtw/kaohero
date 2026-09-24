@@ -1105,7 +1105,8 @@ window.APP_EXAM_PAPERS['mlt-115-1-mlt3'] = {
     "此方法常用來檢測單一核苷酸變異（single nucleotide variants, SNVs）"
    ],
    "a": 2,
-   "fig": "img/q/115020_308_0504_78.webp"
+   "fig": "img/q/115020_308_0504_78.webp",
+   "exp": "✅ (C) 圖中 C 區域（約 q25.1）的 log2 ratio 明顯上移至 +2 左右，代表檢體 DNA 在該段的訊號遠高於對照，屬於拷貝數增加（amplification）；aCGH 正是以 log2 ratio 偏離 0 來判定染色體片段的增減，故 C 區域可能存在 CNVs。\n❌ (A) A 區域 log2 ratio 下降到約 −2，表示該片段缺失（deletion）造成拷貝數減少，而非點突變；aCGH 依賴序列雜交量的多寡，單一鹼基置換不會改變雜交訊號量。\n❌ (B) B 區域 log2 ratio 散布在 0 附近，代表檢體與對照拷貝數相同的「正常」結果，是有意義的判讀依據，不是可忽略的背景雜訊。\n❌ (D) aCGH 的解析力受探針間距限制，只能偵測片段性的增減（通常 kb 級以上），無法辨識單一核苷酸變異；SNVs 須用 Sanger 定序或次世代定序（NGS）檢測。\n📚 出處：臨床分子診斷學「陣列比較基因體雜交（aCGH）與拷貝數變異判讀」章節"
   },
   {
    "n": 79,
