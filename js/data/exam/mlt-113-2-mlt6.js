@@ -703,7 +703,8 @@ window.APP_EXAM_PAPERS['mlt-113-2-mlt6'] = {
     "kanamycin"
    ],
    "a": 1,
-   "fig": "img/q/113090_308_44_49.webp"
+   "fig": "img/q/113090_308_44_49.webp",
+   "exp": "✅ (B) 圖中為四員的 β-lactam 環與五員環稠合，且五員環上是碳（非硫）並含雙鍵，即 carbapenem 骨架；再加上 C-6 的 hydroxyethyl 側鏈、C-2 經硫連接 N-formimidoyl aminoethyl 基，正是 imipenem（N-formimidoyl thienamycin）的結構。imipenem 屬 β-lactam 類，抑制 penicillin-binding proteins 而阻斷細胞壁合成，對 β-lactamase 穩定度高。\n❌ (A) vancomycin 為醣胜肽類抗生素，結構是大型三環胜肽糖苷，與 D-Ala-D-Ala 末端結合，並無 β-lactam 四員環。\n❌ (C) linezolid 屬 oxazolidinone 類，核心為含嗎啉基與氟苯基的 oxazolidinone 五員環，作用於 50S 核糖體阻止起始複合體形成，結構中無 β-lactam。\n❌ (D) kanamycin 為 aminoglycoside，由胺基環醇與多個胺基糖以糖苷鍵相連，作用於 30S 核糖體，結構全為糖環而非 β-lactam。\n📚 出處：臨床微生物學「抗微生物製劑分類與作用機轉—β-lactam 之 carbapenem 類」；Mahon & Lehman, Textbook of Diagnostic Microbiology, Antimicrobial Agent Mechanisms of Action 章節。"
   },
   {
    "n": 50,
