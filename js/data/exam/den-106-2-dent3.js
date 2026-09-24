@@ -687,7 +687,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "walking bleaching technique；30～35% hydrogen peroxide"
    ],
    "a": 0,
-   "fig": "img/q/106100_304_33_48.webp"
+   "fig": "img/q/106100_304_33_48.webp",
+   "exp": "✅ (A) 圖中是以注射器把美白凝膠注入客製化軟式牙托（custom tray），這是典型的居家美白（home-applied / nightguard vital bleaching），由患者自行配戴數小時或整夜；因作用時間長，藥劑濃度低，最常用 10～15% carbamide peroxide（約相當於 3.5～5% 過氧化氫）。\n❌ (B) 居家美白不會用到 30～35% hydrogen peroxide，這是診間（in-office）高濃度美白的濃度，需隔離牙齦與軟組織，患者自行使用會造成灼傷。\n❌ (C) walking bleaching 是根管治療後牙齒的內漂白，把藥劑封在髓腔內、暫時封填後讓它持續作用，圖中為牙托而非髓腔封藥。\n❌ (D) 同上，圖示不是內漂白；且 walking bleaching 傳統配方為過硼酸鈉（sodium perborate）加水或低濃度過氧化氫，並非 30～35% hydrogen peroxide 直接封入。\n📚 出處：Sturdevant's Art and Science of Operative Dentistry，牙齒美白（vital/nonvital bleaching）章節"
   },
   {
    "n": 49,
@@ -812,7 +813,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "某些部位可能需手術處置，甚至進一步牙周專業處理"
    ],
    "a": 3,
-   "fig": "img/q/106100_304_33_57.webp"
+   "fig": "img/q/106100_304_33_57.webp",
+   "exp": "✅ (D) CPITN 以六分區記錄最高代碼，此人分區代碼為 X、4、3／2、1、3，最高為 code 4（囊袋深度 ≥ 6 mm），對應治療需求 TN3：除口腔衛生指導與牙結石清除／牙根整平外，某些部位還需複雜處置（翻瓣手術等）或轉介牙周專科。\n❌ (A) 只有 code 0（全部健康）才是 TN0 不需牙周治療；本例有 code 4 的深囊袋，且缺牙分區（X）也要先處理牙周病況再談重建。\n❌ (B) 僅需口腔衛生輔導（TN1）適用於最高代碼為 1（探測後出血）的情形；本例尚有 code 2、3、4。\n❌ (C) 洗牙及牙根整平（TN2）對應最高代碼為 2（牙結石／不良填補物）或 3（囊袋 4～5 mm）；本例已出現 code 4，非單靠非手術治療可解決。\n📚 出處：Carranza's Clinical Periodontology，流行病學指數與 CPITN 治療需求分級"
   },
   {
    "n": 58,
@@ -854,7 +856,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "Periodontitis"
    ],
    "a": 2,
-   "fig": "img/q/106100_304_33_60.webp"
+   "fig": "img/q/106100_304_33_60.webp",
+   "exp": "✅ (C) 圖中顯示接合上皮明顯增生（marked proliferation of junctional epithelium）、中性球大量移出，且浸潤的白血球中漿細胞占 10～30%，但病灶仍侷限於 CEJ 之上、尚無齒槽骨與附連喪失，這是 Page 與 Schröeder 分期的第三期「established lesion（確立期牙齦炎）」，臨床即慢性牙齦炎。\n❌ (A) initial lesion 發生於牙菌斑堆積後約 2～4 天，特徵是血管炎、中性球移出與接合上皮下少量膠原流失，不會有大量漿細胞。\n❌ (B) early lesion 約 4～7 天，浸潤細胞以 T 淋巴球為主（漿細胞很少），接合上皮只有初期的網釘狀延伸。\n❌ (D) periodontitis（advanced lesion）的關鍵是接合上皮往根尖移行形成牙周囊袋並出現齒槽骨吸收與附連喪失，圖中病灶未越過 CEJ。\n📚 出處：Carranza's Clinical Periodontology，Page 與 Schröeder 牙齦炎／牙周炎病理四期（initial、early、established、advanced lesion）"
   },
   {
    "n": 61,
@@ -1022,7 +1025,8 @@ window.APP_EXAM_PAPERS['den-106-2-dent3'] = {
     "Palatal flap"
    ],
    "a": 1,
-   "fig": "img/q/106100_304_33_72.webp"
+   "fig": "img/q/106100_304_33_72.webp",
+   "exp": "✅ (B) 圖中刀刃在頰側做溝內切開，並在牙間區以弧形（半月形）切線越過牙間乳突基部，使整個牙間乳突與唇頰側瓣連成一體往頰側翻起，這是乳突保存瓣（papilla preservation flap）的切開設計，目的是保留完整乳突以覆蓋植骨材料、減少術後黑三角。\n❌ (A) Modified Widman flap 是在牙冠側 0.5～1 mm 做扇形的內斜切開（internal bevel），再加溝內與牙間水平切開把領圈組織切除，乳突會被從中切開而非保留。\n❌ (C) Excisional new attachment procedure（ENAP）是以內斜切開把囊袋內壁上皮與發炎結締組織整個切除的刮除性術式，不翻大瓣、也不強調乳突完整保留。\n❌ (D) Palatal flap 指顎側因無活動黏膜、無法做垂直減張的瓣設計，重點在以內斜切開決定瓣的厚度與位置，與圖示的頰側乳突弧形切線無關。\n📚 出處：Carranza's Clinical Periodontology，牙周翻瓣手術之切開設計（papilla preservation flap）"
   },
   {
    "n": 73,
