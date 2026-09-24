@@ -69,7 +69,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "標示3稱為關節盂後突（post glenoid process）"
    ],
    "a": 0,
-   "fig": "img/q/108100_303_11_4.webp"
+   "fig": "img/q/108100_303_11_4.webp",
+   "exp": "✅ (A) 錯在「右側」。圖中顳骨鱗部在上方，顴突（zygomatic process）向畫面左側延伸、乳突與岩部在畫面右側；顴突指向前方，可知前方朝觀者左側、後方朝右側，故此為左側顳骨的外側面觀，而非右側。\n❌ (B) 標示1位於下頜窩前緣的橫向骨嵴，即關節結節（articular tubercle），是開口時下頜髁向前滑行所越過的斜面，敘述正確。\n❌ (C) 標示2為鱗部下方、關節結節後方的凹窩，即下頜窩／關節窩（articular fossa），與下頜髁共同構成顳顎關節，敘述正確。\n❌ (D) 標示3位於關節窩後緣的小骨性隆起，即關節盂後突（postglenoid process），構成關節窩的後界並阻擋髁突向後移位，敘述正確。\n📚 出處：Netter's Head and Neck Anatomy for Dentistry，顳骨外側面與顳顎關節骨性構造"
   },
   {
    "n": 5,
@@ -195,7 +196,8 @@ window.APP_EXAM_PAPERS['den-108-2-dent1'] = {
     "標示19處之血管為上唇動脈（superior labial artery）"
    ],
    "a": 2,
-   "fig": "img/q/108100_303_11_13.webp"
+   "fig": "img/q/108100_303_11_13.webp",
+   "exp": "✅ (C) 標示13的血管在咬肌前緣處（antegonial notch）繞過下頜體下緣上行至面部、走向口角與鼻翼，是頸外動脈在頸部發出的顏面動脈（facial artery），其行走路徑與下頜下緣的可觸脈搏點一致。\n❌ (A) 圖中頭面朝畫面左側，標示1位於後上方頭皮，該處為淺顳動脈的頂分枝（parietal branch）分布區；額分枝（frontal branch）向前走向前額，是圖中前上方（23、24 一帶）的分枝。\n❌ (B) 橫面動脈由淺顳動脈在腮腺內發出後，向前橫越咬肌表面、走在顴弓下方與腮腺管上方；標示7的血管位於下頜枝後方耳區，位置與走向都不合。\n❌ (D) 標示19在鼻翼外側／眶下一帶，屬顏面動脈末段與眶下區的分枝；上唇動脈是顏面動脈在口角附近發出、沿上唇緣水平走入唇內的分枝，位置比19低且貼近唇緣。\n📚 出處：Netter's Head and Neck Anatomy for Dentistry，頸外動脈分枝與顏面部血液供應"
   },
   {
    "n": 14,
