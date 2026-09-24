@@ -85,7 +85,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b023'] = {
     "module TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A | B;always @(B or C) Y = B & C; endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A | B;always @(posedge clock) Y = B & C; endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;wire Y;always @(posedge clock) X = A | B;always @(posedge clock) Y = B & C;endmodulemodule TestCircuit (A, B, C, clock, X, Y);input A;input B;input C;input clock;output X;output Y;reg X;reg Y;always @(posedge clock) X <= A+B;always @(B or C) Y = B * C;endmodule"
    ],
    "a": 0,
-   "fig": "img/q/103180_436_2213_5.webp"
+   "fig": "img/q/103180_436_2213_5.webp",
+   "exp": "✅ (A) 圖中 A、B 經 OR 閘後送進 D 型正反器，由 clock 正緣取樣才輸出 X，所以 X 必須寫成「always @(posedge clock) X <= A | B;」的同步邏輯，且宣告為 reg；B、C 經 AND 閘直接輸出 Y，沒有經過正反器，屬純組合邏輯，要寫成「always @(B or C) Y = B & C;」（感應清單為輸入訊號、用阻隔式指定 =）。(A) 兩段各自對應圖上的同步與組合部分，合成結果與圖相同。\n❌ (B) 把 Y 也寫成 @(posedge clock)，合成後 Y 會多出一個正反器、慢一個時脈才輸出，與圖中 AND 閘直接拉出 Y 不符。\n❌ (C) Y 宣告為 wire 卻在 always 區塊內指定，語法即錯誤（always 內被指定的訊號必須是 reg）；且 Y 一樣被時脈化。\n❌ (D) 用 A+B（加法）與 B*C（乘法）取代 OR 與 AND，合成出的是加法器與乘法器，功能完全不同。\n📚 出處：Verilog 硬體描述語言——時序邏輯（posedge clock 與非阻隔指定 <=）與組合邏輯（電位感應清單與阻隔指定 =）的描述方式"
   },
   {
    "n": 6,
