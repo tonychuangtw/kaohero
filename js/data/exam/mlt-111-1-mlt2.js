@@ -419,7 +419,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "巨核紅細胞（megaloblast）增生"
    ],
    "a": 3,
-   "fig": "img/q/111020_308_22_29.webp"
+   "fig": "img/q/111020_308_22_29.webp",
+   "exp": "✅ (D) 圖中可見數個體積特別大的紅血球前驅細胞：細胞核大、染色質疏鬆呈篩孔狀（open, sieve-like chromatin），胞質卻已嗜鹼深藍並開始血紅素化，呈典型的核質成熟不同步（nuclear-cytoplasmic asynchrony），即巨核紅細胞（megaloblast）增生，常見於維生素 B12 或葉酸缺乏。\n❌ (A) 單核球核呈腎形或摺疊狀、染色質細緻如網，胞質灰藍帶細小空泡，圖中細胞核圓大且染色質粗篩狀，並非單核球。\n❌ (B) 髓性母細胞體積較小、核染色質細緻均勻並可見明顯核仁，胞質量少、不呈深藍亦無成熟化跡象，與圖示不符。\n❌ (C) 漿細胞核偏於一側、染色質呈車輪狀，胞質深藍且有核旁淡染區（perinuclear hof），圖中未見此特徵。\n📚 出處：Rodak's Hematology 巨母紅血球性貧血（megaloblastic anemia）章節；核質成熟不同步的骨髓形態判讀。"
   },
   {
    "n": 30,
@@ -447,7 +448,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "Acute myeloid leukemia, M6 type"
    ],
    "a": 2,
-   "fig": "img/q/111020_308_22_31.webp"
+   "fig": "img/q/111020_308_22_31.webp",
+   "exp": "✅ (C) 圖中大量白血病細胞胞質充滿粗大紫紅色嗜天青顆粒（hypergranular promyelocyte），顆粒濃密到幾乎蓋住細胞核輪廓，符合 FAB 分型的 M3（急性前髓細胞白血病）。M3 顆粒釋出促凝物質易引發 DIC，正好解釋題幹「月經後流血不止、臉色蒼白」的出血與貧血表現。\n❌ (A) M0 為最未分化型，母細胞胞質無顆粒、無 Auer 小體，MPO 染色陽性率 < 3%，須靠免疫表型認定，與圖中滿佈粗顆粒的細胞不符。\n❌ (B) M1 的母細胞雖 MPO 陽性，但胞質顆粒稀少、成熟至前髓細胞以後的比例低，不會呈現如圖的大量粗顆粒。\n❌ (D) M6（紅血球性白血病）以骨髓紅血球前驅細胞 ≥ 50%、並見異常類巨母紅血球樣紅系細胞為要件，圖中沒有紅系增生。\n📚 出處：FAB 急性骨髓性白血病分型準則；Rodak's Hematology 急性白血病章節 —— M3 高顆粒型前髓細胞與 DIC。"
   },
   {
    "n": 32,
@@ -475,7 +477,8 @@ window.APP_EXAM_PAPERS['mlt-111-1-mlt2'] = {
     "Nodular sclerosis type"
    ],
    "a": 3,
-   "fig": "img/q/111020_308_22_33.webp"
+   "fig": "img/q/111020_308_22_33.webp",
+   "exp": "✅ (D) 低倍視野可見淋巴結被粗大的粉紅色膠原纖維帶（collagen band）分割成數個界限分明的結節，這正是結節硬化型（nodular sclerosis）Hodgkin lymphoma 的組織學標誌；結節內常可找到胞質收縮而呈空腔感的腔隙細胞（lacunar cell）。此型最常見，好發於年輕女性與縱膈腔。\n❌ (A) 淋巴球為主型（lymphocyte rich）背景以大量小淋巴球為主，不會出現膠原纖維帶把組織分割成結節。\n❌ (B) 淋巴球缺乏型（lymphocyte depleted）淋巴球稀少，以多量 RS 細胞或瀰漫性非結節性纖維化為主，不形成規則結節。\n❌ (C) 混合細胞型（mixed cellularity）呈瀰漫性浸潤，背景混雜嗜酸性球、漿細胞與組織球，同樣沒有膠原帶造成的結節化。\n📚 出處：Robbins Basic Pathology 何杰金氏淋巴瘤（Hodgkin lymphoma）分型章節；結節硬化型的膠原纖維帶與 lacunar cell。"
   },
   {
    "n": 34,
