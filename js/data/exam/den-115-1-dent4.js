@@ -139,7 +139,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "class 3 C"
    ],
    "a": 0,
-   "fig": "img/q/115020_304_0204_9.webp"
+   "fig": "img/q/115020_304_0204_9.webp",
+   "exp": "✅ (A) 紅線為下顎枝前緣，圖中第三大臼齒牙冠約有一半被下顎枝覆蓋（第二大臼齒遠心可用空間小於牙冠近遠心寬度），屬 Class 2；牙冠最高點低於咬合平面、但仍高於第二大臼齒的牙頸線，屬 Position B，合起來即 class 2 B。\n❌ (B) Position C 指牙冠最高點已低於第二大臼齒的牙頸線，本例牙冠仍在牙頸線之上。\n❌ (C) Class 3 是整顆牙都埋在下顎枝內，本例牙冠仍有一半位於第二大臼齒遠心的齒槽骨中。\n❌ (D) Class 3 與 Position C 兩項都與圖中所見不符，那是最深、最難拔除的型態。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Principles of management of impacted teeth：Pell and Gregory classification）。"
   },
   {
    "n": 10,
@@ -153,7 +154,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "下顎小臼齒"
    ],
    "a": 0,
-   "fig": "img/q/115020_304_0204_10.webp"
+   "fig": "img/q/115020_304_0204_10.webp",
+   "exp": "✅ (A) 圖中鉗喙為左右成對的兩支（#53R／#53L）：一側喙有尖突、另一側為平滑凹面。尖突用來楔入頰側兩根之間的根分叉，平滑凹面貼合單一的腭側根——這正是上顎大臼齒「頰側兩根、腭側一根」的構造，也因為左右不對稱才必須分左右兩支。\n❌ (B) 上顎小臼齒多為單根或近根尖處才分頰腭兩根，使用兩喙皆平滑的萬用鉗（#150），鉗喙沒有尖突。\n❌ (C) 下顎大臼齒頰舌兩側都有根分叉，用的是兩喙皆有尖突的牛角鉗（#23），同一支即可左右通用，不需成對。\n❌ (D) 下顎小臼齒為單根牙，使用 #151 萬用鉗，鉗喙同樣不設尖突。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Principles of exodontia：extraction forceps design）。"
   },
   {
    "n": 11,
@@ -601,7 +603,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "可經下顎後路徑（retromandibular approach）來進行復位及固定"
    ],
    "a": 2,
-   "fig": "img/q/115020_304_0204_42.webp"
+   "fig": "img/q/115020_304_0204_42.webp",
+   "exp": "✅ (C) 影像為左側髁突頸部（subcondylar）骨折。下齒槽神經是在下顎小舌處進入下顎孔，骨折線位在其上方，神經並未被波及，因此不會出現左下唇麻木；要出現下唇麻木，骨折線必須通過下顎體或下顎角的下齒槽神經管。\n❌ (A) 患側下顎枝垂直高度變短、又失去翼外肌的平衡牽引，張口時下顎會偏向患側，也就是往左偏移，屬預期症狀。\n❌ (B) 患側支高降低使該側後牙先行接觸（premature contact），對側則出現開咬，是髁突骨折典型的咬合變化。\n❌ (D) 下顎後路徑（retromandibular approach）正是髁突下／下顎枝骨折做開放復位與骨板固定常用的入路。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Management of mandibular fractures：condylar and subcondylar fractures）。"
   },
   {
    "n": 43,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "②③"
    ],
    "a": 2,
-   "fig": "img/q/115020_304_0204_44.webp"
+   "fig": "img/q/115020_304_0204_44.webp",
+   "exp": "✅ (C) 箭頭所指為下顎角部骨折，骨折線由前上斜向後下。咀嚼肌與內翼肌所形成的吊帶會把後（近心）段向上拉，但在這個走向下，近心段會被遠心段擋住而無法向上位移，屬水平方向的 favorable fracture（①），所以不容易錯位（④）。\n❌ (A) ②unfavorable 與骨折線走向相反；且 unfavorable 的定義本來就是肌肉牽引會把斷端拉開，不可能同時是④不易錯位。\n❌ (B) ①判斷正確，但③錯誤：favorable fracture 的特點就是肌肉牽引反而讓兩斷端互相嵌合抵住，錯位不明顯。\n❌ (D) ②③皆與圖中所見不符，那是骨折線由前下斜向後上、近心段可被拉向上方時才會出現的情形。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery, 7th ed.（Management of mandibular fractures：favorable and unfavorable fractures）。"
   },
   {
    "n": 45,
@@ -921,7 +925,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "上顎前牙牙齦"
    ],
    "a": 1,
-   "fig": "img/q/115020_304_0204_65.webp"
+   "fig": "img/q/115020_304_0204_65.webp",
+   "exp": "✅ (B) 上顎前牙根尖片上，鼻尖（鼻頭）的軟組織會重疊在中門齒與側門齒的根部，形成一條跨過中線、兩側對稱、邊緣平滑的淡放射線不透過帶，即箭頭所指的影像，屬正常軟組織投影而非病變。\n❌ (A) 上嘴唇的軟組織影重疊的位置在牙冠與牙頸部（影像的下半部），不會出現在根尖區。\n❌ (C) 底片刮痕是銳利、不規則且不具左右對稱性的線狀影，不會呈邊緣柔和的弧形帶狀。\n❌ (D) 牙齦的密度與周圍軟組織接近，在根尖片上不會形成這種可單獨辨識的緻密帶狀影。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy：soft tissue shadows of the maxilla）。"
   },
   {
    "n": 66,
@@ -935,7 +940,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "鼻腭管側壁（lateral walls of nasopalatine canal）"
    ],
    "a": 3,
-   "fig": "img/q/115020_304_0204_66.webp"
+   "fig": "img/q/115020_304_0204_66.webp",
+   "exp": "✅ (D) 箭頭所指為中線兩側、由上向下並向中線會聚的一對細白線，往下止於門齒孔上方，是鼻腭管（切牙管）兩側的皮質骨壁，屬正常解剖構造的投影。\n❌ (A) 門齒孔是位於兩中門齒根間、中線上的卵圓形放射線透過影（黑影），不是成對的白線。\n❌ (B) 上顎間縫為兩中門齒之間中線上的一條細放射線透過線，只有一條且位在正中，不會左右成對。\n❌ (C) 鼻中隔是位於中線的單一較寬垂直緻密帶，用來分隔左右鼻窩，形態與位置都和這兩條細線不同。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy：nasopalatine〔incisive〕canal and foramen）。"
   },
   {
    "n": 67,
@@ -977,7 +983,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "水平骨缺損（horizontal bone loss）"
    ],
    "a": 0,
-   "fig": "img/q/115020_304_0204_69.webp"
+   "fig": "img/q/115020_304_0204_69.webp",
+   "exp": "✅ (A) 箭頭標示的是重疊在牙根上、界線模糊的密度降低區，而齒間骨嵴本身並沒有相對應的高度破壞。這種「疊在牙根上的模糊灰影」代表頰側或舌側皮質板被吸收後該處骨量減少所造成的投影，屬頰側或舌側皮質板喪失。\n❌ (B) 根叉侵犯只會發生在多根牙，標示處為單根牙，沒有根分叉可以被侵犯。\n❌ (C) 齒間陷口是頰舌兩側骨嵴仍在、中央凹陷的缺損，會被兩側皮質板遮蔽，根尖片上多半只看到骨嵴模糊，不會形成橫跨牙根的影像。\n❌ (D) 水平骨缺損是骨嵴整體均勻下降、仍與牙頸連線大致平行，本例骨嵴高度並未呈現一致性的降低。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Periodontal diseases：radiographic appearance of bone loss）。"
   },
   {
    "n": 70,
@@ -1032,7 +1039,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "牙釉質發育不全（amelogenesis imperfecta）"
    ],
    "a": 1,
-   "fig": "img/q/115020_304_0204_73.webp"
+   "fig": "img/q/115020_304_0204_73.webp",
+   "exp": "✅ (B) 圖中下顎臼齒的牙髓腔異常巨大並向根尖方向延伸，根分叉（furcation）位置明顯下移而靠近根尖、牙根相對短小，牙冠—牙根比例失衡，是牛型臼齒（taurodontism）的典型影像。\n❌ (A) 缺牙指該牙位沒有牙齒存在，圖中臼齒都在，只是形態異常。\n❌ (C) 牙本質發育不全的表現正好相反：牙髓腔與根管閉鎖變窄甚至消失、牙根細短，並常伴牙冠球狀與頸部縮窄。\n❌ (D) 牙釉質發育不全影響的是釉質厚度或鈣化程度（釉質變薄、密度接近牙本質），牙髓腔與牙根形態正常。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Dental anomalies：taurodontism）。"
   },
   {
    "n": 74,
@@ -1060,7 +1068,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "齒源性角化囊腫（odontogenic keratocyst）"
    ],
    "a": 1,
-   "fig": "img/q/115020_304_0204_75.webp"
+   "fig": "img/q/115020_304_0204_75.webp",
+   "exp": "✅ (B) 圖（一）為左側下顎後牙區延伸至下顎枝的多房性放射線透過病灶並使骨膨大；圖（二）可見齒源性上皮島，周邊是柵欄狀排列的柱狀細胞、細胞核遠離基底膜（reverse polarity），中央為疏鬆的星狀網樣組織。這組影像加病理特徵即濾泡型造釉細胞瘤，好發於年輕成人下顎後牙區且長期無痛。\n❌ (A) 腺瘤樣齒源性瘤好發於年輕女性的上顎前牙，多為包住阻生犬齒的單房病灶並含雪片狀鈣化，鏡下有玫瑰花結與導管樣（duct-like）結構。\n❌ (C) 鈣化上皮齒源性瘤鏡下為多邊形上皮成片排列、有明顯細胞間橋，並有澱粉樣物質與同心圓（Liesegang ring）鈣化，影像常見鈣化點，本圖皆無。\n❌ (D) 齒源性角化囊腫是囊腫，襯裡為 6～8 層薄的副角化上皮、表面呈波浪狀、基底細胞柵欄狀且無星狀網，不會出現這種上皮島增生。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Odontogenic cysts and tumors：ameloblastoma）。"
   },
   {
    "n": 76,
@@ -1074,7 +1083,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "家族性巨大畸形牙骨質瘤（familial gigantiform cementoma）"
    ],
    "a": 1,
-   "fig": "img/q/115020_304_0204_76.webp"
+   "fig": "img/q/115020_304_0204_76.webp",
+   "exp": "✅ (B) 中年女性、無自覺症狀，卻在多個象限的齒槽骨（含缺牙區）出現界線清楚、周邊有放射線透過帶包繞的緻密團塊，是繁盛性牙骨質骨發育不良的典型表現。這類病灶血運差，貿然植牙或手術容易併發骨髓炎，應先評估。\n❌ (A) 麥克滾－阿爾布萊德氏症候群是多發性纖維性發育不良合併咖啡牛奶斑與內分泌異常，兒童期即發病，骨病灶呈毛玻璃樣且與正常骨界線不清。\n❌ (C) 變形性骨炎多見於 50 歲以上，侵犯全身多處骨骼、上顎比下顎常見，呈瀰漫棉絮狀（cotton-wool）變化並使骨體積增大、鹼性磷酸酶上升。\n❌ (D) 家族性巨大畸形牙骨質瘤在青少年期發病且有家族史，病灶會快速增大造成明顯顏面膨隆變形，與本例 43 歲、無症狀的情況不符。\n📚 出處：Neville, Oral and Maxillofacial Pathology, 4th ed.（Bone pathology：florid cemento-osseous dysplasia）。"
   },
   {
    "n": 77,
@@ -1088,7 +1098,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent4'] = {
     "4"
    ],
    "a": 3,
-   "fig": "img/q/115020_304_0204_77.webp"
+   "fig": "img/q/115020_304_0204_77.webp",
+   "exp": "✅ (D) 編號 4 位在下顎枝中段、與口咽氣道影重疊的位置，圖上畫成數顆散在的小顆粒。扁桃腺結石正是多發、大小不一的小鈣化點成簇重疊在下顎枝上，這個位置與「多發小點」的形態就是全景片辨認它的關鍵。\n❌ (A) 編號 1 落在上顎竇範圍內，代表竇內結石（antrolith）或竇腔鈣化，位置在上顎而非下顎枝。\n❌ (B) 編號 2 是自顱底向前下延伸的長條狀影，屬莖突過長／莖突舌骨韌帶鈣化，形態為長帶狀而非成簇小點。\n❌ (C) 編號 3 位於下顎角後下方的頸部軟組織，呈分節長條狀，屬頸部韌帶或血管壁一類的鈣化，位置遠低於扁桃腺窩。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Soft tissue calcifications：tonsilloliths）。"
   },
   {
    "n": 78,
