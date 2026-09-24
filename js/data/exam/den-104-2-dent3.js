@@ -488,7 +488,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "牙根未包覆牙釉質"
    ],
    "a": 0,
-   "fig": "img/q/104090_304_33_34.webp"
+   "fig": "img/q/104090_304_33_34.webp",
+   "exp": "✅ (A) 影像中透性區位於上顎第二小臼齒遠心的鄰接面、接觸點稍下方，呈自琺瑯質表面向內、尖端指向牙髓的楔形（三角形）缺損，邊界清楚且侷限在牙冠鄰接面高度，這是典型的鄰接面（interproximal）齲蝕影像。\n❌ (B) 齒頸部照蝕是 X 光穿透量差造成的假影，位置固定在 CEJ 與齒槽嵴之間的牙頸部帶狀區，呈邊界模糊、愈靠近 CEJ 愈暗的漸層，且同一顆牙近遠心常對稱出現；本題病灶在接觸區而非牙頸部，邊界也清楚。\n❌ (C) 牙根凹陷（如上顎第一小臼齒近心的 developmental depression）位於 CEJ 以下的牙根面，透性影會沿牙根長軸延伸，不會侷限在牙冠鄰接面接觸點附近。\n❌ (D) 牙釉質本來就只覆蓋牙冠，牙根表面覆蓋的是牙骨質，「牙根未包覆牙釉質」是正常解剖，不是病灶，也無法解釋牙冠鄰接面的透性影。\n📚 出處：White & Pharoah《Oral Radiology》Dental Caries 章——鄰接面齲蝕影像特徵與 cervical burnout 假影之鑑別"
   },
   {
    "n": 35,
@@ -711,7 +712,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "④"
    ],
    "a": 3,
-   "fig": "img/q/104090_304_33_50.webp"
+   "fig": "img/q/104090_304_33_50.webp",
+   "exp": "✅ (D) ④的患齒整個牙冠表面呈不規則凹陷、粗糙的窩溝狀缺損並帶黃褐色變色，範圍涵蓋整個牙冠而非侷限在好發齲蝕的接觸面或窩溝，鄰牙外形與色澤正常——這是牙冠形成期成釉細胞受干擾所致的琺瑯質發育不全（enamel hypoplasia），屬發育性障礙。\n❌ (A) ①是牙齦紅腫、齦緣圓鈍且有牙菌斑堆積的牙齦炎表現，牙齒本身形態正常，屬後天發炎問題。\n❌ (B) ②牙面上的白堊色斑塊是牙菌斑滯留造成的脫鈣白斑（white spot lesion，初期齲蝕），牙冠外形完整、邊緣沿齦緣分布，是後天而非發育性病變。\n❌ (C) ③是牙齦退縮合併牙頸部磨耗與外因性著色，暴露的牙本質變黃，牙冠原本的形態仍在，屬後天的機械性磨損與牙周退縮。\n📚 出處：Neville《Oral and Maxillofacial Pathology》Abnormalities of Teeth 章——琺瑯質發育不全與後天性牙齒病變之鑑別"
   },
   {
    "n": 51,
@@ -767,7 +769,8 @@ window.APP_EXAM_PAPERS['den-104-2-dent3'] = {
     "4是dentoperiosteal fibers"
    ],
    "a": 3,
-   "fig": "img/q/104090_304_33_54.webp"
+   "fig": "img/q/104090_304_33_54.webp",
+   "exp": "✅ (D) 4 所指的是由牙頸部牙骨質向根尖及外側走行、越過齒槽嵴並嵌入齒槽骨骨膜的纖維，即 dentoperiosteal fibers（牙骨質骨膜纖維），功能是把牙齦固定於骨面並抵抗咀嚼時的牽引。\n❌ (A) 1 是自牙骨質呈扇形散入游離牙齦與附著牙齦固有層的 dentogingival fibers；circular fibers 在此切面是呈點狀的那一群（2），不是 1。\n❌ (B) 2 呈細小點狀是因為環狀纖維（circular fibers）環繞牙頸部走行，在此縱切面上被橫切成點；transseptal fibers 是右圖中水平跨過齒間中膈的那一群（3）。\n❌ (C) 3 位於兩相鄰牙之間、水平跨越齒槽中膈連接兩牙牙骨質，是 transseptal fibers；dentogingival fibers 是 1 所指、由牙骨質進入牙齦的扇形纖維。\n📚 出處：Carranza《Clinical Periodontology》Gingiva 章——牙齦纖維群（dentogingival、circular、transseptal、dentoperiosteal）之走向與附著"
   },
   {
    "n": 55,
