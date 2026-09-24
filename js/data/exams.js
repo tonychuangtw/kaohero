@@ -48650,7 +48650,7 @@ window.APP_EXAMS = [
   "subjName": "資料處理大意",
   "label": "112 年　初等考試　資料處理大意",
   "n": 50,
-  "exp": 46,
+  "exp": 49,
   "mins": 60
  },
  {
