@@ -237,7 +237,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent5'] = {
     "圖中4的位置代表義齒基底壓迫黏膜較重，需要做調整以緩壓"
    ],
    "a": 2,
-   "fig": "img/q/112100_304_55_16.webp"
+   "fig": "img/q/112100_304_55_16.webp",
+   "exp": "✅ (C) 敘述錯誤，2 與 3 的判讀被對調了。圖中 3 是義齒基底被擦出一道一道深色條紋、顯示膏被推開露出基底的位置，代表該處局部接觸過重、受力不均；真正代表「貼合均勻」的是圖中 2 那種顯示膏仍留下一層厚度一致、只有輕微擦痕的區域。因此不能說 3 比 2 均勻而不必調整，3 才是要進一步檢查、必要時緩壓的地方。\n❌ (A) 敘述正確：壓力顯示膏必須用毛刷同一方向薄薄塗一層，厚薄一致又留下方向性刷痕，事後才分辨得出哪裡是被黏膜壓掉、哪裡是原本就沒塗勻。\n❌ (B) 敘述正確：圖中 1 在義齒邊緣（flange）外側，是義齒就位時被頰側黏膜與前庭組織擦過造成的，屬於放入路徑上的正常擦拭痕，不是咬合時的壓迫點，不需要調整。\n❌ (D) 敘述正確：圖中 4 位於切齒乳突／正中縫區，顯示膏被完全擦除、露出基底本身，代表該處壓迫黏膜過重，應以圓形磨頭局部磨除緩壓，否則會造成疼痛與潰瘍。\n📚 出處：Zarb-Bolender, Prosthodontic Treatment for Edentulous Patients, 13th ed.（Denture insertion：壓力顯示膏 pressure-indicating paste 的判讀與緩壓）。"
   },
   {
    "n": 17,
@@ -363,7 +364,8 @@ window.APP_EXAM_PAPERS['den-112-2-dent5'] = {
     "雙半牙鈎（half-and-half clasp）"
    ],
    "a": 3,
-   "fig": "img/q/112100_304_55_25.webp"
+   "fig": "img/q/112100_304_55_25.webp",
+   "exp": "✅ (D) 這是雙半牙鈎（half-and-half clasp）：頰側有一支由遠心小連接體（minor connector）伸出的環抱式固位臂，舌側則另有一支由近心方向、經自己獨立小連接體伸出的相對臂，兩支臂各來自不同方向、各占「一半」，合起來完成固位與相對（reciprocation）。圖中右側（舌側）明顯可見另一條向下走到牙床的小連接體，正是此型的辨識特徵。\n❌ (A) 迴力牙鈎（back-action clasp）是環形牙鈎的變型，牙鈎臂由咬合面支托出發環繞牙齒近四分之三圈，只有一個小連接體；圖中頰舌兩側各有獨立起源，不符。\n❌ (B) 反作用牙鈎（reverse-action／hairpin clasp）的固位臂由同一小連接體先往支托側走，再折返 180 度回到倒凹區，外觀是髮夾狀彎折；圖中兩臂平順環抱，沒有折返環，不符。\n❌ (C) 多牙牙鈎（multiple clasp）是兩個背對背的環抱式牙鈎，其相對臂在兩顆相鄰牙的鄰接面相連，屬於跨兩顆牙的設計；圖中固位體只作用在同一顆牙上，不符。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Direct retainers：half-and-half、back-action、reverse-action、multiple clasp 的牙鈎設計比較）。"
   },
   {
    "n": 26,
