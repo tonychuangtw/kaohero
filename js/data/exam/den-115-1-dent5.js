@@ -559,7 +559,8 @@ window.APP_EXAM_PAPERS['den-115-1-dent5'] = {
     "②④"
    ],
    "a": 1,
-   "fig": "img/q/115020_304_0205_39.webp"
+   "fig": "img/q/115020_304_0205_39.webp",
+   "exp": "✅ (B) 圖中最後方的無牙區只在單側、且後方沒有天然牙（單側遠心延伸），依 Applegate 法則「以最後方的無牙區決定分類」屬 Kennedy class II（①）；扣掉這個決定分類的區域後，口內還剩兩處各自分開的無牙區，修飾數以「區域數」而非缺牙數計算，故為 modification 2（④）。\n❌ (A) ① 正確但 ③ 錯：modification 3 要在決定分類的遠心延伸區之外還有三處分開的無牙區，本圖只有兩處。\n❌ (C) ② 錯：Kennedy class IV 指單一且跨越中線的前方無牙區，且後方必須留有天然牙；本圖缺牙區偏單側後方，不符。\n❌ (D) ② 與 ④ 併用本身即矛盾：依 Applegate 法則 class IV 為單一無牙區，定義上不得有 modification。\n📚 出處：McCracken's Removable Partial Prosthodontics, 13th ed.（Classification of Partially Edentulous Arches — Kennedy method 與 Applegate's rules）。"
   },
   {
    "n": 40,
