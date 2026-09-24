@@ -51436,7 +51436,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "105 年　初等考試　電子學大意",
   "n": 40,
-  "exp": 32,
+  "exp": 39,
   "mins": 60
  },
  {
