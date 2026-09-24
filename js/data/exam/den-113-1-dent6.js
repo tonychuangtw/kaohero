@@ -181,7 +181,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "鈷鉻合金（cobalt-chromium alloy, CoCr）"
    ],
    "a": 0,
-   "fig": "img/q/113020_304_66_12.webp"
+   "fig": "img/q/113020_304_66_12.webp",
+   "exp": "✅ (A) 圖中③的強度中等偏低（約 0.6）、硬度三者最低（約 0.2），但作用範圍（range）遠高於其他兩者（約 3.85），正是鎳鈦合金的典型特徵——低彈性模數加上超彈性（superelasticity），可在大幅變形下仍維持輕而持續的力量，故適合排列初期的 leveling。\n❌ (B) 不鏽鋼即圖中作為基準的①（三項皆為 1），強度與硬度高、範圍小，與③相反。\n❌ (C) 鈦鉬合金（TMA）對應②：強度約為 SS 的 0.6、硬度約 0.3～0.4、範圍約 1.8，硬度與範圍都介於 SS 與 NiTi 之間。\n❌ (D) 鈷鉻合金性質接近不鏽鋼，硬度高、作用範圍小，不可能是範圍最大的③。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Mechanical properties of orthodontic wires：strength／stiffness／range 三性質比較）。"
   },
   {
    "n": 13,
@@ -363,7 +364,8 @@ window.APP_EXAM_PAPERS['den-113-1-dent6'] = {
     "有牙周病骨破壞病人之矯正治療在給予力量上，應較輕較慢"
    ],
    "a": 2,
-   "fig": "img/q/113020_304_66_25.webp"
+   "fig": "img/q/113020_304_66_25.webp",
+   "exp": "✅ (C) 力矩＝力 × 力臂（施力點到抗力中心的垂直距離）。圖1 為 100 gm × 10 mm＝1000 gm·mm，圖2 因牙周骨破壞使抗力中心往根尖移動、力臂增為 15 mm，故為 100 gm × 15 mm＝1500 gm·mm。兩者施力雖同為 100 gm，力矩並不相同，此敘述錯誤。\n❌ (A) 圖1 力臂 10 mm，100 gm × 10 mm＝1000 gm·mm，計算正確。\n❌ (B) 圖3 為 50 gm × 15 mm＝750 gm·mm，確實小於圖1 的 1000 gm·mm；這也說明骨破壞後必須把力量減半才能把力矩壓回可接受範圍。\n❌ (D) 牙周骨破壞使牙周膜面積減少、抗力中心下移，相同力量會造成更大力矩與更高的牙周膜應力，故應採輕力、慢速移動，敘述正確。\n📚 出處：Proffit, Contemporary Orthodontics, 6th ed.（Biomechanics：center of resistance、moment＝force × distance 與牙周附連喪失病人的矯正力學考量）。"
   },
   {
    "n": 26,
