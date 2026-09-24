@@ -50512,7 +50512,7 @@ window.APP_EXAMS = [
   "subjName": "經濟學大意",
   "label": "107 年　初等考試　經濟學大意",
   "n": 50,
-  "exp": 48,
+  "exp": 50,
   "mins": 60
  },
  {
