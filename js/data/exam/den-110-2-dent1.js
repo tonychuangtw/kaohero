@@ -83,7 +83,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "標示4處為小角狀結節（corniculate tubercle）"
    ],
    "a": 2,
-   "fig": "img/q/110101_303_11_5.webp"
+   "fig": "img/q/110101_303_11_5.webp",
+   "exp": "✅ (C) 標示3的指標落在會厭外側、與舌根之間的凹窩，是「梨狀隱窩（piriform recess）」一帶而非食道入口。食道入口位置更低，在環狀軟骨後方、下咽縮肌與環咽肌圍成的咽食道交界處，在本圖的喉口下方才看得到，因此本敘述錯誤。\n❌ (A) 標示1在舌根黏膜上呈一顆顆隆起，正是舌扁桃體的舌濾泡（lingual follicles），敘述正確故非答案。\n❌ (B) 標示2位於杓會厭褶後段外側的隆起，為楔狀軟骨撐起的楔狀結節（cuneate tubercle），敘述正確。\n❌ (D) 標示4在楔狀結節內下方、靠近中線的小隆起，由小角狀軟骨形成，即小角狀結節（corniculate tubercle），敘述正確。\n📚 出處：Moore《Clinically Oriented Anatomy》喉與喉咽（Laryngopharynx and piriform recess）。"
   },
   {
    "n": 6,
@@ -97,7 +98,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "標示4處為舌下皺摺（sublingual fold）"
    ],
    "a": 0,
-   "fig": "img/q/110101_303_11_6.webp"
+   "fig": "img/q/110101_303_11_6.webp",
+   "exp": "✅ (A) 標示1的指標拉到中線，指的是連接舌腹與口底的正中黏膜襞，應為「舌繫帶（lingual frenulum）」。繖狀皺摺是舌腹兩側、自舌尖向後外斜走的一對細襞，位置偏外側且成對，與圖中所指的單一正中構造不符，故此敘述最不適當。\n❌ (B) 標示2在臼齒後區、由翼突下頜縫拉起的黏膜襞，正是翼下顎皺摺（pterygomandibular fold），也是下齒槽神經阻斷麻醉的定位標誌，敘述正確。\n❌ (C) 標示3位於舌繫帶兩側底部的小突起，是頜下腺與舌下腺主導管的共同開口，即唾液阜（salivary caruncula），敘述正確。\n❌ (D) 標示4為口底自唾液阜向後外延伸的隆起黏膜脊，下方即舌下腺，為舌下皺摺（sublingual fold），敘述正確。\n📚 出處：Nanci《Ten Cate's Oral Histology》口腔黏膜與口底構造（Floor of the mouth）。"
   },
   {
    "n": 7,
@@ -671,7 +673,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "牙髓石（pulp stone）"
    ],
    "a": 3,
-   "fig": "img/q/110101_303_11_47.webp"
+   "fig": "img/q/110101_303_11_47.webp",
+   "exp": "✅ (D) 箭頭所指為位在牙髓腔（根管）內、被牙髓軟組織包圍的圓形鈣化團塊，四周仍可見牙髓組織與血管，這種游離於牙髓中的鈣化體即牙髓石（pulp stone，或稱denticle）。牙髓石常見於老化或受慢性刺激的牙齒，可為真性（含牙本質小管）或假性（同心層狀鈣化）。\n❌ (A) 牙本質是構成髓腔管壁、含牙本質小管的硬組織，圖中位於髓腔兩側的大片染色區才是牙本質，箭頭所指的團塊與管壁分離。\n❌ (B) 牙骨質覆蓋在牙根表面、緊貼牙周韌帶那一側，位於牙本質外側而非髓腔內。\n❌ (C) 牙骨質結石是位於「牙周韌帶內」或黏附於牙根表面的鈣化小體，位置在牙根外側，與本圖髓腔內的團塊不同。\n📚 出處：Nanci《Ten Cate's Oral Histology》牙髓的鈣化變化（Pulp stones and pulpal calcification）。"
   },
   {
    "n": 48,
@@ -727,7 +730,8 @@ window.APP_EXAM_PAPERS['den-110-2-dent1'] = {
     "上皮橫膈（epithelial diaphragm）"
    ],
    "a": 2,
-   "fig": "img/q/110101_303_11_51.webp"
+   "fig": "img/q/110101_303_11_51.webp",
+   "exp": "✅ (C) 箭頭指向覆蓋在牙冠琺瑯質表面的一條薄帶狀上皮。標本脫鈣後琺瑯質被溶掉只剩空隙，襯在該空隙外緣的上皮即退化性牙釉上皮（reduced enamel epithelium）——琺瑯質形成完畢後，成釉細胞變矮並與外釉上皮等各層合併而成，覆蓋牙冠直到萌發，日後形成接合上皮。\n❌ (A) 牙板是連接發育中牙胚與口腔上皮的上皮索，位在牙胚上方偏口腔側，不會沿著整個牙冠表面成帶狀分布。\n❌ (B) 牙乳頭是牙冠內側的外胚間葉組織（未來的牙髓），為細胞性結締組織而非上皮帶。\n❌ (D) 上皮橫膈是赫特維希上皮根鞘在牙根尖端向內彎折的部分，只出現在牙根形成的根尖區，不在牙冠表面。\n📚 出處：Nanci《Ten Cate's Oral Histology》琺瑯質形成的成熟後期（Reduced enamel epithelium）。"
   },
   {
    "n": 52,
