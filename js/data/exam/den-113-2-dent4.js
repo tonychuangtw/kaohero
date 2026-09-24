@@ -601,7 +601,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "在骨體中間及靠牙齒區域不合適使用雙皮質骨釘（bicortical screws）進行固定"
    ],
    "a": 1,
-   "fig": "img/q/113090_304_44_42.webp"
+   "fig": "img/q/113090_304_44_42.webp",
+   "exp": "✅ (B) 錯誤選項。圖中下顎骨體為多條骨折線交錯的粉碎性骨折（comminuted fracture），骨塊之間無法互相支撐，屬於 load bearing 的適應症，必須用 2.4 mm 以上的鎖定式重建骨板跨越整段缺損；數片 2.0 mm 迷你骨板是 load sharing（骨塊本身要能分擔咬合力）的做法，用在粉碎性骨折會因骨板承受不了全部咬合力而變形、斷裂或造成骨不癒合。\n❌ (A) 正確：粉碎、缺損、萎縮無牙下顎與感染性骨不癒合都必須用 load bearing osteosynthesis，本題影像正屬此類。\n❌ (C) 正確：下顎骨折的復位基準是咬合，臨床上先做上下顎固定（MMF）確認咬合到位後才鎖骨板，否則骨頭癒合了咬合仍是錯的。\n❌ (D) 正確：骨體中段與近牙齒區的骨內有牙根與下齒槽神經血管束通過，打雙皮質骨釘會傷到牙根或神經，此區應改用單皮質螺絲固定。\n📚 出處：Fonseca, Oral and Maxillofacial Trauma（Mandibular fractures：load bearing vs. load sharing osteosynthesis）。"
   },
   {
    "n": 43,
@@ -643,7 +644,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "②③"
    ],
    "a": 1,
-   "fig": "img/q/113090_304_44_45.webp"
+   "fig": "img/q/113090_304_44_45.webp",
+   "exp": "✅ (B) ①②皆成立。左圖口內照可見骨折處牙齦黏膜撕裂、骨折線經過含牙區而與口腔相通，即為開放性骨折（compound／open fracture）；右圖全景片顯示骨折線位於下顎骨體並通過下顎管走行區，牙齒與下齒槽神經血管束等鄰近構造受累，符合 complex（complicated）fracture 的定義。\n❌ (A) 只認①而漏掉②，忽略了骨折線波及下顎管與牙列所造成的鄰近構造損傷。\n❌ (C) ③不成立：simple（closed）fracture 指骨折處未與外界相通，與①的開放性骨折互相矛盾，不可能同時成立。\n❌ (D) 同樣誤收③，且漏掉最明確的開放性特徵——口內黏膜已經裂開。\n📚 出處：Fonseca, Oral and Maxillofacial Trauma（Classification of mandibular fractures：simple, compound, comminuted, complicated）。"
   },
   {
    "n": 46,
@@ -911,7 +913,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "22"
    ],
    "a": 1,
-   "fig": "img/q/113090_304_44_64.webp"
+   "fig": "img/q/113090_304_44_64.webp",
+   "exp": "✅ (B) 標號 2 在 A、B 兩個軸狀切面上都位於眼眶內下角、上顎骨額突與淚骨之間的骨性小管，由淚囊向下後外走行開口於下鼻道，正是鼻淚管（nasolacrimal duct）。它在軸狀切面呈一個被薄骨環繞的小圓形低密度管腔，是辨認的關鍵特徵。\n❌ (A) 標號 1 指的是位於正中最前方的鼻腔／鼻中膈區構造，位置在中線而非眼眶內下角。\n❌ (C) 標號 8 在 A 切面指向鼻腔後外側、靠近翼突與蝶竇的深部區域，遠在鼻淚管後方。\n❌ (D) 標號 22 位於 C 切面上顎竇的外側骨壁一帶，層面比鼻淚管低且偏外側。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Normal radiographic anatomy：nasolacrimal duct on axial CT）。"
   },
   {
    "n": 65,
@@ -966,7 +969,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "巨齒症（macrodontia）"
    ],
    "a": 1,
-   "fig": "img/q/113090_304_44_68.webp"
+   "fig": "img/q/113090_304_44_68.webp",
+   "exp": "✅ (B) 咬合片上左下門齒區可見一顆異常寬大的牙，冠部有兩個牙冠合併的外形與分隔溝，牙髓腔／根管為兩套且各自獨立，同時該象限的牙齒總數比正常少一顆——由兩個牙胚在牙本質層次結合而成，即融合齒（fusion）。\n❌ (A) 雙生齒是一個牙胚不完全分裂，牙冠雖寬但共用一個牙髓腔，且把該牙算成一顆時牙數仍為正常，與本片牙數短少不符。\n❌ (C) 連合齒只有牙骨質在牙根處相連，牙冠與牙髓腔完全分離，影像上看得到兩顆獨立牙冠，不會有合併的寬大牙冠。\n❌ (D) 巨齒症是整顆牙均勻放大而形態正常，不會出現分隔溝、雙套根管與牙數減少。\n📚 出處：Neville, Oral and Maxillofacial Pathology（Abnormalities of teeth：fusion, gemination, concrescence）。"
   },
   {
    "n": 69,
@@ -994,7 +998,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "1、2皆為內吸收（internal resorption）"
    ],
    "a": 0,
-   "fig": "img/q/113090_304_44_70.webp"
+   "fig": "img/q/113090_304_44_70.webp",
+   "exp": "✅ (A) 標示 1 位於上顎牙冠近心鄰接面、接觸點下方，呈底部朝外、尖端朝向牙髓的三角形透射影，並由琺瑯質表面向內延伸——是典型的鄰接面齲齒；標示 2 位於下顎牙冠髓腔處，呈以根管為中心對稱膨出、邊界平滑清楚且與髓腔連續的卵圓形透射區，牙髓腔輪廓消失，加上臨床牙齒變色（pink tooth），符合內吸收。\n❌ (B) 兩者位置對調：外緣開口的三角形缺損不可能是源自髓腔內的內吸收。\n❌ (C) 2 的透射區與髓腔連續且邊界光滑對稱，齲齒不會呈現這種以髓腔為中心的膨出。\n❌ (D) 1 起自牙冠鄰接面外表面、邊界不規則，且未與髓腔相連，不符合內吸收的影像特徵。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Dental caries 與 Tooth resorption：internal resorption）。"
   },
   {
    "n": 71,
@@ -1008,7 +1013,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "內吸收（internal resorption）"
    ],
    "a": 2,
-   "fig": "img/q/113090_304_44_71.webp"
+   "fig": "img/q/113090_304_44_71.webp",
+   "exp": "✅ (C) CBCT 上黑色箭頭指向牙冠鄰接面與齒頸部的低密度缺損，缺損由牙齒表面向內侵入、邊界不規則且已破壞琺瑯質與牙本質，並與鄰牙的修復物邊緣相鄰——是齲齒（含續發齲）的表現。CBCT 沒有鄰牙重疊，比傳統咬翼片更能看出缺損的深度與範圍。\n❌ (A) 咬耗發生在咬合面與切端，因對咬牙互相摩擦造成平坦有光澤的磨平面，不會在鄰接面形成內凹的破壞。\n❌ (B) 磨耗由外力（刷牙、假牙鉤環）造成，典型位於頰側齒頸部呈楔狀凹陷，本片缺損位置與形態都不符。\n❌ (D) 內吸收是髓腔內由內往外的破壞，透射區以髓腔為中心對稱膨出，而本片缺損由牙齒外表面起始。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Dental caries：CBCT detection of proximal caries）。"
   },
   {
    "n": 72,
@@ -1064,7 +1070,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "tumor displacement of salivary gland"
    ],
    "a": 0,
-   "fig": "img/q/113090_304_44_75.webp"
+   "fig": "img/q/113090_304_44_75.webp",
+   "exp": "✅ (A) 唾液腺造影顯示主導管（Wharton's／Stensen's duct）明顯擴張並呈粗細不一的「香腸串」狀交替膨大與狹窄，遠端腺內分支導管也一併擴張，而腺體實質的顯影仍大致保留——這是導管因結石或狹窄阻塞、長期唾液滯留而發炎擴張的阻塞性導管炎（obstructive sialodochitis）。\n❌ (B) 慢性唾液腺炎以腺體實質破壞為主，導管分支減少、末端變短鈍，呈「修剪過的樹枝」（pruned tree）外觀，不是整條主導管膨大。\n❌ (C) 自體免疫性唾液腺炎（Sjögren 症候群）的特徵是腺體內瀰漫散布的點狀顯影劑堆積（punctate sialectasis），像開花的樹枝或蘋果樹，主導管通常正常。\n❌ (D) 腫瘤推擠時導管被撐開、彎曲環抱腫塊呈「手握球」（ball-in-hand）樣，導管本身管徑不會呈串珠狀擴張。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Salivary gland diseases：sialography of obstructive sialodochitis）。"
   },
   {
    "n": 76,
@@ -1106,7 +1113,8 @@ window.APP_EXAM_PAPERS['den-113-2-dent4'] = {
     "涎石病（sialolithiasis）"
    ],
    "a": 3,
-   "fig": "img/q/113090_304_44_78.webp"
+   "fig": "img/q/113090_304_44_78.webp",
+   "exp": "✅ (D) 下顎咬合片上可見一枚界限清楚、卵圓形的不透射體位於口底中線旁的軟組織內（不在骨頭裡，故未與齒槽骨相連），全景片同一側下顎骨體下緣／下顎角下方亦見到重疊的不透射影——兩片互相印證，是位於下顎下腺導管（Wharton's duct）的唾液腺結石，即涎石病。臨床常表現為進食時腺體腫脹疼痛。\n❌ (A) 纖維性發育不良是骨內病變，呈毛玻璃狀、與正常骨界限模糊並使骨骼膨大，不會是軟組織內界限銳利的單一顆粒。\n❌ (B) 鈣化淋巴結多位於下顎下區且常為多顆、呈桑葚狀不規則鈣化，不會落在咬合片所照的口底導管走行位置。\n❌ (C) 造釉細胞瘤是下顎骨內的多房性透射病灶（肥皂泡樣），影像表現與本片的不透射體完全相反。\n📚 出處：White & Pharoah, Oral Radiology, 8th ed.（Salivary gland diseases：sialolithiasis 與 Soft tissue calcifications）。"
   },
   {
    "n": 79,
