@@ -601,7 +601,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "sigmoid notch"
    ],
    "a": 2,
-   "fig": "img/q/114090_304_0304_42.webp"
+   "fig": "img/q/114090_304_0304_42.webp",
+   "exp": "✅ (C) 圖中虛線把髁頭、髁頸與其下方分成三區，箭頭所指的骨折線由乙狀切跡（sigmoid notch）最低點斜向後下走到下顎枝後緣，位置在髁頸以下的髁突基部，這就是 subcondylar（髁突下／髁突基部）骨折的定義。\n❌ (A) condylar neck 骨折的折線落在髁頭下方、乙狀切跡連線之上的細頸處，位置比圖中箭頭高。\n❌ (B) diacapitular 是穿過髁頭本身的關節囊內骨折，折線會通過關節面，圖中髁頭完整無裂痕。\n❌ (D) sigmoid notch 只是下顎枝上緣髁突與喙突之間的凹陷，是解剖名稱，不是骨折分類的一型。\n📚 出處：Hupp, Contemporary Oral and Maxillofacial Surgery〈Management of Mandibular Condylar Fractures〉髁突骨折的解剖分類（diacapitular／condylar neck／subcondylar）。"
   },
   {
    "n": 43,
@@ -909,7 +910,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "下咽腔（hypopharynx）"
    ],
    "a": 2,
-   "fig": "img/q/114090_304_0304_64.webp"
+   "fig": "img/q/114090_304_0304_64.webp",
+   "exp": "✅ (C) 黑色箭頭指在舌根後方、軟腭游離緣以下、會厭以上的空氣柱，高度大約對應第二至第三頸椎，正是口咽（oropharynx）的範圍；側顱片評估呼吸道時，這一段最常用來看舌根與後咽壁之間的氣道寬度。\n❌ (A) 鼻腔位在硬腭之上、臉部前方，影像上在箭頭的前上方很遠處，不會出現在頸椎前緣這個位置。\n❌ (B) 鼻咽在軟腭之上、後鼻孔之後，約在第一頸椎高度，位置比箭頭高，圖中該處另有一段較上方的氣道影。\n❌ (D) 下咽腔在會厭以下、喉部後方，約第四至第六頸椎，位置比箭頭低。\n📚 出處：White & Pharoah, Oral Radiology〈Extraoral Projections／Cephalometric radiography〉側顱片之咽部氣道分段（nasopharynx／oropharynx／hypopharynx）。"
   },
   {
    "n": 65,
@@ -923,7 +925,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "根尖囊腫（radicular cyst）"
    ],
    "a": 0,
-   "fig": "img/q/114090_304_0304_65.webp"
+   "fig": "img/q/114090_304_0304_65.webp",
+   "exp": "✅ (A) 上排 CBCT 水平切面中，星號位在上顎兩中門齒牙根之間的腭側正中線上，呈邊緣皮質化的小圓形透過影；下排根尖片的星號則是同一構造的正面投影，兩側箭頭正好指出管的兩片側壁，這是鼻腭管（切牙管）的典型表現。\n❌ (B) 鼻淚管走在鼻腔外側壁、由眼眶下行至下鼻道，位置在上顎竇內側、遠離腭中線，根尖片與這個切面都照不到。\n❌ (C) 鼻腭囊腫直徑多大於 6 mm、呈心形或卵圓形並使中門齒牙根分離、骨質膨出，本圖病灶小且對稱、未推開牙根。\n❌ (D) 根尖囊腫必定附著在失活牙的根尖、與牙周膜腔相連，本圖透過影位於兩牙之間而非任一根尖，且牙周膜腔完整。\n📚 出處：White & Pharoah, Oral Radiology〈Normal Radiographic Anatomy〉上顎正常解剖構造——切牙管／鼻腭管。"
   },
   {
    "n": 66,
@@ -951,7 +954,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "牙根斷裂（root fracture）"
    ],
    "a": 0,
-   "fig": "img/q/114090_304_0304_67.webp"
+   "fig": "img/q/114090_304_0304_67.webp",
+   "exp": "✅ (A) 該牙根中段可見一個以根管為中心、向兩側對稱膨大的卵圓形透過影，原本細長的根管影在病灶處消失並與之融為一體，外側牙根輪廓仍平順完整——這是牙根內吸收由髓腔內的破齒細胞向外蝕刻的典型影像。\n❌ (B) 牙根外吸收是從牙根表面往內侵蝕，牙根外緣會變得不規則、變短，而根管影仍可清楚地穿越病灶，本圖並非如此。\n❌ (C) 牙根齲齒發生在牙頸部以下暴露的牙根表面，是淺碟狀、開口朝外的透過影，不會出現在根中段且被牙槽骨覆蓋處。\n❌ (D) 牙根斷裂應為橫過牙根的一條細透過線，兩端貫穿至牙根兩側外緣，本圖是封閉的卵圓形病灶而非線狀裂隙。\n📚 出處：White & Pharoah, Oral Radiology〈Dental Anomalies／Tooth Resorption〉內吸收與外吸收的鑑別。"
   },
   {
    "n": 68,
@@ -965,7 +969,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "有反應性骨硬化（reactive bone sclerosis）"
    ],
    "a": 0,
-   "fig": "img/q/114090_304_0304_68.webp"
+   "fig": "img/q/114090_304_0304_68.webp",
+   "exp": "✅ (A) 這一項才是錯的：36、37 齒間的骨破壞呈杯口／凹槽狀，兩側牙齒的齒槽嵴高度相當，並沒有沿單一牙根面斜向根尖延伸的角狀骨缺損，因此不能說是垂直（角狀）骨缺損。\n❌ (B) 齒間嵴中央呈碟狀凹陷、頰舌側骨壁在影像上重疊而使中央透過度增高，正是齒間陷口的典型 X 光表現，敘述正確。\n❌ (C) 兩牙鄰接面下方的牙根面上可見不規則突出的高密度小塊，是齦下牙結石，敘述正確。\n❌ (D) 破壞區周邊骨小樑變粗、密度增高呈一圈較白的邊界，屬慢性刺激下的反應性骨硬化，敘述正確。\n📚 出處：White & Pharoah, Oral Radiology〈Periodontal Diseases〉骨吸收型態：水平型、垂直（角狀）型與齒間陷口。"
   },
   {
    "n": 69,
@@ -1035,7 +1040,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "oblique lateral projection"
    ],
    "a": 1,
-   "fig": "img/q/114090_304_0304_73.webp"
+   "fig": "img/q/114090_304_0304_73.webp",
+   "exp": "✅ (B) 影像中兩側眼眶、鼻中膈與上顎竇完整顯影，顳骨岩部被投影到上顎竇底以下而未與竇腔重疊，箭頭依序描出眶外上緣、眶下緣與顴骨弓等中臉部輪廓線——這是下巴貼片、中央射線由枕部射入的 Waters（occipitomental）攝影，臨床上用來看鼻竇與中臉部（顴骨複合體、Le Fort）骨折。\n❌ (A) 後前位（PA／Caldwell）時顳骨岩部會投影在眼眶下緣與上顎竇上，竇腔被遮住，與本圖上顎竇清晰可見不符。\n❌ (C) reverse Towne 為張口後前位，主要顯示兩側髁突與髁頸，畫面重點在下顎枝上端而非鼻竇與眶緣。\n❌ (D) oblique lateral 是單側下顎體或下顎枝的斜側位片，只照得到一側下顎，不會是這種左右對稱的正面影像。\n📚 出處：White & Pharoah, Oral Radiology〈Extraoral Projections〉Waters（occipitomental）投影與中臉部骨折評估。"
   },
   {
    "n": 74,
@@ -1090,7 +1096,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent4'] = {
     "牙中牙（dens in dente）"
    ],
    "a": 1,
-   "fig": "img/q/114090_304_0304_77.webp"
+   "fig": "img/q/114090_304_0304_77.webp",
+   "exp": "✅ (B) 箭頭所指的上顎後牙牙胚外形模糊、琺瑯質與牙本質都很薄且密度偏低，與周圍骨頭的對比幾乎消失，像淡淡的影子浮在骨中，且呈區域性侵犯、遲遲不萌發——這就是區域性齒異常發育（regional odontodysplasia）的「影子牙齒」。\n❌ (A) 殼狀牙齒見於第三型牙本質生成不全，特徵是琺瑯質厚度正常、牙本質極薄而髓腔異常巨大，牙齒輪廓依然清楚，不會整顆變淡。\n❌ (C) 鏟形牙齒是上顎門齒舌側邊緣嵴隆起呈鏟狀的形態變異，屬臨床外形特徵，在 X 光上不會表現為模糊的牙影。\n❌ (D) 牙中牙是琺瑯質向牙冠內陷形成「牙內有牙」的緻密影像，多見於上顎側門齒，病灶處反而更白而非更淡。\n📚 出處：Neville, Oral and Maxillofacial Pathology〈Abnormalities of Teeth〉Regional Odontodysplasia（ghost teeth）。"
   },
   {
    "n": 78,
