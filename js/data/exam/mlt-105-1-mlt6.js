@@ -925,7 +925,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "Trichophyton violaceum"
    ],
    "a": 1,
-   "fig": "img/q/105020_308_44_65.webp"
+   "fig": "img/q/105020_308_44_65.webp",
+   "exp": "✅ (B) 說明：圖中可見纖細、有隔的細菌絲，分生孢子柄末端一簇圓形小分生孢子呈放射狀排列，即典型的「小花狀（rosette／daisy-like）」，是 Sporothrix schenckii 在 25～30℃ 室溫培養的黴菌型（mould phase）特徵；此菌為雙型性黴菌，在 37℃ 或組織內轉為雪茄形酵母菌型，經由園藝刺傷（玫瑰刺、苔蘚）進入皮下組織引起孢子絲菌病（sporotrichosis），屬典型的皮下黴菌症。\n❌ (A) Trichosporon beigelii 產生大量關節孢子（arthroconidia）與芽生孢子，呈酵母樣菌落，引起白色毛結節症與伺機性感染，不會形成小花狀分生孢子。\n❌ (C) Microsporum canis 屬皮癬菌，特徵是厚壁、表面粗糙、末端尖細且分隔 6 節以上的紡錘形大分生孢子，引起表淺皮膚癬而非皮下黴菌症。\n❌ (D) Trichophyton violaceum 亦為皮癬菌，生長緩慢、菌落深紫色，少見大分生孢子而以菌絲與厚膜孢子為主，同樣屬表淺黴菌症。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology「皮下黴菌症（Subcutaneous Mycoses）—Sporothrix schenckii 之雙型性與小花狀分生孢子排列」；臨床微生物學黴菌鑑定章節。"
   },
   {
    "n": 66,
@@ -981,7 +982,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "皮炎芽生黴菌（Blastomyces dermatitidis）"
    ],
    "a": 1,
-   "fig": "img/q/105020_308_44_69.webp"
+   "fig": "img/q/105020_308_44_69.webp",
+   "exp": "✅ (B) 說明：圖示為分枝且有隔（分節）的菌絲，在菌絲中間（間生）與末端（頂生）形成圓形、厚壁的厚膜孢子（chlamydospores），這是巴西副球黴菌 Paracoccidioides brasiliensis 室溫黴菌型的特徵；此菌為雙型性黴菌，37℃ 或組織中轉為大型酵母菌，母細胞周邊環生多個子芽而呈「船舵輪（mariner's wheel）」外觀，引起全身性副球黴菌病。\n❌ (A) Coccidioides immitis 的菌絲型特徵是交替出現的桶狀關節孢子（arthroconidia），孢子間夾有空細胞，並非厚膜孢子。\n❌ (C) Histoplasma capsulatum 菌絲型產生表面有指狀突起的大型結節狀大分生孢子（tuberculate macroconidia）與小分生孢子，不以厚膜孢子為特徵。\n❌ (D) Blastomyces dermatitidis 菌絲型在短分生孢子柄末端形成單一梨形或圓形小分生孢子，呈「棒棒糖（lollipop）」外觀，組織中為寬基出芽酵母菌。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology「全身性雙型性黴菌（Dimorphic Systemic Mycoses）—Paracoccidioides brasiliensis 菌絲型厚膜孢子與船舵輪酵母型」章節。"
   },
   {
    "n": 70,
@@ -1009,7 +1011,8 @@ window.APP_EXAM_PAPERS['mlt-105-1-mlt6'] = {
     "Rhizopus species"
    ],
    "a": 0,
-   "fig": "img/q/105020_308_44_71.webp"
+   "fig": "img/q/105020_308_44_71.webp",
+   "exp": "✅ (A) 說明：圖中可見細長、多隔、兩端漸尖並略呈彎曲的鐮刀形（香蕉形）大分生孢子，是 Fusarium species 的鑑定特徵；此菌普遍存在於土壤與植物，在嗜中性白血球低下的病人可造成散播性伺機感染、角膜炎與甲床感染，且血液培養常可長出（與多數黴菌不同）。\n❌ (B) Bipolaris species 屬暗色（dematiaceous）黴菌，分生孢子為棕色、長橢圓形且有數個橫隔的 poroconidia，不呈鐮刀形。\n❌ (C) Mucor species 屬接合菌，菌絲寬大而無隔，以孢子囊柄頂端的孢子囊內產生孢子囊孢子，且無假根，不形成大分生孢子。\n❌ (D) Rhizopus species 同屬接合菌，特徵是假根（rhizoid）與其上方直立的孢子囊柄及孢子囊，亦無鐮刀形大分生孢子。\n📚 出處：Mahon & Lehman, Textbook of Diagnostic Microbiology「伺機性黴菌（Opportunistic Mycoses）—Fusarium 鐮刀形大分生孢子與接合菌（Mucor／Rhizopus）之鑑別」章節。"
   },
   {
    "n": 72,
