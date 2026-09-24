@@ -517,7 +517,8 @@ window.APP_EXAM_PAPERS['den-114-2-dent3'] = {
     "1/4 號鑽針為④類型"
    ],
    "a": 1,
-   "fig": "img/q/114090_304_0303_36.webp"
+   "fig": "img/q/114090_304_0303_36.webp",
+   "exp": "✅ (B) 圖②的工作端是上窄下寬的短倒梯形，頸部直徑小於底面，正是倒圓錐形鑽針（inverted cone bur）的外形。33、33½、34、35、37 等號數都屬此型，33½ 是其中直徑較小者（約 0.6 mm），臨床上用來製作窩洞的倒凹固位（undercut／retention）與去除窩溝底部的齲壞，敘述正確。\n❌ (A) 169 號屬於錐形裂溝鑽針（tapered fissure bur），工作端細長而略帶斜度，對應的是圖③；圖①是工作端呈正圓球形的球鑽（round bur）。\n❌ (C) 2 號鑽針是球鑽，號數 ¼、½、1、2、4、6、8 都是球形，對應圖①，主要用於開擴窩洞入口與去除軟化齲質，不是圖③的錐形裂溝鑽。\n❌ (D) ¼ 號同樣是球鑽（最小號的球形工作端），對應圖①；圖④工作端上窄下圓、外形像梨子，是梨形鑽針（pear-shaped bur，330、331 號）。\n📚 出處：Roberson, Heymann & Swift, Sturdevant's Art and Science of Operative Dentistry（Instruments and Equipment for Tooth Preparation — 旋轉切削器械的鑽針形態與號數分類）。"
   },
   {
    "n": 37,
