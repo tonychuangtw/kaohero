@@ -195,7 +195,8 @@ window.APP_EXAM_PAPERS['den-111-2-dent3'] = {
     "腭側根管；由近心側向遠心側照射（mesial shift）"
    ],
    "a": 3,
-   "fig": "img/q/111100_304_33_13.webp"
+   "fig": "img/q/111100_304_33_13.webp",
+   "exp": "✅ (D) 上顎第一小臼齒常有頰、腭兩根管，正角度（平行儀）照射時兩根管互相重疊；改成側角度後兩者被分開，可用管球移位法（Clark's rule／SLOB，同舌異頰）判讀：與管球移動方向「同向」位移者為腭（舌）側，「反向」位移者為頰側。與左圖對照，箭頭所指的根管往近心側移位，與管球由近心側往遠心側投射（管球移到近心、mesial shift）的方向一致，故為腭側根管，照射方向為 mesial shift。\n❌ (A) 兩項皆錯：若真是頰側根管，在 mesial shift 下應往遠心位移；且本片的位移方向顯示管球移向近心，不是 distal shift。\n❌ (B) 根管判斷正確，但方向錯誤：distal shift 時腭側根管會隨管球往遠心位移，與本片所見的近心位移不符。\n❌ (C) 照射方向正確，但根管判斷錯誤：mesial shift 時頰側根管依「異頰」原則往相反的遠心側移位，箭頭所指者是往近心移的那一支。\n📚 出處：Oral Radiology: Principles and Interpretation，管球移位法（tube-shift／Clark's rule，SLOB 同舌異頰）一節。"
   },
   {
    "n": 14,
