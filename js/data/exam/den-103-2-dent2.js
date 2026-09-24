@@ -531,7 +531,8 @@ window.APP_EXAM_PAPERS['den-103-2-dent2'] = {
     "e-f段"
    ],
    "a": 3,
-   "fig": "img/q/103090_301_22_37.webp"
+   "fig": "img/q/103090_301_22_37.webp",
+   "exp": "✅ (D) 圖中 a→b→c→d 為加載、d→e→f→a 為卸載。下方的 e-f 是卸載時的平台段（unloading plateau）：彎矩略降而角度大幅回復，代表應力誘發生成的 martensite 在應力移除時逆轉回 austenite，因而釋放出幾乎固定的回復力。臨床上矯正線「持續且輕柔的定值力量」就是來自這一段，所以答案是 e-f。\n❌ (A) b-c 是加載時的平台段，方向相反：austenite 受應力誘發而轉變為 martensite（stress-induced martensite），不是轉回 austenite。\n❌ (B) c-d 段 austenite 已幾乎全部轉變完畢，是 martensite 本身受力的彈性（續而塑性）變形，彎矩隨角度陡升，無相變發生。\n❌ (C) d-e 段是卸載初期 martensite 的彈性回彈，斜率陡、角度回復很少，尚未到達逆轉變所需的應力水準。\n📚 出處：Craig's Restorative Dental Materials／矯正線材（Ni-Ti shape memory alloy 的 superelasticity：加載平台 austenite→martensite、卸載平台 martensite→austenite）。"
   },
   {
    "n": 38,
