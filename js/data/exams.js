@@ -42000,7 +42000,7 @@ window.APP_EXAMS = [
   "subjName": "電子學大意",
   "label": "108 年　五等　電子學大意",
   "n": 40,
-  "exp": 32,
+  "exp": 40,
   "mins": 60
  },
  {
