@@ -293,7 +293,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent6'] = {
     "皮質骨錨定（cortical anchorage）"
    ],
    "a": 0,
-   "fig": "img/q/107100_304_66_20.webp"
+   "fig": "img/q/107100_304_66_20.webp",
+   "exp": "✅ (A) 圖中後段的磨牙移動前後牙長軸維持平行、牙冠與牙根位移量相近，屬於整體（bodily）移動；被移動的前牙則以牙冠位移較多的傾斜方式後退。當錨定單位必須以整體移動才會被拉動、而作用端只是傾斜移動時，錨定單位所承受的單位面積壓力較小、阻力較大，這種配置即稱為不動錨定（stationary anchorage），也就是 Proffit 所說「以牙根移動對抗牙冠傾斜」的錨定型態。\n❌ (B) 相互錨定指兩個阻力相當的單元彼此拉近、各移動約一半空間（如正中裂隙關閉）。圖中前後段移動量明顯不對等、移動型態也不同，不符合相互錨定。\n❌ (C) 中等錨定是以「空間分配比例」描述的分類（後牙前移約佔拔牙空間 25～50%），描述的是結果而非錨定的力學控制方式，本題問的是後牙的錨定控制型態。\n❌ (D) 皮質骨錨定是刻意把錨定牙的牙根轉矩到頰側皮質骨板，利用皮質骨吸收較慢來增加阻力；圖中未顯示牙根被加轉矩靠向皮質骨。\n📚 出處：Proffit, Contemporary Orthodontics — 錨定控制（anchorage control）：simple／stationary／reciprocal／cortical anchorage"
   },
   {
    "n": 21,
@@ -307,7 +308,8 @@ window.APP_EXAM_PAPERS['den-107-2-dent6'] = {
     "fourth order bend"
    ],
    "a": 1,
-   "fig": "img/q/107100_304_66_21.webp"
+   "fig": "img/q/107100_304_66_21.webp",
+   "exp": "✅ (B) 圖為頰側（唇側）觀，矯正線在相鄰托架之間做出階梯狀的上下彎折，使各牙長軸（虛線）在近遠心方向改變傾斜角度，屬於控制牙齒 tip／angulation 的第二階彎折（second order bend），常見型式即 step bend 與 V-bend。\n❌ (A) 第一階彎折是在水平面（咬合面觀）做的內外（in-out）彎折，如 toe-in／toe-out、offset，用來調整牙齒頰舌向的位置，從頰側看不出來。\n❌ (C) 第三階彎折是把線材本身扭轉（torque），控制牙根的頰舌向轉矩，在方線上以扭轉角度呈現，並非圖中的上下階梯狀彎折。\n❌ (D) 矯正線彎折只分第一、二、三階三種，對應空間的三個平面，並無所謂第四階彎折。\n📚 出處：Proffit, Contemporary Orthodontics — 矯正線彎折（first／second／third order bends）；second order bend 控制牙齒近遠心傾斜（tip／angulation）"
   },
   {
    "n": 22,
