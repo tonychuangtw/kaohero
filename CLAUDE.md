@@ -183,6 +183,9 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
 - ⚠ **重新轉檔會重寫每科的檔**：`gen_essay.py` 會先讀舊檔把 `q.ref` 依（年度, 題號）接回去；而且一定要拿 `~/.claude/essay.lock`
   （`essay-refresh.sh` 已包好），不然批次剛寫進去的參考架構會被轉檔洗掉
 - 參考架構格式由 `tools/essay-ref.py set` 檢查：150～1500 字、要有【答題架構】、不准 ✅❌📚；模型判 skip 的題記在 `tools/essay-ref-skips.json` 不再挑
+- ⚠ **批次停在「格式退回」**（症狀：`essay-ref.log` 最後一行「第 N 批格式退回：…長度 1567 不在 150～1500」、之後沒有新行）：
+  舊版一題超長就整批退回、批次 break；一科只剩那一題時每批都挑到它。現在壞的題不寫、記在 `tools/essay-ref-rejects.json`，
+  同題第二次退回就進 skip；prompt 目標字數改 600～1200（2026-09-25）
 - 挑題順序：`essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
 - 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
