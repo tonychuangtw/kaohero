@@ -35,7 +35,8 @@ b=0
 while :; do
   [ -e "$STOP" ] && { echo "$(now) 收到停止記號" | tee -a "$LOG"; rm -f "$STOP"; break; }
   python3 tools/essay-ref.py targets --limit "$SIZE" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || { cat "$T/cnt.txt" >> "$LOG"; break; }
-  left=$(sed -n 's/.*全部 \([0-9]*\)[）)].*/\1/p' "$T/cnt.txt")
+  left=$(sed -n 's/.*全部 \([0-9]*\).*/\1/p' "$T/cnt.txt")
+  rec=$(sed -n 's/.*年起 \([0-9]*\).*/\1/p' "$T/cnt.txt")
   grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; break; }
   subj=$(sed -n '1s/^科目：//p' "$T/q.txt")
   b=$((b+1)); t0=$(date +%s)
@@ -56,7 +57,7 @@ while :; do
   grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
   got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
   commit "申論參考架構 +${got} 題（${subj}）" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
-  echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題，$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
+  echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題（近年 ${rec:-?}），$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
   # 一批寫 0 題＝這批模型全判 skip，已記進 essay-ref-skips.json，下一批會挑別的，不會空轉
   [ "$MAXB" -gt 0 ] && [ "$b" -ge "$MAXB" ] && break
 done

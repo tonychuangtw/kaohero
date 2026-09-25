@@ -17,6 +17,7 @@ from gen_essay import load_papers
 
 PRIORITY = ['社會行政', '一般行政', '一般民政', '人事行政', '勞工行政', '教育行政', '戶政', '法制', '財稅行政',
             '經建行政', '地政', '會計', '廉政', '司法行政', '行政警察']
+RECENT = int(os.environ.get('ESSAY_RECENT', 110))   # 近年門檻（民國年）
 REJ = os.path.join(HERE, 'essay-ref-rejects.json')   # 格式退回次數
 SKIP = os.path.join(HERE, 'essay-ref-skips.json')   # 模型判定寫不出來的題，記下來不再挑（不然會無限重挑）
 IDX = os.path.join(ROOT, 'js/data/essays.js')
@@ -52,13 +53,17 @@ def rank(k, e):
 
 def targets(limit, out):
     idx = load_idx(); sk = skips()
-    total = 0; pick = None
+    # 兩輪：先把所有科目的近年（RECENT 年起）寫完，再回頭寫舊年度（Tony 2026-09-25「好」：全部 5.6 萬題要一個月以上，近 5 年先上）
+    total = 0; recent = 0; pick = None; old = None
     for k in sorted(idx, key=lambda k: rank(k, idx[k])):
         ps = load_papers(idx[k]['f'], k)
         todo = [(p, q) for p in ps for q in p['qs']
                 if not q.get('ref') and not q.get('warn') and '%s|%d|%d' % (k, p['roc'], q['n']) not in sk]
-        total += len(todo)
-        if todo and pick is None: pick = (k, todo[:limit])
+        new = [t for t in todo if t[0]['roc'] >= RECENT]
+        total += len(todo); recent += len(new)
+        if new and pick is None: pick = (k, new[:limit])
+        if todo and old is None: old = (k, todo[:limit])
+    pick = pick or old
     if not pick:
         print('0 題（全部 0）'); return
     k, todo = pick
@@ -68,7 +73,7 @@ def targets(limit, out):
     for p, q in todo:
         lines += ['### key=%s roc=%d n=%d（%d 分）' % (k, p['roc'], q['n'], q['pt']), q['q'], '']
     open(out, 'w', encoding='utf-8').write('\n'.join(lines))
-    print('%d 題（全部 %d）→ %s' % (len(todo), total, out))
+    print('%d 題（全部 %d，%d 年起 %d）→ %s' % (len(todo), total, RECENT, recent, out))
 
 
 BAD = re.compile('[✅❌📚]')
