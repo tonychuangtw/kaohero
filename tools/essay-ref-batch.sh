@@ -23,7 +23,7 @@ cd "$ROOT" || exit 1
 now() { TZ=Asia/Taipei date '+%m/%d %H:%M'; }
 commit() {   # exp-worker 也在 commit，撞到 index.lock 就等一下再試
   for i in 1 2 3 4 5 6; do
-    git add js/data/essay js/data/essays.js tools/essay-ref-skips.json >/dev/null 2>&1 &&
+    git add js/data/essay js/data/essays.js tools/essay-ref-skips.json tools/essay-ref-rejects.json >/dev/null 2>&1 &&
     git commit -q -m "$1" >/dev/null 2>&1 && return 0
     git diff --cached --quiet 2>/dev/null && git diff --quiet -- js/data/essay js/data/essays.js 2>/dev/null && return 0
     sleep 5

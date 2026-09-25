@@ -17,6 +17,7 @@ from gen_essay import load_papers
 
 PRIORITY = ['社會行政', '一般行政', '一般民政', '人事行政', '勞工行政', '教育行政', '戶政', '法制', '財稅行政',
             '經建行政', '地政', '會計', '廉政', '司法行政', '行政警察']
+REJ = os.path.join(HERE, 'essay-ref-rejects.json')   # 格式退回次數
 SKIP = os.path.join(HERE, 'essay-ref-skips.json')   # 模型判定寫不出來的題，記下來不再挑（不然會無限重挑）
 IDX = os.path.join(ROOT, 'js/data/essays.js')
 
@@ -97,9 +98,16 @@ def set_refs(path, write):
         by.setdefault(k, []).append(r)
     # 部分退回：格式不合的題不寫、也不記 skip（下一批會再挑到重寫），其餘照寫。
     # 以前整批退回＋批次停止，一題超長就把整批 12 題丟掉（2026-09-24 21:12）
+    # 同一題第二次被退回就記進 skip，不然一科只剩這題時會每批挑到同一題、批次停住（2026-09-25 04:58）
     if bad:
         print('退回：', *bad, sep='\n  ')
-        if not by: sys.exit(1)
+        rj = json.load(open(REJ, encoding='utf-8')) if os.path.exists(REJ) else {}
+        for r in refs:
+            k = '%s|%s|%s' % (r.get('key'), r.get('roc'), r.get('n'))
+            if r.get('skip') or r.get('key') not in idx or not check(r): continue
+            rj[k] = rj.get(k, 0) + 1
+            if rj[k] >= 2: sk.add('%s|%d|%d' % (r['key'], r['roc'], r['n']))
+        if write: json.dump(rj, open(REJ, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     got = 0
     for k, rs in by.items():
         ps = load_papers(idx[k]['f'], k)
