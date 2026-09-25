@@ -10,7 +10,8 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
 　- ✅ 申論題目下載 gao／local／pol 09/24 21:19 全部完成，21:23 已 essay-refresh 上線
 　- 🔄 參考架構 `essay-ref-batch.sh 12 0` 09/25 04:15 重開（剩約 5 萬題）。之前 09/24 21:12 因一題超過 1500 字整批退回而停；
-　　 09/25 04:58 又因同一種情況停（一科只剩那一題），23:17 改成同題退回兩次記 skip、prompt 目標 600～1200 字後重開。沒在跑就重跑同一行；撞額度會自己停
+　　 09/25 04:58 又因同一種情況停（一科只剩那一題），23:17 改成同題退回兩次記 skip、prompt 目標 600～1200 字後重開。
+　　 23:35 Tony 同意改順序：先寫全部科目 110 年起（約 1.8 萬題、約一週），再回頭寫舊年度（`ESSAY_RECENT` 可調）沒在跑就重跑同一行；撞額度會自己停
 VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`、`node test/rank-test.js`（9 項）全綠；
 　後端 `node test/kgh-rank-test.js`（15 項）、`kgh-pay-test.js`（32 項）、`kgh-export-test.js`、`kgh-board-test.js` 全綠。
 　補圖抽查：Read 開 webp 確認圖表完整（102 年初等經濟學大意 #15 的表格）。
@@ -60,7 +61,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-25 23:18 台北
+UPDATED: 2026-09-25 23:36 台北
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 

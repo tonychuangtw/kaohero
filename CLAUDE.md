@@ -186,7 +186,7 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
 - ⚠ **批次停在「格式退回」**（症狀：`essay-ref.log` 最後一行「第 N 批格式退回：…長度 1567 不在 150～1500」、之後沒有新行）：
   舊版一題超長就整批退回、批次 break；一科只剩那一題時每批都挑到它。現在壞的題不寫、記在 `tools/essay-ref-rejects.json`，
   同題第二次退回就進 skip；prompt 目標字數改 600～1200（2026-09-25）
-- 挑題順序：`essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
+- 挑題順序：先寫全部科目 110 年起的題（`ESSAY_RECENT`），寫完才回頭寫舊年度；同一輪內依 `essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
 - 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
 ## 勘誤提醒 q.note（2026-09-23）
