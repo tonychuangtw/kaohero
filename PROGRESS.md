@@ -61,7 +61,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-25 23:36 台北
+UPDATED: 2026-09-27 04:13 台北（喚醒檢查：essay-ref-batch 仍在跑，第 204 批完，剩 48,158 題／近年 16,071）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
