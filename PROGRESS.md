@@ -12,7 +12,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　- 🔄 參考架構 `essay-ref-batch.sh 12 0` 09/25 04:15 重開（剩約 5 萬題）。之前 09/24 21:12 因一題超過 1500 字整批退回而停；
 　　 09/25 04:58 又因同一種情況停（一科只剩那一題），23:17 改成同題退回兩次記 skip、prompt 目標 600～1200 字後重開。
 　　 09/27 10:22 Tony 問為什麼這麼慢 → 12:40 起分兩支：Claude 只寫法律科（`ESSAY_SCOPE=law … 12 0`，在跑），
-　　 其他科改 Gemini flash（試跑 3 批已上線，**等 Tony 抽查 OK** 再 `REF_ENGINE=agy ESSAY_SCOPE=nolaw bash tools/essay-ref-batch.sh 20 0`）
+　　 其他科改 Gemini flash，13:05 Tony OK 後全速在跑（`REF_ENGINE=agy ESSAY_SCOPE=nolaw bash tools/essay-ref-batch.sh 20 0`）；兩支沒在跑就各自重跑同一行
 　　 23:35 Tony 同意改順序：先寫全部科目 110 年起（約 1.8 萬題、約一週），再回頭寫舊年度（`ESSAY_RECENT` 可調）沒在跑就重跑同一行；撞額度會自己停
 VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`、`node test/rank-test.js`（9 項）全綠；
 　後端 `node test/kgh-rank-test.js`（15 項）、`kgh-pay-test.js`（32 項）、`kgh-export-test.js`、`kgh-board-test.js` 全綠。
