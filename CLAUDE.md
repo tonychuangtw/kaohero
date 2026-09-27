@@ -194,6 +194,10 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
   `REF_ENGINE=agy ESSAY_SCOPE=nolaw bash tools/essay-ref-batch.sh 20 0`。兩支科目不重疊可同時跑，紀錄分別是
   `~/.claude/essay-ref-law.log`／`essay-ref-nolaw.log`、停止記號同名 `.stop`。flash 批次設 `ESSAY_NO_ARTICLE=1`，寫到「第 N 條」整題退回
   （試跑時 flash 在土地登記科引了一堆條號，所以這類科改歸 Claude）。速度：flash 約 12 秒／題、Claude 約 60 秒／題
+- ⚠ **「格式退回：…JSONDecodeError: Invalid control character」**（09/27 16:44 flash 停 8 小時）：flash 在 JSON 字串裡放原生換行。
+  `essay-ref.py set` 已改 `json.load(strict=False)`；格式退回也改成連續 3 次才停
+- ⚠ **「API Error: 400 Output blocked by content filtering policy」**（09/28 01:00 Claude 寫營建法規概要連擋 3 次停住）：同一批重試永遠擋。
+  現在偵測到就把這批拆成一題一題寫，單題還擋就 `essay-ref.py skip` 記進 skips；log 會出現「改成一題一題寫」
 - 挑題順序：先寫全部科目 110 年起的題（`ESSAY_RECENT`），寫完才回頭寫舊年度；同一輪內依 `essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
 - 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
