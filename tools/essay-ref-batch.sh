@@ -21,6 +21,10 @@ export DISABLE_AUTOUPDATER=1
 unset TELEGRAM_STATE_DIR
 cd "$ROOT" || exit 1
 now() { TZ=Asia/Taipei date '+%m/%d %H:%M'; }
+TG="$HOME/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-send.sh"
+tg() { "$TG" kaohero <<<"$1" >/dev/null 2>&1 || true; }   # 背景腳本沒有 TELEGRAM_STATE_DIR，一定要帶線名
+REPORT=$((2*3600))   # 每 2 小時回報一次進度（shared.md §17）
+MAXFAIL=3            # 連續失敗幾批才停（單次 timeout 常是 04:00 重啟或網路抖動）
 commit() {   # exp-worker 也在 commit，撞到 index.lock 就等一下再試
   for i in 1 2 3 4 5 6; do
     git add js/data/essay js/data/essays.js tools/essay-ref-skips.json tools/essay-ref-rejects.json >/dev/null 2>&1 &&
@@ -31,13 +35,13 @@ commit() {   # exp-worker 也在 commit，撞到 index.lock 就等一下再試
   return 1
 }
 
-b=0
+b=0; fail=0; done_n=0; last_rep=$(date +%s)
 while :; do
   [ -e "$STOP" ] && { echo "$(now) 收到停止記號" | tee -a "$LOG"; rm -f "$STOP"; break; }
   python3 tools/essay-ref.py targets --limit "$SIZE" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || { cat "$T/cnt.txt" >> "$LOG"; break; }
   left=$(sed -n 's/.*全部 \([0-9]*\).*/\1/p' "$T/cnt.txt")
   rec=$(sed -n 's/.*年起 \([0-9]*\).*/\1/p' "$T/cnt.txt")
-  grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; break; }
+  grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; tg "✅ 申論參考架構全部寫完（本次 $done_n 題）"; break; }
   subj=$(sed -n '1s/^科目：//p' "$T/q.txt")
   b=$((b+1)); t0=$(date +%s)
   rm -f "$T/refs.json"
@@ -48,16 +52,30 @@ while :; do
     < "$T/prompt.md" > "$T/out.json" 2>> "$T/err.txt"
   rc=$?
   if [ $rc -ne 0 ] || [ ! -s "$T/refs.json" ]; then
-    echo "$(now) 第 $b 批失敗（rc=$rc）$(tail -c 300 "$T/out.json" "$T/err.txt" 2>/dev/null | tr '\n' ' ')" | tee -a "$LOG"; break
+    fail=$((fail+1)); b=$((b-1))
+    msg="第 $((b+1)) 批失敗（rc=$rc，連續 $fail 次）$(tail -c 300 "$T/out.json" "$T/err.txt" 2>/dev/null | tr '\n' ' ')"
+    echo "$(now) $msg" | tee -a "$LOG"
+    if [ $fail -ge $MAXFAIL ]; then
+      tg "🔴 申論參考架構批次停了：$msg。本次共寫 $done_n 題，剩 ${left:-?} 題（近年 ${rec:-?}）。可能是額度用完，重跑：bash tools/essay-ref-batch.sh 12 0"
+      break
+    fi
+    rm -f "$T/err.txt"; sleep 180; continue
   fi
+  fail=0
   got=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$T/refs.json','utf8')).filter(r=>!r.skip).length)")
   if ! flock "$LOCK" python3 tools/essay-ref.py set "$T/refs.json" --write > "$T/set.txt" 2>&1; then
-    echo "$(now) 第 $b 批格式退回：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"; break
+    echo "$(now) 第 $b 批格式退回：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"
+    tg "🔴 申論參考架構批次停了：第 $b 批格式退回（見 ~/.claude/essay-ref.log）。本次共寫 $done_n 題"; break
   fi
   grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
   got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
   commit "申論參考架構 +${got} 題（${subj}）" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
   echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題（近年 ${rec:-?}），$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
+  done_n=$((done_n+${got:-0}))
+  if [ $(( $(date +%s) - last_rep )) -ge $REPORT ]; then
+    tg "📝 申論參考架構進度 $(now)：本次已寫 $done_n 題（$b 批），剛完成「${subj}」；剩 ${left:-?} 題，其中 110 年起 ${rec:-?} 題"
+    last_rep=$(date +%s)
+  fi
   # 一批寫 0 題＝這批模型全判 skip，已記進 essay-ref-skips.json，下一批會挑別的，不會空轉
   [ "$MAXB" -gt 0 ] && [ "$b" -ge "$MAXB" ] && break
 done
