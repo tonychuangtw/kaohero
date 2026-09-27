@@ -189,6 +189,11 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
 - ⚠ **批次停在「第 N 批失敗（rc=124）」、之後沒新行**（2026-09-27 04:31 停了 6 小時沒人知道）：一批 claude -p 超過 40 分被 timeout 殺掉，
   舊版遇任何失敗就 break 且不通知。現在單次失敗等 3 分重試、連續 3 次才停，停下／寫完／每 2 小時都會 `tg-send.sh kaohero` 回報。
   **喚醒檢查不能只看 process 在不在**，要看 log 最後一行時間有沒有在 40 分鐘內更新
+- **引擎分兩支（2026-09-27 Tony「好」）**：法律科目（名稱含 法／登記／考銓／稅，排除 方法、研究法、漁法、平差法、法文）只給 Claude：
+  `ESSAY_SCOPE=law bash tools/essay-ref-batch.sh 12 0`；其他科走 runner 的 Gemini flash：
+  `REF_ENGINE=agy ESSAY_SCOPE=nolaw bash tools/essay-ref-batch.sh 20 0`。兩支科目不重疊可同時跑，紀錄分別是
+  `~/.claude/essay-ref-law.log`／`essay-ref-nolaw.log`、停止記號同名 `.stop`。flash 批次設 `ESSAY_NO_ARTICLE=1`，寫到「第 N 條」整題退回
+  （試跑時 flash 在土地登記科引了一堆條號，所以這類科改歸 Claude）。速度：flash 約 12 秒／題、Claude 約 60 秒／題
 - 挑題順序：先寫全部科目 110 年起的題（`ESSAY_RECENT`），寫完才回頭寫舊年度；同一輪內依 `essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
 - 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
