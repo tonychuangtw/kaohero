@@ -105,7 +105,8 @@ def check(r):
 
 
 def set_refs(path, write):
-    refs = json.load(open(path, encoding='utf-8'))
+    # strict=False：flash 偶爾在字串裡放原生換行，嚴格解析會整批炸掉（2026-09-27 16:44 批次因此停 8 小時）
+    refs = json.load(open(path, encoding='utf-8'), strict=False)
     idx = load_idx(); sk = skips()
     bad = []; by = {}
     for r in refs:
@@ -144,6 +145,14 @@ def set_refs(path, write):
     print('寫入 %d 題%s' % (got, '' if write else '（試跑，未寫檔）'))
 
 
+def skip_keys(qfile):
+    # 被內容過濾擋掉、單題重試也擋掉的題直接記 skip（2026-09-28 營建法規概要一批連擋 3 次，批次停住）
+    sk = skips()
+    for m in re.finditer(r'^### key=(\S+) roc=(\d+) n=(\d+)', open(qfile, encoding='utf-8').read(), re.M):
+        sk.add('%s|%s|%s' % m.groups()); print('skip', *m.groups())
+    json.dump(sorted(sk), open(SKIP, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+
+
 if __name__ == '__main__':
     a = sys.argv[1:]
     if a and a[0] == 'targets':
@@ -151,5 +160,7 @@ if __name__ == '__main__':
                 a[a.index('--out') + 1] if '--out' in a else '/dev/stdout')
     elif a and a[0] == 'set':
         set_refs(a[1], '--write' in a)
+    elif a and a[0] == 'skip':
+        skip_keys(a[1])
     else:
         sys.exit(__doc__)

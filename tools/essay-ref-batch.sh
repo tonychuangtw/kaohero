@@ -43,10 +43,10 @@ commit() {   # exp-worker 也在 commit，撞到 index.lock 就等一下再試
   return 1
 }
 
-b=0; fail=0; done_n=0; last_rep=$(date +%s)
+b=0; fail=0; solo=0; done_n=0; last_rep=$(date +%s)
 while :; do
   [ -e "$STOP" ] && { echo "$(now) 收到停止記號" | tee -a "$LOG"; rm -f "$STOP"; break; }
-  python3 tools/essay-ref.py targets --limit "$SIZE" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || { cat "$T/cnt.txt" >> "$LOG"; break; }
+  python3 tools/essay-ref.py targets --limit "$( [ $solo -gt 0 ] && echo 1 || echo "$SIZE")" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || { cat "$T/cnt.txt" >> "$LOG"; break; }
   left=$(sed -n 's/.*全部 \([0-9]*\).*/\1/p' "$T/cnt.txt")
   rec=$(sed -n 's/.*年起 \([0-9]*\).*/\1/p' "$T/cnt.txt")
   grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; tg "✅ 申論參考架構全部寫完（本次 $done_n 題）"; break; }
@@ -75,21 +75,38 @@ while :; do
       < "$T/prompt.md" > "$T/out.json" 2>> "$T/err.txt"
     rc=$?
   fi
+  # 內容過濾（Claude 回 400 Output blocked by content filtering policy）：同一批重試會一直擋。
+  # 改成一題一題寫，單題還被擋就記 skip，其他題照寫（2026-09-28 01:00 營建法規概要連擋 3 次、批次停住）
+  if grep -q 'content filtering' "$T/out.json" 2>/dev/null; then
+    b=$((b-1))
+    if [ $solo -gt 0 ]; then
+      flock "$LOCK" python3 tools/essay-ref.py skip "$T/q.txt" >> "$LOG" 2>&1
+      commit "申論參考架構：內容過濾擋掉的題記 skip" >/dev/null
+      echo "$(now) 內容過濾擋掉，單題記 skip：$(grep -m1 '^### ' "$T/q.txt")" | tee -a "$LOG"
+      solo=$((solo-1))
+    else
+      solo=$(grep -c '^### ' "$T/q.txt"); echo "$(now) 內容過濾擋掉「${subj}」這批，改成一題一題寫（$solo 題）" | tee -a "$LOG"
+    fi
+    rm -f "$T/err.txt"; continue
+  fi
   if [ $rc -ne 0 ] || [ ! -s "$T/refs.json" ]; then
     fail=$((fail+1)); b=$((b-1))
     msg="第 $((b+1)) 批失敗（rc=$rc，連續 $fail 次）$(tail -c 300 "$T/out.json" "$T/err.txt" 2>/dev/null | tr '\n' ' ')"
     echo "$(now) $msg" | tee -a "$LOG"
     if [ $fail -ge $MAXFAIL ]; then
-      tg "🔴 申論參考架構［${ENGINE}］批次停了：$msg。本次共寫 $done_n 題，剩 ${left:-?} 題（近年 ${rec:-?}）。可能是額度用完，重跑：bash tools/essay-ref-batch.sh 12 0"
+      tg "🔴 申論參考架構［${ENGINE}］批次停了：$msg。本次共寫 $done_n 題，剩 ${left:-?} 題（近年 ${rec:-?}）。可能是額度用完，重跑方式見 PROGRESS.md"
       break
     fi
     rm -f "$T/err.txt"; sleep 180; continue
   fi
-  fail=0
-  got=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$T/refs.json','utf8')).filter(r=>!r.skip).length)")
+  fail=0; [ $solo -gt 0 ] && solo=$((solo-1))
   if ! flock "$LOCK" python3 tools/essay-ref.py set "$T/refs.json" --write > "$T/set.txt" 2>&1; then
-    echo "$(now) 第 $b 批格式退回：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"
-    tg "🔴 申論參考架構［${ENGINE}］批次停了：第 $b 批格式退回（見 ~/.claude/essay-ref.log）。本次共寫 $done_n 題"; break
+    fail=$((fail+1)); b=$((b-1))
+    echo "$(now) 第 $((b+1)) 批格式退回（連續 $fail 次）：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"
+    if [ $fail -ge $MAXFAIL ]; then
+      tg "🔴 申論參考架構［${ENGINE}］批次停了：連續 $fail 批格式退回（見 $LOG）。本次共寫 $done_n 題"; break
+    fi
+    continue
   fi
   grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
   got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
