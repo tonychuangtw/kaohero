@@ -21,6 +21,15 @@ RECENT = int(os.environ.get('ESSAY_RECENT', 110))   # 近年門檻（民國年�
 REJ = os.path.join(HERE, 'essay-ref-rejects.json')   # 格式退回次數
 SKIP = os.path.join(HERE, 'essay-ref-skips.json')   # 模型判定寫不出來的題，記下來不再挑（不然會無限重挑）
 IDX = os.path.join(ROOT, 'js/data/essays.js')
+# 法律科目（要引條號）只給 Claude 寫；其他科可以走 Gemini flash（Tony 2026-09-27「好」）。
+# 名稱有「法」但不是法規科的：研究方法、抽樣方法、漁法、平差法、法文
+LAW_RE = re.compile('法|登記|考銓|稅')   # 名稱沒有「法」但滿是條文的科目也算
+NOT_LAW_RE = re.compile('方法|研究法|漁法|平差法|法文')
+SCOPE = os.environ.get('ESSAY_SCOPE', 'all')   # all | law | nolaw
+
+
+def is_law(name):
+    return bool(LAW_RE.search(name)) and not NOT_LAW_RE.search(name)
 
 
 def load_idx():
@@ -56,6 +65,8 @@ def targets(limit, out):
     # 兩輪：先把所有科目的近年（RECENT 年起）寫完，再回頭寫舊年度（Tony 2026-09-25「好」：全部 5.6 萬題要一個月以上，近 5 年先上）
     total = 0; recent = 0; pick = None; old = None
     for k in sorted(idx, key=lambda k: rank(k, idx[k])):
+        if SCOPE != 'all' and is_law(idx[k]['name']) != (SCOPE == 'law'):
+            continue
         ps = load_papers(idx[k]['f'], k)
         todo = [(p, q) for p in ps for q in p['qs']
                 if not q.get('ref') and not q.get('warn') and '%s|%d|%d' % (k, p['roc'], q['n']) not in sk]
@@ -77,6 +88,8 @@ def targets(limit, out):
 
 
 BAD = re.compile('[✅❌📚]')
+NO_ART = os.environ.get('ESSAY_NO_ARTICLE') == '1'
+ART_RE = re.compile(r'第\s*[0-9０-９一二三四五六七八九十百]+\s*條')
 
 
 def check(r):
@@ -86,6 +99,8 @@ def check(r):
     if n < 150 or n > 1500: return '長度 %d 不在 150～1500' % n
     if '【答題架構】' not in ref: return '缺【答題架構】'
     if BAD.search(ref): return '用了 ✅❌📚'
+    # flash 批次（ESSAY_NO_ARTICLE=1）一律不准寫條號：Gemini／DeepSeek 都會掰出很像的條號（2026-09-27）
+    if NO_ART and ART_RE.search(ref): return '寫了條號（此批次只准寫法規名稱）'
     return None
 
 

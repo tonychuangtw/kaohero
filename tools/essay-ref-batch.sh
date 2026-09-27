@@ -10,12 +10,20 @@ set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/bin/claude"            # 走 shim，不搶 kaohero 線的 Telegram poller（shared.md §12）
 MODEL="${REF_MODEL:-claude-opus-5}"
+# REF_ENGINE=agy → ssh 到 runner 用 Gemini flash 寫（Google AI Pro 訂閱，不吃 Claude 額度）。
+# 法律科目不給 flash 寫：agy 批次請搭 ESSAY_SCOPE=nolaw，claude 批次搭 ESSAY_SCOPE=law，兩支可同時跑（科目不重疊）
+ENGINE="${REF_ENGINE:-claude}"
+AGY_HOST="${REF_AGY_HOST:-tonychuangtw@192.168.1.173}"
+AGY_MODEL="${REF_AGY_MODEL:-gemini-3.8-flash-high}"
+SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
+[ "$ENGINE" = agy ] && export ESSAY_NO_ARTICLE=1   # flash 不准寫條號，essay-ref.py set 會擋
 SIZE="${1:-12}"; MAXB="${2:-0}"
-LOG="$HOME/.claude/essay-ref.log"
-STOP="$HOME/.claude/essay-ref.stop"
+LOG="$HOME/.claude/essay-ref${ESSAY_SCOPE:+-$ESSAY_SCOPE}.log"
+STOP="$HOME/.claude/essay-ref${ESSAY_SCOPE:+-$ESSAY_SCOPE}.stop"
 LOCK="$HOME/.claude/essay.lock"
 T="${XDG_RUNTIME_DIR:-/tmp}/essay-ref.$$"; mkdir -p "$T"
-trap 'rm -rf "$T"' EXIT
+AT="/tmp/essay-ref-agy.$$"   # runner 上的暫存目錄
+trap 'rm -rf "$T"; [ "$ENGINE" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AT" >/dev/null 2>&1' EXIT
 export PATH="$HOME/bin:$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
 export DISABLE_AUTOUPDATER=1
 unset TELEGRAM_STATE_DIR
@@ -45,18 +53,34 @@ while :; do
   subj=$(sed -n '1s/^科目：//p' "$T/q.txt")
   b=$((b+1)); t0=$(date +%s)
   rm -f "$T/refs.json"
-  sed -e "s|__OUT__|$T/refs.json|g" tools/essay-ref-prompt.md \
+  OUTP="$T/refs.json"; [ "$ENGINE" = agy ] && OUTP="$AT/refs.json"
+  sed -e "s|__OUT__|$OUTP|g" tools/essay-ref-prompt.md \
     | sed -e "/__QUESTIONS__/{r $T/q.txt" -e 'd}' > "$T/prompt.md"
-  timeout 2400 "$CLAUDE" -p --model "$MODEL" --allowedTools "Read,Write" --dangerously-skip-permissions \
-    --no-session-persistence --disable-slash-commands --output-format json \
-    < "$T/prompt.md" > "$T/out.json" 2>> "$T/err.txt"
-  rc=$?
+  [ "$ENGINE" = agy ] && sed -i 's|^- \*\*條號一定要有把握才寫\*\*.*|- **這一批完全不准寫條號**（「第幾條」一律不要出現，寫了整題會被退回）：只寫法規名稱與制度內容，例：「依土地登記規則」。|' "$T/prompt.md"
+  if [ "$ENGINE" = agy ]; then
+    # agy 的 -p 不吃 stdin，prompt 當參數傳；--print-timeout 預設 5 分鐘不夠
+    ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AT; mkdir -p $AT" >/dev/null 2>&1
+    scp -q "${SSHOPT[@]}" "$T/prompt.md" "$AGY_HOST:$AT/prompt.md" 2>> "$T/err.txt"
+    timeout 2700 ssh "${SSHOPT[@]}" "$AGY_HOST" \
+      "cd $AT && timeout 2400 \$HOME/.local/bin/agy --model $AGY_MODEL --dangerously-skip-permissions \
+       --disable-slash-commands --print-timeout 40m --output-format json -p \"\$(cat $AT/prompt.md)\" \
+       > $AT/out.json 2> $AT/err.txt" >/dev/null 2>> "$T/err.txt"
+    rc=$?
+    scp -q "${SSHOPT[@]}" "$AGY_HOST:$AT/out.json" "$T/out.json" 2>/dev/null
+    scp -q "${SSHOPT[@]}" "$AGY_HOST:$AT/refs.json" "$T/refs.json" 2>/dev/null
+    ssh "${SSHOPT[@]}" "$AGY_HOST" "cat $AT/err.txt" >> "$T/err.txt" 2>/dev/null
+  else
+    timeout 2400 "$CLAUDE" -p --model "$MODEL" --allowedTools "Read,Write" --dangerously-skip-permissions \
+      --no-session-persistence --disable-slash-commands --output-format json \
+      < "$T/prompt.md" > "$T/out.json" 2>> "$T/err.txt"
+    rc=$?
+  fi
   if [ $rc -ne 0 ] || [ ! -s "$T/refs.json" ]; then
     fail=$((fail+1)); b=$((b-1))
     msg="第 $((b+1)) 批失敗（rc=$rc，連續 $fail 次）$(tail -c 300 "$T/out.json" "$T/err.txt" 2>/dev/null | tr '\n' ' ')"
     echo "$(now) $msg" | tee -a "$LOG"
     if [ $fail -ge $MAXFAIL ]; then
-      tg "🔴 申論參考架構批次停了：$msg。本次共寫 $done_n 題，剩 ${left:-?} 題（近年 ${rec:-?}）。可能是額度用完，重跑：bash tools/essay-ref-batch.sh 12 0"
+      tg "🔴 申論參考架構［${ENGINE}］批次停了：$msg。本次共寫 $done_n 題，剩 ${left:-?} 題（近年 ${rec:-?}）。可能是額度用完，重跑：bash tools/essay-ref-batch.sh 12 0"
       break
     fi
     rm -f "$T/err.txt"; sleep 180; continue
@@ -65,15 +89,15 @@ while :; do
   got=$(node -e "console.log(JSON.parse(require('fs').readFileSync('$T/refs.json','utf8')).filter(r=>!r.skip).length)")
   if ! flock "$LOCK" python3 tools/essay-ref.py set "$T/refs.json" --write > "$T/set.txt" 2>&1; then
     echo "$(now) 第 $b 批格式退回：$(tail -4 "$T/set.txt" | tr '\n' ' ')" | tee -a "$LOG"
-    tg "🔴 申論參考架構批次停了：第 $b 批格式退回（見 ~/.claude/essay-ref.log）。本次共寫 $done_n 題"; break
+    tg "🔴 申論參考架構［${ENGINE}］批次停了：第 $b 批格式退回（見 ~/.claude/essay-ref.log）。本次共寫 $done_n 題"; break
   fi
   grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
   got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
-  commit "申論參考架構 +${got} 題（${subj}）" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
+  commit "申論參考架構 +${got} 題（${subj}）${ENGINE/claude/}" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
   echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題（近年 ${rec:-?}），$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
   done_n=$((done_n+${got:-0}))
   if [ $(( $(date +%s) - last_rep )) -ge $REPORT ]; then
-    tg "📝 申論參考架構進度 $(now)：本次已寫 $done_n 題（$b 批），剛完成「${subj}」；剩 ${left:-?} 題，其中 110 年起 ${rec:-?} 題"
+    tg "📝 申論參考架構［${ENGINE}］進度 $(now)：本次已寫 $done_n 題（$b 批），剛完成「${subj}」；剩 ${left:-?} 題，其中 110 年起 ${rec:-?} 題"
     last_rep=$(date +%s)
   fi
   # 一批寫 0 題＝這批模型全判 skip，已記進 essay-ref-skips.json，下一批會挑別的，不會空轉
