@@ -63,7 +63,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-28 01:15 台北（兩支 09/27 各停一次：flash JSON 換行、Claude 內容過濾，已修並 01:05 重開，都在寫）
+UPDATED: 2026-09-29 04:14 台北（重啟後檢查：law 剩 4,873 題（近年 325）在寫；nolaw 剩 35,881（近年 8,341），04:00 撞 5 小時限流、自動等到 05:02 接續）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
