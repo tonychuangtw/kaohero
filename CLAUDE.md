@@ -198,6 +198,9 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
   `essay-ref.py set` 已改 `json.load(strict=False)`；格式退回也改成連續 3 次才停
 - ⚠ **「API Error: 400 Output blocked by content filtering policy」**（09/28 01:00 Claude 寫營建法規概要連擋 3 次停住）：同一批重試永遠擋。
   現在偵測到就把這批拆成一題一題寫，單題還擋就 `essay-ref.py skip` 記進 skips；log 會出現「改成一題一題寫」
+- ⚠ **「批次停了：第 N 批失敗（rc=3，連續 3 次）… Individual quota reached … Resets in 7m23s」**（09/28 04:45 flash 停 6 小時）：
+  這是 agy 的 **5 小時限流**，不是週限；舊版每次只等 3 分、連錯 3 次就停。現在會解析 `Resets in` 的時間，6 小時內會重置的就睡到重置後
+  +2 分再接續，而且不算失敗（等超過 30 分會發 ⏳ 通知）；超過 6 小時的（週限）才照舊累計停下。查配額：`bash ~/TelegramClaude/claude-shared/tools/agy-usage.sh`
 - 挑題順序：先寫全部科目 110 年起的題（`ESSAY_RECENT`），寫完才回頭寫舊年度；同一輪內依 `essay-ref.py` 的 `PRIORITY` 類科（社會行政、一般行政…）→ 掛越多類科越前面 → 新年度先寫
 - 批改（第二段）還沒做：要 Anthropic API 付費金鑰與付費牆，見 PROGRESS.md
 
