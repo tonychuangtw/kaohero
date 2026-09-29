@@ -36,7 +36,8 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 - 開法：brain 的 `claude --cloud` 開不了（debug：`GitHub app is not installed on tonychuangtw/kaohero (status is null)` → 改打包本機 repo → 527MB 超過 100MB 上限
   → 「Repo is too large to teleport」；網頁 Connectors 明明顯示 App 已裝）。改由 Tony 從網頁開（預填連結，模型 Sonnet、Accept edits）
 - Session 網址（09/29 15:16 起 Tony 從網頁開）：https://claude.ai/code/session_01RVLXSgx9Ra4DpgLzEUhiGG（第 1 條）、https://claude.ai/code/session_016hV9nohC6UuXeWszMEiEZ2（第 2 條）、https://claude.ai/code/session_013pF6AyZCvYprEsyyRkMhpx（第 3 條）；依開啟順序應是分片 0、1、2，以 branch 名為準；續跑一輪：`claude -p "continue" --cloud <session 網址>`（走 ~/bin/claude shim）
-- 下一步：一輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
+- 第 1 輪（09/29 16:45 合併）：+1,649 題／87 科，贈額 250→213（約 US$0.022／題）。09/30 00:05 Tony「繼續做」→ 三條都送 continue 開第 2 輪；照這價錢 213 約可再寫 9 千題，夠寫完非法律科 110 年起（約 6.7 千）
+- 下一步：每輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
 ## 申論題庫＋批改（2026-09-24 Tony「開工」）
 
@@ -63,7 +64,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 1. 正式環境 MerchantID／HashKey／HashIV　2. 測試環境（Stage）同三項
 3. 已開通哪些付款方式（信用卡一次付清／ATM／超商代碼／LINE Pay／Apple Pay）
 4. 誰能在綠界後台設定 ReturnURL／OrderResultURL（要把我們的網址加進去）
-UPDATED: 2026-09-29 23:59 台北（Tony 說「雲端還有 213 美金，繼續做」→ 已回問是 GCP 還是 Anthropic、請他把 key 放 runner ~/.config/{gemini-api,anthropic-api}/.env；等 key 接上後先試一批量花費。nolaw 仍有 10/01 09:10 自動重開 timer；law 照跑）
+UPDATED: 2026-09-30 00:05 台北（雲端第 2 輪已送 continue；nolaw flash 10/01 09:10 timer 自動重開；law 照跑）
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
@@ -79,7 +80,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-29 15:30 台北（開雲端 session 試點；nolaw 05:18 撞 Gemini 週限，essay-nolaw-resume.timer 10/01 09:10 自動重開；law 照跑）
+UPDATED: 2026-09-30 00:05 台北（雲端第 2 輪已送 continue；nolaw flash 10/01 09:10 timer 自動重開；law 照跑）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
