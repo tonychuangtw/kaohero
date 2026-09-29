@@ -35,7 +35,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
   看守 `tools/essay-ref-cloud-watch.sh`（`essay-cloud-watch.timer` 每 15 分，0 token）：有進度每 2 小時報 kaohero 頻道；三條都停 45 分 → 自動合併＋test＋push＋回報
 - 開法：brain 的 `claude --cloud` 開不了（debug：`GitHub app is not installed on tonychuangtw/kaohero (status is null)` → 改打包本機 repo → 527MB 超過 100MB 上限
   → 「Repo is too large to teleport」；網頁 Connectors 明明顯示 App 已裝）。改由 Tony 從網頁開（預填連結，模型 Sonnet、Accept edits）
-- Session 網址（09/29 15:16 起 Tony 從網頁開）：https://claude.ai/code/session_01RVLXSgx9Ra4DpgLzEUhiGG（第 1 條）、https://claude.ai/code/session_016hV9nohC6UuXeWszMEiEZ2（第 2 條）；第 3 條待貼；續跑一輪：`claude -p "continue" --cloud <session 網址>`（走 ~/bin/claude shim）
+- Session 網址（09/29 15:16 起 Tony 從網頁開）：https://claude.ai/code/session_01RVLXSgx9Ra4DpgLzEUhiGG（第 1 條）、https://claude.ai/code/session_016hV9nohC6UuXeWszMEiEZ2（第 2 條）、https://claude.ai/code/session_013pF6AyZCvYprEsyyRkMhpx（第 3 條）；依開啟順序應是分片 0、1、2，以 branch 名為準；續跑一輪：`claude -p "continue" --cloud <session 網址>`（走 ~/bin/claude shim）
 - 下一步：一輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
 ## 申論題庫＋批改（2026-09-24 Tony「開工」）
