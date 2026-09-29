@@ -63,7 +63,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 1. 正式環境 MerchantID／HashKey／HashIV　2. 測試環境（Stage）同三項
 3. 已開通哪些付款方式（信用卡一次付清／ATM／超商代碼／LINE Pay／Apple Pay）
 4. 誰能在綠界後台設定 ReturnURL／OrderResultURL（要把我們的網址加進去）
-5. 有沒有用綠界電子發票（B2C）——那是另一組金鑰
+UPDATED: 2026-09-29 23:59 台北（Tony 說「雲端還有 213 美金，繼續做」→ 已回問是 GCP 還是 Anthropic、請他把 key 放 runner ~/.config/{gemini-api,anthropic-api}/.env；等 key 接上後先試一批量花費。nolaw 仍有 10/01 09:10 自動重開 timer；law 照跑）
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
