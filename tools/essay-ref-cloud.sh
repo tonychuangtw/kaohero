@@ -40,7 +40,7 @@ case "${1:-}" in
   push)
     git push -q -u origin "HEAD:$BRANCH" && echo "pushed to $BRANCH ($(git rev-parse --short HEAD))";;
   status)
-    echo "批數 $(grep -c ' 寫 ' "$LOG" 2>/dev/null || echo 0)　寫入 $(sed -n 's/.* 寫 \([0-9]*\) 題/\1/p' "$LOG" | paste -sd+ | bc 2>/dev/null || echo 0) 題　skip $(sed -n 's/.*skip：\([0-9]*\) 題/\1/p' "$LOG" | paste -sd+ | bc 2>/dev/null || echo 0) 題"
+    awk -v n=0 -v w=0 -v k=0 '/ 寫 [0-9]+ 題/{n++; sub(/.* 寫 /,""); sub(/ 題.*/,""); w+=$0} /skip：/{sub(/.*skip：/,""); sub(/ 題.*/,""); k+=$0} END{printf "批數 %d　寫入 %d 題　skip %d 題\n", n, w, k}' "$LOG"
     tail -1 "$LOG" 2>/dev/null;;
   *) sed -n '2,9p' "$0"; exit 1;;
 esac
