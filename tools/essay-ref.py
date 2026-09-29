@@ -8,7 +8,7 @@
 同一科從最新年度往回寫。有圖表／公式警示（q.warn）的題不寫——看不到圖寫出來的架構不可靠。
 一批只挑同一科的題，prompt 比較集中、模型也比較不會把不同科的觀念混在一起。
 """
-import os, sys, re, json
+import os, sys, re, json, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -26,6 +26,16 @@ IDX = os.path.join(ROOT, 'js/data/essays.js')
 LAW_RE = re.compile('法|登記|考銓|稅')   # 名稱沒有「法」但滿是條文的科目也算
 NOT_LAW_RE = re.compile('方法|研究法|漁法|平差法|法文')
 SCOPE = os.environ.get('ESSAY_SCOPE', 'all')   # all | law | nolaw
+# 分片（2026-09-29 雲端 session 試點）：ESSAY_SHARD=i/n → 只挑 sha1(科目 key) % n == i 的科目，
+# 讓本機 Gemini 批次與幾條雲端 session 同時寫而科目不重疊；不設＝全部。ESSAY_RECENT_ONLY=1 → 近年寫完就停，不回頭寫舊年度
+SHARD = os.environ.get('ESSAY_SHARD', '')
+RECENT_ONLY = os.environ.get('ESSAY_RECENT_ONLY') == '1'
+
+
+def in_shard(k):
+    if not SHARD: return True
+    i, n = (int(x) for x in SHARD.split('/'))
+    return int(hashlib.sha1(k.encode('utf-8')).hexdigest(), 16) % n == i
 
 
 def is_law(name):
@@ -67,6 +77,7 @@ def targets(limit, out):
     for k in sorted(idx, key=lambda k: rank(k, idx[k])):
         if SCOPE != 'all' and is_law(idx[k]['name']) != (SCOPE == 'law'):
             continue
+        if not in_shard(k): continue
         ps = load_papers(idx[k]['f'], k)
         todo = [(p, q) for p in ps for q in p['qs']
                 if not q.get('ref') and not q.get('warn') and '%s|%d|%d' % (k, p['roc'], q['n']) not in sk]
@@ -74,9 +85,9 @@ def targets(limit, out):
         total += len(todo); recent += len(new)
         if new and pick is None: pick = (k, new[:limit])
         if todo and old is None: old = (k, todo[:limit])
-    pick = pick or old
+    pick = pick or (None if RECENT_ONLY else old)
     if not pick:
-        print('0 題（全部 0）'); return
+        print('0 題（全部 %d，%d 年起 %d）' % (total, RECENT, recent)); return
     k, todo = pick
     e = idx[k]
     lines = ['科目：%s（%s，%s）' % (e['name'], {'gao': '高普考', 'local': '地方特考', 'pol': '警察特考'}[e['exam']], e['lv']),
