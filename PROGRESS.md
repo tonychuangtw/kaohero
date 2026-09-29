@@ -6,6 +6,8 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
 NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批次在背景跑。
+　- ☁️ 09/29 起雲端 session 試點（main 線開的）：非法律科 110 年起分 4 片，雲端寫 0～2 片，見下方「雲端 session 試點」。
+　　 10/01 09:10 Gemini 自動重開前：雲端若還在跑，要把 essay-nolaw-resume 改成只寫第 3 片（ESSAY_SHARD=3/4），雲端收工後再拿掉
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
 　- ✅ 申論題目下載 gao／local／pol 09/24 21:19 全部完成，21:23 已 essay-refresh 上線
@@ -21,6 +23,20 @@ VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`�
 　主題歸類 `topic-audit`：135 好／164 普通／0 差（改之前 135／156／8）。
 　後端已 `sudo systemctl restart lanexammock-backend`，`/api/kgh/rank` 回 401（有路由、要登入）而非 404。
 BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另外卡 Tony 三件事，見下方。
+
+## 雲端 session 試點（2026-09-29 Tony 在 main 線同意，main 線開的）
+
+- 目的：Max 方案送的 US$250 雲端 session 贈額（10/7 前要領、11/4 作廢）平行寫「非法律科 110 年起」參考架構，不吃本機週限。
+  官方文件：雲端 session 跟本機共用帳號額度，只有贈額那段是額外的 → 贈額用完就停，不續跑
+- 分片：`ESSAY_SHARD=i/n`（essay-ref.py，依 sha1(科目 key) 分；四片加總＝原總數已驗）。雲端三條寫 0/4、1/4、2/4，`ESSAY_RECENT_ONLY=1` 只寫 110 年起
+- 雲端流程：`tools/essay-ref-cloud.md`（雲端主代理照做：`essay-ref-cloud.sh next` → 子代理 sonnet 寫 → `set` 驗格式＋commit → 每 5 批 push），
+  結果 push 到 branch `cloud/essay-ref-{0,1,2}`，每條一輪 60 批（約 700 題）就停
+- 合併：`python3 tools/essay-ref-merge.py [--dry]`（逐題聯集，不走 git merge；可重複跑）。
+  看守 `tools/essay-ref-cloud-watch.sh`（`essay-cloud-watch.timer` 每 15 分，0 token）：有進度每 2 小時報 kaohero 頻道；三條都停 45 分 → 自動合併＋test＋push＋回報
+- 開法：brain 的 `claude --cloud` 開不了（debug：`GitHub app is not installed on tonychuangtw/kaohero (status is null)` → 改打包本機 repo → 527MB 超過 100MB 上限
+  → 「Repo is too large to teleport」；網頁 Connectors 明明顯示 App 已裝）。改由 Tony 從網頁開（預填連結，模型 Sonnet、Accept edits）
+- Session 網址：（待 Tony 貼）；續跑一輪：`claude -p "continue" --cloud <session 網址>`（走 ~/bin/claude shim）
+- 下一步：一輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
 ## 申論題庫＋批改（2026-09-24 Tony「開工」）
 
@@ -63,7 +79,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-29 09:25 台北（nolaw 05:18 撞 Gemini 週限停下，重置 10/01 09:02；已用 systemd-run 排 essay-nolaw-resume.timer 10/01 09:10 自動重開。law 照跑）
+UPDATED: 2026-09-29 15:30 台北（開雲端 session 試點；nolaw 05:18 撞 Gemini 週限，essay-nolaw-resume.timer 10/01 09:10 自動重開；law 照跑）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 

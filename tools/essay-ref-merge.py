@@ -75,8 +75,11 @@ def main():
             json.dump(sorted(sk), open(er.SKIP, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
             json.dump(rj, open(er.REJ, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
             if total:
-                git('add', 'js/data/essay', 'js/data/essays.js', er.SKIP, er.REJ)
-                git('commit', '-q', '-m', '申論參考架構：合併雲端 %s（+%d 題）' % ('、'.join(b.split('/')[-1] for b in brs), total), check=False)
+                msg = '申論參考架構：合併雲端 %s（+%d 題）' % ('、'.join(b.split('/')[-1] for b in brs), total)
+                for _ in range(6):   # 本機批次也在 commit，撞 index.lock 就等一下
+                    git('add', 'js/data/essay', 'js/data/essays.js', er.SKIP, er.REJ, check=False)
+                    if subprocess.run(['git', 'commit', '-q', '-m', msg], cwd=ROOT).returncode == 0: break
+                    __import__('time').sleep(5)
     print('\n'.join(report))
     print('合計 +%d 題、%d 科%s' % (total, len(touched), '（試跑，未寫檔）' if dry else ''))
 
