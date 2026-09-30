@@ -43,6 +43,8 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
   essay-ref-2 → 3/8（1,105 題）；essay-ref-1 先寫完 1/4 再 7/16（498）；essay-ref-0 先寫完 0/4 再 15/16（417）。3/8＋7/16＋15/16＝第 3 片全部
   → 本機 essay-nolaw-resume（10/01 09:10 台北）已重建成 ESSAY_SHARD=0/4（第 0 片近年屆時寫完，Gemini 寫它的舊年度，不跟雲端撞）
   13:30 截圖贈額 US$58：第 4 輪 118→58＝US$60／1,178 題＝US$0.051／題（一路漲：0.022→0.034→0.033→0.051，推測是長命 session 的主代理 context 越積越大）→ 第 5 輪 MAXB 改 30 批，免得贈額用完後吃 Max 週限
+  13:31 Tony 問怎麼換新 session → 答應第 5 輪合併後給三個預填連結（新 branch cloud/essay-ref-3/4/5，watch／merge 用 glob 自動涵蓋；
+  新 session 從 main 開，不能沿用舊 branch，否則 push 非 fast-forward）。連結格式：https://claude.ai/code?prompt=<urlencode「讀 tools/essay-ref-cloud.md 照做。參數：SHARD=…、BRANCH=…、MAXB=…」>&repositories=tonychuangtw%2Fkaohero&environment=Default
   贈額 08:56 截圖 US$165（第 2 輪 213→165＝US$48／1,416 題，約 US$0.034／題，比第 1 輪貴一半）；到期 11/05 15:59 台北
 - 下一步：每輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
