@@ -18,8 +18,10 @@ AGY_MODEL="${REF_AGY_MODEL:-gemini-3.8-flash-high}"
 SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
 [ "$ENGINE" = agy ] && export ESSAY_NO_ARTICLE=1   # flash 不准寫條號，essay-ref.py set 會擋
 SIZE="${1:-12}"; MAXB="${2:-0}"
-LOG="$HOME/.claude/essay-ref${ESSAY_SCOPE:+-$ESSAY_SCOPE}.log"
-STOP="$HOME/.claude/essay-ref${ESSAY_SCOPE:+-$ESSAY_SCOPE}.stop"
+# 同一個 scope 要開兩支（例：nolaw 的 Claude 與 Gemini 各寫不同分片）時，用 ESSAY_TAG 分開紀錄檔與停止記號
+TAG="${ESSAY_TAG:-$ESSAY_SCOPE}"
+LOG="$HOME/.claude/essay-ref${TAG:+-$TAG}.log"
+STOP="$HOME/.claude/essay-ref${TAG:+-$TAG}.stop"
 LOCK="$HOME/.claude/essay.lock"
 T="${XDG_RUNTIME_DIR:-/tmp}/essay-ref.$$"; mkdir -p "$T"
 AT="/tmp/essay-ref-agy.$$"   # runner 上的暫存目錄
