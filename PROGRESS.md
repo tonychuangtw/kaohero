@@ -38,6 +38,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 - Session 網址（09/29 15:16 起 Tony 從網頁開）：https://claude.ai/code/session_01RVLXSgx9Ra4DpgLzEUhiGG（第 1 條）、https://claude.ai/code/session_016hV9nohC6UuXeWszMEiEZ2（第 2 條）、https://claude.ai/code/session_013pF6AyZCvYprEsyyRkMhpx（第 3 條）；依開啟順序應是分片 0、1、2，以 branch 名為準；續跑一輪：`claude -p "continue" --cloud <session 網址>`（走 ~/bin/claude shim）
 - 第 1 輪（09/29 16:45 合併）：+1,649 題／87 科，贈額 250→213（約 US$0.022／題）。09/30 00:05 Tony「繼續做」→ 三條都送 continue 開第 2 輪；照這價錢 213 約可再寫 9 千題，夠寫完非法律科 110 年起（約 6.7 千）
 - 第 2 輪（09/30 02:15 合併）：+1,416 題。09/30 08:52 Tony「雲端跑下一輪」→ 三條都送 continue 開第 3 輪
+  贈額 08:56 截圖 US$165（第 2 輪 213→165＝US$48／1,416 題，約 US$0.034／題，比第 1 輪貴一半）；到期 11/05 15:59 台北
 - 下一步：每輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
 ## 申論題庫＋批改（2026-09-24 Tony「開工」）
