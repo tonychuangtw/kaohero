@@ -6,8 +6,10 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
 NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批次在背景跑。
-　- ☁️ 09/29 起雲端 session 試點（main 線開的）：非法律科 110 年起分 4 片，雲端寫 0～2 片，見下方「雲端 session 試點」。
-　　 10/01 09:10 Gemini 自動重開（已改 ESSAY_SHARD=0/4，第 3 片交給雲端）；雲端贈額用完後，Gemini 要改回不分片
+　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
+　- 🔄 本機第三支 Claude 批次（15:02 起，transient unit `essay-ref-nolaw-claude`）：`ESSAY_SCOPE=nolaw ESSAY_SHARD=3/4 ESSAY_RECENT_ONLY=1 ESSAY_TAG=nolaw-claude bash tools/essay-ref-batch.sh 12 0`，
+　　 紀錄 ~/.claude/essay-ref-nolaw-claude.log，寫完第 3 片 110 年起（約 1,681 題）會自己停。沒在跑就用 systemd-run 重開同一行
+　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
 　- ✅ 申論題目下載 gao／local／pol 09/24 21:19 全部完成，21:23 已 essay-refresh 上線
@@ -47,6 +49,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
   新 session 從 main 開，不能沿用舊 branch，否則 push 非 fast-forward）。連結格式：https://claude.ai/code?prompt=<urlencode「讀 tools/essay-ref-cloud.md 照做。參數：SHARD=…、BRANCH=…、MAXB=…」>&repositories=tonychuangtw%2Fkaohero&environment=Default
 - 第 5 輪（09/30 15:00 合併）：+709 題（MAXB 30），雲端累計 6,364。剩 110 年起：0/4 83、1/4 0、3/8 824、7/16 440、15/16 417（共 1,764）
   15:05 已傳 Tony 新 session 三個連結（MAXB 25）：essay-ref-3＝3/8、essay-ref-4＝7/16、essay-ref-5＝0/4 再 15/16；請他先截 Usage，剩 < US$10 就不開。等他貼回 session 網址
+- 試點結束 09/30 15:01：贈額剩 US$23（第 5 輪約 US$35／709 題）；贈額 11/05 過期作廢，剩的不用
   贈額 08:56 截圖 US$165（第 2 輪 213→165＝US$48／1,416 題，約 US$0.034／題，比第 1 輪貴一半）；到期 11/05 15:59 台北
 - 下一步：每輪合併後請 Tony 截 claude.ai Usage 看贈額餘額 → 算每題成本 → 決定下一輪；試點結束 `systemctl --user stop essay-cloud-watch.timer`
 
