@@ -306,6 +306,21 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 驗整條流程：`node test/kgh-pay-test.js`（32 項）；要真的打綠界測試環境就把 `buildCheckout` 產的
   表單 POST 到 `https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5`，回「選擇支付方式」頁就是對的
 
+## 跑完測試一定要關瀏覽器（2026-10-01 Tony 要求補）
+
+- **症狀**：brain 上 `pgrep -af "[c]hrome-headless-shell" | grep -v -- --type=` 一大串，parent 是 `systemd --user`、已經跑好幾天。
+  2026-10-01 主線清掉 18 個（132 個程序、約 2GB 記憶體），全是本線 9/20、9/22 跑測試留下的
+  （cwd 是 `kaoguhero` 或本線 scratchpad），掛了 10 天沒人發現，brain 可用記憶體一度只剩 4.7GB。
+- **原因**：`test/smoke.mjs` 自己 spawn `chrome-headless-shell`，只在最後 `chrome.kill()`。中途丟例外、
+  被 Bash 工具逾時砍掉或 Ctrl-C，node 結束了但 Chrome 子程序不會跟著死，變成孤兒。
+  scratchpad 臨時腳本用 Playwright `chromium.launch()` 沒包 `try/finally` 也一樣。
+- **以後**：
+  1. 自己寫的腳本：`launch` 之後整段包 `try { … } finally { await browser.close() }`；自己 spawn 的 Chrome 加
+     `process.on('exit', () => chrome.kill())`，`SIGINT`／`SIGTERM`／`uncaughtException` 也先 `chrome.kill()` 再 `process.exit`。
+  2. `test/smoke.mjs` 下次動到時補上第 1 點的 exit hook。
+  3. 每次跑完測試順手查一次上面那行 `pgrep`。有本線留下的（`readlink /proc/<pid>/cwd` 在 kaoguhero 或本線 scratchpad）
+     就 `kill <pid>`，子程序會跟著結束。
+
 ## 其他
 
 - 間隔重複排程：`js/app.js` 的 `bumpWrongSchedule`／`dueList`（錯題帶 `box` 1~3 與 `due`）；
