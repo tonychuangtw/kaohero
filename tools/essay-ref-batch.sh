@@ -105,9 +105,18 @@ while :; do
   if [ $rc -ne 0 ] || [ ! -s "$T/refs.json" ]; then
     # agy 限流（Individual quota reached … Resets in 1h2m3s）：6 小時內會重置的就等到重置，不算失敗；週限才照常累計停下
     rs=$(cat "$T/out.json" "$T/err.txt" 2>/dev/null | grep -o 'quota reached[^"]*Resets in [0-9hms.]*' | head -1 | sed 's/.*Resets in //')
+    wait_s=
     if [ -n "$rs" ]; then
       h=$(echo "$rs" | grep -o '[0-9]*h' | tr -d h); m=$(echo "$rs" | grep -o '[0-9]*m' | tr -d m); s=$(echo "$rs" | grep -o '[0-9]*s' | tr -d s)
       wait_s=$(( ${h:-0}*3600 + ${m:-0}*60 + ${s:-0} + 120 ))
+    fi
+    # codex 限流：「You’ve hit your usage limit … try again at 6:02 AM.」時間是 runner 的 UTC（2026-10-01 11:01 台北兩支一起停）
+    ct=$(cat "$T/err.txt" 2>/dev/null | grep -o 'usage limit.*try again at [0-9]*:[0-9]* [AP]M' | head -1 | sed 's/.*try again at //')
+    if [ -z "$rs" ] && [ -n "$ct" ]; then
+      at=$(date -u -d "$ct" +%s 2>/dev/null)
+      if [ -n "$at" ]; then [ "$at" -le "$(date +%s)" ] && at=$((at+86400)); rs="$ct UTC"; wait_s=$(( at - $(date +%s) + 120 )); fi
+    fi
+    if [ -n "$wait_s" ]; then
       if [ $wait_s -le 21600 ]; then
         b=$((b-1))
         echo "$(now) 第 $((b+1)) 批撞限流（Resets in $rs），等 $((wait_s/60)) 分後接續" | tee -a "$LOG"

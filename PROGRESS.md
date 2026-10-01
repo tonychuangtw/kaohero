@@ -14,6 +14,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 紀錄 ~/.claude/essay-ref-nolaw-codex.log。沒在跑就 systemd-run 重開同一行；額度用完 Tony 會手動用重置券
 　　 09:31 Tony：Gemini 額度少先不寫，它的第 0 片改派第二支 codex（unit `essay-ref-nolaw-codex0`，ESSAY_SHARD=0/4 ESSAY_TAG=nolaw-codex0）
 　　 第 2 片舊年度（約 6,800 題）Tony：「等前兩片寫完再接」→ codex 0/4 或 1/4 寫完就開 ESSAY_SHARD=2/4 接手；essay-nolaw-resume.timer 已用過（不會再觸發）
+　　 11:01 兩支 codex 撞 5 小時限流停下 → Tony：14:02 重置再開。已排 timer essay-ref-nolaw-codex{,0}.timer 台北 14:04 自動重開
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）

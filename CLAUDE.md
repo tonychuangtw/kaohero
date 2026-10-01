@@ -197,6 +197,9 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
 - **第三種引擎 codex（2026-10-01）**：`REF_ENGINE=codex`（runner 的 `codex exec -m gpt-5.6-sol`，模型可用 `REF_CODEX_MODEL` 換），
   **不要用 6.1-sol**（2026-10-01 實測：一批 12 題讀 25～140 萬 token、週限 0.65%／批、35～40 秒／題；5.6-sol 約 10 萬 token、0.3%／批、20 秒／題，品質差不多）。查用量：runner `~/.codex/sessions/` 的 jsonl 裡 token_count／rate_limits；
   跟 agy 一樣只寫 nolaw、強制 `ESSAY_NO_ARTICLE=1`；約 20 秒／題。同 scope 多支同時跑一律用 `ESSAY_SHARD` 分片＋`ESSAY_TAG` 分紀錄檔
+- ⚠ **codex 撞 5 小時限流**（症狀：log「第 N 批失敗（rc=1）… You’ve hit your usage limit … try again at 6:02 AM.」連 3 次後停；2026-10-01 11:01 兩支一起停）：
+  那個時間是 runner 的 **UTC**（6:02 AM＝台北 14:02）。腳本現在會解析它、睡到重置後 +2 分再接續（跟 agy 的 Resets in 同一套）。要排定時間重開：
+  `systemd-run --user --unit essay-ref-nolaw-codex --on-calendar "YYYY-MM-DD HH:MM:00 UTC" … bash tools/essay-ref-batch.sh 12 0`
 - ⚠ **「格式退回：…JSONDecodeError: Invalid control character」**（09/27 16:44 flash 停 8 小時）：flash 在 JSON 字串裡放原生換行。
   `essay-ref.py set` 已改 `json.load(strict=False)`；格式退回也改成連續 3 次才停
 - ⚠ **「API Error: 400 Output blocked by content filtering policy」**（09/28 01:00 Claude 寫營建法規概要連擋 3 次停住）：同一批重試永遠擋。
