@@ -17,6 +17,8 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 11:01 兩支 codex 撞 5 小時限流停下 → Tony：14:02 重置再開。已排 timer essay-ref-nolaw-codex{,0}.timer 台北 14:04 自動重開
 　　 10/01 17:11 全部科目 110 年起寫完（law 與 nolaw 都 0）。剩舊年度約 2.86 萬題：law 1,770、nolaw 0/4 6,906、1/4 6,292、2/4 6,839、3/4 6,842
 　　 17:22 nolaw-claude 改寫第 3 片舊年度（拿掉 ESSAY_RECENT_ONLY）。codex 兩支 15:20 又撞 5 小時限流，自動等到 19:06 接續（每 5 小時約能寫 1 小時多）
+　　 10/01 21:07 Tony：Claude 額度快沒了，兩支 Claude 存檔暫停（law 剩 1,596、nolaw 第 3 片剩 6,623）。
+　　 已排 timer essay-ref-law／essay-ref-nolaw-claude 於 10/02 04:15 台北自動接續（週限 04:00 重置）；codex 兩支照跑（限流自動等）
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
