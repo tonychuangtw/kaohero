@@ -54,7 +54,7 @@ while :; do
   python3 tools/essay-ref.py targets --limit "$( [ $solo -gt 0 ] && echo 1 || echo "$SIZE")" --out "$T/q.txt" > "$T/cnt.txt" 2>&1 || { cat "$T/cnt.txt" >> "$LOG"; break; }
   left=$(sed -n 's/.*全部 \([0-9]*\).*/\1/p' "$T/cnt.txt")
   rec=$(sed -n 's/.*年起 \([0-9]*\).*/\1/p' "$T/cnt.txt")
-  grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; tg "✅ 申論參考架構全部寫完（本次 $done_n 題）"; break; }
+  grep -q '^0 題' "$T/cnt.txt" && { echo "$(now) 已無待寫的題" | tee -a "$LOG"; tg "✅ 申論參考架構［${ENGINE}${ESSAY_SCOPE:+ $ESSAY_SCOPE}${ESSAY_SHARD:+ 第 $ESSAY_SHARD 片}${ESSAY_RECENT_ONLY:+ 110 年起}］這支負責的寫完了（本次 $done_n 題）"; break; }
   subj=$(sed -n '1s/^科目：//p' "$T/q.txt")
   b=$((b+1)); t0=$(date +%s)
   rm -f "$T/refs.json"
