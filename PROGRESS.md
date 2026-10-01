@@ -9,6 +9,10 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
 　- 🔄 本機第三支 Claude 批次（15:02 起，transient unit `essay-ref-nolaw-claude`）：`ESSAY_SCOPE=nolaw ESSAY_SHARD=3/4 ESSAY_RECENT_ONLY=1 ESSAY_TAG=nolaw-claude bash tools/essay-ref-batch.sh 12 0`，
 　　 紀錄 ~/.claude/essay-ref-nolaw-claude.log，寫完第 3 片 110 年起（約 1,681 題）會自己停。沒在跑就用 systemd-run 重開同一行
+　- 🔄 codex 第四支（10/01 09:20 起，Tony「chatgpt 重置券多，開 codex 用 sol 同時寫」，transient unit `essay-ref-nolaw-codex`）：
+　　 `REF_ENGINE=codex ESSAY_SCOPE=nolaw ESSAY_SHARD=1/4 ESSAY_TAG=nolaw-codex bash tools/essay-ref-batch.sh 12 0`（runner gpt-5.6-sol，約 20 秒／題，第 1 片 6,640 題全是 110 年前），
+　　 紀錄 ~/.claude/essay-ref-nolaw-codex.log。沒在跑就 systemd-run 重開同一行；額度用完 Tony 會手動用重置券
+　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）

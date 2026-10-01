@@ -12,11 +12,14 @@ CLAUDE="$HOME/bin/claude"            # 走 shim，不搶 kaohero 線的 Telegram
 MODEL="${REF_MODEL:-claude-opus-5}"
 # REF_ENGINE=agy → ssh 到 runner 用 Gemini flash 寫（Google AI Pro 訂閱，不吃 Claude 額度）。
 # 法律科目不給 flash 寫：agy 批次請搭 ESSAY_SCOPE=nolaw，claude 批次搭 ESSAY_SCOPE=law，兩支可同時跑（科目不重疊）
+# REF_ENGINE=codex → ssh 到 runner 用 codex exec（ChatGPT 訂閱，模型 REF_CODEX_MODEL，預設 gpt-5.6-sol）。跟 agy 一樣不准寫條號、只寫 nolaw
 ENGINE="${REF_ENGINE:-claude}"
+CODEX_MODEL="${REF_CODEX_MODEL:-gpt-5.6-sol}"
+REMOTE=; [ "$ENGINE" = agy ] || [ "$ENGINE" = codex ] && REMOTE=1
 AGY_HOST="${REF_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_MODEL="${REF_AGY_MODEL:-gemini-3.8-flash-high}"
 SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
-[ "$ENGINE" = agy ] && export ESSAY_NO_ARTICLE=1   # flash 不准寫條號，essay-ref.py set 會擋
+[ -n "$REMOTE" ] && export ESSAY_NO_ARTICLE=1   # flash／codex 不准寫條號，essay-ref.py set 會擋
 SIZE="${1:-12}"; MAXB="${2:-0}"
 # 同一個 scope 要開兩支（例：nolaw 的 Claude 與 Gemini 各寫不同分片）時，用 ESSAY_TAG 分開紀錄檔與停止記號
 TAG="${ESSAY_TAG:-$ESSAY_SCOPE}"
@@ -25,7 +28,7 @@ STOP="$HOME/.claude/essay-ref${TAG:+-$TAG}.stop"
 LOCK="$HOME/.claude/essay.lock"
 T="${XDG_RUNTIME_DIR:-/tmp}/essay-ref.$$"; mkdir -p "$T"
 AT="/tmp/essay-ref-agy.$$"   # runner 上的暫存目錄
-trap 'rm -rf "$T"; [ "$ENGINE" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AT" >/dev/null 2>&1' EXIT
+trap 'rm -rf "$T"; [ -n "$REMOTE" ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AT" >/dev/null 2>&1' EXIT
 export PATH="$HOME/bin:$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
 export DISABLE_AUTOUPDATER=1
 unset TELEGRAM_STATE_DIR
@@ -55,18 +58,26 @@ while :; do
   subj=$(sed -n '1s/^科目：//p' "$T/q.txt")
   b=$((b+1)); t0=$(date +%s)
   rm -f "$T/refs.json"
-  OUTP="$T/refs.json"; [ "$ENGINE" = agy ] && OUTP="$AT/refs.json"
+  OUTP="$T/refs.json"; [ -n "$REMOTE" ] && OUTP="$AT/refs.json"
   sed -e "s|__OUT__|$OUTP|g" tools/essay-ref-prompt.md \
     | sed -e "/__QUESTIONS__/{r $T/q.txt" -e 'd}' > "$T/prompt.md"
-  [ "$ENGINE" = agy ] && sed -i 's|^- \*\*條號一定要有把握才寫\*\*.*|- **這一批完全不准寫條號**（「第幾條」一律不要出現，寫了整題會被退回）：只寫法規名稱與制度內容，例：「依土地登記規則」。|' "$T/prompt.md"
-  if [ "$ENGINE" = agy ]; then
-    # agy 的 -p 不吃 stdin，prompt 當參數傳；--print-timeout 預設 5 分鐘不夠
+  [ -n "$REMOTE" ] && sed -i 's|^- \*\*條號一定要有把握才寫\*\*.*|- **這一批完全不准寫條號**（「第幾條」一律不要出現，寫了整題會被退回）：只寫法規名稱與制度內容，例：「依土地登記規則」。|' "$T/prompt.md"
+  if [ -n "$REMOTE" ]; then
     ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AT; mkdir -p $AT" >/dev/null 2>&1
     scp -q "${SSHOPT[@]}" "$T/prompt.md" "$AGY_HOST:$AT/prompt.md" 2>> "$T/err.txt"
-    timeout 2700 ssh "${SSHOPT[@]}" "$AGY_HOST" \
-      "cd $AT && timeout 2400 \$HOME/.local/bin/agy --model $AGY_MODEL --dangerously-skip-permissions \
-       --disable-slash-commands --print-timeout 40m --output-format json -p \"\$(cat $AT/prompt.md)\" \
-       > $AT/out.json 2> $AT/err.txt" >/dev/null 2>> "$T/err.txt"
+    if [ "$ENGINE" = codex ]; then
+      # codex exec 從 stdin 讀 prompt（-），workspace-write 只准寫 $AT；非互動 ssh 沒有 ~/.npm-global/bin，PATH 自己帶
+      timeout 2700 ssh "${SSHOPT[@]}" "$AGY_HOST" \
+        "cd $AT && PATH=\$HOME/.npm-global/bin:\$PATH timeout 2400 codex exec --skip-git-repo-check -m $CODEX_MODEL \
+         --sandbox workspace-write -C $AT --output-last-message $AT/last.txt - < $AT/prompt.md \
+         > $AT/out.json 2> $AT/err.txt" >/dev/null 2>> "$T/err.txt"
+    else
+      # agy 的 -p 不吃 stdin，prompt 當參數傳；--print-timeout 預設 5 分鐘不夠
+      timeout 2700 ssh "${SSHOPT[@]}" "$AGY_HOST" \
+        "cd $AT && timeout 2400 \$HOME/.local/bin/agy --model $AGY_MODEL --dangerously-skip-permissions \
+         --disable-slash-commands --print-timeout 40m --output-format json -p \"\$(cat $AT/prompt.md)\" \
+         > $AT/out.json 2> $AT/err.txt" >/dev/null 2>> "$T/err.txt"
+    fi
     rc=$?
     scp -q "${SSHOPT[@]}" "$AGY_HOST:$AT/out.json" "$T/out.json" 2>/dev/null
     scp -q "${SSHOPT[@]}" "$AGY_HOST:$AT/refs.json" "$T/refs.json" 2>/dev/null
