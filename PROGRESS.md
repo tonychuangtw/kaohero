@@ -10,7 +10,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　- 🔄 本機第三支 Claude 批次（15:02 起，transient unit `essay-ref-nolaw-claude`）：`ESSAY_SCOPE=nolaw ESSAY_SHARD=3/4 ESSAY_RECENT_ONLY=1 ESSAY_TAG=nolaw-claude bash tools/essay-ref-batch.sh 12 0`，
 　　 紀錄 ~/.claude/essay-ref-nolaw-claude.log，寫完第 3 片 110 年起（約 1,681 題）會自己停。沒在跑就用 systemd-run 重開同一行
 　- 🔄 codex 第四支（10/01 09:20 起，Tony「chatgpt 重置券多，開 codex 用 sol 同時寫」，transient unit `essay-ref-nolaw-codex`）：
-　　 `REF_ENGINE=codex ESSAY_SCOPE=nolaw ESSAY_SHARD=1/4 ESSAY_TAG=nolaw-codex bash tools/essay-ref-batch.sh 12 0`（runner gpt-6.1-sol（09:35 從 5.6-sol 換，codex 升到 0.159.3 才有），，第 1 片 6,640 題全是 110 年前），
+　　 `REF_ENGINE=codex ESSAY_SCOPE=nolaw ESSAY_SHARD=1/4 ESSAY_TAG=nolaw-codex bash tools/essay-ref-batch.sh 12 0`（runner gpt-5.6-sol（09:35 試過 6.1-sol，10:45 換回：額度吃兩倍又較慢），，第 1 片 6,640 題全是 110 年前），
 　　 紀錄 ~/.claude/essay-ref-nolaw-codex.log。沒在跑就 systemd-run 重開同一行；額度用完 Tony 會手動用重置券
 　　 09:31 Tony：Gemini 額度少先不寫，它的第 0 片改派第二支 codex（unit `essay-ref-nolaw-codex0`，ESSAY_SHARD=0/4 ESSAY_TAG=nolaw-codex0）
 　　 第 2 片舊年度（約 6,800 題）Tony：「等前兩片寫完再接」→ codex 0/4 或 1/4 寫完就開 ESSAY_SHARD=2/4 接手；essay-nolaw-resume.timer 已用過（不會再觸發）
