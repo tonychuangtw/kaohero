@@ -147,6 +147,14 @@ while :; do
   commit "申論參考架構 +${got} 題（${subj}）${ENGINE/claude/}" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
   echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題（近年 ${rec:-?}），$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
   done_n=$((done_n+${got:-0}))
+  # 空轉偵測（2026-10-02 c3 在外國文（新聞組）寫了 91 批、剩餘數一直不動，燒掉約 6 小時額度）：
+  # 有寫進題、但「剩」跟上一批一樣，連續 5 次就停下通知，多半是 essay-ref.py 對題對錯
+  if [ "${got:-0}" -gt 0 ] && [ "$left" = "${prev_left:-}" ]; then same=$((${same:-0}+1)); else same=0; fi
+  prev_left=$left
+  if [ "$same" -ge 5 ]; then
+    echo "$(now) 空轉：連續 5 批寫了題但剩餘數不變（${subj}），停下" | tee -a "$LOG"
+    tg "🔴 申論參考架構［${ENGINE}${ESSAY_SHARD:+ 第 $ESSAY_SHARD 片}］空轉停下：「${subj}」連續 5 批寫了題但剩餘數不變，要查對題邏輯（$LOG）"; break
+  fi
   if [ $(( $(date +%s) - last_rep )) -ge $REPORT ]; then
     tg "📝 申論參考架構［${ENGINE}］進度 $(now)：本次已寫 $done_n 題（$b 批），剛完成「${subj}」；剩 ${left:-?} 題，其中 110 年起 ${rec:-?} 題"
     last_rep=$(date +%s)
