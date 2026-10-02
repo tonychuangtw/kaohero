@@ -190,12 +190,12 @@ def main():
         ps.sort(key=lambda p: -p['roc'])
         f = subj[key]['f']
         # 參考架構（q.ref）是之後另外寫進題庫檔的（tools/set-essay-ref.js），重新轉檔不能把它洗掉：
-        # 先讀舊檔，依（年度, 題號）接回去
+        # 先讀舊檔，依（原卷網址, 題號）接回去。不能用（年度, 題號）：同科同年可能有兩份卷（2026-10-02 外國文（新聞組））
         old = load_papers(f, key)
-        refs = {(p['roc'], q['n']): q['ref'] for p in old for q in p['qs'] if q.get('ref')}
+        refs = {(p['src'], q['n']): q['ref'] for p in old for q in p['qs'] if q.get('ref')}
         for p in ps:
             for q in p['qs']:
-                r = refs.get((p['roc'], q['n']))
+                r = refs.get((p['src'], q['n']))
                 if r: q['ref'] = r
         subj[key]['ref'] = sum(1 for p in ps for q in p['qs'] if q.get('ref'))
         js = ('/* 申論題：%s（tools/gen_essay.py 產生，勿手改）\n'

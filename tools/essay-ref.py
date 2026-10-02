@@ -143,10 +143,13 @@ def set_refs(path, write):
     got = 0
     for k, rs in by.items():
         ps = load_papers(idx[k]['f'], k)
-        m = {(p['roc'], q['n']): q for p in ps for q in p['qs']}
+        # 同一科同一年可能有兩份卷（外國文（新聞組）的英文／日文卷、產品設計實務各組），(年度, 題號) 不唯一。
+        # 以前用 dict 對，後一份蓋前一份：參考架構寫到另一份卷的題上，前一份永遠沒寫、每批挑到同一批題
+        # （2026-10-02 c3 批次在外國文（新聞組）空轉 91 批）。改成依卷序找第一題還沒寫的，targets 也是照卷序挑題
         for r in rs:
-            q = m.get((r['roc'], r['n']))
-            if not q: print('找不到 %s %s #%s' % (k, r['roc'], r['n'])); sys.exit(1)
+            q = next((q for p in ps if p['roc'] == r['roc'] for q in p['qs']
+                      if q['n'] == r['n'] and not q.get('ref') and not q.get('warn')), None)
+            if not q: print('找不到 %s %s #%s（或已寫過）' % (k, r['roc'], r['n'])); continue
             q['ref'] = r['ref'].strip(); got += 1
         idx[k]['ref'] = sum(1 for p in ps for q in p['qs'] if q.get('ref'))
         if write: save_papers(idx[k]['f'], k, ps)
