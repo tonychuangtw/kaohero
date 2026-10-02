@@ -44,6 +44,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　　 c3＝3/8,7/8、c4＝4/8,5/8 同一行換名字與片（先 systemctl --user reset-failed）
 　　 ▶ 10/02 23:04 額度重置，3 支 Claude 已重開（active）；codex 兩支 21:58 起自動接續在跑
 　　 ⏸ 主線通知 5 小時額度 84%（03:59 重置）→ c2／c3／c4 已放停止記號；NEXT（04:04 喚醒後）：照上面同一組指令重開 3 支（c2＝2/8,6/8、c3＝3/8,7/8、c4＝4/8,5/8）；codex 照跑
+　　 ▶ 10/03 04:04 額度重置，3 支 Claude 已重開（active）；codex 兩支在跑
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
