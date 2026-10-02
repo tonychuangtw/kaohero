@@ -8,6 +8,6 @@ After=network-online.target
 [Service]
 Type=simple
 Environment=EXP_MATCH=.
-Environment=EXP_MODEL=claude-opus-5
+Environment=EXP_MODEL=claude-opus-5-5
 ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-worker.sh
 Restart=no

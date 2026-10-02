@@ -32,7 +32,7 @@
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/bin/claude"            # 走 shim：TELEGRAM_STATE_DIR 一定被清成誘餌，不會搶 kaohero 線的 bot
-MODEL="${EXP_MODEL:-claude-opus-5}"
+MODEL="${EXP_MODEL:-claude-opus-5-5}"
 ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_ROOT="${EXP_AGY_ROOT:-/home/tonychuangtw/TelegramClaude/kaoguhero}"

@@ -18,7 +18,7 @@
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/bin/claude"            # 走 shim：TELEGRAM_STATE_DIR 會被清掉，不會搶 kaohero 線的 bot
-MODEL="${EXP_MODEL:-claude-opus-5}"
+MODEL="${EXP_MODEL:-claude-opus-5-5}"
 MATCH="${EXP_MATCH:-^(loc|gao|den|pha|chu|tcm|tea|nur)-}"
 MODES="text fig nofig"
 LIMIT=0; ONCE=0

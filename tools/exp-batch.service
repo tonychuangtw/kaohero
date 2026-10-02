@@ -10,6 +10,6 @@ After=network-online.target
 [Service]
 Type=simple
 Environment=EXP_MATCH=^(loc|gao|den|pha|chu|tcm|tea|nur)-
-Environment=EXP_MODEL=claude-opus-5
+Environment=EXP_MODEL=claude-opus-5-5
 ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-batch.sh
 Restart=no

@@ -9,7 +9,7 @@
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/bin/claude"            # 走 shim，不搶 kaohero 線的 Telegram poller（shared.md §12）
-MODEL="${REF_MODEL:-claude-opus-5}"
+MODEL="${REF_MODEL:-claude-opus-5-5}"
 # REF_ENGINE=agy → ssh 到 runner 用 Gemini flash 寫（Google AI Pro 訂閱，不吃 Claude 額度）。
 # 法律科目不給 flash 寫：agy 批次請搭 ESSAY_SCOPE=nolaw，claude 批次搭 ESSAY_SCOPE=law，兩支可同時跑（科目不重疊）
 # REF_ENGINE=codex → ssh 到 runner 用 codex exec（ChatGPT 訂閱，模型 REF_CODEX_MODEL，預設 gpt-5.6-sol）。跟 agy 一樣不准寫條號、只寫 nolaw
