@@ -21,6 +21,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 已排 timer essay-ref-law／essay-ref-nolaw-claude 於 10/02 04:15 台北自動接續（週限 04:00 重置）；codex 兩支照跑（限流自動等）
 　　 10/02 04:15 兩支 Claude 已由 timer 接續（確認 active）；codex 兩支限流中，約 05:10 自動接續
 　　 10/02 05:58 codex 兩支撞週限（try again at Oct 4th 1:02 AM UTC）連錯 3 次停 → 06:51 Tony 用重置券後重開（systemd-run 同一行，環境變數用 -E 帶）
+　　 10/02 09:18 Tony「kaohero 改成 opus5.5」：essay-ref／exp-worker／exp-batch／note-batch 預設模型 claude-opus-5 → claude-opus-5-5（含 ~/.config/systemd/user 的 exp-*.service）；law、nolaw-claude 用停止記號收掉後以 5.5 重開（ps 確認 --model claude-opus-5-5）
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
