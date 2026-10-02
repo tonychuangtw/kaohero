@@ -28,6 +28,12 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　　 寫完的那幾支改去幫 codex 的第 0、1 片（例 nolaw 0/8、4/8 給 Claude，codex0 改 …；改前先停 codex 同片避免撞科目）。約 2 天燒完一個週限，Tony 會用重置券
 　　 ⏸ 10/02 11:05 主線通知帳號 5 小時額度 86%（12:59 重置）→ 6 支 Claude 已放停止記號，這批寫完就停。下一步：13:04 喚醒後用上面那行 systemd-run 重開 6 支（先 systemctl --user reset-failed）；codex 兩支照跑
 　　 ▶ 10/02 13:05 額度重置，6 支 Claude 已重開（active）
+　　 ✅ 10/02 14:52 法律科（law0／law1）全部寫完（0 題）
+　　 ⏸ 10/02 15:12 主線通知 5 小時額度 81%（17:59 重置），c2／c3／c6／c7 已停。剩：2/8 2,180、6/8 2,568、3/8 3,340、7/8 1,801；codex 片 0/8 3,032、4/8 3,355、1/8 2,759、5/8 2,771
+　　 🐛 15:40 修 bug（commit 2fd0b394c）：同科同年兩份卷對題對錯，c3 在外國文（新聞組）空轉 91 批；清掉 26 題錯位 ref，批次加空轉偵測
+　　 NEXT（18:04 喚醒後）：重開 c2／c6／c3／c7 四支；law 兩支的空位拿去分 codex 的片：
+　　　 codex 兩支在批與批之間停（touch ~/.claude/essay-ref-nolaw-codex{,0}.stop），改 ESSAY_SHARD=0/8（codex0）、1/8（codex）重開，
+　　　 Claude 新開 nolaw-c4（4/8）、nolaw-c5（5/8）→ Claude 共 6 支
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
