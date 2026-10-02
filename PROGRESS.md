@@ -27,6 +27,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　　 重開：systemd-run --user --unit <unit> -p WorkingDirectory=$PWD -E PATH -E HOME -E ESSAY_SCOPE -E ESSAY_SHARD -E ESSAY_TAG /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　　 寫完的那幾支改去幫 codex 的第 0、1 片（例 nolaw 0/8、4/8 給 Claude，codex0 改 …；改前先停 codex 同片避免撞科目）。約 2 天燒完一個週限，Tony 會用重置券
 　　 ⏸ 10/02 11:05 主線通知帳號 5 小時額度 86%（12:59 重置）→ 6 支 Claude 已放停止記號，這批寫完就停。下一步：13:04 喚醒後用上面那行 systemd-run 重開 6 支（先 systemctl --user reset-failed）；codex 兩支照跑
+　　 ▶ 10/02 13:05 額度重置，6 支 Claude 已重開（active）
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
