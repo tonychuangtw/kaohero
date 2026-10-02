@@ -37,6 +37,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 ▶ 10/02 18:09 上面那步做完：Claude 6 支 nolaw-c{2,3,4,5,6,7}＝ESSAY_SHARD 同編號/8；codex 兩支 codex0＝0/8、codex＝1/8（REF_ENGINE=codex）。
 　　　 c3 修 bug 後剩餘數正常下降（3350→3338）。全部 unit 重開都用：systemd-run --user --unit essay-ref-<tag> -p WorkingDirectory=$PWD -E PATH -E HOME -E ESSAY_SCOPE=nolaw -E ESSAY_SHARD=<i>/8 -E ESSAY_TAG=<tag> [-E REF_ENGINE=codex] /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　 ⚠ Gemini 改回不分片時要排除第 1 片，否則跟 codex 撞科目（可改寫 2/4 或 0/4）
+　　 ▶ 10/02 19:07 Tony「這輪完 claude 降成 3 支」：nolaw-c2＝2/8,6/8（4,202 題）、c3＝3/8,7/8（4,614）、c4＝4/8,5/8（5,622）（ESSAY_SHARD 可逗號合併）；c5／c6／c7 不再開。codex 0/8、1/8 照跑
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
