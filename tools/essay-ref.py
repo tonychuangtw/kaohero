@@ -34,8 +34,9 @@ RECENT_ONLY = os.environ.get('ESSAY_RECENT_ONLY') == '1'
 
 def in_shard(k):
     if not SHARD: return True
-    i, n = (int(x) for x in SHARD.split('/'))
-    return int(hashlib.sha1(k.encode('utf-8')).hexdigest(), 16) % n == i
+    # 可用逗號合併多片（4/8,5/8），縮減支數時把幾片併給同一支（2026-10-02）
+    h = int(hashlib.sha1(k.encode('utf-8')).hexdigest(), 16)
+    return any(h % int(n) == int(i) for i, n in (x.split('/') for x in SHARD.split(',')))
 
 
 def is_law(name):
