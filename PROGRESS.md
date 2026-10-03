@@ -1,11 +1,13 @@
-STATUS: in-progress
+STATUS: blocked
 OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4：
 　**① 補圖救回「有題目沒圖」的題 ② 官方答案與現行法衝突的題寫勘誤提醒
 　③ 詳解出處歸不出考點的修掉 ④ 模考排名（固定題組＋分數分布＋百分位）**
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批次在背景跑。
+NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
+　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
+　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
 　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
 　- 🔄 本機第三支 Claude 批次（15:02 起，transient unit `essay-ref-nolaw-claude`）：`ESSAY_SCOPE=nolaw ESSAY_SHARD=3/4 ESSAY_RECENT_ONLY=1 ESSAY_TAG=nolaw-claude bash tools/essay-ref-batch.sh 12 0`，
 　　 紀錄 ~/.claude/essay-ref-nolaw-claude.log，寫完第 3 片 110 年起（約 1,681 題）會自己停。沒在跑就用 systemd-run 重開同一行
@@ -78,7 +80,7 @@ VALIDATION: 前端 `node test/test.js`（62,417 項）、`node test/smoke.mjs`�
 　對照表 `figmap.py --check` 拿 1,026 卷既有圖檔驗證，0 不一致。
 　主題歸類 `topic-audit`：135 好／164 普通／0 差（改之前 135／156／8）。
 　後端已 `sudo systemctl restart lanexammock-backend`，`/api/kgh/rank` 回 401（有路由、要登入）而非 404。
-BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另外卡 Tony 三件事，見下方。
+BLOCKERS: 申論批改等 Tony 開 Anthropic API 帳號儲值＋決定開付費牆；變現等 Tony 三件事（綠界正式金鑰、後端搬家、價格拍板），見下方。
 
 ## 雲端 session 試點（2026-09-29 Tony 在 main 線同意，main 線開的）
 
@@ -148,7 +150,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 00:13 台北（Claude 3 支 00:05 重開；codex 寫完，codex0 剩 32）
+UPDATED: 2026-10-04 04:16 台北（申論參考架構全部寫完，STATUS 改 blocked）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
