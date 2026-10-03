@@ -62,6 +62,7 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 ▶ 10/03 22:36 Tony「好」：codex 的片改 64 分片，Claude 接大部分：c2＝0/64,48/64（531）、c3＝16/64,32/64（494）、c4＝17/64,33/64（487）；codex0＝49/64（140）、codex＝1/64（125）（REF_ENGINE=codex，23:05 限流解除接續）。加總 1,777 已驗
 　　 ⏸ 10/03 23:42 主線通知 5 小時額度 80%（10/04 00:00 重置）→ c2／c3／c4 已放停止記號，寫完當批停（剩 c2 240、c3 197、c4 194）；codex 兩支照跑
 　　 NEXT（10/04 00:05 喚醒後）：先 systemctl --user reset-failed，照 22:36 那組片重開 3 支：c2＝0/64,48/64、c3＝16/64,32/64、c4＝17/64,33/64（systemd-run 同一行，ESSAY_SCOPE=nolaw、ESSAY_TAG=nolaw-<名>）
+　　 ▶ 10/04 00:05 額度重置，Claude 3 支重開（c2 剩 200、c3 165、c4 145）；codex（1/64）00:11 寫完，codex0 剩 32
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
@@ -147,7 +148,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-03 23:42 台北（Claude 3 支暫停等 00:00 重置，00:05 重開；codex 兩支照跑）
+UPDATED: 2026-10-04 00:13 台北（Claude 3 支 00:05 重開；codex 寫完，codex0 剩 32）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
