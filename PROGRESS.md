@@ -116,8 +116,8 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 
 1. 正式環境 MerchantID／HashKey／HashIV　2. 測試環境（Stage）同三項
 3. 已開通哪些付款方式（信用卡一次付清／ATM／超商代碼／LINE Pay／Apple Pay）
-UPDATED: 2026-10-03 09:06 台北（Claude 3 支 09:05 重開；codex 兩支照跑）
-UPDATED: 2026-10-03 08:20 台北（Claude 3 支暫停等 09:00 額度重置，09:05 重開；codex 兩支照跑）
+4. 誰能在綠界後台設定 ReturnURL／OrderResultURL（要把我們的網址加進去）
+5. 有沒有用綠界電子發票（B2C）——那是另一組金鑰
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
@@ -133,7 +133,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-09-30 00:05 台北（雲端第 2 輪已送 continue；nolaw flash 10/01 09:10 timer 自動重開；law 照跑）
+UPDATED: 2026-10-03 09:06 台北（Claude 3 支 09:05 重開；codex 兩支照跑）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
