@@ -45,6 +45,8 @@ NEXT_ACTION: ①～④ 都收工；現在只剩申論「參考架構」長尾批
 　　 ▶ 10/02 23:04 額度重置，3 支 Claude 已重開（active）；codex 兩支 21:58 起自動接續在跑
 　　 ⏸ 主線通知 5 小時額度 84%（03:59 重置）→ c2／c3／c4 已放停止記號；NEXT（04:04 喚醒後）：照上面同一組指令重開 3 支（c2＝2/8,6/8、c3＝3/8,7/8、c4＝4/8,5/8）；codex 照跑
 　　 ▶ 10/03 04:04 額度重置，3 支 Claude 已重開（active）；codex 兩支在跑
+　　 ⏸ 10/03 08:19 主線通知 5 小時額度 81%（09:00 重置）→ c2／c3／c4 已放停止記號，寫完當批停（剩 c2 1,800、c3 2,169、c4 3,235）；codex 兩支照跑
+　　 NEXT（09:05 喚醒後）：先 systemctl --user reset-failed，照上面同一組 systemd-run 指令重開 3 支（c2＝2/8,6/8、c3＝3/8,7/8、c4＝4/8,5/8）
 　- ⏰ Gemini 10/01 09:10 自動重開（essay-nolaw-resume，ESSAY_SHARD=0/4）。nolaw-claude 收工後，Gemini 要改回不分片（stop 再不帶 ESSAY_SHARD 重跑）
 　- ✅ 補圖詳解 exp-worker 09/24 16:01 收工：606 卷、1,635 題、跳 45；pha-111-1-ph3 失敗 2 次（未查，留在 ~/.claude/exp-worker.failed）
 　- ✅ topic-audit 09/25 重跑：135 好／164 普通／0 差，跟補詳解前一樣，沒拉低（docs/topic-audit-2026-09-25.csv）
@@ -114,7 +116,7 @@ BLOCKERS: 無（①的詳解長尾是時間問題，不是卡住）。變現另�
 1. 正式環境 MerchantID／HashKey／HashIV　2. 測試環境（Stage）同三項
 3. 已開通哪些付款方式（信用卡一次付清／ATM／超商代碼／LINE Pay／Apple Pay）
 4. 誰能在綠界後台設定 ReturnURL／OrderResultURL（要把我們的網址加進去）
-UPDATED: 2026-09-30 00:05 台北（雲端第 2 輪已送 continue；nolaw flash 10/01 09:10 timer 自動重開；law 照跑）
+UPDATED: 2026-10-03 08:20 台北（Claude 3 支暫停等 09:00 額度重置，09:05 重開；codex 兩支照跑）
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
