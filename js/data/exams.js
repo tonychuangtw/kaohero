@@ -56756,7 +56756,7 @@ window.APP_EXAMS = [
   "subjName": "英文",
   "label": "109 年　四等考試　英文",
   "n": 50,
-  "exp": 39,
+  "exp": 49,
   "mins": 60
  },
  {
