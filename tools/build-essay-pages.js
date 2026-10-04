@@ -27,7 +27,9 @@ const SUBJ = window.APP_ESSAY_SUBJ;
 const esc = s => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const appUrl = k => '/#/essay/' + encodeURIComponent(k);
-const sumName = e => e.name + '（' + (EXAM[e.exam] || e.exam) + ' ' + e.lv + '）';
+/* 等別名稱：高普考的 lv 已經是「高考三級」「普考」，地方特考／警察特考的 lv 是「三等」，要補考試名 */
+const lab = e => /考/.test(e.lv) ? e.lv : (EXAM[e.exam] || e.exam) + e.lv;
+const sumName = e => e.name + '（' + lab(e) + '）';
 
 function loadSubj(k) {
   const f = path.join(ROOT, 'js/data/essay', SUBJ[k].f + '.js');
@@ -62,6 +64,7 @@ function head(title, desc, url, ld) {
     '<meta property="og:image" content="' + SITE + '/img/og.png">',
     '<meta name="twitter:card" content="summary_large_image">',
     ld ? '<script type="application/ld+json">' + JSON.stringify(ld) + '</scr' + 'ipt>' : '',
+    '<link rel="icon" href="/img/logo.png" type="image/png">',
     '<link rel="stylesheet" href="/css/paper.css?v=20260912a">',
     '</head>', '<body>',
     '<header class="kh"><a class="klogo" href="/">考英雄</a>' +
@@ -79,9 +82,9 @@ function pageHtml(k, e, ps) {
   const url = SITE + '/essay/' + e.f + '/';
   const yrs = ps.map(p => p.roc);
   const span = Math.min(...yrs) + '～' + Math.max(...yrs);
-  const title = e.name + ' 申論題歷屆試題與參考架構（' + (EXAM[e.exam] || e.exam) + e.lv + '）｜考英雄';
+  const title = e.name + ' 申論題歷屆試題與參考架構（' + lab(e) + '）｜考英雄';
   const nref = ps.reduce((s, p) => s + p.qs.filter(q => q.ref).length, 0);
-  const desc = (EXAM[e.exam] || e.exam) + e.lv + '「' + e.name + '」申論題，民國 ' + span + ' 年共 ' + e.nq + ' 題原題，' +
+  const desc = lab(e) + '「' + e.name + '」申論題，民國 ' + span + ' 年共 ' + e.nq + ' 題原題，' +
     (nref ? nref + ' 題附本站自撰的參考答題架構（破題、架構、關鍵字、作答提醒）。' : '附原卷 PDF 連結。');
   const tracks = (e.tracks || []).map(t => t.split('-').slice(1).join('-'));
   const ld = { '@context': 'https://schema.org', '@graph': [
@@ -90,11 +93,14 @@ function pageHtml(k, e, ps) {
       { '@type': 'ListItem', position: 2, name: '申論題庫', item: SITE + '/essay/' },
       { '@type': 'ListItem', position: 3, name: sumName(e) }] },
     { '@type': 'WebPage', '@id': url + '#webpage', url: url, name: title, description: desc, inLanguage: 'zh-Hant',
-      dateModified: TODAY, isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } }] };
+      dateModified: TODAY, isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } },
+    { '@type': 'WebSite', '@id': SITE + '/#website', url: SITE + '/', name: '考英雄', inLanguage: 'zh-Hant' },
+    { '@type': 'Organization', '@id': SITE + '/#org', name: '考英雄', url: SITE + '/',
+      logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 512, height: 512 } }] };
   const out = head(title, desc, url, ld);
   out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <a href="/essay/">申論題庫</a> › <span>' + esc(sumName(e)) + '</span></nav>');
   out.push('<h1>' + esc(e.name + '　申論題歷屆試題與參考架構') + '</h1>');
-  out.push('<p class="klead">' + esc(EXAM[e.exam] || e.exam) + ' ' + esc(e.lv) + '，民國 ' + span + ' 年共 <b>' + ps.length + '</b> 份試卷、<b>' + e.nq +
+  out.push('<p class="klead">' + esc(lab(e)) + '，民國 ' + span + ' 年共 <b>' + ps.length + '</b> 份試卷、<b>' + e.nq +
     '</b> 題' + (nref ? '，其中 <b>' + nref + '</b> 題附參考答題架構' : '') + '。' +
     (tracks.length ? '考這一科的類科：' + esc(tracks.slice(0, 12).join('、')) + (tracks.length > 12 ? ' 等 ' + tracks.length + ' 個類科' : '') + '。' : '') +
     '本頁列出歷年全部題目，參考架構只列開頭的「破題」，完整的答題架構、關鍵字與作答提醒請到站內查看。</p>');

@@ -1,0 +1,9 @@
+[Unit]
+Description=kaohero：每 10 分鐘檢查一次要不要部署到 Cloudflare Pages
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=timers.target

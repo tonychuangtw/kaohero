@@ -26,7 +26,7 @@ HEAD=$(git rev-parse HEAD)
 
 # 1) 新的題圖先上 R2（前端指過去之前圖要先在）
 touch "$R2DONE"
-NEW=$(comm -23 <(ls img/q | sort) <(sort -u "$R2DONE"))
+NEW=$(LC_ALL=C comm -23 <(ls img/q | LC_ALL=C sort) <(LC_ALL=C sort -u "$R2DONE"))
 if [ -n "$NEW" ]; then
   n=0; fail=0
   while read -r f; do

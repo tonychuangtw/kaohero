@@ -41,6 +41,7 @@ MAXFAIL=3            # 連續失敗幾批才停（單次 timeout 常是 04:00 �
 commit() {   # exp-worker 也在 commit，撞到 index.lock 就等一下再試
   for i in 1 2 3 4 5 6; do
     git add js/data/essay js/data/essays.js tools/essay-ref-skips.json tools/essay-ref-rejects.json >/dev/null 2>&1 &&
+    { [ -d essay ] && git add essay >/dev/null 2>&1; true; } &&
     git commit -q -m "$1" >/dev/null 2>&1 && return 0
     git diff --cached --quiet 2>/dev/null && git diff --quiet -- js/data/essay js/data/essays.js 2>/dev/null && return 0
     sleep 5
@@ -144,6 +145,9 @@ while :; do
   fi
   grep -q '^退回' "$T/set.txt" && echo "$(now) 第 $b 批部分退回：$(grep '^  ' "$T/set.txt" | tr '\n' ' ')" >> "$LOG"
   got=$(sed -n 's/^寫入 \([0-9]*\) 題.*/\1/p' "$T/set.txt")
+  # 申論靜態頁（essay/<f>/，2026-10-04）：重產這一科
+  key=$(grep -m1 -oP '(?<=### key=)\S+' "$T/q.txt" 2>/dev/null)
+  [ -n "$key" ] && [ -d essay ] && node tools/build-essay-pages.js --only "$key" --write >/dev/null 2>&1
   commit "申論參考架構 +${got} 題（${subj}）${ENGINE/claude/}" || echo "$(now) commit 失敗，檔案已寫入" >> "$LOG"
   echo "$(now) 第 $b 批：${subj} 寫 $got 題，剩 ${left:-?} 題（近年 ${rec:-?}），$(( $(date +%s) - t0 ))s" | tee -a "$LOG"
   done_n=$((done_n+${got:-0}))

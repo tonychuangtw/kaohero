@@ -14,3 +14,4 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://kaohero.com/sitemap.xml
+Sitemap: https://kaohero.com/sitemap-essay.xml

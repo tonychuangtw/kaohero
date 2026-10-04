@@ -1,0 +1,9 @@
+[Unit]
+Description=kaohero：部署到 Cloudflare Pages（HEAD 有變才部署）
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/TelegramClaude/kaoguhero
+Environment=PATH=%h/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/cf-deploy.sh
+TimeoutStartSec=1800
