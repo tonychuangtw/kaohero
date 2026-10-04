@@ -10,7 +10,7 @@ NEXT_ACTION: ▶ 10/04 22:14 週額度重置後已重開 exp-worker、essay-ref-
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig；先 systemctl --user reset-failed）
 　剩：閱讀測驗詳解 75 卷 384 題；申論 warn 題 5,277 題。全部寫完才改 done。
-　等 Tony：www→apex 轉址規則（msg 1123；22:14 查 www 仍回 200），設好後跑 seoaeo check.js kaohero.com 確認 host-canonical ✅
+　✅ 22:55 Tony 加好 www→apex 轉址（301，保留路徑與參數），seoaeo SEO 83%／AEO 70%，host-canonical ✅
 　✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
 　10/04 19:48 Tony 問還有什麼沒做 → 回建議順序（msg 1099），19:50 Tony「好」→ 依序做：
 　　✅① 19:55 閱讀測驗／克漏字文章救回 1,622 題（245 卷，tools/psg-recover.py＋set-psg.js，commit 13ea531f0），克漏字空白題補選項 496 題、
