@@ -727,7 +727,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "surprise"
    ],
    "a": 3,
-   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly.",
+   "exp": "✅ (D) surprise 意為「使吃驚、出其不意」。前句說回燃（backdraft）非常危險，接著說它常常連經驗豐富的消防員都「措手不及」，語意最順。\n❌ (A) mourn 意為「哀悼」，回燃不會「哀悼」消防員，語意不通。\n❌ (B) revere 意為「尊敬、崇敬」，與描述危險的上下文無關。\n❌ (C) delight 意為「使高興」，與「非常危險」的語氣相反。\n📚 出處：消防英文詞彙—回燃（backdraft）現象；動詞語意辨析（surprise／mourn／revere／delight）。"
   },
   {
    "n": 52,
@@ -741,7 +742,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "manipulation"
    ],
    "a": 2,
-   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly.",
+   "exp": "✅ (C) ventilation 意為「通風」。下一句「因此幾乎沒有氧氣能流入該空間」，可知原因是起火的密閉空間（compartment）幾乎沒有通風，這正是回燃發生的前提。\n❌ (A) existence 意為「存在」，「火災幾乎不存在」與後文氧氣無法流入的因果關係不符。\n❌ (B) obligation 意為「義務」，與火災情境無關。\n❌ (D) manipulation 意為「操縱、操作」，無法解釋為何氧氣流不進去。\n📚 出處：消防英文詞彙—通風（ventilation）與回燃形成條件；克漏字前後句因果推論。"
   },
   {
    "n": 53,
@@ -755,7 +757,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "strengthen"
    ],
    "a": 0,
-   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly.",
+   "exp": "✅ (A) reduce 意為「減少」。句意為「因為火會消耗（減少）氧氣，所以氧氣濃度下降」，燃燒耗氧，前後因果一致。\n❌ (B) promote 意為「促進」，火若增加氧氣，濃度就不會下降，與後句矛盾。\n❌ (C) provoke 意為「激起、挑釁」，與氧氣搭配語意不通。\n❌ (D) strengthen 意為「加強」，同樣與「氧氣濃度降低」的結果相反。\n📚 出處：燃燒化學—燃燒耗氧（燃燒三要素）；動詞語意辨析（reduce／promote／provoke／strengthen）。"
   },
   {
    "n": 54,
@@ -769,7 +772,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "flooded"
    ],
    "a": 0,
-   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly.",
+   "exp": "✅ (A) low 意為「低」。承上句氧氣濃度持續下降，當濃度「低到」無法維持燃燒（too low to support combustion）時，就會進入悶燒、熱裂解產生可燃氣體的階段；「too + 形容詞 + to V」表示「太…而不能…」。\n❌ (B) filled 意為「充滿的」，不能用來形容濃度高低。\n❌ (C) dense 意為「濃密的」，濃度變高反而有利燃燒，與文意相反。\n❌ (D) flooded 意為「被淹沒的」，不能修飾濃度。\n📚 出處：燃燒化學—氧氣濃度下限與熱裂解（pyrolysis）；句型「too + adj. + to V」。"
   },
   {
    "n": 55,
@@ -783,7 +787,8 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "resistance"
    ],
    "a": 1,
-   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly.",
+   "exp": "✅ (B) temperature 意為「溫度」。「remain at a hot temperature enough to auto-ignite」指氫氣與煙霧仍維持在足以自燃的高溫，後文也說「氣體仍熱到足以自燃」，前後呼應。\n❌ (A) prosperity 意為「繁榮」，與熱、自燃無關。\n❌ (C) significance 意為「重要性」，不能用 hot 修飾。\n❌ (D) resistance 意為「抵抗、阻力」，「熱的阻力」語意不通。\n📚 出處：燃燒化學—自燃溫度（auto-ignition temperature）與回燃機制；名詞語意辨析。"
   },
   {
    "n": 56,
