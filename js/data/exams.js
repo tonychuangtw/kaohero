@@ -44632,7 +44632,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "104 年　三等　國文",
   "n": 10,
-  "exp": 6,
+  "exp": 10,
   "mins": 30
  },
  {
