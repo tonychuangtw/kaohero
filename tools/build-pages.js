@@ -18,6 +18,9 @@ const ONLY = (function () { const i = process.argv.indexOf('--only'); return i >
 const TODAY = new Date().toISOString().slice(0, 10);
 
 global.window = {};
+require(path.join(ROOT, 'js/config.js'));
+/* 題目圖片位址：IMG_BASE 設了（R2）就用絕對網址，沒設就照舊站內絕對路徑 /img/q/… */
+const figSrc = p => { const u = window.khImg(p); return /^https?:/.test(u) ? u : '/' + u; };
 require(path.join(ROOT, 'js/data/exams.js'));
 const EXAMS = window.APP_EXAMS;
 const CATS = window.APP_CATS;
@@ -58,7 +61,7 @@ function qHtml(q, paperLabel, idx) {
   parts.push('<li class="kq" id="q' + q.n + '">');
   if (q.psgHead) parts.push('<div class="kpsg">' + esc(q.psg) + '</div>');
   parts.push('<p class="kqt"><span class="kn">' + q.n + '</span>' + esc(q.q) + '</p>');
-  if (q.fig) parts.push('<p class="kfig"><img src="/' + esc(q.fig) + '" alt="' +
+  if (q.fig) parts.push('<p class="kfig"><img src="' + esc(figSrc(q.fig)) + '" alt="' +
     esc(paperLabel + ' 第 ' + q.n + ' 題附圖') + '" loading="lazy"></p>');
   const opts = (q.o || []).filter(o => String(o).trim() !== '');
   if (opts.length) {

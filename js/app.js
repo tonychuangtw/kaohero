@@ -960,7 +960,7 @@
     c.appendChild(el('div', 'stem', q.q));
 
     if (q.fig) {
-      var im = el('img', 'qfig'); im.src = q.fig; im.loading = 'lazy';
+      var im = el('img', 'qfig'); im.src = window.khImg(q.fig); im.loading = 'lazy';
       im.alt = qLabel(q.n) + T(' 題的原始題目圖（含選項）');
       c.appendChild(im);
       c.appendChild(el('p', 'lead', T('這一題的選項含有圖形，上方為原始試卷的圖，請依圖作答。')));
@@ -1737,7 +1737,7 @@
     }
     c.appendChild(el('div', 'stem', q.q));
     if (q.fig) {
-      var im = el('img', 'qfig'); im.src = q.fig; im.loading = 'lazy';
+      var im = el('img', 'qfig'); im.src = window.khImg(q.fig); im.loading = 'lazy';
       im.alt = qLabel(q.n) + T(' 題的原始題目圖（含選項）');
       c.appendChild(im);
     }

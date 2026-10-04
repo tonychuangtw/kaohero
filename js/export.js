@@ -187,7 +187,7 @@
 
     if (q.fig && opt.withFig) {
       var im = el('img', 'px-fig');
-      im.src = q.fig;
+      im.src = window.khImg(q.fig);
       im.alt = T('原始試卷的題目圖');
       box.appendChild(im);
     } else if (q.fig || q.needfig) {
@@ -276,7 +276,7 @@
     h.push('<div class=kh-src>' + esc(it.label + '　' + T('原卷第 ') + q.n + T(' 題')) + '</div>');
     if (q.psg) h.push('<div class=kh-psg>' + esc(q.psg) + '</div>');
     h.push('<div class=kh-q>' + esc(q.q) + '</div>');
-    if (q.fig) h.push('<div class=kh-fig><img src="' + esc(abs(q.fig)) + '"></div>');
+    if (q.fig) h.push('<div class=kh-fig><img src="' + esc(abs(window.khImg(q.fig))) + '"></div>');
     var li = (q.o || []).map(function (t, k) {
       return '<li><b>(' + LAB[k] + ')</b> ' + esc(optText(q, k)) + '</li>';
     }).join('');

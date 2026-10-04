@@ -25,5 +25,13 @@ window.KH_CONFIG = {
   API_BASE: 'https://api.kaohero.com',
   APP: 'kaohero',
   LEVEL: 'main',
-  CLIENT_ID: '481860179039-gb37qsdogd4vgnn2g5umh73jen02avj4.apps.googleusercontent.com'
+  CLIENT_ID: '481860179039-gb37qsdogd4vgnn2g5umh73jen02avj4.apps.googleusercontent.com',
+  /* 題目圖片（img/q/）的根位址。2026-10-04 起整站搬 Cloudflare Pages，題圖 5 千多張放 R2，
+     免得超過 Pages 一次部署 2 萬個檔的上限。空字串＝照舊用站內相對路徑 img/q/… */
+  IMG_BASE: ''
+};
+/* 題目圖片網址：資料裡存的是 img/q/xxx.webp，這裡換成實際位址 */
+window.khImg = function (p) {
+  var b = window.KH_CONFIG.IMG_BASE;
+  return b && /^img\/q\//.test(p || '') ? b + p.slice(4) : p;
 };
