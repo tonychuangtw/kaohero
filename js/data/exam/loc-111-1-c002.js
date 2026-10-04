@@ -679,7 +679,8 @@ window.APP_EXAM_PAPERS['loc-111-1-c002'] = {
     "emphasized"
    ],
    "a": 0,
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 ."
+   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
+   "exp": "✅ (A) 「predicted」意為「預測」。本句說汽車防霧霾裝置當初「被預測」每輛要花上數千美元，對照前一句「比預期便宜」，語意最通順。\n❌ (B) 「instructed」意為「指示、命令」，「被指示要花數千美元」語意不通。\n❌ (C) 「described」意為「描述」，「be described to cost」不是慣用搭配，也無法表達「事前估計」的意思。\n❌ (D) 「emphasized」意為「強調」，不接「to + 原形動詞」表示預估成本，語意不合。\n📚 出處：英文克漏字－動詞語意辨析（be predicted to + V「被預測會…」）。"
   },
   {
    "n": 48,
@@ -693,7 +694,8 @@ window.APP_EXAM_PAPERS['loc-111-1-c002'] = {
     "abandoned"
    ],
    "a": 0,
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 ."
+   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
+   "exp": "✅ (A) 「enacted」意為「制定、通過（法律）」。1990 年國會「通過」新的法規，與後文反對者批評這些法規相呼應。\n❌ (B) 「withdrew」意為「撤回」，若規則被撤回，就不會有後文「酸雨防治花費」可言。\n❌ (C) 「discovered」意為「發現」，法規是制定出來的，不是被發現的。\n❌ (D) 「abandoned」意為「放棄」，與後文法規實際執行、花費僅預期一成的語意矛盾。\n📚 出處：英文克漏字－動詞語意辨析（enact a law／rules「制定法律」）。"
   },
   {
    "n": 49,
@@ -707,7 +709,8 @@ window.APP_EXAM_PAPERS['loc-111-1-c002'] = {
     "moreover"
    ],
    "a": 0,
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 ."
+   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
+   "exp": "✅ (A) 「instead」意為「反而、相反地」。反對者預言法規會造成「清淨空氣衰退」，結果經濟「反而」蓬勃發展，前後是預期與事實相反的轉折關係。\n❌ (B) 「namely」意為「也就是」，用於補充說明，不能表達轉折。\n❌ (C) 「therefore」意為「因此」，表因果，但經濟繁榮並非衰退預言的結果。\n❌ (D) 「moreover」意為「此外」，表遞進補充，無法表達與預期相反的語意。\n📚 出處：英文克漏字－轉折連接副詞（instead／namely／therefore／moreover 用法辨析）。"
   },
   {
    "n": 50,
@@ -721,7 +724,8 @@ window.APP_EXAM_PAPERS['loc-111-1-c002'] = {
     "answered"
    ],
    "a": 0,
-   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 ."
+   "psg": "Most progress against air-pollution has been cheaper than expected. Smog controls on automobiles, for example, were 47 to cost thousands of dollars for each vehicle. Today's new cars emit less than 2 percent as much smog-forming pollution as the cars of 1970, and the cars are still as affordable today as they were then. Acid- rain control has cost about 10 percent of what was expected in 1990, when Congress 48 new rules. At that time, opponents said the regulations would cause a \"clean-air recession\"; 49 , the economy boomed. Greenhouse gases, being global, are the biggest air-pollution problem the world ever 50 .",
+   "exp": "✅ (A) 「faced」意為「面臨」。全句說溫室氣體是全球性的，是世界「曾面臨過」最大的空氣污染問題，face a problem 為常見搭配。\n❌ (B) 「solved」意為「解決」，溫室氣體問題仍未解決，且「最大的問題曾被解決」語意矛盾。\n❌ (C) 「happened」為不及物動詞，不能接受詞，「the world ever happened」文法錯誤。\n❌ (D) 「answered」意為「回答」，problem 不與 answer 搭配表示處理問題，且同樣與問題未解決的事實不符。\n📚 出處：英文克漏字－動詞搭配（face a problem「面臨問題」、及物與不及物動詞）。"
   }
  ]
 };
