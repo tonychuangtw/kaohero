@@ -7,15 +7,22 @@
 
 - 站名：**考英雄**（2026-09-09 由「考古英雄」更名，取「靠英雄」諧音並與網址 kaohero 一致）。網頁 title 仍保留「國家考試考古題」關鍵字，說明頁有一行舊名對照
 - repo：github.com/tonychuangtw/kaohero（2026-09-09 已從 kaoguhero 改名）
-- **正式網址：https://kaohero.com** （2026-09-09 上線，Cloudflare Registrar 註冊、DNS 在 Cloudflare、站台仍由 GitHub Pages 供應）
-  - DNS：4 筆 A 記錄指 GitHub Pages（185.199.108-111.153）＋ www 的 CNAME，全部 DNS only（灰雲）；改橘雲前要先確認 GitHub 憑證不受影響
-  - repo 根目錄的 `CNAME` 檔不可刪，刪了自訂網域會失效
+- **正式網址：https://kaohero.com** （2026-09-09 上線；**2026-10-04 起由 Cloudflare Pages 供應**，專案 `kaohero`，測試網址 kaohero.pages.dev）
+  - 搬家原因：GitHub Pages 整站上限 1GB，10/04 已用 733MB。Pages 沒有總量上限，但**一次部署最多 2 萬個檔**（10/04 約 1.19 萬）
+  - **題目圖片 `img/q/` 不上 Pages，放 R2**（bucket `kaohero-img`，網址 https://img.kaohero.com/q/…）。前端由 `js/config.js` 的 `IMG_BASE`＋`window.khImg()` 換址，
+    `build-pages.js`、`build-anki.py` 也照這個規則；repo 裡仍留原檔（新圖照舊放 img/q/，部署時自動補傳 R2）。`_redirects` 把舊路徑 /img/q/* 轉到 R2
+  - **部署：push 不會馬上上線**。`cf-deploy.timer` 每 10 分跑 `tools/cf-deploy.sh`（HEAD 有變才做）：補傳新題圖到 R2 → rsync 網站檔到 ~/.cache/kaohero-deploy
+    （排除 tools／docs／test／img/q／*.md）→ `wrangler pages deploy`。急的話手動 `bash tools/cf-deploy.sh --force`；紀錄 ~/.claude/cf-deploy.log
+  - 憑證 `~/.config/cloudflare/kaohero.env`：`CF_PAGES_TOKEN`（Pages／R2／DNS 編輯）、`CF_ACCOUNT_ID`；`CF_API_TOKEN` 是舊的只管 DNS。都不進 git
+  - DNS：apex 與 www 都是 CNAME → kaohero.pages.dev（橘雲）；img → R2；api → Cloudflare Tunnel。切換前的記錄備份在 ~/.cache/kaohero-dns-backup-20261004.json（回滾用）
+  - 舊的 GitHub Pages 沒關，當備援與 tonychuangtw.github.io/kaohero 的轉址；repo 根目錄 `CNAME` 檔留著給它用。它的 1GB 上限不再影響正式站
+  - 檔案數快到 2 萬時 cf-deploy 會停下不部署（log 有 🔴）：先想辦法把東西搬 R2，不要硬塞
   - 後端已在 `.env` 加 `EXTRA_ORIGINS=https://kaohero.com,https://www.kaohero.com`（server.js 既有機制，不必改程式）
   - Google OAuth 的 authorized JavaScript origins 已加入兩個新網域
   - 舊網址 https://tonychuangtw.github.io/kaohero/ 仍可用；更舊的 /kaoguhero/ 由 rootsite 404 MAP 轉址救援
 - 內部識別碼 2026-09-09 一併改為 kaohero（Tony：「現在還沒有使用者，直接改以免以後麻煩」）：`js/config.js` 的 `APP: 'kaohero'`、localStorage 的 `kaohero.v1` / `kaohero.prefs`、後端 `claude-shared/projects/LanExamMock/backend/kaohero.js` 與 `server.js` 的 `APPS.kaohero`、DB `progress.app` 值
 - 本機 clone：`~/TelegramClaude/kaoguhero`（目錄名維持舊名，避免動到 tg session／unit 設定）
-- 純靜態站，vanilla JS、無 build、GitHub Pages 部署（push 到 main 即上線）
+- 純靜態站，vanilla JS、無 build；push 到 main 後 10 分鐘內由 cf-deploy 部署到 Cloudflare Pages
 - 規模：2,377 卷 / 109,281 題，四大類（醫事、高普考、地方特考、專技）
 
 ## 逐題詳解（目前主線工作）
@@ -164,6 +171,21 @@ node tools/build-index.js --write && node test/test.js
 - 補完要 `exp-skip-drop --has-fig` **加 `--only`**：不加 `--only` 會把「本來就有圖、但圖看不清楚而跳過」
   的題也放回去，worker 只會再跳過一次、白跑一輪。
 
+## 救回閱讀測驗／克漏字文章（2026-10-04）
+
+exp-skips.json 裡約 1,650 題的跳過理由是「閱讀測驗題組本文未提供」——文章其實在 PDF 裡，轉檔時被當成上一題最後一個選項的續行
+（症狀：某題選項 D 尾巴黏著一大段英文或「請依下文回答第 N 題至第 M 題」）。
+
+```bash
+node tools/psg-recover-dump.js /tmp/d.json && python3 tools/psg-recover.py /tmp/d.json /tmp/psg.json --show
+node tools/set-psg.js /tmp/psg.json --show            # 試跑，看切掉的選項尾巴對不對
+node tools/set-psg.js /tmp/psg.json --write && node tools/exp-skip-drop.js --reason-match '閱讀測驗|克漏字|本文|文章|題組' --only <{pid:[題號]}> --write
+```
+- 要用 `pdftotext -layout`：不帶 -layout 的原始順序在導遊領隊外語卷沒有題號、選項亂序；layout 下題號在行首、選項縮排、文章靠左
+- 只做語言類 chu／gao／loc／pol／tou；醫事類的同類跳過理由是「承上題」，切到的會是上一題選項（有 A.… B.… C.… 就丟）
+- 克漏字題原本是 `needfig` 空白題（圖只裁到選項列），set-psg 從 layout 那行切出選項文字、拿掉 needfig／fig
+- 2026-10-04 救回 1,622 題（245 卷）、克漏字補選項 496 題、切掉黏住的選項尾巴 297 處
+
 ## 申論題庫（2026-09-24，Tony「付費用戶申論題可批改」的第一段）
 
 申論卷沒有標準答案，選擇題那套收不進來；改成另一個題庫：`#/essays`（科目列表）、`#/essay/<key>`（歷年題目＋原卷 PDF 連結＋參考架構）。
@@ -180,6 +202,8 @@ bash tools/essay-ref-batch.sh 12 0                          # 寫參考架構（
 - **小題編號是 EUDC 造字**：`\ue129` 起是（一）（二）（三）…（選擇題卷 parse.py 把同一段對成 ①②③，那是選擇題卷的用法）
 - **題目裡引用的法條條列也長「一、二、」**，切題只認比上一題大的號碼、且縮排 ≤1；跳號整卷擋下（約 1.5% 切題失敗）
 - 有圖表／公式的題標 `warn`，頁面提示對照原卷；**參考架構不寫 warn 的題**（看不到圖寫不可靠）
+  → 2026-10-04 改：`ESSAY_WARN_OK=fig,math,pua` 讓這些題也寫。fig／math 題 `essay-ref.py targets` 會把原卷那頁轉 PNG
+  （`~/.cache/essay-pages/`，PDF 在 ~/exam-pdfs/{gao,local,pol}/pdf/），prompt 叫模型先 Read 圖；只能用本機 Claude 引擎（runner 讀不到圖）
 - ⚠ **重新轉檔會重寫每科的檔**：`gen_essay.py` 會先讀舊檔把 `q.ref` 依（年度, 題號）接回去；而且一定要拿 `~/.claude/essay.lock`
   （`essay-refresh.sh` 已包好），不然批次剛寫進去的參考架構會被轉檔洗掉
 - 參考架構格式由 `tools/essay-ref.py set` 檢查：150～1500 字、要有【答題架構】、不准 ✅❌📚；模型判 skip 的題記在 `tools/essay-ref-skips.json` 不再挑
@@ -309,6 +333,19 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
   釘在 `test/kgh-pay-test.js`，改動那段之後一定要跑：`node test/kgh-pay-test.js`
 - 驗整條流程：`node test/kgh-pay-test.js`（32 項）；要真的打綠界測試環境就把 `buildCheckout` 產的
   表單 POST 到 `https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5`，回「選擇支付方式」頁就是對的
+
+## 申論靜態頁（2026-10-04）
+
+- `tools/build-essay-pages.js` 產 `essay/<f>/index.html`（每科一頁：歷年題目全文＋每題參考架構只放【破題】）、`essay/index.html`、`sitemap-essay.xml`（robots.txt 有列、已交 GSC）
+- 不放完整架構是刻意的：容量（全文約 +150MB）＋以後付費可把完整版留在站內
+- `essay-ref-batch.sh` 每批寫完會 `--only <key>` 重產該科並 `git add essay`；改了頁面版型就全量重跑一次 `node tools/build-essay-pages.js --write`
+- 選擇題考卷靜態頁是 `tools/build-pages.js`（exam/<pid>/），worker 寫完詳解自動重產
+
+## 自己 commit 時 add 跟 commit 要連著下（2026-10-04 踩到）
+
+- **症狀**：自己 `git add` 完還沒 commit，檔案就被背景批次的 commit 收走，出現在「申論參考架構 +12 題」「詳解：…」這種 commit 裡（`git commit` 時顯示 nothing to commit）
+- **原因**：exp-worker／essay-ref-batch 的 commit 只 `git add` 自己的路徑，但 `git commit` 會把 index 裡已暫存的東西全部帶走
+- **以後**：`git add <檔> && git commit -m …` 同一行連著下，撞到 index.lock 就整行重試
 
 ## 跑完測試一定要關瀏覽器（2026-10-01 Tony 要求補）
 

@@ -22,13 +22,9 @@ NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題）�
 　　　 20:29 Tony 問 GitHub Pages 快滿怎麼辦 → 建議搬 Cloudflare Pages（免費、無 1GB 上限、限 2 萬檔；現 15,705 檔＋申論 1,496）
 　　　 ＋題目圖片 img/q 5,216 張搬 R2（免費 10GB），等 Tony 開 Pages＋R2 編輯權限的 API token（~/.config/cloudflare/kaohero.env 那支只有 DNS）（msg 1109）。
 　　　 上線後要做：essay-ref-batch.sh 每批 set 完跑 build-essay-pages.js --only <key> --write、git add essay/
-　　🔄⑤ 搬 Cloudflare Pages（20:40 Tony「搬. 帶我做」）：已傳步驟（msg 1113）請他開 R2、建 token（Pages／R2／DNS Edit）、給 Account ID，等回覆。
-　　　 已備好：js/config.js IMG_BASE＋window.khImg（目前留空）、tools/cf-deploy.sh（R2 上傳新題圖→rsync 到 ~/.cache/kaohero-deploy→wrangler pages deploy）、404.html
-　　　 拿到 token 後：存 ~/.config/cloudflare/kaohero.env（CF_PAGES_TOKEN、CF_ACCOUNT_ID）→ API 建 Pages 專案 kaohero、R2 bucket kaohero-img＋自訂網域 img.kaohero.com
-　　　 → cf-deploy.sh --force（首次 R2 上傳 5,213 張約 25 分）→ 驗 kaohero.pages.dev → IMG_BASE='https://img.kaohero.com/' 重產 exam 頁
-　　　 → Pages 綁 kaohero.com＋www、刪 4 筆 A 記錄（改 CNAME 到 kaohero.pages.dev）→ 驗正式站 → 建 cf-deploy.timer（每 10 分）→ 申論頁上線
-　　　 ⚠ 背景批次的 git commit 會把「已 git add 但還沒 commit」的檔一起收走：自己 commit 時 add 與 commit 要同一行連著下
-　　　 ⚠ GitHub Pages 整站 1GB 上限：10/04 工作樹已約 780MB（img 243M、exam 188M、js/data/essay 143M），加東西前先算容量
+　　✅⑤ 21:15 搬到 Cloudflare Pages 完成（細節與部署方式寫在 CLAUDE.md「站台」）：Pages 專案 kaohero、R2 kaohero-img（img.kaohero.com，5,213 張）、
+　　　 DNS apex／www CNAME→kaohero.pages.dev、cf-deploy.timer 每 10 分、_redirects /img/q/*→R2。申論靜態頁 1,495 科上線、sitemap-essay.xml 已交 GSC。
+　　　 SEO 81%／AEO 70%（跟搬前一樣）；唯一新 ❌ host-canonical（www 與 apex 都 200）→ 已請 Tony 在後台加 www→apex 轉址規則（msg 1123，token 沒有 Rulesets 權限）
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
 　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
@@ -173,7 +169,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 20:02 台北（①詳解、②③申論 warn 題兩支批次在跑；接著做④）
+UPDATED: 2026-10-04 21:22 台北（Cloudflare 搬家完成；詳解與申論 warn 題批次在跑）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
