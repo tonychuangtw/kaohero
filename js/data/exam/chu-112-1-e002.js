@@ -661,7 +661,8 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
     "via"
    ],
    "a": 0,
-   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!",
+   "exp": "✅ (A) 固定用法「identify A as B」表示「認定／證明 A 是 B」，句意為護照證明你是某國公民，故用 as。\n❌ (B) by 表示「被、藉由」，「identify you by a citizen」語意不通。\n❌ (C) for 表示「為了、給」，identify 不與 for 搭配表達身分。\n❌ (D) via 表示「經由、透過（途徑）」，不能用來說明身分。\n📚 出處：英文文法——動詞片語 identify A as B（as 表身分）"
   },
   {
    "n": 47,
@@ -690,7 +691,8 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
     "was described"
    ],
    "a": 3,
-   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!",
+   "exp": "✅ (D) 主詞是「護照上那個人」，應是「被文字描述」，用被動語態；時間在 18 世紀末為過去式，故用 was described。\n❌ (A) is expected 為現在式，且「被期待用文字」語意不通。\n❌ (B) proved 為主動語態，「那人證明了文字」語意不合。\n❌ (C) supposed 為主動，且 suppose 需接受詞或 be supposed to，用法不完整。\n📚 出處：英文文法——被動語態與過去式（be + p.p.）"
   },
   {
    "n": 49,
@@ -704,7 +706,8 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
     "being breaking"
    ],
    "a": 1,
-   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!",
+   "exp": "✅ (B) 此處描述外貌特徵，需形容詞；過去分詞 broken 當形容詞，表示「斷過的（鼻子）」，與前後 curly、wrinkled 等形容詞並列。\n❌ (A) break 為原形動詞或名詞，不能當形容詞修飾鼻子。\n❌ (C) breaking 現在分詞表「正在斷」的主動進行意，不合描述外貌。\n❌ (D) being breaking 文法錯誤，being 不接現在分詞。\n📚 出處：英文文法——分詞作形容詞（過去分詞表被動／完成狀態）"
   },
   {
    "n": 50,
@@ -718,7 +721,8 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
     "In summary"
    ],
    "a": 2,
-   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!",
+   "exp": "✅ (C) In fact 表「事實上」，用來補充並強化前句：護照照片常常拍不好，事實上還有一則相關笑話，語意連貫。\n❌ (A) In contrast 表「相對地」，用於對比，但前後並非相反關係。\n❌ (B) In comparison 表「相較之下」，前後沒有比較對象。\n❌ (D) In summary 表「總而言之」，用於結論，後句是新增的例子而非總結。\n📚 出處：英文閱讀——轉折連接詞（In fact／In contrast／In summary）用法"
   }
  ]
 };
