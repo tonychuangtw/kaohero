@@ -30898,7 +30898,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "110 年　普通考試　法學知識與英文",
   "n": 50,
-  "exp": 45,
+  "exp": 48,
   "mins": 60
  },
  {
