@@ -673,7 +673,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "television"
    ],
    "a": 0,
-   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately.",
+   "exp": "✅ (A) 民眾問「如果我身處＿＿該怎麼做」，消防員接著教他摀住口鼻、找逃生出口、立即疏散，可知情境是「fire scene（火災現場）」。\n❌ (B) 「sea（海上）」與後文摀口鼻防煙、找緊急出口的指示不符，落海應採漂浮求生等方式。\n❌ (C) 「parking lot（停車場）」本身不是危險狀況，無須摀口鼻與緊急疏散，語意不通。\n❌ (D) 「television（電視）」無法讓人「身處其中」，in a television 語意不合理。\n📚 出處：消防警察專業英文—火災避難逃生情境用語（fire scene、evacuate）。"
   },
   {
    "n": 48,
@@ -687,7 +688,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "tooth brush"
    ],
    "a": 2,
-   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately.",
+   "exp": "✅ (C) 火場逃生時應以「wet towel（濕毛巾）」摀住口鼻，可過濾部分煙粒並降低吸入熱煙，符合「cover your mouth and nose with a ＿」。\n❌ (A) 「plastic bottle（塑膠瓶）」無法覆蓋口鼻過濾濃煙，且遇熱會熔化。\n❌ (B) 「battery（電池）」與摀住口鼻毫無關聯。\n❌ (D) 「tooth brush（牙刷）」無法用來遮蓋口鼻防煙。\n📚 出處：消防警察專業英文—火災避難逃生要領（cover mouth and nose with a wet towel）。"
   },
   {
    "n": 49,
@@ -701,7 +703,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "emergency exit"
    ],
    "a": 3,
-   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately.",
+   "exp": "✅ (D) 「Take the nearest emergency exit」意為「從最近的緊急出口離開」，是火場逃生的標準指示。\n❌ (A) 「lift（電梯）」火災時可能斷電受困或成為煙囪，逃生時嚴禁搭乘電梯。\n❌ (B) 「escalator（電扶梯）」火災時可能停擺且非防火避難路徑，不是建議的逃生方式。\n❌ (C) 「gas station（加油站）」為易燃危險場所，與逃生出口無關，語意不通。\n📚 出處：消防警察專業英文—火災避難逃生要領（emergency exit、火災時不得使用電梯）。"
   },
   {
    "n": 50,
@@ -715,7 +718,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "Inhale"
    ],
    "a": 1,
-   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately.",
+   "exp": "✅ (B) 「Evacuate immediately」意為「立即疏散／撤離」，與前文找最近緊急出口離開火場的指示一致。\n❌ (A) 「Participate（參加）」為不及物動詞且需接 in，語意也與逃生無關。\n❌ (C) 「Gasp（喘氣、倒抽一口氣）」不是消防員會給的逃生指令。\n❌ (D) 「Inhale（吸入）」在火場吸入濃煙會中毒，與前文摀住口鼻的指示相反。\n📚 出處：消防警察專業英文—火災避難逃生情境用語（evacuate 疏散撤離）。"
   }
  ]
 };
