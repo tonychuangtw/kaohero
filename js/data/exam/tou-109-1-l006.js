@@ -965,7 +965,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "A la gare du Nord."
    ],
    "a": 0,
-   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »",
+   "exp": "✅ (A) 廣播說列車「en provenance de Lille」，en provenance de 意為「來自、從…出發」，所以 Mathieu 是在里爾（Lille）上車的。\n❌ (B) 文中完全沒有提到里昂（Lyon），是干擾地名。\n❌ (C) 巴黎是「à destination de Paris」（目的地），是他要抵達的地方，不是上車地點。\n❌ (D) 巴黎北站（la gare du Nord）是你去接他的車站，也就是抵達站，不是出發站。\n📚 出處：法語觀光實務字彙（車站廣播用語：en provenance de 來自／à destination de 開往）"
   },
   {
    "n": 69,
@@ -979,7 +980,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "17"
    ],
    "a": 3,
-   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »",
+   "exp": "✅ (D) 廣播兩次提到「Il est annoncé quai 17」「stationnera quai 17」，quai 是「月台」，列車停靠 17 號月台，應去那裡接人。\n❌ (A) 1 235 是列車車次（le train direct 1 235），不是月台號碼。\n❌ (B) 10 是「dix minutes de retard」中誤點的分鐘數，與月台無關。\n❌ (C) 35 只是車次 1 235 的尾數，文中沒有 35 號月台。\n📚 出處：法語觀光實務字彙（車站廣播用語：quai 月台、numéro du train 車次）"
   },
   {
    "n": 70,
@@ -993,7 +995,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "changé"
    ],
    "a": 2,
-   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »",
+   "exp": "✅ (C) 廣播說「aura dix minutes de retard」及「dix minutes après l’heure prévue」，即比預定時間晚十分鐘，列車「en retard」（誤點）。\n❌ (A) à l’heure 指「準時」，與晚十分鐘的內容相反。\n❌ (B) en avance 指「提早」，廣播說的是延後到達。\n❌ (D) changé 指「變更」，廣播並未提到更改班次或月台，只是延誤。\n📚 出處：法語觀光實務字彙（時刻表述：à l’heure 準時／en avance 提早／en retard 誤點）"
   },
   {
    "n": 71,
@@ -1007,7 +1010,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "dans une agence de voyage"
    ],
    "a": 3,
-   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle.",
+   "exp": "✅ (D) 對話中旅客說想在聖誕假期旅行、請對方推薦，店員介紹含機票、飯店、餐食的套裝行程（forfaits）與價格，這是旅行社（agence de voyage）的典型情境。\n❌ (A) 火車站（la gare）是買車票、搭車的地方，不會推銷整套度假行程。\n❌ (B) 機場（l’aéroport）辦理報到登機，不販售含飯店的套裝行程。\n❌ (C) 遊客中心（l’office de tourisme）提供當地旅遊資訊，不代訂出國機票與飯店套裝。\n📚 出處：法語觀光實務字彙（旅遊服務場所：agence de voyage 旅行社、office de tourisme 遊客中心）"
   },
   {
    "n": 72,
@@ -1021,7 +1025,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "en hiver"
    ],
    "a": 3,
-   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle.",
+   "exp": "✅ (D) 旅客說「pendant les vacances de Noël」，聖誕節在 12 月，屬於冬天（en hiver）。\n❌ (A) au printemps 是「春天」，與聖誕假期不符。\n❌ (B) en été 是「夏天」，雖然他想去有陽光的地方，但出發時間是聖誕節。\n❌ (C) en automne 是「秋天」，聖誕節已是冬季。\n📚 出處：法語基礎字彙（四季與介系詞：au printemps、en été、en automne、en hiver）"
   },
   {
    "n": 73,
@@ -1035,7 +1040,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "des activités culturelles"
    ],
    "a": 0,
-   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle.",
+   "exp": "✅ (A) 店員問要跑行程還是住飯店，旅客回答「Je préfère passer une semaine dans un hôtel, au bord de la mer」，明確偏好在海邊飯店住一週。\n❌ (B) un circuit 指「巡迴行程」，正是旅客沒有選擇的另一個選項。\n❌ (C) 旅客沒有提到參觀景點（des visites），他想的是住飯店、做運動。\n❌ (D) 旅客想做的是運動（tennis），不是文化活動（activités culturelles）。\n📚 出處：法語觀光實務字彙（行程類型：circuit 巡迴行程／séjour 定點住宿）"
   },
   {
    "n": 74,
@@ -1063,7 +1069,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "la pension complète"
    ],
    "a": 1,
-   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle.",
+   "exp": "✅ (B) 套裝內容是「les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives」，沒有提到 remise en forme（養生、SPA 健身療程），所以這項不包含在內。\n❌ (A) le vol（航班）對應「les billets d’avion」，有包含。\n❌ (C) l’hébergement（住宿）對應「six nuits d’hôtel」，有包含。\n❌ (D) la pension complète（全膳，含三餐）對應「tous les repas」，有包含。\n📚 出處：法語觀光實務字彙（套裝行程：forfait、hébergement、pension complète／demi-pension）"
   },
   {
    "n": 76,
@@ -1077,7 +1084,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Clignancourt."
    ],
    "a": 2,
-   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt.",
+   "exp": "✅ (C) 文中說花市「à la station de métro Cité」，要在 Cité 站下車。\n❌ (A) Louis Lépine 是花市所在的廣場名（place Louis Lépine），不是地鐵站。\n❌ (B) Corse 出自「quai de la Corse」，是河岸街名，不是地鐵站。\n❌ (D) Porte de Clignancourt 是去聖圖安跳蚤市場的地鐵站，不是花市。\n📚 出處：法語閱讀測驗（巴黎觀光：地址用語 place 廣場、quai 河岸街、station de métro 地鐵站）"
   },
   {
    "n": 77,
@@ -1091,7 +1099,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "dimanche"
    ],
    "a": 1,
-   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt.",
+   "exp": "✅ (B) 本題問哪個答案錯誤。花市每天開放，跳蚤市場只在週六、週日、週一開，週三（mercredi）跳蚤市場沒開，所以「兩者都開」不成立。\n❌ (A) samedi（週六）花市與跳蚤市場都開放，敘述正確。\n❌ (C) lundi（週一）兩者都開放，敘述正確。\n❌ (D) dimanche（週日）花市變成鳥市但仍開，跳蚤市場也開，敘述正確。\n📚 出處：法語閱讀測驗（星期名稱 lundi～dimanche 與營業時間判讀）"
   },
   {
    "n": 78,
@@ -1105,7 +1114,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Samedi."
    ],
    "a": 0,
-   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt.",
+   "exp": "✅ (A) 文中說「Les enfants aiment venir le dimanche : il devient le marché aux oiseaux」，週日花市變成鳥市，孩子喜歡這天來。\n❌ (B) Lundi（週一）文中沒有提到孩子或鳥市。\n❌ (C) Mardi（週二）只是一般花市營業日。\n❌ (D) Samedi（週六）花市照常營業，但不是鳥市日。\n📚 出處：法語閱讀測驗（巴黎觀光：Marché aux fleurs et aux oiseaux 花鳥市場）"
   },
   {
    "n": 79,
@@ -1133,7 +1143,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Le 19e."
    ],
    "a": 3,
-   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt.",
+   "exp": "✅ (D) 花市「existe depuis 1808」，1801～1900 年屬於 19 世紀（le 19e siècle）。\n❌ (A) 18 世紀是 1701～1800 年，1808 已超過。\n❌ (B) 17 世紀是 1601～1700 年，相差更遠。\n❌ (C) 20 世紀是 1901～2000 年，1808 尚未到。\n📚 出處：法語基礎字彙（序數與世紀表示：le 19e siècle＝1801～1900 年）"
   }
  ]
 };
