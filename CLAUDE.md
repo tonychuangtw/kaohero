@@ -75,6 +75,10 @@ worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 ac
 
 **症狀 B：`~/.claude/exp-worker.failed` 裡有卷** → 那是真的失敗（工具或題庫問題），要查原因、修完再 `systemctl --user start exp-worker`。
 
+**症狀 C：worker 收工了，`git status` 還有某卷的 `js/data/exam/<pid>.js`／`exam/<pid>/` 沒 commit**（2026-10-04 loc-106-1-b002）：
+log 有「寫 14／待 14」，但那次 commit 撞到申論批次的 index.lock 沒成功，詳解只留在工作目錄（站上 cf-deploy 是從工作目錄部署的，
+所以線上看得到、git 裡沒有）。處理：`node tools/build-index.js --write && node test/test.js` 後把那卷的兩個路徑加 `js/data/exams.js` 補 commit。
+
 引擎有 agy／claude／deepseek 三種（`tools/exp-engine.sh`，deepseek 2026-09-18 接上），沒有 codex。
 
 **⛔ 除非 Tony 當次指定，不然不要用 DeepSeek（2026-09-19 11:40 Tony 定案：「除非我有指定，不然不要再用 DeepSeek」）**

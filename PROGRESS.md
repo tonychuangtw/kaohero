@@ -5,12 +5,13 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: ▶ 10/04 22:14 週額度重置後已重開 exp-worker、essay-ref-pua（ESSAY_SHARD=0/2）、essay-ref-fig（1/2），都在跑。
-　（21:46 週額度 95% 暫停過一次；重開指令：systemctl --user start exp-worker；申論兩支：
+NEXT_ACTION: ⏸ 10/05 01:44 帳號 5 小時額度 81%（台北 03:09 重置）→ essay-ref-pua、essay-ref-fig 用停止記號收掉（批與批之間停）。
+　**03:14 喚醒後照原本兩支重開**（先 systemctl --user reset-failed）：
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
-　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig；先 systemctl --user reset-failed）
-　✅ 閱讀測驗詳解 22:55 收工（這輪合計 1,595 題，跳 27）。剩申論 warn 題（23:58 剩 4,560 題，約 410 題／時，預估 10/05 中午前後），寫完就改 done。
-　✅ 22:55 Tony 加好 www→apex 轉址（301，保留路徑與參數），seoaeo SEO 83%／AEO 70%，host-canonical ✅
+　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig
+　剩：申論 warn 題 0/2 片 2,109、1/2 片 1,789（共 3,898；約 410 題／時），寫完就改 done。
+　✅ 閱讀測驗詳解 10/04 22:55 收工（合計 1,595 題，跳 27）；01:45 補 commit 了 worker 撞鎖沒 commit 的 loc-106-1-b002（14 題）
+　✅ 10/04 22:55 www→apex 轉址完成，SEO 83%／AEO 70%
 　✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
 　10/04 19:48 Tony 問還有什麼沒做 → 回建議順序（msg 1099），19:50 Tony「好」→ 依序做：
 　　✅① 19:55 閱讀測驗／克漏字文章救回 1,622 題（245 卷，tools/psg-recover.py＋set-psg.js，commit 13ea531f0），克漏字空白題補選項 496 題、
@@ -175,7 +176,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 23:59 台北（只剩申論 warn 題兩支批次）
+UPDATED: 2026-10-05 01:46 台北（5 小時額度暫停，03:14 重開兩支申論批次）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
