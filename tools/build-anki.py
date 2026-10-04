@@ -81,6 +81,9 @@ def paint_exp(exp):
     return '<br>'.join(out)
 
 
+IMG_Q = 'https://img.kaohero.com/q/'
+
+
 def front_q(q, imgbase):
     """卡片正面的題幹：題組短文與題目圖都要帶上，單看一張卡也讀得懂。
        圖是連到站上的絕對網址（Anki 不內嵌遠端圖，離線時看不到圖）。"""
@@ -89,7 +92,10 @@ def front_q(q, imgbase):
         h.append('<div class="psg">' + esc(q['psg']) + '</div>')
     h.append('<div>' + esc(q['q']) + '</div>')
     if q.get('fig') and imgbase:
-        h.append('<div class="fig"><img src="' + esc(imgbase.rstrip('/') + '/' + q['fig'].lstrip('/')) + '"></div>')
+        f = q['fig'].lstrip('/')
+        # 題目圖 2026-10-04 起放 R2（img.kaohero.com），站上已不再有 img/q/（js/config.js 的 IMG_BASE）
+        url = IMG_Q + f[len('img/q/'):] if f.startswith('img/q/') else imgbase.rstrip('/') + '/' + f
+        h.append('<div class="fig"><img src="' + esc(url) + '"></div>')
     return ''.join(h)
 
 
