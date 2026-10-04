@@ -1007,7 +1007,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "D’ailleurs"
    ],
    "a": 1,
-   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île.",
+   "exp": "✅ (B) 「En effet」意為「確實、事實上」，用來對前一句提出佐證：前句說搭火車遊台灣很方便，後句說明台灣擁有東西南北的大型鐵路網，正是方便的理由。\n❌ (A) 「Par conséquent」意為「因此」，表示結果；但鐵路網是原因而非結果，邏輯顛倒。\n❌ (C) 「En général」意為「一般來說」，表示通則，無法銜接「為什麼方便」的佐證語氣。\n❌ (D) 「D’ailleurs」意為「此外、況且」，用於追加另一個論點，而此處是直接解釋前句，不是補充新論點。\n📚 出處：法語文法——連接詞（mots de liaison）：en effet 表說明理由"
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "parle"
    ],
    "a": 2,
-   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île.",
+   "exp": "✅ (C) 「disposer de」意為「擁有、具備」，固定搭配介系詞 de，「Taïwan dispose d’un grand réseau ferroviaire」即「台灣擁有龐大的鐵路網」，空格後的 d’ 正是關鍵。\n❌ (A) 「faire」意為「做」，不與 de 構成「擁有」之意，語意不通。\n❌ (B) 「poser」意為「放置、提出」，及物動詞直接接受詞，不接 de，也無擁有之意。\n❌ (D) 「parler de」意為「談論」，「台灣談論鐵路網」不合文意。\n📚 出處：法語文法——動詞與介系詞搭配：disposer de（擁有）"
   },
   {
    "n": 73,
@@ -1035,7 +1037,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "rencontrer"
    ],
    "a": 0,
-   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île.",
+   "exp": "✅ (A) 「admirer」意為「欣賞、讚嘆」，受詞是「既壯麗又多樣的風景」（des paysages aussi magnifiques que variés），搭火車沿途欣賞風景最合文意。\n❌ (B) 「lire」意為「閱讀」，風景不能被閱讀。\n❌ (C) 「peindre」意為「繪畫」，搭火車旅行時畫風景並非文章要表達的重點。\n❌ (D) 「rencontrer」意為「遇見（人）」，通常用於人，不用於欣賞風景。\n📚 出處：法語詞彙——旅遊常用動詞：admirer des paysages（欣賞風景）"
   },
   {
    "n": 74,
@@ -1049,7 +1052,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "au bord de"
    ],
    "a": 1,
-   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île.",
+   "exp": "✅ (B) 「tout au long de」意為「在……的整個過程中、自始至終」，「tout au long de votre voyage」即「旅途全程」都能欣賞風景，語意最自然。\n❌ (A) 「dans」意為「在……之中」，「dans votre voyage」不是法語慣用說法，缺少「全程」的意味。\n❌ (C) 「par」表示方式或經由，「par votre voyage」語意不通。\n❌ (D) 「au bord de」意為「在……旁邊」，用於地點（如 au bord de la mer 海邊），不能修飾旅程。\n📚 出處：法語文法——介系詞片語：tout au long de（在整段期間）"
   },
   {
    "n": 75,
@@ -1063,7 +1067,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "facilement"
    ],
    "a": 3,
-   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île.",
+   "exp": "✅ (D) 「facilement」意為「輕易地」，「vous vous laisserez facilement plonger dans le décor…」即「您會很容易就沉浸在島上的山景、田園、海景中」，承接前文風景優美多樣的正面描述。\n❌ (A) 「franchement」意為「坦白地」，用於表態說話，與沉浸於景色的語意不合。\n❌ (B) 「rarement」意為「很少」，與前文盛讚風景的語氣相反。\n❌ (C) 「simplement」意為「僅僅、簡單地」，語氣平淡，不如 facilement 能呼應「se laisser plonger（不自覺地沉浸）」的自然流暢感。\n📚 出處：法語文法——副詞用法：se laisser + 不定式搭配 facilement"
   },
   {
    "n": 76,
