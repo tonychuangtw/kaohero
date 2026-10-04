@@ -657,7 +657,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c015'] = {
     "venture"
    ],
    "a": 1,
-   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country.",
+   "exp": "✅ (B) 「event」意為「活動、盛事」。短文描述的是每年七月最後一個週末開始、到八月初結束、有超過 35 萬人參加的海岸防衛隊節慶，用「event」指稱這樣一場定期舉辦的大型活動最為貼切。\n❌ (A) 「alliance」意為「同盟、聯盟」，指國家或團體之間的結盟關係，不能用來指一場節慶活動。\n❌ (C) 「scheme」意為「計畫、方案」，且常帶有「詭計」的負面意涵，不適合形容節慶。\n❌ (D) 「venture」意為「（有風險的）冒險事業、投機事業」，多用於商業投資，與節慶活動語意不合。\n📚 出處：英文字彙辨析－名詞 event／alliance／scheme／venture（節慶活動相關用語）。"
   },
   {
    "n": 47,
@@ -671,7 +672,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c015'] = {
     "let alone"
    ],
    "a": 0,
-   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country.",
+   "exp": "✅ (A) 「including」意為「包括」，後接名詞片語補充說明前面整體中的一部分。句意為「超過 35 萬人參加此節慶，其中包括來自華府的美國海岸防衛隊最高層級貴賓」，語意與文法皆通順。\n❌ (B) 「respectively」意為「分別地」，用於兩組事物依序一一對應的情況，此處無對應關係，且不能直接接名詞片語。\n❌ (C) 「except for」意為「除了……之外（不包含）」，會變成高層貴賓不在參加者之列，與文意矛盾。\n❌ (D) 「let alone」意為「更不用說」，須用在否定句之後，此句為肯定句，不適用。\n📚 出處：英文文法－介系詞 including 與連接用語 respectively／except for／let alone 之用法。"
   },
   {
    "n": 48,
@@ -685,7 +687,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c015'] = {
     "preserve"
    ],
    "a": 2,
-   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country.",
+   "exp": "✅ (C) 「honor」意為「表揚、向……致敬」。受詞是「海岸防衛隊以及為國捐軀者」，對犧牲生命的人表達敬意，用「honor」最恰當，常見搭配如「honor those who died」。\n❌ (A) 「celebrate」意為「慶祝」，雖可接海岸防衛隊，但對「為國犧牲的人」用慶祝不恰當，語意不合。\n❌ (B) 「approve」意為「批准、贊成」，對象通常是計畫或提案，不能用於向人致敬。\n❌ (D) 「preserve」意為「保存、維護」，對象多為環境、文物或傳統，不用於紀念犧牲的人。\n📚 出處：英文字彙辨析－動詞 honor／celebrate／approve／preserve（紀念、致敬用語）。"
   },
   {
    "n": 49,
