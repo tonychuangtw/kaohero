@@ -531,7 +531,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
     "persuasive"
    ],
    "a": 0,
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
+   "exp": "✅ (A) 「unexplainable」意為「無法解釋的」。嬰兒猝死症的特徵就是看似健康的嬰兒在睡眠中突然死亡、找不到原因，與「sudden and ___ death」語意吻合。\n❌ (B) 「obvious」意為「明顯的」，死因明顯與猝死症「原因不明」的本質相反。\n❌ (C) 「reasonable」意為「合理的」，用來形容一個健康嬰兒的突然死亡不合語境。\n❌ (D) 「persuasive」意為「有說服力的」，通常形容論點或說法，不能修飾死亡。\n📚 出處：英文克漏字－形容詞語意辨析（unexplainable／obvious）"
   },
   {
    "n": 38,
@@ -545,7 +546,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
     "artificial"
    ],
    "a": 2,
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
+   "exp": "✅ (C) 「traumatic」意為「造成心理創傷的」。失去孩子對父母而言是極度痛苦的經驗，下句又提到父母產生罪惡感，故「an especially traumatic experience」最通順。\n❌ (A) 「inevitable」意為「不可避免的」，嬰兒猝死並非必然發生，語意不合。\n❌ (B) 「suspicious」意為「可疑的」，文意在描述父母的痛苦感受，而非事件可疑。\n❌ (D) 「artificial」意為「人為的、人造的」，與失去孩子的經驗無關。\n📚 出處：英文克漏字－形容詞語意辨析（traumatic experience）"
   },
   {
    "n": 39,
@@ -559,7 +561,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
     "appreciation"
    ],
    "a": 1,
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
+   "exp": "✅ (B) 「depression」意為「憂鬱、沮喪」。與前面的「guilt（罪惡感）」並列，都是父母在喪子後產生的負面情緒，語意一致。\n❌ (A) 「observation」意為「觀察」，不是一種情緒感受，無法與 guilt 並列。\n❌ (C) 「compassion」意為「同情、憐憫」，是對他人的正面情感，不符父母自責的情境。\n❌ (D) 「appreciation」意為「感激、欣賞」，屬正面情緒，與 guilt 語意相反。\n📚 出處：英文克漏字－名詞語意辨析（feelings of guilt and depression）"
   },
   {
    "n": 40,
@@ -573,7 +576,8 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
     "substantiate"
    ],
    "a": 0,
-   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death.",
+   "exp": "✅ (A) 「alleviate」意為「減輕、緩和」。後文說成立組織幫助父母接受「不是他們造成死亡」的事實，目的就是減輕罪惡感與憂鬱，「alleviate such feelings」最合理。\n❌ (B) 「accelerate」意為「加速」，加速負面情緒與組織的助人目的相反。\n❌ (C) 「elaborate」意為「詳細說明、精心製作」，不能用來處理情緒。\n❌ (D) 「substantiate」意為「證實」，證實父母的罪惡感與後文「幫助他們接受並非其過錯」矛盾。\n📚 出處：英文克漏字－動詞語意辨析（alleviate feelings）"
   },
   {
    "n": 41,
