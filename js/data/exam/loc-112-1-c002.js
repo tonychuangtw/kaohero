@@ -663,7 +663,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "pasta"
    ],
    "a": 3,
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
+   "exp": "✅ (D) 「pasta」義大利麵；他們喜歡去義大利餐廳，「eat pasta」吃義大利麵最符合文意，後面接分享甜點、喝濃縮咖啡，正是一頓義式餐點的流程。\n❌ (A) 「beast」野獸，不能拿來當餐點吃，語意不通。\n❌ (B) 「breast」胸部、胸肉，單獨使用不合義式餐廳點餐的語境，且與 pasta 拼字相近屬干擾選項。\n❌ (C) 「plate」盤子，「eat plate」吃盤子不合理。\n📚 出處：英文克漏字；飲食相關名詞字彙（pasta／espresso）。"
   },
   {
    "n": 47,
@@ -677,7 +678,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "temperature"
    ],
    "a": 0,
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
+   "exp": "✅ (A) 「anniversary」週年紀念日；兩人是情侶／夫妻，「Chloe and Kevin's anniversary is coming up」表示兩人的紀念日快到了，所以 Kevin 想安排晚上外出吃飯慶祝。\n❌ (B) 「imagination」想像力，不會「即將到來」，也與安排約會無關。\n❌ (C) 「information」資訊，與後文計畫慶祝的情境不符。\n❌ (D) 「temperature」溫度，不能說兩人的溫度即將到來。\n📚 出處：英文克漏字；名詞字彙（anniversary）與片語「be coming up」即將到來。"
   },
   {
    "n": 48,
@@ -691,7 +693,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "reservation"
    ],
    "a": 3,
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
+   "exp": "✅ (D) 「make a reservation」預約、訂位；Kevin 打電話給餐廳就是為了訂位，固定搭配為 make a reservation。\n❌ (A) 「combination」組合，make a combination 與打電話給餐廳的目的不符。\n❌ (B) 「decision」決定，make a decision 是自己做決定，不需打電話給餐廳。\n❌ (C) 「prediction」預測，make a prediction 與訂餐廳無關。\n📚 出處：英文克漏字；動詞搭配詞 make a reservation（訂位）。"
   },
   {
    "n": 49,
@@ -705,7 +708,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "important"
    ],
    "a": 2,
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
+   "exp": "✅ (C) 「available」可取得的、有空的；「no tables available」沒有空位，與後文兩家餐廳「too busy」太忙相呼應。\n❌ (A) 「different」不同的，no tables different 語意不通。\n❌ (B) 「personal」個人的，與訂位客滿的情境無關。\n❌ (D) 「important」重要的，no tables important 不合文意。\n📚 出處：英文克漏字；形容詞 available（可用的、有空位的）後置修飾名詞。"
   },
   {
    "n": 50,
@@ -719,7 +723,8 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "magical"
    ],
    "a": 0,
-   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night.",
+   "exp": "✅ (A) 「anxious」焦慮的；訂不到位子、在屋裡踱步（pacing around the house），又不知道該去哪裡，心情自然是焦急不安。\n❌ (B) 「colorful」色彩繽紛的，用來形容物品而非人的心情。\n❌ (C) 「expensive」昂貴的，形容價格，不能形容 Kevin 的感受。\n❌ (D) 「magical」神奇的，與焦急踱步的情境相反。\n📚 出處：英文克漏字；情緒形容詞（anxious）與 feel + 形容詞句型。"
   }
  ]
 };
