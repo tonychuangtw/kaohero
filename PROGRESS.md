@@ -5,8 +5,8 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: ⏸ 10/05 01:44 帳號 5 小時額度 81%（台北 03:09 重置）→ essay-ref-pua、essay-ref-fig 用停止記號收掉（批與批之間停）。
-　**03:14 喚醒後照原本兩支重開**（先 systemctl --user reset-failed）：
+NEXT_ACTION: ▶ 10/05 03:14 額度重置，essay-ref-pua、essay-ref-fig 兩支已重開、第 1 批都寫進去了（01:44 曾因 5 小時額度暫停）。
+　沒在跑就照下面兩行重開（先 systemctl --user reset-failed）：
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig
 　剩：申論 warn 題 0/2 片 2,109、1/2 片 1,789（共 3,898；約 410 題／時），寫完就改 done。
@@ -176,7 +176,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-05 01:46 台北（5 小時額度暫停，03:14 重開兩支申論批次）
+UPDATED: 2026-10-05 03:16 台北（申論 warn 題兩支批次重開，剩約 3,890 題）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
