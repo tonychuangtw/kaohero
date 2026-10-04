@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "remodeled"
    ],
    "a": 2,
-   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”",
+   "exp": "✅ (C) 「destroyed」摧毀。前後文說 1960 年一場火災「燒毀」了存放木製玩具的倉庫，創辦人才決定全力改做塑膠積木，語意最通順。\n❌ (A) 「offered」提供；火災不會「提供」倉庫，語意不通。\n❌ (B) 「enriched」使豐富；火災讓倉庫變豐富不合邏輯。\n❌ (D) 「remodeled」改建；改建是人為行為，主詞是火災不合理，也無法解釋為何轉而專做塑膠積木。\n📚 出處：英文克漏字（動詞語意與上下文因果）"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "violence"
    ],
    "a": 3,
-   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”",
+   "exp": "✅ (D) 「violence」暴力。空格與 sex（性）、political viewpoints（政治立場）、controversial topics（爭議話題）並列，都是公司刻意避開、以維持「安全」形象的敏感元素，暴力最符合。\n❌ (A) 「care」關懷；屬正面特質，不是需要避開的話題。\n❌ (B) 「flattery」奉承；與性、政治等爭議主題不同類。\n❌ (C) 「patience」耐心；正面特質，與「安全形象」不衝突。\n📚 出處：英文克漏字（名詞語意與並列結構）"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "Nevertheless"
    ],
    "a": 3,
-   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”",
+   "exp": "✅ (D) 「Nevertheless」然而、儘管如此。前句說公司刻意經營安全形象，後句說這個形象近年反而成了問題，前後語意轉折，需用表讓步轉折的連接副詞。\n❌ (A) 「Rarely」很少；為否定意味副詞，放句首須倒裝，且不表轉折。\n❌ (B) 「Hopefully」但願；表期望，與後文「成了問題」不符。\n❌ (C) 「Absolutely」絕對地；表強調，無法連接前後相反的語意。\n📚 出處：英文克漏字（轉折連接副詞）"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "take advantage of"
    ],
    "a": 1,
-   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”",
+   "exp": "✅ (B) 「engage in」從事、參與。句意為孩子們受媒體中成人話題影響，越來越「從事」較像青少年的休閒活動，因此安全形象成了問題。\n❌ (A) 「run away」逃跑；不及物片語，後面不能直接接活動名詞。\n❌ (C) 「get rid of」擺脫；孩子擺脫青少年活動與「受成人話題影響」的因果相反。\n❌ (D) 「take advantage of」利用；語意不自然，也無法說明孩子興趣轉向。\n📚 出處：英文克漏字（片語動詞）"
   },
   {
    "n": 45,
@@ -643,7 +647,8 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "progressive"
    ],
    "a": 1,
-   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”",
+   "exp": "✅ (B) 「childish」幼稚的。對想表現得像青少年的「tween」（約 9～12 歲）孩子來說，「安全」的形象很容易被等同於「幼稚」，正呼應前文形象成為問題。\n❌ (A) 「heroic」英勇的；正面形容，不會造成困擾。\n❌ (C) 「anxious」焦慮的；與安全形象無關。\n❌ (D) 「progressive」進步的；與「安全、保守」的形象相反，不合文意。\n📚 出處：英文克漏字（形容詞語意與文章主旨）"
   },
   {
    "n": 46,
