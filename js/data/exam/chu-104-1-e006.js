@@ -589,7 +589,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "pointing"
    ],
    "a": 1,
-   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps.",
+   "exp": "✅ (B) 「set out」意為「出發、動身」，Before setting out 指「出發之前」，介系詞 before 後接動名詞，符合推輪椅出門前要先確認乘坐者坐穩的語意。\n❌ (A) 「reach out」是「伸出手、主動聯繫」，與出發前的準備無關。\n❌ (C) 「stretch out」是「伸展、伸直身體」，不符合推輪椅出門的情境。\n❌ (D) 「point out」是「指出」，後面需接受詞，語意也不通。\n📚 出處：英文片語動詞－set out（出發）"
   },
   {
    "n": 42,
@@ -603,7 +604,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "trip"
    ],
    "a": 0,
-   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps.",
+   "exp": "✅ (A) 「drag」作不及物動詞指「拖在地上、拖行」，腳若沒放穩在踏板上就會拖到地面，so that her feet will not drag on the ground 語意通順。\n❌ (B) 「pull」是「拉」，通常需接受詞，腳不會自己「拉」在地面上。\n❌ (C) 「walk」是「走路」，坐輪椅的人腳放在地上走與題意不符。\n❌ (D) 「trip」是「絆倒」，常用 trip over something，不會說 trip on the ground 描述腳拖地。\n📚 出處：英文詞彙－動詞辨義（drag／pull／trip）"
   },
   {
    "n": 43,
@@ -617,7 +619,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "although"
    ],
    "a": 2,
-   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps.",
+   "exp": "✅ (C) 「in case」意為「以防、萬一」，You should never go too fast in case bumps appear 表示「不要推太快，以防路上出現顛簸」，符合預防的語意。\n❌ (A) 「if so」意為「如果是這樣的話」，是副詞片語，不能直接連接後面的子句。\n❌ (B) 「and then」表示「然後」，時間先後關係，無法說明不能推太快的理由。\n❌ (D) 「although」表示讓步「雖然」，與前句「不要太快」語意不相承。\n📚 出處：英文文法－連接詞（in case 表預防）"
   },
   {
    "n": 44,
@@ -631,7 +634,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "game"
    ],
    "a": 2,
-   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps.",
+   "exp": "✅ (C) 「shoe laces」（shoelaces）是「鞋帶」，tie his tennis shoe laces 指「綁網球鞋的鞋帶」，與 tie（綁）搭配正確。\n❌ (A) 「ball」球沒有鞋帶，tennis ball laces 不成立。\n❌ (B) 「racket」球拍有線（strings）而非 laces，也不會停下來「綁」。\n❌ (D) 「game」是比賽，沒有可以綁的帶子。\n📚 出處：英文詞彙－名詞搭配（tie shoelaces）"
   },
   {
    "n": 45,
@@ -645,7 +649,8 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "heavy"
    ],
    "a": 1,
-   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps.",
+   "exp": "✅ (B) 「come to a sudden stop」意為「突然停下」，前文說有人突然停在前面或幼童闖入路線，推輪椅的人只好緊急煞停，語意吻合。\n❌ (A) 「later」是副詞／形容詞比較級，a later stop 不合文意。\n❌ (C) 「false」是「錯誤的、假的」，a false stop 不符緊急停下的情境。\n❌ (D) 「heavy」是「沉重的」，不與 stop 搭配表示突然停下。\n📚 出處：英文詞彙－固定搭配（come to a sudden stop）"
   },
   {
    "n": 46,
