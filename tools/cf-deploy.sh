@@ -45,7 +45,7 @@ fi
 mkdir -p "$STAGE"
 rsync -a --delete \
   --exclude .git --exclude tools --exclude docs --exclude test --exclude 'img/q' \
-  --exclude '*.md' --exclude CNAME --exclude node_modules \
+  --exclude '*.md' --exclude CNAME --exclude node_modules --exclude .wrangler --exclude .gitignore \
   ./ "$STAGE/"
 files=$(find "$STAGE" -type f | wc -l)
 if [ "$files" -ge 19500 ]; then log "🔴 檔案數 $files 逼近 Pages 2 萬上限，停止部署"; exit 1; fi
