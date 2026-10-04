@@ -59962,7 +59962,7 @@ window.APP_EXAMS = [
   "subjName": "國文",
   "label": "103 年　二等考試　國文",
   "n": 10,
-  "exp": 8,
+  "exp": 10,
   "mins": 30
  },
  {
