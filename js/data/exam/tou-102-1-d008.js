@@ -1007,7 +1007,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Los mayas."
    ],
    "a": 1,
-   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876.",
+   "exp": "✅ (B) 文章開頭說「los aztecas comienzan consumiéndolo en forma de papilla o como bebida」，意思是阿茲特克人最早開始食用巧克力，做成糊狀或加蜂蜜、肉桂調味的飲料。\n❌ (A) 西班牙人是後來把巧克力帶到歐洲的人（llega a través de los españoles），不是最早食用者。\n❌ (C) 歐洲人要到加了糖之後才為巧克力瘋狂，時間更晚。\n❌ (D) 文中沒有提到馬雅人（los mayas），不能依據本文選擇。\n📚 出處：西班牙語閱讀測驗：巧克力的歷史（細節理解，comenzar + 現在分詞「開始做某事」）"
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "A través de la Revolución Industrial."
    ],
    "a": 1,
-   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876.",
+   "exp": "✅ (B) 文中說「Hasta Europa llega a través de los españoles」，即巧克力是「經由西班牙人」傳到歐洲；「a través de」意為「透過、經由」。\n❌ (A) 阿茲特克人是最早食用者，文中沒說是他們把巧克力帶到歐洲。\n❌ (C) 「由歐洲人帶到歐洲」語意空泛，文中明確指的是西班牙人。\n❌ (D) 工業革命是讓巧克力能快速加工的時期，與傳入歐洲的途徑無關。\n📚 出處：西班牙語閱讀測驗：巧克力的歷史（細節理解，a través de「經由」）"
   },
   {
    "n": 73,
@@ -1035,7 +1037,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Después de que los españoles toman mucho."
    ],
    "a": 2,
-   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876.",
+   "exp": "✅ (C) 文中說「le añaden azúcar y es cuando Europa se vuelve loca por el chocolate」，即加了糖之後歐洲才為巧克力瘋狂；「volverse loco por」意為「對…著迷」。\n❌ (A) 「不太好賣」（no se comercializa muy bien）是一開始的情況，正好相反。\n❌ (B) 文中完全沒提到廣告（anuncios）。\n❌ (D) 文中沒說是因為西班牙人大量食用才受歡迎，關鍵是加糖。\n📚 出處：西班牙語閱讀測驗：巧克力的歷史（細節理解，volverse loco por「為…瘋狂」）"
   },
   {
    "n": 74,
@@ -1049,7 +1052,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Cuando existen las variedades de chocolate."
    ],
    "a": 0,
-   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876.",
+   "exp": "✅ (A) 文中說「Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente」，即工業革命來臨後，啟用了能快速加工巧克力的機器。\n❌ (B) 文中沒有提到快速運輸（transporte rápido）。\n❌ (C) 多媒體通訊（comunicación multimedia）與本文無關。\n❌ (D) 文中沒有談到巧克力的種類（variedades）。\n📚 出處：西班牙語閱讀測驗：巧克力的歷史（細節理解，poner en marcha「啟動、開始運作」）"
   },
   {
    "n": 75,
@@ -1063,7 +1067,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "En la actualidad."
    ],
    "a": 2,
-   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876.",
+   "exp": "✅ (C) 文末說「Las tabletas…no llegan al mercado hasta 1876」，「no…hasta」意為「直到…才」，所以片狀巧克力是從 1876 年起（a partir de 1876）才上市。\n❌ (A) 工業革命先帶來加工機器，片狀巧克力是之後的 1876 年才出現，不是在工業革命之前。\n❌ (B) 「no…hasta 1876」表示 1876 年以前沒有上市，與「1876 年以前」相反。\n❌ (D) 文中說「tal y como son ahora」是指形狀和現在一樣，但開始時間是 1876 年，不是現在才開始。\n📚 出處：西班牙語閱讀測驗：巧克力的歷史（no…hasta「直到…才」句型）"
   },
   {
    "n": 76,
@@ -1077,7 +1082,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Por la inteligencia de sus poblaciones y la complejidad de sus culturas."
    ],
    "a": 1,
-   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual.",
+   "exp": "✅ (B) 文章第一句「el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas」，即美洲世界的特色是人種多元、文化複雜。\n❌ (A) 「簡單」（simplicidad）與原文的「多元、複雜」相反。\n❌ (C) 文中沒有提到人民的親切（amabilidad）。\n❌ (D) 文中沒有提到人民的聰明（inteligencia）。\n📚 出處：西班牙語閱讀測驗：加勒比海的人種與音樂（細節理解，caracterizarse por「以…為特色」）"
   },
   {
    "n": 77,
@@ -1091,7 +1097,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Se entremezclan las poblaciones de origen africano, amerindio y europeo."
    ],
    "a": 3,
-   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual.",
+   "exp": "✅ (D) 文中說加勒比海地區「las poblaciones de origen africano, amerindio y europeo se entremezclan」，即非洲、美洲原住民與歐洲血統的人口彼此交融；「entremezclarse」意為「相互混合」。\n❌ (A) 文中沒提到亞洲人，也漏了非洲與美洲原住民。\n❌ (B) 只講非洲與歐洲，漏了美洲原住民（amerindio）。\n❌ (C) 只講美洲，與文中三種來源混合不符。\n📚 出處：西班牙語閱讀測驗：加勒比海的人種與音樂（細節理解，de origen「源自…」）"
   },
   {
    "n": 78,
@@ -1105,7 +1112,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "En la etnia."
    ],
    "a": 1,
-   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual.",
+   "exp": "✅ (B) 文中說「en Trinidad y Tobago nació el calipso」，即卡利普索（calypso）音樂誕生於千里達及托巴哥，以敲擊小油桶發出連續鼓聲著稱。\n❌ (A) 「每座島」是指各島發展出自己的風格，不是卡利普索的發源地。\n❌ (C) 多明尼加共和國是梅倫格（merengue）的發源地。\n❌ (D) 「族群」（etnia）不是地點，文中說的是各島依族群起源發展風格。\n📚 出處：西班牙語閱讀測驗：加勒比海的人種與音樂（細節理解，nacer「誕生」）"
   },
   {
    "n": 79,
@@ -1119,7 +1127,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "En cada isla."
    ],
    "a": 2,
-   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual.",
+   "exp": "✅ (C) 文中說「En la República Dominicana tiene su origen el merengue」，即梅倫格起源於多明尼加共和國；「tener su origen en」意為「起源於」。\n❌ (A) 千里達及托巴哥是卡利普索的發源地。\n❌ (B) 文中沒有提到海地（Haití）。\n❌ (D) 「每座島」各有自己的風格，不是梅倫格的特定起源地。\n📚 出處：西班牙語閱讀測驗：加勒比海的人種與音樂（細節理解，tener su origen en「起源於」）"
   },
   {
    "n": 80,
@@ -1133,7 +1142,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "No se mezcla con otros instrumentos."
    ],
    "a": 2,
-   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual.",
+   "exp": "✅ (C) 文中說梅倫格是「ritmo marcado por la tambora」，即以 tambora（雙面鼓）打出節奏的音樂。\n❌ (A) 文中形容它是「música sensual」（感性奔放的音樂），沒有說它傳達平靜的訊息。\n❌ (B) 文中沒有提到小提琴（violín）。\n❌ (D) 文中說後來加入了沙鈴（maracas）、牛鈴（cencerros）等樂器，與「不混入其他樂器」相反。\n📚 出處：西班牙語閱讀測驗：加勒比海的人種與音樂（細節理解，marcado por「由…標出節奏」）"
   }
  ]
 };
