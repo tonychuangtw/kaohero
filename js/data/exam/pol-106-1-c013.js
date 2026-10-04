@@ -631,7 +631,8 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
     "signs"
    ],
    "a": 1,
-   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire.",
+   "exp": "✅ (B) 「fatalities」意為「死亡人數」。「fire fatalities」指火災死亡人數，全句為「全球約 80% 的火災死亡人數，是由起火於住宅的火災造成」，與下文「住宅是居住者最脆弱之處」語意相符。\n❌ (A) 「ways」意為「方法、途徑」，「fire ways」不成詞，無法說明「80% 是住宅火災造成」的統計對象。\n❌ (C) 「weights」意為「重量」，「火災重量」與統計比例、公共政策問題的語意無關。\n❌ (D) 「signs」意為「跡象、標誌」，「火災跡象的 80% 由住宅火災造成」語意不通。\n📚 出處：克漏字—名詞語意判斷，消防常用詞彙「fire fatalities（火災死亡人數）」。"
   },
   {
    "n": 45,
@@ -645,7 +646,8 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
     "potential"
    ],
    "a": 0,
-   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire.",
+   "exp": "✅ (A) 「residential」意為「住宅的」，「residential occupancy」為消防法規用語「住宅類場所」，呼應首句「dwellings（住宅）」與下句「homes（家）」，前後文一致。\n❌ (B) 「commercial」意為「商業的」，商業場所與本段討論的住宅火災主題不符。\n❌ (C) 「presidential」意為「總統的」，與火災發生的場所類型無關，屬形近字干擾。\n❌ (D) 「potential」意為「潛在的」，「潛在的場所」語意空泛，無法對應文中的住宅主題。\n📚 出處：克漏字—形容詞語意與上下文呼應，消防用語「residential occupancy（住宅類場所）」。"
   },
   {
    "n": 46,
@@ -659,7 +661,8 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
     "protection"
    ],
    "a": 3,
-   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire.",
+   "exp": "✅ (D) 「protection」意為「保護、防護」，「fire protection」即「火災防護」。句意為「住宅向來是居住者最脆弱、且提供最少防火保護的地方」，與「most vulnerable」相呼應。\n❌ (A) 「infidelity」意為「不忠、背叛」，「火災不忠」語意不通。\n❌ (B) 「reliance」意為「依賴」，「提供火災依賴給居住者」不合邏輯，且 offer 的受詞應為可提供之物。\n❌ (C) 「encouragement」意為「鼓勵」，「提供火災鼓勵」與住宅防火的語意無關。\n📚 出處：克漏字—名詞語意判斷，消防常用詞彙「fire protection（火災防護）」。"
   },
   {
    "n": 47,
@@ -673,7 +676,8 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
     "extinguished"
    ],
    "a": 1,
-   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire.",
+   "exp": "✅ (B) 「accidental」意為「意外的」，「accidental dwelling fire」指「意外發生的住宅火災」，相對於縱火，為消防統計常見分類；句意為家具、建材改變使意外住宅火災的危害提高。\n❌ (A) 「incidental」意為「附帶的、次要的」，修飾火災語意不當。\n❌ (C) 「coincidental」意為「巧合的」，「巧合的住宅火災」不合消防用語與文意。\n❌ (D) 「extinguished」意為「已撲滅的」，已撲滅的火災不會產生增加的危害，與句意矛盾。\n📚 出處：克漏字—形容詞語意辨析（形近字 incidental／accidental／coincidental），消防用語「accidental fire（意外火災）」。"
   },
   {
    "n": 48,
