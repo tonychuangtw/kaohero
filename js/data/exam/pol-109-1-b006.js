@@ -645,7 +645,8 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "fantastic"
    ],
    "a": 0,
-   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter.",
+   "exp": "✅ (A) 「linguistic」意為「語言的」。本句說使用口譯員的方式取決於兒童的需求與「語言能力（linguistic capabilities）」，與口譯員協助溝通的主題相符。\n❌ (B) 「dramatic」意為「戲劇性的」，「戲劇性的能力」與是否需要口譯員無關。\n❌ (C) 「chaotic」意為「混亂的」，不能用來修飾兒童的能力，語意不通。\n❌ (D) 「fantastic」意為「極好的；奇幻的」，與口譯需求無關。\n📚 出處：克漏字字彙題－形容詞語意辨析（linguistic capabilities 語言能力）"
   },
   {
    "n": 46,
@@ -659,7 +660,8 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "classification"
    ],
    "a": 0,
-   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter.",
+   "exp": "✅ (A) 「recognition」意為「認知、體認」。「requires the recognition that…」＝需要體認到「你訪談的是兒童而不是口譯員」，後接 that 子句說明認知的內容，語意最順。\n❌ (B) 「adoration」意為「崇拜、愛慕」，與「體認訪談對象」的語意不合。\n❌ (C) 「imitation」意為「模仿」，句意不通。\n❌ (D) 「classification」意為「分類」，無法帶出後面「你訪談的是兒童」這個認知。\n📚 出處：克漏字字彙題－名詞語意辨析（recognition that 子句：體認到…）"
   },
   {
    "n": 47,
@@ -673,7 +675,8 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "fourth"
    ],
    "a": 0,
-   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter.",
+   "exp": "✅ (A) 「first」。依本卷官方答案，此處指提問時要直接對兒童說話、以親近的方式稱呼他，例句「Tommy, rather than Tom Peterson」即用名字（first name）稱呼，而不是用全名或第三人稱談論他，呼應下句「不要向口譯員問有關兒童的事」。\n❌ (B) 「second」第二人稱雖也是直接對話，但非本題官方答案，且例句重點在用名字稱呼兒童。\n❌ (C) 「third」第三人稱是「談論他」，正是本文要避免的「ask the interpreter about the child」。\n❌ (D) 「fourth」英文文法沒有第四人稱，不成立。\n📚 出處：克漏字字彙題－司法訪談兒童時透過口譯員直接稱呼兒童之原則（序數詞 first 的用法）"
   },
   {
    "n": 48,
@@ -687,7 +690,8 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "or else"
    ],
    "a": 0,
-   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter.",
+   "exp": "✅ (A) 「as if」意為「彷彿、好像」。「phrase your question as if the child can understand you」＝措辭時要好像兒童聽得懂你一樣，也就是直接對兒童發問，與前句「不要問口譯員關於兒童的事」一致。\n❌ (B) 「even though」意為「即使、雖然」，表讓步，與前文不構成讓步關係。\n❌ (C) 「except for」意為「除了…之外」，是介系詞片語，後面不能接完整子句。\n❌ (D) 「or else」意為「否則」，表示不這樣做的後果，句意不通。\n📚 出處：克漏字連接詞題－as if（彷彿）引導的副詞子句"
   },
   {
    "n": 49,
@@ -701,7 +705,8 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "evaluate"
    ],
    "a": 0,
-   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter.",
+   "exp": "✅ (A) 「address」意為「對…說話、向…提問」。即使要求澄清回答，也應該一直「對兒童說話，而非對口譯員說話」，與文中前面「address the child」的用法前後呼應。\n❌ (B) 「identify」意為「辨認、確認身分」，與「詢問澄清」的情境不合。\n❌ (C) 「order」意為「命令」，訪談兒童不應命令，語意不符。\n❌ (D) 「evaluate」意為「評估」，與「提問時對誰說話」的重點無關。\n📚 出處：克漏字字彙題－動詞語意辨析（address someone：向某人說話）"
   },
   {
    "n": 50,
