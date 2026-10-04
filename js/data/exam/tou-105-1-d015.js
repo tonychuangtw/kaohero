@@ -515,7 +515,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "waktu"
    ],
    "a": 3,
-   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba.",
+   "exp": "✅ (D) 「menghabiskan banyak waktu」意為「花費很多時間」，前句說因為路途遙遠，所以在路上要耗掉很多「時間」，waktu 是不可數的「時間」概念，可直接接在 banyak 後面。\n❌ (A) 「selama」是介系詞「在……期間」，後面要接時間名詞，不能單獨當受詞放在 banyak 之後。\n❌ (B) 「beberapa」意為「幾個、若干」，是數量詞，與前面的 banyak 重複，句子不通。\n❌ (C) 「jam」是「小時、鐘點」，雖與時間有關，但「banyak jam」不是自然說法，表達「花很多時間」要用 waktu。\n📚 出處：印尼語語法—克漏字時間詞；常用句型 menghabiskan waktu（花費時間）"
   },
   {
    "n": 35,
@@ -529,7 +530,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "setelah"
    ],
    "a": 2,
-   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba.",
+   "exp": "✅ (C) 「sebelum berangkat」意為「出發之前」，句意是「因此在出發前我們總會先規劃回鄉路上的活動」，先規劃再出發，時間順序合理。\n❌ (A) 「kemudian」是「然後、接著」，屬連接副詞，不能直接修飾 berangkat 表示「出發前」。\n❌ (B) 「sekarang」是「現在」，「現在出發」與「總是事先規劃」的語意矛盾。\n❌ (D) 「setelah berangkat」是「出發之後」，出發後才規劃行程不符「事先計畫」的文意。\n📚 出處：印尼語語法—時間連接詞 sebelum／setelah／kemudian 的用法"
   },
   {
    "n": 36,
@@ -543,7 +545,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "sekarang"
    ],
    "a": 0,
-   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba.",
+   "exp": "✅ (A) 「kemudian」意為「然後、接著」，用來連接先後兩個動作：先規劃活動，「接著」再依照規劃去做事，符合敘述順序。\n❌ (B) 「sebelum」是「在……之前」，後面要接名詞或子句表示時間點，放在此處變成「在我們按計畫做事之前」，語意顛倒。\n❌ (C) 「setelah」是「在……之後」，需搭配完整時間子句，此處句構不完整且與逗號後的連接關係不合。\n❌ (D) 「sekarang」是「現在」，與「總是（selalu）」描述的慣例動作時態不符。\n📚 出處：印尼語語法—時間連接詞 kemudian（然後）表示動作先後"
   },
   {
    "n": 37,
@@ -557,7 +560,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "yang lalu"
    ],
    "a": 3,
-   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba.",
+   "exp": "✅ (D) 「tahun yang lalu」意為「去年、過去那一年」，「Berbeda dengan tahun yang lalu」即「與去年不同」，對比下文「這次假期我們打算順道去西爪哇景點」。\n❌ (A) 「tahun sekarang」不是慣用說法，「今年」應說 tahun ini，且與「這次」不構成對比。\n❌ (B) 「tahun kemudian」意指「之後的年份」，與描述過去經驗的對比語境不合。\n❌ (C) 「tahun sebelum」語法不完整，sebelum 後面需接名詞或子句，「前一年」應說 tahun sebelumnya。\n📚 出處：印尼語語法—時間表達 yang lalu（過去的）、tahun ini／tahun depan"
   },
   {
    "n": 38,
@@ -571,7 +575,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "sebelum"
    ],
    "a": 1,
-   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba.",
+   "exp": "✅ (B) 「setelah itu」意為「在那之後」，句意是「先順道去西爪哇幾個景點，之後才繼續上路」，itu 指前面的觀光行程，且與後面的 baru（才）呼應。\n❌ (A) 「setelah」單用是連接詞「在……之後」，後面必須接名詞或子句，此處缺少受詞。\n❌ (C) 「yang lalu」是「過去的」，用來修飾時間名詞，無法連接兩個先後動作。\n❌ (D) 「sebelum」是「在……之前」，與「先去景點再繼續旅程」的先後順序相反。\n📚 出處：印尼語語法—連接詞 setelah itu（之後）與 baru（才）的搭配"
   },
   {
    "n": 39,
@@ -1143,7 +1148,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    "needfig": true,
    "fig": "img/q/105040_412_0417_76.webp",
    "a": 1,
-   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana.",
+   "exp": "✅ (B) 題目問「我從什麼時候開始喜歡去動物園」，文章首句「Sejak masa kanak-kanak（從孩童時期起）」就常被父母帶去動物園，故答「從小就喜歡去動物園」。\n❌ (A) 「我不喜歡去動物園」與全文表達對動物園的喜愛相反。\n❌ (C) 「Sejak saya bersekolah（從上學開始）」文中未提及。\n❌ (D) 「Sejak saya pindah ke Taipei（從搬到台北開始）」文中沒有搬家的敘述。\n📚 出處：印尼語閱讀測驗—細節理解（sejak masa kanak-kanak 從小時候起）"
   },
   {
    "n": 77,
@@ -1159,7 +1165,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    "needfig": true,
    "fig": "img/q/105040_412_0417_77.webp",
    "a": 3,
-   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana.",
+   "exp": "✅ (D) 文中說小時候最喜歡斑馬（zebra）與長頸鹿（jerapah），總是「nomor satukan untuk dikunjungi dulu（列為第一優先先去看）」，故答長頸鹿和斑馬。\n❌ (A) 「被父母帶去看電影」與題目問的動物無關，文中也未提及。\n❌ (B) 「macan dan singa（老虎和獅子）」等猛獸文中沒有提到。\n❌ (C) 「kuda dan burung kuntul（馬和白鷺）」中白鷺只是園內眾多動物之一，馬未提及，都不是優先參觀的對象。\n📚 出處：印尼語閱讀測驗—細節理解；動物詞彙 jerapah（長頸鹿）、zebra（斑馬）"
   },
   {
    "n": 78,
@@ -1175,7 +1182,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    "needfig": true,
    "fig": "img/q/105040_412_0417_78.webp",
    "a": 2,
-   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana.",
+   "exp": "✅ (C) 文中「diajak … oleh kedua orang tua saya」意為「被我的雙親帶去」，kedua orang tua 指父親和母親，即「ayah dan ibu」。\n❌ (A) 「Pergi sendirian saja（自己一個人去）」與文中由父母帶去不符。\n❌ (B) 「從未被帶去過動物園」與「sering diajak（常被帶去）」矛盾。\n❌ (D) 「tetangga（鄰居）」文中沒有提及。\n📚 出處：印尼語閱讀測驗—細節理解；被動句 diajak oleh（被……帶去）、orang tua（父母）"
   },
   {
    "n": 79,
@@ -1205,7 +1213,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    "needfig": true,
    "fig": "img/q/105040_412_0417_80.webp",
    "a": 0,
-   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana.",
+   "exp": "✅ (A) 文章末句「Tua muda dan anak-anak semua suka ke sana」意為「老老少少和小孩都喜歡去那裡」，選項 A 與此一致。\n❌ (B) 「Hanya orang tua（只有老人／長輩）」用了 hanya（只有）限縮範圍，與「大家都喜歡」不符。\n❌ (C) 「Anak anak saja（只有小孩）」同樣限縮範圍，與文意不合。\n❌ (D) 「我的孩子不喜歡去」文中未提及作者的孩子，也與「大家都喜歡」相反。\n📚 出處：印尼語閱讀測驗—細節理解；詞彙 tua muda（老少）、hanya／saja（只有）"
   }
  ]
 };
