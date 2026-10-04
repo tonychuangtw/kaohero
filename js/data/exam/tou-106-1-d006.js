@@ -1007,7 +1007,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
     "pour"
    ],
    "a": 3,
-   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités.",
+   "exp": "✅ (D) 「travailler pour une agence」意思是「受僱於／替某家旅行社工作」。介系詞 pour 表示為誰效力、受誰僱用，後面接雇主（une agence ou un organisateur de voyages），最符合文意。\n❌ (A) dans 表示「在…裡面」，travailler dans 後面通常接行業或場所（dans le tourisme、dans un bureau），本句後面接的是雇主「旅行社或旅遊業者」，強調為其工作，用 pour 較恰當。\n❌ (B) à 表示地點（travailler à Paris）或在某單位（à la banque），不用來接「une agence ou un organisateur」這類受僱對象。\n❌ (C) sur 意為「在…上面」或「關於」，travailler sur 是「從事／研究某題目」（travailler sur un projet），不能表示受僱於某公司。\n📚 出處：法語介系詞用法：travailler pour（受僱於）與 travailler dans／à／sur 的區別"
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
     "demander"
    ],
    "a": 1,
-   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités.",
+   "exp": "✅ (B) résoudre 意為「解決」，「s'efforcer de résoudre les différents problèmes」＝努力解決遇到的各種問題，後面舉例班機出狀況時安排旅客住宿，正是處理問題，文意通順。\n❌ (A) créer 是「創造、製造」，「努力製造問題」與領隊職責相反。\n❌ (C) partager 是「分享、分擔」，「分享問題」不符合後面「安排旅客住宿」這種處理問題的例子。\n❌ (D) demander 是「要求、詢問」，「努力詢問問題」語意不通，也與後文舉例無關。\n📚 出處：法語動詞搭配：résoudre un problème（解決問題）"
   },
   {
    "n": 73,
@@ -1035,7 +1037,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
     "rattrapé"
    ],
    "a": 0,
-   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités.",
+   "exp": "✅ (A) repoussé 是 repousser 的過去分詞，un vol est repoussé 意為「班機延後／延期」。班機延誤時領隊必須替旅客安排過夜住宿，與前文「prise en charge de l'hébergement」相符。\n❌ (B) resté 是 rester（停留）的過去分詞，rester 以 être 為助動詞，「un vol est resté」語意不完整，也無法說明為何要安排住宿。\n❌ (C) regardé 是「被觀看」，「班機被看」與安排住宿毫無關聯。\n❌ (D) rattrapé 是「被趕上、被追回」，班機被趕上表示順利搭到，不會產生住宿問題。\n📚 出處：法語旅遊用語：vol repoussé／retardé／annulé（班機延後／延誤／取消）"
   },
   {
    "n": 74,
@@ -1049,7 +1052,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
     "combien"
    ],
    "a": 2,
-   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités.",
+   "exp": "✅ (C) dont 用來代替「de＋先行詞」。動詞片語是 dépendre de（隸屬於、依賴），原句為 il dépend de l'agence，故「l'agence dont il dépend」＝「他所隸屬的旅行社」。\n❌ (A) où 代替地點或時間（l'agence où il travaille），但 dépendre 要接介系詞 de，不能用 où。\n❌ (B) laquelle 單獨使用時當直接受詞或主詞，dépendre 需要 de，若用 laquelle 必須寫成 de laquelle，單獨的 laquelle 不合語法。\n❌ (D) combien 是疑問詞「多少」，不能當關係代名詞引導子句。\n📚 出處：法語關係代名詞 dont（dépendre de＋先行詞）"
   },
   {
    "n": 75,
@@ -1063,7 +1067,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
     "concernées"
    ],
    "a": 0,
-   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités.",
+   "exp": "✅ (A) concernant 是 concerner 的現在分詞，作介系詞用，意為「關於、有關」，「des connaissances concernant les villes, régions et pays visités」＝「對所造訪城市、地區與國家的相關知識」。\n❌ (B) concerts 是名詞「音樂會」複數，放在此處語意與語法都不通。\n❌ (C) concernent 是 concerner 的現在式第三人稱複數變位，前面沒有主詞與關係代名詞（如 qui），不能直接接在名詞後。\n❌ (D) concernées 是過去分詞陰性複數，表示「被涉及的」，修飾 connaissances 時意為「被牽涉的知識」，且後面無法直接接受詞 les villes，語法不合。\n📚 出處：法語現在分詞作介系詞用法：concernant（＝au sujet de，關於）"
   },
   {
    "n": 76,
