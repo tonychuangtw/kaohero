@@ -17,7 +17,11 @@ NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題）�
 　　　 systemd-run --user --unit essay-ref-<tag> -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=<0|1>/2 -E ESSAY_TAG=<tag> /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　　 ✅ pha-111-1-ph3 查過：09/24 是 claude 路徑暫時不見，第三次就寫成功，已清掉 exp-worker.failed
 　　✅④ 選擇題考卷靜態頁其實早就有（tools/build-pages.js，exam/<pid>/ 4,431 頁、sitemap，worker 寫完自動重產）。
-　　　 20:05 改提議申論每科一頁（題目全文＋每題只放【破題】，約 +25MB）等 Tony 回（msg 1104）。
+　　　 20:05 改提議申論每科一頁（題目全文＋每題只放【破題】）→ 20:28 Tony「好」。tools/build-essay-pages.js 寫好（essay/<f>/、essay/index.html、
+　　　 sitemap-essay.xml；robots.txt 還要加一行 Sitemap），試算 1,495 頁 56MB，**未 --write、未上線**。
+　　　 20:29 Tony 問 GitHub Pages 快滿怎麼辦 → 建議搬 Cloudflare Pages（免費、無 1GB 上限、限 2 萬檔；現 15,705 檔＋申論 1,496）
+　　　 ＋題目圖片 img/q 5,216 張搬 R2（免費 10GB），等 Tony 開 Pages＋R2 編輯權限的 API token（~/.config/cloudflare/kaohero.env 那支只有 DNS）（msg 1109）。
+　　　 上線後要做：essay-ref-batch.sh 每批 set 完跑 build-essay-pages.js --only <key> --write、git add essay/
 　　　 ⚠ GitHub Pages 整站 1GB 上限：10/04 工作樹已約 780MB（img 243M、exam 188M、js/data/essay 143M），加東西前先算容量
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
