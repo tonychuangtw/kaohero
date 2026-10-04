@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "vanishes"
    ],
    "a": 0,
-   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer.",
+   "exp": "✅ (A) 「vary」意為「因…而有所不同」。本段接著說偵查分為被動式（reactive）或主動式（proactive），下一句又以「However, they all go through similar stages」轉折，可知前句是在說偵查程序「因方法不同而各異」，故選 varies。\n❌ (B) 「vibrate」意為「振動、顫動」，用來描述物理震動，不能形容偵查程序。\n❌ (C) 「vaporize」意為「蒸發、汽化」，屬化學物理用語，語意不合。\n❌ (D) 「vanish」意為「消失」，偵查程序並未消失，且與後句「都經過相似階段」無法銜接。\n📚 出處：英文動詞字義辨析（vary、vibrate、vaporize、vanish）；警察專業英文：犯罪偵查程序（被動式與主動式偵查）。"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "However"
    ],
    "a": 3,
-   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer.",
+   "exp": "✅ (D) 「However」意為「然而」，表示轉折。前句說偵查依被動式或主動式方法而不同，本句說「它們都經過相似的階段」，前後語意相反，需用轉折連接詞。\n❌ (A) 「Therefore」意為「因此」，表因果；「方法不同」並不會導致「階段相似」，因果不成立。\n❌ (B) 「As a result」意為「結果是」，同樣表因果，語意不合。\n❌ (C) 「As a matter of fact」意為「事實上」，用於補充或強化前句，無法表現前後對比。\n📚 出處：英文轉折連接詞（However）與因果連接詞（Therefore、As a result）之區辨；警察專業英文：犯罪偵查程序。"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "out of necessity"
    ],
    "a": 1,
-   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer.",
+   "exp": "✅ (B) 「from the outset」意為「從一開始」。句意為「某些案件一開始就知道犯罪人身分，因此偵查很快進入嫌疑人管理階段」，「一開始就知道」才能解釋為何「很快」進入下一階段。\n❌ (A) 「in the end」意為「最後」，若最後才知道身分，就不會「很快」進入嫌疑人管理階段，前後矛盾。\n❌ (C) 「without doubt」意為「毫無疑問地」，強調確定程度而非時間點，無法呼應「quickly」。\n❌ (D) 「out of necessity」意為「出於必要」，與得知犯罪人身分的時間無關，語意不通。\n📚 出處：英文時間副詞片語（from the outset、in the end）；警察專業英文：犯罪偵查程序（嫌疑人管理階段）。"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "Since then"
    ],
    "a": 1,
-   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer.",
+   "exp": "✅ (B) 「In others」即「In other cases」，意為「在其他案件中」。前句以「in some cases」說明有些案件一開始就知道犯罪人身分，本句對照說明另一些案件可能永遠查不出身分，形成「in some cases…; in others…」的對比句型。\n❌ (A) 「At last」意為「終於」，表示長久等待後的結果，無法與前句「in some cases」形成對照。\n❌ (C) 「For this」意為「為此」，表示目的或原因，與後句「身分可能永遠不知道」無邏輯關係。\n❌ (D) 「Since then」意為「從那時起」，表時間延續，但前文並無特定時間點可承接。\n📚 出處：英文對比句型（in some cases…, in others…）；警察專業英文：犯罪偵查程序。"
   },
   {
    "n": 45,
@@ -643,7 +647,8 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "these"
    ],
    "a": 2,
-   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer.",
+   "exp": "✅ (C) 空格位於「ensure that ___ record, retain and reveal…」的子句中，後面接動詞 record、retain、reveal，需要一個主格代名詞當主詞；they 指前面的 counter staff（櫃台人員）。\n❌ (A) 「their」是所有格，後面必須接名詞，不能直接當子句主詞接動詞。\n❌ (B) 「those」作代名詞時通常指前述的複數事物或接修飾語（those who…），在此指代不明，不如主格 they 自然。\n❌ (D) 「these」是指示詞，多用於指稱事物，指代前面的人（counter staff）時應用人稱代名詞 they。\n📚 出處：英文文法：人稱代名詞的格（主格 they、所有格 their）與 that 子句主詞；警察專業英文：受理報案與證物紀錄保存。"
   },
   {
    "n": 46,
