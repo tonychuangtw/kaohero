@@ -447,7 +447,8 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "used"
    ],
    "a": 3,
-   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company.",
+   "exp": "✅ (D) used 在此是過去分詞，引導省略關係代名詞的形容詞片語「(which is) used to make the screens」，修飾 The glass；句子真正的動詞是後面的 just got tougher，所以空格不能再放一個完整動詞。\n❌ (A) is used 是完整的被動式動詞，填入後句中會出現 is used 與 got 兩個主要動詞，又沒有連接詞或關係代名詞，文法錯誤。\n❌ (B) has used 是主動的現在完成式，語意變成「玻璃使用了…」，主被動顛倒，且同樣造成一句兩個主要動詞。\n❌ (C) was using 是主動的過去進行式，玻璃不會主動「使用」東西，語意不通，也與後面的 got 衝突。\n📚 出處：英文文法；分詞片語（過去分詞作後位修飾，表被動）與關係子句省略。"
   },
   {
    "n": 32,
@@ -461,7 +462,8 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "caution"
    ],
    "a": 0,
-   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company.",
+   "exp": "✅ (A) version 為「版本」，「made a stronger version」指製造商推出更堅固的新版玻璃，與下文「has greatly improved the glass」相呼應。\n❌ (B) extension 為「延伸、延期、擴建」，「更堅固的延伸」不知所指，與產品改良的語境不合。\n❌ (C) admission 為「入場許可、承認」，與製造玻璃產品毫無關係。\n❌ (D) caution 為「謹慎、警告」，是抽象名詞，無法被公司「製造」出來，也不能用 stronger 修飾成產品。\n📚 出處：英文字彙；名詞辨義與產品更新常見說法 a new／stronger version。"
   },
   {
    "n": 33,
@@ -475,7 +477,8 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "instant"
    ],
    "a": 1,
-   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company.",
+   "exp": "✅ (B) difficult 為「困難的」，「more difficult to scratch, crack, or smash」即「更不容易刮傷、破裂或碎掉」，符合玻璃被改良得更堅固的文意；difficult to V 是常見句型。\n❌ (A) precious 為「珍貴的」，「更珍貴去刮傷」語意不通，且 precious 不接不定詞表難易。\n❌ (C) efficient 為「有效率的」，用來形容做事或機器效能，「更有效率地被刮傷」與文意相反。\n❌ (D) instant 為「立即的」，形容時間上的即刻，不能表示玻璃抗刮抗摔的性質。\n📚 出處：英文字彙與句型；形容詞＋不定詞「It is difficult to V」表難易。"
   },
   {
    "n": 34,
@@ -489,7 +492,8 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "collect"
    ],
    "a": 0,
-   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company.",
+   "exp": "✅ (A) survive 作及物動詞為「挺過、經受住」，「survive drops of up to two meters without any signs of damage」指從兩公尺高摔落也毫無損傷，與前文強調更堅固一致。\n❌ (B) destroy 為「摧毀」，玻璃摧毀摔落不合邏輯，且與 without any signs of damage 矛盾。\n❌ (C) support 為「支撐、支持」，用於承受重量或支持某人，不用來表示承受摔落的衝擊。\n❌ (D) collect 為「收集」，與玻璃耐摔的語境完全無關。\n📚 出處：英文字彙；survive 作及物動詞「挺過（災害、衝擊）」的用法。"
   },
   {
    "n": 35,
@@ -503,7 +507,8 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "hesitant"
    ],
    "a": 2,
-   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company.",
+   "exp": "✅ (C) resistant 為「抵抗的、耐…的」，複合形容詞「scratch-resistant」即「耐刮的」，「two times more scratch-resistant」指耐刮程度是其他玻璃的兩倍。\n❌ (A) convenient 為「方便的」，「scratch-convenient」不成詞，語意也不通。\n❌ (B) destructive 為「破壞性的」，與玻璃更耐用的文意相反，也無此複合字。\n❌ (D) hesitant 為「猶豫的」，用來形容人的態度，不能描述材料性質。\n📚 出處：英文字彙；複合形容詞「名詞＋-resistant」（scratch-resistant、water-resistant、heat-resistant）。"
   },
   {
    "n": 36,
