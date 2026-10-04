@@ -16,7 +16,9 @@ NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題）�
 　　　 unit essay-ref-pua（ESSAY_SHARD=0/2）、essay-ref-fig（1/2），紀錄 ~/.claude/essay-ref-{pua,fig}.log。重開：
 　　　 systemd-run --user --unit essay-ref-<tag> -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=<0|1>/2 -E ESSAY_TAG=<tag> /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　　 ✅ pha-111-1-ph3 查過：09/24 是 claude 路徑暫時不見，第三次就寫成功，已清掉 exp-worker.failed
-　　④ 考卷 #/paper hash 路由改一卷一頁靜態頁（SEO）← 下一步
+　　✅④ 選擇題考卷靜態頁其實早就有（tools/build-pages.js，exam/<pid>/ 4,431 頁、sitemap，worker 寫完自動重產）。
+　　　 20:05 改提議申論每科一頁（題目全文＋每題只放【破題】，約 +25MB）等 Tony 回（msg 1104）。
+　　　 ⚠ GitHub Pages 整站 1GB 上限：10/04 工作樹已約 780MB（img 243M、exam 188M、js/data/essay 143M），加東西前先算容量
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
 　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
