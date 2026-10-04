@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
     "available"
    ],
    "a": 3,
-   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
+   "exp": "✅ (D) 「available in both English and Chinese」意為「有中英文兩種版本可供使用」，be available in＋語言是描述書籍、資料提供語言版本的固定用法。\n❌ (A) added 意為「被加入」，「書目被加入中英文」語意不通。\n❌ (B) limited 意為「受限」，說書目「限於中英文」需接 to（limited to），且與前後介紹館藏豐富的語氣不符。\n❌ (C) required 意為「被要求、必需」，「書目被要求是中英文」不合文意。\n📚 出處：英文克漏字－形容詞 available 的用法（be available in＋語言）"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
     "published"
    ],
    "a": 2,
-   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
+   "exp": "✅ (C) 「The library is managed by the duty-free shop」意為「這間圖書館由機場免稅店負責管理」，被動語態 be managed by 表示由誰經營，符合文意。\n❌ (A) opened 意為「被開啟」，「圖書館被免稅店打開」語意不自然。\n❌ (B) checked 意為「被檢查」，與介紹圖書館營運方式的上下文無關。\n❌ (D) published 意為「被出版」，圖書館不能被出版。\n📚 出處：英文克漏字－動詞字義辨析與被動語態（be managed by）"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
     "direction"
    ],
    "a": 2,
-   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
+   "exp": "✅ (C) funding 意為「資金、經費」，「The funding for the project comes from…」說明此計畫經費來自資策會，下一句接著談總花費約 10.2 萬美元，前後呼應。\n❌ (A) basis 意為「基礎、根據」，「計畫的基礎來自政府機構」與下句談經費不連貫。\n❌ (B) reason 意為「理由」，「理由來自某機構」語意不通。\n❌ (D) direction 意為「方向、指導」，與後文談費用無關。\n📚 出處：英文克漏字－名詞字義辨析（funding 資金）與上下文線索"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
     "prepared"
    ],
    "a": 2,
-   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
+   "exp": "✅ (C) be allowed to V 意為「被允許做某事」，「旅客獲准借用設備在機場閱讀電子書，但不能下載」，與後半句 but they cannot 的限制形成對比。\n❌ (A) trying 意為「正在嘗試」，be trying to borrow 表示旅客嘗試借，與後句的規定語氣不合。\n❌ (B) willing 意為「願意」，強調旅客意願，不是在說明館方規定。\n❌ (D) prepared 意為「準備好的」，同樣與「規定可借、不可下載」的對比不符。\n📚 出處：英文克漏字－be allowed to＋原形動詞（被允許）"
   },
   {
    "n": 45,
@@ -645,7 +649,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
    "needfig": true,
    "fig": "img/q/105180_501_0207_45.webp",
    "a": 2,
-   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger.",
+   "exp": "✅ (C) materials 意為「資料、素材」，「they cannot download any materials for their own devices」指旅客不能把電子書等資料下載到自己的裝置。\n❌ (A) medals 意為「獎牌」，無法下載。\n❌ (B) mistakes 意為「錯誤」，下載錯誤語意不通。\n❌ (D) machines 意為「機器」，機器不能被下載。\n📚 出處：英文克漏字－名詞字義辨析（material 資料）"
   },
   {
    "n": 46,
