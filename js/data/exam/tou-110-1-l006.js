@@ -1021,7 +1021,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Le Hollandais."
    ],
    "a": 3,
-   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table.",
+   "exp": "✅ (D) 文中說「le Hollandais, lui, sonne à la porte avec quelques minutes d'avance」（荷蘭人會提早幾分鐘按門鈴），所以四人中荷蘭人最早到。\n❌ (A) 德國人「arrive à l'heure juste」（準時抵達），比提早幾分鐘的荷蘭人晚。\n❌ (B) 義大利人「arrivent systématiquement avec un quart d'heure de retard」，固定遲到一刻鐘。\n❌ (C) 丹麥人和義大利人一樣遲到約 15 分鐘，不可能最先到。\n📚 出處：法語閱讀測驗（歐洲各國作客禮儀：抵達時間 en avance／à l'heure／en retard）"
   },
   {
    "n": 73,
@@ -1035,7 +1036,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Les Danois dînent plus tôt que les Anglais."
    ],
    "a": 1,
-   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table.",
+   "exp": "✅ (B) 文中說西班牙人「le repas n'est pas servi avant 21 heures」（晚上 9 點前不上菜），即晚上 9 點以後才吃晚餐，與選項相符。\n❌ (A) 丹麥人是「vers 19 heures」（晚上 7 點左右）用晚餐，不是 9 點。\n❌ (C) 晚上 7 點左右吃晚餐的是英國人和丹麥人，西班牙人要到 9 點以後。\n❌ (D) 文中英國人與丹麥人都是 7 點左右用餐，並未說丹麥人比英國人早。\n📚 出處：法語閱讀測驗（歐洲各國作客禮儀：晚餐時間 vers／pas avant）"
   },
   {
    "n": 74,
@@ -1049,7 +1051,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Les Suisses."
    ],
    "a": 1,
-   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table.",
+   "exp": "✅ (B) 文中說「En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir」，德國與奧地利人送花前會先拆掉包裝，所以是奧地利人。\n❌ (A) 文中提到英國人的是不握手、用餐時手放桌下，沒提到拆花的包裝。\n❌ (C) 文中提到西班牙人的是晚餐時間晚、見面熱情擁抱，與送花方式無關。\n❌ (D) 文中提到瑞士人的是愛乾淨、不喜歡桌上有用過的餐巾，與送花無關。\n📚 出處：法語閱讀測驗（歐洲各國作客禮儀：送花習俗 retirer l'emballage）"
   },
   {
    "n": 75,
@@ -1063,7 +1066,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "eadbc"
    ],
    "a": 2,
-   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table.",
+   "exp": "✅ (C) 文章依序談：晚餐時間（英、丹 19 點、西 21 點，b）→ 抵達時間（德準時、義丹遲到、荷提早，e）→ 打招呼方式（英不握手、西義擁抱，a）→ 禮物（送花、德奧拆包裝，d）→ 餐桌舉止（英手放桌下、瑞士不喜歡用過的餐巾，c），順序為 beadc。\n❌ (A) abcde 是標題原本的排列，第一段講的是晚餐時間而非打招呼。\n❌ (B) dceba 把送禮放在最前，但文章送花是在後半段才提到。\n❌ (D) eadbc 以抵達時間開頭，但文章一開始談的是晚餐時間。\n📚 出處：法語閱讀測驗（段落大意配對：歐洲各國作客禮儀）"
   },
   {
    "n": 76,
@@ -1077,7 +1081,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "La façon de s’habiller"
    ],
    "a": 3,
-   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique.",
+   "exp": "✅ (D) 「le style de vêtements」意為「服裝風格」，與「la façon de s'habiller」（穿衣的方式）意思相同，s'habiller 是「穿衣、打扮」。\n❌ (A) la façon de s'amuser 意為「娛樂的方式」，與服裝無關。\n❌ (B) la séduction 意為「誘惑、魅力」，不是穿衣風格。\n❌ (C) 「生活方式」法語是 le mode de vie，與服裝風格不同；此處寫成 la mode de vie 亦不合語法。\n📚 出處：法語閱讀測驗（職場服裝：同義表達 la façon de s'habiller）"
   },
   {
    "n": 77,
@@ -1091,7 +1096,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "à ta santé"
    ],
    "a": 1,
-   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique.",
+   "exp": "✅ (B) 「branché」本義是「插上電的」，口語引申為「時髦的、跟得上潮流的」，等於「à la mode」。文中說廣告、時尚、藝術業的人穿得較隨性且「branchées」，即時髦。\n❌ (A) à la fois 意為「同時」，是副詞片語，不是形容時髦。\n❌ (C) à ton souhait 是對方打噴嚏時說的「祝你如願」，與時髦無關。\n❌ (D) à ta santé 是敬酒用語「祝你健康、乾杯」。\n📚 出處：法語閱讀測驗（口語詞彙 branché = à la mode）"
   },
   {
    "n": 78,
@@ -1105,7 +1111,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "vêtement « branché »"
    ],
    "a": 1,
-   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique.",
+   "exp": "✅ (B) 文中說「Les vêtements sont plus classiques ... dans les secteurs de la finance, des assurances, du conseil」，金融業穿著較傳統正式（男士西裝、女士洋裝或套裝），即 tenue classique。\n❌ (A) 隨性的服裝（décontracté）是廣告、時尚、藝術業的穿法。\n❌ (C) 藝術風格屬於藝術相關行業，不是金融業。\n❌ (D) 「branché」（時髦）的穿著同樣是指廣告、時尚業。\n📚 出處：法語閱讀測驗（法國職場服裝：依行業區分 classique／décontracté）"
   },
   {
    "n": 79,
@@ -1119,7 +1126,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "qui est proche des métiers artistiques"
    ],
    "a": 1,
-   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique.",
+   "exp": "✅ (B) 文末說「si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s'habillent de manière classique」，金融、保險、顧問業穿著正式，正因工作需要接觸客戶。\n❌ (A) culture d'entreprise（企業文化）是決定穿著的因素之一，並非這些行業工作的特徵，且「culture entreprise」少了 d'，用語也不正確。\n❌ (C) 「取決於人員地位」是文章開頭講服裝風格的影響因素，不是描述這些行業的工作性質。\n❌ (D) 金融、保險、顧問業與藝術業正好相反，文中把兩者對比。\n📚 出處：法語閱讀測驗（法國職場服裝：nécessiter un contact avec des clients）"
   },
   {
    "n": 80,
@@ -1133,7 +1141,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "générales"
    ],
    "a": 0,
-   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique.",
+   "exp": "✅ (A) 文中括號列出「costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes」作為「vêtements plus classiques」的例子，所以西裝、領帶、裙裝套裝屬於傳統正式服裝。\n❌ (B) artistiques（藝術風格）是藝術行業的穿著，文中未舉西裝為例。\n❌ (C) décontractées（隨性）與西裝領帶的正式風格相反。\n❌ (D) générales（一般的）文中沒有這種服裝分類。\n📚 出處：法語閱讀測驗（法國職場服裝：tenue classique 的例子 costume、cravate、tailleur）"
   }
  ]
 };
