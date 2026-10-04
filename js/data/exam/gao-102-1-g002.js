@@ -559,7 +559,8 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
     "lengthened"
    ],
    "a": 0,
-   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it.",
+   "exp": "✅ (A) 「heightened」意為「提高的、增強的」，「a heightened sense of taste」指味覺特別敏銳，正好對應後文「supertasters（超級味覺者）」會覺得花椰菜很苦。\n❌ (B) 「enlightened」意為「開明的、有見識的」，用來形容人的思想，不能形容感官敏銳度。\n❌ (C) 「fastened」意為「繫緊的、固定的」，與味覺無關。\n❌ (D) 「lengthened」意為「延長的」，形容時間或長度，不能修飾味覺。\n📚 出處：英文閱讀與詞彙：形容詞語意辨析（heightened sense 增強的感官）"
   },
   {
    "n": 40,
@@ -573,7 +574,8 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
     "unparalleled"
    ],
    "a": 2,
-   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it.",
+   "exp": "✅ (C) 「unpalatable」意為「難吃的、不合口味的」。句意是味覺敏銳的人會覺得花椰菜很苦、油膩濃郁的食物很難入口，與「taste bitter」並列，語意一致。\n❌ (A) 「unperceptive」意為「缺乏洞察力的」，用來形容人，不形容食物。\n❌ (B) 「unpredictable」意為「無法預測的」，與食物味道的描述不搭。\n❌ (D) 「unparalleled」意為「無與倫比的」，是正面意思，與前面「bitter」的負面描述相反。\n📚 出處：英文閱讀與詞彙：un- 字首形容詞辨析（unpalatable 難吃的）"
   },
   {
    "n": 41,
@@ -587,7 +589,8 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
     "remove"
    ],
    "a": 2,
-   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it.",
+   "exp": "✅ (C) 「put a dot of blue food coloring on your tongue」意為「在舌頭上滴一點藍色食用色素」，put 是「放置」，接著才能照鏡子觀察舌頭上的斑點（味蕾）。\n❌ (A) 「notice」意為「注意到」，色素還沒放上去無從注意，語意不通。\n❌ (B) 「delete」意為「刪除」，多用於文字或檔案，不合句意。\n❌ (D) 「remove」意為「移除」，要先把色素放上舌頭才能觀察，移除與測試步驟相反。\n📚 出處：英文閱讀與詞彙：動詞語意辨析（put 放置）"
   },
   {
    "n": 42,
@@ -617,7 +620,8 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
     "currently"
    ],
    "a": 1,
-   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it.",
+   "exp": "✅ (B) 「mostly」意為「大多數、主要是」，「15 percent of people, mostly men」表示這 15% 的「非味覺者」大多是男性，是插入的補充說明。\n❌ (A) 「innocently」意為「天真地、無辜地」，是修飾動作的副詞，放在名詞前不合語意。\n❌ (C) 「arrogantly」意為「傲慢地」，與描述人群組成無關。\n❌ (D) 「currently」意為「目前」，表時間，無法說明這群人的組成。\n📚 出處：英文閱讀與詞彙：副詞語意辨析（mostly 主要是）"
   },
   {
    "n": 44,

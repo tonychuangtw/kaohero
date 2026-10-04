@@ -35938,7 +35938,7 @@ window.APP_EXAMS = [
   "subjName": "法學知識與英文",
   "label": "102 年　高考三級　法學知識與英文",
   "n": 50,
-  "exp": 46,
+  "exp": 50,
   "mins": 60
  },
  {
