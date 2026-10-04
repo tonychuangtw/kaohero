@@ -603,7 +603,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e006'] = {
     "to be"
    ],
    "a": 3,
-   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children.",
+   "exp": "✅ (D) 「appear to be + 名詞」表示「看起來是／似乎是」，appear 後接不定詞 to be，句意為「最重要的因素似乎是家庭大小、教養方式與父母對工作的態度」。\n❌ (A) appear 不能直接接原形動詞 be，缺少不定詞 to。\n❌ (B) been 是過去分詞，須搭配 have 構成完成式，不能直接放在 appear 後面。\n❌ (C) appear 後不接動名詞 being，「appear being」不合文法。\n📚 出處：英文文法－不定詞（appear／seem + to V）"
   },
   {
    "n": 43,
@@ -617,7 +618,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e006'] = {
     "Which"
    ],
    "a": 2,
-   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children.",
+   "exp": "✅ (C) 「It is essential for sb to V」為虛主詞句型，It 代替後面真正的主詞（for parents to recognize…），意為「父母認清…是很重要的」。\n❌ (A) He 是人稱代名詞，句中沒有可指稱的單一男性，也不能當虛主詞。\n❌ (B) What 引導名詞子句須自帶主詞或受詞空缺，「What is essential for parents to recognize」後接 that 子句會使句子結構不完整。\n❌ (D) Which 為關係代名詞或疑問詞，不能放句首當虛主詞。\n📚 出處：英文文法－虛主詞 It（It is + adj. + for sb + to V）"
   },
   {
    "n": 44,
@@ -631,7 +633,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e006'] = {
     "are in the mood"
    ],
    "a": 0,
-   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children.",
+   "exp": "✅ (A) 「be concerned about」意為「擔心、關切」，後接受詞 parents，句意為「教育工作者擔心那些不了解自身影響力重要性的父母」，語意與文法都通順。\n❌ (B) have the idea（有個想法）後面不能直接接 parents 當受詞，語意也不合。\n❌ (C) get the opinions（取得意見）須接 of，且「取得父母意見」與後面「不了解影響力」的語意不連貫。\n❌ (D) be in the mood（有心情做某事）通常接 for 或 to V，不能接人當受詞，語意不合。\n📚 出處：英文字彙與片語－be concerned about（擔心、關切）"
   },
   {
    "n": 45,
