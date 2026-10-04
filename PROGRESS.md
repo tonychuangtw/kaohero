@@ -10,10 +10,13 @@ NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題）�
 　　✅① 19:55 閱讀測驗／克漏字文章救回 1,622 題（245 卷，tools/psg-recover.py＋set-psg.js，commit 13ea531f0），克漏字空白題補選項 496 題、
 　　　 切掉黏在上一題選項尾巴的文章 297 處；只做語言類（chu／gao／loc／pol／tou），醫事類那 ~20 題是「承上題」不是文章。
 　　　 🔄 詳解：exp-worker（engine claude）19:56 起寫這 1,622 題，紀錄 ~/.claude/exp-worker.log；停了就 systemctl --user start exp-worker
-　　🔄② 申論 pua 題：essay-ref.py 加 ESSAY_WARN_OK=pua，unit essay-ref-pua（ESSAY_TAG=pua，claude）19:57 起，約 1,362 題，紀錄 ~/.claude/essay-ref-pua.log
-　　　 重開：systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=pua -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
-　　③ 申論 math 589＋fig 4,055 題：pdftoppm 把原卷那頁轉圖讓 Claude 看圖寫（下一步做工具）
-　　④ 考卷 #/paper hash 路由改一卷一頁靜態頁（SEO）　　另：pha-111-1-ph3 詳解失敗 2 次未查
+　　🔄②③ 申論 warn 題（pua 符號亂碼＋math 公式＋fig 圖表，共約 6,005 題）20:01 起兩支 Claude 各寫一半科目：
+　　　 essay-ref.py 加 ESSAY_WARN_OK（可寫的警示種類）；fig／math 題自動把原卷那頁轉 PNG（~/.cache/essay-pages/），prompt 叫模型先 Read 圖
+　　　 （只能用本機 Claude 引擎，codex／agy 在 runner 讀不到圖）。試寫 111 社會研究法 #2 表格題，讀表數值全對
+　　　 unit essay-ref-pua（ESSAY_SHARD=0/2）、essay-ref-fig（1/2），紀錄 ~/.claude/essay-ref-{pua,fig}.log。重開：
+　　　 systemd-run --user --unit essay-ref-<tag> -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=<0|1>/2 -E ESSAY_TAG=<tag> /usr/bin/bash tools/essay-ref-batch.sh 12 0
+　　　 ✅ pha-111-1-ph3 查過：09/24 是 claude 路徑暫時不見，第三次就寫成功，已清掉 exp-worker.failed
+　　④ 考卷 #/paper hash 路由改一卷一頁靜態頁（SEO）← 下一步
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
 　- ☁️ 雲端試點 09/30 15:01 結束（Tony：「雲端剩 23 塊先停了，之後用原本 Claude 額度接著做」）：5 輪共 +6,364 題；essay-cloud-watch.timer 已停，舊 session 不再送 continue、新 session 連結作廢
@@ -158,7 +161,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 19:58 台北（① 文章救回、詳解與申論 pua 批次在跑）
+UPDATED: 2026-10-04 20:02 台北（①詳解、②③申論 warn 題兩支批次在跑；接著做④）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 

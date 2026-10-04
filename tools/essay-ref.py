@@ -8,7 +8,7 @@
 同一科從最新年度往回寫。有圖表／公式警示（q.warn）的題不寫——看不到圖寫出來的架構不可靠。
 一批只挑同一科的題，prompt 比較集中、模型也比較不會把不同科的觀念混在一起。
 """
-import os, sys, re, json, hashlib
+import subprocess, os, sys, re, json, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -33,6 +33,42 @@ RECENT_ONLY = os.environ.get('ESSAY_RECENT_ONLY') == '1'
 # 允許的警示（2026-10-04 Tony「好」）：ESSAY_WARN_OK=pua → 只有 pua（少數符號轉檔成私用區字元、題意完整）的題也寫。
 # fig／math 要看原卷那頁才寫得出來，不在這條。
 WARN_OK = set(x for x in os.environ.get('ESSAY_WARN_OK', '').split(',') if x)
+
+
+PDF_DIRS = [os.path.expanduser('~/exam-pdfs/%s/pdf' % d) for d in ('gao', 'local', 'pol')]
+PAGE_CACHE = os.path.expanduser('~/.cache/essay-pages')
+
+
+def _nsp(t):
+    return re.sub(r'\s+', '', t or '')
+
+
+def page_images(src, qtext):
+    """有圖表／公式的題：把原卷裡這題所在的頁（題目跨頁就連下一頁）轉成 PNG，回傳路徑。找不到回 []。"""
+    m = re.search(r'code=(\d+)&c=(\d+)&s=(\d+)', src)
+    if not m: return []
+    stem = '%s_%s_%s' % m.groups()
+    pdf = next((os.path.join(d, stem + '_q.pdf') for d in PDF_DIRS if os.path.exists(os.path.join(d, stem + '_q.pdf'))), None)
+    if not pdf: return []
+    txt = subprocess.run(['pdftotext', pdf, '-'], capture_output=True).stdout.decode('utf-8', 'ignore')
+    pages = [_nsp(x) for x in txt.split('\f')]
+    q = _nsp(qtext)
+    head, tail = q[:14], q[-10:]
+    p0 = next((i for i, pg in enumerate(pages) if head and head in pg), None)
+    if p0 is None:
+        p0 = next((i for i, pg in enumerate(pages) if q[:6] and q[:6] in pg), None)
+    if p0 is None: return []
+    want = [p0]
+    if tail and tail not in pages[p0] and p0 + 1 < len(pages) and pages[p0 + 1]: want.append(p0 + 1)
+    os.makedirs(PAGE_CACHE, exist_ok=True)
+    out = []
+    for i in want:
+        png = os.path.join(PAGE_CACHE, '%s_p%d.png' % (stem, i + 1))
+        if not os.path.exists(png):
+            subprocess.run(['pdftoppm', '-r', '110', '-png', '-singlefile', '-f', str(i + 1), '-l', str(i + 1),
+                            pdf, png[:-4]], capture_output=True)
+        if os.path.exists(png): out.append(png)
+    return out
 
 
 def writable(q):
@@ -102,7 +138,15 @@ def targets(limit, out):
              '考這科的類科：' + '、'.join(t.split('-', 1)[1] for t in e['tracks'][:12]), '']
     for p, q in todo:
         lines += ['### key=%s roc=%d n=%d（%d 分）' % (k, p['roc'], q['n'], q['pt']), q['q'], '']
-        if 'pua' in (q.get('warn') or []):
+        w = q.get('warn') or []
+        if 'fig' in w or 'math' in w:
+            imgs = page_images(p['src'], q['q'])
+            if imgs:
+                lines[-1:-1] = ['（注意：本題有圖表或公式，上面的轉檔文字不完整。動筆前一定要先用 Read 工具打開原卷頁面圖：'
+                                + '、'.join(imgs) + '，以圖上的題目、數據與公式為準。圖上看不清楚、或缺了圖就無法作答，這題就判 skip）']
+            else:
+                lines[-1:-1] = ['（注意：本題有圖表或公式，但找不到原卷頁面圖。題意不完整就判 skip）']
+        if 'pua' in w:
             lines[-1:-1] = ['（注意：本題有少數符號在轉檔時變成無法顯示的字元（例如 \\ue000 這類私用區字元），'
                             '請依上下文推斷原本是什麼符號，在參考架構裡寫成正確的符號；推斷不出來而且會影響作答方向，這題就判 skip）']
     open(out, 'w', encoding='utf-8').write('\n'.join(lines))
