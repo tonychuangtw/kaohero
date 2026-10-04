@@ -434,7 +434,7 @@ ok(anki.includes('#deck:考英雄::錯題本'), 'Anki 檔指定牌組');
   ok(rows.every(r => r.split('\t').length === 3), 'Anki 每列剛好三欄');
   ok(rows.some(r => r.includes('疑核')), 'Anki 卡片帶題目原文');
   ok(rows.some(r => r.includes('✅')), 'Anki 卡片帶詳解');
-  ok(rows.some(r => /<img src="http[^"]+img\/q\//.test(r)), '圖片題用絕對網址');
+  ok(rows.some(r => /<img src="http[^"]+(img\/q\/|img\.kaohero\.com\/q\/)/.test(r)), '圖片題用絕對網址');
   ok(rows.every(r => r.indexOf('民國') > 0), '每張卡都有年度標籤');
 }
 
@@ -442,7 +442,7 @@ const phtml = await ev(`new Promise(function(r){ KHExport.printHtml(function(h){
 ok(phtml.includes('px-cover') && phtml.includes('我的錯題本'), '列印版有封面');
 ok(phtml.includes('px-key'), '列印版標出正解選項');
 ok((phtml.match(/px-item/g) || []).length === 2, '列印版兩題');
-ok(phtml.includes('img/q/'), '列印版帶題目圖');
+ok(/img\/q\/|img\.kaohero\.com\/q\//.test(phtml), '列印版帶題目圖');
 
 // 取消「含正解與詳解」就變成純測驗卷（答案不能印出來）
 await ev(`[...document.querySelectorAll('#main .px-ck input')][1].click()`); await sleep(150);
