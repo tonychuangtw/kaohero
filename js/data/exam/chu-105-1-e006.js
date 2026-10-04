@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
     "visit"
    ],
    "a": 3,
-   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities.",
+   "exp": "✅ (D) 前文說「現在沒有人住在這些城市」，但下一句問「遊客為何想看它們」，可知人們仍會來「visit（參觀）」這些古城；but 表示轉折：雖無人居住，仍有人造訪。\n❌ (A) 「destroy」是摧毀，與後文遊客想去看這些城市的語意不合。\n❌ (B) 「invent」是發明，城市不能被「發明」，語意不通。\n❌ (C) 「arrest」是逮捕，受詞應為人，不能接城市。\n📚 出處：英語克漏字－上下文語意推論（but 轉折、tourists 提示）"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
     "search"
    ],
    "a": 1,
-   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities.",
+   "exp": "✅ (B) 本段列舉地下城的設施（廚房、會議室、桌子），「places to store cereal」指「儲存穀物的地方」，store 意為儲藏，最符合地下城的空間用途。\n❌ (A) 「harvest」是收割，收割須在田地進行，不會在地下的房間裡。\n❌ (C) 「grow」是種植，穀物需要陽光，地底下無法種植。\n❌ (D) 「search」是搜尋，「搜尋穀物的地方」語意不通。\n📚 出處：英語克漏字－動詞詞彙辨析（store／harvest／grow）"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
     "tight"
    ],
    "a": 0,
-   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities.",
+   "exp": "✅ (A) 句型「make it + 形容詞 + to V」中 it 為虛受詞；通風管讓人在地下一百多英尺處「能安全地呼吸」，故用 safe。\n❌ (B) 「hard」意為困難，通風管的作用是幫助呼吸，不是讓呼吸變困難，語意相反。\n❌ (C) 「cruel」意為殘忍，用來形容人或行為，不能形容呼吸。\n❌ (D) 「tight」意為緊的，與呼吸的語意無關。\n📚 出處：英語克漏字－make it + adj. + to V 虛受詞句型"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
     "stone"
    ],
    "a": 1,
-   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities.",
+   "exp": "✅ (B) 通風管「讓新鮮空氣在各個房間中流通」，前文提到廚房、會議室等 rooms，空氣是流經地下城內的房間，故選 rooms。\n❌ (A) 「Turkey」是國名，通風管不可能讓空氣流通整個土耳其。\n❌ (C) 「cities」為整座城市，範圍過大，且本句描述的是地下城內部空間，rooms 更精確。\n❌ (D) 「stone」是石頭，空氣無法流經石頭，且下一句才提到封門的 locking stones。\n📚 出處：英語克漏字－上下文名詞指涉（rooms 呼應前文 kitchens、meeting rooms）"
   },
   {
    "n": 45,
@@ -645,7 +649,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
    "needfig": true,
    "fig": "img/q/105010_502_0104_45.webp",
    "a": 0,
-   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities.",
+   "exp": "✅ (A) 鎖門石「只能從裡面開關」，「from inside」表示動作的來源方向（從內部），用以保護城內居民安全，故選 from。\n❌ (B) 「to inside」不是正確搭配，to 表示朝向目的地，不能表達「從內部操作」。\n❌ (C) 「of inside」不合文法，of 表所屬，不能表示動作來源方向。\n❌ (D) 「with inside」不合文法，with 表伴隨或工具，無法表達從內部開關。\n📚 出處：英語克漏字－介系詞用法（from + 方位表來源方向）"
   },
   {
    "n": 46,
