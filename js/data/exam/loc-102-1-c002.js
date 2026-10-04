@@ -533,7 +533,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
     "turn"
    ],
    "a": 3,
-   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題",
+   "exp": "✅ (D) 「turn + 年齡數字」是固定用法，表示「滿～歲、進入～歲」，「Mary would turn thirteen」即 Mary 將滿十三歲，正好接「萬聖節隔天」生日的語意。\n❌ (A) 「move」指移動、搬家，不能接年齡表示滿幾歲。\n❌ (B) 「change」指改變，後面不直接接年齡數字表示滿幾歲。\n❌ (C) 「shift」指轉移、變換位置，同樣沒有「滿～歲」的用法。\n📚 出處：英文文法；連綴動詞 turn（turn + 年齡）"
   },
   {
    "n": 38,
@@ -547,7 +548,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
     "more than"
    ],
    "a": 1,
-   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題",
+   "exp": "✅ (B) 「no longer」意為「不再」，放在助動詞 would 之後：「She would no longer think she is just a little kid.」即她滿十三歲後就不再覺得自己只是個小孩，與前文「年紀有點大了」呼應。\n❌ (A) 「any longer」也表示不再，但須搭配否定詞（not … any longer），本句沒有 not，語意變成肯定，不通。\n❌ (C) 「rather than」意為「而不是」，用來連接兩個對等成分，放在 would 與 think 之間不合文法。\n❌ (D) 「more than」意為「超過、不只」，放在此處語意不通。\n📚 出處：英文文法；否定副詞 no longer 與 not … any longer"
   },
   {
    "n": 39,
@@ -561,7 +563,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
     "action"
    ],
    "a": 2,
-   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題",
+   "exp": "✅ (C) 「reason for + 名詞／動名詞」表示「做某事的理由」，「one other big reason for not liking Halloween」即不喜歡萬聖節的另一個大理由，下一句接著說明生日被忽略，正是理由。\n❌ (A) 「request」意為請求，與「不喜歡萬聖節」語意不合。\n❌ (B) 「answer」意為答案，習慣搭配 answer to，且語意不符。\n❌ (D) 「action」意為行動，無法說明不喜歡的原因。\n📚 出處：英文字彙；名詞搭配 reason for"
   },
   {
    "n": 40,
@@ -575,7 +578,8 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
     "order"
    ],
    "a": 2,
-   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題",
+   "exp": "✅ (C) 「make a big deal out of / of something」是慣用語，意為「把某事當大事、大肆慶祝或小題大作」，句意為生日在 11 月 1 日時，大家都不會特別為它慶祝，因為剛過完萬聖節。\n❌ (A) 「shake」意為搖動，沒有「make a big shake」的慣用語。\n❌ (B) 「make a mistake」意為犯錯，與生日被忽略的語意不合，且不接 out of it。\n❌ (D) 「order」意為命令、訂單，沒有 make a big order out of 的說法。\n📚 出處：英文片語；慣用語 make a big deal (out) of"
   },
   {
    "n": 41,
