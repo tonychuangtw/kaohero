@@ -761,7 +761,8 @@ window.APP_EXAM_PAPERS['pol-112-1-b018'] = {
     "rudder"
    ],
    "a": 2,
-   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved.",
+   "exp": "✅ (C) 句意為「輕載重量是平台在裝載『貨物』、燃油、淡水或補給品之前的狀態」，「cargo（貨物）」與 fuel、water、stores 並列，都是可裝載上船的物品，最符合。\n❌ (A) 「deck（甲板）」是船體結構的一部分，不是「裝載」的對象，也無法與燃油、淡水並列。\n❌ (B) 「anchor（錨）」屬船上固定設備，不是裝卸的載重項目。\n❌ (D) 「rudder（舵）」是操舵結構，屬船體固定部分，不會被「loading」。\n📚 出處：海事英文字彙—船舶重量術語（lightweight 輕載重量、cargo 貨物、stores 補給品）。"
   },
   {
    "n": 54,
@@ -775,7 +776,8 @@ window.APP_EXAM_PAPERS['pol-112-1-b018'] = {
     "concludes by"
    ],
    "a": 0,
-   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved.",
+   "exp": "✅ (A) 「consists of」意為「由…組成」，句意為「Coastal Driller 的輕載重量由基本船體重量與固定重量組成」，後面接兩個組成項目，語意與文法都正確。\n❌ (B) 「compress（壓縮）」不接 by 表示組成，且輕載重量不是被「壓縮」出來的，語意不通。\n❌ (C) 「conserve（保存、節約）」是及物動詞，不接 of，語意也與重量構成無關。\n❌ (D) 「conclude by」意為「以…作結」，用於談話或文章收尾，不能表示重量的組成。\n📚 出處：英文動詞片語—consist of（由…組成）；海事英文船舶重量術語。"
   },
   {
    "n": 55,
@@ -789,7 +791,8 @@ window.APP_EXAM_PAPERS['pol-112-1-b018'] = {
     "movable"
    ],
    "a": 1,
-   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved.",
+   "exp": "✅ (B) 句意為「固定重量是永久附著於平台上的部分，其中包括『固定不動』的部分與可移動的部分」，空格與後面「a portion that can be moved」形成對比，「stationary（靜止的、固定的）」最恰當。\n❌ (A) 「resilience（韌性、彈性）」是名詞，接在 is 後不能與「can be moved」形成對比，語意也不合。\n❌ (C) 「fleeting（短暫的、轉瞬即逝的）」形容時間短，與「永久附著」矛盾。\n❌ (D) 「movable（可移動的）」與後半句「can be moved」意思重複，失去「一部分固定、一部分可移動」的對比。\n📚 出處：英文詞彙—形容詞對比（stationary 固定的 vs. movable 可移動的）；海事英文船舶重量術語。"
   },
   {
    "n": 56,
