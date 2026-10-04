@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "but"
    ],
    "a": 1,
-   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them.",
+   "exp": "✅ (B) 空格後的「heat exhaustion or heat stroke」是在舉例說明前面的「heat-related illnesses（熱相關疾病）」。介系詞「like」可表示「例如、像是」，用來舉例，意思是「熱相關疾病，例如熱衰竭或中暑」，語意通順。\n❌ (A) 「as」單獨使用時表示「作為、如同」，要表示舉例必須寫成「such as」，單用「as」文法不通。\n❌ (C) 「and」是對等連接詞，會把例子當成另一類並列的主詞，但後面的熱衰竭、中暑本身就屬於熱相關疾病，不是另外一類，語意不合。\n❌ (D) 「but」表示轉折「但是」，前後沒有對比關係，放在這裡語意不通。\n📚 出處：英文文法－介系詞 like／such as 表舉例；克漏字（極端高溫與熱傷害預防）"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "yet"
    ],
    "a": 0,
-   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them.",
+   "exp": "✅ (A) 前面有比較級「faster（更快）」，比較對象要用「than」引出，句意為「體溫上升的速度比身體自行降溫的速度還快」，正是熱傷害發生的原因。\n❌ (B) 「then」是副詞「然後、那時」，與「than」拼法相近常被混淆，但不能接在比較級後面表示比較。\n❌ (C) 「that」可當關係代名詞或名詞子句連接詞，不能和比較級「faster」搭配引出比較對象。\n❌ (D) 「yet」表示「然而、尚未」，沒有比較的功能，語意與文法都不合。\n📚 出處：英文文法－比較級句型「比較級＋than」；易混淆字 than／then"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "others"
    ],
    "a": 2,
-   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them.",
+   "exp": "✅ (C) 空格後面接複數名詞「vital organs（重要器官）」，需要形容詞用法的限定詞。「other＋複數名詞」表示「其他的…」，句意為「可能損害腦部和其他重要器官」，文法語意都正確。\n❌ (A) 「ones」是代名詞，用來代替前面提過的複數名詞，後面不能再接名詞。\n❌ (B) 「another」意思是「另一個」，只能接單數可數名詞（another organ），不能接複數的 organs。\n❌ (D) 「others」是代名詞，本身就等於「other＋複數名詞」，後面不能再接 vital organs。\n📚 出處：英文文法－限定詞 other／another／others／ones 的用法"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "Trace"
    ],
    "a": 0,
-   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them.",
+   "exp": "✅ (A) 這是祈使句形式的小標題，後面說明「盡量把戶外活動限制在最涼爽的時段」，也就是要「安排好」戶外活動的時間。「Schedule Outdoor Activities Carefully」意為「謹慎安排戶外活動時間」，與內文最吻合。\n❌ (B) 「concern」意為「使擔心、與…有關」，「擔心戶外活動」與後文講的時間安排不符，搭配也不自然。\n❌ (C) 「motivate」意為「激勵、促使」，「激勵戶外活動」與避免熱傷害的建議方向相反。\n❌ (D) 「trace」意為「追蹤、追溯」，「追蹤戶外活動」與後文限制活動時段的內容無關。\n📚 出處：英文字彙－動詞 schedule／concern／motivate／trace 詞義辨析；克漏字上下文判斷"
   },
   {
    "n": 45,
@@ -643,7 +647,8 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "when"
    ],
    "a": 3,
-   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them.",
+   "exp": "✅ (D) 空格後是「it is coolest（天氣最涼爽）」，並以「like morning and evening hours（例如早上和傍晚）」補充說明，可知指的是「時間」。「when」引導名詞子句作介系詞 to 的受詞，意為「把戶外活動限制在最涼爽的時候」。\n❌ (A) 「what」指「…的事物」，不能表示時間，後面又接完整句子，文法不合。\n❌ (B) 「where」表示地點，但後文舉例的是早上、傍晚等時段，不是地點。\n❌ (C) 「which」作關係代名詞需要先行詞，且在子句中要當主詞或受詞，此處子句「it is coolest」已完整，用法不合。\n📚 出處：英文文法－名詞子句與關係副詞 when／where 的用法"
   },
   {
    "n": 46,
