@@ -391,7 +391,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "Functioned"
    ],
    "a": 2,
-   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth."
+   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth.",
+   "exp": "✅ (C) Funded 為過去分詞構句，「Funded in part by the US National Institute on Aging」表示「部分經費由美國國家老化研究院資助」，主詞 scientists 是被資助的一方，用被動語意合理。\n❌ (A) Founded 意為「創立」，科學家不是被研究院「創立」的，語意不通。\n❌ (B) Fond 是形容詞，常用 be fond of「喜愛」，後面不能接 in part by，句構與文意都不合。\n❌ (D) Functioned 意為「運作、起作用」，是不及物動詞，不能用被動的 functioned by，也不合文意。\n📚 出處：英文分詞構句（過去分詞表被動）與易混淆字辨析（fund／found／fond）。"
   },
   {
    "n": 27,
@@ -405,7 +406,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "longevity"
    ],
    "a": 3,
-   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth."
+   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth.",
+   "exp": "✅ (D) longevity 意為「長壽」，a hot spot of longevity 指「長壽熱點」，與後文「男性活到 100 歲的比例驚人」及全文探討長壽祕訣相呼應。\n❌ (A) longitude 意為「經度」，屬地理名詞，與人瑞比例無關。\n❌ (B) altitude 意為「海拔高度」，雖提到山區村落，但「高度的熱點」不合句意。\n❌ (C) attitude 意為「態度」，與活到百歲的現象無關。\n📚 出處：英文易混淆字彙辨析（longevity／longitude／altitude／attitude）。"
   },
   {
    "n": 28,
@@ -709,7 +711,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "enclosed"
    ],
    "a": 1,
-   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing.",
+   "exp": "✅ (B) situated 意為「位於」，be situated in 為描述地點的固定用法，「公園位於該州中部、安克拉治以北」。\n❌ (A) landed 意為「降落、登陸」，不能用來描述地理位置。\n❌ (C) occupied 意為「被占據、忙碌的」，be occupied in 不表示「位於」。\n❌ (D) enclosed 意為「被圍起來、附寄」，不合描述位置的語意。\n📚 出處：英文地點描述慣用語（be situated／located in）。"
   },
   {
    "n": 48,
@@ -723,7 +726,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "species"
    ],
    "a": 3,
-   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing.",
+   "exp": "✅ (D) species 意為「物種」，750 species of flowering plants 指「750 種開花植物」，與後文 200 多種鳥類及哺乳類並列，描述生態系的生物多樣性。\n❌ (A) companions 意為「同伴」，不用來計算植物種類。\n❌ (B) fragments 意為「碎片、片段」，與植物分類無關。\n❌ (C) substances 意為「物質」，指化學或物理成分，不合描述動植物種類。\n📚 出處：英文生態類字彙（species 單複數同形）。"
   },
   {
    "n": 49,
@@ -737,7 +741,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "come from"
    ],
    "a": 2,
-   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing.",
+   "exp": "✅ (C) serve as 意為「充當、作為」，「保護區的土地也作為自然科學研究的對象」，後接名詞 a subject 正好合用。\n❌ (A) relate to 意為「與……有關」，「土地與一個研究主題有關」語意彆扭，且原句要表達的是功能。\n❌ (B) focus on 意為「專注於」，主詞是土地，不能「專注於研究主題」。\n❌ (D) come from 意為「來自」，土地「來自研究主題」不合邏輯。\n📚 出處：英文常用片語動詞（serve as）。"
   },
   {
    "n": 50,
@@ -751,7 +756,8 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "from"
    ],
    "a": 0,
-   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing.",
+   "exp": "✅ (A) be closed to 意為「對……不開放、禁止……進入」，closed to private vehicles 指「第 15 英里之後禁止私人車輛通行」，因此後文說步行與騎單車是認識公園的好方法。\n❌ (B) closed in 表示「被圍住、在……之中關閉」，不能表示禁止某對象進入。\n❌ (C) closed at 多接時間，如 closed at 5 p.m.，不接對象。\n❌ (D) closed from 不是表示「禁止進入」的慣用搭配。\n📚 出處：英文形容詞與介系詞搭配（be closed to / open to）。"
   }
  ]
 };
