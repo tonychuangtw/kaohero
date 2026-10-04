@@ -628,7 +628,7 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
     "spin",
     "merge",
     "rust",
-    "crack請依下文回答第 45 題至第 49 題：When interviewing children, interpreters can be used in many different ways, depending on the needs"
+    "crack"
    ],
    "a": 0,
    "exp": "✅ (A) spin 意為「旋轉、打滑空轉」；車輛在濕滑路面加速時，輪胎缺乏抓地力會產生打滑空轉現象，符合交通情境。\n❌ (B) merge 意為「合併、匯入車道」，不能用以描述輪胎在路面打滑之動作。\n❌ (C) rust 意為「生鏽、腐蝕」，為金屬氧化之漫長過程，非車輛加速時之瞬間物理反應。\n❌ (D) crack 意為「破裂、碎裂」，輪胎在濕滑路面急加速不會直接破裂。\n📚 出處：警察專業英文（交通執法情境詞彙）。"
@@ -637,76 +637,71 @@ window.APP_EXAM_PAPERS['pol-109-1-b006'] = {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "linguistic",
+    "dramatic",
+    "chaotic",
+    "fantastic"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_501_0206_45.webp"
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "recognition",
+    "adoration",
+    "imitation",
+    "classification"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_501_0206_46.webp"
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "first",
+    "second",
+    "third",
+    "fourth"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_501_0206_47.webp"
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as if",
+    "even though",
+    "except for",
+    "or else"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_501_0206_48.webp"
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "address",
+    "identify",
+    "order",
+    "evaluate"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_501_0206_49.webp"
+   "psg": "When interviewing children, interpreters can be used in many different ways, depending on the needs and the 45 capabilities of the child. The appropriate use of an interpreter requires the 46 that you are interviewing the child, not the interpreter. The interview should be conducted in a way that does not isolate the child at any time. Further, you should always address the child in the 47 person when you ask a question, like Tommy, rather than Tom Peterson. In other words, do not ask the interpreter about the child, phrase your question 48 the child can understand you. Even when asking for clarification about a response, you should always 49 the child, not the interpreter."
   },
   {
    "n": 50,

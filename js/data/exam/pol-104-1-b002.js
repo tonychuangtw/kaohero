@@ -528,7 +528,7 @@ window.APP_EXAM_PAPERS['pol-104-1-b002'] = {
     "deriding",
     "laundering",
     "lobbying",
-    "modifying請依下文回答第 38 題至第 40 題If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research"
+    "modifying"
    ],
    "a": 2,
    "exp": "✅ (C) lobbying 意為「游說」，片語 spend money lobbying the Parliament 指大石油公司花費數百萬歐元游說國會以促成法案通過，符合政治新聞語境。\n❌ (A) deriding 意為「嘲笑、嘲弄」，花巨款嘲弄國會不合常理。\n❌ (B) laundering 意為「洗錢」，常與黑錢搭配（money laundering），而非洗錢國會。\n❌ (D) modifying 意為「修改、修正」，修飾對象通常為法案內容本身，而非修正國會機構。\n📚 出處：英文時事新聞詞彙；spend money doing sth. 與 lobby 之用法"
@@ -537,46 +537,43 @@ window.APP_EXAM_PAPERS['pol-104-1-b002'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "decline",
+    "delete",
+    "increase",
+    "ignite"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_131_0202_38.webp"
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "focused",
+    "foresaw",
+    "flirted",
+    "filtered"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104070_131_0202_39.webp"
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "essence",
+    "rattle",
+    "components",
+    "harm"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104070_131_0202_40.webp"
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
   },
   {
    "n": 41,

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Außerhalb",
     "Bei",
     "Nach",
-    "InEine große Sehenswürdigkeit in Nordtaiwan – Jiufen"
+    "In"
    ],
    "a": 0,
    "exp": "✅ (A) außerhalb 是支配第二格的介詞，「außerhalb unserer Öffnungszeiten」＝在營業時間之外，正好說明緊急時可打這支電話。\n❌ (B) bei 支配第三格，且「bei unseren Öffnungszeiten」語意是在營業時間內，與提供緊急電話的用意相反。\n❌ (C) nach 支配第三格，需說 nach unseren Öffnungszeiten，此處為第二格 unserer，格位不合。\n❌ (D) in 同樣支配第三格，且語意是營業時間內，與緊急聯絡的情境矛盾（該選項尾端黏到下一篇文章標題，屬轉檔瑕疵）。\n📚 出處：德語第二格介詞：außerhalb／innerhalb + Genitiv"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Seit den 1990er Jahren und wegen der Eröffnung des Goldmuseums.",
     "Seit den 1990er Jahren und wegen der schönen Aussicht über den Ozean."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Eine große Sehenswürdigkeit in Nordtaiwan – Jiufen Jiufen ist eine alte Goldgräberstadt, berühmt für seine malerischen Aussichten über die Umgebung und den pazifischen Ozean. Viele historische Gebäude sind gut erhalten, deshalb kommen viele Besucher, um die vergangene Zeit zu erleben. Zu Zeiten der Qing-Dynastie lebten nur neun Familien an diesem Ort. Damals bestellte man bei Lieferungen immer „neun Portionen“. Daraus wurde der Name des Ortes, der bis heute bleibt. Wer nach Jiufen kommt, muss unbedingt Tee in einem Teehaus trinken. Eines der bekanntesten ist das Jiufen Teahouse in einem alten japanischen Haus. Wer es betritt, fühlt sich in die alte Zeit zurückversetzt. Der Ort war lange eine Minenstadt, in der Gold und Kohle abgebaut wurden. Heute sind noch einige Tunnel zu sehen. Ebenfalls sehenswert ist das Jiufen Gold Mine Museum. Beliebt ist auch die Wanderung hinauf auf den Jilong-Berg. Der Weg zum Gipfel dauert ca. 40-45 Minuten. Wer oben ankommt, wird mit einer Aussicht auf die Küste und Gebirgsketten belohnt. Filme verhelfen Jiufen zu neuer Bekanntheit. Insbesondere mit dem Film „Die Stadt der Traurigkeit“ erwachte Jiufeng wieder und entwickelte sich in den 1990er Jahren zum beliebten Touristenziel. Der Film gewann als erster taiwanischer Film den Goldenen Löwen in Venedig."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Weil es früher hier neue Teefelder gab.",
     "Weil früher das abgebaute Gold in 9 Portionen eingeteilt wurde."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Eine große Sehenswürdigkeit in Nordtaiwan – Jiufen Jiufen ist eine alte Goldgräberstadt, berühmt für seine malerischen Aussichten über die Umgebung und den pazifischen Ozean. Viele historische Gebäude sind gut erhalten, deshalb kommen viele Besucher, um die vergangene Zeit zu erleben. Zu Zeiten der Qing-Dynastie lebten nur neun Familien an diesem Ort. Damals bestellte man bei Lieferungen immer „neun Portionen“. Daraus wurde der Name des Ortes, der bis heute bleibt. Wer nach Jiufen kommt, muss unbedingt Tee in einem Teehaus trinken. Eines der bekanntesten ist das Jiufen Teahouse in einem alten japanischen Haus. Wer es betritt, fühlt sich in die alte Zeit zurückversetzt. Der Ort war lange eine Minenstadt, in der Gold und Kohle abgebaut wurden. Heute sind noch einige Tunnel zu sehen. Ebenfalls sehenswert ist das Jiufen Gold Mine Museum. Beliebt ist auch die Wanderung hinauf auf den Jilong-Berg. Der Weg zum Gipfel dauert ca. 40-45 Minuten. Wer oben ankommt, wird mit einer Aussicht auf die Küste und Gebirgsketten belohnt. Filme verhelfen Jiufen zu neuer Bekanntheit. Insbesondere mit dem Film „Die Stadt der Traurigkeit“ erwachte Jiufeng wieder und entwickelte sich in den 1990er Jahren zum beliebten Touristenziel. Der Film gewann als erster taiwanischer Film den Goldenen Löwen in Venedig."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Weil man auf dem Berg Tee trinken kann.",
     "Weil das gesund ist."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Eine große Sehenswürdigkeit in Nordtaiwan – Jiufen Jiufen ist eine alte Goldgräberstadt, berühmt für seine malerischen Aussichten über die Umgebung und den pazifischen Ozean. Viele historische Gebäude sind gut erhalten, deshalb kommen viele Besucher, um die vergangene Zeit zu erleben. Zu Zeiten der Qing-Dynastie lebten nur neun Familien an diesem Ort. Damals bestellte man bei Lieferungen immer „neun Portionen“. Daraus wurde der Name des Ortes, der bis heute bleibt. Wer nach Jiufen kommt, muss unbedingt Tee in einem Teehaus trinken. Eines der bekanntesten ist das Jiufen Teahouse in einem alten japanischen Haus. Wer es betritt, fühlt sich in die alte Zeit zurückversetzt. Der Ort war lange eine Minenstadt, in der Gold und Kohle abgebaut wurden. Heute sind noch einige Tunnel zu sehen. Ebenfalls sehenswert ist das Jiufen Gold Mine Museum. Beliebt ist auch die Wanderung hinauf auf den Jilong-Berg. Der Weg zum Gipfel dauert ca. 40-45 Minuten. Wer oben ankommt, wird mit einer Aussicht auf die Küste und Gebirgsketten belohnt. Filme verhelfen Jiufen zu neuer Bekanntheit. Insbesondere mit dem Film „Die Stadt der Traurigkeit“ erwachte Jiufeng wieder und entwickelte sich in den 1990er Jahren zum beliebten Touristenziel. Der Film gewann als erster taiwanischer Film den Goldenen Löwen in Venedig."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Die Küste fotografieren.",
     "Einkäufe machen."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Eine große Sehenswürdigkeit in Nordtaiwan – Jiufen Jiufen ist eine alte Goldgräberstadt, berühmt für seine malerischen Aussichten über die Umgebung und den pazifischen Ozean. Viele historische Gebäude sind gut erhalten, deshalb kommen viele Besucher, um die vergangene Zeit zu erleben. Zu Zeiten der Qing-Dynastie lebten nur neun Familien an diesem Ort. Damals bestellte man bei Lieferungen immer „neun Portionen“. Daraus wurde der Name des Ortes, der bis heute bleibt. Wer nach Jiufen kommt, muss unbedingt Tee in einem Teehaus trinken. Eines der bekanntesten ist das Jiufen Teahouse in einem alten japanischen Haus. Wer es betritt, fühlt sich in die alte Zeit zurückversetzt. Der Ort war lange eine Minenstadt, in der Gold und Kohle abgebaut wurden. Heute sind noch einige Tunnel zu sehen. Ebenfalls sehenswert ist das Jiufen Gold Mine Museum. Beliebt ist auch die Wanderung hinauf auf den Jilong-Berg. Der Weg zum Gipfel dauert ca. 40-45 Minuten. Wer oben ankommt, wird mit einer Aussicht auf die Küste und Gebirgsketten belohnt. Filme verhelfen Jiufen zu neuer Bekanntheit. Insbesondere mit dem Film „Die Stadt der Traurigkeit“ erwachte Jiufeng wieder und entwickelte sich in den 1990er Jahren zum beliebten Touristenziel. Der Film gewann als erster taiwanischer Film den Goldenen Löwen in Venedig."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d007'] = {
     "Die Tunnel der Minen.",
     "Der Abbau des Goldes."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Eine große Sehenswürdigkeit in Nordtaiwan – Jiufen Jiufen ist eine alte Goldgräberstadt, berühmt für seine malerischen Aussichten über die Umgebung und den pazifischen Ozean. Viele historische Gebäude sind gut erhalten, deshalb kommen viele Besucher, um die vergangene Zeit zu erleben. Zu Zeiten der Qing-Dynastie lebten nur neun Familien an diesem Ort. Damals bestellte man bei Lieferungen immer „neun Portionen“. Daraus wurde der Name des Ortes, der bis heute bleibt. Wer nach Jiufen kommt, muss unbedingt Tee in einem Teehaus trinken. Eines der bekanntesten ist das Jiufen Teahouse in einem alten japanischen Haus. Wer es betritt, fühlt sich in die alte Zeit zurückversetzt. Der Ort war lange eine Minenstadt, in der Gold und Kohle abgebaut wurden. Heute sind noch einige Tunnel zu sehen. Ebenfalls sehenswert ist das Jiufen Gold Mine Museum. Beliebt ist auch die Wanderung hinauf auf den Jilong-Berg. Der Weg zum Gipfel dauert ca. 40-45 Minuten. Wer oben ankommt, wird mit einer Aussicht auf die Küste und Gebirgsketten belohnt. Filme verhelfen Jiufen zu neuer Bekanntheit. Insbesondere mit dem Film „Die Stadt der Traurigkeit“ erwachte Jiufeng wieder und entwickelte sich in den 1990er Jahren zum beliebten Touristenziel. Der Film gewann als erster taiwanischer Film den Goldenen Löwen in Venedig."
   },
   {
    "n": 76,

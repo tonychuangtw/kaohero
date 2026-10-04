@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "spectators",
     "investigators",
     "investors",
-    "researchers請依下文回答第 46 題至第 50 題：The higher risk of basement fires has significant implications for British Columbia. In this province, high housing"
+    "researchers"
    ],
    "a": 1,
    "exp": "✅ (B) investigators 意為「調查人員」；fire investigators（火災調查人員）專門藉由火場留存之碳化圖樣（char patterns）與受熱陰影（heat shadows）等線索研判起火點。\n❌ (A) spectators 意為「旁觀者、圍觀群眾」，不具備火災鑑定之專業技術與職權。\n❌ (C) investors 意為「投資者」，與火場勘查及起火原因鑑識無關。\n❌ (D) researchers 意為「研究人員」，非第一線負責火場勘查與起火點判定之專責人員。\n📚 出處：消防專業英文—火災原因調查（Fire Investigators）。"
@@ -649,76 +649,71 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "offending",
+    "eloquent",
+    "inventive",
+    "attractive"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109070_602_0209_46.webp"
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "installed",
+    "insured",
+    "insulated",
+    "inspected"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_602_0209_47.webp"
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "probably",
+    "required",
+    "unlikely",
+    "expected"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_602_0209_48.webp"
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "where",
+    "there",
+    "when",
+    "why"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_602_0209_49.webp"
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "increase",
+    "limit",
+    "identify",
+    "assess"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109070_602_0209_50.webp"
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
   }
  ]
 };

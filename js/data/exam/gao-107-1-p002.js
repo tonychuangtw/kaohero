@@ -503,7 +503,7 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
     "request",
     "medium",
     "selection",
-    "threat請依下文回答第 36 題至第 40 題：Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the"
+    "threat"
    ],
    "a": 3,
    "exp": "✅ (D) terrorism threat 意為「恐怖主義威脅」，政府因擔心恐攻威脅而收緊觀光簽證核發。\n❌ (A) request 是請求。\n❌ (B) medium 是媒介。\n❌ (C) selection 是選擇。\n📚 出處：英文字彙（terrorism threat）"
@@ -512,61 +512,57 @@ window.APP_EXAM_PAPERS['gao-107-1-p002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Unlike",
+    "Except",
+    "Despite",
+    "Through"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107090_401_0211_36.webp"
+   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "permanently",
+    "regularly",
+    "effectively",
+    "originally"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107090_401_0211_37.webp"
+   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "since",
+    "though",
+    "once",
+    "wherever"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107090_401_0211_38.webp"
+   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "celebration",
+    "recognition",
+    "observation",
+    "prescription"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107090_401_0211_39.webp"
+   "psg": "Among the well-preserved historical sites in Lukang, a coastal city located in the western Changhua county, the Longshan Temple is something a visitor cannot miss. 36 the busy Longshan Temple in Taipei, the one in Lukang is quieter and less touristy. Built in the end of Ming Dynasty, the temple was 37 a small one and later it was renovated several times to the current larger scale. It is mainly dedicated to Guanyin, Goddess of Mercy and Compassion, 38 there are over one hundred gods and goddesses in the rear and side halls. The beautifully-designed temple is worthy of detailed 39 . Check out the colorful figures on the roof, the wonderful spider web ceiling structure, the stone carvings on the dragon poles at the front gate, as well as the largest bronze bell in Taiwan. During the 921 Earthquake in 1999, the Longshan Temple in Lukang was severely damaged. Community members, local and national government institutions, and prominent enterprises came together to help rebuild this national heritage site. The restoration was 40 from 2001 to 2008. Nine years after the earthquake, with lots of efforts from specialists, the temple was restored from ruins and today remains an important religious center."
   },
   {
    "n": 40,

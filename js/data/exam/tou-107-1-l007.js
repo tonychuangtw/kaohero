@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "vereinbaren",
     "genießen",
     "finden",
-    "veranstaltenLesetext: Philosophenweg"
+    "veranstalten"
    ],
    "a": 1,
    "exp": "✅ (B) genießen Sie die Tour 意為「盡情享受這趟航程」，與前半「認識萊茵河」並列成邀請語氣，是旅遊文宣的常用句。\n❌ (A) vereinbaren 是與人約定事項（如約時間），不能用於享受行程。\n❌ (C) finden 是找到，與邀請遊客搭船的語意不合。\n❌ (D) veranstalten 是主辦、舉辦活動，主辦者是旅行社而非遊客。\n📚 出處：德語詞彙：旅遊文宣動詞 genießen 與邀請句型"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Am Neckarufer.",
     "Zwischen dem Neckarufer und der Hauptstraße."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lesetext: Philosophenweg Auf dem Naturbalkon des Philosophenwegs sitzt jeder Zuschauer in der ersten Reihe und kann Natur und Ausblick auf die Stadt gleichzeitig auf sich wirken lassen. Früher lockerten hier Gelehrte ihre Gedanken beim Spaziergang: Der Heidelberger Philosophenweg am Sonnenhang des Heiligenberges führte schon manchen zu neuen Einsichten. Von diesem Platz an der Sonne aus lässt sich der „Heidelberger Dreiklang“ von Altstadt, Fluss und Bergen genießen. Der Schlangenweg verbindet die Alte Brücke mit dem Philosophenweg. Auf einem sehr steilen langen Weg wird der Höhenunterschied zwischen Neckarufer und den Gärten des Philosophenweges überwunden. Ein klassischer Rundgang bindet den Philosophenweg, den Schlangenweg, die Alte Brücke und die Hauptstraße in der Heidelberger Altstadt zusammen zu einem ca. vier Kilometer langen Rundweg, der die schönsten Stadtansichten von Heidelberg bietet. In der Altstadt befinden sich die meisten Sehenswürdigkeiten wie das Heidelberger Schloss."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Der Schlangenweg.",
     "Das Heidelberger Schloss."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lesetext: Philosophenweg Auf dem Naturbalkon des Philosophenwegs sitzt jeder Zuschauer in der ersten Reihe und kann Natur und Ausblick auf die Stadt gleichzeitig auf sich wirken lassen. Früher lockerten hier Gelehrte ihre Gedanken beim Spaziergang: Der Heidelberger Philosophenweg am Sonnenhang des Heiligenberges führte schon manchen zu neuen Einsichten. Von diesem Platz an der Sonne aus lässt sich der „Heidelberger Dreiklang“ von Altstadt, Fluss und Bergen genießen. Der Schlangenweg verbindet die Alte Brücke mit dem Philosophenweg. Auf einem sehr steilen langen Weg wird der Höhenunterschied zwischen Neckarufer und den Gärten des Philosophenweges überwunden. Ein klassischer Rundgang bindet den Philosophenweg, den Schlangenweg, die Alte Brücke und die Hauptstraße in der Heidelberger Altstadt zusammen zu einem ca. vier Kilometer langen Rundweg, der die schönsten Stadtansichten von Heidelberg bietet. In der Altstadt befinden sich die meisten Sehenswürdigkeiten wie das Heidelberger Schloss."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Die Altstadt.",
     "Die Berge."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lesetext: Philosophenweg Auf dem Naturbalkon des Philosophenwegs sitzt jeder Zuschauer in der ersten Reihe und kann Natur und Ausblick auf die Stadt gleichzeitig auf sich wirken lassen. Früher lockerten hier Gelehrte ihre Gedanken beim Spaziergang: Der Heidelberger Philosophenweg am Sonnenhang des Heiligenberges führte schon manchen zu neuen Einsichten. Von diesem Platz an der Sonne aus lässt sich der „Heidelberger Dreiklang“ von Altstadt, Fluss und Bergen genießen. Der Schlangenweg verbindet die Alte Brücke mit dem Philosophenweg. Auf einem sehr steilen langen Weg wird der Höhenunterschied zwischen Neckarufer und den Gärten des Philosophenweges überwunden. Ein klassischer Rundgang bindet den Philosophenweg, den Schlangenweg, die Alte Brücke und die Hauptstraße in der Heidelberger Altstadt zusammen zu einem ca. vier Kilometer langen Rundweg, der die schönsten Stadtansichten von Heidelberg bietet. In der Altstadt befinden sich die meisten Sehenswürdigkeiten wie das Heidelberger Schloss."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Der Schlangenweg.",
     "Der Philosophenweg."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lesetext: Philosophenweg Auf dem Naturbalkon des Philosophenwegs sitzt jeder Zuschauer in der ersten Reihe und kann Natur und Ausblick auf die Stadt gleichzeitig auf sich wirken lassen. Früher lockerten hier Gelehrte ihre Gedanken beim Spaziergang: Der Heidelberger Philosophenweg am Sonnenhang des Heiligenberges führte schon manchen zu neuen Einsichten. Von diesem Platz an der Sonne aus lässt sich der „Heidelberger Dreiklang“ von Altstadt, Fluss und Bergen genießen. Der Schlangenweg verbindet die Alte Brücke mit dem Philosophenweg. Auf einem sehr steilen langen Weg wird der Höhenunterschied zwischen Neckarufer und den Gärten des Philosophenweges überwunden. Ein klassischer Rundgang bindet den Philosophenweg, den Schlangenweg, die Alte Brücke und die Hauptstraße in der Heidelberger Altstadt zusammen zu einem ca. vier Kilometer langen Rundweg, der die schönsten Stadtansichten von Heidelberg bietet. In der Altstadt befinden sich die meisten Sehenswürdigkeiten wie das Heidelberger Schloss."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Der Schlangenweg ist eine Nebenstraße der Hauptstraße.",
     "Früher spazierten Gelehrte auf dem Philosophenweg.",
     "Heidelberg liegt am Neckar.",
-    "In der Altstadt sind die meisten Touristenattraktionen.Lesetext: Deutsches Brot – die größte Vielfalt der Welt"
+    "In der Altstadt sind die meisten Touristenattraktionen."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lesetext: Philosophenweg Auf dem Naturbalkon des Philosophenwegs sitzt jeder Zuschauer in der ersten Reihe und kann Natur und Ausblick auf die Stadt gleichzeitig auf sich wirken lassen. Früher lockerten hier Gelehrte ihre Gedanken beim Spaziergang: Der Heidelberger Philosophenweg am Sonnenhang des Heiligenberges führte schon manchen zu neuen Einsichten. Von diesem Platz an der Sonne aus lässt sich der „Heidelberger Dreiklang“ von Altstadt, Fluss und Bergen genießen. Der Schlangenweg verbindet die Alte Brücke mit dem Philosophenweg. Auf einem sehr steilen langen Weg wird der Höhenunterschied zwischen Neckarufer und den Gärten des Philosophenweges überwunden. Ein klassischer Rundgang bindet den Philosophenweg, den Schlangenweg, die Alte Brücke und die Hauptstraße in der Heidelberger Altstadt zusammen zu einem ca. vier Kilometer langen Rundweg, der die schönsten Stadtansichten von Heidelberg bietet. In der Altstadt befinden sich die meisten Sehenswürdigkeiten wie das Heidelberger Schloss."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Deutsches Brot ist nicht nur eine Beilage, sondern auch ein teures Nahrungsmittel.",
     "Jedes Jahr essen die Deutschen über 80 kg Brot und Brötchen."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lesetext: Deutsches Brot – die größte Vielfalt der Welt Weit über 3000 Brotarten werden in Deutschland gebacken. Diese große Vielfalt hat verschiedene Gründe: Einer davon sind die vielen Getreidesorten wie z. B. Weizen, Dinkel oder Roggen, die in Deutschland wachsen. Ein anderer Grund ist die gute und kreative Ausbildung von Bäckermeistern. Das deutsche Brot ist zum vollwertigen Nahrungsmittel geworden und stellt nicht nur eine Beilage dar. Über 80 Kilogramm Brot und Brötchen essen die Deutschen pro Jahr. Das Brot spielt dementsprechend in Deutschland eine sehr wichtige Rolle. Es ist deswegen keine große Überraschung, dass ausgerechnet ein sprechendes Brot mit dem Namen „Bernd“ zu einem beliebten Kinder-Idol wurde. Seit 2000 ist „Bernd das Brot“ auf dem Kinder-Sender „KiKA“ zu sehen, wo es mit seiner ewig schlechten Laune das Publikum zum Lachen bringt. Aber in Deutschland werden Bäckereien weniger: Schuld daran haben vor allem Supermärkte, die das Brot zu billigen Preisen verkaufen. Außerdem gibt es immer weniger Jugendliche, die den anstrengenden Beruf lernen wollen."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "ein sprechendes Brot",
     "macht eine Ausbildung"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lesetext: Deutsches Brot – die größte Vielfalt der Welt Weit über 3000 Brotarten werden in Deutschland gebacken. Diese große Vielfalt hat verschiedene Gründe: Einer davon sind die vielen Getreidesorten wie z. B. Weizen, Dinkel oder Roggen, die in Deutschland wachsen. Ein anderer Grund ist die gute und kreative Ausbildung von Bäckermeistern. Das deutsche Brot ist zum vollwertigen Nahrungsmittel geworden und stellt nicht nur eine Beilage dar. Über 80 Kilogramm Brot und Brötchen essen die Deutschen pro Jahr. Das Brot spielt dementsprechend in Deutschland eine sehr wichtige Rolle. Es ist deswegen keine große Überraschung, dass ausgerechnet ein sprechendes Brot mit dem Namen „Bernd“ zu einem beliebten Kinder-Idol wurde. Seit 2000 ist „Bernd das Brot“ auf dem Kinder-Sender „KiKA“ zu sehen, wo es mit seiner ewig schlechten Laune das Publikum zum Lachen bringt. Aber in Deutschland werden Bäckereien weniger: Schuld daran haben vor allem Supermärkte, die das Brot zu billigen Preisen verkaufen. Außerdem gibt es immer weniger Jugendliche, die den anstrengenden Beruf lernen wollen."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Roggen.",
     "Reis."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Lesetext: Deutsches Brot – die größte Vielfalt der Welt Weit über 3000 Brotarten werden in Deutschland gebacken. Diese große Vielfalt hat verschiedene Gründe: Einer davon sind die vielen Getreidesorten wie z. B. Weizen, Dinkel oder Roggen, die in Deutschland wachsen. Ein anderer Grund ist die gute und kreative Ausbildung von Bäckermeistern. Das deutsche Brot ist zum vollwertigen Nahrungsmittel geworden und stellt nicht nur eine Beilage dar. Über 80 Kilogramm Brot und Brötchen essen die Deutschen pro Jahr. Das Brot spielt dementsprechend in Deutschland eine sehr wichtige Rolle. Es ist deswegen keine große Überraschung, dass ausgerechnet ein sprechendes Brot mit dem Namen „Bernd“ zu einem beliebten Kinder-Idol wurde. Seit 2000 ist „Bernd das Brot“ auf dem Kinder-Sender „KiKA“ zu sehen, wo es mit seiner ewig schlechten Laune das Publikum zum Lachen bringt. Aber in Deutschland werden Bäckereien weniger: Schuld daran haben vor allem Supermärkte, die das Brot zu billigen Preisen verkaufen. Außerdem gibt es immer weniger Jugendliche, die den anstrengenden Beruf lernen wollen."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Bernd das Brot hat immer schlechte Laune.",
     "Bernd das Brot ist auf dem Kinder-Sender „KiKA“ zu sehen."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lesetext: Deutsches Brot – die größte Vielfalt der Welt Weit über 3000 Brotarten werden in Deutschland gebacken. Diese große Vielfalt hat verschiedene Gründe: Einer davon sind die vielen Getreidesorten wie z. B. Weizen, Dinkel oder Roggen, die in Deutschland wachsen. Ein anderer Grund ist die gute und kreative Ausbildung von Bäckermeistern. Das deutsche Brot ist zum vollwertigen Nahrungsmittel geworden und stellt nicht nur eine Beilage dar. Über 80 Kilogramm Brot und Brötchen essen die Deutschen pro Jahr. Das Brot spielt dementsprechend in Deutschland eine sehr wichtige Rolle. Es ist deswegen keine große Überraschung, dass ausgerechnet ein sprechendes Brot mit dem Namen „Bernd“ zu einem beliebten Kinder-Idol wurde. Seit 2000 ist „Bernd das Brot“ auf dem Kinder-Sender „KiKA“ zu sehen, wo es mit seiner ewig schlechten Laune das Publikum zum Lachen bringt. Aber in Deutschland werden Bäckereien weniger: Schuld daran haben vor allem Supermärkte, die das Brot zu billigen Preisen verkaufen. Außerdem gibt es immer weniger Jugendliche, die den anstrengenden Beruf lernen wollen."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l007'] = {
     "Niemand will als Bäcker arbeiten.",
     "Brot macht dick."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lesetext: Deutsches Brot – die größte Vielfalt der Welt Weit über 3000 Brotarten werden in Deutschland gebacken. Diese große Vielfalt hat verschiedene Gründe: Einer davon sind die vielen Getreidesorten wie z. B. Weizen, Dinkel oder Roggen, die in Deutschland wachsen. Ein anderer Grund ist die gute und kreative Ausbildung von Bäckermeistern. Das deutsche Brot ist zum vollwertigen Nahrungsmittel geworden und stellt nicht nur eine Beilage dar. Über 80 Kilogramm Brot und Brötchen essen die Deutschen pro Jahr. Das Brot spielt dementsprechend in Deutschland eine sehr wichtige Rolle. Es ist deswegen keine große Überraschung, dass ausgerechnet ein sprechendes Brot mit dem Namen „Bernd“ zu einem beliebten Kinder-Idol wurde. Seit 2000 ist „Bernd das Brot“ auf dem Kinder-Sender „KiKA“ zu sehen, wo es mit seiner ewig schlechten Laune das Publikum zum Lachen bringt. Aber in Deutschland werden Bäckereien weniger: Schuld daran haben vor allem Supermärkte, die das Brot zu billigen Preisen verkaufen. Außerdem gibt es immer weniger Jugendliche, die den anstrengenden Beruf lernen wollen."
   }
  ]
 };

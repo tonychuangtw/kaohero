@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Mặc dù tồn tại rất nhiều giáo phái khác nhau",
     "Mặc dù tồn tại rất nhiều tâm linh khác nhau",
     "Mặc dù tồn tại rất nhiều tôn giáo khác nhau",
-    "Mặc dù tồn tại rất nhiều lễ hội khác nhauĐọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75:"
+    "Mặc dù tồn tại rất nhiều lễ hội khác nhau"
    ],
    "a": 2,
    "exp": "✅ (C) 本句以轉折連詞 tuy nhiên 對比「雖然存在著許多不同的宗教（nhiều tôn giáo khác nhau），但佛教是台越兩國共同的主要宗教」，語意邏輯完全契合。\n❌ (A) 後句主詞為整體佛教，前句應指稱多種「宗教（tôn giáo）」，而非單一宗教內部的「教派（giáo phái）」。\n❌ (B) 「tâm linh」（心靈、靈性）偏向精神抽象層面，不能作為與佛教並列之體系名詞。\n❌ (D) 「lễ hội」（節日慶典）與後句之宗教體系主體不符。\n📚 出處：實用越南語複合句與台越宗教文化比較"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Chiến lược phòng ngừa và truy vết hiệu quả.",
     "Chiến lược phòng chống và cách ly hiệu quả."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75: Nhờ chiến lược phòng ngừa và truy vết hiệu quả, tác động của đại dịch tới nền kinh tế nội địa của Đài Loan nhìn chung vẫn trong tầm kiểm soát. Cũng như tất cả các nền kinh tế khác, hàng không và du lịch là hai ngành chịu ảnh hưởng mạnh nhất bởi COVID-19 ở Đài Loan. Chỉ trong ba tháng đầu năm 2020, lượng khách nước ngoài đến Đài Loan đã giảm 57%, và hai hãng hàng không lớn nhất của Đài Loan (China Airline và Eva Air) đã hứng chịu thiệt hại tài chính đáng kể, nhiều khách sạn địa phương không thể trụ vững phải đóng cửa. Doanh thu bán hàng trong ngành dịch vụ nhà hàng, khách sạn đã giảm 6.6% trong quý đầu tiên, có tới 6000 lao động đã bị cắt giảm, trên 20% lao động không được trả lương. Mặc dù chịu tổn thất, song các ngành dịch vụ ở Đài Loan vẫn hoạt động tốt hơn nhiều nền kinh tế khác nhờ hiệu ứng của các chính sách kích cầu của chính quyền. Cụ thể, nhằm giảm thiểu thiệt hại do cắt giảm và đóng cửa các đường băng quốc tế, Đài Loan đã xúc tiến nhiều chương trình khuyến mãi du lịch nội địa, đặc biệt là các tour du lịch tới Bành Hồ (một đảo trên Eo biển Đài Loan) nhằm dùng thị trường nội địa cứu lấy ngành hàng không và du lịch."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "20%",
     "6.6%"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75: Nhờ chiến lược phòng ngừa và truy vết hiệu quả, tác động của đại dịch tới nền kinh tế nội địa của Đài Loan nhìn chung vẫn trong tầm kiểm soát. Cũng như tất cả các nền kinh tế khác, hàng không và du lịch là hai ngành chịu ảnh hưởng mạnh nhất bởi COVID-19 ở Đài Loan. Chỉ trong ba tháng đầu năm 2020, lượng khách nước ngoài đến Đài Loan đã giảm 57%, và hai hãng hàng không lớn nhất của Đài Loan (China Airline và Eva Air) đã hứng chịu thiệt hại tài chính đáng kể, nhiều khách sạn địa phương không thể trụ vững phải đóng cửa. Doanh thu bán hàng trong ngành dịch vụ nhà hàng, khách sạn đã giảm 6.6% trong quý đầu tiên, có tới 6000 lao động đã bị cắt giảm, trên 20% lao động không được trả lương. Mặc dù chịu tổn thất, song các ngành dịch vụ ở Đài Loan vẫn hoạt động tốt hơn nhiều nền kinh tế khác nhờ hiệu ứng của các chính sách kích cầu của chính quyền. Cụ thể, nhằm giảm thiểu thiệt hại do cắt giảm và đóng cửa các đường băng quốc tế, Đài Loan đã xúc tiến nhiều chương trình khuyến mãi du lịch nội địa, đặc biệt là các tour du lịch tới Bành Hồ (một đảo trên Eo biển Đài Loan) nhằm dùng thị trường nội địa cứu lấy ngành hàng không và du lịch."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Không thể mở cửa kinh doanh đúng giờ.",
     "Không thể trụ vững phải đóng cửa kinh doanh."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75: Nhờ chiến lược phòng ngừa và truy vết hiệu quả, tác động của đại dịch tới nền kinh tế nội địa của Đài Loan nhìn chung vẫn trong tầm kiểm soát. Cũng như tất cả các nền kinh tế khác, hàng không và du lịch là hai ngành chịu ảnh hưởng mạnh nhất bởi COVID-19 ở Đài Loan. Chỉ trong ba tháng đầu năm 2020, lượng khách nước ngoài đến Đài Loan đã giảm 57%, và hai hãng hàng không lớn nhất của Đài Loan (China Airline và Eva Air) đã hứng chịu thiệt hại tài chính đáng kể, nhiều khách sạn địa phương không thể trụ vững phải đóng cửa. Doanh thu bán hàng trong ngành dịch vụ nhà hàng, khách sạn đã giảm 6.6% trong quý đầu tiên, có tới 6000 lao động đã bị cắt giảm, trên 20% lao động không được trả lương. Mặc dù chịu tổn thất, song các ngành dịch vụ ở Đài Loan vẫn hoạt động tốt hơn nhiều nền kinh tế khác nhờ hiệu ứng của các chính sách kích cầu của chính quyền. Cụ thể, nhằm giảm thiểu thiệt hại do cắt giảm và đóng cửa các đường băng quốc tế, Đài Loan đã xúc tiến nhiều chương trình khuyến mãi du lịch nội địa, đặc biệt là các tour du lịch tới Bành Hồ (một đảo trên Eo biển Đài Loan) nhằm dùng thị trường nội địa cứu lấy ngành hàng không và du lịch."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Hiệu ứng của các chính sách kích cầu.",
     "Hiệu ứng của các chính sách khuyến mãi."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75: Nhờ chiến lược phòng ngừa và truy vết hiệu quả, tác động của đại dịch tới nền kinh tế nội địa của Đài Loan nhìn chung vẫn trong tầm kiểm soát. Cũng như tất cả các nền kinh tế khác, hàng không và du lịch là hai ngành chịu ảnh hưởng mạnh nhất bởi COVID-19 ở Đài Loan. Chỉ trong ba tháng đầu năm 2020, lượng khách nước ngoài đến Đài Loan đã giảm 57%, và hai hãng hàng không lớn nhất của Đài Loan (China Airline và Eva Air) đã hứng chịu thiệt hại tài chính đáng kể, nhiều khách sạn địa phương không thể trụ vững phải đóng cửa. Doanh thu bán hàng trong ngành dịch vụ nhà hàng, khách sạn đã giảm 6.6% trong quý đầu tiên, có tới 6000 lao động đã bị cắt giảm, trên 20% lao động không được trả lương. Mặc dù chịu tổn thất, song các ngành dịch vụ ở Đài Loan vẫn hoạt động tốt hơn nhiều nền kinh tế khác nhờ hiệu ứng của các chính sách kích cầu của chính quyền. Cụ thể, nhằm giảm thiểu thiệt hại do cắt giảm và đóng cửa các đường băng quốc tế, Đài Loan đã xúc tiến nhiều chương trình khuyến mãi du lịch nội địa, đặc biệt là các tour du lịch tới Bành Hồ (một đảo trên Eo biển Đài Loan) nhằm dùng thị trường nội địa cứu lấy ngành hàng không và du lịch."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Ngành dịch vụ và vận chuyển hàng hóa.",
     "Ngành hàng không và du lịch.",
     "Ngành dịch vụ và du lịch.",
-    "Ngành hàng không và vận chuyển hàng hóa.Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80:"
+    "Ngành hàng không và vận chuyển hàng hóa."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 71 đến 75: Nhờ chiến lược phòng ngừa và truy vết hiệu quả, tác động của đại dịch tới nền kinh tế nội địa của Đài Loan nhìn chung vẫn trong tầm kiểm soát. Cũng như tất cả các nền kinh tế khác, hàng không và du lịch là hai ngành chịu ảnh hưởng mạnh nhất bởi COVID-19 ở Đài Loan. Chỉ trong ba tháng đầu năm 2020, lượng khách nước ngoài đến Đài Loan đã giảm 57%, và hai hãng hàng không lớn nhất của Đài Loan (China Airline và Eva Air) đã hứng chịu thiệt hại tài chính đáng kể, nhiều khách sạn địa phương không thể trụ vững phải đóng cửa. Doanh thu bán hàng trong ngành dịch vụ nhà hàng, khách sạn đã giảm 6.6% trong quý đầu tiên, có tới 6000 lao động đã bị cắt giảm, trên 20% lao động không được trả lương. Mặc dù chịu tổn thất, song các ngành dịch vụ ở Đài Loan vẫn hoạt động tốt hơn nhiều nền kinh tế khác nhờ hiệu ứng của các chính sách kích cầu của chính quyền. Cụ thể, nhằm giảm thiểu thiệt hại do cắt giảm và đóng cửa các đường băng quốc tế, Đài Loan đã xúc tiến nhiều chương trình khuyến mãi du lịch nội địa, đặc biệt là các tour du lịch tới Bành Hồ (một đảo trên Eo biển Đài Loan) nhằm dùng thị trường nội địa cứu lấy ngành hàng không và du lịch."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Một loại trà bán oxy hóa mà vẫn giữ được một phần các giá trị dinh dưỡng và không có đặc tínhchữa bệnh tự nhiên có trong trà xanh nguyên chất, có hương vị như trà thô và các tác dụng phụgây khó chịu cho dạ dày.",
     "Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tựnhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụngphụ khó chịu cho dạ dày."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80: Daniel Reid, chủ nhân của “Zen Trà”, đã mô tả trà Cao Sơn như sau: Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tự nhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụng phụ khó chịu cho dạ dày. Quá trình oxy hóa ngắn chuyển đổi các nguyên liệu trong trà xanh và tạo ra sự hòa trộn hoàn hảo của hương thơm và hương vị khiến cho trà Cao Sơn khác biệt với tất cả các loại trà khác. Việc trồng trọt và đánh giá cao trà Ô long Cao Sơn là gần tương tự như rượu vang. Với mỗi mùa vụ và mỗi ngọn núi lại cho ra một loại trà với hương vị độc đáo khác nhau, và mỗi năm thu hoạch cũng cho năng suất khác nhau. Những người yêu thích uống trà Cao Sơn không chỉ vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, nhưng nhiều hơn vậy trà Cao Sơn còn có hương thơm nhẹ nhàng như hoa lá và đôi khi là cả mùi trái cây. Cả hương thơm và mùi vị riêng của trà Cao Sơn được thấm đẫm nhuần nhuyễn khiến người thưởng trà được thư giãn và nâng cao tinh thần. Vì địa hình trồng trọt là núi cao, dốc và các trang trại trà thường nhỏ nên lượng thu hoạch không lớn và đó là lý do để tìm thấy được trà Cao Sơn chất lượng cao là điều không dễ dàng khi mà nhu cầu vô cùng lớn về dòng trà này tại Đài Loan. Trà Ô long bây giờ đang tràn ngập thị trường khiến cho việc lựa chọn của những người thưởng trà cũng khó khăn hơn. Nhưng với những ai đam mê uống trà, tuy có những sự khó khăn như vậy nhưng trà Cao Sơn chính cống sẽ không khiến cho bất cứ ai phải thất vọng."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Trà Cao Sơn có hương vị khác biệt với tất cả các loại trà khác.",
     "Trà Cao Sơn có hương vị tương đương với tất cả các loại trà khác."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80: Daniel Reid, chủ nhân của “Zen Trà”, đã mô tả trà Cao Sơn như sau: Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tự nhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụng phụ khó chịu cho dạ dày. Quá trình oxy hóa ngắn chuyển đổi các nguyên liệu trong trà xanh và tạo ra sự hòa trộn hoàn hảo của hương thơm và hương vị khiến cho trà Cao Sơn khác biệt với tất cả các loại trà khác. Việc trồng trọt và đánh giá cao trà Ô long Cao Sơn là gần tương tự như rượu vang. Với mỗi mùa vụ và mỗi ngọn núi lại cho ra một loại trà với hương vị độc đáo khác nhau, và mỗi năm thu hoạch cũng cho năng suất khác nhau. Những người yêu thích uống trà Cao Sơn không chỉ vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, nhưng nhiều hơn vậy trà Cao Sơn còn có hương thơm nhẹ nhàng như hoa lá và đôi khi là cả mùi trái cây. Cả hương thơm và mùi vị riêng của trà Cao Sơn được thấm đẫm nhuần nhuyễn khiến người thưởng trà được thư giãn và nâng cao tinh thần. Vì địa hình trồng trọt là núi cao, dốc và các trang trại trà thường nhỏ nên lượng thu hoạch không lớn và đó là lý do để tìm thấy được trà Cao Sơn chất lượng cao là điều không dễ dàng khi mà nhu cầu vô cùng lớn về dòng trà này tại Đài Loan. Trà Ô long bây giờ đang tràn ngập thị trường khiến cho việc lựa chọn của những người thưởng trà cũng khó khăn hơn. Nhưng với những ai đam mê uống trà, tuy có những sự khó khăn như vậy nhưng trà Cao Sơn chính cống sẽ không khiến cho bất cứ ai phải thất vọng."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Vì tiện ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà đỏ và trà xanh, cóhương thơm nhẹ nhàng như trái cây và đôi khi là cả mùi hoa lá.",
     "Vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, cóhương thơm nhẹ nhàng như thuốc bắc và đôi khi là cả mùi thuốc nam."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80: Daniel Reid, chủ nhân của “Zen Trà”, đã mô tả trà Cao Sơn như sau: Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tự nhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụng phụ khó chịu cho dạ dày. Quá trình oxy hóa ngắn chuyển đổi các nguyên liệu trong trà xanh và tạo ra sự hòa trộn hoàn hảo của hương thơm và hương vị khiến cho trà Cao Sơn khác biệt với tất cả các loại trà khác. Việc trồng trọt và đánh giá cao trà Ô long Cao Sơn là gần tương tự như rượu vang. Với mỗi mùa vụ và mỗi ngọn núi lại cho ra một loại trà với hương vị độc đáo khác nhau, và mỗi năm thu hoạch cũng cho năng suất khác nhau. Những người yêu thích uống trà Cao Sơn không chỉ vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, nhưng nhiều hơn vậy trà Cao Sơn còn có hương thơm nhẹ nhàng như hoa lá và đôi khi là cả mùi trái cây. Cả hương thơm và mùi vị riêng của trà Cao Sơn được thấm đẫm nhuần nhuyễn khiến người thưởng trà được thư giãn và nâng cao tinh thần. Vì địa hình trồng trọt là núi cao, dốc và các trang trại trà thường nhỏ nên lượng thu hoạch không lớn và đó là lý do để tìm thấy được trà Cao Sơn chất lượng cao là điều không dễ dàng khi mà nhu cầu vô cùng lớn về dòng trà này tại Đài Loan. Trà Ô long bây giờ đang tràn ngập thị trường khiến cho việc lựa chọn của những người thưởng trà cũng khó khăn hơn. Nhưng với những ai đam mê uống trà, tuy có những sự khó khăn như vậy nhưng trà Cao Sơn chính cống sẽ không khiến cho bất cứ ai phải thất vọng."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "chính hiệu và nhạt nhẽo",
     "chính nghĩa và đúng nguồn gốc"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80: Daniel Reid, chủ nhân của “Zen Trà”, đã mô tả trà Cao Sơn như sau: Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tự nhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụng phụ khó chịu cho dạ dày. Quá trình oxy hóa ngắn chuyển đổi các nguyên liệu trong trà xanh và tạo ra sự hòa trộn hoàn hảo của hương thơm và hương vị khiến cho trà Cao Sơn khác biệt với tất cả các loại trà khác. Việc trồng trọt và đánh giá cao trà Ô long Cao Sơn là gần tương tự như rượu vang. Với mỗi mùa vụ và mỗi ngọn núi lại cho ra một loại trà với hương vị độc đáo khác nhau, và mỗi năm thu hoạch cũng cho năng suất khác nhau. Những người yêu thích uống trà Cao Sơn không chỉ vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, nhưng nhiều hơn vậy trà Cao Sơn còn có hương thơm nhẹ nhàng như hoa lá và đôi khi là cả mùi trái cây. Cả hương thơm và mùi vị riêng của trà Cao Sơn được thấm đẫm nhuần nhuyễn khiến người thưởng trà được thư giãn và nâng cao tinh thần. Vì địa hình trồng trọt là núi cao, dốc và các trang trại trà thường nhỏ nên lượng thu hoạch không lớn và đó là lý do để tìm thấy được trà Cao Sơn chất lượng cao là điều không dễ dàng khi mà nhu cầu vô cùng lớn về dòng trà này tại Đài Loan. Trà Ô long bây giờ đang tràn ngập thị trường khiến cho việc lựa chọn của những người thưởng trà cũng khó khăn hơn. Nhưng với những ai đam mê uống trà, tuy có những sự khó khăn như vậy nhưng trà Cao Sơn chính cống sẽ không khiến cho bất cứ ai phải thất vọng."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d014'] = {
     "Vùng ven biển",
     "Vùng đồi núi cao"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Đọc đoạn văn dưới đây và trả lời các câu hỏi từ 76 đến 80: Daniel Reid, chủ nhân của “Zen Trà”, đã mô tả trà Cao Sơn như sau: Một loại trà bán oxy hóa mà vẫn giữ được tất cả các giá trị dinh dưỡng và đặc tính chữa bệnh tự nhiên có trong trà xanh nguyên chất, nhưng lại không có hương vị như trà thô và các tác dụng phụ khó chịu cho dạ dày. Quá trình oxy hóa ngắn chuyển đổi các nguyên liệu trong trà xanh và tạo ra sự hòa trộn hoàn hảo của hương thơm và hương vị khiến cho trà Cao Sơn khác biệt với tất cả các loại trà khác. Việc trồng trọt và đánh giá cao trà Ô long Cao Sơn là gần tương tự như rượu vang. Với mỗi mùa vụ và mỗi ngọn núi lại cho ra một loại trà với hương vị độc đáo khác nhau, và mỗi năm thu hoạch cũng cho năng suất khác nhau. Những người yêu thích uống trà Cao Sơn không chỉ vì lợi ích sức khỏe tuyệt vời của nó do được pha trộn các đặc tính của trà xanh và trà đen, nhưng nhiều hơn vậy trà Cao Sơn còn có hương thơm nhẹ nhàng như hoa lá và đôi khi là cả mùi trái cây. Cả hương thơm và mùi vị riêng của trà Cao Sơn được thấm đẫm nhuần nhuyễn khiến người thưởng trà được thư giãn và nâng cao tinh thần. Vì địa hình trồng trọt là núi cao, dốc và các trang trại trà thường nhỏ nên lượng thu hoạch không lớn và đó là lý do để tìm thấy được trà Cao Sơn chất lượng cao là điều không dễ dàng khi mà nhu cầu vô cùng lớn về dòng trà này tại Đài Loan. Trà Ô long bây giờ đang tràn ngập thị trường khiến cho việc lựa chọn của những người thưởng trà cũng khó khăn hơn. Nhưng với những ai đam mê uống trà, tuy có những sự khó khăn như vậy nhưng trà Cao Sơn chính cống sẽ không khiến cho bất cứ ai phải thất vọng."
   }
  ]
 };

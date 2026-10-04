@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Es geht um Quarantäne.",
     "Es geht um Bewegungsfreiheit."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Grundgedanke der Quarantäne ist die Isolation von Personen und das Vermeiden von zu engem Kontakt zum Schutze der Allgemeinheit. Im Falle von Infektionskrankheiten, die sich schnell Verbreiten, beispielsweise über die Tröpfcheninfektion, ist die Isolierung eine gute Möglichkeit um die Verbreitung der Krankheit einzudämmen. Je weniger Personen potenziell mit Erkrankten in Kontakt kommen, desto geringer wird die Wahrscheinlichkeit, dass sich die Infektion weiter ausbreitet. Man unterscheidet zwischen häuslicher Quarantäne und der Quarantäne im Krankenhaus. Bei der häuslichen Quarantäne isolieren sich die betroffenen Personen im eigenen Haus, und werden dazu angehalten dieses nach Möglichkeit nicht zu verlassen. Je nach Strenge der von den Behörden erlassenen Vorgaben darf das Haus in der Regel trotzdem noch für nötige Besorgungen (Supermarkt, Apotheke, …) verlassen werden. In besonderen Ausnahmefällen kann der Staat auch die im Grundgesetz festgeschriebene Bewegungsfreiheit für bestimmte Teile der Bevölkerung, oder auch die gesamte Bevölkerung einschränken. Auch wenn dies ein drastischer Einschnitt in die Persönlichkeitsrechte der Bürger sein mag, ist es hierbei wichtig sich immer vor Augen zu halten, dass solche Maßnahmen nur in besonderen Ausnahmezuständen zum Schutz der Bevölkerung ergriffen werden."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Die Tröpfcheninfektion kann behandelt werden.",
     "Die Tröpfcheninfektion ist eine Störung der normalen Funktion eines Körperteils."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Grundgedanke der Quarantäne ist die Isolation von Personen und das Vermeiden von zu engem Kontakt zum Schutze der Allgemeinheit. Im Falle von Infektionskrankheiten, die sich schnell Verbreiten, beispielsweise über die Tröpfcheninfektion, ist die Isolierung eine gute Möglichkeit um die Verbreitung der Krankheit einzudämmen. Je weniger Personen potenziell mit Erkrankten in Kontakt kommen, desto geringer wird die Wahrscheinlichkeit, dass sich die Infektion weiter ausbreitet. Man unterscheidet zwischen häuslicher Quarantäne und der Quarantäne im Krankenhaus. Bei der häuslichen Quarantäne isolieren sich die betroffenen Personen im eigenen Haus, und werden dazu angehalten dieses nach Möglichkeit nicht zu verlassen. Je nach Strenge der von den Behörden erlassenen Vorgaben darf das Haus in der Regel trotzdem noch für nötige Besorgungen (Supermarkt, Apotheke, …) verlassen werden. In besonderen Ausnahmefällen kann der Staat auch die im Grundgesetz festgeschriebene Bewegungsfreiheit für bestimmte Teile der Bevölkerung, oder auch die gesamte Bevölkerung einschränken. Auch wenn dies ein drastischer Einschnitt in die Persönlichkeitsrechte der Bürger sein mag, ist es hierbei wichtig sich immer vor Augen zu halten, dass solche Maßnahmen nur in besonderen Ausnahmezuständen zum Schutz der Bevölkerung ergriffen werden."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "in der Apotheke",
     "im eigenen Haus"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Grundgedanke der Quarantäne ist die Isolation von Personen und das Vermeiden von zu engem Kontakt zum Schutze der Allgemeinheit. Im Falle von Infektionskrankheiten, die sich schnell Verbreiten, beispielsweise über die Tröpfcheninfektion, ist die Isolierung eine gute Möglichkeit um die Verbreitung der Krankheit einzudämmen. Je weniger Personen potenziell mit Erkrankten in Kontakt kommen, desto geringer wird die Wahrscheinlichkeit, dass sich die Infektion weiter ausbreitet. Man unterscheidet zwischen häuslicher Quarantäne und der Quarantäne im Krankenhaus. Bei der häuslichen Quarantäne isolieren sich die betroffenen Personen im eigenen Haus, und werden dazu angehalten dieses nach Möglichkeit nicht zu verlassen. Je nach Strenge der von den Behörden erlassenen Vorgaben darf das Haus in der Regel trotzdem noch für nötige Besorgungen (Supermarkt, Apotheke, …) verlassen werden. In besonderen Ausnahmefällen kann der Staat auch die im Grundgesetz festgeschriebene Bewegungsfreiheit für bestimmte Teile der Bevölkerung, oder auch die gesamte Bevölkerung einschränken. Auch wenn dies ein drastischer Einschnitt in die Persönlichkeitsrechte der Bürger sein mag, ist es hierbei wichtig sich immer vor Augen zu halten, dass solche Maßnahmen nur in besonderen Ausnahmezuständen zum Schutz der Bevölkerung ergriffen werden."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Es bezieht sich auf den Nachteil der Quarantäne.",
     "Es bezieht sich auf die Infektion der Quarantäne."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Grundgedanke der Quarantäne ist die Isolation von Personen und das Vermeiden von zu engem Kontakt zum Schutze der Allgemeinheit. Im Falle von Infektionskrankheiten, die sich schnell Verbreiten, beispielsweise über die Tröpfcheninfektion, ist die Isolierung eine gute Möglichkeit um die Verbreitung der Krankheit einzudämmen. Je weniger Personen potenziell mit Erkrankten in Kontakt kommen, desto geringer wird die Wahrscheinlichkeit, dass sich die Infektion weiter ausbreitet. Man unterscheidet zwischen häuslicher Quarantäne und der Quarantäne im Krankenhaus. Bei der häuslichen Quarantäne isolieren sich die betroffenen Personen im eigenen Haus, und werden dazu angehalten dieses nach Möglichkeit nicht zu verlassen. Je nach Strenge der von den Behörden erlassenen Vorgaben darf das Haus in der Regel trotzdem noch für nötige Besorgungen (Supermarkt, Apotheke, …) verlassen werden. In besonderen Ausnahmefällen kann der Staat auch die im Grundgesetz festgeschriebene Bewegungsfreiheit für bestimmte Teile der Bevölkerung, oder auch die gesamte Bevölkerung einschränken. Auch wenn dies ein drastischer Einschnitt in die Persönlichkeitsrechte der Bürger sein mag, ist es hierbei wichtig sich immer vor Augen zu halten, dass solche Maßnahmen nur in besonderen Ausnahmezuständen zum Schutz der Bevölkerung ergriffen werden."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Ob die Maßnahmen zum Schutz der Bewegungsfreiheit führen.",
     "Ob die Bewegungsfreiheit der Bürger eingeschränkt werden kann.",
     "Ob die Einschränkung von Bewegungsfreiheit der Bürger zur Isolierung der Bevölkerung führt.",
-    "Ob die Einschränkung von Bewegungsfreiheit der Bürger zum Schutz der Bevölkerung führt.Hallo, liebe Leute !"
+    "Ob die Einschränkung von Bewegungsfreiheit der Bürger zum Schutz der Bevölkerung führt."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Grundgedanke der Quarantäne ist die Isolation von Personen und das Vermeiden von zu engem Kontakt zum Schutze der Allgemeinheit. Im Falle von Infektionskrankheiten, die sich schnell Verbreiten, beispielsweise über die Tröpfcheninfektion, ist die Isolierung eine gute Möglichkeit um die Verbreitung der Krankheit einzudämmen. Je weniger Personen potenziell mit Erkrankten in Kontakt kommen, desto geringer wird die Wahrscheinlichkeit, dass sich die Infektion weiter ausbreitet. Man unterscheidet zwischen häuslicher Quarantäne und der Quarantäne im Krankenhaus. Bei der häuslichen Quarantäne isolieren sich die betroffenen Personen im eigenen Haus, und werden dazu angehalten dieses nach Möglichkeit nicht zu verlassen. Je nach Strenge der von den Behörden erlassenen Vorgaben darf das Haus in der Regel trotzdem noch für nötige Besorgungen (Supermarkt, Apotheke, …) verlassen werden. In besonderen Ausnahmefällen kann der Staat auch die im Grundgesetz festgeschriebene Bewegungsfreiheit für bestimmte Teile der Bevölkerung, oder auch die gesamte Bevölkerung einschränken. Auch wenn dies ein drastischer Einschnitt in die Persönlichkeitsrechte der Bürger sein mag, ist es hierbei wichtig sich immer vor Augen zu halten, dass solche Maßnahmen nur in besonderen Ausnahmezuständen zum Schutz der Bevölkerung ergriffen werden."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Es geht um Konkurrenz im Reisebüro.",
     "Es geht um Reiserücktrittsversicherung im Reisebüro."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hallo, liebe Leute ! Mich beschäftigt folgendes Problem: Wir buchen immer in einem bestimmten Reisebüro, wir fühlen uns dort gut beraten und nett behandelt. Nun ist es aber so, dass mein Mann abwandern will. Und zwar aus folgenden Gründen: Wenn wir bei Karstatt buchen, gibt es ja Happy-Diggits, letztendlich Geld, was es zurück gibt und somit die Reise günstiger macht. Sein Kollege bucht immer bei Karstadt, auch dort gibt es super Beratung und kompetentes Personal. Nun macht auch noch ein anderes Reisebüro zusammen mit dem City Markt ein Angebot, dass die die Reiserücktrittsversicherung (ja rund 70,-€ ) übernehmen. Also noch mehr Konkurrenz für unser Stammreisebüro. Nun meine Frage: Hat schon mal jemand in seinem Büro verhandelt und Rabatt für seine Pauschalreise bekommen ? Ich würde ja gerne in unserem Büro bleiben, aber verstehen kann ich auch die Argumente meines Mannes, immerhin geht es ja um unser sauer verdientes Geld. Und 70,- Euro sind ja nun auch nicht grad wenig. Freu mich auf Eure Antworten. Liebe Grüße"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Der Mann hat vor, in Konkurrenz mit seiner Frau zu tretten.",
     "Der Mann hat vor, die Reise lustiger zu machen."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hallo, liebe Leute ! Mich beschäftigt folgendes Problem: Wir buchen immer in einem bestimmten Reisebüro, wir fühlen uns dort gut beraten und nett behandelt. Nun ist es aber so, dass mein Mann abwandern will. Und zwar aus folgenden Gründen: Wenn wir bei Karstatt buchen, gibt es ja Happy-Diggits, letztendlich Geld, was es zurück gibt und somit die Reise günstiger macht. Sein Kollege bucht immer bei Karstadt, auch dort gibt es super Beratung und kompetentes Personal. Nun macht auch noch ein anderes Reisebüro zusammen mit dem City Markt ein Angebot, dass die die Reiserücktrittsversicherung (ja rund 70,-€ ) übernehmen. Also noch mehr Konkurrenz für unser Stammreisebüro. Nun meine Frage: Hat schon mal jemand in seinem Büro verhandelt und Rabatt für seine Pauschalreise bekommen ? Ich würde ja gerne in unserem Büro bleiben, aber verstehen kann ich auch die Argumente meines Mannes, immerhin geht es ja um unser sauer verdientes Geld. Und 70,- Euro sind ja nun auch nicht grad wenig. Freu mich auf Eure Antworten. Liebe Grüße"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "„Happy-Diggits“ bedeutet kompetentes Personal.",
     "„Happy-Diggits“ bedeutet günstige Angebote."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hallo, liebe Leute ! Mich beschäftigt folgendes Problem: Wir buchen immer in einem bestimmten Reisebüro, wir fühlen uns dort gut beraten und nett behandelt. Nun ist es aber so, dass mein Mann abwandern will. Und zwar aus folgenden Gründen: Wenn wir bei Karstatt buchen, gibt es ja Happy-Diggits, letztendlich Geld, was es zurück gibt und somit die Reise günstiger macht. Sein Kollege bucht immer bei Karstadt, auch dort gibt es super Beratung und kompetentes Personal. Nun macht auch noch ein anderes Reisebüro zusammen mit dem City Markt ein Angebot, dass die die Reiserücktrittsversicherung (ja rund 70,-€ ) übernehmen. Also noch mehr Konkurrenz für unser Stammreisebüro. Nun meine Frage: Hat schon mal jemand in seinem Büro verhandelt und Rabatt für seine Pauschalreise bekommen ? Ich würde ja gerne in unserem Büro bleiben, aber verstehen kann ich auch die Argumente meines Mannes, immerhin geht es ja um unser sauer verdientes Geld. Und 70,- Euro sind ja nun auch nicht grad wenig. Freu mich auf Eure Antworten. Liebe Grüße"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "Die Reiserücktrittsversicherung dient dazu, wenn eine Reise zurückgetretten werden muss.",
     "Die Reiserücktrittsversicherung dient dazu, wenn eine Reise storniert werden muss."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Hallo, liebe Leute ! Mich beschäftigt folgendes Problem: Wir buchen immer in einem bestimmten Reisebüro, wir fühlen uns dort gut beraten und nett behandelt. Nun ist es aber so, dass mein Mann abwandern will. Und zwar aus folgenden Gründen: Wenn wir bei Karstatt buchen, gibt es ja Happy-Diggits, letztendlich Geld, was es zurück gibt und somit die Reise günstiger macht. Sein Kollege bucht immer bei Karstadt, auch dort gibt es super Beratung und kompetentes Personal. Nun macht auch noch ein anderes Reisebüro zusammen mit dem City Markt ein Angebot, dass die die Reiserücktrittsversicherung (ja rund 70,-€ ) übernehmen. Also noch mehr Konkurrenz für unser Stammreisebüro. Nun meine Frage: Hat schon mal jemand in seinem Büro verhandelt und Rabatt für seine Pauschalreise bekommen ? Ich würde ja gerne in unserem Büro bleiben, aber verstehen kann ich auch die Argumente meines Mannes, immerhin geht es ja um unser sauer verdientes Geld. Und 70,- Euro sind ja nun auch nicht grad wenig. Freu mich auf Eure Antworten. Liebe Grüße"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l007'] = {
     "mühsam",
     "streng"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hallo, liebe Leute ! Mich beschäftigt folgendes Problem: Wir buchen immer in einem bestimmten Reisebüro, wir fühlen uns dort gut beraten und nett behandelt. Nun ist es aber so, dass mein Mann abwandern will. Und zwar aus folgenden Gründen: Wenn wir bei Karstatt buchen, gibt es ja Happy-Diggits, letztendlich Geld, was es zurück gibt und somit die Reise günstiger macht. Sein Kollege bucht immer bei Karstadt, auch dort gibt es super Beratung und kompetentes Personal. Nun macht auch noch ein anderes Reisebüro zusammen mit dem City Markt ein Angebot, dass die die Reiserücktrittsversicherung (ja rund 70,-€ ) übernehmen. Also noch mehr Konkurrenz für unser Stammreisebüro. Nun meine Frage: Hat schon mal jemand in seinem Büro verhandelt und Rabatt für seine Pauschalreise bekommen ? Ich würde ja gerne in unserem Büro bleiben, aber verstehen kann ich auch die Argumente meines Mannes, immerhin geht es ja um unser sauer verdientes Geld. Und 70,- Euro sind ja nun auch nicht grad wenig. Freu mich auf Eure Antworten. Liebe Grüße"
   }
  ]
 };

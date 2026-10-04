@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Los europeos.",
     "Los mayas."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Por los europeos.",
     "A través de la Revolución Industrial."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Cuando le añaden azúcar.",
     "Después de que los españoles toman mucho."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Cuando se desarrolla la comunicación multimedia.",
     "Cuando existen las variedades de chocolate."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Antes de la Revolución Industrial.",
     "Antes de 1876.",
     "A partir de 1876.",
-    "En la actualidad.Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas,"
+    "En la actualidad."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El chocolate tiene una antigua historia: los aztecas comienzan consumiéndolo en forma de papilla o como bebida aromatizada con miel o canela. Hasta Europa llega a través de los españoles, que rápidamente se dan cuenta de su gran valor. Al principio no se comercializa muy bien, pero le añaden azúcar y es cuando Europa se vuelve loca por el chocolate. Con la llegada de la Revolución Industrial, se ponen en marcha máquinas capaces de procesarlo rápidamente. Las tabletas, tal y como son ahora, no llegan al mercado hasta 1876."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Por la amabilidad de sus gentes y la diversidad de sus culturas.",
     "Por la inteligencia de sus poblaciones y la complejidad de sus culturas."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Las poblaciones son de América.",
     "Se entremezclan las poblaciones de origen africano, amerindio y europeo."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "En la República Dominicana.",
     "En la etnia."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "En la República Dominicana.",
     "En cada isla."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d008'] = {
     "Ritmo marcado por la tambora.",
     "No se mezcla con otros instrumentos."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Si el mundo americano se caracteriza por la gran diversidad de sus gentes y la complejidad de sus culturas, todo ello aumenta espectacularmente en la región caribeña, donde las poblaciones de origen africano, amerindio y europeo se entremezclan. Uno de los aspectos que más llama la atención en el mundo caribeño es la calidad y variedad de sus ritmos musicales. Cada isla ha desarrollado su propio estilo, según sus orígenes étnicos. Por ejemplo, en Trinidad y Tobago nació el calipso, ritmo que se consigue con redobles sobre pequeños barriles de petróleo. En la República Dominicana tiene su origen el merengue, ritmo marcado por la tambora, a la que posteriormente se añadieron maracas, cencerros y otros instrumentos que dan lugar a una música sensual."
   }
  ]
 };

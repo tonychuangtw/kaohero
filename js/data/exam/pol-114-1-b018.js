@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-114-1-b018'] = {
     "surveillance",
     "training",
     "assessment",
-    "analysis請依下文回答第 51 題至第 55 題Navigation has never been a task that can be accomplished by one person or one skill alone, but"
+    "analysis"
    ],
    "a": 0,
    "exp": "✅ (A) 句中所舉的空中巡邏、水下聲納等遙測技術，目的在 monitor（監看）海上活動並偵測非法傾倒或捕撈，故空格應填 surveillance methods（監控方法）。\n❌ (B) training 是「訓練」，遙測技術不是訓練方式。\n❌ (C) assessment 是「評估」，重在事後判斷，不是即時監看的手段。\n❌ (D) analysis 是「分析」，屬取得資料後的處理階段，而非偵測本身。\n📚 出處：字彙 surveillance（監視、監控）；海域執法遙測技術。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-114-1-b018'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "inclination",
+    "suspension",
+    "maintenance",
+    "tolerance"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114060_511_0208_51.webp"
+   "psg": "Navigation has never been a task that can be accomplished by one person or one skill alone, but rather a multi-disciplinary collaboration that combines wisdom, technology and experience. An excellent crew member must be proficient in various marine operation processes, including ship operation, daily engine 51 , and emergency repair of system abnormalities, all of which are related to the safety of the ship itself and the lives of the crew. In addition, navigation planning also needs to take into account tides, ocean 52 , port restrictions and maritime traffic density to ensure that the voyage is both safe and efficient. The construction of the vessel that carries the crew is also important. The stability, wave resistance and 53 of a ship all depend on the scientific design of its skeleton structure and the use of materials. Finally, before leaving the port, the ship needs to 54 the latest meteorological maps and sea condition simulations and make risk predictions based on the climate characteristics of different sea areas. Therefore, only by fully mastering seamanship, navigation technology, knowledge of ship structure and the ability to interpret sea conditions can one take the lead in the 55 maritime environment and ensure the safe arrival of the ship and crew."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "cabins",
+    "clinics",
+    "contents",
+    "currents"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_511_0208_52.webp"
+   "psg": "Navigation has never been a task that can be accomplished by one person or one skill alone, but rather a multi-disciplinary collaboration that combines wisdom, technology and experience. An excellent crew member must be proficient in various marine operation processes, including ship operation, daily engine 51 , and emergency repair of system abnormalities, all of which are related to the safety of the ship itself and the lives of the crew. In addition, navigation planning also needs to take into account tides, ocean 52 , port restrictions and maritime traffic density to ensure that the voyage is both safe and efficient. The construction of the vessel that carries the crew is also important. The stability, wave resistance and 53 of a ship all depend on the scientific design of its skeleton structure and the use of materials. Finally, before leaving the port, the ship needs to 54 the latest meteorological maps and sea condition simulations and make risk predictions based on the climate characteristics of different sea areas. Therefore, only by fully mastering seamanship, navigation technology, knowledge of ship structure and the ability to interpret sea conditions can one take the lead in the 55 maritime environment and ensure the safe arrival of the ship and crew."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "availability",
+    "durability",
+    "probability",
+    "visibility"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114060_511_0208_53.webp"
+   "psg": "Navigation has never been a task that can be accomplished by one person or one skill alone, but rather a multi-disciplinary collaboration that combines wisdom, technology and experience. An excellent crew member must be proficient in various marine operation processes, including ship operation, daily engine 51 , and emergency repair of system abnormalities, all of which are related to the safety of the ship itself and the lives of the crew. In addition, navigation planning also needs to take into account tides, ocean 52 , port restrictions and maritime traffic density to ensure that the voyage is both safe and efficient. The construction of the vessel that carries the crew is also important. The stability, wave resistance and 53 of a ship all depend on the scientific design of its skeleton structure and the use of materials. Finally, before leaving the port, the ship needs to 54 the latest meteorological maps and sea condition simulations and make risk predictions based on the climate characteristics of different sea areas. Therefore, only by fully mastering seamanship, navigation technology, knowledge of ship structure and the ability to interpret sea conditions can one take the lead in the 55 maritime environment and ensure the safe arrival of the ship and crew."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "analyze",
+    "comply",
+    "obstruct",
+    "transform"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114060_511_0208_54.webp"
+   "psg": "Navigation has never been a task that can be accomplished by one person or one skill alone, but rather a multi-disciplinary collaboration that combines wisdom, technology and experience. An excellent crew member must be proficient in various marine operation processes, including ship operation, daily engine 51 , and emergency repair of system abnormalities, all of which are related to the safety of the ship itself and the lives of the crew. In addition, navigation planning also needs to take into account tides, ocean 52 , port restrictions and maritime traffic density to ensure that the voyage is both safe and efficient. The construction of the vessel that carries the crew is also important. The stability, wave resistance and 53 of a ship all depend on the scientific design of its skeleton structure and the use of materials. Finally, before leaving the port, the ship needs to 54 the latest meteorological maps and sea condition simulations and make risk predictions based on the climate characteristics of different sea areas. Therefore, only by fully mastering seamanship, navigation technology, knowledge of ship structure and the ability to interpret sea conditions can one take the lead in the 55 maritime environment and ensure the safe arrival of the ship and crew."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ever-changing",
+    "ever-green",
+    "ever-present",
+    "ever-victorious"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114060_511_0208_55.webp"
+   "psg": "Navigation has never been a task that can be accomplished by one person or one skill alone, but rather a multi-disciplinary collaboration that combines wisdom, technology and experience. An excellent crew member must be proficient in various marine operation processes, including ship operation, daily engine 51 , and emergency repair of system abnormalities, all of which are related to the safety of the ship itself and the lives of the crew. In addition, navigation planning also needs to take into account tides, ocean 52 , port restrictions and maritime traffic density to ensure that the voyage is both safe and efficient. The construction of the vessel that carries the crew is also important. The stability, wave resistance and 53 of a ship all depend on the scientific design of its skeleton structure and the use of materials. Finally, before leaving the port, the ship needs to 54 the latest meteorological maps and sea condition simulations and make risk predictions based on the climate characteristics of different sea areas. Therefore, only by fully mastering seamanship, navigation technology, knowledge of ship structure and the ability to interpret sea conditions can one take the lead in the 55 maritime environment and ensure the safe arrival of the ship and crew."
   },
   {
    "n": 56,

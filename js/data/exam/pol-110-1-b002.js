@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-110-1-b002'] = {
     "maliciously",
     "exclusively",
     "impartially",
-    "beneficially請依下文回答第 41 題至第 45 題："
+    "beneficially"
    ],
    "a": 1,
    "exp": "✅ (B) exclusively 意為「專門地、唯獨地」，指若「僅／只」從單一特定電視頻道獲取資訊，容易導致世界觀偏頗（biased）。\n❌ (A) maliciously 意為「懷有惡意地」，受眾收看新聞非出於惡意，不合語意。\n❌ (C) impartially 意為「公正無偏見地」，若公正客觀獲取資訊則不會導致偏頗，語意矛盾。\n❌ (D) beneficially 意為「有益地」，與後文偏見之負面結果不符。\n📚 出處：核心副詞「exclusively」（專門地、獨占地）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-110-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "turn in",
+    "turn up",
+    "toss down",
+    "toss and turn"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_131_0604_41.webp"
+   "psg": "Your bed could be watching you! If you have any of a variety of smart beds or sleep apps, it knows when you fall asleep and when you 41 . A manufacturer says the bed collects more than 8 billion biometric data points every night, 42 sent to the company’s servers via an app. According to the company, analyzing all the personal data not only helps them inform the consumers about their health, but also aids the company’s efforts to make better products. Still, consumer- privacy 43 are increasingly raising concerns about the fate of personal health information, which is potentially valuable to companies that collect and sell it. 44 , consumers are flocking to sleep tracking devices and under- mattress sensors that claim to quantify sleep. But do consumers really need an app to tell them how rested they feel in the morning? One unexpected 45 is that people who become too attuned to their data may experience anxiety and an inability to sleep. People get all this data and get upset about having a perfect number."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "they are",
+    "which are",
+    "they have been",
+    "that have been"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_131_0604_42.webp"
+   "psg": "Your bed could be watching you! If you have any of a variety of smart beds or sleep apps, it knows when you fall asleep and when you 41 . A manufacturer says the bed collects more than 8 billion biometric data points every night, 42 sent to the company’s servers via an app. According to the company, analyzing all the personal data not only helps them inform the consumers about their health, but also aids the company’s efforts to make better products. Still, consumer- privacy 43 are increasingly raising concerns about the fate of personal health information, which is potentially valuable to companies that collect and sell it. 44 , consumers are flocking to sleep tracking devices and under- mattress sensors that claim to quantify sleep. But do consumers really need an app to tell them how rested they feel in the morning? One unexpected 45 is that people who become too attuned to their data may experience anxiety and an inability to sleep. People get all this data and get upset about having a perfect number."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "advocates",
+    "challengers",
+    "contestants",
+    "offenders"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_131_0604_43.webp"
+   "psg": "Your bed could be watching you! If you have any of a variety of smart beds or sleep apps, it knows when you fall asleep and when you 41 . A manufacturer says the bed collects more than 8 billion biometric data points every night, 42 sent to the company’s servers via an app. According to the company, analyzing all the personal data not only helps them inform the consumers about their health, but also aids the company’s efforts to make better products. Still, consumer- privacy 43 are increasingly raising concerns about the fate of personal health information, which is potentially valuable to companies that collect and sell it. 44 , consumers are flocking to sleep tracking devices and under- mattress sensors that claim to quantify sleep. But do consumers really need an app to tell them how rested they feel in the morning? One unexpected 45 is that people who become too attuned to their data may experience anxiety and an inability to sleep. People get all this data and get upset about having a perfect number."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Likewise",
+    "Nonetheless",
+    "Otherwise",
+    "Subsequently"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_131_0604_44.webp"
+   "psg": "Your bed could be watching you! If you have any of a variety of smart beds or sleep apps, it knows when you fall asleep and when you 41 . A manufacturer says the bed collects more than 8 billion biometric data points every night, 42 sent to the company’s servers via an app. According to the company, analyzing all the personal data not only helps them inform the consumers about their health, but also aids the company’s efforts to make better products. Still, consumer- privacy 43 are increasingly raising concerns about the fate of personal health information, which is potentially valuable to companies that collect and sell it. 44 , consumers are flocking to sleep tracking devices and under- mattress sensors that claim to quantify sleep. But do consumers really need an app to tell them how rested they feel in the morning? One unexpected 45 is that people who become too attuned to their data may experience anxiety and an inability to sleep. People get all this data and get upset about having a perfect number."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "elaboration",
+    "achievement",
+    "consequence",
+    "preference"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110070_131_0604_45.webp"
+   "psg": "Your bed could be watching you! If you have any of a variety of smart beds or sleep apps, it knows when you fall asleep and when you 41 . A manufacturer says the bed collects more than 8 billion biometric data points every night, 42 sent to the company’s servers via an app. According to the company, analyzing all the personal data not only helps them inform the consumers about their health, but also aids the company’s efforts to make better products. Still, consumer- privacy 43 are increasingly raising concerns about the fate of personal health information, which is potentially valuable to companies that collect and sell it. 44 , consumers are flocking to sleep tracking devices and under- mattress sensors that claim to quantify sleep. But do consumers really need an app to tell them how rested they feel in the morning? One unexpected 45 is that people who become too attuned to their data may experience anxiety and an inability to sleep. People get all this data and get upset about having a perfect number."
   },
   {
    "n": 46,

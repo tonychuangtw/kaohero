@@ -999,76 +999,71 @@ window.APP_EXAM_PAPERS['tou-106-1-d006'] = {
    "n": 71,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 71 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dans",
+    "à",
+    "sur",
+    "pour"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106040_403_0408_71.webp"
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
   },
   {
    "n": 72,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 72 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "créer",
+    "résoudre",
+    "partager",
+    "demander"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106040_403_0408_72.webp"
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
   },
   {
    "n": 73,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 73 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "repoussé",
+    "resté",
+    "regardé",
+    "rattrapé"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106040_403_0408_73.webp"
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
   },
   {
    "n": 74,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 74 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "où",
+    "laquelle",
+    "dont",
+    "combien"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106040_403_0408_74.webp"
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
   },
   {
    "n": 75,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 75 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "concernant",
+    "concerts",
+    "concernent",
+    "concernées"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106040_403_0408_75.webp"
+   "psg": "Le ou la guide accompagnateur de tourisme travaille 71 une agence ou un organisateur de voyages. Son métier est souvent saisonnier. […] Il s’efforce de 72 les différents problèmes rencontrés, comme la prise en charge de l’hébergement des clients lorsqu’un vol est 73 . […] Dans les hôtels, l’accompagnateur doit satisfaire les clients, en négociant leurs intérêts avec les hôteliers, tout en défendant ceux de l’agence 74 il dépend. Le guide accompagnateur doit avoir des connaissances 75 les villes, régions et pays visités."
   },
   {
    "n": 76,

@@ -580,7 +580,7 @@ window.APP_EXAM_PAPERS['gao-113-1-p002'] = {
     "decision",
     "defense",
     "demand",
-    "deposit請依下文回答第 41 題至第 45 題：A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study,"
+    "deposit"
    ],
    "a": 3,
    "exp": "✅ (D) deposit 意為「訂金、押金」，訂房須先以信用卡支付五成訂金。\n❌ (A) decision 是決定。\n❌ (B) defense 是防禦。\n❌ (C) demand 是要求。\n📚 出處：英文字彙（deposit 的字義）"
@@ -589,76 +589,71 @@ window.APP_EXAM_PAPERS['gao-113-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "attainable",
+    "conceivable",
+    "susceptible",
+    "tangible"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113080_401_0113_41.webp"
+   "psg": "A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study, in which 14,216 people between 35 to 74 years old were surveyed, shows that individuals following vegetarian diets are more 41 to depression. In fact, those who don’t eat meat are twice more likely to have a depressive episode than meat consumers. While there is evidence 42 to a lack of meat consumption causing more mental health issues, there are some conflicting studies that find no correlation between vegetarian diets and mood effects. According to these studies, it might be too straightforward to 43 that the former is causing the latter via nutritional deficiency. A healthy diet goes 44 identifying as a vegetarian or non-vegetarian. There are other 45 not examined but are plausibly linked to both vegetarianism and depression. One thing for sure is that a balanced intake accompanied by regular exercise is essential in maintaining physical and mental health."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "point",
+    "points",
+    "pointed",
+    "pointing"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113080_401_0113_42.webp"
+   "psg": "A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study, in which 14,216 people between 35 to 74 years old were surveyed, shows that individuals following vegetarian diets are more 41 to depression. In fact, those who don’t eat meat are twice more likely to have a depressive episode than meat consumers. While there is evidence 42 to a lack of meat consumption causing more mental health issues, there are some conflicting studies that find no correlation between vegetarian diets and mood effects. According to these studies, it might be too straightforward to 43 that the former is causing the latter via nutritional deficiency. A healthy diet goes 44 identifying as a vegetarian or non-vegetarian. There are other 45 not examined but are plausibly linked to both vegetarianism and depression. One thing for sure is that a balanced intake accompanied by regular exercise is essential in maintaining physical and mental health."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "assume",
+    "perform",
+    "execute",
+    "transform"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113080_401_0113_43.webp"
+   "psg": "A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study, in which 14,216 people between 35 to 74 years old were surveyed, shows that individuals following vegetarian diets are more 41 to depression. In fact, those who don’t eat meat are twice more likely to have a depressive episode than meat consumers. While there is evidence 42 to a lack of meat consumption causing more mental health issues, there are some conflicting studies that find no correlation between vegetarian diets and mood effects. According to these studies, it might be too straightforward to 43 that the former is causing the latter via nutritional deficiency. A healthy diet goes 44 identifying as a vegetarian or non-vegetarian. There are other 45 not examined but are plausibly linked to both vegetarianism and depression. One thing for sure is that a balanced intake accompanied by regular exercise is essential in maintaining physical and mental health."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "except for",
+    "less than",
+    "nothing but",
+    "far beyond"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113080_401_0113_44.webp"
+   "psg": "A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study, in which 14,216 people between 35 to 74 years old were surveyed, shows that individuals following vegetarian diets are more 41 to depression. In fact, those who don’t eat meat are twice more likely to have a depressive episode than meat consumers. While there is evidence 42 to a lack of meat consumption causing more mental health issues, there are some conflicting studies that find no correlation between vegetarian diets and mood effects. According to these studies, it might be too straightforward to 43 that the former is causing the latter via nutritional deficiency. A healthy diet goes 44 identifying as a vegetarian or non-vegetarian. There are other 45 not examined but are plausibly linked to both vegetarianism and depression. One thing for sure is that a balanced intake accompanied by regular exercise is essential in maintaining physical and mental health."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "propaganda",
+    "formations",
+    "variables",
+    "brochures"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113080_401_0113_45.webp"
+   "psg": "A recent study from Brazil finds a connection between vegetarianism and mental health issues. The study, in which 14,216 people between 35 to 74 years old were surveyed, shows that individuals following vegetarian diets are more 41 to depression. In fact, those who don’t eat meat are twice more likely to have a depressive episode than meat consumers. While there is evidence 42 to a lack of meat consumption causing more mental health issues, there are some conflicting studies that find no correlation between vegetarian diets and mood effects. According to these studies, it might be too straightforward to 43 that the former is causing the latter via nutritional deficiency. A healthy diet goes 44 identifying as a vegetarian or non-vegetarian. There are other 45 not examined but are plausibly linked to both vegetarianism and depression. One thing for sure is that a balanced intake accompanied by regular exercise is essential in maintaining physical and mental health."
   },
   {
    "n": 46,

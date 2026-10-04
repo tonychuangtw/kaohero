@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-112-1-c013'] = {
     "served",
     "imposed",
     "observed",
-    "researched請依下文回答第 41 題至第 45 題Should capital punishment be 41 ? People have been arguing over this controversial issue for a very long time."
+    "researched"
    ],
    "a": 1,
    "exp": "✅ (B) impose 常用於 impose something on/upon somebody，指「將（任務、義務、限制、稅捐）加諸於某人」。全句意為「身為消防員，我必須執行被交付給我的任務」，被動語態 has been imposed upon me 正是此固定搭配。\n❌ (A) serve 不以 serve...upon 表示「交付任務」；serve a summons on someone 指送達傳票，受詞為文書而非任務。\n❌ (C) observe 指「遵守、觀察」，不與 upon 連用表示課予任務。\n❌ (D) research 指「研究」，與「執行被交付的任務」語意不合。\n📚 出處：字彙搭配 impose sth. on／upon sb.；被動語態與介系詞。"
@@ -595,61 +595,57 @@ window.APP_EXAM_PAPERS['pol-112-1-c013'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "suspect",
+    "prospect",
+    "aspect",
+    "concept"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112070_602_0208_42.webp"
+   "psg": "Should capital punishment be 41 ? People have been arguing over this controversial issue for a very long time. The people who oppose it and the people who favor it hold their own ground firmly – never succumb to the opinions of the other side. Opponents of the death penalty believe that it doesn’t make any sense to take one life for another. They also doubt whether judges can always convict a 42 fairly. They believe that the court may 43 innocent people by mistake. On the other hand, 44 of capital punishment believe that it’s fair to take the life of a convicted murderer for the unforgivable crime he or she committed. In addition, they think that the fear of the death penalty is sure to 45 crimes. In other words, the cases of murder will be on the decrease due to the fear of the death sentence. As a result, there will be far fewer victims of murder in the foreseeable future."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "coordinate",
+    "monitor",
+    "strain",
+    "execute"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112070_602_0208_43.webp"
+   "psg": "Should capital punishment be 41 ? People have been arguing over this controversial issue for a very long time. The people who oppose it and the people who favor it hold their own ground firmly – never succumb to the opinions of the other side. Opponents of the death penalty believe that it doesn’t make any sense to take one life for another. They also doubt whether judges can always convict a 42 fairly. They believe that the court may 43 innocent people by mistake. On the other hand, 44 of capital punishment believe that it’s fair to take the life of a convicted murderer for the unforgivable crime he or she committed. In addition, they think that the fear of the death penalty is sure to 45 crimes. In other words, the cases of murder will be on the decrease due to the fear of the death sentence. As a result, there will be far fewer victims of murder in the foreseeable future."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "mentors",
+    "proponents",
+    "pharmacists",
+    "contestants"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112070_602_0208_44.webp"
+   "psg": "Should capital punishment be 41 ? People have been arguing over this controversial issue for a very long time. The people who oppose it and the people who favor it hold their own ground firmly – never succumb to the opinions of the other side. Opponents of the death penalty believe that it doesn’t make any sense to take one life for another. They also doubt whether judges can always convict a 42 fairly. They believe that the court may 43 innocent people by mistake. On the other hand, 44 of capital punishment believe that it’s fair to take the life of a convicted murderer for the unforgivable crime he or she committed. In addition, they think that the fear of the death penalty is sure to 45 crimes. In other words, the cases of murder will be on the decrease due to the fear of the death sentence. As a result, there will be far fewer victims of murder in the foreseeable future."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "provoke",
+    "promote",
+    "deter",
+    "loiter"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112070_602_0208_45.webp"
+   "psg": "Should capital punishment be 41 ? People have been arguing over this controversial issue for a very long time. The people who oppose it and the people who favor it hold their own ground firmly – never succumb to the opinions of the other side. Opponents of the death penalty believe that it doesn’t make any sense to take one life for another. They also doubt whether judges can always convict a 42 fairly. They believe that the court may 43 innocent people by mistake. On the other hand, 44 of capital punishment believe that it’s fair to take the life of a convicted murderer for the unforgivable crime he or she committed. In addition, they think that the fear of the death penalty is sure to 45 crimes. In other words, the cases of murder will be on the decrease due to the fear of the death sentence. As a result, there will be far fewer victims of murder in the foreseeable future."
   },
   {
    "n": 46,

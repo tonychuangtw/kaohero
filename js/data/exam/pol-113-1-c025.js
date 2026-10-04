@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-113-1-c025'] = {
     "slippery",
     "stormy",
     "sticky",
-    "stingy請依下文回答第 46 題至第 50 題In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to"
+    "stingy"
    ],
    "a": 0,
    "exp": "✅ (A) slippery 意為「濕滑的」，路上積雪融化後地面覆蓋水與薄冰而變得很滑，與前句 Because 所引導的原因一致。\n❌ (B) stormy 意為「暴風雨的」，形容天氣狀況而非地面狀態。\n❌ (C) sticky 意為「黏的」，融雪並不會使地面發黏。\n❌ (D) stingy 意為「小氣的」，形容人的個性，語意不合。\n📚 出處：字彙——slippery（濕滑的）。"
@@ -649,76 +649,71 @@ window.APP_EXAM_PAPERS['pol-113-1-c025'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dismay",
+    "relief",
+    "patriot",
+    "ecstasy"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_402_0204_46.webp"
+   "psg": "In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to the checkout. While in line, you look up company reviews on your phone. To your 46 , the reviews say this company has been making untruthful, misleading claims. You’ve just experienced greenwashing, a marketing 47 that uses false information to sell products to consumers who care about the environment. Today, consumers have become more interested in 48 brands. Many companies attempt to benefit the environment and advertise their hard work; 49 , many others make false claims to attract customers to buy their greenwashed products. To avoid greenwashed products, consumers should look for a certificate label and more transparent information. 50 the common greenwashing words, including “green,” “natural,” “eco-friendly,” and “plant-based.” Perhaps the best way to ensure that you are environmentally aware is to reduce the amount you buy and reuse what you have."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "capacity",
+    "occupation",
+    "revenue",
+    "technique"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113060_402_0204_47.webp"
+   "psg": "In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to the checkout. While in line, you look up company reviews on your phone. To your 46 , the reviews say this company has been making untruthful, misleading claims. You’ve just experienced greenwashing, a marketing 47 that uses false information to sell products to consumers who care about the environment. Today, consumers have become more interested in 48 brands. Many companies attempt to benefit the environment and advertise their hard work; 49 , many others make false claims to attract customers to buy their greenwashed products. To avoid greenwashed products, consumers should look for a certificate label and more transparent information. 50 the common greenwashing words, including “green,” “natural,” “eco-friendly,” and “plant-based.” Perhaps the best way to ensure that you are environmentally aware is to reduce the amount you buy and reuse what you have."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ubiquitous",
+    "luxurious",
+    "prohibitive",
+    "sustainable"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113060_402_0204_48.webp"
+   "psg": "In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to the checkout. While in line, you look up company reviews on your phone. To your 46 , the reviews say this company has been making untruthful, misleading claims. You’ve just experienced greenwashing, a marketing 47 that uses false information to sell products to consumers who care about the environment. Today, consumers have become more interested in 48 brands. Many companies attempt to benefit the environment and advertise their hard work; 49 , many others make false claims to attract customers to buy their greenwashed products. To avoid greenwashed products, consumers should look for a certificate label and more transparent information. 50 the common greenwashing words, including “green,” “natural,” “eco-friendly,” and “plant-based.” Perhaps the best way to ensure that you are environmentally aware is to reduce the amount you buy and reuse what you have."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as a result",
+    "on the other hand",
+    "for one thing",
+    "in other words"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_402_0204_49.webp"
+   "psg": "In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to the checkout. While in line, you look up company reviews on your phone. To your 46 , the reviews say this company has been making untruthful, misleading claims. You’ve just experienced greenwashing, a marketing 47 that uses false information to sell products to consumers who care about the environment. Today, consumers have become more interested in 48 brands. Many companies attempt to benefit the environment and advertise their hard work; 49 , many others make false claims to attract customers to buy their greenwashed products. To avoid greenwashed products, consumers should look for a certificate label and more transparent information. 50 the common greenwashing words, including “green,” “natural,” “eco-friendly,” and “plant-based.” Perhaps the best way to ensure that you are environmentally aware is to reduce the amount you buy and reuse what you have."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Beware of",
+    "Along with",
+    "Instead of",
+    "Judging from"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_402_0204_50.webp"
+   "psg": "In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to the checkout. While in line, you look up company reviews on your phone. To your 46 , the reviews say this company has been making untruthful, misleading claims. You’ve just experienced greenwashing, a marketing 47 that uses false information to sell products to consumers who care about the environment. Today, consumers have become more interested in 48 brands. Many companies attempt to benefit the environment and advertise their hard work; 49 , many others make false claims to attract customers to buy their greenwashed products. To avoid greenwashed products, consumers should look for a certificate label and more transparent information. 50 the common greenwashing words, including “green,” “natural,” “eco-friendly,” and “plant-based.” Perhaps the best way to ensure that you are environmentally aware is to reduce the amount you buy and reuse what you have."
   }
  ]
 };

@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
     "certified",
     "navigated",
     "acclaimed",
-    "undermined請依下文回答第 51 題至第 55 題："
+    "undermined"
    ],
    "a": 3,
    "exp": "✅ (D) undermine 意為「逐漸削弱、損害（威信、基礎）」。一連串醜聞與爭議在過去數年間嚴重損害政府威信，與 prestige 搭配最自然。\n❌ (A) certify 是證明、認證，語意與醜聞造成的負面影響相反。\n❌ (B) navigate 是導航、駕駛或設法通過（難關），受詞不會是 prestige。\n❌ (C) acclaim 是稱讚、讚揚，屬正面語意，與 scandals 矛盾。\n📚 出處：英文字彙 undermine one's prestige／credibility（損害威信）。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-111-1-b014'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "mourn",
+    "revere",
+    "delight",
+    "surprise"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/111070_506_0207_51.webp"
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "existence",
+    "obligation",
+    "ventilation",
+    "manipulation"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111070_506_0207_52.webp"
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "reduce",
+    "promote",
+    "provoke",
+    "strengthen"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/111070_506_0207_53.webp"
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "low",
+    "filled",
+    "dense",
+    "flooded"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/111070_506_0207_54.webp"
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "prosperity",
+    "temperature",
+    "significance",
+    "resistance"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/111070_506_0207_55.webp"
+   "psg": "Backdrafts are of great danger. They often 51 even highly experienced firefighters. A backdraft can occur when a compartment fire has little or no 52 . Due to this, little or no oxygen can flow into the compartment. Then, because fires 53 oxygen, the oxygen concentration decreases. When the concentration becomes too 54 to support combustion, this may cause a phenomenon in which when material is heated enough, it begins to break down into smaller compounds, including hydrogen. However, the hydrogen and smoke remain at a hot 55 enough to auto-ignite. If oxygen is then re-introduced to the compartment, e.g. by opening a door or window to a closed room, while the gasses are still hot enough to auto-ignite, combustion will often restart abruptly."
   },
   {
    "n": 56,

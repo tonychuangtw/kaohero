@@ -662,7 +662,7 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "Poverty is inherited.",
     "There are not enough jobs.",
     "The poor are denied getting financial services.",
-    "Poverty is a result of interactions among institutions and people.請依下文回答第 46 題至 50 題：The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held"
+    "Poverty is a result of interactions among institutions and people."
    ],
    "a": 0,
    "exp": "✅ (A) 全文完全未提及「貧窮是遺傳世襲的（Poverty is inherited）」，作者反而認為貧窮是外在社會與經濟體制缺陷所造成的結果。\n❌ (B) 文中提到正統經濟學僅承認薪資就業（wage-employment）且無法提供足夠工作機會，屬文中提及之原因。\n❌ (C) 第二段提到窮人被銀行拒絕提供金融服務（denied financial services），屬文中提及貧窮持續的原因。\n❌ (D) 第一段指出體制政策解釋機構與人之間的互動關係造成了此問題，屬文中提及之內容。\n📚 出處：英文閱讀測驗；細節排除題（NOT Mentioned）"
@@ -678,7 +678,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "The number and function of the rockets fired.",
     "The importance of runners’ praying to San Fermin."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held in honor of Saint Fermin in Pamplona in Spain every year from 6th to 14th July. It is also traditionally held in other places such as towns and villages across Spain and Portugal, some cities in Mexico, and southern France during the summer. The origin of the run can be traced back to the 14th century in northeastern Spain, where bull breeders needed to transport their bulls from the fields outside the city to the bullring, where they would be killed. To speed up the transporting process, workers would hurry the cattle using tactics of fear and excitement. Later this practice turned into a competition, as young adults would attempt to race in front of the bulls. It seemed that the modern-day celebration has evolved from this as well as individual commercial and bullfighting fiestas. The Pamplona bull run is the highest-profile event of the San Fermin festival. The first bull running is on 7th July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m. sharp. It all starts with a rocket fired to confirm that the gate of the bullring has been opened. After runners pray to San Fermin, a second rocket announces that the bulls, typically six, have left. The bulls and the runners then proceed along the route. A third rocket is set off once all the bulls have entered the bullring. When the bulls are in the bullpen, the final rocket ends the run. The vast number of participants nowadays adds to the already considerable danger of running alongside wild bulls weighing in the region of 700 kg each. Although plenty security and first-aid personnel are on hand, there is really little they can do to prevent people from injury, or even death, during the running of the bulls."
   },
   {
    "n": 47,
@@ -691,7 +692,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "Rockets are fired to create an atmosphere of excitement for the bull run.",
     "The festival of San Fermin can be traced back to the bullfighting tradition."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held in honor of Saint Fermin in Pamplona in Spain every year from 6th to 14th July. It is also traditionally held in other places such as towns and villages across Spain and Portugal, some cities in Mexico, and southern France during the summer. The origin of the run can be traced back to the 14th century in northeastern Spain, where bull breeders needed to transport their bulls from the fields outside the city to the bullring, where they would be killed. To speed up the transporting process, workers would hurry the cattle using tactics of fear and excitement. Later this practice turned into a competition, as young adults would attempt to race in front of the bulls. It seemed that the modern-day celebration has evolved from this as well as individual commercial and bullfighting fiestas. The Pamplona bull run is the highest-profile event of the San Fermin festival. The first bull running is on 7th July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m. sharp. It all starts with a rocket fired to confirm that the gate of the bullring has been opened. After runners pray to San Fermin, a second rocket announces that the bulls, typically six, have left. The bulls and the runners then proceed along the route. A third rocket is set off once all the bulls have entered the bullring. When the bulls are in the bullpen, the final rocket ends the run. The vast number of participants nowadays adds to the already considerable danger of running alongside wild bulls weighing in the region of 700 kg each. Although plenty security and first-aid personnel are on hand, there is really little they can do to prevent people from injury, or even death, during the running of the bulls."
   },
   {
    "n": 48,
@@ -704,7 +706,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "Rules for participants in the running of the bulls.",
     "The potential danger of joining the bull running."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held in honor of Saint Fermin in Pamplona in Spain every year from 6th to 14th July. It is also traditionally held in other places such as towns and villages across Spain and Portugal, some cities in Mexico, and southern France during the summer. The origin of the run can be traced back to the 14th century in northeastern Spain, where bull breeders needed to transport their bulls from the fields outside the city to the bullring, where they would be killed. To speed up the transporting process, workers would hurry the cattle using tactics of fear and excitement. Later this practice turned into a competition, as young adults would attempt to race in front of the bulls. It seemed that the modern-day celebration has evolved from this as well as individual commercial and bullfighting fiestas. The Pamplona bull run is the highest-profile event of the San Fermin festival. The first bull running is on 7th July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m. sharp. It all starts with a rocket fired to confirm that the gate of the bullring has been opened. After runners pray to San Fermin, a second rocket announces that the bulls, typically six, have left. The bulls and the runners then proceed along the route. A third rocket is set off once all the bulls have entered the bullring. When the bulls are in the bullpen, the final rocket ends the run. The vast number of participants nowadays adds to the already considerable danger of running alongside wild bulls weighing in the region of 700 kg each. Although plenty security and first-aid personnel are on hand, there is really little they can do to prevent people from injury, or even death, during the running of the bulls."
   },
   {
    "n": 49,
@@ -717,7 +720,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "Feelings.",
     "Techniques."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held in honor of Saint Fermin in Pamplona in Spain every year from 6th to 14th July. It is also traditionally held in other places such as towns and villages across Spain and Portugal, some cities in Mexico, and southern France during the summer. The origin of the run can be traced back to the 14th century in northeastern Spain, where bull breeders needed to transport their bulls from the fields outside the city to the bullring, where they would be killed. To speed up the transporting process, workers would hurry the cattle using tactics of fear and excitement. Later this practice turned into a competition, as young adults would attempt to race in front of the bulls. It seemed that the modern-day celebration has evolved from this as well as individual commercial and bullfighting fiestas. The Pamplona bull run is the highest-profile event of the San Fermin festival. The first bull running is on 7th July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m. sharp. It all starts with a rocket fired to confirm that the gate of the bullring has been opened. After runners pray to San Fermin, a second rocket announces that the bulls, typically six, have left. The bulls and the runners then proceed along the route. A third rocket is set off once all the bulls have entered the bullring. When the bulls are in the bullpen, the final rocket ends the run. The vast number of participants nowadays adds to the already considerable danger of running alongside wild bulls weighing in the region of 700 kg each. Although plenty security and first-aid personnel are on hand, there is really little they can do to prevent people from injury, or even death, during the running of the bulls."
   },
   {
    "n": 50,
@@ -730,7 +734,8 @@ window.APP_EXAM_PAPERS['pol-107-1-b002'] = {
     "Personal and well-intentioned.",
     "Light-hearted and informative."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held in honor of Saint Fermin in Pamplona in Spain every year from 6th to 14th July. It is also traditionally held in other places such as towns and villages across Spain and Portugal, some cities in Mexico, and southern France during the summer. The origin of the run can be traced back to the 14th century in northeastern Spain, where bull breeders needed to transport their bulls from the fields outside the city to the bullring, where they would be killed. To speed up the transporting process, workers would hurry the cattle using tactics of fear and excitement. Later this practice turned into a competition, as young adults would attempt to race in front of the bulls. It seemed that the modern-day celebration has evolved from this as well as individual commercial and bullfighting fiestas. The Pamplona bull run is the highest-profile event of the San Fermin festival. The first bull running is on 7th July, followed by one on each of the following mornings of the festival, beginning every day at 8 a.m. sharp. It all starts with a rocket fired to confirm that the gate of the bullring has been opened. After runners pray to San Fermin, a second rocket announces that the bulls, typically six, have left. The bulls and the runners then proceed along the route. A third rocket is set off once all the bulls have entered the bullring. When the bulls are in the bullpen, the final rocket ends the run. The vast number of participants nowadays adds to the already considerable danger of running alongside wild bulls weighing in the region of 700 kg each. Although plenty security and first-aid personnel are on hand, there is really little they can do to prevent people from injury, or even death, during the running of the bulls."
   }
  ]
 };

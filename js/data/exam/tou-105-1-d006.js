@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d006'] = {
     "est stable depuis plusieurs années",
     "a considérablement chuté pendant plusieurs années"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Savez-vous que le public qui visite le patrimoine culturel tout au long de l’année n’augmente pas, mais stagne ou décroît? Et savez-vous que ce public – les statistiques sont hélas formelles – est d’avantage riche que pauvre, vieux que jeune, étranger que français? C’est pourquoi j’ai créé les journées du patrimoine lorsque j’étais ministre de la Culture. Pour que nos monuments soient une fois par an porte ouverte, gratuitement, à tous, quels que soient leur âge et leur condition. L’objectif, c’était – et c’est encore – que les Français s’approprient ou se réapproprient un patrimoine qui est en définitive le leur. Et qu’ils prennent l’habitude d’y revenir! Le public de proximité, c’est seulement 3% des visiteurs actuels. Les Parisiens ne visitent pas l’Arc de triomphe, pas plus que les Angevins le château d’Angers. C’est cela qu’il faut changer. ( Jack Lang, 20 minutes—No-355 2003 )"
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d006'] = {
     "pauvres et étrangers",
     "vieux et français"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Savez-vous que le public qui visite le patrimoine culturel tout au long de l’année n’augmente pas, mais stagne ou décroît? Et savez-vous que ce public – les statistiques sont hélas formelles – est d’avantage riche que pauvre, vieux que jeune, étranger que français? C’est pourquoi j’ai créé les journées du patrimoine lorsque j’étais ministre de la Culture. Pour que nos monuments soient une fois par an porte ouverte, gratuitement, à tous, quels que soient leur âge et leur condition. L’objectif, c’était – et c’est encore – que les Français s’approprient ou se réapproprient un patrimoine qui est en définitive le leur. Et qu’ils prennent l’habitude d’y revenir! Le public de proximité, c’est seulement 3% des visiteurs actuels. Les Parisiens ne visitent pas l’Arc de triomphe, pas plus que les Angevins le château d’Angers. C’est cela qu’il faut changer. ( Jack Lang, 20 minutes—No-355 2003 )"
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d006'] = {
     "que plus de Français prennent l’habitude de visiter leur patrimoine",
     "que le nombre de jeunes visiteurs dépasse le nombre de vieux visiteurs"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Savez-vous que le public qui visite le patrimoine culturel tout au long de l’année n’augmente pas, mais stagne ou décroît? Et savez-vous que ce public – les statistiques sont hélas formelles – est d’avantage riche que pauvre, vieux que jeune, étranger que français? C’est pourquoi j’ai créé les journées du patrimoine lorsque j’étais ministre de la Culture. Pour que nos monuments soient une fois par an porte ouverte, gratuitement, à tous, quels que soient leur âge et leur condition. L’objectif, c’était – et c’est encore – que les Français s’approprient ou se réapproprient un patrimoine qui est en définitive le leur. Et qu’ils prennent l’habitude d’y revenir! Le public de proximité, c’est seulement 3% des visiteurs actuels. Les Parisiens ne visitent pas l’Arc de triomphe, pas plus que les Angevins le château d’Angers. C’est cela qu’il faut changer. ( Jack Lang, 20 minutes—No-355 2003 )"
   },
   {
    "n": 74,

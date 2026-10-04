@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "appealing",
     "captivating",
     "descending",
-    "staggeringTaiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of"
+    "staggering"
    ],
    "a": 3,
    "exp": "✅ (D) staggering 是「驚人的、令人吃驚的」；油價漲幅驚人，客運業者才會考慮調漲票價，因果才成立。\n❌ (A) appealing 是「吸引人的」，語意正面，不會迫使業者漲價。\n❌ (B) captivating 是「迷人的」，多形容表演或景色。\n❌ (C) descending 是「下降的」，油價下跌不會促使票價上漲，前後矛盾。\n📚 出處：英文字彙；a staggering rise／increase 形容驚人漲幅的用法。"
@@ -656,7 +656,8 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "To analyze the way Morris Chang persuaded leading companies to buy chips made by TSMC.",
     "To outline the impacts of Morris Chang’s retirement on TSMC and other technological companies."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Taiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of semiconductor chips. Located in Hsinchu Science Park in Taiwan, TSMC was founded in 1987 by Morris Chang. TSMC went public in Taiwan’s stock market in 1994. As of 2021, it has become one of the ten largest companies in the world. Most of the leading technological companies are customers of TSMC, including AMD, Apple, Intel, MediaTek, NVIDIA, and Qualcomm, to name but a few. Today TSMC controls more than half the global market for made-to-order chips. Products such as iPhones, automobiles, and supercomputers are all dependent on TSMC for making their chips. It is widely acknowledged that most of the credit goes to Morris Chang in TSMC’s success story. Born in 1931, Chang had originally planned to become a writer. However, his father convinced him that engineering would be a more stable career. In 1949, Chang moved to the United States to attend Harvard University. Later, he transferred to MIT, where he earned both his bachelor’s and master’s degrees. Then in 1964, Chang earned his doctorate in electrical engineering from Stanford University. From 1958 to 1983, Chang worked for Texas Instruments, responsible for the company’s semiconductor business. To promote technological development in Taiwan, Chang founded TSMC. Under his leadership, TSMC has constructed cutting-edge plants taking the lead in research, development, and production. In 1998, Businessweek selected Chang as one of the top 25 managers of the year. Later the same year, he was named by Bancamerica as one of the most significant contributors in the fifty years of semiconductor industry. In 2018, Chang formally announced his retirement. Reflecting upon the wisdom he has gained as CEO of TSMC, Chang remarked that everything in a company must constantly be made anew for that is the only way to make a difference."
   },
   {
    "n": 47,
@@ -669,7 +670,8 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "MediaTek.",
     "Qualcomm."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Taiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of semiconductor chips. Located in Hsinchu Science Park in Taiwan, TSMC was founded in 1987 by Morris Chang. TSMC went public in Taiwan’s stock market in 1994. As of 2021, it has become one of the ten largest companies in the world. Most of the leading technological companies are customers of TSMC, including AMD, Apple, Intel, MediaTek, NVIDIA, and Qualcomm, to name but a few. Today TSMC controls more than half the global market for made-to-order chips. Products such as iPhones, automobiles, and supercomputers are all dependent on TSMC for making their chips. It is widely acknowledged that most of the credit goes to Morris Chang in TSMC’s success story. Born in 1931, Chang had originally planned to become a writer. However, his father convinced him that engineering would be a more stable career. In 1949, Chang moved to the United States to attend Harvard University. Later, he transferred to MIT, where he earned both his bachelor’s and master’s degrees. Then in 1964, Chang earned his doctorate in electrical engineering from Stanford University. From 1958 to 1983, Chang worked for Texas Instruments, responsible for the company’s semiconductor business. To promote technological development in Taiwan, Chang founded TSMC. Under his leadership, TSMC has constructed cutting-edge plants taking the lead in research, development, and production. In 1998, Businessweek selected Chang as one of the top 25 managers of the year. Later the same year, he was named by Bancamerica as one of the most significant contributors in the fifty years of semiconductor industry. In 2018, Chang formally announced his retirement. Reflecting upon the wisdom he has gained as CEO of TSMC, Chang remarked that everything in a company must constantly be made anew for that is the only way to make a difference."
   },
   {
    "n": 48,
@@ -682,7 +684,8 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "Extremely modern and with all the advanced features.",
     "Happening by chance instead of following a definite plan."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Taiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of semiconductor chips. Located in Hsinchu Science Park in Taiwan, TSMC was founded in 1987 by Morris Chang. TSMC went public in Taiwan’s stock market in 1994. As of 2021, it has become one of the ten largest companies in the world. Most of the leading technological companies are customers of TSMC, including AMD, Apple, Intel, MediaTek, NVIDIA, and Qualcomm, to name but a few. Today TSMC controls more than half the global market for made-to-order chips. Products such as iPhones, automobiles, and supercomputers are all dependent on TSMC for making their chips. It is widely acknowledged that most of the credit goes to Morris Chang in TSMC’s success story. Born in 1931, Chang had originally planned to become a writer. However, his father convinced him that engineering would be a more stable career. In 1949, Chang moved to the United States to attend Harvard University. Later, he transferred to MIT, where he earned both his bachelor’s and master’s degrees. Then in 1964, Chang earned his doctorate in electrical engineering from Stanford University. From 1958 to 1983, Chang worked for Texas Instruments, responsible for the company’s semiconductor business. To promote technological development in Taiwan, Chang founded TSMC. Under his leadership, TSMC has constructed cutting-edge plants taking the lead in research, development, and production. In 1998, Businessweek selected Chang as one of the top 25 managers of the year. Later the same year, he was named by Bancamerica as one of the most significant contributors in the fifty years of semiconductor industry. In 2018, Chang formally announced his retirement. Reflecting upon the wisdom he has gained as CEO of TSMC, Chang remarked that everything in a company must constantly be made anew for that is the only way to make a difference."
   },
   {
    "n": 49,
@@ -695,7 +698,8 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "Morris Chang’s ability and contribution are recognized by both Businessweek and Bancamerica.",
     "Morris Chang received his MA degree from Stanford University and his Ph.D. degree from MIT."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Taiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of semiconductor chips. Located in Hsinchu Science Park in Taiwan, TSMC was founded in 1987 by Morris Chang. TSMC went public in Taiwan’s stock market in 1994. As of 2021, it has become one of the ten largest companies in the world. Most of the leading technological companies are customers of TSMC, including AMD, Apple, Intel, MediaTek, NVIDIA, and Qualcomm, to name but a few. Today TSMC controls more than half the global market for made-to-order chips. Products such as iPhones, automobiles, and supercomputers are all dependent on TSMC for making their chips. It is widely acknowledged that most of the credit goes to Morris Chang in TSMC’s success story. Born in 1931, Chang had originally planned to become a writer. However, his father convinced him that engineering would be a more stable career. In 1949, Chang moved to the United States to attend Harvard University. Later, he transferred to MIT, where he earned both his bachelor’s and master’s degrees. Then in 1964, Chang earned his doctorate in electrical engineering from Stanford University. From 1958 to 1983, Chang worked for Texas Instruments, responsible for the company’s semiconductor business. To promote technological development in Taiwan, Chang founded TSMC. Under his leadership, TSMC has constructed cutting-edge plants taking the lead in research, development, and production. In 1998, Businessweek selected Chang as one of the top 25 managers of the year. Later the same year, he was named by Bancamerica as one of the most significant contributors in the fifty years of semiconductor industry. In 2018, Chang formally announced his retirement. Reflecting upon the wisdom he has gained as CEO of TSMC, Chang remarked that everything in a company must constantly be made anew for that is the only way to make a difference."
   },
   {
    "n": 50,
@@ -708,7 +712,8 @@ window.APP_EXAM_PAPERS['pol-114-1-c002'] = {
     "Objective.",
     "Pessimistic."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Taiwan Semiconductor Manufacturing Company, or TSMC, is the world’s largest contract manufacturer of semiconductor chips. Located in Hsinchu Science Park in Taiwan, TSMC was founded in 1987 by Morris Chang. TSMC went public in Taiwan’s stock market in 1994. As of 2021, it has become one of the ten largest companies in the world. Most of the leading technological companies are customers of TSMC, including AMD, Apple, Intel, MediaTek, NVIDIA, and Qualcomm, to name but a few. Today TSMC controls more than half the global market for made-to-order chips. Products such as iPhones, automobiles, and supercomputers are all dependent on TSMC for making their chips. It is widely acknowledged that most of the credit goes to Morris Chang in TSMC’s success story. Born in 1931, Chang had originally planned to become a writer. However, his father convinced him that engineering would be a more stable career. In 1949, Chang moved to the United States to attend Harvard University. Later, he transferred to MIT, where he earned both his bachelor’s and master’s degrees. Then in 1964, Chang earned his doctorate in electrical engineering from Stanford University. From 1958 to 1983, Chang worked for Texas Instruments, responsible for the company’s semiconductor business. To promote technological development in Taiwan, Chang founded TSMC. Under his leadership, TSMC has constructed cutting-edge plants taking the lead in research, development, and production. In 1998, Businessweek selected Chang as one of the top 25 managers of the year. Later the same year, he was named by Bancamerica as one of the most significant contributors in the fifty years of semiconductor industry. In 2018, Chang formally announced his retirement. Reflecting upon the wisdom he has gained as CEO of TSMC, Chang remarked that everything in a company must constantly be made anew for that is the only way to make a difference."
   }
  ]
 };

@@ -614,7 +614,7 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
     "hatchet",
     "space",
     "curse",
-    "feast請依下文回答第 44 題至第 47 題："
+    "feast"
    ],
    "a": 1,
    "exp": "✅ (B) space 意為「空間、空地」，指推土機剷出的三至四公尺寬防火線開闢出一塊緩衝空間，消防員可從該空間實施迎面迎火回燒（back-burn）。\n❌ (A) hatchet 意為短柄小斧頭，消防員回燒係沿著隔離帶空間作業而非從斧頭作業。\n❌ (C) curse 意為詛咒，與開闢防火隔離帶完全無關。\n❌ (D) feast 意為盛宴，與山林防火作業語意不符。\n📚 出處：專業英文（森林野火防治與防火線 Firebreaks）。"
@@ -623,61 +623,57 @@ window.APP_EXAM_PAPERS['pol-106-1-c013'] = {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ways",
+    "fatalities",
+    "weights",
+    "signs"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106070_602_0210_44.webp"
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "residential",
+    "commercial",
+    "presidential",
+    "potential"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106070_602_0210_45.webp"
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
   },
   {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "infidelity",
+    "reliance",
+    "encouragement",
+    "protection"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106070_602_0210_46.webp"
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "incidental",
+    "accidental",
+    "coincidental",
+    "extinguished"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106070_602_0210_47.webp"
+   "psg": "Fires in dwellings are a serious public policy problem. Approximately 80 percent of all fire 44 worldwide are the result of fires that originate in a 45 occupancy. Since homes are historically the place where occupants are most vulnerable and have offered the least amount of fire 46 to their occupants, this should come as no surprise. Moreover, research has revealed that changes in materials used for furnishing, building materials and components, and construction methods have resulted in the potential for an increased level of hazard from a/an 47 dwelling fire."
   },
   {
    "n": 48,

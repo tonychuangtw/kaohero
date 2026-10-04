@@ -514,7 +514,7 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
     "After the Second World War, more natives started to use English.",
     "The Maori language maintained its post-war dominance despite the urge to use English.",
     "People stopped using the Maori language when they joined the Second World War.",
-    "The Second World War failed to change the language structure of New Zealand.第 37 題至第 41 題為題組The digital lifestyle is far from being ＿＿＿ 37 . Mobile computing, hand-held gadgets and wireless"
+    "The Second World War failed to change the language structure of New Zealand."
    ],
    "a": 0,
    "exp": "✅ (A) 原句說毛利語一直維持到二戰、大規模都市化開始為止，言下之意是戰後原住民開始更多使用英語。\n❌ (B) 原句正好相反，毛利語在戰後未能維持優勢。\n❌ (C) 原句是以二戰為時間分界，不是說人們參戰時停用毛利語。\n❌ (D) 二戰後的都市化確實改變了語言使用，並非未能改變。\n📚 出處：閱讀理解題，persist until 的語意推論"
@@ -539,46 +539,43 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "with",
+    "without",
+    "where",
+    "why"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104180_301_0206_38.webp"
+   "psg": "為題組 The digital lifestyle is far from being 37 . Mobile computing, hand-held gadgets and wireless communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "supreme",
+    "heightened",
+    "escalating",
+    "magnifying"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104180_301_0206_39.webp"
+   "psg": "為題組 The digital lifestyle is far from being 37 . Mobile computing, hand-held gadgets and wireless communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dollars",
+    "products",
+    "subscribers",
+    "cashes"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104180_301_0206_40.webp"
+   "psg": "為題組 The digital lifestyle is far from being 37 . Mobile computing, hand-held gadgets and wireless communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without."
   },
   {
    "n": 41,
@@ -593,7 +590,8 @@ window.APP_EXAM_PAPERS['loc-104-1-a002'] = {
    ],
    "needfig": true,
    "fig": "img/q/104180_301_0206_41.webp",
-   "a": 1
+   "a": 1,
+   "psg": "為題組 The digital lifestyle is far from being 37 . Mobile computing, hand-held gadgets and wireless communications all add up to an active on-the-go approach to life, made more fun—and more productive—through technology. A look at the digital lifestyle wouldn’t be complete 38 considering NTT DoCoMo’s latest endeavors. The i-mode service continues to reign 39 as the world’s most popular mobile internet service, providing email and Internet access to more than 46 million 40 . The company is focusing increasingly on transforming the mobile phone into a “lifestyle infrastructure.” Its “Osaifu-Ketai” service, which gives mobile phones wallet-like functions, leverages the convenience of the handset with cashless 41 for everything from riding the train to shopping. A few years ago, you wouldn’t leave home without your plastic credit cards. In today’s digital world, it is our mobile phones and other hand-held gadgets we won’t leave home without."
   },
   {
    "n": 42,

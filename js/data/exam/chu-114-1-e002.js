@@ -574,7 +574,7 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
     "desperate",
     "sincere",
     "separate",
-    "instant請依下文回答第 41 題至第 45 題A meetup is a gathering or event where people with similar interests come together to socialize, network, or"
+    "instant"
    ],
    "a": 2,
    "exp": "✅ (C) 證人被分別隔開在不同房間偵訊，用 separate 。\n❌ (A) desperate 是絕望的。\n❌ (B) sincere 是真誠的。\n❌ (D) instant 是立即的。\n📚 出處：英文．字彙"
@@ -583,46 +583,43 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "which",
+    "whether",
+    "where",
+    "whose"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114010_501_0102_41.webp"
+   "psg": "A meetup is a gathering or event where people with similar interests come together to socialize, network, or participate in activities. It’s like a planned get-together 41 one can meet new people and connect with others who share their hobbies, passions, or goals. Meetups can take many 42 , from casual coffee meetups to organized group outings. For example, a book club meetup might bring together book lovers to discuss their 43 reads, share recommendations, and enjoy lively conversations. Similarly, a hiking meetup could 44 a group of outdoor enthusiasts coming together to explore nature trails, enjoy scenic views, and bond over their love for hiking. Meetups provide opportunities for people to make new friends, learn from one another, and build supportive communities based on shared interests and experiences. Whether it’s cooking, photography or fitness, there is a meetup for 45 every interest imaginable, making it easy for people to connect with like-minded peers and enrich their lives through meaningful interactions."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "prices",
+    "places",
+    "forms",
+    "seats"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114010_501_0102_42.webp"
+   "psg": "A meetup is a gathering or event where people with similar interests come together to socialize, network, or participate in activities. It’s like a planned get-together 41 one can meet new people and connect with others who share their hobbies, passions, or goals. Meetups can take many 42 , from casual coffee meetups to organized group outings. For example, a book club meetup might bring together book lovers to discuss their 43 reads, share recommendations, and enjoy lively conversations. Similarly, a hiking meetup could 44 a group of outdoor enthusiasts coming together to explore nature trails, enjoy scenic views, and bond over their love for hiking. Meetups provide opportunities for people to make new friends, learn from one another, and build supportive communities based on shared interests and experiences. Whether it’s cooking, photography or fitness, there is a meetup for 45 every interest imaginable, making it easy for people to connect with like-minded peers and enrich their lives through meaningful interactions."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "rented",
+    "excited",
+    "favorite",
+    "famous"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114010_501_0102_43.webp"
+   "psg": "A meetup is a gathering or event where people with similar interests come together to socialize, network, or participate in activities. It’s like a planned get-together 41 one can meet new people and connect with others who share their hobbies, passions, or goals. Meetups can take many 42 , from casual coffee meetups to organized group outings. For example, a book club meetup might bring together book lovers to discuss their 43 reads, share recommendations, and enjoy lively conversations. Similarly, a hiking meetup could 44 a group of outdoor enthusiasts coming together to explore nature trails, enjoy scenic views, and bond over their love for hiking. Meetups provide opportunities for people to make new friends, learn from one another, and build supportive communities based on shared interests and experiences. Whether it’s cooking, photography or fitness, there is a meetup for 45 every interest imaginable, making it easy for people to connect with like-minded peers and enrich their lives through meaningful interactions."
   },
   {
    "n": 44,
@@ -643,16 +640,15 @@ window.APP_EXAM_PAPERS['chu-114-1-e002'] = {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "hardly",
+    "quickly",
+    "always",
+    "almost"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114010_501_0102_45.webp"
+   "psg": "A meetup is a gathering or event where people with similar interests come together to socialize, network, or participate in activities. It’s like a planned get-together 41 one can meet new people and connect with others who share their hobbies, passions, or goals. Meetups can take many 42 , from casual coffee meetups to organized group outings. For example, a book club meetup might bring together book lovers to discuss their 43 reads, share recommendations, and enjoy lively conversations. Similarly, a hiking meetup could 44 a group of outdoor enthusiasts coming together to explore nature trails, enjoy scenic views, and bond over their love for hiking. Meetups provide opportunities for people to make new friends, learn from one another, and build supportive communities based on shared interests and experiences. Whether it’s cooking, photography or fitness, there is a meetup for 45 every interest imaginable, making it easy for people to connect with like-minded peers and enrich their lives through meaningful interactions."
   },
   {
    "n": 46,

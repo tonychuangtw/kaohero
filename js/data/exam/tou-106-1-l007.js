@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-106-1-l007'] = {
     "wir mit ihm arbeiten",
     "mit ihm zu arbeiten",
     "dass mit ihm zu arbeiten",
-    "wir mit ihm zu arbeitenMein Traumjob"
+    "wir mit ihm zu arbeiten"
    ],
    "a": 1,
    "exp": "✅ (B) Es ist unangenehm 中的 es 是形式主詞，真正的主詞是後面的 zu 不定式片語：mit ihm zu arbeiten（和他共事令人不愉快）。\n❌ (A) 少了連接詞 dass，主謂結構不能直接接在主句之後。\n❌ (C) dass 引導的是完整從句，其中必須有主詞與變位動詞，不能接 zu 不定式。\n❌ (D) 既有主詞 wir 又用 zu 不定式，兩種結構混用，文法不成立。\n📚 出處：德語語法：形式主詞 es 與 zu 不定式片語作主詞"
@@ -999,76 +999,71 @@ window.APP_EXAM_PAPERS['tou-106-1-l007'] = {
    "n": 71,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 71 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "als",
+    "wie",
+    "in",
+    "während"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106040_604_0404_71.webp"
+   "psg": "Mein Traumjob Ich wollte (71) Kind immer fliegen. Das war mein größter Traum. Deshalb war es für mich besonders schön, (72) ich mit meinen Eltern zum Flughafen fahren konnte. Ich konnte die Flugzeuge die ganze Zeit beim Starten und Landen beobachten. Ich wollte gern wissen, aus welchem Land die Flugzeuge gekommen sind und wie weit die Piloten wohl schon geflogen sind. Ich hoffte, ich hätte in (73) sitzen können. Aber ich wollte nicht als Passagier oder als Flugbegleiter drin sein, sondern als Pilot! Als ich später zur Schule ging, war es mir sofort klar. Ich mochte keine Sprachen, auch für Literatur interessierte ich mich gar nicht. Aber ich wollte (74) Geografie und Technik lernen. Das alles sollte richtig für meinen Traumjob sein. Nach der Schule habe ich eine Fachhochschule besucht und mache jetzt eine Ausbildung im Fliegen. Das ist sehr teuer, aber zum Glück unterstützen mich immer meine Eltern. Jetzt muss ich noch Fremdsprachen lernen. Als Pilot muss ich nicht nur fließend Englisch sprechen, sondern auch eine zweite Fremdsprache. Wenn ich das früher (75) , hätte ich mir auch Mühe gegeben. Aber es ist immer noch nicht zu spät. Mein Traumjob ist nicht so weit entfernt!"
   },
   {
    "n": 72,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 72 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "als",
+    "während",
+    "wenn",
+    "wie"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106040_604_0404_72.webp"
+   "psg": "Mein Traumjob Ich wollte (71) Kind immer fliegen. Das war mein größter Traum. Deshalb war es für mich besonders schön, (72) ich mit meinen Eltern zum Flughafen fahren konnte. Ich konnte die Flugzeuge die ganze Zeit beim Starten und Landen beobachten. Ich wollte gern wissen, aus welchem Land die Flugzeuge gekommen sind und wie weit die Piloten wohl schon geflogen sind. Ich hoffte, ich hätte in (73) sitzen können. Aber ich wollte nicht als Passagier oder als Flugbegleiter drin sein, sondern als Pilot! Als ich später zur Schule ging, war es mir sofort klar. Ich mochte keine Sprachen, auch für Literatur interessierte ich mich gar nicht. Aber ich wollte (74) Geografie und Technik lernen. Das alles sollte richtig für meinen Traumjob sein. Nach der Schule habe ich eine Fachhochschule besucht und mache jetzt eine Ausbildung im Fliegen. Das ist sehr teuer, aber zum Glück unterstützen mich immer meine Eltern. Jetzt muss ich noch Fremdsprachen lernen. Als Pilot muss ich nicht nur fließend Englisch sprechen, sondern auch eine zweite Fremdsprache. Wenn ich das früher (75) , hätte ich mir auch Mühe gegeben. Aber es ist immer noch nicht zu spät. Mein Traumjob ist nicht so weit entfernt!"
   },
   {
    "n": 73,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 73 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ein",
+    "eins",
+    "eines",
+    "einem"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106040_604_0404_73.webp"
+   "psg": "Mein Traumjob Ich wollte (71) Kind immer fliegen. Das war mein größter Traum. Deshalb war es für mich besonders schön, (72) ich mit meinen Eltern zum Flughafen fahren konnte. Ich konnte die Flugzeuge die ganze Zeit beim Starten und Landen beobachten. Ich wollte gern wissen, aus welchem Land die Flugzeuge gekommen sind und wie weit die Piloten wohl schon geflogen sind. Ich hoffte, ich hätte in (73) sitzen können. Aber ich wollte nicht als Passagier oder als Flugbegleiter drin sein, sondern als Pilot! Als ich später zur Schule ging, war es mir sofort klar. Ich mochte keine Sprachen, auch für Literatur interessierte ich mich gar nicht. Aber ich wollte (74) Geografie und Technik lernen. Das alles sollte richtig für meinen Traumjob sein. Nach der Schule habe ich eine Fachhochschule besucht und mache jetzt eine Ausbildung im Fliegen. Das ist sehr teuer, aber zum Glück unterstützen mich immer meine Eltern. Jetzt muss ich noch Fremdsprachen lernen. Als Pilot muss ich nicht nur fließend Englisch sprechen, sondern auch eine zweite Fremdsprache. Wenn ich das früher (75) , hätte ich mir auch Mühe gegeben. Aber es ist immer noch nicht zu spät. Mein Traumjob ist nicht so weit entfernt!"
   },
   {
    "n": 74,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 74 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "jedenfalls",
+    "auf keinen Fall",
+    "im schlimmsten Fall",
+    "durch Zufall"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106040_604_0404_74.webp"
+   "psg": "Mein Traumjob Ich wollte (71) Kind immer fliegen. Das war mein größter Traum. Deshalb war es für mich besonders schön, (72) ich mit meinen Eltern zum Flughafen fahren konnte. Ich konnte die Flugzeuge die ganze Zeit beim Starten und Landen beobachten. Ich wollte gern wissen, aus welchem Land die Flugzeuge gekommen sind und wie weit die Piloten wohl schon geflogen sind. Ich hoffte, ich hätte in (73) sitzen können. Aber ich wollte nicht als Passagier oder als Flugbegleiter drin sein, sondern als Pilot! Als ich später zur Schule ging, war es mir sofort klar. Ich mochte keine Sprachen, auch für Literatur interessierte ich mich gar nicht. Aber ich wollte (74) Geografie und Technik lernen. Das alles sollte richtig für meinen Traumjob sein. Nach der Schule habe ich eine Fachhochschule besucht und mache jetzt eine Ausbildung im Fliegen. Das ist sehr teuer, aber zum Glück unterstützen mich immer meine Eltern. Jetzt muss ich noch Fremdsprachen lernen. Als Pilot muss ich nicht nur fließend Englisch sprechen, sondern auch eine zweite Fremdsprache. Wenn ich das früher (75) , hätte ich mir auch Mühe gegeben. Aber es ist immer noch nicht zu spät. Mein Traumjob ist nicht so weit entfernt!"
   },
   {
    "n": 75,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 75 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "gewusst hätte",
+    "gewusst hatte",
+    "gewusst habe",
+    "gewusst gehabt"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106040_604_0404_75.webp"
+   "psg": "Mein Traumjob Ich wollte (71) Kind immer fliegen. Das war mein größter Traum. Deshalb war es für mich besonders schön, (72) ich mit meinen Eltern zum Flughafen fahren konnte. Ich konnte die Flugzeuge die ganze Zeit beim Starten und Landen beobachten. Ich wollte gern wissen, aus welchem Land die Flugzeuge gekommen sind und wie weit die Piloten wohl schon geflogen sind. Ich hoffte, ich hätte in (73) sitzen können. Aber ich wollte nicht als Passagier oder als Flugbegleiter drin sein, sondern als Pilot! Als ich später zur Schule ging, war es mir sofort klar. Ich mochte keine Sprachen, auch für Literatur interessierte ich mich gar nicht. Aber ich wollte (74) Geografie und Technik lernen. Das alles sollte richtig für meinen Traumjob sein. Nach der Schule habe ich eine Fachhochschule besucht und mache jetzt eine Ausbildung im Fliegen. Das ist sehr teuer, aber zum Glück unterstützen mich immer meine Eltern. Jetzt muss ich noch Fremdsprachen lernen. Als Pilot muss ich nicht nur fließend Englisch sprechen, sondern auch eine zweite Fremdsprache. Wenn ich das früher (75) , hätte ich mir auch Mühe gegeben. Aber es ist immer noch nicht zu spät. Mein Traumjob ist nicht so weit entfernt!"
   },
   {
    "n": 76,

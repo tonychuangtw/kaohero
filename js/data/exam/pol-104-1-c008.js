@@ -654,7 +654,7 @@ window.APP_EXAM_PAPERS['pol-104-1-c008'] = {
     "smuggled",
     "exported",
     "confiscated",
-    "purchased請依下文回答第 47 題至第 50 題：Of all the websites, one that has attracted attention recently is myspace.com. Most of this attention has come from"
+    "purchased"
    ],
    "a": 2,
    "exp": "✅ (C) confiscated 意為「沒收、查扣、充公」。蘇珊之槍枝在桃園國際機場被海關安全人員偵測查獲後遭到沒收，句意完全符合執法情境。\n❌ (A) smuggled 意為「走私」，海關人員查獲違禁品後之法定處置應為查扣沒收，而非走私。\n❌ (B) exported 意為「出口、輸出」，不合違禁槍枝遭安檢查獲後沒收之處置。\n❌ (D) purchased 意為「購買」，不符合槍枝遭海關安檢人員查扣沒收之情境。\n📚 出處：警政海關查緝與邊境管制英文（沒收／查扣 confiscate）。"
@@ -663,31 +663,29 @@ window.APP_EXAM_PAPERS['pol-104-1-c008'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "stay",
+    "be stayed",
+    "stayed",
+    "staying"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104070_601_0208_47.webp"
+   "psg": "Of all the websites, one that has attracted attention recently is myspace.com. Most of this attention has come from the media and tells every reason why the website should be shut down. The threat of Internet predators is indeed a tough reality, but shutting down the site is not the answer. If myspace.com were shut down, another site would quickly take its place. Therefore, the right way is to teach teens how to use the site safely and educate them about who may be predators and how to avoid them. The key to 47 safe on the Internet is to make sure that your profile is secure. The simplest way is to change the privacy setting on your profile to “private”, which protects your information 48 only the people on your friend list can view it. Although this is 49 , it is not perfect. Predators can find ways to view your profile if they really want to, 50 through hacking in or figuring out their way onto your friend list. Thus, you should never post too much personal information. Some people actually post their home and school addresses, date of birth, and so on, often letting predators know exactly where they should go and when."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as to",
+    "no matter",
+    "so that",
+    "because"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_601_0208_48.webp"
+   "psg": "Of all the websites, one that has attracted attention recently is myspace.com. Most of this attention has come from the media and tells every reason why the website should be shut down. The threat of Internet predators is indeed a tough reality, but shutting down the site is not the answer. If myspace.com were shut down, another site would quickly take its place. Therefore, the right way is to teach teens how to use the site safely and educate them about who may be predators and how to avoid them. The key to 47 safe on the Internet is to make sure that your profile is secure. The simplest way is to change the privacy setting on your profile to “private”, which protects your information 48 only the people on your friend list can view it. Although this is 49 , it is not perfect. Predators can find ways to view your profile if they really want to, 50 through hacking in or figuring out their way onto your friend list. Thus, you should never post too much personal information. Some people actually post their home and school addresses, date of birth, and so on, often letting predators know exactly where they should go and when."
   },
   {
    "n": 49,

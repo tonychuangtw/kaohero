@@ -950,7 +950,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Ai turisti locali non piace molto Lugang.",
     "Lugang è molto famosa tra i turisti Olandesi."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Meno celebre di Tainan, il centro culturale di Taiwan, Lugang è comunque un piccolo gioiello, purtroppo spesso trascurato dal grande turismo internazionale. Lugang, il cui nome significa propriamente “porto dei cervi”, data la sua vicinanza a un’insenatura naturale presso la costa occidentale, è stata usata dagli Olandesi come centro commerciale nel diciassettesimo secolo, per diventare successivamente una delle cittadine più prospere dell’isola. Dopo la parziale chiusura del suo porto da parte dei Giapponesi nella seconda metà dell’Ottocento e la successiva esclusione dalle principali rotte ferroviarie, è iniziato un rapido declino economico, che isolandola, ha però preservato la cittadina dalla rapida modernizzazione voluta altrove dal governo centrale, rendendola un vero e proprio museo all’aperto. Piena di splendidi templi, che sebbene siano tra i più antichi di Taiwan, sono ancora oggi molto vissuti dalla popolazione, con le sue stradine, i suoi mercati all’aperto, le bancarelle e i negozietti, Lugang si presenta come una valida alternativa ai centri turistici principali dell’isola. Da non sottovalutare poi è l’aspetto gastronomico, Lugang infatti, con i suoi mercati all’aperto, tra cui il principale è quello presso il Tampio Matsu, offre una gran quantità di gustosi spuntini, come le frittatine ai gamberetti e i biscotti “lingua di bue”. Lugang può essere visitata durante vari periodo dell’anno, è consigliabile però venirci in occasione del compleanno di Matsu, quando la cittadina si riempie di fedeli ed è sede di numerose attività."
   },
   {
    "n": 68,
@@ -963,7 +964,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Nel XIX secolo.",
     "Nel XX secolo."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Meno celebre di Tainan, il centro culturale di Taiwan, Lugang è comunque un piccolo gioiello, purtroppo spesso trascurato dal grande turismo internazionale. Lugang, il cui nome significa propriamente “porto dei cervi”, data la sua vicinanza a un’insenatura naturale presso la costa occidentale, è stata usata dagli Olandesi come centro commerciale nel diciassettesimo secolo, per diventare successivamente una delle cittadine più prospere dell’isola. Dopo la parziale chiusura del suo porto da parte dei Giapponesi nella seconda metà dell’Ottocento e la successiva esclusione dalle principali rotte ferroviarie, è iniziato un rapido declino economico, che isolandola, ha però preservato la cittadina dalla rapida modernizzazione voluta altrove dal governo centrale, rendendola un vero e proprio museo all’aperto. Piena di splendidi templi, che sebbene siano tra i più antichi di Taiwan, sono ancora oggi molto vissuti dalla popolazione, con le sue stradine, i suoi mercati all’aperto, le bancarelle e i negozietti, Lugang si presenta come una valida alternativa ai centri turistici principali dell’isola. Da non sottovalutare poi è l’aspetto gastronomico, Lugang infatti, con i suoi mercati all’aperto, tra cui il principale è quello presso il Tampio Matsu, offre una gran quantità di gustosi spuntini, come le frittatine ai gamberetti e i biscotti “lingua di bue”. Lugang può essere visitata durante vari periodo dell’anno, è consigliabile però venirci in occasione del compleanno di Matsu, quando la cittadina si riempie di fedeli ed è sede di numerose attività."
   },
   {
    "n": 69,
@@ -976,7 +978,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "I templi di Lugang sono antichi e aperti solo ai turisti.",
     "I templi di Lugang sono antichi e poco frequentati."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Meno celebre di Tainan, il centro culturale di Taiwan, Lugang è comunque un piccolo gioiello, purtroppo spesso trascurato dal grande turismo internazionale. Lugang, il cui nome significa propriamente “porto dei cervi”, data la sua vicinanza a un’insenatura naturale presso la costa occidentale, è stata usata dagli Olandesi come centro commerciale nel diciassettesimo secolo, per diventare successivamente una delle cittadine più prospere dell’isola. Dopo la parziale chiusura del suo porto da parte dei Giapponesi nella seconda metà dell’Ottocento e la successiva esclusione dalle principali rotte ferroviarie, è iniziato un rapido declino economico, che isolandola, ha però preservato la cittadina dalla rapida modernizzazione voluta altrove dal governo centrale, rendendola un vero e proprio museo all’aperto. Piena di splendidi templi, che sebbene siano tra i più antichi di Taiwan, sono ancora oggi molto vissuti dalla popolazione, con le sue stradine, i suoi mercati all’aperto, le bancarelle e i negozietti, Lugang si presenta come una valida alternativa ai centri turistici principali dell’isola. Da non sottovalutare poi è l’aspetto gastronomico, Lugang infatti, con i suoi mercati all’aperto, tra cui il principale è quello presso il Tampio Matsu, offre una gran quantità di gustosi spuntini, come le frittatine ai gamberetti e i biscotti “lingua di bue”. Lugang può essere visitata durante vari periodo dell’anno, è consigliabile però venirci in occasione del compleanno di Matsu, quando la cittadina si riempie di fedeli ed è sede di numerose attività."
   },
   {
    "n": 70,
@@ -989,7 +992,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Perché è il centro culturale di Taiwan.",
     "Perché è vicino a uno dei principali porti della costa occidentale."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Meno celebre di Tainan, il centro culturale di Taiwan, Lugang è comunque un piccolo gioiello, purtroppo spesso trascurato dal grande turismo internazionale. Lugang, il cui nome significa propriamente “porto dei cervi”, data la sua vicinanza a un’insenatura naturale presso la costa occidentale, è stata usata dagli Olandesi come centro commerciale nel diciassettesimo secolo, per diventare successivamente una delle cittadine più prospere dell’isola. Dopo la parziale chiusura del suo porto da parte dei Giapponesi nella seconda metà dell’Ottocento e la successiva esclusione dalle principali rotte ferroviarie, è iniziato un rapido declino economico, che isolandola, ha però preservato la cittadina dalla rapida modernizzazione voluta altrove dal governo centrale, rendendola un vero e proprio museo all’aperto. Piena di splendidi templi, che sebbene siano tra i più antichi di Taiwan, sono ancora oggi molto vissuti dalla popolazione, con le sue stradine, i suoi mercati all’aperto, le bancarelle e i negozietti, Lugang si presenta come una valida alternativa ai centri turistici principali dell’isola. Da non sottovalutare poi è l’aspetto gastronomico, Lugang infatti, con i suoi mercati all’aperto, tra cui il principale è quello presso il Tampio Matsu, offre una gran quantità di gustosi spuntini, come le frittatine ai gamberetti e i biscotti “lingua di bue”. Lugang può essere visitata durante vari periodo dell’anno, è consigliabile però venirci in occasione del compleanno di Matsu, quando la cittadina si riempie di fedeli ed è sede di numerose attività."
   },
   {
    "n": 71,
@@ -1002,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Di feste tradizionali.",
     "Di artigianato tradizionale."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Meno celebre di Tainan, il centro culturale di Taiwan, Lugang è comunque un piccolo gioiello, purtroppo spesso trascurato dal grande turismo internazionale. Lugang, il cui nome significa propriamente “porto dei cervi”, data la sua vicinanza a un’insenatura naturale presso la costa occidentale, è stata usata dagli Olandesi come centro commerciale nel diciassettesimo secolo, per diventare successivamente una delle cittadine più prospere dell’isola. Dopo la parziale chiusura del suo porto da parte dei Giapponesi nella seconda metà dell’Ottocento e la successiva esclusione dalle principali rotte ferroviarie, è iniziato un rapido declino economico, che isolandola, ha però preservato la cittadina dalla rapida modernizzazione voluta altrove dal governo centrale, rendendola un vero e proprio museo all’aperto. Piena di splendidi templi, che sebbene siano tra i più antichi di Taiwan, sono ancora oggi molto vissuti dalla popolazione, con le sue stradine, i suoi mercati all’aperto, le bancarelle e i negozietti, Lugang si presenta come una valida alternativa ai centri turistici principali dell’isola. Da non sottovalutare poi è l’aspetto gastronomico, Lugang infatti, con i suoi mercati all’aperto, tra cui il principale è quello presso il Tampio Matsu, offre una gran quantità di gustosi spuntini, come le frittatine ai gamberetti e i biscotti “lingua di bue”. Lugang può essere visitata durante vari periodo dell’anno, è consigliabile però venirci in occasione del compleanno di Matsu, quando la cittadina si riempie di fedeli ed è sede di numerose attività."
   },
   {
    "n": 72,
@@ -1015,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "gli aborigeni abitavano a Taiwan già da tanti anni",
     "non hanno trovato gli aborigeni"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Quando i primi Europei sono arrivati a Taiwan, quasi 400 anni fa, gli unici abitanti che hanno trovato sono state le diverse tribù aborigene che avevano già abitato a Taiwan per migliaia di anni. L’origine dei popoli indigeni di Taiwan non è del tutto chiara, ma sono simili ai Polinesiani, ai Malesi e ai Filippini e non hanno niente a che fare con gli aborigeni australiani. Ci sono circa 450.000 aborigeni a Taiwan, divisi in 14 tribù, ognuna con i propri usi, costumi e lingue differenti. Gli aborigeni vivono principalmente sulle montagne, ma negli ultimi decenni molti di loro sono emigrati nelle città, dove spesso lavorano nel settore dell’edilizia. Simile a quella di tanti popoli indigeni, la storia degli aborigeni non è tanto felice, in quanto sono stati perseguitati per secoli dai Cinesi Han, che hanno cominciato a spostarsi verso Taiwan dal ‘700 in poi. Sia nel periodo della colonizzazione giapponese (1895-1945), che sotto la dittatura di Chiang Kai Shek, gli aborigeni sono stati privati dei loro diritti e hanno perso quasi tutti i loro territori. Grazie alla democrazia, arrivata a Taiwan negli anni ’90, la situazione sta cambiando molto rapidamente e gli aborigeni stanno riscoprendo con orgoglio la propria cultura. Volete provare la cultura aborigena? Andate lungo la costa orientale dell’isola dove troverete tanti villaggi aborigeni, riconoscibili dalle decorazioni lungo le strade, o comprate un CD di musica e canti, spesso molto belli, che sono reperibili in tutti i luoghi turistici."
   },
   {
    "n": 73,
@@ -1028,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "vive in città",
     "lavora nelle fabbriche"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Quando i primi Europei sono arrivati a Taiwan, quasi 400 anni fa, gli unici abitanti che hanno trovato sono state le diverse tribù aborigene che avevano già abitato a Taiwan per migliaia di anni. L’origine dei popoli indigeni di Taiwan non è del tutto chiara, ma sono simili ai Polinesiani, ai Malesi e ai Filippini e non hanno niente a che fare con gli aborigeni australiani. Ci sono circa 450.000 aborigeni a Taiwan, divisi in 14 tribù, ognuna con i propri usi, costumi e lingue differenti. Gli aborigeni vivono principalmente sulle montagne, ma negli ultimi decenni molti di loro sono emigrati nelle città, dove spesso lavorano nel settore dell’edilizia. Simile a quella di tanti popoli indigeni, la storia degli aborigeni non è tanto felice, in quanto sono stati perseguitati per secoli dai Cinesi Han, che hanno cominciato a spostarsi verso Taiwan dal ‘700 in poi. Sia nel periodo della colonizzazione giapponese (1895-1945), che sotto la dittatura di Chiang Kai Shek, gli aborigeni sono stati privati dei loro diritti e hanno perso quasi tutti i loro territori. Grazie alla democrazia, arrivata a Taiwan negli anni ’90, la situazione sta cambiando molto rapidamente e gli aborigeni stanno riscoprendo con orgoglio la propria cultura. Volete provare la cultura aborigena? Andate lungo la costa orientale dell’isola dove troverete tanti villaggi aborigeni, riconoscibili dalle decorazioni lungo le strade, o comprate un CD di musica e canti, spesso molto belli, che sono reperibili in tutti i luoghi turistici."
   },
   {
    "n": 74,
@@ -1041,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "gli aborigeni sono stati privati dei loro diritti",
     "gli aborigeni sono diventati più orgogliosi della loro eredità culturale"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Quando i primi Europei sono arrivati a Taiwan, quasi 400 anni fa, gli unici abitanti che hanno trovato sono state le diverse tribù aborigene che avevano già abitato a Taiwan per migliaia di anni. L’origine dei popoli indigeni di Taiwan non è del tutto chiara, ma sono simili ai Polinesiani, ai Malesi e ai Filippini e non hanno niente a che fare con gli aborigeni australiani. Ci sono circa 450.000 aborigeni a Taiwan, divisi in 14 tribù, ognuna con i propri usi, costumi e lingue differenti. Gli aborigeni vivono principalmente sulle montagne, ma negli ultimi decenni molti di loro sono emigrati nelle città, dove spesso lavorano nel settore dell’edilizia. Simile a quella di tanti popoli indigeni, la storia degli aborigeni non è tanto felice, in quanto sono stati perseguitati per secoli dai Cinesi Han, che hanno cominciato a spostarsi verso Taiwan dal ‘700 in poi. Sia nel periodo della colonizzazione giapponese (1895-1945), che sotto la dittatura di Chiang Kai Shek, gli aborigeni sono stati privati dei loro diritti e hanno perso quasi tutti i loro territori. Grazie alla democrazia, arrivata a Taiwan negli anni ’90, la situazione sta cambiando molto rapidamente e gli aborigeni stanno riscoprendo con orgoglio la propria cultura. Volete provare la cultura aborigena? Andate lungo la costa orientale dell’isola dove troverete tanti villaggi aborigeni, riconoscibili dalle decorazioni lungo le strade, o comprate un CD di musica e canti, spesso molto belli, che sono reperibili in tutti i luoghi turistici."
   },
   {
    "n": 75,
@@ -1054,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "devi andare in città",
     "devi assistere a un concerto di musica aborigena"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Quando i primi Europei sono arrivati a Taiwan, quasi 400 anni fa, gli unici abitanti che hanno trovato sono state le diverse tribù aborigene che avevano già abitato a Taiwan per migliaia di anni. L’origine dei popoli indigeni di Taiwan non è del tutto chiara, ma sono simili ai Polinesiani, ai Malesi e ai Filippini e non hanno niente a che fare con gli aborigeni australiani. Ci sono circa 450.000 aborigeni a Taiwan, divisi in 14 tribù, ognuna con i propri usi, costumi e lingue differenti. Gli aborigeni vivono principalmente sulle montagne, ma negli ultimi decenni molti di loro sono emigrati nelle città, dove spesso lavorano nel settore dell’edilizia. Simile a quella di tanti popoli indigeni, la storia degli aborigeni non è tanto felice, in quanto sono stati perseguitati per secoli dai Cinesi Han, che hanno cominciato a spostarsi verso Taiwan dal ‘700 in poi. Sia nel periodo della colonizzazione giapponese (1895-1945), che sotto la dittatura di Chiang Kai Shek, gli aborigeni sono stati privati dei loro diritti e hanno perso quasi tutti i loro territori. Grazie alla democrazia, arrivata a Taiwan negli anni ’90, la situazione sta cambiando molto rapidamente e gli aborigeni stanno riscoprendo con orgoglio la propria cultura. Volete provare la cultura aborigena? Andate lungo la costa orientale dell’isola dove troverete tanti villaggi aborigeni, riconoscibili dalle decorazioni lungo le strade, o comprate un CD di musica e canti, spesso molto belli, che sono reperibili in tutti i luoghi turistici."
   },
   {
    "n": 76,
@@ -1067,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "il Tempio di Confucio di Tainan è sede di una festa annuale.",
     "il Tempio di Confucio di Tainan è molto caotico."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Tainan è la più antica città dell’isola. A differenza però di Lugang, che essendo un piccolo centro ha una forte aria provinciale, Tainan è la quarta città più popolosa di Taiwan e ha quindi un lato moderno da non sottovalutare, con grandi alberghi, negozi alla moda e caffè dove trascorrere un po’ di tempo, riposandosi dalle fatiche del turismo. Il centro della città, in cui è racchiusa la maggior parte dei siti da visitare, non è molto esteso e può essere facilmente attraversato a piedi in un giorno. Preceduto da uno splendido arco in pietra edificato nel 1777, il tempio di Confucio, il più antico edificio confuciano dell’isola, è tra gli edifici principali della città. Caratterizzato da un’atmosfera particolarmente serena, specialmente durante i giorni feriali, il tempio con i suoi padiglioni tutti in rosso, è sede ogni anno di una particolare cerimonia: i ragazzi locali all’età di sedici anni vi prendono parte, vestiti in abiti tradizionali, per celebrare così il loro passaggio all’età adulta."
   },
   {
    "n": 77,
@@ -1080,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Tainan è più provinciale rispetto a Lugang.",
     "Tainan offre più svaghi ai turisti di Lugang."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tainan è la più antica città dell’isola. A differenza però di Lugang, che essendo un piccolo centro ha una forte aria provinciale, Tainan è la quarta città più popolosa di Taiwan e ha quindi un lato moderno da non sottovalutare, con grandi alberghi, negozi alla moda e caffè dove trascorrere un po’ di tempo, riposandosi dalle fatiche del turismo. Il centro della città, in cui è racchiusa la maggior parte dei siti da visitare, non è molto esteso e può essere facilmente attraversato a piedi in un giorno. Preceduto da uno splendido arco in pietra edificato nel 1777, il tempio di Confucio, il più antico edificio confuciano dell’isola, è tra gli edifici principali della città. Caratterizzato da un’atmosfera particolarmente serena, specialmente durante i giorni feriali, il tempio con i suoi padiglioni tutti in rosso, è sede ogni anno di una particolare cerimonia: i ragazzi locali all’età di sedici anni vi prendono parte, vestiti in abiti tradizionali, per celebrare così il loro passaggio all’età adulta."
   },
   {
    "n": 78,
@@ -1093,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "di festività tradizionali",
     "di trasporti pubblici"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tainan è la più antica città dell’isola. A differenza però di Lugang, che essendo un piccolo centro ha una forte aria provinciale, Tainan è la quarta città più popolosa di Taiwan e ha quindi un lato moderno da non sottovalutare, con grandi alberghi, negozi alla moda e caffè dove trascorrere un po’ di tempo, riposandosi dalle fatiche del turismo. Il centro della città, in cui è racchiusa la maggior parte dei siti da visitare, non è molto esteso e può essere facilmente attraversato a piedi in un giorno. Preceduto da uno splendido arco in pietra edificato nel 1777, il tempio di Confucio, il più antico edificio confuciano dell’isola, è tra gli edifici principali della città. Caratterizzato da un’atmosfera particolarmente serena, specialmente durante i giorni feriali, il tempio con i suoi padiglioni tutti in rosso, è sede ogni anno di una particolare cerimonia: i ragazzi locali all’età di sedici anni vi prendono parte, vestiti in abiti tradizionali, per celebrare così il loro passaggio all’età adulta."
   },
   {
    "n": 79,
@@ -1106,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "bisogna prendere degli autobus",
     "si può andare a piedi"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tainan è la più antica città dell’isola. A differenza però di Lugang, che essendo un piccolo centro ha una forte aria provinciale, Tainan è la quarta città più popolosa di Taiwan e ha quindi un lato moderno da non sottovalutare, con grandi alberghi, negozi alla moda e caffè dove trascorrere un po’ di tempo, riposandosi dalle fatiche del turismo. Il centro della città, in cui è racchiusa la maggior parte dei siti da visitare, non è molto esteso e può essere facilmente attraversato a piedi in un giorno. Preceduto da uno splendido arco in pietra edificato nel 1777, il tempio di Confucio, il più antico edificio confuciano dell’isola, è tra gli edifici principali della città. Caratterizzato da un’atmosfera particolarmente serena, specialmente durante i giorni feriali, il tempio con i suoi padiglioni tutti in rosso, è sede ogni anno di una particolare cerimonia: i ragazzi locali all’età di sedici anni vi prendono parte, vestiti in abiti tradizionali, per celebrare così il loro passaggio all’età adulta."
   },
   {
    "n": 80,
@@ -1119,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d013'] = {
     "Di elementi architettonici.",
     "Del colore degli edifici."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Tainan è la più antica città dell’isola. A differenza però di Lugang, che essendo un piccolo centro ha una forte aria provinciale, Tainan è la quarta città più popolosa di Taiwan e ha quindi un lato moderno da non sottovalutare, con grandi alberghi, negozi alla moda e caffè dove trascorrere un po’ di tempo, riposandosi dalle fatiche del turismo. Il centro della città, in cui è racchiusa la maggior parte dei siti da visitare, non è molto esteso e può essere facilmente attraversato a piedi in un giorno. Preceduto da uno splendido arco in pietra edificato nel 1777, il tempio di Confucio, il più antico edificio confuciano dell’isola, è tra gli edifici principali della città. Caratterizzato da un’atmosfera particolarmente serena, specialmente durante i giorni feriali, il tempio con i suoi padiglioni tutti in rosso, è sede ogni anno di una particolare cerimonia: i ragazzi locali all’età di sedici anni vi prendono parte, vestiti in abiti tradizionali, per celebrare così il loro passaggio all’età adulta."
   }
  ]
 };

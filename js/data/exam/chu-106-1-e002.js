@@ -571,7 +571,7 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "blame",
     "report",
     "breathe",
-    "persuade第 41 題至第 45 題，請依文意，從四個選項中選出最適合者From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that"
+    "persuade"
    ],
    "a": 0,
    "exp": "✅ (A) be to blame for 為固定用法，表示「應為……負責、該受責備」。\n❌ (B) report 不與 be to ... for 構成該片語。\n❌ (C) breathe 意為呼吸。\n❌ (D) persuade 意為說服。\n📚 出處：英文片語（be to blame for）"
@@ -580,76 +580,71 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "width",
+    "volumes",
+    "category",
+    "shapes"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106010_501_0103_41.webp"
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Contrary to",
+    "Given that",
+    "According to",
+    "Rather than"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106010_501_0103_42.webp"
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "transform",
+    "determine",
+    "consent",
+    "regulate"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106010_501_0103_43.webp"
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "While",
+    "Since",
+    "Shown",
+    "Even"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106010_501_0103_44.webp"
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "fall apart",
+    "clear up",
+    "take notice",
+    "figure out"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106010_501_0103_45.webp"
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
   },
   {
    "n": 46,

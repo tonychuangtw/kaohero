@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-109-1-c015'] = {
     "interpreted",
     "fluctuated",
     "nominated",
-    "intercepted請依下文回答第 41 題至第 45 題：Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the"
+    "intercepted"
    ],
    "a": 3,
    "exp": "✅ (D) intercepted 意為「攔截、截獲」，句意指英法兩國之邊境與海巡部隊近期成功攔截（intercepted）了多起企圖橫渡英吉利海峽之偷渡行動。\n❌ (A) interpreted 意為「解釋、翻譯、口譯」，與巡防執法之攔截行動無關。\n❌ (B) fluctuated 意為「起伏、波動」，為不及物動詞，無法作及物動詞表示攔截渡海。\n❌ (C) nominated 意為「提名、任命」，與查堵海上偷渡情境不合。\n📚 出處：邊境巡防與水上警察執法英文；海事新聞英語。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-109-1-c015'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "crosses out",
+    "sets off",
+    "leads to",
+    "results from"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_604_0211_41.webp"
+   "psg": "Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the end of its continental shelf. The continuation of the land mass underwater until it drops down to the ocean floor. Then the U.S. built the world's first off shore oil platform out of sight of land in the Gulf of Mexico in 1947, 10 and a half miles off the Louisiana coast. That started a race to claim oceanic resources. This 41 a lot of countries clashing over their perceived rights. For example, the UK and Iceland had no less than three disputes known as \"Cod Wars\" over the fish in 42 are now Icelandic waters. To mediate these disputes, the United Nations Convention on the Law of the Sea or UNCLOS was drawn up and came into force in 1994. It carved up maritime territory into four main sections, typically 43 from the low water line on a nation's shores. Within the territorial waters, a state can regulate use and has ownership over any resources found within. Foreign states can sail through but they have to 44 the nation's laws. Within the contiguous zone, a state can continue to enforce laws in four specific areas, customs, taxation, immigration and pollution. Within the exclusive economic zone, the state has the sole rights over natural resources but foreign states may sail through, lay underwater cables and even pass through for military reasons. And on the continental shelf, a state has the rights to resources in the subsoil of the continental shelf but not the water column above 45 it is beyond the EEZ. Although 168 parties have ratified UNCLOS, it has far from resolved maritime territory disputes."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "what",
+    "which",
+    "that",
+    "there"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_604_0211_42.webp"
+   "psg": "Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the end of its continental shelf. The continuation of the land mass underwater until it drops down to the ocean floor. Then the U.S. built the world's first off shore oil platform out of sight of land in the Gulf of Mexico in 1947, 10 and a half miles off the Louisiana coast. That started a race to claim oceanic resources. This 41 a lot of countries clashing over their perceived rights. For example, the UK and Iceland had no less than three disputes known as \"Cod Wars\" over the fish in 42 are now Icelandic waters. To mediate these disputes, the United Nations Convention on the Law of the Sea or UNCLOS was drawn up and came into force in 1994. It carved up maritime territory into four main sections, typically 43 from the low water line on a nation's shores. Within the territorial waters, a state can regulate use and has ownership over any resources found within. Foreign states can sail through but they have to 44 the nation's laws. Within the contiguous zone, a state can continue to enforce laws in four specific areas, customs, taxation, immigration and pollution. Within the exclusive economic zone, the state has the sole rights over natural resources but foreign states may sail through, lay underwater cables and even pass through for military reasons. And on the continental shelf, a state has the rights to resources in the subsoil of the continental shelf but not the water column above 45 it is beyond the EEZ. Although 168 parties have ratified UNCLOS, it has far from resolved maritime territory disputes."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "to measure",
+    "be measuring",
+    "to be measured",
+    "measured"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109070_604_0211_43.webp"
+   "psg": "Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the end of its continental shelf. The continuation of the land mass underwater until it drops down to the ocean floor. Then the U.S. built the world's first off shore oil platform out of sight of land in the Gulf of Mexico in 1947, 10 and a half miles off the Louisiana coast. That started a race to claim oceanic resources. This 41 a lot of countries clashing over their perceived rights. For example, the UK and Iceland had no less than three disputes known as \"Cod Wars\" over the fish in 42 are now Icelandic waters. To mediate these disputes, the United Nations Convention on the Law of the Sea or UNCLOS was drawn up and came into force in 1994. It carved up maritime territory into four main sections, typically 43 from the low water line on a nation's shores. Within the territorial waters, a state can regulate use and has ownership over any resources found within. Foreign states can sail through but they have to 44 the nation's laws. Within the contiguous zone, a state can continue to enforce laws in four specific areas, customs, taxation, immigration and pollution. Within the exclusive economic zone, the state has the sole rights over natural resources but foreign states may sail through, lay underwater cables and even pass through for military reasons. And on the continental shelf, a state has the rights to resources in the subsoil of the continental shelf but not the water column above 45 it is beyond the EEZ. Although 168 parties have ratified UNCLOS, it has far from resolved maritime territory disputes."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "abide by",
+    "put aside",
+    "fall apart",
+    "pass out"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_604_0211_44.webp"
+   "psg": "Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the end of its continental shelf. The continuation of the land mass underwater until it drops down to the ocean floor. Then the U.S. built the world's first off shore oil platform out of sight of land in the Gulf of Mexico in 1947, 10 and a half miles off the Louisiana coast. That started a race to claim oceanic resources. This 41 a lot of countries clashing over their perceived rights. For example, the UK and Iceland had no less than three disputes known as \"Cod Wars\" over the fish in 42 are now Icelandic waters. To mediate these disputes, the United Nations Convention on the Law of the Sea or UNCLOS was drawn up and came into force in 1994. It carved up maritime territory into four main sections, typically 43 from the low water line on a nation's shores. Within the territorial waters, a state can regulate use and has ownership over any resources found within. Foreign states can sail through but they have to 44 the nation's laws. Within the contiguous zone, a state can continue to enforce laws in four specific areas, customs, taxation, immigration and pollution. Within the exclusive economic zone, the state has the sole rights over natural resources but foreign states may sail through, lay underwater cables and even pass through for military reasons. And on the continental shelf, a state has the rights to resources in the subsoil of the continental shelf but not the water column above 45 it is beyond the EEZ. Although 168 parties have ratified UNCLOS, it has far from resolved maritime territory disputes."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "whether",
+    "if",
+    "though",
+    "otherwise"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109070_604_0211_45.webp"
+   "psg": "Who owns the seas has always been a difficult concept. In 1945, President Truman extended U.S. jurisdiction to the end of its continental shelf. The continuation of the land mass underwater until it drops down to the ocean floor. Then the U.S. built the world's first off shore oil platform out of sight of land in the Gulf of Mexico in 1947, 10 and a half miles off the Louisiana coast. That started a race to claim oceanic resources. This 41 a lot of countries clashing over their perceived rights. For example, the UK and Iceland had no less than three disputes known as \"Cod Wars\" over the fish in 42 are now Icelandic waters. To mediate these disputes, the United Nations Convention on the Law of the Sea or UNCLOS was drawn up and came into force in 1994. It carved up maritime territory into four main sections, typically 43 from the low water line on a nation's shores. Within the territorial waters, a state can regulate use and has ownership over any resources found within. Foreign states can sail through but they have to 44 the nation's laws. Within the contiguous zone, a state can continue to enforce laws in four specific areas, customs, taxation, immigration and pollution. Within the exclusive economic zone, the state has the sole rights over natural resources but foreign states may sail through, lay underwater cables and even pass through for military reasons. And on the continental shelf, a state has the rights to resources in the subsoil of the continental shelf but not the water column above 45 it is beyond the EEZ. Although 168 parties have ratified UNCLOS, it has far from resolved maritime territory disputes."
   },
   {
    "n": 46,

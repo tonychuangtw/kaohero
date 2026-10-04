@@ -500,7 +500,7 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "clench",
     "dominate",
     "engage",
-    "humiliateAnimal studies confirm that the relief some of us get from eating sugar is not just psychological—it is an actual"
+    "humiliate"
    ],
    "a": 1,
    "exp": "✅ (B) dominate 意為「稱霸、主宰」，二十二歲拿下五座大賽冠軍，被認為稱霸高球界。\n❌ (A) clench 是握緊。\n❌ (C) engage 是從事、聘僱。\n❌ (D) humiliate 是羞辱。\n📚 出處：字彙題，dominate the world of 的搭配"
@@ -516,7 +516,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "The soothing effect of sugar is not just something psychological but has a lot to do with an actual chemicalreaction.",
     "The result of the mice experiment suggests that people should take more sweet substances to cope withdepression."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Animal studies confirm that the relief some of us get from eating sugar is not just psychological—it is an actual brain-chemistry reaction. In one experiment, Blass and colleagues studied two groups of baby mice who were separated from their mothers and left alone for six minutes. Their resulting “isolation distress” was considered to be a kind of animal equivalent to our human version of depression. The depressed mice who were given sugar water cried only seventy-five times during their isolation—as compared to the more than three hundred cries that came from the mice left alone with no sweet treat to alleviate their emotional pain. Apparently, the young mice were literally “medicating” their depression with sugar. Why did sugar have this remarkable effect? Researchers thought that perhaps the sweet food stimulated the release of extra beta-endorphin molecules. Since these molecules help us cope with physical and emotional pain, the sugar had a literally soothing effect. Researchers confirmed their theory by giving both groups of mice Naltrexone, a drug that blocks beta-endorphin receptors. If you take Naltrexone, it does not matter how many beta-endorphins you release—you will not get any relief from pain. Sure enough, when the sugar-fed mice were given Naltrexone, they lost all interest in the sweet substance, suggesting that their only reason for their sweet tooth had been to stimulate the release of beta-endorphins. Numbed by Naltrexone, both groups of mice cried equally often. The poor baby mice were still depressed—but now even sugar could not make them feel better. 請依上文回答第 36 題至第 39 題"
   },
   {
    "n": 37,
@@ -529,7 +530,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "The depressed mice who were given no sugar water all died of depression.",
     "The depressed mice who were given sugar water cried hundreds of times."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Animal studies confirm that the relief some of us get from eating sugar is not just psychological—it is an actual brain-chemistry reaction. In one experiment, Blass and colleagues studied two groups of baby mice who were separated from their mothers and left alone for six minutes. Their resulting “isolation distress” was considered to be a kind of animal equivalent to our human version of depression. The depressed mice who were given sugar water cried only seventy-five times during their isolation—as compared to the more than three hundred cries that came from the mice left alone with no sweet treat to alleviate their emotional pain. Apparently, the young mice were literally “medicating” their depression with sugar. Why did sugar have this remarkable effect? Researchers thought that perhaps the sweet food stimulated the release of extra beta-endorphin molecules. Since these molecules help us cope with physical and emotional pain, the sugar had a literally soothing effect. Researchers confirmed their theory by giving both groups of mice Naltrexone, a drug that blocks beta-endorphin receptors. If you take Naltrexone, it does not matter how many beta-endorphins you release—you will not get any relief from pain. Sure enough, when the sugar-fed mice were given Naltrexone, they lost all interest in the sweet substance, suggesting that their only reason for their sweet tooth had been to stimulate the release of beta-endorphins. Numbed by Naltrexone, both groups of mice cried equally often. The poor baby mice were still depressed—but now even sugar could not make them feel better. 請依上文回答第 36 題至第 39 題"
   },
   {
    "n": 38,
@@ -666,7 +668,7 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "Though the business was in trouble, Mr. Smith would not sell his company to another competitor.",
     "In spite of having made efforts to improve his business, Mr. Smith sold it to another company at a very low price.",
     "The competitor set a fire to burn down Mr. Smith’s company, but he worked hard and managed to save it.",
-    "Mr. Smith worked so hard for the company; despite this, he was fired in the end due to slow economy.We are taught not to judge a book by its cover. But studies of brain seem to suggest that this is exactly what we do in"
+    "Mr. Smith worked so hard for the company; despite this, he was fired in the end due to slow economy."
    ],
    "a": 1,
    "exp": "✅ (B) fire-sale price 指極低的賤價；原句說公司苦撐多年後，史密斯先生以極低價賣給競爭對手，B 轉述正確。\n❌ (A) 原句明言已經賣出。\n❌ (C) 誤把 fire-sale 解為放火。\n❌ (D) 原句是賣掉公司，不是他本人被解僱。\n📚 出處：閱讀理解題，fire-sale price 的意思"
@@ -682,7 +684,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "Our brains like new things.",
     "There is an alternative way to look into our consumption behaviors."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "We are taught not to judge a book by its cover. But studies of brain seem to suggest that this is exactly what we do in our everyday life; our default cognitive system is configured to choose novel things over the old ones and beautiful things over plain-looking ones. Bianca Wittmann, a British neuroscientist, scanned the brains of 20 video game players while they played a game in which the goal was to accumulate money. In each trial of the game, four pictures were presented to the participants, with each featuring a different mountain view. The participants were then asked to choose one picture. After the game had gone on for a while, the participants would realize that one of the four pictures, if chosen, would grant the participants a cash payoff. Wittmann observed that every time the participants selected an image that would lead to a monetary reward, the neurons or brain cells in a region in their brain called “the striatum”—known to process feelings of pleasure and reward—were activated in anticipation of their cash prize. At one point of the game, Wittmann added new pictures of similar mountain views to each trial. Interestingly, instead of choosing the “old” images that would grant them the cash reward, the participants, including the known moneymakers, chose the novel images over the old ones nearly in all cases. Furthermore, the neurons in the striatum were activated as they chose the novel images. According to Wittmann, this means that the participants treated these novel images with the same degree of excitement, suggesting that our desire to explore new experiences and things perks up the reward system of our brains. So, what is the implication of this finding for marketers of a given product? Well, marketers may be able to bolster the sales of the product simply by repackaging it. Wittmann also warned marketers that although novelty may temporarily boost the sales, they would go down once the customers learn that nothing but the packaging has changed. 請依上文回答第 48 題至第 50 題"
   },
   {
    "n": 49,
@@ -709,7 +712,8 @@ window.APP_EXAM_PAPERS['loc-102-1-a002'] = {
     "It is a great strategy that can perfectly exploit consumers’ fascination with things they consider fresh.",
     "It is an effective way to boost the sales of products, but it can only attract the consumers’ interest for a short term."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "We are taught not to judge a book by its cover. But studies of brain seem to suggest that this is exactly what we do in our everyday life; our default cognitive system is configured to choose novel things over the old ones and beautiful things over plain-looking ones. Bianca Wittmann, a British neuroscientist, scanned the brains of 20 video game players while they played a game in which the goal was to accumulate money. In each trial of the game, four pictures were presented to the participants, with each featuring a different mountain view. The participants were then asked to choose one picture. After the game had gone on for a while, the participants would realize that one of the four pictures, if chosen, would grant the participants a cash payoff. Wittmann observed that every time the participants selected an image that would lead to a monetary reward, the neurons or brain cells in a region in their brain called “the striatum”—known to process feelings of pleasure and reward—were activated in anticipation of their cash prize. At one point of the game, Wittmann added new pictures of similar mountain views to each trial. Interestingly, instead of choosing the “old” images that would grant them the cash reward, the participants, including the known moneymakers, chose the novel images over the old ones nearly in all cases. Furthermore, the neurons in the striatum were activated as they chose the novel images. According to Wittmann, this means that the participants treated these novel images with the same degree of excitement, suggesting that our desire to explore new experiences and things perks up the reward system of our brains. So, what is the implication of this finding for marketers of a given product? Well, marketers may be able to bolster the sales of the product simply by repackaging it. Wittmann also warned marketers that although novelty may temporarily boost the sales, they would go down once the customers learn that nothing but the packaging has changed. 請依上文回答第 48 題至第 50 題"
   }
  ]
 };

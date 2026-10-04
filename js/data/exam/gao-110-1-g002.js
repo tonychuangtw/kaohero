@@ -652,7 +652,7 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
     "condemned",
     "converged",
     "converted",
-    "condensed請依下文回答第 46 題至第 50 題"
+    "condensed"
    ],
    "a": 2,
    "exp": "✅ (C) convert...to 意為「轉換為」，觀光簽證延期後再轉換為居留簽證。\n❌ (A) condemn 是譴責。\n❌ (B) converge 是匯聚。\n❌ (D) condense 是濃縮。\n📚 出處：英文字彙（convert to 的用法）"
@@ -721,16 +721,15 @@ window.APP_EXAM_PAPERS['gao-110-1-g002'] = {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "hocky",
+    "hide-and-seek",
+    "tug-of-war",
+    "marathon"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110090_301_0105_50.webp"
+   "psg": "How an iceberg travels across the sea is sometimes unpredictable. When an iceberg breaks off from a glacier, it can 46 for thousands of miles, traveling freely across the open ocean. But last week, an iceberg’s journey was interrupted when it got stuck on a 47 part of the seafloor along Greenland’s western coast. In other words, the iceberg was grounded—and it had 48 itself right beside the small island village of Innaarsuit. Such grounded icebergs are actually pretty common, says Fiamma Straneo, who has traveled about 20 times to Greenland’s ice sheet for her work at the Scripps Institution of Oceanography at UC San Diego. What’s unique about the iceberg by Innaarsuit is both its size and its 49 to the village. A grounded iceberg experiences ocean water pushing at it in one direction and the seafloor pushing in another—a 50 that makes it easy for limbs to break off with a splash that can rock boats or flood coasts. The iceberg might even do an entire somersault in the water. Across the world, from the Canadian Arctic to Patagonia in Argentina, that shedding is both a tourist attraction and an issue of concern. The larger the iceberg, the larger the waves it causes if it breaks apart."
   }
  ]
 };

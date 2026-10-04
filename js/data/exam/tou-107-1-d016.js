@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d016'] = {
     "tahun ini",
     "tahun baru"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Taiwan dihadiahkan kemewahan alam semulajadi mata air sejuk, mata air panas, mata lumpur, mata bawah permukaan laut - ia adalah tempat indah terkenal dengan pelbagai jenis mata air di dunia. Perayaan mata air panas langkah tahun \"2017-2018 Mata Air Panas Bagus di Taiwan\" telah dilancarkan secara rasmi pada 28hb September 2017. Majlis pelancaran mata air panas menganggap \"hidup baru mata air panas\" sebagai nilai teras di mana ia dikembang dengan selanjutnya kepada suatu konsep domestik yang unik iaitu \"Sekali mata air panas sehari, menjauhkan diri anda daripada doktor\" Pada tahun 2017, Siri Mata Air Panas Bagus di Taiwan dijalankan di utara dan selatan Taiwan, dengan lokasi dulu menampilkan kempen promosi di Beitou, Wulai, dan Jinshan sementara lokasi kemudian menampilkan kempen promosi di Guanziling, Baolai, dan Sungai Sihchong. Dengan mengintegrasi kempen promosi di beberapa kawasan mata air panas, rangsangan perbelanjaan pelanggan akan dijalankan pada musim luruh dan musim sejuk sementara kempen promosi awal dijalankan pada musim bunga dan musim panas. Dengan ini, pelancong-pelancong yang ingin menikmati mata air panas pada musim puncak dapat menerima tawaran diskaun pada peringkat awal. Karnival ini bukan sahaja suatu peluang untuk pelancong-pelancong Taiwan merendam dalam keseronokan mata air panas di seluruh Taiwan dan menerima diskaun atas barangan dagangan, bahkan juga pelancong-pelancong asing akan terpesona dan tertarik. Di samping itu, karnival tersebut adalah daya pandu di sebalik kelambungan pelancong mata air panas Taiwan pada setiap tahun musim luruh/sejuk. Dalam jangka masa ini, kawasan mata air panas di seluruh Taiwan akan mengadakan satu siri acara mata air panas/masakan mewah dan mengumpulkan beratusan syarikat-syarikat di mukim dan majlis perbandaran untuk memperkenalkan keindahan alam mata air, landskap kebudayaan tempatan, dan produk-produk istimewa."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d016'] = {
     "sekali mata air panas sehari, menjauhkan diri anda daripada doktor",
     "hidup baru mata air panas"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Taiwan dihadiahkan kemewahan alam semulajadi mata air sejuk, mata air panas, mata lumpur, mata bawah permukaan laut - ia adalah tempat indah terkenal dengan pelbagai jenis mata air di dunia. Perayaan mata air panas langkah tahun \"2017-2018 Mata Air Panas Bagus di Taiwan\" telah dilancarkan secara rasmi pada 28hb September 2017. Majlis pelancaran mata air panas menganggap \"hidup baru mata air panas\" sebagai nilai teras di mana ia dikembang dengan selanjutnya kepada suatu konsep domestik yang unik iaitu \"Sekali mata air panas sehari, menjauhkan diri anda daripada doktor\" Pada tahun 2017, Siri Mata Air Panas Bagus di Taiwan dijalankan di utara dan selatan Taiwan, dengan lokasi dulu menampilkan kempen promosi di Beitou, Wulai, dan Jinshan sementara lokasi kemudian menampilkan kempen promosi di Guanziling, Baolai, dan Sungai Sihchong. Dengan mengintegrasi kempen promosi di beberapa kawasan mata air panas, rangsangan perbelanjaan pelanggan akan dijalankan pada musim luruh dan musim sejuk sementara kempen promosi awal dijalankan pada musim bunga dan musim panas. Dengan ini, pelancong-pelancong yang ingin menikmati mata air panas pada musim puncak dapat menerima tawaran diskaun pada peringkat awal. Karnival ini bukan sahaja suatu peluang untuk pelancong-pelancong Taiwan merendam dalam keseronokan mata air panas di seluruh Taiwan dan menerima diskaun atas barangan dagangan, bahkan juga pelancong-pelancong asing akan terpesona dan tertarik. Di samping itu, karnival tersebut adalah daya pandu di sebalik kelambungan pelancong mata air panas Taiwan pada setiap tahun musim luruh/sejuk. Dalam jangka masa ini, kawasan mata air panas di seluruh Taiwan akan mengadakan satu siri acara mata air panas/masakan mewah dan mengumpulkan beratusan syarikat-syarikat di mukim dan majlis perbandaran untuk memperkenalkan keindahan alam mata air, landskap kebudayaan tempatan, dan produk-produk istimewa."
   },
   {
    "n": 73,
@@ -1102,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d016'] = {
     "lebih suka menjadi pemandu pelancongan",
     "tidak ada wang"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Du Xin dan Ming Xuan adalah adik beradik. Umur mereka hanya berbeza satu tahun. Sejak kecil mereka sangat suka bermain bersama dan belajar bersama. Dahulu mereka disebut kecil-kecil anak harimau, dan Ming Xuan merupakan anak emas kerana dia merupakan anak yang sangat pandai. Mereka berdua memiliki hobi yang sama, yakni cinta terhadap pelancongan. Setelah menamatkan pelajaran di sekolah menengah, Ming Xuan melanjutkan pelajaran di universiti, sedangkan Du Xin bekerja sebagai pemandu pelancongan yang merupakan impiannya. Du Xin sangat senang menjadi pemandu pelancongan di kampungnya kerana dapat membantu perkembangan budaya tempatan. Ming Xuan pun mengambil jurusan pelancongan di universiti. Oleh sebab kecintaan terhadap kampungnya, Ming Xuan menjadikan daerah tempat tinggalnya sebagai tajuk tugas kelulusannya. Oleh sebab kakaknya yang sudah berpengalaman dalam pelancongan di kampungnya, Ming Xuan pun banyak bertanya kepadanya. Akhirnya mereka berazam bekerjasama untuk memajukan budaya kampungnya."
   },
   {
    "n": 79,
@@ -1115,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d016'] = {
     "untuk memajukan budaya kampungnya",
     "cinta budaya"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Du Xin dan Ming Xuan adalah adik beradik. Umur mereka hanya berbeza satu tahun. Sejak kecil mereka sangat suka bermain bersama dan belajar bersama. Dahulu mereka disebut kecil-kecil anak harimau, dan Ming Xuan merupakan anak emas kerana dia merupakan anak yang sangat pandai. Mereka berdua memiliki hobi yang sama, yakni cinta terhadap pelancongan. Setelah menamatkan pelajaran di sekolah menengah, Ming Xuan melanjutkan pelajaran di universiti, sedangkan Du Xin bekerja sebagai pemandu pelancongan yang merupakan impiannya. Du Xin sangat senang menjadi pemandu pelancongan di kampungnya kerana dapat membantu perkembangan budaya tempatan. Ming Xuan pun mengambil jurusan pelancongan di universiti. Oleh sebab kecintaan terhadap kampungnya, Ming Xuan menjadikan daerah tempat tinggalnya sebagai tajuk tugas kelulusannya. Oleh sebab kakaknya yang sudah berpengalaman dalam pelancongan di kampungnya, Ming Xuan pun banyak bertanya kepadanya. Akhirnya mereka berazam bekerjasama untuk memajukan budaya kampungnya."
   },
   {
    "n": 80,

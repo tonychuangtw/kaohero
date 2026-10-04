@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-113-1-b014'] = {
     "spreader",
     "dehumidifier",
     "generator",
-    "ventilator請依下文回答第 51 題至第 55 題Increasing crime rates, particularly in urban areas, have recently become a growing concern for"
+    "ventilator"
    ],
    "a": 0,
    "exp": "✅ (A) spreader（油壓撐開器，俗稱大剪／破壞鉗的撐開部件）是車禍搶救時用來撐開、剝離變形車體以救出受困者的救助器材，與句中 force open a crashed car and release trapped people 完全吻合。\n❌ (B) dehumidifier 是「除濕機」，屬室內設備，與車禍搶救無關。\n❌ (C) generator 是「發電機」，僅提供電力，本身不能撐開車體。\n❌ (D) ventilator 是「通風機／呼吸器」，用於排煙或維持呼吸，不是破壞器材。\n📚 出處：消防救助器材英文：hydraulic spreader／cutter（油壓撐開器、剪切器）。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-113-1-b014'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "rise",
+    "riddle",
+    "decline",
+    "default"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113060_506_0206_51.webp"
+   "psg": "Increasing crime rates, particularly in urban areas, have recently become a growing concern for citizens and policymakers alike in many countries. For example, there has been a noticeable 51 in public safety across various parts of the United States. Factors 52 to this trend include socioeconomic inequalities, drug trafficking, and gang violence. Additionally, the spread of firearms has worsened the situation, making violent crime more 53 . All of these things combined further strained law enforcement resources and intensified social and economic inequalities, leading to an unprecedented 54 in social injustice. To address this issue, communities are advocating for comprehensive strategies that 55 crime prevention and community policing. Increased collaboration between law enforcement agencies and community leaders is essential to ensure the well-being of all residents."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "sticking",
+    "adjusting",
+    "objecting",
+    "contributing"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113060_506_0206_52.webp"
+   "psg": "Increasing crime rates, particularly in urban areas, have recently become a growing concern for citizens and policymakers alike in many countries. For example, there has been a noticeable 51 in public safety across various parts of the United States. Factors 52 to this trend include socioeconomic inequalities, drug trafficking, and gang violence. Additionally, the spread of firearms has worsened the situation, making violent crime more 53 . All of these things combined further strained law enforcement resources and intensified social and economic inequalities, leading to an unprecedented 54 in social injustice. To address this issue, communities are advocating for comprehensive strategies that 55 crime prevention and community policing. Increased collaboration between law enforcement agencies and community leaders is essential to ensure the well-being of all residents."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "scarce",
+    "prevalent",
+    "diminished",
+    "exceptional"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_506_0206_53.webp"
+   "psg": "Increasing crime rates, particularly in urban areas, have recently become a growing concern for citizens and policymakers alike in many countries. For example, there has been a noticeable 51 in public safety across various parts of the United States. Factors 52 to this trend include socioeconomic inequalities, drug trafficking, and gang violence. Additionally, the spread of firearms has worsened the situation, making violent crime more 53 . All of these things combined further strained law enforcement resources and intensified social and economic inequalities, leading to an unprecedented 54 in social injustice. To address this issue, communities are advocating for comprehensive strategies that 55 crime prevention and community policing. Increased collaboration between law enforcement agencies and community leaders is essential to ensure the well-being of all residents."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "growth",
+    "hamper",
+    "deduction",
+    "reduction"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_506_0206_54.webp"
+   "psg": "Increasing crime rates, particularly in urban areas, have recently become a growing concern for citizens and policymakers alike in many countries. For example, there has been a noticeable 51 in public safety across various parts of the United States. Factors 52 to this trend include socioeconomic inequalities, drug trafficking, and gang violence. Additionally, the spread of firearms has worsened the situation, making violent crime more 53 . All of these things combined further strained law enforcement resources and intensified social and economic inequalities, leading to an unprecedented 54 in social injustice. To address this issue, communities are advocating for comprehensive strategies that 55 crime prevention and community policing. Increased collaboration between law enforcement agencies and community leaders is essential to ensure the well-being of all residents."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "refute",
+    "fortify",
+    "impede",
+    "downplay"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_506_0206_55.webp"
+   "psg": "Increasing crime rates, particularly in urban areas, have recently become a growing concern for citizens and policymakers alike in many countries. For example, there has been a noticeable 51 in public safety across various parts of the United States. Factors 52 to this trend include socioeconomic inequalities, drug trafficking, and gang violence. Additionally, the spread of firearms has worsened the situation, making violent crime more 53 . All of these things combined further strained law enforcement resources and intensified social and economic inequalities, leading to an unprecedented 54 in social injustice. To address this issue, communities are advocating for comprehensive strategies that 55 crime prevention and community policing. Increased collaboration between law enforcement agencies and community leaders is essential to ensure the well-being of all residents."
   },
   {
    "n": 56,

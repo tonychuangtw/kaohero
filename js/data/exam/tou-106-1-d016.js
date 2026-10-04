@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-106-1-d016'] = {
     "bersendirian",
     "bersukan",
     "berpengaruh",
-    "berpengalamanHaikal, John dan Leong bersahabat baik semenjak kecil lagi. Mereka hidup sekampung dan bersekolah di"
+    "berpengalaman"
    ],
    "a": 2,
    "exp": "✅ (C) berpengaruh 是「有影響力的」，父母對子女而言正是最具影響力的人。\n❌ (A) bersendirian 是「獨自一人」，與 terhadap anak-anak 的介詞結構不合。\n❌ (B) bersukan 是「做運動」，語意不通。\n❌ (D) berpengalaman 是「有經驗的」，指閱歷豐富，無法搭配 terhadap（對……）表示對子女的作用。\n📚 出處：馬來語 ber- 派生形容詞 berpengaruh"
@@ -1020,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d016'] = {
     "Leong mendapat markah penuh dalam Bahasa Inggeris.",
     "Mereka saling berlumba-lumba dalam pelajaran."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Haikal, John dan Leong bersahabat baik semenjak kecil lagi. Mereka hidup sekampung dan bersekolah di sekolah yang sama. Ketiga-tiganya murid Tahun Enam. Mereka sentiasa berlumba-lumba dalam pelajaran. Masing-masing ingin menduduki tempat teratas dalam kelas. Di dalam kelas mereka, John muncul pelajar terbaik bagi mata pelajaran Bahasa Melayu, manakala Leong mendapat markah tertinggi bagi Bahasa Inggeris. Haikal pula mendapat 100 peratus dalam Matematik. Guru kelas mereka sungguh bangga dengan pencapaian ketiga-tiga muridnya yang juga menjadi anak emas sekolah mereka itu. Walaupun mereka saling berlumba dalam pelajaran, mereka tidak bermusuhan antara satu sama lain. Malah, mereka saling membantu dalam menghadapi apa juga keadaan. Mereka belajar bersama-sama, bermain bersama-sama dan jika timbul masalah, mereka akan cuba menyelesaikannya secara muafakat. Di kampung, mereka terkenal sebagai budak-budak yang ringan tulang. Orang kampong juga sangat suka kepada mereka kerana mereka juga ringan mulut. Mereka rajin menolong ibu bapa dan juga sentiasa bersedia membantu orang kampung. Apabila berselisih dengan orang lain, mereka tidak pernah masam muka, sebaliknya menegur orang itu dengan ramah."
   },
   {
    "n": 73,
@@ -1033,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d016'] = {
     "Menolong ibu bapa",
     "Menyelesaikan masalah"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Haikal, John dan Leong bersahabat baik semenjak kecil lagi. Mereka hidup sekampung dan bersekolah di sekolah yang sama. Ketiga-tiganya murid Tahun Enam. Mereka sentiasa berlumba-lumba dalam pelajaran. Masing-masing ingin menduduki tempat teratas dalam kelas. Di dalam kelas mereka, John muncul pelajar terbaik bagi mata pelajaran Bahasa Melayu, manakala Leong mendapat markah tertinggi bagi Bahasa Inggeris. Haikal pula mendapat 100 peratus dalam Matematik. Guru kelas mereka sungguh bangga dengan pencapaian ketiga-tiga muridnya yang juga menjadi anak emas sekolah mereka itu. Walaupun mereka saling berlumba dalam pelajaran, mereka tidak bermusuhan antara satu sama lain. Malah, mereka saling membantu dalam menghadapi apa juga keadaan. Mereka belajar bersama-sama, bermain bersama-sama dan jika timbul masalah, mereka akan cuba menyelesaikannya secara muafakat. Di kampung, mereka terkenal sebagai budak-budak yang ringan tulang. Orang kampong juga sangat suka kepada mereka kerana mereka juga ringan mulut. Mereka rajin menolong ibu bapa dan juga sentiasa bersedia membantu orang kampung. Apabila berselisih dengan orang lain, mereka tidak pernah masam muka, sebaliknya menegur orang itu dengan ramah."
   },
   {
    "n": 74,
@@ -1058,7 +1060,7 @@ window.APP_EXAM_PAPERS['tou-106-1-d016'] = {
     "rajin bekerja",
     "suka menolong",
     "suka menegur",
-    "rajin berkelahiIndustri pelancongan merupakan salah satu aktiviti ekonomi yang semakin berkembang pesat di negara"
+    "rajin berkelahi"
    ],
    "a": 0,
    "exp": "✅ (A) ringan tulang 字面是「骨頭輕」，引申為做事勤快、不怕勞動，即 rajin bekerja。\n❌ (B) suka menolong 是「樂於助人」，偏重助人動機，非本成語的核心意義。\n❌ (C) suka menegur（愛招呼、愛提醒）對應的是 ringan mulut。\n❌ (D) rajin berkelahi 是「愛打架」，屬負面，與本成語的褒義相反。\n📚 出處：馬來語成語 ringan tulang"
@@ -1088,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d016'] = {
     "Masyarakat tempatan dapat mengekalkan kebersihan alam sekitar.",
     "Masyarakat tempatan mendapat banyak wang dari pelancong asing."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Industri pelancongan merupakan salah satu aktiviti ekonomi yang semakin berkembang pesat di negara kita. Perkembangan pesat sektor pelancongan di negara kita turut mendatangkan pelbagai kesan kepada budaya tempatan, baik kesan positif mahupun kesan negatif. Kesan positif pelancongan terhadap budaya tempatan ialah industri pelancongan dapat membantu dalam memupuk persefahaman antara masyarakat. Melalui pelancongan, kita berpeluang berinteraksi dan berkomunikasi dengan pelancong asing. Selain itu, industri pelancongan juga dapat memperkaya budaya negara kita. Budaya dan amalan yang baik dalam kalangan pelancong asing patut dicontohi dan diamalkan oleh rakyat kita. Pelancong asing yang mementingkan kebersihan alam sekitar juga harus dicontohi. Jadi, rakyat kita akan mengekalkan kebersihan alam sekitar demi menggalakkan kedatangan pelancong asing. Pendek kata, pelancongan memang dapat memperkaya budaya kita. Kesan negatif pelancongan ialah kedatangan pelancong mampu menghakis nilai-nilai murni dalam kalangan masyarakat tempatan. Senario ini akan berlaku disebabkan pelancong asing mempunyai pemikiran dan sikap yang berbeza dengan masyarakat tempatan. Selanjutnya, kes-kes jenayah akan meningkat akibat daripada kedatangan pelancong asing. Hal ini demikian kerana pusat hiburan dan pusat membeli-belah akan dibuka dengan banyak demi menjayakan sektor pelancongan. Dengan adanya pusat hiburan seperti karaoke, disko dan pub akan menyumbang kes-kes jenayah. Kesimpulannya, sektor pelancongan mampu menyebabkan negara kita berkembang dengan pesat, tetapi sektor tersebut turut meninggalkan pengaruh yang besar kepada budaya tempatan. Jadi, semua pihak harus bekerjasama untuk mencegah kesan negatif yang dibawa oleh pelancong asing. Dengan ini diharapkan sektor pelancongan dapat dimajukan dan hanya meninggalkan kesan positif kepada masyarakat tempatan."
   },
   {
    "n": 78,

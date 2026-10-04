@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-114-1-b006'] = {
     "tamed",
     "humiliated",
     "disciplined",
-    "intimidated請依下文回答第 51 題至第 55 題"
+    "intimidated"
    ],
    "a": 3,
    "exp": "✅ (D) intimidate 意為恐嚇、威嚇；證人的家人遭與被告有關人士威脅，因而被嚇得不敢作聲，be intimidated into silence 正是此意。\n❌ (A) tamed 指馴服（動物或性情），不用於因受威脅而噤聲。\n❌ (B) humiliated 是使人羞辱難堪，原因應為受辱而非受威脅。\n❌ (C) disciplined 是懲戒、訓練使守紀律，與家人被威脅的情境不符。\n📚 出處：字彙辨析：intimidate（威嚇）、witness intimidation（恐嚇證人）。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-114-1-b006'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "reply",
+    "return",
+    "reward",
+    "response"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114060_501_0206_51.webp"
+   "psg": "A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year’s Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the 51 the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being 52 between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of 53 from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a 54 cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is 55 , which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ignited",
+    "implored",
+    "initialed",
+    "initiated"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_501_0206_52.webp"
+   "psg": "A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year’s Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the 51 the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being 52 between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of 53 from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a 54 cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is 55 , which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "avoiding",
+    "panicking",
+    "distracting",
+    "hesitating"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114060_501_0206_53.webp"
+   "psg": "A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year’s Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the 51 the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being 52 between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of 53 from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a 54 cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is 55 , which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "major",
+    "noble",
+    "common",
+    "natural"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114060_501_0206_54.webp"
+   "psg": "A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year’s Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the 51 the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being 52 between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of 53 from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a 54 cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is 55 , which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "face",
+    "guilt",
+    "humor",
+    "shame"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_501_0206_55.webp"
+   "psg": "A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year’s Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the 51 the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being 52 between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of 53 from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a 54 cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is 55 , which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose."
   },
   {
    "n": 56,

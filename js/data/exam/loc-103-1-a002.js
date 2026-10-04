@@ -486,7 +486,7 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
     "convergence",
     "perception",
     "reminiscence",
-    "optimism第 35 題至第 39 題為題組After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost"
+    "optimism"
    ],
    "a": 0,
    "exp": "✅ (A) convergence 意為「匯集、交會」，兩條主要道路交會處容易出現交通問題。\n❌ (B) perception 是知覺、看法。\n❌ (C) reminiscence 是回憶。\n❌ (D) optimism 是樂觀。\n📚 出處：字彙題，the convergence of 的搭配"
@@ -495,61 +495,57 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 35 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "advertised",
+    "alienated",
+    "alleged",
+    "approved"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/103180_301_0205_35.webp"
+   "psg": "為題組 After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns."
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "being linked to",
+    "has been linked to",
+    "had been linked to",
+    "was linked to"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/103180_301_0205_36.webp"
+   "psg": "為題組 After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Adversaries",
+    "Opponents",
+    "Proponents",
+    "Proprietors"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/103180_301_0205_37.webp"
+   "psg": "為題組 After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dubious",
+    "exaggerative",
+    "remote",
+    "tempting"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/103180_301_0205_38.webp"
+   "psg": "為題組 After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns."
   },
   {
    "n": 39,
@@ -564,7 +560,8 @@ window.APP_EXAM_PAPERS['loc-103-1-a002'] = {
    ],
    "needfig": true,
    "fig": "img/q/103180_301_0205_39.webp",
-   "a": 1
+   "a": 1,
+   "psg": "為題組 After terrorists struck New York City on September 11, 2001, airport videotapes from Boston revealed a lost opportunity. One of the 35 hijackers, Mohammed Atta, was captured on the security cameras at Boston’s Logan Airport just before boarding his flight. What if that camera 36 a computer database with Atta’s picture in it? Could security personnel have identified him as a risk and removed him from the plane? 37 of face-recognition technology say yes. It is technically possible, they say, to build a reliable system to pick suspicious people out of a crowd by digitally photographing their faces. The possibility of preventing a terrorist attack by spotting the bad guys is 38 . Face-recognition sweeps have been used at football stadiums, in crowded streets, and at airports in the hope of doing just that. The world’s best face-recognition device is the human brain. You may wonder, 39 , how a mother or father can tell the difference between identical twins. The two children may look exactly the same to you, but the parent has no trouble telling one from the other. Somehow, the parent has focused on small combinations of features that distinguish each child. No matter how hard you try, you cannot see the same patterns."
   },
   {
    "n": 40,

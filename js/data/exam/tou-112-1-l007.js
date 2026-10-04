@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "östlich von",
     "im Osten um",
     "östlich um",
-    "im Osten vonSind 130 Kilometer pro Stunde genug?"
+    "im Osten von"
    ],
    "a": 3
   },
@@ -1005,7 +1005,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "darum, wie sich tödliche Verkehrsunfälle auf den Straßen verhindern lassen",
     "um die Produktion von CO2"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Sind 130 Kilometer pro Stunde genug? Anders als in den meisten Industrieländern gibt es in Deutschland bisher kein allgemeines Tempolimit auf Autobahnen. Die neue Regierung könnte das ändern, doch die öffentliche Meinung darüber ist gespalten. Befürworter eines Tempolimits sagen, dass es der Umwelt hilft, wenn man langsamer fährt. Laut Umweltbundesamt werden allein im deutschen Straßenverkehr jedes Jahr mehr als 150 Millionen Tonnen CO2 produziert. Zwei Millionen davon könnte man durch ein Tempolimit von 130 einsparen. Ein weiteres Argument: mehr Sicherheit im Straßenverkehr – bei Autounfällen würden weniger Menschen verletzt oder getötet. Nach Einschätzung des ADAC, der gegen eine generelle Geschwindigkeitsbegrenzung auf Autobahnen ist, kommt es in Ländern mit Tempolimit nicht zu weniger Unfällen. Außerdem ereigneten sich 2020 weniger tödliche Unfälle auf deutschen Autobahnen als auf Landstraßen. Viele Gegner des Tempolimits ärgert das schon: Sie wollen sich nicht vorschreiben lassen, wie schnell sie fahren dürfen. Auf etwa 30 Prozent des Autobahnnetzes gibt es bereits ein Tempolimit."
   },
   {
    "n": 72,
@@ -1018,7 +1019,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "zum Teil für und zum Teil gegen ein allgemeines Tempolimit auf den Autobahnen",
     "für ein allgemeines Tempolimit zugunsten des ADAC"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Sind 130 Kilometer pro Stunde genug? Anders als in den meisten Industrieländern gibt es in Deutschland bisher kein allgemeines Tempolimit auf Autobahnen. Die neue Regierung könnte das ändern, doch die öffentliche Meinung darüber ist gespalten. Befürworter eines Tempolimits sagen, dass es der Umwelt hilft, wenn man langsamer fährt. Laut Umweltbundesamt werden allein im deutschen Straßenverkehr jedes Jahr mehr als 150 Millionen Tonnen CO2 produziert. Zwei Millionen davon könnte man durch ein Tempolimit von 130 einsparen. Ein weiteres Argument: mehr Sicherheit im Straßenverkehr – bei Autounfällen würden weniger Menschen verletzt oder getötet. Nach Einschätzung des ADAC, der gegen eine generelle Geschwindigkeitsbegrenzung auf Autobahnen ist, kommt es in Ländern mit Tempolimit nicht zu weniger Unfällen. Außerdem ereigneten sich 2020 weniger tödliche Unfälle auf deutschen Autobahnen als auf Landstraßen. Viele Gegner des Tempolimits ärgert das schon: Sie wollen sich nicht vorschreiben lassen, wie schnell sie fahren dürfen. Auf etwa 30 Prozent des Autobahnnetzes gibt es bereits ein Tempolimit."
   },
   {
    "n": 73,
@@ -1031,7 +1033,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "seit 2020 ein allgemeinesTempolimit von 130 Stundenkilometern",
     "seit 2020 einen ADAC wegen des Tempolimits"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Sind 130 Kilometer pro Stunde genug? Anders als in den meisten Industrieländern gibt es in Deutschland bisher kein allgemeines Tempolimit auf Autobahnen. Die neue Regierung könnte das ändern, doch die öffentliche Meinung darüber ist gespalten. Befürworter eines Tempolimits sagen, dass es der Umwelt hilft, wenn man langsamer fährt. Laut Umweltbundesamt werden allein im deutschen Straßenverkehr jedes Jahr mehr als 150 Millionen Tonnen CO2 produziert. Zwei Millionen davon könnte man durch ein Tempolimit von 130 einsparen. Ein weiteres Argument: mehr Sicherheit im Straßenverkehr – bei Autounfällen würden weniger Menschen verletzt oder getötet. Nach Einschätzung des ADAC, der gegen eine generelle Geschwindigkeitsbegrenzung auf Autobahnen ist, kommt es in Ländern mit Tempolimit nicht zu weniger Unfällen. Außerdem ereigneten sich 2020 weniger tödliche Unfälle auf deutschen Autobahnen als auf Landstraßen. Viele Gegner des Tempolimits ärgert das schon: Sie wollen sich nicht vorschreiben lassen, wie schnell sie fahren dürfen. Auf etwa 30 Prozent des Autobahnnetzes gibt es bereits ein Tempolimit."
   },
   {
    "n": 74,
@@ -1044,7 +1047,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "Gegner",
     "ADAC"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Sind 130 Kilometer pro Stunde genug? Anders als in den meisten Industrieländern gibt es in Deutschland bisher kein allgemeines Tempolimit auf Autobahnen. Die neue Regierung könnte das ändern, doch die öffentliche Meinung darüber ist gespalten. Befürworter eines Tempolimits sagen, dass es der Umwelt hilft, wenn man langsamer fährt. Laut Umweltbundesamt werden allein im deutschen Straßenverkehr jedes Jahr mehr als 150 Millionen Tonnen CO2 produziert. Zwei Millionen davon könnte man durch ein Tempolimit von 130 einsparen. Ein weiteres Argument: mehr Sicherheit im Straßenverkehr – bei Autounfällen würden weniger Menschen verletzt oder getötet. Nach Einschätzung des ADAC, der gegen eine generelle Geschwindigkeitsbegrenzung auf Autobahnen ist, kommt es in Ländern mit Tempolimit nicht zu weniger Unfällen. Außerdem ereigneten sich 2020 weniger tödliche Unfälle auf deutschen Autobahnen als auf Landstraßen. Viele Gegner des Tempolimits ärgert das schon: Sie wollen sich nicht vorschreiben lassen, wie schnell sie fahren dürfen. Auf etwa 30 Prozent des Autobahnnetzes gibt es bereits ein Tempolimit."
   },
   {
    "n": 75,
@@ -1055,9 +1059,10 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "Laut Straßenverkehr",
     "Wegen Statistik",
     "Wegen Straßenverkehr",
-    "Laut StatistikBurger mit Tofu"
+    "Laut Statistik"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Sind 130 Kilometer pro Stunde genug? Anders als in den meisten Industrieländern gibt es in Deutschland bisher kein allgemeines Tempolimit auf Autobahnen. Die neue Regierung könnte das ändern, doch die öffentliche Meinung darüber ist gespalten. Befürworter eines Tempolimits sagen, dass es der Umwelt hilft, wenn man langsamer fährt. Laut Umweltbundesamt werden allein im deutschen Straßenverkehr jedes Jahr mehr als 150 Millionen Tonnen CO2 produziert. Zwei Millionen davon könnte man durch ein Tempolimit von 130 einsparen. Ein weiteres Argument: mehr Sicherheit im Straßenverkehr – bei Autounfällen würden weniger Menschen verletzt oder getötet. Nach Einschätzung des ADAC, der gegen eine generelle Geschwindigkeitsbegrenzung auf Autobahnen ist, kommt es in Ländern mit Tempolimit nicht zu weniger Unfällen. Außerdem ereigneten sich 2020 weniger tödliche Unfälle auf deutschen Autobahnen als auf Landstraßen. Viele Gegner des Tempolimits ärgert das schon: Sie wollen sich nicht vorschreiben lassen, wie schnell sie fahren dürfen. Auf etwa 30 Prozent des Autobahnnetzes gibt es bereits ein Tempolimit."
   },
   {
    "n": 76,
@@ -1070,7 +1075,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "er nicht will, dass Tiere für ihn umgebracht werden müssen",
     "Vegan ihm eine Frage gestellt hat"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Burger mit Tofu Christian Kuper liebt Tiere. Er will nicht, dass eines für ihn sterben muss. Deshalb lebt er vegan. „Es war für mich zuerst eine ethische Frage“, erklärt er. „Dann habe ich gemerkt, dass ich mich mit veganem Essen physisch viel besser fühle. Auch extrem viel Arbeit habe ich locker weggesteckt.“ Immer mehr Menschen in Deutschland leben so wie Kuper: Es gibt mehr als eine Million Veganer. Circa acht Millionen Menschen ernähren sich vegetarisch. „Für mich war die Zeit da, eine vegane Fast-Food-Kette in Deutschland zu starten“, sagt der 37-Jährige. Zusammen mit seinem Freund Tobias Rohde hat er deshalb Vincent Vegan gegründet. Zuerst waren Kuper und Rohde in Food Trucks unterwegs. Letztes Jahr im September war dann die Premiere für den ersten Laden im zweiten Stock der Europa Passage im Zentrum von Hamburg. „Vom ersten Tag an haben wir viele Kunden gehabt“, erzählt Kuper. Nur circa zehn Prozent davon sind Veganer. Die anderen 90 Prozent wollen einfach gutes Fast Food essen. Dieses Restaurant bietet auch Pommes, Currywurst und Kebab an, natürlich immer in der veganen Variante. Kuper und Rohde wollen auch in andere Städte expandieren, nach Berlin zum Beispiel. Vielleicht gibt es auch bald im Ausland ihre veganen Burger."
   },
   {
    "n": 77,
@@ -1083,7 +1089,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "sind 90 Prozent der Menschen Vegetarier",
     "gibt es knapp eine Million Vegetarier"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Burger mit Tofu Christian Kuper liebt Tiere. Er will nicht, dass eines für ihn sterben muss. Deshalb lebt er vegan. „Es war für mich zuerst eine ethische Frage“, erklärt er. „Dann habe ich gemerkt, dass ich mich mit veganem Essen physisch viel besser fühle. Auch extrem viel Arbeit habe ich locker weggesteckt.“ Immer mehr Menschen in Deutschland leben so wie Kuper: Es gibt mehr als eine Million Veganer. Circa acht Millionen Menschen ernähren sich vegetarisch. „Für mich war die Zeit da, eine vegane Fast-Food-Kette in Deutschland zu starten“, sagt der 37-Jährige. Zusammen mit seinem Freund Tobias Rohde hat er deshalb Vincent Vegan gegründet. Zuerst waren Kuper und Rohde in Food Trucks unterwegs. Letztes Jahr im September war dann die Premiere für den ersten Laden im zweiten Stock der Europa Passage im Zentrum von Hamburg. „Vom ersten Tag an haben wir viele Kunden gehabt“, erzählt Kuper. Nur circa zehn Prozent davon sind Veganer. Die anderen 90 Prozent wollen einfach gutes Fast Food essen. Dieses Restaurant bietet auch Pommes, Currywurst und Kebab an, natürlich immer in der veganen Variante. Kuper und Rohde wollen auch in andere Städte expandieren, nach Berlin zum Beispiel. Vielleicht gibt es auch bald im Ausland ihre veganen Burger."
   },
   {
    "n": 78,
@@ -1096,7 +1103,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "ist im Ausland",
     "ist in Hamburg"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Burger mit Tofu Christian Kuper liebt Tiere. Er will nicht, dass eines für ihn sterben muss. Deshalb lebt er vegan. „Es war für mich zuerst eine ethische Frage“, erklärt er. „Dann habe ich gemerkt, dass ich mich mit veganem Essen physisch viel besser fühle. Auch extrem viel Arbeit habe ich locker weggesteckt.“ Immer mehr Menschen in Deutschland leben so wie Kuper: Es gibt mehr als eine Million Veganer. Circa acht Millionen Menschen ernähren sich vegetarisch. „Für mich war die Zeit da, eine vegane Fast-Food-Kette in Deutschland zu starten“, sagt der 37-Jährige. Zusammen mit seinem Freund Tobias Rohde hat er deshalb Vincent Vegan gegründet. Zuerst waren Kuper und Rohde in Food Trucks unterwegs. Letztes Jahr im September war dann die Premiere für den ersten Laden im zweiten Stock der Europa Passage im Zentrum von Hamburg. „Vom ersten Tag an haben wir viele Kunden gehabt“, erzählt Kuper. Nur circa zehn Prozent davon sind Veganer. Die anderen 90 Prozent wollen einfach gutes Fast Food essen. Dieses Restaurant bietet auch Pommes, Currywurst und Kebab an, natürlich immer in der veganen Variante. Kuper und Rohde wollen auch in andere Städte expandieren, nach Berlin zum Beispiel. Vielleicht gibt es auch bald im Ausland ihre veganen Burger."
   },
   {
    "n": 79,
@@ -1109,7 +1117,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "gibt es auch vegane Currywurst",
     "gibt es keine Kartoffelgerichte"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Burger mit Tofu Christian Kuper liebt Tiere. Er will nicht, dass eines für ihn sterben muss. Deshalb lebt er vegan. „Es war für mich zuerst eine ethische Frage“, erklärt er. „Dann habe ich gemerkt, dass ich mich mit veganem Essen physisch viel besser fühle. Auch extrem viel Arbeit habe ich locker weggesteckt.“ Immer mehr Menschen in Deutschland leben so wie Kuper: Es gibt mehr als eine Million Veganer. Circa acht Millionen Menschen ernähren sich vegetarisch. „Für mich war die Zeit da, eine vegane Fast-Food-Kette in Deutschland zu starten“, sagt der 37-Jährige. Zusammen mit seinem Freund Tobias Rohde hat er deshalb Vincent Vegan gegründet. Zuerst waren Kuper und Rohde in Food Trucks unterwegs. Letztes Jahr im September war dann die Premiere für den ersten Laden im zweiten Stock der Europa Passage im Zentrum von Hamburg. „Vom ersten Tag an haben wir viele Kunden gehabt“, erzählt Kuper. Nur circa zehn Prozent davon sind Veganer. Die anderen 90 Prozent wollen einfach gutes Fast Food essen. Dieses Restaurant bietet auch Pommes, Currywurst und Kebab an, natürlich immer in der veganen Variante. Kuper und Rohde wollen auch in andere Städte expandieren, nach Berlin zum Beispiel. Vielleicht gibt es auch bald im Ausland ihre veganen Burger."
   },
   {
    "n": 80,
@@ -1122,7 +1131,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l007'] = {
     "sind vor allem Leute, die auch Fleisch essen",
     "sind überwiegend Veganer"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Burger mit Tofu Christian Kuper liebt Tiere. Er will nicht, dass eines für ihn sterben muss. Deshalb lebt er vegan. „Es war für mich zuerst eine ethische Frage“, erklärt er. „Dann habe ich gemerkt, dass ich mich mit veganem Essen physisch viel besser fühle. Auch extrem viel Arbeit habe ich locker weggesteckt.“ Immer mehr Menschen in Deutschland leben so wie Kuper: Es gibt mehr als eine Million Veganer. Circa acht Millionen Menschen ernähren sich vegetarisch. „Für mich war die Zeit da, eine vegane Fast-Food-Kette in Deutschland zu starten“, sagt der 37-Jährige. Zusammen mit seinem Freund Tobias Rohde hat er deshalb Vincent Vegan gegründet. Zuerst waren Kuper und Rohde in Food Trucks unterwegs. Letztes Jahr im September war dann die Premiere für den ersten Laden im zweiten Stock der Europa Passage im Zentrum von Hamburg. „Vom ersten Tag an haben wir viele Kunden gehabt“, erzählt Kuper. Nur circa zehn Prozent davon sind Veganer. Die anderen 90 Prozent wollen einfach gutes Fast Food essen. Dieses Restaurant bietet auch Pommes, Currywurst und Kebab an, natürlich immer in der veganen Variante. Kuper und Rohde wollen auch in andere Städte expandieren, nach Berlin zum Beispiel. Vielleicht gibt es auch bald im Ausland ihre veganen Burger."
   }
  ]
 };

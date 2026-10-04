@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Trẻ em dưới 3 tuổi",
     "Người già",
     "Người bị bệnh cao huyết áp",
-    "Người bị cảm cúmĐề đọc hiểu 1Ký sự một thoáng Đài Loan"
+    "Người bị cảm cúm"
    ],
    "a": 2,
    "exp": "✅ (C) 高血壓患者泡溫泉時血管急遽擴張收縮，易造成血壓劇烈波動而引發昏厥或中風，溫泉場所警告標示明定心臟病、高血壓等循環系統疾病者不宜入浴。\n❌ (A) 三歲以下幼童並非絕對禁止，規定是須由成人陪同並縮短浸泡時間、降低水溫。\n❌ (B) 年長者只要無慢性病並有人陪同即可短時間浸泡，屬須注意而非不宜。\n❌ (D) 一般感冒者建議痊癒後再泡，屬暫時性不適宜，非題目所指的高風險族群。\n📚 出處：溫泉區警告標示規定（心臟病、高血壓等不宜入浴）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Đài Loan dưới góc nhìn của nhà báo Việt",
     "Đài Loan dưới góc nhìn của nhà báo Mỹ"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đề đọc hiểu 1 Ký sự một thoáng Đài Loan ......Từ thủ đô Hà Nội, vượt hơn hai nghìn cây số sau hai giờ ba mươi phút trên chuyến bay của hãng hàng không China Airlines. Chúng tôi đến sân bay quốc tế Đào Viên, sân bay lớn nhất Đài Loan khởi đầu cho chuyến đi bảy ngày tới vùng đất xưa kia từng được các thủy thủ Bồ Đào Nha gọi là hòn đảo xinh đẹp và bây giờ được mệnh danh là trái tim Châu Á. Ấn tượng đầu tiên khi đặt chân đến Đài Loan đó là vùng đất với những con người mến khách. Đài Loan có các thành phố lớn như Đài Bắc, Đài Trung, Đài Nam và Cao Hùng. Đây là những trung tâm chính trị, kinh tế thương mại, văn hóa nghệ thuật cũng là những điểm đến du lịch hấp dẫn du khách quốc tế. Đài Loan hiện có dân số hơn hai mươi ba triệu người, thu nhập bình quân đầu người đạt trên hai mươi mốt nghìn đô la Mỹ. Đây chỉ là ấn tượng đầu tiên về mức sống khá giả của người dân Đài Loan. Ngoài những điều này Đài Loan có đầy đủ thế mạnh từ cảnh quan thiên nhiên, môi trường sinh thái với bản sắc văn hóa giàu tính nhân văn nhân ái cho đến phong tục tập quán truyền thống và văn hóa ẩm thực. Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người. Đoàn chúng tôi gồm phóng viên đài truyền hình kỹ thuật số VTC, tạp chí Thế giới ảnh, tạp chí Du lịch và Báo điện tử VietnamPlus Thông tấn xã Việt Nam. Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau nhưng tất cả đều có một điểm chung là mong muốn khám phá giới thiệu những nét đặc sắc nhất về cuộc sống con người nơi đây với những ai muốn tìm hiểu về Đài Loan....."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Cathay Pacific Airlines",
     "Vietnam Airlines"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Đề đọc hiểu 1 Ký sự một thoáng Đài Loan ......Từ thủ đô Hà Nội, vượt hơn hai nghìn cây số sau hai giờ ba mươi phút trên chuyến bay của hãng hàng không China Airlines. Chúng tôi đến sân bay quốc tế Đào Viên, sân bay lớn nhất Đài Loan khởi đầu cho chuyến đi bảy ngày tới vùng đất xưa kia từng được các thủy thủ Bồ Đào Nha gọi là hòn đảo xinh đẹp và bây giờ được mệnh danh là trái tim Châu Á. Ấn tượng đầu tiên khi đặt chân đến Đài Loan đó là vùng đất với những con người mến khách. Đài Loan có các thành phố lớn như Đài Bắc, Đài Trung, Đài Nam và Cao Hùng. Đây là những trung tâm chính trị, kinh tế thương mại, văn hóa nghệ thuật cũng là những điểm đến du lịch hấp dẫn du khách quốc tế. Đài Loan hiện có dân số hơn hai mươi ba triệu người, thu nhập bình quân đầu người đạt trên hai mươi mốt nghìn đô la Mỹ. Đây chỉ là ấn tượng đầu tiên về mức sống khá giả của người dân Đài Loan. Ngoài những điều này Đài Loan có đầy đủ thế mạnh từ cảnh quan thiên nhiên, môi trường sinh thái với bản sắc văn hóa giàu tính nhân văn nhân ái cho đến phong tục tập quán truyền thống và văn hóa ẩm thực. Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người. Đoàn chúng tôi gồm phóng viên đài truyền hình kỹ thuật số VTC, tạp chí Thế giới ảnh, tạp chí Du lịch và Báo điện tử VietnamPlus Thông tấn xã Việt Nam. Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau nhưng tất cả đều có một điểm chung là mong muốn khám phá giới thiệu những nét đặc sắc nhất về cuộc sống con người nơi đây với những ai muốn tìm hiểu về Đài Loan....."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người",
     "Việt Nam quả thật đã vượt xa trí tưởng tượng của nhiều người"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đề đọc hiểu 1 Ký sự một thoáng Đài Loan ......Từ thủ đô Hà Nội, vượt hơn hai nghìn cây số sau hai giờ ba mươi phút trên chuyến bay của hãng hàng không China Airlines. Chúng tôi đến sân bay quốc tế Đào Viên, sân bay lớn nhất Đài Loan khởi đầu cho chuyến đi bảy ngày tới vùng đất xưa kia từng được các thủy thủ Bồ Đào Nha gọi là hòn đảo xinh đẹp và bây giờ được mệnh danh là trái tim Châu Á. Ấn tượng đầu tiên khi đặt chân đến Đài Loan đó là vùng đất với những con người mến khách. Đài Loan có các thành phố lớn như Đài Bắc, Đài Trung, Đài Nam và Cao Hùng. Đây là những trung tâm chính trị, kinh tế thương mại, văn hóa nghệ thuật cũng là những điểm đến du lịch hấp dẫn du khách quốc tế. Đài Loan hiện có dân số hơn hai mươi ba triệu người, thu nhập bình quân đầu người đạt trên hai mươi mốt nghìn đô la Mỹ. Đây chỉ là ấn tượng đầu tiên về mức sống khá giả của người dân Đài Loan. Ngoài những điều này Đài Loan có đầy đủ thế mạnh từ cảnh quan thiên nhiên, môi trường sinh thái với bản sắc văn hóa giàu tính nhân văn nhân ái cho đến phong tục tập quán truyền thống và văn hóa ẩm thực. Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người. Đoàn chúng tôi gồm phóng viên đài truyền hình kỹ thuật số VTC, tạp chí Thế giới ảnh, tạp chí Du lịch và Báo điện tử VietnamPlus Thông tấn xã Việt Nam. Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau nhưng tất cả đều có một điểm chung là mong muốn khám phá giới thiệu những nét đặc sắc nhất về cuộc sống con người nơi đây với những ai muốn tìm hiểu về Đài Loan....."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "các sinh viên Bồ Đào Nha",
     "các giáo viên Bồ Đào Nha"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Đề đọc hiểu 1 Ký sự một thoáng Đài Loan ......Từ thủ đô Hà Nội, vượt hơn hai nghìn cây số sau hai giờ ba mươi phút trên chuyến bay của hãng hàng không China Airlines. Chúng tôi đến sân bay quốc tế Đào Viên, sân bay lớn nhất Đài Loan khởi đầu cho chuyến đi bảy ngày tới vùng đất xưa kia từng được các thủy thủ Bồ Đào Nha gọi là hòn đảo xinh đẹp và bây giờ được mệnh danh là trái tim Châu Á. Ấn tượng đầu tiên khi đặt chân đến Đài Loan đó là vùng đất với những con người mến khách. Đài Loan có các thành phố lớn như Đài Bắc, Đài Trung, Đài Nam và Cao Hùng. Đây là những trung tâm chính trị, kinh tế thương mại, văn hóa nghệ thuật cũng là những điểm đến du lịch hấp dẫn du khách quốc tế. Đài Loan hiện có dân số hơn hai mươi ba triệu người, thu nhập bình quân đầu người đạt trên hai mươi mốt nghìn đô la Mỹ. Đây chỉ là ấn tượng đầu tiên về mức sống khá giả của người dân Đài Loan. Ngoài những điều này Đài Loan có đầy đủ thế mạnh từ cảnh quan thiên nhiên, môi trường sinh thái với bản sắc văn hóa giàu tính nhân văn nhân ái cho đến phong tục tập quán truyền thống và văn hóa ẩm thực. Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người. Đoàn chúng tôi gồm phóng viên đài truyền hình kỹ thuật số VTC, tạp chí Thế giới ảnh, tạp chí Du lịch và Báo điện tử VietnamPlus Thông tấn xã Việt Nam. Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau nhưng tất cả đều có một điểm chung là mong muốn khám phá giới thiệu những nét đặc sắc nhất về cuộc sống con người nơi đây với những ai muốn tìm hiểu về Đài Loan....."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Nhiều người lần đầu tới Mỹ, mỗi người có một cảm nhận khác nhau",
     "Hai người lần đầu tới Nhật, mỗi người có một cảm nhận khác nhau",
     "Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau",
-    "Ba người lần đầu tới Trung Quốc, mỗi người có một cảm nhận khác nhauĐề đọc hiểu 2"
+    "Ba người lần đầu tới Trung Quốc, mỗi người có một cảm nhận khác nhau"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đề đọc hiểu 1 Ký sự một thoáng Đài Loan ......Từ thủ đô Hà Nội, vượt hơn hai nghìn cây số sau hai giờ ba mươi phút trên chuyến bay của hãng hàng không China Airlines. Chúng tôi đến sân bay quốc tế Đào Viên, sân bay lớn nhất Đài Loan khởi đầu cho chuyến đi bảy ngày tới vùng đất xưa kia từng được các thủy thủ Bồ Đào Nha gọi là hòn đảo xinh đẹp và bây giờ được mệnh danh là trái tim Châu Á. Ấn tượng đầu tiên khi đặt chân đến Đài Loan đó là vùng đất với những con người mến khách. Đài Loan có các thành phố lớn như Đài Bắc, Đài Trung, Đài Nam và Cao Hùng. Đây là những trung tâm chính trị, kinh tế thương mại, văn hóa nghệ thuật cũng là những điểm đến du lịch hấp dẫn du khách quốc tế. Đài Loan hiện có dân số hơn hai mươi ba triệu người, thu nhập bình quân đầu người đạt trên hai mươi mốt nghìn đô la Mỹ. Đây chỉ là ấn tượng đầu tiên về mức sống khá giả của người dân Đài Loan. Ngoài những điều này Đài Loan có đầy đủ thế mạnh từ cảnh quan thiên nhiên, môi trường sinh thái với bản sắc văn hóa giàu tính nhân văn nhân ái cho đến phong tục tập quán truyền thống và văn hóa ẩm thực. Đài Loan quả thật đã vượt xa trí tưởng tượng của nhiều người. Đoàn chúng tôi gồm phóng viên đài truyền hình kỹ thuật số VTC, tạp chí Thế giới ảnh, tạp chí Du lịch và Báo điện tử VietnamPlus Thông tấn xã Việt Nam. Nhiều người lần đầu tới Đài Loan, mỗi người có một cảm nhận khác nhau nhưng tất cả đều có một điểm chung là mong muốn khám phá giới thiệu những nét đặc sắc nhất về cuộc sống con người nơi đây với những ai muốn tìm hiểu về Đài Loan....."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d014'] = {
     "Thứ năm",
     "Thứ sáu"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Đề đọc hiểu 2 Huyện Nam Đầu của Đài Loan lọt vào Bảng xếp hạng điểm đến mới được yêu thích của châu Á năm 2018 Ngày 16/1/2018, trang web du lịch nổi tiếng thế giới TripAdvisor đã công bố Bảng xếp hạng điểm du lịch mới được “Du khách lựa chọn” năm 2018. Theo Bảng xếp hạng này, huyện Nam Đầu và thành phố Đài Nam của Đài Loan đều đứng trong top 10 điểm đến yêu thích của châu Á. Theo danh sách này, 10 điểm du lịch mới được yêu thích của châu Á xếp theo thứ tự gồm có: đảo Ishigaki của Nhật Bản, thành phố Takayama của Nhật Bản, Busan của Hàn Quốc, Pnom Penh của Campuchia, huyện Nam Đầu của Đài Loan, Thâm Quyến của Trung Quốc, thành phố Đài Nam của Đài Loan, thành phố Seogwipo của Hàn Quốc, Negombo của Sri Lanka và Pokhara của Nepal. Trang wed TripAdvisor nêu rõ, huyện Nam Đầu là huyện duy nhất của Đài Loan nằm hoàn toàn trong đất liền, núi Ngọc là ngọn núi cao nhất Đài Loan, các dãy núi trùng điệp, cánh rừng rậm rạp và hồ Nhật Nguyệt là hồ tự nhiên nổi tiếng lớn nhất đều nằm tại đây. Ngoài cảnh đẹp thiên nhiên sẵn có, du khách còn có thể tham quan các thắng cảnh như đền chùa, làng văn hóa các dân tộc, các nông trường, v.v… để tìm hiểu văn hóa, đời sống của người dân địa phương. Ngoài ra, Đài Nam là thành phố có lịch sử lâu đời của Đài Loan, là trung tâm tôn giáo tập trung hàng nghìn đền chùa, đền thờ Khổng Tử đầu tiên của Đài Loan cũng được xây dựng tại Đài Nam. Đồng thời, Đài Nam cũng là thiên đường về ẩm thực, món ngon địa phương và các món quà vặt đường phố mà ta không thể bỏ qua đều khiến Đài Nam trở nên nổi tiếng với tên gọi kinh đô ẩm thực của Đài Loan."
   },
   {
    "n": 77,

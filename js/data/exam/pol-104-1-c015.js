@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-104-1-c015'] = {
     "opposed to",
     "come across",
     "turned against",
-    "fitted with請依下文回答第 46 題至第 48 題：Coast Guard Festival is a festival in Grand Haven, Michigan. Founded in 1924, the festival is a ten-day ＿＿＿ 46 ＿＿＿ that"
+    "fitted with"
    ],
    "a": 3,
    "exp": "✅ (D) \"fitted with\" 意為「配備有、裝設有」，在此作分詞片語後位修飾救生圈（lifesaver），指船上備有「配備有自亮燈」的救生圈，符合海難應變設備規格。\n❌ (A) \"opposed to\" 意為「與…對立、反對」，無法用來表示救生圈上配有自亮燈。\n❌ (B) \"come across\" 意為「偶然遇見、碰上」，非修飾裝備規格之分詞用法。\n❌ (C) \"turned against\" 意為「反目、背叛」，與救生裝備之配置語意毫無關聯。\n📚 出處：國際海上人命安全公約（SOLAS）救生設備規範、海事英文（fitted with 配備有）。"
@@ -649,46 +649,43 @@ window.APP_EXAM_PAPERS['pol-104-1-c015'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "alliance",
+    "event",
+    "scheme",
+    "venture"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104070_603_0212_46.webp"
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "including",
+    "respectively",
+    "except for",
+    "let alone"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104070_603_0212_47.webp"
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "celebrate",
+    "approve",
+    "honor",
+    "preserve"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_603_0212_48.webp"
+   "psg": "starts in the last weekend in July, and ends in early August. Over 350,000 people attend the festival, 47 the nation’s highest-ranking United States Coast Guard dignitaries from Washington, DC. The focus of the annual festival is to 48 the Coast Guard and those who sacrificed their lives in the service of their country."
   },
   {
    "n": 49,

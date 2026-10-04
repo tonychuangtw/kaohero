@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Es war mir",
     "Mich war es",
     "War es mir",
-    "Es war für mirTraditionelle Architektur in Taiwan"
+    "Es war für mir"
    ],
    "a": 0,
    "exp": "✅ (A) 慣用句型 Es war mir ein großes Vergnügen, … zu …＝「能…是我極大的榮幸」，es 作主詞、感受者用第三格 mir。\n❌ (B) 主詞必須是 es，mich 不能作主詞，且語序錯誤。\n❌ (C) 動詞置於句首屬疑問句或條件句語序，陳述句應為 Es war mir。\n❌ (D) für 支配第四格應為 für mich，且此慣用語固定用第三格 mir（選項尾端黏著的標題文字是轉檔殘留）。\n📚 出處：德語慣用句 Es ist/war mir ein Vergnügen ＋ zu 不定式"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Es handelt sich um den traditionellen Baustil Taiwans.",
     "Es handelt sich um Gemälde von Landschaften in Taiwan."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Traditionelle Architektur in Taiwan Eine große Bandbreite architektonischer Stile Taiwans findet man im Tempelbau. Die Tempel dienen verschiedenen Religionen, von Buddhismus bis zu Taoismus und Ur- und Volksreligionen, haben jedoch alle den gleichen Grundriss. Aufgrund Taiwans reicher Tradition der Volksreligionen gibt es hier eine Vielzahl von Tempeln, welche einzigartige kulturelle Anziehungspunkte sind. Nach einer vorsichtigen Schätzung gibt es über 5.000 Tempel in Taiwan. Viele davon sind von besonderer architektonischer Bedeutung. Berühmte und wichtige Beispiele für die klassische Tempelarchitektur in Taiwan sind der Tienhou Tempel in Lukang, der Longshan Tempel in Taipeh und der Chaotien Tempel in Peikang. Der Longshan Tempel ist besonders wegen seiner langen Geschichte hervorzuheben. Typisch für den traditionellen Tempelbau sind auch die kunstvollen Wandgemälde und Holzschnitzereien. Die farbigen Wandgemälde, welche an traditionellen Gebäuden gefunden wurden, haben sowohl symbolische, wie auch ästhetische Bedeutung, ihre Darstellungen reichen von Drachen und Phönix, Motiven aus Mythen, bis hin zu Gemälden von Landschaften, Blumen und Vögeln. Eine bemerkenswerte architektonische Entwicklung in Taiwan ist die Holzschnitzerei. Gewöhnlich sind die Dächer zu beiden Seiten leicht abfallend ausgeführt. Traditionelle Wohnhäuser haben Keramik-Verzierungen auf dem Dachfirst, welche die sonst fließende Außenlinie des Gebäudes unterbrechen. Das charakteristische geschwungene Dach wird von vielen ausländischen Besuchern bewundert. Während das Gebäude selbst relativ einfach und schlicht ist, bringen der First und die aufwärtsgeschwungenen Dachränder eine Bewegung in das Bild. Auch Parallelen zwischen den Linien der klassischen Architektur und den Pinselstrichen der Kalligrafie werden gezogen."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Der Chaotien Tempel in Peikang.",
     "Der Longshan Tempel in Taipeh."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Traditionelle Architektur in Taiwan Eine große Bandbreite architektonischer Stile Taiwans findet man im Tempelbau. Die Tempel dienen verschiedenen Religionen, von Buddhismus bis zu Taoismus und Ur- und Volksreligionen, haben jedoch alle den gleichen Grundriss. Aufgrund Taiwans reicher Tradition der Volksreligionen gibt es hier eine Vielzahl von Tempeln, welche einzigartige kulturelle Anziehungspunkte sind. Nach einer vorsichtigen Schätzung gibt es über 5.000 Tempel in Taiwan. Viele davon sind von besonderer architektonischer Bedeutung. Berühmte und wichtige Beispiele für die klassische Tempelarchitektur in Taiwan sind der Tienhou Tempel in Lukang, der Longshan Tempel in Taipeh und der Chaotien Tempel in Peikang. Der Longshan Tempel ist besonders wegen seiner langen Geschichte hervorzuheben. Typisch für den traditionellen Tempelbau sind auch die kunstvollen Wandgemälde und Holzschnitzereien. Die farbigen Wandgemälde, welche an traditionellen Gebäuden gefunden wurden, haben sowohl symbolische, wie auch ästhetische Bedeutung, ihre Darstellungen reichen von Drachen und Phönix, Motiven aus Mythen, bis hin zu Gemälden von Landschaften, Blumen und Vögeln. Eine bemerkenswerte architektonische Entwicklung in Taiwan ist die Holzschnitzerei. Gewöhnlich sind die Dächer zu beiden Seiten leicht abfallend ausgeführt. Traditionelle Wohnhäuser haben Keramik-Verzierungen auf dem Dachfirst, welche die sonst fließende Außenlinie des Gebäudes unterbrechen. Das charakteristische geschwungene Dach wird von vielen ausländischen Besuchern bewundert. Während das Gebäude selbst relativ einfach und schlicht ist, bringen der First und die aufwärtsgeschwungenen Dachränder eine Bewegung in das Bild. Auch Parallelen zwischen den Linien der klassischen Architektur und den Pinselstrichen der Kalligrafie werden gezogen."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Blumen und Vögel sind Motiven aus Mythen.",
     "Die farbigen Wandgemälde sind von symbolischer und ästhetischer Bedeutung."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Traditionelle Architektur in Taiwan Eine große Bandbreite architektonischer Stile Taiwans findet man im Tempelbau. Die Tempel dienen verschiedenen Religionen, von Buddhismus bis zu Taoismus und Ur- und Volksreligionen, haben jedoch alle den gleichen Grundriss. Aufgrund Taiwans reicher Tradition der Volksreligionen gibt es hier eine Vielzahl von Tempeln, welche einzigartige kulturelle Anziehungspunkte sind. Nach einer vorsichtigen Schätzung gibt es über 5.000 Tempel in Taiwan. Viele davon sind von besonderer architektonischer Bedeutung. Berühmte und wichtige Beispiele für die klassische Tempelarchitektur in Taiwan sind der Tienhou Tempel in Lukang, der Longshan Tempel in Taipeh und der Chaotien Tempel in Peikang. Der Longshan Tempel ist besonders wegen seiner langen Geschichte hervorzuheben. Typisch für den traditionellen Tempelbau sind auch die kunstvollen Wandgemälde und Holzschnitzereien. Die farbigen Wandgemälde, welche an traditionellen Gebäuden gefunden wurden, haben sowohl symbolische, wie auch ästhetische Bedeutung, ihre Darstellungen reichen von Drachen und Phönix, Motiven aus Mythen, bis hin zu Gemälden von Landschaften, Blumen und Vögeln. Eine bemerkenswerte architektonische Entwicklung in Taiwan ist die Holzschnitzerei. Gewöhnlich sind die Dächer zu beiden Seiten leicht abfallend ausgeführt. Traditionelle Wohnhäuser haben Keramik-Verzierungen auf dem Dachfirst, welche die sonst fließende Außenlinie des Gebäudes unterbrechen. Das charakteristische geschwungene Dach wird von vielen ausländischen Besuchern bewundert. Während das Gebäude selbst relativ einfach und schlicht ist, bringen der First und die aufwärtsgeschwungenen Dachränder eine Bewegung in das Bild. Auch Parallelen zwischen den Linien der klassischen Architektur und den Pinselstrichen der Kalligrafie werden gezogen."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Den geschwungenen Dachfirst.",
     "Den einfachen und schlichten Dachfirst."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Traditionelle Architektur in Taiwan Eine große Bandbreite architektonischer Stile Taiwans findet man im Tempelbau. Die Tempel dienen verschiedenen Religionen, von Buddhismus bis zu Taoismus und Ur- und Volksreligionen, haben jedoch alle den gleichen Grundriss. Aufgrund Taiwans reicher Tradition der Volksreligionen gibt es hier eine Vielzahl von Tempeln, welche einzigartige kulturelle Anziehungspunkte sind. Nach einer vorsichtigen Schätzung gibt es über 5.000 Tempel in Taiwan. Viele davon sind von besonderer architektonischer Bedeutung. Berühmte und wichtige Beispiele für die klassische Tempelarchitektur in Taiwan sind der Tienhou Tempel in Lukang, der Longshan Tempel in Taipeh und der Chaotien Tempel in Peikang. Der Longshan Tempel ist besonders wegen seiner langen Geschichte hervorzuheben. Typisch für den traditionellen Tempelbau sind auch die kunstvollen Wandgemälde und Holzschnitzereien. Die farbigen Wandgemälde, welche an traditionellen Gebäuden gefunden wurden, haben sowohl symbolische, wie auch ästhetische Bedeutung, ihre Darstellungen reichen von Drachen und Phönix, Motiven aus Mythen, bis hin zu Gemälden von Landschaften, Blumen und Vögeln. Eine bemerkenswerte architektonische Entwicklung in Taiwan ist die Holzschnitzerei. Gewöhnlich sind die Dächer zu beiden Seiten leicht abfallend ausgeführt. Traditionelle Wohnhäuser haben Keramik-Verzierungen auf dem Dachfirst, welche die sonst fließende Außenlinie des Gebäudes unterbrechen. Das charakteristische geschwungene Dach wird von vielen ausländischen Besuchern bewundert. Während das Gebäude selbst relativ einfach und schlicht ist, bringen der First und die aufwärtsgeschwungenen Dachränder eine Bewegung in das Bild. Auch Parallelen zwischen den Linien der klassischen Architektur und den Pinselstrichen der Kalligrafie werden gezogen."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "In Taiwan sind die Tempel einzigartige kulturelle Anziehungspunkte.",
     "In Taiwan hat jeder Tempelbau seinen einzigartigen Grundriss.",
     "Der Dachfirst der traditionellen Wohnhäuser in Taiwan ist mit Keramik-Verzierungenausgestattet.",
-    "Kunstvolle Wandgemälde und Holzschnitzereien sind bezeichnend für den klassischenTempelbau Taiwans."
+    "Kunstvolle Wandgemälde und Holzschnitzereien sind bezeichnend für den klassischen"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Traditionelle Architektur in Taiwan Eine große Bandbreite architektonischer Stile Taiwans findet man im Tempelbau. Die Tempel dienen verschiedenen Religionen, von Buddhismus bis zu Taoismus und Ur- und Volksreligionen, haben jedoch alle den gleichen Grundriss. Aufgrund Taiwans reicher Tradition der Volksreligionen gibt es hier eine Vielzahl von Tempeln, welche einzigartige kulturelle Anziehungspunkte sind. Nach einer vorsichtigen Schätzung gibt es über 5.000 Tempel in Taiwan. Viele davon sind von besonderer architektonischer Bedeutung. Berühmte und wichtige Beispiele für die klassische Tempelarchitektur in Taiwan sind der Tienhou Tempel in Lukang, der Longshan Tempel in Taipeh und der Chaotien Tempel in Peikang. Der Longshan Tempel ist besonders wegen seiner langen Geschichte hervorzuheben. Typisch für den traditionellen Tempelbau sind auch die kunstvollen Wandgemälde und Holzschnitzereien. Die farbigen Wandgemälde, welche an traditionellen Gebäuden gefunden wurden, haben sowohl symbolische, wie auch ästhetische Bedeutung, ihre Darstellungen reichen von Drachen und Phönix, Motiven aus Mythen, bis hin zu Gemälden von Landschaften, Blumen und Vögeln. Eine bemerkenswerte architektonische Entwicklung in Taiwan ist die Holzschnitzerei. Gewöhnlich sind die Dächer zu beiden Seiten leicht abfallend ausgeführt. Traditionelle Wohnhäuser haben Keramik-Verzierungen auf dem Dachfirst, welche die sonst fließende Außenlinie des Gebäudes unterbrechen. Das charakteristische geschwungene Dach wird von vielen ausländischen Besuchern bewundert. Während das Gebäude selbst relativ einfach und schlicht ist, bringen der First und die aufwärtsgeschwungenen Dachränder eine Bewegung in das Bild. Auch Parallelen zwischen den Linien der klassischen Architektur und den Pinselstrichen der Kalligrafie werden gezogen."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Es geht um die Teetöpfe.",
     "Es geht um die Zubereitung vom Tee."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tempelbau Taiwans. Um guten Tee zu machen, muss besonderes Augenmerk auf Wasserqualität, Wassertemperatur, die Menge der Teeblätter und die Art des Teetopfes gelegt werden. Weiches Wasser (mit einem geringen Mineraliengehalt) ist besonders geeignet; hartes Wasser sollte unter allen Umständen gemieden werden. Die richtige Wassertemperatur ist von Tee zu Tee verschieden, für alle ganz und halb fermentierten Sorten nahe dem Siedepunkt (100° C); für die leicht fermentierten und grünen Tees sollte sie bei 90° C oder darunter liegen. Das Mengenverhätnis Teeblätter zu Wasser hängt von der verwendeten Sorte ab. Der Teetopf sollte zu einem Viertel bis zu drei Vierteln mit Teeblättern gefüllt werden, je nachdem, wie eng die Blätter gerollt sind; dann wird der Topf mit Wasser aufgefüllt. Der Tee sollte eine bis drei Minuten, je nach Sorte, ziehen. Werden dieselben Blätter für weitere Aufgüsse verwendet, muss die Zeit dementsprechend verlängert werden. Für die meisten fermentierten Tees ist ein Topf aus rotem Ton am besten geeignet. Dessen Größe sollte den Teetassen genau entsprechen. Idealerweise sollten die Tassen innen weiß sein, damit die Farbe vom Tee voll zur Geltung kommt. Begeisterte Teetrinker legen gewöhnlich großen Wert auf feingearbeitete Teetöpfe."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d007'] = {
     "Wasser mit hohem Mineraliengehalt.",
     "Wasser ohne Mineralien."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tempelbau Taiwans. Um guten Tee zu machen, muss besonderes Augenmerk auf Wasserqualität, Wassertemperatur, die Menge der Teeblätter und die Art des Teetopfes gelegt werden. Weiches Wasser (mit einem geringen Mineraliengehalt) ist besonders geeignet; hartes Wasser sollte unter allen Umständen gemieden werden. Die richtige Wassertemperatur ist von Tee zu Tee verschieden, für alle ganz und halb fermentierten Sorten nahe dem Siedepunkt (100° C); für die leicht fermentierten und grünen Tees sollte sie bei 90° C oder darunter liegen. Das Mengenverhätnis Teeblätter zu Wasser hängt von der verwendeten Sorte ab. Der Teetopf sollte zu einem Viertel bis zu drei Vierteln mit Teeblättern gefüllt werden, je nachdem, wie eng die Blätter gerollt sind; dann wird der Topf mit Wasser aufgefüllt. Der Tee sollte eine bis drei Minuten, je nach Sorte, ziehen. Werden dieselben Blätter für weitere Aufgüsse verwendet, muss die Zeit dementsprechend verlängert werden. Für die meisten fermentierten Tees ist ein Topf aus rotem Ton am besten geeignet. Dessen Größe sollte den Teetassen genau entsprechen. Idealerweise sollten die Tassen innen weiß sein, damit die Farbe vom Tee voll zur Geltung kommt. Begeisterte Teetrinker legen gewöhnlich großen Wert auf feingearbeitete Teetöpfe."
   },
   {
    "n": 78,

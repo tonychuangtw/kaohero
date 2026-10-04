@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-109-1-b002'] = {
     "certify",
     "chatter",
     "coincide",
-    "converge請依下文回答第 41 題至第 45 題：Several years back, I visited Iceland in the dead of winter. I was researching a book on global happiness, and the small"
+    "converge"
    ],
    "a": 3,
    "exp": "✅ (D) converge 表「聚集、會合」，converge at 指近千名畢業生齊聚在大學體育館參加六月份的畢業典禮。\n❌ (A) certify 意為「證明、證實」，主詞為學生，無法用以表達齊聚體育館之空間動向。\n❌ (B) chatter 意為「喋喋不休、嘮叨」，不符合齊聚體育館參加畢業典禮之莊嚴句意。\n❌ (C) coincide 意為「同時發生、巧合」，無法與學生齊聚特定場所之動作搭配。\n📚 出處：英文核心動詞（converge 聚集、會合）"
@@ -579,16 +579,15 @@ window.APP_EXAM_PAPERS['pol-109-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "perched",
+    "situated",
+    "perching",
+    "situating"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_301_0202_41.webp"
+   "psg": "Several years back, I visited Iceland in the dead of winter. I was researching a book on global happiness, and the small Nordic nation intrigued me. What was this country, adrift in the freezing North Atlantic, doing 41 atop the world's happiness rankings? In pursuit of answers, I buttonholed anyone willing to talk, dined on rotten shark, drank excessively, and, of course, 42 a dip in the Blue Lagoon, the otherworldly geothermal waters that have become synonymous with Icelandic bliss. Shortly after I left, Iceland's largest banks 43 belly up and the nation's economy teetered on the verge of collapse, collateral damage from the global financial meltdown of 2008. The unemployment rate spiked eightfold. Trust in institutions, like the banks and parliament, plummeted. I assumed that the nation's happiness also nosedived. I was wrong. \"The economic crisis had a 44 effect on happiness,\" according to health scientist Dora Gudmundsdottir, author of an exhaustive study published in the Social Indicators Research Journal. Not only did the nation's overall happiness dip only slightly during the crisis, but 25% of Icelanders reported greater happiness. What was going on? I emailed Karl Blöndal, a newspaper editor I had met in Reykjavik. “A lot of individuals have been hit hard, pensioners lost their savings. But one thing about living in a small community is that everyone you know is 45 reach,” he explained. “Those who lose their jobs are not isolated, the risk of estrangement is not the same as it would be in bigger societies.”"
   },
   {
    "n": 42,

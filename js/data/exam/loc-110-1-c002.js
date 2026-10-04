@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['loc-110-1-c002'] = {
     "sense",
     "scent",
     "science",
-    "scene請依下文回答第 46 題至第 50 題：Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the"
+    "scene"
    ],
    "a": 3,
    "exp": "✅ (D) make a scene 意為「當眾吵鬧、出洋相」，Tina 雖然生男友的氣，卻不想在公開場合鬧起來。\n❌ (A) make sense 是說得通，語意不合。\n❌ (B) scent 是香味。\n❌ (C) science 是科學。\n📚 出處：英文片語（make a scene）"
@@ -649,76 +649,71 @@ window.APP_EXAM_PAPERS['loc-110-1-c002'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "served",
+    "protected",
+    "traded",
+    "inspected"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110190_501_0110_46.webp"
+   "psg": "Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the Hawaiian coast. The dolphins have 46 as a magnet for tourists over the past few decades. However, federal officials say the increasing tourism is 47 to the dolphins because they are supposed to be resting and socializing. The National Marine Fisheries Service proposes to prohibit swimming with, or approaching within 50 meters of, Hawaii’s spinner dolphins. That would put an end to many tour group activities, which involve sailing alongside the 48 in a boat and snorkeling with them. Ann Garrett, a spokeswoman for the National Marine Fisheries Service, said she didn’t think the ban would have a big impact 49 the tourist trade in Hawaii. Tour operators 50 with Ms. Garrett’s assessment. They warned that it would be the end of legitimate dolphin swimming in this area. Dolphins typically are most active at night and sleep and relax during the day, which is when the tourists interact with them."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "essential",
+    "practical",
+    "harmful",
+    "restless"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110190_501_0110_47.webp"
+   "psg": "Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the Hawaiian coast. The dolphins have 46 as a magnet for tourists over the past few decades. However, federal officials say the increasing tourism is 47 to the dolphins because they are supposed to be resting and socializing. The National Marine Fisheries Service proposes to prohibit swimming with, or approaching within 50 meters of, Hawaii’s spinner dolphins. That would put an end to many tour group activities, which involve sailing alongside the 48 in a boat and snorkeling with them. Ann Garrett, a spokeswoman for the National Marine Fisheries Service, said she didn’t think the ban would have a big impact 49 the tourist trade in Hawaii. Tour operators 50 with Ms. Garrett’s assessment. They warned that it would be the end of legitimate dolphin swimming in this area. Dolphins typically are most active at night and sleep and relax during the day, which is when the tourists interact with them."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "creatures",
+    "passages",
+    "substances",
+    "directors"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110190_501_0110_48.webp"
+   "psg": "Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the Hawaiian coast. The dolphins have 46 as a magnet for tourists over the past few decades. However, federal officials say the increasing tourism is 47 to the dolphins because they are supposed to be resting and socializing. The National Marine Fisheries Service proposes to prohibit swimming with, or approaching within 50 meters of, Hawaii’s spinner dolphins. That would put an end to many tour group activities, which involve sailing alongside the 48 in a boat and snorkeling with them. Ann Garrett, a spokeswoman for the National Marine Fisheries Service, said she didn’t think the ban would have a big impact 49 the tourist trade in Hawaii. Tour operators 50 with Ms. Garrett’s assessment. They warned that it would be the end of legitimate dolphin swimming in this area. Dolphins typically are most active at night and sleep and relax during the day, which is when the tourists interact with them."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "with",
+    "at",
+    "on",
+    "by"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110190_501_0110_49.webp"
+   "psg": "Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the Hawaiian coast. The dolphins have 46 as a magnet for tourists over the past few decades. However, federal officials say the increasing tourism is 47 to the dolphins because they are supposed to be resting and socializing. The National Marine Fisheries Service proposes to prohibit swimming with, or approaching within 50 meters of, Hawaii’s spinner dolphins. That would put an end to many tour group activities, which involve sailing alongside the 48 in a boat and snorkeling with them. Ann Garrett, a spokeswoman for the National Marine Fisheries Service, said she didn’t think the ban would have a big impact 49 the tourist trade in Hawaii. Tour operators 50 with Ms. Garrett’s assessment. They warned that it would be the end of legitimate dolphin swimming in this area. Dolphins typically are most active at night and sleep and relax during the day, which is when the tourists interact with them."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "promised",
+    "insisted",
+    "suffered",
+    "disagreed"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110190_501_0110_50.webp"
+   "psg": "Authorities in Hawaii are proposing a ban on the popular tourist activity of swimming with dolphins off the Hawaiian coast. The dolphins have 46 as a magnet for tourists over the past few decades. However, federal officials say the increasing tourism is 47 to the dolphins because they are supposed to be resting and socializing. The National Marine Fisheries Service proposes to prohibit swimming with, or approaching within 50 meters of, Hawaii’s spinner dolphins. That would put an end to many tour group activities, which involve sailing alongside the 48 in a boat and snorkeling with them. Ann Garrett, a spokeswoman for the National Marine Fisheries Service, said she didn’t think the ban would have a big impact 49 the tourist trade in Hawaii. Tour operators 50 with Ms. Garrett’s assessment. They warned that it would be the end of legitimate dolphin swimming in this area. Dolphins typically are most active at night and sleep and relax during the day, which is when the tourists interact with them."
   }
  ]
 };

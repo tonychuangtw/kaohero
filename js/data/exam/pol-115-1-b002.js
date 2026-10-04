@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-115-1-b002'] = {
     "connecting",
     "implying",
     "offering",
-    "pursuing請依下文回答第 41 題至第 45 題At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two"
+    "pursuing"
    ],
    "a": 1,
    "exp": "✅ (B) imply 意為「暗示、顯示」，出口成長 3% 暗示經濟比許多投資人估計的更強勁；此處為分詞構句，表示前句事實所隱含的意義。\n❌ (A) connect 是「連接」，不能接 that 子句表達「顯示⋯」。\n❌ (C) offer 是「提供」，與後面的 that 子句搭配不通。\n❌ (D) pursue 是「追求」，與句意無關。\n📚 出處：字義辨析與分詞構句（..., implying that ...）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-115-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "harbors",
+    "geography",
+    "destinations",
+    "accommodation"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/115060_401_0503_41.webp"
+   "psg": "At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains reached their 41 , Tokyo and Osaka, exactly on time, at 10 a.m., depositing their passengers after a 320- mile journey that had once taken almost seven hours. This was the 42 of Japan’s Shinkansen era. 43 the 1964 Tokyo Olympic Games, the Shinkansen, or the bullet train, marked the country’s astonishing recovery from the trauma of WWII. Japan’s challenging topography and widely 44 climates, from the freezing winters of the north to the tropical humidity farther south, have made Japanese railroad engineers world leaders in rail technology. Not least of these is seismic activity. Japan is one of the most geologically unstable places on the planet, prone to earthquakes and tsunamis. Despite these factors, there has not been a single 45 as a result of a rail crash over its history. More than a means of transportation, the Shinkansen has become a potent symbol of Japan’s continuing economic and technological development."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dawn",
+    "fall",
+    "oath",
+    "hedge"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/115060_401_0503_42.webp"
+   "psg": "At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains reached their 41 , Tokyo and Osaka, exactly on time, at 10 a.m., depositing their passengers after a 320- mile journey that had once taken almost seven hours. This was the 42 of Japan’s Shinkansen era. 43 the 1964 Tokyo Olympic Games, the Shinkansen, or the bullet train, marked the country’s astonishing recovery from the trauma of WWII. Japan’s challenging topography and widely 44 climates, from the freezing winters of the north to the tropical humidity farther south, have made Japanese railroad engineers world leaders in rail technology. Not least of these is seismic activity. Japan is one of the most geologically unstable places on the planet, prone to earthquakes and tsunamis. Despite these factors, there has not been a single 45 as a result of a rail crash over its history. More than a means of transportation, the Shinkansen has become a potent symbol of Japan’s continuing economic and technological development."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "With surprise at",
+    "On grounds of",
+    "To the extent of",
+    "In tandem with"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115060_401_0503_43.webp"
+   "psg": "At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains reached their 41 , Tokyo and Osaka, exactly on time, at 10 a.m., depositing their passengers after a 320- mile journey that had once taken almost seven hours. This was the 42 of Japan’s Shinkansen era. 43 the 1964 Tokyo Olympic Games, the Shinkansen, or the bullet train, marked the country’s astonishing recovery from the trauma of WWII. Japan’s challenging topography and widely 44 climates, from the freezing winters of the north to the tropical humidity farther south, have made Japanese railroad engineers world leaders in rail technology. Not least of these is seismic activity. Japan is one of the most geologically unstable places on the planet, prone to earthquakes and tsunamis. Despite these factors, there has not been a single 45 as a result of a rail crash over its history. More than a means of transportation, the Shinkansen has become a potent symbol of Japan’s continuing economic and technological development."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "steady",
+    "similar",
+    "constant",
+    "varying"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115060_401_0503_44.webp"
+   "psg": "At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains reached their 41 , Tokyo and Osaka, exactly on time, at 10 a.m., depositing their passengers after a 320- mile journey that had once taken almost seven hours. This was the 42 of Japan’s Shinkansen era. 43 the 1964 Tokyo Olympic Games, the Shinkansen, or the bullet train, marked the country’s astonishing recovery from the trauma of WWII. Japan’s challenging topography and widely 44 climates, from the freezing winters of the north to the tropical humidity farther south, have made Japanese railroad engineers world leaders in rail technology. Not least of these is seismic activity. Japan is one of the most geologically unstable places on the planet, prone to earthquakes and tsunamis. Despite these factors, there has not been a single 45 as a result of a rail crash over its history. More than a means of transportation, the Shinkansen has become a potent symbol of Japan’s continuing economic and technological development."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "residue",
+    "creation",
+    "compression",
+    "fatality"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115060_401_0503_45.webp"
+   "psg": "At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains reached their 41 , Tokyo and Osaka, exactly on time, at 10 a.m., depositing their passengers after a 320- mile journey that had once taken almost seven hours. This was the 42 of Japan’s Shinkansen era. 43 the 1964 Tokyo Olympic Games, the Shinkansen, or the bullet train, marked the country’s astonishing recovery from the trauma of WWII. Japan’s challenging topography and widely 44 climates, from the freezing winters of the north to the tropical humidity farther south, have made Japanese railroad engineers world leaders in rail technology. Not least of these is seismic activity. Japan is one of the most geologically unstable places on the planet, prone to earthquakes and tsunamis. Despite these factors, there has not been a single 45 as a result of a rail crash over its history. More than a means of transportation, the Shinkansen has become a potent symbol of Japan’s continuing economic and technological development."
   },
   {
    "n": 46,

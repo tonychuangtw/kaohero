@@ -1003,7 +1003,7 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "Lisa fait son travail nocturne.",
     "Lisa participe aux activités toute la journée.",
     "Lisa a bien dormi.",
-    "Lisa a mal dormi.C’est souvent autour d’un repas qu’on invite des amis : un repas chaud, parfois un"
+    "Lisa a mal dormi."
    ],
    "a": 3,
    "exp": "✅ (D) 成語「passer une nuit blanche」意為「徹夜未眠／整夜失眠」，選項 (D)「Lisa a mal dormi（Lisa 沒睡好）」符合題意（選項後方文字為轉檔時誤黏之閱讀測驗開頭）。\n❌ (A) Lisa fait son travail nocturne 意為「Lisa 從事夜間工作」，度過不眠之夜不等於夜班工作。\n❌ (B) Lisa participe aux activités toute la journée 意為「Lisa 一整天參加活動」，無法解釋夜晚未眠。\n❌ (C) Lisa a bien dormi 意為「Lisa 睡得很好」，意思恰與 nuit blanche 相反。\n📚 出處：法語慣用語（Expressions idiomatiques: passer une nuit blanche）"
@@ -1019,7 +1019,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "la région",
     "la saison"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "C’est souvent autour d’un repas qu’on invite des amis : un repas chaud, parfois un buffet froid. Selon l’âge, le milieu social, la région, on reçoit ses invités de manière un peu différente, mais il y des habitudes, assez générales, qui étonnent parfois les étrangers. Même lorsqu’il s’agit d’une invitation simple, chez soi, on prépare un vrai repas cuisiné. Il semblerait anormal d’offrir pour dîner, à ses amis, des pizzas achetées au coin de la rue. Pour les plus jeunes, inviter des amis (faire la fête) veut aussi dire écouter de la musique et danser. Il est habituel de ne pas arriver juste à l’heure dite, pour laisser aux hôtes le temps de finir les préparatifs. Avec les premiers arrivés, on prend l’apéritif. Il est considéré comme normal d’arriver un quart d’heure ou une demi-heure après l’heure indiquée, mais on n’arrive pas à un dîner avec une heure de retard! Et on ne s’en va pas dès que le repas est terminé, puisque l’essentiel est d’être ensemble pour bavarder. Depuis quelques décennies, les rapports entre les gens sont devenus moins formels. En général, pour se dire bonjour, quand ils sont amis ou parents, les hommes et les femmes s’embrassent, les femmes entre elles s’embrassent aussi et les hommes entre eux se serrent la main. On embrasse également les enfants. Les invités n’arrivent pas «les mains vides». Les cadeaux apportés varient selon l’âge, le milieu social, selon qu’on est en ville ou à la campagne : fromage et vin pour compléter le repas chez les plus jeunes, vin, gâteau, bouquet de fleurs pour les repas entre adultes, livre ou disque dans certains milieux et parfois petits cadeaux pour les enfants (qui partageront rarement le repas des adultes)."
   },
   {
    "n": 73,
@@ -1032,7 +1033,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "un homme et une femme",
     "un adulte et un enfant"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "C’est souvent autour d’un repas qu’on invite des amis : un repas chaud, parfois un buffet froid. Selon l’âge, le milieu social, la région, on reçoit ses invités de manière un peu différente, mais il y des habitudes, assez générales, qui étonnent parfois les étrangers. Même lorsqu’il s’agit d’une invitation simple, chez soi, on prépare un vrai repas cuisiné. Il semblerait anormal d’offrir pour dîner, à ses amis, des pizzas achetées au coin de la rue. Pour les plus jeunes, inviter des amis (faire la fête) veut aussi dire écouter de la musique et danser. Il est habituel de ne pas arriver juste à l’heure dite, pour laisser aux hôtes le temps de finir les préparatifs. Avec les premiers arrivés, on prend l’apéritif. Il est considéré comme normal d’arriver un quart d’heure ou une demi-heure après l’heure indiquée, mais on n’arrive pas à un dîner avec une heure de retard! Et on ne s’en va pas dès que le repas est terminé, puisque l’essentiel est d’être ensemble pour bavarder. Depuis quelques décennies, les rapports entre les gens sont devenus moins formels. En général, pour se dire bonjour, quand ils sont amis ou parents, les hommes et les femmes s’embrassent, les femmes entre elles s’embrassent aussi et les hommes entre eux se serrent la main. On embrasse également les enfants. Les invités n’arrivent pas «les mains vides». Les cadeaux apportés varient selon l’âge, le milieu social, selon qu’on est en ville ou à la campagne : fromage et vin pour compléter le repas chez les plus jeunes, vin, gâteau, bouquet de fleurs pour les repas entre adultes, livre ou disque dans certains milieux et parfois petits cadeaux pour les enfants (qui partageront rarement le repas des adultes)."
   },
   {
    "n": 74,
@@ -1045,7 +1047,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "Un panier de fruits",
     "Une bouteille de vin"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "C’est souvent autour d’un repas qu’on invite des amis : un repas chaud, parfois un buffet froid. Selon l’âge, le milieu social, la région, on reçoit ses invités de manière un peu différente, mais il y des habitudes, assez générales, qui étonnent parfois les étrangers. Même lorsqu’il s’agit d’une invitation simple, chez soi, on prépare un vrai repas cuisiné. Il semblerait anormal d’offrir pour dîner, à ses amis, des pizzas achetées au coin de la rue. Pour les plus jeunes, inviter des amis (faire la fête) veut aussi dire écouter de la musique et danser. Il est habituel de ne pas arriver juste à l’heure dite, pour laisser aux hôtes le temps de finir les préparatifs. Avec les premiers arrivés, on prend l’apéritif. Il est considéré comme normal d’arriver un quart d’heure ou une demi-heure après l’heure indiquée, mais on n’arrive pas à un dîner avec une heure de retard! Et on ne s’en va pas dès que le repas est terminé, puisque l’essentiel est d’être ensemble pour bavarder. Depuis quelques décennies, les rapports entre les gens sont devenus moins formels. En général, pour se dire bonjour, quand ils sont amis ou parents, les hommes et les femmes s’embrassent, les femmes entre elles s’embrassent aussi et les hommes entre eux se serrent la main. On embrasse également les enfants. Les invités n’arrivent pas «les mains vides». Les cadeaux apportés varient selon l’âge, le milieu social, selon qu’on est en ville ou à la campagne : fromage et vin pour compléter le repas chez les plus jeunes, vin, gâteau, bouquet de fleurs pour les repas entre adultes, livre ou disque dans certains milieux et parfois petits cadeaux pour les enfants (qui partageront rarement le repas des adultes)."
   },
   {
    "n": 75,
@@ -1056,9 +1059,10 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "Les enfants partagent souvent le repas avec des invités adultes.",
     "Dès que le repas est terminé, les invités doivent s’en aller.",
     "Les jeunes écoutent de la musique et dansent avec leurs invités.",
-    "Normalement on peut acheter des pizzas au coin pour régaler ses invités.Le Paris des grands magasins"
+    "Normalement on peut acheter des pizzas au coin pour régaler ses invités."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "C’est souvent autour d’un repas qu’on invite des amis : un repas chaud, parfois un buffet froid. Selon l’âge, le milieu social, la région, on reçoit ses invités de manière un peu différente, mais il y des habitudes, assez générales, qui étonnent parfois les étrangers. Même lorsqu’il s’agit d’une invitation simple, chez soi, on prépare un vrai repas cuisiné. Il semblerait anormal d’offrir pour dîner, à ses amis, des pizzas achetées au coin de la rue. Pour les plus jeunes, inviter des amis (faire la fête) veut aussi dire écouter de la musique et danser. Il est habituel de ne pas arriver juste à l’heure dite, pour laisser aux hôtes le temps de finir les préparatifs. Avec les premiers arrivés, on prend l’apéritif. Il est considéré comme normal d’arriver un quart d’heure ou une demi-heure après l’heure indiquée, mais on n’arrive pas à un dîner avec une heure de retard! Et on ne s’en va pas dès que le repas est terminé, puisque l’essentiel est d’être ensemble pour bavarder. Depuis quelques décennies, les rapports entre les gens sont devenus moins formels. En général, pour se dire bonjour, quand ils sont amis ou parents, les hommes et les femmes s’embrassent, les femmes entre elles s’embrassent aussi et les hommes entre eux se serrent la main. On embrasse également les enfants. Les invités n’arrivent pas «les mains vides». Les cadeaux apportés varient selon l’âge, le milieu social, selon qu’on est en ville ou à la campagne : fromage et vin pour compléter le repas chez les plus jeunes, vin, gâteau, bouquet de fleurs pour les repas entre adultes, livre ou disque dans certains milieux et parfois petits cadeaux pour les enfants (qui partageront rarement le repas des adultes)."
   },
   {
    "n": 76,
@@ -1071,7 +1075,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "la mode",
     "la restauration"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Le Paris des grands magasins Paris est un musée à ciel ouvert façonné par deux mille ans d’histoire : les toits en zinc, les célèbres avenues du baron Haussmann, le Grand Palais ou encore la Tour Eiffel sont apparus au XIXe siècle, une époque où on avait toutes les audaces. C’est cette architecture qui fait l’âme de Paris. Lumière, espace, architecture spectaculaire, les Galeries Lafayette sont le dernier des grands magasins à avoir gardé son décor d’origine. Chaque jour s’y pressent 50,000 visiteurs. À la Belle Époque, les créateurs des grands magasins savaient impressionner leurs clients et les faisaient rêver, pour mieux les faire consommer. Lumineux, luxueux, avant-gardistes, les grands magasins ont failli disparaître."
   },
   {
    "n": 77,
@@ -1084,7 +1089,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "50,000",
     "10,000"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le Paris des grands magasins Paris est un musée à ciel ouvert façonné par deux mille ans d’histoire : les toits en zinc, les célèbres avenues du baron Haussmann, le Grand Palais ou encore la Tour Eiffel sont apparus au XIXe siècle, une époque où on avait toutes les audaces. C’est cette architecture qui fait l’âme de Paris. Lumière, espace, architecture spectaculaire, les Galeries Lafayette sont le dernier des grands magasins à avoir gardé son décor d’origine. Chaque jour s’y pressent 50,000 visiteurs. À la Belle Époque, les créateurs des grands magasins savaient impressionner leurs clients et les faisaient rêver, pour mieux les faire consommer. Lumineux, luxueux, avant-gardistes, les grands magasins ont failli disparaître."
   },
   {
    "n": 78,
@@ -1097,7 +1103,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "spacieuses",
     "étroites"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Le Paris des grands magasins Paris est un musée à ciel ouvert façonné par deux mille ans d’histoire : les toits en zinc, les célèbres avenues du baron Haussmann, le Grand Palais ou encore la Tour Eiffel sont apparus au XIXe siècle, une époque où on avait toutes les audaces. C’est cette architecture qui fait l’âme de Paris. Lumière, espace, architecture spectaculaire, les Galeries Lafayette sont le dernier des grands magasins à avoir gardé son décor d’origine. Chaque jour s’y pressent 50,000 visiteurs. À la Belle Époque, les créateurs des grands magasins savaient impressionner leurs clients et les faisaient rêver, pour mieux les faire consommer. Lumineux, luxueux, avant-gardistes, les grands magasins ont failli disparaître."
   },
   {
    "n": 79,
@@ -1110,7 +1117,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "Pour faire consommer davantage les clients.",
     "Pour flatter les clients."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le Paris des grands magasins Paris est un musée à ciel ouvert façonné par deux mille ans d’histoire : les toits en zinc, les célèbres avenues du baron Haussmann, le Grand Palais ou encore la Tour Eiffel sont apparus au XIXe siècle, une époque où on avait toutes les audaces. C’est cette architecture qui fait l’âme de Paris. Lumière, espace, architecture spectaculaire, les Galeries Lafayette sont le dernier des grands magasins à avoir gardé son décor d’origine. Chaque jour s’y pressent 50,000 visiteurs. À la Belle Époque, les créateurs des grands magasins savaient impressionner leurs clients et les faisaient rêver, pour mieux les faire consommer. Lumineux, luxueux, avant-gardistes, les grands magasins ont failli disparaître."
   },
   {
    "n": 80,
@@ -1123,7 +1131,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l006'] = {
     "Galeries Lafayette",
     "Centre Pompidou"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Le Paris des grands magasins Paris est un musée à ciel ouvert façonné par deux mille ans d’histoire : les toits en zinc, les célèbres avenues du baron Haussmann, le Grand Palais ou encore la Tour Eiffel sont apparus au XIXe siècle, une époque où on avait toutes les audaces. C’est cette architecture qui fait l’âme de Paris. Lumière, espace, architecture spectaculaire, les Galeries Lafayette sont le dernier des grands magasins à avoir gardé son décor d’origine. Chaque jour s’y pressent 50,000 visiteurs. À la Belle Époque, les créateurs des grands magasins savaient impressionner leurs clients et les faisaient rêver, pour mieux les faire consommer. Lumineux, luxueux, avant-gardistes, les grands magasins ont failli disparaître."
   }
  ]
 };

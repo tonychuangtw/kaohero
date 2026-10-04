@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "trên núi… Gia Nghĩa… nổi tiếng nhất",
     "cạnh biển ... Gia Nghĩa .... nổi tiếng nhất",
     "trên núi …. Đài Trung … nổi tiếng nhất",
-    "trên núi… Gia Nghĩa… ít người biết đếnTheo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy"
+    "trên núi… Gia Nghĩa… ít người biết đến"
    ],
    "a": 0,
    "exp": "✅ (A) 阿里山是位於嘉義縣的高山（trên núi）度假勝地，以日出雲海、高山茶園、步道與阿里山森林鐵路著稱，是台灣最負盛名的山岳遊憩區之一。\n❌ (B) 阿里山在內陸山區，並非「cạnh biển」（海邊）。\n❌ (C) 阿里山行政區屬嘉義縣，不在台中。\n❌ (D) 阿里山每年遊客如織，說它「ít người biết đến」（少有人知）與事實相反。\n📚 出處：台灣觀光地理（阿里山位置與森林鐵路）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "Dịch viêm phổi cấp Vũ Hán gây thiệt hại cho ngành du lịch Việt Nam",
     "Dịch viêm phổi cấp Vũ Hán gây thiệt hại cho ngành du lịch Trung Quốc"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Theo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy hiểm, bởi hiện không có biện pháp phòng ngừa nào để ngăn sự lây lan. Cảnh báo cho biết bệnh viêm phổi ở Vũ Hán Trung Quốc lây từ người sang người và những người lớn tuổi, có vấn đề về sức khỏe sẽ có nguy cơ bị nặng hơn khi mắc bệnh. Để ứng phó với nguy cơ lây lan bệnh viêm phổi Vũ Hán, Tổng cục Du lịch Việt Nam (Bộ Văn hóa - Thể thao và Du lịch) đã có văn bản gửi các doanh nghiệp du lịch. Trong đó, với doanh nghiệp lữ hành quốc tế đón khách vào Việt Nam, Tổng cục Du lịch đề nghị tuân thủ nghiêm các quy định, khuyến cáo của Bộ Y tế và các cơ quan chức năng về việc phòng chống lây nhiễm vi rút corona. Doanh nghiệp cũng cần báo cáo kịp thời và tuân thủ chỉ đạo của cơ quan chức năng địa phương nếu phát hiện khách du lịch có biểu hiện ốm, sốt, nhất là khách đến từ các quốc gia, vùng lãnh thổ đã có bệnh nhân nhiễm vi rút corona. Bộ Y tế cũng đã công bố số điện thoại nóng (19003228) để tiếp nhận các thông tin, ý kiến phản ánh về tình hình dịch bệnh trên toàn quốc và tư vấn cách phòng chống dịch bệnh."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "bởi hiện đã có nhiều người nghe nói về bệnh này",
     "bởi hiện chưa có nhiều người nghe nói về bệnh này"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Theo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy hiểm, bởi hiện không có biện pháp phòng ngừa nào để ngăn sự lây lan. Cảnh báo cho biết bệnh viêm phổi ở Vũ Hán Trung Quốc lây từ người sang người và những người lớn tuổi, có vấn đề về sức khỏe sẽ có nguy cơ bị nặng hơn khi mắc bệnh. Để ứng phó với nguy cơ lây lan bệnh viêm phổi Vũ Hán, Tổng cục Du lịch Việt Nam (Bộ Văn hóa - Thể thao và Du lịch) đã có văn bản gửi các doanh nghiệp du lịch. Trong đó, với doanh nghiệp lữ hành quốc tế đón khách vào Việt Nam, Tổng cục Du lịch đề nghị tuân thủ nghiêm các quy định, khuyến cáo của Bộ Y tế và các cơ quan chức năng về việc phòng chống lây nhiễm vi rút corona. Doanh nghiệp cũng cần báo cáo kịp thời và tuân thủ chỉ đạo của cơ quan chức năng địa phương nếu phát hiện khách du lịch có biểu hiện ốm, sốt, nhất là khách đến từ các quốc gia, vùng lãnh thổ đã có bệnh nhân nhiễm vi rút corona. Bộ Y tế cũng đã công bố số điện thoại nóng (19003228) để tiếp nhận các thông tin, ý kiến phản ánh về tình hình dịch bệnh trên toàn quốc và tư vấn cách phòng chống dịch bệnh."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "người",
     "người lớn tuổi"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Theo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy hiểm, bởi hiện không có biện pháp phòng ngừa nào để ngăn sự lây lan. Cảnh báo cho biết bệnh viêm phổi ở Vũ Hán Trung Quốc lây từ người sang người và những người lớn tuổi, có vấn đề về sức khỏe sẽ có nguy cơ bị nặng hơn khi mắc bệnh. Để ứng phó với nguy cơ lây lan bệnh viêm phổi Vũ Hán, Tổng cục Du lịch Việt Nam (Bộ Văn hóa - Thể thao và Du lịch) đã có văn bản gửi các doanh nghiệp du lịch. Trong đó, với doanh nghiệp lữ hành quốc tế đón khách vào Việt Nam, Tổng cục Du lịch đề nghị tuân thủ nghiêm các quy định, khuyến cáo của Bộ Y tế và các cơ quan chức năng về việc phòng chống lây nhiễm vi rút corona. Doanh nghiệp cũng cần báo cáo kịp thời và tuân thủ chỉ đạo của cơ quan chức năng địa phương nếu phát hiện khách du lịch có biểu hiện ốm, sốt, nhất là khách đến từ các quốc gia, vùng lãnh thổ đã có bệnh nhân nhiễm vi rút corona. Bộ Y tế cũng đã công bố số điện thoại nóng (19003228) để tiếp nhận các thông tin, ý kiến phản ánh về tình hình dịch bệnh trên toàn quốc và tư vấn cách phòng chống dịch bệnh."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "có biểu hiện không vui",
     "có biểu hiện ốm, sốt"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Theo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy hiểm, bởi hiện không có biện pháp phòng ngừa nào để ngăn sự lây lan. Cảnh báo cho biết bệnh viêm phổi ở Vũ Hán Trung Quốc lây từ người sang người và những người lớn tuổi, có vấn đề về sức khỏe sẽ có nguy cơ bị nặng hơn khi mắc bệnh. Để ứng phó với nguy cơ lây lan bệnh viêm phổi Vũ Hán, Tổng cục Du lịch Việt Nam (Bộ Văn hóa - Thể thao và Du lịch) đã có văn bản gửi các doanh nghiệp du lịch. Trong đó, với doanh nghiệp lữ hành quốc tế đón khách vào Việt Nam, Tổng cục Du lịch đề nghị tuân thủ nghiêm các quy định, khuyến cáo của Bộ Y tế và các cơ quan chức năng về việc phòng chống lây nhiễm vi rút corona. Doanh nghiệp cũng cần báo cáo kịp thời và tuân thủ chỉ đạo của cơ quan chức năng địa phương nếu phát hiện khách du lịch có biểu hiện ốm, sốt, nhất là khách đến từ các quốc gia, vùng lãnh thổ đã có bệnh nhân nhiễm vi rút corona. Bộ Y tế cũng đã công bố số điện thoại nóng (19003228) để tiếp nhận các thông tin, ý kiến phản ánh về tình hình dịch bệnh trên toàn quốc và tư vấn cách phòng chống dịch bệnh."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "Bộ Y tế Việt Nam",
     "Tổng cục Du lịch Việt Nam",
     "Bộ Văn hóa - Thể thao và Du lịch Việt Nam",
-    "Doanh nghiệp lữ hành quốc tế Việt NamTuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng"
+    "Doanh nghiệp lữ hành quốc tế Việt Nam"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Theo cảnh báo, dịch viêm phổi cấp do chủng virus corona mới ở Vũ Hán Trung Quốc rất nguy hiểm, bởi hiện không có biện pháp phòng ngừa nào để ngăn sự lây lan. Cảnh báo cho biết bệnh viêm phổi ở Vũ Hán Trung Quốc lây từ người sang người và những người lớn tuổi, có vấn đề về sức khỏe sẽ có nguy cơ bị nặng hơn khi mắc bệnh. Để ứng phó với nguy cơ lây lan bệnh viêm phổi Vũ Hán, Tổng cục Du lịch Việt Nam (Bộ Văn hóa - Thể thao và Du lịch) đã có văn bản gửi các doanh nghiệp du lịch. Trong đó, với doanh nghiệp lữ hành quốc tế đón khách vào Việt Nam, Tổng cục Du lịch đề nghị tuân thủ nghiêm các quy định, khuyến cáo của Bộ Y tế và các cơ quan chức năng về việc phòng chống lây nhiễm vi rút corona. Doanh nghiệp cũng cần báo cáo kịp thời và tuân thủ chỉ đạo của cơ quan chức năng địa phương nếu phát hiện khách du lịch có biểu hiện ốm, sốt, nhất là khách đến từ các quốc gia, vùng lãnh thổ đã có bệnh nhân nhiễm vi rút corona. Bộ Y tế cũng đã công bố số điện thoại nóng (19003228) để tiếp nhận các thông tin, ý kiến phản ánh về tình hình dịch bệnh trên toàn quốc và tư vấn cách phòng chống dịch bệnh."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "Văn hóa Đài Loan",
     "Lối sống sinh hoạt của người Đài Loan"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung được sử dụng rộng rãi và được xem là quốc ngữ ra, một số người Đài Loan còn sử dụng tiếng Mân Nam (tiếng Phúc Kiến/ tiếng Đài), thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh, tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa. Tập quán sinh hoạt của người Đài Loan không cầu kỳ, có nhiều nét tương đồng gần gũi với sinh hoạt của người Việt Nam. Các món ăn không quá khác biệt so với món ăn Việt Nam. Bữa sáng, ăn nhanh và đơn giản; bữa trưa ăn nhiều, không uống rượu bia trong bữa sáng và bữa trưa. Người Đài Loan rất hiếu khách, họ tiếp đón nhiệt tình khách từ nơi xa đến. Một trong những sự hiếu khách mà bạn có thể gặp là được dự bữa tiệc đối với rất nhiều bạn bè mới với thức ăn ngon và rượu."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "hải đảo",
     "quần đảo"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung được sử dụng rộng rãi và được xem là quốc ngữ ra, một số người Đài Loan còn sử dụng tiếng Mân Nam (tiếng Phúc Kiến/ tiếng Đài), thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh, tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa. Tập quán sinh hoạt của người Đài Loan không cầu kỳ, có nhiều nét tương đồng gần gũi với sinh hoạt của người Việt Nam. Các món ăn không quá khác biệt so với món ăn Việt Nam. Bữa sáng, ăn nhanh và đơn giản; bữa trưa ăn nhiều, không uống rượu bia trong bữa sáng và bữa trưa. Người Đài Loan rất hiếu khách, họ tiếp đón nhiệt tình khách từ nơi xa đến. Một trong những sự hiếu khách mà bạn có thể gặp là được dự bữa tiệc đối với rất nhiều bạn bè mới với thức ăn ngon và rượu."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "tiếng Đài",
     "thổ ngữ Hakka"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung được sử dụng rộng rãi và được xem là quốc ngữ ra, một số người Đài Loan còn sử dụng tiếng Mân Nam (tiếng Phúc Kiến/ tiếng Đài), thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh, tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa. Tập quán sinh hoạt của người Đài Loan không cầu kỳ, có nhiều nét tương đồng gần gũi với sinh hoạt của người Việt Nam. Các món ăn không quá khác biệt so với món ăn Việt Nam. Bữa sáng, ăn nhanh và đơn giản; bữa trưa ăn nhiều, không uống rượu bia trong bữa sáng và bữa trưa. Người Đài Loan rất hiếu khách, họ tiếp đón nhiệt tình khách từ nơi xa đến. Một trong những sự hiếu khách mà bạn có thể gặp là được dự bữa tiệc đối với rất nhiều bạn bè mới với thức ăn ngon và rượu."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "không cầu kỳ, có nhiều nét tương đồng với sinh hoạt của người Việt Nam",
     "rất cầu kỳ, có nhiều điểm không giống với sinh hoạt của người Việt Nam"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung được sử dụng rộng rãi và được xem là quốc ngữ ra, một số người Đài Loan còn sử dụng tiếng Mân Nam (tiếng Phúc Kiến/ tiếng Đài), thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh, tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa. Tập quán sinh hoạt của người Đài Loan không cầu kỳ, có nhiều nét tương đồng gần gũi với sinh hoạt của người Việt Nam. Các món ăn không quá khác biệt so với món ăn Việt Nam. Bữa sáng, ăn nhanh và đơn giản; bữa trưa ăn nhiều, không uống rượu bia trong bữa sáng và bữa trưa. Người Đài Loan rất hiếu khách, họ tiếp đón nhiệt tình khách từ nơi xa đến. Một trong những sự hiếu khách mà bạn có thể gặp là được dự bữa tiệc đối với rất nhiều bạn bè mới với thức ăn ngon và rượu."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d014'] = {
     "không uống nước hoa quả",
     "không uống rượu bia"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tuy là hải đảo, nhưng 2/3 diện tích Đài Loan lại là đồi núi cao và rừng cây rậm rạp, và có lẽ cũng chính điều này đã tạo nên khung cảnh thiên nhiên đặc sắc, tươi xanh cho vùng đất nơi đây. Không chỉ được biết đến bởi vẻ đẹp thiên nhiên, Đài Loan còn được mệnh danh là “con rồng châu Á” với nền kinh tế phát triển vào hàng bậc nhất ở khu vực châu Á. Ngoài sự phát triển mạnh mẽ của các ngành nghề nông-lâm-ngư nghiệp chủ yếu dựa vào tài nguyên thiên nhiên phong phú, Đài Loan còn phát triển nhanh chóng về cả các ngành thương mại, kỹ thuật, điện tử hiện đại. Về ngôn ngữ, ngoài tiếng Trung được sử dụng rộng rãi và được xem là quốc ngữ ra, một số người Đài Loan còn sử dụng tiếng Mân Nam (tiếng Phúc Kiến/ tiếng Đài), thổ ngữ Hakka. Du khách đến Đài Loan nhất định sẽ cảm thấy thích thú với không gian xanh, tươi đẹp sánh vai bên những tòa nhà chọc trời, khu công nghiệp hiện đại, và đặc biệt là thái độ thân thiện, hiếu khách của người dân bản địa. Tập quán sinh hoạt của người Đài Loan không cầu kỳ, có nhiều nét tương đồng gần gũi với sinh hoạt của người Việt Nam. Các món ăn không quá khác biệt so với món ăn Việt Nam. Bữa sáng, ăn nhanh và đơn giản; bữa trưa ăn nhiều, không uống rượu bia trong bữa sáng và bữa trưa. Người Đài Loan rất hiếu khách, họ tiếp đón nhiệt tình khách từ nơi xa đến. Một trong những sự hiếu khách mà bạn có thể gặp là được dự bữa tiệc đối với rất nhiều bạn bè mới với thức ăn ngon và rượu."
   }
  ]
 };

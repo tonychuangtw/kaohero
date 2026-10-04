@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "disorder",
     "rescue",
     "tourism",
-    "perspectiveFor some museums in the world, love is in the air all year round."
+    "perspective"
    ],
    "a": 2,
    "exp": "✅ (C) 前文說草嶺震後形成的飛山與堰塞湖吸引了大眾目光，隨之掀起的新一波風潮自然是「觀光（tourism）」。\n❌ (A) disorder 意為「混亂、失序」，與「吸引注意、形成風潮」的語意不合。\n❌ (B) rescue 意為「救援」，救援是災害當下的行動，不是新景觀帶來的效應。\n❌ (D) perspective 意為「觀點、視角」，a new wave of perspective 不成搭配。\n📚 出處：觀光英語：a new wave of tourism（新一波觀光熱潮）；九二一地震與草嶺"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Venice",
     "Shakespeare"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "For some museums in the world, love is in the air all year round. The Palazzo Filomela in Venice is better known as the Museum of Love. This museum was once the private home of a famous 16th-century singer. On the walls, you can see paintings of legendary lovers, such as the god Cupid and his lover, Psyche. For many, love and chocolate go hand in hand, so a visit to the Chocolate Museum in Cologne, Germany, makes sense. There, visitors can learn about the history of chocolate and watch chocolate bars being made. The museum also gives out wafers that were dipped in chocolate from a three-meter-high chocolate fountain. What is more, the Diamond Museum Amsterdam in Holland is the place to go when your’re ready to take your love to the next level. At this museum, you can learn about diamonds, including how to tell a real one from a fake one. You may also get some ideas about which diamond to buy when you’re getting engaged. Shakespeare once wrote, “Love looks not with the eyes, but with the mind.” Thanks to these special museums, we can all open our minds to, and fill our hearts with, love."
   },
   {
    "n": 72,
@@ -1033,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Museum of Relationship",
     "Diamond Museum Amsterdam"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "For some museums in the world, love is in the air all year round. The Palazzo Filomela in Venice is better known as the Museum of Love. This museum was once the private home of a famous 16th-century singer. On the walls, you can see paintings of legendary lovers, such as the god Cupid and his lover, Psyche. For many, love and chocolate go hand in hand, so a visit to the Chocolate Museum in Cologne, Germany, makes sense. There, visitors can learn about the history of chocolate and watch chocolate bars being made. The museum also gives out wafers that were dipped in chocolate from a three-meter-high chocolate fountain. What is more, the Diamond Museum Amsterdam in Holland is the place to go when your’re ready to take your love to the next level. At this museum, you can learn about diamonds, including how to tell a real one from a fake one. You may also get some ideas about which diamond to buy when you’re getting engaged. Shakespeare once wrote, “Love looks not with the eyes, but with the mind.” Thanks to these special museums, we can all open our minds to, and fill our hearts with, love."
   },
   {
    "n": 74,
@@ -1046,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Because there is a huge chocolate fountain.",
     "Because many people believe that love and chocolate are closely connected."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "For some museums in the world, love is in the air all year round. The Palazzo Filomela in Venice is better known as the Museum of Love. This museum was once the private home of a famous 16th-century singer. On the walls, you can see paintings of legendary lovers, such as the god Cupid and his lover, Psyche. For many, love and chocolate go hand in hand, so a visit to the Chocolate Museum in Cologne, Germany, makes sense. There, visitors can learn about the history of chocolate and watch chocolate bars being made. The museum also gives out wafers that were dipped in chocolate from a three-meter-high chocolate fountain. What is more, the Diamond Museum Amsterdam in Holland is the place to go when your’re ready to take your love to the next level. At this museum, you can learn about diamonds, including how to tell a real one from a fake one. You may also get some ideas about which diamond to buy when you’re getting engaged. Shakespeare once wrote, “Love looks not with the eyes, but with the mind.” Thanks to these special museums, we can all open our minds to, and fill our hearts with, love."
   },
   {
    "n": 75,
@@ -1057,7 +1060,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Love is everywhere.",
     "Love is like the air.",
     "Love is invisible.",
-    "Love is so unreliable.As a flood of news headlines highlighting overtourism, it's easy to think that the planet is simply"
+    "Love is so unreliable."
    ],
    "a": 0,
    "exp": "✅ (A) Love is in the air 是英語慣用語，指「處處洋溢著愛的氣氛」，即愛無所不在。\n❌ (B) 「愛像空氣一樣」只停留在字面比喻，未表達慣用語「四處瀰漫」的意思。\n❌ (C) 「愛是看不見的」著眼於空氣無形，但此語強調氛圍濃厚而非不可見。\n❌ (D) 「愛很不可靠」與慣用語的正面語氣完全相反。\n📚 出處：英語慣用語：Love is in the air（處處充滿愛的氣氛）"
@@ -1073,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Overtourism",
     "Gorgeous experience"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "As a flood of news headlines highlighting overtourism, it's easy to think that the planet is simply full. But away from the well-worn tourist trails, you'll discover another travel story entirely different. In much of the world, there are places that are eager to welcome tourists. Based on the most recent data by the United Nations World Tourism Organization (UNWTO), in 2017, nearly 87 million international tourists arrived in France; yet mere 2,000 international tourists visited the South Pacific country of Tuvalu, where it's easy to find a beach -- or even an entire island -- to yourself. The same data reflect many of the world's least-visited countries and territories, where you'll find gorgeous natural beauty, culture and history without pushing through bunches of selfie sticks. Imagine lounging on Sierra Leone beaches, exploring Liechtenstein's mountaintop castles or shipwreck diving in the South Pacific! How rewarding it can be to leave the popular sites behind. If you can't picture a week in Kiribati or imagine the flavor of Timor Leste's traditional cuisine, it's OK. By spinning the globe and booking a flight to a country you know little about, you'll infuse the journey with a sense of wonder. That, after all, is what travel is for."
   },
   {
    "n": 77,
@@ -1086,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "Shipwreck diving",
     "Mountain trails"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "As a flood of news headlines highlighting overtourism, it's easy to think that the planet is simply full. But away from the well-worn tourist trails, you'll discover another travel story entirely different. In much of the world, there are places that are eager to welcome tourists. Based on the most recent data by the United Nations World Tourism Organization (UNWTO), in 2017, nearly 87 million international tourists arrived in France; yet mere 2,000 international tourists visited the South Pacific country of Tuvalu, where it's easy to find a beach -- or even an entire island -- to yourself. The same data reflect many of the world's least-visited countries and territories, where you'll find gorgeous natural beauty, culture and history without pushing through bunches of selfie sticks. Imagine lounging on Sierra Leone beaches, exploring Liechtenstein's mountaintop castles or shipwreck diving in the South Pacific! How rewarding it can be to leave the popular sites behind. If you can't picture a week in Kiribati or imagine the flavor of Timor Leste's traditional cuisine, it's OK. By spinning the globe and booking a flight to a country you know little about, you'll infuse the journey with a sense of wonder. That, after all, is what travel is for."
   },
   {
    "n": 78,
@@ -1113,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d004'] = {
     "go to the beaches",
     "go mountain hiking"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "As a flood of news headlines highlighting overtourism, it's easy to think that the planet is simply full. But away from the well-worn tourist trails, you'll discover another travel story entirely different. In much of the world, there are places that are eager to welcome tourists. Based on the most recent data by the United Nations World Tourism Organization (UNWTO), in 2017, nearly 87 million international tourists arrived in France; yet mere 2,000 international tourists visited the South Pacific country of Tuvalu, where it's easy to find a beach -- or even an entire island -- to yourself. The same data reflect many of the world's least-visited countries and territories, where you'll find gorgeous natural beauty, culture and history without pushing through bunches of selfie sticks. Imagine lounging on Sierra Leone beaches, exploring Liechtenstein's mountaintop castles or shipwreck diving in the South Pacific! How rewarding it can be to leave the popular sites behind. If you can't picture a week in Kiribati or imagine the flavor of Timor Leste's traditional cuisine, it's OK. By spinning the globe and booking a flight to a country you know little about, you'll infuse the journey with a sense of wonder. That, after all, is what travel is for."
   },
   {
    "n": 80,

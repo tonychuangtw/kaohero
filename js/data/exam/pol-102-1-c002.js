@@ -332,7 +332,7 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Seeing is believing.",
     "Glad to know you’ve quit it.",
     "How often will you do that?",
-    "Maybe you just need to try harder.請回答第 24 題至第 27 題：Loneliness is not the same as being alone. A person can be just as lonely in a group of people as when home alone."
+    "Maybe you just need to try harder."
    ],
    "a": 3,
    "exp": "✅ (D) Jason 表示自己嘗試過戒菸但顯然沒成功，Linda 說「Maybe you just need to try harder（也許你只是需要再更努力嘗試）」，合乎對話情境的鼓勵與督促。\n❌ (A) Seeing is believing 是諺語「百聞不如一見／眼見為憑」，與戒菸的討論主題不合。\n❌ (B) Glad to know you’ve quit it 指「很高興知道你戒掉了」，但 Jason 仍在抽菸且只是嘗試過，與事實不符。\n❌ (C) How often will you do that? 是問「你多久會做一次？」，無法銜接 Jason 說明自己戒菸失敗的發言。\n📚 出處：英文日常會話；生活建議與應對表達。"
@@ -348,7 +348,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "They tend to be young.",
     "They are skillful at making friends."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Loneliness is not the same as being alone. A person can be just as lonely in a group of people as when home alone. Loneliness is a feeling of being unconnected with other people, or wanting to be with someone who isn’t there, or having no one to turn to who can affirm one’s essential human qualities. From time to time, loneliness afflicts nearly everyone. It is usually provoked by a lost connection with significant people in one’s life. This loneliness is usually temporary and eases off with time as one discovers that one can still enjoy life despite the loss. But chronic loneliness comes more from within individuals than it does from circumstances imposed from outside. This kind of lonely people tend to blame their loneliness on themselves, on their personality and appearance. Besides, lonely people tend not to like the people they meet and assume those people don’t like them. They also lack the skills needed to establish meaningful, caring contact with others. Other surveys showed that lonely people know and interact with other people as the non-lonely do, but the lonely tend to have unrealistic standards or expectations about the relationships that get in the way of forming close friendship. Surveys have shown the loneliest people tend to be adolescents and young adults. Contrary to popular belief, the elderly are less lonely than people in other age groups, perhaps because the elderly have more realistic expectations."
   },
   {
    "n": 25,
@@ -361,7 +362,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "It usually results in self-blaming.",
     "It harms one’s friendship with others."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Loneliness is not the same as being alone. A person can be just as lonely in a group of people as when home alone. Loneliness is a feeling of being unconnected with other people, or wanting to be with someone who isn’t there, or having no one to turn to who can affirm one’s essential human qualities. From time to time, loneliness afflicts nearly everyone. It is usually provoked by a lost connection with significant people in one’s life. This loneliness is usually temporary and eases off with time as one discovers that one can still enjoy life despite the loss. But chronic loneliness comes more from within individuals than it does from circumstances imposed from outside. This kind of lonely people tend to blame their loneliness on themselves, on their personality and appearance. Besides, lonely people tend not to like the people they meet and assume those people don’t like them. They also lack the skills needed to establish meaningful, caring contact with others. Other surveys showed that lonely people know and interact with other people as the non-lonely do, but the lonely tend to have unrealistic standards or expectations about the relationships that get in the way of forming close friendship. Surveys have shown the loneliest people tend to be adolescents and young adults. Contrary to popular belief, the elderly are less lonely than people in other age groups, perhaps because the elderly have more realistic expectations."
   },
   {
    "n": 26,
@@ -374,7 +376,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Produce.",
     "Suppose."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Loneliness is not the same as being alone. A person can be just as lonely in a group of people as when home alone. Loneliness is a feeling of being unconnected with other people, or wanting to be with someone who isn’t there, or having no one to turn to who can affirm one’s essential human qualities. From time to time, loneliness afflicts nearly everyone. It is usually provoked by a lost connection with significant people in one’s life. This loneliness is usually temporary and eases off with time as one discovers that one can still enjoy life despite the loss. But chronic loneliness comes more from within individuals than it does from circumstances imposed from outside. This kind of lonely people tend to blame their loneliness on themselves, on their personality and appearance. Besides, lonely people tend not to like the people they meet and assume those people don’t like them. They also lack the skills needed to establish meaningful, caring contact with others. Other surveys showed that lonely people know and interact with other people as the non-lonely do, but the lonely tend to have unrealistic standards or expectations about the relationships that get in the way of forming close friendship. Surveys have shown the loneliest people tend to be adolescents and young adults. Contrary to popular belief, the elderly are less lonely than people in other age groups, perhaps because the elderly have more realistic expectations."
   },
   {
    "n": 27,
@@ -385,9 +388,10 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Lonely people know how to interact with other people.",
     "The elderly are among the loneliest people because their kids have left them.",
     "Lonely people are not necessarily alone; loneliness is a psychological condition.",
-    "Unrealistic expectations are needed to establish meaningful contact with others.請回答第 28 題至第 31 題：I tell my students that addressing people by “sir” or “ma’am” comes in handy in their interaction with others. Case in"
+    "Unrealistic expectations are needed to establish meaningful contact with others."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Loneliness is not the same as being alone. A person can be just as lonely in a group of people as when home alone. Loneliness is a feeling of being unconnected with other people, or wanting to be with someone who isn’t there, or having no one to turn to who can affirm one’s essential human qualities. From time to time, loneliness afflicts nearly everyone. It is usually provoked by a lost connection with significant people in one’s life. This loneliness is usually temporary and eases off with time as one discovers that one can still enjoy life despite the loss. But chronic loneliness comes more from within individuals than it does from circumstances imposed from outside. This kind of lonely people tend to blame their loneliness on themselves, on their personality and appearance. Besides, lonely people tend not to like the people they meet and assume those people don’t like them. They also lack the skills needed to establish meaningful, caring contact with others. Other surveys showed that lonely people know and interact with other people as the non-lonely do, but the lonely tend to have unrealistic standards or expectations about the relationships that get in the way of forming close friendship. Surveys have shown the loneliest people tend to be adolescents and young adults. Contrary to popular belief, the elderly are less lonely than people in other age groups, perhaps because the elderly have more realistic expectations."
   },
   {
    "n": 28,
@@ -400,7 +404,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "She was too impatient to negotiate further with the author.",
     "She had intended to give the author the cut in the beginning."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "I tell my students that addressing people by “sir” or “ma’am” comes in handy in their interaction with others. Case in point: I was on the phone recently with the phone company discussing the inaccuracies of my bill. The lady I spoke to was not helpful and seemed annoyed. Then, in the midst of the conversation, I threw in a “yes ma’am,” and her entire attitude changed. She became far more helpful and easy to deal with, and she ended up cutting my bill in half, which was more than I had even asked for. Some of my students in Harlem were interviewed for a chance to attend a high-rated junior high school. The school only had thirty openings for the following year, and twelve of my students were among the numerous kids across the city who applied for the spots. I practiced what the interview would be like with my students, and one main thing I stressed was, “Make sure you say ‘yes, ma’am’ or ‘no, sir’ no matter what!” Weeks after the interviews, I was delighted to hear that all twelve of my students had been accepted. When I talked with the admissions director at the school, the main comment he made over and over was how polite my students were in their interviews. It seems like just such a simple thing to do, but it gets results."
   },
   {
    "n": 29,
@@ -413,7 +418,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "The interview was made simpler to the students than to other children.",
     "The school offered 30 openings and only 12 students applied for the school."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "I tell my students that addressing people by “sir” or “ma’am” comes in handy in their interaction with others. Case in point: I was on the phone recently with the phone company discussing the inaccuracies of my bill. The lady I spoke to was not helpful and seemed annoyed. Then, in the midst of the conversation, I threw in a “yes ma’am,” and her entire attitude changed. She became far more helpful and easy to deal with, and she ended up cutting my bill in half, which was more than I had even asked for. Some of my students in Harlem were interviewed for a chance to attend a high-rated junior high school. The school only had thirty openings for the following year, and twelve of my students were among the numerous kids across the city who applied for the spots. I practiced what the interview would be like with my students, and one main thing I stressed was, “Make sure you say ‘yes, ma’am’ or ‘no, sir’ no matter what!” Weeks after the interviews, I was delighted to hear that all twelve of my students had been accepted. When I talked with the admissions director at the school, the main comment he made over and over was how polite my students were in their interviews. It seems like just such a simple thing to do, but it gets results."
   },
   {
    "n": 30,
@@ -426,7 +432,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Useful.",
     "Creative."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "I tell my students that addressing people by “sir” or “ma’am” comes in handy in their interaction with others. Case in point: I was on the phone recently with the phone company discussing the inaccuracies of my bill. The lady I spoke to was not helpful and seemed annoyed. Then, in the midst of the conversation, I threw in a “yes ma’am,” and her entire attitude changed. She became far more helpful and easy to deal with, and she ended up cutting my bill in half, which was more than I had even asked for. Some of my students in Harlem were interviewed for a chance to attend a high-rated junior high school. The school only had thirty openings for the following year, and twelve of my students were among the numerous kids across the city who applied for the spots. I practiced what the interview would be like with my students, and one main thing I stressed was, “Make sure you say ‘yes, ma’am’ or ‘no, sir’ no matter what!” Weeks after the interviews, I was delighted to hear that all twelve of my students had been accepted. When I talked with the admissions director at the school, the main comment he made over and over was how polite my students were in their interviews. It seems like just such a simple thing to do, but it gets results."
   },
   {
    "n": 31,
@@ -437,9 +444,10 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "To tell school directors to admit polite students only.",
     "To help children achieve success by being polite.",
     "To teach children how to talk with a rude lady on the phone.",
-    "To show that interviewers are usually very polite.請回答第 32 題至第 36 題：The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless"
+    "To show that interviewers are usually very polite."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "I tell my students that addressing people by “sir” or “ma’am” comes in handy in their interaction with others. Case in point: I was on the phone recently with the phone company discussing the inaccuracies of my bill. The lady I spoke to was not helpful and seemed annoyed. Then, in the midst of the conversation, I threw in a “yes ma’am,” and her entire attitude changed. She became far more helpful and easy to deal with, and she ended up cutting my bill in half, which was more than I had even asked for. Some of my students in Harlem were interviewed for a chance to attend a high-rated junior high school. The school only had thirty openings for the following year, and twelve of my students were among the numerous kids across the city who applied for the spots. I practiced what the interview would be like with my students, and one main thing I stressed was, “Make sure you say ‘yes, ma’am’ or ‘no, sir’ no matter what!” Weeks after the interviews, I was delighted to hear that all twelve of my students had been accepted. When I talked with the admissions director at the school, the main comment he made over and over was how polite my students were in their interviews. It seems like just such a simple thing to do, but it gets results."
   },
   {
    "n": 32,
@@ -452,7 +460,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Because Egyptians had the tradition of keeping the dead body inside their homes.",
     "Because Egyptians did not have places to bury the dead."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless the dead body stayed in good condition. So Egyptians tried to preserve the bodies of the dead. These preserved bodies are called mummies. By studying mummies (and written records), today’s scientists have learned how they were made. To make a mummy, priests first opened up the dead body. Then they removed most of its organs. Organs were dried and placed in special jars. Next, the inside of the body was washed. It was also packed with linen or sawdust and sewn up. Then, the body was covered in a powder called natron. It took 40 days for this salt-like substance to dry out the body. Finally, the body was wrapped in linen bandages and put in a coffin. A few mummies were placed in pyramids. But most were buried in special tombs. The ancient Egyptians knew what they were doing. Many of the discovered mummies have been in good condition. For example, Zahi Hawass, a mummy expert, discovered the mummy of a well-known governor. It was inside a limestone coffin."
   },
   {
    "n": 33,
@@ -465,7 +474,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "Covering the body with natron.",
     "Leaving the body out in the sun to dry."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless the dead body stayed in good condition. So Egyptians tried to preserve the bodies of the dead. These preserved bodies are called mummies. By studying mummies (and written records), today’s scientists have learned how they were made. To make a mummy, priests first opened up the dead body. Then they removed most of its organs. Organs were dried and placed in special jars. Next, the inside of the body was washed. It was also packed with linen or sawdust and sewn up. Then, the body was covered in a powder called natron. It took 40 days for this salt-like substance to dry out the body. Finally, the body was wrapped in linen bandages and put in a coffin. A few mummies were placed in pyramids. But most were buried in special tombs. The ancient Egyptians knew what they were doing. Many of the discovered mummies have been in good condition. For example, Zahi Hawass, a mummy expert, discovered the mummy of a well-known governor. It was inside a limestone coffin."
   },
   {
    "n": 34,
@@ -478,7 +488,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "In the church.",
     "At home."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless the dead body stayed in good condition. So Egyptians tried to preserve the bodies of the dead. These preserved bodies are called mummies. By studying mummies (and written records), today’s scientists have learned how they were made. To make a mummy, priests first opened up the dead body. Then they removed most of its organs. Organs were dried and placed in special jars. Next, the inside of the body was washed. It was also packed with linen or sawdust and sewn up. Then, the body was covered in a powder called natron. It took 40 days for this salt-like substance to dry out the body. Finally, the body was wrapped in linen bandages and put in a coffin. A few mummies were placed in pyramids. But most were buried in special tombs. The ancient Egyptians knew what they were doing. Many of the discovered mummies have been in good condition. For example, Zahi Hawass, a mummy expert, discovered the mummy of a well-known governor. It was inside a limestone coffin."
   },
   {
    "n": 35,
@@ -491,7 +502,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "It took forty days.",
     "It took many years."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless the dead body stayed in good condition. So Egyptians tried to preserve the bodies of the dead. These preserved bodies are called mummies. By studying mummies (and written records), today’s scientists have learned how they were made. To make a mummy, priests first opened up the dead body. Then they removed most of its organs. Organs were dried and placed in special jars. Next, the inside of the body was washed. It was also packed with linen or sawdust and sewn up. Then, the body was covered in a powder called natron. It took 40 days for this salt-like substance to dry out the body. Finally, the body was wrapped in linen bandages and put in a coffin. A few mummies were placed in pyramids. But most were buried in special tombs. The ancient Egyptians knew what they were doing. Many of the discovered mummies have been in good condition. For example, Zahi Hawass, a mummy expert, discovered the mummy of a well-known governor. It was inside a limestone coffin."
   },
   {
    "n": 36,
@@ -504,7 +516,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c002'] = {
     "He found a king’s pyramid.",
     "He found the method of building pyramids.請回答第 37 題至第 41 題：I recently moved from Canada to South Korea to work as an English teacher. My first few weeks were ＿＿＿ 37 . I"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The ancient Egyptians believed in life after death. But they also believed that a person couldn’t live forever unless the dead body stayed in good condition. So Egyptians tried to preserve the bodies of the dead. These preserved bodies are called mummies. By studying mummies (and written records), today’s scientists have learned how they were made. To make a mummy, priests first opened up the dead body. Then they removed most of its organs. Organs were dried and placed in special jars. Next, the inside of the body was washed. It was also packed with linen or sawdust and sewn up. Then, the body was covered in a powder called natron. It took 40 days for this salt-like substance to dry out the body. Finally, the body was wrapped in linen bandages and put in a coffin. A few mummies were placed in pyramids. But most were buried in special tombs. The ancient Egyptians knew what they were doing. Many of the discovered mummies have been in good condition. For example, Zahi Hawass, a mummy expert, discovered the mummy of a well-known governor. It was inside a limestone coffin."
   },
   {
    "n": 37,

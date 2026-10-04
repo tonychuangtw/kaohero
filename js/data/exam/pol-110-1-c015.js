@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-110-1-c015'] = {
     "forbid",
     "implement",
     "eliminate",
-    "substitute請依下文回答第 46 題至第 50 題：In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container"
+    "substitute"
    ],
    "a": 1,
    "exp": "✅ (B) implement 意為「實施、施行」，各國應實施能有效防制與嚇阻非法漁撈的法規，動詞與 regulations 搭配最恰當。\n❌ (A) forbid 是「禁止」，被禁止的應是非法行為而非法規本身。\n❌ (C) eliminate 是「消除、廢除」，與句意（要有效防制非法漁撈）相反。\n❌ (D) substitute 是「替代」，句中並未提及以何者取代何者。\n📚 出處：字彙題 implement（施行法規）；IUU fishing 非法、未報告及不受規範漁撈。"
@@ -649,76 +649,71 @@ window.APP_EXAM_PAPERS['pol-110-1-c015'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "muted",
+    "stranded",
+    "registered",
+    "despised"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_604_0211_46.webp"
+   "psg": "In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container ship operated by a Taiwanese transport company. The ship became 46 on March 23rd, after running aground and becoming wedged sideways across the waterway. At first a 47 of wind was thought to be to blame. The wind speed at the time was recorded at 40 knots, but the Suez Canal Authority (SCA) told reporters that this was not the only reason for the ship becoming 48 . An investigation would be needed to determine whether technical or human errors 49 . As one of the world's busiest trade routes, the canal obstruction had a significant negative impact on trade between Europe and Asia and the Middle East. For example, on March 28th, at least 369 ships were 50 to pass through the canal. The Suez Canal blockage did not just affect the global shipping industry. Countless businesses, from domestic transport providers to retailers, supermarkets and manufacturers, were also impacted."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "gust",
+    "shed",
+    "halt",
+    "peek"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_604_0211_47.webp"
+   "psg": "In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container ship operated by a Taiwanese transport company. The ship became 46 on March 23rd, after running aground and becoming wedged sideways across the waterway. At first a 47 of wind was thought to be to blame. The wind speed at the time was recorded at 40 knots, but the Suez Canal Authority (SCA) told reporters that this was not the only reason for the ship becoming 48 . An investigation would be needed to determine whether technical or human errors 49 . As one of the world's busiest trade routes, the canal obstruction had a significant negative impact on trade between Europe and Asia and the Middle East. For example, on March 28th, at least 369 ships were 50 to pass through the canal. The Suez Canal blockage did not just affect the global shipping industry. Countless businesses, from domestic transport providers to retailers, supermarkets and manufacturers, were also impacted."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "expelled",
+    "fueled",
+    "glided",
+    "lodged"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_604_0211_48.webp"
+   "psg": "In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container ship operated by a Taiwanese transport company. The ship became 46 on March 23rd, after running aground and becoming wedged sideways across the waterway. At first a 47 of wind was thought to be to blame. The wind speed at the time was recorded at 40 knots, but the Suez Canal Authority (SCA) told reporters that this was not the only reason for the ship becoming 48 . An investigation would be needed to determine whether technical or human errors 49 . As one of the world's busiest trade routes, the canal obstruction had a significant negative impact on trade between Europe and Asia and the Middle East. For example, on March 28th, at least 369 ships were 50 to pass through the canal. The Suez Canal blockage did not just affect the global shipping industry. Countless businesses, from domestic transport providers to retailers, supermarkets and manufacturers, were also impacted."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "occurring",
+    "occurred",
+    "were occurred",
+    "occurs"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_604_0211_49.webp"
+   "psg": "In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container ship operated by a Taiwanese transport company. The ship became 46 on March 23rd, after running aground and becoming wedged sideways across the waterway. At first a 47 of wind was thought to be to blame. The wind speed at the time was recorded at 40 knots, but the Suez Canal Authority (SCA) told reporters that this was not the only reason for the ship becoming 48 . An investigation would be needed to determine whether technical or human errors 49 . As one of the world's busiest trade routes, the canal obstruction had a significant negative impact on trade between Europe and Asia and the Middle East. For example, on March 28th, at least 369 ships were 50 to pass through the canal. The Suez Canal blockage did not just affect the global shipping industry. Countless businesses, from domestic transport providers to retailers, supermarkets and manufacturers, were also impacted."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "queuing",
+    "plunging",
+    "fostering",
+    "drifting"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_604_0211_50.webp"
+   "psg": "In March 2021, the Suez Canal was blocked for six days after the grounding of Ever Given, a huge container ship operated by a Taiwanese transport company. The ship became 46 on March 23rd, after running aground and becoming wedged sideways across the waterway. At first a 47 of wind was thought to be to blame. The wind speed at the time was recorded at 40 knots, but the Suez Canal Authority (SCA) told reporters that this was not the only reason for the ship becoming 48 . An investigation would be needed to determine whether technical or human errors 49 . As one of the world's busiest trade routes, the canal obstruction had a significant negative impact on trade between Europe and Asia and the Middle East. For example, on March 28th, at least 369 ships were 50 to pass through the canal. The Suez Canal blockage did not just affect the global shipping industry. Countless businesses, from domestic transport providers to retailers, supermarkets and manufacturers, were also impacted."
   }
  ]
 };

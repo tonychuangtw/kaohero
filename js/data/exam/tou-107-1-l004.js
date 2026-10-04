@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "turn",
     "shift",
     "break",
-    "switchFirst there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths,"
+    "switch"
    ],
    "a": 2,
    "exp": "✅ (C) take a break 意為「休息」，新規定要求駕駛累計開滿 12 小時後須休息六小時，與後句的 rest period 對應。\n❌ (A) take a turn 意為「輪流、轉向」，不表休息。\n❌ (B) shift 指「輪班時段」，是工作時間而非休息時間。\n❌ (D) switch 意為「轉換、切換」，與休息無關。\n📚 出處：勞動工時規範用語、take a break"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Step Into Our Selfie Booth and Help Us Build Our Brand",
     "How to Make Better Selfies without Light"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "First there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths, which some stores are providing as a sort of next-generation photo kiosks. In the age of ubiquitous social media, these booths and rooms seem to be the latest way to attract customers and build a brand. At several stores of the optical company Warby Parker, customers unsure if those spectacle frames really fit them can jump into the on-site selfie booth, snap off some images and email them to friends and family for a second opinion. At Doomie′s, a vegetarian restaurant in Toronto, there is a dedicated selfie room where persons stand in front of a mirror, take a photo and post it to social media, often with a caption like ″just emerged from my food coma.″ When they were planning the restaurant, Doomie′s owners wanted clever ways to promote it and differentiate it. They noticed younger people always want something on Facebook or the like. The restaurant had an unused basement room, so they painted the floor white and had the walls prepared in cartoons. Now at least half the restaurant′s first-timers under the age of 35 visit the selfie room. On evenings when there is a wait for the table, patrons sometimes pass the time posing and posting. When the restaurant was launched, it was covered by CBC and other news outlets just for the selfie room, and it was a hot talking point on social media. The selfie room surely helps Doomie′s business. While places like Doomie's in Toronto are setting aside designated areas for people to take pictures with their own smartphones, other businesses are installing booths designed to take superior selfies. Selfie lovers know that pictures taken in specially lit booths come out far better than a cellphone snapshot."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "On the street.",
     "On Facebook."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "First there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths, which some stores are providing as a sort of next-generation photo kiosks. In the age of ubiquitous social media, these booths and rooms seem to be the latest way to attract customers and build a brand. At several stores of the optical company Warby Parker, customers unsure if those spectacle frames really fit them can jump into the on-site selfie booth, snap off some images and email them to friends and family for a second opinion. At Doomie′s, a vegetarian restaurant in Toronto, there is a dedicated selfie room where persons stand in front of a mirror, take a photo and post it to social media, often with a caption like ″just emerged from my food coma.″ When they were planning the restaurant, Doomie′s owners wanted clever ways to promote it and differentiate it. They noticed younger people always want something on Facebook or the like. The restaurant had an unused basement room, so they painted the floor white and had the walls prepared in cartoons. Now at least half the restaurant′s first-timers under the age of 35 visit the selfie room. On evenings when there is a wait for the table, patrons sometimes pass the time posing and posting. When the restaurant was launched, it was covered by CBC and other news outlets just for the selfie room, and it was a hot talking point on social media. The selfie room surely helps Doomie′s business. While places like Doomie's in Toronto are setting aside designated areas for people to take pictures with their own smartphones, other businesses are installing booths designed to take superior selfies. Selfie lovers know that pictures taken in specially lit booths come out far better than a cellphone snapshot."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Selfie booths came before selfie sticks.",
     "The floor of Doomie′s selfie room is painted black."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "First there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths, which some stores are providing as a sort of next-generation photo kiosks. In the age of ubiquitous social media, these booths and rooms seem to be the latest way to attract customers and build a brand. At several stores of the optical company Warby Parker, customers unsure if those spectacle frames really fit them can jump into the on-site selfie booth, snap off some images and email them to friends and family for a second opinion. At Doomie′s, a vegetarian restaurant in Toronto, there is a dedicated selfie room where persons stand in front of a mirror, take a photo and post it to social media, often with a caption like ″just emerged from my food coma.″ When they were planning the restaurant, Doomie′s owners wanted clever ways to promote it and differentiate it. They noticed younger people always want something on Facebook or the like. The restaurant had an unused basement room, so they painted the floor white and had the walls prepared in cartoons. Now at least half the restaurant′s first-timers under the age of 35 visit the selfie room. On evenings when there is a wait for the table, patrons sometimes pass the time posing and posting. When the restaurant was launched, it was covered by CBC and other news outlets just for the selfie room, and it was a hot talking point on social media. The selfie room surely helps Doomie′s business. While places like Doomie's in Toronto are setting aside designated areas for people to take pictures with their own smartphones, other businesses are installing booths designed to take superior selfies. Selfie lovers know that pictures taken in specially lit booths come out far better than a cellphone snapshot."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Athletic shoes.",
     "Eyeglasses."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "First there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths, which some stores are providing as a sort of next-generation photo kiosks. In the age of ubiquitous social media, these booths and rooms seem to be the latest way to attract customers and build a brand. At several stores of the optical company Warby Parker, customers unsure if those spectacle frames really fit them can jump into the on-site selfie booth, snap off some images and email them to friends and family for a second opinion. At Doomie′s, a vegetarian restaurant in Toronto, there is a dedicated selfie room where persons stand in front of a mirror, take a photo and post it to social media, often with a caption like ″just emerged from my food coma.″ When they were planning the restaurant, Doomie′s owners wanted clever ways to promote it and differentiate it. They noticed younger people always want something on Facebook or the like. The restaurant had an unused basement room, so they painted the floor white and had the walls prepared in cartoons. Now at least half the restaurant′s first-timers under the age of 35 visit the selfie room. On evenings when there is a wait for the table, patrons sometimes pass the time posing and posting. When the restaurant was launched, it was covered by CBC and other news outlets just for the selfie room, and it was a hot talking point on social media. The selfie room surely helps Doomie′s business. While places like Doomie's in Toronto are setting aside designated areas for people to take pictures with their own smartphones, other businesses are installing booths designed to take superior selfies. Selfie lovers know that pictures taken in specially lit booths come out far better than a cellphone snapshot."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Most CBC reporters are vegetarians.",
     "Doomie′s is located in a theme park for little kids.TouchingAnthropologists tell us that each of us walks around inside “bubbles of personal space.” The size"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "First there were selfies. Then there were selfie sticks. Now comes a new phase: selfie booths, which some stores are providing as a sort of next-generation photo kiosks. In the age of ubiquitous social media, these booths and rooms seem to be the latest way to attract customers and build a brand. At several stores of the optical company Warby Parker, customers unsure if those spectacle frames really fit them can jump into the on-site selfie booth, snap off some images and email them to friends and family for a second opinion. At Doomie′s, a vegetarian restaurant in Toronto, there is a dedicated selfie room where persons stand in front of a mirror, take a photo and post it to social media, often with a caption like ″just emerged from my food coma.″ When they were planning the restaurant, Doomie′s owners wanted clever ways to promote it and differentiate it. They noticed younger people always want something on Facebook or the like. The restaurant had an unused basement room, so they painted the floor white and had the walls prepared in cartoons. Now at least half the restaurant′s first-timers under the age of 35 visit the selfie room. On evenings when there is a wait for the table, patrons sometimes pass the time posing and posting. When the restaurant was launched, it was covered by CBC and other news outlets just for the selfie room, and it was a hot talking point on social media. The selfie room surely helps Doomie′s business. While places like Doomie's in Toronto are setting aside designated areas for people to take pictures with their own smartphones, other businesses are installing booths designed to take superior selfies. Selfie lovers know that pictures taken in specially lit booths come out far better than a cellphone snapshot."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "the physical distance between people",
     "the territory of anthropologists"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Touching Anthropologists tell us that each of us walks around inside “bubbles of personal space.” The size of the bubble represents our personal territory, territorial imperative, or “personal buffer zone.” We neither like nor tolerate it when someone invades our bubble. As we travel to different places around the world, we learn that some cultural bubbles are larger or smaller than others. The American “bubble” extends about 12 to 15 inches, and so we may stand a combined 24 to 30 inches apart. Scientists point out this just happens to be an arm’s length away. One could stretch out his arm and put his thumb in the other person’s ear. Orientals, and especially the Japanese, stand even farther apart, anthropologist George Renwick adds. When it comes to ordinary business or social situations, they have the largest bubbles of all. However, in their own public settings, where crowding is impossible to avoid, they accept body contact or just seem to ignore it, “touching without feeling.” Latins and Middle Easterners, on the other hand, stand much closer than Americans. They may stand, literally, toe-to-toe. They may even place a hand on the other’s forearm or elbow, or even finger the lapel of the other person. However, touch codes are changing all over the world. In the United States, politicians have learned the value of touch. They frequently give two-handed handshakes, casually touch the elbow of another, or lightly touch the back of the person standing next to them. “Pressing flesh” has become a byword on political campaigns. Also, Japanese managers posted in the U.S. factories are steeling themselves and learning to accept finger-crunching handshakes, back patting, and maybe even a friendly arm around the shoulders for the softball team photo."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Japanese people like crowded situations so that they can touch others.",
     "Japanese would attack people when their territory get invaded."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Touching Anthropologists tell us that each of us walks around inside “bubbles of personal space.” The size of the bubble represents our personal territory, territorial imperative, or “personal buffer zone.” We neither like nor tolerate it when someone invades our bubble. As we travel to different places around the world, we learn that some cultural bubbles are larger or smaller than others. The American “bubble” extends about 12 to 15 inches, and so we may stand a combined 24 to 30 inches apart. Scientists point out this just happens to be an arm’s length away. One could stretch out his arm and put his thumb in the other person’s ear. Orientals, and especially the Japanese, stand even farther apart, anthropologist George Renwick adds. When it comes to ordinary business or social situations, they have the largest bubbles of all. However, in their own public settings, where crowding is impossible to avoid, they accept body contact or just seem to ignore it, “touching without feeling.” Latins and Middle Easterners, on the other hand, stand much closer than Americans. They may stand, literally, toe-to-toe. They may even place a hand on the other’s forearm or elbow, or even finger the lapel of the other person. However, touch codes are changing all over the world. In the United States, politicians have learned the value of touch. They frequently give two-handed handshakes, casually touch the elbow of another, or lightly touch the back of the person standing next to them. “Pressing flesh” has become a byword on political campaigns. Also, Japanese managers posted in the U.S. factories are steeling themselves and learning to accept finger-crunching handshakes, back patting, and maybe even a friendly arm around the shoulders for the softball team photo."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "Taiwanese",
     "Americans"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Touching Anthropologists tell us that each of us walks around inside “bubbles of personal space.” The size of the bubble represents our personal territory, territorial imperative, or “personal buffer zone.” We neither like nor tolerate it when someone invades our bubble. As we travel to different places around the world, we learn that some cultural bubbles are larger or smaller than others. The American “bubble” extends about 12 to 15 inches, and so we may stand a combined 24 to 30 inches apart. Scientists point out this just happens to be an arm’s length away. One could stretch out his arm and put his thumb in the other person’s ear. Orientals, and especially the Japanese, stand even farther apart, anthropologist George Renwick adds. When it comes to ordinary business or social situations, they have the largest bubbles of all. However, in their own public settings, where crowding is impossible to avoid, they accept body contact or just seem to ignore it, “touching without feeling.” Latins and Middle Easterners, on the other hand, stand much closer than Americans. They may stand, literally, toe-to-toe. They may even place a hand on the other’s forearm or elbow, or even finger the lapel of the other person. However, touch codes are changing all over the world. In the United States, politicians have learned the value of touch. They frequently give two-handed handshakes, casually touch the elbow of another, or lightly touch the back of the person standing next to them. “Pressing flesh” has become a byword on political campaigns. Also, Japanese managers posted in the U.S. factories are steeling themselves and learning to accept finger-crunching handshakes, back patting, and maybe even a friendly arm around the shoulders for the softball team photo."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "making friends",
     "shaking hands with people"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Touching Anthropologists tell us that each of us walks around inside “bubbles of personal space.” The size of the bubble represents our personal territory, territorial imperative, or “personal buffer zone.” We neither like nor tolerate it when someone invades our bubble. As we travel to different places around the world, we learn that some cultural bubbles are larger or smaller than others. The American “bubble” extends about 12 to 15 inches, and so we may stand a combined 24 to 30 inches apart. Scientists point out this just happens to be an arm’s length away. One could stretch out his arm and put his thumb in the other person’s ear. Orientals, and especially the Japanese, stand even farther apart, anthropologist George Renwick adds. When it comes to ordinary business or social situations, they have the largest bubbles of all. However, in their own public settings, where crowding is impossible to avoid, they accept body contact or just seem to ignore it, “touching without feeling.” Latins and Middle Easterners, on the other hand, stand much closer than Americans. They may stand, literally, toe-to-toe. They may even place a hand on the other’s forearm or elbow, or even finger the lapel of the other person. However, touch codes are changing all over the world. In the United States, politicians have learned the value of touch. They frequently give two-handed handshakes, casually touch the elbow of another, or lightly touch the back of the person standing next to them. “Pressing flesh” has become a byword on political campaigns. Also, Japanese managers posted in the U.S. factories are steeling themselves and learning to accept finger-crunching handshakes, back patting, and maybe even a friendly arm around the shoulders for the softball team photo."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l004'] = {
     "American politicians use firm, strong handshakes to connect to people.",
     "Japanese may put their arms around athletes’ shoulders when taking photos."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Touching Anthropologists tell us that each of us walks around inside “bubbles of personal space.” The size of the bubble represents our personal territory, territorial imperative, or “personal buffer zone.” We neither like nor tolerate it when someone invades our bubble. As we travel to different places around the world, we learn that some cultural bubbles are larger or smaller than others. The American “bubble” extends about 12 to 15 inches, and so we may stand a combined 24 to 30 inches apart. Scientists point out this just happens to be an arm’s length away. One could stretch out his arm and put his thumb in the other person’s ear. Orientals, and especially the Japanese, stand even farther apart, anthropologist George Renwick adds. When it comes to ordinary business or social situations, they have the largest bubbles of all. However, in their own public settings, where crowding is impossible to avoid, they accept body contact or just seem to ignore it, “touching without feeling.” Latins and Middle Easterners, on the other hand, stand much closer than Americans. They may stand, literally, toe-to-toe. They may even place a hand on the other’s forearm or elbow, or even finger the lapel of the other person. However, touch codes are changing all over the world. In the United States, politicians have learned the value of touch. They frequently give two-handed handshakes, casually touch the elbow of another, or lightly touch the back of the person standing next to them. “Pressing flesh” has become a byword on political campaigns. Also, Japanese managers posted in the U.S. factories are steeling themselves and learning to accept finger-crunching handshakes, back patting, and maybe even a friendly arm around the shoulders for the softball team photo."
   }
  ]
 };

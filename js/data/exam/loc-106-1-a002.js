@@ -502,7 +502,7 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "arduously",
     "furtively",
     "inherently",
-    "marginally第 36 題至第 40 題為題組The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage"
+    "marginally"
    ],
    "a": 0,
    "exp": "✅ (A) arduously 意為「艱苦地、勤奮地」，與後文「沒有一夕成功這回事」相合——成功的祕訣是長期辛勤工作。\n❌ (B) furtively 是偷偷摸摸地。\n❌ (C) inherently 是本質上。\n❌ (D) marginally 是些微地。\n📚 出處：英文字彙（arduously 的字義）"
@@ -511,76 +511,71 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "because",
+    "where",
+    "although",
+    "which"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106190_301_0205_36.webp"
+   "psg": "為題組 The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "consequently",
+    "obviously",
+    "besides",
+    "however"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106190_301_0205_37.webp"
+   "psg": "為題組 The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "where and when",
+    "wherever and however",
+    "whenever and why",
+    "however and why"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106190_301_0205_38.webp"
+   "psg": "為題組 The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "For example",
+    "Upon contact",
+    "Above all",
+    "In return"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106190_301_0205_39.webp"
+   "psg": "為題組 The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "play down",
+    "deal with",
+    "serve as",
+    "tie up"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106190_301_0205_40.webp"
+   "psg": "為題組 The earthquake that struck Coalinga, California in 1983 caused an estimated $10 million in property damage and injured 94 people. Damage was most severe in Coalinga, 36 the 8-block downtown commercial district was almost completely destroyed. It took residents by surprise. That’s because scientists cannot yet predict the exact spot and time an earthquake will occur. They do know, 37 , that quakes occur along faults—cracks in the earth’s rocky crust. Here, movement of the crust causes built-up energy to be suddenly released. This release of energy is felt as an earthquake. To try to predict 38 a quake will occur, scientists use a variety of sensitive instruments—underground, on the surface, and in space. These instruments measure changes that might signal a coming quake. 39 , in a recently designed instrument, light from a laser flashes across a fault in California. A mirror will reflect the light back to the laser. If the land shifts, the time it takes the light to make a round-trip changes. Scientists study past earthquakes for patterns of activity that can 40 warning signs. Their observations, they believe, are providing keys to more accurate earthquake predictions."
   },
   {
    "n": 41,
@@ -673,7 +668,8 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "bed and breakfast",
     "swimming and motorbiking"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come."
   },
   {
    "n": 47,
@@ -686,7 +682,8 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "To take photos of the giant mounds of snow.",
     "To improve your health by enjoying spa."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come."
   },
   {
    "n": 48,
@@ -699,7 +696,8 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "The most popular events at the theater were religious ceremonies.",
     "Some of the old statues were damaged but have been repaired."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come."
   },
   {
    "n": 49,
@@ -712,7 +710,8 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "Several roads are built over Pamukkale for motorbikes.",
     "Colonnade Street divides Pamukkale into two parts by large pillars on each side."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come."
   },
   {
    "n": 50,
@@ -725,7 +724,8 @@ window.APP_EXAM_PAPERS['loc-106-1-a002'] = {
     "The Unfortunate State of Hierapolis",
     "Natural Wonders and Ancient Treasures"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 For many people, a typical vacation might involve lying out and getting some sun at the beach or shopping until they drop. But, if you’re looking to take a trip in which you can broaden your horizons and soothe your aching muscles, a fantastic opportunity can be found in south-western Turkey. There, two breathtaking sites await you. One is Pamukkale, an incomparable natural wonder. The other is Hierapolis, an ancient city, filled with Greek and Roman ruins from a bygone era. In Turkish, Pamukkale means “cotton castle,” which is a fitting description for this attraction. In a picture of Pamukkale people might mistake the pure white scenery for mounds of snow. Yet, they are actually rock formations; they appear pure white due to mineral deposits left by the calcium-laden spring waters and volcanic springs that have flowed over them for thousands of years. Since the 2ndcentury B.C., Pamukkale has been a famous spa, visited by people who want to experience its beautifying effects and find a remedy to whatever ails them. Built next to the “cotton castle” is Hierapolis, which means “Holy City” in Greek. Over its history it was struck by many powerful earthquakes. Today, many structures from the Roman era still remain. Tourists can walk down Colonnade Street, which used to be the main road when the town was bustling with people. It divides the city into two sections by large pillars on each side of the street. As they stroll along, visitors can see the ruins of many buildings, including shops, pantries, and ancient homes. Located in the middle of Hierapolis is the well-preserved Roman Theater. Back in its heyday, the theater had the capacity to hold 8,500 to 10,000 spectators. People would gather here for concerts, sporting events, and religious ceremonies. But most of all, they came here for theater. Today, many statues depicting famous mythological figures from the theater have been restored and are on display inside. In recent times, Hierapolis and Pamukkale became targets for savvy businesses. Many hotels were constructed over the ruins, and a road was built over Pamukkale for motorbikes, causing great damage to the sites. But, after the area was declared a world heritage site, the hotels were torn down and the road was closed. Now, people must walk on Pamukkale barefoot. With these safeguards in place, Pamukkale and Hierapolis should continue to heal and entertain tourists for years to come."
   }
  ]
 };

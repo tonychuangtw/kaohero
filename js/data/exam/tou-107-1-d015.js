@@ -979,7 +979,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "meskipun",
     "akan"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
   },
   {
    "n": 70,
@@ -992,7 +993,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "agar",
     "maka"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
   },
   {
    "n": 71,
@@ -1005,7 +1007,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "agar",
     "maka"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
   },
   {
    "n": 72,
@@ -1018,7 +1021,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "wisata",
     "bagian"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
   },
   {
    "n": 73,
@@ -1031,7 +1035,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "kunjungan",
     "mengunjungi"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
   },
   {
    "n": 74,
@@ -1044,7 +1049,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "kadang-kadang",
     "kapan-kapan"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
   },
   {
    "n": 75,
@@ -1057,7 +1063,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "tukang",
     "pelayan"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
   },
   {
    "n": 76,

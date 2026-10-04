@@ -430,7 +430,7 @@ window.APP_EXAM_PAPERS['pol-106-1-b002'] = {
     "受僱者提出性別（性傾向）歧視及性騷擾之申訴時，雇主不得為不利之處分",
     "雇主違反本法第四章促進工作平等措施時，受僱者得向刑事法院提起訴訟",
     "法院及主管機關對差別待遇事實之認定，不應審酌性別工作平等會所為之調查報告、評議或處分而自作判斷",
-    "中央主管機關接獲受僱者有關本法第四章促進工作平等措施之申訴時，亦得自行展開調查請依下文回答第 31 題至第 35 題：These are salad days for organizers of petition drives. Never has it been so easy to circulate demands"
+    "中央主管機關接獲受僱者有關本法第四章促進工作平等措施之申訴時，亦得自行展開調查"
    ],
    "a": 0,
    "exp": "✅ (A) 依性別平等工作法（原性別工作平等法）第 36 條規定，雇主不得因受僱者提出本法之申訴或協助他人申訴，而予以解僱、調職或其他不利之處分。\n❌ (B) 雇主違反第四章促進工作平等措施屬行政義務之違反，受僱者得向行政主管機關申訴，非向刑事法院起訴。\n❌ (C) 依同法第 35 條規定，法院及主管機關對差別待遇事實之認定，應審酌性別平等工作會所為之調查報告、評議或處分。\n❌ (D) 依同法第 34 條規定，申訴應向「地方主管機關」提出並由其展開調查，並非由中央主管機關逕行展開調查。\n📚 出處：性別平等工作法（原性別工作平等法）第 34 條、第 35 條、第 36 條"
@@ -439,76 +439,71 @@ window.APP_EXAM_PAPERS['pol-106-1-b002'] = {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 31 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "erase",
+    "collect",
+    "comprehend",
+    "include"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106070_131_0202_31.webp"
+   "psg": "These are salad days for organizers of petition drives. Never has it been so easy to circulate demands and 31 virtual signatures. Not long ago, ardent activists clutched clipboards outside grocery stores or student unions as 32 passers-by pretend not to notice them. But social media streamlines the search for the 33 . It follows that these are glum times for college presidents. Zealous students at well-known institutes have leveraged social media to drive away invited graduation-day speakers. They make it look so easy that students elsewhere will surely be tempted to 34 the fun. For example, Former US Secretary of State Condoleezza Rice backed out of the Rutgers graduation ceremony after students 35 her as a “war criminal” for her role in the Bush Administration’s war on terror."
   },
   {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 32 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "apathetic",
+    "sympathetic",
+    "pathetic",
+    "enthusiastic"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106070_131_0202_32.webp"
+   "psg": "These are salad days for organizers of petition drives. Never has it been so easy to circulate demands and 31 virtual signatures. Not long ago, ardent activists clutched clipboards outside grocery stores or student unions as 32 passers-by pretend not to notice them. But social media streamlines the search for the 33 . It follows that these are glum times for college presidents. Zealous students at well-known institutes have leveraged social media to drive away invited graduation-day speakers. They make it look so easy that students elsewhere will surely be tempted to 34 the fun. For example, Former US Secretary of State Condoleezza Rice backed out of the Rutgers graduation ceremony after students 35 her as a “war criminal” for her role in the Bush Administration’s war on terror."
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 33 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "like-minded",
+    "lookalike",
+    "sidekick",
+    "undertaker"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106070_131_0202_33.webp"
+   "psg": "These are salad days for organizers of petition drives. Never has it been so easy to circulate demands and 31 virtual signatures. Not long ago, ardent activists clutched clipboards outside grocery stores or student unions as 32 passers-by pretend not to notice them. But social media streamlines the search for the 33 . It follows that these are glum times for college presidents. Zealous students at well-known institutes have leveraged social media to drive away invited graduation-day speakers. They make it look so easy that students elsewhere will surely be tempted to 34 the fun. For example, Former US Secretary of State Condoleezza Rice backed out of the Rutgers graduation ceremony after students 35 her as a “war criminal” for her role in the Bush Administration’s war on terror."
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 34 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "follow up",
+    "avoid",
+    "join in",
+    "jump"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106070_131_0202_34.webp"
+   "psg": "These are salad days for organizers of petition drives. Never has it been so easy to circulate demands and 31 virtual signatures. Not long ago, ardent activists clutched clipboards outside grocery stores or student unions as 32 passers-by pretend not to notice them. But social media streamlines the search for the 33 . It follows that these are glum times for college presidents. Zealous students at well-known institutes have leveraged social media to drive away invited graduation-day speakers. They make it look so easy that students elsewhere will surely be tempted to 34 the fun. For example, Former US Secretary of State Condoleezza Rice backed out of the Rutgers graduation ceremony after students 35 her as a “war criminal” for her role in the Bush Administration’s war on terror."
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 35 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "accessed",
+    "commended",
+    "denounced",
+    "lauded"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106070_131_0202_35.webp"
+   "psg": "These are salad days for organizers of petition drives. Never has it been so easy to circulate demands and 31 virtual signatures. Not long ago, ardent activists clutched clipboards outside grocery stores or student unions as 32 passers-by pretend not to notice them. But social media streamlines the search for the 33 . It follows that these are glum times for college presidents. Zealous students at well-known institutes have leveraged social media to drive away invited graduation-day speakers. They make it look so easy that students elsewhere will surely be tempted to 34 the fun. For example, Former US Secretary of State Condoleezza Rice backed out of the Rutgers graduation ceremony after students 35 her as a “war criminal” for her role in the Bush Administration’s war on terror."
   },
   {
    "n": 36,

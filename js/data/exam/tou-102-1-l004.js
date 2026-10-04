@@ -453,76 +453,71 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 32 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "implementation",
+    "exploitation",
+    "persecution",
+    "allegation"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/102040_601_0401_32.webp"
+   "psg": "Recently a cheating scandal has rocked the world: Lance Armstrong, an American professional road racing cyclist, finally admitted that he had used performance-enhancing drugs in his seven Tour de France wins. In the past, he persistently denied the 32 of doping, even under oath, and persecuted former close associates who went public 33 him. Now, he confesses his years of denial as “one big lie” for keeping up a fairy tale image: a hero who overcame cancer, a winner of the Tour repeatedly, and a father with a happy marriage and children. Armstrong’s cheat has rekindled the long-term debate on 34 performance-enhancing drugs should be accepted in sports. On one side, it is argued that these drugs’ harmful health effects have been overstated, and using drugs is part of the 35 of sports much like improved training techniques and new technologies. On the other side, it is argued that these drugs are harmful and potentially fatal, and that athletes who use them are cheaters who gain an unfair 36 and violate the spirit of competition."
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 33 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "for",
+    "upon",
+    "over",
+    "against"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/102040_601_0401_33.webp"
+   "psg": "Recently a cheating scandal has rocked the world: Lance Armstrong, an American professional road racing cyclist, finally admitted that he had used performance-enhancing drugs in his seven Tour de France wins. In the past, he persistently denied the 32 of doping, even under oath, and persecuted former close associates who went public 33 him. Now, he confesses his years of denial as “one big lie” for keeping up a fairy tale image: a hero who overcame cancer, a winner of the Tour repeatedly, and a father with a happy marriage and children. Armstrong’s cheat has rekindled the long-term debate on 34 performance-enhancing drugs should be accepted in sports. On one side, it is argued that these drugs’ harmful health effects have been overstated, and using drugs is part of the 35 of sports much like improved training techniques and new technologies. On the other side, it is argued that these drugs are harmful and potentially fatal, and that athletes who use them are cheaters who gain an unfair 36 and violate the spirit of competition."
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 34 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "how",
+    "lest",
+    "whether",
+    "which"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102040_601_0401_34.webp"
+   "psg": "Recently a cheating scandal has rocked the world: Lance Armstrong, an American professional road racing cyclist, finally admitted that he had used performance-enhancing drugs in his seven Tour de France wins. In the past, he persistently denied the 32 of doping, even under oath, and persecuted former close associates who went public 33 him. Now, he confesses his years of denial as “one big lie” for keeping up a fairy tale image: a hero who overcame cancer, a winner of the Tour repeatedly, and a father with a happy marriage and children. Armstrong’s cheat has rekindled the long-term debate on 34 performance-enhancing drugs should be accepted in sports. On one side, it is argued that these drugs’ harmful health effects have been overstated, and using drugs is part of the 35 of sports much like improved training techniques and new technologies. On the other side, it is argued that these drugs are harmful and potentially fatal, and that athletes who use them are cheaters who gain an unfair 36 and violate the spirit of competition."
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 35 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "evolution",
+    "satisfaction",
+    "cooperation",
+    "distribution"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/102040_601_0401_35.webp"
+   "psg": "Recently a cheating scandal has rocked the world: Lance Armstrong, an American professional road racing cyclist, finally admitted that he had used performance-enhancing drugs in his seven Tour de France wins. In the past, he persistently denied the 32 of doping, even under oath, and persecuted former close associates who went public 33 him. Now, he confesses his years of denial as “one big lie” for keeping up a fairy tale image: a hero who overcame cancer, a winner of the Tour repeatedly, and a father with a happy marriage and children. Armstrong’s cheat has rekindled the long-term debate on 34 performance-enhancing drugs should be accepted in sports. On one side, it is argued that these drugs’ harmful health effects have been overstated, and using drugs is part of the 35 of sports much like improved training techniques and new technologies. On the other side, it is argued that these drugs are harmful and potentially fatal, and that athletes who use them are cheaters who gain an unfair 36 and violate the spirit of competition."
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "viewpoint",
+    "advantage",
+    "share",
+    "control"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/102040_601_0401_36.webp"
+   "psg": "Recently a cheating scandal has rocked the world: Lance Armstrong, an American professional road racing cyclist, finally admitted that he had used performance-enhancing drugs in his seven Tour de France wins. In the past, he persistently denied the 32 of doping, even under oath, and persecuted former close associates who went public 33 him. Now, he confesses his years of denial as “one big lie” for keeping up a fairy tale image: a hero who overcame cancer, a winner of the Tour repeatedly, and a father with a happy marriage and children. Armstrong’s cheat has rekindled the long-term debate on 34 performance-enhancing drugs should be accepted in sports. On one side, it is argued that these drugs’ harmful health effects have been overstated, and using drugs is part of the 35 of sports much like improved training techniques and new technologies. On the other side, it is argued that these drugs are harmful and potentially fatal, and that athletes who use them are cheaters who gain an unfair 36 and violate the spirit of competition."
   },
   {
    "n": 37,
@@ -1079,7 +1074,7 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
     "an eye opener",
     "a can opener",
     "an ear opener",
-    "a beer openerMount Rushmore is perhaps one of North America’s most distinguished and famous landmarks, right after the Statue"
+    "a beer opener"
    ],
    "a": 0,
    "exp": "✅ (A) an eye opener 意為「令人大開眼界的事物」，指這款設計可能讓不懂產品美學者大開眼界，語意契合。\n❌ (B) a can opener 意為「開罐器」，為具體器具，語意不通。\n❌ (C) an ear opener 非慣用表達，英語中無此說法。\n❌ (D) a beer opener 意為「開瓶器」，與語境無關。\n📚 出處：英文慣用語 eye opener"
@@ -1095,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
     "Other attractions near Mount Rushmore.",
     "A comparison between Mount Rushmore and the Statue of Liberty."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Mount Rushmore is perhaps one of North America’s most distinguished and famous landmarks, right after the Statue of Liberty. It features the busts of four U.S. Presidents, Washington, Jefferson, Lincoln and Roosevelt. This place has an interesting story. First, a New York lawyer named Charles E. Rushmore visited the Black Hills in 1885. He asked a local the name of the granite mountain before them. Since the peak had no name, the man replied humorously, “Mount Rushmore.” The name has never been changed since! In 1923 state historian Doane Robinson suggested carving some giant statues in South Dakota’s Black Hills. However, the formations chosen, known as the Needles, were too fragile, and the sculptor, Mr. Gutzon Borglum, decided to use the granite mountain instead. Born in a family of Danish Mormons in Idaho in 1867, Borglum studied art in Paris and enjoyed moderate fame as a sculptor after remodeling the torch for the Statue of Liberty. Borglum chose the presidents “in commemoration of the foundation, preservation and continental expansion of the United States.” President Calvin Coolidge dedicated the memorial in 1927. At this very moment, near this mountain, there is another colossal monument in progress: the Crazy Horse Memorial, to honor this courageous Indian leader. In this way, history is preserved, as big as the heritage is, to be shared with everyone in an attractive way."
   },
   {
    "n": 78,
@@ -1108,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
     "It is still under construction.",
     "It gives more fun to the tourists."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Mount Rushmore is perhaps one of North America’s most distinguished and famous landmarks, right after the Statue of Liberty. It features the busts of four U.S. Presidents, Washington, Jefferson, Lincoln and Roosevelt. This place has an interesting story. First, a New York lawyer named Charles E. Rushmore visited the Black Hills in 1885. He asked a local the name of the granite mountain before them. Since the peak had no name, the man replied humorously, “Mount Rushmore.” The name has never been changed since! In 1923 state historian Doane Robinson suggested carving some giant statues in South Dakota’s Black Hills. However, the formations chosen, known as the Needles, were too fragile, and the sculptor, Mr. Gutzon Borglum, decided to use the granite mountain instead. Born in a family of Danish Mormons in Idaho in 1867, Borglum studied art in Paris and enjoyed moderate fame as a sculptor after remodeling the torch for the Statue of Liberty. Borglum chose the presidents “in commemoration of the foundation, preservation and continental expansion of the United States.” President Calvin Coolidge dedicated the memorial in 1927. At this very moment, near this mountain, there is another colossal monument in progress: the Crazy Horse Memorial, to honor this courageous Indian leader. In this way, history is preserved, as big as the heritage is, to be shared with everyone in an attractive way."
   },
   {
    "n": 79,
@@ -1121,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
     "chose the subjects for his sculptures",
     "was a sculptor from France"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Mount Rushmore is perhaps one of North America’s most distinguished and famous landmarks, right after the Statue of Liberty. It features the busts of four U.S. Presidents, Washington, Jefferson, Lincoln and Roosevelt. This place has an interesting story. First, a New York lawyer named Charles E. Rushmore visited the Black Hills in 1885. He asked a local the name of the granite mountain before them. Since the peak had no name, the man replied humorously, “Mount Rushmore.” The name has never been changed since! In 1923 state historian Doane Robinson suggested carving some giant statues in South Dakota’s Black Hills. However, the formations chosen, known as the Needles, were too fragile, and the sculptor, Mr. Gutzon Borglum, decided to use the granite mountain instead. Born in a family of Danish Mormons in Idaho in 1867, Borglum studied art in Paris and enjoyed moderate fame as a sculptor after remodeling the torch for the Statue of Liberty. Borglum chose the presidents “in commemoration of the foundation, preservation and continental expansion of the United States.” President Calvin Coolidge dedicated the memorial in 1927. At this very moment, near this mountain, there is another colossal monument in progress: the Crazy Horse Memorial, to honor this courageous Indian leader. In this way, history is preserved, as big as the heritage is, to be shared with everyone in an attractive way."
   },
   {
    "n": 80,
@@ -1134,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-102-1-l004'] = {
     "Roosevelt",
     "Washington"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Mount Rushmore is perhaps one of North America’s most distinguished and famous landmarks, right after the Statue of Liberty. It features the busts of four U.S. Presidents, Washington, Jefferson, Lincoln and Roosevelt. This place has an interesting story. First, a New York lawyer named Charles E. Rushmore visited the Black Hills in 1885. He asked a local the name of the granite mountain before them. Since the peak had no name, the man replied humorously, “Mount Rushmore.” The name has never been changed since! In 1923 state historian Doane Robinson suggested carving some giant statues in South Dakota’s Black Hills. However, the formations chosen, known as the Needles, were too fragile, and the sculptor, Mr. Gutzon Borglum, decided to use the granite mountain instead. Born in a family of Danish Mormons in Idaho in 1867, Borglum studied art in Paris and enjoyed moderate fame as a sculptor after remodeling the torch for the Statue of Liberty. Borglum chose the presidents “in commemoration of the foundation, preservation and continental expansion of the United States.” President Calvin Coolidge dedicated the memorial in 1927. At this very moment, near this mountain, there is another colossal monument in progress: the Crazy Horse Memorial, to honor this courageous Indian leader. In this way, history is preserved, as big as the heritage is, to be shared with everyone in an attractive way."
   }
  ]
 };

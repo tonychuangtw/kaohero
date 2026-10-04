@@ -525,61 +525,57 @@ window.APP_EXAM_PAPERS['loc-102-1-c002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "move",
+    "change",
+    "shift",
+    "turn"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/102190_501_0206_37.webp"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "any longer",
+    "no longer",
+    "rather than",
+    "more than"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/102190_501_0206_38.webp"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "request",
+    "answer",
+    "reason",
+    "action"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102190_501_0206_39.webp"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "shake",
+    "mistake",
+    "deal",
+    "order"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102190_501_0206_40.webp"
+   "psg": "and going trick or treat. But now she was getting a little old for all that. In fact, the day after Halloween, Mary would 37 thirteen. She would 38 think she is just a little kid. Mary would never admit it, but she had one other big 39 for not liking Halloween. When your birthday falls on November 1, no one ever makes a big 40 out of it－because it is right after Halloween! 請依上文回答第 36 題至第 40 題"
   },
   {
    "n": 41,

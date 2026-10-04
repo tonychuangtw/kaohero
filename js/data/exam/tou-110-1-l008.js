@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "En verano.",
     "En todo el año."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Los españoles viajan en dos momentos importantes del año. Uno es la Semana Santa, una fiesta religiosa de cuatro días que aprovechan para salir de su ciudad. Esta fiesta se celebra al comienzo de la primavera y conmemora la muerte de Jesucristo. En algunas ciudades es una fiesta muy importante, y toda la gente sale a las calles para estar al lado de la imagen de Cristo. Muchos españoles van a estas ciudades para asistir con gran fervor a sus procesiones y seguir los “pasos”. Otra época importante para viajar es el verano. Normalmente los españoles tienen un mes de vacaciones. Los sitios que más se visitan son las playas y los lugares de sol, bullicio y alegría. A los españoles les gusta alejarse de la ciudad donde viven todo el año, pero no de la gente. Es extraño ver a un español solo en una montaña, apartado de ruido. Les gusta estar rodeados de gente. Sin embargo, desde hace algunos años, existe el llamado turismo rural. La gente visita pueblos del interior o de montaña. Allí hay casas antiguas restauradas. Estas vacaciones son relajadas, se pueden practicar diferentes deportes y se convive durante unos días con la naturaleza."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "La playa.",
     "El lugar tranquilo."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Los españoles viajan en dos momentos importantes del año. Uno es la Semana Santa, una fiesta religiosa de cuatro días que aprovechan para salir de su ciudad. Esta fiesta se celebra al comienzo de la primavera y conmemora la muerte de Jesucristo. En algunas ciudades es una fiesta muy importante, y toda la gente sale a las calles para estar al lado de la imagen de Cristo. Muchos españoles van a estas ciudades para asistir con gran fervor a sus procesiones y seguir los “pasos”. Otra época importante para viajar es el verano. Normalmente los españoles tienen un mes de vacaciones. Los sitios que más se visitan son las playas y los lugares de sol, bullicio y alegría. A los españoles les gusta alejarse de la ciudad donde viven todo el año, pero no de la gente. Es extraño ver a un español solo en una montaña, apartado de ruido. Les gusta estar rodeados de gente. Sin embargo, desde hace algunos años, existe el llamado turismo rural. La gente visita pueblos del interior o de montaña. Allí hay casas antiguas restauradas. Estas vacaciones son relajadas, se pueden practicar diferentes deportes y se convive durante unos días con la naturaleza."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "Con los santos.",
     "Solos."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Los españoles viajan en dos momentos importantes del año. Uno es la Semana Santa, una fiesta religiosa de cuatro días que aprovechan para salir de su ciudad. Esta fiesta se celebra al comienzo de la primavera y conmemora la muerte de Jesucristo. En algunas ciudades es una fiesta muy importante, y toda la gente sale a las calles para estar al lado de la imagen de Cristo. Muchos españoles van a estas ciudades para asistir con gran fervor a sus procesiones y seguir los “pasos”. Otra época importante para viajar es el verano. Normalmente los españoles tienen un mes de vacaciones. Los sitios que más se visitan son las playas y los lugares de sol, bullicio y alegría. A los españoles les gusta alejarse de la ciudad donde viven todo el año, pero no de la gente. Es extraño ver a un español solo en una montaña, apartado de ruido. Les gusta estar rodeados de gente. Sin embargo, desde hace algunos años, existe el llamado turismo rural. La gente visita pueblos del interior o de montaña. Allí hay casas antiguas restauradas. Estas vacaciones son relajadas, se pueden practicar diferentes deportes y se convive durante unos días con la naturaleza."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "Los españoles no salen de su propia ciudad para asistir a la fiesta.",
     "Toda la gente sale a la calle para estar con la imagen de Cristo."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Los españoles viajan en dos momentos importantes del año. Uno es la Semana Santa, una fiesta religiosa de cuatro días que aprovechan para salir de su ciudad. Esta fiesta se celebra al comienzo de la primavera y conmemora la muerte de Jesucristo. En algunas ciudades es una fiesta muy importante, y toda la gente sale a las calles para estar al lado de la imagen de Cristo. Muchos españoles van a estas ciudades para asistir con gran fervor a sus procesiones y seguir los “pasos”. Otra época importante para viajar es el verano. Normalmente los españoles tienen un mes de vacaciones. Los sitios que más se visitan son las playas y los lugares de sol, bullicio y alegría. A los españoles les gusta alejarse de la ciudad donde viven todo el año, pero no de la gente. Es extraño ver a un español solo en una montaña, apartado de ruido. Les gusta estar rodeados de gente. Sin embargo, desde hace algunos años, existe el llamado turismo rural. La gente visita pueblos del interior o de montaña. Allí hay casas antiguas restauradas. Estas vacaciones son relajadas, se pueden practicar diferentes deportes y se convive durante unos días con la naturaleza."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "Descansan en las ruinas.",
     "Gozan de un ambiente bullicioso."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Los españoles viajan en dos momentos importantes del año. Uno es la Semana Santa, una fiesta religiosa de cuatro días que aprovechan para salir de su ciudad. Esta fiesta se celebra al comienzo de la primavera y conmemora la muerte de Jesucristo. En algunas ciudades es una fiesta muy importante, y toda la gente sale a las calles para estar al lado de la imagen de Cristo. Muchos españoles van a estas ciudades para asistir con gran fervor a sus procesiones y seguir los “pasos”. Otra época importante para viajar es el verano. Normalmente los españoles tienen un mes de vacaciones. Los sitios que más se visitan son las playas y los lugares de sol, bullicio y alegría. A los españoles les gusta alejarse de la ciudad donde viven todo el año, pero no de la gente. Es extraño ver a un español solo en una montaña, apartado de ruido. Les gusta estar rodeados de gente. Sin embargo, desde hace algunos años, existe el llamado turismo rural. La gente visita pueblos del interior o de montaña. Allí hay casas antiguas restauradas. Estas vacaciones son relajadas, se pueden practicar diferentes deportes y se convive durante unos días con la naturaleza."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "sexto / setecientos once",
     "quinto / seteciento once"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Cuando los musulmanes invadieron la Península en 711, España creció culturalmente. Además, su influencia en el español fue muy importante. En español existen actualmente más de 4.000 palabras de origen árabe. Su influencia en la arquitectura fue también importante. Se pueden distinguir cuatro fases: El primer periodo, de los siglos VII al X, durante el que se construyó la mezquita de Córdoba. Durante los siglos XI al XIII se desarrolló el segundo periodo. La muestra más representativa de esta época es la mezquita de Sevilla, de la que actualmente solo queda la torre de Giralda. La Alhambra de Granada constituyó la máxima representación del arte arquitectónico de los siglos XIII al XV. Esta maravillosa construcción tuvo triple función: fortaleza, palacio y ciudad, hasta 1492, cuando los Reyes Católicos conquistaron Granada. El arte mudéjar fundió los estilos cristianos (románico y gótico) con motivos ornamentales y materiales árabes. Una de sus representaciones más famosas se encuentra en Teruel, es la Torre de San Martín."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "mil cuatrocientos noventa y dos",
     "mil cuatrociento noventa y dos"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Cuando los musulmanes invadieron la Península en 711, España creció culturalmente. Además, su influencia en el español fue muy importante. En español existen actualmente más de 4.000 palabras de origen árabe. Su influencia en la arquitectura fue también importante. Se pueden distinguir cuatro fases: El primer periodo, de los siglos VII al X, durante el que se construyó la mezquita de Córdoba. Durante los siglos XI al XIII se desarrolló el segundo periodo. La muestra más representativa de esta época es la mezquita de Sevilla, de la que actualmente solo queda la torre de Giralda. La Alhambra de Granada constituyó la máxima representación del arte arquitectónico de los siglos XIII al XV. Esta maravillosa construcción tuvo triple función: fortaleza, palacio y ciudad, hasta 1492, cuando los Reyes Católicos conquistaron Granada. El arte mudéjar fundió los estilos cristianos (románico y gótico) con motivos ornamentales y materiales árabes. Una de sus representaciones más famosas se encuentra en Teruel, es la Torre de San Martín."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "El Anfiteatro de Mérida",
     "La Giralda de Sevilla"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Cuando los musulmanes invadieron la Península en 711, España creció culturalmente. Además, su influencia en el español fue muy importante. En español existen actualmente más de 4.000 palabras de origen árabe. Su influencia en la arquitectura fue también importante. Se pueden distinguir cuatro fases: El primer periodo, de los siglos VII al X, durante el que se construyó la mezquita de Córdoba. Durante los siglos XI al XIII se desarrolló el segundo periodo. La muestra más representativa de esta época es la mezquita de Sevilla, de la que actualmente solo queda la torre de Giralda. La Alhambra de Granada constituyó la máxima representación del arte arquitectónico de los siglos XIII al XV. Esta maravillosa construcción tuvo triple función: fortaleza, palacio y ciudad, hasta 1492, cuando los Reyes Católicos conquistaron Granada. El arte mudéjar fundió los estilos cristianos (románico y gótico) con motivos ornamentales y materiales árabes. Una de sus representaciones más famosas se encuentra en Teruel, es la Torre de San Martín."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "la creación de universidades",
     "la construcción de muchas sinagogas judías"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Cuando los musulmanes invadieron la Península en 711, España creció culturalmente. Además, su influencia en el español fue muy importante. En español existen actualmente más de 4.000 palabras de origen árabe. Su influencia en la arquitectura fue también importante. Se pueden distinguir cuatro fases: El primer periodo, de los siglos VII al X, durante el que se construyó la mezquita de Córdoba. Durante los siglos XI al XIII se desarrolló el segundo periodo. La muestra más representativa de esta época es la mezquita de Sevilla, de la que actualmente solo queda la torre de Giralda. La Alhambra de Granada constituyó la máxima representación del arte arquitectónico de los siglos XIII al XV. Esta maravillosa construcción tuvo triple función: fortaleza, palacio y ciudad, hasta 1492, cuando los Reyes Católicos conquistaron Granada. El arte mudéjar fundió los estilos cristianos (románico y gótico) con motivos ornamentales y materiales árabes. Una de sus representaciones más famosas se encuentra en Teruel, es la Torre de San Martín."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l008'] = {
     "el arte barroco",
     "el arte mudéjar"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Lea el texto y elija la respuesta correcta para cada pregunta. Cuando los musulmanes invadieron la Península en 711, España creció culturalmente. Además, su influencia en el español fue muy importante. En español existen actualmente más de 4.000 palabras de origen árabe. Su influencia en la arquitectura fue también importante. Se pueden distinguir cuatro fases: El primer periodo, de los siglos VII al X, durante el que se construyó la mezquita de Córdoba. Durante los siglos XI al XIII se desarrolló el segundo periodo. La muestra más representativa de esta época es la mezquita de Sevilla, de la que actualmente solo queda la torre de Giralda. La Alhambra de Granada constituyó la máxima representación del arte arquitectónico de los siglos XIII al XV. Esta maravillosa construcción tuvo triple función: fortaleza, palacio y ciudad, hasta 1492, cuando los Reyes Católicos conquistaron Granada. El arte mudéjar fundió los estilos cristianos (románico y gótico) con motivos ornamentales y materiales árabes. Una de sus representaciones más famosas se encuentra en Teruel, es la Torre de San Martín."
   }
  ]
 };

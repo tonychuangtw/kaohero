@@ -780,7 +780,7 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "borough",
     "bullets",
     "cannon",
-    "batons請回答第 56 題至第 60 題：Through the 1800s as professional police departments grew around the United States, women held few positions."
+    "batons"
    ],
    "a": 2,
    "exp": "✅ (C) water cannon 意為「水砲」，指警方在處理陳抗群眾事件時，用以驅離佔據道路示威者的高壓水柱裝備。\n❌ (A) borough 意為「行政區、自治市鎮」，無法與 water 組合為警用驅離裝備。\n❌ (B) bullets 意為「子彈」，water bullets（水彈）非警方驅離示威群眾所使用的水砲設備。\n❌ (D) batons 意為「警棍」，英文中無 water batons 之用法。\n📚 出處：群眾事件處理與警政英文（water cannon 水砲）。"
@@ -796,7 +796,8 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "What it was like to be a police officer in the 1800s.",
     "Whom Ms. Wells would turn to when she needed help."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Through the 1800s as professional police departments grew around the United States, women held few positions. Mostly, women served as prison workers taking care of female inmates. Then in 1909 social worker and minister Alice Stebbins Wells pressed Los Angeles to establish a new city ordinance allowing female policewomen. With the support of some influential people, the ordinance was quickly adopted and on September 12, 1910, Wells became the first female policewoman with arrest powers in America. She received a badge, a key to telephone call boxes, a rule book, and a first aid book. Wells even designed and made some of her own tailored uniforms. The Los Angeles Police Department (LAPD) assigned Wells to patrol public recreation places women and children frequented, such as skating rinks, dance halls, and movie theaters. By October 1912 two other women were added to the staff. By 1916 sixteen other U.S. cities and several foreign countries had hired female police officers. By 1937 the LAPD employed thirty-nine policewomen and their duties expanded to criminal investigations in addition to patrol. Pressing onward, Wells helped organize the International Policewoman's Association in 1915 and founded the Women's Peace Officers Association of California in 1928. In 1914, she was the subject of a biographical film entitled The Policewoman. The University of California created the first course dedicated to the work of female police officers in 1918. After 30 years of service, she retired in 1940 and died in 1957."
   },
   {
    "n": 57,
@@ -809,7 +810,8 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "Patrolling on the street.",
     "Working with female inmates."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Through the 1800s as professional police departments grew around the United States, women held few positions. Mostly, women served as prison workers taking care of female inmates. Then in 1909 social worker and minister Alice Stebbins Wells pressed Los Angeles to establish a new city ordinance allowing female policewomen. With the support of some influential people, the ordinance was quickly adopted and on September 12, 1910, Wells became the first female policewoman with arrest powers in America. She received a badge, a key to telephone call boxes, a rule book, and a first aid book. Wells even designed and made some of her own tailored uniforms. The Los Angeles Police Department (LAPD) assigned Wells to patrol public recreation places women and children frequented, such as skating rinks, dance halls, and movie theaters. By October 1912 two other women were added to the staff. By 1916 sixteen other U.S. cities and several foreign countries had hired female police officers. By 1937 the LAPD employed thirty-nine policewomen and their duties expanded to criminal investigations in addition to patrol. Pressing onward, Wells helped organize the International Policewoman's Association in 1915 and founded the Women's Peace Officers Association of California in 1928. In 1914, she was the subject of a biographical film entitled The Policewoman. The University of California created the first course dedicated to the work of female police officers in 1918. After 30 years of service, she retired in 1940 and died in 1957."
   },
   {
    "n": 58,
@@ -822,7 +824,8 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "Policewomen got to design their own uniforms.",
     "Women felt safer to stay in public places."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Through the 1800s as professional police departments grew around the United States, women held few positions. Mostly, women served as prison workers taking care of female inmates. Then in 1909 social worker and minister Alice Stebbins Wells pressed Los Angeles to establish a new city ordinance allowing female policewomen. With the support of some influential people, the ordinance was quickly adopted and on September 12, 1910, Wells became the first female policewoman with arrest powers in America. She received a badge, a key to telephone call boxes, a rule book, and a first aid book. Wells even designed and made some of her own tailored uniforms. The Los Angeles Police Department (LAPD) assigned Wells to patrol public recreation places women and children frequented, such as skating rinks, dance halls, and movie theaters. By October 1912 two other women were added to the staff. By 1916 sixteen other U.S. cities and several foreign countries had hired female police officers. By 1937 the LAPD employed thirty-nine policewomen and their duties expanded to criminal investigations in addition to patrol. Pressing onward, Wells helped organize the International Policewoman's Association in 1915 and founded the Women's Peace Officers Association of California in 1928. In 1914, she was the subject of a biographical film entitled The Policewoman. The University of California created the first course dedicated to the work of female police officers in 1918. After 30 years of service, she retired in 1940 and died in 1957."
   },
   {
    "n": 59,
@@ -835,7 +838,8 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "She was enthusiastic in all kinds of political activities.",
     "She was sworn in by the LAPD on September 12, 1910."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Through the 1800s as professional police departments grew around the United States, women held few positions. Mostly, women served as prison workers taking care of female inmates. Then in 1909 social worker and minister Alice Stebbins Wells pressed Los Angeles to establish a new city ordinance allowing female policewomen. With the support of some influential people, the ordinance was quickly adopted and on September 12, 1910, Wells became the first female policewoman with arrest powers in America. She received a badge, a key to telephone call boxes, a rule book, and a first aid book. Wells even designed and made some of her own tailored uniforms. The Los Angeles Police Department (LAPD) assigned Wells to patrol public recreation places women and children frequented, such as skating rinks, dance halls, and movie theaters. By October 1912 two other women were added to the staff. By 1916 sixteen other U.S. cities and several foreign countries had hired female police officers. By 1937 the LAPD employed thirty-nine policewomen and their duties expanded to criminal investigations in addition to patrol. Pressing onward, Wells helped organize the International Policewoman's Association in 1915 and founded the Women's Peace Officers Association of California in 1928. In 1914, she was the subject of a biographical film entitled The Policewoman. The University of California created the first course dedicated to the work of female police officers in 1918. After 30 years of service, she retired in 1940 and died in 1957."
   },
   {
    "n": 60,
@@ -848,7 +852,8 @@ window.APP_EXAM_PAPERS['pol-103-1-b006'] = {
     "No one understood how vulnerable to crime women and children could be.",
     "Women like Wells helped pave the way for the female officers of today."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Through the 1800s as professional police departments grew around the United States, women held few positions. Mostly, women served as prison workers taking care of female inmates. Then in 1909 social worker and minister Alice Stebbins Wells pressed Los Angeles to establish a new city ordinance allowing female policewomen. With the support of some influential people, the ordinance was quickly adopted and on September 12, 1910, Wells became the first female policewoman with arrest powers in America. She received a badge, a key to telephone call boxes, a rule book, and a first aid book. Wells even designed and made some of her own tailored uniforms. The Los Angeles Police Department (LAPD) assigned Wells to patrol public recreation places women and children frequented, such as skating rinks, dance halls, and movie theaters. By October 1912 two other women were added to the staff. By 1916 sixteen other U.S. cities and several foreign countries had hired female police officers. By 1937 the LAPD employed thirty-nine policewomen and their duties expanded to criminal investigations in addition to patrol. Pressing onward, Wells helped organize the International Policewoman's Association in 1915 and founded the Women's Peace Officers Association of California in 1928. In 1914, she was the subject of a biographical film entitled The Policewoman. The University of California created the first course dedicated to the work of female police officers in 1918. After 30 years of service, she retired in 1940 and died in 1957."
   }
  ]
 };

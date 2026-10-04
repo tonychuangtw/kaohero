@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-115-1-b018'] = {
     "intercept",
     "block",
     "restrict",
-    "avoid請依下文回答第 51 題至第 55 題During a night patrol, the coast guard received a distress call from a fishing vessel. The crew"
+    "avoid"
    ],
    "a": 0,
    "exp": "✅ (A) intercept 意為「攔截」，海巡趕在可疑船舶進入公海前加以攔截，強調在途中將其截住，語意最貼切。\n❌ (B) block 偏向「堵住通道或去路」，受詞多為道路、出入口，用於追截船舶不精確。\n❌ (C) restrict 是「限制（範圍、程度）」，無法表達實際追上並截停的動作。\n❌ (D) avoid 是「避開」，與海巡主動追截的行為完全相反。\n📚 出處：海巡執法英文；intercept a vessel。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-115-1-b018'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dispatched",
+    "assigned",
+    "delivered",
+    "summoned"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/115060_211_0207_51.webp"
+   "psg": "During a night patrol, the coast guard received a distress call from a fishing vessel. The crew reported that their boat had struck an unknown object and was taking in water. The rescue team was immediately 51 to the location. Upon arrival, the officers found that the vessel was listing heavily and at risk of sinking. Life jackets were 52 to all crew members, and a rope system was set up to ensure safe evacuation. Despite rough sea conditions, the team successfully 53 all five fishermen. Two of them showed signs of hypothermia and were given medical assistance onboard. After the rescue, the damaged vessel was 54 back to shore for further inspection. The incident highlights the importance of safety measures and 55 response in maritime emergencies."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "borrowed",
+    "provided",
+    "equipped",
+    "designed"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/115060_211_0207_52.webp"
+   "psg": "During a night patrol, the coast guard received a distress call from a fishing vessel. The crew reported that their boat had struck an unknown object and was taking in water. The rescue team was immediately 51 to the location. Upon arrival, the officers found that the vessel was listing heavily and at risk of sinking. Life jackets were 52 to all crew members, and a rope system was set up to ensure safe evacuation. Despite rough sea conditions, the team successfully 53 all five fishermen. Two of them showed signs of hypothermia and were given medical assistance onboard. After the rescue, the damaged vessel was 54 back to shore for further inspection. The incident highlights the importance of safety measures and 55 response in maritime emergencies."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "brought",
+    "assisted",
+    "accompanied",
+    "recovered"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/115060_211_0207_53.webp"
+   "psg": "During a night patrol, the coast guard received a distress call from a fishing vessel. The crew reported that their boat had struck an unknown object and was taking in water. The rescue team was immediately 51 to the location. Upon arrival, the officers found that the vessel was listing heavily and at risk of sinking. Life jackets were 52 to all crew members, and a rope system was set up to ensure safe evacuation. Despite rough sea conditions, the team successfully 53 all five fishermen. Two of them showed signs of hypothermia and were given medical assistance onboard. After the rescue, the damaged vessel was 54 back to shore for further inspection. The incident highlights the importance of safety measures and 55 response in maritime emergencies."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "abandoned",
+    "towed",
+    "escorted",
+    "salvaged"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/115060_211_0207_54.webp"
+   "psg": "During a night patrol, the coast guard received a distress call from a fishing vessel. The crew reported that their boat had struck an unknown object and was taking in water. The rescue team was immediately 51 to the location. Upon arrival, the officers found that the vessel was listing heavily and at risk of sinking. Life jackets were 52 to all crew members, and a rope system was set up to ensure safe evacuation. Despite rough sea conditions, the team successfully 53 all five fishermen. Two of them showed signs of hypothermia and were given medical assistance onboard. After the rescue, the damaged vessel was 54 back to shore for further inspection. The incident highlights the importance of safety measures and 55 response in maritime emergencies."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "efficient",
+    "rapid",
+    "timely",
+    "urgent"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/115060_211_0207_55.webp"
+   "psg": "During a night patrol, the coast guard received a distress call from a fishing vessel. The crew reported that their boat had struck an unknown object and was taking in water. The rescue team was immediately 51 to the location. Upon arrival, the officers found that the vessel was listing heavily and at risk of sinking. Life jackets were 52 to all crew members, and a rope system was set up to ensure safe evacuation. Despite rough sea conditions, the team successfully 53 all five fishermen. Two of them showed signs of hypothermia and were given medical assistance onboard. After the rescue, the damaged vessel was 54 back to shore for further inspection. The incident highlights the importance of safety measures and 55 response in maritime emergencies."
   },
   {
    "n": 56,

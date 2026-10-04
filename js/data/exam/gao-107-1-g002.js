@@ -589,7 +589,7 @@ window.APP_EXAM_PAPERS['gao-107-1-g002'] = {
     "Companies and offices do not require a great amount of space simply because of the availability of Internetconnection.",
     "The spread of IT networks has resulted in a change in financial and office functions, as well as in locations.",
     "IT networks that are widespread in the modern world have helped reduce the running cost of businesses.",
-    "Locational changes are made possible due to widespread Internet connection; financial and office functions nolonger require physical adjacency.請依下文回答第 42 題至第 46 題：Internet cookies are small information files that websites put onto personal computers. The main function of"
+    "Locational changes are made possible due to widespread Internet connection; financial and office functions nolonger require physical adjacency."
    ],
    "a": 3,
    "exp": "✅ (D) 原句說因為易於連上資訊網路而使地點的改變成為可能，以致財務與辦公功能不再需要空間上的鄰近；D 完整對應 locational changes、Internet connection 與 physical adjacency 三個要素。\n❌ (A) 原句講的不是所需空間大小，而是彼此不必比鄰。\n❌ (B) 因果關係顛倒：是網路普及使地點得以改變，不是網路改變了財務與辦公功能。\n❌ (C) 原句未提降低營運成本。\n📚 出處：本題英文原句語意"
@@ -598,61 +598,57 @@ window.APP_EXAM_PAPERS['gao-107-1-g002'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "asset",
+    "access",
+    "essence",
+    "excess"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107090_301_0210_42.webp"
+   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "charitable",
+    "additional",
+    "doubtful",
+    "extinct"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107090_301_0210_43.webp"
+   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "backpacker’s",
+    "consumer’s",
+    "manager’s",
+    "diplomat’s"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107090_301_0210_44.webp"
+   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "reentered",
+    "remitted",
+    "revenged",
+    "remunerated"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107090_301_0210_45.webp"
+   "psg": "Internet cookies are small information files that websites put onto personal computers. The main function of cookies is to give Internet users quick 42 to webpages. For example, because of cookies, customers on e-commerce sites can keep items in their shopping carts while they look at 43 products and then check out with ease whenever they are ready. Cookies also allow a website to remember personal information such as a 44 name, home address, email address, and phone number, so that these items do not have to be 45 . For online sellers, cookies provide an important advantage. They allow the sellers to collect information about visitors to a website. 46 can then use the customer data for advertising and other marketing purposes. Although there are concerns about what sellers might do with private information, it is clear that cookies have their benefits."
   },
   {
    "n": 46,

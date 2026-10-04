@@ -724,7 +724,7 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
     "ensuring",
     "concluding",
     "regarding",
-    "assembling請依下文回答第 52 題至第 55 題：In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and"
+    "assembling"
    ],
    "a": 0,
    "exp": "✅ (A) ensuring 為現在分詞作分詞構句，修飾前述評估內外動線之作為，表伴隨狀態或目的，「以隨時確保（ensuring）安全的進出路徑」，文法及文意完全正確。\n❌ (B) concluding 意為「推斷出、使結束」，放入句中與進出通道之維護安全語意不合。\n❌ (C) regarding 為介系詞，意為「關於」，無法作為表伴隨動作之後續修飾。\n❌ (D) assembling 意為「集合、聚集」，且題幹轉檔殘留之雜訊文字不影響判斷，該詞本身與確保動線順暢之文意不符。\n📚 出處：消防專業英文、分詞構句文法。"
@@ -733,61 +733,57 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "preventive",
+    "articulate",
+    "cosmetic",
+    "emergent"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104070_506_0209_52.webp"
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "compensate",
+    "complete",
+    "comprehend",
+    "compress"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104070_506_0209_53.webp"
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "record",
+    "direction",
+    "administration",
+    "facility"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104070_506_0209_54.webp"
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "metal-detection",
+    "sprinkler",
+    "foam-making",
+    "measurement"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_506_0209_55.webp"
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
   },
   {
    "n": 56,

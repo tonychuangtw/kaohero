@@ -780,7 +780,7 @@ window.APP_EXAM_PAPERS['pol-107-1-b014'] = {
     "admired",
     "adored",
     "adopted",
-    "allowed請依下文回答第 56 題至第 60 題：The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that"
+    "allowed"
    ],
    "a": 3,
    "exp": "✅ (D) allowed 意為「被允許」，全句為被動語態「No access... is allowed to anyone」，表示未經火調人員事先核准，任何人均不得進入火災現場，合乎文法與語境。\n❌ (A) admired 意為「被欽佩、讚賞」，與管制人員進出火場之語意完全不符。\n❌ (B) adored 意為「被崇拜、熱愛」，不合現場管制語境。\n❌ (C) adopted 意為「被採納、收養」，無法與 access 搭配表示准許進入火場。\n📚 出處：消防專業英文常用詞彙（fire scene access control）。"
@@ -789,76 +789,71 @@ window.APP_EXAM_PAPERS['pol-107-1-b014'] = {
    "n": 56,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 56 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "sent off",
+    "sounded",
+    "rang",
+    "went off"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_506_0208_56.webp"
+   "psg": "The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that era most cities had watchmen who 56 an alarm at signs of fire. The principal piece of fire-fighting equipment in ancient Rome and into early modern times was the bucket, 57 from hand to hand to deliver water to the fire. Another important fire-fighting tool was the ax, used to remove the fuel and prevent the 58 of fire as well as to make openings that would allow heat and smoke to escape a burning building. In major blazes long hooks with ropes were used to 59 buildings. When explosives were available, they would be used for this same purpose. The first modern standards for the operation of a fire department were not established until 1830, in Edinburgh, Scotland. These standards explained, for the first time, what was expected 60 a good fire department."
   },
   {
    "n": 57,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 57 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "to pass",
+    "pass",
+    "passed",
+    "passing"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_506_0208_57.webp"
+   "psg": "The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that era most cities had watchmen who 56 an alarm at signs of fire. The principal piece of fire-fighting equipment in ancient Rome and into early modern times was the bucket, 57 from hand to hand to deliver water to the fire. Another important fire-fighting tool was the ax, used to remove the fuel and prevent the 58 of fire as well as to make openings that would allow heat and smoke to escape a burning building. In major blazes long hooks with ropes were used to 59 buildings. When explosives were available, they would be used for this same purpose. The first modern standards for the operation of a fire department were not established until 1830, in Edinburgh, Scotland. These standards explained, for the first time, what was expected 60 a good fire department."
   },
   {
    "n": 58,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 58 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "span",
+    "extent",
+    "spread",
+    "range"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_506_0208_58.webp"
+   "psg": "The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that era most cities had watchmen who 56 an alarm at signs of fire. The principal piece of fire-fighting equipment in ancient Rome and into early modern times was the bucket, 57 from hand to hand to deliver water to the fire. Another important fire-fighting tool was the ax, used to remove the fuel and prevent the 58 of fire as well as to make openings that would allow heat and smoke to escape a burning building. In major blazes long hooks with ropes were used to 59 buildings. When explosives were available, they would be used for this same purpose. The first modern standards for the operation of a fire department were not established until 1830, in Edinburgh, Scotland. These standards explained, for the first time, what was expected 60 a good fire department."
   },
   {
    "n": 59,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 59 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "pull down",
+    "pull out",
+    "pull in",
+    "pull off"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_506_0208_59.webp"
+   "psg": "The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that era most cities had watchmen who 56 an alarm at signs of fire. The principal piece of fire-fighting equipment in ancient Rome and into early modern times was the bucket, 57 from hand to hand to deliver water to the fire. Another important fire-fighting tool was the ax, used to remove the fuel and prevent the 58 of fire as well as to make openings that would allow heat and smoke to escape a burning building. In major blazes long hooks with ropes were used to 59 buildings. When explosives were available, they would be used for this same purpose. The first modern standards for the operation of a fire department were not established until 1830, in Edinburgh, Scotland. These standards explained, for the first time, what was expected 60 a good fire department."
   },
   {
    "n": 60,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 60 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "from",
+    "of",
+    "in",
+    "at"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_506_0208_60.webp"
+   "psg": "The Roman emperor Augustus is credited with instituting a corps of fire-fighting watchmen in 24 BC. In that era most cities had watchmen who 56 an alarm at signs of fire. The principal piece of fire-fighting equipment in ancient Rome and into early modern times was the bucket, 57 from hand to hand to deliver water to the fire. Another important fire-fighting tool was the ax, used to remove the fuel and prevent the 58 of fire as well as to make openings that would allow heat and smoke to escape a burning building. In major blazes long hooks with ropes were used to 59 buildings. When explosives were available, they would be used for this same purpose. The first modern standards for the operation of a fire department were not established until 1830, in Edinburgh, Scotland. These standards explained, for the first time, what was expected 60 a good fire department."
   }
  ]
 };

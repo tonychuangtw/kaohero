@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "mettre",
     "se mettre",
     "vous mettre",
-    "prendreJustine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs-"
+    "prendre"
    ],
    "a": 2,
    "exp": "✅ (C) 半助動詞 vouloir（想要）後接原形動詞，代名動詞 se mettre（入座／就坐）的不定式反身代名詞必須配合主詞 vous 變為 vous mettre，意為「您想坐在吧檯還是露天座？」。\n❌ (A) mettre 為及物動詞（放置），表達「坐下／就座」應使用代名動詞 se mettre，且缺少配合主詞的反身代名詞。\n❌ (B) se mettre 中的反身代名詞 se 為第三人稱，未與主詞 vous 配合進行人稱變化（應為 vous mettre）。\n❌ (D) prendre 為及物動詞（拿取／點選），在此語境下無法與介系詞片語「au comptoir...」搭配表示入座，文意與結構皆不合。\n📚 出處：法語文法（代名動詞的不定式人稱配合）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Deux.",
     "Cinq."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Justine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs- Élysées. Elle dirige une petite équipe de trois personnes : deux femmes de chambre et un valet de chambre. Elle adore son métier. Pour elle, une bonne gouvernante doit être très organisée, efficace, minutieuse et discrète : « Je ne dérange jamais les clients mais je reste à leur disposition. » Mais que fait une gouvernante ? « D’abord, répond Justine Carré, je suis toujours en contact avec la réception pour connaître les départs et les arrivées des clients. Je répartis aussi le travail dans mon équipe pour faire les chambres à blanc ou en recouche ou encore nettoyer les parties communes. Et puis toute la journée, je contrôle la propreté, la sécurité, le linge, les produits d’accueil, l’équipement électrique et le mobilier. Tout doit être parfait. Ensuite je prépare aussi l’accueil des clients importants, les VIP comme on dit. Enfin j’enregistre les objets trouvés que les clients ont oubliés dans les chambres. »"
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "valet de chambre",
     "gouvernante"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Justine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs- Élysées. Elle dirige une petite équipe de trois personnes : deux femmes de chambre et un valet de chambre. Elle adore son métier. Pour elle, une bonne gouvernante doit être très organisée, efficace, minutieuse et discrète : « Je ne dérange jamais les clients mais je reste à leur disposition. » Mais que fait une gouvernante ? « D’abord, répond Justine Carré, je suis toujours en contact avec la réception pour connaître les départs et les arrivées des clients. Je répartis aussi le travail dans mon équipe pour faire les chambres à blanc ou en recouche ou encore nettoyer les parties communes. Et puis toute la journée, je contrôle la propreté, la sécurité, le linge, les produits d’accueil, l’équipement électrique et le mobilier. Tout doit être parfait. Ensuite je prépare aussi l’accueil des clients importants, les VIP comme on dit. Enfin j’enregistre les objets trouvés que les clients ont oubliés dans les chambres. »"
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "l’agence",
     "la femme de chambre"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Justine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs- Élysées. Elle dirige une petite équipe de trois personnes : deux femmes de chambre et un valet de chambre. Elle adore son métier. Pour elle, une bonne gouvernante doit être très organisée, efficace, minutieuse et discrète : « Je ne dérange jamais les clients mais je reste à leur disposition. » Mais que fait une gouvernante ? « D’abord, répond Justine Carré, je suis toujours en contact avec la réception pour connaître les départs et les arrivées des clients. Je répartis aussi le travail dans mon équipe pour faire les chambres à blanc ou en recouche ou encore nettoyer les parties communes. Et puis toute la journée, je contrôle la propreté, la sécurité, le linge, les produits d’accueil, l’équipement électrique et le mobilier. Tout doit être parfait. Ensuite je prépare aussi l’accueil des clients importants, les VIP comme on dit. Enfin j’enregistre les objets trouvés que les clients ont oubliés dans les chambres. »"
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "regard",
     "demande"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Justine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs- Élysées. Elle dirige une petite équipe de trois personnes : deux femmes de chambre et un valet de chambre. Elle adore son métier. Pour elle, une bonne gouvernante doit être très organisée, efficace, minutieuse et discrète : « Je ne dérange jamais les clients mais je reste à leur disposition. » Mais que fait une gouvernante ? « D’abord, répond Justine Carré, je suis toujours en contact avec la réception pour connaître les départs et les arrivées des clients. Je répartis aussi le travail dans mon équipe pour faire les chambres à blanc ou en recouche ou encore nettoyer les parties communes. Et puis toute la journée, je contrôle la propreté, la sécurité, le linge, les produits d’accueil, l’équipement électrique et le mobilier. Tout doit être parfait. Ensuite je prépare aussi l’accueil des clients importants, les VIP comme on dit. Enfin j’enregistre les objets trouvés que les clients ont oubliés dans les chambres. »"
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Elle les a jetés.",
     "Elle les a rangés.",
     "Elle les a enregistrés.",
-    "Elle les a cassés.Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes"
+    "Elle les a cassés."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Justine Carré a 42 ans. Elle travaille comme gouvernante à l’Hôtel des Champs- Élysées. Elle dirige une petite équipe de trois personnes : deux femmes de chambre et un valet de chambre. Elle adore son métier. Pour elle, une bonne gouvernante doit être très organisée, efficace, minutieuse et discrète : « Je ne dérange jamais les clients mais je reste à leur disposition. » Mais que fait une gouvernante ? « D’abord, répond Justine Carré, je suis toujours en contact avec la réception pour connaître les départs et les arrivées des clients. Je répartis aussi le travail dans mon équipe pour faire les chambres à blanc ou en recouche ou encore nettoyer les parties communes. Et puis toute la journée, je contrôle la propreté, la sécurité, le linge, les produits d’accueil, l’équipement électrique et le mobilier. Tout doit être parfait. Ensuite je prépare aussi l’accueil des clients importants, les VIP comme on dit. Enfin j’enregistre les objets trouvés que les clients ont oubliés dans les chambres. »"
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Leur bus.",
     "Leur train."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes est très important. La SNCF (Société nationale des chemins de fer français) organise les voyages en train. On prend le TER (train express régional), le RER (réseau express de la région parisienne) ou le TGV (train à grande vitesse). Pour aller d’une ville à un village, on prend le car. Dans chaque grande ville, il y a un aéroport. Air France, des compagnies européennes ou des compagnies à bas prix proposent des vols pour Paris, les autres villes de France ou l’étranger. Dans Paris, on peut prendre le métro, le bus (RATP) ou le tramway dans certains quartiers. Dans toutes les autres villes, on utilise le bus ou le tramway (à Montpellier, à Strasbourg, à Lille, etc.). Et, bien sûr, on peut aussi prendre un taxi."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "port",
     "centre"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes est très important. La SNCF (Société nationale des chemins de fer français) organise les voyages en train. On prend le TER (train express régional), le RER (réseau express de la région parisienne) ou le TGV (train à grande vitesse). Pour aller d’une ville à un village, on prend le car. Dans chaque grande ville, il y a un aéroport. Air France, des compagnies européennes ou des compagnies à bas prix proposent des vols pour Paris, les autres villes de France ou l’étranger. Dans Paris, on peut prendre le métro, le bus (RATP) ou le tramway dans certains quartiers. Dans toutes les autres villes, on utilise le bus ou le tramway (à Montpellier, à Strasbourg, à Lille, etc.). Et, bien sûr, on peut aussi prendre un taxi."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Le TGV.",
     "La SNCF."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes est très important. La SNCF (Société nationale des chemins de fer français) organise les voyages en train. On prend le TER (train express régional), le RER (réseau express de la région parisienne) ou le TGV (train à grande vitesse). Pour aller d’une ville à un village, on prend le car. Dans chaque grande ville, il y a un aéroport. Air France, des compagnies européennes ou des compagnies à bas prix proposent des vols pour Paris, les autres villes de France ou l’étranger. Dans Paris, on peut prendre le métro, le bus (RATP) ou le tramway dans certains quartiers. Dans toutes les autres villes, on utilise le bus ou le tramway (à Montpellier, à Strasbourg, à Lille, etc.). Et, bien sûr, on peut aussi prendre un taxi."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Le tramway.",
     "Le bus."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes est très important. La SNCF (Société nationale des chemins de fer français) organise les voyages en train. On prend le TER (train express régional), le RER (réseau express de la région parisienne) ou le TGV (train à grande vitesse). Pour aller d’une ville à un village, on prend le car. Dans chaque grande ville, il y a un aéroport. Air France, des compagnies européennes ou des compagnies à bas prix proposent des vols pour Paris, les autres villes de France ou l’étranger. Dans Paris, on peut prendre le métro, le bus (RATP) ou le tramway dans certains quartiers. Dans toutes les autres villes, on utilise le bus ou le tramway (à Montpellier, à Strasbourg, à Lille, etc.). Et, bien sûr, on peut aussi prendre un taxi."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l006'] = {
     "Le TGV.",
     "Le RATP."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Les Français utilisent beaucoup leur voiture. Le réseau des routes et des autoroutes est très important. La SNCF (Société nationale des chemins de fer français) organise les voyages en train. On prend le TER (train express régional), le RER (réseau express de la région parisienne) ou le TGV (train à grande vitesse). Pour aller d’une ville à un village, on prend le car. Dans chaque grande ville, il y a un aéroport. Air France, des compagnies européennes ou des compagnies à bas prix proposent des vols pour Paris, les autres villes de France ou l’étranger. Dans Paris, on peut prendre le métro, le bus (RATP) ou le tramway dans certains quartiers. Dans toutes les autres villes, on utilise le bus ou le tramway (à Montpellier, à Strasbourg, à Lille, etc.). Et, bien sûr, on peut aussi prendre un taxi."
   }
  ]
 };

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "alla camera d’emergenza",
     "al pronto soccorso",
     "al primo aiuto",
-    "alla stanza medicaFra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate"
+    "alla stanza medica"
    ],
    "a": 1,
    "exp": "✅ (B) il pronto soccorso 專指醫院的「急診室、急救處」，旅客頭暈且幾近昏厥，應送往醫院急診室救治。\n❌ (A) camera d'emergenza 為英文 emergency room 之逐字直譯，義大利醫療體系無此詞彙。\n❌ (C) primo aiuto 為英文 first aid（急救）之字面誤譯，義大利語急救為 primo soccorso。\n❌ (D) stanza medica 意指一般醫務室或診療間，非處理急性昏厥等緊急病症之急診單位。\n📚 出處：緊急醫療義大利語：急診處與就醫名詞（Pronto soccorso）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "sono tutte aperte alle visite del pubblico.",
     "hanno un ruolo centrale nella difesa di Taiwan."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Fra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate dall’esercito. Esse rivestono un importante ruolo strategico nella difesa di Taiwan, nel mantenimento dei confini marittimi e nella lotta alle attività illecite come il contrabbando. Quelle sotto la giurisdizione militare presentano delle fortificazioni che in alcuni casi sono state cedute alla Guardia Costiera, oppure abbandonate del tutto. Si tratta di un universo affascinante e misterioso, poiché generalmente precluso ai visitatori. Recentemente, una di queste isole è stata aperta al pubblico. Dadan ed Erdan sono due isolotti che si trovano fra l’isola di Kinmen Minore (a circa 6 km) e la costa della Cina continentale. Le due piccole isole non presentano insediamenti urbani, ma soltanto costruzioni militari. Mentre Erdan non è ancora accessibile al pubblico, Dadan offre ai visitatori un’imperdibile occasione per vedere un avamposto fortificato in mezzo al mare che è rimasto pressoché incontaminato dalla civiltà urbana. I due isolotti sono sconosciuti ai più, ma nella memoria della gente della ROC, ed in particolare di Kinmen, essi rievocano un periodo di terrore e privazioni. L’accesso a Dadan è consentito solo durante la bella stagione, per diversi mesi. Per recarvisi, bisogna prendere un traghetto dal porto di Jiugong. L’accesso è consentito a 300 visitatori al giorno, suddivisi in due turni. Ciò per preservare l’ambiente e poter meglio controllare che gli stranieri non combinino guai... La prenotazione va effettuata con largo anticipo in quanto le richieste, almeno fino ad ora, sono davvero tante."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Dadan ed Erdan sono entrambe aperte al pubblico.",
     "Su Dadan ed Erdan ci sono insediamenti urbani."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Fra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate dall’esercito. Esse rivestono un importante ruolo strategico nella difesa di Taiwan, nel mantenimento dei confini marittimi e nella lotta alle attività illecite come il contrabbando. Quelle sotto la giurisdizione militare presentano delle fortificazioni che in alcuni casi sono state cedute alla Guardia Costiera, oppure abbandonate del tutto. Si tratta di un universo affascinante e misterioso, poiché generalmente precluso ai visitatori. Recentemente, una di queste isole è stata aperta al pubblico. Dadan ed Erdan sono due isolotti che si trovano fra l’isola di Kinmen Minore (a circa 6 km) e la costa della Cina continentale. Le due piccole isole non presentano insediamenti urbani, ma soltanto costruzioni militari. Mentre Erdan non è ancora accessibile al pubblico, Dadan offre ai visitatori un’imperdibile occasione per vedere un avamposto fortificato in mezzo al mare che è rimasto pressoché incontaminato dalla civiltà urbana. I due isolotti sono sconosciuti ai più, ma nella memoria della gente della ROC, ed in particolare di Kinmen, essi rievocano un periodo di terrore e privazioni. L’accesso a Dadan è consentito solo durante la bella stagione, per diversi mesi. Per recarvisi, bisogna prendere un traghetto dal porto di Jiugong. L’accesso è consentito a 300 visitatori al giorno, suddivisi in due turni. Ciò per preservare l’ambiente e poter meglio controllare che gli stranieri non combinino guai... La prenotazione va effettuata con largo anticipo in quanto le richieste, almeno fino ad ora, sono davvero tante."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Si può andare Dadan solo in certi periodi dell’anno.",
     "Si può arrivare a Dadan in aereo."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Fra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate dall’esercito. Esse rivestono un importante ruolo strategico nella difesa di Taiwan, nel mantenimento dei confini marittimi e nella lotta alle attività illecite come il contrabbando. Quelle sotto la giurisdizione militare presentano delle fortificazioni che in alcuni casi sono state cedute alla Guardia Costiera, oppure abbandonate del tutto. Si tratta di un universo affascinante e misterioso, poiché generalmente precluso ai visitatori. Recentemente, una di queste isole è stata aperta al pubblico. Dadan ed Erdan sono due isolotti che si trovano fra l’isola di Kinmen Minore (a circa 6 km) e la costa della Cina continentale. Le due piccole isole non presentano insediamenti urbani, ma soltanto costruzioni militari. Mentre Erdan non è ancora accessibile al pubblico, Dadan offre ai visitatori un’imperdibile occasione per vedere un avamposto fortificato in mezzo al mare che è rimasto pressoché incontaminato dalla civiltà urbana. I due isolotti sono sconosciuti ai più, ma nella memoria della gente della ROC, ed in particolare di Kinmen, essi rievocano un periodo di terrore e privazioni. L’accesso a Dadan è consentito solo durante la bella stagione, per diversi mesi. Per recarvisi, bisogna prendere un traghetto dal porto di Jiugong. L’accesso è consentito a 300 visitatori al giorno, suddivisi in due turni. Ciò per preservare l’ambiente e poter meglio controllare che gli stranieri non combinino guai... La prenotazione va effettuata con largo anticipo in quanto le richieste, almeno fino ad ora, sono davvero tante."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "bisogna prenotare in anticipo.",
     "bisogna contattare l’esercito."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Fra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate dall’esercito. Esse rivestono un importante ruolo strategico nella difesa di Taiwan, nel mantenimento dei confini marittimi e nella lotta alle attività illecite come il contrabbando. Quelle sotto la giurisdizione militare presentano delle fortificazioni che in alcuni casi sono state cedute alla Guardia Costiera, oppure abbandonate del tutto. Si tratta di un universo affascinante e misterioso, poiché generalmente precluso ai visitatori. Recentemente, una di queste isole è stata aperta al pubblico. Dadan ed Erdan sono due isolotti che si trovano fra l’isola di Kinmen Minore (a circa 6 km) e la costa della Cina continentale. Le due piccole isole non presentano insediamenti urbani, ma soltanto costruzioni militari. Mentre Erdan non è ancora accessibile al pubblico, Dadan offre ai visitatori un’imperdibile occasione per vedere un avamposto fortificato in mezzo al mare che è rimasto pressoché incontaminato dalla civiltà urbana. I due isolotti sono sconosciuti ai più, ma nella memoria della gente della ROC, ed in particolare di Kinmen, essi rievocano un periodo di terrore e privazioni. L’accesso a Dadan è consentito solo durante la bella stagione, per diversi mesi. Per recarvisi, bisogna prendere un traghetto dal porto di Jiugong. L’accesso è consentito a 300 visitatori al giorno, suddivisi in due turni. Ciò per preservare l’ambiente e poter meglio controllare che gli stranieri non combinino guai... La prenotazione va effettuata con largo anticipo in quanto le richieste, almeno fino ad ora, sono davvero tante."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "accessibile",
     "chiuso",
     "aperto",
-    "riservatoLa bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche"
+    "riservato"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Fra le isole più piccole dell’arcipelago di Kinmen diverse sono, o sono state, occupate dall’esercito. Esse rivestono un importante ruolo strategico nella difesa di Taiwan, nel mantenimento dei confini marittimi e nella lotta alle attività illecite come il contrabbando. Quelle sotto la giurisdizione militare presentano delle fortificazioni che in alcuni casi sono state cedute alla Guardia Costiera, oppure abbandonate del tutto. Si tratta di un universo affascinante e misterioso, poiché generalmente precluso ai visitatori. Recentemente, una di queste isole è stata aperta al pubblico. Dadan ed Erdan sono due isolotti che si trovano fra l’isola di Kinmen Minore (a circa 6 km) e la costa della Cina continentale. Le due piccole isole non presentano insediamenti urbani, ma soltanto costruzioni militari. Mentre Erdan non è ancora accessibile al pubblico, Dadan offre ai visitatori un’imperdibile occasione per vedere un avamposto fortificato in mezzo al mare che è rimasto pressoché incontaminato dalla civiltà urbana. I due isolotti sono sconosciuti ai più, ma nella memoria della gente della ROC, ed in particolare di Kinmen, essi rievocano un periodo di terrore e privazioni. L’accesso a Dadan è consentito solo durante la bella stagione, per diversi mesi. Per recarvisi, bisogna prendere un traghetto dal porto di Jiugong. L’accesso è consentito a 300 visitatori al giorno, suddivisi in due turni. Ciò per preservare l’ambiente e poter meglio controllare che gli stranieri non combinino guai... La prenotazione va effettuata con largo anticipo in quanto le richieste, almeno fino ad ora, sono davvero tante."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Tutti gli eventi artistici possono fare la tournée mondiale senza problemi.",
     "Le opere d’arte non sono propietà di nessuno, ma di tutta la umanità."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "La bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche nelle forme più elementari di vita. L’uomo ha tentato in tutti i tempi di ispirarsi alla bellezza della natura e della vita, di frasfonderne la perfezione nelle opera delle sue mani. Nacque così l’arte, nelle sue svariate manifestazioni. Musicisti e cantanti, pittori e scultori, architetti e ceramisti, poeti e scrittori, danzatori e attori abbelliscono e arricchiscono la vita. L’arte è, come ogni forma di cultura, senza frontiere. E naturalmente lo afferma p. Gian Carlo Michelini, dal 1964 a Taiwan, dove ha fondato un gruppo giovanile di danza per promuovere l’arte aborigena: “Eravamo pronti a sviluppare un’educazione alla danza che prendesse i migliori elementi culturali, soprattutto quelli appartenenti alle minoranze taiwanesi e aborigene, promuovendoli per un più ampio riconoscimento internazionale della ricchezza di questa bellissima isola”. Nel 1973, il Gruppo di Danza Lanyang è arrivato a Roma, per una performance in Vaticano. Poi ha fatto sette volte il giro del mondo attraverso l’America Latina e gli Stati Uniti, l’Europa e diversi Paesi asiatici. È importante notare, ci racconta il sacerdote: “Attraverso l’arte si possono comunicare i valori umani più importanti. Penso a tutta la tradizione artistica, secolare e religiosa, occidentale e orientale. Fortunatamente non si vive solo di ragionamento e di logica, la bellezza dell’espressione artistica spesso comunica molto di più di un difficile discorso”."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "La cultura occidentale.",
     "La fusione della cultura italiana e quella taiwanese."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "La bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche nelle forme più elementari di vita. L’uomo ha tentato in tutti i tempi di ispirarsi alla bellezza della natura e della vita, di frasfonderne la perfezione nelle opera delle sue mani. Nacque così l’arte, nelle sue svariate manifestazioni. Musicisti e cantanti, pittori e scultori, architetti e ceramisti, poeti e scrittori, danzatori e attori abbelliscono e arricchiscono la vita. L’arte è, come ogni forma di cultura, senza frontiere. E naturalmente lo afferma p. Gian Carlo Michelini, dal 1964 a Taiwan, dove ha fondato un gruppo giovanile di danza per promuovere l’arte aborigena: “Eravamo pronti a sviluppare un’educazione alla danza che prendesse i migliori elementi culturali, soprattutto quelli appartenenti alle minoranze taiwanesi e aborigene, promuovendoli per un più ampio riconoscimento internazionale della ricchezza di questa bellissima isola”. Nel 1973, il Gruppo di Danza Lanyang è arrivato a Roma, per una performance in Vaticano. Poi ha fatto sette volte il giro del mondo attraverso l’America Latina e gli Stati Uniti, l’Europa e diversi Paesi asiatici. È importante notare, ci racconta il sacerdote: “Attraverso l’arte si possono comunicare i valori umani più importanti. Penso a tutta la tradizione artistica, secolare e religiosa, occidentale e orientale. Fortunatamente non si vive solo di ragionamento e di logica, la bellezza dell’espressione artistica spesso comunica molto di più di un difficile discorso”."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Portano la loro arte e la propria cultura nel mondo esponendole agli altri paesi.",
     "Creano la bellezza rendendo il mondo più bello e la vita più ricca."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "La bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche nelle forme più elementari di vita. L’uomo ha tentato in tutti i tempi di ispirarsi alla bellezza della natura e della vita, di frasfonderne la perfezione nelle opera delle sue mani. Nacque così l’arte, nelle sue svariate manifestazioni. Musicisti e cantanti, pittori e scultori, architetti e ceramisti, poeti e scrittori, danzatori e attori abbelliscono e arricchiscono la vita. L’arte è, come ogni forma di cultura, senza frontiere. E naturalmente lo afferma p. Gian Carlo Michelini, dal 1964 a Taiwan, dove ha fondato un gruppo giovanile di danza per promuovere l’arte aborigena: “Eravamo pronti a sviluppare un’educazione alla danza che prendesse i migliori elementi culturali, soprattutto quelli appartenenti alle minoranze taiwanesi e aborigene, promuovendoli per un più ampio riconoscimento internazionale della ricchezza di questa bellissima isola”. Nel 1973, il Gruppo di Danza Lanyang è arrivato a Roma, per una performance in Vaticano. Poi ha fatto sette volte il giro del mondo attraverso l’America Latina e gli Stati Uniti, l’Europa e diversi Paesi asiatici. È importante notare, ci racconta il sacerdote: “Attraverso l’arte si possono comunicare i valori umani più importanti. Penso a tutta la tradizione artistica, secolare e religiosa, occidentale e orientale. Fortunatamente non si vive solo di ragionamento e di logica, la bellezza dell’espressione artistica spesso comunica molto di più di un difficile discorso”."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Il gruppo di danza Lanyang ha contributo a promuovere l’arte aborigenataiwanese nel mondo.",
     "Il gruppo di danza Lanyang gode di una storia centenaria."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "La bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche nelle forme più elementari di vita. L’uomo ha tentato in tutti i tempi di ispirarsi alla bellezza della natura e della vita, di frasfonderne la perfezione nelle opera delle sue mani. Nacque così l’arte, nelle sue svariate manifestazioni. Musicisti e cantanti, pittori e scultori, architetti e ceramisti, poeti e scrittori, danzatori e attori abbelliscono e arricchiscono la vita. L’arte è, come ogni forma di cultura, senza frontiere. E naturalmente lo afferma p. Gian Carlo Michelini, dal 1964 a Taiwan, dove ha fondato un gruppo giovanile di danza per promuovere l’arte aborigena: “Eravamo pronti a sviluppare un’educazione alla danza che prendesse i migliori elementi culturali, soprattutto quelli appartenenti alle minoranze taiwanesi e aborigene, promuovendoli per un più ampio riconoscimento internazionale della ricchezza di questa bellissima isola”. Nel 1973, il Gruppo di Danza Lanyang è arrivato a Roma, per una performance in Vaticano. Poi ha fatto sette volte il giro del mondo attraverso l’America Latina e gli Stati Uniti, l’Europa e diversi Paesi asiatici. È importante notare, ci racconta il sacerdote: “Attraverso l’arte si possono comunicare i valori umani più importanti. Penso a tutta la tradizione artistica, secolare e religiosa, occidentale e orientale. Fortunatamente non si vive solo di ragionamento e di logica, la bellezza dell’espressione artistica spesso comunica molto di più di un difficile discorso”."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d013'] = {
     "Un discorso colloquiale è il modo migliore di comunicare.",
     "L’arte può trasmettere valori importanti ed esprimere la bellezza."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "La bellezza è disseminata in tutto l’universo. Noi troviamo delle meraviglie anche nelle forme più elementari di vita. L’uomo ha tentato in tutti i tempi di ispirarsi alla bellezza della natura e della vita, di frasfonderne la perfezione nelle opera delle sue mani. Nacque così l’arte, nelle sue svariate manifestazioni. Musicisti e cantanti, pittori e scultori, architetti e ceramisti, poeti e scrittori, danzatori e attori abbelliscono e arricchiscono la vita. L’arte è, come ogni forma di cultura, senza frontiere. E naturalmente lo afferma p. Gian Carlo Michelini, dal 1964 a Taiwan, dove ha fondato un gruppo giovanile di danza per promuovere l’arte aborigena: “Eravamo pronti a sviluppare un’educazione alla danza che prendesse i migliori elementi culturali, soprattutto quelli appartenenti alle minoranze taiwanesi e aborigene, promuovendoli per un più ampio riconoscimento internazionale della ricchezza di questa bellissima isola”. Nel 1973, il Gruppo di Danza Lanyang è arrivato a Roma, per una performance in Vaticano. Poi ha fatto sette volte il giro del mondo attraverso l’America Latina e gli Stati Uniti, l’Europa e diversi Paesi asiatici. È importante notare, ci racconta il sacerdote: “Attraverso l’arte si possono comunicare i valori umani più importanti. Penso a tutta la tradizione artistica, secolare e religiosa, occidentale e orientale. Fortunatamente non si vive solo di ragionamento e di logica, la bellezza dell’espressione artistica spesso comunica molto di più di un difficile discorso”."
   }
  ]
 };

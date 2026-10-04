@@ -989,7 +989,7 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "Habrá ido",
     "Hubiera ido",
     "Iría",
-    "Iba¡Japón, qué diferente eres!"
+    "Iba"
    ],
    "a": 0,
    "exp": "✅ (A) 未來完成式可表示對「現在已完成之事」的推測：Habrá ido a hacer la compra（她大概是去買東西了），正好安撫對方「別擔心」。\n❌ (B) hubiera ido 是過去完成虛擬式，用於與事實相反的假設，不用來單獨推測。\n❌ (C) iría 是條件式，表過去的推測或委婉語氣，與「此刻聯絡不上」的現況推斷不合。\n❌ (D) iba 是未完成過去式，陳述過去的進行或習慣，不表推測。\n📚 出處：西班牙語時態（futuro compuesto 表對現在已完成事件的推測）"
@@ -1005,7 +1005,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "Bueno.",
     "Irregular."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "¡Japón, qué diferente eres! Los hábitos alimenticios de los japoneses son muy diferentes a los de los españoles. Los japoneses son personas muy metódicas y suelen comer a la misma hora. Por ejemplo, El desayuno lo toman entre las seis y las siete de la mañana ya que empiezan a trabajar muy temprano y suelen madrugar mucho. Este desayuno incluye el arroz, miso y pescado, entre otros ricos alimentos. Tras el desayuno, llega el almuerzo a eso de las doce de la mañana. El almuerzo puede estar compuesto de cualquier alimento, se realiza frecuentemente dentro del propio lugar y es rápido. Sobre las siete de la tarde llega la cena, que suele realizarse en familia y es la comida principal del día. Este momento es para los japoneses, muy importante y suelen disfrutarlo en compañía. El menú se compone de platos variados, entre los que nunca faltan el arroz y el pescado."
   },
   {
    "n": 72,
@@ -1018,7 +1019,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "El miso.",
     "El arroz."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "¡Japón, qué diferente eres! Los hábitos alimenticios de los japoneses son muy diferentes a los de los españoles. Los japoneses son personas muy metódicas y suelen comer a la misma hora. Por ejemplo, El desayuno lo toman entre las seis y las siete de la mañana ya que empiezan a trabajar muy temprano y suelen madrugar mucho. Este desayuno incluye el arroz, miso y pescado, entre otros ricos alimentos. Tras el desayuno, llega el almuerzo a eso de las doce de la mañana. El almuerzo puede estar compuesto de cualquier alimento, se realiza frecuentemente dentro del propio lugar y es rápido. Sobre las siete de la tarde llega la cena, que suele realizarse en familia y es la comida principal del día. Este momento es para los japoneses, muy importante y suelen disfrutarlo en compañía. El menú se compone de platos variados, entre los que nunca faltan el arroz y el pescado."
   },
   {
    "n": 73,
@@ -1031,7 +1033,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "El almuerzo.",
     "La cena."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "¡Japón, qué diferente eres! Los hábitos alimenticios de los japoneses son muy diferentes a los de los españoles. Los japoneses son personas muy metódicas y suelen comer a la misma hora. Por ejemplo, El desayuno lo toman entre las seis y las siete de la mañana ya que empiezan a trabajar muy temprano y suelen madrugar mucho. Este desayuno incluye el arroz, miso y pescado, entre otros ricos alimentos. Tras el desayuno, llega el almuerzo a eso de las doce de la mañana. El almuerzo puede estar compuesto de cualquier alimento, se realiza frecuentemente dentro del propio lugar y es rápido. Sobre las siete de la tarde llega la cena, que suele realizarse en familia y es la comida principal del día. Este momento es para los japoneses, muy importante y suelen disfrutarlo en compañía. El menú se compone de platos variados, entre los que nunca faltan el arroz y el pescado."
   },
   {
    "n": 74,
@@ -1044,7 +1047,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "Los japoneses se levantan muy temprano.",
     "Los japoneses suelen comer en casa."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "¡Japón, qué diferente eres! Los hábitos alimenticios de los japoneses son muy diferentes a los de los españoles. Los japoneses son personas muy metódicas y suelen comer a la misma hora. Por ejemplo, El desayuno lo toman entre las seis y las siete de la mañana ya que empiezan a trabajar muy temprano y suelen madrugar mucho. Este desayuno incluye el arroz, miso y pescado, entre otros ricos alimentos. Tras el desayuno, llega el almuerzo a eso de las doce de la mañana. El almuerzo puede estar compuesto de cualquier alimento, se realiza frecuentemente dentro del propio lugar y es rápido. Sobre las siete de la tarde llega la cena, que suele realizarse en familia y es la comida principal del día. Este momento es para los japoneses, muy importante y suelen disfrutarlo en compañía. El menú se compone de platos variados, entre los que nunca faltan el arroz y el pescado."
   },
   {
    "n": 75,
@@ -1057,7 +1061,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "El menú del día.",
     "Los hábitos alimenticios."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "¡Japón, qué diferente eres! Los hábitos alimenticios de los japoneses son muy diferentes a los de los españoles. Los japoneses son personas muy metódicas y suelen comer a la misma hora. Por ejemplo, El desayuno lo toman entre las seis y las siete de la mañana ya que empiezan a trabajar muy temprano y suelen madrugar mucho. Este desayuno incluye el arroz, miso y pescado, entre otros ricos alimentos. Tras el desayuno, llega el almuerzo a eso de las doce de la mañana. El almuerzo puede estar compuesto de cualquier alimento, se realiza frecuentemente dentro del propio lugar y es rápido. Sobre las siete de la tarde llega la cena, que suele realizarse en familia y es la comida principal del día. Este momento es para los japoneses, muy importante y suelen disfrutarlo en compañía. El menú se compone de platos variados, entre los que nunca faltan el arroz y el pescado."
   },
   {
    "n": 76,
@@ -1070,7 +1075,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "prestará las obras del artista malagueño a otro museo.",
     "es donde Picasso pintó la mayoría de sus autorretratos."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El Museo Picasso de Barcelona presenta la primera gran antología de retratos del artista malagueño, hechos por él mismo, con la exposición 《Yo Picasso》. Pablo Picasso se autorretrató desde su infancia hasta poco antes de su muerte. Más de ochenta años pintando. El artista escribió: “Yo pinto del mismo modo que otros escriben su autobiografía. Mis cuadros, acabados o no, son las páginas de mi diario, y son igualmente importantes. El futuro escogerá las páginas que prefiera.” Con estas palabras, el artista deja evidente su interés por recoger sus diferentes estados de ánimos y sus etapas biográficas. Los críticos Eduard Vallés e Isabel Cendoya observan que no hay una evolución lineal en el autorretrato picassiano. “La mayor parte de los autorretratos tradicionales fueron hechos antes de 1907”; y en el mismo año, con la obra Las señoritas de Aviñón, inicia una nueva etapa en su pintura, conocida en todo el mundo como el cubismo. En 1945 pintó una cabeza de adolescente; un retrato de su juventud; un ejercicio para volver a su infancia. Sus autorretratos son un gran álbum de su vida personal y artística. Termina esta actividad en 1972 con dos autorretratos sobre la muerte, que, de alguna manera, anuncian la suya, en abril de 1973. Para el espectador será una verdadera sorpresa la despedida de esta gran exposición, con su «Autorretrato» de 1972, hecho con lápices y colores, que pertenece a una colección privada de Tokio."
   },
   {
    "n": 77,
@@ -1083,7 +1089,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "se ven las diversas etapas de su vida.",
     "los críticos dicen que él pinta del mismo modo que otros."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El Museo Picasso de Barcelona presenta la primera gran antología de retratos del artista malagueño, hechos por él mismo, con la exposición 《Yo Picasso》. Pablo Picasso se autorretrató desde su infancia hasta poco antes de su muerte. Más de ochenta años pintando. El artista escribió: “Yo pinto del mismo modo que otros escriben su autobiografía. Mis cuadros, acabados o no, son las páginas de mi diario, y son igualmente importantes. El futuro escogerá las páginas que prefiera.” Con estas palabras, el artista deja evidente su interés por recoger sus diferentes estados de ánimos y sus etapas biográficas. Los críticos Eduard Vallés e Isabel Cendoya observan que no hay una evolución lineal en el autorretrato picassiano. “La mayor parte de los autorretratos tradicionales fueron hechos antes de 1907”; y en el mismo año, con la obra Las señoritas de Aviñón, inicia una nueva etapa en su pintura, conocida en todo el mundo como el cubismo. En 1945 pintó una cabeza de adolescente; un retrato de su juventud; un ejercicio para volver a su infancia. Sus autorretratos son un gran álbum de su vida personal y artística. Termina esta actividad en 1972 con dos autorretratos sobre la muerte, que, de alguna manera, anuncian la suya, en abril de 1973. Para el espectador será una verdadera sorpresa la despedida de esta gran exposición, con su «Autorretrato» de 1972, hecho con lápices y colores, que pertenece a una colección privada de Tokio."
   },
   {
    "n": 78,
@@ -1098,7 +1105,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/106040_405_0410_78.webp"
+   "fig": "img/q/106040_405_0410_78.webp",
+   "psg": "El Museo Picasso de Barcelona presenta la primera gran antología de retratos del artista malagueño, hechos por él mismo, con la exposición 《Yo Picasso》. Pablo Picasso se autorretrató desde su infancia hasta poco antes de su muerte. Más de ochenta años pintando. El artista escribió: “Yo pinto del mismo modo que otros escriben su autobiografía. Mis cuadros, acabados o no, son las páginas de mi diario, y son igualmente importantes. El futuro escogerá las páginas que prefiera.” Con estas palabras, el artista deja evidente su interés por recoger sus diferentes estados de ánimos y sus etapas biográficas. Los críticos Eduard Vallés e Isabel Cendoya observan que no hay una evolución lineal en el autorretrato picassiano. “La mayor parte de los autorretratos tradicionales fueron hechos antes de 1907”; y en el mismo año, con la obra Las señoritas de Aviñón, inicia una nueva etapa en su pintura, conocida en todo el mundo como el cubismo. En 1945 pintó una cabeza de adolescente; un retrato de su juventud; un ejercicio para volver a su infancia. Sus autorretratos son un gran álbum de su vida personal y artística. Termina esta actividad en 1972 con dos autorretratos sobre la muerte, que, de alguna manera, anuncian la suya, en abril de 1973. Para el espectador será una verdadera sorpresa la despedida de esta gran exposición, con su «Autorretrato» de 1972, hecho con lápices y colores, que pertenece a una colección privada de Tokio."
   },
   {
    "n": 79,
@@ -1111,7 +1119,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "empieza a usar nuevos colores en sus autorretratos.",
     "publica un gran álbum de su vida personal y artística."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El Museo Picasso de Barcelona presenta la primera gran antología de retratos del artista malagueño, hechos por él mismo, con la exposición 《Yo Picasso》. Pablo Picasso se autorretrató desde su infancia hasta poco antes de su muerte. Más de ochenta años pintando. El artista escribió: “Yo pinto del mismo modo que otros escriben su autobiografía. Mis cuadros, acabados o no, son las páginas de mi diario, y son igualmente importantes. El futuro escogerá las páginas que prefiera.” Con estas palabras, el artista deja evidente su interés por recoger sus diferentes estados de ánimos y sus etapas biográficas. Los críticos Eduard Vallés e Isabel Cendoya observan que no hay una evolución lineal en el autorretrato picassiano. “La mayor parte de los autorretratos tradicionales fueron hechos antes de 1907”; y en el mismo año, con la obra Las señoritas de Aviñón, inicia una nueva etapa en su pintura, conocida en todo el mundo como el cubismo. En 1945 pintó una cabeza de adolescente; un retrato de su juventud; un ejercicio para volver a su infancia. Sus autorretratos son un gran álbum de su vida personal y artística. Termina esta actividad en 1972 con dos autorretratos sobre la muerte, que, de alguna manera, anuncian la suya, en abril de 1973. Para el espectador será una verdadera sorpresa la despedida de esta gran exposición, con su «Autorretrato» de 1972, hecho con lápices y colores, que pertenece a una colección privada de Tokio."
   },
   {
    "n": 80,
@@ -1124,7 +1133,8 @@ window.APP_EXAM_PAPERS['tou-106-1-d008'] = {
     "utiliza en sus cuadros lápices y colores oscuros.",
     "hace retratos de medio cuerpo a dos personas muertas."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "El Museo Picasso de Barcelona presenta la primera gran antología de retratos del artista malagueño, hechos por él mismo, con la exposición 《Yo Picasso》. Pablo Picasso se autorretrató desde su infancia hasta poco antes de su muerte. Más de ochenta años pintando. El artista escribió: “Yo pinto del mismo modo que otros escriben su autobiografía. Mis cuadros, acabados o no, son las páginas de mi diario, y son igualmente importantes. El futuro escogerá las páginas que prefiera.” Con estas palabras, el artista deja evidente su interés por recoger sus diferentes estados de ánimos y sus etapas biográficas. Los críticos Eduard Vallés e Isabel Cendoya observan que no hay una evolución lineal en el autorretrato picassiano. “La mayor parte de los autorretratos tradicionales fueron hechos antes de 1907”; y en el mismo año, con la obra Las señoritas de Aviñón, inicia una nueva etapa en su pintura, conocida en todo el mundo como el cubismo. En 1945 pintó una cabeza de adolescente; un retrato de su juventud; un ejercicio para volver a su infancia. Sus autorretratos son un gran álbum de su vida personal y artística. Termina esta actividad en 1972 con dos autorretratos sobre la muerte, que, de alguna manera, anuncian la suya, en abril de 1973. Para el espectador será una verdadera sorpresa la despedida de esta gran exposición, con su «Autorretrato» de 1972, hecho con lápices y colores, que pertenece a una colección privada de Tokio."
   }
  ]
 };

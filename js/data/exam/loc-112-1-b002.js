@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['loc-112-1-b002'] = {
     "voyage",
     "volume",
     "flight",
-    "yoga請依下文回答第 41 題至第 45 題：The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding"
+    "yoga"
    ],
    "a": 0,
    "exp": "✅ (A) voyage 意為「航行」，1923 年世界首艘連續環球客輪在完成一百三十天的航程後回到紐約。\n❌ (B) volume 是音量、冊數。\n❌ (C) flight 是飛行，與 cruise ship 不合。\n❌ (D) yoga 是瑜伽。\n📚 出處：英文字彙（voyage 的字義）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['loc-112-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "inspired",
+    "relieved",
+    "survived",
+    "supplied"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112200_401_0206_41.webp"
+   "psg": "The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding regular festivals. Much is known about this worship because many of their temples, together with ritual objects and cult statues, have 41 , and ancient Greek writers described religious rituals 42 making offerings of food and wine. Worshippers hoped that the deities would look kindly on them 43 return, since most gods and goddesses were said to take a keen interest in human affairs. In the mythical great war between Greece and Troy, for example, every stage of the conflict, together with the final outcome, was influenced as much by the actions of the deities 44 by what the men of the two sides actually achieved on the battle field. The myths of Greece also show this 45 between deities and humans in the guise of numerous heroes. Stories of heroes like Heracles and Jason, involving great adventures and journey as far as the Underworld, have been endlessly retold."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "unlike",
+    "such as",
+    "in spite of",
+    "without"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112200_401_0206_42.webp"
+   "psg": "The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding regular festivals. Much is known about this worship because many of their temples, together with ritual objects and cult statues, have 41 , and ancient Greek writers described religious rituals 42 making offerings of food and wine. Worshippers hoped that the deities would look kindly on them 43 return, since most gods and goddesses were said to take a keen interest in human affairs. In the mythical great war between Greece and Troy, for example, every stage of the conflict, together with the final outcome, was influenced as much by the actions of the deities 44 by what the men of the two sides actually achieved on the battle field. The myths of Greece also show this 45 between deities and humans in the guise of numerous heroes. Stories of heroes like Heracles and Jason, involving great adventures and journey as far as the Underworld, have been endlessly retold."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "in",
+    "from",
+    "with",
+    "for"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112200_401_0206_43.webp"
+   "psg": "The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding regular festivals. Much is known about this worship because many of their temples, together with ritual objects and cult statues, have 41 , and ancient Greek writers described religious rituals 42 making offerings of food and wine. Worshippers hoped that the deities would look kindly on them 43 return, since most gods and goddesses were said to take a keen interest in human affairs. In the mythical great war between Greece and Troy, for example, every stage of the conflict, together with the final outcome, was influenced as much by the actions of the deities 44 by what the men of the two sides actually achieved on the battle field. The myths of Greece also show this 45 between deities and humans in the guise of numerous heroes. Stories of heroes like Heracles and Jason, involving great adventures and journey as far as the Underworld, have been endlessly retold."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as",
+    "if",
+    "than",
+    "though"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112200_401_0206_44.webp"
+   "psg": "The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding regular festivals. Much is known about this worship because many of their temples, together with ritual objects and cult statues, have 41 , and ancient Greek writers described religious rituals 42 making offerings of food and wine. Worshippers hoped that the deities would look kindly on them 43 return, since most gods and goddesses were said to take a keen interest in human affairs. In the mythical great war between Greece and Troy, for example, every stage of the conflict, together with the final outcome, was influenced as much by the actions of the deities 44 by what the men of the two sides actually achieved on the battle field. The myths of Greece also show this 45 between deities and humans in the guise of numerous heroes. Stories of heroes like Heracles and Jason, involving great adventures and journey as far as the Underworld, have been endlessly retold."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "transition",
+    "transaction",
+    "interaction",
+    "interference"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112200_401_0206_45.webp"
+   "psg": "The ancient Greeks worshipped their deities by leaving offerings to them in temples, and honored them by holding regular festivals. Much is known about this worship because many of their temples, together with ritual objects and cult statues, have 41 , and ancient Greek writers described religious rituals 42 making offerings of food and wine. Worshippers hoped that the deities would look kindly on them 43 return, since most gods and goddesses were said to take a keen interest in human affairs. In the mythical great war between Greece and Troy, for example, every stage of the conflict, together with the final outcome, was influenced as much by the actions of the deities 44 by what the men of the two sides actually achieved on the battle field. The myths of Greece also show this 45 between deities and humans in the guise of numerous heroes. Stories of heroes like Heracles and Jason, involving great adventures and journey as far as the Underworld, have been endlessly retold."
   },
   {
    "n": 46,

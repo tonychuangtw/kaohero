@@ -646,7 +646,7 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
     "private",
     "desperate",
     "separate",
-    "considerate請依下文回答第 46 題至第 50 題："
+    "considerate"
    ],
    "a": 2,
    "exp": "✅ (C) separate 意為個別的、分開的，指閱讀與日常各用一副眼鏡。\n❌ (A) private 意為私人的。\n❌ (B) desperate 意為絕望的、拚命的。\n❌ (D) considerate 意為體貼的。\n📚 出處：英文字彙。"
@@ -655,76 +655,71 @@ window.APP_EXAM_PAPERS['loc-112-1-c002'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "beast",
+    "breast",
+    "plate",
+    "pasta"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112200_501_0207_46.webp"
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "anniversary",
+    "imagination",
+    "information",
+    "temperature"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112200_501_0207_47.webp"
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "combination",
+    "decision",
+    "prediction",
+    "reservation"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112200_501_0207_48.webp"
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "different",
+    "personal",
+    "available",
+    "important"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112200_501_0207_49.webp"
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "anxious",
+    "colorful",
+    "expensive",
+    "magical"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112200_501_0207_50.webp"
+   "psg": "Chloe and Kevin enjoy going out to Italian restaurants. They love to eat 46 , share a dessert, and have espresso. Chloe and Kevin’s 47 is coming up. Kevin wants to plan a night out at an Italian restaurant in town. He calls the restaurants to make a 48 but they have no tables 49 . Kevin knows that Chloe loves Italian food more than anything else. But the only two Italian places in town are too busy. So, Kevin is now pacing around the house and feeling 50 . He still has no idea where to spend the night."
   }
  ]
 };

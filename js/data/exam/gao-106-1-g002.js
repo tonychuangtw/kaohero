@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-106-1-g002'] = {
     "evacuated",
     "evaluated",
     "substituted",
-    "suspected請依下文回答第 41 題至第 45 題：Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high"
+    "suspected"
    ],
    "a": 0,
    "exp": "✅ (A) evacuate 意為「疏散、撤離」，森林大火使近千人被撤離，五十多棟建物被毀。\n❌ (B) evaluate 是評估，拼字相近但語意不同。\n❌ (C) substitute 是替代。\n❌ (D) suspect 是懷疑。\n📚 出處：英文字彙（evacuate 的字義）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-106-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "taste",
+    "hear",
+    "see",
+    "touch"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106090_201_0210_41.webp"
+   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "call",
+    "lose",
+    "miss",
+    "nose"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106090_201_0210_42.webp"
+   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "discounted",
+    "dedicated",
+    "demanded",
+    "declared"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106090_201_0210_43.webp"
+   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "more",
+    "much",
+    "less",
+    "equally"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106090_201_0210_44.webp"
+   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "vocal",
+    "visual",
+    "receptive",
+    "tactile"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106090_201_0210_45.webp"
+   "psg": "Giant pandas have better ears than people — and polar bears. Researchers found out that pandas can 41 surprisingly high frequencies. The scientists played a range of tones for five zoo pandas trained to 42 a target in response to sound. Training took three to six months for each animal and 43 serious focus and patience, which, according to an expert, was “a lot to ask of a bear.” Both males and females heard into the range of a “silent” ultrasonic dog whistle. Polar bears, the only other bears scientists have tested, are 44 sensitive to sounds at or above 14 kilohertz. Researchers still don’t know why pandas have ultrasonic hearing. The bears are a 45 bunch, but their chirps and other calls have never been recorded at ultrasonic levels. Great hearing may be a holdover from the bears’ ancient past."
   },
   {
    "n": 46,

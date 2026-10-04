@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-114-1-c025'] = {
     "achieved",
     "represented",
     "obtained",
-    "overcame請依下文回答第 41 題至第 45 題In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’"
+    "overcame"
    ],
    "a": 3,
    "exp": "✅ (D) overcome hardship 是「克服困境」的固定搭配，overcame 為過去式；與後半句「不放棄就能成為贏家」相互呼應。\n❌ (A) achieve 是「達成（目標、成就）」，受詞不會是 hardship。\n❌ (B) represent 是「代表、象徵」，放入句中無法說明勵志故事的因果。\n❌ (C) obtain 是「獲得」，獲得困境不合邏輯。\n📚 出處：字彙題—overcome hardship/difficulty 之搭配。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-114-1-c025'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "which",
+    "in which",
+    "in that",
+    "whose"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114060_141_0204_41.webp"
+   "psg": "In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’ impatient attitude. A once-annual event for them to show their professional skills took place again recently, 41 waiters had to race a two-kilometer route while carrying a tray laden with a cup of coffee, a glass of water and a croissant. About 200 of the city’s serving staff put on traditional aprons and white shirts to 42 the revived cafe race. Holding a round tray with a typical French breakfast of a croissant, coffee and a glass of water, they walked briskly for 2km through the streets. The rules were simple: To 43 the race, participants needed to be not only quick but also careful. Any change to the composition of their tray would impact their final score. Once underway, there were inevitable 44 . Water spilled, cups fell. There were gasps, cheers and laughter from the thousands of Parisians watching the return of this classic race. The race was 45 to professionals, apprentices and part-time trainee servers and at the finishing line judges examined the trays to establish if everything had arrived intact. The prize included the glory of being the fastest server in town, as well as a medal and a night’s stay in a chic hotel."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "fight against",
+    "come to terms with",
+    "approve of",
+    "take part in"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_141_0204_42.webp"
+   "psg": "In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’ impatient attitude. A once-annual event for them to show their professional skills took place again recently, 41 waiters had to race a two-kilometer route while carrying a tray laden with a cup of coffee, a glass of water and a croissant. About 200 of the city’s serving staff put on traditional aprons and white shirts to 42 the revived cafe race. Holding a round tray with a typical French breakfast of a croissant, coffee and a glass of water, they walked briskly for 2km through the streets. The rules were simple: To 43 the race, participants needed to be not only quick but also careful. Any change to the composition of their tray would impact their final score. Once underway, there were inevitable 44 . Water spilled, cups fell. There were gasps, cheers and laughter from the thousands of Parisians watching the return of this classic race. The race was 45 to professionals, apprentices and part-time trainee servers and at the finishing line judges examined the trays to establish if everything had arrived intact. The prize included the glory of being the fastest server in town, as well as a medal and a night’s stay in a chic hotel."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "win",
+    "become",
+    "stand out",
+    "get off"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114060_141_0204_43.webp"
+   "psg": "In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’ impatient attitude. A once-annual event for them to show their professional skills took place again recently, 41 waiters had to race a two-kilometer route while carrying a tray laden with a cup of coffee, a glass of water and a croissant. About 200 of the city’s serving staff put on traditional aprons and white shirts to 42 the revived cafe race. Holding a round tray with a typical French breakfast of a croissant, coffee and a glass of water, they walked briskly for 2km through the streets. The rules were simple: To 43 the race, participants needed to be not only quick but also careful. Any change to the composition of their tray would impact their final score. Once underway, there were inevitable 44 . Water spilled, cups fell. There were gasps, cheers and laughter from the thousands of Parisians watching the return of this classic race. The race was 45 to professionals, apprentices and part-time trainee servers and at the finishing line judges examined the trays to establish if everything had arrived intact. The prize included the glory of being the fastest server in town, as well as a medal and a night’s stay in a chic hotel."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "witnesses",
+    "explosives",
+    "tragedies",
+    "offenses"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114060_141_0204_44.webp"
+   "psg": "In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’ impatient attitude. A once-annual event for them to show their professional skills took place again recently, 41 waiters had to race a two-kilometer route while carrying a tray laden with a cup of coffee, a glass of water and a croissant. About 200 of the city’s serving staff put on traditional aprons and white shirts to 42 the revived cafe race. Holding a round tray with a typical French breakfast of a croissant, coffee and a glass of water, they walked briskly for 2km through the streets. The rules were simple: To 43 the race, participants needed to be not only quick but also careful. Any change to the composition of their tray would impact their final score. Once underway, there were inevitable 44 . Water spilled, cups fell. There were gasps, cheers and laughter from the thousands of Parisians watching the return of this classic race. The race was 45 to professionals, apprentices and part-time trainee servers and at the finishing line judges examined the trays to establish if everything had arrived intact. The prize included the glory of being the fastest server in town, as well as a medal and a night’s stay in a chic hotel."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "alien",
+    "prime",
+    "exhausted",
+    "open"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_141_0204_45.webp"
+   "psg": "In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’ impatient attitude. A once-annual event for them to show their professional skills took place again recently, 41 waiters had to race a two-kilometer route while carrying a tray laden with a cup of coffee, a glass of water and a croissant. About 200 of the city’s serving staff put on traditional aprons and white shirts to 42 the revived cafe race. Holding a round tray with a typical French breakfast of a croissant, coffee and a glass of water, they walked briskly for 2km through the streets. The rules were simple: To 43 the race, participants needed to be not only quick but also careful. Any change to the composition of their tray would impact their final score. Once underway, there were inevitable 44 . Water spilled, cups fell. There were gasps, cheers and laughter from the thousands of Parisians watching the return of this classic race. The race was 45 to professionals, apprentices and part-time trainee servers and at the finishing line judges examined the trays to establish if everything had arrived intact. The prize included the glory of being the fastest server in town, as well as a medal and a night’s stay in a chic hotel."
   },
   {
    "n": 46,

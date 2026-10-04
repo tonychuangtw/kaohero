@@ -712,7 +712,7 @@ window.APP_EXAM_PAPERS['pol-110-1-b006'] = {
     "vaccine",
     "accentuation",
     "diagnosis",
-    "infection50720-5112051320-51420請依下文回答第 51 題至第 55 題：Would Covid masks help criminals get away with it? It was the question posed by police,"
+    "infection50720-5112051320-51420"
    ],
    "a": 0,
    "exp": "✅ (A) vaccine 意為「疫苗」，have the COVID-19 vaccine（接種新冠疫苗）能有效建立免疫力以對抗病毒。\n❌ (B) accentuation 意為「強調、突出」，無法作為建立免疫力之醫藥措施。\n❌ (C) diagnosis 意為「診斷」，僅為檢驗疾病狀況之醫療程序，無法主動產生免疫抗體。\n❌ (D) infection 意為「感染」，感染病毒乃病理狀態，出國前不可能被敦促感染疾病。\n📚 出處：公共衛生防疫英語（COVID-19 vaccine 新冠疫苗）。"
@@ -721,76 +721,71 @@ window.APP_EXAM_PAPERS['pol-110-1-b006'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "essential",
+    "memorial",
+    "beneficial",
+    "imperial"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_501_0206_51.webp"
+   "psg": "Would Covid masks help criminals get away with it? It was the question posed by police, academics and many others when face coverings became 51 in shops and other places last year. Now, it seems, they have their answer as Kent police in the UK say catching a person guilty of a crime has become even 52 as putting together an accurate efit (electronic facial identification technique) –which officers use like wanted posters – is difficult when the person 53 is wearing a mask. Susan Morrison, a civil supervisor at Kent police’s identification office, said, “We are seeing an increase in reports of guilty people wearing masks. And while we view each case separately, sometimes it can be more stressful for the victim to go through the process of making an efit, than the result is useful to the investigation.” The phenomenon is 54 limited to the UK. US media outlets have reports on a couple in Connecticut committed a series of crime in a day, during which they are accused of robbing several shops while disguised in medical masks. In order to 55 an increase in mask-assisted crime, professors at Leeds University’s law school warned shop owners to look out for robbers returning for a second bite of the cherry. This is because they know that successful commercial robbers return to the same, nearby or same-type places."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "smoother",
+    "trickier",
+    "clumsier",
+    "guiltier"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_501_0206_52.webp"
+   "psg": "Would Covid masks help criminals get away with it? It was the question posed by police, academics and many others when face coverings became 51 in shops and other places last year. Now, it seems, they have their answer as Kent police in the UK say catching a person guilty of a crime has become even 52 as putting together an accurate efit (electronic facial identification technique) –which officers use like wanted posters – is difficult when the person 53 is wearing a mask. Susan Morrison, a civil supervisor at Kent police’s identification office, said, “We are seeing an increase in reports of guilty people wearing masks. And while we view each case separately, sometimes it can be more stressful for the victim to go through the process of making an efit, than the result is useful to the investigation.” The phenomenon is 54 limited to the UK. US media outlets have reports on a couple in Connecticut committed a series of crime in a day, during which they are accused of robbing several shops while disguised in medical masks. In order to 55 an increase in mask-assisted crime, professors at Leeds University’s law school warned shop owners to look out for robbers returning for a second bite of the cherry. This is because they know that successful commercial robbers return to the same, nearby or same-type places."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "in theory",
+    "in common",
+    "in question",
+    "in general"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110070_501_0206_53.webp"
+   "psg": "Would Covid masks help criminals get away with it? It was the question posed by police, academics and many others when face coverings became 51 in shops and other places last year. Now, it seems, they have their answer as Kent police in the UK say catching a person guilty of a crime has become even 52 as putting together an accurate efit (electronic facial identification technique) –which officers use like wanted posters – is difficult when the person 53 is wearing a mask. Susan Morrison, a civil supervisor at Kent police’s identification office, said, “We are seeing an increase in reports of guilty people wearing masks. And while we view each case separately, sometimes it can be more stressful for the victim to go through the process of making an efit, than the result is useful to the investigation.” The phenomenon is 54 limited to the UK. US media outlets have reports on a couple in Connecticut committed a series of crime in a day, during which they are accused of robbing several shops while disguised in medical masks. In order to 55 an increase in mask-assisted crime, professors at Leeds University’s law school warned shop owners to look out for robbers returning for a second bite of the cherry. This is because they know that successful commercial robbers return to the same, nearby or same-type places."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "from now on",
+    "time and again",
+    "all the way",
+    "by no means"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_501_0206_54.webp"
+   "psg": "Would Covid masks help criminals get away with it? It was the question posed by police, academics and many others when face coverings became 51 in shops and other places last year. Now, it seems, they have their answer as Kent police in the UK say catching a person guilty of a crime has become even 52 as putting together an accurate efit (electronic facial identification technique) –which officers use like wanted posters – is difficult when the person 53 is wearing a mask. Susan Morrison, a civil supervisor at Kent police’s identification office, said, “We are seeing an increase in reports of guilty people wearing masks. And while we view each case separately, sometimes it can be more stressful for the victim to go through the process of making an efit, than the result is useful to the investigation.” The phenomenon is 54 limited to the UK. US media outlets have reports on a couple in Connecticut committed a series of crime in a day, during which they are accused of robbing several shops while disguised in medical masks. In order to 55 an increase in mask-assisted crime, professors at Leeds University’s law school warned shop owners to look out for robbers returning for a second bite of the cherry. This is because they know that successful commercial robbers return to the same, nearby or same-type places."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "cease",
+    "march",
+    "pursue",
+    "obtain"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_501_0206_55.webp"
+   "psg": "Would Covid masks help criminals get away with it? It was the question posed by police, academics and many others when face coverings became 51 in shops and other places last year. Now, it seems, they have their answer as Kent police in the UK say catching a person guilty of a crime has become even 52 as putting together an accurate efit (electronic facial identification technique) –which officers use like wanted posters – is difficult when the person 53 is wearing a mask. Susan Morrison, a civil supervisor at Kent police’s identification office, said, “We are seeing an increase in reports of guilty people wearing masks. And while we view each case separately, sometimes it can be more stressful for the victim to go through the process of making an efit, than the result is useful to the investigation.” The phenomenon is 54 limited to the UK. US media outlets have reports on a couple in Connecticut committed a series of crime in a day, during which they are accused of robbing several shops while disguised in medical masks. In order to 55 an increase in mask-assisted crime, professors at Leeds University’s law school warned shop owners to look out for robbers returning for a second bite of the cherry. This is because they know that successful commercial robbers return to the same, nearby or same-type places."
   },
   {
    "n": 56,

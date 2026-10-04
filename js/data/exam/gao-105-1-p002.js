@@ -514,7 +514,7 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
     "chagrin",
     "gusto",
     "penchant",
-    "virtuosity請依下文回答第 37 題至第 40 題"
+    "virtuosity"
    ],
    "a": 3,
    "exp": "✅ (D) virtuosity 意為「精湛的技藝」，貝尼尼雖生於文藝復興晚期，仍具有可與達文西、米開朗基羅相比的高超技藝。\n❌ (A) chagrin 是懊惱。\n❌ (B) gusto 是興致、熱情。\n❌ (C) penchant 是嗜好、偏好。\n📚 出處：英文字彙（virtuosity 的字義）"
@@ -523,61 +523,57 @@ window.APP_EXAM_PAPERS['gao-105-1-p002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "unexplainable",
+    "obvious",
+    "reasonable",
+    "persuasive"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105080_401_0216_37.webp"
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "inevitable",
+    "suspicious",
+    "traumatic",
+    "artificial"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105080_401_0216_38.webp"
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "observation",
+    "depression",
+    "compassion",
+    "appreciation"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105080_401_0216_39.webp"
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "alleviate",
+    "accelerate",
+    "elaborate",
+    "substantiate"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105080_401_0216_40.webp"
+   "psg": "The loss of a child through “sudden infant death syndrome,” also known as SIDS or crib death—the sudden and 37 death of an apparently healthy, sleeping infant—is an especially 38 experience. Parents often develop feelings of guilt and 39 , thinking that they somehow caused the child’s death. To 40 such feelings, organizations have been established to help parents accept the fact that they did not cause the death."
   },
   {
    "n": 41,

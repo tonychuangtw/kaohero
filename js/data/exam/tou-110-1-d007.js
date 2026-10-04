@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "älteste",
     "größte"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Tainan Tainan, die ehemalige Hauptstadt Taiwans, liegt in den südwestlichen Küstenebenen der Insel und genießt das ganze Jahr über ein warmes Klima. Tainan ist die Geburtsstadt Taiwans und die 71 Stadt der Insel. Im Jahr 1661 vertrieb der Ming-Anhänger Cheng Cheng-kung die Niederländer aus Taiwan und richtete seine Verwaltung in Tainan ein. Zu dieser Zeit kamen scharenweise chinesische Einwanderer vom Festland nach Taiwan und halfen der jungen Stadt zu wachsen. Tainan blieb bis zum Ende des neunzehnten Jahrhunderts das politische, wirtschaftliche und kulturelle 72 Taiwans. Infolgedessen ist Tainan die Heimat vieler berühmter historischer Stätten. Tainan ist auch die Stadt mit der längsten Geschichte und den frühesten kulturellen 73 Taiwans. Zusätzlich zu seinen historischen und kulturellen Attraktionen bietet Tainan eine atemberaubende Naturlandschaft und bekannte Landwirtschafts- und Fischereiprodukte und Küche. Im Frühling findet in der Taiwan Orchid Plantation des Landkreises Houbi die Taiwan International Orchid Show statt, die die Orchideen des frühen Frühlings in ihrer ganzen Schönheit und ihrem Charme präsentiert. Jedes Jahr am 15. Tag des ersten Mondmonats lockt das spektakuläre Yanshui Beehive Rockets Festival Scharen von Besuchern aus ganz Taiwan und der Welt nach Tainan. Und für einen lehrreichen Familienspaß im Sommer können Besucher zwischen Glühwürmchenbeobachtung in Meiling, Lotusbeobachtung in Baihe und Aktivitäten im Qigu Mangrove Tourist Park wählen. Wenn es im Herbst kühler wird, können die Besucher nach Dongshan fahren, um den duftenden, vor Ort angebauten Arabica-Kaffee zu probieren. Und im Winter kann man sich in den Schlammquellen von Guanziling entspannen."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "Mittelpunkt",
     "Vordergrund"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tainan Tainan, die ehemalige Hauptstadt Taiwans, liegt in den südwestlichen Küstenebenen der Insel und genießt das ganze Jahr über ein warmes Klima. Tainan ist die Geburtsstadt Taiwans und die 71 Stadt der Insel. Im Jahr 1661 vertrieb der Ming-Anhänger Cheng Cheng-kung die Niederländer aus Taiwan und richtete seine Verwaltung in Tainan ein. Zu dieser Zeit kamen scharenweise chinesische Einwanderer vom Festland nach Taiwan und halfen der jungen Stadt zu wachsen. Tainan blieb bis zum Ende des neunzehnten Jahrhunderts das politische, wirtschaftliche und kulturelle 72 Taiwans. Infolgedessen ist Tainan die Heimat vieler berühmter historischer Stätten. Tainan ist auch die Stadt mit der längsten Geschichte und den frühesten kulturellen 73 Taiwans. Zusätzlich zu seinen historischen und kulturellen Attraktionen bietet Tainan eine atemberaubende Naturlandschaft und bekannte Landwirtschafts- und Fischereiprodukte und Küche. Im Frühling findet in der Taiwan Orchid Plantation des Landkreises Houbi die Taiwan International Orchid Show statt, die die Orchideen des frühen Frühlings in ihrer ganzen Schönheit und ihrem Charme präsentiert. Jedes Jahr am 15. Tag des ersten Mondmonats lockt das spektakuläre Yanshui Beehive Rockets Festival Scharen von Besuchern aus ganz Taiwan und der Welt nach Tainan. Und für einen lehrreichen Familienspaß im Sommer können Besucher zwischen Glühwürmchenbeobachtung in Meiling, Lotusbeobachtung in Baihe und Aktivitäten im Qigu Mangrove Tourist Park wählen. Wenn es im Herbst kühler wird, können die Besucher nach Dongshan fahren, um den duftenden, vor Ort angebauten Arabica-Kaffee zu probieren. Und im Winter kann man sich in den Schlammquellen von Guanziling entspannen."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "Boden",
     "Wurzeln"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Tainan Tainan, die ehemalige Hauptstadt Taiwans, liegt in den südwestlichen Küstenebenen der Insel und genießt das ganze Jahr über ein warmes Klima. Tainan ist die Geburtsstadt Taiwans und die 71 Stadt der Insel. Im Jahr 1661 vertrieb der Ming-Anhänger Cheng Cheng-kung die Niederländer aus Taiwan und richtete seine Verwaltung in Tainan ein. Zu dieser Zeit kamen scharenweise chinesische Einwanderer vom Festland nach Taiwan und halfen der jungen Stadt zu wachsen. Tainan blieb bis zum Ende des neunzehnten Jahrhunderts das politische, wirtschaftliche und kulturelle 72 Taiwans. Infolgedessen ist Tainan die Heimat vieler berühmter historischer Stätten. Tainan ist auch die Stadt mit der längsten Geschichte und den frühesten kulturellen 73 Taiwans. Zusätzlich zu seinen historischen und kulturellen Attraktionen bietet Tainan eine atemberaubende Naturlandschaft und bekannte Landwirtschafts- und Fischereiprodukte und Küche. Im Frühling findet in der Taiwan Orchid Plantation des Landkreises Houbi die Taiwan International Orchid Show statt, die die Orchideen des frühen Frühlings in ihrer ganzen Schönheit und ihrem Charme präsentiert. Jedes Jahr am 15. Tag des ersten Mondmonats lockt das spektakuläre Yanshui Beehive Rockets Festival Scharen von Besuchern aus ganz Taiwan und der Welt nach Tainan. Und für einen lehrreichen Familienspaß im Sommer können Besucher zwischen Glühwürmchenbeobachtung in Meiling, Lotusbeobachtung in Baihe und Aktivitäten im Qigu Mangrove Tourist Park wählen. Wenn es im Herbst kühler wird, können die Besucher nach Dongshan fahren, um den duftenden, vor Ort angebauten Arabica-Kaffee zu probieren. Und im Winter kann man sich in den Schlammquellen von Guanziling entspannen."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "In Dongshan",
     "In Houbi"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Tainan Tainan, die ehemalige Hauptstadt Taiwans, liegt in den südwestlichen Küstenebenen der Insel und genießt das ganze Jahr über ein warmes Klima. Tainan ist die Geburtsstadt Taiwans und die 71 Stadt der Insel. Im Jahr 1661 vertrieb der Ming-Anhänger Cheng Cheng-kung die Niederländer aus Taiwan und richtete seine Verwaltung in Tainan ein. Zu dieser Zeit kamen scharenweise chinesische Einwanderer vom Festland nach Taiwan und halfen der jungen Stadt zu wachsen. Tainan blieb bis zum Ende des neunzehnten Jahrhunderts das politische, wirtschaftliche und kulturelle 72 Taiwans. Infolgedessen ist Tainan die Heimat vieler berühmter historischer Stätten. Tainan ist auch die Stadt mit der längsten Geschichte und den frühesten kulturellen 73 Taiwans. Zusätzlich zu seinen historischen und kulturellen Attraktionen bietet Tainan eine atemberaubende Naturlandschaft und bekannte Landwirtschafts- und Fischereiprodukte und Küche. Im Frühling findet in der Taiwan Orchid Plantation des Landkreises Houbi die Taiwan International Orchid Show statt, die die Orchideen des frühen Frühlings in ihrer ganzen Schönheit und ihrem Charme präsentiert. Jedes Jahr am 15. Tag des ersten Mondmonats lockt das spektakuläre Yanshui Beehive Rockets Festival Scharen von Besuchern aus ganz Taiwan und der Welt nach Tainan. Und für einen lehrreichen Familienspaß im Sommer können Besucher zwischen Glühwürmchenbeobachtung in Meiling, Lotusbeobachtung in Baihe und Aktivitäten im Qigu Mangrove Tourist Park wählen. Wenn es im Herbst kühler wird, können die Besucher nach Dongshan fahren, um den duftenden, vor Ort angebauten Arabica-Kaffee zu probieren. Und im Winter kann man sich in den Schlammquellen von Guanziling entspannen."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "Im Frühling kann man in Houbi schöne Orchideen sehen.",
     "Das Yanshui Beehive Rockets Festival findet jedes Jahr am 15. Juli statt.",
     "Im Sommer können Familien in Meiling Glühwürmchen beobachten.",
-    "Im Winter kann man die Schlammquellen von Guanziling genießen.Beliebte Mitbringsel aus Taiwan"
+    "Im Winter kann man die Schlammquellen von Guanziling genießen."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Tainan Tainan, die ehemalige Hauptstadt Taiwans, liegt in den südwestlichen Küstenebenen der Insel und genießt das ganze Jahr über ein warmes Klima. Tainan ist die Geburtsstadt Taiwans und die 71 Stadt der Insel. Im Jahr 1661 vertrieb der Ming-Anhänger Cheng Cheng-kung die Niederländer aus Taiwan und richtete seine Verwaltung in Tainan ein. Zu dieser Zeit kamen scharenweise chinesische Einwanderer vom Festland nach Taiwan und halfen der jungen Stadt zu wachsen. Tainan blieb bis zum Ende des neunzehnten Jahrhunderts das politische, wirtschaftliche und kulturelle 72 Taiwans. Infolgedessen ist Tainan die Heimat vieler berühmter historischer Stätten. Tainan ist auch die Stadt mit der längsten Geschichte und den frühesten kulturellen 73 Taiwans. Zusätzlich zu seinen historischen und kulturellen Attraktionen bietet Tainan eine atemberaubende Naturlandschaft und bekannte Landwirtschafts- und Fischereiprodukte und Küche. Im Frühling findet in der Taiwan Orchid Plantation des Landkreises Houbi die Taiwan International Orchid Show statt, die die Orchideen des frühen Frühlings in ihrer ganzen Schönheit und ihrem Charme präsentiert. Jedes Jahr am 15. Tag des ersten Mondmonats lockt das spektakuläre Yanshui Beehive Rockets Festival Scharen von Besuchern aus ganz Taiwan und der Welt nach Tainan. Und für einen lehrreichen Familienspaß im Sommer können Besucher zwischen Glühwürmchenbeobachtung in Meiling, Lotusbeobachtung in Baihe und Aktivitäten im Qigu Mangrove Tourist Park wählen. Wenn es im Herbst kühler wird, können die Besucher nach Dongshan fahren, um den duftenden, vor Ort angebauten Arabica-Kaffee zu probieren. Und im Winter kann man sich in den Schlammquellen von Guanziling entspannen."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "in der",
     "in dem"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Beliebte Mitbringsel aus Taiwan Ananaskuchen sind in Taiwan sehr beliebt und haben eine knusprige Kruste aus Blätterteig, 76 die Frucht mit dem intensiven und süßen Geschmack eingehüllt ist. Ananaskuchen werden in Lebensmittel- Geschäften auf der ganzen Insel verkauft. Die Mehrzahl dieser feinen Küchlein wird in der Regel von der Li Hu Bäckerei in der Stadt Keelung hergestellt. Der in Taiwan häufige Hochnebel, die 77 Temperaturen, das schwüle Klima und das hügelige Terrain bieten perfekte Bedingungen für den Teeanbau. Und tatsächlich, die hervorragenden Teesorten aus Taiwan werden in der ganzen Welt geschätzt. Viele verschiedene Teesorten werden in Taiwan angebaut, und sie alle sind bekannt für ihr volles Aroma und den reinen, frischen Geschmack. Es gibt vier Hauptsorten: den Wenshan Pouchong, den Dongding Oolong, den Pekoe Oolong und den Tie Kuanyin. Tee können Sie in Taiwan überall kaufen: direkt im Anbaugebiet des Tees, in Teegeschäften, in Kaufhäusern und im Supermarkt. In Taiwan erntet man das ganze Jahr hindurch Mangos, Pflaumen, Ananas und noch viele andere Arten von frischen Früchten. Nach dem Säubern mit Salz und dem Fermentieren in Zucker werden die Früchte in einer besonderen Gewürzmischung von salzigem, süßem und saurem Geschmack zu mehr als hundert Arten von kandierten Früchten 78 . Die kandierten Früchte bester Qualität kommen aus dem Gebiet um Yilan an der Nord-Ost-Küste."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "hohen",
     "hohe"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Beliebte Mitbringsel aus Taiwan Ananaskuchen sind in Taiwan sehr beliebt und haben eine knusprige Kruste aus Blätterteig, 76 die Frucht mit dem intensiven und süßen Geschmack eingehüllt ist. Ananaskuchen werden in Lebensmittel- Geschäften auf der ganzen Insel verkauft. Die Mehrzahl dieser feinen Küchlein wird in der Regel von der Li Hu Bäckerei in der Stadt Keelung hergestellt. Der in Taiwan häufige Hochnebel, die 77 Temperaturen, das schwüle Klima und das hügelige Terrain bieten perfekte Bedingungen für den Teeanbau. Und tatsächlich, die hervorragenden Teesorten aus Taiwan werden in der ganzen Welt geschätzt. Viele verschiedene Teesorten werden in Taiwan angebaut, und sie alle sind bekannt für ihr volles Aroma und den reinen, frischen Geschmack. Es gibt vier Hauptsorten: den Wenshan Pouchong, den Dongding Oolong, den Pekoe Oolong und den Tie Kuanyin. Tee können Sie in Taiwan überall kaufen: direkt im Anbaugebiet des Tees, in Teegeschäften, in Kaufhäusern und im Supermarkt. In Taiwan erntet man das ganze Jahr hindurch Mangos, Pflaumen, Ananas und noch viele andere Arten von frischen Früchten. Nach dem Säubern mit Salz und dem Fermentieren in Zucker werden die Früchte in einer besonderen Gewürzmischung von salzigem, süßem und saurem Geschmack zu mehr als hundert Arten von kandierten Früchten 78 . Die kandierten Früchte bester Qualität kommen aus dem Gebiet um Yilan an der Nord-Ost-Küste."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "verkauft",
     "verwendet"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Beliebte Mitbringsel aus Taiwan Ananaskuchen sind in Taiwan sehr beliebt und haben eine knusprige Kruste aus Blätterteig, 76 die Frucht mit dem intensiven und süßen Geschmack eingehüllt ist. Ananaskuchen werden in Lebensmittel- Geschäften auf der ganzen Insel verkauft. Die Mehrzahl dieser feinen Küchlein wird in der Regel von der Li Hu Bäckerei in der Stadt Keelung hergestellt. Der in Taiwan häufige Hochnebel, die 77 Temperaturen, das schwüle Klima und das hügelige Terrain bieten perfekte Bedingungen für den Teeanbau. Und tatsächlich, die hervorragenden Teesorten aus Taiwan werden in der ganzen Welt geschätzt. Viele verschiedene Teesorten werden in Taiwan angebaut, und sie alle sind bekannt für ihr volles Aroma und den reinen, frischen Geschmack. Es gibt vier Hauptsorten: den Wenshan Pouchong, den Dongding Oolong, den Pekoe Oolong und den Tie Kuanyin. Tee können Sie in Taiwan überall kaufen: direkt im Anbaugebiet des Tees, in Teegeschäften, in Kaufhäusern und im Supermarkt. In Taiwan erntet man das ganze Jahr hindurch Mangos, Pflaumen, Ananas und noch viele andere Arten von frischen Früchten. Nach dem Säubern mit Salz und dem Fermentieren in Zucker werden die Früchte in einer besonderen Gewürzmischung von salzigem, süßem und saurem Geschmack zu mehr als hundert Arten von kandierten Früchten 78 . Die kandierten Früchte bester Qualität kommen aus dem Gebiet um Yilan an der Nord-Ost-Küste."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "Grüner Tee",
     "Kandierte Früchte"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Beliebte Mitbringsel aus Taiwan Ananaskuchen sind in Taiwan sehr beliebt und haben eine knusprige Kruste aus Blätterteig, 76 die Frucht mit dem intensiven und süßen Geschmack eingehüllt ist. Ananaskuchen werden in Lebensmittel- Geschäften auf der ganzen Insel verkauft. Die Mehrzahl dieser feinen Küchlein wird in der Regel von der Li Hu Bäckerei in der Stadt Keelung hergestellt. Der in Taiwan häufige Hochnebel, die 77 Temperaturen, das schwüle Klima und das hügelige Terrain bieten perfekte Bedingungen für den Teeanbau. Und tatsächlich, die hervorragenden Teesorten aus Taiwan werden in der ganzen Welt geschätzt. Viele verschiedene Teesorten werden in Taiwan angebaut, und sie alle sind bekannt für ihr volles Aroma und den reinen, frischen Geschmack. Es gibt vier Hauptsorten: den Wenshan Pouchong, den Dongding Oolong, den Pekoe Oolong und den Tie Kuanyin. Tee können Sie in Taiwan überall kaufen: direkt im Anbaugebiet des Tees, in Teegeschäften, in Kaufhäusern und im Supermarkt. In Taiwan erntet man das ganze Jahr hindurch Mangos, Pflaumen, Ananas und noch viele andere Arten von frischen Früchten. Nach dem Säubern mit Salz und dem Fermentieren in Zucker werden die Früchte in einer besonderen Gewürzmischung von salzigem, süßem und saurem Geschmack zu mehr als hundert Arten von kandierten Früchten 78 . Die kandierten Früchte bester Qualität kommen aus dem Gebiet um Yilan an der Nord-Ost-Küste."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d007'] = {
     "Es gibt mehr als hundert Arten von kandierten Früchten. Die kandierten Früchte aus dem Gebietum Yilan sind besonders gut.",
     "Die meistverkauften Ananaskuchen werden von der Li Hu Bäckerei in Keelung produziert."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Beliebte Mitbringsel aus Taiwan Ananaskuchen sind in Taiwan sehr beliebt und haben eine knusprige Kruste aus Blätterteig, 76 die Frucht mit dem intensiven und süßen Geschmack eingehüllt ist. Ananaskuchen werden in Lebensmittel- Geschäften auf der ganzen Insel verkauft. Die Mehrzahl dieser feinen Küchlein wird in der Regel von der Li Hu Bäckerei in der Stadt Keelung hergestellt. Der in Taiwan häufige Hochnebel, die 77 Temperaturen, das schwüle Klima und das hügelige Terrain bieten perfekte Bedingungen für den Teeanbau. Und tatsächlich, die hervorragenden Teesorten aus Taiwan werden in der ganzen Welt geschätzt. Viele verschiedene Teesorten werden in Taiwan angebaut, und sie alle sind bekannt für ihr volles Aroma und den reinen, frischen Geschmack. Es gibt vier Hauptsorten: den Wenshan Pouchong, den Dongding Oolong, den Pekoe Oolong und den Tie Kuanyin. Tee können Sie in Taiwan überall kaufen: direkt im Anbaugebiet des Tees, in Teegeschäften, in Kaufhäusern und im Supermarkt. In Taiwan erntet man das ganze Jahr hindurch Mangos, Pflaumen, Ananas und noch viele andere Arten von frischen Früchten. Nach dem Säubern mit Salz und dem Fermentieren in Zucker werden die Früchte in einer besonderen Gewürzmischung von salzigem, süßem und saurem Geschmack zu mehr als hundert Arten von kandierten Früchten 78 . Die kandierten Früchte bester Qualität kommen aus dem Gebiet um Yilan an der Nord-Ost-Küste."
   }
  ]
 };

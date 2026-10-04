@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['chu-106-1-e006'] = {
     "gradually",
     "properly",
     "suddenly",
-    "temporarily第 41 題至第 45 題，請依文意，從四個選項中選出最合適者It is vital that parents recognize the strong influence they ＿＿＿ 41 on their children’s educational decisions and"
+    "temporarily"
    ],
    "a": 0,
    "exp": "✅ (A) 歷經數百萬年的演化而「逐漸（gradually）」失去飛行能力，與時間跨度相符。\n❌ (B) properly 意為適當地。\n❌ (C) suddenly 與「數百萬年」的時間尺度矛盾。\n❌ (D) temporarily 意為暫時地，與演化結果不符。\n📚 出處：英文字彙（副詞與語境的搭配）"
@@ -595,46 +595,43 @@ window.APP_EXAM_PAPERS['chu-106-1-e006'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "be",
+    "been",
+    "being",
+    "to be"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106010_502_0104_42.webp"
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "He",
+    "What",
+    "It",
+    "Which"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106010_502_0104_43.webp"
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "are concerned about",
+    "have the idea",
+    "get the opinions",
+    "are in the mood"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106010_502_0104_44.webp"
+   "psg": "It is vital that parents recognize the strong influence they 41 on their children’s educational decisions and career paths. The most significant factors appear 42 the size of the family, parenting style, and the attitudes parents have about work in general. 43 is essential for parents to recognize that the long, ever-changing process of career choice begins when children are still young. Educators 44 parents who are not aware of the importance of their 45 , positive or negative, influence on their children."
   },
   {
    "n": 45,

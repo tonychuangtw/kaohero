@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
     "gewichten",
     "genießen",
     "gewachsen",
-    "getragenPenghu – eine Pere in der Straße von Taiwan"
+    "getragen"
    ],
    "a": 1,
    "exp": "✅ (B) 「einen (guten) Ruf genießen」為德語固定名詞動詞組合（Nomen-Verb-Verbindung），意為「享有（良好）聲譽」，完全符合臺灣晶片享譽全球的語意。\n❌ (A) 「gewichten」意為加權、評估權重，無法與名詞「Ruf」搭配。\n❌ (C) 「gewachsen」為動詞 wachsen 之過去分詞或形容詞，文法結構與語意皆不符。\n❌ (D) 「getragen」為動詞 tragen 之過去分詞，不能與「einen Ruf」搭配（選項後段文字為轉檔時附帶之排版標題）。\n📚 出處：德語名詞動詞搭配（Nomen-Verb-Verbindung）：einen guten Ruf genießen"
@@ -999,46 +999,43 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
    "n": 71,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 71 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "von",
+    "mit",
+    "zusammen",
+    "darunter"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_71.webp"
+   "psg": "Penghu – eine Pere in der Straße von Taiwan Westlich von Taiwan befindet sich ein Archipel von rund 90 kleinen Inseln, die 71 den Landkreis Penghu bilden. Der früher Pescadoren genannte Penghu-Archipel, genau in der Mitte zwischen Taiwan und Festlandchina in der Taiwan-Straße, erstreckt sich über eine Länge von 60 km und eine Breite von 22 km. Penghu ist auch unter dem Namen Pescadoren bekannt, den es aus der Zeit der portugiesischen Seefahrer um das Jahr 1583 erhalten hat. Besuchen kann man die Inselgrupp ausschließlich per Flugzeug oder Fähre. Die Hauptstadt heißt Magong und ist nach der Göttin Mazu benannt. Die einzelnen Inseln sind durch Brücken miteinander 72 , es gibt aber auch Teile von Penghu, die man nur mit dem Boot erreicht. Die bekannteste Brücke, ist die ca. 2,5 Kilometer lange Große Brücke von Penghu. Die Pescadoren sind ein besonders 73 Reiseziel, denn die Insel lädt mit ihren zahlreichen Sehenswürdigkeiten und historischen Städten, die zum Teil noch aus der Qing-Dynastie stammen, zum Erkunden ein. Besonders berühmt ist die alte Stadtmauer von Magong und das Militärdorf Duxingshi, das heute ein Museum ist. Bei einer Rundfahrt über die Inseln kann man auch die südlichen und östlichen Forts, die atemberaubende Landschaft der Basaltsteinküste und den großen Banjan-Baum im Ort Tongliang bewundern. Eine besondere Spezialität ist sonnengetrockneter Tintenfisch, der überall auf den Inseln angeboten wird."
   },
   {
    "n": 72,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 72 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "getrennt",
+    "verbunden",
+    "geteilt",
+    "versichert"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_72.webp"
+   "psg": "Penghu – eine Pere in der Straße von Taiwan Westlich von Taiwan befindet sich ein Archipel von rund 90 kleinen Inseln, die 71 den Landkreis Penghu bilden. Der früher Pescadoren genannte Penghu-Archipel, genau in der Mitte zwischen Taiwan und Festlandchina in der Taiwan-Straße, erstreckt sich über eine Länge von 60 km und eine Breite von 22 km. Penghu ist auch unter dem Namen Pescadoren bekannt, den es aus der Zeit der portugiesischen Seefahrer um das Jahr 1583 erhalten hat. Besuchen kann man die Inselgrupp ausschließlich per Flugzeug oder Fähre. Die Hauptstadt heißt Magong und ist nach der Göttin Mazu benannt. Die einzelnen Inseln sind durch Brücken miteinander 72 , es gibt aber auch Teile von Penghu, die man nur mit dem Boot erreicht. Die bekannteste Brücke, ist die ca. 2,5 Kilometer lange Große Brücke von Penghu. Die Pescadoren sind ein besonders 73 Reiseziel, denn die Insel lädt mit ihren zahlreichen Sehenswürdigkeiten und historischen Städten, die zum Teil noch aus der Qing-Dynastie stammen, zum Erkunden ein. Besonders berühmt ist die alte Stadtmauer von Magong und das Militärdorf Duxingshi, das heute ein Museum ist. Bei einer Rundfahrt über die Inseln kann man auch die südlichen und östlichen Forts, die atemberaubende Landschaft der Basaltsteinküste und den großen Banjan-Baum im Ort Tongliang bewundern. Eine besondere Spezialität ist sonnengetrockneter Tintenfisch, der überall auf den Inseln angeboten wird."
   },
   {
    "n": 73,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 73 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "beliebtes",
+    "furchtbares",
+    "gefährliches",
+    "unsicheres"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_73.webp"
+   "psg": "Penghu – eine Pere in der Straße von Taiwan Westlich von Taiwan befindet sich ein Archipel von rund 90 kleinen Inseln, die 71 den Landkreis Penghu bilden. Der früher Pescadoren genannte Penghu-Archipel, genau in der Mitte zwischen Taiwan und Festlandchina in der Taiwan-Straße, erstreckt sich über eine Länge von 60 km und eine Breite von 22 km. Penghu ist auch unter dem Namen Pescadoren bekannt, den es aus der Zeit der portugiesischen Seefahrer um das Jahr 1583 erhalten hat. Besuchen kann man die Inselgrupp ausschließlich per Flugzeug oder Fähre. Die Hauptstadt heißt Magong und ist nach der Göttin Mazu benannt. Die einzelnen Inseln sind durch Brücken miteinander 72 , es gibt aber auch Teile von Penghu, die man nur mit dem Boot erreicht. Die bekannteste Brücke, ist die ca. 2,5 Kilometer lange Große Brücke von Penghu. Die Pescadoren sind ein besonders 73 Reiseziel, denn die Insel lädt mit ihren zahlreichen Sehenswürdigkeiten und historischen Städten, die zum Teil noch aus der Qing-Dynastie stammen, zum Erkunden ein. Besonders berühmt ist die alte Stadtmauer von Magong und das Militärdorf Duxingshi, das heute ein Museum ist. Bei einer Rundfahrt über die Inseln kann man auch die südlichen und östlichen Forts, die atemberaubende Landschaft der Basaltsteinküste und den großen Banjan-Baum im Ort Tongliang bewundern. Eine besondere Spezialität ist sonnengetrockneter Tintenfisch, der überall auf den Inseln angeboten wird."
   },
   {
    "n": 74,
@@ -1051,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
     "Die schöne Landschaft",
     "Das jährliche Autorennen über die Insel"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Penghu – eine Pere in der Straße von Taiwan Westlich von Taiwan befindet sich ein Archipel von rund 90 kleinen Inseln, die 71 den Landkreis Penghu bilden. Der früher Pescadoren genannte Penghu-Archipel, genau in der Mitte zwischen Taiwan und Festlandchina in der Taiwan-Straße, erstreckt sich über eine Länge von 60 km und eine Breite von 22 km. Penghu ist auch unter dem Namen Pescadoren bekannt, den es aus der Zeit der portugiesischen Seefahrer um das Jahr 1583 erhalten hat. Besuchen kann man die Inselgrupp ausschließlich per Flugzeug oder Fähre. Die Hauptstadt heißt Magong und ist nach der Göttin Mazu benannt. Die einzelnen Inseln sind durch Brücken miteinander 72 , es gibt aber auch Teile von Penghu, die man nur mit dem Boot erreicht. Die bekannteste Brücke, ist die ca. 2,5 Kilometer lange Große Brücke von Penghu. Die Pescadoren sind ein besonders 73 Reiseziel, denn die Insel lädt mit ihren zahlreichen Sehenswürdigkeiten und historischen Städten, die zum Teil noch aus der Qing-Dynastie stammen, zum Erkunden ein. Besonders berühmt ist die alte Stadtmauer von Magong und das Militärdorf Duxingshi, das heute ein Museum ist. Bei einer Rundfahrt über die Inseln kann man auch die südlichen und östlichen Forts, die atemberaubende Landschaft der Basaltsteinküste und den großen Banjan-Baum im Ort Tongliang bewundern. Eine besondere Spezialität ist sonnengetrockneter Tintenfisch, der überall auf den Inseln angeboten wird."
   },
   {
    "n": 75,
@@ -1062,54 +1060,52 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
     "Man kann Penghu nicht nur mit dem Flugzeug, sondern auch mit dem Auto besuchen?",
     "Die meisten Inselteile sind durch Brücken miteinander verbunden, einige Inseln lassen sich abernur mit dem Boot erreichen.",
     "Die Inseln von Penghu werden auch Pescadoren genannt, wegen der Holländischen Seefahrer,die einst dort angesiedelt waren.",
-    "Der große Banjan-Baum ist eine der Hauptattraktionen der Stadt Magong. Er steht dort mittenauf dem Hauptplatz des Militärdorfes Duxingshi.Guishan Dao–Von Vulkanen und Schildkröten"
+    "Der große Banjan-Baum ist eine der Hauptattraktionen der Stadt Magong. Er steht dort mitten"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Penghu – eine Pere in der Straße von Taiwan Westlich von Taiwan befindet sich ein Archipel von rund 90 kleinen Inseln, die 71 den Landkreis Penghu bilden. Der früher Pescadoren genannte Penghu-Archipel, genau in der Mitte zwischen Taiwan und Festlandchina in der Taiwan-Straße, erstreckt sich über eine Länge von 60 km und eine Breite von 22 km. Penghu ist auch unter dem Namen Pescadoren bekannt, den es aus der Zeit der portugiesischen Seefahrer um das Jahr 1583 erhalten hat. Besuchen kann man die Inselgrupp ausschließlich per Flugzeug oder Fähre. Die Hauptstadt heißt Magong und ist nach der Göttin Mazu benannt. Die einzelnen Inseln sind durch Brücken miteinander 72 , es gibt aber auch Teile von Penghu, die man nur mit dem Boot erreicht. Die bekannteste Brücke, ist die ca. 2,5 Kilometer lange Große Brücke von Penghu. Die Pescadoren sind ein besonders 73 Reiseziel, denn die Insel lädt mit ihren zahlreichen Sehenswürdigkeiten und historischen Städten, die zum Teil noch aus der Qing-Dynastie stammen, zum Erkunden ein. Besonders berühmt ist die alte Stadtmauer von Magong und das Militärdorf Duxingshi, das heute ein Museum ist. Bei einer Rundfahrt über die Inseln kann man auch die südlichen und östlichen Forts, die atemberaubende Landschaft der Basaltsteinküste und den großen Banjan-Baum im Ort Tongliang bewundern. Eine besondere Spezialität ist sonnengetrockneter Tintenfisch, der überall auf den Inseln angeboten wird."
   },
   {
    "n": 76,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 76 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "die",
+    "der",
+    "den",
+    "das"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_76.webp"
+   "psg": "auf dem Hauptplatz des Militärdorfes Duxingshi. Guishan Dao–Von Vulkanen und Schildkröten Guishan Dao ist eine berühmte Landmarke vor der Küste des Landkreises Yilan. Berühmt ist die Insel gleich in mehrfacher Hinsicht. Sie beheimatet 76 einzigen noch aktiven Vulkan in Taiwan und ihre Form ähnelt einer im Wasser liegenden Schildkröte. Daher trägt sie auch den Namen Schildkröteninsel. Obwohl der Vulkan noch aktiv ist, ist er seit dem Jahr 1785 nicht mehr ausgebrochen. Unter Wasser kann man jedoch beobachten, wie vulkanische Gase austreten und das Meer um die Insel herum in eine einzigartige Unterwasserlandschaft verwandeln. Früher diente die Insel dem Militär als Basis. Heute ist sie jedoch eine der berühmtesten Touristenattraktionen Taiwans. Im Jahr 2000 wurde Guishan Dao zum Naturschutzgebiet erklärt. Daher ist die Zahl der Besucher, die zur Insel fahren dürfen, stark 77 . Besucher, die zur Insel möchten, müssen sich vorher anmelden. Auf Guishan Dao gibt es heiße Salzwasser Quellen und man kann zum Teil beobachten, wie heißer Dampf aus dem Boden 78 . Die Gewässer um die Insel herum sind jedoch nicht nur wegen der wunderschönen Landschaft und dem Vulkan ein beliebtes Ziel für Besucher. Viele Touristen fahren auch dorthin, um Wale und Delphine zu beobachten. Wahl- und Delphinbeobachtungen finden jedes Jahr statt. Sie sind jedoch bei Umweltschützern umstritten, denn man nimmt an, dass die Tiere durch die Anwesenheit der Menschen gestört werden."
   },
   {
    "n": 77,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 77 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "benetzt",
+    "besetzt",
+    "begrenzt",
+    "begriffen"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_77.webp"
+   "psg": "auf dem Hauptplatz des Militärdorfes Duxingshi. Guishan Dao–Von Vulkanen und Schildkröten Guishan Dao ist eine berühmte Landmarke vor der Küste des Landkreises Yilan. Berühmt ist die Insel gleich in mehrfacher Hinsicht. Sie beheimatet 76 einzigen noch aktiven Vulkan in Taiwan und ihre Form ähnelt einer im Wasser liegenden Schildkröte. Daher trägt sie auch den Namen Schildkröteninsel. Obwohl der Vulkan noch aktiv ist, ist er seit dem Jahr 1785 nicht mehr ausgebrochen. Unter Wasser kann man jedoch beobachten, wie vulkanische Gase austreten und das Meer um die Insel herum in eine einzigartige Unterwasserlandschaft verwandeln. Früher diente die Insel dem Militär als Basis. Heute ist sie jedoch eine der berühmtesten Touristenattraktionen Taiwans. Im Jahr 2000 wurde Guishan Dao zum Naturschutzgebiet erklärt. Daher ist die Zahl der Besucher, die zur Insel fahren dürfen, stark 77 . Besucher, die zur Insel möchten, müssen sich vorher anmelden. Auf Guishan Dao gibt es heiße Salzwasser Quellen und man kann zum Teil beobachten, wie heißer Dampf aus dem Boden 78 . Die Gewässer um die Insel herum sind jedoch nicht nur wegen der wunderschönen Landschaft und dem Vulkan ein beliebtes Ziel für Besucher. Viele Touristen fahren auch dorthin, um Wale und Delphine zu beobachten. Wahl- und Delphinbeobachtungen finden jedes Jahr statt. Sie sind jedoch bei Umweltschützern umstritten, denn man nimmt an, dass die Tiere durch die Anwesenheit der Menschen gestört werden."
   },
   {
    "n": 78,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 78 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "austritt",
+    "eintritt",
+    "betritt",
+    "auftritt"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/111040_204_0409_78.webp"
+   "psg": "auf dem Hauptplatz des Militärdorfes Duxingshi. Guishan Dao–Von Vulkanen und Schildkröten Guishan Dao ist eine berühmte Landmarke vor der Küste des Landkreises Yilan. Berühmt ist die Insel gleich in mehrfacher Hinsicht. Sie beheimatet 76 einzigen noch aktiven Vulkan in Taiwan und ihre Form ähnelt einer im Wasser liegenden Schildkröte. Daher trägt sie auch den Namen Schildkröteninsel. Obwohl der Vulkan noch aktiv ist, ist er seit dem Jahr 1785 nicht mehr ausgebrochen. Unter Wasser kann man jedoch beobachten, wie vulkanische Gase austreten und das Meer um die Insel herum in eine einzigartige Unterwasserlandschaft verwandeln. Früher diente die Insel dem Militär als Basis. Heute ist sie jedoch eine der berühmtesten Touristenattraktionen Taiwans. Im Jahr 2000 wurde Guishan Dao zum Naturschutzgebiet erklärt. Daher ist die Zahl der Besucher, die zur Insel fahren dürfen, stark 77 . Besucher, die zur Insel möchten, müssen sich vorher anmelden. Auf Guishan Dao gibt es heiße Salzwasser Quellen und man kann zum Teil beobachten, wie heißer Dampf aus dem Boden 78 . Die Gewässer um die Insel herum sind jedoch nicht nur wegen der wunderschönen Landschaft und dem Vulkan ein beliebtes Ziel für Besucher. Viele Touristen fahren auch dorthin, um Wale und Delphine zu beobachten. Wahl- und Delphinbeobachtungen finden jedes Jahr statt. Sie sind jedoch bei Umweltschützern umstritten, denn man nimmt an, dass die Tiere durch die Anwesenheit der Menschen gestört werden."
   },
   {
    "n": 79,
@@ -1122,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
     "Guishan Dao ist eine Insel vor der Küste Yilans. Den Namen hat sie, will sie einem im Wasserliegenden Krokodil gleicht. Die Insel ist ein Naturschutzgebiet, das man nur nach vorherigerAnmeldung betreten darf.",
     "Guishan Dao ist eine Insel vor der Küste Yilans. Den Namen hat sie, will sie einer im Wasserliegenden Schildkröte gleicht. Die Insel ist ein Naturschutzgebiet. Man darf sie nur nachvorheriger Anmeldung betreten."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "auf dem Hauptplatz des Militärdorfes Duxingshi. Guishan Dao–Von Vulkanen und Schildkröten Guishan Dao ist eine berühmte Landmarke vor der Küste des Landkreises Yilan. Berühmt ist die Insel gleich in mehrfacher Hinsicht. Sie beheimatet 76 einzigen noch aktiven Vulkan in Taiwan und ihre Form ähnelt einer im Wasser liegenden Schildkröte. Daher trägt sie auch den Namen Schildkröteninsel. Obwohl der Vulkan noch aktiv ist, ist er seit dem Jahr 1785 nicht mehr ausgebrochen. Unter Wasser kann man jedoch beobachten, wie vulkanische Gase austreten und das Meer um die Insel herum in eine einzigartige Unterwasserlandschaft verwandeln. Früher diente die Insel dem Militär als Basis. Heute ist sie jedoch eine der berühmtesten Touristenattraktionen Taiwans. Im Jahr 2000 wurde Guishan Dao zum Naturschutzgebiet erklärt. Daher ist die Zahl der Besucher, die zur Insel fahren dürfen, stark 77 . Besucher, die zur Insel möchten, müssen sich vorher anmelden. Auf Guishan Dao gibt es heiße Salzwasser Quellen und man kann zum Teil beobachten, wie heißer Dampf aus dem Boden 78 . Die Gewässer um die Insel herum sind jedoch nicht nur wegen der wunderschönen Landschaft und dem Vulkan ein beliebtes Ziel für Besucher. Viele Touristen fahren auch dorthin, um Wale und Delphine zu beobachten. Wahl- und Delphinbeobachtungen finden jedes Jahr statt. Sie sind jedoch bei Umweltschützern umstritten, denn man nimmt an, dass die Tiere durch die Anwesenheit der Menschen gestört werden."
   },
   {
    "n": 80,
@@ -1135,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d007'] = {
     "heiße Salzwasserquellen",
     "ein berühmtes Hotel"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "auf dem Hauptplatz des Militärdorfes Duxingshi. Guishan Dao–Von Vulkanen und Schildkröten Guishan Dao ist eine berühmte Landmarke vor der Küste des Landkreises Yilan. Berühmt ist die Insel gleich in mehrfacher Hinsicht. Sie beheimatet 76 einzigen noch aktiven Vulkan in Taiwan und ihre Form ähnelt einer im Wasser liegenden Schildkröte. Daher trägt sie auch den Namen Schildkröteninsel. Obwohl der Vulkan noch aktiv ist, ist er seit dem Jahr 1785 nicht mehr ausgebrochen. Unter Wasser kann man jedoch beobachten, wie vulkanische Gase austreten und das Meer um die Insel herum in eine einzigartige Unterwasserlandschaft verwandeln. Früher diente die Insel dem Militär als Basis. Heute ist sie jedoch eine der berühmtesten Touristenattraktionen Taiwans. Im Jahr 2000 wurde Guishan Dao zum Naturschutzgebiet erklärt. Daher ist die Zahl der Besucher, die zur Insel fahren dürfen, stark 77 . Besucher, die zur Insel möchten, müssen sich vorher anmelden. Auf Guishan Dao gibt es heiße Salzwasser Quellen und man kann zum Teil beobachten, wie heißer Dampf aus dem Boden 78 . Die Gewässer um die Insel herum sind jedoch nicht nur wegen der wunderschönen Landschaft und dem Vulkan ein beliebtes Ziel für Besucher. Viele Touristen fahren auch dorthin, um Wale und Delphine zu beobachten. Wahl- und Delphinbeobachtungen finden jedes Jahr statt. Sie sind jedoch bei Umweltschützern umstritten, denn man nimmt an, dass die Tiere durch die Anwesenheit der Menschen gestört werden."
   }
  ]
 };

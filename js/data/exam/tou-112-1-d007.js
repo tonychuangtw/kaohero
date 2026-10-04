@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "der",
     "den",
     "dem",
-    "dieBesuch im Taroko Nationalpark"
+    "die"
    ],
    "a": 0,
    "exp": "✅ (A) 此處為關係子句，先行詞為陽性單數名詞「der Milch-Tee」，在子句中作主詞，故關係代名詞用陽性主格「der」。\n❌ (B) 「den」為陽性受格（Akkusativ），此處關係代名詞在子句中擔任主詞，非受詞。\n❌ (C) 「dem」為陽性與格（Dativ），此處關係代名詞在子句中擔任主詞，非間接受詞。\n❌ (D) 「die」為陰性或複數關係代名詞，無法修飾陽性單數名詞 der Milch-Tee。\n📚 出處：德語文法：關係代名詞（Relativpronomen）之性與格用法"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "In Hualien gibt es keine gepflegten Unterkünfte.",
     "Der Besitzer der Unterkunft war nicht sehr hilfsbereit."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Besuch im Taroko Nationalpark Der Taroko Nationalpark gehört, wie der Sonne-Mond-See, zu den Highlights von Taiwans Natur [… .] Der Taroko Nationalpark besteht hauptsächlich aus einer metertiefen Schlucht mit einem türkisfarbenen Fluss in der Mitte und beeindruckenden Felsformationen am Rand. […] Der Taroko Nationalpark ist der zweite Stopp nach Taipeh in Taiwan auf unserer dreiwöchigen Rundreise durch Taiwan. Wenn du dir den Taroko Nationalpark ansehen möchtest, solltest du in Hualien übernachten. Der Ort ist nur etwa 20 Minuten vom Eingang des Nationalparks entfernt und bietet einige sehr schöne Unterkünfte. Außerdem ist es von dort nicht weit zum Meer [… .] Unsere Unterkunft ist hell und sauber […] und der Besitzer ist super, super nett! Er kann zwar nicht so gut Englisch (wie übrigens die meisten Taiwanesen), aber er ist unglaublich bemüht, uns viele Tipps zu geben. […] Hey und übrigens: Er hat eine Bohnen- Kaffeemaschine, die jeder Gast unbegrenzt benutzen kann für traumhaft guten Kaffee! Eine Seltenheit in Asien. Um im Taroko Nationalpark herumzufahren, gibt es verschiedene Möglichkeiten. [Der Taroko Shuttle- Bus] fährt jede Stunde von Hualien bis zum Park und hält innerhalb des Parks an allen bekannteren Wanderwegen. Die Tickets kaufst du in Hualien am Bus Terminal (orangenes Gebäude rechts vom Bahnhof). Du kannst entweder ein 1-Tages-Pass kaufen 250,00 TWD (ca. 7,38 Euro) oder einen 2-Tages- Pass 400,00 TWD (ca. 11,81 Euro). Mit beiden Pässen kannst du so oft ein- und aussteigen, wie du möchtest. Alternativ kannst du den Bus auch mit der EasyCard zahlen […]. Damit kostet die Fahrt zum Park 120,00 TWD (ca. 3,54 Euro)."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "mehr als 60 TWD billiger als",
     "mehr als 60 TWD teurer als"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Besuch im Taroko Nationalpark Der Taroko Nationalpark gehört, wie der Sonne-Mond-See, zu den Highlights von Taiwans Natur [… .] Der Taroko Nationalpark besteht hauptsächlich aus einer metertiefen Schlucht mit einem türkisfarbenen Fluss in der Mitte und beeindruckenden Felsformationen am Rand. […] Der Taroko Nationalpark ist der zweite Stopp nach Taipeh in Taiwan auf unserer dreiwöchigen Rundreise durch Taiwan. Wenn du dir den Taroko Nationalpark ansehen möchtest, solltest du in Hualien übernachten. Der Ort ist nur etwa 20 Minuten vom Eingang des Nationalparks entfernt und bietet einige sehr schöne Unterkünfte. Außerdem ist es von dort nicht weit zum Meer [… .] Unsere Unterkunft ist hell und sauber […] und der Besitzer ist super, super nett! Er kann zwar nicht so gut Englisch (wie übrigens die meisten Taiwanesen), aber er ist unglaublich bemüht, uns viele Tipps zu geben. […] Hey und übrigens: Er hat eine Bohnen- Kaffeemaschine, die jeder Gast unbegrenzt benutzen kann für traumhaft guten Kaffee! Eine Seltenheit in Asien. Um im Taroko Nationalpark herumzufahren, gibt es verschiedene Möglichkeiten. [Der Taroko Shuttle- Bus] fährt jede Stunde von Hualien bis zum Park und hält innerhalb des Parks an allen bekannteren Wanderwegen. Die Tickets kaufst du in Hualien am Bus Terminal (orangenes Gebäude rechts vom Bahnhof). Du kannst entweder ein 1-Tages-Pass kaufen 250,00 TWD (ca. 7,38 Euro) oder einen 2-Tages- Pass 400,00 TWD (ca. 11,81 Euro). Mit beiden Pässen kannst du so oft ein- und aussteigen, wie du möchtest. Alternativ kannst du den Bus auch mit der EasyCard zahlen […]. Damit kostet die Fahrt zum Park 120,00 TWD (ca. 3,54 Euro)."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "Die meisten Taiwaner sprechen fließend Englisch.",
     "Bevor sie nach Hualien fuhr, war die Autorin in Taipeh."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Besuch im Taroko Nationalpark Der Taroko Nationalpark gehört, wie der Sonne-Mond-See, zu den Highlights von Taiwans Natur [… .] Der Taroko Nationalpark besteht hauptsächlich aus einer metertiefen Schlucht mit einem türkisfarbenen Fluss in der Mitte und beeindruckenden Felsformationen am Rand. […] Der Taroko Nationalpark ist der zweite Stopp nach Taipeh in Taiwan auf unserer dreiwöchigen Rundreise durch Taiwan. Wenn du dir den Taroko Nationalpark ansehen möchtest, solltest du in Hualien übernachten. Der Ort ist nur etwa 20 Minuten vom Eingang des Nationalparks entfernt und bietet einige sehr schöne Unterkünfte. Außerdem ist es von dort nicht weit zum Meer [… .] Unsere Unterkunft ist hell und sauber […] und der Besitzer ist super, super nett! Er kann zwar nicht so gut Englisch (wie übrigens die meisten Taiwanesen), aber er ist unglaublich bemüht, uns viele Tipps zu geben. […] Hey und übrigens: Er hat eine Bohnen- Kaffeemaschine, die jeder Gast unbegrenzt benutzen kann für traumhaft guten Kaffee! Eine Seltenheit in Asien. Um im Taroko Nationalpark herumzufahren, gibt es verschiedene Möglichkeiten. [Der Taroko Shuttle- Bus] fährt jede Stunde von Hualien bis zum Park und hält innerhalb des Parks an allen bekannteren Wanderwegen. Die Tickets kaufst du in Hualien am Bus Terminal (orangenes Gebäude rechts vom Bahnhof). Du kannst entweder ein 1-Tages-Pass kaufen 250,00 TWD (ca. 7,38 Euro) oder einen 2-Tages- Pass 400,00 TWD (ca. 11,81 Euro). Mit beiden Pässen kannst du so oft ein- und aussteigen, wie du möchtest. Alternativ kannst du den Bus auch mit der EasyCard zahlen […]. Damit kostet die Fahrt zum Park 120,00 TWD (ca. 3,54 Euro)."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "kosten für 2 Personen weniger als 20€.",
     "sind orange."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Besuch im Taroko Nationalpark Der Taroko Nationalpark gehört, wie der Sonne-Mond-See, zu den Highlights von Taiwans Natur [… .] Der Taroko Nationalpark besteht hauptsächlich aus einer metertiefen Schlucht mit einem türkisfarbenen Fluss in der Mitte und beeindruckenden Felsformationen am Rand. […] Der Taroko Nationalpark ist der zweite Stopp nach Taipeh in Taiwan auf unserer dreiwöchigen Rundreise durch Taiwan. Wenn du dir den Taroko Nationalpark ansehen möchtest, solltest du in Hualien übernachten. Der Ort ist nur etwa 20 Minuten vom Eingang des Nationalparks entfernt und bietet einige sehr schöne Unterkünfte. Außerdem ist es von dort nicht weit zum Meer [… .] Unsere Unterkunft ist hell und sauber […] und der Besitzer ist super, super nett! Er kann zwar nicht so gut Englisch (wie übrigens die meisten Taiwanesen), aber er ist unglaublich bemüht, uns viele Tipps zu geben. […] Hey und übrigens: Er hat eine Bohnen- Kaffeemaschine, die jeder Gast unbegrenzt benutzen kann für traumhaft guten Kaffee! Eine Seltenheit in Asien. Um im Taroko Nationalpark herumzufahren, gibt es verschiedene Möglichkeiten. [Der Taroko Shuttle- Bus] fährt jede Stunde von Hualien bis zum Park und hält innerhalb des Parks an allen bekannteren Wanderwegen. Die Tickets kaufst du in Hualien am Bus Terminal (orangenes Gebäude rechts vom Bahnhof). Du kannst entweder ein 1-Tages-Pass kaufen 250,00 TWD (ca. 7,38 Euro) oder einen 2-Tages- Pass 400,00 TWD (ca. 11,81 Euro). Mit beiden Pässen kannst du so oft ein- und aussteigen, wie du möchtest. Alternativ kannst du den Bus auch mit der EasyCard zahlen […]. Damit kostet die Fahrt zum Park 120,00 TWD (ca. 3,54 Euro)."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "Bohnenkaffee ist in Asien sehr verbreitet.",
     "Der Taroko Shuttle-Bus fährt stündlich von Hualien zum Nationalpark.",
     "Von Hualien zum Taroko Nationalpark fährt man eine Stunde.",
-    "Im Taroko-Nationalpark gibt es nur Felsformationen und kein Wasser.Monat der Geister"
+    "Im Taroko-Nationalpark gibt es nur Felsformationen und kein Wasser."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Besuch im Taroko Nationalpark Der Taroko Nationalpark gehört, wie der Sonne-Mond-See, zu den Highlights von Taiwans Natur [… .] Der Taroko Nationalpark besteht hauptsächlich aus einer metertiefen Schlucht mit einem türkisfarbenen Fluss in der Mitte und beeindruckenden Felsformationen am Rand. […] Der Taroko Nationalpark ist der zweite Stopp nach Taipeh in Taiwan auf unserer dreiwöchigen Rundreise durch Taiwan. Wenn du dir den Taroko Nationalpark ansehen möchtest, solltest du in Hualien übernachten. Der Ort ist nur etwa 20 Minuten vom Eingang des Nationalparks entfernt und bietet einige sehr schöne Unterkünfte. Außerdem ist es von dort nicht weit zum Meer [… .] Unsere Unterkunft ist hell und sauber […] und der Besitzer ist super, super nett! Er kann zwar nicht so gut Englisch (wie übrigens die meisten Taiwanesen), aber er ist unglaublich bemüht, uns viele Tipps zu geben. […] Hey und übrigens: Er hat eine Bohnen- Kaffeemaschine, die jeder Gast unbegrenzt benutzen kann für traumhaft guten Kaffee! Eine Seltenheit in Asien. Um im Taroko Nationalpark herumzufahren, gibt es verschiedene Möglichkeiten. [Der Taroko Shuttle- Bus] fährt jede Stunde von Hualien bis zum Park und hält innerhalb des Parks an allen bekannteren Wanderwegen. Die Tickets kaufst du in Hualien am Bus Terminal (orangenes Gebäude rechts vom Bahnhof). Du kannst entweder ein 1-Tages-Pass kaufen 250,00 TWD (ca. 7,38 Euro) oder einen 2-Tages- Pass 400,00 TWD (ca. 11,81 Euro). Mit beiden Pässen kannst du so oft ein- und aussteigen, wie du möchtest. Alternativ kannst du den Bus auch mit der EasyCard zahlen […]. Damit kostet die Fahrt zum Park 120,00 TWD (ca. 3,54 Euro)."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "Ahnung",
     "Fassung"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Monat der Geister Der Geistermonat ist sehr bedeutend in Taiwan, weil die Menschen sehr viel Wert auf die 76 ihrer Vorfahren legen und auch der Geistermonat ist ein Beispiel dafür, wie tief die Ahnenverehrung im Brauchtum der Taiwaner*innen verankert ist. Der Geistermonat fällt auf den siebten Monat des chinesischen Mondkalenders, d.h. zwischen August und September nach dem gregorianischen Kalender. Im Unterschied zum Ahnengedenkfest, bei dem die lebenden 77 ihren verstorbenen Vorfahren huldigen, besuchen während des Geistermonats die Verstorbenen die Lebenden. Am ersten Tag des Monats wird die Tür der Unterwelt geöffnet, und die Geister können einen Monat lang in der Welt der Lebenden bleiben und es sich gut gehen lassen. Der Geistermonat und das Geisterfest sind ein sehr wichtiger Teil von Taiwans traditionellen Bräuchen. Anhänger des Buddhismus und des Taoismus glauben, dass der Tod nicht das Ende ist, sondern dass man nach dem Tod auf andere Art im Jenseits weiterlebt. Die Geister und unsere Vorfahren können während des Geistermonats die irdische Welt besuchen. Am 15. Tag des Geistermonats finden große Opferfeste, auf Chinesisch als „Zhongyuan Pudu“bekannt, in den Tempeln des ganzen Landes statt. Man bereitet viele 78 vor, wie zum Beispiel Früchte und die „drei Tiere“. Darunter versteht man Schweinefleischstücke mit Haut, ein ganzes Huhn und einen ganzen Fisch. Man verbrennt auch Papiergeld für die Geister, damit diese im Jenseits ein gutes Leben mit ausreichenden Mitteln führen können. Darüber hinaus setzt man Lampions in der Form von Häusern auf das Wasser und verbrennt sie. Das Ziel des Geisterfests ist es, die Geister zu bewirten und zu befriedigen, so dass sie niemanden belästigen oder sogar jemanden ins Reich der Toten holen."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "Nachkommen",
     "Pilger"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Monat der Geister Der Geistermonat ist sehr bedeutend in Taiwan, weil die Menschen sehr viel Wert auf die 76 ihrer Vorfahren legen und auch der Geistermonat ist ein Beispiel dafür, wie tief die Ahnenverehrung im Brauchtum der Taiwaner*innen verankert ist. Der Geistermonat fällt auf den siebten Monat des chinesischen Mondkalenders, d.h. zwischen August und September nach dem gregorianischen Kalender. Im Unterschied zum Ahnengedenkfest, bei dem die lebenden 77 ihren verstorbenen Vorfahren huldigen, besuchen während des Geistermonats die Verstorbenen die Lebenden. Am ersten Tag des Monats wird die Tür der Unterwelt geöffnet, und die Geister können einen Monat lang in der Welt der Lebenden bleiben und es sich gut gehen lassen. Der Geistermonat und das Geisterfest sind ein sehr wichtiger Teil von Taiwans traditionellen Bräuchen. Anhänger des Buddhismus und des Taoismus glauben, dass der Tod nicht das Ende ist, sondern dass man nach dem Tod auf andere Art im Jenseits weiterlebt. Die Geister und unsere Vorfahren können während des Geistermonats die irdische Welt besuchen. Am 15. Tag des Geistermonats finden große Opferfeste, auf Chinesisch als „Zhongyuan Pudu“bekannt, in den Tempeln des ganzen Landes statt. Man bereitet viele 78 vor, wie zum Beispiel Früchte und die „drei Tiere“. Darunter versteht man Schweinefleischstücke mit Haut, ein ganzes Huhn und einen ganzen Fisch. Man verbrennt auch Papiergeld für die Geister, damit diese im Jenseits ein gutes Leben mit ausreichenden Mitteln führen können. Darüber hinaus setzt man Lampions in der Form von Häusern auf das Wasser und verbrennt sie. Das Ziel des Geisterfests ist es, die Geister zu bewirten und zu befriedigen, so dass sie niemanden belästigen oder sogar jemanden ins Reich der Toten holen."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "Erbe",
     "Opfergaben"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Monat der Geister Der Geistermonat ist sehr bedeutend in Taiwan, weil die Menschen sehr viel Wert auf die 76 ihrer Vorfahren legen und auch der Geistermonat ist ein Beispiel dafür, wie tief die Ahnenverehrung im Brauchtum der Taiwaner*innen verankert ist. Der Geistermonat fällt auf den siebten Monat des chinesischen Mondkalenders, d.h. zwischen August und September nach dem gregorianischen Kalender. Im Unterschied zum Ahnengedenkfest, bei dem die lebenden 77 ihren verstorbenen Vorfahren huldigen, besuchen während des Geistermonats die Verstorbenen die Lebenden. Am ersten Tag des Monats wird die Tür der Unterwelt geöffnet, und die Geister können einen Monat lang in der Welt der Lebenden bleiben und es sich gut gehen lassen. Der Geistermonat und das Geisterfest sind ein sehr wichtiger Teil von Taiwans traditionellen Bräuchen. Anhänger des Buddhismus und des Taoismus glauben, dass der Tod nicht das Ende ist, sondern dass man nach dem Tod auf andere Art im Jenseits weiterlebt. Die Geister und unsere Vorfahren können während des Geistermonats die irdische Welt besuchen. Am 15. Tag des Geistermonats finden große Opferfeste, auf Chinesisch als „Zhongyuan Pudu“bekannt, in den Tempeln des ganzen Landes statt. Man bereitet viele 78 vor, wie zum Beispiel Früchte und die „drei Tiere“. Darunter versteht man Schweinefleischstücke mit Haut, ein ganzes Huhn und einen ganzen Fisch. Man verbrennt auch Papiergeld für die Geister, damit diese im Jenseits ein gutes Leben mit ausreichenden Mitteln führen können. Darüber hinaus setzt man Lampions in der Form von Häusern auf das Wasser und verbrennt sie. Das Ziel des Geisterfests ist es, die Geister zu bewirten und zu befriedigen, so dass sie niemanden belästigen oder sogar jemanden ins Reich der Toten holen."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "im August",
     "im September"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Monat der Geister Der Geistermonat ist sehr bedeutend in Taiwan, weil die Menschen sehr viel Wert auf die 76 ihrer Vorfahren legen und auch der Geistermonat ist ein Beispiel dafür, wie tief die Ahnenverehrung im Brauchtum der Taiwaner*innen verankert ist. Der Geistermonat fällt auf den siebten Monat des chinesischen Mondkalenders, d.h. zwischen August und September nach dem gregorianischen Kalender. Im Unterschied zum Ahnengedenkfest, bei dem die lebenden 77 ihren verstorbenen Vorfahren huldigen, besuchen während des Geistermonats die Verstorbenen die Lebenden. Am ersten Tag des Monats wird die Tür der Unterwelt geöffnet, und die Geister können einen Monat lang in der Welt der Lebenden bleiben und es sich gut gehen lassen. Der Geistermonat und das Geisterfest sind ein sehr wichtiger Teil von Taiwans traditionellen Bräuchen. Anhänger des Buddhismus und des Taoismus glauben, dass der Tod nicht das Ende ist, sondern dass man nach dem Tod auf andere Art im Jenseits weiterlebt. Die Geister und unsere Vorfahren können während des Geistermonats die irdische Welt besuchen. Am 15. Tag des Geistermonats finden große Opferfeste, auf Chinesisch als „Zhongyuan Pudu“bekannt, in den Tempeln des ganzen Landes statt. Man bereitet viele 78 vor, wie zum Beispiel Früchte und die „drei Tiere“. Darunter versteht man Schweinefleischstücke mit Haut, ein ganzes Huhn und einen ganzen Fisch. Man verbrennt auch Papiergeld für die Geister, damit diese im Jenseits ein gutes Leben mit ausreichenden Mitteln führen können. Darüber hinaus setzt man Lampions in der Form von Häusern auf das Wasser und verbrennt sie. Das Ziel des Geisterfests ist es, die Geister zu bewirten und zu befriedigen, so dass sie niemanden belästigen oder sogar jemanden ins Reich der Toten holen."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d007'] = {
     "In Taiwan feiern ausschließlich Buddhisten und Taoisten das Geisterfest, weil sie an das Reichder Toten glauben.",
     "Man feiert das Geisterfest, damit die Geister zufrieden sind und den Lebenden kein Unglückbringen."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Monat der Geister Der Geistermonat ist sehr bedeutend in Taiwan, weil die Menschen sehr viel Wert auf die 76 ihrer Vorfahren legen und auch der Geistermonat ist ein Beispiel dafür, wie tief die Ahnenverehrung im Brauchtum der Taiwaner*innen verankert ist. Der Geistermonat fällt auf den siebten Monat des chinesischen Mondkalenders, d.h. zwischen August und September nach dem gregorianischen Kalender. Im Unterschied zum Ahnengedenkfest, bei dem die lebenden 77 ihren verstorbenen Vorfahren huldigen, besuchen während des Geistermonats die Verstorbenen die Lebenden. Am ersten Tag des Monats wird die Tür der Unterwelt geöffnet, und die Geister können einen Monat lang in der Welt der Lebenden bleiben und es sich gut gehen lassen. Der Geistermonat und das Geisterfest sind ein sehr wichtiger Teil von Taiwans traditionellen Bräuchen. Anhänger des Buddhismus und des Taoismus glauben, dass der Tod nicht das Ende ist, sondern dass man nach dem Tod auf andere Art im Jenseits weiterlebt. Die Geister und unsere Vorfahren können während des Geistermonats die irdische Welt besuchen. Am 15. Tag des Geistermonats finden große Opferfeste, auf Chinesisch als „Zhongyuan Pudu“bekannt, in den Tempeln des ganzen Landes statt. Man bereitet viele 78 vor, wie zum Beispiel Früchte und die „drei Tiere“. Darunter versteht man Schweinefleischstücke mit Haut, ein ganzes Huhn und einen ganzen Fisch. Man verbrennt auch Papiergeld für die Geister, damit diese im Jenseits ein gutes Leben mit ausreichenden Mitteln führen können. Darüber hinaus setzt man Lampions in der Form von Häusern auf das Wasser und verbrennt sie. Das Ziel des Geisterfests ist es, die Geister zu bewirten und zu befriedigen, so dass sie niemanden belästigen oder sogar jemanden ins Reich der Toten holen."
   }
  ]
 };

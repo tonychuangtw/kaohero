@@ -150,7 +150,7 @@ window.APP_EXAM_PAPERS['loc-114-1-b029'] = {
     "luminous",
     "lucrative",
     "definitive",
-    "industrious請依下文回答第 11 題至第 15 題：To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is"
+    "industrious"
    ],
    "a": 1,
    "exp": "✅ (B) lucrative 意為高收入的，與辭去工作卻不確定未來的語境形成對比。\n❌ (A) luminous 意為發光的。\n❌ (C) definitive 意為決定性的。\n❌ (D) industrious 意為勤奮的，用以形容人而非工作。\n📚 出處：英文－字彙。"
@@ -159,76 +159,71 @@ window.APP_EXAM_PAPERS['loc-114-1-b029'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 11 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "wish",
+    "note",
+    "show",
+    "turn"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114190_601_0106_11.webp"
+   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you."
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 12 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "if",
+    "so",
+    "that",
+    "when"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114190_601_0106_12.webp"
+   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you."
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 13 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "bother",
+    "devise",
+    "permit",
+    "shrink"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114190_601_0106_13.webp"
+   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you."
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 14 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "are",
+    "do",
+    "have",
+    "need"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114190_601_0106_14.webp"
+   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you."
   },
   {
    "n": 15,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 15 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "empathy",
+    "hospitality",
+    "reservation",
+    "suspicion"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114190_601_0106_15.webp"
+   "psg": "To be a good talker, you need to be a good listener. Careful listening makes you a better talker when it is your 11 . You will be able to come up with good follow-up questions. This will show to people whom you are conversing with 12 you take an interest in their words. People get perplexed or even annoyed when you ask them questions but do not 13 to listen to their answers. The best conversationalists are those who are curious about everything. They are good at listening, have broad horizons, and always end up learning something new. It is only natural that people you talk to show far more interest in themselves and their problems than they 14 in you and your problems. You can learn to show 15 for them, relating to what they are feeling as well as what they are saying. If you cannot listen well to people, you have no reason to expect them to listen any better to you."
   },
   {
    "n": 16,

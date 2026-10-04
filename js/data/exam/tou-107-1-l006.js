@@ -950,7 +950,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "n’est pas encore expérimenté",
     "est proposé dans toute la Suisse"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "SNCF : Un robot humanoïde pour renseigner les voyageurs en Pays de la Loire Il mesure 1,20 m, a une mine sympathique, emploie volontiers le tutoiement, mais n’est pas humain. Depuis mercredi, un robot humanoïde nommé Pepper renseigne les voyageurs en gare de Nort-sur-Erde, près de Nantes. Présentez-vous face à lui et il vous aidera à choisir votre trajet de TER ou de car, vous donnera les horaires, vous indiquera la direction des toilettes ou du centre-ville. Le tout en répondant à votre voix dans un français très correct et un vocabulaire plutôt familier : 《Ok》, 《Nickel》, 《Pas de souci》, 《Merci pour ce moment sympa》. Quand il ne comprend pas la question ou ignore la réponse, il s’excuse : 《Pardon, je suis un peu tête en l’air》ou 《Même les robots peuvent se tromper》. Les informations sont doublées par écrit sur une tablette et un agent est à ses côtés en cas de difficulté. L’objectif n’est pas de remplacer les agents. Pepper n’est pas un vendeur et ne sait pas répondre à toutes les questions. (20 minutes.fr)"
   },
   {
    "n": 68,
@@ -963,7 +964,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "C’est un robot",
     "C’est un homme"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "SNCF : Un robot humanoïde pour renseigner les voyageurs en Pays de la Loire Il mesure 1,20 m, a une mine sympathique, emploie volontiers le tutoiement, mais n’est pas humain. Depuis mercredi, un robot humanoïde nommé Pepper renseigne les voyageurs en gare de Nort-sur-Erde, près de Nantes. Présentez-vous face à lui et il vous aidera à choisir votre trajet de TER ou de car, vous donnera les horaires, vous indiquera la direction des toilettes ou du centre-ville. Le tout en répondant à votre voix dans un français très correct et un vocabulaire plutôt familier : 《Ok》, 《Nickel》, 《Pas de souci》, 《Merci pour ce moment sympa》. Quand il ne comprend pas la question ou ignore la réponse, il s’excuse : 《Pardon, je suis un peu tête en l’air》ou 《Même les robots peuvent se tromper》. Les informations sont doublées par écrit sur une tablette et un agent est à ses côtés en cas de difficulté. L’objectif n’est pas de remplacer les agents. Pepper n’est pas un vendeur et ne sait pas répondre à toutes les questions. (20 minutes.fr)"
   },
   {
    "n": 69,
@@ -976,7 +978,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Réserver des places de train",
     "Travailler comme un vendeur"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "SNCF : Un robot humanoïde pour renseigner les voyageurs en Pays de la Loire Il mesure 1,20 m, a une mine sympathique, emploie volontiers le tutoiement, mais n’est pas humain. Depuis mercredi, un robot humanoïde nommé Pepper renseigne les voyageurs en gare de Nort-sur-Erde, près de Nantes. Présentez-vous face à lui et il vous aidera à choisir votre trajet de TER ou de car, vous donnera les horaires, vous indiquera la direction des toilettes ou du centre-ville. Le tout en répondant à votre voix dans un français très correct et un vocabulaire plutôt familier : 《Ok》, 《Nickel》, 《Pas de souci》, 《Merci pour ce moment sympa》. Quand il ne comprend pas la question ou ignore la réponse, il s’excuse : 《Pardon, je suis un peu tête en l’air》ou 《Même les robots peuvent se tromper》. Les informations sont doublées par écrit sur une tablette et un agent est à ses côtés en cas de difficulté. L’objectif n’est pas de remplacer les agents. Pepper n’est pas un vendeur et ne sait pas répondre à toutes les questions. (20 minutes.fr)"
   },
   {
    "n": 70,
@@ -1001,7 +1004,7 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Je regarde le ciel.",
     "J’oublie des choses.",
     "Je réfléchis beaucoup.",
-    "Je suis grand.À: vero.nike@yahoo.frObjet : dîner de classeChère Véronique,"
+    "Je suis grand."
    ],
    "a": 1,
    "exp": "✅ (B) être tête en l'air 形容人心不在焉、老是忘東忘西，等於 J'oublie des choses（我會忘事）。\n❌ (A) 「我看著天空」只是字面意思，慣用語不能照字面解讀。\n❌ (C) 「我想很多」是 pensif／songeur，與粗心健忘不同。\n❌ (D) 「我很高」與身高有關，慣用語中的 en l'air 不指高度。\n📚 出處：法語慣用語（être tête en l'air 粗心健忘）"
@@ -1017,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "administratif",
     "affaire"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "À: vero.nike@yahoo.fr Objet : dîner de classe Chère Véronique, En feuilletant le yearbook du Lycée, j’ai trouvé ton nom. J’aimerais bien reprendre contact avec toi car cette année, nous fêterons - déjà!! – les 10 ans de notre bac. À cette occasion, j’organise avec Jean et Pauline un dîner de classe le samedi 20 juin pour nous revoir et nous raconter nos vies. Essaie de te libérer ce soir-là, car plus nous serons nombreux, plus ce sera amusant. Je ne sais pas si tu es mariée ou si tu as un copain, mais nous demandons aux anciens élèves de venir sans leur partenaire. Réponds-moi s’il te plaît avant le 30 mai. Début juin, je t’enverrai des indications plus précises sur la soirée. Je compte sur toi! Très amicalement, Delphine, de Terminale ES."
   },
   {
    "n": 73,
@@ -1030,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Un ancien professeur de Véronique",
     "Une relation d’affaire de Véronique"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "À: vero.nike@yahoo.fr Objet : dîner de classe Chère Véronique, En feuilletant le yearbook du Lycée, j’ai trouvé ton nom. J’aimerais bien reprendre contact avec toi car cette année, nous fêterons - déjà!! – les 10 ans de notre bac. À cette occasion, j’organise avec Jean et Pauline un dîner de classe le samedi 20 juin pour nous revoir et nous raconter nos vies. Essaie de te libérer ce soir-là, car plus nous serons nombreux, plus ce sera amusant. Je ne sais pas si tu es mariée ou si tu as un copain, mais nous demandons aux anciens élèves de venir sans leur partenaire. Réponds-moi s’il te plaît avant le 30 mai. Début juin, je t’enverrai des indications plus précises sur la soirée. Je compte sur toi! Très amicalement, Delphine, de Terminale ES."
   },
   {
    "n": 74,
@@ -1043,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Une sortie au restaurant le samedi 20 juin",
     "Une fête de la famille"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "À: vero.nike@yahoo.fr Objet : dîner de classe Chère Véronique, En feuilletant le yearbook du Lycée, j’ai trouvé ton nom. J’aimerais bien reprendre contact avec toi car cette année, nous fêterons - déjà!! – les 10 ans de notre bac. À cette occasion, j’organise avec Jean et Pauline un dîner de classe le samedi 20 juin pour nous revoir et nous raconter nos vies. Essaie de te libérer ce soir-là, car plus nous serons nombreux, plus ce sera amusant. Je ne sais pas si tu es mariée ou si tu as un copain, mais nous demandons aux anciens élèves de venir sans leur partenaire. Réponds-moi s’il te plaît avant le 30 mai. Début juin, je t’enverrai des indications plus précises sur la soirée. Je compte sur toi! Très amicalement, Delphine, de Terminale ES."
   },
   {
    "n": 75,
@@ -1056,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Pour fêter les dix ans de leur bac",
     "Pour fêter le nouvel An"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "À: vero.nike@yahoo.fr Objet : dîner de classe Chère Véronique, En feuilletant le yearbook du Lycée, j’ai trouvé ton nom. J’aimerais bien reprendre contact avec toi car cette année, nous fêterons - déjà!! – les 10 ans de notre bac. À cette occasion, j’organise avec Jean et Pauline un dîner de classe le samedi 20 juin pour nous revoir et nous raconter nos vies. Essaie de te libérer ce soir-là, car plus nous serons nombreux, plus ce sera amusant. Je ne sais pas si tu es mariée ou si tu as un copain, mais nous demandons aux anciens élèves de venir sans leur partenaire. Réponds-moi s’il te plaît avant le 30 mai. Début juin, je t’enverrai des indications plus précises sur la soirée. Je compte sur toi! Très amicalement, Delphine, de Terminale ES."
   },
   {
    "n": 76,
@@ -1069,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Les familles des anciens de Terminale ES",
     "Les anciens de Terminale ES et leur famille"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "À: vero.nike@yahoo.fr Objet : dîner de classe Chère Véronique, En feuilletant le yearbook du Lycée, j’ai trouvé ton nom. J’aimerais bien reprendre contact avec toi car cette année, nous fêterons - déjà!! – les 10 ans de notre bac. À cette occasion, j’organise avec Jean et Pauline un dîner de classe le samedi 20 juin pour nous revoir et nous raconter nos vies. Essaie de te libérer ce soir-là, car plus nous serons nombreux, plus ce sera amusant. Je ne sais pas si tu es mariée ou si tu as un copain, mais nous demandons aux anciens élèves de venir sans leur partenaire. Réponds-moi s’il te plaît avant le 30 mai. Début juin, je t’enverrai des indications plus précises sur la soirée. Je compte sur toi! Très amicalement, Delphine, de Terminale ES."
   },
   {
    "n": 77,
@@ -1082,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "600",
     "632"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Combien de nouveaux trois étoiles pour l'édition 2017? Combien de déçus? Le célèbre guide Michelin France dévoile jeudi son palmarès, toujours attendu fébrilement par le monde de la gastronomie, en France comme à l'étranger. La sélection du guide rouge, qui reste une référence malgré la concurrence d'autres guides, de sites participatifs et de classements internationaux, sera annoncée à 10H00 GMT lors d'une conférence de presse en présence des nouveaux promus. Seuls éléments révélés officiellement jusqu'à présent, le guide 2017 compte 616 restaurants étoilés (une, deux ou trois étoiles), soit seize de plus qu'en 2016. Soixante-dix tables gagnent des étoiles, tandis que cinquante-deux en perdent une ou plusieurs. Des pertes d'étoiles qui correspondent soit à une sanction soit à une fermeture d'établissement. Qui décrochera le graal, la troisième étoile, distinction suprême synonyme de forte médiatisation et d'importantes retombées économiques? La question suscite déjà son lot de rumeurs sur les blogs spécialisés. Le prestigieux club des trois étoiles regroupait 26 tables en 2016, dont deux entrants (Alain Ducasse au Plaza Athénée, Le Cinq du chef Christian Le Squer à l'hôtel George V, deux établissements de la capitale française) et deux sortants (le restaurant d'Alain Ducasse à l'hôtel Le Meurice à Paris, ainsi que le Relais Bernard Loiseau à Saulieu dans le centre-est)."
   },
   {
    "n": 78,
@@ -1095,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Les classements internationaux",
     "Les sites gastronomiques"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Combien de nouveaux trois étoiles pour l'édition 2017? Combien de déçus? Le célèbre guide Michelin France dévoile jeudi son palmarès, toujours attendu fébrilement par le monde de la gastronomie, en France comme à l'étranger. La sélection du guide rouge, qui reste une référence malgré la concurrence d'autres guides, de sites participatifs et de classements internationaux, sera annoncée à 10H00 GMT lors d'une conférence de presse en présence des nouveaux promus. Seuls éléments révélés officiellement jusqu'à présent, le guide 2017 compte 616 restaurants étoilés (une, deux ou trois étoiles), soit seize de plus qu'en 2016. Soixante-dix tables gagnent des étoiles, tandis que cinquante-deux en perdent une ou plusieurs. Des pertes d'étoiles qui correspondent soit à une sanction soit à une fermeture d'établissement. Qui décrochera le graal, la troisième étoile, distinction suprême synonyme de forte médiatisation et d'importantes retombées économiques? La question suscite déjà son lot de rumeurs sur les blogs spécialisés. Le prestigieux club des trois étoiles regroupait 26 tables en 2016, dont deux entrants (Alain Ducasse au Plaza Athénée, Le Cinq du chef Christian Le Squer à l'hôtel George V, deux établissements de la capitale française) et deux sortants (le restaurant d'Alain Ducasse à l'hôtel Le Meurice à Paris, ainsi que le Relais Bernard Loiseau à Saulieu dans le centre-est)."
   },
   {
    "n": 79,
@@ -1108,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "26",
     "27"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Combien de nouveaux trois étoiles pour l'édition 2017? Combien de déçus? Le célèbre guide Michelin France dévoile jeudi son palmarès, toujours attendu fébrilement par le monde de la gastronomie, en France comme à l'étranger. La sélection du guide rouge, qui reste une référence malgré la concurrence d'autres guides, de sites participatifs et de classements internationaux, sera annoncée à 10H00 GMT lors d'une conférence de presse en présence des nouveaux promus. Seuls éléments révélés officiellement jusqu'à présent, le guide 2017 compte 616 restaurants étoilés (une, deux ou trois étoiles), soit seize de plus qu'en 2016. Soixante-dix tables gagnent des étoiles, tandis que cinquante-deux en perdent une ou plusieurs. Des pertes d'étoiles qui correspondent soit à une sanction soit à une fermeture d'établissement. Qui décrochera le graal, la troisième étoile, distinction suprême synonyme de forte médiatisation et d'importantes retombées économiques? La question suscite déjà son lot de rumeurs sur les blogs spécialisés. Le prestigieux club des trois étoiles regroupait 26 tables en 2016, dont deux entrants (Alain Ducasse au Plaza Athénée, Le Cinq du chef Christian Le Squer à l'hôtel George V, deux établissements de la capitale française) et deux sortants (le restaurant d'Alain Ducasse à l'hôtel Le Meurice à Paris, ainsi que le Relais Bernard Loiseau à Saulieu dans le centre-est)."
   },
   {
    "n": 80,
@@ -1121,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l006'] = {
     "Le suicide d’un grand chef",
     "Le chef renonce à ses trois étoiles Michelin"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Combien de nouveaux trois étoiles pour l'édition 2017? Combien de déçus? Le célèbre guide Michelin France dévoile jeudi son palmarès, toujours attendu fébrilement par le monde de la gastronomie, en France comme à l'étranger. La sélection du guide rouge, qui reste une référence malgré la concurrence d'autres guides, de sites participatifs et de classements internationaux, sera annoncée à 10H00 GMT lors d'une conférence de presse en présence des nouveaux promus. Seuls éléments révélés officiellement jusqu'à présent, le guide 2017 compte 616 restaurants étoilés (une, deux ou trois étoiles), soit seize de plus qu'en 2016. Soixante-dix tables gagnent des étoiles, tandis que cinquante-deux en perdent une ou plusieurs. Des pertes d'étoiles qui correspondent soit à une sanction soit à une fermeture d'établissement. Qui décrochera le graal, la troisième étoile, distinction suprême synonyme de forte médiatisation et d'importantes retombées économiques? La question suscite déjà son lot de rumeurs sur les blogs spécialisés. Le prestigieux club des trois étoiles regroupait 26 tables en 2016, dont deux entrants (Alain Ducasse au Plaza Athénée, Le Cinq du chef Christian Le Squer à l'hôtel George V, deux établissements de la capitale française) et deux sortants (le restaurant d'Alain Ducasse à l'hôtel Le Meurice à Paris, ainsi que le Relais Bernard Loiseau à Saulieu dans le centre-est)."
   }
  ]
 };

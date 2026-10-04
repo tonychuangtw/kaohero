@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Tiga puluh NTD",
     "Dua ratus lima puluh NTD",
     "Lima ratus NTD",
-    "Dua ratus NTDOrang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan"
+    "Dua ratus NTD"
    ],
    "a": 1,
    "exp": "✅ (B) 購買 250 元台幣（dua ratus lima puluh NTD）的鳳梨酥，支付 500 元台幣（lima ratus NTD），賣家應找回 500 - 250 = 250 元台幣（Dua ratus lima puluh NTD）。\n❌ (A) Tiga puluh NTD 為 30 元台幣，找零計算錯誤。\n❌ (C) Lima ratus NTD 為 500 元台幣，此為買家支付之全額，並非找零金額。\n❌ (D) Dua ratus NTD 為 200 元台幣，找零計算錯誤（後方附帶字樣為試卷轉檔殘留之篇章碎屑）。\n📚 出處：馬來語基礎數學運算與購物找零：wang baki（找零計算）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Sebilangan majikan membenarkan kakitangannya mencari kerja dari jarak jauh.",
     "Sebilangan majikan membenarkan kakitangannya menjalankan tugasnya di rumah."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Orang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan mematuhi prosedur operasi standard (SOP) bagi mengelak penularan COVID-19. Tinjauan tidak rasmi di sekitar ibu kota mendapati warga kota bimbang keluar ke tempat awam dan hanya keluar untuk keperluan penting dan ke tempat kerja sahaja. Semasa di luar, mereka menjalani rutin harian seperti biasa dengan pemakaian pelitup muka dan menjaga penjarakan fizikal terutama ketika berada di tempat sesak untuk mengelak sebarang risiko jangkitan. Dalam situasi COVID-19 masih belum reda ini, sebilangan majikan membenarkan kakitangannya bekerja dari jarak jauh. Terdapat majikan turut menyediakan makanan tengah hari untuk kakitangan, jadi sekurang-kurangnya pergerakan keluar pekerja mereka untuk bertembung dengan ramai orang dapat dikurangkan. Sementara itu, pasaraya dan banyak pemilik kedai telah menetapkan SOP ketat untuk pelanggan seperti pengambilan suhu badan, pemakaian cecair pembasmi kuman dan mengehadkan bilangan kemasukan pelanggan dalam satu-satu masa bagi mengelak kesesakan dalam pasaraya atau kedai. Sesetengah peniaga makanan juga menyesuaikan diri dengan meja disusun lebih satu meter antara satu sama lain dan dihadkan bagi mengelak pelanggan ramai duduk makan dalam satu masa. Selain daripada itu, mereka juga menyediakan jarak satu meter bagi pelanggan beratur yang memilih bungkus makanan. Sebelum negara kita bebas daripada wabak, setiap orang adalah wajib mengamalkan norma baharu, seperti membasuh tangan dengan kerap, amalkan etika batuk dan bersin, memakai pelitup muka dan juga mengelakkan tempat yang sesak dan sempit. Warga kota dinasihati jangan leka dan alpa kerana kita belum menang."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Menetapkan SOP ketat.",
     "Memakai cecair pembasmi kuman."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Orang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan mematuhi prosedur operasi standard (SOP) bagi mengelak penularan COVID-19. Tinjauan tidak rasmi di sekitar ibu kota mendapati warga kota bimbang keluar ke tempat awam dan hanya keluar untuk keperluan penting dan ke tempat kerja sahaja. Semasa di luar, mereka menjalani rutin harian seperti biasa dengan pemakaian pelitup muka dan menjaga penjarakan fizikal terutama ketika berada di tempat sesak untuk mengelak sebarang risiko jangkitan. Dalam situasi COVID-19 masih belum reda ini, sebilangan majikan membenarkan kakitangannya bekerja dari jarak jauh. Terdapat majikan turut menyediakan makanan tengah hari untuk kakitangan, jadi sekurang-kurangnya pergerakan keluar pekerja mereka untuk bertembung dengan ramai orang dapat dikurangkan. Sementara itu, pasaraya dan banyak pemilik kedai telah menetapkan SOP ketat untuk pelanggan seperti pengambilan suhu badan, pemakaian cecair pembasmi kuman dan mengehadkan bilangan kemasukan pelanggan dalam satu-satu masa bagi mengelak kesesakan dalam pasaraya atau kedai. Sesetengah peniaga makanan juga menyesuaikan diri dengan meja disusun lebih satu meter antara satu sama lain dan dihadkan bagi mengelak pelanggan ramai duduk makan dalam satu masa. Selain daripada itu, mereka juga menyediakan jarak satu meter bagi pelanggan beratur yang memilih bungkus makanan. Sebelum negara kita bebas daripada wabak, setiap orang adalah wajib mengamalkan norma baharu, seperti membasuh tangan dengan kerap, amalkan etika batuk dan bersin, memakai pelitup muka dan juga mengelakkan tempat yang sesak dan sempit. Warga kota dinasihati jangan leka dan alpa kerana kita belum menang."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Mengurangkan pilihan makanan.",
     "Makanan dihadkan bungkus dan bawa balik sahaja."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Orang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan mematuhi prosedur operasi standard (SOP) bagi mengelak penularan COVID-19. Tinjauan tidak rasmi di sekitar ibu kota mendapati warga kota bimbang keluar ke tempat awam dan hanya keluar untuk keperluan penting dan ke tempat kerja sahaja. Semasa di luar, mereka menjalani rutin harian seperti biasa dengan pemakaian pelitup muka dan menjaga penjarakan fizikal terutama ketika berada di tempat sesak untuk mengelak sebarang risiko jangkitan. Dalam situasi COVID-19 masih belum reda ini, sebilangan majikan membenarkan kakitangannya bekerja dari jarak jauh. Terdapat majikan turut menyediakan makanan tengah hari untuk kakitangan, jadi sekurang-kurangnya pergerakan keluar pekerja mereka untuk bertembung dengan ramai orang dapat dikurangkan. Sementara itu, pasaraya dan banyak pemilik kedai telah menetapkan SOP ketat untuk pelanggan seperti pengambilan suhu badan, pemakaian cecair pembasmi kuman dan mengehadkan bilangan kemasukan pelanggan dalam satu-satu masa bagi mengelak kesesakan dalam pasaraya atau kedai. Sesetengah peniaga makanan juga menyesuaikan diri dengan meja disusun lebih satu meter antara satu sama lain dan dihadkan bagi mengelak pelanggan ramai duduk makan dalam satu masa. Selain daripada itu, mereka juga menyediakan jarak satu meter bagi pelanggan beratur yang memilih bungkus makanan. Sebelum negara kita bebas daripada wabak, setiap orang adalah wajib mengamalkan norma baharu, seperti membasuh tangan dengan kerap, amalkan etika batuk dan bersin, memakai pelitup muka dan juga mengelakkan tempat yang sesak dan sempit. Warga kota dinasihati jangan leka dan alpa kerana kita belum menang."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Mamakai pelitup muka.",
     "Menjaga penjarakan fizikal."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Orang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan mematuhi prosedur operasi standard (SOP) bagi mengelak penularan COVID-19. Tinjauan tidak rasmi di sekitar ibu kota mendapati warga kota bimbang keluar ke tempat awam dan hanya keluar untuk keperluan penting dan ke tempat kerja sahaja. Semasa di luar, mereka menjalani rutin harian seperti biasa dengan pemakaian pelitup muka dan menjaga penjarakan fizikal terutama ketika berada di tempat sesak untuk mengelak sebarang risiko jangkitan. Dalam situasi COVID-19 masih belum reda ini, sebilangan majikan membenarkan kakitangannya bekerja dari jarak jauh. Terdapat majikan turut menyediakan makanan tengah hari untuk kakitangan, jadi sekurang-kurangnya pergerakan keluar pekerja mereka untuk bertembung dengan ramai orang dapat dikurangkan. Sementara itu, pasaraya dan banyak pemilik kedai telah menetapkan SOP ketat untuk pelanggan seperti pengambilan suhu badan, pemakaian cecair pembasmi kuman dan mengehadkan bilangan kemasukan pelanggan dalam satu-satu masa bagi mengelak kesesakan dalam pasaraya atau kedai. Sesetengah peniaga makanan juga menyesuaikan diri dengan meja disusun lebih satu meter antara satu sama lain dan dihadkan bagi mengelak pelanggan ramai duduk makan dalam satu masa. Selain daripada itu, mereka juga menyediakan jarak satu meter bagi pelanggan beratur yang memilih bungkus makanan. Sebelum negara kita bebas daripada wabak, setiap orang adalah wajib mengamalkan norma baharu, seperti membasuh tangan dengan kerap, amalkan etika batuk dan bersin, memakai pelitup muka dan juga mengelakkan tempat yang sesak dan sempit. Warga kota dinasihati jangan leka dan alpa kerana kita belum menang."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "lalai",
     "malas",
     "memperlambat",
-    "gelisahSaya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawatsepupu yang berada di Taiwan.Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui"
+    "gelisah"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Orang ramai berwaspada meneruskan rutin harian dengan mengamalkan norma baharu dan mematuhi prosedur operasi standard (SOP) bagi mengelak penularan COVID-19. Tinjauan tidak rasmi di sekitar ibu kota mendapati warga kota bimbang keluar ke tempat awam dan hanya keluar untuk keperluan penting dan ke tempat kerja sahaja. Semasa di luar, mereka menjalani rutin harian seperti biasa dengan pemakaian pelitup muka dan menjaga penjarakan fizikal terutama ketika berada di tempat sesak untuk mengelak sebarang risiko jangkitan. Dalam situasi COVID-19 masih belum reda ini, sebilangan majikan membenarkan kakitangannya bekerja dari jarak jauh. Terdapat majikan turut menyediakan makanan tengah hari untuk kakitangan, jadi sekurang-kurangnya pergerakan keluar pekerja mereka untuk bertembung dengan ramai orang dapat dikurangkan. Sementara itu, pasaraya dan banyak pemilik kedai telah menetapkan SOP ketat untuk pelanggan seperti pengambilan suhu badan, pemakaian cecair pembasmi kuman dan mengehadkan bilangan kemasukan pelanggan dalam satu-satu masa bagi mengelak kesesakan dalam pasaraya atau kedai. Sesetengah peniaga makanan juga menyesuaikan diri dengan meja disusun lebih satu meter antara satu sama lain dan dihadkan bagi mengelak pelanggan ramai duduk makan dalam satu masa. Selain daripada itu, mereka juga menyediakan jarak satu meter bagi pelanggan beratur yang memilih bungkus makanan. Sebelum negara kita bebas daripada wabak, setiap orang adalah wajib mengamalkan norma baharu, seperti membasuh tangan dengan kerap, amalkan etika batuk dan bersin, memakai pelitup muka dan juga mengelakkan tempat yang sesak dan sempit. Warga kota dinasihati jangan leka dan alpa kerana kita belum menang."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Untuk perjalanan kita lancar.",
     "Mendapat peluang untuk menaiki kapal terbang."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Saya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawat sepupu yang berada di Taiwan. Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui penerbangan, kami perlu mempunyai masa yang mencukupi untuk pemeriksaan sekuriti dan kebenaran imigrasi sebelum perlepasan. Semasa di kaunter daftar masuk, tunjukkan e-tiket di App telefon bimbit atau emel bersama kad ID kamu, lesen pemandu, atau pasport kepada staf syarikat penerbangan. Kemudian, kami membawa bagasi ke mesin pengimbas. Ingatkan bagi setiap bagasi yang didaftar masuk, tidak boleh melebihi 32 kg, semua bentuk cecair hendaklah dibawa ke dalam bekas dengan kapasiti tidak melebihi 100 ml, atau bersamaan dengan ukuran volumetrik yang lain. Setelah selesai bagasi daftar, kami berbaris di balai pelepasan. Kami diminta menunjukkan tiket serta kad pengenalan di kaunter pemeriksaan. Untuk mempercepatkan perjalanan kita di lapangan terbang, kita juga boleh mendaftar melalui atas talian di laman web syarikat penerbangan, selewat-lewatnya 24 jam sebelum perlepasan. Selain itu kita juga pastikan tiba awal di pintu perlepasan kerana ia akan ditutup 20 minit sebelum waktu perlepasan. Akan ada barisan menunggu dan aturan untuk menaiki pesawat. Selepas dokumen disemak oleh petugas, kami dibenarkan masuk ke dalam kapal terbang. Saya berasa sangat gembira, harap dapat percutian yang menarik."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "kad ID sahaja",
     "e-tiket bersama kad ID, lesen pemandu, atau pasport"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Saya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawat sepupu yang berada di Taiwan. Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui penerbangan, kami perlu mempunyai masa yang mencukupi untuk pemeriksaan sekuriti dan kebenaran imigrasi sebelum perlepasan. Semasa di kaunter daftar masuk, tunjukkan e-tiket di App telefon bimbit atau emel bersama kad ID kamu, lesen pemandu, atau pasport kepada staf syarikat penerbangan. Kemudian, kami membawa bagasi ke mesin pengimbas. Ingatkan bagi setiap bagasi yang didaftar masuk, tidak boleh melebihi 32 kg, semua bentuk cecair hendaklah dibawa ke dalam bekas dengan kapasiti tidak melebihi 100 ml, atau bersamaan dengan ukuran volumetrik yang lain. Setelah selesai bagasi daftar, kami berbaris di balai pelepasan. Kami diminta menunjukkan tiket serta kad pengenalan di kaunter pemeriksaan. Untuk mempercepatkan perjalanan kita di lapangan terbang, kita juga boleh mendaftar melalui atas talian di laman web syarikat penerbangan, selewat-lewatnya 24 jam sebelum perlepasan. Selain itu kita juga pastikan tiba awal di pintu perlepasan kerana ia akan ditutup 20 minit sebelum waktu perlepasan. Akan ada barisan menunggu dan aturan untuk menaiki pesawat. Selepas dokumen disemak oleh petugas, kami dibenarkan masuk ke dalam kapal terbang. Saya berasa sangat gembira, harap dapat percutian yang menarik."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Akan ditutup 24 jam selepas waktu perlepasan.",
     "Akan ditutup 20 jam selepas waktu perlepasan."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Saya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawat sepupu yang berada di Taiwan. Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui penerbangan, kami perlu mempunyai masa yang mencukupi untuk pemeriksaan sekuriti dan kebenaran imigrasi sebelum perlepasan. Semasa di kaunter daftar masuk, tunjukkan e-tiket di App telefon bimbit atau emel bersama kad ID kamu, lesen pemandu, atau pasport kepada staf syarikat penerbangan. Kemudian, kami membawa bagasi ke mesin pengimbas. Ingatkan bagi setiap bagasi yang didaftar masuk, tidak boleh melebihi 32 kg, semua bentuk cecair hendaklah dibawa ke dalam bekas dengan kapasiti tidak melebihi 100 ml, atau bersamaan dengan ukuran volumetrik yang lain. Setelah selesai bagasi daftar, kami berbaris di balai pelepasan. Kami diminta menunjukkan tiket serta kad pengenalan di kaunter pemeriksaan. Untuk mempercepatkan perjalanan kita di lapangan terbang, kita juga boleh mendaftar melalui atas talian di laman web syarikat penerbangan, selewat-lewatnya 24 jam sebelum perlepasan. Selain itu kita juga pastikan tiba awal di pintu perlepasan kerana ia akan ditutup 20 minit sebelum waktu perlepasan. Akan ada barisan menunggu dan aturan untuk menaiki pesawat. Selepas dokumen disemak oleh petugas, kami dibenarkan masuk ke dalam kapal terbang. Saya berasa sangat gembira, harap dapat percutian yang menarik."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Tidak boleh membawa bagasi ke mesin pengimbas.",
     "Bentuk cecair adalah tidak dibenar membawa."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Saya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawat sepupu yang berada di Taiwan. Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui penerbangan, kami perlu mempunyai masa yang mencukupi untuk pemeriksaan sekuriti dan kebenaran imigrasi sebelum perlepasan. Semasa di kaunter daftar masuk, tunjukkan e-tiket di App telefon bimbit atau emel bersama kad ID kamu, lesen pemandu, atau pasport kepada staf syarikat penerbangan. Kemudian, kami membawa bagasi ke mesin pengimbas. Ingatkan bagi setiap bagasi yang didaftar masuk, tidak boleh melebihi 32 kg, semua bentuk cecair hendaklah dibawa ke dalam bekas dengan kapasiti tidak melebihi 100 ml, atau bersamaan dengan ukuran volumetrik yang lain. Setelah selesai bagasi daftar, kami berbaris di balai pelepasan. Kami diminta menunjukkan tiket serta kad pengenalan di kaunter pemeriksaan. Untuk mempercepatkan perjalanan kita di lapangan terbang, kita juga boleh mendaftar melalui atas talian di laman web syarikat penerbangan, selewat-lewatnya 24 jam sebelum perlepasan. Selain itu kita juga pastikan tiba awal di pintu perlepasan kerana ia akan ditutup 20 minit sebelum waktu perlepasan. Akan ada barisan menunggu dan aturan untuk menaiki pesawat. Selepas dokumen disemak oleh petugas, kami dibenarkan masuk ke dalam kapal terbang. Saya berasa sangat gembira, harap dapat percutian yang menarik."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d016'] = {
     "Bagasi pemeriksaan",
     "Tiket serta kad pengenalan"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Saya telah mendapat peluang untuk menaiki kapal terbang pertama kali. Saya akan pergi melawat sepupu yang berada di Taiwan. Apabila tiba di lapangan terbang, ayah mendaftar masuk di kaunter. Untuk perjalanan melalui penerbangan, kami perlu mempunyai masa yang mencukupi untuk pemeriksaan sekuriti dan kebenaran imigrasi sebelum perlepasan. Semasa di kaunter daftar masuk, tunjukkan e-tiket di App telefon bimbit atau emel bersama kad ID kamu, lesen pemandu, atau pasport kepada staf syarikat penerbangan. Kemudian, kami membawa bagasi ke mesin pengimbas. Ingatkan bagi setiap bagasi yang didaftar masuk, tidak boleh melebihi 32 kg, semua bentuk cecair hendaklah dibawa ke dalam bekas dengan kapasiti tidak melebihi 100 ml, atau bersamaan dengan ukuran volumetrik yang lain. Setelah selesai bagasi daftar, kami berbaris di balai pelepasan. Kami diminta menunjukkan tiket serta kad pengenalan di kaunter pemeriksaan. Untuk mempercepatkan perjalanan kita di lapangan terbang, kita juga boleh mendaftar melalui atas talian di laman web syarikat penerbangan, selewat-lewatnya 24 jam sebelum perlepasan. Selain itu kita juga pastikan tiba awal di pintu perlepasan kerana ia akan ditutup 20 minit sebelum waktu perlepasan. Akan ada barisan menunggu dan aturan untuk menaiki pesawat. Selepas dokumen disemak oleh petugas, kami dibenarkan masuk ke dalam kapal terbang. Saya berasa sangat gembira, harap dapat percutian yang menarik."
   }
  ]
 };

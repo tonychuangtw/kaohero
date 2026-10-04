@@ -1033,7 +1033,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "une visite guidée",
     "une nouvelle"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Devant vous, l’Arc de triomphe qui a été construit pour célébrer les victoires de Napoléon Ier. Sa construction a duré 30 ans, de 1806 à 1836. Nous descendons maintenant l’avenue des Champs-Élysées qui a été dessinée au XVIIe siècle sous Louis XIV. C’est la plus longue avenue de Paris : 2 km de long sur 71 m de large. Aujourd’hui, sur cette avenue se déroulent les grands événements de la nation, comme le défilé du 14 Juillet. Nous arrivons sur la place de la Concorde, qui date du XVIIIe siècle. Au milieu, vous voyez l’obélisque de Louqsor qui remonte au XIIIe siècle avant Jésus-Christ. Il a été donné à la France par l’Égypte en 1836. Sur votre droite, au loin, vous apercevez le symbole de Paris : la tour Eiffel, qui a été érigée en 1889 pour l’Exposition universelle. De l’autre côté du pont de la Cοncorde, vous avez le palais Bourbon, c’est le siège de l’Assemblée nationale. Nous continuons notre visite en direction de la cathédrale Notre-Dame de Paris. Sur votre gauche, vous pouvez admirer le palais du Louvre, un des plus grands musées du monde. Nous poursuivons notre découverte de Paris : nous longeons les quais de la Seine, qui ont été classés en 1990 au Patrimoine mondial de l’humanité par l’Unesco. Devant vous, sur votre droite, Notre-Dame de Paris. C’est un chef-d’œuvre de l’architecture gothique qui date du Moyen Âge."
   },
   {
    "n": 74,
@@ -1072,7 +1073,7 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "30 ans",
     "20 ans",
     "50 ans",
-    "15 ansLouer plutôt qu’acheter !"
+    "15 ans"
    ],
    "a": 0,
    "exp": "✅ (A) 凱旋門 1806 年由拿破崙下令動工，中途因政局更迭多次停擺，直到 1836 年路易-菲利普時期才落成，前後約 30 年。\n❌ (B) 20 年只到 1826 年，當時工程仍未完成。\n❌ (C) 50 年遠超過實際工期，1856 年凱旋門早已啟用多年。\n❌ (D) 15 年更短，1821 年前後工程一度停頓，遠未完工。\n📚 出處：巴黎地標（凱旋門 1806–1836 年興建）"
@@ -1088,7 +1089,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "manière d’être propriétaire",
     "mode de transport"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Louer plutôt qu’acheter ! Les Français se tournent de plus en plus vers la location d’objets ou de services. Les spécialistes appellent cela l’économie de la fonctionnalité. Est-ce la fin de la propriété ? Un français sur deux souhaite consommer plus de produits par abonnement, selon une enquête IFOP. [...] 87% des Français considèrent que la consommation par abonnement est adaptée à la consommation de films, de livres et de produits culturels et de musique. Et les objets du quotidien connaissent la même évolution. Pourquoi acheter une voiture quand on habite dans une grande ville, où il existe beaucoup de transports en commun mais peu de parkings ? Pour 69% des Français, la location automobile a de l’avenir. L’idée séduit surtout les jeunes, les personnes aisées et ceux qui habitent en ville. Pour eux, la location a un sens écologique : à quoi sert de posséder un outil dont on se sert une fois par an si on peut le partager en louant ? Pour les couples aux revenus plus modestes, la location est davantage une question de nécessité. Elle permet d’éviter de demander un crédit à la consommation. [...] Des sites internet se spécialisent. Certains s’adressent aux jeunes parents qui doivent s’équiper d’un matériel à usage limité dans le temps comme la poussette ou le siège auto pour bébé. Ces sites sont utiles aussi pour ceux qui ne veulent pas avoir à transporter tout ce matériel volumineux sur la route des vacances et qui préfèrent pouvoir le louer pour juste une semaine ou deux. Un nouveau modèle économique est en marche !"
   },
   {
    "n": 78,
@@ -1101,7 +1103,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "aiment l’idée de partager des biens de consommation",
     "ne souhaitent pas emprunter de l’argent"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Louer plutôt qu’acheter ! Les Français se tournent de plus en plus vers la location d’objets ou de services. Les spécialistes appellent cela l’économie de la fonctionnalité. Est-ce la fin de la propriété ? Un français sur deux souhaite consommer plus de produits par abonnement, selon une enquête IFOP. [...] 87% des Français considèrent que la consommation par abonnement est adaptée à la consommation de films, de livres et de produits culturels et de musique. Et les objets du quotidien connaissent la même évolution. Pourquoi acheter une voiture quand on habite dans une grande ville, où il existe beaucoup de transports en commun mais peu de parkings ? Pour 69% des Français, la location automobile a de l’avenir. L’idée séduit surtout les jeunes, les personnes aisées et ceux qui habitent en ville. Pour eux, la location a un sens écologique : à quoi sert de posséder un outil dont on se sert une fois par an si on peut le partager en louant ? Pour les couples aux revenus plus modestes, la location est davantage une question de nécessité. Elle permet d’éviter de demander un crédit à la consommation. [...] Des sites internet se spécialisent. Certains s’adressent aux jeunes parents qui doivent s’équiper d’un matériel à usage limité dans le temps comme la poussette ou le siège auto pour bébé. Ces sites sont utiles aussi pour ceux qui ne veulent pas avoir à transporter tout ce matériel volumineux sur la route des vacances et qui préfèrent pouvoir le louer pour juste une semaine ou deux. Un nouveau modèle économique est en marche !"
   },
   {
    "n": 79,
@@ -1114,7 +1117,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "un film",
     "une table"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Louer plutôt qu’acheter ! Les Français se tournent de plus en plus vers la location d’objets ou de services. Les spécialistes appellent cela l’économie de la fonctionnalité. Est-ce la fin de la propriété ? Un français sur deux souhaite consommer plus de produits par abonnement, selon une enquête IFOP. [...] 87% des Français considèrent que la consommation par abonnement est adaptée à la consommation de films, de livres et de produits culturels et de musique. Et les objets du quotidien connaissent la même évolution. Pourquoi acheter une voiture quand on habite dans une grande ville, où il existe beaucoup de transports en commun mais peu de parkings ? Pour 69% des Français, la location automobile a de l’avenir. L’idée séduit surtout les jeunes, les personnes aisées et ceux qui habitent en ville. Pour eux, la location a un sens écologique : à quoi sert de posséder un outil dont on se sert une fois par an si on peut le partager en louant ? Pour les couples aux revenus plus modestes, la location est davantage une question de nécessité. Elle permet d’éviter de demander un crédit à la consommation. [...] Des sites internet se spécialisent. Certains s’adressent aux jeunes parents qui doivent s’équiper d’un matériel à usage limité dans le temps comme la poussette ou le siège auto pour bébé. Ces sites sont utiles aussi pour ceux qui ne veulent pas avoir à transporter tout ce matériel volumineux sur la route des vacances et qui préfèrent pouvoir le louer pour juste une semaine ou deux. Un nouveau modèle économique est en marche !"
   },
   {
    "n": 80,
@@ -1127,7 +1131,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l006'] = {
     "est favorable à la location de voitures.",
     "a un intérêt pour les gens qui habitent à la campagne."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Louer plutôt qu’acheter ! Les Français se tournent de plus en plus vers la location d’objets ou de services. Les spécialistes appellent cela l’économie de la fonctionnalité. Est-ce la fin de la propriété ? Un français sur deux souhaite consommer plus de produits par abonnement, selon une enquête IFOP. [...] 87% des Français considèrent que la consommation par abonnement est adaptée à la consommation de films, de livres et de produits culturels et de musique. Et les objets du quotidien connaissent la même évolution. Pourquoi acheter une voiture quand on habite dans une grande ville, où il existe beaucoup de transports en commun mais peu de parkings ? Pour 69% des Français, la location automobile a de l’avenir. L’idée séduit surtout les jeunes, les personnes aisées et ceux qui habitent en ville. Pour eux, la location a un sens écologique : à quoi sert de posséder un outil dont on se sert une fois par an si on peut le partager en louant ? Pour les couples aux revenus plus modestes, la location est davantage une question de nécessité. Elle permet d’éviter de demander un crédit à la consommation. [...] Des sites internet se spécialisent. Certains s’adressent aux jeunes parents qui doivent s’équiper d’un matériel à usage limité dans le temps comme la poussette ou le siège auto pour bébé. Ces sites sont utiles aussi pour ceux qui ne veulent pas avoir à transporter tout ce matériel volumineux sur la route des vacances et qui préfèrent pouvoir le louer pour juste une semaine ou deux. Un nouveau modèle économique est en marche !"
   }
  ]
 };

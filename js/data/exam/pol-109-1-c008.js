@@ -472,7 +472,7 @@ window.APP_EXAM_PAPERS['pol-109-1-c008'] = {
     "neglect",
     "deceive",
     "shelter",
-    "classify請依下文回答第 34 題至第 38 題：There are many different types of emergency vehicles around the world. The types of emergency lights they use"
+    "classify"
    ],
    "a": 1,
    "exp": "✅ (B) deceive 意為「欺騙、矇騙」，假新聞（fake news）之製作目的通常是為了欺騙大眾或操縱觀點。\n❌ (A) neglect 意為「忽視、疏忽」，與製造假新聞文意相反。\n❌ (C) shelter 意為「庇護、掩蔽」，語意不符。\n❌ (D) classify 意為「歸類、分級」，不符合假新聞誤導民眾之文意。\n📚 出處：警察專業英文——假訊息防制與媒體識讀。"
@@ -481,76 +481,71 @@ window.APP_EXAM_PAPERS['pol-109-1-c008'] = {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 34 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "where",
+    "when",
+    "what",
+    "why"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109070_601_0207_34.webp"
+   "psg": "There are many different types of emergency vehicles around the world. The types of emergency lights they use can vary widely from country to country. In many areas, however, flashing red and blue lights are the standard emergency lights on many vehicles. There are a few theories about 34 red and blue lights become the most popular. For example, while the color red is associated with stop and warning, red emergency lights can get 35 in heavy traffic because of the fact that most tail lights are also red. In these situations, blue lights really 36 and help to alert other drivers. Others point to studies indicating that red lights may be more visible during the day, while blue lights may be more visible at night. Using a combination of flashing red and blue lights thus helps to alert drivers 37 the time of day. Finally, some experts believe using both red and blue lights alleviates problems associated with drivers who are colorblind. People who have trouble seeing red often have no trouble seeing blue. 38 , drivers who can’t see blue can nonetheless see red. Using both red and blue lights thus helps to alert all drivers, even those with color blindness."
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 35 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "losing",
+    "loose",
+    "lost",
+    "lose"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_601_0207_35.webp"
+   "psg": "There are many different types of emergency vehicles around the world. The types of emergency lights they use can vary widely from country to country. In many areas, however, flashing red and blue lights are the standard emergency lights on many vehicles. There are a few theories about 34 red and blue lights become the most popular. For example, while the color red is associated with stop and warning, red emergency lights can get 35 in heavy traffic because of the fact that most tail lights are also red. In these situations, blue lights really 36 and help to alert other drivers. Others point to studies indicating that red lights may be more visible during the day, while blue lights may be more visible at night. Using a combination of flashing red and blue lights thus helps to alert drivers 37 the time of day. Finally, some experts believe using both red and blue lights alleviates problems associated with drivers who are colorblind. People who have trouble seeing red often have no trouble seeing blue. 38 , drivers who can’t see blue can nonetheless see red. Using both red and blue lights thus helps to alert all drivers, even those with color blindness."
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "stand out",
+    "come apart",
+    "drop off",
+    "go ahead"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_601_0207_36.webp"
+   "psg": "There are many different types of emergency vehicles around the world. The types of emergency lights they use can vary widely from country to country. In many areas, however, flashing red and blue lights are the standard emergency lights on many vehicles. There are a few theories about 34 red and blue lights become the most popular. For example, while the color red is associated with stop and warning, red emergency lights can get 35 in heavy traffic because of the fact that most tail lights are also red. In these situations, blue lights really 36 and help to alert other drivers. Others point to studies indicating that red lights may be more visible during the day, while blue lights may be more visible at night. Using a combination of flashing red and blue lights thus helps to alert drivers 37 the time of day. Finally, some experts believe using both red and blue lights alleviates problems associated with drivers who are colorblind. People who have trouble seeing red often have no trouble seeing blue. 38 , drivers who can’t see blue can nonetheless see red. Using both red and blue lights thus helps to alert all drivers, even those with color blindness."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "regardless of",
+    "according to",
+    "right after",
+    "away from"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_601_0207_37.webp"
+   "psg": "There are many different types of emergency vehicles around the world. The types of emergency lights they use can vary widely from country to country. In many areas, however, flashing red and blue lights are the standard emergency lights on many vehicles. There are a few theories about 34 red and blue lights become the most popular. For example, while the color red is associated with stop and warning, red emergency lights can get 35 in heavy traffic because of the fact that most tail lights are also red. In these situations, blue lights really 36 and help to alert other drivers. Others point to studies indicating that red lights may be more visible during the day, while blue lights may be more visible at night. Using a combination of flashing red and blue lights thus helps to alert drivers 37 the time of day. Finally, some experts believe using both red and blue lights alleviates problems associated with drivers who are colorblind. People who have trouble seeing red often have no trouble seeing blue. 38 , drivers who can’t see blue can nonetheless see red. Using both red and blue lights thus helps to alert all drivers, even those with color blindness."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Consequently",
+    "Likewise",
+    "Thereby",
+    "Perhaps"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109070_601_0207_38.webp"
+   "psg": "There are many different types of emergency vehicles around the world. The types of emergency lights they use can vary widely from country to country. In many areas, however, flashing red and blue lights are the standard emergency lights on many vehicles. There are a few theories about 34 red and blue lights become the most popular. For example, while the color red is associated with stop and warning, red emergency lights can get 35 in heavy traffic because of the fact that most tail lights are also red. In these situations, blue lights really 36 and help to alert other drivers. Others point to studies indicating that red lights may be more visible during the day, while blue lights may be more visible at night. Using a combination of flashing red and blue lights thus helps to alert drivers 37 the time of day. Finally, some experts believe using both red and blue lights alleviates problems associated with drivers who are colorblind. People who have trouble seeing red often have no trouble seeing blue. 38 , drivers who can’t see blue can nonetheless see red. Using both red and blue lights thus helps to alert all drivers, even those with color blindness."
   },
   {
    "n": 39,

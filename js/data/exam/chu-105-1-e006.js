@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
     "offered",
     "cautioned",
     "hesitated",
-    "introducedThere are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these"
+    "introduced"
    ],
    "a": 0,
    "exp": "✅ (A) 看到迷路的觀光客，合理的反應是「主動表示要幫忙」；offer to V 即「主動提議做某事」。\n❌ (B) caution 是「警告、告誡」，與看到旅客迷路後的善意舉動不符。\n❌ (C) hesitate to help 是「遲疑不願幫忙」，與 so 表示的因果語氣相反。\n❌ (D) introduce 是「介紹」，不與 to help 構成這裡所需的語意。\n📚 出處：動詞語意辨析與 offer to V 句型"
@@ -579,61 +579,57 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "destroy",
+    "invent",
+    "arrest",
+    "visit"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105010_502_0104_41.webp"
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "harvest",
+    "store",
+    "grow",
+    "search"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105010_502_0104_42.webp"
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "safe",
+    "hard",
+    "cruel",
+    "tight"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105010_502_0104_43.webp"
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Turkey",
+    "rooms",
+    "cities",
+    "stone"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105010_502_0104_44.webp"
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
   },
   {
    "n": 45,
@@ -648,7 +644,8 @@ window.APP_EXAM_PAPERS['chu-105-1-e006'] = {
    ],
    "needfig": true,
    "fig": "img/q/105010_502_0104_45.webp",
-   "a": 0
+   "a": 0,
+   "psg": "There are some old cities in Turkey. Some of the cities are over 2,000 years old. No one lives in these cities today, but people still 41 them. Why do tourists want to see them? Because the cities are under the ground! The cities had kitchens. They had meeting rooms. They had places to 42 cereal. They had tables. They even had air tunnels or chimneys. The air tunnels made it 43 to breathe more than one hundred feet under the ground. They kept fresh air flowing through the 44 . The cities had locking stones. The stones could only be opened or closed 45 inside. The locking stones were used to keep the people safe inside the cities."
   },
   {
    "n": 46,

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "tertinggal",
     "terlampir",
     "tersimpan",
-    "terlimpahBento Kereta Api di Taiwan"
+    "terlimpah"
    ],
    "a": 0,
    "exp": "✅ (A) 「tertinggal」指無意間遺留、遺忘落在某處，符合「護照遺落在公車上，導遊請我去拿」的句意情境。\n❌ (B) 「terlampir」意為隨信附上、隨附（文件附件），不符句意。\n❌ (C) 「tersimpan」意為被妥善保管收藏，語境非不慎遺落。\n❌ (D) 「terlimpah」意為充沛、溢出，不符句意。\n📚 出處：印尼語動詞前綴 ter-（表示無意識遺留狀態）"
@@ -1060,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "Harga yang sangat terjangkau, jumlah lauk yang lengkap dan banyak serta tentu saja enaksekali.",
     "Harga mahal karena sangat langka dan bersejarah.",
     "Harga terjangkau, jumlah lauk tidak banyak tapi enak sekali.",
-    "Harga murah tapi kurang enak.Lokasi Zona Hijau di Bali"
+    "Harga murah tapi kurang enak."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Bento Kereta Api di Taiwan Untuk orang yang tidak mempersoalkan makanan halal atau tidak, tentu sangat sulit untuk menolak tawaran makan Bento Kereta Api, apalagi yang isi daging iga babi kecap maupun goreng. Bento khas ini dijual oleh TRA yaitu Perusahaan Kereta Api Taiwan. TRA juga mengetengahkan bento-bento aneka aroma sesuai dengan makanan khas setiap daerah yang dilalui KA. Bagaimana rasanya bento Taiwan? Ini adalah pertanyaan dari hampir setiap wisatawan asing yang ke Taiwan. Ada pemandu wisata memberikan gambaran bento seperti ini kepada tamu-tamunya agar tambah penasaran. Ia mengatakan bahwa ketika anda membuka tutup nasi bento yakni nasi kotak atau lazim disebut biandang, segera tercium bau harum semerbak gurihnya lauk-pauk di dalam kotak bento yang kadang bulat kadang kotak-kotak, dan bento sering dilengkapi dengan sebutir telur kecap yang gurih rasanya, ditambah lagi dengan tekstur nasi Taiwan yang lembut tapi ada sedikit kenyal, pokoknya tiada duanya di atas dunia ini. Bagi orang Taiwan sendiri, aroma nostalgia seperti ini sudah terpatri lekat dalam lubuk hati setiap orang Taiwan. Harga yang sangat terjangkau, jumlah lauk yang lengkap dan banyak, adalah ciri khas bento KA Taiwan."
   },
   {
    "n": 76,
@@ -1075,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "karena",
     "sehingga"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lokasi Zona Hijau di Bali Dibukanya kembali pintu pariwisata juga didukung 76 ditetapkan lokasi zona hijau di Bali. Sudah ada tiga wilayah di Bali 77 ditetapkan sebagai Zona Hijau Bebas COVID-19, yaitu Ubud (Kabupaten Gianyar), Nusa Dua (Kabupaten Badung), dan juga Sanur (Kota Denpasar). Penetapan zona hijau ini diharapkan 78 memberikan rasa aman dan nyaman wisatawan yang berkunjung. Selain itu Menparekraf Sandiaga Uno juga akan membuka pariwisata Bali melalui kebijakan Travel Corridor Arrangement (TCA). Saat ini TCA telah memasuki tahap finalisasi uji coba penerimaan wisatawan mancanegara pada Juli 2021. Menparekraf Sandiaga Uno terus berkoordinasi 79 Kementerian dan lembaga terkait terutama Kementerian Luar Negeri, Kementerian Hukum dan HAM, Kementerian Kesehatan, Satgas COVID-19, dan Pemerintah Provinsi Bali agar TCA dapat berjalan tepat waktu. Nantinya syarat wisatawan mancanegara yang diperbolehkan mengikuti TCA antara lain: sudah divaksin, lolos tes PCR sebelum berangkat dan kedatangan, 80 berwisata di zona hijau (Sanur, Ubud, dan Nusa Dua)."
   },
   {
    "n": 77,
@@ -1088,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "sehingga",
     "oleh"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lokasi Zona Hijau di Bali Dibukanya kembali pintu pariwisata juga didukung 76 ditetapkan lokasi zona hijau di Bali. Sudah ada tiga wilayah di Bali 77 ditetapkan sebagai Zona Hijau Bebas COVID-19, yaitu Ubud (Kabupaten Gianyar), Nusa Dua (Kabupaten Badung), dan juga Sanur (Kota Denpasar). Penetapan zona hijau ini diharapkan 78 memberikan rasa aman dan nyaman wisatawan yang berkunjung. Selain itu Menparekraf Sandiaga Uno juga akan membuka pariwisata Bali melalui kebijakan Travel Corridor Arrangement (TCA). Saat ini TCA telah memasuki tahap finalisasi uji coba penerimaan wisatawan mancanegara pada Juli 2021. Menparekraf Sandiaga Uno terus berkoordinasi 79 Kementerian dan lembaga terkait terutama Kementerian Luar Negeri, Kementerian Hukum dan HAM, Kementerian Kesehatan, Satgas COVID-19, dan Pemerintah Provinsi Bali agar TCA dapat berjalan tepat waktu. Nantinya syarat wisatawan mancanegara yang diperbolehkan mengikuti TCA antara lain: sudah divaksin, lolos tes PCR sebelum berangkat dan kedatangan, 80 berwisata di zona hijau (Sanur, Ubud, dan Nusa Dua)."
   },
   {
    "n": 78,
@@ -1101,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "dapat",
     "sehingga"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lokasi Zona Hijau di Bali Dibukanya kembali pintu pariwisata juga didukung 76 ditetapkan lokasi zona hijau di Bali. Sudah ada tiga wilayah di Bali 77 ditetapkan sebagai Zona Hijau Bebas COVID-19, yaitu Ubud (Kabupaten Gianyar), Nusa Dua (Kabupaten Badung), dan juga Sanur (Kota Denpasar). Penetapan zona hijau ini diharapkan 78 memberikan rasa aman dan nyaman wisatawan yang berkunjung. Selain itu Menparekraf Sandiaga Uno juga akan membuka pariwisata Bali melalui kebijakan Travel Corridor Arrangement (TCA). Saat ini TCA telah memasuki tahap finalisasi uji coba penerimaan wisatawan mancanegara pada Juli 2021. Menparekraf Sandiaga Uno terus berkoordinasi 79 Kementerian dan lembaga terkait terutama Kementerian Luar Negeri, Kementerian Hukum dan HAM, Kementerian Kesehatan, Satgas COVID-19, dan Pemerintah Provinsi Bali agar TCA dapat berjalan tepat waktu. Nantinya syarat wisatawan mancanegara yang diperbolehkan mengikuti TCA antara lain: sudah divaksin, lolos tes PCR sebelum berangkat dan kedatangan, 80 berwisata di zona hijau (Sanur, Ubud, dan Nusa Dua)."
   },
   {
    "n": 79,
@@ -1114,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "yang",
     "atau"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lokasi Zona Hijau di Bali Dibukanya kembali pintu pariwisata juga didukung 76 ditetapkan lokasi zona hijau di Bali. Sudah ada tiga wilayah di Bali 77 ditetapkan sebagai Zona Hijau Bebas COVID-19, yaitu Ubud (Kabupaten Gianyar), Nusa Dua (Kabupaten Badung), dan juga Sanur (Kota Denpasar). Penetapan zona hijau ini diharapkan 78 memberikan rasa aman dan nyaman wisatawan yang berkunjung. Selain itu Menparekraf Sandiaga Uno juga akan membuka pariwisata Bali melalui kebijakan Travel Corridor Arrangement (TCA). Saat ini TCA telah memasuki tahap finalisasi uji coba penerimaan wisatawan mancanegara pada Juli 2021. Menparekraf Sandiaga Uno terus berkoordinasi 79 Kementerian dan lembaga terkait terutama Kementerian Luar Negeri, Kementerian Hukum dan HAM, Kementerian Kesehatan, Satgas COVID-19, dan Pemerintah Provinsi Bali agar TCA dapat berjalan tepat waktu. Nantinya syarat wisatawan mancanegara yang diperbolehkan mengikuti TCA antara lain: sudah divaksin, lolos tes PCR sebelum berangkat dan kedatangan, 80 berwisata di zona hijau (Sanur, Ubud, dan Nusa Dua)."
   },
   {
    "n": 80,
@@ -1127,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d015'] = {
     "sehingga",
     "meskipun"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lokasi Zona Hijau di Bali Dibukanya kembali pintu pariwisata juga didukung 76 ditetapkan lokasi zona hijau di Bali. Sudah ada tiga wilayah di Bali 77 ditetapkan sebagai Zona Hijau Bebas COVID-19, yaitu Ubud (Kabupaten Gianyar), Nusa Dua (Kabupaten Badung), dan juga Sanur (Kota Denpasar). Penetapan zona hijau ini diharapkan 78 memberikan rasa aman dan nyaman wisatawan yang berkunjung. Selain itu Menparekraf Sandiaga Uno juga akan membuka pariwisata Bali melalui kebijakan Travel Corridor Arrangement (TCA). Saat ini TCA telah memasuki tahap finalisasi uji coba penerimaan wisatawan mancanegara pada Juli 2021. Menparekraf Sandiaga Uno terus berkoordinasi 79 Kementerian dan lembaga terkait terutama Kementerian Luar Negeri, Kementerian Hukum dan HAM, Kementerian Kesehatan, Satgas COVID-19, dan Pemerintah Provinsi Bali agar TCA dapat berjalan tepat waktu. Nantinya syarat wisatawan mancanegara yang diperbolehkan mengikuti TCA antara lain: sudah divaksin, lolos tes PCR sebelum berangkat dan kedatangan, 80 berwisata di zona hijau (Sanur, Ubud, dan Nusa Dua)."
   }
  ]
 };

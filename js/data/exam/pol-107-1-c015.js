@@ -640,7 +640,7 @@ window.APP_EXAM_PAPERS['pol-107-1-c015'] = {
     "trafficking",
     "traffic",
     "ticketing",
-    "tariff請依下文回答第 46 題至第 50 題：R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major"
+    "tariff"
    ],
    "a": 0,
    "exp": "✅ (A) trafficking 與 human 搭配構成 human trafficking，意指「人口販運」，句意為水上警察發現海上人口販運持續以驚人速度攀升。\n❌ (B) traffic 意指一般「交通」或「正常商業買賣」，非跨國人口買賣犯罪之精確法律名詞。\n❌ (C) ticketing 意指「開立交通罰單」或「售票」，與海上跨國人口犯罪情境不符。\n❌ (D) tariff 意指「關稅」，與 human 連用不符文意（本選項後方附帶之文字為題組引言誤植）。\n📚 出處：海事犯罪與跨國執法英文：human trafficking（人口販運）。"
@@ -649,76 +649,71 @@ window.APP_EXAM_PAPERS['pol-107-1-c015'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dismissed",
+    "alleged",
+    "preserved",
+    "transformed"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_604_0211_46.webp"
+   "psg": "R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major crimes unit, namely, conducting investigations of actual, 46 or suspected ‘general’ criminal activity, and performing search and rescue operations. Importantly, it also engages in maritime-related law enforcement, including but not limited to, preventing illegal migrant or drug smuggling, 47 Taiwan’s jurisdiction waters, assisting in enforcing port and maritime regulations, and safeguarding marine resource. In particular, the last mission is usually not widely known by the general public. For instance, R.O.C. Coast Guard clamps down on illegal trawling to protect fishery resources; in some serious cases, they may even 48 vessels and/or restrain their operation when the regulations of fisheries authorities are violated. Last but not least, R.O.C. Coast Guard also plays a significant–but often overlooked–role in maintaining the 49 of Taiwan’s boundary of administration; it provides a more diplomatic soft power than the country’s naval warfare force and exerts a substantial influence on Taiwan’s foreign policy. Its ongoing and regular 50 nearby the highly disputed Diaoyu Islands is a case in point."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "extracting",
+    "disseminating",
+    "patrolling",
+    "trespassing"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_604_0211_47.webp"
+   "psg": "R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major crimes unit, namely, conducting investigations of actual, 46 or suspected ‘general’ criminal activity, and performing search and rescue operations. Importantly, it also engages in maritime-related law enforcement, including but not limited to, preventing illegal migrant or drug smuggling, 47 Taiwan’s jurisdiction waters, assisting in enforcing port and maritime regulations, and safeguarding marine resource. In particular, the last mission is usually not widely known by the general public. For instance, R.O.C. Coast Guard clamps down on illegal trawling to protect fishery resources; in some serious cases, they may even 48 vessels and/or restrain their operation when the regulations of fisheries authorities are violated. Last but not least, R.O.C. Coast Guard also plays a significant–but often overlooked–role in maintaining the 49 of Taiwan’s boundary of administration; it provides a more diplomatic soft power than the country’s naval warfare force and exerts a substantial influence on Taiwan’s foreign policy. Its ongoing and regular 50 nearby the highly disputed Diaoyu Islands is a case in point."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "extrapolate",
+    "smuggle",
+    "authorize",
+    "confiscate"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_604_0211_48.webp"
+   "psg": "R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major crimes unit, namely, conducting investigations of actual, 46 or suspected ‘general’ criminal activity, and performing search and rescue operations. Importantly, it also engages in maritime-related law enforcement, including but not limited to, preventing illegal migrant or drug smuggling, 47 Taiwan’s jurisdiction waters, assisting in enforcing port and maritime regulations, and safeguarding marine resource. In particular, the last mission is usually not widely known by the general public. For instance, R.O.C. Coast Guard clamps down on illegal trawling to protect fishery resources; in some serious cases, they may even 48 vessels and/or restrain their operation when the regulations of fisheries authorities are violated. Last but not least, R.O.C. Coast Guard also plays a significant–but often overlooked–role in maintaining the 49 of Taiwan’s boundary of administration; it provides a more diplomatic soft power than the country’s naval warfare force and exerts a substantial influence on Taiwan’s foreign policy. Its ongoing and regular 50 nearby the highly disputed Diaoyu Islands is a case in point."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "extradition",
+    "commitment",
+    "admission",
+    "integrity"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_604_0211_49.webp"
+   "psg": "R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major crimes unit, namely, conducting investigations of actual, 46 or suspected ‘general’ criminal activity, and performing search and rescue operations. Importantly, it also engages in maritime-related law enforcement, including but not limited to, preventing illegal migrant or drug smuggling, 47 Taiwan’s jurisdiction waters, assisting in enforcing port and maritime regulations, and safeguarding marine resource. In particular, the last mission is usually not widely known by the general public. For instance, R.O.C. Coast Guard clamps down on illegal trawling to protect fishery resources; in some serious cases, they may even 48 vessels and/or restrain their operation when the regulations of fisheries authorities are violated. Last but not least, R.O.C. Coast Guard also plays a significant–but often overlooked–role in maintaining the 49 of Taiwan’s boundary of administration; it provides a more diplomatic soft power than the country’s naval warfare force and exerts a substantial influence on Taiwan’s foreign policy. Its ongoing and regular 50 nearby the highly disputed Diaoyu Islands is a case in point."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "expedition",
+    "logistics",
+    "detour",
+    "convergence"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_604_0211_50.webp"
+   "psg": "R.O.C. Coast Guard is a federal law enforcement agency whose primary mission is similar to that of any major crimes unit, namely, conducting investigations of actual, 46 or suspected ‘general’ criminal activity, and performing search and rescue operations. Importantly, it also engages in maritime-related law enforcement, including but not limited to, preventing illegal migrant or drug smuggling, 47 Taiwan’s jurisdiction waters, assisting in enforcing port and maritime regulations, and safeguarding marine resource. In particular, the last mission is usually not widely known by the general public. For instance, R.O.C. Coast Guard clamps down on illegal trawling to protect fishery resources; in some serious cases, they may even 48 vessels and/or restrain their operation when the regulations of fisheries authorities are violated. Last but not least, R.O.C. Coast Guard also plays a significant–but often overlooked–role in maintaining the 49 of Taiwan’s boundary of administration; it provides a more diplomatic soft power than the country’s naval warfare force and exerts a substantial influence on Taiwan’s foreign policy. Its ongoing and regular 50 nearby the highly disputed Diaoyu Islands is a case in point."
   }
  ]
 };

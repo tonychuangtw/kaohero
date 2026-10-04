@@ -430,7 +430,7 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
     "emphasis",
     "tension",
     "emission",
-    "tendency請依下文回答第 31 題至第 35 題：How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There"
+    "tendency"
    ],
    "a": 0,
    "exp": "✅ (A) emphasis 為名詞「強調、著重」，搭配片語 place emphasis on sth 意為「把重點放在…、強調…」，符合新環保政策著重家庭垃圾回收的句意。\n❌ (B) tension 為「緊張局勢、拉力」，常見搭配為 relieve tension，不與 place tension on 連用表示施政重點。\n❌ (C) emission 為「排放物、散發」，如 carbon emissions，不能與 place on 搭配表示政策強調方向。\n❌ (D) tendency 為「傾向、偏好」，常搭配 have a tendency to，不能與 place on 搭配表示加強重點。\n📚 出處：英文字彙與片語；政策宣導常見搭配 place emphasis on。"
@@ -439,76 +439,71 @@ window.APP_EXAM_PAPERS['pol-110-1-c002'] = {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 31 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "is used",
+    "has used",
+    "was using",
+    "used"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_401_0204_31.webp"
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
   },
   {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 32 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "version",
+    "extension",
+    "admission",
+    "caution"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_401_0204_32.webp"
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 33 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "precious",
+    "difficult",
+    "efficient",
+    "instant"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_401_0204_33.webp"
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 34 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "survive",
+    "destroy",
+    "support",
+    "collect"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_401_0204_34.webp"
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
   },
   {
    "n": 35,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 35 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "convenient",
+    "destructive",
+    "resistant",
+    "hesitant"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110070_401_0204_35.webp"
+   "psg": "How many times has your heart sunk after dropping your smartphone and worrying if you smashed the glass? There may be an answer to reduce that feeling. The glass 31 to make the screens on many of the world’s smartphones just got tougher. The company that makes the glass has just made a stronger 32 . It is called Gorilla Glass and has been used in smartphones for many years. The company has greatly improved the glass to make it more 33 to scratch, crack, or smash. The new product can 34 drops of up to two meters without any signs of damage. It is also two times more scratch- 35 than other glass. The glass was first used on products by a leading company."
   },
   {
    "n": 36,

@@ -556,7 +556,7 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
     "meticulous",
     "descriptive",
     "legendary",
-    "noticeable第 40 題至第 43 題為題組Isaac Newton was born on Christmas Day, 1642. His father had passed away a few months earlier. Three years later,"
+    "noticeable"
    ],
    "a": 0,
    "exp": "✅ (A) meticulous 意為「一絲不苟的」，與 careful 並列並解釋他不放過犯罪現場任何一處。\n❌ (B) descriptive 是描述性的。\n❌ (C) legendary 是傳奇的。\n❌ (D) noticeable 是顯而易見的。\n📚 出處：字彙題，careful and meticulous 的並列語意"
@@ -565,46 +565,43 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "leaving",
+    "leave",
+    "left",
+    "had left"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/103180_401_0206_40.webp"
+   "psg": "為題組 Isaac Newton was born on Christmas Day, 1642. His father had passed away a few months earlier. Three years later, his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”"
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "in the least",
+    "at last",
+    "at least",
+    "by no means"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/103180_401_0206_41.webp"
+   "psg": "為題組 Isaac Newton was born on Christmas Day, 1642. His father had passed away a few months earlier. Three years later, his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "therefore",
+    "nevertheless",
+    "furthermore",
+    "moreover"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/103180_401_0206_42.webp"
+   "psg": "為題組 Isaac Newton was born on Christmas Day, 1642. His father had passed away a few months earlier. Three years later, his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”"
   },
   {
    "n": 43,
@@ -619,7 +616,8 @@ window.APP_EXAM_PAPERS['loc-103-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/103180_401_0206_43.webp",
-   "a": 0
+   "a": 0,
+   "psg": "為題組 Isaac Newton was born on Christmas Day, 1642. His father had passed away a few months earlier. Three years later, his mother remarried and moved to a neighboring village, 40 Isaac in the care of his grandmother at Woolsthorpe, an estate that had been in the family for two hundred years. When Newton was fourteen, his mother, widowed a second time, returned to Woolsthorpe with the three children of her second marriage. Soon afterwards she brought Isaac home from school to learn to manage the estate, which did not appeal to him 41 . He divided his time between reading and ingenious tinkering; he built dolls’ houses for his little sisters, a model windmill, and a water clock that continued to run for years. What he did failed to meet his mother’s expectation; 42 , his mother decided to send him back to school. At eighteen he was admitted to Trinity College at Cambridge University. He had just completed his studies when the plague forced him to go back home. He set off for the peace and quiet of his rural English birthplace, where he 43 spend a year. This period was so rich in discovery that future historians would refer to it as the “miraculous year.”"
   },
   {
    "n": 44,

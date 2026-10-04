@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "ke",
     "ke mana",
     "ke mari",
-    "di mana( 依據下列文章，回答以下 71-75 題 )Pramuwisata"
+    "di mana"
    ],
    "a": 0,
    "exp": "✅ (A) 「berdarmawisata ke…」為固定用法，ke 表方向「前往」，接目的地 candi Borobudur（婆羅浮屠）。\n❌ (B) 「ke mana」意為「去哪裡」，是疑問詞，不能置於肯定句的目的地前。\n❌ (C) 「ke mari」意為「來這裡」，方向相反。\n❌ (D) 「di mana」意為「在哪裡」，表地點而非方向，不合語法。\n📚 出處：印尼語介系詞 ke 表方向之用法"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "pelajar",
     "mahasiswa"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "pelancong",
     "Pemandu Wisata"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "lomba renang",
     "kursus belajar"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "manca negara",
     "Taiwan saja"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "penyabar",
     "pemarah",
     "pemalas",
-    "egoist( 依據下列文章，回答以下 76-80 題 )Kita Teman Baik"
+    "egoist"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "Pemandu Wisata",
     "guru"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "membelikan",
     "mencarikan"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "datang",
     "berangkat bersama saya"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "meninggalkan",
     "berbelanja"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "minggu",
     "tarif"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
   }
  ]
 };

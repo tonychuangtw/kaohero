@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-107-1-b018'] = {
     "affiliations",
     "incentives",
     "incarnations",
-    "aesthetics請依下文回答第 51 題至第 55 題：The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships."
+    "aesthetics"
    ],
    "a": 1,
    "exp": "✅ (B) incentives 意為「誘因、獎勵」，文中指提供漁民回收廢棄漁網之經濟或物質誘因，以避免隨海棄置。\n❌ (A) affiliations 意為「附屬機構、隸屬關係」，無法作為推動回收之誘因。\n❌ (C) incarnations 意為「化身、體現」，與政策誘因無關。\n❌ (D) aesthetics 意為「美學」，無法作為漁民回收漁網之利益驅動力。\n📚 出處：廢棄漁網回收與海洋環境保育政策英語。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-107-1-b018'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "commuters",
+    "terminals",
+    "referees",
+    "vessels"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_512_0210_51.webp"
+   "psg": "The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships. It was developed to provide identification and positioning information to both 51 and shore stations. Ships of 300 gross tonnage or more sailing on international voyages, freighter ships of 500 gross tonnage or more sailing in local waters, and all passenger ships 52 size are required by the International Maritime Organization to carry AIS equipment. AIS transponders automatically broadcast information at regular 53 . Navigational status data is transmitted every 2 to 180 seconds, depending on a ship’s activity. In addition, voyage related data is broadcast every 6 minutes. These signals are received by AIS transponders installed on other ships or by land-based systems. The AIS signals have a horizontal range of about 40 nautical miles, 54 that AIS traffic information is only available around coastal zones or in a ship-to-ship zone. AIS communication takes place using two VHF frequencies, 161.975 MHz and 162.025 MHz. Although only one radio channel is necessary, each station transmits and receives over two radio channels to avoid interference problems and to allow channels to be shifted among ships 55 communication loss."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "free from",
+    "irrespective of",
+    "in contrast to",
+    "by order of"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_512_0210_52.webp"
+   "psg": "The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships. It was developed to provide identification and positioning information to both 51 and shore stations. Ships of 300 gross tonnage or more sailing on international voyages, freighter ships of 500 gross tonnage or more sailing in local waters, and all passenger ships 52 size are required by the International Maritime Organization to carry AIS equipment. AIS transponders automatically broadcast information at regular 53 . Navigational status data is transmitted every 2 to 180 seconds, depending on a ship’s activity. In addition, voyage related data is broadcast every 6 minutes. These signals are received by AIS transponders installed on other ships or by land-based systems. The AIS signals have a horizontal range of about 40 nautical miles, 54 that AIS traffic information is only available around coastal zones or in a ship-to-ship zone. AIS communication takes place using two VHF frequencies, 161.975 MHz and 162.025 MHz. Although only one radio channel is necessary, each station transmits and receives over two radio channels to avoid interference problems and to allow channels to be shifted among ships 55 communication loss."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "rituals",
+    "episodes",
+    "intervals",
+    "fragments"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_512_0210_53.webp"
+   "psg": "The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships. It was developed to provide identification and positioning information to both 51 and shore stations. Ships of 300 gross tonnage or more sailing on international voyages, freighter ships of 500 gross tonnage or more sailing in local waters, and all passenger ships 52 size are required by the International Maritime Organization to carry AIS equipment. AIS transponders automatically broadcast information at regular 53 . Navigational status data is transmitted every 2 to 180 seconds, depending on a ship’s activity. In addition, voyage related data is broadcast every 6 minutes. These signals are received by AIS transponders installed on other ships or by land-based systems. The AIS signals have a horizontal range of about 40 nautical miles, 54 that AIS traffic information is only available around coastal zones or in a ship-to-ship zone. AIS communication takes place using two VHF frequencies, 161.975 MHz and 162.025 MHz. Although only one radio channel is necessary, each station transmits and receives over two radio channels to avoid interference problems and to allow channels to be shifted among ships 55 communication loss."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "meant",
+    "meaning",
+    "to mean",
+    "being meant"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_512_0210_54.webp"
+   "psg": "The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships. It was developed to provide identification and positioning information to both 51 and shore stations. Ships of 300 gross tonnage or more sailing on international voyages, freighter ships of 500 gross tonnage or more sailing in local waters, and all passenger ships 52 size are required by the International Maritime Organization to carry AIS equipment. AIS transponders automatically broadcast information at regular 53 . Navigational status data is transmitted every 2 to 180 seconds, depending on a ship’s activity. In addition, voyage related data is broadcast every 6 minutes. These signals are received by AIS transponders installed on other ships or by land-based systems. The AIS signals have a horizontal range of about 40 nautical miles, 54 that AIS traffic information is only available around coastal zones or in a ship-to-ship zone. AIS communication takes place using two VHF frequencies, 161.975 MHz and 162.025 MHz. Although only one radio channel is necessary, each station transmits and receives over two radio channels to avoid interference problems and to allow channels to be shifted among ships 55 communication loss."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "without",
+    "through",
+    "under",
+    "except"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_512_0210_55.webp"
+   "psg": "The Automatic Identification System (AIS) is a short-range coastal tracking system currently used on ships. It was developed to provide identification and positioning information to both 51 and shore stations. Ships of 300 gross tonnage or more sailing on international voyages, freighter ships of 500 gross tonnage or more sailing in local waters, and all passenger ships 52 size are required by the International Maritime Organization to carry AIS equipment. AIS transponders automatically broadcast information at regular 53 . Navigational status data is transmitted every 2 to 180 seconds, depending on a ship’s activity. In addition, voyage related data is broadcast every 6 minutes. These signals are received by AIS transponders installed on other ships or by land-based systems. The AIS signals have a horizontal range of about 40 nautical miles, 54 that AIS traffic information is only available around coastal zones or in a ship-to-ship zone. AIS communication takes place using two VHF frequencies, 161.975 MHz and 162.025 MHz. Although only one radio channel is necessary, each station transmits and receives over two radio channels to avoid interference problems and to allow channels to be shifted among ships 55 communication loss."
   },
   {
    "n": 56,

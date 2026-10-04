@@ -506,7 +506,7 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "add",
     "sort",
     "set",
-    "axe第 36 題至第 40 題為題組Researchers have already identified three different types of loneliness. The first type of loneliness is ＿＿＿ 36 . This"
+    "axe"
    ],
    "a": 3,
    "exp": "✅ (D) axe 當動詞意為「大幅刪減、裁撤」，裁撤三百個職位可省下數百萬元，語意最合。\n❌ (A) add 是增加，增加職位不會省錢。\n❌ (B) sort 是分類、整理，與省錢的結果無關。\n❌ (C) set 是設置，語意不完整。\n📚 出處：字彙題，axe jobs / cut jobs 的新聞用語"
@@ -530,46 +530,43 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "displays",
+    "discovers",
+    "disappears",
+    "disconnects"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106190_401_0206_37.webp"
+   "psg": "為題組 Researchers have already identified three different types of loneliness. The first type of loneliness is 36 . This is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "parallel",
+    "physical",
+    "previous",
+    "punctual"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/106190_401_0206_38.webp"
+   "psg": "為題組 Researchers have already identified three different types of loneliness. The first type of loneliness is 36 . This is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "severe",
+    "worthy",
+    "effective",
+    "promising"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106190_401_0206_39.webp"
+   "psg": "為題組 Researchers have already identified three different types of loneliness. The first type of loneliness is 36 . This is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition."
   },
   {
    "n": 40,
@@ -584,7 +581,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/106190_401_0206_40.webp",
-   "a": 1
+   "a": 1,
+   "psg": "為題組 Researchers have already identified three different types of loneliness. The first type of loneliness is 36 . This is the most common type. It usually 37 quickly and does not require any special attention. The second type, situational loneliness, is a natural result of a particular situation—for example, a divorce, the death of a loved one, or moving to a new place. Although this type of loneliness can cause 38 problems, such as headaches and sleeplessness, it usually does not last for more than a year. Situational loneliness is easy to understand and to predict. The third type is the most 39 . Unlike the second type, chronic loneliness usually lasts more than two years and has no specific cause. People who experience 40 loneliness have problems socializing and becoming close to others. Unfortunately, many chronically lonely people think there is little or nothing they can do to improve their condition."
   },
   {
    "n": 41,
@@ -597,7 +595,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Mist.",
     "Smoke."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces."
   },
   {
    "n": 42,
@@ -610,7 +609,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Food prices went up in a fast speed.",
     "Commercial flights were cancelled."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces."
   },
   {
    "n": 43,
@@ -623,7 +623,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Hearing.",
     "Breathing."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces."
   },
   {
    "n": 44,
@@ -636,7 +637,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Bombs.",
     "Plantations."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces."
   },
   {
    "n": 45,
@@ -647,9 +649,10 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Four.",
     "Six.",
     "Ninety.",
-    "One hundred and sixty-one.第 46 題至第 50 題為題組On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy"
+    "One hundred and sixty-one."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 Forest fires continue to burn in several parts of Indonesia. Luckily, a brief rain storm helped break up smoke from some of the fires on Wednesday. The President said rainfall cleared away much of the smoke in Sumatra. He said the haze was reduced to a level where commercial airline companies could operate again. But another official told reporters that much more rain is needed to help put out the fires. Luhut Panjaitan is Indonesia’s Coordinating Minister of Politics, Law and Security. “This week we have rain. If we have intensive rain for four straight days and our water bombings continue, I hope we would be back to normal next week. That’s our hope, but again it all depends on how much rain we have,” he said. The official added that he has asked government agencies to consider the possibility of creating artificial rain. Indonesia has come under heavy pressure from neighboring countries and environmental groups to put out the fires. Every year, some companies set forest fires on purpose. They do this to clear land and make way for palm oil plantations. Thousands of people have developed breathing problems because of the smoke. Some non-governmental organizations plan to take legal action against the government. They say Indonesian officials have ignored the well-being of communities affected by the smoke. The government has deployed more than 22,000 police officers and armed forces members to fight the forest fires. There are more than 1,600 fires burning in at least six provinces."
   },
   {
    "n": 46,
@@ -662,7 +665,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "To show readers how to taste French bread.",
     "To introduce two kinds of French bread."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy fresh bread from boulangeries, the French word for bakeries, every morning. That means a typical baking day usually starts at 4:00 am and ends at noon. You would also be surprised at the number of independent boulangeries in cities, towns, and small villages. Among the dozens of types of French bread, baguette and croissant are what Taiwanese people are most familiar with. Baguette, literally meaning “a stick”, has golden-brown crust, with ivory-cream center, cereal aroma, and soft, chewy dough. In 1993, the French government enacted a law to protect the quality of “the pride of France.” The law states that a real baguette has to be made with wheat flour, water, salt, yeast, and nothing else. No additives or preservatives are allowed, which means it goes stale within 24 hours. A standard baguette is 250-300 grams in weight and 55 to 65 centimeters in length. Legend has it that it was Napoleon who contributed to the shape of baguette. He asked bakers to make a “stick-like” bread to make it easier for soldiers to carry their bread around down their pants. Warm and buttery, croissant is a common French breakfast food at the weekend. Typical ingredients include flour, yeast, milk, butter, egg, and salt. An important process is that the butter has to be put between the layers of dough but not to be incorporated into the dough. There are countless legends about the origin of this pastry. The most widespread one is associated with the Battle of Vienna. In 1683, Vienna was under siege by Turkish army. The Turks were trying to dig underground tunnels. However, bakers working in the middle of the night heard the digging and alerted Austrian soldiers, who had enough time to stop the digging and defeat the Turks. To celebrate the victory, bakers in Vienna made a pastry in the shape of crescents, a thin, curved shape they saw on Turkish flags, and they called the pastry “Kipferl”, the German word for “crescent”. When Austrian princess Marie Antoinette came to France and married King Louis XVI in 1770, she introduced to this country her favorite pasty, which came to be known as croissant in French."
   },
   {
    "n": 47,
@@ -675,7 +679,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "Ancient.",
     "Straight."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy fresh bread from boulangeries, the French word for bakeries, every morning. That means a typical baking day usually starts at 4:00 am and ends at noon. You would also be surprised at the number of independent boulangeries in cities, towns, and small villages. Among the dozens of types of French bread, baguette and croissant are what Taiwanese people are most familiar with. Baguette, literally meaning “a stick”, has golden-brown crust, with ivory-cream center, cereal aroma, and soft, chewy dough. In 1993, the French government enacted a law to protect the quality of “the pride of France.” The law states that a real baguette has to be made with wheat flour, water, salt, yeast, and nothing else. No additives or preservatives are allowed, which means it goes stale within 24 hours. A standard baguette is 250-300 grams in weight and 55 to 65 centimeters in length. Legend has it that it was Napoleon who contributed to the shape of baguette. He asked bakers to make a “stick-like” bread to make it easier for soldiers to carry their bread around down their pants. Warm and buttery, croissant is a common French breakfast food at the weekend. Typical ingredients include flour, yeast, milk, butter, egg, and salt. An important process is that the butter has to be put between the layers of dough but not to be incorporated into the dough. There are countless legends about the origin of this pastry. The most widespread one is associated with the Battle of Vienna. In 1683, Vienna was under siege by Turkish army. The Turks were trying to dig underground tunnels. However, bakers working in the middle of the night heard the digging and alerted Austrian soldiers, who had enough time to stop the digging and defeat the Turks. To celebrate the victory, bakers in Vienna made a pastry in the shape of crescents, a thin, curved shape they saw on Turkish flags, and they called the pastry “Kipferl”, the German word for “crescent”. When Austrian princess Marie Antoinette came to France and married King Louis XVI in 1770, she introduced to this country her favorite pasty, which came to be known as croissant in French."
   },
   {
    "n": 48,
@@ -688,7 +693,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "From Marie Antoinette’s wedding.",
     "From the underground tunnels in Vienna."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy fresh bread from boulangeries, the French word for bakeries, every morning. That means a typical baking day usually starts at 4:00 am and ends at noon. You would also be surprised at the number of independent boulangeries in cities, towns, and small villages. Among the dozens of types of French bread, baguette and croissant are what Taiwanese people are most familiar with. Baguette, literally meaning “a stick”, has golden-brown crust, with ivory-cream center, cereal aroma, and soft, chewy dough. In 1993, the French government enacted a law to protect the quality of “the pride of France.” The law states that a real baguette has to be made with wheat flour, water, salt, yeast, and nothing else. No additives or preservatives are allowed, which means it goes stale within 24 hours. A standard baguette is 250-300 grams in weight and 55 to 65 centimeters in length. Legend has it that it was Napoleon who contributed to the shape of baguette. He asked bakers to make a “stick-like” bread to make it easier for soldiers to carry their bread around down their pants. Warm and buttery, croissant is a common French breakfast food at the weekend. Typical ingredients include flour, yeast, milk, butter, egg, and salt. An important process is that the butter has to be put between the layers of dough but not to be incorporated into the dough. There are countless legends about the origin of this pastry. The most widespread one is associated with the Battle of Vienna. In 1683, Vienna was under siege by Turkish army. The Turks were trying to dig underground tunnels. However, bakers working in the middle of the night heard the digging and alerted Austrian soldiers, who had enough time to stop the digging and defeat the Turks. To celebrate the victory, bakers in Vienna made a pastry in the shape of crescents, a thin, curved shape they saw on Turkish flags, and they called the pastry “Kipferl”, the German word for “crescent”. When Austrian princess Marie Antoinette came to France and married King Louis XVI in 1770, she introduced to this country her favorite pasty, which came to be known as croissant in French."
   },
   {
    "n": 49,
@@ -701,7 +707,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "It has to be made at four o’clock in the morning.",
     "Wheat flour, yeast, salt, and egg are the only ingredients."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy fresh bread from boulangeries, the French word for bakeries, every morning. That means a typical baking day usually starts at 4:00 am and ends at noon. You would also be surprised at the number of independent boulangeries in cities, towns, and small villages. Among the dozens of types of French bread, baguette and croissant are what Taiwanese people are most familiar with. Baguette, literally meaning “a stick”, has golden-brown crust, with ivory-cream center, cereal aroma, and soft, chewy dough. In 1993, the French government enacted a law to protect the quality of “the pride of France.” The law states that a real baguette has to be made with wheat flour, water, salt, yeast, and nothing else. No additives or preservatives are allowed, which means it goes stale within 24 hours. A standard baguette is 250-300 grams in weight and 55 to 65 centimeters in length. Legend has it that it was Napoleon who contributed to the shape of baguette. He asked bakers to make a “stick-like” bread to make it easier for soldiers to carry their bread around down their pants. Warm and buttery, croissant is a common French breakfast food at the weekend. Typical ingredients include flour, yeast, milk, butter, egg, and salt. An important process is that the butter has to be put between the layers of dough but not to be incorporated into the dough. There are countless legends about the origin of this pastry. The most widespread one is associated with the Battle of Vienna. In 1683, Vienna was under siege by Turkish army. The Turks were trying to dig underground tunnels. However, bakers working in the middle of the night heard the digging and alerted Austrian soldiers, who had enough time to stop the digging and defeat the Turks. To celebrate the victory, bakers in Vienna made a pastry in the shape of crescents, a thin, curved shape they saw on Turkish flags, and they called the pastry “Kipferl”, the German word for “crescent”. When Austrian princess Marie Antoinette came to France and married King Louis XVI in 1770, she introduced to this country her favorite pasty, which came to be known as croissant in French."
   },
   {
    "n": 50,
@@ -714,7 +721,8 @@ window.APP_EXAM_PAPERS['loc-106-1-b002'] = {
     "To make a real croissant, butter has to be incorporated into the dough.",
     "It is said that Napoleon’s soldiers carried stick-like bread around down their pants."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 On a breakfast table in a French family, nothing is more important than fresh, tasty bread. French families buy fresh bread from boulangeries, the French word for bakeries, every morning. That means a typical baking day usually starts at 4:00 am and ends at noon. You would also be surprised at the number of independent boulangeries in cities, towns, and small villages. Among the dozens of types of French bread, baguette and croissant are what Taiwanese people are most familiar with. Baguette, literally meaning “a stick”, has golden-brown crust, with ivory-cream center, cereal aroma, and soft, chewy dough. In 1993, the French government enacted a law to protect the quality of “the pride of France.” The law states that a real baguette has to be made with wheat flour, water, salt, yeast, and nothing else. No additives or preservatives are allowed, which means it goes stale within 24 hours. A standard baguette is 250-300 grams in weight and 55 to 65 centimeters in length. Legend has it that it was Napoleon who contributed to the shape of baguette. He asked bakers to make a “stick-like” bread to make it easier for soldiers to carry their bread around down their pants. Warm and buttery, croissant is a common French breakfast food at the weekend. Typical ingredients include flour, yeast, milk, butter, egg, and salt. An important process is that the butter has to be put between the layers of dough but not to be incorporated into the dough. There are countless legends about the origin of this pastry. The most widespread one is associated with the Battle of Vienna. In 1683, Vienna was under siege by Turkish army. The Turks were trying to dig underground tunnels. However, bakers working in the middle of the night heard the digging and alerted Austrian soldiers, who had enough time to stop the digging and defeat the Turks. To celebrate the victory, bakers in Vienna made a pastry in the shape of crescents, a thin, curved shape they saw on Turkish flags, and they called the pastry “Kipferl”, the German word for “crescent”. When Austrian princess Marie Antoinette came to France and married King Louis XVI in 1770, she introduced to this country her favorite pasty, which came to be known as croissant in French."
   }
  ]
 };

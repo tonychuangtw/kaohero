@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "se duelen",
     "se duele",
     "les duelen",
-    "les dueleLa ñ, una letra muy española"
+    "les duele"
    ],
    "a": 3,
    "exp": "✅ (D) doler 屬類 gustar 動詞，動詞隨疼痛部位 el estómago（單數）變位，感覺者用間接受詞 les：les duele el estómago。\n❌ (A) se duelen 是 dolerse de（哀嘆、抱怨）的形式，語意與結構皆不符。\n❌ (B) se duele 同樣是錯誤結構，無法表示身體某部位疼痛。\n❌ (C) les duelen 動詞為複數，但主詞 el estómago 是單數，不一致。\n📚 出處：doler 的用法（間接受詞 + doler + 身體部位）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "XI",
     "IIX"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "La ñ, una letra muy española La ñ es la letra más característica de la lengua española. Se utiliza para escribir en nuestro idioma, desde el siglo IX y fue creada para sustituir la grafía nn. Como también hacen hoy los estudiantes para tomar apuntes, los antiguos copistas inventaron signos de abreviación para ahorrar tiempo en su trabajo. En lugar de escribir las dos enes, los frailes de los monasterios que elaboraban los libros empezaron a poner una pequeña tilde(~) sobre la n y, de esa forma, nació una nueva letra, la ñ. Posteriormente, fue tomada prestada por otras lenguas como, por ejemplo, el quechua o el tagalo. Su reconocimiento internacional ha llegado a los dominios de internet, de los que estuvo excluida por el protagonismo de la lengua inglesa y por la tecnología anglosajona. Actualmente aparece junto a la letra l en los teclados de ordenador Qwerty para el idioma castellano y no existe ningún equivalente en el alfabeto romano. Es una de las mejores representaciones gráficas de la lengua y cultura hispana y, por eso, su tilde forma parte del logotipo del Instituto Cervantes, la mayor institución mundial, dedicada a la enseñanza del español y a dar a conocer las culturas de los países hispanohablantes."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "frailes",
     "reyes"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "La ñ, una letra muy española La ñ es la letra más característica de la lengua española. Se utiliza para escribir en nuestro idioma, desde el siglo IX y fue creada para sustituir la grafía nn. Como también hacen hoy los estudiantes para tomar apuntes, los antiguos copistas inventaron signos de abreviación para ahorrar tiempo en su trabajo. En lugar de escribir las dos enes, los frailes de los monasterios que elaboraban los libros empezaron a poner una pequeña tilde(~) sobre la n y, de esa forma, nació una nueva letra, la ñ. Posteriormente, fue tomada prestada por otras lenguas como, por ejemplo, el quechua o el tagalo. Su reconocimiento internacional ha llegado a los dominios de internet, de los que estuvo excluida por el protagonismo de la lengua inglesa y por la tecnología anglosajona. Actualmente aparece junto a la letra l en los teclados de ordenador Qwerty para el idioma castellano y no existe ningún equivalente en el alfabeto romano. Es una de las mejores representaciones gráficas de la lengua y cultura hispana y, por eso, su tilde forma parte del logotipo del Instituto Cervantes, la mayor institución mundial, dedicada a la enseñanza del español y a dar a conocer las culturas de los países hispanohablantes."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "obtener premio",
     "consequir una ciudad"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "La ñ, una letra muy española La ñ es la letra más característica de la lengua española. Se utiliza para escribir en nuestro idioma, desde el siglo IX y fue creada para sustituir la grafía nn. Como también hacen hoy los estudiantes para tomar apuntes, los antiguos copistas inventaron signos de abreviación para ahorrar tiempo en su trabajo. En lugar de escribir las dos enes, los frailes de los monasterios que elaboraban los libros empezaron a poner una pequeña tilde(~) sobre la n y, de esa forma, nació una nueva letra, la ñ. Posteriormente, fue tomada prestada por otras lenguas como, por ejemplo, el quechua o el tagalo. Su reconocimiento internacional ha llegado a los dominios de internet, de los que estuvo excluida por el protagonismo de la lengua inglesa y por la tecnología anglosajona. Actualmente aparece junto a la letra l en los teclados de ordenador Qwerty para el idioma castellano y no existe ningún equivalente en el alfabeto romano. Es una de las mejores representaciones gráficas de la lengua y cultura hispana y, por eso, su tilde forma parte del logotipo del Instituto Cervantes, la mayor institución mundial, dedicada a la enseñanza del español y a dar a conocer las culturas de los países hispanohablantes."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "Sí, en el tagalo y el francés.",
     "No."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "La ñ, una letra muy española La ñ es la letra más característica de la lengua española. Se utiliza para escribir en nuestro idioma, desde el siglo IX y fue creada para sustituir la grafía nn. Como también hacen hoy los estudiantes para tomar apuntes, los antiguos copistas inventaron signos de abreviación para ahorrar tiempo en su trabajo. En lugar de escribir las dos enes, los frailes de los monasterios que elaboraban los libros empezaron a poner una pequeña tilde(~) sobre la n y, de esa forma, nació una nueva letra, la ñ. Posteriormente, fue tomada prestada por otras lenguas como, por ejemplo, el quechua o el tagalo. Su reconocimiento internacional ha llegado a los dominios de internet, de los que estuvo excluida por el protagonismo de la lengua inglesa y por la tecnología anglosajona. Actualmente aparece junto a la letra l en los teclados de ordenador Qwerty para el idioma castellano y no existe ningún equivalente en el alfabeto romano. Es una de las mejores representaciones gráficas de la lengua y cultura hispana y, por eso, su tilde forma parte del logotipo del Instituto Cervantes, la mayor institución mundial, dedicada a la enseñanza del español y a dar a conocer las culturas de los países hispanohablantes."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "El Instituto Cervantes es la mayor institución mundial dedicada a la enseñanza del español.",
     "El tilde es una gráfica representativa de la lengua hispana que forma parte de su logotipo.",
     "El Instituto Cervantes ayuda a conocer las culturas españolas.",
-    "El Instituto Cervantes crea el tilde que forma parte de su logotipo.El Día de Muertos"
+    "El Instituto Cervantes crea el tilde que forma parte de su logotipo."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "La ñ, una letra muy española La ñ es la letra más característica de la lengua española. Se utiliza para escribir en nuestro idioma, desde el siglo IX y fue creada para sustituir la grafía nn. Como también hacen hoy los estudiantes para tomar apuntes, los antiguos copistas inventaron signos de abreviación para ahorrar tiempo en su trabajo. En lugar de escribir las dos enes, los frailes de los monasterios que elaboraban los libros empezaron a poner una pequeña tilde(~) sobre la n y, de esa forma, nació una nueva letra, la ñ. Posteriormente, fue tomada prestada por otras lenguas como, por ejemplo, el quechua o el tagalo. Su reconocimiento internacional ha llegado a los dominios de internet, de los que estuvo excluida por el protagonismo de la lengua inglesa y por la tecnología anglosajona. Actualmente aparece junto a la letra l en los teclados de ordenador Qwerty para el idioma castellano y no existe ningún equivalente en el alfabeto romano. Es una de las mejores representaciones gráficas de la lengua y cultura hispana y, por eso, su tilde forma parte del logotipo del Instituto Cervantes, la mayor institución mundial, dedicada a la enseñanza del español y a dar a conocer las culturas de los países hispanohablantes."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "el significado",
     "el proceso del ritual"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El Día de Muertos El Día de Muertos es una celebración mexicana que tiene lugar el 1 y el 2 de noviembre, coincidiendo con las celebraciones católicas de Todos los Santos y Día de los Fieles Difuntos, respectivamente. Se celebra también en algunos países de América Central, así como en muchas comunidades de los Estados Unidos, donde existe una gran población mexicana y centroamericana. La Unesco ha declarado la festividad mexicana como Patrimonio Cultural Inmaterial de la Humanidad. Existe en Brasil una celebración similar conocida como Dia dos Finados, aunque esta festividad no tiene las mismas raíces prehispánicas que la festividad mexicana. Los orígenes de esta celebración en México se sitúan en la época de los indígenas de Mesoamérica, tales como los aztecas, mayas y nahuas. Los aztecas creían que las almas continuaban viviendo en un lugar llamado Mictlán o Lugar de la Muerte. Se trataba de lugar ideal para descansar hasta el día en que podían abandonarlo y regresar a visitar a sus parientes vivos. Estos les ayudaban esparciendo flores aromáticas, guiándoles así hasta sus antiguos hogares. Los indígenas mesoamericanos dedicaban a sus muertos el noveno y décimo mes del calendario azteca. El noveno mes comenzaba el 5 de agosto y era llamado Tlaxcochimaco, que significa tierra florida. Ese día comenzaba la fiesta dedicada a los niños y que duraba los 20 días del mes. En el décimo mes o Xoco Huetzo, que significa fruta madura, del 25 de agosto al 14 de septiembre, hacían la fiesta de los muertos adultos. Cuando los conquistadores llegaron a México en el siglo XV, hicieron coincidir estas celebraciones con las festividades de católicas, creando así el Día de Muertos. Se cree desde entonces que las almas de los niños regresan de visita el día primero de noviembre, y las almas de los adultos el día 2. Durante esos días, las familias decoran las tumbas con coronas de rosas, girasoles, entre otras, pero principalmente de una flor llamada Cempaxóchitl o “Flor de muerto” que se cree que atraen a las almas de los muertos. En el caso de que no se pueda visitar la tumba, ya sea porque ya no existe, o porque la familia está muy lejos de ella, en las casas se montan los llamados “altares de muertos” u “ofrendas”, en los que deben incluirse los cuatro elementos de la naturaleza: tierra, aire, agua y fuego. Hay quienes, además, colocan cuatro velas que indican los cuatro puntos cardinales. Junto a los retratos de los fallecidos les colocan cosas a modo de ofrenda como platillos de comida, el “Pan de muerto”, vasos de agua, mezcal o tequila, cigarros e incluso juguetes para las almas de los niños."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "plantaban flores",
     "ayudaban a los muertos a vivir bien en Mictlán"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El Día de Muertos El Día de Muertos es una celebración mexicana que tiene lugar el 1 y el 2 de noviembre, coincidiendo con las celebraciones católicas de Todos los Santos y Día de los Fieles Difuntos, respectivamente. Se celebra también en algunos países de América Central, así como en muchas comunidades de los Estados Unidos, donde existe una gran población mexicana y centroamericana. La Unesco ha declarado la festividad mexicana como Patrimonio Cultural Inmaterial de la Humanidad. Existe en Brasil una celebración similar conocida como Dia dos Finados, aunque esta festividad no tiene las mismas raíces prehispánicas que la festividad mexicana. Los orígenes de esta celebración en México se sitúan en la época de los indígenas de Mesoamérica, tales como los aztecas, mayas y nahuas. Los aztecas creían que las almas continuaban viviendo en un lugar llamado Mictlán o Lugar de la Muerte. Se trataba de lugar ideal para descansar hasta el día en que podían abandonarlo y regresar a visitar a sus parientes vivos. Estos les ayudaban esparciendo flores aromáticas, guiándoles así hasta sus antiguos hogares. Los indígenas mesoamericanos dedicaban a sus muertos el noveno y décimo mes del calendario azteca. El noveno mes comenzaba el 5 de agosto y era llamado Tlaxcochimaco, que significa tierra florida. Ese día comenzaba la fiesta dedicada a los niños y que duraba los 20 días del mes. En el décimo mes o Xoco Huetzo, que significa fruta madura, del 25 de agosto al 14 de septiembre, hacían la fiesta de los muertos adultos. Cuando los conquistadores llegaron a México en el siglo XV, hicieron coincidir estas celebraciones con las festividades de católicas, creando así el Día de Muertos. Se cree desde entonces que las almas de los niños regresan de visita el día primero de noviembre, y las almas de los adultos el día 2. Durante esos días, las familias decoran las tumbas con coronas de rosas, girasoles, entre otras, pero principalmente de una flor llamada Cempaxóchitl o “Flor de muerto” que se cree que atraen a las almas de los muertos. En el caso de que no se pueda visitar la tumba, ya sea porque ya no existe, o porque la familia está muy lejos de ella, en las casas se montan los llamados “altares de muertos” u “ofrendas”, en los que deben incluirse los cuatro elementos de la naturaleza: tierra, aire, agua y fuego. Hay quienes, además, colocan cuatro velas que indican los cuatro puntos cardinales. Junto a los retratos de los fallecidos les colocan cosas a modo de ofrenda como platillos de comida, el “Pan de muerto”, vasos de agua, mezcal o tequila, cigarros e incluso juguetes para las almas de los niños."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "el mes de Tlaxcochimaco duraba veinte días",
     "el Tlaxcochimaco significa vivienda floreciente"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El Día de Muertos El Día de Muertos es una celebración mexicana que tiene lugar el 1 y el 2 de noviembre, coincidiendo con las celebraciones católicas de Todos los Santos y Día de los Fieles Difuntos, respectivamente. Se celebra también en algunos países de América Central, así como en muchas comunidades de los Estados Unidos, donde existe una gran población mexicana y centroamericana. La Unesco ha declarado la festividad mexicana como Patrimonio Cultural Inmaterial de la Humanidad. Existe en Brasil una celebración similar conocida como Dia dos Finados, aunque esta festividad no tiene las mismas raíces prehispánicas que la festividad mexicana. Los orígenes de esta celebración en México se sitúan en la época de los indígenas de Mesoamérica, tales como los aztecas, mayas y nahuas. Los aztecas creían que las almas continuaban viviendo en un lugar llamado Mictlán o Lugar de la Muerte. Se trataba de lugar ideal para descansar hasta el día en que podían abandonarlo y regresar a visitar a sus parientes vivos. Estos les ayudaban esparciendo flores aromáticas, guiándoles así hasta sus antiguos hogares. Los indígenas mesoamericanos dedicaban a sus muertos el noveno y décimo mes del calendario azteca. El noveno mes comenzaba el 5 de agosto y era llamado Tlaxcochimaco, que significa tierra florida. Ese día comenzaba la fiesta dedicada a los niños y que duraba los 20 días del mes. En el décimo mes o Xoco Huetzo, que significa fruta madura, del 25 de agosto al 14 de septiembre, hacían la fiesta de los muertos adultos. Cuando los conquistadores llegaron a México en el siglo XV, hicieron coincidir estas celebraciones con las festividades de católicas, creando así el Día de Muertos. Se cree desde entonces que las almas de los niños regresan de visita el día primero de noviembre, y las almas de los adultos el día 2. Durante esos días, las familias decoran las tumbas con coronas de rosas, girasoles, entre otras, pero principalmente de una flor llamada Cempaxóchitl o “Flor de muerto” que se cree que atraen a las almas de los muertos. En el caso de que no se pueda visitar la tumba, ya sea porque ya no existe, o porque la familia está muy lejos de ella, en las casas se montan los llamados “altares de muertos” u “ofrendas”, en los que deben incluirse los cuatro elementos de la naturaleza: tierra, aire, agua y fuego. Hay quienes, además, colocan cuatro velas que indican los cuatro puntos cardinales. Junto a los retratos de los fallecidos les colocan cosas a modo de ofrenda como platillos de comida, el “Pan de muerto”, vasos de agua, mezcal o tequila, cigarros e incluso juguetes para las almas de los niños."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "adaptaron la celebración al catolicismo",
     "negaron a la ceremonia católica"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El Día de Muertos El Día de Muertos es una celebración mexicana que tiene lugar el 1 y el 2 de noviembre, coincidiendo con las celebraciones católicas de Todos los Santos y Día de los Fieles Difuntos, respectivamente. Se celebra también en algunos países de América Central, así como en muchas comunidades de los Estados Unidos, donde existe una gran población mexicana y centroamericana. La Unesco ha declarado la festividad mexicana como Patrimonio Cultural Inmaterial de la Humanidad. Existe en Brasil una celebración similar conocida como Dia dos Finados, aunque esta festividad no tiene las mismas raíces prehispánicas que la festividad mexicana. Los orígenes de esta celebración en México se sitúan en la época de los indígenas de Mesoamérica, tales como los aztecas, mayas y nahuas. Los aztecas creían que las almas continuaban viviendo en un lugar llamado Mictlán o Lugar de la Muerte. Se trataba de lugar ideal para descansar hasta el día en que podían abandonarlo y regresar a visitar a sus parientes vivos. Estos les ayudaban esparciendo flores aromáticas, guiándoles así hasta sus antiguos hogares. Los indígenas mesoamericanos dedicaban a sus muertos el noveno y décimo mes del calendario azteca. El noveno mes comenzaba el 5 de agosto y era llamado Tlaxcochimaco, que significa tierra florida. Ese día comenzaba la fiesta dedicada a los niños y que duraba los 20 días del mes. En el décimo mes o Xoco Huetzo, que significa fruta madura, del 25 de agosto al 14 de septiembre, hacían la fiesta de los muertos adultos. Cuando los conquistadores llegaron a México en el siglo XV, hicieron coincidir estas celebraciones con las festividades de católicas, creando así el Día de Muertos. Se cree desde entonces que las almas de los niños regresan de visita el día primero de noviembre, y las almas de los adultos el día 2. Durante esos días, las familias decoran las tumbas con coronas de rosas, girasoles, entre otras, pero principalmente de una flor llamada Cempaxóchitl o “Flor de muerto” que se cree que atraen a las almas de los muertos. En el caso de que no se pueda visitar la tumba, ya sea porque ya no existe, o porque la familia está muy lejos de ella, en las casas se montan los llamados “altares de muertos” u “ofrendas”, en los que deben incluirse los cuatro elementos de la naturaleza: tierra, aire, agua y fuego. Hay quienes, además, colocan cuatro velas que indican los cuatro puntos cardinales. Junto a los retratos de los fallecidos les colocan cosas a modo de ofrenda como platillos de comida, el “Pan de muerto”, vasos de agua, mezcal o tequila, cigarros e incluso juguetes para las almas de los niños."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d008'] = {
     "se adornan con velas que representan los cuatro elementos de la naturaleza",
     "en ellos se les ofrece a los muertos dinero y joyas"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El Día de Muertos El Día de Muertos es una celebración mexicana que tiene lugar el 1 y el 2 de noviembre, coincidiendo con las celebraciones católicas de Todos los Santos y Día de los Fieles Difuntos, respectivamente. Se celebra también en algunos países de América Central, así como en muchas comunidades de los Estados Unidos, donde existe una gran población mexicana y centroamericana. La Unesco ha declarado la festividad mexicana como Patrimonio Cultural Inmaterial de la Humanidad. Existe en Brasil una celebración similar conocida como Dia dos Finados, aunque esta festividad no tiene las mismas raíces prehispánicas que la festividad mexicana. Los orígenes de esta celebración en México se sitúan en la época de los indígenas de Mesoamérica, tales como los aztecas, mayas y nahuas. Los aztecas creían que las almas continuaban viviendo en un lugar llamado Mictlán o Lugar de la Muerte. Se trataba de lugar ideal para descansar hasta el día en que podían abandonarlo y regresar a visitar a sus parientes vivos. Estos les ayudaban esparciendo flores aromáticas, guiándoles así hasta sus antiguos hogares. Los indígenas mesoamericanos dedicaban a sus muertos el noveno y décimo mes del calendario azteca. El noveno mes comenzaba el 5 de agosto y era llamado Tlaxcochimaco, que significa tierra florida. Ese día comenzaba la fiesta dedicada a los niños y que duraba los 20 días del mes. En el décimo mes o Xoco Huetzo, que significa fruta madura, del 25 de agosto al 14 de septiembre, hacían la fiesta de los muertos adultos. Cuando los conquistadores llegaron a México en el siglo XV, hicieron coincidir estas celebraciones con las festividades de católicas, creando así el Día de Muertos. Se cree desde entonces que las almas de los niños regresan de visita el día primero de noviembre, y las almas de los adultos el día 2. Durante esos días, las familias decoran las tumbas con coronas de rosas, girasoles, entre otras, pero principalmente de una flor llamada Cempaxóchitl o “Flor de muerto” que se cree que atraen a las almas de los muertos. En el caso de que no se pueda visitar la tumba, ya sea porque ya no existe, o porque la familia está muy lejos de ella, en las casas se montan los llamados “altares de muertos” u “ofrendas”, en los que deben incluirse los cuatro elementos de la naturaleza: tierra, aire, agua y fuego. Hay quienes, además, colocan cuatro velas que indican los cuatro puntos cardinales. Junto a los retratos de los fallecidos les colocan cosas a modo de ofrenda como platillos de comida, el “Pan de muerto”, vasos de agua, mezcal o tequila, cigarros e incluso juguetes para las almas de los niños."
   }
  ]
 };

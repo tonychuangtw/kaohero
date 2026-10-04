@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
     "accommodate",
     "incorporate",
     "fabricate",
-    "replicate請依下文回答第41題至第45題："
+    "replicate"
    ],
    "a": 2,
    "exp": "✅ (C) fabricate 意為「捏造」，Ted 會編一個看似可信的缺席藉口。\n❌ (A) accommodate 是容納、通融。\n❌ (B) incorporate 是納入、合併。\n❌ (D) replicate 是複製。\n📚 出處：英文字彙（fabricate an excuse）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-109-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "apply for",
+    "embark on",
+    "iron out",
+    "own up"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109090_301_0216_41.webp"
+   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "whom",
+    "what",
+    "which",
+    "where"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109090_301_0216_42.webp"
+   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "controllers",
+    "remainders",
+    "narrators",
+    "facilitators"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109090_301_0216_43.webp"
+   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "advantageous",
+    "bureaucratic",
+    "charitable",
+    "defensible"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109090_301_0216_44.webp"
+   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "competence",
+    "diligence",
+    "emergence",
+    "indifference"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109090_301_0216_45.webp"
+   "psg": "Collaborative online international learning (COIL) is a recently developed form of education that promotes global learning between colleges and universities from different countries around the world. With the aid of modern technology such as the Internet and videoconferencing, students from schools in different countries can 41 their learning with peers of different cultural and language backgrounds. This is also an affordable way of international learning through 42 students can establish friendship with people of similar age and learn together without having to spend much money going abroad in order to do so. As the word, collaborative, indicates, this is a pedagogy that focuses on a student-centered approach of learning with teachers playing merely the role of 43 . They need to build up a sounding collaboration by developing 44 learning strategies and activities that can boost students' motivation in learning and their willingness to learn with and through each other. Through modern technology such as videoconferencing, students could discuss topics that are of interest to them and communicate with each other cross- culturally. This is one fruitful way of gaining one's own global literacy and cross-cultural 45 . That is the reason why some universities in both the United States and Japan play an active role in encouraging this kind of learning world-wide."
   },
   {
    "n": 46,

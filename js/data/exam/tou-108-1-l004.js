@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "cafeteria",
     "banquet",
     "permission",
-    "stadiumToday, Earth’s population stands at around seven billion, and it is still growing faster. As a result,"
+    "stadium"
    ],
    "a": 1,
    "exp": "✅ (B) banquet 指正式的「宴會」。白金漢宮舉行宴會、王室成員全體出席晚宴，與後句的 dinner party 互相對應。\n❌ (A) cafeteria 指自助餐廳，是場所名稱，不能說舉行一間餐廳。\n❌ (C) permission 指許可，不是可舉辦的活動。\n❌ (D) stadium 指體育場，同為場所，且與王室晚宴的性質不符。\n📚 出處：宴會與餐飲英語（banquet 宴會）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "Problems of overpopulation in different countries",
     "The impact of forest logging on the global environment"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Today, Earth’s population stands at around seven billion, and it is still growing faster. As a result, the imbalance between what nature replenishes and humans consume will probably continue to grow. So how will so many people live on Earth without exhausting the planet? The key is sustainability—finding new and efficient ways of conserving more and consuming less—so that we do not ultimately exhaust our most valuable resources. Sustainable communities are cities and towns that encourage residents to protect their local environment in ways that also reduce their impact on the larger global environment. Residents in Mbam, Senegal, for example, use solar ovens to cook food. By using solar energy instead of cutting down trees, people are saving forests for future generations. Communities in other places are using improved public transportation systems to reduce the need for cars. In Curitiba, Brazil, city buses are frequent, convenient, and efficient—so 70 percent of Curitiba’s commuters use them. As a result, the city has little traffic jam and cleaner air. Another way to prevent depletion of natural resources is through proper forest management. Forest logging—the cutting down of trees—can contribute to water pollution, lead to the destruction of animal habitats, and have other negative effects on the environment. In an effort to preserve forests, several countries have begun creating certified forests. When a forest is certified, the logging is regulated and carried out in a sustainable way. In West Virginia (USA), for example, loggers in certified forests must receive special training to avoid causing soil erosion. Roughly seven percent of the world’s forests are certified. Canada has the largest areas, with almost 300 million acres of certified forests."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "Obtain",
     "Supply"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Today, Earth’s population stands at around seven billion, and it is still growing faster. As a result, the imbalance between what nature replenishes and humans consume will probably continue to grow. So how will so many people live on Earth without exhausting the planet? The key is sustainability—finding new and efficient ways of conserving more and consuming less—so that we do not ultimately exhaust our most valuable resources. Sustainable communities are cities and towns that encourage residents to protect their local environment in ways that also reduce their impact on the larger global environment. Residents in Mbam, Senegal, for example, use solar ovens to cook food. By using solar energy instead of cutting down trees, people are saving forests for future generations. Communities in other places are using improved public transportation systems to reduce the need for cars. In Curitiba, Brazil, city buses are frequent, convenient, and efficient—so 70 percent of Curitiba’s commuters use them. As a result, the city has little traffic jam and cleaner air. Another way to prevent depletion of natural resources is through proper forest management. Forest logging—the cutting down of trees—can contribute to water pollution, lead to the destruction of animal habitats, and have other negative effects on the environment. In an effort to preserve forests, several countries have begun creating certified forests. When a forest is certified, the logging is regulated and carried out in a sustainable way. In West Virginia (USA), for example, loggers in certified forests must receive special training to avoid causing soil erosion. Roughly seven percent of the world’s forests are certified. Canada has the largest areas, with almost 300 million acres of certified forests."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "Utilizing eco-friendly building materials",
     "Using the sun’s energy for domestic cooking"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Today, Earth’s population stands at around seven billion, and it is still growing faster. As a result, the imbalance between what nature replenishes and humans consume will probably continue to grow. So how will so many people live on Earth without exhausting the planet? The key is sustainability—finding new and efficient ways of conserving more and consuming less—so that we do not ultimately exhaust our most valuable resources. Sustainable communities are cities and towns that encourage residents to protect their local environment in ways that also reduce their impact on the larger global environment. Residents in Mbam, Senegal, for example, use solar ovens to cook food. By using solar energy instead of cutting down trees, people are saving forests for future generations. Communities in other places are using improved public transportation systems to reduce the need for cars. In Curitiba, Brazil, city buses are frequent, convenient, and efficient—so 70 percent of Curitiba’s commuters use them. As a result, the city has little traffic jam and cleaner air. Another way to prevent depletion of natural resources is through proper forest management. Forest logging—the cutting down of trees—can contribute to water pollution, lead to the destruction of animal habitats, and have other negative effects on the environment. In an effort to preserve forests, several countries have begun creating certified forests. When a forest is certified, the logging is regulated and carried out in a sustainable way. In West Virginia (USA), for example, loggers in certified forests must receive special training to avoid causing soil erosion. Roughly seven percent of the world’s forests are certified. Canada has the largest areas, with almost 300 million acres of certified forests."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "To explain the procedures for setting up a forest certification program",
     "To emphasize the importance of conserving vast areas of forests in Canada"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Today, Earth’s population stands at around seven billion, and it is still growing faster. As a result, the imbalance between what nature replenishes and humans consume will probably continue to grow. So how will so many people live on Earth without exhausting the planet? The key is sustainability—finding new and efficient ways of conserving more and consuming less—so that we do not ultimately exhaust our most valuable resources. Sustainable communities are cities and towns that encourage residents to protect their local environment in ways that also reduce their impact on the larger global environment. Residents in Mbam, Senegal, for example, use solar ovens to cook food. By using solar energy instead of cutting down trees, people are saving forests for future generations. Communities in other places are using improved public transportation systems to reduce the need for cars. In Curitiba, Brazil, city buses are frequent, convenient, and efficient—so 70 percent of Curitiba’s commuters use them. As a result, the city has little traffic jam and cleaner air. Another way to prevent depletion of natural resources is through proper forest management. Forest logging—the cutting down of trees—can contribute to water pollution, lead to the destruction of animal habitats, and have other negative effects on the environment. In an effort to preserve forests, several countries have begun creating certified forests. When a forest is certified, the logging is regulated and carried out in a sustainable way. In West Virginia (USA), for example, loggers in certified forests must receive special training to avoid causing soil erosion. Roughly seven percent of the world’s forests are certified. Canada has the largest areas, with almost 300 million acres of certified forests."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "No logging activity would be allowed in the entire certified area.",
     "Only seven percent of the forests on earth have not been certified.",
     "Loggers need to learn how to protect the ground from soil erosion.",
-    "Canada is the only country that has successfully created certified forests.There is a museum for everything these days. The latest museum to open may turn you off your"
+    "Canada is the only country that has successfully created certified forests."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Today, Earth’s population stands at around seven billion, and it is still growing faster. As a result, the imbalance between what nature replenishes and humans consume will probably continue to grow. So how will so many people live on Earth without exhausting the planet? The key is sustainability—finding new and efficient ways of conserving more and consuming less—so that we do not ultimately exhaust our most valuable resources. Sustainable communities are cities and towns that encourage residents to protect their local environment in ways that also reduce their impact on the larger global environment. Residents in Mbam, Senegal, for example, use solar ovens to cook food. By using solar energy instead of cutting down trees, people are saving forests for future generations. Communities in other places are using improved public transportation systems to reduce the need for cars. In Curitiba, Brazil, city buses are frequent, convenient, and efficient—so 70 percent of Curitiba’s commuters use them. As a result, the city has little traffic jam and cleaner air. Another way to prevent depletion of natural resources is through proper forest management. Forest logging—the cutting down of trees—can contribute to water pollution, lead to the destruction of animal habitats, and have other negative effects on the environment. In an effort to preserve forests, several countries have begun creating certified forests. When a forest is certified, the logging is regulated and carried out in a sustainable way. In West Virginia (USA), for example, loggers in certified forests must receive special training to avoid causing soil erosion. Roughly seven percent of the world’s forests are certified. Canada has the largest areas, with almost 300 million acres of certified forests."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "Dr. West’s healthy eating advice",
     "The American food exhibition"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "There is a museum for everything these days. The latest museum to open may turn you off your dinner. It is the Disgusting Food Museum, which opened at the end of last year in Malmo, Sweden. Food is so much more than sustenance. Curious foods from exotic cultures have always fascinated people. Unfamiliar foods can be delicious, or they can be more of an acquired taste. The new exhibition allows people to analyze why they love and hate certain foods. It might also lead them to consider alternative food sources. The museum's founder, Dr. Samuel West, a psychologist by day and a museum curator by night, explained why he created the project. He said he was researching the effect of meat consumption and its effect on the environment. This made him think about alternative sources of protein, like insects. Although most people would think eating bugs is gross, Dr. West wanted to make them reconsider the idea. The exhibition invites visitors to explore the world of food and challenge their notions of what is and what is not edible. While many food-related museums of late have mostly just been opportunities for novel selfies, West is adamant that the Disgusting Food Museum is there to help people learn and think critically, not just to pose for photos. The museum is a 400-square-meter space that will challenge four of our five senses - smell, touch, sight and taste. The displays include food from around the world that some people might think is disgusting. However, people in other parts of the world think this food is totally normal and is a regular part of their diet. The food exhibits include American favorites such as Jell-O salad and world food like fried tarantula, fermented shark, roasted guinea pigs and sheep eyeball juice. Dr. West said that we could all eat any food, but our culture tells us what is tasty and what is not. According to him, what we find disgusting has to be learned—it's purely cultural."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "Innovative",
     "Unsatisfied"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "There is a museum for everything these days. The latest museum to open may turn you off your dinner. It is the Disgusting Food Museum, which opened at the end of last year in Malmo, Sweden. Food is so much more than sustenance. Curious foods from exotic cultures have always fascinated people. Unfamiliar foods can be delicious, or they can be more of an acquired taste. The new exhibition allows people to analyze why they love and hate certain foods. It might also lead them to consider alternative food sources. The museum's founder, Dr. Samuel West, a psychologist by day and a museum curator by night, explained why he created the project. He said he was researching the effect of meat consumption and its effect on the environment. This made him think about alternative sources of protein, like insects. Although most people would think eating bugs is gross, Dr. West wanted to make them reconsider the idea. The exhibition invites visitors to explore the world of food and challenge their notions of what is and what is not edible. While many food-related museums of late have mostly just been opportunities for novel selfies, West is adamant that the Disgusting Food Museum is there to help people learn and think critically, not just to pose for photos. The museum is a 400-square-meter space that will challenge four of our five senses - smell, touch, sight and taste. The displays include food from around the world that some people might think is disgusting. However, people in other parts of the world think this food is totally normal and is a regular part of their diet. The food exhibits include American favorites such as Jell-O salad and world food like fried tarantula, fermented shark, roasted guinea pigs and sheep eyeball juice. Dr. West said that we could all eat any food, but our culture tells us what is tasty and what is not. According to him, what we find disgusting has to be learned—it's purely cultural."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "He encouraged museum visitors to take selfies and pose photos.",
     "He established the Disgusting Food Museum."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "There is a museum for everything these days. The latest museum to open may turn you off your dinner. It is the Disgusting Food Museum, which opened at the end of last year in Malmo, Sweden. Food is so much more than sustenance. Curious foods from exotic cultures have always fascinated people. Unfamiliar foods can be delicious, or they can be more of an acquired taste. The new exhibition allows people to analyze why they love and hate certain foods. It might also lead them to consider alternative food sources. The museum's founder, Dr. Samuel West, a psychologist by day and a museum curator by night, explained why he created the project. He said he was researching the effect of meat consumption and its effect on the environment. This made him think about alternative sources of protein, like insects. Although most people would think eating bugs is gross, Dr. West wanted to make them reconsider the idea. The exhibition invites visitors to explore the world of food and challenge their notions of what is and what is not edible. While many food-related museums of late have mostly just been opportunities for novel selfies, West is adamant that the Disgusting Food Museum is there to help people learn and think critically, not just to pose for photos. The museum is a 400-square-meter space that will challenge four of our five senses - smell, touch, sight and taste. The displays include food from around the world that some people might think is disgusting. However, people in other parts of the world think this food is totally normal and is a regular part of their diet. The food exhibits include American favorites such as Jell-O salad and world food like fried tarantula, fermented shark, roasted guinea pigs and sheep eyeball juice. Dr. West said that we could all eat any food, but our culture tells us what is tasty and what is not. According to him, what we find disgusting has to be learned—it's purely cultural."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "It was held in a 400-square-meter museum in Sweden.",
     "The displays only include food that is not a regular part of everyone’s diet."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "There is a museum for everything these days. The latest museum to open may turn you off your dinner. It is the Disgusting Food Museum, which opened at the end of last year in Malmo, Sweden. Food is so much more than sustenance. Curious foods from exotic cultures have always fascinated people. Unfamiliar foods can be delicious, or they can be more of an acquired taste. The new exhibition allows people to analyze why they love and hate certain foods. It might also lead them to consider alternative food sources. The museum's founder, Dr. Samuel West, a psychologist by day and a museum curator by night, explained why he created the project. He said he was researching the effect of meat consumption and its effect on the environment. This made him think about alternative sources of protein, like insects. Although most people would think eating bugs is gross, Dr. West wanted to make them reconsider the idea. The exhibition invites visitors to explore the world of food and challenge their notions of what is and what is not edible. While many food-related museums of late have mostly just been opportunities for novel selfies, West is adamant that the Disgusting Food Museum is there to help people learn and think critically, not just to pose for photos. The museum is a 400-square-meter space that will challenge four of our five senses - smell, touch, sight and taste. The displays include food from around the world that some people might think is disgusting. However, people in other parts of the world think this food is totally normal and is a regular part of their diet. The food exhibits include American favorites such as Jell-O salad and world food like fried tarantula, fermented shark, roasted guinea pigs and sheep eyeball juice. Dr. West said that we could all eat any food, but our culture tells us what is tasty and what is not. According to him, what we find disgusting has to be learned—it's purely cultural."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l004'] = {
     "People tend to be disgusted about different cultural practices.",
     "People learn to change their disgust about food in a new culture."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "There is a museum for everything these days. The latest museum to open may turn you off your dinner. It is the Disgusting Food Museum, which opened at the end of last year in Malmo, Sweden. Food is so much more than sustenance. Curious foods from exotic cultures have always fascinated people. Unfamiliar foods can be delicious, or they can be more of an acquired taste. The new exhibition allows people to analyze why they love and hate certain foods. It might also lead them to consider alternative food sources. The museum's founder, Dr. Samuel West, a psychologist by day and a museum curator by night, explained why he created the project. He said he was researching the effect of meat consumption and its effect on the environment. This made him think about alternative sources of protein, like insects. Although most people would think eating bugs is gross, Dr. West wanted to make them reconsider the idea. The exhibition invites visitors to explore the world of food and challenge their notions of what is and what is not edible. While many food-related museums of late have mostly just been opportunities for novel selfies, West is adamant that the Disgusting Food Museum is there to help people learn and think critically, not just to pose for photos. The museum is a 400-square-meter space that will challenge four of our five senses - smell, touch, sight and taste. The displays include food from around the world that some people might think is disgusting. However, people in other parts of the world think this food is totally normal and is a regular part of their diet. The food exhibits include American favorites such as Jell-O salad and world food like fried tarantula, fermented shark, roasted guinea pigs and sheep eyeball juice. Dr. West said that we could all eat any food, but our culture tells us what is tasty and what is not. According to him, what we find disgusting has to be learned—it's purely cultural."
   }
  ]
 };

@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-111-1-g002'] = {
     "transmutations",
     "transfusions",
     "transductions",
-    "transfections請依下文回答第 41 題至第 45 題In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as"
+    "transfections"
    ],
    "a": 1,
    "exp": "✅ (B) transfusions of blood 意為「輸血」，因為輸血使某些手術得以進行，每年救回無數生命。\n❌ (A) transmutation 是質變、嬗變。\n❌ (C) transduction 是（訊號或基因的）轉導。\n❌ (D) transfection 是（細胞的）轉染。\n📚 出處：英文字彙（transfusion 的字義）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-111-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "die out",
+    "make up",
+    "get set",
+    "go awry"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/111090_301_0115_41.webp"
+   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "discriminative",
+    "formidable",
+    "hypothetical",
+    "proactive"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/111090_301_0115_42.webp"
+   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Also",
+    "Yet",
+    "In case",
+    "In practice"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/111090_301_0115_43.webp"
+   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "across the board",
+    "in due course",
+    "out of the blue",
+    "up in the air"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111090_301_0115_44.webp"
+   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "downsize",
+    "embrace",
+    "pinpoint",
+    "offend"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/111090_301_0115_45.webp"
+   "psg": "In business or in daily life, when dealing with the things we know, we can plan accordingly and expect them to go as planned. However good business or personal plans may be, they can sometimes 41 because of unexpected events or circumstances, which are often called contingencies. Success sometimes reflects the number of calculated risks we are willing to take, both personally and professionally. That is why contingency planning is so important for it allows active risk management and 42 preparation rather than reactive decisions when faced with an emergency, which can result in failure. In business a contingency, either externally or internally, is generally negative, and it may influence the financial health, professional image, or market share of a company. 43 , such unexpected development can likewise be a surprising windfall, for example, a giant order. Anything 44 that upsets a company’s normal operation can hurt the company regardless of the possibility that the interruption is a direct result of a windfall. It should, therefore, be a normal part of the business planning process to 45 potential threats and opportunities. Seeing to this can ensure that specific contingency plans and resources are well-prepared to deal with them."
   },
   {
    "n": 46,

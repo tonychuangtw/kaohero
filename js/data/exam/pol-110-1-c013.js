@@ -500,7 +500,7 @@ window.APP_EXAM_PAPERS['pol-110-1-c013'] = {
     "reducible",
     "touchable",
     "preventable",
-    "flammable請依下文回答第 36 題至第 40 題：There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s"
+    "flammable"
    ],
    "a": 3,
    "exp": "✅ (D) flammable 意為「易燃的」。句意：為降低烹調起火的機會，應把易燃的清潔劑遠離熱源，符合廚房防火常識（清潔劑多含酒精等易燃溶劑）。\n❌ (A) reducible 意為可減少的、可簡化的，不用來修飾清潔劑。\n❌ (B) touchable 意為可觸摸的，與遠離熱源的理由無關。\n❌ (C) preventable 意為可預防的，主語應是事故（如 preventable fire），不是清潔劑。\n📚 出處：廚房防火安全；flammable（易燃的）。"
@@ -509,76 +509,71 @@ window.APP_EXAM_PAPERS['pol-110-1-c013'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "operate",
+    "conceal",
+    "obstruct",
+    "cooperate"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_602_0209_36.webp"
+   "psg": "There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s lives. Firefighters 36 with their local community to increase their awareness of fire safety. In addition, they are also responsible for 37 fire safety standards by conducting practice drills and other trainings in public and commercial premises. Working as a firefighter means that you are the direct frontline representative for your respective department or team. It is essential that you know how to 38 your attitude especially in handling situations. A firefighter must know how to remain calm and at the same time know how to stay 39 . Firefighters are considered as the problem solvers and life savers in times of fire 40 , which is why it is very important for them to have extensive knowledge and experience in this kind of work."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "lifting",
+    "raising",
+    "delaying",
+    "promoting"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/110070_602_0209_37.webp"
+   "psg": "There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s lives. Firefighters 36 with their local community to increase their awareness of fire safety. In addition, they are also responsible for 37 fire safety standards by conducting practice drills and other trainings in public and commercial premises. Working as a firefighter means that you are the direct frontline representative for your respective department or team. It is essential that you know how to 38 your attitude especially in handling situations. A firefighter must know how to remain calm and at the same time know how to stay 39 . Firefighters are considered as the problem solvers and life savers in times of fire 40 , which is why it is very important for them to have extensive knowledge and experience in this kind of work."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "watch",
+    "reject",
+    "balance",
+    "depress"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110070_602_0209_38.webp"
+   "psg": "There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s lives. Firefighters 36 with their local community to increase their awareness of fire safety. In addition, they are also responsible for 37 fire safety standards by conducting practice drills and other trainings in public and commercial premises. Working as a firefighter means that you are the direct frontline representative for your respective department or team. It is essential that you know how to 38 your attitude especially in handling situations. A firefighter must know how to remain calm and at the same time know how to stay 39 . Firefighters are considered as the problem solvers and life savers in times of fire 40 , which is why it is very important for them to have extensive knowledge and experience in this kind of work."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "focused",
+    "blocked",
+    "absorbed",
+    "scattered"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110070_602_0209_39.webp"
+   "psg": "There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s lives. Firefighters 36 with their local community to increase their awareness of fire safety. In addition, they are also responsible for 37 fire safety standards by conducting practice drills and other trainings in public and commercial premises. Working as a firefighter means that you are the direct frontline representative for your respective department or team. It is essential that you know how to 38 your attitude especially in handling situations. A firefighter must know how to remain calm and at the same time know how to stay 39 . Firefighters are considered as the problem solvers and life savers in times of fire 40 , which is why it is very important for them to have extensive knowledge and experience in this kind of work."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "tensions",
+    "emergencies",
+    "adventures",
+    "difficulties"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110070_602_0209_40.webp"
+   "psg": "There’s more to a firefighter’s job than extinguishing fires; firefighters also respond to emergency and save people’s lives. Firefighters 36 with their local community to increase their awareness of fire safety. In addition, they are also responsible for 37 fire safety standards by conducting practice drills and other trainings in public and commercial premises. Working as a firefighter means that you are the direct frontline representative for your respective department or team. It is essential that you know how to 38 your attitude especially in handling situations. A firefighter must know how to remain calm and at the same time know how to stay 39 . Firefighters are considered as the problem solvers and life savers in times of fire 40 , which is why it is very important for them to have extensive knowledge and experience in this kind of work."
   },
   {
    "n": 41,

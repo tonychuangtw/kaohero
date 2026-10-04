@@ -783,7 +783,7 @@ window.APP_EXAM_PAPERS['pol-107-1-b006'] = {
     "He is a caring husband.",
     "He loves to share information.",
     "He is the most popular person in the office.",
-    "He has been fighting against the newspaper.請依下文回答第 56 題至第 60 題：Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a"
+    "He has been fighting against the newspaper."
    ],
    "psg": "The legal doctrine of false light addresses people’s right to not have false or misleading information, which puts them in a false light, made public. In other words, it deals with the invasion of a person’s privacy by disseminating false or misleading information, rather than the gathering of information through invasion of privacy. Walter leaves his position on the City Council to care for his wife, who has serious health problems. The small town’s local newspaper prints a story about Walter’s resignation, alluding to “anonymous sources” reporting Walter was a little too friendly with the administrative assistants and other women at the office. This led to talk about whether Walter had an affair. Walter, who is certainly friendly with everyone at the office, never had an affair, and is terribly embarrassed and indignant over the incident, and the damage to his reputation. Because the newspaper disclosed information that painted Walter in a false light, he may choose to file a civil lawsuit under the tort of false light. In this case, the misleading information was published in the town newspaper, intentionally, with reckless disregard for the falsity of the information, in exchange for higher readership.",
    "a": 0,
@@ -793,76 +793,71 @@ window.APP_EXAM_PAPERS['pol-107-1-b006'] = {
    "n": 56,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 56 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "imminent",
+    "persistent",
+    "civilian",
+    "humble"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_501_0206_56.webp"
+   "psg": "Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a criminal act. There are two main types of offenders: repeat offenders and age-specific offenders. Repeat offenders are also known as “life-course 56 offenders.” These juvenile delinquents begin offending or showing other signs of antisocial behavior during adolescence. Repeat offenders continue to engage in criminal activities or aggressive behaviors 57 after they enter adulthood. The other type of juvenile delinquent behavior, age-specific offenders, begins during adolescence. 58 the repeat offenders, however, the behaviors of the age-specific offender ends before the minor becomes an adult. The behaviors that a juvenile shows during adolescence are often a good 59 of the type of offender he will become. While age-specific offenders leave their delinquent behavior behind 60 they enter adulthood, they often have more mental health problems, engage in substance abuse, and have greater financial problems than adults who were never delinquent as juveniles."
   },
   {
    "n": 57,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 57 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "quite",
+    "never",
+    "even",
+    "over"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_501_0206_57.webp"
+   "psg": "Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a criminal act. There are two main types of offenders: repeat offenders and age-specific offenders. Repeat offenders are also known as “life-course 56 offenders.” These juvenile delinquents begin offending or showing other signs of antisocial behavior during adolescence. Repeat offenders continue to engage in criminal activities or aggressive behaviors 57 after they enter adulthood. The other type of juvenile delinquent behavior, age-specific offenders, begins during adolescence. 58 the repeat offenders, however, the behaviors of the age-specific offender ends before the minor becomes an adult. The behaviors that a juvenile shows during adolescence are often a good 59 of the type of offender he will become. While age-specific offenders leave their delinquent behavior behind 60 they enter adulthood, they often have more mental health problems, engage in substance abuse, and have greater financial problems than adults who were never delinquent as juveniles."
   },
   {
    "n": 58,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 58 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "To",
+    "For",
+    "Beside",
+    "Unlike"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_501_0206_58.webp"
+   "psg": "Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a criminal act. There are two main types of offenders: repeat offenders and age-specific offenders. Repeat offenders are also known as “life-course 56 offenders.” These juvenile delinquents begin offending or showing other signs of antisocial behavior during adolescence. Repeat offenders continue to engage in criminal activities or aggressive behaviors 57 after they enter adulthood. The other type of juvenile delinquent behavior, age-specific offenders, begins during adolescence. 58 the repeat offenders, however, the behaviors of the age-specific offender ends before the minor becomes an adult. The behaviors that a juvenile shows during adolescence are often a good 59 of the type of offender he will become. While age-specific offenders leave their delinquent behavior behind 60 they enter adulthood, they often have more mental health problems, engage in substance abuse, and have greater financial problems than adults who were never delinquent as juveniles."
   },
   {
    "n": 59,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 59 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "indicator",
+    "example",
+    "decision",
+    "principle"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_501_0206_59.webp"
+   "psg": "Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a criminal act. There are two main types of offenders: repeat offenders and age-specific offenders. Repeat offenders are also known as “life-course 56 offenders.” These juvenile delinquents begin offending or showing other signs of antisocial behavior during adolescence. Repeat offenders continue to engage in criminal activities or aggressive behaviors 57 after they enter adulthood. The other type of juvenile delinquent behavior, age-specific offenders, begins during adolescence. 58 the repeat offenders, however, the behaviors of the age-specific offender ends before the minor becomes an adult. The behaviors that a juvenile shows during adolescence are often a good 59 of the type of offender he will become. While age-specific offenders leave their delinquent behavior behind 60 they enter adulthood, they often have more mental health problems, engage in substance abuse, and have greater financial problems than adults who were never delinquent as juveniles."
   },
   {
    "n": 60,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 60 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "because",
+    "unless",
+    "when",
+    "or"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_501_0206_60.webp"
+   "psg": "Juvenile delinquents are often defined as children between the ages of 10 and 17 who have committed a criminal act. There are two main types of offenders: repeat offenders and age-specific offenders. Repeat offenders are also known as “life-course 56 offenders.” These juvenile delinquents begin offending or showing other signs of antisocial behavior during adolescence. Repeat offenders continue to engage in criminal activities or aggressive behaviors 57 after they enter adulthood. The other type of juvenile delinquent behavior, age-specific offenders, begins during adolescence. 58 the repeat offenders, however, the behaviors of the age-specific offender ends before the minor becomes an adult. The behaviors that a juvenile shows during adolescence are often a good 59 of the type of offender he will become. While age-specific offenders leave their delinquent behavior behind 60 they enter adulthood, they often have more mental health problems, engage in substance abuse, and have greater financial problems than adults who were never delinquent as juveniles."
   }
  ]
 };

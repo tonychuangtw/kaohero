@@ -752,7 +752,7 @@ window.APP_EXAM_PAPERS['pol-108-1-b018'] = {
     "evacuation",
     "transaction",
     "transmission",
-    "ejection請依下文回答第 54 題至第 55 題Marine police often inspect boats to ensure they are 54 ＿＿＿ with regulations. In some parts of"
+    "ejection"
    ],
    "a": 0,
    "exp": "✅ (A) evacuation 意為「撤離、疏散」，符合建築物傾斜移位後緊急疏散撤離 30 名住戶之防災處置情境。\n❌ (B) transaction 意為商業交易、買賣，不合大樓傾斜避難之新聞事件語意。\n❌ (C) transmission 意為傳送、疾病傳播，不符人員避難之語境。\n❌ (D) ejection 意為噴射、強制驅逐，非公共安全緊急疏散住戶之專業用詞。\n📚 出處：公共安全與災害防救英文；evacuation（疏散／撤離）。"
@@ -761,31 +761,29 @@ window.APP_EXAM_PAPERS['pol-108-1-b018'] = {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "satisfied",
+    "complying",
+    "tampering",
+    "pleased"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_511_0210_54.webp"
+   "psg": "the country, the marine police are also responsible for 55 smuggling operations and arresting criminals."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "interdicting",
+    "interceding",
+    "permitting",
+    "sanctioning"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/108070_511_0210_55.webp"
+   "psg": "the country, the marine police are also responsible for 55 smuggling operations and arresting criminals."
   },
   {
    "n": 56,

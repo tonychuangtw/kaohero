@@ -644,7 +644,7 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
     "equally",
     "singly",
     "generally",
-    "legally請依下文回答第 46 題至第 50 題"
+    "legally"
    ],
    "a": 3,
    "exp": "✅ (D) 後半句說在另一州就觸法，前半句應是在某州做某事是合法的，legally 意為合法地，語意對比最完整。\n❌ (A) equally 意為同等地。\n❌ (B) singly 意為單獨地。\n❌ (C) generally 意為普遍地，無法與 break the law 形成對比。\n📚 出處：英文——副詞字義辨析"
@@ -653,16 +653,15 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as",
+    "by",
+    "for",
+    "via"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112010_501_0102_46.webp"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
   },
   {
    "n": 47,
@@ -683,46 +682,43 @@ window.APP_EXAM_PAPERS['chu-112-1-e002'] = {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "is expected",
+    "proved",
+    "supposed",
+    "was described"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112010_501_0102_48.webp"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "break",
+    "broken",
+    "breaking",
+    "being breaking"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112010_501_0102_49.webp"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "In contrast",
+    "In comparison",
+    "In fact",
+    "In summary"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112010_501_0102_50.webp"
+   "psg": "If you plan to travel from one country to another, you need to have a passport. A passport identifies you 46 a citizen of a country and allows you to travel to foreign countries. In the late eighteenth century, a passport for an American was usually a letter 47 by the President of the United States. The person whose name was on the passport 48 with words. Here is an example from the early 1800’s: “Hair-black, curly; eyes-brown; nose- 49 ; forehead-wrinkled; mouth-thin with big teeth; chin-pointed.” Today you must have a photograph on your passport. Sometimes those photos are not very good. 50 , there is a joke about passport photos. That is, if you really look like the picture on your passport, you certainly need a vacation!"
   }
  ]
 };

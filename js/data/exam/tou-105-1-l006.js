@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l006'] = {
     "60 %",
     "50 %"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Selon la dernière enquête de l’Institut FRESSO réalisée à l’occasion du Salon du tourisme, voici les principales qualités attendues par les recruteurs du secteur touristique. Les chiffres sont sans appel, plus de la moitié des interviewés confirme que l’expérience est un plus, il peut s’agir de petits boulots d’été ou de stage mais l’employeur se sent plus en confiance face à un candidat qui a déjà baigné dans le secteur. Le goût du voyage et de la connaissance de langues étrangères sont également très appréciés par plus de 70 % des recruteurs. Si vous êtes étudiant et vous n’avez pas encore d’expérience, ne vous inquiétez pas, la motivation des candidats est également prise en compte car c’est une qualité indispensable aux métiers touristiques. Il faut également être polyvalent car les tâches sont nombreuses et variées. La politesse et une bonne présentation sont vivement recommandées et appréciées. Vous vous reconnaissez dans cette description? Alors filez au Salon du tourisme, Portes de Versailles!"
   },
   {
    "n": 72,
@@ -1033,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l006'] = {
     "le plurilinguisme",
     "la motivation"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Selon la dernière enquête de l’Institut FRESSO réalisée à l’occasion du Salon du tourisme, voici les principales qualités attendues par les recruteurs du secteur touristique. Les chiffres sont sans appel, plus de la moitié des interviewés confirme que l’expérience est un plus, il peut s’agir de petits boulots d’été ou de stage mais l’employeur se sent plus en confiance face à un candidat qui a déjà baigné dans le secteur. Le goût du voyage et de la connaissance de langues étrangères sont également très appréciés par plus de 70 % des recruteurs. Si vous êtes étudiant et vous n’avez pas encore d’expérience, ne vous inquiétez pas, la motivation des candidats est également prise en compte car c’est une qualité indispensable aux métiers touristiques. Il faut également être polyvalent car les tâches sont nombreuses et variées. La politesse et une bonne présentation sont vivement recommandées et appréciées. Vous vous reconnaissez dans cette description? Alors filez au Salon du tourisme, Portes de Versailles!"
   },
   {
    "n": 74,
@@ -1046,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-105-1-l006'] = {
     "les demandeurs d’emploi",
     "les recruteurs du secteur touristique"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Selon la dernière enquête de l’Institut FRESSO réalisée à l’occasion du Salon du tourisme, voici les principales qualités attendues par les recruteurs du secteur touristique. Les chiffres sont sans appel, plus de la moitié des interviewés confirme que l’expérience est un plus, il peut s’agir de petits boulots d’été ou de stage mais l’employeur se sent plus en confiance face à un candidat qui a déjà baigné dans le secteur. Le goût du voyage et de la connaissance de langues étrangères sont également très appréciés par plus de 70 % des recruteurs. Si vous êtes étudiant et vous n’avez pas encore d’expérience, ne vous inquiétez pas, la motivation des candidats est également prise en compte car c’est une qualité indispensable aux métiers touristiques. Il faut également être polyvalent car les tâches sont nombreuses et variées. La politesse et une bonne présentation sont vivement recommandées et appréciées. Vous vous reconnaissez dans cette description? Alors filez au Salon du tourisme, Portes de Versailles!"
   },
   {
    "n": 75,

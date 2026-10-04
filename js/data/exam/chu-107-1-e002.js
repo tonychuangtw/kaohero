@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
     "assumed",
     "accounted",
     "approached",
-    "appreciated第 41 題至第 45 題，請依文意，從四個選項中選出最合適者Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials."
+    "appreciated"
    ],
    "a": 3,
    "exp": "✅ (D) appreciate 意為感謝、感激，學生以卡片表達對老師辛勞的感謝。\n❌ (A) assume 意為假定、承擔。\n❌ (B) account 常與 for 連用，意為說明、占比。\n❌ (C) approach 意為接近、著手處理。\n📚 出處：英文字彙（appreciate 的用法）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['chu-107-1-e002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "offered",
+    "enriched",
+    "destroyed",
+    "remodeled"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107010_501_0102_41.webp"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "care",
+    "flattery",
+    "patience",
+    "violence"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107010_501_0102_42.webp"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Rarely",
+    "Hopefully",
+    "Absolutely",
+    "Nevertheless"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107010_501_0102_43.webp"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "run away",
+    "engage in",
+    "get rid of",
+    "take advantage of"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107010_501_0102_44.webp"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "heroic",
+    "childish",
+    "anxious",
+    "progressive"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107010_501_0102_45.webp"
+   "psg": "Starting in the 1930s, LEGO’s founder Ole Kirk Christiansen had created toys using wood and other materials. When a fire in 1960 41 the company’s warehouse containing wooden toys, Christiansen decided to concentrate all efforts on one single product: the plastic LEGO brick. LEGO bricks are not associated with 42 , sex, political viewpoints, or controversial topics, and the company has deliberately sought to develop a “safe” image. 43 , during the last decades this image of LEGO has also come to present a problem, because children increasingly 44 more teenage-like leisure activities, influenced by adult topics circulating in the media. For the growing generation of “tween”-agers, this safe image could easily be synonymous with “ 45 .”"
   },
   {
    "n": 46,

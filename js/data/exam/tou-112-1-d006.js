@@ -920,7 +920,7 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Il n’est pas dans ta poche ?",
     "Qu’est-ce que je dois faire maintenant ?",
     "J’ai payé, puis je l’ai mis dans ma poche.",
-    "Je ne le trouve pas, j’espère que je ne l’ai pas perdu !依下文回答第 66 題至第 70 題"
+    "Je ne le trouve pas, j’espère que je ne l’ai pas perdu !"
    ],
    "a": 0,
    "exp": "✅ (A) A 焦急表示皮夾不見了找不著，B 提出合理的查找提醒：「它不在你的口袋裡嗎？（Il n’est pas dans ta poche ?）」，符合情境邏輯。\n❌ (B) 「我現在該做什麼？」立場反客為主，遺失皮夾的是 A 並非 B。\n❌ (C) 「我付了錢然後放進口袋」，使用了第一人稱，語意彷彿是 B 拿了錢包，接話不合邏輯。\n❌ (D) 「我找不到，希望我沒弄丟」，這是遺失者 A 的自我內心獨白，不適合作為對話者 B 的答話。\n📚 出處：日常生活會話與尋求協助用語"
@@ -936,7 +936,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Elle est située à 90 kilomètres au sud-est de la ville de Taitung.",
     "Elle se trouve dans le détroit de Taïwan."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Juste au sud de l’île verte se trouve l’île des Orchidées. Située à 90 kilomètres au sud-est de la ville de Taitung, au large de la côte orientale de Taïwan, cette île tropicale incomparable doit son nom aux fleurs sauvages poussant dans les forêts luxuriantes de ses montagnes escarpées. Une étude des fonds marins autour de cette île a permis d’observer 32 espèces dont la présence sur place n’avait pas encore été documentée, dont 21 crustacés, a fait savoir l’administration pour la Conservation de l’océan. Amphipholis squamata, une espèce d’échinoderme, a été recensée pour la première fois à Taïwan. L’île des Orchidées est la patrie des Yami. Dans deux villages, quelques maisons en pierre construites avec ingéniosité par les Yami se tiennent encore. Étant construites à moitié dans le sol, il y fait frais l’été et chaud en hiver. Elles ne craignent pas les typhons. Les Yami font très peu d’agriculture, ils vivent essentiellement de la pêche. L’un des principaux composants de leur alimentation sont les poissons volants. La pêche et la préparation de ces poissons sont soumises à des règles et à des rites très anciens. Le bateau est le bien le plus précieux d’un homme yami. Ces bateaux gracieux à la proue relevée sont entièrement réalisés à la main et superbement décorés."
   },
   {
    "n": 67,
@@ -949,7 +950,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "L’île des Orchidées appartient au comté de Pingtung.",
     "Amphipholis squamata a été recensée pour la première fois à Taïwan."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Juste au sud de l’île verte se trouve l’île des Orchidées. Située à 90 kilomètres au sud-est de la ville de Taitung, au large de la côte orientale de Taïwan, cette île tropicale incomparable doit son nom aux fleurs sauvages poussant dans les forêts luxuriantes de ses montagnes escarpées. Une étude des fonds marins autour de cette île a permis d’observer 32 espèces dont la présence sur place n’avait pas encore été documentée, dont 21 crustacés, a fait savoir l’administration pour la Conservation de l’océan. Amphipholis squamata, une espèce d’échinoderme, a été recensée pour la première fois à Taïwan. L’île des Orchidées est la patrie des Yami. Dans deux villages, quelques maisons en pierre construites avec ingéniosité par les Yami se tiennent encore. Étant construites à moitié dans le sol, il y fait frais l’été et chaud en hiver. Elles ne craignent pas les typhons. Les Yami font très peu d’agriculture, ils vivent essentiellement de la pêche. L’un des principaux composants de leur alimentation sont les poissons volants. La pêche et la préparation de ces poissons sont soumises à des règles et à des rites très anciens. Le bateau est le bien le plus précieux d’un homme yami. Ces bateaux gracieux à la proue relevée sont entièrement réalisés à la main et superbement décorés."
   },
   {
    "n": 68,
@@ -962,7 +964,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Les Yami font très peu de pêche, ils vivent essentiellement de l’agriculture.",
     "Les montagnes de l’île des Orchidées sont très faciles d’accès."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Juste au sud de l’île verte se trouve l’île des Orchidées. Située à 90 kilomètres au sud-est de la ville de Taitung, au large de la côte orientale de Taïwan, cette île tropicale incomparable doit son nom aux fleurs sauvages poussant dans les forêts luxuriantes de ses montagnes escarpées. Une étude des fonds marins autour de cette île a permis d’observer 32 espèces dont la présence sur place n’avait pas encore été documentée, dont 21 crustacés, a fait savoir l’administration pour la Conservation de l’océan. Amphipholis squamata, une espèce d’échinoderme, a été recensée pour la première fois à Taïwan. L’île des Orchidées est la patrie des Yami. Dans deux villages, quelques maisons en pierre construites avec ingéniosité par les Yami se tiennent encore. Étant construites à moitié dans le sol, il y fait frais l’été et chaud en hiver. Elles ne craignent pas les typhons. Les Yami font très peu d’agriculture, ils vivent essentiellement de la pêche. L’un des principaux composants de leur alimentation sont les poissons volants. La pêche et la préparation de ces poissons sont soumises à des règles et à des rites très anciens. Le bateau est le bien le plus précieux d’un homme yami. Ces bateaux gracieux à la proue relevée sont entièrement réalisés à la main et superbement décorés."
   },
   {
    "n": 69,
@@ -975,7 +978,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Amphipholis squamata a été recensée pour la première fois à Taïwan.",
     "Amphipholis squamata existe au large de la côte orientale de Taïwan."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Juste au sud de l’île verte se trouve l’île des Orchidées. Située à 90 kilomètres au sud-est de la ville de Taitung, au large de la côte orientale de Taïwan, cette île tropicale incomparable doit son nom aux fleurs sauvages poussant dans les forêts luxuriantes de ses montagnes escarpées. Une étude des fonds marins autour de cette île a permis d’observer 32 espèces dont la présence sur place n’avait pas encore été documentée, dont 21 crustacés, a fait savoir l’administration pour la Conservation de l’océan. Amphipholis squamata, une espèce d’échinoderme, a été recensée pour la première fois à Taïwan. L’île des Orchidées est la patrie des Yami. Dans deux villages, quelques maisons en pierre construites avec ingéniosité par les Yami se tiennent encore. Étant construites à moitié dans le sol, il y fait frais l’été et chaud en hiver. Elles ne craignent pas les typhons. Les Yami font très peu d’agriculture, ils vivent essentiellement de la pêche. L’un des principaux composants de leur alimentation sont les poissons volants. La pêche et la préparation de ces poissons sont soumises à des règles et à des rites très anciens. Le bateau est le bien le plus précieux d’un homme yami. Ces bateaux gracieux à la proue relevée sont entièrement réalisés à la main et superbement décorés."
   },
   {
    "n": 70,
@@ -988,7 +992,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "L’ordinateur",
     "Les poissons"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Juste au sud de l’île verte se trouve l’île des Orchidées. Située à 90 kilomètres au sud-est de la ville de Taitung, au large de la côte orientale de Taïwan, cette île tropicale incomparable doit son nom aux fleurs sauvages poussant dans les forêts luxuriantes de ses montagnes escarpées. Une étude des fonds marins autour de cette île a permis d’observer 32 espèces dont la présence sur place n’avait pas encore été documentée, dont 21 crustacés, a fait savoir l’administration pour la Conservation de l’océan. Amphipholis squamata, une espèce d’échinoderme, a été recensée pour la première fois à Taïwan. L’île des Orchidées est la patrie des Yami. Dans deux villages, quelques maisons en pierre construites avec ingéniosité par les Yami se tiennent encore. Étant construites à moitié dans le sol, il y fait frais l’été et chaud en hiver. Elles ne craignent pas les typhons. Les Yami font très peu d’agriculture, ils vivent essentiellement de la pêche. L’un des principaux composants de leur alimentation sont les poissons volants. La pêche et la préparation de ces poissons sont soumises à des règles et à des rites très anciens. Le bateau est le bien le plus précieux d’un homme yami. Ces bateaux gracieux à la proue relevée sont entièrement réalisés à la main et superbement décorés."
   },
   {
    "n": 71,
@@ -1001,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "entrée, plat, fromage, dessert, boisson",
     "entrée, plat, boisson, fromage, dessert, café"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Quand on entre dans un restaurant, on demande une table pour deux, trois ou plusieurs personnes. Le serveur/la serveuse apporte la carte. On peut prendre des plats à la carte ou un menu à ... euros. Avec le menu, on peut choisir des plats. Cette formule est plus économique. Dans la carte, ou au menu, on peut choisir une entrée chaude ou froide, un plat de viande ou de poisson, garni de légumes, de salade verte, de riz ou de pâtes. On choisit ensuite une boisson: un verre ou une bouteille de vin, de la bière, de l’eau minérale (plate ou gazeuse), ou une carafe d’eau. Quand les plats sont finis, on peut commander du fromage ou un dessert, ou bien du fromage et un dessert, puis des cafés et on demande l’addition. Le service est en général compris dans le prix. On peut, si on veut, laisser en plus un pourboire."
   },
   {
    "n": 72,
@@ -1014,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Le menu et la carte coûtent cher.",
     "Ni le menu et ni la carte ne coûtent cher."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Quand on entre dans un restaurant, on demande une table pour deux, trois ou plusieurs personnes. Le serveur/la serveuse apporte la carte. On peut prendre des plats à la carte ou un menu à ... euros. Avec le menu, on peut choisir des plats. Cette formule est plus économique. Dans la carte, ou au menu, on peut choisir une entrée chaude ou froide, un plat de viande ou de poisson, garni de légumes, de salade verte, de riz ou de pâtes. On choisit ensuite une boisson: un verre ou une bouteille de vin, de la bière, de l’eau minérale (plate ou gazeuse), ou une carafe d’eau. Quand les plats sont finis, on peut commander du fromage ou un dessert, ou bien du fromage et un dessert, puis des cafés et on demande l’addition. Le service est en général compris dans le prix. On peut, si on veut, laisser en plus un pourboire."
   },
   {
    "n": 73,
@@ -1027,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "choisir un restaurant",
     "demander la composition d’un plat"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Quand on entre dans un restaurant, on demande une table pour deux, trois ou plusieurs personnes. Le serveur/la serveuse apporte la carte. On peut prendre des plats à la carte ou un menu à ... euros. Avec le menu, on peut choisir des plats. Cette formule est plus économique. Dans la carte, ou au menu, on peut choisir une entrée chaude ou froide, un plat de viande ou de poisson, garni de légumes, de salade verte, de riz ou de pâtes. On choisit ensuite une boisson: un verre ou une bouteille de vin, de la bière, de l’eau minérale (plate ou gazeuse), ou une carafe d’eau. Quand les plats sont finis, on peut commander du fromage ou un dessert, ou bien du fromage et un dessert, puis des cafés et on demande l’addition. Le service est en général compris dans le prix. On peut, si on veut, laisser en plus un pourboire."
   },
   {
    "n": 74,
@@ -1040,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Addition",
     "Prix"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Quand on entre dans un restaurant, on demande une table pour deux, trois ou plusieurs personnes. Le serveur/la serveuse apporte la carte. On peut prendre des plats à la carte ou un menu à ... euros. Avec le menu, on peut choisir des plats. Cette formule est plus économique. Dans la carte, ou au menu, on peut choisir une entrée chaude ou froide, un plat de viande ou de poisson, garni de légumes, de salade verte, de riz ou de pâtes. On choisit ensuite une boisson: un verre ou une bouteille de vin, de la bière, de l’eau minérale (plate ou gazeuse), ou une carafe d’eau. Quand les plats sont finis, on peut commander du fromage ou un dessert, ou bien du fromage et un dessert, puis des cafés et on demande l’addition. Le service est en général compris dans le prix. On peut, si on veut, laisser en plus un pourboire."
   },
   {
    "n": 75,
@@ -1051,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Du riz",
     "Des légumes",
     "De la viande",
-    "Des pâtesPOUR DES VACANCES SPORTIVES EN FRANCE"
+    "Des pâtes"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Quand on entre dans un restaurant, on demande une table pour deux, trois ou plusieurs personnes. Le serveur/la serveuse apporte la carte. On peut prendre des plats à la carte ou un menu à ... euros. Avec le menu, on peut choisir des plats. Cette formule est plus économique. Dans la carte, ou au menu, on peut choisir une entrée chaude ou froide, un plat de viande ou de poisson, garni de légumes, de salade verte, de riz ou de pâtes. On choisit ensuite une boisson: un verre ou une bouteille de vin, de la bière, de l’eau minérale (plate ou gazeuse), ou une carafe d’eau. Quand les plats sont finis, on peut commander du fromage ou un dessert, ou bien du fromage et un dessert, puis des cafés et on demande l’addition. Le service est en général compris dans le prix. On peut, si on veut, laisser en plus un pourboire."
   },
   {
    "n": 76,
@@ -1066,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Du ski sur les pentes du terril.",
     "De la randonnée en chiens de traîneau."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "POUR DES VACANCES SPORTIVES EN FRANCE Vous voulez changer d’environnement et revenir en pleine forme de vos vacances ? L’EAU VIVE Vous aimez l’eau, la nature et les rivières ? Alors jetez-vous à l’eau ! Faites du canoë-kayak ou du rafting dans les gorges du Tarn ou les gorges du Verdon, du canyoning ou de « la nage en eau vive » dans la Vallée de la Roya à la frontière italienne ou sur la Nive au Pays basque ! LA MER, LES VAGUES ET LE VENT Partez faire de la plongée en Martinique ou en Guadeloupe ! Prenez des risques et osez le kitesurf sur les plages de l’Atlantique ! Prenez une planche, surfez et roulez-vous dans les vagues ! Grand frisson garanti ! Goûtez le vent en mettant les pieds sur un catamaran ! Profitez de la Méditerranée et rejoignez la Corse depuis Nice en voilier ! LA NATURE AUTREMENT ! Vous n’aimez pas la neige, mais vous aimez skier ? Deux possibilités: ●Dans le bassin d’Arcachon, la première piste de ski sur aiguilles de pin a ouvert en 1938 ! ●À Nœux-les-Mines dans le Nord, le dernier puits de mine de charbon a fermé en 1972 et, depuis 1996, on peut skier sur les pentes du terril ! Vous aimez la neige, mais vous n’aimez pas skier ? Alors choisissez une randonnée en chiens de traîneau, dans les Alpes, le Vercors, les Pyrénées, le Massif central ou le Jura."
   },
   {
    "n": 77,
@@ -1079,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Le voilier.",
     "Le catamaran."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "POUR DES VACANCES SPORTIVES EN FRANCE Vous voulez changer d’environnement et revenir en pleine forme de vos vacances ? L’EAU VIVE Vous aimez l’eau, la nature et les rivières ? Alors jetez-vous à l’eau ! Faites du canoë-kayak ou du rafting dans les gorges du Tarn ou les gorges du Verdon, du canyoning ou de « la nage en eau vive » dans la Vallée de la Roya à la frontière italienne ou sur la Nive au Pays basque ! LA MER, LES VAGUES ET LE VENT Partez faire de la plongée en Martinique ou en Guadeloupe ! Prenez des risques et osez le kitesurf sur les plages de l’Atlantique ! Prenez une planche, surfez et roulez-vous dans les vagues ! Grand frisson garanti ! Goûtez le vent en mettant les pieds sur un catamaran ! Profitez de la Méditerranée et rejoignez la Corse depuis Nice en voilier ! LA NATURE AUTREMENT ! Vous n’aimez pas la neige, mais vous aimez skier ? Deux possibilités: ●Dans le bassin d’Arcachon, la première piste de ski sur aiguilles de pin a ouvert en 1938 ! ●À Nœux-les-Mines dans le Nord, le dernier puits de mine de charbon a fermé en 1972 et, depuis 1996, on peut skier sur les pentes du terril ! Vous aimez la neige, mais vous n’aimez pas skier ? Alors choisissez une randonnée en chiens de traîneau, dans les Alpes, le Vercors, les Pyrénées, le Massif central ou le Jura."
   },
   {
    "n": 78,
@@ -1092,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "Dans les gorges du Verdon.",
     "Dans la Vallée de la Roya."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "POUR DES VACANCES SPORTIVES EN FRANCE Vous voulez changer d’environnement et revenir en pleine forme de vos vacances ? L’EAU VIVE Vous aimez l’eau, la nature et les rivières ? Alors jetez-vous à l’eau ! Faites du canoë-kayak ou du rafting dans les gorges du Tarn ou les gorges du Verdon, du canyoning ou de « la nage en eau vive » dans la Vallée de la Roya à la frontière italienne ou sur la Nive au Pays basque ! LA MER, LES VAGUES ET LE VENT Partez faire de la plongée en Martinique ou en Guadeloupe ! Prenez des risques et osez le kitesurf sur les plages de l’Atlantique ! Prenez une planche, surfez et roulez-vous dans les vagues ! Grand frisson garanti ! Goûtez le vent en mettant les pieds sur un catamaran ! Profitez de la Méditerranée et rejoignez la Corse depuis Nice en voilier ! LA NATURE AUTREMENT ! Vous n’aimez pas la neige, mais vous aimez skier ? Deux possibilités: ●Dans le bassin d’Arcachon, la première piste de ski sur aiguilles de pin a ouvert en 1938 ! ●À Nœux-les-Mines dans le Nord, le dernier puits de mine de charbon a fermé en 1972 et, depuis 1996, on peut skier sur les pentes du terril ! Vous aimez la neige, mais vous n’aimez pas skier ? Alors choisissez une randonnée en chiens de traîneau, dans les Alpes, le Vercors, les Pyrénées, le Massif central ou le Jura."
   },
   {
    "n": 79,
@@ -1105,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "De la nage en eau vive.",
     "De la randonnée en chiens de traîneau."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "POUR DES VACANCES SPORTIVES EN FRANCE Vous voulez changer d’environnement et revenir en pleine forme de vos vacances ? L’EAU VIVE Vous aimez l’eau, la nature et les rivières ? Alors jetez-vous à l’eau ! Faites du canoë-kayak ou du rafting dans les gorges du Tarn ou les gorges du Verdon, du canyoning ou de « la nage en eau vive » dans la Vallée de la Roya à la frontière italienne ou sur la Nive au Pays basque ! LA MER, LES VAGUES ET LE VENT Partez faire de la plongée en Martinique ou en Guadeloupe ! Prenez des risques et osez le kitesurf sur les plages de l’Atlantique ! Prenez une planche, surfez et roulez-vous dans les vagues ! Grand frisson garanti ! Goûtez le vent en mettant les pieds sur un catamaran ! Profitez de la Méditerranée et rejoignez la Corse depuis Nice en voilier ! LA NATURE AUTREMENT ! Vous n’aimez pas la neige, mais vous aimez skier ? Deux possibilités: ●Dans le bassin d’Arcachon, la première piste de ski sur aiguilles de pin a ouvert en 1938 ! ●À Nœux-les-Mines dans le Nord, le dernier puits de mine de charbon a fermé en 1972 et, depuis 1996, on peut skier sur les pentes du terril ! Vous aimez la neige, mais vous n’aimez pas skier ? Alors choisissez une randonnée en chiens de traîneau, dans les Alpes, le Vercors, les Pyrénées, le Massif central ou le Jura."
   },
   {
    "n": 80,
@@ -1118,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d006'] = {
     "La Martinique.",
     "Les Alpes."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "POUR DES VACANCES SPORTIVES EN FRANCE Vous voulez changer d’environnement et revenir en pleine forme de vos vacances ? L’EAU VIVE Vous aimez l’eau, la nature et les rivières ? Alors jetez-vous à l’eau ! Faites du canoë-kayak ou du rafting dans les gorges du Tarn ou les gorges du Verdon, du canyoning ou de « la nage en eau vive » dans la Vallée de la Roya à la frontière italienne ou sur la Nive au Pays basque ! LA MER, LES VAGUES ET LE VENT Partez faire de la plongée en Martinique ou en Guadeloupe ! Prenez des risques et osez le kitesurf sur les plages de l’Atlantique ! Prenez une planche, surfez et roulez-vous dans les vagues ! Grand frisson garanti ! Goûtez le vent en mettant les pieds sur un catamaran ! Profitez de la Méditerranée et rejoignez la Corse depuis Nice en voilier ! LA NATURE AUTREMENT ! Vous n’aimez pas la neige, mais vous aimez skier ? Deux possibilités: ●Dans le bassin d’Arcachon, la première piste de ski sur aiguilles de pin a ouvert en 1938 ! ●À Nœux-les-Mines dans le Nord, le dernier puits de mine de charbon a fermé en 1972 et, depuis 1996, on peut skier sur les pentes du terril ! Vous aimez la neige, mais vous n’aimez pas skier ? Alors choisissez une randonnée en chiens de traîneau, dans les Alpes, le Vercors, les Pyrénées, le Massif central ou le Jura."
   }
  ]
 };

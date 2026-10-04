@@ -500,7 +500,7 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
     "surplus",
     "scarcity",
     "shipment",
-    "arrangement請依下文回答第 36 題至第 40 題：As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital"
+    "arrangement"
    ],
    "a": 1,
    "exp": "✅ (B) scarcity 意為「短缺」，毀滅性的洪水造成糧食嚴重短缺，許多家庭急需民生必需品。\n❌ (A) surplus 是過剩，語意相反。\n❌ (C) shipment 是貨運、裝運。\n❌ (D) arrangement 是安排。\n📚 出處：英文字彙（scarcity 的字義）"
@@ -509,76 +509,71 @@ window.APP_EXAM_PAPERS['loc-114-1-a002'] = {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "comes across",
+    "looks into",
+    "stands for",
+    "breaks down"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114190_301_0205_36.webp"
+   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "analytical",
+    "emotional",
+    "physical",
+    "symmetrical"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114190_301_0205_37.webp"
+   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "corroborating",
+    "deducting",
+    "fabricating",
+    "perpetrating"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114190_301_0205_38.webp"
+   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "however",
+    "reversely",
+    "instead",
+    "therefore"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114190_301_0205_39.webp"
+   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "buoyant",
+    "onerous",
+    "infatuated",
+    "haughty"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114190_301_0205_40.webp"
+   "psg": "As misinformation is rampant on social media, telling facts from fiction is a crucial skill. Mike Caulfield, a digital literacy expert, developed the SIFT methodology to improve fact-checking strategies. SIFT 36 “Stop, Investigate, Find, and Trace.” When you hear, see, or read something that triggers a strong 37 response, such as angry, shocked, or self-righteous, you should stop sharing the information and investigate the source that publishes the information. Next, find more trusted sources 38 the same information or disputing it. Readers should also be aware that re-reporting may omit certain facts to support biased perspectives. The final step, 39 , is to trace and read the claims in the original context in which they were presented. Taking these steps before deciding whether to share a claim might feel 40 . Yet it may not only save you the embarrassment but help ensure you’re not spreading misinformation."
   },
   {
    "n": 41,

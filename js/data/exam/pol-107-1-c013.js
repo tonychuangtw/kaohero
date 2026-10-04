@@ -656,7 +656,7 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
     "Burning rate",
     "Mass loss rate",
     "Heat of combustion",
-    "Detector請依下文回答第 47 題至第 50 題：Civilian: What should I do if I were in a ＿＿＿ 47 ?"
+    "Detector"
    ],
    "a": 3,
    "exp": "✅ (D) Detector（火災探測器）為火災警報設備，並非決定熱釋放率（HRR）的物理參數；熱釋放率計算公式為 Q = m * ΔHc，與探測器無關。\n❌ (A) Burning rate（燃燒速率）代表單位時間內燃料燃燒的速率，直接決定熱釋放率之大小。\n❌ (B) Mass loss rate（質量損失率，m）為燃料質量隨燃燒消耗之速率，是計算熱釋放率最核心的乘數因子。\n❌ (C) Heat of combustion（燃燒熱，ΔHc）為單位質量燃料完全燃燒釋放之熱量，為決定熱釋放率之關鍵物理量。\n📚 出處：火災動力學—熱釋放率（Heat Release Rate, HRR）之計算公式與影響因子。"
@@ -665,61 +665,57 @@ window.APP_EXAM_PAPERS['pol-107-1-c013'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "fire scene",
+    "sea",
+    "parking lot",
+    "television"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_602_0209_47.webp"
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "plastic bottle",
+    "battery",
+    "wet towel",
+    "tooth brush"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_602_0209_48.webp"
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "lift",
+    "escalator",
+    "gas station",
+    "emergency exit"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_602_0209_49.webp"
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Participate",
+    "Evacuate",
+    "Gasp",
+    "Inhale"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_602_0209_50.webp"
+   "psg": "Civilian: What should I do if I were in a 47 ? Fireman: You had better cover your mouth and nose with a 48 . Take the nearest 49 right away. 50 immediately."
   }
  ]
 };

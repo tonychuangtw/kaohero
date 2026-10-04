@@ -1071,7 +1071,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d015'] = {
     "Makanan yang dijual di pasar malam Shilin bukan makanan khas.",
     "Pasar malam Shilin sangat disenangi turis."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Bacalah karangan di bawah ini dengan seksama, kemudian jawablah soal nomor 76-80 sesuai dengan bacaan yang Saudara baca ! 請按照以下文章回答 76-80 題 ! Pasar Malam Shilin, Taiwan Ini dia pasar malam yang paling sering disebut-sebut turis, dan menjadi salah satu destinasi wajib saat ke Taipei, Taiwan, Pasar Malam Shilin namanya. Pasar yang berada di Jl Wenlin-Dadong, Taipei ini sudah lama terkenal sebagai tempat menjual aneka makanan lezat khas Taiwan. Salah satu yang terkenal adalah oa misua. Ini adalah mie tipis khas China yang diberi kaldu, bawang putih dan tiram. Selain oa misua, masih ada satu lagi jajanan khas Pasar Malam Shilin yang tak boleh dilewatkan, yaitu Stinky Tofu atau Chou Tou Fu. Sepintas, Stinky Tofu mirip dengan tahu Sumedang yang digoreng. Hanya saja, tahu ini disajikan lebih bervariasi, yaitu dikukus dan dipanggang, kemudian diberi bumbu pedas, irisan sayur dan saos soya. Pembeli yang ingin mencicipi tahu bau harus antre dan hanya membayar 50 NT per porsinya dapat 6 potong tahu. Datang ke Pasar Malam Shilin, Anda tidak hanya menemukan makanan lezat, tapi juga aneka barang khas sambil menikmati jajanan lezatnya, jangan lewatkan untuk membeli pernak-pernik lucu yang ada di pasar malam ini, seperti kaos, helm funky, dan payung bentuk botol yang sedang marak digunakan banyak orang."
   },
   {
    "n": 77,
@@ -1084,7 +1085,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d015'] = {
     "Oa misua yang terbuat dari mie tipis sangat terkenal di Shilin.",
     "Tahu bau tidak kalah terkenalnya dengan oa misua."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Bacalah karangan di bawah ini dengan seksama, kemudian jawablah soal nomor 76-80 sesuai dengan bacaan yang Saudara baca ! 請按照以下文章回答 76-80 題 ! Pasar Malam Shilin, Taiwan Ini dia pasar malam yang paling sering disebut-sebut turis, dan menjadi salah satu destinasi wajib saat ke Taipei, Taiwan, Pasar Malam Shilin namanya. Pasar yang berada di Jl Wenlin-Dadong, Taipei ini sudah lama terkenal sebagai tempat menjual aneka makanan lezat khas Taiwan. Salah satu yang terkenal adalah oa misua. Ini adalah mie tipis khas China yang diberi kaldu, bawang putih dan tiram. Selain oa misua, masih ada satu lagi jajanan khas Pasar Malam Shilin yang tak boleh dilewatkan, yaitu Stinky Tofu atau Chou Tou Fu. Sepintas, Stinky Tofu mirip dengan tahu Sumedang yang digoreng. Hanya saja, tahu ini disajikan lebih bervariasi, yaitu dikukus dan dipanggang, kemudian diberi bumbu pedas, irisan sayur dan saos soya. Pembeli yang ingin mencicipi tahu bau harus antre dan hanya membayar 50 NT per porsinya dapat 6 potong tahu. Datang ke Pasar Malam Shilin, Anda tidak hanya menemukan makanan lezat, tapi juga aneka barang khas sambil menikmati jajanan lezatnya, jangan lewatkan untuk membeli pernak-pernik lucu yang ada di pasar malam ini, seperti kaos, helm funky, dan payung bentuk botol yang sedang marak digunakan banyak orang."
   },
   {
    "n": 78,
@@ -1097,7 +1099,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d015'] = {
     "irisan sayur",
     "saos soya"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Bacalah karangan di bawah ini dengan seksama, kemudian jawablah soal nomor 76-80 sesuai dengan bacaan yang Saudara baca ! 請按照以下文章回答 76-80 題 ! Pasar Malam Shilin, Taiwan Ini dia pasar malam yang paling sering disebut-sebut turis, dan menjadi salah satu destinasi wajib saat ke Taipei, Taiwan, Pasar Malam Shilin namanya. Pasar yang berada di Jl Wenlin-Dadong, Taipei ini sudah lama terkenal sebagai tempat menjual aneka makanan lezat khas Taiwan. Salah satu yang terkenal adalah oa misua. Ini adalah mie tipis khas China yang diberi kaldu, bawang putih dan tiram. Selain oa misua, masih ada satu lagi jajanan khas Pasar Malam Shilin yang tak boleh dilewatkan, yaitu Stinky Tofu atau Chou Tou Fu. Sepintas, Stinky Tofu mirip dengan tahu Sumedang yang digoreng. Hanya saja, tahu ini disajikan lebih bervariasi, yaitu dikukus dan dipanggang, kemudian diberi bumbu pedas, irisan sayur dan saos soya. Pembeli yang ingin mencicipi tahu bau harus antre dan hanya membayar 50 NT per porsinya dapat 6 potong tahu. Datang ke Pasar Malam Shilin, Anda tidak hanya menemukan makanan lezat, tapi juga aneka barang khas sambil menikmati jajanan lezatnya, jangan lewatkan untuk membeli pernak-pernik lucu yang ada di pasar malam ini, seperti kaos, helm funky, dan payung bentuk botol yang sedang marak digunakan banyak orang."
   },
   {
    "n": 79,
@@ -1110,7 +1113,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d015'] = {
     "Semangkuk",
     "Satu"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Bacalah karangan di bawah ini dengan seksama, kemudian jawablah soal nomor 76-80 sesuai dengan bacaan yang Saudara baca ! 請按照以下文章回答 76-80 題 ! Pasar Malam Shilin, Taiwan Ini dia pasar malam yang paling sering disebut-sebut turis, dan menjadi salah satu destinasi wajib saat ke Taipei, Taiwan, Pasar Malam Shilin namanya. Pasar yang berada di Jl Wenlin-Dadong, Taipei ini sudah lama terkenal sebagai tempat menjual aneka makanan lezat khas Taiwan. Salah satu yang terkenal adalah oa misua. Ini adalah mie tipis khas China yang diberi kaldu, bawang putih dan tiram. Selain oa misua, masih ada satu lagi jajanan khas Pasar Malam Shilin yang tak boleh dilewatkan, yaitu Stinky Tofu atau Chou Tou Fu. Sepintas, Stinky Tofu mirip dengan tahu Sumedang yang digoreng. Hanya saja, tahu ini disajikan lebih bervariasi, yaitu dikukus dan dipanggang, kemudian diberi bumbu pedas, irisan sayur dan saos soya. Pembeli yang ingin mencicipi tahu bau harus antre dan hanya membayar 50 NT per porsinya dapat 6 potong tahu. Datang ke Pasar Malam Shilin, Anda tidak hanya menemukan makanan lezat, tapi juga aneka barang khas sambil menikmati jajanan lezatnya, jangan lewatkan untuk membeli pernak-pernik lucu yang ada di pasar malam ini, seperti kaos, helm funky, dan payung bentuk botol yang sedang marak digunakan banyak orang."
   },
   {
    "n": 80,
@@ -1123,7 +1127,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d015'] = {
     "Anda dapat menikmati jajanan lezat di pasar malam Shilin.",
     "Pernak-pernik lucu juga banyak dijual di pasar malam Shilin."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Bacalah karangan di bawah ini dengan seksama, kemudian jawablah soal nomor 76-80 sesuai dengan bacaan yang Saudara baca ! 請按照以下文章回答 76-80 題 ! Pasar Malam Shilin, Taiwan Ini dia pasar malam yang paling sering disebut-sebut turis, dan menjadi salah satu destinasi wajib saat ke Taipei, Taiwan, Pasar Malam Shilin namanya. Pasar yang berada di Jl Wenlin-Dadong, Taipei ini sudah lama terkenal sebagai tempat menjual aneka makanan lezat khas Taiwan. Salah satu yang terkenal adalah oa misua. Ini adalah mie tipis khas China yang diberi kaldu, bawang putih dan tiram. Selain oa misua, masih ada satu lagi jajanan khas Pasar Malam Shilin yang tak boleh dilewatkan, yaitu Stinky Tofu atau Chou Tou Fu. Sepintas, Stinky Tofu mirip dengan tahu Sumedang yang digoreng. Hanya saja, tahu ini disajikan lebih bervariasi, yaitu dikukus dan dipanggang, kemudian diberi bumbu pedas, irisan sayur dan saos soya. Pembeli yang ingin mencicipi tahu bau harus antre dan hanya membayar 50 NT per porsinya dapat 6 potong tahu. Datang ke Pasar Malam Shilin, Anda tidak hanya menemukan makanan lezat, tapi juga aneka barang khas sambil menikmati jajanan lezatnya, jangan lewatkan untuk membeli pernak-pernik lucu yang ada di pasar malam ini, seperti kaos, helm funky, dan payung bentuk botol yang sedang marak digunakan banyak orang."
   }
  ]
 };

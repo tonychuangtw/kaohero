@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "…è in cerca di un’occupazione presso la Edel SPA.",
     "…è un impiegato della Edel SPA.",
     "…è un giornalista che deve intervistare la Edel SPA.",
-    "…è un dottore che deve visitare una persona malata della Edel SPA.L’ambiente religioso di Taiwan"
+    "…è un dottore che deve visitare una persona malata della Edel SPA."
    ],
    "a": 0,
    "exp": "✅ (A) 信中提到「已閱覽您的履歷，希望安排1月18日15時於Varese辦公室面談」，可見Rossi正在求職。\n❌ (B) 若已是Edel SPA員工，不需投履歷與面試。\n❌ (C) 記者採訪不會以閱覽履歷、安排面談的方式邀約。\n❌ (D) 「Dott.」是義大利對大學畢業者的敬稱，非指醫師，且內容與看診無關。\n📚 出處：義大利語商業書信：求職面試邀請函格式"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "furono gli olandesi a portare il protestantesimo nell’isola di Taiwan.",
     "i cinesi abbracciarono subito la religione cristiana."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "L’ambiente religioso di Taiwan Sin dall’antichità, le popolazioni indigene dell'isola di Taiwan praticavano culti animistici legati all'ambiente naturale; durante la dinastia Ming, con l'arrivo dei primi coloni cinesi dalle coste del Fujian e del Guangdong cominciò a diffondersi il buddhismo, poi sotto la dominazione prima olandese e poi spagnola, nel XVII secolo, furono importati rispettivamente il protestantesimo e il cattolicesimo, supportati dalle attività missionarie in corso al tempo, e i primi convertiti furono proprio gli aborigeni. Attualmente a Taiwan è possibile trovare una grande varietà di confessioni, anche per via della libertà religiosa sancita dalla costituzione. Secondo alcuni studi recenti, la stragrande maggioranza dei taiwanesi sembrerebbe aderire ad un mix culturale-religioso che combina buddhismo, culto degli antenati e taoismo. A livello di templi e chiese, secondo le statistiche del Ministero dell’Interno, la maggior presenza è registrata da quelli taoisti, mentre le chiese protestanti sono circa 3 volte tanto quelle cattoliche: comunque, la percentuale di cristiani nell’isola (sia protestanti che cattolici) non supera il 5% della popolazione totale. I vari gruppi religiosi dimostrano una partecipazione attiva alla vita sociale del paese e in molti casi hanno fondato associazioni, università e ospedali. Potremmo citare, tra gli altri, Fo Guang Shan, il più grande monastero buddhista di Taiwan e uno dei principali enti di beneficenza dell’isola; la fondazione Tzu-Chi, un’organizzazione umanitaria internazionale con sede a Hualien; l’Università Cattolica Fu Jen, un ateneo di oltre 25.000 studenti direttamente dipendente dalla Santa Sede; il Mackay Memorial Hospital, gestito dalla Chiesa Presbiteriana di Taiwan ecc."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "Nel ‘600.",
     "Nel ‘700."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "L’ambiente religioso di Taiwan Sin dall’antichità, le popolazioni indigene dell'isola di Taiwan praticavano culti animistici legati all'ambiente naturale; durante la dinastia Ming, con l'arrivo dei primi coloni cinesi dalle coste del Fujian e del Guangdong cominciò a diffondersi il buddhismo, poi sotto la dominazione prima olandese e poi spagnola, nel XVII secolo, furono importati rispettivamente il protestantesimo e il cattolicesimo, supportati dalle attività missionarie in corso al tempo, e i primi convertiti furono proprio gli aborigeni. Attualmente a Taiwan è possibile trovare una grande varietà di confessioni, anche per via della libertà religiosa sancita dalla costituzione. Secondo alcuni studi recenti, la stragrande maggioranza dei taiwanesi sembrerebbe aderire ad un mix culturale-religioso che combina buddhismo, culto degli antenati e taoismo. A livello di templi e chiese, secondo le statistiche del Ministero dell’Interno, la maggior presenza è registrata da quelli taoisti, mentre le chiese protestanti sono circa 3 volte tanto quelle cattoliche: comunque, la percentuale di cristiani nell’isola (sia protestanti che cattolici) non supera il 5% della popolazione totale. I vari gruppi religiosi dimostrano una partecipazione attiva alla vita sociale del paese e in molti casi hanno fondato associazioni, università e ospedali. Potremmo citare, tra gli altri, Fo Guang Shan, il più grande monastero buddhista di Taiwan e uno dei principali enti di beneficenza dell’isola; la fondazione Tzu-Chi, un’organizzazione umanitaria internazionale con sede a Hualien; l’Università Cattolica Fu Jen, un ateneo di oltre 25.000 studenti direttamente dipendente dalla Santa Sede; il Mackay Memorial Hospital, gestito dalla Chiesa Presbiteriana di Taiwan ecc."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "I taiwanesi sono generalmente atei.",
     "Le chiese cattoliche superano numericamente quelle protestanti."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "L’ambiente religioso di Taiwan Sin dall’antichità, le popolazioni indigene dell'isola di Taiwan praticavano culti animistici legati all'ambiente naturale; durante la dinastia Ming, con l'arrivo dei primi coloni cinesi dalle coste del Fujian e del Guangdong cominciò a diffondersi il buddhismo, poi sotto la dominazione prima olandese e poi spagnola, nel XVII secolo, furono importati rispettivamente il protestantesimo e il cattolicesimo, supportati dalle attività missionarie in corso al tempo, e i primi convertiti furono proprio gli aborigeni. Attualmente a Taiwan è possibile trovare una grande varietà di confessioni, anche per via della libertà religiosa sancita dalla costituzione. Secondo alcuni studi recenti, la stragrande maggioranza dei taiwanesi sembrerebbe aderire ad un mix culturale-religioso che combina buddhismo, culto degli antenati e taoismo. A livello di templi e chiese, secondo le statistiche del Ministero dell’Interno, la maggior presenza è registrata da quelli taoisti, mentre le chiese protestanti sono circa 3 volte tanto quelle cattoliche: comunque, la percentuale di cristiani nell’isola (sia protestanti che cattolici) non supera il 5% della popolazione totale. I vari gruppi religiosi dimostrano una partecipazione attiva alla vita sociale del paese e in molti casi hanno fondato associazioni, università e ospedali. Potremmo citare, tra gli altri, Fo Guang Shan, il più grande monastero buddhista di Taiwan e uno dei principali enti di beneficenza dell’isola; la fondazione Tzu-Chi, un’organizzazione umanitaria internazionale con sede a Hualien; l’Università Cattolica Fu Jen, un ateneo di oltre 25.000 studenti direttamente dipendente dalla Santa Sede; il Mackay Memorial Hospital, gestito dalla Chiesa Presbiteriana di Taiwan ecc."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "Studiosi di paesi occidentali.",
     "Siti Internet non meglio specificati."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "L’ambiente religioso di Taiwan Sin dall’antichità, le popolazioni indigene dell'isola di Taiwan praticavano culti animistici legati all'ambiente naturale; durante la dinastia Ming, con l'arrivo dei primi coloni cinesi dalle coste del Fujian e del Guangdong cominciò a diffondersi il buddhismo, poi sotto la dominazione prima olandese e poi spagnola, nel XVII secolo, furono importati rispettivamente il protestantesimo e il cattolicesimo, supportati dalle attività missionarie in corso al tempo, e i primi convertiti furono proprio gli aborigeni. Attualmente a Taiwan è possibile trovare una grande varietà di confessioni, anche per via della libertà religiosa sancita dalla costituzione. Secondo alcuni studi recenti, la stragrande maggioranza dei taiwanesi sembrerebbe aderire ad un mix culturale-religioso che combina buddhismo, culto degli antenati e taoismo. A livello di templi e chiese, secondo le statistiche del Ministero dell’Interno, la maggior presenza è registrata da quelli taoisti, mentre le chiese protestanti sono circa 3 volte tanto quelle cattoliche: comunque, la percentuale di cristiani nell’isola (sia protestanti che cattolici) non supera il 5% della popolazione totale. I vari gruppi religiosi dimostrano una partecipazione attiva alla vita sociale del paese e in molti casi hanno fondato associazioni, università e ospedali. Potremmo citare, tra gli altri, Fo Guang Shan, il più grande monastero buddhista di Taiwan e uno dei principali enti di beneficenza dell’isola; la fondazione Tzu-Chi, un’organizzazione umanitaria internazionale con sede a Hualien; l’Università Cattolica Fu Jen, un ateneo di oltre 25.000 studenti direttamente dipendente dalla Santa Sede; il Mackay Memorial Hospital, gestito dalla Chiesa Presbiteriana di Taiwan ecc."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "Perché sono celebri località turistiche che meritano una visita.",
     "Per dimostrare che Taiwan è un paese tecnologicamente all’avanguardia.",
     "Per spiegare che tutti i taiwanesi sono impegnati in attività di volontariato.",
-    "Come esempio dello stretto rapporto tra i gruppi religiosi e la cittadinanza.Il villaggio di Jiufen"
+    "Come esempio dello stretto rapporto tra i gruppi religiosi e la cittadinanza."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "L’ambiente religioso di Taiwan Sin dall’antichità, le popolazioni indigene dell'isola di Taiwan praticavano culti animistici legati all'ambiente naturale; durante la dinastia Ming, con l'arrivo dei primi coloni cinesi dalle coste del Fujian e del Guangdong cominciò a diffondersi il buddhismo, poi sotto la dominazione prima olandese e poi spagnola, nel XVII secolo, furono importati rispettivamente il protestantesimo e il cattolicesimo, supportati dalle attività missionarie in corso al tempo, e i primi convertiti furono proprio gli aborigeni. Attualmente a Taiwan è possibile trovare una grande varietà di confessioni, anche per via della libertà religiosa sancita dalla costituzione. Secondo alcuni studi recenti, la stragrande maggioranza dei taiwanesi sembrerebbe aderire ad un mix culturale-religioso che combina buddhismo, culto degli antenati e taoismo. A livello di templi e chiese, secondo le statistiche del Ministero dell’Interno, la maggior presenza è registrata da quelli taoisti, mentre le chiese protestanti sono circa 3 volte tanto quelle cattoliche: comunque, la percentuale di cristiani nell’isola (sia protestanti che cattolici) non supera il 5% della popolazione totale. I vari gruppi religiosi dimostrano una partecipazione attiva alla vita sociale del paese e in molti casi hanno fondato associazioni, università e ospedali. Potremmo citare, tra gli altri, Fo Guang Shan, il più grande monastero buddhista di Taiwan e uno dei principali enti di beneficenza dell’isola; la fondazione Tzu-Chi, un’organizzazione umanitaria internazionale con sede a Hualien; l’Università Cattolica Fu Jen, un ateneo di oltre 25.000 studenti direttamente dipendente dalla Santa Sede; il Mackay Memorial Hospital, gestito dalla Chiesa Presbiteriana di Taiwan ecc."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "si può interpretare in diverse maniere.",
     "deriva dal giapponese."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Il villaggio di Jiufen Jiufen è un paesino situato in una zona montagnosa a nord-est della città di Taipei, sulla strada per Keelung, e una delle principali località turistiche nella zona settentrionale dell’isola. Durante i primi anni della dinastia Qing era abitato da nove clan familiari che, ad ogni consegna di merce proveniente dalla città, chiedevano di spartirla in parti uguali, tanto che successivamente la denominazione “Jiu Fen” (“nove porzioni”) divenne il nome attuale del villaggio. Jiufen rimase una zona poco trafficata fino al 1893, quando venne scoperto un giacimento d’oro a breve distanza dal paese: la corsa all’oro che ne risultò contribuì allo sviluppo economico della località, che raggiunse il suo apice sotto la dominazione coloniale giapponese. Durante la seconda guerra mondiale il villaggio ospitò anche un campo di prigionia dove i giapponesi rinchiudevano i soldati alleati catturati, tra cui molti britannici, per farli lavorare nelle miniere della zona. La febbre dell’oro tuttavia si spense dopo la fine del conflitto e nel 1971 le miniere di Jiufen furono chiuse definitivamente, causandone il tracollo economico. La “riscoperta” del paesino avvenne solo nel 1989, grazie alla celebre pellicola di Hou Hsiao-Hsien “Città dolente”, film che ottenne un gran successo al botteghino e rilanciò involontariamente Jiufen come meta turistica dotata di un’atmosfera particolarmente malinconica e retrò. L’afflusso di turisti, sviluppatosi dall’inizio degli anni ’90 e accompagnato dall’apertura di numerose botteghe, sale da tè e locande in stile tradizionale, prosegue ancora oggi ed è aumentato ancora di più da quando il paesino nel 2001 è stato scelto come modello per l’ambientazione del film d’animazione “La città incantata” di Hayao Miyazaki."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "completamente disabitata.",
     "abbastanza isolata."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Il villaggio di Jiufen Jiufen è un paesino situato in una zona montagnosa a nord-est della città di Taipei, sulla strada per Keelung, e una delle principali località turistiche nella zona settentrionale dell’isola. Durante i primi anni della dinastia Qing era abitato da nove clan familiari che, ad ogni consegna di merce proveniente dalla città, chiedevano di spartirla in parti uguali, tanto che successivamente la denominazione “Jiu Fen” (“nove porzioni”) divenne il nome attuale del villaggio. Jiufen rimase una zona poco trafficata fino al 1893, quando venne scoperto un giacimento d’oro a breve distanza dal paese: la corsa all’oro che ne risultò contribuì allo sviluppo economico della località, che raggiunse il suo apice sotto la dominazione coloniale giapponese. Durante la seconda guerra mondiale il villaggio ospitò anche un campo di prigionia dove i giapponesi rinchiudevano i soldati alleati catturati, tra cui molti britannici, per farli lavorare nelle miniere della zona. La febbre dell’oro tuttavia si spense dopo la fine del conflitto e nel 1971 le miniere di Jiufen furono chiuse definitivamente, causandone il tracollo economico. La “riscoperta” del paesino avvenne solo nel 1989, grazie alla celebre pellicola di Hou Hsiao-Hsien “Città dolente”, film che ottenne un gran successo al botteghino e rilanciò involontariamente Jiufen come meta turistica dotata di un’atmosfera particolarmente malinconica e retrò. L’afflusso di turisti, sviluppatosi dall’inizio degli anni ’90 e accompagnato dall’apertura di numerose botteghe, sale da tè e locande in stile tradizionale, prosegue ancora oggi ed è aumentato ancora di più da quando il paesino nel 2001 è stato scelto come modello per l’ambientazione del film d’animazione “La città incantata” di Hayao Miyazaki."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "erano costretti a cercare l’oro sotto terra.",
     "venivano torturati e poi uccisi dai giapponesi."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Il villaggio di Jiufen Jiufen è un paesino situato in una zona montagnosa a nord-est della città di Taipei, sulla strada per Keelung, e una delle principali località turistiche nella zona settentrionale dell’isola. Durante i primi anni della dinastia Qing era abitato da nove clan familiari che, ad ogni consegna di merce proveniente dalla città, chiedevano di spartirla in parti uguali, tanto che successivamente la denominazione “Jiu Fen” (“nove porzioni”) divenne il nome attuale del villaggio. Jiufen rimase una zona poco trafficata fino al 1893, quando venne scoperto un giacimento d’oro a breve distanza dal paese: la corsa all’oro che ne risultò contribuì allo sviluppo economico della località, che raggiunse il suo apice sotto la dominazione coloniale giapponese. Durante la seconda guerra mondiale il villaggio ospitò anche un campo di prigionia dove i giapponesi rinchiudevano i soldati alleati catturati, tra cui molti britannici, per farli lavorare nelle miniere della zona. La febbre dell’oro tuttavia si spense dopo la fine del conflitto e nel 1971 le miniere di Jiufen furono chiuse definitivamente, causandone il tracollo economico. La “riscoperta” del paesino avvenne solo nel 1989, grazie alla celebre pellicola di Hou Hsiao-Hsien “Città dolente”, film che ottenne un gran successo al botteghino e rilanciò involontariamente Jiufen come meta turistica dotata di un’atmosfera particolarmente malinconica e retrò. L’afflusso di turisti, sviluppatosi dall’inizio degli anni ’90 e accompagnato dall’apertura di numerose botteghe, sale da tè e locande in stile tradizionale, prosegue ancora oggi ed è aumentato ancora di più da quando il paesino nel 2001 è stato scelto come modello per l’ambientazione del film d’animazione “La città incantata” di Hayao Miyazaki."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "30 anni.",
     "40 anni."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Il villaggio di Jiufen Jiufen è un paesino situato in una zona montagnosa a nord-est della città di Taipei, sulla strada per Keelung, e una delle principali località turistiche nella zona settentrionale dell’isola. Durante i primi anni della dinastia Qing era abitato da nove clan familiari che, ad ogni consegna di merce proveniente dalla città, chiedevano di spartirla in parti uguali, tanto che successivamente la denominazione “Jiu Fen” (“nove porzioni”) divenne il nome attuale del villaggio. Jiufen rimase una zona poco trafficata fino al 1893, quando venne scoperto un giacimento d’oro a breve distanza dal paese: la corsa all’oro che ne risultò contribuì allo sviluppo economico della località, che raggiunse il suo apice sotto la dominazione coloniale giapponese. Durante la seconda guerra mondiale il villaggio ospitò anche un campo di prigionia dove i giapponesi rinchiudevano i soldati alleati catturati, tra cui molti britannici, per farli lavorare nelle miniere della zona. La febbre dell’oro tuttavia si spense dopo la fine del conflitto e nel 1971 le miniere di Jiufen furono chiuse definitivamente, causandone il tracollo economico. La “riscoperta” del paesino avvenne solo nel 1989, grazie alla celebre pellicola di Hou Hsiao-Hsien “Città dolente”, film che ottenne un gran successo al botteghino e rilanciò involontariamente Jiufen come meta turistica dotata di un’atmosfera particolarmente malinconica e retrò. L’afflusso di turisti, sviluppatosi dall’inizio degli anni ’90 e accompagnato dall’apertura di numerose botteghe, sale da tè e locande in stile tradizionale, prosegue ancora oggi ed è aumentato ancora di più da quando il paesino nel 2001 è stato scelto come modello per l’ambientazione del film d’animazione “La città incantata” di Hayao Miyazaki."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d013'] = {
     "una festival di arti tradizionali organizzato annualmente.",
     "un grosso centro commerciale con ristoranti e negozi di ogni tipo."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Il villaggio di Jiufen Jiufen è un paesino situato in una zona montagnosa a nord-est della città di Taipei, sulla strada per Keelung, e una delle principali località turistiche nella zona settentrionale dell’isola. Durante i primi anni della dinastia Qing era abitato da nove clan familiari che, ad ogni consegna di merce proveniente dalla città, chiedevano di spartirla in parti uguali, tanto che successivamente la denominazione “Jiu Fen” (“nove porzioni”) divenne il nome attuale del villaggio. Jiufen rimase una zona poco trafficata fino al 1893, quando venne scoperto un giacimento d’oro a breve distanza dal paese: la corsa all’oro che ne risultò contribuì allo sviluppo economico della località, che raggiunse il suo apice sotto la dominazione coloniale giapponese. Durante la seconda guerra mondiale il villaggio ospitò anche un campo di prigionia dove i giapponesi rinchiudevano i soldati alleati catturati, tra cui molti britannici, per farli lavorare nelle miniere della zona. La febbre dell’oro tuttavia si spense dopo la fine del conflitto e nel 1971 le miniere di Jiufen furono chiuse definitivamente, causandone il tracollo economico. La “riscoperta” del paesino avvenne solo nel 1989, grazie alla celebre pellicola di Hou Hsiao-Hsien “Città dolente”, film che ottenne un gran successo al botteghino e rilanciò involontariamente Jiufen come meta turistica dotata di un’atmosfera particolarmente malinconica e retrò. L’afflusso di turisti, sviluppatosi dall’inizio degli anni ’90 e accompagnato dall’apertura di numerose botteghe, sale da tè e locande in stile tradizionale, prosegue ancora oggi ed è aumentato ancora di più da quando il paesino nel 2001 è stato scelto come modello per l’ambientazione del film d’animazione “La città incantata” di Hayao Miyazaki."
   }
  ]
 };

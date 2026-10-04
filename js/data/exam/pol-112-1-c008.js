@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
     "criminal",
     "doubtful",
     "enormous",
-    "grateful請依下文回答第 41 題至第 45 題Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related"
+    "grateful"
    ],
    "a": 1,
    "exp": "✅ (B) doubtful 意為「懷疑的、不確定的」，慣用搭配為 be doubtful about something。Peggy 收到手機簡訊通知她領取所訂包裹，卻對訊息的真實性存疑，正是典型的詐騙簡訊情境。\n❌ (A) criminal 是「犯罪的」，形容人時指罪犯，不能接 about 表示心理狀態。\n❌ (C) enormous 指「巨大的」，用來描述數量或規模，不能形容人的心理反應。\n❌ (D) grateful 指「感激的」，若真心感激就不會質疑訊息真假，與 about the truth 的語境矛盾。\n📚 出處：字彙 be doubtful about；形容詞與介系詞的固定搭配。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-112-1-c008'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as",
+    "like",
+    "and",
+    "but"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112070_601_0206_41.webp"
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "than",
+    "then",
+    "that",
+    "yet"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112070_601_0206_42.webp"
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ones",
+    "another",
+    "other",
+    "others"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112070_601_0206_43.webp"
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Schedule",
+    "Concern",
+    "Motivate",
+    "Trace"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112070_601_0206_44.webp"
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "what",
+    "where",
+    "which",
+    "when"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112070_601_0206_45.webp"
+   "psg": "Extreme heat is defined as summertime temperatures that are much hotter and/or humid than average. Heat-related illnesses, 41 heat exhaustion or heat stroke, happen when the body is not able to properly cool itself. In such cases, a person’s body temperature rises faster 42 it can cool itself down. This can cause damage to the brain and 43 vital organs. The following are tips for preventing heat-related illnesses: * Stay Cool Indoors: Stay in an air-conditioned place as much as possible. * 44 Outdoor Activities Carefully: Try to limit your outdoor activity to 45 it is coolest, like morning and evening hours. * Know the Signs: Learn the signs and symptoms of heat-related illnesses and how to treat them."
   },
   {
    "n": 46,

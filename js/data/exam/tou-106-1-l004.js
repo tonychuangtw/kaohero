@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "confinement",
     "satisfaction",
     "sanctuary",
-    "continuumNo other city in India or in any country has a unique system like this. The men who make it work are called"
+    "continuum"
    ],
    "a": 2,
    "exp": "✅ (C) sanctuary 意為「庇護、避難所」，seek sanctuary in a church 指到教堂尋求庇護，是歐洲非法移民躲避遣返的傳統做法。\n❌ (A) confinement 意為「監禁、拘留」，語意相反。\n❌ (B) satisfaction 意為「滿足」，與避難無關。\n❌ (D) continuum 意為「連續體」，為抽象學術用語，語意不通。\n📚 出處：移民與人權議題英語 seek sanctuary"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "Delivering lunches in Mumbai",
     "The Development of Mumbai"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "No other city in India or in any country has a unique system like this. The men who make it work are called dabbawallas. In Hindi, the word dabba refers to lunch box and walla means carrier or deliver man.The 5000 dabbawallas carry lunch boxes—about 200,000 meals per day—to offices and workplaces throughout the city by lunch time in Mumbai. Every day, for a very modest fee (only 300 rupees per month), the dabbawallas collect freshly cooked meals from their customers’ home and deliver to the nearest train station by bicycle before 9:00 a.m.. At the train station, the dabbawallas sort through all the lunch boxes and put them onto trains that will bring them to the station nearest the customer’s office. The lunch boxes are delivered to the offices by bike. Each person gets their home-cooked meal by 12:30. To satisfy their customers, they use a complicated system of collection teams, sorting points and delivery zones, and a entirely manual system for routing the right meal to the right direction. In spite of difficult tasks like this, the organization has been recognized and celebrated for their incredible order accuracy 99.9999 percent. Recently, the organization makes their effort to assist Mumbai’s 200,000 slum by giving some of the food they deliver which is never eaten or barely touched. This idea indeed helps the poverty without too much cost."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "Being nice",
     "Being on time"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "No other city in India or in any country has a unique system like this. The men who make it work are called dabbawallas. In Hindi, the word dabba refers to lunch box and walla means carrier or deliver man.The 5000 dabbawallas carry lunch boxes—about 200,000 meals per day—to offices and workplaces throughout the city by lunch time in Mumbai. Every day, for a very modest fee (only 300 rupees per month), the dabbawallas collect freshly cooked meals from their customers’ home and deliver to the nearest train station by bicycle before 9:00 a.m.. At the train station, the dabbawallas sort through all the lunch boxes and put them onto trains that will bring them to the station nearest the customer’s office. The lunch boxes are delivered to the offices by bike. Each person gets their home-cooked meal by 12:30. To satisfy their customers, they use a complicated system of collection teams, sorting points and delivery zones, and a entirely manual system for routing the right meal to the right direction. In spite of difficult tasks like this, the organization has been recognized and celebrated for their incredible order accuracy 99.9999 percent. Recently, the organization makes their effort to assist Mumbai’s 200,000 slum by giving some of the food they deliver which is never eaten or barely touched. This idea indeed helps the poverty without too much cost."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "All of the lunch boxes are always eaten by receivers.",
     "The organization donates a lot of money to help people."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "No other city in India or in any country has a unique system like this. The men who make it work are called dabbawallas. In Hindi, the word dabba refers to lunch box and walla means carrier or deliver man.The 5000 dabbawallas carry lunch boxes—about 200,000 meals per day—to offices and workplaces throughout the city by lunch time in Mumbai. Every day, for a very modest fee (only 300 rupees per month), the dabbawallas collect freshly cooked meals from their customers’ home and deliver to the nearest train station by bicycle before 9:00 a.m.. At the train station, the dabbawallas sort through all the lunch boxes and put them onto trains that will bring them to the station nearest the customer’s office. The lunch boxes are delivered to the offices by bike. Each person gets their home-cooked meal by 12:30. To satisfy their customers, they use a complicated system of collection teams, sorting points and delivery zones, and a entirely manual system for routing the right meal to the right direction. In spite of difficult tasks like this, the organization has been recognized and celebrated for their incredible order accuracy 99.9999 percent. Recently, the organization makes their effort to assist Mumbai’s 200,000 slum by giving some of the food they deliver which is never eaten or barely touched. This idea indeed helps the poverty without too much cost."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "The organization is proud of their efficieny of delivery.",
     "Not many people need food in Mumbai."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "No other city in India or in any country has a unique system like this. The men who make it work are called dabbawallas. In Hindi, the word dabba refers to lunch box and walla means carrier or deliver man.The 5000 dabbawallas carry lunch boxes—about 200,000 meals per day—to offices and workplaces throughout the city by lunch time in Mumbai. Every day, for a very modest fee (only 300 rupees per month), the dabbawallas collect freshly cooked meals from their customers’ home and deliver to the nearest train station by bicycle before 9:00 a.m.. At the train station, the dabbawallas sort through all the lunch boxes and put them onto trains that will bring them to the station nearest the customer’s office. The lunch boxes are delivered to the offices by bike. Each person gets their home-cooked meal by 12:30. To satisfy their customers, they use a complicated system of collection teams, sorting points and delivery zones, and a entirely manual system for routing the right meal to the right direction. In spite of difficult tasks like this, the organization has been recognized and celebrated for their incredible order accuracy 99.9999 percent. Recently, the organization makes their effort to assist Mumbai’s 200,000 slum by giving some of the food they deliver which is never eaten or barely touched. This idea indeed helps the poverty without too much cost."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "welcomed",
     "known",
     "preferred",
-    "toldGeotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the"
+    "told"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "No other city in India or in any country has a unique system like this. The men who make it work are called dabbawallas. In Hindi, the word dabba refers to lunch box and walla means carrier or deliver man.The 5000 dabbawallas carry lunch boxes—about 200,000 meals per day—to offices and workplaces throughout the city by lunch time in Mumbai. Every day, for a very modest fee (only 300 rupees per month), the dabbawallas collect freshly cooked meals from their customers’ home and deliver to the nearest train station by bicycle before 9:00 a.m.. At the train station, the dabbawallas sort through all the lunch boxes and put them onto trains that will bring them to the station nearest the customer’s office. The lunch boxes are delivered to the offices by bike. Each person gets their home-cooked meal by 12:30. To satisfy their customers, they use a complicated system of collection teams, sorting points and delivery zones, and a entirely manual system for routing the right meal to the right direction. In spite of difficult tasks like this, the organization has been recognized and celebrated for their incredible order accuracy 99.9999 percent. Recently, the organization makes their effort to assist Mumbai’s 200,000 slum by giving some of the food they deliver which is never eaten or barely touched. This idea indeed helps the poverty without too much cost."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "What is Tourism?",
     "Tourist Motivations"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Geotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the local people as well as to the environment. Much of the infrastructure that supports mass tourism--large tourist hotels, restaurants, malls, tour companies--may be owned and operated by companies based on outside the tourist areas. Chain restaurants and stores may not always serve local food or sell local products. Large package tour companies may not always hire local experts and guides, who know the area’s history, environment, and culture. As a result, much of the money made from this type of tourism does not stay in the local community. Moreover, tourists whose only travel experience comes via big hotels, chain restaurants, or package tours typically have little contact with the local people, thus limiting their understanding of the nature and culture of the places they visit. In contrast, geotourism is like a partnership between travelers and locals. Geotravelers stay in locally owned hotels, managed by residents who care about protecting the area and environment. They buy from local merchants and craftspeople, hire local travel guides, and go to see traditional music, dance, and theater to broaden the scope of their understanding of the area’s history and culture. Geotravelers learn a lot from their close contact with local people while the money they spend stays in the community, helps local people earn a living, and helps preserve and sustain the area for future travelers. In this way, geotourism benefits both partners--travelers and residents."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "Geotourism helps build a relationship between travelers and the locals.",
     "Geotourism does not encourage travelers to stay in locally owned hotels."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Geotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the local people as well as to the environment. Much of the infrastructure that supports mass tourism--large tourist hotels, restaurants, malls, tour companies--may be owned and operated by companies based on outside the tourist areas. Chain restaurants and stores may not always serve local food or sell local products. Large package tour companies may not always hire local experts and guides, who know the area’s history, environment, and culture. As a result, much of the money made from this type of tourism does not stay in the local community. Moreover, tourists whose only travel experience comes via big hotels, chain restaurants, or package tours typically have little contact with the local people, thus limiting their understanding of the nature and culture of the places they visit. In contrast, geotourism is like a partnership between travelers and locals. Geotravelers stay in locally owned hotels, managed by residents who care about protecting the area and environment. They buy from local merchants and craftspeople, hire local travel guides, and go to see traditional music, dance, and theater to broaden the scope of their understanding of the area’s history and culture. Geotravelers learn a lot from their close contact with local people while the money they spend stays in the community, helps local people earn a living, and helps preserve and sustain the area for future travelers. In this way, geotourism benefits both partners--travelers and residents."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "package tours",
     "malls"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Geotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the local people as well as to the environment. Much of the infrastructure that supports mass tourism--large tourist hotels, restaurants, malls, tour companies--may be owned and operated by companies based on outside the tourist areas. Chain restaurants and stores may not always serve local food or sell local products. Large package tour companies may not always hire local experts and guides, who know the area’s history, environment, and culture. As a result, much of the money made from this type of tourism does not stay in the local community. Moreover, tourists whose only travel experience comes via big hotels, chain restaurants, or package tours typically have little contact with the local people, thus limiting their understanding of the nature and culture of the places they visit. In contrast, geotourism is like a partnership between travelers and locals. Geotravelers stay in locally owned hotels, managed by residents who care about protecting the area and environment. They buy from local merchants and craftspeople, hire local travel guides, and go to see traditional music, dance, and theater to broaden the scope of their understanding of the area’s history and culture. Geotravelers learn a lot from their close contact with local people while the money they spend stays in the community, helps local people earn a living, and helps preserve and sustain the area for future travelers. In this way, geotourism benefits both partners--travelers and residents."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "about",
     "through"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Geotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the local people as well as to the environment. Much of the infrastructure that supports mass tourism--large tourist hotels, restaurants, malls, tour companies--may be owned and operated by companies based on outside the tourist areas. Chain restaurants and stores may not always serve local food or sell local products. Large package tour companies may not always hire local experts and guides, who know the area’s history, environment, and culture. As a result, much of the money made from this type of tourism does not stay in the local community. Moreover, tourists whose only travel experience comes via big hotels, chain restaurants, or package tours typically have little contact with the local people, thus limiting their understanding of the nature and culture of the places they visit. In contrast, geotourism is like a partnership between travelers and locals. Geotravelers stay in locally owned hotels, managed by residents who care about protecting the area and environment. They buy from local merchants and craftspeople, hire local travel guides, and go to see traditional music, dance, and theater to broaden the scope of their understanding of the area’s history and culture. Geotravelers learn a lot from their close contact with local people while the money they spend stays in the community, helps local people earn a living, and helps preserve and sustain the area for future travelers. In this way, geotourism benefits both partners--travelers and residents."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l004'] = {
     "Traditional mass tourism should be abolished.",
     "Geotavelers are more experienced travelers than package tourists."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Geotourism provides an alternative to traditional mass tourism, the effects of which can be harmful to the local people as well as to the environment. Much of the infrastructure that supports mass tourism--large tourist hotels, restaurants, malls, tour companies--may be owned and operated by companies based on outside the tourist areas. Chain restaurants and stores may not always serve local food or sell local products. Large package tour companies may not always hire local experts and guides, who know the area’s history, environment, and culture. As a result, much of the money made from this type of tourism does not stay in the local community. Moreover, tourists whose only travel experience comes via big hotels, chain restaurants, or package tours typically have little contact with the local people, thus limiting their understanding of the nature and culture of the places they visit. In contrast, geotourism is like a partnership between travelers and locals. Geotravelers stay in locally owned hotels, managed by residents who care about protecting the area and environment. They buy from local merchants and craftspeople, hire local travel guides, and go to see traditional music, dance, and theater to broaden the scope of their understanding of the area’s history and culture. Geotravelers learn a lot from their close contact with local people while the money they spend stays in the community, helps local people earn a living, and helps preserve and sustain the area for future travelers. In this way, geotourism benefits both partners--travelers and residents."
   }
  ]
 };

@@ -998,7 +998,7 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "11 am",
     "3 pm",
     "5 pm",
-    "8 amTourism represents an important source of income. Most resource-poor countries, therefore, cannot"
+    "8 am"
    ],
    "a": 1,
    "exp": "✅ (B) 根據對話，該店下午茶營業時間為下午 2 點至 4 點（2 pm to 4 pm），故預約下午 3 點（3 pm）符合該時段。\n❌ (A) 11 am 為上午 11 點，尚未進入下午茶營業時段。\n❌ (C) 5 pm 為下午 5 點，已超過下午茶結束時間（下午 4 點）。\n❌ (D) 8 am 為上午 8 點，屬於早晨時段，不在下午茶服務時間內。\n📚 出處：餐飲預約對話英語、營業時間與預訂時段"
@@ -1014,7 +1014,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "determinate",
     "striking"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Tourism represents an important source of income. Most resource-poor countries, therefore, cannot afford to neglect the economic opportunities tourism offers. However, tourism often ends up destroying the landscape and culture that attracted visitors in the first place. Low-impact tourism is sustainable travel and leisure activities that directly benefit local communities. The society and culture and environment of the people who live in the tourist destinations are not damaged or destroyed either. Unfortunately, the environmental impacts of tourism can be devastating when profit takes precedence. As a result, it heavily depends on individuals travel responsibly as a “green tourist”. Being a green tourist starts eating out on trips with a philosophy of “buy local, eat and drink local.” Tourism expenditure within the destination can create induced benefits. Try not to go for the international fast- food chains, because most of the money from tourism may undergo leakage. Furthermore, food is an important part of the culture of a region, through its consumption gaining in-depth knowledge about the local cuisine and of the destination’s culture. Choosing locally made souvenirs and presents is another area where the tourist can be either a help or a hindrance, but never buy anything that’s made from an endangered species. Never pick any plants or flowers either. However, sometimes tourists behave very poorly while traveling. Therefore, the key factor in minimizing damage through tourism is to keep tourist groups to a management size and manage their movements and behavior. In fact, some popular attractions have tourist group size limit. For example, La Boqueria, the most famous market in Barcelona worldwide, banned tourist groups of more than 15 people in 2015."
   },
   {
    "n": 72,
@@ -1027,7 +1028,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "Most of the money from tourism may be repatriated to the destination.",
     "Most of the money from tourism may recover from the destination."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tourism represents an important source of income. Most resource-poor countries, therefore, cannot afford to neglect the economic opportunities tourism offers. However, tourism often ends up destroying the landscape and culture that attracted visitors in the first place. Low-impact tourism is sustainable travel and leisure activities that directly benefit local communities. The society and culture and environment of the people who live in the tourist destinations are not damaged or destroyed either. Unfortunately, the environmental impacts of tourism can be devastating when profit takes precedence. As a result, it heavily depends on individuals travel responsibly as a “green tourist”. Being a green tourist starts eating out on trips with a philosophy of “buy local, eat and drink local.” Tourism expenditure within the destination can create induced benefits. Try not to go for the international fast- food chains, because most of the money from tourism may undergo leakage. Furthermore, food is an important part of the culture of a region, through its consumption gaining in-depth knowledge about the local cuisine and of the destination’s culture. Choosing locally made souvenirs and presents is another area where the tourist can be either a help or a hindrance, but never buy anything that’s made from an endangered species. Never pick any plants or flowers either. However, sometimes tourists behave very poorly while traveling. Therefore, the key factor in minimizing damage through tourism is to keep tourist groups to a management size and manage their movements and behavior. In fact, some popular attractions have tourist group size limit. For example, La Boqueria, the most famous market in Barcelona worldwide, banned tourist groups of more than 15 people in 2015."
   },
   {
    "n": 73,
@@ -1040,7 +1042,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "Sourcing locally-produced products for restaurants and gift shops should be encouraged.",
     "Low-impact tourism sustains the well-being of the local people."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tourism represents an important source of income. Most resource-poor countries, therefore, cannot afford to neglect the economic opportunities tourism offers. However, tourism often ends up destroying the landscape and culture that attracted visitors in the first place. Low-impact tourism is sustainable travel and leisure activities that directly benefit local communities. The society and culture and environment of the people who live in the tourist destinations are not damaged or destroyed either. Unfortunately, the environmental impacts of tourism can be devastating when profit takes precedence. As a result, it heavily depends on individuals travel responsibly as a “green tourist”. Being a green tourist starts eating out on trips with a philosophy of “buy local, eat and drink local.” Tourism expenditure within the destination can create induced benefits. Try not to go for the international fast- food chains, because most of the money from tourism may undergo leakage. Furthermore, food is an important part of the culture of a region, through its consumption gaining in-depth knowledge about the local cuisine and of the destination’s culture. Choosing locally made souvenirs and presents is another area where the tourist can be either a help or a hindrance, but never buy anything that’s made from an endangered species. Never pick any plants or flowers either. However, sometimes tourists behave very poorly while traveling. Therefore, the key factor in minimizing damage through tourism is to keep tourist groups to a management size and manage their movements and behavior. In fact, some popular attractions have tourist group size limit. For example, La Boqueria, the most famous market in Barcelona worldwide, banned tourist groups of more than 15 people in 2015."
   },
   {
    "n": 74,
@@ -1053,7 +1056,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "Quality of taste is a primary motivational factor by visitors to consume local food during theirtrips.",
     "Local food could be a great medium for differentiating destinations and attract tightly scheduledtravelers."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Tourism represents an important source of income. Most resource-poor countries, therefore, cannot afford to neglect the economic opportunities tourism offers. However, tourism often ends up destroying the landscape and culture that attracted visitors in the first place. Low-impact tourism is sustainable travel and leisure activities that directly benefit local communities. The society and culture and environment of the people who live in the tourist destinations are not damaged or destroyed either. Unfortunately, the environmental impacts of tourism can be devastating when profit takes precedence. As a result, it heavily depends on individuals travel responsibly as a “green tourist”. Being a green tourist starts eating out on trips with a philosophy of “buy local, eat and drink local.” Tourism expenditure within the destination can create induced benefits. Try not to go for the international fast- food chains, because most of the money from tourism may undergo leakage. Furthermore, food is an important part of the culture of a region, through its consumption gaining in-depth knowledge about the local cuisine and of the destination’s culture. Choosing locally made souvenirs and presents is another area where the tourist can be either a help or a hindrance, but never buy anything that’s made from an endangered species. Never pick any plants or flowers either. However, sometimes tourists behave very poorly while traveling. Therefore, the key factor in minimizing damage through tourism is to keep tourist groups to a management size and manage their movements and behavior. In fact, some popular attractions have tourist group size limit. For example, La Boqueria, the most famous market in Barcelona worldwide, banned tourist groups of more than 15 people in 2015."
   },
   {
    "n": 75,
@@ -1064,9 +1068,10 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "Keeping tourists in one place as long as they can.",
     "Restricting access to sites of interest.",
     "Keeping groups to a manageable size and controlling their behavior.",
-    "Making sure tourism does not impinge on local ways of life too much.The renovation project of the Louvre signifies the possibility of harmony between modernity and"
+    "Making sure tourism does not impinge on local ways of life too much."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Tourism represents an important source of income. Most resource-poor countries, therefore, cannot afford to neglect the economic opportunities tourism offers. However, tourism often ends up destroying the landscape and culture that attracted visitors in the first place. Low-impact tourism is sustainable travel and leisure activities that directly benefit local communities. The society and culture and environment of the people who live in the tourist destinations are not damaged or destroyed either. Unfortunately, the environmental impacts of tourism can be devastating when profit takes precedence. As a result, it heavily depends on individuals travel responsibly as a “green tourist”. Being a green tourist starts eating out on trips with a philosophy of “buy local, eat and drink local.” Tourism expenditure within the destination can create induced benefits. Try not to go for the international fast- food chains, because most of the money from tourism may undergo leakage. Furthermore, food is an important part of the culture of a region, through its consumption gaining in-depth knowledge about the local cuisine and of the destination’s culture. Choosing locally made souvenirs and presents is another area where the tourist can be either a help or a hindrance, but never buy anything that’s made from an endangered species. Never pick any plants or flowers either. However, sometimes tourists behave very poorly while traveling. Therefore, the key factor in minimizing damage through tourism is to keep tourist groups to a management size and manage their movements and behavior. In fact, some popular attractions have tourist group size limit. For example, La Boqueria, the most famous market in Barcelona worldwide, banned tourist groups of more than 15 people in 2015."
   },
   {
    "n": 76,
@@ -1079,7 +1084,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "Modernity in harmony with a historical building.",
     "Failure of modernizing a historical setting."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The renovation project of the Louvre signifies the possibility of harmony between modernity and history. Louvre, originally constructed as a fortress, was the home of the kings of France until Louis XIV chose Versailles for his household, leaving the Louvre primarily as a home for artists and intellectuals. In the late 1800s, the Louvre was damaged in a fire. The fire entirely destroyed the interior of the palace, spreading to the museum next to it. The decision to turn the Louvre into a massive repository of the world’s greatest fine art collection was proposed in 1981 by the French President François Mitterrand. However, the old royal palace was barely functional as a museum. The challenge was in turning a historical building into a modern museum equipped to cater for a large ever-growing number of visitors. The architect Ieoh Ming Pei was named to design the Grand Louvre project. His proposal for a glass pyramid was extremely controversial. Many believed that this historic site was already “saturated with architectural styles….” Pei overcame the negative response from officials and historians to his design. Pei was convinced that, in addition to educating the public, with competition from many other recreation businesses, museums needed to be attractive enough to make people want to spend the day there. The architecture must provide comfortable surroundings. Most importantly, a museum should not only be a place to see art but also should be an aesthetic experience in itself. Louvre’s glass pyramid was once decried as an architectural “obscenity” but nowadays, it has become a cherished icon of the French capital, drawing over a million visitors every year."
   },
   {
    "n": 77,
@@ -1092,7 +1098,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "vessel",
     "storehouse"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The renovation project of the Louvre signifies the possibility of harmony between modernity and history. Louvre, originally constructed as a fortress, was the home of the kings of France until Louis XIV chose Versailles for his household, leaving the Louvre primarily as a home for artists and intellectuals. In the late 1800s, the Louvre was damaged in a fire. The fire entirely destroyed the interior of the palace, spreading to the museum next to it. The decision to turn the Louvre into a massive repository of the world’s greatest fine art collection was proposed in 1981 by the French President François Mitterrand. However, the old royal palace was barely functional as a museum. The challenge was in turning a historical building into a modern museum equipped to cater for a large ever-growing number of visitors. The architect Ieoh Ming Pei was named to design the Grand Louvre project. His proposal for a glass pyramid was extremely controversial. Many believed that this historic site was already “saturated with architectural styles….” Pei overcame the negative response from officials and historians to his design. Pei was convinced that, in addition to educating the public, with competition from many other recreation businesses, museums needed to be attractive enough to make people want to spend the day there. The architecture must provide comfortable surroundings. Most importantly, a museum should not only be a place to see art but also should be an aesthetic experience in itself. Louvre’s glass pyramid was once decried as an architectural “obscenity” but nowadays, it has become a cherished icon of the French capital, drawing over a million visitors every year."
   },
   {
    "n": 78,
@@ -1121,7 +1128,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "To use accessible digital tools to explore and reason about collection.",
     "To turn a historical building into a modern museum."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The renovation project of the Louvre signifies the possibility of harmony between modernity and history. Louvre, originally constructed as a fortress, was the home of the kings of France until Louis XIV chose Versailles for his household, leaving the Louvre primarily as a home for artists and intellectuals. In the late 1800s, the Louvre was damaged in a fire. The fire entirely destroyed the interior of the palace, spreading to the museum next to it. The decision to turn the Louvre into a massive repository of the world’s greatest fine art collection was proposed in 1981 by the French President François Mitterrand. However, the old royal palace was barely functional as a museum. The challenge was in turning a historical building into a modern museum equipped to cater for a large ever-growing number of visitors. The architect Ieoh Ming Pei was named to design the Grand Louvre project. His proposal for a glass pyramid was extremely controversial. Many believed that this historic site was already “saturated with architectural styles….” Pei overcame the negative response from officials and historians to his design. Pei was convinced that, in addition to educating the public, with competition from many other recreation businesses, museums needed to be attractive enough to make people want to spend the day there. The architecture must provide comfortable surroundings. Most importantly, a museum should not only be a place to see art but also should be an aesthetic experience in itself. Louvre’s glass pyramid was once decried as an architectural “obscenity” but nowadays, it has become a cherished icon of the French capital, drawing over a million visitors every year."
   },
   {
    "n": 80,
@@ -1134,7 +1142,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l004'] = {
     "To entertain officials and historians.",
     "To educate the public and have aesthetic experiences."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The renovation project of the Louvre signifies the possibility of harmony between modernity and history. Louvre, originally constructed as a fortress, was the home of the kings of France until Louis XIV chose Versailles for his household, leaving the Louvre primarily as a home for artists and intellectuals. In the late 1800s, the Louvre was damaged in a fire. The fire entirely destroyed the interior of the palace, spreading to the museum next to it. The decision to turn the Louvre into a massive repository of the world’s greatest fine art collection was proposed in 1981 by the French President François Mitterrand. However, the old royal palace was barely functional as a museum. The challenge was in turning a historical building into a modern museum equipped to cater for a large ever-growing number of visitors. The architect Ieoh Ming Pei was named to design the Grand Louvre project. His proposal for a glass pyramid was extremely controversial. Many believed that this historic site was already “saturated with architectural styles….” Pei overcame the negative response from officials and historians to his design. Pei was convinced that, in addition to educating the public, with competition from many other recreation businesses, museums needed to be attractive enough to make people want to spend the day there. The architecture must provide comfortable surroundings. Most importantly, a museum should not only be a place to see art but also should be an aesthetic experience in itself. Louvre’s glass pyramid was once decried as an architectural “obscenity” but nowadays, it has become a cherished icon of the French capital, drawing over a million visitors every year."
   }
  ]
 };

@@ -626,7 +626,7 @@ window.APP_EXAM_PAPERS['pol-102-1-c008'] = {
     "literary",
     "rejection",
     "crime",
-    "environment請回答第 45 題至第 46 題：Some people are afraid of flying. They are worried that the plane will crash or that someone may hijack it. People"
+    "environment"
    ],
    "a": 2,
    "exp": "✅ (C) crime 意為「犯罪」；crime fighters 指「打擊犯罪者」，警察自身傾向於將自身定位為打擊犯罪的戰士，而淡化其作為維護秩序者（peacekeepers）與社會服務提供者的角色。\n❌ (A) literary 意為「文學的」，與警察執法防制犯罪之工作內涵無關。\n❌ (B) rejection 意為「拒絕、排斥」，無法與 fighters 搭配指涉警察之角色定位。\n❌ (D) environment 意為「環境」，警察主要法定職責在於維持公共秩序與防制犯罪，非環境保護工作者。\n📚 出處：警察專業英文——警察角色理論（police role: crime fighters vs. peacekeepers）。"
@@ -642,7 +642,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c008'] = {
     "When staying in the hospital, Wong-yu Man confessed to the police that he hijacked the plane with his friends.",
     "The plane crashed because the hijackers shot the pilot, killed all the passengers and blew up the plane."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Some people are afraid of flying. They are worried that the plane will crash or that someone may hijack it. People who hijack a plane usually threaten to kill the passengers or blow up the plane if they do not get what they want. Hijackers often want money, but sometimes they want other things—to have their friends let out of jail, or to go to another country. The first hijacking occurred on June 16, 1948, on a plane traveling from Macau to Hong Kong. Some men with guns told the pilot that they wanted money. The pilot tried to fight them off, but the hijackers shot him. The plane crashed into the ocean, and nearly everyone on it died. Only one man survived. His name was Wong-yu Man. When the police brought the plane out of the ocean, they looked at it very carefully. They found bullet holes in its walls. That’s how they knew there had been a hijacking. A police officer sat near Wong-yu Man’s bed in the hospital. Before long, Wong-yu Man started to talk in his sleep. “Where are my men?” his said. “Are they all right? Did they get the money?” The police officer wrote everything down. He thought that Wong-yu was one of the hijackers, and he was right. When Wong-yu came out of the hospital, he went to jail for a long time."
   },
   {
    "n": 46,
@@ -655,7 +656,8 @@ window.APP_EXAM_PAPERS['pol-102-1-c008'] = {
     "Because they took the plane out of the ocean.",
     "Because Wong-yu Man told them the whole story.Crime analyses have been largely ＿＿＿ 47 through technological advances. Crime analysts historically used"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Some people are afraid of flying. They are worried that the plane will crash or that someone may hijack it. People who hijack a plane usually threaten to kill the passengers or blow up the plane if they do not get what they want. Hijackers often want money, but sometimes they want other things—to have their friends let out of jail, or to go to another country. The first hijacking occurred on June 16, 1948, on a plane traveling from Macau to Hong Kong. Some men with guns told the pilot that they wanted money. The pilot tried to fight them off, but the hijackers shot him. The plane crashed into the ocean, and nearly everyone on it died. Only one man survived. His name was Wong-yu Man. When the police brought the plane out of the ocean, they looked at it very carefully. They found bullet holes in its walls. That’s how they knew there had been a hijacking. A police officer sat near Wong-yu Man’s bed in the hospital. Before long, Wong-yu Man started to talk in his sleep. “Where are my men?” his said. “Are they all right? Did they get the money?” The police officer wrote everything down. He thought that Wong-yu was one of the hijackers, and he was right. When Wong-yu came out of the hospital, he went to jail for a long time."
   },
   {
    "n": 47,

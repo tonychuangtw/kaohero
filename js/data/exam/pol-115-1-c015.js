@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-115-1-c015'] = {
     "hasty",
     "hazardous",
     "hard",
-    "hazel請依下文回答第 41 題至第 45 題The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary"
+    "hazel"
    ],
    "a": 1,
    "exp": "✅ (B) hazardous 指「有危害性的」；化學溶劑屬危險物質，hazardous material（簡稱 HAZMAT）是國際通用的危險品用語，故需立即緊急應變。\n❌ (A) hasty 指倉促的，用來修飾行為而非物質。\n❌ (C) hard 指硬的、困難的，不含危險之意。\n❌ (D) hazel 指榛樹、淡褐色，僅字首與 hazardous 相似。\n📚 出處：危險品用語 hazardous material（HAZMAT）。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-115-1-c015'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "browsing",
+    "colliding",
+    "patrolling",
+    "voyaging"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/115060_244_0210_41.webp"
+   "psg": "The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary responsibilities include enforcement of maritime laws, 41 busy ports and straits, and preventing illegal activities at sea. Recently, the marine police conducted a major operation after receiving reports of a vessel 42 to smuggle prohibited goods into the country. Acting quickly, officers tracked the suspicious boat and successfully 43 the suspects on board. Following the arrest, the suspects were placed in detention 44 authorities could conduct a thorough investigation. This successful 45 demonstrates the importance of strict law enforcement at sea to protect both commerce and public safety. By preventing illegal smuggling and upholding maritime regulations, the marine police continue to safeguard the nation’s waters and maintain order along the coastlines."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "attempted",
+    "attempting",
+    "had attempted",
+    "was attempting"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/115060_244_0210_42.webp"
+   "psg": "The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary responsibilities include enforcement of maritime laws, 41 busy ports and straits, and preventing illegal activities at sea. Recently, the marine police conducted a major operation after receiving reports of a vessel 42 to smuggle prohibited goods into the country. Acting quickly, officers tracked the suspicious boat and successfully 43 the suspects on board. Following the arrest, the suspects were placed in detention 44 authorities could conduct a thorough investigation. This successful 45 demonstrates the importance of strict law enforcement at sea to protect both commerce and public safety. By preventing illegal smuggling and upholding maritime regulations, the marine police continue to safeguard the nation’s waters and maintain order along the coastlines."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "appended",
+    "suspended",
+    "apprehended",
+    "comprehended"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/115060_244_0210_43.webp"
+   "psg": "The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary responsibilities include enforcement of maritime laws, 41 busy ports and straits, and preventing illegal activities at sea. Recently, the marine police conducted a major operation after receiving reports of a vessel 42 to smuggle prohibited goods into the country. Acting quickly, officers tracked the suspicious boat and successfully 43 the suspects on board. Following the arrest, the suspects were placed in detention 44 authorities could conduct a thorough investigation. This successful 45 demonstrates the importance of strict law enforcement at sea to protect both commerce and public safety. By preventing illegal smuggling and upholding maritime regulations, the marine police continue to safeguard the nation’s waters and maintain order along the coastlines."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "so that",
+    "in case",
+    "since then",
+    "despite that"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/115060_244_0210_44.webp"
+   "psg": "The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary responsibilities include enforcement of maritime laws, 41 busy ports and straits, and preventing illegal activities at sea. Recently, the marine police conducted a major operation after receiving reports of a vessel 42 to smuggle prohibited goods into the country. Acting quickly, officers tracked the suspicious boat and successfully 43 the suspects on board. Following the arrest, the suspects were placed in detention 44 authorities could conduct a thorough investigation. This successful 45 demonstrates the importance of strict law enforcement at sea to protect both commerce and public safety. By preventing illegal smuggling and upholding maritime regulations, the marine police continue to safeguard the nation’s waters and maintain order along the coastlines."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "intrusion",
+    "inflation",
+    "indentation",
+    "interception"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115060_244_0210_45.webp"
+   "psg": "The marine police play a critical role in maintaining the safety and security of coastal waters. Their primary responsibilities include enforcement of maritime laws, 41 busy ports and straits, and preventing illegal activities at sea. Recently, the marine police conducted a major operation after receiving reports of a vessel 42 to smuggle prohibited goods into the country. Acting quickly, officers tracked the suspicious boat and successfully 43 the suspects on board. Following the arrest, the suspects were placed in detention 44 authorities could conduct a thorough investigation. This successful 45 demonstrates the importance of strict law enforcement at sea to protect both commerce and public safety. By preventing illegal smuggling and upholding maritime regulations, the marine police continue to safeguard the nation’s waters and maintain order along the coastlines."
   },
   {
    "n": 46,

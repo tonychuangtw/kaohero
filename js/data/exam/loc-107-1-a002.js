@@ -430,7 +430,7 @@ window.APP_EXAM_PAPERS['loc-107-1-a002'] = {
     "小美已經滿 16 歲，縱使沒有同居的事實，但基於有情感的親密互動行為，可以依家庭暴力防治法聲請保護令",
     "小美為未滿 20 歲的未成年人，其法定代理人、三親等以內之血親或姻親，得為其向法院聲請保護令",
     "小美除了可以依法聲請保護令外，還可以向戶籍所在之縣市政府申請訴訟費用及律師費用補助",
-    "小美得依法聲請家庭暴力防治法之通常及暫時保護令第 31 題至第 35 題為題組：Life in a big city has some advantages. In a big city, there is every kind of facility for education."
+    "小美得依法聲請家庭暴力防治法之通常及暫時保護令"
    ],
    "a": 2,
    "exp": "✅ (C) 錯誤在此。家庭暴力防治法第 63 條之 1 就未同居親密關係伴侶所準用的條文並不包括第 58 條的補助規定，小美無從據以申請訴訟費用及律師費用補助。\n❌ (A) 正確。年滿十六歲、現有或曾有親密關係的未同居伴侶得準用本法聲請保護令。\n❌ (B) 正確。被害人為未成年人者，其法定代理人、三親等以內血親或姻親得代為聲請。\n❌ (D) 正確。得聲請通常保護令與暫時保護令。\n📚 出處：家庭暴力防治法第 9、10、58、63 條之 1"
@@ -439,61 +439,57 @@ window.APP_EXAM_PAPERS['loc-107-1-a002'] = {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 31 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "for",
+    "with",
+    "without",
+    "within"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_31.webp"
+   "psg": "為題組： Life in a big city has some advantages. In a big city, there is every kind of facility for education. Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city."
   },
   {
    "n": 32,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 32 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "being",
+    "be",
+    "are",
+    "is"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_32.webp"
+   "psg": "為題組： Life in a big city has some advantages. In a big city, there is every kind of facility for education. Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city."
   },
   {
    "n": 33,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 33 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "alignments",
+    "amendments",
+    "ailments",
+    "alternatives"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_33.webp"
+   "psg": "為題組： Life in a big city has some advantages. In a big city, there is every kind of facility for education. Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city."
   },
   {
    "n": 34,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 34 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "In case of",
+    "Except for",
+    "In opposition to",
+    "In addition to"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_34.webp"
+   "psg": "為題組： Life in a big city has some advantages. In a big city, there is every kind of facility for education. Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city."
   },
   {
    "n": 35,
@@ -506,82 +502,78 @@ window.APP_EXAM_PAPERS['loc-107-1-a002'] = {
     "36",
     "against the move that would give Brigitte"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組： Life in a big city has some advantages. In a big city, there is every kind of facility for education. Any kind of education, liberal or vocational or technical is 31 the reach of the persons living in big cities. An ordinary man living in a big city can afford for his children that education which a rich man in a village cannot afford easily. Good and well equipped educational institutions are the permanent assets of big cities. A boy or girl living in a big city has a better general knowledge than a village boy or girl has and 32 well-informed about the affairs of the world. Thus a child born and bred in the city is more enlightened than a child born and brought up in rural atmosphere. Life in a big city is free from 33 and diseases because ample medical facilities are available there. Hospitals, well equipped with latest medical instruments, are the source of medical relief to every reason living in a big city. 34 the government hospitals, we find well qualified and highly competent private medical practitioners in big cities. Such facilities are not available in a village. Life in a big city is not dull and drab because there are 35 means of recreation there. The picture halls, theaters, the beautifully illuminated markets, the well-furnished and well-maintained hotels and restaurants, the charming parks and gardens and the good-looking and heart-captivating towns of new styled buildings give immense pleasure to everybody living in a big city."
   },
   {
    "n": 36,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 36 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "contract",
+    "document",
+    "petition",
+    "treaty"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_36.webp"
+   "psg": "為題組： The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife an official “first lady” role. More than 150,000 people have signed a 36 against the move that would give Brigitte Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”."
   },
   {
    "n": 37,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 37 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "domestic",
+    "foreign",
+    "private",
+    "public"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_37.webp"
+   "psg": "為題組： The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife an official “first lady” role. More than 150,000 people have signed a 36 against the move that would give Brigitte Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”."
   },
   {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as",
+    "like",
+    "to",
+    "in"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_38.webp"
+   "psg": "為題組： The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife an official “first lady” role. More than 150,000 people have signed a 36 against the move that would give Brigitte Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”."
   },
   {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "said",
+    "say",
+    "saying",
+    "to say"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_39.webp"
+   "psg": "為題組： The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife an official “first lady” role. More than 150,000 people have signed a 36 against the move that would give Brigitte Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "totally",
+    "personally",
+    "individually",
+    "respectively"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_301_0205_40.webp"
+   "psg": "為題組： The French president, Emmanuel Macron, is facing a people’s revolt against plans to give his wife an official “first lady” role. More than 150,000 people have signed a 36 against the move that would give Brigitte Macron an office, staff and an allowance from the 37 purse. The rebellion comes 38 Macron’s popularity continues to plummet. Polls last month showed he had dropped seven percentage points with only 36% of French people 39 they were happy with their new leader. At the same period in their mandate Macron’s predecessors François Hollande and Nicolas Sarkozy were at 56% at 66% 40 . During his presidential campaign, Macron promised to “clarify” the role of the French president’s wife by giving them an official status, describing the current situation as a “kind of French hypocrisy”."
   },
   {
    "n": 41,

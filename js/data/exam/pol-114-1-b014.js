@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-114-1-b014'] = {
     "lucratively",
     "deliberately",
     "hospitably",
-    "incidentally請依下文回答第 51 題至第 55 題Firefighters in the Australian state of New South Wales are battling what is being called the worst"
+    "incidentally"
    ],
    "a": 1,
    "exp": "✅ (B) deliberately 意為「蓄意地、故意地」，與後半句 investigating it as a case of arson（以縱火案偵辦）相呼應：警方懷疑電影院是被人蓄意縱火。arson 的構成要件本就包含故意。\n❌ (A) lucratively 意為「有利可圖地」，用來形容獲利方式，與放火行為不搭。\n❌ (C) hospitably 意為「好客地、殷勤地」，語意完全不合。\n❌ (D) incidentally 意為「附帶地、偶然地」，語意與「蓄意」相反，若是偶然失火就不會以縱火案偵辦。\n📚 出處：英文字彙 deliberately（蓄意地）；arson（縱火罪）。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-114-1-b014'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "erected",
+    "merged",
+    "prohibited",
+    "submitted"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/114060_506_0207_51.webp"
+   "psg": "Firefighters in the Australian state of New South Wales are battling what is being called the worst fire ever seen in the region. Eight separate bushfires have 51 north of Sydney to create what people are calling a “mega-fire.” The gigantic 52 is just an hour’s drive from Sydney. Tens of thousands of homes, businesses and other properties are in its path. The giant inferno is burning across a 53 of land covering over 300,000 hectares. The front of the mega-fire is roughly 60km wide. Authorities say it is burning out of control and is too vast to 54 . Fire Service Deputy Commissioner Rob Rogers said: “We cannot stop these fires. They will just keep burning until conditions ease.” People in Sydney are suffering from hazardous and toxic smoke from the fire. The city is 55 in the choking smoke. Residents have received advisories about exercising outside."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "blaze",
+    "fleet",
+    "regime",
+    "forum"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114060_506_0207_52.webp"
+   "psg": "Firefighters in the Australian state of New South Wales are battling what is being called the worst fire ever seen in the region. Eight separate bushfires have 51 north of Sydney to create what people are calling a “mega-fire.” The gigantic 52 is just an hour’s drive from Sydney. Tens of thousands of homes, businesses and other properties are in its path. The giant inferno is burning across a 53 of land covering over 300,000 hectares. The front of the mega-fire is roughly 60km wide. Authorities say it is burning out of control and is too vast to 54 . Fire Service Deputy Commissioner Rob Rogers said: “We cannot stop these fires. They will just keep burning until conditions ease.” People in Sydney are suffering from hazardous and toxic smoke from the fire. The city is 55 in the choking smoke. Residents have received advisories about exercising outside."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "layer",
+    "swarm",
+    "stretch",
+    "volume"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114060_506_0207_53.webp"
+   "psg": "Firefighters in the Australian state of New South Wales are battling what is being called the worst fire ever seen in the region. Eight separate bushfires have 51 north of Sydney to create what people are calling a “mega-fire.” The gigantic 52 is just an hour’s drive from Sydney. Tens of thousands of homes, businesses and other properties are in its path. The giant inferno is burning across a 53 of land covering over 300,000 hectares. The front of the mega-fire is roughly 60km wide. Authorities say it is burning out of control and is too vast to 54 . Fire Service Deputy Commissioner Rob Rogers said: “We cannot stop these fires. They will just keep burning until conditions ease.” People in Sydney are suffering from hazardous and toxic smoke from the fire. The city is 55 in the choking smoke. Residents have received advisories about exercising outside."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "contain",
+    "convey",
+    "compel",
+    "conceal"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114060_506_0207_54.webp"
+   "psg": "Firefighters in the Australian state of New South Wales are battling what is being called the worst fire ever seen in the region. Eight separate bushfires have 51 north of Sydney to create what people are calling a “mega-fire.” The gigantic 52 is just an hour’s drive from Sydney. Tens of thousands of homes, businesses and other properties are in its path. The giant inferno is burning across a 53 of land covering over 300,000 hectares. The front of the mega-fire is roughly 60km wide. Authorities say it is burning out of control and is too vast to 54 . Fire Service Deputy Commissioner Rob Rogers said: “We cannot stop these fires. They will just keep burning until conditions ease.” People in Sydney are suffering from hazardous and toxic smoke from the fire. The city is 55 in the choking smoke. Residents have received advisories about exercising outside."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "triggered",
+    "diverted",
+    "escorted",
+    "blanketed"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114060_506_0207_55.webp"
+   "psg": "Firefighters in the Australian state of New South Wales are battling what is being called the worst fire ever seen in the region. Eight separate bushfires have 51 north of Sydney to create what people are calling a “mega-fire.” The gigantic 52 is just an hour’s drive from Sydney. Tens of thousands of homes, businesses and other properties are in its path. The giant inferno is burning across a 53 of land covering over 300,000 hectares. The front of the mega-fire is roughly 60km wide. Authorities say it is burning out of control and is too vast to 54 . Fire Service Deputy Commissioner Rob Rogers said: “We cannot stop these fires. They will just keep burning until conditions ease.” People in Sydney are suffering from hazardous and toxic smoke from the fire. The city is 55 in the choking smoke. Residents have received advisories about exercising outside."
   },
   {
    "n": 56,

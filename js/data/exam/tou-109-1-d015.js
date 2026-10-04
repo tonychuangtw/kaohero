@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "membayar",
     "menjalan",
     "membeli",
-    "membuangTuris Indonesia Makin Banyak, Taiwan Berbenah Jadi Lokasi Wisata Ramah Muslim"
+    "membuang"
    ],
    "a": 0,
    "exp": "✅ (A) 飯店房內冰箱的飲食屬付費商品（minibar），取用後必須 membayar（付款）。\n❌ (B) menjalan 非標準詞形，語意也不通。\n❌ (C) membeli 指另外去買，但東西已經吃掉，正確動作是結帳付費。\n❌ (D) membuang（丟棄）並不能免除付款責任。\n📚 出處：旅館住宿規範（迷你吧計費）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "Memperbanyak rumah makan halal.",
     "Taiwan berbenah menjadi lokasi wisata ramah muslim."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Turis Indonesia Makin Banyak, Taiwan Berbenah Jadi Lokasi Wisata Ramah Muslim Selain Hong Kong dan China, Taiwan pun menjadi tujuan wisata yang makin populer karena keindahan alamnya. Tidak hanya itu, sekarang ini Taiwan semakin ramah Muslim. Hal ini bisa dilihat dari semakin banyaknya tempat ibadah yang ada di Taiwan dan tersebar di semua wilayah. Di Taiwan terdapat beberapa masjid yang dapat dikunjungi, antara lain Taipei Grand Mosque, Kaohsiung Mosque, Taichung Masjid, Longgang Mosque, dan At-Taqwa Mosque. Keberadaan masjid ini dapat mempermudah wisatawan Muslim beribadah. Bahkan, diterangkan Director Taiwan Tourism Bureau Abe Chou, sekarang ini ketersediaan tempat ibadah di Taiwan semakin banyak. \"Sekarang terdapat tempat beribadah di taman kota atau juga stasiun kereta api atau Kereta Cepat (Taiwan High Speed Rail,)\" paparnya. Abe Chou melanjutkan, upaya lain yang dilakukan pemerintah untuk memaksimalkan tujuan Taiwan menjadi lokasi wisata ramah Muslim adalah dengan memperbanyak jumlah rumah makan halal. Ini mungkin menjadi fokus lain yang tak kalah penting dari tempat ibadah. Sebab, saat wisatawan mancanegara datang ke sebuah negara, wisata kuliner pun tak bisa diabaikan. Karena sebagian besar penduduk Taiwan tidak menganut agama Islam, maka tak dapat dipungkiri masih banyak orang beranggapan, susah mencari makanan halal di negara ini."
   },
   {
    "n": 72,
@@ -1033,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "Karena Taiwan bukan merupakan negara muslim, maka tidak memerlukan rumah makan halal.",
     "Ketersediaan tempat ibadah di Taiwan semakin banyak, sehingga warga muslim dapat beribadahdi Taiwan."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Turis Indonesia Makin Banyak, Taiwan Berbenah Jadi Lokasi Wisata Ramah Muslim Selain Hong Kong dan China, Taiwan pun menjadi tujuan wisata yang makin populer karena keindahan alamnya. Tidak hanya itu, sekarang ini Taiwan semakin ramah Muslim. Hal ini bisa dilihat dari semakin banyaknya tempat ibadah yang ada di Taiwan dan tersebar di semua wilayah. Di Taiwan terdapat beberapa masjid yang dapat dikunjungi, antara lain Taipei Grand Mosque, Kaohsiung Mosque, Taichung Masjid, Longgang Mosque, dan At-Taqwa Mosque. Keberadaan masjid ini dapat mempermudah wisatawan Muslim beribadah. Bahkan, diterangkan Director Taiwan Tourism Bureau Abe Chou, sekarang ini ketersediaan tempat ibadah di Taiwan semakin banyak. \"Sekarang terdapat tempat beribadah di taman kota atau juga stasiun kereta api atau Kereta Cepat (Taiwan High Speed Rail,)\" paparnya. Abe Chou melanjutkan, upaya lain yang dilakukan pemerintah untuk memaksimalkan tujuan Taiwan menjadi lokasi wisata ramah Muslim adalah dengan memperbanyak jumlah rumah makan halal. Ini mungkin menjadi fokus lain yang tak kalah penting dari tempat ibadah. Sebab, saat wisatawan mancanegara datang ke sebuah negara, wisata kuliner pun tak bisa diabaikan. Karena sebagian besar penduduk Taiwan tidak menganut agama Islam, maka tak dapat dipungkiri masih banyak orang beranggapan, susah mencari makanan halal di negara ini."
   },
   {
    "n": 74,
@@ -1046,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "Taiwan semakin ramah Muslim.",
     "B dan C"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Turis Indonesia Makin Banyak, Taiwan Berbenah Jadi Lokasi Wisata Ramah Muslim Selain Hong Kong dan China, Taiwan pun menjadi tujuan wisata yang makin populer karena keindahan alamnya. Tidak hanya itu, sekarang ini Taiwan semakin ramah Muslim. Hal ini bisa dilihat dari semakin banyaknya tempat ibadah yang ada di Taiwan dan tersebar di semua wilayah. Di Taiwan terdapat beberapa masjid yang dapat dikunjungi, antara lain Taipei Grand Mosque, Kaohsiung Mosque, Taichung Masjid, Longgang Mosque, dan At-Taqwa Mosque. Keberadaan masjid ini dapat mempermudah wisatawan Muslim beribadah. Bahkan, diterangkan Director Taiwan Tourism Bureau Abe Chou, sekarang ini ketersediaan tempat ibadah di Taiwan semakin banyak. \"Sekarang terdapat tempat beribadah di taman kota atau juga stasiun kereta api atau Kereta Cepat (Taiwan High Speed Rail,)\" paparnya. Abe Chou melanjutkan, upaya lain yang dilakukan pemerintah untuk memaksimalkan tujuan Taiwan menjadi lokasi wisata ramah Muslim adalah dengan memperbanyak jumlah rumah makan halal. Ini mungkin menjadi fokus lain yang tak kalah penting dari tempat ibadah. Sebab, saat wisatawan mancanegara datang ke sebuah negara, wisata kuliner pun tak bisa diabaikan. Karena sebagian besar penduduk Taiwan tidak menganut agama Islam, maka tak dapat dipungkiri masih banyak orang beranggapan, susah mencari makanan halal di negara ini."
   },
   {
    "n": 75,
@@ -1057,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "Sekarang dapat ditemukan tempat beribadah di taman kota dan stasiun kereta api.",
     "Taiwan sudah memiliki banyak restoran halal, maka tidak perlu memperbanyak restoran halal.",
     "Wisatawan muslim dapat mengabaikan wisata kuliner di Taiwan.",
-    "Karena banyak penduduk muslim di Taiwan, sehingga mudah untuk memperoleh makananhalal.Danau Matahari Bulan, Destinasi Pesepeda Terbaik di Taiwan"
+    "Karena banyak penduduk muslim di Taiwan, sehingga mudah untuk memperoleh makananhalal."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Turis Indonesia Makin Banyak, Taiwan Berbenah Jadi Lokasi Wisata Ramah Muslim Selain Hong Kong dan China, Taiwan pun menjadi tujuan wisata yang makin populer karena keindahan alamnya. Tidak hanya itu, sekarang ini Taiwan semakin ramah Muslim. Hal ini bisa dilihat dari semakin banyaknya tempat ibadah yang ada di Taiwan dan tersebar di semua wilayah. Di Taiwan terdapat beberapa masjid yang dapat dikunjungi, antara lain Taipei Grand Mosque, Kaohsiung Mosque, Taichung Masjid, Longgang Mosque, dan At-Taqwa Mosque. Keberadaan masjid ini dapat mempermudah wisatawan Muslim beribadah. Bahkan, diterangkan Director Taiwan Tourism Bureau Abe Chou, sekarang ini ketersediaan tempat ibadah di Taiwan semakin banyak. \"Sekarang terdapat tempat beribadah di taman kota atau juga stasiun kereta api atau Kereta Cepat (Taiwan High Speed Rail,)\" paparnya. Abe Chou melanjutkan, upaya lain yang dilakukan pemerintah untuk memaksimalkan tujuan Taiwan menjadi lokasi wisata ramah Muslim adalah dengan memperbanyak jumlah rumah makan halal. Ini mungkin menjadi fokus lain yang tak kalah penting dari tempat ibadah. Sebab, saat wisatawan mancanegara datang ke sebuah negara, wisata kuliner pun tak bisa diabaikan. Karena sebagian besar penduduk Taiwan tidak menganut agama Islam, maka tak dapat dipungkiri masih banyak orang beranggapan, susah mencari makanan halal di negara ini."
   },
   {
    "n": 76,
@@ -1072,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d015'] = {
     "Wisatawan yang berkunjung kurang dari 6 juta orang setiap tahunnya.",
     "Wisatawan yang berkunjung tidak lebih dari 6 juta orang setiap tahunnya."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Danau Matahari Bulan, Destinasi Pesepeda Terbaik di Taiwan Sun Moon Lake, yang dikunjungi sekitar 6 juta orang setiap tahunnya, dan juga merupakan salah satu dari 10 objek wisata di Taiwan yang paling direkomendasikan oleh Asosiasi Pengunjung Taiwan. Sun Moon Lake berada di Wilayah Tengah di Kabupaten Nantou dekat Kota Taichung. Bagi para pecinta sepeda, Sun Moon Lake atau Danau Matahari Bulan di Taiwan bisa jadi adalah salah satu tujuan bersepeda terbaik. Lintasan sepeda dan pejalan kaki di Sun Moon Lake memiliki panjang sekitar 30 kilometer, dikelilingi pemandangan gunung, air danau dan kabut tebal yang menyerupai lukisan. Lintasan sepanjang itu dapat ditempuh dalam waktu sekitar 3,5 jam, namun tentu saja akan lebih lama jika pesepeda ingin singgah ke tempat-tempat menarik. Di sepanjang lintasan, pesepeda bisa berhenti sejenak mampir antara lain ke kuil-kuil berumur puluhan tahun Xuanguang dan Wenwu, dermaga Shuishe dan Xanguang, Paper Dome, Pagoda Ci'en, dan Gunung Qinglong. Sun Moon Lake terletak di Desa Yuchi di Kabupaten Nantou, Taiwan bagian tengah, dan berada pada ketinggian 748 meter di atas permukaan laut. Biro Pariwisata Taiwan menyebut Sun Moon Lake sebagai danau terindah di Taiwan. Keindahan danau terbesar Taiwan itu bisa dinikmati dari berbagai sudut. Pemandu wisata Sun Moon Lake, Chen Yong-Yu menerangkan bahwa dari sisi yang satu, danau tersebut terlihat seperti matahari sementara dari sisi lainnya terlihat seperti bulan. \"Dari situlah namanya tercipta menjadi Danau Matahari Bulan,\" katanya."
   },
   {
    "n": 77,

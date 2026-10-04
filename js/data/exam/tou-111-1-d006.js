@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "ne coulent pas à Lyon",
     "sont derrière Lyon"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lyon Lyon est une ville du sud-est de la France. Pour la trouver sur une carte, on peut suivre le Rhône et la Saône : Lyon se situe à l’endroit où ces deux cours d’eau se rencontrent. Se promener dans Lyon, c’est comme faire un voyage dans le temps… Le voyage commence en 43 avant Jésus-Christ : c’est l’année de la fondation de Lyon par un Romain, Lucius Munatius Plancus. Oh, pardon ! Pas de Lyon, mais de Lugdunum, puisqu’à l’époque, c’est son nom. Aujourd’hui, les ruines des théâtres, des thermes ou encore des aqueducs sont les derniers témoignages de l’importance de la ville à cette époque. La partie de la ville qu’on appelle aujourd’hui le Vieux-Lyon devient un centre religieux renommé. L’industrie de la soie, puis l’imprimerie rendent la ville riche. Aujourd’hui, une ambiance médiévale est encore présente dans les vieux quartiers, toujours très vivants et classés au patrimoine mondial de l’UNESCO. C’est aussi dans le Vieux- Lyon que se trouvent les fameux restaurants lyonnais (les bouchons), les passages entre les immeubles qui servent de raccourcis d’une rue à l’autre (les traboules), les immeubles des canuts (les anciens ouvriers de la soie), sans oublier les musées (comme celui de Guignol) et les maisons aux murs peints."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "en 1900",
     "l’année dernière"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lyon Lyon est une ville du sud-est de la France. Pour la trouver sur une carte, on peut suivre le Rhône et la Saône : Lyon se situe à l’endroit où ces deux cours d’eau se rencontrent. Se promener dans Lyon, c’est comme faire un voyage dans le temps… Le voyage commence en 43 avant Jésus-Christ : c’est l’année de la fondation de Lyon par un Romain, Lucius Munatius Plancus. Oh, pardon ! Pas de Lyon, mais de Lugdunum, puisqu’à l’époque, c’est son nom. Aujourd’hui, les ruines des théâtres, des thermes ou encore des aqueducs sont les derniers témoignages de l’importance de la ville à cette époque. La partie de la ville qu’on appelle aujourd’hui le Vieux-Lyon devient un centre religieux renommé. L’industrie de la soie, puis l’imprimerie rendent la ville riche. Aujourd’hui, une ambiance médiévale est encore présente dans les vieux quartiers, toujours très vivants et classés au patrimoine mondial de l’UNESCO. C’est aussi dans le Vieux- Lyon que se trouvent les fameux restaurants lyonnais (les bouchons), les passages entre les immeubles qui servent de raccourcis d’une rue à l’autre (les traboules), les immeubles des canuts (les anciens ouvriers de la soie), sans oublier les musées (comme celui de Guignol) et les maisons aux murs peints."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "meilleur footballeur de la ville",
     "fleuve de la ville"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lyon Lyon est une ville du sud-est de la France. Pour la trouver sur une carte, on peut suivre le Rhône et la Saône : Lyon se situe à l’endroit où ces deux cours d’eau se rencontrent. Se promener dans Lyon, c’est comme faire un voyage dans le temps… Le voyage commence en 43 avant Jésus-Christ : c’est l’année de la fondation de Lyon par un Romain, Lucius Munatius Plancus. Oh, pardon ! Pas de Lyon, mais de Lugdunum, puisqu’à l’époque, c’est son nom. Aujourd’hui, les ruines des théâtres, des thermes ou encore des aqueducs sont les derniers témoignages de l’importance de la ville à cette époque. La partie de la ville qu’on appelle aujourd’hui le Vieux-Lyon devient un centre religieux renommé. L’industrie de la soie, puis l’imprimerie rendent la ville riche. Aujourd’hui, une ambiance médiévale est encore présente dans les vieux quartiers, toujours très vivants et classés au patrimoine mondial de l’UNESCO. C’est aussi dans le Vieux- Lyon que se trouvent les fameux restaurants lyonnais (les bouchons), les passages entre les immeubles qui servent de raccourcis d’une rue à l’autre (les traboules), les immeubles des canuts (les anciens ouvriers de la soie), sans oublier les musées (comme celui de Guignol) et les maisons aux murs peints."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "une ouvrière de la soie",
     "un passage entre deux immeubles"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Lyon Lyon est une ville du sud-est de la France. Pour la trouver sur une carte, on peut suivre le Rhône et la Saône : Lyon se situe à l’endroit où ces deux cours d’eau se rencontrent. Se promener dans Lyon, c’est comme faire un voyage dans le temps… Le voyage commence en 43 avant Jésus-Christ : c’est l’année de la fondation de Lyon par un Romain, Lucius Munatius Plancus. Oh, pardon ! Pas de Lyon, mais de Lugdunum, puisqu’à l’époque, c’est son nom. Aujourd’hui, les ruines des théâtres, des thermes ou encore des aqueducs sont les derniers témoignages de l’importance de la ville à cette époque. La partie de la ville qu’on appelle aujourd’hui le Vieux-Lyon devient un centre religieux renommé. L’industrie de la soie, puis l’imprimerie rendent la ville riche. Aujourd’hui, une ambiance médiévale est encore présente dans les vieux quartiers, toujours très vivants et classés au patrimoine mondial de l’UNESCO. C’est aussi dans le Vieux- Lyon que se trouvent les fameux restaurants lyonnais (les bouchons), les passages entre les immeubles qui servent de raccourcis d’une rue à l’autre (les traboules), les immeubles des canuts (les anciens ouvriers de la soie), sans oublier les musées (comme celui de Guignol) et les maisons aux murs peints."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "communal de l’UNESCO",
     "départemental de l’UNESCO",
     "mondial de l’UNESCO",
-    "régional de l’UNESCOLa galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e."
+    "régional de l’UNESCO"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lyon Lyon est une ville du sud-est de la France. Pour la trouver sur une carte, on peut suivre le Rhône et la Saône : Lyon se situe à l’endroit où ces deux cours d’eau se rencontrent. Se promener dans Lyon, c’est comme faire un voyage dans le temps… Le voyage commence en 43 avant Jésus-Christ : c’est l’année de la fondation de Lyon par un Romain, Lucius Munatius Plancus. Oh, pardon ! Pas de Lyon, mais de Lugdunum, puisqu’à l’époque, c’est son nom. Aujourd’hui, les ruines des théâtres, des thermes ou encore des aqueducs sont les derniers témoignages de l’importance de la ville à cette époque. La partie de la ville qu’on appelle aujourd’hui le Vieux-Lyon devient un centre religieux renommé. L’industrie de la soie, puis l’imprimerie rendent la ville riche. Aujourd’hui, une ambiance médiévale est encore présente dans les vieux quartiers, toujours très vivants et classés au patrimoine mondial de l’UNESCO. C’est aussi dans le Vieux- Lyon que se trouvent les fameux restaurants lyonnais (les bouchons), les passages entre les immeubles qui servent de raccourcis d’une rue à l’autre (les traboules), les immeubles des canuts (les anciens ouvriers de la soie), sans oublier les musées (comme celui de Guignol) et les maisons aux murs peints."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "La galette dans tous ses états.",
     "La gourmandise française."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "La galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e. le deuxième dimanche de Noël. La galette est un appel à la gourmandise, au plaisir des papilles. Du sucre, des œufs, du beurre et de la poudre d’amande. La galette des rois est considérée comme le dessert calorique du début d’année. La pâtisserie Maison Plume propose une variante de la galette, plus légère après les fêtes. Pour alléger un maximum de calorie et de sucre, Tara Pidoux, pâtissière de Maison Plume, revisite la galette, notamment en remplaçant le sucre par de la stevia : « On enlève un tiers des calories et ce qui reste, ce sont les bonnes calories liées aux amandes… J’ai fait des tests sur des amis qui goûtaient à l’aveugle et qui ne voyaient pas la différence avec une vraie pâtisserie. » Il est possible d’alléger la galette en remplaçant le beurre par de la compote de pommes ─ proposition d’une autre pâtisserie. La galette sera donc plus digeste. La galette allégée a un argument de poids pour les clients : celui de la santé. Un moyen de se faire plaisir tout en restant gourmand. « On se fait plaisir, sans avoir un côté mauvais pour le corps et la santé », explique une cliente."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "au début de l’année",
     "pendant toute l’année"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "La galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e. le deuxième dimanche de Noël. La galette est un appel à la gourmandise, au plaisir des papilles. Du sucre, des œufs, du beurre et de la poudre d’amande. La galette des rois est considérée comme le dessert calorique du début d’année. La pâtisserie Maison Plume propose une variante de la galette, plus légère après les fêtes. Pour alléger un maximum de calorie et de sucre, Tara Pidoux, pâtissière de Maison Plume, revisite la galette, notamment en remplaçant le sucre par de la stevia : « On enlève un tiers des calories et ce qui reste, ce sont les bonnes calories liées aux amandes… J’ai fait des tests sur des amis qui goûtaient à l’aveugle et qui ne voyaient pas la différence avec une vraie pâtisserie. » Il est possible d’alléger la galette en remplaçant le beurre par de la compote de pommes ─ proposition d’une autre pâtisserie. La galette sera donc plus digeste. La galette allégée a un argument de poids pour les clients : celui de la santé. Un moyen de se faire plaisir tout en restant gourmand. « On se fait plaisir, sans avoir un côté mauvais pour le corps et la santé », explique une cliente."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "propose des galettes moins grasses",
     "a testé ses galettes avec des amis aveugles"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "La galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e. le deuxième dimanche de Noël. La galette est un appel à la gourmandise, au plaisir des papilles. Du sucre, des œufs, du beurre et de la poudre d’amande. La galette des rois est considérée comme le dessert calorique du début d’année. La pâtisserie Maison Plume propose une variante de la galette, plus légère après les fêtes. Pour alléger un maximum de calorie et de sucre, Tara Pidoux, pâtissière de Maison Plume, revisite la galette, notamment en remplaçant le sucre par de la stevia : « On enlève un tiers des calories et ce qui reste, ce sont les bonnes calories liées aux amandes… J’ai fait des tests sur des amis qui goûtaient à l’aveugle et qui ne voyaient pas la différence avec une vraie pâtisserie. » Il est possible d’alléger la galette en remplaçant le beurre par de la compote de pommes ─ proposition d’une autre pâtisserie. La galette sera donc plus digeste. La galette allégée a un argument de poids pour les clients : celui de la santé. Un moyen de se faire plaisir tout en restant gourmand. « On se fait plaisir, sans avoir un côté mauvais pour le corps et la santé », explique une cliente."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "stevia",
     "sucre"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "La galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e. le deuxième dimanche de Noël. La galette est un appel à la gourmandise, au plaisir des papilles. Du sucre, des œufs, du beurre et de la poudre d’amande. La galette des rois est considérée comme le dessert calorique du début d’année. La pâtisserie Maison Plume propose une variante de la galette, plus légère après les fêtes. Pour alléger un maximum de calorie et de sucre, Tara Pidoux, pâtissière de Maison Plume, revisite la galette, notamment en remplaçant le sucre par de la stevia : « On enlève un tiers des calories et ce qui reste, ce sont les bonnes calories liées aux amandes… J’ai fait des tests sur des amis qui goûtaient à l’aveugle et qui ne voyaient pas la différence avec une vraie pâtisserie. » Il est possible d’alléger la galette en remplaçant le beurre par de la compote de pommes ─ proposition d’une autre pâtisserie. La galette sera donc plus digeste. La galette allégée a un argument de poids pour les clients : celui de la santé. Un moyen de se faire plaisir tout en restant gourmand. « On se fait plaisir, sans avoir un côté mauvais pour le corps et la santé », explique une cliente."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d006'] = {
     "les galettes non-traditionnelles donnent autant de plaisir, mais moins digestes",
     "les galettes non-traditionnelles donnent moins de plaisir, mais plus digestes"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "La galette des rois se partage traditionnellement le 6 janvier, le jour de l’épiphanie, i. e. le deuxième dimanche de Noël. La galette est un appel à la gourmandise, au plaisir des papilles. Du sucre, des œufs, du beurre et de la poudre d’amande. La galette des rois est considérée comme le dessert calorique du début d’année. La pâtisserie Maison Plume propose une variante de la galette, plus légère après les fêtes. Pour alléger un maximum de calorie et de sucre, Tara Pidoux, pâtissière de Maison Plume, revisite la galette, notamment en remplaçant le sucre par de la stevia : « On enlève un tiers des calories et ce qui reste, ce sont les bonnes calories liées aux amandes… J’ai fait des tests sur des amis qui goûtaient à l’aveugle et qui ne voyaient pas la différence avec une vraie pâtisserie. » Il est possible d’alléger la galette en remplaçant le beurre par de la compote de pommes ─ proposition d’une autre pâtisserie. La galette sera donc plus digeste. La galette allégée a un argument de poids pour les clients : celui de la santé. Un moyen de se faire plaisir tout en restant gourmand. « On se fait plaisir, sans avoir un côté mauvais pour le corps et la santé », explique une cliente."
   }
  ]
 };

@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-108-1-c008'] = {
     "chase",
     "manage",
     "locate",
-    "solve請依下文回答第 41 題至第 45 題On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the"
+    "solve"
    ],
    "a": 3,
    "exp": "✅ (D) solve 意為「破案、解決」，solve a criminal case 為刑事執法常用固定搭配，指警察利用雲端影像檢索系統迅速破案，符合句意。\n❌ (A) chase 意為「追捕、追逐」，受詞通常為特定嫌犯，不與 a criminal case 搭配。\n❌ (B) manage 意為「管理、處置」，無法具體表達偵破刑案之目的。\n❌ (C) locate 意為「定位、尋找位置」，通常用於尋找失蹤人口或特定物體，非指破案。\n📚 出處：警察專業英文——科技執法與刑案偵查（solve a case）。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-108-1-c008'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "support",
+    "contrast",
+    "case",
+    "summary"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/108070_601_0207_41.webp"
+   "psg": "On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the government’s proposed regulation to limit Uber’s business activities. In 41 of the protest, Uber also terminated its service for six hours on the same day. In February, the Ministry of Transportation and Communications（MOTC） announced a draft amendment on Article 103-1 of “Regulations for Automobile Transportation Operators,” otherwise known as the “Uber Clause,” calling for stricter rules that would essentially force Uber out of business. The amendment, if passed on April 26, would require Uber to 42 customers by a minimum of one hour in any given trip, regardless of distance. 43 , the rental car drivers working with Uber would have to return to their vehicle to the rental shop after every ride. According to Uber Taiwan, the amendment will 44 at least 3 million riders and 10,000 Uber drivers. 45 will have to pay for an hour-long fare even if the trip only lasts 10 minutes. Waiting time will also increase significantly since every driver will have to return the vehicle to its “garage.”"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "pay",
+    "owe",
+    "charge",
+    "compensate"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108070_601_0207_42.webp"
+   "psg": "On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the government’s proposed regulation to limit Uber’s business activities. In 41 of the protest, Uber also terminated its service for six hours on the same day. In February, the Ministry of Transportation and Communications（MOTC） announced a draft amendment on Article 103-1 of “Regulations for Automobile Transportation Operators,” otherwise known as the “Uber Clause,” calling for stricter rules that would essentially force Uber out of business. The amendment, if passed on April 26, would require Uber to 42 customers by a minimum of one hour in any given trip, regardless of distance. 43 , the rental car drivers working with Uber would have to return to their vehicle to the rental shop after every ride. According to Uber Taiwan, the amendment will 44 at least 3 million riders and 10,000 Uber drivers. 45 will have to pay for an hour-long fare even if the trip only lasts 10 minutes. Waiting time will also increase significantly since every driver will have to return the vehicle to its “garage.”"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Apparently",
+    "Incidentally",
+    "Additionally",
+    "Obviously"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108070_601_0207_43.webp"
+   "psg": "On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the government’s proposed regulation to limit Uber’s business activities. In 41 of the protest, Uber also terminated its service for six hours on the same day. In February, the Ministry of Transportation and Communications（MOTC） announced a draft amendment on Article 103-1 of “Regulations for Automobile Transportation Operators,” otherwise known as the “Uber Clause,” calling for stricter rules that would essentially force Uber out of business. The amendment, if passed on April 26, would require Uber to 42 customers by a minimum of one hour in any given trip, regardless of distance. 43 , the rental car drivers working with Uber would have to return to their vehicle to the rental shop after every ride. According to Uber Taiwan, the amendment will 44 at least 3 million riders and 10,000 Uber drivers. 45 will have to pay for an hour-long fare even if the trip only lasts 10 minutes. Waiting time will also increase significantly since every driver will have to return the vehicle to its “garage.”"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "allow",
+    "affect",
+    "force",
+    "effect"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_601_0207_44.webp"
+   "psg": "On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the government’s proposed regulation to limit Uber’s business activities. In 41 of the protest, Uber also terminated its service for six hours on the same day. In February, the Ministry of Transportation and Communications（MOTC） announced a draft amendment on Article 103-1 of “Regulations for Automobile Transportation Operators,” otherwise known as the “Uber Clause,” calling for stricter rules that would essentially force Uber out of business. The amendment, if passed on April 26, would require Uber to 42 customers by a minimum of one hour in any given trip, regardless of distance. 43 , the rental car drivers working with Uber would have to return to their vehicle to the rental shop after every ride. According to Uber Taiwan, the amendment will 44 at least 3 million riders and 10,000 Uber drivers. 45 will have to pay for an hour-long fare even if the trip only lasts 10 minutes. Waiting time will also increase significantly since every driver will have to return the vehicle to its “garage.”"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Drivers",
+    "Inspectors",
+    "Conductors",
+    "Passengers"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/108070_601_0207_45.webp"
+   "psg": "On April 22, 2019 (Sunday), close to 1,000 Uber drivers protested in front of the Presidential Office against the government’s proposed regulation to limit Uber’s business activities. In 41 of the protest, Uber also terminated its service for six hours on the same day. In February, the Ministry of Transportation and Communications（MOTC） announced a draft amendment on Article 103-1 of “Regulations for Automobile Transportation Operators,” otherwise known as the “Uber Clause,” calling for stricter rules that would essentially force Uber out of business. The amendment, if passed on April 26, would require Uber to 42 customers by a minimum of one hour in any given trip, regardless of distance. 43 , the rental car drivers working with Uber would have to return to their vehicle to the rental shop after every ride. According to Uber Taiwan, the amendment will 44 at least 3 million riders and 10,000 Uber drivers. 45 will have to pay for an hour-long fare even if the trip only lasts 10 minutes. Waiting time will also increase significantly since every driver will have to return the vehicle to its “garage.”"
   },
   {
    "n": 46,

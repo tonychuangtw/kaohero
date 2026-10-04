@@ -573,7 +573,7 @@ window.APP_EXAM_PAPERS['gao-115-1-p002'] = {
     "longevity",
     "elevation",
     "magnitude",
-    "submersion請依下文回答第 41 題至第 45 題Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for"
+    "submersion"
    ],
    "a": 1,
    "exp": "✅ (B) elevation 意為「海拔高度」，8,849 公尺正是聖母峰的海拔。\n❌ (A) longevity 是長壽。\n❌ (C) magnitude 是規模、震度。\n❌ (D) submersion 是沉沒。\n📚 出處：英文字彙（elevation 的字義）"
@@ -582,76 +582,71 @@ window.APP_EXAM_PAPERS['gao-115-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "abandoned",
+    "evolved",
+    "inhabited",
+    "denied"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/115080_401_0114_41.webp"
+   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "closure",
+    "inclusion",
+    "member",
+    "texture"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115080_401_0114_42.webp"
+   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "flexible",
+    "intensive",
+    "physical",
+    "terrible"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/115080_401_0114_43.webp"
+   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "debts",
+    "fields",
+    "signs",
+    "tests"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/115080_401_0114_44.webp"
+   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "whether",
+    "where",
+    "when",
+    "why"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/115080_401_0114_45.webp"
+   "psg": "Octopuses are masters of disguise and escape. The soft-bodied cephalopods are tasty, easy-to-eat treats for marine predators, so they've 41 a number of interesting tricks for evading their hunters. For one, they're able to change not only the color but also the 42 of their skin. This allows them to instantly camouflage themselves as almost anything, from rocks to other animals. What's more, they're extremely 43 and use this capability to squeeze into safe hiding spaces or escape dangerous situations. If these two approaches fail, almost all octopus species are capable of producing jets of black ink to confuse and distract their predators. Even at rest, octopuses do something a bit surprising--they dream in their sleep. Like human sleep, octopus sleep has two stages: quiet and active. And just as humans do, octopuses show 44 of dreaming during active sleep. Their limbs twitch, they breathe more rapidly, and colors flash across their skin. Scientists aren't sure 45 octopuses dream. Some suggest it might help them improve their camouflage techniques, and others think it could enable them to review and learn from past experiences. Perhaps one day, scientists will be able to fully understand these complex creatures."
   },
   {
    "n": 46,

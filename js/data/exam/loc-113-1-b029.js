@@ -150,7 +150,7 @@ window.APP_EXAM_PAPERS['loc-113-1-b029'] = {
     "evaluate",
     "dismiss",
     "ignore",
-    "reduce請依下文回答第 11 題至第 15 題：AI technology has become controversial nowadays. Some of the biggest names in tech are ＿＿＿ 11 for"
+    "reduce"
    ],
    "a": 0,
    "exp": "✅ (A) evaluate 意為評估、評價；具批判思考者會評估資訊再作決定，與後半的「不盲目接受」形成對照。\n❌ (B) dismiss 指駁回、不予理會，與作出良好決策的過程相違。\n❌ (C) ignore 指忽略，同樣與批判思考的內涵相反。\n❌ (D) reduce 指減少，語意不通。\n📚 出處：英文字彙 evaluate information。"
@@ -159,61 +159,57 @@ window.APP_EXAM_PAPERS['loc-113-1-b029'] = {
    "n": 11,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 11 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "calling",
+    "lasting",
+    "telling",
+    "handing"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113200_601_0106_11.webp"
+   "psg": "artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in."
   },
   {
    "n": 12,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 12 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "where",
+    "which",
+    "who",
+    "what"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113200_601_0106_12.webp"
+   "psg": "artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in."
   },
   {
    "n": 13,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 13 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "failing",
+    "passing",
+    "working",
+    "hiding"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113200_601_0106_13.webp"
+   "psg": "artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in."
   },
   {
    "n": 14,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 14 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "profound",
+    "least",
+    "scarce",
+    "negligent"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113200_601_0106_14.webp"
+   "psg": "artificial intelligence labs to stop the training of the most powerful AI systems for at least six months in an open letter. Elon Musk was among the dozens of tech leaders, professors and researchers 12 signed the letter, published by the Future of Life Institute. The letter comes just two weeks after OpenAI announced GPT- 4, an even more powerful version of the technology that underpins the viral AI chatbot tool, ChatGPT. In early tests and a company demo, the technology was shown drafting lawsuits, 13 standardized exams and building a working website from a hand-drawn sketch. “Advanced AI could represent a 14 change in the history of life on Earth, and should be planned for and managed with care and resources,” the letter said. “Unfortunately, this level of planning and management is not happening, 15 recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control.” If a pause is not put in place soon, the letter said governments should step in."
   },
   {
    "n": 15,

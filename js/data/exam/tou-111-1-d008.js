@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Océano Atlántico",
     "Océano Átrico"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Taiwán Taiwán está situada en el Pacífico Occidental entre Japón y Filipinas. Su jurisdicción se extiende a los archipiélagos de Penghu (Islas Pescadores), Kinmen (Quemoy) y Matsu, así como otros numerosos islotes. El área total de Taiwan propiamente y sus islas aledañas es de aproximadamente 36.197 kilómetros cuadrados. Casi del mismo tamaño que los Países Bajos, pero con una población de 23 millones de personas. Taiwan propiamente dicha cuenta con abundantes bellezas naturales. Las cordilleras con muchos picos altos que sobrepasan los tres mil metros. Ubicada en el paso de corrientes marinas cálidas en la costa este de Asia continental, Taiwan ha sido particularmente bendecida con una amplia gama de zonas climáticas, desde la tropical hasta la templada. Esto, combinado con su suelo fértil y lluvias abundantes, la convierten en un paraíso agrícola, donde se puede cultivar prácticamente cualquier variedad de fruta o verdura. Estas condiciones también hacen de la isla un país de maravillas recreativas. En invierno, se pueden observar las nevadas en las laderas de la montaña Hehuan, en el distrito de Nantou; y luego viajar 200 kilómetros al sur para llegar al caluroso distrito de Pingtung, donde es posible disfrutar del buceo entre los arrecifes coralinos del extremo sur de la isla."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Matsu",
     "Okinawa"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Taiwán Taiwán está situada en el Pacífico Occidental entre Japón y Filipinas. Su jurisdicción se extiende a los archipiélagos de Penghu (Islas Pescadores), Kinmen (Quemoy) y Matsu, así como otros numerosos islotes. El área total de Taiwan propiamente y sus islas aledañas es de aproximadamente 36.197 kilómetros cuadrados. Casi del mismo tamaño que los Países Bajos, pero con una población de 23 millones de personas. Taiwan propiamente dicha cuenta con abundantes bellezas naturales. Las cordilleras con muchos picos altos que sobrepasan los tres mil metros. Ubicada en el paso de corrientes marinas cálidas en la costa este de Asia continental, Taiwan ha sido particularmente bendecida con una amplia gama de zonas climáticas, desde la tropical hasta la templada. Esto, combinado con su suelo fértil y lluvias abundantes, la convierten en un paraíso agrícola, donde se puede cultivar prácticamente cualquier variedad de fruta o verdura. Estas condiciones también hacen de la isla un país de maravillas recreativas. En invierno, se pueden observar las nevadas en las laderas de la montaña Hehuan, en el distrito de Nantou; y luego viajar 200 kilómetros al sur para llegar al caluroso distrito de Pingtung, donde es posible disfrutar del buceo entre los arrecifes coralinos del extremo sur de la isla."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Países Bajos",
     "Indonesia"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Taiwán Taiwán está situada en el Pacífico Occidental entre Japón y Filipinas. Su jurisdicción se extiende a los archipiélagos de Penghu (Islas Pescadores), Kinmen (Quemoy) y Matsu, así como otros numerosos islotes. El área total de Taiwan propiamente y sus islas aledañas es de aproximadamente 36.197 kilómetros cuadrados. Casi del mismo tamaño que los Países Bajos, pero con una población de 23 millones de personas. Taiwan propiamente dicha cuenta con abundantes bellezas naturales. Las cordilleras con muchos picos altos que sobrepasan los tres mil metros. Ubicada en el paso de corrientes marinas cálidas en la costa este de Asia continental, Taiwan ha sido particularmente bendecida con una amplia gama de zonas climáticas, desde la tropical hasta la templada. Esto, combinado con su suelo fértil y lluvias abundantes, la convierten en un paraíso agrícola, donde se puede cultivar prácticamente cualquier variedad de fruta o verdura. Estas condiciones también hacen de la isla un país de maravillas recreativas. En invierno, se pueden observar las nevadas en las laderas de la montaña Hehuan, en el distrito de Nantou; y luego viajar 200 kilómetros al sur para llegar al caluroso distrito de Pingtung, donde es posible disfrutar del buceo entre los arrecifes coralinos del extremo sur de la isla."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "230 millones",
     "23 millón"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Taiwán Taiwán está situada en el Pacífico Occidental entre Japón y Filipinas. Su jurisdicción se extiende a los archipiélagos de Penghu (Islas Pescadores), Kinmen (Quemoy) y Matsu, así como otros numerosos islotes. El área total de Taiwan propiamente y sus islas aledañas es de aproximadamente 36.197 kilómetros cuadrados. Casi del mismo tamaño que los Países Bajos, pero con una población de 23 millones de personas. Taiwan propiamente dicha cuenta con abundantes bellezas naturales. Las cordilleras con muchos picos altos que sobrepasan los tres mil metros. Ubicada en el paso de corrientes marinas cálidas en la costa este de Asia continental, Taiwan ha sido particularmente bendecida con una amplia gama de zonas climáticas, desde la tropical hasta la templada. Esto, combinado con su suelo fértil y lluvias abundantes, la convierten en un paraíso agrícola, donde se puede cultivar prácticamente cualquier variedad de fruta o verdura. Estas condiciones también hacen de la isla un país de maravillas recreativas. En invierno, se pueden observar las nevadas en las laderas de la montaña Hehuan, en el distrito de Nantou; y luego viajar 200 kilómetros al sur para llegar al caluroso distrito de Pingtung, donde es posible disfrutar del buceo entre los arrecifes coralinos del extremo sur de la isla."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Más de 3 mil metros",
     "Más de 3 mil kilómetros",
     "Más de 5 mil",
-    "Más de 6 milHola, Carlos:"
+    "Más de 6 mil"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Taiwán Taiwán está situada en el Pacífico Occidental entre Japón y Filipinas. Su jurisdicción se extiende a los archipiélagos de Penghu (Islas Pescadores), Kinmen (Quemoy) y Matsu, así como otros numerosos islotes. El área total de Taiwan propiamente y sus islas aledañas es de aproximadamente 36.197 kilómetros cuadrados. Casi del mismo tamaño que los Países Bajos, pero con una población de 23 millones de personas. Taiwan propiamente dicha cuenta con abundantes bellezas naturales. Las cordilleras con muchos picos altos que sobrepasan los tres mil metros. Ubicada en el paso de corrientes marinas cálidas en la costa este de Asia continental, Taiwan ha sido particularmente bendecida con una amplia gama de zonas climáticas, desde la tropical hasta la templada. Esto, combinado con su suelo fértil y lluvias abundantes, la convierten en un paraíso agrícola, donde se puede cultivar prácticamente cualquier variedad de fruta o verdura. Estas condiciones también hacen de la isla un país de maravillas recreativas. En invierno, se pueden observar las nevadas en las laderas de la montaña Hehuan, en el distrito de Nantou; y luego viajar 200 kilómetros al sur para llegar al caluroso distrito de Pingtung, donde es posible disfrutar del buceo entre los arrecifes coralinos del extremo sur de la isla."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Saber si es fácil encontrar casa en Buenos Aires.",
     "Informarle que ha encontrado un trabajo en Buenos Aires."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hola, Carlos: ¿Qué tal estás? Yo estoy muy contenta porque ... ¡ he conseguido un trabajo en Argentina ¡ Estoy muy feliz, aunque un poco nerviosa por irme a vivir a un lugar completamente nuevo y tan lejos. Mis padres están un poco tristes por eso, pero saben que es una gran oportunidad para mí. La empresa es bastante grande con gente joven, pero lo mejor de todo es que voy a trabajar en lo que me gusta. Ya sabes que la animación por ordenador es mi pasión. El sueldo no va a ser muy alto, pero creo que allí tengo muchas posibilidades de futuro. Cuando viví en Londres, fue difícil al principio, pero luego fue una experiencia estupenda. He pensado ir antes de empezar el trabajo y así poder buscar casa más tranquilamente. Oye, ¿puedo quedarme en tu apartamento? Solo van a ser unos días, te lo prometo. Mi idea es buscar algo pequeño cerca del trabajo, aunque quizá esto no es fácil, porque la oficina parece ser que está en un barrio elegante de Buenos Aires y seguro que los precios de la casa allí son demasiado altos para mí. Estos días estoy muy ocupada: todos mis amigos quieren verme para despedirse y además tengo mil cosas que preparar antes del viaje: ayer fui a recoger el pasaporte, hoy he sacado el billete y mañana tengo que ir de compras: necesito ..."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "No ha estado nunca en Argentina.",
     "Es la segunda vez que va a vivir en Argentina."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hola, Carlos: ¿Qué tal estás? Yo estoy muy contenta porque ... ¡ he conseguido un trabajo en Argentina ¡ Estoy muy feliz, aunque un poco nerviosa por irme a vivir a un lugar completamente nuevo y tan lejos. Mis padres están un poco tristes por eso, pero saben que es una gran oportunidad para mí. La empresa es bastante grande con gente joven, pero lo mejor de todo es que voy a trabajar en lo que me gusta. Ya sabes que la animación por ordenador es mi pasión. El sueldo no va a ser muy alto, pero creo que allí tengo muchas posibilidades de futuro. Cuando viví en Londres, fue difícil al principio, pero luego fue una experiencia estupenda. He pensado ir antes de empezar el trabajo y así poder buscar casa más tranquilamente. Oye, ¿puedo quedarme en tu apartamento? Solo van a ser unos días, te lo prometo. Mi idea es buscar algo pequeño cerca del trabajo, aunque quizá esto no es fácil, porque la oficina parece ser que está en un barrio elegante de Buenos Aires y seguro que los precios de la casa allí son demasiado altos para mí. Estos días estoy muy ocupada: todos mis amigos quieren verme para despedirse y además tengo mil cosas que preparar antes del viaje: ayer fui a recoger el pasaporte, hoy he sacado el billete y mañana tengo que ir de compras: necesito ..."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "No es un buen trabajo.",
     "Argentina no es un país rico."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hola, Carlos: ¿Qué tal estás? Yo estoy muy contenta porque ... ¡ he conseguido un trabajo en Argentina ¡ Estoy muy feliz, aunque un poco nerviosa por irme a vivir a un lugar completamente nuevo y tan lejos. Mis padres están un poco tristes por eso, pero saben que es una gran oportunidad para mí. La empresa es bastante grande con gente joven, pero lo mejor de todo es que voy a trabajar en lo que me gusta. Ya sabes que la animación por ordenador es mi pasión. El sueldo no va a ser muy alto, pero creo que allí tengo muchas posibilidades de futuro. Cuando viví en Londres, fue difícil al principio, pero luego fue una experiencia estupenda. He pensado ir antes de empezar el trabajo y así poder buscar casa más tranquilamente. Oye, ¿puedo quedarme en tu apartamento? Solo van a ser unos días, te lo prometo. Mi idea es buscar algo pequeño cerca del trabajo, aunque quizá esto no es fácil, porque la oficina parece ser que está en un barrio elegante de Buenos Aires y seguro que los precios de la casa allí son demasiado altos para mí. Estos días estoy muy ocupada: todos mis amigos quieren verme para despedirse y además tengo mil cosas que preparar antes del viaje: ayer fui a recoger el pasaporte, hoy he sacado el billete y mañana tengo que ir de compras: necesito ..."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Van a ser baratas.",
     "Van a ser baratas y elegantes."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hola, Carlos: ¿Qué tal estás? Yo estoy muy contenta porque ... ¡ he conseguido un trabajo en Argentina ¡ Estoy muy feliz, aunque un poco nerviosa por irme a vivir a un lugar completamente nuevo y tan lejos. Mis padres están un poco tristes por eso, pero saben que es una gran oportunidad para mí. La empresa es bastante grande con gente joven, pero lo mejor de todo es que voy a trabajar en lo que me gusta. Ya sabes que la animación por ordenador es mi pasión. El sueldo no va a ser muy alto, pero creo que allí tengo muchas posibilidades de futuro. Cuando viví en Londres, fue difícil al principio, pero luego fue una experiencia estupenda. He pensado ir antes de empezar el trabajo y así poder buscar casa más tranquilamente. Oye, ¿puedo quedarme en tu apartamento? Solo van a ser unos días, te lo prometo. Mi idea es buscar algo pequeño cerca del trabajo, aunque quizá esto no es fácil, porque la oficina parece ser que está en un barrio elegante de Buenos Aires y seguro que los precios de la casa allí son demasiado altos para mí. Estos días estoy muy ocupada: todos mis amigos quieren verme para despedirse y además tengo mil cosas que preparar antes del viaje: ayer fui a recoger el pasaporte, hoy he sacado el billete y mañana tengo que ir de compras: necesito ..."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d008'] = {
     "Necesita hacer algunas cosas antes de viajar.",
     "Ya ha hecho todas las cosas para el viaje."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hola, Carlos: ¿Qué tal estás? Yo estoy muy contenta porque ... ¡ he conseguido un trabajo en Argentina ¡ Estoy muy feliz, aunque un poco nerviosa por irme a vivir a un lugar completamente nuevo y tan lejos. Mis padres están un poco tristes por eso, pero saben que es una gran oportunidad para mí. La empresa es bastante grande con gente joven, pero lo mejor de todo es que voy a trabajar en lo que me gusta. Ya sabes que la animación por ordenador es mi pasión. El sueldo no va a ser muy alto, pero creo que allí tengo muchas posibilidades de futuro. Cuando viví en Londres, fue difícil al principio, pero luego fue una experiencia estupenda. He pensado ir antes de empezar el trabajo y así poder buscar casa más tranquilamente. Oye, ¿puedo quedarme en tu apartamento? Solo van a ser unos días, te lo prometo. Mi idea es buscar algo pequeño cerca del trabajo, aunque quizá esto no es fácil, porque la oficina parece ser que está en un barrio elegante de Buenos Aires y seguro que los precios de la casa allí son demasiado altos para mí. Estos días estoy muy ocupada: todos mis amigos quieren verme para despedirse y además tengo mil cosas que preparar antes del viaje: ayer fui a recoger el pasaporte, hoy he sacado el billete y mañana tengo que ir de compras: necesito ..."
   }
  ]
 };

@@ -346,7 +346,7 @@ window.APP_EXAM_PAPERS['pol-113-1-c002'] = {
     "eliminated",
     "infected",
     "engaged",
-    "acquired請依下文回答第 25 題至第 29 題The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy"
+    "acquired"
    ],
    "a": 3,
    "exp": "✅ (D) acquire 意為「取得、購得」，newly acquired dress 即「新買到的洋裝」，與後半句「心情顯然很好」相呼應。\n❌ (A) eliminated 是「被淘汰、被剔除」，被淘汰的洋裝不會拿來穿。\n❌ (B) infected 是「受感染的」，用於傷口或病患。\n❌ (C) engaged 是「訂婚的、忙碌的」，用來形容人而非衣物。\n📚 出處：英文字彙；newly acquired + 物品。"
@@ -355,76 +355,71 @@ window.APP_EXAM_PAPERS['pol-113-1-c002'] = {
    "n": 25,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 25 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "residents",
+    "incidents",
+    "embraces",
+    "respondents"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_25.webp"
+   "psg": "The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy commissioner Tom George said they had responded to 659 25 of people getting locked in toilets and 59 relating to dogs and cats trapped in unusual places in the last three years. Seventeen calls were about children with their heads stuck in toilet seats. The fire brigade was also called out to a woman stuck up a tree while trying to 26 a cat, a pet snake trapped in a ring, a pigeon 27 in a chimney, a cat stuck in a gutter after jumping out of a skylight and a hamster wedged between a toilet and a wall. Tom George said: “No matter how strange a call may seem, we will always attend if there is a 28 emergency but you should always think carefully about how to use our 29 . By doing so, this enables us to be available for any genuine emergency."
   },
   {
    "n": 26,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 26 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "retrieve",
+    "initiate",
+    "condense",
+    "formulate"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_26.webp"
+   "psg": "The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy commissioner Tom George said they had responded to 659 25 of people getting locked in toilets and 59 relating to dogs and cats trapped in unusual places in the last three years. Seventeen calls were about children with their heads stuck in toilet seats. The fire brigade was also called out to a woman stuck up a tree while trying to 26 a cat, a pet snake trapped in a ring, a pigeon 27 in a chimney, a cat stuck in a gutter after jumping out of a skylight and a hamster wedged between a toilet and a wall. Tom George said: “No matter how strange a call may seem, we will always attend if there is a 28 emergency but you should always think carefully about how to use our 29 . By doing so, this enables us to be available for any genuine emergency."
   },
   {
    "n": 27,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 27 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "inherited",
+    "lodged",
+    "justified",
+    "mediated"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_27.webp"
+   "psg": "The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy commissioner Tom George said they had responded to 659 25 of people getting locked in toilets and 59 relating to dogs and cats trapped in unusual places in the last three years. Seventeen calls were about children with their heads stuck in toilet seats. The fire brigade was also called out to a woman stuck up a tree while trying to 26 a cat, a pet snake trapped in a ring, a pigeon 27 in a chimney, a cat stuck in a gutter after jumping out of a skylight and a hamster wedged between a toilet and a wall. Tom George said: “No matter how strange a call may seem, we will always attend if there is a 28 emergency but you should always think carefully about how to use our 29 . By doing so, this enables us to be available for any genuine emergency."
   },
   {
    "n": 28,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 28 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "genuine",
+    "medieval",
+    "inventive",
+    "populous"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_28.webp"
+   "psg": "The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy commissioner Tom George said they had responded to 659 25 of people getting locked in toilets and 59 relating to dogs and cats trapped in unusual places in the last three years. Seventeen calls were about children with their heads stuck in toilet seats. The fire brigade was also called out to a woman stuck up a tree while trying to 26 a cat, a pet snake trapped in a ring, a pigeon 27 in a chimney, a cat stuck in a gutter after jumping out of a skylight and a hamster wedged between a toilet and a wall. Tom George said: “No matter how strange a call may seem, we will always attend if there is a 28 emergency but you should always think carefully about how to use our 29 . By doing so, this enables us to be available for any genuine emergency."
   },
   {
    "n": 29,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 29 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "religions",
+    "resources",
+    "reunions",
+    "reminders"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_29.webp"
+   "psg": "The London Fire Brigade urges public to use common sense after hundreds of calls from people. Deputy commissioner Tom George said they had responded to 659 25 of people getting locked in toilets and 59 relating to dogs and cats trapped in unusual places in the last three years. Seventeen calls were about children with their heads stuck in toilet seats. The fire brigade was also called out to a woman stuck up a tree while trying to 26 a cat, a pet snake trapped in a ring, a pigeon 27 in a chimney, a cat stuck in a gutter after jumping out of a skylight and a hamster wedged between a toilet and a wall. Tom George said: “No matter how strange a call may seem, we will always attend if there is a 28 emergency but you should always think carefully about how to use our 29 . By doing so, this enables us to be available for any genuine emergency."
   },
   {
    "n": 30,
@@ -680,7 +675,7 @@ window.APP_EXAM_PAPERS['pol-113-1-c002'] = {
     "In the experiment, the three groups were asked to measure their heartbeats.",
     "In the experiment, only twenty-five people were given real gum to chew on.",
     "The people with imaginary gum did fastest on the memory questions.",
-    "There was more activity in the brain for those who didn’t chew anything.請依下文回答第 47 題至第 50 題When you have a newborn baby it can be difficult to make quality time with your toddler. This is because the first"
+    "There was more activity in the brain for those who didn’t chew anything."
    ],
    "psg": "On average Americans chew about 300 sticks of gum per person a year. Why is chewing gum so popular? Some people say that it not only helps you relax but also helps you stay awake. Others chew gum after a meal to have fresh breath. It can help fight tooth decay as well. But few people know that there is an even better reason for chewing gum— it can improve memory! In an experiment, the scientists divided 75 people into three groups. One third chewed real gum, one third chewed imaginary gum, and the last third didn’t chew anything. Then, each group was given a lot of different memory tests. The results were very interesting. The people with real gum did better than those with imaginary gum, and the latter did better than those who didn’t have any gum at all. How does chewing gum help memory? One possible reason is that when people chew, there is more activity in an area of the brain that is important for memory. Another possible reason is that when people chew, their heart beats faster so more oxygen goes to the brain. So, do you have an exam coming up? Start chewing now!",
    "a": 1,
@@ -690,61 +685,57 @@ window.APP_EXAM_PAPERS['pol-113-1-c002'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ironic",
+    "hectic",
+    "exotic",
+    "drastic"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_47.webp"
+   "psg": "When you have a newborn baby it can be difficult to make quality time with your toddler. This is because the first few weeks after birth are quite 47 , adjusting to the new baby and feeding amongst many other things. There are things you can do with your toddler to ensure that he or she doesn’t feel 48 . For example, when your newborn baby is asleep, you could spend time with your toddler and make the effort to interact and tell them how much you love them. Giving your toddler a cuddle or reading your toddler a bedtime story, you can help them feel happier and deeply loved. Many toddlers strongly desire their parents’ attention and sometimes 49 can begin when they see that one child is getting more attention than they are. You must make sure that you give your children equal attention. If you compliment one child, then you should make sure you give praise to his/her siblings, or sibling 50 can develop. It is important to look into the needs of both children and let each of them know how much they are loved."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "left out",
+    "fed up",
+    "worn down",
+    "put off"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_48.webp"
+   "psg": "When you have a newborn baby it can be difficult to make quality time with your toddler. This is because the first few weeks after birth are quite 47 , adjusting to the new baby and feeding amongst many other things. There are things you can do with your toddler to ensure that he or she doesn’t feel 48 . For example, when your newborn baby is asleep, you could spend time with your toddler and make the effort to interact and tell them how much you love them. Giving your toddler a cuddle or reading your toddler a bedtime story, you can help them feel happier and deeply loved. Many toddlers strongly desire their parents’ attention and sometimes 49 can begin when they see that one child is getting more attention than they are. You must make sure that you give your children equal attention. If you compliment one child, then you should make sure you give praise to his/her siblings, or sibling 50 can develop. It is important to look into the needs of both children and let each of them know how much they are loved."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "greed",
+    "jealousy",
+    "revenge",
+    "bliss"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_49.webp"
+   "psg": "When you have a newborn baby it can be difficult to make quality time with your toddler. This is because the first few weeks after birth are quite 47 , adjusting to the new baby and feeding amongst many other things. There are things you can do with your toddler to ensure that he or she doesn’t feel 48 . For example, when your newborn baby is asleep, you could spend time with your toddler and make the effort to interact and tell them how much you love them. Giving your toddler a cuddle or reading your toddler a bedtime story, you can help them feel happier and deeply loved. Many toddlers strongly desire their parents’ attention and sometimes 49 can begin when they see that one child is getting more attention than they are. You must make sure that you give your children equal attention. If you compliment one child, then you should make sure you give praise to his/her siblings, or sibling 50 can develop. It is important to look into the needs of both children and let each of them know how much they are loved."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "rivalry",
+    "outbreak",
+    "boundary",
+    "discharge"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_401_0203_50.webp"
+   "psg": "When you have a newborn baby it can be difficult to make quality time with your toddler. This is because the first few weeks after birth are quite 47 , adjusting to the new baby and feeding amongst many other things. There are things you can do with your toddler to ensure that he or she doesn’t feel 48 . For example, when your newborn baby is asleep, you could spend time with your toddler and make the effort to interact and tell them how much you love them. Giving your toddler a cuddle or reading your toddler a bedtime story, you can help them feel happier and deeply loved. Many toddlers strongly desire their parents’ attention and sometimes 49 can begin when they see that one child is getting more attention than they are. You must make sure that you give your children equal attention. If you compliment one child, then you should make sure you give praise to his/her siblings, or sibling 50 can develop. It is important to look into the needs of both children and let each of them know how much they are loved."
   }
  ]
 };

@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Se presentó una gran fotografía de los encuestados.",
     "Las costumbres españolas se mantienen igual que hace 50 años."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Los españoles parecen decididos a destrozar ciertos tópicos sobre sus hábitos culturales, decía ayer la ministra de cultura, Carmen Calvo, junto a Tedy Bautista, presidente del consejo de dirección de la Sociedad General de Autores y Editores (SGAE), que presentó la Encuesta sobre hábitos y prácticas culturales en España. Ha sido un estudio amplio e intenso para mostrar esta gran fotografía cultural. Una investigación por muestreo de carácter no periodístico impulsada por la SGAE y Cultura en la que se han realizado 12.180 entrevistas a las personas de 15 años en adelante residentes en viviendas familiares del territorio nacional, a excepción de Ceuta y Melilla. Calvo destacó que escuchar música es la actividad favorita de los españoles y la variedad es la característica. Se oye de todo y la música clásica experimenta un crecimiento. La mitad de los encuestados declara comprar al menos un disco al año. El cine es la otra actividad estrella. Los españoles van más al cine que los europeos y en cuanto a las puntuaciones hay más sorpresas: los ciudadanos prefieren el cine español al europeo, aunque el estadounidense sigue siendo el rey de las preferencias. Aunque casi la tercera parte de los encuestados muestra interés por el teatro, solo va habitualmente un poco más de la cuarta parte y menos del diez por ciento acude a danza, ópera o zarzuela. La lectura ha dado grandes alegrías, ya que más del cincuenta por ciento de los encuestados dice leer alguna vez, aunque habitualmente no se llegue a la mitad del libro. Aun así, la reina del entretenimiento sigue siendo la televisión: casi un cien por cien de los encuestados asegura utilizarla un tiempo medio de 165 minutos diarios y en los contenidos destacan los informativos, el cine, los documentales y las series de ficción. Las nuevas tecnologías, Internet y el ordenador, principalmente, van robando tiempo libre a la televisión, pese a que todavía no son de consumo mayoritario. Bautista destacó la importancia del estudio y espera que se repita periódicamente la experiencia. Adaptado de El País, 1-04-2005"
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Ver la televisión.",
     "Escuchar música."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Los españoles parecen decididos a destrozar ciertos tópicos sobre sus hábitos culturales, decía ayer la ministra de cultura, Carmen Calvo, junto a Tedy Bautista, presidente del consejo de dirección de la Sociedad General de Autores y Editores (SGAE), que presentó la Encuesta sobre hábitos y prácticas culturales en España. Ha sido un estudio amplio e intenso para mostrar esta gran fotografía cultural. Una investigación por muestreo de carácter no periodístico impulsada por la SGAE y Cultura en la que se han realizado 12.180 entrevistas a las personas de 15 años en adelante residentes en viviendas familiares del territorio nacional, a excepción de Ceuta y Melilla. Calvo destacó que escuchar música es la actividad favorita de los españoles y la variedad es la característica. Se oye de todo y la música clásica experimenta un crecimiento. La mitad de los encuestados declara comprar al menos un disco al año. El cine es la otra actividad estrella. Los españoles van más al cine que los europeos y en cuanto a las puntuaciones hay más sorpresas: los ciudadanos prefieren el cine español al europeo, aunque el estadounidense sigue siendo el rey de las preferencias. Aunque casi la tercera parte de los encuestados muestra interés por el teatro, solo va habitualmente un poco más de la cuarta parte y menos del diez por ciento acude a danza, ópera o zarzuela. La lectura ha dado grandes alegrías, ya que más del cincuenta por ciento de los encuestados dice leer alguna vez, aunque habitualmente no se llegue a la mitad del libro. Aun así, la reina del entretenimiento sigue siendo la televisión: casi un cien por cien de los encuestados asegura utilizarla un tiempo medio de 165 minutos diarios y en los contenidos destacan los informativos, el cine, los documentales y las series de ficción. Las nuevas tecnologías, Internet y el ordenador, principalmente, van robando tiempo libre a la televisión, pese a que todavía no son de consumo mayoritario. Bautista destacó la importancia del estudio y espera que se repita periódicamente la experiencia. Adaptado de El País, 1-04-2005"
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "El interés por el cine europeo está decayendo.",
     "Los españoles ven menos películas españolas que europeas."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Los españoles parecen decididos a destrozar ciertos tópicos sobre sus hábitos culturales, decía ayer la ministra de cultura, Carmen Calvo, junto a Tedy Bautista, presidente del consejo de dirección de la Sociedad General de Autores y Editores (SGAE), que presentó la Encuesta sobre hábitos y prácticas culturales en España. Ha sido un estudio amplio e intenso para mostrar esta gran fotografía cultural. Una investigación por muestreo de carácter no periodístico impulsada por la SGAE y Cultura en la que se han realizado 12.180 entrevistas a las personas de 15 años en adelante residentes en viviendas familiares del territorio nacional, a excepción de Ceuta y Melilla. Calvo destacó que escuchar música es la actividad favorita de los españoles y la variedad es la característica. Se oye de todo y la música clásica experimenta un crecimiento. La mitad de los encuestados declara comprar al menos un disco al año. El cine es la otra actividad estrella. Los españoles van más al cine que los europeos y en cuanto a las puntuaciones hay más sorpresas: los ciudadanos prefieren el cine español al europeo, aunque el estadounidense sigue siendo el rey de las preferencias. Aunque casi la tercera parte de los encuestados muestra interés por el teatro, solo va habitualmente un poco más de la cuarta parte y menos del diez por ciento acude a danza, ópera o zarzuela. La lectura ha dado grandes alegrías, ya que más del cincuenta por ciento de los encuestados dice leer alguna vez, aunque habitualmente no se llegue a la mitad del libro. Aun así, la reina del entretenimiento sigue siendo la televisión: casi un cien por cien de los encuestados asegura utilizarla un tiempo medio de 165 minutos diarios y en los contenidos destacan los informativos, el cine, los documentales y las series de ficción. Las nuevas tecnologías, Internet y el ordenador, principalmente, van robando tiempo libre a la televisión, pese a que todavía no son de consumo mayoritario. Bautista destacó la importancia del estudio y espera que se repita periódicamente la experiencia. Adaptado de El País, 1-04-2005"
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Las nuevas tecnologías están por delante de la lectura.",
     "Los españoles escuchan todo tipo de música clásica."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Los españoles parecen decididos a destrozar ciertos tópicos sobre sus hábitos culturales, decía ayer la ministra de cultura, Carmen Calvo, junto a Tedy Bautista, presidente del consejo de dirección de la Sociedad General de Autores y Editores (SGAE), que presentó la Encuesta sobre hábitos y prácticas culturales en España. Ha sido un estudio amplio e intenso para mostrar esta gran fotografía cultural. Una investigación por muestreo de carácter no periodístico impulsada por la SGAE y Cultura en la que se han realizado 12.180 entrevistas a las personas de 15 años en adelante residentes en viviendas familiares del territorio nacional, a excepción de Ceuta y Melilla. Calvo destacó que escuchar música es la actividad favorita de los españoles y la variedad es la característica. Se oye de todo y la música clásica experimenta un crecimiento. La mitad de los encuestados declara comprar al menos un disco al año. El cine es la otra actividad estrella. Los españoles van más al cine que los europeos y en cuanto a las puntuaciones hay más sorpresas: los ciudadanos prefieren el cine español al europeo, aunque el estadounidense sigue siendo el rey de las preferencias. Aunque casi la tercera parte de los encuestados muestra interés por el teatro, solo va habitualmente un poco más de la cuarta parte y menos del diez por ciento acude a danza, ópera o zarzuela. La lectura ha dado grandes alegrías, ya que más del cincuenta por ciento de los encuestados dice leer alguna vez, aunque habitualmente no se llegue a la mitad del libro. Aun así, la reina del entretenimiento sigue siendo la televisión: casi un cien por cien de los encuestados asegura utilizarla un tiempo medio de 165 minutos diarios y en los contenidos destacan los informativos, el cine, los documentales y las series de ficción. Las nuevas tecnologías, Internet y el ordenador, principalmente, van robando tiempo libre a la televisión, pese a que todavía no son de consumo mayoritario. Bautista destacó la importancia del estudio y espera que se repita periódicamente la experiencia. Adaptado de El País, 1-04-2005"
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Habitualmente no se llega a la mitad del libro.",
     "Menos del cincuenta por ciento de los encuestados dice leer alguna vez."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Los españoles parecen decididos a destrozar ciertos tópicos sobre sus hábitos culturales, decía ayer la ministra de cultura, Carmen Calvo, junto a Tedy Bautista, presidente del consejo de dirección de la Sociedad General de Autores y Editores (SGAE), que presentó la Encuesta sobre hábitos y prácticas culturales en España. Ha sido un estudio amplio e intenso para mostrar esta gran fotografía cultural. Una investigación por muestreo de carácter no periodístico impulsada por la SGAE y Cultura en la que se han realizado 12.180 entrevistas a las personas de 15 años en adelante residentes en viviendas familiares del territorio nacional, a excepción de Ceuta y Melilla. Calvo destacó que escuchar música es la actividad favorita de los españoles y la variedad es la característica. Se oye de todo y la música clásica experimenta un crecimiento. La mitad de los encuestados declara comprar al menos un disco al año. El cine es la otra actividad estrella. Los españoles van más al cine que los europeos y en cuanto a las puntuaciones hay más sorpresas: los ciudadanos prefieren el cine español al europeo, aunque el estadounidense sigue siendo el rey de las preferencias. Aunque casi la tercera parte de los encuestados muestra interés por el teatro, solo va habitualmente un poco más de la cuarta parte y menos del diez por ciento acude a danza, ópera o zarzuela. La lectura ha dado grandes alegrías, ya que más del cincuenta por ciento de los encuestados dice leer alguna vez, aunque habitualmente no se llegue a la mitad del libro. Aun así, la reina del entretenimiento sigue siendo la televisión: casi un cien por cien de los encuestados asegura utilizarla un tiempo medio de 165 minutos diarios y en los contenidos destacan los informativos, el cine, los documentales y las series de ficción. Las nuevas tecnologías, Internet y el ordenador, principalmente, van robando tiempo libre a la televisión, pese a que todavía no son de consumo mayoritario. Bautista destacó la importancia del estudio y espera que se repita periódicamente la experiencia. Adaptado de El País, 1-04-2005"
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "32 % de jóvenes españoles está en paro.",
     "cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Según el sindicato Comisiones Obreras (CC. OO.), uno de cada cuatro jóvenes españoles está en paro, una proporción nueve puntos superior a la registrada en la Unión Europea (UE), donde cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo. Según el sindicato, prácticamente la mitad del total de parados son jóvenes (entre 16 y 29 años). Estos, junto con las mujeres, son el colectivo con mayor incidencia en el desempleo. La organización sindical explicó que el desequilibrio entre sexos es notable cuando se comparan las cifras de España con las de la UE. Así, mientras que la tasa de paro de las jóvenes europeas (17%) supera en dos puntos a la de los hombres, las jóvenes españolas sufren una tasa de paro (32%) casi trece puntos por encima de la de los hombres. La temporalidad «excesiva» es otro de los grandes problemas entre los jóvenes españoles. CC. OO. afirma que uno de cada tres asalariados españoles tiene un empleo temporal (la mitad son menores de 30 años). Por todo ello, el sindicato reclamó al Gobierno más políticas de empleo para combatir el paro juvenil y mejorar las condiciones de trabajo de este colectivo, contribuyendo así a reducir las diferencias existentes entre España y la UE. Adaptado de www.finanzas.com"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Es menor que en el resto de Europa.",
     "Está causado por la temporalidad."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Según el sindicato Comisiones Obreras (CC. OO.), uno de cada cuatro jóvenes españoles está en paro, una proporción nueve puntos superior a la registrada en la Unión Europea (UE), donde cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo. Según el sindicato, prácticamente la mitad del total de parados son jóvenes (entre 16 y 29 años). Estos, junto con las mujeres, son el colectivo con mayor incidencia en el desempleo. La organización sindical explicó que el desequilibrio entre sexos es notable cuando se comparan las cifras de España con las de la UE. Así, mientras que la tasa de paro de las jóvenes europeas (17%) supera en dos puntos a la de los hombres, las jóvenes españolas sufren una tasa de paro (32%) casi trece puntos por encima de la de los hombres. La temporalidad «excesiva» es otro de los grandes problemas entre los jóvenes españoles. CC. OO. afirma que uno de cada tres asalariados españoles tiene un empleo temporal (la mitad son menores de 30 años). Por todo ello, el sindicato reclamó al Gobierno más políticas de empleo para combatir el paro juvenil y mejorar las condiciones de trabajo de este colectivo, contribuyendo así a reducir las diferencias existentes entre España y la UE. Adaptado de www.finanzas.com"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Las mujeres y los jóvenes en general.",
     "Los hombres."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Según el sindicato Comisiones Obreras (CC. OO.), uno de cada cuatro jóvenes españoles está en paro, una proporción nueve puntos superior a la registrada en la Unión Europea (UE), donde cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo. Según el sindicato, prácticamente la mitad del total de parados son jóvenes (entre 16 y 29 años). Estos, junto con las mujeres, son el colectivo con mayor incidencia en el desempleo. La organización sindical explicó que el desequilibrio entre sexos es notable cuando se comparan las cifras de España con las de la UE. Así, mientras que la tasa de paro de las jóvenes europeas (17%) supera en dos puntos a la de los hombres, las jóvenes españolas sufren una tasa de paro (32%) casi trece puntos por encima de la de los hombres. La temporalidad «excesiva» es otro de los grandes problemas entre los jóvenes españoles. CC. OO. afirma que uno de cada tres asalariados españoles tiene un empleo temporal (la mitad son menores de 30 años). Por todo ello, el sindicato reclamó al Gobierno más políticas de empleo para combatir el paro juvenil y mejorar las condiciones de trabajo de este colectivo, contribuyendo así a reducir las diferencias existentes entre España y la UE. Adaptado de www.finanzas.com"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "Es responsabilidad de la UE solucionar el problema del paro.",
     "Es responsabilidad de CC. OO. solucionar el problema del paro."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Según el sindicato Comisiones Obreras (CC. OO.), uno de cada cuatro jóvenes españoles está en paro, una proporción nueve puntos superior a la registrada en la Unión Europea (UE), donde cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo. Según el sindicato, prácticamente la mitad del total de parados son jóvenes (entre 16 y 29 años). Estos, junto con las mujeres, son el colectivo con mayor incidencia en el desempleo. La organización sindical explicó que el desequilibrio entre sexos es notable cuando se comparan las cifras de España con las de la UE. Así, mientras que la tasa de paro de las jóvenes europeas (17%) supera en dos puntos a la de los hombres, las jóvenes españolas sufren una tasa de paro (32%) casi trece puntos por encima de la de los hombres. La temporalidad «excesiva» es otro de los grandes problemas entre los jóvenes españoles. CC. OO. afirma que uno de cada tres asalariados españoles tiene un empleo temporal (la mitad son menores de 30 años). Por todo ello, el sindicato reclamó al Gobierno más políticas de empleo para combatir el paro juvenil y mejorar las condiciones de trabajo de este colectivo, contribuyendo así a reducir las diferencias existentes entre España y la UE. Adaptado de www.finanzas.com"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d008'] = {
     "permite una vida satisfactoria.",
     "es otro de los grandes problemas entre los jóvenes españoles."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Según el sindicato Comisiones Obreras (CC. OO.), uno de cada cuatro jóvenes españoles está en paro, una proporción nueve puntos superior a la registrada en la Unión Europea (UE), donde cuatro de cada diez jóvenes está desempleado o lleva más de un año buscando trabajo. Según el sindicato, prácticamente la mitad del total de parados son jóvenes (entre 16 y 29 años). Estos, junto con las mujeres, son el colectivo con mayor incidencia en el desempleo. La organización sindical explicó que el desequilibrio entre sexos es notable cuando se comparan las cifras de España con las de la UE. Así, mientras que la tasa de paro de las jóvenes europeas (17%) supera en dos puntos a la de los hombres, las jóvenes españolas sufren una tasa de paro (32%) casi trece puntos por encima de la de los hombres. La temporalidad «excesiva» es otro de los grandes problemas entre los jóvenes españoles. CC. OO. afirma que uno de cada tres asalariados españoles tiene un empleo temporal (la mitad son menores de 30 años). Por todo ello, el sindicato reclamó al Gobierno más políticas de empleo para combatir el paro juvenil y mejorar las condiciones de trabajo de este colectivo, contribuyendo así a reducir las diferencias existentes entre España y la UE. Adaptado de www.finanzas.com"
   }
  ]
 };

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
     "das",
     "etwas",
     "was",
-    "esDu brauchst Mut um Nein zu sagen."
+    "es"
    ],
    "a": 2,
    "exp": "✅ (C) 先行詞為不定代名詞「manches」，關係代名詞須用「was」，故選 was。\n❌ (A) 「das」用於先行詞為確定中性名詞時，與 manches 不合。\n❌ (B) 「etwas」不能作關係代名詞引導關係子句。\n❌ (D) 「es」為人稱代名詞，不能引導關係子句，且題幹轉檔混入其他文字。\n📚 出處：德語關係代名詞 was 用於不定代名詞、中性最高級等先行詞之規則"
@@ -999,61 +999,57 @@ window.APP_EXAM_PAPERS['tou-102-1-d007'] = {
    "n": 71,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 71 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "sind",
+    "werden",
+    "haben",
+    "möchten"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/102040_404_0409_71.webp"
+   "psg": "Du brauchst Mut um Nein zu sagen. Faul, arrogant, gewalttätig und kriminell. So 71 oft Jugendliche gesehen, die scheinbar ziellos in Jugendgangs die Zeit totschlagen. Was aber wirklich dahintersteckt, fragen die 72 . Jugendliche, die keine Anerkennung in ihrer Familie und keine Erfolge im sozialen Umfeld finden, suchen ihren Platz in Gruppen am Rande der Gesellschaft. Um richtig dazugehören, nehmen sie oft das kriminelle Verhalten ihrer neuen Clique an, auch wenn sie dieses Verhalten eigentlich nicht für richtig halten. Die Aktion „Welt ohne Gewalt“ mit ihrem Motto „Bleib stark!“ möchte den Jugendlichen zeigen, 73 es Ausdruck von Stärke und Selbstbewußtsein ist, auf Gewalt zu verzichten. Die jungen Menschen werden dabei unterstützt, ihre Talente und Fähigkeiten zu 74 . Der Gesellschaft und Politik müssen die Ursachen für das extreme Verhalten der Jugendlichen aufgezeigt werden. Denn nur wenn sich an der sozialen Ausgrenzung, Armut sowie den fehlenden Bildungsabschlüssen und mangelnden Zukunftsperspektiven der Jugendlichen etwas ändert, werden diese wieder Mut und insbesondere Hoffnung auf eine bessere Zukunft finden. （請回答第 71 題至第 75 題）"
   },
   {
    "n": 72,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 72 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "wenigsten",
+    "wenigen",
+    "stellen",
+    "sollen"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/102040_404_0409_72.webp"
+   "psg": "Du brauchst Mut um Nein zu sagen. Faul, arrogant, gewalttätig und kriminell. So 71 oft Jugendliche gesehen, die scheinbar ziellos in Jugendgangs die Zeit totschlagen. Was aber wirklich dahintersteckt, fragen die 72 . Jugendliche, die keine Anerkennung in ihrer Familie und keine Erfolge im sozialen Umfeld finden, suchen ihren Platz in Gruppen am Rande der Gesellschaft. Um richtig dazugehören, nehmen sie oft das kriminelle Verhalten ihrer neuen Clique an, auch wenn sie dieses Verhalten eigentlich nicht für richtig halten. Die Aktion „Welt ohne Gewalt“ mit ihrem Motto „Bleib stark!“ möchte den Jugendlichen zeigen, 73 es Ausdruck von Stärke und Selbstbewußtsein ist, auf Gewalt zu verzichten. Die jungen Menschen werden dabei unterstützt, ihre Talente und Fähigkeiten zu 74 . Der Gesellschaft und Politik müssen die Ursachen für das extreme Verhalten der Jugendlichen aufgezeigt werden. Denn nur wenn sich an der sozialen Ausgrenzung, Armut sowie den fehlenden Bildungsabschlüssen und mangelnden Zukunftsperspektiven der Jugendlichen etwas ändert, werden diese wieder Mut und insbesondere Hoffnung auf eine bessere Zukunft finden. （請回答第 71 題至第 75 題）"
   },
   {
    "n": 73,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 73 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ob",
+    "obwohl",
+    "dass",
+    "trotzdem"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102040_404_0409_73.webp"
+   "psg": "Du brauchst Mut um Nein zu sagen. Faul, arrogant, gewalttätig und kriminell. So 71 oft Jugendliche gesehen, die scheinbar ziellos in Jugendgangs die Zeit totschlagen. Was aber wirklich dahintersteckt, fragen die 72 . Jugendliche, die keine Anerkennung in ihrer Familie und keine Erfolge im sozialen Umfeld finden, suchen ihren Platz in Gruppen am Rande der Gesellschaft. Um richtig dazugehören, nehmen sie oft das kriminelle Verhalten ihrer neuen Clique an, auch wenn sie dieses Verhalten eigentlich nicht für richtig halten. Die Aktion „Welt ohne Gewalt“ mit ihrem Motto „Bleib stark!“ möchte den Jugendlichen zeigen, 73 es Ausdruck von Stärke und Selbstbewußtsein ist, auf Gewalt zu verzichten. Die jungen Menschen werden dabei unterstützt, ihre Talente und Fähigkeiten zu 74 . Der Gesellschaft und Politik müssen die Ursachen für das extreme Verhalten der Jugendlichen aufgezeigt werden. Denn nur wenn sich an der sozialen Ausgrenzung, Armut sowie den fehlenden Bildungsabschlüssen und mangelnden Zukunftsperspektiven der Jugendlichen etwas ändert, werden diese wieder Mut und insbesondere Hoffnung auf eine bessere Zukunft finden. （請回答第 71 題至第 75 題）"
   },
   {
    "n": 74,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 74 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "entfalten",
+    "entfaltet",
+    "fördert",
+    "verlangen"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/102040_404_0409_74.webp"
+   "psg": "Du brauchst Mut um Nein zu sagen. Faul, arrogant, gewalttätig und kriminell. So 71 oft Jugendliche gesehen, die scheinbar ziellos in Jugendgangs die Zeit totschlagen. Was aber wirklich dahintersteckt, fragen die 72 . Jugendliche, die keine Anerkennung in ihrer Familie und keine Erfolge im sozialen Umfeld finden, suchen ihren Platz in Gruppen am Rande der Gesellschaft. Um richtig dazugehören, nehmen sie oft das kriminelle Verhalten ihrer neuen Clique an, auch wenn sie dieses Verhalten eigentlich nicht für richtig halten. Die Aktion „Welt ohne Gewalt“ mit ihrem Motto „Bleib stark!“ möchte den Jugendlichen zeigen, 73 es Ausdruck von Stärke und Selbstbewußtsein ist, auf Gewalt zu verzichten. Die jungen Menschen werden dabei unterstützt, ihre Talente und Fähigkeiten zu 74 . Der Gesellschaft und Politik müssen die Ursachen für das extreme Verhalten der Jugendlichen aufgezeigt werden. Denn nur wenn sich an der sozialen Ausgrenzung, Armut sowie den fehlenden Bildungsabschlüssen und mangelnden Zukunftsperspektiven der Jugendlichen etwas ändert, werden diese wieder Mut und insbesondere Hoffnung auf eine bessere Zukunft finden. （請回答第 71 題至第 75 題）"
   },
   {
    "n": 75,

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "-mişken / -maya",
     "-yecekken / -mak",
     "-yerek / -mayı",
-    "-yip / -mak2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs"
+    "-yip / -mak"
    ],
    "a": 1,
    "exp": "✅ (B) 後綴「-(y)ecekken」表示「正打算／正要進行某動作時卻被中斷」；片語「zorunda kalmak」（被迫／不得不）前接動詞原型不定詞「-mak」，「söyleyecekken / susmak zorunda kaldım」（正要告訴他祕密時媽媽來了，因此我不得不保持沉默），語法完全正確。\n❌ (A) 「-mişken」表示「趁著…的時候」，與後續動作中斷的因果語境不合；且「zorunda kalmak」不能接方向格「-maya」。\n❌ (C) 「-yerek」表示動作方式，無法體現正要開口卻被打斷的轉折；且「-mayı」為受格形式，與 zorunda kalmak 搭配錯誤。\n❌ (D) 「-yip」表示連續進行之副詞分詞，無法表達「正要說祕密時」的特定時間點；且選項文字於轉檔時混入了後續文章之題幹殘存字句。\n📚 出處：土耳其語副詞從屬子句（-(y)ecekken）與義務情態短語（zorunda kalmak）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Üzüntülü bir düşünceyle",
     "2019’u yakalamak umuduyla"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs salgını damgasını vururken, yılın sonuna yaklaşıldığı dönemde aşı çalışmalarının devreye girmesi 2021 için umutları yeşertti. En büyük heyecan ise turizm sektöründe yaşanıyor. 2020’de tüm dünyada Koronavirüs nedeniyle turizm hareketi neredeyse sıfırlanmış, bu da turizm sektöründe yer alan tüm kesimleri bir hayli zorlamıştır. Böyle zor bir süreç yaşayan sektör 2021’de ise umutla bakıyor. Sektör, yaz aylarında aşının da etkisini göstermesiyle yabancı turist akışının başlayacağı, evde sıkılan yerli turistin önce Ege kıyılarından başlayarak büyük bir turizm hareketi oluşturacağı görüşünde. 2019’da Türkiye’nin yaklaşık 45 milyon yabancı turist ağırladığına dikkat çeken sektör temsilcileri, 2020’nin ise 15 milyon turistle tamamlanacağını düşünüyor. 2021’de 30 milyona ulaşması bekleniyor. 2021 yılının 2020’den daha iyi geçmesini beklediklerini ifade eden Ege Turistik İşletmeler ve Konaklamaları Birliği (ETİK) Başkanı Mehmet İşler, “Ancak zirve yaptığımız 2019’u yakalamak zor olacak. 2020’ye göre turist artışında yüzde 100 bir artış bekliyoruz. 2019’un ise yüzde 30 gerisinde kalacağız. Her ne kadar yabancı turist sayısı artsa da bu oteller için yeterli olmayacaktır. Yerli turist erken rezervasyon kampanyalarından yararlanırsa ciddi şekilde uygun fiyata tatil yapmış olacak. Yerli turist hareketi ilk olarak Ege kıyılarından başlayacaktır. Evde sıkılan tüketiciler kendilerini deniz kıyılarına atmak isteyecek. Ege’de her keseye uygun otel bulunduğu için bu da avantaj olacak. Antalya bölgesindeki lüks otellere yerli turist ilgisi olacaktır. Çünkü yabancı az geldiği için fiyatlar daha uygun seviyelere gelecektir” diye konuştu."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Üçte bire azalmış",
     "Üçte bir gibi düşmüş"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs salgını damgasını vururken, yılın sonuna yaklaşıldığı dönemde aşı çalışmalarının devreye girmesi 2021 için umutları yeşertti. En büyük heyecan ise turizm sektöründe yaşanıyor. 2020’de tüm dünyada Koronavirüs nedeniyle turizm hareketi neredeyse sıfırlanmış, bu da turizm sektöründe yer alan tüm kesimleri bir hayli zorlamıştır. Böyle zor bir süreç yaşayan sektör 2021’de ise umutla bakıyor. Sektör, yaz aylarında aşının da etkisini göstermesiyle yabancı turist akışının başlayacağı, evde sıkılan yerli turistin önce Ege kıyılarından başlayarak büyük bir turizm hareketi oluşturacağı görüşünde. 2019’da Türkiye’nin yaklaşık 45 milyon yabancı turist ağırladığına dikkat çeken sektör temsilcileri, 2020’nin ise 15 milyon turistle tamamlanacağını düşünüyor. 2021’de 30 milyona ulaşması bekleniyor. 2021 yılının 2020’den daha iyi geçmesini beklediklerini ifade eden Ege Turistik İşletmeler ve Konaklamaları Birliği (ETİK) Başkanı Mehmet İşler, “Ancak zirve yaptığımız 2019’u yakalamak zor olacak. 2020’ye göre turist artışında yüzde 100 bir artış bekliyoruz. 2019’un ise yüzde 30 gerisinde kalacağız. Her ne kadar yabancı turist sayısı artsa da bu oteller için yeterli olmayacaktır. Yerli turist erken rezervasyon kampanyalarından yararlanırsa ciddi şekilde uygun fiyata tatil yapmış olacak. Yerli turist hareketi ilk olarak Ege kıyılarından başlayacaktır. Evde sıkılan tüketiciler kendilerini deniz kıyılarına atmak isteyecek. Ege’de her keseye uygun otel bulunduğu için bu da avantaj olacak. Antalya bölgesindeki lüks otellere yerli turist ilgisi olacaktır. Çünkü yabancı az geldiği için fiyatlar daha uygun seviyelere gelecektir” diye konuştu."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "daha pahalıdır",
     "daha caziptir"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs salgını damgasını vururken, yılın sonuna yaklaşıldığı dönemde aşı çalışmalarının devreye girmesi 2021 için umutları yeşertti. En büyük heyecan ise turizm sektöründe yaşanıyor. 2020’de tüm dünyada Koronavirüs nedeniyle turizm hareketi neredeyse sıfırlanmış, bu da turizm sektöründe yer alan tüm kesimleri bir hayli zorlamıştır. Böyle zor bir süreç yaşayan sektör 2021’de ise umutla bakıyor. Sektör, yaz aylarında aşının da etkisini göstermesiyle yabancı turist akışının başlayacağı, evde sıkılan yerli turistin önce Ege kıyılarından başlayarak büyük bir turizm hareketi oluşturacağı görüşünde. 2019’da Türkiye’nin yaklaşık 45 milyon yabancı turist ağırladığına dikkat çeken sektör temsilcileri, 2020’nin ise 15 milyon turistle tamamlanacağını düşünüyor. 2021’de 30 milyona ulaşması bekleniyor. 2021 yılının 2020’den daha iyi geçmesini beklediklerini ifade eden Ege Turistik İşletmeler ve Konaklamaları Birliği (ETİK) Başkanı Mehmet İşler, “Ancak zirve yaptığımız 2019’u yakalamak zor olacak. 2020’ye göre turist artışında yüzde 100 bir artış bekliyoruz. 2019’un ise yüzde 30 gerisinde kalacağız. Her ne kadar yabancı turist sayısı artsa da bu oteller için yeterli olmayacaktır. Yerli turist erken rezervasyon kampanyalarından yararlanırsa ciddi şekilde uygun fiyata tatil yapmış olacak. Yerli turist hareketi ilk olarak Ege kıyılarından başlayacaktır. Evde sıkılan tüketiciler kendilerini deniz kıyılarına atmak isteyecek. Ege’de her keseye uygun otel bulunduğu için bu da avantaj olacak. Antalya bölgesindeki lüks otellere yerli turist ilgisi olacaktır. Çünkü yabancı az geldiği için fiyatlar daha uygun seviyelere gelecektir” diye konuştu."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Aşının etkisini göstermesi",
     "Koronavirüs hastalığı yok edilmesi"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs salgını damgasını vururken, yılın sonuna yaklaşıldığı dönemde aşı çalışmalarının devreye girmesi 2021 için umutları yeşertti. En büyük heyecan ise turizm sektöründe yaşanıyor. 2020’de tüm dünyada Koronavirüs nedeniyle turizm hareketi neredeyse sıfırlanmış, bu da turizm sektöründe yer alan tüm kesimleri bir hayli zorlamıştır. Böyle zor bir süreç yaşayan sektör 2021’de ise umutla bakıyor. Sektör, yaz aylarında aşının da etkisini göstermesiyle yabancı turist akışının başlayacağı, evde sıkılan yerli turistin önce Ege kıyılarından başlayarak büyük bir turizm hareketi oluşturacağı görüşünde. 2019’da Türkiye’nin yaklaşık 45 milyon yabancı turist ağırladığına dikkat çeken sektör temsilcileri, 2020’nin ise 15 milyon turistle tamamlanacağını düşünüyor. 2021’de 30 milyona ulaşması bekleniyor. 2021 yılının 2020’den daha iyi geçmesini beklediklerini ifade eden Ege Turistik İşletmeler ve Konaklamaları Birliği (ETİK) Başkanı Mehmet İşler, “Ancak zirve yaptığımız 2019’u yakalamak zor olacak. 2020’ye göre turist artışında yüzde 100 bir artış bekliyoruz. 2019’un ise yüzde 30 gerisinde kalacağız. Her ne kadar yabancı turist sayısı artsa da bu oteller için yeterli olmayacaktır. Yerli turist erken rezervasyon kampanyalarından yararlanırsa ciddi şekilde uygun fiyata tatil yapmış olacak. Yerli turist hareketi ilk olarak Ege kıyılarından başlayacaktır. Evde sıkılan tüketiciler kendilerini deniz kıyılarına atmak isteyecek. Ege’de her keseye uygun otel bulunduğu için bu da avantaj olacak. Antalya bölgesindeki lüks otellere yerli turist ilgisi olacaktır. Çünkü yabancı az geldiği için fiyatlar daha uygun seviyelere gelecektir” diye konuştu."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "2019/2021/2020",
     "2020/2019/2021",
     "2019/2020/2021",
-    "2021/2019/2020Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var."
+    "2021/2019/2020"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "2020’nin sonuna yaklaştıkça 2021 için yapılan planlar da hızlanmaya başladı. 2020’ye Koronavirüs salgını damgasını vururken, yılın sonuna yaklaşıldığı dönemde aşı çalışmalarının devreye girmesi 2021 için umutları yeşertti. En büyük heyecan ise turizm sektöründe yaşanıyor. 2020’de tüm dünyada Koronavirüs nedeniyle turizm hareketi neredeyse sıfırlanmış, bu da turizm sektöründe yer alan tüm kesimleri bir hayli zorlamıştır. Böyle zor bir süreç yaşayan sektör 2021’de ise umutla bakıyor. Sektör, yaz aylarında aşının da etkisini göstermesiyle yabancı turist akışının başlayacağı, evde sıkılan yerli turistin önce Ege kıyılarından başlayarak büyük bir turizm hareketi oluşturacağı görüşünde. 2019’da Türkiye’nin yaklaşık 45 milyon yabancı turist ağırladığına dikkat çeken sektör temsilcileri, 2020’nin ise 15 milyon turistle tamamlanacağını düşünüyor. 2021’de 30 milyona ulaşması bekleniyor. 2021 yılının 2020’den daha iyi geçmesini beklediklerini ifade eden Ege Turistik İşletmeler ve Konaklamaları Birliği (ETİK) Başkanı Mehmet İşler, “Ancak zirve yaptığımız 2019’u yakalamak zor olacak. 2020’ye göre turist artışında yüzde 100 bir artış bekliyoruz. 2019’un ise yüzde 30 gerisinde kalacağız. Her ne kadar yabancı turist sayısı artsa da bu oteller için yeterli olmayacaktır. Yerli turist erken rezervasyon kampanyalarından yararlanırsa ciddi şekilde uygun fiyata tatil yapmış olacak. Yerli turist hareketi ilk olarak Ege kıyılarından başlayacaktır. Evde sıkılan tüketiciler kendilerini deniz kıyılarına atmak isteyecek. Ege’de her keseye uygun otel bulunduğu için bu da avantaj olacak. Antalya bölgesindeki lüks otellere yerli turist ilgisi olacaktır. Çünkü yabancı az geldiği için fiyatlar daha uygun seviyelere gelecektir” diye konuştu."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Arkadaşlık ve komşuluk",
     "Akrabalık önemi"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var. Yani hayatımızda aşağı yukarı üç türlü tanıdıkla çevrili bulunuyoruz. Bir yazarın dediğine göre, dostlarımız akrabalarımızdan önemlidir. Çünkü insan dünyaya geldiği zaman akrabalarını hazır bulur. Halbuki dostlarını kendisi seçer. Peki ya komşular? Onlar akraba mı arkadaş mı sayılır? Doğrusu bu soruya cevap vermek biraz zordur. Bir mahalleye yeni taşınsanız tıpkı doğarken akrabalarınızı hazır bulduğunuz gibi komşularınızı da etrafınızda hazır bulursunuz. Bu bakımdan komşular akrabayı andırırlar. Bir de onlardan ancak istediklerinizle ahbaplık edeceğinizi göz önünde tutarsanız, kendilerini dost grubuna sokabilirsiniz. Yalnız komşuların şu özelliği vardır ki onlarla isteseniz de, istemeseniz de yakınlık etmek zorundasınız. Dostunuza darılsanız; aranız açılır, gözünüzden kaybolur gider, onu bir daha görmezsiniz. Ama komşu öyle değildir. Darılmanız, küsmeniz para etmez. Gene evinizin yanındadır. Apartmanda iseniz ya karşınızda, ya üstünüzde, ya altınızdadır. İstemeseniz de birbirinizi görürsünüz. Birbirinizin sesini işitirsiniz. Evde kavganızı, gürültünüzü akrabadan arkadaştan saklayabilirsiniz de komşunuzdan saklayamazsınız. Halinizin nasıl olduğunu kimseler bilmez de komşunuz bilir. Ama bir de tanrı iyi tarafından vermişse komşunuz en yakınınızdan daha yakın bir insan olarak size hayatın zahmetlerini unuturur; onları beraberce paylaşır, acı günleri tatlıya onunla beraberce çevirirsiniz. Akraba ve arkadaşınızın yetişemeyeceği zaman komşunuz yanınızdadır. Yeter ki iyi tarafından olsun. Sizi merhametlisine, cömerdine, saygılısına, kıskanç olmayanına çattırmış bulunsun!"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Komşularınızla yakınlık etmek zorundasınız.",
     "Dostunuza darılsanız birbirinizden ayrılmanın şansı yok."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var. Yani hayatımızda aşağı yukarı üç türlü tanıdıkla çevrili bulunuyoruz. Bir yazarın dediğine göre, dostlarımız akrabalarımızdan önemlidir. Çünkü insan dünyaya geldiği zaman akrabalarını hazır bulur. Halbuki dostlarını kendisi seçer. Peki ya komşular? Onlar akraba mı arkadaş mı sayılır? Doğrusu bu soruya cevap vermek biraz zordur. Bir mahalleye yeni taşınsanız tıpkı doğarken akrabalarınızı hazır bulduğunuz gibi komşularınızı da etrafınızda hazır bulursunuz. Bu bakımdan komşular akrabayı andırırlar. Bir de onlardan ancak istediklerinizle ahbaplık edeceğinizi göz önünde tutarsanız, kendilerini dost grubuna sokabilirsiniz. Yalnız komşuların şu özelliği vardır ki onlarla isteseniz de, istemeseniz de yakınlık etmek zorundasınız. Dostunuza darılsanız; aranız açılır, gözünüzden kaybolur gider, onu bir daha görmezsiniz. Ama komşu öyle değildir. Darılmanız, küsmeniz para etmez. Gene evinizin yanındadır. Apartmanda iseniz ya karşınızda, ya üstünüzde, ya altınızdadır. İstemeseniz de birbirinizi görürsünüz. Birbirinizin sesini işitirsiniz. Evde kavganızı, gürültünüzü akrabadan arkadaştan saklayabilirsiniz de komşunuzdan saklayamazsınız. Halinizin nasıl olduğunu kimseler bilmez de komşunuz bilir. Ama bir de tanrı iyi tarafından vermişse komşunuz en yakınınızdan daha yakın bir insan olarak size hayatın zahmetlerini unuturur; onları beraberce paylaşır, acı günleri tatlıya onunla beraberce çevirirsiniz. Akraba ve arkadaşınızın yetişemeyeceği zaman komşunuz yanınızdadır. Yeter ki iyi tarafından olsun. Sizi merhametlisine, cömerdine, saygılısına, kıskanç olmayanına çattırmış bulunsun!"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "dost",
     "arkadaş"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var. Yani hayatımızda aşağı yukarı üç türlü tanıdıkla çevrili bulunuyoruz. Bir yazarın dediğine göre, dostlarımız akrabalarımızdan önemlidir. Çünkü insan dünyaya geldiği zaman akrabalarını hazır bulur. Halbuki dostlarını kendisi seçer. Peki ya komşular? Onlar akraba mı arkadaş mı sayılır? Doğrusu bu soruya cevap vermek biraz zordur. Bir mahalleye yeni taşınsanız tıpkı doğarken akrabalarınızı hazır bulduğunuz gibi komşularınızı da etrafınızda hazır bulursunuz. Bu bakımdan komşular akrabayı andırırlar. Bir de onlardan ancak istediklerinizle ahbaplık edeceğinizi göz önünde tutarsanız, kendilerini dost grubuna sokabilirsiniz. Yalnız komşuların şu özelliği vardır ki onlarla isteseniz de, istemeseniz de yakınlık etmek zorundasınız. Dostunuza darılsanız; aranız açılır, gözünüzden kaybolur gider, onu bir daha görmezsiniz. Ama komşu öyle değildir. Darılmanız, küsmeniz para etmez. Gene evinizin yanındadır. Apartmanda iseniz ya karşınızda, ya üstünüzde, ya altınızdadır. İstemeseniz de birbirinizi görürsünüz. Birbirinizin sesini işitirsiniz. Evde kavganızı, gürültünüzü akrabadan arkadaştan saklayabilirsiniz de komşunuzdan saklayamazsınız. Halinizin nasıl olduğunu kimseler bilmez de komşunuz bilir. Ama bir de tanrı iyi tarafından vermişse komşunuz en yakınınızdan daha yakın bir insan olarak size hayatın zahmetlerini unuturur; onları beraberce paylaşır, acı günleri tatlıya onunla beraberce çevirirsiniz. Akraba ve arkadaşınızın yetişemeyeceği zaman komşunuz yanınızdadır. Yeter ki iyi tarafından olsun. Sizi merhametlisine, cömerdine, saygılısına, kıskanç olmayanına çattırmış bulunsun!"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Komşu",
     "Dost"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var. Yani hayatımızda aşağı yukarı üç türlü tanıdıkla çevrili bulunuyoruz. Bir yazarın dediğine göre, dostlarımız akrabalarımızdan önemlidir. Çünkü insan dünyaya geldiği zaman akrabalarını hazır bulur. Halbuki dostlarını kendisi seçer. Peki ya komşular? Onlar akraba mı arkadaş mı sayılır? Doğrusu bu soruya cevap vermek biraz zordur. Bir mahalleye yeni taşınsanız tıpkı doğarken akrabalarınızı hazır bulduğunuz gibi komşularınızı da etrafınızda hazır bulursunuz. Bu bakımdan komşular akrabayı andırırlar. Bir de onlardan ancak istediklerinizle ahbaplık edeceğinizi göz önünde tutarsanız, kendilerini dost grubuna sokabilirsiniz. Yalnız komşuların şu özelliği vardır ki onlarla isteseniz de, istemeseniz de yakınlık etmek zorundasınız. Dostunuza darılsanız; aranız açılır, gözünüzden kaybolur gider, onu bir daha görmezsiniz. Ama komşu öyle değildir. Darılmanız, küsmeniz para etmez. Gene evinizin yanındadır. Apartmanda iseniz ya karşınızda, ya üstünüzde, ya altınızdadır. İstemeseniz de birbirinizi görürsünüz. Birbirinizin sesini işitirsiniz. Evde kavganızı, gürültünüzü akrabadan arkadaştan saklayabilirsiniz de komşunuzdan saklayamazsınız. Halinizin nasıl olduğunu kimseler bilmez de komşunuz bilir. Ama bir de tanrı iyi tarafından vermişse komşunuz en yakınınızdan daha yakın bir insan olarak size hayatın zahmetlerini unuturur; onları beraberce paylaşır, acı günleri tatlıya onunla beraberce çevirirsiniz. Akraba ve arkadaşınızın yetişemeyeceği zaman komşunuz yanınızdadır. Yeter ki iyi tarafından olsun. Sizi merhametlisine, cömerdine, saygılısına, kıskanç olmayanına çattırmış bulunsun!"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d019'] = {
     "Sizi akraba gibi soran",
     "Size takılan, darılan"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Hayatta hepimizin akrabalarımız var, arkadaşlarımız var, bir de bunların dışında komşularımız var. Yani hayatımızda aşağı yukarı üç türlü tanıdıkla çevrili bulunuyoruz. Bir yazarın dediğine göre, dostlarımız akrabalarımızdan önemlidir. Çünkü insan dünyaya geldiği zaman akrabalarını hazır bulur. Halbuki dostlarını kendisi seçer. Peki ya komşular? Onlar akraba mı arkadaş mı sayılır? Doğrusu bu soruya cevap vermek biraz zordur. Bir mahalleye yeni taşınsanız tıpkı doğarken akrabalarınızı hazır bulduğunuz gibi komşularınızı da etrafınızda hazır bulursunuz. Bu bakımdan komşular akrabayı andırırlar. Bir de onlardan ancak istediklerinizle ahbaplık edeceğinizi göz önünde tutarsanız, kendilerini dost grubuna sokabilirsiniz. Yalnız komşuların şu özelliği vardır ki onlarla isteseniz de, istemeseniz de yakınlık etmek zorundasınız. Dostunuza darılsanız; aranız açılır, gözünüzden kaybolur gider, onu bir daha görmezsiniz. Ama komşu öyle değildir. Darılmanız, küsmeniz para etmez. Gene evinizin yanındadır. Apartmanda iseniz ya karşınızda, ya üstünüzde, ya altınızdadır. İstemeseniz de birbirinizi görürsünüz. Birbirinizin sesini işitirsiniz. Evde kavganızı, gürültünüzü akrabadan arkadaştan saklayabilirsiniz de komşunuzdan saklayamazsınız. Halinizin nasıl olduğunu kimseler bilmez de komşunuz bilir. Ama bir de tanrı iyi tarafından vermişse komşunuz en yakınınızdan daha yakın bir insan olarak size hayatın zahmetlerini unuturur; onları beraberce paylaşır, acı günleri tatlıya onunla beraberce çevirirsiniz. Akraba ve arkadaşınızın yetişemeyeceği zaman komşunuz yanınızdadır. Yeter ki iyi tarafından olsun. Sizi merhametlisine, cömerdine, saygılısına, kıskanç olmayanına çattırmış bulunsun!"
   }
  ]
 };

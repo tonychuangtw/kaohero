@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "un cerdo",
     "una vaca",
     "un mono",
-    "una cabraMás fiestas españolasEspaña es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de"
+    "una cabra"
    ],
    "a": 3,
    "exp": "✅ (D) 正確。estar como una cabra 是西班牙語固定慣用語，字面「像隻山羊」，實指「瘋瘋癲癲、行為古怪」，正是題幹說明的 muy loco。\n❌ (A) 錯誤。estar como un cerdo 帶有「骯髒、邋遢」的意思，不是形容瘋狂。\n❌ (B) 錯誤。estar como una vaca 用來形容「很胖」，屬體型描述。\n❌ (C) 錯誤。ser un mono 或 estar mono 多指「可愛、俏皮」，與發瘋無關。\n📚 出處：西班牙語動物慣用語（estar como una cabra＝發瘋）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "ya no es una fiesta religiosa",
     "se celebra en primavera"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Más fiestas españolas España es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de ellas siguen unidas al calendario religioso, como La Semana Santa, que recuerda la muerte de Jesucristo. Se celebra en primavera. Las principales celebraciones de Semana Santa son las de Castilla y las de Andalucía. Entre los días 7 y 14 de julio se celebra la fiesta mundialmente conocida como los Sanfermines. En estos días, Pamplona recibe a más de un millón y medio de turistas, la mayoría de ellos neozelandeses, australianos, ingleses y franceses, que vienen a correr delante de los toros y a vivir intensamente esta semana. Es tan popular que en Estados Unidos y en algunos países de Europa se retransmite en directo por televisión. Unida tradicionalmente al final del invierno tenemos Las Fallas de Valencia. El fuego, elemento mágico y fundamental de esta fiesta, quema todo lo viejo para dejar entrar a la primavera. Hoy en día se queman enormes esculturas de madera que representan la vida diaria y política del país y del mundo. En Sevilla, una de las ciudades más bellas de Andalucía, se celebra la conocida Feria de Abril. Una semana de cante y baile, de caballos y toros. Como en muchos otros lugares del mundo, en España también se celebran Los Carnavales. En cada lugar los celebran de una forma diferente. Por ello sería interesante poder visitarlos todos. Si no se puede, recomendamos los de Tenerife y los de Cádiz, que son famosos dentro y fuera de España. Son muy diferentes, pero los dos tienen mucho éxito. Y una fiesta muy especial es la conocida como La Tamborrada. Se celebra en San Sebastián. Es un concierto de tambores tocados por niños y adultos durante 24 horas."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "tiene como objetivo vender más libros",
     "tiene muchos espectáculos de teatro"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Más fiestas españolas España es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de ellas siguen unidas al calendario religioso, como La Semana Santa, que recuerda la muerte de Jesucristo. Se celebra en primavera. Las principales celebraciones de Semana Santa son las de Castilla y las de Andalucía. Entre los días 7 y 14 de julio se celebra la fiesta mundialmente conocida como los Sanfermines. En estos días, Pamplona recibe a más de un millón y medio de turistas, la mayoría de ellos neozelandeses, australianos, ingleses y franceses, que vienen a correr delante de los toros y a vivir intensamente esta semana. Es tan popular que en Estados Unidos y en algunos países de Europa se retransmite en directo por televisión. Unida tradicionalmente al final del invierno tenemos Las Fallas de Valencia. El fuego, elemento mágico y fundamental de esta fiesta, quema todo lo viejo para dejar entrar a la primavera. Hoy en día se queman enormes esculturas de madera que representan la vida diaria y política del país y del mundo. En Sevilla, una de las ciudades más bellas de Andalucía, se celebra la conocida Feria de Abril. Una semana de cante y baile, de caballos y toros. Como en muchos otros lugares del mundo, en España también se celebran Los Carnavales. En cada lugar los celebran de una forma diferente. Por ello sería interesante poder visitarlos todos. Si no se puede, recomendamos los de Tenerife y los de Cádiz, que son famosos dentro y fuera de España. Son muy diferentes, pero los dos tienen mucho éxito. Y una fiesta muy especial es la conocida como La Tamborrada. Se celebra en San Sebastián. Es un concierto de tambores tocados por niños y adultos durante 24 horas."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "tienen un elemento de crítica social y política",
     "tienen como protagonista la paella"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Más fiestas españolas España es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de ellas siguen unidas al calendario religioso, como La Semana Santa, que recuerda la muerte de Jesucristo. Se celebra en primavera. Las principales celebraciones de Semana Santa son las de Castilla y las de Andalucía. Entre los días 7 y 14 de julio se celebra la fiesta mundialmente conocida como los Sanfermines. En estos días, Pamplona recibe a más de un millón y medio de turistas, la mayoría de ellos neozelandeses, australianos, ingleses y franceses, que vienen a correr delante de los toros y a vivir intensamente esta semana. Es tan popular que en Estados Unidos y en algunos países de Europa se retransmite en directo por televisión. Unida tradicionalmente al final del invierno tenemos Las Fallas de Valencia. El fuego, elemento mágico y fundamental de esta fiesta, quema todo lo viejo para dejar entrar a la primavera. Hoy en día se queman enormes esculturas de madera que representan la vida diaria y política del país y del mundo. En Sevilla, una de las ciudades más bellas de Andalucía, se celebra la conocida Feria de Abril. Una semana de cante y baile, de caballos y toros. Como en muchos otros lugares del mundo, en España también se celebran Los Carnavales. En cada lugar los celebran de una forma diferente. Por ello sería interesante poder visitarlos todos. Si no se puede, recomendamos los de Tenerife y los de Cádiz, que son famosos dentro y fuera de España. Son muy diferentes, pero los dos tienen mucho éxito. Y una fiesta muy especial es la conocida como La Tamborrada. Se celebra en San Sebastián. Es un concierto de tambores tocados por niños y adultos durante 24 horas."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "de Tenerife son los únicos que ha recomendado el autor",
     "tratan del cambio de estaciones"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Más fiestas españolas España es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de ellas siguen unidas al calendario religioso, como La Semana Santa, que recuerda la muerte de Jesucristo. Se celebra en primavera. Las principales celebraciones de Semana Santa son las de Castilla y las de Andalucía. Entre los días 7 y 14 de julio se celebra la fiesta mundialmente conocida como los Sanfermines. En estos días, Pamplona recibe a más de un millón y medio de turistas, la mayoría de ellos neozelandeses, australianos, ingleses y franceses, que vienen a correr delante de los toros y a vivir intensamente esta semana. Es tan popular que en Estados Unidos y en algunos países de Europa se retransmite en directo por televisión. Unida tradicionalmente al final del invierno tenemos Las Fallas de Valencia. El fuego, elemento mágico y fundamental de esta fiesta, quema todo lo viejo para dejar entrar a la primavera. Hoy en día se queman enormes esculturas de madera que representan la vida diaria y política del país y del mundo. En Sevilla, una de las ciudades más bellas de Andalucía, se celebra la conocida Feria de Abril. Una semana de cante y baile, de caballos y toros. Como en muchos otros lugares del mundo, en España también se celebran Los Carnavales. En cada lugar los celebran de una forma diferente. Por ello sería interesante poder visitarlos todos. Si no se puede, recomendamos los de Tenerife y los de Cádiz, que son famosos dentro y fuera de España. Son muy diferentes, pero los dos tienen mucho éxito. Y una fiesta muy especial es la conocida como La Tamborrada. Se celebra en San Sebastián. Es un concierto de tambores tocados por niños y adultos durante 24 horas."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "es declarada como Patrimonio de la Humanidad por UNESCO",
     "está dedicada a los muertosHola, Bill:"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Más fiestas españolas España es uno de los países con más folklore y fiestas populares de toda Europa. Algunas de ellas siguen unidas al calendario religioso, como La Semana Santa, que recuerda la muerte de Jesucristo. Se celebra en primavera. Las principales celebraciones de Semana Santa son las de Castilla y las de Andalucía. Entre los días 7 y 14 de julio se celebra la fiesta mundialmente conocida como los Sanfermines. En estos días, Pamplona recibe a más de un millón y medio de turistas, la mayoría de ellos neozelandeses, australianos, ingleses y franceses, que vienen a correr delante de los toros y a vivir intensamente esta semana. Es tan popular que en Estados Unidos y en algunos países de Europa se retransmite en directo por televisión. Unida tradicionalmente al final del invierno tenemos Las Fallas de Valencia. El fuego, elemento mágico y fundamental de esta fiesta, quema todo lo viejo para dejar entrar a la primavera. Hoy en día se queman enormes esculturas de madera que representan la vida diaria y política del país y del mundo. En Sevilla, una de las ciudades más bellas de Andalucía, se celebra la conocida Feria de Abril. Una semana de cante y baile, de caballos y toros. Como en muchos otros lugares del mundo, en España también se celebran Los Carnavales. En cada lugar los celebran de una forma diferente. Por ello sería interesante poder visitarlos todos. Si no se puede, recomendamos los de Tenerife y los de Cádiz, que son famosos dentro y fuera de España. Son muy diferentes, pero los dos tienen mucho éxito. Y una fiesta muy especial es la conocida como La Tamborrada. Se celebra en San Sebastián. Es un concierto de tambores tocados por niños y adultos durante 24 horas."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "sus compañeros de inglés",
     "su curso en California"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hola, Bill: He empezado mi curso de inglés, ¡por fin! Somos cinco alumnos en total y el profesor Mark, que es de California. Hay dos chicas, Susana y Patricia. Susana tiene 18 años y es dependienta de una tienda de ropa. Patricia tiene 25 años, es enfermera y trabaja en un hospital. Los chicos son Jordi, que tiene 38 años y es policía, Pepe, que es abogado y yo, arquitecto de 31 años, que no habla mucho inglés y necesito mejorar mi nivel. Somos un grupo de estudiantes divertidos. Mi próxima carta te la escribo en inglés. Un abrazo Ramón"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "dos chicos y dos chicas",
     "seis alumnos en total"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hola, Bill: He empezado mi curso de inglés, ¡por fin! Somos cinco alumnos en total y el profesor Mark, que es de California. Hay dos chicas, Susana y Patricia. Susana tiene 18 años y es dependienta de una tienda de ropa. Patricia tiene 25 años, es enfermera y trabaja en un hospital. Los chicos son Jordi, que tiene 38 años y es policía, Pepe, que es abogado y yo, arquitecto de 31 años, que no habla mucho inglés y necesito mejorar mi nivel. Somos un grupo de estudiantes divertidos. Mi próxima carta te la escribo en inglés. Un abrazo Ramón"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "es de Madrid",
     "trabaja con Jordi"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hola, Bill: He empezado mi curso de inglés, ¡por fin! Somos cinco alumnos en total y el profesor Mark, que es de California. Hay dos chicas, Susana y Patricia. Susana tiene 18 años y es dependienta de una tienda de ropa. Patricia tiene 25 años, es enfermera y trabaja en un hospital. Los chicos son Jordi, que tiene 38 años y es policía, Pepe, que es abogado y yo, arquitecto de 31 años, que no habla mucho inglés y necesito mejorar mi nivel. Somos un grupo de estudiantes divertidos. Mi próxima carta te la escribo en inglés. Un abrazo Ramón"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "habla italiano",
     "se llama Mark"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Hola, Bill: He empezado mi curso de inglés, ¡por fin! Somos cinco alumnos en total y el profesor Mark, que es de California. Hay dos chicas, Susana y Patricia. Susana tiene 18 años y es dependienta de una tienda de ropa. Patricia tiene 25 años, es enfermera y trabaja en un hospital. Los chicos son Jordi, que tiene 38 años y es policía, Pepe, que es abogado y yo, arquitecto de 31 años, que no habla mucho inglés y necesito mejorar mi nivel. Somos un grupo de estudiantes divertidos. Mi próxima carta te la escribo en inglés. Un abrazo Ramón"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l008'] = {
     "mejorar su inglés",
     "comprender el inglés"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hola, Bill: He empezado mi curso de inglés, ¡por fin! Somos cinco alumnos en total y el profesor Mark, que es de California. Hay dos chicas, Susana y Patricia. Susana tiene 18 años y es dependienta de una tienda de ropa. Patricia tiene 25 años, es enfermera y trabaja en un hospital. Los chicos son Jordi, que tiene 38 años y es policía, Pepe, que es abogado y yo, arquitecto de 31 años, que no habla mucho inglés y necesito mejorar mi nivel. Somos un grupo de estudiantes divertidos. Mi próxima carta te la escribo en inglés. Un abrazo Ramón"
   }
  ]
 };

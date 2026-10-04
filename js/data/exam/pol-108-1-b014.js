@@ -710,7 +710,7 @@ window.APP_EXAM_PAPERS['pol-108-1-b014'] = {
     "Scoop and Run",
     "Stay and Play",
     "Stay and Run",
-    "Scoop and Play請依下文回答第 51 題至第 55 題Historically, physicists created a graphical representation detailing the three elements of fire (fire"
+    "Scoop and Play"
    ],
    "a": 0,
    "exp": "✅ (A) Scoop and Run（立即載送）：在緊急醫療救護（EMS）創傷處置中，針對體內大量出血之病患，現場應迅速進行基本處置後立即後送外科手術，此策略即為 Scoop and Run。\n❌ (B) Stay and Play（現場處置）：指救護人員於現場花費較多時間進行進階醫療處置以求穩定，不利於需即刻手術止血的內出血患者。\n❌ (C) Stay and Run：非緊急醫療救護之標準專業術語。\n❌ (D) Scoop and Play：非緊急醫療救護之標準專業術語。\n📚 出處：緊急救護技術（EMS）創傷救護原則（Scoop and Run vs. Stay and Play）。"
@@ -719,76 +719,71 @@ window.APP_EXAM_PAPERS['pol-108-1-b014'] = {
    "n": 51,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 51 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "boiling",
+    "creating",
+    "deleting",
+    "naming"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_506_0208_51.webp"
+   "psg": "Historically, physicists created a graphical representation detailing the three elements of fire (fire triangle). In recent years, one more point has been added, 51 the fire tetrahedron. The four elements needed to 52 combustion are: fuel, oxygen, heat and a chemical chain reaction. To extinguish a fire, it is 53 to remove one or more of the four components of combustion. Removing any of these components of the fire tetrahedron will stop the other elements from interacting and not allow combustion to 54 . Firefighters work on limiting 55 (fuel that is in jeopardy of being ignited by nearby flame or from radiant heat), containing and extinguishing fire and then overhauling charred and burned debris from the affected areas as well as extinguishing all hidden fires to prevent a rekindle."
   },
   {
    "n": 52,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 52 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "prevent",
+    "repress",
+    "sustain",
+    "discharge"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108070_506_0208_52.webp"
+   "psg": "Historically, physicists created a graphical representation detailing the three elements of fire (fire triangle). In recent years, one more point has been added, 51 the fire tetrahedron. The four elements needed to 52 combustion are: fuel, oxygen, heat and a chemical chain reaction. To extinguish a fire, it is 53 to remove one or more of the four components of combustion. Removing any of these components of the fire tetrahedron will stop the other elements from interacting and not allow combustion to 54 . Firefighters work on limiting 55 (fuel that is in jeopardy of being ignited by nearby flame or from radiant heat), containing and extinguishing fire and then overhauling charred and burned debris from the affected areas as well as extinguishing all hidden fires to prevent a rekindle."
   },
   {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "forbidden",
+    "mandatory",
+    "tumultuous",
+    "stimulating"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_506_0208_53.webp"
+   "psg": "Historically, physicists created a graphical representation detailing the three elements of fire (fire triangle). In recent years, one more point has been added, 51 the fire tetrahedron. The four elements needed to 52 combustion are: fuel, oxygen, heat and a chemical chain reaction. To extinguish a fire, it is 53 to remove one or more of the four components of combustion. Removing any of these components of the fire tetrahedron will stop the other elements from interacting and not allow combustion to 54 . Firefighters work on limiting 55 (fuel that is in jeopardy of being ignited by nearby flame or from radiant heat), containing and extinguishing fire and then overhauling charred and burned debris from the affected areas as well as extinguishing all hidden fires to prevent a rekindle."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "cease",
+    "proceed",
+    "halt",
+    "desist"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_506_0208_54.webp"
+   "psg": "Historically, physicists created a graphical representation detailing the three elements of fire (fire triangle). In recent years, one more point has been added, 51 the fire tetrahedron. The four elements needed to 52 combustion are: fuel, oxygen, heat and a chemical chain reaction. To extinguish a fire, it is 53 to remove one or more of the four components of combustion. Removing any of these components of the fire tetrahedron will stop the other elements from interacting and not allow combustion to 54 . Firefighters work on limiting 55 (fuel that is in jeopardy of being ignited by nearby flame or from radiant heat), containing and extinguishing fire and then overhauling charred and burned debris from the affected areas as well as extinguishing all hidden fires to prevent a rekindle."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "exhausts",
+    "expeditions",
+    "explosives",
+    "exposures"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/108070_506_0208_55.webp"
+   "psg": "Historically, physicists created a graphical representation detailing the three elements of fire (fire triangle). In recent years, one more point has been added, 51 the fire tetrahedron. The four elements needed to 52 combustion are: fuel, oxygen, heat and a chemical chain reaction. To extinguish a fire, it is 53 to remove one or more of the four components of combustion. Removing any of these components of the fire tetrahedron will stop the other elements from interacting and not allow combustion to 54 . Firefighters work on limiting 55 (fuel that is in jeopardy of being ignited by nearby flame or from radiant heat), containing and extinguishing fire and then overhauling charred and burned debris from the affected areas as well as extinguishing all hidden fires to prevent a rekindle."
   },
   {
    "n": 56,

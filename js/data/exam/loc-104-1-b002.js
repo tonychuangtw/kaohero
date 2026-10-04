@@ -528,7 +528,7 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "emphasis",
     "guardian",
     "promotion",
-    "discipline第 38 題為填充題，第 39 題及第 40 題為代換題Marie had been up on to make some changes in her life for a long time, and she’d been (38) an ambition to be"
+    "discipline"
    ],
    "a": 2,
    "exp": "✅ (C) promotion 意為「升遷」，與後句「她現在是業務經理」呼應。\n❌ (A) emphasis 是強調。\n❌ (B) guardian 是監護人。\n❌ (D) discipline 是紀律、學科。\n📚 出處：字彙題，win a pay raise and promotion 的搭配"
@@ -537,16 +537,15 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    "n": 38,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 38 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "heating",
+    "making",
+    "running",
+    "nursing"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104180_401_0207_38.webp"
+   "psg": "第 38 題為填充題，第 39 題及第 40 題為代換題 Marie had been up on to make some changes in her life for a long time, and she’d been (38) an ambition to be the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks."
   },
   {
    "n": 39,
@@ -561,22 +560,22 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/104180_401_0207_39.webp",
-   "a": 0
+   "a": 0,
+   "psg": "第 38 題為填充題，第 39 題及第 40 題為代換題 Marie had been up on to make some changes in her life for a long time, and she’d been (38) an ambition to be the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "a hunch",
+    "a way",
+    "a prize",
+    "a need"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104180_401_0207_40.webp"
+   "psg": "第 38 題為填充題，第 39 題及第 40 題為代換題 Marie had been up on to make some changes in her life for a long time, and she’d been (38) an ambition to be the boss. She finally found a job where she could run after herself (39) and do things her way. In her new job, a lot of changes needed to be made,but Marie had a knack (40) for reorganizing. She thought it would be necessary to keep an open mind over other employees’ complaints. This would take time and that she’d probably be working into the wee hours of morning for many weeks."
   },
   {
    "n": 41,
@@ -601,7 +600,7 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "cloning",
     "hacking",
     "locking",
-    "copying第 43 題至第 45 題為題組In different countries and cultures around the world free time is spent in different ways. The results of a 2001"
+    "copying"
    ],
    "a": 0,
    "exp": "✅ (A) cloning techniques（複製技術）才與科學家探索創造生命的可能性相關。\n❌ (B) hacking 是駭客入侵。\n❌ (C) locking 是上鎖。\n❌ (D) copying 是複印、抄襲，不用於生物學上的個體複製。\n📚 出處：字彙題，cloning technique 的專有用法"
@@ -610,31 +609,29 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "part-time",
+    "work-time",
+    "spare-time",
+    "extra-time"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104180_401_0207_43.webp"
+   "psg": "為題組 In different countries and cultures around the world free time is spent in different ways. The results of a 2001 Harris Poll showed that reading was the most popular 43 activity in the United States. This was followed by watching TV, then 44 time with family. In a similar survey 45 in Japan, the most popular free-time activity was eating out. The second most popular activity was driving."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "doing",
+    "making",
+    "spending",
+    "taking"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104180_401_0207_44.webp"
+   "psg": "為題組 In different countries and cultures around the world free time is spent in different ways. The results of a 2001 Harris Poll showed that reading was the most popular 43 activity in the United States. This was followed by watching TV, then 44 time with family. In a similar survey 45 in Japan, the most popular free-time activity was eating out. The second most popular activity was driving."
   },
   {
    "n": 45,
@@ -649,7 +646,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/104180_401_0207_45.webp",
-   "a": 3
+   "a": 3,
+   "psg": "為題組 In different countries and cultures around the world free time is spent in different ways. The results of a 2001 Harris Poll showed that reading was the most popular 43 activity in the United States. This was followed by watching TV, then 44 time with family. In a similar survey 45 in Japan, the most popular free-time activity was eating out. The second most popular activity was driving."
   },
   {
    "n": 46,
@@ -662,7 +660,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "The Importance of a Clean Room",
     "A Series of Books on Cleanliness in Japan"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said."
   },
   {
    "n": 47,
@@ -675,7 +674,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "The garage.",
     "The kitchen."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said."
   },
   {
    "n": 48,
@@ -688,7 +688,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "To attract good luck.",
     "To beautify people’s surroundings."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said."
   },
   {
    "n": 49,
@@ -701,7 +702,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "Television programs also touch upon the topic of toilet cleaning.",
     "The idea of toilet cleaning has been taken up only recently."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said."
   },
   {
    "n": 50,
@@ -714,7 +716,8 @@ window.APP_EXAM_PAPERS['loc-104-1-b002'] = {
     "She cleans the toilet mainly to keep her family healthy.",
     "She has been unlucky since she started writing her book."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 Cleanliness has long been next to godliness for the hygiene-conscious Japanese, but fortune-tellers are now advising those who want to succeed in life to start by scrubbing the smallest room. Cleaning the Toilet to Attract Luck published this month is the latest in a series of books advising readers on how to attract good fortune using a brush and an array of cleaning fluids. “Don’t just wipe the floor, polish it,” the book instructs. “It’s important to maintain a positive mood while cleaning.” The books are inspired by Buddhist teachings and feng shui, a traditional Chinese belief that people’s fortunes are determined by their surroundings. The idea that Lady Luck may be hiding in the lavatory has been taken up by magazines and television programs. “I won the lottery! I married my ideal person! I got pregnant!” read some of the claims on the cover of another book on the topic, published last year. The idea that a clean toilet can bring good fortune, or even make you more beautiful, has existed in Japan for many years, according to Yuka Soma of Makino Publishing in Tokyo, editor of one of the toilet books. But she is still waiting for a big stroke of luck. “I’ve always cleaned my toilet every day, so it never really gets dirty,” she said. “At least it’s easy that way and it probably helps keep my family healthy,” she said."
   }
  ]
 };

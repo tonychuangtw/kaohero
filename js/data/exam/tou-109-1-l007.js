@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "deshalb habe ich ein Problem",
     "darum habe ich ein Problem",
     "denn habe ich ein Problem",
-    "deswegen habe ich ein ProblemDie Kinder- und Hausmärchen"
+    "deswegen habe ich ein Problem"
    ],
    "a": 2,
    "exp": "✅ (C) denn 是並列連接詞，不佔句子成分，後面必須維持「主詞＋動詞」語序（denn ich habe ein Problem）；寫成 denn habe ich 是倒裝，語序錯誤，故此句不能用。\n❌ (A) deshalb 是連接副詞，佔第一位使主詞動詞倒裝，deshalb habe ich ... 正確。\n❌ (B) darum 同為表結果的連接副詞，倒裝語序正確。\n❌ (D) deswegen 用法與 deshalb 相同，句子成立。\n📚 出處：德語語法：並列連接詞 denn 與連接副詞 deshalb/darum/deswegen 的語序差異"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "In Marburg.",
     "In Oelenberg."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Die Kinder- und Hausmärchen Das Interesse der Grimms an Märchen wurde durch die beiden Romantiker Clemens Brentano (1778-1842) und Achim von Armin (1781-1831) geweckt, die sie 1803 an der Marburger Universität kennen lernten. Die Brüder begannen 1807 Märchen zu erforschen und aufzuzeichnen. 1810 sandten sie eine erste Fassung an Brentano. Diese handschriftlichen Aufzeichnungen galten lange als verschollen und wurden erst im 20. Jahrhundert im Kloster Oelenberg wieder entdeckt. 1812 erschien die erste gedruckte Ausgabe der Kinder- und Hausmärchen mit 86 Märchen. Ein zweiter Teil mit weiteren 72 Märchen erschien 1815. Mit dem dritten Band mit Varianten und Anmerkungen, der 1822 herauskam, begründeten die Brüder Grimm die wissenschaftliche Märchenforschung. Die Märchenbücher wurden für die weiteren Auflagen erweitert, verändert und ergänzt. Zu Lebzeiten der Brüder Grimm erschienen die Märchen in insgesamt sieben Auflagen und die Sammlung wurde immer wieder auch in sprachlicher Hinsicht umgearbeitet. Die heute gebräuchliche Ausgabe der Kinder- und Hausmärchen ist die Ausgabe „letzter Hand“ von 1857 und umfasst insgesamt 200 Märchen und 10 Kinderlegenden. Darüber hinaus gibt es einen Anhang mit 28 weiteren Märchen. Allerdings gelten nicht alle, gemessen an den oben entwickelten Kriterien, als wirkliche Märchen. Einige Forscher sind der Ansicht, dass nur etwa sechzig der in den Kinder- und Hausmärchen abgedruckten Märchen tatsächlich der Gattung Märchen zuzuordnen sind, die anderen sind zum Beispiel als Legenden, Fabeln, Mythen oder Schwänke einzuordnen."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "In ihrem Geburtsort Hanau.",
     "An der Universität Göttingen."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Die Kinder- und Hausmärchen Das Interesse der Grimms an Märchen wurde durch die beiden Romantiker Clemens Brentano (1778-1842) und Achim von Armin (1781-1831) geweckt, die sie 1803 an der Marburger Universität kennen lernten. Die Brüder begannen 1807 Märchen zu erforschen und aufzuzeichnen. 1810 sandten sie eine erste Fassung an Brentano. Diese handschriftlichen Aufzeichnungen galten lange als verschollen und wurden erst im 20. Jahrhundert im Kloster Oelenberg wieder entdeckt. 1812 erschien die erste gedruckte Ausgabe der Kinder- und Hausmärchen mit 86 Märchen. Ein zweiter Teil mit weiteren 72 Märchen erschien 1815. Mit dem dritten Band mit Varianten und Anmerkungen, der 1822 herauskam, begründeten die Brüder Grimm die wissenschaftliche Märchenforschung. Die Märchenbücher wurden für die weiteren Auflagen erweitert, verändert und ergänzt. Zu Lebzeiten der Brüder Grimm erschienen die Märchen in insgesamt sieben Auflagen und die Sammlung wurde immer wieder auch in sprachlicher Hinsicht umgearbeitet. Die heute gebräuchliche Ausgabe der Kinder- und Hausmärchen ist die Ausgabe „letzter Hand“ von 1857 und umfasst insgesamt 200 Märchen und 10 Kinderlegenden. Darüber hinaus gibt es einen Anhang mit 28 weiteren Märchen. Allerdings gelten nicht alle, gemessen an den oben entwickelten Kriterien, als wirkliche Märchen. Einige Forscher sind der Ansicht, dass nur etwa sechzig der in den Kinder- und Hausmärchen abgedruckten Märchen tatsächlich der Gattung Märchen zuzuordnen sind, die anderen sind zum Beispiel als Legenden, Fabeln, Mythen oder Schwänke einzuordnen."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "1822 erschien der dritte Teil der Kinder- und Hausmärchen.",
     "Die Märchensammlung blieb für weitere Auflagen in sprachlicher Hinsicht unverändert."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Die Kinder- und Hausmärchen Das Interesse der Grimms an Märchen wurde durch die beiden Romantiker Clemens Brentano (1778-1842) und Achim von Armin (1781-1831) geweckt, die sie 1803 an der Marburger Universität kennen lernten. Die Brüder begannen 1807 Märchen zu erforschen und aufzuzeichnen. 1810 sandten sie eine erste Fassung an Brentano. Diese handschriftlichen Aufzeichnungen galten lange als verschollen und wurden erst im 20. Jahrhundert im Kloster Oelenberg wieder entdeckt. 1812 erschien die erste gedruckte Ausgabe der Kinder- und Hausmärchen mit 86 Märchen. Ein zweiter Teil mit weiteren 72 Märchen erschien 1815. Mit dem dritten Band mit Varianten und Anmerkungen, der 1822 herauskam, begründeten die Brüder Grimm die wissenschaftliche Märchenforschung. Die Märchenbücher wurden für die weiteren Auflagen erweitert, verändert und ergänzt. Zu Lebzeiten der Brüder Grimm erschienen die Märchen in insgesamt sieben Auflagen und die Sammlung wurde immer wieder auch in sprachlicher Hinsicht umgearbeitet. Die heute gebräuchliche Ausgabe der Kinder- und Hausmärchen ist die Ausgabe „letzter Hand“ von 1857 und umfasst insgesamt 200 Märchen und 10 Kinderlegenden. Darüber hinaus gibt es einen Anhang mit 28 weiteren Märchen. Allerdings gelten nicht alle, gemessen an den oben entwickelten Kriterien, als wirkliche Märchen. Einige Forscher sind der Ansicht, dass nur etwa sechzig der in den Kinder- und Hausmärchen abgedruckten Märchen tatsächlich der Gattung Märchen zuzuordnen sind, die anderen sind zum Beispiel als Legenden, Fabeln, Mythen oder Schwänke einzuordnen."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "1815",
     "1857"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Die Kinder- und Hausmärchen Das Interesse der Grimms an Märchen wurde durch die beiden Romantiker Clemens Brentano (1778-1842) und Achim von Armin (1781-1831) geweckt, die sie 1803 an der Marburger Universität kennen lernten. Die Brüder begannen 1807 Märchen zu erforschen und aufzuzeichnen. 1810 sandten sie eine erste Fassung an Brentano. Diese handschriftlichen Aufzeichnungen galten lange als verschollen und wurden erst im 20. Jahrhundert im Kloster Oelenberg wieder entdeckt. 1812 erschien die erste gedruckte Ausgabe der Kinder- und Hausmärchen mit 86 Märchen. Ein zweiter Teil mit weiteren 72 Märchen erschien 1815. Mit dem dritten Band mit Varianten und Anmerkungen, der 1822 herauskam, begründeten die Brüder Grimm die wissenschaftliche Märchenforschung. Die Märchenbücher wurden für die weiteren Auflagen erweitert, verändert und ergänzt. Zu Lebzeiten der Brüder Grimm erschienen die Märchen in insgesamt sieben Auflagen und die Sammlung wurde immer wieder auch in sprachlicher Hinsicht umgearbeitet. Die heute gebräuchliche Ausgabe der Kinder- und Hausmärchen ist die Ausgabe „letzter Hand“ von 1857 und umfasst insgesamt 200 Märchen und 10 Kinderlegenden. Darüber hinaus gibt es einen Anhang mit 28 weiteren Märchen. Allerdings gelten nicht alle, gemessen an den oben entwickelten Kriterien, als wirkliche Märchen. Einige Forscher sind der Ansicht, dass nur etwa sechzig der in den Kinder- und Hausmärchen abgedruckten Märchen tatsächlich der Gattung Märchen zuzuordnen sind, die anderen sind zum Beispiel als Legenden, Fabeln, Mythen oder Schwänke einzuordnen."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Mythen und Schwänke kommen auch in der Märchensammlung vor.",
     "Alle gesammelten Märchen gehören tatsächlich zur Gattung Märchen.Eine E-MailHallo Tina,"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Die Kinder- und Hausmärchen Das Interesse der Grimms an Märchen wurde durch die beiden Romantiker Clemens Brentano (1778-1842) und Achim von Armin (1781-1831) geweckt, die sie 1803 an der Marburger Universität kennen lernten. Die Brüder begannen 1807 Märchen zu erforschen und aufzuzeichnen. 1810 sandten sie eine erste Fassung an Brentano. Diese handschriftlichen Aufzeichnungen galten lange als verschollen und wurden erst im 20. Jahrhundert im Kloster Oelenberg wieder entdeckt. 1812 erschien die erste gedruckte Ausgabe der Kinder- und Hausmärchen mit 86 Märchen. Ein zweiter Teil mit weiteren 72 Märchen erschien 1815. Mit dem dritten Band mit Varianten und Anmerkungen, der 1822 herauskam, begründeten die Brüder Grimm die wissenschaftliche Märchenforschung. Die Märchenbücher wurden für die weiteren Auflagen erweitert, verändert und ergänzt. Zu Lebzeiten der Brüder Grimm erschienen die Märchen in insgesamt sieben Auflagen und die Sammlung wurde immer wieder auch in sprachlicher Hinsicht umgearbeitet. Die heute gebräuchliche Ausgabe der Kinder- und Hausmärchen ist die Ausgabe „letzter Hand“ von 1857 und umfasst insgesamt 200 Märchen und 10 Kinderlegenden. Darüber hinaus gibt es einen Anhang mit 28 weiteren Märchen. Allerdings gelten nicht alle, gemessen an den oben entwickelten Kriterien, als wirkliche Märchen. Einige Forscher sind der Ansicht, dass nur etwa sechzig der in den Kinder- und Hausmärchen abgedruckten Märchen tatsächlich der Gattung Märchen zuzuordnen sind, die anderen sind zum Beispiel als Legenden, Fabeln, Mythen oder Schwänke einzuordnen."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Er freut sich, die Mitschüler zu sehen.",
     "Er mag Englisch."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Eine E-Mail Hallo Tina, wie geht es dir denn so? Hat das Schuljahr gut angefangen? Wie war die Fahrradtour auf dem Donau-Radweg? War das letzte Stück bis Wien aufregend? Ich bin nun in der neunten Klasse, aber alles ist wie immer: Stress mit den anderen aus der Klasse, viele Hausaufgaben und die Lehrer sind wie immer. Zurzeit ist Sport das einzige Fach, das ich so richtig gut finde. Ich habe früher mit meinen Freunden aus dem Nachbarhaus Fußball gespielt. Außerdem bin ich schon immer gerne Fahrrad gefahren. Aber das habe ich dir in den Sommerferien beim Radfahren schon alles erzählt. Weißt du, was mir gerade total Spaß macht? Laufen! Nächstes Frühjahr möchte ich hier in Berlin beim Halbmarathon, rund 21 Kilometer durch Berlin, mitlaufen. Da muss ich noch ganz schön trainieren! Manchmal läuft jetzt mein Vater mit mir. Er macht allerdings im Frühjahr nicht mit, weil er nicht so viel Zeit zum Trainieren hat. Hast du nicht Lust, an diesem großen Tag nach Berlin zu kommen? Dann könntest du beim Halbmarathon zusehen. Und natürlich würde ich dir die Stadt zeigen. Ich würde mich total freuen. Für meinen Vater und meine Mutter ist es in Ordnung, wenn du bei uns übernachtest. Meine Schwester freut sich immer über Besuch. Nur mein großer Bruder hat sich ein bisschen geärgert, denn seine Freundin hat uns noch nie besucht. Überleg’s dir mal! Bis bald, Tassilo"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Fußball.",
     "Fahrradtour."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Eine E-Mail Hallo Tina, wie geht es dir denn so? Hat das Schuljahr gut angefangen? Wie war die Fahrradtour auf dem Donau-Radweg? War das letzte Stück bis Wien aufregend? Ich bin nun in der neunten Klasse, aber alles ist wie immer: Stress mit den anderen aus der Klasse, viele Hausaufgaben und die Lehrer sind wie immer. Zurzeit ist Sport das einzige Fach, das ich so richtig gut finde. Ich habe früher mit meinen Freunden aus dem Nachbarhaus Fußball gespielt. Außerdem bin ich schon immer gerne Fahrrad gefahren. Aber das habe ich dir in den Sommerferien beim Radfahren schon alles erzählt. Weißt du, was mir gerade total Spaß macht? Laufen! Nächstes Frühjahr möchte ich hier in Berlin beim Halbmarathon, rund 21 Kilometer durch Berlin, mitlaufen. Da muss ich noch ganz schön trainieren! Manchmal läuft jetzt mein Vater mit mir. Er macht allerdings im Frühjahr nicht mit, weil er nicht so viel Zeit zum Trainieren hat. Hast du nicht Lust, an diesem großen Tag nach Berlin zu kommen? Dann könntest du beim Halbmarathon zusehen. Und natürlich würde ich dir die Stadt zeigen. Ich würde mich total freuen. Für meinen Vater und meine Mutter ist es in Ordnung, wenn du bei uns übernachtest. Meine Schwester freut sich immer über Besuch. Nur mein großer Bruder hat sich ein bisschen geärgert, denn seine Freundin hat uns noch nie besucht. Überleg’s dir mal! Bis bald, Tassilo"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Laufen.",
     "Lernen."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Eine E-Mail Hallo Tina, wie geht es dir denn so? Hat das Schuljahr gut angefangen? Wie war die Fahrradtour auf dem Donau-Radweg? War das letzte Stück bis Wien aufregend? Ich bin nun in der neunten Klasse, aber alles ist wie immer: Stress mit den anderen aus der Klasse, viele Hausaufgaben und die Lehrer sind wie immer. Zurzeit ist Sport das einzige Fach, das ich so richtig gut finde. Ich habe früher mit meinen Freunden aus dem Nachbarhaus Fußball gespielt. Außerdem bin ich schon immer gerne Fahrrad gefahren. Aber das habe ich dir in den Sommerferien beim Radfahren schon alles erzählt. Weißt du, was mir gerade total Spaß macht? Laufen! Nächstes Frühjahr möchte ich hier in Berlin beim Halbmarathon, rund 21 Kilometer durch Berlin, mitlaufen. Da muss ich noch ganz schön trainieren! Manchmal läuft jetzt mein Vater mit mir. Er macht allerdings im Frühjahr nicht mit, weil er nicht so viel Zeit zum Trainieren hat. Hast du nicht Lust, an diesem großen Tag nach Berlin zu kommen? Dann könntest du beim Halbmarathon zusehen. Und natürlich würde ich dir die Stadt zeigen. Ich würde mich total freuen. Für meinen Vater und meine Mutter ist es in Ordnung, wenn du bei uns übernachtest. Meine Schwester freut sich immer über Besuch. Nur mein großer Bruder hat sich ein bisschen geärgert, denn seine Freundin hat uns noch nie besucht. Überleg’s dir mal! Bis bald, Tassilo"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Dass sie ihn in Berlin besucht.",
     "Dass sie mit ihm trainiert."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Eine E-Mail Hallo Tina, wie geht es dir denn so? Hat das Schuljahr gut angefangen? Wie war die Fahrradtour auf dem Donau-Radweg? War das letzte Stück bis Wien aufregend? Ich bin nun in der neunten Klasse, aber alles ist wie immer: Stress mit den anderen aus der Klasse, viele Hausaufgaben und die Lehrer sind wie immer. Zurzeit ist Sport das einzige Fach, das ich so richtig gut finde. Ich habe früher mit meinen Freunden aus dem Nachbarhaus Fußball gespielt. Außerdem bin ich schon immer gerne Fahrrad gefahren. Aber das habe ich dir in den Sommerferien beim Radfahren schon alles erzählt. Weißt du, was mir gerade total Spaß macht? Laufen! Nächstes Frühjahr möchte ich hier in Berlin beim Halbmarathon, rund 21 Kilometer durch Berlin, mitlaufen. Da muss ich noch ganz schön trainieren! Manchmal läuft jetzt mein Vater mit mir. Er macht allerdings im Frühjahr nicht mit, weil er nicht so viel Zeit zum Trainieren hat. Hast du nicht Lust, an diesem großen Tag nach Berlin zu kommen? Dann könntest du beim Halbmarathon zusehen. Und natürlich würde ich dir die Stadt zeigen. Ich würde mich total freuen. Für meinen Vater und meine Mutter ist es in Ordnung, wenn du bei uns übernachtest. Meine Schwester freut sich immer über Besuch. Nur mein großer Bruder hat sich ein bisschen geärgert, denn seine Freundin hat uns noch nie besucht. Überleg’s dir mal! Bis bald, Tassilo"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l007'] = {
     "Sie haben verboten, dass Tassilo Tina besucht.",
     "Sie wissen nichts davon."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Eine E-Mail Hallo Tina, wie geht es dir denn so? Hat das Schuljahr gut angefangen? Wie war die Fahrradtour auf dem Donau-Radweg? War das letzte Stück bis Wien aufregend? Ich bin nun in der neunten Klasse, aber alles ist wie immer: Stress mit den anderen aus der Klasse, viele Hausaufgaben und die Lehrer sind wie immer. Zurzeit ist Sport das einzige Fach, das ich so richtig gut finde. Ich habe früher mit meinen Freunden aus dem Nachbarhaus Fußball gespielt. Außerdem bin ich schon immer gerne Fahrrad gefahren. Aber das habe ich dir in den Sommerferien beim Radfahren schon alles erzählt. Weißt du, was mir gerade total Spaß macht? Laufen! Nächstes Frühjahr möchte ich hier in Berlin beim Halbmarathon, rund 21 Kilometer durch Berlin, mitlaufen. Da muss ich noch ganz schön trainieren! Manchmal läuft jetzt mein Vater mit mir. Er macht allerdings im Frühjahr nicht mit, weil er nicht so viel Zeit zum Trainieren hat. Hast du nicht Lust, an diesem großen Tag nach Berlin zu kommen? Dann könntest du beim Halbmarathon zusehen. Und natürlich würde ich dir die Stadt zeigen. Ich würde mich total freuen. Für meinen Vater und meine Mutter ist es in Ordnung, wenn du bei uns übernachtest. Meine Schwester freut sich immer über Besuch. Nur mein großer Bruder hat sich ein bisschen geärgert, denn seine Freundin hat uns noch nie besucht. Überleg’s dir mal! Bis bald, Tassilo"
   }
  ]
 };

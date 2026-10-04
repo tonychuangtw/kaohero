@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-110-1-p002'] = {
     "accused",
     "convinced",
     "insisted",
-    "registered請依下文回答第 41 題至第 45 題France’s environment minister, Barbara Pompili, said in a recent news conference that bears, tigers, elephants and"
+    "registered"
    ],
    "a": 1,
    "exp": "✅ (B) be convinced that... 意為「深信」，候選人原本深信自己會贏，結果卻相反。\n❌ (A) accuse 的用法是 be accused of。\n❌ (C) insist 不用被動的 be insisted that 指稱主詞的信念。\n❌ (D) register 是登記。\n📚 出處：英文句型（be convinced that）"
@@ -579,46 +579,43 @@ window.APP_EXAM_PAPERS['gao-110-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "In addition",
+    "In contrast",
+    "In conclusion",
+    "In conjunction"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/110090_401_0106_41.webp"
+   "psg": "France’s environment minister, Barbara Pompili, said in a recent news conference that bears, tigers, elephants and other wild animals will no longer be allowed in traveling circuses in the coming years. 41 , the minister said that starting immediately, France’s three marine parks will no longer be able to bring in or breed dolphins and killer whales. “It is time to open a new era in our relationship with these wild animals,” Ms. Pompili said, arguing that animal 42 is a priority. She said the measures will also bring an end to mink farming, in 43 animals are raised for their fur. The 44 does not apply to wild animals in other permanent shows and in zoos. The French government will 45 an aid package of more than 8 million euros to help animal shows transition to a new business model. In France, many cities already do not allow circuses with wild animal shows to pitch their tents."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "poaching",
+    "exhibition",
+    "welfare",
+    "commerce"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/110090_401_0106_42.webp"
+   "psg": "France’s environment minister, Barbara Pompili, said in a recent news conference that bears, tigers, elephants and other wild animals will no longer be allowed in traveling circuses in the coming years. 41 , the minister said that starting immediately, France’s three marine parks will no longer be able to bring in or breed dolphins and killer whales. “It is time to open a new era in our relationship with these wild animals,” Ms. Pompili said, arguing that animal 42 is a priority. She said the measures will also bring an end to mink farming, in 43 animals are raised for their fur. The 44 does not apply to wild animals in other permanent shows and in zoos. The French government will 45 an aid package of more than 8 million euros to help animal shows transition to a new business model. In France, many cities already do not allow circuses with wild animal shows to pitch their tents."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "that",
+    "which",
+    "where",
+    "there"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/110090_401_0106_43.webp"
+   "psg": "France’s environment minister, Barbara Pompili, said in a recent news conference that bears, tigers, elephants and other wild animals will no longer be allowed in traveling circuses in the coming years. 41 , the minister said that starting immediately, France’s three marine parks will no longer be able to bring in or breed dolphins and killer whales. “It is time to open a new era in our relationship with these wild animals,” Ms. Pompili said, arguing that animal 42 is a priority. She said the measures will also bring an end to mink farming, in 43 animals are raised for their fur. The 44 does not apply to wild animals in other permanent shows and in zoos. The French government will 45 an aid package of more than 8 million euros to help animal shows transition to a new business model. In France, many cities already do not allow circuses with wild animal shows to pitch their tents."
   },
   {
    "n": 44,

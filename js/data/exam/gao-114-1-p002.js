@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-114-1-p002'] = {
     "association",
     "individual",
     "recreation",
-    "supplement請依下文回答第 41 題至第 45 題：Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service."
+    "supplement"
    ],
    "a": 1,
    "exp": "✅ (B) individual 作名詞意為「個體、個人」，每位學生都是能力、興趣、潛能與學習風格各異的獨特個體。\n❌ (A) association 是協會、聯想。\n❌ (C) recreation 是娛樂。\n❌ (D) supplement 是補充品。\n📚 出處：英文字彙（individual 的字義）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-114-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "pushed",
+    "pushes",
+    "that push",
+    "that are pushed"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114080_401_0402_41.webp"
+   "psg": "Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service. Instead of wheels, these trains have special electromagnetic systems 41 them up and move them forward. They zoom along the tracks at incredible speeds, far exceeding those of traditional trains. They can achieve speeds above 300 miles per hour, 42 bullet trains usually go around 200 miles per hour. What makes maglev trains special is that they don’t touch the ground, so there is no friction, which means they can go extremely fast without any 43 . Right now, there are only a limited number of these amazing trains in 44 , but they are expected to become more popular in the future. They operate quietly, are cost-effective to maintain, and produce minimal pollution 45 to certain other types of trains. In fact, it is predicted that they may be even as popular as air transportation one day!"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "that",
+    "what",
+    "which",
+    "while"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114080_401_0402_42.webp"
+   "psg": "Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service. Instead of wheels, these trains have special electromagnetic systems 41 them up and move them forward. They zoom along the tracks at incredible speeds, far exceeding those of traditional trains. They can achieve speeds above 300 miles per hour, 42 bullet trains usually go around 200 miles per hour. What makes maglev trains special is that they don’t touch the ground, so there is no friction, which means they can go extremely fast without any 43 . Right now, there are only a limited number of these amazing trains in 44 , but they are expected to become more popular in the future. They operate quietly, are cost-effective to maintain, and produce minimal pollution 45 to certain other types of trains. In fact, it is predicted that they may be even as popular as air transportation one day!"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ambassador",
+    "conference",
+    "participle",
+    "resistance"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/114080_401_0402_43.webp"
+   "psg": "Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service. Instead of wheels, these trains have special electromagnetic systems 41 them up and move them forward. They zoom along the tracks at incredible speeds, far exceeding those of traditional trains. They can achieve speeds above 300 miles per hour, 42 bullet trains usually go around 200 miles per hour. What makes maglev trains special is that they don’t touch the ground, so there is no friction, which means they can go extremely fast without any 43 . Right now, there are only a limited number of these amazing trains in 44 , but they are expected to become more popular in the future. They operate quietly, are cost-effective to maintain, and produce minimal pollution 45 to certain other types of trains. In fact, it is predicted that they may be even as popular as air transportation one day!"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "biography",
+    "detective",
+    "operation",
+    "sacrifice"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/114080_401_0402_44.webp"
+   "psg": "Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service. Instead of wheels, these trains have special electromagnetic systems 41 them up and move them forward. They zoom along the tracks at incredible speeds, far exceeding those of traditional trains. They can achieve speeds above 300 miles per hour, 42 bullet trains usually go around 200 miles per hour. What makes maglev trains special is that they don’t touch the ground, so there is no friction, which means they can go extremely fast without any 43 . Right now, there are only a limited number of these amazing trains in 44 , but they are expected to become more popular in the future. They operate quietly, are cost-effective to maintain, and produce minimal pollution 45 to certain other types of trains. In fact, it is predicted that they may be even as popular as air transportation one day!"
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "compared",
+    "educated",
+    "perfumed",
+    "whistled"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/114080_401_0402_45.webp"
+   "psg": "Maglev trains, a fusion of “magnetic” and “levitation,” utilize magnetism to offer a fast and smooth railway service. Instead of wheels, these trains have special electromagnetic systems 41 them up and move them forward. They zoom along the tracks at incredible speeds, far exceeding those of traditional trains. They can achieve speeds above 300 miles per hour, 42 bullet trains usually go around 200 miles per hour. What makes maglev trains special is that they don’t touch the ground, so there is no friction, which means they can go extremely fast without any 43 . Right now, there are only a limited number of these amazing trains in 44 , but they are expected to become more popular in the future. They operate quietly, are cost-effective to maintain, and produce minimal pollution 45 to certain other types of trains. In fact, it is predicted that they may be even as popular as air transportation one day!"
   },
   {
    "n": 46,

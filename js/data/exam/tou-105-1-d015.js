@@ -514,7 +514,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "jam",
     "waktu"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
   },
   {
    "n": 35,
@@ -527,7 +528,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "sebelum",
     "setelah"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
   },
   {
    "n": 36,
@@ -540,7 +542,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "setelah",
     "sekarang"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
   },
   {
    "n": 37,
@@ -553,7 +556,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "sebelum",
     "yang lalu"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
   },
   {
    "n": 38,
@@ -566,7 +570,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
     "yang lalu",
     "sebelum"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Selama libur hari raya, kami sekeluarga pasti akan pulang ke kampung halaman. Karena jauh, maka kami harus menghabiskan banyak 34 di jalan. Oleh karena itu 35 berangkat kami selalu merencanakan kegiatan untuk perjalanan pulang, 36 kami akan melakukan hal –hal sesuai dengan perencanaan. Berbeda dengan tahun 37 , liburan kali ini kami berencana dalam perjalanan ke kampung, kami akan mampir ke beberapa tempat wisata yang ada di Jawa Barat, 38 baru melanjutkan perjalanan. Kami sekeluarga sangat antusias, dan berharap liburan segera tiba."
   },
   {
    "n": 39,
@@ -1137,7 +1142,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_76.webp",
-   "a": 1
+   "a": 1,
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
   },
   {
    "n": 77,
@@ -1152,7 +1158,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_77.webp",
-   "a": 3
+   "a": 3,
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
   },
   {
    "n": 78,
@@ -1167,7 +1174,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_78.webp",
-   "a": 2
+   "a": 2,
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
   },
   {
    "n": 79,
@@ -1196,7 +1204,8 @@ window.APP_EXAM_PAPERS['tou-105-1-d015'] = {
    ],
    "needfig": true,
    "fig": "img/q/105040_412_0417_80.webp",
-   "a": 0
+   "a": 0,
+   "psg": "(請閱讀以下文章，並根據內容之理解回答 76─80 題) Berwisata ke Kebun Binatang Taipei Sejak masa kanak-kanak, saya sering diajak bermain-main ke kebun binatang oleh kedua orang tua saya. Walau masih kecil saat itu, saya sudah sangat menyukai binatang zebra dan jerapah, mereka selalu saya nomor satukan untuk dikunjungi dulu. Mungkin badan mereka yang berwarna itulah yang menarik perhatian saya waktu itu. Sampai sekarangpun, setelah puluhan tahun, saya tetap mencintai kedua jenis satwa itu. Di Kebun Binatang Taipei, saya juga bisa melihat banyak jenis satwa langka, misalnya koala yang suka tidur, panda yang lucu sekali, dan juga tapir, badak serta ikan-ikan jenis jaman purba, bahkan burung, monyet, burung kuntul dan masih banyak lagi. Tua muda dan anak-anak semua suka ke sana."
   }
  ]
 };

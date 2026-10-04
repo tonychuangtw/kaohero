@@ -738,7 +738,7 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "neither",
     "either",
     "does",
-    "must請依下文回答第 53 題至第 56 題："
+    "must"
    ],
    "a": 0,
    "exp": "✅ (A) neither 搭配 nor 構成對稱對等連接詞「neither... nor...」，意為「既不……也不……」。句意指隨機汽車巡邏既無法降低犯罪，亦無法增加逮捕嫌疑人的機會。\n❌ (B) either 應與 or 搭配構成「either... or...」，不能與後方之 nor 連用。\n❌ (C) does 為助動詞，置於此處文法結構無法與後方之 nor 呼應對稱。\n❌ (D) must 為情態助動詞，無法與 nor 構成雙重否定對等連接。\n📚 出處：英文對等連接詞用法（neither... nor...）。"
@@ -747,121 +747,113 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "a",
+    "what",
+    "which",
+    "all"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_53.webp"
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Participated",
+    "Funded",
+    "Decayed",
+    "Erased"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_54.webp"
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "behaved",
+    "collected",
+    "divided",
+    "executed"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_55.webp"
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
   },
   {
    "n": 56,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 56 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "deviations",
+    "types",
+    "models",
+    "categories"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_56.webp"
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
   },
   {
    "n": 57,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 57 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "confine",
+    "confined",
+    "confining",
+    "being confined"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_57.webp"
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
   },
   {
    "n": 58,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 58 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "control",
+    "controlled",
+    "controlling",
+    "being controlled"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_58.webp"
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
   },
   {
    "n": 59,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 59 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "law-abiding",
+    "illegal",
+    "criminal",
+    "parole"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_59.webp"
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
   },
   {
    "n": 60,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 60 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "police officers",
+    "prosecutors",
+    "correctional officers",
+    "inmates"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105070_501_0207_60.webp"
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
   }
  ]
 };

@@ -559,7 +559,7 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
     "From the governments",
     "From other organizations",
     "From doctors and nurses",
-    "From ordinary people請依下文回答第 40 題至第 44 題：A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our"
+    "From ordinary people"
    ],
    "psg": "Many organizations are trying to find a solution to the problem of world hunger, and CARE is one of them. It provides food to hungry people, and believes that it is more important to help people produce their own food. Because of this belief, the organization has programs to help people improve their lives. CARE was organized in 1945 to help people after World War II. At that time, it distributed over 100 million food packages. Meanwhile, it was starting self-help programs. In 2014, it has worked in 90 countries around the world. CARE gives equipment and teaches people how to build water systems, roads, schools, houses, and health centers. It also teaches people how to increase production on their farms, how to reforest areas, and how to start small village industries. Doctors and nurses volunteer to go to villages. They provide health care for the people, teach people how to improve their health, and train people to provide simple medical care. CARE also gives special help when there is a flood, an earthquake, a drought or a war. Where does CARE get its money? Ordinary people in developed countries give money. CARE receives millions of dollars every year. The organization is international. It helps people of any race, color, or religion. It meets with the people to decide on programs together. CARE helps provide the necessities of life to less-developed countries.",
    "a": 3,
@@ -569,76 +569,71 @@ window.APP_EXAM_PAPERS['loc-107-1-c002'] = {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "difference",
+    "conference",
+    "experience",
+    "reference"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107190_501_0207_40.webp"
+   "psg": "A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our squeamishness about eating bugs may make the crucial 40 in overcoming global hunger. In terms of nutrition, insects provide an outstanding 41 , having “high fat, protein, fiber, vitamin, and mineral content.” Insects, it turns out, are far more efficient than livestock in transforming feed into edible meat. And they largely avoid the huge greenhouse gas emissions, as well as other environmental pollutants, associated with cows and pigs. Based on a dietary estimation, the world needs to double its food production over the next 40 years – an effort that will require unprecedented productivity gains while 42 ecological disasters. Most of today’s insect-eaters live in the developing world, in countries where insects are perceived as a perfectly acceptable and convenient source of energy: seasonably 43 , highly portable, and requiring fewer inputs than agriculture or animal husbandry. While most edible insects continue to be collected in the wild, more organized forms of insect farming have 44 , including “cricket farming” in Laos, Thailand, and Vietnam. By providing employment opportunities, the edible insect sector helps to develop the economy, from Southeast Asia to Central Africa."
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "luggage",
+    "advantage",
+    "knowledge",
+    "beverage"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107190_501_0207_41.webp"
+   "psg": "A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our squeamishness about eating bugs may make the crucial 40 in overcoming global hunger. In terms of nutrition, insects provide an outstanding 41 , having “high fat, protein, fiber, vitamin, and mineral content.” Insects, it turns out, are far more efficient than livestock in transforming feed into edible meat. And they largely avoid the huge greenhouse gas emissions, as well as other environmental pollutants, associated with cows and pigs. Based on a dietary estimation, the world needs to double its food production over the next 40 years – an effort that will require unprecedented productivity gains while 42 ecological disasters. Most of today’s insect-eaters live in the developing world, in countries where insects are perceived as a perfectly acceptable and convenient source of energy: seasonably 43 , highly portable, and requiring fewer inputs than agriculture or animal husbandry. While most edible insects continue to be collected in the wild, more organized forms of insect farming have 44 , including “cricket farming” in Laos, Thailand, and Vietnam. By providing employment opportunities, the edible insect sector helps to develop the economy, from Southeast Asia to Central Africa."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "predicting",
+    "contributing",
+    "risking",
+    "profiting"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107190_501_0207_42.webp"
+   "psg": "A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our squeamishness about eating bugs may make the crucial 40 in overcoming global hunger. In terms of nutrition, insects provide an outstanding 41 , having “high fat, protein, fiber, vitamin, and mineral content.” Insects, it turns out, are far more efficient than livestock in transforming feed into edible meat. And they largely avoid the huge greenhouse gas emissions, as well as other environmental pollutants, associated with cows and pigs. Based on a dietary estimation, the world needs to double its food production over the next 40 years – an effort that will require unprecedented productivity gains while 42 ecological disasters. Most of today’s insect-eaters live in the developing world, in countries where insects are perceived as a perfectly acceptable and convenient source of energy: seasonably 43 , highly portable, and requiring fewer inputs than agriculture or animal husbandry. While most edible insects continue to be collected in the wild, more organized forms of insect farming have 44 , including “cricket farming” in Laos, Thailand, and Vietnam. By providing employment opportunities, the edible insect sector helps to develop the economy, from Southeast Asia to Central Africa."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "available",
+    "disposable",
+    "capable",
+    "probable"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107190_501_0207_43.webp"
+   "psg": "A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our squeamishness about eating bugs may make the crucial 40 in overcoming global hunger. In terms of nutrition, insects provide an outstanding 41 , having “high fat, protein, fiber, vitamin, and mineral content.” Insects, it turns out, are far more efficient than livestock in transforming feed into edible meat. And they largely avoid the huge greenhouse gas emissions, as well as other environmental pollutants, associated with cows and pigs. Based on a dietary estimation, the world needs to double its food production over the next 40 years – an effort that will require unprecedented productivity gains while 42 ecological disasters. Most of today’s insect-eaters live in the developing world, in countries where insects are perceived as a perfectly acceptable and convenient source of energy: seasonably 43 , highly portable, and requiring fewer inputs than agriculture or animal husbandry. While most edible insects continue to be collected in the wild, more organized forms of insect farming have 44 , including “cricket farming” in Laos, Thailand, and Vietnam. By providing employment opportunities, the edible insect sector helps to develop the economy, from Southeast Asia to Central Africa."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "immersed",
+    "vanished",
+    "converged",
+    "emerged"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107190_501_0207_44.webp"
+   "psg": "A recent report authored by the United Nations’ Food and Agricultural Organization argues that overcoming our squeamishness about eating bugs may make the crucial 40 in overcoming global hunger. In terms of nutrition, insects provide an outstanding 41 , having “high fat, protein, fiber, vitamin, and mineral content.” Insects, it turns out, are far more efficient than livestock in transforming feed into edible meat. And they largely avoid the huge greenhouse gas emissions, as well as other environmental pollutants, associated with cows and pigs. Based on a dietary estimation, the world needs to double its food production over the next 40 years – an effort that will require unprecedented productivity gains while 42 ecological disasters. Most of today’s insect-eaters live in the developing world, in countries where insects are perceived as a perfectly acceptable and convenient source of energy: seasonably 43 , highly portable, and requiring fewer inputs than agriculture or animal husbandry. While most edible insects continue to be collected in the wild, more organized forms of insect farming have 44 , including “cricket farming” in Laos, Thailand, and Vietnam. By providing employment opportunities, the edible insect sector helps to develop the economy, from Southeast Asia to Central Africa."
   },
   {
    "n": 45,

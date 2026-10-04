@@ -19,76 +19,71 @@ window.APP_EXAM_PAPERS['pol-109-1-c002'] = {
    "n": 1,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 1 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "counted",
+    "circulated",
+    "divided",
+    "merged"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_1.webp"
+   "psg": "交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：一般警察人員考試 等 別：四等考試 類 科 別：各類別 ②本科目共50 題，每題2 分，須用2B 鉛筆在試卡上依題號清楚劃記，於本試題上作答者，不予計分。 ③禁止使用電子計算器。 English is the most popular international language. It originated in England, but soon spread to other countries. Today, the countries in which English is spoken can be 1 into three groups. The first group is 2 those countries where English is the primary language. These are countries like England, Canada, the United States, Ireland, Australia, and New Zealand. There are more than 380 million native speakers of English in these countries 3 . There is a second group of countries that have their own 4 of English. India, Malaysia, the Philippines, and Kenya are examples of this group. Countries in the third group are China, Russia, Japan, Korea, Brazil, Indonesia, and many Western European countries. Some people calculate the number of speakers in this group to be 5 one billion, and the number is growing everyday."
   },
   {
    "n": 2,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 2 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "made of",
+    "contained by",
+    "set up",
+    "involved in"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_2.webp"
+   "psg": "交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：一般警察人員考試 等 別：四等考試 類 科 別：各類別 ②本科目共50 題，每題2 分，須用2B 鉛筆在試卡上依題號清楚劃記，於本試題上作答者，不予計分。 ③禁止使用電子計算器。 English is the most popular international language. It originated in England, but soon spread to other countries. Today, the countries in which English is spoken can be 1 into three groups. The first group is 2 those countries where English is the primary language. These are countries like England, Canada, the United States, Ireland, Australia, and New Zealand. There are more than 380 million native speakers of English in these countries 3 . There is a second group of countries that have their own 4 of English. India, Malaysia, the Philippines, and Kenya are examples of this group. Countries in the third group are China, Russia, Japan, Korea, Brazil, Indonesia, and many Western European countries. Some people calculate the number of speakers in this group to be 5 one billion, and the number is growing everyday."
   },
   {
    "n": 3,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 3 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as well",
+    "all",
+    "average",
+    "alone"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_3.webp"
+   "psg": "交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：一般警察人員考試 等 別：四等考試 類 科 別：各類別 ②本科目共50 題，每題2 分，須用2B 鉛筆在試卡上依題號清楚劃記，於本試題上作答者，不予計分。 ③禁止使用電子計算器。 English is the most popular international language. It originated in England, but soon spread to other countries. Today, the countries in which English is spoken can be 1 into three groups. The first group is 2 those countries where English is the primary language. These are countries like England, Canada, the United States, Ireland, Australia, and New Zealand. There are more than 380 million native speakers of English in these countries 3 . There is a second group of countries that have their own 4 of English. India, Malaysia, the Philippines, and Kenya are examples of this group. Countries in the third group are China, Russia, Japan, Korea, Brazil, Indonesia, and many Western European countries. Some people calculate the number of speakers in this group to be 5 one billion, and the number is growing everyday."
   },
   {
    "n": 4,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 4 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "applications",
+    "varieties",
+    "evaluations",
+    "predictions"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_4.webp"
+   "psg": "交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：一般警察人員考試 等 別：四等考試 類 科 別：各類別 ②本科目共50 題，每題2 分，須用2B 鉛筆在試卡上依題號清楚劃記，於本試題上作答者，不予計分。 ③禁止使用電子計算器。 English is the most popular international language. It originated in England, but soon spread to other countries. Today, the countries in which English is spoken can be 1 into three groups. The first group is 2 those countries where English is the primary language. These are countries like England, Canada, the United States, Ireland, Australia, and New Zealand. There are more than 380 million native speakers of English in these countries 3 . There is a second group of countries that have their own 4 of English. India, Malaysia, the Philippines, and Kenya are examples of this group. Countries in the third group are China, Russia, Japan, Korea, Brazil, Indonesia, and many Western European countries. Some people calculate the number of speakers in this group to be 5 one billion, and the number is growing everyday."
   },
   {
    "n": 5,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 5 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as many as",
+    "as much as",
+    "as soon as",
+    "as fast as"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_5.webp"
+   "psg": "交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：一般警察人員考試 等 別：四等考試 類 科 別：各類別 ②本科目共50 題，每題2 分，須用2B 鉛筆在試卡上依題號清楚劃記，於本試題上作答者，不予計分。 ③禁止使用電子計算器。 English is the most popular international language. It originated in England, but soon spread to other countries. Today, the countries in which English is spoken can be 1 into three groups. The first group is 2 those countries where English is the primary language. These are countries like England, Canada, the United States, Ireland, Australia, and New Zealand. There are more than 380 million native speakers of English in these countries 3 . There is a second group of countries that have their own 4 of English. India, Malaysia, the Philippines, and Kenya are examples of this group. Countries in the third group are China, Russia, Japan, Korea, Brazil, Indonesia, and many Western European countries. Some people calculate the number of speakers in this group to be 5 one billion, and the number is growing everyday."
   },
   {
    "n": 6,
@@ -295,7 +290,7 @@ window.APP_EXAM_PAPERS['pol-109-1-c002'] = {
     "would have helped",
     "would help",
     "might be able to help",
-    "could possibly help請依下文回答第 21 題至第 25 題：In a remarkable—if likely controversial—feat, scientists announced today that they have created the first"
+    "could possibly help"
    ],
    "void": true,
    "a": 0
@@ -304,76 +299,71 @@ window.APP_EXAM_PAPERS['pol-109-1-c002'] = {
    "n": 21,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 21 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "plugged",
+    "introduced",
+    "poured",
+    "transformed"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_21.webp"
+   "psg": "In a remarkable—if likely controversial—feat, scientists announced today that they have created the first successful human-animal hybrids. The project proves that human cells can be 21 into a non-human organism, survive, and even grow inside a host animal, in this case, pigs. This biomedical advance has long been a dream for scientists hoping to address a critical 22 of donor organs. Every ten minutes, a person is 23 the national waiting list for organ transplants. And every day, 22 people on that list die without the organ they need. What if, 24 relying on a generous donor, you could grow a custom organ inside an animal instead? That’s now one step 25 reality, an international team of researchers led by the Salk Institute reports in the journal Cell. The team created what’s known scientifically as a chimera: an organism that contains cells from two different species."
   },
   {
    "n": 22,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 22 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "moment",
+    "statement",
+    "shortage",
+    "engagement"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_22.webp"
+   "psg": "In a remarkable—if likely controversial—feat, scientists announced today that they have created the first successful human-animal hybrids. The project proves that human cells can be 21 into a non-human organism, survive, and even grow inside a host animal, in this case, pigs. This biomedical advance has long been a dream for scientists hoping to address a critical 22 of donor organs. Every ten minutes, a person is 23 the national waiting list for organ transplants. And every day, 22 people on that list die without the organ they need. What if, 24 relying on a generous donor, you could grow a custom organ inside an animal instead? That’s now one step 25 reality, an international team of researchers led by the Salk Institute reports in the journal Cell. The team created what’s known scientifically as a chimera: an organism that contains cells from two different species."
   },
   {
    "n": 23,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 23 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "addicted to",
+    "prevented from",
+    "taken from",
+    "added to"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_23.webp"
+   "psg": "In a remarkable—if likely controversial—feat, scientists announced today that they have created the first successful human-animal hybrids. The project proves that human cells can be 21 into a non-human organism, survive, and even grow inside a host animal, in this case, pigs. This biomedical advance has long been a dream for scientists hoping to address a critical 22 of donor organs. Every ten minutes, a person is 23 the national waiting list for organ transplants. And every day, 22 people on that list die without the organ they need. What if, 24 relying on a generous donor, you could grow a custom organ inside an animal instead? That’s now one step 25 reality, an international team of researchers led by the Salk Institute reports in the journal Cell. The team created what’s known scientifically as a chimera: an organism that contains cells from two different species."
   },
   {
    "n": 24,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 24 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "rather than",
+    "not only",
+    "on account of",
+    "in addition to"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_24.webp"
+   "psg": "In a remarkable—if likely controversial—feat, scientists announced today that they have created the first successful human-animal hybrids. The project proves that human cells can be 21 into a non-human organism, survive, and even grow inside a host animal, in this case, pigs. This biomedical advance has long been a dream for scientists hoping to address a critical 22 of donor organs. Every ten minutes, a person is 23 the national waiting list for organ transplants. And every day, 22 people on that list die without the organ they need. What if, 24 relying on a generous donor, you could grow a custom organ inside an animal instead? That’s now one step 25 reality, an international team of researchers led by the Salk Institute reports in the journal Cell. The team created what’s known scientifically as a chimera: an organism that contains cells from two different species."
   },
   {
    "n": 25,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 25 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "apart from",
+    "other than",
+    "closer to",
+    "further against"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/109070_401_0204_25.webp"
+   "psg": "In a remarkable—if likely controversial—feat, scientists announced today that they have created the first successful human-animal hybrids. The project proves that human cells can be 21 into a non-human organism, survive, and even grow inside a host animal, in this case, pigs. This biomedical advance has long been a dream for scientists hoping to address a critical 22 of donor organs. Every ten minutes, a person is 23 the national waiting list for organ transplants. And every day, 22 people on that list die without the organ they need. What if, 24 relying on a generous donor, you could grow a custom organ inside an animal instead? That’s now one step 25 reality, an international team of researchers led by the Salk Institute reports in the journal Cell. The team created what’s known scientifically as a chimera: an organism that contains cells from two different species."
   },
   {
    "n": 26,

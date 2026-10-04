@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "overcharged",
     "underestimated",
     "expected",
-    "underchargedFive Swedish designers have worked with artisans in Taiwan to explore different lacquer"
+    "undercharged"
    ],
    "a": 0,
    "exp": "✅ (A) overcharge 意為「多收費」。餐點只要 200 元，收據卻印 250 元，說話者認為自己被多收了錢，用被動 I was overcharged。\n❌ (B) underestimated 意為「被低估」，指對能力或數量的評價，與收費金額無關。\n❌ (C) expected 意為「被期待」，語意不通。\n❌ (D) undercharged 意為「少收費」，與收據金額高於實際價格的情況相反。\n📚 出處：消費爭議英語：overcharge / undercharge"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "the history of lacquer art",
     "the conflict between eastern and western cultures"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Five Swedish designers have worked with artisans in Taiwan to explore different lacquer techniques, and presented their works in an exhibition –“A New Layer.” The exhibition shows contemporary objects made with an ancient technique. Lacquer has been used in East Asia for over 7000 years and encompasses a variety of techniques and applications. The title “A New Layer” refers to how the lacquer is applied in several layers until the desired surface sheen occurs. Historically, China and Japan have been the primary regions for the development of the lacquer art form. Artisans have not only mastered a single method, but developed a variety of ways in which the coating is used, both as a functional and a decorative material. Despite the long history of craftsmanship, it is not tied to tradition but is constantly changing. Taiwan is a geographical and cultural crossroads for China and Japan but also a region with influences from Southeast Asia and Polynesia. This variegated culture is visible in Taiwan's craft traditions and has significantly colored the material that appears in “A New Layer.” The exhibition shows a broad palette of materials such as ceramics, wood, metal, wicker bamboo, fabric, pearl and stone, all of it accompanied by lacquer work applied on the objects in various ways. “A New Layer” is a collaboration between the designers Carina Seth Andersson, Matti Klenell, Stina Löfgren, Gabriella Gustafson, Mattias Ståhlbom, National Taiwan Craft Research and Development Institute (NTCRI) and the Museum of Far Eastern Antiquities."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "how the lacquer is hidden in several regions",
     "how the lacquer is approved by several institutes"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Five Swedish designers have worked with artisans in Taiwan to explore different lacquer techniques, and presented their works in an exhibition –“A New Layer.” The exhibition shows contemporary objects made with an ancient technique. Lacquer has been used in East Asia for over 7000 years and encompasses a variety of techniques and applications. The title “A New Layer” refers to how the lacquer is applied in several layers until the desired surface sheen occurs. Historically, China and Japan have been the primary regions for the development of the lacquer art form. Artisans have not only mastered a single method, but developed a variety of ways in which the coating is used, both as a functional and a decorative material. Despite the long history of craftsmanship, it is not tied to tradition but is constantly changing. Taiwan is a geographical and cultural crossroads for China and Japan but also a region with influences from Southeast Asia and Polynesia. This variegated culture is visible in Taiwan's craft traditions and has significantly colored the material that appears in “A New Layer.” The exhibition shows a broad palette of materials such as ceramics, wood, metal, wicker bamboo, fabric, pearl and stone, all of it accompanied by lacquer work applied on the objects in various ways. “A New Layer” is a collaboration between the designers Carina Seth Andersson, Matti Klenell, Stina Löfgren, Gabriella Gustafson, Mattias Ståhlbom, National Taiwan Craft Research and Development Institute (NTCRI) and the Museum of Far Eastern Antiquities."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "people in Sweden only",
     "people in Sweden and Taiwan"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Five Swedish designers have worked with artisans in Taiwan to explore different lacquer techniques, and presented their works in an exhibition –“A New Layer.” The exhibition shows contemporary objects made with an ancient technique. Lacquer has been used in East Asia for over 7000 years and encompasses a variety of techniques and applications. The title “A New Layer” refers to how the lacquer is applied in several layers until the desired surface sheen occurs. Historically, China and Japan have been the primary regions for the development of the lacquer art form. Artisans have not only mastered a single method, but developed a variety of ways in which the coating is used, both as a functional and a decorative material. Despite the long history of craftsmanship, it is not tied to tradition but is constantly changing. Taiwan is a geographical and cultural crossroads for China and Japan but also a region with influences from Southeast Asia and Polynesia. This variegated culture is visible in Taiwan's craft traditions and has significantly colored the material that appears in “A New Layer.” The exhibition shows a broad palette of materials such as ceramics, wood, metal, wicker bamboo, fabric, pearl and stone, all of it accompanied by lacquer work applied on the objects in various ways. “A New Layer” is a collaboration between the designers Carina Seth Andersson, Matti Klenell, Stina Löfgren, Gabriella Gustafson, Mattias Ståhlbom, National Taiwan Craft Research and Development Institute (NTCRI) and the Museum of Far Eastern Antiquities."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "Japan is one of the main regions for the development of the lacquer art form.",
     "There is only one single application possible for lacquer."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Five Swedish designers have worked with artisans in Taiwan to explore different lacquer techniques, and presented their works in an exhibition –“A New Layer.” The exhibition shows contemporary objects made with an ancient technique. Lacquer has been used in East Asia for over 7000 years and encompasses a variety of techniques and applications. The title “A New Layer” refers to how the lacquer is applied in several layers until the desired surface sheen occurs. Historically, China and Japan have been the primary regions for the development of the lacquer art form. Artisans have not only mastered a single method, but developed a variety of ways in which the coating is used, both as a functional and a decorative material. Despite the long history of craftsmanship, it is not tied to tradition but is constantly changing. Taiwan is a geographical and cultural crossroads for China and Japan but also a region with influences from Southeast Asia and Polynesia. This variegated culture is visible in Taiwan's craft traditions and has significantly colored the material that appears in “A New Layer.” The exhibition shows a broad palette of materials such as ceramics, wood, metal, wicker bamboo, fabric, pearl and stone, all of it accompanied by lacquer work applied on the objects in various ways. “A New Layer” is a collaboration between the designers Carina Seth Andersson, Matti Klenell, Stina Löfgren, Gabriella Gustafson, Mattias Ståhlbom, National Taiwan Craft Research and Development Institute (NTCRI) and the Museum of Far Eastern Antiquities."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "a research journal",
     "a news report",
     "a science fiction",
-    "a recipe bookIf there is one main characteristics of the modern world that make our lives different from our"
+    "a recipe book"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Five Swedish designers have worked with artisans in Taiwan to explore different lacquer techniques, and presented their works in an exhibition –“A New Layer.” The exhibition shows contemporary objects made with an ancient technique. Lacquer has been used in East Asia for over 7000 years and encompasses a variety of techniques and applications. The title “A New Layer” refers to how the lacquer is applied in several layers until the desired surface sheen occurs. Historically, China and Japan have been the primary regions for the development of the lacquer art form. Artisans have not only mastered a single method, but developed a variety of ways in which the coating is used, both as a functional and a decorative material. Despite the long history of craftsmanship, it is not tied to tradition but is constantly changing. Taiwan is a geographical and cultural crossroads for China and Japan but also a region with influences from Southeast Asia and Polynesia. This variegated culture is visible in Taiwan's craft traditions and has significantly colored the material that appears in “A New Layer.” The exhibition shows a broad palette of materials such as ceramics, wood, metal, wicker bamboo, fabric, pearl and stone, all of it accompanied by lacquer work applied on the objects in various ways. “A New Layer” is a collaboration between the designers Carina Seth Andersson, Matti Klenell, Stina Löfgren, Gabriella Gustafson, Mattias Ståhlbom, National Taiwan Craft Research and Development Institute (NTCRI) and the Museum of Far Eastern Antiquities."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "to explain why train travel becomes an option for travelers",
     "to show why people prefer fast systems of transportation"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "If there is one main characteristics of the modern world that make our lives different from our grandparents’, it is probably speed. We are always on the move, and we don’t have much patience with slow systems of transportation. We want to get there, and we want to do it fast! Car makers, airline owners, and the planners of mass transit systems all share a common goal. They are trying to provide us with faster and faster ways to reach our destinations. Nonetheless, many of us actually want to slow down. Although we complain when our plane isn’t on schedule or when we have to wait in a traffic jam, we also complain about always being in a hurry. Every once in a while, we think of the sound of a train whistle – clear and high in the air – we feel sad. There is a strong sense of nostalgia for other places and other times, when life was slower and, perhaps, better. Why does a train whistle bring on a feeling of nostalgia? Perhaps it’s because many of us remember a favorite novel or movie that took place on a train, and the story told of danger and excitement. There’s a sense of romance about a train that simply doesn’t exist on a modern jet plane. Several railroad companies are taking advantage of the nostalgia for train travel: They are offering unique tours for travelers who aren’t in a hurry and who enjoy the romance of the past."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "major delay",
     "much patience"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "If there is one main characteristics of the modern world that make our lives different from our grandparents’, it is probably speed. We are always on the move, and we don’t have much patience with slow systems of transportation. We want to get there, and we want to do it fast! Car makers, airline owners, and the planners of mass transit systems all share a common goal. They are trying to provide us with faster and faster ways to reach our destinations. Nonetheless, many of us actually want to slow down. Although we complain when our plane isn’t on schedule or when we have to wait in a traffic jam, we also complain about always being in a hurry. Every once in a while, we think of the sound of a train whistle – clear and high in the air – we feel sad. There is a strong sense of nostalgia for other places and other times, when life was slower and, perhaps, better. Why does a train whistle bring on a feeling of nostalgia? Perhaps it’s because many of us remember a favorite novel or movie that took place on a train, and the story told of danger and excitement. There’s a sense of romance about a train that simply doesn’t exist on a modern jet plane. Several railroad companies are taking advantage of the nostalgia for train travel: They are offering unique tours for travelers who aren’t in a hurry and who enjoy the romance of the past."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "high speed",
     "luxurious facilities"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "If there is one main characteristics of the modern world that make our lives different from our grandparents’, it is probably speed. We are always on the move, and we don’t have much patience with slow systems of transportation. We want to get there, and we want to do it fast! Car makers, airline owners, and the planners of mass transit systems all share a common goal. They are trying to provide us with faster and faster ways to reach our destinations. Nonetheless, many of us actually want to slow down. Although we complain when our plane isn’t on schedule or when we have to wait in a traffic jam, we also complain about always being in a hurry. Every once in a while, we think of the sound of a train whistle – clear and high in the air – we feel sad. There is a strong sense of nostalgia for other places and other times, when life was slower and, perhaps, better. Why does a train whistle bring on a feeling of nostalgia? Perhaps it’s because many of us remember a favorite novel or movie that took place on a train, and the story told of danger and excitement. There’s a sense of romance about a train that simply doesn’t exist on a modern jet plane. Several railroad companies are taking advantage of the nostalgia for train travel: They are offering unique tours for travelers who aren’t in a hurry and who enjoy the romance of the past."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "satisfaction",
     "yearning"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "If there is one main characteristics of the modern world that make our lives different from our grandparents’, it is probably speed. We are always on the move, and we don’t have much patience with slow systems of transportation. We want to get there, and we want to do it fast! Car makers, airline owners, and the planners of mass transit systems all share a common goal. They are trying to provide us with faster and faster ways to reach our destinations. Nonetheless, many of us actually want to slow down. Although we complain when our plane isn’t on schedule or when we have to wait in a traffic jam, we also complain about always being in a hurry. Every once in a while, we think of the sound of a train whistle – clear and high in the air – we feel sad. There is a strong sense of nostalgia for other places and other times, when life was slower and, perhaps, better. Why does a train whistle bring on a feeling of nostalgia? Perhaps it’s because many of us remember a favorite novel or movie that took place on a train, and the story told of danger and excitement. There’s a sense of romance about a train that simply doesn’t exist on a modern jet plane. Several railroad companies are taking advantage of the nostalgia for train travel: They are offering unique tours for travelers who aren’t in a hurry and who enjoy the romance of the past."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d004'] = {
     "Airlines offer tours for those who aren’t in a rush and enjoy the love of the past.",
     "Many exciting stories in books and in movies happened on trains."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "If there is one main characteristics of the modern world that make our lives different from our grandparents’, it is probably speed. We are always on the move, and we don’t have much patience with slow systems of transportation. We want to get there, and we want to do it fast! Car makers, airline owners, and the planners of mass transit systems all share a common goal. They are trying to provide us with faster and faster ways to reach our destinations. Nonetheless, many of us actually want to slow down. Although we complain when our plane isn’t on schedule or when we have to wait in a traffic jam, we also complain about always being in a hurry. Every once in a while, we think of the sound of a train whistle – clear and high in the air – we feel sad. There is a strong sense of nostalgia for other places and other times, when life was slower and, perhaps, better. Why does a train whistle bring on a feeling of nostalgia? Perhaps it’s because many of us remember a favorite novel or movie that took place on a train, and the story told of danger and excitement. There’s a sense of romance about a train that simply doesn’t exist on a modern jet plane. Several railroad companies are taking advantage of the nostalgia for train travel: They are offering unique tours for travelers who aren’t in a hurry and who enjoy the romance of the past."
   }
  ]
 };

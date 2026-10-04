@@ -992,7 +992,7 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Sí, son las tres",
     "Sí, mira, es el 608 52 34 45",
     "Sí, la calle Mayor, No. 21",
-    "Sí, son 155 eurosLos mercados nocturnos en Taiwán."
+    "Sí, son 155 euros"
    ],
    "a": 1,
    "exp": "✅ (B) A 問有沒有 Martín 先生的電話號碼，回答應提供號碼：Sí, mira, es el 608 52 34 45。\n❌ (A) 「是三點」回答的是時間。\n❌ (C) 提供的是地址（Mayor 街 21 號），不是電話。\n❌ (D) 回答金額 155 歐元，與詢問電話無關。\n📚 出處：西班牙語會話（詢問與提供電話號碼）"
@@ -1008,7 +1008,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Tienen gran cantidad de ventas de productos, sobre todo, de ropas y zapatos",
     "Pueden encontrarlo en cualquier momento"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Los mercados nocturnos en Taiwán. Los mercados nocturnos en la calle son una de las grandes señas de identidad de Taiwán. Los mercados nocturnos que he visitado en la ciudad de Taipei tienen una gran cantidad de puestos de comida y de venta de productos, especialmente de ropa. Algunos mercados nocturnos están situados en zonas a cubierto, mientras que otros muchos son al aire libre. Sin embargo, todos aportan una increíble cantidad de vida y actividad comercial a la ciudad. Uno de los mercados más famosos de Taipei se llama Snake Alley. Su nombre real es Huaxi Street Tourist Night Market. En los establecimientos sirven platos realmente únicos en el mundo y que difícilmente se pueden encontrar en otros lugares, tales como carne de tortuga, bebida de rabo de ciervo y alimentos elaborados a partir de la sangre o la carne de serpientes, que es lo que le ha generado la fama a este lugar. Al caminar por Snake Alley no pude evitar sentirme un poco extraño. El mercado se encuentra dentro de una zona muy vieja de Taipei, ver aquellos establecimientos ofrecer platos que yo solo esperaría encontrar en una película de ciencia ficción me sorprendió muchísimo. Más allá de los exóticos alimentos cocinados a partir de serpiente, en Snake Alley se pueden elegir entre muchísimos establecimientos de comida y de fruta, que tienen dos partes bien diferenciadas: en una de ellas están los puestos de venta de alimentos y en la otra están los puestos de venta de productos no comestibles. Family Mart es uno de los establecimientos de 24 horas más abundantes en Taiwán, junto al 7-Eleven. El ambiente de los mercados nocturnos me pareció completamente de película. Espero que hayas disfrutado conociendo los mercados nocturnos de Taiwán, uno de los elementos más representativos del país."
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Los mercados nocturnos al aire libre",
     "La gran cantidad de tiendas de ropa"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Los mercados nocturnos en Taiwán. Los mercados nocturnos en la calle son una de las grandes señas de identidad de Taiwán. Los mercados nocturnos que he visitado en la ciudad de Taipei tienen una gran cantidad de puestos de comida y de venta de productos, especialmente de ropa. Algunos mercados nocturnos están situados en zonas a cubierto, mientras que otros muchos son al aire libre. Sin embargo, todos aportan una increíble cantidad de vida y actividad comercial a la ciudad. Uno de los mercados más famosos de Taipei se llama Snake Alley. Su nombre real es Huaxi Street Tourist Night Market. En los establecimientos sirven platos realmente únicos en el mundo y que difícilmente se pueden encontrar en otros lugares, tales como carne de tortuga, bebida de rabo de ciervo y alimentos elaborados a partir de la sangre o la carne de serpientes, que es lo que le ha generado la fama a este lugar. Al caminar por Snake Alley no pude evitar sentirme un poco extraño. El mercado se encuentra dentro de una zona muy vieja de Taipei, ver aquellos establecimientos ofrecer platos que yo solo esperaría encontrar en una película de ciencia ficción me sorprendió muchísimo. Más allá de los exóticos alimentos cocinados a partir de serpiente, en Snake Alley se pueden elegir entre muchísimos establecimientos de comida y de fruta, que tienen dos partes bien diferenciadas: en una de ellas están los puestos de venta de alimentos y en la otra están los puestos de venta de productos no comestibles. Family Mart es uno de los establecimientos de 24 horas más abundantes en Taiwán, junto al 7-Eleven. El ambiente de los mercados nocturnos me pareció completamente de película. Espero que hayas disfrutado conociendo los mercados nocturnos de Taiwán, uno de los elementos más representativos del país."
   },
   {
    "n": 73,
@@ -1034,7 +1036,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Este lugar ha obtenido mucha fama por los alimentos elaborados con la sangre o la carne deserpientes",
     "El mercado tiene dos partes diferenciadas, pero todas son de venta de alimentos"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Los mercados nocturnos en Taiwán. Los mercados nocturnos en la calle son una de las grandes señas de identidad de Taiwán. Los mercados nocturnos que he visitado en la ciudad de Taipei tienen una gran cantidad de puestos de comida y de venta de productos, especialmente de ropa. Algunos mercados nocturnos están situados en zonas a cubierto, mientras que otros muchos son al aire libre. Sin embargo, todos aportan una increíble cantidad de vida y actividad comercial a la ciudad. Uno de los mercados más famosos de Taipei se llama Snake Alley. Su nombre real es Huaxi Street Tourist Night Market. En los establecimientos sirven platos realmente únicos en el mundo y que difícilmente se pueden encontrar en otros lugares, tales como carne de tortuga, bebida de rabo de ciervo y alimentos elaborados a partir de la sangre o la carne de serpientes, que es lo que le ha generado la fama a este lugar. Al caminar por Snake Alley no pude evitar sentirme un poco extraño. El mercado se encuentra dentro de una zona muy vieja de Taipei, ver aquellos establecimientos ofrecer platos que yo solo esperaría encontrar en una película de ciencia ficción me sorprendió muchísimo. Más allá de los exóticos alimentos cocinados a partir de serpiente, en Snake Alley se pueden elegir entre muchísimos establecimientos de comida y de fruta, que tienen dos partes bien diferenciadas: en una de ellas están los puestos de venta de alimentos y en la otra están los puestos de venta de productos no comestibles. Family Mart es uno de los establecimientos de 24 horas más abundantes en Taiwán, junto al 7-Eleven. El ambiente de los mercados nocturnos me pareció completamente de película. Espero que hayas disfrutado conociendo los mercados nocturnos de Taiwán, uno de los elementos más representativos del país."
   },
   {
    "n": 74,
@@ -1047,7 +1050,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Le sorprendieron mucho las comidas que ofrecieron en los establecimientos",
     "Sintió mucho miedo caminando por el mercado nocturno"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Los mercados nocturnos en Taiwán. Los mercados nocturnos en la calle son una de las grandes señas de identidad de Taiwán. Los mercados nocturnos que he visitado en la ciudad de Taipei tienen una gran cantidad de puestos de comida y de venta de productos, especialmente de ropa. Algunos mercados nocturnos están situados en zonas a cubierto, mientras que otros muchos son al aire libre. Sin embargo, todos aportan una increíble cantidad de vida y actividad comercial a la ciudad. Uno de los mercados más famosos de Taipei se llama Snake Alley. Su nombre real es Huaxi Street Tourist Night Market. En los establecimientos sirven platos realmente únicos en el mundo y que difícilmente se pueden encontrar en otros lugares, tales como carne de tortuga, bebida de rabo de ciervo y alimentos elaborados a partir de la sangre o la carne de serpientes, que es lo que le ha generado la fama a este lugar. Al caminar por Snake Alley no pude evitar sentirme un poco extraño. El mercado se encuentra dentro de una zona muy vieja de Taipei, ver aquellos establecimientos ofrecer platos que yo solo esperaría encontrar en una película de ciencia ficción me sorprendió muchísimo. Más allá de los exóticos alimentos cocinados a partir de serpiente, en Snake Alley se pueden elegir entre muchísimos establecimientos de comida y de fruta, que tienen dos partes bien diferenciadas: en una de ellas están los puestos de venta de alimentos y en la otra están los puestos de venta de productos no comestibles. Family Mart es uno de los establecimientos de 24 horas más abundantes en Taiwán, junto al 7-Eleven. El ambiente de los mercados nocturnos me pareció completamente de película. Espero que hayas disfrutado conociendo los mercados nocturnos de Taiwán, uno de los elementos más representativos del país."
   },
   {
    "n": 75,
@@ -1058,9 +1062,10 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Este",
     "Oeste",
     "Sur",
-    "Norte¿A qué hora?"
+    "Norte"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Los mercados nocturnos en Taiwán. Los mercados nocturnos en la calle son una de las grandes señas de identidad de Taiwán. Los mercados nocturnos que he visitado en la ciudad de Taipei tienen una gran cantidad de puestos de comida y de venta de productos, especialmente de ropa. Algunos mercados nocturnos están situados en zonas a cubierto, mientras que otros muchos son al aire libre. Sin embargo, todos aportan una increíble cantidad de vida y actividad comercial a la ciudad. Uno de los mercados más famosos de Taipei se llama Snake Alley. Su nombre real es Huaxi Street Tourist Night Market. En los establecimientos sirven platos realmente únicos en el mundo y que difícilmente se pueden encontrar en otros lugares, tales como carne de tortuga, bebida de rabo de ciervo y alimentos elaborados a partir de la sangre o la carne de serpientes, que es lo que le ha generado la fama a este lugar. Al caminar por Snake Alley no pude evitar sentirme un poco extraño. El mercado se encuentra dentro de una zona muy vieja de Taipei, ver aquellos establecimientos ofrecer platos que yo solo esperaría encontrar en una película de ciencia ficción me sorprendió muchísimo. Más allá de los exóticos alimentos cocinados a partir de serpiente, en Snake Alley se pueden elegir entre muchísimos establecimientos de comida y de fruta, que tienen dos partes bien diferenciadas: en una de ellas están los puestos de venta de alimentos y en la otra están los puestos de venta de productos no comestibles. Family Mart es uno de los establecimientos de 24 horas más abundantes en Taiwán, junto al 7-Eleven. El ambiente de los mercados nocturnos me pareció completamente de película. Espero que hayas disfrutado conociendo los mercados nocturnos de Taiwán, uno de los elementos más representativos del país."
   },
   {
    "n": 76,
@@ -1073,7 +1078,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Los bancos tienen los mismos horarios que las tiendas normales",
     "Los grandes almacenes cierran a las siete y media"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "¿A qué hora? Hablar de horarios es siempre un poco difícil. En España, por ejemplo, las tiendas abren más o menos a las nueve de la mañana y cierran a las siete y media u ocho de la tarde. Pero los bancos, los grandes almacenes, algunas tiendas especiales, como los VIP'S, tienen horarios también especiales. Las farmacias, también, porque algunas abren los sábados y domingos. Los horarios de comidas también cambian de una ciudad a otra. En Barcelona, por ejemplo, se come a las dos, más o menos, y se cena a las nueve de la noche. Pero en Madrid se come a las tres y se cena a las diez. En España las noticias de la televisión se llaman \"Telediario\" y son a las tres de la tarde y a las ocho y media de la noche. Este programa tiene mucha audiencia y es frecuente oír a la gente que dice: \"Nosotros cenamos después del Telediario\", \"Yo como con el Telediario\", \"Te llamo antes del Telediario\", etc. Se puede decir, entonces, que en Barcelona la gente come antes del Telediario y cena \"con\" el telediario. En Madrid se come \"con\" el Telediario y se cena después. En Hispanoamérica es todavía más complicado. Son muchos países, muy diferentes, que tienen, también, costumbres distintas. En México, por ejemplo, las tiendas abren de diez a dos y de cinco a siete. Pero las gasolineras, Correos, las farmacias y algunas tiendas más tienen otro horario. En Buenos Aires (Argentina) se come entre las doce y las tres de la tarde y se cena entre las nueve y las doce de la noche, pero los restaurantes están abiertos hasta las dos de la mañana. En Chile, la gente desayuna café y pan, come un almuerzo importante entre la una y las tres de la tarde, a las cinco se toma a las \"once\" (té con emparedado) y se cena después de las nueve de la noche."
   },
   {
    "n": 77,
@@ -1086,7 +1092,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Una comida especial",
     "Una llamada telefónica"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "¿A qué hora? Hablar de horarios es siempre un poco difícil. En España, por ejemplo, las tiendas abren más o menos a las nueve de la mañana y cierran a las siete y media u ocho de la tarde. Pero los bancos, los grandes almacenes, algunas tiendas especiales, como los VIP'S, tienen horarios también especiales. Las farmacias, también, porque algunas abren los sábados y domingos. Los horarios de comidas también cambian de una ciudad a otra. En Barcelona, por ejemplo, se come a las dos, más o menos, y se cena a las nueve de la noche. Pero en Madrid se come a las tres y se cena a las diez. En España las noticias de la televisión se llaman \"Telediario\" y son a las tres de la tarde y a las ocho y media de la noche. Este programa tiene mucha audiencia y es frecuente oír a la gente que dice: \"Nosotros cenamos después del Telediario\", \"Yo como con el Telediario\", \"Te llamo antes del Telediario\", etc. Se puede decir, entonces, que en Barcelona la gente come antes del Telediario y cena \"con\" el telediario. En Madrid se come \"con\" el Telediario y se cena después. En Hispanoamérica es todavía más complicado. Son muchos países, muy diferentes, que tienen, también, costumbres distintas. En México, por ejemplo, las tiendas abren de diez a dos y de cinco a siete. Pero las gasolineras, Correos, las farmacias y algunas tiendas más tienen otro horario. En Buenos Aires (Argentina) se come entre las doce y las tres de la tarde y se cena entre las nueve y las doce de la noche, pero los restaurantes están abiertos hasta las dos de la mañana. En Chile, la gente desayuna café y pan, come un almuerzo importante entre la una y las tres de la tarde, a las cinco se toma a las \"once\" (té con emparedado) y se cena después de las nueve de la noche."
   },
   {
    "n": 78,
@@ -1099,7 +1106,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "Café y pan",
     "Té con emparedado"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "¿A qué hora? Hablar de horarios es siempre un poco difícil. En España, por ejemplo, las tiendas abren más o menos a las nueve de la mañana y cierran a las siete y media u ocho de la tarde. Pero los bancos, los grandes almacenes, algunas tiendas especiales, como los VIP'S, tienen horarios también especiales. Las farmacias, también, porque algunas abren los sábados y domingos. Los horarios de comidas también cambian de una ciudad a otra. En Barcelona, por ejemplo, se come a las dos, más o menos, y se cena a las nueve de la noche. Pero en Madrid se come a las tres y se cena a las diez. En España las noticias de la televisión se llaman \"Telediario\" y son a las tres de la tarde y a las ocho y media de la noche. Este programa tiene mucha audiencia y es frecuente oír a la gente que dice: \"Nosotros cenamos después del Telediario\", \"Yo como con el Telediario\", \"Te llamo antes del Telediario\", etc. Se puede decir, entonces, que en Barcelona la gente come antes del Telediario y cena \"con\" el telediario. En Madrid se come \"con\" el Telediario y se cena después. En Hispanoamérica es todavía más complicado. Son muchos países, muy diferentes, que tienen, también, costumbres distintas. En México, por ejemplo, las tiendas abren de diez a dos y de cinco a siete. Pero las gasolineras, Correos, las farmacias y algunas tiendas más tienen otro horario. En Buenos Aires (Argentina) se come entre las doce y las tres de la tarde y se cena entre las nueve y las doce de la noche, pero los restaurantes están abiertos hasta las dos de la mañana. En Chile, la gente desayuna café y pan, come un almuerzo importante entre la una y las tres de la tarde, a las cinco se toma a las \"once\" (té con emparedado) y se cena después de las nueve de la noche."
   },
   {
    "n": 79,
@@ -1112,7 +1120,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "En Hispanoamérica los países tienen costumbres muy diferentes",
     "En Madrid mucha gente ve el Telediario comiendo"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "¿A qué hora? Hablar de horarios es siempre un poco difícil. En España, por ejemplo, las tiendas abren más o menos a las nueve de la mañana y cierran a las siete y media u ocho de la tarde. Pero los bancos, los grandes almacenes, algunas tiendas especiales, como los VIP'S, tienen horarios también especiales. Las farmacias, también, porque algunas abren los sábados y domingos. Los horarios de comidas también cambian de una ciudad a otra. En Barcelona, por ejemplo, se come a las dos, más o menos, y se cena a las nueve de la noche. Pero en Madrid se come a las tres y se cena a las diez. En España las noticias de la televisión se llaman \"Telediario\" y son a las tres de la tarde y a las ocho y media de la noche. Este programa tiene mucha audiencia y es frecuente oír a la gente que dice: \"Nosotros cenamos después del Telediario\", \"Yo como con el Telediario\", \"Te llamo antes del Telediario\", etc. Se puede decir, entonces, que en Barcelona la gente come antes del Telediario y cena \"con\" el telediario. En Madrid se come \"con\" el Telediario y se cena después. En Hispanoamérica es todavía más complicado. Son muchos países, muy diferentes, que tienen, también, costumbres distintas. En México, por ejemplo, las tiendas abren de diez a dos y de cinco a siete. Pero las gasolineras, Correos, las farmacias y algunas tiendas más tienen otro horario. En Buenos Aires (Argentina) se come entre las doce y las tres de la tarde y se cena entre las nueve y las doce de la noche, pero los restaurantes están abiertos hasta las dos de la mañana. En Chile, la gente desayuna café y pan, come un almuerzo importante entre la una y las tres de la tarde, a las cinco se toma a las \"once\" (té con emparedado) y se cena después de las nueve de la noche."
   },
   {
    "n": 80,
@@ -1125,7 +1134,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d008'] = {
     "En Buenos Aires",
     "En Santiago de Chile"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "¿A qué hora? Hablar de horarios es siempre un poco difícil. En España, por ejemplo, las tiendas abren más o menos a las nueve de la mañana y cierran a las siete y media u ocho de la tarde. Pero los bancos, los grandes almacenes, algunas tiendas especiales, como los VIP'S, tienen horarios también especiales. Las farmacias, también, porque algunas abren los sábados y domingos. Los horarios de comidas también cambian de una ciudad a otra. En Barcelona, por ejemplo, se come a las dos, más o menos, y se cena a las nueve de la noche. Pero en Madrid se come a las tres y se cena a las diez. En España las noticias de la televisión se llaman \"Telediario\" y son a las tres de la tarde y a las ocho y media de la noche. Este programa tiene mucha audiencia y es frecuente oír a la gente que dice: \"Nosotros cenamos después del Telediario\", \"Yo como con el Telediario\", \"Te llamo antes del Telediario\", etc. Se puede decir, entonces, que en Barcelona la gente come antes del Telediario y cena \"con\" el telediario. En Madrid se come \"con\" el Telediario y se cena después. En Hispanoamérica es todavía más complicado. Son muchos países, muy diferentes, que tienen, también, costumbres distintas. En México, por ejemplo, las tiendas abren de diez a dos y de cinco a siete. Pero las gasolineras, Correos, las farmacias y algunas tiendas más tienen otro horario. En Buenos Aires (Argentina) se come entre las doce y las tres de la tarde y se cena entre las nueve y las doce de la noche, pero los restaurantes están abiertos hasta las dos de la mañana. En Chile, la gente desayuna café y pan, come un almuerzo importante entre la una y las tres de la tarde, a las cinco se toma a las \"once\" (té con emparedado) y se cena después de las nueve de la noche."
   }
  ]
 };

@@ -964,7 +964,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "A Paris.",
     "A la gare du Nord."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
   },
   {
    "n": 69,
@@ -977,7 +978,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "35",
     "17"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
   },
   {
    "n": 70,
@@ -988,9 +990,10 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "à l’heure",
     "en avance",
     "en retard",
-    "changéRéserver un voyage"
+    "changé"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le train Votre ami Mathieu vient vous voir une semaine. Vous allez le chercher à la gare du Nord. Ecoutez l’annonce : « Le train direct 1 235, en provenance de Lille et à destination de Paris, aura dix minutes de retard. Il est annoncé quai 17. Je répète : Le train direct 1 235, en provenance de Lille, à destination de Paris, est annoncé dix minutes après l’heure prévue et stationnera quai 17. »"
   },
   {
    "n": 71,
@@ -1003,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "à l’office de tourisme",
     "dans une agence de voyage"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
   },
   {
    "n": 72,
@@ -1016,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "en automne",
     "en hiver"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
   },
   {
    "n": 73,
@@ -1029,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "des visites",
     "des activités culturelles"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
   },
   {
    "n": 74,
@@ -1054,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "le vol",
     "la remise en forme",
     "l’hébergement",
-    "la pension complèteDes marchés parisiens"
+    "la pension complète"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Réserver un voyage A : Bonjour, Mademoiselle. Je voudrais faire un voyage pendant les vacances de Noël. Qu’est-ce que vous me proposez ? B : Avez-vous une idée de votre destination ? A : Non, mais je voudrais aller au soleil. Peut-être au Maroc ou en Tunisie. B : Préférez-vous faire un circuit ou voulez-vous rester dans un hôtel ? A : Je préfère passer une semaine dans un hôtel, au bord de la mer. Je voudrais faire du sport. J’adore le tennis. B : Je vois ! Nous proposons des forfaits d’une semaine à Noël dans un hôtel trois étoiles, au bord de la mer en Tunisie. Il y a la possibilité de jouer au tennis. Cette formule est très intéressante. Pour 480 euros, vous avez les billets d’avion, six nuits d’hôtel, tous les repas et les activités sportives. A : Ça m’intéresse. Je vais en parler à ma femme. Merci, Mademoiselle."
   },
   {
    "n": 76,
@@ -1069,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Cité.",
     "Clignancourt."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
   },
   {
    "n": 77,
@@ -1082,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "lundi",
     "dimanche"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
   },
   {
    "n": 78,
@@ -1095,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Mardi.",
     "Samedi."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
   },
   {
    "n": 79,
@@ -1122,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-109-1-l006'] = {
     "Le 20e.",
     "Le 19e."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Des marchés parisiens Dans Paris, il y a un marché aux fleurs ; il est dans le 4e arrondissement, place Louis Lépine et quai de la Corse, à la station de métro Cité. Il existe depuis 1808. Il est ouvert le lundi, le mardi, le mercredi, le jeudi, le vendredi, le samedi et le dimanche. Les enfants aiment venir le dimanche : il devient le marché aux oiseaux, mais il y a aussi des fleurs. Le marché aux Puces de Saint-Ouen est un très grand marché d’antiquités. Il comprend en totale onze marchés. Les antiquités sont des objets anciens ; il y a des livres, des meubles, des objets d’art, des bijoux, des vêtements. Il est ouvert toute l’année le samedi, le dimanche et le lundi, de 09h00 à 18h00. Il n’est pas dans Paris, mais très près : à la station de métro Porte de Clignancourt."
   }
  ]
 };

@@ -586,7 +586,7 @@ window.APP_EXAM_PAPERS['loc-109-1-a002'] = {
     "intensive",
     "intrinsic",
     "abrupt",
-    "affective請依下文回答第42題至第44題："
+    "affective"
    ],
    "a": 0,
    "exp": "✅ (A) intensive treatment 意為「加強（密集）治療」，病情未改善的病人獲得更積極的治療。\n❌ (B) intrinsic 是內在固有的。\n❌ (C) abrupt 是突然的。\n❌ (D) affective 是情感的。\n📚 出處：英文字彙（intensive treatment）"
@@ -595,16 +595,15 @@ window.APP_EXAM_PAPERS['loc-109-1-a002'] = {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "various wounds",
+    "fatal mistakes",
+    "hopeful cases",
+    "various afflictions"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/109190_301_0207_42.webp"
+   "psg": "Between 1700 and 1750, the population of Bath tripled from three to nine thousand and was comprised of diverse types. Doctors settled in Bath to administer to the patients who came seeking relief from 42 such as gout, fever, palsy, rashes, and rheumatism. Professional gamblers stopped at Bath on their annual itinerary through London and the continental spas. The 43 for visitors were September/October and March/April, although the entertainments were continuous all year. The aristocracy came from London to take the waters and escape the bustle of the big city. Parsons, country squires, tradesmen, and their wives came to mingle with the nobility. Indeed the seasonal retreat of the middle class to Bath may mark the first time in English history when the concept of 44 for large numbers of working people became a reality."
   },
   {
    "n": 43,
@@ -625,16 +624,15 @@ window.APP_EXAM_PAPERS['loc-109-1-a002'] = {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "summer vacation",
+    "annual vacation",
+    "anniversary",
+    "wedding celebration"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/109190_301_0207_44.webp"
+   "psg": "Between 1700 and 1750, the population of Bath tripled from three to nine thousand and was comprised of diverse types. Doctors settled in Bath to administer to the patients who came seeking relief from 42 such as gout, fever, palsy, rashes, and rheumatism. Professional gamblers stopped at Bath on their annual itinerary through London and the continental spas. The 43 for visitors were September/October and March/April, although the entertainments were continuous all year. The aristocracy came from London to take the waters and escape the bustle of the big city. Parsons, country squires, tradesmen, and their wives came to mingle with the nobility. Indeed the seasonal retreat of the middle class to Bath may mark the first time in English history when the concept of 44 for large numbers of working people became a reality."
   },
   {
    "n": 45,

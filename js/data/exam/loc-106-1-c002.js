@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "discover",
     "discovery",
     "discovered",
-    "discovering第 41 題至第 45 題為題組Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black"
+    "discovering"
    ],
    "a": 2,
    "exp": "✅ (C) city 與 discover 為被動關係，用過去分詞 discovered 作後位修飾，等於 which was recently discovered。\n❌ (A) discover 是原形動詞，句中已有主要動詞 choose。\n❌ (B) discovery 是名詞，不能修飾前面的名詞片語。\n❌ (D) discovering 為主動，城市不會去發現別的東西。\n📚 出處：文法題，分詞片語作形容詞修飾"
@@ -579,61 +579,57 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Brain",
+    "Nature",
+    "Rapid",
+    "Social"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106190_501_0207_41.webp"
+   "psg": "為題組 Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "belief",
+    "interest",
+    "awareness",
+    "motivation"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/106190_501_0207_42.webp"
+   "psg": "為題組 Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "draw",
+    "allow",
+    "admit",
+    "decide"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/106190_501_0207_43.webp"
+   "psg": "為題組 Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "cold",
+    "secret",
+    "global",
+    "public"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/106190_501_0207_44.webp"
+   "psg": "為題組 Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off."
   },
   {
    "n": 45,
@@ -648,7 +644,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
    ],
    "needfig": true,
    "fig": "img/q/106190_501_0207_45.webp",
-   "a": 2
+   "a": 2,
+   "psg": "為題組 Habitat destruction threatens many of Taiwan’s native plants and animals--including the Formosan black bear. 41 development has caused widespread environmental degradation. To raise people’s 42 of conservation issues, two koalas, Patrick and Harley, were brought from Australia to the Taipei Zoo. The two koalas’ role, as explained by the zoo director Dr. Yan, is to 43 people to the Zoo, where they can learn about the importance of preserving Taiwan’s wild life. The 44 response has been overwhelming. The koalas went on display in August last year, attracting 1.5 million visitors in the first six weeks alone. And many locally 45 education books combining information about koalas with related conservation issues are also selling well. The hard work of the Zoo appears to be paying off."
   },
   {
    "n": 46,
@@ -661,7 +658,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "The real truth about money is easy to find.",
     "Many Americans view expensive purchases as \"shortcuts to well-being.\""
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty."
   },
   {
    "n": 47,
@@ -674,7 +672,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "We engage in activities that create real fulfillment in life.",
     "Millions of us spend more time and energy pursuing the things money can buy."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty."
   },
   {
    "n": 48,
@@ -687,7 +686,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "People should engage in meaningful activities that create fulfillment in life.",
     "People get depressed because they make less money than people of two generations ago."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty."
   },
   {
    "n": 49,
@@ -700,7 +700,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "Cultivating friendships.",
     "Developing a spiritual sense."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty."
   },
   {
    "n": 50,
@@ -713,7 +714,8 @@ window.APP_EXAM_PAPERS['loc-106-1-c002'] = {
     "A quick way to live a happy life.",
     "A difficult route to real fulfillment."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 If you charted the incidence of depression since 1950, the lines suggest a growing epidemic. Depending on what assumptions are used, clinical depression is 3 to 10 times as common today than two generations ago. A recent study by Ronald Kessler of Harvard Medical School estimated that each year, 1 in 15 Americans experience an episode of major depression--meaning not just a bad day but depression so debilitating that it’s hard to get out of bed. Money jangles in our wallets and purses as never before, but we are basically no happier for it, and for many, more money leads to depression. How can that be？ Of course, our grandmothers, many of whom lived through the Depression and the war, told us that money can’t buy happiness. We don’t act as though we listened. Millions of us spend more time and energy pursuing the things money can buy than engaging in activities that create real fulfillment in life, like cultivating friendships, helping others and developing a spiritual sense. We say we know that money can’t buy happiness. In the TIME poll, when people were asked about their major source of happiness, money ranked 14th. Still, we behave as though happiness is one wave of a credit card away. Too many Americans view expensive purchases as \"shortcuts to well-being,\" says Martin Seligman, a psychologist at the University of Pennsylvania. But people are poor predictors of where those shortcuts will take them. To be sure, there is ample evidence that being poor causes unhappiness. For example, studies by Ruut Veenhoven, a sociologist at Erasmus University in Rotterdam, show that the poor--those in Europe earning less than about $10,000 a year--are rendered unhappy by the relentless frustration and stress of poverty."
   }
  ]
 };

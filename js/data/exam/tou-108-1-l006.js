@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "aéroport",
     "aire de repos",
     "arrêt",
-    "autorouteChers clients,Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur"
+    "autoroute"
    ],
    "a": 3,
    "exp": "✅ (D) 法國高速公路編號以字母 A 開頭（A = autoroute），A6 即 6 號高速公路，連接巴黎、馬貢與里昂一線。\n❌ (A) 機場 aéroport 不以 A 加數字的方式出現在路況播報。\n❌ (B) aire de repos 是高速公路休息站，非路線代號。\n❌ (C) arrêt 是（公車）停靠站。\n📚 出處：法國道路編號（A 高速公路 / N 國道 / D 省道）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "une lettre d’excuses",
     "un règlement"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Chers clients, Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur de vos attentes. La SNCF vous présente ses excuses pour les difficultés que vous rencontrez. Nous avons été confrontés à une accumulation d’événements qui ont dégradé la circulation et la régularité des trains. Outre les mouvements sociaux nationaux et locaux, nous avons subi d’autres éléments perturbateurs (chutes d’arbres sur les rails lors de la tempête). Nous mettons tout en œuvre pour que la régularité du trafic des trains Corail Intercités de votre ligne s’améliore. Nous vous remercions de la confiance que vous voudrez bien nous accorder."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "à tous les passagers",
     "aux membres d’un comité local"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Chers clients, Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur de vos attentes. La SNCF vous présente ses excuses pour les difficultés que vous rencontrez. Nous avons été confrontés à une accumulation d’événements qui ont dégradé la circulation et la régularité des trains. Outre les mouvements sociaux nationaux et locaux, nous avons subi d’autres éléments perturbateurs (chutes d’arbres sur les rails lors de la tempête). Nous mettons tout en œuvre pour que la régularité du trafic des trains Corail Intercités de votre ligne s’améliore. Nous vous remercions de la confiance que vous voudrez bien nous accorder."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "la ponctualité des trains.",
     "les solutions des problèmes."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Chers clients, Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur de vos attentes. La SNCF vous présente ses excuses pour les difficultés que vous rencontrez. Nous avons été confrontés à une accumulation d’événements qui ont dégradé la circulation et la régularité des trains. Outre les mouvements sociaux nationaux et locaux, nous avons subi d’autres éléments perturbateurs (chutes d’arbres sur les rails lors de la tempête). Nous mettons tout en œuvre pour que la régularité du trafic des trains Corail Intercités de votre ligne s’améliore. Nous vous remercions de la confiance que vous voudrez bien nous accorder."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "Le manque de conscience des cheminots.",
     "Les chutes d’arbres sur les rails."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Chers clients, Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur de vos attentes. La SNCF vous présente ses excuses pour les difficultés que vous rencontrez. Nous avons été confrontés à une accumulation d’événements qui ont dégradé la circulation et la régularité des trains. Outre les mouvements sociaux nationaux et locaux, nous avons subi d’autres éléments perturbateurs (chutes d’arbres sur les rails lors de la tempête). Nous mettons tout en œuvre pour que la régularité du trafic des trains Corail Intercités de votre ligne s’améliore. Nous vous remercions de la confiance que vous voudrez bien nous accorder."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "le confort dans les trains",
     "la lenteur des trains",
     "l’interruption du trafic",
-    "l’exactitude des trainsCroisières avec escale en CorseProche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde,"
+    "l’exactitude des trainsCroisières avec escale en Corse"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Chers clients, Depuis plusieurs semaines, la qualité de notre offre de transport n’est pas à la hauteur de vos attentes. La SNCF vous présente ses excuses pour les difficultés que vous rencontrez. Nous avons été confrontés à une accumulation d’événements qui ont dégradé la circulation et la régularité des trains. Outre les mouvements sociaux nationaux et locaux, nous avons subi d’autres éléments perturbateurs (chutes d’arbres sur les rails lors de la tempête). Nous mettons tout en œuvre pour que la régularité du trafic des trains Corail Intercités de votre ligne s’améliore. Nous vous remercions de la confiance que vous voudrez bien nous accorder."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "une lettre écrite par la famille Bonaparte",
     "une recette proposée par un restaurant corse"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Proche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde, à juste titre ! Véritable montagne dans la mer, elle offre à ses visiteurs de sublimes panoramas, mêlant mer et montagne, plage et nature sauvage... L’Île de Beauté est un véritable joyau de la Méditerranée ! Découvrez nos offres de croisières en Corse, et embarquez à bord d’un somptueux navire. Vous découvrirez les côtes sauvages de la Corse de la plus belle des manières qui soit : depuis la mer. Chaque escale sera l’occasion de visites enrichissantes et de belles découvertes gastronomiques. Bastia la spectaculaire avec ses maisons accrochées au flanc de la montagne, Ajaccio, ville natale de Bonaparte, son vieux port, et ses nombreuses plages aux eaux turquoises… Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreuses spécialités culinaires de la Corse : le Brocciu et les fromages de brebis et chèvre, les coppa, lonzu, Figatelli, et saucissons corses au goût si particulier, sans oublier les Canistrelli et le miel corse, produit dans l’île depuis l’antiquité. Tout est réuni sur l’île de Beauté pour rendre votre croisière en Corse inoubliable!"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "Un somptueux navire.",
     "Véritable montagne dans la mer."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Proche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde, à juste titre ! Véritable montagne dans la mer, elle offre à ses visiteurs de sublimes panoramas, mêlant mer et montagne, plage et nature sauvage... L’Île de Beauté est un véritable joyau de la Méditerranée ! Découvrez nos offres de croisières en Corse, et embarquez à bord d’un somptueux navire. Vous découvrirez les côtes sauvages de la Corse de la plus belle des manières qui soit : depuis la mer. Chaque escale sera l’occasion de visites enrichissantes et de belles découvertes gastronomiques. Bastia la spectaculaire avec ses maisons accrochées au flanc de la montagne, Ajaccio, ville natale de Bonaparte, son vieux port, et ses nombreuses plages aux eaux turquoises… Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreuses spécialités culinaires de la Corse : le Brocciu et les fromages de brebis et chèvre, les coppa, lonzu, Figatelli, et saucissons corses au goût si particulier, sans oublier les Canistrelli et le miel corse, produit dans l’île depuis l’antiquité. Tout est réuni sur l’île de Beauté pour rendre votre croisière en Corse inoubliable!"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "pêches des joyaux dans la Méditerranée",
     "promenades à bord d’un somptueux navire"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Proche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde, à juste titre ! Véritable montagne dans la mer, elle offre à ses visiteurs de sublimes panoramas, mêlant mer et montagne, plage et nature sauvage... L’Île de Beauté est un véritable joyau de la Méditerranée ! Découvrez nos offres de croisières en Corse, et embarquez à bord d’un somptueux navire. Vous découvrirez les côtes sauvages de la Corse de la plus belle des manières qui soit : depuis la mer. Chaque escale sera l’occasion de visites enrichissantes et de belles découvertes gastronomiques. Bastia la spectaculaire avec ses maisons accrochées au flanc de la montagne, Ajaccio, ville natale de Bonaparte, son vieux port, et ses nombreuses plages aux eaux turquoises… Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreuses spécialités culinaires de la Corse : le Brocciu et les fromages de brebis et chèvre, les coppa, lonzu, Figatelli, et saucissons corses au goût si particulier, sans oublier les Canistrelli et le miel corse, produit dans l’île depuis l’antiquité. Tout est réuni sur l’île de Beauté pour rendre votre croisière en Corse inoubliable!"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "La Corse se trouve tout près de l’Hexagone et possède un paysage et une culturetrès similaires à ceux de la France métropolitaine.",
     "Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreusesspécialités culinaires de la Corse."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Proche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde, à juste titre ! Véritable montagne dans la mer, elle offre à ses visiteurs de sublimes panoramas, mêlant mer et montagne, plage et nature sauvage... L’Île de Beauté est un véritable joyau de la Méditerranée ! Découvrez nos offres de croisières en Corse, et embarquez à bord d’un somptueux navire. Vous découvrirez les côtes sauvages de la Corse de la plus belle des manières qui soit : depuis la mer. Chaque escale sera l’occasion de visites enrichissantes et de belles découvertes gastronomiques. Bastia la spectaculaire avec ses maisons accrochées au flanc de la montagne, Ajaccio, ville natale de Bonaparte, son vieux port, et ses nombreuses plages aux eaux turquoises… Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreuses spécialités culinaires de la Corse : le Brocciu et les fromages de brebis et chèvre, les coppa, lonzu, Figatelli, et saucissons corses au goût si particulier, sans oublier les Canistrelli et le miel corse, produit dans l’île depuis l’antiquité. Tout est réuni sur l’île de Beauté pour rendre votre croisière en Corse inoubliable!"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l006'] = {
     "Les Canistrelli",
     "La confiture corse"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Proche et pourtant si dépaysante, la Corse fait partie des plus belles îles du monde, à juste titre ! Véritable montagne dans la mer, elle offre à ses visiteurs de sublimes panoramas, mêlant mer et montagne, plage et nature sauvage... L’Île de Beauté est un véritable joyau de la Méditerranée ! Découvrez nos offres de croisières en Corse, et embarquez à bord d’un somptueux navire. Vous découvrirez les côtes sauvages de la Corse de la plus belle des manières qui soit : depuis la mer. Chaque escale sera l’occasion de visites enrichissantes et de belles découvertes gastronomiques. Bastia la spectaculaire avec ses maisons accrochées au flanc de la montagne, Ajaccio, ville natale de Bonaparte, son vieux port, et ses nombreuses plages aux eaux turquoises… Une croisière en Corse ravira les gourmands qui pourront goûter aux nombreuses spécialités culinaires de la Corse : le Brocciu et les fromages de brebis et chèvre, les coppa, lonzu, Figatelli, et saucissons corses au goût si particulier, sans oublier les Canistrelli et le miel corse, produit dans l’île depuis l’antiquité. Tout est réuni sur l’île de Beauté pour rendre votre croisière en Corse inoubliable!"
   }
  ]
 };

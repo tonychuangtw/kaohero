@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "reassured",
     "resigned",
     "received",
-    "reissuedGlobal warming and environmental problems raise people’s environmental concerns and increase"
+    "reissued"
    ],
    "a": 3,
    "exp": "✅ (D) reissue 意為「重新核發、補發」，片語 have a new one reissued 表示「讓新護照被補發」，完全符合旅途中遺失護照時之處理情境（選項後方文字為轉檔時排版黏合）。\n❌ (A) reassured 意為「感到安心的、再次保證的」，不合補發證照之語境。\n❌ (B) resigned 意為「辭職的、順從聽命的」，不合句意。\n❌ (C) received 意為「接收的、被領取的」，此處使役動詞用法需表達「申請重新核發」，reissued 更加精確切題。\n📚 出處：護照遺失補發處置與使役動詞過去分詞受詞補語用法"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "The Taiwan government took actions to promote green dining.",
     "The goal of green marketing makes no difference from marketing in general."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Global warming and environmental problems raise people’s environmental concerns and increase their environmental responsibility in their buying. Countries all over the world are increasingly emphasizing environmental conservation matters. Green consumers are those who are aware of and interested in environmental issues. They support businesses that run in environmentally friendly ways. In addition, green consumers are also concerned about how green the products they bought are. Green products are products that are non-toxic, made from recycled materials, or minimally packaged. In general, green products are known as ecological products or environmentally friendly products that impact less on the environment. The goal of green marketing is bringing environment issue into marketing. If we can make consumers consider that information of environmental protection during their decision process, we can push companies to produce more environmentally friendly products. Although the tourism and hospitality industry is also referred to as the non-factory-made industry, companies are still trying hard toward the goal of sustainable development. In Taiwan, the government took several ways to encourage sustainability development in the industry. For example, the Environmental Protection Administration (EPA) held a reward program that customers could earn “green points” after dinning at environmentally friendly restaurants."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Non-toxic.",
     "Packaged in many layers and boxes."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Global warming and environmental problems raise people’s environmental concerns and increase their environmental responsibility in their buying. Countries all over the world are increasingly emphasizing environmental conservation matters. Green consumers are those who are aware of and interested in environmental issues. They support businesses that run in environmentally friendly ways. In addition, green consumers are also concerned about how green the products they bought are. Green products are products that are non-toxic, made from recycled materials, or minimally packaged. In general, green products are known as ecological products or environmentally friendly products that impact less on the environment. The goal of green marketing is bringing environment issue into marketing. If we can make consumers consider that information of environmental protection during their decision process, we can push companies to produce more environmentally friendly products. Although the tourism and hospitality industry is also referred to as the non-factory-made industry, companies are still trying hard toward the goal of sustainable development. In Taiwan, the government took several ways to encourage sustainability development in the industry. For example, the Environmental Protection Administration (EPA) held a reward program that customers could earn “green points” after dinning at environmentally friendly restaurants."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "They are enthusiastic about human rights.",
     "They are interested in racial rights issues."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Global warming and environmental problems raise people’s environmental concerns and increase their environmental responsibility in their buying. Countries all over the world are increasingly emphasizing environmental conservation matters. Green consumers are those who are aware of and interested in environmental issues. They support businesses that run in environmentally friendly ways. In addition, green consumers are also concerned about how green the products they bought are. Green products are products that are non-toxic, made from recycled materials, or minimally packaged. In general, green products are known as ecological products or environmentally friendly products that impact less on the environment. The goal of green marketing is bringing environment issue into marketing. If we can make consumers consider that information of environmental protection during their decision process, we can push companies to produce more environmentally friendly products. Although the tourism and hospitality industry is also referred to as the non-factory-made industry, companies are still trying hard toward the goal of sustainable development. In Taiwan, the government took several ways to encourage sustainability development in the industry. For example, the Environmental Protection Administration (EPA) held a reward program that customers could earn “green points” after dinning at environmentally friendly restaurants."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Planetary.",
     "Mechanical."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Global warming and environmental problems raise people’s environmental concerns and increase their environmental responsibility in their buying. Countries all over the world are increasingly emphasizing environmental conservation matters. Green consumers are those who are aware of and interested in environmental issues. They support businesses that run in environmentally friendly ways. In addition, green consumers are also concerned about how green the products they bought are. Green products are products that are non-toxic, made from recycled materials, or minimally packaged. In general, green products are known as ecological products or environmentally friendly products that impact less on the environment. The goal of green marketing is bringing environment issue into marketing. If we can make consumers consider that information of environmental protection during their decision process, we can push companies to produce more environmentally friendly products. Although the tourism and hospitality industry is also referred to as the non-factory-made industry, companies are still trying hard toward the goal of sustainable development. In Taiwan, the government took several ways to encourage sustainability development in the industry. For example, the Environmental Protection Administration (EPA) held a reward program that customers could earn “green points” after dinning at environmentally friendly restaurants."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Gender inequality.",
     "Global poverty.",
     "Global warming.",
-    "Regional war.The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu"
+    "Regional war."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Global warming and environmental problems raise people’s environmental concerns and increase their environmental responsibility in their buying. Countries all over the world are increasingly emphasizing environmental conservation matters. Green consumers are those who are aware of and interested in environmental issues. They support businesses that run in environmentally friendly ways. In addition, green consumers are also concerned about how green the products they bought are. Green products are products that are non-toxic, made from recycled materials, or minimally packaged. In general, green products are known as ecological products or environmentally friendly products that impact less on the environment. The goal of green marketing is bringing environment issue into marketing. If we can make consumers consider that information of environmental protection during their decision process, we can push companies to produce more environmentally friendly products. Although the tourism and hospitality industry is also referred to as the non-factory-made industry, companies are still trying hard toward the goal of sustainable development. In Taiwan, the government took several ways to encourage sustainability development in the industry. For example, the Environmental Protection Administration (EPA) held a reward program that customers could earn “green points” after dinning at environmentally friendly restaurants."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Wild animals.",
     "Hardworking residents."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu (also called Little Liuqiu or Liuqiu), an island belonging to Pingtung County in Taiwan has a high number of sea turtles, and the majority of the residents there have been aware of the importance of protecting sea turtles. However, the island has so many tourist attractions that many visitors come to the island on weekends and holidays. They come for scuba diving, SUP (stand-up paddling), snorkeling, and so on. Although these activities promote local economic growth, it leads to some influences on marine life and the environment. To decrease the burden on the environment, a team of volunteers, consisting of university students in Taiwan, non-profit organizations, and residents have started to conduct a project about environmental protection, including sea turtle conservation and marine-debris decoration. The team observes the life of sea turtles, keeping records of their migration behaviors. The team also has a sea turtle patrol at night from 7:00 p.m. to 5:00 a.m., learning about how sea turtles lay their eggs. On the other hand, the team conducts beach clean-ups every day. The volunteers collect marine debris to create an art wall near the beach. This decoration wall aims to remind visitors that they should reduce pollution and disturbance. The head of the team says the volunteers will take more actions to keep the island green."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "To paint the houses.",
     "To enjoy water activities."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu (also called Little Liuqiu or Liuqiu), an island belonging to Pingtung County in Taiwan has a high number of sea turtles, and the majority of the residents there have been aware of the importance of protecting sea turtles. However, the island has so many tourist attractions that many visitors come to the island on weekends and holidays. They come for scuba diving, SUP (stand-up paddling), snorkeling, and so on. Although these activities promote local economic growth, it leads to some influences on marine life and the environment. To decrease the burden on the environment, a team of volunteers, consisting of university students in Taiwan, non-profit organizations, and residents have started to conduct a project about environmental protection, including sea turtle conservation and marine-debris decoration. The team observes the life of sea turtles, keeping records of their migration behaviors. The team also has a sea turtle patrol at night from 7:00 p.m. to 5:00 a.m., learning about how sea turtles lay their eggs. On the other hand, the team conducts beach clean-ups every day. The volunteers collect marine debris to create an art wall near the beach. This decoration wall aims to remind visitors that they should reduce pollution and disturbance. The head of the team says the volunteers will take more actions to keep the island green."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Staff from a non-profit organization.",
     "Tour managers from other countries."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu (also called Little Liuqiu or Liuqiu), an island belonging to Pingtung County in Taiwan has a high number of sea turtles, and the majority of the residents there have been aware of the importance of protecting sea turtles. However, the island has so many tourist attractions that many visitors come to the island on weekends and holidays. They come for scuba diving, SUP (stand-up paddling), snorkeling, and so on. Although these activities promote local economic growth, it leads to some influences on marine life and the environment. To decrease the burden on the environment, a team of volunteers, consisting of university students in Taiwan, non-profit organizations, and residents have started to conduct a project about environmental protection, including sea turtle conservation and marine-debris decoration. The team observes the life of sea turtles, keeping records of their migration behaviors. The team also has a sea turtle patrol at night from 7:00 p.m. to 5:00 a.m., learning about how sea turtles lay their eggs. On the other hand, the team conducts beach clean-ups every day. The volunteers collect marine debris to create an art wall near the beach. This decoration wall aims to remind visitors that they should reduce pollution and disturbance. The head of the team says the volunteers will take more actions to keep the island green."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "At midnight.",
     "At 10 in the morning."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu (also called Little Liuqiu or Liuqiu), an island belonging to Pingtung County in Taiwan has a high number of sea turtles, and the majority of the residents there have been aware of the importance of protecting sea turtles. However, the island has so many tourist attractions that many visitors come to the island on weekends and holidays. They come for scuba diving, SUP (stand-up paddling), snorkeling, and so on. Although these activities promote local economic growth, it leads to some influences on marine life and the environment. To decrease the burden on the environment, a team of volunteers, consisting of university students in Taiwan, non-profit organizations, and residents have started to conduct a project about environmental protection, including sea turtle conservation and marine-debris decoration. The team observes the life of sea turtles, keeping records of their migration behaviors. The team also has a sea turtle patrol at night from 7:00 p.m. to 5:00 a.m., learning about how sea turtles lay their eggs. On the other hand, the team conducts beach clean-ups every day. The volunteers collect marine debris to create an art wall near the beach. This decoration wall aims to remind visitors that they should reduce pollution and disturbance. The head of the team says the volunteers will take more actions to keep the island green."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-112-1-l004'] = {
     "Introduce more friends to visit this island.",
     "Make food to feed sea turtles."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The sea turtle has been a species at high risk of extinction for many years. In Taiwan, Xiaoliuqiu (also called Little Liuqiu or Liuqiu), an island belonging to Pingtung County in Taiwan has a high number of sea turtles, and the majority of the residents there have been aware of the importance of protecting sea turtles. However, the island has so many tourist attractions that many visitors come to the island on weekends and holidays. They come for scuba diving, SUP (stand-up paddling), snorkeling, and so on. Although these activities promote local economic growth, it leads to some influences on marine life and the environment. To decrease the burden on the environment, a team of volunteers, consisting of university students in Taiwan, non-profit organizations, and residents have started to conduct a project about environmental protection, including sea turtle conservation and marine-debris decoration. The team observes the life of sea turtles, keeping records of their migration behaviors. The team also has a sea turtle patrol at night from 7:00 p.m. to 5:00 a.m., learning about how sea turtles lay their eggs. On the other hand, the team conducts beach clean-ups every day. The volunteers collect marine debris to create an art wall near the beach. This decoration wall aims to remind visitors that they should reduce pollution and disturbance. The head of the team says the volunteers will take more actions to keep the island green."
   }
  ]
 };

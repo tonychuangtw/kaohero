@@ -1076,7 +1076,7 @@ window.APP_EXAM_PAPERS['tou-102-1-d004'] = {
     "All around the world",
     "There is no denying",
     "In the meantime,",
-    "It is a turning pointBusinesses often want to find out the level of service that is being provided by the employees in a particular store or"
+    "It is a turning point"
    ],
    "a": 1,
    "exp": "✅ (B) There is no denying 意為「不可否認」。There is no denying that + 子句 為固定句型，意為「不可否認……」，句意為「不可否認全球經濟仍陷於衰退，但某些最顯著且持久的機會其實近在眼前」，語意與語法皆正確。\n❌ (A) All around the world 意為「世界各地」，為副詞片語，無法接 that 子句構成正確句構。\n❌ (C) In the meantime 意為「在此期間」，為副詞片語，亦無法接 that 子句。\n❌ (D) It is a turning point 語意不完整且與後接 that 子句無法構成正確句構。\n📚 出處：英語固定句型 There is no denying that…（不可否認……）"
@@ -1092,7 +1092,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d004'] = {
     "Visit some stores and talk with managers.",
     "Exchange information in a mysterious way."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Businesses often want to find out the level of service that is being provided by the employees in a particular store or place of business. In order to do this, they hire people who are known as mystery shoppers. These are people who shop at a store and secretly gather information about the store and the employees. They often also give their opinions about the overall experience they have while shopping. Any type of business that deals with the public may be visited by a mystery shopper. These businesses include but are not limited to hotels, restaurants, retail stores, gas stations, and banks. Practically any business whose management needs to learn what the end consumer sees and experiences can benefit from mystery shopping. Mystery shopping has become a big industry in the U.S., with estimated value of this industry at over $600 million in 2004. However, most people who work as mystery shoppers are unable to make a living doing it. Rather, they simply do it for fun and get free meals, merchandise, and sometimes money. The industry has also been hit in recent years by criminals who try to get people to pay in order to become certified as mystery shoppers."
   },
   {
    "n": 78,
@@ -1105,7 +1106,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d004'] = {
     "There are over 600 million mystery shoppers in the U.S.",
     "Mystery shoppers are in danger because they may be beaten by criminals."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Businesses often want to find out the level of service that is being provided by the employees in a particular store or place of business. In order to do this, they hire people who are known as mystery shoppers. These are people who shop at a store and secretly gather information about the store and the employees. They often also give their opinions about the overall experience they have while shopping. Any type of business that deals with the public may be visited by a mystery shopper. These businesses include but are not limited to hotels, restaurants, retail stores, gas stations, and banks. Practically any business whose management needs to learn what the end consumer sees and experiences can benefit from mystery shopping. Mystery shopping has become a big industry in the U.S., with estimated value of this industry at over $600 million in 2004. However, most people who work as mystery shoppers are unable to make a living doing it. Rather, they simply do it for fun and get free meals, merchandise, and sometimes money. The industry has also been hit in recent years by criminals who try to get people to pay in order to become certified as mystery shoppers."
   },
   {
    "n": 79,
@@ -1118,7 +1120,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d004'] = {
     "One earns a lot of money by working as a mystery shopper.",
     "In reality, mystery shopping is just another market research tool."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Businesses often want to find out the level of service that is being provided by the employees in a particular store or place of business. In order to do this, they hire people who are known as mystery shoppers. These are people who shop at a store and secretly gather information about the store and the employees. They often also give their opinions about the overall experience they have while shopping. Any type of business that deals with the public may be visited by a mystery shopper. These businesses include but are not limited to hotels, restaurants, retail stores, gas stations, and banks. Practically any business whose management needs to learn what the end consumer sees and experiences can benefit from mystery shopping. Mystery shopping has become a big industry in the U.S., with estimated value of this industry at over $600 million in 2004. However, most people who work as mystery shoppers are unable to make a living doing it. Rather, they simply do it for fun and get free meals, merchandise, and sometimes money. The industry has also been hit in recent years by criminals who try to get people to pay in order to become certified as mystery shoppers."
   },
   {
    "n": 80,
@@ -1131,7 +1134,8 @@ window.APP_EXAM_PAPERS['tou-102-1-d004'] = {
     "instructed",
     "identified"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Businesses often want to find out the level of service that is being provided by the employees in a particular store or place of business. In order to do this, they hire people who are known as mystery shoppers. These are people who shop at a store and secretly gather information about the store and the employees. They often also give their opinions about the overall experience they have while shopping. Any type of business that deals with the public may be visited by a mystery shopper. These businesses include but are not limited to hotels, restaurants, retail stores, gas stations, and banks. Practically any business whose management needs to learn what the end consumer sees and experiences can benefit from mystery shopping. Mystery shopping has become a big industry in the U.S., with estimated value of this industry at over $600 million in 2004. However, most people who work as mystery shoppers are unable to make a living doing it. Rather, they simply do it for fun and get free meals, merchandise, and sometimes money. The industry has also been hit in recent years by criminals who try to get people to pay in order to become certified as mystery shoppers."
   }
  ]
 };

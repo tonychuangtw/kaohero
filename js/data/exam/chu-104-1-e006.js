@@ -572,7 +572,7 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
     "on",
     "above",
     "at",
-    "around第 41 題至第 45 題，請依文意，從四個選項中選出最合適者Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is"
+    "around"
    ],
    "a": 3,
    "exp": "✅ (D) get around＝在某地四處走動、往來；句意為在這個小鎮裡四處移動最方便的方式是騎機車。\n❌ (A) get on 指上車、繼續進行或與人相處融洽，不作「在某地內移動」解。\n❌ (B) get above 並非固定用法，above 指位置在上方。\n❌ (C) get at 意為構得到、意指或責難，與交通移動無關。\n📚 出處：片語 get around"
@@ -581,76 +581,71 @@ window.APP_EXAM_PAPERS['chu-104-1-e006'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "reaching",
+    "setting",
+    "stretching",
+    "pointing"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104010_502_0104_41.webp"
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "drag",
+    "pull",
+    "walk",
+    "trip"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104010_502_0104_42.webp"
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "if so",
+    "and then",
+    "in case",
+    "although"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104010_502_0104_43.webp"
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "ball",
+    "racket",
+    "shoe",
+    "game"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104010_502_0104_44.webp"
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "later",
+    "sudden",
+    "false",
+    "heavy"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104010_502_0104_45.webp"
+   "psg": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is situated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be firmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes on the wheels have to be released. While en route, there are also many things to watch out for. You should never go too fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44 laces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful enough, you and the rider will arrive at your destination without any mishaps."
   },
   {
    "n": 46,

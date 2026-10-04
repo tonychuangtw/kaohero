@@ -571,7 +571,7 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
     "handy",
     "obedient",
     "effective",
-    "military第 41 題至第 45 題為題組For more than 6 decades, Central has been a trusted name—and the store of choice—for generations of shoppers."
+    "military"
    ],
    "a": 1,
    "exp": "✅ (B) 聽從師長、不與父母爭辯，即 obedient（順從的）。\n❌ (A) handy 指方便好用。\n❌ (C) effective 指有效的。\n❌ (D) military 指軍事的。\n📚 出處：形容詞語意辨析。"
@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
     "A music store.",
     "A department store."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 For more than 6 decades, Central has been a trusted name—and the store of choice—for generations of shoppers. To mark its 65th Anniversary, Central will hold its annual Flower Extravaganza Exhibition featuring for the first time ever, world renowned Belgian floral designer Daniel Ost, who along with top Thai designers will create unique, breathtaking storewide flower arrangements, merging art and nature splendor. There will also be a variety of activities along with live concerts featuring Thai and international acts plus anniversary promotion offers. Don’t miss one of Bangkok’s most anticipated social events, from the 24th to the 28th of October at our flagship Central Chidlom store. Located in the heart of Bangkok’s shopping district—Central Chidlom has long been one of the city’s most well-known shopping destinations. Shoppers will love the exciting new Beauty Galerie, along with a huge selection of international luxury-brand items and top-name fashion labels including GUCCI, BOTTEGA VENETA, ALFRED DUNHILL, BALLY, BURBERRY, COACH, and many, many, more. And there’s fine dining on the 7th floor at FoodLoft, with a choice of 8 international cuisines. With our world-class selection and Thai-style hospitality, you’re sure to go home with bags full of happiness…from Central."
   },
   {
    "n": 42,
@@ -628,7 +629,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
     "Its dining area is located on the 8th floor.",
     "It hosts a flower exhibition every year."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 For more than 6 decades, Central has been a trusted name—and the store of choice—for generations of shoppers. To mark its 65th Anniversary, Central will hold its annual Flower Extravaganza Exhibition featuring for the first time ever, world renowned Belgian floral designer Daniel Ost, who along with top Thai designers will create unique, breathtaking storewide flower arrangements, merging art and nature splendor. There will also be a variety of activities along with live concerts featuring Thai and international acts plus anniversary promotion offers. Don’t miss one of Bangkok’s most anticipated social events, from the 24th to the 28th of October at our flagship Central Chidlom store. Located in the heart of Bangkok’s shopping district—Central Chidlom has long been one of the city’s most well-known shopping destinations. Shoppers will love the exciting new Beauty Galerie, along with a huge selection of international luxury-brand items and top-name fashion labels including GUCCI, BOTTEGA VENETA, ALFRED DUNHILL, BALLY, BURBERRY, COACH, and many, many, more. And there’s fine dining on the 7th floor at FoodLoft, with a choice of 8 international cuisines. With our world-class selection and Thai-style hospitality, you’re sure to go home with bags full of happiness…from Central."
   },
   {
    "n": 45,
@@ -639,7 +641,7 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
     "Flagship.",
     "Promotion.",
     "Hospitality.",
-    "Extravaganza.第 46 題至第 50 題為題組I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a ＿＿＿ 46 wedding held in a church"
+    "Extravaganza."
    ],
    "a": 3,
    "exp": "✅ (D) extravaganza 指盛大而令人印象深刻的活動。\n❌ (A) flagship 指旗艦（店）。\n❌ (B) promotion 指促銷或升遷。\n❌ (C) hospitality 指款待。\n📚 出處：字義推論。"
@@ -648,76 +650,71 @@ window.APP_EXAM_PAPERS['loc-105-1-c006'] = {
    "n": 46,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 46 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "proper",
+    "modern",
+    "traditional",
+    "fancy"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105180_502_0208_46.webp"
+   "psg": "為題組 I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a 46 wedding held in a church with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea."
   },
   {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "argued",
+    "exchanged",
+    "supported",
+    "invited"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105180_502_0208_47.webp"
+   "psg": "為題組 I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a 46 wedding held in a church with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "slow-paced",
+    "low-level",
+    "easy-going",
+    "good-paying"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105180_502_0208_48.webp"
+   "psg": "為題組 I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a 46 wedding held in a church with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "variety",
+    "string",
+    "bundle",
+    "piece"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105180_502_0208_49.webp"
+   "psg": "為題組 I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a 46 wedding held in a church with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "educationally",
+    "financially",
+    "critically",
+    "unfortunately"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105180_502_0208_50.webp"
+   "psg": "為題組 I attended my 43 year-old uncle’s wedding last Sunday afternoon. It was not a 46 wedding held in a church with a simple cake-and-tea or coffee reception afterwards. Instead, my uncle and his fiancée 47 their vows of marriage in a beautiful garden at a five-star hotel. Since both my uncle and his fiancée were already working at 48 jobs in two of the most successful computer companies in the city, they didn’t need to depend upon their parents to help pay for their wedding. The couple invited many co-workers and friends besides their relatives. The wedding guests drank pink champagne and ate a 49 of special delicacies prepared by the hotel’s gourmet cooks. Attending this splendid wedding made me think that waiting to tie the wedding knot until one is older and 50 independent is a good idea."
   }
  ]
 };

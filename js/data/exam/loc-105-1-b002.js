@@ -542,7 +542,7 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "quality",
     "grain",
     "disposition",
-    "backbone第 39 題至第 42 題為題組Emily Brontë, one of the three gifted Brontë sisters, is the author of the famous English novel Wuthering Heights."
+    "backbone"
    ],
    "a": 3,
    "exp": "✅ (D) backbone 原意為脊椎，引申為「支柱、骨幹」，稻作是臺灣農業的支柱。\n❌ (A) quality 是品質，不與 of Taiwan's agriculture industry 構成此語意。\n❌ (B) grain 是穀物，語意重複而不成比喻。\n❌ (C) disposition 是性情、處置，語意不合。\n📚 出處：字彙題，the backbone of 的比喻用法"
@@ -551,46 +551,43 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "where",
+    "there",
+    "here",
+    "which"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/105180_401_0206_39.webp"
+   "psg": "為題組 Emily Brontë, one of the three gifted Brontë sisters, is the author of the famous English novel Wuthering Heights. She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "covered",
+    "provided",
+    "dealt",
+    "threatened"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/105180_401_0206_40.webp"
+   "psg": "為題組 Emily Brontë, one of the three gifted Brontë sisters, is the author of the famous English novel Wuthering Heights. She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights."
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Transformed",
+    "Built",
+    "Planted",
+    "Isolated"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105180_401_0206_41.webp"
+   "psg": "為題組 Emily Brontë, one of the three gifted Brontë sisters, is the author of the famous English novel Wuthering Heights. She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights."
   },
   {
    "n": 42,
@@ -605,7 +602,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
    ],
    "needfig": true,
    "fig": "img/q/105180_401_0206_42.webp",
-   "a": 2
+   "a": 2,
+   "psg": "為題組 Emily Brontë, one of the three gifted Brontë sisters, is the author of the famous English novel Wuthering Heights. She was born in Thornton, Yorkshire, in England, the fifth of six children. In 1820, her family moved to Haworth, 39 her mother died in 1821 and her two elder sisters died in 1825. Her father, a minister, was a stern and sullen man, and the aunt who took over the household was more strict than loving. The four surviving children became a close-knit group and 40 one another with emotional and creative support. 41 in a small and remote community, the four siblings paired off and used their unusual literary gifts to write about imaginary lands. Emily and her younger sister Anne 42 the imaginary country of Gondal and wrote literature for it that included legends and poetry. Gondal remains a source of Emily’s later art, providing the setting, characters, and situations for many of her best dramatic poems and for her novel Wuthering Heights."
   },
   {
    "n": 43,
@@ -658,7 +656,7 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "The farmer’s friends and neighbors were very helpful.",
     "Potatoes do not grow under the ground.",
     "The farmer was silly and lazy.",
-    "The farmer’s letter was read by the policemen.第 47 題至第 50 題為題組A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a"
+    "The farmer’s letter was read by the policemen."
    ],
    "a": 3,
    "exp": "✅ (D) 妻子信中說「有人在信件寄出前先看過」，且警察隨即來挖田，可知信被警察看過。\n❌ (A) 文中明說沒有朋友或鄰居願意幫忙。\n❌ (B) 馬鈴薯正是長在地下，故翻土才有意義。\n❌ (C) 他用計讓別人代勞，並不愚笨。\n📚 出處：閱讀測驗是非題。"
@@ -674,7 +672,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "Steel.",
     "Vines."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a suspension bridge is simple and straightforward, and uses several architectural techniques to distribute the weight of the bridge safely and evenly. The construction of a suspension bridge starts with its towers, which are usually located on dry land and anchored to bedrock. Once the towers are built, master cables are strung across them and anchored into the bank at both ends of the bridge. Next, suspension cables are strung from the master cables, and then the deck used as roadway is attached to them. Most of the weight of the bridge is transferred by the cables to the anchorage systems. These are embedded in either solid rock or huge concrete blocks. Inside the anchorages, the cables are spread over a large area to evenly distribute the load and to prevent the cables from breaking free. One of the oldest engineering forms, suspension bridges were constructed by primitive peoples using thick vines for cables. A much stronger type was introduced in India around 400 A.D. that used cables of braided bamboo. In the early nineteenth century, suspension bridges used iron chains for cables. Today, the cables are made of thousands of individual steel wires bound tightly together. A single steel wire, only 0.1 inch thick, can support over half a ton of weight without breaking. Light and strong, a suspension bridge could span distances from 2,000 to 7,000 feet, which is much longer than any other kind of bridge could. Its simple design allows high clearance under the deck, useful when the bridge is built over a major shipping waterway or a very deep gulf. A suspension bridge is also less subjected to collapse than some other bridge types such as those built on support pillars."
   },
   {
    "n": 48,
@@ -687,7 +686,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "The towers and the suspension cables.",
     "The anchorages and the cables in the ground."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a suspension bridge is simple and straightforward, and uses several architectural techniques to distribute the weight of the bridge safely and evenly. The construction of a suspension bridge starts with its towers, which are usually located on dry land and anchored to bedrock. Once the towers are built, master cables are strung across them and anchored into the bank at both ends of the bridge. Next, suspension cables are strung from the master cables, and then the deck used as roadway is attached to them. Most of the weight of the bridge is transferred by the cables to the anchorage systems. These are embedded in either solid rock or huge concrete blocks. Inside the anchorages, the cables are spread over a large area to evenly distribute the load and to prevent the cables from breaking free. One of the oldest engineering forms, suspension bridges were constructed by primitive peoples using thick vines for cables. A much stronger type was introduced in India around 400 A.D. that used cables of braided bamboo. In the early nineteenth century, suspension bridges used iron chains for cables. Today, the cables are made of thousands of individual steel wires bound tightly together. A single steel wire, only 0.1 inch thick, can support over half a ton of weight without breaking. Light and strong, a suspension bridge could span distances from 2,000 to 7,000 feet, which is much longer than any other kind of bridge could. Its simple design allows high clearance under the deck, useful when the bridge is built over a major shipping waterway or a very deep gulf. A suspension bridge is also less subjected to collapse than some other bridge types such as those built on support pillars."
   },
   {
    "n": 49,
@@ -700,7 +700,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "It is less likely to fall down.",
     "It is less expensive to build."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a suspension bridge is simple and straightforward, and uses several architectural techniques to distribute the weight of the bridge safely and evenly. The construction of a suspension bridge starts with its towers, which are usually located on dry land and anchored to bedrock. Once the towers are built, master cables are strung across them and anchored into the bank at both ends of the bridge. Next, suspension cables are strung from the master cables, and then the deck used as roadway is attached to them. Most of the weight of the bridge is transferred by the cables to the anchorage systems. These are embedded in either solid rock or huge concrete blocks. Inside the anchorages, the cables are spread over a large area to evenly distribute the load and to prevent the cables from breaking free. One of the oldest engineering forms, suspension bridges were constructed by primitive peoples using thick vines for cables. A much stronger type was introduced in India around 400 A.D. that used cables of braided bamboo. In the early nineteenth century, suspension bridges used iron chains for cables. Today, the cables are made of thousands of individual steel wires bound tightly together. A single steel wire, only 0.1 inch thick, can support over half a ton of weight without breaking. Light and strong, a suspension bridge could span distances from 2,000 to 7,000 feet, which is much longer than any other kind of bridge could. Its simple design allows high clearance under the deck, useful when the bridge is built over a major shipping waterway or a very deep gulf. A suspension bridge is also less subjected to collapse than some other bridge types such as those built on support pillars."
   },
   {
    "n": 50,
@@ -713,7 +714,8 @@ window.APP_EXAM_PAPERS['loc-105-1-b002'] = {
     "To summarize previous findings on suspension bridges.",
     "To compare a suspension bridge with other types of bridges."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 A suspension bridge is a type of bridge that use overhead cables to support its roadway. The design of a suspension bridge is simple and straightforward, and uses several architectural techniques to distribute the weight of the bridge safely and evenly. The construction of a suspension bridge starts with its towers, which are usually located on dry land and anchored to bedrock. Once the towers are built, master cables are strung across them and anchored into the bank at both ends of the bridge. Next, suspension cables are strung from the master cables, and then the deck used as roadway is attached to them. Most of the weight of the bridge is transferred by the cables to the anchorage systems. These are embedded in either solid rock or huge concrete blocks. Inside the anchorages, the cables are spread over a large area to evenly distribute the load and to prevent the cables from breaking free. One of the oldest engineering forms, suspension bridges were constructed by primitive peoples using thick vines for cables. A much stronger type was introduced in India around 400 A.D. that used cables of braided bamboo. In the early nineteenth century, suspension bridges used iron chains for cables. Today, the cables are made of thousands of individual steel wires bound tightly together. A single steel wire, only 0.1 inch thick, can support over half a ton of weight without breaking. Light and strong, a suspension bridge could span distances from 2,000 to 7,000 feet, which is much longer than any other kind of bridge could. Its simple design allows high clearance under the deck, useful when the bridge is built over a major shipping waterway or a very deep gulf. A suspension bridge is also less subjected to collapse than some other bridge types such as those built on support pillars."
   }
  ]
 };

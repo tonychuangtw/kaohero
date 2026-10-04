@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "intégrer",
     "annuler",
     "abonner",
-    "rembourserInvité chez des hôtes européensLes Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’estpas servi avant 21 heures.Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent"
+    "rembourser"
    ],
    "a": 3,
    "exp": "✅ (D) rembourser 意為「報銷、核銷、退還」，「rembourser les dépenses」為商務常用搭配，指「公司報銷員工因公出差（déplacement professionnel）所產生的費用開支」。\n❌ (A) intégrer 意為「整合、納入」，不符合差旅費用核銷的專門用語。\n❌ (B) annuler 意為「取消」，公司不是取消員工出差已發生的開銷。\n❌ (C) abonner 意為「使訂閱、辦定期票」，與報銷出差費用無關。\n📚 出處：商務法語詞彙（差旅開銷報銷：rembourser les dépenses / les frais professionnels）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Des conseils de savoir-vivre pour les étrangers en Europe.",
     "Des propositions pour trouver un bon hôtel."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Le Danois.",
     "Le Hollandais."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Les Espagnols dînent vers sept heures du soir.",
     "Les Danois dînent plus tôt que les Anglais."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "Les Espagnols.",
     "Les Suisses."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "abcde",
     "dceba",
     "beadc",
-    "eadbcEn France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou dustatut des personnes et de la culture d’entreprise.Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les"
+    "eadbc"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Invité chez des hôtes européens Les Britanniques et les Danois dînent vers 19 heures, alors que, chez les Espagnols, le repas n’est pas servi avant 21 heures. Invité à dîner, l’Allemand arrive à l’heure juste, par politesse. L’Italien et le Danois arrivent systématiquement avec un quart d’heure de retard. Et le Hollandais, lui, sonne à la porte avec quelques minutes d’avance. Par hygiène, les Anglais ne se serrent pas la main ; les Espagnols et les Italiens se donnent volontiers de grandes accolades. Dans tous les pays, pour remercier la maîtresse de maison de son invitation, il est de bon ton de lui offrir des fleurs. En Allemagne ou en Autriche, on retire les fleurs de leur emballage avant de les offrir. En Angleterre, la politesse exige que les convives gardent les mains sous la table. De son côté, le Suisse, maniaque de la propreté, n’apprécie pas de voir une serviette usagée sur la table."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "La mode de vie",
     "La façon de s’habiller"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "à ton souhait",
     "à ta santé"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "style artistique",
     "vêtement « branché »"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "qui dépend du statut des personnes",
     "qui est proche des métiers artistiques"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l006'] = {
     "décontractées",
     "générales"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "En France, le style de vêtements portés au travail dépend du secteur d’activité, de la fonction ou du statut des personnes et de la culture d’entreprise. Les personnes portent des tenues plus décontractées et « branchées » dans la publicité, la mode et les métiers artistiques. Les vêtements sont plus classiques (costume avec ou sans cravate pour les hommes, robe ou tailleur jupe ou pantalon pour les femmes) dans les secteurs de la finance, des assurances, du conseil, etc. En règle générale, si la fonction nécessite un contact avec des clients ou des partenaires, les personnes s’habillent de manière classique."
   }
  ]
 };

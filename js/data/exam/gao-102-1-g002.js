@@ -542,7 +542,7 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
     "conscription",
     "description",
     "inscription",
-    "prescription請依下文回答第 39 題至 43 題："
+    "prescription"
    ],
    "a": 0,
    "exp": "✅ (A) conscription 意為「徵兵」，法國為拿破崙戰爭首創全國性的徵兵制度。\n❌ (B) description 是描述。\n❌ (C) inscription 是銘文。\n❌ (D) prescription 是處方。\n📚 出處：英文字彙（conscription 的字義）"
@@ -551,46 +551,43 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
    "n": 39,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 39 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "heightened",
+    "enlightened",
+    "fastened",
+    "lengthened"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/102090_301_0109_39.webp"
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
   },
   {
    "n": 40,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 40 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "unperceptive",
+    "unpredictable",
+    "unpalatable",
+    "unparalleled"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102090_301_0109_40.webp"
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
   },
   {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "notice",
+    "delete",
+    "put",
+    "remove"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/102090_301_0109_41.webp"
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
   },
   {
    "n": 42,
@@ -612,16 +609,15 @@ window.APP_EXAM_PAPERS['gao-102-1-g002'] = {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "innocently",
+    "mostly",
+    "arrogantly",
+    "currently"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/102090_301_0109_43.webp"
+   "psg": "A study at the University of New South Wales in Sydney found that around a quarter of people have a 39 sense of taste, making foods like broccoli taste bitter and rich foods 40 . These “supertasters” tend to be slim and have a lower risk of heart disease. To determine if you are a supertaster, 41 a dot of blue food coloring on your tongue and look in the mirror. If you see a densely spotted area, there is a good chance you are a supertaster. If the spots are 42 distributed, you are not. The study also found 15 percent of people, 43 men, were “non-tasters”—they will devour anything put in front of them. They get the benefits of a broad diet, but risk overdoing it."
   },
   {
    "n": 44,

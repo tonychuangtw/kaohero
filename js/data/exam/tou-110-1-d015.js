@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "sebab",
     "dan",
     "yang",
-    "untukNew Normal di Tengah Pandemi COVID-19Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas,"
+    "untuk"
    ],
    "a": 3,
    "exp": "✅ (D) 「memutuskan untuk...」為印尼語固定動詞搭配，意為「決定去做……」，後接動詞原形「menunda」（延後），句意最通順完整（選項 D 後方文字係排版轉檔時黏入之閱讀題標題）。\n❌ (A) 「sebab」為表原因之連接詞，意為「因為」，放於決定動詞之後不符語法結構。\n❌ (B) 「dan」為對等連接詞，意為「和、與」，無法連接決定與其後續動作。\n❌ (C) 「yang」為關係代名詞，意為「……的」，放於此處文法錯誤。\n📚 出處：印尼語動詞搭配（memutuskan untuk）與介系詞用法"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "mematuhi protokol kesehatan yang telah diatur oleh pemerintah",
     "membantu menyebarkan virus ini"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "New Normal di Tengah Pandemi COVID-19 Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas, dengan jumlah kasus terpapar COVID-19 semakin bertambah dari hari ke hari. Kita harus berhati-hati dalam menghadapi penyebaran virus ini. Meskipun pandemi COVID-19 belum berakhir, tetapi kehidupan harus terus berjalan. Apakah kita mau terus hidup dengan pembatasan? Mengisolasi diri di rumah terus- menerus? Sudah pasti jawabannya tidak. Tentunya kita ingin kembali bekerja, belajar, dan beribadah, serta bersosialisasi/beraktivitas agar bisa produktif di era pandemi ini. Jika hal tersebut tidak dilakukan, cepat atau lambat akan berdampak pada berbagai sektor, baik sosial, budaya, pertumbuhan ekonomi akan mengalami perlambatan, industri tidak berjalan, atau masyarakat kehilangan penghasilan. Untuk itu, masyarakat harus mulai beradaptasi dengan kebiasaan hidup baru atau disebut dengan ‘new normal life’, sebagaimana yang pernah dikatakan oleh Ketua Tim Pakar Gugus Percepatan Penanganan COVID-19, Bapak Wiku Adisasmito. New normal adalah perubahan perilaku untuk tetap melakukan aktivitas normal dengan ditambah menerapkan protokol kesehatan guna mencegah terjadinya penularan COVID-19. Secara sederhana, new normal ini hanya melanjutkan kebiasaan-kebiasaan yang selama ini dilakukan saat diberlakukannya karantina wilayah atau Pembatasan Sosial Berskala Besar (PSBB). Dengan diberlakukannya new normal, kita mulai melakukan aktifitas di luar rumah dengan tetap mematuhi protokol kesehatan yang telah diatur oleh pemerintah, yaitu memakai masker bila keluar dari rumah, sering mencuci tangan dengan sabun, dan tetap menjaga jarak serta menghindari kerumunan orang untuk mencegah penularan virus corona. Sejak mewabahnya COVID-19, guna menghindari terjadinya penularan, sebagian besar aktivitas dilakukan melalui daring (online) seperti kegiatan rapat, belajar mengajar."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "mengunjungi tempat yang penuh sesak dengan kerumunan orang",
     "tidak perlu memakai masker di manapun kita berada"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "New Normal di Tengah Pandemi COVID-19 Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas, dengan jumlah kasus terpapar COVID-19 semakin bertambah dari hari ke hari. Kita harus berhati-hati dalam menghadapi penyebaran virus ini. Meskipun pandemi COVID-19 belum berakhir, tetapi kehidupan harus terus berjalan. Apakah kita mau terus hidup dengan pembatasan? Mengisolasi diri di rumah terus- menerus? Sudah pasti jawabannya tidak. Tentunya kita ingin kembali bekerja, belajar, dan beribadah, serta bersosialisasi/beraktivitas agar bisa produktif di era pandemi ini. Jika hal tersebut tidak dilakukan, cepat atau lambat akan berdampak pada berbagai sektor, baik sosial, budaya, pertumbuhan ekonomi akan mengalami perlambatan, industri tidak berjalan, atau masyarakat kehilangan penghasilan. Untuk itu, masyarakat harus mulai beradaptasi dengan kebiasaan hidup baru atau disebut dengan ‘new normal life’, sebagaimana yang pernah dikatakan oleh Ketua Tim Pakar Gugus Percepatan Penanganan COVID-19, Bapak Wiku Adisasmito. New normal adalah perubahan perilaku untuk tetap melakukan aktivitas normal dengan ditambah menerapkan protokol kesehatan guna mencegah terjadinya penularan COVID-19. Secara sederhana, new normal ini hanya melanjutkan kebiasaan-kebiasaan yang selama ini dilakukan saat diberlakukannya karantina wilayah atau Pembatasan Sosial Berskala Besar (PSBB). Dengan diberlakukannya new normal, kita mulai melakukan aktifitas di luar rumah dengan tetap mematuhi protokol kesehatan yang telah diatur oleh pemerintah, yaitu memakai masker bila keluar dari rumah, sering mencuci tangan dengan sabun, dan tetap menjaga jarak serta menghindari kerumunan orang untuk mencegah penularan virus corona. Sejak mewabahnya COVID-19, guna menghindari terjadinya penularan, sebagian besar aktivitas dilakukan melalui daring (online) seperti kegiatan rapat, belajar mengajar."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "jumlah kasus terpapar COVID-19 sudah tidak ada lagi",
     "guna menghindari terjadinya penularan maka harus sering melakukan kegiatan bertatap mukalangsung dengan skala besar"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "New Normal di Tengah Pandemi COVID-19 Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas, dengan jumlah kasus terpapar COVID-19 semakin bertambah dari hari ke hari. Kita harus berhati-hati dalam menghadapi penyebaran virus ini. Meskipun pandemi COVID-19 belum berakhir, tetapi kehidupan harus terus berjalan. Apakah kita mau terus hidup dengan pembatasan? Mengisolasi diri di rumah terus- menerus? Sudah pasti jawabannya tidak. Tentunya kita ingin kembali bekerja, belajar, dan beribadah, serta bersosialisasi/beraktivitas agar bisa produktif di era pandemi ini. Jika hal tersebut tidak dilakukan, cepat atau lambat akan berdampak pada berbagai sektor, baik sosial, budaya, pertumbuhan ekonomi akan mengalami perlambatan, industri tidak berjalan, atau masyarakat kehilangan penghasilan. Untuk itu, masyarakat harus mulai beradaptasi dengan kebiasaan hidup baru atau disebut dengan ‘new normal life’, sebagaimana yang pernah dikatakan oleh Ketua Tim Pakar Gugus Percepatan Penanganan COVID-19, Bapak Wiku Adisasmito. New normal adalah perubahan perilaku untuk tetap melakukan aktivitas normal dengan ditambah menerapkan protokol kesehatan guna mencegah terjadinya penularan COVID-19. Secara sederhana, new normal ini hanya melanjutkan kebiasaan-kebiasaan yang selama ini dilakukan saat diberlakukannya karantina wilayah atau Pembatasan Sosial Berskala Besar (PSBB). Dengan diberlakukannya new normal, kita mulai melakukan aktifitas di luar rumah dengan tetap mematuhi protokol kesehatan yang telah diatur oleh pemerintah, yaitu memakai masker bila keluar dari rumah, sering mencuci tangan dengan sabun, dan tetap menjaga jarak serta menghindari kerumunan orang untuk mencegah penularan virus corona. Sejak mewabahnya COVID-19, guna menghindari terjadinya penularan, sebagian besar aktivitas dilakukan melalui daring (online) seperti kegiatan rapat, belajar mengajar."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "Pembatasan Sosial Berskala Besar",
     "Pembatasan Santunan Berskala Besar"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "New Normal di Tengah Pandemi COVID-19 Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas, dengan jumlah kasus terpapar COVID-19 semakin bertambah dari hari ke hari. Kita harus berhati-hati dalam menghadapi penyebaran virus ini. Meskipun pandemi COVID-19 belum berakhir, tetapi kehidupan harus terus berjalan. Apakah kita mau terus hidup dengan pembatasan? Mengisolasi diri di rumah terus- menerus? Sudah pasti jawabannya tidak. Tentunya kita ingin kembali bekerja, belajar, dan beribadah, serta bersosialisasi/beraktivitas agar bisa produktif di era pandemi ini. Jika hal tersebut tidak dilakukan, cepat atau lambat akan berdampak pada berbagai sektor, baik sosial, budaya, pertumbuhan ekonomi akan mengalami perlambatan, industri tidak berjalan, atau masyarakat kehilangan penghasilan. Untuk itu, masyarakat harus mulai beradaptasi dengan kebiasaan hidup baru atau disebut dengan ‘new normal life’, sebagaimana yang pernah dikatakan oleh Ketua Tim Pakar Gugus Percepatan Penanganan COVID-19, Bapak Wiku Adisasmito. New normal adalah perubahan perilaku untuk tetap melakukan aktivitas normal dengan ditambah menerapkan protokol kesehatan guna mencegah terjadinya penularan COVID-19. Secara sederhana, new normal ini hanya melanjutkan kebiasaan-kebiasaan yang selama ini dilakukan saat diberlakukannya karantina wilayah atau Pembatasan Sosial Berskala Besar (PSBB). Dengan diberlakukannya new normal, kita mulai melakukan aktifitas di luar rumah dengan tetap mematuhi protokol kesehatan yang telah diatur oleh pemerintah, yaitu memakai masker bila keluar dari rumah, sering mencuci tangan dengan sabun, dan tetap menjaga jarak serta menghindari kerumunan orang untuk mencegah penularan virus corona. Sejak mewabahnya COVID-19, guna menghindari terjadinya penularan, sebagian besar aktivitas dilakukan melalui daring (online) seperti kegiatan rapat, belajar mengajar."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "New Normal Sama Artinya dengan Pandemi COVID-19",
     "New Normal di Tengah Pandemi COVID-19",
     "New Normal Tidak Ada Hubungan dengan Pandemi COVID-19",
-    "New Normal Memperburuh Situasi Pandemi COVID-19Wisata Medis TaiwanTaiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 ＿＿＿ majalah wisata Amerika."
+    "New Normal Memperburuh Situasi Pandemi COVID-19"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "New Normal di Tengah Pandemi COVID-19 Penyebaran Corona Virus Disease 2019 (COVID-19) di Indonesia saat ini sudah semakin meluas, dengan jumlah kasus terpapar COVID-19 semakin bertambah dari hari ke hari. Kita harus berhati-hati dalam menghadapi penyebaran virus ini. Meskipun pandemi COVID-19 belum berakhir, tetapi kehidupan harus terus berjalan. Apakah kita mau terus hidup dengan pembatasan? Mengisolasi diri di rumah terus- menerus? Sudah pasti jawabannya tidak. Tentunya kita ingin kembali bekerja, belajar, dan beribadah, serta bersosialisasi/beraktivitas agar bisa produktif di era pandemi ini. Jika hal tersebut tidak dilakukan, cepat atau lambat akan berdampak pada berbagai sektor, baik sosial, budaya, pertumbuhan ekonomi akan mengalami perlambatan, industri tidak berjalan, atau masyarakat kehilangan penghasilan. Untuk itu, masyarakat harus mulai beradaptasi dengan kebiasaan hidup baru atau disebut dengan ‘new normal life’, sebagaimana yang pernah dikatakan oleh Ketua Tim Pakar Gugus Percepatan Penanganan COVID-19, Bapak Wiku Adisasmito. New normal adalah perubahan perilaku untuk tetap melakukan aktivitas normal dengan ditambah menerapkan protokol kesehatan guna mencegah terjadinya penularan COVID-19. Secara sederhana, new normal ini hanya melanjutkan kebiasaan-kebiasaan yang selama ini dilakukan saat diberlakukannya karantina wilayah atau Pembatasan Sosial Berskala Besar (PSBB). Dengan diberlakukannya new normal, kita mulai melakukan aktifitas di luar rumah dengan tetap mematuhi protokol kesehatan yang telah diatur oleh pemerintah, yaitu memakai masker bila keluar dari rumah, sering mencuci tangan dengan sabun, dan tetap menjaga jarak serta menghindari kerumunan orang untuk mencegah penularan virus corona. Sejak mewabahnya COVID-19, guna menghindari terjadinya penularan, sebagian besar aktivitas dilakukan melalui daring (online) seperti kegiatan rapat, belajar mengajar."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "untuk",
     "seperti"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Wisata Medis Taiwan Taiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 majalah wisata Amerika. Pulau Formosa ini menawarkan peralatan medis mutakhir 77 dokter-dokter terlatih. Selain prosedur umum yang terjangkau, banyak rumah sakit Taiwan yang menyediakan berbagai layanan yang telah disesuaikan, termasuk cangkok bypass arteri korner, penggantian pinggul, dan bedah kecantikan. Mereka yang merencanakan perjalanan medis 78 dapat melakukan pengaturan wisata alam dan sumber air panas di seluruh wilayah Taiwan. Kegiatan ini tentu baik bagi para wisatawan yang membutuhkan relaksasi dan pemulihan setelah perawatan medis. Peminat wisata medis dan operasi plastik 79 Taiwan cukup banyak, diantaranya wisatawan dari Tiongkok, Jepang, Korea, dan Australia. Soal bahasa pun tak perlu khawatir akan menjadi kendala 80 dokter-dokter di Taiwan banyak yang bisa berbahasa Inggris."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "sebab",
     "untuk"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Wisata Medis Taiwan Taiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 majalah wisata Amerika. Pulau Formosa ini menawarkan peralatan medis mutakhir 77 dokter-dokter terlatih. Selain prosedur umum yang terjangkau, banyak rumah sakit Taiwan yang menyediakan berbagai layanan yang telah disesuaikan, termasuk cangkok bypass arteri korner, penggantian pinggul, dan bedah kecantikan. Mereka yang merencanakan perjalanan medis 78 dapat melakukan pengaturan wisata alam dan sumber air panas di seluruh wilayah Taiwan. Kegiatan ini tentu baik bagi para wisatawan yang membutuhkan relaksasi dan pemulihan setelah perawatan medis. Peminat wisata medis dan operasi plastik 79 Taiwan cukup banyak, diantaranya wisatawan dari Tiongkok, Jepang, Korea, dan Australia. Soal bahasa pun tak perlu khawatir akan menjadi kendala 80 dokter-dokter di Taiwan banyak yang bisa berbahasa Inggris."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "juga",
     "karena"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Wisata Medis Taiwan Taiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 majalah wisata Amerika. Pulau Formosa ini menawarkan peralatan medis mutakhir 77 dokter-dokter terlatih. Selain prosedur umum yang terjangkau, banyak rumah sakit Taiwan yang menyediakan berbagai layanan yang telah disesuaikan, termasuk cangkok bypass arteri korner, penggantian pinggul, dan bedah kecantikan. Mereka yang merencanakan perjalanan medis 78 dapat melakukan pengaturan wisata alam dan sumber air panas di seluruh wilayah Taiwan. Kegiatan ini tentu baik bagi para wisatawan yang membutuhkan relaksasi dan pemulihan setelah perawatan medis. Peminat wisata medis dan operasi plastik 79 Taiwan cukup banyak, diantaranya wisatawan dari Tiongkok, Jepang, Korea, dan Australia. Soal bahasa pun tak perlu khawatir akan menjadi kendala 80 dokter-dokter di Taiwan banyak yang bisa berbahasa Inggris."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "meskipun",
     "atau"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Wisata Medis Taiwan Taiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 majalah wisata Amerika. Pulau Formosa ini menawarkan peralatan medis mutakhir 77 dokter-dokter terlatih. Selain prosedur umum yang terjangkau, banyak rumah sakit Taiwan yang menyediakan berbagai layanan yang telah disesuaikan, termasuk cangkok bypass arteri korner, penggantian pinggul, dan bedah kecantikan. Mereka yang merencanakan perjalanan medis 78 dapat melakukan pengaturan wisata alam dan sumber air panas di seluruh wilayah Taiwan. Kegiatan ini tentu baik bagi para wisatawan yang membutuhkan relaksasi dan pemulihan setelah perawatan medis. Peminat wisata medis dan operasi plastik 79 Taiwan cukup banyak, diantaranya wisatawan dari Tiongkok, Jepang, Korea, dan Australia. Soal bahasa pun tak perlu khawatir akan menjadi kendala 80 dokter-dokter di Taiwan banyak yang bisa berbahasa Inggris."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d015'] = {
     "atau",
     "karena"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Wisata Medis Taiwan Taiwan dinobatkan sebagai salah satu tempat wisata medis dunia 76 majalah wisata Amerika. Pulau Formosa ini menawarkan peralatan medis mutakhir 77 dokter-dokter terlatih. Selain prosedur umum yang terjangkau, banyak rumah sakit Taiwan yang menyediakan berbagai layanan yang telah disesuaikan, termasuk cangkok bypass arteri korner, penggantian pinggul, dan bedah kecantikan. Mereka yang merencanakan perjalanan medis 78 dapat melakukan pengaturan wisata alam dan sumber air panas di seluruh wilayah Taiwan. Kegiatan ini tentu baik bagi para wisatawan yang membutuhkan relaksasi dan pemulihan setelah perawatan medis. Peminat wisata medis dan operasi plastik 79 Taiwan cukup banyak, diantaranya wisatawan dari Tiongkok, Jepang, Korea, dan Australia. Soal bahasa pun tak perlu khawatir akan menjadi kendala 80 dokter-dokter di Taiwan banyak yang bisa berbahasa Inggris."
   }
  ]
 };

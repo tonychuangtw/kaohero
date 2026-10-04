@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "dismay",
     "installment",
     "upgrade",
-    "coverageIt’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you"
+    "coverage"
    ],
    "a": 2,
    "exp": "✅ (C) upgrade 意為「升等、升級」，an upgrade to the business class 指「升等至商務艙」，地勤隨後查詢商務艙是否有空位，完全符合機位升等情境。\n❌ (A) dismay 意為「沮喪、驚慌」，無法搭配升等商務艙。\n❌ (B) installment 意為「分期付款」，與航空座艙升等無關。\n❌ (D) coverage 意為「涵蓋範圍、保險額度」，不能用於表示機位艙等升級（選項後混入之文字為題目轉檔殘存文字）。\n📚 出處：航空搭機票務英語、機位升等（upgrade）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "new food sold in an amusing park",
     "machine-made food"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "It’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you ordered some delivery, that food might come from a driver or bicycle delivery person. But this is the age of the drone. Therefore, your takeaway might not come with a knock at the door, but with a drone hovering outside your window. Drone delivery hasn’t advanced to the point that it will fly up to your 14th floor office window, but in Shanghai’s Jinshan Industrial Park, drone delivery has already started. There, online retail giant Alibaba directs the service through its Ele.me food delivery brand. Drones fly along 17 specific routes. Customers can order from any one of 100 restaurants operating in the park. After the order is received and made, a member of the restaurant staff places the meal in the drone. It then flies to a delivery point nearest the customer. It is then picked up by an Alibaba employee and carried the rest of the way. All of this takes just 20 minutes. Ele.me says the drone delivery method greatly reduces operating costs. If it’s faster and cheaper, what’s not to love about flying food?"
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "monitor system",
     "unmanned plane"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "It’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you ordered some delivery, that food might come from a driver or bicycle delivery person. But this is the age of the drone. Therefore, your takeaway might not come with a knock at the door, but with a drone hovering outside your window. Drone delivery hasn’t advanced to the point that it will fly up to your 14th floor office window, but in Shanghai’s Jinshan Industrial Park, drone delivery has already started. There, online retail giant Alibaba directs the service through its Ele.me food delivery brand. Drones fly along 17 specific routes. Customers can order from any one of 100 restaurants operating in the park. After the order is received and made, a member of the restaurant staff places the meal in the drone. It then flies to a delivery point nearest the customer. It is then picked up by an Alibaba employee and carried the rest of the way. All of this takes just 20 minutes. Ele.me says the drone delivery method greatly reduces operating costs. If it’s faster and cheaper, what’s not to love about flying food?"
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "hoping",
     "waiting"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "It’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you ordered some delivery, that food might come from a driver or bicycle delivery person. But this is the age of the drone. Therefore, your takeaway might not come with a knock at the door, but with a drone hovering outside your window. Drone delivery hasn’t advanced to the point that it will fly up to your 14th floor office window, but in Shanghai’s Jinshan Industrial Park, drone delivery has already started. There, online retail giant Alibaba directs the service through its Ele.me food delivery brand. Drones fly along 17 specific routes. Customers can order from any one of 100 restaurants operating in the park. After the order is received and made, a member of the restaurant staff places the meal in the drone. It then flies to a delivery point nearest the customer. It is then picked up by an Alibaba employee and carried the rest of the way. All of this takes just 20 minutes. Ele.me says the drone delivery method greatly reduces operating costs. If it’s faster and cheaper, what’s not to love about flying food?"
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "Ele.me cooks all the food.",
     "Drone delivery doesn’t need a human to complete the delivery job."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "It’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you ordered some delivery, that food might come from a driver or bicycle delivery person. But this is the age of the drone. Therefore, your takeaway might not come with a knock at the door, but with a drone hovering outside your window. Drone delivery hasn’t advanced to the point that it will fly up to your 14th floor office window, but in Shanghai’s Jinshan Industrial Park, drone delivery has already started. There, online retail giant Alibaba directs the service through its Ele.me food delivery brand. Drones fly along 17 specific routes. Customers can order from any one of 100 restaurants operating in the park. After the order is received and made, a member of the restaurant staff places the meal in the drone. It then flies to a delivery point nearest the customer. It is then picked up by an Alibaba employee and carried the rest of the way. All of this takes just 20 minutes. Ele.me says the drone delivery method greatly reduces operating costs. If it’s faster and cheaper, what’s not to love about flying food?"
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "lower cost",
     "faster delivery",
     "better packaging",
-    "more innovative delivery methodThe best title:Safety & hygiene tourism trendsWhether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and"
+    "more innovative delivery method"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "It’s noon. You’re starving, and you need some food now—right now. Back in the old days, if you ordered some delivery, that food might come from a driver or bicycle delivery person. But this is the age of the drone. Therefore, your takeaway might not come with a knock at the door, but with a drone hovering outside your window. Drone delivery hasn’t advanced to the point that it will fly up to your 14th floor office window, but in Shanghai’s Jinshan Industrial Park, drone delivery has already started. There, online retail giant Alibaba directs the service through its Ele.me food delivery brand. Drones fly along 17 specific routes. Customers can order from any one of 100 restaurants operating in the park. After the order is received and made, a member of the restaurant staff places the meal in the drone. It then flies to a delivery point nearest the customer. It is then picked up by an Alibaba employee and carried the rest of the way. All of this takes just 20 minutes. Ele.me says the drone delivery method greatly reduces operating costs. If it’s faster and cheaper, what’s not to love about flying food?"
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "Promoting Tourism Industry through Virtual Reality",
     "Increasing Contactless Payment during the Pandemic"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The best title: Safety & hygiene tourism trends Whether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and hygiene standards have been absolutely paramount. With this in mind, there are a number of tourism trends that are related to this, such as increased cleaning, socially distanced seating, providing hand gel and enforcing masks in some settings. This is also now a vital part of tourism marketing, with companies needing to make clear what their hygiene and safety policies are and what measures they are taking to keep customers safe. The threat of COVID-19 has meant people are more reluctant to travel and visit tourism hot spots, so they will need to be persuaded that it is safe. Shift from international to local The various travel restrictions and the reluctance of many people to travel abroad has meant many in the tourism industry are having to focus on local customers, rather than international ones. This does not mean giving up on international travelers entirely, but it is likely to require a change in your core marketing strategies. With hotels, it could be best to highlight the kinds of facilities that may appeal to the local market, such as your restaurant, your gym facilities, your Wi-Fi and even the fact that your hotel rooms are ideal for remote work. Airlines and tourism management companies may also need to shift gears to domestic tourists. It is worth remembering that local customers are less likely to cancel too, as they will only have to pay attention to local restrictions and are not as likely to have to quarantine after their visit. Virtual reality tourism trends Virtual reality is another of the major tourism trends disrupting the industry and capitalizing on the technology can give you an edge over rivals who have not yet adopted it. Through online VR tours, customers can experience hotel interiors, restaurant interiors, outdoor tourist attractions and more, all from their home. Importantly, they are able to do this at the decision-making phase of the customer journey. This can then be the difference between customers completing a booking or backing out, and VR is especially useful within the context of COVID-19, where customers may have second thoughts and may need extra encouragement to press ahead with their plans."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "total",
     "evaluated"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The best title: Safety & hygiene tourism trends Whether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and hygiene standards have been absolutely paramount. With this in mind, there are a number of tourism trends that are related to this, such as increased cleaning, socially distanced seating, providing hand gel and enforcing masks in some settings. This is also now a vital part of tourism marketing, with companies needing to make clear what their hygiene and safety policies are and what measures they are taking to keep customers safe. The threat of COVID-19 has meant people are more reluctant to travel and visit tourism hot spots, so they will need to be persuaded that it is safe. Shift from international to local The various travel restrictions and the reluctance of many people to travel abroad has meant many in the tourism industry are having to focus on local customers, rather than international ones. This does not mean giving up on international travelers entirely, but it is likely to require a change in your core marketing strategies. With hotels, it could be best to highlight the kinds of facilities that may appeal to the local market, such as your restaurant, your gym facilities, your Wi-Fi and even the fact that your hotel rooms are ideal for remote work. Airlines and tourism management companies may also need to shift gears to domestic tourists. It is worth remembering that local customers are less likely to cancel too, as they will only have to pay attention to local restrictions and are not as likely to have to quarantine after their visit. Virtual reality tourism trends Virtual reality is another of the major tourism trends disrupting the industry and capitalizing on the technology can give you an edge over rivals who have not yet adopted it. Through online VR tours, customers can experience hotel interiors, restaurant interiors, outdoor tourist attractions and more, all from their home. Importantly, they are able to do this at the decision-making phase of the customer journey. This can then be the difference between customers completing a booking or backing out, and VR is especially useful within the context of COVID-19, where customers may have second thoughts and may need extra encouragement to press ahead with their plans."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "separation",
     "property"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The best title: Safety & hygiene tourism trends Whether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and hygiene standards have been absolutely paramount. With this in mind, there are a number of tourism trends that are related to this, such as increased cleaning, socially distanced seating, providing hand gel and enforcing masks in some settings. This is also now a vital part of tourism marketing, with companies needing to make clear what their hygiene and safety policies are and what measures they are taking to keep customers safe. The threat of COVID-19 has meant people are more reluctant to travel and visit tourism hot spots, so they will need to be persuaded that it is safe. Shift from international to local The various travel restrictions and the reluctance of many people to travel abroad has meant many in the tourism industry are having to focus on local customers, rather than international ones. This does not mean giving up on international travelers entirely, but it is likely to require a change in your core marketing strategies. With hotels, it could be best to highlight the kinds of facilities that may appeal to the local market, such as your restaurant, your gym facilities, your Wi-Fi and even the fact that your hotel rooms are ideal for remote work. Airlines and tourism management companies may also need to shift gears to domestic tourists. It is worth remembering that local customers are less likely to cancel too, as they will only have to pay attention to local restrictions and are not as likely to have to quarantine after their visit. Virtual reality tourism trends Virtual reality is another of the major tourism trends disrupting the industry and capitalizing on the technology can give you an edge over rivals who have not yet adopted it. Through online VR tours, customers can experience hotel interiors, restaurant interiors, outdoor tourist attractions and more, all from their home. Importantly, they are able to do this at the decision-making phase of the customer journey. This can then be the difference between customers completing a booking or backing out, and VR is especially useful within the context of COVID-19, where customers may have second thoughts and may need extra encouragement to press ahead with their plans."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "Virtual reality is a good means to increase competitiveness.",
     "Virtual reality benefits enemies."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "The best title: Safety & hygiene tourism trends Whether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and hygiene standards have been absolutely paramount. With this in mind, there are a number of tourism trends that are related to this, such as increased cleaning, socially distanced seating, providing hand gel and enforcing masks in some settings. This is also now a vital part of tourism marketing, with companies needing to make clear what their hygiene and safety policies are and what measures they are taking to keep customers safe. The threat of COVID-19 has meant people are more reluctant to travel and visit tourism hot spots, so they will need to be persuaded that it is safe. Shift from international to local The various travel restrictions and the reluctance of many people to travel abroad has meant many in the tourism industry are having to focus on local customers, rather than international ones. This does not mean giving up on international travelers entirely, but it is likely to require a change in your core marketing strategies. With hotels, it could be best to highlight the kinds of facilities that may appeal to the local market, such as your restaurant, your gym facilities, your Wi-Fi and even the fact that your hotel rooms are ideal for remote work. Airlines and tourism management companies may also need to shift gears to domestic tourists. It is worth remembering that local customers are less likely to cancel too, as they will only have to pay attention to local restrictions and are not as likely to have to quarantine after their visit. Virtual reality tourism trends Virtual reality is another of the major tourism trends disrupting the industry and capitalizing on the technology can give you an edge over rivals who have not yet adopted it. Through online VR tours, customers can experience hotel interiors, restaurant interiors, outdoor tourist attractions and more, all from their home. Importantly, they are able to do this at the decision-making phase of the customer journey. This can then be the difference between customers completing a booking or backing out, and VR is especially useful within the context of COVID-19, where customers may have second thoughts and may need extra encouragement to press ahead with their plans."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-l004'] = {
     "Taking Action to Keep Customers Safe",
     "Closing Business to Avoid Financial Loss"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The best title: Safety & hygiene tourism trends Whether it is airlines, cruises, hotels, restaurants or bars, since the outbreak of COVID-19, safety and hygiene standards have been absolutely paramount. With this in mind, there are a number of tourism trends that are related to this, such as increased cleaning, socially distanced seating, providing hand gel and enforcing masks in some settings. This is also now a vital part of tourism marketing, with companies needing to make clear what their hygiene and safety policies are and what measures they are taking to keep customers safe. The threat of COVID-19 has meant people are more reluctant to travel and visit tourism hot spots, so they will need to be persuaded that it is safe. Shift from international to local The various travel restrictions and the reluctance of many people to travel abroad has meant many in the tourism industry are having to focus on local customers, rather than international ones. This does not mean giving up on international travelers entirely, but it is likely to require a change in your core marketing strategies. With hotels, it could be best to highlight the kinds of facilities that may appeal to the local market, such as your restaurant, your gym facilities, your Wi-Fi and even the fact that your hotel rooms are ideal for remote work. Airlines and tourism management companies may also need to shift gears to domestic tourists. It is worth remembering that local customers are less likely to cancel too, as they will only have to pay attention to local restrictions and are not as likely to have to quarantine after their visit. Virtual reality tourism trends Virtual reality is another of the major tourism trends disrupting the industry and capitalizing on the technology can give you an edge over rivals who have not yet adopted it. Through online VR tours, customers can experience hotel interiors, restaurant interiors, outdoor tourist attractions and more, all from their home. Importantly, they are able to do this at the decision-making phase of the customer journey. This can then be the difference between customers completing a booking or backing out, and VR is especially useful within the context of COVID-19, where customers may have second thoughts and may need extra encouragement to press ahead with their plans."
   }
  ]
 };

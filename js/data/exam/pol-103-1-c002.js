@@ -376,7 +376,7 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Strauss once sold needles and buttons in New York.",
     "The famous Gold Rush took place in Nevada.",
     "Strauss’ original pants were so stiff that few people wanted to buy them.",
-    "Serge de Nîmes is a kind of blue dye.請回答第 26 題至第 29 題：Venezuela has long been considered a country of extraordinarily beautiful men and women. It has won the"
+    "Serge de Nîmes is a kind of blue dye."
    ],
    "a": 0,
    "exp": "✅ (A) Strauss once sold needles and buttons in New York. 為正確敘述，第一段明確提及他在紐約時以販賣針、線及鈕扣起家。\n❌ (B) 敘述錯誤，第二段指明淘金熱（Gold Rush）發生在加州（California），而非內華達州。\n❌ (C) 敘述錯誤，第三段提到帆布褲雖硬（stiff），但銷售極佳（sold briskly），並非少有人買。\n❌ (D) 敘述錯誤，serge de Nîmes 是產自法國尼姆的一種布料（即丹寧布），藍色染料則是靛藍（indigo）。\n📚 出處：英文閱讀測驗；文章綜合細節是非判斷。"
@@ -392,7 +392,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "The booming plastic surgery industry in Venezuela.",
     "How to run for beauty queens in Venezuela."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Venezuela has long been considered a country of extraordinarily beautiful men and women. It has won the biggest number of international beauty awards: 5 Miss Universes and 5 Miss Worlds. In Venezuela, beauty queens are a national obsession. There are beauty pageants in elementary schools, corporations, villages, the military, even in prisons. Venezuelans proudly point out that their country is best known for three things: oil, baseball stars, and beauty queens. Nearly two-thirds of Venezuela’s women and half its men think about their physical appearances all the time. For Venezuelan women, being beautiful is not only desirable; rather, it’s a responsibility. They not only dress up for daily life but also get plastic surgery to have a beautiful body. Almost every Venezuelan woman wants to have surgery and many from poor backgrounds save up for an operation. But one also needs to take classes to be a beauty queen. In Venezuela, there are many beauty schools teaching students to apply the right amount of makeup, pose for a photo, choose the right clothes, walk like a princess, and speak with style. The average cost of such a course is $700, a price many middle-class parents are eager to pay to see their little girls stand out. A school founder denies that girls should value appearance over intellect, saying the culture of beauty integrates intelligence, good manners, a positive attitude, self-confidence, and discipline."
   },
   {
    "n": 27,
@@ -405,7 +406,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "It is intellect rather than appearance that matters.",
     "What nature cannot provide, plastic surgery can."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Venezuela has long been considered a country of extraordinarily beautiful men and women. It has won the biggest number of international beauty awards: 5 Miss Universes and 5 Miss Worlds. In Venezuela, beauty queens are a national obsession. There are beauty pageants in elementary schools, corporations, villages, the military, even in prisons. Venezuelans proudly point out that their country is best known for three things: oil, baseball stars, and beauty queens. Nearly two-thirds of Venezuela’s women and half its men think about their physical appearances all the time. For Venezuelan women, being beautiful is not only desirable; rather, it’s a responsibility. They not only dress up for daily life but also get plastic surgery to have a beautiful body. Almost every Venezuelan woman wants to have surgery and many from poor backgrounds save up for an operation. But one also needs to take classes to be a beauty queen. In Venezuela, there are many beauty schools teaching students to apply the right amount of makeup, pose for a photo, choose the right clothes, walk like a princess, and speak with style. The average cost of such a course is $700, a price many middle-class parents are eager to pay to see their little girls stand out. A school founder denies that girls should value appearance over intellect, saying the culture of beauty integrates intelligence, good manners, a positive attitude, self-confidence, and discipline."
   },
   {
    "n": 28,
@@ -418,7 +420,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Chances.",
     "Shows."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Venezuela has long been considered a country of extraordinarily beautiful men and women. It has won the biggest number of international beauty awards: 5 Miss Universes and 5 Miss Worlds. In Venezuela, beauty queens are a national obsession. There are beauty pageants in elementary schools, corporations, villages, the military, even in prisons. Venezuelans proudly point out that their country is best known for three things: oil, baseball stars, and beauty queens. Nearly two-thirds of Venezuela’s women and half its men think about their physical appearances all the time. For Venezuelan women, being beautiful is not only desirable; rather, it’s a responsibility. They not only dress up for daily life but also get plastic surgery to have a beautiful body. Almost every Venezuelan woman wants to have surgery and many from poor backgrounds save up for an operation. But one also needs to take classes to be a beauty queen. In Venezuela, there are many beauty schools teaching students to apply the right amount of makeup, pose for a photo, choose the right clothes, walk like a princess, and speak with style. The average cost of such a course is $700, a price many middle-class parents are eager to pay to see their little girls stand out. A school founder denies that girls should value appearance over intellect, saying the culture of beauty integrates intelligence, good manners, a positive attitude, self-confidence, and discipline."
   },
   {
    "n": 29,
@@ -429,9 +432,10 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Basketball is the most popular sport.",
     "Beauty schools are run by middle-class-families.",
     "Young children are not encouraged to wear makeup.",
-    "Taking care of one’s appearance is a responsibility for women.請回答第 30 題至第 33 題：Competitive eating is a sport in which the main goal is the quick and vast consumption of food. The type of"
+    "Taking care of one’s appearance is a responsibility for women."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Venezuela has long been considered a country of extraordinarily beautiful men and women. It has won the biggest number of international beauty awards: 5 Miss Universes and 5 Miss Worlds. In Venezuela, beauty queens are a national obsession. There are beauty pageants in elementary schools, corporations, villages, the military, even in prisons. Venezuelans proudly point out that their country is best known for three things: oil, baseball stars, and beauty queens. Nearly two-thirds of Venezuela’s women and half its men think about their physical appearances all the time. For Venezuelan women, being beautiful is not only desirable; rather, it’s a responsibility. They not only dress up for daily life but also get plastic surgery to have a beautiful body. Almost every Venezuelan woman wants to have surgery and many from poor backgrounds save up for an operation. But one also needs to take classes to be a beauty queen. In Venezuela, there are many beauty schools teaching students to apply the right amount of makeup, pose for a photo, choose the right clothes, walk like a princess, and speak with style. The average cost of such a course is $700, a price many middle-class parents are eager to pay to see their little girls stand out. A school founder denies that girls should value appearance over intellect, saying the culture of beauty integrates intelligence, good manners, a positive attitude, self-confidence, and discipline."
   },
   {
    "n": 30,
@@ -444,7 +448,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "A Great Way to Enjoy Food",
     "How to Be a Winner in a Competitve Eating Contest"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Competitive eating is a sport in which the main goal is the quick and vast consumption of food. The type of food varies, although it is primarily focused on fast-food. One commonly used item is hot dog. This sport is male-dominated, although there are a handful of female gurgitators, notably Sonya Thomas. A big belly isn’t necessarily an advantage in the sport, as physical fitness plays an important factor too in the upper spheres of the professional circuit. The sport is most popular in the USA. Eating contests are often held as part of a county fair in the United States, and as such are very popular in some rural areas. There are two competing organizations that guide the sport in the United States: the Association of Independent Competitive Eaters (AICE) and the International Federation of Competitive Eating (IFOCE). Other eating contests can involve challenges to eat a very large food item, such as a giant pizza or a massive hamburger, in a relatively short amount of time. Often, if the challenge is put on by a restaurant, the contestants do not have to pay for the large amount of food they just consumed. Another unusual thing about the sport is that if you sign up or sometimes just show up early enough, you can immediately be competing against the best in the world. For example, “Super” Paul Barlow Jr. of Atlanta, Georgia, was standing in the audience waiting for the hot dog contest when two vacancies opened up. He quickly volunteered, wanting only a T-shirt, and was pitted against two nationally ranked eaters, Dale Boone and Ken Title, and now is a regular on the Georgia circuit. Paul states, “It’s fun, filling, and I still get free T-shirts!”"
   },
   {
    "n": 31,
@@ -457,7 +462,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Paul Barlow Jr. was once ranked among the top eaters in the world.",
     "Fast food is the common target consumed in eating competitions."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Competitive eating is a sport in which the main goal is the quick and vast consumption of food. The type of food varies, although it is primarily focused on fast-food. One commonly used item is hot dog. This sport is male-dominated, although there are a handful of female gurgitators, notably Sonya Thomas. A big belly isn’t necessarily an advantage in the sport, as physical fitness plays an important factor too in the upper spheres of the professional circuit. The sport is most popular in the USA. Eating contests are often held as part of a county fair in the United States, and as such are very popular in some rural areas. There are two competing organizations that guide the sport in the United States: the Association of Independent Competitive Eaters (AICE) and the International Federation of Competitive Eating (IFOCE). Other eating contests can involve challenges to eat a very large food item, such as a giant pizza or a massive hamburger, in a relatively short amount of time. Often, if the challenge is put on by a restaurant, the contestants do not have to pay for the large amount of food they just consumed. Another unusual thing about the sport is that if you sign up or sometimes just show up early enough, you can immediately be competing against the best in the world. For example, “Super” Paul Barlow Jr. of Atlanta, Georgia, was standing in the audience waiting for the hot dog contest when two vacancies opened up. He quickly volunteered, wanting only a T-shirt, and was pitted against two nationally ranked eaters, Dale Boone and Ken Title, and now is a regular on the Georgia circuit. Paul states, “It’s fun, filling, and I still get free T-shirts!”"
   },
   {
    "n": 32,
@@ -470,7 +476,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Sports players",
     "Food lovers"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Competitive eating is a sport in which the main goal is the quick and vast consumption of food. The type of food varies, although it is primarily focused on fast-food. One commonly used item is hot dog. This sport is male-dominated, although there are a handful of female gurgitators, notably Sonya Thomas. A big belly isn’t necessarily an advantage in the sport, as physical fitness plays an important factor too in the upper spheres of the professional circuit. The sport is most popular in the USA. Eating contests are often held as part of a county fair in the United States, and as such are very popular in some rural areas. There are two competing organizations that guide the sport in the United States: the Association of Independent Competitive Eaters (AICE) and the International Federation of Competitive Eating (IFOCE). Other eating contests can involve challenges to eat a very large food item, such as a giant pizza or a massive hamburger, in a relatively short amount of time. Often, if the challenge is put on by a restaurant, the contestants do not have to pay for the large amount of food they just consumed. Another unusual thing about the sport is that if you sign up or sometimes just show up early enough, you can immediately be competing against the best in the world. For example, “Super” Paul Barlow Jr. of Atlanta, Georgia, was standing in the audience waiting for the hot dog contest when two vacancies opened up. He quickly volunteered, wanting only a T-shirt, and was pitted against two nationally ranked eaters, Dale Boone and Ken Title, and now is a regular on the Georgia circuit. Paul states, “It’s fun, filling, and I still get free T-shirts!”"
   },
   {
    "n": 33,
@@ -481,9 +488,10 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "A leisure magazine.",
     "An encyclopedia.",
     "An academic journal.",
-    "A holiday brochure.請回答第 34 題至第 37 題：If you are unfamiliar with kohlrabi, it’s worth checking out. Its name comes from German and literally"
+    "A holiday brochure."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Competitive eating is a sport in which the main goal is the quick and vast consumption of food. The type of food varies, although it is primarily focused on fast-food. One commonly used item is hot dog. This sport is male-dominated, although there are a handful of female gurgitators, notably Sonya Thomas. A big belly isn’t necessarily an advantage in the sport, as physical fitness plays an important factor too in the upper spheres of the professional circuit. The sport is most popular in the USA. Eating contests are often held as part of a county fair in the United States, and as such are very popular in some rural areas. There are two competing organizations that guide the sport in the United States: the Association of Independent Competitive Eaters (AICE) and the International Federation of Competitive Eating (IFOCE). Other eating contests can involve challenges to eat a very large food item, such as a giant pizza or a massive hamburger, in a relatively short amount of time. Often, if the challenge is put on by a restaurant, the contestants do not have to pay for the large amount of food they just consumed. Another unusual thing about the sport is that if you sign up or sometimes just show up early enough, you can immediately be competing against the best in the world. For example, “Super” Paul Barlow Jr. of Atlanta, Georgia, was standing in the audience waiting for the hot dog contest when two vacancies opened up. He quickly volunteered, wanting only a T-shirt, and was pitted against two nationally ranked eaters, Dale Boone and Ken Title, and now is a regular on the Georgia circuit. Paul states, “It’s fun, filling, and I still get free T-shirts!”"
   },
   {
    "n": 34,
@@ -496,7 +504,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Green living magazine.",
     "Surgery research paper."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "If you are unfamiliar with kohlrabi, it’s worth checking out. Its name comes from German and literally means cabbage turnip. Not commonly used in American cuisine, it is widely used in Central Europe and Asia. It is still patiently waiting to be discovered in this country. Kohlrabi is in season from summer through early fall so you can find it at your local market right now. It belongs to the Brassica family, the cancer fighting vegetables that include cabbage, broccoli, and turnips. This turnip-shaped vegetable comes in green or purple and can be eaten raw or cooked. When kohlrabi is raw, it’s crunchy and tastes like broccoli stems; when cooked, it tastes like a mild turnip. When you buy kohlrabi, the leaves may be attached to the bulb. Usually smaller kohlrabi is the sweetest and most tender. Bulbs that are much bigger than the size of a tennis ball won’t be as tasty. Though kohlrabi might look like an alien life form, it is packed with Vitamin C and provides a healthy dose of fiber, iron, and calcium. Most importantly, it is delicious."
   },
   {
    "n": 35,
@@ -509,7 +518,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "It contains too much calcium.",
     "It tastes better when cooked."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "If you are unfamiliar with kohlrabi, it’s worth checking out. Its name comes from German and literally means cabbage turnip. Not commonly used in American cuisine, it is widely used in Central Europe and Asia. It is still patiently waiting to be discovered in this country. Kohlrabi is in season from summer through early fall so you can find it at your local market right now. It belongs to the Brassica family, the cancer fighting vegetables that include cabbage, broccoli, and turnips. This turnip-shaped vegetable comes in green or purple and can be eaten raw or cooked. When kohlrabi is raw, it’s crunchy and tastes like broccoli stems; when cooked, it tastes like a mild turnip. When you buy kohlrabi, the leaves may be attached to the bulb. Usually smaller kohlrabi is the sweetest and most tender. Bulbs that are much bigger than the size of a tennis ball won’t be as tasty. Though kohlrabi might look like an alien life form, it is packed with Vitamin C and provides a healthy dose of fiber, iron, and calcium. Most importantly, it is delicious."
   },
   {
    "n": 36,
@@ -522,7 +532,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "They can prevent cancer.",
     "They come from Germany."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "If you are unfamiliar with kohlrabi, it’s worth checking out. Its name comes from German and literally means cabbage turnip. Not commonly used in American cuisine, it is widely used in Central Europe and Asia. It is still patiently waiting to be discovered in this country. Kohlrabi is in season from summer through early fall so you can find it at your local market right now. It belongs to the Brassica family, the cancer fighting vegetables that include cabbage, broccoli, and turnips. This turnip-shaped vegetable comes in green or purple and can be eaten raw or cooked. When kohlrabi is raw, it’s crunchy and tastes like broccoli stems; when cooked, it tastes like a mild turnip. When you buy kohlrabi, the leaves may be attached to the bulb. Usually smaller kohlrabi is the sweetest and most tender. Bulbs that are much bigger than the size of a tennis ball won’t be as tasty. Though kohlrabi might look like an alien life form, it is packed with Vitamin C and provides a healthy dose of fiber, iron, and calcium. Most importantly, it is delicious."
   },
   {
    "n": 37,
@@ -533,9 +544,10 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Kohlrabi is often used in American cuisine.",
     "The bigger a kohlrabi is, the better it tastes.",
     "Raw or cooked, kohlrabi tastes different.",
-    "Don’t buy kohlrabi with leaves attached.請回答第 38 題至第 41 題：Neuroscientists used an instrument called functional MRI to study the brains of two groups of bilingual"
+    "Don’t buy kohlrabi with leaves attached."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "If you are unfamiliar with kohlrabi, it’s worth checking out. Its name comes from German and literally means cabbage turnip. Not commonly used in American cuisine, it is widely used in Central Europe and Asia. It is still patiently waiting to be discovered in this country. Kohlrabi is in season from summer through early fall so you can find it at your local market right now. It belongs to the Brassica family, the cancer fighting vegetables that include cabbage, broccoli, and turnips. This turnip-shaped vegetable comes in green or purple and can be eaten raw or cooked. When kohlrabi is raw, it’s crunchy and tastes like broccoli stems; when cooked, it tastes like a mild turnip. When you buy kohlrabi, the leaves may be attached to the bulb. Usually smaller kohlrabi is the sweetest and most tender. Bulbs that are much bigger than the size of a tennis ball won’t be as tasty. Though kohlrabi might look like an alien life form, it is packed with Vitamin C and provides a healthy dose of fiber, iron, and calcium. Most importantly, it is delicious."
   },
   {
    "n": 38,
@@ -548,7 +560,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "It shows the areas of the brain that are active.",
     "It is only used to show activities in the left brain."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Neuroscientists used an instrument called functional MRI to study the brains of two groups of bilingual people. One group consisted of those who had learned a second language as children. The other consisted of people who learned their second language later in life. When placed inside the MRI scanner, which allowed the researchers to see which parts of the brain were getting more blood and were thus more active, people from both groups were asked to think about what they had done the day before, first in one language and then the other. The researchers looked specifically at Broca’s area, in the left frontal part, which is believed to manage speech production. The two groups of people demonstrated different uses of their Broca’s area. People who learned a second language as children used the same region in Broca’s area for both languages. But those who learned a second language later in life made use of a distinct region in Broca’s area for their second language—near the one activated for their native tongue. Researchers concluded that when language is being hard-wired during development, the brain may intertwine sounds and structures from all languages into the same area. But once that wiring is complete, the management of a new language, with new sounds and structures, must be taken over by a different part of the brain."
   },
   {
    "n": 39,
@@ -561,7 +574,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "People who learned their second language early in life.",
     "People who learned their second language much later than their first language."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Neuroscientists used an instrument called functional MRI to study the brains of two groups of bilingual people. One group consisted of those who had learned a second language as children. The other consisted of people who learned their second language later in life. When placed inside the MRI scanner, which allowed the researchers to see which parts of the brain were getting more blood and were thus more active, people from both groups were asked to think about what they had done the day before, first in one language and then the other. The researchers looked specifically at Broca’s area, in the left frontal part, which is believed to manage speech production. The two groups of people demonstrated different uses of their Broca’s area. People who learned a second language as children used the same region in Broca’s area for both languages. But those who learned a second language later in life made use of a distinct region in Broca’s area for their second language—near the one activated for their native tongue. Researchers concluded that when language is being hard-wired during development, the brain may intertwine sounds and structures from all languages into the same area. But once that wiring is complete, the management of a new language, with new sounds and structures, must be taken over by a different part of the brain."
   },
   {
    "n": 40,
@@ -574,7 +588,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "This area is used for the production of the second language.",
     "People use the same Broca’s area for both their first and second languages."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Neuroscientists used an instrument called functional MRI to study the brains of two groups of bilingual people. One group consisted of those who had learned a second language as children. The other consisted of people who learned their second language later in life. When placed inside the MRI scanner, which allowed the researchers to see which parts of the brain were getting more blood and were thus more active, people from both groups were asked to think about what they had done the day before, first in one language and then the other. The researchers looked specifically at Broca’s area, in the left frontal part, which is believed to manage speech production. The two groups of people demonstrated different uses of their Broca’s area. People who learned a second language as children used the same region in Broca’s area for both languages. But those who learned a second language later in life made use of a distinct region in Broca’s area for their second language—near the one activated for their native tongue. Researchers concluded that when language is being hard-wired during development, the brain may intertwine sounds and structures from all languages into the same area. But once that wiring is complete, the management of a new language, with new sounds and structures, must be taken over by a different part of the brain."
   },
   {
    "n": 41,
@@ -585,9 +600,10 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "When the second language is learned early, it is considered more like the first language by the brain.",
     "The second language can never be processed like the first language.",
     "The second language that is learned late can be wired into the same areas as the firs language.",
-    "The motivation of the learners matters the most in language acquisition.請回答第 42 題至第 45 題：Real quicksand, the kind that is almost impossible to extricate yourself from, is not just water and sand. A"
+    "The motivation of the learners matters the most in language acquisition."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Neuroscientists used an instrument called functional MRI to study the brains of two groups of bilingual people. One group consisted of those who had learned a second language as children. The other consisted of people who learned their second language later in life. When placed inside the MRI scanner, which allowed the researchers to see which parts of the brain were getting more blood and were thus more active, people from both groups were asked to think about what they had done the day before, first in one language and then the other. The researchers looked specifically at Broca’s area, in the left frontal part, which is believed to manage speech production. The two groups of people demonstrated different uses of their Broca’s area. People who learned a second language as children used the same region in Broca’s area for both languages. But those who learned a second language later in life made use of a distinct region in Broca’s area for their second language—near the one activated for their native tongue. Researchers concluded that when language is being hard-wired during development, the brain may intertwine sounds and structures from all languages into the same area. But once that wiring is complete, the management of a new language, with new sounds and structures, must be taken over by a different part of the brain."
   },
   {
    "n": 42,
@@ -600,7 +616,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "salt",
     "gel"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Real quicksand, the kind that is almost impossible to extricate yourself from, is not just water and sand. A report in the current issue of Nature shows that salt and clay are also major ingredients. Their study began when Dr. Daniel Bonn, a professor of physics at the University of Amsterdam, was in Iran a few years ago and saw signs warning of quicksand. Naturally, the warning prompted him to collect samples and he sank in to his ankles. He quickly escaped, but even shallow quicksand can be hard to step out of. Back home, Dr. Bonn and his colleagues found out why. Sand grains in quicksand are usually loosely packed, with the clay acting as a fragile gel holding the grains together. Hit with sudden force from a hapless victim, the quicksand gel turns to liquid. Then salt causes clay particles to stick to one another instead of the sand grains, with the result that a victim ends up surrounded by densely packed sand. The force needed to pull out a person immersed in quicksand is about the same needed to lift a car, Dr. Bonn said. The trick for escaping is to slowly wiggle the feet and legs, allowing water to flow in. People float in quicksand so it is also impossible to sink all the way in, but quicksand usually forms at river estuaries, so a captive could drown at high tide."
   },
   {
    "n": 43,
@@ -613,7 +630,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Dr. Bonn was trapped in the quicksand because he failed to notice the warning sing.",
     "People who sink in quicksand are likely to die from drowning."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Real quicksand, the kind that is almost impossible to extricate yourself from, is not just water and sand. A report in the current issue of Nature shows that salt and clay are also major ingredients. Their study began when Dr. Daniel Bonn, a professor of physics at the University of Amsterdam, was in Iran a few years ago and saw signs warning of quicksand. Naturally, the warning prompted him to collect samples and he sank in to his ankles. He quickly escaped, but even shallow quicksand can be hard to step out of. Back home, Dr. Bonn and his colleagues found out why. Sand grains in quicksand are usually loosely packed, with the clay acting as a fragile gel holding the grains together. Hit with sudden force from a hapless victim, the quicksand gel turns to liquid. Then salt causes clay particles to stick to one another instead of the sand grains, with the result that a victim ends up surrounded by densely packed sand. The force needed to pull out a person immersed in quicksand is about the same needed to lift a car, Dr. Bonn said. The trick for escaping is to slowly wiggle the feet and legs, allowing water to flow in. People float in quicksand so it is also impossible to sink all the way in, but quicksand usually forms at river estuaries, so a captive could drown at high tide."
   },
   {
    "n": 44,
@@ -626,7 +644,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
     "Tread down the quicksand to harden it.",
     "Introduce water into the quicksand by moving our feet around slightly."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Real quicksand, the kind that is almost impossible to extricate yourself from, is not just water and sand. A report in the current issue of Nature shows that salt and clay are also major ingredients. Their study began when Dr. Daniel Bonn, a professor of physics at the University of Amsterdam, was in Iran a few years ago and saw signs warning of quicksand. Naturally, the warning prompted him to collect samples and he sank in to his ankles. He quickly escaped, but even shallow quicksand can be hard to step out of. Back home, Dr. Bonn and his colleagues found out why. Sand grains in quicksand are usually loosely packed, with the clay acting as a fragile gel holding the grains together. Hit with sudden force from a hapless victim, the quicksand gel turns to liquid. Then salt causes clay particles to stick to one another instead of the sand grains, with the result that a victim ends up surrounded by densely packed sand. The force needed to pull out a person immersed in quicksand is about the same needed to lift a car, Dr. Bonn said. The trick for escaping is to slowly wiggle the feet and legs, allowing water to flow in. People float in quicksand so it is also impossible to sink all the way in, but quicksand usually forms at river estuaries, so a captive could drown at high tide."
   },
   {
    "n": 45,
@@ -641,7 +660,8 @@ window.APP_EXAM_PAPERS['pol-103-1-c002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/103070_401_0203_45.webp"
+   "fig": "img/q/103070_401_0203_45.webp",
+   "psg": "Real quicksand, the kind that is almost impossible to extricate yourself from, is not just water and sand. A report in the current issue of Nature shows that salt and clay are also major ingredients. Their study began when Dr. Daniel Bonn, a professor of physics at the University of Amsterdam, was in Iran a few years ago and saw signs warning of quicksand. Naturally, the warning prompted him to collect samples and he sank in to his ankles. He quickly escaped, but even shallow quicksand can be hard to step out of. Back home, Dr. Bonn and his colleagues found out why. Sand grains in quicksand are usually loosely packed, with the clay acting as a fragile gel holding the grains together. Hit with sudden force from a hapless victim, the quicksand gel turns to liquid. Then salt causes clay particles to stick to one another instead of the sand grains, with the result that a victim ends up surrounded by densely packed sand. The force needed to pull out a person immersed in quicksand is about the same needed to lift a car, Dr. Bonn said. The trick for escaping is to slowly wiggle the feet and legs, allowing water to flow in. People float in quicksand so it is also impossible to sink all the way in, but quicksand usually forms at river estuaries, so a captive could drown at high tide."
   },
   {
    "n": 46,

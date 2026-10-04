@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-108-1-d016'] = {
     "melawati…benar",
     "pergi…meletak",
     "melawat…dibenarkan",
-    "benar…melawatiHampir saban hari kita didedahkan dengan isu rokok. Bagaikan tiada penyudahnya. Media massa"
+    "benar…melawati"
    ],
    "a": 2,
    "exp": "✅ (C) melawat 是「來訪、參訪」，dibenarkan 是被動「被允許」：來台觀光的旅客不得工作或違反規定。\n❌ (A) melawati 用法不當，且 benar 是形容詞「真的」，無法表達「被允許」。\n❌ (B) pergi 未點出「來台」的方向，meletak（放置）在此語意不通。\n❌ (D) benar 不是移動動詞，兩個空格的詞性完全顛倒。\n📚 出處：馬來語被動式 di-...-kan（benar→dibenarkan）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d016'] = {
     "Golongan darah",
     "Golongan bangsawan"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hampir saban hari kita didedahkan dengan isu rokok. Bagaikan tiada penyudahnya. Media massa sama ada media cetak ataupun media elektronik banyak membangkitkan hal ini. Pada masa dahulu, kebanyakan mereka yang mengamalkan tabiat merokok terdiri daripada golongan lelaki, namun pada hari ini berlainan pula. Sejak akhir ini sudah banyak wanita yang terlibat dalam gejala merokok. Hal ini demikian kerana mereka mudah terpengaruh oleh cara hidup yang bebas dan ingin melepaskan tekanan. Wanita yang merokok lebih berisiko mendapat penyakit berbanding dengan kaum lelaki. Hal ini demikian kerana dalam sebatang rokok, terkandung 4000 bahan kimia yang berbahaya terutama nikotin dan karbon monoksida. Bahan kimia ini menjejaskan kesihatan dan mendedahkan mereka kepada risiko penyakit kronik seperti barah payu dara dan barah pangkal rahim. Bukan itu sahaja seorang perokok yang mengambil lebih daripada 20 batang rokok dalam sehari menghadapi 10 hingga 15 kali ganda risiko maut akibat serangan jantung. Ketika mengandung, berat bayi bagi wanita merokok kemungkinan tiga kali lebih ringan daripada bayi normal. Kelahiran juga boleh berlaku lebih awal dari tarikh yang sepatutnya. Bayi yang dilahirkan lebih tinggi risiko mendapat penyakit serta kematian pada tahun pertama kelahirannya. Kualiti susu badan juga berkurangan jika bakal ibu ini mula merokok semasa bayi dalam kandungan."
   },
   {
    "n": 72,
@@ -1059,7 +1060,7 @@ window.APP_EXAM_PAPERS['tou-108-1-d016'] = {
     "Berat bayi bagi wanita merokok kemungkinan tiga kali lebih ringan daripada bayi normal.",
     "Kelahiran juga boleh berlaku lebih awal dari tarikh yang sepatutnya.",
     "Bayi yang dilahirkan lebih tinggi risiko mendapatkan penyakit.",
-    "Bayi yang dilahirkan akan lebih sihat dari bayi normal.Sekiranya anda tergerak hati ingin melancong ke Taiwan buat kali pertama atau melawatinya sekali"
+    "Bayi yang dilahirkan akan lebih sihat dari bayi normal."
    ],
    "a": 3,
    "exp": "✅ (D) 題目問的是「不是」的影響。母親吸菸不可能讓胎兒比正常嬰兒更健康，敘述與事實相反，故為應選答案。\n❌ (A) 吸菸孕婦所生嬰兒體重偏輕，確實是已知影響。\n❌ (B) 比預產期提早生產（早產）也是吸菸的影響之一。\n❌ (C) 新生兒罹病風險升高同樣屬於吸菸造成的負面影響。\n📚 出處：馬來語否定選擇題型 bukan…ialah＋菸害對胎兒的影響"
@@ -1089,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d016'] = {
     "Satu cara yang terbaik untuk menghabiskan masa yang berkualiti bersama ahli keluarga.",
     "Taiwan yang mempunyai iklim, budaya, warisan dan makanan yang berbeza."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Sekiranya anda tergerak hati ingin melancong ke Taiwan buat kali pertama atau melawatinya sekali lagi, inilah peluang keemasan anda untuk melawat pulau ini. Melancong merupakan salah satu cara yang terbaik untuk menghabiskan masa yang berkualiti bersama ahli keluarga, terutamanya untuk mereka yang tidak tinggal sebumbung ataupun mereka yang mempunyai ahli keluarga yang sibuk dengan kerjaya diri sendiri. Oleh itu, adalah tidak hairan kini berlancong ke Taiwan menjadi pilihan untuk ramai keluarga Malaysia yang ingin menghabiskan masa yang berkualiti bersama. Keseronokan yang dialami di Taiwan yang mempunyai iklim, budaya, warisan dan makanan yang berbeza, merupakan sesuatu yang boleh merapatkan hubungan di antara satu sama lain. Taiwan mempunyai segala-galanya apabila dikaitkan dengan makanan. Anda boleh makan dengan sepuas-puas tanpa perlu membelanja dengan banyak. Daripada buah-buahan bermusim, hidangan tradisional yang lazat, hidangan vegetarian yang sihat, pencuci mulut ais dan minuman teh kreatif, hidangan Taiwan menggunakan bahan-bahan tempatan dengan sepenuhnya dan teknik yang tradisional untuk mengujakan serta memenuhi selera anda. Jangan lupa juga pasar malam yang terkenal di seluruh dunia di mana ia penuh dengan aroma yang wangi kerana makanan di jalanan dan snek yang lazat! Taiwan merupakan tempat bagi pelancong menjadi syurga buat shopaholics! Banyak pusat membeli-belah yang besar dan rangkaian kedai boleh didapati di semua pulau Taiwan. Anda boleh membeli apa-apa sahaja yang anda perlukan, daripada produk elektronik yang berkualiti tinggi keluaran dari Taiwan, teh tanah tinggi yang terkenal dan juga anyaman buatan tangan. Untuk peminat fesyen pula, pelbagai jenis pakaian yang berharga berpatutan, barangan kulit dan produk berjenama boleh didapati di hujung jari anda. Di Taiwan, anda pasti akan memperoleh apa yang anda inginkan."
   },
   {
    "n": 78,
@@ -1116,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d016'] = {
     "terdapat minuman teh kreatif dan pencuci mulut ais.",
     "boleh makan dengan sepuas-puas tanpa perlu membelanja dengan banyak."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Sekiranya anda tergerak hati ingin melancong ke Taiwan buat kali pertama atau melawatinya sekali lagi, inilah peluang keemasan anda untuk melawat pulau ini. Melancong merupakan salah satu cara yang terbaik untuk menghabiskan masa yang berkualiti bersama ahli keluarga, terutamanya untuk mereka yang tidak tinggal sebumbung ataupun mereka yang mempunyai ahli keluarga yang sibuk dengan kerjaya diri sendiri. Oleh itu, adalah tidak hairan kini berlancong ke Taiwan menjadi pilihan untuk ramai keluarga Malaysia yang ingin menghabiskan masa yang berkualiti bersama. Keseronokan yang dialami di Taiwan yang mempunyai iklim, budaya, warisan dan makanan yang berbeza, merupakan sesuatu yang boleh merapatkan hubungan di antara satu sama lain. Taiwan mempunyai segala-galanya apabila dikaitkan dengan makanan. Anda boleh makan dengan sepuas-puas tanpa perlu membelanja dengan banyak. Daripada buah-buahan bermusim, hidangan tradisional yang lazat, hidangan vegetarian yang sihat, pencuci mulut ais dan minuman teh kreatif, hidangan Taiwan menggunakan bahan-bahan tempatan dengan sepenuhnya dan teknik yang tradisional untuk mengujakan serta memenuhi selera anda. Jangan lupa juga pasar malam yang terkenal di seluruh dunia di mana ia penuh dengan aroma yang wangi kerana makanan di jalanan dan snek yang lazat! Taiwan merupakan tempat bagi pelancong menjadi syurga buat shopaholics! Banyak pusat membeli-belah yang besar dan rangkaian kedai boleh didapati di semua pulau Taiwan. Anda boleh membeli apa-apa sahaja yang anda perlukan, daripada produk elektronik yang berkualiti tinggi keluaran dari Taiwan, teh tanah tinggi yang terkenal dan juga anyaman buatan tangan. Untuk peminat fesyen pula, pelbagai jenis pakaian yang berharga berpatutan, barangan kulit dan produk berjenama boleh didapati di hujung jari anda. Di Taiwan, anda pasti akan memperoleh apa yang anda inginkan."
   },
   {
    "n": 80,

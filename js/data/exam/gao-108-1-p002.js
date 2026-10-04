@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['gao-108-1-p002'] = {
     "scarcely",
     "unlikely",
     "relatively",
-    "definitely請依下文回答第 41 題至第 45 題："
+    "definitely"
    ],
    "a": 3,
    "exp": "✅ (D) definitely out of the question 意為「絕對不可能、絕對不行」，參觀清真寺時穿短褲絕對不被允許。\n❌ (A) scarcely 是幾乎不，與 out of the question 連用會造成雙重否定。\n❌ (B) unlikely 是不太可能，語氣過弱且不與此片語搭配。\n❌ (C) relatively 是相對地，語意不合。\n📚 出處：英文片語（out of the question）"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-108-1-p002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "seducing",
+    "suffering",
+    "surviving",
+    "solving"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108090_401_0214_41.webp"
+   "psg": "Whether it’s a beach getaway or a camping trip, animal encounters — some potentially dangerous — can happen on any vacation. According to the experts, the secret to 41 a dangerous animal encounter, like one with a shark, bear or rattlesnake, is to not panic. “Easier said than done, and sounds obvious, but seriously, try and keep your cool,” Ms. Levin said. The best thing to do during such an encounter is to 42 yourself slowly from the scene if you can. If you come face-to-face with a bear, mountain lion or coyote, do your best to look 43 . Stand tall, huddle together, open your coats, and raise your backpack overhead. In addition, do not feed wild animals; the more you feed them, the more they grow 44 humans, and stick around people — which leads to people treating them like 45 and trying to poison, trap, or kill them. In general, it's better if wild animals retain a healthy fear of (and distance from) humans in densely populated places."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "exclude",
+    "remove",
+    "distinguish",
+    "erase"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108090_401_0214_42.webp"
+   "psg": "Whether it’s a beach getaway or a camping trip, animal encounters — some potentially dangerous — can happen on any vacation. According to the experts, the secret to 41 a dangerous animal encounter, like one with a shark, bear or rattlesnake, is to not panic. “Easier said than done, and sounds obvious, but seriously, try and keep your cool,” Ms. Levin said. The best thing to do during such an encounter is to 42 yourself slowly from the scene if you can. If you come face-to-face with a bear, mountain lion or coyote, do your best to look 43 . Stand tall, huddle together, open your coats, and raise your backpack overhead. In addition, do not feed wild animals; the more you feed them, the more they grow 44 humans, and stick around people — which leads to people treating them like 45 and trying to poison, trap, or kill them. In general, it's better if wild animals retain a healthy fear of (and distance from) humans in densely populated places."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "imposing",
+    "involving",
+    "impatient",
+    "inefficient"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/108090_401_0214_43.webp"
+   "psg": "Whether it’s a beach getaway or a camping trip, animal encounters — some potentially dangerous — can happen on any vacation. According to the experts, the secret to 41 a dangerous animal encounter, like one with a shark, bear or rattlesnake, is to not panic. “Easier said than done, and sounds obvious, but seriously, try and keep your cool,” Ms. Levin said. The best thing to do during such an encounter is to 42 yourself slowly from the scene if you can. If you come face-to-face with a bear, mountain lion or coyote, do your best to look 43 . Stand tall, huddle together, open your coats, and raise your backpack overhead. In addition, do not feed wild animals; the more you feed them, the more they grow 44 humans, and stick around people — which leads to people treating them like 45 and trying to poison, trap, or kill them. In general, it's better if wild animals retain a healthy fear of (and distance from) humans in densely populated places."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "accustomed to",
+    "fascinated by",
+    "reliable on",
+    "cooperative with"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/108090_401_0214_44.webp"
+   "psg": "Whether it’s a beach getaway or a camping trip, animal encounters — some potentially dangerous — can happen on any vacation. According to the experts, the secret to 41 a dangerous animal encounter, like one with a shark, bear or rattlesnake, is to not panic. “Easier said than done, and sounds obvious, but seriously, try and keep your cool,” Ms. Levin said. The best thing to do during such an encounter is to 42 yourself slowly from the scene if you can. If you come face-to-face with a bear, mountain lion or coyote, do your best to look 43 . Stand tall, huddle together, open your coats, and raise your backpack overhead. In addition, do not feed wild animals; the more you feed them, the more they grow 44 humans, and stick around people — which leads to people treating them like 45 and trying to poison, trap, or kill them. In general, it's better if wild animals retain a healthy fear of (and distance from) humans in densely populated places."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "pals",
+    "pets",
+    "pests",
+    "peers"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108090_401_0214_45.webp"
+   "psg": "Whether it’s a beach getaway or a camping trip, animal encounters — some potentially dangerous — can happen on any vacation. According to the experts, the secret to 41 a dangerous animal encounter, like one with a shark, bear or rattlesnake, is to not panic. “Easier said than done, and sounds obvious, but seriously, try and keep your cool,” Ms. Levin said. The best thing to do during such an encounter is to 42 yourself slowly from the scene if you can. If you come face-to-face with a bear, mountain lion or coyote, do your best to look 43 . Stand tall, huddle together, open your coats, and raise your backpack overhead. In addition, do not feed wild animals; the more you feed them, the more they grow 44 humans, and stick around people — which leads to people treating them like 45 and trying to poison, trap, or kill them. In general, it's better if wild animals retain a healthy fear of (and distance from) humans in densely populated places."
   },
   {
    "n": 46,

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "iletişim",
     "haberleşme",
     "nakliye",
-    "taşıma請回答第 71 題至第 75 題：Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de"
+    "taşıma"
    ],
    "a": 3,
    "exp": "✅ (D) 「ulaşım」意為「交通／運輸」，在土耳其語中「toplu ulaşım araçları」（大眾運輸工具）與「toplu taşıma araçları」（大眾運輸工具）為完全同義可互換之慣用語。\n❌ (A) 「iletişim」意為「溝通／通訊」，與交通工具無關。\n❌ (B) 「haberleşme」意為「新聞傳播／電信通訊」，非交通概念。\n❌ (C) 「nakliye」專指「貨物運輸／搬家貨運」，不用於大眾公共運輸工具。\n📚 出處：土耳其語大眾運輸同義詞（toplu ulaşım / toplu taşıma）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Şereflendirmek",
     "Onuruna dokunmak"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de dünyanın ilgisini çekiyor. Bir yandan dev ulaşım projeleriyle ekonomide büyük bir atılım yapan Türkiye, diğer yandan da yeni istihdam alanları oluşturarak birçok kişiyi iş sahibi yapıyor. Türkiye’nin sanayi, ticaret ve turizm bölgelerini birbirine ve dünyaya bağlayacak dev projelerin bir kısmı tamamlanarak faaliyete geçerken, bir kısmında ise çalışmalar sürüyor. 2022’de açılması planlanan 1915 Çanakkale Köprüsü’nün temeli 18 Mart 2018’de atıldı. Köprü tamamlandığında “dünyanın en uzun aralıklı köprüsü” olacak. Gelibolu’ya bağlı Sütlüce ile Lapseki ilçesindeki Şekerkaya mevkii arasına yapılacak Çanakkale 1915 Köprüsü’nün temel atma töreni, Cumhurbaşkanı Recep Tayyip Erdoğan ve Başbakan Binali Yıldırım’ın katılımıyla gerçekleştirildi. Cumhurbaşkanı Erdoğan, Çanakkale Köprüsü’nün 18 ay erken bitirilerek 18 Mart 2022’de açılacağını müjdeledi. İki yakanın birbirine, kenar açıklıklarıyla kendisinin toplam uzaklığı 3 bin 860 metre ve viyadükleriyle 5 kilometre üzerinde olacak köprünün iki ayak arasındaki açıklığı ise, Türkiye Cumhuriyeti’nin 100. kuruluş yıldönümü olan 2023’ü taçlandırmak için 2 bin 23 metre olarak belirlendi."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Uyarmak",
     "Anımsatmak"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de dünyanın ilgisini çekiyor. Bir yandan dev ulaşım projeleriyle ekonomide büyük bir atılım yapan Türkiye, diğer yandan da yeni istihdam alanları oluşturarak birçok kişiyi iş sahibi yapıyor. Türkiye’nin sanayi, ticaret ve turizm bölgelerini birbirine ve dünyaya bağlayacak dev projelerin bir kısmı tamamlanarak faaliyete geçerken, bir kısmında ise çalışmalar sürüyor. 2022’de açılması planlanan 1915 Çanakkale Köprüsü’nün temeli 18 Mart 2018’de atıldı. Köprü tamamlandığında “dünyanın en uzun aralıklı köprüsü” olacak. Gelibolu’ya bağlı Sütlüce ile Lapseki ilçesindeki Şekerkaya mevkii arasına yapılacak Çanakkale 1915 Köprüsü’nün temel atma töreni, Cumhurbaşkanı Recep Tayyip Erdoğan ve Başbakan Binali Yıldırım’ın katılımıyla gerçekleştirildi. Cumhurbaşkanı Erdoğan, Çanakkale Köprüsü’nün 18 ay erken bitirilerek 18 Mart 2022’de açılacağını müjdeledi. İki yakanın birbirine, kenar açıklıklarıyla kendisinin toplam uzaklığı 3 bin 860 metre ve viyadükleriyle 5 kilometre üzerinde olacak köprünün iki ayak arasındaki açıklığı ise, Türkiye Cumhuriyeti’nin 100. kuruluş yıldönümü olan 2023’ü taçlandırmak için 2 bin 23 metre olarak belirlendi."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Dev projelerin bazıları henüz gerçekleşmiş durumda değildir.",
     "1915 Çanakkale Köprüsü’yle ilgili çalışmalar devam ediyor."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de dünyanın ilgisini çekiyor. Bir yandan dev ulaşım projeleriyle ekonomide büyük bir atılım yapan Türkiye, diğer yandan da yeni istihdam alanları oluşturarak birçok kişiyi iş sahibi yapıyor. Türkiye’nin sanayi, ticaret ve turizm bölgelerini birbirine ve dünyaya bağlayacak dev projelerin bir kısmı tamamlanarak faaliyete geçerken, bir kısmında ise çalışmalar sürüyor. 2022’de açılması planlanan 1915 Çanakkale Köprüsü’nün temeli 18 Mart 2018’de atıldı. Köprü tamamlandığında “dünyanın en uzun aralıklı köprüsü” olacak. Gelibolu’ya bağlı Sütlüce ile Lapseki ilçesindeki Şekerkaya mevkii arasına yapılacak Çanakkale 1915 Köprüsü’nün temel atma töreni, Cumhurbaşkanı Recep Tayyip Erdoğan ve Başbakan Binali Yıldırım’ın katılımıyla gerçekleştirildi. Cumhurbaşkanı Erdoğan, Çanakkale Köprüsü’nün 18 ay erken bitirilerek 18 Mart 2022’de açılacağını müjdeledi. İki yakanın birbirine, kenar açıklıklarıyla kendisinin toplam uzaklığı 3 bin 860 metre ve viyadükleriyle 5 kilometre üzerinde olacak köprünün iki ayak arasındaki açıklığı ise, Türkiye Cumhuriyeti’nin 100. kuruluş yıldönümü olan 2023’ü taçlandırmak için 2 bin 23 metre olarak belirlendi."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "1915 Çanakkale Köprüsü’nün inşaatına Bakanlık kararıyla 1915 yılında karar verildi.",
     "1915 Çanakkale Köprüsü’nün iki ayak arasındaki açıklığı 2023 metredir."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de dünyanın ilgisini çekiyor. Bir yandan dev ulaşım projeleriyle ekonomide büyük bir atılım yapan Türkiye, diğer yandan da yeni istihdam alanları oluşturarak birçok kişiyi iş sahibi yapıyor. Türkiye’nin sanayi, ticaret ve turizm bölgelerini birbirine ve dünyaya bağlayacak dev projelerin bir kısmı tamamlanarak faaliyete geçerken, bir kısmında ise çalışmalar sürüyor. 2022’de açılması planlanan 1915 Çanakkale Köprüsü’nün temeli 18 Mart 2018’de atıldı. Köprü tamamlandığında “dünyanın en uzun aralıklı köprüsü” olacak. Gelibolu’ya bağlı Sütlüce ile Lapseki ilçesindeki Şekerkaya mevkii arasına yapılacak Çanakkale 1915 Köprüsü’nün temel atma töreni, Cumhurbaşkanı Recep Tayyip Erdoğan ve Başbakan Binali Yıldırım’ın katılımıyla gerçekleştirildi. Cumhurbaşkanı Erdoğan, Çanakkale Köprüsü’nün 18 ay erken bitirilerek 18 Mart 2022’de açılacağını müjdeledi. İki yakanın birbirine, kenar açıklıklarıyla kendisinin toplam uzaklığı 3 bin 860 metre ve viyadükleriyle 5 kilometre üzerinde olacak köprünün iki ayak arasındaki açıklığı ise, Türkiye Cumhuriyeti’nin 100. kuruluş yıldönümü olan 2023’ü taçlandırmak için 2 bin 23 metre olarak belirlendi."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "1915 Çanakkale Köprüsü’nün bir ucu Sütlüce’de, diğer yanı ise Lapseki’de.",
     "1915 Çanakkale Köprüsü dünyanın en uzun köprüsü olacaktır.",
     "1915 Çanakkale Köprüsü’nün açılışı 18 ay gecikmesiyle 18 Mart 2022’de yapılacaktır.",
-    "1915 Çanakkale Köprüsü gibi kocaman ulaşım projeleri mutlaka Türkiye’nin sanayi, ticaret,turizm güçlerini baltalayacaktır.請回答第 76 題至第 80 題：Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır."
+    "1915 Çanakkale Köprüsü gibi kocaman ulaşım projeleri mutlaka Türkiye’nin sanayi, ticaret,turizm güçlerini baltalayacaktır."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Asya ile Avrupa arasında bir köprü konumunda olan Türkiye, bölgesel ve kıtalar arası ticarette de dünyanın ilgisini çekiyor. Bir yandan dev ulaşım projeleriyle ekonomide büyük bir atılım yapan Türkiye, diğer yandan da yeni istihdam alanları oluşturarak birçok kişiyi iş sahibi yapıyor. Türkiye’nin sanayi, ticaret ve turizm bölgelerini birbirine ve dünyaya bağlayacak dev projelerin bir kısmı tamamlanarak faaliyete geçerken, bir kısmında ise çalışmalar sürüyor. 2022’de açılması planlanan 1915 Çanakkale Köprüsü’nün temeli 18 Mart 2018’de atıldı. Köprü tamamlandığında “dünyanın en uzun aralıklı köprüsü” olacak. Gelibolu’ya bağlı Sütlüce ile Lapseki ilçesindeki Şekerkaya mevkii arasına yapılacak Çanakkale 1915 Köprüsü’nün temel atma töreni, Cumhurbaşkanı Recep Tayyip Erdoğan ve Başbakan Binali Yıldırım’ın katılımıyla gerçekleştirildi. Cumhurbaşkanı Erdoğan, Çanakkale Köprüsü’nün 18 ay erken bitirilerek 18 Mart 2022’de açılacağını müjdeledi. İki yakanın birbirine, kenar açıklıklarıyla kendisinin toplam uzaklığı 3 bin 860 metre ve viyadükleriyle 5 kilometre üzerinde olacak köprünün iki ayak arasındaki açıklığı ise, Türkiye Cumhuriyeti’nin 100. kuruluş yıldönümü olan 2023’ü taçlandırmak için 2 bin 23 metre olarak belirlendi."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Psikolojik ve çevre faktörleri de sağlığımızı bozabilir.",
     "Doktorlar, perhiz yapmayı tavsiye etmektedir."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır. Bu etkenler arasında beslenme, barınma ve sağlık gibi temel ihtiyaçların giderilmesi ilk önceliktir. Özellikle de sağlık…Çevremizde gördüğümüz tüm canlılar yani bitkiler, hayvanlar ve biz insanlar için olmazsa olmaz yaşam standartları bulunmaktadır. Bu standartların oluşumu sırasında meydana gelebilecek en küçük bir sorun dahi sağlıklı bir yaşam sürdürülmesini engelleyebilir. Her şeyden önce sağlıklı ve mutlu olmak için yediklerimize dikkat etmeliyiz. Bundan başka psikolojik ve çevre faktörlerini de unutmamalıyız. Bu faktörlere ait bilgiler bize koruyucu ilaçların önemini daha iyi anlatıyor. Hastalık gelmeden önce onu önlemek için yapılan işler, hastalıktan sonra yapılan tedaviden daha iyidir. Doktorlar “perhiz” yapmayı tavsiye etmektedirler. Bugün“ şişmanlık” batı dünyasında en çok korkulan hastalıktır. Kuzey Amerika’da elli sekiz milyon insan bu hastalığa yakalanmıştır. Şeker hastalığı, kalp hastalıkları ve kanser gibi hastalıklar şişmanlıkla ilgilidir. Stres, tansiyon, uykusuzluk gibi etkenler de sağlıksız beslenmeden kaynaklanır. Son yıllarda, araştırmalar spor yapmanın sağlığa iyi geldiğini doğrulamaktadır. Devamlı yapılan fizikî aktiviteler, sağlık için çok faydalı olmaktadır. Günlük hayatta insanların en çok karşılaştığı problemlerden biri de strestir. Bir yakınının ölmesi, evlilik, iş değişikliği, boşanma gibi durumlar insanı strese sokabilir. Stresin bilincinde olmak bu hastalıkları önleyebilir. Çevre de sağlığımız için çok önemlidir, insan ömrü uzamasına rağmen kanserden ölümler artmıştır. Bunun başlıca sebebi kimyasal maddelerin kullanımının artmasıdır. Örneğin; sigara akciğer kanserine, endüstrideki kimyasal maddeler de kronik hastalıklara yol açar."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Spor yapmak.",
     "Endüstride kullanılan kimyasal maddeler."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır. Bu etkenler arasında beslenme, barınma ve sağlık gibi temel ihtiyaçların giderilmesi ilk önceliktir. Özellikle de sağlık…Çevremizde gördüğümüz tüm canlılar yani bitkiler, hayvanlar ve biz insanlar için olmazsa olmaz yaşam standartları bulunmaktadır. Bu standartların oluşumu sırasında meydana gelebilecek en küçük bir sorun dahi sağlıklı bir yaşam sürdürülmesini engelleyebilir. Her şeyden önce sağlıklı ve mutlu olmak için yediklerimize dikkat etmeliyiz. Bundan başka psikolojik ve çevre faktörlerini de unutmamalıyız. Bu faktörlere ait bilgiler bize koruyucu ilaçların önemini daha iyi anlatıyor. Hastalık gelmeden önce onu önlemek için yapılan işler, hastalıktan sonra yapılan tedaviden daha iyidir. Doktorlar “perhiz” yapmayı tavsiye etmektedirler. Bugün“ şişmanlık” batı dünyasında en çok korkulan hastalıktır. Kuzey Amerika’da elli sekiz milyon insan bu hastalığa yakalanmıştır. Şeker hastalığı, kalp hastalıkları ve kanser gibi hastalıklar şişmanlıkla ilgilidir. Stres, tansiyon, uykusuzluk gibi etkenler de sağlıksız beslenmeden kaynaklanır. Son yıllarda, araştırmalar spor yapmanın sağlığa iyi geldiğini doğrulamaktadır. Devamlı yapılan fizikî aktiviteler, sağlık için çok faydalı olmaktadır. Günlük hayatta insanların en çok karşılaştığı problemlerden biri de strestir. Bir yakınının ölmesi, evlilik, iş değişikliği, boşanma gibi durumlar insanı strese sokabilir. Stresin bilincinde olmak bu hastalıkları önleyebilir. Çevre de sağlığımız için çok önemlidir, insan ömrü uzamasına rağmen kanserden ölümler artmıştır. Bunun başlıca sebebi kimyasal maddelerin kullanımının artmasıdır. Örneğin; sigara akciğer kanserine, endüstrideki kimyasal maddeler de kronik hastalıklara yol açar."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Şeker hastalığı",
     "Kalp hastalıkları"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır. Bu etkenler arasında beslenme, barınma ve sağlık gibi temel ihtiyaçların giderilmesi ilk önceliktir. Özellikle de sağlık…Çevremizde gördüğümüz tüm canlılar yani bitkiler, hayvanlar ve biz insanlar için olmazsa olmaz yaşam standartları bulunmaktadır. Bu standartların oluşumu sırasında meydana gelebilecek en küçük bir sorun dahi sağlıklı bir yaşam sürdürülmesini engelleyebilir. Her şeyden önce sağlıklı ve mutlu olmak için yediklerimize dikkat etmeliyiz. Bundan başka psikolojik ve çevre faktörlerini de unutmamalıyız. Bu faktörlere ait bilgiler bize koruyucu ilaçların önemini daha iyi anlatıyor. Hastalık gelmeden önce onu önlemek için yapılan işler, hastalıktan sonra yapılan tedaviden daha iyidir. Doktorlar “perhiz” yapmayı tavsiye etmektedirler. Bugün“ şişmanlık” batı dünyasında en çok korkulan hastalıktır. Kuzey Amerika’da elli sekiz milyon insan bu hastalığa yakalanmıştır. Şeker hastalığı, kalp hastalıkları ve kanser gibi hastalıklar şişmanlıkla ilgilidir. Stres, tansiyon, uykusuzluk gibi etkenler de sağlıksız beslenmeden kaynaklanır. Son yıllarda, araştırmalar spor yapmanın sağlığa iyi geldiğini doğrulamaktadır. Devamlı yapılan fizikî aktiviteler, sağlık için çok faydalı olmaktadır. Günlük hayatta insanların en çok karşılaştığı problemlerden biri de strestir. Bir yakınının ölmesi, evlilik, iş değişikliği, boşanma gibi durumlar insanı strese sokabilir. Stresin bilincinde olmak bu hastalıkları önleyebilir. Çevre de sağlığımız için çok önemlidir, insan ömrü uzamasına rağmen kanserden ölümler artmıştır. Bunun başlıca sebebi kimyasal maddelerin kullanımının artmasıdır. Örneğin; sigara akciğer kanserine, endüstrideki kimyasal maddeler de kronik hastalıklara yol açar."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Şeker, kalp hastalıkları ve kanser.",
     "Akciğer kanseri ve kronik hastalıklar."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır. Bu etkenler arasında beslenme, barınma ve sağlık gibi temel ihtiyaçların giderilmesi ilk önceliktir. Özellikle de sağlık…Çevremizde gördüğümüz tüm canlılar yani bitkiler, hayvanlar ve biz insanlar için olmazsa olmaz yaşam standartları bulunmaktadır. Bu standartların oluşumu sırasında meydana gelebilecek en küçük bir sorun dahi sağlıklı bir yaşam sürdürülmesini engelleyebilir. Her şeyden önce sağlıklı ve mutlu olmak için yediklerimize dikkat etmeliyiz. Bundan başka psikolojik ve çevre faktörlerini de unutmamalıyız. Bu faktörlere ait bilgiler bize koruyucu ilaçların önemini daha iyi anlatıyor. Hastalık gelmeden önce onu önlemek için yapılan işler, hastalıktan sonra yapılan tedaviden daha iyidir. Doktorlar “perhiz” yapmayı tavsiye etmektedirler. Bugün“ şişmanlık” batı dünyasında en çok korkulan hastalıktır. Kuzey Amerika’da elli sekiz milyon insan bu hastalığa yakalanmıştır. Şeker hastalığı, kalp hastalıkları ve kanser gibi hastalıklar şişmanlıkla ilgilidir. Stres, tansiyon, uykusuzluk gibi etkenler de sağlıksız beslenmeden kaynaklanır. Son yıllarda, araştırmalar spor yapmanın sağlığa iyi geldiğini doğrulamaktadır. Devamlı yapılan fizikî aktiviteler, sağlık için çok faydalı olmaktadır. Günlük hayatta insanların en çok karşılaştığı problemlerden biri de strestir. Bir yakınının ölmesi, evlilik, iş değişikliği, boşanma gibi durumlar insanı strese sokabilir. Stresin bilincinde olmak bu hastalıkları önleyebilir. Çevre de sağlığımız için çok önemlidir, insan ömrü uzamasına rağmen kanserden ölümler artmıştır. Bunun başlıca sebebi kimyasal maddelerin kullanımının artmasıdır. Örneğin; sigara akciğer kanserine, endüstrideki kimyasal maddeler de kronik hastalıklara yol açar."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-111-1-d019'] = {
     "Kimyasal maddeler kullanmayı",
     "Perhiz yapmayı"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Canlılar yaşamlarının devamlılığını sürdürebilmek için birçok etken ile mücadele etmek zorundadır. Bu etkenler arasında beslenme, barınma ve sağlık gibi temel ihtiyaçların giderilmesi ilk önceliktir. Özellikle de sağlık…Çevremizde gördüğümüz tüm canlılar yani bitkiler, hayvanlar ve biz insanlar için olmazsa olmaz yaşam standartları bulunmaktadır. Bu standartların oluşumu sırasında meydana gelebilecek en küçük bir sorun dahi sağlıklı bir yaşam sürdürülmesini engelleyebilir. Her şeyden önce sağlıklı ve mutlu olmak için yediklerimize dikkat etmeliyiz. Bundan başka psikolojik ve çevre faktörlerini de unutmamalıyız. Bu faktörlere ait bilgiler bize koruyucu ilaçların önemini daha iyi anlatıyor. Hastalık gelmeden önce onu önlemek için yapılan işler, hastalıktan sonra yapılan tedaviden daha iyidir. Doktorlar “perhiz” yapmayı tavsiye etmektedirler. Bugün“ şişmanlık” batı dünyasında en çok korkulan hastalıktır. Kuzey Amerika’da elli sekiz milyon insan bu hastalığa yakalanmıştır. Şeker hastalığı, kalp hastalıkları ve kanser gibi hastalıklar şişmanlıkla ilgilidir. Stres, tansiyon, uykusuzluk gibi etkenler de sağlıksız beslenmeden kaynaklanır. Son yıllarda, araştırmalar spor yapmanın sağlığa iyi geldiğini doğrulamaktadır. Devamlı yapılan fizikî aktiviteler, sağlık için çok faydalı olmaktadır. Günlük hayatta insanların en çok karşılaştığı problemlerden biri de strestir. Bir yakınının ölmesi, evlilik, iş değişikliği, boşanma gibi durumlar insanı strese sokabilir. Stresin bilincinde olmak bu hastalıkları önleyebilir. Çevre de sağlığımız için çok önemlidir, insan ömrü uzamasına rağmen kanserden ölümler artmıştır. Bunun başlıca sebebi kimyasal maddelerin kullanımının artmasıdır. Örneğin; sigara akciğer kanserine, endüstrideki kimyasal maddeler de kronik hastalıklara yol açar."
   }
  ]
 };

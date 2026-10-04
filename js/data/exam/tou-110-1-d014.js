@@ -994,7 +994,7 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "tàu thường",
     "tàu cao tốc",
     "tàu điện ngầm",
-    "tàu nhanhDương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937,"
+    "tàu nhanh"
    ],
    "a": 1,
    "exp": "✅ (B) 想要以最快方式前往台北應搭乘台灣高鐵（tàu cao tốc），高鐵為台灣陸上速度最快之大眾客運交通工具。\n❌ (A) 普通火車（tàu thường）各站停靠且速度較慢，並非最快速的前往方式。\n❌ (C) 捷運（tàu điện ngầm）主要服務都會區內部交通，非城際長途前往台北之最快工具。\n❌ (D) 快車（tàu nhanh）速度仍不及高鐵，且該選項後段文字為轉檔沾黏之排版雜訊。\n📚 出處：台灣鐵道交通與高鐵運具特性"
@@ -1010,7 +1010,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Giới thiệu phong cảnh và các điểm tham quan du lịch ở công viên Dương Minh Sơn.",
     "Giới thiệu công viên Dương Minh Sơn chỉ có hoa anh đào và lễ hội hoa kèn nên du khách cầnđến đây du lịch."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Dương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937, công viên còn được gọi với cái tên khác là Thảo Sơn. Năm 1950 nó được đổi tên thành công viên Dương Minh Sơn để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Minh. Công viên Dương Minh Sơn vô cùng rộng lớn với diện tích hơn 11.338 ha. Công viên Dương Minh Sơn được xếp hạng là khu bảo tồn thiên nhiên quốc gia. Công viên quốc gia Dương Minh Sơn trồng rất nhiều loại hoa như hoa anh đào, hoa đỗ quyên, hoa hải đường dại, hoa loa kèn, hoa hướng dương, hoa trà…Tại Dương Minh Sơn, lễ hội hoa loa kèn ở thường diễn ra vào khoảng tháng 3, tháng 4 hàng năm, và hoa loa kèn trồng ở đây hầu hết có nguồn gốc từ Châu Phi. Đặc biệt vào mùa xuân, bạn có thể xem cảnh hoa anh đào nở không thua kém gì Nhật Bản. Ngoài những loài hoa rực rỡ sắc màu ra, Dương Minh Sơn còn có nhiều những con đường mòn tuyệt đẹp như: Tianmu Trail, Erzihping, đường mòn Jinbaoli,… Những con đường này là những điểm đi bộ và chạy bộ vô cùng lý tưởng. Vào mùa đông, bạn có thể đến đây ngâm mình trong suối nước nóng để thư giãn. Khi ghé thăm Dương Minh Sơn vào mùa hè, bạn nhớ mang theo nhiều nước. Tuy nhiên, thời gian lý tưởng nhất để ghé thăm Dương Minh Sơn là vào mùa xuân và mùa thu."
   },
   {
    "n": 72,
@@ -1023,7 +1024,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Trần",
     "để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Tần"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Dương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937, công viên còn được gọi với cái tên khác là Thảo Sơn. Năm 1950 nó được đổi tên thành công viên Dương Minh Sơn để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Minh. Công viên Dương Minh Sơn vô cùng rộng lớn với diện tích hơn 11.338 ha. Công viên Dương Minh Sơn được xếp hạng là khu bảo tồn thiên nhiên quốc gia. Công viên quốc gia Dương Minh Sơn trồng rất nhiều loại hoa như hoa anh đào, hoa đỗ quyên, hoa hải đường dại, hoa loa kèn, hoa hướng dương, hoa trà…Tại Dương Minh Sơn, lễ hội hoa loa kèn ở thường diễn ra vào khoảng tháng 3, tháng 4 hàng năm, và hoa loa kèn trồng ở đây hầu hết có nguồn gốc từ Châu Phi. Đặc biệt vào mùa xuân, bạn có thể xem cảnh hoa anh đào nở không thua kém gì Nhật Bản. Ngoài những loài hoa rực rỡ sắc màu ra, Dương Minh Sơn còn có nhiều những con đường mòn tuyệt đẹp như: Tianmu Trail, Erzihping, đường mòn Jinbaoli,… Những con đường này là những điểm đi bộ và chạy bộ vô cùng lý tưởng. Vào mùa đông, bạn có thể đến đây ngâm mình trong suối nước nóng để thư giãn. Khi ghé thăm Dương Minh Sơn vào mùa hè, bạn nhớ mang theo nhiều nước. Tuy nhiên, thời gian lý tưởng nhất để ghé thăm Dương Minh Sơn là vào mùa xuân và mùa thu."
   },
   {
    "n": 73,
@@ -1036,7 +1038,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Cảnh hoa anh đào nở ở công viên Dương Minh Sơn đẹp như cảnh hoa anh đào nở ở Nhật Bản.",
     "Cảnh hoa anh đào nở ở công viên Dương Minh Sơn đẹp hơn cảnh hoa anh đào nở ở Nhật Bản."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Dương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937, công viên còn được gọi với cái tên khác là Thảo Sơn. Năm 1950 nó được đổi tên thành công viên Dương Minh Sơn để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Minh. Công viên Dương Minh Sơn vô cùng rộng lớn với diện tích hơn 11.338 ha. Công viên Dương Minh Sơn được xếp hạng là khu bảo tồn thiên nhiên quốc gia. Công viên quốc gia Dương Minh Sơn trồng rất nhiều loại hoa như hoa anh đào, hoa đỗ quyên, hoa hải đường dại, hoa loa kèn, hoa hướng dương, hoa trà…Tại Dương Minh Sơn, lễ hội hoa loa kèn ở thường diễn ra vào khoảng tháng 3, tháng 4 hàng năm, và hoa loa kèn trồng ở đây hầu hết có nguồn gốc từ Châu Phi. Đặc biệt vào mùa xuân, bạn có thể xem cảnh hoa anh đào nở không thua kém gì Nhật Bản. Ngoài những loài hoa rực rỡ sắc màu ra, Dương Minh Sơn còn có nhiều những con đường mòn tuyệt đẹp như: Tianmu Trail, Erzihping, đường mòn Jinbaoli,… Những con đường này là những điểm đi bộ và chạy bộ vô cùng lý tưởng. Vào mùa đông, bạn có thể đến đây ngâm mình trong suối nước nóng để thư giãn. Khi ghé thăm Dương Minh Sơn vào mùa hè, bạn nhớ mang theo nhiều nước. Tuy nhiên, thời gian lý tưởng nhất để ghé thăm Dương Minh Sơn là vào mùa xuân và mùa thu."
   },
   {
    "n": 74,
@@ -1049,7 +1052,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "thích hợp để đi bộ, chạy bộ và thả diều",
     "thích hợp để đi bộ, chạy bộ và tắm suối nước nóng"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Dương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937, công viên còn được gọi với cái tên khác là Thảo Sơn. Năm 1950 nó được đổi tên thành công viên Dương Minh Sơn để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Minh. Công viên Dương Minh Sơn vô cùng rộng lớn với diện tích hơn 11.338 ha. Công viên Dương Minh Sơn được xếp hạng là khu bảo tồn thiên nhiên quốc gia. Công viên quốc gia Dương Minh Sơn trồng rất nhiều loại hoa như hoa anh đào, hoa đỗ quyên, hoa hải đường dại, hoa loa kèn, hoa hướng dương, hoa trà…Tại Dương Minh Sơn, lễ hội hoa loa kèn ở thường diễn ra vào khoảng tháng 3, tháng 4 hàng năm, và hoa loa kèn trồng ở đây hầu hết có nguồn gốc từ Châu Phi. Đặc biệt vào mùa xuân, bạn có thể xem cảnh hoa anh đào nở không thua kém gì Nhật Bản. Ngoài những loài hoa rực rỡ sắc màu ra, Dương Minh Sơn còn có nhiều những con đường mòn tuyệt đẹp như: Tianmu Trail, Erzihping, đường mòn Jinbaoli,… Những con đường này là những điểm đi bộ và chạy bộ vô cùng lý tưởng. Vào mùa đông, bạn có thể đến đây ngâm mình trong suối nước nóng để thư giãn. Khi ghé thăm Dương Minh Sơn vào mùa hè, bạn nhớ mang theo nhiều nước. Tuy nhiên, thời gian lý tưởng nhất để ghé thăm Dương Minh Sơn là vào mùa xuân và mùa thu."
   },
   {
    "n": 75,
@@ -1062,7 +1066,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "mùa đông và mùa thu",
     "mùa thu và mùa hè"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Dương Minh Sơn là một trong 8 công viên quốc gia lớn của Đài Loan. Trước đây, vào năm 1937, công viên còn được gọi với cái tên khác là Thảo Sơn. Năm 1950 nó được đổi tên thành công viên Dương Minh Sơn để tưởng nhớ Vương Dương Minh nhà nghiên cứu thời Minh. Công viên Dương Minh Sơn vô cùng rộng lớn với diện tích hơn 11.338 ha. Công viên Dương Minh Sơn được xếp hạng là khu bảo tồn thiên nhiên quốc gia. Công viên quốc gia Dương Minh Sơn trồng rất nhiều loại hoa như hoa anh đào, hoa đỗ quyên, hoa hải đường dại, hoa loa kèn, hoa hướng dương, hoa trà…Tại Dương Minh Sơn, lễ hội hoa loa kèn ở thường diễn ra vào khoảng tháng 3, tháng 4 hàng năm, và hoa loa kèn trồng ở đây hầu hết có nguồn gốc từ Châu Phi. Đặc biệt vào mùa xuân, bạn có thể xem cảnh hoa anh đào nở không thua kém gì Nhật Bản. Ngoài những loài hoa rực rỡ sắc màu ra, Dương Minh Sơn còn có nhiều những con đường mòn tuyệt đẹp như: Tianmu Trail, Erzihping, đường mòn Jinbaoli,… Những con đường này là những điểm đi bộ và chạy bộ vô cùng lý tưởng. Vào mùa đông, bạn có thể đến đây ngâm mình trong suối nước nóng để thư giãn. Khi ghé thăm Dương Minh Sơn vào mùa hè, bạn nhớ mang theo nhiều nước. Tuy nhiên, thời gian lý tưởng nhất để ghé thăm Dương Minh Sơn là vào mùa xuân và mùa thu."
   },
   {
    "n": 76,
@@ -1075,7 +1080,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Lễ hội Tết Trung thu.",
     "Lễ hội ma đói."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hàng năm vào mùa thu Đài Loan thường tổ chức 8 lễ hội đặc sắc sau: Lễ hội ma đói, Tết Trung thu, Lễ hôi bơi lội hồ Nhật Nguyệt, Lễ hội di dân, Liên hoan múa rối quốc tế Vân Lâm, Lễ hội khinh khí cầu Quốc tế, Lễ hội hoa hiên vàng...v.v. Trong 8 lễ hội đó tôi thấy lễ hội Tết Trung thu ở Đài Loan rất ấm cúng, tết Trung thu còn có tên gọi khác là Tết đoàn viên, tên gọi ấy đã trở nên thật đẹp và ý nghĩa. Đây là một dịp lễ rất quan trọng với người Đài Loan, vào dịp này mọi người có dịp trở về, đoàn tụ, quây quần bên nhau, không khí giống như ngày tết cổ truyền ở Việt Nam vậy, đối với những người dân xứ Đài thì đây là thời khắc thật đẹp và thật ý nghĩa. Tết Trung thu ở Đài Loan được tổ chức vào ngày rằm 15 tháng 8 Âm lịch. Đến ngày này, những con đường, góc phố ở Đài Loan ngập tràn trong ánh sáng đèn lồng. Đèn lồng đỏ được treo khắp nơi, những chiếc lồng đèn với đầy đủ màu sắc, hình dạng bày bán khắp nơi để các em nhỏ lựa chọn xách đi vòng quanh trong đêm trăng sáng này. Ngoài treo đèn lồng ra, vào dịp này người ta có tập tục tặng quà cho nhau như một cách thể hiện sự yêu mến, thân thiện của mình với đối phương. Thông thường, các món quà mà họ hay tặng nhau vào dịp này không gì khác đó là bánh trung thu. Tuy nhiên, ở Đài Loan có một điều lạ nữa là người ta còn tặng nhau những trái bưởi to, tròn, chín mọng. Đây cũng được xem là một bản sắc văn hóa Đài Loan độc đáo trong ngày Tết đoàn viên. Có một điều hấp dẫn nữa về tết Trung thu ở Đài Loan mà có thể chưa ai biết nhiều, đó chính là ngoài bánh trung thu và bưởi, người dân Đài Loan còn tổ chức nướng thịt ăn vào ngày kỷ niệm đặc biệt này. Bởi, theo quan niệm của người Đài Loan, việc nướng thịt trong dịp tết Trung thu tượng trưng cho sự sum họp, hạnh phúc, đầm ấm khi cả nhà quây quần bên bếp than hồng cùng nhau nướng và thưởng thức những miếng thịt tươi ngon."
   },
   {
    "n": 77,
@@ -1088,7 +1094,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Thái Lan",
     "Lào"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hàng năm vào mùa thu Đài Loan thường tổ chức 8 lễ hội đặc sắc sau: Lễ hội ma đói, Tết Trung thu, Lễ hôi bơi lội hồ Nhật Nguyệt, Lễ hội di dân, Liên hoan múa rối quốc tế Vân Lâm, Lễ hội khinh khí cầu Quốc tế, Lễ hội hoa hiên vàng...v.v. Trong 8 lễ hội đó tôi thấy lễ hội Tết Trung thu ở Đài Loan rất ấm cúng, tết Trung thu còn có tên gọi khác là Tết đoàn viên, tên gọi ấy đã trở nên thật đẹp và ý nghĩa. Đây là một dịp lễ rất quan trọng với người Đài Loan, vào dịp này mọi người có dịp trở về, đoàn tụ, quây quần bên nhau, không khí giống như ngày tết cổ truyền ở Việt Nam vậy, đối với những người dân xứ Đài thì đây là thời khắc thật đẹp và thật ý nghĩa. Tết Trung thu ở Đài Loan được tổ chức vào ngày rằm 15 tháng 8 Âm lịch. Đến ngày này, những con đường, góc phố ở Đài Loan ngập tràn trong ánh sáng đèn lồng. Đèn lồng đỏ được treo khắp nơi, những chiếc lồng đèn với đầy đủ màu sắc, hình dạng bày bán khắp nơi để các em nhỏ lựa chọn xách đi vòng quanh trong đêm trăng sáng này. Ngoài treo đèn lồng ra, vào dịp này người ta có tập tục tặng quà cho nhau như một cách thể hiện sự yêu mến, thân thiện của mình với đối phương. Thông thường, các món quà mà họ hay tặng nhau vào dịp này không gì khác đó là bánh trung thu. Tuy nhiên, ở Đài Loan có một điều lạ nữa là người ta còn tặng nhau những trái bưởi to, tròn, chín mọng. Đây cũng được xem là một bản sắc văn hóa Đài Loan độc đáo trong ngày Tết đoàn viên. Có một điều hấp dẫn nữa về tết Trung thu ở Đài Loan mà có thể chưa ai biết nhiều, đó chính là ngoài bánh trung thu và bưởi, người dân Đài Loan còn tổ chức nướng thịt ăn vào ngày kỷ niệm đặc biệt này. Bởi, theo quan niệm của người Đài Loan, việc nướng thịt trong dịp tết Trung thu tượng trưng cho sự sum họp, hạnh phúc, đầm ấm khi cả nhà quây quần bên bếp than hồng cùng nhau nướng và thưởng thức những miếng thịt tươi ngon."
   },
   {
    "n": 78,
@@ -1101,7 +1108,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Bánh dứa, bánh quy.",
     "Thịt bò, thịt nướng."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Hàng năm vào mùa thu Đài Loan thường tổ chức 8 lễ hội đặc sắc sau: Lễ hội ma đói, Tết Trung thu, Lễ hôi bơi lội hồ Nhật Nguyệt, Lễ hội di dân, Liên hoan múa rối quốc tế Vân Lâm, Lễ hội khinh khí cầu Quốc tế, Lễ hội hoa hiên vàng...v.v. Trong 8 lễ hội đó tôi thấy lễ hội Tết Trung thu ở Đài Loan rất ấm cúng, tết Trung thu còn có tên gọi khác là Tết đoàn viên, tên gọi ấy đã trở nên thật đẹp và ý nghĩa. Đây là một dịp lễ rất quan trọng với người Đài Loan, vào dịp này mọi người có dịp trở về, đoàn tụ, quây quần bên nhau, không khí giống như ngày tết cổ truyền ở Việt Nam vậy, đối với những người dân xứ Đài thì đây là thời khắc thật đẹp và thật ý nghĩa. Tết Trung thu ở Đài Loan được tổ chức vào ngày rằm 15 tháng 8 Âm lịch. Đến ngày này, những con đường, góc phố ở Đài Loan ngập tràn trong ánh sáng đèn lồng. Đèn lồng đỏ được treo khắp nơi, những chiếc lồng đèn với đầy đủ màu sắc, hình dạng bày bán khắp nơi để các em nhỏ lựa chọn xách đi vòng quanh trong đêm trăng sáng này. Ngoài treo đèn lồng ra, vào dịp này người ta có tập tục tặng quà cho nhau như một cách thể hiện sự yêu mến, thân thiện của mình với đối phương. Thông thường, các món quà mà họ hay tặng nhau vào dịp này không gì khác đó là bánh trung thu. Tuy nhiên, ở Đài Loan có một điều lạ nữa là người ta còn tặng nhau những trái bưởi to, tròn, chín mọng. Đây cũng được xem là một bản sắc văn hóa Đài Loan độc đáo trong ngày Tết đoàn viên. Có một điều hấp dẫn nữa về tết Trung thu ở Đài Loan mà có thể chưa ai biết nhiều, đó chính là ngoài bánh trung thu và bưởi, người dân Đài Loan còn tổ chức nướng thịt ăn vào ngày kỷ niệm đặc biệt này. Bởi, theo quan niệm của người Đài Loan, việc nướng thịt trong dịp tết Trung thu tượng trưng cho sự sum họp, hạnh phúc, đầm ấm khi cả nhà quây quần bên bếp than hồng cùng nhau nướng và thưởng thức những miếng thịt tươi ngon."
   },
   {
    "n": 79,
@@ -1114,7 +1122,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Sự sum họp, hạnh phúc, đầm ấm và đoàn viên.",
     "Sự gặp gỡ, hạnh phúc, êm ấm và đoàn tụ."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Hàng năm vào mùa thu Đài Loan thường tổ chức 8 lễ hội đặc sắc sau: Lễ hội ma đói, Tết Trung thu, Lễ hôi bơi lội hồ Nhật Nguyệt, Lễ hội di dân, Liên hoan múa rối quốc tế Vân Lâm, Lễ hội khinh khí cầu Quốc tế, Lễ hội hoa hiên vàng...v.v. Trong 8 lễ hội đó tôi thấy lễ hội Tết Trung thu ở Đài Loan rất ấm cúng, tết Trung thu còn có tên gọi khác là Tết đoàn viên, tên gọi ấy đã trở nên thật đẹp và ý nghĩa. Đây là một dịp lễ rất quan trọng với người Đài Loan, vào dịp này mọi người có dịp trở về, đoàn tụ, quây quần bên nhau, không khí giống như ngày tết cổ truyền ở Việt Nam vậy, đối với những người dân xứ Đài thì đây là thời khắc thật đẹp và thật ý nghĩa. Tết Trung thu ở Đài Loan được tổ chức vào ngày rằm 15 tháng 8 Âm lịch. Đến ngày này, những con đường, góc phố ở Đài Loan ngập tràn trong ánh sáng đèn lồng. Đèn lồng đỏ được treo khắp nơi, những chiếc lồng đèn với đầy đủ màu sắc, hình dạng bày bán khắp nơi để các em nhỏ lựa chọn xách đi vòng quanh trong đêm trăng sáng này. Ngoài treo đèn lồng ra, vào dịp này người ta có tập tục tặng quà cho nhau như một cách thể hiện sự yêu mến, thân thiện của mình với đối phương. Thông thường, các món quà mà họ hay tặng nhau vào dịp này không gì khác đó là bánh trung thu. Tuy nhiên, ở Đài Loan có một điều lạ nữa là người ta còn tặng nhau những trái bưởi to, tròn, chín mọng. Đây cũng được xem là một bản sắc văn hóa Đài Loan độc đáo trong ngày Tết đoàn viên. Có một điều hấp dẫn nữa về tết Trung thu ở Đài Loan mà có thể chưa ai biết nhiều, đó chính là ngoài bánh trung thu và bưởi, người dân Đài Loan còn tổ chức nướng thịt ăn vào ngày kỷ niệm đặc biệt này. Bởi, theo quan niệm của người Đài Loan, việc nướng thịt trong dịp tết Trung thu tượng trưng cho sự sum họp, hạnh phúc, đầm ấm khi cả nhà quây quần bên bếp than hồng cùng nhau nướng và thưởng thức những miếng thịt tươi ngon."
   },
   {
    "n": 80,
@@ -1127,7 +1136,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d014'] = {
     "Rằm 15 tháng 9 Dương lịch.",
     "Rằm 15 tháng 8 Dương lịch."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Hàng năm vào mùa thu Đài Loan thường tổ chức 8 lễ hội đặc sắc sau: Lễ hội ma đói, Tết Trung thu, Lễ hôi bơi lội hồ Nhật Nguyệt, Lễ hội di dân, Liên hoan múa rối quốc tế Vân Lâm, Lễ hội khinh khí cầu Quốc tế, Lễ hội hoa hiên vàng...v.v. Trong 8 lễ hội đó tôi thấy lễ hội Tết Trung thu ở Đài Loan rất ấm cúng, tết Trung thu còn có tên gọi khác là Tết đoàn viên, tên gọi ấy đã trở nên thật đẹp và ý nghĩa. Đây là một dịp lễ rất quan trọng với người Đài Loan, vào dịp này mọi người có dịp trở về, đoàn tụ, quây quần bên nhau, không khí giống như ngày tết cổ truyền ở Việt Nam vậy, đối với những người dân xứ Đài thì đây là thời khắc thật đẹp và thật ý nghĩa. Tết Trung thu ở Đài Loan được tổ chức vào ngày rằm 15 tháng 8 Âm lịch. Đến ngày này, những con đường, góc phố ở Đài Loan ngập tràn trong ánh sáng đèn lồng. Đèn lồng đỏ được treo khắp nơi, những chiếc lồng đèn với đầy đủ màu sắc, hình dạng bày bán khắp nơi để các em nhỏ lựa chọn xách đi vòng quanh trong đêm trăng sáng này. Ngoài treo đèn lồng ra, vào dịp này người ta có tập tục tặng quà cho nhau như một cách thể hiện sự yêu mến, thân thiện của mình với đối phương. Thông thường, các món quà mà họ hay tặng nhau vào dịp này không gì khác đó là bánh trung thu. Tuy nhiên, ở Đài Loan có một điều lạ nữa là người ta còn tặng nhau những trái bưởi to, tròn, chín mọng. Đây cũng được xem là một bản sắc văn hóa Đài Loan độc đáo trong ngày Tết đoàn viên. Có một điều hấp dẫn nữa về tết Trung thu ở Đài Loan mà có thể chưa ai biết nhiều, đó chính là ngoài bánh trung thu và bưởi, người dân Đài Loan còn tổ chức nướng thịt ăn vào ngày kỷ niệm đặc biệt này. Bởi, theo quan niệm của người Đài Loan, việc nướng thịt trong dịp tết Trung thu tượng trưng cho sự sum họp, hạnh phúc, đầm ấm khi cả nhà quây quần bên bếp than hồng cùng nhau nướng và thưởng thức những miếng thịt tươi ngon."
   }
  ]
 };

@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "pekerjaan",
     "memandu",
     "pekerja",
-    "bekerjaCuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke"
+    "bekerja"
    ],
    "a": 3,
    "exp": "✅ (D) bekerja 是「工作」，Saya sudah lima belas tahun bekerja sebagai pemandu pelancongan 即「我當導遊已經十五年」，ber- 動詞後接 sebagai 說明身分。\n❌ (A) pekerjaan 是名詞「工作、職業」，不能當謂語。\n❌ (B) memandu 是「駕駛」，與 sebagai pemandu pelancongan 語意重複且搭配不當。\n❌ (C) pekerja 是名詞「工人」，詞性錯誤。\n📚 出處：馬來語 ber- 動詞＋sebagai 表示職業身分"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Penang",
     "Ipoh"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Cuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke Malaysia selama dua hari. Pada hari pertama di Malaysia, saya membawa dia melawat Muzium Negara di Kuala Lumpur. Xiao Mei suka melihat kenderaan lama yang dipamerkan di hadapan muzium. Dia bergambar di sisi beca, meriam lama dan kereta lembu. Saya juga tidak melepaskan peluang untuk bergambar bersama Xiao Mei. Di dalam muzium, kami melihat pameran senjata lama dan pakaian tradisional rakyat Malaysia. Xiao Mei kagum melihat kesenian istiadat perkahwinan pelbagai kaum di Malaysia. Setelah puas berjalan, kami minum di gerai yang berdekatan. Xiao Mei merasa kuih-muih tradisional yang dijual di situ. Pada hari kedua, saya membawa Xiao Mei ke Menara Berkembar Petronas. Kerana bentuk menara berkembar yang unik, kita pun bergambar. Pada malam hari Xiao Mei bertolak kembali ke Taiwan. Dia sangat gembira kerana dapat bercuti di Malaysia yang menarik ini."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Taiwan",
     "Thailand"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Cuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke Malaysia selama dua hari. Pada hari pertama di Malaysia, saya membawa dia melawat Muzium Negara di Kuala Lumpur. Xiao Mei suka melihat kenderaan lama yang dipamerkan di hadapan muzium. Dia bergambar di sisi beca, meriam lama dan kereta lembu. Saya juga tidak melepaskan peluang untuk bergambar bersama Xiao Mei. Di dalam muzium, kami melihat pameran senjata lama dan pakaian tradisional rakyat Malaysia. Xiao Mei kagum melihat kesenian istiadat perkahwinan pelbagai kaum di Malaysia. Setelah puas berjalan, kami minum di gerai yang berdekatan. Xiao Mei merasa kuih-muih tradisional yang dijual di situ. Pada hari kedua, saya membawa Xiao Mei ke Menara Berkembar Petronas. Kerana bentuk menara berkembar yang unik, kita pun bergambar. Pada malam hari Xiao Mei bertolak kembali ke Taiwan. Dia sangat gembira kerana dapat bercuti di Malaysia yang menarik ini."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Pemeran senjata lama",
     "Pameran kesenian istiadat perkahwinan pelbagai kaum"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Cuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke Malaysia selama dua hari. Pada hari pertama di Malaysia, saya membawa dia melawat Muzium Negara di Kuala Lumpur. Xiao Mei suka melihat kenderaan lama yang dipamerkan di hadapan muzium. Dia bergambar di sisi beca, meriam lama dan kereta lembu. Saya juga tidak melepaskan peluang untuk bergambar bersama Xiao Mei. Di dalam muzium, kami melihat pameran senjata lama dan pakaian tradisional rakyat Malaysia. Xiao Mei kagum melihat kesenian istiadat perkahwinan pelbagai kaum di Malaysia. Setelah puas berjalan, kami minum di gerai yang berdekatan. Xiao Mei merasa kuih-muih tradisional yang dijual di situ. Pada hari kedua, saya membawa Xiao Mei ke Menara Berkembar Petronas. Kerana bentuk menara berkembar yang unik, kita pun bergambar. Pada malam hari Xiao Mei bertolak kembali ke Taiwan. Dia sangat gembira kerana dapat bercuti di Malaysia yang menarik ini."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Dia puas berjalan-jalan di Kuala Lumpur.",
     "Dia kagum melihat kesenian di Malaysia."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Cuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke Malaysia selama dua hari. Pada hari pertama di Malaysia, saya membawa dia melawat Muzium Negara di Kuala Lumpur. Xiao Mei suka melihat kenderaan lama yang dipamerkan di hadapan muzium. Dia bergambar di sisi beca, meriam lama dan kereta lembu. Saya juga tidak melepaskan peluang untuk bergambar bersama Xiao Mei. Di dalam muzium, kami melihat pameran senjata lama dan pakaian tradisional rakyat Malaysia. Xiao Mei kagum melihat kesenian istiadat perkahwinan pelbagai kaum di Malaysia. Setelah puas berjalan, kami minum di gerai yang berdekatan. Xiao Mei merasa kuih-muih tradisional yang dijual di situ. Pada hari kedua, saya membawa Xiao Mei ke Menara Berkembar Petronas. Kerana bentuk menara berkembar yang unik, kita pun bergambar. Pada malam hari Xiao Mei bertolak kembali ke Taiwan. Dia sangat gembira kerana dapat bercuti di Malaysia yang menarik ini."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Xiao Mei suka melihat kenderaan lama yang dipamerkan di Muzium Negara.",
     "Kami minum di gerai berhampiran Muzium.",
     "Xiao Mei datang ke Malaysia untuk melancong.",
-    "Kami melihat pameran senjata lama dan kasut tradisional rakyat Malaysia.Kebelakangan ini, kerajaan Taiwan giat meluncurkan rancangan “Dasar Menuju ke Arah Selatan Baru” yang"
+    "Kami melihat pameran senjata lama dan kasut tradisional rakyat Malaysia."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Cuti kerja pada tahun yang lalu, sahabat pena saya bernama Xiao Mei dari Taiwan melancong ke Malaysia selama dua hari. Pada hari pertama di Malaysia, saya membawa dia melawat Muzium Negara di Kuala Lumpur. Xiao Mei suka melihat kenderaan lama yang dipamerkan di hadapan muzium. Dia bergambar di sisi beca, meriam lama dan kereta lembu. Saya juga tidak melepaskan peluang untuk bergambar bersama Xiao Mei. Di dalam muzium, kami melihat pameran senjata lama dan pakaian tradisional rakyat Malaysia. Xiao Mei kagum melihat kesenian istiadat perkahwinan pelbagai kaum di Malaysia. Setelah puas berjalan, kami minum di gerai yang berdekatan. Xiao Mei merasa kuih-muih tradisional yang dijual di situ. Pada hari kedua, saya membawa Xiao Mei ke Menara Berkembar Petronas. Kerana bentuk menara berkembar yang unik, kita pun bergambar. Pada malam hari Xiao Mei bertolak kembali ke Taiwan. Dia sangat gembira kerana dapat bercuti di Malaysia yang menarik ini."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Menjual makanan halal kepada negara-negara Asia Tenggara.",
     "Mempromosikan Asia Tenggara melalui iklan dan pameran."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Kebelakangan ini, kerajaan Taiwan giat meluncurkan rancangan “Dasar Menuju ke Arah Selatan Baru” yang menumpukan perhatian kepada potensi negara-negara Asia Tenggara, terutamanya dalam bidang pelancongan. Rancangan ini termasuk berusaha membuka pasaran Muslim dan produk-produk halal. Dengan demikian, demi memperkenalkan pelancongan mesra Muslim di Taiwan, Jabatan Penerangan dan Pelancongan Taipei mengadakan ekspo dan pameran mesra Muslim di Taipei selama dua hari. Berdasarkan statistik dari Lembaga Pelancongan, Kementerian Pengangkutan Taiwan, pada tempoh separuh pertama tahun 2019, warga Malaysia yang berkunjung ke Taiwan dihitungkan seramai 275,895 orang. Angka ini mencatatkan bilangan pengunjung yang tertinggi kalau dibandingkan dengan negara-negara lain di Asia Tenggara. Dengan statistik seperti yang dinyatakan di atas, pihak Taiwan berpegang pendapat bahawa pengunjung Malaysia adalah sumber yang amat penting kepada sektor pelancongan Taiwan. Taipei sebagai sebuah bandar raya metropolitan dan bandar antarabangsa, memiliki pelbagai keistimewaan dan keindahan yang berpeluang diterokai oleh pengunjung asing. Oleh kerana itu, “Menemui Taipei” tetap menjadi tema untuk mempromosikan Taipei kepada kawan-kawan dari Asia Tenggara. Demi mempertingkatkan sektor pelancongan, pihak Taiwan juga telah memperlengkapkan fasiliti dan kemudahan yang mesra Muslim dari segi penginapan, pemakanan dan ruang awam sejak beberapa tahun sebelum ini supaya umat Muslim dapat menikmati perjalanan mereka dengan lebih selesa dan mudah. Menurut statistik yang ditunjukkan, sebanyak 85 buah restoran dan hotel memperoleh pensijilan halal yang dikeluarkan oleh Chinese Muslim Association (CMA). Di samping itu, Stesen Utama Taipei, Muzium Istana Negara, Taipei 101 dan beberapa destinasi pelancongan yang terkenal turut menyediakan kemudahan wuduk dan surau bagi pelawat Muslim."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "tertinggi di Asia Timur",
     "tertinggi di seluruh Asia"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Kebelakangan ini, kerajaan Taiwan giat meluncurkan rancangan “Dasar Menuju ke Arah Selatan Baru” yang menumpukan perhatian kepada potensi negara-negara Asia Tenggara, terutamanya dalam bidang pelancongan. Rancangan ini termasuk berusaha membuka pasaran Muslim dan produk-produk halal. Dengan demikian, demi memperkenalkan pelancongan mesra Muslim di Taiwan, Jabatan Penerangan dan Pelancongan Taipei mengadakan ekspo dan pameran mesra Muslim di Taipei selama dua hari. Berdasarkan statistik dari Lembaga Pelancongan, Kementerian Pengangkutan Taiwan, pada tempoh separuh pertama tahun 2019, warga Malaysia yang berkunjung ke Taiwan dihitungkan seramai 275,895 orang. Angka ini mencatatkan bilangan pengunjung yang tertinggi kalau dibandingkan dengan negara-negara lain di Asia Tenggara. Dengan statistik seperti yang dinyatakan di atas, pihak Taiwan berpegang pendapat bahawa pengunjung Malaysia adalah sumber yang amat penting kepada sektor pelancongan Taiwan. Taipei sebagai sebuah bandar raya metropolitan dan bandar antarabangsa, memiliki pelbagai keistimewaan dan keindahan yang berpeluang diterokai oleh pengunjung asing. Oleh kerana itu, “Menemui Taipei” tetap menjadi tema untuk mempromosikan Taipei kepada kawan-kawan dari Asia Tenggara. Demi mempertingkatkan sektor pelancongan, pihak Taiwan juga telah memperlengkapkan fasiliti dan kemudahan yang mesra Muslim dari segi penginapan, pemakanan dan ruang awam sejak beberapa tahun sebelum ini supaya umat Muslim dapat menikmati perjalanan mereka dengan lebih selesa dan mudah. Menurut statistik yang ditunjukkan, sebanyak 85 buah restoran dan hotel memperoleh pensijilan halal yang dikeluarkan oleh Chinese Muslim Association (CMA). Di samping itu, Stesen Utama Taipei, Muzium Istana Negara, Taipei 101 dan beberapa destinasi pelancongan yang terkenal turut menyediakan kemudahan wuduk dan surau bagi pelawat Muslim."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d016'] = {
     "Supaya dapat menjadikan Taipei sebuah bandar beragama Islam.",
     "Untuk menyediakan suasana yang nyaman untuk Umat Muslim."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Kebelakangan ini, kerajaan Taiwan giat meluncurkan rancangan “Dasar Menuju ke Arah Selatan Baru” yang menumpukan perhatian kepada potensi negara-negara Asia Tenggara, terutamanya dalam bidang pelancongan. Rancangan ini termasuk berusaha membuka pasaran Muslim dan produk-produk halal. Dengan demikian, demi memperkenalkan pelancongan mesra Muslim di Taiwan, Jabatan Penerangan dan Pelancongan Taipei mengadakan ekspo dan pameran mesra Muslim di Taipei selama dua hari. Berdasarkan statistik dari Lembaga Pelancongan, Kementerian Pengangkutan Taiwan, pada tempoh separuh pertama tahun 2019, warga Malaysia yang berkunjung ke Taiwan dihitungkan seramai 275,895 orang. Angka ini mencatatkan bilangan pengunjung yang tertinggi kalau dibandingkan dengan negara-negara lain di Asia Tenggara. Dengan statistik seperti yang dinyatakan di atas, pihak Taiwan berpegang pendapat bahawa pengunjung Malaysia adalah sumber yang amat penting kepada sektor pelancongan Taiwan. Taipei sebagai sebuah bandar raya metropolitan dan bandar antarabangsa, memiliki pelbagai keistimewaan dan keindahan yang berpeluang diterokai oleh pengunjung asing. Oleh kerana itu, “Menemui Taipei” tetap menjadi tema untuk mempromosikan Taipei kepada kawan-kawan dari Asia Tenggara. Demi mempertingkatkan sektor pelancongan, pihak Taiwan juga telah memperlengkapkan fasiliti dan kemudahan yang mesra Muslim dari segi penginapan, pemakanan dan ruang awam sejak beberapa tahun sebelum ini supaya umat Muslim dapat menikmati perjalanan mereka dengan lebih selesa dan mudah. Menurut statistik yang ditunjukkan, sebanyak 85 buah restoran dan hotel memperoleh pensijilan halal yang dikeluarkan oleh Chinese Muslim Association (CMA). Di samping itu, Stesen Utama Taipei, Muzium Istana Negara, Taipei 101 dan beberapa destinasi pelancongan yang terkenal turut menyediakan kemudahan wuduk dan surau bagi pelawat Muslim."
   },
   {
    "n": 79,

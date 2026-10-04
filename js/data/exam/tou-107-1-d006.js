@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
     "Laver",
     "Se laver",
     "Avoir lavé",
-    "S’être lavéVoyage à Taïwan"
+    "S’être lavé"
    ],
    "a": 1,
    "exp": "✅ (B) 洗的是自己的手，須用代動詞 se laver；不定式作主詞時保留反身代詞：Se laver les mains avant les repas est important。\n❌ (A) Laver：少了反身代詞，語意變成替別人洗手。\n❌ (C) Avoir lavé：複合不定式且非反身，時態與語意都不合一般性原則的陳述。\n❌ (D) S'être lavé：表示動作已完成，但句意是「飯前洗手這件事很重要」的通則。\n📚 出處：法語代動詞不定式作主詞（Se laver les mains）"
@@ -999,76 +999,71 @@ window.APP_EXAM_PAPERS['tou-107-1-d006'] = {
    "n": 71,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 71 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Par conséquent",
+    "En effet",
+    "En général",
+    "D’ailleurs"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107040_203_0408_71.webp"
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
   },
   {
    "n": 72,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 72 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "fait",
+    "pose",
+    "dispose",
+    "parle"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107040_203_0408_72.webp"
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
   },
   {
    "n": 73,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 73 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "admirer",
+    "lire",
+    "peindre",
+    "rencontrer"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107040_203_0408_73.webp"
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
   },
   {
    "n": 74,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 74 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "dans",
+    "tout au long de",
+    "par",
+    "au bord de"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107040_203_0408_74.webp"
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
   },
   {
    "n": 75,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 75 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "franchement",
+    "rarement",
+    "simplement",
+    "facilement"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107040_203_0408_75.webp"
+   "psg": "Voyage à Taïwan Voyager dans l’île en train est pratique. 71 , Taïwan 72 d’un grand réseau ferroviaire d’Ouest en Est et du Nord au Sud. Si vous voyagez en train, vous pourrez 73 des paysages aussi magnifiques que variés 74 votre voyage. Ainsi, vous vous laisserez 75 plonger dans le décor montagneux, champêtre, marin ou agricole qu’offre l’île."
   },
   {
    "n": 76,

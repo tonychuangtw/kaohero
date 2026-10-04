@@ -573,7 +573,7 @@ window.APP_EXAM_PAPERS['gao-113-1-g002'] = {
     "abused",
     "accused",
     "alleged",
-    "amplified請依下文回答第 41 題至第 45 題：“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having"
+    "amplified"
    ],
    "a": 0,
    "exp": "✅ (A) abuse one's power 意為「濫用職權」，主管常要求下屬處理私事正是濫權。\n❌ (B) accuse 是指控（accuse someone of）。\n❌ (C) allege 是宣稱。\n❌ (D) amplify 是放大。\n📚 出處：英文字彙（abuse one's power 的用法）"
@@ -582,76 +582,71 @@ window.APP_EXAM_PAPERS['gao-113-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "transported",
+    "translated",
+    "entertained",
+    "transformed"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113080_301_0112_41.webp"
+   "psg": "“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having done anything wrong.” As in Kafka’s long story Metamorphosis—which begins with the line “Gregor Samsa awoke one morning from uneasy dreams to find himself 41 in his bed into a gigantic insect”—the entire narrative of The Trial emerges from the condition that announces itself in the opening sentence. The protagonist, Josef K., never discovers what he is being 42 , and is never able to understand the principles governing the system of justice in which he finds himself ensnared. Instead, the narrative follows his exhausting determination to understand and to 43 his innocence in the complete absence of any doctrine that would explain to him what it would mean to be 44 , or indeed, of what he actually stands accused. In following Josef K.’s struggle toward 45 , the novel presents us with an astonishingly moving account of what it is to be born naked and defenseless into a completely incomprehensible system, armed only with a devout conviction of innocence."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "connected by",
+    "convinced of",
+    "charged with",
+    "exempted from"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113080_301_0112_42.webp"
+   "psg": "“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having done anything wrong.” As in Kafka’s long story Metamorphosis—which begins with the line “Gregor Samsa awoke one morning from uneasy dreams to find himself 41 in his bed into a gigantic insect”—the entire narrative of The Trial emerges from the condition that announces itself in the opening sentence. The protagonist, Josef K., never discovers what he is being 42 , and is never able to understand the principles governing the system of justice in which he finds himself ensnared. Instead, the narrative follows his exhausting determination to understand and to 43 his innocence in the complete absence of any doctrine that would explain to him what it would mean to be 44 , or indeed, of what he actually stands accused. In following Josef K.’s struggle toward 45 , the novel presents us with an astonishingly moving account of what it is to be born naked and defenseless into a completely incomprehensible system, armed only with a devout conviction of innocence."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "contest",
+    "protect",
+    "detest",
+    "arrest"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113080_301_0112_43.webp"
+   "psg": "“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having done anything wrong.” As in Kafka’s long story Metamorphosis—which begins with the line “Gregor Samsa awoke one morning from uneasy dreams to find himself 41 in his bed into a gigantic insect”—the entire narrative of The Trial emerges from the condition that announces itself in the opening sentence. The protagonist, Josef K., never discovers what he is being 42 , and is never able to understand the principles governing the system of justice in which he finds himself ensnared. Instead, the narrative follows his exhausting determination to understand and to 43 his innocence in the complete absence of any doctrine that would explain to him what it would mean to be 44 , or indeed, of what he actually stands accused. In following Josef K.’s struggle toward 45 , the novel presents us with an astonishingly moving account of what it is to be born naked and defenseless into a completely incomprehensible system, armed only with a devout conviction of innocence."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "grumpy",
+    "credible",
+    "guilty",
+    "filthy"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113080_301_0112_44.webp"
+   "psg": "“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having done anything wrong.” As in Kafka’s long story Metamorphosis—which begins with the line “Gregor Samsa awoke one morning from uneasy dreams to find himself 41 in his bed into a gigantic insect”—the entire narrative of The Trial emerges from the condition that announces itself in the opening sentence. The protagonist, Josef K., never discovers what he is being 42 , and is never able to understand the principles governing the system of justice in which he finds himself ensnared. Instead, the narrative follows his exhausting determination to understand and to 43 his innocence in the complete absence of any doctrine that would explain to him what it would mean to be 44 , or indeed, of what he actually stands accused. In following Josef K.’s struggle toward 45 , the novel presents us with an astonishingly moving account of what it is to be born naked and defenseless into a completely incomprehensible system, armed only with a devout conviction of innocence."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "absolution",
+    "revolution",
+    "elaboration",
+    "superstition"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113080_301_0112_45.webp"
+   "psg": "“Somebody must have made a false accusation against Josef K., for he was arrested one morning without having done anything wrong.” As in Kafka’s long story Metamorphosis—which begins with the line “Gregor Samsa awoke one morning from uneasy dreams to find himself 41 in his bed into a gigantic insect”—the entire narrative of The Trial emerges from the condition that announces itself in the opening sentence. The protagonist, Josef K., never discovers what he is being 42 , and is never able to understand the principles governing the system of justice in which he finds himself ensnared. Instead, the narrative follows his exhausting determination to understand and to 43 his innocence in the complete absence of any doctrine that would explain to him what it would mean to be 44 , or indeed, of what he actually stands accused. In following Josef K.’s struggle toward 45 , the novel presents us with an astonishingly moving account of what it is to be born naked and defenseless into a completely incomprehensible system, armed only with a devout conviction of innocence."
   },
   {
    "n": 46,

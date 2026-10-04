@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Antik",
     "Harikası",
     "Heykeli",
-    "TapınağıCheck-in kontuarındaki görevliler, artık daha az yolcuya “Koridor mu, cam kenarı mı” diye"
+    "Tapınağı"
    ],
    "a": 1,
    "exp": "✅ (B) 「Dünyanın Yedi Harikası」＝世界七大奇蹟，是固定專有名稱；古代七大奇蹟中的以弗所阿提米絲神殿與哈利卡納蘇斯陵墓都位於今日土耳其境內。\n❌ (A) 「Antik」是形容詞「古代的」，不能單獨組成「世界七個古代」。\n❌ (C) 「Heykeli」雕像只是七大奇蹟其中一類，不能代表整張名單。\n❌ (D) 「Tapınağı」神殿同樣只是其中一項（阿提米絲神殿），無法涵蓋全部。\n📚 出處：古代世界七大奇蹟（Dünyanın Yedi Harikası）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Herkes cam kenarındaki koltukları seçer.",
     "Bilinçli yolcular kendi ihtiyaçlarına göre koltuk seçimini yaparlar."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Check-in kontuarındaki görevliler, artık daha az yolcuya “Koridor mu, cam kenarı mı” diye soruyor. Çünkü yolcuların büyük bölümü işlemlerini internet üzerinden yapıyor. İstediği koltuğu bazen ücretini ödeyip, bazen de uçağın check-in’i açılır açılmaz seçiyor. Artık yolcular çok bilinçli. Sık uçtukları ve uçak tipini bildikleri hatlarda en geniş bacak mesafesine sahip koltukları ezbere biliyorlar. Herkesin bu konuda kendine göre kriteri var. Kimi ayağını rahat uzatmak veya uçaktan erken inmek için koridoru tercih ediyor. Rahatsız edilmek istemeyenler, biraz da manzaranın tadını çıkaracaklar cam kenarının müdavimleri arasında. Hunch.com tarafından yapılan anket ise aslında koridorcuların veya cam kenarı fanatiklerinin neredeyse tüm dünyada ortak özelliklere sahip olduğunu ortaya koyuyor. Zaten uçağa binmeden önce yolcu salonunda yapacağınız kısa bir gözlemle kimin nereye oturacağını tahmin etmek çok da zor değil. Uçuş süresi uzadıkça orta koltuklar yolcuya azap haline gelmeye başlıyor. Koltuk kollarını kapma savaşı, sağa-sola başınızı rahat dayayamamak, yolcuyu geriyor, psikolojik olarak rahatsız ediyor. Ama kalabalık seyahat edenler, çocukları ile bir yerlere uçanlar mecburen orta koltukları seçiyor. Hava yolu şirketleri orta koltuk sendromunu bildikleri için genellikle geniş gövdeli uçaklarının ekonomi bölümlerinde buna dikkat ediyor. Cam kenarındaki koltuklar ikili, orta bölümdekiler ise dörtlü olarak tasarlanıyor. Ortada beşli koltuk gibi kabin dizaynlarından şirketler vazgeçiyor. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 72,
@@ -1033,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Pek çok yolcu check-in işlemini internet üzerinden yapar.",
     "Uçuşlarda rahatsız bir koltukta oturmak, yolcuları psikolojik olarak olumsuz yönde etkileyebilir."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Check-in kontuarındaki görevliler, artık daha az yolcuya “Koridor mu, cam kenarı mı” diye soruyor. Çünkü yolcuların büyük bölümü işlemlerini internet üzerinden yapıyor. İstediği koltuğu bazen ücretini ödeyip, bazen de uçağın check-in’i açılır açılmaz seçiyor. Artık yolcular çok bilinçli. Sık uçtukları ve uçak tipini bildikleri hatlarda en geniş bacak mesafesine sahip koltukları ezbere biliyorlar. Herkesin bu konuda kendine göre kriteri var. Kimi ayağını rahat uzatmak veya uçaktan erken inmek için koridoru tercih ediyor. Rahatsız edilmek istemeyenler, biraz da manzaranın tadını çıkaracaklar cam kenarının müdavimleri arasında. Hunch.com tarafından yapılan anket ise aslında koridorcuların veya cam kenarı fanatiklerinin neredeyse tüm dünyada ortak özelliklere sahip olduğunu ortaya koyuyor. Zaten uçağa binmeden önce yolcu salonunda yapacağınız kısa bir gözlemle kimin nereye oturacağını tahmin etmek çok da zor değil. Uçuş süresi uzadıkça orta koltuklar yolcuya azap haline gelmeye başlıyor. Koltuk kollarını kapma savaşı, sağa-sola başınızı rahat dayayamamak, yolcuyu geriyor, psikolojik olarak rahatsız ediyor. Ama kalabalık seyahat edenler, çocukları ile bir yerlere uçanlar mecburen orta koltukları seçiyor. Hava yolu şirketleri orta koltuk sendromunu bildikleri için genellikle geniş gövdeli uçaklarının ekonomi bölümlerinde buna dikkat ediyor. Cam kenarındaki koltuklar ikili, orta bölümdekiler ise dörtlü olarak tasarlanıyor. Ortada beşli koltuk gibi kabin dizaynlarından şirketler vazgeçiyor. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 74,
@@ -1046,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Uçak tipini önceden öğrenip en geniş bacak mesafesi olan koltukları tespit etmek",
     "Uçaktaki kabin dizaynını değiştirmek"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Check-in kontuarındaki görevliler, artık daha az yolcuya “Koridor mu, cam kenarı mı” diye soruyor. Çünkü yolcuların büyük bölümü işlemlerini internet üzerinden yapıyor. İstediği koltuğu bazen ücretini ödeyip, bazen de uçağın check-in’i açılır açılmaz seçiyor. Artık yolcular çok bilinçli. Sık uçtukları ve uçak tipini bildikleri hatlarda en geniş bacak mesafesine sahip koltukları ezbere biliyorlar. Herkesin bu konuda kendine göre kriteri var. Kimi ayağını rahat uzatmak veya uçaktan erken inmek için koridoru tercih ediyor. Rahatsız edilmek istemeyenler, biraz da manzaranın tadını çıkaracaklar cam kenarının müdavimleri arasında. Hunch.com tarafından yapılan anket ise aslında koridorcuların veya cam kenarı fanatiklerinin neredeyse tüm dünyada ortak özelliklere sahip olduğunu ortaya koyuyor. Zaten uçağa binmeden önce yolcu salonunda yapacağınız kısa bir gözlemle kimin nereye oturacağını tahmin etmek çok da zor değil. Uçuş süresi uzadıkça orta koltuklar yolcuya azap haline gelmeye başlıyor. Koltuk kollarını kapma savaşı, sağa-sola başınızı rahat dayayamamak, yolcuyu geriyor, psikolojik olarak rahatsız ediyor. Ama kalabalık seyahat edenler, çocukları ile bir yerlere uçanlar mecburen orta koltukları seçiyor. Hava yolu şirketleri orta koltuk sendromunu bildikleri için genellikle geniş gövdeli uçaklarının ekonomi bölümlerinde buna dikkat ediyor. Cam kenarındaki koltuklar ikili, orta bölümdekiler ise dörtlü olarak tasarlanıyor. Ortada beşli koltuk gibi kabin dizaynlarından şirketler vazgeçiyor. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 75,
@@ -1057,7 +1060,7 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "eziyet",
     "eğlence",
     "umut",
-    "utançÇileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken"
+    "utanç"
    ],
    "a": 0,
    "exp": "✅ (A) 「azap」意為折磨、煎熬，「eziyet」同樣是折磨、受罪，兩者為近義詞，可互相替換：飛行時間越長，中間座位對旅客越是折磨。\n❌ (B) 「eğlence」是娛樂、樂趣，語意完全相反。\n❌ (C) 「umut」是希望，與痛苦無關。\n❌ (D) 「utanç」是羞恥、難堪，屬情緒層面，與身體受苦的煎熬不同。\n📚 出處：土耳其語同義詞辨析（azap ≒ eziyet）"
@@ -1073,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Mevsimi çok kısa sürer.",
     "İnsanların iştahını açar."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Çileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken değişik iklim ve toprak koşullarında ekonomik olarak yetiştirilmesi olmuştur. Türkiye’de birçok çilek çeşidi yetiştirilmektedir. Bunların başlıcaları; iri meyveli Frenk çileği, sera çileği, Arnavut çileği, Ereğli çileği, Bursa çileği ve ormanlarda yetişen yabani çilektir. Çilekler taze olarak tüketilmelidir. Çilekler bir yıla kadar dondurularak saklanabilir. Çilek seçerken fazla beklememiş, parlak kırmızı, sapları yeşil ve canlı görünümlü olanları tercih etmeliyiz. Çileğin birçok faydası vardır. Kanı temizleyici özelliği vardır. Yaprakları ve kökleri kanser tadevisinde kullanılır. İnsanların iştahını açar. Ayrıca çilek, pazarda taze meyvenin az olduğu dönemlerde olgunlaşması nedeniyle iyi bir pazar avantajı sağlar. Taze olarak tüketilmesinin yanında işlenerek tüketilebilen, vitamince zengin bir meyvedir. Türkiye çilek üretiminin %45’ini Marmara, %30’unu Akdeniz, %13’ünü Ege Bölgesi karşılamaktadır. Akdeniz Bölgesinin erkenci çilek yetiştiriciliği bakımından ayrı bir önemi vardır. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 77,
@@ -1086,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Çileği taze olarak yemeliyiz.",
     "Bir yıla kadar saklanabilir."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Çileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken değişik iklim ve toprak koşullarında ekonomik olarak yetiştirilmesi olmuştur. Türkiye’de birçok çilek çeşidi yetiştirilmektedir. Bunların başlıcaları; iri meyveli Frenk çileği, sera çileği, Arnavut çileği, Ereğli çileği, Bursa çileği ve ormanlarda yetişen yabani çilektir. Çilekler taze olarak tüketilmelidir. Çilekler bir yıla kadar dondurularak saklanabilir. Çilek seçerken fazla beklememiş, parlak kırmızı, sapları yeşil ve canlı görünümlü olanları tercih etmeliyiz. Çileğin birçok faydası vardır. Kanı temizleyici özelliği vardır. Yaprakları ve kökleri kanser tadevisinde kullanılır. İnsanların iştahını açar. Ayrıca çilek, pazarda taze meyvenin az olduğu dönemlerde olgunlaşması nedeniyle iyi bir pazar avantajı sağlar. Taze olarak tüketilmesinin yanında işlenerek tüketilebilen, vitamince zengin bir meyvedir. Türkiye çilek üretiminin %45’ini Marmara, %30’unu Akdeniz, %13’ünü Ege Bölgesi karşılamaktadır. Akdeniz Bölgesinin erkenci çilek yetiştiriciliği bakımından ayrı bir önemi vardır. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 78,
@@ -1099,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Bursa çileği",
     "Frenk çileği"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Çileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken değişik iklim ve toprak koşullarında ekonomik olarak yetiştirilmesi olmuştur. Türkiye’de birçok çilek çeşidi yetiştirilmektedir. Bunların başlıcaları; iri meyveli Frenk çileği, sera çileği, Arnavut çileği, Ereğli çileği, Bursa çileği ve ormanlarda yetişen yabani çilektir. Çilekler taze olarak tüketilmelidir. Çilekler bir yıla kadar dondurularak saklanabilir. Çilek seçerken fazla beklememiş, parlak kırmızı, sapları yeşil ve canlı görünümlü olanları tercih etmeliyiz. Çileğin birçok faydası vardır. Kanı temizleyici özelliği vardır. Yaprakları ve kökleri kanser tadevisinde kullanılır. İnsanların iştahını açar. Ayrıca çilek, pazarda taze meyvenin az olduğu dönemlerde olgunlaşması nedeniyle iyi bir pazar avantajı sağlar. Taze olarak tüketilmesinin yanında işlenerek tüketilebilen, vitamince zengin bir meyvedir. Türkiye çilek üretiminin %45’ini Marmara, %30’unu Akdeniz, %13’ünü Ege Bölgesi karşılamaktadır. Akdeniz Bölgesinin erkenci çilek yetiştiriciliği bakımından ayrı bir önemi vardır. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 79,
@@ -1112,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Fazla beklememiş olması.",
     "Büyük olması."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Çileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken değişik iklim ve toprak koşullarında ekonomik olarak yetiştirilmesi olmuştur. Türkiye’de birçok çilek çeşidi yetiştirilmektedir. Bunların başlıcaları; iri meyveli Frenk çileği, sera çileği, Arnavut çileği, Ereğli çileği, Bursa çileği ve ormanlarda yetişen yabani çilektir. Çilekler taze olarak tüketilmelidir. Çilekler bir yıla kadar dondurularak saklanabilir. Çilek seçerken fazla beklememiş, parlak kırmızı, sapları yeşil ve canlı görünümlü olanları tercih etmeliyiz. Çileğin birçok faydası vardır. Kanı temizleyici özelliği vardır. Yaprakları ve kökleri kanser tadevisinde kullanılır. İnsanların iştahını açar. Ayrıca çilek, pazarda taze meyvenin az olduğu dönemlerde olgunlaşması nedeniyle iyi bir pazar avantajı sağlar. Taze olarak tüketilmesinin yanında işlenerek tüketilebilen, vitamince zengin bir meyvedir. Türkiye çilek üretiminin %45’ini Marmara, %30’unu Akdeniz, %13’ünü Ege Bölgesi karşılamaktadır. Akdeniz Bölgesinin erkenci çilek yetiştiriciliği bakımından ayrı bir önemi vardır. Yukarıdaki metne göre cevaplayınız."
   },
   {
    "n": 80,
@@ -1125,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-109-1-d019'] = {
     "Karadeniz Bölgesi",
     "Marmara Bölgesi"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Çileğin özellikle son yıllarda dünyada ve Türkiye’de giderek önem kazanmasında en büyük etken değişik iklim ve toprak koşullarında ekonomik olarak yetiştirilmesi olmuştur. Türkiye’de birçok çilek çeşidi yetiştirilmektedir. Bunların başlıcaları; iri meyveli Frenk çileği, sera çileği, Arnavut çileği, Ereğli çileği, Bursa çileği ve ormanlarda yetişen yabani çilektir. Çilekler taze olarak tüketilmelidir. Çilekler bir yıla kadar dondurularak saklanabilir. Çilek seçerken fazla beklememiş, parlak kırmızı, sapları yeşil ve canlı görünümlü olanları tercih etmeliyiz. Çileğin birçok faydası vardır. Kanı temizleyici özelliği vardır. Yaprakları ve kökleri kanser tadevisinde kullanılır. İnsanların iştahını açar. Ayrıca çilek, pazarda taze meyvenin az olduğu dönemlerde olgunlaşması nedeniyle iyi bir pazar avantajı sağlar. Taze olarak tüketilmesinin yanında işlenerek tüketilebilen, vitamince zengin bir meyvedir. Türkiye çilek üretiminin %45’ini Marmara, %30’unu Akdeniz, %13’ünü Ege Bölgesi karşılamaktadır. Akdeniz Bölgesinin erkenci çilek yetiştiriciliği bakımından ayrı bir önemi vardır. Yukarıdaki metne göre cevaplayınız."
   }
  ]
 };

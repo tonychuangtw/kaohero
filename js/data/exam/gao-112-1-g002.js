@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['gao-112-1-g002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "feeble",
+    "edible",
+    "sturdy",
+    "tardy"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112090_301_0118_41.webp"
+   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "attributed",
+    "contributed",
+    "emphasized",
+    "overlooked"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112090_301_0118_42.webp"
+   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "differences",
+    "similarities",
+    "obligations",
+    "responsibilities"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112090_301_0118_43.webp"
+   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "harm",
+    "weigh",
+    "weaken",
+    "heighten"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112090_301_0118_44.webp"
+   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "visibility",
+    "feasibility",
+    "benefits",
+    "injuries"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/112090_301_0118_45.webp"
+   "psg": "Taking an exercise every day has become a routine for most people nowadays. People who engage themselves constantly to sporting and fitness exercises do it for the purpose of staying sound and 41 . Because forming an exercise habit is essential for maintaining our good health, the kind of exercise we take and the likely effects each has on us cannot be 42 . Therefore, before involving yourself in any fitness activity, it is always wise to be aware of the 43 between high-impact and low-impact exercises and choose the ones that fit you. The term, impact, denotes the force that might 44 on your bones and joints when you participate in a physical activity. As a result, knowing whether your exercise is low- or high-impact is key to minimizing the possible 45 . In addition, this also helps maximize the achieving goals of exercise."
   },
   {
    "n": 46,

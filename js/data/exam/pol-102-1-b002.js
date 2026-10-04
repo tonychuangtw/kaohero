@@ -648,7 +648,7 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "In the paper, it is contended that human emotion is created by biochemical processes of the human bodyrather than by cultural factors.",
     "The paper asserts that human emotion is the result of biochemical processes which are in turn shaped by culturalinfluences.",
     "The paper hypothesizes that there is a biochemical foundation for human emotion, while admitting that culturalinfluences cannot be neglected.",
-    "It is hypothesized in the paper that human emotion has a biochemical origin and is exempted from culturalinfluences.請回答第 46 題至第 50 題：The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called"
+    "It is hypothesized in the paper that human emotion has a biochemical origin and is exempted from culturalinfluences."
    ],
    "a": 2,
    "exp": "✅ (C) 原文主張人類情緒起源於生化反應，同時並未輕忽（without scanting）文化影響的重要性；C 選項精確重述情緒具生化基礎且文化影響不容被忽視。\n❌ (A) 聲稱情緒是由生化反應產生「而非文化因素（rather than）」，扭曲了原文兩者皆重要之意。\n❌ (B) 宣稱生化過程反過來由文化影響所塑造，改變了原文所表達之平行假說關係。\n❌ (D) 宣稱人類情緒「免受文化影響（is exempted from cultural influences）」，與原文完全相反。\n📚 出處：英語句意理解與字彙辨析（without scanting）"
@@ -664,7 +664,8 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "It is a Saisiyat ceremony in which Japanese silver grass is used as sacrifice.",
     "It is a Saisiyat ceremony that has a history as long as four hundred years."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called Pas-ta’al. That ceremony is said to have been carried out for as many as 400 years. Today, it takes place every two years. And every ten years, it is larger and takes on added significance. The most recent ten-year ceremony was held in 2006 at two complementary and overlapping sites in northern Taiwan during the full moon of the 10th lunar month. Thousands gathered for the first day of the ceremony in Wufeng, Hsinchu County. Tourists from all over the island joined the local villagers in the elaborate ceremony in an open field. Men and women were dancing and singing, arms crossed, hand-in-hand, and moving in and out of a huge circle. Native Saisiyat people all wore bright red and white traditional costumes with intricate weaving and beading. Some had ornate decorations at the back, from which hung mirrors, beads, and bells that rang and clanged as the dancers moved. Tourists were welcome but were asked to stay away from particular areas where secret rituals were performed by village elders. They were also advised to tie Japanese silver grass around their arms, cameras, and recorders."
   },
   {
    "n": 47,
@@ -677,7 +678,8 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "It is held only when the Japanese silver grass is fully grown.",
     "It takes place only at Wufeng, Hsinchu County."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called Pas-ta’al. That ceremony is said to have been carried out for as many as 400 years. Today, it takes place every two years. And every ten years, it is larger and takes on added significance. The most recent ten-year ceremony was held in 2006 at two complementary and overlapping sites in northern Taiwan during the full moon of the 10th lunar month. Thousands gathered for the first day of the ceremony in Wufeng, Hsinchu County. Tourists from all over the island joined the local villagers in the elaborate ceremony in an open field. Men and women were dancing and singing, arms crossed, hand-in-hand, and moving in and out of a huge circle. Native Saisiyat people all wore bright red and white traditional costumes with intricate weaving and beading. Some had ornate decorations at the back, from which hung mirrors, beads, and bells that rang and clanged as the dancers moved. Tourists were welcome but were asked to stay away from particular areas where secret rituals were performed by village elders. They were also advised to tie Japanese silver grass around their arms, cameras, and recorders."
   },
   {
    "n": 48,
@@ -690,7 +692,8 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "Tourists and villagers dance in a big circle in an open field.",
     "Tourists are advised to tie Japanese silver grass around their arms and cameras."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called Pas-ta’al. That ceremony is said to have been carried out for as many as 400 years. Today, it takes place every two years. And every ten years, it is larger and takes on added significance. The most recent ten-year ceremony was held in 2006 at two complementary and overlapping sites in northern Taiwan during the full moon of the 10th lunar month. Thousands gathered for the first day of the ceremony in Wufeng, Hsinchu County. Tourists from all over the island joined the local villagers in the elaborate ceremony in an open field. Men and women were dancing and singing, arms crossed, hand-in-hand, and moving in and out of a huge circle. Native Saisiyat people all wore bright red and white traditional costumes with intricate weaving and beading. Some had ornate decorations at the back, from which hung mirrors, beads, and bells that rang and clanged as the dancers moved. Tourists were welcome but were asked to stay away from particular areas where secret rituals were performed by village elders. They were also advised to tie Japanese silver grass around their arms, cameras, and recorders."
   },
   {
    "n": 49,
@@ -703,7 +706,8 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "Japanese tourists are invited to the big ceremony every ten years.",
     "Pas-ta’al takes place in mid-October every year."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called Pas-ta’al. That ceremony is said to have been carried out for as many as 400 years. Today, it takes place every two years. And every ten years, it is larger and takes on added significance. The most recent ten-year ceremony was held in 2006 at two complementary and overlapping sites in northern Taiwan during the full moon of the 10th lunar month. Thousands gathered for the first day of the ceremony in Wufeng, Hsinchu County. Tourists from all over the island joined the local villagers in the elaborate ceremony in an open field. Men and women were dancing and singing, arms crossed, hand-in-hand, and moving in and out of a huge circle. Native Saisiyat people all wore bright red and white traditional costumes with intricate weaving and beading. Some had ornate decorations at the back, from which hung mirrors, beads, and bells that rang and clanged as the dancers moved. Tourists were welcome but were asked to stay away from particular areas where secret rituals were performed by village elders. They were also advised to tie Japanese silver grass around their arms, cameras, and recorders."
   },
   {
    "n": 50,
@@ -716,7 +720,8 @@ window.APP_EXAM_PAPERS['pol-102-1-b002'] = {
     "The Saisiyat people use beads, bells, and mirrors as decorations in their daily clothing.",
     "Pas-ta’al is only partially open to the public."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called Pas-ta’al. That ceremony is said to have been carried out for as many as 400 years. Today, it takes place every two years. And every ten years, it is larger and takes on added significance. The most recent ten-year ceremony was held in 2006 at two complementary and overlapping sites in northern Taiwan during the full moon of the 10th lunar month. Thousands gathered for the first day of the ceremony in Wufeng, Hsinchu County. Tourists from all over the island joined the local villagers in the elaborate ceremony in an open field. Men and women were dancing and singing, arms crossed, hand-in-hand, and moving in and out of a huge circle. Native Saisiyat people all wore bright red and white traditional costumes with intricate weaving and beading. Some had ornate decorations at the back, from which hung mirrors, beads, and bells that rang and clanged as the dancers moved. Tourists were welcome but were asked to stay away from particular areas where secret rituals were performed by village elders. They were also advised to tie Japanese silver grass around their arms, cameras, and recorders."
   }
  ]
 };

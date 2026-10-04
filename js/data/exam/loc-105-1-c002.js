@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
     "should go",
     "would go",
     "would have gone",
-    "should be going第 41 題至第 45 題為題組With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became"
+    "should be going"
    ],
    "a": 2,
    "exp": "✅ (C) 與過去事實相反的假設，主要子句用 would have＋過去分詞。\n❌ (A) should go 不符與過去事實相反的句型。\n❌ (B) would go 用於與現在事實相反。\n❌ (D) would be going 不符假設語氣的時態。\n📚 出處：與過去事實相反的假設語氣。"
@@ -579,61 +579,57 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "added",
+    "limited",
+    "required",
+    "available"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/105180_501_0207_41.webp"
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "opened",
+    "checked",
+    "managed",
+    "published"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105180_501_0207_42.webp"
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "basis",
+    "reason",
+    "funding",
+    "direction"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105180_501_0207_43.webp"
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "trying",
+    "willing",
+    "allowed",
+    "prepared"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/105180_501_0207_44.webp"
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
   },
   {
    "n": 45,
@@ -648,7 +644,8 @@ window.APP_EXAM_PAPERS['loc-105-1-c002'] = {
    ],
    "needfig": true,
    "fig": "img/q/105180_501_0207_45.webp",
-   "a": 2
+   "a": 2,
+   "psg": "為題組 With thirty e-devices, four hundred e-titles, and two thousand print items, Taoyuan International Airport became the world’s first e-book library in an airport. Titles are 41 in both English and Chinese, and the e-devices vary from iPads to e-readers with e-ink. The library is 42 by the duty-free shop at the airport. The 43 for the project comes from the Institute for Information Industry, a government agency. The total cost of the project was about US$102,000. Airport passengers are 44 to borrow the devices and read the e-books in the airport, but they cannot download any 45 for their own devices. With more than seventeen million passengers passing through the airport each year, this is likely the beginning of something much bigger."
   },
   {
    "n": 46,

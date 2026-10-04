@@ -992,7 +992,7 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "memanfaatkan ketidaktahuan wisatawan untuk mengail keuntungan",
     "menaikkan harga barang yang dibeli wisatawan",
     "memaksa untuk memberikan imbalan lebih",
-    "menemani, mengarahkan, membimbing dan memberikan saran yang baik kepada wisatawanKunjungan Wisatawan Mancanegara ke Taiwan Terus Meningkat,Wisatawan Asia Tenggara Tertinggi Kedua"
+    "menemani, mengarahkan, membimbing dan memberikan saran yang baik kepada wisatawanKunjungan Wisatawan Mancanegara ke Taiwan Terus Meningkat,"
    ],
    "a": 3,
    "exp": "✅ (D) 旅客把行程託付給導遊，導遊理應陪同、引導、帶領並提供良好建議，這是受託者應盡的責任。\n❌ (A) 利用旅客不熟悉當地而牟利，是嚴重的職業失德。\n❌ (B) 哄抬旅客購物價格同屬詐欺行為。\n❌ (C) 強索額外報酬違反導遊人員管理規則。\n📚 出處：導遊職業倫理—誠信與受託義務"
@@ -1008,7 +1008,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "seakan",
     "selama"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Wisatawan Asia Tenggara Tertinggi Kedua Kementerian Transportasi dan Komunikasi (MOTC) menggelar konferensi pers untuk mengumumkan pencapaian kementerian selama tahun 2018. Pada sektor pariwisata, (71) empat tahun berturut-turut jumlah wisatawan mancanegara yang mengunjungi Taiwan berhasil melampaui angka 10 juta per tahun. Dari jumlah tersebut, 25% (72) Tiongkok Daratan, diikuti oleh wisatawan Asia Tenggara di posisi kedua sebesar 23%. (73) jumlahnya yang besar, wisatawan Asia Tenggara juga memiliki daya beli yang tinggi. Selama periode bulan Januari-September 2018, tingkat konsumsi wisatawan Asia Tenggara berhasil menduduki urutan kedua (74) nilai transaksi mencapai US $2,7 miliar. Namun, jumlah ini masih (75) mengungguli wisatawan asal Tiongkok Daratan yang berada di peringkat pertama, dengan total transaksi mencapai US $3,02 miliar."
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "menuju ke",
     "mengarah ke"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Wisatawan Asia Tenggara Tertinggi Kedua Kementerian Transportasi dan Komunikasi (MOTC) menggelar konferensi pers untuk mengumumkan pencapaian kementerian selama tahun 2018. Pada sektor pariwisata, (71) empat tahun berturut-turut jumlah wisatawan mancanegara yang mengunjungi Taiwan berhasil melampaui angka 10 juta per tahun. Dari jumlah tersebut, 25% (72) Tiongkok Daratan, diikuti oleh wisatawan Asia Tenggara di posisi kedua sebesar 23%. (73) jumlahnya yang besar, wisatawan Asia Tenggara juga memiliki daya beli yang tinggi. Selama periode bulan Januari-September 2018, tingkat konsumsi wisatawan Asia Tenggara berhasil menduduki urutan kedua (74) nilai transaksi mencapai US $2,7 miliar. Namun, jumlah ini masih (75) mengungguli wisatawan asal Tiongkok Daratan yang berada di peringkat pertama, dengan total transaksi mencapai US $3,02 miliar."
   },
   {
    "n": 73,
@@ -1034,7 +1036,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "Selain",
     "supaya"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Wisatawan Asia Tenggara Tertinggi Kedua Kementerian Transportasi dan Komunikasi (MOTC) menggelar konferensi pers untuk mengumumkan pencapaian kementerian selama tahun 2018. Pada sektor pariwisata, (71) empat tahun berturut-turut jumlah wisatawan mancanegara yang mengunjungi Taiwan berhasil melampaui angka 10 juta per tahun. Dari jumlah tersebut, 25% (72) Tiongkok Daratan, diikuti oleh wisatawan Asia Tenggara di posisi kedua sebesar 23%. (73) jumlahnya yang besar, wisatawan Asia Tenggara juga memiliki daya beli yang tinggi. Selama periode bulan Januari-September 2018, tingkat konsumsi wisatawan Asia Tenggara berhasil menduduki urutan kedua (74) nilai transaksi mencapai US $2,7 miliar. Namun, jumlah ini masih (75) mengungguli wisatawan asal Tiongkok Daratan yang berada di peringkat pertama, dengan total transaksi mencapai US $3,02 miliar."
   },
   {
    "n": 74,
@@ -1047,7 +1050,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "bagai",
     "seperti"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Wisatawan Asia Tenggara Tertinggi Kedua Kementerian Transportasi dan Komunikasi (MOTC) menggelar konferensi pers untuk mengumumkan pencapaian kementerian selama tahun 2018. Pada sektor pariwisata, (71) empat tahun berturut-turut jumlah wisatawan mancanegara yang mengunjungi Taiwan berhasil melampaui angka 10 juta per tahun. Dari jumlah tersebut, 25% (72) Tiongkok Daratan, diikuti oleh wisatawan Asia Tenggara di posisi kedua sebesar 23%. (73) jumlahnya yang besar, wisatawan Asia Tenggara juga memiliki daya beli yang tinggi. Selama periode bulan Januari-September 2018, tingkat konsumsi wisatawan Asia Tenggara berhasil menduduki urutan kedua (74) nilai transaksi mencapai US $2,7 miliar. Namun, jumlah ini masih (75) mengungguli wisatawan asal Tiongkok Daratan yang berada di peringkat pertama, dengan total transaksi mencapai US $3,02 miliar."
   },
   {
    "n": 75,
@@ -1058,9 +1062,10 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "telah dapat",
     "belum dapat",
     "akan dapat",
-    "setelah dapatLima Destinasi Wisata Ramah Muslim di Taiwan"
+    "setelah dapat"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Wisatawan Asia Tenggara Tertinggi Kedua Kementerian Transportasi dan Komunikasi (MOTC) menggelar konferensi pers untuk mengumumkan pencapaian kementerian selama tahun 2018. Pada sektor pariwisata, (71) empat tahun berturut-turut jumlah wisatawan mancanegara yang mengunjungi Taiwan berhasil melampaui angka 10 juta per tahun. Dari jumlah tersebut, 25% (72) Tiongkok Daratan, diikuti oleh wisatawan Asia Tenggara di posisi kedua sebesar 23%. (73) jumlahnya yang besar, wisatawan Asia Tenggara juga memiliki daya beli yang tinggi. Selama periode bulan Januari-September 2018, tingkat konsumsi wisatawan Asia Tenggara berhasil menduduki urutan kedua (74) nilai transaksi mencapai US $2,7 miliar. Namun, jumlah ini masih (75) mengungguli wisatawan asal Tiongkok Daratan yang berada di peringkat pertama, dengan total transaksi mencapai US $3,02 miliar."
   },
   {
    "n": 76,
@@ -1073,7 +1078,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "Yang meningkat 30% adalah wisatawan dari Malaysia.",
     "Yang meningkat 30% adalah wisatawan manca negara."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lima Destinasi Wisata Ramah Muslim di Taiwan Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat. Pada 2017, turis dari Asia Tenggara yang berkunjung ke Taiwan meningkat 30 persen dari tahun sebelumnya. Angka terbanyak berasal dari warga negara mayoritas muslim, seperti Malaysia dan Indonesia. Meningkatnya antusias wisatawan muslim ini mendorong pemerintah Taiwan terus mengembangkan destinasi wisata ramah muslim. Meskipun populasi muslim di Taiwan kurang dari 2 persen, kini destinasi wisata ramah muslim makin mudah ditemui. Lima destinasi di antaranya adalah Gaia Hotel di pegunungan Beitou, Chiang Kai-shek Memorial Hall, Muslim Beef Noodles Restaurant, National Palace Museum Taipei, dan Taipei Cultural Mosque."
   },
   {
    "n": 77,
@@ -1086,7 +1092,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat.",
     "Berkurangnya wisatawan dari negara mayoritas muslim yang datang ke Taiwan."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Lima Destinasi Wisata Ramah Muslim di Taiwan Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat. Pada 2017, turis dari Asia Tenggara yang berkunjung ke Taiwan meningkat 30 persen dari tahun sebelumnya. Angka terbanyak berasal dari warga negara mayoritas muslim, seperti Malaysia dan Indonesia. Meningkatnya antusias wisatawan muslim ini mendorong pemerintah Taiwan terus mengembangkan destinasi wisata ramah muslim. Meskipun populasi muslim di Taiwan kurang dari 2 persen, kini destinasi wisata ramah muslim makin mudah ditemui. Lima destinasi di antaranya adalah Gaia Hotel di pegunungan Beitou, Chiang Kai-shek Memorial Hall, Muslim Beef Noodles Restaurant, National Palace Museum Taipei, dan Taipei Cultural Mosque."
   },
   {
    "n": 78,
@@ -1099,7 +1106,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "National Palace Museum Taipei tidak termasuk dalam destinasi ramah muslim.",
     "Antusias wisatawan muslim untuk berkunjung ke Taiwan mengalami peningkatan."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Lima Destinasi Wisata Ramah Muslim di Taiwan Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat. Pada 2017, turis dari Asia Tenggara yang berkunjung ke Taiwan meningkat 30 persen dari tahun sebelumnya. Angka terbanyak berasal dari warga negara mayoritas muslim, seperti Malaysia dan Indonesia. Meningkatnya antusias wisatawan muslim ini mendorong pemerintah Taiwan terus mengembangkan destinasi wisata ramah muslim. Meskipun populasi muslim di Taiwan kurang dari 2 persen, kini destinasi wisata ramah muslim makin mudah ditemui. Lima destinasi di antaranya adalah Gaia Hotel di pegunungan Beitou, Chiang Kai-shek Memorial Hall, Muslim Beef Noodles Restaurant, National Palace Museum Taipei, dan Taipei Cultural Mosque."
   },
   {
    "n": 79,
@@ -1112,7 +1120,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "Dalam tulisan disebutkan dengan jelas berapa jumlah wisatawan muslim yang berkunjung keTaiwan pada tahun 2017.",
     "Taiwan adalah negara muslim karena populasi muslimnya kurang dari 2%."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Lima Destinasi Wisata Ramah Muslim di Taiwan Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat. Pada 2017, turis dari Asia Tenggara yang berkunjung ke Taiwan meningkat 30 persen dari tahun sebelumnya. Angka terbanyak berasal dari warga negara mayoritas muslim, seperti Malaysia dan Indonesia. Meningkatnya antusias wisatawan muslim ini mendorong pemerintah Taiwan terus mengembangkan destinasi wisata ramah muslim. Meskipun populasi muslim di Taiwan kurang dari 2 persen, kini destinasi wisata ramah muslim makin mudah ditemui. Lima destinasi di antaranya adalah Gaia Hotel di pegunungan Beitou, Chiang Kai-shek Memorial Hall, Muslim Beef Noodles Restaurant, National Palace Museum Taipei, dan Taipei Cultural Mosque."
   },
   {
    "n": 80,
@@ -1125,7 +1134,8 @@ window.APP_EXAM_PAPERS['tou-108-1-d015'] = {
     "Gaia Hotel terletak di pegunungan Beitou.",
     "Destinasi ramah muslim Taiwan terus berkembang."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Lima Destinasi Wisata Ramah Muslim di Taiwan Angka wisatawan muslim yang berlibur ke Taiwan terus meningkat. Pada 2017, turis dari Asia Tenggara yang berkunjung ke Taiwan meningkat 30 persen dari tahun sebelumnya. Angka terbanyak berasal dari warga negara mayoritas muslim, seperti Malaysia dan Indonesia. Meningkatnya antusias wisatawan muslim ini mendorong pemerintah Taiwan terus mengembangkan destinasi wisata ramah muslim. Meskipun populasi muslim di Taiwan kurang dari 2 persen, kini destinasi wisata ramah muslim makin mudah ditemui. Lima destinasi di antaranya adalah Gaia Hotel di pegunungan Beitou, Chiang Kai-shek Memorial Hall, Muslim Beef Noodles Restaurant, National Palace Museum Taipei, dan Taipei Cultural Mosque."
   }
  ]
 };

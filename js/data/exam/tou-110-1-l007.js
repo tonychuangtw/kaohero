@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "nächste",
     "folgenden",
     "danach",
-    "nächster„Einkaufen? Wo?–typisch deutsch?“"
+    "nächster"
    ],
    "a": 1,
    "exp": "✅ (B) folgend（接下來的、次日的）修飾陽性單數名詞 Tag（der Tag）；在介系詞縮寫 am（an dem，第三格）之後，依形容詞弱變化規則字尾加 -en，為「am folgenden Tag」（在隔天）。\n❌ (A) nächste 字尾為 -e，定冠詞第三格後之形容詞弱變化字尾必須加 -en（應為 am nächsten Tag），詞尾錯誤。\n❌ (C) danach 為副詞（在那之後），不能作為定語形容詞直接修飾名詞 Tag。\n❌ (D) nächster 字尾 -er 為強變化詞尾，定冠詞第三格後不可用強變化詞尾，且選項夾帶轉檔雜訊。\n📚 出處：德語語法：形容詞弱變化（Schwache Deklination）第三格陽性詞尾"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "das Einkaufsverhalten",
     "die Sitten"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "„Einkaufen? Wo?–typisch deutsch?“ Wie wichtig sind den Deutschen Preis und Qualität des Essens? Wo kaufen sie ein?Worauf achten sie beim Kauf ihrer Lebensmittel? Das Markt- und Meinungsforschungsinstitut Forsa hat dazu eine Umfrage durchgeführt (2014: Gesunde Ernährung). In kaum einem Land in Europa sind Discounter so beliebt wie in Deutschland. 32% aller Deutschen kaufen ihre Lebensmittel dort. Noch mehr, 58% kaufen im Supermarkt ein, wo größeres Warensortiment, ansprechendere Warenpräsentation und größere Verkaufsfläche angeboten werden. Darüber hinaus wollen Deutsche die Qualität auf dem Tisch: Für 22% der Deutschen sind frische Lebensmittel wichtig, 13% wollen beim Essen Bio-Qualität und jeder zweite möchte Lebensmittel aus der Region kaufen. Kaufen also viele Deutsche frisches Gemüse beim Bauern auf dem Markt? Oder Bio-Obst im Bioladen? Nein, der Preis scheint wichtiger zu sein. 80% der Deutschen achten auf aktuelle Sonderangebote, 46% auf einen niedrigen Preis. Nur 2% kaufen ihr Essen im Bioladen und nur 4% auf einem Markt. Vielen Deutschen ist auch die Beratung beim Einkauf wichtig, aber die gibt es nur im Tante-Emma-Laden, wo man noch persönlich bedient wird, nicht im Discounter. Im Tante- Emma-Laden kaufen aber nur 3% der Deutschen ein."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "im Tante-Emma-Laden",
     "im Supermarkt"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "„Einkaufen? Wo?–typisch deutsch?“ Wie wichtig sind den Deutschen Preis und Qualität des Essens? Wo kaufen sie ein?Worauf achten sie beim Kauf ihrer Lebensmittel? Das Markt- und Meinungsforschungsinstitut Forsa hat dazu eine Umfrage durchgeführt (2014: Gesunde Ernährung). In kaum einem Land in Europa sind Discounter so beliebt wie in Deutschland. 32% aller Deutschen kaufen ihre Lebensmittel dort. Noch mehr, 58% kaufen im Supermarkt ein, wo größeres Warensortiment, ansprechendere Warenpräsentation und größere Verkaufsfläche angeboten werden. Darüber hinaus wollen Deutsche die Qualität auf dem Tisch: Für 22% der Deutschen sind frische Lebensmittel wichtig, 13% wollen beim Essen Bio-Qualität und jeder zweite möchte Lebensmittel aus der Region kaufen. Kaufen also viele Deutsche frisches Gemüse beim Bauern auf dem Markt? Oder Bio-Obst im Bioladen? Nein, der Preis scheint wichtiger zu sein. 80% der Deutschen achten auf aktuelle Sonderangebote, 46% auf einen niedrigen Preis. Nur 2% kaufen ihr Essen im Bioladen und nur 4% auf einem Markt. Vielen Deutschen ist auch die Beratung beim Einkauf wichtig, aber die gibt es nur im Tante-Emma-Laden, wo man noch persönlich bedient wird, nicht im Discounter. Im Tante- Emma-Laden kaufen aber nur 3% der Deutschen ein."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Gute Bedienung",
     "Bio-Qualität"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "„Einkaufen? Wo?–typisch deutsch?“ Wie wichtig sind den Deutschen Preis und Qualität des Essens? Wo kaufen sie ein?Worauf achten sie beim Kauf ihrer Lebensmittel? Das Markt- und Meinungsforschungsinstitut Forsa hat dazu eine Umfrage durchgeführt (2014: Gesunde Ernährung). In kaum einem Land in Europa sind Discounter so beliebt wie in Deutschland. 32% aller Deutschen kaufen ihre Lebensmittel dort. Noch mehr, 58% kaufen im Supermarkt ein, wo größeres Warensortiment, ansprechendere Warenpräsentation und größere Verkaufsfläche angeboten werden. Darüber hinaus wollen Deutsche die Qualität auf dem Tisch: Für 22% der Deutschen sind frische Lebensmittel wichtig, 13% wollen beim Essen Bio-Qualität und jeder zweite möchte Lebensmittel aus der Region kaufen. Kaufen also viele Deutsche frisches Gemüse beim Bauern auf dem Markt? Oder Bio-Obst im Bioladen? Nein, der Preis scheint wichtiger zu sein. 80% der Deutschen achten auf aktuelle Sonderangebote, 46% auf einen niedrigen Preis. Nur 2% kaufen ihr Essen im Bioladen und nur 4% auf einem Markt. Vielen Deutschen ist auch die Beratung beim Einkauf wichtig, aber die gibt es nur im Tante-Emma-Laden, wo man noch persönlich bedient wird, nicht im Discounter. Im Tante- Emma-Laden kaufen aber nur 3% der Deutschen ein."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Supermarkt",
     "Obstladen"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "„Einkaufen? Wo?–typisch deutsch?“ Wie wichtig sind den Deutschen Preis und Qualität des Essens? Wo kaufen sie ein?Worauf achten sie beim Kauf ihrer Lebensmittel? Das Markt- und Meinungsforschungsinstitut Forsa hat dazu eine Umfrage durchgeführt (2014: Gesunde Ernährung). In kaum einem Land in Europa sind Discounter so beliebt wie in Deutschland. 32% aller Deutschen kaufen ihre Lebensmittel dort. Noch mehr, 58% kaufen im Supermarkt ein, wo größeres Warensortiment, ansprechendere Warenpräsentation und größere Verkaufsfläche angeboten werden. Darüber hinaus wollen Deutsche die Qualität auf dem Tisch: Für 22% der Deutschen sind frische Lebensmittel wichtig, 13% wollen beim Essen Bio-Qualität und jeder zweite möchte Lebensmittel aus der Region kaufen. Kaufen also viele Deutsche frisches Gemüse beim Bauern auf dem Markt? Oder Bio-Obst im Bioladen? Nein, der Preis scheint wichtiger zu sein. 80% der Deutschen achten auf aktuelle Sonderangebote, 46% auf einen niedrigen Preis. Nur 2% kaufen ihr Essen im Bioladen und nur 4% auf einem Markt. Vielen Deutschen ist auch die Beratung beim Einkauf wichtig, aber die gibt es nur im Tante-Emma-Laden, wo man noch persönlich bedient wird, nicht im Discounter. Im Tante- Emma-Laden kaufen aber nur 3% der Deutschen ein."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "In Europa kaufen 58% im Supermarkt ein.",
     "50% der Deutschen kaufen Lebensmittel aus der Region.Eine E-MailLiebe Lea,"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "„Einkaufen? Wo?–typisch deutsch?“ Wie wichtig sind den Deutschen Preis und Qualität des Essens? Wo kaufen sie ein?Worauf achten sie beim Kauf ihrer Lebensmittel? Das Markt- und Meinungsforschungsinstitut Forsa hat dazu eine Umfrage durchgeführt (2014: Gesunde Ernährung). In kaum einem Land in Europa sind Discounter so beliebt wie in Deutschland. 32% aller Deutschen kaufen ihre Lebensmittel dort. Noch mehr, 58% kaufen im Supermarkt ein, wo größeres Warensortiment, ansprechendere Warenpräsentation und größere Verkaufsfläche angeboten werden. Darüber hinaus wollen Deutsche die Qualität auf dem Tisch: Für 22% der Deutschen sind frische Lebensmittel wichtig, 13% wollen beim Essen Bio-Qualität und jeder zweite möchte Lebensmittel aus der Region kaufen. Kaufen also viele Deutsche frisches Gemüse beim Bauern auf dem Markt? Oder Bio-Obst im Bioladen? Nein, der Preis scheint wichtiger zu sein. 80% der Deutschen achten auf aktuelle Sonderangebote, 46% auf einen niedrigen Preis. Nur 2% kaufen ihr Essen im Bioladen und nur 4% auf einem Markt. Vielen Deutschen ist auch die Beratung beim Einkauf wichtig, aber die gibt es nur im Tante-Emma-Laden, wo man noch persönlich bedient wird, nicht im Discounter. Im Tante- Emma-Laden kaufen aber nur 3% der Deutschen ein."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Polen",
     "die Schweiz"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Eine E-Mail Liebe Lea, wie geht’s? Ist alles in Ordnung? Ich hoffe, dass es dir jetzt besser geht. Es ist schade, dass du die Reise nicht mitmachen konntest. Als Reiseziel habe ich statt Deutschland, Österreich und der Schweiz Polen gewählt. Dieses Mal habe ich den Zug nach Kraków genommen. Denn die Autofahrt wäre mir zu anstrengend gewesen und das Flugticket zu teuer. Vor Ort habe ich an einer Reisegruppe teilgenommen. Du kannst dir nicht vorstellen, wie aufgeregt ich war, weil ich mich schon lange auf diese Reise gefreut hatte. Die Reise war wunderschön. Alles hat wunderbar geklappt und sogar das Wetter hat mitgespielt. Die Leute dort waren sehr freundlich und die Landschaften waren auch schön. Was mir am besten gefallen hat, waren die herrlichen Schlösser. Ich würde sagen, dass alle von der Reisegruppe wirklich viel Spaß hatten. Aber die ganze Reise wäre toll gewesen, wenn diese problematische Familie nicht mitgekommen wäre. Eine Familie aus Berlin mit 2 kleinen Kindern hat immer den Treffpunkt und die Treffzeit vergessen. Wir mussten leider immer lange im Bus auf sie warten. Die Kinder sind oft hin und her gelaufen, egal in Restaurants oder in Museen, und überall haben sie geschrien. Ich fühlte mich sehr gestört. Wann hast du Zeit? Komm doch am Wochenende vorbei, wenn es dir besser geht. Ich muss dir alles genauer erzählen. Ruf mich einfach an! Liebe Grüße Klara"
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Mit dem Flugzeug",
     "Mit dem Bus"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Eine E-Mail Liebe Lea, wie geht’s? Ist alles in Ordnung? Ich hoffe, dass es dir jetzt besser geht. Es ist schade, dass du die Reise nicht mitmachen konntest. Als Reiseziel habe ich statt Deutschland, Österreich und der Schweiz Polen gewählt. Dieses Mal habe ich den Zug nach Kraków genommen. Denn die Autofahrt wäre mir zu anstrengend gewesen und das Flugticket zu teuer. Vor Ort habe ich an einer Reisegruppe teilgenommen. Du kannst dir nicht vorstellen, wie aufgeregt ich war, weil ich mich schon lange auf diese Reise gefreut hatte. Die Reise war wunderschön. Alles hat wunderbar geklappt und sogar das Wetter hat mitgespielt. Die Leute dort waren sehr freundlich und die Landschaften waren auch schön. Was mir am besten gefallen hat, waren die herrlichen Schlösser. Ich würde sagen, dass alle von der Reisegruppe wirklich viel Spaß hatten. Aber die ganze Reise wäre toll gewesen, wenn diese problematische Familie nicht mitgekommen wäre. Eine Familie aus Berlin mit 2 kleinen Kindern hat immer den Treffpunkt und die Treffzeit vergessen. Wir mussten leider immer lange im Bus auf sie warten. Die Kinder sind oft hin und her gelaufen, egal in Restaurants oder in Museen, und überall haben sie geschrien. Ich fühlte mich sehr gestört. Wann hast du Zeit? Komm doch am Wochenende vorbei, wenn es dir besser geht. Ich muss dir alles genauer erzählen. Ruf mich einfach an! Liebe Grüße Klara"
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "die Reisegruppe",
     "die Familie aus Berlin"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Eine E-Mail Liebe Lea, wie geht’s? Ist alles in Ordnung? Ich hoffe, dass es dir jetzt besser geht. Es ist schade, dass du die Reise nicht mitmachen konntest. Als Reiseziel habe ich statt Deutschland, Österreich und der Schweiz Polen gewählt. Dieses Mal habe ich den Zug nach Kraków genommen. Denn die Autofahrt wäre mir zu anstrengend gewesen und das Flugticket zu teuer. Vor Ort habe ich an einer Reisegruppe teilgenommen. Du kannst dir nicht vorstellen, wie aufgeregt ich war, weil ich mich schon lange auf diese Reise gefreut hatte. Die Reise war wunderschön. Alles hat wunderbar geklappt und sogar das Wetter hat mitgespielt. Die Leute dort waren sehr freundlich und die Landschaften waren auch schön. Was mir am besten gefallen hat, waren die herrlichen Schlösser. Ich würde sagen, dass alle von der Reisegruppe wirklich viel Spaß hatten. Aber die ganze Reise wäre toll gewesen, wenn diese problematische Familie nicht mitgekommen wäre. Eine Familie aus Berlin mit 2 kleinen Kindern hat immer den Treffpunkt und die Treffzeit vergessen. Wir mussten leider immer lange im Bus auf sie warten. Die Kinder sind oft hin und her gelaufen, egal in Restaurants oder in Museen, und überall haben sie geschrien. Ich fühlte mich sehr gestört. Wann hast du Zeit? Komm doch am Wochenende vorbei, wenn es dir besser geht. Ich muss dir alles genauer erzählen. Ruf mich einfach an! Liebe Grüße Klara"
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Lea war krank.",
     "Das Flugticket war ihr zu teuer."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Eine E-Mail Liebe Lea, wie geht’s? Ist alles in Ordnung? Ich hoffe, dass es dir jetzt besser geht. Es ist schade, dass du die Reise nicht mitmachen konntest. Als Reiseziel habe ich statt Deutschland, Österreich und der Schweiz Polen gewählt. Dieses Mal habe ich den Zug nach Kraków genommen. Denn die Autofahrt wäre mir zu anstrengend gewesen und das Flugticket zu teuer. Vor Ort habe ich an einer Reisegruppe teilgenommen. Du kannst dir nicht vorstellen, wie aufgeregt ich war, weil ich mich schon lange auf diese Reise gefreut hatte. Die Reise war wunderschön. Alles hat wunderbar geklappt und sogar das Wetter hat mitgespielt. Die Leute dort waren sehr freundlich und die Landschaften waren auch schön. Was mir am besten gefallen hat, waren die herrlichen Schlösser. Ich würde sagen, dass alle von der Reisegruppe wirklich viel Spaß hatten. Aber die ganze Reise wäre toll gewesen, wenn diese problematische Familie nicht mitgekommen wäre. Eine Familie aus Berlin mit 2 kleinen Kindern hat immer den Treffpunkt und die Treffzeit vergessen. Wir mussten leider immer lange im Bus auf sie warten. Die Kinder sind oft hin und her gelaufen, egal in Restaurants oder in Museen, und überall haben sie geschrien. Ich fühlte mich sehr gestört. Wann hast du Zeit? Komm doch am Wochenende vorbei, wenn es dir besser geht. Ich muss dir alles genauer erzählen. Ruf mich einfach an! Liebe Grüße Klara"
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-l007'] = {
     "Klara fand die Autofahrt angenehmer als die Zugfahrt.",
     "Klara interessiert sich sehr für Schlösser."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Eine E-Mail Liebe Lea, wie geht’s? Ist alles in Ordnung? Ich hoffe, dass es dir jetzt besser geht. Es ist schade, dass du die Reise nicht mitmachen konntest. Als Reiseziel habe ich statt Deutschland, Österreich und der Schweiz Polen gewählt. Dieses Mal habe ich den Zug nach Kraków genommen. Denn die Autofahrt wäre mir zu anstrengend gewesen und das Flugticket zu teuer. Vor Ort habe ich an einer Reisegruppe teilgenommen. Du kannst dir nicht vorstellen, wie aufgeregt ich war, weil ich mich schon lange auf diese Reise gefreut hatte. Die Reise war wunderschön. Alles hat wunderbar geklappt und sogar das Wetter hat mitgespielt. Die Leute dort waren sehr freundlich und die Landschaften waren auch schön. Was mir am besten gefallen hat, waren die herrlichen Schlösser. Ich würde sagen, dass alle von der Reisegruppe wirklich viel Spaß hatten. Aber die ganze Reise wäre toll gewesen, wenn diese problematische Familie nicht mitgekommen wäre. Eine Familie aus Berlin mit 2 kleinen Kindern hat immer den Treffpunkt und die Treffzeit vergessen. Wir mussten leider immer lange im Bus auf sie warten. Die Kinder sind oft hin und her gelaufen, egal in Restaurants oder in Museen, und überall haben sie geschrien. Ich fühlte mich sehr gestört. Wann hast du Zeit? Komm doch am Wochenende vorbei, wenn es dir besser geht. Ich muss dir alles genauer erzählen. Ruf mich einfach an! Liebe Grüße Klara"
   }
  ]
 };

@@ -574,7 +574,7 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "personally",
     "separately",
     "originally",
-    "extremely第 41 題至第 45 題為題組Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in"
+    "extremely"
    ],
    "a": 3,
    "exp": "✅ (D) extremely 是程度副詞，修飾形容詞 hot，與後面攝氏四十度的說明相符。\n❌ (A) personally 意為就個人而言。\n❌ (B) separately 意為分別地。\n❌ (C) originally 意為原本、最初。\n📚 出處：文法題，程度副詞修飾形容詞"
@@ -583,61 +583,57 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "kind",
+    "race",
+    "meat",
+    "bean"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104180_502_0209_41.webp"
+   "psg": "為題組 Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!"
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "studies",
+    "sleeps",
+    "breathes",
+    "boils"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104180_502_0209_42.webp"
+   "psg": "為題組 Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!"
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "in",
+    "on",
+    "for",
+    "under"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104180_502_0209_43.webp"
+   "psg": "為題組 Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!"
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "double",
+    "different",
+    "direct",
+    "determined"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104180_502_0209_44.webp"
+   "psg": "為題組 Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!"
   },
   {
    "n": 45,
@@ -652,7 +648,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
    ],
    "needfig": true,
    "fig": "img/q/104180_502_0209_45.webp",
-   "a": 0
+   "a": 0,
+   "psg": "為題組 Hot pot is an easy way to make a meal during the winter. It’s a favorite meal in Asia. You can choose the food to cook in it and also the 41 of soup you want. You will cook all the food in the soup in the pot. When the soup 42 , you can begin cooking the food. Let the food cook 43 about 10 minutes. When the food is done, use your chopsticks or a spoon to put the food in a bowl. When you eat your food, you can add 44 kinds of sauces. After you eat all the food in the hot pot, don’t forget the soup! It will taste very good after you cook your vegetables and meat in it. A hot pot meal is a good time for friends and family to 45 to eat and talk, so don’t eat quickly!"
   },
   {
    "n": 46,
@@ -665,7 +662,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "The size of their houses",
     "The style of their houses"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 American families are different today than they were 100 years ago. The biggest difference is that they are smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves."
   },
   {
    "n": 47,
@@ -678,7 +676,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "They loved to have more children.",
     "They needed children to help on the farms."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "為題組 American families are different today than they were 100 years ago. The biggest difference is that they are smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves."
   },
   {
    "n": 48,
@@ -691,7 +690,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "It will decrease the rate of single parents.",
     "It will decrease the divorce rate."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "為題組 American families are different today than they were 100 years ago. The biggest difference is that they are smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves."
   },
   {
    "n": 49,
@@ -704,7 +704,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "Many couples choose to have no children nowadays.",
     "Only 75 percent of families in the U.S. nowadays are traditional."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "為題組 American families are different today than they were 100 years ago. The biggest difference is that they are smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves."
   },
   {
    "n": 50,
@@ -717,7 +718,8 @@ window.APP_EXAM_PAPERS['loc-104-1-c006'] = {
     "Many couples decide to continue their marriage.",
     "Many people get married and have children."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "為題組 American families are different today than they were 100 years ago. The biggest difference is that they are smaller. In the past, most families lived on farms. They needed lots of children to help with work. Today, most families live in cities, and many parents cannot afford a large family. Other parents worry that if they have more than two children, it will increase the world’s population. Also, the types of families are changing. There are more single parents than ever before. More unmarried couples are having children, and many couples are choosing to have no children at all. Today traditional families – a married couple with children – compose less than 25 percent of all US households. One reason for this is the greater number of working women. In the past, women depended on their husbands. Now many women have jobs. They do not have to be married to get money. Another reason is divorce. This is when the husband and wife decide to end their marriage. About half of all US marriages end in divorce. Finally, many people are not getting married. They choose to live their lives by themselves."
   }
  ]
 };

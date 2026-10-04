@@ -598,7 +598,7 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "extension",
     "expansion",
     "expense",
-    "experienceFor many, summer is the time to shed the extra pounds piled on all winter. But for some of those trying to lose"
+    "experience"
    ],
    "a": 2,
    "exp": "✅ (C) at the expense of 意為「以……為代價」，傑克以健康與家庭為代價追求財富名聲。\n❌ (A) extension 是延伸、擴充。\n❌ (B) expansion 是擴張。\n❌ (D) experience 是經驗。\n📚 出處：片語題，at the expense of 的固定用法"
@@ -614,7 +614,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "The belly is where your fat is stored.",
     "Prepare for the summer while you are in the winter."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "For many, summer is the time to shed the extra pounds piled on all winter. But for some of those trying to lose weight, there’s often this one spot on their body that just won’t let go of that fat. It turns out there’s a genetic reason for this and the information is proving helpful to researchers trying to learn who is at risk for diabetes. Dr. Ronald Kahn, president of Boston’s Joslin Diabetes Center, says the research stems from basic questions people ask of him. He explains, “People ask me as a diabetes and obesity expert, … ‘Doctor, why is it that when I gain weight it always goes to my belly?’ Or, ‘When I lose weight my face gets thin and my hips stay big?’” Kahn and his team have identified genes that match up to where our bodies store fat. Kahn said fat location is an important risk factor in developing diabetes. He said, “When fat is inter-abdominal—that is, inside our bellies, the so-called beer belly type of obesity—this fat creates more insulin resistance. And remember that insulin is the major hormone that controls our blood sugar.” He said doctors might one day be able to analyze someone’s genes and warn those with the greatest disposition for large bellies. 閱讀上文，回答第 43 題至第 46 題"
   },
   {
    "n": 44,
@@ -627,7 +628,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "People with beer bellies.",
     "People with too much hormone that controls the blood sugar."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "For many, summer is the time to shed the extra pounds piled on all winter. But for some of those trying to lose weight, there’s often this one spot on their body that just won’t let go of that fat. It turns out there’s a genetic reason for this and the information is proving helpful to researchers trying to learn who is at risk for diabetes. Dr. Ronald Kahn, president of Boston’s Joslin Diabetes Center, says the research stems from basic questions people ask of him. He explains, “People ask me as a diabetes and obesity expert, … ‘Doctor, why is it that when I gain weight it always goes to my belly?’ Or, ‘When I lose weight my face gets thin and my hips stay big?’” Kahn and his team have identified genes that match up to where our bodies store fat. Kahn said fat location is an important risk factor in developing diabetes. He said, “When fat is inter-abdominal—that is, inside our bellies, the so-called beer belly type of obesity—this fat creates more insulin resistance. And remember that insulin is the major hormone that controls our blood sugar.” He said doctors might one day be able to analyze someone’s genes and warn those with the greatest disposition for large bellies. 閱讀上文，回答第 43 題至第 46 題"
   },
   {
    "n": 45,
@@ -640,7 +642,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "Discrimination.",
     "Inheritance."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "For many, summer is the time to shed the extra pounds piled on all winter. But for some of those trying to lose weight, there’s often this one spot on their body that just won’t let go of that fat. It turns out there’s a genetic reason for this and the information is proving helpful to researchers trying to learn who is at risk for diabetes. Dr. Ronald Kahn, president of Boston’s Joslin Diabetes Center, says the research stems from basic questions people ask of him. He explains, “People ask me as a diabetes and obesity expert, … ‘Doctor, why is it that when I gain weight it always goes to my belly?’ Or, ‘When I lose weight my face gets thin and my hips stay big?’” Kahn and his team have identified genes that match up to where our bodies store fat. Kahn said fat location is an important risk factor in developing diabetes. He said, “When fat is inter-abdominal—that is, inside our bellies, the so-called beer belly type of obesity—this fat creates more insulin resistance. And remember that insulin is the major hormone that controls our blood sugar.” He said doctors might one day be able to analyze someone’s genes and warn those with the greatest disposition for large bellies. 閱讀上文，回答第 43 題至第 46 題"
   },
   {
    "n": 46,
@@ -653,7 +656,8 @@ window.APP_EXAM_PAPERS['loc-102-1-b002'] = {
     "Whether one has an inclination for diabetes or not.",
     "The genes inherited from one’s family.Most visitors land at Taiwan Taoyuan International Airport and drive to Taipei, where they spend a few days in the"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "For many, summer is the time to shed the extra pounds piled on all winter. But for some of those trying to lose weight, there’s often this one spot on their body that just won’t let go of that fat. It turns out there’s a genetic reason for this and the information is proving helpful to researchers trying to learn who is at risk for diabetes. Dr. Ronald Kahn, president of Boston’s Joslin Diabetes Center, says the research stems from basic questions people ask of him. He explains, “People ask me as a diabetes and obesity expert, … ‘Doctor, why is it that when I gain weight it always goes to my belly?’ Or, ‘When I lose weight my face gets thin and my hips stay big?’” Kahn and his team have identified genes that match up to where our bodies store fat. Kahn said fat location is an important risk factor in developing diabetes. He said, “When fat is inter-abdominal—that is, inside our bellies, the so-called beer belly type of obesity—this fat creates more insulin resistance. And remember that insulin is the major hormone that controls our blood sugar.” He said doctors might one day be able to analyze someone’s genes and warn those with the greatest disposition for large bellies. 閱讀上文，回答第 43 題至第 46 題"
   },
   {
    "n": 47,

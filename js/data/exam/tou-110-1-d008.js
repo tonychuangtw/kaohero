@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Pero la tele es grande.",
     "Entonces tendrás que abonarte a un canal de pago.",
     "No pagas por ver la tele.",
-    "¿Por qué no apagas el televisor?Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos"
+    "¿Por qué no apagas el televisor?"
    ],
    "a": 1,
    "exp": "✅ (B) A 表示希望看電影時不要被廣告打斷（sin que las corten con anuncios），B 提供了解決方案：「Entonces tendrás que abonarte a un canal de pago.」（那你得訂閱付費頻道）。\n❌ (A) 提到電視很大，與廣告打斷電影的問題無關。\n❌ (C) 說看電視不用付費，無法解決去廣告的需求。\n❌ (D) 關掉電視無法看電影，無法達成 A 想看電影的訴求，且選項後段為轉檔混入的文章殘句。\n📚 出處：西班牙語生活會話（休閒生活與建議方案）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "el siglo ⅩⅨ",
     "el siglo ⅩⅩ"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos dibujos en una revista escolar. En 1873 empezó los estudios de arquitectura en Barcelona y los terminó en 1878. Aquel mismo año, don Eusebio Güell, mecenas que más tarde le apoyó en su labor artística, descubrió algunos trabajos suyos en la Exposición Universal de París. Era una persona muy religiosa y en 1883 aceptó continuar las obras del templo de la Sagrada Familia, comenzadas dos años antes. En el año 1900 empezó el proyecto del parque Güell, y en 1904, el de la Casa Milà. Posteriormente rechazó otros encargos profesionales para dedicarse enteramente a la construcción del citado templo. El día 7 de junio de 1926 fue atropellado por un tranvía y murió tres días más tarde, sin haber terminado su obra más importante: la Sagrada Familia."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Antonio Banderas",
     "Pablo Picasso"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos dibujos en una revista escolar. En 1873 empezó los estudios de arquitectura en Barcelona y los terminó en 1878. Aquel mismo año, don Eusebio Güell, mecenas que más tarde le apoyó en su labor artística, descubrió algunos trabajos suyos en la Exposición Universal de París. Era una persona muy religiosa y en 1883 aceptó continuar las obras del templo de la Sagrada Familia, comenzadas dos años antes. En el año 1900 empezó el proyecto del parque Güell, y en 1904, el de la Casa Milà. Posteriormente rechazó otros encargos profesionales para dedicarse enteramente a la construcción del citado templo. El día 7 de junio de 1926 fue atropellado por un tranvía y murió tres días más tarde, sin haber terminado su obra más importante: la Sagrada Familia."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "La Sagrada Familia",
     "La Exposición Universal de París"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos dibujos en una revista escolar. En 1873 empezó los estudios de arquitectura en Barcelona y los terminó en 1878. Aquel mismo año, don Eusebio Güell, mecenas que más tarde le apoyó en su labor artística, descubrió algunos trabajos suyos en la Exposición Universal de París. Era una persona muy religiosa y en 1883 aceptó continuar las obras del templo de la Sagrada Familia, comenzadas dos años antes. En el año 1900 empezó el proyecto del parque Güell, y en 1904, el de la Casa Milà. Posteriormente rechazó otros encargos profesionales para dedicarse enteramente a la construcción del citado templo. El día 7 de junio de 1926 fue atropellado por un tranvía y murió tres días más tarde, sin haber terminado su obra más importante: la Sagrada Familia."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "diplomática",
     "antipática"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos dibujos en una revista escolar. En 1873 empezó los estudios de arquitectura en Barcelona y los terminó en 1878. Aquel mismo año, don Eusebio Güell, mecenas que más tarde le apoyó en su labor artística, descubrió algunos trabajos suyos en la Exposición Universal de París. Era una persona muy religiosa y en 1883 aceptó continuar las obras del templo de la Sagrada Familia, comenzadas dos años antes. En el año 1900 empezó el proyecto del parque Güell, y en 1904, el de la Casa Milà. Posteriormente rechazó otros encargos profesionales para dedicarse enteramente a la construcción del citado templo. El día 7 de junio de 1926 fue atropellado por un tranvía y murió tres días más tarde, sin haber terminado su obra más importante: la Sagrada Familia."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Antonio Gaudí fue atropellado por un tranvía y murió tres días más tarde.",
     "Antonio Gaudí nació cerca de Sitges.",
     "Terminó los estudios de arquitectura en Madrid.",
-    "Mientras aceptaba las obras de la Sagrada Familia, aceptaba otros encargos profesionales.Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase"
+    "Mientras aceptaba las obras de la Sagrada Familia, aceptaba otros encargos profesionales."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Antonio Gaudí nació cerca de Reus (Tarragona) en el año 1852. A los quince años publicó algunos dibujos en una revista escolar. En 1873 empezó los estudios de arquitectura en Barcelona y los terminó en 1878. Aquel mismo año, don Eusebio Güell, mecenas que más tarde le apoyó en su labor artística, descubrió algunos trabajos suyos en la Exposición Universal de París. Era una persona muy religiosa y en 1883 aceptó continuar las obras del templo de la Sagrada Familia, comenzadas dos años antes. En el año 1900 empezó el proyecto del parque Güell, y en 1904, el de la Casa Milà. Posteriormente rechazó otros encargos profesionales para dedicarse enteramente a la construcción del citado templo. El día 7 de junio de 1926 fue atropellado por un tranvía y murió tres días más tarde, sin haber terminado su obra más importante: la Sagrada Familia."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Es un tren turístico solo para los viajeros europeos.",
     "Es un billete de tren con descuento para viajar por Europa."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase Turista. El billete da la libertad de escoger el itinerario que se desea hacer por Europa y por países que forman parte de esta opción. Hay distintas modalidades de Inter Rail (con distintos precios) según la edad y las zonas a las que se desea viajar y la duración del viaje. La edad cuenta en el momento del viaje, no al comprar el billete. Los países de validez del billete se distribuyen por zonas. Se puede comprar la zona que incluya el país de viajero, pero no puede usar el billete en su propio país. El sentido del Inter Rail es que los europeos conozcan Europa, no el propio país. Todos los nacidos en los países que componen la oferta (la mayoría de Europa), o que habiendo nacido en otro país tengan la nacionalidad de alguno de estos países (aunque sea pobre). Además, lo pueden usar aquellos que demuestren una residencia en estos países de al menos seis meses. El titular se escribirá en las Hojas de Recorrido, antes de iniciar el viaje, el trayecto que va a realizar. Se deberá presentar el billete Inter Rail junto a un documento de identidad a todo agente autorizado que lo solicite, de no cumplirse este requisito se considerará viajero “desprovisto de billete”. Se permitirá el cambio de clase, previo pago de la diferencia de precio."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Solo para los jóvenes europeos.",
     "Solo para los que tengan nacionalidad de alguno de estos países que componen la oferta."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase Turista. El billete da la libertad de escoger el itinerario que se desea hacer por Europa y por países que forman parte de esta opción. Hay distintas modalidades de Inter Rail (con distintos precios) según la edad y las zonas a las que se desea viajar y la duración del viaje. La edad cuenta en el momento del viaje, no al comprar el billete. Los países de validez del billete se distribuyen por zonas. Se puede comprar la zona que incluya el país de viajero, pero no puede usar el billete en su propio país. El sentido del Inter Rail es que los europeos conozcan Europa, no el propio país. Todos los nacidos en los países que componen la oferta (la mayoría de Europa), o que habiendo nacido en otro país tengan la nacionalidad de alguno de estos países (aunque sea pobre). Además, lo pueden usar aquellos que demuestren una residencia en estos países de al menos seis meses. El titular se escribirá en las Hojas de Recorrido, antes de iniciar el viaje, el trayecto que va a realizar. Se deberá presentar el billete Inter Rail junto a un documento de identidad a todo agente autorizado que lo solicite, de no cumplirse este requisito se considerará viajero “desprovisto de billete”. Se permitirá el cambio de clase, previo pago de la diferencia de precio."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "sólo permite viajar por todos los países europeos.",
     "se extiende solo por la península Ibérica."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase Turista. El billete da la libertad de escoger el itinerario que se desea hacer por Europa y por países que forman parte de esta opción. Hay distintas modalidades de Inter Rail (con distintos precios) según la edad y las zonas a las que se desea viajar y la duración del viaje. La edad cuenta en el momento del viaje, no al comprar el billete. Los países de validez del billete se distribuyen por zonas. Se puede comprar la zona que incluya el país de viajero, pero no puede usar el billete en su propio país. El sentido del Inter Rail es que los europeos conozcan Europa, no el propio país. Todos los nacidos en los países que componen la oferta (la mayoría de Europa), o que habiendo nacido en otro país tengan la nacionalidad de alguno de estos países (aunque sea pobre). Además, lo pueden usar aquellos que demuestren una residencia en estos países de al menos seis meses. El titular se escribirá en las Hojas de Recorrido, antes de iniciar el viaje, el trayecto que va a realizar. Se deberá presentar el billete Inter Rail junto a un documento de identidad a todo agente autorizado que lo solicite, de no cumplirse este requisito se considerará viajero “desprovisto de billete”. Se permitirá el cambio de clase, previo pago de la diferencia de precio."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "No hay restricciones respecto al billete antes de la fecha caducada.",
     "Durante el viaje, solo debe presentar un billete válido."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase Turista. El billete da la libertad de escoger el itinerario que se desea hacer por Europa y por países que forman parte de esta opción. Hay distintas modalidades de Inter Rail (con distintos precios) según la edad y las zonas a las que se desea viajar y la duración del viaje. La edad cuenta en el momento del viaje, no al comprar el billete. Los países de validez del billete se distribuyen por zonas. Se puede comprar la zona que incluya el país de viajero, pero no puede usar el billete en su propio país. El sentido del Inter Rail es que los europeos conozcan Europa, no el propio país. Todos los nacidos en los países que componen la oferta (la mayoría de Europa), o que habiendo nacido en otro país tengan la nacionalidad de alguno de estos países (aunque sea pobre). Además, lo pueden usar aquellos que demuestren una residencia en estos países de al menos seis meses. El titular se escribirá en las Hojas de Recorrido, antes de iniciar el viaje, el trayecto que va a realizar. Se deberá presentar el billete Inter Rail junto a un documento de identidad a todo agente autorizado que lo solicite, de no cumplirse este requisito se considerará viajero “desprovisto de billete”. Se permitirá el cambio de clase, previo pago de la diferencia de precio."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-110-1-d008'] = {
     "Solo hay descuento para los europeos.",
     "Hay descuento para los del primer viaje por Europa."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Inter Rail es un BILLETE que permite viajar por Europa (28 países europeos y Marruecos) en clase Turista. El billete da la libertad de escoger el itinerario que se desea hacer por Europa y por países que forman parte de esta opción. Hay distintas modalidades de Inter Rail (con distintos precios) según la edad y las zonas a las que se desea viajar y la duración del viaje. La edad cuenta en el momento del viaje, no al comprar el billete. Los países de validez del billete se distribuyen por zonas. Se puede comprar la zona que incluya el país de viajero, pero no puede usar el billete en su propio país. El sentido del Inter Rail es que los europeos conozcan Europa, no el propio país. Todos los nacidos en los países que componen la oferta (la mayoría de Europa), o que habiendo nacido en otro país tengan la nacionalidad de alguno de estos países (aunque sea pobre). Además, lo pueden usar aquellos que demuestren una residencia en estos países de al menos seis meses. El titular se escribirá en las Hojas de Recorrido, antes de iniciar el viaje, el trayecto que va a realizar. Se deberá presentar el billete Inter Rail junto a un documento de identidad a todo agente autorizado que lo solicite, de no cumplirse este requisito se considerará viajero “desprovisto de billete”. Se permitirá el cambio de clase, previo pago de la diferencia de precio."
   }
  ]
 };

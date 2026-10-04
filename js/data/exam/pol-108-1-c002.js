@@ -402,7 +402,7 @@ window.APP_EXAM_PAPERS['pol-108-1-c002'] = {
     "destiny",
     "splendor",
     "potential",
-    "compassion請依下文回答第 29 題至第 31 題In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United"
+    "compassion"
    ],
    "a": 0,
    "exp": "✅ (A) destiny 意為「命運、宿命」；與後方的 not a mere coincidence（不僅僅是巧合）形成強烈對比，指千里相會結為連理是命中註定。\n❌ (B) splendor 意為「光彩、壯麗」，多用於視覺景觀或輝煌成就，不能指相遇的宿命。\n❌ (C) potential 意為「潛能、潛力」，與千里尋夫結婚的宿命因果無關。\n❌ (D) compassion 意為「同情心、憐憫」，與男女結為夫妻的緣分無關。\n📚 出處：核心英文字彙；名詞對比詞義辨析。"
@@ -411,46 +411,43 @@ window.APP_EXAM_PAPERS['pol-108-1-c002'] = {
    "n": 29,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 29 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "balance",
+    "equivalent",
+    "equipment",
+    "charge"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_401_0204_29.webp"
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
   },
   {
    "n": 30,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 30 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "as",
+    "until",
+    "though",
+    "so"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/108070_401_0204_30.webp"
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
   },
   {
    "n": 31,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 31 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "fee",
+    "wage",
+    "cost",
+    "weight"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/108070_401_0204_31.webp"
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
   },
   {
    "n": 32,

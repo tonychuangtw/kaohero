@@ -1076,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l008'] = {
     "Copenhague",
     "Atenas"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El perfecto turista que quiere ahorrar viajando por Europa, tiene que comer en Lisboa, vestirse en Dublín y comprar un piso en Atenas. Pero, sobre todo, evitar Londres, la ciudad más cara de Europa. Londres, Copenhague y París son las primeras ciudades de este ranking. En general, el norte de Europa es más costoso: las capitales escandinavas están, desde hace unos años, entre las ciudades más caras en todos los tipos de gastos, excepto el de la vivienda. Sin embargo, Londres destaca por encima de todas. Vivir en la capital británica resulta casi un 60 por ciento más caro que en Madrid y prácticamente el doble que en Atenas. En particular, Londres tiene los precios del vestido y del calzado más altos de Europa. Pero es sobre todo en lo que se refiere al coste de la vivienda. Por ejemplo, un piso en Madrid puede resultar tres veces más barato. La capital de España se sitúa en los últimos puestos de la clasificación, con muy pocas variaciones con respecto a años anteriores."
   },
   {
    "n": 77,
@@ -1089,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l008'] = {
     "Lisboa",
     "Dublín"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "El perfecto turista que quiere ahorrar viajando por Europa, tiene que comer en Lisboa, vestirse en Dublín y comprar un piso en Atenas. Pero, sobre todo, evitar Londres, la ciudad más cara de Europa. Londres, Copenhague y París son las primeras ciudades de este ranking. En general, el norte de Europa es más costoso: las capitales escandinavas están, desde hace unos años, entre las ciudades más caras en todos los tipos de gastos, excepto el de la vivienda. Sin embargo, Londres destaca por encima de todas. Vivir en la capital británica resulta casi un 60 por ciento más caro que en Madrid y prácticamente el doble que en Atenas. En particular, Londres tiene los precios del vestido y del calzado más altos de Europa. Pero es sobre todo en lo que se refiere al coste de la vivienda. Por ejemplo, un piso en Madrid puede resultar tres veces más barato. La capital de España se sitúa en los últimos puestos de la clasificación, con muy pocas variaciones con respecto a años anteriores."
   },
   {
    "n": 78,
@@ -1102,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l008'] = {
     "Madrid",
     "Copenhague"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El perfecto turista que quiere ahorrar viajando por Europa, tiene que comer en Lisboa, vestirse en Dublín y comprar un piso en Atenas. Pero, sobre todo, evitar Londres, la ciudad más cara de Europa. Londres, Copenhague y París son las primeras ciudades de este ranking. En general, el norte de Europa es más costoso: las capitales escandinavas están, desde hace unos años, entre las ciudades más caras en todos los tipos de gastos, excepto el de la vivienda. Sin embargo, Londres destaca por encima de todas. Vivir en la capital británica resulta casi un 60 por ciento más caro que en Madrid y prácticamente el doble que en Atenas. En particular, Londres tiene los precios del vestido y del calzado más altos de Europa. Pero es sobre todo en lo que se refiere al coste de la vivienda. Por ejemplo, un piso en Madrid puede resultar tres veces más barato. La capital de España se sitúa en los últimos puestos de la clasificación, con muy pocas variaciones con respecto a años anteriores."
   },
   {
    "n": 79,
@@ -1115,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l008'] = {
     "Londres",
     "París"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El perfecto turista que quiere ahorrar viajando por Europa, tiene que comer en Lisboa, vestirse en Dublín y comprar un piso en Atenas. Pero, sobre todo, evitar Londres, la ciudad más cara de Europa. Londres, Copenhague y París son las primeras ciudades de este ranking. En general, el norte de Europa es más costoso: las capitales escandinavas están, desde hace unos años, entre las ciudades más caras en todos los tipos de gastos, excepto el de la vivienda. Sin embargo, Londres destaca por encima de todas. Vivir en la capital británica resulta casi un 60 por ciento más caro que en Madrid y prácticamente el doble que en Atenas. En particular, Londres tiene los precios del vestido y del calzado más altos de Europa. Pero es sobre todo en lo que se refiere al coste de la vivienda. Por ejemplo, un piso en Madrid puede resultar tres veces más barato. La capital de España se sitúa en los últimos puestos de la clasificación, con muy pocas variaciones con respecto a años anteriores."
   },
   {
    "n": 80,
@@ -1128,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-106-1-l008'] = {
     "las compras",
     "las estadísticas"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "El perfecto turista que quiere ahorrar viajando por Europa, tiene que comer en Lisboa, vestirse en Dublín y comprar un piso en Atenas. Pero, sobre todo, evitar Londres, la ciudad más cara de Europa. Londres, Copenhague y París son las primeras ciudades de este ranking. En general, el norte de Europa es más costoso: las capitales escandinavas están, desde hace unos años, entre las ciudades más caras en todos los tipos de gastos, excepto el de la vivienda. Sin embargo, Londres destaca por encima de todas. Vivir en la capital británica resulta casi un 60 por ciento más caro que en Madrid y prácticamente el doble que en Atenas. En particular, Londres tiene los precios del vestido y del calzado más altos de Europa. Pero es sobre todo en lo que se refiere al coste de la vivienda. Por ejemplo, un piso en Madrid puede resultar tres veces más barato. La capital de España se sitúa en los últimos puestos de la clasificación, con muy pocas variaciones con respecto a años anteriores."
   }
  ]
 };

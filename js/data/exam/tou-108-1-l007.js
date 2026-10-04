@@ -1056,7 +1056,7 @@ window.APP_EXAM_PAPERS['tou-108-1-l007'] = {
     "Hallstatt noch die Touristen braucht",
     "man die Durchfahrtstraße nicht einfach sperren lassen kann",
     "es den Einheimischen nicht zumutbar ist",
-    "es viel Geld kostetDas Oktoberfest – trinken statt streiten"
+    "es viel Geld kostet"
    ],
    "a": 1
   },
@@ -1085,7 +1085,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l007'] = {
     "Die Bierpreise könnten noch steigen.",
     "Beim Oktoberfest geht es heute vor allem um Politik."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Das Oktoberfest – trinken statt streiten Jedes Jahr kommen über sechs Millionen Besucher aus aller Welt nach München, um am Oktoberfest teilzunehmen. Politik ist wie immer Teil des Oktoberfestes. Aber es geht nicht mehr so streng zu wie früher. Ja, klar. Wer zum Oktoberfest kommt, sollte unbedingt deutsches Bier trinken. Aber man sollte allerdings etwas Geld mitbringen. Denn eine Maß Bier kostet um die 11,50 Euro. Aber auch die Sicherheitsvorkehrungen sind dieses Jahr hoch, denn die Gefahr terroristischer Anschläge ist im letzten Jahr gestiegen. Fast elf Millionen Euro wurden in die Sicherheit investiert. Der zweite Bürgermeister Josef Schmid beschloss, dass diese Summe von den Wirten gezahlt werden sollte und nicht von den Gästen. Doch der regierende Bürgermeister und die Vertreter anderer Parteien waren dagegen. Eine Obergrenze für einen Liter Bier blieb aus. Das Beispiel zeigt: Politik ist auf dem Oktoberfest präsent, und zwar eigentlich schon vom ersten Moment des Festes an. Der Bürgermeister sticht pünktlich um 12 Uhr das erste Fass an und eröffnet so das Fest. Dieser besondere Augenblick bringt alle Anwesenden zusammen – Trotz ihrer Differenzen: Da trinkt ein SPD-Politiker zusammen mit dem CSU-Ministerpräsidenten Bier. Heute geht es auf „der Wiesn“ weniger politisch zu. Es geht vor allem darum, sich vom Stress des Alltags zu erholen. Eben, das ist die wichtigste Botschaft des Oktoberfestes: Streitet nicht! Trinkt!"
   },
   {
    "n": 78,
@@ -1112,7 +1113,8 @@ window.APP_EXAM_PAPERS['tou-108-1-l007'] = {
     "es den Besuchern egal ist, wie teuer das Bier ist. Sie möchten sich nur vom Stress des Alltagserholen.",
     "die Wirte oft streiken."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "Das Oktoberfest – trinken statt streiten Jedes Jahr kommen über sechs Millionen Besucher aus aller Welt nach München, um am Oktoberfest teilzunehmen. Politik ist wie immer Teil des Oktoberfestes. Aber es geht nicht mehr so streng zu wie früher. Ja, klar. Wer zum Oktoberfest kommt, sollte unbedingt deutsches Bier trinken. Aber man sollte allerdings etwas Geld mitbringen. Denn eine Maß Bier kostet um die 11,50 Euro. Aber auch die Sicherheitsvorkehrungen sind dieses Jahr hoch, denn die Gefahr terroristischer Anschläge ist im letzten Jahr gestiegen. Fast elf Millionen Euro wurden in die Sicherheit investiert. Der zweite Bürgermeister Josef Schmid beschloss, dass diese Summe von den Wirten gezahlt werden sollte und nicht von den Gästen. Doch der regierende Bürgermeister und die Vertreter anderer Parteien waren dagegen. Eine Obergrenze für einen Liter Bier blieb aus. Das Beispiel zeigt: Politik ist auf dem Oktoberfest präsent, und zwar eigentlich schon vom ersten Moment des Festes an. Der Bürgermeister sticht pünktlich um 12 Uhr das erste Fass an und eröffnet so das Fest. Dieser besondere Augenblick bringt alle Anwesenden zusammen – Trotz ihrer Differenzen: Da trinkt ein SPD-Politiker zusammen mit dem CSU-Ministerpräsidenten Bier. Heute geht es auf „der Wiesn“ weniger politisch zu. Es geht vor allem darum, sich vom Stress des Alltags zu erholen. Eben, das ist die wichtigste Botschaft des Oktoberfestes: Streitet nicht! Trinkt!"
   },
   {
    "n": 80,

@@ -712,7 +712,7 @@ window.APP_EXAM_PAPERS['pol-112-1-b018'] = {
     "liberated",
     "inundated",
     "humidified",
-    "perpetuated請依下文回答第 51 題至第 55 題The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 ,"
+    "perpetuated"
    ],
    "a": 1,
    "exp": "✅ (B) inundate 意為「淹沒、使氾濫」，句意是豪雨不僅使海岸附近許多房屋被淹，還引發土石流與大規模洪災，與 flooding、mudslides 的語境一致。\n❌ (A) liberated 是解放、釋放，用於人或被壓迫者，與水災無關。\n❌ (C) humidified 是使潮濕（加濕），程度僅止於增加濕度，遠不足以描述被洪水淹沒。\n❌ (D) perpetuated 是使永久存續（常指不良現象），受詞為制度或觀念，不能用於房屋被水淹。\n📚 出處：inundate（淹沒）與 flood 之同義辨析；torrential rain 相關災害字彙。"
@@ -753,46 +753,43 @@ window.APP_EXAM_PAPERS['pol-112-1-b018'] = {
    "n": 53,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 53 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "deck",
+    "anchor",
+    "cargo",
+    "rudder"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/112070_511_0209_53.webp"
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
   },
   {
    "n": 54,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 54 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "consists of",
+    "compresses by",
+    "conserves of",
+    "concludes by"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/112070_511_0209_54.webp"
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
   },
   {
    "n": 55,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 55 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "resilience",
+    "stationary",
+    "fleeting",
+    "movable"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/112070_511_0209_55.webp"
+   "psg": "The unit is designed for 51 in water depths of up to 250 feet. The unit is also designed for ocean 52 , afloat on its own hull with its legs intact and fully raised so that the spud can tip is 12.38 feet below the bottom of the hull. The lightweight is the condition of the unit before loading 53 , fuel, water, or stores. For the Coastal Driller, the lightweight 54 the basic hull weight and the fixed weight. The fixed weight is that which is permanently attached to the unit, which includes a portion that is 55 and a portion that can be moved."
   },
   {
    "n": 56,

@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
     "persecute",
     "prosecute",
     "insinuate",
-    "applaud請依下文回答第 41 題至第 45 題：The type of activity police investigators engage in and material gathered ＿＿＿ 41 , depending on whether"
+    "applaud"
    ],
    "a": 1,
    "exp": "✅ (B) prosecute 意為「起訴、訴追」。句意指警方的核心職能之一在於查緝犯罪並協助司法機關「訴追／起訴（prosecute）」犯罪者。\n❌ (A) persecute 意為「迫害、虐待」，非正當司法程序之公權力作為。\n❌ (C) insinuate 意為「影射、暗指」，與刑事追訴職責無關。\n❌ (D) applaud 意為「讚賞、喝采」，執法機關職責在於打擊犯罪，不可能表揚罪犯。\n📚 出處：警察專業英文——刑事司法程序與訴追（Crime Prosecution）。"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-107-1-c008'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "varies",
+    "vibrates",
+    "vaporizes",
+    "vanishes"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/107070_601_0207_41.webp"
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Therefore",
+    "As a result",
+    "As a matter of fact",
+    "However"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/107070_601_0207_42.webp"
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "in the end",
+    "from the outset",
+    "without doubt",
+    "out of necessity"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_601_0207_43.webp"
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "At last",
+    "In others",
+    "For this",
+    "Since then"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/107070_601_0207_44.webp"
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "their",
+    "those",
+    "they",
+    "these"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/107070_601_0207_45.webp"
+   "psg": "investigations use the reactive or proactive method. 42 , they all go through similar stages. Every investigation is different and may require a different route through the process, e.g., in some cases the identity of the offender is known 43 and the investigation quickly enters the suspect management phase. 44 , the identity of the offender may never be known or is discovered only after further investigation. When receiving reports, counter staff should ensure that 45 record, retain and reveal all material and pass it to the investigating officer."
   },
   {
    "n": 46,

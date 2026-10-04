@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "vacancies",
     "appointments",
     "facilities",
-    "chainsIn the past few years, most major airlines have announced their plans to use commercial electric"
+    "chains"
    ],
    "a": 2,
    "exp": "✅ (C) facilities 意為「設施、設備」。房客詢問飯店有哪些設施，櫃檯人員回答有酒吧、健身房、游泳池、網球場及自助餐廳，語意最為吻合。\n❌ (A) vacancies 意為「空房、空缺」，回答內容為飯店設施清單而非是否有空房，不符語意。\n❌ (B) appointments 意為「預約、約定」，通常指看診或商務預約，不符詢問飯店硬體設施之語境。\n❌ (D) chains 意為「連鎖店、連鎖體系」，指企業經營型態，無法用酒吧、泳池等各項內部設備回答（後方文字為轉檔時誤黏之閱讀測驗篇章開頭）。\n📚 出處：飯店接待英語會話：飯店設施與服務（Hotel Facilities and Services）"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "It does not suggest a different solution to a problem.",
     "The climate crisis has been worsening these past few years."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "In the past few years, most major airlines have announced their plans to use commercial electric airplanes. Travelers can soon travel to different places via an electric aircraft. Take United Airlines for example. They will offer fossil fuel-free domestic flights by 2026. In addition, Sweden and Denmark also declared their plans to use fossil fuel-free electric-powered airplanes by 2030. Electric air travel (i.e. traveling with an electric-powered aircraft) is going mainstream. There are various methods to supply electricity; however, the most common way is to use batteries. The climate crisis has been worsening these past few years. One of the major contributors to this environmental problem is air transportation. The aviation sector has released huge amounts of carbon dioxide (CO2) into the atmosphere every year. Unfortunately, airplanes are predicted to triple their CO2 emissions by 2050 if left unchecked now. Most major airlines have thus signed up to meet the targeted net-zero carbon emissions by 2050. Governments from many different countries are establishing policies to help protect the environment. Austria and France have enacted bans on short-haul domestic flights. In the United States of America, the government is also pushing to reduce CO2 emissions through clean-energy transportation. As presented, the use of small electric airplanes is the first step towards greener air travel. The development of larger electric planes may take several years. Still, you can expect to hear that electric air travel will be going mainstream in the coming years."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "To use solar energy.",
     "To use wind energy."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "In the past few years, most major airlines have announced their plans to use commercial electric airplanes. Travelers can soon travel to different places via an electric aircraft. Take United Airlines for example. They will offer fossil fuel-free domestic flights by 2026. In addition, Sweden and Denmark also declared their plans to use fossil fuel-free electric-powered airplanes by 2030. Electric air travel (i.e. traveling with an electric-powered aircraft) is going mainstream. There are various methods to supply electricity; however, the most common way is to use batteries. The climate crisis has been worsening these past few years. One of the major contributors to this environmental problem is air transportation. The aviation sector has released huge amounts of carbon dioxide (CO2) into the atmosphere every year. Unfortunately, airplanes are predicted to triple their CO2 emissions by 2050 if left unchecked now. Most major airlines have thus signed up to meet the targeted net-zero carbon emissions by 2050. Governments from many different countries are establishing policies to help protect the environment. Austria and France have enacted bans on short-haul domestic flights. In the United States of America, the government is also pushing to reduce CO2 emissions through clean-energy transportation. As presented, the use of small electric airplanes is the first step towards greener air travel. The development of larger electric planes may take several years. Still, you can expect to hear that electric air travel will be going mainstream in the coming years."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "Air transportation is one of the major contributors to the worsening environmental problem.",
     "The aviation sector has released huge amounts of oxygen into the atmosphere every year."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "In the past few years, most major airlines have announced their plans to use commercial electric airplanes. Travelers can soon travel to different places via an electric aircraft. Take United Airlines for example. They will offer fossil fuel-free domestic flights by 2026. In addition, Sweden and Denmark also declared their plans to use fossil fuel-free electric-powered airplanes by 2030. Electric air travel (i.e. traveling with an electric-powered aircraft) is going mainstream. There are various methods to supply electricity; however, the most common way is to use batteries. The climate crisis has been worsening these past few years. One of the major contributors to this environmental problem is air transportation. The aviation sector has released huge amounts of carbon dioxide (CO2) into the atmosphere every year. Unfortunately, airplanes are predicted to triple their CO2 emissions by 2050 if left unchecked now. Most major airlines have thus signed up to meet the targeted net-zero carbon emissions by 2050. Governments from many different countries are establishing policies to help protect the environment. Austria and France have enacted bans on short-haul domestic flights. In the United States of America, the government is also pushing to reduce CO2 emissions through clean-energy transportation. As presented, the use of small electric airplanes is the first step towards greener air travel. The development of larger electric planes may take several years. Still, you can expect to hear that electric air travel will be going mainstream in the coming years."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "Airplanes are predicted to double their CO2 emissions by 2050 if left unchecked now.",
     "In the United States of America, the government is also pushing to reduce CO2 emissionsthrough clean-energy transportation."
    ],
-   "a": 3
+   "a": 3,
+   "psg": "In the past few years, most major airlines have announced their plans to use commercial electric airplanes. Travelers can soon travel to different places via an electric aircraft. Take United Airlines for example. They will offer fossil fuel-free domestic flights by 2026. In addition, Sweden and Denmark also declared their plans to use fossil fuel-free electric-powered airplanes by 2030. Electric air travel (i.e. traveling with an electric-powered aircraft) is going mainstream. There are various methods to supply electricity; however, the most common way is to use batteries. The climate crisis has been worsening these past few years. One of the major contributors to this environmental problem is air transportation. The aviation sector has released huge amounts of carbon dioxide (CO2) into the atmosphere every year. Unfortunately, airplanes are predicted to triple their CO2 emissions by 2050 if left unchecked now. Most major airlines have thus signed up to meet the targeted net-zero carbon emissions by 2050. Governments from many different countries are establishing policies to help protect the environment. Austria and France have enacted bans on short-haul domestic flights. In the United States of America, the government is also pushing to reduce CO2 emissions through clean-energy transportation. As presented, the use of small electric airplanes is the first step towards greener air travel. The development of larger electric planes may take several years. Still, you can expect to hear that electric air travel will be going mainstream in the coming years."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "It is cheaper.",
     "Electric air travel is the first step towards greener air travel.",
     "Electric air travel does not help reduce CO2 emissions.",
-    "It is faster.I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife"
+    "It is faster."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "In the past few years, most major airlines have announced their plans to use commercial electric airplanes. Travelers can soon travel to different places via an electric aircraft. Take United Airlines for example. They will offer fossil fuel-free domestic flights by 2026. In addition, Sweden and Denmark also declared their plans to use fossil fuel-free electric-powered airplanes by 2030. Electric air travel (i.e. traveling with an electric-powered aircraft) is going mainstream. There are various methods to supply electricity; however, the most common way is to use batteries. The climate crisis has been worsening these past few years. One of the major contributors to this environmental problem is air transportation. The aviation sector has released huge amounts of carbon dioxide (CO2) into the atmosphere every year. Unfortunately, airplanes are predicted to triple their CO2 emissions by 2050 if left unchecked now. Most major airlines have thus signed up to meet the targeted net-zero carbon emissions by 2050. Governments from many different countries are establishing policies to help protect the environment. Austria and France have enacted bans on short-haul domestic flights. In the United States of America, the government is also pushing to reduce CO2 emissions through clean-energy transportation. As presented, the use of small electric airplanes is the first step towards greener air travel. The development of larger electric planes may take several years. Still, you can expect to hear that electric air travel will be going mainstream in the coming years."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "To see animals in their natural environment.",
     "To observe some endangered creatures."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife reserve. Incredible creatures roamed the savannah, and the sceneries itself were some of the most stunning I’ve ever seen. Safari traveling is a thrilling and one-of-a-kind opportunity to take in the splendor and variety of the natural world. In order to see and photograph wild creatures in their natural environment, safari vacationers often visit an African wildlife reserve or national park. In my experience, seeing iconic and endangered animals like lions, elephants, and gorillas in their natural habitats is expected to be a staple of a safari vacation. My favorite part of the trip was getting to see a group of wild canine animals in their natural habitat. I’d never had such a good look at these endangered creatures before. Aside from getting an up-close glimpse at the animals, tourists can receive insight into their habits and routines from knowledgeable guides on several safari programs that include guided drives within the park. Safaris sometimes involve more than just visits to zoos and sanctuaries to see animals; they often provide opportunities for hiking, birdwatching, and cultural immersion. Memories created on the safari journey will last a lifetime since it was truly once in a lifetime opportunity. I think a trip to Africa for a safari would be amazing if you have the chance to go. You won’t soon forget this incredible journey."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "Shook.",
     "Shrank."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife reserve. Incredible creatures roamed the savannah, and the sceneries itself were some of the most stunning I’ve ever seen. Safari traveling is a thrilling and one-of-a-kind opportunity to take in the splendor and variety of the natural world. In order to see and photograph wild creatures in their natural environment, safari vacationers often visit an African wildlife reserve or national park. In my experience, seeing iconic and endangered animals like lions, elephants, and gorillas in their natural habitats is expected to be a staple of a safari vacation. My favorite part of the trip was getting to see a group of wild canine animals in their natural habitat. I’d never had such a good look at these endangered creatures before. Aside from getting an up-close glimpse at the animals, tourists can receive insight into their habits and routines from knowledgeable guides on several safari programs that include guided drives within the park. Safaris sometimes involve more than just visits to zoos and sanctuaries to see animals; they often provide opportunities for hiking, birdwatching, and cultural immersion. Memories created on the safari journey will last a lifetime since it was truly once in a lifetime opportunity. I think a trip to Africa for a safari would be amazing if you have the chance to go. You won’t soon forget this incredible journey."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "He could experience the beauty and diversity of the natural world.",
     "He could get close to some of the most famous and endangered animals in the world, like lionsand gorillas."
    ],
-   "a": 1
+   "a": 1,
+   "psg": "I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife reserve. Incredible creatures roamed the savannah, and the sceneries itself were some of the most stunning I’ve ever seen. Safari traveling is a thrilling and one-of-a-kind opportunity to take in the splendor and variety of the natural world. In order to see and photograph wild creatures in their natural environment, safari vacationers often visit an African wildlife reserve or national park. In my experience, seeing iconic and endangered animals like lions, elephants, and gorillas in their natural habitats is expected to be a staple of a safari vacation. My favorite part of the trip was getting to see a group of wild canine animals in their natural habitat. I’d never had such a good look at these endangered creatures before. Aside from getting an up-close glimpse at the animals, tourists can receive insight into their habits and routines from knowledgeable guides on several safari programs that include guided drives within the park. Safaris sometimes involve more than just visits to zoos and sanctuaries to see animals; they often provide opportunities for hiking, birdwatching, and cultural immersion. Memories created on the safari journey will last a lifetime since it was truly once in a lifetime opportunity. I think a trip to Africa for a safari would be amazing if you have the chance to go. You won’t soon forget this incredible journey."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "They can learn about several African wildlife sanctuaries.",
     "They can get knowledge about the splendor of nature."
    ],
-   "a": 0
+   "a": 0,
+   "psg": "I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife reserve. Incredible creatures roamed the savannah, and the sceneries itself were some of the most stunning I’ve ever seen. Safari traveling is a thrilling and one-of-a-kind opportunity to take in the splendor and variety of the natural world. In order to see and photograph wild creatures in their natural environment, safari vacationers often visit an African wildlife reserve or national park. In my experience, seeing iconic and endangered animals like lions, elephants, and gorillas in their natural habitats is expected to be a staple of a safari vacation. My favorite part of the trip was getting to see a group of wild canine animals in their natural habitat. I’d never had such a good look at these endangered creatures before. Aside from getting an up-close glimpse at the animals, tourists can receive insight into their habits and routines from knowledgeable guides on several safari programs that include guided drives within the park. Safaris sometimes involve more than just visits to zoos and sanctuaries to see animals; they often provide opportunities for hiking, birdwatching, and cultural immersion. Memories created on the safari journey will last a lifetime since it was truly once in a lifetime opportunity. I think a trip to Africa for a safari would be amazing if you have the chance to go. You won’t soon forget this incredible journey."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-112-1-d004'] = {
     "Animal breeding.",
     "Cultural encounters."
    ],
-   "a": 2
+   "a": 2,
+   "psg": "I was filled with excitement and awe as our vehicle jolted down the muddy paths of the wildlife reserve. Incredible creatures roamed the savannah, and the sceneries itself were some of the most stunning I’ve ever seen. Safari traveling is a thrilling and one-of-a-kind opportunity to take in the splendor and variety of the natural world. In order to see and photograph wild creatures in their natural environment, safari vacationers often visit an African wildlife reserve or national park. In my experience, seeing iconic and endangered animals like lions, elephants, and gorillas in their natural habitats is expected to be a staple of a safari vacation. My favorite part of the trip was getting to see a group of wild canine animals in their natural habitat. I’d never had such a good look at these endangered creatures before. Aside from getting an up-close glimpse at the animals, tourists can receive insight into their habits and routines from knowledgeable guides on several safari programs that include guided drives within the park. Safaris sometimes involve more than just visits to zoos and sanctuaries to see animals; they often provide opportunities for hiking, birdwatching, and cultural immersion. Memories created on the safari journey will last a lifetime since it was truly once in a lifetime opportunity. I think a trip to Africa for a safari would be amazing if you have the chance to go. You won’t soon forget this incredible journey."
   }
  ]
 };

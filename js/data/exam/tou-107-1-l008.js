@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "Será",
     "Es",
     "Está",
-    "EstaráDOS FIESTAS ESPAÑOLAS"
+    "Estará"
    ],
    "a": 3,
    "exp": "✅ (D) 正確。說話者以 No sé 與 creo yo 表明不確定，此時用未來式表推測（futuro de probabilidad）：Estará en aquella sala（大概在那個展廳吧）。\n❌ (A) 錯誤。Será 雖也是未來推測形，但地點須用 estar，ser 只用於活動舉行地點。\n❌ (B) 錯誤。Es 用於描述本質或活動地點，不能表示物品所在位置。\n❌ (C) 錯誤。Está 是肯定語氣的陳述，與前面明說不確定的語境矛盾。\n📚 出處：未來式表推測、ser 與 estar 在地點用法的差別"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "En las dos anteriores",
     "En ninguna de ellas"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "DOS FIESTAS ESPAÑOLAS Vamos a hablar de dos fiestas populares de España. La primera de ellas, es Las Fallas. Es una de las fiestas españolas más importantes de España. Se celebra en Valencia del 12 al 19 de marzo. Las fallas son esculturas satíricas muy grandes de papel y cartón con muchos colores que representan a gente famosa. Se hacen durante todo el año y se ponen en las calles y plazas la noche del 15 de marzo. El día principal es el 19 y por la noche se queman todas, excepto una figura o ninot que se lleva a un museo con los ninots ganadores de otros años. Esta noche se llama en Valencia la nit de fo (noche de fuego). ¡Cuidado! Las calles están llenas de gente. Otra de las fiestas más importantes de España es el Carnaval de Tenerife que se celebra en febrero en Santa Cruz de Tenerife. Es una fiesta muy alegre y el día más importante es el que se elige la reina del Carnaval. Las participantes llevan vestidos espectaculares que pesan muchos kilos. Ten cuidado, las calles están llenas y puedes perderte."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "El 15 de marzo",
     "El 19 de marzo"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "DOS FIESTAS ESPAÑOLAS Vamos a hablar de dos fiestas populares de España. La primera de ellas, es Las Fallas. Es una de las fiestas españolas más importantes de España. Se celebra en Valencia del 12 al 19 de marzo. Las fallas son esculturas satíricas muy grandes de papel y cartón con muchos colores que representan a gente famosa. Se hacen durante todo el año y se ponen en las calles y plazas la noche del 15 de marzo. El día principal es el 19 y por la noche se queman todas, excepto una figura o ninot que se lleva a un museo con los ninots ganadores de otros años. Esta noche se llama en Valencia la nit de fo (noche de fuego). ¡Cuidado! Las calles están llenas de gente. Otra de las fiestas más importantes de España es el Carnaval de Tenerife que se celebra en febrero en Santa Cruz de Tenerife. Es una fiesta muy alegre y el día más importante es el que se elige la reina del Carnaval. Las participantes llevan vestidos espectaculares que pesan muchos kilos. Ten cuidado, las calles están llenas y puedes perderte."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "En las dos anteriores",
     "En ninguna de ellas"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "DOS FIESTAS ESPAÑOLAS Vamos a hablar de dos fiestas populares de España. La primera de ellas, es Las Fallas. Es una de las fiestas españolas más importantes de España. Se celebra en Valencia del 12 al 19 de marzo. Las fallas son esculturas satíricas muy grandes de papel y cartón con muchos colores que representan a gente famosa. Se hacen durante todo el año y se ponen en las calles y plazas la noche del 15 de marzo. El día principal es el 19 y por la noche se queman todas, excepto una figura o ninot que se lleva a un museo con los ninots ganadores de otros años. Esta noche se llama en Valencia la nit de fo (noche de fuego). ¡Cuidado! Las calles están llenas de gente. Otra de las fiestas más importantes de España es el Carnaval de Tenerife que se celebra en febrero en Santa Cruz de Tenerife. Es una fiesta muy alegre y el día más importante es el que se elige la reina del Carnaval. Las participantes llevan vestidos espectaculares que pesan muchos kilos. Ten cuidado, las calles están llenas y puedes perderte."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "En el Carnaval de Tenerife, el rey es la persona más importante",
     "Al final de Las Fallas, se queman casi todas las esculturas"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "DOS FIESTAS ESPAÑOLAS Vamos a hablar de dos fiestas populares de España. La primera de ellas, es Las Fallas. Es una de las fiestas españolas más importantes de España. Se celebra en Valencia del 12 al 19 de marzo. Las fallas son esculturas satíricas muy grandes de papel y cartón con muchos colores que representan a gente famosa. Se hacen durante todo el año y se ponen en las calles y plazas la noche del 15 de marzo. El día principal es el 19 y por la noche se queman todas, excepto una figura o ninot que se lleva a un museo con los ninots ganadores de otros años. Esta noche se llama en Valencia la nit de fo (noche de fuego). ¡Cuidado! Las calles están llenas de gente. Otra de las fiestas más importantes de España es el Carnaval de Tenerife que se celebra en febrero en Santa Cruz de Tenerife. Es una fiesta muy alegre y el día más importante es el que se elige la reina del Carnaval. Las participantes llevan vestidos espectaculares que pesan muchos kilos. Ten cuidado, las calles están llenas y puedes perderte."
   },
   {
    "n": 75,
@@ -1056,9 +1060,10 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "Los ninots que ganan el concurso se guardan en un museo",
     "Los trajes de las mujeres del Carnaval pesan poco",
     "Los ninots son las reinas de Las Fallas",
-    "Las esculturas de Las Fallas representan personajes clásicos de EspañaCOSTUMBRES RELACIONADAS CON LOS REYES MAGOS"
+    "Las esculturas de Las Fallas representan personajes clásicos de España"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "DOS FIESTAS ESPAÑOLAS Vamos a hablar de dos fiestas populares de España. La primera de ellas, es Las Fallas. Es una de las fiestas españolas más importantes de España. Se celebra en Valencia del 12 al 19 de marzo. Las fallas son esculturas satíricas muy grandes de papel y cartón con muchos colores que representan a gente famosa. Se hacen durante todo el año y se ponen en las calles y plazas la noche del 15 de marzo. El día principal es el 19 y por la noche se queman todas, excepto una figura o ninot que se lleva a un museo con los ninots ganadores de otros años. Esta noche se llama en Valencia la nit de fo (noche de fuego). ¡Cuidado! Las calles están llenas de gente. Otra de las fiestas más importantes de España es el Carnaval de Tenerife que se celebra en febrero en Santa Cruz de Tenerife. Es una fiesta muy alegre y el día más importante es el que se elige la reina del Carnaval. Las participantes llevan vestidos espectaculares que pesan muchos kilos. Ten cuidado, las calles están llenas y puedes perderte."
   },
   {
    "n": 76,
@@ -1071,7 +1076,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "los Reyes Magos",
     "el rey y la reina"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "COSTUMBRES RELACIONADAS CON LOS REYES MAGOS En España, la tradición dice que los regalos de Navidad a los niños los traen los Reyes Magos la noche del 5 al 6 de enero, compitiendo con la reciente introducción de Papá Noel en las costumbres navideñas debido a la influencia de otras culturas. Antes, los niños deben enviar una carta a los reyes enumerando los regalos que quieren y los méritos por los que merecen recibirlos. También es tradición que la noche del 5 de enero los niños dejen sus zapatos en algún lugar de la casa, junto a la puerta, en una ventana; incluso se dejan dulces para obsequiar a los Reyes Magos y agua o comida para los camellos. Al día siguiente se encuentran allí los regalos o, en el caso de haber sido malos, carbón en su lugar (se trata de un dulce de feo aspecto pero golosina, al fin y al cabo). El día 6 de enero es festivo en toda España. La escalada consumista ha conseguido que también reciban regalos los adultos, en ocasiones usando el juego del amigo invisible. Es típico desayunar el Roscón de Reyes que en muchos lugares puede comerse la víspera, para merendar o, como postre, en la cena. En España estos roscones suelen contener una figurilla, popularmente conocida como “la sorpresa”."
   },
   {
    "n": 77,
@@ -1084,7 +1090,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "Salir a la calle la noche del 5 al 6 de enero",
     "Dejar dulces a los Reyes Magos y agua a sus camellos"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "COSTUMBRES RELACIONADAS CON LOS REYES MAGOS En España, la tradición dice que los regalos de Navidad a los niños los traen los Reyes Magos la noche del 5 al 6 de enero, compitiendo con la reciente introducción de Papá Noel en las costumbres navideñas debido a la influencia de otras culturas. Antes, los niños deben enviar una carta a los reyes enumerando los regalos que quieren y los méritos por los que merecen recibirlos. También es tradición que la noche del 5 de enero los niños dejen sus zapatos en algún lugar de la casa, junto a la puerta, en una ventana; incluso se dejan dulces para obsequiar a los Reyes Magos y agua o comida para los camellos. Al día siguiente se encuentran allí los regalos o, en el caso de haber sido malos, carbón en su lugar (se trata de un dulce de feo aspecto pero golosina, al fin y al cabo). El día 6 de enero es festivo en toda España. La escalada consumista ha conseguido que también reciban regalos los adultos, en ocasiones usando el juego del amigo invisible. Es típico desayunar el Roscón de Reyes que en muchos lugares puede comerse la víspera, para merendar o, como postre, en la cena. En España estos roscones suelen contener una figurilla, popularmente conocida como “la sorpresa”."
   },
   {
    "n": 78,
@@ -1097,7 +1104,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "Porque ha sido muy bueno",
     "Porque le gustan mucho las golosinas"
    ],
-   "a": 0
+   "a": 0,
+   "psg": "COSTUMBRES RELACIONADAS CON LOS REYES MAGOS En España, la tradición dice que los regalos de Navidad a los niños los traen los Reyes Magos la noche del 5 al 6 de enero, compitiendo con la reciente introducción de Papá Noel en las costumbres navideñas debido a la influencia de otras culturas. Antes, los niños deben enviar una carta a los reyes enumerando los regalos que quieren y los méritos por los que merecen recibirlos. También es tradición que la noche del 5 de enero los niños dejen sus zapatos en algún lugar de la casa, junto a la puerta, en una ventana; incluso se dejan dulces para obsequiar a los Reyes Magos y agua o comida para los camellos. Al día siguiente se encuentran allí los regalos o, en el caso de haber sido malos, carbón en su lugar (se trata de un dulce de feo aspecto pero golosina, al fin y al cabo). El día 6 de enero es festivo en toda España. La escalada consumista ha conseguido que también reciban regalos los adultos, en ocasiones usando el juego del amigo invisible. Es típico desayunar el Roscón de Reyes que en muchos lugares puede comerse la víspera, para merendar o, como postre, en la cena. En España estos roscones suelen contener una figurilla, popularmente conocida como “la sorpresa”."
   },
   {
    "n": 79,
@@ -1110,7 +1118,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "El día 5 de enero",
     "La noche del 5 al 6 de enero"
    ],
-   "a": 1
+   "a": 1,
+   "psg": "COSTUMBRES RELACIONADAS CON LOS REYES MAGOS En España, la tradición dice que los regalos de Navidad a los niños los traen los Reyes Magos la noche del 5 al 6 de enero, compitiendo con la reciente introducción de Papá Noel en las costumbres navideñas debido a la influencia de otras culturas. Antes, los niños deben enviar una carta a los reyes enumerando los regalos que quieren y los méritos por los que merecen recibirlos. También es tradición que la noche del 5 de enero los niños dejen sus zapatos en algún lugar de la casa, junto a la puerta, en una ventana; incluso se dejan dulces para obsequiar a los Reyes Magos y agua o comida para los camellos. Al día siguiente se encuentran allí los regalos o, en el caso de haber sido malos, carbón en su lugar (se trata de un dulce de feo aspecto pero golosina, al fin y al cabo). El día 6 de enero es festivo en toda España. La escalada consumista ha conseguido que también reciban regalos los adultos, en ocasiones usando el juego del amigo invisible. Es típico desayunar el Roscón de Reyes que en muchos lugares puede comerse la víspera, para merendar o, como postre, en la cena. En España estos roscones suelen contener una figurilla, popularmente conocida como “la sorpresa”."
   },
   {
    "n": 80,
@@ -1123,7 +1132,8 @@ window.APP_EXAM_PAPERS['tou-107-1-l008'] = {
     "para desayunar, merendar o cenar cualquier día",
     "el día de los Reyes Magos y también el día anterior"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "COSTUMBRES RELACIONADAS CON LOS REYES MAGOS En España, la tradición dice que los regalos de Navidad a los niños los traen los Reyes Magos la noche del 5 al 6 de enero, compitiendo con la reciente introducción de Papá Noel en las costumbres navideñas debido a la influencia de otras culturas. Antes, los niños deben enviar una carta a los reyes enumerando los regalos que quieren y los méritos por los que merecen recibirlos. También es tradición que la noche del 5 de enero los niños dejen sus zapatos en algún lugar de la casa, junto a la puerta, en una ventana; incluso se dejan dulces para obsequiar a los Reyes Magos y agua o comida para los camellos. Al día siguiente se encuentran allí los regalos o, en el caso de haber sido malos, carbón en su lugar (se trata de un dulce de feo aspecto pero golosina, al fin y al cabo). El día 6 de enero es festivo en toda España. La escalada consumista ha conseguido que también reciban regalos los adultos, en ocasiones usando el juego del amigo invisible. Es típico desayunar el Roscón de Reyes que en muchos lugares puede comerse la víspera, para merendar o, como postre, en la cena. En España estos roscones suelen contener una figurilla, popularmente conocida como “la sorpresa”."
   }
  ]
 };

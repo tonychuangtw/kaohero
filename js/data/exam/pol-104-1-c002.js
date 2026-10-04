@@ -360,7 +360,7 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "appropriately",
     "accidentally",
     "adequately",
-    "apparently請依下文回答第 25 題至第 27 題：A long healthy life is no accident. It begins with good genes, but it also ＿＿＿ 25 good habits. If you adopt the right"
+    "apparently"
    ],
    "a": 3,
    "exp": "✅ (D) apparently 意為「顯然地」，副詞修飾後方子句，根據前文半數聽眾都已睡著的現象，合理推斷出「這場演講顯然非常無聊」。\n❌ (A) appropriately 意為「適當地」，無法用來由現象合理推論演講無聊之因果關係。\n❌ (B) accidentally 意為「意外地、偶然地」，聽眾睡著與演講無聊並非純屬意外。\n❌ (C) adequately 意為「充分地、足夠地」，多修飾程度或能力，不合此處推論語境。\n📚 出處：副詞邏輯連接與情境推論（apparently 顯然）。"
@@ -369,46 +369,43 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
    "n": 25,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 25 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "depends on",
+    "leads to",
+    "results in",
+    "changes into"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_25.webp"
+   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth."
   },
   {
    "n": 26,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 26 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "Founded",
+    "Fond",
+    "Funded",
+    "Functioned"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_26.webp"
+   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth."
   },
   {
    "n": 27,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 27 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "longitude",
+    "altitude",
+    "attitude",
+    "longevity"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_27.webp"
+   "psg": "lifestyle, experts say, chances are you may live up to a decade longer. So what’s the formula for success? In recent years researchers have fanned out across the globe to find the secrets to long life. 26 in part by the US National Institute on Aging, scientists have focused on several regions where people live significantly longer. In Sardinia, Italy, one team of demographers found a hot spot of 27 in mountain villages where men reach age 100 at an amazing rate. On the islands of Okinawa, Japan, another team examined a group that is among the longest lived on earth."
   },
   {
    "n": 28,
@@ -695,7 +692,7 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
     "nomination",
     "confusion",
     "occupation",
-    "permission請依下文回答第 47 題至第 50 題：Denali National ParkOne of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest"
+    "permission"
    ],
    "a": 1,
    "exp": "✅ (B) confusion 意為「困惑、混亂」，政府立場矛盾的報導引發了公眾對新能源政策的廣泛困惑（widespread public confusion），因果關係契合。\n❌ (A) nomination 意為「提名」，多用於公職或獎項提名，與政策立場報導無關。\n❌ (C) occupation 意為「職業、佔領」，不可指大眾面對矛盾訊息時產生的心理狀態。\n❌ (D) permission 意為「許可、准許」，不合民眾因報導不一而無所適從的語境。\n📚 出處：名詞詞義辨析與因果邏輯搭配（lead to confusion）。"
@@ -704,61 +701,57 @@ window.APP_EXAM_PAPERS['pol-104-1-c002'] = {
    "n": 47,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 47 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "landed",
+    "situated",
+    "occupied",
+    "enclosed"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_47.webp"
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
   },
   {
    "n": 48,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 48 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "companions",
+    "fragments",
+    "substances",
+    "species"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_48.webp"
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
   },
   {
    "n": 49,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 49 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "relate to",
+    "focus on",
+    "serve as",
+    "come from"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_49.webp"
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
   },
   {
    "n": 50,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 50 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "to",
+    "in",
+    "at",
+    "from"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/104070_401_0204_50.webp"
+   "psg": "Denali National Park One of the most well-known parks in Alaska is Denali National Park. It is home to Mt. McKinley, the tallest mountain in North America. The park is 47 in the middle of the state, north of Anchorage, and is included on most Alaska cruise tour itineraries. The 6 million acres that comprise the park are complete subarctic eco-system with 750 48 of flowering plants and over 200 birds and mammals. The park is a popular destination for tourists looking to hike, camp and view wildlife, and the grounds of the preserve also 49 a subject for research in the natural sciences. Bus tours run along the 90-mile Denali Park Road, which is closed 50 private vehicles after Mile 15. Walking and biking are thus great ways to get to know the park. Visitors also enjoy rafting, hiking and flight-seeing."
   }
  ]
 };

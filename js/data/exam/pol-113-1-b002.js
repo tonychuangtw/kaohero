@@ -570,7 +570,7 @@ window.APP_EXAM_PAPERS['pol-113-1-b002'] = {
     "eclipse",
     "fortify",
     "amplify",
-    "strengthen請依下文回答第 41 題至第 45 題Recent societal changes have caused a questioning of the relationship between higher education institutions and"
+    "strengthen"
    ],
    "a": 0,
    "exp": "✅ (A) eclipse 作動詞指「使相形失色、蓋過」。幕僚盤算讓社會動盪之類的議題蓋過疫情危機的聲量，以利總統連任，語意通順。\n❌ (B) fortify 是「強化、鞏固」，會讓疫情危機更受矚目，與策略目的相反。\n❌ (C) amplify 是「放大、擴大」，同樣是凸顯危機，方向不合。\n❌ (D) strengthen 是「加強」，與 fortify、amplify 同屬增強語意，皆不可選。\n📚 出處：動詞 eclipse 的比喻用法"
@@ -579,76 +579,71 @@ window.APP_EXAM_PAPERS['pol-113-1-b002'] = {
    "n": 41,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 41 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "competing",
+    "confusing",
+    "complimented",
+    "contrived"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_301_0504_41.webp"
+   "psg": "Recent societal changes have caused a questioning of the relationship between higher education institutions and their hosting state governments. While there have been an increasing number of 41 causes and agencies, such as prisons and health care, funding for higher education institutions has not increased. Some state governments have even challenged institutional 42 of right to funding by providing funding to the student rather than the institution. Most recently, some governments even assigned funding according to certain performance 43 deemed appropriate and necessary to the state. 44 , some institutions have openly challenged the state’s authority in assigning governing board members. Some have radically increased tuition and become 45 on fundraising. Others have eliminated programs or restricted enrollment of high-cost programs."
   },
   {
    "n": 42,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 42 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "complacence",
+    "claims",
+    "conceit",
+    "capabilities"
    ],
    "a": 1,
-   "needfig": true,
-   "fig": "img/q/113060_301_0504_42.webp"
+   "psg": "Recent societal changes have caused a questioning of the relationship between higher education institutions and their hosting state governments. While there have been an increasing number of 41 causes and agencies, such as prisons and health care, funding for higher education institutions has not increased. Some state governments have even challenged institutional 42 of right to funding by providing funding to the student rather than the institution. Most recently, some governments even assigned funding according to certain performance 43 deemed appropriate and necessary to the state. 44 , some institutions have openly challenged the state’s authority in assigning governing board members. Some have radically increased tuition and become 45 on fundraising. Others have eliminated programs or restricted enrollment of high-cost programs."
   },
   {
    "n": 43,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 43 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "magnitude",
+    "manners",
+    "measures",
+    "manifesto"
    ],
    "a": 2,
-   "needfig": true,
-   "fig": "img/q/113060_301_0504_43.webp"
+   "psg": "Recent societal changes have caused a questioning of the relationship between higher education institutions and their hosting state governments. While there have been an increasing number of 41 causes and agencies, such as prisons and health care, funding for higher education institutions has not increased. Some state governments have even challenged institutional 42 of right to funding by providing funding to the student rather than the institution. Most recently, some governments even assigned funding according to certain performance 43 deemed appropriate and necessary to the state. 44 , some institutions have openly challenged the state’s authority in assigning governing board members. Some have radically increased tuition and become 45 on fundraising. Others have eliminated programs or restricted enrollment of high-cost programs."
   },
   {
    "n": 44,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 44 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "In addition",
+    "In sum",
+    "In conclusion",
+    "In response"
    ],
    "a": 3,
-   "needfig": true,
-   "fig": "img/q/113060_301_0504_44.webp"
+   "psg": "Recent societal changes have caused a questioning of the relationship between higher education institutions and their hosting state governments. While there have been an increasing number of 41 causes and agencies, such as prisons and health care, funding for higher education institutions has not increased. Some state governments have even challenged institutional 42 of right to funding by providing funding to the student rather than the institution. Most recently, some governments even assigned funding according to certain performance 43 deemed appropriate and necessary to the state. 44 , some institutions have openly challenged the state’s authority in assigning governing board members. Some have radically increased tuition and become 45 on fundraising. Others have eliminated programs or restricted enrollment of high-cost programs."
   },
   {
    "n": 45,
    "pt": 1,
    "type": "single",
-   "q": "（本題題幹與選項都在圖上，請見下圖作答）",
+   "q": "依短文選出第 45 格最適合的答案",
    "o": [
-    "",
-    "",
-    "",
-    ""
+    "reliant",
+    "redundant",
+    "rebellious",
+    "ruthless"
    ],
    "a": 0,
-   "needfig": true,
-   "fig": "img/q/113060_301_0504_45.webp"
+   "psg": "Recent societal changes have caused a questioning of the relationship between higher education institutions and their hosting state governments. While there have been an increasing number of 41 causes and agencies, such as prisons and health care, funding for higher education institutions has not increased. Some state governments have even challenged institutional 42 of right to funding by providing funding to the student rather than the institution. Most recently, some governments even assigned funding according to certain performance 43 deemed appropriate and necessary to the state. 44 , some institutions have openly challenged the state’s authority in assigning governing board members. Some have radically increased tuition and become 45 on fundraising. Others have eliminated programs or restricted enrollment of high-cost programs."
   },
   {
    "n": 46,

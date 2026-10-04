@@ -990,7 +990,7 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "Alors",
     "Quoique",
     "Malgré",
-    "Quoi queLe tourisme en FranceLe tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première"
+    "Quoi que"
    ],
    "a": 1,
    "exp": "✅ (B) 原句為「Pierre 雖然生病，仍去上學」，需表讓步的連接詞，quoique 意為「雖然」，後接虛擬式 soit，正確。\n❌ (A) Alors 為副詞，不能引導讓步子句，且不接虛擬式。\n❌ (C) Malgré 為介系詞，後須接名詞而非子句（malgré sa maladie）。\n❌ (D) Quoi que 意為「不論什麼」，寫成兩字，與表讓步的 quoique（雖然）不同。\n📚 出處：法語讓步連接詞 quoique + 虛擬式，及 malgré／quoi que 之區辨"
@@ -1006,7 +1006,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "des vacanciers d’Europe du Nord",
     "de toutes sortes de touristes"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Le tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première destination touristique au monde. Bien qu’une partie des visiteurs étrangers soient simplement en transit (vacanciers d’Europe du Nord se rendant en Espagne, par exemple), la plupart viennent passer leurs vacances en France. S’y ajoute la part des nationaux qui choisissent de rester en France pour leurs vacances. L’attractivité touristique de la France s’explique par la grande variété des points d’intérêt et leur nombre important, la diversité des paysages, la richesse du patrimoine historique et artistique, le climat tempéré et la facilité d’accès, mais aussi par l’équipement du pays en structures d’accueil (hôtellerie, parcs d’attractions...) et en infrastructures de transport. Ainsi chaque département français est un département touristique avec plusieurs points d’intérêt. Le secteur du tourisme est une des branches essentielles pour le commerce extérieur de la France. Il contribue de manière positive au solde des échanges extérieur, de manière comparable à celui du secteur agro-alimentaire (8.5 milliards en 2006) et même supérieur à celui de l’automobile en 2006. La balance entre dépenses des touristes étrangers en France et celle des touristes français à l’étranger, dégage un solde positif de 11.4 milliards d’euros."
   },
   {
    "n": 72,
@@ -1019,7 +1020,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "est le pays qui attire le plus des touristes",
     "est un pays qui ne reçoit que des vacanciers étrangers"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première destination touristique au monde. Bien qu’une partie des visiteurs étrangers soient simplement en transit (vacanciers d’Europe du Nord se rendant en Espagne, par exemple), la plupart viennent passer leurs vacances en France. S’y ajoute la part des nationaux qui choisissent de rester en France pour leurs vacances. L’attractivité touristique de la France s’explique par la grande variété des points d’intérêt et leur nombre important, la diversité des paysages, la richesse du patrimoine historique et artistique, le climat tempéré et la facilité d’accès, mais aussi par l’équipement du pays en structures d’accueil (hôtellerie, parcs d’attractions...) et en infrastructures de transport. Ainsi chaque département français est un département touristique avec plusieurs points d’intérêt. Le secteur du tourisme est une des branches essentielles pour le commerce extérieur de la France. Il contribue de manière positive au solde des échanges extérieur, de manière comparable à celui du secteur agro-alimentaire (8.5 milliards en 2006) et même supérieur à celui de l’automobile en 2006. La balance entre dépenses des touristes étrangers en France et celle des touristes français à l’étranger, dégage un solde positif de 11.4 milliards d’euros."
   },
   {
    "n": 73,
@@ -1032,7 +1034,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "la France regroupe toutes les meilleures conditions touristique",
     "la France possède la meilleure richesse du patrimoine historique"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première destination touristique au monde. Bien qu’une partie des visiteurs étrangers soient simplement en transit (vacanciers d’Europe du Nord se rendant en Espagne, par exemple), la plupart viennent passer leurs vacances en France. S’y ajoute la part des nationaux qui choisissent de rester en France pour leurs vacances. L’attractivité touristique de la France s’explique par la grande variété des points d’intérêt et leur nombre important, la diversité des paysages, la richesse du patrimoine historique et artistique, le climat tempéré et la facilité d’accès, mais aussi par l’équipement du pays en structures d’accueil (hôtellerie, parcs d’attractions...) et en infrastructures de transport. Ainsi chaque département français est un département touristique avec plusieurs points d’intérêt. Le secteur du tourisme est une des branches essentielles pour le commerce extérieur de la France. Il contribue de manière positive au solde des échanges extérieur, de manière comparable à celui du secteur agro-alimentaire (8.5 milliards en 2006) et même supérieur à celui de l’automobile en 2006. La balance entre dépenses des touristes étrangers en France et celle des touristes français à l’étranger, dégage un solde positif de 11.4 milliards d’euros."
   },
   {
    "n": 74,
@@ -1045,7 +1048,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "les provinces ont aussi leur atout",
     "le transport en province est très développé"
    ],
-   "a": 2
+   "a": 2,
+   "psg": "Le tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première destination touristique au monde. Bien qu’une partie des visiteurs étrangers soient simplement en transit (vacanciers d’Europe du Nord se rendant en Espagne, par exemple), la plupart viennent passer leurs vacances en France. S’y ajoute la part des nationaux qui choisissent de rester en France pour leurs vacances. L’attractivité touristique de la France s’explique par la grande variété des points d’intérêt et leur nombre important, la diversité des paysages, la richesse du patrimoine historique et artistique, le climat tempéré et la facilité d’accès, mais aussi par l’équipement du pays en structures d’accueil (hôtellerie, parcs d’attractions...) et en infrastructures de transport. Ainsi chaque département français est un département touristique avec plusieurs points d’intérêt. Le secteur du tourisme est une des branches essentielles pour le commerce extérieur de la France. Il contribue de manière positive au solde des échanges extérieur, de manière comparable à celui du secteur agro-alimentaire (8.5 milliards en 2006) et même supérieur à celui de l’automobile en 2006. La balance entre dépenses des touristes étrangers en France et celle des touristes français à l’étranger, dégage un solde positif de 11.4 milliards d’euros."
   },
   {
    "n": 75,
@@ -1058,7 +1062,8 @@ window.APP_EXAM_PAPERS['tou-103-1-l006'] = {
     "le solde du tourisme français est négatif",
     "le solde du tourisme français est positif"
    ],
-   "a": 3
+   "a": 3,
+   "psg": "Le tourisme en France est une activité importante pour le pays. La France est depuis les années 1990 la première destination touristique au monde. Bien qu’une partie des visiteurs étrangers soient simplement en transit (vacanciers d’Europe du Nord se rendant en Espagne, par exemple), la plupart viennent passer leurs vacances en France. S’y ajoute la part des nationaux qui choisissent de rester en France pour leurs vacances. L’attractivité touristique de la France s’explique par la grande variété des points d’intérêt et leur nombre important, la diversité des paysages, la richesse du patrimoine historique et artistique, le climat tempéré et la facilité d’accès, mais aussi par l’équipement du pays en structures d’accueil (hôtellerie, parcs d’attractions...) et en infrastructures de transport. Ainsi chaque département français est un département touristique avec plusieurs points d’intérêt. Le secteur du tourisme est une des branches essentielles pour le commerce extérieur de la France. Il contribue de manière positive au solde des échanges extérieur, de manière comparable à celui du secteur agro-alimentaire (8.5 milliards en 2006) et même supérieur à celui de l’automobile en 2006. La balance entre dépenses des touristes étrangers en France et celle des touristes français à l’étranger, dégage un solde positif de 11.4 milliards d’euros."
   },
   {
    "n": 76,
