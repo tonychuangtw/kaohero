@@ -741,7 +741,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
     "emergent"
    ],
    "a": 0,
-   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time.",
+   "exp": "✅ (A) 「preventive maintenance」意為「預防性保養」，指定期檢查保養以防故障，與後句「確保車輛維持有效可用」的目的相符。\n❌ (B) 「articulate」意為「表達清楚的；有關節的」，無法修飾 maintenance，語意不通。\n❌ (C) 「cosmetic」意為「外觀上的、表面的」，外觀保養無法確保車輛的可用性，與文意不符。\n❌ (D) 「emergent」意為「新興的；緊急出現的」，與定期、事前的保養概念不合。\n📚 出處：英文字彙與克漏字－preventive maintenance（預防性保養）之搭配用法。"
   },
   {
    "n": 53,
@@ -755,7 +756,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
     "compress"
    ],
    "a": 1,
-   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time.",
+   "exp": "✅ (B) 「complete」意為「完成」，句意為「完成這些（檢查保養）程序所需的時間，與受檢區域的可達性直接相關」，語意最通順。\n❌ (A) 「compensate」意為「補償」，「補償這些程序」語意不通。\n❌ (C) 「comprehend」意為「理解」，花時間「理解」保養程序與上下文談作業耗時不符。\n❌ (D) 「compress」意為「壓縮」，「壓縮這些程序」不合文意，且與後述可達性影響時間的邏輯不符。\n📚 出處：英文字彙與克漏字－動詞辨義（complete / compensate / comprehend / compress）。"
   },
   {
    "n": 54,
@@ -769,7 +771,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
     "facility"
    ],
    "a": 3,
-   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time.",
+   "exp": "✅ (D) 「facility」在此指「便利、容易進行（某事）的條件」，句意為「車輛設計必須提供這種（便於檢修的）便利性」，承接前文的 accessibility。\n❌ (A) 「record」意為「紀錄」，車輛設計提供「紀錄」與檢修可達性無關。\n❌ (B) 「direction」意為「方向；指示」，與前文所述檢修便利性不相呼應。\n❌ (C) 「administration」意為「管理；行政」，車輛設計無法提供「管理」，語意不合。\n📚 出處：英文字彙與克漏字－facility 作「便利、容易」之字義。"
   },
   {
    "n": 55,
@@ -783,7 +786,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b014'] = {
     "measurement"
    ],
    "a": 2,
-   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time."
+   "psg": "In the fire department, all vehicles will require regular inspection of every aspect of their structure, systems, and operational functions. Servicing and 52 maintenance will ensure, as far as is practicable, that the vehicle will remain effectively available. The time taken to 53 these processes will be directly related to the accessibility of all the areas to be inspected and serviced and the design of the vehicle must provide this 54 . Additionally, in anticipation of the need to remove a major component, such as the engine, pump, tank, or 55 system, removable panels and suitable lifting connections must be in place to ensure that removal and replacement does not entail unacceptable extension of down-time.",
+   "exp": "✅ (C) 句中列舉消防車的主要組件：引擎、幫浦、水箱，以及「foam-making system（泡沫產生系統）」，皆為消防車上需吊裝拆換的大型設備。\n❌ (A) 「metal-detection system（金屬探測系統）」屬安檢設備，並非消防車的主要組件。\n❌ (B) 「sprinkler system（撒水系統）」是建築物內的固定消防設備，並非消防車搭載的系統。\n❌ (D) 「measurement system（測量系統）」語意籠統，不屬於與引擎、幫浦並列的大型可拆換組件。\n📚 出處：消防專業英文－消防車構造（pump、tank、foam-making system）。"
   },
   {
    "n": 56,
