@@ -755,7 +755,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "all"
    ],
    "a": 3,
-   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses.",
+   "exp": "✅ (D) 固定片語「at all times」意為「隨時、無時無刻」，句意為「在社區所有區域隨時進行顯眼且積極的巡邏可預防犯罪」，與前面「in all areas」相呼應。\n❌ (A) 不定冠詞「a」不能接複數名詞「times」，「at a time」意為「一次、每次」，不合文意。\n❌ (B) 「what」為疑問詞或關係代名詞，無法直接修飾「times」構成時間片語。\n❌ (C) 「which」為疑問詞或關係代名詞，「at which times」需接子句，此處後面直接接動詞 prevents，文法不通。\n📚 出處：英文文法（固定片語 at all times）；警察學（Kansas City 預防巡邏實驗）。"
   },
   {
    "n": 54,
@@ -769,7 +770,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "Erased"
    ],
    "a": 1,
-   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses.",
+   "exp": "✅ (B) 「Funded with a Police Foundation grant」為分詞構句，意為「由警察基金會補助經費」，「fund（資助）」與「grant（補助款）」語意搭配，主詞 experiment 為被資助者，故用過去分詞。\n❌ (A) 「participate」為不及物動詞，須接 in，且「參與補助款」語意不通。\n❌ (C) 「decay」意為「腐爛、衰退」，與補助款無關。\n❌ (D) 「erase」意為「抹除」，與補助款語意不合。\n📚 出處：英文字彙（fund／grant 搭配）；英文文法（分詞構句）。"
   },
   {
    "n": 55,
@@ -783,7 +785,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "executed"
    ],
    "a": 2,
-   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses.",
+   "exp": "✅ (C) 「divide A into B」意為「將 A 分成 B」，句意為「把涵蓋 32 平方英里的轄區分成反應式、主動式與控制組巡邏區」，與後面 into 呼應，正是實驗分組設計。\n❌ (A) 「behave」意為「舉止表現」，為不及物動詞，不能接受詞 areas。\n❌ (B) 「collect」意為「收集」，不與 into 搭配表示分組。\n❌ (D) 「execute」意為「執行、處決」，「執行轄區成三類」語意不通。\n📚 出處：英文字彙（divide…into 片語）；警察學（Kansas City 預防巡邏實驗設計）。"
   },
   {
    "n": 56,
@@ -797,7 +800,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "categories"
    ],
    "a": 0,
-   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses."
+   "psg": "The Kansas City preventive patrol experiment was a large-scale test of one of policing’s most cherished doctrines: conspicuous and aggressive patrol in all areas of the community at 53 times prevents crime and reduces the public’s fear of crime. 54 with a Police Foundation grant, this 12-month experiment 55 geographical areas or beats covering 32 square miles into reactive, proactive and control beats to test the doctrine of conspicuous and aggressive patrol. The findings were controversial and included such data as no significant 56 in reported crime or arrests across the three types of beat and no significant differences in security measures taken by citizens and businesses.",
+   "exp": "✅ (A) 「deviation」意為「偏差、差異」，句意為「三種巡邏區的報案犯罪數或逮捕數沒有顯著差異」，與後面「no significant differences」相互對應，正是該實驗「增減巡邏對犯罪無顯著影響」的結論。\n❌ (B) 「types」意為「類型」，「報案犯罪沒有顯著類型」語意不通。\n❌ (C) 「models」意為「模型」，與統計結果的敘述不合。\n❌ (D) 「categories」意為「類別」，「沒有顯著類別」不符實驗結果描述。\n📚 出處：英文字彙（significant deviation 統計用語）；警察學（Kansas City 預防巡邏實驗結論）。"
   },
   {
    "n": 57,
@@ -811,7 +815,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "being confined"
    ],
    "a": 2,
-   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use.",
+   "exp": "✅ (C) 介系詞「by」後面須接名詞或動名詞，「by confining offenders」意為「藉由監禁受刑人（來保護社會）」，主動語態接受詞 offenders。\n❌ (A) 原形動詞「confine」不能直接置於介系詞之後。\n❌ (B) 過去分詞「confined」不能單獨作介系詞受詞，且表被動，與後接受詞 offenders 不合。\n❌ (D) 「being confined」為被動動名詞，後面不能再接受詞 offenders，且語意變成「社會被監禁」。\n📚 出處：英文文法（介系詞後接動名詞；主動與被動動名詞）。"
   },
   {
    "n": 58,
@@ -825,7 +830,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "being controlled"
    ],
    "a": 1,
-   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use.",
+   "exp": "✅ (B) 過去分詞「controlled」作形容詞修飾名詞 environments，表被動，「controlled environments」意為「受管控的環境」，指監獄是被管制的場所。\n❌ (A) 「control」作名詞修飾 environments 構成複合名詞，語意變成「控制用的環境」，不符慣用說法。\n❌ (C) 現在分詞「controlling」表主動，意為「（環境）在控制別人」，語意不當。\n❌ (D) 「being controlled」強調進行中的被動，不用於名詞前作前置修飾語。\n📚 出處：英文文法（分詞作形容詞：過去分詞表被動）。"
   },
   {
    "n": 59,
@@ -839,7 +845,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "parole"
    ],
    "a": 0,
-   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use.",
+   "exp": "✅ (A) 「law-abiding citizens」意為「守法的公民」，句意為「提供工作及自我提升機會，協助受刑人成為守法公民」，符合矯正機關的更生目標。\n❌ (B) 「illegal」意為「非法的」，協助受刑人成為非法公民與矯正目的相反。\n❌ (C) 「criminal」意為「犯罪的」，與協助更生的語意矛盾。\n❌ (D) 「parole」為名詞「假釋」，不能作形容詞修飾 citizens，且語意不合。\n📚 出處：英文字彙（law-abiding）；犯罪矯正學（監獄矯正與更生目標）。"
   },
   {
    "n": 60,
@@ -853,7 +860,8 @@ window.APP_EXAM_PAPERS['pol-105-1-b006'] = {
     "inmates"
    ],
    "a": 3,
-   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use."
+   "psg": "The mission of the prison is to protect society by 57 offenders in the 58 environments of prisons that provide work and other self-improvement opportunities to assist offenders in becoming 59 citizens. Prison authorities must ensure that no escapes or disturbances occur in its facilities, and ensure the physical safety of all 60 through the elimination of violence, predatory behavior, gang activity, and drug use.",
+   "exp": "✅ (D) 「inmates」意為「受刑人、收容人」，句意為「藉由消除暴力、掠奪行為、幫派活動與毒品，確保所有收容人的人身安全」，這些行為都發生在收容人之間，保護對象即收容人。\n❌ (A) 「police officers」為警察，不在監獄內服勤，非監獄應確保安全的主要對象。\n❌ (B) 「prosecutors」為檢察官，不在監獄內，與幫派、毒品等獄內問題無關。\n❌ (C) 「correctional officers」為矯正人員（管理員），是執行管理、消除暴力的一方，而非文中所指受保護的「所有」對象。\n📚 出處：英文字彙（inmate／correctional officer）；犯罪矯正學（監獄戒護安全管理）。"
   }
  ]
 };
