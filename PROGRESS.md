@@ -9,7 +9,7 @@ NEXT_ACTION: ▶ 10/04 22:14 週額度重置後已重開 exp-worker、essay-ref-
 　（21:46 週額度 95% 暫停過一次；重開指令：systemctl --user start exp-worker；申論兩支：
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig；先 systemctl --user reset-failed）
-　剩：閱讀測驗詳解 75 卷 384 題；申論 warn 題 5,277 題。全部寫完才改 done。
+　✅ 閱讀測驗詳解 22:55 收工（這輪合計 1,595 題，跳 27）。剩申論 warn 題（23:58 剩 4,560 題，約 410 題／時，預估 10/05 中午前後），寫完就改 done。
 　✅ 22:55 Tony 加好 www→apex 轉址（301，保留路徑與參數），seoaeo SEO 83%／AEO 70%，host-canonical ✅
 　✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
 　10/04 19:48 Tony 問還有什麼沒做 → 回建議順序（msg 1099），19:50 Tony「好」→ 依序做：
@@ -175,7 +175,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 22:15 台北（週額度重置，三支批次已重開）
+UPDATED: 2026-10-04 23:59 台北（只剩申論 warn 題兩支批次）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
