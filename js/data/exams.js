@@ -66108,7 +66108,7 @@ window.APP_EXAMS = [
   "subjName": "外國語（德語）",
   "label": "109 年　領隊人員　外國語（德語）",
   "n": 80,
-  "exp": 70,
+  "exp": 80,
   "mins": 80
  },
  {
