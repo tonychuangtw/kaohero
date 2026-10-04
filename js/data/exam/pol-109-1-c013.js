@@ -657,7 +657,8 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "attractive"
    ],
    "a": 3,
-   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires.",
+   "exp": "✅ (D) 「attractive」意為「有吸引力的」。前文說房價高漲，地下室的附屬套房兼具「房貸幫手」與「平價住宅」兩種功能，所以對屋主來說是一個「有吸引力的選擇」（an attractive option），語意最通順。\n❌ (A) 「offending」意為「冒犯的、違規的」，帶負面意味，與「兼具兩種好處」的語境相反。\n❌ (B) 「eloquent」意為「雄辯的、有口才的」，用來形容人或言詞，不能修飾 option。\n❌ (C) 「inventive」意為「有創意的、善於發明的」，多形容人或設計，無法表達此處「划算、受歡迎」的意思。\n📚 出處：英文克漏字－形容詞語意辨析（attractive option）"
   },
   {
    "n": 47,
@@ -671,7 +672,8 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "inspected"
    ],
    "a": 0,
-   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires.",
+   "exp": "✅ (A) 「installed」意為「被安裝、設置」。句意為「許多套房是在沒有依規定申請程序的情況下設置的」，be installed 用於指加蓋、設置套房或設備，與後句「因此不太可能符合安全標準」前後呼應。\n❌ (B) 「insured」意為「被投保」，投保與「是否依法定程序」無直接關係，接不上後文的安全標準。\n❌ (C) 「insulated」意為「被隔熱、絕緣」，是建材處理，不是「未經規定程序」所描述的動作。\n❌ (D) 「inspected」意為「被檢查」；若已被檢查，就不會「沒有依規定程序」且不符安全標準，語意矛盾。\n📚 出處：英文克漏字－動詞語意辨析（install／insure／insulate／inspect）"
   },
   {
    "n": 48,
@@ -685,7 +687,8 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "expected"
    ],
    "a": 2,
-   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires.",
+   "exp": "✅ (C) 「unlikely」意為「不太可能的」，be unlikely to 原形動詞＝「不太可能做…」。前句說套房沒依規定程序設置，「因此（therefore）不太可能符合安全標準」，因果關係合理，下句也說「這特別令人擔憂」。\n❌ (A) 「probably」是副詞，be probably to 不合文法，而且「可能符合標準」與 therefore 的因果相反。\n❌ (B) 「required」意為「被要求」，be required to meet 是「被規定要符合」，與「未依規定程序」接不上。\n❌ (D) 「expected」意為「被預期會」，be expected to meet 表示預期會符合標準，與後句「令人擔憂」矛盾。\n📚 出處：英文克漏字－be unlikely to 句型與上下文因果判斷"
   },
   {
    "n": 49,
@@ -699,7 +702,8 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "why"
    ],
    "a": 2,
-   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires.",
+   "exp": "✅ (C) 固定片語「when it comes to＋名詞／動名詞」意為「談到…、就…而言」。本句「This is particularly worrying when it comes to electrical wiring」＝「就電線配線而言，這一點特別令人擔憂」。\n❌ (A) 「where」引導地點子句，沒有 where it comes to 這個慣用語。\n❌ (B) 「there」是副詞或虛主詞，無法引導子句連接前後句，文法不通。\n❌ (D) 「why」引導原因，why it comes to 不是慣用說法，語意也不通。\n📚 出處：英文慣用語－when it comes to（談到、就…而言）"
   },
   {
    "n": 50,
@@ -713,7 +717,8 @@ window.APP_EXAM_PAPERS['pol-109-1-c013'] = {
     "assess"
    ],
    "a": 1,
-   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires."
+   "psg": "The higher risk of basement fires has significant implications for British Columbia. In this province, high housing prices have made secondary suites--often located on a home’s lower level--an 46 option as both a mortgage helper and a source of affordable housing. Many suites are 47 without following the required regulatory process and are therefore 48 to meet safety standards. This is particularly worrying 49 it comes to electrical wiring, due to the risk for fires and other electrical injuries. To 50 this risk, it is suggested that an inspection scheme focusing on electrical safety, and basements in particular, would be effective in reducing the overall burden of electrical fires.",
+   "exp": "✅ (B) 「limit」意為「限制、降低」。後文說建議實施以電氣安全為重點的檢查制度，可以有效「減少」電氣火災的整體負擔，所以前面目的不定詞是「為了限制這個風險」（To limit this risk）。\n❌ (A) 「increase」意為「增加」，與後文「減少電氣火災」的目的相反。\n❌ (C) 「identify」意為「辨識、找出」，檢查制度雖可找出問題，但句末強調的是 reducing（降低），用 limit 才與結果一致。\n❌ (D) 「assess」意為「評估」，只是衡量風險高低，不能表達後文「有效降低火災負擔」的目的。\n📚 出處：英文克漏字－動詞語意辨析與上下文目的判斷（limit the risk）"
   }
  ]
 };
