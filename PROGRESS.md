@@ -22,6 +22,12 @@ NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題）�
 　　　 20:29 Tony 問 GitHub Pages 快滿怎麼辦 → 建議搬 Cloudflare Pages（免費、無 1GB 上限、限 2 萬檔；現 15,705 檔＋申論 1,496）
 　　　 ＋題目圖片 img/q 5,216 張搬 R2（免費 10GB），等 Tony 開 Pages＋R2 編輯權限的 API token（~/.config/cloudflare/kaohero.env 那支只有 DNS）（msg 1109）。
 　　　 上線後要做：essay-ref-batch.sh 每批 set 完跑 build-essay-pages.js --only <key> --write、git add essay/
+　　🔄⑤ 搬 Cloudflare Pages（20:40 Tony「搬. 帶我做」）：已傳步驟（msg 1113）請他開 R2、建 token（Pages／R2／DNS Edit）、給 Account ID，等回覆。
+　　　 已備好：js/config.js IMG_BASE＋window.khImg（目前留空）、tools/cf-deploy.sh（R2 上傳新題圖→rsync 到 ~/.cache/kaohero-deploy→wrangler pages deploy）、404.html
+　　　 拿到 token 後：存 ~/.config/cloudflare/kaohero.env（CF_PAGES_TOKEN、CF_ACCOUNT_ID）→ API 建 Pages 專案 kaohero、R2 bucket kaohero-img＋自訂網域 img.kaohero.com
+　　　 → cf-deploy.sh --force（首次 R2 上傳 5,213 張約 25 分）→ 驗 kaohero.pages.dev → IMG_BASE='https://img.kaohero.com/' 重產 exam 頁
+　　　 → Pages 綁 kaohero.com＋www、刪 4 筆 A 記錄（改 CNAME 到 kaohero.pages.dev）→ 驗正式站 → 建 cf-deploy.timer（每 10 分）→ 申論頁上線
+　　　 ⚠ 背景批次的 git commit 會把「已 git add 但還沒 commit」的檔一起收走：自己 commit 時 add 與 commit 要同一行連著下
 　　　 ⚠ GitHub Pages 整站 1GB 上限：10/04 工作樹已約 780MB（img 243M、exam 188M、js/data/essay 143M），加東西前先算容量
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
