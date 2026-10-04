@@ -419,7 +419,8 @@ window.APP_EXAM_PAPERS['pol-108-1-c002'] = {
     "charge"
    ],
    "a": 1,
-   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living.",
+   "exp": "✅ (B) 「the equivalent of + 金額」意為「相當於…的金額」；印尼女工領的是當地貨幣，文中換算成「相當於 58 美分」的日薪，語意最順。\n❌ (A) balance 意為「餘額、平衡」，「the balance of 58 cents」會變成「58 美分的餘額」，不是在說日薪換算。\n❌ (C) equipment 意為「設備、器材」，為不可數名詞，與工資金額無關。\n❌ (D) charge 意為「費用、收費」，指買方付出的價錢，不能用來描述工人領到的工資。\n📚 出處：克漏字字彙；片語 the equivalent of（相當於）。"
   },
   {
    "n": 30,
@@ -433,7 +434,8 @@ window.APP_EXAM_PAPERS['pol-108-1-c002'] = {
     "so"
    ],
    "a": 2,
-   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living.",
+   "exp": "✅ (C) though 意為「雖然」，引導讓步子句：雖然生產線上的女工似乎很高興有工作，但印尼人力部長承認最低工資不足以餬口，前後語意轉折。\n❌ (A) as 意為「因為、當…時」，表原因或時間，無法表達前後相反的轉折關係。\n❌ (B) until 意為「直到…為止」，表時間終點，放入後句意不通。\n❌ (D) so 意為「所以」，表結果，但部長承認工資過低並非女工高興的結果，因果不成立。\n📚 出處：克漏字文法；連接詞——讓步子句 though／although。"
   },
   {
    "n": 31,
@@ -447,7 +449,8 @@ window.APP_EXAM_PAPERS['pol-108-1-c002'] = {
     "weight"
    ],
    "a": 1,
-   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living."
+   "psg": "In June of 1991, the Economist magazine reported that “a pair of Nike sports shoes that sells for $150 in the United States is made by Indonesian women paid the 29 of 58 cents a day.” The British weekly noted that 30 women on the line seemed glad for their jobs, the Indonesian government manpower minister had admitted that the nation’s official minimum 31 was below what was needed to make a living.",
+   "exp": "✅ (B) minimum wage 意為「最低工資」，是固定搭配；後文說「低於維持生活所需」，正是在談工資水準。\n❌ (A) fee 意為「費用、手續費」，指支付給專業服務或入場的錢，沒有「minimum fee」作為國家法定工資的用法。\n❌ (C) cost 意為「成本、花費」，official minimum cost 語意不明，且與後文「維持生計」不搭。\n❌ (D) weight 意為「重量、分量」，與金錢收入無關。\n📚 出處：克漏字字彙；搭配詞 minimum wage（最低工資）。"
   },
   {
    "n": 32,
