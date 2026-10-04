@@ -545,7 +545,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b002'] = {
     "ignite"
    ],
    "a": 2,
-   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change.",
+   "exp": "✅ (C) increase 意為「增加」。前句說「Don't fix the bad（不要去修正壞的）」，以 but 轉折，後面應是相對的積極作法「增加好的」，即 increase the good，語意通順。\n❌ (A) decline 意為「減少、婉拒」，「減少好的」與維繫婚姻幸福的主旨相反。\n❌ (B) delete 意為「刪除」，「刪除好的」同樣違背文意。\n❌ (D) ignite 意為「點燃、引發」，多接情緒、衝突或火焰，「ignite the good」搭配不自然，也不如 increase 能與 fix the bad 形成對比。\n📚 出處：英文克漏字－上下文轉折語意（but 對比）與動詞詞彙辨析"
   },
   {
    "n": 39,
@@ -559,7 +560,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b002'] = {
     "filtered"
    ],
    "a": 0,
-   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change.",
+   "exp": "✅ (A) focused 意為「集中、聚焦」。固定搭配「focus A on B」（把 A 集中在 B 上），本句 their relationship improvement attempts on changing the partner 正是「把改善關係的努力集中在改變伴侶上」。\n❌ (B) foresaw 為 foresee（預見）的過去式，不與 on 搭配，「預見努力於改變伴侶」語意不通。\n❌ (C) flirted 意為「調情」，flirt with 才是常見用法，與文意無關。\n❌ (D) filtered 意為「過濾」，「把努力過濾在改變伴侶上」語意不通。\n📚 出處：英文克漏字－動詞片語搭配（focus…on…）"
   },
   {
    "n": 40,
@@ -573,7 +575,8 @@ window.APP_EXAM_PAPERS['pol-104-1-b002'] = {
     "harm"
    ],
    "a": 3,
-   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change."
+   "psg": "If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research indicates that when people 39 their relationship improvement attempts on changing the partner, individuals reported more negative improvement strategies, lower improvement success, and, in turn, more negative relationship evaluations. Results suggest that targeting the partner may do more 40 than good despite that relationship evaluations pivot on whether the partner produces change.",
+   "exp": "✅ (D) harm 意為「傷害、壞處」。固定用語「do more harm than good」表示「弊大於利」，與前文「把焦點放在改變伴侶會帶來較負面的策略與關係評價」相符。\n❌ (A) essence 意為「本質」，無「do more essence than good」的用法。\n❌ (B) rattle 意為「嘎嘎聲；使慌亂」，放入句中語意不通。\n❌ (C) components 意為「成分、零件」，與 good 無法形成利弊對比。\n📚 出處：英文克漏字－慣用語（do more harm than good）"
   },
   {
    "n": 41,
