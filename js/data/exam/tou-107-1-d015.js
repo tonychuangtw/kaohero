@@ -980,7 +980,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "akan"
    ],
    "a": 0,
-   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata.",
+   "exp": "✅ (A) 前句說導遊工作「包含很多事」，後句說「導遊不是一份容易的工作」，前因後果，用表示「因此、所以」的「oleh karena itu」連接最通順。\n❌ (B) 「tetapi」意為「但是」，表示轉折，前後句並不相反，語意不合。\n❌ (C) 「meskipun」意為「雖然、儘管」，表示讓步，與「工作繁多所以不容易」的因果關係不符。\n❌ (D) 「akan」是表示未來的助動詞「將要」，不能當連接詞連接兩個子句。\n📚 出處：印尼語連接詞 oleh karena itu／tetapi／meskipun（因果與轉折）"
   },
   {
    "n": 70,
@@ -994,7 +995,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "maka"
    ],
    "a": 2,
-   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata.",
+   "exp": "✅ (C) 「agar」意為「為了、以便」，表示目的：「Agar bisa menjadi seorang pemandu wisata yang profesional」＝「為了能成為一名專業導遊」，後接「必須具備廣博見識」，語意完整。\n❌ (A) 「akan」是未來式助動詞「將要」，放在句首無法表達目的，句子不通。\n❌ (B) 「kalau」意為「如果」，表示假設條件，「如果能成為專業導遊，就必須有廣博見識」語意顛倒，不如目的句貼切。\n❌ (D) 「maka」意為「那麼、於是」，用在結果子句開頭，不能放在表示目的的前置子句。\n📚 出處：印尼語連接詞 agar（目的）／kalau（條件）／maka（結果）"
   },
   {
    "n": 71,
@@ -1008,7 +1010,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "maka"
    ],
    "a": 3,
-   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata."
+   "psg": "Pekerjaan seorang pemandu wisata meliputi banyak hal, 69 pemandu wisata bukanlah pekerjaan yang mudah. 70 bisa menjadi seorang pemandu wisata yang profesional pemandu wisata harus memiliki wawasan luas, 71 harus terus belajar untuk memperdalam pengetahuan dan wawasan adalah tugas seorang pemandu wisata.",
+   "exp": "✅ (D) 前句「導遊必須具備廣博見識」，後句「不斷學習以加深知識與見識是導遊的任務」，是由前句推出的結果，用「maka」（因此、所以）承接最恰當。\n❌ (A) 「akan」是助動詞「將要」，不能連接兩個子句。\n❌ (B) 「kalau」意為「如果」，引導條件句，放在此處變成「如果必須不斷學習」，語意不通。\n❌ (C) 「agar」意為「為了」，表示目的，與前句「必須有廣博見識」的因果承接關係不符。\n📚 出處：印尼語連接詞 maka（結果）／kalau／agar"
   },
   {
    "n": 72,
@@ -1022,7 +1025,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "bagian"
    ],
    "a": 0,
-   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan.",
+   "exp": "✅ (A) 「negara」意為「國家」，「Taiwan adalah negara yang sangat indah」＝「台灣是一個非常美麗的國家」，後文又說台灣分為東西部、北中南，指的是整體的地理範圍。\n❌ (B) 「kota」是「城市」，台灣不是一座城市，且下文描述台灣分成多個區域，不合。\n❌ (C) 「wisata」意為「旅遊」，是名詞／形容詞，不能單獨當「是一個……的地方」的主體名詞。\n❌ (D) 「bagian」意為「部分」，說「台灣是非常美麗的部分」語意不完整。\n📚 出處：印尼語名詞 negara／kota／wisata／bagian"
   },
   {
    "n": 73,
@@ -1036,7 +1040,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "mengunjungi"
    ],
    "a": 3,
-   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan.",
+   "exp": "✅ (D) 「mengunjungi」是 me-…-i 主動及物動詞「拜訪、造訪」，主詞是 wisatawan（遊客），後面直接接受詞 Taiwan：「許多遊客造訪台灣」。\n❌ (A) 「kunjung」是詞根，不能單獨當及物動詞直接接受詞。\n❌ (B) 「dikunjungi」是被動式「被造訪」，主詞 wisatawan 是動作者，用被動語意顛倒。\n❌ (C) 「kunjungan」是名詞「訪問、參訪」，不能當動詞使用。\n📚 出處：印尼語動詞詞綴 me-…-i／di-…-i／-an（kunjung 的派生詞）"
   },
   {
    "n": 74,
@@ -1050,7 +1055,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "kapan-kapan"
    ],
    "a": 1,
-   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan.",
+   "exp": "✅ (B) 「masing-masing」意為「各自、每一個」，「Masing-masing wilayah tersebut mempunyai keunikan tersendiri」＝「這些區域各有其獨特之處」，與 tersendiri（自身的）呼應。\n❌ (A) 「di antara」意為「在……之間」，接在句首變成「在這些區域之間有獨特之處」，與 tersendiri 的語意不合。\n❌ (C) 「kadang-kadang」意為「有時候」，是頻率副詞，不能修飾名詞 wilayah。\n❌ (D) 「kapan-kapan」意為「改天、哪天」，指不確定的時間，語意不通。\n📚 出處：印尼語重疊詞 masing-masing／kadang-kadang／kapan-kapan"
   },
   {
    "n": 75,
@@ -1064,7 +1070,8 @@ window.APP_EXAM_PAPERS['tou-107-1-d015'] = {
     "pelayan"
    ],
    "a": 1,
-   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan."
+   "psg": "Taiwan adalah 72 yang sangat indah dengan penduduk yang sangat ramah, sepanjang tahun banyak wisatawan yang 73 Taiwan. Wilayah Taiwan terbagi menjadi wilayah barat dan timur. Wilayah barat terbagi lagi menjadi wilayah utara, tengah dan selatan. 74 wilayah tersebut mempunyai keunikan tersendiri. Karena keunikan dan keindahan tempat wisata, keramahan penduduk setempat serta makanan yang enak, banyak 75 yang tidak bosan untuk datang ke Taiwan.",
+   "exp": "✅ (B) 「turis」意為「觀光客」，「banyak turis yang tidak bosan untuk datang ke Taiwan」＝「許多觀光客來台灣都不會膩」，承接前文的旅遊景點與美食。\n❌ (A) 「umat」意為「信徒、教眾」，用於宗教語境，與旅遊無關。\n❌ (C) 「tukang」意為「工匠、師傅」（如 tukang kayu 木匠），不是來訪的遊客。\n❌ (D) 「pelayan」意為「服務生」，是提供服務的人，不是前來觀光的人。\n📚 出處：印尼語人物名詞 turis／umat／tukang／pelayan"
   },
   {
    "n": 76,
