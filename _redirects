@@ -1,0 +1,2 @@
+# Cloudflare Pages 轉址（2026-10-04）：題目圖搬到 R2，舊路徑（快取的舊版頁面、外部連結）轉過去
+/img/q/* https://img.kaohero.com/q/:splat 301
