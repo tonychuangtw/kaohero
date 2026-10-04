@@ -783,7 +783,8 @@ window.APP_EXAM_PAPERS['pol-108-1-b018'] = {
     "sanctioning"
    ],
    "a": 0,
-   "psg": "the country, the marine police are also responsible for 55 smuggling operations and arresting criminals."
+   "psg": "the country, the marine police are also responsible for 55 smuggling operations and arresting criminals.",
+   "exp": "✅ (A) 「interdict」意為「攔截、查緝、阻止（走私、毒品等）」，「interdicting smuggling operations」即「查緝走私活動」，與後面的「arresting criminals（逮捕罪犯）」並列，正是海巡警察的執法任務。\n❌ (B) 「intercede」意為「代為求情、居中調停」，為不及物動詞，常接 for／with，不能直接接受詞 smuggling operations，語意也不符。\n❌ (C) 「permit」意為「允許、准許」，警察「負責允許走私」與執法職責矛盾。\n❌ (D) 「sanction」可指「批准」或「制裁」，接 operations 時多解為「核准某行動」，用於走私語意不通；查緝走私的慣用搭配是 interdict。\n📚 出處：水上警察專業英文—海巡執法用語（interdict smuggling 查緝走私）；動詞語意辨析。"
   },
   {
    "n": 56,
