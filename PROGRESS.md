@@ -6,10 +6,13 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
 NEXT_ACTION: ✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
-　10/04 19:48 Tony 問「除了付費還有什麼沒做？公式題不能寫嗎？」→ 已回（msg 1099）建議順序，等他回「好」：
-　　① 選擇題閱讀測驗／克漏字文章轉檔掉了 1,652 題（exp-skips.json，tou／pol 外語最多）→ 從原始 PDF 救回 q.psg，再 exp-skip-drop 放回詳解佇列
-　　② 申論 warn 只有 pua（符號亂碼）1,363 題，題意完整可直接寫
-　　③ 申論 math 589＋fig 4,055 題：pdftoppm 把原卷那頁轉圖讓 Claude 看圖寫
+　10/04 19:48 Tony 問還有什麼沒做 → 回建議順序（msg 1099），19:50 Tony「好」→ 依序做：
+　　✅① 19:55 閱讀測驗／克漏字文章救回 1,622 題（245 卷，tools/psg-recover.py＋set-psg.js，commit 13ea531f0），克漏字空白題補選項 496 題、
+　　　 切掉黏在上一題選項尾巴的文章 297 處；只做語言類（chu／gao／loc／pol／tou），醫事類那 ~20 題是「承上題」不是文章。
+　　　 🔄 詳解：exp-worker（engine claude）19:56 起寫這 1,622 題，紀錄 ~/.claude/exp-worker.log；停了就 systemctl --user start exp-worker
+　　🔄② 申論 pua 題：essay-ref.py 加 ESSAY_WARN_OK=pua，unit essay-ref-pua（ESSAY_TAG=pua，claude）19:57 起，約 1,362 題，紀錄 ~/.claude/essay-ref-pua.log
+　　　 重開：systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=pua -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
+　　③ 申論 math 589＋fig 4,055 題：pdftoppm 把原卷那頁轉圖讓 Claude 看圖寫（下一步做工具）
 　　④ 考卷 #/paper hash 路由改一卷一頁靜態頁（SEO）　　另：pha-111-1-ph3 詳解失敗 2 次未查
 　下一步都卡 Tony：申論「批改」（要 Anthropic API 帳號＋付費牆）與變現三件事，見 BLOCKERS。以下是批次歷程紀錄。
 　（舊）①～④ 都收工；申論「參考架構」長尾批次在背景跑。
@@ -155,7 +158,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-04 04:16 台北（申論參考架構全部寫完，STATUS 改 blocked）
+UPDATED: 2026-10-04 19:58 台北（① 文章救回、詳解與申論 pua 批次在跑）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 

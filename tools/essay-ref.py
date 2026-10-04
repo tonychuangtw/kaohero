@@ -30,6 +30,13 @@ SCOPE = os.environ.get('ESSAY_SCOPE', 'all')   # all | law | nolaw
 # 讓本機 Gemini 批次與幾條雲端 session 同時寫而科目不重疊；不設＝全部。ESSAY_RECENT_ONLY=1 → 近年寫完就停，不回頭寫舊年度
 SHARD = os.environ.get('ESSAY_SHARD', '')
 RECENT_ONLY = os.environ.get('ESSAY_RECENT_ONLY') == '1'
+# 允許的警示（2026-10-04 Tony「好」）：ESSAY_WARN_OK=pua → 只有 pua（少數符號轉檔成私用區字元、題意完整）的題也寫。
+# fig／math 要看原卷那頁才寫得出來，不在這條。
+WARN_OK = set(x for x in os.environ.get('ESSAY_WARN_OK', '').split(',') if x)
+
+
+def writable(q):
+    return not q.get('ref') and set(q.get('warn') or []) <= WARN_OK
 
 
 def in_shard(k):
@@ -81,7 +88,7 @@ def targets(limit, out):
         if not in_shard(k): continue
         ps = load_papers(idx[k]['f'], k)
         todo = [(p, q) for p in ps for q in p['qs']
-                if not q.get('ref') and not q.get('warn') and '%s|%d|%d' % (k, p['roc'], q['n']) not in sk]
+                if writable(q) and '%s|%d|%d' % (k, p['roc'], q['n']) not in sk]
         new = [t for t in todo if t[0]['roc'] >= RECENT]
         total += len(todo); recent += len(new)
         if new and pick is None: pick = (k, new[:limit])
@@ -95,6 +102,9 @@ def targets(limit, out):
              '考這科的類科：' + '、'.join(t.split('-', 1)[1] for t in e['tracks'][:12]), '']
     for p, q in todo:
         lines += ['### key=%s roc=%d n=%d（%d 分）' % (k, p['roc'], q['n'], q['pt']), q['q'], '']
+        if 'pua' in (q.get('warn') or []):
+            lines[-1:-1] = ['（注意：本題有少數符號在轉檔時變成無法顯示的字元（例如 \\ue000 這類私用區字元），'
+                            '請依上下文推斷原本是什麼符號，在參考架構裡寫成正確的符號；推斷不出來而且會影響作答方向，這題就判 skip）']
     open(out, 'w', encoding='utf-8').write('\n'.join(lines))
     print('%d 題（全部 %d，%d 年起 %d）→ %s' % (len(todo), total, RECENT, recent, out))
 
@@ -149,7 +159,7 @@ def set_refs(path, write):
         # （2026-10-02 c3 批次在外國文（新聞組）空轉 91 批）。改成依卷序找第一題還沒寫的，targets 也是照卷序挑題
         for r in rs:
             q = next((q for p in ps if p['roc'] == r['roc'] for q in p['qs']
-                      if q['n'] == r['n'] and not q.get('ref') and not q.get('warn')), None)
+                      if q['n'] == r['n'] and writable(q)), None)
             if not q: print('找不到 %s %s #%s（或已寫過）' % (k, r['roc'], r['n'])); continue
             q['ref'] = r['ref'].strip(); got += 1
         idx[k]['ref'] = sum(1 for p in ps for q in p['qs'] if q.get('ref'))
