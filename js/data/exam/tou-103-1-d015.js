@@ -1007,7 +1007,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "mahasiswa"
    ],
    "a": 0,
-   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal.",
+   "exp": "✅ (A) 「profesi」意為「職業」，句意「導遊是觀光領域的一種職業」，語意通順，故為正解。\n❌ (B) 「Anak SD」意為「小學生」，導遊不是觀光領域的小學生，語意不通。\n❌ (C) 「pelajar」意為「學生（中小學生）」，與導遊的身分不符。\n❌ (D) 「mahasiswa」意為「大學生」，同樣與導遊作為一種行業的描述不符。\n📚 出處：印尼語名詞詞彙（profesi／職業與身分）"
   },
   {
    "n": 72,
@@ -1021,7 +1022,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "Pemandu Wisata"
    ],
    "a": 3,
-   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal.",
+   "exp": "✅ (D) 「Pemandu Wisata」意為「導遊」，與前文「Pramuwisata」同義，並對應後面英文的 Tour Guide，故為正解。\n❌ (A) 「perenang」意為「游泳者」，與導遊無關。\n❌ (B) 「penyanyi」意為「歌手」，與導遊無關。\n❌ (C) 「pelancong」意為「旅客、遊客」，是被導遊帶領的人，不是導遊的別稱。\n📚 出處：印尼語觀光詞彙（pramuwisata／pemandu wisata 同義詞）"
   },
   {
    "n": 73,
@@ -1035,7 +1037,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "kursus belajar"
    ],
    "a": 1,
-   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal.",
+   "exp": "✅ (B) 「ujian」意為「考試」，「lulus ujian negara」即「通過國家考試」，台灣導遊須考取國家考試，故為正解。\n❌ (A) 「lomba lari」意為「賽跑比賽」，與取得導遊資格無關。\n❌ (C) 「lomba renang」意為「游泳比賽」，與取得導遊資格無關。\n❌ (D) 「kursus belajar」意為「學習課程、補習班」，上課不是「通過（lulus）國家」的對象，語意不符。\n📚 出處：印尼語詞彙（ujian negara／國家考試）"
   },
   {
    "n": 74,
@@ -1049,7 +1052,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "Taiwan saja"
    ],
    "a": 2,
-   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal.",
+   "exp": "✅ (C) 「manca negara」意為「外國、各國」，句意「通過後可自由接待來自各國的旅客」，故為正解。\n❌ (A) 「Daratan Tiongkok saja」意為「僅限中國大陸」，與前文「bebas（自由地）」接待的語意矛盾。\n❌ (B) 「Amerika saja」意為「僅限美國」，同樣與「自由接待」矛盾。\n❌ (D) 「Taiwan saja」意為「僅限台灣」，導遊接待的是來台旅客，不會只限台灣本地人，且與「自由接待」矛盾。\n📚 出處：印尼語詞彙（manca negara／外國；saja 僅限）"
   },
   {
    "n": 75,
@@ -1063,7 +1067,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "egoist"
    ],
    "a": 0,
-   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal."
+   "psg": "( 依據下列文章，回答以下 71-75 題 ) Pramuwisata Pramuwisata adalah 71 di bidang kepariwisataan. Pramuwisata disebut juga sebagai 72 atau Tour Guide dalam Bahasa Inggris. Di Taiwan, menjadi Pramuwisata yang profesional harus lulus 73 negara. Setelah lulus, Pramuwisata ybs. bebas memandu para wisatawan yang datang dari 74 . Namun, sifat 75 dan penuh perhatian adalah syarat penting menjadi Pramuwisata yang ideal.",
+   "exp": "✅ (A) 「penyabar」意為「有耐心的人」，句意「有耐心且細心體貼是理想導遊的重要條件」，故為正解。\n❌ (B) 「pemarah」意為「易怒的人」，是導遊應避免的個性。\n❌ (C) 「pemalas」意為「懶惰的人」，不可能是理想導遊的條件。\n❌ (D) 「egoist」意為「自私的人」，與「penuh perhatian（體貼）」相反。\n📚 出處：印尼語形容詞詞彙（sifat pemandu wisata／前綴 pe- 表示具某種性格的人）"
   },
   {
    "n": 76,
@@ -1077,7 +1082,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "guru"
    ],
    "a": 2,
-   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik.",
+   "exp": "✅ (C) 「Pemandu Wisata」意為「導遊」，後文提到任務是陪同逛市區並詢問每日費用，可知要找的是會說印尼語的導遊，故為正解。\n❌ (A) 「saudara」意為「兄弟姊妹、親戚」，不會用「找」並談每日酬勞。\n❌ (B) 「teman」意為「朋友」，朋友不會按日收費，與後文談費用不符。\n❌ (D) 「guru」意為「老師」，與後文陪同逛市區的任務不符。\n📚 出處：印尼語閱讀測驗（Pemandu Wisata／導遊）"
   },
   {
    "n": 77,
@@ -1091,7 +1097,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "mencarikan"
    ],
    "a": 3,
-   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik.",
+   "exp": "✅ (D) 「mencarikan」意為「替（某人）尋找」，「bisa mencarikan untuk saya」即「能幫我找一位嗎」，呼應前句「想找導遊」，故為正解。\n❌ (A) 「menjadikan」意為「使成為」，後面缺受詞，語意不通。\n❌ (B) 「menemani」意為「陪伴」，「陪伴給我」語意不通，且前句重點是「找人」。\n❌ (C) 「membelikan」意為「替人買」，導遊不能用「買」，語意不通。\n📚 出處：印尼語文法（-kan 受惠動詞：mencarikan 替人尋找）"
   },
   {
    "n": 78,
@@ -1105,7 +1112,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "berangkat bersama saya"
    ],
    "a": 0,
-   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik.",
+   "exp": "✅ (A) 「bisa」意為「可以、能夠」，「Atau anda sendiri bisa?」即「或者您自己可以（擔任）嗎？」，承接前句「能幫我找嗎」，故為正解。\n❌ (B) 「pergi」意為「去」，「或者您自己去？」與請人當導遊的上下文不符。\n❌ (C) 「datang」意為「來」，「或者您自己來？」語意不完整，不如詢問能否擔任貼切。\n❌ (D) 「berangkat bersama saya」意為「跟我一起出發」，與前句的「幫我找導遊」不呼應，且出發時間未提及。\n📚 出處：印尼語閱讀測驗（bisa／能夠）"
   },
   {
    "n": 79,
@@ -1119,7 +1127,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "berbelanja"
    ],
    "a": 1,
-   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik.",
+   "exp": "✅ (B) 「menemani」意為「陪伴」，「Tugas anda hanya menemani saya keliling kota saja」即「您的任務只是陪我逛市區」，符合導遊工作，故為正解。\n❌ (A) 「menampung saya di rumah」意為「讓我住在家裡」，後面再接「逛市區」語意不通。\n❌ (C) 「meninggalkan」意為「離開、拋下」，與導遊任務相反。\n❌ (D) 「berbelanja」意為「購物」，是不及物動詞，後面不能接受詞「saya」。\n📚 出處：印尼語動詞詞彙（menemani 陪伴；keliling kota 逛市區）"
   },
   {
    "n": 80,
@@ -1133,7 +1142,8 @@ window.APP_EXAM_PAPERS['tou-103-1-d015'] = {
     "tarif"
    ],
    "a": 3,
-   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik."
+   "psg": "( 依據下列文章，回答以下 76-80 題 ) Kita Teman Baik Saya ingin mencari seorang 76 yang bisa berbahasa Indonesia.Apakah anda bisa 77 untuk saya ? Atau anda sendiri 78 ? Tugas anda hanya 79 saya keliling kota saja. Berapa 80 yang anda minta perhari ? Jangan mahal-mahal ya. Kita teman baik.",
+   "exp": "✅ (D) 「tarif」意為「費用、收費標準」，「Berapa tarif yang anda minta perhari?」即「您每天要收多少費用？」，接著說「別太貴喔」，故為正解。\n❌ (A) 「jam」意為「小時」，「每天要多少小時」與後文「別太貴」不呼應。\n❌ (B) 「hari」意為「天」，與句尾「perhari（每天）」重複，語意不通。\n❌ (C) 「minggu」意為「週」，「每天要求幾週」語意矛盾。\n📚 出處：印尼語觀光詞彙（tarif／費用；perhari 每天）"
   }
  ]
 };
