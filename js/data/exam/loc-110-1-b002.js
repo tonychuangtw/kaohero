@@ -587,7 +587,8 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
     "supposed"
    ],
    "a": 3,
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves."
+   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
+   "exp": "✅ (D) 「be supposed to + 原形動詞」表示「理應、應該」。句意：我們也有同樣的能力，我們「應該」學習如何與寵物連結，文意通順。\n❌ (A) 「be accepted」是「被接受」，後接 to learn 語意不通。\n❌ (B) 「be combined」是「被結合」，通常接 with，不接不定詞表目的。\n❌ (C) 「be occupied」是「忙於、被佔用」，常用 be occupied with／in，不接 to 不定詞。\n📚 出處：英文文法・片語 be supposed to（應該、理應）；克漏字文意判斷"
   },
   {
    "n": 42,
@@ -601,7 +602,8 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
     "worthy"
    ],
    "a": 3,
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves."
+   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
+   "exp": "✅ (D) 「worthy of + 名詞」表示「值得…」。句意：小狗把所有人都看成「值得」被愛與關注的對象，與前句「會跑去討好任何人」呼應。\n❌ (A) 「double」意為「雙倍的」，不與 of 搭配成此義，語意不通。\n❌ (B) 「lack of love」是「缺乏愛」，與小狗熱情親近人的語意相反。\n❌ (C) 「proper」意為「適當的」，不接 of 構成「值得」的意思。\n📚 出處：英文文法・形容詞片語 worthy of（值得…）；克漏字文意判斷"
   },
   {
    "n": 43,
@@ -615,7 +617,8 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
     "purchase"
    ],
    "a": 0,
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves."
+   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
+   "exp": "✅ (A) 「guidance」意為「指引、指導」。句意：向心靈諮商師或靈媒尋求「指引」的人常常搞錯重點，seek guidance 為常見搭配。\n❌ (B) 「decrease」是「減少」，向諮商師尋求減少，語意不通。\n❌ (C) 「marriage」是「婚姻」，與上下文談內在直覺無關。\n❌ (D) 「purchase」是「購買」，與向諮商師、靈媒求助的情境不合。\n📚 出處：英文字彙・名詞 guidance 與 seek 的搭配；克漏字文意判斷"
   },
   {
    "n": 44,
@@ -629,7 +632,8 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
     "While"
    ],
    "a": 3,
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves."
+   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
+   "exp": "✅ (D) 「While」放句首可表「雖然」（= although）。句意：「雖然」這些管道確實能幫助我們，但不該變成依賴的拐杖，前後語意讓步轉折。\n❌ (A) 「Lest」意為「以免」，後接 should 或原形動詞，語意不合。\n❌ (B) 「That」引導名詞子句作主詞，後面主要子句就缺結構，文法不通。\n❌ (C) 「Even」是副詞，不能單獨連接兩個子句；須寫成 Even though／Even if 才行。\n📚 出處：英文文法・讓步子句連接詞（while／although）；克漏字文意判斷"
   },
   {
    "n": 45,
@@ -643,7 +647,8 @@ window.APP_EXAM_PAPERS['loc-110-1-b002'] = {
     "Absent from"
    ],
    "a": 2,
-   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves."
+   "psg": "In the ancient days, our ancestors took the time to connect with animals intimately. We also have the same abilities. We are 41 to learn how to connect with our pets and grasp simple insights just by being present with the creatures close to us. Animals see us with pure vision. Puppies will run up to charm anyone. They see all people as 42 of love and attention. Today, many people seek to connect with intuitive power. Nevertheless, the easy road is not the answer. Those seeking 43 from spiritual counselors or even psychics often miss the point. 44 such avenues can indeed help us, they should not become crutches. We need to look within and use our own sight, a divine gift of inner vision. 45 seeking answers elsewhere, let's spend more time with our animals and ourselves.",
+   "exp": "✅ (C) 「Instead of + V-ing」表示「與其…、不要…而是」。句意：與其到別處找答案，不如多花時間陪伴動物與自己，正好呼應前文要向內看。\n❌ (A) 「But for」意為「要不是」，用於假設語氣，語意不通。\n❌ (B) 「Due to」意為「由於」，表原因，前後不是因果關係。\n❌ (D) 「Absent from」意為「缺席於」，不能引導這樣的對比語意。\n📚 出處：英文文法・介系詞片語 instead of（而不是）；克漏字文意判斷"
   },
   {
    "n": 46,
