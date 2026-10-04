@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>找不到這一頁｜考英雄</title>
+<script>
+// 網址不分大小寫（shared.md §16）：本站實際路徑全是小寫，有大寫就轉成小寫再試一次。
+// Cloudflare Pages 有這個檔就會用它回 404（沒有的話會把每個不存在的路徑都回首頁、狀態 200）。
+(function () {
+  var p = location.pathname, l = p.toLowerCase();
+  if (p !== l) location.replace(l + location.search + location.hash);
+})();
+</script>
+<style>
+:root{--bg:#f7f5ef;--fg:#1f2328;--mut:#5b636d;--ac:#c2410c}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e8e6e1;--mut:#a0a6ad;--ac:#fb923c}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,"Noto Sans TC",sans-serif;
+display:flex;min-height:100vh;align-items:center;justify-content:center;padding:16px;box-sizing:border-box;text-align:center}
+h1{font-size:22px;margin:0 0 8px}p{color:var(--mut);margin:0 0 16px}a{color:var(--ac);font-weight:600}
+</style>
+</head>
+<body>
+<main>
+<h1>找不到這一頁</h1>
+<p>網址可能打錯了，或這一頁已經搬家。</p>
+<p><a href="/">回考英雄首頁</a>　·　<a href="/exam/">選擇題考古題</a>　·　<a href="/#/essays">申論題庫</a></p>
+</main>
+</body>
+</html>
