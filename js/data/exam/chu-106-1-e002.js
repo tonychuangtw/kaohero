@@ -588,7 +588,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "shapes"
    ],
    "a": 1,
-   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore.",
+   "exp": "✅ (B) 「speak volumes」是固定慣用語，意思是「透露很多訊息、說明一切」；本句指鞋子能向陌生人透露你很多事情，與後文從鞋子判斷年齡、性別、收入相呼應。\n❌ (A) 「width」意為寬度，「speak width」不是英文用法，語意不通。\n❌ (C) 「category」意為類別，不能與 speak 搭配表示「透露訊息」。\n❌ (D) 「shapes」意為形狀，雖與鞋子外觀有關，但「speak shapes」不成慣用語，語意不通。\n📚 出處：英文慣用語（idioms）：speak volumes 透露許多訊息"
   },
   {
    "n": 42,
@@ -602,7 +603,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "Rather than"
    ],
    "a": 2,
-   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore.",
+   "exp": "✅ (C) 「According to」意為「根據」，用來引述研究、報告的來源；本句「根據 Wellesley College 研究人員的一項研究」，後接名詞片語 a study，最符合文意。\n❌ (A) 「Contrary to」意為「與……相反」，前文並無與此研究對立的說法，語意不合。\n❌ (B) 「Given that」意為「考慮到、既然」，後面須接完整子句，不能直接接名詞片語 a study。\n❌ (D) 「Rather than」意為「而不是」，表示取捨對比，放在此處語意不通。\n📚 出處：英文介系詞片語與連接詞：according to 引述資料來源"
   },
   {
    "n": 43,
@@ -616,7 +618,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "regulate"
    ],
    "a": 1,
-   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore.",
+   "exp": "✅ (B) 「determine」意為「判定、確定」；本句指受試者光看鞋子就能準確判斷陌生人的年齡、性別與收入，最符合文意。\n❌ (A) 「transform」意為「轉變、改造」，看鞋子不可能改變陌生人的年齡，語意不合。\n❌ (C) 「consent」意為「同意」，為不及物動詞（consent to），不能直接接受詞，語意也不通。\n❌ (D) 「regulate」意為「管制、調節」，無法用於判斷他人特徵的情境。\n📚 出處：英文字彙：動詞辨析 determine（判定）／transform／regulate"
   },
   {
    "n": 44,
@@ -630,7 +633,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "Even"
    ],
    "a": 0,
-   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore.",
+   "exp": "✅ (A) 「While」在句首可作「雖然」解，引導讓步子句；本句「雖然這點不一定令人意外，但真正讓研究者注意的是第二層分析」，前後語意轉折相符。\n❌ (B) 「Since」意為「因為、自從」，表因果，但「不令人意外」與「讓研究者注意」並非因果關係。\n❌ (C) 「Shown」是過去分詞，不能引導有主詞 that 與動詞 isn't 的完整子句，文法不合。\n❌ (D) 「Even」是副詞，不能單獨當連接詞連接兩個子句；須寫成 even though 才表讓步。\n📚 出處：英文文法：從屬連接詞 while（讓步用法）"
   },
   {
    "n": 45,
@@ -644,7 +648,8 @@ window.APP_EXAM_PAPERS['chu-106-1-e002'] = {
     "figure out"
    ],
    "a": 2,
-   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore."
+   "psg": "From a young age we are told that our inner qualities matter more than the clothes we wear — but do you know that your shoes can actually speak 41 to strangers? 42 a study by researchers at Wellesley College in Massachusetts, people could accurately 43 a stranger’s age, gender and income just by looking at their shoes. 44 that isn’t necessarily surprising, what made researchers 45 was the second level of analysis. Participants in the study could also tell whether another person was insecure in her close relationships, or more laid-back and relaxed, based on the shoes she wore.",
+   "exp": "✅ (C) 「take notice」意為「注意到、引起關注」；make 為使役動詞，後接原形動詞，「what made researchers take notice」即「讓研究者注意到的是……」，符合文意。\n❌ (A) 「fall apart」意為「崩潰、瓦解」，研究者不會因分析結果而瓦解，語意不合。\n❌ (B) 「clear up」意為「澄清、放晴」，此處沒有需要澄清的事，語意不通。\n❌ (D) 「figure out」意為「弄懂、想出」，為及物片語須接受詞，此處後面沒有受詞，語意也不合。\n📚 出處：英文片語動詞（phrasal verbs）與使役動詞 make 用法"
   },
   {
    "n": 46,
