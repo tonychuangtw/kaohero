@@ -9,7 +9,9 @@ NEXT_ACTION: ▶ 10/05 03:14 額度重置，essay-ref-pua、essay-ref-fig 兩支
 　沒在跑就照下面兩行重開（先 systemctl --user reset-failed）：
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig
-　▶ 10/05 08:15 額度重置，pua（0/2）、fig（1/2）兩支已重開（active）。剩 0/2 片 1,155、1/2 片 833（共 1,988），寫完就改 done。
+　⏸ 10/05 12:20 主線通知 5 小時額度 81%（13:10 重置）→ pua／fig 兩支已放停止記號，寫完當批停。剩 0/2 片 324、1/2 片 5（共 329）。
+　NEXT（13:15 喚醒後）：先 systemctl --user reset-failed，確認 ~/.claude/essay-ref-{pua,fig}.stop 已被清掉（還在就 rm），照上面兩行 systemd-run 重開 2 支；
+　　1/2 片只剩 5 題，寫完會自己停；兩支都停且 targets 0 題就改 done，並 tg-send.sh kaohero 回報 Tony（09:59 答應過寫完會回報）。
 　✅ 閱讀測驗詳解 10/04 22:55 收工（合計 1,595 題，跳 27）；01:45 補 commit 了 worker 撞鎖沒 commit 的 loc-106-1-b002（14 題）
 　✅ 10/04 22:55 www→apex 轉址完成，SEO 83%／AEO 70%
 　✅ 10/04 00:55 申論參考架構全部寫完（targets 0 題），五支批次都已自行停止。全站申論 56,016 題：已寫 48,907、warn 6,007（有圖表不寫）、skip 1,087。
@@ -176,7 +178,7 @@ PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-p
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-05 08:16（台北）
+UPDATED: 2026-10-05 12:21（台北）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
