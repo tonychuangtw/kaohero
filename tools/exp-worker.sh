@@ -31,7 +31,8 @@
 # 回報：每做完一個年份、或距上次回報滿 2 小時，用 tg-send.sh kaohero 發一則（shared.md §17 批次回報規則）
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/bin/claude"            # 走 shim：TELEGRAM_STATE_DIR 一定被清成誘餌，不會搶 kaohero 線的 bot
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+export CLAUDE_CREDIT_TAG=kaohero-exp-worker
 MODEL="${EXP_MODEL:-claude-opus-5-5}"
 ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"

@@ -17,7 +17,8 @@
 # 紀錄：~/.claude/exp-batch.log（每批一行）
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/bin/claude"            # 走 shim：TELEGRAM_STATE_DIR 會被清掉，不會搶 kaohero 線的 bot
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+export CLAUDE_CREDIT_TAG=kaohero-exp-batch
 MODEL="${EXP_MODEL:-claude-opus-5-5}"
 MATCH="${EXP_MATCH:-^(loc|gao|den|pha|chu|tcm|tea|nur)-}"
 MODES="text fig nofig"

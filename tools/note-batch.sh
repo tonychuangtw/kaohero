@@ -8,7 +8,8 @@
 # 停止：touch ~/.claude/note-batch.stop
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/bin/claude"            # 走 shim，不搶 kaohero 線的 Telegram poller（shared.md §12）
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+export CLAUDE_CREDIT_TAG=kaohero-note-batch
 MODEL="${NOTE_MODEL:-claude-opus-5-5}"
 SIZE="${1:-25}"; MAXB="${2:-0}"
 LOG="$HOME/.claude/note-batch.log"

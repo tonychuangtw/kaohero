@@ -8,7 +8,8 @@
 #     不然轉檔讀舊檔、這邊剛寫進去的參考架構會被洗掉。
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/bin/claude"            # 走 shim，不搶 kaohero 線的 Telegram poller（shared.md §12）
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+export CLAUDE_CREDIT_TAG=kaohero-essay-ref-batch
 MODEL="${REF_MODEL:-claude-opus-5-5}"
 # REF_ENGINE=agy → ssh 到 runner 用 Gemini flash 寫（Google AI Pro 訂閱，不吃 Claude 額度）。
 # 法律科目不給 flash 寫：agy 批次請搭 ESSAY_SCOPE=nolaw，claude 批次搭 ESSAY_SCOPE=law，兩支可同時跑（科目不重疊）
