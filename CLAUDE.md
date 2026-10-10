@@ -344,6 +344,10 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 不放完整架構是刻意的：容量（全文約 +150MB）＋以後付費可把完整版留在站內
 - `essay-ref-batch.sh` 每批寫完會 `--only <key>` 重產該科並 `git add essay`；改了頁面版型就全量重跑一次 `node tools/build-essay-pages.js --write`
 - 選擇題考卷靜態頁是 `tools/build-pages.js`（exam/<pid>/），worker 寫完詳解自動重產
+- 2026-10-10 加各考試頁 `exam/<考試>/`（gao、doctor、lawyer…16 頁，依年度列卷，h2 `高普考考古題 115 年`），卷頁麵包屑改指向它與 `/exam/`（原本指 hash 路由，Google 當成首頁）。
+  考試頁與 `/exam/`、sitemap.xml 只在**全量** `node tools/build-pages.js --write` 時重產（worker 的 `--only` 不會動）；新增考試或年度後要全量跑一次
+- IndexNow：金鑰檔是根目錄的 32 位十六進位 `.txt`（公開的，不是秘密），部署後跑 `node tools/indexnow-ping.mjs`（兩份 sitemap 全送）或帶路徑只送幾頁
+- ⚠ Search Console 查成效別只看 `gsc.py query`（依關鍵字分組）：匿名查詢會整批被丟掉，10/09 因此把 1,227 次曝光講成 16 次。全站數字用不分組總計；單一關鍵字的「排名」要附曝光數，個位數就是樣本太少
 
 ## 自己 commit 時 add 跟 commit 要連著下（2026-10-04 踩到）
 
