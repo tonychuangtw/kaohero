@@ -165,7 +165,8 @@ BLOCKERS: 申論批改等 Tony 開 Anthropic API 帳號儲值＋決定開付費�
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
-PATHS: tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-pdf.json}（補圖）、
+PATHS: 規劃索引（shared.md §25）https://claude.ai/artifact/L2JAGTXZ6yDsEtejzympPY 已登記 kaohero-monetization-plan／kaohero-plan-log／kaohero-line-community-plan（docs/ 三份 md）；新規劃一律照 §25 開網頁並登記、
+　tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-pdf.json}（補圖）、
 　tools/{note-targets.js,note-prompt.md,note-batch.sh,set-note.js}（勘誤提醒）、
 　js/rank.js ＋ test/rank-test.js ＋ 後端 kaohero.js 的 kgh_ranked／test/kgh-rank-test.js（排名賽）、
 　js/diagnose.js（topicOf／bookTail／topicKeys／chapterKey）、docs/topic-audit-2026-09-23.csv、
