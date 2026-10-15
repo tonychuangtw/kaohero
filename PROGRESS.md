@@ -1,4 +1,17 @@
 STATUS: done
+
+## 2026-10-16 切回 Claude 前交接
+
+- 本次對話工作已完成，沒有新工程或批次啟動；STATUS 維持 done。下方 10/05 以前的批次／重開指令是歷程，不要只看到舊「進行中」就重啟。主線預告台北 10/16 約 04:50 切回 Claude，由 line-engine 處理，本線不自行切換。
+- Tony 10/15 14:00 問「朋友說有心理諮商師國考我們沒放. 有這考試嗎?」：已回覆正式名稱為諮商心理師，另有臨床心理師；本機 tools/index-spec.json 兩類皆未收錄。考選部 115 年簡介確認諮商心理師六科均為申論與測驗混合式。只是查詢，Tony 尚未要求新增題庫，不自動開工。來源：https://wwwc.moex.gov.tw/main/exam/wFrmPropertyDetail.aspx?c=115100&m=7808
+- Tony 10/15 20:42 問「修好了嗎?」，附件 /home/tonychuangtw/.line-inbox/kaohero/1214-photo.jpg 為 Search Console 404 通知；20:44 再送 /home/tonychuangtw/.line-inbox/kaohero/1216-photo.jpg，無文字。第二張顯示唯一範例為 https://img.kaohero.com/，上次檢索 2026-10-13。已回覆圖片 R2 網域根目錄沒有首頁，該筆 404 可保留，不必驗證修正；不代表考卷頁壞掉。沒有修改或部署。
+- 驗證界線：本機 sitemap.xml 4,448 筆＋sitemap-essay.xml 1,496 筆全部有對應本機檔案。runner urllib 線上抽查收到 403，web 工具能讀首頁、/exam/ 抓取失敗；沒有完成全站 HTTP 驗證，也未測實際 R2 圖片，不可宣稱全站已驗收。404 結論僅針對截圖的圖片站根網址。
+- Gmail 通知已存 ~/.line-memory/kaohero/gmail-capability-check.md：需要時查當下完整／延遲工具並在授權內最小唯讀驗證。10/15 本線曾發現 Gmail 工具名稱，但未呼叫讀信，因此 Gmail 帳號存取尚未驗證。
+- 待回 Tony 訊息：無（本次存檔確認將由 final 自動送本線）。未 commit 的程式／題庫變更：無；本輪只有此交接文件與本線記憶。附件為上述 runner 路徑，沒有要求跨機複製附件。
+
+存檔時間（台北）：2026-10-16 00:45
+
+---
 OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4：
 　**① 補圖救回「有題目沒圖」的題 ② 官方答案與現行法衝突的題寫勘誤提醒
 　③ 詳解出處歸不出考點的修掉 ④ 模考排名（固定題組＋分數分布＋百分位）**
