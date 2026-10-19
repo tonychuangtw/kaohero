@@ -384,4 +384,5 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 登入同步／後台已完成並上線，見 `docs/monetization-plan.md` 一之二節
 - 題解分離、變現四階段計畫：`docs/monetization-plan.md`（詳解寫完再動工）
 - 決策與實驗紀錄：`docs/plan-log.md`
+- **企劃和維護記錄網頁**（shared.md §25，2026-10-19 起）：本線 8 案各一頁 `~/TelegramClaude/plans/kaohero/<slug>.md`（kaohero-site、explanations、essays、monetization、line-community、learning-tools、data-quality、seo），網址 `https://tony-plans.pages.dev/kaohero/<slug>`。案子有改動同一輪在該頁「維護記錄」頂端補一行並改 status／updated；新案開案當天開頁
 - 回報用 `~/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-send.sh kaohero`
