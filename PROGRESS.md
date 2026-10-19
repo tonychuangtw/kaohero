@@ -1,5 +1,9 @@
 STATUS: done
 
+## 2026-10-19 企劃和維護記錄網頁
+
+- 主線轉達 Tony TG 3245：本線 8 案都開了頁（連結見 PATHS），legacy 三筆改由案子頁收。以後任何案子有改動，同一輪在該頁「維護記錄」補一行並改 status／updated。
+
 ## 2026-10-16 切回 Claude 前交接
 
 - 本次對話工作已完成，沒有新工程或批次啟動；STATUS 維持 done。下方 10/05 以前的批次／重開指令是歷程，不要只看到舊「進行中」就重啟。主線預告台北 10/16 約 04:50 切回 Claude，由 line-engine 處理，本線不自行切換。
@@ -178,7 +182,10 @@ BLOCKERS: 申論批改等 Tony 開 Anthropic API 帳號儲值＋決定開付費�
 6. 信用卡帳單上顯示的商店名稱、公司統編　7. 退款走後台還是 API、誰有權限
 8. 單筆／單日限額、要不要開「平台商」分潤　9. 測試卡號、回呼是否限制來源 IP
 
-PATHS: 規劃索引（shared.md §25）https://claude.ai/artifact/L2JAGTXZ6yDsEtejzympPY 已登記 kaohero-monetization-plan／kaohero-plan-log／kaohero-line-community-plan（docs/ 三份 md）；新規劃一律照 §25 開網頁並登記、
+PATHS: 企劃和維護記錄網頁（shared.md §25，2026-10-19 起每案一頁，改動同一輪補維護記錄；正本 ~/TelegramClaude/plans/kaohero/）：
+　站台總覽 https://tony-plans.pages.dev/kaohero/kaohero-site ／ 詳解 …/kaohero/explanations ／ 申論 …/kaohero/essays ／ 付費 …/kaohero/monetization
+　LINE 社群 …/kaohero/line-community ／ 學習功能 …/kaohero/learning-tools ／ 題庫品質 …/kaohero/data-quality ／ SEO …/kaohero/seo
+　（舊 Artifact 索引 L2JAGTXZ6yDsEtejzympPY 已凍結，legacy 三筆已拿掉）、
 　tools/{figmap.py,figmap-tqa.py,fig-targets.js,figfill.py,set-fig.js,pid-pdf.json}（補圖）、
 　tools/{note-targets.js,note-prompt.md,note-batch.sh,set-note.js}（勘誤提醒）、
 　js/rank.js ＋ test/rank-test.js ＋ 後端 kaohero.js 的 kgh_ranked／test/kgh-rank-test.js（排名賽）、
