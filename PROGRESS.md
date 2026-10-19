@@ -887,3 +887,8 @@ node -e "const fs=require('fs');fs.readdirSync('js/data/exam').forEach(f=>{globa
 ## 申論題 AI 批改小實驗（2026-09-08 完成）
 
 結論記在 `docs/plan-log.md`。
+
+## 2026-10-19 SEO 關鍵字查核（TG 1222）
+- 28 天 5,033 曝光／188 點擊，幾乎全是題目長尾；「模考」0 曝光
+- 10/14 起每日曝光 −95%（400～700 → 15～30），索引與抓取正常；已請 Tony 查 GSC 專人介入處理（TG 1223）
+- 等 Tony 回：A 各考試「模擬考」靜態頁、B 外部連結。記錄頁 https://tony-plans.pages.dev/kaohero/seo
