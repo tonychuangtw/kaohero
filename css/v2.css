@@ -406,6 +406,10 @@ h3.grp{margin:18px 0 8px;font-size:calc(14.5px * var(--fs,1));font-weight:800;co
   color:var(--ink);border-radius:999px;cursor:pointer;font-family:inherit;font-weight:700;
   font-size:calc(14px * var(--fs,1));white-space:nowrap}
 .sync-login:hover{border-color:var(--brand)}
+/* App 內建瀏覽器：登入鈕位置改放指引（js/sync.js renderInApp）。窄螢幕只留按鈕，完整說明在底部提示列 */
+.sync-inapp{display:flex;align-items:center;gap:6px}
+.sync-inapp-t{font-size:calc(12px * var(--fs,1));color:var(--dim);max-width:11em;line-height:1.3}
+@media(max-width:1399px){ .sync-inapp-t{display:none} .sync-inapp.can-escape .sync-inapp-copy{display:none} }
 /* Google 官方按鈕蓋在自家 pill 上接走點擊；GSI 沒載入時 slot 是空的，pill 仍可點 */
 .gsi-slot{position:absolute;inset:0;opacity:.001;overflow:hidden}
 .gsi-slot > div{width:100%;height:100%}

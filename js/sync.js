@@ -16,20 +16,13 @@
 
   var QS = '?level=' + encodeURIComponent(LEVEL) + '&app=' + encodeURIComponent(APP);
 
-  /* App 內建瀏覽器（LINE／FB／Telegram webview）：Google 封鎖 webview 內的 OAuth，
-     硬點只會開出一片空白，所以這類環境改給「用外部瀏覽器開」的指引。
-     ⚠️ 不可拿 window.webkit.messageHandlers 判斷 —— iOS 的 Chrome／Edge／Firefox 全是
-     WKWebView 殼，會被誤判成 App 內建瀏覽器而整站登入不了。 */
-  var IN_WEBVIEW = (function () {
-    var ua = navigator.userAgent || '';
-    return /\bwv\b/.test(ua) ||
-      (/iPhone|iPad|iPod/.test(ua) && !/Safari\//.test(ua)) ||
-      /Line\/|FBAN|FBAV|Instagram|MicroMessenger|Telegram|LIFF/i.test(ua) ||
-      !!window.TelegramWebviewProxy;
-  })();
-  // LINE 的 openExternalBrowser=1 導向與 Telegram iPhone 跳 Safari 由 js/inapp-escape.js 處理（共用程式，2026-10-20）
-  var WEBVIEW_MSG = 'Google 不允許在 App 內建瀏覽器（LINE／Telegram 等）裡登入，硬走只會看到空白頁。\n' +
-    '請點畫面角落的選單（⋯ 或分享鈕），選「用 Safari／Chrome 開啟」，再登入即可同步紀錄。';
+  /* App 內建瀏覽器（LINE／FB／IG／Telegram／微信）：Google 封鎖 webview 內的 OAuth（403 disallowed_useragent）。
+     判斷與 LINE／Telegram 自動跳外部瀏覽器一律交給共用的 js/inapp-escape.js（shared.md §26），
+     這裡只讀 InAppEscape.inApp：在內建瀏覽器就不載入 GIS、不畫 Google 鈕，原位改放指引。
+     ⚠️ 不要在這裡再寫 UA 判斷或導向；InAppEscape.open() 只能放在點擊處理裡。 */
+  var IE = window.InAppEscape;
+  var IN_WEBVIEW = !!(IE && IE.inApp);
+  function T(s) { return (window.KH && KH.T) ? KH.T(s) : s; }
   var GIS_RETRY_MSG = '連不上 Google 登入元件（accounts.google.com 沒有回應），' +
     '可能是網路不穩或擋廣告套件在擋。要再試一次嗎？';
 
@@ -324,6 +317,7 @@
       ui.appendChild(chip);
     } else {
       statusEl = null;
+      if (IN_WEBVIEW) { renderInApp(); return; }
       var wrap = document.createElement('div');
       wrap.className = 'sync-login-wrap';
       var pill = document.createElement('button');
@@ -332,13 +326,9 @@
       pill.textContent = '登入';
       pill.title = 'Google 登入，換手機也看得到自己的錯題本';
       pill.onclick = function () {
-        if (!IN_WEBVIEW && window.google && google.accounts && google.accounts.id) {
+        if (window.google && google.accounts && google.accounts.id) {
           google.accounts.id.prompt();
-        } else if (IN_WEBVIEW) {
-          if (window.InAppEscape && InAppEscape.open(function () { dlgInfo(WEBVIEW_MSG); })) return;
-          dlgInfo(WEBVIEW_MSG);
-        }
-        else if (gisFailed) {
+        } else if (gisFailed) {
           dlgConfirm(GIS_RETRY_MSG, function () { gisFailed = false; gisAttempts = 0; loadGis(); });
         } else { dlgToast('Google 登入元件還在載入，請稍候幾秒再點一次。'); }
       };
@@ -348,13 +338,45 @@
       // 所以預設關掉 pointer-events，等官方按鈕真的掛上去才打開
       slot.style.pointerEvents = 'none';
       wrap.appendChild(pill);
-      if (!IN_WEBVIEW) wrap.appendChild(slot);
+      wrap.appendChild(slot);
       ui.appendChild(wrap);
-      if (!IN_WEBVIEW && window.google && google.accounts && google.accounts.id) {
+      if (window.google && google.accounts && google.accounts.id) {
         slot.style.pointerEvents = '';
         google.accounts.id.renderButton(slot, { type: 'icon', shape: 'circle', size: 'medium' });
       }
     }
+  }
+
+  /* 內建瀏覽器：登入鈕的位置改放一行指引＋「複製網址」（能跳就再多一顆「用 Safari 開」）。
+     底部提示列（inapp-escape.js 畫的）也有同樣兩顆，這裡是給看頁首找登入的人 */
+  function renderInApp() {
+    var box = document.createElement('div');
+    box.className = 'sync-inapp';
+    var msg = document.createElement('span');
+    msg.className = 'sync-inapp-t';
+    msg.textContent = T('App 內建瀏覽器不能用 Google 登入');
+    msg.title = T('請按「複製網址」，貼到 Safari／Chrome 開啟後再登入');
+    box.appendChild(msg);
+    function btn(label, fn) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'sync-login'; b.textContent = T(label); b.onclick = fn;
+      box.appendChild(b);
+      return b;
+    }
+    if (IE.canEscape) {
+      box.classList.add('can-escape');
+      btn('用 Safari 開', function () {
+        IE.open(function () { dlgInfo(T('沒有跳出去：請按「複製網址」，貼到 Safari／Chrome 開啟後再登入。')); });
+      });
+    }
+    var cp = btn('複製網址', function () {
+      IE.copy(function (ok, url) {
+        if (ok) dlgToast(T('已複製網址，請貼到 Safari／Chrome 開啟後再登入'));
+        else dlgInfo(T('請長按下面的網址複製，貼到 Safari／Chrome 開啟後再登入：') + '\n' + url);
+      });
+    });
+    cp.classList.add('sync-inapp-copy');
+    ui.appendChild(box);
   }
 
   function onCredential(resp) {

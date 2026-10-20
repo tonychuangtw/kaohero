@@ -5,6 +5,15 @@
 
   /* ============ 英文字典（key＝程式裡的中文原字串） ============ */
   var EN = {
+    /* --- 內建瀏覽器登入指引（js/sync.js renderInApp） --- */
+    'App 內建瀏覽器不能用 Google 登入': "Google sign-in doesn't work in in-app browsers",
+    '請按「複製網址」，貼到 Safari／Chrome 開啟後再登入': 'Tap “Copy link”, open it in Safari or Chrome, then sign in',
+    '用 Safari 開': 'Open in Safari',
+    '複製網址': 'Copy link',
+    '沒有跳出去：請按「複製網址」，貼到 Safari／Chrome 開啟後再登入。': 'Safari did not open. Tap “Copy link”, open it in Safari or Chrome, then sign in.',
+    '已複製網址，請貼到 Safari／Chrome 開啟後再登入': 'Link copied. Paste it into Safari or Chrome, then sign in',
+    '請長按下面的網址複製，貼到 Safari／Chrome 開啟後再登入：': 'Press and hold the link below to copy it, then open it in Safari or Chrome and sign in:',
+
     /* --- 導覽與頁尾 --- */
     '首頁': 'Home',
     '考試題庫': 'Question banks',
