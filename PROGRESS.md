@@ -1,5 +1,11 @@
 STATUS: done
 
+## 2026-10-21 inapp-escape v2 重套（main 派工，§26）
+
+- 重抄正本（2026-10-21，cmp 一致）、index.html ?v=20261021；sync.js 刪 UA 判斷與 TelegramWebviewProxy，改讀 InAppEscape.inApp。內建瀏覽器不載 GIS、不畫 Google 鈕，renderInApp() 原位放指引＋「用 Safari 開」（canEscape 才有，只在 onclick 呼叫 open）＋「複製網址」（InAppEscape.copy）；EN 字串加進 i18n.js。sync／i18n／v2.css 版號 20261021a。
+- 頁首寬度坑：820～1200px 時多放說明文字會把導覽擠成直排，所以 <1400px 只留按鈕、能跳時再藏「複製網址」（底部提示列有）。
+- 07d7e5bce，台北 00:27 部署；`test.js --live https://kaohero.com/` ✅、`audit.sh --print --no-live` 沒有 kaohero ❌。企劃頁已補。
+
 ## 2026-10-20 inapp-escape（main 派工）
 
 - 照 claude-shared/tools/inapp-escape/README.md 接好：js/inapp-escape.js 原封複製、index.html `<head>` 第一個同步 script（v=20261020）；sync.js 拿掉自己的 LINE openExternalBrowser 導向，登入鈕 IN_WEBVIEW 分支最前面加 `InAppEscape.open(顯示指引)`，sync.js 版號 20261020a。本站沒有 Service Worker。

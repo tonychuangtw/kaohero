@@ -385,4 +385,7 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 題解分離、變現四階段計畫：`docs/monetization-plan.md`（詳解寫完再動工）
 - 決策與實驗紀錄：`docs/plan-log.md`
 - **企劃和維護記錄網頁**（shared.md §25，2026-10-19 起）：本線 8 案各一頁 `~/TelegramClaude/plans/kaohero/<slug>.md`（kaohero-site、explanations、essays、monetization、line-community、learning-tools、data-quality、seo），網址 `https://tony-plans.pages.dev/kaohero/<slug>`。案子有改動同一輪在該頁「維護記錄」頂端補一行並改 status／updated；新案開案當天開頁
+- **App 內建瀏覽器登入（shared.md §26）**：`js/inapp-escape.js` 是共用正本的副本，一字不改，正本更新就重抄並換 index.html 的 `?v=`；
+  sync.js 只讀 `InAppEscape.inApp`（不准自己寫 UA 判斷或 LINE 導向），內建瀏覽器走 `renderInApp()`。頁首很擠：820～1200px 多一行字就把導覽擠成直排，
+  改頁首要用寬 820／1200 的截圖確認。驗收 `node ~/TelegramClaude/claude-shared/tools/inapp-escape/test.js --live https://kaohero.com/`
 - 回報用 `~/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-send.sh kaohero`
