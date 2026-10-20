@@ -1,5 +1,10 @@
 STATUS: done
 
+## 2026-10-20 inapp-escape（main 派工）
+
+- 照 claude-shared/tools/inapp-escape/README.md 接好：js/inapp-escape.js 原封複製、index.html `<head>` 第一個同步 script（v=20261020）；sync.js 拿掉自己的 LINE openExternalBrowser 導向，登入鈕 IN_WEBVIEW 分支最前面加 `InAppEscape.open(顯示指引)`，sync.js 版號 20261020a。本站沒有 Service Worker。
+- test.js 全過；cf-deploy --force 部署 7b7826cf1（台北 21:54）；brain `test.js --live https://kaohero.com/` ✅。企劃頁 kaohero-site 已補維護記錄。main 統一回報 Tony，本線不另回。
+
 ## 2026-10-19 企劃和維護記錄網頁
 
 - 主線轉達 Tony TG 3245：本線 8 案都開了頁（連結見 PATHS），legacy 三筆改由案子頁收。以後任何案子有改動，同一輪在該頁「維護記錄」補一行並改 status／updated。
