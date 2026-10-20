@@ -27,11 +27,7 @@
       /Line\/|FBAN|FBAV|Instagram|MicroMessenger|Telegram|LIFF/i.test(ua) ||
       !!window.TelegramWebviewProxy;
   })();
-  // LINE 有官方逃生參數：網址帶 openExternalBrowser=1 會自動改用外部瀏覽器開
-  if (/Line\//i.test(navigator.userAgent || '') && !/[?&]openExternalBrowser=/.test(location.search)) {
-    var q0 = location.search ? location.search + '&openExternalBrowser=1' : '?openExternalBrowser=1';
-    location.replace(location.origin + location.pathname + q0 + location.hash);
-  }
+  // LINE 的 openExternalBrowser=1 導向與 Telegram iPhone 跳 Safari 由 js/inapp-escape.js 處理（共用程式，2026-10-20）
   var WEBVIEW_MSG = 'Google 不允許在 App 內建瀏覽器（LINE／Telegram 等）裡登入，硬走只會看到空白頁。\n' +
     '請點畫面角落的選單（⋯ 或分享鈕），選「用 Safari／Chrome 開啟」，再登入即可同步紀錄。';
   var GIS_RETRY_MSG = '連不上 Google 登入元件（accounts.google.com 沒有回應），' +
@@ -338,7 +334,10 @@
       pill.onclick = function () {
         if (!IN_WEBVIEW && window.google && google.accounts && google.accounts.id) {
           google.accounts.id.prompt();
-        } else if (IN_WEBVIEW) { dlgInfo(WEBVIEW_MSG); }
+        } else if (IN_WEBVIEW) {
+          if (window.InAppEscape && InAppEscape.open(function () { dlgInfo(WEBVIEW_MSG); })) return;
+          dlgInfo(WEBVIEW_MSG);
+        }
         else if (gisFailed) {
           dlgConfirm(GIS_RETRY_MSG, function () { gisFailed = false; gisAttempts = 0; loadGis(); });
         } else { dlgToast('Google 登入元件還在載入，請稍候幾秒再點一次。'); }
