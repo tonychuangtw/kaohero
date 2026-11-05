@@ -4,7 +4,7 @@ NEXT_ACTION: ① 待上架區 27 組：不動產經紀人／記帳士 13 組（�
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
 PATHS: 社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-06 04:25（台北）
+UPDATED: 2026-11-06 07:20（台北）
 
 ## 2026-11-06 社會工作師進待上架區
 
@@ -237,7 +237,7 @@ PATHS: 企劃和維護記錄網頁（shared.md §25，2026-10-19 起每案一頁
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-10-05 14:55（台北）
+UPDATED: 2026-11-06 07:20（台北）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
