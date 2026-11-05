@@ -381,6 +381,13 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 看下一組：`node tools/release-next.js`；手動放：`node tools/release-next.js --pop [--force]` 後照 daily-release.sh 的步驟
 - **`build-pages` 的日期**（同日改）：內容（日期以外）沒變的頁不重寫、沿用舊「最後更新」，sitemap lastmod 跟著頁走。以前每次全量重產四千多頁都蓋成今天，Google 會認定 lastmod 不可信。`build-essay-pages.js` 還是舊做法
 - 補收順序與企劃：https://tony-plans.pages.dev/kaohero/daily-update
+- **備一種新考試**（範例：不動產經紀人 `rea`／記帳士 `acc`，工作目錄 `~/exam-pdfs/rea`）：`moexlib.year_codes` 找考試代碼寫 codes.json
+  （考選部清單的長標題會被截斷，關鍵字比不到的年份要手補，例 110180）→ `inv-full.py` → **rows 只留要收的類科**（同場有幾百個技師科目）
+  → `moex-sweep.py <W> S`、`Q`、`M --has-answer` → gen_civil 加 spec（`trackreq` 只收指定類科）→ 裁圖 → 在 `index-spec.json` 加分類、
+  `civil-index-merge.py` → 卷與圖抄進站（不覆蓋既有檔）→ release-queue 每年一組 → `KH_NOHOLD=1` 測一次再回到一般 build-index。
+  exp-next 會照上架順序先寫這些卷
+  - ⚠ gen_civil 每跑一個 spec 就**覆蓋 figs.json**：同一個工作目錄跑兩個 spec 時，各自存一份再合併後才裁圖
+  - 兩種考試共用同一份卷（記帳士與不動產經紀人的國文）只收一次，不要兩邊都上（重複內容）
 
 ## 其他
 
