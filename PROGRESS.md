@@ -1,4 +1,17 @@
-STATUS: done
+STATUS: in-progress
+OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（等 Tony 選平台＋/secret 給帳號）、C 每日小更新（補收國考，每天上架一小批）
+NEXT_ACTION: C 第一步：寫純腳本 tools/daily-release.sh＋timer（台北 07:00）：①查考選部已收 16 種考試的新考期，答案公布就自動下載轉檔上架 ②從待上架區每天放一個年度。接著備第一種新考試（不動產經紀人；gen_civil／gen_bank 加 SPECS＋前端 CATS 註冊），詳解用 Claude 先寫好放待上架區。B 等 Tony 回 seo 頁待確認；Bing 匯入、Cloudflare Web Analytics 我用 scout 代登入做
+VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
+BLOCKERS: B 等 Tony 選平台與帳號（seo 頁待確認）
+PATHS: 企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/build-pages.js（mockHtml／mockIndexHtml）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
+UPDATED: 2026-11-05 15:10（台北）
+
+## 2026-11-05 #SCGO：模擬考頁上線、GSC 查證、每日小更新企劃
+
+- GSC（scout 真瀏覽器，scout-search-console.js view）：人工處置無、安全性無；10/14 起曝光 −95% 是演算法降級（熱門頁變已檢索未索引）。
+- A：/mock/＋16 考試頁（build-pages.js mockHtml），SPA 深連結 #/mock/<考試>/<科目>（app.js viewMock 收參數後 replaceState 回 #/mock），commit 32a155051，台北 14:52 部署；IndexNow 5,961 網址、GSC 重交 sitemap。WebKit 382／594×368／951／320 無橫向溢出。
+- 小坑：check.js --preview 對子路徑會把 robots／sitemap 當 404（它找的是子路徑底下），不是真的壞。靜態頁（exam／mock）都沒有 favicon link，下次全量重產時順手加。
+- C 盤點：已收 16 種都更新到 115 年最近一次考期；115 地方特考（12 月）、115 第三次護理師還沒考。補收順序見 daily-update 頁。
 
 ## 2026-10-21 inapp-escape v2 重套（main 派工，§26）
 
