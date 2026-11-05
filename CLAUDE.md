@@ -370,6 +370,18 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
   3. 每次跑完測試順手查一次上面那行 `pgrep`。有本線留下的（`readlink /proc/<pid>/cwd` 在 kaoguhero 或本線 scratchpad）
      就 `kill <pid>`，子程序會跟著結束。
 
+## 每日小更新（2026-11-05 Tony「每天更新一點點這樣保持網站有更新」）
+
+- `daily-release.timer` 每天台北 07:00 跑 `tools/daily-release.sh`（純腳本 0 token，紀錄 `~/.claude/daily-release.log`，`--dry` 試跑）：
+  ① 待上架區 `tools/release-queue.json` 的下一組詳解寫完 → 放出來（build-index、test、全量 build-pages、commit、push、cf-deploy、IndexNow），本線頻道回報；沒寫完就不放、報差幾題；queue 空了報一次
+  ② `tools/moex-watch.py`：考選部出了本站已收考試的新考期（看各卷題本的 `code`）→ 通知本線轉檔。只通知不自動轉
+- **待上架區**：題本檔先放進 `js/data/exam/`，pid 列進 `release-queue.json` 的 `queue`（一組＝一種考試的一個年度），`build-index` 就不列它們
+  （exp-next／worker 照樣會寫詳解，`build-pages --only` 也不會產頁）。一卷都還沒上架的考試，`build-index` 會把它從 APP_CATS 拿掉。
+  上架前要整組一起測：`KH_NOHOLD=1 node tools/build-index.js --write && node test/test.js`，測完記得不帶 KH_NOHOLD 再寫一次
+- 看下一組：`node tools/release-next.js`；手動放：`node tools/release-next.js --pop [--force]` 後照 daily-release.sh 的步驟
+- **`build-pages` 的日期**（同日改）：內容（日期以外）沒變的頁不重寫、沿用舊「最後更新」，sitemap lastmod 跟著頁走。以前每次全量重產四千多頁都蓋成今天，Google 會認定 lastmod 不可信。`build-essay-pages.js` 還是舊做法
+- 補收順序與企劃：https://tony-plans.pages.dev/kaohero/daily-update
+
 ## 其他
 
 - 間隔重複排程：`js/app.js` 的 `bumpWrongSchedule`／`dueList`（錯題帶 `box` 1~3 與 `due`）；

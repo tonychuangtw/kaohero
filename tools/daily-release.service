@@ -1,0 +1,9 @@
+[Unit]
+Description=kaohero：每日小更新（放一組待上架新卷＋查考選部新考期）
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/TelegramClaude/kaoguhero
+Environment=PATH=%h/.npm-global/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/daily-release.sh
+TimeoutStartSec=3600

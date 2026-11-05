@@ -15,7 +15,22 @@ const SITE = 'https://kaohero.com';
 const WRITE = process.argv.includes('--write');
 const LIMIT = (function () { const i = process.argv.indexOf('--limit'); return i > 0 ? parseInt(process.argv[i + 1], 10) : 0; })();
 const ONLY = (function () { const i = process.argv.indexOf('--only'); return i > 0 ? process.argv[i + 1] : ''; })();
-const TODAY = new Date().toISOString().slice(0, 10);
+const TODAY = new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10);   // 台北日期
+
+/* 寫頁但保留舊日期：內容（日期以外）沒變就不重寫、沿用舊的「最後更新」，sitemap 的 lastmod 也跟著用它。
+   以前每次全量重產都把四千多頁蓋成今天，Google 會認定這站的 lastmod 不可信（2026-11-05 改）。 */
+const LASTMOD = {};
+function put(file, html, url) {
+  let day = TODAY;
+  try {
+    const old = fs.readFileSync(file, 'utf8');
+    const m = old.match(/<time datetime="(\d{4}-\d{2}-\d{2})"/) || old.match(/"dateModified":"(\d{4}-\d{2}-\d{2})"/);
+    if (m && html.split(TODAY).join(m[1]) === old) day = m[1];
+  } catch (e) {}
+  if (day === TODAY) fs.writeFileSync(file, html, 'utf8');
+  LASTMOD[url] = day;
+  return day;
+}
 
 global.window = {};
 require(path.join(ROOT, 'js/config.js'));
@@ -186,7 +201,7 @@ list.forEach(e => {
   if (WRITE) {
     const dir = path.join(OUT, e.id);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+    put(path.join(dir, 'index.html'), html, '/exam/' + e.id + '/');
   }
 });
 
@@ -420,26 +435,27 @@ function mockIndexHtml() {
 /* 總覽、各考試頁與 sitemap：首頁 + 卷頁總覽 + 考試頁 + 全部卷頁 */
 if (WRITE && !ONLY && !LIMIT) {
   fs.mkdirSync(OUT, { recursive: true });
-  fs.writeFileSync(path.join(OUT, 'index.html'), indexHtml(), 'utf8');
+  put(path.join(OUT, 'index.html'), indexHtml(), '/exam/');
   HUBS.forEach(h => {
     const dir = path.join(OUT, h.x.id);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), hubHtml(h), 'utf8');
+    put(path.join(dir, 'index.html'), hubHtml(h), '/exam/' + h.x.id + '/');
   });
   const MOCK = path.join(ROOT, 'mock');
   fs.mkdirSync(MOCK, { recursive: true });
-  fs.writeFileSync(path.join(MOCK, 'index.html'), mockIndexHtml(), 'utf8');
+  put(path.join(MOCK, 'index.html'), mockIndexHtml(), '/mock/');
   HUBS.forEach(h => {
     const dir = path.join(MOCK, h.x.id);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, 'index.html'), mockHtml(h), 'utf8');
+    put(path.join(dir, 'index.html'), mockHtml(h), '/mock/' + h.x.id + '/');
   });
-  const urls = ['  <url><loc>' + SITE + '/</loc><lastmod>' + TODAY + '</lastmod><priority>1.0</priority></url>',
-                '  <url><loc>' + SITE + '/exam/</loc><lastmod>' + TODAY + '</lastmod><priority>0.9</priority></url>'];
-  HUBS.forEach(h => urls.push('  <url><loc>' + SITE + '/exam/' + h.x.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.8</priority></url>'));
-  urls.push('  <url><loc>' + SITE + '/mock/</loc><lastmod>' + TODAY + '</lastmod><priority>0.9</priority></url>');
-  HUBS.forEach(h => urls.push('  <url><loc>' + SITE + '/mock/' + h.x.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.8</priority></url>'));
-  EXAMS.forEach(e => urls.push('  <url><loc>' + SITE + '/exam/' + e.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.7</priority></url>'));
+  const LM = Object.values(LASTMOD).sort().pop() || TODAY;   // 首頁跟著最新一頁走
+  const u = (loc, pri) => '  <url><loc>' + SITE + loc + '</loc><lastmod>' + (LASTMOD[loc] || LM) + '</lastmod><priority>' + pri + '</priority></url>';
+  const urls = [u('/', '1.0'), u('/exam/', '0.9')];
+  HUBS.forEach(h => urls.push(u('/exam/' + h.x.id + '/', '0.8')));
+  urls.push(u('/mock/', '0.9'));
+  HUBS.forEach(h => urls.push(u('/mock/' + h.x.id + '/', '0.8')));
+  EXAMS.forEach(e => urls.push(u('/exam/' + e.id + '/', '0.7')));
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'),
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     urls.join('\n') + '\n</urlset>\n', 'utf8');
