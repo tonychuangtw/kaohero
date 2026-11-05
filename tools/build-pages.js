@@ -8,6 +8,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const SHELL = require('./static-shell');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'exam');
@@ -156,11 +157,10 @@ function pageHtml(e, paper) {
   out.push('<meta property="og:image" content="' + SITE + '/img/og.png">');
   out.push('<meta name="twitter:card" content="summary_large_image">');
   out.push('<script type="application/ld+json">' + JSON.stringify(ld) + '</scr' + 'ipt>');
-  out.push('<link rel="stylesheet" href="/css/paper.css?v=20260912a">');
+  out.push(SHELL.head());
   out.push('</head>');
   out.push('<body>');
-  out.push('<header class="kh"><a class="klogo" href="/">考英雄</a>' +
-    '<nav class="knav"><a href="/#/exams">考試題庫</a><a href="/#/guide">準備方式</a><a href="/#/support">客服中心</a></nav></header>');
+  out.push(SHELL.header('/exam/'));
   out.push('<main class="kwrap">');
   out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <a href="/exam/">全部題庫</a> › <a href="/exam/' +
     esc(e.exam) + '/">' + esc(examName) + '考古題</a> › <span>' + esc(e.label.replace(/\s+/g, ' ').trim()) + '</span></nav>');
@@ -206,7 +206,7 @@ list.forEach(e => {
 });
 
 /* 總覽頁與各考試頁共用的頁首頁尾 */
-function shellHead(title, desc, url, ld) {
+function shellHead(title, desc, url, ld, cur) {
   const out = [];
   out.push('<!DOCTYPE html>\n<html lang="zh-Hant">\n<head>');
   out.push('<meta charset="utf-8">');
@@ -218,10 +218,9 @@ function shellHead(title, desc, url, ld) {
   out.push('<meta property="og:description" content="' + esc(desc) + '"><meta property="og:site_name" content="考英雄"><meta property="og:locale" content="zh_TW">');
   out.push('<meta property="og:image" content="' + SITE + '/img/og.png"><meta name="twitter:card" content="summary_large_image">');
   if (ld) out.push('<script type="application/ld+json">' + JSON.stringify(ld) + '</scr' + 'ipt>');
-  out.push('<link rel="stylesheet" href="/css/paper.css?v=20260912a">');
+  out.push(SHELL.head());
   out.push('</head>\n<body>');
-  out.push('<header class="kh"><a class="klogo" href="/">考英雄</a>' +
-    '<nav class="knav"><a href="/exam/">全部題庫</a><a href="/mock/">線上模擬考</a><a href="/#/guide">準備方式</a><a href="/#/support">客服中心</a></nav></header>');
+  out.push(SHELL.header(cur || '/exam/'));
   out.push('<main class="kwrap">');
   return out;
 }
@@ -319,7 +318,6 @@ function hubHtml(h) {
    「高普考模擬考」「醫師國考模擬考」這類搜尋的落地頁。內容全是本站實際的出題規格（題數、時間、卷數、年度），
    每科一顆按鈕連到 #/mock/<考試>/<科目>（app.js 的 viewMock 會帶入選擇），不另做一份模考程式。
    題數與時間的算法要跟 app.js 的 stdOf()／specOf() 一致：同科目全部卷裡最新一卷的題數與時間。 */
-const MOCKCSS = '/css/paper.css?v=20261105a';
 function stdOf(sid) {
   const l = EXAMS.filter(e => e.subj === sid).sort((a, b) => (b.roc || 0) - (a.roc || 0));
   if (!l.length) return null;
@@ -374,7 +372,7 @@ function mockHtml(h) {
       isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } },
     { '@type': 'FAQPage', mainEntity: faq.map(f => ({ '@type': 'Question', name: f[0],
       acceptedAnswer: { '@type': 'Answer', text: f[1] } })) }] };
-  const out = shellHead(title, desc, url, ld).map(l => l.replace('/css/paper.css?v=20260912a', MOCKCSS));
+  const out = shellHead(title, desc, url, ld, '/mock/');
   out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <a href="/mock/">線上模擬考</a> › <span>' + esc(name) + '模擬考</span></nav>');
   out.push('<h1>' + esc(name) + '線上模擬考</h1>');
   out.push('<p class="klead">' + esc(x.note || '') + (x.note ? '。' : '') + '下面 ' + nsub + ' 個科目，每科都從民國 ' + lo + '～' + hi +
@@ -411,7 +409,7 @@ function mockIndexHtml() {
       { '@type': 'ListItem', position: 2, name: '線上模擬考' }] },
     { '@type': 'CollectionPage', '@id': url + '#webpage', url: url, name: title, description: desc, inLanguage: 'zh-Hant',
       isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } }] };
-  const out = shellHead(title, desc, url, ld).map(l => l.replace('/css/paper.css?v=20260912a', MOCKCSS));
+  const out = shellHead(title, desc, url, ld, '/mock/');
   out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <span>線上模擬考</span></nav>');
   out.push('<h1>國考線上模擬考</h1>');
   out.push('<p class="klead">選一種考試，再挑科目開考。題目從考選部公布的歷屆試題隨機抽，題數與作答時間照該科正式規格；' +

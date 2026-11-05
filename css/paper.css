@@ -1,76 +1,146 @@
-/* 每一卷靜態頁（exam/<pid>/index.html）專用樣式。
-   這些頁面不載入 app.js，所以不沿用 v2.css 的一整套主題變數，改用這份獨立、輕量的樣式。 */
-:root {
-  --bg: #f7f8fa; --fg: #1b1d22; --mut: #5b6270; --line: #e2e5ea;
-  --card: #ffffff; --ok: #1f7a45; --okbg: #eaf7f0; --brand: #2f5bd7;
+/* 靜態頁（exam/、mock/、essay/）專用樣式。這些頁面不載入 app.js，所以不整份套 v2.css，
+   但配色、字型、頁首、卡片照 v2.css 抄一份（2026-11-05 Tony：「這UI為什麼沒和全站一致」）：
+   預設＝金榜深色；使用者在站內選的主題（light／dark／sepia／hc）與字級由 head 的小段 script 設到 <html>。
+   v2.css 的色票改了，這裡要跟著改。頁首 HTML 在 tools/static-shell.js。 */
+:root{
+  --ink:#eef2f8; --ink2:#c8d2e0; --dim:#a3b0c2; --line:#2a3342; --line2:#141a24;
+  --bg:#0e1218; --card:#1a212c;
+  --brand:#e3b25c; --brand-d:#c9963f; --brand-l:#3a2f18;
+  --good:#5fd08a; --good-l:#12281f;
+  --on-brand:#1b1305;
+  --r:14px; --shadow:0 1px 2px rgba(0,0,0,.35), 0 14px 34px rgba(0,0,0,.35);
+  --lg1:#2f5bd7; --lg2:#7a4de0; --lg3:#fff;
 }
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #14161a; --fg: #e8eaee; --mut: #a2a9b6; --line: #2a2e36;
-          --card: #1b1e24; --ok: #63d29a; --okbg: #16301f; --brand: #7ea1ff; }
+:root[data-theme="light"]{
+  --ink:#151a24; --ink2:#3d475a; --dim:#6b7789; --line:#e3e8f0; --line2:#f0f3f8;
+  --bg:#f7f9fc; --card:#ffffff;
+  --brand:#2f5bd7; --brand-d:#2447ad; --brand-l:#eaf0ff;
+  --good:#12855f; --good-l:#e7f6f0;
+  --shadow:0 1px 2px rgba(21,26,36,.05), 0 8px 24px rgba(21,26,36,.06);
+  --on-brand:#fff;
 }
-* { box-sizing: border-box; }
-body {
-  margin: 0; background: var(--bg); color: var(--fg);
-  font: 16px/1.75 "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", system-ui, sans-serif;
-  -webkit-text-size-adjust: 100%;
+:root[data-theme="dark"]{
+  --ink:#e8ecf5; --ink2:#c2cadb; --dim:#8e9aae; --line:#28304060; --line2:#1c2432;
+  --bg:#0e131c; --card:#161d29;
+  --brand:#6f95ff; --brand-d:#87a7ff; --brand-l:#1a2338;
+  --good:#4fc79b; --good-l:#12281f;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.28);
+  --on-brand:#0e131c;
 }
-a { color: var(--brand); }
+:root[data-theme="sepia"]{
+  --ink:#3b2f21; --ink2:#5b4a35; --dim:#8a7659; --line:#e3d7c2; --line2:#f0e7d7;
+  --bg:#f6efe2; --card:#fffaf1;
+  --brand:#9a6b18; --brand-d:#7d5612; --brand-l:#f4e7cd;
+  --good:#4b7a3f; --good-l:#e9f2e3;
+  --shadow:0 1px 2px rgba(80,60,30,.06), 0 8px 24px rgba(80,60,30,.08);
+  --on-brand:#fff;
+}
+:root[data-theme="hc"]{
+  --ink:#000; --ink2:#111; --dim:#333; --line:#000; --line2:#e8e8e8;
+  --bg:#fff; --card:#fff;
+  --brand:#0033cc; --brand-d:#001f80; --brand-l:#e3eaff;
+  --good:#005c3c; --good-l:#e0f3ec;
+  --shadow:none; --on-brand:#fff;
+}
+:root[data-theme="hc"] a{text-decoration:underline}
+:root[data-fs="s"]{--fs:.9}
+:root[data-fs="l"]{--fs:1.15}
+:root[data-fs="xl"]{--fs:1.3}
 
-.kh { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
-      padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--card); }
-.klogo { font-weight: 800; font-size: 18px; text-decoration: none; color: var(--fg); }
-.knav a { margin-right: 14px; font-size: 14px; }
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,sans-serif;
+  line-height:1.75;font-size:calc(16px * var(--fs,1))}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%}
 
-.kwrap { max-width: 860px; margin: 0 auto; padding: 20px 20px 56px; }
-.kbc { font-size: 13px; color: var(--mut); margin: 4px 0 18px; }
-.kbc a { color: var(--mut); }
-h1 { font-size: 24px; line-height: 1.45; margin: 0 0 12px; }
-h2 { font-size: 19px; margin: 32px 0 10px; }
-.klead { color: var(--mut); font-size: 15px; margin: 0 0 18px; }
-.kcta { margin: 18px 0 26px; }
-.kbtn { display: inline-block; padding: 11px 20px; border-radius: 10px;
-        background: var(--brand); color: #fff; font-weight: 700; text-decoration: none; }
+/* ---- 頁首（同 v2.css .hd；手機沒有漢堡選單，導覽改成第二列可橫捲）---- */
+.hd{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--card) 92%,transparent);
+  backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line)}
+.hd-in{max-width:1080px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:10px 16px}
+.logo{display:flex;align-items:center;gap:5px;color:var(--ink);font-weight:800;
+  font-size:calc(25px * var(--fs,1));letter-spacing:.08em;line-height:1}
+.logo:hover{text-decoration:none}
+.logo .mk{width:38px;height:38px;flex:0 0 38px;display:block}
+.knav{display:flex;gap:4px;margin-left:auto;min-width:0;overflow-x:auto;scrollbar-width:none}
+.knav::-webkit-scrollbar{display:none}
+.knav a{padding:7px 12px;border-radius:9px;color:var(--ink2);font-size:calc(15px * var(--fs,1));
+  font-weight:600;white-space:nowrap}
+.knav a:hover{background:var(--line2);text-decoration:none}
+.knav a.on{color:var(--brand);background:var(--brand-l)}
+@media(max-width:819px){
+  .knav{flex:1 0 100%;margin:0 -16px;padding:0 12px}
+  .knav a{padding:5px 10px;font-size:calc(14px * var(--fs,1))}
+}
+/* 金榜深色（預設與 dark）：頁首更深、logo 換金色、目前那顆金底 */
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .hd{background:rgba(14,18,24,.88)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .logo{--lg1:#e3b25c;--lg2:#8a6520;--lg3:#1a1206}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .knav a.on{color:#1b1305;background:#e3b25c}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) body{
+  background:radial-gradient(900px 420px at 50% -140px,#1b2432 0%,transparent 70%),var(--bg)}
+:root:not([data-theme="light"]):not([data-theme="sepia"]):not([data-theme="hc"]) .kft{background:#111823}
 
-.klist { list-style: none; margin: 0; padding: 0; }
-.kq { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-      padding: 16px 18px; margin: 0 0 14px; }
-.kpsg { border-left: 3px solid var(--line); padding: 8px 0 8px 14px;
-        margin: 0 0 12px; color: var(--mut); font-size: 15px; white-space: pre-wrap; }
-.kqt { margin: 0 0 10px; }
-.kn { display: inline-block; min-width: 2em; font-weight: 700; color: var(--mut); }
-.kfig { margin: 8px 0; }
-.kfig img { max-width: 100%; height: auto; border-radius: 8px; }
-.kopt { list-style: none; margin: 0 0 10px; padding: 0; }
-.kopt li { padding: 3px 0 3px 4px; }
-.kopt li.ok { background: var(--okbg); border-radius: 6px; }
-.kopt b { color: var(--mut); margin-right: 4px; }
-.kans { margin: 0; font-size: 15px; }
-.kans b { color: var(--ok); }
-.kexp { margin: 12px 0 0; padding: 12px 14px; border-radius: 10px;
-        background: var(--okbg); font-size: 15px; }
-.kexp p { margin: 0 0 6px; }
-.kexp p:last-child { margin-bottom: 0; }
-.ktag { font-size: 12px; font-weight: 700; color: var(--ok); letter-spacing: .04em; }
-.kexp-lock { margin: 10px 0 0; font-size: 14px; color: var(--mut); }
+/* ---- 版面 ---- */
+.kwrap{max-width:1080px;margin:0 auto;padding:20px 16px 72px}
+.kbc{font-size:calc(13px * var(--fs,1));color:var(--dim);margin:4px 0 14px}
+.kbc a{color:var(--dim)}
+h1{font-size:calc(24px * var(--fs,1));line-height:1.45;font-weight:800;margin:0 0 10px}
+h2{font-size:calc(19px * var(--fs,1));font-weight:800;margin:30px 0 12px}
+h3{font-size:calc(16.5px * var(--fs,1));font-weight:800;margin:20px 0 4px}
+.klead{color:var(--dim);font-size:calc(15px * var(--fs,1));margin:0 0 18px;max-width:52em}
+.kmut{color:var(--dim);font-size:calc(13.5px * var(--fs,1))}
+.kcta{margin:18px 0 26px}
+.kbtn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:11px;
+  padding:11px 18px;font-size:calc(15.5px * var(--fs,1));font-weight:700;
+  border:1px solid var(--brand);background:var(--brand);color:var(--on-brand)}
+.kbtn:hover{background:var(--brand-d);text-decoration:none}
+.kbtn-s{padding:7px 14px;font-size:calc(14px * var(--fs,1));white-space:nowrap}
 
-.krel ul { margin: 0; padding-left: 1.2em; }
-.krel li { margin: 4px 0; }
-.kfine { margin: 28px 0 0; font-size: 13px; color: var(--mut); }
-.kft { border-top: 1px solid var(--line); padding: 18px 20px 40px;
-       text-align: center; font-size: 13px; color: var(--mut); background: var(--card); }
+/* ---- 題目（exam/<pid>/）---- */
+.klist{list-style:none;margin:0;padding:0}
+.kq{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:16px 18px;margin:0 0 14px}
+.kpsg{border-left:3px solid var(--line);padding:8px 0 8px 14px;margin:0 0 12px;color:var(--dim);
+  font-size:calc(15px * var(--fs,1));white-space:pre-wrap}
+.kqt{margin:0 0 10px}
+.kqt .kn+p{display:inline;margin:0}  /* 申論頁：題號後面第一段接在同一行 */
+.kqt .kn+p+p{margin-top:10px}
+.kn{display:inline-block;min-width:2em;font-weight:800;color:var(--brand)}
+.kfig{margin:8px 0}
+.kfig img{max-width:100%;height:auto;border-radius:8px;background:#fff}
+.kopt{list-style:none;margin:0 0 10px;padding:0}
+.kopt li{padding:3px 0 3px 6px}
+.kopt li.ok{background:var(--good-l);border-radius:8px}
+.kopt b{color:var(--dim);margin-right:4px}
+.kans{margin:0;font-size:calc(15px * var(--fs,1))}
+.kans b{color:var(--good)}
+.kexp{margin:12px 0 0;padding:12px 14px;border-radius:11px;background:var(--good-l);font-size:calc(15px * var(--fs,1))}
+.kexp p{margin:0 0 6px}
+.kexp p:last-child{margin-bottom:0}
+.ktag{font-size:calc(12px * var(--fs,1));font-weight:800;color:var(--good);letter-spacing:.04em}
+.kexp-lock{margin:10px 0 0;font-size:calc(14px * var(--fs,1));color:var(--dim)}
 
-/* 卷頁總覽 exam/index.html */
-.kidx { list-style: none; margin: 0 0 6px; padding: 0;
-        display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px 18px; }
-.kidx li { padding: 3px 0; font-size: 15px; }
-.kmut { color: var(--mut); font-size: 13px; }
+/* ---- 總覽、考試頁、相關連結 ---- */
+.kidx{list-style:none;margin:0 0 6px;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:2px 18px}
+.kidx li{padding:4px 0;font-size:calc(15px * var(--fs,1))}
+.krel ul{margin:0;padding-left:1.2em}
+.krel li{margin:4px 0}
 
-/* 模擬考頁 mock/<考試>/（2026-11-05）：一科一列，窄螢幕（iPhone Duo 外屏 382px）按鈕換到下一行 */
-.kmk { list-style: none; margin: 0 0 6px; padding: 0; }
-.kmk li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px;
-          background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 0 0 8px; }
-.kmk-t { flex: 1 1 260px; min-width: 0; }
-.kmk-t b { display: block; }
-.kmk-t .kmut { display: block; }
-.kbtn-s { padding: 7px 14px; font-size: 14px; white-space: nowrap; }
-h3 { font-size: 16px; margin: 20px 0 4px; }
+/* ---- 模擬考頁 mock/：一列一張卡，窄螢幕（iPhone Duo 外屏 382px）按鈕換到下一行 ---- */
+.kmk{list-style:none;margin:0 0 6px;padding:0}
+.kmk li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:12px 16px;margin:0 0 10px;transition:border-color .12s}
+.kmk li:hover{border-color:var(--brand)}
+.kmk-t{flex:1 1 260px;min-width:0}
+.kmk-t b{display:block;font-size:calc(16px * var(--fs,1));font-weight:800}
+.kmk-t a b{color:var(--ink)}
+.kmk-t .kmut{display:block}
+
+/* ---- 頁尾 ---- */
+.kfine{margin:28px 0 0;font-size:calc(13px * var(--fs,1));color:var(--dim)}
+.kft{border-top:1px solid var(--line);padding:22px 16px 40px;text-align:center;
+  font-size:calc(13.5px * var(--fs,1));color:var(--dim);background:var(--card)}

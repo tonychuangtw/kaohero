@@ -11,6 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const SHELL = require('./static-shell');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, 'essay');
@@ -64,11 +65,9 @@ function head(title, desc, url, ld) {
     '<meta property="og:image" content="' + SITE + '/img/og.png">',
     '<meta name="twitter:card" content="summary_large_image">',
     ld ? '<script type="application/ld+json">' + JSON.stringify(ld) + '</scr' + 'ipt>' : '',
-    '<link rel="icon" href="/img/logo.png" type="image/png">',
-    '<link rel="stylesheet" href="/css/paper.css?v=20260912a">',
+    SHELL.head(),
     '</head>', '<body>',
-    '<header class="kh"><a class="klogo" href="/">考英雄</a>' +
-    '<nav class="knav"><a href="/#/exams">考試題庫</a><a href="/essay/">申論題庫</a><a href="/#/support">客服中心</a></nav></header>',
+    SHELL.header('/essay/'),
     '<main class="kwrap">'].filter(Boolean);
 }
 
