@@ -1,10 +1,18 @@
 STATUS: in-progress
-OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（等 Tony 選平台＋/secret 給帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: C 第一步：寫純腳本 tools/daily-release.sh＋timer（台北 07:00）：①查考選部已收 16 種考試的新考期，答案公布就自動下載轉檔上架 ②從待上架區每天放一個年度。接著備第一種新考試（不動產經紀人；gen_civil／gen_bank 加 SPECS＋前端 CATS 註冊），詳解用 Claude 先寫好放待上架區。B 等 Tony 回 seo 頁待確認；Bing 匯入、Cloudflare Web Analytics 我用 scout 代登入做
+OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
+NEXT_ACTION: ① 不動產經紀人／記帳士 97 卷已在待上架區（13 組，114 年先），exp-worker 照上架順序寫詳解（claude，走 API 贈額）；每天看 ~/.claude/exp-worker.log 有沒有在寫、daily-release.log 有沒有上架 ② 備下一種：社會工作師（在護理師那幾次考試裡，113100／114100 等，gen_bank 或 gen_civil 加 spec）③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
-BLOCKERS: B 等 Tony 選平台與帳號（seo 頁待確認）
-PATHS: 企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/build-pages.js（mockHtml／mockIndexHtml）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-05 15:10（台北）
+BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
+PATHS: 企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
+UPDATED: 2026-11-05 15:08（台北）
+
+## 2026-11-05 每日小更新：機制上線、第一種新考試進待上架區
+
+- daily-release.sh＋timer（台北 07:00，1632bd3f0）；build-index 跳過 release-queue 裡的卷、沒卷的考試不進分類；build-pages 內容沒變的頁沿用舊日期。
+- 不動產經紀人 58 卷＋記帳士 39 卷（102～114 年，3,281 題待寫）：~/exam-pdfs/rea，codes.json 手補 110180（標題被截斷沒抓到）；rows 只留兩個類科再 sweep。gen_civil 加 rea／acc spec＋`trackreq`（同一考試代碼只收指定類科）。記帳士國文跟不動產經紀人同一卷，只收在 rea。新分類 pro「不動產與記帳」，gao-groups 加「專技普考類科」。commit 470480ad0。
+- exp-next 改成待上架區的卷照上架順序先寫（不然 rea 全寫完才輪到 acc，114 那組要等很久）。
+- 坑：gen_civil 每跑一個 spec 就覆蓋 figs.json，兩個 spec 共用工作目錄時要各存一份再合併（figs-rea.json＋figs-acc.json）。
+- Tony 回 B：A＋B＋C 都做，seo 頁改成等四個平台帳號。
 
 ## 2026-11-05 #SCGO：模擬考頁上線、GSC 查證、每日小更新企劃
 
