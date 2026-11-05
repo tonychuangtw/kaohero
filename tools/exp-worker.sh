@@ -212,7 +212,10 @@ else:
     txt=txt.replace('\n## ',f"\n{block}\n\n## ",1)
 open(f,'w',encoding='utf-8').write(txt)
 PY
-  git add js/data/exam/"$pid".js js/data/exams.js exam/"$pid" sitemap.xml tools/exp-skips.json PROGRESS.md 2>/dev/null
+  # 只 add 存在的路徑：待上架區的卷沒有 exam/<pid> 靜態頁，路徑不存在 git add 會整個失敗、什麼都沒暫存，
+  # commit 就靜默失敗（2026-11-05 不動產經紀人／記帳士 97 卷全部沒 commit，靠 04:00 存檔才收進 git）
+  addp=(); for x in js/data/exam/"$pid".js js/data/exams.js exam/"$pid" sitemap.xml tools/exp-skips.json PROGRESS.md; do [ -e "$x" ] && addp+=("$x"); done
+  git add "${addp[@]}" 2>/dev/null
   git commit -q -m "詳解：${title} ${n_written} 題$( [ "$n_skip" -gt 0 ] && printf '（跳過 %s 題：%s）' "$n_skip" "$skipreasons")
 
 worker: $usage ${secs}s engine=$ENGINE_NAME" 2>/dev/null
