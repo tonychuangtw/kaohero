@@ -56,6 +56,18 @@ SPECS = {
              'dupmark': [('外語', '外語'), ('華語', '華語')],
              'note': {1: '高中職（含）以上程度，全測驗題；分華語導遊與外語導遊（各語別）',
                       2: '高中職（含）以上程度，全測驗題；分華語領隊與外語領隊（各語別）'}},
+    # 專技普考不動產經紀人、記帳士（2026-11-05 每日小更新補收）：同一個考試代碼（每年一次、與建築師技師同場），
+    # 各收成一種考試；兩者都只有一個類科，等別就寫類科名。專業科目是「申論＋25 題測驗」混合卷，只收測驗那段。
+    'rea': {'cat': 'pro', 'exam': 'rea', 'prefix': 'rea',
+            'levels': [(1, '不動產經紀人', ('普考', '普通考試'))],
+            'lvlkey': {1: 'r'},
+            'require': ('普考', '普通考試'), 'trackreq': '不動產經紀人',
+            'note': {1: '高中職（含）以上程度；專業科目為申論加 25 題測驗'}},
+    'acc': {'cat': 'pro', 'exam': 'acc', 'prefix': 'acc',
+            'levels': [(1, '記帳士', ('普考', '普通考試'))],
+            'lvlkey': {1: 'k'},
+            'require': ('普考', '普通考試'), 'trackreq': '記帳士',
+            'note': {1: '高中職（含）以上程度；專業科目為申論加 25 題測驗'}},
     'local': {'cat': 'civil', 'exam': 'local', 'prefix': 'loc',
               'levels': [(1, '三等', ('三等',)), (2, '四等', ('四等',)), (3, '五等', ('五等',))],
               'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
@@ -72,6 +84,7 @@ def lvl_of(cn):
     head = (cn or '').split('_')[0]
     req = SPEC.get('require')
     if req and not any(k in head for k in req): return None
+    if SPEC.get('trackreq') and SPEC['trackreq'] not in (cn or ''): return None
     for no, _name, keys in SPEC['levels']:
         if any(k in head for k in keys): return no
     return None
