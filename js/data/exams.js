@@ -6648,6 +6648,41 @@ window.APP_SUBJECTS = {
   "name": "稅務相關法規概要",
   "note": "",
   "stage": 1
+ },
+ "s001": {
+  "name": "社會工作",
+  "note": "",
+  "stage": 1
+ },
+ "s002": {
+  "name": "社會政策與社會立法",
+  "note": "",
+  "stage": 1
+ },
+ "s003": {
+  "name": "社會工作管理",
+  "note": "",
+  "stage": 1
+ },
+ "s004": {
+  "name": "社會工作直接服務",
+  "note": "",
+  "stage": 1
+ },
+ "s005": {
+  "name": "人類行為與社會環境",
+  "note": "",
+  "stage": 1
+ },
+ "s006": {
+  "name": "社會工作研究方法",
+  "note": "",
+  "stage": 1
+ },
+ "s007": {
+  "name": "國文",
+  "note": "國文（作文與測驗）",
+  "stage": 1
  }
 };
 window.APP_EXAMS = [

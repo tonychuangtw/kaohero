@@ -68,6 +68,15 @@ SPECS = {
             'lvlkey': {1: 'k'},
             'require': ('普考', '普通考試'), 'trackreq': '記帳士',
             'note': {1: '高中職（含）以上程度；專業科目為申論加 25 題測驗'}},
+    # 專技高考社會工作師（2026-11-06 每日小更新補收）：跟護理師、營養師同場，一年兩次（第一次／第二次），
+    # 所以 rows 檔一個考試代碼一個（rows-<roc>-<code>.json，帶 nth）。類科名歷年寫「高考_／專技高考_社會工作師」。
+    # 專業科目是「申論 2 題＋測驗 40 題」混合卷，只收測驗；102～108 年第一次的國文（作文與測驗）也收測驗段。
+    # 106111（第二次花東考區補辦，只考三科）不收。
+    'sw': {'cat': 'social', 'exam': 'sw', 'prefix': 'soc',
+           'levels': [(1, '社會工作師', ('高考', '高等'))],
+           'lvlkey': {1: 's'},
+           'require': ('高考', '高等'), 'trackreq': '社會工作師', 'multi': True,
+           'note': {1: '大學相關科系畢業；專業科目為申論 2 題加 40 題測驗'}},
     'local': {'cat': 'civil', 'exam': 'local', 'prefix': 'loc',
               'levels': [(1, '三等', ('三等',)), (2, '四等', ('四等',)), (3, '五等', ('五等',))],
               'lvlkey': {1: 'a', 2: 'b', 3: 'c'},
@@ -173,11 +182,15 @@ def key_of(reg, lvl, name):
     return reg[k]['key']
 
 
+CODE_NTH = {}     # 考試代碼 → 次別（一年兩次的考試，rows 檔裡寫 nth；沒寫就是 1）
+
+
 def papers_of(work):
     """[(roc, code, c, cn(第一個類科), s, sn, [所有類科名])]，每份卷一筆"""
     out = []
     for fn in sorted(glob.glob(os.path.join(work, 'rows-*.json'))):
         d = json.load(open(fn))
+        CODE_NTH[d['code']] = int(d.get('nth') or 1)
         roc = int(os.path.basename(fn)[5:8])
         seen = collections.OrderedDict()
         for c, cn, s, sn in d['rows']:
@@ -203,7 +216,7 @@ def collisions(rows):
     for roc, code, c, cn, s_, sn, trs in rows:
         lvl = lvl_of(cn)
         if not lvl: continue
-        k = (roc, lvl, canon(sn))
+        k = (roc, code, lvl, canon(sn))      # 一年兩次的考試：兩次各自比，不要互撞
         if k in seen and seen[k] != s_: dup.add((lvl, canon(sn)))
         seen[k] = s_
     return dup
@@ -281,7 +294,8 @@ def main():
         if len(qs_raw) != len(ans):
             skipped.append([roc, code, s, sn, '題數 %d≠答案 %d' % (len(qs_raw), len(ans))]); continue
         corr = P.parse_corrections(mp) if os.path.exists(mp) else {}
-        pid = '%s-%d-1-%s' % (SPEC['prefix'], roc, key)   # 第三段固定 1（一年一次），等別在 key 的前綴
+        nth = CODE_NTH.get(code, 1)
+        pid = '%s-%d-%d-%s' % (SPEC['prefix'], roc, nth, key)   # 第三段＝次別（一年一次的固定 1），等別在 key 的前綴
         qs = []
         for q in qs_raw:
             n = q['n']
@@ -331,8 +345,9 @@ def main():
             figs.append([qp, n, os.path.join('outimg', os.path.basename(fn)), fn])
         lvname = [x[1] for x in SPEC['levels'] if x[0] == lvl][0]
         paper = {'id': pid, 'cat': SPEC['cat'], 'exam': SPEC['exam'], 'stage': lvl,
-                 'roc': roc, 'nth': 1, 'code': code, 'subj': key,
-                 'title': '%d 年　%s　%s' % (roc, lvname, name),
+                 'roc': roc, 'nth': nth, 'code': code, 'subj': key,
+                 'title': ('%d 年第%s次　%s' % (roc, '一二三'[nth - 1], name)) if SPEC.get('multi')
+                          else '%d 年　%s　%s' % (roc, lvname, name),
                  'subjName': name,
                  'src': '考選部考畢試題查詢平臺公開之試題與標準答案',
                  'mins': mins_of(qp, len(qs)), 'qs': qs}
