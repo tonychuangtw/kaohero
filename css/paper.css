@@ -64,3 +64,13 @@ h2 { font-size: 19px; margin: 32px 0 10px; }
         display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px 18px; }
 .kidx li { padding: 3px 0; font-size: 15px; }
 .kmut { color: var(--mut); font-size: 13px; }
+
+/* 模擬考頁 mock/<考試>/（2026-11-05）：一科一列，窄螢幕（iPhone Duo 外屏 382px）按鈕換到下一行 */
+.kmk { list-style: none; margin: 0 0 6px; padding: 0; }
+.kmk li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px;
+          background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 0 0 8px; }
+.kmk-t { flex: 1 1 260px; min-width: 0; }
+.kmk-t b { display: block; }
+.kmk-t .kmut { display: block; }
+.kbtn-s { padding: 7px 14px; font-size: 14px; white-space: nowrap; }
+h3 { font-size: 16px; margin: 20px 0 4px; }

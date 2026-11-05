@@ -1547,7 +1547,17 @@
   var mkCat = null, mkExam = null, mkSubj = null;   // 記住模考設定頁的三層選擇，切規格重繪時不會被重設
   function stopMockTimer() { if (mockTimer) { clearInterval(mockTimer); mockTimer = null; } }
 
-  function viewMock(main) {
+  function viewMock(main, linkExam, linkSubj) {
+    // 靜態頁 /mock/<考試>/ 的「開始模擬考」連到 #/mock/<考試>/<科目>：先帶入選擇，再把網址換回 #/mock，
+    // 不然下拉選單一改就 render()，又被網址裡的舊科目蓋回去（2026-11-05）
+    if (linkExam) {
+      for (var ci = 0; ci < CATS.length; ci++) {
+        if ((CATS[ci].exams || []).some(function (x) { return x.id === linkExam; })) {
+          mkCat = CATS[ci].id; mkExam = linkExam; mkSubj = linkSubj || null; break;
+        }
+      }
+      try { history.replaceState(null, '', location.pathname + location.search + '#/mock'); } catch (e) {}
+    }
     main.appendChild(el('h1', 'pg-h', T('模擬考')));
     main.appendChild(el('p', 'lead',
       T('從一個科目的歷年考古題隨機抽題，照該科的正式題數與時間限時作答。作答中不會顯示答案，交卷後才整卷批改。')));
@@ -2268,7 +2278,7 @@
       } else viewQuiz(main);
     }
     else if (top === 'quiz') { if (quiz && quiz.mode === 'mock') viewMockQuiz(main); else viewQuiz(main); }
-    else if (top === 'mock') viewMock(main);
+    else if (top === 'mock') viewMock(main, seg[1], seg[2]);
     else if (top === 'friends') viewFriends(main);
     else if (top === 'wrong') viewWrong(main);
     else if (top === 'plans' || top === 'account') {

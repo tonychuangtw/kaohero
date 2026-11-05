@@ -206,7 +206,7 @@ function shellHead(title, desc, url, ld) {
   out.push('<link rel="stylesheet" href="/css/paper.css?v=20260912a">');
   out.push('</head>\n<body>');
   out.push('<header class="kh"><a class="klogo" href="/">考英雄</a>' +
-    '<nav class="knav"><a href="/exam/">全部題庫</a><a href="/#/guide">準備方式</a><a href="/#/support">客服中心</a></nav></header>');
+    '<nav class="knav"><a href="/exam/">全部題庫</a><a href="/mock/">線上模擬考</a><a href="/#/guide">準備方式</a><a href="/#/support">客服中心</a></nav></header>');
   out.push('<main class="kwrap">');
   return out;
 }
@@ -286,7 +286,7 @@ function hubHtml(h) {
   out.push('<p class="klead">收錄民國 ' + lo + ' 至 ' + hi + ' 年' + esc(name) + '考古題 <b>' + fmt(list.length) + '</b> 卷、<b>' + fmt(nq) +
     '</b> 題，涵蓋 ' + subjs + ' 個科目。標準答案取自考選部「考畢試題查詢平臺」，其中 <b>' + fmt(nx) +
     '</b> 題附有本站自撰的逐題詳解：說明正解理由、逐一點出其他選項錯在哪，並標註出處。點進任一卷可看全部題目與解答，或直接線上模擬考。</p>');
-  out.push('<p class="kcta"><a class="kbtn" href="/#/exam/' + esc(x.id) + '">▶ 線上模擬考（依類科、科目挑卷）</a></p>');
+  out.push('<p class="kcta"><a class="kbtn" href="/mock/' + esc(x.id) + '/">▶ ' + esc(name) + '線上模擬考（' + subjs + ' 科，照正式題數限時）</a></p>');
   if (ESSAY_EXAMS[x.id]) out.push('<p>申論題：歷屆申論試題與參考答題架構在 <a href="/essay/">申論題庫</a>。</p>');
   out.push('<p class="kmut">年度：' + years.map(y => '<a href="#y' + y + '">' + y + '</a>').join('　') + '</p>');
   years.forEach(y => {
@@ -300,6 +300,123 @@ function hubHtml(h) {
   return shellFoot(out);
 }
 
+/* 各考試模擬考頁 mock/<考試>/index.html（2026-11-05 Tony #SCGO「A 做」）：
+   「高普考模擬考」「醫師國考模擬考」這類搜尋的落地頁。內容全是本站實際的出題規格（題數、時間、卷數、年度），
+   每科一顆按鈕連到 #/mock/<考試>/<科目>（app.js 的 viewMock 會帶入選擇），不另做一份模考程式。
+   題數與時間的算法要跟 app.js 的 stdOf()／specOf() 一致：同科目全部卷裡最新一卷的題數與時間。 */
+const MOCKCSS = '/css/paper.css?v=20261105a';
+function stdOf(sid) {
+  const l = EXAMS.filter(e => e.subj === sid).sort((a, b) => (b.roc || 0) - (a.roc || 0));
+  if (!l.length) return null;
+  const n = l[0].n, mins = l[0].mins || Math.round(l[0].n * 1.2);
+  const ys = l.map(e => e.roc);
+  return { n, mins, papers: l.length, lo: Math.min(...ys), hi: Math.max(...ys),
+           exp: l.reduce((t, e) => t + e.exp, 0), nq: l.reduce((t, e) => t + e.n, 0) };
+}
+const SUBJS = window.APP_SUBJECTS || {};
+const subjName = (sid, e) => (SUBJS[sid] && SUBJS[sid].name) || (e && e.subjName) || sid;
+function mockStages(h) {
+  const has = new Set(h.list.map(e => e.subj)), seen = new Set(), out = [];
+  (h.x.stages || []).forEach(st => {
+    const subs = (st.subjects || []).filter(sid => has.has(sid) && !seen.has(sid));
+    subs.forEach(sid => seen.add(sid));
+    if (subs.length) out.push({ name: st.name, note: st.note, subs });
+  });
+  const rest = [...has].filter(sid => !seen.has(sid));
+  if (rest.length) out.push({ name: '其他科目', note: '', subs: rest });
+  return out;
+}
+function mockHtml(h) {
+  const { x, list } = h;
+  const name = hubName(x);
+  const url = SITE + '/mock/' + x.id + '/';
+  const years = list.map(e => e.roc), lo = Math.min(...years), hi = Math.max(...years);
+  const nq = list.reduce((t, e) => t + e.n, 0), nx = list.reduce((t, e) => t + e.exp, 0);
+  const stages = mockStages(h);
+  const nsub = stages.reduce((t, st) => t + st.subs.length, 0);
+  const title = name + '線上模擬考｜免費限時、照正式題數，' + nsub + ' 科歷屆考古題｜考英雄';
+  const desc = name + '線上模擬考：' + nsub + ' 個科目，從民國 ' + lo + '～' + hi + ' 年 ' + fmt(list.length) +
+    ' 卷考古題隨機抽題，照正式題數與時間限時作答，交卷整卷批改、附逐題詳解與弱點診斷。免費、免註冊。';
+  const faq = [
+    [name + '模擬考的題目從哪裡來？',
+     '全部來自考選部公布的' + name + '歷屆試題：民國 ' + lo + ' 至 ' + hi + ' 年共 ' + fmt(list.length) + ' 卷、' + fmt(nq) +
+     ' 題，標準答案以考選部公告為準（含更正答案與送分題）。其中 ' + fmt(nx) + ' 題附有本站自撰的逐題詳解。'],
+    ['一次考幾題、考多久？',
+     '預設「全真規格」：照該科最近一次正式考試的題數與作答時間（各科規格列在上方）。時間不夠可選「半卷」（題數與時間各減半），或「20 題速刷」。'],
+    ['交卷後看得到什麼？',
+     '整卷批改與分數、每題的正解與詳解；答錯的題自動進「錯題本」排間隔複習，並依詳解標註的出處歸納弱點主題、產生補弱題單。'],
+    ['同一科每次考的題目一樣嗎？',
+     '一般模擬考每次從該科全部歷屆題庫隨機抽題，所以每次不同。想跟別人比分數就用「本週排名賽」：同一週同一科所有人拿到同一份題組，交卷後看得到自己贏過多少人。'],
+    ['要付費或註冊嗎？',
+     '模擬考免費、免註冊，打開就能考。用 Google 帳號登入可以把作答紀錄與錯題本同步到其他裝置。']
+  ];
+  const ld = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '考英雄', item: SITE + '/' },
+      { '@type': 'ListItem', position: 2, name: '線上模擬考', item: SITE + '/mock/' },
+      { '@type': 'ListItem', position: 3, name: name + '模擬考' }] },
+    { '@type': 'WebPage', '@id': url + '#webpage', url: url, name: title, description: desc, inLanguage: 'zh-Hant',
+      isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } },
+    { '@type': 'FAQPage', mainEntity: faq.map(f => ({ '@type': 'Question', name: f[0],
+      acceptedAnswer: { '@type': 'Answer', text: f[1] } })) }] };
+  const out = shellHead(title, desc, url, ld).map(l => l.replace('/css/paper.css?v=20260912a', MOCKCSS));
+  out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <a href="/mock/">線上模擬考</a> › <span>' + esc(name) + '模擬考</span></nav>');
+  out.push('<h1>' + esc(name) + '線上模擬考</h1>');
+  out.push('<p class="klead">' + esc(x.note || '') + (x.note ? '。' : '') + '下面 ' + nsub + ' 個科目，每科都從民國 ' + lo + '～' + hi +
+    ' 年的歷屆考古題隨機抽題，照正式題數與時間限時作答；作答中不顯示答案，交卷後整卷批改。</p>');
+  out.push('<p class="kcta"><a class="kbtn" href="/#/mock/' + esc(x.id) + '">▶ 開始' + esc(name) + '模擬考</a></p>');
+  stages.forEach(st => {
+    out.push('<h2>' + esc(st.name) + (st.note ? '<span class="kmut">　' + esc(st.note) + '</span>' : '') + '</h2>');
+    out.push('<ul class="kmk">');
+    st.subs.forEach(sid => {
+      const sd = stdOf(sid);
+      const e0 = list.find(e => e.subj === sid);
+      out.push('<li><div class="kmk-t"><b>' + esc(subjName(sid, e0)) + '</b>' +
+        '<span class="kmut">正式規格 ' + sd.n + ' 題／' + sd.mins + ' 分鐘・題庫 ' + sd.papers + ' 卷（' +
+        (sd.lo === sd.hi ? sd.lo : sd.lo + '～' + sd.hi) + ' 年）・詳解 ' + fmt(sd.exp) + ' 題</span></div>' +
+        '<a class="kbtn kbtn-s" href="/#/mock/' + esc(x.id) + '/' + esc(sid) + '">開始模擬考</a></li>');
+    });
+    out.push('</ul>');
+  });
+  out.push('<h2>常見問題</h2>');
+  faq.forEach(f => out.push('<h3>' + esc(f[0]) + '</h3><p>' + esc(f[1]) + '</p>'));
+  out.push('<p>想先看整卷題目與解答：<a href="/exam/' + esc(x.id) + '/">' + esc(name) + '考古題（依年度）</a>' +
+    (ESSAY_EXAMS[x.id] ? '；申論題在 <a href="/essay/">申論題庫</a>' : '') + '。其他考試的模擬考：<a href="/mock/">線上模擬考總覽</a>。</p>');
+  return shellFoot(out);
+}
+function mockIndexHtml() {
+  const url = SITE + '/mock/';
+  const nq = EXAMS.reduce((t, e) => t + e.n, 0);
+  const title = '國考線上模擬考｜高普考、地方特考、醫事國考、教檢免費限時模考｜考英雄';
+  const desc = '國家考試線上模擬考：' + HUBS.length + ' 種考試、' + fmt(EXAMS.length) + ' 卷、' + fmt(nq) +
+    ' 題歷屆考古題，照各科正式題數與時間限時作答，交卷整卷批改、附逐題詳解。免費、免註冊。';
+  const ld = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '考英雄', item: SITE + '/' },
+      { '@type': 'ListItem', position: 2, name: '線上模擬考' }] },
+    { '@type': 'CollectionPage', '@id': url + '#webpage', url: url, name: title, description: desc, inLanguage: 'zh-Hant',
+      isPartOf: { '@id': SITE + '/#website' }, publisher: { '@id': SITE + '/#org' } }] };
+  const out = shellHead(title, desc, url, ld).map(l => l.replace('/css/paper.css?v=20260912a', MOCKCSS));
+  out.push('<nav class="kbc" aria-label="麵包屑"><a href="/">首頁</a> › <span>線上模擬考</span></nav>');
+  out.push('<h1>國考線上模擬考</h1>');
+  out.push('<p class="klead">選一種考試，再挑科目開考。題目從考選部公布的歷屆試題隨機抽，題數與作答時間照該科正式規格；' +
+    '作答中不顯示答案，交卷後整卷批改、看逐題詳解，錯題自動進錯題本。全部免費、免註冊。</p>');
+  let lastCat = null;
+  HUBS.forEach(h => {
+    if (h.c.id !== lastCat) {
+      if (lastCat) out.push('</ul>');
+      out.push('<h2>' + esc(h.c.name) + '</h2><ul class="kmk">');
+      lastCat = h.c.id;
+    }
+    const nsub = mockStages(h).reduce((t, st) => t + st.subs.length, 0);
+    out.push('<li><div class="kmk-t"><a href="/mock/' + esc(h.x.id) + '/"><b>' + esc(hubName(h.x)) + '模擬考</b></a>' +
+      '<span class="kmut">' + nsub + ' 科・' + fmt(h.list.length) + ' 卷</span></div></li>');
+  });
+  if (lastCat) out.push('</ul>');
+  out.push('<p>只想看題目與解答：<a href="/exam/">全部考古題總覽</a>。</p>');
+  return shellFoot(out);
+}
+
 /* 總覽、各考試頁與 sitemap：首頁 + 卷頁總覽 + 考試頁 + 全部卷頁 */
 if (WRITE && !ONLY && !LIMIT) {
   fs.mkdirSync(OUT, { recursive: true });
@@ -309,9 +426,19 @@ if (WRITE && !ONLY && !LIMIT) {
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), hubHtml(h), 'utf8');
   });
+  const MOCK = path.join(ROOT, 'mock');
+  fs.mkdirSync(MOCK, { recursive: true });
+  fs.writeFileSync(path.join(MOCK, 'index.html'), mockIndexHtml(), 'utf8');
+  HUBS.forEach(h => {
+    const dir = path.join(MOCK, h.x.id);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.html'), mockHtml(h), 'utf8');
+  });
   const urls = ['  <url><loc>' + SITE + '/</loc><lastmod>' + TODAY + '</lastmod><priority>1.0</priority></url>',
                 '  <url><loc>' + SITE + '/exam/</loc><lastmod>' + TODAY + '</lastmod><priority>0.9</priority></url>'];
   HUBS.forEach(h => urls.push('  <url><loc>' + SITE + '/exam/' + h.x.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.8</priority></url>'));
+  urls.push('  <url><loc>' + SITE + '/mock/</loc><lastmod>' + TODAY + '</lastmod><priority>0.9</priority></url>');
+  HUBS.forEach(h => urls.push('  <url><loc>' + SITE + '/mock/' + h.x.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.8</priority></url>'));
   EXAMS.forEach(e => urls.push('  <url><loc>' + SITE + '/exam/' + e.id + '/</loc><lastmod>' + TODAY + '</lastmod><priority>0.7</priority></url>'));
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'),
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
