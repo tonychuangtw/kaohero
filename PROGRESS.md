@@ -1,6 +1,6 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 待上架區 27 組：不動產經紀人／記帳士 13 組（詳解全寫完，每天 07:00 放一組）＋社會工作師 14 組（178 卷 6,868 題，exp-worker 11/06 04:21 起寫，claude Opus 走 API 贈額，贈額 11/08 前約剩 US$112、估需 US$120，不夠的尾巴自動退回訂閱）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 備下一種：地政士（專技普考，與不動產經紀人不同場）或司法特考等（順序見 daily-update 頁） ③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
+NEXT_ACTION: ① 待上架區 27 組：不動產經紀人／記帳士 13 組（詳解全寫完，每天 07:00 放一組）＋社會工作師 14 組（178 卷 6,868 題，exp-worker 11/06 04:21 起寫，claude Opus 走 API 贈額，贈額 11/08 前約剩 US$112、實測每卷約 US$0.55、估需約 US$100，萬一不夠自動退回訂閱）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 備下一種：地政士（專技普考，與不動產經紀人不同場）或司法特考等（順序見 daily-update 頁） ③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
 PATHS: 社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
