@@ -346,6 +346,7 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - 選擇題考卷靜態頁是 `tools/build-pages.js`（exam/<pid>/），worker 寫完詳解自動重產
 - 2026-10-10 加各考試頁 `exam/<考試>/`（gao、doctor、lawyer…16 頁，依年度列卷，h2 `高普考考古題 115 年`），卷頁麵包屑改指向它與 `/exam/`（原本指 hash 路由，Google 當成首頁）。
   考試頁與 `/exam/`、sitemap.xml 只在**全量** `node tools/build-pages.js --write` 時重產（worker 的 `--only` 不會動）；新增考試或年度後要全量跑一次
+- **靜態頁的頁首與樣式共用**（2026-11-05 Tony「這UI為什麼沒和全站一致」）：三種靜態頁的頁首都由 `tools/static-shell.js` 產，樣式 `css/paper.css` 照 v2.css 抄色票（預設金榜深色＋站內選的主題／字級）。v2.css 改色或主站導覽改了要跟著改；改 CSS 後在 static-shell.js 換版本號，再全量重跑 build-pages 與 build-essay-pages
 - IndexNow：金鑰檔是根目錄的 32 位十六進位 `.txt`（公開的，不是秘密），部署後跑 `node tools/indexnow-ping.mjs`（兩份 sitemap 全送）或帶路徑只送幾頁
 - ⚠ Search Console 查成效別只看 `gsc.py query`（依關鍵字分組）：匿名查詢會整批被丟掉，10/09 因此把 1,227 次曝光講成 16 次。全站數字用不分組總計；單一關鍵字的「排名」要附曝光數，個位數就是樣本太少
 
