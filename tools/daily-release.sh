@@ -59,7 +59,7 @@ else
       sleep 20
     done
     git push -q >> "$LOG" 2>&1 || log "push 失敗（本機已 commit，cf-deploy 照樣部署工作目錄）"
-    bash tools/cf-deploy.sh >> "$LOG" 2>&1
+    CF_WAIT=1 bash tools/cf-deploy.sh >> "$LOG" 2>&1 || log "部署失敗，見 ~/.claude/cf-deploy.log"
     PATHS=$(for p in $PIDS; do echo -n " /exam/$p/"; done)
     node tools/indexnow-ping.mjs / /exam/ /mock/ $PATHS >> "$LOG" 2>&1
     REM=$(node -pe "JSON.parse(require('fs').readFileSync('tools/release-queue.json','utf8')).queue.length")

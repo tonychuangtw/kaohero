@@ -383,6 +383,7 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 - **待上架區**：題本檔先放進 `js/data/exam/`，pid 列進 `release-queue.json` 的 `queue`（一組＝一種考試的一個年度），`build-index` 就不列它們
   （exp-next／worker 照樣會寫詳解，`build-pages --only` 也不會產頁）。一卷都還沒上架的考試，`build-index` 會把它從 APP_CATS 拿掉。
   上架前要整組一起測：`KH_NOHOLD=1 node tools/build-index.js --write && node test/test.js`，測完記得不帶 KH_NOHOLD 再寫一次
+- ⚠ 07:00 跟 cf-deploy.timer 同一刻：timer 的部署佔著鎖時，舊版 daily-release 叫的 cf-deploy（`flock -n`）直接退出，新卷晚一輪才上線、IndexNow 先送了 404 網址（11/06 症狀：daily-release.log 說上架了，cf-deploy.log 07:00 部署的卻是前一個 commit）。現在 daily-release 帶 `CF_WAIT=1` 等鎖
 - 看下一組：`node tools/release-next.js`；手動放：`node tools/release-next.js --pop [--force]` 後照 daily-release.sh 的步驟
 - **`build-pages` 的日期**（同日改）：內容（日期以外）沒變的頁不重寫、沿用舊「最後更新」，sitemap lastmod 跟著頁走。以前每次全量重產四千多頁都蓋成今天，Google 會認定 lastmod 不可信。`build-essay-pages.js` 還是舊做法
 - 補收順序與企劃：https://tony-plans.pages.dev/kaohero/daily-update

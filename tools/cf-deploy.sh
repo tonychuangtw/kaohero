@@ -19,7 +19,10 @@ LOG="$HOME/.claude/cf-deploy.log"
 log() { echo "$(TZ=Asia/Taipei date '+%m/%d %H:%M') $*" >> "$LOG"; }
 
 exec 9> "$HOME/.cache/kaohero-deploy.lock"
-flock -n 9 || exit 0
+# CF_WAIT=1：別人正在部署就等它做完（最多 20 分）再部署，不要直接跳過（daily-release 用；
+# 2026-11-06 07:00 timer 的部署佔著鎖，daily-release 那次直接退出，新卷晚 10 分上線、IndexNow 先送了 404 的網址）
+if [ -n "${CF_WAIT:-}" ]; then flock -w 1200 9 || { log "🔴 等部署鎖 20 分還拿不到"; exit 1; }
+else flock -n 9 || exit 0; fi
 
 HEAD=$(git rev-parse HEAD)
 [ "${1:-}" != "--force" ] && [ -f "$STATE" ] && [ "$(cat "$STATE")" = "$HEAD" ] && exit 0
