@@ -493,7 +493,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 claude/claude-opus-5-5）。最後一卷：soc-110-2-s001 110 年第二次　社會工作，寫 40 題、跳過 0 題，11/06 06:34 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 claude/claude-opus-5-5）。最後一卷：soc-110-1-s006 110 年第一次　社會工作研究方法，寫 39 題、跳過 1 題，11/06 06:36 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
