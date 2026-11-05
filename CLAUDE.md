@@ -79,6 +79,10 @@ worker 從不「掛掉」，`systemctl --user is-active exp-worker` 永遠是 ac
 log 有「寫 14／待 14」，但那次 commit 撞到申論批次的 index.lock 沒成功，詳解只留在工作目錄（站上 cf-deploy 是從工作目錄部署的，
 所以線上看得到、git 裡沒有）。處理：`node tools/build-index.js --write && node test/test.js` 後把那卷的兩個路徑加 `js/data/exams.js` 補 commit。
 
+**症狀 D：log 每卷都「寫 N／待 N」，但 `git log` 沒有「詳解：…」commit，`journalctl --user -u exp-worker` 每卷一段 `no changes added to commit`**（2026-11-05 不動產經紀人／記帳士 97 卷）：
+待上架區的卷沒有 `exam/<pid>/` 靜態頁，舊版 `git add` 帶了不存在的路徑就整個失敗、什麼都沒暫存。11/06 已改成只 add 存在的路徑；
+再看到這個症狀先 `git status` 把那些卷補 commit（當時是 brain 04:00 存檔順手收走的）。
+
 引擎有 agy／claude／deepseek 三種（`tools/exp-engine.sh`，deepseek 2026-09-18 接上），沒有 codex。
 
 **⛔ 除非 Tony 當次指定，不然不要用 DeepSeek（2026-09-19 11:40 Tony 定案：「除非我有指定，不然不要再用 DeepSeek」）**
@@ -389,6 +393,10 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
   exp-next 會照上架順序先寫這些卷
   - ⚠ gen_civil 每跑一個 spec 就**覆蓋 figs.json**：同一個工作目錄跑兩個 spec 時，各自存一份再合併後才裁圖
   - 兩種考試共用同一份卷（記帳士與不動產經紀人的國文）只收一次，不要兩邊都上（重複內容）
+  - **一年兩次的考試**（社會工作師 `sw`，2026-11-06）：rows 檔一個考試代碼一個 `rows-<roc>-<code>.json`，裡面帶 `"nth"`；spec 設 `multi: True`，
+    pid 第三段＝次別、標題「114 年第二次　科目」。考試代碼用 `moexlib.year_codes` 找，標題關鍵字要兩種寫法都試（105 年寫「社工師」）。
+    同場的花東補辦（106111）不收。工作目錄 `~/exam-pdfs/sw`
+  - 裁圖 `cropfig` 回「找不到第 N 題」而 PDF 確實存在＝那卷題號是圖片（102 年第一次國文），整卷不收
 
 ## 其他
 

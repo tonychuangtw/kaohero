@@ -1,10 +1,15 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 不動產經紀人／記帳士 97 卷已在待上架區（13 組，114 年先），exp-worker 照上架順序寫詳解（claude，走 API 贈額）；每天看 ~/.claude/exp-worker.log 有沒有在寫、daily-release.log 有沒有上架 ② 備下一種：社會工作師（在護理師那幾次考試裡，113100／114100 等，gen_bank 或 gen_civil 加 spec）③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
+NEXT_ACTION: ① 待上架區 27 組：不動產經紀人／記帳士 13 組（詳解全寫完，每天 07:00 放一組）＋社會工作師 14 組（178 卷 6,868 題，exp-worker 11/06 04:21 起寫，claude Opus 走 API 贈額，贈額 11/08 前約剩 US$112、估需 US$120，不夠的尾巴自動退回訂閱）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 備下一種：地政士（專技普考，與不動產經紀人不同場）或司法特考等（順序見 daily-update 頁） ③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
-PATHS: 企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-05 15:08（台北）
+PATHS: 社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
+UPDATED: 2026-11-06 04:25（台北）
+
+## 2026-11-06 社會工作師進待上架區
+
+- 不動產經紀人／記帳士 97 卷詳解 11/05 19:26 寫完（3,171 題、跳 110、US$66.8）。發現 worker 每卷 commit 都靜默失敗（待上架卷沒有 exam/<pid> 頁，git add 整個失敗），04:00 存檔才收進 git；已修 exp-worker.sh（CLAUDE.md 症狀 D）。
+- 社會工作師：專技高考、一年兩次，專業科目申論 2 題＋測驗 40 題；102～115 年 28 次考試 178 卷 6,868 題（含 102～108 年第一次國文測驗段），0 跳過；102 年第一次國文題號是圖片不收。gen_civil 加 sw spec＋一年兩次（rows 帶 nth）。新分類「社會工作」🤝。release-queue 接在不動產經紀人之後，115→102 每年一組。
 
 ## 2026-11-05 每日小更新：機制上線、第一種新考試進待上架區
 
