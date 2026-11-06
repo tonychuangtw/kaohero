@@ -1,10 +1,10 @@
-STATUS: in-progress
+STATUS: blocked
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 待上架區 40 組：不動產經紀人／記帳士（每天 07:00 放一組）→ 社會工作師 14 組 → 消防設備師／士 14 組（70 卷 2,800 題，詳解只寫了 3 卷試寫）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 消防詳解 11/06 14:20 全部寫完：astra 2,551 題（含試寫 107，US$18.57 OpenAI 贈額）＋ claude 補 159 題（訂閱，Claude API 贈額 08:38 已用完），最後跳 75 題；臨時 unit exp-worker-oa／exp-worker-fill 已結束 ③ 下一種考試見 daily-update 頁（地政士不收：只有國文有答案） ④ B：帳號到了就用 scout 開帳號、寫第一篇
+NEXT_ACTION: ① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B：Tony 用 /secret 給帳號後，用 scout 開帳號、寫第一篇
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
-BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
+BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認，自 11/05）；C 已全自動，40 組排程到約 12/16
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-06 14:22（台北）
+UPDATED: 2026-11-07 04:15（台北）
 
 ## 2026-11-06 消防設備進待上架區、OpenAI 詳解引擎試寫（主線派工 1106-1215-az）
 
