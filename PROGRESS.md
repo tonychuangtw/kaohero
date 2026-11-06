@@ -1,10 +1,16 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 待上架區 27 組：不動產經紀人／記帳士 13 組（詳解全寫完，每天 07:00 放一組）＋社會工作師 14 組（178 卷詳解 11/06 10:33 寫完：6,678 題、跳 156；贈額 08:38 用完後改走訂閱）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 備下一種：地政士（專技普考，與不動產經紀人不同場）或司法特考等（順序見 daily-update 頁） ③ B：帳號到了就用 scout 開帳號、寫第一篇；Bing 匯入、Cloudflare Web Analytics 用 scout 代登入做
+NEXT_ACTION: ① 待上架區 40 組：不動產經紀人／記帳士（每天 07:00 放一組）→ 社會工作師 14 組 → 消防設備師／士 14 組（70 卷 2,800 題，詳解只寫了 3 卷試寫）；每天看 ~/.claude/exp-worker.log 與 daily-release.log ② 消防詳解：等 Tony 經主線決定引擎（OpenAI gpt-6-astra flex 試寫 US$0.27／卷，或照舊 claude US$0.41）；決定前 worker 不開大批次 ③ 下一種考試見 daily-update 頁（地政士不收：只有國文有答案） ④ B：帳號到了就用 scout 開帳號、寫第一篇
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認）
-PATHS: 社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-06 10:45（台北）
+PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
+UPDATED: 2026-11-06 13:20（台北）
+
+## 2026-11-06 消防設備進待上架區、OpenAI 詳解引擎試寫（主線派工 1106-1215-az）
+
+- 地政士（同場專技普考）64／70 卷沒答案（專業科目全申論），只國文 6 卷，不收。改收同場消防設備師（高考 f001）／士（普考 h001～h004）：102～115 年 70 卷 2,800 題、0 跳過；115 年類科前綴改「消防設備人員高等考試」，gen_civil 改用 高等／普通 判等別。新分類「消防設備」🧯，release-queue 接在社工師後 14 組。commit eb2434d7b。
+- tools/exp-openai.js（照 exp-deepseek.js，經 openai-credit.py；圖用 --image 附上；rc 10 停／11 截斷撈部分／12 等 60 秒重打）；worker／exp-engine 加 openai 選項，預設仍 claude。
+- 試寫 3 卷（法規 fir-114-1-h002、有圖 fir-103-1-h001、技術 fir-113-1-h004）：gpt-6-astra flex 每卷 US$0.32／0.20／0.29、88／50／65 秒，107 題一次過格式、跳 12（偏保守）；抽查條號都對，1 題計算依據錯（h004 #25 蓄水池每 12,500 m² 寫成 10,000，已改）→ 已正式寫入 f64488b29。對照 gpt-5.4-mini 每卷 US$0.07～0.09，格式全過但 33／117 題錯誤選項只寫「不符」沒理由，不採用（只在 scratch）。總花費 US$1.06。
 
 ## 2026-11-06 社會工作師進待上架區
 
