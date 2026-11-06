@@ -83,6 +83,11 @@ log 有「寫 14／待 14」，但那次 commit 撞到申論批次的 index.lock
 待上架區的卷沒有 `exam/<pid>/` 靜態頁，舊版 `git add` 帶了不存在的路徑就整個失敗、什麼都沒暫存。11/06 已改成只 add 存在的路徑；
 再看到這個症狀先 `git status` 把那些卷補 commit（當時是 brain 04:00 存檔順手收走的）。
 
+**每卷啟動瘦身（2026-11-06 主線查帳）**：claude 引擎帶 `--setting-sources "" --exclude-dynamic-system-prompt-sections --max-turns 1`（有圖 2），
+不載 shared.md／本檔／MEMORY.md（每卷省約 43k token 快取寫入），寫完兩個檔就停。40 題卷 US$0.77–0.95 → US$0.41，格式與品質不變；細節與實測在 `tools/exp-worker.sh` 檔頭。
+⚠ 所以**寫詳解要守的規則一律寫進 `tools/exp-prompt.md`**，寫在這份 CLAUDE.md 模型看不到。rc=1／`error_max_turns` 是正常的，看 patch.json 有沒有寫。
+⚠ 排批次估費用用 `claude-credit.sh --spent`（主線改成含帳本外用量）的數字，別用 PROGRESS 舊估計（11/06 以為剩 US$112，實際約 US$74）。
+
 引擎有 agy／claude／deepseek 三種（`tools/exp-engine.sh`，deepseek 2026-09-18 接上），沒有 codex。
 
 **⛔ 除非 Tony 當次指定，不然不要用 DeepSeek（2026-09-19 11:40 Tony 定案：「除非我有指定，不然不要再用 DeepSeek」）**
