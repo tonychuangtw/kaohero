@@ -6764,6 +6764,31 @@ window.APP_SUBJECTS = {
   "name": "國文",
   "note": "國文（作文與測驗）",
   "stage": 1
+ },
+ "f001": {
+  "name": "消防法規",
+  "note": "",
+  "stage": 1
+ },
+ "h001": {
+  "name": "火災學概要",
+  "note": "",
+  "stage": 2
+ },
+ "h002": {
+  "name": "消防法規概要",
+  "note": "",
+  "stage": 2
+ },
+ "h003": {
+  "name": "警報與避難系統消防安全設備概要",
+  "note": "",
+  "stage": 2
+ },
+ "h004": {
+  "name": "水與化學系統消防安全設備概要",
+  "note": "",
+  "stage": 2
  }
 };
 window.APP_EXAMS = [
