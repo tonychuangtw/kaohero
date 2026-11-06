@@ -10,6 +10,17 @@
 # 其餘全是這支腳本做：選卷、出題、驗格式、寫入題庫、build-index、test、build-pages、commit、push、
 # 進度回報、記錄跳過的題。模型不跑 Bash，也不需要知道 repo 長什麼樣。
 #
+# 啟動瘦身（2026-11-06 主線查帳：每卷 US$0.77–0.95，其中約 US$0.35 是每卷重新載入規則檔寫進快取）：
+#   --setting-sources ""   不載 user／project 設定 → 不載 ~/.claude/CLAUDE.md（shared.md）、本 repo CLAUDE.md、MEMORY.md。
+#                          系統提示 65.7k → 22.4k token（Haiku 實測）；換到空目錄跑只降到 44.5k（user 層躲不掉），所以用這個。
+#                          格式規則全在 exp-prompt.md，模型用不到那兩份規則。key 走環境變數，不受影響。
+#   --exclude-dynamic-system-prompt-sections   cwd／git status 移出系統提示，靜態前綴（約 17k）跨卷讀快取
+#   --max-turns 1（有圖的卷 2）  寫完兩個檔就停，省掉「把剛寫的 patch 再寫進快取＋回一句話」那一輪（約 US$0.11）。
+#                          會回 rc=1、subtype=error_max_turns，屬正常；檔有寫就照常處理。
+#                          同一卷連續第二次（上次沒寫完的題）不加上限，免得模型分兩則寫檔時一直漏 skip.json。
+#   試寫 soc-102-1-s002／s001（40 題卷）：US$0.41／0.41，同兩卷舊設定 US$0.92／0.91，格式 36/36、39/39 一次過，品質與舊卷相當。
+#   剩下的錢幾乎都是輸出（約 13–15k token 含思考 2–5k ≈ US$0.3），再省就要動品質或改直接打 API。
+#
 # 引擎（2026-09-16 Tony 定案，Claude 週限撞 83%）：
 #   EXP_ENGINE=claude（預設）→ 本機 claude -p
 #   EXP_ENGINE=agy           → ssh 到 runner 跑 agy（Antigravity CLI，Google AI Pro 訂閱，$0 API、不吃 Claude 額度）
@@ -106,11 +117,13 @@ run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；pa
     ssh "${SSHOPT[@]}" "$AGY_HOST" "cat $AGY_T/err.txt" >> "$T/err.txt" 2>/dev/null
     return $rc
   fi
+  local mt=(); [ -n "${MAXT:-}" ] && mt=(--max-turns "$MAXT")
   timeout 2400 "$CLAUDE" -p --model "$MODEL" --allowedTools "Read,Write" --dangerously-skip-permissions \
-    --no-session-persistence --disable-slash-commands --output-format json < "$pf" > "$of" 2>> "$T/err.txt"
+    --no-session-persistence --disable-slash-commands --output-format json \
+    --setting-sources "" --exclude-dynamic-system-prompt-sections "${mt[@]}" < "$pf" > "$of" 2>> "$T/err.txt"
 }
 
-done_papers=0; done_q=0; done_skip=0; fails=0; consec_fail=0
+done_papers=0; done_q=0; done_skip=0; fails=0; consec_fail=0; prev_pid=""
 last_report=$(date +%s); last_year=""; year_papers=0; year_q=0; year_skip=0
 report_progress() {   # $1 = 標題
   local left; left=$(node tools/exp-next.js --match "$MATCH" 2>&1 >/dev/null | tail -1)
@@ -138,6 +151,8 @@ while :; do
   [ "$ENGINE" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "git -C $AGY_ROOT pull -q --rebase" >/dev/null 2>&1
   EXP_FIG_ROOT="$P_ROOT" node tools/exp-dump.js "$pid" > "$T/q.txt" 2>/dev/null
   sed -e "s|__ROOT__|$P_ROOT|g" -e "s|__PID__|$pid|g" -e "s|__T__|$P_T|g" tools/exp-prompt.md | sed -e "/__QUESTIONS__/{r $T/q.txt" -e 'd}' > "$T/prompt.md"
+  # 回合上限：沒圖 1（一則回覆寫兩個檔）、有圖 2（先一次 Read 全部圖）；同一卷連續第二次不設限
+  MAXT=1; grep -q '圖檔：' "$T/q.txt" && MAXT=2; [ "$pid" = "$prev_pid" ] && MAXT=""; prev_pid="$pid"
   t0=$(date +%s)
   run_model "$T/prompt.md" "$T/out.json"
   rc=$?; secs=$(( $(date +%s) - t0 ))
