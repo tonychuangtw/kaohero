@@ -25,6 +25,8 @@
 #   EXP_ENGINE=claude（預設）→ 本機 claude -p
 #   EXP_ENGINE=agy           → ssh 到 runner 跑 agy（Antigravity CLI，Google AI Pro 訂閱，$0 API、不吃 Claude 額度）
 #   EXP_ENGINE=deepseek      → tools/exp-deepseek.js（ssh 到 runner 打 DeepSeek API，預付按量、極便宜）
+#   EXP_ENGINE=openai        → tools/exp-openai.js（經 openai-credit.py 吃 OpenAI API 贈額；EXP_OA_MODEL 預設 gpt-6-astra＋flex）
+#                              贈額暫停（rc=10）就整個 worker 停下通知，不重試；要接續由人切回 claude
 #     2026-09-18 Tony 定案接成第三個引擎。一卷 80 題 29 秒、費用量不出來（餘額兩位數沒動）；
 #     缺點是讀不了圖 —— 有 fig 的題會被標成 DEFER-FIG 延後，最後用 claude 補：
 #       node tools/exp-skip-drop.js --reason-match '^DEFER' --match '^tou-' --write
@@ -45,7 +47,7 @@ ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
 export CLAUDE_CREDIT_TAG=kaohero-exp-worker
 MODEL="${EXP_MODEL:-claude-opus-5-5}"
-ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek
+ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek | openai
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_ROOT="${EXP_AGY_ROOT:-/home/tonychuangtw/TelegramClaude/kaoguhero}"
 AGY_MODEL="${EXP_AGY_MODEL:-gemini-3.8-flash-high}"
@@ -93,6 +95,7 @@ wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到
 # prompt 裡的路徑要填模型看得到的那一台：claude 跑本機，agy 跑 runner
 if [ "$ENGINE" = agy ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="agy/$AGY_MODEL"
 elif [ "$ENGINE" = deepseek ]; then P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="deepseek/${EXP_DS_MODEL:-deepseek-flash}"
+elif [ "$ENGINE" = openai ]; then P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="openai/${EXP_OA_MODEL:-gpt-6-astra}"
 else P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="claude/$MODEL"; fi
 
 run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；patch/skip 一律回到 $T
@@ -100,6 +103,11 @@ run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；pa
   # deepseek 沒有 agent loop，prompt 檔用不到：切段、撈 JSON、驗格式、寫 patch/skip 都在 exp-deepseek.js 裡
   if [ "$ENGINE" = deepseek ]; then
     node tools/exp-deepseek.js "$pid" "$T" > "$of" 2>> "$T/err.txt"
+    return $?
+  fi
+  # openai 同 deepseek：全在 exp-openai.js 裡；rc=10＝贈額暫停
+  if [ "$ENGINE" = openai ]; then
+    node tools/exp-openai.js "$pid" "$T" > "$of" 2>> "$T/err.txt"
     return $?
   fi
   if [ "$ENGINE" = agy ]; then
@@ -156,6 +164,11 @@ while :; do
   t0=$(date +%s)
   run_model "$T/prompt.md" "$T/out.json"
   rc=$?; secs=$(( $(date +%s) - t0 ))
+  if [ "$ENGINE" = openai ] && [ "$rc" -eq 10 ]; then
+    log "$pid OpenAI 贈額暫停（rc=10），worker 停下：$(tail -c 200 "$T/err.txt" | tr '\n' ' ')"
+    report "⏸ $(now) 詳解 worker（openai）停下：OpenAI 贈額暫停（到上限、用完或金鑰被拒），$pid 沒寫。要接續：bash tools/exp-engine.sh claude"
+    break
+  fi
   usage=$(python3 - "$T/out.json" <<'PY' 2>/dev/null
 import json,sys
 try: d=json.load(open(sys.argv[1]))
