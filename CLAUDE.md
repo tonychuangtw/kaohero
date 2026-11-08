@@ -93,6 +93,7 @@ log 有「寫 14／待 14」，但那次 commit 撞到申論批次的 index.lock
 **claude 引擎只走訂閱、不走 API 贈額（2026-11-08 Tony TG 3834：「kaohero 的 worker 不是定時排程類型的，以後不用走 API 贈額」）**：
 `exp-worker.sh` 呼叫 claude-credit.sh 時帶 `CLAUDE_CREDIT=off`（只走訂閱，帳本照記 route=sub），不碰 Claude 贈額、也不自動改走 OpenAI；
 wait_quota 守門照舊。同日上午做過的「Claude 贈額 → OpenAI 贈額 → 訂閱」自動三段已撤回（git 7398f2865 可查）。agy／deepseek／openai 照舊 Tony 說了才切。
+**人工開跑的三支批次也一樣**（11/08 Tony TG 3836／3837，shared.md §11「人工啟動的大批次一律訂閱」）：`note-batch.sh`、`exp-batch.sh`、`essay-ref-batch.sh` 檔頭 `export CLAUDE_CREDIT=off`。
 單卷試跑：`tools/exp-worker.sh --pid <卷> --redo 1 --dry`（不寫題庫、不 commit、不送 TG，結果在 `~/.cache/exp-dry/`）。
 
 **openai 引擎（`tools/exp-openai.js`，2026-11-06 主線派工試寫）**：只經 `claude-shared/tools/openai-credit.py` 打（金鑰在 runner，⛔ 不自己拿金鑰），prompt 是 `tools/exp-prompt-oa.md`（不是 exp-prompt.md，改規則兩份都要改）。預設 gpt-6-astra＋`--flex`＋`--effort medium`，20 題一段 3 段並行；圖用 `--image` 附上（題目裡改寫成「附圖 k」）。離開碼 10＝贈額暫停 → worker 直接停下通知，不重試、不留半卷。單卷試跑：`EXP_OA_STATS=/tmp/s.json node tools/exp-openai.js <pid> <outdir>`（`EXP_OA_MODEL` 換模型）。實測消防 3 卷每卷 US$0.20～0.32、1～1.5 分，跳題比 claude 多（不確定的數值會 skip）。gpt-5.4-mini 便宜三倍但錯誤選項常只寫「不符」，不要用。共用上限 31 天 US$100（全線共用），查 `openai-credit.py --spent`；大批次要 Tony 經主線點頭。

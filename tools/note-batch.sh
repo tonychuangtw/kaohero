@@ -8,8 +8,9 @@
 # 停止：touch ~/.claude/note-batch.stop
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 帶 CLAUDE_CREDIT=off＝只走訂閱、帳本照記；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
 export CLAUDE_CREDIT_TAG=kaohero-note-batch
+export CLAUDE_CREDIT=off   # 2026-11-08 Tony TG 3836／3837（shared.md §11）：人工啟動的大批次一律訂閱，不碰 API 贈額、不自動改走 OpenAI
 MODEL="${NOTE_MODEL:-claude-opus-5-5}"
 SIZE="${1:-25}"; MAXB="${2:-0}"
 LOG="$HOME/.claude/note-batch.log"

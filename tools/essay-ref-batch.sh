@@ -8,8 +8,9 @@
 #     不然轉檔讀舊檔、這邊剛寫進去的參考架構會被洗掉。
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 帶 CLAUDE_CREDIT=off＝只走訂閱、帳本照記；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
 export CLAUDE_CREDIT_TAG=kaohero-essay-ref-batch
+export CLAUDE_CREDIT=off   # 2026-11-08 Tony TG 3836／3837（shared.md §11）：人工啟動的大批次一律訂閱，不碰 API 贈額、不自動改走 OpenAI
 MODEL="${REF_MODEL:-claude-opus-5-5}"
 # REF_ENGINE=agy → ssh 到 runner 用 Gemini flash 寫（Google AI Pro 訂閱，不吃 Claude 額度）。
 # 法律科目不給 flash 寫：agy 批次請搭 ESSAY_SCOPE=nolaw，claude 批次搭 ESSAY_SCOPE=law，兩支可同時跑（科目不重疊）
