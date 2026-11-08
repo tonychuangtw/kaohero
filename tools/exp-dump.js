@@ -34,7 +34,7 @@ const load = id => { global.window = {}; require(path.join(ROOT, 'js/data/exam',
 const p = load(pid);
 if (!p) { console.error('找不到卷：' + pid); process.exit(2); }
 const sk = new Set((skips[pid] || []).map(s => s.n));
-// EXP_REDO=題號,題號：測試用（exp-worker.sh --dry 試三段路線）——把已寫過的題當成待寫，範例也避開這幾題。
+// EXP_REDO=題號,題號：測試用（exp-worker.sh --pid … --dry 單卷試跑）——把已寫過的題當成待寫，範例也避開這幾題。
 // 全站都寫完時沒有待寫題可試，用這個就不必動題庫。只給 --dry 用，正式批次不要設
 const redo = process.env.EXP_REDO ? new Set(process.env.EXP_REDO.split(',').map(x => parseInt(x, 10))) : null;
 let todo = redo ? p.qs.filter(q => redo.has(q.n))

@@ -2,7 +2,7 @@
 # exp-engine.sh — 切換詳解 worker 的引擎並重啟。
 #
 #   tools/exp-engine.sh agy [模型]   → 改走 runner 的 agy（Google AI Pro 訂閱，不吃 Claude 額度）
-#   tools/exp-engine.sh claude       → 改回預設：自動三段 Claude 贈額 → OpenAI 贈額 → 訂閱（2026-11-08，見 exp-worker.sh 檔頭）
+#   tools/exp-engine.sh claude       → 改回本機 claude -p，只走訂閱（2026-11-08 Tony TG 3834：worker 不走 API 贈額）
 #   tools/exp-engine.sh deepseek     → 改走 DeepSeek API（預付按量，2026-09-18 起；讀不了圖，圖片題會延後）
 #   tools/exp-engine.sh openai       → 改走 OpenAI API 贈額（tools/exp-openai.js，gpt-6-astra flex；2026-11-06 試寫 3 卷，大批次要 Tony 經主線點頭）
 #   tools/exp-engine.sh status       → 只看現在是哪一個
