@@ -90,6 +90,14 @@ log 有「寫 14／待 14」，但那次 commit 撞到申論批次的 index.lock
 
 引擎有 agy／claude／deepseek／openai 四種（`tools/exp-engine.sh`，deepseek 2026-09-18、openai 2026-11-06 接上），沒有 codex。
 
+**預設 claude 引擎＝自動三段（2026-11-08 shared.md §11，主線派工 1108-1034-25）**：每卷先 `CLAUDE_CREDIT=only` 走 Claude API 贈額 →
+回 3（或剛撞到用完、旗標 `~/.config/anthropic-credits/exhausted` 6 小時內立起）就同一卷改跑 `exp-openai.js`（OpenAI 贈額）→
+它回 10 或沒寫出東西（只有 DEFER-OA）才走訂閱（不帶 only 的 claude-credit.sh，先過 wait_quota）。不用人切；路線換了在本線頻道講一次，
+commit 與 log 的 `engine=`／`route=` 寫實際走哪段。一般失敗（沒旗標、不是 3）不換路線，照舊記失敗。`EXP_AUTO_OA=0` 跳過 OpenAI 段。
+試跑：`bash tools/exp-route-test.sh fake`（0 token，7 項）／`real`（三段各真打 1 題，失敗用假的模擬）；單卷：`tools/exp-worker.sh --pid <卷> --redo 1 --dry`
+（不寫題庫、不 commit、不送 TG，結果在 `~/.cache/exp-dry/`）。⚠ 測試用假旗標，⛔ 不碰真的 exhausted 旗標（全線共用）。
+⚠ 11/08 10:38 試跑時 OpenAI 回「贈額用完」（自己帳本才估 US$22／100）：openai-credit.py 暫停 6 小時，那段期間三段實際是 ①→③。
+
 **openai 引擎（`tools/exp-openai.js`，2026-11-06 主線派工試寫）**：只經 `claude-shared/tools/openai-credit.py` 打（金鑰在 runner，⛔ 不自己拿金鑰），prompt 是 `tools/exp-prompt-oa.md`（不是 exp-prompt.md，改規則兩份都要改）。預設 gpt-6-astra＋`--flex`＋`--effort medium`，20 題一段 3 段並行；圖用 `--image` 附上（題目裡改寫成「附圖 k」）。離開碼 10＝贈額暫停 → worker 直接停下通知，不重試、不留半卷。單卷試跑：`EXP_OA_STATS=/tmp/s.json node tools/exp-openai.js <pid> <outdir>`（`EXP_OA_MODEL` 換模型）。實測消防 3 卷每卷 US$0.20～0.32、1～1.5 分，跳題比 claude 多（不確定的數值會 skip）。gpt-5.4-mini 便宜三倍但錯誤選項常只寫「不符」，不要用。共用上限 31 天 US$100（全線共用），查 `openai-credit.py --spent`；大批次要 Tony 經主線點頭。
 
 **⛔ 除非 Tony 當次指定，不然不要用 DeepSeek（2026-09-19 11:40 Tony 定案：「除非我有指定，不然不要再用 DeepSeek」）**

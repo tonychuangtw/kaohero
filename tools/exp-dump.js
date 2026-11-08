@@ -34,7 +34,11 @@ const load = id => { global.window = {}; require(path.join(ROOT, 'js/data/exam',
 const p = load(pid);
 if (!p) { console.error('找不到卷：' + pid); process.exit(2); }
 const sk = new Set((skips[pid] || []).map(s => s.n));
-let todo = p.qs.filter(q => !q.exp && !q.void && !q.alt && !sk.has(q.n));
+// EXP_REDO=題號,題號：測試用（exp-worker.sh --dry 試三段路線）——把已寫過的題當成待寫，範例也避開這幾題。
+// 全站都寫完時沒有待寫題可試，用這個就不必動題庫。只給 --dry 用，正式批次不要設
+const redo = process.env.EXP_REDO ? new Set(process.env.EXP_REDO.split(',').map(x => parseInt(x, 10))) : null;
+let todo = redo ? p.qs.filter(q => redo.has(q.n))
+  : p.qs.filter(q => !q.exp && !q.void && !q.alt && !sk.has(q.n));
 if (has('--list')) { console.log(JSON.stringify(todo.map(q => ({ n: q.n, fig: !!q.fig })))); process.exit(0); }
 if (has('--skip-fig')) todo = todo.filter(q => !q.fig);
 if (only) todo = todo.filter(q => only.has(q.n));
@@ -44,7 +48,7 @@ else if (count) todo = todo.slice(from - 1, from - 1 + count);
 // ⚠ 範例本身若是「整段用日文／韓文寫的解析」就不能拿來當範例：模型會照抄範例的語言，
 // 一卷寫成日文後同科目後面每一卷都跟著寫成日文，一路繁殖（2026-09-18 Tony 抓到，
 // tou-110-1-d005 80 題、tou-106-1-l005 76 題全中）。挑範例時用 exp-lang.js 濾掉。
-const ok = q => q.exp && !isForeignProse(q.exp);
+const ok = q => q.exp && !(redo && redo.has(q.n)) && !isForeignProse(q.exp);
 let ex = p.qs.find(ok);
 if (!ex) {
   const subj = pid.split('-').pop();

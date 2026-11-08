@@ -22,7 +22,15 @@
 #   剩下的錢幾乎都是輸出（約 13–15k token 含思考 2–5k ≈ US$0.3），再省就要動品質或改直接打 API。
 #
 # 引擎（2026-09-16 Tony 定案，Claude 週限撞 83%）：
-#   EXP_ENGINE=claude（預設）→ 本機 claude -p
+#   EXP_ENGINE=claude（預設）→ 自動三段（2026-11-08 shared.md §11「全部都要接上」，主線派工 1108-1034-25）：
+#       ① Claude API 贈額：claude-credit.sh 帶 CLAUDE_CREDIT=only（贈額用完／暫停回 3，或剛撞到用完時立起旗標）
+#       ② OpenAI API 贈額：同一卷改跑 tools/exp-openai.js（gpt-6-astra flex，圖片題帶 --image）
+#       ③ 訂閱：②回 10（贈額暫停／31 天上限）或沒寫出東西才走，不帶 only 的 claude-credit.sh，先過 wait_quota
+#     起因：11/06 舊版只走 claude-credit.sh 的自動模式，Claude 贈額用完直接掉訂閱（當天 235 次吃完贈額、110 次掉訂閱）。
+#     每卷都從①開始試：①在旗標有效時（6 小時）是立刻回 3、不打 API，所以不用另記狀態。路線換了會在本線頻道講一次。
+#     EXP_AUTO_OA=0 跳過②（①→③）。DEFER-OA 的題（OpenAI 沒回來）照舊記進 exp-skips.json，之後用 exp-skip-drop 放回。
+#     試跑：tools/exp-worker.sh --pid <卷> --redo 1,2 --dry（不寫題庫、不 commit、不通知；結果在 ~/.cache/exp-dry/）
+#       模擬失敗：EXP_CLAUDE_BIN／EXP_OA_BIN 換成假的、EXP_CREDIT_FLAG 換假旗標路徑（tools/exp-route-test.sh 有範例）
 #   EXP_ENGINE=agy           → ssh 到 runner 跑 agy（Antigravity CLI，Google AI Pro 訂閱，$0 API、不吃 Claude 額度）
 #   EXP_ENGINE=deepseek      → tools/exp-deepseek.js（ssh 到 runner 打 DeepSeek API，預付按量、極便宜）
 #   EXP_ENGINE=openai        → tools/exp-openai.js（經 openai-credit.py 吃 OpenAI API 贈額；EXP_OA_MODEL 預設 gpt-6-astra＋flex）
@@ -44,7 +52,10 @@
 # 回報：每做完一個年份、或距上次回報滿 2 小時，用 tg-send.sh kaohero 發一則（shared.md §17 批次回報規則）
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
-CLAUDE="$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh"   # 先用 Max 每月 API 贈額、用完自動退回訂閱；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+CLAUDE="${EXP_CLAUDE_BIN:-$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh}"   # Max 每月 API 贈額／訂閱都經它；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
+OA_BIN="${EXP_OA_BIN:-$HOME/TelegramClaude/kaoguhero/tools/exp-openai.js}"
+CREDIT_FLAG="${EXP_CREDIT_FLAG:-$HOME/.config/anthropic-credits/exhausted}"   # claude-credit.sh 的停用旗標（只看 mtime，不讀 key）
+AUTO_OA="${EXP_AUTO_OA:-1}"
 export CLAUDE_CREDIT_TAG=kaohero-exp-worker
 MODEL="${EXP_MODEL:-claude-opus-5-5}"
 ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek | openai
@@ -55,11 +66,16 @@ SSHOPT=(-o ConnectTimeout=10 -o ServerAliveInterval=60 -o BatchMode=yes)
 AGY_T="/tmp/exp-agy.$$"                 # runner 上的暫存目錄（prompt 進、兩個 json 出）；帶 PID：
                                         # 前一輪被砍掉的 agy 還在跑時，兩邊共用同一個路徑會互相蓋掉 patch.json
 MATCH="${EXP_MATCH:-^chu-10[2-5]-}"
-LIMIT=0; ONCE=0
+LIMIT=0; ONCE=0; DRY=0; ONE_PID=""
 while [ $# -gt 0 ]; do case "$1" in
   --match) MATCH="$2"; shift 2 ;; --limit) LIMIT="$2"; shift 2 ;; --once) ONCE=1; shift ;;
+  --pid) ONE_PID="$2"; ONCE=1; shift 2 ;; --redo) export EXP_REDO="$2"; shift 2 ;; --dry) DRY=1; ONCE=1; shift ;;
   *) echo "用法見檔頭" >&2; exit 2 ;; esac; done
+[ -n "${EXP_REDO:-}" ] && { [ "$DRY" = 1 ] && [ -n "$ONE_PID" ] || { echo "--redo 只能配 --pid 與 --dry" >&2; exit 2; }; }
 LOG="$HOME/.claude/exp-worker.log"
+FAILED="$HOME/.claude/exp-worker.failed"
+DRYDIR="$HOME/.cache/exp-dry"
+if [ "$DRY" = 1 ]; then mkdir -p "$DRYDIR"; rm -f "$DRYDIR"/*; LOG="$DRYDIR/worker.log"; FAILED="$DRYDIR/failed"; fi
 STOP="$HOME/.claude/exp-worker.stop"
 LOCK="$HOME/.claude/exp-worker.lock"
 TGSEND="$HOME/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-send.sh"
@@ -74,7 +90,7 @@ unset TELEGRAM_STATE_DIR
 
 now() { TZ=Asia/Taipei date '+%m/%d %H:%M'; }
 log() { printf '%s %s\n' "$(now)" "$1" >> "$LOG"; }
-report() { printf '%s\n' "$1" | "$TGSEND" kaohero >/dev/null 2>&1 || true; }
+report() { if [ "$DRY" = 1 ]; then printf '[dry 不送 TG] %s\n' "$1" >&2; else printf '%s\n' "$1" | "$TGSEND" kaohero >/dev/null 2>&1 || true; fi; }
 
 # 一次只准一個 worker：兩個一起跑會同時改題庫、push 互撞
 if [ -f "$LOCK" ] && kill -0 "$(cat "$LOCK" 2>/dev/null)" 2>/dev/null; then echo "已有 worker 在跑（pid $(cat "$LOCK")）"; exit 1; fi
@@ -83,7 +99,7 @@ rm -f "$STOP"
 cd "$ROOT" || exit 1
 
 wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到就等，不要在撞頂時空轉燒重試
-  [ "$ENGINE" = claude ] || return 0            # 這兩個記號是本機 Claude 的額度，agy／deepseek 不受影響
+  # 這兩個記號是 Claude 訂閱的額度：只在三段的第③段（訂閱）前叫，贈額兩段與 agy／deepseek／openai 引擎不受影響
   while :; do
     local until_ts; until_ts=$(cat "$PAUSED" 2>/dev/null || echo 0)
     if [ "${until_ts:-0}" -gt "$(date +%s)" ] 2>/dev/null; then log "wait paused-until $(TZ=Asia/Taipei date -d "@$until_ts" '+%H:%M')"; sleep 300; continue; fi
@@ -125,13 +141,57 @@ run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；pa
     ssh "${SSHOPT[@]}" "$AGY_HOST" "cat $AGY_T/err.txt" >> "$T/err.txt" 2>/dev/null
     return $rc
   fi
+  # claude 引擎＝三段：Claude 贈額 → OpenAI 贈額 → 訂閱（檔頭）。格式退回的重試（RETRY_STAGE）沿用第一次成功的那段
+  if [ -n "${RETRY_STAGE:-}" ]; then
+    STAGE="$RETRY_STAGE"
+    case "$STAGE" in
+      credit) claude_call only "$pf" "$of" ;; openai) oa_call "$of" ;; *) wait_quota; claude_call auto "$pf" "$of" ;;
+    esac
+    return $?
+  fi
+  STAGE=credit
+  claude_call only "$pf" "$of"; rc=$?
+  if [ "$rc" -ne 3 ] && { has_output || ! flag_fresh; }; then return $rc; fi
+  STAGE_WHY="Claude 贈額不能用（rc=$rc：$(grep -m1 'claude-credit:' "$T/err.txt" | cut -c1-80)）"
+  if [ "$AUTO_OA" = 1 ]; then
+    STAGE=openai; rm -f "$T/patch.json" "$T/skip.json"
+    oa_call "$of"; rc=$?
+    if [ "$rc" -eq 0 ] && oa_wrote; then return 0; fi
+    STAGE_WHY="$STAGE_WHY；OpenAI 贈額$( [ "$rc" -eq 10 ] && echo '暫停（rc=10）' || echo "沒寫成（rc=$rc）")"
+  fi
+  STAGE=sub; rm -f "$T/patch.json" "$T/skip.json"
+  wait_quota
+  claude_call auto "$pf" "$of"
+}
+# $1=only（只用 API 贈額）| auto（claude-credit.sh 自己決定：旗標有效＝訂閱）。err.txt 只留這一段的 stderr，
+# 下面「撞額度」的判斷只看最後一段；全部的 stderr 累積在 err-all.txt
+claude_call() {
   local mt=(); [ -n "${MAXT:-}" ] && mt=(--max-turns "$MAXT")
-  timeout 2400 "$CLAUDE" -p --model "$MODEL" --allowedTools "Read,Write" --dangerously-skip-permissions \
+  CLAUDE_CREDIT="$1" timeout 2400 "$CLAUDE" -p --model "$MODEL" --allowedTools "Read,Write" --dangerously-skip-permissions \
     --no-session-persistence --disable-slash-commands --output-format json \
-    --setting-sources "" --exclude-dynamic-system-prompt-sections "${mt[@]}" < "$pf" > "$of" 2>> "$T/err.txt"
+    --setting-sources "" --exclude-dynamic-system-prompt-sections "${mt[@]}" < "$2" > "$3" 2> "$T/err.txt"
+  local rc=$?; { echo "--- claude CLAUDE_CREDIT=$1 rc=$rc"; cat "$T/err.txt"; } >> "$T/err-all.txt"; return $rc
+}
+oa_call() {   # exp-openai.js 自己切段、驗格式、寫 patch/skip；rc=10＝OpenAI 贈額暫停（整卷不寫）
+  node "$OA_BIN" "$pid" "$T" > "$1" 2> "$T/err.txt"
+  local rc=$?; { echo "--- openai rc=$rc"; cat "$T/err.txt"; } >> "$T/err-all.txt"; return $rc
+}
+has_output() { [ -s "$T/patch.json" ] || [ -s "$T/skip.json" ]; }
+# 旗標 6 小時內立起＝贈額剛用完或 key 被拒：only 模式第一次撞到時 claude-credit.sh 回的是 API 的結束碼（不是 3），靠旗標認
+flag_fresh() { [ -f "$CREDIT_FLAG" ] && [ $(( $(date +%s) - $(stat -c %Y "$CREDIT_FLAG") )) -lt 21600 ]; }
+# OpenAI 有沒有真的寫出東西：patch 有題，或 skip 裡有模型自己判的跳過（全是 DEFER-OA＝每段都沒回來，算失敗）
+oa_wrote() {
+  python3 - "$T/patch.json" "$T/skip.json" <<'PY2' 2>/dev/null
+import json,sys
+try: p=json.load(open(sys.argv[1]))
+except Exception: p=[]
+try: s=json.load(open(sys.argv[2]))
+except Exception: s=[]
+sys.exit(0 if p or any(not str(x.get('reason','')).startswith('DEFER-OA') for x in s) else 1)
+PY2
 }
 
-done_papers=0; done_q=0; done_skip=0; fails=0; consec_fail=0; prev_pid=""
+done_papers=0; done_q=0; done_skip=0; fails=0; consec_fail=0; prev_pid=""; last_stage=credit
 last_report=$(date +%s); last_year=""; year_papers=0; year_q=0; year_skip=0
 report_progress() {   # $1 = 標題
   local left; left=$(node tools/exp-next.js --match "$MATCH" 2>&1 >/dev/null | tail -1)
@@ -143,8 +203,13 @@ ${left}（範圍 ${MATCH}）"
 
 while :; do
   [ -f "$STOP" ] && { log "stop 記號，收工"; break; }
-  wait_quota
-  line=$(node tools/exp-next.js --match "$MATCH" --limit 1 2>/dev/null | head -1)
+  if [ -n "$ONE_PID" ]; then
+    n1=$(node tools/exp-dump.js "$ONE_PID" --list | python3 -c 'import json,sys;print(len(json.load(sys.stdin)))')
+    [ "${n1:-0}" -gt 0 ] 2>/dev/null || { log "$ONE_PID 沒有待寫題"; break; }
+    line="$ONE_PID $n1 $(node -e "global.window={};require('./js/data/exam/$ONE_PID.js');console.log(window.APP_EXAM_PAPERS['$ONE_PID'].title)")"
+  else
+    line=$(node tools/exp-next.js --match "$MATCH" --limit 1 2>/dev/null | head -1)
+  fi
   [ -n "$line" ] || { log "範圍 $MATCH 已無待寫卷"; report_progress "初等考試詳解批次完成（範圍 ${MATCH} 已無待寫卷）"; break; }
   pid=${line%% *}; rest=${line#* }; n_todo=${rest%% *}; title=${rest#* }
   year=$(printf '%s' "$pid" | cut -d- -f2)
@@ -154,7 +219,7 @@ while :; do
     year_papers=0; year_q=0; year_skip=0
   fi
   last_year="$year"
-  rm -f "$T"/patch.json "$T"/skip.json "$T"/out.json; : > "$T/err.txt"
+  rm -f "$T"/patch.json "$T"/skip.json "$T"/out.json; : > "$T/err.txt"; : > "$T/err-all.txt"; STAGE=""; STAGE_WHY=""
   # agy 是在 runner 上讀題庫的圖檔，clone 要先跟上（題庫本體沒圖就不影響，純保險）
   [ "$ENGINE" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "git -C $AGY_ROOT pull -q --rebase" >/dev/null 2>&1
   EXP_FIG_ROOT="$P_ROOT" node tools/exp-dump.js "$pid" > "$T/q.txt" 2>/dev/null
@@ -164,6 +229,21 @@ while :; do
   t0=$(date +%s)
   run_model "$T/prompt.md" "$T/out.json"
   rc=$?; secs=$(( $(date +%s) - t0 ))
+  # 這一卷實際走哪一段（claude 引擎＝三段）；路線換了在本線頻道講一次
+  eng="$ENGINE_NAME"
+  if [ "$ENGINE" = claude ]; then
+    case "$STAGE" in
+      credit) eng="claude/$MODEL（Claude 贈額）" ;;
+      openai) eng="openai/${EXP_OA_MODEL:-gpt-6-astra}（OpenAI 贈額）" ;;
+      sub)    eng="claude/$MODEL（訂閱，扣週額度）" ;;
+    esac
+    if [ "$STAGE" != "$last_stage" ]; then
+      log "$pid 路線 $last_stage → $STAGE${STAGE_WHY:+：$STAGE_WHY}"
+      report "🔀 $(now) 詳解 worker 改走 $eng（$pid 起）${STAGE_WHY:+
+原因：$STAGE_WHY}"
+      last_stage="$STAGE"
+    fi
+  fi
   if [ "$ENGINE" = openai ] && [ "$rc" -eq 10 ]; then
     log "$pid OpenAI 贈額暫停（rc=10），worker 停下：$(tail -c 200 "$T/err.txt" | tr '\n' ' ')"
     report "⏸ $(now) 詳解 worker（openai）停下：OpenAI 贈額暫停（到上限、用完或金鑰被拒），$pid 沒寫。要接續：bash tools/exp-engine.sh claude"
@@ -184,13 +264,14 @@ PY
   # 撞額度／登入問題：不算失敗，等 30 分再試同一卷
   if grep -qiE 'usage limit|rate limit|overloaded|login|credit balance|insufficient balance|HTTP 40[12]|authentication|resource_exhausted|quota|permission denied|connection (refused|closed)' "$T/err.txt" "$T/out.json" 2>/dev/null && [ ! -s "$T/patch.json" ]; then
     log "$pid 額度或連線問題（rc=$rc）：$(tr '\n' ' ' < "$T/err.txt" | cut -c1-160)，等 30 分"
+    [ "$DRY" = 1 ] && break
     consec_fail=$((consec_fail+1)); [ "$consec_fail" -ge 6 ] && { report "⚠️ $(now) 詳解 worker 連續 6 次撞額度／連線問題，先停。查 ~/.claude/exp-worker.log"; break; }
     sleep 1800; continue
   fi
   if [ ! -s "$T/patch.json" ] && [ ! -s "$T/skip.json" ]; then
     log "$pid 失敗：模型沒寫 patch/skip（rc=$rc $usage ${secs}s）$(tail -c 200 "$T/err.txt" | tr '\n' ' ')"
     fails=$((fails+1)); consec_fail=$((consec_fail+1))
-    printf '%s\n' "$pid" >> "$HOME/.claude/exp-worker.failed"
+    printf '%s\n' "$pid" >> "$FAILED"
     [ "$consec_fail" -ge 3 ] && { report "⚠️ $(now) 詳解 worker 連續 3 卷失敗（最後 $pid），先停。查 ~/.claude/exp-worker.log"; break; }
     [ "$ONCE" = 1 ] && break; continue
   fi
@@ -200,15 +281,22 @@ PY
   if ! node tools/set-exp.js "$T/patch.json" > "$T/chk.txt" 2>&1; then
     log "$pid 格式退回，重試一次：$(grep -c '' "$T/chk.txt") 行"
     { cat "$T/prompt.md"; printf '\n\n=== 上一次的 patch.json 被退回，錯誤如下，請修正後重新寫 patch.json 與 skip.json ===\n'; cat "$T/chk.txt"; printf '\n=== 上一次的 patch.json ===\n'; cat "$T/patch.json"; } > "$T/prompt2.md"
-    run_model "$T/prompt2.md" "$T/out2.json"
+    RETRY_STAGE="${STAGE:-}" run_model "$T/prompt2.md" "$T/out2.json"
     if ! node tools/set-exp.js "$T/patch.json" > "$T/chk.txt" 2>&1; then
       log "$pid 失敗：格式兩次不過 $(head -3 "$T/chk.txt" | tr '\n' ' ')"
-      fails=$((fails+1)); consec_fail=$((consec_fail+1)); printf '%s\n' "$pid" >> "$HOME/.claude/exp-worker.failed"
+      fails=$((fails+1)); consec_fail=$((consec_fail+1)); printf '%s\n' "$pid" >> "$FAILED"
       [ "$consec_fail" -ge 3 ] && { report "⚠️ $(now) 詳解 worker 連續 3 卷失敗（最後 $pid），先停"; break; }
       [ "$ONCE" = 1 ] && break; continue
     fi
   fi
   n_written=$(python3 -c "import json,sys;print(len(json.load(open(sys.argv[1]))))" "$T/patch.json" 2>/dev/null || echo 0)
+  if [ "$DRY" = 1 ]; then   # 試跑：格式驗過就停，不動題庫、exp-skips.json、PROGRESS.md、git
+    cp "$T"/patch.json "$T"/skip.json "$T"/out.json "$T"/err-all.txt "$DRYDIR"/ 2>/dev/null
+    n_skip=$(python3 -c "import json,sys;print(len(json.load(open(sys.argv[1]))))" "$T/skip.json" 2>/dev/null || echo 0)
+    log "$pid [dry] 路線=${STAGE:-$ENGINE} 寫 $n_written 跳 $n_skip $usage ${secs}s"
+    echo "dry: $pid 路線=${STAGE:-$ENGINE}（$eng）寫 $n_written 跳 $n_skip $usage ${secs}s → $DRYDIR"
+    break
+  fi
   n_skip=$(node tools/exp-skip-add.js "$pid" "$T/skip.json" 2>/dev/null || echo 0)
   if [ "$n_written" -gt 0 ]; then
     node tools/set-exp.js "$T/patch.json" --write > /dev/null 2>&1
@@ -216,7 +304,7 @@ PY
     if ! node test/test.js > "$T/test.txt" 2>&1; then
       log "$pid 失敗：test.js 不過，還原 $(tail -2 "$T/test.txt" | tr '\n' ' ')"
       git checkout -- js/data/exam/"$pid".js js/data/exams.js 2>/dev/null
-      fails=$((fails+1)); consec_fail=$((consec_fail+1)); printf '%s\n' "$pid" >> "$HOME/.claude/exp-worker.failed"
+      fails=$((fails+1)); consec_fail=$((consec_fail+1)); printf '%s\n' "$pid" >> "$FAILED"
       [ "$consec_fail" -ge 3 ] && { report "⚠️ $(now) 詳解 worker 連續 3 卷 test 不過（最後 $pid），先停"; break; }
       [ "$ONCE" = 1 ] && break; continue
     fi
@@ -229,7 +317,7 @@ import json,sys,collections
 g=collections.OrderedDict()
 for s in json.load(open(sys.argv[1])): g.setdefault(s['reason'],[]).append(str(s['n']))
 print('；'.join('#'+','.join(ns[:20])+('…' if len(ns)>20 else '')+' '+r for r,ns in list(g.items())[:8]))" "$T/skip.json" 2>/dev/null)
-  python3 - "$ROOT/PROGRESS.md" "$pid" "$title" "$n_written" "$n_skip" "$(now)" "$MATCH" "$ENGINE_NAME" <<'PY'
+  python3 - "$ROOT/PROGRESS.md" "$pid" "$title" "$n_written" "$n_skip" "$(now)" "$MATCH" "$eng" <<'PY'
 import sys,re
 f,pid,title,w,s,ts,match,engine=sys.argv[1:]
 txt=open(f,encoding='utf-8').read()
@@ -246,9 +334,9 @@ PY
   git add "${addp[@]}" 2>/dev/null
   git commit -q -m "詳解：${title} ${n_written} 題$( [ "$n_skip" -gt 0 ] && printf '（跳過 %s 題：%s）' "$n_skip" "$skipreasons")
 
-worker: $usage ${secs}s engine=$ENGINE_NAME" 2>/dev/null
+worker: $usage ${secs}s engine=$eng" 2>/dev/null
   for i in 1 2 3; do git push -q 2>/dev/null && break; git pull --rebase -q 2>/dev/null; sleep 5; done
-  log "$pid 寫 $n_written／待 $n_todo 跳 $n_skip $usage ${secs}s"
+  log "$pid 寫 $n_written／待 $n_todo 跳 $n_skip $usage ${secs}s ${STAGE:+route=$STAGE}"
   done_papers=$((done_papers+1)); done_q=$((done_q+n_written)); done_skip=$((done_skip+n_skip)); consec_fail=0
   year_papers=$((year_papers+1)); year_q=$((year_q+n_written)); year_skip=$((year_skip+n_skip))
   [ $(( $(date +%s) - last_report )) -ge 7200 ] && report_progress "進度（${year} 年進行中，剛做完 ${pid}）"
