@@ -526,7 +526,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 codex/default（訂閱））。最後一卷：nur-115-3-nur2 115 年第三次　基本護理學與護理行政，寫 44 題、跳過 6 題，11/10 09:00 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 codex/default（訂閱））。最後一卷：nur-115-3-nur1 115 年第三次　基礎醫學，寫 45 題、跳過 5 題，11/10 09:05 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
