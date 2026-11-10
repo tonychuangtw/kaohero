@@ -6,6 +6,13 @@ BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（se
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
 UPDATED: 2026-11-07 04:15（台北）
 
+## 2026-11-10 新考期通知先徵詢同意
+
+- 已確認 brain daily-release.timer 每天台北 07:00 執行，11/10 07:01 正常結束；moex-watch 是同一支腳本的第二步，沒有獨立 timer。
+- 通知改為詢問是否轉檔、檢查並上架；Tony 明確同意前不轉檔、不加入上架佇列。既有待上架區排程不變。
+- 115170（115 年第三次護理師）等 Tony 同意，自 11/10；本輪未轉檔或上架。掃描只比對考期清單與題本 code，不代表試題／標準答案已齊。
+- 驗證：bash -n tools/daily-release.sh；通知文案差異檢查。未執行每日上架腳本，避免額外放出一組。
+
 ## 2026-11-06 消防設備進待上架區、OpenAI 詳解引擎試寫（主線派工 1106-1215-az）
 
 - 地政士（同場專技普考）64／70 卷沒答案（專業科目全申論），只國文 6 卷，不收。改收同場消防設備師（高考 f001）／士（普考 h001～h004）：102～115 年 70 卷 2,800 題、0 跳過；115 年類科前綴改「消防設備人員高等考試」，gen_civil 改用 高等／普通 判等別。新分類「消防設備」🧯，release-queue 接在社工師後 14 組。commit eb2434d7b。

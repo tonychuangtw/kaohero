@@ -392,7 +392,7 @@ console.log(e.id, p.qs.map(w.KHDiag.topicOf).filter(Boolean).slice(0,5).join(' |
 
 - `daily-release.timer` 每天台北 07:00 跑 `tools/daily-release.sh`（純腳本 0 token，紀錄 `~/.claude/daily-release.log`，`--dry` 試跑）：
   ① 待上架區 `tools/release-queue.json` 的下一組詳解寫完 → 放出來（build-index、test、全量 build-pages、commit、push、cf-deploy、IndexNow），本線頻道回報；沒寫完就不放、報差幾題；queue 空了報一次
-  ② `tools/moex-watch.py`：考選部出了本站已收考試的新考期（看各卷題本的 `code`）→ 通知本線轉檔。只通知不自動轉
+  ② `tools/moex-watch.py`：考選部出了本站已收考試的新考期（看各卷題本的 `code`）→ 詢問 Tony 是否轉檔、檢查並上架；收到明確同意前不轉檔、不加入自動上架佇列（2026-11-10 Tony 定案）。同一考期只通知一次
 - **待上架區**：題本檔先放進 `js/data/exam/`，pid 列進 `release-queue.json` 的 `queue`（一組＝一種考試的一個年度），`build-index` 就不列它們
   （exp-next／worker 照樣會寫詳解，`build-pages --only` 也不會產頁）。一卷都還沒上架的考試，`build-index` 會把它從 APP_CATS 拿掉。
   上架前要整組一起測：`KH_NOHOLD=1 node tools/build-index.js --write && node test/test.js`，測完記得不帶 KH_NOHOLD 再寫一次

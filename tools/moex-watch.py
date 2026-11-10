@@ -2,7 +2,7 @@
 """每日小更新：查考選部有沒有「本站已收的考試」出了新考期、本站還沒收（2026-11-05）。
 
 只負責發現、不自動轉檔：每種考試的轉檔各有眉角（護理師要 nurse-inv-fix、公職要 rows-<roc>.json、圖要另裁），
-自動硬轉出錯比晚一天上架糟。發現了由 daily-release.sh 通知本線，本線照 CLAUDE.md 轉檔上架。
+自動硬轉出錯比晚一天上架糟。發現了由 daily-release.sh 通知本線，本線先問 Tony，收到明確同意後才照 CLAUDE.md 轉檔上架。
 
 用法：python3 tools/moex-watch.py [--all]
   印出每個新考期一行「代碼<TAB>名稱」；同一個代碼通知過就記在 ~/.cache/kaohero-moex-watch.json，不再印（--all 照印）。

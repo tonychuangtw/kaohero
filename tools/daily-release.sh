@@ -5,7 +5,7 @@
 #   1) 待上架區 tools/release-queue.json 的下一組詳解寫完了 → 放出來：build-index、test、build-pages（全量，日期沒變的頁不重寫）、
 #      commit、push、部署、IndexNow 送新網址，在本線頻道回報
 #      還沒寫完 → 今天不放，回報差幾題；queue 空了 → 回報一次「待上架區空了，該備下一種考試」
-#   2) moex-watch.py：考選部出了本站已收考試的新考期 → 通知本線去轉檔
+#   2) moex-watch.py：考選部出了本站已收考試的新考期 → 詢問 Tony，明確同意後才轉檔上架
 # 用法：bash tools/daily-release.sh [--dry]      紀錄 ~/.claude/daily-release.log
 set -uo pipefail
 cd "$(dirname "$0")/.."
@@ -72,7 +72,8 @@ fi
 NEWS=$(timeout 300 python3 tools/moex-watch.py $([ $DRY = 1 ] && echo --all) 2>> "$LOG")
 if [ -n "$NEWS" ]; then
   log "考選部新考期：$(echo "$NEWS" | cut -f1 | tr '\n' ' ')"
-  say "📥 考選部有新考期本站還沒收，要轉檔上架：
-$(echo "$NEWS" | sed 's/\t/ /')"
+  say "📥 考選部有新考期本站還沒收：
+$(echo "$NEWS" | sed 's/\t/ /')
+要將上述考期轉檔、檢查並上架嗎？請回覆「做＋考期代碼」或「先不要」。收到明確同意前不開始轉檔，也不加入自動上架佇列。"
 fi
 exit 0
