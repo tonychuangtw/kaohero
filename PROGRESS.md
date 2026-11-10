@@ -6,11 +6,18 @@ BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（se
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
 UPDATED: 2026-11-07 04:15（台北）
 
+## 2026-11-10 115170 護理師第三次轉檔
+
+- Tony「做115170」授權轉檔、檢查並上架。5 科試題與標準答案已齊，無更正答案；獨立工作目錄 brain ~/exam-pdfs/nurse-115170，避免覆寫舊 inv。
+- 產出 nur-115-3-nur1～nur5，共 5 卷 250 題，無圖片、送分或多答案題；250 題答案逐題與官方 PDF 一致，逐卷首／中／末題抽查。
+- build-index、全站 test（62,450 項）通過，build-pages 全量完成；本次先上試題與官方答案，自撰詳解尚未補。
+- 已完成轉檔與本機驗證，下一步同步 brain 部署並確認五卷線上內容。
+
 ## 2026-11-10 新考期通知先徵詢同意
 
 - 已確認 brain daily-release.timer 每天台北 07:00 執行，11/10 07:01 正常結束；moex-watch 是同一支腳本的第二步，沒有獨立 timer。
 - 通知改為詢問是否轉檔、檢查並上架；Tony 明確同意前不轉檔、不加入上架佇列。既有待上架區排程不變。
-- 115170（115 年第三次護理師）等 Tony 同意，自 11/10；本輪未轉檔或上架。掃描只比對考期清單與題本 code，不代表試題／標準答案已齊。
+- 115170（115 年第三次護理師）Tony 11/10 08:29 已同意轉檔上架。掃描只比對考期清單與題本 code，不代表試題／標準答案已齊。
 - 驗證：bash -n tools/daily-release.sh；通知文案差異檢查。未執行每日上架腳本，避免額外放出一組。
 
 ## 2026-11-06 消防設備進待上架區、OpenAI 詳解引擎試寫（主線派工 1106-1215-az）
