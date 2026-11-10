@@ -20,7 +20,8 @@ curmodel() { grep -oP '(?<=^Environment=EXP_AGY_MODEL=).*' "$UNIT" 2>/dev/null |
 
 case "$cmd" in
   status) echo "引擎：$(cur)（agy 模型 $(curmodel)）；worker $(systemctl --user is-active exp-worker)"; exit 0 ;;
-  agy|claude|deepseek|openai) ;;
+  codex) ;;
+  agy|claude|deepseek|openai) echo "Tony 11/10 指定本線固定 Codex；未另獲授權不可切回 $cmd" >&2; exit 2 ;;
   *) echo "用法：exp-engine.sh agy|claude|deepseek|openai|status [模型]" >&2; exit 2 ;;
 esac
 

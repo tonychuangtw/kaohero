@@ -5,5 +5,5 @@ Description=kaohero 詳解 worker 引擎切回 claude（週限重置後）
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-engine.sh claude
+ExecStart=/usr/bin/bash %h/TelegramClaude/kaoguhero/tools/exp-engine.sh codex
 ExecStartPost=/usr/bin/systemctl --user disable --now exp-engine-restore.timer

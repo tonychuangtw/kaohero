@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# 2026-11-10 Tony：本線固定 Codex。舊 Claude/agy 批次停用，避免誤用額度。
+echo "本線固定 Codex；選擇題請用 exp-worker，其他撰寫由 Codex 線本體處理。" >&2
+exit 2
 # note-batch.sh — 分批寫「勘誤提醒」（q.note）：官方答案與現行法衝突、或修法後答案不唯一的題。
 #
 # 用法：tools/note-batch.sh [每批題數，預設 25] [批數上限，0=全部]

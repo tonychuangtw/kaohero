@@ -6,6 +6,12 @@ BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（se
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
 UPDATED: 2026-11-10 08:36（台北）
 
+## 2026-11-10 08:37 全線撰寫改 Codex
+
+- Tony 指定以後本線都用 Codex。Claude exp-worker 已停止，尚未寫入任何新詳解。
+- 新增 runner exp-codex.py：Codex 訂閱輸出結構化 JSON，題號完整性／重複／pid 先驗，再交既有 set-exp 與全站測試；brain worker 固定 codex，舊引擎切換擋下。舊 Claude 批次停用，申論與勘誤由 Codex 線本體寫。
+- 下一步單題試跑，通過後接續護理師 250 題；不使用其他模型或 API 贈額。
+
 ## 2026-11-10 上架後直接補詳解
 
 - Tony 08:34「有上就直接寫詳解，以後這都不用問」：已寫入 CLAUDE.md，授權包含詳解與後續站台更新；新考期收錄仍先詢問。

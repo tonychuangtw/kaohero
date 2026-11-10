@@ -46,11 +46,13 @@
 # 紀錄：~/.claude/exp-worker.log（每卷一行：pid、題數、跳過、tokens、費用、秒數、結果）
 # 回報：每做完一個年份、或距上次回報滿 15 分鐘，用 tg-send.sh kaohero 發一則（shared.md §17 批次回報規則）
 set -u
+# Tony 2026-11-10：本線撰寫固定 Codex，禁止舊設定默默換回其他引擎。
+[ "${EXP_ENGINE:-codex}" = codex ] || { echo "本線已固定 Codex，請使用 exp-engine.sh codex" >&2; exit 2; }
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="${EXP_CLAUDE_BIN:-$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh}"   # 帶 CLAUDE_CREDIT=off＝只走訂閱、帳本照記；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
 export CLAUDE_CREDIT_TAG=kaohero-exp-worker
 MODEL="${EXP_MODEL:-claude-opus-5-5}"
-ENGINE="${EXP_ENGINE:-claude}"          # claude | agy | deepseek | openai
+ENGINE="${EXP_ENGINE:-codex}"          # claude | agy | deepseek | openai
 AGY_HOST="${EXP_AGY_HOST:-tonychuangtw@192.168.1.173}"
 AGY_ROOT="${EXP_AGY_ROOT:-/home/tonychuangtw/TelegramClaude/kaoguhero}"
 AGY_MODEL="${EXP_AGY_MODEL:-gemini-3.8-flash-high}"
@@ -74,7 +76,7 @@ TGSEND="$HOME/TelegramClaude/claude-shared/machines/claudebot500/tg-sessions/tg-
 PAUSED="$HOME/.claude/channels/telegram-kaohero/paused-until"
 LSTATE="$HOME/.claude/session-limit.state"
 T="${XDG_RUNTIME_DIR:-/tmp}/exp-worker.$$"; mkdir -p "$T"
-cleanup() { rm -rf "$T"; rm -f "$LOCK"; [ "${ENGINE:-claude}" = agy ] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AGY_T" >/dev/null 2>&1; return 0; }
+cleanup() { rm -rf "$T"; rm -f "$LOCK"; [[ "${ENGINE:-codex}" = agy || "${ENGINE:-codex}" = codex ]] && ssh "${SSHOPT[@]}" "$AGY_HOST" "rm -rf $AGY_T" >/dev/null 2>&1; return 0; }
 trap cleanup EXIT
 export PATH="$HOME/bin:$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
 export DISABLE_AUTOUPDATER=1
@@ -101,13 +103,23 @@ wait_quota() {   # 額度守門：session-limit 暫停中或 paused-until 未到
 }
 
 # prompt 裡的路徑要填模型看得到的那一台：claude 跑本機，agy 跑 runner
-if [ "$ENGINE" = agy ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="agy/$AGY_MODEL"
+if [ "$ENGINE" = codex ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="codex/${EXP_CODEX_MODEL:-default}（訂閱）"
+elif [ "$ENGINE" = agy ]; then P_ROOT="$AGY_ROOT"; P_T="$AGY_T"; ENGINE_NAME="agy/$AGY_MODEL"
 elif [ "$ENGINE" = deepseek ]; then P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="deepseek/${EXP_DS_MODEL:-deepseek-flash}"
 elif [ "$ENGINE" = openai ]; then P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="openai/${EXP_OA_MODEL:-gpt-6-astra}"
 else P_ROOT="$ROOT"; P_T="$T"; ENGINE_NAME="claude/$MODEL（訂閱）"; fi
 
 run_model() {   # $1=prompt 檔（本機）  $2=out.json 落點（本機）；patch/skip 一律回到 $T
   local pf="$1" of="$2" rc=0
+  if [ "$ENGINE" = codex ]; then
+    ssh "${SSHOPT[@]}" "$AGY_HOST" "mkdir -p $AGY_T" || return 1
+    scp -q "${SSHOPT[@]}" "$pf" "$AGY_HOST:$AGY_T/prompt.md" || return 1
+    timeout 2500 ssh "${SSHOPT[@]}" "$AGY_HOST" "export PATH=\$HOME/.npm-global/bin:\$HOME/bin:\$PATH; python3 $AGY_ROOT/tools/exp-codex.py $AGY_T/prompt.md $AGY_T" > "$of" 2>> "$T/err.txt"
+    rc=$?
+    [ "$rc" = 0 ] || return "$rc"
+    scp -q "${SSHOPT[@]}" "$AGY_HOST:$AGY_T/patch.json" "$AGY_HOST:$AGY_T/skip.json" "$T/" || return 1
+    return 0
+  fi
   # deepseek 沒有 agent loop，prompt 檔用不到：切段、撈 JSON、驗格式、寫 patch/skip 都在 exp-deepseek.js 裡
   if [ "$ENGINE" = deepseek ]; then
     node tools/exp-deepseek.js "$pid" "$T" > "$of" 2>> "$T/err.txt"

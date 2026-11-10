@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# 2026-11-10 Tony：本線固定 Codex。舊 Claude/agy 批次停用，避免誤用額度。
+echo "本線固定 Codex；選擇題請用 exp-worker，其他撰寫由 Codex 線本體處理。" >&2
+exit 2
 # exp-batch.sh — 跨卷湊批寫詳解的 worker（補舊科目零星漏題用）。
 #
 # 跟 exp-worker.sh 的分工（2026-09-20 加）：
