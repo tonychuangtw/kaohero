@@ -10,12 +10,12 @@ UPDATED: 2026-11-10 08:36（台北）
 
 - Tony 指定以後本線都用 Codex。Claude exp-worker 已停止，尚未寫入任何新詳解。
 - 新增 runner exp-codex.py：Codex 訂閱輸出結構化 JSON，題號完整性／重複／pid 先驗，再交既有 set-exp 與全站測試；brain worker 固定 codex，舊引擎切換擋下。舊 Claude 批次停用，申論與勘誤由 Codex 線本體寫。
-- 下一步單題試跑，通過後接續護理師 250 題；不使用其他模型或 API 贈額。
+- Codex 單題試跑通過 set-exp 格式與內容抽查；題號完整性測試通過（缺題、重複、錯 pid 都擋下）。接續啟動護理師 250 題，沿用逐卷測試、提交與部署；不使用其他模型或 API 贈額。
 
 ## 2026-11-10 上架後直接補詳解
 
 - Tony 08:34「有上就直接寫詳解，以後這都不用問」：已寫入 CLAUDE.md，授權包含詳解與後續站台更新；新考期收錄仍先詢問。
-- 本次待寫只剩 nur-115-3-nur1～nur5，共 250 題。沿用 brain exp-worker（Claude Opus 5.5 訂閱，CLAUDE_CREDIT=off），不使用 API 贈額。
+- 本次待寫只剩 nur-115-3-nur1～nur5，共 250 題。沿用 brain exp-worker（08:37 起改 runner Codex 訂閱），不使用 API 贈額。
 - 批次會逐卷測試、提交推送，cf-deploy 每十分鐘更新；完成或失敗會回報 kaohero。背景執行期間不以 AI 輪詢監工。
 
 ## 2026-11-10 115170 護理師第三次轉檔
