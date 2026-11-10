@@ -1,10 +1,16 @@
 STATUS: blocked
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B：Tony 用 /secret 給帳號後，用 scout 開帳號、寫第一篇
+NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B：Tony 用 /secret 給帳號後，用 scout 開帳號、寫第一篇
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認，自 11/05）；C 已全自動，40 組排程到約 12/16
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-07 04:15（台北）
+UPDATED: 2026-11-10 08:36（台北）
+
+## 2026-11-10 上架後直接補詳解
+
+- Tony 08:34「有上就直接寫詳解，以後這都不用問」：已寫入 CLAUDE.md，授權包含詳解與後續站台更新；新考期收錄仍先詢問。
+- 本次待寫只剩 nur-115-3-nur1～nur5，共 250 題。沿用 brain exp-worker（Claude Opus 5.5 訂閱，CLAUDE_CREDIT=off），不使用 API 贈額。
+- 批次會逐卷測試、提交推送，cf-deploy 每十分鐘更新；完成或失敗會回報 kaohero。背景執行期間不以 AI 輪詢監工。
 
 ## 2026-11-10 115170 護理師第三次轉檔
 

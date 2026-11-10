@@ -44,7 +44,7 @@
 #   ~/.claude/channels/telegram-kaohero/paused-until  session-limit 留的記號，時間未到就等
 #   ~/.claude/session-limit.state          mode=pause|hit 時等 5 分鐘再看
 # 紀錄：~/.claude/exp-worker.log（每卷一行：pid、題數、跳過、tokens、費用、秒數、結果）
-# 回報：每做完一個年份、或距上次回報滿 2 小時，用 tg-send.sh kaohero 發一則（shared.md §17 批次回報規則）
+# 回報：每做完一個年份、或距上次回報滿 15 分鐘，用 tg-send.sh kaohero 發一則（shared.md §17 批次回報規則）
 set -u
 ROOT="$HOME/TelegramClaude/kaoguhero"
 CLAUDE="${EXP_CLAUDE_BIN:-$HOME/TelegramClaude/claude-shared/tools/claude-credit.sh}"   # 帶 CLAUDE_CREDIT=off＝只走訂閱、帳本照記；內部仍走 ~/bin/claude shim，不搶 kaohero 線的 bot
@@ -160,7 +160,7 @@ while :; do
   else
     line=$(node tools/exp-next.js --match "$MATCH" --limit 1 2>/dev/null | head -1)
   fi
-  [ -n "$line" ] || { log "範圍 $MATCH 已無待寫卷"; report_progress "初等考試詳解批次完成（範圍 ${MATCH} 已無待寫卷）"; break; }
+  [ -n "$line" ] || { log "範圍 $MATCH 已無待寫卷"; report_progress "詳解批次完成（範圍 ${MATCH} 已無待寫卷）"; break; }
   pid=${line%% *}; rest=${line#* }; n_todo=${rest%% *}; title=${rest#* }
   year=$(printf '%s' "$pid" | cut -d- -f2)
   # 年份換了 → 回報上一個年份（§17：每完成一個自然段落回報一次）
@@ -274,7 +274,7 @@ worker: $usage ${secs}s engine=$ENGINE_NAME" 2>/dev/null
   log "$pid 寫 $n_written／待 $n_todo 跳 $n_skip $usage ${secs}s"
   done_papers=$((done_papers+1)); done_q=$((done_q+n_written)); done_skip=$((done_skip+n_skip)); consec_fail=0
   year_papers=$((year_papers+1)); year_q=$((year_q+n_written)); year_skip=$((year_skip+n_skip))
-  [ $(( $(date +%s) - last_report )) -ge 7200 ] && report_progress "進度（${year} 年進行中，剛做完 ${pid}）"
+  [ $(( $(date +%s) - last_report )) -ge 900 ] && report_progress "進度（${year} 年進行中，剛做完 ${pid}）"
   [ "$ONCE" = 1 ] && break
   [ "$LIMIT" -gt 0 ] && [ "$done_papers" -ge "$LIMIT" ] && break
 done
