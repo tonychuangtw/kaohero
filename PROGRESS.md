@@ -1,10 +1,18 @@
-STATUS: blocked
-OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（A＋B＋C 四平台都做，等帳號）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B：Tony 用 /secret 給帳號後，用 scout 開帳號、寫第一篇
+STATUS: in-progress
+OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（四平台已決定，帳號狀態由本線待核對）、C 每日小更新（補收國考，每天上架一小批）
+NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B 線內待辦：四平台逐一核對既有交付紀錄與登入狀態，補首篇草稿；目前沒有帳號完成證據，不再重問平台選擇或重催交付。登入與對外發文另按既有授權處理
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
-BLOCKERS: B 等 Tony 用 /secret 給方格子／Medium／Dcard／PTT 帳號（seo 頁待確認，自 11/05）；C 已全自動，40 組排程到約 12/16
+BLOCKERS: 方格子帳號待核對（線內查證，非等 Tony，未證實完成）；Medium 帳號待核對（線內查證，非等 Tony，未證實完成）；Dcard 帳號待核對（線內查證，非等 Tony，未證實完成）；PTT 帳號待核對（線內查證，非等 Tony，未證實完成）
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-10 08:36（台北）
+UPDATED: 2026-11-12 09:27（台北）
+
+## 2026-11-12 舊待確認核對（回收單 1112-0924-qf）
+
+- 口徑：本次四個帳號完成結案 0 件；保留待核對 4 件；四個平台的「等 Tony」催問標籤撤下，改本線查證，不代表帳號完成。已自動執行的 C 排程移出 BLOCKERS，不列入四件帳號數。
+- 決策證據：11/05 台北 14:39 TG 1225 同意 A、B 並自行查 GSC；14:41 TG 1227 要經營外部連結、需要帳號再提出；15:00 TG 1233「A. B. C都做」。plans commit 2fcf44c 已記四平台決定，因此不重問選平台。
+- 方格子：待核對，未找到交付／登入成功／發文結果；Medium：待核對，未找到交付／登入成功／發文結果；Dcard：待核對，未找到交付／登入成功／發文結果；PTT：待核對，未找到交付／登入成功／發文結果。
+- 查證範圍：本線記憶、PROGRESS、SEO 案子頁與 git 歷史；brain 本線 Claude 對話（含 queued channel，11/05 起去重 11 則）、neutral inbox/jobs。四個指定交付檔僅檢查存在性，均未見，未讀任何憑證。缺檔不能證明從未交付，亦未驗證既有瀏覽器登入，故保留待核對，不冒稱結案。
+- 下一步責任在本線：核對既有登入或其他交付紀錄並準備草稿，不請 Tony 重答。本次只清理狀態，未登入平台或對外發文。案子頁同步：https://tony-plans.pages.dev/kaohero/seo 。
 
 ## 2026-11-10 08:37 全線撰寫改 Codex
 
