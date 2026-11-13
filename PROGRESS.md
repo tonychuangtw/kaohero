@@ -1,10 +1,17 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（四平台已決定，帳號狀態由本線待核對）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B 線內待辦：四平台逐一核對既有交付紀錄與登入狀態，首篇四份草稿已存 docs/external-first-post-drafts.md；下一步核對既有登入證據及目標看板規則，目前沒有帳號完成證據，不再重問平台選擇或重催交付。登入與對外發文另按既有授權處理
+NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B 線內待辦：四平台逐一核對既有交付紀錄與登入狀態，首篇四份草稿已存 docs/external-first-post-drafts.md；11/14 公開規則查核已記在草稿末段：Dcard 看板稿暫不適用，改先評估個人牆；PTT 現行置頂規則未取得。下一步查本線可用遠端瀏覽器唯讀入口與既有會話（本次工具清單無瀏覽器工具），驗證登入；不重掃已查交付紀錄、不重催帳號。發布前另取 Tony 確認
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: 方格子帳號待核對（線內查證，非等 Tony，未證實完成）；Medium 帳號待核對（線內查證，非等 Tony，未證實完成）；Dcard 帳號待核對（線內查證，非等 Tony，未證實完成）；PTT 帳號待核對（線內查證，非等 Tony，未證實完成）
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-13 04:06（台北）
+UPDATED: 2026-11-14 04:07（台北）
+
+## 2026-11-14 例行接續：四平台公開規則查核
+
+- 查核與來源已補 docs/external-first-post-drafts.md；Dcard 看板稿標暫不適用，PTT 稿標現行規則未核實。Medium／方格子應補具體範例與人工審閱，不將外部連結作為主要內容目的。
+- 本次無可讀既有登入態的瀏覽器工具；遠端瀏覽器入口尚未核對，四帳號均維持未驗證，不要求 Tony 重交。公開頁面結果不能證明帳號狀態。
+- 只改本線文件；未登入、發文、發布 plans 或操作背景 worker。企劃頁待發布維護文字留在草稿末段。詳解等完工通知、每日上架照排程，不輪詢。
+- 驗證：文件 diff、git diff --check、交接七欄與日期檢查；未改程式，不跑全站測試。
 
 ## 2026-11-13 例行接續：四平台首篇草稿
 
