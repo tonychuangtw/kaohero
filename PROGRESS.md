@@ -1,10 +1,17 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（四平台已決定，帳號狀態由本線待核對）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B 線內待辦：四平台逐一核對既有交付紀錄與登入狀態，首篇四份草稿已存 docs/external-first-post-drafts.md；11/14 公開規則查核已記在草稿末段：Dcard 看板稿暫不適用，改先評估個人牆；PTT 現行置頂規則未取得。下一步查本線可用遠端瀏覽器唯讀入口與既有會話（本次工具清單無瀏覽器工具），驗證登入；不重掃已查交付紀錄、不重催帳號。發布前另取 Tony 確認
+NEXT_ACTION: ⓪ 115170 五卷 250 題已授權直接補詳解：brain exp-worker 背景執行，自動逐卷驗證、commit/push，cf-deploy 自動更新；收到完工通知後同步 brain 已提交結果並驗收，不輪詢監工。① 待上架區 40 組詳解全部寫完（exp-next 剩 0 卷；各組剩的是跳過題），daily-release.timer 每天 07:00 自動放一組、自己回報本線，約到 12/16 放完，不需喚醒盯 ② 待上架區剩 ≤7 組時（或 queue 空的通知）再備下一種考試，順序見 daily-update 頁（地政士不收） ③ B：依 docs/external-first-post-drafts.md 末段接續。Tony 11/14 定位為免費資源分享；Facebook＋方格子兩週試行、可選 Threads 是討論稿，未定案，不自動發布或新增排程。遠端瀏覽器工具已找到，runner／brain 無 kaohero／kaoguhero 命名的會話記錄；待本線可用會話對照或新登入證據再驗證四平台，不每日重掃、不重催帳號。發布前提供平台、位置與定稿給 Tony 確認。
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: 方格子帳號待核對（線內查證，非等 Tony，未證實完成）；Medium 帳號待核對（線內查證，非等 Tony，未證實完成）；Dcard 帳號待核對（線內查證，非等 Tony，未證實完成）；PTT 帳號待核對（線內查證，非等 Tony，未證實完成）
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-14 04:07（台北）
+UPDATED: 2026-11-15 04:07（台北）
+
+## 2026-11-15 例行接續：分享定位與瀏覽器入口
+
+- 補記 Tony 11/14 三則定位說明及 17:39 討論方案，全文見 docs/external-first-post-drafts.md 末段。免費資源分享開場已備好；Facebook／Threads 尚屬建議，沒有視為新平台執行授權。
+- 已找到 scout-browse 工具；runner、brain 僅比對 kaohero／kaoguhero profile 名稱的快取記錄，皆無符合。缺的是可使用的既有會話對照，不是證明帳號未註冊。未讀憑證、未使用其他線會話。
+- 已停止重複掃描同樣的帳號交付紀錄；等新會話證據或方案回覆再接續。背景詳解與上架照舊，不輪詢、不重啟。
+- 僅文件差異及七欄檢查，未改程式；企劃頁維護文字留本線草稿，未發布。
 
 ## 2026-11-14 例行接續：四平台公開規則查核
 
@@ -116,7 +123,7 @@ OBJECTIVE: Tony 2026-09-23「全都做」指定的四件，依序 1→2→3→4�
 　③④ 已完成上線；① 的圖全部補完，剩「補詳解」這條長尾在跑；② 批次進行中。
 　（變現工程仍卡在 Tony 那三件事，見下方「等 Tony 的三件事」；付費牆是關的，功能照常免費。）
 
-NEXT_ACTION: ▶ 10/05 03:14 額度重置，essay-ref-pua、essay-ref-fig 兩支已重開、第 1 批都寫進去了（01:44 曾因 5 小時額度暫停）。
+NEXT_ACTION: ▶ 10/05 03:14 額度重置，essay-ref-pua、essay-ref-fig 兩支已重開、第 1 批都寫進去了（01:44 曾因 5 小時額度暫停）。 ③ B：依 docs/external-first-post-drafts.md 末段接續。Tony 11/14 定位為免費資源分享；Facebook＋方格子兩週試行、可選 Threads 是討論稿，未定案，不自動發布或新增排程。遠端瀏覽器工具已找到，runner／brain 無 kaohero／kaoguhero 命名的會話記錄；待本線可用會話對照或新登入證據再驗證四平台，不每日重掃、不重催帳號。發布前提供平台、位置與定稿給 Tony 確認。
 　沒在跑就照下面兩行重開（先 systemctl --user reset-failed）：
 　　systemd-run --user --unit essay-ref-pua -p WorkingDirectory=$PWD -E PATH="$PATH" -E HOME="$HOME" -E ESSAY_WARN_OK=fig,math,pua -E ESSAY_SHARD=0/2 -E ESSAY_TAG=pua /usr/bin/bash tools/essay-ref-batch.sh 12 0
 　　同一行換 essay-ref-fig／ESSAY_SHARD=1/2／ESSAY_TAG=fig
@@ -292,7 +299,7 @@ PATHS: 企劃和維護記錄網頁（shared.md §25，2026-10-19 起每案一頁
 　claude-shared/projects/LanExamMock/backend/{ecpay.js,kaohero.js,test/kgh-pay-test.js,test/kgh-export-test.js}、
 　js/data/exam/*.js、js/data/exams.js（build-index 產生，勿手改）、
 　~/exam-pdfs/{tqa,chu,gao,local,med4,nurse,pol,tour}/pdf（官方試題與答案原檔）
-UPDATED: 2026-11-06 07:20（台北）
+UPDATED: 2026-11-15 04:07（台北）
 
 ## 2026-09-22：首頁效能做穩定（Tony「做穩定」）
 
