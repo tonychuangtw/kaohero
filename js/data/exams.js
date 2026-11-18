@@ -5030,6 +5030,56 @@ window.APP_CATS = [
   ]
  },
  {
+  "id": "social",
+  "name": "社會工作",
+  "icon": "🤝",
+  "exams": [
+   {
+    "id": "sw",
+    "name": "社會工作師",
+    "icon": "🤝",
+    "live": true,
+    "note": "專門職業及技術人員高等考試社會工作師考試，每年兩次（與護理師、營養師同場）；專業科目為申論加測驗混合卷，本站收測驗題",
+    "stages": [
+     {
+      "no": 1,
+      "name": "社會工作師",
+      "note": "大學相關科系畢業；專業科目為申論 2 題加 40 題測驗",
+      "subjects": [
+       "s001",
+       "s002",
+       "s003",
+       "s004",
+       "s005",
+       "s006",
+       "s007"
+      ],
+      "groups": [
+       {
+        "name": "專技高考類科",
+        "tracks": [
+         {
+          "id": "sw1-社會工作師",
+          "name": "社會工作師",
+          "subjects": [
+           "s001",
+           "s002",
+           "s003",
+           "s004",
+           "s005",
+           "s006",
+           "s007"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "pro",
   "name": "不動產與記帳",
   "icon": "🏠",
@@ -68881,6 +68931,146 @@ window.APP_EXAMS = [
   "n": 80,
   "exp": 79,
   "mins": 60
+ },
+ {
+  "id": "soc-115-1-s001",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 1,
+  "subj": "s001",
+  "subjName": "社會工作",
+  "label": "115 年第一次　社會工作",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-1-s002",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 1,
+  "subj": "s002",
+  "subjName": "社會政策與社會立法",
+  "label": "115 年第一次　社會政策與社會立法",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-1-s004",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 1,
+  "subj": "s004",
+  "subjName": "社會工作直接服務",
+  "label": "115 年第一次　社會工作直接服務",
+  "n": 40,
+  "exp": 39,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-1-s005",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 1,
+  "subj": "s005",
+  "subjName": "人類行為與社會環境",
+  "label": "115 年第一次　人類行為與社會環境",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-1-s006",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 1,
+  "subj": "s006",
+  "subjName": "社會工作研究方法",
+  "label": "115 年第一次　社會工作研究方法",
+  "n": 40,
+  "exp": 39,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-2-s001",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 2,
+  "subj": "s001",
+  "subjName": "社會工作",
+  "label": "115 年第二次　社會工作",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-2-s002",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 2,
+  "subj": "s002",
+  "subjName": "社會政策與社會立法",
+  "label": "115 年第二次　社會政策與社會立法",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-2-s004",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 2,
+  "subj": "s004",
+  "subjName": "社會工作直接服務",
+  "label": "115 年第二次　社會工作直接服務",
+  "n": 40,
+  "exp": 39,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-2-s005",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 2,
+  "subj": "s005",
+  "subjName": "人類行為與社會環境",
+  "label": "115 年第二次　人類行為與社會環境",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
+ },
+ {
+  "id": "soc-115-2-s006",
+  "cat": "social",
+  "exam": "sw",
+  "stage": 1,
+  "roc": 115,
+  "nth": 2,
+  "subj": "s006",
+  "subjName": "社會工作研究方法",
+  "label": "115 年第二次　社會工作研究方法",
+  "n": 40,
+  "exp": 40,
+  "mins": 120
  },
  {
   "id": "rea-114-1-r001",
