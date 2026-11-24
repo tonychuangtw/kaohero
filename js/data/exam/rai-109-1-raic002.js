@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "參考團體",
     "原初團體"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 阿嬤從小照顧小明，他在日常互動中學習阿嬤的期待，逐漸形成對自己的看法。這種深刻影響個人成長的具體人物就是「重要他人」。\n❌ (B) 概括他人指個人理解的社會整體期待，例如大家都應遵守的規則。\n❌ (C) 參考團體是個人用來比較自己或效法其標準的群體。\n❌ (D) 家庭可算原初團體，題目問的則是阿嬤個人的角色。\n📚 出處：社會化與自我發展——重要他人與概括他人"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "義務論",
     "德行論"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 效益論以行為的後果衡量好壞。把所有受影響者的利弊都算進去，能帶來最大整體幸福的方案最可取。\n❌ (A) 羅爾斯的正義論重視平等自由，也要求社會制度照顧最不利者。\n❌ (C) 義務論著重行為是否符合應遵守的道德義務。\n❌ (D) 德行論關注行動者展現何種品格，例如仁慈或勇敢。\n📚 出處：規範倫理學——效益論、義務論與德行論"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "參考團體",
     "志願團體"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 墨子把夏禹服務人群的精神當作衡量自己行為的標準，體現參考團體的規範功能。即使未曾與典範人物往來，也能效法其價值。\n❌ (A) 次級團體以特定任務或正式分工結合成員。\n❌ (B) 初級團體強調成員長期、親密且直接的互動。\n❌ (D) 志願團體強調成員自願加入，題中沒有入會行為。\n📚 出處：社會團體——參考團體的規範功能"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "文化全球化",
     "文化在地化"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 美國卡通角色隨媒體與商品流傳到各地，連帶使其背後的價值觀影響不同社會的觀眾，屬於文化全球化。\n❌ (A) 反全球化指對全球化提出反對或抵制的行動。\n❌ (B) 全球在地化強調全球商品依不同地方的文化調整，例如改編角色故事。\n❌ (D) 文化在地化著重地方特色的形成或展現，題中強調的是跨國傳播。\n📚 出處：全球化——文化傳播與全球在地化"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "就產品而言是一種成功的置入性行銷",
     "媒體在新聞題材選擇、詮釋上常有偏失"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 廣告把深色皮膚放在「待清洗」的位置，把淺色皮膚呈現為「洗乾淨」的結果。即使沒有明言貶抑，也可能強化種族偏見。\n❌ (A) 一則廣告引起爭議，無法據以推論整個社會失去思考能力。\n❌ (C) 置入性行銷是將商品融入其他內容，題中是直接宣傳洗衣產品的廣告。\n❌ (D) 節目討論此事，並不足以證明媒體選材或詮釋有偏失。\n📚 出處：媒體識讀——刻板印象與隱性歧視"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "資本主義擴張加速貧富差距的擴大",
     "職業聲望的差異影響報酬獎勵系統"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 提案要求同一公司的最高月薪≤最低月薪×12，直接限制高低薪者的所得差距，回應市場報酬分配不均的問題。\n❌ (A) 文化資本包括知識、語言習慣等，水平流動則是相近社會地位間的轉換。\n❌ (B) 提案比較同一公司內的薪資，沒有比較不同國家的地位。\n❌ (D) 算出薪資倍數不需要衡量各職業受到多少社會尊重。\n📚 出處：社會階層化——所得分配與經濟不平等"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "鄰避現象",
     "誘因不足"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 居民希望享有供電的好處，卻因附近設廠可能帶來污染或噪音而反對選址，這就是鄰避現象。\n❌ (A) 搭便車指享受他人提供的利益卻不分擔成本，題中沒有拒付電費的線索。\n❌ (B) 草原悲劇指眾人過度使用共有資源，導致資源耗損。\n❌ (D) 誘因不足指缺少促使人採取行動的利益，無法指出此處的選址衝突。\n📚 出處：公共政策——鄰避設施與選址衝突"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "經濟部部長：總統提名，行政院院長同意後任命",
     "考試院院長：由總統任命之考試委員推舉產生"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 立法院院長由該屆立法委員互選產生，候選人與投票者都是立法委員。\n❌ (A) 行政院院長由總統任命，現行制度無須立法院同意。\n❌ (C) 經濟部部長由行政院院長提請總統任命，選項顛倒兩者職權。\n❌ (D) 考試院院長由總統提名，經立法院同意後任命。\n📚 出處：[《憲法》第56、66條](https://www.president.gov.tw/Page/94)、[《憲法增修條文》第3、6條](https://www.president.gov.tw/Page/95)"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "混合投票制",
     "絕對多數制"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 絕對多數制以取得過半數選票為當選門檻。首輪無人過半時，由得票最高的兩人決選，是兩輪投票制的典型做法。\n❌ (A) 比例代表制依得票比例分配議席。\n❌ (B) 相對多數制只要求得票多於其他候選人，首輪領先者即可當選。\n❌ (C) 混合制結合不同的席次選出方式，舉行兩輪投票本身不構成混合制。\n📚 出處：選舉制度——絕對多數制與兩輪投票制"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "省縣自治法",
     "憲法增修條文"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 《地方制度法》第2條第1款直接定義地方自治團體，其要件是依法實施地方自治，並具有公法人地位。\n❌ (A) 《憲法》規範地方制度的基本架構，題幹用語出自法律的定義條款。\n❌ (C) 《省縣自治法》是已廢止的舊法。\n❌ (D) 《憲法增修條文》第9條提供省、縣地方制度的立法依據，具體定義另由法律規定。\n📚 出處：[《地方制度法》第1條、第2條第1款](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003)"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "對於全球化採取負面批評的態度",
     "認為社會福利應完全由政府來創造和分配"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 紀登斯的第三條路是中間偏左的社會民主路線，接受市場機制，也重視社會公平，例如由政府投資教育與就業能力。\n❌ (B) 政府干預愈少愈好，較接近自由放任的市場觀。\n❌ (C) 第三條路主張因應全球化帶來的機會與風險。\n❌ (D) 第三條路重視政府、市場與公民社會合作提供福利。\n📚 出處：政治意識形態——紀登斯的第三條路與社會投資"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "國際貨幣基金：臺灣",
     "世界貿易組織：臺、澎、金、馬個別關稅領域"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 我國於2002年以「臺灣、澎湖、金門、馬祖個別關稅領域」加入世界貿易組織。個別關稅領域可以成為該組織的會員。\n❌ (A) 我國曾以「中華臺北」名義受邀擔任世界衛生大會觀察員。\n❌ (B) 我國沒有以「中華臺北」加入東南亞國協。\n❌ (C) 我國沒有以「臺灣」名義取得國際貨幣基金會員資格。\n📚 出處：[外交部《外交年鑑》〈國際技術合作與經貿活動〉](https://multilingual.mofa.gov.tw/web/web_UTF-8/almanac/almanac2008/html/08-6.htm)"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "終止動員戡亂時期",
     "頒布國家統一綱領"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 1991年5月1日終止動員戡亂時期，政府正式結束以「戡亂」界定兩岸關係的體制，不再視中共為叛亂團體。\n❌ (A) 1987年臺灣地區解除戒嚴後，動員戡亂時期仍持續。\n❌ (B) 開放赴大陸探親鬆綁的是民間往來限制。\n❌ (D) 《國家統一綱領》提出兩岸政策目標，沒有終止動員戡亂的效力。\n📚 出處：[國家檔案典藏主題〈反共抗俄〉——動員戡亂時期的終止](https://art.archives.gov.tw/tw/art/1486.html)"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "阿全可參選今年年底的民意代表選舉",
     "阿全失去今年年底民意代表選舉的投票權"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 褫奪公權包括喪失公務員資格。即使今年已服刑期滿出獄，三年期間才從主刑執行完畢日起算，考試及格仍不能任職。\n❌ (A) 依刑法一般規定，宣告有期褫奪公權須判處一年以上有期徒刑。\n❌ (C) 褫奪公權也包括喪失公職候選人資格，因此不能參選。\n❌ (D) 褫奪公權的範圍不包括選舉投票權。\n📚 出處：[《刑法》第36、37條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "甲乙無血緣關係，故兩人之婚姻有效",
     "只要胎兒將來非死產，此婚姻不得撤銷"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 甲到共同祖先有三代，乙經養父到共同祖先有兩代，合計為五親等旁系血親。兩人輩分不同，也不符合收養例外，結婚無效。\n❌ (A) 違反禁婚親規定的婚姻自始無效，無須由父母撤銷。\n❌ (C) 收養也能成立法律上的血親關係，沒有自然血緣仍可能禁婚。\n❌ (D) 懷孕或子女活產都不能使此婚姻生效。\n📚 出處：[《民法》第968、983、988、1077條](https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=FL001351)"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "檢方才求刑 5 年，真的判得太輕了",
     "有良知的律師，是不應該為殺人犯辯護的"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 刑法規定，行為時未滿十四歲者不罰。七歲兒童未達刑事責任年齡，即使行為造成嚴重結果，也不能科處刑罰。\n❌ (A) 交保處理的是偵審期間的人身自由，案件仍可繼續審理。\n❌ (C) 求刑是檢察官的量刑意見，實際刑度由法院判決。\n❌ (D) 律師為被告辯護是在保障辯護權，任何人被控重罪都享有此權利。\n📚 出處：[《刑法》第18條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)、《刑事訴訟法》第27條"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "若要提國家賠償，原則上應向普通法院為之",
     "可直接向司法院大法官聲請解釋憲法"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 單獨請求國家賠償，應先以書面向賠償義務機關請求。遇拒賠、協議不成立等法定情形，原則上可向普通法院提起民事訴訟。\n❌ (A) 要撤銷廢止營業資格的行政處分，原則上應先提訴願。\n❌ (B) 爭執執照處分是否合法，應循行政救濟程序。\n❌ (D) 人民聲請裁判憲法審查，須先依法用盡審級救濟。\n📚 出處：[《國家賠償法》第10至12條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020004)、《行政訴訟法》第4條"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "教育部與學生簽公費留學契約",
     "市政府透過招標採購辦公用品"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 教育部給付公費，並與學生約定留學及返國服務等義務，藉契約實現人才培育政策，雙方成立公法上的權利義務關係。\n❌ (A) 訂購便當是以價金換取餐點，屬私法買賣。\n❌ (B) 學校向保全公司購買警衛服務，屬私法上的勞務契約。\n❌ (D) 招標有法定程序，但購買辦公用品所簽的是私法買賣契約。\n📚 出處：《行政程序法》第135條、[司法院釋字第348號——公費生行政契約](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310529)"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "為了防止危害公共秩序，室外集會、遊行如未經事先申請即違反法律",
     "維護兒少身心健全發展，性言論與情色資訊傳布須受法律限制"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 為保護兒少，法律得在必要範圍內限制情色資訊的傳布方式，例如限制兒少接觸。限制仍須符合比例原則。\n❌ (A) 出版自由受憲法保障，不能只因內容可能違法，就要求所有著作事前送審。\n❌ (B) 網路上的公開言論符合侮辱或誹謗的法定要件時，仍可能成立犯罪。\n❌ (C) 緊急性、偶發性集會遊行不受事前許可要求拘束。\n📚 出處：《憲法》第11、23條、[司法院釋字第617號](https://www.judicial.gov.tw/tw/cp-1429-73907-2f14e-1.html)、[釋字第718號](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310899)"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "從輕從舊原則",
     "微罪不舉原則"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 散布猥褻物品罪要求所散布的影像具有猥褻性。依題意，檢察官認定照片雖有裸露，仍未達猥褻程度，因此欠缺犯罪構成要件。\n❌ (A) 不告不理限制法院審判未經起訴的案件，與照片性質無關。\n❌ (C) 從舊從輕處理行為後法律變更時的新舊法選擇。\n❌ (D) 微罪不舉以行為已構成犯罪為前提，再考量情節是否輕微。\n📚 出處：[《刑法》第235條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)、[司法院釋字第617號](https://www.judicial.gov.tw/tw/cp-1429-73907-2f14e-1.html)"
   },
   {
    "n": 21,
@@ -286,7 +306,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "行政院院長",
     "法務部部長"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 死刑判決確定後，依法仍須經司法行政最高機關令准。這項權限由法務部部長行使。\n❌ (A) 審判長主持案件審判，判決確定後的執行令准另有權責機關。\n❌ (B) 最高檢察署檢察總長雖有提起非常上訴的職權，並無死刑令准權。\n❌ (C) 行政院院長綜理行政院政務，法律未授予其此項令准權。\n📚 出處：[《刑事訴訟法》第461條](https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=461&pcode=C0010001)"
   },
   {
    "n": 22,
@@ -299,7 +320,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "考量消費者處於資訊劣勢，消費者保護法要求業者負資訊揭露的義務",
     "消費者保護法的主管機關為消費者保護基金會，可以處理民眾的消費糾紛"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 業者掌握商品或服務的資訊，依法應向消費者提供充分、正確的資訊，使其能判斷是否交易及如何使用。\n❌ (A) 百貨公司出售的現金禮券不得記載使用期限，超過半年也一樣。\n❌ (B) 七日解除權原則上適用於通訊或訪問交易，一般實體門市購物沒有此法定權利。\n❌ (D) 消基會是民間團體，主管機關是中央目的事業主管機關及地方政府。\n📚 出處：[《消費者保護法》第4、6、19條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0170001)、[商品（服務）禮券不得記載事項第1點](https://gcis.nat.gov.tw/mainNew/matterAction.do?fileNo=t00043_p&method=showFile)"
   },
   {
    "n": 23,
@@ -312,7 +334,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "許多公益團體與群眾上街頭進行抗議，是集會遊行自由的表現",
     "幸福國政府為維護立場而施壓該公司，屬遊說法規範的遊說行為"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公益團體與群眾一起走上街頭，公開表達對公司決策的抗議，是以集體行動行使集會遊行自由。\n❌ (A) 公開發表政治主張主要是行使言論自由，憲法所列參政權包括選舉、罷免等。\n❌ (B) 公司自行宣布停業，僅憑群眾抗議無法認定其營業自由遭違法侵害。\n❌ (D) 遊說是向法定被遊說者表達意見以影響政策，題中施壓的對象是私人公司。\n📚 出處：[《憲法》第11、14、17條](https://www.president.gov.tw/Page/94)、《遊說法》第2條"
   },
   {
    "n": 24,
@@ -325,7 +348,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "因應個別案件差異極大，故法條不應設定刑罰範圍",
     "若法條未設處罰規定者，需要立法機關儘快修法填補漏洞"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 某行為欠缺處罰明文時，法院不能自行補罰。若立法機關認為有處罰必要，須先制定或修正法律，才能處罰生效後的行為。\n❌ (A) 單純不知法律原則上不能免責，法律另有正當理由且無法避免的例外。\n❌ (B) 習慣法不能作為創設犯罪或刑罰的依據。\n❌ (C) 法律應明定刑罰範圍，讓人民可以預見行為的法律後果。\n📚 出處：[《刑法》第1、16條——罪刑法定與禁止溯及既往](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)"
   },
   {
    "n": 25,
@@ -338,7 +362,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "平等原則",
     "保護原則"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 民眾質疑的是，面對言語與動作挑釁，有無必要限制人身自由到這種程度。警察應在能達成目的的方法中，選擇侵害最小者。\n❌ (A) 法律優位要求行政行為不得牴觸法律，未直接指出手段是否過度。\n❌ (C) 平等原則著重有無不合理的差別待遇，題中未比較不同人的待遇。\n❌ (D) 保護人民是警察的任務，衡量執法強度則須運用比例原則。\n📚 出處：[《警察職權行使法》第3條——比例原則](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0080145)"
   },
   {
    "n": 26,
@@ -351,7 +376,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "檢察總長同意",
     "依法提起上訴，經終局判決確定"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 老王須依法用盡可利用的通常審級救濟，取得不利的確定終局裁判。若認為該裁判或所適用的法規範違憲，才可向憲法法庭聲請審查。\n❌ (A) 非常上訴是非常救濟程序，並非聲請前必經的審級。\n❌ (B) 國家賠償處理損害填補，與用盡審級救濟不同。\n❌ (C) 符合法定要件的當事人可以自行聲請，無須取得檢察總長同意。\n📚 出處：[《憲法訴訟法》第59條——人民聲請憲法審查](https://cons.judicial.gov.tw/docdata.aspx?fid=35&page=1)"
   },
   {
    "n": 27,
@@ -364,7 +390,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "對出口較有利",
     "進口商品變貴"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 外資流入後，投資人賣出外幣、買入新臺幣。在自由浮動匯率下，其他條件不變時，新臺幣需求增加而升值。\n❌ (B) 若流入的是日圓，投資人換匯會增加市場上的日圓供給。\n❌ (C) 出口品的新臺幣售價若不變，外國買家要付更多外幣，通常不利出口。\n❌ (D) 同價的外國商品可用較少新臺幣買到，進口成本下降。\n📚 出處：國際經濟——資本流動、外匯供需與浮動匯率"
   },
   {
    "n": 28,
@@ -377,7 +404,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "政府提高較高所得者的所得稅率",
     "規定房價上限藉以實踐居住正義"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 普及基本教育使弱勢兒童也有受教機會，促進機會公平。教育還能提高勞動生產力，讓社會一同受益，兼顧效率。\n❌ (B) 油價凍漲會削弱價格傳達稀缺性的功能，也減少節油誘因。\n❌ (C) 提高高所得者稅率有助所得重分配，但也可能影響工作與投資誘因。\n❌ (D) 若房價上限低於均衡價格，可能造成短缺，影響資源配置。\n📚 出處：公共經濟學——效率與公平、教育的外部效益"
   },
   {
    "n": 29,
@@ -390,7 +418,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "彰化市、羅東鎮",
     "臺中市大甲區、新北市烏來區"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 彰化市是彰化縣的縣轄市，羅東鎮隸屬宜蘭縣。縣轄市與鎮都在縣之下，同屬鄉、鎮、市層級。\n❌ (A) 桃園市是直轄市，新竹市是與縣同級的市。\n❌ (B) 花蓮市是縣轄市，嘉義市則與縣同級。\n❌ (D) 大甲區是一般行政區，烏來區是有地方自治團體地位的直轄市山地原住民區。\n📚 出處：[《地方制度法》第3、14、83條之2](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003)"
   },
   {
    "n": 30,
@@ -403,7 +432,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "供給減少、需求增加，故均衡價格下降",
     "供給增加、需求減少，故均衡數量減少"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 果園老化與病蟲害使供給曲線左移，各國搶購使需求曲線右移。兩種變化都推高均衡價格。\n❌ (B) 供給減少使均衡數量下降，需求增加使其上升，最終數量須看兩者變動幅度。\n❌ (C) 原價格下買方想買更多、賣方能供應的更少，短缺會推升價格。\n❌ (D) 減產代表供給減少，搶購代表需求增加，兩個方向都寫反了。\n📚 出處：市場供需——供需曲線同時移動與均衡變化"
   },
   {
    "n": 31,
@@ -416,7 +446,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "維持公平交易",
     "保障私有財產"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 路跑參加者享受活動，粉末污染的成本卻由周邊居民等第三人承擔，形成負外部效果。政府開罰可提高主辦單位防治污染的誘因。\n❌ (A) 提供公共財是供給國防等服務，開罰屬污染管制。\n❌ (C) 維持公平交易處理聯合壟斷、欺罔等市場交易問題。\n❌ (D) 保障私有財產著重所有權，題中裁罰針對活動造成的環境污染。\n📚 出處：市場失靈——負外部效果與政府管制"
   },
   {
    "n": 32,
@@ -429,7 +460,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "循環性失業",
     "自願性失業"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 畢業生初次進入勞動市場，從開始找工作到找到合適職缺需要時間。這段由求職與職缺媒合產生的空窗屬摩擦性失業。\n❌ (B) 結構性失業源於技能或地區與職缺長期不符，題中沒有這項線索。\n❌ (C) 循環性失業源於景氣衰退、整體勞動需求下降。\n❌ (D) 畢業生正在尋職，不能僅因尚未就業就認定其自願失業。\n📚 出處：勞動市場——摩擦性、結構性與循環性失業"
   },
   {
    "n": 33,
@@ -455,7 +487,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "人力資本",
     "社會資本"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 慈善捐助促成人與團體間的合作，也可能累積互信、互惠規範與社會網絡。這些有助共同辦事的關係資源稱為社會資本。\n❌ (A) 企業才能在於整合生產要素、創新並承擔經營風險。\n❌ (B) 人造資本指機器、廠房等生產設備，捐出股票本身並未增加設備。\n❌ (C) 人力資本指個人的知識、技能或健康，題中未指明投入教育或訓練。\n📚 出處：經濟發展——社會資本、人力資本與實體資本"
   },
   {
    "n": 35,
@@ -468,7 +501,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "科層體制",
     "再生產勞動"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 工人為維持生計而受僱，卻不能支配自己的勞動過程與產品，甚至要花錢買回自己製造的商品。馬克思以「異化」描述這種疏離關係。\n❌ (B) 霍桑效應指人因知道自己受到觀察而改變行為。\n❌ (C) 科層體制是依層級、分工與明文規則運作的組織形式。\n❌ (D) 再生產勞動包括照顧、家務等維持日常生活與勞動力的工作。\n📚 出處：馬克思的勞動理論——異化勞動與勞動產品"
   },
   {
    "n": 36,
@@ -481,7 +515,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "risking",
     "making"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「risk their lives」指冒生命危險。這些人為了更好的生活渡海，航程帶來的危險正好解釋為何用「risking」。\n❌ (A) 「spend their lives」指把一生花在某件事上，重點在時間。\n❌ (B) 「take a life」指奪走生命，與冒險求生的語意不同。\n❌ (D) 「make a living」是謀生，「making their lives」無法表達冒險。\n📚 出處：英語動詞搭配——「risk one's life」"
   },
   {
    "n": 37,
@@ -494,7 +529,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "agreeing",
     "conducting"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「argue that」可指提出理由、主張某種看法。兩黨各自主張自己的政策更符合民眾需要，符合句中比較的語氣。\n❌ (A) 「conceal」指隱瞞，與公開強調政策優點的語意不合。\n❌ (C) 「agree that」表示對同一判斷達成共識，無法表達雙方各自爭辯。\n❌ (D) 「conduct」指執行，通常接受詞，如「conduct a survey」（進行調查）。\n📚 出處：英語動詞用法——「argue that」表達主張"
   },
   {
    "n": 38,
@@ -507,7 +543,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "protected",
     "scored"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「frightened」意為「嚇到」。巨大的雷聲嚇到了嬰兒，使他放聲大哭，前後有清楚的因果關係。\n❌ (B) 「brightened」指使明亮或使心情愉快，無法解釋嬰兒因雷聲而哭。\n❌ (C) 「protected」意為保護，句中沒有雷聲使嬰兒免受危害的線索。\n❌ (D) 「scored」常指得分，不能用來描述雷聲引起的恐懼。\n📚 出處：英語情緒動詞——「frighten」與因果語境"
   },
   {
    "n": 39,
@@ -520,7 +557,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "lacking",
     "removing"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「Would you mind」後接動名詞，「sign a petition」指簽署請願書。整句是在禮貌詢問對方是否願意連署支持環保。\n❌ (B) 「feeding」指餵食，請願書不是可餵食的對象。\n❌ (C) 「lacking」指缺少，不能表示在請願書上表達支持。\n❌ (D) 「removing」指移除，將請願書移走與連署的目的不同。\n📚 出處：英語請求句型「Would you mind＋動名詞」與「sign a petition」"
   },
   {
    "n": 40,
@@ -533,7 +571,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "odorous",
     "tactile請依下文回答第 41 題至第 45 題：About 20 minutes west of Quebec City in Canada, there is a unique place—the only hotel in North America made"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「visual」意為視覺的。朋友透過觀看社群網站的大頭照形成對你的印象，因此照片是個人形象的視覺呈現。\n❌ (B) 「auditory」指聽覺的，適合描述聲音。\n❌ (C) 「odorous」指有氣味的，照片並非透過嗅覺傳遞形象。\n❌ (D) 「tactile」指觸覺的，例如用手感受到物體的質地。\n📚 出處：英語感官形容詞——「visual、auditory、odorous、tactile」"
   },
   {
    "n": 41,
@@ -548,7 +587,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109070_901_0205_41.webp"
+   "fig": "img/q/109070_901_0205_41.webp",
+   "exp": "✅ (C) 「This」指前句所說的室內比室外暖。接下來提到牆厚達120公分，因此用「because of the walls」說明原因。\n❌ (A) 「according to」指「根據」，用來交代消息或判斷的依據。\n❌ (B) 「in addition to」指「除了……之外還有」，用來增加項目。\n❌ (D) 「on behalf of」指「代表」，通常用於代表某人或團體行事。\n📚 出處：英語原因介系詞片語——「because of＋名詞」"
   },
   {
    "n": 42,
@@ -563,7 +603,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109070_901_0205_42.webp"
+   "fig": "img/q/109070_901_0205_42.webp",
+   "exp": "✅ (A) 「120 centimeters thick」就是「120公分厚」。英文描述尺寸時，可用「數量＋單位＋形容詞」，此處的「thick」說明牆的厚度。\n❌ (B) 「thickness」是名詞，須改用「120 centimeters in thickness」。\n❌ (C) 「thickening」表示增厚的過程，句中只在陳述尺寸。\n❌ (D) 「thickly」是副詞，不能在此充當描述牆壁尺寸的形容詞。\n📚 出處：英語度量句型——「數量＋單位＋形容詞」"
   },
   {
    "n": 43,
@@ -578,7 +619,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109070_901_0205_43.webp"
+   "fig": "img/q/109070_901_0205_43.webp",
+   "exp": "✅ (C) 「Even the drinking glasses」意為「連喝水的杯子都……」。前文已提到冰地板和冰雕，作者再舉冰杯，強調這個令人意外的例子。\n❌ (A) 「But」表示轉折，冰杯與前面的冰製物品沒有相反關係。\n❌ (B) 「Despite」意為「儘管」，是介系詞，不能直接引介此處的完整子句。\n❌ (D) 「However」表示「然而」，也無法表達「連……都」的遞進語氣。\n📚 出處：英語焦點副詞——「even」強調出乎意料的例子"
   },
   {
    "n": 44,
@@ -593,7 +635,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109070_901_0205_44.webp"
+   "fig": "img/q/109070_901_0205_44.webp",
+   "exp": "✅ (C) 旅客睡在睡袋「裡面」，所以用「in a cozy sleeping bag」。後面的「on a mattress」則說明睡袋和人都在床墊上。\n❌ (A) 「about」可表示「關於」或「大約」，無法表達睡在袋內。\n❌ (B) 「at」常把地點視為一個位置，不能表現睡袋包住身體的關係。\n❌ (D) 「until」表示「直到某個時間」，睡袋不是時間終點。\n📚 出處：英語位置介系詞——「in」表內部與「on」表接觸面"
   },
   {
    "n": 45,
@@ -608,7 +651,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109070_901_0205_45.webp"
+   "fig": "img/q/109070_901_0205_45.webp",
+   "exp": "✅ (A) 「at least one night」指「至少一晚」，設定住宿天數的下限。前面的「more than 4,000」說的是人數，兩個數量各有修飾語。\n❌ (B) 「at once」意為立刻或同時，無法修飾一晚以表示最低天數。\n❌ (C) 「at hand」意為在手邊或即將到來，與住宿長短無關。\n❌ (D) 「at present」意為目前，與句首表示過去的時間不合。\n📚 出處：英語數量片語——「at least」表示下限"
   },
   {
    "n": 46,
@@ -622,7 +666,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "Learning Determines Personality"
    ],
    "psg": "For hundreds of years, psychologist and ordinary people have never stopped debating this fascinating question. Some people think personality develops as a result of the environment—the combination of influences that we learn from, such as our families, our culture, our friends, and our education. The people who believe this theory believe that all babies are born without a personality and that it’s the environment that determines, or forms each child’s personality. This school of thought is called the “nurture school.” At the other end of the continuum we find people who believe that personality is determined by “nature,” or the characteristics we receive, or “inherit,” from our parents biologically, through their genes. These people believe that our personality is not determined by the environment, but rather by genetics, and that each baby is born with a personality. The nature-nurture controversy is very old. Experimental psychologists have tried to discover which of these two factors, genetics or the environment, is more important in forming our personality. However, it’s very difficult, if not impossible, to conduct research on real people with real lives. There’s just no way to put people in a laboratory and watch them develop. For this reason, there’s no scientific way to settle the nature-nurture controversy. Recently, however, most researchers have come to believe that both the environment and the genes —nurture and nature—work together and are both important.",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 文章先說明後天環境論與先天遺傳論，再介紹兩者共同作用的觀點。「人格：先天還是後天？」能涵蓋整篇討論。\n❌ (B) 「什麼是人格？」著重定義，文章探討的是人格如何形成。\n❌ (C) 「從父母遺傳的人格」只涵蓋先天遺傳論。\n❌ (D) 「學習決定人格」只反映後天環境論，遺漏另一派與文末結論。\n📚 出處：英語閱讀——從各段論點與結論選擇全文標題"
   },
   {
    "n": 47,
@@ -636,7 +681,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "Because researchers can’t keep people in a lab and observe them grow."
    ],
    "psg": "For hundreds of years, psychologist and ordinary people have never stopped debating this fascinating question. Some people think personality develops as a result of the environment—the combination of influences that we learn from, such as our families, our culture, our friends, and our education. The people who believe this theory believe that all babies are born without a personality and that it’s the environment that determines, or forms each child’s personality. This school of thought is called the “nurture school.” At the other end of the continuum we find people who believe that personality is determined by “nature,” or the characteristics we receive, or “inherit,” from our parents biologically, through their genes. These people believe that our personality is not determined by the environment, but rather by genetics, and that each baby is born with a personality. The nature-nurture controversy is very old. Experimental psychologists have tried to discover which of these two factors, genetics or the environment, is more important in forming our personality. However, it’s very difficult, if not impossible, to conduct research on real people with real lives. There’s just no way to put people in a laboratory and watch them develop. For this reason, there’s no scientific way to settle the nature-nurture controversy. Recently, however, most researchers have come to believe that both the environment and the genes —nurture and nature—work together and are both important.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 作者說研究者無法把人長期置於實驗室，觀察其成長發展。緊接的「For this reason」指出，這項研究限制使爭議難以定論。\n❌ (A) 文章沒有把研究困難歸因於經費不足。\n❌ (B) 文章提到學派意見不同，沒有說研究者的偏見阻礙研究。\n❌ (C) 嬰兒出生時沒有人格是後天論的立場，並非研究難以進行的原因。\n📚 出處：英語閱讀——因果連接語「For this reason」的指涉"
   },
   {
    "n": 48,
@@ -650,7 +696,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "The world around us."
    ],
    "psg": "For hundreds of years, psychologist and ordinary people have never stopped debating this fascinating question. Some people think personality develops as a result of the environment—the combination of influences that we learn from, such as our families, our culture, our friends, and our education. The people who believe this theory believe that all babies are born without a personality and that it’s the environment that determines, or forms each child’s personality. This school of thought is called the “nurture school.” At the other end of the continuum we find people who believe that personality is determined by “nature,” or the characteristics we receive, or “inherit,” from our parents biologically, through their genes. These people believe that our personality is not determined by the environment, but rather by genetics, and that each baby is born with a personality. The nature-nurture controversy is very old. Experimental psychologists have tried to discover which of these two factors, genetics or the environment, is more important in forming our personality. However, it’s very difficult, if not impossible, to conduct research on real people with real lives. There’s just no way to put people in a laboratory and watch them develop. For this reason, there’s no scientific way to settle the nature-nurture controversy. Recently, however, most researchers have come to believe that both the environment and the genes —nurture and nature—work together and are both important.",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 題目問後天論「不會」列入哪個因素。「genes」是與生俱來的基因，文中將它歸入先天遺傳論。\n❌ (A) 父母的教養與互動是家庭環境的一部分，符合後天論。\n❌ (C) 教育是文章明列的後天學習來源。\n❌ (D) 周遭世界包括文化、朋友等環境影響，正是後天論所強調的因素。\n📚 出處：英語閱讀——否定問句「NOT」與先天、後天因素辨識"
   },
   {
    "n": 49,
@@ -664,7 +711,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "Each baby is born without a personality."
    ],
    "psg": "For hundreds of years, psychologist and ordinary people have never stopped debating this fascinating question. Some people think personality develops as a result of the environment—the combination of influences that we learn from, such as our families, our culture, our friends, and our education. The people who believe this theory believe that all babies are born without a personality and that it’s the environment that determines, or forms each child’s personality. This school of thought is called the “nurture school.” At the other end of the continuum we find people who believe that personality is determined by “nature,” or the characteristics we receive, or “inherit,” from our parents biologically, through their genes. These people believe that our personality is not determined by the environment, but rather by genetics, and that each baby is born with a personality. The nature-nurture controversy is very old. Experimental psychologists have tried to discover which of these two factors, genetics or the environment, is more important in forming our personality. However, it’s very difficult, if not impossible, to conduct research on real people with real lives. There’s just no way to put people in a laboratory and watch them develop. For this reason, there’s no scientific way to settle the nature-nurture controversy. Recently, however, most researchers have come to believe that both the environment and the genes —nurture and nature—work together and are both important.",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 先天論認為人格受父母遺傳的基因決定。因此依文中這一派的看法，每個嬰兒出生時就已具有人格。\n❌ (A) 主張環境決定人格的是後天論。\n❌ (B) 此項否定遺傳的決定作用，與先天論的主張相反。\n❌ (D) 嬰兒出生時尚無人格，是第一段介紹的後天論觀點。\n📚 出處：英語閱讀——辨識「nature」學派的觀點"
   },
   {
    "n": 50,
@@ -678,7 +726,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raic002'] = {
     "The environment and the genes are both crucial."
    ],
    "psg": "For hundreds of years, psychologist and ordinary people have never stopped debating this fascinating question. Some people think personality develops as a result of the environment—the combination of influences that we learn from, such as our families, our culture, our friends, and our education. The people who believe this theory believe that all babies are born without a personality and that it’s the environment that determines, or forms each child’s personality. This school of thought is called the “nurture school.” At the other end of the continuum we find people who believe that personality is determined by “nature,” or the characteristics we receive, or “inherit,” from our parents biologically, through their genes. These people believe that our personality is not determined by the environment, but rather by genetics, and that each baby is born with a personality. The nature-nurture controversy is very old. Experimental psychologists have tried to discover which of these two factors, genetics or the environment, is more important in forming our personality. However, it’s very difficult, if not impossible, to conduct research on real people with real lives. There’s just no way to put people in a laboratory and watch them develop. For this reason, there’s no scientific way to settle the nature-nurture controversy. Recently, however, most researchers have come to believe that both the environment and the genes —nurture and nature—work together and are both important.",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 題目的「nowadays」對應文末的「Recently」。作者指出，多數研究者認為基因與環境共同作用，兩者對人格發展都很重要。\n❌ (A) 「black and white」暗指非此即彼，與兩者共同作用的結論不合。\n❌ (B) 文末未主張環境比基因更重要。\n❌ (C) 文末也未將先天遺傳置於後天環境之上。\n📚 出處：英語閱讀——以時間提示詞定位作者引述的最新觀點"
   }
  ]
 };
