@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "社會運動是有組織的集體行動",
     "社會運動是具有目標的行動"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 遊行由執政黨發起，再動員學生參加，缺少民眾由下而上自主集結的特性。\n❌ (A) 學生齊喊效忠領袖的口號，活動已表達共同立場。\n❌ (C) 政黨安排群眾遊行並通過主席臺，顯然經過組織。\n❌ (D) 展示對領袖的忠誠，就是這場遊行的明確目標。\n📚 出處：公民與社會・社會運動的特性與政治動員"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "集體人權",
     "社會人權"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題述禁令以性別限制個人行動。要求國家停止這種干涉，屬於消極人權所保障的自由。\n❌ (B) 積極人權著重要求國家採取行動或提供給付。\n❌ (C) 集體人權由群體共同享有，例如民族自決權；本題受限的是個人駕駛的自由。\n❌ (D) 社會人權著重工作、社會保障等基本生活條件。\n📚 出處：公民與社會・消極人權、積極人權與集體人權"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "少年前科紀錄塗銷，可以避免標籤作用、使其改過自新",
     "基於民眾知的權利，媒體報導可揭露少年刑事被告資訊"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 符合法定條件後，法院應通知保存機關塗銷少年前科等資料，避免紀錄持續影響少年就學、就業。\n❌ (A) 本法所稱少年為十二歲以上、未滿十八歲之人。\n❌ (B) 少年刑事案件依法得不公開審判。\n❌ (D) 媒體不得揭露足以使讀者辨認涉案少年的資料。\n📚 出處：[《少年事件處理法》第2、73、83、83條之1](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011)"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "主張私人利益必須建立在完善的公共利益基礎上",
     "公共利益如果被充分滿足，私人利益將自然實現"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 麵包匠想賺取收入，就得供應顧客願意購買的麵包。亞當・斯密藉此說明，自利可透過市場交換滿足他人需要。\n❌ (B) 引文探討供需雙方的交換動機，沒有討論政府如何制定政策。\n❌ (C) 業者可以從自身利益出發，無須先有完善的公共利益。\n❌ (D) 此項把因果倒置，引文從追求私利說起。\n📚 出處：亞當・斯密《國富論》第一篇第二章「論分工的起源」"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "共有財的悲歌",
     "「搭便車」問題"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 居民擔心社會住宅蓋在自家附近會影響房價，因而反對選址，這是鄰避效應。\n❌ (B) 題目指出具體反對理由，並非缺少參與政策的獎勵。\n❌ (C) 共有財的悲歌指個人過度取用共享資源，造成資源耗損。\n❌ (D) 搭便車指享受他人付費或出力提供的利益，自己卻不分擔成本。\n📚 出處：公民與社會・公共設施選址與鄰避效應"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "透過「媒體再現」加工編輯製播新聞",
     "透過「第四權」的角色報導評論事實"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 報紙把參選的女教授稱為「女校長」，又把「敗訴」放大、「可求國賠」放在次位。稱謂與編排都會影響讀者理解，屬於媒體再現。\n❌ (A) 置入性行銷須把宣傳內容融入報導，題中未見此安排。\n❌ (B) 媒體使用權著重民眾使用媒體表達意見的機會。\n❌ (D) 第四權著重媒體監督公權力，無法說明這個標題如何形成。\n📚 出處：媒體識讀・媒體再現與新聞編輯"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "多元文化論",
     "文明進化論"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 新聞稿以本國生活方式為標準，要求婚姻移民單向適應，又把適應不良與社會問題連結，反映我族中心論。\n❌ (B) 文化多樣性描述不同文化並存的現象。\n❌ (C) 多元文化論重視平等尊重差異，包含接納移民原有的文化。\n❌ (D) 文明進化論以發展階段排列社會，題文沒有提出階段或演進次序。\n📚 出處：公民與社會・我族中心論與多元文化"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "社會主義",
     "社群論"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 政府以減少多數人的恐慌為主要理由，即使少數居民承受負擔仍採此方案，符合按整體後果衡量政策的效益主義。\n❌ (B) 羅爾斯的正義論重視基本自由與最不利者的處境。\n❌ (C) 社會主義關切生產資源的控制及分配，本題未涉及所有權。\n❌ (D) 社群論重視共同體的價值與傳統，題中考量的是受影響的人數。\n📚 出處：公民與社會・效益主義與分配正義"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "訴訟外的和解",
     "訴訟上的和解"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 小陳願付醫藥費，老王同意不提告，雙方在起訴前自行讓步、終止爭執，屬訴訟外和解。\n❌ (A) 好友勸說不等於法院主持的調解程序。\n❌ (B) 仲裁由仲裁人作成判斷，本案由雙方自行決定條件。\n❌ (D) 訴訟上和解須已有訴訟，並在法院程序中成立。\n📚 出處：[《民法》第736條「和解」](https://mojlaw.moj.gov.tw/LawContentExtent.aspx?LSID=fl001351&LawNo=736&media=print)"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "政治責任",
     "民事責任"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 休職是對公務員違反職務義務的懲戒，屬行政責任。休職兩年落在法定的六個月至三年之內。\n❌ (B) 刑事責任以構成犯罪為前提，休職並非刑罰。\n❌ (C) 政治責任指對施政成敗負責，例如政務官因政策失敗請辭。\n❌ (D) 民事責任例如賠償受害人的損失，與休職效果不同。\n📚 出處：[《公務員懲戒法》第9、14條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030155)"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "行政中立",
     "誠信原則"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 公務機關對各黨派一律禁止競選造訪，避免候選人利用辦公場所助選，落實行政中立。\n❌ (A) 分權制衡指不同國家機關分掌權力、彼此監督。\n❌ (B) 社會正義關心權利、機會及資源如何公平分配。\n❌ (D) 誠信原則要求守信行事，題中告示處理的是公務與競選活動的界線。\n📚 出處：[《公務人員行政中立法》第13條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036)"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "高雄市列為直轄市層級，因此並不屬於地方自治團體",
     "「省」雖已虛級化，但高雄市自治事項仍受省政府監督"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 直轄市得就自治事項制定自治條例，以地方規範管理公有市場，是地方自治的具體例子。\n❌ (A) 自治條例依規定辦理核定或備查，無須立法院追認。\n❌ (C) 直轄市本身就是地方自治團體。\n❌ (D) 高雄市是直轄市，其自治事項不受省政府監督。\n📚 出處：[《地方制度法》第14、18、25、26條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003)"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "主張國家利益的維護，是積極保障個人自由之基礎",
     "政府應重視弱勢族群照顧，維持資源分配之公平正義"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 自由主義以個人為權利主體，要求政府保障基本權利，並限制公權力介入個人生活的範圍。\n❌ (A) 控制物價及失業著重政府調節經濟。\n❌ (C) 把國家利益置於個人自由之前，偏離自由主義保障個人權利的出發點。\n❌ (D) 照顧弱勢著重分配正義，較難直接表達各派自由主義共同重視的個人自由。\n📚 出處：政治學・自由主義的個人權利與有限政府"
   },
   {
    "n": 14,
@@ -208,7 +221,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "立法權監督行政權，總統須至國會報告並且接受質詢",
     "部會首長由國會議員兼任，政府穩定且政策較為持續"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 美國總統與國會各有選舉授權，分掌行政、立法權，分別向選民負責。\n❌ (B) 美國沒有總理，總統行使職權也沒有題述的內閣副署制度。\n❌ (C) 總統有向國會報告國情的職責，但無須像內閣制首長般到國會接受質詢。\n❌ (D) 現任國會議員不得同時擔任聯邦行政官職。\n📚 出處：《美國憲法》第1條第6款、第2條第1款及第3款「分權與總統職權」"
   },
   {
    "n": 16,
@@ -221,7 +235,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "頂樓加蓋的違章建築",
     "工地施工時工人休息用的貨櫃屋"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 工地暫供休息的貨櫃屋，依題意可隨工程搬移，未固定成為土地定著物，屬動產。\n❌ (A) 橋梁為持續使用而固定於土地，屬不動產。\n❌ (B) 蘋果在採下前是未分離的天然孳息，仍屬不動產的一部分。\n❌ (C) 固定於屋頂的增建物不因違反建築規定而成為動產。\n📚 出處：[《民法》第66、67條「不動產與動產」](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001)"
   },
   {
    "n": 17,
@@ -234,7 +249,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "要求公共場所設置無障礙空間，方便身心障礙者通行",
     "公營事業民營化以提高經濟效率，減少政府財政負擔"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 民營化將事業經營交由民間，期待透過市場競爭提高效率，最接近古典自由主義的經濟主張。\n❌ (A) 強制納保著重由國家分攤人民的健康風險。\n❌ (B) 高價收購是政府直接干預價格，以保障農民所得。\n❌ (C) 強制設置無障礙空間著重實質平等與公共規範。\n📚 出處：政治學・古典自由主義與政府的經濟角色"
   },
   {
    "n": 18,
@@ -247,7 +263,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "褫奪公權",
     "追繳"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 《刑法》第36條明定從刑為褫奪公權，內容包括剝奪擔任公務員及公職候選人的資格。\n❌ (A) 現行刑法將沒收列為獨立的法律效果。\n❌ (B) 抵償是以財物等抵付應負擔的金額，並非法定刑罰種類。\n❌ (D) 追繳著重追回財物，並非刑法列舉的從刑。\n📚 出處：[《刑法》第32、33、36條及第5章之1「沒收」](https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424)"
   },
   {
    "n": 19,
@@ -260,7 +277,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "法務部",
     "高等行政法院"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 死刑執行依法須經司法行政最高機關令准，我國辦理此項業務的機關是法務部。\n❌ (A) 最高法院負責終審裁判，裁判確定與令准執行是不同職權。\n❌ (B) 司法院掌理審判等司法事務，沒有死刑執行的令准權。\n❌ (D) 高等行政法院審理行政爭訟，無此刑事執行職權。\n📚 出處：[《刑事訴訟法》第461條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001)"
   },
   {
    "n": 20,
@@ -273,7 +291,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "遭褫奪公權者，仍具有投票權",
     "沒收，必須依附主刑始可宣告"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「必須依附主刑」有誤。現行刑法容許單獨宣告沒收，例如違禁物即得單獨宣告沒收。\n❌ (A) 主刑可以單獨宣告，這項敘述正確。\n❌ (B) 罰金是以財產為處罰對象的主刑，列於刑法第33條。\n❌ (C) 褫奪公權影響擔任公務員及公職候選人的資格，投票權仍保留。\n📚 出處：[《刑法》第33、36、40條](https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424)"
   },
   {
    "n": 21,
@@ -286,7 +305,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "①③④",
     "①②③"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 阿勇為婚禮消費，①餅店、③酒店、④攝影工作室均以提供商品或服務為業，三筆交易都適用消保法。\n❌ (A) 多列②，題中僅見鄰居偶爾受託製糖，未見以此為業。\n❌ (B) 誤列②，也漏列向餅店購買喜餅的①。\n❌ (D) 誤列②且漏列④，個人經營工作室也可以是企業經營者。\n📚 出處：[《消費者保護法》第2條「消費者、企業經營者與消費關係」](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0170001)"
   },
   {
    "n": 22,
@@ -299,7 +319,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "應報理論",
     "刑法謙抑思想"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 刑法謙抑思想主張刑罰應是最後手段。行為即使受道德譴責，也要另行判斷國家是否有必要動用刑罰。\n❌ (A) 罪刑法定要求犯罪與刑罰有法律明文依據。\n❌ (B) 特別預防著重防止同一行為人再犯。\n❌ (C) 應報理論著重依行為人應受責難的程度給予相稱刑罰。\n📚 出處：刑法總則・刑法謙抑性與刑罰的最後手段性"
   },
   {
    "n": 23,
@@ -325,7 +346,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "個人濫用言論自由會妨礙社會發展，故言論自由應接受國家事前審查",
     "玩笑話亦屬言論自由，且證實沒有炸彈，航警沒有正當理由留置少女"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 人身自由受憲法保障。依題設，航警依法律授權及程序限制少女行動，符合法律保留原則。\n❌ (B) 僅因行程受阻，不能據此認定公務員違法侵害權利而成立國賠。\n❌ (C) 特定言論可能依法負責，不能因此主張一切言論均須事前審查。\n❌ (D) 散布危害飛航安全的不實訊息本身就可能違法，查無危險物仍可依法調查。\n📚 出處：《憲法》第8、23條；[《民用航空法》第105條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=K0090001)"
   },
   {
    "n": 25,
@@ -338,7 +360,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "基於契約自由原則，醫療院所可以拒絕為酒醉病患提供診療服務",
     "網友公開甲住家地址，可能會侵害甲的秘密通訊自由"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 就普通傷害罪而言，須告訴乃論，醫師可決定是否提出告訴。另涉妨害醫療業務時，應分別判斷。\n❌ (A) 社會關注不影響雙方就損害賠償達成和解。\n❌ (C) 醫療院所對危急病人負有急救義務，不能僅以酒醉為由拒診。\n❌ (D) 公開住址主要涉及隱私與個人資料，秘密通訊自由保障的是通訊秘密。\n📚 出處：[《刑法》第277、287條](https://mojlaw.moj.gov.tw/LawContent.aspx?LSID=fl001424)、[《醫療法》第60、106條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020021)"
   },
   {
    "n": 26,
@@ -351,7 +374,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "法律保留原則",
     "法律優位原則"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 市府既給業者期限自行拆除，卻提前強拆，前後行為矛盾，可能違反誠實信用原則。\n❌ (A) 比例原則檢驗手段是否適當、必要及衡平，題目著重政府是否遵守已給的期限。\n❌ (C) 法律保留關心強制措施有無法律授權。\n❌ (D) 法律優位要求行政行為不得牴觸法律，題目特別指出的是市府未守期限。\n📚 出處：《行政程序法》第7、8條「比例原則與誠實信用原則」"
   },
   {
    "n": 27,
@@ -364,7 +388,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "提案後需送交立法院的審查委員會來排定議程",
     "立法院三讀通過後送交總統公布即可生效施行"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目問公職選舉。憲法明定選舉年齡為二十歲，依現行制度，下修到十八歲須先修憲。\n❌ (B) 須全體立委四分之三出席，並經出席者四分之三決議。\n❌ (C) 修憲委員會負責審議修正案，排定院會議程屬程序委員會職掌。\n❌ (D) 立法院議決後須公告半年，再由選舉人複決，有效同意票須超過選舉人總額半數。\n📚 出處：《憲法》第130條、[《憲法增修條文》第12條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002)"
   },
   {
    "n": 28,
@@ -377,7 +402,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "臺灣出口至日本的商品會變較貴",
     "日幣升值對日本出口業者較有利"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 日圓相對新臺幣升值，表示換同額日圓要付更多新臺幣。若趨勢持續，大雄提早兌換較省錢。\n❌ (B) 以新臺幣換日圓的成本上升，對赴日旅客較不利。\n❌ (C) 以新臺幣計價的臺灣商品，換算成日圓會變便宜。\n❌ (D) 日本商品若維持日圓售價，外國買家得付更多本國貨幣，不利日本出口。\n📚 出處：經濟學・匯率升貶對旅遊與進出口的影響"
   },
   {
    "n": 29,
@@ -390,7 +416,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "資訊不對稱",
     "公共財悲歌"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 政府已知問題，也曾研擬對策，卻因業者及民代施壓而作罷。政策受利益團體左右，屬政府失靈。\n❌ (A) 供需失衡指特定價格下出現短缺或過剩。\n❌ (C) 資訊不對稱指交易一方掌握較多資訊，題中政策受阻另有明確原因。\n❌ (D) 公共資源因使用過度而耗損，無法解釋利益團體阻礙政策的過程。\n📚 出處：經濟學・公共選擇、利益團體與政府失靈"
   },
   {
    "n": 30,
@@ -403,7 +430,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "均衡價格上升，均衡數量增加",
     "均衡價格上升，均衡數量減少"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 重建使每一價格下的建材需求量增加，需求曲線右移。供給曲線不變時，新均衡的價格與成交量都上升。\n❌ (A) 數量增加正確，但需求增加會推高均衡價格。\n❌ (B) 價格與數量同時下降，符合需求減少的情形。\n❌ (D) 價格上升而數量減少，通常是供給減少所致；題中只指出重建需求增加。\n📚 出處：經濟學・需求曲線移動與市場均衡"
   },
   {
    "n": 31,
@@ -416,7 +444,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "經濟福祉增加",
     "紅豆的進口量會增加"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 若配額低於自由貿易時的進口量，進口受限會推高國內紅豆價格。消費者買得較少、付價較高，消費者剩餘減少。\n❌ (B) 國內生產者可用較高價格出售，生產者剩餘增加。\n❌ (C) 有效配額造成生產與消費的效率損失，整體福祉下降。\n❌ (D) 配額限制可進口的數量，有效配額會使進口量減少。\n📚 出處：經濟學・進口配額與經濟剩餘"
   },
   {
    "n": 32,
@@ -429,7 +458,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "小張放學幫忙父親賣麵，屬於企業才能",
     "老張調整麵館菜色，屬於勞動"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 桌椅是人造設備，可反覆用來提供餐飲服務，屬於生產要素中的實物資本。\n❌ (A) 勞動指人付出的體力或心力，店面是營業場所。\n❌ (C) 小張協助賣麵是提供勞務，題中未提他負責經營決策。\n❌ (D) 老張為吸引客人而決定更換菜色，這項經營決策體現企業才能。\n📚 出處：經濟學・生產要素中的勞動、資本與企業才能"
   },
   {
    "n": 33,
@@ -442,7 +472,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "消費者剩餘增加超過生產者剩餘減少的部分，導致總剩餘增加",
     "生產者剩餘增加超過消費者剩餘減少的部分，導致總剩餘增加"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 開放貿易後，出口國的電腦價格升至高於原國內均衡的世界價格。生產者所得增加超過消費者所失，總剩餘增加。\n❌ (A) 國內生產者可提高售價並擴大產量，其剩餘會增加。\n❌ (B) 價格上升使消費者剩餘減少，也使生產者剩餘增加。\n❌ (C) 消費者獲利、生產者受損，是進口國在國內價格下降時的情形。\n📚 出處：經濟學・自由貿易下出口國的福利效果"
   },
   {
    "n": 34,
@@ -455,7 +486,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "直接管制",
     "課稅"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 政府對違規污染船舶裁罰，並提高違規的代價，是以法規直接約束污染行為。\n❌ (A) 改善資訊不對稱通常透過揭露資訊，題中措施是裁罰。\n❌ (B) 界定財產權須釐清資源的所有或使用權，題中沒有調整權利歸屬。\n❌ (D) 污染稅按課稅規定徵收；本題罰鍰以違反污染管制規定為前提。\n📚 出處：經濟學・負外部性、直接管制與污染稅"
   },
   {
    "n": 35,
@@ -481,7 +513,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "fastened",
     "caught"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「gathered」意為「蒐集」。受詞是大量帳號與密碼組合，搭配「since 2011」表示從那時起累積蒐集的結果。\n❌ (B) 「impacted」意為「影響」，無法表達資料的取得。\n❌ (C) 「fastened」意為「扣緊、固定」，通常用於物品。\n❌ (D) 「caught」常指抓住人或物，與大量資料的累積不搭。\n📚 出處：英語詞彙・蒐集資料的動詞搭配與現在完成式"
   },
   {
    "n": 37,
@@ -494,7 +527,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "escape",
     "celebrate"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「celebrate the New Year」意為「慶祝新年」，後面的潑水節說明泰國人用什麼方式慶祝。\n❌ (A) 「skip」是「跳過」，與整天參加節慶活動矛盾。\n❌ (B) 「apply」是「申請」或「應用」，與新年的語意不搭。\n❌ (C) 「escape」是「逃離」，無法表達過節的意思。\n📚 出處：英語詞彙・節慶活動的動詞搭配"
   },
   {
    "n": 38,
@@ -507,7 +541,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "telegraphs",
     "menus"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目要找能查出生字「意思和用法」的工具。「dictionaries」是字典，可提供釋義和例句。\n❌ (B) 「messages」是訊息，用來傳達內容。\n❌ (C) 「telegraphs」指電報或電報設備，用於遠距通信。\n❌ (D) 「menus」是菜單或選單，主要列出可選項目。\n📚 出處：英語詞彙・依工具的用途辨別名詞"
   },
   {
    "n": 39,
@@ -520,7 +555,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "rapidly",
     "slowly"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「worked too slowly」意為「工作得太慢」。這個原因能解釋喬安為何沒在今天做完工作。\n❌ (A) 「chiefly」意為「主要地」，沒有說明工作速度。\n❌ (B) 「speedily」意為「迅速地」，與題目暗示的進度落後不合。\n❌ (C) 「rapidly」也指「快速地」，無法直接解釋未能按時完成。\n📚 出處：英語文法・方式副詞與因果語境"
   },
   {
    "n": 40,
@@ -533,7 +569,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "legitimate",
     "prestigious請依下文回答第 41 題至第 45 題：Don't be alarmed if fellow passengers start stripping off after boarding a metro train in Taipei. Chancesare they think they've found a swimming pool inside 41 . To celebrate being the host city of Universiade2017--the Olympics for international university athletes--the Taiwanese capital has transformed a six-car traininto six different sports 42 --a running track, a soccer pitch, a baseball field, a basketball pitch, a field forthrowing sports and a swimming pool. And the eye-popping 3D artworks have inspired 43 commuters todive in. \"We hope to bring sports 44 to their daily life,\" says a spokesperson for the city's Department ofInformation and Tourism. It is a fun 45 to raise awareness about sport in general among Taiwanese and getthe public to get involved in the games."
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「prestigious」意為「享有盛譽的」。下句說貝多芬的傑作廣受世界各地樂迷推崇，正可說明他的聲望。\n❌ (A) 「conservative」指「保守的」，題目未描述他的觀念或作風。\n❌ (B) 「invaluable」指「極其寶貴的」，著重價值，與後句強調的聲譽不同。\n❌ (C) 「legitimate」指「合法的、正當的」，與作品受推崇無關。\n📚 出處：英語詞彙・依上下文區分聲望與價值"
   },
   {
    "n": 41,
@@ -548,7 +585,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/108070_901_0205_41.webp"
+   "fig": "img/q/108070_901_0205_41.webp",
+   "exp": "✅ (C) 「carriage」指列車的車廂。乘客登上捷運後，以為在車廂裡看見泳池，與下文改造六節車廂相呼應。\n❌ (A) 「transit」指運輸或運送過程，不能具體指乘客所在的車廂。\n❌ (B) 「camp」指營地，與登上列車的場景不合。\n❌ (D) 「chamber」多指房間或內室，並非文中列車車廂的用語。\n📚 出處：英語克漏字・交通工具詞彙與上下文指涉"
   },
   {
    "n": 42,
@@ -563,7 +601,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/108070_901_0205_42.webp"
+   "fig": "img/q/108070_901_0205_42.webp",
+   "exp": "✅ (A) 「sports venues」指運動場地。破折號後列出的跑道、足球場、棒球場與泳池，都是場地的例子。\n❌ (B) 「tools」是工具，無法統稱球場與泳池。\n❌ (C) 圖中「comission」應為「commission」，常指委員會或佣金，與場地無關。\n❌ (D) 「diplomacy」指外交，與後文列舉的運動設施不合。\n📚 出處：英語克漏字・用列舉內容判斷上位詞"
   },
   {
    "n": 43,
@@ -578,7 +617,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/108070_901_0205_43.webp"
+   "fig": "img/q/108070_901_0205_43.webp",
+   "exp": "✅ (B) 「commuters」是可數複數名詞。「a few commuters」表示有幾位通勤者受到立體圖像吸引，呼應展出引起反應的語氣。\n❌ (A) 「few」也可接可數複數，但強調人少到幾乎沒有。\n❌ (C) 「little」修飾不可數名詞，表示幾乎沒有。\n❌ (D) 「a little」表示有一點，也用於不可數名詞。\n📚 出處：英語文法・可數與不可數名詞的數量詞"
   },
   {
    "n": 44,
@@ -593,7 +633,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/108070_901_0205_44.webp"
+   "fig": "img/q/108070_901_0205_44.webp",
+   "exp": "✅ (D) 「bring sports closer to their daily life」意為「讓運動更貼近日常生活」，呼應把捷運車廂變成運動場景的做法。\n❌ (A) 「open」指開放的，放在此處無法表達拉近距離。\n❌ (B) 「opposed to」意為「反對、與……對立」，與推廣目的相反。\n❌ (C) 「wider」意為「更寬的」，不適用於此處表示接近的句型。\n📚 出處：英語句型・「bring A closer to B」的用法"
   },
   {
    "n": 45,
@@ -608,7 +649,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/108070_901_0205_45.webp"
+   "fig": "img/q/108070_901_0205_45.webp",
+   "exp": "✅ (A) 「campaign」指為特定目標策劃的宣傳活動。改造車廂是為了提升大眾對運動的關注並鼓勵參與賽事。\n❌ (B) 「exercise」可指運動或練習，文中重點是向公眾宣傳。\n❌ (C) 「market」是市場，題目未描述買賣場所或消費族群。\n❌ (D) 「practice」通常指練習或慣行做法，無法點出這次宣傳活動的目的。\n📚 出處：英語克漏字・依活動目的辨別名詞"
   },
   {
    "n": 46,
@@ -622,7 +664,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "In a concert hall."
    ],
    "psg": "Summer Camp Schedule LAZY MONDAY Watch a movie, play in the yard, play with blocks, color, or read. Just do something easy and relax. TAKE A TRIP TUESDAY Visit a museum. Take a trip to the zoo. Walk to the park. Just go. WHAT’S COOKING WEDNESDAY Cook something together. Let’s have fun in the kitchen. TRY A CRAFT THURSDAY Try a new fun craft idea. Make play-dough. Finger paint. The options are endless. FUN FRIDAY Do something fun!",
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 行程包括玩積木、手指畫和戶外參訪，對象顯然是兒童。四個地點中，兒童就讀的學校最可能張貼這份夏令營行程。\n❌ (A) 麵包店主要販售烘焙食品，行程也只有週三安排烹飪。\n❌ (B) 博物館是週二可能造訪的地點之一。\n❌ (D) 音樂廳主要舉辦演出，行程未列音樂會。\n📚 出處：英語閱讀・從活動內容推論公告對象與地點"
   },
   {
    "n": 47,
@@ -636,7 +679,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "How to teach your kids."
    ],
    "psg": "Summer Camp Schedule LAZY MONDAY Watch a movie, play in the yard, play with blocks, color, or read. Just do something easy and relax. TAKE A TRIP TUESDAY Visit a museum. Take a trip to the zoo. Walk to the park. Just go. WHAT’S COOKING WEDNESDAY Cook something together. Let’s have fun in the kitchen. TRY A CRAFT THURSDAY Try a new fun craft idea. Make play-dough. Finger paint. The options are endless. FUN FRIDAY Do something fun!",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 標題「Summer Camp Schedule」點出這是夏令營行程表，內文按星期列出營隊可以做的活動。\n❌ (B) 表中列的是遊戲、參訪與手作，沒有學校科目進度。\n❌ (C) 公告直接提供排好的行程，未教讀者如何設計時間表。\n❌ (D) 內容面向營隊活動，未指導家長如何教養孩子。\n📚 出處：英語閱讀・由標題與分項內容判斷主旨"
   },
   {
    "n": 48,
@@ -650,7 +694,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "Friday."
    ],
    "psg": "Summer Camp Schedule LAZY MONDAY Watch a movie, play in the yard, play with blocks, color, or read. Just do something easy and relax. TAKE A TRIP TUESDAY Visit a museum. Take a trip to the zoo. Walk to the park. Just go. WHAT’S COOKING WEDNESDAY Cook something together. Let’s have fun in the kitchen. TRY A CRAFT THURSDAY Try a new fun craft idea. Make play-dough. Finger paint. The options are endless. FUN FRIDAY Do something fun!",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 週三寫著「Cook something together」，下一句又提到廚房，正好對應題目所問的「一起準備食物」。\n❌ (A) 週一安排看電影、閱讀等輕鬆活動。\n❌ (C) 週四安排做黏土和手指畫，屬於手作活動。\n❌ (D) 週五只說做些有趣的事，未指定烹飪。\n📚 出處：英語閱讀・從行程表查找活動與日期"
   },
   {
    "n": 49,
@@ -664,7 +709,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "Thursday."
    ],
    "psg": "Summer Camp Schedule LAZY MONDAY Watch a movie, play in the yard, play with blocks, color, or read. Just do something easy and relax. TAKE A TRIP TUESDAY Visit a museum. Take a trip to the zoo. Walk to the park. Just go. WHAT’S COOKING WEDNESDAY Cook something together. Let’s have fun in the kitchen. TRY A CRAFT THURSDAY Try a new fun craft idea. Make play-dough. Finger paint. The options are endless. FUN FRIDAY Do something fun!",
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 週一的選項明列「read」，讀故事書正符合當天輕鬆休息的主題。\n❌ (B) 週二安排外出，可前往博物館、動物園或公園。\n❌ (C) 週三的主題是一起下廚做食物。\n❌ (D) 週四的主題是嘗試手工藝，例如做黏土或用手指畫畫。\n📚 出處：英語閱讀・辨認行程表中明示的活動"
   },
   {
    "n": 50,
@@ -678,7 +724,8 @@ window.APP_EXAM_PAPERS['rai-108-1-raic002'] = {
     "Children visit somewhere outside the camp every week."
    ],
    "psg": "Summer Camp Schedule LAZY MONDAY Watch a movie, play in the yard, play with blocks, color, or read. Just do something easy and relax. TAKE A TRIP TUESDAY Visit a museum. Take a trip to the zoo. Walk to the park. Just go. WHAT’S COOKING WEDNESDAY Cook something together. Let’s have fun in the kitchen. TRY A CRAFT THURSDAY Try a new fun craft idea. Make play-dough. Finger paint. The options are endless. FUN FRIDAY Do something fun!",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 每週行程把週二訂為出遊日，可去博物館、動物園或公園，因此每週都有營外活動。\n❌ (A) 行程沒有列出數學或自然科學課程。\n❌ (B) 多日訂有主題，孩子並非每天都可任意選擇所有活動。\n❌ (C) 閱讀只是週一的選項之一，無法據此說整個營隊以語言發展為重點。\n📚 出處：英語閱讀・根據每週行程驗證敘述"
   }
  ]
 };
