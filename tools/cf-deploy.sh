@@ -28,8 +28,11 @@ HEAD=$(git rev-parse HEAD)
 [ "${1:-}" != "--force" ] && [ -f "$STATE" ] && [ "$(cat "$STATE")" = "$HEAD" ] && exit 0
 
 # 1) 新的題圖先上 R2（前端指過去之前圖要先在）
+filters=$(mktemp -d) || exit 1
+trap 'rm -rf "$filters"' EXIT
+node tools/release-hidden-assets.js "$filters/pages" "$filters/images" || exit 1
 touch "$R2DONE"
-NEW=$(LC_ALL=C comm -23 <(ls img/q | LC_ALL=C sort) <(LC_ALL=C sort -u "$R2DONE"))
+NEW=$(LC_ALL=C comm -23 <(ls img/q | LC_ALL=C sort) <(LC_ALL=C sort -u "$R2DONE" "$filters/images"))
 if [ -n "$NEW" ]; then
   n=0; fail=0
   while read -r f; do
@@ -46,7 +49,7 @@ fi
 
 # 2) 只放網站要用的檔（工具、文件、測試、題圖都不上 Pages）
 mkdir -p "$STAGE"
-rsync -a --delete \
+rsync -a --delete --exclude-from="$filters/pages" \
   --exclude .git --exclude tools --exclude docs --exclude test --exclude 'img/q' \
   --exclude '*.md' --exclude CNAME --exclude node_modules --exclude .wrangler --exclude .gitignore \
   ./ "$STAGE/"
