@@ -4631,6 +4631,906 @@
        ]
       }
      ]
+    },
+    {
+     "id": "rail",
+     "name": "鐵路特考",
+     "icon": "📖",
+     "live": true,
+     "note": "考選部歷屆測驗題",
+     "stages": [
+      {
+       "no": 1,
+       "name": "高員三級",
+       "note": "鐵路特考・高員三級",
+       "subjects": [
+        "raia002",
+        "raia004",
+        "raia005",
+        "raia006",
+        "raia007",
+        "raia008",
+        "raia009",
+        "raia010",
+        "raia011",
+        "raia012"
+       ],
+       "groups": [
+        {
+         "name": "一般行政與民政",
+         "tracks": [
+          {
+           "id": "rail1-人事行政",
+           "name": "人事行政",
+           "subjects": [
+            "raia002"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "財經與會計",
+         "tracks": [
+          {
+           "id": "rail1-會計",
+           "name": "會計",
+           "subjects": [
+            "raia002",
+            "raia004",
+            "raia005",
+            "raia006"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "法律與政風",
+         "tracks": [
+          {
+           "id": "rail1-法律廉政",
+           "name": "法律廉政",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-財經廉政",
+           "name": "財經廉政",
+           "subjects": [
+            "raia002",
+            "raia010"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "土木建築與都計",
+         "tracks": [
+          {
+           "id": "rail1-土木工程",
+           "name": "土木工程",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-地政",
+           "name": "地政",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-建築工程",
+           "name": "建築工程",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-都市計畫技術",
+           "name": "都市計畫技術",
+           "subjects": [
+            "raia002"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "機電資訊與工業",
+         "tracks": [
+          {
+           "id": "rail1-機械工程",
+           "name": "機械工程",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-資訊處理",
+           "name": "資訊處理",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-電力工程",
+           "name": "電力工程",
+           "subjects": [
+            "raia002",
+            "raia009"
+           ]
+          },
+          {
+           "id": "rail1-電子工程",
+           "name": "電子工程",
+           "subjects": [
+            "raia002",
+            "raia009"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "rail1-事務管理",
+           "name": "事務管理",
+           "subjects": [
+            "raia002"
+           ]
+          },
+          {
+           "id": "rail1-材料管理",
+           "name": "材料管理",
+           "subjects": [
+            "raia002",
+            "raia007"
+           ]
+          },
+          {
+           "id": "rail1-運輸營業",
+           "name": "運輸營業",
+           "subjects": [
+            "raia002",
+            "raia007",
+            "raia008",
+            "raia011",
+            "raia012"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 2,
+       "name": "員級",
+       "note": "鐵路特考・員級",
+       "subjects": [
+        "raib001",
+        "raib002",
+        "raib003",
+        "raib004",
+        "raib005",
+        "raib006",
+        "raib007",
+        "raib008"
+       ],
+       "groups": [
+        {
+         "name": "一般行政與民政",
+         "tracks": [
+          {
+           "id": "rail2-人事行政",
+           "name": "人事行政",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "法律與政風",
+         "tracks": [
+          {
+           "id": "rail2-法律廉政",
+           "name": "法律廉政",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib003"
+           ]
+          },
+          {
+           "id": "rail2-財經廉政",
+           "name": "財經廉政",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib003",
+            "raib007"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "土木建築與都計",
+         "tracks": [
+          {
+           "id": "rail2-土木工程",
+           "name": "土木工程",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-地政",
+           "name": "地政",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-建築工程",
+           "name": "建築工程",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-都市計畫技術",
+           "name": "都市計畫技術",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "機電資訊與工業",
+         "tracks": [
+          {
+           "id": "rail2-機械工程",
+           "name": "機械工程",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-資訊處理",
+           "name": "資訊處理",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib008"
+           ]
+          },
+          {
+           "id": "rail2-電力工程",
+           "name": "電力工程",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-電子工程",
+           "name": "電子工程",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib006"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "rail2-事務管理",
+           "name": "事務管理",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib003"
+           ]
+          },
+          {
+           "id": "rail2-材料管理",
+           "name": "材料管理",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-機檢工程",
+           "name": "機檢工程",
+           "subjects": [
+            "raib001",
+            "raib002"
+           ]
+          },
+          {
+           "id": "rail2-財經政風",
+           "name": "財經政風",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib003",
+            "raib004"
+           ]
+          },
+          {
+           "id": "rail2-運輸營業",
+           "name": "運輸營業",
+           "subjects": [
+            "raib001",
+            "raib002",
+            "raib005"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 3,
+       "name": "佐級",
+       "note": "鐵路特考・佐級",
+       "subjects": [
+        "raic001",
+        "raic002",
+        "raic003",
+        "raic004",
+        "raic005",
+        "raic006",
+        "raic007",
+        "raic008",
+        "raic009",
+        "raic010",
+        "raic011",
+        "raic012",
+        "raic013",
+        "raic014",
+        "raic015",
+        "raic016",
+        "raic017",
+        "raic018",
+        "raic019",
+        "raic020",
+        "raic021",
+        "raic022",
+        "raic023"
+       ],
+       "groups": [
+        {
+         "name": "土木建築與都計",
+         "tracks": [
+          {
+           "id": "rail3-土木工程",
+           "name": "土木工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic019",
+            "raic020"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "機電資訊與工業",
+         "tracks": [
+          {
+           "id": "rail3-機械工程",
+           "name": "機械工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic012",
+            "raic013",
+            "raic023"
+           ]
+          },
+          {
+           "id": "rail3-電力工程",
+           "name": "電力工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic014",
+            "raic015"
+           ]
+          },
+          {
+           "id": "rail3-電子工程",
+           "name": "電子工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic014",
+            "raic016"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "rail3-事務管理",
+           "name": "事務管理",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic003",
+            "raic004"
+           ]
+          },
+          {
+           "id": "rail3-場站調車",
+           "name": "場站調車",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic005",
+            "raic006",
+            "raic010",
+            "raic011",
+            "raic022"
+           ]
+          },
+          {
+           "id": "rail3-材料管理",
+           "name": "材料管理",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic005",
+            "raic006",
+            "raic007",
+            "raic008",
+            "raic021"
+           ]
+          },
+          {
+           "id": "rail3-機檢工程",
+           "name": "機檢工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic012",
+            "raic014"
+           ]
+          },
+          {
+           "id": "rail3-車輛調度",
+           "name": "車輛調度",
+           "subjects": [
+            "raic005",
+            "raic006",
+            "raic010",
+            "raic011"
+           ]
+          },
+          {
+           "id": "rail3-運輸營業",
+           "name": "運輸營業",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic005",
+            "raic006",
+            "raic009",
+            "raic010",
+            "raic022"
+           ]
+          },
+          {
+           "id": "rail3-養路工程",
+           "name": "養路工程",
+           "subjects": [
+            "raic001",
+            "raic002",
+            "raic005",
+            "raic006",
+            "raic017",
+            "raic018"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "imm",
+     "name": "移民行政特考",
+     "icon": "📖",
+     "live": true,
+     "note": "考選部歷屆測驗題",
+     "stages": [
+      {
+       "no": 1,
+       "name": "二等",
+       "note": "移民行政特考・二等",
+       "subjects": [
+        "imma001"
+       ],
+       "groups": [
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "imm1-移民行政",
+           "name": "移民行政",
+           "subjects": [
+            "imma001"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 2,
+       "name": "三等",
+       "note": "移民行政特考・三等",
+       "subjects": [
+        "immb002",
+        "immb003",
+        "immb004",
+        "immb005",
+        "immb006",
+        "immb007",
+        "immb008",
+        "immb009"
+       ],
+       "groups": [
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "imm2-移民行政",
+           "name": "移民行政",
+           "subjects": [
+            "immb002",
+            "immb003",
+            "immb004",
+            "immb005",
+            "immb006",
+            "immb007"
+           ]
+          },
+          {
+           "id": "imm2-移民行政類科一般組",
+           "name": "移民行政類科一般組",
+           "subjects": [
+            "immb002",
+            "immb004",
+            "immb006",
+            "immb008",
+            "immb009"
+           ]
+          },
+          {
+           "id": "imm2-移民行政類科資訊組",
+           "name": "移民行政類科資訊組",
+           "subjects": [
+            "immb002",
+            "immb006"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 3,
+       "name": "四等",
+       "note": "移民行政特考・四等",
+       "subjects": [
+        "immc002",
+        "immc003",
+        "immc004",
+        "immc005",
+        "immc006",
+        "immc007"
+       ],
+       "groups": [
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "imm3-移民行政",
+           "name": "移民行政",
+           "subjects": [
+            "immc002",
+            "immc003",
+            "immc004",
+            "immc005",
+            "immc006",
+            "immc007"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "vtr",
+     "name": "退除役軍人轉任公務人員考試",
+     "icon": "📖",
+     "live": true,
+     "note": "考選部歷屆測驗題",
+     "stages": [
+      {
+       "no": 1,
+       "name": "三等",
+       "note": "退除役軍人轉任公務人員考試・三等",
+       "subjects": [
+        "vtra005",
+        "vtra006",
+        "vtra008",
+        "vtra009",
+        "vtra010",
+        "vtra011"
+       ],
+       "groups": [
+        {
+         "name": "財經與會計",
+         "tracks": [
+          {
+           "id": "vtr1-會計",
+           "name": "會計",
+           "subjects": [
+            "vtra005",
+            "vtra006",
+            "vtra008",
+            "vtra009",
+            "vtra010"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "教育文化與社福",
+         "tracks": [
+          {
+           "id": "vtr1-勞工行政",
+           "name": "勞工行政",
+           "subjects": [
+            "vtra011"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 2,
+       "name": "四等",
+       "note": "退除役軍人轉任公務人員考試・四等",
+       "subjects": [
+        "vtrb003",
+        "vtrb004",
+        "vtrb005",
+        "vtrb006",
+        "vtrb007",
+        "vtrb008",
+        "vtrb009",
+        "vtrb010",
+        "vtrb011",
+        "vtrb012"
+       ],
+       "groups": [
+        {
+         "name": "一般行政與民政",
+         "tracks": [
+          {
+           "id": "vtr2-一般行政",
+           "name": "一般行政",
+           "subjects": [
+            "vtrb003",
+            "vtrb004",
+            "vtrb005",
+            "vtrb006"
+           ]
+          },
+          {
+           "id": "vtr2-人事行政",
+           "name": "人事行政",
+           "subjects": [
+            "vtrb003",
+            "vtrb006"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "財經與會計",
+         "tracks": [
+          {
+           "id": "vtr2-會計",
+           "name": "會計",
+           "subjects": [
+            "vtrb007",
+            "vtrb008",
+            "vtrb009",
+            "vtrb010",
+            "vtrb012"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "教育文化與社福",
+         "tracks": [
+          {
+           "id": "vtr2-勞工行政",
+           "name": "勞工行政",
+           "subjects": [
+            "vtrb006"
+           ]
+          }
+         ]
+        },
+        {
+         "name": "環境安全與衛生",
+         "tracks": [
+          {
+           "id": "vtr2-衛生行政",
+           "name": "衛生行政",
+           "subjects": [
+            "vtrb011"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "nsi",
+     "name": "國家安全情報人員特考",
+     "icon": "📖",
+     "live": true,
+     "note": "考選部歷屆測驗題",
+     "stages": [
+      {
+       "no": 1,
+       "name": "三等",
+       "note": "國家安全情報人員特考・三等",
+       "subjects": [
+        "nsia002",
+        "nsia003"
+       ],
+       "groups": [
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "nsi1-國際組",
+           "name": "國際組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          },
+          {
+           "id": "nsi1-情報組",
+           "name": "情報組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          },
+          {
+           "id": "nsi1-政經組",
+           "name": "政經組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          },
+          {
+           "id": "nsi1-數理組",
+           "name": "數理組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          },
+          {
+           "id": "nsi1-資訊組",
+           "name": "資訊組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          },
+          {
+           "id": "nsi1-電子組",
+           "name": "電子組",
+           "subjects": [
+            "nsia002",
+            "nsia003"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "no": 2,
+       "name": "五等",
+       "note": "國家安全情報人員特考・五等",
+       "subjects": [
+        "nsib002",
+        "nsib003",
+        "nsib006",
+        "nsib007",
+        "nsib008",
+        "nsib009",
+        "nsib010"
+       ],
+       "groups": [
+        {
+         "name": "其他類科",
+         "tracks": [
+          {
+           "id": "nsi2-社會組",
+           "name": "社會組",
+           "subjects": [
+            "nsib002",
+            "nsib009",
+            "nsib010"
+           ]
+          },
+          {
+           "id": "nsi2-行政組",
+           "name": "行政組",
+           "subjects": [
+            "nsib002",
+            "nsib003",
+            "nsib006"
+           ]
+          },
+          {
+           "id": "nsi2-資訊組",
+           "name": "資訊組",
+           "subjects": [
+            "nsib002",
+            "nsib007",
+            "nsib008"
+           ]
+          },
+          {
+           "id": "nsi2-電子組",
+           "name": "電子組",
+           "subjects": [
+            "nsib002"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   },
@@ -6903,6 +7803,411 @@
   },
   "h004": {
    "name": "水與化學系統消防安全設備概要",
+   "note": "",
+   "stage": 2
+  },
+  "raia002": {
+   "name": "法學知識與英文",
+   "note": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+   "stage": 1
+  },
+  "raia004": {
+   "name": "中級會計學",
+   "note": "",
+   "stage": 1
+  },
+  "raia005": {
+   "name": "會計審計法規",
+   "note": "會計審計法規(包括預算法、會計法、決算法與審計法)",
+   "stage": 1
+  },
+  "raia006": {
+   "name": "成本與管理會計",
+   "note": "",
+   "stage": 1
+  },
+  "raia007": {
+   "name": "民法",
+   "note": "",
+   "stage": 1
+  },
+  "raia008": {
+   "name": "經濟學",
+   "note": "",
+   "stage": 1
+  },
+  "raia009": {
+   "name": "工程數學",
+   "note": "",
+   "stage": 1
+  },
+  "raia010": {
+   "name": "經濟學概論與財政學概論",
+   "note": "",
+   "stage": 1
+  },
+  "raia011": {
+   "name": "運輸經濟學",
+   "note": "",
+   "stage": 1
+  },
+  "raia012": {
+   "name": "軌道經營與管理",
+   "note": "",
+   "stage": 1
+  },
+  "raib001": {
+   "name": "國文",
+   "note": "國文(作文、公文與測驗)",
+   "stage": 2
+  },
+  "raib002": {
+   "name": "法學知識與英文",
+   "note": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+   "stage": 2
+  },
+  "raib003": {
+   "name": "行政法概要",
+   "note": "",
+   "stage": 2
+  },
+  "raib004": {
+   "name": "經濟學概要",
+   "note": "",
+   "stage": 2
+  },
+  "raib005": {
+   "name": "民法概要",
+   "note": "",
+   "stage": 2
+  },
+  "raib006": {
+   "name": "計算機概要（電子工程組）",
+   "note": "",
+   "stage": 2
+  },
+  "raib007": {
+   "name": "經濟學概要與財政學概要",
+   "note": "",
+   "stage": 2
+  },
+  "raib008": {
+   "name": "計算機概要（資訊處理組）",
+   "note": "",
+   "stage": 2
+  },
+  "raic001": {
+   "name": "國文（事務管理組）",
+   "note": "國文(包括公文格式用語)",
+   "stage": 3
+  },
+  "raic002": {
+   "name": "公民與英文（事務管理組）",
+   "note": "",
+   "stage": 3
+  },
+  "raic003": {
+   "name": "事務管理大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic004": {
+   "name": "法學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic005": {
+   "name": "國文（材料管理組）",
+   "note": "國文(包括公文格式用語)",
+   "stage": 3
+  },
+  "raic006": {
+   "name": "公民與英文（材料管理組）",
+   "note": "",
+   "stage": 3
+  },
+  "raic007": {
+   "name": "材料管理大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic008": {
+   "name": "倉儲管理大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic009": {
+   "name": "企業管理大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic010": {
+   "name": "運輸學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic011": {
+   "name": "鐵路法大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic012": {
+   "name": "機械原理大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic013": {
+   "name": "機械工程製圖大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic014": {
+   "name": "基本電學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic015": {
+   "name": "電工機械大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic016": {
+   "name": "電子學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic017": {
+   "name": "鐵路工程大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic018": {
+   "name": "鐵路養護作業大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic019": {
+   "name": "測量學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic020": {
+   "name": "土木監工大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic021": {
+   "name": "政府採購法大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic022": {
+   "name": "鐵路運輸學大意",
+   "note": "",
+   "stage": 3
+  },
+  "raic023": {
+   "name": "機械製造學大意",
+   "note": "",
+   "stage": 3
+  },
+  "imma001": {
+   "name": "國文",
+   "note": "國文(作文與測驗)",
+   "stage": 1
+  },
+  "immb002": {
+   "name": "法學知識與英文",
+   "note": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+   "stage": 2
+  },
+  "immb003": {
+   "name": "外國文（移民行政組）",
+   "note": "外國文(西班牙文兼試移民專業英文)",
+   "stage": 2
+  },
+  "immb004": {
+   "name": "行政法",
+   "note": "",
+   "stage": 2
+  },
+  "immb005": {
+   "name": "國境執法與刑事法",
+   "note": "國境執法與刑事法(包括刑法與刑事訴訟法)",
+   "stage": 2
+  },
+  "immb006": {
+   "name": "入出國及移民法規",
+   "note": "入出國及移民法規(包括入出國及移民法、人口販運防制法、國籍法、就業服務法、臺灣地區與大陸地區人民關係條例、香港澳門關係條例、護照條例、外國護照簽證條例、涉外民事法律適用法、民法親屬編)",
+   "stage": 2
+  },
+  "immb007": {
+   "name": "國土安全與移民政策",
+   "note": "國土安全與移民政策(包括移民人權)",
+   "stage": 2
+  },
+  "immb008": {
+   "name": "外國文（移民行政類科一般組組）",
+   "note": "外國文(西班牙文兼試移民專業英文)",
+   "stage": 2
+  },
+  "immb009": {
+   "name": "移民執法與刑事法",
+   "note": "移民執法與刑事法(包括刑法與刑事訴訟法)",
+   "stage": 2
+  },
+  "immc002": {
+   "name": "法學知識與英文",
+   "note": "法學知識與英文(包括中華民國憲法、法學緒論、英文)",
+   "stage": 3
+  },
+  "immc003": {
+   "name": "行政法概要",
+   "note": "",
+   "stage": 3
+  },
+  "immc004": {
+   "name": "國境執法概要與刑事法概要",
+   "note": "國境執法概要與刑事法概要(包括刑法概要與刑事訴訟法概要)",
+   "stage": 3
+  },
+  "immc005": {
+   "name": "入出國及移民法規概要",
+   "note": "入出國及移民法規概要(包括入出國及移民法、人口販運防制法、國籍法、就業服務法、臺灣地區與大陸地區人民關係條例、香港澳門關係條例、護照條例、外國護照簽證條例、涉外民事法律適用法、民法親屬編)",
+   "stage": 3
+  },
+  "immc006": {
+   "name": "國土安全概要與移民政策概要",
+   "note": "國土安全概要與移民政策(包括移民人權)概要",
+   "stage": 3
+  },
+  "immc007": {
+   "name": "移民執法概要與刑事法概要",
+   "note": "移民執法概要與刑事法概要(包括刑法概要與刑事訴訟法概要)",
+   "stage": 3
+  },
+  "vtra005": {
+   "name": "中級會計學",
+   "note": "",
+   "stage": 1
+  },
+  "vtra006": {
+   "name": "會計審計法規",
+   "note": "會計審計法規(包括預算法、會計法、決算法與審計法)",
+   "stage": 1
+  },
+  "vtra008": {
+   "name": "政府會計",
+   "note": "",
+   "stage": 1
+  },
+  "vtra009": {
+   "name": "財政學",
+   "note": "",
+   "stage": 1
+  },
+  "vtra010": {
+   "name": "審計學",
+   "note": "",
+   "stage": 1
+  },
+  "vtra011": {
+   "name": "經濟學",
+   "note": "",
+   "stage": 1
+  },
+  "vtrb003": {
+   "name": "行政學概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb004": {
+   "name": "政治學概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb005": {
+   "name": "公共管理概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb006": {
+   "name": "行政法概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb007": {
+   "name": "成本與管理會計概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb008": {
+   "name": "政府會計概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb009": {
+   "name": "會計學概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb010": {
+   "name": "審計學概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb011": {
+   "name": "衛生行政學概要",
+   "note": "",
+   "stage": 2
+  },
+  "vtrb012": {
+   "name": "會計法規概要",
+   "note": "",
+   "stage": 2
+  },
+  "nsia002": {
+   "name": "外國文",
+   "note": "外國文(英文)",
+   "stage": 1
+  },
+  "nsia003": {
+   "name": "綜合法政知識與英文",
+   "note": "綜合法政知識與英文(包括中華民國憲法、法學緒論、兩岸關係、英文)",
+   "stage": 1
+  },
+  "nsib002": {
+   "name": "公民與英文",
+   "note": "",
+   "stage": 2
+  },
+  "nsib003": {
+   "name": "法學大意",
+   "note": "",
+   "stage": 2
+  },
+  "nsib006": {
+   "name": "行政學大意",
+   "note": "",
+   "stage": 2
+  },
+  "nsib007": {
+   "name": "資料處理大意",
+   "note": "",
+   "stage": 2
+  },
+  "nsib008": {
+   "name": "計算機大意",
+   "note": "",
+   "stage": 2
+  },
+  "nsib009": {
+   "name": "政治學大意",
+   "note": "",
+   "stage": 2
+  },
+  "nsib010": {
+   "name": "社會學大意",
    "note": "",
    "stage": 2
   }
