@@ -561,7 +561,7 @@ DeepSeek 跑批次、圖片題最後用 claude 補，等他決定要不要接成
 Gemini 週限 09/23 10:26 才重置，在那之前只有 claude 可用。已把 A（繼續跑）／B（停到 09/23）／C（只補日語卷）問 Tony，等他回。
 
 <!-- exp-worker:start -->
-（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 codex/default（訂閱））。最後一卷：rai-110-1-raia006 110 年　高員三級　成本與管理會計，寫 22 題、跳過 1 題，11/25 04:25 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
+（自動更新，勿手改）詳解批次由 tools/exp-worker.sh 逐卷開新 session 執行（範圍 .，引擎 codex/default（訂閱））。最後一卷：rai-110-1-raia005 110 年　高員三級　會計審計法規，寫 24 題、跳過 0 題，11/25 04:28 台北。跳過的題記在 tools/exp-skips.json；失敗的卷在 ~/.claude/exp-worker.failed；每卷紀錄 ~/.claude/exp-worker.log。
 <!-- exp-worker:end -->
 
 ## DeepSeek 的法條條號不可信（2026-09-18 Tony 要求抽查後發現）
