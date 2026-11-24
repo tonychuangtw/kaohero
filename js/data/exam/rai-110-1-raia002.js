@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['rai-110-1-raia002'] = {
     "impartially",
     "beneficially請依下文回答第 41 題至第 45 題："
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「exclusively」意為「僅僅、只」。若只從某個電視頻道取得資訊，接觸到的觀點有限，看法就可能偏頗。\n❌ (A) 「maliciously」意為「懷有惡意地」，描述動機，題幹並未提到惡意。\n❌ (C) 「impartially」意為「公正地」，描述態度，無法表達資訊來源單一。\n❌ (D) 「beneficially」意為「有益地」，無法解釋看法為何可能偏頗。\n📚 出處：英語詞彙與語意判讀——範圍副詞「exclusively」"
   },
   {
    "n": 41,
