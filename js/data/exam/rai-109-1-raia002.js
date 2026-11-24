@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raia002'] = {
     "coincide",
     "converge請依下文回答第 41 題至第 45 題：Several years back, I visited Iceland in the dead of winter. I was researching a book on global happiness, and the small"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「converge」指從不同地方聚集到同一處。近千名學生將齊聚大學體育館參加畢業典禮，符合句意。\n❌ (A) 「certify」指證明某事屬實，句中沒有要證明的事項。\n❌ (B) 「chatter」指喋喋不休地交談，題幹沒有提到學生在聊天。\n❌ (C) 「coincide」常指事件同時發生，或意見相符，無法表達學生齊聚一地。\n📚 出處：英語動詞辨義與語境判讀（聚集、交談、證明與吻合）"
   },
   {
    "n": 41,
@@ -602,7 +603,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/109070_301_0202_42.webp"
+   "fig": "img/q/109070_301_0202_42.webp",
+   "exp": "✅ (B) 「take a dip」指短暫下水游泳或泡水。作者回憶冰島之旅，說自己曾在藍湖泡湯，因此用過去式「took」。\n❌ (A) 「made」指製作或造成，無法與「a dip」搭配表達下水泡湯。\n❌ (C) 「got」可表示取得，但「got a dip」沒有下水游泳的意思。\n❌ (D) 「showed」指展示，與作者親自下水的動作不符。\n📚 出處：英語動詞與名詞搭配（take a dip）"
   },
   {
    "n": 43,
@@ -617,7 +619,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raia002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/109070_301_0202_43.webp"
+   "fig": "img/q/109070_301_0202_43.webp",
+   "exp": "✅ (D) 「go belly up」用於銀行或企業時指倒閉。下文說冰島經濟瀕臨崩潰，這裡用過去式「went」描述當時銀行倒閉。\n❌ (A) 「sustained」表示承受，可搭配「losses」指蒙受損失，無法接「belly up」表示倒閉。\n❌ (B) 「held」表示握住或舉行，與此處描述銀行倒閉的慣用語不合。\n❌ (C) 「ended」表示結束。若用「end up」表達「結果變得……」，「up」須緊接在「end」之後。\n📚 出處：英語慣用語（go belly up）"
   },
   {
    "n": 44,
@@ -632,7 +635,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raia002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/109070_301_0202_44.webp"
+   "fig": "img/q/109070_301_0202_44.webp",
+   "exp": "✅ (C) 「limited」指有限的。下文說整體幸福感只略為下降，甚至有四分之一的冰島人感到更幸福，可見經濟危機對幸福感的影響有限。\n❌ (A) 「obverse」指相對的另一面，無法描述影響幅度很小。\n❌ (B) 「absolute」指絕對的，與幸福感僅略有變化的描述不合。\n❌ (D) 「significant」在此指重大的，與下文的「only slightly」（僅略微）不合。\n📚 出處：英語克漏字語境判讀（以程度副詞判斷影響幅度）"
   },
   {
    "n": 45,
@@ -647,7 +651,8 @@ window.APP_EXAM_PAPERS['rai-109-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/109070_301_0202_45.webp"
+   "fig": "img/q/109070_301_0202_45.webp",
+   "exp": "✅ (A) 「within reach」指在可觸及的範圍內，用來形容人時表示容易聯絡得到。小社區裡熟人就在身邊，呼應下句說失業者不會孤立無援。\n❌ (B) 「far from」表示遠離，與熟人容易聯絡的文意相反。\n❌ (C) 「beyond reach」指超出可觸及的範圍，表示難以接觸。\n❌ (D) 「out of reach」指在觸及範圍之外，與小社區能提供支持的文意不合。\n📚 出處：英語介系詞片語與上下文線索（within reach）"
   },
   {
    "n": 46,
