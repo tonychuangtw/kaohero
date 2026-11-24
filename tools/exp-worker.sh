@@ -279,10 +279,22 @@ PY
   # commit 就靜默失敗（2026-11-05 不動產經紀人／記帳士 97 卷全部沒 commit，靠 04:00 存檔才收進 git）
   addp=(); for x in js/data/exam/"$pid".js js/data/exams.js exam/"$pid" sitemap.xml tools/exp-skips.json PROGRESS.md; do [ -e "$x" ] && addp+=("$x"); done
   git add "${addp[@]}" 2>/dev/null
-  git commit -q -m "詳解：${title} ${n_written} 題$( [ "$n_skip" -gt 0 ] && printf '（跳過 %s 題：%s）' "$n_skip" "$skipreasons")
+  git commit -q -m "[kaohero/codex] 詳解：${title} ${n_written} 題$( [ "$n_skip" -gt 0 ] && printf '（跳過 %s 題：%s）' "$n_skip" "$skipreasons")
 
 worker: $usage ${secs}s engine=$ENGINE_NAME" 2>/dev/null
   for i in 1 2 3; do git push -q 2>/dev/null && break; git pull --rebase -q 2>/dev/null; sleep 5; done
+  # Promote complete years only. Serialize queue changes with the daily release.
+  if ! (
+    flock -x 8 || exit 1
+    names=$(node tools/release-next.js --promote-ready) || exit 1
+    if [ -n "$names" ]; then
+      git commit -q --only -m "[kaohero/codex] 詳解完成，排入 $names" -- tools/release-queue.json && git push -q || exit 1
+      report "已寫完並排入每日上架：$names"
+    fi
+  ) 8>"$HOME/.cache/kaohero-release.lock"; then
+    report "詳解已存檔，年度入列失敗，請核對 release-queue.json"
+    exit 1
+  fi
   log "$pid 寫 $n_written／待 $n_todo 跳 $n_skip $usage ${secs}s"
   done_papers=$((done_papers+1)); done_q=$((done_q+n_written)); done_skip=$((done_skip+n_skip)); consec_fail=0
   year_papers=$((year_papers+1)); year_q=$((year_q+n_written)); year_skip=$((year_skip+n_skip))

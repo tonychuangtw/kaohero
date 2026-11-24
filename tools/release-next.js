@@ -13,19 +13,41 @@ const Q = JSON.parse(fs.readFileSync(QF, 'utf8'));
 let skips = {};
 try { skips = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/exp-skips.json'), 'utf8')); } catch {}
 
+function remaining(g) {
+  let left = 0;
+  global.window = {};
+  g.pids.forEach(pid => {
+    const f = path.join(ROOT, 'js/data/exam', pid + '.js');
+    if (!fs.existsSync(f)) { left += 999; return; }
+    require(f);
+    const p = window.APP_EXAM_PAPERS[pid];
+    const sk = new Set((skips[pid] || []).map(s => s.n));
+    left += p.qs.filter(q => !q.exp && !q.void && !q.alt && !sk.has(q.n)).length;
+  });
+  return left;
+}
+
+// Called by the worker under the same lock as daily-release.sh.
+if (args.includes('--promote-ready')) {
+  const names = [];
+  while (Q.preparing?.length && remaining(Q.preparing[0]) === 0) {
+    const group = Q.preparing.shift();
+    Q.queue.push(group);
+    names.push(group.name);
+  }
+  if (names.length) {
+    const temp = QF + '.tmp-' + process.pid;
+    fs.writeFileSync(temp, JSON.stringify(Q, null, 1) + '\n');
+    fs.renameSync(temp, QF);
+    console.log(names.join('、'));
+  }
+  process.exit(0);
+}
+
 const g = Q.queue[0];
 if (!g) { console.log(JSON.stringify({ queued: 0 })); process.exit(0); }
 
-let left = 0;
-global.window = {};
-g.pids.forEach(pid => {
-  const f = path.join(ROOT, 'js/data/exam', pid + '.js');
-  if (!fs.existsSync(f)) { left += 999; return; }
-  require(f);
-  const p = window.APP_EXAM_PAPERS[pid];
-  const sk = new Set((skips[pid] || []).map(s => s.n));
-  left += p.qs.filter(q => !q.exp && !q.void && !q.alt && !sk.has(q.n)).length;
-});
+const left = remaining(g);
 const out = { name: g.name, pids: g.pids, ready: left === 0, left, queued: Q.queue.length };
 if (args.includes('--pop') && (out.ready || args.includes('--force'))) {
   Q.queue.shift();

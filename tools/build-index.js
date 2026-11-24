@@ -19,7 +19,8 @@ const papers = window.APP_EXAM_PAPERS || {};
 const HELD = new Set();
 if (!process.env.KH_NOHOLD) {
   try {
-    JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/release-queue.json'), 'utf8')).queue
+    const release = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/release-queue.json'), 'utf8'));
+    release.queue.concat(release.preparing || [])
       .forEach(g => g.pids.forEach(id => HELD.add(id)));
   } catch (e) {}
 }

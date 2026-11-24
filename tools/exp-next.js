@@ -29,7 +29,8 @@ for (const f of fs.readdirSync(path.join(ROOT, 'js/data/exam'))) {
 // 待上架區（tools/release-queue.json）的卷照上架順序先寫，一組寫完隔天早上就能放（2026-11-05 每日小更新）
 const rank = {};
 try {
-  JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/release-queue.json'), 'utf8')).queue
+  const release = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/release-queue.json'), 'utf8'));
+  release.queue.concat(release.preparing || [])
     .forEach((g, i) => g.pids.forEach(pid => { rank[pid] = i; }));
 } catch {}
 const rk = pid => (pid in rank ? rank[pid] : 1e9);
