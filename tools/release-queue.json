@@ -507,6 +507,41 @@
     "rai-106-1-raic023"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "105 年鐵路特考",
+   "pids": [
+    "rai-105-1-raia004",
+    "rai-105-1-raia005",
+    "rai-105-1-raia006",
+    "rai-105-1-raia007",
+    "rai-105-1-raia008",
+    "rai-105-1-raia009",
+    "rai-105-1-raib001",
+    "rai-105-1-raib002",
+    "rai-105-1-raib003",
+    "rai-105-1-raib005",
+    "rai-105-1-raib006",
+    "rai-105-1-raic002",
+    "rai-105-1-raic003",
+    "rai-105-1-raic004",
+    "rai-105-1-raic006",
+    "rai-105-1-raic007",
+    "rai-105-1-raic008",
+    "rai-105-1-raic009",
+    "rai-105-1-raic010",
+    "rai-105-1-raic011",
+    "rai-105-1-raic012",
+    "rai-105-1-raic013",
+    "rai-105-1-raic014",
+    "rai-105-1-raic015",
+    "rai-105-1-raic016",
+    "rai-105-1-raic017",
+    "rai-105-1-raic018",
+    "rai-105-1-raic019",
+    "rai-105-1-raic020"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -612,41 +647,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "105 年鐵路特考",
-   "pids": [
-    "rai-105-1-raia004",
-    "rai-105-1-raia005",
-    "rai-105-1-raia006",
-    "rai-105-1-raia007",
-    "rai-105-1-raia008",
-    "rai-105-1-raia009",
-    "rai-105-1-raib001",
-    "rai-105-1-raib002",
-    "rai-105-1-raib003",
-    "rai-105-1-raib005",
-    "rai-105-1-raib006",
-    "rai-105-1-raic002",
-    "rai-105-1-raic003",
-    "rai-105-1-raic004",
-    "rai-105-1-raic006",
-    "rai-105-1-raic007",
-    "rai-105-1-raic008",
-    "rai-105-1-raic009",
-    "rai-105-1-raic010",
-    "rai-105-1-raic011",
-    "rai-105-1-raic012",
-    "rai-105-1-raic013",
-    "rai-105-1-raic014",
-    "rai-105-1-raic015",
-    "rai-105-1-raic016",
-    "rai-105-1-raic017",
-    "rai-105-1-raic018",
-    "rai-105-1-raic019",
-    "rai-105-1-raic020"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "104 年鐵路特考",
    "pids": [
