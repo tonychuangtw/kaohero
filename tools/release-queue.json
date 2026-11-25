@@ -804,6 +804,21 @@
     "nsi-115-1-nsia003"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "114 年國家安全情報人員特考",
+   "pids": [
+    "nsi-114-1-nsia002",
+    "nsi-114-1-nsia003",
+    "nsi-114-1-nsib002",
+    "nsi-114-1-nsib003",
+    "nsi-114-1-nsib006",
+    "nsi-114-1-nsib007",
+    "nsi-114-1-nsib008",
+    "nsi-114-1-nsib009",
+    "nsi-114-1-nsib010"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -909,21 +924,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "114 年國家安全情報人員特考",
-   "pids": [
-    "nsi-114-1-nsia002",
-    "nsi-114-1-nsia003",
-    "nsi-114-1-nsib002",
-    "nsi-114-1-nsib003",
-    "nsi-114-1-nsib006",
-    "nsi-114-1-nsib007",
-    "nsi-114-1-nsib008",
-    "nsi-114-1-nsib009",
-    "nsi-114-1-nsib010"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "113 年國家安全情報人員特考",
    "pids": [
