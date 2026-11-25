@@ -796,6 +796,14 @@
     "vtr-104-1-vtrb011"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "115 年國家安全情報人員特考",
+   "pids": [
+    "nsi-115-1-nsia002",
+    "nsi-115-1-nsia003"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -901,14 +909,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "115 年國家安全情報人員特考",
-   "pids": [
-    "nsi-115-1-nsia002",
-    "nsi-115-1-nsia003"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "114 年國家安全情報人員特考",
    "pids": [
