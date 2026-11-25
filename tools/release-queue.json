@@ -646,6 +646,20 @@
     "rai-102-1-raic018"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "115 年移民行政特考",
+   "pids": [
+    "imm-115-1-immb002",
+    "imm-115-1-immb004",
+    "imm-115-1-immb006",
+    "imm-115-1-immb008",
+    "imm-115-1-immb009",
+    "imm-115-1-immc003",
+    "imm-115-1-immc005",
+    "imm-115-1-immc007"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -751,20 +765,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "115 年移民行政特考",
-   "pids": [
-    "imm-115-1-immb002",
-    "imm-115-1-immb004",
-    "imm-115-1-immb006",
-    "imm-115-1-immb008",
-    "imm-115-1-immb009",
-    "imm-115-1-immc003",
-    "imm-115-1-immc005",
-    "imm-115-1-immc007"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "114 年移民行政特考",
    "pids": [
