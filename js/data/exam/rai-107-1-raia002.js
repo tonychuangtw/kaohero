@@ -450,7 +450,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_31.webp"
+   "fig": "img/q/107070_301_0202_31.webp",
+   "exp": "✅ (B) 「later」表示「較晚」，「later-born children」指在家中排行第二或之後出生的孩子，與「first-born children」（第一個出生的孩子）相對。\n❌ (A) 「latter」指先前提到的兩者中的後者，不能用來修飾「born」表示出生先後。\n❌ (C) 「latest」表示「最晚」，範圍只及於最後出生者。\n❌ (D) 「late」表示時間晚或遲於預期，缺少比較出生先後的意思。\n📚 出處：英文文法「副詞比較級與出生順序的表達」"
   },
   {
    "n": 32,
@@ -465,7 +466,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_32.webp"
+   "fig": "img/q/107070_301_0202_32.webp",
+   "exp": "✅ (C) 前句說長子女通常較聰明，後句說弟妹成績較好、個性較外向。「while」在此譯為「而」，用來對照兩組孩子的特徵。\n❌ (A) 「when」表示「當……時」，文中沒有交代事情發生的時間。\n❌ (B) 「since」可表示「自從」或「因為」，此處沒有時間起點或因果關係。\n❌ (D) 「as」可表示「當……時」或「因為」，無法表達此處的對照。\n📚 出處：英文文法「連接詞 while 表示對照」"
   },
   {
    "n": 33,
@@ -480,7 +482,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_33.webp"
+   "fig": "img/q/107070_301_0202_33.webp",
+   "exp": "✅ (A) 「lend support to」意為「為……提供支持」。研究結果支持部分既有假設，例如排行最大的孩子往往有較高的資質。\n❌ (B) 「lead to」意為「導致」，填入後的「lead support to」無法表達提供佐證。\n❌ (C) 「rent」指付費租用，與研究結果支持假設的語境不合。\n❌ (D) 「rave about」可表示「對……讚不絕口」，不能搭配「support to」表示支持。\n📚 出處：英文慣用語「lend support to 表示提供佐證」"
   },
   {
    "n": 34,
@@ -495,7 +498,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_34.webp"
+   "fig": "img/q/107070_301_0202_34.webp",
+   "exp": "✅ (C) 研究發現弟妹較外向，與「長子女較外向」的說法相矛盾。「contradicts」正好點出研究結果與這項假設不一致。\n❌ (A) 「opposes」指採取反對立場，句中要表達的是證據與假設之間的矛盾。\n❌ (B) 「oppresses」指壓迫人或群體，無法描述研究與假設的關係。\n❌ (D) 「contracts」可指收縮或締約，均不符合句意。\n📚 出處：英文詞彙辨析「contradict 與 oppose」"
   },
   {
    "n": 35,
@@ -510,7 +514,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "needfig": true,
    "fig": "img/q/107070_301_0202_35.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 句中比較手足關係的影響與親子關係的影響。「that」代替前面的單數名詞「influence」，「that of」即「……的影響」。\n❌ (A) 「those」用來代替複數名詞，此處被代替的是單數的「influence」。\n❌ (C) 「which of」用於從一組事物中指出哪一個，此處沒有選擇之意。\n❌ (D) 「part of」指「……的一部分」，會把比較對象變成親子關係的一部分。\n📚 出處：英文文法「比較句中以 that 或 those 代替重複名詞」"
   },
   {
    "n": 36,
@@ -525,7 +530,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_36.webp"
+   "fig": "img/q/107070_301_0202_36.webp",
+   "exp": "✅ (A) 「be broken down into」意為「被劃分為」。後面列出耐久財、非耐久財與服務，正是把消費支出分成三類。\n❌ (B) 「add up」指加總，題句是把總支出分項列出。\n❌ (C) 「pile up」指堆積，不能表達依支出性質分類。\n❌ (D) 「run down」可指耗盡，與後面列舉三類支出的句意不合。\n📚 出處：英文片語「break down into 表示分解或分類」"
   },
   {
    "n": 37,
@@ -540,7 +546,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_37.webp"
+   "fig": "img/q/107070_301_0202_37.webp",
+   "exp": "✅ (B) 「release」可指正式公布數據。政府每月公布消費者信心指數，讓人了解消費者對經濟的看法。\n❌ (A) 「relates」可指敘述或使事物產生關聯，沒有發布指數之意。\n❌ (C) 「relieves」指緩解痛苦或壓力，與指數的發布無關。\n❌ (D) 「replaces」指取代，文中沒有更換指數的意思。\n📚 出處：英文詞彙搭配「release 表示公布統計數據」"
   },
   {
    "n": 38,
@@ -570,7 +577,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/107070_301_0202_39.webp"
+   "fig": "img/q/107070_301_0202_39.webp",
+   "exp": "✅ (A) 「give way to」意為「讓位給」。消費者縮減開支時，會把原本在有桌邊服務的餐廳用餐改成吃速食。\n❌ (B) 「give up」指放棄，不能與題中的「to fast food」組成表示替代的片語。\n❌ (C) 「give out」可指分發或耗盡，無法表達用餐選擇的改變。\n❌ (D) 「give away」指贈送或洩露，與句意不合。\n📚 出處：英文片語「give way to 表示讓位或被取代」"
   },
   {
    "n": 40,
@@ -585,7 +593,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
    ],
    "needfig": true,
    "fig": "img/q/107070_301_0202_40.webp",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「complementary products」指搭配使用的互補品，例如印表機與墨水。替代品與互補品的價格都可能影響某項商品的需求。\n❌ (A) 「complimentary」可指免費贈送或表示讚美，容易與「complementary」混淆。\n❌ (C) 「compensatory」意為補償性的，指彌補損失。\n❌ (D) 「compulsory」意為強制性的，與商品之間的需求關係無關。\n📚 出處：經濟英文「替代品與互補品」"
   },
   {
    "n": 41,
@@ -654,7 +663,8 @@ window.APP_EXAM_PAPERS['rai-107-1-raia002'] = {
     "The poor are denied getting financial services.",
     "Poverty is a result of interactions among institutions and people.請依下文回答第 46 題至 50 題：The festival of San Fermin, or the Running of the Bulls as it is more commonly known outside Spain, is held"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 題目問哪一項未被提及。作者將貧窮歸因於人們建立的經濟與社會制度，全文沒有提到貧窮會代代相傳。\n❌ (B) 作者主張為窮人創造就業與收入機會，並指出傳統經濟學忽略自僱，已談及工作機會不足。\n❌ (C) 作者呼籲銀行提供金融服務給最貧困的人，明確談到窮人被拒於銀行門外的問題。\n❌ (D) 作者討論制度與人之間的互動，也指出相關政策造成貧窮，文中已涉及此說法。\n📚 出處：英文閱讀理解「辨識文中未提及的訊息」"
   },
   {
    "n": 46,
