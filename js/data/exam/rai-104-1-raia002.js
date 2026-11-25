@@ -530,7 +530,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
     "lobbying",
     "modifying請依下文回答第 38 題至第 40 題If you want to actively keep the marriage happy, how do you do that? Don't fix the bad, but 38 the good. Research"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「lobby 人或機構 to do something」意為遊說對方採取行動。石油公司花了數百萬歐元遊說國會通過法案。\n❌ (A) 「deriding」是嘲弄，無法表達爭取國會支持法案的意思。\n❌ (B) 「laundering」可指洗錢，這時受詞應是資金，題中的受詞是國會。\n❌ (D) 「modifying」是修改。若指修改法案，受詞應是法案本身。\n📚 出處：英語動詞搭配「lobby someone to do something」"
   },
   {
    "n": 38,
@@ -545,7 +546,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_38.webp"
+   "fig": "img/q/104070_131_0202_38.webp",
+   "exp": "✅ (C) 「the good」指婚姻中美好的部分。「increase the good」就是讓美好的事更多，呼應維持婚姻幸福的目標。\n❌ (A) 「decline」作及物動詞時指婉拒，放在此處會變成拒絕美好的事物。\n❌ (B) 「delete」指刪除，會使美好的部分變少，與文意相反。\n❌ (D) 「ignite」指點燃，可引申為激起熱情，與此處的「the good」搭配不自然。\n📚 出處：英語克漏字判讀「上下文對比與動詞搭配」"
   },
   {
    "n": 39,
@@ -590,7 +592,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_41.webp"
+   "fig": "img/q/104070_131_0202_41.webp",
+   "exp": "✅ (B) 「In other words」意為「換句話說」。後句說二十多歲的人仍像青少年，正好用白話解釋前句的「青春期延長」。\n❌ (A) 「In contrast」表示對比，但前後兩句表達相同觀點。\n❌ (C) 「In detail」指詳細地說明，後句只換個說法，沒有補充細節。\n❌ (D) 「In doubt」表示尚有疑問，後句並未質疑前句的說法。\n📚 出處：英語篇章銜接「用轉承語重述前意」"
   },
   {
    "n": 42,
@@ -605,7 +608,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 2,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_42.webp"
+   "fig": "img/q/104070_131_0202_42.webp",
+   "exp": "✅ (C) 「but」連接「leave」與「later return」兩個動作。年輕人離開父母家，後來卻像迴力鏢般回來，語意形成轉折。\n❌ (A) 「as to」意為「關於」，無法連接離家與返家兩個動作。\n❌ (B) 「or」表示二選一，文中兩個動作先後都發生了。\n❌ (D) 「so that」常表示目的；年輕人離家並非為了日後返家。\n📚 出處：英語文法「對等連接詞與並列動詞」"
   },
   {
    "n": 43,
@@ -620,7 +624,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_43.webp"
+   "fig": "img/q/104070_131_0202_43.webp",
+   "exp": "✅ (D) 「are frustrated with」表示「對……感到失望或不耐」。下文有人抱怨年輕人怎麼還不長大，正流露出這種不滿。\n❌ (A) 「are consistent with」表示「與……一致」，無法表達抱怨的態度。\n❌ (B) 「have modified」表示已修改某事物，「with」後接年輕人無法表達對他們的評價。\n❌ (C) 表示「對……滿意」應用「are satisfied with」，而且滿意也與下文語氣相反。\n📚 出處：英語形容詞搭配「be frustrated with」與上下文語氣判讀"
   },
   {
    "n": 44,
@@ -635,7 +640,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_44.webp"
+   "fig": "img/q/104070_131_0202_44.webp",
+   "exp": "✅ (A) 先行詞「the one time of your life」指人生中的一段時期。後面的子句主詞、動詞齊全，用關係副詞「when」表示「在那段時間」。\n❌ (B) 「which」單獨使用時須在關係子句中充當主詞或受詞，此處缺的是時間副詞。\n❌ (C) 「what」本身已包含先行詞的意思，不能再接在「time」後修飾它。\n❌ (D) 「how」表示方式，與此處要說明的時間不符。\n📚 出處：英語文法「關係副詞 when 與時間先行詞」"
   },
   {
    "n": 45,
@@ -650,7 +656,8 @@ window.APP_EXAM_PAPERS['rai-104-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/104070_131_0202_45.webp"
+   "fig": "img/q/104070_131_0202_45.webp",
+   "exp": "✅ (B) 「on your own」指獨立自主。前文說二十多歲的人可以自己決定去哪裡、體驗什麼，因此這裡指享受獨立生活的自由。\n❌ (A) 「up hill」表示往坡上走，與自主安排生活無關。\n❌ (C) 「off and on」意為斷斷續續，描述事情發生的頻率。\n❌ (D) 「one at a time」意為一次一個，描述逐一進行的方式。\n📚 出處：英語慣用語「on your own」"
   },
   {
    "n": 46,
