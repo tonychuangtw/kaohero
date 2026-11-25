@@ -846,6 +846,17 @@
     "nsi-111-1-nsia003"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "110 年國家安全情報人員特考",
+   "pids": [
+    "nsi-110-1-nsia002",
+    "nsi-110-1-nsia003",
+    "nsi-110-1-nsib006",
+    "nsi-110-1-nsib007",
+    "nsi-110-1-nsib008"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -950,17 +961,5 @@
    "day": "2026-11-25"
   }
  ],
- "preparing": [
-  {
-   "name": "110 年國家安全情報人員特考",
-   "pids": [
-    "nsi-110-1-nsia002",
-    "nsi-110-1-nsia003",
-    "nsi-110-1-nsib006",
-    "nsi-110-1-nsib007",
-    "nsi-110-1-nsib008"
-   ],
-   "holdAssets": true
-  }
- ]
+ "preparing": []
 }
