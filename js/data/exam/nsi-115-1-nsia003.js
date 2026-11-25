@@ -26,7 +26,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "勞資糾紛之調解與仲裁之立法",
     "國家人權委員會之設立"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 設立國家人權委員會的直接目的在監督與促進人權。社會國原則則要求國家積極改善人民生活、建立社會保障。\n❌ (A) 推行全民健保，讓人民共同分擔疾病帶來的經濟風險，屬於社會保障。\n❌ (B) 憲法要求國家制定法律、實施政策，以改善勞工及農民的生活。\n❌ (C) 以法律建立勞資糾紛調解與仲裁制度，是憲法明列的社會安全措施。\n📚 出處：[憲法第153、154條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001)、憲法增修條文第10條第5項"
   },
   {
    "n": 2,
@@ -39,7 +40,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "憲法第 138 條：「全國陸海空軍，須超出個人、地域及黨派關係以外，效忠國家，愛護人民。」及第 139條：「任何黨派及個人不得以武裝力量為政爭之工具。」即係「軍隊國家化」概念之具體展現",
     "依司法院釋字第 250 號解釋意旨，現役軍人辦理外職停役後轉任文官者，並未違反憲法禁止現役軍人兼任文官規定之意旨"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 現行制度採軍政、軍令一元化。總統行使統帥權，依法責成國防部部長，由部長命令參謀總長指揮執行。\n❌ (A) 憲法第137條第2項要求以法律規定國防組織，國防法第1條明列其憲法依據。\n❌ (C) 軍人應效忠國家，黨派與個人不得以武裝力量從事政爭，兩者均體現軍隊國家化。\n❌ (D) 釋字第250號認為，軍人依法辦理外職停役後轉任文官，已無現役與文官身分重疊的問題。\n📚 出處：[國防法第1、8條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=F0010030)、憲法第137至140條、司法院釋字第250號"
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "軍事審判程序在非戰時之性質為司法程序，在戰時之性質為行政程序",
     "軍事審判程序在非戰時之性質為行政程序，在戰時之性質為司法程序"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 軍事審判裁判被告是否犯罪及應受何種刑罰，屬國家刑罰權的行使，具有司法程序的性質。\n❌ (A) 判斷依據是審判機關所執行的職能，不能因機關設於軍事體系就認作行政程序。\n❌ (C) 戰時縱有不同的程序設計，審判犯罪仍屬司法。\n❌ (D) 非戰時的軍事審判同樣裁判刑事責任，也具有司法性質。\n📚 出處：[司法院釋字第436號，軍事審判與正當法律程序](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310617)"
   },
   {
    "n": 4,
@@ -65,7 +68,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "公立學校學生，對於學校侵害其受教育權以外權利之公權力措施，均可提起行政爭訟",
     "法律未給予初次受有罪判決之人有至少一次上訴的救濟機會，與憲法訴訟權保障無違"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 被告首次受有罪判決，至少應有一次上訴機會。即使第一審無罪、第二審才改判有罪，也應能請求上級法院審查。\n❌ (A) 法官與案件有利害衝突時應迴避，以保障當事人受公平審判的權利。\n❌ (B) 依釋字第378號，律師懲戒覆審決議相當於終審裁判，不能再循行政爭訟救濟。\n❌ (C) 公立學校的公權力措施侵害學生其他權利時，學生也可依措施性質提起相應的行政爭訟。\n📚 出處：司法院[釋字第378號](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310559)、第752、761、784號"
   },
   {
    "n": 5,
@@ -78,7 +82,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "係鑒於保障婦女之人身安全",
     "係鑒於軍隊武器使用設計之性別差異"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 釋字第490號認為，立法者得考量男女生理差異及由此所生的社會生活角色差異，規定男子依法服兵役。\n❌ (B) 解釋並未以男女適應團體生活的能力作為區分依據。\n❌ (C) 保護婦女人身安全並非這號解釋認可兵役差別待遇的理由。\n❌ (D) 解釋理由未涉及武器設計是否適合特定性別。\n📚 出處：憲法第20條、兵役法第1條、司法院釋字第490號"
   },
   {
    "n": 6,
@@ -91,7 +96,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "人性尊嚴",
     "訴訟權"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 憲法第8條直接規定限制人身自由的條件。例如，除現行犯逮捕另有規定外，逮捕、拘禁人民須由司法或警察機關依法定程序辦理。\n❌ (B) 憲法第11條保障言論自由，其限制依第23條等規範審查。\n❌ (C) 人性尊嚴是基本權保障的基礎，憲法未另列限制尊嚴的特別程序。\n❌ (D) 憲法第16條保障訴訟權，未列如同第8條的特別限制條件。\n📚 出處：[憲法第8、11、16、23條，基本權限制](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001)"
   },
   {
    "n": 7,
@@ -104,7 +110,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "宣戰",
     "條約"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 審計長負責審核中央政府決算，再向立法院提出審核報告。立法院審議報告，與執行審計是不同職權。\n❌ (A) 行政院提出預算案後，由立法院議決政府得支用的預算。\n❌ (C) 宣戰案屬憲法第63條明列的立法院議決事項。\n❌ (D) 總統有締結條約之權，立法院有議決條約案之權。\n📚 出處：[憲法第38、63、105條，立法與審計職權](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001)"
   },
   {
    "n": 8,
@@ -117,7 +124,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "人民依法享有之社會保險給付請求權，亦受財產權之保障",
     "憲法財產權之保障，不包括使人民之財產免於受到第三人之侵害"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 財產權保障也要求國家建立制度，使人民的財產免受第三人侵害。選項將這層保障排除，範圍過窄。\n❌ (A) 所有人得使用財產、取得收益及決定是否移轉，都是財產權保障的權能。\n❌ (B) 法人及非法人團體就性質上可歸屬於團體的財產利益，也可受保障。\n❌ (C) 依法取得的社會保險給付請求權具有財產價值，例如國民年金的遺屬年金請求權。\n📚 出處：憲法第15條、司法院[釋字第400號](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310581)、[第766號](https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310947)"
   },
   {
    "n": 9,
@@ -130,7 +138,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "地方自治團體就此種類型之案件聲請憲法法庭裁判，並無聲請期間之規定",
     "憲法訴訟法施行後，其他法律所定得聲請司法院解釋者，仍須符合憲法訴訟法所定之各該訴訟類型及其要件，憲法法庭始得受理"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 此類案件有聲請期限。地方自治團體應在不利確定終局裁判送達後六個月的不變期間內聲請。\n❌ (A) 憲法訴訟法施行後，此類案件應循第83條，不能再單憑地方制度法第30條第5項直接聲請。\n❌ (B) 須先用盡審級救濟，再就侵害地方自治權的不利確定終局裁判聲請。\n❌ (D) 其他法律雖有聲請解釋的文字，聲請仍須符合憲法訴訟法規定的類型與要件。\n📚 出處：憲法訴訟法第1條第2項、第83條、[憲法法庭111年憲判字第6號](https://cons.judicial.gov.tw/docdata.aspx?fid=38&id=309577)"
   },
   {
    "n": 10,
@@ -143,7 +152,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "地方行政首長因民選緣故，不得予以解職",
     "自治條例經中央主管機關不予核定，而無從生效，其效果與生效後之函告無效相同"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 應經核定的自治條例遭拒絕核定，就無從生效。就地方不能實施該條例而言，與生效後遭函告無效的效果相同。\n❌ (A) 監督機關認定自治條例牴觸上位法規時，得依法函告無效，無須先取得法院裁判。\n❌ (B) 對地方自治事項原則上作合法性監督，不能只因中央認為另有更合適的做法就加以否決。\n❌ (C) 民選首長如有法律明定的解職事由，仍可依法解職。\n📚 出處：[憲法法庭111年憲判字第6號](https://cons.judicial.gov.tw/docdata.aspx?fid=38&id=309577)、[地方制度法第30、75、79條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003)"
   },
   {
    "n": 11,
@@ -156,7 +166,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "行為時因故意或過失自行招致精神障礙或其他心智缺陷，致不能辨識其行為違法者",
     "行為時因精神障礙或其他心智缺陷致雖能辨識其行為違法，但欠缺依其辨識而行為之能力者"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 責任能力包括辨識違法及依辨識控制行為的能力。行為時因精神障礙完全欠缺控制能力，即使知道違法，仍符合不罰要件。\n❌ (A) 滿80歲者得減輕其刑，年齡本身不使其免罰。\n❌ (B) 年齡上不罰的界線是未滿14歲。剛滿14歲者已屬得減刑的年齡層。\n❌ (C) 故意或過失自行招致該狀態者，不適用刑法第19條前兩項的不罰或減刑規定。\n📚 出處：[刑法第18、19條，刑事責任能力](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)"
   },
   {
    "n": 12,
@@ -169,7 +180,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "甲必須先復職，乙再給予 1 星期產假",
     "甲並未生產，育嬰留職停薪期滿前已有 1 星期休養，乙無須另行給予產假"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 妊娠滿三個月流產，法定產假為四星期。扣除流產日至復職前已過的一星期，甲仍可續休「4－1＝3星期」。\n❌ (A) 產假依妊娠期間及流產事實認定，雇主事前是否知道懷孕不影響權利。\n❌ (C) 復職日仍在法定產假期間，可直接續休剩餘三星期，無須先工作一天。\n❌ (D) 流產也有法定產假，復職前休養一星期只影響剩餘日數。\n📚 出處：性別平等工作法第15條第1項、[同法施行細則第8條](https://laws.mol.gov.tw/FLAW/PrintFLAWDOC01.aspx?flno=8&id=FL015150)"
   },
   {
    "n": 13,
@@ -182,7 +194,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "臺北高等行政法院",
     "臺北地方法院行政訴訟庭"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 法律指定由中央政府所在地的高等法院專屬管轄。選項所指是在臺北的「臺灣高等法院」，這才是法院的正式名稱。\n❌ (A) 臺北地方法院屬地方法院，與法律指定的法院層級不同。\n❌ (C) 臺北高等行政法院審理行政訴訟，總統選舉罷免訴訟另有專屬管轄規定。\n❌ (D) 本類案件由普通法院設選舉法庭審理，地方法院行政訴訟庭並無管轄權。\n📚 出處：[總統副總統選舉罷免法第110至112條](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020053)"
   },
   {
    "n": 14,
@@ -195,7 +208,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "A 公司應作成合併契約",
     "甲之股票當然移轉給 A 公司"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 口頭異議經記錄，只是行使股份收買請求權的要件之一。異議一經記錄，股份不會因此自動移轉給公司。\n❌ (A) 甲依法表示異議並放棄表決權後，得依程序請求公司按當時公平價格收買股份。\n❌ (B) 公司法明定，符合異議要件的股東得放棄表決權。\n❌ (C) 公司合併時，董事會應就合併事項作成合併契約，提出於股東會。\n📚 出處：[公司法第317條第1項，異議股東之股份收買請求權](https://laws.gov.taipei/law/LawSearch/LawChapterArticle/FL011292?chapterno=22)"
   },
   {
    "n": 15,
@@ -208,7 +222,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "降級",
     "記過"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 政務人員得受撤職處分。其效果是撤去現職，並在一年以上、五年以下的期間停止任用。\n❌ (B) 休職是暫停職務的懲戒，法律明定對政務人員不適用。\n❌ (C) 降級涉及降低任用等級，也是法律對政務人員排除的處分。\n❌ (D) 記過雖列在公務員懲戒處分中，政務人員依法不適用。\n📚 出處：[公務員懲戒法第9、12條，懲戒處分之種類及效力](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030155)"
   },
   {
    "n": 16,
@@ -221,7 +236,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "無因管理",
     "代理權之授與"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 授與代理權，使代理人有權以本人名義為法律行為。單憑授權，代理人並不負替本人辦事的給付義務；該義務可另來自委任契約。\n❌ (A) 侵權行為成立時，加害人依法負損害賠償義務。\n❌ (B) 無法律上原因受利益，致他人受損害，會發生返還利益之債。\n❌ (C) 適法的無因管理可使管理人取得必要或有益費用的償還請求權。\n📚 出處：[民法第167、176、179、184條，代理權授與及法定之債](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001)"
   },
   {
    "n": 17,
@@ -234,7 +250,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "調動後之新工作地點較原本職位之地點為遠，屬於勞工須自行負擔之成本，因此雇主不需給予勞工協助",
     "調動不須為雇主經營上所需，可完全憑雇主之喜好調動勞工"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 調職後的工作必須是勞工體能及技術可勝任的工作。雇主行使調動權，還須遵守勞動契約及其他調動原則。\n❌ (B) 調動不得使工資或其他勞動條件受到不利變更。\n❌ (C) 新工作地點過遠時，雇主應提供必要協助，例如協助解決交通問題。\n❌ (D) 調動須基於企業經營上的必要，也不得有不當動機或目的。\n📚 出處：[勞動基準法第10條之1，調動工作五原則](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=N0030001)"
   },
   {
    "n": 18,
@@ -247,7 +264,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "為促使法院監督行政，我國將行政訴願制度廢除，改由行政法院保障人民權利",
     "為讓人民能便利接近使用司法，我國行政訴訟制度目前設置有巡迴庭與遠距法庭"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 簡易訴訟等案件如距管轄法院過遠，法院可採巡迴法庭或遠距審理，減少當事人往返法院的負擔。\n❌ (A) 現行行政訴訟採三級二審，個案原則上經兩個審級終結。\n❌ (B) 112年新制施行後，原地方法院行政訴訟庭業務已移由高等行政法院地方行政訴訟庭辦理。\n❌ (C) 訴願制度仍存在，撤銷訴訟原則上須先經訴願程序。\n📚 出處：行政訴訟法第4條、第232條第2項、[司法院行政訴訟巡迴法庭說明](https://www.judicial.gov.tw/tw/cp-1358-1515514-6e2f7-1.html)"
   },
   {
    "n": 19,
@@ -260,7 +278,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "國際條約效力高於憲法",
     "地方自治規則效力高於地方自治條例"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 大法官就憲法所作的解釋拘束各機關。行政機關發布解釋性行政規則時，也必須遵守該解釋。\n❌ (A) 增修條文與憲法本文同具憲法位階；就修正事項優先適用，不代表位階較高。\n❌ (C) 條約的締結與國內適用仍受憲法拘束，不能以條約排除憲法。\n❌ (D) 自治規則牴觸同一地方自治團體的自治條例時無效。\n📚 出處：司法院釋字第185號、行政程序法第159條、[地方制度法第30條](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003)"
   },
   {
    "n": 20,
@@ -273,7 +292,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "反對解釋",
     "歷史解釋"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 只因某行為也違背立法目的，就把它納入法條可能文義以外的處罰範圍，會構成不利於行為人的類推，違反罪刑法定原則。\n❌ (A) 合憲性限縮是依憲法要求縮小規定的適用範圍，不會因此增加可罰行為。\n❌ (C) 反對解釋可從法定要件推知，不具備該要件的情形不適用該處罰。\n❌ (D) 查考立法沿革有助釐清條文意義，在可能文義內使用並無不可。\n📚 出處：[刑法第1條，罪刑法定主義與禁止不利類推](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=C0000001)"
   },
   {
    "n": 21,
@@ -299,7 +319,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "以民間醫療協會幹部的身分在日本和中國大陸的醫學專家一同出席醫療交流活動",
     "以民間協會理事長的身分與大陸的省台辦所屬機構簽署衛生議題之合作備忘錄"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 省台辦所屬機構涉及對臺政治工作。民間協會與其簽署合作備忘錄，須先經主管機關許可，即使合作主題是衛生也一樣。\n❌ (A) 與無題述政治背景的學者單純出席專業研討會，未顯示有受管制的合作行為。\n❌ (B) 個人經小三通赴陸進香，僅憑這項事實，並未構成與特定機關合作。\n❌ (C) 與醫學專家同場出席活動，單憑出席本身不構成須許可的合作。\n📚 出處：[臺灣地區與大陸地區人民關係條例第33條之1第1項第1款](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=Q0010001)"
   },
   {
    "n": 23,
@@ -312,7 +333,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "兩岸高等教育學位文書驗證的主管機關為教育部",
     "舉辦兩岸書展與影展，主管機關為外交部"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 宗教事務屬內政部職掌，因此兩岸宗教交流的宗教業務由內政部主管。\n❌ (B) 兩岸人民關係條例的主管機關是大陸委員會，個別業務再由各目的事業主管機關辦理。\n❌ (C) 教育部主管學歷採認。大陸公證文書在臺使用所需的驗證，則由海基會等依法受託機構辦理。\n❌ (D) 書展與影展涉及出版及影視文化交流，屬文化部業務。\n📚 出處：內政部組織法第2條、兩岸人民關係條例第2條之1、第7條、[陸委會文書驗證說明](https://www.mac.gov.tw/News_Content.aspx?n=02BEEFEAF49A5225&s=67AD36617512B063&sms=7C8440BC86E48FD9)"
   },
   {
    "n": 24,
@@ -325,7 +347,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "第四任",
     "第五任"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 習近平於2012、2017、2022年先後開始三任中共總書記，若2027年再連任，即為第四任。國家主席另由全國人大選舉，正常換屆在次年。\n❌ (A) 第二任總書記已於2017年開始。\n❌ (B) 2022年已是第三任總書記，2023年也已開始第三任國家主席。\n❌ (D) 從第三任再連任一次，只增加一個任期，尚未到第五任。\n📚 出處：[中共二十屆一中全會與十四屆全國人大一次會議，黨政職務換屆](https://www.moj.gov.cn/pub/sfbgwapp/jryw/202303/t20230314_474395.html)"
   },
   {
    "n": 25,
@@ -338,7 +361,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "中央軍委主席",
     "中共中央對台工作領導小組組長"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 國務院總理主持國務院工作。依近年中共高層分工，此職通常由另一位政治局常委擔任。\n❌ (B) 中共中央總書記是最高領導人主持黨中央工作的主要職務。\n❌ (C) 最高領導人通常兼任中央軍委主席，掌理軍事領導職權。\n❌ (D) 中共中央對臺工作領導小組負責統籌對臺政策，其組長通常由最高領導人兼任。\n📚 出處：大陸委員會[〈中國大陸對臺工作組織體系與人事〉，中央對臺工作領導小組](https://ws.mac.gov.tw/001/Upload/295/relfile/7845/81586/d5a7b2c0-8495-4364-ac18-e20c0d8994b2.pdf)"
   },
   {
    "n": 26,
@@ -351,7 +375,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "要求對祖國、民族、文化、黨與社會主義之認同",
     "要求增進臺灣人民對中華民族的歸屬感、認同感、榮譽感"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 第63條明定，境外組織或個人針對中國實施破壞民族團結進步、製造民族分裂的行為，依法追究責任。選項錯在一概排除境外對象。\n❌ (A) 第10條明定，中國公民負有維護國家統一及各民族團結的義務。\n❌ (C) 第11條列出對祖國、中華民族、中華文化、中共及中國特色社會主義的認同。\n❌ (D) 法文確實將增進臺灣人民對中華民族的歸屬感、認同感及榮譽感列為政策目標。\n📚 出處：[中華人民共和國民族團結進步促進法第10、11、63條及兩岸交流規定](https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_a91340a51a38461eaec1b8fb48291d66.html)"
   },
   {
    "n": 27,
@@ -364,7 +389,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "廣東省",
     "福建省"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 2023年中共中央、國務院公布政策文件，明確指定在福建全省建設兩岸融合發展示範區，並將廈門與金門、福州與馬祖的交流列為重點。\n❌ (A) 上海雖有對臺城市交流，並非這項文件指定的示範區。\n❌ (B) 江蘇有臺商聚集的昆山，但不在本題所問的福建全域政策範圍。\n❌ (C) 廣東雖有經濟特區，與2023年指定的兩岸融合發展示範區不同。\n📚 出處：[中共中央、國務院《關於支持福建探索海峽兩岸融合發展新路、建設兩岸融合發展示範區的意見》總體要求](https://www.cppcc.gov.cn/zxww/2023/09/13/ARTI1694567800266155.shtml)"
   },
   {
    "n": 28,
@@ -377,7 +403,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "陸委會主委",
     "外交部政務次長"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 政黨主席本身不是本條列管的公職。若同一人曾任法定職務，才會因該段公職經歷受規範。\n❌ (A) 曾任國安局局長者屬情報機關首長，在規範範圍內。\n❌ (C) 陸委會主委是大陸事務主管機關首長，依陸委會解釋屬列管對象。\n❌ (D) 外交部政務次長屬外交機關政務副首長。本條禁止列管人員在指定活動中有妨害國家尊嚴的行為。\n📚 出處：兩岸人民關係條例第9條之3、[陸委會《兩岸條例暨施行細則解釋彙編》第9條之3釋例](https://ws.mac.gov.tw/001/Upload/295/relfile/0/5466/03d50746-8dec-4afb-9cc3-52f367102147.pdf)"
   },
   {
    "n": 29,
@@ -390,7 +417,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "①②③④⑤",
     "①③④⑤"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 依題設的政治動員脈絡，①借藝人傳達認同，②散布真假混雜的訊息，③以資金影響報導，④控制既有社群的發言管道，⑤以抵制施壓，均符合題述銳實力概念。\n❌ (A) 漏掉④。控制既有社群帳號，能影響原有受眾接觸的訊息。\n❌ (B) 漏掉①。題設將國慶獻唱置於對臺政治宣傳的情境中。\n❌ (D) 漏掉②。透過社群傳播真假難辨的內容，也是操縱資訊環境。\n📚 出處：[銳實力的概念，資訊操縱、媒體影響與經濟脅迫](https://www.ned.org/wp-content/uploads/2021/06/Executive-Summary-A-Full-Spectrum-Response-to-Sharp-Power-Walker-Ludwig-June-2021.pdf)"
   },
   {
    "n": 30,
@@ -403,7 +431,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "廢除新常態經濟，建立農工商互助合作社",
     "施行「一帶一路」政策，籌組並主導跨國經濟帶"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 1980年代的改革開放引進外資、准許個體經營，以增加生產與收入。直接攸關糧食增產的農村改革則是家庭聯產承包責任制。\n❌ (A) 由生產隊集體經營、分配糧食，屬改革前的人民公社體制。\n❌ (C) 「新常態」是數十年後描述經濟發展階段的用語，當時並無此制度可供廢除。\n❌ (D) 「一帶一路」於2013年提出，時間晚於題述改革初期。\n📚 出處：[中國經濟體制改革史，農村承包制、個體經濟與經濟特區](https://www.ndrc.gov.cn/fggz/tzgg/byggdt/200606/t20060605_1021728.html)"
   },
   {
    "n": 31,
@@ -542,7 +571,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "offering",
     "pursuing請依下文回答第 41 題至第 45 題At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two trains"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「implying that」意為「這顯示……」。五月出口成長3%是推論的依據，顯示經濟表現可能比許多投資人原先估計的更強。\n❌ (A) 「connecting」指連結事物，句中沒有要連結的兩個對象。\n❌ (C) 「offering」指提供，如提供機會或協助，無法表達數據所暗示的結論。\n❌ (D) 「pursuing」指追求目標或從事活動，與解讀出口數據的語意不合。\n📚 出處：英語文法與詞彙，現在分詞補充前句及「imply that」的用法"
   },
   {
    "n": 41,
@@ -631,7 +661,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "Laundry baskets for dirty clothes."
    ],
    "psg": "So your clothes are kept in the basket or splayed on your bed for a little bit too long. According to Jeff Rice, an ADHD coach and author, the cluttered floordrobe could be a symptom of attention-deficit/hyperactivity disorder (ADHD). However, one expert said we should not jump to conclusion. In a social media video, Jeff Rice explains that a floordrobe is a place, typically on the floor, where people leave either clean or not quite dirty clothes. The garments may sit in a basket or in a pile on a chair or the floor for days to weeks, whether they’re freshly laundered or have the potential to be worn a second time. Rice said, “To some people, the chore of putting away clothing isn’t interesting, urgent or challenging. So they put it off until it becomes urgent when all the laundry baskets are full of their clothes, but now they need the baskets to do laundry.” In the video, Rice indicated the dreaded floordrobe could be a symptom of ADHD in some people. On the other hand, Alma Spaniardi, a psychiatrist at Cornell Medical Center, said that having an ongoing clothes pile could indeed be a sign, but not necessarily. She said people with ADHD could certainly have a floordrobe since having difficulty following through with multi-step tasks, failing to finish chores or avoiding tasks that require effort fall under the inattentive symptoms of ADHD. Those with ADHD “may also lose belongings frequently, make careless mistakes and have difficulty being organized or focused. They may seem like they aren’t listening when spoken to, like they have their head in the clouds, but they focus more easily on activities that are interesting to them,” she explained. However, Spaniardi warns that laundry clutter isn’t necessarily diagnostic of ADHD. She said there could be many other causes for this phenomenon, including avoidance of the task due to anxiety or just being very busy for a period of time causing them to put off doing chores. She urged people to seek out a professional and to avoid a self-diagnosis based on one habit or a social media video alone. “While the information might be valid, mental health diagnosis is more complicated than just the identification of one symptom alone.”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 第二段舉例，洗好或還能再穿的衣物，可能留在籃中，或堆在椅子、地板上。「floordrobe」指的就是這種未收起的衣物堆或堆放處。\n❌ (A) 衣物若已收進衣櫃，就不符合文中擱置未收的情境。\n❌ (C) 第二段談的是衣物放在哪裡，未提到清潔地板的用品。\n❌ (D) 重點是堆放的衣物，籃子只是可能的位置，而且衣物也可能剛洗乾淨。\n📚 出處：題組文章第二段，依定義及舉例判讀詞義"
   },
   {
    "n": 47,
@@ -645,7 +676,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "Cluttered laundry piles could be a sign of ADHD."
    ],
    "psg": "So your clothes are kept in the basket or splayed on your bed for a little bit too long. According to Jeff Rice, an ADHD coach and author, the cluttered floordrobe could be a symptom of attention-deficit/hyperactivity disorder (ADHD). However, one expert said we should not jump to conclusion. In a social media video, Jeff Rice explains that a floordrobe is a place, typically on the floor, where people leave either clean or not quite dirty clothes. The garments may sit in a basket or in a pile on a chair or the floor for days to weeks, whether they’re freshly laundered or have the potential to be worn a second time. Rice said, “To some people, the chore of putting away clothing isn’t interesting, urgent or challenging. So they put it off until it becomes urgent when all the laundry baskets are full of their clothes, but now they need the baskets to do laundry.” In the video, Rice indicated the dreaded floordrobe could be a symptom of ADHD in some people. On the other hand, Alma Spaniardi, a psychiatrist at Cornell Medical Center, said that having an ongoing clothes pile could indeed be a sign, but not necessarily. She said people with ADHD could certainly have a floordrobe since having difficulty following through with multi-step tasks, failing to finish chores or avoiding tasks that require effort fall under the inattentive symptoms of ADHD. Those with ADHD “may also lose belongings frequently, make careless mistakes and have difficulty being organized or focused. They may seem like they aren’t listening when spoken to, like they have their head in the clouds, but they focus more easily on activities that are interesting to them,” she explained. However, Spaniardi warns that laundry clutter isn’t necessarily diagnostic of ADHD. She said there could be many other causes for this phenomenon, including avoidance of the task due to anxiety or just being very busy for a period of time causing them to put off doing chores. She urged people to seek out a professional and to avoid a self-diagnosis based on one habit or a social media video alone. “While the information might be valid, mental health diagnosis is more complicated than just the identification of one symptom alone.”",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 第二段末句把觀點歸給萊斯。他認為堆放衣物「可能」是部分人注意力不足過動症的表現，語氣保留了不確定性。\n❌ (A) 萊斯說，有些人正因為覺得收衣服無趣、也不急，才會一再拖延。\n❌ (B) 經常遺失物品是第三段精神科醫師提到的表現。\n❌ (C) 文中談到有些人難以保持條理或專注，萊斯並未主張這兩件事對某些人特別重要。\n📚 出處：題組文章第二、三段，辨識說話者及觀點"
   },
   {
    "n": 48,
@@ -659,7 +691,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "A doctor."
    ],
    "psg": "So your clothes are kept in the basket or splayed on your bed for a little bit too long. According to Jeff Rice, an ADHD coach and author, the cluttered floordrobe could be a symptom of attention-deficit/hyperactivity disorder (ADHD). However, one expert said we should not jump to conclusion. In a social media video, Jeff Rice explains that a floordrobe is a place, typically on the floor, where people leave either clean or not quite dirty clothes. The garments may sit in a basket or in a pile on a chair or the floor for days to weeks, whether they’re freshly laundered or have the potential to be worn a second time. Rice said, “To some people, the chore of putting away clothing isn’t interesting, urgent or challenging. So they put it off until it becomes urgent when all the laundry baskets are full of their clothes, but now they need the baskets to do laundry.” In the video, Rice indicated the dreaded floordrobe could be a symptom of ADHD in some people. On the other hand, Alma Spaniardi, a psychiatrist at Cornell Medical Center, said that having an ongoing clothes pile could indeed be a sign, but not necessarily. She said people with ADHD could certainly have a floordrobe since having difficulty following through with multi-step tasks, failing to finish chores or avoiding tasks that require effort fall under the inattentive symptoms of ADHD. Those with ADHD “may also lose belongings frequently, make careless mistakes and have difficulty being organized or focused. They may seem like they aren’t listening when spoken to, like they have their head in the clouds, but they focus more easily on activities that are interesting to them,” she explained. However, Spaniardi warns that laundry clutter isn’t necessarily diagnostic of ADHD. She said there could be many other causes for this phenomenon, including avoidance of the task due to anxiety or just being very busy for a period of time causing them to put off doing chores. She urged people to seek out a professional and to avoid a self-diagnosis based on one habit or a social media video alone. “While the information might be valid, mental health diagnosis is more complicated than just the identification of one symptom alone.”",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 第三段以同位語「a psychiatrist at Cornell Medical Center」介紹她。「psychiatrist」指精神科醫師，因此應選醫師。\n❌ (A) 第一段的教練是萊斯，兩人的職業不同。\n❌ (B) 她以專業身分說明症狀，文中沒有將她介紹為病人。\n❌ (C) 文中明載她從事精神醫療，沒有提到工程師的身分。\n📚 出處：題組文章第一、三段，以同位語辨識人物職業"
   },
   {
    "n": 49,
@@ -673,7 +706,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "A medical report."
    ],
    "psg": "So your clothes are kept in the basket or splayed on your bed for a little bit too long. According to Jeff Rice, an ADHD coach and author, the cluttered floordrobe could be a symptom of attention-deficit/hyperactivity disorder (ADHD). However, one expert said we should not jump to conclusion. In a social media video, Jeff Rice explains that a floordrobe is a place, typically on the floor, where people leave either clean or not quite dirty clothes. The garments may sit in a basket or in a pile on a chair or the floor for days to weeks, whether they’re freshly laundered or have the potential to be worn a second time. Rice said, “To some people, the chore of putting away clothing isn’t interesting, urgent or challenging. So they put it off until it becomes urgent when all the laundry baskets are full of their clothes, but now they need the baskets to do laundry.” In the video, Rice indicated the dreaded floordrobe could be a symptom of ADHD in some people. On the other hand, Alma Spaniardi, a psychiatrist at Cornell Medical Center, said that having an ongoing clothes pile could indeed be a sign, but not necessarily. She said people with ADHD could certainly have a floordrobe since having difficulty following through with multi-step tasks, failing to finish chores or avoiding tasks that require effort fall under the inattentive symptoms of ADHD. Those with ADHD “may also lose belongings frequently, make careless mistakes and have difficulty being organized or focused. They may seem like they aren’t listening when spoken to, like they have their head in the clouds, but they focus more easily on activities that are interesting to them,” she explained. However, Spaniardi warns that laundry clutter isn’t necessarily diagnostic of ADHD. She said there could be many other causes for this phenomenon, including avoidance of the task due to anxiety or just being very busy for a period of time causing them to put off doing chores. She urged people to seek out a professional and to avoid a self-diagnosis based on one habit or a social media video alone. “While the information might be valid, mental health diagnosis is more complicated than just the identification of one symptom alone.”",
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 文章引述教練與精神科醫師，討論衣物堆積的可能原因及診斷限制。依主題與受訪者身分，四個選項中最接近醫療健康報導。\n❌ (A) 衣物是引出健康議題的例子，文章沒有介紹流行趨勢或穿搭。\n❌ (B) 文中沒有景點、行程或交通等旅遊指南資訊。\n❌ (C) 雖然提到房內堆放衣物，全文並未討論空間配置或室內設計。\n📚 出處：題組文章全文，由主題、受訪者與寫作目的推論文本來源"
   },
   {
    "n": 50,
@@ -687,7 +721,8 @@ window.APP_EXAM_PAPERS['nsi-115-1-nsia003'] = {
     "Avoiding tasks that require effort falls under the inattentive symptoms of ADHD."
    ],
    "psg": "So your clothes are kept in the basket or splayed on your bed for a little bit too long. According to Jeff Rice, an ADHD coach and author, the cluttered floordrobe could be a symptom of attention-deficit/hyperactivity disorder (ADHD). However, one expert said we should not jump to conclusion. In a social media video, Jeff Rice explains that a floordrobe is a place, typically on the floor, where people leave either clean or not quite dirty clothes. The garments may sit in a basket or in a pile on a chair or the floor for days to weeks, whether they’re freshly laundered or have the potential to be worn a second time. Rice said, “To some people, the chore of putting away clothing isn’t interesting, urgent or challenging. So they put it off until it becomes urgent when all the laundry baskets are full of their clothes, but now they need the baskets to do laundry.” In the video, Rice indicated the dreaded floordrobe could be a symptom of ADHD in some people. On the other hand, Alma Spaniardi, a psychiatrist at Cornell Medical Center, said that having an ongoing clothes pile could indeed be a sign, but not necessarily. She said people with ADHD could certainly have a floordrobe since having difficulty following through with multi-step tasks, failing to finish chores or avoiding tasks that require effort fall under the inattentive symptoms of ADHD. Those with ADHD “may also lose belongings frequently, make careless mistakes and have difficulty being organized or focused. They may seem like they aren’t listening when spoken to, like they have their head in the clouds, but they focus more easily on activities that are interesting to them,” she explained. However, Spaniardi warns that laundry clutter isn’t necessarily diagnostic of ADHD. She said there could be many other causes for this phenomenon, including avoidance of the task due to anxiety or just being very busy for a period of time causing them to put off doing chores. She urged people to seek out a professional and to avoid a self-diagnosis based on one habit or a social media video alone. “While the information might be valid, mental health diagnosis is more complicated than just the identification of one symptom alone.”",
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 衣物堆積可能與注意力不足過動症有關，也可能源於焦慮或忙碌。作者藉醫師的說明提醒讀者，診斷應由專業人員綜合評估。\n❌ (A) 第三段明確勸讀者避免單憑社群影片或一種習慣自行診斷。\n❌ (C) 難以完成多步驟任務只是文中所舉的一項表現，未涵蓋全文結論。\n❌ (D) 逃避費力任務也是局部細節，未說明同一行為可能有多種原因。\n📚 出處：題組文章第一、三段，利用開頭提醒及結尾觀點歸納主旨"
   }
  ]
 };
