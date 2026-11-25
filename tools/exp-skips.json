@@ -7110,6 +7110,38 @@
    "at": "2026-09-18"
   }
  ],
+ "rai-102-1-raic007": [
+  {
+   "n": 3,
+   "reason": "D的「支持維護活動」涵蓋維修備料與零件供應，這些可以是物管職責。題幹未限定職掌，也未說是直接執行維修，無法可靠排除D。[維修物料支援程序](https://documents.dps.ny.gov/public/Common/ViewDoc",
+   "at": "2026-11-25"
+  },
+  {
+   "n": 6,
+   "reason": "平均法可減弱隨機波動，無法保證如A所述消除其影響。C又未限定「簡單」移動平均，廣義的移動平均確實包含加權形式，無法可靠判為單選。[OpenStax〈時間序列預測方法〉](https://openstax.org/books/principl",
+   "at": "2026-11-25"
+  },
+  {
+   "n": 24,
+   "reason": "B的付款條件會影響資金成本，實務上也有供應商評選模型明列此項。題幹未指定評選架構，無法認定只有B可排除。[清華大學商用機器人供應商評選研究](https://etd.lib.nycu.edu.tw/cgi-bin/gs32/hugsweb.",
+   "at": "2026-11-25"
+  },
+  {
+   "n": 30,
+   "reason": "B成本低廉成立，D也成立。一維條碼GS1-128可直接編入品項識別碼、批號及效期等物料資料。[GS1 Taiwan〈GS1-128條碼〉](https://www.gs1tw.org/twct/web/gs1-128.jsp)",
+   "at": "2026-11-25"
+  },
+  {
+   "n": 32,
+   "reason": "官方答案C將面積估算排在繪製活動關係圖之前。Muther的系統化布置規劃先繪不含面積的活動關係圖，再納入空間需求，符合B的順序，故不能將B判錯。[《Systematic Layout Planning》章節〈The Systematic L",
+   "at": "2026-11-25"
+  },
+  {
+   "n": 41,
+   "reason": "A水運與B鐵路都能以低單位成本運送大宗、低價、耐久貨物。題幹未限定跨海運送，也未問何者成本最低，兩項均符合。[美國運輸統計局貨物流量調查](https://www.bts.gov/archive/publications/special_r",
+   "at": "2026-11-25"
+  }
+ ],
  "rai-102-1-raic008": [
   {
    "n": 25,
