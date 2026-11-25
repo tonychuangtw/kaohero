@@ -610,6 +610,42 @@
     "rai-103-1-raic018"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "102 年鐵路特考",
+   "pids": [
+    "rai-102-1-raia002",
+    "rai-102-1-raia004",
+    "rai-102-1-raia005",
+    "rai-102-1-raia006",
+    "rai-102-1-raia007",
+    "rai-102-1-raia008",
+    "rai-102-1-raia009",
+    "rai-102-1-raib002",
+    "rai-102-1-raib003",
+    "rai-102-1-raib004",
+    "rai-102-1-raib005",
+    "rai-102-1-raib006",
+    "rai-102-1-raic001",
+    "rai-102-1-raic002",
+    "rai-102-1-raic003",
+    "rai-102-1-raic004",
+    "rai-102-1-raic005",
+    "rai-102-1-raic006",
+    "rai-102-1-raic007",
+    "rai-102-1-raic008",
+    "rai-102-1-raic009",
+    "rai-102-1-raic010",
+    "rai-102-1-raic011",
+    "rai-102-1-raic012",
+    "rai-102-1-raic013",
+    "rai-102-1-raic014",
+    "rai-102-1-raic015",
+    "rai-102-1-raic016",
+    "rai-102-1-raic017",
+    "rai-102-1-raic018"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -715,42 +751,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "102 年鐵路特考",
-   "pids": [
-    "rai-102-1-raia002",
-    "rai-102-1-raia004",
-    "rai-102-1-raia005",
-    "rai-102-1-raia006",
-    "rai-102-1-raia007",
-    "rai-102-1-raia008",
-    "rai-102-1-raia009",
-    "rai-102-1-raib002",
-    "rai-102-1-raib003",
-    "rai-102-1-raib004",
-    "rai-102-1-raib005",
-    "rai-102-1-raib006",
-    "rai-102-1-raic001",
-    "rai-102-1-raic002",
-    "rai-102-1-raic003",
-    "rai-102-1-raic004",
-    "rai-102-1-raic005",
-    "rai-102-1-raic006",
-    "rai-102-1-raic007",
-    "rai-102-1-raic008",
-    "rai-102-1-raic009",
-    "rai-102-1-raic010",
-    "rai-102-1-raic011",
-    "rai-102-1-raic012",
-    "rai-102-1-raic013",
-    "rai-102-1-raic014",
-    "rai-102-1-raic015",
-    "rai-102-1-raic016",
-    "rai-102-1-raic017",
-    "rai-102-1-raic018"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "115 年移民行政特考",
    "pids": [
