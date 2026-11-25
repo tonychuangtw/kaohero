@@ -660,6 +660,22 @@
     "imm-115-1-immc007"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "114 年移民行政特考",
+   "pids": [
+    "imm-114-1-immb003",
+    "imm-114-1-immb004",
+    "imm-114-1-immb005",
+    "imm-114-1-immb006",
+    "imm-114-1-immb007",
+    "imm-114-1-immc002",
+    "imm-114-1-immc003",
+    "imm-114-1-immc004",
+    "imm-114-1-immc005",
+    "imm-114-1-immc006"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -765,22 +781,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "114 年移民行政特考",
-   "pids": [
-    "imm-114-1-immb003",
-    "imm-114-1-immb004",
-    "imm-114-1-immb005",
-    "imm-114-1-immb006",
-    "imm-114-1-immb007",
-    "imm-114-1-immc002",
-    "imm-114-1-immc003",
-    "imm-114-1-immc004",
-    "imm-114-1-immc005",
-    "imm-114-1-immc006"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "113 年移民行政特考",
    "pids": [
