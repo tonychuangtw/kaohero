@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['imm-114-1-immc002'] = {
     "obtained",
     "overcame請依下文回答第 41 題至第 45 題In a Paris cafe or restaurant, many tourists may have complained about the poor service or the waiters’"
    ],
-   "a": 3
+   "a": 3,
+   "exp": "✅ (D) 「overcame」是「overcome」的過去式。「overcame hardship」意為「克服困境」，呼應後半句提到的堅持不放棄。\n❌ (A) 「achieved」指達成目標，如「achieved a goal」。困境是商人面對的阻礙。\n❌ (B) 「represented」指代表或象徵，無法表達商人成功度過難關。\n❌ (C) 「obtained」指取得某物，如「obtained permission」（取得許可），與克服困境的語意不合。\n📚 出處：英語詞彙與搭配用法「overcome hardship」"
   },
   {
    "n": 41,
