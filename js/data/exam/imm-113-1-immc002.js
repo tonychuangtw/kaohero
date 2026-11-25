@@ -642,7 +642,8 @@ window.APP_EXAM_PAPERS['imm-113-1-immc002'] = {
     "sticky",
     "stingy請依下文回答第 46 題至第 50 題In the supermarket, you grab a toothpaste box which has a green leaf symbol and says “eco-friendly.” You go to"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「slippery」指濕滑、容易讓人滑倒。路上的積雪正在融化，地面因而濕滑，符合前後句的因果關係。\n❌ (B) 「stormy」指有暴風雨的，用來形容天氣，無法描述路面的觸感。\n❌ (C) 「sticky」指黏黏的、有黏性的，融雪並不會讓路面產生黏性。\n❌ (D) 「stingy」指吝嗇的，通常形容人不願花錢或與人分享。\n📚 出處：英語詞彙辨析（描述路面狀態的形容詞）"
   },
   {
    "n": 46,
