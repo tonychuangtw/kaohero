@@ -779,6 +779,23 @@
     "vtr-106-1-vtrb010"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "104 年退除役軍人轉任公務人員考試",
+   "pids": [
+    "vtr-104-1-vtra008",
+    "vtr-104-1-vtra009",
+    "vtr-104-1-vtra010",
+    "vtr-104-1-vtrb003",
+    "vtr-104-1-vtrb004",
+    "vtr-104-1-vtrb005",
+    "vtr-104-1-vtrb007",
+    "vtr-104-1-vtrb008",
+    "vtr-104-1-vtrb009",
+    "vtr-104-1-vtrb010",
+    "vtr-104-1-vtrb011"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -884,23 +901,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "104 年退除役軍人轉任公務人員考試",
-   "pids": [
-    "vtr-104-1-vtra008",
-    "vtr-104-1-vtra009",
-    "vtr-104-1-vtra010",
-    "vtr-104-1-vtrb003",
-    "vtr-104-1-vtrb004",
-    "vtr-104-1-vtrb005",
-    "vtr-104-1-vtrb007",
-    "vtr-104-1-vtrb008",
-    "vtr-104-1-vtrb009",
-    "vtr-104-1-vtrb010",
-    "vtr-104-1-vtrb011"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "115 年國家安全情報人員特考",
    "pids": [
