@@ -819,6 +819,14 @@
     "nsi-114-1-nsib010"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "113 年國家安全情報人員特考",
+   "pids": [
+    "nsi-113-1-nsia002",
+    "nsi-113-1-nsia003"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -924,14 +932,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "113 年國家安全情報人員特考",
-   "pids": [
-    "nsi-113-1-nsia002",
-    "nsi-113-1-nsia003"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "112 年國家安全情報人員特考",
    "pids": [
