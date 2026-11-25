@@ -727,6 +727,23 @@
     "vtr-112-1-vtrb010"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "110 年退除役軍人轉任公務人員考試",
+   "pids": [
+    "vtr-110-1-vtra008",
+    "vtr-110-1-vtra009",
+    "vtr-110-1-vtra010",
+    "vtr-110-1-vtra011",
+    "vtr-110-1-vtrb003",
+    "vtr-110-1-vtrb004",
+    "vtr-110-1-vtrb005",
+    "vtr-110-1-vtrb007",
+    "vtr-110-1-vtrb008",
+    "vtr-110-1-vtrb009",
+    "vtr-110-1-vtrb010"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -832,23 +849,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "110 年退除役軍人轉任公務人員考試",
-   "pids": [
-    "vtr-110-1-vtra008",
-    "vtr-110-1-vtra009",
-    "vtr-110-1-vtra010",
-    "vtr-110-1-vtra011",
-    "vtr-110-1-vtrb003",
-    "vtr-110-1-vtrb004",
-    "vtr-110-1-vtrb005",
-    "vtr-110-1-vtrb007",
-    "vtr-110-1-vtrb008",
-    "vtr-110-1-vtrb009",
-    "vtr-110-1-vtrb010"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "108 年退除役軍人轉任公務人員考試",
    "pids": [
