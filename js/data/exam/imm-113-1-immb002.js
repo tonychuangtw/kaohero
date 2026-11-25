@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['imm-113-1-immb002'] = {
     "amplify",
     "strengthen請依下文回答第 41 題至第 45 題Recent societal changes have caused a questioning of the relationship between higher education institutions and"
    ],
-   "a": 0
+   "a": 0,
+   "exp": "✅ (A) 「eclipse」指「使相形失色、蓋過」。政治顧問盤算讓社會動盪等議題蓋過疫情，使選民轉移注意力，以利總統連任。\n❌ (B) 「fortify」指鞏固或加強防禦，無法表達一個議題搶走另一個議題的焦點。\n❌ (C) 「amplify」指放大，填入會變成放大疫情危機，與轉移焦點的用意相反。\n❌ (D) 「strengthen」指使更強，填入會變成加劇危機，與句意不合。\n📚 出處：英語詞彙辨析：動詞「eclipse」的引申義"
   },
   {
    "n": 41,
