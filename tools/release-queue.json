@@ -676,6 +676,24 @@
     "imm-114-1-immc006"
    ],
    "holdAssets": true
+  },
+  {
+   "name": "113 年移民行政特考",
+   "pids": [
+    "imm-113-1-imma001",
+    "imm-113-1-immb002",
+    "imm-113-1-immb003",
+    "imm-113-1-immb004",
+    "imm-113-1-immb005",
+    "imm-113-1-immb006",
+    "imm-113-1-immb007",
+    "imm-113-1-immc002",
+    "imm-113-1-immc003",
+    "imm-113-1-immc004",
+    "imm-113-1-immc005",
+    "imm-113-1-immc006"
+   ],
+   "holdAssets": true
   }
  ],
  "done": [
@@ -781,24 +799,6 @@
   }
  ],
  "preparing": [
-  {
-   "name": "113 年移民行政特考",
-   "pids": [
-    "imm-113-1-imma001",
-    "imm-113-1-immb002",
-    "imm-113-1-immb003",
-    "imm-113-1-immb004",
-    "imm-113-1-immb005",
-    "imm-113-1-immb006",
-    "imm-113-1-immb007",
-    "imm-113-1-immc002",
-    "imm-113-1-immc003",
-    "imm-113-1-immc004",
-    "imm-113-1-immc005",
-    "imm-113-1-immc006"
-   ],
-   "holdAssets": true
-  },
   {
    "name": "114 年退除役軍人轉任公務人員考試",
    "pids": [
