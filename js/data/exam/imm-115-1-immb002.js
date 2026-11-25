@@ -572,7 +572,8 @@ window.APP_EXAM_PAPERS['imm-115-1-immb002'] = {
     "offering",
     "pursuing請依下文回答第 41 題至第 45 題At 6 a.m. on 1 October 1964, two sleek trains set off in opposite directions in a daring experiment. The two"
    ],
-   "a": 1
+   "a": 1,
+   "exp": "✅ (B) 「implying」意為「顯示、暗示」。五月出口成長 3%，這項數據顯示經濟比許多投資人原先估計的更強勁。「that」引導的子句說明數據暗示的內容。\n❌ (A) 「connecting」意為「連結」，通常用「connect A to B」表示把兩者連起來。\n❌ (C) 「offering」意為「提供」，後面可接「evidence」（證據），此處不能直接接「that」子句來表達「顯示」。\n❌ (D) 「pursuing」意為「追求」，受詞通常是目標或機會，與根據數據作出推論的語意不合。\n📚 出處：英文文法「現在分詞片語補充說明前句」與動詞搭配「imply that」"
   },
   {
    "n": 41,
