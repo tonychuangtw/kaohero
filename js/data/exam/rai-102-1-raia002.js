@@ -560,7 +560,8 @@ window.APP_EXAM_PAPERS['rai-102-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/102080_301_0202_39.webp"
+   "fig": "img/q/102080_301_0202_39.webp",
+   "exp": "✅ (B) 「are intrigued by」意為「對……深感興趣」。後文說這些人很好奇，想找出更好的科技應用方式，可知他們也想了解事物如何運作。\n❌ (A) 「are afflicted with」指受疾病或困境折磨，與好奇心無關。\n❌ (C) 「are fed up with」指對某事感到厭煩，與主動探索的態度相反。\n❌ (D) 「are ignorant of」指不了解某事，只說明知識不足，無法表達興趣。\n📚 出處：英文克漏字｜表達興趣的片語與上下文線索"
   },
   {
    "n": 40,
@@ -575,7 +576,8 @@ window.APP_EXAM_PAPERS['rai-102-1-raia002'] = {
    ],
    "a": 3,
    "needfig": true,
-   "fig": "img/q/102080_301_0202_40.webp"
+   "fig": "img/q/102080_301_0202_40.webp",
+   "exp": "✅ (D) 「running the numbers」指做數據運算。擅長用數字分析商業問題，正符合「quantitative analysis」（量化分析）的特點。\n❌ (A) 「subjective」指主觀的，強調個人感受或判斷。\n❌ (B) 「superlative」指極出色的，只評價表現，沒有指出分析方法。\n❌ (C) 「qualitative」指定性的，著重事物的性質、經驗或意義；題幹強調數字運算。\n📚 出處：英文克漏字｜量化與質性分析詞彙"
   },
   {
    "n": 41,
@@ -590,7 +592,8 @@ window.APP_EXAM_PAPERS['rai-102-1-raia002'] = {
    ],
    "a": 0,
    "needfig": true,
-   "fig": "img/q/102080_301_0202_41.webp"
+   "fig": "img/q/102080_301_0202_41.webp",
+   "exp": "✅ (A) 「gravitate toward」指受吸引而自然靠近。這些人對藝術有興趣，因此容易被娛樂等創意產業吸引。\n❌ (B) 「refrain from」指克制自己、避免做某事，與受興趣吸引的方向相反。\n❌ (C) 「discriminate against」指歧視或差別對待，文中沒有不公平對待的意思。\n❌ (D) 「conflict with」指與……衝突，無法表達興趣與職業的契合。\n📚 出處：英文克漏字｜表達趨向的動詞片語"
   },
   {
    "n": 42,
@@ -605,7 +608,8 @@ window.APP_EXAM_PAPERS['rai-102-1-raia002'] = {
    ],
    "a": 1,
    "needfig": true,
-   "fig": "img/q/102080_301_0202_42.webp"
+   "fig": "img/q/102080_301_0202_42.webp",
+   "exp": "✅ (B) 「overlap」意為「重疊」。前句說許多人有多種興趣，所以同一個人可能同時符合幾種分類，這也解釋了作者為何提醒讀者別把人分得太窄。\n❌ (A) 「disintegrate」指瓦解，多種興趣並存不表示分類會瓦解。\n❌ (C) 「submerge」指淹沒或沉入水中，無法表達類別之間的關係。\n❌ (D) 「vanish」指消失，與多種興趣同時存在的意思不合。\n📚 出處：英文克漏字｜依因果關係判斷動詞語意"
   },
   {
    "n": 43,
@@ -646,7 +650,8 @@ window.APP_EXAM_PAPERS['rai-102-1-raia002'] = {
     "The paper hypothesizes that there is a biochemical foundation for human emotion, while admitting that culturalinfluences cannot be neglected.",
     "It is hypothesized in the paper that human emotion has a biochemical origin and is exempted from culturalinfluences.請回答第 46 題至第 50 題：The Saisiyat people—one of Taiwan’s officially recognized aboriginal groups—have a unique ritual ceremony called"
    ],
-   "a": 2
+   "a": 2,
+   "exp": "✅ (C) 「without scanting」意為「未低估」。論文假設情緒有生化基礎，也承認文化影響可能幾乎同等重要，符合「cannot be neglected」（不可忽視）。\n❌ (A) 「rather than」排除了文化因素，改變原意。\n❌ (B) 「in turn shaped by」把文化寫成塑造生化過程的原因，原句未提出這層因果關係。\n❌ (D) 「exempted from」表示情緒不受文化影響，與原意相反。\n📚 出處：英文句意改寫｜否定片語與因果關係辨析"
   },
   {
    "n": 46,
