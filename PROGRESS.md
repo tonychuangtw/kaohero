@@ -1,10 +1,14 @@
 STATUS: in-progress
 OBJECTIVE: Tony 11/05 #SCGO：A 模擬考靜態頁（已上線）、B 經營外部連結（四平台已決定，帳號狀態由本線待核對）、C 每日小更新（補收國考，每天上架一小批）
-NEXT_ACTION: ① 11/24 本週例外：四類已下載國考共 26 個年度組，Codex 訂閱逐卷補詳解，完成一組自動移進每日上架佇列。由 exp-worker 通知進度與異常。② 本批完成後恢復待上架區剩 ≤7 組才備下一種，順序見 daily-update 頁（地政士不收）。③ B：依 docs/external-first-post-drafts.md 末段接續。Tony 11/14 定位為免費資源分享；Facebook＋方格子兩週試行、可選 Threads 是討論稿，未定案，不自動發布或新增排程。遠端瀏覽器工具已找到，runner／brain 無 kaohero／kaoguhero 命名的會話記錄；待本線可用會話對照或新登入證據再驗證四平台，不每日重掃、不重催帳號。發布前提供平台、位置與定稿給 Tony 確認。
+NEXT_ACTION: ① 待上架佇列剩 ≤7 組才備下一種考試，順序見 daily-update 頁（地政士不收）。每日依既有排程上架。② B：依 docs/external-first-post-drafts.md 末段接續。Tony 11/14 定位為免費資源分享；Facebook＋方格子兩週試行、可選 Threads 是討論稿，未定案，不自動發布或新增排程。遠端瀏覽器工具已找到，runner／brain 無 kaohero／kaoguhero 命名的會話記錄；待本線可用會話對照或新登入證據再驗證四平台，不每日重掃、不重催帳號。發布前提供平台、位置與定稿給 Tony 確認。
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: 方格子帳號待核對（線內查證，非等 Tony，未證實完成）；Medium 帳號待核對（線內查證，非等 Tony，未證實完成）；Dcard 帳號待核對（線內查證，非等 Tony，未證實完成）；PTT 帳號待核對（線內查證，非等 Tony，未證實完成）
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-27 00:09（台北）
+UPDATED: 2026-11-27 04:05（台北）
+
+## 2026-11-27 四類國考備稿完成
+
+- 已核對 tools/release-queue.json：鐵路 11 組、移民行政 3 組、退除役轉任 6 組、國安情報 6 組，共 26 個年度組全數排入待上架佇列。備稿中 0 組，待上架共 46 組。
 
 ## 2026-11-27 GitHub Pages 備援部署
 
