@@ -1,7 +1,8 @@
 name: Deploy to GitHub Pages
+# 2026-11-27：拿掉 push 觸發。正式站在 Cloudflare Pages（tools/cf-deploy.sh），這裡只是備援；
+# 批次每幾分鐘 push 一次時這支常失敗（上傳 artifact 逾時），11/25 一天寄了 104 封失敗信給 Tony。
+# 要更新備援站就到 Actions 手動按 Run workflow（或 gh workflow run）。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
