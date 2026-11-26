@@ -4,7 +4,11 @@ NEXT_ACTION: ① 11/24 本週例外：四類已下載國考共 26 個年度組�
 VALIDATION: node test/test.js 全過；上架後 https://kaohero.com/mock/ 與新考試頁 200；seoaeo check.js
 BLOCKERS: 方格子帳號待核對（線內查證，非等 Tony，未證實完成）；Medium 帳號待核對（線內查證，非等 Tony，未證實完成）；Dcard 帳號待核對（線內查證，非等 Tony，未證實完成）；PTT 帳號待核對（線內查證，非等 Tony，未證實完成）
 PATHS: 消防工作目錄 ~/exam-pdfs/fire（地政士 ~/exam-pdfs/lan 未收）；OpenAI 引擎 tools/exp-openai.js＋exp-prompt-oa.md；社工師工作目錄 ~/exam-pdfs/sw；企劃頁 https://tony-plans.pages.dev/kaohero/seo 、https://tony-plans.pages.dev/kaohero/daily-update ；tools/daily-release.sh、release-queue.json、release-next.js、moex-watch.py；轉檔工作目錄 ~/exam-pdfs/rea（rea／acc 兩個 spec）；scout GSC：claude-shared/tools/scout-search-console.js view <網址>
-UPDATED: 2026-11-24 23:05（台北）
+UPDATED: 2026-11-27 00:09（台北）
+
+## 2026-11-27 GitHub Pages 備援部署
+
+- 已核對 edccabff5 僅保留手動觸發，操作指令與事故原因已補入 CLAUDE.md 及站台維護記錄：https://tony-plans.pages.dev/kaohero/kaohero-site 。
 
 ## 2026-11-24 現有國考試卷一次備稿
 

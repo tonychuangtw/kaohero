@@ -19,7 +19,7 @@
     （排除 tools／docs／test／img/q／*.md）→ `wrangler pages deploy`。急的話手動 `bash tools/cf-deploy.sh --force`；紀錄 ~/.claude/cf-deploy.log
   - 憑證 `~/.config/cloudflare/kaohero.env`：`CF_PAGES_TOKEN`（Pages／R2／DNS 編輯）、`CF_ACCOUNT_ID`；`CF_API_TOKEN` 是舊的只管 DNS。都不進 git
   - DNS：apex 與 www 都是 CNAME → kaohero.pages.dev（橘雲）；img → R2；api → Cloudflare Tunnel。切換前的記錄備份在 ~/.cache/kaohero-dns-backup-20261004.json（回滾用）
-  - 舊的 GitHub Pages 沒關，當備援與 tonychuangtw.github.io/kaohero 的轉址；repo 根目錄 `CNAME` 檔留著給它用。它的 1GB 上限不再影響正式站
+  - 舊的 GitHub Pages 沒關，當備援與 tonychuangtw.github.io/kaohero 的轉址；repo 根目錄 `CNAME` 檔留著給它用。它的 1GB 上限不再影響正式站。備援站不再隨 push 更新，要更新時手動執行 `gh workflow run pages.yml`。
   - 檔案數快到 2 萬時 cf-deploy 會停下不部署（log 有 🔴）：先想辦法把東西搬 R2，不要硬塞
   - 後端已在 `.env` 加 `EXTRA_ORIGINS=https://kaohero.com,https://www.kaohero.com`（server.js 既有機制，不必改程式）
   - Google OAuth 的 authorized JavaScript origins 已加入兩個新網域
